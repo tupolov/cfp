@@ -1,0 +1,13 @@
+# CFP CONTRIBUTOR LIST
+# If you contributed, but are not listed here, contact me:
+# tupolov73@gmail.com
+#
+# Feel free to add yourself to this when creating a pull
+# request, preferably including an email address.
+
+# CORE TEAM
+AccuracyByVolume
+AUTigerGrad
+Tupolov
+
+# CONTRIBUTORS

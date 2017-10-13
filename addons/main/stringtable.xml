@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project name="CFP">
+    <Package name="Main">
+        <Key ID="STR_CFP_Main_URL">
+            <English>https://github.com/tupolov/cfp</English>
+            <German>https://github.com/tupolov/cfp</German>
+            <Polish>https://github.com/tupolov/cfp</Polish>
+            <Portuguese>https://github.com/tupolov/cfp</Portuguese>
+            <Russian>https://github.com/tupolov/cfp</Russian>
+            <Czech>https://github.com/tupolov/cfp</Czech>
+            <Spanish>https://github.com/tupolov/cfp</Spanish>
+            <Italian>https://github.com/tupolov/cfp</Italian>
+            <French>https://github.com/tupolov/cfp</French>
+            <Korean>https://github.com/tupolov/cfp</Korean>
+            <Japanese>https://github.com/tupolov/cfp</Japanese>
+            <Chinesesimp>https://github.com/tupolov/cfp</Chinesesimp>
+            <Chinese>https://github.com/tupolov/cfp</Chinese>
+        </Key>
+    </Package>
+</Project>

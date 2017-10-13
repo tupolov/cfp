@@ -1,3 +1,4 @@
+dir = "@cfp";
 name = "Community Factions Project 0.0.1";
 picture = "logo_cfp_ca.paa";
 actionName = "GitHub";
