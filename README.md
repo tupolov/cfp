@@ -37,7 +37,7 @@ The mod is **built modularly**, so almost any included PBO can be easily removed
 - Introduces 50 new factions based on CUP assets
 - Introduces 50 new factions based on common community addons (VSM, SMA, NIArms, VME etc)
 - Standardizes faction and group configurations for the community
-- Full support for ZEUS, ALiVE and ACE3
+- Full support for ZEUS, ALiVE, ACE3 and VCOM
 
 ## CFP CUP Factions
 
