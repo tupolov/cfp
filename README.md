@@ -1,5 +1,5 @@
 <p align="center">
-    Community Factions Project
+    <img src="https://github.com/tupolov/cfp/raw/master/extras/assets/logo/cfp_small.png" width="480">
 </p>
 
 <p align="center">
