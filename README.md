@@ -21,9 +21,7 @@
 </p>
 
 <p align="center">
-    <sup><strong>Requires the latest version of <a href="https://github.com/CBATeam/CBA_A3/releases">CBA A3</a>.<br/>
-    <sup><strong>Requires the latest version of Community Upgrade Project Weapons, Units and Vehicles.<br/>
-    Visit us on <a href="https://twitter.com/CFPMod">Twitter</a> | <a href="https://www.facebook.com/CFPMod">Facebook</a> | <a href="https://www.youtube.com/c/ACE3Mod">YouTube</a> | <a href="https://www.reddit.com/r/arma/search?q=CFP&restrict_sr=on&sort=new&t=all">Reddit</a></strong></sup>
+    <sup><strong>Requires the latest version of <a href="https://github.com/CBATeam/CBA_A3/releases">CBA A3</a>.<br/>Requires the latest version of Community Upgrade Project (Weapons, Units and Vehicles).<br/>Visit us on <a href="https://twitter.com/CFPMod">Twitter</a> | <a href="https://www.facebook.com/CFPMod">Facebook</a> | <a href="https://www.youtube.com/c/ACE3Mod">YouTube</a> | <a href="https://www.reddit.com/r/arma/search?q=CFP&restrict_sr=on&sort=new&t=all">Reddit</a></strong></sup>
 </p>
 
 **CFP** is a community project to provide real world factions involved in current and historical armed conflicts for Arma 3. CFP comes in two flavours - CFP CUP and CFP Ultimate, both require **Community Upgrade Project (CUP)**. CFP CUP offers not only the vanilla CUP factions but a huge number of new factions using CUP assets. CFP CUP also includes custom textures in order to help expand whats possible with CUP. CFP Ultimate enhances base factions and introduces new factions using the most efficient combination of community gear, weapon and vehicle addons. CPF Ultimate requires VSM, SMA, NIArms, VME PLA and xxx. 
