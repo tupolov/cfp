@@ -897,8 +897,6 @@ class CfgMods {
         author = "CFP Team";
         description = "CFP Issue Tracker: https://github.com/tupolov/cfp/issues";
         dir = "@cfp";
-        hideName = "true";
-        hidePicture = "true";
         name = "Community Factions Project";
         overview = "Community Factions Project, also known as CFP, delivers a huge number of real world factions in order to improve the diversity, realism and authenticity of Arma 3.";
         tooltip = "CFP";

@@ -10,4 +10,4 @@ tooltip = "CFP";
 tooltipOwned = "CFP Owned";
 overview = "Community Factions Project, also known as CFP, delivers a huge number of real world factions in order to improve the diversity, realism and authenticity of Arma 3.";
 author = "CFP Team";
-overviewPicture = "logo_cfp_ca.paa";
+overviewPicture = "picture_cfp_ca.paa";
