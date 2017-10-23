@@ -884,7 +884,7 @@ class CfgPatches {
             "cba_xeh",
             "cba_jr"
         };
-        author = ECSTRING(common,CFPTeam);
+        author = CSTRING(CFPTeam);
         url = CSTRING(URL);
         VERSION_CONFIG;
     };
@@ -901,6 +901,10 @@ class CfgMods {
         overview = "Community Factions Project, also known as CFP, delivers a huge number of real world factions in order to improve the diversity, realism and authenticity of Arma 3.";
         tooltip = "CFP";
         tooltipOwned = "CFP Owned";
+        logo = "logo_cfp_ca.paa";
+        logoOver = "logo_cfp_ca.paa";
+        logoSmall = "logo_cfp_ca.paa";
+        picture = "picture_cfp_ca.paa";
     };
 };
 

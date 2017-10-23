@@ -16,5 +16,20 @@
             <Chinesesimp>https://github.com/tupolov/cfp</Chinesesimp>
             <Chinese>https://github.com/tupolov/cfp</Chinese>
         </Key>
+        <Key ID="STR_CFP_Main_CFPTeam">
+            <English>CFP Team</English>
+            <German>CFP Team</German>
+            <Polish>CFP Team</Polish>
+            <Portuguese>CFP Team</Portuguese>
+            <Russian>CFP Team</Russian>
+            <Czech>CFP Team</Czech>
+            <Spanish>CFP Team</Spanish>
+            <Italian>CFP Team</Italian>
+            <French>CFP Team</French>
+            <Korean>CFP Team</Korean>
+            <Japanese>CFP Team</Japanese>
+            <Chinesesimp>CFP Team</Chinesesimp>
+            <Chinese>CFP Team</Chinese>
+        </Key>        
     </Package>
 </Project>

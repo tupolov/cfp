@@ -17,3 +17,5 @@
 #else
     #define COMPONENT_NAME QUOTE(CFP - COMPONENT)
 #endif
+
+#define MODULE_AUTHOR QUOTE(CFP Team)

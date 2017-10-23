@@ -72,8 +72,8 @@ dssignfile = ""
 prefix = "cfp"
 pbo_name_prefix = "cfp_"
 signature_blacklist = ["cfp_server.pbo"]
-importantFiles = ["mod.cpp", "README.md", "docs\\README_DE.md", "docs\\README_PL.md", "AUTHORS.txt", "LICENSE", "logo_cfp_ca.paa", "meta.cpp"]
-versionFiles = ["README.md", "docs\\README_DE.md", "docs\\README_PL.md", "mod.cpp"]
+importantFiles = ["mod.cpp", "README.md", "AUTHORS.txt", "LICENSE", "logo_cfp_ca.paa", "meta.cpp"]
+versionFiles = ["README.md", "mod.cpp"]
 
 ciBuild = False # Used for CI builds
 
