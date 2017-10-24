@@ -1,0 +1,14 @@
+TO DO
+
+1. Investigate why base BIS A3 classes are displayed as CFP mod items
+2. Fix alpha in item preview images
+3. Split out common_character? move camo/uniforms to appropriate factions?
+4. Fix Offroad config
+5. Fix holster - not aligned correctly
+6. Fix kneepads, gasmask p3d errors
+7. Fix VR Entity errors - backpack?
+8. Check to see if we need OFP2 Man definitions (conflict with CUP)
+9. Add dependency on CUP
+10. Add units, weapons etc to CfgPatches
+11. Add updated CUP factions
+12. Add new factions
