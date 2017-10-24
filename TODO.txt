@@ -12,3 +12,4 @@ TO DO
 10. Add units, weapons etc to CfgPatches
 11. Add updated CUP factions
 12. Add new factions
+13. Test Make.py

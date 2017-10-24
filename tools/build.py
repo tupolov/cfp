@@ -76,9 +76,9 @@ def main():
                 p,
                 "{}{}.pbo".format(PREFIX,p)
             ], stderr=subprocess.STDOUT)
-        except:
+        except subprocess.CalledProcessError as e:
             failed += 1
-            print("  Failed to make {}.".format(p))
+            print("  Failed to make {}. ERROR: {}".format(p,e.output))
         else:
             made += 1
             print("  Successfully made {}.".format(p))
