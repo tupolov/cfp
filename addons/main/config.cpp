@@ -904,7 +904,7 @@ class CfgMods {
         logo = "logo_cfp_ca.paa";
         logoOver = "logo_cfp_ca.paa";
         logoSmall = "logo_cfp_ca.paa";
-        picture = "picture_cfp_ca.paa";
+        picture = "\x\cfp\addons\main\data\logos\picture_cfp_ca.paa";
     };
 };
 

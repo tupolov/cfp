@@ -1,6 +1,6 @@
 dir = "@cfp";
 name = "Community Factions Project 0.0.1";
-picture = "picture_cfp_ca.paa";
+picture = "\x\cfp\addons\main\data\logos\picture_cfp_ca.paa";
 actionName = "GitHub";
 action = "https://github.com/tupolov/cfp";
 description = "CFP - Version 0.0.1";
@@ -11,4 +11,4 @@ tooltip = "CFP";
 tooltipOwned = "CFP Owned";
 overview = "Community Factions Project, also known as CFP, delivers a huge number of real world factions in order to improve the diversity, realism and authenticity of Arma 3.";
 author = "CFP Team";
-overviewPicture = "picture_cfp_ca.paa";
+overviewPicture = "\x\cfp\addons\main\data\logos\picture_cfp_ca.paa";
