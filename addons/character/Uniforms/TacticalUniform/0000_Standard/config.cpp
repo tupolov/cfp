@@ -38,15 +38,7 @@ class CfgPatches
 };
 
 
-class CfgFactionClasses {
-	class CFP_TEST {
-		displayName = "CFP TEST";
-		priority = 100;
-		side = 1;
-		icon = "\x\cfp\addons\character\Uniforms\Icon\Icon.jpg";
 
-	};
-};
 
 
 class CfgVehicleClasses
@@ -69,9 +61,10 @@ class CfgVehicles
 	class SP_0000_Standard_TacticalUniform_Black: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Tactical Uniform (Black)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_TacticalUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -101,9 +94,10 @@ class CfgVehicles
 	class SP_0000_Standard_TacticalUniform_Black_SS: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Tactical Uniform SS (Black)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_TacticalUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -132,9 +126,10 @@ class CfgVehicles
 	class SP_0000_Standard_TacticalUniform_Black_TS: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Tactical Uniform TS (Black)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_TacticalUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -165,9 +160,10 @@ class CfgVehicles
 	class SP_0000_Standard_TacticalUniform_Green: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Tactical Uniform (Green)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_TacticalUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -196,9 +192,10 @@ class CfgVehicles
 	class SP_0000_Standard_TacticalUniform_Green_SS: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Tactical Uniform SS (Green)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_TacticalUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -228,9 +225,10 @@ class CfgVehicles
 	class SP_0000_Standard_TacticalUniform_Green_TS: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Tactical Uniform TS (Green)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_TacticalUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -262,9 +260,10 @@ class CfgVehicles
 	class SP_0000_Standard_TacticalUniform_Tan: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Tactical Uniform (Tan)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_TacticalUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -293,9 +292,10 @@ class CfgVehicles
 	class SP_0000_Standard_TacticalUniform_Tan_SS: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Tactical Uniform SS (Tan)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_TacticalUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -324,9 +324,10 @@ class CfgVehicles
 	class SP_0000_Standard_TacticalUniform_Tan_TS: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Tactical Uniform TS (Tan)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_TacticalUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -357,9 +358,10 @@ class CfgVehicles
 	class SP_0000_Standard_TacticalUniform_Grey: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Tactical Uniform (Grey)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_TacticalUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -388,9 +390,10 @@ class CfgVehicles
 	class SP_0000_Standard_TacticalUniform_Grey_SS: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Tactical Uniform SS (Grey)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_TacticalUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -420,9 +423,10 @@ class CfgVehicles
 	class SP_0000_Standard_TacticalUniform_Grey_TS: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Tactical Uniform TS (Grey)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_TacticalUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -455,9 +459,10 @@ class CfgVehicles
 	class SP_0000_Standard_TacticalUniform_BlueDark: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Tactical Uniform (Blue Dark)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_TacticalUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -487,9 +492,10 @@ class CfgVehicles
 	class SP_0000_Standard_TacticalUniform_BlueDark_SS: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Tactical Uniform SS (Blue Dark)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_TacticalUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -519,9 +525,10 @@ class CfgVehicles
 	class SP_0000_Standard_TacticalUniform_BlueDark_TS: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Tactical Uniform TS (Blue Dark)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_TacticalUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -552,9 +559,10 @@ class CfgVehicles
 	class SP_0000_Standard_TacticalUniform_BlueFrost: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Tactical Uniform (Blue Frost)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_TacticalUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -584,9 +592,10 @@ class CfgVehicles
 	class SP_0000_Standard_TacticalUniform_BlueFrost_SS: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Tactical Uniform SS (Blue Frost)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_TacticalUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -615,9 +624,10 @@ class CfgVehicles
 	class SP_0000_Standard_TacticalUniform_BlueFrost_TS: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Tactical Uniform TS (Blue Frost)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_TacticalUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -647,9 +657,10 @@ class CfgVehicles
 	class SP_0000_Standard_TacticalUniform_GreenOlive: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Tactical Uniform (Green Olive)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_TacticalUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -678,9 +689,10 @@ class CfgVehicles
 	class SP_0000_Standard_TacticalUniform_GreenOlive_SS: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Tactical Uniform SS (Green Olive)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_TacticalUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -710,9 +722,10 @@ class CfgVehicles
 	class SP_0000_Standard_TacticalUniform_GreenOlive_TS: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Tactical Uniform TS (Green Olive)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_TacticalUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -742,9 +755,10 @@ class CfgVehicles
 	class SP_0000_Standard_TacticalUniform_Hunter: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Tactical Uniform (Hunter)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_TacticalUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -773,9 +787,10 @@ class CfgVehicles
 	class SP_0000_Standard_TacticalUniform_Hunter_SS: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Tactical Uniform SS (Hunter)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_TacticalUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -804,9 +819,10 @@ class CfgVehicles
 	class SP_0000_Standard_TacticalUniform_Hunter_TS: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Tactical Uniform TS (Hunter)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_TacticalUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -835,9 +851,10 @@ class CfgVehicles
 	class SP_0000_Standard_TacticalUniform_Hunter2: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Tactical Uniform (Hunter2)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_TacticalUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -866,9 +883,10 @@ class CfgVehicles
 	class SP_0000_Standard_TacticalUniform_Hunter2_SS: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Tactical Uniform SS (Hunter2)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_TacticalUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -897,9 +915,10 @@ class CfgVehicles
 	class SP_0000_Standard_TacticalUniform_Hunter2_TS: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Tactical Uniform TS (Hunter2)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_TacticalUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -929,9 +948,10 @@ class CfgVehicles
 	class SP_0000_Standard_TacticalUniform_ATacsFG: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Tactical Uniform (A-Tacs FG)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_TacticalUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -960,9 +980,10 @@ class CfgVehicles
 	class SP_0000_Standard_TacticalUniform_ATacsFG_SS: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Tactical Uniform SS (A-Tacs FG)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_TacticalUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -991,9 +1012,10 @@ class CfgVehicles
 	class SP_0000_Standard_TacticalUniform_ATacsFG_TS: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Tactical Uniform TS (A-Tacs FG)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_TacticalUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -1023,9 +1045,10 @@ class CfgVehicles
 	class SP_0000_Standard_TacticalUniform_NodUrban: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Tactical Uniform (Nod Urban)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_TacticalUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -1054,9 +1077,10 @@ class CfgVehicles
 	class SP_0000_Standard_TacticalUniform_NodUrban_SS: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Tactical Uniform SS (Nod Urban)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_TacticalUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -1085,9 +1109,10 @@ class CfgVehicles
 	class SP_0000_Standard_TacticalUniform_NodUrban_TS: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Tactical Uniform TS (Nod Urban)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_TacticalUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -1140,7 +1165,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_TacticalUniform_Black: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Black (Tactical Uniform)";
 		picture = "\x\cfp\addons\character\Uniforms\TacticalUniform\0000_Standard\ui\Black.jpg";
@@ -1158,7 +1183,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_TacticalUniform_Black_SS: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Black (Tactical Uniform SS)";
 		picture = "\x\cfp\addons\character\Uniforms\TacticalUniform\0000_Standard\ui\Black.jpg";
@@ -1176,7 +1201,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_TacticalUniform_Black_TS: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Black (Tactical Uniform TS)";
 		picture = "\x\cfp\addons\character\Uniforms\TacticalUniform\0000_Standard\ui\BlackTS.jpg";
@@ -1194,7 +1219,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_TacticalUniform_Green: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Green (Tactical Uniform)";
 		picture = "\x\cfp\addons\character\Uniforms\TacticalUniform\0000_Standard\ui\Green.jpg";
@@ -1212,7 +1237,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_TacticalUniform_Green_SS: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Green (Tactical Uniform SS)";
 		picture = "\x\cfp\addons\character\Uniforms\TacticalUniform\0000_Standard\ui\Green.jpg";
@@ -1230,7 +1255,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_TacticalUniform_Green_TS: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Green (Tactical Uniform TS)";
 		picture = "\x\cfp\addons\character\Uniforms\TacticalUniform\0000_Standard\ui\GreenTS.jpg";
@@ -1249,7 +1274,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_TacticalUniform_Tan: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Tan (Tactical Uniform)";
 		picture = "\x\cfp\addons\character\Uniforms\TacticalUniform\0000_Standard\ui\Tan.jpg";
@@ -1267,7 +1292,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_TacticalUniform_Tan_SS: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Tan (Tactical Uniform SS)";
 		picture = "\x\cfp\addons\character\Uniforms\TacticalUniform\0000_Standard\ui\Tan.jpg";
@@ -1285,7 +1310,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_TacticalUniform_Tan_TS: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Tan (Tactical Uniform TS)";
 		picture = "\x\cfp\addons\character\Uniforms\TacticalUniform\0000_Standard\ui\TanTS.jpg";
@@ -1305,7 +1330,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_TacticalUniform_Grey: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Grey (Tactical Uniform)";
 		picture = "\x\cfp\addons\character\Uniforms\TacticalUniform\0000_Standard\ui\Grey.jpg";
@@ -1323,7 +1348,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_TacticalUniform_Grey_SS: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Grey (Tactical Uniform SS)";
 		picture = "\x\cfp\addons\character\Uniforms\TacticalUniform\0000_Standard\ui\Grey.jpg";
@@ -1342,7 +1367,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_TacticalUniform_Grey_TS: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Grey (Tactical Uniform TS)";
 		picture = "\x\cfp\addons\character\Uniforms\TacticalUniform\0000_Standard\ui\GreyTS.jpg";
@@ -1362,7 +1387,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_TacticalUniform_BlueDark: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Blue Dark (Tactical Uniform)";
 		picture = "\x\cfp\addons\character\Uniforms\TacticalUniform\0000_Standard\ui\BlueDark.jpg";
@@ -1380,7 +1405,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_TacticalUniform_BlueDark_SS: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Blue Dark (Tactical Uniform SS)";
 		picture = "\x\cfp\addons\character\Uniforms\TacticalUniform\0000_Standard\ui\BlueDark.jpg";
@@ -1398,7 +1423,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_TacticalUniform_BlueDark_TS: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Blue Dark (Tactical Uniform TS)";
 		picture = "\x\cfp\addons\character\Uniforms\TacticalUniform\0000_Standard\ui\BlueDarkTS.jpg";
@@ -1416,7 +1441,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_TacticalUniform_BlueFrost: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Blue Frost (Tactical Uniform)";
 		picture = "\x\cfp\addons\character\Uniforms\TacticalUniform\0000_Standard\ui\BlueFrost.jpg";
@@ -1434,7 +1459,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_TacticalUniform_BlueFrost_SS: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Blue Frost (Tactical Uniform SS)";
 		picture = "\x\cfp\addons\character\Uniforms\TacticalUniform\0000_Standard\ui\BlueFrost.jpg";
@@ -1452,7 +1477,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_TacticalUniform_BlueFrost_TS: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Blue Frost (Tactical Uniform TS)";
 		picture = "\x\cfp\addons\character\Uniforms\TacticalUniform\0000_Standard\ui\BlueFrostTS.jpg";
@@ -1471,7 +1496,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_TacticalUniform_GreenOlive: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Green Olive (Tactical Uniform)";
 		picture = "\x\cfp\addons\character\Uniforms\TacticalUniform\0000_Standard\ui\GreenOlive.jpg";
@@ -1489,7 +1514,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_TacticalUniform_GreenOlive_SS: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Green Olive (Tactical Uniform SS)";
 		picture = "\x\cfp\addons\character\Uniforms\TacticalUniform\0000_Standard\ui\GreenOlive.jpg";
@@ -1507,7 +1532,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_TacticalUniform_GreenOlive_TS: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Green Olive (Tactical Uniform TS)";
 		picture = "\x\cfp\addons\character\Uniforms\TacticalUniform\0000_Standard\ui\GreenOliveTS.jpg";
@@ -1526,7 +1551,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_TacticalUniform_Hunter: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Hunter (Tactical Uniform)";
 		picture = "\x\cfp\addons\character\Uniforms\TacticalUniform\0000_Standard\ui\Hunter.jpg";
@@ -1544,7 +1569,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_TacticalUniform_Hunter_SS: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Hunter (Tactical Uniform SS)";
 		picture = "\x\cfp\addons\character\Uniforms\TacticalUniform\0000_Standard\ui\Hunter.jpg";
@@ -1562,7 +1587,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_TacticalUniform_Hunter_TS: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Hunter (Tactical Uniform TS)";
 		picture = "\x\cfp\addons\character\Uniforms\TacticalUniform\0000_Standard\ui\HunterTS.jpg";
@@ -1580,7 +1605,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_TacticalUniform_Hunter2: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Hunter2 (Tactical Uniform)";
 		picture = "\x\cfp\addons\character\Uniforms\TacticalUniform\0000_Standard\ui\Hunter2.jpg";
@@ -1598,7 +1623,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_TacticalUniform_Hunter2_SS: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Hunter2 (Tactical Uniform SS)";
 		picture = "\x\cfp\addons\character\Uniforms\TacticalUniform\0000_Standard\ui\Hunter2.jpg";
@@ -1616,7 +1641,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_TacticalUniform_Hunter2_TS: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Hunter2 (Tactical Uniform TS)";
 		picture = "\x\cfp\addons\character\Uniforms\TacticalUniform\0000_Standard\ui\Hunter2TS.jpg";
@@ -1636,7 +1661,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_TacticalUniform_ATacsFG: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard A-Tacs FG (Tactical Uniform)";
 		picture = "\x\cfp\addons\character\Uniforms\TacticalUniform\0000_Standard\ui\ATacsFG.jpg";
@@ -1654,7 +1679,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_TacticalUniform_ATacsFG_SS: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard A-Tacs FG (Tactical Uniform SS)";
 		picture = "\x\cfp\addons\character\Uniforms\TacticalUniform\0000_Standard\ui\ATacsFG.jpg";
@@ -1672,7 +1697,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_TacticalUniform_ATacsFG_TS: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard A-Tacs FG (Tactical Uniform TS)";
 		picture = "\x\cfp\addons\character\Uniforms\TacticalUniform\0000_Standard\ui\ATacsFGTS.jpg";
@@ -1690,7 +1715,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_TacticalUniform_NodUrban: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard NodUrban (Tactical Uniform)";
 		picture = "\x\cfp\addons\character\Uniforms\TacticalUniform\0000_Standard\ui\NodUrban.jpg";
@@ -1708,7 +1733,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_TacticalUniform_NodUrban_SS: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Nod Urban (Tactical Uniform SS)";
 		picture = "\x\cfp\addons\character\Uniforms\TacticalUniform\0000_Standard\ui\NodUrban.jpg";
@@ -1726,7 +1751,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_TacticalUniform_NodUrban_TS: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Nod Urban (Tactical Uniform TS)";
 		picture = "\x\cfp\addons\character\Uniforms\TacticalUniform\0000_Standard\ui\NodUrbanTS.jpg";

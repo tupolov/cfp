@@ -248,43 +248,43 @@ class CfgVehicles
 	{
 		displayName = "Driver (black)";
 		modelsides[] = {3,2,1,0};
-		scope = 2;
+		scope = 1;
 	};
 	class C_Driver_1_blue_F: C_Driver_1_random_base_F
 	{
 		displayName = "Driver (blue)";
 		modelsides[] = {3,2,1,0};
-		scope = 2;
+		scope = 1;
 	};
 	class C_Driver_1_green_F: C_Driver_1_random_base_F
 	{
 		displayName = "Driver (green)";
 		modelsides[] = {3,2,1,0};
-		scope = 2;
+		scope = 1;
 	};
 	class C_Driver_1_red_F: C_Driver_1_random_base_F
 	{
 		displayName = "Driver (red)";
 		modelsides[] = {3,2,1,0};
-		scope = 2;
+		scope = 1;
 	};
 	class C_Driver_1_white_F: C_Driver_1_random_base_F
 	{
 		displayName = "Driver (white)";
 		modelsides[] = {3,2,1,0};
-		scope = 2;
+		scope = 1;
 	};
 	class C_Driver_1_yellow_F: C_Driver_1_random_base_F
 	{
 		displayName = "Driver (yellow)";
 		modelsides[] = {3,2,1,0};
-		scope = 2;
+		scope = 1;
 	};
 	class C_Driver_1_orange_F: C_Driver_1_random_base_F
 	{
 		displayName = "Driver (orange)";
 		modelsides[] = {3,2,1,0};
-		scope = 2;
+		scope = 1;
 	};
 };
 //};

@@ -30,7 +30,7 @@ class CfgPatches
 		units[] = {};
 		weapons[] = {};
 		requiredVersion = 0.1;
-		requiredAddons[] = {};
+		requiredAddons[] = {"A3_Characters_F"};
 	};
 };
 

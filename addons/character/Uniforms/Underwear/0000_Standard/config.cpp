@@ -38,15 +38,7 @@ class CfgPatches
 };
 
 
-class CfgFactionClasses {
-	class CFP_TEST {
-		displayName = "CFP TEST";
-		priority = 100;
-		side = 1;
-		icon = "\x\cfp\addons\character\Uniforms\Icon\Icon.jpg";
 
-	};
-};
 
 
 class CfgVehicleClasses
@@ -69,9 +61,10 @@ class CfgVehicles
 	class SP_0000_Standard_Underwear_Black: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Underwear (Black)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_Underwear";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -101,9 +94,10 @@ class CfgVehicles
 	class SP_0000_Standard_Underwear_Green: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Underwear (Green)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_Underwear";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -133,9 +127,10 @@ class CfgVehicles
 	class SP_0000_Standard_Underwear_Tan: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Underwear (Tan)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_Underwear";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -165,9 +160,10 @@ class CfgVehicles
 	class SP_0000_Standard_Underwear_Grey: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Underwear (Grey)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_Underwear";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -197,9 +193,10 @@ class CfgVehicles
 	class SP_0000_Standard_Underwear_BlueDark: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Underwear (Blue Dark)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_Underwear";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -230,9 +227,10 @@ class CfgVehicles
 	class SP_0000_Standard_Underwear_BlueFrost: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Underwear (Blue Frost)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_Underwear";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -261,9 +259,10 @@ class CfgVehicles
 	class SP_0000_Standard_Underwear_BlueSky: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Underwear (Blue Sky)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_Underwear";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -295,9 +294,10 @@ class CfgVehicles
 	class SP_0000_Standard_Underwear_GreenOlive: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Underwear (Green Olive)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_Underwear";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -327,9 +327,10 @@ class CfgVehicles
 	class SP_0000_Standard_Underwear_GreenSpring: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Underwear (Green Spring)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_Underwear";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -359,9 +360,10 @@ class CfgVehicles
 	class SP_0000_Standard_Underwear_Brown: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Underwear (Brown)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_Underwear";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -391,9 +393,10 @@ class CfgVehicles
 	class SP_0000_Standard_Underwear_Olive: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Underwear (Olive)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_Underwear";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -424,9 +427,10 @@ class CfgVehicles
 	class SP_0000_Standard_Underwear_Orange: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Underwear (Orange)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_Underwear";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -456,9 +460,10 @@ class CfgVehicles
 	class SP_0000_Standard_Underwear_Pink: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Underwear (Pink)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_Underwear";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -487,9 +492,10 @@ class CfgVehicles
 	class SP_0000_Standard_Underwear_Purple: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Underwear (Purple)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_Underwear";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -518,9 +524,10 @@ class CfgVehicles
 	class SP_0000_Standard_Underwear_Red: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Underwear (Red)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_Underwear";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -550,9 +557,10 @@ class CfgVehicles
 	class SP_0000_Standard_Underwear_White: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Underwear (White)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_Underwear";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -582,9 +590,10 @@ class CfgVehicles
 	class SP_0000_Standard_Underwear_Yellow: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Underwear (Yellow)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_Underwear";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -633,7 +642,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_Underwear_Black: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Black (Underwear)";
 		picture = "\x\cfp\addons\character\Uniforms\Underwear\0000_Standard\ui\Black.jpg";
@@ -653,7 +662,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_Underwear_Green: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Green (Underwear)";
 		picture = "\x\cfp\addons\character\Uniforms\Underwear\0000_Standard\ui\Green.jpg";
@@ -673,7 +682,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_Underwear_Tan: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Tan (Underwear)";
 		picture = "\x\cfp\addons\character\Uniforms\Underwear\0000_Standard\ui\Tan.jpg";
@@ -694,7 +703,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_Underwear_Grey: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Grey (Underwear)";
 		picture = "\x\cfp\addons\character\Uniforms\Underwear\0000_Standard\ui\Grey.jpg";
@@ -714,7 +723,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_Underwear_BlueDark: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Blue Dark (Underwear)";
 		picture = "\x\cfp\addons\character\Uniforms\Underwear\0000_Standard\ui\BlueDark.jpg";
@@ -734,7 +743,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_Underwear_BlueFrost: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Blue Frost (Underwear)";
 		picture = "\x\cfp\addons\character\Uniforms\Underwear\0000_Standard\ui\BlueFrost.jpg";
@@ -753,7 +762,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_Underwear_BlueSky: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Blue Sky (Underwear)";
 		picture = "\x\cfp\addons\character\Uniforms\Underwear\0000_Standard\ui\BlueSky.jpg";
@@ -774,7 +783,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_Underwear_GreenOlive: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Green Olive (Underwear)";
 		picture = "\x\cfp\addons\character\Uniforms\Underwear\0000_Standard\ui\GreenOlive.jpg";
@@ -793,7 +802,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_Underwear_GreenSpring: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Green Spring (Underwear)";
 		picture = "\x\cfp\addons\character\Uniforms\Underwear\0000_Standard\ui\GreenSpring.jpg";
@@ -814,7 +823,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_Underwear_Brown: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Brown (Underwear)";
 		picture = "\x\cfp\addons\character\Uniforms\Underwear\0000_Standard\ui\Brown.jpg";
@@ -833,7 +842,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_Underwear_Olive: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Olive (Underwear)";
 		picture = "\x\cfp\addons\character\Uniforms\Underwear\0000_Standard\ui\Olive.jpg";
@@ -852,7 +861,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_Underwear_Orange: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Orange (Underwear)";
 		picture = "\x\cfp\addons\character\Uniforms\Underwear\0000_Standard\ui\Orange.jpg";
@@ -872,7 +881,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_Underwear_Pink: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Pink (Underwear)";
 		picture = "\x\cfp\addons\character\Uniforms\Underwear\0000_Standard\ui\Pink.jpg";
@@ -891,7 +900,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_Underwear_Purple: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Purple (Underwear)";
 		picture = "\x\cfp\addons\character\Uniforms\Underwear\0000_Standard\ui\Purple.jpg";
@@ -910,7 +919,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_Underwear_Red: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Red (Underwear)";
 		picture = "\x\cfp\addons\character\Uniforms\Underwear\0000_Standard\ui\Red.jpg";
@@ -929,7 +938,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_Underwear_White: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard White (Underwear)";
 		picture = "\x\cfp\addons\character\Uniforms\Underwear\0000_Standard\ui\White.jpg";
@@ -948,7 +957,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_Underwear_Yellow: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Yellow (Underwear)";
 		picture = "\x\cfp\addons\character\Uniforms\Underwear\0000_Standard\ui\Yellow.jpg";

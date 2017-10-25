@@ -34,15 +34,6 @@ class CfgPatches
 	};
 };
 
-class CfgFactionClasses {
-	class CFP_Camo {
-		displayName = "CFP Camo";
-		priority = 100;
-		side = 1;
-		icon = "\x\cfp\addons\character\Uniforms\Icon\AFG.jpg";
-
-	};
-};
 
 class CfgVehicleClasses
 {
@@ -62,9 +53,10 @@ class CfgVehicles
 	class AFG_2009Spec4ceSierra_BattleDressUniform: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "(Battle Dress Uniform)";
-		faction = "CFP_Camo";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "AFG_2009Spec4ceSierra";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -90,9 +82,10 @@ class CfgVehicles
         class AFG_2009Spec4ceSierra_PulloverUniform: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "(Pullover Uniform)";
-		faction = "CFP_Camo";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "AFG_2009Spec4ceSierra";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -118,9 +111,10 @@ class CfgVehicles
         class AFG_2009Spec4ceSierra_ReconUniform: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "(Recon Uniform)";
-		faction = "CFP_Camo";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "AFG_2009Spec4ceSierra";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -146,9 +140,10 @@ class CfgVehicles
 	class AFG_2009Spec4ceSierra_FieldUniform: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "(Field Uniform)";
-		faction = "CFP_Camo";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "AFG_2009Spec4ceSierra";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -178,9 +173,10 @@ class CfgVehicles
 	class AFG_2009Spec4ceSierra_FieldUniform_SS: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "(Field Uniform SS)";
-		faction = "CFP_Camo";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "AFG_2009Spec4ceSierra";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -206,9 +202,10 @@ class CfgVehicles
 	class AFG_2009Spec4ceSierra_TacticalUniform: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "(Tactical Uniform)";
-		faction = "CFP_Camo";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "AFG_2009Spec4ceSierra";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -238,9 +235,10 @@ class CfgVehicles
 	class AFG_2009Spec4ceSierra_TacticalUniform_SS: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "(Tactical Uniform SS)";
-		faction = "CFP_Camo";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "AFG_2009Spec4ceSierra";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -267,9 +265,10 @@ class CfgVehicles
 	class AFG_2009Spec4ceSierra_TacticalUniform_TS: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "(Tactical Uniform TS)";
-		faction = "CFP_Camo";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "AFG_2009Spec4ceSierra";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -306,7 +305,7 @@ class CfgVehicles
 
 		class AFG_2009Spec4ceSierra_BattleDressUniform: Uniform_Base
 		{
-			scope=1;
+			scope=2;
 			model = "\x\cfp\addons\character\Models\Suitpack";
 			displayName = "Afghanistan 2009 Spec4ce Sierra (Battle Dress Uniform)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2009Spec4ceSierra\ui\BattleDressUniform.jpg";
@@ -322,7 +321,7 @@ class CfgVehicles
 		};
         class AFG_2009Spec4ceSierra_PulloverUniform: Uniform_Base
 		{
-			scope=1;
+			scope=2;
 			model = "\x\cfp\addons\character\Models\Suitpack";
 			displayName = "Afghanistan 2009 Spec4ce Sierra (Pullover Uniform)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2009Spec4ceSierra\ui\PulloverUniform.jpg";
@@ -338,7 +337,7 @@ class CfgVehicles
 		};
         class AFG_2009Spec4ceSierra_ReconUniform: Uniform_Base
 		{
-			scope=1;
+			scope=2;
 			model = "\x\cfp\addons\character\Models\Suitpack";
 			displayName = "Afghanistan 2009 Spec4ce Sierra (Recon Uniform)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2009Spec4ceSierra\ui\ReconUniform.jpg";
@@ -356,7 +355,7 @@ class CfgVehicles
 
 		class AFG_2009Spec4ceSierra_FieldUniform: Uniform_Base
 		{
-			scope=1;
+			scope=2;
 			model = "\x\cfp\addons\character\Models\Suitpack";
 			displayName = "Afghanistan 2009 Spec4ce Sierra (Field Uniform)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2009Spec4ceSierra\ui\FieldUniform.jpg";
@@ -373,7 +372,7 @@ class CfgVehicles
 
 		class AFG_2009Spec4ceSierra_FieldUniform_SS: Uniform_Base
 		{
-			scope=1;
+			scope=2;
 			model = "\x\cfp\addons\character\Models\Suitpack";
 			displayName = "Afghanistan 2009 Spec4ce Sierra (Field Uniform SS)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2009Spec4ceSierra\ui\FieldUniform.jpg";
@@ -390,7 +389,7 @@ class CfgVehicles
 
 		class AFG_2009Spec4ceSierra_TacticalUniform: Uniform_Base
 		{
-			scope=1;
+			scope=2;
 			model = "\x\cfp\addons\character\Models\Suitpack";
 			displayName = "Afghanistan 2009 Spec4ce Sierra (Tactical Uniform)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2009Spec4ceSierra\ui\TacticalUniform.jpg";
@@ -407,7 +406,7 @@ class CfgVehicles
 
 		class AFG_2009Spec4ceSierra_TacticalUniform_SS: Uniform_Base
 		{
-			scope=1;
+			scope=2;
 			model = "\x\cfp\addons\character\Models\Suitpack";
 			displayName = "Afghanistan 2009 Spec4ce Sierra (Tactical Uniform SS)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2009Spec4ceSierra\ui\TacticalUniform.jpg";
@@ -424,7 +423,7 @@ class CfgVehicles
 
 		class AFG_2009Spec4ceSierra_TacticalUniform_TS: Uniform_Base
 		{
-			scope=1;
+			scope=2;
 			model = "\x\cfp\addons\character\Models\Suitpack";
 			displayName = "Afghanistan 2009 Spec4ce Sierra (Tactical Uniform TS)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2009Spec4ceSierra\ui\TacticalUniformTS.jpg";

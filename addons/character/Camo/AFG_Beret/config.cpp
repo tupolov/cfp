@@ -48,7 +48,7 @@ class cfgWeapons
 
 	class AFG_Beret_ArmyGreen: ItemCore
 	{
-		scope = 2;
+		scope = 1;
 		weaponPoolAvailable = 1;
 		displayName = "AFG Beret (Army Green)";
 		picture = "\x\cfp\addons\character\Camo\AFG_Beret\ui\ArmyGreen.jpg";
@@ -73,7 +73,7 @@ class cfgWeapons
 
 	class AFG_Beret_CommandoRed: ItemCore
 	{
-		scope = 2;
+		scope = 1;
 		weaponPoolAvailable = 1;
 		displayName = "AFG Beret (Commando Red)";
 		picture = "\x\cfp\addons\character\Camo\AFG_Beret\ui\CommandoRed.jpg";

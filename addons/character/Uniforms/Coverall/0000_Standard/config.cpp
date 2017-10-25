@@ -38,15 +38,7 @@ class CfgPatches
 };
 
 
-class CfgFactionClasses {
-	class CFP_TEST {
-		displayName = "CFP TEST";
-		priority = 100;
-		side = 1;
-		icon = "\x\cfp\addons\character\Uniforms\Icon\Icon.jpg";
 
-	};
-};
 
 
 class CfgVehicleClasses
@@ -69,9 +61,10 @@ class CfgVehicles
 	class SP_0000_Standard_Coverall_Black: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Coverall (Black)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_Coverall";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -103,9 +96,10 @@ class CfgVehicles
 	class SP_0000_Standard_Coverall_Green: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Coverall (Green)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_Coverall";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -136,9 +130,10 @@ class CfgVehicles
 	class SP_0000_Standard_Coverall_Tan: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Coverall (Tan)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_Coverall";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -168,9 +163,10 @@ class CfgVehicles
 	class SP_0000_Standard_Coverall_Grey: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Coverall (Grey)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_Coverall";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -201,9 +197,10 @@ class CfgVehicles
 	class SP_0000_Standard_Coverall_BlueDark: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Coverall (Blue Dark)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_Coverall";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -234,9 +231,10 @@ class CfgVehicles
 	class SP_0000_Standard_Coverall_BlueFrost: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Coverall (Blue Frost)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_Coverall";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -267,9 +265,10 @@ class CfgVehicles
 	class SP_0000_Standard_Coverall_GreenOlive: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Coverall (Green Olive)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_Coverall";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -298,9 +297,10 @@ class CfgVehicles
 	class SP_0000_Standard_Coverall_White: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Coverall (White)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_Coverall";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -330,9 +330,10 @@ class CfgVehicles
 	class SP_0000_Standard_Coverall_Red: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Coverall (Red)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_Coverall";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -362,9 +363,10 @@ class CfgVehicles
 	class SP_0000_Standard_Coverall_Yellow: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Coverall (Yellow)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_Coverall";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -393,9 +395,10 @@ class CfgVehicles
 	class SP_0000_Standard_Coverall_Brown: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Coverall (Brown)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_Coverall";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -424,9 +427,10 @@ class CfgVehicles
 	class SP_0000_Standard_Coverall_Orange: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Coverall (Orange)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_Coverall";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -473,7 +477,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_Coverall_Black: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Coverall Standard (Black)";
 		picture = "\x\cfp\addons\character\Uniforms\Coverall\0000_Standard\ui\Black.jpg";
@@ -492,7 +496,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_Coverall_Green: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Coverall Standard (Green)";
 		picture = "\x\cfp\addons\character\Uniforms\Coverall\0000_Standard\ui\Green.jpg";
@@ -512,7 +516,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_Coverall_Tan: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Coverall Standard (Tan)";
 		picture = "\x\cfp\addons\character\Uniforms\Coverall\0000_Standard\ui\Tan.jpg";
@@ -531,7 +535,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_Coverall_Grey: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Coverall Standard (Grey)";
 		picture = "\x\cfp\addons\character\Uniforms\Coverall\0000_Standard\ui\Grey.jpg";
@@ -551,7 +555,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_Coverall_BlueDark: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Coverall Standard (Blue Dark)";
 		picture = "\x\cfp\addons\character\Uniforms\Coverall\0000_Standard\ui\BlueDark.jpg";
@@ -569,7 +573,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_Coverall_BlueFrost: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Coverall Standard (Blue Frost)";
 		picture = "\x\cfp\addons\character\Uniforms\Coverall\0000_Standard\ui\BlueFrost.jpg";
@@ -588,7 +592,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_Coverall_GreenOlive: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Coverall Standard (Green Olive)";
 		picture = "\x\cfp\addons\character\Uniforms\Coverall\0000_Standard\ui\GreenOlive.jpg";
@@ -607,7 +611,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_Coverall_White: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Coverall Standard (White)";
 		picture = "\x\cfp\addons\character\Uniforms\Coverall\0000_Standard\ui\White.jpg";
@@ -626,7 +630,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_Coverall_Red: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Coverall Standard (Red)";
 		picture = "\x\cfp\addons\character\Uniforms\Coverall\0000_Standard\ui\Red.jpg";
@@ -644,7 +648,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_Coverall_Yellow: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Coverall Standard (Yellow)";
 		picture = "\x\cfp\addons\character\Uniforms\Coverall\0000_Standard\ui\Yellow.jpg";
@@ -662,7 +666,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_Coverall_Brown: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Coverall Standard (Brown)";
 		picture = "\x\cfp\addons\character\Uniforms\Coverall\0000_Standard\ui\Brown.jpg";
@@ -680,7 +684,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_Coverall_Orange: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Coverall Standard (Orange)";
 		picture = "\x\cfp\addons\character\Uniforms\Coverall\0000_Standard\ui\Orange.jpg";

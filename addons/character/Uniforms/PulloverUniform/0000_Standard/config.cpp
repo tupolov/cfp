@@ -38,15 +38,7 @@ class CfgPatches
 };
 
 
-class CfgFactionClasses {
-	class CFP_TEST {
-		displayName = "CFP TEST";
-		priority = 100;
-		side = 1;
-		icon = "\x\cfp\addons\character\Uniforms\Icon\Icon.jpg";
 
-	};
-};
 
 
 class CfgVehicleClasses
@@ -69,9 +61,10 @@ class CfgVehicles
 	class SP_0000_Standard_PulloverUniform_Black: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Pullover Uniform (Black)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_PulloverUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -103,9 +96,10 @@ class CfgVehicles
 	class SP_0000_Standard_PulloverUniform_Green: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Pullover Uniform (Green)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_PulloverUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -136,9 +130,10 @@ class CfgVehicles
 	class SP_0000_Standard_PulloverUniform_Tan: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Pullover Uniform (Tan)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_PulloverUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -169,9 +164,10 @@ class CfgVehicles
 	class SP_0000_Standard_PulloverUniform_Grey: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Pullover Uniform (Grey)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_PulloverUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -204,9 +200,10 @@ class CfgVehicles
 	class SP_0000_Standard_PulloverUniform_BlueDark: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Pullover Uniform (Blue Dark)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_PulloverUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -239,9 +236,10 @@ class CfgVehicles
 	class SP_0000_Standard_PulloverUniform_BlueFrost: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Pullover Uniform (Blue Frost)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_PulloverUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -273,9 +271,10 @@ class CfgVehicles
 	class SP_0000_Standard_PulloverUniform_GreenOlive: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Pullover Uniform (Green Olive)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_PulloverUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -306,9 +305,10 @@ class CfgVehicles
 	class SP_0000_Standard_PulloverUniform_Hunter: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Pullover Uniform (Hunter)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_PulloverUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -337,9 +337,10 @@ class CfgVehicles
 	class SP_0000_Standard_PulloverUniform_Hunter2: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Pullover Uniform (Hunter2)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_PulloverUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -370,9 +371,10 @@ class CfgVehicles
 	class SP_0000_Standard_PulloverUniform_ATacsFG: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Pullover Uniform (A-Tacs FG)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_PulloverUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -401,9 +403,10 @@ class CfgVehicles
 	class SP_0000_Standard_PulloverUniform_NodUrban: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "Pullover Uniform (Nod Urban)";
-		faction = "CFP_TEST";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_PulloverUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -456,7 +459,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_PulloverUniform_Black: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Black (Pullover Uniform)";
 		picture = "\x\cfp\addons\character\Uniforms\PulloverUniform\0000_Standard\ui\Black.jpg";
@@ -475,7 +478,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_PulloverUniform_Green: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Green (Pullover Uniform)";
 		picture = "\x\cfp\addons\character\Uniforms\PulloverUniform\0000_Standard\ui\Green.jpg";
@@ -495,7 +498,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_PulloverUniform_Tan: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Tan (Pullover Uniform)";
 		picture = "\x\cfp\addons\character\Uniforms\PulloverUniform\0000_Standard\ui\Tan.jpg";
@@ -516,7 +519,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_PulloverUniform_Grey: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Grey (Pullover Uniform)";
 		picture = "\x\cfp\addons\character\Uniforms\PulloverUniform\0000_Standard\ui\Grey.jpg";
@@ -537,7 +540,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_PulloverUniform_BlueDark: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Blue Dark (Pullover Uniform)";
 		picture = "\x\cfp\addons\character\Uniforms\PulloverUniform\0000_Standard\ui\BlueDark.jpg";
@@ -557,7 +560,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_PulloverUniform_BlueFrost: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Blue Frost (Pullover Uniform)";
 		picture = "\x\cfp\addons\character\Uniforms\PulloverUniform\0000_Standard\ui\BlueFrost.jpg";
@@ -577,7 +580,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_PulloverUniform_GreenOlive: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Green Olive (Pullover Uniform)";
 		picture = "\x\cfp\addons\character\Uniforms\PulloverUniform\0000_Standard\ui\GreenOlive.jpg";
@@ -597,7 +600,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_PulloverUniform_Hunter: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Hunter (Pullover Uniform)";
 		picture = "\x\cfp\addons\character\Uniforms\PulloverUniform\0000_Standard\ui\Hunter.jpg";
@@ -615,7 +618,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_PulloverUniform_Hunter2: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Hunter2 (Pullover Uniform)";
 		picture = "\x\cfp\addons\character\Uniforms\PulloverUniform\0000_Standard\ui\Hunter2.jpg";
@@ -634,7 +637,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_PulloverUniform_ATacsFG: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard A-Tacs FG (Pullover Uniform)";
 		picture = "\x\cfp\addons\character\Uniforms\PulloverUniform\0000_Standard\ui\ATacsFG.jpg";
@@ -653,7 +656,7 @@ class cfgWeapons
 
 	class SP_0000_Standard_PulloverUniform_NodUrban: Uniform_Base
 	{
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\character\Models\Suitpack";
 		displayName = "Standard Nod Urban (Pullover Uniform)";
 		picture = "\x\cfp\addons\character\Uniforms\PulloverUniform\0000_Standard\ui\NodUrban.jpg";

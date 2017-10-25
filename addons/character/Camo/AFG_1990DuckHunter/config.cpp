@@ -34,15 +34,7 @@ class CfgPatches
 	};
 };
 
-class CfgFactionClasses {
-	class CFP_Camo {
-		displayName = "CFP Camo";
-		priority = 100;
-		side = 1;
-		icon = "\x\cfp\addons\character\Uniforms\Icon\AFG.jpg";
 
-	};
-};
 
 class CfgVehicleClasses
 {
@@ -63,9 +55,10 @@ class CfgVehicles
 	class AFG_1990DuckHunter_BattleDressUniform: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "(Battle Dress Uniform)";
-		faction = "CFP_Camo";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "AFG_1990DuckHunter";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -91,9 +84,10 @@ class CfgVehicles
 	class AFG_1990DuckHunter_PulloverUniform: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "(Pullover Uniform)";
-		faction = "CFP_Camo";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "AFG_1990DuckHunter";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -119,9 +113,10 @@ class CfgVehicles
         class AFG_1990DuckHunter_ReconUniform: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "(Recon Uniform)";
-		faction = "CFP_Camo";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "AFG_1990DuckHunter";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -147,9 +142,10 @@ class CfgVehicles
 	class AFG_1990DuckHunter_FieldUniform: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "(Field Uniform)";
-		faction = "CFP_Camo";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "AFG_1990DuckHunter";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -179,9 +175,10 @@ class CfgVehicles
 	class AFG_1990DuckHunter_FieldUniform_SS: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "(Field Uniform SS)";
-		faction = "CFP_Camo";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "AFG_1990DuckHunter";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -207,9 +204,10 @@ class CfgVehicles
 	class AFG_1990DuckHunter_TacticalUniform: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "(Tactical Uniform)";
-		faction = "CFP_Camo";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "AFG_1990DuckHunter";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -239,9 +237,10 @@ class CfgVehicles
 	class AFG_1990DuckHunter_TacticalUniform_SS: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "(Tactical Uniform SS)";
-		faction = "CFP_Camo";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "AFG_1990DuckHunter";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -268,9 +267,10 @@ class CfgVehicles
 	class AFG_1990DuckHunter_TacticalUniform_TS: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "(Tactical Uniform TS)";
-		faction = "CFP_Camo";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "AFG_1990DuckHunter";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -307,7 +307,7 @@ class CfgVehicles
 
 		class AFG_1990DuckHunter_BattleDressUniform: Uniform_Base
 		{
-			scope=1;
+			scope=2;
 			model = "\x\cfp\addons\character\Models\Suitpack";
 			displayName = "Afghanistan 1990 Duck Hunter (Battle Dress Uniform)";
 			picture = "\x\cfp\addons\character\Camo\AFG_1990DuckHunter\ui\BattleDressUniform.jpg";
@@ -323,7 +323,7 @@ class CfgVehicles
 		};
         class AFG_1990DuckHunter_PulloverUniform: Uniform_Base
 		{
-			scope=1;
+			scope=2;
 			model = "\x\cfp\addons\character\Models\Suitpack";
 			displayName = "Afghanistan 1990 Duck Hunter (Pullover Uniform)";
 			picture = "\x\cfp\addons\character\Camo\AFG_1990DuckHunter\ui\PulloverUniform.jpg";
@@ -339,7 +339,7 @@ class CfgVehicles
 		};
         class AFG_1990DuckHunter_ReconUniform: Uniform_Base
 		{
-			scope=1;
+			scope=2;
 			model = "\x\cfp\addons\character\Models\Suitpack";
 			displayName = "Afghanistan 1990 Duck Hunter (Recon Uniform)";
 			picture = "\x\cfp\addons\character\Camo\AFG_1990DuckHunter\ui\ReconUniform.jpg";
@@ -357,7 +357,7 @@ class CfgVehicles
 
 		class AFG_1990DuckHunter_FieldUniform: Uniform_Base
 		{
-			scope=1;
+			scope=2;
 			model = "\x\cfp\addons\character\Models\Suitpack";
 			displayName = "Afghanistan 1990 Duck Hunter (Field Uniform)";
 			picture = "\x\cfp\addons\character\Camo\AFG_1990DuckHunter\ui\FieldUniform.jpg";
@@ -374,7 +374,7 @@ class CfgVehicles
 
 		class AFG_1990DuckHunter_FieldUniform_SS: Uniform_Base
 		{
-			scope=1;
+			scope=2;
 			model = "\x\cfp\addons\character\Models\Suitpack";
 			displayName = "Afghanistan 1990 Duck Hunter (Field Uniform SS)";
 			picture = "\x\cfp\addons\character\Camo\AFG_1990DuckHunter\ui\FieldUniform.jpg";
@@ -391,7 +391,7 @@ class CfgVehicles
 
 		class AFG_1990DuckHunter_TacticalUniform: Uniform_Base
 		{
-			scope=1;
+			scope=2;
 			model = "\x\cfp\addons\character\Models\Suitpack";
 			displayName = "Afghanistan 1990 Duck Hunter (Tactical Uniform)";
 			picture = "\x\cfp\addons\character\Camo\AFG_1990DuckHunter\ui\TacticalUniform.jpg";
@@ -408,7 +408,7 @@ class CfgVehicles
 
 		class AFG_1990DuckHunter_TacticalUniform_SS: Uniform_Base
 		{
-			scope=1;
+			scope=2;
 			model = "\x\cfp\addons\character\Models\Suitpack";
 			displayName = "Afghanistan 1990 Duck Hunter (Tactical Uniform SS)";
 			picture = "\x\cfp\addons\character\Camo\AFG_1990DuckHunter\ui\TacticalUniform.jpg";
@@ -425,7 +425,7 @@ class CfgVehicles
 
 		class AFG_1990DuckHunter_TacticalUniform_TS: Uniform_Base
 		{
-			scope=1;
+			scope=2;
 			model = "\x\cfp\addons\character\Models\Suitpack";
 			displayName = "Afghanistan 1990 Duck Hunter (Tactical Uniform TS)";
 			picture = "\x\cfp\addons\character\Camo\AFG_1990DuckHunter\ui\TacticalUniformTS.jpg";

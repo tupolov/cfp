@@ -34,15 +34,7 @@ class CfgPatches
 	};
 };
 
-class CfgFactionClasses {
-	class CFP_Camo {
-		displayName = "CFP Camo";
-		priority = 100;
-		side = 1;
-		icon = "\x\cfp\addons\character\Uniforms\Icon\AFG.jpg";
 
-	};
-};
 
 class CfgVehicleClasses
 {
@@ -62,9 +54,10 @@ class CfgVehicles
 	class AFG_2002Woodland_BattleDressUniform: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "(Battle Dress Uniform)";
-		faction = "CFP_Camo";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "AFG_2002Woodland";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -90,9 +83,10 @@ class CfgVehicles
         class AFG_2002Woodland_PulloverUniform: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "(Pullover Uniform)";
-		faction = "CFP_Camo";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "AFG_2002Woodland";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -118,9 +112,10 @@ class CfgVehicles
         class AFG_2002Woodland_ReconUniform: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "(Recon Uniform)";
-		faction = "CFP_Camo";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "AFG_2002Woodland";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -146,9 +141,10 @@ class CfgVehicles
 	class AFG_2002Woodland_FieldUniform: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "(Field Uniform)";
-		faction = "CFP_Camo";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "AFG_2002Woodland";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -178,9 +174,10 @@ class CfgVehicles
 	class AFG_2002Woodland_FieldUniform_SS: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "(Field Uniform SS)";
-		faction = "CFP_Camo";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "AFG_2002Woodland";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -206,9 +203,10 @@ class CfgVehicles
 	class AFG_2002Woodland_TacticalUniform: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "(Tactical Uniform)";
-		faction = "CFP_Camo";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "AFG_2002Woodland";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -238,9 +236,10 @@ class CfgVehicles
 	class AFG_2002Woodland_TacticalUniform_SS: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "(Tactical Uniform SS)";
-		faction = "CFP_Camo";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "AFG_2002Woodland";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -267,9 +266,10 @@ class CfgVehicles
 	class AFG_2002Woodland_TacticalUniform_TS: B_Soldier_base_F
 	{
 		
-		scope = 2;
+		scope = 1;
 		displayName = "(Tactical Uniform TS)";
-		faction = "CFP_Camo";
+		faction = "BLU_F";
+        modelSides[] = {6};
 		vehicleClass = "AFG_2002Woodland";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
@@ -306,7 +306,7 @@ class CfgVehicles
 
 		class AFG_2002Woodland_BattleDressUniform: Uniform_Base
 		{
-			scope=1;
+			scope=2;
 			model = "\x\cfp\addons\character\Models\Suitpack";
 			displayName = "Afghanistan 2002 Woodland (Battle Dress Uniform)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2002Woodland\ui\BattleDressUniform.jpg";
@@ -322,7 +322,7 @@ class CfgVehicles
 		};
         class AFG_2002Woodland_PulloverUniform: Uniform_Base
 		{
-			scope=1;
+			scope=2;
 			model = "\x\cfp\addons\character\Models\Suitpack";
 			displayName = "Afghanistan 2002 Woodland (Pullover Uniform)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2002Woodland\ui\PulloverUniform.jpg";
@@ -338,7 +338,7 @@ class CfgVehicles
 		};
         class AFG_2002Woodland_ReconUniform: Uniform_Base
 		{
-			scope=1;
+			scope=2;
 			model = "\x\cfp\addons\character\Models\Suitpack";
 			displayName = "Afghanistan 2002 Woodland (Recon Uniform)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2002Woodland\ui\ReconUniform.jpg";
@@ -356,7 +356,7 @@ class CfgVehicles
 
 		class AFG_2002Woodland_FieldUniform: Uniform_Base
 		{
-			scope=1;
+			scope=2;
 			model = "\x\cfp\addons\character\Models\Suitpack";
 			displayName = "Afghanistan 2002 Woodland (Field Uniform)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2002Woodland\ui\FieldUniform.jpg";
@@ -373,7 +373,7 @@ class CfgVehicles
 
 		class AFG_2002Woodland_FieldUniform_SS: Uniform_Base
 		{
-			scope=1;
+			scope=2;
 			model = "\x\cfp\addons\character\Models\Suitpack";
 			displayName = "Afghanistan 2002 Woodland (Field Uniform SS)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2002Woodland\ui\FieldUniform.jpg";
@@ -390,7 +390,7 @@ class CfgVehicles
 
 		class AFG_2002Woodland_TacticalUniform: Uniform_Base
 		{
-			scope=1;
+			scope=2;
 			model = "\x\cfp\addons\character\Models\Suitpack";
 			displayName = "Afghanistan 2002 Woodland (Tactical Uniform)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2002Woodland\ui\TacticalUniform.jpg";
@@ -407,7 +407,7 @@ class CfgVehicles
 
 		class AFG_2002Woodland_TacticalUniform_SS: Uniform_Base
 		{
-			scope=1;
+			scope=2;
 			model = "\x\cfp\addons\character\Models\Suitpack";
 			displayName = "Afghanistan 2002 Woodland (Tactical Uniform SS)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2002Woodland\ui\TacticalUniform.jpg";
@@ -424,7 +424,7 @@ class CfgVehicles
 
 		class AFG_2002Woodland_TacticalUniform_TS: Uniform_Base
 		{
-			scope=1;
+			scope=2;
 			model = "\x\cfp\addons\character\Models\Suitpack";
 			displayName = "Afghanistan 2002 Woodland (Tactical Uniform TS)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2002Woodland\ui\TacticalUniformTS.jpg";
