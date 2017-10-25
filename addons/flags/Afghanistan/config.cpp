@@ -9,6 +9,7 @@ class CfgPatches
 		requiredAddons[] = {"A3_Structures_F_Mil_Flags"};
 	};
 };
+
 class CfgVehicles
 {
 	class FlagPole_F;	
@@ -20,7 +21,8 @@ class CfgVehicles
 		nameSound = "flag";
 		class EventHandlers
 		{
-			init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Afghanistan\Afghanistan.paa""";};
+			init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Afghanistan\Afghanistan.paa""";
+		};
 	};
 	class Afghanistan_Army1978_Flag: FlagPole_F
 	{
@@ -30,7 +32,8 @@ class CfgVehicles
 		nameSound = "flag";
 		class EventHandlers
 		{
-			init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Afghanistan\Army1978.paa""";};
+			init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Afghanistan\Army1978.paa""";
+		};
 	};
 	class Afghanistan_AirForce_Flag: FlagPole_F
 	{
@@ -40,7 +43,8 @@ class CfgVehicles
 		nameSound = "flag";
 		class EventHandlers
 		{
-			init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Afghanistan\AirForce.paa""";};
+			init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Afghanistan\AirForce.paa""";
+		};
 	};
 	class Afghanistan_Commandos_Flag: FlagPole_F
 	{
@@ -50,7 +54,8 @@ class CfgVehicles
 		nameSound = "flag";
 		class EventHandlers
 		{
-			init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Afghanistan\Commandos.paa""";};
+			init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Afghanistan\Commandos.paa""";
+		};
 	};
 	class Afghanistan_205thCorps_Flag: FlagPole_F
 	{
@@ -60,7 +65,8 @@ class CfgVehicles
 		nameSound = "flag";
 		class EventHandlers
 		{
-			init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Afghanistan\205thCorps.paa""";};
+			init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Afghanistan\205thCorps.paa""";
+		};
 	};
 	class Afghanistan_207thCorps_Flag: FlagPole_F
 	{
@@ -71,7 +77,7 @@ class CfgVehicles
 		class EventHandlers
 		{
 			init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Afghanistan\207thCorps.paa""";
-};
+		};
 	};
 	class Afghanistan_NationalPolice_Flag: FlagPole_F
 	{
@@ -82,7 +88,7 @@ class CfgVehicles
 		class EventHandlers
 		{
 			init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Afghanistan\NationalPolice.paa""";
-};
+		};
 	};
 	class Afghanistan_President_Flag: FlagPole_F
 	{
@@ -93,7 +99,7 @@ class CfgVehicles
 		class EventHandlers
 		{
 			init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Afghanistan\President.paa""";
-};
+		};
 	};
 	class KingdomOfAfghanistan_Flag: FlagPole_F
 	{
@@ -104,7 +110,7 @@ class CfgVehicles
 		class EventHandlers
 		{
 			init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Afghanistan\KingdomOfAfghanistan.paa""";
-};
+		};
 	};
 	class RepublicOfAfghanistan_Flag: FlagPole_F
 	{
@@ -115,7 +121,7 @@ class CfgVehicles
 		class EventHandlers
 		{
 			init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Afghanistan\RepublicOfAfghanistan.paa""";
-};
+		};
 	};
 	class DemocraticRepublicOfAfghanistan_Flag: FlagPole_F
 	{
@@ -126,7 +132,7 @@ class CfgVehicles
 		class EventHandlers
 		{
 			init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Afghanistan\DemocraticRepublicOfAfghanistan.paa""";
-};
+		};
 	};
 	class IslamicStateOfAfghanistan_Flag: FlagPole_F
 	{
@@ -137,7 +143,7 @@ class CfgVehicles
 		class EventHandlers
 		{
 			init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Afghanistan\IslamicStateOfAfghanistan.paa""";
-};
+		};
 	};
 	class IslamicEmirateOfAfghanistan_Flag: FlagPole_F
 	{
@@ -151,4 +157,4 @@ class CfgVehicles
 		};
 	};
 };
-//};
+

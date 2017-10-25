@@ -883,6 +883,7 @@ class CfgPatches {
             "cba_ui",
             "cba_xeh",
             "cba_jr"
+
         };
         author = CSTRING(CFPTeam);
         url = CSTRING(URL);
