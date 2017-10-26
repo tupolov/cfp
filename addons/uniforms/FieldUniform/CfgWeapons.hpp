@@ -1,0 +1,407 @@
+
+	class SP_0000_Standard_FieldUniform_Black: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\character\Models\Suitpack";
+		displayName = "Standard Black (Field Uniform)";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+		author = "SP Craig";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "SP_0000_Standard_FieldUniform_Black";
+			containerClass="Supply60";
+			mass=80;
+
+		};
+	};
+
+	class SP_0000_Standard_FieldUniform_Black_SS: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\character\Models\Suitpack";
+		displayName = "Standard Black (Field Uniform SS)";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+		author = "SP Craig";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "SP_0000_Standard_FieldUniform_Black_SS";
+			containerClass="Supply60";
+			mass=80;
+
+		};
+	};
+
+	class SP_0000_Standard_FieldUniform_Green: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\character\Models\Suitpack";
+		displayName = "Standard Green (Field Uniform)";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Green.jpg";
+		author = "SP Craig";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "SP_0000_Standard_FieldUniform_Green";
+			containerClass="Supply60";
+			mass=80;
+
+		};
+	};
+
+	class SP_0000_Standard_FieldUniform_Green_SS: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\character\Models\Suitpack";
+		displayName = "Standard Green (Field Uniform SS)";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Green.jpg";
+		author = "SP Craig";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "SP_0000_Standard_FieldUniform_Green_SS";
+			containerClass="Supply60";
+			mass=80;
+
+
+		};
+	};
+
+	class SP_0000_Standard_FieldUniform_Tan: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\character\Models\Suitpack";
+		displayName = "Standard Tan (Field Uniform)";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Tan.jpg";
+		author = "SP Craig";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "SP_0000_Standard_FieldUniform_Tan";
+			containerClass="Supply60";
+			mass=80;
+
+		};
+	};
+
+	class SP_0000_Standard_FieldUniform_Tan_SS: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\character\Models\Suitpack";
+		displayName = "Standard Tan (Field Uniform SS)";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Tan.jpg";
+		author = "SP Craig";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "SP_0000_Standard_FieldUniform_Tan_SS";
+			containerClass="Supply60";
+			mass=80;
+
+
+
+		};
+	};
+
+	class SP_0000_Standard_FieldUniform_Grey: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\character\Models\Suitpack";
+		displayName = "Standard Grey (Field Uniform)";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Grey.jpg";
+		author = "SP Craig";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "SP_0000_Standard_FieldUniform_Grey";
+			containerClass="Supply60";
+			mass=80;
+
+		};
+	};
+
+	class SP_0000_Standard_FieldUniform_Grey_SS: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\character\Models\Suitpack";
+		displayName = "Standard Grey (Field Uniform SS)";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Grey.jpg";
+		author = "SP Craig";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "SP_0000_Standard_FieldUniform_Grey_SS";
+			containerClass="Supply60";
+			mass=80;
+
+
+
+		};
+	};
+
+	class SP_0000_Standard_FieldUniform_BlueDark: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\character\Models\Suitpack";
+		displayName = "Standard Blue Dark (Field Uniform)";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\BlueDark.jpg";
+		author = "SP Craig";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "SP_0000_Standard_FieldUniform_BlueDark";
+			containerClass="Supply60";
+			mass=80;
+
+		};
+	};
+
+	class SP_0000_Standard_FieldUniform_BlueDark_SS: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\character\Models\Suitpack";
+		displayName = "Standard Blue Dark (Field Uniform SS)";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\BlueDark.jpg";
+		author = "SP Craig";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "SP_0000_Standard_FieldUniform_BlueDark_SS";
+			containerClass="Supply60";
+			mass=80;
+
+		};
+	};
+
+	class SP_0000_Standard_FieldUniform_BlueFrost: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\character\Models\Suitpack";
+		displayName = "Standard Blue Frost (Field Uniform)";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\BlueFrost.jpg";
+		author = "SP Craig";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "SP_0000_Standard_FieldUniform_BlueFrost";
+			containerClass="Supply60";
+			mass=80;
+
+		};
+	};
+
+	class SP_0000_Standard_FieldUniform_BlueFrost_SS: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\character\Models\Suitpack";
+		displayName = "Standard Blue Frost (Field Uniform SS)";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\BlueFrost.jpg";
+		author = "SP Craig";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "SP_0000_Standard_FieldUniform_BlueFrost_SS";
+			containerClass="Supply60";
+			mass=80;
+
+
+		};
+	};
+
+	class SP_0000_Standard_FieldUniform_GreenOlive: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\character\Models\Suitpack";
+		displayName = "Standard Green Olive (Field Uniform)";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\GreenOlive.jpg";
+		author = "SP Craig";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "SP_0000_Standard_FieldUniform_GreenOlive";
+			containerClass="Supply60";
+			mass=80;
+
+		};
+	};
+
+	class SP_0000_Standard_FieldUniform_GreenOlive_SS: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\character\Models\Suitpack";
+		displayName = "Standard Green Olive (Field Uniform SS)";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\GreenOlive.jpg";
+		author = "SP Craig";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "SP_0000_Standard_FieldUniform_GreenOlive_SS";
+			containerClass="Supply60";
+			mass=80;
+
+
+		};
+	};
+
+	class SP_0000_Standard_FieldUniform_Hunter: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\character\Models\Suitpack";
+		displayName = "Standard Hunter (Field Uniform)";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Hunter.jpg";
+		author = "SP Craig";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "SP_0000_Standard_FieldUniform_Hunter";
+			containerClass="Supply60";
+			mass=80;
+
+		};
+	};
+
+	class SP_0000_Standard_FieldUniform_Hunter_SS: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\character\Models\Suitpack";
+		displayName = "Standard Hunter (Field Uniform SS)";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Hunter.jpg";
+		author = "SP Craig";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "SP_0000_Standard_FieldUniform_Hunter_SS";
+			containerClass="Supply60";
+			mass=80;
+
+		};
+	};
+
+	class SP_0000_Standard_FieldUniform_Hunter2: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\character\Models\Suitpack";
+		displayName = "Standard Hunter2 (Field Uniform)";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Hunter2.jpg";
+		author = "SP Craig";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "SP_0000_Standard_FieldUniform_Hunter2";
+			containerClass="Supply60";
+			mass=80;
+
+		};
+	};
+
+	class SP_0000_Standard_FieldUniform_Hunter2_SS: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\character\Models\Suitpack";
+		displayName = "Standard Hunter2 (Field Uniform SS)";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Hunter2.jpg";
+		author = "SP Craig";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "SP_0000_Standard_FieldUniform_Hunter2_SS";
+			containerClass="Supply60";
+			mass=80;
+
+		};
+	};
+
+	class SP_0000_Standard_FieldUniform_ATacsFG: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\character\Models\Suitpack";
+		displayName = "Standard A-Tacs FG (Field Uniform)";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\ATacsFG.jpg";
+		author = "SP Craig";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "SP_0000_Standard_FieldUniform_ATacsFG";
+			containerClass="Supply60";
+			mass=80;
+
+		};
+	};
+
+	class SP_0000_Standard_FieldUniform_ATacsFG_SS: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\character\Models\Suitpack";
+		displayName = "Standard A-Tacs FG (Field Uniform SS)";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\ATacsFG.jpg";
+		author = "SP Craig";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "SP_0000_Standard_FieldUniform_ATacsFG_SS";
+			containerClass="Supply60";
+			mass=80;
+
+
+		};
+	};
+
+	class SP_0000_Standard_FieldUniform_NodUrban: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\character\Models\Suitpack";
+		displayName = "Standard Nod Urban (Field Uniform)";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\NodUrban.jpg";
+		author = "SP Craig";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "SP_0000_Standard_FieldUniform_NodUrban";
+			containerClass="Supply60";
+			mass=80;
+
+		};
+	};
+
+	class SP_0000_Standard_FieldUniform_NodUrban_SS: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\character\Models\Suitpack";
+		displayName = "Standard Nod Urban (Field Uniform SS)";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\NodUrban.jpg";
+		author = "SP Craig";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "SP_0000_Standard_FieldUniform_NodUrban_SS";
+			containerClass="Supply60";
+			mass=80;
+
+
+
+
+		};
+	};

@@ -130,7 +130,7 @@ class CfgVehicles
 		magazines[] = {};
 		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\character\Camo\AFG_1996DuckHunter\ReconUniform.paa","\x\cfp\addons\character\Uniforms\ReconUniform\0000_Standard\Black2.paa"};   
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\character\Camo\AFG_1996DuckHunter\ReconUniform.paa","\x\cfp\addons\uniforms\ReconUniform\0000_Standard\Black2.paa"};   
 		hiddenSelections[] = {"Camo1","Camo2","insignia"};
 		class Wounds
 		{
@@ -284,7 +284,7 @@ class CfgVehicles
 		magazines[] = {};
 		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\character\Camo\AFG_1996DuckHunter\TacticalUniform.paa","\x\cfp\addons\character\Uniforms\Underwear\0000_Standard\Green.paa"};   
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\character\Camo\AFG_1996DuckHunter\TacticalUniform.paa","\x\cfp\addons\uniforms\Underwear\0000_Standard\Green.paa"};   
 		hiddenSelections[] = {"Camo", "Camo2", "insignia"};
 		class Wounds
 		{

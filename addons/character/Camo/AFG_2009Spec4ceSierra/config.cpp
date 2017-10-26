@@ -129,7 +129,7 @@ class CfgVehicles
 		magazines[] = {};
 		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\character\Camo\AFG_2009Spec4ceSierra\ReconUniform.paa","\x\cfp\addons\character\Uniforms\ReconUniform\0000_Standard\Tan2.paa"};   
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\character\Camo\AFG_2009Spec4ceSierra\ReconUniform.paa","\x\cfp\addons\uniforms\ReconUniform\0000_Standard\Tan2.paa"};   
 		hiddenSelections[] = {"Camo1","Camo2","insignia"};
 		class Wounds
 		{
@@ -283,7 +283,7 @@ class CfgVehicles
 		magazines[] = {};
 		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\character\Camo\AFG_2009Spec4ceSierra\TacticalUniform.paa","\x\cfp\addons\character\Uniforms\Underwear\0000_Standard\Tan.paa"};   
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\character\Camo\AFG_2009Spec4ceSierra\TacticalUniform.paa","\x\cfp\addons\uniforms\Underwear\0000_Standard\Tan.paa"};   
 		hiddenSelections[] = {"Camo", "Camo2", "insignia"};
 		class Wounds
 		{
