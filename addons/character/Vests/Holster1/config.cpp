@@ -52,8 +52,6 @@ class cfgWeapons
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\character\Vests\Holster1\Black.paa","\x\cfp\addons\character\Vests\Holster1\Black2.paa"};
 		hiddenSelections[] = {"Camo1","Camo2"};
 		
-		
-
 		class ItemInfo: VestItem
 		{
 			uniformModel = "\x\cfp\addons\character\Models\Holster1";
@@ -98,8 +96,6 @@ class cfgWeapons
 		model = "\x\cfp\addons\character\Models\Holster1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\character\Vests\Holster1\Brown.paa","\x\cfp\addons\character\Vests\Holster1\Brown2.paa"};
 		hiddenSelections[] = {"Camo1","Camo2"};
-		
-		
 
 		class ItemInfo: VestItem
 		{
@@ -136,5 +132,3 @@ class cfgWeapons
 		};
 	};
 };
-};
-	//};

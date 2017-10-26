@@ -2,12 +2,12 @@ class StageTI
 {
 	texture="a3\characters_f\blufor\data\armor1_ti_ca.paa";
 };
-ambient[]={1.000000,1.000000,1.000000,1.000000};
-diffuse[]={1.000000,1.000000,1.000000,1.000000};
-forcedDiffuse[]={0.000000,0.000000,0.000000,0.000000};
-emmisive[]={0.000000,0.000000,0.000000,1.000000};
-specular[]={1.000000,0.950000,0.900000,1.000000};
-specularPower=60.000000;
+ambient[]={1,1,1,1};
+diffuse[]={1,1,1,1};
+forcedDiffuse[]={0,0,0,0};
+emmisive[]={0,0,0,1};
+specular[]={1,0.94999999,0.89999998,1};
+specularPower=60;
 PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
@@ -16,10 +16,10 @@ class Stage1
 	uvSource="tex";
 	class uvTransform
 	{
-		aside[]={1.000000,0.000000,0.000000};
-		up[]={0.000000,1.000000,0.000000};
-		dir[]={0.000000,0.000000,0.000000};
-		pos[]={0.000000,0.000000,0.000000};
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
 	};
 };
 class Stage2
@@ -28,10 +28,10 @@ class Stage2
 	uvSource="tex";
 	class uvTransform
 	{
-		aside[]={1.000000,0.000000,0.000000};
-		up[]={0.000000,1.000000,0.000000};
-		dir[]={0.000000,0.000000,0.000000};
-		pos[]={0.000000,0.000000,0.000000};
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
 	};
 };
 class Stage3
@@ -40,10 +40,10 @@ class Stage3
 	uvSource="tex";
 	class uvTransform
 	{
-		aside[]={1.000000,0.000000,0.000000};
-		up[]={0.000000,1.000000,0.000000};
-		dir[]={0.000000,0.000000,0.000000};
-		pos[]={0.000000,0.000000,0.000000};
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
 	};
 };
 class Stage4
@@ -52,22 +52,22 @@ class Stage4
 	uvSource="tex";
 	class uvTransform
 	{
-		aside[]={1.000000,0.000000,0.000000};
-		up[]={0.000000,1.000000,0.000000};
-		dir[]={0.000000,0.000000,0.000000};
-		pos[]={0.000000,0.000000,0.000000};
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
 	};
 };
 class Stage5
 {
-	texture="x\cfp\addons\character\Models\rv\Belt_smdi.tga";
+	texture="x\cfp\addons\character\Models\rv\Belt_smdi.paa";
 	uvSource="tex";
 	class uvTransform
 	{
-		aside[]={1.000000,0.000000,0.000000};
-		up[]={0.000000,1.000000,0.000000};
-		dir[]={0.000000,0.000000,0.000000};
-		pos[]={0.000000,0.000000,0.000000};
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
 	};
 };
 class Stage6
@@ -76,10 +76,10 @@ class Stage6
 	uvSource="tex";
 	class uvTransform
 	{
-		aside[]={1.000000,0.000000,0.000000};
-		up[]={0.000000,1.000000,0.000000};
-		dir[]={0.000000,0.000000,0.000000};
-		pos[]={0.000000,0.000000,0.000000};
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
 	};
 };
 class Stage7
@@ -88,9 +88,9 @@ class Stage7
 	uvSource="tex";
 	class uvTransform
 	{
-		aside[]={1.000000,0.000000,0.000000};
-		up[]={0.000000,1.000000,0.000000};
-		dir[]={0.000000,0.000000,0.000000};
-		pos[]={0.000000,0.000000,0.000000};
+		aside[]={1,0,0};
+		up[]={0,1,0};
+		dir[]={0,0,0};
+		pos[]={0,0,0};
 	};
 };
