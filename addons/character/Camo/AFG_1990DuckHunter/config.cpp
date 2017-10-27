@@ -40,7 +40,7 @@ class CfgVehicleClasses
 	class AFG_1990DuckHunter
 	{
 		displayName = "AFG 1990 Duck Hunter";
-	
+
 	};
 };
 
@@ -350,7 +350,6 @@ class CfgWeapons
 			uniformClass = "AFG_1990DuckHunter_ReconUniform";
 			containerClass="Supply60";
 			mass=80;
-
 		};
 	};
 
@@ -439,5 +438,3 @@ class CfgWeapons
 		};
 	};
 };
-
-
