@@ -1,8 +1,7 @@
-#define _ARMA_
 
 class CfgPatches
 {
-	class CFPs_NVG
+	class CFP_NVG
 	{
 		units[] = {};
 		weapons[] = {};
@@ -11,7 +10,7 @@ class CfgPatches
 	};
 };
 
-class cfgWeapons
+class CfgWeapons
 {
 	class NVGoggles;
 	class SP_Kneepads_Black: NVGoggles

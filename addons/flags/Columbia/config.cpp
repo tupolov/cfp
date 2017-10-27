@@ -20,7 +20,8 @@ class CfgVehicles
 		nameSound = "flag";
 		class EventHandlers
 		{
-			init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Columbia\Columbia.paa""";};
+			init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Columbia\Columbia.paa""";
+		};
 	};
 	class Columbia_NationalArmy_Flag: FlagPole_F
 	{
@@ -30,7 +31,8 @@ class CfgVehicles
 		nameSound = "flag";
 		class EventHandlers
 		{
-			init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Columbia\NationalArmy.paa"""};
+			init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Columbia\NationalArmy.paa""";
+		};
 	};
 	class Columbia_NationalAirForce_Flag: FlagPole_F
 	{
@@ -40,7 +42,8 @@ class CfgVehicles
 		nameSound = "flag";
 		class EventHandlers
 		{
-			init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Columbia\NationalAirForce.paa"""};
+			init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Columbia\NationalAirForce.paa""";
+		};
 	};
 	class Columbia_NationalNavy_Flag: FlagPole_F
 	{
@@ -50,8 +53,7 @@ class CfgVehicles
 		nameSound = "flag";
 		class EventHandlers
 		{
-			init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Columbia\NationalNavy.paa"""
+			init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Columbia\NationalNavy.paa""";
 		};
 	};
 };
-//};

@@ -9,6 +9,7 @@ class CfgPatches
 		requiredAddons[] = {"A3_Structures_F_Mil_Flags"};
 	};
 };
+
 class CfgVehicles
 {
 	class FlagPole_F;	
@@ -20,7 +21,8 @@ class CfgVehicles
 		nameSound = "flag";
 		class EventHandlers
 		{
-			init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Altis\Altis.paa""";};
+			init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Altis\Altis.paa""";
+		};
 	};
 	class Altis_Army_Flag: FlagPole_F
 	{
@@ -30,7 +32,8 @@ class CfgVehicles
 		nameSound = "flag";
 		class EventHandlers
 		{
-			init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Altis\Army.paa"""};
+			init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Altis\Army.paa""";
+		};
 	};
 	class Altis_AirForce_Flag: FlagPole_F
 	{
@@ -40,7 +43,8 @@ class CfgVehicles
 		nameSound = "flag";
 		class EventHandlers
 		{
-			init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Altis\AirForce.paa"""};
+			init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Altis\AirForce.paa""";
+		};
 	};
 	class Altis_Navy_Flag: FlagPole_F
 	{
@@ -50,7 +54,7 @@ class CfgVehicles
 		nameSound = "flag";
 		class EventHandlers
 		{
-			init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Altis\Navy.paa"""		};
+			init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Altis\Navy.paa""";		
+		};
 	};
 };
-//};

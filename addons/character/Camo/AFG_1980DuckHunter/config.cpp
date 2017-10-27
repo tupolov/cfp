@@ -34,8 +34,6 @@ class CfgPatches
 	};
 };
 
-/*
-*/
 
 class CfgVehicleClasses
 {
@@ -318,7 +316,7 @@ class CfgVehicles
 	};
 };
 
-class cfgWeapons
+class CfgWeapons
 {
 	class Uniform_Base;
 	class UniformItem;
