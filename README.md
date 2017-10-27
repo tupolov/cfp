@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="https://github.com/tupolov/cfp/raw/master/extras/assets/logo/cfp_small.png" width="480">
+    <img src="https://github.com/tupolov/cfp/raw/master/extras/assets/logo/cfp_picture_black.png" width="480">
 </p>
 
 <p align="center">
@@ -14,9 +14,6 @@
     </a>
     <a href="TBC">
         <img src="https://img.shields.io/badge/BIF-Thread-lightgrey.svg?style=flat-square" alt="BIF Thread">
-    </a>
-    <a href="https://github.com/tupolov/cfp/blob/master/LICENSE">
-        <img src="https://img.shields.io/badge/License-GPLv3-red.svg?style=flat-square" alt="CFP License">
     </a>
 </p>
 
@@ -98,5 +95,5 @@ To help us test the latest development changes, download our master branch ([dir
 
 ## License
 
-CFP is licensed under the GNU General Public License ([GPLv3](https://github.com/tupolov/CFP/blob/master/LICENSE)).
+CFP is licensed under the Creative Commons No-Derivatives 4.0 License ([CC-ND](https://github.com/tupolov/CFP/blob/master/LICENSE)).
 
