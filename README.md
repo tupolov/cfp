@@ -36,13 +36,17 @@ Factions are delivered in a modular way, enabling groups can maintain their own 
 - Introduces 50 new factions based on common community addons (VSM, SMA, NIArms, VME etc)
 - Standardizes faction and group configurations for the community
 - Follows best practice configuration and implementation using CBA and ACE3 standards
+- Include's Siege-A's insignias and patches content
+- Include's SP Craig's gear pack
 - Full support for ZEUS, ALiVE, ACE3 and VCOM
 
 ## CFP Factions
 
 ### OPFOR
+- 
 
 ### INDFOR
+-
 
 ### BLUFOR
 - US Army factions specifically for Arid/Desert, Woodland/Jungle and including special forces (Delta, Green Beret, SOAR)
@@ -51,10 +55,13 @@ Factions are delivered in a modular way, enabling groups can maintain their own 
 ## CFP Ultimate Factions (in addition to CUP factions)
 
 ### OPFOR
+-
 
 ### INDFOR
+-
 
 ### BLUFOR
+-
 
 ## Getting started
 
