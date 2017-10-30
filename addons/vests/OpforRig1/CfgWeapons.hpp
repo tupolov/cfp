@@ -1,38 +1,7 @@
-	#define ReadAndWrite		0
-	#define ReadAndCreate		1
-	#define ReadOnly		2
-	#define ReadOnlyVerified		3
 
-	#define true	1
-	#define false	0
 
-	#define VSoft		0
-	#define VArmor		1
-	#define VAir		2
+/*OpforRig1
 
-	#define TEast		0
-	#define TWest		1
-	#define TGuerrila		2
-	#define TCivilian		3
-	#define TSideUnknown		4
-	#define TEnemy		5
-	#define TFriendly		6
-	#define TLogic		7
-
-	#define private		0
-	#define protected		1
-	#define public		2
-
-class CfgPatches
-{
-	class CFP_OpforRig1
-	{
-		units[] = {};
-		weapons[] = {};
-		requiredVersion = 0.1;
-		requiredAddons[] = {};
-	};
-};
 class CfgVehicleClasses
 {
 	class CFP_Rig
@@ -40,20 +9,18 @@ class CfgVehicleClasses
 		displayName = "Rig";
 	};
 };
-class cfgWeapons
-{
-	class V_PlateCarrier1_rgr;
-	class VestItem;	
+*/
+
 	class SP_OpforRig1_Black: V_PlateCarrier1_rgr
 	{
 		scope = 2;
 		displayName = "Opfor Rig 1 (Black)";
-		picture = "\x\cfp\addons\character\Vests\OpforRig1\ui\Black.jpg";
+		picture = "\x\cfp\addons\vests\OpforRig1\ui\Black.jpg";
 		model = "\x\cfp\addons\character\Models\OpforRig1";
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\character\Vests\OpforRig1\Black.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\OpforRig1\Black.paa"};
 		hiddenSelections[] = {"Camo"};
-		
-		
+
+
 
 		class ItemInfo: VestItem
 		{
@@ -87,19 +54,19 @@ class cfgWeapons
 					passThrough = 0.2;
 				};
 			};
-			
+
 		};
 	};
 	class SP_OpforRig1_Green: V_PlateCarrier1_rgr
 	{
 		scope = 2;
 		displayName = "Opfor Rig 1 (Green)";
-		picture = "\x\cfp\addons\character\Vests\OpforRig1\ui\Green.jpg";
+		picture = "\x\cfp\addons\vests\OpforRig1\ui\Green.jpg";
 		model = "\x\cfp\addons\character\Models\OpforRig1";
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\character\Vests\OpforRig1\Green.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\OpforRig1\Green.paa"};
 		hiddenSelections[] = {"Camo"};
-		
-		
+
+
 
 		class ItemInfo: VestItem
 		{
@@ -133,7 +100,7 @@ class cfgWeapons
 					passThrough = 0.2;
 				};
 			};
-			
+
 		};
 	};
 
@@ -141,12 +108,12 @@ class cfgWeapons
 	{
 		scope = 2;
 		displayName = "Opfor Rig 1 (Tan)";
-		picture = "\x\cfp\addons\character\Vests\OpforRig1\ui\Tan.jpg";
+		picture = "\x\cfp\addons\vests\OpforRig1\ui\Tan.jpg";
 		model = "\x\cfp\addons\character\Models\OpforRig1";
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\character\Vests\OpforRig1\Tan.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\OpforRig1\Tan.paa"};
 		hiddenSelections[] = {"Camo"};
-		
-		
+
+
 
 		class ItemInfo: VestItem
 		{
@@ -180,7 +147,7 @@ class cfgWeapons
 					passThrough = 0.2;
 				};
 			};
-			
+
 		};
 	};
 
@@ -188,12 +155,12 @@ class cfgWeapons
 	{
 		scope = 2;
 		displayName = "Opfor Rig 1 (Grey)";
-		picture = "\x\cfp\addons\character\Vests\OpforRig1\ui\Grey.jpg";
+		picture = "\x\cfp\addons\vests\OpforRig1\ui\Grey.jpg";
 		model = "\x\cfp\addons\character\Models\OpforRig1";
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\character\Vests\OpforRig1\Grey.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\OpforRig1\Grey.paa"};
 		hiddenSelections[] = {"Camo"};
-		
-		
+
+
 
 		class ItemInfo: VestItem
 		{
@@ -229,6 +196,3 @@ class cfgWeapons
 			};
 		};
 	};
-};
-};
-	//};

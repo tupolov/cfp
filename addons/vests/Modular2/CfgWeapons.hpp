@@ -1,38 +1,7 @@
-	#define ReadAndWrite		0
-	#define ReadAndCreate		1
-	#define ReadOnly		2
-	#define ReadOnlyVerified		3
 
-	#define true	1
-	#define false	0
 
-	#define VSoft		0
-	#define VArmor		1
-	#define VAir		2
+/*Modular2
 
-	#define TEast		0
-	#define TWest		1
-	#define TGuerrila		2
-	#define TCivilian		3
-	#define TSideUnknown		4
-	#define TEnemy		5
-	#define TFriendly		6
-	#define TLogic		7
-
-	#define private		0
-	#define protected		1
-	#define public		2
-
-class CfgPatches
-{
-	class CFP_Modular2
-	{
-		units[] = {};
-		weapons[] = {};
-		requiredVersion = 0.1;
-		requiredAddons[] = {};
-	};
-};
 class CfgVehicleClasses
 {
 	class CFP_Modular
@@ -41,20 +10,18 @@ class CfgVehicleClasses
 	};
 };
 
-class cfgWeapons
-{
-	class V_PlateCarrier1_rgr;
-	class VestItem;	
+*/
+
 	class SP_Modular2_Black: V_PlateCarrier1_rgr
 	{
 		scope = 2;
 		displayName = "Modular 2 (Black)";
-		picture = "\x\cfp\addons\character\Vests\Modular2\ui\Black.jpg";
+		picture = "\x\cfp\addons\vests\Modular2\ui\Black.jpg";
 		model = "\x\cfp\addons\character\Models\Modular2";
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\character\Vests\Modular2\Black.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Modular2\Black.paa"};
 		hiddenSelections[] = {"Camo"};
-		
-		
+
+
 
 		class ItemInfo: VestItem
 		{
@@ -88,7 +55,7 @@ class cfgWeapons
 					passThrough = 0.2;
 				};
 			};
-			
+
 		};
 	};
 
@@ -96,12 +63,12 @@ class cfgWeapons
 	{
 		scope = 2;
 		displayName = "Modular 2 (Green)";
-		picture = "\x\cfp\addons\character\Vests\Modular2\ui\Green.jpg";
+		picture = "\x\cfp\addons\vests\Modular2\ui\Green.jpg";
 		model = "\x\cfp\addons\character\Models\Modular2";
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\character\Vests\Modular2\Green.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Modular2\Green.paa"};
 		hiddenSelections[] = {"Camo"};
-		
-		
+
+
 
 		class ItemInfo: VestItem
 		{
@@ -135,7 +102,7 @@ class cfgWeapons
 					passThrough = 0.2;
 				};
 			};
-			
+
 		};
 	};
 
@@ -143,12 +110,12 @@ class cfgWeapons
 	{
 		scope = 2;
 		displayName = "Modular 2 (Tan)";
-		picture = "\x\cfp\addons\character\Vests\Modular2\ui\Tan.jpg";
+		picture = "\x\cfp\addons\vests\Modular2\ui\Tan.jpg";
 		model = "\x\cfp\addons\character\Models\Modular2";
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\character\Vests\Modular2\Tan.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Modular2\Tan.paa"};
 		hiddenSelections[] = {"Camo"};
-		
-		
+
+
 
 		class ItemInfo: VestItem
 		{
@@ -182,7 +149,7 @@ class cfgWeapons
 					passThrough = 0.2;
 				};
 			};
-			
+
 		};
 	};
 
@@ -190,12 +157,12 @@ class cfgWeapons
 	{
 		scope = 2;
 		displayName = "Modular 2 (Grey)";
-		picture = "\x\cfp\addons\character\Vests\Modular2\ui\Grey.jpg";
+		picture = "\x\cfp\addons\vests\Modular2\ui\Grey.jpg";
 		model = "\x\cfp\addons\character\Models\Modular2";
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\character\Vests\Modular2\Grey.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Modular2\Grey.paa"};
 		hiddenSelections[] = {"Camo"};
-		
-		
+
+
 
 		class ItemInfo: VestItem
 		{
@@ -229,7 +196,7 @@ class cfgWeapons
 					passThrough = 0.2;
 				};
 			};
-			
+
 		};
 	};
 
@@ -237,12 +204,12 @@ class cfgWeapons
 	{
 		scope = 2;
 		displayName = "Modular 2 (White)";
-		picture = "\x\cfp\addons\character\Vests\Modular2\ui\White.jpg";
+		picture = "\x\cfp\addons\vests\Modular2\ui\White.jpg";
 		model = "\x\cfp\addons\character\Models\Modular2";
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\character\Vests\Modular2\White.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Modular2\White.paa"};
 		hiddenSelections[] = {"Camo"};
-		
-		
+
+
 
 		class ItemInfo: VestItem
 		{
@@ -278,4 +245,4 @@ class cfgWeapons
 			};
 		};
 	};
-};
+

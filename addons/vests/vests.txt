@@ -1,0 +1,16 @@
+AssaultMolle1
+Bandolier1
+BluforMolle1
+ChestRig1
+config.cpp
+FlyyeMolle1
+Harness1
+Holster1
+JackEllis1
+Modular1
+Modular2
+OpforMolle1
+OpforRig1
+PlateCarrier1
+Tactical1
+vests.txt

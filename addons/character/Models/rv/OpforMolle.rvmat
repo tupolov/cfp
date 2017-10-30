@@ -8,7 +8,7 @@ PixelShaderID="NormalMapMacroASSpecularMap";
 VertexShaderID="NormalMapAS";
 class Stage0
 {
-	texture="x\cfp\addons\character\Vests\OpforMolle1\Black.paa";
+	texture="x\cfp\addons\vests\OpforMolle1\Black.paa";
 	uvSource="tex";
 };
 class Stage1

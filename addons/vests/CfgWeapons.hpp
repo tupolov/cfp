@@ -1,0 +1,20 @@
+
+class CfgWeapons {
+	class V_PlateCarrier1_rgr;
+	class VestItem;
+
+	#include "AssaultMolle1\CfgWeapons.hpp"
+	#include "Bandolier1\CfgWeapons.hpp"
+	#include "BluforMolle1\CfgWeapons.hpp"
+	#include "ChestRig1\CfgWeapons.hpp"
+	#include "FlyyeMolle1\CfgWeapons.hpp"
+	#include "Harness1\CfgWeapons.hpp"
+	#include "Holster1\CfgWeapons.hpp"
+	#include "JackEllis1\CfgWeapons.hpp"
+	#include "Modular1\CfgWeapons.hpp"
+	#include "Modular2\CfgWeapons.hpp"
+	#include "OpforMolle1\CfgWeapons.hpp"
+	#include "OpforRig1\CfgWeapons.hpp"
+	#include "PlateCarrier1\CfgWeapons.hpp"
+	#include "Tactical1\CfgWeapons.hpp"
+};
