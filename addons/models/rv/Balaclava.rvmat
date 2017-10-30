@@ -12,7 +12,7 @@ PixelShaderID="NormalMapSpecularDIMap";
 VertexShaderID="NormalMap";
 class Stage0
 {
-	texture="x\cfp\addons\character\glasses\Balaclava\Black.paa";
+	texture="x\cfp\addons\glasses\Balaclava\Black.paa";
 	uvSource="tex";
 };
 class Stage1

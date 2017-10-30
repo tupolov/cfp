@@ -1,47 +1,36 @@
-class CfgPatches
-{
-	class SP_KneePads
-	{
-		units[] = {};
-		weapons[] = {};
-		requiredVersion = 0.1;
-		requiredAddons[] = {};
-	};
-};
-class CfgGlasses
-{
-	class None;
+/*KneePads
+
+*/
 
 	class SP_Kneepads_Black2: None
 	{
 		scope = 2;
 		displayname = "Knee Pads (Black)";
 		model = "\x\cfp\addons\models\KneePadsBlack.p3d";
-		picture = "\x\cfp\addons\character\Glasses\KneePads\ui\Black.jpg";
+		picture = "\x\cfp\addons\glasses\KneePads\ui\Black.jpg";
 		identityTypes[] = {"NoGlasses",1000};
 
 	};
-	
+
 
 	class SP_Kneepads_Green2: None
 	{
 		scope = 2;
 		displayname = "Knee Pads (Green)";
 		model = "\x\cfp\addons\models\KneePadsGreen.p3d";
-		picture = "\x\cfp\addons\character\Glasses\KneePads\ui\Green.jpg";
+		picture = "\x\cfp\addons\glasses\KneePads\ui\Green.jpg";
 		identityTypes[] = {"NoGlasses",1000};
 
 	};
-	
+
 
 	class SP_Kneepads_Tan2: None
 	{
 		scope = 2;
 		displayname = "Knee Pads (Tan)";
 		model = "\x\cfp\addons\models\KneePadsTan.p3d";
-		picture = "\x\cfp\addons\character\Glasses\KneePads\ui\Tan.jpg";
+		picture = "\x\cfp\addons\glasses\KneePads\ui\Tan.jpg";
 		identityTypes[] = {"NoGlasses",1000};
 
-		
+
 	};
-};
