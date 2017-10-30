@@ -53,7 +53,7 @@ Factions are delivered in a modular way, enabling groups can maintain their own 
 - US Army factions specifically for Arid/Desert, Woodland/Jungle and including special forces (Delta, Green Beret, SOAR)
 - US Marine Corps factions specifically for Arid/Desert, Woodland/Jungle
 
-## CFP Ultimate Factions (in addition to CUP factions)
+## CFP Ultimate Factions (in addition to CFP factions)
 
 ### OPFOR
 -
