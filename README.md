@@ -21,11 +21,13 @@
     <sup><strong>Requires the latest version of <a href="https://github.com/CBATeam/CBA_A3/releases">CBA A3</a>.<br/>Requires the latest version of Community Upgrade Project (Weapons, Units and Vehicles).<br/>Visit us on <a href="https://twitter.com/CFPMod">Twitter</a> | <a href="https://www.facebook.com/CFPMod">Facebook</a> | <a href="https://www.youtube.com/c/ACE3Mod">YouTube</a> | <a href="https://www.reddit.com/r/arma/search?q=CFP&restrict_sr=on&sort=new&t=all">Reddit</a></strong></sup>
 </p>
 
-**CFP** is a community project to provide real world factions involved in current and historical armed conflicts for Arma 3. CFP comes in two flavours - CFP CUP and CFP Ultimate, both require **Community Upgrade Project (CUP)**. CFP CUP offers not only the vanilla CUP factions but a huge number of new factions using CUP assets. CFP CUP also includes custom textures in order to help expand whats possible with CUP. CFP Ultimate enhances base factions and introduces new factions using the most efficient combination of community gear, weapon and vehicle addons. CPF Ultimate requires VSM, SMA, NIArms, VME PLA and xxx. 
+**CFP** is a community project to provide Arma 3 with real world factions involved in current and historical armed conflicts. CFP comes in two flavours - CFP and CFP Ultimate, both require **Community Upgrade Project (CUP)**. 
 
-The project is entirely **open-source** and all contributions are welcome. Feel free to maintain your own custom version, so long as the changes you make are open to the public in accordance with the GNU General Public License ([GPLv3](https://github.com/tupolov/CFP/blob/master/LICENSE)).
+CFP offers not only enhanced vanilla CUP factions but also a huge number of new factions using CUP and community donated assets. CFP includes custom assets and textures in order to help expand whats possible with CUP. 
 
-The mod is **built modularly**, so almost any included PBO can be easily removed from the configuration. This way, a team can maintain its own tailored version of CFP by simply excluding any components they don't need, or those possibly in conflict with other mods. 
+CFP Ultimate enhances base CFP factions and introduces new factions using the most efficient combination of community gear, weapon and vehicle addons. CPF Ultimate requires VSM, SMA, NIArms, VME PLA and xxx. 
+
+Factions are delivered in a modular way, enabling groups can maintain their own tailored version of CFP by simply excluding any components they don't need, or those possibly in conflict with other mods. 
 
 ## Features
 - Replace CUP factions with factions split by theater (i.e. Arid/Desert, Woodland/Jungle, Artic/Snow etc)
@@ -33,19 +35,30 @@ The mod is **built modularly**, so almost any included PBO can be easily removed
 - Introduces 50 new factions based on CUP assets
 - Introduces 50 new factions based on common community addons (VSM, SMA, NIArms, VME etc)
 - Standardizes faction and group configurations for the community
+- Follows best practice configuration and implementation using CBA and ACE3 standards
 - Full support for ZEUS, ALiVE, ACE3 and VCOM
 
-## CFP CUP Factions
+## CFP Factions
 
-- ....
+### OPFOR
+
+### INDFOR
+
+### BLUFOR
+- US Army factions specifically for Arid/Desert, Woodland/Jungle and including special forces (Delta, Green Beret, SOAR)
+- US Marine Corps factions specifically for Arid/Desert, Woodland/Jungle
 
 ## CFP Ultimate Factions (in addition to CUP factions)
 
-- ....
+### OPFOR
+
+### INDFOR
+
+### BLUFOR
 
 ## Getting started
 
-CFP requires Arma 3 and the latest version of <a href="https://github.com/CBATeam/CBA_A3/releases">CBA A3</a>. See the following pages for help and information on how to get started with CFP: 
+CFP requires Arma 3, the latest version of <a href="https://github.com/CBATeam/CBA_A3/releases">CBA A3</a> and the latest verion of CUP. See the following pages for help and information on how to get started with CFP: 
 
 - [Installation guide](https://ace3mod.com/wiki/user/installation-guide.html)
 - [Information center](https://ace3mod.com/wiki/user/information-center.html)
