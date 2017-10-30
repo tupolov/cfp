@@ -30,14 +30,15 @@ CFP Ultimate enhances base CFP factions and introduces new factions using the mo
 Factions are delivered in a modular way, enabling groups can maintain their own tailored version of CFP by simply excluding any components they don't need, or those possibly in conflict with other mods. 
 
 ## Features
-- Replace CUP factions with factions split by theater (i.e. Arid/Desert, Woodland/Jungle, Artic/Snow etc)
-- Enhance CUP factions with additonal groups and loadouts (i.e. special forces)
-- Introduces 50 new factions based on CUP assets
-- Introduces 50 new factions based on common community addons (VSM, SMA, NIArms, VME etc)
+- Introduces 50 factions based on CUP assets 
+- Introduces 36 new factions based on common community addons (VSM, SMA, NIArms, VME etc)
+- Replaces CUP factions with factions split by theater (i.e. Arid/Desert, Woodland/Jungle, Artic/Snow etc)
+- Enhances CUP factions with additonal groups and loadouts (i.e. special forces)
 - Standardizes faction and group configurations for the community
 - Follows best practice configuration and implementation using CBA and ACE3 standards
 - Include's Siege-A's insignias and patches content
 - Include's SP Craig's gear pack
+- Additional custom textures and assets donated by community members
 - Full support for ZEUS, ALiVE, ACE3 and VCOM
 
 ## CFP Factions
