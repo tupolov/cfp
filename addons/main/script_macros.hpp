@@ -5,8 +5,8 @@
 // Default versioning level
 #define DEFAULT_VERSIONING_LEVEL 2
 
-#define DGVAR(varName)    if(isNil "CFP_DEBUG_NAMESPACE") then { ACE_DEBUG_NAMESPACE = []; }; if(!(QUOTE(GVAR(varName)) in ACE_DEBUG_NAMESPACE)) then { PUSH(ACE_DEBUG_NAMESPACE, QUOTE(GVAR(varName))); }; GVAR(varName)
-#define DVAR(varName)     if(isNil "CFP_DEBUG_NAMESPACE") then { ACE_DEBUG_NAMESPACE = []; }; if(!(QUOTE(varName) in ACE_DEBUG_NAMESPACE)) then { PUSH(ACE_DEBUG_NAMESPACE, QUOTE(varName)); }; varName
+#define DGVAR(varName)    if(isNil "CFP_DEBUG_NAMESPACE") then { CFP_DEBUG_NAMESPACE = []; }; if(!(QUOTE(GVAR(varName)) in CFP_DEBUG_NAMESPACE)) then { PUSH(CFP_DEBUG_NAMESPACE, QUOTE(GVAR(varName))); }; GVAR(varName)
+#define DVAR(varName)     if(isNil "CFP_DEBUG_NAMESPACE") then { CFP_DEBUG_NAMESPACE = []; }; if(!(QUOTE(varName) in CFP_DEBUG_NAMESPACE)) then { PUSH(CFP_DEBUG_NAMESPACE, QUOTE(varName)); }; varName
 #define DFUNC(var1) TRIPLES(ADDON,fnc,var1)
 #define DEFUNC(var1,var2) TRIPLES(DOUBLES(PREFIX,var1),fnc,var2)
 
@@ -103,9 +103,9 @@
 #define PFORMAT_10(MESSAGE,A,B,C,D,E,F,G,H,I,J) \
     format ['%1: A=%2, B=%3, C=%4, D=%5, E=%6, F=%7, G=%8, H=%9, I=%10 J=%11', MESSAGE, RETNIL(A), RETNIL(B), RETNIL(C), RETNIL(D), RETNIL(E), RETNIL(F), RETNIL(G), RETNIL(H), RETNIL(I), RETNIL(J)]
 #ifdef DEBUG_MODE_FULL
-#define TRACE_10(MESSAGE,A,B,C,D,E,F,G,H,I,J) \
+#define TRCFP_10(MESSAGE,A,B,C,D,E,F,G,H,I,J) \
     [THIS_FILE_, __LINE__, PFORMAT_10(MESSAGE,A,B,C,D,E,F,G,H,I,J)] call CBA_fnc_log
 #else
-   #define TRACE_10(MESSAGE,A,B,C,D,E,F,G,H,I,J) /* disabled */
+   #define TRCFP_10(MESSAGE,A,B,C,D,E,F,G,H,I,J) /* disabled */
 #endif
 

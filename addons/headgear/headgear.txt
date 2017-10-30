@@ -7,11 +7,9 @@ Beret2
 Beret3
 Beret4
 BoonieHat
-config.cpp
 CVCHelmet
 ECHHelmet
 GhillieHat
-headgear.txt
 HeadSet
 Hood
 M1Helmet

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project name="CFP">
+    <Package name="Backpacks">
+        <Key ID="STR_CFP_Backpacks_SP_Carryall_Black">
+            <English>Carryall (Black)</English>
+        </Key>
+        <Key ID="STR_CFP_Backpacks_SP_Carryall_Green">
+            <English>Carryall (Green)</English>
+        </Key>
+        <Key ID="STR_CFP_Backpacks_SP_Carryall_Tan">
+            <English>Carryall (Tan)</English>
+        </Key>
+        <Key ID="STR_CFP_Backpacks_SP_Carryall_White">
+            <English>Carryall (White)</English>
+        </Key>
+        <Key ID="STR_CFP_Backpacks_SP_Carryall_Hunter">
+            <English>Carryall (Hunter)</English>
+        </Key>
+        <Key ID="STR_CFP_Backpacks_SP_Carryall_Hunter2">
+            <English>Carryall (Hunter 2)</English>
+        </Key>
+        <Key ID="STR_CFP_Backpacks_SP_Carryall_ATacsFG">
+            <English>Carryall (A-Tacs FG)</English>
+        </Key>
+        <Key ID="STR_CFP_Backpacks_SP_Carryall_NodUrban">
+            <English>Carryall (Nod Urban)</English>
+        </Key>        
+    </Package>
+</Project>
