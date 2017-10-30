@@ -14,7 +14,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_DiverUniform_Black";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\DiverUniform.p3d";
+		model = "\x\cfp\addons\models\DiverUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -49,7 +49,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_DiverUniform_Green";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\DiverUniform.p3d";
+		model = "\x\cfp\addons\models\DiverUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -83,7 +83,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_DiverUniform_Tan";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\DiverUniform.p3d";
+		model = "\x\cfp\addons\models\DiverUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -116,7 +116,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_DiverUniform_Grey";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\DiverUniform.p3d";
+		model = "\x\cfp\addons\models\DiverUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -150,7 +150,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_DiverUniform_BlueDark";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\DiverUniform.p3d";
+		model = "\x\cfp\addons\models\DiverUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -184,7 +184,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_DiverUniform_BlueFrost";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\DiverUniform.p3d";
+		model = "\x\cfp\addons\models\DiverUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -217,7 +217,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_DiverUniform_GreenOlive";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\DiverUniform.p3d";
+		model = "\x\cfp\addons\models\DiverUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -252,7 +252,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_DiverUniform_Hunter";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\DiverUniform.p3d";
+		model = "\x\cfp\addons\models\DiverUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -284,7 +284,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_DiverUniform_Hunter2";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\DiverUniform.p3d";
+		model = "\x\cfp\addons\models\DiverUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -317,7 +317,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_DiverUniform_ATacsFG";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\DiverUniform.p3d";
+		model = "\x\cfp\addons\models\DiverUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -349,7 +349,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_DiverUniform_NodUrban";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\DiverUniform.p3d";
+		model = "\x\cfp\addons\models\DiverUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};

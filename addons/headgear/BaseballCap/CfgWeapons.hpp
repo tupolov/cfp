@@ -16,7 +16,7 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Baseball Cap (Black)";
 		picture = "\x\cfp\addons\headgear\BaseballCap\ui\Black.jpg";
-		model = "\x\cfp\addons\character\Models\BaseballCap";
+		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\Black.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
@@ -24,7 +24,7 @@ class CfgVehicleClasses
 		class ItemInfo: HeadgearItem
 		{
 			mass = 15;
-			uniformmodel = "\x\cfp\addons\character\Models\BaseballCap";
+			uniformmodel = "\x\cfp\addons\models\BaseballCap";
 			modelSides[] = {3,1};
 			armor = 0;
 			passThrough = 0.30;
@@ -39,17 +39,17 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Baseball Cap (Blue)";
 		picture = "\x\cfp\addons\headgear\BaseballCap\ui\Blue.jpg";
-		model = "\x\cfp\addons\character\Models\BaseballCap";
+		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\Blue.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 15;
-			uniformmodel = "\x\cfp\addons\character\Models\BaseballCap";
+			uniformmodel = "\x\cfp\addons\models\BaseballCap";
 			modelSides[] = {3,1};
 			armor = 0;
 			passThrough = 0.30;
@@ -65,17 +65,17 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Baseball Cap (Green)";
 		picture = "\x\cfp\addons\headgear\BaseballCap\ui\Green.jpg";
-		model = "\x\cfp\addons\character\Models\BaseballCap";
+		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\Green.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 15;
-			uniformmodel = "\x\cfp\addons\character\Models\BaseballCap";
+			uniformmodel = "\x\cfp\addons\models\BaseballCap";
 			modelSides[] = {3,1};
 			armor = 0;
 			passThrough = 0.30;
@@ -91,17 +91,17 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Baseball Cap (Red)";
 		picture = "\x\cfp\addons\headgear\BaseballCap\ui\Red.jpg";
-		model = "\x\cfp\addons\character\Models\BaseballCap";
+		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\Red.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 15;
-			uniformmodel = "\x\cfp\addons\character\Models\BaseballCap";
+			uniformmodel = "\x\cfp\addons\models\BaseballCap";
 			modelSides[] = {3,1};
 			armor = 0;
 			passThrough = 0.30;
@@ -117,17 +117,17 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Baseball Cap (Tan)";
 		picture = "\x\cfp\addons\headgear\BaseballCap\ui\Tan.jpg";
-		model = "\x\cfp\addons\character\Models\BaseballCap";
+		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\Tan.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 15;
-			uniformmodel = "\x\cfp\addons\character\Models\BaseballCap";
+			uniformmodel = "\x\cfp\addons\models\BaseballCap";
 			modelSides[] = {3,1};
 			armor = 0;
 			passThrough = 0.30;
@@ -141,17 +141,17 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Baseball Cap (White)";
 		picture = "\x\cfp\addons\headgear\BaseballCap\ui\White.jpg";
-		model = "\x\cfp\addons\character\Models\BaseballCap";
+		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\White.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 15;
-			uniformmodel = "\x\cfp\addons\character\Models\BaseballCap";
+			uniformmodel = "\x\cfp\addons\models\BaseballCap";
 			modelSides[] = {3,1};
 			armor = 0;
 			passThrough = 0.30;
@@ -165,17 +165,17 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Baseball Cap (Yellow)";
 		picture = "\x\cfp\addons\headgear\BaseballCap\ui\Yellow.jpg";
-		model = "\x\cfp\addons\character\Models\BaseballCap";
+		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\Yellow.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 15;
-			uniformmodel = "\x\cfp\addons\character\Models\BaseballCap";
+			uniformmodel = "\x\cfp\addons\models\BaseballCap";
 			modelSides[] = {3,1};
 			armor = 0;
 			passThrough = 0.30;
@@ -189,17 +189,17 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Baseball Cap (U.N)";
 		picture = "\x\cfp\addons\headgear\BaseballCap\ui\UN.jpg";
-		model = "\x\cfp\addons\character\Models\BaseballCap";
+		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\UN.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 15;
-			uniformmodel = "\x\cfp\addons\character\Models\BaseballCap";
+			uniformmodel = "\x\cfp\addons\models\BaseballCap";
 			modelSides[] = {3,1};
 			armor = 0;
 			passThrough = 0.30;
@@ -212,17 +212,17 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Baseball Cap (Tweed Checked Brown)";
 		picture = "\x\cfp\addons\headgear\BaseballCap\ui\TweedCheckedBrown.jpg";
-		model = "\x\cfp\addons\character\Models\BaseballCap";
+		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\TweedCheckedBrown.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 15;
-			uniformmodel = "\x\cfp\addons\character\Models\BaseballCap";
+			uniformmodel = "\x\cfp\addons\models\BaseballCap";
 			modelSides[] = {3,1};
 			armor = 0;
 			passThrough = 0.30;
@@ -236,17 +236,17 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Baseball Cap (Tweed Checked Green)";
 		picture = "\x\cfp\addons\headgear\BaseballCap\ui\TweedCheckedGreen.jpg";
-		model = "\x\cfp\addons\character\Models\BaseballCap";
+		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\TweedCheckedGreen.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 15;
-			uniformmodel = "\x\cfp\addons\character\Models\BaseballCap";
+			uniformmodel = "\x\cfp\addons\models\BaseballCap";
 			modelSides[] = {3,1};
 			armor = 0;
 			passThrough = 0.30;
@@ -260,17 +260,17 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Baseball Cap (Tweed Checked Grey)";
 		picture = "\x\cfp\addons\headgear\BaseballCap\ui\TweedCheckedGrey.jpg";
-		model = "\x\cfp\addons\character\Models\BaseballCap";
+		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\TweedCheckedGrey.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 15;
-			uniformmodel = "\x\cfp\addons\character\Models\BaseballCap";
+			uniformmodel = "\x\cfp\addons\models\BaseballCap";
 			modelSides[] = {3,1};
 			armor = 0;
 			passThrough = 0.30;
@@ -283,17 +283,17 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Baseball Cap (Hunter)";
 		picture = "\x\cfp\addons\headgear\BaseballCap\ui\Hunter.jpg";
-		model = "\x\cfp\addons\character\Models\BaseballCap";
+		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\Hunter.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 15;
-			uniformmodel = "\x\cfp\addons\character\Models\BaseballCap";
+			uniformmodel = "\x\cfp\addons\models\BaseballCap";
 			modelSides[] = {3,1};
 			armor = 0;
 			passThrough = 0.30;
@@ -307,17 +307,17 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Baseball Cap (Hunter2)";
 		picture = "\x\cfp\addons\headgear\BaseballCap\ui\Hunter2.jpg";
-		model = "\x\cfp\addons\character\Models\BaseballCap";
+		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\Hunter2.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 15;
-			uniformmodel = "\x\cfp\addons\character\Models\BaseballCap";
+			uniformmodel = "\x\cfp\addons\models\BaseballCap";
 			modelSides[] = {3,1};
 			armor = 0;
 			passThrough = 0.30;
@@ -330,17 +330,17 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Baseball Cap (A-Tacs FG)";
 		picture = "\x\cfp\addons\headgear\BaseballCap\ui\ATacsFG.jpg";
-		model = "\x\cfp\addons\character\Models\BaseballCap";
+		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\ATacsFG.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 15;
-			uniformmodel = "\x\cfp\addons\character\Models\BaseballCap";
+			uniformmodel = "\x\cfp\addons\models\BaseballCap";
 			modelSides[] = {3,1};
 			armor = 0;
 			passThrough = 0.30;
@@ -354,17 +354,17 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Baseball Cap (Nod Urban)";
 		picture = "\x\cfp\addons\headgear\BaseballCap\ui\NodUrban.jpg";
-		model = "\x\cfp\addons\character\Models\BaseballCap";
+		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\NodUrban.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 15;
-			uniformmodel = "\x\cfp\addons\character\Models\BaseballCap";
+			uniformmodel = "\x\cfp\addons\models\BaseballCap";
 			modelSides[] = {3,1};
 			armor = 0;
 			passThrough = 0.30;
@@ -378,17 +378,17 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Baseball Cap (Police Black1)";
 		picture = "\x\cfp\addons\headgear\BaseballCap\ui\PoliceBlack1.jpg";
-		model = "\x\cfp\addons\character\Models\BaseballCap";
+		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\PoliceBlack1.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 15;
-			uniformmodel = "\x\cfp\addons\character\Models\BaseballCap";
+			uniformmodel = "\x\cfp\addons\models\BaseballCap";
 			modelSides[] = {3,1};
 			armor = 0;
 			passThrough = 0.30;
@@ -401,17 +401,17 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Baseball Cap (FBI Black1)";
 		picture = "\x\cfp\addons\headgear\BaseballCap\ui\FBIBlack1.jpg";
-		model = "\x\cfp\addons\character\Models\BaseballCap";
+		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\FBIBlack1.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 15;
-			uniformmodel = "\x\cfp\addons\character\Models\BaseballCap";
+			uniformmodel = "\x\cfp\addons\models\BaseballCap";
 			modelSides[] = {3,1};
 			armor = 0;
 			passThrough = 0.30;
@@ -424,17 +424,17 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Baseball Cap (Swat Black1)";
 		picture = "\x\cfp\addons\headgear\BaseballCap\ui\SwatBlack1.jpg";
-		model = "\x\cfp\addons\character\Models\BaseballCap";
+		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\SwatBlack1.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 15;
-			uniformmodel = "\x\cfp\addons\character\Models\BaseballCap";
+			uniformmodel = "\x\cfp\addons\models\BaseballCap";
 			modelSides[] = {3,1};
 			armor = 0;
 			passThrough = 0.30;
@@ -448,17 +448,17 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Baseball Cap (M.P Black1)";
 		picture = "\x\cfp\addons\headgear\BaseballCap\ui\MPBlack1.jpg";
-		model = "\x\cfp\addons\character\Models\BaseballCap";
+		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\MPBlack1.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 15;
-			uniformmodel = "\x\cfp\addons\character\Models\BaseballCap";
+			uniformmodel = "\x\cfp\addons\models\BaseballCap";
 			modelSides[] = {3,1};
 			armor = 0;
 			passThrough = 0.30;
@@ -471,23 +471,23 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Baseball Cap (M.P Black2)";
 		picture = "\x\cfp\addons\headgear\BaseballCap\ui\MPBlack2.jpg";
-		model = "\x\cfp\addons\character\Models\BaseballCap";
+		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\MPBlack2.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 15;
-			uniformmodel = "\x\cfp\addons\character\Models\BaseballCap";
+			uniformmodel = "\x\cfp\addons\models\BaseballCap";
 			modelSides[] = {3,1};
 			armor = 0;
 			passThrough = 0.30;
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\MPBlack2.paa"};
 			hiddenSelections[] = {"Camo"};
-			
+
 		};
 	};
 

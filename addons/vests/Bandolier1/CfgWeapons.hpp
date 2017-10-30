@@ -16,7 +16,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Bandolier 1 (Black)";
 		picture = "\x\cfp\addons\vests\Bandolier1\ui\Black.jpg";
-		model = "\x\cfp\addons\character\Models\Bandolier1";
+		model = "\x\cfp\addons\models\Bandolier1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Bandolier1\Black.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
@@ -25,7 +25,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\Bandolier1";
+			uniformModel = "\x\cfp\addons\models\Bandolier1";
 			containerClass = "Supply60";
 			hiddenSelections[] = {"camo"};
 			mass = 80;
@@ -64,7 +64,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Bandolier 1 (Green)";
 		picture = "\x\cfp\addons\vests\Bandolier1\ui\Green.jpg";
-		model = "\x\cfp\addons\character\Models\Bandolier1";
+		model = "\x\cfp\addons\models\Bandolier1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Bandolier1\Green.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
@@ -73,7 +73,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\Bandolier1";
+			uniformModel = "\x\cfp\addons\models\Bandolier1";
 			containerClass = "Supply60";
 			hiddenSelections[] = {"camo"};
 			mass = 80;
@@ -112,7 +112,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Bandolier 1 (Tan)";
 		picture = "\x\cfp\addons\vests\Bandolier1\ui\Tan.jpg";
-		model = "\x\cfp\addons\character\Models\Bandolier1";
+		model = "\x\cfp\addons\models\Bandolier1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Bandolier1\Tan.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
@@ -121,7 +121,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\Bandolier1";
+			uniformModel = "\x\cfp\addons\models\Bandolier1";
 			containerClass = "Supply60";
 			hiddenSelections[] = {"camo"};
 			mass = 80;
@@ -160,7 +160,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Bandolier (Grey)";
 		picture = "\x\cfp\addons\vests\Bandolier1\ui\Grey.jpg";
-		model = "\x\cfp\addons\character\Models\Bandolier1";
+		model = "\x\cfp\addons\models\Bandolier1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Bandolier1\Grey.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
@@ -169,7 +169,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\Bandolier1";
+			uniformModel = "\x\cfp\addons\models\Bandolier1";
 			containerClass = "Supply60";
 			hiddenSelections[] = {"camo"};
 			mass = 80;

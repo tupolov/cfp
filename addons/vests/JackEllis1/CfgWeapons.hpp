@@ -16,7 +16,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Jack Ellis 1 (Black)";
 		picture = "\x\cfp\addons\vests\JackEllis1\ui\Black.jpg";
-		model = "\x\cfp\addons\character\Models\JackEllis1";
+		model = "\x\cfp\addons\models\JackEllis1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\JackEllis1\Black.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -24,7 +24,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\JackEllis1";
+			uniformModel = "\x\cfp\addons\models\JackEllis1";
 			containerClass = "Supply0";
 			hiddenSelections[] = {"camo"};
 			mass = 120;
@@ -61,7 +61,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Jack Ellis 1 (Green)";
 		picture = "\x\cfp\addons\vests\JackEllis1\ui\Green.jpg";
-		model = "\x\cfp\addons\character\Models\JackEllis1";
+		model = "\x\cfp\addons\models\JackEllis1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\JackEllis1\Green.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -69,7 +69,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\JackEllis1";
+			uniformModel = "\x\cfp\addons\models\JackEllis1";
 			containerClass = "Supply0";
 			hiddenSelections[] = {"camo"};
 			mass = 120;
@@ -108,7 +108,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Jack Ellis 1 (Tan)";
 		picture = "\x\cfp\addons\vests\JackEllis1\ui\Tan.jpg";
-		model = "\x\cfp\addons\character\Models\JackEllis1";
+		model = "\x\cfp\addons\models\JackEllis1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\JackEllis1\Tan.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -116,7 +116,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\JackEllis1";
+			uniformModel = "\x\cfp\addons\models\JackEllis1";
 			containerClass = "Supply0";
 			hiddenSelections[] = {"camo"};
 			mass = 120;
@@ -155,7 +155,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Jack Ellis 1 (Grey)";
 		picture = "\x\cfp\addons\vests\JackEllis1\ui\Grey.jpg";
-		model = "\x\cfp\addons\character\Models\JackEllis1";
+		model = "\x\cfp\addons\models\JackEllis1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\JackEllis1\Grey.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -163,7 +163,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\JackEllis1";
+			uniformModel = "\x\cfp\addons\models\JackEllis1";
 			containerClass = "Supply0";
 			hiddenSelections[] = {"camo"};
 			mass = 120;
@@ -202,7 +202,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Jack Ellis 1 (White)";
 		picture = "\x\cfp\addons\vests\JackEllis1\ui\White.jpg";
-		model = "\x\cfp\addons\character\Models\JackEllis1";
+		model = "\x\cfp\addons\models\JackEllis1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\JackEllis1\White.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -210,7 +210,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\JackEllis1";
+			uniformModel = "\x\cfp\addons\models\JackEllis1";
 			containerClass = "Supply0";
 			hiddenSelections[] = {"camo"};
 			mass = 120;
@@ -249,7 +249,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Jack Ellis 1 (Blue)";
 		picture = "\x\cfp\addons\vests\JackEllis1\ui\Blue.jpg";
-		model = "\x\cfp\addons\character\Models\JackEllis1";
+		model = "\x\cfp\addons\models\JackEllis1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\JackEllis1\Blue.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -257,7 +257,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\JackEllis1";
+			uniformModel = "\x\cfp\addons\models\JackEllis1";
 			containerClass = "Supply0";
 			hiddenSelections[] = {"camo"};
 			mass = 120;
@@ -296,7 +296,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Jack Ellis 1 (UN Blue1)";
 		picture = "\x\cfp\addons\vests\JackEllis1\ui\UNBlue1.jpg";
-		model = "\x\cfp\addons\character\Models\JackEllis1";
+		model = "\x\cfp\addons\models\JackEllis1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\JackEllis1\UNBlue1.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -304,7 +304,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\JackEllis1";
+			uniformModel = "\x\cfp\addons\models\JackEllis1";
 			containerClass = "Supply0";
 			hiddenSelections[] = {"camo"};
 			mass = 120;
@@ -343,7 +343,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Jack Ellis 1 (Press Blue1)";
 		picture = "\x\cfp\addons\vests\JackEllis1\ui\PressBlue1.jpg";
-		model = "\x\cfp\addons\character\Models\JackEllis1";
+		model = "\x\cfp\addons\models\JackEllis1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\JackEllis1\PressBlue1.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -351,7 +351,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\JackEllis1";
+			uniformModel = "\x\cfp\addons\models\JackEllis1";
 			containerClass = "Supply0";
 			hiddenSelections[] = {"camo"};
 			mass = 120;
@@ -390,7 +390,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Jack Ellis 1 (Police Black1)";
 		picture = "\x\cfp\addons\vests\JackEllis1\ui\PoliceBlack1.jpg";
-		model = "\x\cfp\addons\character\Models\JackEllis1";
+		model = "\x\cfp\addons\models\JackEllis1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\JackEllis1\PoliceBlack1.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -398,7 +398,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\JackEllis1";
+			uniformModel = "\x\cfp\addons\models\JackEllis1";
 			containerClass = "Supply0";
 			hiddenSelections[] = {"camo"};
 			mass = 120;
@@ -437,7 +437,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Jack Ellis 1 (Swat Black1)";
 		picture = "\x\cfp\addons\vests\JackEllis1\ui\SwatBlack1.jpg";
-		model = "\x\cfp\addons\character\Models\JackEllis1";
+		model = "\x\cfp\addons\models\JackEllis1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\JackEllis1\SwatBlack1.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -445,7 +445,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\JackEllis1";
+			uniformModel = "\x\cfp\addons\models\JackEllis1";
 			containerClass = "Supply0";
 			hiddenSelections[] = {"camo"};
 			mass = 120;
@@ -484,7 +484,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Jack Ellis 1 (FBI Black1)";
 		picture = "\x\cfp\addons\vests\JackEllis1\ui\FBIBlack1.jpg";
-		model = "\x\cfp\addons\character\Models\JackEllis1";
+		model = "\x\cfp\addons\models\JackEllis1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\JackEllis1\FBIBlack1.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -492,7 +492,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\JackEllis1";
+			uniformModel = "\x\cfp\addons\models\JackEllis1";
 			containerClass = "Supply0";
 			hiddenSelections[] = {"camo"};
 			mass = 120;

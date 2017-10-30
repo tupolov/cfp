@@ -16,7 +16,7 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Head Set (Black)";
 		picture = "\x\cfp\addons\headgear\HeadSet\ui\Black.jpg";
-		model = "\x\cfp\addons\character\Models\HeadSet";
+		model = "\x\cfp\addons\models\HeadSet";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\HeadSet\Black.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
@@ -24,7 +24,7 @@ class CfgVehicleClasses
 		class ItemInfo: HeadgearItem
 		{
 			mass = 60;
-			uniformmodel = "\x\cfp\addons\character\Models\HeadSet";
+			uniformmodel = "\x\cfp\addons\models\HeadSet";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
@@ -38,17 +38,17 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Head Set (Green)";
 		picture = "\x\cfp\addons\headgear\HeadSet\ui\Green.jpg";
-		model = "\x\cfp\addons\character\Models\HeadSet";
+		model = "\x\cfp\addons\models\HeadSet";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\HeadSet\Green.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 60;
-			uniformmodel = "\x\cfp\addons\character\Models\HeadSet";
+			uniformmodel = "\x\cfp\addons\models\HeadSet";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
@@ -62,17 +62,17 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Head Set (Tan)";
 		picture = "\x\cfp\addons\headgear\HeadSet\ui\Tan.jpg";
-		model = "\x\cfp\addons\character\Models\HeadSet";
+		model = "\x\cfp\addons\models\HeadSet";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\HeadSet\Tan.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 60;
-			uniformmodel = "\x\cfp\addons\character\Models\HeadSet";
+			uniformmodel = "\x\cfp\addons\models\HeadSet";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;

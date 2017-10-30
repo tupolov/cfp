@@ -16,7 +16,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Plate Carrier 1 (Black)";
 		picture = "\x\cfp\addons\vests\PlateCarrier1\ui\Black.jpg";
-		model = "\x\cfp\addons\character\Models\PlateCarrier1";
+		model = "\x\cfp\addons\models\PlateCarrier1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\PlateCarrier1\Black.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
@@ -25,7 +25,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\PlateCarrier1";
+			uniformModel = "\x\cfp\addons\models\PlateCarrier1";
 			containerClass = "Supply120";
 			hiddenSelections[] = {"camo"};
 			mass = 200;
@@ -63,7 +63,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Plate Carrier 1 (Green)";
 		picture = "\x\cfp\addons\vests\PlateCarrier1\ui\Green.jpg";
-		model = "\x\cfp\addons\character\Models\PlateCarrier1";
+		model = "\x\cfp\addons\models\PlateCarrier1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\PlateCarrier1\Green.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
@@ -72,7 +72,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\PlateCarrier1";
+			uniformModel = "\x\cfp\addons\models\PlateCarrier1";
 			containerClass = "Supply120";
 			hiddenSelections[] = {"camo"};
 			mass = 200;
@@ -110,7 +110,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Plate Carrier 1 (Tan)";
 		picture = "\x\cfp\addons\vests\PlateCarrier1\ui\Tan.jpg";
-		model = "\x\cfp\addons\character\Models\PlateCarrier1";
+		model = "\x\cfp\addons\models\PlateCarrier1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\PlateCarrier1\Tan.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
@@ -119,7 +119,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\PlateCarrier1";
+			uniformModel = "\x\cfp\addons\models\PlateCarrier1";
 			containerClass = "Supply120";
 			hiddenSelections[] = {"camo"};
 			mass = 200;
@@ -159,7 +159,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Plate Carrier 1 (Grey)";
 		picture = "\x\cfp\addons\vests\PlateCarrier1\ui\Grey.jpg";
-		model = "\x\cfp\addons\character\Models\PlateCarrier1";
+		model = "\x\cfp\addons\models\PlateCarrier1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\PlateCarrier1\Grey.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
@@ -168,7 +168,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\PlateCarrier1";
+			uniformModel = "\x\cfp\addons\models\PlateCarrier1";
 			containerClass = "Supply120";
 			hiddenSelections[] = {"camo"};
 			mass = 200;
@@ -208,7 +208,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Plate Carrier 1 (Hunter)";
 		picture = "\x\cfp\addons\vests\PlateCarrier1\ui\Hunter.jpg";
-		model = "\x\cfp\addons\character\Models\PlateCarrier1";
+		model = "\x\cfp\addons\models\PlateCarrier1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\PlateCarrier1\Hunter.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
@@ -217,7 +217,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\PlateCarrier1";
+			uniformModel = "\x\cfp\addons\models\PlateCarrier1";
 			containerClass = "Supply120";
 			hiddenSelections[] = {"camo"};
 			mass = 200;
@@ -257,7 +257,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Plate Carrier 1 (Hunter2)";
 		picture = "\x\cfp\addons\vests\PlateCarrier1\ui\Hunter2.jpg";
-		model = "\x\cfp\addons\character\Models\PlateCarrier1";
+		model = "\x\cfp\addons\models\PlateCarrier1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\PlateCarrier1\Hunter2.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
@@ -266,7 +266,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\PlateCarrier1";
+			uniformModel = "\x\cfp\addons\models\PlateCarrier1";
 			containerClass = "Supply120";
 			hiddenSelections[] = {"camo"};
 			mass = 200;
@@ -306,7 +306,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Plate Carrier 1 (A-Tacs FG)";
 		picture = "\x\cfp\addons\vests\PlateCarrier1\ui\ATacsFG.jpg";
-		model = "\x\cfp\addons\character\Models\PlateCarrier1";
+		model = "\x\cfp\addons\models\PlateCarrier1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\PlateCarrier1\ATacsFG.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
@@ -315,7 +315,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\PlateCarrier1";
+			uniformModel = "\x\cfp\addons\models\PlateCarrier1";
 			containerClass = "Supply120";
 			hiddenSelections[] = {"camo"};
 			mass = 200;
@@ -354,7 +354,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Plate Carrier 1 (Nod Urban)";
 		picture = "\x\cfp\addons\vests\PlateCarrier1\ui\NodUrban.jpg";
-		model = "\x\cfp\addons\character\Models\PlateCarrier1";
+		model = "\x\cfp\addons\models\PlateCarrier1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\PlateCarrier1\NodUrban.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
@@ -363,7 +363,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\PlateCarrier1";
+			uniformModel = "\x\cfp\addons\models\PlateCarrier1";
 			containerClass = "Supply120";
 			hiddenSelections[] = {"camo"};
 			mass = 200;

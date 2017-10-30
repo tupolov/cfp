@@ -16,7 +16,7 @@ class CfgGlasses
 	{
 		scope = 2;
 		displayname = "Shades (Black)";
-		model = "\x\cfp\addons\character\Models\ShadesBlack.p3d";
+		model = "\x\cfp\addons\models\ShadesBlack.p3d";
 		picture = "\x\cfp\addons\character\Glasses\Shades\ui\Black.jpg";
 		identityTypes[] = {"NoGlasses",1000};
 		

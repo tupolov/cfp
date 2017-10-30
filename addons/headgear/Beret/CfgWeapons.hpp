@@ -16,7 +16,7 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Beret (Black)";
 		picture = "\x\cfp\addons\headgear\Beret\ui\Black.jpg";
-		model = "\x\cfp\addons\character\Models\Beret";
+		model = "\x\cfp\addons\models\Beret";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret\Black.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
@@ -24,7 +24,7 @@ class CfgVehicleClasses
 		class ItemInfo: HeadgearItem
 		{
 			mass = 15;
-			uniformmodel = "\x\cfp\addons\character\Models\Beret";
+			uniformmodel = "\x\cfp\addons\models\Beret";
 			modelSides[] = {3,1};
 			armor = 0;
 			passThrough = 0.30;
@@ -39,17 +39,17 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Beret (Grey)";
 		picture = "\x\cfp\addons\headgear\Beret\ui\Grey.jpg";
-		model = "\x\cfp\addons\character\Models\Beret";
+		model = "\x\cfp\addons\models\Beret";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret\Grey.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 15;
-			uniformmodel = "\x\cfp\addons\character\Models\Beret";
+			uniformmodel = "\x\cfp\addons\models\Beret";
 			modelSides[] = {3,1};
 			armor = 0;
 			passThrough = 0.30;
@@ -64,17 +64,17 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Beret (Blue)";
 		picture = "\x\cfp\addons\headgear\Beret\ui\Blue.jpg";
-		model = "\x\cfp\addons\character\Models\Beret";
+		model = "\x\cfp\addons\models\Beret";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret\Blue.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 15;
-			uniformmodel = "\x\cfp\addons\character\Models\Beret";
+			uniformmodel = "\x\cfp\addons\models\Beret";
 			modelSides[] = {3,1};
 			armor = 0;
 			passThrough = 0.30;
@@ -89,17 +89,17 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Beret (Brown)";
 		picture = "\x\cfp\addons\headgear\Beret\ui\Brown.jpg";
-		model = "\x\cfp\addons\character\Models\Beret";
+		model = "\x\cfp\addons\models\Beret";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret\Brown.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 15;
-			uniformmodel = "\x\cfp\addons\character\Models\Beret";
+			uniformmodel = "\x\cfp\addons\models\Beret";
 			modelSides[] = {3,1};
 			armor = 0;
 			passThrough = 0.30;
@@ -114,17 +114,17 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Beret (Green)";
 		picture = "\x\cfp\addons\headgear\Beret\ui\Green.jpg";
-		model = "\x\cfp\addons\character\Models\Beret";
+		model = "\x\cfp\addons\models\Beret";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret\Green.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 15;
-			uniformmodel = "\x\cfp\addons\character\Models\Beret";
+			uniformmodel = "\x\cfp\addons\models\Beret";
 			modelSides[] = {3,1};
 			armor = 0;
 			passThrough = 0.30;
@@ -140,17 +140,17 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Beret (Red)";
 		picture = "\x\cfp\addons\headgear\Beret\ui\Red.jpg";
-		model = "\x\cfp\addons\character\Models\Beret";
+		model = "\x\cfp\addons\models\Beret";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret\Red.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 15;
-			uniformmodel = "\x\cfp\addons\character\Models\Beret";
+			uniformmodel = "\x\cfp\addons\models\Beret";
 			modelSides[] = {3,1};
 			armor = 0;
 			passThrough = 0.30;
@@ -166,17 +166,17 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Beret (Tan)";
 		picture = "\x\cfp\addons\headgear\Beret\ui\Tan.jpg";
-		model = "\x\cfp\addons\character\Models\Beret";
+		model = "\x\cfp\addons\models\Beret";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret\Tan.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 15;
-			uniformmodel = "\x\cfp\addons\character\Models\Beret";
+			uniformmodel = "\x\cfp\addons\models\Beret";
 			modelSides[] = {3,1};
 			armor = 0;
 			passThrough = 0.30;
@@ -192,17 +192,17 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Beret (Yellow)";
 		picture = "\x\cfp\addons\headgear\Beret\ui\Yellow.jpg";
-		model = "\x\cfp\addons\character\Models\Beret";
+		model = "\x\cfp\addons\models\Beret";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret\Yellow.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 15;
-			uniformmodel = "\x\cfp\addons\character\Models\Beret";
+			uniformmodel = "\x\cfp\addons\models\Beret";
 			modelSides[] = {3,1};
 			armor = 0;
 			passThrough = 0.30;
@@ -216,17 +216,17 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Beret (U.N)";
 		picture = "\x\cfp\addons\headgear\Beret\ui\Un1.jpg";
-		model = "\x\cfp\addons\character\Models\Beret";
+		model = "\x\cfp\addons\models\Beret";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret\Un1.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 15;
-			uniformmodel = "\x\cfp\addons\character\Models\Beret";
+			uniformmodel = "\x\cfp\addons\models\Beret";
 			modelSides[] = {3,1};
 			armor = 0;
 			passThrough = 0.30;
@@ -241,23 +241,23 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Beret (U.N)";
 		picture = "\x\cfp\addons\headgear\Beret\ui\Un2.jpg";
-		model = "\x\cfp\addons\character\Models\Beret";
+		model = "\x\cfp\addons\models\Beret";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret\Un2.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 15;
-			uniformmodel = "\x\cfp\addons\character\Models\Beret";
+			uniformmodel = "\x\cfp\addons\models\Beret";
 			modelSides[] = {3,1};
 			armor = 0;
 			passThrough = 0.30;
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret\Un2.paa"};
 			hiddenSelections[] = {"Camo"};
-			
+
 		};
 	};
 

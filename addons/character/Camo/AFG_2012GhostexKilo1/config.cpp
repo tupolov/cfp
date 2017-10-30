@@ -64,7 +64,7 @@ class CfgVehicles
 		uniformAccessories[] = {};
 		uniformClass = "AFG_2012GhostexKilo1_BattleDressUniform";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\BattleDressUniform.p3d";
+		model = "\x\cfp\addons\models\BattleDressUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -93,7 +93,7 @@ class CfgVehicles
 		uniformAccessories[] = {};
 		uniformClass = "AFG_2012GhostexKilo1_PulloverUniform";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\PulloverUniform.p3d";
+		model = "\x\cfp\addons\models\PulloverUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -122,7 +122,7 @@ class CfgVehicles
 		uniformAccessories[] = {};
 		uniformClass = "AFG_2012GhostexKilo1_ReconUniform";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\ReconUniform.p3d";
+		model = "\x\cfp\addons\models\ReconUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -151,7 +151,7 @@ class CfgVehicles
 		uniformAccessories[] = {};
 		uniformClass = "AFG_2012GhostexKilo1_FieldUniform";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\FieldUniform.p3d";
+		model = "\x\cfp\addons\models\FieldUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -184,7 +184,7 @@ class CfgVehicles
 		uniformAccessories[] = {};
 		uniformClass = "AFG_2012GhostexKilo1_FieldUniform_SS";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\FieldUniform2.p3d";
+		model = "\x\cfp\addons\models\FieldUniform2.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -213,7 +213,7 @@ class CfgVehicles
 		uniformAccessories[] = {};
 		uniformClass = "AFG_2012GhostexKilo1_TacticalUniform";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -246,7 +246,7 @@ class CfgVehicles
 		uniformAccessories[] = {};
 		uniformClass = "AFG_2012GhostexKilo1_TacticalUniform_SS";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform2.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform2.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -276,7 +276,7 @@ class CfgVehicles
 		uniformAccessories[] = {};
 		uniformClass = "AFG_2012GhostexKilo1_TacticalUniform_TS";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform3.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform3.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -305,7 +305,7 @@ class CfgVehicles
 		class AFG_2012GhostexKilo1_BattleDressUniform: Uniform_Base
 		{
 			scope=2;
-			model = "\x\cfp\addons\character\Models\Suitpack";
+			model = "\x\cfp\addons\models\Suitpack";
 			displayName = "Afghanistan 2012 Ghostex Kilo1 (Battle Dress Uniform)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2012GhostexKilo1\ui\BattleDressUniform.jpg";
 			author = "SP Craig";
@@ -321,7 +321,7 @@ class CfgVehicles
 		class AFG_2012GhostexKilo1_PulloverUniform: Uniform_Base
 		{
 			scope=2;
-			model = "\x\cfp\addons\character\Models\Suitpack";
+			model = "\x\cfp\addons\models\Suitpack";
 			displayName = "Afghanistan 2012 Ghostex Kilo1 (Pullover Uniform)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2012GhostexKilo1\ui\PulloverUniform.jpg";
 			author = "SP Craig";
@@ -337,7 +337,7 @@ class CfgVehicles
 		class AFG_2012GhostexKilo1_ReconUniform: Uniform_Base
 		{
 			scope=2;
-			model = "\x\cfp\addons\character\Models\Suitpack";
+			model = "\x\cfp\addons\models\Suitpack";
 			displayName = "Afghanistan 2012 Ghostex Kilo1 (Recon Uniform)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2012GhostexKilo1\ui\ReconUniform.jpg";
 			author = "SP Craig";
@@ -355,7 +355,7 @@ class CfgVehicles
 		class AFG_2012GhostexKilo1_FieldUniform: Uniform_Base
 		{
 			scope=2;
-			model = "\x\cfp\addons\character\Models\Suitpack";
+			model = "\x\cfp\addons\models\Suitpack";
 			displayName = "Afghanistan 2012 Ghostex Kilo1 (Field Uniform)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2012GhostexKilo1\ui\FieldUniform.jpg";
 			author = "SP Craig";
@@ -372,7 +372,7 @@ class CfgVehicles
 		class AFG_2012GhostexKilo1_FieldUniform_SS: Uniform_Base
 		{
 			scope=2;
-			model = "\x\cfp\addons\character\Models\Suitpack";
+			model = "\x\cfp\addons\models\Suitpack";
 			displayName = "Afghanistan 2012 Ghostex Kilo1 (Field Uniform SS)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2012GhostexKilo1\ui\FieldUniform.jpg";
 			author = "SP Craig";
@@ -389,7 +389,7 @@ class CfgVehicles
 		class AFG_2012GhostexKilo1_TacticalUniform: Uniform_Base
 		{
 			scope=2;
-			model = "\x\cfp\addons\character\Models\Suitpack";
+			model = "\x\cfp\addons\models\Suitpack";
 			displayName = "Afghanistan 2012 Ghostex Kilo1 (Tactical Uniform)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2012GhostexKilo1\ui\TacticalUniform.jpg";
 			author = "SP Craig";
@@ -406,7 +406,7 @@ class CfgVehicles
 		class AFG_2012GhostexKilo1_TacticalUniform_SS: Uniform_Base
 		{
 			scope=2;
-			model = "\x\cfp\addons\character\Models\Suitpack";
+			model = "\x\cfp\addons\models\Suitpack";
 			displayName = "Afghanistan 2012 Ghostex Kilo1 (Tactical Uniform SS)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2012GhostexKilo1\ui\TacticalUniform.jpg";
 			author = "SP Craig";
@@ -423,7 +423,7 @@ class CfgVehicles
 		class AFG_2012GhostexKilo1_TacticalUniform_TS: Uniform_Base
 		{
 			scope=2;
-			model = "\x\cfp\addons\character\Models\Suitpack";
+			model = "\x\cfp\addons\models\Suitpack";
 			displayName = "Afghanistan 2012 Ghostex Kilo1 (Tactical Uniform TS)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2012GhostexKilo1\ui\TacticalUniformTS.jpg";
 			author = "SP Craig";

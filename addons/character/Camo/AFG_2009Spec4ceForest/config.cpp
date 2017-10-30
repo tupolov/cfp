@@ -66,7 +66,7 @@ class CfgVehicles
 		uniformAccessories[] = {};
 		uniformClass = "AFG_2009Spec4ceForest_BattleDressUniform";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\BattleDressUniform.p3d";
+		model = "\x\cfp\addons\models\BattleDressUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -95,7 +95,7 @@ class CfgVehicles
 		uniformAccessories[] = {};
 		uniformClass = "AFG_2009Spec4ceForest_PulloverUniform";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\PulloverUniform.p3d";
+		model = "\x\cfp\addons\models\PulloverUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -124,7 +124,7 @@ class CfgVehicles
 		uniformAccessories[] = {};
 		uniformClass = "AFG_2009Spec4ceForest_ReconUniform";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\ReconUniform.p3d";
+		model = "\x\cfp\addons\models\ReconUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -153,7 +153,7 @@ class CfgVehicles
 		uniformAccessories[] = {};
 		uniformClass = "AFG_2009Spec4ceForest_FieldUniform";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\FieldUniform.p3d";
+		model = "\x\cfp\addons\models\FieldUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -186,7 +186,7 @@ class CfgVehicles
 		uniformAccessories[] = {};
 		uniformClass = "AFG_2009Spec4ceForest_FieldUniform_SS";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\FieldUniform2.p3d";
+		model = "\x\cfp\addons\models\FieldUniform2.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -215,7 +215,7 @@ class CfgVehicles
 		uniformAccessories[] = {};
 		uniformClass = "AFG_2009Spec4ceForest_TacticalUniform";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -248,7 +248,7 @@ class CfgVehicles
 		uniformAccessories[] = {};
 		uniformClass = "AFG_2009Spec4ceForest_TacticalUniform_SS";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform2.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform2.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -278,7 +278,7 @@ class CfgVehicles
 		uniformAccessories[] = {};
 		uniformClass = "AFG_2009Spec4ceForest_TacticalUniform_TS";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform3.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform3.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -307,7 +307,7 @@ class CfgVehicles
 		class AFG_2009Spec4ceForest_BattleDressUniform: Uniform_Base
 		{
 			scope=2;
-			model = "\x\cfp\addons\character\Models\Suitpack";
+			model = "\x\cfp\addons\models\Suitpack";
 			displayName = "Afghanistan 2009 Spec4ce Forest (Battle Dress Uniform)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2009Spec4ceForest\ui\BattleDressUniform.jpg";
 			author = "SP Craig";
@@ -323,7 +323,7 @@ class CfgVehicles
         class AFG_2009Spec4ceForest_PulloverUniform: Uniform_Base
 		{
 			scope=2;
-			model = "\x\cfp\addons\character\Models\Suitpack";
+			model = "\x\cfp\addons\models\Suitpack";
 			displayName = "Afghanistan 2009 Spec4ce Forest (Pullover Uniform)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2009Spec4ceForest\ui\PulloverUniform.jpg";
 			author = "SP Craig";
@@ -339,7 +339,7 @@ class CfgVehicles
         class AFG_2009Spec4ceForest_ReconUniform: Uniform_Base
 		{
 			scope=2;
-			model = "\x\cfp\addons\character\Models\Suitpack";
+			model = "\x\cfp\addons\models\Suitpack";
 			displayName = "Afghanistan 2009 Spec4ce Forest (Recon Uniform)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2009Spec4ceForest\ui\ReconUniform.jpg";
 			author = "SP Craig";
@@ -357,7 +357,7 @@ class CfgVehicles
 		class AFG_2009Spec4ceForest_FieldUniform: Uniform_Base
 		{
 			scope=2;
-			model = "\x\cfp\addons\character\Models\Suitpack";
+			model = "\x\cfp\addons\models\Suitpack";
 			displayName = "Afghanistan 2009 Spec4ce Forest (Field Uniform)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2009Spec4ceForest\ui\FieldUniform.jpg";
 			author = "SP Craig";
@@ -374,7 +374,7 @@ class CfgVehicles
 		class AFG_2009Spec4ceForest_FieldUniform_SS: Uniform_Base
 		{
 			scope=2;
-			model = "\x\cfp\addons\character\Models\Suitpack";
+			model = "\x\cfp\addons\models\Suitpack";
 			displayName = "Afghanistan 2009 Spec4ce Forest (Field Uniform SS)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2009Spec4ceForest\ui\FieldUniform.jpg";
 			author = "SP Craig";
@@ -391,7 +391,7 @@ class CfgVehicles
 		class AFG_2009Spec4ceForest_TacticalUniform: Uniform_Base
 		{
 			scope=2;
-			model = "\x\cfp\addons\character\Models\Suitpack";
+			model = "\x\cfp\addons\models\Suitpack";
 			displayName = "Afghanistan 2009 Spec4ce Forest (Tactical Uniform)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2009Spec4ceForest\ui\TacticalUniform.jpg";
 			author = "SP Craig";
@@ -408,7 +408,7 @@ class CfgVehicles
 		class AFG_2009Spec4ceForest_TacticalUniform_SS: Uniform_Base
 		{
 			scope=2;
-			model = "\x\cfp\addons\character\Models\Suitpack";
+			model = "\x\cfp\addons\models\Suitpack";
 			displayName = "Afghanistan 2009 Spec4ce Forest (Tactical Uniform SS)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2009Spec4ceForest\ui\TacticalUniform.jpg";
 			author = "SP Craig";
@@ -425,7 +425,7 @@ class CfgVehicles
 		class AFG_2009Spec4ceForest_TacticalUniform_TS: Uniform_Base
 		{
 			scope=2;
-			model = "\x\cfp\addons\character\Models\Suitpack";
+			model = "\x\cfp\addons\models\Suitpack";
 			displayName = "Afghanistan 2009 Spec4ce Forest (Tactical Uniform TS)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2009Spec4ceForest\ui\TacticalUniformTS.jpg";
 			author = "SP Craig";

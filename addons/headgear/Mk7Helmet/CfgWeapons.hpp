@@ -16,7 +16,7 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Mk7 Helmet (Black 1)";
 		picture = "\x\cfp\addons\headgear\Mk7Helmet\ui\Black1.jpg";
-		model = "\x\cfp\addons\character\Models\Mk7Helmet1";
+		model = "\x\cfp\addons\models\Mk7Helmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Mk7Helmet\Black.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa"};
 		hiddenSelections[] = {"Camo","Camo1"};
 		author = "SP Craig";
@@ -24,7 +24,7 @@ class CfgVehicleClasses
 		class ItemInfo: HeadgearItem
 		{
 			mass = 60;
-			uniformmodel = "\x\cfp\addons\character\Models\Mk7Helmet1";
+			uniformmodel = "\x\cfp\addons\models\Mk7Helmet1";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
@@ -37,17 +37,17 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Mk7 Helmet (Black 2)";
 		picture = "\x\cfp\addons\headgear\Mk7Helmet\ui\Black2.jpg";
-		model = "\x\cfp\addons\character\Models\Mk7Helmet2";
+		model = "\x\cfp\addons\models\Mk7Helmet2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Mk7Helmet\Black.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa"};
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 60;
-			uniformmodel = "\x\cfp\addons\character\Models\Mk7Helmet2";
+			uniformmodel = "\x\cfp\addons\models\Mk7Helmet2";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
@@ -62,17 +62,17 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Mk7 Helmet (Blue 1)";
 		picture = "\x\cfp\addons\headgear\Mk7Helmet\ui\Blue1.jpg";
-		model = "\x\cfp\addons\character\Models\Mk7Helmet1";
+		model = "\x\cfp\addons\models\Mk7Helmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Mk7Helmet\Blue.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa"};
 		hiddenSelections[] = {"Camo","Camo1"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 60;
-			uniformmodel = "\x\cfp\addons\character\Models\Mk7Helmet1";
+			uniformmodel = "\x\cfp\addons\models\Mk7Helmet1";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
@@ -85,17 +85,17 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Mk7 Helmet (Blue 2)";
 		picture = "\x\cfp\addons\headgear\Mk7Helmet\ui\Blue2.jpg";
-		model = "\x\cfp\addons\character\Models\Mk7Helmet2";
+		model = "\x\cfp\addons\models\Mk7Helmet2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Mk7Helmet\Blue.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa"};
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 60;
-			uniformmodel = "\x\cfp\addons\character\Models\Mk7Helmet2";
+			uniformmodel = "\x\cfp\addons\models\Mk7Helmet2";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
@@ -109,17 +109,17 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Mk7 Helmet (Green 1)";
 		picture = "\x\cfp\addons\headgear\Mk7Helmet\ui\Green1.jpg";
-		model = "\x\cfp\addons\character\Models\Mk7Helmet1";
+		model = "\x\cfp\addons\models\Mk7Helmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Mk7Helmet\Green.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa"};
 		hiddenSelections[] = {"Camo","Camo1"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 60;
-			uniformmodel = "\x\cfp\addons\character\Models\Mk7Helmet1";
+			uniformmodel = "\x\cfp\addons\models\Mk7Helmet1";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
@@ -132,17 +132,17 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Mk7 Helmet (Green 2)";
 		picture = "\x\cfp\addons\headgear\Mk7Helmet\ui\Green2.jpg";
-		model = "\x\cfp\addons\character\Models\Mk7Helmet2";
+		model = "\x\cfp\addons\models\Mk7Helmet2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Mk7Helmet\Green.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa"};
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 60;
-			uniformmodel = "\x\cfp\addons\character\Models\Mk7Helmet2";
+			uniformmodel = "\x\cfp\addons\models\Mk7Helmet2";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
@@ -157,17 +157,17 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Mk7 Helmet (Tan 1)";
 		picture = "\x\cfp\addons\headgear\Mk7Helmet\ui\Tan1.jpg";
-		model = "\x\cfp\addons\character\Models\Mk7Helmet1";
+		model = "\x\cfp\addons\models\Mk7Helmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Mk7Helmet\Tan.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa"};
 		hiddenSelections[] = {"Camo","Camo1"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 60;
-			uniformmodel = "\x\cfp\addons\character\Models\Mk7Helmet1";
+			uniformmodel = "\x\cfp\addons\models\Mk7Helmet1";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
@@ -180,17 +180,17 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Mk7 Helmet (Tan 2)";
 		picture = "\x\cfp\addons\headgear\Mk7Helmet\ui\Tan2.jpg";
-		model = "\x\cfp\addons\character\Models\Mk7Helmet2";
+		model = "\x\cfp\addons\models\Mk7Helmet2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Mk7Helmet\Tan.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa"};
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 60;
-			uniformmodel = "\x\cfp\addons\character\Models\Mk7Helmet2";
+			uniformmodel = "\x\cfp\addons\models\Mk7Helmet2";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
@@ -205,17 +205,17 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Mk7 Helmet (Un 1)";
 		picture = "\x\cfp\addons\headgear\Mk7Helmet\ui\Un1.jpg";
-		model = "\x\cfp\addons\character\Models\Mk7Helmet1";
+		model = "\x\cfp\addons\models\Mk7Helmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Mk7Helmet\Un.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa"};
 		hiddenSelections[] = {"Camo","Camo1"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 60;
-			uniformmodel = "\x\cfp\addons\character\Models\Mk7Helmet1";
+			uniformmodel = "\x\cfp\addons\models\Mk7Helmet1";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
@@ -228,21 +228,21 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Mk7 Helmet (Un 2)";
 		picture = "\x\cfp\addons\headgear\Mk7Helmet\ui\Un2.jpg";
-		model = "\x\cfp\addons\character\Models\Mk7Helmet2";
+		model = "\x\cfp\addons\models\Mk7Helmet2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Mk7Helmet\Un.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa"};
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 60;
-			uniformmodel = "\x\cfp\addons\character\Models\Mk7Helmet2";
+			uniformmodel = "\x\cfp\addons\models\Mk7Helmet2";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Mk7Helmet\Un.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa"};
 			hiddenSelections[] = {"Camo","Camo1","Camo2"};		};
 		};
-	
+

@@ -66,7 +66,7 @@ class CfgVehicles
 		uniformAccessories[] = {};
 		uniformClass = "AFG_2002FourColorWoodland_BattleDressUniform";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\BattleDressUniform.p3d";
+		model = "\x\cfp\addons\models\BattleDressUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -95,7 +95,7 @@ class CfgVehicles
 		uniformAccessories[] = {};
 		uniformClass = "AFG_2002FourColorWoodland_PulloverUniform";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\PulloverUniform.p3d";
+		model = "\x\cfp\addons\models\PulloverUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -124,7 +124,7 @@ class CfgVehicles
 		uniformAccessories[] = {};
 		uniformClass = "AFG_2002FourColorWoodland_ReconUniform";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\ReconUniform.p3d";
+		model = "\x\cfp\addons\models\ReconUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -153,7 +153,7 @@ class CfgVehicles
 		uniformAccessories[] = {};
 		uniformClass = "AFG_2002FourColorWoodland_FieldUniform";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\FieldUniform.p3d";
+		model = "\x\cfp\addons\models\FieldUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -186,7 +186,7 @@ class CfgVehicles
 		uniformAccessories[] = {};
 		uniformClass = "AFG_2002FourColorWoodland_FieldUniform_SS";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\FieldUniform2.p3d";
+		model = "\x\cfp\addons\models\FieldUniform2.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -215,7 +215,7 @@ class CfgVehicles
 		uniformAccessories[] = {};
 		uniformClass = "AFG_2002FourColorWoodland_TacticalUniform";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -248,7 +248,7 @@ class CfgVehicles
 		uniformAccessories[] = {};
 		uniformClass = "AFG_2002FourColorWoodland_TacticalUniform_SS";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform2.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform2.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -278,7 +278,7 @@ class CfgVehicles
 		uniformAccessories[] = {};
 		uniformClass = "AFG_2002FourColorWoodland_TacticalUniform_TS";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform3.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform3.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -307,7 +307,7 @@ class CfgVehicles
 		class AFG_2002FourColorWoodland_BattleDressUniform: Uniform_Base
 		{
 			scope=2;
-			model = "\x\cfp\addons\character\Models\Suitpack";
+			model = "\x\cfp\addons\models\Suitpack";
 			displayName = "Afghanistan 2002 Four Color Woodland (Battle Dress Uniform)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2002FourColorWoodland\ui\BattleDressUniform.jpg";
 			author = "SP Craig";
@@ -323,7 +323,7 @@ class CfgVehicles
         class AFG_2002FourColorWoodland_PulloverUniform: Uniform_Base
 		{
 			scope=2;
-			model = "\x\cfp\addons\character\Models\Suitpack";
+			model = "\x\cfp\addons\models\Suitpack";
 			displayName = "Afghanistan 2002 Four Color Woodland (Pullover Uniform)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2002FourColorWoodland\ui\PulloverUniform.jpg";
 			author = "SP Craig";
@@ -339,7 +339,7 @@ class CfgVehicles
         class AFG_2002FourColorWoodland_ReconUniform: Uniform_Base
 		{
 			scope=2;
-			model = "\x\cfp\addons\character\Models\Suitpack";
+			model = "\x\cfp\addons\models\Suitpack";
 			displayName = "Afghanistan 2002 Four Color Woodland (Recon Uniform)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2002FourColorWoodland\ui\ReconUniform.jpg";
 			author = "SP Craig";
@@ -357,7 +357,7 @@ class CfgVehicles
 		class AFG_2002FourColorWoodland_FieldUniform: Uniform_Base
 		{
 			scope=2;
-			model = "\x\cfp\addons\character\Models\Suitpack";
+			model = "\x\cfp\addons\models\Suitpack";
 			displayName = "Afghanistan 2002 Four Color Woodland (Field Uniform)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2002FourColorWoodland\ui\FieldUniform.jpg";
 			author = "SP Craig";
@@ -374,7 +374,7 @@ class CfgVehicles
 		class AFG_2002FourColorWoodland_FieldUniform_SS: Uniform_Base
 		{
 			scope=2;
-			model = "\x\cfp\addons\character\Models\Suitpack";
+			model = "\x\cfp\addons\models\Suitpack";
 			displayName = "Afghanistan 2002 Four Color Woodland (Field Uniform SS)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2002FourColorWoodland\ui\FieldUniform.jpg";
 			author = "SP Craig";
@@ -391,7 +391,7 @@ class CfgVehicles
 		class AFG_2002FourColorWoodland_TacticalUniform: Uniform_Base
 		{
 			scope=2;
-			model = "\x\cfp\addons\character\Models\Suitpack";
+			model = "\x\cfp\addons\models\Suitpack";
 			displayName = "Afghanistan 2002 Four Color Woodland (Tactical Uniform)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2002FourColorWoodland\ui\TacticalUniform.jpg";
 			author = "SP Craig";
@@ -408,7 +408,7 @@ class CfgVehicles
 		class AFG_2002FourColorWoodland_TacticalUniform_SS: Uniform_Base
 		{
 			scope=2;
-			model = "\x\cfp\addons\character\Models\Suitpack";
+			model = "\x\cfp\addons\models\Suitpack";
 			displayName = "Afghanistan 2002 Four Color Woodland (Tactical Uniform SS)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2002FourColorWoodland\ui\TacticalUniform.jpg";
 			author = "SP Craig";
@@ -425,7 +425,7 @@ class CfgVehicles
 		class AFG_2002FourColorWoodland_TacticalUniform_TS: Uniform_Base
 		{
 			scope=2;
-			model = "\x\cfp\addons\character\Models\Suitpack";
+			model = "\x\cfp\addons\models\Suitpack";
 			displayName = "Afghanistan 2002 Four Color Woodland (Tactical Uniform TS)";
 			picture = "\x\cfp\addons\character\Camo\AFG_2002FourColorWoodland\ui\TacticalUniformTS.jpg";
 			author = "SP Craig";

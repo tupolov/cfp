@@ -16,7 +16,7 @@ class CfgGlasses
 	{
 		scope = 2;
 		displayname = "Knee Pads (Black)";
-		model = "\x\cfp\addons\character\Models\KneePadsBlack.p3d";
+		model = "\x\cfp\addons\models\KneePadsBlack.p3d";
 		picture = "\x\cfp\addons\character\Glasses\KneePads\ui\Black.jpg";
 		identityTypes[] = {"NoGlasses",1000};
 
@@ -27,7 +27,7 @@ class CfgGlasses
 	{
 		scope = 2;
 		displayname = "Knee Pads (Green)";
-		model = "\x\cfp\addons\character\Models\KneePadsGreen.p3d";
+		model = "\x\cfp\addons\models\KneePadsGreen.p3d";
 		picture = "\x\cfp\addons\character\Glasses\KneePads\ui\Green.jpg";
 		identityTypes[] = {"NoGlasses",1000};
 
@@ -38,7 +38,7 @@ class CfgGlasses
 	{
 		scope = 2;
 		displayname = "Knee Pads (Tan)";
-		model = "\x\cfp\addons\character\Models\KneePadsTan.p3d";
+		model = "\x\cfp\addons\models\KneePadsTan.p3d";
 		picture = "\x\cfp\addons\character\Glasses\KneePads\ui\Tan.jpg";
 		identityTypes[] = {"NoGlasses",1000};
 

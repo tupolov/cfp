@@ -14,7 +14,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_PulloverUniform_Black";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\PulloverUniform.p3d";
+		model = "\x\cfp\addons\models\PulloverUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -49,7 +49,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_PulloverUniform_Green";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\PulloverUniform.p3d";
+		model = "\x\cfp\addons\models\PulloverUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -83,7 +83,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_PulloverUniform_Tan";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\PulloverUniform.p3d";
+		model = "\x\cfp\addons\models\PulloverUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -117,7 +117,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_PulloverUniform_Grey";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\PulloverUniform.p3d";
+		model = "\x\cfp\addons\models\PulloverUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -153,7 +153,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_PulloverUniform_BlueDark";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\PulloverUniform.p3d";
+		model = "\x\cfp\addons\models\PulloverUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -189,7 +189,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_PulloverUniform_BlueFrost";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\PulloverUniform.p3d";
+		model = "\x\cfp\addons\models\PulloverUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -224,7 +224,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_PulloverUniform_GreenOlive";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\PulloverUniform.p3d";
+		model = "\x\cfp\addons\models\PulloverUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -258,7 +258,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_PulloverUniform_Hunter";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\PulloverUniform.p3d";
+		model = "\x\cfp\addons\models\PulloverUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -290,7 +290,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_PulloverUniform_Hunter2";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\PulloverUniform.p3d";
+		model = "\x\cfp\addons\models\PulloverUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -324,7 +324,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_PulloverUniform_ATacsFG";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\PulloverUniform.p3d";
+		model = "\x\cfp\addons\models\PulloverUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -356,7 +356,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_PulloverUniform_NodUrban";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\PulloverUniform.p3d";
+		model = "\x\cfp\addons\models\PulloverUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};

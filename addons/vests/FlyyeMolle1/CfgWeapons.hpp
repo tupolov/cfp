@@ -16,7 +16,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Flyye Molle 1 (Black)";
 		picture = "\x\cfp\addons\vests\FlyyeMolle1\ui\Black.jpg";
-		model = "\x\cfp\addons\character\Models\FlyyeMolle1";
+		model = "\x\cfp\addons\models\FlyyeMolle1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\FlyyeMolle1\Black.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -24,7 +24,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\FlyyeMolle1";
+			uniformModel = "\x\cfp\addons\models\FlyyeMolle1";
 			containerClass = "Supply0";
 			hiddenSelections[] = {"camo"};
 			mass = 120;
@@ -63,7 +63,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Flyye Molle 1 (Green)";
 		picture = "\x\cfp\addons\vests\FlyyeMolle1\ui\Green.jpg";
-		model = "\x\cfp\addons\character\Models\FlyyeMolle1";
+		model = "\x\cfp\addons\models\FlyyeMolle1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\FlyyeMolle1\Green.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -71,7 +71,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\FlyyeMolle1";
+			uniformModel = "\x\cfp\addons\models\FlyyeMolle1";
 			containerClass = "Supply0";
 			hiddenSelections[] = {"camo"};
 			mass = 120;
@@ -110,7 +110,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Flyye Molle 1 (Tan)";
 		picture = "\x\cfp\addons\vests\FlyyeMolle1\ui\Tan.jpg";
-		model = "\x\cfp\addons\character\Models\FlyyeMolle1";
+		model = "\x\cfp\addons\models\FlyyeMolle1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\FlyyeMolle1\Tan.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -118,7 +118,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\FlyyeMolle1";
+			uniformModel = "\x\cfp\addons\models\FlyyeMolle1";
 			containerClass = "Supply0";
 			hiddenSelections[] = {"camo"};
 			mass = 120;
@@ -156,7 +156,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Flyye Molle 1 (Grey)";
 		picture = "\x\cfp\addons\vests\FlyyeMolle1\ui\Grey.jpg";
-		model = "\x\cfp\addons\character\Models\FlyyeMolle1";
+		model = "\x\cfp\addons\models\FlyyeMolle1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\FlyyeMolle1\Grey.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -164,7 +164,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\FlyyeMolle1";
+			uniformModel = "\x\cfp\addons\models\FlyyeMolle1";
 			containerClass = "Supply0";
 			hiddenSelections[] = {"camo"};
 			mass = 120;

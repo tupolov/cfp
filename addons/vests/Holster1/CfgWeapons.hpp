@@ -16,13 +16,13 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Holster 1 (Black)";
 		picture = "\x\cfp\addons\vests\Holster1\ui\Black.jpg";
-		model = "\x\cfp\addons\character\Models\Holster1";
+		model = "\x\cfp\addons\models\Holster1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Holster1\Black.paa","\x\cfp\addons\vests\Holster1\Black2.paa"};
 		hiddenSelections[] = {"Camo1","Camo2"};
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\Holster1";
+			uniformModel = "\x\cfp\addons\models\Holster1";
 			containerClass = "Supply0";
 			hiddenSelections[] = {"Camo1","Camo2"};
 			mass = 10;
@@ -61,13 +61,13 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Holster 1 (Brown)";
 		picture = "\x\cfp\addons\vests\Holster1\ui\Brown.jpg";
-		model = "\x\cfp\addons\character\Models\Holster1";
+		model = "\x\cfp\addons\models\Holster1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Holster1\Brown.paa","\x\cfp\addons\vests\Holster1\Brown2.paa"};
 		hiddenSelections[] = {"Camo1","Camo2"};
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\Holster1";
+			uniformModel = "\x\cfp\addons\models\Holster1";
 			containerClass = "Supply0";
 			hiddenSelections[] = {"Camo1","Camo2"};
 			mass = 10;

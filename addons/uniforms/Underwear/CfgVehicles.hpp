@@ -14,7 +14,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_Underwear_Black";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\Underwear.p3d";
+		model = "\x\cfp\addons\models\Underwear.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -47,7 +47,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_Underwear_Green";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\Underwear.p3d";
+		model = "\x\cfp\addons\models\Underwear.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -80,7 +80,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_Underwear_Tan";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\Underwear.p3d";
+		model = "\x\cfp\addons\models\Underwear.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -113,7 +113,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_Underwear_Grey";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\Underwear.p3d";
+		model = "\x\cfp\addons\models\Underwear.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -146,7 +146,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_Underwear_BlueDark";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\Underwear.p3d";
+		model = "\x\cfp\addons\models\Underwear.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -180,7 +180,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_Underwear_BlueFrost";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\Underwear.p3d";
+		model = "\x\cfp\addons\models\Underwear.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -212,7 +212,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_Underwear_BlueSky";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\Underwear.p3d";
+		model = "\x\cfp\addons\models\Underwear.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -247,7 +247,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_Underwear_GreenOlive";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\Underwear.p3d";
+		model = "\x\cfp\addons\models\Underwear.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -280,7 +280,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_Underwear_GreenSpring";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\Underwear.p3d";
+		model = "\x\cfp\addons\models\Underwear.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -313,7 +313,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_Underwear_Brown";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\Underwear.p3d";
+		model = "\x\cfp\addons\models\Underwear.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -346,7 +346,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_Underwear_Olive";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\Underwear.p3d";
+		model = "\x\cfp\addons\models\Underwear.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -380,7 +380,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_Underwear_Orange";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\Underwear.p3d";
+		model = "\x\cfp\addons\models\Underwear.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -413,7 +413,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_Underwear_Pink";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\Underwear.p3d";
+		model = "\x\cfp\addons\models\Underwear.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -445,7 +445,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_Underwear_Purple";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\Underwear.p3d";
+		model = "\x\cfp\addons\models\Underwear.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -477,7 +477,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_Underwear_Red";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\Underwear.p3d";
+		model = "\x\cfp\addons\models\Underwear.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -510,7 +510,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_Underwear_White";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\Underwear.p3d";
+		model = "\x\cfp\addons\models\Underwear.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -543,7 +543,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_Underwear_Yellow";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\Underwear.p3d";
+		model = "\x\cfp\addons\models\Underwear.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};

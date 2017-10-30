@@ -16,7 +16,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Chest Rig 1 (Black)";
 		picture = "\x\cfp\addons\vests\ChestRig1\ui\Black.jpg";
-		model = "\x\cfp\addons\character\Models\ChestRig1";
+		model = "\x\cfp\addons\models\ChestRig1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\ChestRig1\Black.paa","\x\cfp\addons\vests\ChestRig1\Black2.paa"};
 		hiddenSelections[] = {"Camo1","Camo2"};
 		author = "SP Craig";
@@ -25,7 +25,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\ChestRig1";
+			uniformModel = "\x\cfp\addons\models\ChestRig1";
 			containerClass = "Supply80";
 			hiddenSelections[] = {"Camo1","Camo2"};
 			mass = 100;
@@ -64,7 +64,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Chest Rig 1 (Green)";
 		picture = "\x\cfp\addons\vests\ChestRig1\ui\Green.jpg";
-		model = "\x\cfp\addons\character\Models\ChestRig1";
+		model = "\x\cfp\addons\models\ChestRig1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\ChestRig1\Green.paa","\x\cfp\addons\vests\ChestRig1\Green2.paa"};
 		hiddenSelections[] = {"Camo1","Camo2"};
 		author = "SP Craig";
@@ -73,7 +73,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\ChestRig1";
+			uniformModel = "\x\cfp\addons\models\ChestRig1";
 			containerClass = "Supply80";
 			hiddenSelections[] = {"Camo1","Camo2"};
 			mass = 100;
@@ -112,7 +112,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Chest Rig 1 (Tan)";
 		picture = "\x\cfp\addons\vests\ChestRig1\ui\Tan.jpg";
-		model = "\x\cfp\addons\character\Models\ChestRig1";
+		model = "\x\cfp\addons\models\ChestRig1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\ChestRig1\Tan.paa","\x\cfp\addons\vests\ChestRig1\Tan2.paa"};
 		hiddenSelections[] = {"Camo1","Camo2"};
 		author = "SP Craig";
@@ -121,7 +121,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\ChestRig1";
+			uniformModel = "\x\cfp\addons\models\ChestRig1";
 			containerClass = "Supply80";
 			hiddenSelections[] = {"Camo1","Camo2"};
 			mass = 100;
@@ -160,7 +160,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Chest Rig 1 (Grey)";
 		picture = "\x\cfp\addons\vests\ChestRig1\ui\Grey.jpg";
-		model = "\x\cfp\addons\character\Models\ChestRig1";
+		model = "\x\cfp\addons\models\ChestRig1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\ChestRig1\Grey.paa","\x\cfp\addons\vests\ChestRig1\Grey2.paa"};
 		hiddenSelections[] = {"Camo1","Camo2"};
 		author = "SP Craig";
@@ -169,7 +169,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\ChestRig1";
+			uniformModel = "\x\cfp\addons\models\ChestRig1";
 			containerClass = "Supply80";
 			hiddenSelections[] = {"Camo1","Camo2"};
 			mass = 100;

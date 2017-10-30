@@ -67,13 +67,13 @@ class CfgVehicles
         uniformAccessories[] = {};
         uniformClass = "AFG_1996Leaf_BattleDressUniform";
         nakedUniform = "U_BasicBody";
-        model = "\x\cfp\addons\character\Models\BattleDressUniform.p3d";
+        model = "\x\cfp\addons\models\BattleDressUniform.p3d";
         Items[] = {};
         weapons[] = {"Throw","Put"};
         magazines[] = {};
         linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
         respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
-        hiddenSelectionsTextures[] = {"\character\Camo\AFG_1996Leaf\BattleDressUniform.paa","\character\Camo\AFG_1996Leaf\FieldUniform.paa"};   
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\character\Camo\AFG_1996Leaf\BattleDressUniform.paa","\x\cfp\addons\character\Camo\AFG_1996Leaf\FieldUniform.paa"};   
         hiddenSelections[] = {"Camo1","Camo2","insignia"};
         class Wounds
         {
@@ -96,7 +96,7 @@ class CfgVehicles
         uniformAccessories[] = {};
         uniformClass = "AFG_1996Leaf_PulloverUniform";
         nakedUniform = "U_BasicBody";
-        model = "\x\cfp\addons\character\Models\PulloverUniform.p3d";
+        model = "\x\cfp\addons\models\PulloverUniform.p3d";
         Items[] = {};
         weapons[] = {"Throw","Put"};
         magazines[] = {};
@@ -125,7 +125,7 @@ class CfgVehicles
         uniformAccessories[] = {};
         uniformClass = "AFG_1996Leaf_ReconUniform";
         nakedUniform = "U_BasicBody";
-        model = "\x\cfp\addons\character\Models\ReconUniform.p3d";
+        model = "\x\cfp\addons\models\ReconUniform.p3d";
         Items[] = {};
         weapons[] = {"Throw","Put"};
         magazines[] = {};
@@ -154,7 +154,7 @@ class CfgVehicles
         uniformAccessories[] = {};
         uniformClass = "AFG_1996Leaf_FieldUniform";
         nakedUniform = "U_BasicBody";
-        model = "\x\cfp\addons\character\Models\FieldUniform.p3d";
+        model = "\x\cfp\addons\models\FieldUniform.p3d";
         Items[] = {};
         weapons[] = {"Throw","Put"};
         magazines[] = {};
@@ -187,7 +187,7 @@ class CfgVehicles
         uniformAccessories[] = {};
         uniformClass = "AFG_1996Leaf_FieldUniform_SS";
         nakedUniform = "U_BasicBody";
-        model = "\x\cfp\addons\character\Models\FieldUniform2.p3d";
+        model = "\x\cfp\addons\models\FieldUniform2.p3d";
         Items[] = {};
         weapons[] = {"Throw","Put"};
         magazines[] = {};
@@ -216,7 +216,7 @@ class CfgVehicles
         uniformAccessories[] = {};
         uniformClass = "AFG_1996Leaf_TacticalUniform";
         nakedUniform = "U_BasicBody";
-        model = "\x\cfp\addons\character\Models\TacticalUniform.p3d";
+        model = "\x\cfp\addons\models\TacticalUniform.p3d";
         Items[] = {};
         weapons[] = {"Throw","Put"};
         magazines[] = {};
@@ -249,7 +249,7 @@ class CfgVehicles
         uniformAccessories[] = {};
         uniformClass = "AFG_1996Leaf_TacticalUniform_SS";
         nakedUniform = "U_BasicBody";
-        model = "\x\cfp\addons\character\Models\TacticalUniform2.p3d";
+        model = "\x\cfp\addons\models\TacticalUniform2.p3d";
         Items[] = {};
         weapons[] = {"Throw","Put"};
         magazines[] = {};
@@ -279,7 +279,7 @@ class CfgVehicles
         uniformAccessories[] = {};
         uniformClass = "AFG_1996Leaf_TacticalUniform_TS";
         nakedUniform = "U_BasicBody";
-        model = "\x\cfp\addons\character\Models\TacticalUniform3.p3d";
+        model = "\x\cfp\addons\models\TacticalUniform3.p3d";
         Items[] = {};
         weapons[] = {"Throw","Put"};
         magazines[] = {};
@@ -309,7 +309,7 @@ class cfgWeapons
     class AFG_1996Leaf_BattleDressUniform: Uniform_Base
     {
         scope=2;
-        model = "\x\cfp\addons\character\Models\Suitpack";
+        model = "\x\cfp\addons\models\Suitpack";
         displayName = "Afghanistan 1996 Leaf (Battle Dress Uniform)";
         picture = "\x\cfp\addons\character\Camo\AFG_1996Leaf\ui\BattleDressUniform.jpg";
         author = "SP Craig";
@@ -325,7 +325,7 @@ class cfgWeapons
     class AFG_1996Leaf_PulloverUniform: Uniform_Base
     {
         scope=2;
-        model = "\x\cfp\addons\character\Models\Suitpack";
+        model = "\x\cfp\addons\models\Suitpack";
         displayName = "Afghanistan 1996 Leaf (Pullover Uniform)";
         picture = "\x\cfp\addons\character\Camo\AFG_1996Leaf\ui\PulloverUniform.jpg";
         author = "SP Craig";
@@ -341,7 +341,7 @@ class cfgWeapons
     class AFG_1996Leaf_ReconUniform: Uniform_Base
     {
         scope=2;
-        model = "\x\cfp\addons\character\Models\Suitpack";
+        model = "\x\cfp\addons\models\Suitpack";
         displayName = "Afghanistan 1996 Leaf (Recon Uniform)";
         picture = "\x\cfp\addons\character\Camo\AFG_1996Leaf\ui\ReconUniform.jpg";
         author = "SP Craig";
@@ -359,7 +359,7 @@ class cfgWeapons
     class AFG_1996Leaf_FieldUniform: Uniform_Base
     {
         scope=2;
-        model = "\x\cfp\addons\character\Models\Suitpack";
+        model = "\x\cfp\addons\models\Suitpack";
         displayName = "Afghanistan 1996 Leaf (Field Uniform)";
         picture = "\x\cfp\addons\character\Camo\AFG_1996Leaf\ui\FieldUniform.jpg";
         author = "SP Craig";
@@ -376,7 +376,7 @@ class cfgWeapons
     class AFG_1996Leaf_FieldUniform_SS: Uniform_Base
     {
         scope=2;
-        model = "\x\cfp\addons\character\Models\Suitpack";
+        model = "\x\cfp\addons\models\Suitpack";
         displayName = "Afghanistan 1996 Leaf (Field Uniform SS)";
         picture = "\x\cfp\addons\character\Camo\AFG_1996Leaf\ui\FieldUniform.jpg";
         author = "SP Craig";
@@ -393,7 +393,7 @@ class cfgWeapons
     class AFG_1996Leaf_TacticalUniform: Uniform_Base
     {
         scope=2;
-        model = "\x\cfp\addons\character\Models\Suitpack";
+        model = "\x\cfp\addons\models\Suitpack";
         displayName = "Afghanistan 1996 Leaf (Tactical Uniform)";
         picture = "\x\cfp\addons\character\Camo\AFG_1996Leaf\ui\TacticalUniform.jpg";
         author = "SP Craig";
@@ -410,7 +410,7 @@ class cfgWeapons
     class AFG_1996Leaf_TacticalUniform_SS: Uniform_Base
     {
         scope=2;
-        model = "\x\cfp\addons\character\Models\Suitpack";
+        model = "\x\cfp\addons\models\Suitpack";
         displayName = "Afghanistan 1996 Leaf (Tactical Uniform SS)";
         picture = "\x\cfp\addons\character\Camo\AFG_1996Leaf\ui\TacticalUniform.jpg";
         author = "SP Craig";
@@ -427,7 +427,7 @@ class cfgWeapons
     class AFG_1996Leaf_TacticalUniform_TS: Uniform_Base
     {
         scope=2;
-        model = "\x\cfp\addons\character\Models\Suitpack";
+        model = "\x\cfp\addons\models\Suitpack";
         displayName = "Afghanistan 1996 Leaf (Tactical Uniform TS)";
         picture = "\x\cfp\addons\character\Camo\AFG_1996Leaf\ui\TacticalUniformTS.jpg";
         author = "SP Craig";

@@ -18,14 +18,14 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Assault Molle 1 (Black)";
 		picture = "\x\cfp\addons\vests\AssaultMolle1\ui\Black.jpg";
-		model = "\x\cfp\addons\character\Models\AssaultMolle1";
+		model = "\x\cfp\addons\models\AssaultMolle1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\AssaultMolle1\Black.paa"};
 		hiddenSelections[] = {"Camo"};
 
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\AssaultMolle1";
+			uniformModel = "\x\cfp\addons\models\AssaultMolle1";
 			containerClass = "Supply0";
 			hiddenSelections[] = {"camo"};
 			mass = 120;
@@ -64,7 +64,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Assault Molle 1 (Green)";
 		picture = "\x\cfp\addons\vests\AssaultMolle1\ui\Green.jpg";
-		model = "\x\cfp\addons\character\Models\AssaultMolle1";
+		model = "\x\cfp\addons\models\AssaultMolle1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\AssaultMolle1\Green.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -72,7 +72,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\AssaultMolle1";
+			uniformModel = "\x\cfp\addons\models\AssaultMolle1";
 			containerClass = "Supply0";
 			hiddenSelections[] = {"camo"};
 			mass = 120;
@@ -111,7 +111,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Assault Molle 1 (Tan)";
 		picture = "\x\cfp\addons\vests\AssaultMolle1\ui\Tan.jpg";
-		model = "\x\cfp\addons\character\Models\AssaultMolle1";
+		model = "\x\cfp\addons\models\AssaultMolle1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\AssaultMolle1\Tan.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -119,7 +119,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\AssaultMolle1";
+			uniformModel = "\x\cfp\addons\models\AssaultMolle1";
 			containerClass = "Supply0";
 			hiddenSelections[] = {"camo"};
 			mass = 120;

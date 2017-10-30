@@ -52,7 +52,7 @@ class cfgWeapons
 		weaponPoolAvailable = 1;
 		displayName = "AFG Beret (Army Green)";
 		picture = "\x\cfp\addons\character\Camo\AFG_Beret\ui\ArmyGreen.jpg";
-		model = "\x\cfp\addons\character\Models\Beret4";
+		model = "\x\cfp\addons\models\Beret4";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\character\Camo\AFG_Beret\ArmyGreen.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
@@ -62,7 +62,7 @@ class cfgWeapons
 		class ItemInfo: HeadgearItem
 		{
 			mass = 15;
-			uniformmodel = "\x\cfp\addons\character\Models\Beret4";
+			uniformmodel = "\x\cfp\addons\models\Beret4";
 			modelSides[] = {3,1};
 			armor = 0;
 			passThrough = 0.30;
@@ -77,7 +77,7 @@ class cfgWeapons
 		weaponPoolAvailable = 1;
 		displayName = "AFG Beret (Commando Red)";
 		picture = "\x\cfp\addons\character\Camo\AFG_Beret\ui\CommandoRed.jpg";
-		model = "\x\cfp\addons\character\Models\Beret4";
+		model = "\x\cfp\addons\models\Beret4";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\character\Camo\AFG_Beret\CommandoRed.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
@@ -87,7 +87,7 @@ class cfgWeapons
 		class ItemInfo: HeadgearItem
 		{
 			mass = 15;
-			uniformmodel = "\x\cfp\addons\character\Models\Beret4";
+			uniformmodel = "\x\cfp\addons\models\Beret4";
 			modelSides[] = {3,1};
 			armor = 0;
 			passThrough = 0.30;

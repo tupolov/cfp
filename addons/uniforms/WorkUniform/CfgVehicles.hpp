@@ -14,7 +14,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_WorkUniform_Hunter";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\WorkUniform.p3d";
+		model = "\x\cfp\addons\models\WorkUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -45,7 +45,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_WorkUniform_ATacsFG";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\WorkUniform.p3d";
+		model = "\x\cfp\addons\models\WorkUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -76,7 +76,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_WorkUniform_NodUrban";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\WorkUniform.p3d";
+		model = "\x\cfp\addons\models\WorkUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};

@@ -16,7 +16,7 @@ class CfgGlasses
 	{
 		scope = 2;
 		displayname = "Balaclava (Black)";
-		model = "\x\cfp\addons\character\Models\BalaclavaBlack.p3d";
+		model = "\x\cfp\addons\models\BalaclavaBlack.p3d";
 		picture = "\x\cfp\addons\character\Glasses\Balaclava\ui\Black.jpg";
 		identityTypes[] = {"NoGlasses",1000};
 		
@@ -27,7 +27,7 @@ class CfgGlasses
 	{
 		scope = 2;
 		displayname = "Balaclava (Green)";
-		model = "\x\cfp\addons\character\Models\BalaclavaGreen.p3d";
+		model = "\x\cfp\addons\models\BalaclavaGreen.p3d";
 		picture = "\x\cfp\addons\character\Glasses\Balaclava\ui\Green.jpg";
 		identityTypes[] = {"NoGlasses",1000};
 
@@ -37,7 +37,7 @@ class CfgGlasses
 	{
 		scope = 2;
 		displayname = "Balaclava (Tan)";
-		model = "\x\cfp\addons\character\Models\BalaclavaTan.p3d";
+		model = "\x\cfp\addons\models\BalaclavaTan.p3d";
 		picture = "\x\cfp\addons\character\Glasses\Balaclava\ui\Tan.jpg";
 		identityTypes[] = {"NoGlasses",1000};
 	};
@@ -46,7 +46,7 @@ class CfgGlasses
 	{
 		scope = 2;
 		displayname = "Balaclava (Grey)";
-		model = "\x\cfp\addons\character\Models\BalaclavaGrey.p3d";
+		model = "\x\cfp\addons\models\BalaclavaGrey.p3d";
 		picture = "\x\cfp\addons\character\Glasses\Balaclava\ui\Grey.jpg";
 		identityTypes[] = {"NoGlasses",1000};
 
@@ -56,7 +56,7 @@ class CfgGlasses
 	{
 		scope = 2;
 		displayname = "Balaclava (White)";
-		model = "\x\cfp\addons\character\Models\BalaclavaWhite.p3d";
+		model = "\x\cfp\addons\models\BalaclavaWhite.p3d";
 		picture = "\x\cfp\addons\character\Glasses\Balaclava\ui\White.jpg";
 		identityTypes[] = {"NoGlasses",1000};
 	};
@@ -65,7 +65,7 @@ class CfgGlasses
 	{
 		scope = 2;
 		displayname = "Balaclava (U.S Woodland)";
-		model = "\x\cfp\addons\character\Models\BalaclavaUSWoodland.p3d";
+		model = "\x\cfp\addons\models\BalaclavaUSWoodland.p3d";
 		picture = "\x\cfp\addons\character\Glasses\Balaclava\ui\USWoodland.jpg";
 		identityTypes[] = {"NoGlasses",1000};
 
@@ -75,7 +75,7 @@ class CfgGlasses
 	{
 		scope = 2;
 		displayname = "Balaclava (U.S Tricolor Desert)";
-		model = "\x\cfp\addons\character\Models\BalaclavaUSTricolorDesert.p3d";
+		model = "\x\cfp\addons\models\BalaclavaUSTricolorDesert.p3d";
 		picture = "\x\cfp\addons\character\Glasses\Balaclava\ui\USTricolorDesert.jpg";
 		identityTypes[] = {"NoGlasses",1000};
 
@@ -85,7 +85,7 @@ class CfgGlasses
 	{
 		scope = 2;
 		displayname = "Balaclava (U.S Digital Acu)";
-		model = "\x\cfp\addons\character\Models\BalaclavaUSDigitalAcu.p3d";
+		model = "\x\cfp\addons\models\BalaclavaUSDigitalAcu.p3d";
 		picture = "\x\cfp\addons\character\Glasses\Balaclava\ui\USDigitalAcu.jpg";
 		identityTypes[] = {"NoGlasses",1000};
 
@@ -95,7 +95,7 @@ class CfgGlasses
 	{
 		scope = 2;
 		displayname = "Balaclava (U.S Multicam)";
-		model = "\x\cfp\addons\character\Models\BalaclavaUSMulticam.p3d";
+		model = "\x\cfp\addons\models\BalaclavaUSMulticam.p3d";
 		picture = "\x\cfp\addons\character\Glasses\Balaclava\ui\USMulticam.jpg";
 		identityTypes[] = {"NoGlasses",1000};
 	};
@@ -104,7 +104,7 @@ class CfgGlasses
 	{
 		scope = 2;
 		displayname = "Balaclava (UK Dpm Desert)";
-		model = "\x\cfp\addons\character\Models\BalaclavaUKDpmDesert.p3d";
+		model = "\x\cfp\addons\models\BalaclavaUKDpmDesert.p3d";
 		picture = "\x\cfp\addons\character\Glasses\Balaclava\ui\UKDpmDesert.jpg";
 		identityTypes[] = {"NoGlasses",1000};
 	};
@@ -113,7 +113,7 @@ class CfgGlasses
 	{
 		scope = 2;
 		displayname = "Balaclava (UK Dpm Tropical)";
-		model = "\x\cfp\addons\character\Models\BalaclavaUKDpmTropical.p3d";
+		model = "\x\cfp\addons\models\BalaclavaUKDpmTropical.p3d";
 		picture = "\x\cfp\addons\character\Glasses\Balaclava\ui\UKDpmTropical.jpg";
 		identityTypes[] = {"NoGlasses",1000};
 	};
@@ -122,7 +122,7 @@ class CfgGlasses
 	{
 		scope = 2;
 		displayname = "Balaclava (UK Multi Terrain)";
-		model = "\x\cfp\addons\character\Models\BalaclavaUKMultiTerrain.p3d";
+		model = "\x\cfp\addons\models\BalaclavaUKMultiTerrain.p3d";
 		picture = "\x\cfp\addons\character\Glasses\Balaclava\ui\UKMultiTerrain.jpg";
 		identityTypes[] = {"NoGlasses",1000};
 
@@ -132,7 +132,7 @@ class CfgGlasses
 	{
 		scope = 2;
 		displayname = "Balaclava (Hunter)";
-		model = "\x\cfp\addons\character\Models\BalaclavaHunter.p3d";
+		model = "\x\cfp\addons\models\BalaclavaHunter.p3d";
 		picture = "\x\cfp\addons\character\Glasses\Balaclava\ui\Hunter.jpg";
 		identityTypes[] = {"NoGlasses",1000};
 
@@ -142,7 +142,7 @@ class CfgGlasses
 	{
 		scope = 2;
 		displayname = "Balaclava (Hunter2)";
-		model = "\x\cfp\addons\character\Models\BalaclavaHunter2.p3d";
+		model = "\x\cfp\addons\models\BalaclavaHunter2.p3d";
 		picture = "\x\cfp\addons\character\Glasses\Balaclava\ui\Hunter2.jpg";
 		identityTypes[] = {"NoGlasses",1000};
 	};
@@ -151,7 +151,7 @@ class CfgGlasses
 	{
 		scope = 2;
 		displayname = "Balaclava (A-Tacs FG)";
-		model = "\x\cfp\addons\character\Models\BalaclavaATacsFG.p3d";
+		model = "\x\cfp\addons\models\BalaclavaATacsFG.p3d";
 		picture = "\x\cfp\addons\character\Glasses\Balaclava\ui\ATacsFG.jpg";
 		identityTypes[] = {"NoGlasses",1000};
 
@@ -161,7 +161,7 @@ class CfgGlasses
 	{
 		scope = 2;
 		displayname = "Balaclava (Nod Urban)";
-		model = "\x\cfp\addons\character\Models\BalaclavaNodUrban.p3d";
+		model = "\x\cfp\addons\models\BalaclavaNodUrban.p3d";
 		picture = "\x\cfp\addons\character\Glasses\Balaclava\ui\NodUrban.jpg";
 		identityTypes[] = {"NoGlasses",1000};
 

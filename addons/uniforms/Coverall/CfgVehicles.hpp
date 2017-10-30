@@ -14,7 +14,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_Coverall_Black";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\Coverall.p3d";
+		model = "\x\cfp\addons\models\Coverall.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -24,8 +24,8 @@
 		hiddenSelections[] = {"Camo"};
 		class Wounds
 		{
-			tex[]={"x\cfp\addons\character\Models\rv\Coverall_w1mc.paa" , "x\cfp\addons\character\Models\rv\Coverall_w2mc.paa"};
-			mat[]={"x\cfp\addons\character\Models\rv\Coverall.rvmat" , "x\cfp\addons\character\Models\rv\Coverall_w1.rvmat" , "x\cfp\addons\character\Models\rv\Coverall_w2.rvmat"};
+			tex[]={"x\cfp\addons\models\rv\Coverall_w1mc.paa" , "x\cfp\addons\models\rv\Coverall_w2mc.paa"};
+			mat[]={"x\cfp\addons\models\rv\Coverall.rvmat" , "x\cfp\addons\models\rv\Coverall_w1.rvmat" , "x\cfp\addons\models\rv\Coverall_w2.rvmat"};
 
 
 
@@ -49,7 +49,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_Coverall_Green";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\Coverall.p3d";
+		model = "\x\cfp\addons\models\Coverall.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -59,8 +59,8 @@
 		hiddenSelections[] = {"Camo"};
 		class Wounds
 		{
-			tex[]={"x\cfp\addons\character\Models\rv\Coverall_w1mc.paa" , "x\cfp\addons\character\Models\rv\Coverall_w2mc.paa"};
-			mat[]={"x\cfp\addons\character\Models\rv\Coverall.rvmat" , "x\cfp\addons\character\Models\rv\Coverall_w1.rvmat" , "x\cfp\addons\character\Models\rv\Coverall_w2.rvmat"};
+			tex[]={"x\cfp\addons\models\rv\Coverall_w1mc.paa" , "x\cfp\addons\models\rv\Coverall_w2mc.paa"};
+			mat[]={"x\cfp\addons\models\rv\Coverall.rvmat" , "x\cfp\addons\models\rv\Coverall_w1.rvmat" , "x\cfp\addons\models\rv\Coverall_w2.rvmat"};
 
 
 
@@ -83,7 +83,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_Coverall_Tan";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\Coverall.p3d";
+		model = "\x\cfp\addons\models\Coverall.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -93,8 +93,8 @@
 		hiddenSelections[] = {"Camo"};
 		class Wounds
 		{
-			tex[]={"x\cfp\addons\character\Models\rv\Coverall_w1mc.paa" , "x\cfp\addons\character\Models\rv\Coverall_w2mc.paa"};
-			mat[]={"x\cfp\addons\character\Models\rv\Coverall.rvmat" , "x\cfp\addons\character\Models\rv\Coverall_w1.rvmat" , "x\cfp\addons\character\Models\rv\Coverall_w2.rvmat"};
+			tex[]={"x\cfp\addons\models\rv\Coverall_w1mc.paa" , "x\cfp\addons\models\rv\Coverall_w2mc.paa"};
+			mat[]={"x\cfp\addons\models\rv\Coverall.rvmat" , "x\cfp\addons\models\rv\Coverall_w1.rvmat" , "x\cfp\addons\models\rv\Coverall_w2.rvmat"};
 
 
 		};
@@ -116,7 +116,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_Coverall_Grey";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\Coverall.p3d";
+		model = "\x\cfp\addons\models\Coverall.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -126,8 +126,8 @@
 		hiddenSelections[] = {"Camo"};
 		class Wounds
 		{
-			tex[]={"x\cfp\addons\character\Models\rv\Coverall_w1mc.paa" , "x\cfp\addons\character\Models\rv\Coverall_w2mc.paa"};
-			mat[]={"x\cfp\addons\character\Models\rv\Coverall.rvmat" , "x\cfp\addons\character\Models\rv\Coverall_w1.rvmat" , "x\cfp\addons\character\Models\rv\Coverall_w2.rvmat"};
+			tex[]={"x\cfp\addons\models\rv\Coverall_w1mc.paa" , "x\cfp\addons\models\rv\Coverall_w2mc.paa"};
+			mat[]={"x\cfp\addons\models\rv\Coverall.rvmat" , "x\cfp\addons\models\rv\Coverall_w1.rvmat" , "x\cfp\addons\models\rv\Coverall_w2.rvmat"};
 
 
 
@@ -150,7 +150,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_Coverall_BlueDark";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\Coverall.p3d";
+		model = "\x\cfp\addons\models\Coverall.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -160,8 +160,8 @@
 		hiddenSelections[] = {"Camo"};
 		class Wounds
 		{
-			tex[]={"x\cfp\addons\character\Models\rv\Coverall_w1mc.paa" , "x\cfp\addons\character\Models\rv\Coverall_w2mc.paa"};
-			mat[]={"x\cfp\addons\character\Models\rv\Coverall.rvmat" , "x\cfp\addons\character\Models\rv\Coverall_w1.rvmat" , "x\cfp\addons\character\Models\rv\Coverall_w2.rvmat"};
+			tex[]={"x\cfp\addons\models\rv\Coverall_w1mc.paa" , "x\cfp\addons\models\rv\Coverall_w2mc.paa"};
+			mat[]={"x\cfp\addons\models\rv\Coverall.rvmat" , "x\cfp\addons\models\rv\Coverall_w1.rvmat" , "x\cfp\addons\models\rv\Coverall_w2.rvmat"};
 
 
 
@@ -184,7 +184,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_Coverall_BlueFrost";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\Coverall.p3d";
+		model = "\x\cfp\addons\models\Coverall.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -194,8 +194,8 @@
 		hiddenSelections[] = {"Camo"};
 		class Wounds
 		{
-			tex[]={"x\cfp\addons\character\Models\rv\Coverall_w1mc.paa" , "x\cfp\addons\character\Models\rv\Coverall_w2mc.paa"};
-			mat[]={"x\cfp\addons\character\Models\rv\Coverall.rvmat" , "x\cfp\addons\character\Models\rv\Coverall_w1.rvmat" , "x\cfp\addons\character\Models\rv\Coverall_w2.rvmat"};
+			tex[]={"x\cfp\addons\models\rv\Coverall_w1mc.paa" , "x\cfp\addons\models\rv\Coverall_w2mc.paa"};
+			mat[]={"x\cfp\addons\models\rv\Coverall.rvmat" , "x\cfp\addons\models\rv\Coverall_w1.rvmat" , "x\cfp\addons\models\rv\Coverall_w2.rvmat"};
 
 
 
@@ -218,7 +218,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_Coverall_GreenOlive";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\Coverall.p3d";
+		model = "\x\cfp\addons\models\Coverall.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -228,8 +228,8 @@
 		hiddenSelections[] = {"Camo"};
 		class Wounds
 		{
-			tex[]={"x\cfp\addons\character\Models\rv\Coverall_w1mc.paa" , "x\cfp\addons\character\Models\rv\Coverall_w2mc.paa"};
-			mat[]={"x\cfp\addons\character\Models\rv\Coverall.rvmat" , "x\cfp\addons\character\Models\rv\Coverall_w1.rvmat" , "x\cfp\addons\character\Models\rv\Coverall_w2.rvmat"};
+			tex[]={"x\cfp\addons\models\rv\Coverall_w1mc.paa" , "x\cfp\addons\models\rv\Coverall_w2mc.paa"};
+			mat[]={"x\cfp\addons\models\rv\Coverall.rvmat" , "x\cfp\addons\models\rv\Coverall_w1.rvmat" , "x\cfp\addons\models\rv\Coverall_w2.rvmat"};
 
 		};
 	};
@@ -250,7 +250,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_Coverall_White";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\Coverall.p3d";
+		model = "\x\cfp\addons\models\Coverall.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -260,8 +260,8 @@
 		hiddenSelections[] = {"Camo"};
 		class Wounds
 		{
-			tex[]={"x\cfp\addons\character\Models\rv\Coverall_w1mc.paa" , "x\cfp\addons\character\Models\rv\Coverall_w2mc.paa"};
-			mat[]={"x\cfp\addons\character\Models\rv\Coverall.rvmat" , "x\cfp\addons\character\Models\rv\Coverall_w1.rvmat" , "x\cfp\addons\character\Models\rv\Coverall_w2.rvmat"};
+			tex[]={"x\cfp\addons\models\rv\Coverall_w1mc.paa" , "x\cfp\addons\models\rv\Coverall_w2mc.paa"};
+			mat[]={"x\cfp\addons\models\rv\Coverall.rvmat" , "x\cfp\addons\models\rv\Coverall_w1.rvmat" , "x\cfp\addons\models\rv\Coverall_w2.rvmat"};
 
 
 		};
@@ -283,7 +283,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_Coverall_Red";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\Coverall.p3d";
+		model = "\x\cfp\addons\models\Coverall.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -293,8 +293,8 @@
 		hiddenSelections[] = {"Camo"};
 		class Wounds
 		{
-			tex[]={"x\cfp\addons\character\Models\rv\Coverall_w1mc.paa" , "x\cfp\addons\character\Models\rv\Coverall_w2mc.paa"};
-			mat[]={"x\cfp\addons\character\Models\rv\Coverall.rvmat" , "x\cfp\addons\character\Models\rv\Coverall_w1.rvmat" , "x\cfp\addons\character\Models\rv\Coverall_w2.rvmat"};
+			tex[]={"x\cfp\addons\models\rv\Coverall_w1mc.paa" , "x\cfp\addons\models\rv\Coverall_w2mc.paa"};
+			mat[]={"x\cfp\addons\models\rv\Coverall.rvmat" , "x\cfp\addons\models\rv\Coverall_w1.rvmat" , "x\cfp\addons\models\rv\Coverall_w2.rvmat"};
 
 
 		};
@@ -316,7 +316,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_Coverall_Yellow";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\Coverall.p3d";
+		model = "\x\cfp\addons\models\Coverall.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -326,8 +326,8 @@
 		hiddenSelections[] = {"Camo"};
 		class Wounds
 		{
-			tex[]={"x\cfp\addons\character\Models\rv\Coverall_w1mc.paa" , "x\cfp\addons\character\Models\rv\Coverall_w2mc.paa"};
-			mat[]={"x\cfp\addons\character\Models\rv\Coverall.rvmat" , "x\cfp\addons\character\Models\rv\Coverall_w1.rvmat" , "x\cfp\addons\character\Models\rv\Coverall_w2.rvmat"};
+			tex[]={"x\cfp\addons\models\rv\Coverall_w1mc.paa" , "x\cfp\addons\models\rv\Coverall_w2mc.paa"};
+			mat[]={"x\cfp\addons\models\rv\Coverall.rvmat" , "x\cfp\addons\models\rv\Coverall_w1.rvmat" , "x\cfp\addons\models\rv\Coverall_w2.rvmat"};
 
 		};
 	};
@@ -348,7 +348,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_Coverall_Brown";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\Coverall.p3d";
+		model = "\x\cfp\addons\models\Coverall.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -358,8 +358,8 @@
 		hiddenSelections[] = {"Camo"};
 		class Wounds
 		{
-			tex[]={"x\cfp\addons\character\Models\rv\Coverall_w1mc.paa" , "x\cfp\addons\character\Models\rv\Coverall_w2mc.paa"};
-			mat[]={"x\cfp\addons\character\Models\rv\Coverall.rvmat" , "x\cfp\addons\character\Models\rv\Coverall_w1.rvmat" , "x\cfp\addons\character\Models\rv\Coverall_w2.rvmat"};
+			tex[]={"x\cfp\addons\models\rv\Coverall_w1mc.paa" , "x\cfp\addons\models\rv\Coverall_w2mc.paa"};
+			mat[]={"x\cfp\addons\models\rv\Coverall.rvmat" , "x\cfp\addons\models\rv\Coverall_w1.rvmat" , "x\cfp\addons\models\rv\Coverall_w2.rvmat"};
 
 		};
 	};
@@ -380,7 +380,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_Coverall_Orange";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\Coverall.p3d";
+		model = "\x\cfp\addons\models\Coverall.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -390,8 +390,8 @@
 		hiddenSelections[] = {"Camo"};
 		class Wounds
 		{
-			tex[]={"x\cfp\addons\character\Models\rv\Coverall_w1mc.paa" , "x\cfp\addons\character\Models\rv\Coverall_w2mc.paa"};
-			mat[]={"x\cfp\addons\character\Models\rv\Coverall.rvmat" , "x\cfp\addons\character\Models\rv\Coverall_w1.rvmat" , "x\cfp\addons\character\Models\rv\Coverall_w2.rvmat"};
+			tex[]={"x\cfp\addons\models\rv\Coverall_w1mc.paa" , "x\cfp\addons\models\rv\Coverall_w2mc.paa"};
+			mat[]={"x\cfp\addons\models\rv\Coverall.rvmat" , "x\cfp\addons\models\rv\Coverall_w1.rvmat" , "x\cfp\addons\models\rv\Coverall_w2.rvmat"};
 
 
 		};

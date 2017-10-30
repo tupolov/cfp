@@ -16,7 +16,7 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Ghillie Hat (Forrest)";
 		picture = "\x\cfp\addons\headgear\GhillieHat\ui\Forrest.jpg";
-		model = "\x\cfp\addons\character\Models\GhillieHat";
+		model = "\x\cfp\addons\models\GhillieHat";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\GhillieHat\Forrest.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
@@ -24,7 +24,7 @@ class CfgVehicleClasses
 		class ItemInfo: HeadgearItem
 		{
 			mass = 60;
-			uniformmodel = "\x\cfp\addons\character\Models\GhillieHat";
+			uniformmodel = "\x\cfp\addons\models\GhillieHat";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
@@ -38,7 +38,7 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Ghillie Hat (Tropical)";
 		picture = "\x\cfp\addons\headgear\GhillieHat\ui\Tropical.jpg";
-		model = "\x\cfp\addons\character\Models\GhillieHat";
+		model = "\x\cfp\addons\models\GhillieHat";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\GhillieHat\Tropical.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
@@ -46,7 +46,7 @@ class CfgVehicleClasses
 		class ItemInfo: HeadgearItem
 		{
 			mass = 60;
-			uniformmodel = "\x\cfp\addons\character\Models\GhillieHat";
+			uniformmodel = "\x\cfp\addons\models\GhillieHat";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
@@ -60,21 +60,21 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "Ghillie Hat (Summer)";
 		picture = "\x\cfp\addons\headgear\GhillieHat\ui\Summer.jpg";
-		model = "\x\cfp\addons\character\Models\GhillieHat";
+		model = "\x\cfp\addons\models\GhillieHat";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\GhillieHat\Summer.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "SP Craig";
-		
-		
+
+
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 60;
-			uniformmodel = "\x\cfp\addons\character\Models\GhillieHat";
+			uniformmodel = "\x\cfp\addons\models\GhillieHat";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\GhillieHat\Summer.paa"};
 			hiddenSelections[] = {"Camo"};		};
 		};
-	
+

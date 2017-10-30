@@ -14,7 +14,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_TacticalUniform_Black";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -47,7 +47,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_TacticalUniform_Black_SS";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform2.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform2.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -79,7 +79,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_TacticalUniform_Black_TS";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform3.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform3.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -113,7 +113,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_TacticalUniform_Green";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -145,7 +145,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_TacticalUniform_Green_SS";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform2.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform2.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -178,7 +178,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_TacticalUniform_Green_TS";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform3.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform3.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -213,7 +213,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_TacticalUniform_Tan";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -245,7 +245,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_TacticalUniform_Tan_SS";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform2.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform2.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -277,7 +277,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_TacticalUniform_Tan_TS";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform3.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform3.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -311,7 +311,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_TacticalUniform_Grey";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -343,7 +343,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_TacticalUniform_Grey_SS";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform2.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform2.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -376,7 +376,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_TacticalUniform_Grey_TS";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform3.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform3.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -412,7 +412,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_TacticalUniform_BlueDark";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -445,7 +445,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_TacticalUniform_BlueDark_SS";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform2.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform2.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -478,7 +478,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_TacticalUniform_BlueDark_TS";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform3.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform3.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -512,7 +512,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_TacticalUniform_BlueFrost";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -545,7 +545,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_TacticalUniform_BlueFrost_SS";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform2.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform2.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -577,7 +577,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_TacticalUniform_BlueFrost_TS";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform3.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform3.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -610,7 +610,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_TacticalUniform_GreenOlive";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -642,7 +642,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_TacticalUniform_GreenOlive_SS";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform2.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform2.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -675,7 +675,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_TacticalUniform_GreenOlive_TS";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform3.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform3.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -708,7 +708,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_TacticalUniform_Hunter";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -740,7 +740,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_TacticalUniform_Hunter_SS";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform2.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform2.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -772,7 +772,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_TacticalUniform_Hunter_TS";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform3.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform3.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -804,7 +804,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_TacticalUniform_Hunter2";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -836,7 +836,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_TacticalUniform_Hunter2_SS";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform2.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform2.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -868,7 +868,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_TacticalUniform_Hunter2_TS";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform3.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform3.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -901,7 +901,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_TacticalUniform_ATacsFG";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -933,7 +933,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_TacticalUniform_ATacsFG_SS";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform2.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform2.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -965,7 +965,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_TacticalUniform_ATacsFG_TS";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform3.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform3.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -998,7 +998,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_TacticalUniform_NodUrban";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -1030,7 +1030,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_TacticalUniform_NodUrban_SS";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform2.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform2.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -1062,7 +1062,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "SP_0000_Standard_TacticalUniform_NodUrban_TS";
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\character\Models\TacticalUniform3.p3d";
+		model = "\x\cfp\addons\models\TacticalUniform3.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};

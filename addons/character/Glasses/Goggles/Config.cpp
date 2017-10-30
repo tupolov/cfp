@@ -16,7 +16,7 @@ class CfgGlasses
 	{
 		scope = 2;
 		displayname = "Goggles (Black)";
-		model = "\x\cfp\addons\character\Models\GogglesBlack.p3d";
+		model = "\x\cfp\addons\models\GogglesBlack.p3d";
 		picture = "\x\cfp\addons\character\Glasses\Goggles\ui\Black.jpg";
 		identityTypes[] = {"NoGlasses",1000};
 
@@ -26,7 +26,7 @@ class CfgGlasses
 	{
 		scope = 2;
 		displayname = "Goggles (Green)";
-		model = "\x\cfp\addons\character\Models\GogglesGreen.p3d";
+		model = "\x\cfp\addons\models\GogglesGreen.p3d";
 		picture = "\x\cfp\addons\character\Glasses\Goggles\ui\Green.jpg";
 		identityTypes[] = {"NoGlasses",1000};
 		
@@ -37,7 +37,7 @@ class CfgGlasses
 	{
 		scope = 2;
 		displayname = "Goggles (Tan)";
-		model = "\x\cfp\addons\character\Models\GogglesTan.p3d";
+		model = "\x\cfp\addons\models\GogglesTan.p3d";
 		picture = "\x\cfp\addons\character\Glasses\Goggles\ui\Tan.jpg";
 		identityTypes[] = {"NoGlasses",1000};
 		

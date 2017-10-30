@@ -19,7 +19,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Opfor Molle 1 (Black)";
 		picture = "\x\cfp\addons\vests\OpforMolle1\ui\Black.jpg";
-		model = "\x\cfp\addons\character\Models\OpforMolle1";
+		model = "\x\cfp\addons\models\OpforMolle1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\OpforMolle1\Black.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -27,7 +27,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\OpforMolle1";
+			uniformModel = "\x\cfp\addons\models\OpforMolle1";
 			containerClass = "Supply0";
 			hiddenSelections[] = {"camo"};
 			mass = 120;
@@ -66,7 +66,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Opfor Molle 1 (Green)";
 		picture = "\x\cfp\addons\vests\OpforMolle1\ui\Green.jpg";
-		model = "\x\cfp\addons\character\Models\OpforMolle1";
+		model = "\x\cfp\addons\models\OpforMolle1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\OpforMolle1\Green.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -74,7 +74,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\OpforMolle1";
+			uniformModel = "\x\cfp\addons\models\OpforMolle1";
 			containerClass = "Supply120";
 			hiddenSelections[] = {"camo"};
 			mass = 120;
@@ -113,7 +113,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Opfor Molle 1 (Tan)";
 		picture = "\x\cfp\addons\vests\OpforMolle1\ui\Tan.jpg";
-		model = "\x\cfp\addons\character\Models\OpforMolle1";
+		model = "\x\cfp\addons\models\OpforMolle1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\OpforMolle1\Tan.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -121,7 +121,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\OpforMolle1";
+			uniformModel = "\x\cfp\addons\models\OpforMolle1";
 			containerClass = "Supply120";
 			hiddenSelections[] = {"camo"};
 			mass = 120;
@@ -160,7 +160,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Opfor Molle 1 (Grey)";
 		picture = "\x\cfp\addons\vests\OpforMolle1\ui\Grey.jpg";
-		model = "\x\cfp\addons\character\Models\OpforMolle1";
+		model = "\x\cfp\addons\models\OpforMolle1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\OpforMolle1\Grey.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -168,7 +168,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\OpforMolle1";
+			uniformModel = "\x\cfp\addons\models\OpforMolle1";
 			containerClass = "Supply120";
 			hiddenSelections[] = {"camo"};
 			mass = 120;
@@ -207,7 +207,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Opfor Molle 1 (UN)";
 		picture = "\x\cfp\addons\vests\OpforMolle1\ui\Un.jpg";
-		model = "\x\cfp\addons\character\Models\OpforMolle1";
+		model = "\x\cfp\addons\models\OpforMolle1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\OpforMolle1\Un.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -215,7 +215,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\OpforMolle1";
+			uniformModel = "\x\cfp\addons\models\OpforMolle1";
 			containerClass = "Supply120";
 			hiddenSelections[] = {"camo"};
 			mass = 120;

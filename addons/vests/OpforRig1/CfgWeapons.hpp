@@ -16,7 +16,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Opfor Rig 1 (Black)";
 		picture = "\x\cfp\addons\vests\OpforRig1\ui\Black.jpg";
-		model = "\x\cfp\addons\character\Models\OpforRig1";
+		model = "\x\cfp\addons\models\OpforRig1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\OpforRig1\Black.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -24,7 +24,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\OpforRig1";
+			uniformModel = "\x\cfp\addons\models\OpforRig1";
 			containerClass = "Supply80";
 			hiddenSelections[] = {"camo"};
 			mass = 100;
@@ -62,7 +62,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Opfor Rig 1 (Green)";
 		picture = "\x\cfp\addons\vests\OpforRig1\ui\Green.jpg";
-		model = "\x\cfp\addons\character\Models\OpforRig1";
+		model = "\x\cfp\addons\models\OpforRig1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\OpforRig1\Green.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -70,7 +70,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\OpforRig1";
+			uniformModel = "\x\cfp\addons\models\OpforRig1";
 			containerClass = "Supply60";
 			hiddenSelections[] = {"camo"};
 			mass = 100;
@@ -109,7 +109,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Opfor Rig 1 (Tan)";
 		picture = "\x\cfp\addons\vests\OpforRig1\ui\Tan.jpg";
-		model = "\x\cfp\addons\character\Models\OpforRig1";
+		model = "\x\cfp\addons\models\OpforRig1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\OpforRig1\Tan.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -117,7 +117,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\OpforRig1";
+			uniformModel = "\x\cfp\addons\models\OpforRig1";
 			containerClass = "Supply60";
 			hiddenSelections[] = {"camo"};
 			mass = 100;
@@ -156,7 +156,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Opfor Rig 1 (Grey)";
 		picture = "\x\cfp\addons\vests\OpforRig1\ui\Grey.jpg";
-		model = "\x\cfp\addons\character\Models\OpforRig1";
+		model = "\x\cfp\addons\models\OpforRig1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\OpforRig1\Grey.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -164,7 +164,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\OpforRig1";
+			uniformModel = "\x\cfp\addons\models\OpforRig1";
 			containerClass = "Supply60";
 			hiddenSelections[] = {"camo"};
 			mass = 100;

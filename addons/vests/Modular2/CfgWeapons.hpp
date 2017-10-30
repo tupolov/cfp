@@ -17,7 +17,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Modular 2 (Black)";
 		picture = "\x\cfp\addons\vests\Modular2\ui\Black.jpg";
-		model = "\x\cfp\addons\character\Models\Modular2";
+		model = "\x\cfp\addons\models\Modular2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Modular2\Black.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -25,7 +25,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\Modular2";
+			uniformModel = "\x\cfp\addons\models\Modular2";
 			containerClass = "Supply120";
 			hiddenSelections[] = {"camo"};
 			mass = 180;
@@ -64,7 +64,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Modular 2 (Green)";
 		picture = "\x\cfp\addons\vests\Modular2\ui\Green.jpg";
-		model = "\x\cfp\addons\character\Models\Modular2";
+		model = "\x\cfp\addons\models\Modular2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Modular2\Green.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -72,7 +72,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\Modular2";
+			uniformModel = "\x\cfp\addons\models\Modular2";
 			containerClass = "Supply120";
 			hiddenSelections[] = {"camo"};
 			mass = 180;
@@ -111,7 +111,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Modular 2 (Tan)";
 		picture = "\x\cfp\addons\vests\Modular2\ui\Tan.jpg";
-		model = "\x\cfp\addons\character\Models\Modular2";
+		model = "\x\cfp\addons\models\Modular2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Modular2\Tan.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -119,7 +119,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\Modular2";
+			uniformModel = "\x\cfp\addons\models\Modular2";
 			containerClass = "Supply120";
 			hiddenSelections[] = {"camo"};
 			mass = 180;
@@ -158,7 +158,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Modular 2 (Grey)";
 		picture = "\x\cfp\addons\vests\Modular2\ui\Grey.jpg";
-		model = "\x\cfp\addons\character\Models\Modular2";
+		model = "\x\cfp\addons\models\Modular2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Modular2\Grey.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -166,7 +166,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\Modular2";
+			uniformModel = "\x\cfp\addons\models\Modular2";
 			containerClass = "Supply120";
 			hiddenSelections[] = {"camo"};
 			mass = 180;
@@ -205,7 +205,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Modular 2 (White)";
 		picture = "\x\cfp\addons\vests\Modular2\ui\White.jpg";
-		model = "\x\cfp\addons\character\Models\Modular2";
+		model = "\x\cfp\addons\models\Modular2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Modular2\White.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -213,7 +213,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\character\Models\Modular2";
+			uniformModel = "\x\cfp\addons\models\Modular2";
 			containerClass = "Supply120";
 			hiddenSelections[] = {"camo"};
 			mass = 180;

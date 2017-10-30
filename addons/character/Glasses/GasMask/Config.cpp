@@ -16,7 +16,7 @@ class CfgGlasses
 	{
 		scope = 2;
 		displayname = "Gas Mask (Black)";
-		model = "\x\cfp\addons\character\Models\GasMaskBlack.p3d";
+		model = "\x\cfp\addons\models\GasMaskBlack.p3d";
 		picture = "\x\cfp\addons\character\Glasses\GasMask\ui\Black.jpg";
 		identityTypes[] = {"NoGlasses",1000};
 	};
