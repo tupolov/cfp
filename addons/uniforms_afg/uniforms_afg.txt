@@ -1,0 +1,17 @@
+AFG_1980DuckHunter
+AFG_1990DuckHunter
+AFG_1996DPM
+AFG_1996DuckHunter
+AFG_1996Leaf
+AFG_1996Woodland
+AFG_2001Lizard
+AFG_2002FourColorWoodland
+AFG_2002Woodland
+AFG_2008GreyChocolateChip
+AFG_2009APPFDigital
+AFG_2009Spec4ceForest
+AFG_2009Spec4ceSierra
+AFG_2012GhostexKilo1
+AFG_Beret
+config.cpp
+uniforms_afg.txt
