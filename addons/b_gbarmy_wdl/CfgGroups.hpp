@@ -2,7 +2,7 @@ class CfgGroups {
     class WEST {
 
         class CFP_B_GBArmy_WDL {
-            name = "British Army (Woodland)";
+            name = "British Army (Jungle/Woodland)";
 
             class Infantry {
                 name = "Infantry (MTP)";
@@ -822,7 +822,7 @@ class CfgGroups {
             };
 
             class Infantry_W {
-                name = "Infantry (Woodland)";
+                name = "Infantry (DPM)";
 
                 class CUP_B_GB_Section_W {
                     name = "Section";

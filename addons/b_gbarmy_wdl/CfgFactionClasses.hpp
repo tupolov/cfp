@@ -8,6 +8,6 @@ class CfgFactionClasses {
     class CUP_B_GB;
     class CFP_B_GBARMY_WDL: CUP_B_GB
     {
-        displayName = "British Army (Woodland)";
+        displayName = "British Army (Jungle/Woodland)";
     };
 };

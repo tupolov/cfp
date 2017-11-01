@@ -3,7 +3,7 @@ class CfgGroups {
     class WEST {
 
         class CUP_B_GB {
-            name = "British Army (Desert)";
+            name = "British Army (Arid/Desert)";
 
             class Infantry {
                 name = "Infantry (MTP)";
@@ -901,7 +901,7 @@ class CfgGroups {
             };
 
             class Infantry_DDPM {
-                name = "Infantry (Desert)";
+                name = "Infantry (DDPM)";
 
                 class CUP_B_GB_Section_DDPM {
                     name = "Section";

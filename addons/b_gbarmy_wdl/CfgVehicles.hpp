@@ -5,6 +5,12 @@ class WeaponCloudsGun;
 class WeaponFireMGun;
 class WeaponCloudsMGun;
 
+class CfgEditorSubCategories
+{
+    class CFP_EdSubcat_Personnel_Camo_MTP { displayName = "Men (MTP)";  };
+    class CFP_EdSubcat_Personnel_Camo_DPM  { displayName = "Men (DPM)"; };
+};
+
 class CfgVehicles
 {
 
@@ -20,7 +26,7 @@ class CfgVehicles
                 displayName = "Soldier 1 - DPM";
                 faction = "CFP_B_GBARMY_WDL";
                 nameSound = "veh_infantry_officer_s";
-
+                editorSubcategory = "CFP_EdSubcat_Personnel_Camo_DPM";
                 model           = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_BAF\CUP_BAF_Soldier_1.p3d";
                 uniformClass    = "CUP_U_B_BAF_DPM_S1_RolledUp";
 
@@ -42,7 +48,7 @@ class CfgVehicles
                 displayName = "Soldier 2 - DPM";
                 faction = "CFP_B_GBARMY_WDL";
                 nameSound = "veh_infantry_officer_s";
-
+                editorSubcategory = "CFP_EdSubcat_Personnel_Camo_DPM";
                 model           = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_BAF\CUP_BAF_Soldier_2.p3d";
                 uniformClass    = "CUP_U_B_BAF_DPM_S2_UnRolled";
 
@@ -67,7 +73,7 @@ class CfgVehicles
 
                 model           = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_BAF\CUP_BAF_Soldier_Light.p3d";
                 uniformClass    = "CUP_U_B_BAF_DPM_Tshirt";
-
+                editorSubcategory = "CFP_EdSubcat_Personnel_Camo_DPM";
                 hiddenSelections[] = {"Camo", "Camo2", "camo3", "insignia"};
                 hiddenSelectionsTextures[] =
                 {
@@ -78,7 +84,6 @@ class CfgVehicles
                 icon = "iconManOfficer";
             };
 
-
             class CUP_B_BAF_Soldier_04_DPM : CUP_Creatures_Military_BAF_Soldier_Base
             {
                 author = "$STR_CUP_AUTHOR_STRING";
@@ -88,7 +93,7 @@ class CfgVehicles
                 faction = "CFP_B_GBARMY_WDL";
                 model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\CUP_USMC_Sniper.p3d";
                 uniformClass = "CUP_U_B_BAF_DPM_Ghillie";
-
+                editorSubcategory = "CFP_EdSubcat_Personnel_Camo_DPM";
                 hiddenSelectionsTextures[] = {
                     "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\data\ghillie_overall1_co.paa"
                 };
@@ -3711,31 +3716,31 @@ class CfgVehicles
             };
         // People
             class CUP_B_BAF_Soldier_06_MTP;
-            class CUP_B_BAF_Soldier_06_MTP_OCimport_01 : CUP_B_BAF_Soldier_06_MTP { scope = 0; class EventHandlers; };
+            class CUP_B_BAF_Soldier_06_MTP_OCimport_01 : CUP_B_BAF_Soldier_06_MTP { scope = 0; class EventHandlers; editorSubcategory = "CFP_EdSubcat_Personnel_Camo_MTP";};
             class CUP_B_BAF_Soldier_06_MTP_OCimport_02 : CUP_B_BAF_Soldier_06_MTP_OCimport_01 { class EventHandlers; };
 
             class CUP_B_BAF_Soldier_07_MTP;
-            class CUP_B_BAF_Soldier_07_MTP_OCimport_01 : CUP_B_BAF_Soldier_07_MTP { scope = 0; class EventHandlers; };
+            class CUP_B_BAF_Soldier_07_MTP_OCimport_01 : CUP_B_BAF_Soldier_07_MTP { scope = 0; class EventHandlers; editorSubcategory = "CFP_EdSubcat_Personnel_Camo_MTP";};
             class CUP_B_BAF_Soldier_07_MTP_OCimport_02 : CUP_B_BAF_Soldier_07_MTP_OCimport_01 { class EventHandlers; };
 
             class CUP_B_BAF_Soldier_05_MTP;
-            class CUP_B_BAF_Soldier_05_MTP_OCimport_01 : CUP_B_BAF_Soldier_05_MTP { scope = 0; class EventHandlers; };
+            class CUP_B_BAF_Soldier_05_MTP_OCimport_01 : CUP_B_BAF_Soldier_05_MTP { scope = 0; class EventHandlers; editorSubcategory = "CFP_EdSubcat_Personnel_Camo_MTP";};
             class CUP_B_BAF_Soldier_05_MTP_OCimport_02 : CUP_B_BAF_Soldier_05_MTP_OCimport_01 { class EventHandlers; };
 
             class CUP_B_BAF_Soldier_08_MTP;
-            class CUP_B_BAF_Soldier_08_MTP_OCimport_01 : CUP_B_BAF_Soldier_08_MTP { scope = 0; class EventHandlers; };
+            class CUP_B_BAF_Soldier_08_MTP_OCimport_01 : CUP_B_BAF_Soldier_08_MTP { scope = 0; class EventHandlers; editorSubcategory = "CFP_EdSubcat_Personnel_Camo_MTP";};
             class CUP_B_BAF_Soldier_08_MTP_OCimport_02 : CUP_B_BAF_Soldier_08_MTP_OCimport_01 { class EventHandlers; };
 
             class CUP_B_BAF_Soldier_04_MTP;
-            class CUP_B_BAF_Soldier_04_MTP_OCimport_01 : CUP_B_BAF_Soldier_04_MTP { scope = 0; class EventHandlers; };
+            class CUP_B_BAF_Soldier_04_MTP_OCimport_01 : CUP_B_BAF_Soldier_04_MTP { scope = 0; class EventHandlers; editorSubcategory = "CFP_EdSubcat_Personnel_Camo_MTP";};
             class CUP_B_BAF_Soldier_04_MTP_OCimport_02 : CUP_B_BAF_Soldier_04_MTP_OCimport_01 { class EventHandlers; };
 
             class CUP_B_BAF_Sniper_AS50_MTP;
-            class CUP_B_BAF_Sniper_AS50_MTP_OCimport_01 : CUP_B_BAF_Sniper_AS50_MTP { scope = 0; class EventHandlers; };
+            class CUP_B_BAF_Sniper_AS50_MTP_OCimport_01 : CUP_B_BAF_Sniper_AS50_MTP { scope = 0; class EventHandlers; editorSubcategory = "CFP_EdSubcat_Personnel_Camo_MTP";};
             class CUP_B_BAF_Sniper_AS50_MTP_OCimport_02 : CUP_B_BAF_Sniper_AS50_MTP_OCimport_01 { class EventHandlers; };
 
             class CUP_B_BAF_Spotter_MTP;
-            class CUP_B_BAF_Spotter_MTP_OCimport_01 : CUP_B_BAF_Spotter_MTP { scope = 0; class EventHandlers; };
+            class CUP_B_BAF_Spotter_MTP_OCimport_01 : CUP_B_BAF_Spotter_MTP { scope = 0; class EventHandlers; editorSubcategory = "CFP_EdSubcat_Personnel_Camo_MTP";};
             class CUP_B_BAF_Spotter_MTP_OCimport_02 : CUP_B_BAF_Spotter_MTP_OCimport_01 { class EventHandlers; };
 
             class CFP_B_GBArmy_Rifleman_WDL_01 : CUP_B_BAF_Soldier_06_MTP_OCimport_02 {
