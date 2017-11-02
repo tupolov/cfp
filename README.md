@@ -30,10 +30,11 @@ CFP Ultimate enhances base CFP factions and introduces new factions using the mo
 Factions are delivered in a modular way, enabling groups can maintain their own tailored version of CFP by simply excluding any components they don't need, or those possibly in conflict with other mods. 
 
 ## Features
-- Introduces 50 factions based on CUP assets 
+- 78 new factions!
+- Introduces 42 new factions based on CUP assets 
 - Introduces 36 new factions based on common community addons (VSM, SMA, NIArms, VME etc)
-- Replaces CUP factions with factions split by theater (i.e. Arid/Desert, Woodland/Jungle, Artic/Snow etc)
-- Enhances CUP factions with additonal groups and loadouts (i.e. special forces)
+- Replaces certain CUP factions with factions split by theater (i.e. Arid/Desert, Woodland/Jungle, Artic/Snow etc)
+- Enhances 8 CUP factions with additonal groups and loadouts (i.e. special forces)
 - Standardizes faction and group configurations for the community
 - Follows best practice configuration and implementation using CBA and ACE3 standards
 - Include's Siege-A's insignias and patches content
@@ -44,14 +45,17 @@ Factions are delivered in a modular way, enabling groups can maintain their own 
 ## CFP Factions
 
 ### OPFOR
-- 
+- Russian Army factions specifically for Arid/Desert, Woodland/Jungle etc
+- Russian Airborne factions specifically for Arid/Desert, Woodland/Jungle etc
+- Russian Naval factions
 
 ### INDFOR
 -
 
 ### BLUFOR
 - US Army factions specifically for Arid/Desert, Woodland/Jungle and including special forces (Delta, Green Beret, SOAR)
-- US Marine Corps factions specifically for Arid/Desert, Woodland/Jungle
+- US Marine Corps factions specifically for Arid/Desert, Woodland/Jungle and including special forces (MARSOC)
+- British Army factions specifically for Arid/Desert, Woodland/Jungle and including special forces (SAS, SBS, SRR)
 
 ## CFP Ultimate Factions (in addition to CFP factions)
 
