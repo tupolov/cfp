@@ -6,6 +6,6 @@
 
 class CfgFactionClasses {
     class CUP_B_GB {
-        displayName = "British Army (Arid/Desert)";
+        displayName = "British Army (Arid / Desert)";
     };
 };
