@@ -282,7 +282,7 @@ class CfgVehicles {
         class CUP_B_M113_USA: CUP_M113_Base {
             scope = 2;
             side = 1;
-accuracy = 0.30;
+            accuracy = 0.30;
             faction = "CFP_B_USArmy_WDL";
             crew = "CFP_B_USARMY_US_Crew";
             typicalCargo[] = {"CFP_B_USARMY_US_Crew","CFP_B_USARMY_US_Crew","CFP_B_USARMY_US_Crew","CFP_B_USARMY_US_Crew"}; //Placeholder
@@ -299,7 +299,7 @@ accuracy = 0.30;
         {
             scope = 2;
             side = 1;
-accuracy = 0.30;
+            accuracy = 0.30;
             faction = "CFP_B_USArmy_WDL";
             crew = "CFP_B_USARMY_US_Crew";
             typicalCargo[] = {"CFP_B_USARMY_US_Crew","CFP_B_USARMY_US_Crew","CFP_B_USARMY_US_Crew","CFP_B_USARMY_US_Crew"}; //Placeholder
@@ -1805,6 +1805,9 @@ accuracy = 0.30;
         class CUP_B_USArmy_Soldier_06_OCimport_01 : CUP_B_USArmy_Soldier_06 { scope = 0; class EventHandlers; };
         class CUP_B_USArmy_Soldier_06_OCimport_02 : CUP_B_USArmy_Soldier_06_OCimport_01 { class EventHandlers; };
 
+        #undef PREVIEW
+        #define PREVIEW(x) editorPreview = CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\Data\preview\##x##.jpg
+
         class CFP_B_USARMY_US_Soldier : CUP_B_USArmy_Soldier_01_OCimport_02 {
             author = "Tupolov";
             scope = 2;
@@ -1815,8 +1818,6 @@ accuracy = 0.30;
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             uniformClass = "CUP_U_B_USArmy_Base";
-
-
 
             class EventHandlers : EventHandlers {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -1829,7 +1830,7 @@ accuracy = 0.30;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_Soldier);
         };
 
         class CFP_B_USARMY_US_Soldier_ACOG : CUP_B_USArmy_Soldier_01_OCimport_02 {
@@ -1855,7 +1856,7 @@ accuracy = 0.30;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_Soldier);
         };
 
         class CFP_B_USARMY_US_Soldier_UAV : CUP_B_USArmy_Soldier_01_OCimport_02 {
@@ -1882,7 +1883,7 @@ accuracy = 0.30;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_Soldier_UAV);
         };
 
         class CFP_B_USARMY_US_Soldier_Backpack : CUP_B_USArmy_Soldier_01_OCimport_02 {
@@ -1907,7 +1908,7 @@ accuracy = 0.30;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_Soldier_Backpack);
         };
 
         class CFP_B_USARMY_US_Soldier_AMG : CUP_B_USArmy_Soldier_01_OCimport_02 {
@@ -1934,7 +1935,7 @@ accuracy = 0.30;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_Soldier_AMG);
         };
 
         class CFP_B_USARMY_US_Soldier_AAR : CUP_B_USArmy_Soldier_01_OCimport_02 {
@@ -1961,7 +1962,7 @@ accuracy = 0.30;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_Soldier_AAR);
         };
 
         class CFP_B_USARMY_US_Soldier_AHAT : CUP_B_USArmy_Soldier_01_OCimport_02 {
@@ -1988,7 +1989,7 @@ accuracy = 0.30;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_Soldier_AHAT);
         };
 
         class CFP_B_USARMY_US_Soldier_AAT : CUP_B_USArmy_Soldier_01_OCimport_02 {
@@ -2015,7 +2016,7 @@ accuracy = 0.30;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_Soldier_AAT);
         };
 
         class CFP_B_USARMY_US_Soldier_Light : CUP_B_USArmy_Soldier_03_OCimport_02 {
@@ -2042,7 +2043,7 @@ accuracy = 0.30;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_Soldier_Light);
         };
 
         class CFP_B_USARMY_US_Soldier_GL : CUP_B_USArmy_Soldier_03_OCimport_02 {
@@ -2069,7 +2070,7 @@ accuracy = 0.30;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_Soldier_GL);
         };
 
         class CFP_B_USARMY_US_Officer : CUP_B_USArmy_Soldier_01_OCimport_02 {
@@ -2096,7 +2097,7 @@ accuracy = 0.30;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_Officer);
         };
 
         class CFP_B_USARMY_US_Soldier_SL : CUP_B_USArmy_Soldier_02_OCimport_02 {
@@ -2123,7 +2124,7 @@ accuracy = 0.30;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_Soldier_SL);
         };
 
         class CFP_B_USARMY_US_Soldier_TL : CUP_B_USArmy_Soldier_02_OCimport_02 {
@@ -2150,7 +2151,7 @@ accuracy = 0.30;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_Soldier_TL);
         };
 
         class CFP_B_USARMY_US_Soldier_LAT : CUP_B_USArmy_Soldier_01_OCimport_02 {
@@ -2177,7 +2178,7 @@ accuracy = 0.30;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_Soldier_LAT);
         };
 
         class CFP_B_USARMY_US_Soldier_AT : CUP_B_USArmy_Soldier_01_OCimport_02 {
@@ -2204,7 +2205,7 @@ accuracy = 0.30;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_Soldier_AT);
         };
 
         class CFP_B_USARMY_US_Soldier_HAT : CUP_B_USArmy_Soldier_01_OCimport_02 {
@@ -2231,7 +2232,7 @@ accuracy = 0.30;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_Soldier_HAT);
         };
 
         class CFP_B_USARMY_US_Soldier_AA : CUP_B_USArmy_Soldier_04_OCimport_02 {
@@ -2258,7 +2259,7 @@ accuracy = 0.30;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_Soldier_AA);
         };
 
         class CFP_B_USARMY_US_Medic : CUP_B_USArmy_Soldier_01_OCimport_02 {
@@ -2285,7 +2286,7 @@ accuracy = 0.30;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_Medic);
         };
 
         class CFP_B_USARMY_US_Soldier_AR : CUP_B_USArmy_Soldier_04_OCimport_02 {
@@ -2312,7 +2313,7 @@ accuracy = 0.30;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_Soldier_AR);
         };
 
         class CFP_B_USARMY_US_Soldier_MG : CUP_B_USArmy_Soldier_04_OCimport_02 {
@@ -2339,7 +2340,7 @@ accuracy = 0.30;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_Soldier_MG);
         };
 
         class CFP_B_USARMY_US_Spotter : CUP_B_USArmy_Soldier_05_OCimport_02 {
@@ -2366,7 +2367,7 @@ accuracy = 0.30;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_Spotter);
         };
 
         class CFP_B_USARMY_US_Sniper : CUP_B_USArmy_Soldier_05_OCimport_02 {
@@ -2393,7 +2394,7 @@ accuracy = 0.30;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_Sniper);
         };
 
         class CFP_B_USARMY_US_Sniper_M110_TWS : CUP_B_USArmy_Soldier_05_OCimport_02 {
@@ -2420,7 +2421,7 @@ accuracy = 0.30;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_Sniper_M110_TWS);
         };
 
         class CFP_B_USARMY_US_Sniper_M107 : CUP_B_USArmy_Soldier_05_OCimport_02 {
@@ -2447,7 +2448,7 @@ accuracy = 0.30;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_Sniper_M107);
         };
 
         class CFP_B_USARMY_US_Soldier_Marksman : CUP_B_USArmy_Soldier_03_OCimport_02 {
@@ -2474,7 +2475,7 @@ accuracy = 0.30;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_Soldier_Marksman);
         };
 
         class CFP_B_USARMY_US_Soldier_Engineer_Sapper : CUP_B_USArmy_Soldier_02_OCimport_02 {
@@ -2501,7 +2502,7 @@ accuracy = 0.30;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_Soldier_Engineer_Sapper);
         };
 
         class CFP_B_USARMY_US_Soldier_Engineer_EOD : CUP_B_USArmy_Soldier_02_OCimport_02 {
@@ -2528,7 +2529,7 @@ accuracy = 0.30;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_Soldier_Engineer_EOD);
         };
 
         class CFP_B_USARMY_US_Engineer : CUP_B_USArmy_Soldier_02_OCimport_02 {
@@ -2555,7 +2556,7 @@ accuracy = 0.30;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_Engineer);
         };
 
         class CFP_B_USARMY_US_Crew : CUP_B_USArmy_Soldier_01_OCimport_02 {
@@ -2582,7 +2583,7 @@ accuracy = 0.30;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_Crew);
         };
 
         class CFP_B_USARMY_US_Pilot : CUP_B_USArmy_Soldier_06_OCimport_02 {
@@ -2609,7 +2610,7 @@ accuracy = 0.30;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_Pilot);
         };
 
         class CFP_B_USARMY_US_Pilot_Light : CUP_B_USArmy_Soldier_06_OCimport_02 {
@@ -2636,7 +2637,7 @@ accuracy = 0.30;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_Pilot_Light);
         };
 
         class CFP_B_USARMY_US_SpecOps : CUP_B_USArmy_Soldier_01_OCimport_02 {
@@ -2664,7 +2665,7 @@ accuracy = 0.30;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_SpecOps);
         };
 
         class CFP_B_USARMY_US_SpecOps_UAV : CUP_B_USArmy_Soldier_03_OCimport_02 {
@@ -2695,7 +2696,7 @@ accuracy = 0.30;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_SpecOps_UAV);
         };
 
         class CFP_B_USARMY_US_SpecOps_TL : CUP_B_USArmy_Soldier_02_OCimport_02 {
@@ -2709,7 +2710,7 @@ accuracy = 0.30;
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
 
-accuracy = 3.9;
+            accuracy = 3.9;
             canHideBodies = 1;
             camouflage = 0.8;
             uniformClass = "CUP_U_B_USArmy_TwoKnee";
@@ -2725,7 +2726,7 @@ accuracy = 3.9;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_SpecOps_TL);
         };
 
         class CFP_B_USARMY_US_SpecOps_Medic : CUP_B_USArmy_Soldier_01_OCimport_02 {
@@ -2756,7 +2757,7 @@ accuracy = 3.9;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_SpecOps_Medic);
         };
 
         class CFP_B_USARMY_US_SpecOps_Assault : CFP_B_USARMY_US_SpecOps {
@@ -2787,7 +2788,7 @@ accuracy = 3.9;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_SpecOps_Assault);
         };
 
         class CFP_B_USARMY_US_SpecOps_SD : CFP_B_USARMY_US_SpecOps {
@@ -2818,7 +2819,7 @@ accuracy = 3.9;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_SpecOps_SD);
         };
 
         class CFP_B_USARMY_US_SpecOps_MG : CFP_B_USARMY_US_SpecOps {
@@ -2831,7 +2832,7 @@ accuracy = 3.9;
             faction = "CFP_B_USArmy_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
-accuracy = 3.9;
+            accuracy = 3.9;
             canHideBodies = 1;
             camouflage = 0.8;
             uniformClass = "CUP_U_B_USArmy_Base";
@@ -2849,7 +2850,7 @@ accuracy = 3.9;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_SpecOps_MG);
         };
 
         class CFP_B_USARMY_US_SpecOps_AR : CUP_B_USArmy_Soldier_01_OCimport_02 {
@@ -2880,7 +2881,7 @@ accuracy = 3.9;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_SpecOps_AR);
         };
 
         class CFP_B_USARMY_US_SpecOps_Night : CFP_B_USARMY_US_SpecOps {
@@ -2911,7 +2912,7 @@ accuracy = 3.9;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_SpecOps_Night);
         };
 
         class CFP_B_USARMY_US_SpecOps_M : CFP_B_USARMY_US_SpecOps {
@@ -2942,7 +2943,7 @@ accuracy = 3.9;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_SpecOps_M);
         };
 
         class CFP_B_USARMY_US_SpecOps_M14 : CFP_B_USARMY_US_SpecOps {
@@ -2973,7 +2974,7 @@ accuracy = 3.9;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_SpecOps_M14);
         };
 
         class CFP_B_USARMY_US_SpecOps_JTAC : CUP_B_USArmy_Soldier_02_OCimport_02 {
@@ -3004,7 +3005,7 @@ accuracy = 3.9;
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-
+            PREVIEW(CUP_B_US_SpecOps_JTAC);
         };
 
 };
