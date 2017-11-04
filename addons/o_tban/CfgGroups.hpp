@@ -8,12 +8,12 @@ class CfgGroups {
     class EAST {
 
         class cfp_o_tban {
-            name = "[CFP] Taliban Insurgents";
+            name = "Taliban Insurgents";
 
             class Infantry {
                 name = "Infantry";
 
-                class cfpotban_infantry_4man_team {
+                class CFP_o_tban_infantry_4man_team {
                     name = "4 Man Team";
                     side = 0;
                     faction = "cfp_o_tban";
@@ -24,29 +24,29 @@ class CfgGroups {
                         position[] = { 0 , 0 , 0 };
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "O_cfpotban_Team_Leader_01";
+                        vehicle = "CFP_o_tban_Team_Leader_01";
                     };
                     class Unit1 {
                         position[] = { 5 , -5 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Rifleman_AK_74_01";
+                        vehicle = "CFP_o_tban_Rifleman_AK_74_01";
                     };
                     class Unit2 {
                         position[] = { -5 , -5 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Rifleman_AK_47_01";
+                        vehicle = "CFP_o_tban_Rifleman_AK_47_01";
                     };
                     class Unit3 {
                         position[] = { 10 , -10 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_AT_Rifleman_01";
+                        vehicle = "CFP_o_tban_AT_Rifleman_01";
                     };
                 };
 
-                class cfpotban_infantry_6man_team {
+                class CFP_o_tban_infantry_6man_team {
                     name = "6 Man Team";
                     side = 0;
                     faction = "cfp_o_tban";
@@ -57,41 +57,41 @@ class CfgGroups {
                         position[] = { 0 , 0 , 0 };
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "O_cfpotban_Team_Leader_AK_47_01";
+                        vehicle = "CFP_o_tban_Team_Leader_AK_47_01";
                     };
                     class Unit1 {
                         position[] = { 5 , -5 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Grenadier_AK_74_01";
+                        vehicle = "CFP_o_tban_Grenadier_AK_74_01";
                     };
                     class Unit2 {
                         position[] = { -5 , -5 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Machine_Gunner_01";
+                        vehicle = "CFP_o_tban_Machine_Gunner_01";
                     };
                     class Unit3 {
                         position[] = { 10 , -10 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Medic_Lee_Enfield_01";
+                        vehicle = "CFP_o_tban_Medic_Lee_Enfield_01";
                     };
                     class Unit4 {
                         position[] = { -10 , -10 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Explosive_Specialist_01";
+                        vehicle = "CFP_o_tban_Explosive_Specialist_01";
                     };
                     class Unit5 {
                         position[] = { 15 , -15 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_AT_Rifleman_2_01";
+                        vehicle = "CFP_o_tban_AT_Rifleman_2_01";
                     };
                 };
 
-                class cfpotban_infantry_8man_team {
+                class CFP_o_tban_infantry_8man_team {
                     name = "8 Man Team";
                     side = 0;
                     faction = "cfp_o_tban";
@@ -102,53 +102,53 @@ class CfgGroups {
                         position[] = { 0 , 0 , 0 };
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "O_cfpotban_Team_Leader_01";
+                        vehicle = "CFP_o_tban_Team_Leader_01";
                     };
                     class Unit1 {
                         position[] = { 5 , -5 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Grenadier_AK_74_02";
+                        vehicle = "CFP_o_tban_Grenadier_AK_74_02";
                     };
                     class Unit2 {
                         position[] = { -5 , -5 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Medic_AK_47_01";
+                        vehicle = "CFP_o_tban_Medic_AK_47_01";
                     };
                     class Unit3 {
                         position[] = { 10 , -10 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Machine_Gunner_2_01";
+                        vehicle = "CFP_o_tban_Machine_Gunner_2_01";
                     };
                     class Unit4 {
                         position[] = { -10 , -10 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Explosive_Specialist_Lee_Enfield_01";
+                        vehicle = "CFP_o_tban_Explosive_Specialist_Lee_Enfield_01";
                     };
                     class Unit5 {
                         position[] = { 15 , -15 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Rifleman_AK_47_02";
+                        vehicle = "CFP_o_tban_Rifleman_AK_47_02";
                     };
                     class Unit6 {
                         position[] = { -15 , -15 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Rifleman_Lee_Enfield_02";
+                        vehicle = "CFP_o_tban_Rifleman_Lee_Enfield_02";
                     };
                     class Unit7 {
                         position[] = { 20 , -20 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_AT_Rifleman_01";
+                        vehicle = "CFP_o_tban_AT_Rifleman_01";
                     };
                 };
 
-                class cfpotban_infantry_10_man_team {
+                class CFP_o_tban_infantry_10_man_team {
                     name = "10 Man Team";
                     side = 0;
                     faction = "cfp_o_tban";
@@ -159,65 +159,65 @@ class CfgGroups {
                         position[] = { 0 , 0 , 0 };
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "O_cfpotban_Team_Leader_AK_47_01";
+                        vehicle = "CFP_o_tban_Team_Leader_AK_47_01";
                     };
                     class Unit1 {
                         position[] = { 5 , -5 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Grenadier_AK_74_01";
+                        vehicle = "CFP_o_tban_Grenadier_AK_74_01";
                     };
                     class Unit2 {
                         position[] = { -5 , -5 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Rifleman_AK_74_01";
+                        vehicle = "CFP_o_tban_Rifleman_AK_74_01";
                     };
                     class Unit3 {
                         position[] = { 10 , -10 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Rifleman_AK_47_01";
+                        vehicle = "CFP_o_tban_Rifleman_AK_47_01";
                     };
                     class Unit4 {
                         position[] = { -10 , -10 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Medic_Lee_Enfield_01";
+                        vehicle = "CFP_o_tban_Medic_Lee_Enfield_01";
                     };
                     class Unit5 {
                         position[] = { 15 , -15 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Rifleman_Lee_Enfield_01";
+                        vehicle = "CFP_o_tban_Rifleman_Lee_Enfield_01";
                     };
                     class Unit6 {
                         position[] = { -15 , -15 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Machine_Gunner_01";
+                        vehicle = "CFP_o_tban_Machine_Gunner_01";
                     };
                     class Unit7 {
                         position[] = { 20 , -20 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_AT_Rifleman_2_01";
+                        vehicle = "CFP_o_tban_AT_Rifleman_2_01";
                     };
                     class Unit8 {
                         position[] = { -20 , -20 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Explosive_Specialist_01";
+                        vehicle = "CFP_o_tban_Explosive_Specialist_01";
                     };
                     class Unit9 {
                         position[] = { 25 , -25 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Grenadier_AK_74_02";
+                        vehicle = "CFP_o_tban_Grenadier_AK_74_02";
                     };
                 };
 
-                class cfpotban_infantry_dshkm_team {
+                class CFP_o_tban_infantry_dshkm_team {
                     name = "DShKM Team";
                     side = 0;
                     faction = "cfp_o_tban";
@@ -228,17 +228,17 @@ class CfgGroups {
                         position[] = { 0 , 0 , 0 };
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "O_cfpotban_Rifleman_AK_47_01";
+                        vehicle = "CFP_o_tban_Rifleman_AK_47_01";
                     };
                     class Unit1 {
                         position[] = { 5 , -5 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Gunner_DShKM_01";
+                        vehicle = "CFP_o_tban_Gunner_DShKM_01";
                     };
                 };
 
-                class cfpotban_infantry_dshkm_team_low {
+                class CFP_o_tban_infantry_dshkm_team_low {
                     name = "DShKM Team [Low]";
                     side = 0;
                     faction = "cfp_o_tban";
@@ -249,17 +249,17 @@ class CfgGroups {
                         position[] = { 0 , 0 , 0 };
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "O_cfpotban_Grenadier_AK_74_01";
+                        vehicle = "CFP_o_tban_Grenadier_AK_74_01";
                     };
                     class Unit1 {
                         position[] = { 5 , -5 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Gunner_Low_DShKM_01";
+                        vehicle = "CFP_o_tban_Gunner_Low_DShKM_01";
                     };
                 };
 
-                class cfpotban_infantry_mortar_team {
+                class CFP_o_tban_infantry_mortar_team {
                     name = "Mortar Team";
                     side = 0;
                     faction = "cfp_o_tban";
@@ -270,17 +270,17 @@ class CfgGroups {
                         position[] = { 0 , 0 , 0 };
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "O_cfpotban_Rifleman_AK_74_01";
+                        vehicle = "CFP_o_tban_Rifleman_AK_74_01";
                     };
                     class Unit1 {
                         position[] = { 5 , -5 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Gunner_Mortar_01";
+                        vehicle = "CFP_o_tban_Gunner_Mortar_01";
                     };
                 };
 
-                class cfpotban_infantry_spg_9team {
+                class CFP_o_tban_infantry_spg_9team {
                     name = "SPG-9 Team";
                     side = 0;
                     faction = "cfp_o_tban";
@@ -291,17 +291,17 @@ class CfgGroups {
                         position[] = { 0 , 0 , 0 };
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "O_cfpotban_Rifleman_AK_47_02";
+                        vehicle = "CFP_o_tban_Rifleman_AK_47_02";
                     };
                     class Unit1 {
                         position[] = { 5 , -5 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Gunner_SPG_01";
+                        vehicle = "CFP_o_tban_Gunner_SPG_01";
                     };
                 };
 
-                class cfpotban_infantry_sniper_team {
+                class CFP_o_tban_infantry_sniper_team {
                     name = "Sniper Team";
                     side = 0;
                     faction = "cfp_o_tban";
@@ -312,17 +312,17 @@ class CfgGroups {
                         position[] = { 0 , 0 , 0 };
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "O_cfpotban_Sniper_01";
+                        vehicle = "CFP_o_tban_Sniper_01";
                     };
                     class Unit1 {
                         position[] = { 5 , -5 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Sniper_2_01";
+                        vehicle = "CFP_o_tban_Sniper_2_01";
                     };
                 };
 
-                class cfpotban_infantry_demo_team {
+                class CFP_o_tban_infantry_demo_team {
                     name = "Demo Team";
                     side = 0;
                     faction = "cfp_o_tban";
@@ -333,13 +333,13 @@ class CfgGroups {
                         position[] = { 0 , 0 , 0 };
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "O_cfpotban_Explosive_Specialist_01";
+                        vehicle = "CFP_o_tban_Explosive_Specialist_01";
                     };
                     class Unit1 {
                         position[] = { 5 , -5 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Explosive_Specialist_Lee_Enfield_01";
+                        vehicle = "CFP_o_tban_Explosive_Specialist_Lee_Enfield_01";
                     };
                 };
 
@@ -353,7 +353,7 @@ class CfgGroups {
             class Motorized {
                 name = "Motorized Infantry";
 
-                class cfpotban_motorized_technical_patrol {
+                class CFP_o_tban_motorized_technical_patrol {
                     name = "Technical Patrol";
                     side = 0;
                     faction = "cfp_o_tban";
@@ -364,11 +364,11 @@ class CfgGroups {
                         position[] = { 0 , 0 , 0 };
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "O_cfpotban_Technical_PK_01";
+                        vehicle = "CFP_o_tban_Technical_PK_01";
                     };
                 };
 
-                class cfpotban_motorized_offroad_patrol {
+                class CFP_o_tban_motorized_offroad_patrol {
                     name = "Offroad Patrol";
                     side = 0;
                     faction = "cfp_o_tban";
@@ -379,11 +379,11 @@ class CfgGroups {
                         position[] = { 0 , 0 , 0 };
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "O_cfpotban_Offroad_Armed_01";
+                        vehicle = "CFP_o_tban_Offroad_Armed_01";
                     };
                 };
 
-                class cfpotban_motorized_offroad_team {
+                class CFP_o_tban_motorized_offroad_team {
                     name = "Technical Team";
                     side = 0;
                     faction = "cfp_o_tban";
@@ -394,29 +394,29 @@ class CfgGroups {
                         position[] = { 0 , 0 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Dastun_Pickup_01";
+                        vehicle = "CFP_o_tban_Dastun_Pickup_01";
                     };
                     class Unit1 {
                         position[] = { 5 , -5 , 0 };
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "O_cfpotban_Team_Leader_01";
+                        vehicle = "CFP_o_tban_Team_Leader_01";
                     };
                     class Unit2 {
                         position[] = { -5 , -5 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_AT_Rifleman_2_01";
+                        vehicle = "CFP_o_tban_AT_Rifleman_2_01";
                     };
                     class Unit3 {
                         position[] = { 10 , -10 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Machine_Gunner_2_01";
+                        vehicle = "CFP_o_tban_Machine_Gunner_2_01";
                     };
                 };
 
-                class cfpotban_motorized_motorized_team {
+                class CFP_o_tban_motorized_motorized_team {
                     name = "Motorized Team";
                     side = 0;
                     faction = "cfp_o_tban";
@@ -427,71 +427,71 @@ class CfgGroups {
                         position[] = { 0 , 0 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Praga_V3S_01";
+                        vehicle = "CFP_o_tban_Praga_V3S_01";
                     };
                     class Unit1 {
                         position[] = { 5 , -5 , 0 };
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "O_cfpotban_Team_Leader_AK_47_01";
+                        vehicle = "CFP_o_tban_Team_Leader_AK_47_01";
                     };
                     class Unit2 {
                         position[] = { -5 , -5 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Grenadier_AK_74_01";
+                        vehicle = "CFP_o_tban_Grenadier_AK_74_01";
                     };
                     class Unit3 {
                         position[] = { 10 , -10 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Rifleman_AK_74_01";
+                        vehicle = "CFP_o_tban_Rifleman_AK_74_01";
                     };
                     class Unit4 {
                         position[] = { -10 , -10 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Rifleman_AK_47_01";
+                        vehicle = "CFP_o_tban_Rifleman_AK_47_01";
                     };
                     class Unit5 {
                         position[] = { 15 , -15 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Machine_Gunner_01";
+                        vehicle = "CFP_o_tban_Machine_Gunner_01";
                     };
                     class Unit6 {
                         position[] = { -15 , -15 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Rifleman_Lee_Enfield_01";
+                        vehicle = "CFP_o_tban_Rifleman_Lee_Enfield_01";
                     };
                     class Unit7 {
                         position[] = { 20 , -20 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_AT_Rifleman_01";
+                        vehicle = "CFP_o_tban_AT_Rifleman_01";
                     };
                     class Unit8 {
                         position[] = { -20 , -20 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Medic_Lee_Enfield_01";
+                        vehicle = "CFP_o_tban_Medic_Lee_Enfield_01";
                     };
                     class Unit9 {
                         position[] = { 25 , -25 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Rifleman_AK_47_02";
+                        vehicle = "CFP_o_tban_Rifleman_AK_47_02";
                     };
                     class Unit10 {
                         position[] = { -25 , -25 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Explosive_Specialist_Lee_Enfield_01";
+                        vehicle = "CFP_o_tban_Explosive_Specialist_Lee_Enfield_01";
                     };
                 };
 
-                class cfpotban_motorized_motorized_team_2 {
+                class CFP_o_tban_motorized_motorized_team_2 {
                     name = "Motorized Team 2";
                     side = 0;
                     faction = "cfp_o_tban";
@@ -502,47 +502,47 @@ class CfgGroups {
                         position[] = { 0 , 0 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Truck_01";
+                        vehicle = "CFP_o_tban_Truck_01";
                     };
                     class Unit1 {
                         position[] = { 5 , -5 , 0 };
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "O_cfpotban_Team_Leader_01";
+                        vehicle = "CFP_o_tban_Team_Leader_01";
                     };
                     class Unit2 {
                         position[] = { -5 , -5 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Rifleman_AK_47_01";
+                        vehicle = "CFP_o_tban_Rifleman_AK_47_01";
                     };
                     class Unit3 {
                         position[] = { 10 , -10 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Rifleman_Lee_Enfield_02";
+                        vehicle = "CFP_o_tban_Rifleman_Lee_Enfield_02";
                     };
                     class Unit4 {
                         position[] = { -10 , -10 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Machine_Gunner_2_01";
+                        vehicle = "CFP_o_tban_Machine_Gunner_2_01";
                     };
                     class Unit5 {
                         position[] = { 15 , -15 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_AT_Rifleman_2_01";
+                        vehicle = "CFP_o_tban_AT_Rifleman_2_01";
                     };
                     class Unit6 {
                         position[] = { -15 , -15 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "O_cfpotban_Medic_AK_47_01";
+                        vehicle = "CFP_o_tban_Medic_AK_47_01";
                     };
                 };
 
-                class cfpotban_motorized_anti_air_patrol {
+                class CFP_o_tban_motorized_anti_air_patrol {
                     name = "Anti-Air Patrol";
                     side = 0;
                     faction = "cfp_o_tban";
@@ -553,7 +553,7 @@ class CfgGroups {
                         position[] = { 0 , 0 , 0 };
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "O_cfpotban_Ural_ZU_23_01";
+                        vehicle = "CFP_o_tban_Ural_ZU_23_01";
                     };
                 };
 

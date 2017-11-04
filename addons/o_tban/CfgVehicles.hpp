@@ -51,8 +51,8 @@ class CfgVehicles {
 
     class CUP_I_Datsun_PK_TK;
     class CUP_I_Datsun_PK_TK_OCimport_01 : CUP_I_Datsun_PK_TK { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_I_Datsun_PK_TK_OCimport_02 : CUP_I_Datsun_PK_TK_OCimport_01 { 
-        class EventHandlers; 
+    class CUP_I_Datsun_PK_TK_OCimport_02 : CUP_I_Datsun_PK_TK_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
             class CargoTurret_01;
@@ -66,8 +66,8 @@ class CfgVehicles {
 
     class O_G_Offroad_01_armed_F;
     class O_G_Offroad_01_armed_F_OCimport_01 : O_G_Offroad_01_armed_F { scope = 0; class EventHandlers; class Turrets; };
-    class O_G_Offroad_01_armed_F_OCimport_02 : O_G_Offroad_01_armed_F_OCimport_01 { 
-        class EventHandlers; 
+    class O_G_Offroad_01_armed_F_OCimport_02 : O_G_Offroad_01_armed_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class M2_Turret;
         };
@@ -75,8 +75,8 @@ class CfgVehicles {
 
     class O_G_Van_01_transport_F;
     class O_G_Van_01_transport_F_OCimport_01 : O_G_Van_01_transport_F { scope = 0; class EventHandlers; class Turrets; };
-    class O_G_Van_01_transport_F_OCimport_02 : O_G_Van_01_transport_F_OCimport_01 { 
-        class EventHandlers; 
+    class O_G_Van_01_transport_F_OCimport_02 : O_G_Van_01_transport_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CargoTurret_L1;
             class CargoTurret_L2;
@@ -93,8 +93,8 @@ class CfgVehicles {
 
     class CUP_I_Ural_ZU23_TK_Gue;
     class CUP_I_Ural_ZU23_TK_Gue_OCimport_01 : CUP_I_Ural_ZU23_TK_Gue { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_I_Ural_ZU23_TK_Gue_OCimport_02 : CUP_I_Ural_ZU23_TK_Gue_OCimport_01 { 
-        class EventHandlers; 
+    class CUP_I_Ural_ZU23_TK_Gue_OCimport_02 : CUP_I_Ural_ZU23_TK_Gue_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -102,8 +102,8 @@ class CfgVehicles {
 
     class CUP_C_Datsun;
     class CUP_C_Datsun_OCimport_01 : CUP_C_Datsun { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_C_Datsun_OCimport_02 : CUP_C_Datsun_OCimport_01 { 
-        class EventHandlers; 
+    class CUP_C_Datsun_OCimport_02 : CUP_C_Datsun_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CargoTurret_01;
             class CargoTurret_02;
@@ -111,7 +111,7 @@ class CfgVehicles {
     };
 
 
-    class O_cfpotban_Team_Leader_01 : CUP_O_TK_INS_Soldier_TL_OCimport_02 {
+    class CFP_o_tban_Team_Leader_01 : CUP_O_TK_INS_Soldier_TL_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -138,7 +138,7 @@ class CfgVehicles {
 
     };
 
-    class O_cfpotban_Rifleman_AK_74_01 : CUP_O_TK_INS_Soldier_OCimport_02 {
+    class CFP_o_tban_Rifleman_AK_74_01 : CUP_O_TK_INS_Soldier_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -165,7 +165,7 @@ class CfgVehicles {
 
     };
 
-    class O_cfpotban_Rifleman_AK_47_01 : CUP_O_TK_INS_Soldier_OCimport_02 {
+    class CFP_o_tban_Rifleman_AK_47_01 : CUP_O_TK_INS_Soldier_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -192,7 +192,7 @@ class CfgVehicles {
 
     };
 
-    class O_cfpotban_Grenadier_AK_74_01 : CUP_O_TK_INS_Soldier_GL_OCimport_02 {
+    class CFP_o_tban_Grenadier_AK_74_01 : CUP_O_TK_INS_Soldier_GL_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -219,7 +219,7 @@ class CfgVehicles {
 
     };
 
-    class O_cfpotban_Rifleman_Lee_Enfield_01 : CUP_O_TK_INS_Soldier_Enfield_OCimport_02 {
+    class CFP_o_tban_Rifleman_Lee_Enfield_01 : CUP_O_TK_INS_Soldier_Enfield_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -246,7 +246,7 @@ class CfgVehicles {
 
     };
 
-    class O_cfpotban_Sniper_01 : CUP_O_TK_INS_Sniper_OCimport_02 {
+    class CFP_o_tban_Sniper_01 : CUP_O_TK_INS_Sniper_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -273,7 +273,7 @@ class CfgVehicles {
 
     };
 
-    class O_cfpotban_Machine_Gunner_01 : CUP_O_TK_INS_Soldier_MG_OCimport_02 {
+    class CFP_o_tban_Machine_Gunner_01 : CUP_O_TK_INS_Soldier_MG_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -300,7 +300,7 @@ class CfgVehicles {
 
     };
 
-    class O_cfpotban_Team_Leader_AK_47_01 : CUP_O_TK_INS_Soldier_FNFAL_OCimport_02 {
+    class CFP_o_tban_Team_Leader_AK_47_01 : CUP_O_TK_INS_Soldier_FNFAL_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -327,7 +327,7 @@ class CfgVehicles {
 
     };
 
-    class O_cfpotban_Rifleman_AK_47_02 : CUP_O_TK_INS_Soldier_OCimport_02 {
+    class CFP_o_tban_Rifleman_AK_47_02 : CUP_O_TK_INS_Soldier_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -354,7 +354,7 @@ class CfgVehicles {
 
     };
 
-    class O_cfpotban_Rifleman_Lee_Enfield_02 : CUP_O_TK_INS_Soldier_Enfield_OCimport_02 {
+    class CFP_o_tban_Rifleman_Lee_Enfield_02 : CUP_O_TK_INS_Soldier_Enfield_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -381,7 +381,7 @@ class CfgVehicles {
 
     };
 
-    class O_cfpotban_Machine_Gunner_2_01 : CUP_O_TK_INS_Soldier_MG_OCimport_02 {
+    class CFP_o_tban_Machine_Gunner_2_01 : CUP_O_TK_INS_Soldier_MG_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -408,7 +408,7 @@ class CfgVehicles {
 
     };
 
-    class O_cfpotban_AT_Rifleman_01 : CUP_O_TK_INS_Soldier_AT_OCimport_02 {
+    class CFP_o_tban_AT_Rifleman_01 : CUP_O_TK_INS_Soldier_AT_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -435,7 +435,7 @@ class CfgVehicles {
 
     };
 
-    class O_cfpotban_AT_Rifleman_2_01 : CUP_O_TK_INS_Soldier_AT_OCimport_02 {
+    class CFP_o_tban_AT_Rifleman_2_01 : CUP_O_TK_INS_Soldier_AT_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -462,7 +462,7 @@ class CfgVehicles {
 
     };
 
-    class O_cfpotban_Grenadier_AK_74_02 : CUP_O_TK_INS_Soldier_GL_OCimport_02 {
+    class CFP_o_tban_Grenadier_AK_74_02 : CUP_O_TK_INS_Soldier_GL_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -489,7 +489,7 @@ class CfgVehicles {
 
     };
 
-    class O_cfpotban_Medic_Lee_Enfield_01 : CUP_O_TK_INS_Guerilla_Medic_OCimport_02 {
+    class CFP_o_tban_Medic_Lee_Enfield_01 : CUP_O_TK_INS_Guerilla_Medic_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -516,7 +516,7 @@ class CfgVehicles {
 
     };
 
-    class O_cfpotban_Medic_AK_47_01 : CUP_O_TK_INS_Guerilla_Medic_OCimport_02 {
+    class CFP_o_tban_Medic_AK_47_01 : CUP_O_TK_INS_Guerilla_Medic_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -543,7 +543,7 @@ class CfgVehicles {
 
     };
 
-    class O_cfpotban_Explosive_Specialist_01 : CUP_O_TK_INS_Bomber_OCimport_02 {
+    class CFP_o_tban_Explosive_Specialist_01 : CUP_O_TK_INS_Bomber_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -570,7 +570,7 @@ class CfgVehicles {
 
     };
 
-    class O_cfpotban_Explosive_Specialist_Lee_Enfield_01 : CUP_O_TK_INS_Bomber_OCimport_02 {
+    class CFP_o_tban_Explosive_Specialist_Lee_Enfield_01 : CUP_O_TK_INS_Bomber_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -597,7 +597,7 @@ class CfgVehicles {
 
     };
 
-    class O_cfpotban_Gunner_DShKM_01 : CUP_O_TK_INS_Soldier_OCimport_02 {
+    class CFP_o_tban_Gunner_DShKM_01 : CUP_O_TK_INS_Soldier_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -624,7 +624,7 @@ class CfgVehicles {
 
     };
 
-    class O_cfpotban_Gunner_Low_DShKM_01 : CUP_O_TK_INS_Soldier_OCimport_02 {
+    class CFP_o_tban_Gunner_Low_DShKM_01 : CUP_O_TK_INS_Soldier_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -651,7 +651,7 @@ class CfgVehicles {
 
     };
 
-    class O_cfpotban_Gunner_Mortar_01 : CUP_O_TK_INS_Soldier_OCimport_02 {
+    class CFP_o_tban_Gunner_Mortar_01 : CUP_O_TK_INS_Soldier_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -678,7 +678,7 @@ class CfgVehicles {
 
     };
 
-    class O_cfpotban_Gunner_SPG_01 : CUP_O_TK_INS_Soldier_OCimport_02 {
+    class CFP_o_tban_Gunner_SPG_01 : CUP_O_TK_INS_Soldier_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -705,17 +705,17 @@ class CfgVehicles {
 
     };
 
-    class O_cfpotban_Technical_PK_01 : CUP_I_Datsun_PK_TK_OCimport_02 {
+    class CFP_o_tban_Technical_PK_01 : CUP_I_Datsun_PK_TK_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Technical [PK]";
         side = 0;
         faction = "cfp_o_tban";
-        crew = "O_cfpotban_Team_Leader_01";
+        crew = "CFP_o_tban_Team_Leader_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "O_cfpotban_Rifleman_AK_74_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_o_tban_Rifleman_AK_74_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
         };
@@ -736,14 +736,14 @@ class CfgVehicles {
 
     };
 
-    class O_cfpotban_Praga_V3S_01 : CUP_I_V3S_Open_TKG_OCimport_02 {
+    class CFP_o_tban_Praga_V3S_01 : CUP_I_V3S_Open_TKG_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Praga V3S";
         side = 0;
         faction = "cfp_o_tban";
-        crew = "O_cfpotban_Rifleman_AK_47_02";
+        crew = "CFP_o_tban_Rifleman_AK_47_02";
 
 
         class EventHandlers : EventHandlers {
@@ -760,17 +760,17 @@ class CfgVehicles {
 
     };
 
-    class O_cfpotban_Offroad_Armed_01 : O_G_Offroad_01_armed_F_OCimport_02 {
+    class CFP_o_tban_Offroad_Armed_01 : O_G_Offroad_01_armed_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Offroad [Armed]";
         side = 0;
         faction = "cfp_o_tban";
-        crew = "O_cfpotban_Rifleman_AK_47_01";
+        crew = "CFP_o_tban_Rifleman_AK_47_01";
 
         class Turrets : Turrets {
-            class M2_Turret : M2_Turret { gunnerType = "O_cfpotban_Grenadier_AK_74_01"; };
+            class M2_Turret : M2_Turret { gunnerType = "CFP_o_tban_Grenadier_AK_74_01"; };
         };
 
 
@@ -789,14 +789,14 @@ class CfgVehicles {
 
     };
 
-    class O_cfpotban_Truck_01 : O_G_Van_01_transport_F_OCimport_02 {
+    class CFP_o_tban_Truck_01 : O_G_Van_01_transport_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Truck";
         side = 0;
         faction = "cfp_o_tban";
-        crew = "O_cfpotban_Grenadier_AK_74_02";
+        crew = "CFP_o_tban_Grenadier_AK_74_02";
 
         class Turrets : Turrets {
             class CargoTurret_L1 : CargoTurret_L1 { gunnerType = ""; };
@@ -827,17 +827,17 @@ class CfgVehicles {
 
     };
 
-    class O_cfpotban_Ural_ZU_23_01 : CUP_I_Ural_ZU23_TK_Gue_OCimport_02 {
+    class CFP_o_tban_Ural_ZU_23_01 : CUP_I_Ural_ZU23_TK_Gue_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Ural [ZU-23]";
         side = 0;
         faction = "cfp_o_tban";
-        crew = "O_cfpotban_Rifleman_Lee_Enfield_01";
+        crew = "CFP_o_tban_Rifleman_Lee_Enfield_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "O_cfpotban_Team_Leader_AK_47_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_o_tban_Team_Leader_AK_47_01"; };
         };
 
 
@@ -856,14 +856,14 @@ class CfgVehicles {
 
     };
 
-    class O_cfpotban_Dastun_Pickup_01 : CUP_C_Datsun_OCimport_02 {
+    class CFP_o_tban_Dastun_Pickup_01 : CUP_C_Datsun_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Dastun Pickup";
         side = 0;
         faction = "cfp_o_tban";
-        crew = "O_cfpotban_Rifleman_Lee_Enfield_02";
+        crew = "CFP_o_tban_Rifleman_Lee_Enfield_02";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -886,7 +886,7 @@ class CfgVehicles {
 
     };
 
-    class O_cfpotban_Sniper_2_01 : CUP_O_TK_INS_Sniper_OCimport_02 {
+    class CFP_o_tban_Sniper_2_01 : CUP_O_TK_INS_Sniper_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;

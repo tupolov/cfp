@@ -6,7 +6,7 @@
 
 class CfgFactionClasses {
     class cfp_o_tban {
-        displayName = "[CFP] Taliban Insurgents";
+        displayName = "Taliban Insurgents";
         side = 0;
         flag = "CUP\BaseConfigs\CUP_BaseConfigs\Data\Flags\flag_tkm_co.paa";
         icon = "CUP\BaseConfigs\CUP_BaseConfigs\Data\Flags\flag_tkm_co.paa";
