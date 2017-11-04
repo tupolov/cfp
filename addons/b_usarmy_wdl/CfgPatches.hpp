@@ -22,7 +22,7 @@ class CfgPatches {
             "CUP_TrackedVehicles_M270",
             "CUP_AirVehicles_AH64"
         };
-        author = "Matt";
-        authors[] = { "Matt" };
+        author = "Tupolov";
+        authors[] = { "Tupolov" };
     };
 };

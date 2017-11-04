@@ -11,3 +11,5 @@ TO DO
 11. Add updated CUP factions
 12. Add new factions
 13. Test Make.py
+14. Add country insignias
+15. Redo Brit woodland vehicle inheritance
