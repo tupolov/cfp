@@ -16,6 +16,12 @@
 
 class CBA_Extended_EventHandlers_base;
 
+class CfgEditorSubCategories
+{
+    class CFP_EdSubcat_Personnel_DeltaForce { displayName = "Men (Delta Force)";  };
+    class CFP_EdSubcat_Personnel_Camo_UCP  { displayName = "Men (UCP)"; };
+};
+
 class CfgVehicles {
 
     // Vehicle Overrides
@@ -1783,27 +1789,27 @@ class CfgVehicles {
     // New People
         class CUP_B_USArmy_Soldier_01;
         class CUP_B_USArmy_Soldier_01_OCimport_01 : CUP_B_USArmy_Soldier_01 { scope = 0; class EventHandlers; };
-        class CUP_B_USArmy_Soldier_01_OCimport_02 : CUP_B_USArmy_Soldier_01_OCimport_01 { class EventHandlers; };
+        class CUP_B_USArmy_Soldier_01_OCimport_02 : CUP_B_USArmy_Soldier_01_OCimport_01 { class EventHandlers; editorSubCategory = "CFP_EdSubcat_Personnel_Camo_UCP"; };
 
         class CUP_B_USArmy_Soldier_03;
         class CUP_B_USArmy_Soldier_03_OCimport_01 : CUP_B_USArmy_Soldier_03 { scope = 0; class EventHandlers; };
-        class CUP_B_USArmy_Soldier_03_OCimport_02 : CUP_B_USArmy_Soldier_03_OCimport_01 { class EventHandlers; };
+        class CUP_B_USArmy_Soldier_03_OCimport_02 : CUP_B_USArmy_Soldier_03_OCimport_01 { class EventHandlers; editorSubCategory = "CFP_EdSubcat_Personnel_Camo_UCP"; };
 
         class CUP_B_USArmy_Soldier_02;
         class CUP_B_USArmy_Soldier_02_OCimport_01 : CUP_B_USArmy_Soldier_02 { scope = 0; class EventHandlers; };
-        class CUP_B_USArmy_Soldier_02_OCimport_02 : CUP_B_USArmy_Soldier_02_OCimport_01 { class EventHandlers; };
+        class CUP_B_USArmy_Soldier_02_OCimport_02 : CUP_B_USArmy_Soldier_02_OCimport_01 { class EventHandlers; editorSubCategory = "CFP_EdSubcat_Personnel_Camo_UCP"; };
 
         class CUP_B_USArmy_Soldier_04;
         class CUP_B_USArmy_Soldier_04_OCimport_01 : CUP_B_USArmy_Soldier_04 { scope = 0; class EventHandlers; };
-        class CUP_B_USArmy_Soldier_04_OCimport_02 : CUP_B_USArmy_Soldier_04_OCimport_01 { class EventHandlers; };
+        class CUP_B_USArmy_Soldier_04_OCimport_02 : CUP_B_USArmy_Soldier_04_OCimport_01 { class EventHandlers; editorSubCategory = "CFP_EdSubcat_Personnel_Camo_UCP"; };
 
         class CUP_B_USArmy_Soldier_05;
         class CUP_B_USArmy_Soldier_05_OCimport_01 : CUP_B_USArmy_Soldier_05 { scope = 0; class EventHandlers; };
-        class CUP_B_USArmy_Soldier_05_OCimport_02 : CUP_B_USArmy_Soldier_05_OCimport_01 { class EventHandlers; };
+        class CUP_B_USArmy_Soldier_05_OCimport_02 : CUP_B_USArmy_Soldier_05_OCimport_01 { class EventHandlers; editorSubCategory = "CFP_EdSubcat_Personnel_Camo_UCP"; };
 
         class CUP_B_USArmy_Soldier_06;
         class CUP_B_USArmy_Soldier_06_OCimport_01 : CUP_B_USArmy_Soldier_06 { scope = 0; class EventHandlers; };
-        class CUP_B_USArmy_Soldier_06_OCimport_02 : CUP_B_USArmy_Soldier_06_OCimport_01 { class EventHandlers; };
+        class CUP_B_USArmy_Soldier_06_OCimport_02 : CUP_B_USArmy_Soldier_06_OCimport_01 { class EventHandlers; editorSubCategory = "CFP_EdSubcat_Personnel_Camo_UCP"; };
 
         #undef PREVIEW
         #define PREVIEW(x) editorPreview = CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\Data\preview\##x##.jpg
@@ -2640,12 +2646,14 @@ class CfgVehicles {
             PREVIEW(CUP_B_US_Pilot_Light);
         };
 
+        // DELTA FORCE
+
         class CFP_B_USARMY_US_SpecOps : CUP_B_USArmy_Soldier_01_OCimport_02 {
             author = "Tupolov";
             scope = 2;
             scopeCurator = 2;
-            editorSubCategory = "EdSubcat_Personnel_SpecialForces";
-            displayName = "Delta - Operator";
+            editorSubCategory = "CFP_EdSubcat_Personnel_DeltaForce";
+            displayName = "Operator";
             side = 1;
             faction = "CFP_B_USArmy_WDL";
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
@@ -2672,8 +2680,8 @@ class CfgVehicles {
             author = "Tupolov";
             scope = 2;
             scopeCurator = 2;
-            editorSubCategory = "EdSubcat_Personnel_SpecialForces";
-            displayName = "Delta - UAV Controller";
+            editorSubCategory = "CFP_EdSubcat_Personnel_DeltaForce";
+            displayName = "UAV Controller";
             side = 1;
             faction = "CFP_B_USArmy_WDL";
 
@@ -2703,8 +2711,8 @@ class CfgVehicles {
             author = "Tupolov";
             scope = 2;
             scopeCurator = 2;
-            editorSubCategory = "EdSubcat_Personnel_SpecialForces";
-            displayName = "Delta - Team Leader";
+            editorSubCategory = "CFP_EdSubcat_Personnel_DeltaForce";
+            displayName = "Team Leader";
             side = 1;
             faction = "CFP_B_USArmy_WDL";
 
@@ -2733,8 +2741,8 @@ class CfgVehicles {
             author = "Tupolov";
             scope = 2;
             scopeCurator = 2;
-            editorSubCategory = "EdSubcat_Personnel_SpecialForces";
-            displayName = "Delta - Medic";
+            editorSubCategory = "CFP_EdSubcat_Personnel_DeltaForce";
+            displayName = "Medic";
             side = 1;
             faction = "CFP_B_USArmy_WDL";
 
@@ -2764,8 +2772,8 @@ class CfgVehicles {
             author = "Tupolov";
             scope = 2;
             scopeCurator = 2;
-            editorSubCategory = "EdSubcat_Personnel_SpecialForces";
-            displayName = "Delta - Operator (Assault)";
+            editorSubCategory = "CFP_EdSubcat_Personnel_DeltaForce";
+            displayName = "Operator (Assault)";
             side = 1;
             faction = "CFP_B_USArmy_WDL";
 
@@ -2795,8 +2803,8 @@ class CfgVehicles {
             author = "Tupolov";
             scope = 2;
             scopeCurator = 2;
-            editorSubCategory = "EdSubcat_Personnel_SpecialForces";
-            displayName = "Delta - Operator (Silenced)";
+            editorSubCategory = "CFP_EdSubcat_Personnel_DeltaForce";
+            displayName = "Operator (Silenced)";
             side = 1;
             faction = "CFP_B_USArmy_WDL";
 
@@ -2826,8 +2834,8 @@ class CfgVehicles {
             author = "Tupolov";
             scope = 2;
             scopeCurator = 2;
-            editorSubCategory = "EdSubcat_Personnel_SpecialForces";
-            displayName = "Delta - Machinegunner";
+            editorSubCategory = "CFP_EdSubcat_Personnel_DeltaForce";
+            displayName = "Machinegunner";
             side = 1;
             faction = "CFP_B_USArmy_WDL";
 
@@ -2857,8 +2865,8 @@ class CfgVehicles {
             author = "Tupolov";
             scope = 2;
             scopeCurator = 2;
-            editorSubCategory = "EdSubcat_Personnel_SpecialForces";
-            displayName = "Delta - Automatic Rifleman";
+            editorSubCategory = "CFP_EdSubcat_Personnel_DeltaForce";
+            displayName = "Automatic Rifleman";
             side = 1;
             faction = "CFP_B_USArmy_WDL";
 
@@ -2888,8 +2896,8 @@ class CfgVehicles {
             author = "Tupolov";
             scope = 2;
             scopeCurator = 2;
-            editorSubCategory = "EdSubcat_Personnel_SpecialForces";
-            displayName = "Delta - Operator (Night Assault)";
+            editorSubCategory = "CFP_EdSubcat_Personnel_DeltaForce";
+            displayName = "Operator (Night Assault)";
             side = 1;
             faction = "CFP_B_USArmy_WDL";
 
@@ -2919,8 +2927,8 @@ class CfgVehicles {
             author = "Tupolov";
             scope = 2;
             scopeCurator = 2;
-            editorSubCategory = "EdSubcat_Personnel_SpecialForces";
-            displayName = "Delta - Marksman";
+            editorSubCategory = "CFP_EdSubcat_Personnel_DeltaForce";
+            displayName = "Marksman";
             side = 1;
             faction = "CFP_B_USArmy_WDL";
 
@@ -2950,8 +2958,8 @@ class CfgVehicles {
             author = "Tupolov";
             scope = 2;
             scopeCurator = 2;
-            editorSubCategory = "EdSubcat_Personnel_SpecialForces";
-            displayName = "Delta - Operator (M14)";
+            editorSubCategory = "CFP_EdSubcat_Personnel_DeltaForce";
+            displayName = "Operator (M14)";
             side = 1;
             faction = "CFP_B_USArmy_WDL";
 
@@ -2981,8 +2989,8 @@ class CfgVehicles {
             author = "Tupolov";
             scope = 2;
             scopeCurator = 2;
-            editorSubCategory = "EdSubcat_Personnel_SpecialForces";
-            displayName = "Delta - Forward Air Controller";
+            editorSubCategory = "CFP_EdSubcat_Personnel_DeltaForce";
+            displayName = "Forward Air Controller";
             side = 1;
             faction = "CFP_B_USArmy_WDL";
 
