@@ -12,7 +12,7 @@ class CfgVehicles {
             typicalCargo[] = {"CUP_B_US_Crew","CUP_B_US_Crew","CUP_B_US_Crew","CUP_B_US_Crew"}; //Placeholder
             hiddenSelectionsTextures[] =
             {
-                "x\cfp\addons\b_usarmy_des\data\m163_vulcan_01_desert_co.paa",
+                "x\cfp\addons\cup_b_us_army\data\m163_vulcan_01_desert_co.paa",
                 "cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m163_vulcansp_02_co.paa"
             };
             editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_M113\Data\preview\CUP_B_M163_USA.jpg";
