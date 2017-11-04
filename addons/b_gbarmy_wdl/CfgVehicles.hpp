@@ -11,6 +11,12 @@ class CfgEditorSubCategories
     class CFP_EdSubcat_Personnel_Camo_DPM  { displayName = "Men (DPM)"; };
 };
 
+class SoldierWB;
+class CUP_Creatures_Military_BAF_Soldier_Base: SoldierWB
+{
+    editorSubcategory = "CFP_EdSubcat_Personnel_Camo_MTP";
+};
+
 class CfgVehicles
 {
 
@@ -21,25 +27,21 @@ class CfgVehicles
             class CUP_B_BAF_Soldier_01_DPM: CUP_Creatures_Military_BAF_Soldier_Base // Officer Uniform
             {
                 faction = "CFP_B_GBARMY_WDL";
-                editorSubcategory = "CFP_EdSubcat_Personnel_Camo_DPM";
             };
 
             class CUP_B_BAF_Soldier_02_DPM: CUP_Creatures_Military_BAF_Soldier_Base // Officer Uniform
             {
                 faction = "CFP_B_GBARMY_WDL";
-                editorSubcategory = "CFP_EdSubcat_Personnel_Camo_DPM";
             };
 
             class CUP_B_BAF_Soldier_03_DPM: CUP_Creatures_Military_BAF_Soldier_Base // Officer Uniform
             {
                 faction = "CFP_B_GBARMY_WDL";
-                editorSubcategory = "CFP_EdSubcat_Personnel_Camo_DPM";
             };
 
             class CUP_B_BAF_Soldier_04_DPM : CUP_Creatures_Military_BAF_Soldier_Base
             {
                 faction = "CFP_B_GBARMY_WDL";
-                editorSubcategory = "CFP_EdSubcat_Personnel_Camo_DPM";
             };
 
         // Vehicles
