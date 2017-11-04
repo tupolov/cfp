@@ -47,15 +47,17 @@ Factions are delivered in a modular way, enabling groups can maintain their own 
 ### OPFOR
 - Russian Army factions specifically for Arid/Desert, Woodland/Jungle etc
 - Russian Airborne factions specifically for Arid/Desert, Woodland/Jungle etc
-- Russian Naval factions
+- Russian Naval factions such as Spetznaz.
+- Taliban Insurgents
 
 ### INDFOR
 -
 
 ### BLUFOR
+- British Army factions specifically for Arid/Desert, Woodland/Jungle and including special forces (SAS, SBS, SRR)
+- Bundeswehr Army for each theater, specifically KSK special forces.
 - US Army factions specifically for Arid/Desert, Woodland/Jungle and including special forces (Delta, Green Beret, SOAR)
 - US Marine Corps factions specifically for Arid/Desert, Woodland/Jungle and including special forces (MARSOC)
-- British Army factions specifically for Arid/Desert, Woodland/Jungle and including special forces (SAS, SBS, SRR)
 
 ## CFP Ultimate Factions (in addition to CFP factions)
 
