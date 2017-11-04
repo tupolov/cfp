@@ -34,8 +34,17 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = 1.62;
         requiredAddons[] = {
+            "CUP_Creatures_Military_TakiInsurgents",
+            "CUP_WheeledVehicles_Datsun",
+            "CUP_WheeledVehicles_V3S",
+            "A3_Soft_F_Offroad_01",
+            "A3_Soft_F_Gamma_Van_01",
+            "A3_Soft_F_Bootcamp_Van_01",
+            "CUP_WheeledVehicles_Ural"
         };
         author = "Drew";
         authors[] = { "Drew" };
     };
 };
+
+
