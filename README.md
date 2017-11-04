@@ -27,7 +27,7 @@ CFP offers not only enhanced vanilla CUP factions but also a huge number of new 
 
 CFP Ultimate enhances base CFP factions and introduces new factions using the most efficient combination of community gear, weapon and vehicle addons. CPF Ultimate requires VSM, SMA, NIArms, VME PLA and xxx. 
 
-Factions are delivered in a modular way, enabling groups can maintain their own tailored version of CFP by simply excluding any components they don't need, or those possibly in conflict with other mods. 
+Factions are delivered in a modular way, enabling groups to maintain their own tailored version of CFP by simply excluding any components they don't need, or those possibly in conflict with other mods. 
 
 ## Features
 - 78 new factions!
@@ -45,8 +45,8 @@ Factions are delivered in a modular way, enabling groups can maintain their own 
 ## CFP Factions
 
 ### OPFOR
-- Russian Army factions specifically for Arid/Desert, Woodland/Jungle etc
-- Russian Airborne factions specifically for Arid/Desert, Woodland/Jungle etc
+- Russian Army factions specifically for Arid/Desert, Woodland/Jungle
+- Russian Airborne factions specifically for Arid/Desert, Woodland/Jungle
 - Russian Naval factions such as Spetznaz.
 - Taliban Insurgents
 
