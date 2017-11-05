@@ -5,7 +5,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 class CfgFactionClasses {
-    class cfp_o_tban {
+    class CFP_O_TBAN {
         displayName = "Taliban Insurgents";
         side = 0;
         flag = "CUP\BaseConfigs\CUP_BaseConfigs\Data\Flags\flag_tkm_co.paa";
