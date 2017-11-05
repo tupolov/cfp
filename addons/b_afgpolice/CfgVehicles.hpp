@@ -31,7 +31,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};[_this,'AFG_NationalPolice'] call BIS_fnc_setUnitInsignia;};_this setunitloadout [['CUP_arifle_AK74','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],[],[],['SP_0000_Standard_FieldUniform_BlueFrost',[['CUP_30Rnd_545x39_AK_M',3,30]]],['SP_Modular1_Black',[['CUP_30Rnd_545x39_AK_M',5,30]]],[],'SP_PatrolCap_BlueFrost','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then { _onSpawn = { private _unit = _this select 0; sleep 0.2; private _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _unit) >> 'backpack'); waituntil {sleep 0.2; backpack _unit == _backpack}; [_unit,'AFG_NationalPolice'] call BIS_fnc_setUnitInsignia; _unit setunitloadout [ ['CUP_arifle_AK74','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],[],[], ['SP_0000_Standard_FieldUniform_BlueFrost',[['CUP_30Rnd_545x39_AK_M',3,30]]], ['SP_Modular1_Black',[['CUP_30Rnd_545x39_AK_M',5,30]]],[], 'SP_PatrolCap_BlueFrost','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']]; reload _unit; };_this spawn _onSpawn; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -59,7 +59,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};[_this,'AFG_NationalPolice'] call BIS_fnc_setUnitInsignia;};_this setunitloadout [['CUP_arifle_AK74_GL','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],[],[],['SP_0000_Standard_FieldUniform_BlueFrost_SS',[['CUP_30Rnd_545x39_AK_M',3,30]]],['SP_Modular1_Black',[['CUP_1Rnd_HE_GP25_M',5,1],['CUP_1Rnd_SMOKE_GP25_M',3,1],['CUP_30Rnd_545x39_AK_M',5,30]]],[],'SP_PatrolCap_BlueFrost','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};[_this,'AFG_NationalPolice'] call BIS_fnc_setUnitInsignia;_this setunitloadout [['CUP_arifle_AK74_GL','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],[],[],['SP_0000_Standard_FieldUniform_BlueFrost_SS',[['CUP_30Rnd_545x39_AK_M',3,30]]],['SP_Modular1_Black',[['CUP_1Rnd_HE_GP25_M',5,1],['CUP_1Rnd_SMOKE_GP25_M',3,1],['CUP_30Rnd_545x39_AK_M',5,30]]],[],'SP_PatrolCap_BlueFrost','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -87,7 +87,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};[_this,'AFG_NationalPolice'] call BIS_fnc_setUnitInsignia;};_this setunitloadout [['CUP_arifle_AK74M','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],[],[],['SP_0000_Standard_FieldUniform_BlueFrost_SS',[['CUP_30Rnd_545x39_AK_M',3,30]]],['SP_Modular1_Black',[['CUP_30Rnd_545x39_AK_M',5,30]]],[],'SP_PatrolCap_BlueFrost','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};[_this,'AFG_NationalPolice'] call BIS_fnc_setUnitInsignia;_this setunitloadout [['CUP_arifle_AK74M','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],[],[],['SP_0000_Standard_FieldUniform_BlueFrost_SS',[['CUP_30Rnd_545x39_AK_M',3,30]]],['SP_Modular1_Black',[['CUP_30Rnd_545x39_AK_M',5,30]]],[],'SP_PatrolCap_BlueFrost','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -115,7 +115,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};[_this,'AFG_NationalPolice'] call BIS_fnc_setUnitInsignia;};_this setunitloadout [['CUP_arifle_AK74M','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],[],[],['SP_0000_Standard_FieldUniform_BlueFrost',[['CUP_30Rnd_545x39_AK_M',3,30]]],['SP_Modular1_Black',[['CUP_30Rnd_545x39_AK_M',5,30]]],[],'SP_PatrolCap_BlueFrost','',['Binocular','','','',[],[],''],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};[_this,'AFG_NationalPolice'] call BIS_fnc_setUnitInsignia; _this setunitloadout [['CUP_arifle_AK74M','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],[],[],['SP_0000_Standard_FieldUniform_BlueFrost',[['CUP_30Rnd_545x39_AK_M',3,30]]],['SP_Modular1_Black',[['CUP_30Rnd_545x39_AK_M',5,30]]],[],'SP_PatrolCap_BlueFrost','',['Binocular','','','',[],[],''],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -143,7 +143,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};[_this,'AFG_NationalPolice'] call BIS_fnc_setUnitInsignia;};_this setunitloadout [['CUP_arifle_AK74M_GL','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],[],[],['SP_0000_Standard_FieldUniform_BlueFrost',[['CUP_30Rnd_545x39_AK_M',3,30]]],['SP_Modular1_Black',[['CUP_1Rnd_HE_GP25_M',5,1],['CUP_1Rnd_SMOKE_GP25_M',3,1],['CUP_30Rnd_545x39_AK_M',5,30]]],[],'SP_PatrolCap_BlueFrost','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};[_this,'AFG_NationalPolice'] call BIS_fnc_setUnitInsignia; _this setunitloadout [['CUP_arifle_AK74M_GL','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],[],[],['SP_0000_Standard_FieldUniform_BlueFrost',[['CUP_30Rnd_545x39_AK_M',3,30]]],['SP_Modular1_Black',[['CUP_1Rnd_HE_GP25_M',5,1],['CUP_1Rnd_SMOKE_GP25_M',3,1],['CUP_30Rnd_545x39_AK_M',5,30]]],[],'SP_PatrolCap_BlueFrost','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -171,7 +171,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};[_this,'AFG_NationalPolice'] call BIS_fnc_setUnitInsignia;};_this setunitloadout [['CUP_lmg_PKM','','','',['CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M',100],[],''],[],[],['SP_0000_Standard_FieldUniform_BlueFrost',[]],['SP_Modular1_Black',[['CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M',1,100]]],['CUP_B_AssaultPack_Black',[['CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M',2,100]]],'SP_PatrolCap_BlueFrost','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};[_this,'AFG_NationalPolice'] call BIS_fnc_setUnitInsignia;_this setunitloadout [['CUP_lmg_PKM','','','',['CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M',100],[],''],[],[],['SP_0000_Standard_FieldUniform_BlueFrost',[]],['SP_Modular1_Black',[['CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M',1,100]]],['CUP_B_AssaultPack_Black',[['CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M',2,100]]],'SP_PatrolCap_BlueFrost','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -186,7 +186,7 @@ class CfgVehicles {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Rifleman AT [RPG]";
+        displayName = "Rifleman AT [RPG] TEST";
         side = 1;
         faction = "CFP_B_AFGPolice";
 
@@ -199,7 +199,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};[_this,'AFG_NationalPolice'] call BIS_fnc_setUnitInsignia;};_this setunitloadout [['CUP_arifle_AKM','','','',['CUP_30Rnd_762x39_AK47_M',30],[],''],['CUP_launch_RPG7V','','','',['CUP_PG7V_M',1],[],''],[],['SP_0000_Standard_FieldUniform_BlueFrost_SS',[['CUP_30Rnd_762x39_AK47_M',2,30]]],['SP_Modular1_Black',[['CUP_30Rnd_762x39_AK47_M',5,30]]],['CUP_B_RPGPack_Khaki',[['CUP_PG7V_M',3,1]]],'SP_PatrolCap_BlueFrost','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};[_this,'AFG_NationalPolice'] call BIS_fnc_setUnitInsignia;_this setunitloadout [['CUP_arifle_AKM','','','',['CUP_30Rnd_762x39_AK47_M',30],[],''],['CUP_launch_RPG7V','','','',['CUP_PG7V_M',1],[],''],[],['SP_0000_Standard_FieldUniform_BlueFrost_SS',[['CUP_30Rnd_762x39_AK47_M',2,30]]],['SP_Modular1_Black',[['CUP_30Rnd_762x39_AK47_M',5,30]]],['CUP_B_RPGPack_Khaki',[['CUP_PG7V_M',3,1]]],'SP_PatrolCap_BlueFrost','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
