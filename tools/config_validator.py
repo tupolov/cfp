@@ -40,7 +40,7 @@ def CheckPBO(p,useMakePbo,checkExternalFiles,errors):
                 "-@={}\\{}\\addons\\{}".format(MAINPREFIX,PREFIX.rstrip("_"),p),
                 p,
                 "{}_{}.pbo".format(PREFIX,p)
-            ], stdin=None, input=None, stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=True)
+            ], stdin=None, input=None, stdout=subprocess.PIPE, stderr=subprocess.PIPE, check=True, shell=True)
         else:              
             makePboArgs = "-LEP"
             if not checkExternalFiles:
