@@ -1,1 +1,23 @@
+
+
+# =========================
+# Project Files
+# =========================
+
+# Release
+release/*
+*.cache
+
+# Swap
+*.swp
+
+# Vim temporary file
+*.swo
+
+# Arma
 *.pbo
+texHeaders.bin
+*.biprivatekey
+
+# Tools temp
+tools/temp
