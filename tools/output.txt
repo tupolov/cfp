@@ -1,6 +1,0 @@
-
-  ####################
-  # CFP Config Check #
-  ####################
-
-Switching to dir: P:\X\CFP\addons
