@@ -23,113 +23,107 @@ class CfgVehicles
                 editorSubcategory = "CFP_EdSubcat_Personnel_Camo_MTP";
             };
 
-            class CUP_B_BAF_Soldier_04_DPM: CUP_Creatures_Military_BAF_Soldier_Base // Officer Uniform
+            class CUP_B_BAF_Soldier_01_DPM: CUP_Creatures_Military_BAF_Soldier_Base // Officer Uniform
             {
                 faction = "CFP_B_GBARMY_WDL";
                 editorSubcategory = "CFP_EdSubcat_Personnel_Camo_DPM";
             };
 
-            class CUP_B_BAF_Soldier_05_DPM: CUP_Creatures_Military_BAF_Soldier_Base // Officer Uniform
+            class CUP_B_BAF_Soldier_02_DPM: CUP_Creatures_Military_BAF_Soldier_Base // Officer Uniform
             {
                 faction = "CFP_B_GBARMY_WDL";
                 editorSubcategory = "CFP_EdSubcat_Personnel_Camo_DPM";
             };
 
-            class CUP_B_BAF_Soldier_06_DPM: CUP_Creatures_Military_BAF_Soldier_Base // Officer Uniform
+            class CUP_B_BAF_Soldier_03_DPM: CUP_Creatures_Military_BAF_Soldier_Base // Officer Uniform
             {
                 faction = "CFP_B_GBARMY_WDL";
                 editorSubcategory = "CFP_EdSubcat_Personnel_Camo_DPM";
             };
 
-            class CUP_B_BAF_Soldier_07_DPM : CUP_Creatures_Military_BAF_Soldier_Base
+            class CUP_B_BAF_Soldier_04_DPM : CUP_Creatures_Military_BAF_Soldier_Base
             {
                 faction = "CFP_B_GBARMY_WDL";
                 editorSubcategory = "CFP_EdSubcat_Personnel_Camo_DPM";
             };
 
-            class CUP_B_BAF_Soldier_08_DPM : CUP_Creatures_Military_BAF_Soldier_Base
-            {
-                faction = "CFP_B_GBARMY_WDL";
-                editorSubcategory = "CFP_EdSubcat_Personnel_Camo_DPM";
-            };
-
-            class CUP_B_BAF_Soldier_WDL : CUP_B_BAF_Soldier_06_DPM
+            class CUP_B_BAF_Soldier_WDL : CUP_B_BAF_Soldier_02_DPM
             {
                 editorSubcategory = "CFP_EdSubcat_Personnel_Camo_DPM";
             };
-            class CUP_B_BAF_Soldier_GL_WDL : CUP_B_BAF_Soldier_07_DPM
+            class CUP_B_BAF_Soldier_GL_WDL : CUP_B_BAF_Soldier_03_DPM
             {
                 editorSubcategory = "CFP_EdSubcat_Personnel_Camo_DPM";
             };
-            class CUP_B_BAF_Soldier_Night_WDL : CUP_B_BAF_Soldier_05_DPM
+            class CUP_B_BAF_Soldier_Night_WDL : CUP_B_BAF_Soldier_01_DPM
             {
                 editorSubcategory = "CFP_EdSubcat_Personnel_Camo_DPM";
             };
-            class CUP_B_BAF_Soldier_Light_WDL : CUP_B_BAF_Soldier_06_DPM
+            class CUP_B_BAF_Soldier_Light_WDL : CUP_B_BAF_Soldier_02_DPM
             {
                 editorSubcategory = "CFP_EdSubcat_Personnel_Camo_DPM";
             };
-            class CUP_B_BAF_Soldier_Backpack_WDL : CUP_B_BAF_Soldier_07_DPM
+            class CUP_B_BAF_Soldier_Backpack_WDL : CUP_B_BAF_Soldier_03_DPM
             {
                 editorSubcategory = "CFP_EdSubcat_Personnel_Camo_DPM";
             };
-            class CUP_B_BAF_Soldier_AAR_WDL : CUP_B_BAF_Soldier_06_DPM
+            class CUP_B_BAF_Soldier_AAR_WDL : CUP_B_BAF_Soldier_02_DPM
             {
                 editorSubcategory = "CFP_EdSubcat_Personnel_Camo_DPM";
             };
-            class CUP_B_BAF_Soldier_AMG_WDL : CUP_B_BAF_Soldier_06_DPM
+            class CUP_B_BAF_Soldier_AMG_WDL : CUP_B_BAF_Soldier_02_DPM
             {
                 editorSubcategory = "CFP_EdSubcat_Personnel_Camo_DPM";
             };
-            class CUP_B_BAF_Soldier_AAT_WDL : CUP_B_BAF_Soldier_06_DPM
+            class CUP_B_BAF_Soldier_AAT_WDL : CUP_B_BAF_Soldier_02_DPM
             {
                 editorSubcategory = "CFP_EdSubcat_Personnel_Camo_DPM";
             };
-            class CUP_B_BAF_Soldier_AHAT_WDL : CUP_B_BAF_Soldier_06_DPM
+            class CUP_B_BAF_Soldier_AHAT_WDL : CUP_B_BAF_Soldier_02_DPM
             {
                 editorSubcategory = "CFP_EdSubcat_Personnel_Camo_DPM";
             };
-            class CUP_B_BAF_Soldier_AAA_WDL : CUP_B_BAF_Soldier_06_DPM
+            class CUP_B_BAF_Soldier_AAA_WDL : CUP_B_BAF_Soldier_02_DPM
             {
                 editorSubcategory = "CFP_EdSubcat_Personnel_Camo_DPM";
             };
-            class CUP_B_BAF_Officer_WDL : CUP_B_BAF_Soldier_05_DPM
+            class CUP_B_BAF_Officer_WDL : CUP_B_BAF_Soldier_01_DPM
             {
                 editorSubcategory = "CFP_EdSubcat_Personnel_Camo_DPM";
             };
-            class CUP_B_BAF_Soldier_SL_WDL : CUP_B_BAF_Soldier_08_DPM
+            class CUP_B_BAF_Soldier_SL_WDL : CUP_B_BAF_Soldier_01_DPM
             {
                 editorSubcategory = "CFP_EdSubcat_Personnel_Camo_DPM";
             };
-            class CUP_B_BAF_Soldier_TL_WDL : CUP_B_BAF_Soldier_07_DPM
+            class CUP_B_BAF_Soldier_TL_WDL : CUP_B_BAF_Soldier_03_DPM
             {
                 editorSubcategory = "CFP_EdSubcat_Personnel_Camo_DPM";
             };
-            class CUP_B_BAF_Soldier_AR_WDL : CUP_B_BAF_Soldier_07_DPM
+            class CUP_B_BAF_Soldier_AR_WDL : CUP_B_BAF_Soldier_03_DPM
             {
                 editorSubcategory = "CFP_EdSubcat_Personnel_Camo_DPM";
             };
-            class CUP_B_BAF_Soldier_MG_WDL : CUP_B_BAF_Soldier_06_DPM
+            class CUP_B_BAF_Soldier_MG_WDL : CUP_B_BAF_Soldier_02_DPM
             {
                 editorSubcategory = "CFP_EdSubcat_Personnel_Camo_DPM";
             };
-            class CUP_B_BAF_Soldier_AT_WDL : CUP_B_BAF_Soldier_06_DPM
+            class CUP_B_BAF_Soldier_AT_WDL : CUP_B_BAF_Soldier_02_DPM
             {
                 editorSubcategory = "CFP_EdSubcat_Personnel_Camo_DPM";
             };
-            class CUP_B_BAF_Soldier_HAT_WDL : CUP_B_BAF_Soldier_06_DPM
+            class CUP_B_BAF_Soldier_HAT_WDL : CUP_B_BAF_Soldier_02_DPM
             {
                 editorSubcategory = "CFP_EdSubcat_Personnel_Camo_DPM";
             };
-            class CUP_B_BAF_Soldier_AA_WDL : CUP_B_BAF_Soldier_06_DPM
+            class CUP_B_BAF_Soldier_AA_WDL : CUP_B_BAF_Soldier_02_DPM
             {
                 editorSubcategory = "CFP_EdSubcat_Personnel_Camo_DPM";
             };
-            class CUP_B_BAF_Soldier_Marksman_WDL : CUP_B_BAF_Soldier_07_DPM
+            class CUP_B_BAF_Soldier_Marksman_WDL : CUP_B_BAF_Soldier_03_DPM
             {
                 editorSubcategory = "CFP_EdSubcat_Personnel_Camo_DPM";
             };
-            class CUP_B_BAF_Soldier_scout_WDL : CUP_B_BAF_Soldier_07_DPM
+            class CUP_B_BAF_Soldier_scout_WDL : CUP_B_BAF_Soldier_03_DPM
             {
                 editorSubcategory = "CFP_EdSubcat_Personnel_Camo_DPM";
             };
@@ -153,23 +147,23 @@ class CfgVehicles
             {
                 editorSubcategory = "CFP_EdSubcat_Personnel_Camo_DPM";
             };
-            class CUP_B_BAF_Pilot_WDL : CUP_B_BAF_Soldier_06_DPM
+            class CUP_B_BAF_Pilot_WDL : CUP_B_BAF_Soldier_02_DPM
             {
                 editorSubcategory = "CFP_EdSubcat_Personnel_Camo_DPM";
             };
-            class CUP_B_BAF_Crew_WDL : CUP_B_BAF_Soldier_06_DPM
+            class CUP_B_BAF_Crew_WDL : CUP_B_BAF_Soldier_02_DPM
             {
                 editorSubcategory = "CFP_EdSubcat_Personnel_Camo_DPM";
             };
-            class CUP_B_BAF_Medic_WDL : CUP_B_BAF_Soldier_07_DPM
+            class CUP_B_BAF_Medic_WDL : CUP_B_BAF_Soldier_03_DPM
             {
                 editorSubcategory = "CFP_EdSubcat_Personnel_Camo_DPM";
             };
-            class CUP_B_BAF_Soldier_JTAC_WDL : CUP_B_BAF_Soldier_07_DPM
+            class CUP_B_BAF_Soldier_JTAC_WDL : CUP_B_BAF_Soldier_03_DPM
             {
                 editorSubcategory = "CFP_EdSubcat_Personnel_Camo_DPM";
             };
-            class CUP_B_BAF_Engineer_WDL : CUP_B_BAF_Soldier_05_DPM
+            class CUP_B_BAF_Engineer_WDL : CUP_B_BAF_Soldier_01_DPM
             {
                 editorSubcategory = "CFP_EdSubcat_Personnel_Camo_DPM";
             };
