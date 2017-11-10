@@ -4,7 +4,6 @@ class CfgPatches {
 
         };
         weapons[] = {};
-        requiredVersion = 1.62;
         requiredAddons[] = {
             "CUP_AirVehicles_CH47",
             "CUP_Creatures_Military_USArmy",
@@ -20,9 +19,13 @@ class CfgPatches {
             "CUP_AirVehicles_AH6",
             "CUP_AirVehicles_UH60",
             "CUP_TrackedVehicles_M270",
-            "CUP_AirVehicles_AH64"
+            "CUP_AirVehicles_AH64",
+            "CFP_Main",
+            "CFP_Uniforms"
         };
-        author = "Tupolov";
-        authors[] = { "Tupolov" };
+      	author = MODULE_AUTHOR;
+      	authors[] = {"CUP", "Tupolov"};
+      	requiredVersion = REQUIRED_VERSION;
+      	VERSION_CONFIG;
     };
 };

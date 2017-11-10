@@ -23,7 +23,9 @@ class CfgPatches {
           "CUP_AirVehicles_CH47",
           "CUP_AirVehicles_HC3",
           "CUP_AirVehciles_SA330",
-          "CUP_TrackedVehicles_Bulldog"
+          "CUP_TrackedVehicles_Bulldog",
+          "CFP_Main",
+          "CFP_Uniforms"
       };
       author = MODULE_AUTHOR;
       authors[] = {"CUP", "Tupolov"};

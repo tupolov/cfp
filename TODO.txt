@@ -3,7 +3,7 @@ TO DO
 1. Investigate why base BIS A3 classes are displayed as CFP mod items
 2. Fix alpha in item preview images
 3. Update config layout to match best practice.
-6. Fix kneepads, gasmask p3d errors
+6. Fix kneepads, gasmask, coverall p3d errors
 7. Fix VR Entity errors - backpack?
 8. Check to see if we need OFP2 Man definitions (conflict with CUP)
 9. Add dependency on CUP
@@ -13,3 +13,6 @@ TO DO
 13. Test Make.py
 14. Add country insignias
 15. Redo Brit woodland vehicle inheritance
+16. Fix backpack Carryall that has overwritten texture
+17. Add randomisation functionality to ORBATRON
+18. 

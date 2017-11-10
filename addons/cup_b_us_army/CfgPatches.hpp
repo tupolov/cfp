@@ -18,7 +18,9 @@ class CfgPatches {
             "CUP_AirVehicles_UH60",
             "CUP_TrackedVehicles_M270",
             "CUP_AirVehicles_AH64",
-            "CUP_AirVehicles_CH47"
+            "CUP_AirVehicles_CH47",
+            "CFP_Main",
+            "CFP_Uniforms"
       };
       author = MODULE_AUTHOR;
       authors[] = {"CUP", "Tupolov"};
