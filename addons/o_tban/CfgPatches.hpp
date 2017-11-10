@@ -32,7 +32,6 @@ class CfgPatches {
             "CFP_o_tban_Sniper_2_01"
         };
         weapons[] = {};
-        requiredVersion = 1.62;
         requiredAddons[] = {
             "CUP_Creatures_Military_TakiInsurgents",
             "CUP_WheeledVehicles_Datsun",
@@ -40,10 +39,15 @@ class CfgPatches {
             "A3_Soft_F_Offroad_01",
             "A3_Soft_F_Gamma_Van_01",
             "A3_Soft_F_Bootcamp_Van_01",
-            "CUP_WheeledVehicles_Ural"
+            "CUP_WheeledVehicles_Ural",
+            "CFP_Main",
+            "CFP_Uniforms"
         };
-        author = "Drew";
+
         authors[] = { "Drew" };
+        author = MODULE_AUTHOR;
+      	requiredVersion = REQUIRED_VERSION;
+      	VERSION_CONFIG;
     };
 };
 

@@ -26,15 +26,18 @@ class CfgPatches {
             "CFP_B_DEArmy_Pilot_WDL_01"
         };
         weapons[] = {};
-        requiredVersion = 1.62;
         requiredAddons[] = {
             "CUP_AirVehicles_UH1H",
             "CUP_AirVehicles_CH53E",
             "CUP_Creatures_Military_Germany",
             "CUP_WheeledVehicles_Dingo",
-            "CUP_Weapons_StaticWeapons"
+            "CUP_Weapons_StaticWeapons",
+            "CFP_Main",
+            "CFP_Uniforms"
         };
-        author = "Tupolov";
-        authors[] = { "Tupolov" };
+      	author = MODULE_AUTHOR;
+      	authors[] = {"Tupolov"};
+      	requiredVersion = REQUIRED_VERSION;
+      	VERSION_CONFIG;
     };
 };

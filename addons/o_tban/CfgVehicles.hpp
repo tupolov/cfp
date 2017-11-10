@@ -120,7 +120,7 @@ class CfgVehicles {
         faction = "cfp_o_tban";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
-        uniformClass = "CUP_O_TKI_Khet_Partug_01";
+        uniformClass = "CUP_O_TKI_Khet_Partug_06";
 
 
 
@@ -128,7 +128,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_arifle_AK74_GL','','','',['CUP_30Rnd_545x39_AK_M',30],['CUP_1Rnd_HE_GP25_M',1],''],[],[],['CUP_O_TKI_Khet_Partug_01',[['FirstAidKit',1],['CUP_30Rnd_545x39_AK_M',2,30],['CUP_1Rnd_HE_GP25_M',1,1]]],['CUP_V_OI_TKI_Jacket1_03',[['CUP_30Rnd_545x39_AK_M',1,30],['SmokeShell',1,1],['SmokeShellBlue',1,1],['CUP_1Rnd_HE_GP25_M',2,1]]],[],'CUP_H_TKI_SkullCap_02','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_arifle_AK74_GL','','','',['CUP_30Rnd_545x39_AK_M',30],['CUP_1Rnd_HE_GP25_M',1],''],[],[],['CUP_O_TKI_Khet_Partug_06',[['FirstAidKit',1],['CUP_30Rnd_545x39_AK_M',1,30],['SmokeShell',1,1],['SmokeShellBlue',1,1],['CUP_1Rnd_HE_GP25_M',2,1]]],['CUP_V_OI_TKI_Jacket4_04',[['CUP_30Rnd_545x39_AK_M',2,30],['CUP_1Rnd_HE_GP25_M',1,1]]],[],'CUP_H_TKI_Pakol_2_03','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -147,7 +147,7 @@ class CfgVehicles {
         faction = "cfp_o_tban";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
-        uniformClass = "CUP_O_TKI_Khet_Partug_01";
+        uniformClass = "CUP_O_TKI_Khet_Partug_06";
 
 
 
@@ -155,7 +155,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_arifle_AK74','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],[],[],['CUP_O_TKI_Khet_Partug_01',[['FirstAidKit',1],['CUP_30Rnd_545x39_AK_M',2,30]]],['CUP_V_OI_TKI_Jacket2_03',[['CUP_30Rnd_545x39_AK_M',1,30]]],[],'CUP_H_TKI_Pakol_2_03','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_arifle_AK74','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],[],[],['CUP_O_TKI_Khet_Partug_06',[['FirstAidKit',1],['CUP_30Rnd_545x39_AK_M',1,30]]],['CUP_V_OI_TKI_Jacket2_03',[['CUP_30Rnd_545x39_AK_M',2,30]]],[],'CUP_H_TK_Lungee','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -174,7 +174,7 @@ class CfgVehicles {
         faction = "cfp_o_tban";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
-        uniformClass = "CUP_O_TKI_Khet_Partug_01";
+        uniformClass = "CUP_O_TKI_Khet_Partug_08";
 
 
 
@@ -182,7 +182,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_arifle_AK74','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],[],[],['CUP_O_TKI_Khet_Partug_01',[['FirstAidKit',1],['CUP_30Rnd_545x39_AK_M',2,30]]],['CUP_V_OI_TKI_Jacket2_03',[['CUP_30Rnd_545x39_AK_M',1,30]]],[],'CUP_H_TKI_Lungee_02','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_arifle_AK47','','','',['CUP_30Rnd_762x39_AK47_M',30],[],''],[],[],['CUP_O_TKI_Khet_Partug_08',[['FirstAidKit',1]]],['CUP_V_OI_TKI_Jacket2_05',[['CUP_30Rnd_762x39_AK47_M',3,30]]],[],'CUP_H_TKI_Lungee_06','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -201,7 +201,7 @@ class CfgVehicles {
         faction = "cfp_o_tban";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
-        uniformClass = "CUP_O_TKI_Khet_Partug_03";
+        uniformClass = "CUP_O_TKI_Khet_Partug_04";
 
 
 
@@ -209,7 +209,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_arifle_AK74_GL','','','',['CUP_30Rnd_545x39_AK_M',30],['CUP_1Rnd_HE_GP25_M',1],''],[],[],['CUP_O_TKI_Khet_Partug_03',[['FirstAidKit',1],['CUP_30Rnd_545x39_AK_M',2,30]]],['CUP_V_OI_TKI_Jacket2_02',[['CUP_30Rnd_545x39_AK_M',1,30],['CUP_1Rnd_HE_GP25_M',3,1]]],['CUP_B_TKI_AlicePack_Khaki_AmmoAK74',[['CUP_30Rnd_545x39_AK_M',6,30],['CUP_1Rnd_HE_GP25_M',2,1],['CUP_HandGrenade_RGD5',2,1],['SmokeShell',1,1],['SmokeShellRed',1,1]]],'CUP_H_TKI_Lungee_02','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_arifle_AK74_GL','','','',['CUP_30Rnd_545x39_AK_M',30],['CUP_1Rnd_HE_GP25_M',1],''],[],[],['CUP_O_TKI_Khet_Partug_04',[['FirstAidKit',1],['CUP_30Rnd_545x39_AK_M',1,30]]],['CUP_V_OI_TKI_Jacket2_04',[['CUP_30Rnd_545x39_AK_M',2,30],['CUP_1Rnd_HE_GP25_M',3,1]]],['CUP_B_TKI_AlicePack_Khaki_AmmoAK74',[['CUP_30Rnd_545x39_AK_M',6,30],['CUP_1Rnd_HE_GP25_M',2,1],['CUP_HandGrenade_RGD5',2,1],['SmokeShell',1,1],['SmokeShellRed',1,1]]],'CUP_H_TKI_Lungee_Open_02','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -236,7 +236,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_srifle_LeeEnfield','','','',['CUP_10x_303_M',10],[],''],[],[],['CUP_O_TKI_Khet_Partug_06',[['FirstAidKit',1],['ACE_EarPlugs',1],['CUP_10x_303_M',4,10]]],['CUP_V_OI_TKI_Jacket4_01',[]],[],'CUP_H_TKI_Lungee_01','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_srifle_LeeEnfield','','','',['CUP_10x_303_M',10],[],''],[],[],['CUP_O_TKI_Khet_Partug_06',[['FirstAidKit',1],['CUP_10x_303_M',3,10]]],['CUP_V_OI_TKI_Jacket4_01',[['CUP_10x_303_M',5,10]]],[],'CUP_H_TKI_Lungee_Open_06','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -263,7 +263,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_arifle_AKS74_pso','','','CUP_optic_PSO_1',['CUP_30Rnd_545x39_AK_M',30],[],''],[],[],['CUP_O_TKI_Khet_Partug_04',[['FirstAidKit',1],['CUP_30Rnd_545x39_AK_M',2,30]]],['CUP_V_OI_TKI_Jacket2_02',[['CUP_30Rnd_545x39_AK_M',1,30],['SmokeShell',1,1],['SmokeShellBlue',1,1]]],[],'CUP_H_TKI_SkullCap_03','',['Binocular','','','',[],[],''],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_srifle_LeeEnfield_rail','','','CUP_optic_LeupoldM3LR',['CUP_10x_303_M',10],[],''],[],[],['CUP_O_TKI_Khet_Partug_04',[['FirstAidKit',1],['SmokeShell',1,1],['SmokeShellBlue',1,1],['CUP_10x_303_M',2,10]]],['CUP_V_OI_TKI_Jacket2_02',[['CUP_10x_303_M',5,10]]],[],'CUP_H_TKI_Lungee_03','',['Binocular','','','',[],[],''],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -282,7 +282,7 @@ class CfgVehicles {
         faction = "cfp_o_tban";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
-        uniformClass = "CUP_O_TKI_Khet_Partug_05";
+        uniformClass = "CUP_O_TKI_Khet_Partug_04";
 
 
 
@@ -290,7 +290,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_lmg_PKM','','','',['CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M',100],[],''],[],[],['CUP_O_TKI_Khet_Partug_05',[['FirstAidKit',1],['ACE_EarPlugs',1]]],['CUP_V_OI_TKI_Jacket3_01',[['CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M',1,100]]],['CUP_B_TKI_AlicePack_MG',[['CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M',2,100]]],'CUP_H_TKI_SkullCap_02','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_lmg_PKM','','','',['CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M',100],[],''],[],[],['CUP_O_TKI_Khet_Partug_04',[['FirstAidKit',1]]],['CUP_V_OI_TKI_Jacket2_04',[['CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M',1,100]]],['CUP_B_TKI_AlicePack_MG',[['CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M',2,100]]],'CUP_H_TKI_SkullCap_02','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -309,7 +309,7 @@ class CfgVehicles {
         faction = "cfp_o_tban";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
-        uniformClass = "CUP_O_TKI_Khet_Partug_04";
+        uniformClass = "CUP_O_TKI_Khet_Partug_02";
 
 
 
@@ -317,7 +317,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_arifle_FNFAL','','','',['CUP_20Rnd_762x51_FNFAL_M',20],[],''],[],[],['CUP_O_TKI_Khet_Partug_04',[['FirstAidKit',1],['ACE_EarPlugs',1],['CUP_20Rnd_762x51_FNFAL_M',1,20]]],['CUP_V_OI_TKI_Jacket3_01',[['CUP_20Rnd_762x51_FNFAL_M',2,20]]],['CUP_B_TIK_CivPack_WDL_Ammo',[['CUP_20Rnd_762x51_FNFAL_M',2,20],['CUP_10Rnd_762x54_SVD_M',2,10],['CUP_1Rnd_HEDP_M203',2,1],['CUP_HandGrenade_RGD5',2,1]]],'CUP_H_TKI_Lungee_Open_01','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_arifle_AK47','','','',['CUP_30Rnd_762x39_AK47_M',30],[],''],[],[],['CUP_O_TKI_Khet_Partug_02',[['FirstAidKit',1]]],['CUP_V_OI_TKI_Jacket3_06',[['CUP_30Rnd_762x39_AK47_M',3,30]]],['CUP_B_TIK_CivPack_WDL_Ammo',[['CUP_10Rnd_762x54_SVD_M',2,10],['CUP_1Rnd_HEDP_M203',2,1],['CUP_HandGrenade_RGD5',2,1]]],'CUP_H_TKI_Pakol_2_06','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -336,7 +336,7 @@ class CfgVehicles {
         faction = "cfp_o_tban";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
-        uniformClass = "CUP_O_TKI_Khet_Partug_01";
+        uniformClass = "CUP_O_TKI_Khet_Partug_06";
 
 
 
@@ -344,7 +344,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_arifle_AK74','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],[],[],['CUP_O_TKI_Khet_Partug_01',[['FirstAidKit',1],['CUP_30Rnd_545x39_AK_M',2,30]]],['CUP_V_OI_TKI_Jacket2_03',[['CUP_30Rnd_545x39_AK_M',1,30]]],[],'CUP_H_TKI_Lungee_Open_02','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_arifle_AK47','','','',['CUP_30Rnd_762x39_AK47_M',30],[],''],[],[],['CUP_O_TKI_Khet_Partug_06',[['FirstAidKit',1]]],['CUP_V_OI_TKI_Jacket3_05',[['CUP_30Rnd_762x39_AK47_M',3,30]]],[],'CUP_H_TKI_Lungee_04','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -363,7 +363,7 @@ class CfgVehicles {
         faction = "cfp_o_tban";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
-        uniformClass = "CUP_O_TKI_Khet_Partug_06";
+        uniformClass = "CUP_O_TKI_Khet_Partug_04";
 
 
 
@@ -371,7 +371,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_srifle_LeeEnfield','','','',['CUP_10x_303_M',10],[],''],[],[],['CUP_O_TKI_Khet_Partug_06',[['FirstAidKit',1],['ACE_EarPlugs',1],['CUP_10x_303_M',4,10]]],['CUP_V_OI_TKI_Jacket4_01',[]],[],'CUP_H_TKI_Pakol_2_02','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_srifle_LeeEnfield','','','',['CUP_10x_303_M',10],[],''],[],[],['CUP_O_TKI_Khet_Partug_04',[['FirstAidKit',1],['CUP_10x_303_M',3,10]]],['CUP_V_OI_TKI_Jacket1_05',[['CUP_10x_303_M',4,10]]],[],'CUP_H_TKI_Lungee_05','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -390,7 +390,7 @@ class CfgVehicles {
         faction = "cfp_o_tban";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
-        uniformClass = "CUP_O_TKI_Khet_Partug_05";
+        uniformClass = "CUP_O_TKI_Khet_Partug_02";
 
 
 
@@ -398,7 +398,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_lmg_PKM','','','',['CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M',100],[],''],[],[],['CUP_O_TKI_Khet_Partug_05',[['FirstAidKit',1],['ACE_EarPlugs',1]]],['CUP_V_OI_TKI_Jacket3_01',[['CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M',1,100]]],['CUP_B_TKI_AlicePack_MG',[['CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M',2,100]]],'CUP_H_TKI_Pakol_2_01','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_lmg_PKM','','','',['CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M',100],[],''],[],[],['CUP_O_TKI_Khet_Partug_02',[['FirstAidKit',1]]],['CUP_V_OI_TKI_Jacket3_04',[['CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M',1,100]]],['CUP_B_TKI_AlicePack_MG',[['CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M',2,100]]],'CUP_H_TKI_Lungee_06','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -425,7 +425,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_arifle_AK74','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],['CUP_launch_RPG7V','','','',['CUP_PG7VL_M',1],[],''],[],['CUP_O_TKI_Khet_Partug_02',[['FirstAidKit',1],['ACE_EarPlugs',1],['CUP_30Rnd_545x39_AK_M',2,30]]],['CUP_V_OI_TKI_Jacket4_03',[['CUP_30Rnd_545x39_AK_M',1,30]]],['CUP_B_TKI_Backpack_Gunner_RPG',[['CUP_PG7VL_M',1,1]]],'H_Shemag_olive','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_arifle_AK74','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],['CUP_launch_RPG7V','','','',['CUP_PG7VL_M',1],[],''],[],['CUP_O_TKI_Khet_Partug_02',[['FirstAidKit',1],['CUP_30Rnd_545x39_AK_M',1,30]]],['CUP_V_OI_TKI_Jacket4_05',[['CUP_30Rnd_545x39_AK_M',2,30]]],['CUP_B_TKI_Backpack_Gunner_RPG',[['CUP_PG7VL_M',1,1]]],'CUP_H_TKI_Pakol_2_02','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -444,7 +444,7 @@ class CfgVehicles {
         faction = "cfp_o_tban";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
-        uniformClass = "CUP_O_TKI_Khet_Partug_02";
+        uniformClass = "CUP_O_TKI_Khet_Partug_04";
 
 
 
@@ -452,7 +452,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_arifle_AK74','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],['CUP_launch_RPG7V','','','',['CUP_PG7VL_M',1],[],''],[],['CUP_O_TKI_Khet_Partug_02',[['FirstAidKit',1],['ACE_EarPlugs',1],['CUP_30Rnd_545x39_AK_M',2,30]]],['CUP_V_OI_TKI_Jacket4_03',[['CUP_30Rnd_545x39_AK_M',1,30]]],['CUP_B_TKI_Backpack_Gunner_RPG',[['CUP_PG7VL_M',1,1]]],'CUP_H_TKI_SkullCap_03','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_arifle_AK74','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],['CUP_launch_RPG7V','','','',['CUP_PG7VL_M',1],[],''],[],['CUP_O_TKI_Khet_Partug_04',[['FirstAidKit',1],['CUP_30Rnd_545x39_AK_M',1,30]]],['CUP_V_OI_TKI_Jacket4_01',[['CUP_30Rnd_545x39_AK_M',2,30]]],['CUP_B_TKI_Backpack_Gunner_RPG',[['CUP_PG7VL_M',1,1]]],'CUP_H_TKI_Lungee_02','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -471,7 +471,7 @@ class CfgVehicles {
         faction = "cfp_o_tban";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
-        uniformClass = "CUP_O_TKI_Khet_Partug_03";
+        uniformClass = "CUP_O_TKI_Khet_Partug_06";
 
 
 
@@ -479,7 +479,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_arifle_AK74_GL','','','',['CUP_30Rnd_545x39_AK_M',30],['CUP_1Rnd_HE_GP25_M',1],''],[],[],['CUP_O_TKI_Khet_Partug_03',[['FirstAidKit',1],['CUP_30Rnd_545x39_AK_M',2,30]]],['CUP_V_OI_TKI_Jacket2_02',[['CUP_30Rnd_545x39_AK_M',1,30],['CUP_1Rnd_HE_GP25_M',3,1]]],['CUP_B_TKI_AlicePack_Khaki_AmmoAK74',[['CUP_30Rnd_545x39_AK_M',6,30],['CUP_1Rnd_HE_GP25_M',2,1],['CUP_HandGrenade_RGD5',2,1],['SmokeShell',1,1],['SmokeShellRed',1,1]]],'H_ShemagOpen_khk','G_Shades_Green',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_arifle_AK74_GL','','','',['CUP_30Rnd_545x39_AK_M',30],['CUP_1Rnd_HE_GP25_M',1],''],[],[],['CUP_O_TKI_Khet_Partug_06',[['FirstAidKit',1],['CUP_30Rnd_545x39_AK_M',1,30]]],['CUP_V_OI_TKI_Jacket2_05',[['CUP_30Rnd_545x39_AK_M',2,30],['CUP_1Rnd_HE_GP25_M',3,1]]],['CUP_B_TKI_AlicePack_Khaki_AmmoAK74',[['CUP_30Rnd_545x39_AK_M',6,30],['CUP_1Rnd_HE_GP25_M',2,1],['CUP_HandGrenade_RGD5',2,1],['SmokeShell',1,1],['SmokeShellRed',1,1]]],'CUP_H_TKI_Pakol_2_04','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -506,7 +506,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_srifle_LeeEnfield','','','',['CUP_10x_303_M',10],[],''],[],[],['CUP_O_TKI_Khet_Partug_02',[['FirstAidKit',1],['ACE_EarPlugs',1],['CUP_10x_303_M',4,10]]],['CUP_V_OI_TKI_Jacket4_02',[]],['CUP_B_TK_AssaultPack_Medic',[['Medikit',1],['FirstAidKit',10]]],'CUP_H_TKI_Lungee_Open_03','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_srifle_LeeEnfield','','','',['CUP_10x_303_M',10],[],''],[],[],['CUP_O_TKI_Khet_Partug_02',[['FirstAidKit',1],['CUP_10x_303_M',3,10]]],['CUP_V_OI_TKI_Jacket4_02',[['CUP_10x_303_M',1,10]]],['CUP_B_TK_AssaultPack_Medic',[['Medikit',1],['FirstAidKit',10]]],'CUP_H_TKI_Lungee_05','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -525,7 +525,7 @@ class CfgVehicles {
         faction = "cfp_o_tban";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
-        uniformClass = "CUP_O_TKI_Khet_Partug_02";
+        uniformClass = "CUP_O_TKI_Khet_Partug_04";
 
 
 
@@ -533,7 +533,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_srifle_LeeEnfield','','','',['CUP_10x_303_M',10],[],''],[],[],['CUP_O_TKI_Khet_Partug_02',[['FirstAidKit',1],['ACE_EarPlugs',1],['CUP_10x_303_M',4,10]]],['CUP_V_OI_TKI_Jacket4_02',[]],['CUP_B_TK_AssaultPack_Medic',[['Medikit',1],['FirstAidKit',10]]],'CUP_H_TKI_Pakol_2_02','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_arifle_AK47','','','',['CUP_30Rnd_762x39_AK47_M',30],[],''],[],[],['CUP_O_TKI_Khet_Partug_04',[['FirstAidKit',1],['CUP_30Rnd_762x39_AK47_M',1,30]]],['CUP_V_OI_TKI_Jacket4_05',[['CUP_30Rnd_762x39_AK47_M',3,30]]],['CUP_B_TK_AssaultPack_Medic',[['Medikit',1],['FirstAidKit',10]]],'CUP_H_TKI_SkullCap_03','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -552,7 +552,7 @@ class CfgVehicles {
         faction = "cfp_o_tban";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
-        uniformClass = "CUP_O_TKI_Khet_Partug_05";
+        uniformClass = "CUP_O_TKI_Khet_Partug_08";
 
 
 
@@ -560,7 +560,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_arifle_AK74','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],[],[],['CUP_O_TKI_Khet_Partug_05',[['FirstAidKit',1],['CUP_30Rnd_545x39_AK_M',2,30]]],['CUP_V_OI_TKI_Jacket3_03',[['CUP_30Rnd_545x39_AK_M',1,30]]],['CUP_B_TKI_AlicePack_Exp',[['ToolKit',1],['MineDetector',1],['CUP_PipeBomb_M',2,1]]],'CUP_H_TKI_Lungee_Open_03','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_arifle_AK74','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],[],[],['CUP_O_TKI_Khet_Partug_08',[['FirstAidKit',1],['CUP_30Rnd_545x39_AK_M',1,30]]],['CUP_V_OI_TKI_Jacket3_03',[['CUP_30Rnd_545x39_AK_M',2,30]]],['CUP_B_TKI_AlicePack_Exp',[['ToolKit',1],['MineDetector',1],['CUP_PipeBomb_M',2,1]]],'CUP_H_TKI_Lungee_Open_05','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -579,7 +579,7 @@ class CfgVehicles {
         faction = "cfp_o_tban";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
-        uniformClass = "CUP_O_TKI_Khet_Partug_05";
+        uniformClass = "CUP_O_TKI_Khet_Partug_06";
 
 
 
@@ -587,7 +587,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_arifle_AK74','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],[],[],['CUP_O_TKI_Khet_Partug_05',[['FirstAidKit',1],['CUP_30Rnd_545x39_AK_M',2,30]]],['CUP_V_OI_TKI_Jacket3_03',[['CUP_30Rnd_545x39_AK_M',1,30]]],['CUP_B_TKI_AlicePack_Exp',[['ToolKit',1],['MineDetector',1],['CUP_PipeBomb_M',2,1]]],'CUP_H_TKI_Pakol_2_01','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_srifle_LeeEnfield','','','',['CUP_10x_303_M',10],[],''],[],[],['CUP_O_TKI_Khet_Partug_06',[['FirstAidKit',1],['CUP_10x_303_M',3,10]]],['CUP_V_OI_TKI_Jacket3_05',[['CUP_10x_303_M',4,10]]],['CUP_B_TKI_AlicePack_Exp',[['ToolKit',1],['MineDetector',1],['CUP_PipeBomb_M',2,1]]],'CUP_H_TKI_SkullCap_05','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -606,7 +606,7 @@ class CfgVehicles {
         faction = "cfp_o_tban";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
-        uniformClass = "CUP_O_TKI_Khet_Partug_01";
+        uniformClass = "CUP_O_TKI_Khet_Partug_04";
 
 
 
@@ -614,7 +614,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_arifle_AK74','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],[],[],['CUP_O_TKI_Khet_Partug_01',[['FirstAidKit',1],['CUP_30Rnd_545x39_AK_M',2,30]]],['CUP_V_OI_TKI_Jacket2_03',[['CUP_30Rnd_545x39_AK_M',1,30]]],[],'H_ShemagOpen_khk','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_arifle_AK74','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],[],[],['CUP_O_TKI_Khet_Partug_04',[['FirstAidKit',1],['CUP_30Rnd_545x39_AK_M',1,30]]],['CUP_V_OI_TKI_Jacket2_04',[['CUP_30Rnd_545x39_AK_M',2,30]]],['CUP_B_DShkM_TripodHigh_Bag',[]],'CUP_H_TKI_Lungee_03','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -633,7 +633,7 @@ class CfgVehicles {
         faction = "cfp_o_tban";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
-        uniformClass = "CUP_O_TKI_Khet_Partug_01";
+        uniformClass = "CUP_O_TKI_Khet_Partug_02";
 
 
 
@@ -641,7 +641,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_arifle_AK74','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],[],[],['CUP_O_TKI_Khet_Partug_01',[['FirstAidKit',1],['CUP_30Rnd_545x39_AK_M',2,30]]],['CUP_V_OI_TKI_Jacket2_03',[['CUP_30Rnd_545x39_AK_M',1,30]]],[],'CUP_H_TKI_Pakol_2_02','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_arifle_AK74','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],[],[],['CUP_O_TKI_Khet_Partug_02',[['FirstAidKit',1],['CUP_30Rnd_545x39_AK_M',1,30]]],['CUP_V_OI_TKI_Jacket2_03',[['CUP_30Rnd_545x39_AK_M',2,30]]],['CUP_B_DShkM_TripodLow_Bag',[]],'CUP_H_TKI_Pakol_1_05','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -660,7 +660,7 @@ class CfgVehicles {
         faction = "cfp_o_tban";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
-        uniformClass = "CUP_O_TKI_Khet_Partug_01";
+        uniformClass = "CUP_O_TKI_Khet_Partug_02";
 
 
 
@@ -668,7 +668,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_arifle_AK74','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],[],[],['CUP_O_TKI_Khet_Partug_01',[['FirstAidKit',1],['CUP_30Rnd_545x39_AK_M',2,30]]],['CUP_V_OI_TKI_Jacket2_03',[['CUP_30Rnd_545x39_AK_M',1,30]]],[],'CUP_H_TKI_Pakol_2_03','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_arifle_AK74','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],[],[],['CUP_O_TKI_Khet_Partug_02',[['FirstAidKit',1],['CUP_30Rnd_545x39_AK_M',1,30]]],['CUP_V_OI_TKI_Jacket3_04',[['CUP_30Rnd_545x39_AK_M',2,30]]],['CUP_B_Podnos_Bipod_Bag',[]],'CUP_H_TKI_Pakol_2_01','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -687,7 +687,7 @@ class CfgVehicles {
         faction = "cfp_o_tban";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
-        uniformClass = "CUP_O_TKI_Khet_Partug_01";
+        uniformClass = "CUP_O_TKI_Khet_Partug_06";
 
 
 
@@ -695,7 +695,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_arifle_AK74','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],[],[],['CUP_O_TKI_Khet_Partug_01',[['FirstAidKit',1],['CUP_30Rnd_545x39_AK_M',2,30]]],['CUP_V_OI_TKI_Jacket2_03',[['CUP_30Rnd_545x39_AK_M',1,30]]],[],'CUP_H_TKI_SkullCap_01','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_arifle_AK74','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],[],[],['CUP_O_TKI_Khet_Partug_06',[['FirstAidKit',1],['CUP_30Rnd_545x39_AK_M',1,30]]],['CUP_V_OI_TKI_Jacket4_01',[['CUP_30Rnd_545x39_AK_M',2,30]]],['CUP_B_SPG9_Tripod_Bag',[]],'CUP_H_TKI_Lungee_05','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -895,7 +895,7 @@ class CfgVehicles {
         faction = "cfp_o_tban";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
-        uniformClass = "CUP_O_TKI_Khet_Partug_04";
+        uniformClass = "CUP_O_TKI_Khet_Partug_08";
 
 
 
@@ -903,7 +903,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_arifle_AKS74_pso','','','CUP_optic_PSO_1',['CUP_30Rnd_545x39_AK_M',30],[],''],[],[],['CUP_O_TKI_Khet_Partug_04',[['FirstAidKit',1],['CUP_30Rnd_545x39_AK_M',2,30]]],['CUP_V_OI_TKI_Jacket2_02',[['CUP_30Rnd_545x39_AK_M',1,30],['SmokeShell',1,1],['SmokeShellBlue',1,1]]],[],'CUP_H_TKI_Lungee_03','',['Binocular','','','',[],[],''],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_srifle_LeeEnfield_rail','','','CUP_optic_LeupoldMk4',['CUP_10x_303_M',10],[],''],[],[],['CUP_O_TKI_Khet_Partug_08',[['FirstAidKit',1],['SmokeShell',1,1],['SmokeShellBlue',1,1],['CUP_10x_303_M',2,10]]],['CUP_V_OI_TKI_Jacket2_05',[['CUP_10x_303_M',5,10]]],[],'CUP_H_TKI_Lungee_Open_06','',['Binocular','','','',[],[],''],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
