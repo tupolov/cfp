@@ -176,198 +176,202 @@ class CfgVehicles
             class CUP_B_L111A1_BAF_WDL : CUP_L111A1_base
             {
                 faction = "CFP_B_GBARMY_WDL";
-                crew = "CFP_B_GBArmy_Rifleman_WDL_01";
-                typicalCargo[] = {"CFP_B_GBArmy_Rifleman_WDL_01"};
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
             };
             class CUP_B_L111A1_MiniTripod_BAF_WDL : CUP_L111A1_MiniTripod_base
             {
                 faction = "CFP_B_GBARMY_WDL";
-                crew = "CFP_B_GBArmy_Rifleman_WDL_01";
-                typicalCargo[] = {"CFP_B_GBArmy_Rifleman_WDL_01"};
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
             };
             class CUP_B_L16A2_BAF_WDL : CUP_L16A2_base
             {
                 faction = "CFP_B_GBARMY_WDL";
-                crew = "CFP_B_GBArmy_Rifleman_WDL_01";
-                typicalCargo[] = {"CFP_B_GBArmy_Rifleman_WDL_01"};
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
             };
 
             class CUP_LR_Transport_Base;
             class CUP_B_LR_Transport_GB_W: CUP_LR_Transport_Base
             {
                 faction = "CFP_B_GBARMY_WDL";
-                crew = "CFP_B_GBArmy_Rifleman_WDL_01";
-                typicalCargo[] = {"CFP_B_GBArmy_Rifleman_WDL_01"};
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
             };
             class CUP_LR_MG_Base;
             class CUP_B_LR_MG_GB_W: CUP_LR_MG_Base
             {
                 faction = "CFP_B_GBARMY_WDL";
-                crew = "CFP_B_GBArmy_Rifleman_WDL_01";
-                typicalCargo[] = {"CFP_B_GBArmy_Rifleman_WDL_01"};
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
             };
             class CUP_LR_Ambulance_Base;
             class CUP_B_LR_Ambulance_GB_W: CUP_LR_Ambulance_Base
             {
                 faction = "CFP_B_GBARMY_WDL";
-                crew = "CFP_B_GBArmy_Rifleman_WDL_01";
-                typicalCargo[] = {"CFP_B_GBArmy_Rifleman_WDL_01"};
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
             };
             class CUP_LR_Special_Base;
             class CUP_B_LR_Special_M2_GB_W: CUP_LR_Special_Base
             {
                 faction = "CFP_B_GBARMY_WDL";
-                crew = "CFP_B_GBArmy_Rifleman_WDL_01";
-                typicalCargo[] = {"CFP_B_GBArmy_Rifleman_WDL_01"};
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
             };
             class CUP_B_LR_Special_GMG_GB_W: CUP_B_LR_Special_M2_GB_W
             {
                 faction = "CFP_B_GBARMY_WDL";
-                crew = "CFP_B_GBArmy_Rifleman_WDL_01";
-                typicalCargo[] = {"CFP_B_GBArmy_Rifleman_WDL_01"};
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
             };
 
             class CUP_B_BAF_Coyote_GMG_D;
             class CUP_B_BAF_Coyote_GMG_W : CUP_B_BAF_Coyote_GMG_D
             {
                 faction = "CFP_B_GBARMY_WDL";
-                crew = "CFP_B_GBArmy_Rifleman_WDL_01";
-                typicalCargo[]={"CFP_B_GBArmy_Rifleman_WDL_01","CFP_B_GBArmy_Rifleman_WDL_01"};
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[]={"CFP_B_GBARMY_Rifleman_WDL_01","CFP_B_GBARMY_Rifleman_WDL_01"};
             };
 
             class CUP_B_BAF_Coyote_L2A1_D;
             class CUP_B_BAF_Coyote_L2A1_W : CUP_B_BAF_Coyote_L2A1_D
             {
                 faction = "CFP_B_GBARMY_WDL";
-                crew = "CFP_B_GBArmy_Rifleman_WDL_01";
-                typicalCargo[]={"CFP_B_GBArmy_Rifleman_WDL_01","CFP_B_GBArmy_Rifleman_WDL_01"};
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[]={"CFP_B_GBARMY_Rifleman_WDL_01","CFP_B_GBARMY_Rifleman_WDL_01"};
             };
 
             class CUP_BAF_Jackal2_GMG_W;
             class CUP_B_Jackal2_GMG_GB_W: CUP_BAF_Jackal2_GMG_W
             {
                 faction = "CFP_B_GBARMY_WDL";
-                crew = "CFP_B_GBArmy_Rifleman_WDL_01";
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
             };
             class CUP_BAF_Jackal2_L2A1_W;
             class CUP_B_Jackal2_L2A1_GB_W: CUP_BAF_Jackal2_L2A1_W
             {
                 faction = "CFP_B_GBARMY_WDL";
-                crew = "CFP_B_GBArmy_Rifleman_WDL_01";
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
             };
 
             class CUP_Mastiff_Base;
             class CUP_B_Mastiff_HMG_GB_W: CUP_Mastiff_Base
             {
                 faction = "CFP_B_GBARMY_WDL";
-                crew = "CFP_B_GBArmy_Rifleman_WDL_01";
-                typicalCargo[] = {"CFP_B_GBArmy_Rifleman_WDL_01"};
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
             };
 
             class CUP_B_Mastiff_GMG_GB_W: CUP_Mastiff_Base
             {
                 faction = "CFP_B_GBARMY_WDL";
-                crew = "CFP_B_GBArmy_Rifleman_WDL_01";
-                typicalCargo[] = {"CFP_B_GBArmy_Rifleman_WDL_01"};
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
             };
             class CUP_B_Mastiff_LMG_GB_W: CUP_Mastiff_Base
             {
                 faction = "CFP_B_GBARMY_WDL";
-                crew = "CFP_B_GBArmy_Rifleman_WDL_01";
-                typicalCargo[] = {"CFP_B_GBArmy_Rifleman_WDL_01"};
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
             };
 
             class CUP_Ridgback_Base;
             class CUP_B_Ridgback_HMG_GB_W: CUP_Ridgback_Base
             {
                 faction = "CFP_B_GBARMY_WDL";
-                crew = "CFP_B_GBArmy_Rifleman_WDL_01";
-                typicalCargo[] = {"CFP_B_GBArmy_Rifleman_WDL_01"};
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
             };
             class CUP_B_Ridgback_GMG_GB_W: CUP_Ridgback_Base
             {
                 faction = "CFP_B_GBARMY_WDL";
-                crew = "CFP_B_GBArmy_Rifleman_WDL_01";
-                typicalCargo[] = {"CFP_B_GBArmy_Rifleman_WDL_01"};
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
             };
             class CUP_B_Ridgback_LMG_GB_W: CUP_Ridgback_Base
             {
                 faction = "CFP_B_GBARMY_WDL";
-                crew = "CFP_B_GBArmy_Rifleman_WDL_01";
-                typicalCargo[] = {"CFP_B_GBArmy_Rifleman_WDL_01"};
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
             };
 
             class CUP_Wolfhound_Base;
             class CUP_B_Wolfhound_HMG_GB_W: CUP_Wolfhound_Base
             {
                 faction = "CFP_B_GBARMY_WDL";
-                crew = "CFP_B_GBArmy_Rifleman_WDL_01";
-                typicalCargo[] = {"CFP_B_GBArmy_Rifleman_WDL_01"};
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
             };
             class CUP_B_Wolfhound_GMG_GB_W: CUP_Wolfhound_Base
             {
                 faction = "CFP_B_GBARMY_WDL";
-                crew = "CFP_B_GBArmy_Rifleman_WDL_01";
-                typicalCargo[] = {"CFP_B_GBArmy_Rifleman_WDL_01"};
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
             };
             class CUP_B_Wolfhound_LMG_GB_W: CUP_Wolfhound_Base
             {
                 faction = "CFP_B_GBARMY_WDL";
-                crew = "CFP_B_GBArmy_Rifleman_WDL_01";
-                typicalCargo[] = {"CFP_B_GBArmy_Rifleman_WDL_01"};
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
             };
 
             class CUP_B_MCV80_GB_D_SLAT;
             class CUP_B_MCV80_GB_W_SLAT: CUP_B_MCV80_GB_D_SLAT
             {
                 faction = "CFP_B_GBARMY_WDL";
-                crew = "CFP_B_GBArmy_Rifleman_WDL_01";
-                typicalCargo[] = {"CFP_B_GBArmy_Rifleman_WDL_01"};
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
             };
             class CUP_B_MCV80_GB_D;
             class CUP_B_MCV80_GB_W: CUP_B_MCV80_GB_D
             {
                 faction = "CFP_B_GBARMY_WDL";
-                crew = "CFP_B_GBArmy_Rifleman_WDL_01";
-                typicalCargo[] = {"CFP_B_GBArmy_Rifleman_WDL_01"};
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
             };
 
             class CUP_B_FV510_GB_D_SLAT;
             class CUP_B_FV510_GB_W_SLAT: CUP_B_FV510_GB_D_SLAT
             {
                 faction = "CFP_B_GBARMY_WDL";
-                crew = "CFP_B_GBArmy_Rifleman_WDL_01";
-                typicalCargo[] = {"CFP_B_GBArmy_Rifleman_WDL_01"};
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
             };
-            class CUP_B_FV510_GB_D;
+            class CUP_B_FV510_GB_D : CUP_B_FV510_GB_W_SLAT {
+                faction = "CUP_B_GB";
+                crew = "CUP_B_BAF_Crew_DDPM";
+                typicalCargo[] = {"CUP_B_BAF_Crew_DDPM"};
+            };
             class CUP_B_FV510_GB_W: CUP_B_FV510_GB_D
             {
                 faction = "CFP_B_GBARMY_WDL";
-                crew = "CFP_B_GBArmy_Rifleman_WDL_01";
-                typicalCargo[] = {"CFP_B_GBArmy_Rifleman_WDL_01"};
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
             };
 
             class CUP_B_FV432_Bulldog_GB_D;
             class CUP_B_FV432_Bulldog_GB_W: CUP_B_FV432_Bulldog_GB_D
             {
-                crew = "CFP_B_GBArmy_Crewman_WDL_01";
+                crew = "CFP_B_GBARMY_Crewman_WDL_01";
                 faction = "CFP_B_GBARMY_WDL";
-                typicalCargo[]={"CFP_B_GBArmy_Rifleman_WDL_01", "CFP_B_GBArmy_Rifleman_WDL_01", "CFP_B_GBArmy_Rifleman_WDL_01", "CFP_B_GBArmy_Rifleman_WDL_01"};
+                typicalCargo[]={"CFP_B_GBARMY_Rifleman_WDL_01", "CFP_B_GBARMY_Rifleman_WDL_01", "CFP_B_GBARMY_Rifleman_WDL_01", "CFP_B_GBARMY_Rifleman_WDL_01"};
             };
             class CUP_B_FV432_Bulldog_GB_D_RWS;
             class CUP_B_FV432_Bulldog_GB_W_RWS: CUP_B_FV432_Bulldog_GB_D_RWS
             {
-                crew = "CFP_B_GBArmy_Crewman_WDL_01";
+                crew = "CFP_B_GBARMY_Crewman_WDL_01";
                 faction = "CFP_B_GBARMY_WDL";
-                typicalCargo[]={"CFP_B_GBArmy_Rifleman_WDL_01", "CFP_B_GBArmy_Rifleman_WDL_01", "CFP_B_GBArmy_Rifleman_WDL_01", "CFP_B_GBArmy_Rifleman_WDL_01"};
+                typicalCargo[]={"CFP_B_GBARMY_Rifleman_WDL_01", "CFP_B_GBARMY_Rifleman_WDL_01", "CFP_B_GBARMY_Rifleman_WDL_01", "CFP_B_GBARMY_Rifleman_WDL_01"};
             };
 
             class CUP_Challenger2_base;
             class CUP_B_Challenger2_Woodland_BAF: CUP_Challenger2_base
             {
-                crew = "CFP_B_GBArmy_Crewman_WDL_01";
+                crew = "CFP_B_GBARMY_Crewman_WDL_01";
                 faction = "CFP_B_GBARMY_WDL";
-                typicalCargo[] = {"CFP_B_GBArmy_Crewman_WDL_01", "CFP_B_GBArmy_Crewman_WDL_01", "CFP_B_GBArmy_Crewman_WDL_01", "CFP_B_GBArmy_Crewman_WDL_01"};
+                typicalCargo[] = {"CFP_B_GBARMY_Crewman_WDL_01", "CFP_B_GBARMY_Crewman_WDL_01", "CFP_B_GBARMY_Crewman_WDL_01", "CFP_B_GBARMY_Crewman_WDL_01"};
             };
             class CUP_B_Challenger2_2CW_BAF: CUP_B_Challenger2_Woodland_BAF
             {
@@ -601,14 +605,14 @@ class CfgVehicles
                 };
             };
 
-            class CFP_B_GBArmy_F35B_Lightning_II_WDL_01 : CUP_B_F35B_USMC_OCimport_02 {
+            class CFP_B_GBARMY_F35B_Lightning_II_WDL_01 : CUP_B_F35B_USMC_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "F-35B Lightning II";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
-                crew = "CFP_B_GBArmy_Pilot_WDL_01";
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Pilot_WDL_01";
                 hiddenSelectionsTextures[] = {"CUP\AirVehicles\CUP_AirVehicles_F35\data\f35_baf_co.paa"};
                 editorPreview = "CUP\AirVehicles\CUP_AirVehicles_F35\Data\preview\CUP_B_F35B_AA_BAF.jpg";
 
@@ -626,14 +630,14 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_F35B_Lightning_II_Stealth_WDL_01 : CUP_B_F35B_Stealth_USMC_OCimport_02 {
+            class CFP_B_GBARMY_F35B_Lightning_II_Stealth_WDL_01 : CUP_B_F35B_Stealth_USMC_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "F-35B Lightning II (Stealth)";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
-                crew = "CFP_B_GBArmy_Pilot_WDL_01";
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Pilot_WDL_01";
                 hiddenSelectionsTextures[] = {"CUP\AirVehicles\CUP_AirVehicles_F35\data\f35_baf_co.paa"};
                 editorPreview = "CUP\AirVehicles\CUP_AirVehicles_F35\Data\preview\CUP_B_F35B_AA_BAF.jpg";
 
@@ -651,15 +655,15 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_AH_1_WDL_01 : CUP_B_AH64D_DL_USA_OCimport_02 {
+            class CFP_B_GBARMY_AH_1_WDL_01 : CUP_B_AH64D_DL_USA_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "AH-1";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
-                crew = "CFP_B_GBArmy_Pilot_WDL_01";
-                typicalCargo[] = {"CFP_B_GBArmy_Pilot_WDL_01"};
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Pilot_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Pilot_WDL_01"};
                 hiddenSelectionsTextures[] =
                 {
                     "\CUP\AirVehicles\CUP_AirVehicles_AH64\data\ah1_baf_body_co.paa",
@@ -777,14 +781,14 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_Harrier_GR_9_WDL_01 : CUP_GR9_DYN_Base_OCimport_02 {
+            class CFP_B_GBARMY_Harrier_GR_9_WDL_01 : CUP_GR9_DYN_Base_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "Harrier GR.9";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
-                crew = "CFP_B_GBArmy_Pilot_WDL_01";
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Pilot_WDL_01";
                 model = "\cup\airvehicles\cup_airvehicles_av8b\cup_gr9";
                 accuracy = 1000;
                 threat[] = {1,0.7,1};
@@ -820,18 +824,18 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_AW159_Wildcat_Green_WDL_01 : CUP_AW159_Dynamic_Base_OCimport_02 {
+            class CFP_B_GBARMY_AW159_Wildcat_Green_WDL_01 : CUP_AW159_Dynamic_Base_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "AW159 Wildcat (Green)";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
-                crew = "CFP_B_GBArmy_Pilot_WDL_01";
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Pilot_WDL_01";
                 model = "\CUP\AirVehicles\CUP_AirVehicles_AW159\CUP_AW159.p3d";
                 picture = "\CUP\AirVehicles\CUP_AirVehicles_AW159\data\UI\picture_lynx_unarmed_ca.paa";
                 icon = "\CUP\AirVehicles\CUP_AirVehicles_AW159\data\UI\icon_lynx_unarmed_ca.paa";
-                typicalCargo[] = {"CFP_B_GBArmy_Pilot_WDL_01"};
+                typicalCargo[] = {"CFP_B_GBARMY_Pilot_WDL_01"};
 
                 animationList[] =
                 {
@@ -864,20 +868,20 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_AW159_Wildcat_Green_Unarmed_WDL_01 : CUP_AW159_Unarmed_Base_OCimport_02 {
+            class CFP_B_GBARMY_AW159_Wildcat_Green_Unarmed_WDL_01 : CUP_AW159_Unarmed_Base_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "AW159 Wildcat (Green, Unarmed)";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
-                crew = "CFP_B_GBArmy_Pilot_WDL_01";
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Pilot_WDL_01";
                 model = "\CUP\AirVehicles\CUP_AirVehicles_AW159\CUP_AW159.p3d";
                 picture = "\CUP\AirVehicles\CUP_AirVehicles_AW159\data\UI\picture_lynx_unarmed_ca.paa";
                 icon = "\CUP\AirVehicles\CUP_AirVehicles_AW159\data\UI\icon_lynx_unarmed_ca.paa";
                 editorPreview = "CUP\AirVehicles\CUP_AirVehicles_AW159\Data\preview\CUP_B_AW159_Unarmed_GB.jpg";
 
-                typicalCargo[] = {"CFP_B_GBArmy_Pilot_WDL_01"};
+                typicalCargo[] = {"CFP_B_GBARMY_Pilot_WDL_01"};
 
                 animationList[] =
                 {
@@ -909,20 +913,20 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_AW159_Wildcat_Grey_Unarmed_WDL_01 : CUP_AW159_Unarmed_Base_OCimport_02 {
+            class CFP_B_GBARMY_AW159_Wildcat_Grey_Unarmed_WDL_01 : CUP_AW159_Unarmed_Base_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "AW159 Wildcat (Grey, Unarmed)";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
-                crew = "CFP_B_GBArmy_Pilot_WDL_01";
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Pilot_WDL_01";
                 model = "\CUP\AirVehicles\CUP_AirVehicles_AW159\CUP_AW159.p3d";
                 picture = "\CUP\AirVehicles\CUP_AirVehicles_AW159\data\UI\picture_lynx_unarmed_ca.paa";
                 icon = "\CUP\AirVehicles\CUP_AirVehicles_AW159\data\UI\icon_lynx_unarmed_ca.paa";
                 editorPreview = "CUP\AirVehicles\CUP_AirVehicles_AW159\Data\preview\CUP_B_AW159_Unarmed_GB.jpg";
 
-                typicalCargo[] = {"CFP_B_GBArmy_Pilot_WDL_01"};
+                typicalCargo[] = {"CFP_B_GBARMY_Pilot_WDL_01"};
 
                 animationList[] =
                 {
@@ -955,18 +959,18 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_AW159_Wildcat_Grey_WDL_01 : CUP_AW159_Dynamic_Base_OCimport_02 {
+            class CFP_B_GBARMY_AW159_Wildcat_Grey_WDL_01 : CUP_AW159_Dynamic_Base_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "AW159 Wildcat (Grey)";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
-                crew = "CFP_B_GBArmy_Pilot_WDL_01";
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Pilot_WDL_01";
                 model = "\CUP\AirVehicles\CUP_AirVehicles_AW159\CUP_AW159.p3d";
                 picture = "\CUP\AirVehicles\CUP_AirVehicles_AW159\data\UI\picture_lynx_unarmed_ca.paa";
                 icon = "\CUP\AirVehicles\CUP_AirVehicles_AW159\data\UI\icon_lynx_unarmed_ca.paa";
-                typicalCargo[] = {"CFP_B_GBArmy_Pilot_WDL_01"};
+                typicalCargo[] = {"CFP_B_GBARMY_Pilot_WDL_01"};
 
                 animationList[] =
                 {
@@ -1001,14 +1005,14 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_SA_330_Puma_HC2_WDL_01 : CUP_B_SA330_Puma_HC1_BAF_OCimport_02 {
+            class CFP_B_GBARMY_SA_330_Puma_HC2_WDL_01 : CUP_B_SA330_Puma_HC1_BAF_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "SA-330 Puma HC2";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
-                crew = "CFP_B_GBArmy_Pilot_WDL_01";
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Pilot_WDL_01";
 
                 model="\cup\airvehicles\cup_airvehicles_sa330\OFrP_Puma_VE";
                 class Turrets : Turrets
@@ -1120,14 +1124,14 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_SA_330_Puma_HC1_WDL_01 : CUP_B_SA330_Puma_HC1_BAF_OCimport_02 {
+            class CFP_B_GBARMY_SA_330_Puma_HC1_WDL_01 : CUP_B_SA330_Puma_HC1_BAF_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "SA-330 Puma HC1";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
-                crew = "CFP_B_GBArmy_Pilot_WDL_01";
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Pilot_WDL_01";
                 editorPreview = "CUP\AirVehicles\CUP_AirVehicles_SA330\Data\preview\CUP_B_SA330_Puma_HC1_BAF.jpg";
                 class EventHandlers : EventHandlers {
                     class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -1143,14 +1147,14 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_Merlin_HM2_WDL_01 : CUP_Merlin_HM2_Base_OCimport_02 {
+            class CFP_B_GBARMY_Merlin_HM2_WDL_01 : CUP_Merlin_HM2_Base_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "Merlin HM2";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
-                crew = "CFP_B_GBArmy_Pilot_WDL_01";
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Pilot_WDL_01";
                 typicalCargo[]={"CUP_B_BAF_Pilot_DPM","CUP_B_BAF_Pilot_DPM"};
                 editorPreview = "CUP\AirVehicles\CUP_AirVehicles_HC3\Data\preview\CUP_B_Merlin_HC4_GB.jpg";
                 class Turrets : Turrets {
@@ -1175,14 +1179,14 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_Merlin_HC3A_Armed_WDL_01 : CUP_Merlin_HC3A_Armed_Base_OCimport_02 {
+            class CFP_B_GBARMY_Merlin_HC3A_Armed_WDL_01 : CUP_Merlin_HC3A_Armed_Base_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "Merlin HC3A (Armed)";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
-                crew = "CFP_B_GBArmy_Pilot_WDL_01";
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Pilot_WDL_01";
                 typicalCargo[]={"CUP_B_BAF_Pilot_DPM","CUP_B_BAF_Pilot_DPM"};
                 editorPreview = "CUP\AirVehicles\CUP_AirVehicles_HC3\Data\preview\CUP_B_Merlin_HC3A_GB.jpg";
                 class Turrets : Turrets {
@@ -1210,14 +1214,14 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_Merlin_HC3_Armed_WDL_01 : CUP_Merlin_HC3_Armed_Base_OCimport_02 {
+            class CFP_B_GBARMY_Merlin_HC3_Armed_WDL_01 : CUP_Merlin_HC3_Armed_Base_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "Merlin HC3 (Armed)";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
-                crew = "CFP_B_GBArmy_Pilot_WDL_01";
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Pilot_WDL_01";
                 typicalCargo[]={"CUP_B_BAF_Pilot_DPM","CUP_B_BAF_Pilot_DPM"};
                 editorPreview = "CUP\AirVehicles\CUP_AirVehicles_HC3\Data\preview\CUP_B_Merlin_HC3_GB.jpg";
 
@@ -1244,14 +1248,14 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_Merlin_HC3A_WDL_01 : CUP_Merlin_HC3A_Base_OCimport_02 {
+            class CFP_B_GBARMY_Merlin_HC3A_WDL_01 : CUP_Merlin_HC3A_Base_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "Merlin HC3A";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
-                crew = "CFP_B_GBArmy_Pilot_WDL_01";
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Pilot_WDL_01";
                 typicalCargo[]={"CUP_B_BAF_Pilot_DPM","CUP_B_BAF_Pilot_DPM"};
                 editorPreview = "CUP\AirVehicles\CUP_AirVehicles_HC3\Data\preview\CUP_B_Merlin_HC3A_GB.jpg";
                 class Turrets : Turrets {
@@ -1278,14 +1282,14 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_Merlin_HC3_VIV_WDL_01 : CUP_Merlin_HC3_VIV_Base_OCimport_02 {
+            class CFP_B_GBARMY_Merlin_HC3_VIV_WDL_01 : CUP_Merlin_HC3_VIV_Base_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "Merlin HC3 (VIV)";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
-                crew = "CFP_B_GBArmy_Pilot_WDL_01";
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Pilot_WDL_01";
                 typicalCargo[]={"CUP_B_BAF_Pilot_DPM","CUP_B_BAF_Pilot_DPM"};
                 editorPreview = "CUP\AirVehicles\CUP_AirVehicles_HC3\Data\preview\CUP_B_Merlin_HC3_GB.jpg";
                 class Turrets : Turrets {
@@ -1308,14 +1312,14 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_Merlin_HC3_WDL_01 : CUP_Merlin_HC3_Base_OCimport_02 {
+            class CFP_B_GBARMY_Merlin_HC3_WDL_01 : CUP_Merlin_HC3_Base_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "Merlin HC3";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
-                crew = "CFP_B_GBArmy_Pilot_WDL_01";
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Pilot_WDL_01";
                 typicalCargo[]={"CUP_B_BAF_Pilot_DPM","CUP_B_BAF_Pilot_DPM"};
 
                 model = "\CUP\AirVehicles\CUP_AirVehicles_HC3\CUP_MerlinHC3_BAF";
@@ -1346,14 +1350,14 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_Chinook_HC_4VIV_WDL_01 : CUP_CH47F_VIV_Base_OCimport_02 {
+            class CFP_B_GBARMY_Chinook_HC_4VIV_WDL_01 : CUP_CH47F_VIV_Base_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "Chinook HC-4 (VIV)";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
-                crew = "CFP_B_GBArmy_Pilot_WDL_01";
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Pilot_WDL_01";
                 typicalCargo[]={"CUP_B_BAF_Pilot_DPM","CUP_B_BAF_Pilot_DPM"};
                 hiddenSelectionsTextures[] =
                 {
@@ -1384,14 +1388,14 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_Chinook_HC_4_WDL_01 : CUP_CH47F_base_OCimport_02 {
+            class CFP_B_GBARMY_Chinook_HC_4_WDL_01 : CUP_CH47F_base_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "Chinook HC-4";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
-                crew = "CFP_B_GBArmy_Pilot_WDL_01";
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Pilot_WDL_01";
                 typicalCargo[]={"CUP_B_BAF_Pilot_DPM","CUP_B_BAF_Pilot_DPM"};
                 hiddenSelectionsTextures[] =
                 {
@@ -1423,13 +1427,13 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_C130J_VIV_WDL_01 : CUP_C130J_VIV_Base_OCimport_02 {
+            class CFP_B_GBARMY_C130J_VIV_WDL_01 : CUP_C130J_VIV_Base_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "C-130J (VIV)";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
+                faction = "CFP_B_GBARMY_WDL";
                 crew = "CUP_B_BAF_Pilot_WDL";
                 typicalCargo[] = {"CUP_B_BAF_Pilot_WDL", "CUP_B_BAF_Pilot_WDL"};
                 hiddenSelectionsTextures[] = {
@@ -1455,13 +1459,13 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_C130J_WDL_01 : CUP_C130J_Base_OCimport_02 {
+            class CFP_B_GBARMY_C130J_WDL_01 : CUP_C130J_Base_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "C-130J";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
+                faction = "CFP_B_GBARMY_WDL";
                 crew = "CUP_B_BAF_Pilot_WDL";
                 typicalCargo[] = {"CUP_B_BAF_Pilot_WDL", "CUP_B_BAF_Pilot_WDL"};
                 hiddenSelectionsTextures[] = {
@@ -1517,13 +1521,13 @@ class CfgVehicles
 
             #define PREVIEW(x) editorPreview = \CUP\Creatures\People\Military\CUP_Creatures_People_Military_BAF\Data\preview\##x##_MTP.jpg
 
-            class CFP_B_GBArmy_Rifleman_WDL_01 : CUP_B_BAF_Soldier_06_MTP_OCimport_02 {
+            class CFP_B_GBARMY_Rifleman_WDL_01 : CUP_B_BAF_Soldier_06_MTP_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "Rifleman";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
+                faction = "CFP_B_GBARMY_WDL";
 
                 identityTypes[] = { "Head_NATO" , "LanguageENGB_F" , "G_GUERIL_default" };
                 uniformClass = "CUP_U_B_BAF_MTP_S4_UnRolled";
@@ -1542,13 +1546,13 @@ class CfgVehicles
                 PREVIEW(CUP_B_BAF_Soldier);
             };
 
-            class CFP_B_GBArmy_Grenadier_WDL_01 : CUP_B_BAF_Soldier_07_MTP_OCimport_02 {
+            class CFP_B_GBARMY_Grenadier_WDL_01 : CUP_B_BAF_Soldier_07_MTP_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "Grenadier";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
+                faction = "CFP_B_GBARMY_WDL";
 
                 identityTypes[] = { "Head_NATO" , "LanguageENGB_F" , "G_GUERIL_default" };
                 uniformClass = "CUP_U_B_BAF_MTP_S5_UnRolled";
@@ -1569,13 +1573,13 @@ class CfgVehicles
                 PREVIEW(CUP_B_BAF_Soldier_GL);
             };
 
-            class CFP_B_GBArmy_Rifleman_night_WDL_01 : CUP_B_BAF_Soldier_05_MTP_OCimport_02 {
+            class CFP_B_GBARMY_Rifleman_night_WDL_01 : CUP_B_BAF_Soldier_05_MTP_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "Rifleman (night)";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
+                faction = "CFP_B_GBARMY_WDL";
 
                 identityTypes[] = { "Head_NATO" , "LanguageENGB_F" , "G_GUERIL_default" };
                 uniformClass = "CUP_U_B_BAF_MTP_S3_RolledUp";
@@ -1596,13 +1600,13 @@ class CfgVehicles
                 PREVIEW(CUP_B_BAF_Soldier_Night);
             };
 
-            class CFP_B_GBArmy_Rifleman_light_WDL_01 : CUP_B_BAF_Soldier_06_MTP_OCimport_02 {
+            class CFP_B_GBARMY_Rifleman_light_WDL_01 : CUP_B_BAF_Soldier_06_MTP_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "Rifleman (light)";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
+                faction = "CFP_B_GBARMY_WDL";
 
                 identityTypes[] = { "Head_NATO" , "LanguageENGB_F" , "G_GUERIL_default" };
                 uniformClass = "CUP_U_B_BAF_MTP_S4_UnRolled";
@@ -1623,13 +1627,13 @@ class CfgVehicles
                 PREVIEW(CUP_B_BAF_Soldier_Light);
             };
 
-            class CFP_B_GBArmy_Rifleman_backpack_WDL_01 : CUP_B_BAF_Soldier_07_MTP_OCimport_02 {
+            class CFP_B_GBARMY_Rifleman_backpack_WDL_01 : CUP_B_BAF_Soldier_07_MTP_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "Rifleman (backpack)";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
+                faction = "CFP_B_GBARMY_WDL";
 
                 identityTypes[] = { "Head_NATO" , "LanguageENGB_F" , "G_GUERIL_default" };
                 uniformClass = "CUP_U_B_BAF_MTP_S5_UnRolled";
@@ -1649,13 +1653,13 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_Asst_Automatic_Rifleman_WDL_01 : CUP_B_BAF_Soldier_06_MTP_OCimport_02 {
+            class CFP_B_GBARMY_Asst_Automatic_Rifleman_WDL_01 : CUP_B_BAF_Soldier_06_MTP_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "Asst. Automatic Rifleman";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
+                faction = "CFP_B_GBARMY_WDL";
 
                 identityTypes[] = { "Head_NATO" , "LanguageENGB_F" , "G_GUERIL_default" };
                 uniformClass = "CUP_U_B_BAF_MTP_S4_UnRolled";
@@ -1677,13 +1681,13 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_Asst_Machineguner_WDL_01 : CUP_B_BAF_Soldier_06_MTP_OCimport_02 {
+            class CFP_B_GBARMY_Asst_Machineguner_WDL_01 : CUP_B_BAF_Soldier_06_MTP_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "Asst. Machineguner";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
+                faction = "CFP_B_GBARMY_WDL";
 
                 identityTypes[] = { "Head_NATO" , "LanguageENGB_F" , "G_GUERIL_default" };
                 uniformClass = "CUP_U_B_BAF_MTP_S4_UnRolled";
@@ -1705,13 +1709,13 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_Asst_AT_Specialist_WDL_01 : CUP_B_BAF_Soldier_06_MTP_OCimport_02 {
+            class CFP_B_GBARMY_Asst_AT_Specialist_WDL_01 : CUP_B_BAF_Soldier_06_MTP_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "Asst. AT Specialist";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
+                faction = "CFP_B_GBARMY_WDL";
 
                 identityTypes[] = { "Head_NATO" , "LanguageENGB_F" , "G_GUERIL_default" };
                 uniformClass = "CUP_U_B_BAF_MTP_S4_UnRolled";
@@ -1733,13 +1737,13 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_Asst_AT_Specialist_Javelin_WDL_01 : CUP_B_BAF_Soldier_06_MTP_OCimport_02 {
+            class CFP_B_GBARMY_Asst_AT_Specialist_Javelin_WDL_01 : CUP_B_BAF_Soldier_06_MTP_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "Asst. AT Specialist (Javelin)";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
+                faction = "CFP_B_GBARMY_WDL";
 
                 identityTypes[] = { "Head_NATO" , "LanguageENGB_F" , "G_GUERIL_default" };
                 uniformClass = "CUP_U_B_BAF_MTP_S4_UnRolled";
@@ -1761,13 +1765,13 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_Asst_AA_Specialist_WDL_01 : CUP_B_BAF_Soldier_06_MTP_OCimport_02 {
+            class CFP_B_GBARMY_Asst_AA_Specialist_WDL_01 : CUP_B_BAF_Soldier_06_MTP_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "Asst. AA Specialist";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
+                faction = "CFP_B_GBARMY_WDL";
 
                 identityTypes[] = { "Head_NATO" , "LanguageENGB_F" , "G_GUERIL_default" };
                 uniformClass = "CUP_U_B_BAF_MTP_S4_UnRolled";
@@ -1789,13 +1793,13 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_Officer_WDL_01 : CUP_B_BAF_Soldier_05_MTP_OCimport_02 {
+            class CFP_B_GBARMY_Officer_WDL_01 : CUP_B_BAF_Soldier_05_MTP_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "Officer";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
+                faction = "CFP_B_GBARMY_WDL";
 
                 identityTypes[] = { "Head_NATO" , "LanguageENGB_F" , "G_GUERIL_default" };
                 uniformClass = "CUP_U_B_BAF_MTP_S3_RolledUp";
@@ -1817,13 +1821,13 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_Section_Leader_WDL_01 : CUP_B_BAF_Soldier_08_MTP_OCimport_02 {
+            class CFP_B_GBARMY_Section_Leader_WDL_01 : CUP_B_BAF_Soldier_08_MTP_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "Section Leader";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
+                faction = "CFP_B_GBARMY_WDL";
 
                 identityTypes[] = { "Head_NATO" , "LanguageENGB_F" , "G_GUERIL_default" };
                 uniformClass = "CUP_U_B_BAF_MTP_S6_UnRolled";
@@ -1845,13 +1849,13 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_Team_Leader_WDL_01 : CUP_B_BAF_Soldier_07_MTP_OCimport_02 {
+            class CFP_B_GBARMY_Team_Leader_WDL_01 : CUP_B_BAF_Soldier_07_MTP_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "Team Leader";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
+                faction = "CFP_B_GBARMY_WDL";
 
                 identityTypes[] = { "Head_NATO" , "LanguageENGB_F" , "G_GUERIL_default" };
                 uniformClass = "CUP_U_B_BAF_MTP_S5_UnRolled";
@@ -1873,13 +1877,13 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_Automatic_Rifleman_WDL_01 : CUP_B_BAF_Soldier_07_MTP_OCimport_02 {
+            class CFP_B_GBARMY_Automatic_Rifleman_WDL_01 : CUP_B_BAF_Soldier_07_MTP_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "Automatic Rifleman";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
+                faction = "CFP_B_GBARMY_WDL";
 
                 identityTypes[] = { "Head_NATO" , "LanguageENGB_F" , "G_GUERIL_default" };
                 uniformClass = "CUP_U_B_BAF_MTP_S5_UnRolled";
@@ -1901,13 +1905,13 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_Machinegunner_WDL_01 : CUP_B_BAF_Soldier_06_MTP_OCimport_02 {
+            class CFP_B_GBARMY_Machinegunner_WDL_01 : CUP_B_BAF_Soldier_06_MTP_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "Machinegunner";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
+                faction = "CFP_B_GBARMY_WDL";
 
                 identityTypes[] = { "Head_NATO" , "LanguageENGB_F" , "G_GUERIL_default" };
                 uniformClass = "CUP_U_B_BAF_MTP_S4_UnRolled";
@@ -1929,13 +1933,13 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_AT_Specialist_WDL_01 : CUP_B_BAF_Soldier_06_MTP_OCimport_02 {
+            class CFP_B_GBARMY_AT_Specialist_WDL_01 : CUP_B_BAF_Soldier_06_MTP_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "AT Specialist";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
+                faction = "CFP_B_GBARMY_WDL";
 
                 identityTypes[] = { "Head_NATO" , "LanguageENGB_F" , "G_GUERIL_default" };
                 uniformClass = "CUP_U_B_BAF_MTP_S4_UnRolled";
@@ -1957,13 +1961,13 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_AT_Specialist_Javelin_WDL_01 : CUP_B_BAF_Soldier_06_MTP_OCimport_02 {
+            class CFP_B_GBARMY_AT_Specialist_Javelin_WDL_01 : CUP_B_BAF_Soldier_06_MTP_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "AT Specialist (Javelin)";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
+                faction = "CFP_B_GBARMY_WDL";
 
                 identityTypes[] = { "Head_NATO" , "LanguageENGB_F" , "G_GUERIL_default" };
                 uniformClass = "CUP_U_B_BAF_MTP_S4_UnRolled";
@@ -1985,13 +1989,13 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_AA_Specialist_WDL_01 : CUP_B_BAF_Soldier_06_MTP_OCimport_02 {
+            class CFP_B_GBARMY_AA_Specialist_WDL_01 : CUP_B_BAF_Soldier_06_MTP_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "AA Specialist";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
+                faction = "CFP_B_GBARMY_WDL";
 
                 identityTypes[] = { "Head_NATO" , "LanguageENGB_F" , "G_GUERIL_default" };
                 uniformClass = "CUP_U_B_BAF_MTP_S4_UnRolled";
@@ -2013,13 +2017,13 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_Marksman_LSW_WDL_01 : CUP_B_BAF_Soldier_07_MTP_OCimport_02 {
+            class CFP_B_GBARMY_Marksman_LSW_WDL_01 : CUP_B_BAF_Soldier_07_MTP_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "Marksman (LSW)";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
+                faction = "CFP_B_GBARMY_WDL";
 
                 identityTypes[] = { "Head_NATO" , "LanguageENGB_F" , "G_GUERIL_default" };
                 uniformClass = "CUP_U_B_BAF_MTP_S5_UnRolled";
@@ -2041,13 +2045,13 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_Marksman_LRR_WDL_01 : CUP_B_BAF_Soldier_07_MTP_OCimport_02 {
+            class CFP_B_GBARMY_Marksman_LRR_WDL_01 : CUP_B_BAF_Soldier_07_MTP_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "Marksman (LRR)";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
+                faction = "CFP_B_GBARMY_WDL";
 
                 identityTypes[] = { "Head_NATO" , "LanguageENGB_F" , "G_GUERIL_default" };
                 uniformClass = "CUP_U_B_BAF_MTP_S5_UnRolled";
@@ -2069,13 +2073,13 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_Sniper_LRR_WDL_01 : CUP_B_BAF_Soldier_04_MTP_OCimport_02 {
+            class CFP_B_GBARMY_Sniper_LRR_WDL_01 : CUP_B_BAF_Soldier_04_MTP_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "Sniper (LRR)";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
+                faction = "CFP_B_GBARMY_WDL";
 
                 identityTypes[] = { "Head_NATO" , "LanguageENGB_F" , "G_GUERIL_default" };
                 uniformClass = "CUP_U_B_BAF_MTP_Ghillie";
@@ -2097,13 +2101,13 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_Sniper_AS50_WDL_01 : CUP_B_BAF_Soldier_04_MTP_OCimport_02 {
+            class CFP_B_GBARMY_Sniper_AS50_WDL_01 : CUP_B_BAF_Soldier_04_MTP_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "Sniper (AS50)";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
+                faction = "CFP_B_GBARMY_WDL";
 
                 identityTypes[] = { "Head_NATO" , "LanguageENGB_F" , "G_GUERIL_default" };
                 uniformClass = "CUP_U_B_BAF_MTP_Ghillie";
@@ -2125,13 +2129,13 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_Sniper_AS50_TWS_WDL_01 : CUP_B_BAF_Sniper_AS50_MTP_OCimport_02 {
+            class CFP_B_GBARMY_Sniper_AS50_TWS_WDL_01 : CUP_B_BAF_Sniper_AS50_MTP_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "Sniper (AS50 TWS)";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
+                faction = "CFP_B_GBARMY_WDL";
 
                 identityTypes[] = { "Head_NATO" , "LanguageENGB_F" , "G_GUERIL_default" };
                 uniformClass = "CUP_U_B_BAF_MTP_Ghillie";
@@ -2153,13 +2157,13 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_Spotter_WDL_01 : CUP_B_BAF_Soldier_04_MTP_OCimport_02 {
+            class CFP_B_GBARMY_Spotter_WDL_01 : CUP_B_BAF_Soldier_04_MTP_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "Spotter";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
+                faction = "CFP_B_GBARMY_WDL";
 
                 identityTypes[] = { "Head_NATO" , "LanguageENGB_F" , "G_GUERIL_default" };
                 uniformClass = "CUP_U_B_BAF_MTP_Ghillie";
@@ -2181,13 +2185,13 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_Spotter_night_WDL_01 : CUP_B_BAF_Spotter_MTP_OCimport_02 {
+            class CFP_B_GBARMY_Spotter_night_WDL_01 : CUP_B_BAF_Spotter_MTP_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "Spotter (night)";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
+                faction = "CFP_B_GBARMY_WDL";
 
                 identityTypes[] = { "Head_NATO" , "LanguageENGB_F" , "G_GUERIL_default" };
                 uniformClass = "CUP_U_B_BAF_MTP_Ghillie";
@@ -2209,13 +2213,13 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_Pilot_WDL_01 : CUP_B_BAF_Soldier_06_MTP_OCimport_02 {
+            class CFP_B_GBARMY_Pilot_WDL_01 : CUP_B_BAF_Soldier_06_MTP_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "Pilot";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
+                faction = "CFP_B_GBARMY_WDL";
 
                 identityTypes[] = { "Head_NATO" , "LanguageENGB_F" , "G_GUERIL_default" };
                 uniformClass = "CUP_U_B_BAF_MTP_S4_UnRolled";
@@ -2237,13 +2241,13 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_Crewman_WDL_01 : CUP_B_BAF_Soldier_06_MTP_OCimport_02 {
+            class CFP_B_GBARMY_Crewman_WDL_01 : CUP_B_BAF_Soldier_06_MTP_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "Crewman";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
+                faction = "CFP_B_GBARMY_WDL";
 
                 identityTypes[] = { "Head_NATO" , "LanguageENGB_F" , "G_GUERIL_default" };
                 uniformClass = "CUP_U_B_BAF_MTP_S4_UnRolled";
@@ -2265,13 +2269,13 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_Medic_WDL_01 : CUP_B_BAF_Soldier_07_MTP_OCimport_02 {
+            class CFP_B_GBARMY_Medic_WDL_01 : CUP_B_BAF_Soldier_07_MTP_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "Medic";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
+                faction = "CFP_B_GBARMY_WDL";
 
                 identityTypes[] = { "Head_NATO" , "LanguageENGB_F" , "G_GUERIL_default" };
                 uniformClass = "CUP_U_B_BAF_MTP_S5_UnRolled";
@@ -2293,13 +2297,13 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_Joint_Terminal_Attack_Controller_WDL_01 : CUP_B_BAF_Soldier_07_MTP_OCimport_02 {
+            class CFP_B_GBARMY_Joint_Terminal_Attack_Controller_WDL_01 : CUP_B_BAF_Soldier_07_MTP_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "Joint Terminal Attack Controller";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
+                faction = "CFP_B_GBARMY_WDL";
 
                 identityTypes[] = { "Head_NATO" , "LanguageENGB_F" , "G_GUERIL_default" };
                 uniformClass = "CUP_U_B_BAF_MTP_S5_UnRolled";
@@ -2321,13 +2325,13 @@ class CfgVehicles
 
             };
 
-            class CFP_B_GBArmy_Engineer_WDL_01 : CUP_B_BAF_Soldier_05_MTP_OCimport_02 {
+            class CFP_B_GBARMY_Engineer_WDL_01 : CUP_B_BAF_Soldier_05_MTP_OCimport_02 {
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "Engineer";
                 side = 1;
-                faction = "CFP_B_GBArmy_WDL";
+                faction = "CFP_B_GBARMY_WDL";
 
                 identityTypes[] = { "Head_NATO" , "LanguageENGB_F" , "G_GUERIL_default" };
                 uniformClass = "CUP_U_B_BAF_MTP_S3_RolledUp";

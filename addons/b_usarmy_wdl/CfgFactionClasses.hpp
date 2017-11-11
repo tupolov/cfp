@@ -5,7 +5,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 class CfgFactionClasses {
-    class CFP_B_USArmy_WDL {
+    class CFP_B_USARMY_WDL {
         displayName = "US Army (Jungle / Woodland)";
         side = 1;
         flag = "CUP\BaseConfigs\CUP_BaseConfigs\Data\Flags\flag_usarmy_co.paa";

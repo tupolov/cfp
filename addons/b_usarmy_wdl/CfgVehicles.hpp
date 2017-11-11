@@ -33,7 +33,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "M2A2 Bradley IFV (Woodland)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Crew";
             hiddenSelectionsTextures[] = {"cup\TrackedVehicles\CUP_TrackedVehicles_Bradley\data\base_wdl_co.paa", "cup\TrackedVehicles\CUP_TrackedVehicles_Bradley\data\a3_wdl_co.paa", "cup\TrackedVehicles\CUP_TrackedVehicles_Bradley\data\ultralp_wdl_co.paa"};
             editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_Bradley\Data\preview\CUP_B_M2Bradley_USA_W.jpg";
@@ -46,7 +46,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "M6 Linebacker (Woodland)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Crew";
             hiddenSelectionsTextures[] = {"cup\TrackedVehicles\CUP_TrackedVehicles_Bradley\data\base_wdl_co.paa", "cup\TrackedVehicles\CUP_TrackedVehicles_Bradley\data\a3_wdl_co.paa", "cup\TrackedVehicles\CUP_TrackedVehicles_Bradley\data\ultralp_wdl_co.paa"};
             editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_Bradley\Data\preview\CUP_B_M6LineBacker_USA_W.jpg";
@@ -59,7 +59,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "M2A3 ERA Bradley IFV (Woodland)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Crew";
             hiddenSelectionsTextures[] = {"cup\TrackedVehicles\CUP_TrackedVehicles_Bradley\data\base_wdl_co.paa", "cup\TrackedVehicles\CUP_TrackedVehicles_Bradley\data\a3_wdl_co.paa", "cup\TrackedVehicles\CUP_TrackedVehicles_Bradley\data\ultralp_wdl_co.paa"};
             editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_Bradley\Data\preview\CUP_B_M2A3Bradley_USA_W.jpg";
@@ -72,7 +72,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "M7 Bradley (Woodland)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Crew";
             hiddenSelectionsTextures[] = {"cup\TrackedVehicles\CUP_TrackedVehicles_Bradley\data\base_wdl_co.paa", "cup\TrackedVehicles\CUP_TrackedVehicles_Bradley\data\a3_wdl_co.paa", "cup\TrackedVehicles\CUP_TrackedVehicles_Bradley\data\m7\bfist_wdl_co.paa"};
             editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_Bradley\Data\preview\CUP_B_M7Bradley_USA_D.jpg";
@@ -85,7 +85,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "M1A1 Abrams (Woodland)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Crew";
             typicalCargo[] = {"CFP_B_USARMY_US_Crew", "CFP_B_USARMY_US_Crew", "CFP_B_USARMY_US_Crew"};
             editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_m1_abrams\Data\preview\CUP_B_M1A1_Woodland_US_Army.jpg";
@@ -100,7 +100,7 @@ class CfgVehicles {
             displayName = "M1A2 Abrams TUSK (Woodland)";
             editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_m1_abrams\Data\preview\CUP_B_M1A2_TUSK_MG_US_Army.jpg";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Crew";
             typicalCargo[] = {"CFP_B_USARMY_US_Crew", "CFP_B_USARMY_US_Crew", "CFP_B_USARMY_US_Crew"};
         };
@@ -112,7 +112,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "M1126 ICV M2 CROWS (Woodland)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Crew";
             HiddenSelections[] = {"camo", "camo1", "camo6", "camo8", "camo7", "camo9", "camo10","camo11", "camoDefault"};
             HiddenSelectionsTextures[] =
@@ -136,7 +136,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "M1126 ICV M2 CROWS (Woodland - Slat)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Crew";
             armor = 335; // slat armor
             class AnimationSources : AnimationSources
@@ -158,7 +158,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "M1126 ICV MK19 CROWS (Woodland)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Crew";
             HiddenSelections[] = {"camo", "camo1", "camo6", "camo8", "camo7", "camo9", "camo10","camo11", "camoDefault"};
             HiddenSelectionsTextures[] =
@@ -182,7 +182,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "M1126 ICV MK19 CROWS (Woodland - Slat)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Crew";
             armor = 335; // slat armor
             class AnimationSources:AnimationSources
@@ -204,7 +204,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "M1130 CV M2 CROWS (Woodland)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Crew";
             HiddenSelections[] = {"camo", "camo1", "camo2", "camo10", "camo8", "camoDefault"};
             HiddenSelectionsTextures[] =
@@ -225,7 +225,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "M1130 CV M2 CROWS (Woodland - Slat)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Crew";
 
             armor = 335; // slat armor
@@ -248,7 +248,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "M1129 MC MK19 CROWS (Woodland)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Crew";
 
             HiddenSelections[] = {"camo", "camo1", "camo10", "camo8", "camoDefault"};
@@ -269,7 +269,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "M1129 MC MK19 CROWS (Woodland - Slat)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Crew";
             armor = 335; // slat armor
             class AnimationSources:AnimationSources
@@ -289,7 +289,7 @@ class CfgVehicles {
             scope = 2;
             side = 1;
             accuracy = 0.30;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Crew";
             typicalCargo[] = {"CFP_B_USARMY_US_Crew","CFP_B_USARMY_US_Crew","CFP_B_USARMY_US_Crew","CFP_B_USARMY_US_Crew"}; //Placeholder
             hiddenSelectionsTextures[] =
@@ -306,7 +306,7 @@ class CfgVehicles {
             scope = 2;
             side = 1;
             accuracy = 0.30;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Crew";
             typicalCargo[] = {"CFP_B_USARMY_US_Crew","CFP_B_USARMY_US_Crew","CFP_B_USARMY_US_Crew","CFP_B_USARMY_US_Crew"}; //Placeholder
             hiddenSelectionsTextures[] =
@@ -324,7 +324,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "M163A1 VADS";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Crew";
             typicalCargo[] = {"CFP_B_USARMY_US_Crew","CFP_B_USARMY_US_Crew","CFP_B_USARMY_US_Crew","CFP_B_USARMY_US_Crew"}; //Placeholder
             hiddenSelectionsTextures[] =
@@ -342,7 +342,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "M1135 ATGMV (Woodland)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Crew";
             HiddenSelections[] = {"camo", "camo1", "camo7", "camo10", "camo2", "camo11", "camoDefault"};
             HiddenSelectionsTextures[] =
@@ -364,7 +364,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "M1135 ATGMV (Woodland - Slat)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Crew";
             armor = 335; // slat armor
             class AnimationSources:AnimationSources
@@ -386,7 +386,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "M1128 MGS (Woodland)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Crew";
             HiddenSelections[] = {"camo", "camo1", "camo2", "camo6", "camo7", "camo10", "camoDefault"};
             HiddenSelectionsTextures[] =
@@ -408,7 +408,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "M1128 MGS (Woodland - Slat)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Crew";
             armor = 335; // slat armor
             class AnimationSources:AnimationSources
@@ -430,7 +430,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "M1133 MEV (Woodland)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Crew";
             HiddenSelections[] = {"camo", "camo1", "camo13", "camo10", "camoDefault"};
             HiddenSelectionsTextures[] =
@@ -450,7 +450,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "M1133 MEV (Woodland - Slat)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Crew";
             armor = 335; // slat armor
             class AnimationSources:AnimationSources
@@ -473,7 +473,7 @@ class CfgVehicles {
             editorSubCategory = "EdSubcat_Cars";
             displayName = "M1165 GMV (M134)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Soldier";
             WOODLAND_CAMO
             typicalCargo[] = {"CFP_B_USARMY_US_Soldier","CFP_B_USARMY_US_Soldier","CFP_B_USARMY_US_Soldier","CFP_B_USARMY_US_Soldier"};
@@ -487,7 +487,7 @@ class CfgVehicles {
             editorSubCategory = "EdSubcat_Cars";
             displayName = "M1151 (M2)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Soldier";
             WOODLAND_CAMO
             typicalCargo[] = {"CFP_B_USARMY_US_Soldier","CFP_B_USARMY_US_Soldier","CFP_B_USARMY_US_Soldier","CFP_B_USARMY_US_Soldier"};
@@ -501,7 +501,7 @@ class CfgVehicles {
             editorSubCategory = "EdSubcat_Cars";
             displayName = "M1151 (M2) Deployment";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Soldier";
             WOODLAND_CAMO
             typicalCargo[] = {"CFP_B_USARMY_US_Soldier","CFP_B_USARMY_US_Soldier","CFP_B_USARMY_US_Soldier","CFP_B_USARMY_US_Soldier"};
@@ -515,7 +515,7 @@ class CfgVehicles {
             editorSubCategory = "EdSubcat_Cars";
             displayName = "M1151 (Mk19)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Soldier";
             WOODLAND_CAMO
             typicalCargo[] = {"CFP_B_USARMY_US_Soldier","CFP_B_USARMY_US_Soldier","CFP_B_USARMY_US_Soldier","CFP_B_USARMY_US_Soldier"};
@@ -529,7 +529,7 @@ class CfgVehicles {
             editorSubCategory = "EdSubcat_Cars";
             displayName = "M1151 (Unarmed)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Soldier";
             WOODLAND_CAMO
             typicalCargo[] = {"CFP_B_USARMY_US_Soldier","CFP_B_USARMY_US_Soldier","CFP_B_USARMY_US_Soldier","CFP_B_USARMY_US_Soldier"};
@@ -543,7 +543,7 @@ class CfgVehicles {
             editorSubCategory = "EdSubcat_Cars";
             displayName = "M1152 ECV";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Soldier";
             WOODLAND_CAMO
             typicalCargo[] = {"CFP_B_USARMY_US_Soldier","CFP_B_USARMY_US_Soldier","CFP_B_USARMY_US_Soldier","CFP_B_USARMY_US_Soldier"};
@@ -557,7 +557,7 @@ class CfgVehicles {
             editorSubCategory = "EdSubcat_Cars";
             displayName = "M1167 (TOW-2)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Soldier";
             WOODLAND_CAMO
             typicalCargo[] = {"CFP_B_USARMY_US_Soldier","CFP_B_USARMY_US_Soldier","CFP_B_USARMY_US_Soldier","CFP_B_USARMY_US_Soldier"};
@@ -882,7 +882,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "CH-47F";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Pilot";
             typicalCargo[] = {"CFP_B_USARMY_US_Pilot","CFP_B_USARMY_US_Pilot", "CFP_B_USARMY_US_Pilot"};
         };
@@ -894,7 +894,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "CH-47F (VIV)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Pilot";
             typicalCargo[] = {"CFP_B_USARMY_US_Pilot","CFP_B_USARMY_US_Pilot", "CFP_B_USARMY_US_Pilot"};
         };
@@ -905,7 +905,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "M2 Machine Gun";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Soldier";
 
             class Turrets : Turrets {
@@ -934,7 +934,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "M2 Minitripod";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Soldier";
 
             class Turrets : Turrets {
@@ -963,7 +963,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "TOW Tripod";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Soldier";
 
             class Turrets : Turrets {
@@ -992,7 +992,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "M252 81mm Mortar";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Soldier";
 
             class Turrets : Turrets {
@@ -1021,7 +1021,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "M119";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Soldier";
 
             class Turrets : Turrets {
@@ -1051,7 +1051,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "HMMWV (Unarmed)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Soldier";
 
 
@@ -1076,7 +1076,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "HMMWV M2";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Soldier";
 
             class Turrets : Turrets {
@@ -1106,7 +1106,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "HMMWV MK19";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Soldier";
 
             class Turrets : Turrets {
@@ -1136,7 +1136,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "HMMWV TOW";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Soldier";
 
             class Turrets : Turrets {
@@ -1166,7 +1166,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "HMMWV Avenger";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Crew";
 
             class Turrets : Turrets {
@@ -1196,7 +1196,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "HMMWV Ambulance";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Soldier";
 
 
@@ -1222,7 +1222,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "HMMWV Transport";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Soldier";
 
 
@@ -1248,7 +1248,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "HMMWV M1151 M2";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Soldier";
 
             class Turrets : Turrets {
@@ -1278,7 +1278,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "HMMWV UAV Terminal";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Soldier";
 
 
@@ -1303,7 +1303,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "HMMWV SOV (Mk19)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Soldier";
 
             class Turrets : Turrets {
@@ -1338,7 +1338,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "HMMWV SOV (M2)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Soldier";
 
             class Turrets : Turrets {
@@ -1373,7 +1373,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "HMMWV CROWS M2";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Soldier";
 
             class Turrets : Turrets {
@@ -1403,7 +1403,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "HMMWV CROWS MK19";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Soldier";
 
             class Turrets : Turrets {
@@ -1435,7 +1435,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "MTVR";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Soldier";
 
 
@@ -1460,7 +1460,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "MTVR (Ammo)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Soldier";
 
 
@@ -1486,7 +1486,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "MTVR (Refuel)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Soldier";
 
 
@@ -1512,7 +1512,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "MTVR (Repair)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Soldier";
 
 
@@ -1537,7 +1537,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "A-10C Thunderbolt II";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Pilot";
 
 
@@ -1562,7 +1562,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "M270 MLRS (HE)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Crew";
 
             class Turrets : Turrets {
@@ -1592,7 +1592,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "M270 MLRS (DPICM)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Crew";
 
             class Turrets : Turrets {
@@ -1623,7 +1623,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "MH-6M MELB";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Pilot";
         };
 
@@ -1634,7 +1634,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "MH-6J Little Bird";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Pilot";
         };
 
@@ -1645,7 +1645,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "MH-6M Recon";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Pilot";
 
         };
@@ -1657,7 +1657,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "MH-6J Recon";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Pilot";
         };
 
@@ -1668,7 +1668,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "AH6X Littlebird ULB";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
         };
 
@@ -1679,7 +1679,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "AH-6M";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Pilot";
         };
 
@@ -1690,7 +1690,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "AH-6J";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Pilot";
         };
 
@@ -1701,7 +1701,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "UH-60M";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Pilot";
         };
 
@@ -1712,7 +1712,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "MH-60L DAP (4 Pylons)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Pilot";
 
         };
@@ -1724,7 +1724,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "MH-60L DAP (2 Pylons)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Pilot";
 
         };
@@ -1736,7 +1736,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "UH-60M (FFV)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Pilot";
 
         };
@@ -1748,7 +1748,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "UH-60M (Unarmed)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Pilot";
         };
 
@@ -1759,7 +1759,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "UH-60M (Unarmed/FFV)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Pilot";
         };
 
@@ -1770,7 +1770,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "UH-60M MEV (Unarmed/FFV)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Pilot";
         };
 
@@ -1781,7 +1781,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "AH-64D";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             crew = "CFP_B_USARMY_US_Pilot";
             typicalCargo[] = {"CFP_B_USARMY_US_Pilot"};
         };
@@ -1820,7 +1820,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "Rifleman";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             uniformClass = "CUP_U_B_USArmy_Base";
@@ -1845,7 +1845,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "Rifleman (ACOG)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             uniformClass = "CUP_U_B_USArmy_Base";
@@ -1871,7 +1871,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "UAV Operator";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             uniformClass = "CUP_U_B_USArmy_Base";
@@ -1898,7 +1898,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "Rifleman(Backpack)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             uniformClass = "CUP_U_B_USArmy_Base";
@@ -1923,7 +1923,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "Asst. Machinegunner";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             uniformClass = "CUP_U_B_USArmy_Base";
@@ -1950,7 +1950,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "Asst. Auto Rifleman";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             uniformClass = "CUP_U_B_USArmy_Base";
@@ -1977,7 +1977,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "Asst. AT Specialist (Javelin)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             uniformClass = "CUP_U_B_USArmy_Base";
@@ -2004,7 +2004,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "Asst. AT Specialist";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             uniformClass = "CUP_U_B_USArmy_Base";
@@ -2031,7 +2031,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "Rifleman (Light)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             uniformClass = "CUP_U_B_USArmy_UBACS";
@@ -2058,7 +2058,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "Grenadier";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             uniformClass = "CUP_U_B_USArmy_UBACS";
@@ -2085,7 +2085,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "Officer";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             uniformClass = "CUP_U_B_USArmy_Base";
@@ -2112,7 +2112,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "Squad Leader";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             uniformClass = "CUP_U_B_USArmy_TwoKnee";
@@ -2139,7 +2139,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "Team Leader";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             uniformClass = "CUP_U_B_USArmy_TwoKnee";
@@ -2166,7 +2166,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "Rifleman (AT)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             uniformClass = "CUP_U_B_USArmy_Base";
@@ -2193,7 +2193,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "AT Specialist";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             uniformClass = "CUP_U_B_USArmy_Base";
@@ -2220,7 +2220,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "AT Specialist (Javelin)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             uniformClass = "CUP_U_B_USArmy_Base";
@@ -2247,7 +2247,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "AA Specialist";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             uniformClass = "CUP_U_B_USArmy_Soft";
@@ -2274,7 +2274,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "Medic";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             uniformClass = "CUP_U_B_USArmy_Base";
@@ -2301,7 +2301,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "Automatic Rifleman";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             uniformClass = "CUP_U_B_USArmy_Soft";
@@ -2328,7 +2328,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "Machinegunner";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             uniformClass = "CUP_U_B_USArmy_Soft";
@@ -2355,7 +2355,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "Spotter";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             uniformClass = "CUP_U_B_BAF_DPM_Ghillie";
@@ -2382,7 +2382,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "Sniper";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             uniformClass = "CUP_U_B_BAF_DPM_Ghillie";
@@ -2409,7 +2409,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "Sniper (TWS)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             uniformClass = "CUP_U_B_BAF_DPM_Ghillie";
@@ -2436,7 +2436,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "Sniper (M107)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             uniformClass = "CUP_U_B_BAF_DPM_Ghillie";
@@ -2463,7 +2463,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "Marksman";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             uniformClass = "CUP_U_B_USArmy_UBACS";
@@ -2490,7 +2490,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "Sapper";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             uniformClass = "CUP_U_B_USArmy_TwoKnee";
@@ -2517,7 +2517,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "EOD Engineer";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             uniformClass = "CUP_U_B_USArmy_TwoKnee";
@@ -2544,7 +2544,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "Engineer";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             uniformClass = "CUP_U_B_USArmy_TwoKnee";
@@ -2571,7 +2571,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "Crewman";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             uniformClass = "CUP_U_B_USArmy_Base";
@@ -2598,7 +2598,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "Pilot";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             uniformClass = "CUP_U_B_USArmy_PilotOverall";
@@ -2625,7 +2625,7 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "Pilot (Unarmed";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             uniformClass = "CUP_U_B_USArmy_PilotOverall";
@@ -2655,7 +2655,7 @@ class CfgVehicles {
             editorSubCategory = "CFP_EdSubcat_Personnel_DeltaForce";
             displayName = "Operator";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             accuracy = 3.9;
             canHideBodies = 1;
@@ -2683,7 +2683,7 @@ class CfgVehicles {
             editorSubCategory = "CFP_EdSubcat_Personnel_DeltaForce";
             displayName = "UAV Controller";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             accuracy = 3.9;
@@ -2714,7 +2714,7 @@ class CfgVehicles {
             editorSubCategory = "CFP_EdSubcat_Personnel_DeltaForce";
             displayName = "Team Leader";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
 
@@ -2744,7 +2744,7 @@ class CfgVehicles {
             editorSubCategory = "CFP_EdSubcat_Personnel_DeltaForce";
             displayName = "Medic";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             accuracy = 3.9;
@@ -2775,7 +2775,7 @@ class CfgVehicles {
             editorSubCategory = "CFP_EdSubcat_Personnel_DeltaForce";
             displayName = "Operator (Assault)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             accuracy = 3.9;
@@ -2806,7 +2806,7 @@ class CfgVehicles {
             editorSubCategory = "CFP_EdSubcat_Personnel_DeltaForce";
             displayName = "Operator (Silenced)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             accuracy = 3.9;
@@ -2837,7 +2837,7 @@ class CfgVehicles {
             editorSubCategory = "CFP_EdSubcat_Personnel_DeltaForce";
             displayName = "Machinegunner";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             accuracy = 3.9;
@@ -2868,7 +2868,7 @@ class CfgVehicles {
             editorSubCategory = "CFP_EdSubcat_Personnel_DeltaForce";
             displayName = "Automatic Rifleman";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             accuracy = 3.9;
@@ -2899,7 +2899,7 @@ class CfgVehicles {
             editorSubCategory = "CFP_EdSubcat_Personnel_DeltaForce";
             displayName = "Operator (Night Assault)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             accuracy = 3.9;
@@ -2930,7 +2930,7 @@ class CfgVehicles {
             editorSubCategory = "CFP_EdSubcat_Personnel_DeltaForce";
             displayName = "Marksman";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             accuracy = 3.9;
@@ -2961,7 +2961,7 @@ class CfgVehicles {
             editorSubCategory = "CFP_EdSubcat_Personnel_DeltaForce";
             displayName = "Operator (M14)";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             accuracy = 3.9;
@@ -2992,7 +2992,7 @@ class CfgVehicles {
             editorSubCategory = "CFP_EdSubcat_Personnel_DeltaForce";
             displayName = "Forward Air Controller";
             side = 1;
-            faction = "CFP_B_USArmy_WDL";
+            faction = "CFP_B_USARMY_WDL";
 
             identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
             accuracy = 3.9;

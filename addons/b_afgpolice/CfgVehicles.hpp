@@ -31,7 +31,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then { _onSpawn = { private _unit = _this select 0; sleep 0.2; private _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _unit) >> 'backpack'); waituntil {sleep 0.2; backpack _unit == _backpack}; _unit setunitloadout [ ['CUP_arifle_AK74','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],[],[], ['SP_0000_Standard_FieldUniform_BlueFrost',[['CUP_30Rnd_545x39_AK_M',3,30]]], ['SP_Modular1_Black',[['CUP_30Rnd_545x39_AK_M',5,30]]],[], 'SP_PatrolCap_BlueFrost','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']]; [_this,'AFG_NationalPolice'] call BIS_fnc_setUnitInsignia; reload _unit; };_this spawn _onSpawn; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then { _onSpawn = { private _unit = _this select 0; sleep 0.2; private _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _unit) >> 'backpack'); waituntil {sleep 0.2; backpack _unit == _backpack}; _unit setunitloadout [ ['CUP_arifle_AK74','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],[],[], ['SP_0000_Standard_FieldUniform_BlueFrost',[['CUP_30Rnd_545x39_AK_M',3,30]]], ['SP_Modular1_Black',[['CUP_30Rnd_545x39_AK_M',5,30]]],[], 'SP_PatrolCap_BlueFrost','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']]; [_unit,'AFG_NationalPolice'] call BIS_fnc_setUnitInsignia; reload _unit; };_this spawn _onSpawn; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -186,7 +186,7 @@ class CfgVehicles {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Rifleman AT [RPG] TEST";
+        displayName = "Rifleman AT [RPG]";
         side = 1;
         faction = "CFP_B_AFGPolice";
 

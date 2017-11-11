@@ -38,7 +38,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "CH-53G Super Stallion (VIV)";
         side = 1;
-        faction = "CFP_B_DEArmy_WDL";
+        faction = "CFP_B_DEARMY_WDL";
         crew = "CFP_B_DEARMY_Pilot_WDL_01";
 
         class Turrets : Turrets {
@@ -67,7 +67,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "CH-53G Super Stallion";
         side = 1;
-        faction = "CFP_B_DEArmy_WDL";
+        faction = "CFP_B_DEARMY_WDL";
         crew = "CFP_B_DEARMY_Pilot_WDL_01";
 
         class Turrets : Turrets {

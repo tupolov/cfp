@@ -1,16 +1,16 @@
 class CfgGroups {
     class WEST {
 
-        class CUP_B_US_Army {
+        class CUP_B_US_ARMY {
             name = "US Army (Arid / Desert)";
 
             class Infantry {
                 name = "Infantry";
 
-                class CUP_B_US_Army_RifleSquad {
+                class CUP_B_US_ARMY_RifleSquad {
                     name = "Rifle Squad";
                     side = 1;
-                    faction = "CUP_B_US_Army";
+                    faction = "CUP_B_US_ARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.5;
 
@@ -70,10 +70,10 @@ class CfgGroups {
                     };
                 };
 
-                class CUP_B_US_Army_WeaponsSquad {
+                class CUP_B_US_ARMY_WeaponsSquad {
                     name = "Weapons Squad";
                     side = 1;
-                    faction = "CUP_B_US_Army";
+                    faction = "CUP_B_US_ARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.5;
 
@@ -127,10 +127,10 @@ class CfgGroups {
                     };
                 };
 
-                class CUP_B_US_Army_Team {
+                class CUP_B_US_ARMY_Team {
                     name = "Team";
                     side = 1;
-                    faction = "CUP_B_US_Army";
+                    faction = "CUP_B_US_ARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.3;
 
@@ -160,10 +160,10 @@ class CfgGroups {
                     };
                 };
 
-                class CUP_B_US_Army_TeamMG {
+                class CUP_B_US_ARMY_TeamMG {
                     name = "Team (MG)";
                     side = 1;
-                    faction = "CUP_B_US_Army";
+                    faction = "CUP_B_US_ARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.1;
 
@@ -193,10 +193,10 @@ class CfgGroups {
                     };
                 };
 
-                class CUP_B_US_Army_TeamAT {
+                class CUP_B_US_ARMY_TeamAT {
                     name = "Team (AT)";
                     side = 1;
-                    faction = "CUP_B_US_Army";
+                    faction = "CUP_B_US_ARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.1;
 
@@ -226,10 +226,10 @@ class CfgGroups {
                     };
                 };
 
-                class CUP_B_US_Army_TeamSupport {
+                class CUP_B_US_ARMY_TeamSupport {
                     name = "Team (Support)";
                     side = 1;
-                    faction = "CUP_B_US_Army";
+                    faction = "CUP_B_US_ARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.1;
 
@@ -259,10 +259,10 @@ class CfgGroups {
                     };
                 };
 
-                class CUP_B_US_Army_HeavyATTeam {
+                class CUP_B_US_ARMY_HeavyATTeam {
                     name = "Heavy AT Team";
                     side = 1;
-                    faction = "CUP_B_US_Army";
+                    faction = "CUP_B_US_ARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.1;
 
@@ -286,10 +286,10 @@ class CfgGroups {
                     };
                 };
 
-                class CUP_B_US_Army_SniperTeam {
+                class CUP_B_US_ARMY_SniperTeam {
                     name = "Sniper Team";
                     side = 1;
-                    faction = "CUP_B_US_Army";
+                    faction = "CUP_B_US_ARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.05;
 
@@ -313,16 +313,16 @@ class CfgGroups {
                     };
                 };
 
-                delete CUP_B_US_Army_DeltaForceTeam;
+                delete CUP_B_US_ARMY_DeltaForceTeam;
 
             };
 
             class SpecOps {
                 name = "Special Forces";
-                class CUP_B_US_Army_DeltaForceTeam {
+                class CUP_B_US_ARMY_DeltaForceTeam {
                     name = "Delta Force Team";
                     side = 1;
-                    faction = "CUP_B_US_Army";
+                    faction = "CUP_B_US_ARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.5;
 
@@ -351,10 +351,10 @@ class CfgGroups {
                         vehicle = "CUP_B_US_SpecOps_M";
                     };
                 };
-                class CUP_B_US_Army_DeltaPatrolHMMWV {
+                class CUP_B_US_ARMY_DeltaPatrolHMMWV {
                     name = "Delta Patrol (HMMWV)";
                     side = 1;
-                    faction = "CUP_B_US_Army";
+                    faction = "CUP_B_US_ARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -388,10 +388,10 @@ class CfgGroups {
             class Motorized {
                 name = "Motorized Infantry";
 
-                class CUP_B_US_Army_MotorizedSection {
+                class CUP_B_US_ARMY_MotorizedSection {
                     name = "Motorized Section";
                     side = 1;
-                    faction = "CUP_B_US_Army";
+                    faction = "CUP_B_US_ARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
                     rarityGroup = 0.2;
 
@@ -445,10 +445,10 @@ class CfgGroups {
                     };
                 };
 
-                class CUP_B_US_Army_MotorizedSectionAT {
+                class CUP_B_US_ARMY_MotorizedSectionAT {
                     name = "Motorized Section (AT)";
                     side = 1;
-                    faction = "CUP_B_US_Army";
+                    faction = "CUP_B_US_ARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
                     rarityGroup = 0.15;
 
@@ -478,7 +478,7 @@ class CfgGroups {
                     };
                 };
 
-                delete CUP_B_US_Army_DeltaPatrolHMMWV;
+                delete CUP_B_US_ARMY_DeltaPatrolHMMWV;
 
             };
 
@@ -495,10 +495,10 @@ class CfgGroups {
             class Mechanized {
                 name = "Mechanized Infantry";
 
-                class CUP_B_US_Army_MechanizedInfantrySquadICVM2 {
+                class CUP_B_US_ARMY_MechanizedInfantrySquadICVM2 {
                     name = "Mechanized Infantry Squad (ICV M2)";
                     side = 1;
-                    faction = "CUP_B_US_Army";
+                    faction = "CUP_B_US_ARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
                     rarityGroup = 0.9;
 
@@ -564,10 +564,10 @@ class CfgGroups {
                     };
                 };
 
-                class CUP_B_US_Army_MechanizedInfantrySquadICVMK19 {
+                class CUP_B_US_ARMY_MechanizedInfantrySquadICVMK19 {
                     name = "Mechanized Infantry Squad (ICV MK19)";
                     side = 1;
-                    faction = "CUP_B_US_Army";
+                    faction = "CUP_B_US_ARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
                     rarityGroup = 0.9;
 
@@ -633,10 +633,10 @@ class CfgGroups {
                     };
                 };
 
-                class CUP_B_US_Army_MechanizedReconSection {
+                class CUP_B_US_ARMY_MechanizedReconSection {
                     name = "Mechanized Recon Section";
                     side = 1;
-                    faction = "CUP_B_US_Army";
+                    faction = "CUP_B_US_ARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
                     rarityGroup = 0.6;
 
@@ -689,10 +689,10 @@ class CfgGroups {
             class Armored {
                 name = "Armor";
 
-                class CUP_B_US_Army_MGSPlatoon {
+                class CUP_B_US_ARMY_MGSPlatoon {
                     name = "Stryker MGS Platoon";
                     side = 1;
-                    faction = "CUP_B_US_Army";
+                    faction = "CUP_B_US_ARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_armor.paa";
                     rarityGroup = 0.05;
 
@@ -716,10 +716,10 @@ class CfgGroups {
                     };
                 };
 
-                class CUP_B_US_Army_M1A2Platoon {
+                class CUP_B_US_ARMY_M1A2Platoon {
                     name = "M1A2 Platoon";
                     side = 1;
-                    faction = "CUP_B_US_Army";
+                    faction = "CUP_B_US_ARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_armor.paa";
                     rarityGroup = 0.05;
 
@@ -749,10 +749,10 @@ class CfgGroups {
                     };
                 };
 
-                class CUP_B_US_Army_M1A1Platoon {
+                class CUP_B_US_ARMY_M1A1Platoon {
                     name = "M1A1 Platoon";
                     side = 1;
-                    faction = "CUP_B_US_Army";
+                    faction = "CUP_B_US_ARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_armor.paa";
                     rarityGroup = 0.05;
 
@@ -782,10 +782,10 @@ class CfgGroups {
                     };
                 };
 
-                class CUP_B_US_Army_M1A2Section {
+                class CUP_B_US_ARMY_M1A2Section {
                     name = "M1A2 Section";
                     side = 1;
-                    faction = "CUP_B_US_Army";
+                    faction = "CUP_B_US_ARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_armor.paa";
                     rarityGroup = 0.05;
 
@@ -808,10 +808,10 @@ class CfgGroups {
             class Artillery {
                 name = "Artillery";
 
-                class cfp_b_usarmy_artillery_vads_squadron_wdl {
+                class CFP_B_USARMY_artillery_vads_squadron_wdl {
                     name = "VADS Squadron";
                     side = 1;
-                    faction = "CFP_B_USArmy_WDL";
+                    faction = "CFP_B_USARMY_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_art.paa";
                     rarityGroup = 0.5;
 
@@ -829,10 +829,10 @@ class CfgGroups {
                     };
                 };
 
-                class cfp_b_usarmy_artillery_linebacker_squadron_wdl {
+                class CFP_B_USARMY_artillery_linebacker_squadron_wdl {
                     name = "Linebacker Squadron";
                     side = 1;
-                    faction = "CFP_B_USArmy_WDL";
+                    faction = "CFP_B_USARMY_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_art.paa";
                     rarityGroup = 0.5;
 
@@ -850,10 +850,10 @@ class CfgGroups {
                     };
                 };
 
-                class cfp_b_usarmy_artillery_avenger_squadron_wdl {
+                class CFP_B_USARMY_artillery_avenger_squadron_wdl {
                     name = "Avenger Squadron";
                     side = 1;
-                    faction = "CFP_B_USArmy_WDL";
+                    faction = "CFP_B_USARMY_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_art.paa";
                     rarityGroup = 0.5;
 
@@ -871,10 +871,10 @@ class CfgGroups {
                     };
                 };
 
-                class cfp_b_usarmy_wdl_artillery_mrls_squadron {
+                class CFP_B_USARMY_WDL_artillery_mrls_squadron {
                     name = "MRLS Squadron";
                     side = 1;
-                    faction = "CFP_B_USArmy_WDL";
+                    faction = "CFP_B_USARMY_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_art.paa";
                     rarityGroup = 0.5;
 
@@ -898,10 +898,10 @@ class CfgGroups {
                     };
                 };
 
-                class cfp_b_usarmy_wdl_artillery_stryker_squadron {
+                class CFP_B_USARMY_WDL_artillery_stryker_squadron {
                     name = "Stryker Squadron";
                     side = 1;
-                    faction = "CFP_B_USArmy_WDL";
+                    faction = "CFP_B_USARMY_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_art.paa";
                     rarityGroup = 0.5;
 
@@ -935,10 +935,10 @@ class CfgGroups {
             class Air {
                 name = "Air";
 
-                class CUP_B_US_Army_A10Flight {
+                class CUP_B_US_ARMY_A10Flight {
                     name = "A-10 Flight";
                     side = 1;
-                    faction = "CUP_B_US_Army";
+                    faction = "CUP_B_US_ARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_plane.paa";
                     rarityGroup = 0.3;
 
@@ -956,10 +956,10 @@ class CfgGroups {
                     };
                 };
 
-                class CUP_B_US_Army_AH64DFlight {
+                class CUP_B_US_ARMY_AH64DFlight {
                     name = "AH-64D Flight";
                     side = 1;
-                    faction = "CUP_B_US_Army";
+                    faction = "CUP_B_US_ARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
                     rarityGroup = 0.3;
 
@@ -971,10 +971,10 @@ class CfgGroups {
                     };
                 };
 
-                class CUP_B_US_Army_C130JFlight {
+                class CUP_B_US_ARMY_C130JFlight {
                     name = "C-130J Flight";
                     side = 1;
-                    faction = "CUP_B_US_Army";
+                    faction = "CUP_B_US_ARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_plane.paa";
                     rarityGroup = 0.3;
 
@@ -986,10 +986,10 @@ class CfgGroups {
                     };
                 };
 
-                class CUP_B_US_Army_CH47FFlight {
+                class CUP_B_US_ARMY_CH47FFlight {
                     name = "CH-47F Flight";
                     side = 1;
-                    faction = "CUP_B_US_Army";
+                    faction = "CUP_B_US_ARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
                     rarityGroup = 0.3;
 

@@ -10,9 +10,9 @@ TO DO
 10. Add units, weapons etc to CfgPatches
 11. Add updated CUP factions
 12. Add new factions
-13. Test Make.py
 14. Add country insignias
 15. Redo Brit woodland vehicle inheritance
-16. Fix backpack Carryall that has overwritten texture
 17. Add randomisation functionality to ORBATRON
-18. 
+18. merge uniforms
+19. BAF Woodland import issue
+20. Covert tabs to spaces

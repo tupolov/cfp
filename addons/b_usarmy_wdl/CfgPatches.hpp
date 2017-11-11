@@ -1,5 +1,5 @@
 class CfgPatches {
-    class CFP_B_USArmy_WDL {
+    class CFP_B_USARMY_WDL {
         units[] = {
 
         };

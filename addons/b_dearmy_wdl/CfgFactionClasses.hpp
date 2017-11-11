@@ -5,7 +5,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 class CfgFactionClasses {
-    class CFP_B_DEArmy_WDL {
+    class CFP_B_DEARMY_WDL {
         displayName = "Bundeswehr (Jungle / Woodland)";
         side = 1;
         flag = "CUP\BaseConfigs\CUP_BaseConfigs\Data\Flags\flag_ger_co.paa";

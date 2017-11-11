@@ -111,13 +111,13 @@ class CfgVehicles {
     };
 
 
-    class CFP_o_tban_Team_Leader_01 : CUP_O_TK_INS_Soldier_TL_OCimport_02 {
+    class CFP_O_TBAN_Team_Leader_01 : CUP_O_TK_INS_Soldier_TL_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Team Leader";
         side = 0;
-        faction = "cfp_o_tban";
+        faction = "CFP_O_TBAN";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
         uniformClass = "CUP_O_TKI_Khet_Partug_06";
@@ -138,13 +138,13 @@ class CfgVehicles {
 
     };
 
-    class CFP_o_tban_Rifleman_AK_74_01 : CUP_O_TK_INS_Soldier_OCimport_02 {
+    class CFP_O_TBAN_Rifleman_AK_74_01 : CUP_O_TK_INS_Soldier_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman [AK-74]";
         side = 0;
-        faction = "cfp_o_tban";
+        faction = "CFP_O_TBAN";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
         uniformClass = "CUP_O_TKI_Khet_Partug_06";
@@ -165,13 +165,13 @@ class CfgVehicles {
 
     };
 
-    class CFP_o_tban_Rifleman_AK_47_01 : CUP_O_TK_INS_Soldier_OCimport_02 {
+    class CFP_O_TBAN_Rifleman_AK_47_01 : CUP_O_TK_INS_Soldier_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman [AK-47]";
         side = 0;
-        faction = "cfp_o_tban";
+        faction = "CFP_O_TBAN";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
         uniformClass = "CUP_O_TKI_Khet_Partug_08";
@@ -192,13 +192,13 @@ class CfgVehicles {
 
     };
 
-    class CFP_o_tban_Grenadier_AK_74_01 : CUP_O_TK_INS_Soldier_GL_OCimport_02 {
+    class CFP_O_TBAN_Grenadier_AK_74_01 : CUP_O_TK_INS_Soldier_GL_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Grenadier [AK-74]";
         side = 0;
-        faction = "cfp_o_tban";
+        faction = "CFP_O_TBAN";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
         uniformClass = "CUP_O_TKI_Khet_Partug_04";
@@ -219,13 +219,13 @@ class CfgVehicles {
 
     };
 
-    class CFP_o_tban_Rifleman_Lee_Enfield_01 : CUP_O_TK_INS_Soldier_Enfield_OCimport_02 {
+    class CFP_O_TBAN_Rifleman_Lee_Enfield_01 : CUP_O_TK_INS_Soldier_Enfield_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman [Lee-Enfield]";
         side = 0;
-        faction = "cfp_o_tban";
+        faction = "CFP_O_TBAN";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
         uniformClass = "CUP_O_TKI_Khet_Partug_06";
@@ -246,13 +246,13 @@ class CfgVehicles {
 
     };
 
-    class CFP_o_tban_Sniper_01 : CUP_O_TK_INS_Sniper_OCimport_02 {
+    class CFP_O_TBAN_Sniper_01 : CUP_O_TK_INS_Sniper_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Sniper";
         side = 0;
-        faction = "cfp_o_tban";
+        faction = "CFP_O_TBAN";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
         uniformClass = "CUP_O_TKI_Khet_Partug_04";
@@ -273,13 +273,13 @@ class CfgVehicles {
 
     };
 
-    class CFP_o_tban_Machine_Gunner_01 : CUP_O_TK_INS_Soldier_MG_OCimport_02 {
+    class CFP_O_TBAN_Machine_Gunner_01 : CUP_O_TK_INS_Soldier_MG_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Machine Gunner";
         side = 0;
-        faction = "cfp_o_tban";
+        faction = "CFP_O_TBAN";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
         uniformClass = "CUP_O_TKI_Khet_Partug_04";
@@ -300,13 +300,13 @@ class CfgVehicles {
 
     };
 
-    class CFP_o_tban_Team_Leader_AK_47_01 : CUP_O_TK_INS_Soldier_FNFAL_OCimport_02 {
+    class CFP_O_TBAN_Team_Leader_AK_47_01 : CUP_O_TK_INS_Soldier_FNFAL_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Team Leader [AK-47]";
         side = 0;
-        faction = "cfp_o_tban";
+        faction = "CFP_O_TBAN";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
         uniformClass = "CUP_O_TKI_Khet_Partug_02";
@@ -327,13 +327,13 @@ class CfgVehicles {
 
     };
 
-    class CFP_o_tban_Rifleman_AK_47_02 : CUP_O_TK_INS_Soldier_OCimport_02 {
+    class CFP_O_TBAN_Rifleman_AK_47_02 : CUP_O_TK_INS_Soldier_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman [AK-47 2]";
         side = 0;
-        faction = "cfp_o_tban";
+        faction = "CFP_O_TBAN";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
         uniformClass = "CUP_O_TKI_Khet_Partug_06";
@@ -354,13 +354,13 @@ class CfgVehicles {
 
     };
 
-    class CFP_o_tban_Rifleman_Lee_Enfield_02 : CUP_O_TK_INS_Soldier_Enfield_OCimport_02 {
+    class CFP_O_TBAN_Rifleman_Lee_Enfield_02 : CUP_O_TK_INS_Soldier_Enfield_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman [Lee-Enfield 2]";
         side = 0;
-        faction = "cfp_o_tban";
+        faction = "CFP_O_TBAN";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
         uniformClass = "CUP_O_TKI_Khet_Partug_04";
@@ -381,13 +381,13 @@ class CfgVehicles {
 
     };
 
-    class CFP_o_tban_Machine_Gunner_2_01 : CUP_O_TK_INS_Soldier_MG_OCimport_02 {
+    class CFP_O_TBAN_Machine_Gunner_2_01 : CUP_O_TK_INS_Soldier_MG_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Machine Gunner 2";
         side = 0;
-        faction = "cfp_o_tban";
+        faction = "CFP_O_TBAN";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
         uniformClass = "CUP_O_TKI_Khet_Partug_02";
@@ -408,13 +408,13 @@ class CfgVehicles {
 
     };
 
-    class CFP_o_tban_AT_Rifleman_01 : CUP_O_TK_INS_Soldier_AT_OCimport_02 {
+    class CFP_O_TBAN_AT_Rifleman_01 : CUP_O_TK_INS_Soldier_AT_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "AT Rifleman";
         side = 0;
-        faction = "cfp_o_tban";
+        faction = "CFP_O_TBAN";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
         uniformClass = "CUP_O_TKI_Khet_Partug_02";
@@ -435,13 +435,13 @@ class CfgVehicles {
 
     };
 
-    class CFP_o_tban_AT_Rifleman_2_01 : CUP_O_TK_INS_Soldier_AT_OCimport_02 {
+    class CFP_O_TBAN_AT_Rifleman_2_01 : CUP_O_TK_INS_Soldier_AT_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "AT Rifleman 2";
         side = 0;
-        faction = "cfp_o_tban";
+        faction = "CFP_O_TBAN";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
         uniformClass = "CUP_O_TKI_Khet_Partug_04";
@@ -462,13 +462,13 @@ class CfgVehicles {
 
     };
 
-    class CFP_o_tban_Grenadier_AK_74_02 : CUP_O_TK_INS_Soldier_GL_OCimport_02 {
+    class CFP_O_TBAN_Grenadier_AK_74_02 : CUP_O_TK_INS_Soldier_GL_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Grenadier [AK-74 2]";
         side = 0;
-        faction = "cfp_o_tban";
+        faction = "CFP_O_TBAN";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
         uniformClass = "CUP_O_TKI_Khet_Partug_06";
@@ -489,13 +489,13 @@ class CfgVehicles {
 
     };
 
-    class CFP_o_tban_Medic_Lee_Enfield_01 : CUP_O_TK_INS_Guerilla_Medic_OCimport_02 {
+    class CFP_O_TBAN_Medic_Lee_Enfield_01 : CUP_O_TK_INS_Guerilla_Medic_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Medic [Lee Enfield]";
         side = 0;
-        faction = "cfp_o_tban";
+        faction = "CFP_O_TBAN";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
         uniformClass = "CUP_O_TKI_Khet_Partug_02";
@@ -516,13 +516,13 @@ class CfgVehicles {
 
     };
 
-    class CFP_o_tban_Medic_AK_47_01 : CUP_O_TK_INS_Guerilla_Medic_OCimport_02 {
+    class CFP_O_TBAN_Medic_AK_47_01 : CUP_O_TK_INS_Guerilla_Medic_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Medic [AK-47]";
         side = 0;
-        faction = "cfp_o_tban";
+        faction = "CFP_O_TBAN";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
         uniformClass = "CUP_O_TKI_Khet_Partug_04";
@@ -543,13 +543,13 @@ class CfgVehicles {
 
     };
 
-    class CFP_o_tban_Explosive_Specialist_01 : CUP_O_TK_INS_Bomber_OCimport_02 {
+    class CFP_O_TBAN_Explosive_Specialist_01 : CUP_O_TK_INS_Bomber_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Explosive Specialist";
         side = 0;
-        faction = "cfp_o_tban";
+        faction = "CFP_O_TBAN";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
         uniformClass = "CUP_O_TKI_Khet_Partug_08";
@@ -570,13 +570,13 @@ class CfgVehicles {
 
     };
 
-    class CFP_o_tban_Explosive_Specialist_Lee_Enfield_01 : CUP_O_TK_INS_Bomber_OCimport_02 {
+    class CFP_O_TBAN_Explosive_Specialist_Lee_Enfield_01 : CUP_O_TK_INS_Bomber_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Explosive Specialist [Lee Enfield]";
         side = 0;
-        faction = "cfp_o_tban";
+        faction = "CFP_O_TBAN";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
         uniformClass = "CUP_O_TKI_Khet_Partug_06";
@@ -597,13 +597,13 @@ class CfgVehicles {
 
     };
 
-    class CFP_o_tban_Gunner_DShKM_01 : CUP_O_TK_INS_Soldier_OCimport_02 {
+    class CFP_O_TBAN_Gunner_DShKM_01 : CUP_O_TK_INS_Soldier_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Gunner [DShKM]";
         side = 0;
-        faction = "cfp_o_tban";
+        faction = "CFP_O_TBAN";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
         uniformClass = "CUP_O_TKI_Khet_Partug_04";
@@ -624,13 +624,13 @@ class CfgVehicles {
 
     };
 
-    class CFP_o_tban_Gunner_Low_DShKM_01 : CUP_O_TK_INS_Soldier_OCimport_02 {
+    class CFP_O_TBAN_Gunner_Low_DShKM_01 : CUP_O_TK_INS_Soldier_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Gunner [Low DShKM]";
         side = 0;
-        faction = "cfp_o_tban";
+        faction = "CFP_O_TBAN";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
         uniformClass = "CUP_O_TKI_Khet_Partug_02";
@@ -651,13 +651,13 @@ class CfgVehicles {
 
     };
 
-    class CFP_o_tban_Gunner_Mortar_01 : CUP_O_TK_INS_Soldier_OCimport_02 {
+    class CFP_O_TBAN_Gunner_Mortar_01 : CUP_O_TK_INS_Soldier_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Gunner [Mortar}";
         side = 0;
-        faction = "cfp_o_tban";
+        faction = "CFP_O_TBAN";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
         uniformClass = "CUP_O_TKI_Khet_Partug_02";
@@ -678,13 +678,13 @@ class CfgVehicles {
 
     };
 
-    class CFP_o_tban_Gunner_SPG_01 : CUP_O_TK_INS_Soldier_OCimport_02 {
+    class CFP_O_TBAN_Gunner_SPG_01 : CUP_O_TK_INS_Soldier_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Gunner [SPG-9]";
         side = 0;
-        faction = "cfp_o_tban";
+        faction = "CFP_O_TBAN";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
         uniformClass = "CUP_O_TKI_Khet_Partug_06";
@@ -705,17 +705,17 @@ class CfgVehicles {
 
     };
 
-    class CFP_o_tban_Technical_PK_01 : CUP_I_Datsun_PK_TK_OCimport_02 {
+    class CFP_O_TBAN_Technical_PK_01 : CUP_I_Datsun_PK_TK_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Technical [PK]";
         side = 0;
-        faction = "cfp_o_tban";
-        crew = "CFP_o_tban_Team_Leader_01";
+        faction = "CFP_O_TBAN";
+        crew = "CFP_O_TBAN_Team_Leader_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_o_tban_Rifleman_AK_74_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_O_TBAN_Rifleman_AK_74_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
         };
@@ -736,14 +736,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_o_tban_Praga_V3S_01 : CUP_I_V3S_Open_TKG_OCimport_02 {
+    class CFP_O_TBAN_Praga_V3S_01 : CUP_I_V3S_Open_TKG_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Praga V3S";
         side = 0;
-        faction = "cfp_o_tban";
-        crew = "CFP_o_tban_Rifleman_AK_47_02";
+        faction = "CFP_O_TBAN";
+        crew = "CFP_O_TBAN_Rifleman_AK_47_02";
 
 
         class EventHandlers : EventHandlers {
@@ -760,17 +760,17 @@ class CfgVehicles {
 
     };
 
-    class CFP_o_tban_Offroad_Armed_01 : O_G_Offroad_01_armed_F_OCimport_02 {
+    class CFP_O_TBAN_Offroad_Armed_01 : O_G_Offroad_01_armed_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Offroad [Armed]";
         side = 0;
-        faction = "cfp_o_tban";
-        crew = "CFP_o_tban_Rifleman_AK_47_01";
+        faction = "CFP_O_TBAN";
+        crew = "CFP_O_TBAN_Rifleman_AK_47_01";
 
         class Turrets : Turrets {
-            class M2_Turret : M2_Turret { gunnerType = "CFP_o_tban_Grenadier_AK_74_01"; };
+            class M2_Turret : M2_Turret { gunnerType = "CFP_O_TBAN_Grenadier_AK_74_01"; };
         };
 
 
@@ -789,14 +789,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_o_tban_Truck_01 : O_G_Van_01_transport_F_OCimport_02 {
+    class CFP_O_TBAN_Truck_01 : O_G_Van_01_transport_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Truck";
         side = 0;
-        faction = "cfp_o_tban";
-        crew = "CFP_o_tban_Grenadier_AK_74_02";
+        faction = "CFP_O_TBAN";
+        crew = "CFP_O_TBAN_Grenadier_AK_74_02";
 
         class Turrets : Turrets {
             class CargoTurret_L1 : CargoTurret_L1 { gunnerType = ""; };
@@ -827,17 +827,17 @@ class CfgVehicles {
 
     };
 
-    class CFP_o_tban_Ural_ZU_23_01 : CUP_I_Ural_ZU23_TK_Gue_OCimport_02 {
+    class CFP_O_TBAN_Ural_ZU_23_01 : CUP_I_Ural_ZU23_TK_Gue_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Ural [ZU-23]";
         side = 0;
-        faction = "cfp_o_tban";
-        crew = "CFP_o_tban_Rifleman_Lee_Enfield_01";
+        faction = "CFP_O_TBAN";
+        crew = "CFP_O_TBAN_Rifleman_Lee_Enfield_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_o_tban_Team_Leader_AK_47_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_O_TBAN_Team_Leader_AK_47_01"; };
         };
 
 
@@ -856,14 +856,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_o_tban_Dastun_Pickup_01 : CUP_C_Datsun_OCimport_02 {
+    class CFP_O_TBAN_Dastun_Pickup_01 : CUP_C_Datsun_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Dastun Pickup";
         side = 0;
-        faction = "cfp_o_tban";
-        crew = "CFP_o_tban_Rifleman_Lee_Enfield_02";
+        faction = "CFP_O_TBAN";
+        crew = "CFP_O_TBAN_Rifleman_Lee_Enfield_02";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -886,13 +886,13 @@ class CfgVehicles {
 
     };
 
-    class CFP_o_tban_Sniper_2_01 : CUP_O_TK_INS_Sniper_OCimport_02 {
+    class CFP_O_TBAN_Sniper_2_01 : CUP_O_TK_INS_Sniper_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Sniper 2";
         side = 0;
-        faction = "cfp_o_tban";
+        faction = "CFP_O_TBAN";
 
         identityTypes[] = { "Head_TK" , "G_IRAN_default" };
         uniformClass = "CUP_O_TKI_Khet_Partug_08";

@@ -7,7 +7,7 @@
 class CfgGroups {
     class WEST {
 
-        class CFP_B_DEArmy_WDL {
+        class CFP_B_DEARMY_WDL {
             name = "Bundeswehr (Jungle / Woodland)";
 
             class Infantry {
@@ -274,7 +274,7 @@ class CfgGroups {
                 class cfp_b_dearmy_motorized_special_forces_recon_patrol_wdl {
                     name = "Special Forces Recon Patrol";
                     side = 1;
-                    faction = "CFP_B_DEArmy_WDL";
+                    faction = "CFP_B_DEARMY_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -307,7 +307,7 @@ class CfgGroups {
                 class cfp_b_dearmy_motorized_special_forces_patrol_wdl {
                     name = "Special Forces Patrol";
                     side = 1;
-                    faction = "CFP_B_DEArmy_WDL";
+                    faction = "CFP_B_DEARMY_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
                     rarityGroup = 0.6;
 
@@ -411,7 +411,7 @@ class CfgGroups {
                 class cfp_b_dearmy_air_uh_1d_flight_wdl {
                     name = "UH-1D Flight";
                     side = 1;
-                    faction = "CFP_B_DEArmy_WDL";
+                    faction = "CFP_B_DEARMY_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
                     rarityGroup = 0.3;
 
