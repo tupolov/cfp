@@ -13,12 +13,12 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "M163A1 VADS";
             side = 1;
-            faction = "CUP_B_US_ARMY";
+            faction = "CUP_B_US_Army";
             crew = "CUP_B_US_Crew";
             typicalCargo[] = {"CUP_B_US_Crew","CUP_B_US_Crew","CUP_B_US_Crew","CUP_B_US_Crew"}; //Placeholder
             hiddenSelectionsTextures[] =
             {
-                "x\cfp\addons\CUP_B_US_ARMY\data\m163_vulcan_01_desert_co.paa",
+                "x\cfp\addons\CUP_B_US_Army\data\m163_vulcan_01_desert_co.paa",
                 "cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m163_vulcansp_02_co.paa"
             };
             editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_M113\Data\preview\CUP_B_M163_USA.jpg";
