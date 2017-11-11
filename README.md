@@ -25,7 +25,7 @@
 
 CFP offers not only enhanced vanilla CUP factions but also a huge number of new factions using CUP and community donated assets. CFP includes custom assets and textures in order to help expand whats possible with CUP. 
 
-CFP Ultimate enhances base CFP factions and introduces new factions using the most efficient combination of community gear, weapon and vehicle addons. CPF Ultimate requires VSM, SMA, NIArms, VME PLA and xxx. 
+CFP Ultimate enhances base CFP factions and introduces new factions using the most efficient combination of community gear, weapon and vehicle addons. CFP Ultimate requires VSM, SMA, NIArms, VME PLA and xxx. 
 
 Factions are delivered in a modular way, enabling groups to maintain their own tailored version of CFP by simply excluding any components they don't need, or those possibly in conflict with other mods. 
 
@@ -54,6 +54,7 @@ Factions are delivered in a modular way, enabling groups to maintain their own t
 -
 
 ### BLUFOR
+- Afghan Police
 - British Army factions specifically for Arid/Desert, Woodland/Jungle and including special forces (SAS, SBS, SRR)
 - Bundeswehr Army for each theater, specifically KSK special forces.
 - US Army factions specifically for Arid/Desert, Woodland/Jungle and including special forces (Delta, Green Beret, SOAR)
