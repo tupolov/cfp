@@ -908,4 +908,5 @@ class CfgMods {
     };
 };
 
+#include "CfgEventhandlers.hpp"
 #include "CfgSettings.hpp"
