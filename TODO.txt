@@ -12,7 +12,6 @@ TO DO
 12. Add new factions
 14. Add country insignias
 15. Redo Brit woodland vehicle inheritance
-17. Add randomisation functionality to ORBATRON
 18. merge uniforms
-19. BAF Woodland import issue
 20. Covert tabs to spaces
+21. Integrate iraq/syria mod
