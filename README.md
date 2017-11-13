@@ -45,6 +45,7 @@ Factions are delivered in a modular way, enabling groups to maintain their own t
 ## CFP Factions
 
 ### OPFOR
+- Islamic State
 - Russian Army factions specifically for Arid/Desert, Woodland/Jungle
 - Russian Airborne factions specifically for Arid/Desert, Woodland/Jungle
 - Russian Naval factions such as Spetznaz.
@@ -57,7 +58,11 @@ Factions are delivered in a modular way, enabling groups to maintain their own t
 - Afghan Police
 - British Army factions specifically for Arid/Desert, Woodland/Jungle and including special forces (SAS, SBS, SRR)
 - Bundeswehr Army for each theater, specifically KSK special forces.
+- Iraq Army
+- Iraq Police
+- Peshmerga
 - US Army factions specifically for Arid/Desert, Woodland/Jungle and including special forces (Delta, Green Beret, SOAR)
+- US Central Intelligence Agency
 - US Marine Corps factions specifically for Arid/Desert, Woodland/Jungle and including special forces (MARSOC)
 
 ## CFP Ultimate Factions (in addition to CFP factions)
