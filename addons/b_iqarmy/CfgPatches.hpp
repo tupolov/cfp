@@ -57,14 +57,6 @@ class CfgPatches
 			"CFP_B_IQARMY_SU25"
 		};
 		weapons[] = {
-			"SP_Beret3_Black",
-			"SP_Beret3_Grey",
-			"SP_Beret3_Blue",
-			"SP_Beret3_Brown",
-			"SP_Beret3_Green",
-			"SP_Beret3_Red",
-			"SP_Beret3_Tan",
-			"SP_Beret3_Yellow",
 			"IA_uniform_generic",
 			"IA_uniform_sf_b"
 		};
