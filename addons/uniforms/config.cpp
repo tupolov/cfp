@@ -2,7 +2,7 @@
 
 class CfgPatches
 {
-	class CFP_Uniforms
+	class ADDON
 	{
 		units[] = {
 			"C_Driver_1_black_F",

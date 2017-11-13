@@ -5,7 +5,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 class CfgFactionClasses {
-    class CFP_B_AFGPolice {
+    class CFP_B_AFGPOLICE {
         displayName = "Afghan Police";
         side = 1;
         flag = "a3\data_f\Flags\flag_blue_co";

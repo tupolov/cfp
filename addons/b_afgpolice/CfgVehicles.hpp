@@ -210,4 +210,18 @@ class CfgVehicles {
 
     };
 
+    class Offroad_01_base_F;
+    class CFP_B_AFGPolice_offroad: Offroad_01_base_F
+    {
+        scope = 2;
+        side = 1;
+        displayName = "Afghan Police Offroad";
+        faction = "CFP_B_AFGPOLICE";
+        camouflage = 4;
+        crew = "CFP_B_AFGPolice_Rifleman_AK74_01";
+        typicalCargo[] = {"CFP_B_AFGPolice_Rifleman_AK74_01","CFP_B_AFGPolice_Rifleman_AK74M_01"};
+        hiddenSelections[] = {"camo","camo2"};
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\b_afgpolice\data\offroad_afghan_police.paa","\x\cfp\addons\b_afgpolice\data\offroad_afghan_police.paa"};
+        editorPreview = "\x\cfp\addons\b_afgpolice\data\Preview_afgpolice_Offroad.jpg";
+    };
 };

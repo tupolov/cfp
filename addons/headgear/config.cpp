@@ -2,7 +2,7 @@
 
 class CfgPatches
 {
-    class CFP_Headgear
+    class ADDON
     {
         units[] = {};
 		weapons[] = {

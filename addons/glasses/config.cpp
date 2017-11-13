@@ -2,7 +2,7 @@
 
 class CfgPatches
 {
-	class CFP_Glasses
+	class ADDON
     {
         units[] = {};
 		weapons[] = {};

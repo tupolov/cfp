@@ -2,7 +2,7 @@
 
 class CfgPatches
 {
-	class CFP_Uniforms_AFG
+	class ADDON
 	{
 		units[] = {
 			"AFG_1980DuckHunter_BattleDressUniform",

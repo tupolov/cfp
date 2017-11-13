@@ -42,7 +42,7 @@ class CfgVehicles {
             "CUP_I_B_PMC_Unit_7", 0.25,
             "CUP_I_B_PMC_Unit_11", 0.25,
             "CUP_U_C_Pilot_01", 0.2,
-            "U_C_Marshall", 0.1,
+            "U_Marshal", 0.1,
             "U_C_Mechanic_01_F", 0.1
 		};
 
@@ -183,7 +183,8 @@ class CfgVehicles {
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
-            class ALiVE_orbatCreator {
+            class ADDON
+            {
                 init = "if (local (_this select 0)) then { _onSpawn = { private _unit = _this select 0; sleep 0.2; [_unit] call CFP_main_fnc_randomizeUnit; }; _this spawn _onSpawn; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 

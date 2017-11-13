@@ -1,5 +1,6 @@
 TO DO
 
+0. Fix CfgMagazine error
 1. Investigate why base BIS A3 classes are displayed as CFP mod items
 2. Fix alpha in item preview images
 3. Update config layout to match best practice.
@@ -14,4 +15,9 @@ TO DO
 15. Redo Brit woodland vehicle inheritance
 18. merge uniforms
 20. Covert tabs to spaces
-21. Integrate iraq/syria mod
+22. config uniform camos
+23. convert ISC randomisation to CFP randomisation
+24. Supply boxes, crates etc
+25. ALiVE static data entries
+26. Add group icons to ISC factions
+27. Add support for CBA XEH 

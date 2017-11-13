@@ -2,7 +2,7 @@
 
 class CfgPatches
 {
-	class CFP_NVG
+	class ADDON
 	{
 		units[] = {};
 		weapons[] = {};

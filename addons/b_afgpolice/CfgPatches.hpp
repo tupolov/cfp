@@ -7,7 +7,8 @@ class CfgPatches {
             "CFP_B_AFGPolice_Officer_01",
             "CFP_B_AFGPolice_Grenadier_AK74M_01",
             "CFP_B_AFGPolice_Machine_Gunner_PKM_01",
-            "CFP_B_AFGPolice_Rifleman_AT_RPG_01"
+            "CFP_B_AFGPolice_Rifleman_AT_RPG_01",
+            "CFP_B_AFGPolice_offroad"
         };
         weapons[] = {};
         requiredVersion = 1.62;
