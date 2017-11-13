@@ -31,15 +31,17 @@ Factions are delivered in a modular way, enabling groups to maintain their own t
 
 ## Features
 - 78 new factions!
-- Introduces 42 new factions based on CUP assets 
-- Introduces 36 new factions based on common community addons (VSM, SMA, NIArms, VME etc)
+- CFP introduces 42 new factions based on CUP assets 
+- CFP Ultimate introduces 36 new factions based on common community addons (VSM, SMA, NIArms, VME etc)
 - Replaces certain CUP factions with factions split by theater (i.e. Arid/Desert, Woodland/Jungle, Artic/Snow etc)
 - Enhances 8 CUP factions with additonal groups and loadouts (i.e. special forces)
 - Standardizes faction and group configurations for the community
 - Follows best practice configuration and implementation using CBA and ACE3 standards
-- Include's Siege-A's insignias and patches content
-- Include's SP Craig's gear pack
+- Includes Siege-A's insignias and patches content
+- Includes SP Craig's gear pack
+- Includes AccuracyThruVolume's Iraq/Syria pack 
 - Additional custom textures and assets donated by community members
+- Randomization tech that provides hundreds of possible insurgent, PMC, clandestine operative classes and vehicles
 - Full support for ZEUS, ALiVE, ACE3 and VCOM
 
 ## CFP Factions
@@ -49,23 +51,25 @@ Factions are delivered in a modular way, enabling groups to maintain their own t
 - Russian Army factions specifically for Arid/Desert, Woodland/Jungle
 - Russian Airborne factions specifically for Arid/Desert, Woodland/Jungle
 - Russian Naval factions such as Spetznaz.
+- Syrian Arab Army
 - Taliban Insurgents
 
 ### INDFOR
--
+- Islamic State
 
 ### BLUFOR
 - Afghan Police
 - British Army factions specifically for Arid/Desert, Woodland/Jungle and including special forces (SAS, SBS, SRR)
 - Bundeswehr Army for each theater, specifically KSK special forces.
-- Iraq Army
-- Iraq Police
+- Iraqi Army
+- Iraqi Police
 - Peshmerga
 - US Army factions specifically for Arid/Desert, Woodland/Jungle and including special forces (Delta, Green Beret, SOAR)
 - US Central Intelligence Agency
 - US Marine Corps factions specifically for Arid/Desert, Woodland/Jungle and including special forces (MARSOC)
+- YPG
 
-## CFP Ultimate Factions (in addition to CFP factions)
+## CFP Ultimate Factions (in addition to enhancing CFP factions)
 
 ### OPFOR
 -
@@ -78,7 +82,7 @@ Factions are delivered in a modular way, enabling groups to maintain their own t
 
 ## Getting started
 
-CFP requires Arma 3, the latest version of <a href="https://github.com/CBATeam/CBA_A3/releases">CBA A3</a> and the latest verion of CUP. See the following pages for help and information on how to get started with CFP: 
+CFP requires Arma 3, the latest version of <a href="https://github.com/CBATeam/CBA_A3/releases">CBA A3</a> and the latest verion of CUP. CFP follows the same development and implementation approach as ACE3. See the following pages for help and information on how to get started with CFP: 
 
 - [Installation guide](https://ace3mod.com/wiki/user/installation-guide.html)
 - [Information center](https://ace3mod.com/wiki/user/information-center.html)
