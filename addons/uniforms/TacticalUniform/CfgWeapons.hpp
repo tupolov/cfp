@@ -3,7 +3,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Black (Tactical Uniform)";
+		displayName = "Tactical Uniform (Black)";
 		picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\Black.jpg";
 		author = "SP Craig";
 
@@ -21,7 +21,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Black (Tactical Uniform SS)";
+		displayName = "Tactical Uniform SS (Black)";
 		picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\Black.jpg";
 		author = "SP Craig";
 
@@ -39,7 +39,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Black (Tactical Uniform TS)";
+		displayName = "Tactical Uniform TS (Black)";
 		picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\BlackTS.jpg";
 		author = "SP Craig";
 
@@ -57,7 +57,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Green (Tactical Uniform)";
+		displayName = "Tactical Uniform (Green)";
 		picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\Green.jpg";
 		author = "SP Craig";
 
@@ -75,7 +75,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Green (Tactical Uniform SS)";
+		displayName = "Tactical Uniform SS (Green)";
 		picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\Green.jpg";
 		author = "SP Craig";
 
@@ -93,7 +93,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Green (Tactical Uniform TS)";
+		displayName = "Tactical Uniform TS (Green)";
 		picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\GreenTS.jpg";
 		author = "SP Craig";
 
@@ -112,7 +112,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Tan (Tactical Uniform)";
+		displayName = "Tactical Uniform (Tan)";
 		picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\Tan.jpg";
 		author = "SP Craig";
 
@@ -130,7 +130,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Tan (Tactical Uniform SS)";
+		displayName = "Tactical Uniform SS (Tan)";
 		picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\Tan.jpg";
 		author = "SP Craig";
 
@@ -148,7 +148,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Tan (Tactical Uniform TS)";
+		displayName = "Tactical Uniform TS (Tan)";
 		picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\TanTS.jpg";
 		author = "SP Craig";
 
@@ -168,7 +168,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Grey (Tactical Uniform)";
+		displayName = "Tactical Uniform (Grey)";
 		picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\Grey.jpg";
 		author = "SP Craig";
 
@@ -186,7 +186,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Grey (Tactical Uniform SS)";
+		displayName = "Tactical Uniform SS (Grey)";
 		picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\Grey.jpg";
 		author = "SP Craig";
 
@@ -205,7 +205,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Grey (Tactical Uniform TS)";
+		displayName = "Tactical Uniform TS (Grey)";
 		picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\GreyTS.jpg";
 		author = "SP Craig";
 
@@ -225,7 +225,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Blue Dark (Tactical Uniform)";
+		displayName = "Tactical Uniform (Blue Dark)";
 		picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\BlueDark.jpg";
 		author = "SP Craig";
 
@@ -243,7 +243,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Blue Dark (Tactical Uniform SS)";
+		displayName = "Tactical Uniform SS (Blue Dark)";
 		picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\BlueDark.jpg";
 		author = "SP Craig";
 
@@ -261,7 +261,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Blue Dark (Tactical Uniform TS)";
+		displayName = "Tactical Uniform TS (Blue Dark)";
 		picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\BlueDarkTS.jpg";
 		author = "SP Craig";
 
@@ -279,7 +279,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Blue Frost (Tactical Uniform)";
+		displayName = "Tactical Uniform (Blue Frost)";
 		picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\BlueFrost.jpg";
 		author = "SP Craig";
 
@@ -297,7 +297,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Blue Frost (Tactical Uniform SS)";
+		displayName = "Tactical Uniform SS (Blue Frost)";
 		picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\BlueFrost.jpg";
 		author = "SP Craig";
 
@@ -315,7 +315,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Blue Frost (Tactical Uniform TS)";
+		displayName = "Tactical Uniform TS (Blue Frost)";
 		picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\BlueFrostTS.jpg";
 		author = "SP Craig";
 
@@ -334,7 +334,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Green Olive (Tactical Uniform)";
+		displayName = "Tactical Uniform (Green Olive)";
 		picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\GreenOlive.jpg";
 		author = "SP Craig";
 
@@ -352,7 +352,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Green Olive (Tactical Uniform SS)";
+		displayName = "Tactical Uniform SS (Green Olive)";
 		picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\GreenOlive.jpg";
 		author = "SP Craig";
 
@@ -370,7 +370,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Green Olive (Tactical Uniform TS)";
+		displayName = "Tactical Uniform TS (Green Olive)";
 		picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\GreenOliveTS.jpg";
 		author = "SP Craig";
 
@@ -389,7 +389,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Hunter (Tactical Uniform)";
+		displayName = "Tactical Uniform (Hunter)";
 		picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\Hunter.jpg";
 		author = "SP Craig";
 
@@ -407,7 +407,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Hunter (Tactical Uniform SS)";
+		displayName = "Tactical Uniform SS (Hunter)";
 		picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\Hunter.jpg";
 		author = "SP Craig";
 
@@ -425,7 +425,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Hunter (Tactical Uniform TS)";
+		displayName = "Tactical Uniform TS (Hunter)";
 		picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\HunterTS.jpg";
 		author = "SP Craig";
 
@@ -443,7 +443,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Hunter2 (Tactical Uniform)";
+		displayName = "Tactical Uniform (Hunter2)";
 		picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\Hunter2.jpg";
 		author = "SP Craig";
 
@@ -461,7 +461,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Hunter2 (Tactical Uniform SS)";
+		displayName = "Tactical Uniform SS (Hunter2)";
 		picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\Hunter2.jpg";
 		author = "SP Craig";
 
@@ -479,7 +479,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Hunter2 (Tactical Uniform TS)";
+		displayName = "Tactical Uniform TS (Hunter2)";
 		picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\Hunter2TS.jpg";
 		author = "SP Craig";
 
@@ -499,7 +499,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard A-Tacs FG (Tactical Uniform)";
+		displayName = "Tactical Uniform (A-Tacs FG)";
 		picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\ATacsFG.jpg";
 		author = "SP Craig";
 
@@ -517,7 +517,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard A-Tacs FG (Tactical Uniform SS)";
+		displayName = "Tactical Uniform SS (A-Tacs FG)";
 		picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\ATacsFG.jpg";
 		author = "SP Craig";
 
@@ -535,7 +535,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard A-Tacs FG (Tactical Uniform TS)";
+		displayName = "Tactical Uniform TS (A-Tacs FG)";
 		picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\ATacsFGTS.jpg";
 		author = "SP Craig";
 
@@ -553,7 +553,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard NodUrban (Tactical Uniform)";
+		displayName = "Tactical Uniform (NodUrban)";
 		picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\NodUrban.jpg";
 		author = "SP Craig";
 
@@ -571,7 +571,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Nod Urban (Tactical Uniform SS)";
+		displayName = "Tactical Uniform SS (Nod Urban)";
 		picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\NodUrban.jpg";
 		author = "SP Craig";
 
@@ -589,7 +589,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Nod Urban (Tactical Uniform TS)";
+		displayName = "Tactical Uniform TS (Nod Urban)";
 		picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\NodUrbanTS.jpg";
 		author = "SP Craig";
 

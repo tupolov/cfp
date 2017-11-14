@@ -3,7 +3,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Black (Diver Uniform)";
+		displayName = "Diver Uniform (Black)";
 		picture = "\x\cfp\addons\uniforms\DiverUniform\0000_Standard\ui\Black.jpg";
 		author = "SP Craig";
 
@@ -13,8 +13,6 @@
 			uniformClass = "SP_0000_Standard_DiverUniform_Black";
 			containerClass="Supply60";
 			mass=80;
-
-
 		};
 	};
 
@@ -22,7 +20,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Green (Diver Uniform)";
+		displayName = "Diver Uniform (Green)";
 		picture = "\x\cfp\addons\uniforms\DiverUniform\0000_Standard\ui\Green.jpg";
 		author = "SP Craig";
 
@@ -32,9 +30,6 @@
 			uniformClass = "SP_0000_Standard_DiverUniform_Green";
 			containerClass="Supply60";
 			mass=80;
-
-
-
 		};
 	};
 
@@ -42,7 +37,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Tan (Diver Uniform)";
+		displayName = "Diver Uniform (Tan)";
 		picture = "\x\cfp\addons\uniforms\DiverUniform\0000_Standard\ui\Tan.jpg";
 		author = "SP Craig";
 
@@ -52,10 +47,6 @@
 			uniformClass = "SP_0000_Standard_DiverUniform_Tan";
 			containerClass="Supply60";
 			mass=80;
-
-
-
-
 		};
 	};
 
@@ -63,7 +54,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Grey (Diver Uniform)";
+		displayName = "Diver Uniform (Grey)";
 		picture = "\x\cfp\addons\uniforms\DiverUniform\0000_Standard\ui\Grey.jpg";
 		author = "SP Craig";
 
@@ -82,7 +73,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Blue Dark (Diver Uniform)";
+		displayName = "Diver Uniform (Blue Dark)";
 		picture = "\x\cfp\addons\uniforms\DiverUniform\0000_Standard\ui\BlueDark.jpg";
 		author = "SP Craig";
 
@@ -101,7 +92,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Blue Frost (Diver Uniform)";
+		displayName = "Diver Uniform (Blue Frost)";
 		picture = "\x\cfp\addons\uniforms\DiverUniform\0000_Standard\ui\BlueFrost.jpg";
 		author = "SP Craig";
 
@@ -120,7 +111,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Green Olive (Diver Uniform)";
+		displayName = "Diver Uniform (Green Olive)";
 		picture = "\x\cfp\addons\uniforms\DiverUniform\0000_Standard\ui\GreenOlive.jpg";
 		author = "SP Craig";
 
@@ -130,9 +121,6 @@
 			uniformClass = "SP_0000_Standard_DiverUniform_GreenOlive";
 			containerClass="Supply60";
 			mass=80;
-
-
-
 		};
 	};
 
@@ -140,7 +128,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Hunter (Diver Uniform)";
+		displayName = "Diver Uniform (Hunter)";
 		picture = "\x\cfp\addons\uniforms\DiverUniform\0000_Standard\ui\Hunter.jpg";
 		author = "SP Craig";
 
@@ -159,7 +147,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Hunter2 (Diver Uniform)";
+		displayName = "Diver Uniform (Hunter2)";
 		picture = "\x\cfp\addons\uniforms\DiverUniform\0000_Standard\ui\Hunter2.jpg";
 		author = "SP Craig";
 
@@ -178,7 +166,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard A-Tacs FG (Diver Uniform)";
+		displayName = "Diver Uniform (A-Tacs FG)";
 		picture = "\x\cfp\addons\uniforms\DiverUniform\0000_Standard\ui\ATacsFG.jpg";
 		author = "SP Craig";
 
@@ -188,9 +176,6 @@
 			uniformClass = "SP_0000_Standard_DiverUniform_ATacsFG";
 			containerClass="Supply60";
 			mass=80;
-
-
-
 		};
 	};
 
@@ -198,7 +183,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Nod Urban (Diver Uniform)";
+		displayName = "Diver Uniform (Nod Urban)";
 		picture = "\x\cfp\addons\uniforms\DiverUniform\0000_Standard\ui\NodUrban.jpg";
 		author = "SP Craig";
 
@@ -208,9 +193,5 @@
 			uniformClass = "SP_0000_Standard_DiverUniform_NodUrban";
 			containerClass="Supply60";
 			mass=80;
-
-
-
-
 		};
 	};

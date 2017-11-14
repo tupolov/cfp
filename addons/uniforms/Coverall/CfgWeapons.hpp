@@ -2,7 +2,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Coverall Standard (Black)";
+		displayName = "Coverall (Black)";
 		picture = "\x\cfp\addons\uniforms\Coverall\0000_Standard\ui\Black.jpg";
 		author = "SP Craig";
 
@@ -21,7 +21,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Coverall Standard (Green)";
+		displayName = "Coverall (Green)";
 		picture = "\x\cfp\addons\uniforms\Coverall\0000_Standard\ui\Green.jpg";
 		author = "SP Craig";
 
@@ -41,7 +41,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Coverall Standard (Tan)";
+		displayName = "Coverall (Tan)";
 		picture = "\x\cfp\addons\uniforms\Coverall\0000_Standard\ui\Tan.jpg";
 		author = "SP Craig";
 
@@ -60,7 +60,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Coverall Standard (Grey)";
+		displayName = "Coverall (Grey)";
 		picture = "\x\cfp\addons\uniforms\Coverall\0000_Standard\ui\Grey.jpg";
 		author = "SP Craig";
 
@@ -80,7 +80,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Coverall Standard (Blue Dark)";
+		displayName = "Coverall (Blue Dark)";
 		picture = "\x\cfp\addons\uniforms\Coverall\0000_Standard\ui\BlueDark.jpg";
 		author = "SP Craig";
 
@@ -98,7 +98,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Coverall Standard (Blue Frost)";
+		displayName = "Coverall (Blue Frost)";
 		picture = "\x\cfp\addons\uniforms\Coverall\0000_Standard\ui\BlueFrost.jpg";
 		author = "SP Craig";
 
@@ -117,7 +117,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Coverall Standard (Green Olive)";
+		displayName = "Coverall (Green Olive)";
 		picture = "\x\cfp\addons\uniforms\Coverall\0000_Standard\ui\GreenOlive.jpg";
 		author = "SP Craig";
 
@@ -136,7 +136,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Coverall Standard (White)";
+		displayName = "Coverall (White)";
 		picture = "\x\cfp\addons\uniforms\Coverall\0000_Standard\ui\White.jpg";
 		author = "SP Craig";
 
@@ -155,7 +155,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Coverall Standard (Red)";
+		displayName = "Coverall (Red)";
 		picture = "\x\cfp\addons\uniforms\Coverall\0000_Standard\ui\Red.jpg";
 		author = "SP Craig";
 
@@ -173,7 +173,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Coverall Standard (Yellow)";
+		displayName = "Coverall (Yellow)";
 		picture = "\x\cfp\addons\uniforms\Coverall\0000_Standard\ui\Yellow.jpg";
 		author = "SP Craig";
 
@@ -191,7 +191,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Coverall Standard (Brown)";
+		displayName = "Coverall (Brown)";
 		picture = "\x\cfp\addons\uniforms\Coverall\0000_Standard\ui\Brown.jpg";
 		author = "SP Craig";
 
@@ -209,7 +209,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Coverall Standard (Orange)";
+		displayName = "Coverall (Orange)";
 		picture = "\x\cfp\addons\uniforms\Coverall\0000_Standard\ui\Orange.jpg";
 		author = "SP Craig";
 

@@ -3,7 +3,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Black (Field Uniform)";
+		displayName = "Field Uniform (Black)";
 		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
 		author = "SP Craig";
 
@@ -21,7 +21,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Black (Field Uniform SS)";
+		displayName = "Field Uniform SS (Black)";
 		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
 		author = "SP Craig";
 
@@ -39,7 +39,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Green (Field Uniform)";
+		displayName = "Field Uniform (Green)";
 		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Green.jpg";
 		author = "SP Craig";
 
@@ -57,7 +57,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Green (Field Uniform SS)";
+		displayName = "Field Uniform SS (Green)";
 		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Green.jpg";
 		author = "SP Craig";
 
@@ -76,7 +76,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Tan (Field Uniform)";
+		displayName = "Field Uniform (Tan)";
 		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Tan.jpg";
 		author = "SP Craig";
 
@@ -94,7 +94,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Tan (Field Uniform SS)";
+		displayName = "Field Uniform SS (Tan)";
 		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Tan.jpg";
 		author = "SP Craig";
 
@@ -114,7 +114,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Grey (Field Uniform)";
+		displayName = "Field Uniform (Grey)";
 		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Grey.jpg";
 		author = "SP Craig";
 
@@ -132,7 +132,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Grey (Field Uniform SS)";
+		displayName = "Field Uniform SS (Grey)";
 		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Grey.jpg";
 		author = "SP Craig";
 
@@ -152,7 +152,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Blue Dark (Field Uniform)";
+		displayName = "Field Uniform (Blue Dark)";
 		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\BlueDark.jpg";
 		author = "SP Craig";
 
@@ -170,7 +170,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Blue Dark (Field Uniform SS)";
+		displayName = "Field Uniform SS (Blue Dark)";
 		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\BlueDark.jpg";
 		author = "SP Craig";
 
@@ -188,7 +188,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Blue Frost (Field Uniform)";
+		displayName = "Field Uniform (Blue Frost)";
 		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\BlueFrost.jpg";
 		author = "SP Craig";
 
@@ -206,7 +206,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Blue Frost (Field Uniform SS)";
+		displayName = "Field Uniform SS (Blue Frost)";
 		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\BlueFrost.jpg";
 		author = "SP Craig";
 
@@ -225,7 +225,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Green Olive (Field Uniform)";
+		displayName = "Field Uniform (Green Olive)";
 		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\GreenOlive.jpg";
 		author = "SP Craig";
 
@@ -243,7 +243,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Green Olive (Field Uniform SS)";
+		displayName = "Field Uniform SS (Green Olive)";
 		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\GreenOlive.jpg";
 		author = "SP Craig";
 
@@ -262,7 +262,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Hunter (Field Uniform)";
+		displayName = "Field Uniform (Hunter)";
 		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Hunter.jpg";
 		author = "SP Craig";
 
@@ -280,7 +280,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Hunter (Field Uniform SS)";
+		displayName = "Field Uniform SS (Hunter)";
 		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Hunter.jpg";
 		author = "SP Craig";
 
@@ -298,7 +298,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Hunter2 (Field Uniform)";
+		displayName = "Field Uniform (Hunter2)";
 		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Hunter2.jpg";
 		author = "SP Craig";
 
@@ -316,7 +316,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Hunter2 (Field Uniform SS)";
+		displayName = "Field Uniform SS (Hunter2)";
 		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Hunter2.jpg";
 		author = "SP Craig";
 
@@ -371,7 +371,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Nod Urban (Field Uniform)";
+		displayName = "Field Uniform (Nod Urban)";
 		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\NodUrban.jpg";
 		author = "SP Craig";
 
@@ -389,7 +389,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Nod Urban (Field Uniform SS)";
+		displayName = "Field Uniform SS (Nod Urban)";
 		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\NodUrban.jpg";
 		author = "SP Craig";
 

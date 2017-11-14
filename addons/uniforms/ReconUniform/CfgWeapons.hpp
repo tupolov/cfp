@@ -2,7 +2,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Black (Recon Uniform)";
+		displayName = "Recon Uniform (Black)";
 		picture = "\x\cfp\addons\uniforms\ReconUniform\0000_Standard\ui\Black.jpg";
 		author = "SP Craig";
 
@@ -21,7 +21,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Green (Recon Uniform)";
+		displayName = "Recon Uniform (Green)";
 		picture = "\x\cfp\addons\uniforms\ReconUniform\0000_Standard\ui\Green.jpg";
 		author = "SP Craig";
 
@@ -41,7 +41,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Tan (Recon Uniform)";
+		displayName = "Recon Uniform (Tan)";
 		picture = "\x\cfp\addons\uniforms\ReconUniform\0000_Standard\ui\Tan.jpg";
 		author = "SP Craig";
 
@@ -62,7 +62,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Grey (Recon Uniform)";
+		displayName = "Recon Uniform (Grey)";
 		picture = "\x\cfp\addons\uniforms\ReconUniform\0000_Standard\ui\Grey.jpg";
 		author = "SP Craig";
 
@@ -83,7 +83,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Blue Dark (Recon Uniform)";
+		displayName = "Recon Uniform (Blue Dark)";
 		picture = "\x\cfp\addons\uniforms\ReconUniform\0000_Standard\ui\BlueDark.jpg";
 		author = "SP Craig";
 
@@ -103,7 +103,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Blue Frost (Recon Uniform)";
+		displayName = "Recon Uniform (Blue Frost)";
 		picture = "\x\cfp\addons\uniforms\ReconUniform\0000_Standard\ui\BlueFrost.jpg";
 		author = "SP Craig";
 
@@ -123,7 +123,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Green Olive (Recon Uniform)";
+		displayName = "Recon Uniform (Green Olive)";
 		picture = "\x\cfp\addons\uniforms\ReconUniform\0000_Standard\ui\GreenOlive.jpg";
 		author = "SP Craig";
 
@@ -143,7 +143,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Hunter (Recon Uniform)";
+		displayName = "Recon Uniform (Hunter)";
 		picture = "\x\cfp\addons\uniforms\ReconUniform\0000_Standard\ui\Hunter.jpg";
 		author = "SP Craig";
 
@@ -161,7 +161,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Hunter2 (Recon Uniform)";
+		displayName = "Recon Uniform (Hunter2)";
 		picture = "\x\cfp\addons\uniforms\ReconUniform\0000_Standard\ui\Hunter2.jpg";
 		author = "SP Craig";
 
@@ -180,7 +180,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard A-Tacs FG (Recon Uniform)";
+		displayName = "Recon Uniform (A-Tacs FG)";
 		picture = "\x\cfp\addons\uniforms\ReconUniform\0000_Standard\ui\ATacsFG.jpg";
 		author = "SP Craig";
 
@@ -199,7 +199,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Nod Urban (Recon Uniform)";
+		displayName = "Recon Uniform (Nod Urban)";
 		picture = "\x\cfp\addons\uniforms\ReconUniform\0000_Standard\ui\NodUrban.jpg";
 		author = "SP Craig";
 

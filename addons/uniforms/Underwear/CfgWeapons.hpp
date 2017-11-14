@@ -2,7 +2,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Black (Underwear)";
+		displayName = "Underwear (Black)";
 		picture = "\x\cfp\addons\uniforms\Underwear\0000_Standard\ui\Black.jpg";
 		author = "SP Craig";
 
@@ -12,9 +12,6 @@
 			uniformClass = "SP_0000_Standard_Underwear_Black";
 			containerClass="Supply60";
 			mass=80;
-
-
-
 		};
 	};
 
@@ -22,7 +19,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Green (Underwear)";
+		displayName = "Underwear (Green)";
 		picture = "\x\cfp\addons\uniforms\Underwear\0000_Standard\ui\Green.jpg";
 		author = "SP Craig";
 
@@ -32,9 +29,6 @@
 			uniformClass = "SP_0000_Standard_Underwear_Green";
 			containerClass="Supply60";
 			mass=80;
-
-
-
 		};
 	};
 
@@ -42,7 +36,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Tan (Underwear)";
+		displayName = "Underwear (Tan)";
 		picture = "\x\cfp\addons\uniforms\Underwear\0000_Standard\ui\Tan.jpg";
 		author = "SP Craig";
 
@@ -52,10 +46,6 @@
 			uniformClass = "SP_0000_Standard_Underwear_Tan";
 			containerClass="Supply60";
 			mass=80;
-
-
-
-
 		};
 	};
 
@@ -63,7 +53,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Grey (Underwear)";
+		displayName = "Underwear (Grey)";
 		picture = "\x\cfp\addons\uniforms\Underwear\0000_Standard\ui\Grey.jpg";
 		author = "SP Craig";
 
@@ -73,9 +63,6 @@
 			uniformClass = "SP_0000_Standard_Underwear_Grey";
 			containerClass="Supply60";
 			mass=80;
-
-
-
 		};
 	};
 
@@ -83,7 +70,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Blue Dark (Underwear)";
+		displayName = "Underwear (Blue Dark)";
 		picture = "\x\cfp\addons\uniforms\Underwear\0000_Standard\ui\BlueDark.jpg";
 		author = "SP Craig";
 
@@ -93,9 +80,6 @@
 			uniformClass = "SP_0000_Standard_Underwear_BlueDark";
 			containerClass="Supply60";
 			mass=80;
-
-
-
 		};
 	};
 
@@ -103,7 +87,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Blue Frost (Underwear)";
+		displayName = "Underwear (Blue Frost)";
 		picture = "\x\cfp\addons\uniforms\Underwear\0000_Standard\ui\BlueFrost.jpg";
 		author = "SP Craig";
 
@@ -113,8 +97,6 @@
 			uniformClass = "SP_0000_Standard_Underwear_BlueFrost";
 			containerClass="Supply60";
 			mass=80;
-
-
 		};
 	};
 
@@ -122,7 +104,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Blue Sky (Underwear)";
+		displayName = "Underwear (Blue Sky)";
 		picture = "\x\cfp\addons\uniforms\Underwear\0000_Standard\ui\BlueSky.jpg";
 		author = "SP Craig";
 
@@ -132,10 +114,6 @@
 			uniformClass = "SP_0000_Standard_Underwear_BlueSky";
 			containerClass="Supply60";
 			mass=80;
-
-
-
-
 		};
 	};
 
@@ -143,7 +121,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Green Olive (Underwear)";
+		displayName = "Underwear (Green Olive)";
 		picture = "\x\cfp\addons\uniforms\Underwear\0000_Standard\ui\GreenOlive.jpg";
 		author = "SP Craig";
 
@@ -153,8 +131,6 @@
 			uniformClass = "SP_0000_Standard_Underwear_GreenOlive";
 			containerClass="Supply60";
 			mass=80;
-
-
 		};
 	};
 
@@ -162,7 +138,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Green Spring (Underwear)";
+		displayName = "Underwear (Green Spring)";
 		picture = "\x\cfp\addons\uniforms\Underwear\0000_Standard\ui\GreenSpring.jpg";
 		author = "SP Craig";
 
@@ -172,10 +148,6 @@
 			uniformClass = "SP_0000_Standard_Underwear_GreenSpring";
 			containerClass="Supply60";
 			mass=80;
-
-
-
-
 		};
 	};
 
@@ -183,7 +155,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Brown (Underwear)";
+		displayName = "Underwear (Brown)";
 		picture = "\x\cfp\addons\uniforms\Underwear\0000_Standard\ui\Brown.jpg";
 		author = "SP Craig";
 
@@ -193,8 +165,6 @@
 			uniformClass = "SP_0000_Standard_Underwear_Brown";
 			containerClass="Supply60";
 			mass=80;
-
-
 		};
 	};
 
@@ -202,7 +172,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Olive (Underwear)";
+		displayName = "Underwear (Olive)";
 		picture = "\x\cfp\addons\uniforms\Underwear\0000_Standard\ui\Olive.jpg";
 		author = "SP Craig";
 
@@ -212,8 +182,6 @@
 			uniformClass = "SP_0000_Standard_Underwear_Olive";
 			containerClass="Supply60";
 			mass=80;
-
-
 		};
 	};
 
@@ -221,7 +189,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Orange (Underwear)";
+		displayName = "Underwear (Orange)";
 		picture = "\x\cfp\addons\uniforms\Underwear\0000_Standard\ui\Orange.jpg";
 		author = "SP Craig";
 
@@ -231,9 +199,6 @@
 			uniformClass = "SP_0000_Standard_Underwear_Orange";
 			containerClass="Supply60";
 			mass=80;
-
-
-
 		};
 	};
 
@@ -241,7 +206,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Pink (Underwear)";
+		displayName = "Underwear (Pink)";
 		picture = "\x\cfp\addons\uniforms\Underwear\0000_Standard\ui\Pink.jpg";
 		author = "SP Craig";
 
@@ -251,8 +216,6 @@
 			uniformClass = "SP_0000_Standard_Underwear_Pink";
 			containerClass="Supply60";
 			mass=80;
-
-
 		};
 	};
 
@@ -260,7 +223,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Purple (Underwear)";
+		displayName = "Underwear (Purple)";
 		picture = "\x\cfp\addons\uniforms\Underwear\0000_Standard\ui\Purple.jpg";
 		author = "SP Craig";
 
@@ -270,8 +233,6 @@
 			uniformClass = "SP_0000_Standard_Underwear_Purple";
 			containerClass="Supply60";
 			mass=80;
-
-
 		};
 	};
 
@@ -279,7 +240,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Red (Underwear)";
+		displayName = "Underwear (Red)";
 		picture = "\x\cfp\addons\uniforms\Underwear\0000_Standard\ui\Red.jpg";
 		author = "SP Craig";
 
@@ -289,8 +250,6 @@
 			uniformClass = "SP_0000_Standard_Underwear_Red";
 			containerClass="Supply60";
 			mass=80;
-
-
 		};
 	};
 
@@ -298,7 +257,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard White (Underwear)";
+		displayName = "Underwear (White)";
 		picture = "\x\cfp\addons\uniforms\Underwear\0000_Standard\ui\White.jpg";
 		author = "SP Craig";
 
@@ -308,8 +267,6 @@
 			uniformClass = "SP_0000_Standard_Underwear_White";
 			containerClass="Supply60";
 			mass=80;
-
-
 		};
 	};
 
@@ -317,7 +274,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Yellow (Underwear)";
+		displayName = "Underwear (Yellow)";
 		picture = "\x\cfp\addons\uniforms\Underwear\0000_Standard\ui\Yellow.jpg";
 		author = "SP Craig";
 
@@ -327,11 +284,5 @@
 			uniformClass = "SP_0000_Standard_Underwear_Yellow";
 			containerClass="Supply60";
 			mass=80;
-
-
-
-
-
-
 		};
 	};

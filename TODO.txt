@@ -17,7 +17,6 @@ TO DO
 15. Redo Brit woodland vehicle inheritance
 18. merge uniforms
 20. Covert tabs to spaces
-22. config uniform camos
 23. convert ISC randomisation to CFP randomisation
 24. Supply boxes, crates etc
 25. ALiVE static data entries

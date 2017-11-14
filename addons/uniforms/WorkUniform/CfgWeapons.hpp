@@ -2,7 +2,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Hunter (Work Uniform)";
+		displayName = "Work Uniform (Hunter)";
 		picture = "\x\cfp\addons\uniforms\WorkUniform\0000_Standard\ui\Hunter.jpg";
 		author = "SP Craig";
 
@@ -19,7 +19,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Hunter2 (Work Uniform)";
+		displayName = "Work Uniform (Hunter2)";
 		picture = "\x\cfp\addons\uniforms\WorkUniform\0000_Standard\ui\Hunter2.jpg";
 		author = "SP Craig";
 
@@ -37,7 +37,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard A-Tacs FG (Work Uniform)";
+		displayName = "Work Uniform (A-Tacs FG)";
 		picture = "\x\cfp\addons\uniforms\WorkUniform\0000_Standard\ui\ATacsFG.jpg";
 		author = "SP Craig";
 
@@ -54,7 +54,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Nod Urban (Work Uniform)";
+		displayName = "Work Uniform (Nod Urban)";
 		picture = "\x\cfp\addons\uniforms\WorkUniform\0000_Standard\ui\NodUrban.jpg";
 		author = "SP Craig";
 
