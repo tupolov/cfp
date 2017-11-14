@@ -78,7 +78,7 @@ class CfgVehicles {
 
 		// Beards / mouth scarf / scarf / sunglasses
         facewearList[] = {
-        	"", 1,
+        	"", 0.6,
         	"G_Bandanna_blk", 0.1,
             "G_Bandanna_khk", 0.2,
             "G_Bandanna_tan", 0.2,
@@ -209,6 +209,111 @@ class CfgVehicles {
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
 
+        uniformClass = "CUP_O_TKI_Khet_Jeans_01";
+
+        uniformList[] = {
+            "CUP_O_TKI_Khet_Jeans_01", 0.25,
+            "CUP_O_TKI_Khet_Jeans_02", 0.25,
+            "CUP_O_TKI_Khet_Jeans_03", 0.25,
+            "CUP_O_TKI_Khet_Jeans_04", 0.25,
+            "CUP_O_TKI_Khet_Partug_01", 0.25,
+            "CUP_O_TKI_Khet_Partug_02", 0.25,
+            "CUP_O_TKI_Khet_Partug_03", 0.25,
+            "CUP_O_TKI_Khet_Partug_04", 0.25,
+            "CUP_O_TKI_Khet_Partug_05", 0.25,
+            "CUP_O_TKI_Khet_Partug_06", 0.25,
+            "CUP_O_TKI_Khet_Partug_07", 0.25,
+            "CUP_O_TKI_Khet_Partug_08", 0.25
+        };
+
+        vestList[] = {
+            "", 0.5,
+            "V_Chestrig_khk", 0.25,
+            "V_Chestrig_oli", 0.25,
+            "SP_Chestrig1_Tan", 0.25,
+            "SP_Harness1_Tan", 0.25,
+            "V_Pocketed_Coyote_F", 0.25,
+            "SP_OpforRig1_Tan", 0.25,
+            "CUP_V_OI_TKI_Jacket1_06", 0.15,
+            "CUP_V_OI_TKI_Jacket4_05", 0.15,
+            "CUP_V_OI_TKI_Jacket4_06", 0.15,
+            "CUP_V_OI_TKI_Jacket3_06", 0.15,
+            "CUP_V_OI_TKI_Jacket6_06", 0.1
+        };
+
+        // Beards / mouth scarf / scarf / sunglasses
+        facewearList[] = {
+            "", 0.5,
+            "CUP_TK_NeckScarf", 0.3,
+            "CUP_FR_Neckscarf2",0.3,
+            "CUP_FR_Neckscarf",0.3
+        };
+
+        // Baseball caps, boonies,
+        headgearList[] = {
+            "SP_Shemagh_CheckTan", 0.2,
+            "SP_Shemagh_CheckWhite", 0.2,
+            "SP_Shemagh_Tan", 0.2,
+            "SP_Shemagh_White", 0.2,
+            "CUP_H_TKI_Lungee_Open_01", 0.3,
+            "CUP_H_TKI_Lungee_Open_02", 0.3,
+            "CUP_H_TKI_Lungee_Open_03", 0.3,
+            "CUP_H_TKI_Lungee_Open_04", 0.3,
+            "CUP_H_TKI_Lungee_Open_05", 0.3,
+            "CUP_H_TKI_Lungee_Open_06", 0.3,
+            "CUP_H_TKI_Pakol_1_01", 0.25,
+            "CUP_H_TKI_Pakol_1_02", 0.25,
+            "CUP_H_TKI_Pakol_1_03", 0.25,
+            "CUP_H_TKI_Pakol_1_04", 0.25,
+            "CUP_H_TKI_Pakol_1_05", 0.25,
+            "CUP_H_TKI_Pakol_1_06", 0.25,
+            "CUP_H_TKI_Pakol_2_01", 0.25,
+            "CUP_H_TKI_Pakol_2_02", 0.25,
+            "CUP_H_TKI_Pakol_2_03", 0.25,
+            "CUP_H_TKI_Pakol_2_04", 0.25,
+            "CUP_H_TKI_Pakol_2_05", 0.25,
+            "CUP_H_TKI_Pakol_2_06", 0.25,
+            "CUP_H_TKI_SkullCap_01", 0.25,
+            "CUP_H_TKI_SkullCap_02", 0.25,
+            "CUP_H_TKI_SkullCap_03", 0.25,
+            "CUP_H_TKI_SkullCap_04", 0.25,
+            "CUP_H_TKI_SkullCap_05", 0.25,
+            "CUP_H_TKI_SkullCap_06", 0.25,
+            "CUP_H_TKI_Lungee_01", 0.2,
+            "CUP_H_TKI_Lungee_02", 0.2,
+            "CUP_H_TKI_Lungee_03", 0.2,
+            "CUP_H_TKI_Lungee_04", 0.2,
+            "CUP_H_TKI_Lungee_05", 0.2,
+            "CUP_H_TKI_Lungee_06", 0.2
+        };
+
+        nvgList[] = {
+            "", 1
+        };
+
+        backpackList[] = {
+            "",0.7,
+            "CUP_B_AlicePack_Khaki", 0.25,
+            "B_Respawn_Sleepnig_bag_brown_F", 0.25,
+            "B_Respawn_Sleepnig_bag_blue_F", 0.25,
+            "B_Respawn_Sleepnig_bag_F", 0.25,
+            "B_FieldPack_cbr", 0.2,
+            "B_FieldPack_khk", 0.2
+        };
+
+        // 6-8 options
+        rifleList[] = {
+            {"CUP_arifle_M4A1_camo_Aim",{"CUP_30Rnd_556x45_Stanag",6}}, 0.3,
+            {"CUP_arifle_M4A3_desert_Aim_Flashlight",{"CUP_30Rnd_556x45_Stanag",6}}, 0.3,
+            {"CUP_arifle_M4A1_Aim",{"CUP_30Rnd_556x45_Stanag",6}}, 0.3,
+            {"CUP_arifle_AK74M",{"CUP_30Rnd_545x39_AK_M",6}}, 0.4,
+            {"CUP_arifle_AK107",{"CUP_30Rnd_545x39_AK_M",6}}, 0.3,
+            {"CUP_arifle_AKS74",{"CUP_30Rnd_545x39_AK_M",6}}, 0.4,
+            {"CUP_arifle_AKS74_pso",{"CUP_30Rnd_545x39_AK_M",6}}, 0.1,
+            {"CUP_arifle_AKS74U",{"CUP_30Rnd_545x39_AK_M",6}}, 0.3,
+            {"CUP_arifle_CZ805_A2_Holo_Laser",{"CUP_30Rnd_556x45_Stanag",6}}, 0.2,
+            {"CUP_arifle_Mk16_CQC_FG_Aim_Laser_snds",{"CUP_30Rnd_556x45_Stanag",6}}, 0.2
+        };
     };
 
 	class CFP_B_USCIA_paramilitary_officer_assault_01 : CFP_B_USCIA_Paramilitary_Officer_Base {
