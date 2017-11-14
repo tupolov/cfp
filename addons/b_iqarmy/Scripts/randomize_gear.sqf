@@ -74,21 +74,21 @@ if (isServer) then
 	removeVest _this;
 	_class = typeOf _this;
 
-	if ((_class == "cfp_b_ia_officer") or
-		(_class == "cfp_b_ia_grenadier") or
-		(_class == "cfp_b_ia_rifleman") or
-		(_class == "cfp_b_ia_rifleman_dshkm") or
-		(_class == "cfp_b_ia_rifleman_kord") or
-		(_class == "cfp_b_ia_rifleman_podnos") or
-		(_class == "cfp_b_ia_rifleman_ags30") or
-		(_class == "cfp_b_ia_rifleman_metis") or
-		(_class == "cfp_b_ia_rifleman_spg9") or
-		(_class == "cfp_b_ia_machinegunner") or
-		(_class == "cfp_b_ia_sniper") or
-		(_class == "cfp_b_ia_at") or
-		(_class == "cfp_b_ia_medic") or
-		(_class == "cfp_b_ia_sapper") or
-		(_class == "cfp_b_ia_crewman")) then
+	if ((_class == "cfp_b_iqarmy_officer") or
+		(_class == "cfp_b_iqarmy_grenadier") or
+		(_class == "cfp_b_iqarmy_rifleman") or
+		(_class == "cfp_b_iqarmy_rifleman_dshkm") or
+		(_class == "cfp_b_iqarmy_rifleman_kord") or
+		(_class == "cfp_b_iqarmy_rifleman_podnos") or
+		(_class == "cfp_b_iqarmy_rifleman_ags30") or
+		(_class == "cfp_b_iqarmy_rifleman_metis") or
+		(_class == "cfp_b_iqarmy_rifleman_spg9") or
+		(_class == "cfp_b_iqarmy_machinegunner") or
+		(_class == "cfp_b_iqarmy_sniper") or
+		(_class == "cfp_b_iqarmy_at") or
+		(_class == "cfp_b_iqarmy_medic") or
+		(_class == "cfp_b_iqarmy_sapper") or
+		(_class == "cfp_b_iqarmy_crewman")) then
 	{
 		_rnd1 = floor random 3;
 		_this setVariable ["BIS_randomSeed1", _rnd1, TRUE];
@@ -106,62 +106,62 @@ if (isServer) then
 
 	switch _class do
 	{
-		case "cfp_b_ia_officer":
+		case "cfp_b_iqarmy_officer":
 		{
 			_vests = ["V_TacVest_oli","V_TacVest_camo","V_TacVest_camo","V_TacVest_camo","V_TacVest_camo","V_TacChestrig_grn_F","V_TacChestrig_cbr_F","V_TacChestrig_oli_F"];
 			_count = count _vests;
 			_this addVest (_vests select floor random _count);
 		};
 
-		case "cfp_b_ia_grenadier":
+		case "cfp_b_iqarmy_grenadier":
 		{
 			_vests = ["V_HarnessOGL_gry","V_HarnessOGL_gry","V_HarnessOGL_gry","V_HarnessOGL_brn"];
 			_count = count _vests;
 			_this addVest (_vests select floor random _count);
 		};
-		case "cfp_b_ia_rifleman":
+		case "cfp_b_iqarmy_rifleman":
 		{
 			_vests = ["V_TacVest_blk","V_TacVest_oli","V_TacVest_camo","V_TacChestrig_grn_F","V_TacChestrig_cbr_F","V_TacChestrig_oli_F","SP_OpforRig1_Green"];
 			_count = count _vests;
 			_this addVest (_vests select floor random _count);
 		};
-		case "cfp_b_ia_rifleman_dshkm":
+		case "cfp_b_iqarmy_rifleman_dshkm":
 		{
 			_vests = ["V_TacVest_blk","V_TacVest_oli","V_TacVest_camo","V_TacChestrig_grn_F","V_TacChestrig_cbr_F","V_TacChestrig_oli_F","SP_OpforRig1_Green"];
 			_count = count _vests;
 			_this addVest (_vests select floor random _count);
 		};
-		case "cfp_b_ia_rifleman_kord":
+		case "cfp_b_iqarmy_rifleman_kord":
 		{
 			_vests = ["V_TacVest_blk","V_TacVest_oli","V_TacVest_camo","V_TacChestrig_grn_F","V_TacChestrig_cbr_F","V_TacChestrig_oli_F","SP_OpforRig1_Green"];
 			_count = count _vests;
 			_this addVest (_vests select floor random _count);
 		};
-		case "cfp_b_ia_rifleman_podnos":
+		case "cfp_b_iqarmy_rifleman_podnos":
 		{
 			_vests = ["V_TacVest_blk","V_TacVest_oli","V_TacVest_camo","V_TacChestrig_grn_F","V_TacChestrig_cbr_F","V_TacChestrig_oli_F","SP_OpforRig1_Green"];
 			_count = count _vests;
 			_this addVest (_vests select floor random _count);
 		};
-		case "cfp_b_ia_rifleman_ags30":
+		case "cfp_b_iqarmy_rifleman_ags30":
 		{
 			_vests = ["V_TacVest_blk","V_TacVest_oli","V_TacVest_camo","V_TacChestrig_grn_F","V_TacChestrig_cbr_F","V_TacChestrig_oli_F","SP_OpforRig1_Green"];
 			_count = count _vests;
 			_this addVest (_vests select floor random _count);
 		};
-		case "cfp_b_ia_rifleman_metis":
+		case "cfp_b_iqarmy_rifleman_metis":
 		{
 			_vests = ["V_TacVest_blk","V_TacVest_oli","V_TacVest_camo","V_TacChestrig_grn_F","V_TacChestrig_cbr_F","V_TacChestrig_oli_F","SP_OpforRig1_Green"];
 			_count = count _vests;
 			_this addVest (_vests select floor random _count);
 		};
-		case "cfp_b_ia_rifleman_spg9":
+		case "cfp_b_iqarmy_rifleman_spg9":
 		{
 			_vests = ["V_TacVest_blk","V_TacVest_oli","V_TacVest_camo","V_TacChestrig_grn_F","V_TacChestrig_cbr_F","V_TacChestrig_oli_F","SP_OpforRig1_Green"];
 			_count = count _vests;
 			_this addVest (_vests select floor random _count);
 		};
-		case "cfp_b_ia_machinegunner":
+		case "cfp_b_iqarmy_machinegunner":
 		{
 			removeBackpack _this;
 			_vests = ["V_TacVest_blk","V_TacVest_oli","V_TacVest_camo","V_TacChestrig_grn_F","V_TacChestrig_cbr_F","V_TacChestrig_oli_F","SP_OpforRig1_Green"];
@@ -171,25 +171,25 @@ if (isServer) then
 			_count = count _packs;
 			_this addBackpack (_packs select floor random _count);
 		};
-		case "cfp_b_ia_sniper":
+		case "cfp_b_iqarmy_sniper":
 		{
 			_vests = ["V_BandollierB_rgr","V_BandollierB_blk","V_BandollierB_oli"];
 			_count = count _vests;
 			_this addVest (_vests select floor random _count);
 		};
-		case "cfp_b_ia_at":
+		case "cfp_b_iqarmy_at":
 		{
 			_vests = ["V_TacVest_blk","V_TacVest_oli","V_TacVest_camo","V_TacChestrig_grn_F","V_TacChestrig_cbr_F","V_TacChestrig_oli_F","SP_OpforRig1_Green"];
 			_count = count _vests;
 			_this addVest (_vests select floor random _count);
 		};
-		case "cfp_b_ia_medic":
+		case "cfp_b_iqarmy_medic":
 		{
 			_vests = ["V_TacVest_blk","V_TacVest_oli","V_TacVest_camo","V_TacChestrig_grn_F","V_TacChestrig_cbr_F","V_TacChestrig_oli_F","SP_OpforRig1_Green"];
 			_count = count _vests;
 			_this addVest (_vests select floor random _count);
 		};
-		case "cfp_b_ia_sapper":
+		case "cfp_b_iqarmy_sapper":
 		{
 			removeBackpack _this;
 			_vests = ["V_TacVest_blk","V_TacVest_oli","V_TacVest_camo","V_TacChestrig_grn_F","V_TacChestrig_cbr_F","V_TacChestrig_oli_F","SP_OpforRig1_Green"];
@@ -199,13 +199,13 @@ if (isServer) then
 			_count = count _packs;
 			_this addBackpack (_packs select floor random _count);
 		};
-		case "cfp_b_ia_crewman":
+		case "cfp_b_iqarmy_crewman":
 		{
 			_vests = ["V_TacVest_blk","V_TacVest_oli","V_TacVest_camo","V_TacChestrig_grn_F","V_TacChestrig_cbr_F","V_TacChestrig_oli_F","SP_OpforRig1_Green"];
 			_count = count _vests;
 			_this addVest (_vests select floor random _count);
 		};
-		case "cfp_b_ia_sf":
+		case "cfp_b_iqarmy_sf":
 		{
 			_vests = ["CUP_V_PMC_IOTV_Coyote_Patrol"];
 			_count = count _vests;

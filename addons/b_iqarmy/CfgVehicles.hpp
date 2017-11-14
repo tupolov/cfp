@@ -11,7 +11,7 @@ class CfgVehicles
 		faction = "CFP_B_IQARMY";
 		modelsides[] = {6};
 		side = 1;
-		vehicleClass = "CFP_B_IQARMY_INFANTRY";
+		vehicleClass = "cfp_b_iqarmy_INFANTRY";
 		icon = "iconManOfficer";
 		nakedUniform = "U_BasicBody";
 		uniformClass = "IA_uniform_generic";
@@ -42,12 +42,12 @@ class CfgVehicles
 		};
 		Editorpreview = "x\cfp\addons\b_iqarmy\data\Preview_ia_infantry.jpg";
 	};
-	class CFP_B_IQARMY_officer: cfp_ia_base
+	class cfp_b_iqarmy_officer: cfp_ia_base
 	{
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "IA Officer";
-		vehicleClass = "CFP_B_IQARMY_INFANTRY";
+		vehicleClass = "cfp_b_iqarmy_INFANTRY";
 		icon = "iconManOfficer";
 		headgearProbability = 90;
 		randomWeaponProbability = 50;
@@ -59,7 +59,7 @@ class CfgVehicles
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HE_M203","CUP_1Rnd_HE_M203","CUP_1Rnd_HE_M203","CUP_1Rnd_HE_M203","CUP_1Rnd_HE_M203","CUP_1Rnd_HE_M203","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		Respawnmagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HE_M203","CUP_1Rnd_HE_M203","CUP_1Rnd_HE_M203","CUP_1Rnd_HE_M203","CUP_1Rnd_HE_M203","CUP_1Rnd_HE_M203","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 	};
-	class CFP_B_IQARMY_grenadier: cfp_ia_base
+	class cfp_b_iqarmy_grenadier: cfp_ia_base
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -74,7 +74,7 @@ class CfgVehicles
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HE_M203","CUP_1Rnd_HE_M203","CUP_1Rnd_HE_M203","CUP_1Rnd_HE_M203","CUP_1Rnd_HE_M203","CUP_1Rnd_HE_M203","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		Respawnmagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HE_M203","CUP_1Rnd_HE_M203","CUP_1Rnd_HE_M203","CUP_1Rnd_HE_M203","CUP_1Rnd_HE_M203","CUP_1Rnd_HE_M203","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 	};
-	class CFP_B_IQARMY_rifleman: cfp_ia_base
+	class cfp_b_iqarmy_rifleman: cfp_ia_base
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -89,7 +89,7 @@ class CfgVehicles
 		magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		Respawnmagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 	};
-	class CFP_B_IQARMY_machinegunner: cfp_ia_base
+	class cfp_b_iqarmy_machinegunner: cfp_ia_base
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -105,7 +105,7 @@ class CfgVehicles
 		magazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"};
 		Respawnmagazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"};
 	};
-	class CFP_B_IQARMY_sniper: cfp_ia_base
+	class cfp_b_iqarmy_sniper: cfp_ia_base
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -122,7 +122,7 @@ class CfgVehicles
 		magazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_HandGrenade_RGD5"};
 		Respawnmagazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_HandGrenade_RGD5"};
 	};
-	class CFP_B_IQARMY_at: cfp_ia_base
+	class cfp_b_iqarmy_at: cfp_ia_base
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -138,7 +138,7 @@ class CfgVehicles
 		magazines[] = {"CUP_PG7VL_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
 		Respawnmagazines[] = {"CUP_PG7VL_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
 	};
-	class CFP_B_IQARMY_medic: cfp_ia_base
+	class cfp_b_iqarmy_medic: cfp_ia_base
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -155,7 +155,7 @@ class CfgVehicles
 		magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
 		Respawnmagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
 	};
-	class CFP_B_IQARMY_sapper: cfp_ia_base
+	class cfp_b_iqarmy_sapper: cfp_ia_base
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -171,7 +171,7 @@ class CfgVehicles
 		magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
 		Respawnmagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
 	};
-	class CFP_B_IQARMY_crewman: cfp_ia_base
+	class cfp_b_iqarmy_crewman: cfp_ia_base
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -186,7 +186,7 @@ class CfgVehicles
 		magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
 		Respawnmagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
 	};
-	class CFP_B_IQARMY_sf: B_Soldier_F
+	class cfp_b_iqarmy_sf: B_Soldier_F
 	{
 		modelSides[] = {6};
 		side = 1;
@@ -195,7 +195,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "IA SF";
 		faction = "CFP_B_IQARMY";
-		vehicleClass = "CFP_B_IQARMY_INFANTRY";
+		vehicleClass = "cfp_b_iqarmy_INFANTRY";
 		icon = "iconMan";
 		nakedUniform = "U_BasicBody";
 		uniformClass = "IA_uniform_sf_b";
@@ -225,7 +225,7 @@ class CfgVehicles
 		};
 		Editorpreview = "x\cfp\addons\b_iqarmy\data\Preview_ia_sf_infantry.jpg";
 	};
-	class CFP_B_IQARMY_rifleman_dshkm: CFP_B_IQARMY_rifleman
+	class cfp_b_iqarmy_rifleman_dshkm: cfp_b_iqarmy_rifleman
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -233,7 +233,7 @@ class CfgVehicles
 		icon = "iconManAT";
 		backpack = "CUP_B_DShkM_TripodHigh_Bag";
 	};
-	class CFP_B_IQARMY_rifleman_kord: CFP_B_IQARMY_rifleman
+	class cfp_b_iqarmy_rifleman_kord: cfp_b_iqarmy_rifleman
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -241,7 +241,7 @@ class CfgVehicles
 		icon = "iconManAT";
 		backpack = "CUP_B_Kord_Tripod_Bag";
 	};
-	class CFP_B_IQARMY_rifleman_podnos: CFP_B_IQARMY_rifleman
+	class cfp_b_iqarmy_rifleman_podnos: cfp_b_iqarmy_rifleman
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -249,7 +249,7 @@ class CfgVehicles
 		icon = "iconManAT";
 		backpack = "CUP_B_Podnos_Bipod_Bag";
 	};
-	class CFP_B_IQARMY_rifleman_ags30: CFP_B_IQARMY_rifleman
+	class cfp_b_iqarmy_rifleman_ags30: cfp_b_iqarmy_rifleman
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -257,7 +257,7 @@ class CfgVehicles
 		icon = "iconManAT";
 		backpack = "CUP_B_AGS30_Tripod_Bag";
 	};
-	class CFP_B_IQARMY_rifleman_metis: CFP_B_IQARMY_rifleman
+	class cfp_b_iqarmy_rifleman_metis: cfp_b_iqarmy_rifleman
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -265,7 +265,7 @@ class CfgVehicles
 		icon = "iconManAT";
 		backpack = "CUP_B_Metis_Tripod_Bag";
 	};
-	class CFP_B_IQARMY_rifleman_spg9: CFP_B_IQARMY_rifleman
+	class cfp_b_iqarmy_rifleman_spg9: cfp_b_iqarmy_rifleman
 	{
 		scope = 2;
 		scopeCurator = 2;
@@ -340,16 +340,16 @@ class CfgVehicles
 	class CUP_O_D30_RU;
 	class CUP_O_D30_AT_RU;
 	class CUP_B_M119_US;
-	class CFP_B_IQARMY_HMMWV_M2: CUP_B_HMMWV_M2_USA
+	class cfp_b_iqarmy_HMMWV_M2: CUP_B_HMMWV_M2_USA
 	{
 		scope = 2;
 		side = 1;
 		displayName = "IA HMMWV M2";
 		faction = "CFP_B_IQARMY";
-		vehicleClass = "CFP_B_IQARMY_MOTORIZED";
+		vehicleClass = "cfp_b_iqarmy_MOTORIZED";
 		camouflage = 4;
-		crew = "CFP_B_IQARMY_crewman";
-		typicalCargo[] = {"CFP_B_IQARMY_crewman","CFP_B_IQARMY_crewman"};
+		crew = "cfp_b_iqarmy_crewman";
+		typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
 		class EventHandlers
 		{
 			class ADDON
@@ -359,38 +359,38 @@ class CfgVehicles
 		};
 		Editorpreview = "\x\cfp\addons\b_iqarmy\data\Preview_IA_HMMWV.jpg";
 	};
-	class CFP_B_IQARMY_hmmwv_dshkm: CUP_B_HMMWV_DSHKM_GPK_ACR
+	class cfp_b_iqarmy_hmmwv_dshkm: CUP_B_HMMWV_DSHKM_GPK_ACR
 	{
 		scope = 2;
 		side = 1;
 		displayName = "IA HMMWV GPK DShKM";
 		faction = "CFP_B_IQARMY";
-		vehicleClass = "CFP_B_IQARMY_MOTORIZED";
+		vehicleClass = "cfp_b_iqarmy_MOTORIZED";
 		camouflage = 4;
-		crew = "CFP_B_IQARMY_crewman";
-		typicalCargo[] = {"CFP_B_IQARMY_crewman","CFP_B_IQARMY_crewman"};
+		crew = "cfp_b_iqarmy_crewman";
+		typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
 	};
-	class CFP_B_IQARMY_hmmwv_m2_gpk: CUP_B_HMMWV_M2_GPK_ACR
+	class cfp_b_iqarmy_hmmwv_m2_gpk: CUP_B_HMMWV_M2_GPK_ACR
 	{
 		scope = 2;
 		side = 1;
 		displayName = "IA HMMWV GPK M2";
 		faction = "CFP_B_IQARMY";
-		vehicleClass = "CFP_B_IQARMY_MOTORIZED";
+		vehicleClass = "cfp_b_iqarmy_MOTORIZED";
 		camouflage = 4;
-		crew = "CFP_B_IQARMY_crewman";
-		typicalCargo[] = {"CFP_B_IQARMY_crewman","CFP_B_IQARMY_crewman"};
+		crew = "cfp_b_iqarmy_crewman";
+		typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
 	};
-	class CFP_B_IQARMY_Ural: CUP_O_Ural_CHDKZ
+	class cfp_b_iqarmy_Ural: CUP_O_Ural_CHDKZ
 	{
 		scope = 2;
 		side = 1;
 		displayName = "IA Ural";
 		faction = "CFP_B_IQARMY";
-		vehicleClass = "CFP_B_IQARMY_MOTORIZED";
+		vehicleClass = "cfp_b_iqarmy_MOTORIZED";
 		camouflage = 4;
-		crew = "CFP_B_IQARMY_crewman";
-		typicalCargo[] = {"CFP_B_IQARMY_crewman","CFP_B_IQARMY_crewman"};
+		crew = "cfp_b_iqarmy_crewman";
+		typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
 		class EventHandlers
 		{
 			class ADDON
@@ -400,16 +400,16 @@ class CfgVehicles
 		};
 		Editorpreview = "\x\cfp\addons\b_iqarmy\data\Preview_IA_Ural.jpg";
 	};
-	class CFP_B_IQARMY_Ural_ZU23: CUP_O_Ural_ZU23_CHDKZ
+	class cfp_b_iqarmy_Ural_ZU23: CUP_O_Ural_ZU23_CHDKZ
 	{
 		scope = 2;
 		side = 1;
 		displayName = "IA Ural ZU23";
 		faction = "CFP_B_IQARMY";
-		vehicleClass = "CFP_B_IQARMY_MOTORIZED";
+		vehicleClass = "cfp_b_iqarmy_MOTORIZED";
 		camouflage = 4;
-		crew = "CFP_B_IQARMY_crewman";
-		typicalCargo[] = {"CFP_B_IQARMY_crewman","CFP_B_IQARMY_crewman"};
+		crew = "cfp_b_iqarmy_crewman";
+		typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
 		class EventHandlers
 		{
 			class ADDON
@@ -419,93 +419,93 @@ class CfgVehicles
 		};
 		Editorpreview = "\x\cfp\addons\b_iqarmy\data\Preview_IA_Ural_ZU23.jpg";
 	};
-	class CFP_B_IQARMY_mrap_rg31: CUP_B_RG31_M2_USMC
+	class cfp_b_iqarmy_mrap_rg31: CUP_B_RG31_M2_USMC
 	{
 		scope = 2;
 		side = 1;
 		displayName = "IA MRAP RG31";
 		faction = "CFP_B_IQARMY";
-		vehicleClass = "CFP_B_IQARMY_MOTORIZED";
+		vehicleClass = "cfp_b_iqarmy_MOTORIZED";
 		camouflage = 4;
-		crew = "CFP_B_IQARMY_crewman";
-		typicalCargo[] = {"CFP_B_IQARMY_crewman","CFP_B_IQARMY_crewman"};
+		crew = "cfp_b_iqarmy_crewman";
+		typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
 	};
-	class CFP_B_IQARMY_mrap_mastiff_hmg: CUP_B_Mastiff_HMG_GB_D
+	class cfp_b_iqarmy_mrap_mastiff_hmg: CUP_B_Mastiff_HMG_GB_D
 	{
 		scope = 2;
 		side = 1;
 		displayName = "IA MRAP Mastiff HMG";
 		faction = "CFP_B_IQARMY";
-		vehicleClass = "CFP_B_IQARMY_MOTORIZED";
+		vehicleClass = "cfp_b_iqarmy_MOTORIZED";
 		camouflage = 4;
-		crew = "CFP_B_IQARMY_crewman";
-		typicalCargo[] = {"CFP_B_IQARMY_crewman","CFP_B_IQARMY_crewman"};
+		crew = "cfp_b_iqarmy_crewman";
+		typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
 	};
-	class CFP_B_IQARMY_mrap_mastiff_lmg: CUP_B_Mastiff_LMG_GB_D
+	class cfp_b_iqarmy_mrap_mastiff_lmg: CUP_B_Mastiff_LMG_GB_D
 	{
 		scope = 2;
 		side = 1;
 		displayName = "IA MRAP Mastiff LMG";
 		faction = "CFP_B_IQARMY";
-		vehicleClass = "CFP_B_IQARMY_MOTORIZED";
+		vehicleClass = "cfp_b_iqarmy_MOTORIZED";
 		camouflage = 4;
-		crew = "CFP_B_IQARMY_crewman";
-		typicalCargo[] = {"CFP_B_IQARMY_crewman","CFP_B_IQARMY_crewman"};
+		crew = "cfp_b_iqarmy_crewman";
+		typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
 	};
-	class CFP_B_IQARMY_mrap_ridgback_hmg: CUP_B_Ridgback_HMG_GB_D
+	class cfp_b_iqarmy_mrap_ridgback_hmg: CUP_B_Ridgback_HMG_GB_D
 	{
 		scope = 2;
 		side = 1;
 		displayName = "IA MRAP Ridgback HMG";
 		faction = "CFP_B_IQARMY";
-		vehicleClass = "CFP_B_IQARMY_MOTORIZED";
+		vehicleClass = "cfp_b_iqarmy_MOTORIZED";
 		camouflage = 4;
-		crew = "CFP_B_IQARMY_crewman";
-		typicalCargo[] = {"CFP_B_IQARMY_crewman","CFP_B_IQARMY_crewman"};
+		crew = "cfp_b_iqarmy_crewman";
+		typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
 	};
-	class CFP_B_IQARMY_mrap_ridgback_lmg: CUP_B_Ridgback_LMG_GB_D
+	class cfp_b_iqarmy_mrap_ridgback_lmg: CUP_B_Ridgback_LMG_GB_D
 	{
 		scope = 2;
 		side = 1;
 		displayName = "IA MRAP Ridgback LMG";
 		faction = "CFP_B_IQARMY";
-		vehicleClass = "CFP_B_IQARMY_MOTORIZED";
+		vehicleClass = "cfp_b_iqarmy_MOTORIZED";
 		camouflage = 4;
-		crew = "CFP_B_IQARMY_crewman";
-		typicalCargo[] = {"CFP_B_IQARMY_crewman","CFP_B_IQARMY_crewman"};
+		crew = "cfp_b_iqarmy_crewman";
+		typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
 	};
-	class CFP_B_IQARMY_mrap_wolfhound_hmg: CUP_B_Wolfhound_HMG_GB_D
+	class cfp_b_iqarmy_mrap_wolfhound_hmg: CUP_B_Wolfhound_HMG_GB_D
 	{
 		scope = 2;
 		side = 1;
 		displayName = "IA MRAP Wolfhound HMG";
 		faction = "CFP_B_IQARMY";
-		vehicleClass = "CFP_B_IQARMY_MOTORIZED";
+		vehicleClass = "cfp_b_iqarmy_MOTORIZED";
 		camouflage = 4;
-		crew = "CFP_B_IQARMY_crewman";
-		typicalCargo[] = {"CFP_B_IQARMY_crewman","CFP_B_IQARMY_crewman"};
+		crew = "cfp_b_iqarmy_crewman";
+		typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
 	};
-	class CFP_B_IQARMY_mrap_wolfhound_lmg: CUP_B_Wolfhound_LMG_GB_D
+	class cfp_b_iqarmy_mrap_wolfhound_lmg: CUP_B_Wolfhound_LMG_GB_D
 	{
 		scope = 2;
 		side = 1;
 		displayName = "IA MRAP Wolfhound LMG";
 		faction = "CFP_B_IQARMY";
-		vehicleClass = "CFP_B_IQARMY_MOTORIZED";
+		vehicleClass = "cfp_b_iqarmy_MOTORIZED";
 		camouflage = 4;
-		crew = "CFP_B_IQARMY_crewman";
-		typicalCargo[] = {"CFP_B_IQARMY_crewman","CFP_B_IQARMY_crewman"};
+		crew = "cfp_b_iqarmy_crewman";
+		typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
 	};
-	class CFP_B_IQARMY_BTR60: CUP_O_BTR60_TK
+	class cfp_b_iqarmy_BTR60: CUP_O_BTR60_TK
 	{
 		scope = 2;
 		side = 1;
 		displayName = "IA BTR60";
 		faction = "CFP_B_IQARMY";
-		vehicleClass = "CFP_B_IQARMY_MECHANIZED";
+		vehicleClass = "cfp_b_iqarmy_MECHANIZED";
 		camouflage = 4;
-		crew = "CFP_B_IQARMY_crewman";
-		typicalCargo[] = {"CFP_B_IQARMY_crewman","CFP_B_IQARMY_crewman","CFP_B_IQARMY_crewman"};
+		crew = "cfp_b_iqarmy_crewman";
+		typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
 		class EventHandlers
 		{
 			class ADDON
@@ -515,16 +515,16 @@ class CfgVehicles
 		};
 		Editorpreview = "\x\cfp\addons\b_iqarmy\data\Preview_IA_BTR60.jpg";
 	};
-	class CFP_B_IQARMY_BMP1: CUP_O_BMP1_TKA
+	class cfp_b_iqarmy_BMP1: CUP_O_BMP1_TKA
 	{
 		scope = 2;
 		side = 1;
 		displayName = "IA BMP-1";
 		faction = "CFP_B_IQARMY";
-		vehicleClass = "CFP_B_IQARMY_MECHANIZED";
+		vehicleClass = "cfp_b_iqarmy_MECHANIZED";
 		camouflage = 4;
-		crew = "CFP_B_IQARMY_crewman";
-		typicalCargo[] = {"CFP_B_IQARMY_crewman","CFP_B_IQARMY_crewman","CFP_B_IQARMY_crewman"};
+		crew = "cfp_b_iqarmy_crewman";
+		typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
 		class EventHandlers
 		{
 			class ADDON
@@ -534,16 +534,16 @@ class CfgVehicles
 		};
 		Editorpreview = "\x\cfp\addons\b_iqarmy\data\Preview_IA_BMP1.jpg";
 	};
-	class CFP_B_IQARMY_BMP1P: CUP_O_BMP1P_TKA
+	class cfp_b_iqarmy_BMP1P: CUP_O_BMP1P_TKA
 	{
 		scope = 2;
 		side = 1;
 		displayName = "IA BMP-1P";
 		faction = "CFP_B_IQARMY";
-		vehicleClass = "CFP_B_IQARMY_MECHANIZED";
+		vehicleClass = "cfp_b_iqarmy_MECHANIZED";
 		camouflage = 4;
-		crew = "CFP_B_IQARMY_crewman";
-		typicalCargo[] = {"CFP_B_IQARMY_crewman","CFP_B_IQARMY_crewman","CFP_B_IQARMY_crewman"};
+		crew = "cfp_b_iqarmy_crewman";
+		typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
 		class EventHandlers
 		{
 			class ADDON
@@ -553,16 +553,16 @@ class CfgVehicles
 		};
 		Editorpreview = "\x\cfp\addons\b_iqarmy\data\Preview_IA_BMP1P.jpg";
 	};
-	class CFP_B_IQARMY_BMP2: CUP_O_BMP2_TKA
+	class cfp_b_iqarmy_BMP2: CUP_O_BMP2_TKA
 	{
 		scope = 2;
 		side = 1;
 		displayName = "IA BMP-2";
 		faction = "CFP_B_IQARMY";
-		vehicleClass = "CFP_B_IQARMY_MECHANIZED";
+		vehicleClass = "cfp_b_iqarmy_MECHANIZED";
 		camouflage = 4;
-		crew = "CFP_B_IQARMY_crewman";
-		typicalCargo[] = {"CFP_B_IQARMY_crewman","CFP_B_IQARMY_crewman","CFP_B_IQARMY_crewman"};
+		crew = "cfp_b_iqarmy_crewman";
+		typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
 		class EventHandlers
 		{
 			class ADDON
@@ -572,16 +572,16 @@ class CfgVehicles
 		};
 		Editorpreview = "\x\cfp\addons\b_iqarmy\data\Preview_IA_BMP2.jpg";
 	};
-	class CFP_B_IQARMY_T55: CUP_O_T55_CSAT
+	class cfp_b_iqarmy_T55: CUP_O_T55_CSAT
 	{
 		scope = 2;
 		side = 1;
 		displayName = "IA T55";
 		faction = "CFP_B_IQARMY";
-		vehicleClass = "CFP_B_IQARMY_ARMORED";
+		vehicleClass = "cfp_b_iqarmy_ARMORED";
 		camouflage = 4;
-		crew = "CFP_B_IQARMY_crewman";
-		typicalCargo[] = {"CFP_B_IQARMY_crewman","CFP_B_IQARMY_crewman","CFP_B_IQARMY_crewman"};
+		crew = "cfp_b_iqarmy_crewman";
+		typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
 		class EventHandlers
 		{
 			class ADDON
@@ -591,16 +591,16 @@ class CfgVehicles
 		};
 		Editorpreview = "\x\cfp\addons\b_iqarmy\data\Preview_IA_T55.jpg";
 	};
-	class CFP_B_IQARMY_T72: CUP_O_T72_TKA
+	class cfp_b_iqarmy_T72: CUP_O_T72_TKA
 	{
 		scope = 2;
 		side = 1;
 		displayName = "IA T72";
 		faction = "CFP_B_IQARMY";
-		vehicleClass = "CFP_B_IQARMY_ARMORED";
+		vehicleClass = "cfp_b_iqarmy_ARMORED";
 		camouflage = 4;
-		crew = "CFP_B_IQARMY_crewman";
-		typicalCargo[] = {"CFP_B_IQARMY_crewman","CFP_B_IQARMY_crewman","CFP_B_IQARMY_crewman"};
+		crew = "cfp_b_iqarmy_crewman";
+		typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
 		class EventHandlers
 		{
 			class ADDON
@@ -610,16 +610,16 @@ class CfgVehicles
 		};
 		Editorpreview = "\x\cfp\addons\b_iqarmy\data\Preview_IA_T72.jpg";
 	};
-	class CFP_B_IQARMY_ZSU: CUP_O_ZSU23_SLA
+	class cfp_b_iqarmy_ZSU: CUP_O_ZSU23_SLA
 	{
 		scope = 2;
 		side = 1;
 		displayName = "IA ZSU";
 		faction = "CFP_B_IQARMY";
-		vehicleClass = "CFP_B_IQARMY_ARMORED";
+		vehicleClass = "cfp_b_iqarmy_ARMORED";
 		camouflage = 4;
-		crew = "CFP_B_IQARMY_crewman";
-		typicalCargo[] = {"CFP_B_IQARMY_crewman","CFP_B_IQARMY_crewman","CFP_B_IQARMY_crewman"};
+		crew = "cfp_b_iqarmy_crewman";
+		typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
 		class EventHandlers
 		{
 			class ADDON
@@ -628,16 +628,16 @@ class CfgVehicles
 			};
 		};
 	};
-	class CFP_B_IQARMY_M1A1: CUP_B_M1A1_DES_US_Army
+	class cfp_b_iqarmy_M1A1: CUP_B_M1A1_DES_US_Army
 	{
 		scope = 2;
 		side = 1;
 		displayName = "IA M1A1";
 		faction = "CFP_B_IQARMY";
-		vehicleClass = "CFP_B_IQARMY_ARMORED";
+		vehicleClass = "cfp_b_iqarmy_ARMORED";
 		camouflage = 4;
-		crew = "CFP_B_IQARMY_crewman";
-		typicalCargo[] = {"CFP_B_IQARMY_crewman","CFP_B_IQARMY_crewman","CFP_B_IQARMY_crewman"};
+		crew = "cfp_b_iqarmy_crewman";
+		typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
 		class EventHandlers
 		{
 			class ADDON
@@ -647,137 +647,137 @@ class CfgVehicles
 		};
 		Editorpreview = "\x\cfp\addons\b_iqarmy\data\Preview_IA_M1A1.jpg";
 	};
-	class CFP_B_IQARMY_ZU23: CUP_O_ZU23_RU
+	class cfp_b_iqarmy_ZU23: CUP_O_ZU23_RU
 	{
 		scope = 2;
 		side = 1;
 		displayName = "IA ZU23";
 		faction = "CFP_B_IQARMY";
-		vehicleClass = "CFP_B_IQARMY_STATIC";
+		vehicleClass = "cfp_b_iqarmy_STATIC";
 		camouflage = 4;
-		crew = "CFP_B_IQARMY_crewman";
-		typicalCargo[] = {"CFP_B_IQARMY_crewman"};
+		crew = "cfp_b_iqarmy_crewman";
+		typicalCargo[] = {"cfp_b_iqarmy_crewman"};
 	};
-	class CFP_B_IQARMY_DSHKM: CUP_O_DSHKM_TK_INS
+	class cfp_b_iqarmy_DSHKM: CUP_O_DSHKM_TK_INS
 	{
 		scope = 2;
 		side = 1;
 		displayName = "IA DSHKM";
 		faction = "CFP_B_IQARMY";
-		vehicleClass = "CFP_B_IQARMY_STATIC";
+		vehicleClass = "cfp_b_iqarmy_STATIC";
 		camouflage = 4;
-		crew = "CFP_B_IQARMY_rifleman";
-		typicalCargo[] = {"CFP_B_IQARMY_rifleman"};
+		crew = "cfp_b_iqarmy_rifleman";
+		typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
 	};
-	class CFP_B_IQARMY_DSHkM_Mini_TriPod: CUP_O_DSHkM_MiniTriPod_TK_INS
+	class cfp_b_iqarmy_DSHkM_Mini_TriPod: CUP_O_DSHkM_MiniTriPod_TK_INS
 	{
 		scope = 2;
 		side = 1;
 		displayName = "IA DSHkM Mini TriPod";
 		faction = "CFP_B_IQARMY";
-		vehicleClass = "CFP_B_IQARMY_STATIC";
+		vehicleClass = "cfp_b_iqarmy_STATIC";
 		camouflage = 4;
-		crew = "CFP_B_IQARMY_rifleman";
-		typicalCargo[] = {"CFP_B_IQARMY_rifleman"};
+		crew = "cfp_b_iqarmy_rifleman";
+		typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
 	};
-	class CFP_B_IQARMY_KORD: CUP_O_KORD_RU
+	class cfp_b_iqarmy_KORD: CUP_O_KORD_RU
 	{
 		scope = 2;
 		side = 1;
 		displayName = "IA KORD";
 		faction = "CFP_B_IQARMY";
-		vehicleClass = "CFP_B_IQARMY_STATIC";
+		vehicleClass = "cfp_b_iqarmy_STATIC";
 		camouflage = 4;
-		crew = "CFP_B_IQARMY_rifleman";
-		typicalCargo[] = {"CFP_B_IQARMY_rifleman"};
+		crew = "cfp_b_iqarmy_rifleman";
+		typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
 	};
-	class CFP_B_IQARMY_KORD_high: CUP_O_KORD_high_RU
+	class cfp_b_iqarmy_KORD_high: CUP_O_KORD_high_RU
 	{
 		scope = 2;
 		side = 1;
 		displayName = "IA KORD High";
 		faction = "CFP_B_IQARMY";
-		vehicleClass = "CFP_B_IQARMY_STATIC";
+		vehicleClass = "cfp_b_iqarmy_STATIC";
 		camouflage = 4;
-		crew = "CFP_B_IQARMY_rifleman";
-		typicalCargo[] = {"CFP_B_IQARMY_rifleman"};
+		crew = "cfp_b_iqarmy_rifleman";
+		typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
 	};
-	class CFP_B_IQARMY_AGS: CUP_O_AGS_RU
+	class cfp_b_iqarmy_AGS: CUP_O_AGS_RU
 	{
 		scope = 2;
 		side = 1;
 		displayName = "IA AGS";
 		faction = "CFP_B_IQARMY";
-		vehicleClass = "CFP_B_IQARMY_STATIC";
+		vehicleClass = "cfp_b_iqarmy_STATIC";
 		camouflage = 4;
-		crew = "CFP_B_IQARMY_rifleman";
-		typicalCargo[] = {"CFP_B_IQARMY_rifleman"};
+		crew = "cfp_b_iqarmy_rifleman";
+		typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
 	};
-	class CFP_B_IQARMY_Metis: CUP_O_Metis_RU
+	class cfp_b_iqarmy_Metis: CUP_O_Metis_RU
 	{
 		scope = 2;
 		side = 1;
 		displayName = "IA Metis";
 		faction = "CFP_B_IQARMY";
-		vehicleClass = "CFP_B_IQARMY_STATIC";
+		vehicleClass = "cfp_b_iqarmy_STATIC";
 		camouflage = 4;
-		crew = "CFP_B_IQARMY_rifleman";
-		typicalCargo[] = {"CFP_B_IQARMY_rifleman"};
+		crew = "cfp_b_iqarmy_rifleman";
+		typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
 	};
-	class CFP_B_IQARMY_SPG9: CUP_O_SPG9_TK_INS
+	class cfp_b_iqarmy_SPG9: CUP_O_SPG9_TK_INS
 	{
 		scope = 2;
 		side = 1;
 		displayName = "IA SPG9";
 		faction = "CFP_B_IQARMY";
-		vehicleClass = "CFP_B_IQARMY_STATIC";
+		vehicleClass = "cfp_b_iqarmy_STATIC";
 		camouflage = 4;
-		crew = "CFP_B_IQARMY_rifleman";
-		typicalCargo[] = {"CFP_B_IQARMY_rifleman"};
+		crew = "cfp_b_iqarmy_rifleman";
+		typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
 	};
-	class CFP_B_IQARMY_2b14_82mm: CUP_O_2b14_82mm_RU
+	class cfp_b_iqarmy_2b14_82mm: CUP_O_2b14_82mm_RU
 	{
 		scope = 2;
 		side = 1;
 		displayName = "IA 2b14 82mm";
 		faction = "CFP_B_IQARMY";
-		vehicleClass = "CFP_B_IQARMY_STATIC";
+		vehicleClass = "cfp_b_iqarmy_STATIC";
 		camouflage = 4;
-		crew = "CFP_B_IQARMY_rifleman";
-		typicalCargo[] = {"CFP_B_IQARMY_rifleman"};
+		crew = "cfp_b_iqarmy_rifleman";
+		typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
 	};
-	class CFP_B_IQARMY_D30: CUP_O_D30_RU
+	class cfp_b_iqarmy_D30: CUP_O_D30_RU
 	{
 		scope = 2;
 		side = 1;
 		displayName = "IA D30";
 		faction = "CFP_B_IQARMY";
-		vehicleClass = "CFP_B_IQARMY_STATIC";
+		vehicleClass = "cfp_b_iqarmy_STATIC";
 		camouflage = 4;
-		crew = "CFP_B_IQARMY_rifleman";
-		typicalCargo[] = {"CFP_B_IQARMY_rifleman"};
+		crew = "cfp_b_iqarmy_rifleman";
+		typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
 	};
-	class CFP_B_IQARMY_D30_AT: CUP_O_D30_AT_RU
+	class cfp_b_iqarmy_D30_AT: CUP_O_D30_AT_RU
 	{
 		scope = 2;
 		side = 1;
 		displayName = "IA D30 AT";
 		faction = "CFP_B_IQARMY";
-		vehicleClass = "CFP_B_IQARMY_STATIC";
+		vehicleClass = "cfp_b_iqarmy_STATIC";
 		camouflage = 4;
-		crew = "CFP_B_IQARMY_rifleman";
-		typicalCargo[] = {"CFP_B_IQARMY_rifleman"};
+		crew = "cfp_b_iqarmy_rifleman";
+		typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
 	};
-	class CFP_B_IQARMY_MI24V: CUP_O_Mi24_V_RU
+	class cfp_b_iqarmy_MI24V: CUP_O_Mi24_V_RU
 	{
 		scope = 2;
 		side = 1;
 		displayName = "IA Mi-24v";
 		faction = "CFP_B_IQARMY";
-		vehicleClass = "CFP_B_IQARMY_AIRCRAFT";
+		vehicleClass = "cfp_b_iqarmy_AIRCRAFT";
 		camouflage = 4;
-		crew = "CFP_B_IQARMY_crewman";
-		typicalCargo[] = {"CFP_B_IQARMY_crewman","CFP_B_IQARMY_crewman"};
+		crew = "cfp_b_iqarmy_crewman";
+		typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
 		class EventHandlers
 		{
 			class ADDON
@@ -787,16 +787,16 @@ class CfgVehicles
 		};
 		Editorpreview = "\x\cfp\addons\b_iqarmy\data\Preview_IA_MI24V.jpg";
 	};
-	class CFP_B_IQARMY_MI24P: CUP_O_Mi24_P_RU
+	class cfp_b_iqarmy_MI24P: CUP_O_Mi24_P_RU
 	{
 		scope = 2;
 		side = 1;
 		displayName = "IA Mi-24p";
 		faction = "CFP_B_IQARMY";
-		vehicleClass = "CFP_B_IQARMY_AIRCRAFT";
+		vehicleClass = "cfp_b_iqarmy_AIRCRAFT";
 		camouflage = 4;
-		crew = "CFP_B_IQARMY_crewman";
-		typicalCargo[] = {"CFP_B_IQARMY_crewman","CFP_B_IQARMY_crewman"};
+		crew = "cfp_b_iqarmy_crewman";
+		typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
 		class EventHandlers
 		{
 			class ADDON
@@ -806,16 +806,16 @@ class CfgVehicles
 		};
 		Editorpreview = "\x\cfp\addons\b_iqarmy\data\Preview_IA_MI24P.jpg";
 	};
-	class CFP_B_IQARMY_SU25: CUP_O_Su25_Dyn_RU
+	class cfp_b_iqarmy_SU25: CUP_O_Su25_Dyn_RU
 	{
 		scope = 2;
 		side = 1;
 		displayName = "IA SU25";
 		faction = "CFP_B_IQARMY";
-		vehicleClass = "CFP_B_IQARMY_AIRCRAFT";
+		vehicleClass = "cfp_b_iqarmy_AIRCRAFT";
 		camouflage = 4;
-		crew = "CFP_B_IQARMY_crewman";
-		typicalCargo[] = {"CFP_B_IQARMY_crewman","CFP_B_IQARMY_crewman"};
+		crew = "cfp_b_iqarmy_crewman";
+		typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\b_iqarmy\data\su25_body1_ia.paa","\x\cfp\addons\b_iqarmy\data\su25_body2_ia.paa"};
 		editorPreview = "\x\cfp\addons\b_iqarmy\data\Preview_ia_su25.jpg";
 	};
