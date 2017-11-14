@@ -14,7 +14,7 @@ class CfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "cfp_b_ip_officer";
+			uniformClass = "cfp_b_iqpolice_officer";
 			containerClass = "Supply50";
 			mass = 50;
 		};
@@ -27,7 +27,7 @@ class CfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "cfp_b_ip_policeman";
+			uniformClass = "cfp_b_iqpolice_policeman";
 			containerClass = "Supply50";
 			mass = 50;
 		};
