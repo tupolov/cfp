@@ -142,7 +142,7 @@ if (isServer) then
 		] select _randomSeed1];
 
 		_this setObjectTextureGlobal [1, [
-			"\x\cfp\addons\vehicles\T55\t55_tower_ia.paa"
+			"\x\cfp\addons\b_iqarmy\data\t55_tower_ia.paa"
 		] select _randomSeed2];
 	};
 
