@@ -13,8 +13,6 @@
 			uniformClass = "SP_0000_Standard_BattleDressUniform_Black";
 			containerClass="Supply60";
 			mass=80;
-
-
 		};
 	};
 
@@ -211,5 +209,73 @@
 
 
 
+		};
+	};
+
+	class CFP_U_BattleDressUniform_3ColorDesert: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Battle Dress Uniform (3 Color Desert)";
+		picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\NodUrban.jpg";
+		author = "AccuracyThruVolume";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_BattleDressUniform_3ColorDesert";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+
+	class CFP_U_BattleDressUniform_AfricanWoodland: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Battle Dress Uniform (African Woodland)";
+		picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\NodUrban.jpg";
+		author = "AccuracyThruVolume";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_BattleDressUniform_AfricanWoodland";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+
+	class CFP_U_BattleDressUniform_ChocChip: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Battle Dress Uniform (Choc Chip)";
+		picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\NodUrban.jpg";
+		author = "AccuracyThruVolume";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_BattleDressUniform_ChocChip";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+
+	class CFP_U_BattleDressUniform_M81: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Battle Dress Uniform (M81)";
+		picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\NodUrban.jpg";
+		author = "AccuracyThruVolume";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_BattleDressUniform_M81";
+			containerClass="Supply60";
+			mass=80;
 		};
 	};
