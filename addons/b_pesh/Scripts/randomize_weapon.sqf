@@ -388,7 +388,7 @@ if (_randomWeaponChance <= _randomWeaponProbability) then  // replace default we
 				{ 	
 					_this addBackpack "B_Kitbag_rgr";
 					_this addMagazines ["CUP_10Rnd_127x99_M107",7];
-					_this addWeapon "CUP_10Rnd_127x99_M107";
+					_this addWeapon "CUP_srifle_M107_Base";
 					_this addPrimaryWeaponItem "CUP_optic_SB_3_12x50_PMII";
 				};
 			};
