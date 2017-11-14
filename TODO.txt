@@ -1,6 +1,8 @@
 TO DO
 
 0. Fix CfgMagazine error
+27. Add support for CBA XEH
+29. Add ackbar protocol
 1. Investigate why base BIS A3 classes are displayed as CFP mod items
 2. Fix alpha in item preview images
 3. Update config layout to match best practice.
@@ -20,4 +22,7 @@ TO DO
 24. Supply boxes, crates etc
 25. ALiVE static data entries
 26. Add group icons to ISC factions
-27. Add support for CBA XEH 
+28. Add CfgPatches macros
+
+
+

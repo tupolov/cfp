@@ -1,5 +1,5 @@
 dir = "@cfp";
-name = "Community Factions Project 0.0.1";
+name = "Community Factions Project (Alpha)";
 picture = "\x\cfp\addons\main\data\logos\picture_cfp_ca.paa";
 actionName = "GitHub";
 action = "https://github.com/tupolov/cfp";
