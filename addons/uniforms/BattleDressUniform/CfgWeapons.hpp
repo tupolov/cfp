@@ -3,7 +3,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Black (Battle Dress Uniform)";
+		displayName = "Battle Dress Uniform (Black)";
 		picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\Black.jpg";
 		author = "SP Craig";
 
@@ -20,7 +20,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Green (Battle Dress Uniform)";
+		displayName = "Battle Dress Uniform (Green)";
 		picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\Green.jpg";
 		author = "SP Craig";
 
@@ -40,7 +40,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Tan (Battle Dress Uniform)";
+		displayName = "Battle Dress Uniform (Tan)";
 		picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\Tan.jpg";
 		author = "SP Craig";
 
@@ -50,10 +50,6 @@
 			uniformClass = "SP_0000_Standard_BattleDressUniform_Tan";
 			containerClass="Supply60";
 			mass=80;
-
-
-
-
 		};
 	};
 
@@ -61,7 +57,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Grey (Battle Dress Uniform)";
+		displayName = "Battle Dress Uniform (Grey)";
 		picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\Grey.jpg";
 		author = "SP Craig";
 
@@ -71,8 +67,6 @@
 			uniformClass = "SP_0000_Standard_BattleDressUniform_Grey";
 			containerClass="Supply60";
 			mass=80;
-
-
 		};
 	};
 
@@ -80,7 +74,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Blue Dark (Battle Dress Uniform)";
+		displayName = "Battle Dress Uniform (Blue Dark)";
 		picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\BlueDark.jpg";
 		author = "SP Craig";
 
@@ -90,8 +84,6 @@
 			uniformClass = "SP_0000_Standard_BattleDressUniform_BlueDark";
 			containerClass="Supply60";
 			mass=80;
-
-
 		};
 	};
 
@@ -99,7 +91,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Blue Frost (Battle Dress Uniform)";
+		displayName = "Battle Dress Uniform {Blue Frost}";
 		picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\BlueFrost.jpg";
 		author = "SP Craig";
 
@@ -109,8 +101,6 @@
 			uniformClass = "SP_0000_Standard_BattleDressUniform_BlueFrost";
 			containerClass="Supply60";
 			mass=80;
-
-
 		};
 	};
 
@@ -118,7 +108,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Green Olive (Battle Dress Uniform)";
+		displayName = "Battle Dress Uniform (Green Olive)";
 		picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\GreenOlive.jpg";
 		author = "SP Craig";
 
@@ -128,8 +118,6 @@
 			uniformClass = "SP_0000_Standard_BattleDressUniform_GreenOlive";
 			containerClass="Supply60";
 			mass=80;
-
-
 		};
 	};
 
@@ -137,7 +125,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Hunter (Battle Dress Uniform)";
+		displayName = "Battle Dress Uniform (Hunter)";
 		picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\Hunter.jpg";
 		author = "SP Craig";
 
@@ -147,8 +135,6 @@
 			uniformClass = "SP_0000_Standard_BattleDressUniform_Hunter";
 			containerClass="Supply60";
 			mass=80;
-
-
 		};
 	};
 
@@ -156,7 +142,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Hunter2 (Battle Dress Uniform)";
+		displayName = "Battle Dress Uniform (Hunter2)";
 		picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\Hunter2.jpg";
 		author = "SP Craig";
 
@@ -166,8 +152,6 @@
 			uniformClass = "SP_0000_Standard_BattleDressUniform_Hunter2";
 			containerClass="Supply60";
 			mass=80;
-
-
 		};
 	};
 
@@ -175,7 +159,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard A-Tacs FG (Battle Dress Uniform)";
+		displayName = "Battle Dress Uniform (A-Tacs FG)";
 		picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\ATacsFG.jpg";
 		author = "SP Craig";
 
@@ -185,9 +169,6 @@
 			uniformClass = "SP_0000_Standard_BattleDressUniform_ATacsFG";
 			containerClass="Supply60";
 			mass=80;
-
-
-
 		};
 	};
 
@@ -195,7 +176,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard Nod Urban (Battle Dress Uniform)";
+		displayName = "Battle Dress Uniform (Nod Urban)";
 		picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\NodUrban.jpg";
 		author = "SP Craig";
 
@@ -205,10 +186,6 @@
 			uniformClass = "SP_0000_Standard_BattleDressUniform_NodUrban";
 			containerClass="Supply60";
 			mass=80;
-
-
-
-
 		};
 	};
 
