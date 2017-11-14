@@ -9,7 +9,7 @@ class CfgVehicles
 		scopeCurator = 0;
 		displayName = "IA Officer";
 		faction = "CFP_B_IQARMY";
-		modelsides[] = {1,2};
+		modelsides[] = {6};
 		side = 1;
 		vehicleClass = "CFP_B_IQARMY_INFANTRY";
 		icon = "iconManOfficer";
@@ -188,7 +188,7 @@ class CfgVehicles
 	};
 	class CFP_B_IQARMY_sf: B_Soldier_F
 	{
-		modelSides[] = {0,1,2,3};
+		modelSides[] = {6};
 		side = 1;
 		genericnames = "TakistaniMen";
 		scope = 2;
