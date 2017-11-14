@@ -8,7 +8,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "Iraqi Police Officer";
 		faction = "CFP_B_IQPOLICE";
-		modelsides[] = {1,2};
+		modelsides[] = {6};
 		side = 1;
 		vehicleClass = "CFP_B_IQPOLICE_INFANTRY";
 		icon = "iconManOfficer";
@@ -34,19 +34,21 @@ class CfgVehicles
 		identityTypes[] = {"NoGlasses","LanguagePER_F","Head_TK","G_IRAN_default"};
 		class EventHandlers
 		{
-			init = "(_this select 0) execVM ""\x\cfp\addons\b_iqpolice\Scripts\randomize_gear.sqf""; (_this select 0) execVM ""\x\cfp\addons\b_iqpolice\Scripts\randomize_weapon.sqf""";
+			class ADDON {
+				init = "(_this select 0) execVM ""\x\cfp\addons\b_iqpolice\Scripts\randomize_gear.sqf""; (_this select 0) execVM ""\x\cfp\addons\b_iqpolice\Scripts\randomize_weapon.sqf""";
+			};
 		};
 		editorPreview = "x\cfp\addons\b_iqpolice\data\Preview_ip_infantry.jpg";
 	};
 	class cfp_b_iqpolice_policeman: I_Soldier_A_F
 	{
-		modelSides[] = {0,1,2,3};
 		side = 1;
 		genericnames = "TakistaniMen";
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "Iraqi Policeman";
 		faction = "CFP_B_IQPOLICE";
+		modelsides[] = {6};
 		vehicleClass = "CFP_B_IQPOLICE_INFANTRY";
 		icon = "iconMan";
 		nakedUniform = "U_BasicBody";
@@ -70,7 +72,9 @@ class CfgVehicles
 		identityTypes[] = {"NoGlasses","LanguagePER_F","Head_TK","G_IRAN_default"};
 		class EventHandlers
 		{
-			init = "(_this select 0) execVM ""\x\cfp\addons\b_iqpolice\Scripts\randomize_gear.sqf""; (_this select 0) execVM ""\x\cfp\addons\b_iqpolice\Scripts\randomize_weapon.sqf""";
+			class ADDON {
+				init = "(_this select 0) execVM ""\x\cfp\addons\b_iqpolice\Scripts\randomize_gear.sqf""; (_this select 0) execVM ""\x\cfp\addons\b_iqpolice\Scripts\randomize_weapon.sqf""";
+			};
 		};
 		editorPreview = "x\cfp\addons\b_iqpolice\data\Preview_ip_infantry.jpg";
 	};
@@ -95,7 +99,9 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\b_iqpolice\data\offroad_ip_03.paa","\x\cfp\addons\b_iqpolice\data\offroad_ip_01.paa"};
 		class EventHandlers
 		{
-			init = "(_this select 0) execVM ""\x\cfp\addons\b_iqpolice\Scripts\randomize_tex.sqf""";
+			class ADDON {
+				init = "(_this select 0) execVM ""\x\cfp\addons\b_iqpolice\Scripts\randomize_tex.sqf""";
+			};
 		};
 		editorPreview = "\x\cfp\addons\b_iqpolice\data\Preview_IP_Offroad.jpg";
 	};
@@ -113,7 +119,9 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\b_iqpolice\data\offroad_ip_05.paa","\x\cfp\addons\b_iqpolice\data\offroad_ip_02.paa"};
 		class EventHandlers
 		{
-			init = "(_this select 0) execVM ""\x\cfp\addons\b_iqpolice\Scripts\randomize_tex.sqf""";
+			class ADDON {
+				init = "(_this select 0) execVM ""\x\cfp\addons\b_iqpolice\Scripts\randomize_tex.sqf""";
+			};
 		};
 		editorPreview = "\x\cfp\addons\b_iqpolice\data\Preview_IP_Offroad_MG.jpg";
 	};
@@ -129,7 +137,9 @@ class CfgVehicles
 		typicalCargo[] = {"cfp_b_iqpolice_policeman","cfp_b_iqpolice_policeman"};
 		class EventHandlers
 		{
-			init = "(_this select 0) execVM ""\x\cfp\addons\b_iqpolice\Scripts\randomize_tex.sqf""";
+			class ADDON {
+				init = "(_this select 0) execVM ""\x\cfp\addons\b_iqpolice\Scripts\randomize_tex.sqf""";
+			};
 		};
 		editorPreview = "\x\cfp\addons\b_iqpolice\data\Preview_IP_HMMWV.jpg";
 	};
@@ -156,7 +166,9 @@ class CfgVehicles
 		typicalCargo[] = {"cfp_b_iqpolice_policeman","cfp_b_iqpolice_policeman"};
 		class EventHandlers
 		{
-			init = "(_this select 0) execVM ""\x\cfp\addons\b_iqpolice\Scripts\randomize_tex.sqf""";
+			class ADDON {
+				init = "(_this select 0) execVM ""\x\cfp\addons\b_iqpolice\Scripts\randomize_tex.sqf""";
+			};
 		};
 		editorPreview = "\x\cfp\addons\b_iqpolice\data\Preview_IA_Ural.jpg";
 	};
