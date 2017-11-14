@@ -7,7 +7,7 @@
 class CfgGroups {
     class WEST {
 
-        class CFP_B_AFGPolice {
+        class CFP_B_AFGPOLICE {
             name = "Afghan Police";
 
             class Infantry {
@@ -16,7 +16,7 @@ class CfgGroups {
                 class b_afgpolice_infantry_sentry {
                     name = "Sentry";
                     side = 1;
-                    faction = "CFP_B_AFGPolice";
+                    faction = "CFP_B_AFGPOLICE";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.5;
 
@@ -37,7 +37,7 @@ class CfgGroups {
                 class b_afgpolice_infantry_fireteam {
                     name = "Fireteam";
                     side = 1;
-                    faction = "CFP_B_AFGPolice";
+                    faction = "CFP_B_AFGPOLICE";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.5;
 
@@ -70,7 +70,7 @@ class CfgGroups {
                 class b_afgpolice_infantry_squad {
                     name = "Squad";
                     side = 1;
-                    faction = "CFP_B_AFGPolice";
+                    faction = "CFP_B_AFGPOLICE";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.5;
 

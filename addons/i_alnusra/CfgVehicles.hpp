@@ -10,7 +10,7 @@ class CfgVehicles
         scope = 0;
         scopeCurator = 0;
         displayName = "al-Nusra Team Leader";
-        faction = "CFP_I_alNusra";
+        faction = "CFP_I_ALNUSRA";
         modelsides[] = {3,2,1,0};
         vehicleClass = "CFP_I_alNusra_INFANTRY";
         icon = "iconMan";
@@ -290,7 +290,7 @@ class CfgVehicles
         scope = 2;
         side = 2;
         displayName = "al-Nusra Offroad";
-        faction = "CFP_I_alNusra";
+        faction = "CFP_I_ALNUSRA";
         vehicleClass = "CFP_I_alNusra_MOTORIZED";
         camouflage = 4;
         crew = "cfp_i_alNusra_crewman";
@@ -310,7 +310,7 @@ class CfgVehicles
         scope = 2;
         side = 2;
         displayName = "al-Nusra Offroad MG";
-        faction = "CFP_I_alNusra";
+        faction = "CFP_I_ALNUSRA";
         vehicleClass = "CFP_I_alNusra_MOTORIZED";
         camouflage = 4;
         crew = "cfp_i_alNusra_crewman";
@@ -330,7 +330,7 @@ class CfgVehicles
         scope = 2;
         side = 2;
         displayName = "al-Nusra Pickup PK";
-        faction = "CFP_I_alNusra";
+        faction = "CFP_I_ALNUSRA";
         vehicleClass = "CFP_I_alNusra_MOTORIZED";
         camouflage = 4;
         crew = "cfp_i_alNusra_crewman";
@@ -347,7 +347,7 @@ class CfgVehicles
         scope = 2;
         side = 2;
         displayName = "al-Nusra L.R. M2";
-        faction = "CFP_I_alNusra";
+        faction = "CFP_I_ALNUSRA";
         vehicleClass = "CFP_I_alNusra_MOTORIZED";
         camouflage = 4;
         crew = "cfp_i_alNusra_crewman";
@@ -365,7 +365,7 @@ class CfgVehicles
         scope = 2;
         side = 2;
         displayName = "al-Nusra L.R. SPG9";
-        faction = "CFP_I_alNusra";
+        faction = "CFP_I_ALNUSRA";
         vehicleClass = "CFP_I_alNusra_MOTORIZED";
         camouflage = 4;
         crew = "cfp_i_alNusra_crewman";
@@ -383,7 +383,7 @@ class CfgVehicles
         scope = 2;
         side = 2;
         displayName = "al-Nusra L.R.";
-        faction = "CFP_I_alNusra";
+        faction = "CFP_I_ALNUSRA";
         vehicleClass = "CFP_I_alNusra_MOTORIZED";
         camouflage = 4;
         crew = "cfp_i_alNusra_crewman";
@@ -401,7 +401,7 @@ class CfgVehicles
         scope = 2;
         side = 2;
         displayName = "al-Nusra UAZ MG";
-        faction = "CFP_I_alNusra";
+        faction = "CFP_I_ALNUSRA";
         vehicleClass = "CFP_I_alNusra_MOTORIZED";
         camouflage = 4;
         crew = "cfp_i_alNusra_crewman";
@@ -419,7 +419,7 @@ class CfgVehicles
         scope = 2;
         side = 2;
         displayName = "al-Nusra UAZ AGS30";
-        faction = "CFP_I_alNusra";
+        faction = "CFP_I_ALNUSRA";
         vehicleClass = "CFP_I_alNusra_MOTORIZED";
         camouflage = 4;
         crew = "cfp_i_alNusra_crewman";
@@ -437,7 +437,7 @@ class CfgVehicles
         scope = 2;
         side = 2;
         displayName = "al-Nusra UAZ SPG9";
-        faction = "CFP_I_alNusra";
+        faction = "CFP_I_ALNUSRA";
         vehicleClass = "CFP_I_alNusra_MOTORIZED";
         camouflage = 4;
         crew = "cfp_i_alNusra_crewman";
@@ -455,7 +455,7 @@ class CfgVehicles
         scope = 2;
         side = 2;
         displayName = "al-Nusra UAZ METIS";
-        faction = "CFP_I_alNusra";
+        faction = "CFP_I_ALNUSRA";
         vehicleClass = "CFP_I_alNusra_MOTORIZED";
         camouflage = 4;
         crew = "cfp_i_alNusra_crewman";
@@ -472,7 +472,7 @@ class CfgVehicles
         scope = 2;
         side = 2;
         displayName = "al-Nusra UAZ";
-        faction = "CFP_I_alNusra";
+        faction = "CFP_I_ALNUSRA";
         vehicleClass = "CFP_I_alNusra_MOTORIZED";
         camouflage = 4;
         crew = "cfp_i_alNusra_crewman";
@@ -490,7 +490,7 @@ class CfgVehicles
         scope = 2;
         side = 2;
         displayName = "al-Nusra UAZ Open";
-        faction = "CFP_I_alNusra";
+        faction = "CFP_I_ALNUSRA";
         vehicleClass = "CFP_I_alNusra_MOTORIZED";
         camouflage = 4;
         crew = "cfp_i_alNusra_crewman";
@@ -507,7 +507,7 @@ class CfgVehicles
         scope = 2;
         side = 2;
         displayName = "al-Nusra Ural";
-        faction = "CFP_I_alNusra";
+        faction = "CFP_I_ALNUSRA";
         vehicleClass = "CFP_I_alNusra_MOTORIZED";
         camouflage = 4;
         crew = "cfp_i_alNusra_crewman";
@@ -525,7 +525,7 @@ class CfgVehicles
         scope = 2;
         side = 2;
         displayName = "al-Nusra Ural ZU23";
-        faction = "CFP_I_alNusra";
+        faction = "CFP_I_ALNUSRA";
         vehicleClass = "CFP_I_alNusra_MOTORIZED";
         camouflage = 4;
         crew = "cfp_i_alNusra_crewman";
@@ -543,7 +543,7 @@ class CfgVehicles
         scope = 2;
         side = 2;
         displayName = "al-Nusra BMP-1";
-        faction = "CFP_I_alNusra";
+        faction = "CFP_I_ALNUSRA";
         vehicleClass = "CFP_I_alNusra_MECHANIZED";
         camouflage = 4;
         crew = "cfp_i_alNusra_crewman";
@@ -561,7 +561,7 @@ class CfgVehicles
         scope = 2;
         side = 2;
         displayName = "al-Nusra BMP-1P";
-        faction = "CFP_I_alNusra";
+        faction = "CFP_I_ALNUSRA";
         vehicleClass = "CFP_I_alNusra_MECHANIZED";
         camouflage = 4;
         crew = "cfp_i_alNusra_crewman";
@@ -579,7 +579,7 @@ class CfgVehicles
         scope = 2;
         side = 2;
         displayName = "al-Nusra T34";
-        faction = "CFP_I_alNusra";
+        faction = "CFP_I_ALNUSRA";
         vehicleClass = "CFP_I_alNusra_ARMORED";
         camouflage = 4;
         crew = "cfp_i_alNusra_crewman";
@@ -597,7 +597,7 @@ class CfgVehicles
         scope = 2;
         side = 2;
         displayName = "al-Nusra T55";
-        faction = "CFP_I_alNusra";
+        faction = "CFP_I_ALNUSRA";
         vehicleClass = "CFP_I_alNusra_ARMORED";
         camouflage = 4;
         crew = "cfp_i_alNusra_crewman";
@@ -615,7 +615,7 @@ class CfgVehicles
         scope = 2;
         side = 2;
         displayName = "al-Nusra ZSU";
-        faction = "CFP_I_alNusra";
+        faction = "CFP_I_ALNUSRA";
         vehicleClass = "CFP_I_alNusra_ARMORED";
         camouflage = 4;
         crew = "cfp_i_alNusra_crewman";
@@ -633,7 +633,7 @@ class CfgVehicles
         scope = 2;
         side = 2;
         displayName = "al-Nusra ZU23";
-        faction = "CFP_I_alNusra";
+        faction = "CFP_I_ALNUSRA";
         vehicleClass = "CFP_I_alNusra_STATIC";
         camouflage = 4;
         crew = "cfp_i_alNusra_crewman";
@@ -644,7 +644,7 @@ class CfgVehicles
         scope = 2;
         side = 2;
         displayName = "al-Nusra DSHKM";
-        faction = "CFP_I_alNusra";
+        faction = "CFP_I_ALNUSRA";
         vehicleClass = "CFP_I_alNusra_STATIC";
         camouflage = 4;
         crew = "cfp_i_alNusra_rifleman";
@@ -655,7 +655,7 @@ class CfgVehicles
         scope = 2;
         side = 2;
         displayName = "al-Nusra DSHkM Mini TriPod";
-        faction = "CFP_I_alNusra";
+        faction = "CFP_I_ALNUSRA";
         vehicleClass = "CFP_I_alNusra_STATIC";
         camouflage = 4;
         crew = "cfp_i_alNusra_rifleman";
@@ -666,7 +666,7 @@ class CfgVehicles
         scope = 2;
         side = 2;
         displayName = "al-Nusra KORD";
-        faction = "CFP_I_alNusra";
+        faction = "CFP_I_ALNUSRA";
         vehicleClass = "CFP_I_alNusra_STATIC";
         camouflage = 4;
         crew = "cfp_i_alNusra_rifleman";
@@ -677,7 +677,7 @@ class CfgVehicles
         scope = 2;
         side = 2;
         displayName = "al-Nusra KORD High";
-        faction = "CFP_I_alNusra";
+        faction = "CFP_I_ALNUSRA";
         vehicleClass = "CFP_I_alNusra_STATIC";
         camouflage = 4;
         crew = "cfp_i_alNusra_rifleman";
@@ -688,7 +688,7 @@ class CfgVehicles
         scope = 2;
         side = 2;
         displayName = "al-Nusra AGS";
-        faction = "CFP_I_alNusra";
+        faction = "CFP_I_ALNUSRA";
         vehicleClass = "CFP_I_alNusra_STATIC";
         camouflage = 4;
         crew = "cfp_i_alNusra_rifleman";
@@ -699,7 +699,7 @@ class CfgVehicles
         scope = 2;
         side = 2;
         displayName = "al-Nusra SPG9";
-        faction = "CFP_I_alNusra";
+        faction = "CFP_I_ALNUSRA";
         vehicleClass = "CFP_I_alNusra_STATIC";
         camouflage = 4;
         crew = "cfp_i_alNusra_rifleman";
@@ -710,7 +710,7 @@ class CfgVehicles
         scope = 2;
         side = 2;
         displayName = "al-Nusra 2b14 82mm";
-        faction = "CFP_I_alNusra";
+        faction = "CFP_I_ALNUSRA";
         vehicleClass = "CFP_I_alNusra_STATIC";
         camouflage = 4;
         crew = "cfp_i_alNusra_rifleman";

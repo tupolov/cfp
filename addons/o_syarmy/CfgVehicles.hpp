@@ -8,7 +8,7 @@ class CfgVehicles
 		scope = 0;
 		scopeCurator = 0;
 		displayName = "SAA Soldier";
-		faction = "cfp_o_syarmy";
+		faction = "CFP_O_SYARMY";
 		modelSides[] = {0,1,2,3};
 		model = "\A3\Characters_F_Beta\INDEP\ia_officer.p3d";
 		side = 0;
@@ -47,7 +47,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "SAA Officer";
-		faction = "cfp_o_syarmy";
+		faction = "CFP_O_SYARMY";
 		vehicleClass = "cfp_o_syarmy_INFANTRY";
 		icon = "iconManOfficer";
 		nakedUniform = "U_BasicBody";
@@ -303,7 +303,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "SAA Ural";
-		faction = "cfp_o_syarmy";
+		faction = "CFP_O_SYARMY";
 		vehicleClass = "cfp_o_syarmy_MOTORIZED";
 		camouflage = 4;
 		crew = "cfp_o_syarmy_crewman";
@@ -322,7 +322,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "SAA Ural ZU23";
-		faction = "cfp_o_syarmy";
+		faction = "CFP_O_SYARMY";
 		vehicleClass = "cfp_o_syarmy_MOTORIZED";
 		camouflage = 4;
 		crew = "cfp_o_syarmy_crewman";
@@ -341,7 +341,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "SAA BTR40 MG";
-		faction = "cfp_o_syarmy";
+		faction = "CFP_O_SYARMY";
 		vehicleClass = "cfp_o_syarmy_MOTORIZED";
 		camouflage = 4;
 		crew = "cfp_o_syarmy_crewman";
@@ -360,7 +360,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "SAA BTR60";
-		faction = "cfp_o_syarmy";
+		faction = "CFP_O_SYARMY";
 		vehicleClass = "cfp_o_syarmy_MECHANIZED";
 		camouflage = 4;
 		crew = "cfp_o_syarmy_crewman";
@@ -379,7 +379,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "SAA BMP-1";
-		faction = "cfp_o_syarmy";
+		faction = "CFP_O_SYARMY";
 		vehicleClass = "cfp_o_syarmy_MECHANIZED";
 		camouflage = 4;
 		crew = "cfp_o_syarmy_crewman";
@@ -398,7 +398,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "SAA BMP-1P";
-		faction = "cfp_o_syarmy";
+		faction = "CFP_O_SYARMY";
 		vehicleClass = "cfp_o_syarmy_MECHANIZED";
 		camouflage = 4;
 		crew = "cfp_o_syarmy_crewman";
@@ -417,7 +417,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "SAA BMP-2";
-		faction = "cfp_o_syarmy";
+		faction = "CFP_O_SYARMY";
 		vehicleClass = "cfp_o_syarmy_MECHANIZED";
 		camouflage = 4;
 		crew = "cfp_o_syarmy_crewman";
@@ -436,7 +436,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "SAA T55";
-		faction = "cfp_o_syarmy";
+		faction = "CFP_O_SYARMY";
 		vehicleClass = "cfp_o_syarmy_ARMORED";
 		camouflage = 4;
 		crew = "cfp_o_syarmy_crewman";
@@ -455,7 +455,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "SAA T72";
-		faction = "cfp_o_syarmy";
+		faction = "CFP_O_SYARMY";
 		vehicleClass = "cfp_o_syarmy_ARMORED";
 		camouflage = 4;
 		crew = "cfp_o_syarmy_crewman";
@@ -474,7 +474,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "SAA ZSU";
-		faction = "cfp_o_syarmy";
+		faction = "CFP_O_SYARMY";
 		vehicleClass = "cfp_o_syarmy_ARMORED";
 		camouflage = 4;
 		crew = "cfp_o_syarmy_crewman";
@@ -492,7 +492,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "SAA L-39 AntiAir";
-		faction = "cfp_o_syarmy";
+		faction = "CFP_O_SYARMY";
 		vehicleClass = "cfp_o_syarmy_AIR";
 		camouflage = 4;
 		crew = "cfp_o_syarmy_crewman";
@@ -511,7 +511,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "SAA L-39 CAS";
-		faction = "cfp_o_syarmy";
+		faction = "CFP_O_SYARMY";
 		vehicleClass = "cfp_o_syarmy_AIR";
 		camouflage = 4;
 		crew = "cfp_o_syarmy_crewman";
@@ -530,7 +530,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "SAA Yak-130";
-		faction = "cfp_o_syarmy";
+		faction = "CFP_O_SYARMY";
 		vehicleClass = "cfp_o_syarmy_AIR";
 		camouflage = 4;
 		crew = "cfp_o_syarmy_crewman";
@@ -543,7 +543,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "SAA SU25";
-		faction = "cfp_o_syarmy";
+		faction = "CFP_O_SYARMY";
 		vehicleClass = "cfp_o_syarmy_AIR";
 		camouflage = 4;
 		crew = "cfp_o_syarmy_crewman";
@@ -556,7 +556,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "SAA ZU23";
-		faction = "cfp_o_syarmy";
+		faction = "CFP_O_SYARMY";
 		vehicleClass = "cfp_o_syarmy_STATIC";
 		camouflage = 4;
 		crew = "cfp_o_syarmy_crewman";
@@ -567,7 +567,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "SAA DSHKM";
-		faction = "cfp_o_syarmy";
+		faction = "CFP_O_SYARMY";
 		vehicleClass = "cfp_o_syarmy_STATIC";
 		camouflage = 4;
 		crew = "cfp_o_syarmy_rifleman";
@@ -578,7 +578,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "SAA DSHkM Mini TriPod";
-		faction = "cfp_o_syarmy";
+		faction = "CFP_O_SYARMY";
 		vehicleClass = "cfp_o_syarmy_STATIC";
 		camouflage = 4;
 		crew = "cfp_o_syarmy_rifleman";
@@ -589,7 +589,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "SAA KORD";
-		faction = "cfp_o_syarmy";
+		faction = "CFP_O_SYARMY";
 		vehicleClass = "cfp_o_syarmy_STATIC";
 		camouflage = 4;
 		crew = "cfp_o_syarmy_rifleman";
@@ -600,7 +600,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "SAA KORD High";
-		faction = "cfp_o_syarmy";
+		faction = "CFP_O_SYARMY";
 		vehicleClass = "cfp_o_syarmy_STATIC";
 		camouflage = 4;
 		crew = "cfp_o_syarmy_rifleman";
@@ -611,7 +611,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "SAA AGS";
-		faction = "cfp_o_syarmy";
+		faction = "CFP_O_SYARMY";
 		vehicleClass = "cfp_o_syarmy_STATIC";
 		camouflage = 4;
 		crew = "cfp_o_syarmy_rifleman";
@@ -622,7 +622,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "SAA Metis";
-		faction = "cfp_o_syarmy";
+		faction = "CFP_O_SYARMY";
 		vehicleClass = "cfp_o_syarmy_STATIC";
 		camouflage = 4;
 		crew = "cfp_o_syarmy_rifleman";
@@ -633,7 +633,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "SAA SPG9";
-		faction = "cfp_o_syarmy";
+		faction = "CFP_O_SYARMY";
 		vehicleClass = "cfp_o_syarmy_STATIC";
 		camouflage = 4;
 		crew = "cfp_o_syarmy_rifleman";
@@ -644,7 +644,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "SAA 2b14 82mm";
-		faction = "cfp_o_syarmy";
+		faction = "CFP_O_SYARMY";
 		vehicleClass = "cfp_o_syarmy_STATIC";
 		camouflage = 4;
 		crew = "cfp_o_syarmy_rifleman";
@@ -655,7 +655,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "SAA D30";
-		faction = "cfp_o_syarmy";
+		faction = "CFP_O_SYARMY";
 		vehicleClass = "cfp_o_syarmy_STATIC";
 		camouflage = 4;
 		crew = "cfp_o_syarmy_rifleman";
@@ -666,7 +666,7 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "SAA D30 AT";
-		faction = "cfp_o_syarmy";
+		faction = "CFP_O_SYARMY";
 		vehicleClass = "cfp_o_syarmy_STATIC";
 		camouflage = 4;
 		crew = "cfp_o_syarmy_rifleman";

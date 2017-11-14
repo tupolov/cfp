@@ -20,7 +20,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman [AK74]";
         side = 1;
-        faction = "CFP_B_AFGPolice";
+        faction = "CFP_B_AFGPOLICE";
 
         identityTypes[] = { "Head_TK" , "LanguagePER_F" , "G_IRAN_default" };
         uniformClass = "SP_0000_Standard_FieldUniform_BlueFrost";
@@ -48,7 +48,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Grenadier [AK74]";
         side = 1;
-        faction = "CFP_B_AFGPolice";
+        faction = "CFP_B_AFGPOLICE";
 
         identityTypes[] = { "Head_TK" , "LanguagePER_F" , "G_IRAN_default" };
         uniformClass = "SP_0000_Standard_FieldUniform_BlueFrost_SS";
@@ -76,7 +76,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman [AK74M]";
         side = 1;
-        faction = "CFP_B_AFGPolice";
+        faction = "CFP_B_AFGPOLICE";
 
         identityTypes[] = { "Head_TK" , "LanguagePER_F" , "G_IRAN_default" };
         uniformClass = "SP_0000_Standard_FieldUniform_BlueFrost_SS";
@@ -104,7 +104,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Officer";
         side = 1;
-        faction = "CFP_B_AFGPolice";
+        faction = "CFP_B_AFGPOLICE";
 
         identityTypes[] = { "Head_TK" , "LanguagePER_F" , "G_IRAN_default" };
         uniformClass = "SP_0000_Standard_FieldUniform_BlueFrost";
@@ -132,7 +132,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Grenadier [AK74M]";
         side = 1;
-        faction = "CFP_B_AFGPolice";
+        faction = "CFP_B_AFGPOLICE";
 
         identityTypes[] = { "Head_TK" , "LanguagePER_F" , "G_IRAN_default" };
         uniformClass = "SP_0000_Standard_FieldUniform_BlueFrost";
@@ -160,7 +160,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Machine Gunner [PKM]";
         side = 1;
-        faction = "CFP_B_AFGPolice";
+        faction = "CFP_B_AFGPOLICE";
 
         identityTypes[] = { "Head_TK" , "LanguagePER_F" , "G_IRAN_default" };
         uniformClass = "SP_0000_Standard_FieldUniform_BlueFrost";
@@ -188,7 +188,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman AT [RPG]";
         side = 1;
-        faction = "CFP_B_AFGPolice";
+        faction = "CFP_B_AFGPOLICE";
 
         identityTypes[] = { "Head_TK" , "LanguagePER_F" , "G_IRAN_default" };
         uniformClass = "SP_0000_Standard_FieldUniform_BlueFrost_SS";
