@@ -1,37 +1,20 @@
 class CfgWeapons
 {
-	class ItemCore;
-	class HeadgearItem;
-
 	class H_Beret_Colonel;
 	class PESH_Beret: H_Beret_Colonel
 	{
 		scope = 2;
 		displayName = "Peshmerga Beret";
-		model = "\A3\Characters_F_EPB\BLUFOR\headgear_beret02.p3d";
-		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\b_pesh\data\peshmerga_beret_eagle.paa"};
-		class ItemInfo: HeadgearItem
-		{
-			uniformModel = "\A3\Characters_F_EPB\BLUFOR\headgear_beret02.p3d";
-			hiddenSelections[] = {"camo"};
-		};
 	};
 	class PESH_Beret_CTG: H_Beret_Colonel
 	{
 		scope = 2;
 		displayName = "Peshmerga Beret";
-		model = "\A3\Characters_F_EPB\BLUFOR\headgear_beret02.p3d";
-		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\b_pesh\data\peshmerga_beret.paa"};
-		class ItemInfo: HeadgearItem
-		{
-			uniformModel = "\A3\Characters_F_EPB\BLUFOR\headgear_beret02.p3d";
-			hiddenSelections[] = {"camo"};
-		};
 	};
 
-
+	class ItemCore;
     class Vest_Camo_Base: ItemCore
     {
         class ItemInfo;
