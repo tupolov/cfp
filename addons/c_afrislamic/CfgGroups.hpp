@@ -10,7 +10,7 @@ class CfgGroups {
 	    side = 3;
 
         class CFP_C_AFRISLAMIC {
-            name = "Islamic African Civilians";
+            name = "Civilians (African Islamic)";
 
             class Infantry {
                 name = "Infantry";

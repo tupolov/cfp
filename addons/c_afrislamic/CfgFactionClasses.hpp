@@ -6,7 +6,7 @@
 
 class CfgFactionClasses {
     class CFP_C_AFRISLAMIC {
-        displayName = "Islamic African Civilians";
+        displayName = "Civilians (African Islamic)";
         side = 3;
         flag = "\A3\ui_f\data\map\markers\flags\Tanoa_ca.paa";
         icon = "\A3\ui_f\data\map\markers\flags\Tanoa_ca.paa";

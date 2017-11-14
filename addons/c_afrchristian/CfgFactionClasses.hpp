@@ -6,7 +6,7 @@
 
 class CfgFactionClasses {
     class CFP_C_AFRCHRISTIAN {
-        displayName = "Christian African Civilians";
+        displayName = "Civilians (African Christian)";
         side = 3;
         flag = "\A3\ui_f\data\map\markers\flags\nato_ca.paa";
         icon = "\A3\ui_f\data\map\markers\flags\nato_ca.paa";

@@ -6,7 +6,7 @@
 
 class CfgFactionClasses {
     class CFP_C_ME {
-        displayName = "Middle Eastern Civilians";
+        displayName = "Civilians (Middle Eastern)";
         side = 3;
         flag = "\A3\ui_f\data\map\markers\flags\nato_ca.paa";
         icon = "\A3\ui_f\data\map\markers\flags\nato_ca.paa";

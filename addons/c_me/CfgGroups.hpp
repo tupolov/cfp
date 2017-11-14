@@ -10,7 +10,7 @@ class CfgGroups {
 	    side = 3;
 
         class CUP_C_ME {
-            name = "Middle Eastern Civilians";
+            name = "Civilians (Middle Eastern)";
 
             class Infantry {
                 name = "Infantry";
