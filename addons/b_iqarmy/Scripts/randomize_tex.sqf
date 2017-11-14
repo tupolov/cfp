@@ -6,7 +6,7 @@ if (isServer) then
 
 	// HMMWV
 
-	if (_class == "cfp_b_ia_HMMWV_M2") then
+	if (_class == "cfp_b_iqarmy_HMMWV_M2") then
 	{
 		_rnd1 = floor random 4;
 		_this setVariable ["BIS_randomSeed1", _rnd1, TRUE];
@@ -22,8 +22,8 @@ if (isServer) then
 		] select _randomSeed1];
 	};
 
-	if ((_class == "cfp_b_ia_hmmwv_dshkm") or
-		(_class == "cfp_b_ia_hmmwv_m2_gpk")) then
+	if ((_class == "cfp_b_iqarmy_hmmwv_dshkm") or
+		(_class == "cfp_b_iqarmy_hmmwv_m2_gpk")) then
 	{
 		//_this setObjectTextureGlobal [5, "\x\cfp\addons\b_iqarmy\data\hmmwv_details_IA.paa"];
 	};
@@ -31,8 +31,8 @@ if (isServer) then
 
 	// Ural
 
-	if ((_class == "cfp_b_ia_Ural") or
-		(_class == "cfp_b_ia_Ural_ZU23")) then
+	if ((_class == "cfp_b_iqarmy_Ural") or
+		(_class == "cfp_b_iqarmy_Ural_ZU23")) then
 	{
 		_rnd1 = floor random 2;
 		_this setVariable ["BIS_randomSeed1", _rnd1, TRUE];
@@ -48,7 +48,7 @@ if (isServer) then
 
 	// BTR 60
 
-	if (_class == "cfp_b_ia_BTR60") then
+	if (_class == "cfp_b_iqarmy_BTR60") then
 
 	{
 		_rnd1 = floor random 2;
@@ -65,8 +65,8 @@ if (isServer) then
 
 	// BMPs *****
 
-	if ((_class == "cfp_b_ia_BMP1") or
-		(_class == "cfp_b_ia_BMP1P")) then
+	if ((_class == "cfp_b_iqarmy_BMP1") or
+		(_class == "cfp_b_iqarmy_BMP1P")) then
 	{
 		_rnd1 = floor random 4;
 		_this setVariable ["BIS_randomSeed1", _rnd1, TRUE];
@@ -92,7 +92,7 @@ if (isServer) then
 		] select _randomSeed2];
 	};
 
-	if (_class == "cfp_b_ia_BMP2") then
+	if (_class == "cfp_b_iqarmy_BMP2") then
 	{
 		_rnd1 = floor random 4;
 		_this setVariable ["BIS_randomSeed1", _rnd1, TRUE];
@@ -122,7 +122,7 @@ if (isServer) then
 
 	// Armor *****
 
-	if (_class == "cfp_b_ia_T55") then
+	if (_class == "cfp_b_iqarmy_T55") then
 	{
 		_rnd1 = floor random 2;
 		_this setVariable ["BIS_randomSeed1", _rnd1, TRUE];
@@ -146,7 +146,7 @@ if (isServer) then
 		] select _randomSeed2];
 	};
 
-	if (_class == "cfp_b_ia_T72") then
+	if (_class == "cfp_b_iqarmy_T72") then
 	{
 		_randomCamo = floor random 100;
 
@@ -203,7 +203,7 @@ if (isServer) then
 		};
 	};
 
-	if (_class == "cfp_b_ia_M1A1") then
+	if (_class == "cfp_b_iqarmy_M1A1") then
 	{
 		_rnd1 = floor random 2;
 		_this setVariable ["BIS_randomSeed1", _rnd1, TRUE];
@@ -232,8 +232,8 @@ if (isServer) then
 
 	// Aircraft
 
-	if ((_class == "cfp_b_ia_MI24V") or
-		(_class == "cfp_b_ia_MI24P")) then
+	if ((_class == "cfp_b_iqarmy_MI24V") or
+		(_class == "cfp_b_iqarmy_MI24P")) then
 	{
 		_this setObjectTextureGlobal [0, "\x\cfp\addons\b_iqarmy\data\mi24p_ia_01.paa"];
 
