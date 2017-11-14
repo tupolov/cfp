@@ -146,6 +146,39 @@ class CfgGroups {
             class Motorized {
                 name = "Motorized Infantry";
 
+                class cfp_b_cfpbafgpolice_motorized_motorized_patrol {
+                    name = "Motorized Patrol";
+                    side = 1;
+                    faction = "CFP_B_AFGPOLICE";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = { 0 , 0 , 0 };
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_AFGPolice_offroad";
+                    };
+                    class Unit1 {
+                        position[] = { 5 , -5 , 0 };
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_AFGPolice_Rifleman_AK74M_01";
+                    };
+                    class Unit2 {
+                        position[] = { -5 , -5 , 0 };
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_AFGPolice_Grenadier_AK74_01";
+                    };
+                    class Unit3 {
+                        position[] = { 10 , -10 , 0 };
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_AFGPolice_Rifleman_AK74M_01";
+                    };
+                };
+
             };
 
             class Motorized_MTP {
