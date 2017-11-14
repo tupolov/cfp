@@ -55,6 +55,7 @@ Factions are delivered in a modular way, enabling groups to maintain their own t
 - Taliban Insurgents
 
 ### INDFOR
+- Al-Nusra Front
 - Islamic State
 
 ### BLUFOR
@@ -63,11 +64,11 @@ Factions are delivered in a modular way, enabling groups to maintain their own t
 - Bundeswehr Army for each theater, specifically KSK special forces.
 - Iraqi Army
 - Iraqi Police
-- Peshmerga
+- Peshmerga (Iraqi Kurds)
 - US Army factions specifically for Arid/Desert, Woodland/Jungle and including special forces (Delta, Green Beret, SOAR)
-- US Central Intelligence Agency
+- US Central Intelligence Agency (Desert / Middle East)
 - US Marine Corps factions specifically for Arid/Desert, Woodland/Jungle and including special forces (MARSOC)
-- YPG
+- Yekîneyên Parastina Gel (YPG) (Syrian Kurds)
 
 ## CFP Ultimate Factions (in addition to enhancing CFP factions)
 
