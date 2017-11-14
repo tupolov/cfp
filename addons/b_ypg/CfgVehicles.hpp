@@ -9,7 +9,7 @@ class CfgVehicles
 		scope = 0;
 		scopeCurator = 0;
 		faction = "CFP_B_YPG";
-		modelsides[] = {1,2};
+		modelsides[] = {6};
 		side = 1;
 		vehicleClass = "CFP_B_YPG_INFANTRY";
 		icon = "iconMan";
