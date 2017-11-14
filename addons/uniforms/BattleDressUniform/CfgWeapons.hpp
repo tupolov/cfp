@@ -279,3 +279,88 @@
 			mass=80;
 		};
 	};
+
+	class CFP_U_BattleDressUniform_DPM: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Battle Dress Uniform (DPM)";
+		picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\NodUrban.jpg";
+		author = "AccuracyThruVolume";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_BattleDressUniform_DPM";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+
+	class CFP_U_BattleDressUniform_DPMWoodland: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Battle Dress Uniform (DPM Woodland)";
+		picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\NodUrban.jpg";
+		author = "AccuracyThruVolume";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_BattleDressUniform_DPMWoodland";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+
+	class CFP_U_BattleDressUniform_edrl: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Battle Dress Uniform (EDRL)";
+		picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\NodUrban.jpg";
+		author = "AccuracyThruVolume";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_BattleDressUniform_edrl";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+
+	class CFP_U_BattleDressUniform_polygondesert: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Battle Dress Uniform (Polygon Desert)";
+		picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\NodUrban.jpg";
+		author = "AccuracyThruVolume";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_BattleDressUniform_polygondesert";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+
+	class CFP_U_BattleDressUniform_tigerstripe: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Battle Dress Uniform (Tiger Stripe)";
+		picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\NodUrban.jpg";
+		author = "AccuracyThruVolume";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_BattleDressUniform_tigerstripe";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
