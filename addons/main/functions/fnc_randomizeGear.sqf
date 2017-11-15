@@ -50,15 +50,14 @@ switch (_cat) do {
 	};
 	case ("uniform") : {
 		removeUniform _unit;
-		_unit forceAddUniform _item;
-		if (isClass (configFile >> "CfgWeapons" >> _item >> "allowedUniformTextures")) then {
-			private _texArray = getArray (configFile >> "CfgWeapons" >> _item >> "allowedUniformTextures");
-			private _textures = selectRandomWeighted _texArray;
-			{
-				private _id = _x select 0;
-				private _texture = _x select 1;
-				_unit setObjectTextureGlobal [_id,_texture];
-			} foreach _textures;
+		if (_item isEqualType []) then {
+				_unit forceAddUniform (_item select 0);
+				private _textures = selectRandomWeighted (_item select 1);
+				{
+					_unit setObjectTextureGlobal [_foreachIndex,_x];
+				} foreach _textures;
+		} else {
+			_unit forceAddUniform _item;
 		};
 	};
 	case ("vest") : {
