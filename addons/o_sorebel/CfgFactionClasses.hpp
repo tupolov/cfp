@@ -5,7 +5,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 class CfgFactionClasses {
-    class CFP_O_SO_REBEL {
+    class CFP_O_SOREBEL {
         displayName = "Somali Rebels";
         side = 0;
         flag = "\a3\Data_f\Flags\flag_CSAT_co.paa";

@@ -55,8 +55,8 @@ class CfgVehicles {
 
     class CUP_I_Datsun_PK_TK;
     class CUP_I_Datsun_PK_TK_OCimport_01 : CUP_I_Datsun_PK_TK { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_I_Datsun_PK_TK_OCimport_02 : CUP_I_Datsun_PK_TK_OCimport_01 { 
-        class EventHandlers; 
+    class CUP_I_Datsun_PK_TK_OCimport_02 : CUP_I_Datsun_PK_TK_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
             class CargoTurret_01;
@@ -70,8 +70,8 @@ class CfgVehicles {
 
     class CUP_O_UAZ_MG_CHDKZ;
     class CUP_O_UAZ_MG_CHDKZ_OCimport_01 : CUP_O_UAZ_MG_CHDKZ { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_UAZ_MG_CHDKZ_OCimport_02 : CUP_O_UAZ_MG_CHDKZ_OCimport_01 { 
-        class EventHandlers; 
+    class CUP_O_UAZ_MG_CHDKZ_OCimport_02 : CUP_O_UAZ_MG_CHDKZ_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CargoTurret_01;
             class MainTurret;
@@ -80,8 +80,8 @@ class CfgVehicles {
 
     class CUP_O_UAZ_SPG9_CHDKZ;
     class CUP_O_UAZ_SPG9_CHDKZ_OCimport_01 : CUP_O_UAZ_SPG9_CHDKZ { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_UAZ_SPG9_CHDKZ_OCimport_02 : CUP_O_UAZ_SPG9_CHDKZ_OCimport_01 { 
-        class EventHandlers; 
+    class CUP_O_UAZ_SPG9_CHDKZ_OCimport_02 : CUP_O_UAZ_SPG9_CHDKZ_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CargoTurret_01;
             class MainTurret;
@@ -90,8 +90,8 @@ class CfgVehicles {
 
     class CUP_O_DSHKM_TK_INS;
     class CUP_O_DSHKM_TK_INS_OCimport_01 : CUP_O_DSHKM_TK_INS { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_DSHKM_TK_INS_OCimport_02 : CUP_O_DSHKM_TK_INS_OCimport_01 { 
-        class EventHandlers; 
+    class CUP_O_DSHKM_TK_INS_OCimport_02 : CUP_O_DSHKM_TK_INS_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -102,14 +102,16 @@ class CfgVehicles {
     class CUP_O_TK_INS_Bomber_OCimport_02 : CUP_O_TK_INS_Bomber_OCimport_01 { class EventHandlers; };
 
 
-    class CFP_O_SO_REBEL_Rifleman_01 : O_Soldier_F_OCimport_02 {
+    class CFP_o_sorebel_Rifleman_01 : O_Soldier_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman";
         side = 0;
-	genericNames = "AfroMen";
-	faction = "CFP_O_SO_REBEL";
+    	genericNames = "AfroMen";
+    	faction = "CFP_O_SOREBEL";
+
+        randomGearProbability = 100;
 
         identityTypes[] = { "Head_African" , "LanguagePER_F" };
         uniformClass = "U_I_C_Soldier_Bandit_4_F";
@@ -122,7 +124,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this; [_this] call CFP_fnc_randomizeUnit;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -132,14 +134,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_SO_REBEL_Sharpshooter_01 : O_Sharpshooter_F_OCimport_02 {
+    class CFP_o_sorebel_Sharpshooter_01 : O_Sharpshooter_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Sharpshooter";
         side = 0;
 	genericNames = "AfroMen";
-	faction = "CFP_O_SO_REBEL";
+	faction = "CFP_O_SOREBEL";
 
         identityTypes[] = { "Head_African" , "LanguagePER_F" };
         uniformClass = "U_I_C_Soldier_Bandit_1_F";
@@ -162,14 +164,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_SO_REBEL_Grenadier_01 : O_Soldier_GL_F_OCimport_02 {
+    class CFP_o_sorebel_Grenadier_01 : O_Soldier_GL_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Grenadier";
         side = 0;
 	genericNames = "AfroMen";
-	faction = "CFP_O_SO_REBEL";
+	faction = "CFP_O_SOREBEL";
 
         identityTypes[] = { "Head_African" , "LanguagePER_F" };
         uniformClass = "CUP_U_I_GUE_Anorak_03";
@@ -192,14 +194,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_SO_REBEL_Rifleman_Light_01 : O_Soldier_lite_F_OCimport_02 {
+    class CFP_o_sorebel_Rifleman_Light_01 : O_Soldier_lite_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman (Light)";
         side = 0;
 	genericNames = "AfroMen";
-	faction = "CFP_O_SO_REBEL";
+	faction = "CFP_O_SOREBEL";
 
         identityTypes[] = { "Head_African" , "LanguagePER_F" };
         uniformClass = "U_I_C_Soldier_Bandit_5_F";
@@ -222,14 +224,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_SO_REBEL_Rifleman_2_01 : O_Soldier_F_OCimport_02 {
+    class CFP_o_sorebel_Rifleman_2_01 : O_Soldier_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman 2";
         side = 0;
 	genericNames = "AfroMen";
-	faction = "CFP_O_SO_REBEL";
+	faction = "CFP_O_SOREBEL";
 
         identityTypes[] = { "Head_African" , "LanguagePER_F" };
         uniformClass = "U_I_C_Soldier_Bandit_2_F";
@@ -252,14 +254,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_SO_REBEL_Warlord_01 : O_Soldier_SL_F_OCimport_02 {
+    class CFP_o_sorebel_Warlord_01 : O_Soldier_SL_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Warlord";
         side = 0;
 	genericNames = "AfroMen";
-	faction = "CFP_O_SO_REBEL";
+	faction = "CFP_O_SOREBEL";
 
         identityTypes[] = { "Head_African" , "LanguagePER_F" };
         uniformClass = "U_I_C_Soldier_Bandit_3_F";
@@ -282,14 +284,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_SO_REBEL_Autorifleman_01 : O_Soldier_AR_F_OCimport_02 {
+    class CFP_o_sorebel_Autorifleman_01 : O_Soldier_AR_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Autorifleman";
         side = 0;
 	genericNames = "AfroMen";
-	faction = "CFP_O_SO_REBEL";
+	faction = "CFP_O_SOREBEL";
 
         identityTypes[] = { "Head_African" , "LanguagePER_F" };
         uniformClass = "U_C_Poloshirt_salmon";
@@ -312,14 +314,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_SO_REBEL_Autorifleman_2_01 : O_Soldier_AR_F_OCimport_02 {
+    class CFP_o_sorebel_Autorifleman_2_01 : O_Soldier_AR_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Autorifleman 2";
         side = 0;
 	genericNames = "AfroMen";
-	faction = "CFP_O_SO_REBEL";
+	faction = "CFP_O_SOREBEL";
 
         identityTypes[] = { "Head_African" , "LanguagePER_F" };
         uniformClass = "U_I_C_Soldier_Para_4_F";
@@ -342,14 +344,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_SO_REBEL_Bonesetter_01 : CUP_O_sla_Medic_OCimport_02 {
+    class CFP_o_sorebel_Bonesetter_01 : CUP_O_sla_Medic_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Bonesetter";
         side = 0;
 	genericNames = "AfroMen";
-	faction = "CFP_O_SO_REBEL";
+	faction = "CFP_O_SOREBEL";
 
         identityTypes[] = { "Head_African" , "LanguagePER_F" };
         uniformClass = "U_I_C_Soldier_Para_1_F";
@@ -372,14 +374,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_SO_REBEL_Rifleman_AT_01 : CUP_O_sla_Soldier_AT_OCimport_02 {
+    class CFP_o_sorebel_Rifleman_AT_01 : CUP_O_sla_Soldier_AT_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman AT";
         side = 0;
 	genericNames = "AfroMen";
-	faction = "CFP_O_SO_REBEL";
+	faction = "CFP_O_SOREBEL";
 
         identityTypes[] = { "Head_African" , "LanguagePER_F" };
         uniformClass = "U_C_Poloshirt_blue";
@@ -402,14 +404,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_SO_REBEL_Marksman_01 : O_soldier_M_F_OCimport_02 {
+    class CFP_o_sorebel_Marksman_01 : O_soldier_M_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Marksman";
         side = 0;
 	genericNames = "AfroMen";
-	faction = "CFP_O_SO_REBEL";
+	faction = "CFP_O_SOREBEL";
 
         identityTypes[] = { "Head_African" , "LanguagePER_F" };
         uniformClass = "U_C_Poloshirt_tricolour";
@@ -432,14 +434,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_SO_REBEL_Rifleman_AA_01 : CUP_O_sla_Soldier_AA_OCimport_02 {
+    class CFP_o_sorebel_Rifleman_AA_01 : CUP_O_sla_Soldier_AA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman AA";
         side = 0;
 	genericNames = "AfroMen";
-	faction = "CFP_O_SO_REBEL";
+	faction = "CFP_O_SOREBEL";
 
         identityTypes[] = { "Head_African" , "LanguagePER_F" };
         uniformClass = "U_I_C_Soldier_Para_2_F";
@@ -462,14 +464,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_SO_REBEL_Rifleman_AT_2_01 : CUP_O_sla_Soldier_AT_OCimport_02 {
+    class CFP_o_sorebel_Rifleman_AT_2_01 : CUP_O_sla_Soldier_AT_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman AT 2";
         side = 0;
 	genericNames = "AfroMen";
-	faction = "CFP_O_SO_REBEL";
+	faction = "CFP_O_SOREBEL";
 
         identityTypes[] = { "Head_African" , "LanguagePER_F" };
         uniformClass = "U_C_Man_casual_5_F";
@@ -492,14 +494,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_SO_REBEL_Warlord_2_01 : O_Soldier_SL_F_OCimport_02 {
+    class CFP_o_sorebel_Warlord_2_01 : O_Soldier_SL_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Warlord 2";
         side = 0;
 	genericNames = "AfroMen";
-	faction = "CFP_O_SO_REBEL";
+	faction = "CFP_O_SOREBEL";
 
         identityTypes[] = { "Head_African" , "LanguagePER_F" };
         uniformClass = "U_BG_Guerrilla_6_1";
@@ -522,14 +524,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_SO_REBEL_Grenadier_2_01 : O_Soldier_GL_F_OCimport_02 {
+    class CFP_o_sorebel_Grenadier_2_01 : O_Soldier_GL_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Grenadier 2";
         side = 0;
 	genericNames = "AfroMen";
-	faction = "CFP_O_SO_REBEL";
+	faction = "CFP_O_SOREBEL";
 
         identityTypes[] = { "Head_African" , "LanguagePER_F" };
         uniformClass = "U_C_Poloshirt_stripped";
@@ -552,14 +554,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_SO_REBEL_Rifleman_3_01 : O_Soldier_F_OCimport_02 {
+    class CFP_o_sorebel_Rifleman_3_01 : O_Soldier_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman 3";
         side = 0;
 	genericNames = "AfroMen";
-	faction = "CFP_O_SO_REBEL";
+	faction = "CFP_O_SOREBEL";
 
         identityTypes[] = { "Head_African" , "LanguagePER_F" };
         uniformClass = "U_C_Poloshirt_salmon";
@@ -582,14 +584,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_SO_REBEL_Bonesetter_2_01 : CUP_O_TK_Medic_OCimport_02 {
+    class CFP_o_sorebel_Bonesetter_2_01 : CUP_O_TK_Medic_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Bonesetter 2";
         side = 0;
 	genericNames = "AfroMen";
-	faction = "CFP_O_SO_REBEL";
+	faction = "CFP_O_SOREBEL";
 
         identityTypes[] = { "Head_African" , "LanguagePER_F" };
         uniformClass = "U_I_C_Soldier_Bandit_3_F";
@@ -612,14 +614,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_SO_REBEL_Rifleman_AA_2_01 : CUP_O_sla_Soldier_AA_OCimport_02 {
+    class CFP_o_sorebel_Rifleman_AA_2_01 : CUP_O_sla_Soldier_AA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman AA 2";
         side = 0;
 	genericNames = "AfroMen";
-	faction = "CFP_O_SO_REBEL";
+	faction = "CFP_O_SOREBEL";
 
         identityTypes[] = { "Head_African" , "LanguagePER_F" };
         uniformClass = "U_I_C_Soldier_Bandit_5_F";
@@ -642,17 +644,17 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_SO_REBEL_Technical_PK_01 : CUP_I_Datsun_PK_TK_OCimport_02 {
+    class CFP_o_sorebel_Technical_PK_01 : CUP_I_Datsun_PK_TK_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Technical (PK)";
         side = 0;
-        faction = "CFP_O_SO_REBEL";
-        crew = "CFP_O_SO_REBEL_Rifleman_Light_01";
+        faction = "CFP_O_SOREBEL";
+        crew = "CFP_o_sorebel_Rifleman_Light_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_O_SO_REBEL_Rifleman_2_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_o_sorebel_Rifleman_2_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
         };
@@ -673,14 +675,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_SO_REBEL_Truck_01 : CUP_I_V3S_Open_TKG_OCimport_02 {
+    class CFP_o_sorebel_Truck_01 : CUP_I_V3S_Open_TKG_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Truck";
         side = 0;
-        faction = "CFP_O_SO_REBEL";
-        crew = "CFP_O_SO_REBEL_Rifleman_3_01";
+        faction = "CFP_O_SOREBEL";
+        crew = "CFP_o_sorebel_Rifleman_3_01";
 
 
         class EventHandlers : EventHandlers {
@@ -697,18 +699,18 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_SO_REBEL_Technical_DSHkM_01 : CUP_O_UAZ_MG_CHDKZ_OCimport_02 {
+    class CFP_o_sorebel_Technical_DSHkM_01 : CUP_O_UAZ_MG_CHDKZ_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Technical (DSHkM)";
         side = 0;
-        faction = "CFP_O_SO_REBEL";
-        crew = "CFP_O_SO_REBEL_Warlord_2_01";
+        faction = "CFP_O_SOREBEL";
+        crew = "CFP_o_sorebel_Warlord_2_01";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-            class MainTurret : MainTurret { gunnerType = "CFP_O_SO_REBEL_Bonesetter_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_o_sorebel_Bonesetter_01"; };
         };
 
 
@@ -728,18 +730,18 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_SO_REBEL_Technical_SPG_01 : CUP_O_UAZ_SPG9_CHDKZ_OCimport_02 {
+    class CFP_o_sorebel_Technical_SPG_01 : CUP_O_UAZ_SPG9_CHDKZ_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Technical (SPG 9)";
         side = 0;
-        faction = "CFP_O_SO_REBEL";
-        crew = "CFP_O_SO_REBEL_Rifleman_2_01";
+        faction = "CFP_O_SOREBEL";
+        crew = "CFP_o_sorebel_Rifleman_2_01";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-            class MainTurret : MainTurret { gunnerType = "CFP_O_SO_REBEL_Bonesetter_2_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_o_sorebel_Bonesetter_2_01"; };
         };
 
 
@@ -759,14 +761,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_SO_REBEL_DShKM_01 : CUP_O_DSHKM_TK_INS_OCimport_02 {
+    class CFP_o_sorebel_DShKM_01 : CUP_O_DSHKM_TK_INS_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "DShKM";
         side = 0;
-        faction = "CFP_O_SO_REBEL";
-        crew = "CFP_O_SO_REBEL_Warlord_2_01";
+        faction = "CFP_O_SOREBEL";
+        crew = "CFP_o_sorebel_Warlord_2_01";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -788,14 +790,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_SO_REBEL_Gunner_DShKM_High_01 : O_Soldier_F_OCimport_02 {
+    class CFP_o_sorebel_Gunner_DShKM_High_01 : O_Soldier_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Gunner [DShKM High]";
         side = 0;
 	genericNames = "AfroMen";
-	faction = "CFP_O_SO_REBEL";
+	faction = "CFP_O_SOREBEL";
 
         identityTypes[] = { "Head_African" , "LanguagePER_F" };
         uniformClass = "U_I_C_Soldier_Bandit_2_F";
@@ -818,14 +820,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_SO_REBEL_Gunner_DShKM_Low_01 : O_Soldier_F_OCimport_02 {
+    class CFP_o_sorebel_Gunner_DShKM_Low_01 : O_Soldier_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Gunner [DShKM Low]";
         side = 0;
 	genericNames = "AfroMen";
-	faction = "CFP_O_SO_REBEL";
+	faction = "CFP_O_SOREBEL";
 
         identityTypes[] = { "Head_African" , "LanguagePER_F" };
         uniformClass = "U_I_C_Soldier_Para_4_F";
@@ -848,14 +850,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_SO_REBEL_Gunner_SPG_01 : O_Soldier_F_OCimport_02 {
+    class CFP_o_sorebel_Gunner_SPG_01 : O_Soldier_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Gunner [SPG-9]";
         side = 0;
 	genericNames = "AfroMen";
-	faction = "CFP_O_SO_REBEL";
+	faction = "CFP_O_SOREBEL";
 
         identityTypes[] = { "Head_African" , "LanguagePER_F" };
         uniformClass = "U_I_C_Soldier_Para_5_F";
@@ -878,14 +880,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_SO_REBEL_Gunner_Mortar_01 : O_Soldier_F_OCimport_02 {
+    class CFP_o_sorebel_Gunner_Mortar_01 : O_Soldier_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Gunner [Mortar]";
         side = 0;
 	genericNames = "AfroMen";
-	faction = "CFP_O_SO_REBEL";
+	faction = "CFP_O_SOREBEL";
 
         identityTypes[] = { "Head_African" , "LanguagePER_F" };
         uniformClass = "U_I_C_Soldier_Para_4_F";
@@ -908,14 +910,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_SO_REBEL_Bombmaker_01 : CUP_O_TK_INS_Bomber_OCimport_02 {
+    class CFP_o_sorebel_Bombmaker_01 : CUP_O_TK_INS_Bomber_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Bombmaker";
         side = 0;
 	genericNames = "AfroMen";
-	faction = "CFP_O_SO_REBEL";
+	faction = "CFP_O_SOREBEL";
 
         identityTypes[] = { "Head_African" , "LanguagePER_F" };
         uniformClass = "U_C_Poloshirt_tricolour";
@@ -938,14 +940,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_SO_REBEL_Bombmaker_2_01 : CUP_O_TK_INS_Bomber_OCimport_02 {
+    class CFP_o_sorebel_Bombmaker_2_01 : CUP_O_TK_INS_Bomber_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Bombmaker 2";
         side = 0;
 	genericNames = "AfroMen";
-	faction = "CFP_O_SO_REBEL";
+	faction = "CFP_O_SOREBEL";
 
         identityTypes[] = { "Head_African" , "LanguagePER_F" };
         uniformClass = "U_I_C_Soldier_Para_1_F";
