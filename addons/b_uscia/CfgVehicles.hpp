@@ -6,23 +6,29 @@
 
 
 class CBA_Extended_EventHandlers_base;
-
+class CfgEditorSubCategories
+{
+    class CFP_EdSubcat_Personnel_SAD { displayName = "Men (Special Activities Division)";  };
+};
 class CfgVehicles {
 
-    class B_Soldier_F;
-    class B_Soldier_F_OCimport_01 : B_Soldier_F { scope = 0; class EventHandlers; };
+    class CUP_B_US_SpecOps;
+    class CUP_B_US_SpecOps_OCimport_01 : CUP_B_US_SpecOps { scope = 0; class EventHandlers; };
 
-	class CFP_B_USCIA_Paramilitary_Officer_Base : B_Soldier_F_OCimport_01 {
+	class CFP_B_USCIA_Paramilitary_Officer_Base : CUP_B_US_SpecOps_OCimport_01 {
  		author = "Tupolov";
         scope = 1;
         scopeCurator = 1;
         displayName = "Paramilitary Officer";
         side = 1;
         faction = "CFP_B_USCIA";
-
+        editorSubcategory = "CFP_EdSubcat_Personnel_SAD";
         identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
 
         uniformClass = "U_BG_Guerilla2_1";
+
+        linkedItems[] = {"ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+        respawnLinkedItems[] = {"ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 
         randomGearProbability = 100;
         randomWeaponProbability = 100;
@@ -57,8 +63,6 @@ class CfgVehicles {
             "SP_Harness1_Tan", 0.25,
             "CUP_V_B_GER_Carrier_Rig_3_Brown", 0.25,
             "CUP_V_B_GER_Carrier_Rig_2_Brown", 0.25,
-            "CUP_V_B_GER_Carrier_Rig_3", 0.25,
-            "CUP_V_B_GER_Carrier_Rig_2", 0.25,
             "SP_Modular1_Tan", 0.25,
             "SP_Tactical1_Tan", 0.25,
             "V_Pocketed_Coyote_F", 0.25,
@@ -137,7 +141,6 @@ class CfgVehicles {
 			"B_Carryall_khk", 0.2,
             "B_Carryall_mcamo", 0.2,
             "B_Carryall_cbr", 0.2,
-            "B_Kitbag_khk", 0.2,
             "B_Kitbag_mcamo", 0.2,
             "B_Kitbag_cbr", 0.2,
             "CUP_B_AssaultPack_Coyote", 0.2
@@ -320,7 +323,69 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Paramilitary Trooper (Leader)";
+        uniformClass = "U_B_CombatUniform_mcam";
 
+        // Camo clothes
+        uniformList[] = {
+            "U_B_CombatUniform_mcam", 0.9,
+            "U_B_CombatUniform_mcam_tshirt", 0.3,
+            "SP_0000_Standard_FieldUniform_Tan_SS", 0.2,
+            "SP_0000_Standard_TacticalUniform_Tan", 0.2,
+            "SP_0000_Standard_TacticalUniform_Tan_SS", 0.2,
+            "SP_0000_Standard_TacticalUniform_Tan_TS", 0.1,
+            "U_BG_Guerilla2_1",0.2
+        };
+
+        // Carrier
+        vestList[] = {
+            "CUP_V_I_RACS_Carrier_Vest", 0.25,
+            "CUP_V_I_RACS_Carrier_Vest_2", 0.25,
+            "CUP_V_I_RACS_Carrier_Vest_3", 0.25,
+            "CUP_V_B_GER_Carrier_Rig_2_Brown", 0.25,
+            "CUP_V_B_RRV_DA1",0.25,
+            "CUP_V_B_RRV_DA2",0.25,
+            "CUP_V_B_RRV_Scout3",0.25,
+            "SP_Modular1_Tan", 0.25,
+            "SP_Tactical1_Tan", 0.25,
+            "V_PlateCarrier1_blk", 0.25,
+            "V_PlateCarrier2_blk", 0.25,
+            "SP_PlateCarrier1_Tan", 0.25,
+            "SP_PlateCarrier1_Grey", 0.25
+        };
+
+        // Beards / mouth scarf / scarf / sunglasses
+        facewearList[] = {
+            "", 0.3,
+            "G_Bandanna_blk", 0.4,
+            "G_Bandanna_khk", 0.4,
+            "G_Bandanna_tan", 0.4,
+            "CUP_TK_NeckScarf", 0.3,
+            "SP_Goggles_Black",0.3,
+            "SP_Goggles_Tan",0.3,
+            "G_Lowprofile",0.3,
+            "CUP_FR_Neckscarf2",0.3
+        };
+
+        // Baseball caps, boonies,
+        headgearList[] = {
+            "SP_ProTecHelmet_Tan", 0.3,
+            "SP_ECHHelmet_Tan1", 0.3,
+            "SP_ProTecHelmet_Black", 0.25,
+            "CUP_H_USArmy_Helmet_Pro_gog", 0.25,
+            "CUP_H_USArmy_Helmet_Pro", 0.25,
+            "CUP_H_USArmy_Helmet_ECH1_Sand", 0.25,
+            "CUP_H_USArmy_Helmet_ECH2_Sand", 0.25,
+            "CUP_H_FR_ECH", 0.25,
+            "H_HelmetB_light_sand", 0.2,
+            "H_HelmetB_light_desert", 0.2,
+            "CUP_H_PMC_Cap_Back_EP_Tan", 0.1
+        };
+
+        nvgList[] = {
+            "", 0.8,
+            "CUP_NVG_PVS7", 0.25,
+            "NVGoggles", 0.1
+        };
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
 
@@ -331,6 +396,17 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Paramilitary Trooper (Grenadier)";
 
+        rifleList[] = {
+            {"CUP_arifle_M4A1_BUIS_desert_GL",{{"CUP_30Rnd_556x45_Stanag",6},{"CUP_1Rnd_HE_M203",4},{"CUP_1Rnd_HEDP_M203",2}}}, 0.4,
+            {"CUP_arifle_M4A1_BUIS_GL",{{"CUP_30Rnd_556x45_Stanag",6},{"CUP_1Rnd_HE_M203",4},{"CUP_1Rnd_HEDP_M203",2}}}, 0.4,
+            {"CUP_arifle_Mk16_CQC_EGLM",{{"CUP_30Rnd_556x45_Stanag",6},{"CUP_1Rnd_HE_M203",4},{"CUP_1Rnd_HEDP_M203",2}}}, 0.4,
+            {"CUP_arifle_Mk17_CQC_EGLM",{{"CUP_30Rnd_556x45_Stanag",6},{"CUP_1Rnd_HE_M203",4},{"CUP_1Rnd_HEDP_M203",2}}}, 0.3,
+            {"CUP_arifle_AK74_GL",{{"CUP_30Rnd_545x39_AK_M",6},{"CUP_1Rnd_HE_GP25_M",4},{"CUP_1Rnd_HE_GP25_M",2}}}, 0.3,
+            {"CUP_arifle_AK74M_GL",{{"CUP_30Rnd_545x39_AK_M",6},{"CUP_1Rnd_HE_GP25_M",4},{"CUP_1Rnd_HE_GP25_M",2}}}, 0.3,
+            {"CUP_arifle_CZ805_GL",{{"CUP_30Rnd_556x45_G36",6},{"CUP_1Rnd_HE_M203",4},{"CUP_1Rnd_HEDP_M203",2}}}, 0.3,
+            {"CUP_arifle_AK74_GL",{{"CUP_30Rnd_545x39_AK_M",6},{"CUP_1Rnd_HE_GP25_M",4},{"CUP_1Rnd_HE_GP25_M",2}}}, 0.3,
+            {"arifle_AK12_GL_F",{{"30Rnd_762x39_Mag_F",6},{"1Rnd_HE_Grenade_shell",4},{"1Rnd_HE_Grenade_shell",2}}}, 0.2
+        };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
@@ -342,6 +418,14 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Paramilitary Trooper (AT)";
 
+        launcherList[] ={
+            {"CUP_launch_M136",{"CUP_M136_M",3}}, 0.6,
+            {"launch_RPG7_F",{"RPG7_F",3}}, 0.4,
+            {"CUP_launch_RPG7V",{"CUP_PG7V_M",3}}, 0.4,
+            {"CUP_launch_M72A6",{"CUP_M72A6_M",3}}, 0.3,
+            {"CUP_launch_M72A6",{"CUP_M72A6_M",3}}, 0.2,
+            {"CUP_launch_RPG18",{"CUP_RPG18_M",3}}, 0.2
+        };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
@@ -352,6 +436,20 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Paramilitary Trooper (AR)";
+
+        // 6-8 options
+        rifleList[] = {
+            {"CUP_lmg_M249_pip3",{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",3}}, 0.4,
+            {"CUP_lmg_minimipara",{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",3}}, 0.3,
+            {"CUP_lmg_L110A1",{"CUP_200Rnd_TE4_Red_Tracer_556x45_L110A1",3}}, 0.3,
+            {"CUP_lmg_M249_pip4",{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",3}}, 0.3,
+            {"CUP_lmg_M249_e2",{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",3}}, 0.3,
+            {"CUP_lmg_M249_pip2",{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",3}}, 0.3,
+            {"CUP_lmg_M249_para",{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",3}}, 0.3,
+            {"CUP_arifle_RKP74",{"CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",6}}, 0.2,
+            {"CUP_arifle_RKP74M",{"CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",6}}, 0.2,
+            {"CUP_lmg_Mk48_des",{"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",6}}, 0.1
+        };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
@@ -417,6 +515,18 @@ class CfgVehicles {
             class CargoTurret_01;
             class CargoTurret_02;
             class CargoTurret_03;
+        };
+    };
+
+    class B_G_Offroad_01_F;
+    class B_G_Offroad_01_F_OCimport_01 : B_G_Offroad_01_F { scope = 0; class EventHandlers; class Turrets; };
+    class B_G_Offroad_01_F_OCimport_02 : B_G_Offroad_01_F_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class CargoTurret_01;
+            class CargoTurret_02;
+            class CargoTurret_03;
+            class CargoTurret_04;
         };
     };
 
@@ -501,6 +611,11 @@ class CfgVehicles {
 
     };
 
+    class CFP_B_USCIA_LSV_02 : CFP_B_USCIA_LSV_01 {
+        displayName = "LSV (Special Forces)";
+        crew = "CFP_B_USCIA_paramilitary_officer_assault_01";
+    };
+
     class CFP_B_USCIA_SUV_01 : CUP_O_SUV_TKA_OCimport_02 {
         author = "Tupolov";
         scope = 2;
@@ -569,11 +684,16 @@ class CfgVehicles {
 
     };
 
+    class CFP_B_USCIA_Datsun_PK_02 : CFP_B_USCIA_Datsun_PK_01 {
+        displayName = "Datsun PK (Covert)";
+        crew = "CFP_B_USCIA_paramilitary_officer_covert_01";
+    };
+
     class CFP_B_USCIA_Offroad_01 : CFP_O_TBAN_Offroad_Armed_01_OCimport_02 {
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Offroad";
+        displayName = "Offroad (Armed)";
         side = 1;
         faction = "CFP_B_USCIA";
         crew = "CFP_B_USCIA_paramilitary_officer_01";
@@ -581,8 +701,6 @@ class CfgVehicles {
         class Turrets : Turrets {
             class M2_Turret : M2_Turret { gunnerType = "CFP_B_USCIA_paramilitary_officer_01"; };
         };
-
-
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -599,6 +717,38 @@ class CfgVehicles {
 
     };
 
+    class CFP_B_USCIA_Offroad_02 : B_G_Offroad_01_F_OCimport_02 {
+        author = "Matt";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Offroad";
+        side = 1;
+        faction = "CFP_B_USCIA";
+        crew = "CFP_B_USCIA_paramilitary_officer_01";
+
+        class Turrets : Turrets {
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
+            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\A3\Soft_F_Bootcamp\Offroad_01\Data\offroad_01_ext_IG_03_CO.paa'];_unit setObjectTextureGlobal [1,'\A3\Soft_F_Bootcamp\Offroad_01\Data\offroad_01_ext_IG_03_CO.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "Guerilla_03";
+
+    };
     class CFP_B_USCIA_MB_4WD_01 : I_C_Offroad_02_unarmed_F_OCimport_02 {
         author = "Tupolov";
         scope = 2;
@@ -614,15 +764,12 @@ class CfgVehicles {
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
         };
 
-
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_white_co.paa'];_unit setObjectTextureGlobal [1,'\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_white_co.paa'];_unit setObjectTextureGlobal [2,'\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_white_co.paa'];_unit setObjectTextureGlobal [3,'\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_white_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;[_unit,['Olive',1], ['hideLeftDoor',1,'hideRightDoor',1,'hideHeadSupportRear',1,'hideHeadSupportFront',1,'hideRollcage',1,'hideSpareWheel',1]] call BIS_fnc_initVehicle;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
-
         };
 
         // custom attributes (do not delete)
@@ -732,7 +879,7 @@ class CfgVehicles {
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Datsun";
+        displayName = "Datsun Technical";
         side = 1;
         faction = "CFP_B_USCIA";
         crew = "CFP_B_USCIA_paramilitary_officer_01";
@@ -759,7 +906,10 @@ class CfgVehicles {
 
     };
 
-
+    class CFP_B_USCIA_Technical_02 : CFP_B_USCIA_Technical_01 {
+        displayName = "Datsun Technical (Covert)";
+        crew = "CFP_B_USCIA_paramilitary_officer_covert_01";
+    };
 };
 
 

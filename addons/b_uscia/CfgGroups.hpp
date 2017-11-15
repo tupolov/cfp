@@ -8,7 +8,7 @@ class CfgGroups {
     class WEST {
 
         class CFP_B_USCIA {
-            name = "US CIA (Arid / Desert)";
+            name = "US CIA (Middle East)";
 
             class Infantry {
                 name = "Infantry";
@@ -242,13 +242,13 @@ class CfgGroups {
                         position[] = { -20 , -20 , 0 };
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USCIA_LSV_01";
+                        vehicle = "CFP_B_USCIA_LSV_02";
                     };
                     class Unit9 {
                         position[] = { 25 , -29 , 0 };
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USCIA_LSV_01";
+                        vehicle = "CFP_B_USCIA_LSV_02";
                     };
                 };
 
@@ -284,7 +284,7 @@ class CfgGroups {
                     };
                 };
 
-                class cfp_b_uscia_motorized_patrol {
+                class cfp_b_uscia_motorized_patrol_LSV {
                     name = "Motorized Patrol (LSV)";
                     side = 1;
                     faction = "CFP_B_USCIA";
@@ -323,8 +323,47 @@ class CfgGroups {
                     };
                 };
 
-                class cfp_b_uscia_motorized_patrol_offroad {
+                class cfp_b_uscia_motorized_patrol {
                     name = "Motorized Patrol (Offroad)";
+                    side = 1;
+                    faction = "CFP_B_USCIA";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+                    rarityGroup = 0.2;
+
+                    class Unit0 {
+                        position[] = { 0 , 0 , 0 };
+                        rank = "LIEUTENANT";
+                        side = 1;
+                        vehicle = "CFP_b_uscia_paramilitary_officer_01";
+                    };
+                    class Unit1 {
+                        position[] = { 5 , -5 , 0 };
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CFP_b_uscia_paramilitary_officer_01";
+                    };
+                    class Unit2 {
+                        position[] = { -5 , -5 , 0 };
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "CFP_b_uscia_paramilitary_officer_01";
+                    };
+                    class Unit3 {
+                        position[] = { 10 , -10 , 0 };
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "CFP_b_uscia_paramilitary_officer_01";
+                    };
+                    class Unit4 {
+                        position[] = { -10 , -10 , 0 };
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USCIA_Offroad_02";
+                    };
+                };
+
+                class cfp_b_uscia_motorized_patrol_offroad {
+                    name = "Motorized Patrol (Offroad Armed)";
                     side = 1;
                     faction = "CFP_B_USCIA";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
@@ -373,7 +412,7 @@ class CfgGroups {
                         position[] = { -5 , -5 , 0 };
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USCIA_Datsun_PK_01";
+                        vehicle = "CFP_B_USCIA_Datsun_PK_02";
                     };
                 };
 
@@ -394,7 +433,7 @@ class CfgGroups {
                         position[] = { -10 , -10 , 0 };
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USCIA_Technical_01";
+                        vehicle = "CFP_B_USCIA_Technical_02";
                     };
                 };
 
@@ -545,7 +584,6 @@ class CfgGroups {
                 };
 
             };
-
 
         };
 
