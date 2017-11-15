@@ -30,9 +30,10 @@ CFP Ultimate enhances base CFP factions and introduces new factions using the mo
 Factions are delivered in a modular way, enabling groups to maintain their own tailored version of CFP by simply excluding any components they don't need, or those possibly in conflict with other mods. 
 
 ## Features
-- 78 new factions!
+- 90 new factions!
 - CFP introduces 42 new factions based on CUP assets 
 - CFP Ultimate introduces 36 new factions based on common community addons (VSM, SMA, NIArms, VME etc)
+- 12 new civilian factions
 - Replaces certain CUP factions with factions split by theater (i.e. Arid/Desert, Woodland/Jungle, Artic/Snow etc)
 - Enhances 8 CUP factions with additonal groups and loadouts (i.e. special forces)
 - Standardizes faction and group configurations for the community
@@ -51,6 +52,7 @@ Factions are delivered in a modular way, enabling groups to maintain their own t
 - Russian Army factions specifically for Arid/Desert, Woodland/Jungle
 - Russian Airborne factions specifically for Arid/Desert, Woodland/Jungle
 - Russian Naval factions such as Spetznaz.
+- Somali Rebels
 - Syrian Arab Army
 - Taliban Insurgents
 
@@ -66,9 +68,15 @@ Factions are delivered in a modular way, enabling groups to maintain their own t
 - Iraqi Police
 - Peshmerga (Iraqi Kurds)
 - US Army factions specifically for Arid/Desert, Woodland/Jungle and including special forces (Delta, Green Beret, SOAR)
-- US Central Intelligence Agency (Desert / Middle East)
+- US Central Intelligence Agency (Middle East)
 - US Marine Corps factions specifically for Arid/Desert, Woodland/Jungle and including special forces (MARSOC)
 - Yekîneyên Parastina Gel (YPG) (Syrian Kurds)
+
+### CIVILIAN
+- Middle Eastern
+- African (Christian)
+- African (Muslim)
+- Asian
 
 ## CFP Ultimate Factions (in addition to enhancing CFP factions)
 
