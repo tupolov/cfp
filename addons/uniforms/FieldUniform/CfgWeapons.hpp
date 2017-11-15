@@ -334,7 +334,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard A-Tacs FG (Field Uniform)";
+		displayName = "Field Uniform (A-Tacs FG)";
 		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\ATacsFG.jpg";
 		author = "SP Craig";
 
@@ -352,7 +352,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Standard A-Tacs FG (Field Uniform SS)";
+		displayName = "Field Uniform SS (A-Tacs FG)";
 		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\ATacsFG.jpg";
 		author = "SP Craig";
 

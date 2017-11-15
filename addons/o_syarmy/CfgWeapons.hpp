@@ -5,7 +5,7 @@ class CfgWeapons
 	class SAA_uniform_officer: AFG_1996Leaf_BattleDressUniform
 	{
 		scope = 2;
-		displayName = "SAA Officer Uniform";
+		displayName = "Syrian Arab Army Officer Uniform";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		picture = "\x\cfp\addons\o_syarmy\data\icon_saa_uniformwoodland.paa";
 		hiddenSelections[] = {"camo"};
@@ -21,7 +21,7 @@ class CfgWeapons
 	class SAA_uniform: AFG_1996Leaf_BattleDressUniform
 	{
 		scope = 2;
-		displayName = "SAA Uniform";
+		displayName = "Syrian Arab Army Uniform";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		picture = "\x\cfp\addons\o_syarmy\data\icon_saa_uniformwoodland.paa";
 		hiddenSelections[] = {"Camo"};

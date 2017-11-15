@@ -4,7 +4,7 @@ class CfgWeapons
 	class PESH_Beret: H_Beret_Colonel
 	{
 		scope = 2;
-		displayName = "Peshmerga Beret";
+		displayName = "Peshmerga Beret (Eagle)";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\b_pesh\data\peshmerga_beret_eagle.paa"};
 	};
 	class PESH_Beret_CTG: H_Beret_Colonel
@@ -67,7 +67,7 @@ class CfgWeapons
 	class PESH_uniform: U_I_CombatUniform
 	{
 		scope = 2;
-		displayName = "Peshmerga Uniform";
+		displayName = "Peshmerga Uniform (Woodland)";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		picture = "\x\cfp\addons\b_pesh\data\icon_saa_uniformwoodland.paa";
 		hiddenSelections[] = {"Camo","insignia"};

@@ -8,7 +8,7 @@ class CfgWeapons
 	class IA_uniform_generic: U_I_CombatUniform
 	{
 		scope = 2;
-		displayName = "IA Uniform";
+		displayName = "Iraqi Army Uniform";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		picture = "\x\cfp\addons\b_iqarmy\data\icon_ia_uniform_woodland.paa";
 		hiddenSelections[] = {"Camo","insignia"};
@@ -24,7 +24,7 @@ class CfgWeapons
 	class IA_uniform_sf_b: U_B_CombatUniform_mcam
 	{
 		scope = 2;
-		displayName = "IA SF Uniform";
+		displayName = "Iraqi Special Forces Uniform";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		picture = "\x\cfp\addons\b_iqarmy\data\icon_ia_sf_combatuniform.paa";
 		hiddenSelections[] = {"Camo","insignia"};
