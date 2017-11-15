@@ -30,8 +30,8 @@ class CfgVehicles
 		respawnLinkedItems[] = {""};
 		weapons[] = {"Throw","Put"};
 		respawnweapons[] = {"Throw","Put"};
-		magazines[] = {""};
-		Respawnmagazines[] = {""};
+		magazines[] = {};
+		Respawnmagazines[] = {};
 		identityTypes[] = {"NoGlasses","LanguagePER_F","Head_TK","G_IRAN_default"};
 		class EventHandlers
 		{

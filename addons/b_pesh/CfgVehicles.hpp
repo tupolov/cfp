@@ -29,8 +29,8 @@ class CfgVehicles
         respawnLinkedItems[] = {"V_TacVest_camo","ItemRadio"};
         weapons[] = {"CUP_arifle_AKM","Binocular","Throw","Put"};
         respawnweapons[] = {"Throw","Put"};
-        magazines[] = {""};
-        Respawnmagazines[] = {""};
+        magazines[] = {};
+        Respawnmagazines[] = {};
         identityTypes[] = {"NoGlasses","LanguagePER_F","Head_TK","G_IRAN_default"};
         class EventHandlers
         {

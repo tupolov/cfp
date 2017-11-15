@@ -30,8 +30,8 @@ class CfgVehicles
 		respawnLinkedItems[] = {"V_TacVest_camo","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"Throw","Put"};
 		respawnweapons[] = {"Throw","Put"};
-		magazines[] = {""};
-		Respawnmagazines[] = {""};
+		magazines[] = {};
+		Respawnmagazines[] = {};
 		identityTypes[] = {"NoGlasses","LanguagePER_F","Head_Greek","G_IRAN_default"};
 		class EventHandlers
 		{

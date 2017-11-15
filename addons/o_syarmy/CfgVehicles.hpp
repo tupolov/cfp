@@ -30,8 +30,8 @@ class CfgVehicles
 		respawnLinkedItems[] = {"SAA_uniform","CUP_V_CDF_6B3_2_FST","ItemRadio"};
 		weapons[] = {"Throw","Put"};
 		respawnweapons[] = {"Throw","Put"};
-		magazines[] = {""};
-		Respawnmagazines[] = {""};
+		magazines[] = {};
+		Respawnmagazines[] = {};
 		identityTypes[] = {"NoGlasses","LanguagePER_F","Head_TK","G_IRAN_default"};
 		class EventHandlers
 		{

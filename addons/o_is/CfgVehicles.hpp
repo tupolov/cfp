@@ -28,8 +28,8 @@ class CfgVehicles
 		respawnLinkedItems[] = {"V_TacVestIR_blk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"Throw","Put"};
 		respawnweapons[] = {"Throw","Put"};
-		magazines[] = {""};
-		Respawnmagazines[] = {""};
+		magazines[] = {};
+		Respawnmagazines[] = {};
 		identityTypes[] = {"NoGlasses","Language_Ackbar","Head_TK","G_IRAN_default"};
 		class EventHandlers
 		{
