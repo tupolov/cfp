@@ -6,6 +6,7 @@ class CfgVehicles {
 	#include "Coverall\CfgVehicles.hpp"
 	#include "DiverUniform\CfgVehicles.hpp"
 	#include "FieldUniform\CfgVehicles.hpp"
+	#include "KhetPartug\CfgVehicles.hpp"
 	#include "PulloverUniform\CfgVehicles.hpp"
 	#include "ReconUniform\CfgVehicles.hpp"
 	#include "WorkUniform\CfgVehicles.hpp"

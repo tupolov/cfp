@@ -142,7 +142,18 @@ class CfgPatches
 			"SP_0000_Standard_Underwear_Purple",
 			"SP_0000_Standard_Underwear_Red",
 			"SP_0000_Standard_Underwear_White",
-			"SP_0000_Standard_Underwear_Yellow"
+			"SP_0000_Standard_Underwear_Yellow",
+			"CFP_KhetPartug_Long_M81",
+			"CFP_KhetPartug_Short_M81",
+			"CFP_BattleDressUniform_3ColorDesert",
+			"CFP_BattleDressUniform_AfricanWoodland",
+			"CFP_BattleDressUniform_M81",
+			"CFP_BattleDressUniform_ChocChip",
+			"CFP_BattleDressUniform_DPMWoodland",
+			"CFP_BattleDressUniform_DPM",
+			"CFP_BattleDressUniform_edrl",
+			"CFP_BattleDressUniform_polygondesert",
+			"CFP_BattleDressUniform_tigerstripe"
 		};
 		weapons[] = {
 			"SP_0000_Standard_BattleDressUniform_Black",
@@ -276,7 +287,19 @@ class CfgPatches
 			"SP_0000_Standard_Underwear_Purple",
 			"SP_0000_Standard_Underwear_Red",
 			"SP_0000_Standard_Underwear_White",
-			"SP_0000_Standard_Underwear_Yellow"
+			"SP_0000_Standard_Underwear_Yellow",
+			"CFP_U_KhetPartug_Long_M81",
+			"CFP_U_KhetPartug_Short_M81",
+			"CFP_U_BattleDressUniform_3ColorDesert",
+			"CFP_U_BattleDressUniform_AfricanWoodland",
+			"CFP_U_BattleDressUniform_M81",
+			"CFP_U_BattleDressUniform_ChocChip",
+			"CFP_U_BattleDressUniform_DPMWoodland",
+			"CFP_U_BattleDressUniform_DPM",
+			"CFP_U_BattleDressUniform_edrl",
+			"CFP_U_BattleDressUniform_polygondesert",
+			"CFP_U_BattleDressUniform_tigerstripe"
+
 		};
         author = MODULE_AUTHOR;
         authors[] = {"SP Craig", "Tupolov"};
