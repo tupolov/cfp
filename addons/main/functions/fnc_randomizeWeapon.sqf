@@ -56,7 +56,13 @@ switch (_cat) do {
 		_unit addWeapon (_item select 0);
 	};
 	case ("rifle") : {
-		_unit addMagazines (_item select 1);
+		if (((_item select 1) select 0) isEqualType []) then {
+			{
+				_unit addMagazines _x;
+			} foreach (_item select 1);
+		} else {
+			_unit addMagazines (_item select 1);
+		};
 		_unit addWeapon (_item select 0);
 	};
 	case ("launcher") : {
