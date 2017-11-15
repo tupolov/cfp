@@ -30,6 +30,71 @@
             <Japanese>CFP Team</Japanese>
             <Chinesesimp>CFP Team</Chinesesimp>
             <Chinese>CFP Team</Chinese>
+        </Key> 
+            
+        <Key ID="STR_A3_CfgFactionClasses_BLU_F0">
+            <English>2035 NATO</English>
+        </Key>
+        <Key ID="STR_A3_CfgFactionClasses_OPF_F0">
+            <English>2035 CSAT</English>
+        </Key>                     
+        <Key ID="STR_A3_CfgFactionClasses_IND_F0">
+            <English>2035 AAF</English>
+        </Key>  
+        <Key ID="STR_A3_CfgFactionClasses_IND_G_F0">
+            <English>2035 FIA</English>
+        </Key>
+        <Key ID="STR_A3_CfgFactionClasses_BLU_T_F0">
+            <English>2035 NATO (Pacific)</English>
+        </Key>
+        <Key ID="STR_A3_CfgFactionClasses_BLU_G_F0">
+            <English>2035 FIA</English>
         </Key>        
+        <Key ID="STR_A3_CfgFactionClasses_OPF_T_F0">
+            <English>2035 CSAT (Pacific)</English>
+        </Key>
+        <Key ID="STR_A3_CfgFactionClasses_OPF_V_F0">
+            <English>2035 Viper</English>
+        </Key>
+        <Key ID="STR_A3_CfgFactionClasses_OPF_G_F0">
+            <English>2035 OPFIA</English>
+        </Key>                                
+        <Key ID="STR_A3_CfgFactionClasses_BLU_CTRG_F0">
+            <English>2035 CTRG</English>
+        </Key>  
+        <Key ID="STR_A3_CfgFactionClasses_IND_C_F0">
+            <English>2035 Syndikat</English>
+        </Key>
+        <Key ID="STR_A3_CfgFactionClasses_BLU_GEN_F0">
+            <English>2035 Gendarmerie</English>
+        </Key>
+
+        <Key ID="STR_A3_CfgGroups_West_BLU_F0">
+            <English>2035 NATO</English>
+        </Key>
+        <Key ID="STR_A3_CfgGroups_East_OPF_F0">
+            <English>2035 CSAT</English>
+        </Key>                     
+        <Key ID="STR_A3_CfgGroups_Indep_IND_F0">
+            <English>2035 AAF</English>
+        </Key>  
+        <Key ID="STR_A3_CfgGroups_West_BLU_T_F0">
+            <English>2035 NATO (Pacific)</English>
+        </Key>
+        <Key ID="STR_A3_cfggroups_Indep_Guerilla0">
+            <English>2035 FIA</English>
+        </Key>        
+        <Key ID="STR_A3_CfgGroups_East_OPF_T_F0">
+            <English>2035 CSAT (Pacific)</English>
+        </Key>                            
+        <Key ID="STR_A3_CfgGroups_West_CTRG_F0">
+            <English>2035 CTRG</English>
+        </Key>  
+        <Key ID="STR_A3_CfgGroups_Indep_IND_C_F0">
+            <English>2035 Syndikat</English>
+        </Key>
+        <Key ID="STR_A3_CfgGroups_West_GEN_F0">
+            <English>2035 Gendarmerie</English>
+        </Key>                                            
     </Package>
 </Project>
