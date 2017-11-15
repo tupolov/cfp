@@ -3,7 +3,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Afghanistan 1996 DPM (Battle Dress Uniform)";
+		displayName = "Battle Dress Uniform (1996 DPM)";
 		picture = "\x\cfp\addons\uniforms_afg\AFG_1996DPM\ui\BattleDressUniform.jpg";
 		author = "SP Craig";
 
@@ -19,7 +19,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Afghanistan 1996 DPM (Pullover Uniform)";
+		displayName = "Pullover Uniform (1996 DPM)";
 		picture = "\x\cfp\addons\uniforms_afg\AFG_1996DPM\ui\PulloverUniform.jpg";
 		author = "SP Craig";
 
@@ -35,7 +35,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Afghanistan 1996 DPM (Recon Uniform)";
+		displayName = "Recon Uniform (1996 DPM)";
 		picture = "\x\cfp\addons\uniforms_afg\AFG_1996DPM\ui\ReconUniform.jpg";
 		author = "SP Craig";
 
@@ -53,7 +53,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Afghanistan 1996 DPM (Field Uniform)";
+		displayName = "Field Uniform (1996 DPM)";
 		picture = "\x\cfp\addons\uniforms_afg\AFG_1996DPM\ui\FieldUniform.jpg";
 		author = "SP Craig";
 
@@ -70,7 +70,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Afghanistan 1996 DPM (Field Uniform SS)";
+		displayName = "Field Uniform SS (1996 DPM)";
 		picture = "\x\cfp\addons\uniforms_afg\AFG_1996DPM\ui\FieldUniform.jpg";
 		author = "SP Craig";
 
@@ -87,7 +87,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Afghanistan 1996 DPM (Tactical Uniform)";
+		displayName = "Tactical Uniform (1996 DPM)";
 		picture = "\x\cfp\addons\uniforms_afg\AFG_1996DPM\ui\TacticalUniform.jpg";
 		author = "SP Craig";
 
@@ -104,7 +104,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Afghanistan 1996 DPM (Tactical Uniform SS)";
+		displayName = "Tactical Uniform SS (1996 DPM)";
 		picture = "\x\cfp\addons\uniforms_afg\AFG_1996DPM\ui\TacticalUniform.jpg";
 		author = "SP Craig";
 
@@ -121,7 +121,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Afghanistan 1996 DPM (Tactical Uniform TS)";
+		displayName = "Tactical Uniform TS (1996 DPM)";
 		picture = "\x\cfp\addons\uniforms_afg\AFG_1996DPM\ui\TacticalUniformTS.jpg";
 		author = "SP Craig";
 

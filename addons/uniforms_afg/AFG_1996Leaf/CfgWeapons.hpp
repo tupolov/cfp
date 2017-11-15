@@ -4,7 +4,7 @@
     {
         scope=2;
         model = "\x\cfp\addons\models\Suitpack";
-        displayName = "Afghanistan 1996 Leaf (Battle Dress Uniform)";
+        displayName = "Battle Dress Uniform (1996 Leaf)";
         picture = "\x\cfp\addons\uniforms_afg\AFG_1996Leaf\ui\BattleDressUniform.jpg";
         author = "SP Craig";
 
@@ -20,7 +20,7 @@
     {
         scope=2;
         model = "\x\cfp\addons\models\Suitpack";
-        displayName = "Afghanistan 1996 Leaf (Pullover Uniform)";
+        displayName = "Pullover Uniform (1996 Leaf)";
         picture = "\x\cfp\addons\uniforms_afg\AFG_1996Leaf\ui\PulloverUniform.jpg";
         author = "SP Craig";
 
@@ -36,7 +36,7 @@
     {
         scope=2;
         model = "\x\cfp\addons\models\Suitpack";
-        displayName = "Afghanistan 1996 Leaf (Recon Uniform)";
+        displayName = "Recon Uniform (1996 Leaf)";
         picture = "\x\cfp\addons\uniforms_afg\AFG_1996Leaf\ui\ReconUniform.jpg";
         author = "SP Craig";
 
@@ -54,7 +54,7 @@
     {
         scope=2;
         model = "\x\cfp\addons\models\Suitpack";
-        displayName = "Afghanistan 1996 Leaf (Field Uniform)";
+        displayName = "Field Uniform (1996 Leaf)";
         picture = "\x\cfp\addons\uniforms_afg\AFG_1996Leaf\ui\FieldUniform.jpg";
         author = "SP Craig";
 
@@ -71,7 +71,7 @@
     {
         scope=2;
         model = "\x\cfp\addons\models\Suitpack";
-        displayName = "Afghanistan 1996 Leaf (Field Uniform SS)";
+        displayName = "Field Uniform SS (1996 Leaf)";
         picture = "\x\cfp\addons\uniforms_afg\AFG_1996Leaf\ui\FieldUniform.jpg";
         author = "SP Craig";
 
@@ -88,7 +88,7 @@
     {
         scope=2;
         model = "\x\cfp\addons\models\Suitpack";
-        displayName = "Afghanistan 1996 Leaf (Tactical Uniform)";
+        displayName = "Tactical Uniform (1996 Leaf)";
         picture = "\x\cfp\addons\uniforms_afg\AFG_1996Leaf\ui\TacticalUniform.jpg";
         author = "SP Craig";
 
@@ -105,7 +105,7 @@
     {
         scope=2;
         model = "\x\cfp\addons\models\Suitpack";
-        displayName = "Afghanistan 1996 Leaf (Tactical Uniform SS)";
+        displayName = "Tactical Uniform SS (1996 Leaf)";
         picture = "\x\cfp\addons\uniforms_afg\AFG_1996Leaf\ui\TacticalUniform.jpg";
         author = "SP Craig";
 
@@ -122,7 +122,7 @@
     {
         scope=2;
         model = "\x\cfp\addons\models\Suitpack";
-        displayName = "Afghanistan 1996 Leaf (Tactical Uniform TS)";
+        displayName = "Tactical Uniform TS (1996 Leaf)";
         picture = "\x\cfp\addons\uniforms_afg\AFG_1996Leaf\ui\TacticalUniformTS.jpg";
         author = "SP Craig";
 

@@ -4,7 +4,7 @@
 		{
 			scope=2;
 			model = "\x\cfp\addons\models\Suitpack";
-			displayName = "Afghanistan 2001 Lizard (Battle Dress Uniform)";
+			displayName = "Battle Dress Uniform (2001 Lizard)";
 			picture = "\x\cfp\addons\uniforms_afg\AFG_2001Lizard\ui\BattleDressUniform.jpg";
 			author = "SP Craig";
 
@@ -20,7 +20,7 @@
 		{
 			scope=2;
 			model = "\x\cfp\addons\models\Suitpack";
-			displayName = "Afghanistan 2001 Lizard (Pullover Uniform)";
+			displayName = "Pullover Uniform (2001 Lizard)";
 			picture = "\x\cfp\addons\uniforms_afg\AFG_2001Lizard\ui\PulloverUniform.jpg";
 			author = "SP Craig";
 
@@ -36,7 +36,7 @@
 		{
 			scope=2;
 			model = "\x\cfp\addons\models\Suitpack";
-			displayName = "Afghanistan 2001 Lizard (Recon Uniform)";
+			displayName = "Recon Uniform (2001 Lizard)";
 			picture = "\x\cfp\addons\uniforms_afg\AFG_2001Lizard\ui\ReconUniform.jpg";
 			author = "SP Craig";
 
@@ -54,7 +54,7 @@
 		{
 			scope=2;
 			model = "\x\cfp\addons\models\Suitpack";
-			displayName = "Afghanistan 2001 Lizard (Field Uniform)";
+			displayName = "Field Uniform (2001 Lizard)";
 			picture = "\x\cfp\addons\uniforms_afg\AFG_2001Lizard\ui\FieldUniform.jpg";
 			author = "SP Craig";
 
@@ -71,7 +71,7 @@
 		{
 			scope=2;
 			model = "\x\cfp\addons\models\Suitpack";
-			displayName = "Afghanistan 2001 Lizard (Field Uniform SS)";
+			displayName = "Field Uniform SS (2001 Lizard)";
 			picture = "\x\cfp\addons\uniforms_afg\AFG_2001Lizard\ui\FieldUniform.jpg";
 			author = "SP Craig";
 
@@ -88,7 +88,7 @@
 		{
 			scope=2;
 			model = "\x\cfp\addons\models\Suitpack";
-			displayName = "Afghanistan 2001 Lizard (Tactical Uniform)";
+			displayName = "Tactical Uniform (2001 Lizard)";
 			picture = "\x\cfp\addons\uniforms_afg\AFG_2001Lizard\ui\TacticalUniform.jpg";
 			author = "SP Craig";
 
@@ -105,7 +105,7 @@
 		{
 			scope=2;
 			model = "\x\cfp\addons\models\Suitpack";
-			displayName = "Afghanistan 2001 Lizard (Tactical Uniform SS)";
+			displayName = "Tactical Uniform SS (2001 Lizard)";
 			picture = "\x\cfp\addons\uniforms_afg\AFG_2001Lizard\ui\TacticalUniform.jpg";
 			author = "SP Craig";
 
@@ -122,7 +122,7 @@
 		{
 			scope=2;
 			model = "\x\cfp\addons\models\Suitpack";
-			displayName = "Afghanistan 2001 Lizard (Tactical Uniform TS)";
+			displayName = "Tactical Uniform TS (2001 Lizard)";
 			picture = "\x\cfp\addons\uniforms_afg\AFG_2001Lizard\ui\TacticalUniformTS.jpg";
 			author = "SP Craig";
 

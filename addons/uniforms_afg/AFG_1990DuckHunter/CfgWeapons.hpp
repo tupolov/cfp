@@ -4,7 +4,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Afghanistan 1990 Duck Hunter (Battle Dress Uniform)";
+		displayName = "Battle Dress Uniform (1990 Duck Hunter)";
 		picture = "\x\cfp\addons\uniforms_afg\AFG_1990DuckHunter\ui\BattleDressUniform.jpg";
 		author = "SP Craig";
 
@@ -20,7 +20,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Afghanistan 1990 Duck Hunter (Pullover Uniform)";
+		displayName = "Pullover Uniform (1990 Duck Hunter)";
 		picture = "\x\cfp\addons\uniforms_afg\AFG_1990DuckHunter\ui\PulloverUniform.jpg";
 		author = "SP Craig";
 
@@ -36,7 +36,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Afghanistan 1990 Duck Hunter (Recon Uniform)";
+		displayName = "Recon Uniform (1990 Duck Hunter)";
 		picture = "\x\cfp\addons\uniforms_afg\AFG_1990DuckHunter\ui\ReconUniform.jpg";
 		author = "SP Craig";
 
@@ -53,7 +53,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Afghanistan 1990 Duck Hunter (Field Uniform)";
+		displayName = "Field Uniform (1990 Duck Hunter)";
 		picture = "\x\cfp\addons\uniforms_afg\AFG_1990DuckHunter\ui\FieldUniform.jpg";
 		author = "SP Craig";
 
@@ -70,7 +70,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Afghanistan 1990 Duck Hunter (Field Uniform SS)";
+		displayName = "Field Uniform SS (1990 Duck Hunter)";
 		picture = "\x\cfp\addons\uniforms_afg\AFG_1990DuckHunter\ui\FieldUniform.jpg";
 		author = "SP Craig";
 
@@ -87,7 +87,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Afghanistan 1990 Duck Hunter (Tactical Uniform)";
+		displayName = "Tactical Uniform (1990 Duck Hunter)";
 		picture = "\x\cfp\addons\uniforms_afg\AFG_1990DuckHunter\ui\TacticalUniform.jpg";
 		author = "SP Craig";
 
@@ -104,7 +104,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Afghanistan 1990 Duck Hunter (Tactical Uniform SS)";
+		displayName = "Tactical Uniform SS (1990 Duck Hunter)";
 		picture = "\x\cfp\addons\uniforms_afg\AFG_1990DuckHunter\ui\TacticalUniform.jpg";
 		author = "SP Craig";
 
@@ -121,7 +121,7 @@
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Afghanistan 1990 Duck Hunter (Tactical Uniform TS)";
+		displayName = "Tactical Uniform TS (1990 Duck Hunter)";
 		picture = "\x\cfp\addons\uniforms_afg\AFG_1990DuckHunter\ui\TacticalUniformTS.jpg";
 		author = "SP Craig";
 

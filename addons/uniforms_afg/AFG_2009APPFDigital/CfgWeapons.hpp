@@ -4,7 +4,7 @@
 		{
 			scope=2;
 			model = "\x\cfp\addons\models\Suitpack";
-			displayName = "Afghanistan 2009 APPF Digital (Battle Dress Uniform)";
+			displayName = "Battle Dress Uniform (2009 APPF Digital)";
 			picture = "\x\cfp\addons\uniforms_afg\AFG_2009APPFDigital\ui\BattleDressUniform.jpg";
 			author = "SP Craig";
 
@@ -20,7 +20,7 @@
 		{
 			scope=2;
 			model = "\x\cfp\addons\models\Suitpack";
-			displayName = "Afghanistan 2009 APPF Digital (Pullover Uniform)";
+			displayName = "Pullover Uniform (2009 APPF Digital)";
 			picture = "\x\cfp\addons\uniforms_afg\AFG_2009APPFDigital\ui\PulloverUniform.jpg";
 			author = "SP Craig";
 
@@ -36,7 +36,7 @@
 		{
 			scope=2;
 			model = "\x\cfp\addons\models\Suitpack";
-			displayName = "Afghanistan 2009 APPF Digital (Recon Uniform)";
+			displayName = "Recon Uniform (2009 APPF Digital)";
 			picture = "\x\cfp\addons\uniforms_afg\AFG_2009APPFDigital\ui\ReconUniform.jpg";
 			author = "SP Craig";
 
@@ -54,7 +54,7 @@
 		{
 			scope=2;
 			model = "\x\cfp\addons\models\Suitpack";
-			displayName = "Afghanistan 2009 APPF Digital (Field Uniform)";
+			displayName = "Field Uniform (2009 APPF Digital)";
 			picture = "\x\cfp\addons\uniforms_afg\AFG_2009APPFDigital\ui\FieldUniform.jpg";
 			author = "SP Craig";
 
@@ -71,7 +71,7 @@
 		{
 			scope=2;
 			model = "\x\cfp\addons\models\Suitpack";
-			displayName = "Afghanistan 2009 APPF Digital (Field Uniform SS)";
+			displayName = "Field Uniform SS (2009 APPF Digital)";
 			picture = "\x\cfp\addons\uniforms_afg\AFG_2009APPFDigital\ui\FieldUniform.jpg";
 			author = "SP Craig";
 
@@ -88,7 +88,7 @@
 		{
 			scope=2;
 			model = "\x\cfp\addons\models\Suitpack";
-			displayName = "Afghanistan 2009 APPF Digital (Tactical Uniform)";
+			displayName = "Tactical Uniform (2009 APPF Digital)";
 			picture = "\x\cfp\addons\uniforms_afg\AFG_2009APPFDigital\ui\TacticalUniform.jpg";
 			author = "SP Craig";
 
@@ -105,7 +105,7 @@
 		{
 			scope=2;
 			model = "\x\cfp\addons\models\Suitpack";
-			displayName = "Afghanistan 2009 APPF Digital (Tactical Uniform SS)";
+			displayName = "Tactical Uniform SS (2009 APPF Digital)";
 			picture = "\x\cfp\addons\uniforms_afg\AFG_2009APPFDigital\ui\TacticalUniform.jpg";
 			author = "SP Craig";
 
@@ -122,7 +122,7 @@
 		{
 			scope=2;
 			model = "\x\cfp\addons\models\Suitpack";
-			displayName = "Afghanistan 2009 APPF Digital (Tactical Uniform TS)";
+			displayName = "Tactical Uniform TS (2009 APPF Digital)";
 			picture = "\x\cfp\addons\uniforms_afg\AFG_2009APPFDigital\ui\TacticalUniformTS.jpg";
 			author = "SP Craig";
 

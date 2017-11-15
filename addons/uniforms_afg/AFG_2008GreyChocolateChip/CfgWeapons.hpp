@@ -4,7 +4,7 @@
 		{
 			scope=2;
 			model = "\x\cfp\addons\models\Suitpack";
-			displayName = "Afghanistan 2008 Grey Chocolate Chip (Battle Dress Uniform)";
+			displayName = "Battle Dress Uniform (2008 Grey Chocolate Chip)";
 			picture = "\x\cfp\addons\uniforms_afg\AFG_2008GreyChocolateChip\ui\BattleDressUniform.jpg";
 			author = "SP Craig";
 
@@ -20,7 +20,7 @@
 		{
 			scope=2;
 			model = "\x\cfp\addons\models\Suitpack";
-			displayName = "Afghanistan 2008 Grey Chocolate Chip (Pullover Uniform)";
+			displayName = "Pullover Uniform (2008 Grey Chocolate Chip)";
 			picture = "\x\cfp\addons\uniforms_afg\AFG_2008GreyChocolateChip\ui\PulloverUniform.jpg";
 			author = "SP Craig";
 
@@ -36,7 +36,7 @@
 		{
 			scope=2;
 			model = "\x\cfp\addons\models\Suitpack";
-			displayName = "Afghanistan 2008 Grey Chocolate Chip (Recon Uniform)";
+			displayName = "Recon Uniform (2008 Grey Chocolate Chip)";
 			picture = "\x\cfp\addons\uniforms_afg\AFG_2008GreyChocolateChip\ui\ReconUniform.jpg";
 			author = "SP Craig";
 
@@ -54,7 +54,7 @@
 		{
 			scope=2;
 			model = "\x\cfp\addons\models\Suitpack";
-			displayName = "Afghanistan 2008 Grey Chocolate Chip (Field Uniform)";
+			displayName = "Field Uniform (2008 Grey Chocolate Chip)";
 			picture = "\x\cfp\addons\uniforms_afg\AFG_2008GreyChocolateChip\ui\FieldUniform.jpg";
 			author = "SP Craig";
 
@@ -71,7 +71,7 @@
 		{
 			scope=2;
 			model = "\x\cfp\addons\models\Suitpack";
-			displayName = "Afghanistan 2008 Grey Chocolate Chip (Field Uniform SS)";
+			displayName = "Field Uniform SS (2008 Grey Chocolate Chip)";
 			picture = "\x\cfp\addons\uniforms_afg\AFG_2008GreyChocolateChip\ui\FieldUniform.jpg";
 			author = "SP Craig";
 
@@ -88,7 +88,7 @@
 		{
 			scope=2;
 			model = "\x\cfp\addons\models\Suitpack";
-			displayName = "Afghanistan 2008 Grey Chocolate Chip (Tactical Uniform)";
+			displayName = "Tactical Uniform (2008 Grey Chocolate Chip)";
 			picture = "\x\cfp\addons\uniforms_afg\AFG_2008GreyChocolateChip\ui\TacticalUniform.jpg";
 			author = "SP Craig";
 
@@ -105,7 +105,7 @@
 		{
 			scope=2;
 			model = "\x\cfp\addons\models\Suitpack";
-			displayName = "Afghanistan 2008 Grey Chocolate Chip (Tactical Uniform SS)";
+			displayName = "Tactical Uniform SS (2008 Grey Chocolate Chip)";
 			picture = "\x\cfp\addons\uniforms_afg\AFG_2008GreyChocolateChip\ui\TacticalUniform.jpg";
 			author = "SP Craig";
 
@@ -122,7 +122,7 @@
 		{
 			scope=2;
 			model = "\x\cfp\addons\models\Suitpack";
-			displayName = "Afghanistan 2008 Grey Chocolate Chip (Tactical Uniform TS)";
+			displayName = "Tactical Uniform TS (2008 Grey Chocolate Chip)";
 			picture = "\x\cfp\addons\uniforms_afg\AFG_2008GreyChocolateChip\ui\TacticalUniformTS.jpg";
 			author = "SP Craig";
 

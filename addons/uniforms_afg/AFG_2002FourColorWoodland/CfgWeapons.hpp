@@ -4,7 +4,7 @@
 		{
 			scope=2;
 			model = "\x\cfp\addons\models\Suitpack";
-			displayName = "Afghanistan 2002 Four Color Woodland (Battle Dress Uniform)";
+			displayName = "Battle Dress Uniform (2002 Four Color Woodland)";
 			picture = "\x\cfp\addons\uniforms_afg\AFG_2002FourColorWoodland\ui\BattleDressUniform.jpg";
 			author = "SP Craig";
 
@@ -20,7 +20,7 @@
 		{
 			scope=2;
 			model = "\x\cfp\addons\models\Suitpack";
-			displayName = "Afghanistan 2002 Four Color Woodland (Pullover Uniform)";
+			displayName = "Pullover Uniform (2002 Four Color Woodland)";
 			picture = "\x\cfp\addons\uniforms_afg\AFG_2002FourColorWoodland\ui\PulloverUniform.jpg";
 			author = "SP Craig";
 
@@ -36,7 +36,7 @@
 		{
 			scope=2;
 			model = "\x\cfp\addons\models\Suitpack";
-			displayName = "Afghanistan 2002 Four Color Woodland (Recon Uniform)";
+			displayName = "Recon Uniform (2002 Four Color Woodland)";
 			picture = "\x\cfp\addons\uniforms_afg\AFG_2002FourColorWoodland\ui\ReconUniform.jpg";
 			author = "SP Craig";
 
@@ -54,7 +54,7 @@
 		{
 			scope=2;
 			model = "\x\cfp\addons\models\Suitpack";
-			displayName = "Afghanistan 2002 Four Color Woodland (Field Uniform)";
+			displayName = "Field Uniform (2002 Four Color Woodland)";
 			picture = "\x\cfp\addons\uniforms_afg\AFG_2002FourColorWoodland\ui\FieldUniform.jpg";
 			author = "SP Craig";
 
@@ -71,7 +71,7 @@
 		{
 			scope=2;
 			model = "\x\cfp\addons\models\Suitpack";
-			displayName = "Afghanistan 2002 Four Color Woodland (Field Uniform SS)";
+			displayName = "Field Uniform SS (2002 Four Color Woodland)";
 			picture = "\x\cfp\addons\uniforms_afg\AFG_2002FourColorWoodland\ui\FieldUniform.jpg";
 			author = "SP Craig";
 
@@ -88,7 +88,7 @@
 		{
 			scope=2;
 			model = "\x\cfp\addons\models\Suitpack";
-			displayName = "Afghanistan 2002 Four Color Woodland (Tactical Uniform)";
+			displayName = "Tactical Uniform (2002 Four Color Woodland)";
 			picture = "\x\cfp\addons\uniforms_afg\AFG_2002FourColorWoodland\ui\TacticalUniform.jpg";
 			author = "SP Craig";
 
@@ -105,7 +105,7 @@
 		{
 			scope=2;
 			model = "\x\cfp\addons\models\Suitpack";
-			displayName = "Afghanistan 2002 Four Color Woodland (Tactical Uniform SS)";
+			displayName = "Tactical Uniform SS (2002 Four Color Woodland)";
 			picture = "\x\cfp\addons\uniforms_afg\AFG_2002FourColorWoodland\ui\TacticalUniform.jpg";
 			author = "SP Craig";
 
@@ -122,7 +122,7 @@
 		{
 			scope=2;
 			model = "\x\cfp\addons\models\Suitpack";
-			displayName = "Afghanistan 2002 Four Color Woodland (Tactical Uniform TS)";
+			displayName = "Tactical Uniform TS (2002 Four Color Woodland)";
 			picture = "\x\cfp\addons\uniforms_afg\AFG_2002FourColorWoodland\ui\TacticalUniformTS.jpg";
 			author = "SP Craig";
 
