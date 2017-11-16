@@ -638,8 +638,6 @@ class CfgVehicles
                 side = 1;
                 faction = "CFP_B_GBARMY_WDL";
                 crew = "CFP_B_GBARMY_Pilot_WDL_01";
-                hiddenSelectionsTextures[] = {"CUP\AirVehicles\CUP_AirVehicles_F35\data\f35_baf_co.paa"};
-                editorPreview = "CUP\AirVehicles\CUP_AirVehicles_F35\Data\preview\CUP_B_F35B_AA_BAF.jpg";
 
                 class EventHandlers : EventHandlers {
                     class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -659,114 +657,11 @@ class CfgVehicles
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
-                displayName = "AH-1";
                 side = 1;
                 faction = "CFP_B_GBARMY_WDL";
                 crew = "CFP_B_GBARMY_Pilot_WDL_01";
                 typicalCargo[] = {"CFP_B_GBARMY_Pilot_WDL_01"};
-                hiddenSelectionsTextures[] =
-                {
-                    "\CUP\AirVehicles\CUP_AirVehicles_AH64\data\ah1_baf_body_co.paa",
-                    "\CUP\AirVehicles\CUP_AirVehicles_AH64\data\ah1_baf_details_co.paa",
-                    "\CUP\AirVehicles\CUP_AirVehicles_AH64\data\clear_empty.paa"
-                };
-                editorPreview = "CUP\AirVehicles\CUP_AirVehicles_AH64\Data\preview\CUP_B_AH1_NO_BAF.jpg";
-                class Turrets : Turrets {
-                    class MainTurret : MainTurret { gunnerType = ""; };
-                };
-
-                class TransportPylonsComponent
-                {
-                    UIPicture = "\CUP\AirVehicles\CUP_AirVehicles_AH64\Data\UI\CUP_AH64_3DEN_CA.paa";
-                    class presets
-                    {
-                        class Empty
-                        {
-                            displayName = "Empty";
-                            attachment[] = {};
-                        };
-                        class AntiTank
-                        {
-                            displayName = "Anti-Tank";
-                            attachment[] = {
-                                "CUP_PylonPod_4Rnd_AGM114L_Hellfire_II_M",
-                                "CUP_PylonPod_4Rnd_AGM114L_Hellfire_II_M",
-                                "CUP_PylonPod_4Rnd_AGM114L_Hellfire_II_M",
-                                "CUP_PylonPod_4Rnd_AGM114L_Hellfire_II_M"
-                            };
-                        };
-                        class MultiRole
-                        {
-                            displayName = "Multi-Role";
-                            attachment[] = {
-                                "CUP_PylonPod_19Rnd_CRV7_HE_M",
-                                "CUP_PylonPod_4Rnd_AGM114L_Hellfire_II_M",
-                                "CUP_PylonPod_4Rnd_AGM114L_Hellfire_II_M",
-                                "CUP_PylonPod_19Rnd_CRV7_HE_M"
-                            };
-                        };
-                        class Escort
-                        {
-                            displayName = "Escort";
-                            attachment[] = {
-                                "CUP_PylonPod_19Rnd_CRV7_HE_M",
-                                "CUP_PylonPod_19Rnd_CRV7_HE_M",
-                                "CUP_PylonPod_19Rnd_CRV7_HE_M",
-                                "CUP_PylonPod_19Rnd_CRV7_HE_M"
-                            };
-                        };
-                    };
-                    class pylons
-                    {
-                        // Outer Left
-                        class pylonLeft1
-                        {
-                            //maxweight = 560;
-                            hardpoints[] = {"DAR","DAGR", "B_SHRIEKER", "CUP_NATO_HELO_SMALL", "CUP_NATO_HELO_LARGE", "CUP_NATO_HELO_AH64"};
-                            attachment = "CUP_PylonPod_19Rnd_CRV7_HE_M";
-                            priority = 5;
-                            UIposition[] = {0.59, 0.35}; // x,y coordinates in 3DEN UI
-                            turret[] = {};
-                            bay = 1;
-                        };
-                        // Inner Left
-                        class pylonLeft2 : pylonLeft1
-                        {
-                            UIposition[] = {0.57, 0.4}; // x,y coordinates in 3DEN UI
-                            priority = 4;
-                        };
-
-                        // Inner Right
-                        class pylonRight1 : pylonLeft1
-                        {
-                            UIposition[] = {0.08, 0.4};
-                            mirroredMissilePos = 2;
-                        };
-                        // Outer Right
-                        class pylonRight2: pylonRight1
-                        {
-                            UIposition[] = {0.06, 0.35};
-                            mirroredMissilePos = 1;
-                            priority = 4;
-                        };
-
-                        // Wing tip Left
-                        class pylonWingL : pylonLeft1
-                        {
-                            hardpoints[] = {"CUP_NATO_HELO_WINGTIP"};
-                            UIposition[] = {0.62, 0.3}; // x,y coordinates in 3DEN UI
-                            attachment = "";
-                        };
-                        // Wing tip Left
-                        class pylonWingR : pylonWingL
-                        {
-                            mirroredMissilePos = 5;
-                            UIposition[] = {0.0.4, 0.3}; // x,y coordinates in 3DEN UI
-                            attachment = "";
-                        };
-                    };
-                };
-
+                
                 class EventHandlers : EventHandlers {
                     class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -785,31 +680,10 @@ class CfgVehicles
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
-                displayName = "Harrier GR.9";
                 side = 1;
                 faction = "CFP_B_GBARMY_WDL";
                 crew = "CFP_B_GBARMY_Pilot_WDL_01";
-                model = "\cup\airvehicles\cup_airvehicles_av8b\cup_gr9";
-                accuracy = 1000;
-                threat[] = {1,0.7,1};
-                weapons[] =
-                {
-                    //"CUP_Laserdesignator_mounted",
-                    "CMFlareLauncher"
-                };
-                magazines[] =
-                {
-                    //"Laserbatteries",
-                    "120Rnd_CMFlare_Chaff_Magazine"
-                };
-                class Library
-                {
-                    libTextDesc = "The British Aerospace Harrier II is a second-generation vertical/short takeoff and landing (V/STOL) jet aircraft used previously by the Royal Air Force (RAF) and, between 2006 and 2010, the Royal Navy (RN). The aircraft was derived from the McDonnell Douglas AV-8B Harrier II, which itself was a development of the Hawker Siddeley Harrier. Initial deliveries of the Harrier II were designated in service as Harrier GR5; subsequently upgraded airframes were redesignated accordingly as GR7 and GR9.";
-                };
-                hiddenSelections[] = {"Camo1","Camo2","pip0"};
-                hiddenSelectionsTextures[] = {"cup\airvehicles\cup_airvehicles_av8b\data\grx_brit_ext_co.paa","cup\airvehicles\cup_airvehicles_av8b\data\grx_brit_ext_co.paa","#(argb,512,512,1)r2t(rendertarget0,1.0)"};
-                editorPreview = "CUP\AirVehicles\CUP_AirVehicles_Av8B\Data\preview\CUP_B_GR9_CAP_GB.jpg";
-
+                
                 class EventHandlers : EventHandlers {
                     class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -828,31 +702,10 @@ class CfgVehicles
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
-                displayName = "AW159 Wildcat (Green)";
                 side = 1;
                 faction = "CFP_B_GBARMY_WDL";
                 crew = "CFP_B_GBARMY_Pilot_WDL_01";
-                model = "\CUP\AirVehicles\CUP_AirVehicles_AW159\CUP_AW159.p3d";
-                picture = "\CUP\AirVehicles\CUP_AirVehicles_AW159\data\UI\picture_lynx_unarmed_ca.paa";
-                icon = "\CUP\AirVehicles\CUP_AirVehicles_AW159\data\UI\icon_lynx_unarmed_ca.paa";
                 typicalCargo[] = {"CFP_B_GBARMY_Pilot_WDL_01"};
-
-                animationList[] =
-                {
-                    "hide_radar", 1,
-                    "hide_struts", 1
-                };
-
-                hiddenSelectionsTextures[] = {
-                    "\CUP\AirVehicles\CUP_AirVehicles_AW159\data\lynx_base_co.paa",
-                    "\CUP\AirVehicles\CUP_AirVehicles_AW159\data\ah64d_details_co.paa"
-                };
-
-                class Turrets : Turrets {
-                    class MainTurret : MainTurret { gunnerType = ""; };
-                    class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-                    class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-                };
 
                 class EventHandlers : EventHandlers {
                     class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -862,8 +715,7 @@ class CfgVehicles
                     };
 
                 };
-                editorPreview = "CUP\AirVehicles\CUP_AirVehicles_AW159\Data\preview\CUP_B_AW159_Unarmed_GB.jpg";
-                // custom attributes (do not delete)
+                  // custom attributes (do not delete)
                 ALiVE_orbatCreator_owned = 1;
 
             };
@@ -872,33 +724,10 @@ class CfgVehicles
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
-                displayName = "AW159 Wildcat (Green, Unarmed)";
                 side = 1;
                 faction = "CFP_B_GBARMY_WDL";
                 crew = "CFP_B_GBARMY_Pilot_WDL_01";
-                model = "\CUP\AirVehicles\CUP_AirVehicles_AW159\CUP_AW159.p3d";
-                picture = "\CUP\AirVehicles\CUP_AirVehicles_AW159\data\UI\picture_lynx_unarmed_ca.paa";
-                icon = "\CUP\AirVehicles\CUP_AirVehicles_AW159\data\UI\icon_lynx_unarmed_ca.paa";
-                editorPreview = "CUP\AirVehicles\CUP_AirVehicles_AW159\Data\preview\CUP_B_AW159_Unarmed_GB.jpg";
-
                 typicalCargo[] = {"CFP_B_GBARMY_Pilot_WDL_01"};
-
-                animationList[] =
-                {
-                    "hide_radar", 0,
-                    "hide_struts", 0
-                };
-
-                hiddenSelectionsTextures[] = {
-                    "\CUP\AirVehicles\CUP_AirVehicles_AW159\data\lynx_base_co.paa",
-                    "\CUP\AirVehicles\CUP_AirVehicles_AW159\data\ah64d_details_co.paa"
-                };
-
-                class Turrets : Turrets {
-                    class MainTurret : MainTurret { gunnerType = ""; };
-                    class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-                    class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-                };
 
                 class EventHandlers : EventHandlers {
                     class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -917,33 +746,10 @@ class CfgVehicles
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
-                displayName = "AW159 Wildcat (Grey, Unarmed)";
                 side = 1;
                 faction = "CFP_B_GBARMY_WDL";
                 crew = "CFP_B_GBARMY_Pilot_WDL_01";
-                model = "\CUP\AirVehicles\CUP_AirVehicles_AW159\CUP_AW159.p3d";
-                picture = "\CUP\AirVehicles\CUP_AirVehicles_AW159\data\UI\picture_lynx_unarmed_ca.paa";
-                icon = "\CUP\AirVehicles\CUP_AirVehicles_AW159\data\UI\icon_lynx_unarmed_ca.paa";
-                editorPreview = "CUP\AirVehicles\CUP_AirVehicles_AW159\Data\preview\CUP_B_AW159_Unarmed_GB.jpg";
-
                 typicalCargo[] = {"CFP_B_GBARMY_Pilot_WDL_01"};
-
-                animationList[] =
-                {
-                    "hide_radar", 0,
-                    "hide_struts", 0
-                };
-
-                hiddenSelectionsTextures[] = {
-                    "\CUP\AirVehicles\CUP_AirVehicles_AW159\Skins\lynx_base_rn_grey_co.paa",
-                    "\CUP\AirVehicles\CUP_AirVehicles_AW159\data\ah64d_details_co.paa"
-                };
-                class Turrets : Turrets {
-                    class MainTurret : MainTurret { gunnerType = ""; };
-                    class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-                    class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-                };
-
 
                 class EventHandlers : EventHandlers {
                     class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -963,33 +769,10 @@ class CfgVehicles
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
-                displayName = "AW159 Wildcat (Grey)";
                 side = 1;
                 faction = "CFP_B_GBARMY_WDL";
                 crew = "CFP_B_GBARMY_Pilot_WDL_01";
-                model = "\CUP\AirVehicles\CUP_AirVehicles_AW159\CUP_AW159.p3d";
-                picture = "\CUP\AirVehicles\CUP_AirVehicles_AW159\data\UI\picture_lynx_unarmed_ca.paa";
-                icon = "\CUP\AirVehicles\CUP_AirVehicles_AW159\data\UI\icon_lynx_unarmed_ca.paa";
                 typicalCargo[] = {"CFP_B_GBARMY_Pilot_WDL_01"};
-
-                animationList[] =
-                {
-                    "hide_radar", 1,
-                    "hide_struts", 1
-                };
-
-                hiddenSelectionsTextures[] = {
-                    "\CUP\AirVehicles\CUP_AirVehicles_AW159\Skins\lynx_base_rn_grey_co.paa",
-                    "\CUP\AirVehicles\CUP_AirVehicles_AW159\data\ah64d_details_co.paa"
-                };
-
-                class Turrets : Turrets {
-                    class MainTurret : MainTurret { gunnerType = ""; };
-                    class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-                    class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-                };
-
-
 
                 class EventHandlers : EventHandlers {
                     class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -1009,106 +792,9 @@ class CfgVehicles
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
-                displayName = "SA-330 Puma HC2";
                 side = 1;
                 faction = "CFP_B_GBARMY_WDL";
                 crew = "CFP_B_GBARMY_Pilot_WDL_01";
-
-                model="\cup\airvehicles\cup_airvehicles_sa330\OFrP_Puma_VE";
-                class Turrets : Turrets
-                {
-                        class CopilotTurret: MainTurret
-                        {
-                            primaryGunner = 0;
-                            gunnerForceOptics = 0;
-                            body = "";
-                            gun = "";
-                            animationSourceBody = "";
-                            animationSourceGun = "";
-                            weapons[] = {};
-                            magazines[] = {};
-
-                            isCopilot = 1;
-                            CanEject = 0;
-
-                            gunnerAction = "pilot_Heli_Transport_01";
-                            gunnerInAction = "pilot_Heli_Transport_01";
-                            memoryPointsGetInGunner = "pos cargo";
-                            memoryPointsGetInGunnerDir = "pos cargo dir";
-                            gunnerGetInAction = "GetInHeli_Transport_01Cargo";
-                            gunnerGetOutAction = "GetOutLow";
-                            memoryPointGunnerOptics = "";
-
-                            gunnerName = "Co-Pilot";
-                            gunnerLeftHandAnimName = "lever_copilot";
-                            gunnerRightHandAnimName = "stick_copilot";
-                            gunnerLeftLegAnimName = "PedalL";
-                            gunnerRightLegAnimName = "PedalR";
-                            priority = 4;
-
-                            proxyIndex = 1;
-                            LODTurnedIn = 1100;
-                            LODTurnedOut = 1100;
-                            gunnerCompartments = "Compartment1";
-                            commanding = -3;
-                            slingLoadOperator = 1;
-                            turretCanSee = "1 + 2 + 4 + 8 + 16";
-
-                            class ViewGunner : ViewPilot {};
-                        };
-                        class CargoTurret_01: CargoTurret                       /// position for Firing from Vehicles
-                        {
-                            gunnerAction                = "passenger_inside_4"; /// generic animation for sitting inside with rifle ready
-                            gunnerCompartments          = "Compartment1";       /// gunner is not able to switch seats
-                            memoryPointsGetInGunner     = "pos cargo right";        /// specific memory points to allow choice of position
-                            memoryPointsGetInGunnerDir  = "pos cargo dir right";    /// direction of get in action
-                            gunnerName                  = "Passenger (Right Seat)"; /// name of the position in the Action menu
-                            proxyIndex                  = 13;                   /// what cargo proxy is used according to index in the model
-                            maxElev                     = 15;                   /// what is the highest possible elevation of the turret
-                            minElev                     = -60;                  /// what is the lowest possible elevation of the turret
-                            maxTurn                     = 70;                   /// what is the left-most possible turn of the turret
-                            minTurn                     = -50;                  /// what is the right-most possible turn of the turret
-                            isPersonTurret              = 1;                    /// enables firing from vehicle functionality
-                            ejectDeadGunner             = 0;                    /// seatbelts included
-                            enabledByAnimationSource    = "ofrp_puma_porte_droite";             /// doesn't work unless the said animation source is 1
-                            usepip = 0;
-                            gunnerOutOpticsModel = "";
-                            gunnerOpticsModel = "";
-                            startEngine = 0;
-                            outGunnerMayFire = 1;
-                            inGunnerMayFire = 0;
-                            commanding=-2;
-                            memoryPointGunnerOptics="";
-                        };
-                        class CargoTurret_02: CargoTurret                       /// position for Firing from Vehicles
-                        {
-                            gunnerAction                = "passenger_inside_4"; /// generic animation for sitting inside with rifle ready
-                            gunnerCompartments          = "Compartment1";       /// gunner is not able to switch seats
-                            memoryPointsGetInGunner     = "pos cargo left";     /// specific memory points to allow choice of position
-                            memoryPointsGetInGunnerDir  = "pos cargo dir left"; /// direction of get in action
-                            gunnerName                  = "Passenger (Left Seat)";  /// name of the position in the Action menu
-                            proxyIndex                  = 14;                   /// what cargo proxy is used according to index in the model
-                            maxElev                     = 15;                   /// what is the highest possible elevation of the turret
-                            minElev                     = -60;                  /// what is the lowest possible elevation of the turret
-                            maxTurn                     = 70;                   /// what is the left-most possible turn of the turret
-                            minTurn                     = -50;                  /// what is the right-most possible turn of the turret
-                            isPersonTurret              = 1;                    /// enables firing from vehicle functionality
-                            ejectDeadGunner             = 0;                    /// seatbelts included
-                            enabledByAnimationSource    = "ofrp_puma_porte_gauche";             /// doesn't work unless the said animation source is 1
-                            usepip = 0;
-                            gunnerOutOpticsModel = "";
-                            gunnerOpticsModel = "";
-                            startEngine = 0;
-                            outGunnerMayFire = 1;
-                            inGunnerMayFire = 0;
-                            commanding=-2;
-                            memoryPointGunnerOptics="";
-                        };
-                };
-
-                hiddenSelections[] = {"_OFrP_330_skin01"};
-                hiddenSelectionsTextures[] = {"\cup\airvehicles\cup_airvehicles_sa330\data\330_skin00x_1.paa"};
-                editorPreview = "CUP\AirVehicles\CUP_AirVehicles_SA330\Data\preview\CUP_B_SA330_Puma_HC2_BAF.jpg";
 
                 class EventHandlers : EventHandlers {
                     class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -1128,11 +814,9 @@ class CfgVehicles
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
-                displayName = "SA-330 Puma HC1";
                 side = 1;
                 faction = "CFP_B_GBARMY_WDL";
                 crew = "CFP_B_GBARMY_Pilot_WDL_01";
-                editorPreview = "CUP\AirVehicles\CUP_AirVehicles_SA330\Data\preview\CUP_B_SA330_Puma_HC1_BAF.jpg";
                 class EventHandlers : EventHandlers {
                     class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -1151,20 +835,11 @@ class CfgVehicles
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
-                displayName = "Merlin HM2";
                 side = 1;
                 faction = "CFP_B_GBARMY_WDL";
                 crew = "CFP_B_GBARMY_Pilot_WDL_01";
                 typicalCargo[]={"CUP_B_BAF_Pilot_DPM","CUP_B_BAF_Pilot_DPM"};
-                editorPreview = "CUP\AirVehicles\CUP_AirVehicles_HC3\Data\preview\CUP_B_Merlin_HC4_GB.jpg";
-                class Turrets : Turrets {
-                    class CopilotTurret : CopilotTurret { gunnerType = ""; };
-                    class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-                    class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-                    class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
-                    class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
-                };
-
+                
                 class EventHandlers : EventHandlers {
                     class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -1183,23 +858,11 @@ class CfgVehicles
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
-                displayName = "Merlin HC3A (Armed)";
                 side = 1;
                 faction = "CFP_B_GBARMY_WDL";
                 crew = "CFP_B_GBARMY_Pilot_WDL_01";
                 typicalCargo[]={"CUP_B_BAF_Pilot_DPM","CUP_B_BAF_Pilot_DPM"};
-                editorPreview = "CUP\AirVehicles\CUP_AirVehicles_HC3\Data\preview\CUP_B_Merlin_HC3A_GB.jpg";
-                class Turrets : Turrets {
-                    class CopilotTurret : CopilotTurret { gunnerType = ""; };
-                    class MainTurret : MainTurret { gunnerType = ""; };
-                    class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-                    class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-                    class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
-                    class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
-                };
-
-
-
+                
                 class EventHandlers : EventHandlers {
                     class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -1218,22 +881,11 @@ class CfgVehicles
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
-                displayName = "Merlin HC3 (Armed)";
                 side = 1;
                 faction = "CFP_B_GBARMY_WDL";
                 crew = "CFP_B_GBARMY_Pilot_WDL_01";
                 typicalCargo[]={"CUP_B_BAF_Pilot_DPM","CUP_B_BAF_Pilot_DPM"};
-                editorPreview = "CUP\AirVehicles\CUP_AirVehicles_HC3\Data\preview\CUP_B_Merlin_HC3_GB.jpg";
-
-                class Turrets : Turrets {
-                    class CopilotTurret : CopilotTurret { gunnerType = ""; };
-                    class MainTurret : MainTurret { gunnerType = ""; };
-                    class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-                    class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-                    class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
-                    class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
-                };
-
+                
                 class EventHandlers : EventHandlers {
                     class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -1252,21 +904,11 @@ class CfgVehicles
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
-                displayName = "Merlin HC3A";
                 side = 1;
                 faction = "CFP_B_GBARMY_WDL";
                 crew = "CFP_B_GBARMY_Pilot_WDL_01";
                 typicalCargo[]={"CUP_B_BAF_Pilot_DPM","CUP_B_BAF_Pilot_DPM"};
-                editorPreview = "CUP\AirVehicles\CUP_AirVehicles_HC3\Data\preview\CUP_B_Merlin_HC3A_GB.jpg";
-                class Turrets : Turrets {
-                    class CopilotTurret : CopilotTurret { gunnerType = ""; };
-                    class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-                    class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-                    class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
-                    class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
-                };
-
-
+                
 
                 class EventHandlers : EventHandlers {
                     class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -1286,17 +928,10 @@ class CfgVehicles
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
-                displayName = "Merlin HC3 (VIV)";
                 side = 1;
                 faction = "CFP_B_GBARMY_WDL";
                 crew = "CFP_B_GBARMY_Pilot_WDL_01";
                 typicalCargo[]={"CUP_B_BAF_Pilot_DPM","CUP_B_BAF_Pilot_DPM"};
-                editorPreview = "CUP\AirVehicles\CUP_AirVehicles_HC3\Data\preview\CUP_B_Merlin_HC3_GB.jpg";
-                class Turrets : Turrets {
-                    class CopilotTurret : CopilotTurret { gunnerType = ""; };
-                };
-
-
 
                 class EventHandlers : EventHandlers {
                     class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -1316,25 +951,10 @@ class CfgVehicles
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
-                displayName = "Merlin HC3";
                 side = 1;
                 faction = "CFP_B_GBARMY_WDL";
                 crew = "CFP_B_GBARMY_Pilot_WDL_01";
                 typicalCargo[]={"CUP_B_BAF_Pilot_DPM","CUP_B_BAF_Pilot_DPM"};
-
-                model = "\CUP\AirVehicles\CUP_AirVehicles_HC3\CUP_MerlinHC3_BAF";
-                editorPreview = "CUP\AirVehicles\CUP_AirVehicles_HC3\Data\preview\CUP_B_Merlin_HC3_GB.jpg";
-
-                CUP_Jumping_enabled = 1;
-                CUP_JumpPoint[] = {"StaticLine_MemoryPoint"};
-
-                class Turrets : Turrets {
-                    class CopilotTurret : CopilotTurret { gunnerType = ""; };
-                    class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-                    class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-                    class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
-                    class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
-                };
 
                 class EventHandlers : EventHandlers {
                     class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -1354,25 +974,11 @@ class CfgVehicles
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
-                displayName = "Chinook HC-4 (VIV)";
                 side = 1;
                 faction = "CFP_B_GBARMY_WDL";
                 crew = "CFP_B_GBARMY_Pilot_WDL_01";
                 typicalCargo[]={"CUP_B_BAF_Pilot_DPM","CUP_B_BAF_Pilot_DPM"};
-                hiddenSelectionsTextures[] =
-                {
-                    "cup\airvehicles\cup_airvehicles_ch47\data\ch47_ext_1_baf_co.paa",
-                    "cup\airvehicles\cup_airvehicles_ch47\data\ch47_ext_2_baf_co.paa",
-                    "",
-                    "cup\airvehicles\cup_airvehicles_ch47\data\ch47_ext_mlod_co.paa"
-                };
-                editorPreview = "CUP\AirVehicles\CUP_AirVehicles_CH47\Data\preview\CUP_B_CH47F_GB.jpg";
-
-                class Turrets : Turrets {
-                    class MainTurret : MainTurret { gunnerType = ""; };
-                    class RightDoorGun : RightDoorGun { gunnerType = ""; };
-                    class CopilotTurret : CopilotTurret { gunnerType = ""; };
-                };
+                
 
                 class EventHandlers : EventHandlers {
                     class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -1392,27 +998,11 @@ class CfgVehicles
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
-                displayName = "Chinook HC-4";
                 side = 1;
                 faction = "CFP_B_GBARMY_WDL";
                 crew = "CFP_B_GBARMY_Pilot_WDL_01";
                 typicalCargo[]={"CUP_B_BAF_Pilot_DPM","CUP_B_BAF_Pilot_DPM"};
-                hiddenSelectionsTextures[] =
-                {
-                    "cup\airvehicles\cup_airvehicles_ch47\data\ch47_ext_1_baf_co.paa",
-                    "cup\airvehicles\cup_airvehicles_ch47\data\ch47_ext_2_baf_co.paa",
-                    "",
-                    "cup\airvehicles\cup_airvehicles_ch47\data\ch47_ext_mlod_co.paa"
-                };
-                editorPreview = "CUP\AirVehicles\CUP_AirVehicles_CH47\Data\preview\CUP_B_CH47F_GB.jpg";
-
-                class Turrets : Turrets {
-                    class MainTurret : MainTurret { gunnerType = ""; };
-                    class RightDoorGun : RightDoorGun { gunnerType = ""; };
-                    class BackDoorGun : BackDoorGun { gunnerType = ""; };
-                    class CopilotTurret : CopilotTurret { gunnerType = ""; };
-                };
-
+            
                 class EventHandlers : EventHandlers {
                     class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -1431,19 +1021,10 @@ class CfgVehicles
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
-                displayName = "C-130J (VIV)";
                 side = 1;
                 faction = "CFP_B_GBARMY_WDL";
                 crew = "CUP_B_BAF_Pilot_WDL";
                 typicalCargo[] = {"CUP_B_BAF_Pilot_WDL", "CUP_B_BAF_Pilot_WDL"};
-                hiddenSelectionsTextures[] = {
-                        "CUP\AirVehicles\CUP_AirVehicles_C130J\data\textures\c130j_body_raf2_co.paa",
-                        "CUP\AirVehicles\CUP_AirVehicles_C130J\data\textures\c130j_wings_raf2_co.paa"
-                };
-                editorPreview = "CUP\AirVehicles\CUP_AirVehicles_C130J\Data\preview\CUP_B_C130J_Cargo_GB.jpg";
-                class Turrets : Turrets {
-                    class MainTurret : MainTurret { gunnerType = ""; };
-                };
 
                 class EventHandlers : EventHandlers {
                     class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -1463,20 +1044,11 @@ class CfgVehicles
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
-                displayName = "C-130J";
                 side = 1;
                 faction = "CFP_B_GBARMY_WDL";
                 crew = "CUP_B_BAF_Pilot_WDL";
                 typicalCargo[] = {"CUP_B_BAF_Pilot_WDL", "CUP_B_BAF_Pilot_WDL"};
-                hiddenSelectionsTextures[] = {
-                        "CUP\AirVehicles\CUP_AirVehicles_C130J\data\textures\c130j_body_raf1_co.paa",
-                        "CUP\AirVehicles\CUP_AirVehicles_C130J\data\textures\c130j_wings_raf1_co.paa"
-                };
-                editorPreview = "CUP\AirVehicles\CUP_AirVehicles_C130J\Data\preview\CUP_B_C130J_GB.jpg";
-                class Turrets : Turrets {
-                    class MainTurret : MainTurret { gunnerType = ""; };
-                };
-
+                
                 class EventHandlers : EventHandlers {
                     class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -1525,7 +1097,6 @@ class CfgVehicles
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
-                displayName = "Rifleman";
                 side = 1;
                 faction = "CFP_B_GBARMY_WDL";
 
@@ -1611,8 +1182,6 @@ class CfgVehicles
                 identityTypes[] = { "Head_NATO" , "LanguageENGB_F" , "G_GUERIL_default" };
                 uniformClass = "CUP_U_B_BAF_MTP_S4_UnRolled";
 
-
-
                 class EventHandlers : EventHandlers {
                     class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -1663,8 +1232,6 @@ class CfgVehicles
 
                 identityTypes[] = { "Head_NATO" , "LanguageENGB_F" , "G_GUERIL_default" };
                 uniformClass = "CUP_U_B_BAF_MTP_S4_UnRolled";
-
-
 
                 class EventHandlers : EventHandlers {
                     class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -1720,8 +1287,6 @@ class CfgVehicles
                 identityTypes[] = { "Head_NATO" , "LanguageENGB_F" , "G_GUERIL_default" };
                 uniformClass = "CUP_U_B_BAF_MTP_S4_UnRolled";
 
-
-
                 class EventHandlers : EventHandlers {
                     class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -1748,8 +1313,6 @@ class CfgVehicles
                 identityTypes[] = { "Head_NATO" , "LanguageENGB_F" , "G_GUERIL_default" };
                 uniformClass = "CUP_U_B_BAF_MTP_S4_UnRolled";
 
-
-
                 class EventHandlers : EventHandlers {
                     class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -1775,8 +1338,6 @@ class CfgVehicles
 
                 identityTypes[] = { "Head_NATO" , "LanguageENGB_F" , "G_GUERIL_default" };
                 uniformClass = "CUP_U_B_BAF_MTP_S4_UnRolled";
-
-
 
                 class EventHandlers : EventHandlers {
                     class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
