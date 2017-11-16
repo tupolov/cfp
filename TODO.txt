@@ -1,6 +1,5 @@
 TO DO
 
-0. Fix CfgMagazine error
 27. Add support for CBA XEH
 29. Add ackbar protocol
 1. Investigate why base BIS A3 classes are displayed as CFP mod items

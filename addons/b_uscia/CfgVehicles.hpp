@@ -136,7 +136,6 @@ class CfgVehicles {
             "B_AssaultPack_khk", 0.25,
             "B_AssaultPack_mcamo", 0.25,
             "B_AssaultPack_cbr", 0.25,
-			"B_Patrol_Respawn_bag_F", 0.2,
 			"SP_Carryall_Tan", 0.2,
 			"B_Carryall_khk", 0.2,
             "B_Carryall_mcamo", 0.2,
@@ -297,9 +296,6 @@ class CfgVehicles {
         backpackList[] = {
             "",0.7,
             "CUP_B_AlicePack_Khaki", 0.25,
-            "B_Respawn_Sleepnig_bag_brown_F", 0.25,
-            "B_Respawn_Sleepnig_bag_blue_F", 0.25,
-            "B_Respawn_Sleepnig_bag_F", 0.25,
             "B_FieldPack_cbr", 0.2,
             "B_FieldPack_khk", 0.2
         };
@@ -446,8 +442,8 @@ class CfgVehicles {
             {"CUP_lmg_M249_e2",{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",3}}, 0.3,
             {"CUP_lmg_M249_pip2",{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",3}}, 0.3,
             {"CUP_lmg_M249_para",{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",3}}, 0.3,
-            {"CUP_arifle_RKP74",{"CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",6}}, 0.2,
-            {"CUP_arifle_RKP74M",{"CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",6}}, 0.2,
+            {"CUP_arifle_RPK74",{"CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",6}}, 0.2,
+            {"CUP_arifle_RPK74M",{"CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",6}}, 0.2,
             {"CUP_lmg_Mk48_des",{"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",6}}, 0.1
         };
 
