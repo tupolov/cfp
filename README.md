@@ -21,7 +21,7 @@
     <sup><strong>Requires the latest version of <a href="https://github.com/CBATeam/CBA_A3/releases">CBA A3</a>.<br/>Requires the latest version of Community Upgrade Project (Weapons, Units and Vehicles).<br/>Visit us on <a href="https://twitter.com/CFPMod">Twitter</a> | <a href="https://www.facebook.com/CFPMod">Facebook</a> | <a href="https://www.youtube.com/c/ACE3Mod">YouTube</a> | <a href="https://www.reddit.com/r/arma/search?q=CFP&restrict_sr=on&sort=new&t=all">Reddit</a></strong></sup>
 </p>
 
-**CFP** is a community project to provide Arma 3 with over 90 real world factions involved in current and historical armed conflicts. CFP comes in two flavours - CFP and CFP Ultimate, both require **Community Upgrade Project (CUP)**. 
+**CFP** is a community project to provide Arma 3 with over 80 real world factions involved in current and historical armed conflicts. CFP comes in two flavours - CFP and CFP Ultimate, both require **Community Upgrade Project (CUP)**. 
 
 CFP offers not only enhanced vanilla CUP factions but also a huge number of new factions using CUP and community donated assets. CFP includes custom assets and textures in order to help expand whats possible with CUP. 
 
@@ -30,8 +30,8 @@ CFP Ultimate enhances base CFP factions and introduces new factions using the mo
 Factions are delivered in a modular way, enabling groups to maintain their own tailored version of CFP by simply excluding any components they don't need, or those possibly in conflict with other mods. 
 
 ## Features
-- 90 new factions!
-- CFP introduces 62 new factions based on CUP assets (including 9 new civilian factions)
+- 81 new factions!
+- CFP introduces 53 new factions based on CUP assets (including 9 new civilian factions)
 - CFP Ultimate enhances the CFP factions and introduces 28 new factions based on common community addons (VSM, SMA, NIArms, VME etc)
 - Replaces certain CUP factions with factions split by theater (i.e. Arid/Desert, Woodland/Jungle, Artic/Snow etc)
 - Enhances certain CUP factions with additonal groups and loadouts (i.e. special forces)
