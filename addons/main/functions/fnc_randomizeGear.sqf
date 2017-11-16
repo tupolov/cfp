@@ -15,7 +15,7 @@ Nil
 
 Examples:
 (begin example)
-[_unit, "headgear"] call cfp_fnc_randomizeGear;
+[_unit, "headgear"] call cfp_main_fnc_randomizeGear;
 (end)
 
 See Also:
