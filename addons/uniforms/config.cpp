@@ -153,7 +153,18 @@ class CfgPatches
 			"CFP_BattleDressUniform_DPM",
 			"CFP_BattleDressUniform_edrl",
 			"CFP_BattleDressUniform_polygondesert",
-			"CFP_BattleDressUniform_tigerstripe"
+			"CFP_BattleDressUniform_tigerstripe",
+			"CFP_BattleDressUniform_multicam",
+			"CFP_FieldUniform_3ColorDesert",
+			"CFP_FieldUniform_AfricanWoodland",
+			"CFP_FieldUniform_M81",
+			"CFP_FieldUniform_ChocChip",
+			"CFP_FieldUniform_DPMWoodland",
+			"CFP_FieldUniform_DPM",
+			"CFP_FieldUniform_edrl",
+			"CFP_FieldUniform_polygondesert",
+			"CFP_FieldUniform_tigerstripe",
+			"CFP_FieldUniform_multicam"
 		};
 		weapons[] = {
 			"SP_0000_Standard_BattleDressUniform_Black",
@@ -298,7 +309,18 @@ class CfgPatches
 			"CFP_U_BattleDressUniform_DPM",
 			"CFP_U_BattleDressUniform_edrl",
 			"CFP_U_BattleDressUniform_polygondesert",
-			"CFP_U_BattleDressUniform_tigerstripe"
+			"CFP_U_BattleDressUniform_tigerstripe",
+			"CFP_U_BattleDressUniform_multicam",
+			"CFP_U_FieldUniform_3ColorDesert",
+			"CFP_U_FieldUniform_AfricanWoodland",
+			"CFP_U_FieldUniform_M81",
+			"CFP_U_FieldUniform_ChocChip",
+			"CFP_U_FieldUniform_DPMWoodland",
+			"CFP_U_FieldUniform_DPM",
+			"CFP_U_FieldUniform_edrl",
+			"CFP_U_FieldUniform_polygondesert",
+			"CFP_U_FieldUniform_tigerstripe",
+			"CFP_U_FieldUniform_multicam"
 
 		};
         author = MODULE_AUTHOR;
