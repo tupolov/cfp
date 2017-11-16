@@ -47,13 +47,22 @@ Factions are delivered in a modular way, enabling groups to maintain their own t
 ## CFP Factions
 
 ### OPFOR
+- Abu Sayyef
+- Al-Shabaab
+- Boko Haram
+- Central African Rebels
+- Colombian FARC Rebels
+- Hezbollah
+- Houthis
 - Islamic State
-- Russian Army factions specifically for Arid/Desert, Woodland/Jungle
-- Russian Airborne factions specifically for Arid/Desert, Woodland/Jungle
+- IRA
+- Russian Army/Airborne factions specifically for Arid/Desert, Woodland/Jungle
+- Russian Special Operations factions specifically for Arid/Desert, Woodland/Jungle
 - Russian Naval factions such as Spetznaz.
 - Somali Rebels
 - Syrian Arab Army
 - Taliban Insurgents
+- Western Ultranationalists / Terrorists
 
 ### INDFOR
 - Al-Nusra Front
@@ -61,7 +70,8 @@ Factions are delivered in a modular way, enabling groups to maintain their own t
 
 ### BLUFOR
 - Afghan Police
-- British Army factions specifically for Arid/Desert, Woodland/Jungle and including special forces (SAS, SBS, SRR)
+- Afghan Army, Commandos and Special Forces
+- British Army factions specifically for Arid/Desert, Woodland/Jungle and including special forces (SAS, SRR)
 - Bundeswehr Army for each theater, specifically KSK special forces.
 - Iraqi Army
 - Iraqi Police
@@ -72,10 +82,11 @@ Factions are delivered in a modular way, enabling groups to maintain their own t
 - Yekîneyên Parastina Gel (YPG) (Syrian Kurds)
 
 ### CIVILIAN
-- Middle Eastern
 - African (Christian)
 - African (Muslim)
 - Asian
+- Iraqi/Syrian
+- Middle Eastern
 
 ## CFP Ultimate Factions (in addition to enhancing CFP factions)
 
