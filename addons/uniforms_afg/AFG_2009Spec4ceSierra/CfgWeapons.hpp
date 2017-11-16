@@ -16,6 +16,7 @@
 				mass=80;
 			};
 		};
+        
         class AFG_2009Spec4ceSierra_PulloverUniform: Uniform_Base
 		{
 			scope=2;
@@ -30,23 +31,6 @@
 				uniformClass = "AFG_2009Spec4ceSierra_PulloverUniform";
 				containerClass="Supply60";
 				mass=80;
-			};
-		};
-        class AFG_2009Spec4ceSierra_ReconUniform: Uniform_Base
-		{
-			scope=2;
-			model = "\x\cfp\addons\models\Suitpack";
-			displayName = "Recon Uniform (2009 Spec4ce Sierra)";
-			picture = "\x\cfp\addons\uniforms_afg\AFG_2009Spec4ceSierra\ui\ReconUniform.jpg";
-			author = "SP Craig";
-
-			class ItemInfo: UniformItem
-			{
-				uniformModel = "-";
-				uniformClass = "AFG_2009Spec4ceSierra_ReconUniform";
-				containerClass="Supply60";
-				mass=80;
-
 			};
 		};
 

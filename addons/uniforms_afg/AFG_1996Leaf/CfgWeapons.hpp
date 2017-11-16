@@ -16,6 +16,7 @@
             mass=80;
         };
     };
+    
     class AFG_1996Leaf_PulloverUniform: Uniform_Base
     {
         scope=2;
@@ -30,23 +31,6 @@
             uniformClass = "AFG_1996Leaf_PulloverUniform";
             containerClass="Supply60";
             mass=80;
-        };
-    };
-    class AFG_1996Leaf_ReconUniform: Uniform_Base
-    {
-        scope=2;
-        model = "\x\cfp\addons\models\Suitpack";
-        displayName = "Recon Uniform (1996 Leaf)";
-        picture = "\x\cfp\addons\uniforms_afg\AFG_1996Leaf\ui\ReconUniform.jpg";
-        author = "SP Craig";
-
-        class ItemInfo: UniformItem
-        {
-            uniformModel = "-";
-            uniformClass = "AFG_1996Leaf_ReconUniform";
-            containerClass="Supply60";
-            mass=80;
-
         };
     };
 

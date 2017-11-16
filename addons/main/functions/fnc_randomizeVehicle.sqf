@@ -2,7 +2,7 @@
 SCRIPT(randomizeVehicle);
 
 /* ----------------------------------------------------------------------------
-Function: CFP_fnc_randomizeVehicle
+Function: CFP_main_fnc_randomizeVehicle
 Description:
 Randomizes the texture applied to a vehicle based on weighted values
 

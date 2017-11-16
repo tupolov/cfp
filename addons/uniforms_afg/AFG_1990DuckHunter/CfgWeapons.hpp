@@ -16,6 +16,7 @@
 			mass=80;
 		};
 	};
+	
 	class AFG_1990DuckHunter_PulloverUniform: Uniform_Base
 	{
 		scope=2;
@@ -28,22 +29,6 @@
 		{
 			uniformModel = "-";
 			uniformClass = "AFG_1990DuckHunter_PulloverUniform";
-			containerClass="Supply60";
-			mass=80;
-		};
-	};
-	class AFG_1990DuckHunter_ReconUniform: Uniform_Base
-	{
-		scope=2;
-		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Recon Uniform (1990 Duck Hunter)";
-		picture = "\x\cfp\addons\uniforms_afg\AFG_1990DuckHunter\ui\ReconUniform.jpg";
-		author = "SP Craig";
-
-		class ItemInfo: UniformItem
-		{
-			uniformModel = "-";
-			uniformClass = "AFG_1990DuckHunter_ReconUniform";
 			containerClass="Supply60";
 			mass=80;
 		};

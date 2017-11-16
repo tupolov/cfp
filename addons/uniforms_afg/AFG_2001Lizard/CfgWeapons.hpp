@@ -16,6 +16,7 @@
 				mass=80;
 			};
 		};
+		
         class AFG_2001Lizard_PulloverUniform: Uniform_Base
 		{
 			scope=2;
@@ -30,23 +31,6 @@
 				uniformClass = "AFG_2001Lizard_PulloverUniform";
 				containerClass="Supply60";
 				mass=80;
-			};
-		};
-        class AFG_2001Lizard_ReconUniform: Uniform_Base
-		{
-			scope=2;
-			model = "\x\cfp\addons\models\Suitpack";
-			displayName = "Recon Uniform (2001 Lizard)";
-			picture = "\x\cfp\addons\uniforms_afg\AFG_2001Lizard\ui\ReconUniform.jpg";
-			author = "SP Craig";
-
-			class ItemInfo: UniformItem
-			{
-				uniformModel = "-";
-				uniformClass = "AFG_2001Lizard_ReconUniform";
-				containerClass="Supply60";
-				mass=80;
-
 			};
 		};
 
