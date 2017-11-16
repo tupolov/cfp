@@ -31,18 +31,17 @@ Factions are delivered in a modular way, enabling groups to maintain their own t
 
 ## Features
 - 90 new factions!
-- CFP introduces 42 new factions based on CUP assets 
-- CFP Ultimate introduces 36 new factions based on common community addons (VSM, SMA, NIArms, VME etc)
-- 12 new civilian factions
+- CFP introduces 62 new factions based on CUP assets (including 9 new civilian factions)
+- CFP Ultimate enhances the CFP factions and introduces 28 new factions based on common community addons (VSM, SMA, NIArms, VME etc)
 - Replaces certain CUP factions with factions split by theater (i.e. Arid/Desert, Woodland/Jungle, Artic/Snow etc)
-- Enhances 8 CUP factions with additonal groups and loadouts (i.e. special forces)
-- Standardizes faction and group configurations for the community
-- Follows best practice configuration and implementation using CBA and ACE3 standards
-- Includes Siege-A's insignias and patches content
+- Enhances certain CUP factions with additonal groups and loadouts (i.e. special forces)
+- Includes AccuracyThruVolume's Iraq/Syria pack
 - Includes SP Craig's gear pack
-- Includes AccuracyThruVolume's Iraq/Syria pack 
+- Includes Siege-A's insignias and patches content
 - Additional custom textures and assets donated by community members
 - Randomization tech that provides hundreds of possible insurgent, PMC, clandestine operative classes and vehicles
+- Standardizes faction and group configurations for the community
+- Follows best practice configuration and implementation using CBA and ACE3 standards
 - Full support for ZEUS, ALiVE, ACE3 and VCOM
 
 ## CFP Factions
