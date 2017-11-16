@@ -14,7 +14,6 @@ class CfgWeapons {
 	#include "FieldUniform\CfgWeapons.hpp"
 	#include "KhetPartug\CfgWeapons.hpp"
 	#include "PulloverUniform\CfgWeapons.hpp"
-	#include "ReconUniform\CfgWeapons.hpp"
 	#include "WorkUniform\CfgWeapons.hpp"
 	#include "TacticalUniform\CfgWeapons.hpp"
 	#include "Underwear\CfgWeapons.hpp"
