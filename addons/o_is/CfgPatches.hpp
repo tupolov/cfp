@@ -97,7 +97,8 @@ class CfgPatches
 			"A3_Characters_F_Civil",
 			"A3_Characters_F_Gamma",
 			"A3_Characters_F_Bootcamp",
-			"A3_Characters_F_BLUFOR"
+			"A3_Characters_F_BLUFOR",
+			"CFP_protocols"
 		};
 	};
 };
