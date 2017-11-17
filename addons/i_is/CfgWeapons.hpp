@@ -13,9 +13,9 @@ class CfgWeapons
 		scope = 2;
 		displayName = "Islamic State Uniform";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		picture = "\x\cfp\addons\i_is\data\icon_is_combatuniform_tan.paa";
+		picture = "\x\cfp\addons\uniforms\fielduniform\is\ui\icon_is_combatuniform_tan.paa";
 		hiddenSelections[] = {"Camo","insignia"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\i_is\data\IS_pixelated_desert.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\IS\IS_pixelated_desert.paa"};
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
@@ -28,9 +28,9 @@ class CfgWeapons
 	{
 		scope = 2;
 		displayName = "Islamic State Shemag";
-		picture = "\x\cfp\addons\i_is\data\icon_is_shemag.paa";
+		picture = "\x\cfp\addons\headgear\shemagh\ui\icon_is_shemag.paa";
 		hiddenSelections[] = {"Camo"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\i_is\data\IS_shemag_black.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\shemagh\IS_shemag_black.paa"};
 	};
 	class IS_bandanna_black_logo1: H_Bandanna_gry
 	{
@@ -38,7 +38,7 @@ class CfgWeapons
 		displayName = "Islamic State Bandanna";
 		picture = "\A3\Characters_F\data\UI\icon_H_bandanna_gry_CA.paa";
 		hiddenSelections[] = {"Camo"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\i_is\data\IS_bandana_black_logo1.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\bandana\IS_bandana_black_logo1.paa"};
 	};
 	class IS_bandanna_black_logo2: H_Bandanna_gry
 	{
@@ -46,14 +46,6 @@ class CfgWeapons
 		displayName = "Islamic State Bandanna";
 		picture = "\A3\Characters_F\data\UI\icon_H_bandanna_gry_CA.paa";
 		hiddenSelections[] = {"Camo"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\i_is\data\IS_bandana_black_logo2.paa"};
-	};
-	class IS_Balaclava_black_logo1: G_Balaclava_blk
-	{
-		scope = 2;
-		displayName = "Islamic State Balaclava";
-		picture = "\A3\characters_f_bootcamp\data\UI\icon_g_balaclava_clean_ca.paa";
-		hiddenSelections[] = {"Camo"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\i_is\data\IS_balaclava_black_logo1.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\bandana\IS_bandana_black_logo2.paa"};
 	};
 };

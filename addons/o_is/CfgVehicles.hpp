@@ -7,15 +7,15 @@ class CfgVehicles
 		scope = 0;
 		scopeCurator = 0;
 		displayName = "IS Base";
-		faction = "CFP_O_IS";
+		faction = "CFP_o_is";
 		modelSides[] = {0,1,2,3};
 		side = 0;
-		vehicleClass = "CFP_O_IS_INFANTRY";
+		vehicleClass = "CFP_o_is_INFANTRY";
 		icon = "iconMan";
 		nakedUniform = "U_BasicBody";
-		uniformClass = "IS_uniform_o";
+		uniformClass = "IS_uniform_i";
 		hiddenSelections[] = {"Camo","insignia"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\o_is\data\IS_pixelated_desert.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\fielduniform\is\IS_pixelated_desert.paa"};
 		camouflage = 1;
 		backpack = "";
 		headgearProbability = 50;
@@ -38,7 +38,7 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_gear.sqf""; (_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_weapon.sqf""";
 			};
 		};
-		editorPreview = "x\cfp\addons\o_is\data\Preview_is_infantry.jpg";
+		editorPreview = "x\cfp\addons\uniforms\FieldUniform\IS\UI\Preview_is_infantry.jpg";
 	};
 	class cfp_o_is_team_leader: cfp_o_is_base
 	{
@@ -48,8 +48,8 @@ class CfgVehicles
 		icon = "iconManOfficer";
 		headgearProbability = 50;
 		randomWeaponProbability = 50;
-		linkedItems[] = {"IS_uniform_o","V_TacVestIR_blk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"IS_uniform_o","V_TacVestIR_blk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"IS_uniform_i","V_TacVestIR_blk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"IS_uniform_i","V_TacVestIR_blk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"CUP_arifle_AK74M_GL","Binocular","Throw","Put"};
 		respawnweapons[] = {"CUP_arifle_AK74M_GL","Binocular","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
@@ -63,8 +63,8 @@ class CfgVehicles
 		icon = "iconManLeader";
 		headgearProbability = 80;
 		randomWeaponProbability = 75;
-		linkedItems[] = {"IS_uniform_o","V_TacVest_khk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-		respawnLinkedItems[] = {"IS_uniform_o","V_TacVest_khk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		linkedItems[] = {"IS_uniform_i","V_TacVest_khk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
+		respawnLinkedItems[] = {"IS_uniform_i","V_TacVest_khk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"CUP_arifle_M4A1_BUIS_GL","Binocular","Throw","Put"};
 		respawnweapons[] = {"CUP_arifle_M4A1_BUIS_GL","Binocular","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
@@ -78,8 +78,8 @@ class CfgVehicles
 		icon = "iconManExplosive";
 		headgearProbability = 60;
 		randomWeaponProbability = 20;
-		linkedItems[] = {"IS_uniform_o","V_HarnessOGL_gry","ItemRadio"};
-		respawnLinkedItems[] = {"IS_uniform_o","V_HarnessOGL_gry","ItemRadio"};
+		linkedItems[] = {"IS_uniform_i","V_HarnessOGL_gry","ItemRadio"};
+		respawnLinkedItems[] = {"IS_uniform_i","V_HarnessOGL_gry","ItemRadio"};
 		weapons[] = {"CUP_arifle_AK74M_GL","Binocular","Throw","Put"};
 		respawnweapons[] = {"CUP_arifle_AK74M_GL","Binocular","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
@@ -93,8 +93,8 @@ class CfgVehicles
 		icon = "iconMan";
 		headgearProbability = 50;
 		randomWeaponProbability = 100;
-		linkedItems[] = {"IS_uniform_o","V_HarnessO_gry","ItemRadio"};
-		respawnLinkedItems[] = {"IS_uniform_o","V_HarnessO_gry","ItemRadio"};
+		linkedItems[] = {"IS_uniform_i","V_HarnessO_gry","ItemRadio"};
+		respawnLinkedItems[] = {"IS_uniform_i","V_HarnessO_gry","ItemRadio"};
 		weapons[] = {"CUP_arifle_AKM","Binocular","Throw","Put"};
 		respawnweapons[] = {"CUP_arifle_AKM","Binocular","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
@@ -138,8 +138,8 @@ class CfgVehicles
 		icon = "iconManMG";
 		headgearProbability = 60;
 		randomWeaponProbability = 50;
-		linkedItems[] = {"IS_uniform_o","V_TacVest_blk","ItemRadio"};
-		respawnLinkedItems[] = {"IS_uniform_o","V_TacVest_blk","ItemRadio"};
+		linkedItems[] = {"IS_uniform_i","V_TacVest_blk","ItemRadio"};
+		respawnLinkedItems[] = {"IS_uniform_i","V_TacVest_blk","ItemRadio"};
 		weapons[] = {"CUP_lmg_m249_pip1","Throw","Put"};
 		respawnweapons[] = {"CUP_lmg_m249_pip1","Throw","Put"};
 		magazines[] = {"CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249"};
@@ -153,8 +153,8 @@ class CfgVehicles
 		icon = "iconManMG";
 		headgearProbability = 60;
 		randomWeaponProbability = 50;
-		linkedItems[] = {"IS_uniform_o","V_TacVest_blk","ItemRadio"};
-		respawnLinkedItems[] = {"IS_uniform_o","V_TacVest_blk","ItemRadio"};
+		linkedItems[] = {"IS_uniform_i","V_TacVest_blk","ItemRadio"};
+		respawnLinkedItems[] = {"IS_uniform_i","V_TacVest_blk","ItemRadio"};
 		weapons[] = {"CUP_lmg_PKM","Throw","Put"};
 		respawnweapons[] = {"CUP_lmg_PKM","Throw","Put"};
 		magazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"};
@@ -169,8 +169,8 @@ class CfgVehicles
 		camouflage = 0.6;
 		headgearProbability = 80;
 		randomWeaponProbability = 25;
-		linkedItems[] = {"IS_uniform_o","V_BandollierB_khk","ItemRadio"};
-		respawnLinkedItems[] = {"IS_uniform_o","V_BandollierB_khk","ItemRadio"};
+		linkedItems[] = {"IS_uniform_i","V_BandollierB_khk","ItemRadio"};
+		respawnLinkedItems[] = {"IS_uniform_i","V_BandollierB_khk","ItemRadio"};
 		weapons[] = {"CUP_srifle_SVD_pso","Binocular","Throw","Put"};
 		respawnweapons[] = {"CUP_srifle_SVD_pso","Binocular","Throw","Put"};
 		magazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_HandGrenade_RGD5"};
@@ -185,8 +185,8 @@ class CfgVehicles
 		backpack = "CUP_B_RPGPack_Khaki";
 		headgearProbability = 60;
 		randomWeaponProbability = 100;
-		linkedItems[] = {"IS_uniform_o","V_TacVest_camo","ItemRadio"};
-		respawnLinkedItems[] = {"IS_uniform_o","V_TacVest_camo","ItemRadio"};
+		linkedItems[] = {"IS_uniform_i","V_TacVest_camo","ItemRadio"};
+		respawnLinkedItems[] = {"IS_uniform_i","V_TacVest_camo","ItemRadio"};
 		weapons[] = {"CUP_arifle_AKS","CUP_launch_RPG7V","Throw","Put"};
 		respawnweapons[] = {"CUP_arifle_AKS","CUP_launch_RPG7V","Throw","Put"};
 		magazines[] = {"CUP_PG7VL_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
@@ -201,8 +201,8 @@ class CfgVehicles
 		attendant = 1;
 		backpack = "B_AssaultPack_rgr_Medic";
 		headgearProbability = 60;
-		linkedItems[] = {"IS_uniform_o","V_Chestrig_blk","ItemRadio"};
-		respawnLinkedItems[] = {"IS_uniform_o","V_Chestrig_blk","ItemRadio"};
+		linkedItems[] = {"IS_uniform_i","V_Chestrig_blk","ItemRadio"};
+		respawnLinkedItems[] = {"IS_uniform_i","V_Chestrig_blk","ItemRadio"};
 		weapons[] = {"CUP_arifle_AKS","Throw","Put"};
 		respawnweapons[] = {"CUP_arifle_AKS","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
@@ -217,8 +217,8 @@ class CfgVehicles
 		backpack = "B_AssaultPack_khk";
 		headgearProbability = 60;
 		randomWeaponProbability = 100;
-		linkedItems[] = {"IS_uniform_o","V_Chestrig_blk","ItemRadio"};
-		respawnLinkedItems[] = {"IS_uniform_o","V_Chestrig_blk","ItemRadio"};
+		linkedItems[] = {"IS_uniform_i","V_Chestrig_blk","ItemRadio"};
+		respawnLinkedItems[] = {"IS_uniform_i","V_Chestrig_blk","ItemRadio"};
 		weapons[] = {"CUP_arifle_AKM","Throw","Put"};
 		respawnweapons[] = {"CUP_arifle_AKM","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
@@ -232,8 +232,8 @@ class CfgVehicles
 		icon = "iconManEngineer";
 		headgearProbability = 50;
 		randomWeaponProbability = 30;
-		linkedItems[] = {"IS_uniform_o","V_BandollierB_khk","ItemRadio"};
-		respawnLinkedItems[] = {"IS_uniform_o","V_BandollierB_khk","ItemRadio"};
+		linkedItems[] = {"IS_uniform_i","V_BandollierB_khk","ItemRadio"};
+		respawnLinkedItems[] = {"IS_uniform_i","V_BandollierB_khk","ItemRadio"};
 		weapons[] = {"CUP_arifle_AKM","Throw","Put"};
 		respawnweapons[] = {"CUP_arifle_AKM","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
@@ -298,7 +298,7 @@ class CfgVehicles
 		{
 			class ADDON
 			{
-				init = "(_this select 0) setFlagTexture '\x\cfp\addons\o_is\data\ISC_flag_IS.paa'";
+				init = "(_this select 0) setFlagTexture '\x\cfp\addons\flags\IslamicState\ISC_flag_IS.paa'";
 			};
 		};
 	};
@@ -306,7 +306,7 @@ class CfgVehicles
 	class IS_Flag_1: FlagChecked_F
 	{
 		_generalMacro = "FlagCarrier";
-		faction = "CFP_O_IS";
+		faction = "CFP_o_is";
 		vehicleClass = "IS_Flags";
 		scope = 2;
 		side = 4;
@@ -317,14 +317,14 @@ class CfgVehicles
 		{
 			class ADDON
 			{
-				init = "(_this select 0) setFlagTexture ""\x\cfp\addons\o_is\data\ISC_flag_IS_1.paa""";
+				init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\IslamicState\ISC_flag_IS_1.paa""";
 			};
 		};
 	};
 	class IS_Flag_2: FlagChecked_F
 	{
 		_generalMacro = "FlagCarrier";
-		faction = "CFP_O_IS";
+		faction = "CFP_o_is";
 		vehicleClass = "IS_Flags";
 		scope = 2;
 		side = 4;
@@ -335,14 +335,14 @@ class CfgVehicles
 		{
 			class ADDON
 			{
-				init = "(_this select 0) setFlagTexture ""\x\cfp\addons\o_is\data\ISC_flag_IS_2.paa""";
+				init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\IslamicState\ISC_flag_IS_2.paa""";
 			};
 		};
 	};
 	class IS_Flag_3: FlagChecked_F
 	{
 		_generalMacro = "FlagCarrier";
-		faction = "CFP_O_IS";
+		faction = "CFP_o_is";
 		vehicleClass = "IS_Flags";
 		scope = 2;
 		side = 4;
@@ -353,7 +353,7 @@ class CfgVehicles
 		{
 			class ADDON
 			{
-				init = "(_this select 0) setFlagTexture ""\x\cfp\addons\o_is\data\ISC_flag_IS_3.paa""";
+				init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\IslamicState\ISC_flag_IS_3.paa""";
 			};
 		};
 	};
@@ -429,13 +429,13 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "IS Offroad";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_MOTORIZED";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_MOTORIZED";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman"};
 		hiddenSelections[] = {"camo","camo2"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\o_is\data\offroad_isis_01.paa","\x\cfp\addons\o_is\data\offroad_isis_01.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\offroad\offroad_isis_01.paa","\x\cfp\addons\vehicles\offroad\offroad_isis_01.paa"};
 		class EventHandlers
 		{
 			class ADDON
@@ -443,7 +443,7 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\o_is\data\Preview_IS_Offroad.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_Offroad.jpg";
 	};
 	class cfp_o_is_offroad_flag: cfp_o_is_offroad
 	{
@@ -455,20 +455,20 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""; (_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\AttachFlag.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\o_is\data\Preview_IS_Offroad_flag.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_Offroad_flag.jpg";
 	};
 	class cfp_o_is_offroad_M2: B_G_Offroad_01_armed_F
 	{
 		scope = 2;
 		side = 0;
 		displayName = "IS Offroad MG";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_MOTORIZED";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_MOTORIZED";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman"};
 		hiddenSelections[] = {"camo","camo2"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\o_is\data\offroad_isis_02.paa","\x\cfp\addons\o_is\data\offroad_isis_02.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\offroad\offroad_isis_02.paa","\x\cfp\addons\vehicles\offroad\offroad_isis_02.paa"};
 		class EventHandlers
 		{
 			class ADDON
@@ -476,7 +476,7 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\o_is\data\Preview_IS_Offroad_MG.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_Offroad_MG.jpg";
 	};
 	class cfp_o_is_offroad_M2_flag: cfp_o_is_offroad_M2
 	{
@@ -488,15 +488,15 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""; (_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\AttachFlag.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\o_is\data\Preview_IS_Offroad_MG_flag.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_Offroad_MG_flag.jpg";
 	};
 	class cfp_o_is_pickup_PK: CUP_I_Datsun_PK_TK_Random
 	{
 		scope = 2;
 		side = 0;
 		displayName = "IS Pickup PK";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_MOTORIZED";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_MOTORIZED";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman"};
@@ -513,8 +513,8 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "IS Pickup PK (Flag)";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_MOTORIZED";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_MOTORIZED";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman"};
@@ -526,15 +526,15 @@ class CfgVehicles
 				killed = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\onkilled.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\o_is\data\Preview_IS_Datsun_PK.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_Datsun_PK.jpg";
 	};
 	class cfp_o_is_LR_M2: CUP_O_LR_MG_TKA
 	{
 		scope = 2;
 		side = 0;
 		displayName = "IS L.R. M2";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_MOTORIZED";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_MOTORIZED";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman"};
@@ -545,15 +545,15 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\o_is\data\Preview_IS_LR_MG.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_LR_MG.jpg";
 	};
 	class cfp_o_is_LR_SPG9: CUP_O_LR_SPG9_TKA
 	{
 		scope = 2;
 		side = 0;
 		displayName = "IS L.R. SPG9";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_MOTORIZED";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_MOTORIZED";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman"};
@@ -564,15 +564,15 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\o_is\data\Preview_IS_LR_SPG.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_LR_SPG.jpg";
 	};
 	class cfp_o_is_LR_Unarmed: CUP_O_LR_Transport_TKA
 	{
 		scope = 2;
 		side = 0;
 		displayName = "IS L.R.";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_MOTORIZED";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_MOTORIZED";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman"};
@@ -583,15 +583,15 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\o_is\data\Preview_IS_LR.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_LR.jpg";
 	};
 	class cfp_o_is_UAZ_MG: CUP_O_UAZ_MG_RU
 	{
 		scope = 2;
 		side = 0;
 		displayName = "IS UAZ MG";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_MOTORIZED";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_MOTORIZED";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman"};
@@ -602,15 +602,15 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\o_is\data\Preview_IS_UAZ_DShKM.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_UAZ_DShKM.jpg";
 	};
 	class cfp_o_is_UAZ_AGS30: CUP_O_UAZ_AGS30_RU
 	{
 		scope = 2;
 		side = 0;
 		displayName = "IS UAZ AGS30";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_MOTORIZED";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_MOTORIZED";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman"};
@@ -621,15 +621,15 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\o_is\data\Preview_IS_UAZ_AGS.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_UAZ_AGS.jpg";
 	};
 	class cfp_o_is_UAZ_SPG9: CUP_O_UAZ_SPG9_RU
 	{
 		scope = 2;
 		side = 0;
 		displayName = "IS UAZ SPG9";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_MOTORIZED";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_MOTORIZED";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman"};
@@ -640,15 +640,15 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\o_is\data\Preview_IS_UAZ_SPG.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_UAZ_SPG.jpg";
 	};
 	class cfp_o_is_UAZ_METIS: CUP_O_UAZ_METIS_RU
 	{
 		scope = 2;
 		side = 0;
 		displayName = "IS UAZ METIS";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_MOTORIZED";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_MOTORIZED";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman"};
@@ -659,15 +659,15 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\o_is\data\Preview_IS_UAZ_Metis.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_UAZ_Metis.jpg";
 	};
 	class cfp_o_is_UAZ_Unarmed: CUP_O_UAZ_Unarmed_RU
 	{
 		scope = 2;
 		side = 0;
 		displayName = "IS UAZ";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_MOTORIZED";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_MOTORIZED";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman"};
@@ -678,15 +678,15 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\o_is\data\Preview_IS_UAZ.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_UAZ.jpg";
 	};
 	class cfp_o_is_UAZ_Open: CUP_O_UAZ_Open_RU
 	{
 		scope = 2;
 		side = 0;
 		displayName = "IS UAZ Open";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_MOTORIZED";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_MOTORIZED";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman"};
@@ -703,8 +703,8 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "IS HMMWV DShKM";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_MOTORIZED";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_MOTORIZED";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman"};
@@ -714,8 +714,8 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "IS HMMWV AGS";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_MOTORIZED";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_MOTORIZED";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman"};
@@ -725,8 +725,8 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "IS Ural";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_MOTORIZED";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_MOTORIZED";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman"};
@@ -737,15 +737,15 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\o_is\data\Preview_IS_Ural.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_Ural.jpg";
 	};
 	class cfp_o_is_Ural_ZU23: CUP_O_Ural_ZU23_CHDKZ
 	{
 		scope = 2;
 		side = 0;
 		displayName = "IS Ural ZU23";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_MOTORIZED";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_MOTORIZED";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman"};
@@ -756,15 +756,15 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\o_is\data\Preview_IS_Ural_ZU23.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_Ural_ZU23.jpg";
 	};
 	class cfp_o_is_BTR40_MG: CUP_O_BTR40_MG_TKA
 	{
 		scope = 2;
 		side = 0;
 		displayName = "IS BTR40 MG";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_MOTORIZED";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_MOTORIZED";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman"};
@@ -775,7 +775,7 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\o_is\data\Preview_IS_BTR40.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_BTR40.jpg";
 	};
 	class cfp_o_is_BTR40_MG_flag: cfp_o_is_BTR40_MG
 	{
@@ -788,15 +788,15 @@ class CfgVehicles
 				killed = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\onkilled.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\o_is\data\Preview_IS_BTR40_flag.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_BTR40_flag.jpg";
 	};
 	class cfp_o_is_M113: CUP_O_M113_TKA
 	{
 		scope = 2;
 		side = 0;
 		displayName = "IS M113";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_MECHANIZED";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_MECHANIZED";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman","cfp_o_is_crewman"};
@@ -807,7 +807,7 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\o_is\data\Preview_IS_M113_2.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_M113_2.jpg";
 	};
 	class cfp_o_is_M113_flag: cfp_o_is_M113
 	{
@@ -820,15 +820,15 @@ class CfgVehicles
 				killed = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\onkilled.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\o_is\data\Preview_IS_M113_2_flag.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_M113_2_flag.jpg";
 	};
 	class cfp_o_is_BMP1: CUP_O_BMP1_TKA
 	{
 		scope = 2;
 		side = 0;
 		displayName = "IS BMP-1";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_MECHANIZED";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_MECHANIZED";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman","cfp_o_is_crewman"};
@@ -839,7 +839,7 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\o_is\data\Preview_IS_BMP1.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_BMP1.jpg";
 	};
 	class cfp_o_is_BMP1_flag: cfp_o_is_BMP1
 	{
@@ -852,15 +852,15 @@ class CfgVehicles
 				killed = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\onkilled.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\o_is\data\Preview_IS_BMP1_flag.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_BMP1_flag.jpg";
 	};
 	class cfp_o_is_BMP1P: CUP_O_BMP1P_TKA
 	{
 		scope = 2;
 		side = 0;
 		displayName = "IS BMP-1P";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_MECHANIZED";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_MECHANIZED";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman","cfp_o_is_crewman"};
@@ -871,7 +871,7 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\o_is\data\Preview_IS_BMP1P.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_BMP1P.jpg";
 	};
 	class cfp_o_is_BMP1P_flag: cfp_o_is_BMP1P
 	{
@@ -884,15 +884,15 @@ class CfgVehicles
 				killed = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\onkilled.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\o_is\data\Preview_IS_BMP1P_flag.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_BMP1P_flag.jpg";
 	};
 	class cfp_o_is_BMP2_PKM: CUP_B_BMP_HQ_CZ_Des
 	{
 		scope = 2;
 		side = 0;
 		displayName = "IS BMP-2 PKM";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_MECHANIZED";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_MECHANIZED";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman","cfp_o_is_crewman"};
@@ -903,7 +903,7 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\o_is\data\Preview_IS_BMP2_PKM.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_BMP2_PKM.jpg";
 	};
 	class cfp_o_is_BMP2_PKM_flag: cfp_o_is_BMP2_PKM
 	{
@@ -916,15 +916,15 @@ class CfgVehicles
 				killed = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\onkilled.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\o_is\data\Preview_IS_BMP2_PKM_flag.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_BMP2_PKM_flag.jpg";
 	};
 	class cfp_o_is_BMP2: CUP_B_BMP2_CZ_DES
 	{
 		scope = 2;
 		side = 0;
 		displayName = "IS BMP-2";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_MECHANIZED";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_MECHANIZED";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman","cfp_o_is_crewman"};
@@ -935,15 +935,15 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\o_is\data\Preview_IS_BMP2.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_BMP2.jpg";
 	};
 	class cfp_o_is_BMP2_ZU: CUP_O_BMP2_ZU_TKA
 	{
 		scope = 2;
 		side = 0;
 		displayName = "IS BMP-2 ZSU";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_MECHANIZED";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_MECHANIZED";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman","cfp_o_is_crewman"};
@@ -954,15 +954,15 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\o_is\data\Preview_IS_BMP2_ZSU.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_BMP2_ZSU.jpg";
 	};
 	class cfp_o_is_T34: CUP_O_T34_TKA
 	{
 		scope = 2;
 		side = 0;
 		displayName = "IS T34";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_ARMORED";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_ARMORED";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman"};
@@ -973,7 +973,7 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\o_is\data\Preview_IS_T34.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_T34.jpg";
 	};
 	class cfp_o_is_T34_flag: cfp_o_is_T34
 	{
@@ -986,15 +986,15 @@ class CfgVehicles
 				killed = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\onkilled.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\o_is\data\Preview_IS_T34_flag.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_T34_flag.jpg";
 	};
 	class cfp_o_is_T55: CUP_O_T55_CSAT
 	{
 		scope = 2;
 		side = 0;
 		displayName = "IS T55";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_ARMORED";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_ARMORED";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman","cfp_o_is_crewman"};
@@ -1005,7 +1005,7 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\o_is\data\Preview_IS_T55.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_T55.jpg";
 	};
 	class cfp_o_is_T55_flag: cfp_o_is_T55
 	{
@@ -1018,15 +1018,15 @@ class CfgVehicles
 				killed = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\onkilled.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\o_is\data\Preview_IS_T55_flag.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_T55_flag.jpg";
 	};
 	class cfp_o_is_T72: CUP_O_T72_TKA
 	{
 		scope = 2;
 		side = 0;
 		displayName = "IS T72";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_ARMORED";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_ARMORED";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman","cfp_o_is_crewman"};
@@ -1037,15 +1037,15 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\o_is\data\Preview_T72_tan.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_T72_tan.jpg";
 	};
 	class cfp_o_is_T72_flag: cfp_o_is_T72
 	{
 		scope = 2;
 		side = 0;
 		displayName = "IS T72 (Flag)";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_ARMORED";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_ARMORED";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman","cfp_o_is_crewman"};
@@ -1057,15 +1057,15 @@ class CfgVehicles
 				killed = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\onkilled.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\o_is\data\Preview_IS_T72_flag.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_T72_flag.jpg";
 	};
 	class cfp_o_is_ZSU: CUP_O_ZSU23_SLA
 	{
 		scope = 2;
 		side = 0;
 		displayName = "IS ZSU";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_ARMORED";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_ARMORED";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman","cfp_o_is_crewman"};
@@ -1076,15 +1076,15 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\o_is\data\Preview_IS_ZSU.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_ZSU.jpg";
 	};
 	class cfp_o_is_ZU23: CUP_O_ZU23_RU
 	{
 		scope = 2;
 		side = 0;
 		displayName = "IS ZU23";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_STATIC";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_STATIC";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman"};
@@ -1094,8 +1094,8 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "IS DSHKM";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_STATIC";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_STATIC";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman"};
@@ -1105,8 +1105,8 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "IS DSHkM Mini TriPod";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_STATIC";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_STATIC";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman"};
@@ -1116,8 +1116,8 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "IS KORD";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_STATIC";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_STATIC";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman"};
@@ -1127,8 +1127,8 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "IS KORD High";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_STATIC";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_STATIC";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman"};
@@ -1138,8 +1138,8 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "IS AGS";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_STATIC";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_STATIC";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman"};
@@ -1149,8 +1149,8 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "IS M2";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_STATIC";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_STATIC";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman"};
@@ -1160,8 +1160,8 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "IS M2 Mini Tripod";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_STATIC";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_STATIC";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman"};
@@ -1171,8 +1171,8 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "IS Metis";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_STATIC";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_STATIC";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman"};
@@ -1182,8 +1182,8 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "IS SPG9";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_STATIC";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_STATIC";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman"};
@@ -1193,8 +1193,8 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "IS TOW";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_STATIC";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_STATIC";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman"};
@@ -1204,8 +1204,8 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "IS 2b14 82mm";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_STATIC";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_STATIC";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman"};
@@ -1215,8 +1215,8 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "IS M252";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_STATIC";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_STATIC";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman"};
@@ -1226,8 +1226,8 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "IS D30";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_STATIC";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_STATIC";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman"};
@@ -1237,8 +1237,8 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "IS D30 AT";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_STATIC";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_STATIC";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman"};
@@ -1248,8 +1248,8 @@ class CfgVehicles
 		scope = 2;
 		side = 0;
 		displayName = "IS M119";
-		faction = "CFP_O_IS";
-		vehicleClass = "CFP_O_IS_STATIC";
+		faction = "CFP_o_is";
+		vehicleClass = "CFP_o_is_STATIC";
 		camouflage = 4;
 		crew = "cfp_o_is_crewman";
 		typicalCargo[] = {"cfp_o_is_crewman"};

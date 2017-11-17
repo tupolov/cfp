@@ -10,7 +10,7 @@ class CfgGlasses
 		model = "\A3\Characters_F_Bootcamp\Guerrilla\g_balaclava_clean.p3d";
 		picture = "\A3\Characters_F_Bootcamp\Data\UI\icon_G_Balaclava_clean_ca.paa";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\i_is\data\IS_balaclava_black_logo1.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\balaclava\IS_balaclava_black_logo1.paa"};
 		identityTypes[] = {};
 	};
 	class IS_Balaclava_logo2: G_Balaclava_blk
@@ -22,7 +22,7 @@ class CfgGlasses
 		model = "\A3\Characters_F_Bootcamp\Guerrilla\g_balaclava_clean.p3d";
 		picture = "\A3\Characters_F_Bootcamp\Data\UI\icon_G_Balaclava_clean_ca.paa";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\i_is\data\IS_balaclava_black_logo2.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\balaclava\IS_balaclava_black_logo2.paa"};
 		identityTypes[] = {};
 	};
 	class IS_Balaclava: G_Balaclava_blk
@@ -34,7 +34,7 @@ class CfgGlasses
 		model = "\A3\Characters_F_Bootcamp\Guerrilla\g_balaclava_clean.p3d";
 		picture = "\A3\Characters_F_Bootcamp\Data\UI\icon_G_Balaclava_clean_ca.paa";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\i_is\data\IS_balaclava_black.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\balaclava\IS_balaclava_black.paa"};
 		identityTypes[] = {};
 	};
 };
