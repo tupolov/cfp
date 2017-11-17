@@ -36,7 +36,7 @@ Random items
 
 */
 
-#define GEAR_CATEGORIES ["headgear","facewear","uniform","vest","backpack","speaker","insignia","nvg"]
+#define GEAR_CATEGORIES ["uniform","headgear","facewear","nvg","vest","backpack","speaker","insignia"]
 
 #define WEAPON_CATEGORIES ["grenade", "rifle", "handgun", "launcher", "explosive"]
 
