@@ -319,16 +319,16 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Paramilitary Trooper (Leader)";
-        uniformClass = "U_B_CombatUniform_mcam";
+        uniformClass = "CFP_U_FieldUniform_multicam";
 
         // Camo clothes
         uniformList[] = {
-            "U_B_CombatUniform_mcam", 0.9,
-            "U_B_CombatUniform_mcam_tshirt", 0.3,
+            "CFP_U_FieldUniform_multicam", 0.8,
+            "U_B_CombatUniform_mcam_tshirt", 0.2,
             "SP_0000_Standard_FieldUniform_Tan_SS", 0.2,
-            "SP_0000_Standard_TacticalUniform_Tan", 0.2,
-            "SP_0000_Standard_TacticalUniform_Tan_SS", 0.2,
-            "SP_0000_Standard_TacticalUniform_Tan_TS", 0.1,
+            "SP_0000_Standard_TacticalUniform_Tan_TS", 0.2,
+            "U_B_CombatUniform_mcam_tshirt", 0.2,
+            "U_B_CombatUniform_mcam", 0.2,
             "U_BG_Guerilla2_1",0.2
         };
 
