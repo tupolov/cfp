@@ -48,7 +48,9 @@ Factions are delivered in a modular way, enabling groups to maintain their own t
 
 ### OPFOR
 - Abu Sayyef
-- Al-Shabaab
+- al-Qassam Brigades
+- al-Qaeda
+- al-Shabaab
 - Boko Haram
 - Central African Rebels
 - Colombian FARC Rebels
@@ -56,16 +58,16 @@ Factions are delivered in a modular way, enabling groups to maintain their own t
 - Houthis
 - Islamic State
 - IRA
-- Russian Army/Airborne factions specifically for Arid/Desert, Woodland/Jungle
-- Russian Special Operations factions specifically for Arid/Desert, Woodland/Jungle
-- Russian Naval factions such as Spetznaz.
+- Russian Army/Airborne factions specifically for Arid/Desert, Woodland/Jungle etc
+- Russian Special Operations factions specifically for Arid/Desert, Woodland/Jungle etc
+- Russian Naval factions such as Spetznaz split by theater.
 - Somali Rebels
 - Syrian Arab Army
 - Taliban Insurgents
 - Western Ultranationalists / Terrorists
 
 ### INDFOR
-- Al-Nusra Front
+- al-Nusra Front
 - Islamic State
 
 ### BLUFOR
