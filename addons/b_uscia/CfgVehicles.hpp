@@ -145,6 +145,11 @@ class CfgVehicles {
             "CUP_B_AssaultPack_Coyote", 0.2
         };
 
+        insigniaList[] = {
+            "MORALE", 0.5,
+            "BLOOD", 0.5
+        };
+
         grenadeList[] = {
         	{"HandGrenade",4}, 0.25,
 			{"MiniGrenade",4}, 0.25,
@@ -299,6 +304,8 @@ class CfgVehicles {
             "B_FieldPack_cbr", 0.2,
             "B_FieldPack_khk", 0.2
         };
+
+        insigniaList[] = {};
 
         // 6-8 options
         rifleList[] = {
