@@ -1,6 +1,6 @@
 class CfgFactionClasses
 {
-	class CFP_O_IS
+	class CFP_o_is
 	{
 		displayName = "Islamic State";
 		author = "CFP Team";

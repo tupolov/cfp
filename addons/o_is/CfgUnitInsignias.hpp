@@ -1,6 +1,6 @@
 class CfgUnitInsignia
 {
-	class insignia_cfp_IS
+	class insignia_cfp_o_is
 	{
 		displayName = "Islamic State";
 		author = "CFP Team";

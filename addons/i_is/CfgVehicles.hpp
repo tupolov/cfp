@@ -15,7 +15,7 @@ class CfgVehicles
 		nakedUniform = "U_BasicBody";
 		uniformClass = "IS_uniform_i";
 		hiddenSelections[] = {"Camo","insignia"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\i_is\data\IS_pixelated_desert.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\fielduniform\is\IS_pixelated_desert.paa"};
 		camouflage = 1;
 		backpack = "";
 		headgearProbability = 50;
@@ -38,7 +38,7 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_gear.sqf""; (_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_weapon.sqf""";
 			};
 		};
-		editorPreview = "x\cfp\addons\i_is\data\Preview_is_infantry.jpg";
+		editorPreview = "x\cfp\addons\uniforms\FieldUniform\IS\UI\Preview_is_infantry.jpg";
 	};
 	class cfp_i_is_team_leader: cfp_i_is_base
 	{
@@ -298,7 +298,7 @@ class CfgVehicles
 		{
 			class ADDON
 			{
-				init = "(_this select 0) setFlagTexture '\x\cfp\addons\i_is\data\ISC_flag_IS.paa'";
+				init = "(_this select 0) setFlagTexture '\x\cfp\addons\flags\IslamicState\ISC_flag_IS.paa'";
 			};
 		};
 	};
@@ -317,7 +317,7 @@ class CfgVehicles
 		{
 			class ADDON
 			{
-				init = "(_this select 0) setFlagTexture ""\x\cfp\addons\i_is\data\ISC_flag_IS_1.paa""";
+				init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\IslamicState\ISC_flag_IS_1.paa""";
 			};
 		};
 	};
@@ -335,7 +335,7 @@ class CfgVehicles
 		{
 			class ADDON
 			{
-				init = "(_this select 0) setFlagTexture ""\x\cfp\addons\i_is\data\ISC_flag_IS_2.paa""";
+				init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\IslamicState\ISC_flag_IS_2.paa""";
 			};
 		};
 	};
@@ -353,7 +353,7 @@ class CfgVehicles
 		{
 			class ADDON
 			{
-				init = "(_this select 0) setFlagTexture ""\x\cfp\addons\i_is\data\ISC_flag_IS_3.paa""";
+				init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\IslamicState\ISC_flag_IS_3.paa""";
 			};
 		};
 	};
@@ -435,7 +435,7 @@ class CfgVehicles
 		crew = "cfp_i_is_crewman";
 		typicalCargo[] = {"cfp_i_is_crewman","cfp_i_is_crewman"};
 		hiddenSelections[] = {"camo","camo2"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\i_is\data\offroad_isis_01.paa","\x\cfp\addons\i_is\data\offroad_isis_01.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\offroad\offroad_isis_01.paa","\x\cfp\addons\vehicles\offroad\offroad_isis_01.paa"};
 		class EventHandlers
 		{
 			class ADDON
@@ -443,7 +443,7 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\i_is\data\Preview_IS_Offroad.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_Offroad.jpg";
 	};
 	class cfp_i_is_offroad_flag: cfp_i_is_offroad
 	{
@@ -455,7 +455,7 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""; (_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\AttachFlag.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\i_is\data\Preview_IS_Offroad_flag.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_Offroad_flag.jpg";
 	};
 	class cfp_i_is_offroad_M2: B_G_Offroad_01_armed_F
 	{
@@ -468,7 +468,7 @@ class CfgVehicles
 		crew = "cfp_i_is_crewman";
 		typicalCargo[] = {"cfp_i_is_crewman","cfp_i_is_crewman"};
 		hiddenSelections[] = {"camo","camo2"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\i_is\data\offroad_isis_02.paa","\x\cfp\addons\i_is\data\offroad_isis_02.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\offroad\offroad_isis_02.paa","\x\cfp\addons\vehicles\offroad\offroad_isis_02.paa"};
 		class EventHandlers
 		{
 			class ADDON
@@ -476,7 +476,7 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\i_is\data\Preview_IS_Offroad_MG.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_Offroad_MG.jpg";
 	};
 	class cfp_i_is_offroad_M2_flag: cfp_i_is_offroad_M2
 	{
@@ -488,7 +488,7 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""; (_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\AttachFlag.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\i_is\data\Preview_IS_Offroad_MG_flag.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_Offroad_MG_flag.jpg";
 	};
 	class cfp_i_is_pickup_PK: CUP_I_Datsun_PK_TK_Random
 	{
@@ -526,7 +526,7 @@ class CfgVehicles
 				killed = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\onkilled.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\i_is\data\Preview_IS_Datsun_PK.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_Datsun_PK.jpg";
 	};
 	class cfp_i_is_LR_M2: CUP_O_LR_MG_TKA
 	{
@@ -545,7 +545,7 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\i_is\data\Preview_IS_LR_MG.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_LR_MG.jpg";
 	};
 	class cfp_i_is_LR_SPG9: CUP_O_LR_SPG9_TKA
 	{
@@ -564,7 +564,7 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\i_is\data\Preview_IS_LR_SPG.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_LR_SPG.jpg";
 	};
 	class cfp_i_is_LR_Unarmed: CUP_O_LR_Transport_TKA
 	{
@@ -583,7 +583,7 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\i_is\data\Preview_IS_LR.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_LR.jpg";
 	};
 	class cfp_i_is_UAZ_MG: CUP_O_UAZ_MG_RU
 	{
@@ -602,7 +602,7 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\i_is\data\Preview_IS_UAZ_DShKM.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_UAZ_DShKM.jpg";
 	};
 	class cfp_i_is_UAZ_AGS30: CUP_O_UAZ_AGS30_RU
 	{
@@ -621,7 +621,7 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\i_is\data\Preview_IS_UAZ_AGS.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_UAZ_AGS.jpg";
 	};
 	class cfp_i_is_UAZ_SPG9: CUP_O_UAZ_SPG9_RU
 	{
@@ -640,7 +640,7 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\i_is\data\Preview_IS_UAZ_SPG.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_UAZ_SPG.jpg";
 	};
 	class cfp_i_is_UAZ_METIS: CUP_O_UAZ_METIS_RU
 	{
@@ -659,7 +659,7 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\i_is\data\Preview_IS_UAZ_Metis.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_UAZ_Metis.jpg";
 	};
 	class cfp_i_is_UAZ_Unarmed: CUP_O_UAZ_Unarmed_RU
 	{
@@ -678,7 +678,7 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\i_is\data\Preview_IS_UAZ.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_UAZ.jpg";
 	};
 	class cfp_i_is_UAZ_Open: CUP_O_UAZ_Open_RU
 	{
@@ -737,7 +737,7 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\i_is\data\Preview_IS_Ural.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_Ural.jpg";
 	};
 	class cfp_i_is_Ural_ZU23: CUP_O_Ural_ZU23_CHDKZ
 	{
@@ -756,7 +756,7 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\i_is\data\Preview_IS_Ural_ZU23.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_Ural_ZU23.jpg";
 	};
 	class cfp_i_is_BTR40_MG: CUP_O_BTR40_MG_TKA
 	{
@@ -775,7 +775,7 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\i_is\data\Preview_IS_BTR40.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_BTR40.jpg";
 	};
 	class cfp_i_is_BTR40_MG_flag: cfp_i_is_BTR40_MG
 	{
@@ -788,7 +788,7 @@ class CfgVehicles
 				killed = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\onkilled.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\i_is\data\Preview_IS_BTR40_flag.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_BTR40_flag.jpg";
 	};
 	class cfp_i_is_M113: CUP_O_M113_TKA
 	{
@@ -807,7 +807,7 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\i_is\data\Preview_IS_M113_2.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_M113_2.jpg";
 	};
 	class cfp_i_is_M113_flag: cfp_i_is_M113
 	{
@@ -820,7 +820,7 @@ class CfgVehicles
 				killed = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\onkilled.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\i_is\data\Preview_IS_M113_2_flag.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_M113_2_flag.jpg";
 	};
 	class cfp_i_is_BMP1: CUP_O_BMP1_TKA
 	{
@@ -839,7 +839,7 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\i_is\data\Preview_IS_BMP1.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_BMP1.jpg";
 	};
 	class cfp_i_is_BMP1_flag: cfp_i_is_BMP1
 	{
@@ -852,7 +852,7 @@ class CfgVehicles
 				killed = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\onkilled.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\i_is\data\Preview_IS_BMP1_flag.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_BMP1_flag.jpg";
 	};
 	class cfp_i_is_BMP1P: CUP_O_BMP1P_TKA
 	{
@@ -871,7 +871,7 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\i_is\data\Preview_IS_BMP1P.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_BMP1P.jpg";
 	};
 	class cfp_i_is_BMP1P_flag: cfp_i_is_BMP1P
 	{
@@ -884,7 +884,7 @@ class CfgVehicles
 				killed = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\onkilled.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\i_is\data\Preview_IS_BMP1P_flag.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_BMP1P_flag.jpg";
 	};
 	class cfp_i_is_BMP2_PKM: CUP_B_BMP_HQ_CZ_Des
 	{
@@ -903,7 +903,7 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\i_is\data\Preview_IS_BMP2_PKM.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_BMP2_PKM.jpg";
 	};
 	class cfp_i_is_BMP2_PKM_flag: cfp_i_is_BMP2_PKM
 	{
@@ -916,7 +916,7 @@ class CfgVehicles
 				killed = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\onkilled.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\i_is\data\Preview_IS_BMP2_PKM_flag.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_BMP2_PKM_flag.jpg";
 	};
 	class cfp_i_is_BMP2: CUP_B_BMP2_CZ_DES
 	{
@@ -935,7 +935,7 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\i_is\data\Preview_IS_BMP2.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_BMP2.jpg";
 	};
 	class cfp_i_is_BMP2_ZU: CUP_O_BMP2_ZU_TKA
 	{
@@ -954,7 +954,7 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\i_is\data\Preview_IS_BMP2_ZSU.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_BMP2_ZSU.jpg";
 	};
 	class cfp_i_is_T34: CUP_O_T34_TKA
 	{
@@ -973,7 +973,7 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\i_is\data\Preview_IS_T34.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_T34.jpg";
 	};
 	class cfp_i_is_T34_flag: cfp_i_is_T34
 	{
@@ -986,7 +986,7 @@ class CfgVehicles
 				killed = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\onkilled.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\i_is\data\Preview_IS_T34_flag.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_T34_flag.jpg";
 	};
 	class cfp_i_is_T55: CUP_O_T55_CSAT
 	{
@@ -1005,7 +1005,7 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\i_is\data\Preview_IS_T55.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_T55.jpg";
 	};
 	class cfp_i_is_T55_flag: cfp_i_is_T55
 	{
@@ -1018,7 +1018,7 @@ class CfgVehicles
 				killed = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\onkilled.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\i_is\data\Preview_IS_T55_flag.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_T55_flag.jpg";
 	};
 	class cfp_i_is_T72: CUP_O_T72_TKA
 	{
@@ -1037,7 +1037,7 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\i_is\data\Preview_T72_tan.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_T72_tan.jpg";
 	};
 	class cfp_i_is_T72_flag: cfp_i_is_T72
 	{
@@ -1057,7 +1057,7 @@ class CfgVehicles
 				killed = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\onkilled.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\i_is\data\Preview_IS_T72_flag.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_T72_flag.jpg";
 	};
 	class cfp_i_is_ZSU: CUP_O_ZSU23_SLA
 	{
@@ -1076,7 +1076,7 @@ class CfgVehicles
 				init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\i_is\data\Preview_IS_ZSU.jpg";
+		editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_ZSU.jpg";
 	};
 	class cfp_i_is_ZU23: CUP_O_ZU23_RU
 	{

@@ -22,32 +22,32 @@ if (isServer) then
 		_randomSeed1 = _this getVariable "BIS_randomSeed1";
 
 		_this setObjectTextureGlobal [0, [
-			"\x\cfp\addons\i_is\data\offroad_isis_01.paa",
-			"\x\cfp\addons\i_is\data\offroad_isis_01_dirty_1.paa",
-			"\x\cfp\addons\i_is\data\offroad_isis_01_dirty_2.paa",
-			"\x\cfp\addons\i_is\data\offroad_isis_02.paa",
-			"\x\cfp\addons\i_is\data\offroad_isis_02_dirty_1.paa",
-			"\x\cfp\addons\i_is\data\offroad_isis_02_dirty_2.paa",
-			"\x\cfp\addons\i_is\data\offroad_isis_03.paa",
-			"\x\cfp\addons\i_is\data\offroad_isis_03_dirty_1.paa",
-			"\x\cfp\addons\i_is\data\offroad_isis_03_dirty_2.paa",
-			"\x\cfp\addons\i_is\data\offroad_isis_04.paa",
-			"\x\cfp\addons\i_is\data\offroad_isis_04_dirty_1.paa",
-			"\x\cfp\addons\i_is\data\offroad_isis_04_dirty_2.paa"
+			"\x\cfp\addons\vehicles\offroad\offroad_isis_01.paa",
+			"\x\cfp\addons\vehicles\offroad\offroad_isis_01_dirty_1.paa",
+			"\x\cfp\addons\vehicles\offroad\offroad_isis_01_dirty_2.paa",
+			"\x\cfp\addons\vehicles\offroad\offroad_isis_02.paa",
+			"\x\cfp\addons\vehicles\offroad\offroad_isis_02_dirty_1.paa",
+			"\x\cfp\addons\vehicles\offroad\offroad_isis_02_dirty_2.paa",
+			"\x\cfp\addons\vehicles\offroad\offroad_isis_03.paa",
+			"\x\cfp\addons\vehicles\offroad\offroad_isis_03_dirty_1.paa",
+			"\x\cfp\addons\vehicles\offroad\offroad_isis_03_dirty_2.paa",
+			"\x\cfp\addons\vehicles\offroad\offroad_isis_04.paa",
+			"\x\cfp\addons\vehicles\offroad\offroad_isis_04_dirty_1.paa",
+			"\x\cfp\addons\vehicles\offroad\offroad_isis_04_dirty_2.paa"
 		] select _randomSeed1];
 		_this setObjectTextureGlobal [1, [
-			"\x\cfp\addons\i_is\data\offroad_isis_01.paa",
-			"\x\cfp\addons\i_is\data\offroad_isis_01_dirty_1.paa",
-			"\x\cfp\addons\i_is\data\offroad_isis_01_dirty_2.paa",
-			"\x\cfp\addons\i_is\data\offroad_isis_02.paa",
-			"\x\cfp\addons\i_is\data\offroad_isis_02_dirty_1.paa",
-			"\x\cfp\addons\i_is\data\offroad_isis_02_dirty_2.paa",
-			"\x\cfp\addons\i_is\data\offroad_isis_03.paa",
-			"\x\cfp\addons\i_is\data\offroad_isis_03_dirty_1.paa",
-			"\x\cfp\addons\i_is\data\offroad_isis_03_dirty_2.paa",
-			"\x\cfp\addons\i_is\data\offroad_isis_04.paa",
-			"\x\cfp\addons\i_is\data\offroad_isis_04_dirty_1.paa",
-			"\x\cfp\addons\i_is\data\offroad_isis_04_dirty_2.paa"
+			"\x\cfp\addons\vehicles\offroad\offroad_isis_01.paa",
+			"\x\cfp\addons\vehicles\offroad\offroad_isis_01_dirty_1.paa",
+			"\x\cfp\addons\vehicles\offroad\offroad_isis_01_dirty_2.paa",
+			"\x\cfp\addons\vehicles\offroad\offroad_isis_02.paa",
+			"\x\cfp\addons\vehicles\offroad\offroad_isis_02_dirty_1.paa",
+			"\x\cfp\addons\vehicles\offroad\offroad_isis_02_dirty_2.paa",
+			"\x\cfp\addons\vehicles\offroad\offroad_isis_03.paa",
+			"\x\cfp\addons\vehicles\offroad\offroad_isis_03_dirty_1.paa",
+			"\x\cfp\addons\vehicles\offroad\offroad_isis_03_dirty_2.paa",
+			"\x\cfp\addons\vehicles\offroad\offroad_isis_04.paa",
+			"\x\cfp\addons\vehicles\offroad\offroad_isis_04_dirty_1.paa",
+			"\x\cfp\addons\vehicles\offroad\offroad_isis_04_dirty_2.paa"
 		] select _randomSeed1];
 	};
 
@@ -65,46 +65,46 @@ if (isServer) then
 		_randomSeed1 = _this getVariable "BIS_randomSeed1";
 
 		_this setObjectTextureGlobal [0, [
-			"\x\cfp\addons\i_is\data\cup_is_datsun_1_c_1.paa",
-			"\x\cfp\addons\i_is\data\cup_is_datsun_1_c_2.paa",
-			"\x\cfp\addons\i_is\data\cup_is_datsun_1_d_1.paa",
-			"\x\cfp\addons\i_is\data\cup_is_datsun_1_d_2.paa",
-			"\x\cfp\addons\i_is\data\cup_is_datsun_2_c_1.paa",
-			"\x\cfp\addons\i_is\data\cup_is_datsun_2_c_2.paa",
-			"\x\cfp\addons\i_is\data\cup_is_datsun_2_d_1.paa",
-			"\x\cfp\addons\i_is\data\cup_is_datsun_2_d_2.paa",
-			"\x\cfp\addons\i_is\data\cup_is_datsun_3_c_1.paa",
-			"\x\cfp\addons\i_is\data\cup_is_datsun_3_c_2.paa",
-			"\x\cfp\addons\i_is\data\cup_is_datsun_3_d_1.paa",
-			"\x\cfp\addons\i_is\data\cup_is_datsun_3_d_2.paa",
-			"\x\cfp\addons\i_is\data\cup_is_datsun_4_c_1.paa",
-			"\x\cfp\addons\i_is\data\cup_is_datsun_4_c_2.paa",
-			"\x\cfp\addons\i_is\data\cup_is_datsun_4_d_1.paa",
-			"\x\cfp\addons\i_is\data\cup_is_datsun_4_d_2.paa",
-			"\x\cfp\addons\i_is\data\cup_is_datsun_5_c_1.paa",
-			"\x\cfp\addons\i_is\data\cup_is_datsun_5_c_2.paa",
-			"\x\cfp\addons\i_is\data\cup_is_datsun_5_d_1.paa",
-			"\x\cfp\addons\i_is\data\cup_is_datsun_5_d_2.paa",
-			"\x\cfp\addons\i_is\data\cup_is_datsun_6_c_1.paa",
-			"\x\cfp\addons\i_is\data\cup_is_datsun_6_c_2.paa",
-			"\x\cfp\addons\i_is\data\cup_is_datsun_6_d_1.paa",
-			"\x\cfp\addons\i_is\data\cup_is_datsun_6_d_2.paa",
-			"\x\cfp\addons\i_is\data\cup_is_datsun_7_c_1.paa",
-			"\x\cfp\addons\i_is\data\cup_is_datsun_7_c_2.paa",
-			"\x\cfp\addons\i_is\data\cup_is_datsun_7_d_1.paa",
-			"\x\cfp\addons\i_is\data\cup_is_datsun_7_d_2.paa",
-			"\x\cfp\addons\i_is\data\cup_is_datsun_8_c_1.paa",
-			"\x\cfp\addons\i_is\data\cup_is_datsun_8_c_2.paa",
-			"\x\cfp\addons\i_is\data\cup_is_datsun_8_d_1.paa",
-			"\x\cfp\addons\i_is\data\cup_is_datsun_8_d_2.paa",
-			"\x\cfp\addons\i_is\data\cup_is_datsun_9_c_1.paa",
-			"\x\cfp\addons\i_is\data\cup_is_datsun_9_c_2.paa",
-			"\x\cfp\addons\i_is\data\cup_is_datsun_9_d_1.paa",
-			"\x\cfp\addons\i_is\data\cup_is_datsun_9_d_2.paa",
-			"\x\cfp\addons\i_is\data\cup_is_datsun_10_c_1.paa",
-			"\x\cfp\addons\i_is\data\cup_is_datsun_10_c_2.paa",
-			"\x\cfp\addons\i_is\data\cup_is_datsun_10_d_1.paa",
-			"\x\cfp\addons\i_is\data\cup_is_datsun_10_d_2.paa"
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_1_c_1.paa",
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_1_c_2.paa",
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_1_d_1.paa",
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_1_d_2.paa",
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_2_c_1.paa",
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_2_c_2.paa",
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_2_d_1.paa",
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_2_d_2.paa",
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_3_c_1.paa",
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_3_c_2.paa",
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_3_d_1.paa",
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_3_d_2.paa",
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_4_c_1.paa",
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_4_c_2.paa",
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_4_d_1.paa",
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_4_d_2.paa",
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_5_c_1.paa",
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_5_c_2.paa",
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_5_d_1.paa",
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_5_d_2.paa",
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_6_c_1.paa",
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_6_c_2.paa",
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_6_d_1.paa",
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_6_d_2.paa",
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_7_c_1.paa",
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_7_c_2.paa",
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_7_d_1.paa",
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_7_d_2.paa",
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_8_c_1.paa",
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_8_c_2.paa",
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_8_d_1.paa",
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_8_d_2.paa",
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_9_c_1.paa",
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_9_c_2.paa",
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_9_d_1.paa",
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_9_d_2.paa",
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_10_c_1.paa",
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_10_c_2.paa",
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_10_d_1.paa",
+			"\x\cfp\addons\vehicles\datsun\cup_is_datsun_10_d_2.paa"
 		] select _randomSeed1];
 	};
 
@@ -155,10 +155,10 @@ if (isServer) then
 			"\x\cfp\addons\vehicles\uaz\uaz_main_2.paa",
 			"\x\cfp\addons\vehicles\uaz\uaz_main_3.paa",
 			"\x\cfp\addons\vehicles\uaz\uaz_main_4.paa",
-			"\x\cfp\addons\i_is\data\uaz_main_is_1.paa",
-			"\x\cfp\addons\i_is\data\uaz_main_is_2.paa",
-			"\x\cfp\addons\i_is\data\uaz_main_is_3.paa",
-			"\x\cfp\addons\i_is\data\uaz_main_is_4.paa"
+			"\x\cfp\addons\vehicles\uaz\uaz_main_is_1.paa",
+			"\x\cfp\addons\vehicles\uaz\uaz_main_is_2.paa",
+			"\x\cfp\addons\vehicles\uaz\uaz_main_is_3.paa",
+			"\x\cfp\addons\vehicles\uaz\uaz_main_is_4.paa"
 		] select _randomSeed1];
 	};
 
@@ -176,14 +176,14 @@ if (isServer) then
 		_randomSeed1 = _this getVariable "BIS_randomSeed1";
 
 		_this setObjectTextureGlobal [0, [
-			"\x\cfp\addons\i_is\data\ural_is_1.paa",
-			"\x\cfp\addons\i_is\data\ural_is_2.paa",
-			"\x\cfp\addons\i_is\data\ural_is_3.paa",
-			"\x\cfp\addons\i_is\data\ural_is_4.paa",
-			"\x\cfp\addons\i_is\data\ural_is_5.paa",
-			"\x\cfp\addons\i_is\data\ural_is_6.paa",
-			"\x\cfp\addons\i_is\data\ural_is_7.paa",
-			"\x\cfp\addons\i_is\data\ural_is_8.paa"
+			"\x\cfp\addons\vehicles\ural\ural_is_1.paa",
+			"\x\cfp\addons\vehicles\ural\ural_is_2.paa",
+			"\x\cfp\addons\vehicles\ural\ural_is_3.paa",
+			"\x\cfp\addons\vehicles\ural\ural_is_4.paa",
+			"\x\cfp\addons\vehicles\ural\ural_is_5.paa",
+			"\x\cfp\addons\vehicles\ural\ural_is_6.paa",
+			"\x\cfp\addons\vehicles\ural\ural_is_7.paa",
+			"\x\cfp\addons\vehicles\ural\ural_is_8.paa"
 		] select _randomSeed1];
 	};
 
@@ -201,13 +201,13 @@ if (isServer) then
 		_randomSeed1 = _this getVariable "BIS_randomSeed1";
 
 		_this setObjectTextureGlobal [0, [
-			"\x\cfp\addons\i_is\data\m113a3_01_is_1.paa",
-			"\x\cfp\addons\i_is\data\m113a3_01_is_2.paa",
-			"\x\cfp\addons\i_is\data\m113a3_01_is_3.paa",
-			"\x\cfp\addons\i_is\data\m113a3_01_is_4.paa",
-			"\x\cfp\addons\i_is\data\m113a3_01_is_5.paa",
-			"\x\cfp\addons\i_is\data\m113a3_01_is_6.paa",
-			"\x\cfp\addons\i_is\data\m113a3_01_is_7.paa"
+			"\x\cfp\addons\vehicles\m113a3\m113a3_01_is_1.paa",
+			"\x\cfp\addons\vehicles\m113a3\m113a3_01_is_2.paa",
+			"\x\cfp\addons\vehicles\m113a3\m113a3_01_is_3.paa",
+			"\x\cfp\addons\vehicles\m113a3\m113a3_01_is_4.paa",
+			"\x\cfp\addons\vehicles\m113a3\m113a3_01_is_5.paa",
+			"\x\cfp\addons\vehicles\m113a3\m113a3_01_is_6.paa",
+			"\x\cfp\addons\vehicles\m113a3\m113a3_01_is_7.paa"
 		] select _randomSeed1];
 	};
 
@@ -248,9 +248,9 @@ if (isServer) then
 
 		_this setObjectTextureGlobal [0, [
 			"\x\cfp\addons\vehicles\bmp2\bmp2_desert_hull_base.paa",
-			"\x\cfp\addons\i_is\data\bmp2_is_desert_hull_1.paa",
-			"\x\cfp\addons\i_is\data\bmp2_is_desert_hull_2.paa",
-			"\x\cfp\addons\i_is\data\bmp2_is_desert_hull_3.paa"
+			"\x\cfp\addons\vehicles\bmp2\bmp2_is_desert_hull_1.paa",
+			"\x\cfp\addons\vehicles\bmp2\bmp2_is_desert_hull_2.paa",
+			"\x\cfp\addons\vehicles\bmp2\bmp2_is_desert_hull_3.paa"
 		] select _randomSeed1];
 	};
 
@@ -265,9 +265,9 @@ if (isServer) then
 
 		_this setObjectTextureGlobal [0, [
 			"\x\cfp\addons\vehicles\bmp2\bmp2_desert_hull_base.paa",
-			"\x\cfp\addons\i_is\data\bmp2_is_desert_hull_1.paa",
-			"\x\cfp\addons\i_is\data\bmp2_is_desert_hull_2.paa",
-			"\x\cfp\addons\i_is\data\bmp2_is_desert_hull_3.paa"
+			"\x\cfp\addons\vehicles\bmp2\bmp2_is_desert_hull_1.paa",
+			"\x\cfp\addons\vehicles\bmp2\bmp2_is_desert_hull_2.paa",
+			"\x\cfp\addons\vehicles\bmp2\bmp2_is_desert_hull_3.paa"
 		] select _randomSeed1];
 	};
 
@@ -284,9 +284,9 @@ if (isServer) then
 
 		_this setObjectTextureGlobal [0, [
 			"\x\cfp\addons\vehicles\bmp2\bmp2_desert_hull_base.paa",
-			"\x\cfp\addons\i_is\data\bmp2_is_desert_hull_1.paa",
-			"\x\cfp\addons\i_is\data\bmp2_is_desert_hull_2.paa",
-			"\x\cfp\addons\i_is\data\bmp2_is_desert_hull_3.paa"
+			"\x\cfp\addons\vehicles\bmp2\bmp2_is_desert_hull_1.paa",
+			"\x\cfp\addons\vehicles\bmp2\bmp2_is_desert_hull_2.paa",
+			"\x\cfp\addons\vehicles\bmp2\bmp2_is_desert_hull_3.paa"
 		] select _randomSeed1];
 
 
@@ -312,11 +312,11 @@ if (isServer) then
 			_randomSeed1 = _this getVariable "BIS_randomSeed1";
 
 			_this setObjectTextureGlobal [0, [
-				"\x\cfp\addons\i_is\data\CUP_IS_T34_1_C_1.paa",
-				"\x\cfp\addons\i_is\data\CUP_IS_T34_1_C_2.paa"
+				"\x\cfp\addons\vehicles\T34\CUP_IS_T34_1_C_1.paa",
+				"\x\cfp\addons\vehicles\T34\CUP_IS_T34_1_C_2.paa"
 			] select _randomSeed1];
 
-			_this setObjectTextureGlobal [2, "\x\cfp\addons\i_is\data\CUP_IS_T34_3_C.paa"];
+			_this setObjectTextureGlobal [2, "\x\cfp\addons\vehicles\T34\CUP_IS_T34_3_C.paa"];
 
 		};
 
@@ -335,16 +335,16 @@ if (isServer) then
 			_randomSeed2 = _this getVariable "BIS_randomSeed2";
 
 			_this setObjectTextureGlobal [0, [
-				"\x\cfp\addons\i_is\data\CUP_IS_T34_1_D_1.paa",
-				"\x\cfp\addons\i_is\data\CUP_IS_T34_1_D_2.paa",
-				"\x\cfp\addons\i_is\data\CUP_IS_T34_1_D_3.paa"
+				"\x\cfp\addons\vehicles\T34\CUP_IS_T34_1_D_1.paa",
+				"\x\cfp\addons\vehicles\T34\CUP_IS_T34_1_D_2.paa",
+				"\x\cfp\addons\vehicles\T34\CUP_IS_T34_1_D_3.paa"
 			] select _randomSeed1];
 
-			_this setObjectTextureGlobal [1, "\x\cfp\addons\i_is\data\CUP_IS_T34_2_D.paa"];
+			_this setObjectTextureGlobal [1, "\x\cfp\addons\vehicles\T34\CUP_IS_T34_2_D.paa"];
 
 			_this setObjectTextureGlobal [2, [
-				"\x\cfp\addons\i_is\data\CUP_IS_T34_3_D.paa",
-				"\x\cfp\addons\i_is\data\CUP_IS_T34_3_D_2.paa"
+				"\x\cfp\addons\vehicles\T34\CUP_IS_T34_3_D.paa",
+				"\x\cfp\addons\vehicles\T34\CUP_IS_T34_3_D_2.paa"
 			] select _randomSeed2];
 
 			_this setObjectTextureGlobal [3, "\x\cfp\addons\vehicles\t34\CUP_T34_wheels_tan2.paa"];
@@ -375,15 +375,15 @@ if (isServer) then
 
 			_this setObjectTextureGlobal [0, [
 
-				"\x\cfp\addons\i_is\data\CUP_IS_T34_1_D_4.paa",
-				"\x\cfp\addons\i_is\data\CUP_IS_T34_1_D_5.paa"
+				"\x\cfp\addons\vehicles\T34\CUP_IS_T34_1_D_4.paa",
+				"\x\cfp\addons\vehicles\T34\CUP_IS_T34_1_D_5.paa"
 			] select _randomSeed1];
 
-			_this setObjectTextureGlobal [1, "\x\cfp\addons\i_is\data\CUP_IS_T34_2_D.paa"];
+			_this setObjectTextureGlobal [1, "\x\cfp\addons\vehicles\T34\CUP_IS_T34_2_D.paa"];
 
 			_this setObjectTextureGlobal [2, [
-				"\x\cfp\addons\i_is\data\CUP_IS_T34_3_D.paa",
-				"\x\cfp\addons\i_is\data\CUP_IS_T34_3_D_2.paa"
+				"\x\cfp\addons\vehicles\T34\CUP_IS_T34_3_D.paa",
+				"\x\cfp\addons\vehicles\T34\CUP_IS_T34_3_D_2.paa"
 			] select _randomSeed2];
 
 			_this setObjectTextureGlobal [3, "\x\cfp\addons\vehicles\t34\CUP_T34_wheels_tan2.paa"];
@@ -406,8 +406,8 @@ if (isServer) then
 
 		_this setObjectTextureGlobal [0, [
 			"\x\cfp\addons\vehicles\t55\t55_body_desert.paa",
-			"\x\cfp\addons\i_is\data\t55_body_desert_is_1.paa",
-			"\x\cfp\addons\i_is\data\t55_body_desert_is_2.paa"
+			"\x\cfp\addons\vehicles\t55\t55_body_desert_is_1.paa",
+			"\x\cfp\addons\vehicles\t55\t55_body_desert_is_2.paa"
 		] select _randomSeed1];
 
 		_this setObjectTextureGlobal [1, "\x\cfp\addons\vehicles\t55\t55_tower_desert.paa"];
