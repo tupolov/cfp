@@ -219,15 +219,12 @@ class CfgUnitInsignia
         texture = "\x\cfp\addons\insignia\data\AFG_NationalPoliceCustoms.paa";
         textureVehicle = "";
     };
-    class USP_PATCH_BASE
-    {
-        author = "Siege-A";
-        textureVehicle = "";
-    };
-    class USP_PATCH_INSIG_BASE: USP_PATCH_BASE
+
+    class USP_PATCH_INSIG_BASE: SP_StrikingPanthers
     {
         scopeArsenal = 2;
         displayName = "[BASE] USP Patches";
+        author = "Siege-A";
         texture = "\x\cfp\addons\insignia\data\usp_patches_base_ca.paa";
     };
     class USP_PATCH_BLOOD_ABNEG_BLK: USP_PATCH_INSIG_BASE
