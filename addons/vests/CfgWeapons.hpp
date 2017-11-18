@@ -17,4 +17,5 @@ class CfgWeapons {
 	#include "OpforRig1\CfgWeapons.hpp"
 	#include "PlateCarrier1\CfgWeapons.hpp"
 	#include "Tactical1\CfgWeapons.hpp"
+	#include "AK_Vest\CfgWeapons.hpp"
 };
