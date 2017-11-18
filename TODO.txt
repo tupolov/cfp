@@ -1,7 +1,6 @@
 TO DO
 
 27. Add support for CBA XEH
-29. Add ackbar protocol
 1. Investigate why base BIS A3 classes are displayed as CFP mod items
 2. Fix alpha in item preview images
 3. Update config layout to match best practice.
@@ -13,7 +12,6 @@ TO DO
 11. Add updated CUP factions
 12. Add new factions
 14. Add country insignias
-15. Redo Brit woodland vehicle inheritance
 18. merge uniforms
 20. Covert tabs to spaces
 23. convert ISC randomisation to CFP randomisation
@@ -21,6 +19,9 @@ TO DO
 25. ALiVE static data entries
 26. Add group icons to ISC factions
 28. Add CfgPatches macros
+30. Template factions
+
+
 
 
 

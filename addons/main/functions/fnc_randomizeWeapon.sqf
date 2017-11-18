@@ -42,6 +42,8 @@ params ["_unit","_cat"];
 private _category = format["%1List",_cat];
 private _array = (configFile >> "CfgVehicles" >> typeOf _unit >> _category) call BIS_fnc_getCfgData;
 
+if (count _array == 0) exitWith {};
+
 private _item = selectRandomWeighted _array;
 
 // Need to check vest/backpack capacity?
