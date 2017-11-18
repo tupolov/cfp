@@ -82,6 +82,7 @@ CFP factions cover major current conflict zones such as Afghanistan, Iraq, Syria
 - Columbian Armed Forces
 - Egyptian Armed Forces
 - Free Syrian Army
+- International Committee of the Red Cross
 - Islamic State
 - Myanmar Armed Forces
 - PMC: Blackwater 
