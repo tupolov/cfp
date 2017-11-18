@@ -21,18 +21,18 @@
     <sup><strong>Requires the latest version of <a href="https://github.com/CBATeam/CBA_A3/releases">CBA A3</a>.<br/>Requires the latest version of Community Upgrade Project (Weapons, Units and Vehicles).<br/>Visit us on <a href="https://twitter.com/CFPMod">Twitter</a> | <a href="https://www.facebook.com/CFPMod">Facebook</a> | <a href="https://www.youtube.com/c/ACE3Mod">YouTube</a> | <a href="https://www.reddit.com/r/arma/search?q=CFP&restrict_sr=on&sort=new&t=all">Reddit</a></strong></sup>
 </p>
 
-**CFP** is a community project to provide Arma 3 with over 80 real world factions involved in current and historical armed conflicts. CFP comes in two flavours - CFP and CFP Ultimate, both require **Community Upgrade Project (CUP)**. 
+**CFP** is a community project to provide Arma 3 with over 90 real world factions involved in current and historical armed conflicts. CFP comes in two flavours - CFP and CFP Ultimate, both require **Community Upgrade Project (CUP)**. 
 
 CFP offers not only enhanced vanilla CUP factions but also a huge number of new factions using CUP and community donated assets. CFP includes custom assets and textures in order to help expand whats possible with CUP. 
 
-CFP Ultimate enhances base CFP factions and introduces new factions using the most efficient combination of community gear, weapon and vehicle addons. CFP Ultimate requires VSM, SMA, NIArms, VME PLA and xxx. 
+CFP Ultimate enhances base CFP factions and introduces new factions using the most efficient combination of community gear, weapon and vehicle addons. CFP Ultimate requires NIArms, SMA, VME PLA and VSM.  
 
 Factions are delivered in a modular way, enabling groups to maintain their own tailored version of CFP by simply excluding any components they don't need, or those possibly in conflict with other mods. 
 
 ## Features
-- 81 new factions!
-- CFP introduces 53 new factions based on CUP assets (including 9 new civilian factions)
-- CFP Ultimate enhances the CFP factions and introduces 28 new factions based on common community addons (VSM, SMA, NIArms, VME etc)
+- 88 new factions!
+- CFP introduces 58 new factions based on CUP assets (including 9 new civilian factions)
+- CFP Ultimate enhances the CFP factions and introduces 30 new factions based on common community addons (VSM, SMA, NIArms, VME etc)
 - Replaces certain CUP factions with factions split by theater (i.e. Arid/Desert, Woodland/Jungle, Artic/Snow etc)
 - Enhances certain CUP factions with additonal groups and loadouts (i.e. special forces)
 - Includes AccuracyThruVolume's Iraq/Syria pack
@@ -46,42 +46,75 @@ Factions are delivered in a modular way, enabling groups to maintain their own t
 
 ## CFP Factions
 
+CFP factions cover major current conflict zones such as Afghanistan, Iraq, Syria, Libya, Sudan, Philippines, Ukraine, South America and African states dealing with Boko Haram, Al-Shabaab and islamic insurgencies such as Nigeria, Kenya, Central African Republic, Somalia, Yemen and Mali. In addition, western regular forces and special forces are represented along with historical and current aggressors. 
+
 ### OPFOR
-- Abu Sayyef
-- al-Qassam Brigades
-- al-Qaeda
-- al-Shabaab
-- Boko Haram
+- 2003 Iraqi Army
+- Abu Sayyaf
+- Al-Qaeda
+- Al-Qassam Brigades
+- Al-Shabaab
+- Boko Haram (Nigeria)
 - Central African Rebels
-- Colombian FARC Rebels
+- Columbian FARC Rebels
 - Hezbollah
-- Houthis
-- Islamic State
+- Houthis (Yemen)
 - IRA
-- Russian Army/Airborne factions specifically for Arid/Desert, Woodland/Jungle etc
-- Russian Special Operations factions specifically for Arid/Desert, Woodland/Jungle etc
-- Russian Naval factions such as Spetznaz split by theater.
+- Islamic State
+- Libyan National Army
+- Mali Islamic Rebels
+- Russian Army / Airborne Forces
+- Russian Ministry of Internal Affairs
+- Russian Navy (Infantry)
+- Russian Special Operations 
 - Somali Rebels
+- South Thailand Insurgents
+- Sudan Army
+- Syrian Air Force
 - Syrian Arab Army
 - Taliban Insurgents
-- Western Ultranationalists / Terrorists
+- Western Ultranationalists / Terrorist
 
 ### INDFOR
-- al-Nusra Front
+- Afghani Militia
+- Central African Republic Armed Forces
+- Chechnya Militia
+- Columbian Armed Forces
+- Egyptian Armed Forces
+- Free Syrian Army
 - Islamic State
+- Myanmar Armed Forces
+- PMC: Blackwater 
+- Sudanese Rebels
+- Ulster Loyalist Paramilitaries (Ulster Volunteer Force)
+- UNAMID (Niger, Chad, Cameroon etc)
+- Yemen Armed Forces
 
 ### BLUFOR
 - Afghan Police
-- Afghan Army, Commandos and Special Forces
-- British Army factions specifically for Arid/Desert, Woodland/Jungle and including special forces (SAS, SRR)
-- Bundeswehr Army for each theater, specifically KSK special forces.
-- Iraqi Army
+- Afghanistan Army 
+- Armed Forces of the Czech Republic - split into theater factions
+- British Army - split into theater factions
+- British Royal Marines
+- Bundewehr KSK  - split into theater factions
+- Iraqi Armed Forces
 - Iraqi Police
-- Peshmerga (Iraqi Kurds)
-- US Army factions specifically for Arid/Desert, Woodland/Jungle and including special forces (Delta, Green Beret, SOAR)
-- US Central Intelligence Agency (Middle East)
-- US Marine Corps factions specifically for Arid/Desert, Woodland/Jungle and including special forces (MARSOC)
-- Yekîneyên Parastina Gel (YPG) (Syrian Kurds)
+- Kenyan Defence Forces
+- Kurdish Peshmurga
+- Libyan National Transitional Council / Government Forces
+- Malian Government Forces
+- Nigerian Armed Forces (Nigeria)
+- Philippine Army
+- Royal Thai Army
+- Saudi Armed Forces
+- Somali National Army
+- Ugandan Defence Forces
+- Ukraine Armed Forces
+- US Army - split into theater factions
+- US CIA (Middle East) 
+- US CIA (South America)
+- US Marine Corps - split into theater factions
+- YPG (Syrian Kurds)
 
 ### CIVILIAN
 - African (Christian)
@@ -89,24 +122,53 @@ Factions are delivered in a modular way, enabling groups to maintain their own t
 - Asian
 - Iraqi/Syrian
 - Middle Eastern
+- South American
 
 ## CFP Ultimate Factions (in addition to enhancing CFP factions)
 
+CFP Utlimate focuses on delivering enhanced CFP factions, BLUFOR special forces and major additions to OPFOR including China, North Korea and Iran.
+
 ### OPFOR
--
+- Islamic Republic of Iran Army
+- Iranian Revoluntionary Guard Corps 
+- Chinese People's Liberaton Army split into various theater specific factions
+- Korean People's Army (North Korea)
 
 ### INDFOR
--
+- Pakistani Special Service
 
 ### BLUFOR
--
+- Afghanistan Commandos and Special Forces
+- Australian Army including 2nd Commandos
+- British Special Air Service
+- British Special Reconnaisance Regiment
+- Canadian Army including Joint Task Force 2
+- French Foreign Legion
+- Germnan Special Forces
+- Israeli Armed Forces
+- Israeli Special Forces
+- Jordanian Armed Forces
+- New Zealand Army including Special Air Service Regiment
+- Philippine Army
+- Polish Army including GROM
+- Royal Air Force including RAF Regiment
+- Royal Navy including British Special Boat Service
+- Royal Thai Army
+- Somali DANAB special forces
+- Special Operations Aviation Regiment
+- Taiwan Armed Forces
+- US Air Force including Pararescue
+- US Army 75th Ranger Regiment
+- US Army Delta Force
+- US Army Green Berets
+- US Navy including Navy SEALS
+- US Marine Corps MARSOC
 
 ## Getting started
 
-CFP requires Arma 3, the latest version of <a href="https://github.com/CBATeam/CBA_A3/releases">CBA A3</a> and the latest verion of CUP. CFP follows the same development and implementation approach as ACE3. See the following pages for help and information on how to get started with CFP: 
+CFP requires Arma 3, the latest version of <a href="https://github.com/CBATeam/CBA_A3/releases">CBA A3</a> and the latest verion of <a href="http://cup-arma3.org">CUP</a>. CFP follows the same development and implementation approach as ACE3. See the following pages for help and information on how to get started with CFP: 
 
 - [Installation guide](https://ace3mod.com/wiki/user/installation-guide.html)
-- [Information center](https://ace3mod.com/wiki/user/information-center.html)
 
 ## Contributing
 
@@ -118,9 +180,7 @@ To contribute something to CFP, simply fork this repository and submit your pull
 
 ### Submitting issues and requesting features
 
-Please, use our [Issue Tracker](https://github.com/tupolov/CFP/issues) to report a bug, propose a feature, or suggest changes to the existing ones. See also:
-- [How to report an issue](https://ace3mod.com/wiki/user/how-to-report-an-issue.html)
-- [How to make a feature request](https://ace3mod.com/wiki/user/how-to-make-a-feature-request.html)
+Please, use our [Issue Tracker](https://github.com/tupolov/CFP/issues) to report a bug, propose a feature, or suggest changes to the existing ones.
 
 ### Testing & building
 
@@ -128,30 +188,6 @@ To help us test the latest development changes, download our master branch ([dir
 
 - [Setting up the development environment](https://ace3mod.com/wiki/development/setting-up-the-development-environment.html) – step-by-step instructions on how to properly setup and build a version of CFP for testing purposes.
 
-### Get in touch
-
-<table>
-  <tr>
-    <td><a href="https://slackin.alivemod.com/">Slack</a></td>
-    <td>We have a public Slack team that anyone can join. This is where all our developers and contributors hang out and where we make announcements</td>
-  </tr>
-
-  <tr>
-    <td><a href="https://twitter.com/CFPMod">Twitter</a></td>
-    <td>You can follow our Twitter account to get updates and various links to guides</td>
-  </tr>
-  <tr>
-    <td><a href="https://www.facebook.com/CFPMod">Facebook</a></td>
-    <td>You can follow our Facebook account to get updates and various links to guides</td>
-  </tr>
-
-  <tr>
-    <td><a href="https://forums.bistudio.com/topic/TBC">Bohemia Interactive Forum</a></td>
-    <td>We have a dedicated thread on the Bohemia Forums for the CFP project</td>
-  </tr>  
-</table>
-
 ## License
 
 CFP is licensed under the Creative Commons No-Derivatives 4.0 License ([CC-ND](https://github.com/tupolov/CFP/blob/master/LICENSE)).
-
