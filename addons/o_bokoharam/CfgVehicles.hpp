@@ -103,6 +103,11 @@ class CfgVehicles {
 	    "CFP_U_KhetPartug_Short_M81", 0.25,
 	    "CFP_U_KhetPartug_Long_M81", 0.25,
 	    "CFP_U_KhetPartug_Long_olive", 0.25,
+	    "CFP_U_KhetPartug_Long_olive_polygon", 0.25,
+	    "CFP_U_KhetPartug_Long_light_olive", 0.25,
+	    "CFP_U_KhetPartug_Short_olive", 0.25,
+	    "CFP_U_KhetPartug_Short_light_olive", 0.25,
+	    "CFP_U_KhetPartug_Short_olive_polygon", 0.25,
 	    "CUP_O_TKI_Khet_Partug_04", 0.25,
 	    "CUP_O_TKI_Khet_Partug_02", 0.25
 		};

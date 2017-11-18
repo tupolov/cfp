@@ -13,7 +13,7 @@ class CfgGroups {
             class Infantry {
                 name = "Infantry";
 
-                class o_sorebel_infantry_rebel_squad_1 {
+                class cfp_o_sorebel_infantry_rebel_squad_1 {
                     name = "Rebel Squad 1";
                     side = 0;
                     faction = "CFP_O_SOREBEL";
@@ -24,65 +24,65 @@ class CfgGroups {
                         position[] = { 0 , 0 , 0 };
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Warlord_01";
+                        vehicle = "CFP_O_SOREBEL_Warlord_01";
                     };
                     class Unit1 {
                         position[] = { 5 , -5 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Rifleman_01";
+                        vehicle = "CFP_O_SOREBEL_Rifleman_01";
                     };
                     class Unit2 {
                         position[] = { -5 , -5 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Sharpshooter_01";
+                        vehicle = "CFP_O_SOREBEL_Sharpshooter_01";
                     };
                     class Unit3 {
                         position[] = { 10 , -10 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Grenadier_01";
+                        vehicle = "CFP_O_SOREBEL_Grenadier_01";
                     };
                     class Unit4 {
                         position[] = { -10 , -10 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Autorifleman_01";
+                        vehicle = "CFP_O_SOREBEL_Autorifleman_01";
                     };
                     class Unit5 {
                         position[] = { 15 , -15 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Bonesetter_01";
+                        vehicle = "CFP_O_SOREBEL_Bonesetter_01";
                     };
                     class Unit6 {
                         position[] = { -15 , -15 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Rifleman_AT_01";
+                        vehicle = "CFP_O_SOREBEL_Rifleman_AT_01";
                     };
                     class Unit7 {
                         position[] = { 20 , -20 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Rifleman_AA_01";
+                        vehicle = "CFP_O_SOREBEL_Rifleman_AA_01";
                     };
                     class Unit8 {
                         position[] = { -20 , -20 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Rifleman_Light_01";
+                        vehicle = "CFP_O_SOREBEL_Rifleman_Light_01";
                     };
                     class Unit9 {
                         position[] = { 25 , -25 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Rifleman_2_01";
+                        vehicle = "CFP_O_SOREBEL_Rifleman_2_01";
                     };
                 };
 
-                class o_sorebel_infantry_rebel_squad_2 {
+                class cfp_o_sorebel_infantry_rebel_squad_2 {
                     name = "Rebel Squad 2";
                     side = 0;
                     faction = "CFP_O_SOREBEL";
@@ -93,65 +93,65 @@ class CfgGroups {
                         position[] = { 0 , 0 , 0 };
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Warlord_2_01";
+                        vehicle = "CFP_O_SOREBEL_Warlord_2_01";
                     };
                     class Unit1 {
                         position[] = { 5 , -5 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Rifleman_2_01";
+                        vehicle = "CFP_O_SOREBEL_Rifleman_2_01";
                     };
                     class Unit2 {
                         position[] = { -5 , -5 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Rifleman_3_01";
+                        vehicle = "CFP_O_SOREBEL_Rifleman_3_01";
                     };
                     class Unit3 {
                         position[] = { 10 , -10 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Marksman_01";
+                        vehicle = "CFP_O_SOREBEL_Marksman_01";
                     };
                     class Unit4 {
                         position[] = { -10 , -10 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Autorifleman_2_01";
+                        vehicle = "CFP_O_SOREBEL_Autorifleman_2_01";
                     };
                     class Unit5 {
                         position[] = { 15 , -15 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Rifleman_AT_2_01";
+                        vehicle = "CFP_O_SOREBEL_Rifleman_AT_2_01";
                     };
                     class Unit6 {
                         position[] = { -15 , -15 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Bonesetter_2_01";
+                        vehicle = "CFP_O_SOREBEL_Bonesetter_2_01";
                     };
                     class Unit7 {
                         position[] = { 20 , -20 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Grenadier_2_01";
+                        vehicle = "CFP_O_SOREBEL_Grenadier_2_01";
                     };
                     class Unit8 {
                         position[] = { -20 , -20 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Rifleman_AA_2_01";
+                        vehicle = "CFP_O_SOREBEL_Rifleman_AA_2_01";
                     };
                     class Unit9 {
                         position[] = { 25 , -25 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Rifleman_Light_01";
+                        vehicle = "CFP_O_SOREBEL_Rifleman_Light_01";
                     };
                 };
 
-                class o_sorebel_infantry_rebel_fireteam_1 {
+                class cfp_o_sorebel_infantry_rebel_fireteam_1 {
                     name = "Rebel Fireteam 1";
                     side = 0;
                     faction = "CFP_O_SOREBEL";
@@ -162,29 +162,29 @@ class CfgGroups {
                         position[] = { 0 , 0 , 0 };
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Rifleman_01";
+                        vehicle = "CFP_O_SOREBEL_Rifleman_01";
                     };
                     class Unit1 {
                         position[] = { 5 , -5 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Grenadier_01";
+                        vehicle = "CFP_O_SOREBEL_Grenadier_01";
                     };
                     class Unit2 {
                         position[] = { -5 , -5 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Autorifleman_2_01";
+                        vehicle = "CFP_O_SOREBEL_Autorifleman_2_01";
                     };
                     class Unit3 {
                         position[] = { 10 , -10 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Rifleman_AT_2_01";
+                        vehicle = "CFP_O_SOREBEL_Rifleman_AT_2_01";
                     };
                 };
 
-                class o_sorebel_infantry_rebel_fireteam_2 {
+                class cfp_o_sorebel_infantry_rebel_fireteam_2 {
                     name = "Rebel Fireteam 2";
                     side = 0;
                     faction = "CFP_O_SOREBEL";
@@ -195,29 +195,29 @@ class CfgGroups {
                         position[] = { 0 , 0 , 0 };
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Rifleman_2_01";
+                        vehicle = "CFP_O_SOREBEL_Rifleman_2_01";
                     };
                     class Unit1 {
                         position[] = { 5 , -5 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Grenadier_2_01";
+                        vehicle = "CFP_O_SOREBEL_Grenadier_2_01";
                     };
                     class Unit2 {
                         position[] = { -5 , -5 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Autorifleman_01";
+                        vehicle = "CFP_O_SOREBEL_Autorifleman_01";
                     };
                     class Unit3 {
                         position[] = { 10 , -10 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Rifleman_AT_01";
+                        vehicle = "CFP_O_SOREBEL_Rifleman_AT_01";
                     };
                 };
 
-                class o_sorebel_infantry_demo_team {
+                class cfp_o_sorebel_infantry_demo_team {
                     name = "Demo Team";
                     side = 0;
                     faction = "CFP_O_SOREBEL";
@@ -228,17 +228,17 @@ class CfgGroups {
                         position[] = { 0 , 0 , 0 };
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Bombmaker_01";
+                        vehicle = "CFP_O_SOREBEL_Bombmaker_01";
                     };
                     class Unit1 {
                         position[] = { 5 , -5 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Bombmaker_2_01";
+                        vehicle = "CFP_O_SOREBEL_Bombmaker_2_01";
                     };
                 };
 
-                class o_sorebel_infantry_dshkm_team_high {
+                class cfp_o_sorebel_infantry_dshkm_team_high {
                     name = "DShKM Team [High]";
                     side = 0;
                     faction = "CFP_O_SOREBEL";
@@ -249,17 +249,17 @@ class CfgGroups {
                         position[] = { 0 , 0 , 0 };
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Rifleman_01";
+                        vehicle = "CFP_O_SOREBEL_Rifleman_01";
                     };
                     class Unit1 {
                         position[] = { 5 , -5 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Gunner_DShKM_High_01";
+                        vehicle = "CFP_O_SOREBEL_Gunner_DShKM_High_01";
                     };
                 };
 
-                class o_sorebel_infantry_dshkm_team_low {
+                class cfp_o_sorebel_infantry_dshkm_team_low {
                     name = "DShKM Team [Low]";
                     side = 0;
                     faction = "CFP_O_SOREBEL";
@@ -270,17 +270,17 @@ class CfgGroups {
                         position[] = { 0 , 0 , 0 };
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Rifleman_2_01";
+                        vehicle = "CFP_O_SOREBEL_Rifleman_2_01";
                     };
                     class Unit1 {
                         position[] = { 5 , -5 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Gunner_DShKM_Low_01";
+                        vehicle = "CFP_O_SOREBEL_Gunner_DShKM_Low_01";
                     };
                 };
 
-                class o_sorebel_infantry_spg_9team {
+                class cfp_o_sorebel_infantry_spg_9team {
                     name = "SPG-9 Team";
                     side = 0;
                     faction = "CFP_O_SOREBEL";
@@ -291,17 +291,17 @@ class CfgGroups {
                         position[] = { 0 , 0 , 0 };
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Rifleman_3_01";
+                        vehicle = "CFP_O_SOREBEL_Rifleman_3_01";
                     };
                     class Unit1 {
                         position[] = { 5 , -5 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Gunner_SPG_01";
+                        vehicle = "CFP_O_SOREBEL_Gunner_SPG_01";
                     };
                 };
 
-                class o_sorebel_infantry_mortar_team {
+                class cfp_o_sorebel_infantry_mortar_team {
                     name = "Mortar Team";
                     side = 0;
                     faction = "CFP_O_SOREBEL";
@@ -312,13 +312,13 @@ class CfgGroups {
                         position[] = { 0 , 0 , 0 };
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Warlord_2_01";
+                        vehicle = "CFP_O_SOREBEL_Warlord_2_01";
                     };
                     class Unit1 {
                         position[] = { 5 , -5 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Gunner_Mortar_01";
+                        vehicle = "CFP_O_SOREBEL_Gunner_Mortar_01";
                     };
                 };
 
@@ -332,7 +332,7 @@ class CfgGroups {
             class Motorized {
                 name = "Motorized Infantry";
 
-                class o_sorebel_motorized_pk_technical {
+                class cfp_o_sorebel_motorized_pk_technical {
                     name = "PK Technical";
                     side = 0;
                     faction = "CFP_O_SOREBEL";
@@ -343,11 +343,11 @@ class CfgGroups {
                         position[] = { 0 , 0 , 0 };
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Technical_PK_01";
+                        vehicle = "CFP_O_SOREBEL_Technical_PK_01";
                     };
                 };
 
-                class o_sorebel_motorized_dshkm_technical {
+                class cfp_o_sorebel_motorized_dshkm_technical {
                     name = "DShKM Technical";
                     side = 0;
                     faction = "CFP_O_SOREBEL";
@@ -358,11 +358,11 @@ class CfgGroups {
                         position[] = { 0 , 0 , 0 };
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Technical_DSHkM_01";
+                        vehicle = "CFP_O_SOREBEL_Technical_DSHkM_01";
                     };
                 };
 
-                class o_sorebel_motorized_spg_technical {
+                class cfp_o_sorebel_motorized_spg_technical {
                     name = "SPG Technical ";
                     side = 0;
                     faction = "CFP_O_SOREBEL";
@@ -373,11 +373,11 @@ class CfgGroups {
                         position[] = { 0 , 0 , 0 };
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Technical_SPG_01";
+                        vehicle = "CFP_O_SOREBEL_Technical_SPG_01";
                     };
                 };
 
-                class o_sorebel_motorized_truck_squad {
+                class cfp_o_sorebel_motorized_truck_squad {
                     name = "Truck squad";
                     side = 0;
                     faction = "CFP_O_SOREBEL";
@@ -388,67 +388,67 @@ class CfgGroups {
                         position[] = { 0 , 0 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Truck_01";
+                        vehicle = "CFP_O_SOREBEL_Truck_01";
                     };
                     class Unit1 {
                         position[] = { 5 , -5 , 0 };
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Warlord_01";
+                        vehicle = "CFP_O_SOREBEL_Warlord_01";
                     };
                     class Unit2 {
                         position[] = { -5 , -5 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Rifleman_01";
+                        vehicle = "CFP_O_SOREBEL_Rifleman_01";
                     };
                     class Unit3 {
                         position[] = { 10 , -10 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Rifleman_Light_01";
+                        vehicle = "CFP_O_SOREBEL_Rifleman_Light_01";
                     };
                     class Unit4 {
                         position[] = { -10 , -10 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Rifleman_2_01";
+                        vehicle = "CFP_O_SOREBEL_Rifleman_2_01";
                     };
                     class Unit5 {
                         position[] = { 15 , -15 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Rifleman_AT_01";
+                        vehicle = "CFP_O_SOREBEL_Rifleman_AT_01";
                     };
                     class Unit6 {
                         position[] = { -15 , -15 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Rifleman_AA_01";
+                        vehicle = "CFP_O_SOREBEL_Rifleman_AA_01";
                     };
                     class Unit7 {
                         position[] = { 20 , -20 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Grenadier_01";
+                        vehicle = "CFP_O_SOREBEL_Grenadier_01";
                     };
                     class Unit8 {
                         position[] = { -20 , -20 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Autorifleman_01";
+                        vehicle = "CFP_O_SOREBEL_Autorifleman_01";
                     };
                     class Unit9 {
                         position[] = { 25 , -25 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Bonesetter_01";
+                        vehicle = "CFP_O_SOREBEL_Bonesetter_01";
                     };
                     class Unit10 {
                         position[] = { -25 , -25 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_o_sorebel_Marksman_01";
+                        vehicle = "CFP_O_SOREBEL_Marksman_01";
                     };
                 };
 
