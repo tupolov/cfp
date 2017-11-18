@@ -1,6 +1,6 @@
 class StageTI
 {
-	texture="x\cfp\addons\vests\data\tak_soldier_equip_ti_ca.paa";
+	texture="x\cfp\addons\vests\AK_Vest\data\tak_soldier_equip_ti_ca.paa";
 };
 ambient[]={1,1,1,1};
 diffuse[]={1,1,1,1};
@@ -12,7 +12,7 @@ PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture="x\cfp\addons\vests\data\tak_soldier_equip_NOHQ.tga";
+	texture="x\cfp\addons\vests\AK_Vest\data\tak_soldier_equip_NOHQ.tga";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -48,7 +48,7 @@ class Stage3
 };
 class Stage4
 {
-	texture="x\cfp\addons\vests\data\tak_soldier_equip_AS.tga";
+	texture="x\cfp\addons\vests\AK_Vest\data\tak_soldier_equip_AS.tga";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -60,7 +60,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="x\cfp\addons\vests\data\tak_soldier_equip_SMDI.tga";
+	texture="x\cfp\addons\vests\AK_Vest\data\tak_soldier_equip_SMDI.tga";
 	uvSource="tex";
 	class uvTransform
 	{

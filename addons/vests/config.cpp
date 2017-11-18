@@ -75,7 +75,14 @@ class CfgPatches
 			"SP_Tactical1_Green",
 			"SP_Tactical1_Tan",
 			"SP_Tactical1_Grey",
-			"SP_Tactical1_White"
+			"SP_Tactical1_White",
+			"CFP_AK_VEST",
+			"CFP_AK_VEST_Black",
+			"CFP_AK_VEST_EDRL",
+			"CFP_AK_VEST_LOlive",
+			"CFP_AK_VEST_Olive",
+			"CFP_AK_VEST_Tan"
+			
 		};
         author = MODULE_AUTHOR;
         authors[] = {"SP Craig", "Tupolov"};
