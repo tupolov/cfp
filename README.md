@@ -63,10 +63,10 @@ CFP factions cover major current conflict zones such as Afghanistan, Iraq, Syria
 - Islamic State
 - Libyan National Army
 - Mali Islamic Rebels
-- Russian Army / Airborne Forces
+- Russian Army / Airborne Forces - split into various theater specific factions
 - Russian Ministry of Internal Affairs
 - Russian Navy (Infantry)
-- Russian Special Operations 
+- Russian Special Operations - split into various theater specific factions
 - Somali Rebels
 - South Thailand Insurgents
 - Sudan Army
@@ -132,7 +132,7 @@ CFP Utlimate focuses on delivering enhanced CFP factions, BLUFOR special forces 
 ### OPFOR
 - Islamic Republic of Iran Army
 - Iranian Revoluntionary Guard Corps 
-- Chinese People's Liberaton Army split into various theater specific factions
+- Chinese People's Liberaton Army - split into various theater specific factions
 - Korean People's Army (North Korea)
 
 ### INDFOR
