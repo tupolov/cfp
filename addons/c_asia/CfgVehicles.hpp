@@ -9,12 +9,12 @@ class CfgVehicles {
 
     class O_Soldier_F;
     class O_Soldier_F_OCimport_01 : O_Soldier_F { scope = 0; class EventHandlers; };
-    class O_Soldier_F_OCimport_02 : O_Soldier_F_OCimport_01 { class EventHandlers; };;
+    class O_Soldier_F_OCimport_02 : O_Soldier_F_OCimport_01 { class EventHandlers; };
 
     class CUP_C_LR_Transport_CTK;
     class CUP_C_LR_Transport_CTK_OCimport_01 : CUP_C_LR_Transport_CTK { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_C_LR_Transport_CTK_OCimport_02 : CUP_C_LR_Transport_CTK_OCimport_01 { 
-        class EventHandlers; 
+    class CUP_C_LR_Transport_CTK_OCimport_02 : CUP_C_LR_Transport_CTK_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CargoTurret_01;
             class CargoTurret_02;
@@ -31,8 +31,8 @@ class CfgVehicles {
 
     class CUP_C_SUV_CIV;
     class CUP_C_SUV_CIV_OCimport_01 : CUP_C_SUV_CIV { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_C_SUV_CIV_OCimport_02 : CUP_C_SUV_CIV_OCimport_01 { 
-        class EventHandlers; 
+    class CUP_C_SUV_CIV_OCimport_02 : CUP_C_SUV_CIV_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CargoTurret_03;
             class CargoTurret_04;
@@ -58,8 +58,8 @@ class CfgVehicles {
 
     class CUP_C_Datsun;
     class CUP_C_Datsun_OCimport_01 : CUP_C_Datsun { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_C_Datsun_OCimport_02 : CUP_C_Datsun_OCimport_01 { 
-        class EventHandlers; 
+    class CUP_C_Datsun_OCimport_02 : CUP_C_Datsun_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CargoTurret_01;
             class CargoTurret_02;
@@ -68,8 +68,8 @@ class CfgVehicles {
 
     class CUP_C_Ural_Civ_01;
     class CUP_C_Ural_Civ_01_OCimport_01 : CUP_C_Ural_Civ_01 { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_C_Ural_Civ_01_OCimport_02 : CUP_C_Ural_Civ_01_OCimport_01 { 
-        class EventHandlers; 
+    class CUP_C_Ural_Civ_01_OCimport_02 : CUP_C_Ural_Civ_01_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CargoTurret_01;
             class CargoTurret_02;
@@ -78,8 +78,8 @@ class CfgVehicles {
 
     class C_Offroad_02_unarmed_F;
     class C_Offroad_02_unarmed_F_OCimport_01 : C_Offroad_02_unarmed_F { scope = 0; class EventHandlers; class Turrets; };
-    class C_Offroad_02_unarmed_F_OCimport_02 : C_Offroad_02_unarmed_F_OCimport_01 { 
-        class EventHandlers; 
+    class C_Offroad_02_unarmed_F_OCimport_02 : C_Offroad_02_unarmed_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CargoTurret_01;
             class CargoTurret_02;
@@ -89,8 +89,8 @@ class CfgVehicles {
 
     class C_Offroad_01_F;
     class C_Offroad_01_F_OCimport_01 : C_Offroad_01_F { scope = 0; class EventHandlers; class Turrets; };
-    class C_Offroad_01_F_OCimport_02 : C_Offroad_01_F_OCimport_01 { 
-        class EventHandlers; 
+    class C_Offroad_01_F_OCimport_02 : C_Offroad_01_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CargoTurret_01;
             class CargoTurret_02;
@@ -106,7 +106,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Civilian 1";
         side = 3;
-	genericNames = "Chinesemen";
+        genericNames = "Chinesemen";
         faction = "CFP_C_ASIA";
 
         identityTypes[] = { "Head_Asian" , "LanguageCHI_F" };
@@ -132,7 +132,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Civilian 2";
         side = 3;
-	genericNames = "Chinesemen";
+        genericNames = "Chinesemen";
         faction = "CFP_C_ASIA";
 
         identityTypes[] = { "Head_Asian" , "LanguageCHI_F" };
@@ -158,7 +158,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Civilian 3";
         side = 3;
-	genericNames = "Chinesemen";
+        genericNames = "Chinesemen";
         faction = "CFP_C_ASIA";
 
         identityTypes[] = { "Head_Asian" , "LanguageCHI_F" };
@@ -184,7 +184,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Civilian 4";
         side = 3;
-	genericNames = "Chinesemen";
+        genericNames = "Chinesemen";
         faction = "CFP_C_ASIA";
 
         identityTypes[] = { "Head_Asian" , "LanguageCHI_F" };
@@ -210,7 +210,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Civilian 5";
         side = 3;
-	genericNames = "Chinesemen";
+        genericNames = "Chinesemen";
         faction = "CFP_C_ASIA";
 
         identityTypes[] = { "Head_Asian" , "LanguageCHI_F" };
@@ -236,7 +236,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Civilian 6";
         side = 3;
-	genericNames = "Chinesemen";
+        genericNames = "Chinesemen";
         faction = "CFP_C_ASIA";
 
         identityTypes[] = { "Head_Asian" , "LanguageCHI_F" };
@@ -262,7 +262,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Civilian 7";
         side = 3;
-	genericNames = "Chinesemen";
+        genericNames = "Chinesemen";
         faction = "CFP_C_ASIA";
 
         identityTypes[] = { "Head_Asian" , "LanguageCHI_F" };
@@ -288,7 +288,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Civilian 8";
         side = 3;
-	genericNames = "Chinesemen";
+        genericNames = "Chinesemen";
         faction = "CFP_C_ASIA";
 
         identityTypes[] = { "Head_Asian" , "LanguageCHI_F" };
@@ -314,7 +314,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Civilian 9";
         side = 3;
-	genericNames = "Chinesemen";
+        genericNames = "Chinesemen";
         faction = "CFP_C_ASIA";
 
         identityTypes[] = { "Head_Asian" , "LanguageCHI_F" };
@@ -340,7 +340,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Civilian 10";
         side = 3;
-	genericNames = "Chinesemen";
+        genericNames = "Chinesemen";
         faction = "CFP_C_ASIA";
 
         identityTypes[] = { "Head_Asian" , "LanguageCHI_F" };
@@ -366,7 +366,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Civilian 11";
         side = 3;
-	genericNames = "Chinesemen";
+        genericNames = "Chinesemen";
         faction = "CFP_C_ASIA";
 
         identityTypes[] = { "Head_Asian" , "LanguageCHI_F" };
@@ -392,7 +392,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Civilian 12";
         side = 3;
-	genericNames = "Chinesemen";
+        genericNames = "Chinesemen";
         faction = "CFP_C_ASIA";
 
         identityTypes[] = { "Head_Asian" , "LanguageCHI_F" };
