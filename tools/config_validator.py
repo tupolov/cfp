@@ -90,7 +90,7 @@ def main(argv):
         raise Exception("Failed to switch to addon dir on P:")
 
     useMakePbo = False
-    checkExternalFiles = True
+    checkExternalFiles = False
     
     if "skipExt" in argv:
         print("Skipping External Files Check");
