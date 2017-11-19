@@ -70,13 +70,90 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Offroad\ATacsFG1.paa","A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa"};
                 factions[] = {};
             };
-            class Urban
+            class ISIS
             {
-                displayName = "Standard Urban";
-                author = "SP Craig";
-                textures[] = {"\x\cfp\addons\vehicles\Offroad\NodUrban1.paa","A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa"};
+                displayName = "Standard ISIS";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Offroad\offroad_isis_01.paa","A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa"};
                 factions[] = {};
             };
+	    class ISISDirty1
+            {
+                displayName = "Standard ISIS Dirty 1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Offroad\offroad_isis_01_dirty_1.paa","A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa"};
+                factions[] = {};
+            };
+	    class ISISDirty2
+            {
+                displayName = "Standard ISIS Dirty 2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Offroad\offroad_isis_01_dirty_2.paa","A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa"};
+                factions[] = {};
+            };
+	    class ISIS2
+            {
+                displayName = "Standard ISIS2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Offroad\offroad_isis_02.paa","A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa"};
+                factions[] = {};
+	    };
+	    class ISIS2Dirty1
+            {
+                displayName = "Standard ISIS2 Dirty 1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Offroad\offroad_isis_02_dirty_1.paa","A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa"};
+                factions[] = {};
+	    };
+	    class ISIS2Dirty2
+            {
+                displayName = "Standard ISIS2 Dirty 2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Offroad\offroad_isis_02_dirty_2.paa","A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa"};
+                factions[] = {};
+	    };
+	    class ISIS3 
+            {
+                displayName = "Standard ISIS3";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Offroad\offroad_isis_03.paa","A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa"};
+                factions[] = {};
+	    };
+	    class ISIS3Dirty1
+            {
+                displayName = "Standard ISIS3 Dirty 1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Offroad\offroad_isis_03_dirty_1.paa","A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa"};
+                factions[] = {};
+	    };
+	    class ISIS3Dirty2
+            {
+                displayName = "Standard ISIS3 Dirty 2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Offroad\offroad_isis_03_dirty_2.paa","A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa"};
+                factions[] = {};
+	    };
+	    class ISIS4 
+            {
+                displayName = "Standard ISIS4";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Offroad\offroad_isis_04.paa","A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa"};
+                factions[] = {};
+	    };
+	    class ISIS4Dirty1
+            {
+                displayName = "Standard ISIS4 Dirty 1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Offroad\offroad_isis_04_dirty_1.paa","A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa"};
+                factions[] = {};
+	    };
+	    class ISIS4Dirty2
+            {
+                displayName = "Standard ISIS4 Dirty 2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Offroad\offroad_isis_04_dirty_2.paa","A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa"};
+                factions[] = {};
+	    };
         };
     };
 
