@@ -485,7 +485,68 @@ class CfgVehicles
 	    };
         };
     };
-
+    class CUP_UAZ_Base : Offroad_01_base_F
+    {
+	class textureSources
+	{
+	    class UAZMAIN1
+	    {
+		displayName = "Main UAZ1";
+		author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\UAZ\uaz_main_1.paa"};
+                factions[] = {};
+	    };
+	    class UAZMAIN2
+	    {
+		displayName = "Main UAZ2";
+		author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\UAZ\uaz_main_2.paa"};
+                factions[] = {};
+	    };
+	    class UAZMAIN3
+	    {
+		displayName = "Main UAZ3";
+		author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\UAZ\uaz_main_3.paa"};
+                factions[] = {};
+	    };
+	    class UAZMAIN4
+	    {
+		displayName = "Main UAZ4";
+		author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\UAZ\uaz_main_4.paa"};
+                factions[] = {};
+	    };
+	    class UAZMAINIS1
+	    {
+		displayName = "Main UAZIS1";
+		author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\UAZ\uaz_main_is_1.paa"};
+                factions[] = {};
+	    };
+	    class UAZMAINIS2
+	    {
+		displayName = "Main UAZIS2";
+		author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\UAZ\uaz_main_is_2.paa"};
+                factions[] = {};
+	    };
+	    class UAZMAINIS3
+	    {
+		displayName = "Main UAZIS3";
+		author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\UAZ\uaz_main_is_3.paa"};
+                factions[] = {};
+	    };
+	    class UAZMAINIS4
+	    {
+		displayName = "Main UAZIS4";
+		author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\UAZ\uaz_main_is_4.paa"};
+                factions[] = {};
+	    };
+        };
+    };
     class CUP_Datsun_Base;
 
     class CUP_Datsun_civil_Base : CUP_Datsun_Base
@@ -774,7 +835,8 @@ class CfgVehicles
 	    };
         };
     };
-        class CUP_Datsun_PK_Base : CUP_Datsun_Base
+   
+    class CUP_Datsun_PK_Base : CUP_Datsun_Base
     {
         class textureSources
         {
@@ -1056,6 +1118,133 @@ class CfgVehicles
                 displayName = "ISIS Datsun10d2";
                 author = "AccuracyThruVolume";
                 textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_10_d_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+        };
+    };
+    class CUP_LR_Base;
+
+    class CUP_LR_MG_Base : CUP_LR_Base
+    {
+        class textureSources
+        {
+            class ISIS
+            {
+                displayName = "Standard ISIS";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\LandRover\lr_base_baf_1.paa"};
+                factions[] = {};
+            };
+            class ISIS2
+            {
+                displayName = "Standard ISIS2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\LandRover\lr_base_baf_2.paa"};
+                factions[] = {};
+	    };
+        };
+    };
+    class CUP_LR_Transport_Base : CUP_LR_Base
+    {
+        class textureSources
+        {
+            class ISIS
+            {
+                displayName = "Standard ISIS";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\LandRover\lr_base_baf_1.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\lr_acr_spec_co.paa"};
+                factions[] = {};
+            };
+            class ISIS2
+            {
+                displayName = "Standard ISIS2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\LandRover\lr_base_baf_2.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\lr_acr_spec_co.paa"};
+                factions[] = {};
+	    };
+        };
+    };
+    class CUP_LR_SPG9_Base : CUP_LR_Base
+    {
+        class textureSources
+        {
+            class ISIS
+            {
+                displayName = "Standard ISIS";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\LandRover\lr_base_baf_1.paa"};
+                factions[] = {};
+            };
+            class ISIS2
+            {
+                displayName = "Standard ISIS2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\LandRover\lr_base_baf_2.paa"};
+                factions[] = {};
+	    };
+        };
+    };
+    
+    class CUP_Ural_BaseTurret;
+
+    class CUP_Ural_Base : CUP_Ural_BaseTurret
+    {
+	class textureSources
+	{
+	    class URALIS1
+	    {
+		displayName = "URAL IS1";
+		author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Ural\ural_is_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_plachta_sla_co.paa"};
+                factions[] = {};
+	    };
+	    class URALIS2
+	    {
+		displayName = "URAL IS2";
+		author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Ural\ural_is_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_plachta_sla_co.paa"};
+                factions[] = {};
+	    };
+	    class URALIS3
+	    {
+		displayName = "URAL IS3";
+		author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Ural\ural_is_3.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_plachta_sla_co.paa"};
+                factions[] = {};
+	    };
+	    class URALIS4
+	    {
+		displayName = "URAL IS4";
+		author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Ural\ural_is_4.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_plachta_sla_co.paa"};
+                factions[] = {};
+	    };
+	    class URALIS5
+	    {
+		displayName = "URAL IS5";
+		author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Ural\ural_is_5.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_plachta_sla_co.paa"};
+                factions[] = {};
+	    };
+	    class URALIS6
+	    {
+		displayName = "URAL IS6";
+		author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Ural\ural_is_6.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_plachta_sla_co.paa"};
+                factions[] = {};
+	    };
+	    class URALIS7
+	    {
+		displayName = "URAL IS7";
+		author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Ural\ural_is_7.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_plachta_sla_co.paa"};
+                factions[] = {};
+	    };
+	    class URALIS8
+	    {
+		displayName = "URAL IS8";
+		author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Ural\ural_is_8.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_plachta_sla_co.paa"};
                 factions[] = {};
 	    };
         };
