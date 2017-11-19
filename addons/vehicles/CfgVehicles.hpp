@@ -485,4 +485,579 @@ class CfgVehicles
 	    };
         };
     };
+
+    class CUP_Datsun_Base;
+
+    class CUP_Datsun_civil_Base : CUP_Datsun_Base
+    {
+        class textureSources
+        {
+            class ISDatsun1c1
+            {
+                displayName = "ISIS Datsun1c1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_1_c_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+            };
+            class ISDatsun1c2
+            {
+                displayName = "ISIS Datsun1c2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_1_c_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+            };
+            class ISDatsun1d1
+            {
+                displayName = "ISIS Datsun1d1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_1_d_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+            };
+            class ISDatsun1d2
+            {
+                displayName = "ISIS Datsun1d2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_1_d_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+            };
+            class ISDatsun2c1
+            {
+                displayName = "ISIS Datsun2c1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_2_c_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+            };
+            class ISDatsun2c2
+            {
+                displayName = "ISIS Datsun2c2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_2_c_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+            };
+            class ISDatsun2d1
+            {
+                displayName = "ISIS Datsun2d1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_2_d_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+            };
+            class ISDatsun2d2
+            {
+                displayName = "ISIS Datsun2d2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_2_d_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+            };
+            class ISDatsun3c1
+            {
+                displayName = "ISIS Datsun3c1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_3_c_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+            };
+	    class ISDatsun3c2
+	    {
+		displayName = "ISIS Datsun3c2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_3_c_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun3d1
+            {
+                displayName = "ISIS Datsun3d1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_3_d_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+            };
+	    class ISDatsun3d2
+            {
+                displayName = "ISIS Datsun3d2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_3_d_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+            };
+	    class ISDatsun4c1
+            {
+                displayName = "ISIS Datsun4c1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_4_c_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+            };
+	    class ISDatsun4c2
+            {
+                displayName = "ISIS Datsun4c2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_4_c_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun4d1
+            {
+                displayName = "ISIS Datsun4d1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_4_d_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun4d2
+            {
+                displayName = "ISIS Datsun4d2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_4_d_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun5c1 
+            {
+                displayName = "ISIS Datsun5c1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_5_c_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun5c2
+            {
+                displayName = "ISIS Datsun5c2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_5_c_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun5d1
+            {
+                displayName = "ISIS Datsun5d1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_5_d_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun5d2
+            {
+                displayName = "ISIS Datsun5d2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_5_d_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun6c1
+            {
+                displayName = "ISIS Datsun6c1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_6_c_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun6c2
+            {
+                displayName = "ISIS Datsun6c2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_6_c_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun6d1
+            {
+                displayName = "ISIS Datsun6d1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_6_d_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun6d2
+            {
+                displayName = "ISIS Datsun6d2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_6_d_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun7c1
+            {
+                displayName = "ISIS Datsun7c1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_7_c_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun7c2
+            {
+                displayName = "ISIS Datsun7c2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_7_c_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun7d1
+            {
+                displayName = "ISIS Datsun7d1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_7_d_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun7d2
+            {
+                displayName = "ISIS Datsun7d2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_7_d_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun8c1
+            {
+                displayName = "ISIS Datsun8c1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_8_c_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun8c2
+            {
+                displayName = "ISIS Datsun8c2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_8_c_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun8d1
+            {
+                displayName = "ISIS Datsun8d1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_8_d_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun8d2
+            {
+                displayName = "ISIS Datsun8d2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_8_d_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun9c1
+            {
+                displayName = "ISIS Datsun9c1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_9_c_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun9c2
+            {
+                displayName = "ISIS Datsun9c2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_9_c_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun9d1
+            {
+                displayName = "ISIS Datsun9d1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_9_d_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun9d2
+            {
+                displayName = "ISIS Datsun9d2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_9_d_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun10c1
+            {
+                displayName = "ISIS Datsun10c1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_10_c_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun10c2
+            {
+                displayName = "ISIS Datsun10c2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_10_c_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun10d1
+            {
+                displayName = "ISIS Datsun10d1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_10_d_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun10d2
+            {
+                displayName = "ISIS Datsun10d2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_10_d_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+        };
+    };
+        class CUP_Datsun_PK_Base : CUP_Datsun_Base
+    {
+        class textureSources
+        {
+            class ISDatsun1c1
+            {
+                displayName = "ISIS Datsun1c1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_1_c_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+            };
+            class ISDatsun1c2
+            {
+                displayName = "ISIS Datsun1c2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_1_c_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+            };
+            class ISDatsun1d1
+            {
+                displayName = "ISIS Datsun1d1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_1_d_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+            };
+            class ISDatsun1d2
+            {
+                displayName = "ISIS Datsun1d2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_1_d_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+            };
+            class ISDatsun2c1
+            {
+                displayName = "ISIS Datsun2c1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_2_c_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+            };
+            class ISDatsun2c2
+            {
+                displayName = "ISIS Datsun2c2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_2_c_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+            };
+            class ISDatsun2d1
+            {
+                displayName = "ISIS Datsun2d1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_2_d_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+            };
+            class ISDatsun2d2
+            {
+                displayName = "ISIS Datsun2d2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_2_d_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+            };
+            class ISDatsun3c1
+            {
+                displayName = "ISIS Datsun3c1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_3_c_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+            };
+	    class ISDatsun3c2
+	    {
+		displayName = "ISIS Datsun3c2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_3_c_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun3d1
+            {
+                displayName = "ISIS Datsun3d1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_3_d_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+            };
+	    class ISDatsun3d2
+            {
+                displayName = "ISIS Datsun3d2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_3_d_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+            };
+	    class ISDatsun4c1
+            {
+                displayName = "ISIS Datsun4c1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_4_c_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+            };
+	    class ISDatsun4c2
+            {
+                displayName = "ISIS Datsun4c2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_4_c_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun4d1
+            {
+                displayName = "ISIS Datsun4d1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_4_d_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun4d2
+            {
+                displayName = "ISIS Datsun4d2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_4_d_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun5c1 
+            {
+                displayName = "ISIS Datsun5c1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_5_c_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun5c2
+            {
+                displayName = "ISIS Datsun5c2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_5_c_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun5d1
+            {
+                displayName = "ISIS Datsun5d1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_5_d_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun5d2
+            {
+                displayName = "ISIS Datsun5d2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_5_d_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun6c1
+            {
+                displayName = "ISIS Datsun6c1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_6_c_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun6c2
+            {
+                displayName = "ISIS Datsun6c2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_6_c_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun6d1
+            {
+                displayName = "ISIS Datsun6d1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_6_d_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun6d2
+            {
+                displayName = "ISIS Datsun6d2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_6_d_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun7c1
+            {
+                displayName = "ISIS Datsun7c1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_7_c_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun7c2
+            {
+                displayName = "ISIS Datsun7c2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_7_c_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun7d1
+            {
+                displayName = "ISIS Datsun7d1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_7_d_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun7d2
+            {
+                displayName = "ISIS Datsun7d2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_7_d_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun8c1
+            {
+                displayName = "ISIS Datsun8c1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_8_c_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun8c2
+            {
+                displayName = "ISIS Datsun8c2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_8_c_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun8d1
+            {
+                displayName = "ISIS Datsun8d1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_8_d_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun8d2
+            {
+                displayName = "ISIS Datsun8d2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_8_d_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun9c1
+            {
+                displayName = "ISIS Datsun9c1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_9_c_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun9c2
+            {
+                displayName = "ISIS Datsun9c2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_9_c_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun9d1
+            {
+                displayName = "ISIS Datsun9d1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_9_d_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun9d2
+            {
+                displayName = "ISIS Datsun9d2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_9_d_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun10c1
+            {
+                displayName = "ISIS Datsun10c1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_10_c_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun10c2
+            {
+                displayName = "ISIS Datsun10c2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_10_c_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun10d1
+            {
+                displayName = "ISIS Datsun10d1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_10_d_1.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+	    class ISDatsun10d2
+            {
+                displayName = "ISIS Datsun10d2";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_10_d_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
+                factions[] = {};
+	    };
+        };
+    };
 };
