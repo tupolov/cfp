@@ -339,7 +339,7 @@
 			mass=80;
 		};
 	};
-	
+
 	class CFP_U_BattleDressUniform_multicam: Uniform_Base
 	{
 		scope=2;
@@ -356,3 +356,5 @@
 			mass=80;
 		};
 	};
+
+	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Tiger Stripe 2)",tigerstripe2,"AccuracyThruVolume")

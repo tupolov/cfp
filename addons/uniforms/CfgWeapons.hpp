@@ -1,3 +1,19 @@
+#define ADD_UNIFORM_W(CLASS,FOLDER,NAME,CAMO,AUTHOR) \
+	class CFP_U_##CLASS##_##CAMO##: Uniform_Base \
+	{ \
+		scope=2; \
+		model = "\x\cfp\addons\models\Suitpack"; \
+		displayName = NAME; \
+		picture = \x\cfp\addons\uniforms\##CLASS##\##FOLDER##\ui\NodUrban.jpg; \
+		author = AUTHOR; \
+		class ItemInfo: UniformItem \
+		{ \
+			uniformModel = "-"; \
+			uniformClass = CFP_##CLASS##_##CAMO##; \
+			containerClass="Supply60"; \
+			mass=80; \
+		}; \
+	};
 
 class CfgWeapons {
 	class Uniform_Base;

@@ -656,3 +656,5 @@
 			mass=80;
 		};
 	};
+
+	ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Tiger Stripe 2)",tigerstripe2,"AccuracyThruVolume")
