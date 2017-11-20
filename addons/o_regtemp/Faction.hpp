@@ -9,12 +9,13 @@
 	#define MANTYPE Normal
 	#define SFTYPE SpecOps
 
-// BASE MAN DEFINES
+// BASE & SF MAN DEFINES
 	#define MAN O_Soldier_F
 	#define NAMES "Afromen"
 	#define IDENTITY {"Head_African","LanguagePER_F","G_IRAN_default"}
 	#define IDENTITY_DIVER identityTypes[] = {"Head_African","LanguagePER_F","G_NATO_diver"};
 	#define UNIFORM "CFP_U_FieldUniform_multicam"
+	#define UNIFORM_SF "CFP_U_FieldUniform_multicam"
 
 // VEHICLE DEFINES
 	#define RECON CUP_O_UAZ_Unarmed_TKA
@@ -92,11 +93,92 @@
 	#define DIVER_LOADOUT ALiVE_orbatCreator_loadout[] = {{"arifle_SDAR_F","","","",{"20Rnd_556x45_UW_mag",20},{},""},{},{"hgun_P07_snds_F","muzzle_snds_L","","",{"16Rnd_9x21_Mag",16},{},""},{"U_B_Wetsuit",{{"FirstAidKit",1},{"30Rnd_556x45_Stanag_red",3,30},{"20Rnd_556x45_UW_mag",2,20},{"16Rnd_9x21_Mag",2,16},{"SmokeShellBlue",2,1},{"Chemlight_blue",4,1}}},{"V_RebreatherB",{}},{"B_Assault_Diver",{{"30Rnd_556x45_Stanag_red",2,30},{"20Rnd_556x45_UW_mag",2,20},{"SatchelCharge_Remote_Mag",1,1},{"MiniGrenade",3,1},{"SmokeShellBlue",2,1},{"Chemlight_blue",4,1},{{"Rangefinder","","","",{},{},""},1}}},"","G_B_Diving",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 // RANDOM GEAR
-	#define RANDOMGEAR 100
-	#define RANDOMWEP 0
-	#define INSIGNIALIST \
-	            "MORALE", 0.5, \
-	            "BLOOD", 0.5
+	/*
+	#define RANDOMGEAR \
+		randomGearProbability = 100; \
+		insigniaList[] = { \
+	        "MORALE", 0.5, \
+	        "BLOOD", 0.5 \
+	    }; \
+		headgearList[] = { \
+	        "", 0.4, \
+			"SP_BaseballCap_Tan", 0.3, \
+	        "SP_BaseballCap_Black", 0.3, \
+			"H_WatchCap_cbr", 0.25, \
+	        "H_WatchCap_khk", 0.2, \
+	        "H_WatchCap_blk", 0.2 \
+	    }; \
+		uniformList[] = { \
+			"U_BG_Guerilla2_1", 0.25, \
+			"U_BG_Guerilla2_2", 0.25, \
+			"U_BG_Guerilla2_3", 0.25, \
+			"U_BG_Guerilla3_1", 0.25 \
+		}; \
+	    nvgList[] = { \
+	        "", 1 \
+	    }; \
+	    facewearList[] = { \
+	    	"", 0.6, \
+	    	"G_Bandanna_blk", 0.1, \
+	        "G_Bandanna_khk", 0.2, \
+	        "G_Bandanna_tan", 0.2, \
+	        "CUP_TK_NeckScarf", 0.3, \
+	        "G_Shades_Black",0.3, \
+	        "G_Shades_Blue",0.3, \
+	        "SP_Shades_Black",0.3, \
+	        "CUP_FR_Neckscarf2",0.3 \
+	    }; \
+		vestList[] = { \
+			"CUP_V_I_RACS_Carrier_Vest", 0.25, \
+	        "CUP_V_I_RACS_Carrier_Vest_2", 0.25, \
+	        "CUP_V_I_RACS_Carrier_Vest_3", 0.25, \
+			"V_Chestrig_khk", 0.25, \
+	        "V_Chestrig_oli", 0.25 \
+		}; \
+		backpackList[] = { \
+	        "",0.7, \
+			"B_AssaultPack_cbr", 0.25, \
+	        "B_AssaultPack_khk", 0.25, \
+	        "B_AssaultPack_mcamo", 0.25, \
+	        "B_AssaultPack_cbr", 0.25, \
+			"SP_Carryall_Tan", 0.2, \
+			"B_Carryall_khk", 0.2 \
+	    };
 
+	#define RANDOMWEAP \
+		randomWeaponProbability = 100; \
+	    grenadeList[] = { \
+	    	{"HandGrenade",4}, 0.25, \
+			{"MiniGrenade",4}, 0.25, \
+			{"CUP_HandGrenade_M67",4}, 0.25, \
+			{"CUP_HandGrenade_L109A2_HE",4}, 0.25 \
+	    }; \
+	    rifleList[] = { \
+	    	{"CUP_arifle_M4A1_camo_Aim",{"CUP_30Rnd_556x45_Stanag",6}}, 0.4, \
+	    	{"CUP_arifle_M4A3_desert_Aim_Flashlight",{"CUP_30Rnd_556x45_Stanag",6}}, 0.4, \
+	    	{"CUP_arifle_M4A1_Aim",{"CUP_30Rnd_556x45_Stanag",6}}, 0.4, \
+	    	{"CUP_arifle_AK74M",{"CUP_30Rnd_545x39_AK_M",6}}, 0.3, \
+	    	{"CUP_arifle_AK107",{"CUP_30Rnd_545x39_AK_M",6}}, 0.2, \
+	    	{"CUP_arifle_AKS74",{"CUP_30Rnd_545x39_AK_M",6}}, 0.3, \
+	    	{"CUP_arifle_AKS74_pso",{"CUP_30Rnd_545x39_AK_M",6}}, 0.1, \
+	    	{"CUP_arifle_AKS74U",{"CUP_30Rnd_545x39_AK_M",6}}, 0.1, \
+	    	{"CUP_arifle_CZ805_A2_Holo_Laser",{"CUP_30Rnd_556x45_Stanag",6}}, 0.2, \
+	    	{"CUP_arifle_Mk16_CQC_FG_Aim_Laser_snds",{"CUP_30Rnd_556x45_Stanag",6}}, 0.2 \
+	    }; \
+	    handgunList[] = { \
+	        {"CUP_hgun_Glock17",{"CUP_17Rnd_9x19_glock17",3}}, 0.8, \
+	       	{"CUP_hgun_M9",{"CUP_15Rnd_9x19_M9",3}}, 0.4, \
+	    	{"CUP_hgun_Makarov",{"CUP_8Rnd_9x18_Makarov_M",3}}, 0.4, \
+	    	{"CUP_hgun_MicroUzi",{"CUP_30Rnd_9x19_UZI",3}}, 0.2, \
+	    	{"CUP_hgun_M9_snds",{"CUP_15Rnd_9x19_M9",3}}, 0.2 \
+	    }; \
+	    explosiveList[] = { \
+	    	{"",0}, 0.9, \
+	    	{"CUP_TimeBomb_M",2}, 0.2, \
+	    	{"CUP_Mine_M",2}, 0.2, \
+	    	{"CUP_PipeBomb_M",2}, 0.2, \
+	    	{"CUP_IED_V1_M",2}, 0.2 \
+	    };
+	*/
 
 

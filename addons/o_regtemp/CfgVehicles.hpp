@@ -44,12 +44,8 @@ class WeaponCloudsMGun;
 
 class CfgEditorSubCategories
 {
-    #ifdef MANTYPE
-        CSUBCAT(MANTYPE)
-    #endif
-    #ifdef SFTYPE
-        CSUBCAT(SFTYPE)
-    #endif
+    CSUBCAT(MANTYPE)
+    CSUBCAT(SFTYPE)
 };
 
 
@@ -67,14 +63,14 @@ class CfgVehicles
             genericNames = NAMES;
             uniformClass = UNIFORM;
 
-            randomGearProbability = RANDOMGEAR;
-            randomWeaponProbability = RANDOMWEP;
-
             BASE_LOADOUT
 
-            #ifdef INSIGNIALIST
-                insigniaList[] = { INSIGNIALIST
-                };
+            #ifdef RANDOMGEAR
+                RANDOMGEAR
+            #endif
+
+            #ifdef RANDOMWEAP
+                RANDOMWEAP
             #endif
 
             class EventHandlers : EventHandlers {
@@ -260,7 +256,7 @@ class CfgVehicles
             accuracy = 3.9;
             canHideBodies = 1;
             camouflage = 0.8;
-            uniformClass = "U_B_CombatUniform_mcam";
+            uniformClass = UNIFORM_SF;
             editorSubcategory = QUOTE(ESUBCAT(SFTYPE));
             displayName = "Operator";
             #ifdef SPECOPS_LOADOUT

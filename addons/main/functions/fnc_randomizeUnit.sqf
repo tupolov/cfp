@@ -26,14 +26,6 @@ Tupolov
 Peer reviewed:
 nil
 ----------------------------------------------------------------------------
-
-Random items
-- grenade
-- rifle
-- handgun
-- explosive
-- launcher
-
 */
 
 #define GEAR_CATEGORIES ["uniform","headgear","facewear","nvg","vest","backpack","speaker","insignia"]
