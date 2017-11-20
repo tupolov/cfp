@@ -4,7 +4,6 @@
 		scope=2; \
 		model = "\x\cfp\addons\models\Suitpack"; \
 		displayName = NAME; \
-		picture = \x\cfp\addons\uniforms\##CLASS##\##FOLDER##\ui\NodUrban.jpg; \
 		author = AUTHOR; \
 		class ItemInfo: UniformItem \
 		{ \
