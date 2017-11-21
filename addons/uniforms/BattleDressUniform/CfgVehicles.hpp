@@ -298,6 +298,13 @@
 
 	};
 
+	class CFP_BattleDressUniform_DPMWoodlandGreen: CFP_Uniform
+	{
+		displayName = "Battle Dress Uniform (DPM Woodland / Green)";
+		uniformClass = "CFP_U_BattleDressUniform_DPMWoodlandGreen";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_DPMWoodland.paa","\x\cfp\addons\uniforms\FieldUniform\0000_Standard\Green.paa"};
+	};
+
 	#define UNIFORM_V(NAME,CAMO) \
 	class CFP_BattleDressUniform_##CAMO##: CFP_Uniform { \
 		displayName = NAME; \
