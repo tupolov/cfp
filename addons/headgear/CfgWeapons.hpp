@@ -18,6 +18,7 @@ class CfgWeapons {
     #include "GhillieHat\CfgWeapons.hpp"
     #include "HeadSet\CfgWeapons.hpp"
     #include "Hood\CfgWeapons.hpp"
+    #include "Lungee_Shemagh\CfgWeapons.hpp"
     #include "M1Helmet\CfgWeapons.hpp"
     #include "M88Helmet\CfgWeapons.hpp"
     #include "M88PSMHelmet\CfgWeapons.hpp"
