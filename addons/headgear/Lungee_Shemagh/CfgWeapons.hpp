@@ -4,11 +4,11 @@
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Lungee Shemagh (Black / Tan)";
-		picture = "\x\cfp\addons\headgear\Lungee_Shemagh\data\ui\CheckTan.jpg";
+		picture = "\x\cfp\addons\headgear\Lungee_Shemagh\data\ui\CheckWhite.jpg";
 		model = "\x\cfp\addons\models\Lungee_Shemagh";
 		hiddenSelections[] = {"Camo","Camo1"};
 		hiddenSelectionsTextures[] = {
-			"\x\cfp\addons\headgear\Lungee_Shemagh\data\loc_opfor01_1_co.paa",
+			"\x\cfp\addons\headgear\Lungee_Shemagh\data\lungee_shemagh_cream_check.paa",
 			"\x\cfp\addons\headgear\Lungee_Shemagh\data\tex2_co.paa"
 		};
 		author = "Tupolov";
@@ -22,7 +22,7 @@
 			passThrough = 0.30;
 			hiddenSelections[] = {"Camo","Camo1"};
 			hiddenSelectionsTextures[] = {
-				"\x\cfp\addons\headgear\Lungee_Shemagh\data\loc_opfor01_1_co.paa",
+				"\x\cfp\addons\headgear\Lungee_Shemagh\data\lungee_shemagh_cream_check.paa",
 				"\x\cfp\addons\headgear\Lungee_Shemagh\data\tex2_co.paa"
 			};
 
