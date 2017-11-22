@@ -172,7 +172,7 @@ Where available we have used the correct assets for each faction. Where an asset
 Equipment | Weapons | Ground Vehicles | Aircraft | Naval
 --- | --- | --- | --- | --- 
 MBAV | Beneli M4 | Husky | Tornado GR4 | Mk6 Boat (UK)
- -  | HK416 | L-ATV | Eurocopter | - |
+ Gorka | HK416 | L-ATV | Eurocopter | - |
    
 ## Getting started
 
