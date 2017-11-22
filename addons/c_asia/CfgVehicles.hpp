@@ -110,305 +110,162 @@ class CfgVehicles {
         faction = "CFP_C_ASIA";
 
         identityTypes[] = { "Head_Asian" , "LanguageCHI_F" };
+	uniformClass = "U_I_C_Soldier_Bandit_4_F";
 
+	ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_I_C_Soldier_Bandit_4_F",{}},{},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+
+	randomGearProbability = 100;
+
+	// Asian Clothing
+		uniformList[] = {
+	"U_C_Poor_1", 0.2,
+	"U_C_Man_casual_1_F", 0.2,
+	"U_C_Man_casual_2_F", 0.2,
+	"U_C_Man_casual_3_F", 0.2,
+	"U_C_Man_casual_4_F", 0.2,
+	"U_C_Man_casual_5_F", 0.2,
+	"U_C_Man_casual_6_F", 0.2,
+	"CUP_U_O_CHDKZ_Lopotev", 0.2,
+	"CUP_U_I_GUE_Anorak_03", 0.2,
+	"U_I_C_Soldier_Bandit_4_F", 0.2,
+	"CUP_U_C_Citizen_02", 0.2,
+	"U_C_Poloshirt_burgundy", 0.2,
+	"U_C_Poloshirt_redwhite", 0.2,
+	"U_C_Poloshirt_blue", 0.2,
+	"U_C_Poloshirt_salmon", 0.2,
+	"U_C_Poloshirt_stripped", 0.2,
+	"U_C_Poloshirt_tricolour", 0.2,
+	"U_BG_Guerilla2_1", 0.2,
+	"U_BG_Guerilla2_2", 0.2,
+	"U_BG_Guerilla2_3", 0.2,
+	"U_BG_Guerilla3_1", 0.2,
+	"U_C_HunterBody_grn", 0.2,
+	"U_OrestesBody", 0.2,
+	"CUP_I_B_PMC_Unit_1", 0.2,
+	"CUP_I_B_PMC_Unit_2", 0.2,
+	"CUP_I_B_PMC_Unit_3", 0.2,
+	"CUP_I_B_PMC_Unit_4", 0.2,
+		};
+
+	// Asian Headgear
+		headgearList[] = {
+	"", 0.8,
+	"H_Bandanna_blu", 0.2,
+	"H_Bandanna_cbr", 0.2,
+	"H_Bandanna_gry", 0.2,
+	"H_Bandanna_khk", 0.2,
+	"H_Bandanna_sgg", 0.2,
+	"H_Booniehat_tan", 0.2,
+	"H_Cap_blu", 0.2,
+	"H_Cap_oli", 0.2,
+	"H_Cap_red", 0.2,
+	"H_Cap_tan", 0.2,
+	"H_Cap_blk", 0.2,
+	"SP_BaseballCap_Yellow", 0.2,
+	"SP_BaseballCap_White", 0.2,
+	"SP_BoonieHat_Black", 0.2
+		};
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (isServer) then {_unit = _this select 0;_onSpawn = {_unit = _this select 0;_unit setUnitLoadout [[],[],[],['U_I_C_Soldier_Bandit_1_F',[['FirstAidKit',1]]],[],[],'','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _unit;};[_unit] call _onSpawn;_unit addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
+
 
     };
 
-    class CFP_C_ASIA_Civilian_2_01 : O_Soldier_F_OCimport_02 {
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Civilian 2";
-        side = 3;
-        genericNames = "Chinesemen";
-        faction = "CFP_C_ASIA";
-
-        identityTypes[] = { "Head_Asian" , "LanguageCHI_F" };
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (isServer) then {_unit = _this select 0;_onSpawn = {_unit = _this select 0;_unit setUnitLoadout [[],[],[],['U_C_Poor_1',[['FirstAidKit',1]]],[],[],'','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _unit;};[_unit] call _onSpawn;_unit addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+    class CFP_C_ASIA_Civilian_2_01 : CFP_C_ASIA_Civilian_1_01 {
+        
+        displayName = "Civilian";
+        
+        ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_I_C_Soldier_Bandit_4_F",{}},{},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
-    class CFP_C_ASIA_Civilian_3_01 : O_Soldier_F_OCimport_02 {
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Civilian 3";
-        side = 3;
-        genericNames = "Chinesemen";
-        faction = "CFP_C_ASIA";
-
-        identityTypes[] = { "Head_Asian" , "LanguageCHI_F" };
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (isServer) then {_unit = _this select 0;_onSpawn = {_unit = _this select 0;_unit setUnitLoadout [[],[],[],['U_I_C_Soldier_Bandit_5_F',[]],[],[],'H_Bandanna_mcamo','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _unit;};[_unit] call _onSpawn;_unit addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+    class CFP_C_ASIA_Civilian_3_01 : CFP_C_ASIA_Civilian_1_01 {
+        
+        displayName = "Civilian";
+        
+        ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_I_C_Soldier_Bandit_4_F",{}},{},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
-    class CFP_C_ASIA_Civilian_4_01 : O_Soldier_F_OCimport_02 {
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Civilian 4";
-        side = 3;
-        genericNames = "Chinesemen";
-        faction = "CFP_C_ASIA";
-
-        identityTypes[] = { "Head_Asian" , "LanguageCHI_F" };
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (isServer) then {_unit = _this select 0;_onSpawn = {_unit = _this select 0;_unit setUnitLoadout [[],[],[],['U_BG_Guerilla3_1',[['FirstAidKit',1],['SmokeShellRed',1,1],['SmokeShellOrange',1,1],['SmokeShellYellow',1,1]]],[],[],'H_Bandanna_blu','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _unit;};[_unit] call _onSpawn;_unit addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+    class CFP_C_ASIA_Civilian_4_01 : CFP_C_ASIA_Civilian_1_01 {
+        
+        displayName = "Civilian";
+       
+	 ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_I_C_Soldier_Bandit_4_F",{}},{},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
-    class CFP_C_ASIA_Civilian_5_01 : O_Soldier_F_OCimport_02 {
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Civilian 5";
-        side = 3;
-        genericNames = "Chinesemen";
-        faction = "CFP_C_ASIA";
-
-        identityTypes[] = { "Head_Asian" , "LanguageCHI_F" };
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (isServer) then {_unit = _this select 0;_onSpawn = {_unit = _this select 0;_unit setUnitLoadout [[],[],[],['U_C_Man_casual_5_F',[['FirstAidKit',1]]],[],[],'H_Cap_blu','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _unit;};[_unit] call _onSpawn;_unit addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+    class CFP_C_ASIA_Civilian_5_01 : CFP_C_ASIA_Civilian_1_01 {
+        
+        displayName = "Civilian";
+        
+	ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_I_C_Soldier_Bandit_4_F",{}},{},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
-    class CFP_C_ASIA_Civilian_6_01 : O_Soldier_F_OCimport_02 {
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Civilian 6";
-        side = 3;
-        genericNames = "Chinesemen";
-        faction = "CFP_C_ASIA";
-
-        identityTypes[] = { "Head_Asian" , "LanguageCHI_F" };
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (isServer) then {_unit = _this select 0;_onSpawn = {_unit = _this select 0;_unit setUnitLoadout [[],[],[],['U_C_Man_casual_4_F',[]],[],[],'','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _unit;};[_unit] call _onSpawn;_unit addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+    class CFP_C_ASIA_Civilian_6_01 : CFP_C_ASIA_Civilian_1_01 {
+        
+        displayName = "Civilian";
+       
+	 ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_I_C_Soldier_Bandit_4_F",{}},{},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
-    class CFP_C_ASIA_Civilian_7_01 : O_Soldier_F_OCimport_02 {
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Civilian 7";
-        side = 3;
-        genericNames = "Chinesemen";
-        faction = "CFP_C_ASIA";
-
-        identityTypes[] = { "Head_Asian" , "LanguageCHI_F" };
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (isServer) then {_unit = _this select 0;_onSpawn = {_unit = _this select 0;_unit setUnitLoadout [[],[],[],['U_I_C_Soldier_Bandit_4_F',[]],[],[],'','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _unit;};[_unit] call _onSpawn;_unit addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+    class CFP_C_ASIA_Civilian_7_01 : CFP_C_ASIA_Civilian_1_01 {
+        
+        displayName = "Civilian";
+       
+	 ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_I_C_Soldier_Bandit_4_F",{}},{},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
-    class CFP_C_ASIA_Civilian_8_01 : O_Soldier_F_OCimport_02 {
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Civilian 8";
-        side = 3;
-        genericNames = "Chinesemen";
-        faction = "CFP_C_ASIA";
-
-        identityTypes[] = { "Head_Asian" , "LanguageCHI_F" };
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (isServer) then {_unit = _this select 0;_onSpawn = {_unit = _this select 0;_unit setUnitLoadout [[],[],[],['U_C_Poloshirt_tricolour',[['FirstAidKit',1]]],[],[],'H_Booniehat_oli','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _unit;};[_unit] call _onSpawn;_unit addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+    class CFP_C_ASIA_Civilian_8_01 : CFP_C_ASIA_Civilian_1_01 {
+        
+        displayName = "Civilian";
+        
+	ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_I_C_Soldier_Bandit_4_F",{}},{},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
-    class CFP_C_ASIA_Civilian_9_01 : O_Soldier_F_OCimport_02 {
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Civilian 9";
-        side = 3;
-        genericNames = "Chinesemen";
-        faction = "CFP_C_ASIA";
-
-        identityTypes[] = { "Head_Asian" , "LanguageCHI_F" };
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (isServer) then {_unit = _this select 0;_onSpawn = {_unit = _this select 0;_unit setUnitLoadout [[],[],[],['U_C_Poloshirt_redwhite',[['FirstAidKit',1]]],[],[],'H_Cap_red','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _unit;};[_unit] call _onSpawn;_unit addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+    class CFP_C_ASIA_Civilian_9_01 : CFP_C_ASIA_Civilian_1_01 {
+        
+        displayName = "Civilian";
+       
+	 ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_I_C_Soldier_Bandit_4_F",{}},{},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
-    class CFP_C_ASIA_Civilian_10_01 : O_Soldier_F_OCimport_02 {
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Civilian 10";
-        side = 3;
-        genericNames = "Chinesemen";
-        faction = "CFP_C_ASIA";
-
-        identityTypes[] = { "Head_Asian" , "LanguageCHI_F" };
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (isServer) then {_unit = _this select 0;_onSpawn = {_unit = _this select 0;_unit setUnitLoadout [[],[],[],['U_C_Poloshirt_burgundy',[['FirstAidKit',1]]],[],[],'H_Booniehat_tan','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _unit;};[_unit] call _onSpawn;_unit addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+    class CFP_C_ASIA_Civilian_10_01 : CFP_C_ASIA_Civilian_1_01 {
+        
+        displayName = "Civilian";
+        
+	ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_I_C_Soldier_Bandit_4_F",{}},{},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
-    class CFP_C_ASIA_Civilian_11_01 : O_Soldier_F_OCimport_02 {
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Civilian 11";
-        side = 3;
-        genericNames = "Chinesemen";
-        faction = "CFP_C_ASIA";
-
-        identityTypes[] = { "Head_Asian" , "LanguageCHI_F" };
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (isServer) then {_unit = _this select 0;_onSpawn = {_unit = _this select 0;_unit setUnitLoadout [[],[],[],['U_C_Poloshirt_blue',[['FirstAidKit',1]]],[],[],'','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _unit;};[_unit] call _onSpawn;_unit addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+    class CFP_C_ASIA_Civilian_11_01 : CFP_C_ASIA_Civilian_1_01 {
+        
+        displayName = "Civilian";
+        
+	ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_I_C_Soldier_Bandit_4_F",{}},{},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
-    class CFP_C_ASIA_Civilian_12_01 : O_Soldier_F_OCimport_02 {
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Civilian 12";
-        side = 3;
-        genericNames = "Chinesemen";
-        faction = "CFP_C_ASIA";
-
-        identityTypes[] = { "Head_Asian" , "LanguageCHI_F" };
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (isServer) then {_unit = _this select 0;_onSpawn = {_unit = _this select 0;_unit setUnitLoadout [[],[],[],['U_C_Poloshirt_salmon',[['FirstAidKit',1]]],[],[],'','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];reload _unit;};[_unit] call _onSpawn;_unit addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+    class CFP_C_ASIA_Civilian_12_01 : CFP_C_ASIA_Civilian_1_01 {
+        
+        displayName = "Civilian";
+        
+	ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_I_C_Soldier_Bandit_4_F",{}},{},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -432,6 +289,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -455,6 +313,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -478,6 +337,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -512,6 +372,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -535,6 +396,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -558,6 +420,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -581,6 +444,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -610,6 +474,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -639,6 +504,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -669,6 +535,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -700,6 +567,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };

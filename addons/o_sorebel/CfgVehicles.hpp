@@ -99,6 +99,7 @@ class CfgVehicles {
 	
 	// Somali Headgear
 		headgearList[] = {
+	"", 0.5,
 	"H_Bandanna_khk", 0.05,
 	"H_Bandanna_sand", 0.05,
 	"H_Cap_blk", 0.05,
