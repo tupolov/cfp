@@ -150,7 +150,7 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_KEARMY";
 
-        identityTypes[] = {"Head_African","LanguageGRE_F"};
+        identityTypes[] = {"Head_African","LanguageENGFRE_F"};
         uniformClass = "CFP_U_BattleDressUniform_DPMWoodland";
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_BattleDressUniform_DPMWoodland",{{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CUP_V_BAF_Osprey_Mk2_DPM_Empty",{{"CUP_30Rnd_556x45_Stanag",7,30}}},{},"SP_Mk7Helmet_Green1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
@@ -232,7 +232,7 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_KEARMY";
 
-        identityTypes[] = {"Head_African","LanguageGRE_F"};
+        identityTypes[] = {"Head_African","LanguageENGFRE_F"};
         uniformClass = "CFP_U_BattleDressUniform_DPMWoodland";
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_AWM_wdl","","","CUP_optic_LeupoldM3LR",{"CUP_5Rnd_86x70_L115A1",5},{},""},{},{},{"CFP_U_BattleDressUniform_DPMWoodland",{{"CUP_5Rnd_86x70_L115A1",3,5}}},{"CUP_V_BAF_Osprey_Mk2_DPM_Scout",{{"CUP_5Rnd_86x70_L115A1",7,5}}},{},"H_Booniehat_oli","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
@@ -262,7 +262,7 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_KEARMY";
 
-        identityTypes[] = {"Head_African","LanguageGRE_F"};
+        identityTypes[] = {"Head_African","LanguageENGFRE_F"};
         uniformClass = "CFP_U_BattleDressUniform_DPMWoodland";
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_BattleDressUniform_DPMWoodland",{{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CUP_V_BAF_Osprey_Mk2_DPM_Scout",{{"CUP_30Rnd_556x45_Stanag",7,30}}},{},"H_Booniehat_oli","",{"Rangefinder","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
@@ -296,7 +296,7 @@ class CfgVehicles {
         
         displayName = "Asst. Machine Gunner";
         
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_Mk16_STD","","","CUP_optic_Eotech533",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_BattleDressUniform_DPMWoodland",{{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CUP_V_BAF_Osprey_Mk2_DPM_Empty",{{"CUP_30Rnd_556x45_Stanag",7,30}}},{"CUP_B_Bergen_BAF",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",3,100}}},"CUP_H_BAF_Helmet_1_DPM","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_BattleDressUniform_DPMWoodland",{{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CUP_V_BAF_Osprey_Mk2_DPM_Empty",{{"CUP_30Rnd_556x45_Stanag",7,30}}},{"CUP_B_Bergen_BAF",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",3,100}}},"CUP_H_BAF_Helmet_1_DPM","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -308,7 +308,7 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_KEARMY";
 
-        identityTypes[] = {"Head_African","LanguageGRE_F"};
+        identityTypes[] = {"Head_African","LanguageENGFRE_F"};
         uniformClass = "CFP_U_FieldUniform_DPMWoodland";
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_Mk16_STD","","","CUP_optic_Eotech533",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_DPMWoodland",{{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CUP_V_BAF_Osprey_Mk2_DPM_Soldier2",{}},{},"CUP_H_BAF_Helmet_3_DPM","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
@@ -406,7 +406,7 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_KEARMY";
 
-        identityTypes[] = {"Head_African","LanguageGRE_F"};
+        identityTypes[] = {"Head_African","LanguageENGFRE_F"};
         uniformClass = "CFP_U_BattleDressUniform_dpmwoodlandgreen";
 	
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_black","","","CUP_optic_HoloBlack",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"hgun_Pistol_01_F","","","",{"10Rnd_9x21_Mag",10},{},""},{"CFP_U_BattleDressUniform_dpmwoodlandgreen",{{"CUP_30Rnd_556x45_Stanag",3,30},{"10Rnd_9x21_Mag",3,10}}},{"V_PlateCarrier1_blk",{{"CUP_30Rnd_556x45_Stanag",6,30}}},{},"SP_Beret_Red","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","SP_Kneepads_Black"}};
@@ -457,7 +457,7 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_KEARMY";
 
-        identityTypes[] = {"Head_African","LanguageGRE_F"};
+        identityTypes[] = {"Head_African","LanguageENGFRE_F"};
         uniformClass = "SP_0000_Standard_FieldUniform_Green";
 
         ALiVE_orbatCreator_loadout[] = {{},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"SP_0000_Standard_FieldUniform_Green",{{"CUP_17Rnd_9x19_glock17",3,17}}},{"CUP_V_B_PilotVest",{}},{},"CUP_H_BAF_Helmet_Pilot","G_Aviator",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
@@ -492,7 +492,7 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_KEARMY";
 
-        identityTypes[] = {"Head_African","LanguageGRE_F"};
+        identityTypes[] = {"Head_African","LanguageENGFRE_F"};
         uniformClass = "CFP_U_BattleDressUniform_DPMWoodland";
 
         ALiVE_orbatCreator_loadout[] = {{},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_BattleDressUniform_DPMWoodland",{{"CUP_17Rnd_9x19_glock17",3,17}}},{"CUP_V_O_TK_CrewBelt",{}},{},"SP_TSH04Helmet_Black","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};

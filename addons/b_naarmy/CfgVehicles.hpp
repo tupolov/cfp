@@ -189,7 +189,7 @@ class CfgVehicles {
 	genericNames = "Afromen";
         faction = "CFP_B_NAARMY";
 
-        identityTypes[] = {"Head_African","LanguagePER_F","G_IRAN_default"};
+        identityTypes[] = {"Head_African","LanguageENGFRE_F","G_IRAN_default"};
         uniformClass = "CFP_U_BattleDressUniform_M81";
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_BattleDressUniform_M81",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CUP_V_O_TK_Vest_1",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{},"SP_PASGTHelmet_Green1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
@@ -295,7 +295,7 @@ class CfgVehicles {
 	genericNames = "Afromen";
         faction = "CFP_B_NAARMY";
 
-        identityTypes[] = {"Head_African","LanguagePER_F","G_IRAN_default"};
+        identityTypes[] = {"Head_African","LanguageENGFRE_F","G_IRAN_default"};
         uniformClass = "CFP_U_BattleDressUniform_M81";
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_G22_wdl","","","CUP_optic_LeupoldMk4_10x40_LRT_Woodland",{"CUP_5Rnd_762x67_G22",5},{},""},{},{},{"CFP_U_BattleDressUniform_M81",{{"CUP_5Rnd_762x67_G22",3,5}}},{"CUP_V_O_TK_Vest_1",{{"CUP_5Rnd_762x67_G22",7,5}}},{},"H_Booniehat_oli","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
@@ -326,7 +326,7 @@ class CfgVehicles {
 	genericNames = "Afromen";
         faction = "CFP_B_NAARMY";
 
-        identityTypes[] = {"Head_African","LanguagePER_F","G_IRAN_default"};
+        identityTypes[] = {"Head_African","LanguageENGFRE_F","G_IRAN_default"};
         uniformClass = "CFP_U_BattleDressUniform_M81";
 
         ALiVE_orbatCreator_loadout[] = {{},{},{"CUP_hgun_Makarov","","","",{"CUP_8Rnd_9x18_Makarov_M",8},{},""},{"CFP_U_BattleDressUniform_M81",{{"CUP_8Rnd_9x18_Makarov_M",3,8}}},{"CUP_V_CDF_OfficerBelt2",{{"CUP_8Rnd_9x18_Makarov_M",2,8}}},{},"H_HelmetCrew_I","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
@@ -357,7 +357,7 @@ class CfgVehicles {
 	genericNames = "Afromen";
         faction = "CFP_B_NAARMY";
 
-        identityTypes[] = {"Head_African","LanguagePER_F","G_IRAN_default"};
+        identityTypes[] = {"Head_African","LanguageENGFRE_F","G_IRAN_default"};
         uniformClass = "CFP_U_BattleDressUniform_M81";
 
         ALiVE_orbatCreator_loadout[] = {{},{},{"CUP_hgun_Makarov","","","",{"CUP_8Rnd_9x18_Makarov_M",8},{},""},{"CFP_U_BattleDressUniform_M81",{}},{"CUP_V_CDF_CrewBelt",{{"CUP_8Rnd_9x18_Makarov_M",2,8}}},{},"H_HelmetCrew_I","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
@@ -388,7 +388,7 @@ class CfgVehicles {
 	genericNames = "Afromen";
         faction = "CFP_B_NAARMY";
 
-        identityTypes[] = {"Head_African","LanguagePER_F","G_IRAN_default"};
+        identityTypes[] = {"Head_African","LanguageENGFRE_F","G_IRAN_default"};
         uniformClass = "SP_0000_Standard_FieldUniform_Green";
 
         ALiVE_orbatCreator_loadout[] = {{},{},{"CUP_hgun_Makarov","","","",{"CUP_8Rnd_9x18_Makarov_M",8},{},""},{"SP_0000_Standard_FieldUniform_Green",{}},{"CUP_V_B_PilotVest",{}},{},"CUP_H_BAF_Helmet_Pilot","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
