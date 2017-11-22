@@ -39,7 +39,7 @@ Factions are delivered in a modular way, enabling groups to maintain their own t
 - Includes SP Craig's gear pack
 - Includes Siege-A's insignias and patches content
 - Additional custom textures and assets donated by community members
-- Randomization tech that provides hundreds of possible insurgent, PMC, clandestine operative classes and vehicles
+- Randomization tech that provides variation to certain classes and hundreds of possible insurgent, PMC, clandestine operative units and vehicles
 - Standardizes faction and group configurations for the community
 - Follows best practice configuration and implementation using CBA and ACE3 standards
 - Full support for ZEUS, ALiVE, ACE3 and VCOM
@@ -145,7 +145,7 @@ CFP Utlimate focuses on delivering enhanced CFP factions, BLUFOR special forces 
 - British Special Reconnaisance Regiment
 - Canadian Army including Joint Task Force 2
 - French Foreign Legion
-- Germnan Special Forces
+- Bundeswehr
 - Israeli Armed Forces
 - Israeli Special Forces
 - Jordanian Armed Forces
@@ -156,15 +156,24 @@ CFP Utlimate focuses on delivering enhanced CFP factions, BLUFOR special forces 
 - Royal Navy including British Special Boat Service
 - Royal Thai Army
 - Somali DANAB special forces
-- Special Operations Aviation Regiment
 - Taiwan Armed Forces
 - US Air Force including Pararescue
+- US Army Special Operations Aviation Regiment
 - US Army 75th Ranger Regiment
-- US Army Delta Force
+- US Army Delta Force (Enhanced)
 - US Army Green Berets
 - US Navy including Navy SEALS
 - US Marine Corps MARSOC
 
+## Assets Needed
+
+Where available we have used the correct assets for each faction. Where an asset is unavailable we have used a placeholder. Here are the following assets we are looking to be donated to the project:
+
+Equipment | Weapons | Ground Vehicles | Aircraft | Naval
+--- | --- | --- | --- | --- 
+MBAV | Beneli M4 | Husky | Tornado GR4 | Mk6 Boat (UK)
+   | HK416 | L-ATV | Eurocopter | |
+   
 ## Getting started
 
 CFP requires Arma 3, the latest version of <a href="https://github.com/CBATeam/CBA_A3/releases">CBA A3</a> and the latest verion of <a href="http://cup-arma3.org">CUP</a>. CFP follows the same development and implementation approach as ACE3. See the following pages for help and information on how to get started with CFP: 
