@@ -8,7 +8,7 @@ class CfgWeapons
 	class H_Bandmask_blk;
 	class G_Balaclava_blk;
 
-	class IS_uniform_i: U_I_CombatUniform
+	class IS_uniform_o: U_I_CombatUniform
 	{
 		scope = 2;
 		displayName = "Islamic State Uniform";
