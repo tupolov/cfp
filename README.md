@@ -39,7 +39,7 @@ Factions are delivered in a modular way, enabling groups to maintain their own t
 - Includes SP Craig's gear pack
 - Includes Siege-A's insignias and patches content
 - Additional custom textures and assets donated by community members
-- Randomization tech that provides variation to certain classes and hundreds of possible insurgent, PMC, clandestine operative units and vehicles
+- Randomization tech that provides variation of gear and equipment to appropriate units and vehicles resulting in hundreds of possible civilian, insurgent, PMC, clandestine operative and special forces units and vehicles.
 - Standardizes faction and group configurations for the community
 - Follows best practice configuration and implementation using CBA and ACE3 standards
 - Full support for ZEUS, ALiVE, ACE3 and VCOM
@@ -49,7 +49,6 @@ Factions are delivered in a modular way, enabling groups to maintain their own t
 CFP factions cover major current conflict zones such as Afghanistan, Iraq, Syria, Libya, Sudan, Philippines, Ukraine, South America and African states dealing with Boko Haram, Al-Shabaab and islamic insurgencies such as Nigeria, Kenya, Central African Republic, Somalia, Yemen and Mali. In addition, western regular forces and special forces are represented along with historical and current aggressors. 
 
 ### OPFOR
-- 2003 Iraqi Army
 - Abu Sayyaf
 - Al-Qaeda
 - Al-Qassam Brigades
@@ -60,6 +59,7 @@ CFP factions cover major current conflict zones such as Afghanistan, Iraq, Syria
 - Hezbollah
 - Houthis (Yemen)
 - IRA
+- Iraqi Army (2003)
 - Islamic State
 - Libyan National Army
 - Mali Islamic Rebels
