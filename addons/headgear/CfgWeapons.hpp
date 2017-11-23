@@ -1,3 +1,13 @@
+#define HITPOINTS_HEAD(ARMOUR,PT) \
+        class HitpointsProtectionInfo \
+        { \
+            class Head \
+            { \
+                hitpointName = "HitHead"; \
+                armor = ARMOUR; \
+                passThrough = PT; \
+            }; \
+        };
 
 class CfgWeapons {
 	class ItemCore;

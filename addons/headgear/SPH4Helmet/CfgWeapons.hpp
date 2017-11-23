@@ -30,6 +30,7 @@ class CfgVehicleClasses
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
+			HITPOINTS_HEAD(10,0.30)
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SPH4Helmet\Black.paa"};
 			hiddenSelections[] = {"Camo"};
 		};
@@ -55,6 +56,7 @@ class CfgVehicleClasses
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
+			HITPOINTS_HEAD(10,0.30)
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SPH4Helmet\Green.paa"};
 			hiddenSelections[] = {"Camo"};
 
@@ -81,6 +83,7 @@ class CfgVehicleClasses
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
+			HITPOINTS_HEAD(10,0.30)
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SPH4Helmet\Tan.paa"};
 			hiddenSelections[] = {"Camo"};
 
@@ -107,6 +110,7 @@ class CfgVehicleClasses
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
+			HITPOINTS_HEAD(10,0.30)
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SPH4Helmet\White.paa"};
 			hiddenSelections[] = {"Camo"};
 		};
@@ -132,6 +136,7 @@ class CfgVehicleClasses
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
+			HITPOINTS_HEAD(10,0.30)
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SPH4Helmet\Blue.paa"};
 			hiddenSelections[] = {"Camo"};
 
@@ -158,6 +163,7 @@ class CfgVehicleClasses
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
+			HITPOINTS_HEAD(10,0.30)
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SPH4Helmet\Brown.paa"};
 			hiddenSelections[] = {"Camo"};
 
@@ -184,6 +190,7 @@ class CfgVehicleClasses
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
+			HITPOINTS_HEAD(10,0.30)
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SPH4Helmet\Grey.paa"};
 			hiddenSelections[] = {"Camo"};
 
@@ -210,6 +217,7 @@ class CfgVehicleClasses
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
+			HITPOINTS_HEAD(10,0.30)
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SPH4Helmet\Orange.paa"};
 			hiddenSelections[] = {"Camo"};
 
@@ -236,6 +244,7 @@ class CfgVehicleClasses
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
+			HITPOINTS_HEAD(10,0.30)
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SPH4Helmet\Red.paa"};
 			hiddenSelections[] = {"Camo"};
 		};
@@ -261,6 +270,7 @@ class CfgVehicleClasses
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
+			HITPOINTS_HEAD(10,0.30)
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SPH4Helmet\Yellow.paa"};
 			hiddenSelections[] = {"Camo"};
 
@@ -285,6 +295,7 @@ class CfgVehicleClasses
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
+			HITPOINTS_HEAD(10,0.30)
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SPH4Helmet\UN1.paa"};
 			hiddenSelections[] = {"Camo"};
 
@@ -309,6 +320,7 @@ class CfgVehicleClasses
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
+			HITPOINTS_HEAD(10,0.30)
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SPH4Helmet\UN2.paa"};
 			hiddenSelections[] = {"Camo"};
 		};
@@ -332,6 +344,7 @@ class CfgVehicleClasses
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
+			HITPOINTS_HEAD(10,0.30)
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SPH4Helmet\UN3.paa"};
 			hiddenSelections[] = {"Camo"};
 		};

@@ -26,8 +26,9 @@ class CfgVehicleClasses
 			mass = 60;
 			uniformmodel = "\x\cfp\addons\models\GhillieHat";
 			modelSides[] = {3,1};
-			armor = 10;
+			armor = 3;
 			passThrough = 0.30;
+			HITPOINTS_HEAD(3,0.30)
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\GhillieHat\Forrest.paa"};
 			hiddenSelections[] = {"Camo"};
 		};
@@ -48,8 +49,9 @@ class CfgVehicleClasses
 			mass = 60;
 			uniformmodel = "\x\cfp\addons\models\GhillieHat";
 			modelSides[] = {3,1};
-			armor = 10;
+			armor = 3;
 			passThrough = 0.30;
+			HITPOINTS_HEAD(3,0.30)
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\GhillieHat\Tropical.paa"};
 			hiddenSelections[] = {"Camo"};
 		};
@@ -72,8 +74,9 @@ class CfgVehicleClasses
 			mass = 60;
 			uniformmodel = "\x\cfp\addons\models\GhillieHat";
 			modelSides[] = {3,1};
-			armor = 10;
+			armor = 3;
 			passThrough = 0.30;
+			HITPOINTS_HEAD(3,0.30)
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\GhillieHat\Summer.paa"};
 			hiddenSelections[] = {"Camo"};		};
 		};

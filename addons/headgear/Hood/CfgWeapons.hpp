@@ -26,8 +26,9 @@ class CfgVehicleClasses
 			mass = 60;
 			uniformmodel = "\x\cfp\addons\models\Hood";
 			modelSides[] = {3,1};
-			armor = 10;
+			armor = 1;
 			passThrough = 0.30;
+			HITPOINTS_HEAD(1,0.30)
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Hood\Black.paa"};
 			hiddenSelections[] = {"Camo"};
 		};
@@ -50,8 +51,9 @@ class CfgVehicleClasses
 			mass = 60;
 			uniformmodel = "\x\cfp\addons\models\Hood";
 			modelSides[] = {3,1};
-			armor = 10;
+			armor = 1;
 			passThrough = 0.30;
+			HITPOINTS_HEAD(1,0.30)
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Hood\Green.paa"};
 			hiddenSelections[] = {"Camo"};
 		};
@@ -74,8 +76,9 @@ class CfgVehicleClasses
 			mass = 60;
 			uniformmodel = "\x\cfp\addons\models\Hood";
 			modelSides[] = {3,1};
-			armor = 10;
+			armor = 1;
 			passThrough = 0.30;
+			HITPOINTS_HEAD(1,0.30)
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Hood\Tan.paa"};
 			hiddenSelections[] = {"Camo"};
 		};
