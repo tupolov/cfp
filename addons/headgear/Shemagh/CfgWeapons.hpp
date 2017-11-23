@@ -290,3 +290,15 @@ class CfgVehicleClasses
 		};
 	};
 
+	class Shemagh_Sand: SP_Shemagh_Tan
+	{
+		displayName = "Shemagh (Sand)";
+		picture = "\x\cfp\addons\headgear\Shemagh\ui\Sand.jpg";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Shemagh\Sand.paa"};
+		author = "AccuracyThruVolume";
+
+		class ItemInfo: HeadgearItem
+		{
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Shemagh\Sand.paa"};
+		};
+	};
