@@ -313,7 +313,8 @@
 	};
 
 	UNIFORM_V("Battle Dress Uniform (TIger Stripe 2)",tigerstripe2)
-	
+	UNIFORM_V("Battle Dress Uniform (OCP)",scorpion_w2)
+
 	class CFP_BattleDressUniform_atacs_au : CFP_Uniform
 	{
 		displayName = "Battle Dress Uniform (A-Tacs AU)";

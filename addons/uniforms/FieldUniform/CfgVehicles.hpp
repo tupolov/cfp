@@ -1193,7 +1193,7 @@
 			mat[] = {"A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing.rvmat","A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing_injury.rvmat","A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
 		};
 	};
-	
+
 	class CFP_FieldUniform_atacs_au: B_Soldier_base_F
 	{
 		scope = 1;
@@ -1224,7 +1224,13 @@
 	};
 
 	class CFP_FieldUniform_tigerstripe2 : CFP_FieldUniform_tigerstripe {
-		displayName = "Field Uniform (TIger Strip 2)";
+		displayName = "Field Uniform (Tiger Strip 2)";
 		uniformClass = "CFP_U_FieldUniform_tigerstripe2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_tigerstripe2.paa"};
+	};
+
+	class CFP_FieldUniform_scorpion_w2 : CFP_FieldUniform_tigerstripe {
+		displayName = "Field Uniform (OCP)";
+		uniformClass = "CFP_U_FieldUniform_scorpion_w2";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_scorpion_w2.paa"};
 	};

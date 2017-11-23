@@ -656,7 +656,7 @@
 			mass=80;
 		};
 	};
-	
+
 	class CFP_U_FieldUniform_atacs_au: Uniform_Base
 	{
 		scope=2;
@@ -675,3 +675,4 @@
 	};
 
 	ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Tiger Stripe 2)",tigerstripe2,"AccuracyThruVolume")
+	ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (OCP)",scorpion_w2,"AccuracyThruVolume")
