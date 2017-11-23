@@ -1,0 +1,8 @@
+class CfgEditorSubCategories
+{
+
+};
+
+class CfgVehicles {
+
+};
