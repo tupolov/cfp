@@ -313,3 +313,10 @@
 	};
 
 	UNIFORM_V("Battle Dress Uniform (TIger Stripe 2)",tigerstripe2)
+	
+	class CFP_BattleDressUniform_atacs_au : CFP_Uniform
+	{
+		displayName = "Battle Dress Uniform (A-Tacs AU)";
+		uniformClass = "CFP_U_BattleDressUniform_atacs_au";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_atacs_au.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_atacs_au.paa"};
+	};

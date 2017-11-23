@@ -356,6 +356,23 @@
 			mass=80;
 		};
 	};
+	
+	class CFP_U_BattleDressUniform_atacs_au: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Battle Dress Uniform (A-Tacs AU)";
+		picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\NodUrban.jpg";
+		author = "AccuracyThruVolume";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_BattleDressUniform_atacs_au";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
 
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Tiger Stripe 2)",tigerstripe2,"AccuracyThruVolume")
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (DPM Woodland / Green)",dpmwoodlandgreen,"AccuracyThruVolume")
