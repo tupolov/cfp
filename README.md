@@ -172,8 +172,10 @@ Where available we have used the correct assets for each faction. Where an asset
 Equipment | Weapons | Ground Vehicles | Aircraft | Naval
 --- | --- | --- | --- | --- 
 MBAV | Beneli M4 | Husky | Tornado GR4 | Mk6 Boat (UK)
- Gorka | HK416 | L-ATV | Eurocopter | - |
-   
+6B46 Vest | Serdyukov SR1 | L-ATV | Eurocopter | Rigid Raider |
+6B47 Helmet | MP-443 Grach | GAZ-2975 Tigr | Mi35 | - |
+6Sh117 Vest | HK416 | BTR-82A | Mi28 | - |
+
 ## Getting started
 
 CFP requires Arma 3, the latest version of <a href="https://github.com/CBATeam/CBA_A3/releases">CBA A3</a> and the latest verion of <a href="http://cup-arma3.org">CUP</a>. CFP follows the same development and implementation approach as ACE3. See the following pages for help and information on how to get started with CFP: 
