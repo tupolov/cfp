@@ -1223,14 +1223,23 @@
 		};
 	};
 
-	class CFP_FieldUniform_tigerstripe2 : CFP_FieldUniform_tigerstripe {
+	class CFP_FieldUniform_tigerstripe2 : CFP_FieldUniform_tigerstripe 
+	{
 		displayName = "Field Uniform (Tiger Strip 2)";
 		uniformClass = "CFP_U_FieldUniform_tigerstripe2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_tigerstripe2.paa"};
 	};
 
-	class CFP_FieldUniform_scorpion_w2 : CFP_FieldUniform_tigerstripe {
+	class CFP_FieldUniform_scorpion_w2 : CFP_FieldUniform_tigerstripe 
+	{
 		displayName = "Field Uniform (OCP)";
 		uniformClass = "CFP_U_FieldUniform_scorpion_w2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_scorpion_w2.paa"};
+	};
+	
+	class CFP_FieldUniform_flora_arid : CFP_FieldUniform_tigerstripe 
+	{
+		displayName = "Field Uniform (Flora Arid)";
+		uniformClass = "CFP_U_FieldUniform_flora_arid";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_flora_arid.paa"};
 	};

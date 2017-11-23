@@ -153,6 +153,7 @@ class CfgPatches
 			"CFP_BattleDressUniform_tigerstripe",
 			"CFP_BattleDressUniform_atacs_au",
 			"CFP_BattleDressUniform_multicam",
+			"CFP_BattleDressUniform_flora_arid",
 			"CFP_FieldUniform_3ColorDesert",
 			"CFP_FieldUniform_AfricanWoodland",
 			"CFP_FieldUniform_M81",
@@ -164,6 +165,7 @@ class CfgPatches
 			"CFP_FieldUniform_tigerstripe",
 			"CFP_FieldUniform_tigerstripe2",
 			"CFP_FieldUniform_atacs_au",
+			"CFP_FieldUniform_flora_arid",
 			"CFP_FieldUniform_multicam"
 		};
 		weapons[] = {

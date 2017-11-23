@@ -676,3 +676,4 @@
 
 	ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Tiger Stripe 2)",tigerstripe2,"AccuracyThruVolume")
 	ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (OCP)",scorpion_w2,"AccuracyThruVolume")
+	ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Flora Arid)",flora_arid,"AccuracyThruVolume")

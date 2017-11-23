@@ -377,3 +377,4 @@
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Tiger Stripe 2)",tigerstripe2,"AccuracyThruVolume")
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (DPM Woodland / Green)",dpmwoodlandgreen,"AccuracyThruVolume")
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (OCP)",scorpion_w2,"AccuracyThruVolume")
+	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Flora Arid)",flora_arid,"AccuracyThruVolume")
