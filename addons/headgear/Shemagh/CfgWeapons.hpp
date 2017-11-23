@@ -292,13 +292,22 @@ class CfgVehicleClasses
 
 	class Shemagh_Sand: SP_Shemagh_Tan
 	{
+		scope = 2;
+		weaponPoolAvailable = 1;
 		displayName = "Shemagh (Sand)";
 		picture = "\x\cfp\addons\headgear\Shemagh\ui\Sand.jpg";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Shemagh\Sand.paa"};
+		hiddenSelections[] = {"Camo"};
 		author = "AccuracyThruVolume";
 
 		class ItemInfo: HeadgearItem
 		{
+			mass = 15;
+			uniformmodel = "\x\cfp\addons\models\Shemagh";
+			modelSides[] = {3,1};
+			armor = 0;
+			passThrough = 0.30;
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Shemagh\Sand.paa"};
+			hiddenSelections[] = {"Camo"};
 		};
 	};

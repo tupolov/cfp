@@ -202,6 +202,7 @@ class CfgPatches
 			"SP_Shemagh_Black",
 			"SP_Shemagh_Green",
 			"SP_Shemagh_Tan",
+			"Shemagh_Sand",
 			"SP_Shemagh_White",
 			"SP_Shemagh_Grey",
 			"SP_Shemagh_CheckBlack",
