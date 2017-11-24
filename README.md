@@ -21,7 +21,7 @@
     <sup><strong>Requires the latest version of <a href="https://github.com/CBATeam/CBA_A3/releases">CBA A3</a>.<br/>Requires the latest version of Community Upgrade Project (Weapons, Units and Vehicles).<br/>Visit us on <a href="https://twitter.com/CFPMod">Twitter</a> | <a href="https://www.facebook.com/CFPMod">Facebook</a> | <a href="https://www.youtube.com/c/ACE3Mod">YouTube</a> | <a href="https://www.reddit.com/r/arma/search?q=CFP&restrict_sr=on&sort=new&t=all">Reddit</a></strong></sup>
 </p>
 
-**CFP** is a community project to provide Arma 3 with 100 new or enhanced real world factions involved in current and historical armed conflicts. CFP comes in two flavours - CFP and CFP Ultimate, both require **Community Upgrade Project (CUP)**. 
+**CFP** is a community project to provide Arma 3 with 100 new or enhanced real world factions/sub-factions involved in current and historical armed conflicts. CFP comes in two flavours - CFP and CFP Ultimate, both require **Community Upgrade Project (CUP)**. 
 
 CFP offers not only enhanced vanilla CUP factions but also a huge number of new factions using CUP and community donated assets. CFP includes custom assets and textures in order to help expand whats possible with CUP. 
 
@@ -32,7 +32,7 @@ Factions are delivered in a modular way, enabling groups to maintain their own t
 ## Features
 - 88 new factions!
 - CFP introduces 58 new factions based on CUP assets (including 9 new civilian factions)
-- CFP Ultimate enhances the CFP factions and introduces 30 new factions based on common community addons (VSM, SMA, NIArms, VME etc)
+- CFP Ultimate enhances the CFP factions and introduces 30 new factions/sub-factions based on common community addons (VSM, SMA, NIArms, VME etc)
 - Replaces certain CUP factions with factions split by theater (i.e. Arid/Desert, Woodland/Jungle, Artic/Snow etc)
 - Enhances certain CUP factions with additonal groups and loadouts (i.e. special forces)
 - Includes AccuracyThruVolume's Iraq/Syria pack
@@ -125,47 +125,11 @@ CFP factions cover major current conflict zones such as Afghanistan, Iraq, Syria
 - Middle Eastern
 - South American
 
-## CFP Ultimate Factions (in addition to enhancing CFP factions)
+## CFP Ultimate
 
-CFP Utlimate focuses on delivering enhanced CFP factions, BLUFOR special forces and major additions to OPFOR including China, North Korea and Iran.
+For more information on CFP Ultimate, go to our <a href="https://github.com/tupolov/cfpu/master/README.md">GitHub project site</a>. 
 
-### OPFOR
-- Islamic Republic of Iran Army
-- Iranian Revoluntionary Guard Corps 
-- Chinese People's Liberaton Army - split into various theater specific factions
-- Korean People's Army (North Korea)
-
-### INDFOR
-- Pakistani Special Service
-
-### BLUFOR
-- Afghanistan Commandos and Special Forces
-- Australian Army including 2nd Commandos
-- British Special Air Service
-- British Special Reconnaisance Regiment
-- Canadian Army including Joint Task Force 2
-- French Foreign Legion
-- Bundeswehr
-- Israeli Armed Forces
-- Israeli Special Forces
-- Jordanian Armed Forces
-- New Zealand Army including Special Air Service Regiment
-- Philippine Army
-- Polish Army including GROM
-- Royal Air Force including RAF Regiment
-- Royal Navy including British Special Boat Service
-- Royal Thai Army
-- Somali DANAB special forces
-- Taiwan Armed Forces
-- US Air Force including Pararescue
-- US Army Special Operations Aviation Regiment
-- US Army 75th Ranger Regiment
-- US Army Delta Force (Enhanced)
-- US Army Green Berets
-- US Navy including Navy SEALS
-- US Marine Corps MARSOC
-
-## Assets Needed
+## Assets Needed for CFP
 
 Where available we have used the correct assets for each faction. Where an asset is unavailable we have used a placeholder. Here are the following assets we are looking to be donated to the project:
 
