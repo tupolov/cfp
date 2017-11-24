@@ -127,7 +127,7 @@ CFP factions cover major current conflict zones such as Afghanistan, Iraq, Syria
 
 ## CFP Ultimate
 
-For more information on CFP Ultimate, go to our <a href="https://github.com/tupolov/cfpu/master/README.md">GitHub project site</a>. 
+For more information on CFP Ultimate, go to our <a href="https://github.com/tupolov/cfpu/blob/master/README.md">GitHub project site</a>. 
 
 ## Assets Needed for CFP
 
