@@ -162,7 +162,7 @@ Please, use our [Issue Tracker](https://github.com/tupolov/CFP/issues) to report
 
 To help us test the latest development changes, download our master branch ([directly](https://github.com/tupolov/CFP/archive/master.zip), or [with git](https://help.github.com/articles/fetching-a-remote/)), then assemble a test build:
 
-- [Setting up the development environment](https://ace3mod.com/wiki/development/setting-up-the-development-environment.html) – step-by-step instructions on how to properly setup and build a version of CFP for testing purposes.
+- [Setting up the development environment](https://github.com/tupolov/cfp/wiki/Setting-Up-CFP-Development-Environment) – step-by-step instructions on how to properly setup and build a version of CFP for testing purposes.
 
 ## License
 
