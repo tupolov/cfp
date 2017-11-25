@@ -244,3 +244,14 @@ class CfgVehicleClasses
 			};
 		};
 	};
+	
+	class Modular1_Atacs_au : SP_Modular1_Tan
+	{
+		scope = 2;
+		displayName = "Modular 1 (A-Tacs AU)";
+		picture = "\x\cfp\addons\vests\Modular1\ui\Tan.jpg";
+		model = "\x\cfp\addons\models\Modular1";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Modular1\Modular_1_atacs_au.paa"};
+		hiddenSelections[] = {"Camo"};
+
+	};

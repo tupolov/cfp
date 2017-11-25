@@ -48,6 +48,7 @@ class CfgPatches
 			"SP_Modular1_Tan",
 			"SP_Modular1_Grey",
 			"SP_Modular1_White",
+			"Modular1_Atacs_au",
 			"SP_Modular2_Black",
 			"SP_Modular2_Green",
 			"SP_Modular2_Tan",
