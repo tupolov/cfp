@@ -882,7 +882,12 @@ class CfgPatches {
             // CBA
             "cba_ui",
             "cba_xeh",
-            "cba_jr"
+            "cba_jr",
+
+            // CUP
+            "CUP_BaseConfigs",
+            "CUP_Creatures_People_Core",
+            "CUP_Vehicles_Core"
         };
         author = CSTRING(CFPTeam);
         url = CSTRING(URL);
