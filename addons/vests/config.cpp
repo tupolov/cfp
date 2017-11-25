@@ -70,6 +70,7 @@ class CfgPatches
 			"SP_PlateCarrier1_Hunter",
 			"SP_PlateCarrier1_Hunter2",
 			"SP_PlateCarrier1_ATacsFG",
+			"PlateCarrier1_ATacsAU",
 			"SP_PlateCarrier1_NodUrban",
 			"SP_Tactical1_Black",
 			"SP_Tactical1_Blue",

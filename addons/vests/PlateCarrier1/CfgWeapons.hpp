@@ -348,6 +348,52 @@ class CfgVehicleClasses
 
 		};
 	};
+	
+	class PlateCarrier1_ATacsAU: SP_PlateCarrier1_ATacsFG
+	{
+		scope = 2;
+		displayName = "Plate Carrier 1 (A-Tacs AU)";
+		picture = "\x\cfp\addons\vests\PlateCarrier1\ui\Tan.jpg";
+		model = "\x\cfp\addons\models\PlateCarrier1";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\PlateCarrier1\ATacsAU.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "AccuracyThruVolume";
+
+		class ItemInfo: VestItem
+		{
+			uniformModel = "\x\cfp\addons\models\PlateCarrier1";
+			containerClass = "Supply120";
+			hiddenSelections[] = {"camo"};
+			mass = 200;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					hitpointName = "HitChest";
+					armor = 20;
+					passThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					hitpointName = "HitDiaphragm";
+					armor = 20;
+					passThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 20;
+					passThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.2;
+				};
+			};
+
+		};
+	};
 
 	class SP_PlateCarrier1_NodUrban: V_PlateCarrier1_rgr
 	{
