@@ -22,6 +22,9 @@
         <Key ID="STR_CFP_Backpacks_SP_Carryall_ATacsFG">
             <English>Carryall (A-Tacs FG)</English>
         </Key>
+		<Key ID="STR_CFP_Backpacks_SP_Carryall_ATacsAU">
+            <English>Carryall (A-Tacs AU)</English>
+        </Key>
         <Key ID="STR_CFP_Backpacks_SP_Carryall_NodUrban">
             <English>Carryall (Nod Urban)</English>
         </Key>        

@@ -64,6 +64,15 @@ class CfgVehicles
         hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\data\ATacsFG.paa"};
         author = "SP Craig";
     };
+	class Carryall_ATacsAU: B_Carryall_oucamo
+    {
+        scope = 2;
+        maximumLoad = 300;
+        displayName = CSTRING(SP_Carryall_ATacsAU);
+        picture = "\x\cfp\addons\backpacks\data\Tan.jpg";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\data\ATacsAU.paa"};
+        author = "AccuracyThruVolume";
+    };
     class SP_Carryall_NodUrban: B_Carryall_oucamo
     {
         scope = 2;
