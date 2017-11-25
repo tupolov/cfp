@@ -1,341 +1,118 @@
-## Factions
-### Naming
-State Actors - Faction class name should be in the following standard format:
-* Addon - CFP
-* Side - O | B | I | C
-* Country Code (based on Alpha-2 country codes) - I.e. US (http://www.nationsonline.org/oneworld/country_code_list.htm)
-* Military Branch - I.e. Army, Navy, AirForce, Marines, Militia, Rebels
-* Theatre - WDL for Jungle/Woodladn, DES for Arid/Desert, SNW for Artic/Winter
+This page describes how you can setup your development environment for CFP, allowing you to properly build CFP and utilize file patching.
 
-Examples - CFP_B_USARMY_DES, CFP_B_USCIA, CFP_B_GBARMY_DES, CFP_O_RUNAVY
- 
-Non-State Actors - Faction Naming
-* Addon - CFP
-* Side - O | B | I | C
-* Group Name - I.e. ALQAEDA, ALSHABAAB, IS, IRA
+## 1. Requirements
+* Arma 3
+* A proper installation of the Arma 3 Tools (available on Steam)
+* A properly setup P-drive
+* Run Arma 3 and Arma 3 Tools directly from steam once to install registry entries (and again after every update)
+* Python 3.x
+* Mikero Tools: DePbo, DeRap, DeOgg, Rapify, MakePbo, PboProject >=1.70
+* *.hpp removed from PboProject’s “Exclude From Pbo” list
+* Python, Mikero Tools and Git in PATH environment variable
+* CBA mod (release or development version)
 
-Examples - CFP_O_IS, CFP_O_ALQAEDA, CFP_O_IRA
+## 2. Why so complicated?
+If you have made other mods you might be used to an easier build process. CFP, however, we wanted to have an automated way of testing, building and releasing the mod and CFP makes use of CBA macros to simplify things and give the developer access to a better debug process, which requires a stricter build environment. Additionally, Mikero’s Tools are stricter and report more errors than AddonBuilder does. The structure of this development environment also allows for file patching, which is very useful for debugging.
 
-Faction Classnames should always be in UPPERCASE. When defining unit faction ensure that you also use uppercase i.e. `faction = "CFP_B_USARMY"`
- 
-### Folder Structure
-All factions have their own folder under \x\cfp\addons\ this ensures that each faction has its own PBO. This allows groups to remove factions as needed.
+Not offering .exes for the Python scripts we use allows us to make easy changes without the hassle of compiling self-extracting exes all the time.
 
-Faction folders should be named the same as their faction classname but without `CFP_` i.e. `b_usarmy`. All folder names must be lowercase to ensure compatibility with Linux.
+## 3. Getting Source Code
+To actually get the CFP source code on your machine, it is recommended that you use Git. Tutorials for this are all around the web, and it allows you to track your changes and easily update your local copy. Here are the basics:
 
-Within the faction folder structure there should be the following files:
-* $PBOPREFIX$
-* script_component.hpp
-* config.cpp
-* CfgPatches.hpp
-* CfgFactionClasses.hpp
-* CfgVehicles.hpp
-* CfgWeapons.hpp
-* CfgGroups.hpp
+1. Installing GitHub Desktop - https://help.github.com/desktop/guides/getting-started-with-github-desktop/installing-github-desktop/
+2. Clone our repo (https://github.com/tupolov/cfp.git) - https://help.github.com/desktop/guides/contributing-to-projects/cloning-a-repository-from-github-to-github-desktop/
 
-Optional:
+If you just want to create a quick and dirty build, you can also directly download the source code using the “Download ZIP” button on the front page of the GitHub repo.
 
-* CfgUniforms.hpp (if adding custom uniforms)
-* CfgHeadgear.hpp (if adding custom headgear)
-* CfgGlasses.hpp (if adding custom face wear)\
-* CfgVests.hpp (if adding custom vests)
+## 4. Setup and Building
+### 4.1 Initial Setup
+Navigate to tools folder in command line.
 
-There should also be a folder called data for all image/sound related assets. I.e. `b_usarmy\data`
+`cd "[location of the CFP project]\tools"`
 
-### Classnames
+Execute `setup.py` to create symbolic links to P-drive and Arma 3 directory required for building.
 
-In general Classnames should start with faction classname i.e. CFP_B_USARMY_Soldier_01, CFP_B_USARMY_Car_01.
+Should the script fail, you can create the required links manually. First, create x folders both in your Arma 3 directory and on your P-drive. Then run the following commands as admin, replacing the text in brackets with the appropriate paths:
 
-For regular armed forces we recommend the following set of units and vehicles:
+`mklink /J "[Arma 3 installation folder]\x\cfp" "[location of the CFP project]"`
+`mklink /J "P:\x\cfp" "[location of the CFP project]"`
 
-#### Units
-* cfp_x_x_Officer_01
-* cfp_x_x_Soldier_SL_01
-* cfp_x_x_Soldier_TL_01
-* cfp_x_xx_Soldier_01
-* cfp_x_x_Soldier_GL_01
-* cfp_x_x_Soldier_AT_01
-* cfp_x_x_Soldier_AR_01
-* cfp_x_x_Medic_01
-* cfp_x_x_Marksman_01
-* cfp_x_x_Soldier_AAR_01
-* cfp_x_x_Scout_01
-* cfp_x_x_Soldier_AA_01
-* cfp_x_x_Sniper_01
-* cfp_x_x_Spotter_01
-* cfp_x_x_Bomb_01
-* cfp_x_x_Engineer_01
-* cfp_x_x_Crewman_01
-* cfp_x_x_Pilot_01
-* cfp_x_x_Heli_Pilot_01
-* cfp_x_x_Diver_01
+Then, copy the cba folder from the tools folder to P:\x\cba. Create the x folder if needed. That folder contains the parts of the CBA source code that are required for the macros to work.
 
-#### Vehicles
-* cfp_x_x_recon_01 (Small Car)
-* cfp_x_x_patrol_01 (Patrol Car)
-* cfp_x_x_armed_mg_01 (Armed Wheeled Vehicle - MG)
-* cfp_x_x_armed_at_01 (Armed Wheeled Vehicle - AT)
-* cfp_x_x_apc_01 (Armoured Wheeled Vehicle)
-* cfp_x_x_apc_at_01
-* cfp_x_x_apc_mg_01
-* cfp_x_x_tank_01 (Armoured Tracked Vehicle)
-* cfp_x_x_plane_01
-* cfp_x_x_spt_heli_01 (For CAS etc)
-* cfp_x_x_transport_heli_01 
-* cfp_x_x_mortar_01
-* cfp_x_x_gun_01 (Field Gun)
-* cfp_x_x_spgun_01 (Self Propelled Gun)
-* cfp_x_x_rocket_01 (Self Propelled rocket artillery)
-* cfp_x_x_transport_01 (Truck)
-* cfp_x_x_boat_01
-* cfp_x_x_assault_boat_01
-* cfp_x_x_SDV_01
+### 4.2 Creating a Test Build
 
-### Vehicle Crew and Gunners
-Please ensure that vehicles have the correct `crew` and `typicalCargo[]` config items. This will ensure the right driver and gunner is allocated to the vehicle.
+To create a development build of CFP to test changes or to debug something, run the `config_validator.py` and then `build.py` files in the tools folder. This will populate the addons folder with binarized PBOs. These PBOs still point to the source files in their respective folders however, which allows you to use file patching. This also means that you cannot distribute this build to others.
 
-### Editor Sub-Categories
-For mission makers its good to have a sensible grouping of infantry units, particularly if they are different types of troops within the same faction. For example in the 3D editor you would have normal infantry listed under `Men (MTP)` while special forces might be listed under `Men (SAS)` etc. 
+To start the game using this build, you can use the following modline:
 
-In order to do this you should define custom editor sub-categories (above the CfgVehicles class in CfgVehicles.hpp):
+`-mod=@CBA_A3;x\cfp`
 
-    class CfgEditorSubCategories
-    {
-        class CFP_EdSubcat_Personnel_DeltaForce { displayName = "Men (Delta Force)";  };
-        class CFP_EdSubcat_Personnel_Camo_UCP  { displayName = "Men (UCP)"; };
-    };
+### 4.3 Adding factions and Committing changes to the repo
 
-and then for the unit (or its parent as shown):
+To add a faction, simply create a folder in P:\x\cfp\addons that matches the name of your faction. Always prefix it with the side letter I.e. B, I, O, C and then follow our standard for faction naming I.e. Alpha-2 country code followed by military branch I.e. US for country code and ARMY for military branch = B_USARMY. The name of your folder will be B_USARMY. 
 
-    class CUP_B_USArmy_Soldier_01;
-    class CUP_B_USArmy_Soldier_01_OCimport_01 : CUP_B_USArmy_Soldier_01 { 
-        scope = 0; 
-        class EventHandlers; 
-    };
-    class CUP_B_USArmy_Soldier_01_OCimport_02 : CUP_B_USArmy_Soldier_01_OCimport_01 { 
-        class EventHandlers; 
-        editorSubCategory = "CFP_EdSubcat_Personnel_Camo_UCP";
-    };
+To create a faction you have a number of options:
+1. Create the faction in ORBATRON and use Export Faction to File option
+2. Copy an existing faction files into your folder and manually edit
+3. Copy the o_regtemp folder files and edit the Faction.hpp file (this is for quick creation of standard regular forces)
 
-### Custom Assets and Textures
-* Faction custom models should be placed in the faction folder.
-* Faction custom textures and material files (RVMAT) should be placed in the faction\data folder.
-* Faction UI icon images should be placed in the faction\data\UI folder.
-* Faction unit preview images should be placed in the faction\data\UI folder.
-* Faction UI icon images should be name using the faction classname i.e. `icon_cfp_b_usarmy_car.paa`
-* Faction textures should be named using faction classname i.e. `cfp_b_usarmy_car_exterior.paa`
-* Faction preview images should be named using faction classname i.e. `preview_cfp_b_usarmy_car.paa`
+To test your faction, simply run `config_validator.py` from the \x\cfp\tools folder in cmd.exe and make sure there are no errors. Run `build.py` in the tools folder to build your pbo, then launch Arma and test.
 
-### Event Handlers & CBA Compatibility
-To ensure compatibility it's imperative that any new unit/vehicle define inherits event handlers from its base class. ORBATRON generated faction units have this configured by default. Custom created factions should ensure the following when creating a config for a new unit/vehicle:
+To commit your faction to the repo, make sure you PULL recent changes from the GitHub. Then follow these instructions to commit and push your changes.
 
-    Class grandparentClass;
-    Class parentClass : grandparentClass {
-        Class Eventhandlers;
-    };
-    class myNewClass : parentClass {
-        your config in here
-        Class EventHandlers: Eventhandlers {
-            Class ADDON {
-                Init = "blah";
-            };
+- https://help.github.com/desktop/guides/contributing-to-projects/committing-and-reviewing-changes-to-your-project/
+
+### 4.3 Creating a Release Build (You don't need to do this)
+
+To create a complete build of CFP that you can use without the source files you will need to:
+
+Ensure .hpp is NOT in pboProject’s “Exclude From Pbo” list
+
+When the requirements are met:
+
+Execute make.py version increment_build <other-increment-args> force checkexternal release in the tools folder, replacing <other-increment-args> with the part of version you want to increment (options described below)
+
+This will populate the release folder with binarized PBOs, compiled extensions, copied extras, bisigns and a bikey. Additionally, an archive file will also be created in the folder. The folder and archive handle like those of any other mod.
+
+Different make.py command line options include:
+
+version - update version number in all files and leave them in working directory (leaving this out will still update the version in all files present in the release folder, but they will be reverted to not disturb the working directory)
+increment_build - increments build version number
+increment_patch - increments patch version number (ignored with increment_minor or increment_major)
+increment_minor - increments minor version number and resets patch version number to 0 (ignored with increment_major)
+increment_major - increments major version number and resets minor and patch version numbers to 0
+force - force rebuild all PBOs, even those already present in the release directory (combined with compile it will also rebuild all extensions)
+checkexternal - check external references (incompatible only with <component1> <component2> and force <component1> <component2>)
+release - create release packages/archives
+<component1> <component2> - build only specified component(s) (incompatible with release)
+force <component1> <component2> - force rebuild specified component(s) (incompatible with release)
+
+## 7. File Patching
+File Patching allows you to change the files in an addon while the game is running, requiring only a restart of the mission. This makes it great for debugging, as it cuts down the time required between tests. Note that this only works with PBOs created using MakePBO, which build.py uses.
+
+To run Arma 3 with file patching add the -filePatching startup parameter (since Arma 3 v1.50, file patching is disabled by default).
+
+### 7.1 Disabling CBA Function Caching
+By default CBA caches a compiled version of functions to reduce mission load times. This interferes with file patching. There are three ways to disable function caching:
+
+Load cba_cache_disable.pbo (included in CBA’s optional folder - simply move it to addons folder for the time being)
+Add the following to your test missions description.ext:
+class CfgSettings {
+    class CBA {
+        class Caching {
+            compile = 0;
+            xeh = 0;
+            functions = 0;
         };
     };
+};
+To only disable caching for a single module, hence greatly improving mission restart time, add the following line to the script_component.hpp file of said module (prepared in each CFP component, simply uncomment):
+`#define DISABLE_COMPILE_CACHE`
+All functions in module with DISABLE_COMPILE_CACHE line can be recompiled without mission restart with [] call CFP_PREP_RECOMPILE; command. You can add a addAction/keybind/pfeh with this code and use it for fast recompiling.
 
-### CfgPatches
-Its very important that any unit, vehicle or weapon (weapons, uniforms etc) for you faction are defined in CfgPatches.hpp for your faction.
+### 7.2 Restrictions
+Files must exist in the built PBOs for file patching to work. If you create a new file you must rebuild the PBO or Arma will not find it in your file paths.
 
-### RequiredAddons
-Its extremely important that you list any addons that your faction relies upon in CfgPatches `requiredAddons[]` config item. ORBATRON should generate this automatically. If not using ORBATRON you can still use it to generate your CfgPatches, simply import your existing faction into ORBATRON and then export the CfgPatches.
+Configs are not patched during run time, only at load time. You do not have to rebuild a PBO to make config changes, just restart Arma. You can get around this though if you are on the dev branch of Arma 3 and running the diagnostic exe. That includes diag_mergeConfigFile which takes a full system path (as in diag_mergeConfigFile ["p:\x\cfp\addons\my_module\config.cpp"]) and allows you selectively reload config files.
 
-### Unit Insignias
-Every unit should have an insignia assigned. We have imported Siege-A's insignia mod, so almost every insignia should be available. If none fit, use the BLOOD or MORALE insignias (see the randomization example to see how).
-
-### Load-outs & Randomization
-Ideally, each faction has a unique uniform i.e. BDU M81 or Field Uniform Multicam etc. There's a selection of uniforms available as common assets within CFP. You can even setup randomization for uniforms if appropriate/
-
-Load-outs should be configured using either standard config mechanism or ALiVE_orbatLoadout config array. 
-
-If using ALiVE_orbatLoadout config array (created by ALiVE ORBATRON)) then ORBATRON will also insert an Init EventHandlers to spawn this load out.
-
-To enable Randomisation do the following:
-
-1. For gear Randomisation add the following to the unit config `randomGearProbability = N` where N is probability out of 100. Then add a config array for any of the equipment items, see example below.
-2. For weapon Randomisation add the following to the unit config `randomWeaponProbability = N` where N is probability out of 100. Then add a config array for ALL of the weapon items, see example below.
-3. In the Init eventhandler add the call to the randomization function. Here are two examples when using the ALiVE_orbatCreator[] and when not.
-
-Using ORBATRON for loadout:
-
-    class EventHandlers : EventHandlers {
-        class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-        class ALiVE_orbatCreator {
-            init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout; [_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-        };
-    };
-
-Not using ORBATRON:
-
-    class EventHandlers : EventHandlers {
-        class ADDON {
-            init = "if (local (_this select 0)) then { _onSpawn = { _this = _this select 0; sleep 0.2; [_this] call CFP_main_fnc_randomizeUnit; }; _this spawn _onSpawn; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-        };
-    };
-
-#### Randomisation Config Examples
-
-    randomGearProbability = 100;
-    randomWeaponProbability = 100;
-
-    uniformList[] = {
-	    "U_BG_Guerilla2_1", 0.25,
-	    "U_BG_Guerilla2_2", 0.25,
-	     "U_BG_Guerilla2_3", 0.25
-    };
-
-    vestList[] = {
-	    "CUP_V_I_RACS_Carrier_Vest", 0.25,
-            "CUP_V_I_RACS_Carrier_Vest_2", 0.25,
-            "CUP_V_I_RACS_Carrier_Vest_3", 0.25,
-	    "V_Chestrig_khk", 0.25
-    };
-    
-    backpackList[] = {
-            "SP_Modular1_Tan", 0.25,
-            "B_AssaultPack_mcamo", 0.25,
-            "B_AssaultPack_cbr", 0.25,
-	    "SP_Carryall_Tan", 0.2
-    };
-
-    insigniaList[] = {
-            "MORALE", 0.5,
-            "BLOOD", 0.5
-    };
-
-    grenadeList[] = {
-        	{"HandGrenade",4}, 0.25,
-		{"MiniGrenade",4}, 0.25
-    };
-
-    rifleList[] = {
-        	{"CUP_arifle_M4A1_camo_Aim",{"CUP_30Rnd_556x45_Stanag",6}}, 0.4,
-        	{"CUP_arifle_M4A3_desert_Aim_Flashlight",{"CUP_30Rnd_556x45_Stanag",6}}, 0.4,
-        	{"CUP_arifle_M4A1_Aim",{"CUP_30Rnd_556x45_Stanag",6}}, 0.4,
-        	{"CUP_arifle_AK74M",{"CUP_30Rnd_545x39_AK_M",6}}, 0.3
-    };
-
-    handgunList[] = {
-            {"CUP_hgun_Glock17",{"CUP_17Rnd_9x19_glock17",3}}, 0.8,
-            {"CUP_hgun_M9",{"CUP_15Rnd_9x19_M9",3}}, 0.4, // M9
-            {"CUP_hgun_Makarov",{"CUP_8Rnd_9x18_Makarov_M",3}}, 0.4
-    };
-
-    explosiveList[] = {
-        	{"",0}, 0.9,
-        	{"CUP_TimeBomb_M",2}, 0.2,
-        	{"CUP_Mine_M",2}, 0.2
-    };
-
-### Faction Groups
-For regular armed forces we recommend the following group categories and groups:
-
-#### Group Categories Classes
-* Infantry
-* SpecOps
-* Motorized
-* Mechanized
-* Armored
-* Air
-* Artillery
-* Support
-* Naval
-
-**Do not create custom group categories!**
-
-#### Recommended Groups
-
-* Infantry
-    * Recon (2)
-    * Sentry (2)
-    * Sniper Pair (2)
-    * AT / Mortar / MG Static (2)
-    * Sniper Team (4)
-    * Fireteam (4)
-    * PL HQ (4)
-    * Coy HQ (5)
-    * (Mnvr) Support Section (6)
-    * (Rifle) Squad / Section (8) 
-    * Weapons Squad (8) / Team (4)
-    * MG Section (8) / Team (4)
-    * AT Section (8) / Team (4)
-    * AA Section (8) / Team (4)
-* SpecOps
-    * Recon (2)
-    * Fireteam (4)
-    * Squad (6)
-    * Assault Team (8)
-    * Motorized Recon (2)
-    * Motorized Fireteam (4)
-    * Motorized Squad (6)
-    * Motorized Assault Team (8)
-* Motorized
-    * Recon (2)
-    * Patrol (4)
-    * PL HQ (4)
-    * (Mnvr) Support Section (6)
-    * (Rifle) Squad / Section (8) 
-    * Weapons Squad (8) / Team (4)
-    * MG Section (8) / Team (4)
-    * AT Section (8) / Team (4)
-    * AA Section (8) / Team (4)
-* Mechanized
-    * Mechanized Coy HQ (2 Vehicles 5 Inf)
-    * Mechanized (Rifle) Squad / Section (2 vehicles 8 inf) 
-    * Mechanized AT/AA Section (8) / Team (4)
-* Armored
-    * Tank Platoon (3 Tanks)
-Air
-    * Support Heli (1)
-    * Attack Heli (1)
-    * Transport Heli (1)
-    * Attack Jet (1)
-    * Fighter Jet (1)
-    * SF Heli (1)
-Naval
-    * Diver Pair (2)
-    * Diver Team (4)
-    * Boat Team (4)
-    * Assault Boat (4-8)
-    * SDV Team (4 Divers, 1 SDV)
-Artillery
-   * Mortar (3)
-   * Field Gun Battery (3)
-   * Artillery Battery (3)
-   * Rocket Battery (3)
-
-### Crates & Supplies
-
-### ALiVE Static Data
-
-### ACE3 Compatibility
-
-### Stringtables
-
-### Icons and Preview Image Generation
-
-### QA / User Acceptance Test
-
-## Common Assets
-Any assets that may be used by multiple factions should be placed in our common asset folders. In `\x\cfp\addons\` we have a number of folder for common assets:
-
-* models - common p3d models go here
-* uniforms - common uniform config and textures here
-* vests - common vest config and textures here
-* backpacks - common backpack config and textures here
-* headgear - common headgear config and textures here
-* glasses - common face wear
-* faces - common skin textures
-* nvg - common nvg config and textures here
-* vehicles - common vehicle textures here
-* insignia - common insignias
-* main\functions - common functions
-* flags - internation flag textures
+If you need to add/remove files, then you’ll need to run build.py again without the game running, and restart. That is all that is required to add new files for further use in testing.
