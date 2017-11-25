@@ -64,7 +64,7 @@ CFP factions cover major current conflict zones such as Afghanistan, Iraq, Syria
 - Libyan National Army
 - Mali Islamic Rebels
 - Russian Army / Airborne Forces - split into various theater specific factions
-- Russian Ministry of Internal Affairs
+- Russian National Guard (formerly MVD)
 - Russian Navy (Infantry)
 - Russian Special Operations - split into various theater specific factions
 - Somali Rebels
