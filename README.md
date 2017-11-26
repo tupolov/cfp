@@ -25,14 +25,14 @@
 
 CFP offers not only enhanced vanilla CUP factions but also a huge number of new factions using CUP and community donated assets. CFP includes custom assets and textures in order to help expand whats possible with CUP. 
 
-CFP Ultimate enhances base CFP factions and introduces new factions using the most efficient combination of community gear, weapon and vehicle addons. CFP Ultimate requires NIArms, SMA, VME PLA and VSM.  
+CFP Ultimate enhances base CFP factions and introduces new factions using the most efficient combination of community gear, weapon and vehicle addons. CFP Ultimate requires TBC.
 
 Factions are delivered in a modular way, enabling groups to maintain their own tailored version of CFP by simply excluding any components they don't need, or those possibly in conflict with other mods. 
 
 ## Features
 - 88 new factions!
 - CFP introduces 58 new factions based on CUP assets (including 9 new civilian factions)
-- CFP Ultimate enhances the CFP factions and introduces 30 new factions/sub-factions based on common community addons (VSM, SMA, NIArms, VME etc)
+- CFP Ultimate enhances the CFP factions and introduces 30 new factions/sub-factions based on common community addons (TBC etc)
 - Replaces certain CUP factions with factions split by theater (i.e. Arid/Desert, Woodland/Jungle, Artic/Snow etc)
 - Enhances certain CUP factions with additonal groups and loadouts (i.e. special forces)
 - Includes AccuracyThruVolume's Iraq/Syria pack
