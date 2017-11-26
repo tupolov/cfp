@@ -26,6 +26,7 @@ class CfgWeapons {
     #include "CVCHelmet\CfgWeapons.hpp"
     #include "ECHHelmet\CfgWeapons.hpp"
     #include "GhillieHat\CfgWeapons.hpp"
+    #include "Headband\CfgWeapons.hpp"
     #include "HeadSet\CfgWeapons.hpp"
     #include "Hood\CfgWeapons.hpp"
     #include "Lungee_Shemagh\CfgWeapons.hpp"
