@@ -266,7 +266,13 @@ class CfgPatches
 			"SP_ZSH1Helmet_Green1",
 			"SP_ZSH1Helmet_Green2",
 			"SP_ZSH1Helmet_Tan1",
-			"SP_ZSH1Helmet_Tan2"
+			"SP_ZSH1Helmet_Tan2",
+			"CFP_Lungee_Shemagh",
+			"CFP_Lungee_Shemagh_Yellow",
+			"CFP_Lungee_Shemagh_White",
+			"CFP_Lungee_Shemagh_LightBlue",
+			"CFP_Lungee_Shemagh_Green",
+			"CFP_Lungee_Shemagh_Red"
 		};
         author = MODULE_AUTHOR;
         authors[] = {"SP Craig", "Tupolov"};
