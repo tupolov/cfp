@@ -131,14 +131,7 @@ For more information on CFP Ultimate, go to our <a href="https://github.com/tupo
 
 ## Assets Needed for CFP
 
-Where available we have used the correct assets for each faction. Where an asset is unavailable we have used a placeholder. Here are the following assets we are looking to be donated to the project:
-
-Equipment | Weapons | Ground Vehicles | Aircraft | Naval
---- | --- | --- | --- | --- 
-MBAV | Beneli M4 | Husky | Tornado GR4 | Mk6 Boat (UK)
-6B46 Vest | Serdyukov SR1 | L-ATV | Eurocopter | Rigid Raider |
-6B47 Helmet | MP-443 Grach | GAZ-2975 Tigr | Mi35 | - |
-6Sh117 Vest | HK416 | BTR-82A | Mi28 | - |
+Where available we have used the correct assets for each faction. Where an asset is unavailable we have used a placeholder. For a list of the assets we are looking to be donated to the project see [here](https://github.com/tupolov/cfp/issues/48).
 
 ## Getting started
 
