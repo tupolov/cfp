@@ -564,45 +564,45 @@ class CfgVehicles {
         };
 
     // New Vehicles
-        class CUP_M2StaticMG_base;
-        class CUP_M2StaticMG_base_OCimport_01 : CUP_M2StaticMG_base { scope = 0; class EventHandlers; class Turrets; };
-        class CUP_M2StaticMG_base_OCimport_02 : CUP_M2StaticMG_base_OCimport_01 {
+        class CUP_B_M2StaticMG_US;
+        class CUP_B_M2StaticMG_US_OCimport_01 : CUP_B_M2StaticMG_US { scope = 0; class EventHandlers; class Turrets; };
+        class CUP_B_M2StaticMG_US_OCimport_02 : CUP_B_M2StaticMG_US_OCimport_01 {
             class EventHandlers;
             class Turrets : Turrets {
                 class MainTurret;
             };
         };
 
-        class CUP_M2StaticMG_MiniTripod_base;
-        class CUP_M2StaticMG_MiniTripod_base_OCimport_01 : CUP_M2StaticMG_MiniTripod_base { scope = 0; class EventHandlers; class Turrets; };
-        class CUP_M2StaticMG_MiniTripod_base_OCimport_02 : CUP_M2StaticMG_MiniTripod_base_OCimport_01 {
+        class CUP_B_M2StaticMG_MiniTripod_US;
+        class CUP_B_M2StaticMG_MiniTripod_US_OCimport_01 : CUP_B_M2StaticMG_MiniTripod_US { scope = 0; class EventHandlers; class Turrets; };
+        class CUP_B_M2StaticMG_MiniTripod_US_OCimport_02 : CUP_B_M2StaticMG_MiniTripod_US_OCimport_01 {
             class EventHandlers;
             class Turrets : Turrets {
                 class MainTurret;
             };
         };
 
-        class CUP_TOW_TriPod_base;
-        class CUP_TOW_TriPod_base_OCimport_01 : CUP_TOW_TriPod_base { scope = 0; class EventHandlers; class Turrets; };
-        class CUP_TOW_TriPod_base_OCimport_02 : CUP_TOW_TriPod_base_OCimport_01 {
+        class CUP_B_TOW_TriPod_US;
+        class CUP_B_TOW_TriPod_US_OCimport_01 : CUP_B_TOW_TriPod_US { scope = 0; class EventHandlers; class Turrets; };
+        class CUP_B_TOW_TriPod_US_OCimport_02 : CUP_B_TOW_TriPod_US_OCimport_01 {
             class EventHandlers;
             class Turrets : Turrets {
                 class MainTurret;
             };
         };
 
-        class CUP_M252_base;
-        class CUP_M252_base_OCimport_01 : CUP_M252_base { scope = 0; class EventHandlers; class Turrets; };
-        class CUP_M252_base_OCimport_02 : CUP_M252_base_OCimport_01 {
+        class CUP_B_M252_US;
+        class CUP_B_M252_US_OCimport_01 : CUP_B_M252_US { scope = 0; class EventHandlers; class Turrets; };
+        class CUP_B_M252_US_OCimport_02 : CUP_B_M252_US_OCimport_01 {
             class EventHandlers;
             class Turrets : Turrets {
                 class MainTurret;
             };
         };
 
-        class CUP_M119_base;
-        class CUP_M119_base_OCimport_01 : CUP_M119_base { scope = 0; class EventHandlers; class Turrets; };
-        class CUP_M119_base_OCimport_02 : CUP_M119_base_OCimport_01 {
+        class CUP_B_M119_US;
+        class CUP_B_M119_US_OCimport_01 : CUP_B_M119_US { scope = 0; class EventHandlers; class Turrets; };
+        class CUP_B_M119_US_OCimport_02 : CUP_B_M119_US_OCimport_01 {
             class EventHandlers;
             class Turrets : Turrets {
                 class MainTurret;
@@ -622,14 +622,6 @@ class CfgVehicles {
             class EventHandlers;
             class Turrets : Turrets {
                 class Mainturret;
-            };
-        };
-
-        class CUP_B_M2A3Bradley_USA_D_OCimport_01 : CUP_B_M2A3Bradley_USA_D { scope = 0; class EventHandlers; class Turrets; };
-        class CUP_B_M2A3Bradley_USA_D_OCimport_02 : CUP_B_M2A3Bradley_USA_D_OCimport_01 {
-            class EventHandlers;
-            class Turrets : Turrets {
-                class MainTurret;
             };
         };
 
@@ -788,24 +780,6 @@ class CfgVehicles {
         class CUP_MTVR_Repair_Base_OCimport_01 : CUP_MTVR_Repair_Base { scope = 0; class EventHandlers; };
         class CUP_MTVR_Repair_Base_OCimport_02 : CUP_MTVR_Repair_Base_OCimport_01 { scope = 0; class EventHandlers; };
 
-        class CUP_B_M1126_ICV_M2_Desert_OCimport_01 : CUP_B_M1126_ICV_M2_Desert { scope = 0; class EventHandlers; class Turrets; };
-        class CUP_B_M1126_ICV_M2_Desert_OCimport_02 : CUP_B_M1126_ICV_M2_Desert_OCimport_01 {
-            class EventHandlers;
-            class Turrets : Turrets {
-                class ObsTurret;
-                class CommanderTurret;
-            };
-        };
-
-        class CUP_B_M1126_ICV_MK19_Desert_OCimport_01 : CUP_B_M1126_ICV_MK19_Desert { scope = 0; class EventHandlers; class Turrets; };
-        class CUP_B_M1126_ICV_MK19_Desert_OCimport_02 : CUP_B_M1126_ICV_MK19_Desert_OCimport_01 {
-            class EventHandlers;
-            class Turrets : Turrets {
-                class ObsTurret;
-                class CommanderTurret;
-            };
-        };
-
         class CUP_B_M1130_CV_M2_Desert_OCimport_01 : CUP_B_M1130_CV_M2_Desert { scope = 0; class EventHandlers; class Turrets; };
         class CUP_B_M1130_CV_M2_Desert_OCimport_02 : CUP_B_M1130_CV_M2_Desert_OCimport_01 {
             class EventHandlers;
@@ -899,7 +873,7 @@ class CfgVehicles {
             typicalCargo[] = {"CFP_B_USARMY_US_Pilot","CFP_B_USARMY_US_Pilot", "CFP_B_USARMY_US_Pilot"};
         };
 
-        class CFP_B_USARMY_M2StaticMG_US : CUP_M2StaticMG_base_OCimport_02 {
+        class CFP_B_USARMY_M2StaticMG_US : CUP_B_M2StaticMG_US_OCimport_02 {
             author = "Tupolov";
             scope = 2;
             scopeCurator = 2;
@@ -928,7 +902,7 @@ class CfgVehicles {
 
         };
 
-        class CFP_B_USARMY_M2StaticMG_MiniTripod_US : CUP_M2StaticMG_MiniTripod_base_OCimport_02 {
+        class CFP_B_USARMY_M2StaticMG_MiniTripod_US : CUP_B_M2StaticMG_MiniTripod_US_OCimport_02 {
             author = "Tupolov";
             scope = 2;
             scopeCurator = 2;
@@ -957,7 +931,7 @@ class CfgVehicles {
 
         };
 
-        class CFP_B_USARMY_TOW_TriPod_US : CUP_TOW_TriPod_base_OCimport_02 {
+        class CFP_B_USARMY_TOW_TriPod_US : CUP_B_TOW_TriPod_US_OCimport_02 {
             author = "Tupolov";
             scope = 2;
             scopeCurator = 2;
@@ -969,7 +943,6 @@ class CfgVehicles {
             class Turrets : Turrets {
                 class MainTurret : MainTurret { gunnerType = ""; };
             };
-
 
 
             class EventHandlers : EventHandlers {
@@ -986,7 +959,7 @@ class CfgVehicles {
 
         };
 
-        class CFP_B_USARMY_M252_US : CUP_M252_base_OCimport_02 {
+        class CFP_B_USARMY_M252_US : CUP_B_M252_US_OCimport_02 {
             author = "Tupolov";
             scope = 2;
             scopeCurator = 2;
@@ -1015,7 +988,7 @@ class CfgVehicles {
 
         };
 
-        class CFP_B_USARMY_M119_US : CUP_M119_base_OCimport_02 {
+        class CFP_B_USARMY_M119_US : CUP_B_M119_US_OCimport_02 {
             author = "Tupolov";
             scope = 2;
             scopeCurator = 2;
@@ -1027,8 +1000,6 @@ class CfgVehicles {
             class Turrets : Turrets {
                 class MainTurret : MainTurret { gunnerType = ""; };
             };
-
-
 
             class EventHandlers : EventHandlers {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
