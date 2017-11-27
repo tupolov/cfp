@@ -28,6 +28,12 @@ class CfgVehicles {
         class CUP_Creatures_Military_USA_Soldier_Base: SoldierWB
         {
             editorSubCategory = "CFP_EdSubcat_Personnel_Camo_UCP";
+                // Add random insignias for Units that have it enabled and the model supports it
+                randomGearProbability = 80;
+                insigniaList[] = {
+                    "MORALE", 0.3,
+                    "BLOOD", 0.5
+                };
         };
         class CUP_B_USArmy_Soldier_01;
         class CUP_B_US_SpecOps: CUP_B_USArmy_Soldier_01
