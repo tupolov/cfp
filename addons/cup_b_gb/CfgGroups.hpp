@@ -3,7 +3,7 @@ class CfgGroups {
     class WEST {
 
         class CUP_B_GB {
-            name = "British Army (Arid/Desert)";
+            name = "British Army (Arid / Desert)";
 
             class Infantry {
                 name = "Infantry (MTP)";

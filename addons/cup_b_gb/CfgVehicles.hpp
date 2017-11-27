@@ -15,6 +15,7 @@ class CfgVehicles
     class CUP_Creatures_Military_BAF_Soldier_Base: SoldierWB
     {
         editorSubcategory = "CFP_EdSubcat_Personnel_Camo_MTP";
+
     };
 
     class CUP_B_BAF_Soldier_04_MTP: CUP_Creatures_Military_BAF_Soldier_Base // Officer Uniform
