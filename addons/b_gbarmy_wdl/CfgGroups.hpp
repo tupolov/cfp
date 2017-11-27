@@ -2,7 +2,7 @@ class CfgGroups {
     class WEST {
 
         class CFP_B_GBARMY_WDL {
-            name = "British Army (Jungle/Woodland)";
+            name = "British Army (Jungle / Woodland)";
 
             class Infantry {
                 name = "Infantry (MTP)";
