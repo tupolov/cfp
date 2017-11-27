@@ -545,18 +545,12 @@ class CfgGroups {
                         vehicle = "CUP_B_US_Soldier_TL";
                     };
                     class Unit7 {
-                        position[] = { 13 , 0 , 0 };
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "CUP_B_US_Soldier_AR";
-                    };
-                    class Unit8 {
                         position[] = { 15 , 0 , 0 };
                         rank = "PRIVATE";
                         side = 1;
                         vehicle = "CUP_B_US_Soldier_GL";
                     };
-                    class Unit9 {
+                    class Unit8 {
                         position[] = { 17 , 0 , 0 };
                         rank = "PRIVATE";
                         side = 1;
@@ -620,12 +614,6 @@ class CfgGroups {
                         vehicle = "CUP_B_US_Soldier_GL";
                     };
                     class Unit8 {
-                        position[] = { 17 , 0 , 0 };
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "CUP_B_US_Soldier_AR";
-                    };
-                    class Unit9 {
                         position[] = { 19 , 0 , 0 };
                         rank = "PRIVATE";
                         side = 1;
@@ -840,7 +828,7 @@ class CfgGroups {
                         position[] = { 0 , 0 , 0 };
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CUP_B_M6LineBacker_USA_W";
+                        vehicle = "CUP_B_M6LineBacker_USA_D";
                     };
                     class Unit1 {
                         position[] = { 9 , -14 , 0 };
