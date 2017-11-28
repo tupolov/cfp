@@ -221,13 +221,12 @@ class CfgVehicles {
 
 	// Chadian Headgear
 		headgearList[] = {
-	"SP_Shemagh_Tan", 0.2,
-	"SP_Shemagh_White", 0.2,
-	"SP_Shemagh_CheckTan", 0.2,
-	"SP_Shemagh_CheckWhite", 0.2,
-	"SP_Shemagh_Grey", 0.2,
-	"CUP_H_TKI_Lungee_05", 0.4,
-	"CUP_H_TKI_Lungee_Open_04", 0.4
+	"CFP_Lungee_Shemagh", 0.2,
+	"CFP_Lungee_Shemagh_Green", 0.2,
+	"CFP_Lungee_Shemagh_White", 0.3,
+	"CFP_Lungee_Shemagh_Yellow", 0.5,
+	"CFP_Lungee_Shemagh_Red", 0.2,
+	"CFP_Lungee_Shemagh_LightBlue", 0.2
 		};
 
         class EventHandlers : EventHandlers {

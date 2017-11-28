@@ -5,10 +5,10 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 class CfgGroups {
-    class WEST {
+    class Indep {
 
-        class CFP_B_UGARMY {
-            name = "Uganda People's Defense Force";
+        class I_CFP_TUAREG {
+            name = "Tuareg Rebels";
 
             class Infantry {
                 name = "Infantry";
