@@ -4,7 +4,7 @@
 
 <p align="center">
     <a href="https://github.com/tupolov/cfp/releases/latest">
-        <img src="https://img.shields.io/badge/Version-0.0.1-blue.svg?style=flat-square" alt="CFP Version">
+        <img src="https://img.shields.io/badge/Version-0.1.0-blue.svg?style=flat-square" alt="CFP Version">
     </a>
     <a href="https://github.com/tupolov/cfp/issues">
         <img src="https://img.shields.io/github/issues-raw/tupolov/CFP.svg?style=flat-square&label=Issues" alt="CFP Issues">
@@ -63,10 +63,9 @@ CFP factions cover major current conflict zones such as Afghanistan, Iraq, Syria
 - Islamic State
 - Libyan National Army
 - Mali Islamic Rebels
-- Russian Army / Airborne Forces - split into various theater specific factions
+- Russian Ground Forces - split into various theater specific factions including Special Operations Forces
 - Russian National Guard (formerly MVD)
 - Russian Navy (Infantry)
-- Russian Special Operations - split into various theater specific factions
 - Somali Rebels
 - South Thailand Insurgents
 - Sudan Army
@@ -95,8 +94,7 @@ CFP factions cover major current conflict zones such as Afghanistan, Iraq, Syria
 - Afghanistan Army 
 - Armed Forces of the Czech Republic - split into theater factions
 - British Army - split into theater factions
-- British Royal Marines
-- Bundewehr KSK  - split into theater factions
+- Bundeswehr (KSK)  - split into theater factions
 - Iraqi Armed Forces
 - Iraqi Police
 - Kenyan Defence Forces
@@ -121,8 +119,8 @@ CFP factions cover major current conflict zones such as Afghanistan, Iraq, Syria
 - African (Muslim)
 - Asian
 - International Committee of the Red Cross
-- Iraqi/Syrian
-- Middle Eastern
+- Afghani/Pakistani
+- Middle Eastern (Iraqi/Syrian/Libyan)
 - South American
 
 ## CFP Ultimate
