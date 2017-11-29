@@ -5,7 +5,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 class CfgFactionClasses {
-    class I_CFP_TUAREG {
+    class CFP_I_TUAREG {
         displayName = "Tuareg Rebels";
         side = 2;
         flag = "\A3\ui_f\data\map\markers\flags\nato_ca.paa";
