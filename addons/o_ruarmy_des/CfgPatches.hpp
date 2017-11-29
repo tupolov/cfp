@@ -114,8 +114,14 @@ class CfgPatches {
             "CFP_O_RUARMY_Ural_Empty_DES_01",
             "CFP_O_RUARMY_Ural_ZU_23_DES_01"
         };
-        weapons[] = {};
-        requiredVersion = 1.62;
+        weapons[] = {
+            "CFP_H_O_RUARMY_6B27_NVG",
+            "CFP_H_O_RUARMY_6B27",
+            "CUP_U_O_RUARMY_DesertEMR",
+            "CUP_U_O_RUARMY_DesertEMR_2",
+            "CUP_U_O_RUARMY_DesertEMR_VDV",
+            "CUP_U_O_RUARMY_DesertEMR_2_VDV"
+        };
         requiredAddons[] = {
             "CUP_AirVehicles_Mi8",
             "CUP_WheeledVehicles_UAZ",
@@ -142,7 +148,10 @@ class CfgPatches {
             "CUP_TrackedVehicles_T72",
             "cfp_vehicles"
         };
-        author = "Matt";
-        authors[] = {"Matt"};
+        author = MODULE_AUTHOR;
+        authors[] = {"CUP", "Tupolov"};
+        requiredVersion = REQUIRED_VERSION;
+        VERSION_CONFIG;
     };
 };
+

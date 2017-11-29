@@ -6,7 +6,7 @@
 
 class CfgFactionClasses {
     class CFP_O_RUARMY_DES {
-        displayName = "Russian Army (Arid / Desert)";
+        displayName = "Russian Ground Forces (Arid / Desert)";
         side = 0;
         flag = "CUP\BaseConfigs\CUP_BaseConfigs\Data\Flags\flag_rus_co.paa";
         icon = "CUP\BaseConfigs\CUP_BaseConfigs\Data\Flags\flag_rus_co.paa";

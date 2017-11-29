@@ -8,7 +8,7 @@ class CfgGroups {
     class EAST {
 
         class CFP_O_RUARMY_DES {
-            name = "Russian Army (Arid / Desert)";
+            name = "Russian Ground Forces (Arid / Desert)";
 
             class Infantry {
                 name = "Infantry";
