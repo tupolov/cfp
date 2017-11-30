@@ -682,6 +682,25 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG3_DMARPAT";
 
+            randomGearProbability = 80;
+            uniformList[] = {
+                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+            };
+            headgearList[] = {
+                "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_HS_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_HS_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_LR_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_LR_DES",0.5,
+                "CUP_H_USMC_BOONIE_DES",0.1,
+                "CUP_H_USMC_BOONIE_PRR_DES",0.1
+            };
             ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_M240","","","",{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",100},{},""},{},{},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"FirstAidKit",1}}},{"CUP_V_B_Eagle_SPC_MG",{}},{"CUP_B_USMC_MOLLE_MG",{{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",4,100}}},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
 
@@ -711,7 +730,26 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG2_DMARPAT";
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_M249","","","",{"CUP_200Rnd_TE4_Green_Tracer_556x45_M249",200},{},""},{},{},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_HandGrenade_M67",2,1},{"SmokeShell",2,1}}},{"CUP_V_B_Eagle_SPC_AR",{}},{"CUP_B_USMC_MOLLE_AR",{{"CUP_200Rnd_TE4_Green_Tracer_556x45_M249",3,200}}},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+            randomGearProbability = 80;
+            uniformList[] = {
+                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+            };
+            headgearList[] = {
+                "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_HS_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_HS_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_LR_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_LR_DES",0.5,
+                "CUP_H_USMC_BOONIE_DES",0.1,
+                "CUP_H_USMC_BOONIE_PRR_DES",0.1
+            };
+           ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_M249","","","",{"CUP_200Rnd_TE4_Green_Tracer_556x45_M249",200},{},""},{},{},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_HandGrenade_M67",2,1},{"SmokeShell",2,1}}},{"CUP_V_B_Eagle_SPC_AR",{}},{"CUP_B_USMC_MOLLE_AR",{{"CUP_200Rnd_TE4_Green_Tracer_556x45_M249",3,200}}},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
 
 
@@ -740,7 +778,27 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG2_DMARPAT";
 
-            ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1}}},{"CUP_V_B_Eagle_SPC_Empty",{}},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+            randomGearProbability = 80;
+            uniformList[] = {
+                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+            };
+            headgearList[] = {
+                "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_HS_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_HS_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_LR_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_LR_DES",0.5,
+                "CUP_H_USMC_BOONIE_DES",0.1,
+                "CUP_H_USMC_BOONIE_PRR_DES",0.1
+            };
+
+           ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1}}},{"CUP_V_B_Eagle_SPC_Empty",{}},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -769,7 +827,26 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG2_DMARPAT";
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_FIM92Stinger","","","",{"CUP_Stinger_M",1},{},""},{},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"CUP_30Rnd_556x45_Stanag",2,30}}},{"CUP_V_B_Eagle_SPC_Patrol",{{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",2,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+            randomGearProbability = 80;
+            uniformList[] = {
+                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+            };
+            headgearList[] = {
+                "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_HS_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_HS_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_LR_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_LR_DES",0.5,
+                "CUP_H_USMC_BOONIE_DES",0.1,
+                "CUP_H_USMC_BOONIE_PRR_DES",0.1
+            };
+           ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_FIM92Stinger","","","",{"CUP_Stinger_M",1},{},""},{},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"CUP_30Rnd_556x45_Stanag",2,30}}},{"CUP_V_B_Eagle_SPC_Patrol",{{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",2,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
 
 
@@ -798,7 +875,26 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG2_DMARPAT";
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_Javelin","","","",{"CUP_Javelin_M",1},{},""},{},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"CUP_30Rnd_556x45_Stanag",2,30}}},{"CUP_V_B_Eagle_SPC_AT",{{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",2,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+            randomGearProbability = 80;
+            uniformList[] = {
+                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+            };
+            headgearList[] = {
+                "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_HS_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_HS_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_LR_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_LR_DES",0.5,
+                "CUP_H_USMC_BOONIE_DES",0.1,
+                "CUP_H_USMC_BOONIE_PRR_DES",0.1
+            };
+           ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_Javelin","","","",{"CUP_Javelin_M",1},{},""},{},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"CUP_30Rnd_556x45_Stanag",2,30}}},{"CUP_V_B_Eagle_SPC_AT",{{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",2,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
 
 
@@ -827,7 +923,26 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG3_DMARPAT";
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_Mk153Mod0_SMAWOptics","","","CUP_optic_SMAW_Scope",{"CUP_SMAW_HEAA_M",1},{"CUP_SMAW_Spotting",5},""},{},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"CUP_30Rnd_556x45_Stanag",2,30}}},{"CUP_V_B_Eagle_SPC_AT",{{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",2,1},{"CUP_SMAW_Spotting",1,5}}},{"CUP_B_USMC_AssaultPack_SMAW",{{"CUP_SMAW_HEDP_M",1,1},{"CUP_SMAW_HEAA_M",1,1}}},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+            randomGearProbability = 80;
+            uniformList[] = {
+                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+            };
+            headgearList[] = {
+                "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_HS_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_HS_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_LR_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_LR_DES",0.5,
+                "CUP_H_USMC_BOONIE_DES",0.1,
+                "CUP_H_USMC_BOONIE_PRR_DES",0.1
+            };
+           ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_Mk153Mod0_SMAWOptics","","","CUP_optic_SMAW_Scope",{"CUP_SMAW_HEAA_M",1},{"CUP_SMAW_Spotting",5},""},{},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"CUP_30Rnd_556x45_Stanag",2,30}}},{"CUP_V_B_Eagle_SPC_AT",{{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",2,1},{"CUP_SMAW_Spotting",1,5}}},{"CUP_B_USMC_AssaultPack_SMAW",{{"CUP_SMAW_HEDP_M",1,1},{"CUP_SMAW_HEAA_M",1,1}}},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
 
 
@@ -856,6 +971,25 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG3_DMARPAT";
 
+            randomGearProbability = 80;
+            uniformList[] = {
+                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+            };
+            headgearList[] = {
+                "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_HS_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_HS_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_LR_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_LR_DES",0.5,
+                "CUP_H_USMC_BOONIE_DES",0.1,
+                "CUP_H_USMC_BOONIE_PRR_DES",0.1
+            };
             ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_M136","","","",{"CUP_M136_M",1},{},""},{},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"CUP_30Rnd_556x45_Stanag",2,30}}},{"CUP_V_B_Eagle_SPC_AT",{{"CUP_30Rnd_556x45_Stanag",2,30},{"CUP_HandGrenade_M67",1,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
 
@@ -885,7 +1019,26 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG2_DMARPAT";
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30}}},{"CUP_V_B_Eagle_SPC_Empty",{{"CUP_30Rnd_556x45_Stanag",2,30},{"CUP_7Rnd_45ACP_1911",2,7},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+            randomGearProbability = 80;
+            uniformList[] = {
+                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+            };
+            headgearList[] = {
+                "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_HS_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_HS_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_LR_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_LR_DES",0.5,
+                "CUP_H_USMC_BOONIE_DES",0.1,
+                "CUP_H_USMC_BOONIE_PRR_DES",0.1
+            };
+           ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30}}},{"CUP_V_B_Eagle_SPC_Empty",{{"CUP_30Rnd_556x45_Stanag",2,30},{"CUP_7Rnd_45ACP_1911",2,7},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
 
 
@@ -914,7 +1067,26 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG2_DMARPAT";
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_M9","","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_SL",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",2,1},{"SmokeShellRed",1,1},{"SmokeShellGreen",1,1},{"CUP_15Rnd_9x19_M9",3,15}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+            randomGearProbability = 80;
+            uniformList[] = {
+                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+            };
+            headgearList[] = {
+                "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_HS_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_HS_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_LR_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_LR_DES",0.5,
+                "CUP_H_USMC_BOONIE_DES",0.1,
+                "CUP_H_USMC_BOONIE_PRR_DES",0.1
+            };
+           ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_M9","","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_SL",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",2,1},{"SmokeShellRed",1,1},{"SmokeShellGreen",1,1},{"CUP_15Rnd_9x19_M9",3,15}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
 
 
@@ -944,7 +1116,26 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG2_DMARPAT";
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_GL_ACOG_Laser","","CUP_acc_ANPEQ_2","CUP_optic_ACOG",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_1Rnd_HEDP_M203",1},""},{},{},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_TL",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",3,1},{"CUP_1Rnd_HEDP_M203",3,1},{"CUP_1Rnd_Smoke_M203",2,1},{"CUP_1Rnd_SmokeRed_M203",1,1},{"CUP_1Rnd_SmokeGreen_M203",1,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+            randomGearProbability = 80;
+            uniformList[] = {
+                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+            };
+            headgearList[] = {
+                "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_HS_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_HS_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_LR_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_LR_DES",0.5,
+                "CUP_H_USMC_BOONIE_DES",0.1,
+                "CUP_H_USMC_BOONIE_PRR_DES",0.1
+            };
+           ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_GL_ACOG_Laser","","CUP_acc_ANPEQ_2","CUP_optic_ACOG",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_1Rnd_HEDP_M203",1},""},{},{},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_TL",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",3,1},{"CUP_1Rnd_HEDP_M203",3,1},{"CUP_1Rnd_Smoke_M203",2,1},{"CUP_1Rnd_SmokeRed_M203",1,1},{"CUP_1Rnd_SmokeGreen_M203",1,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
 
 
@@ -973,7 +1164,26 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG3_DMARPAT";
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_Aim","","","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"SmokeShell",1,1}}},{"CUP_V_B_Eagle_SPC_Corpsman",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_B_USMC_AssaultPack_Medic",{{"Medikit",1},{"FirstAidKit",10}}},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+            randomGearProbability = 80;
+            uniformList[] = {
+                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+            };
+            headgearList[] = {
+                "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_HS_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_HS_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_LR_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_LR_DES",0.5,
+                "CUP_H_USMC_BOONIE_DES",0.1,
+                "CUP_H_USMC_BOONIE_PRR_DES",0.1
+            };
+           ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_Aim","","","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"SmokeShell",1,1}}},{"CUP_V_B_Eagle_SPC_Corpsman",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_B_USMC_AssaultPack_Medic",{{"Medikit",1},{"FirstAidKit",10}}},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
 
 
@@ -1002,7 +1212,26 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG2_DMARPAT";
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_RTO",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",3,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+            randomGearProbability = 80;
+            uniformList[] = {
+                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+            };
+            headgearList[] = {
+                "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_HS_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_HS_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_LR_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_LR_DES",0.5,
+                "CUP_H_USMC_BOONIE_DES",0.1,
+                "CUP_H_USMC_BOONIE_PRR_DES",0.1
+            };
+           ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_RTO",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",3,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
 
 
@@ -1031,7 +1260,26 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG1_DMARPAT";
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_Aim","","","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG1_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"SmokeShell",1,1}}},{"CUP_V_B_Eagle_SPC_Scout",{{"CUP_30Rnd_556x45_Stanag",6,30},{"CUP_15Rnd_9x19_M9",3,15},{"SmokeShellPurple",1,1},{"SmokeShellYellow",1,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"CUP_SOFLAM","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+            randomGearProbability = 80;
+            uniformList[] = {
+                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+            };
+            headgearList[] = {
+                "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_HS_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_HS_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_LR_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_LR_DES",0.5,
+                "CUP_H_USMC_BOONIE_DES",0.1,
+                "CUP_H_USMC_BOONIE_PRR_DES",0.1
+            };
+           ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_Aim","","","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG1_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"SmokeShell",1,1}}},{"CUP_V_B_Eagle_SPC_Scout",{{"CUP_30Rnd_556x45_Stanag",6,30},{"CUP_15Rnd_9x19_M9",3,15},{"SmokeShellPurple",1,1},{"SmokeShellYellow",1,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"CUP_SOFLAM","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
 
 
@@ -1060,7 +1308,26 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG2_DMARPAT";
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_GL_ACOG_Laser","","CUP_acc_ANPEQ_2","CUP_optic_ACOG",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_1Rnd_HEDP_M203",1},""},{},{},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_1Rnd_HEDP_M203",1,1}}},{"CUP_V_B_Eagle_SPC_GL",{{"CUP_30Rnd_556x45_Stanag",6,30},{"CUP_1Rnd_HEDP_M203",6,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+            randomGearProbability = 80;
+            uniformList[] = {
+                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+            };
+            headgearList[] = {
+                "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_HS_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_HS_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_LR_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_LR_DES",0.5,
+                "CUP_H_USMC_BOONIE_DES",0.1,
+                "CUP_H_USMC_BOONIE_PRR_DES",0.1
+            };
+           ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_GL_ACOG_Laser","","CUP_acc_ANPEQ_2","CUP_optic_ACOG",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_1Rnd_HEDP_M203",1},""},{},{},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_1Rnd_HEDP_M203",1,1}}},{"CUP_V_B_Eagle_SPC_GL",{{"CUP_30Rnd_556x45_Stanag",6,30},{"CUP_1Rnd_HEDP_M203",6,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
 
 
@@ -1089,7 +1356,26 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG2_DMARPAT";
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_Aim","","","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_Corpsman",{{"CUP_30Rnd_556x45_Stanag",4,30},{"SmokeShell",1,1}}},{"CUP_B_USMC_MOLLE_Exp",{{"ToolKit",1},{"MineDetector",1},{"CUP_Mine_M",2,1}}},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+            randomGearProbability = 80;
+            uniformList[] = {
+                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+            };
+            headgearList[] = {
+                "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_HS_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_HS_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_LR_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_LR_DES",0.5,
+                "CUP_H_USMC_BOONIE_DES",0.1,
+                "CUP_H_USMC_BOONIE_PRR_DES",0.1
+            };
+           ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_Aim","","","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_Corpsman",{{"CUP_30Rnd_556x45_Stanag",4,30},{"SmokeShell",1,1}}},{"CUP_B_USMC_MOLLE_Exp",{{"ToolKit",1},{"MineDetector",1},{"CUP_Mine_M",2,1}}},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
 
 
@@ -1118,7 +1404,26 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG1_DMARPAT";
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_DMR_LeupoldMk4","","","CUP_optic_LeupoldMk4",{"CUP_20Rnd_762x51_DMR",20},{},"CUP_bipod_Harris_1A2_L"},{},{},{"CUP_U_B_USMC_FROG1_DMARPAT",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_DMR",1,20},{"SmokeShell",1,1}}},{"CUP_V_B_Eagle_SPC_DMR",{{"CUP_20Rnd_762x51_DMR",6,20},{"CUP_HandGrenade_M67",2,1},{"SmokeShellRed",1,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+            randomGearProbability = 80;
+            uniformList[] = {
+                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+            };
+            headgearList[] = {
+                "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_HS_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_HS_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_LR_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_LR_DES",0.5,
+                "CUP_H_USMC_BOONIE_DES",0.1,
+                "CUP_H_USMC_BOONIE_PRR_DES",0.1
+            };
+           ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_DMR_LeupoldMk4","","","CUP_optic_LeupoldMk4",{"CUP_20Rnd_762x51_DMR",20},{},"CUP_bipod_Harris_1A2_L"},{},{},{"CUP_U_B_USMC_FROG1_DMARPAT",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_DMR",1,20},{"SmokeShell",1,1}}},{"CUP_V_B_Eagle_SPC_DMR",{{"CUP_20Rnd_762x51_DMR",6,20},{"CUP_HandGrenade_M67",2,1},{"SmokeShellRed",1,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
 
 
@@ -1147,7 +1452,26 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG1_DMARPAT";
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_USMC_FROG1_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30}}},{"CUP_V_B_Eagle_SPC_Officer",{{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_7Rnd_45ACP_1911",3,7}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+            randomGearProbability = 80;
+            uniformList[] = {
+                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+            };
+            headgearList[] = {
+                "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_HS_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_HS_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_LR_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_LR_DES",0.5,
+                "CUP_H_USMC_BOONIE_DES",0.1,
+                "CUP_H_USMC_BOONIE_PRR_DES",0.1
+            };
+           ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_USMC_FROG1_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30}}},{"CUP_V_B_Eagle_SPC_Officer",{{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_7Rnd_45ACP_1911",3,7}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
 
 
@@ -1176,7 +1500,26 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG3_DMARPAT";
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_Officer",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",3,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","B_UavTerminal","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+            randomGearProbability = 80;
+            uniformList[] = {
+                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+            };
+            headgearList[] = {
+                "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_HS_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_HS_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_LR_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_LR_DES",0.5,
+                "CUP_H_USMC_BOONIE_DES",0.1,
+                "CUP_H_USMC_BOONIE_PRR_DES",0.1
+            };
+           ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_Officer",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",3,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","B_UavTerminal","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
 
 
@@ -1205,7 +1548,26 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG2_DMARPAT";
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_Rifleman",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",3,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+            randomGearProbability = 80;
+            uniformList[] = {
+                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+            };
+            headgearList[] = {
+                "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_HS_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_HS_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_ESS_LR_DES",0.5,
+                "CUP_H_USMC_LWH_ESS_LR_DES",0.5,
+                "CUP_H_USMC_BOONIE_DES",0.1,
+                "CUP_H_USMC_BOONIE_PRR_DES",0.1
+            };
+           ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_Rifleman",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",3,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
 
 
@@ -1222,6 +1584,7 @@ class CfgVehicles {
             ALiVE_orbatCreator_owned = 1;
 
         };
+
     // Force Recon
         class CUP_B_FR_Soldier_AR_DES : CUP_B_USMC_Soldier_13_OCimport_02 {
             author = "Tupolov";
@@ -1234,9 +1597,33 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG2_DMARPAT";
 
+            randomGearProbability = 80;
+            uniformList[] = {
+                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+            };
+
+
+
+            headgearList[] = {
+                "CUP_H_USMC_MICH2000_DES",0.5,
+                "CUP_H_USMC_MICH2000_COMM_DES",0.5,
+                "CUP_H_USMC_MICH2000_DEF_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5,
+            };
+
+            facewearList[] = {
+                "", 0.3,
+                "SP_Goggles_Tan", 0.5,
+                "SP_Goggles_Black", 0.3,
+                "CUP_FR_NeckScarf2", 0.4,
+                "G_Bandanna_Tan", 0.2
+            };
+
             ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_Mk48_des_Aim_Laser","","CUP_acc_ANPEQ_2_desert","CUP_optic_CompM2_Desert",{},{},""},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_HandGrenade_M67",2,1},{"SmokeShell",2,1}}},{"CUP_V_B_Eagle_SPC_MG",{{"CUP_15Rnd_9x19_M9",3,15}}},{"CUP_B_FR_MOLLE_MG",{{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",4,100}}},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
-
-
 
             class EventHandlers : EventHandlers {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -1262,6 +1649,32 @@ class CfgVehicles {
 
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG1_DMARPAT";
+
+            randomGearProbability = 80;
+            uniformList[] = {
+                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+            };
+
+
+
+            headgearList[] = {
+                "CUP_H_USMC_MICH2000_DES",0.5,
+                "CUP_H_USMC_MICH2000_COMM_DES",0.5,
+                "CUP_H_USMC_MICH2000_DEF_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5,
+            };
+
+            facewearList[] = {
+                "", 0.3,
+                "SP_Goggles_Tan", 0.5,
+                "SP_Goggles_Black", 0.3,
+                "CUP_FR_NeckScarf2", 0.4,
+                "G_Bandanna_Tan", 0.2
+            };
 
             ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_Aim","","","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG1_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},{"CUP_V_B_Eagle_SPC_Corpsman",{{"CUP_30Rnd_556x45_Stanag",4,30},{"SmokeShellGreen",1,1},{"CUP_15Rnd_9x19_M9",3,15}}},{"CUP_B_USMC_AssaultPack_Medic",{{"Medikit",1},{"FirstAidKit",10}}},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
@@ -1292,152 +1705,33 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","NoGlasses"};
             uniformClass = "CUP_U_B_USMC_FROG1_DMARPAT";
 
+            randomGearProbability = 80;
+            uniformList[] = {
+                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+            };
+
+
+
+            headgearList[] = {
+                "CUP_H_USMC_MICH2000_DES",0.5,
+                "CUP_H_USMC_MICH2000_COMM_DES",0.5,
+                "CUP_H_USMC_MICH2000_DEF_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5,
+            };
+
+            facewearList[] = {
+                "", 0.3,
+                "SP_Goggles_Tan", 0.5,
+                "SP_Goggles_Black", 0.3,
+                "CUP_FR_NeckScarf2", 0.4,
+                "G_Bandanna_Tan", 0.2
+            };
+
             ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_U_B_USMC_FROG1_DMARPAT",{{"FirstAidKit",1}}},{"CUP_V_B_Eagle_SPC_Empty",{}},{},"H_Bandanna_sand","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
-
-
-
-            class EventHandlers : EventHandlers {
-                class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-                class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-                };
-
-            };
-
-            // custom attributes (do not delete)
-            ALiVE_orbatCreator_owned = 1;
-
-        };
-
-        class CUP_B_FR_Story_Rodriguez_DES : CUP_B_USMC_Soldier_17_OCimport_02 {
-            author = "Tupolov";
-            scope = 2;
-            scopeCurator = 2;
-            displayName = "Rodriguez";
-            side = 1;
-            faction = "CFP_B_USMC_DES";
-
-            identityTypes[] = {"CUP_Rodriguez"};
-            uniformClass = "CUP_U_B_USMC_FROG3_DMARPAT";
-
-            ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_Mk48_des_Aim_Laser","","CUP_acc_ANPEQ_2_desert","CUP_optic_CompM2_Desert",{},{},""},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"FirstAidKit",1},{"CUP_15Rnd_9x19_M9",3,15}}},{"CUP_V_B_Eagle_SPC_MG",{}},{"CUP_B_FR_MOLLE_MG",{{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",4,100}}},"CUP_H_PMC_Cap_Back_PRR_Tan","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
-
-
-
-            class EventHandlers : EventHandlers {
-                class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-                class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-                };
-
-            };
-
-            // custom attributes (do not delete)
-            ALiVE_orbatCreator_owned = 1;
-
-        };
-
-        class CUP_B_FR_Story_OHara_DES : CUP_B_USMC_Soldier_11_OCimport_02 {
-            author = "Tupolov";
-            scope = 2;
-            scopeCurator = 2;
-            displayName = "O'Hara";
-            side = 1;
-            faction = "CFP_B_USMC_DES";
-
-            identityTypes[] = {"CUP_Ohara"};
-            uniformClass = "CUP_U_B_USMC_FROG1_DMARPAT";
-
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_Aim","","","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG1_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_Corpsman",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShellRed",1,1},{"SmokeShellGreen",1,1},{"CUP_15Rnd_9x19_M9",3,15}}},{"CUP_B_USMC_AssaultPack_Medic",{{"Medikit",1},{"FirstAidKit",10}}},"CUP_H_FR_Headband_Headset","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
-
-
-
-            class EventHandlers : EventHandlers {
-                class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-                class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-                };
-
-            };
-
-            // custom attributes (do not delete)
-            ALiVE_orbatCreator_owned = 1;
-
-        };
-
-        class CUP_B_FR_Story_Sykes_DES : CUP_B_USMC_Soldier_15_OCimport_02 {
-            author = "Tupolov";
-            scope = 2;
-            scopeCurator = 2;
-            displayName = "Sykes";
-            side = 1;
-            faction = "CFP_B_USMC_DES";
-
-            identityTypes[] = {"CUP_Sykes"};
-            uniformClass = "CUP_U_B_USMC_FROG3_DMARPAT";
-
-            ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_DMR_LeupoldMk4","","","CUP_optic_LeupoldMk4",{"CUP_20Rnd_762x51_DMR",20},{},"CUP_bipod_Harris_1A2_L"},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_DMR",1,20},{"SmokeShell",1,1}}},{"CUP_V_B_Eagle_SPC_DMR",{{"CUP_20Rnd_762x51_DMR",4,20},{"CUP_15Rnd_9x19_M9",3,15},{"CUP_HandGrenade_M67",1,1},{"SmokeShellYellow",1,1},{"SmokeShellPurple",1,1}}},{},"H_Bandanna_sand","CUP_FR_NeckScarf2",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
-
-
-
-            class EventHandlers : EventHandlers {
-                class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-                class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-                };
-
-            };
-
-            // custom attributes (do not delete)
-            ALiVE_orbatCreator_owned = 1;
-
-        };
-
-        class CUP_B_FR_Story_Cooper_DES : CUP_B_USMC_Soldier_15_OCimport_02 {
-            author = "Tupolov";
-            scope = 2;
-            scopeCurator = 2;
-            displayName = "Cooper";
-            side = 1;
-            faction = "CFP_B_USMC_DES";
-
-            identityTypes[] = {"CUP_Cooper"};
-            uniformClass = "CUP_U_B_USMC_FROG3_DMARPAT";
-
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_GL_Holo_Flashlight","","CUP_acc_Flashlight","CUP_optic_HoloBlack",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_1Rnd_HEDP_M203",1},""},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},{"CUP_V_B_Eagle_SPC_TL",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_1Rnd_HEDP_M203",5,1},{"CUP_15Rnd_9x19_M9",1,15}}},{},"H_Cap_tan","CUP_FR_NeckScarf",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
-
-
-
-            class EventHandlers : EventHandlers {
-                class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-                class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-                };
-
-            };
-
-            // custom attributes (do not delete)
-            ALiVE_orbatCreator_owned = 1;
-
-        };
-
-        class CUP_B_FR_Story_Miles_DES : CUP_B_USMC_Soldier_13_OCimport_02 {
-            author = "Tupolov";
-            scope = 2;
-            scopeCurator = 2;
-            displayName = "Miles";
-            side = 1;
-            faction = "CFP_B_USMC_DES";
-
-            identityTypes[] = {"CUP_Miles"};
-            uniformClass = "CUP_U_B_USMC_FROG2_DMARPAT";
-
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_GL_Holo_Flashlight","","CUP_acc_Flashlight","CUP_optic_HoloBlack",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_FlareGreen_M203",1},""},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_GL",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",2,1},{"CUP_1Rnd_SmokeRed_M203",1,1},{"CUP_1Rnd_SmokeGreen_M203",1,1},{"CUP_FlareRed_M203",1,1},{"CUP_15Rnd_9x19_M9",3,15}}},{},"CUP_H_USMC_LWH_ESS_DES","CUP_FR_NeckScarf",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -1465,6 +1759,32 @@ class CfgVehicles {
 
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG3_DMARPAT";
+
+            randomGearProbability = 80;
+            uniformList[] = {
+                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+            };
+
+
+
+            headgearList[] = {
+                "CUP_H_USMC_MICH2000_DES",0.5,
+                "CUP_H_USMC_MICH2000_COMM_DES",0.5,
+                "CUP_H_USMC_MICH2000_DEF_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5,
+            };
+
+            facewearList[] = {
+                "", 0.3,
+                "SP_Goggles_Tan", 0.5,
+                "SP_Goggles_Black", 0.3,
+                "CUP_FR_NeckScarf2", 0.4,
+                "G_Bandanna_Tan", 0.2
+            };
 
             ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_GL_Holo_Flashlight","","CUP_acc_Flashlight","CUP_optic_HoloBlack",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_1Rnd_HEDP_M203",1},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_GL",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"SmokeShellPurple",1,1},{"CUP_1Rnd_HEDP_M203",4,1},{"CUP_1Rnd_Smoke_M203",1,1},{"CUP_7Rnd_45ACP_1911",1,7}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
@@ -1495,6 +1815,32 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG3_DMARPAT";
 
+            randomGearProbability = 80;
+            uniformList[] = {
+                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+            };
+
+
+
+            headgearList[] = {
+                "CUP_H_USMC_MICH2000_DES",0.5,
+                "CUP_H_USMC_MICH2000_COMM_DES",0.5,
+                "CUP_H_USMC_MICH2000_DEF_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5,
+            };
+
+            facewearList[] = {
+                "", 0.3,
+                "SP_Goggles_Tan", 0.5,
+                "SP_Goggles_Black", 0.3,
+                "CUP_FR_NeckScarf2", 0.4,
+                "G_Bandanna_Tan", 0.2
+            };
+
             ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_Aim","","","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_SL",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"SmokeShellPurple",1,1},{"CUP_7Rnd_45ACP_1911",3,7}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
@@ -1523,6 +1869,32 @@ class CfgVehicles {
 
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG2_DMARPAT";
+
+            randomGearProbability = 80;
+            uniformList[] = {
+                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+            };
+
+
+
+            headgearList[] = {
+                "CUP_H_USMC_MICH2000_DES",0.5,
+                "CUP_H_USMC_MICH2000_COMM_DES",0.5,
+                "CUP_H_USMC_MICH2000_DEF_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5,
+            };
+
+            facewearList[] = {
+                "", 0.3,
+                "SP_Goggles_Tan", 0.5,
+                "SP_Goggles_Black", 0.3,
+                "CUP_FR_NeckScarf2", 0.4,
+                "G_Bandanna_Tan", 0.2
+            };
 
             ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_camo_GL_Holo_Flashlight_Snds","CUP_muzzle_snds_M16_camo","CUP_acc_Flashlight_wdl","CUP_optic_HoloWdl",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_1Rnd_HEDP_M203",1},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"SmokeShell",2,1}}},{"CUP_V_B_Eagle_SPC_Patrol",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_1Rnd_HEDP_M203",3,1},{"CUP_FlareRed_M203",1,1},{"CUP_FlareGreen_M203",1,1},{"CUP_7Rnd_45ACP_1911",1,7}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"CUP_SOFLAM","","","",{"Laserbatteries",1},{},""},{"ItemMap","B_UavTerminal","ItemRadio","ItemCompass","ItemWatch",""}};
 
@@ -1553,6 +1925,32 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG3_DMARPAT";
 
+            randomGearProbability = 80;
+            uniformList[] = {
+                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+            };
+
+
+
+            headgearList[] = {
+                "CUP_H_USMC_MICH2000_DES",0.5,
+                "CUP_H_USMC_MICH2000_COMM_DES",0.5,
+                "CUP_H_USMC_MICH2000_DEF_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5,
+            };
+
+            facewearList[] = {
+                "", 0.3,
+                "SP_Goggles_Tan", 0.5,
+                "SP_Goggles_Black", 0.3,
+                "CUP_FR_NeckScarf2", 0.4,
+                "G_Bandanna_Tan", 0.2
+            };
+
             ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_camo_GL_Holo_Flashlight_Snds","CUP_muzzle_snds_M16_camo","CUP_acc_Flashlight_wdl","CUP_optic_HoloWdl",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_1Rnd_HEDP_M203",1},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"SmokeShell",2,1}}},{"CUP_V_B_Eagle_SPC_RTO",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_1Rnd_HEDP_M203",3,1},{"CUP_FlareRed_M203",1,1},{"CUP_FlareGreen_M203",1,1},{"CUP_7Rnd_45ACP_1911",1,7}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"CUP_SOFLAM","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
@@ -1581,6 +1979,32 @@ class CfgVehicles {
 
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG2_DMARPAT";
+
+            randomGearProbability = 80;
+            uniformList[] = {
+                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+            };
+
+
+
+            headgearList[] = {
+                "CUP_H_USMC_MICH2000_DES",0.5,
+                "CUP_H_USMC_MICH2000_COMM_DES",0.5,
+                "CUP_H_USMC_MICH2000_DEF_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5,
+            };
+
+            facewearList[] = {
+                "", 0.3,
+                "SP_Goggles_Tan", 0.5,
+                "SP_Goggles_Black", 0.3,
+                "CUP_FR_NeckScarf2", 0.4,
+                "G_Bandanna_Tan", 0.2
+            };
 
             ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_Aim","","","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30}}},{"CUP_V_B_Eagle_SPC_Rifleman",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_PipeBomb_M",1,1},{"CUP_15Rnd_9x19_M9",3,15}}},{"CUP_B_FR_MOLLE_Sab",{{"ToolKit",1},{"MineDetector",1},{"CUP_PipeBomb_M",2,1}}},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
@@ -1611,6 +2035,32 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG1_DMARPAT";
 
+            randomGearProbability = 80;
+            uniformList[] = {
+                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+            };
+
+
+
+            headgearList[] = {
+                "CUP_H_USMC_MICH2000_DES",0.5,
+                "CUP_H_USMC_MICH2000_COMM_DES",0.5,
+                "CUP_H_USMC_MICH2000_DEF_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5,
+            };
+
+            facewearList[] = {
+                "", 0.3,
+                "SP_Goggles_Tan", 0.5,
+                "SP_Goggles_Black", 0.3,
+                "CUP_FR_NeckScarf2", 0.4,
+                "G_Bandanna_Tan", 0.2
+            };
+
             ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_GL_Holo_Flashlight","","CUP_acc_Flashlight","CUP_optic_HoloBlack",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_1Rnd_HEDP_M203",1},""},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG1_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_1Rnd_HEDP_M203",1,1}}},{"CUP_V_B_Eagle_SPC_GL",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_1Rnd_HEDP_M203",6,1},{"CUP_15Rnd_9x19_M9",1,15}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
@@ -1639,6 +2089,32 @@ class CfgVehicles {
 
             identityTypes[] = {"Head_NATO","LanguageENG_F","NoGlasses"};
             uniformClass = "CUP_U_B_USMC_FROG3_DMARPAT";
+
+            randomGearProbability = 80;
+            uniformList[] = {
+                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+            };
+
+
+
+            headgearList[] = {
+                "CUP_H_USMC_MICH2000_DES",0.5,
+                "CUP_H_USMC_MICH2000_COMM_DES",0.5,
+                "CUP_H_USMC_MICH2000_DEF_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5,
+            };
+
+            facewearList[] = {
+                "", 0.3,
+                "SP_Goggles_Tan", 0.5,
+                "SP_Goggles_Black", 0.3,
+                "CUP_FR_NeckScarf2", 0.4,
+                "G_Bandanna_Tan", 0.2
+            };
 
             ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_DMR_LeupoldMk4","","","CUP_optic_LeupoldMk4",{"CUP_20Rnd_762x51_DMR",20},{},"CUP_bipod_Harris_1A2_L"},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_DMR",1,20},{"SmokeShell",1,1}}},{"CUP_V_B_Eagle_SPC_DMR",{{"CUP_20Rnd_762x51_DMR",4,20},{"CUP_15Rnd_9x19_M9",3,15},{"CUP_HandGrenade_M67",1,1},{"SmokeShellYellow",1,1},{"SmokeShellPurple",1,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
@@ -1669,6 +2145,32 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG1_DMARPAT";
 
+            randomGearProbability = 80;
+            uniformList[] = {
+                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+            };
+
+
+
+            headgearList[] = {
+                "CUP_H_USMC_MICH2000_DES",0.5,
+                "CUP_H_USMC_MICH2000_COMM_DES",0.5,
+                "CUP_H_USMC_MICH2000_DEF_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5,
+            };
+
+            facewearList[] = {
+                "", 0.3,
+                "SP_Goggles_Tan", 0.5,
+                "SP_Goggles_Black", 0.3,
+                "CUP_FR_NeckScarf2", 0.4,
+                "G_Bandanna_Tan", 0.2
+            };
+
             ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_camo_AIM_snds","CUP_muzzle_snds_M16_camo","","CUP_optic_CompM2_Woodland",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_USMC_FROG1_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_Patrol",{{"CUP_30Rnd_556x45_Stanag",4,30},{"SmokeShell",1,1},{"CUP_7Rnd_45ACP_1911",3,7}}},{"CUP_B_FR_MOLLE_Sab",{{"ToolKit",1},{"MineDetector",1},{"CUP_PipeBomb_M",2,1}}},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
@@ -1697,6 +2199,32 @@ class CfgVehicles {
 
             identityTypes[] = {"Head_NATO","LanguageENG_F","NoGlasses"};
             uniformClass = "CUP_U_B_USMC_FROG2_DMARPAT";
+
+            randomGearProbability = 80;
+            uniformList[] = {
+                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+            };
+
+
+
+            headgearList[] = {
+                "CUP_H_USMC_MICH2000_DES",0.5,
+                "CUP_H_USMC_MICH2000_COMM_DES",0.5,
+                "CUP_H_USMC_MICH2000_DEF_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5,
+            };
+
+            facewearList[] = {
+                "", 0.3,
+                "SP_Goggles_Tan", 0.5,
+                "SP_Goggles_Black", 0.3,
+                "CUP_FR_NeckScarf2", 0.4,
+                "G_Bandanna_Tan", 0.2
+            };
 
             ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_Aim","","","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_M9","","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},{"CUP_V_B_Eagle_SPC_Officer",{{"CUP_30Rnd_556x45_Stanag",4,30},{"SmokeShellPurple",1,1},{"SmokeShellYellow",1,1},{"CUP_15Rnd_9x19_M9",3,15}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
@@ -1727,7 +2255,259 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","NoGlasses"};
             uniformClass = "CUP_U_B_USMC_FROG2_DMARPAT";
 
+            randomGearProbability = 80;
+            uniformList[] = {
+                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+            };
+
+
+
+            headgearList[] = {
+                "CUP_H_USMC_MICH2000_DES",0.5,
+                "CUP_H_USMC_MICH2000_COMM_DES",0.5,
+                "CUP_H_USMC_MICH2000_DEF_DES",0.5,
+                "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5,
+            };
+
+            facewearList[] = {
+                "", 0.3,
+                "SP_Goggles_Tan", 0.5,
+                "SP_Goggles_Black", 0.3,
+                "CUP_FR_NeckScarf2", 0.4,
+                "G_Bandanna_Tan", 0.2
+            };
+
             ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A3_desert_GL_ACOG_Laser","","CUP_acc_ANPEQ_2_desert","CUP_optic_RCO_desert",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_FlareWhite_M203",1},""},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_Scout",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",2,1},{"CUP_1Rnd_SmokeRed_M203",1,1},{"CUP_1Rnd_SmokeGreen_M203",1,1},{"CUP_FlareGreen_M203",1,1},{"CUP_15Rnd_9x19_M9",3,15}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+
+
+            class EventHandlers : EventHandlers {
+                class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+                class ALiVE_orbatCreator {
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                };
+
+            };
+
+            // custom attributes (do not delete)
+            ALiVE_orbatCreator_owned = 1;
+
+        };
+
+        class CUP_B_FR_Story_Rodriguez_DES : CUP_B_USMC_Soldier_17_OCimport_02 {
+            author = "Tupolov";
+            scope = 2;
+            scopeCurator = 2;
+            displayName = "Rodriguez";
+            side = 1;
+            faction = "CFP_B_USMC_DES";
+
+            identityTypes[] = {"CUP_Rodriguez"};
+            uniformClass = "CUP_U_B_USMC_FROG3_DMARPAT";
+
+            randomGearProbability = 80;
+            uniformList[] = {
+                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+            };
+
+            facewearList[] = {
+                "", 0.3,
+                "SP_Goggles_Tan", 0.5,
+                "SP_Goggles_Black", 0.3,
+                "CUP_FR_NeckScarf2", 0.4,
+                "G_Bandanna_Tan", 0.2
+            };
+
+            ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_Mk48_des_Aim_Laser","","CUP_acc_ANPEQ_2_desert","CUP_optic_CompM2_Desert",{},{},""},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"FirstAidKit",1},{"CUP_15Rnd_9x19_M9",3,15}}},{"CUP_V_B_Eagle_SPC_MG",{}},{"CUP_B_FR_MOLLE_MG",{{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",4,100}}},"CUP_H_PMC_Cap_Back_PRR_Tan","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+
+
+            class EventHandlers : EventHandlers {
+                class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+                class ALiVE_orbatCreator {
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                };
+
+            };
+
+            // custom attributes (do not delete)
+            ALiVE_orbatCreator_owned = 1;
+
+        };
+
+        class CUP_B_FR_Story_OHara_DES : CUP_B_USMC_Soldier_11_OCimport_02 {
+            author = "Tupolov";
+            scope = 2;
+            scopeCurator = 2;
+            displayName = "O'Hara";
+            side = 1;
+            faction = "CFP_B_USMC_DES";
+
+            identityTypes[] = {"CUP_Ohara"};
+            uniformClass = "CUP_U_B_USMC_FROG1_DMARPAT";
+
+            randomGearProbability = 80;
+            uniformList[] = {
+                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+            };
+
+            facewearList[] = {
+                "", 0.3,
+                "SP_Goggles_Tan", 0.5,
+                "SP_Goggles_Black", 0.3,
+                "CUP_FR_NeckScarf2", 0.4,
+                "G_Bandanna_Tan", 0.2
+            };
+
+            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_Aim","","","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG1_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_Corpsman",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShellRed",1,1},{"SmokeShellGreen",1,1},{"CUP_15Rnd_9x19_M9",3,15}}},{"CUP_B_USMC_AssaultPack_Medic",{{"Medikit",1},{"FirstAidKit",10}}},"CUP_H_FR_Headband_Headset","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+
+
+            class EventHandlers : EventHandlers {
+                class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+                class ALiVE_orbatCreator {
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                };
+
+            };
+
+            // custom attributes (do not delete)
+            ALiVE_orbatCreator_owned = 1;
+
+        };
+
+        class CUP_B_FR_Story_Sykes_DES : CUP_B_USMC_Soldier_15_OCimport_02 {
+            author = "Tupolov";
+            scope = 2;
+            scopeCurator = 2;
+            displayName = "Sykes";
+            side = 1;
+            faction = "CFP_B_USMC_DES";
+
+            identityTypes[] = {"CUP_Sykes"};
+            uniformClass = "CUP_U_B_USMC_FROG3_DMARPAT";
+
+            randomGearProbability = 80;
+            uniformList[] = {
+                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+            };
+
+            facewearList[] = {
+                "", 0.3,
+                "SP_Goggles_Tan", 0.5,
+                "SP_Goggles_Black", 0.3,
+                "CUP_FR_NeckScarf2", 0.4,
+                "G_Bandanna_Tan", 0.2
+            };
+
+            ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_DMR_LeupoldMk4","","","CUP_optic_LeupoldMk4",{"CUP_20Rnd_762x51_DMR",20},{},"CUP_bipod_Harris_1A2_L"},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_DMR",1,20},{"SmokeShell",1,1}}},{"CUP_V_B_Eagle_SPC_DMR",{{"CUP_20Rnd_762x51_DMR",4,20},{"CUP_15Rnd_9x19_M9",3,15},{"CUP_HandGrenade_M67",1,1},{"SmokeShellYellow",1,1},{"SmokeShellPurple",1,1}}},{},"H_Bandanna_sand","CUP_FR_NeckScarf2",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+
+
+            class EventHandlers : EventHandlers {
+                class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+                class ALiVE_orbatCreator {
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                };
+
+            };
+
+            // custom attributes (do not delete)
+            ALiVE_orbatCreator_owned = 1;
+
+        };
+
+        class CUP_B_FR_Story_Cooper_DES : CUP_B_USMC_Soldier_15_OCimport_02 {
+            author = "Tupolov";
+            scope = 2;
+            scopeCurator = 2;
+            displayName = "Cooper";
+            side = 1;
+            faction = "CFP_B_USMC_DES";
+
+            identityTypes[] = {"CUP_Cooper"};
+            uniformClass = "CUP_U_B_USMC_FROG3_DMARPAT";
+
+            randomGearProbability = 80;
+            uniformList[] = {
+                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+            };
+
+
+            facewearList[] = {
+                "", 0.3,
+                "SP_Goggles_Tan", 0.5,
+                "SP_Goggles_Black", 0.3,
+                "CUP_FR_NeckScarf2", 0.4,
+                "G_Bandanna_Tan", 0.2
+            };
+
+            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_GL_Holo_Flashlight","","CUP_acc_Flashlight","CUP_optic_HoloBlack",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_1Rnd_HEDP_M203",1},""},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},{"CUP_V_B_Eagle_SPC_TL",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_1Rnd_HEDP_M203",5,1},{"CUP_15Rnd_9x19_M9",1,15}}},{},"H_Cap_tan","CUP_FR_NeckScarf2",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+
+
+            class EventHandlers : EventHandlers {
+                class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+                class ALiVE_orbatCreator {
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                };
+
+            };
+
+            // custom attributes (do not delete)
+            ALiVE_orbatCreator_owned = 1;
+
+        };
+
+        class CUP_B_FR_Story_Miles_DES : CUP_B_USMC_Soldier_13_OCimport_02 {
+            author = "Tupolov";
+            scope = 2;
+            scopeCurator = 2;
+            displayName = "Miles";
+            side = 1;
+            faction = "CFP_B_USMC_DES";
+
+            identityTypes[] = {"CUP_Miles"};
+            uniformClass = "CUP_U_B_USMC_FROG2_DMARPAT";
+
+            randomGearProbability = 80;
+            uniformList[] = {
+                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
+                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+            };
+
+            facewearList[] = {
+                "", 0.3,
+                "SP_Goggles_Tan", 0.5,
+                "SP_Goggles_Black", 0.3,
+                "CUP_FR_NeckScarf2", 0.4,
+                "G_Bandanna_Tan", 0.2
+            };
+
+            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_GL_Holo_Flashlight","","CUP_acc_Flashlight","CUP_optic_HoloBlack",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_FlareGreen_M203",1},""},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_GL",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",2,1},{"CUP_1Rnd_SmokeRed_M203",1,1},{"CUP_1Rnd_SmokeGreen_M203",1,1},{"CUP_FlareRed_M203",1,1},{"CUP_15Rnd_9x19_M9",3,15}}},{},"CUP_H_USMC_LWH_ESS_DES","CUP_FR_NeckScarf2",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -3770,6 +4550,20 @@ class CfgVehicles {
 
             randomGearProbability = 80;
 
+            insigniaList[] = {
+                "", 0.5,
+                "USP_PATCH_USA_FLAG_USMC", 0.6,
+                "USP_PATCH_USA_FLAG_ABPOS", 0.3,
+                "USP_PATCH_USA_FLAG_BLK", 0.5,
+                "USP_PATCH_USA_FLAG_OCP", 0.5,
+                "USP_PATCH_USA_FLAG_PUNISHER_RED", 0.3,
+                "USP_PATCH_USA_FLAG_REBEL_BLK", 0.3,
+                "USP_PATCH_USA_FLAG_TAN", 0.6,
+                "USP_PATCH_USA_FLAG_TGR", 0.5,
+                "MORALE",0.2,
+                "BLOOD",0.2
+            };
+
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
                 "CUP_H_USMC_LWH_DES",0.5,
@@ -3818,6 +4612,20 @@ class CfgVehicles {
             uniformClass = "CFP_U_FieldUniform_marpat_d";
 
              randomGearProbability = 80;
+
+            insigniaList[] = {
+                "", 0.5,
+                "USP_PATCH_USA_FLAG_USMC", 0.6,
+                "USP_PATCH_USA_FLAG_ABPOS", 0.3,
+                "USP_PATCH_USA_FLAG_BLK", 0.5,
+                "USP_PATCH_USA_FLAG_OCP", 0.5,
+                "USP_PATCH_USA_FLAG_PUNISHER_RED", 0.3,
+                "USP_PATCH_USA_FLAG_REBEL_BLK", 0.3,
+                "USP_PATCH_USA_FLAG_TAN", 0.6,
+                "USP_PATCH_USA_FLAG_TGR", 0.5,
+                "MORALE",0.2,
+                "BLOOD",0.2
+            };
 
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -3868,6 +4676,20 @@ class CfgVehicles {
 
              randomGearProbability = 80;
 
+            insigniaList[] = {
+                "", 0.5,
+                "USP_PATCH_USA_FLAG_USMC", 0.6,
+                "USP_PATCH_USA_FLAG_ABPOS", 0.3,
+                "USP_PATCH_USA_FLAG_BLK", 0.5,
+                "USP_PATCH_USA_FLAG_OCP", 0.5,
+                "USP_PATCH_USA_FLAG_PUNISHER_RED", 0.3,
+                "USP_PATCH_USA_FLAG_REBEL_BLK", 0.3,
+                "USP_PATCH_USA_FLAG_TAN", 0.6,
+                "USP_PATCH_USA_FLAG_TGR", 0.5,
+                "MORALE",0.2,
+                "BLOOD",0.2
+            };
+
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
                 "CUP_H_USMC_LWH_DES",0.5,
@@ -3916,6 +4738,20 @@ class CfgVehicles {
             uniformClass = "CFP_U_FieldUniform_marpat_d";
 
              randomGearProbability = 80;
+
+            insigniaList[] = {
+                "", 0.5,
+                "USP_PATCH_USA_FLAG_USMC", 0.6,
+                "USP_PATCH_USA_FLAG_ABPOS", 0.3,
+                "USP_PATCH_USA_FLAG_BLK", 0.5,
+                "USP_PATCH_USA_FLAG_OCP", 0.5,
+                "USP_PATCH_USA_FLAG_PUNISHER_RED", 0.3,
+                "USP_PATCH_USA_FLAG_REBEL_BLK", 0.3,
+                "USP_PATCH_USA_FLAG_TAN", 0.6,
+                "USP_PATCH_USA_FLAG_TGR", 0.5,
+                "MORALE",0.2,
+                "BLOOD",0.2
+            };
 
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -3966,6 +4802,20 @@ class CfgVehicles {
 
              randomGearProbability = 80;
 
+            insigniaList[] = {
+                "", 0.5,
+                "USP_PATCH_USA_FLAG_USMC", 0.6,
+                "USP_PATCH_USA_FLAG_ABPOS", 0.3,
+                "USP_PATCH_USA_FLAG_BLK", 0.5,
+                "USP_PATCH_USA_FLAG_OCP", 0.5,
+                "USP_PATCH_USA_FLAG_PUNISHER_RED", 0.3,
+                "USP_PATCH_USA_FLAG_REBEL_BLK", 0.3,
+                "USP_PATCH_USA_FLAG_TAN", 0.6,
+                "USP_PATCH_USA_FLAG_TGR", 0.5,
+                "MORALE",0.2,
+                "BLOOD",0.2
+            };
+
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
                 "CUP_H_USMC_LWH_DES",0.5,
@@ -4014,6 +4864,20 @@ class CfgVehicles {
             uniformClass = "CFP_U_FieldUniform_marpat_d";
 
              randomGearProbability = 80;
+
+            insigniaList[] = {
+                "", 0.5,
+                "USP_PATCH_USA_FLAG_USMC", 0.6,
+                "USP_PATCH_USA_FLAG_ABPOS", 0.3,
+                "USP_PATCH_USA_FLAG_BLK", 0.5,
+                "USP_PATCH_USA_FLAG_OCP", 0.5,
+                "USP_PATCH_USA_FLAG_PUNISHER_RED", 0.3,
+                "USP_PATCH_USA_FLAG_REBEL_BLK", 0.3,
+                "USP_PATCH_USA_FLAG_TAN", 0.6,
+                "USP_PATCH_USA_FLAG_TGR", 0.5,
+                "MORALE",0.2,
+                "BLOOD",0.2
+            };
 
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -4064,6 +4928,20 @@ class CfgVehicles {
 
              randomGearProbability = 80;
 
+            insigniaList[] = {
+                "", 0.5,
+                "USP_PATCH_USA_FLAG_USMC", 0.6,
+                "USP_PATCH_USA_FLAG_ABPOS", 0.3,
+                "USP_PATCH_USA_FLAG_BLK", 0.5,
+                "USP_PATCH_USA_FLAG_OCP", 0.5,
+                "USP_PATCH_USA_FLAG_PUNISHER_RED", 0.3,
+                "USP_PATCH_USA_FLAG_REBEL_BLK", 0.3,
+                "USP_PATCH_USA_FLAG_TAN", 0.6,
+                "USP_PATCH_USA_FLAG_TGR", 0.5,
+                "MORALE",0.2,
+                "BLOOD",0.2
+            };
+
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
                 "CUP_H_USMC_LWH_DES",0.5,
@@ -4112,6 +4990,20 @@ class CfgVehicles {
             uniformClass = "CFP_U_FieldUniform_marpat_d";
 
              randomGearProbability = 80;
+
+            insigniaList[] = {
+                "", 0.5,
+                "USP_PATCH_USA_FLAG_USMC", 0.6,
+                "USP_PATCH_USA_FLAG_ABPOS", 0.3,
+                "USP_PATCH_USA_FLAG_BLK", 0.5,
+                "USP_PATCH_USA_FLAG_OCP", 0.5,
+                "USP_PATCH_USA_FLAG_PUNISHER_RED", 0.3,
+                "USP_PATCH_USA_FLAG_REBEL_BLK", 0.3,
+                "USP_PATCH_USA_FLAG_TAN", 0.6,
+                "USP_PATCH_USA_FLAG_TGR", 0.5,
+                "MORALE",0.2,
+                "BLOOD",0.2
+            };
 
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -4162,6 +5054,20 @@ class CfgVehicles {
 
              randomGearProbability = 80;
 
+            insigniaList[] = {
+                "", 0.5,
+                "USP_PATCH_USA_FLAG_USMC", 0.6,
+                "USP_PATCH_USA_FLAG_ABPOS", 0.3,
+                "USP_PATCH_USA_FLAG_BLK", 0.5,
+                "USP_PATCH_USA_FLAG_OCP", 0.5,
+                "USP_PATCH_USA_FLAG_PUNISHER_RED", 0.3,
+                "USP_PATCH_USA_FLAG_REBEL_BLK", 0.3,
+                "USP_PATCH_USA_FLAG_TAN", 0.6,
+                "USP_PATCH_USA_FLAG_TGR", 0.5,
+                "MORALE",0.2,
+                "BLOOD",0.2
+            };
+
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
                 "CUP_H_USMC_LWH_DES",0.5,
@@ -4210,6 +5116,20 @@ class CfgVehicles {
             uniformClass = "CFP_U_FieldUniform_marpat_d";
 
              randomGearProbability = 80;
+
+            insigniaList[] = {
+                "", 0.5,
+                "USP_PATCH_USA_FLAG_USMC", 0.6,
+                "USP_PATCH_USA_FLAG_ABPOS", 0.3,
+                "USP_PATCH_USA_FLAG_BLK", 0.5,
+                "USP_PATCH_USA_FLAG_OCP", 0.5,
+                "USP_PATCH_USA_FLAG_PUNISHER_RED", 0.3,
+                "USP_PATCH_USA_FLAG_REBEL_BLK", 0.3,
+                "USP_PATCH_USA_FLAG_TAN", 0.6,
+                "USP_PATCH_USA_FLAG_TGR", 0.5,
+                "MORALE",0.2,
+                "BLOOD",0.2
+            };
 
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -4260,6 +5180,20 @@ class CfgVehicles {
 
              randomGearProbability = 80;
 
+            insigniaList[] = {
+                "", 0.5,
+                "USP_PATCH_USA_FLAG_USMC", 0.6,
+                "USP_PATCH_USA_FLAG_ABPOS", 0.3,
+                "USP_PATCH_USA_FLAG_BLK", 0.5,
+                "USP_PATCH_USA_FLAG_OCP", 0.5,
+                "USP_PATCH_USA_FLAG_PUNISHER_RED", 0.3,
+                "USP_PATCH_USA_FLAG_REBEL_BLK", 0.3,
+                "USP_PATCH_USA_FLAG_TAN", 0.6,
+                "USP_PATCH_USA_FLAG_TGR", 0.5,
+                "MORALE",0.2,
+                "BLOOD",0.2
+            };
+
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
                 "CUP_H_USMC_LWH_DES",0.5,
@@ -4308,6 +5242,20 @@ class CfgVehicles {
             uniformClass = "CFP_U_FieldUniform_marpat_d";
 
              randomGearProbability = 80;
+
+            insigniaList[] = {
+                "", 0.5,
+                "USP_PATCH_USA_FLAG_USMC", 0.6,
+                "USP_PATCH_USA_FLAG_ABPOS", 0.3,
+                "USP_PATCH_USA_FLAG_BLK", 0.5,
+                "USP_PATCH_USA_FLAG_OCP", 0.5,
+                "USP_PATCH_USA_FLAG_PUNISHER_RED", 0.3,
+                "USP_PATCH_USA_FLAG_REBEL_BLK", 0.3,
+                "USP_PATCH_USA_FLAG_TAN", 0.6,
+                "USP_PATCH_USA_FLAG_TGR", 0.5,
+                "MORALE",0.2,
+                "BLOOD",0.2
+            };
 
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -4358,6 +5306,20 @@ class CfgVehicles {
 
              randomGearProbability = 80;
 
+            insigniaList[] = {
+                "", 0.5,
+                "USP_PATCH_USA_FLAG_USMC", 0.6,
+                "USP_PATCH_USA_FLAG_ABPOS", 0.3,
+                "USP_PATCH_USA_FLAG_BLK", 0.5,
+                "USP_PATCH_USA_FLAG_OCP", 0.5,
+                "USP_PATCH_USA_FLAG_PUNISHER_RED", 0.3,
+                "USP_PATCH_USA_FLAG_REBEL_BLK", 0.3,
+                "USP_PATCH_USA_FLAG_TAN", 0.6,
+                "USP_PATCH_USA_FLAG_TGR", 0.5,
+                "MORALE",0.2,
+                "BLOOD",0.2
+            };
+
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
                 "CUP_H_USMC_LWH_DES",0.5,
@@ -4407,6 +5369,20 @@ class CfgVehicles {
 
              randomGearProbability = 80;
 
+            insigniaList[] = {
+                "", 0.5,
+                "USP_PATCH_USA_FLAG_USMC", 0.6,
+                "USP_PATCH_USA_FLAG_ABPOS", 0.3,
+                "USP_PATCH_USA_FLAG_BLK", 0.5,
+                "USP_PATCH_USA_FLAG_OCP", 0.5,
+                "USP_PATCH_USA_FLAG_PUNISHER_RED", 0.3,
+                "USP_PATCH_USA_FLAG_REBEL_BLK", 0.3,
+                "USP_PATCH_USA_FLAG_TAN", 0.6,
+                "USP_PATCH_USA_FLAG_TGR", 0.5,
+                "MORALE",0.2,
+                "BLOOD",0.2
+            };
+
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
                 "CUP_H_USMC_LWH_DES",0.5,
@@ -4455,6 +5431,20 @@ class CfgVehicles {
             uniformClass = "CFP_U_FieldUniform_marpat_d";
 
              randomGearProbability = 80;
+
+            insigniaList[] = {
+                "", 0.5,
+                "USP_PATCH_USA_FLAG_USMC", 0.6,
+                "USP_PATCH_USA_FLAG_ABPOS", 0.3,
+                "USP_PATCH_USA_FLAG_BLK", 0.5,
+                "USP_PATCH_USA_FLAG_OCP", 0.5,
+                "USP_PATCH_USA_FLAG_PUNISHER_RED", 0.3,
+                "USP_PATCH_USA_FLAG_REBEL_BLK", 0.3,
+                "USP_PATCH_USA_FLAG_TAN", 0.6,
+                "USP_PATCH_USA_FLAG_TGR", 0.5,
+                "MORALE",0.2,
+                "BLOOD",0.2
+            };
 
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -4625,6 +5615,20 @@ class CfgVehicles {
 
              randomGearProbability = 80;
 
+            insigniaList[] = {
+                "", 0.5,
+                "USP_PATCH_USA_FLAG_USMC", 0.6,
+                "USP_PATCH_USA_FLAG_ABPOS", 0.3,
+                "USP_PATCH_USA_FLAG_BLK", 0.5,
+                "USP_PATCH_USA_FLAG_OCP", 0.5,
+                "USP_PATCH_USA_FLAG_PUNISHER_RED", 0.3,
+                "USP_PATCH_USA_FLAG_REBEL_BLK", 0.3,
+                "USP_PATCH_USA_FLAG_TAN", 0.6,
+                "USP_PATCH_USA_FLAG_TGR", 0.5,
+                "MORALE",0.2,
+                "BLOOD",0.2
+            };
+
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
                 "CUP_H_USMC_LWH_DES",0.5,
@@ -4673,6 +5677,20 @@ class CfgVehicles {
             uniformClass = "CFP_U_FieldUniform_marpat_d";
 
              randomGearProbability = 80;
+
+            insigniaList[] = {
+                "", 0.5,
+                "USP_PATCH_USA_FLAG_USMC", 0.6,
+                "USP_PATCH_USA_FLAG_ABPOS", 0.3,
+                "USP_PATCH_USA_FLAG_BLK", 0.5,
+                "USP_PATCH_USA_FLAG_OCP", 0.5,
+                "USP_PATCH_USA_FLAG_PUNISHER_RED", 0.3,
+                "USP_PATCH_USA_FLAG_REBEL_BLK", 0.3,
+                "USP_PATCH_USA_FLAG_TAN", 0.6,
+                "USP_PATCH_USA_FLAG_TGR", 0.5,
+                "MORALE",0.2,
+                "BLOOD",0.2
+            };
 
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -4752,6 +5770,20 @@ class CfgVehicles {
             uniformClass = "CFP_U_FieldUniform_marpat_d";
 
              randomGearProbability = 80;
+
+            insigniaList[] = {
+                "", 0.5,
+                "USP_PATCH_USA_FLAG_USMC", 0.6,
+                "USP_PATCH_USA_FLAG_ABPOS", 0.3,
+                "USP_PATCH_USA_FLAG_BLK", 0.5,
+                "USP_PATCH_USA_FLAG_OCP", 0.5,
+                "USP_PATCH_USA_FLAG_PUNISHER_RED", 0.3,
+                "USP_PATCH_USA_FLAG_REBEL_BLK", 0.3,
+                "USP_PATCH_USA_FLAG_TAN", 0.6,
+                "USP_PATCH_USA_FLAG_TGR", 0.5,
+                "MORALE",0.2,
+                "BLOOD",0.2
+            };
 
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,

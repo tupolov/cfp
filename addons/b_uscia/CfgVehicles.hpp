@@ -721,7 +721,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USCIA_Offroad_02 : B_G_Offroad_01_F_OCimport_02 {
-        author = "Matt";
+        author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
         displayName = "Offroad";
