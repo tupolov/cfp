@@ -60,3 +60,10 @@ class CFP_AK_VEST_Tan: CFP_AK_VEST
 	displayName = "AK Chest Rig Tan";
 	hiddenSelectionsTextures[] = {"x\cfp\addons\vests\AK_Vest\data\tak_soldier_equip_tan_co.paa"};	
 };
+
+class CFP_AK_VEST_Flora_Arid: CFP_AK_VEST
+{
+
+	displayName = "AK Chest Rig Flora Arid";
+	hiddenSelectionsTextures[] = {"x\cfp\addons\vests\AK_Vest\data\tak_soldier_equip_flora_arid.paa"};	
+};
