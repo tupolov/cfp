@@ -144,7 +144,6 @@ class CfgPatches {
             "CUP_Creatures_Military_USMC",
             "A3_Air_F_Beta",
             "A3_Air_F_Gamma_Plane_Fighter_03",
-            "ALIVE_AirVehicles_C130J",
             "A3_Air_F_EPC_Plane_CAS_01",
             "A3_Air_F_EPC_Plane_CAS_02",
             "A3_Air_F_Exp_Plane_Civil_01",
