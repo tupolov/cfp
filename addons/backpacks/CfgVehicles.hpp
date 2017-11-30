@@ -69,7 +69,7 @@ class CfgVehicles
         scope = 2;
         maximumLoad = 300;
         displayName = CSTRING(SP_Carryall_ATacsAU);
-        picture = "\x\cfp\addons\backpacks\data\Tan.jpg";
+        picture = "\x\cfp\addons\backpacks\data\icon_ATacsAU.jpg";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\data\ATacsAU.paa"};
         author = "AccuracyThruVolume";
     };
