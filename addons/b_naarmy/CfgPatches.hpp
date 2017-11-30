@@ -1,7 +1,7 @@
 class CfgPatches {
     class CFP_B_NAARMY {
         units[] = {
-            "CFP_B_NAARMY_Squad_Leader_01",
+             "CFP_B_NAARMY_Squad_Leader_01",
             "CFP_B_NAARMY_Rifleman_AKM_01",
             "CFP_B_NAARMY_Rifleman_AK47_01",
             "CFP_B_NAARMY_Machine_Gunner_PKM_01",
@@ -28,7 +28,14 @@ class CfgPatches {
             "CFP_B_NAARMY_Ridgeback_HMG_01",
             "CFP_B_NAARMY_Ridgeback_LMG_01",
             "CFP_B_NAARMY_Ridgeback_GMG_01",
-            "CFP_B_NAARMY_Land_Rover_01"
+            "CFP_B_NAARMY_Land_Rover_01",
+            "CFP_B_NAARMY_Rifleman_SF_01",
+            "CFP_B_NAARMY_Team_Leader_SF_01",
+            "CFP_B_NAARMY_Grenadier_SF_01",
+            "CFP_B_NAARMY_Rifleman_AT_SF_01",
+            "CFP_B_NAARMY_Explosive_Specialist_SF_01",
+            "CFP_B_NAARMY_Medic_SF_01",
+            "CFP_B_NAARMY_Automatic_Rifleman_SF_01"
         };
         weapons[] = {};
         requiredVersion = 1.62;

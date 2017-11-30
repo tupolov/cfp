@@ -13,6 +13,10 @@ class CfgVehicles {
     class O_Soldier_F_OCimport_01 : O_Soldier_F { scope = 0; class EventHandlers; };
     class O_Soldier_F_OCimport_02 : O_Soldier_F_OCimport_01 { class EventHandlers; };
 
+    class O_recon_F;
+    class O_recon_F_OCimport_01 : O_recon_F { scope = 0; class EventHandlers; };
+    class O_recon_F_OCimport_02 : O_recon_F_OCimport_01 { class EventHandlers; };
+	
     class CUP_O_T72_SLA;
     class CUP_O_T72_SLA_OCimport_01 : CUP_O_T72_SLA { scope = 0; class EventHandlers; class Turrets; };
     class CUP_O_T72_SLA_OCimport_02 : CUP_O_T72_SLA_OCimport_01 { 
@@ -900,6 +904,90 @@ class CfgVehicles {
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_texture = "GBW";
+
+    };
+
+     class CFP_B_NAARMY_Rifleman_SF_01 : O_recon_F_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Rifleman [SF]";
+        side = 1;
+        faction = "CFP_B_NAARMY";
+
+        identityTypes[] = {"Head_African","LanguageENGFRE_F","G_IRAN_default"};
+        uniformClass = "SP_0000_Standard_FieldUniform_Black";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","CUP_optic_Kobra",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"SP_0000_Standard_FieldUniform_Black",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"SP_Modular1_Green",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{},"CFP_Basic_Helmet_Black","SP_Balaclava_Black",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","SP_Kneepads_Black"}};
+
+	randomGearProbability = 100;
+
+	// Nigerian Facewear
+		facewearList[] = {
+	"SP_Balaclava_Black", 1.0
+		};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_FLAG_NIGERIA_SHIELD'] call BIS_fnc_setUnitInsignia;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_insignia = "USP_PATCH_FLAG_NIGERIA_SHIELD";
+
+    };
+
+    class CFP_B_NAARMY_Team_Leader_SF_01 : CFP_B_NAARMY_Rifleman_SF_01 {
+        
+        displayName = "Team Leader [SF]";
+        
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","CUP_optic_Kobra",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"SP_0000_Standard_FieldUniform_Black",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"SP_Modular1_Green",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{},"CFP_Basic_Helmet_Black","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","SP_Kneepads_Black"}};
+
+    };
+
+    class CFP_B_NAARMY_Grenadier_SF_01 : CFP_B_NAARMY_Rifleman_SF_01 {
+        
+        displayName = "Grenadier [SF]";
+        
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_GL","","","CUP_optic_Kobra",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"SP_0000_Standard_FieldUniform_Black",{{"CUP_30Rnd_545x39_AK_M",3,30}}},{"SP_Modular1_Green",{{"CUP_30Rnd_545x39_AK_M",5,30},{"CUP_1Rnd_HE_GP25_M",6,1},{"CUP_1Rnd_SMOKE_GP25_M",3,1}}},{},"CFP_Basic_Helmet_Black","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","SP_Kneepads_Black"}};
+
+    };
+
+    class CFP_B_NAARMY_Rifleman_AT_SF_01 : CFP_B_NAARMY_Rifleman_SF_01 {
+        
+        displayName = "Rifleman AT [SF]";
+        
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","CUP_optic_Kobra",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{"CUP_launch_RPG7V","","","",{"CUP_PG7V_M",1},{},""},{},{"SP_0000_Standard_FieldUniform_Black",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"SP_Modular1_Green",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{"CUP_B_RPGPack_Khaki",{{"CUP_PG7V_M",3,1}}},"CFP_Basic_Helmet_Black","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","SP_Kneepads_Black"}};
+
+    };
+
+    class CFP_B_NAARMY_Explosive_Specialist_SF_01 : CFP_B_NAARMY_Rifleman_SF_01 {
+        
+        displayName = "Explosive Specialist [SF]";
+        
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","CUP_optic_Kobra",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"SP_0000_Standard_FieldUniform_Black",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"SP_Modular1_Green",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{"B_Carryall_oli",{{"MineDetector",1},{"DemoCharge_Remote_Mag",5,1},{"ATMine_Range_Mag",1,1},{"APERSTripMine_Wire_Mag",1,1},{"CUP_PipeBomb_M",1,1}}},"CFP_Basic_Helmet_Black","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","SP_Kneepads_Black"}};
+
+    };
+
+    class CFP_B_NAARMY_Medic_SF_01 : CFP_B_NAARMY_Rifleman_SF_01 {
+        
+        displayName = "Medic [SF]";
+       
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","CUP_optic_Kobra",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"SP_0000_Standard_FieldUniform_Black",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"SP_Modular1_Green",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{"CUP_B_USPack_Black",{{"FirstAidKit",10},{"Medikit",1}}},"CFP_Basic_Helmet_Black","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","SP_Kneepads_Black"}};
+
+    };
+
+    class CFP_B_NAARMY_Automatic_Rifleman_SF_01 : CFP_B_NAARMY_Rifleman_SF_01 {
+        
+        displayName = "Automatic Rifleman [SF]";
+        
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_RPK74M","","","CUP_optic_Kobra",{"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",45},{},""},{},{},{"SP_0000_Standard_FieldUniform_Black",{{"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",1,45}}},{"SP_Modular1_Green",{{"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",5,45}}},{},"CFP_Basic_Helmet_Black","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","SP_Kneepads_Black"}};
 
     };
 
