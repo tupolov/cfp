@@ -2492,7 +2492,7 @@ class CfgVehicles {
             "CUP_V_CDF_6B3_2_DST", 0.3,
             "CUP_V_CDF_6B3_3_DST", 0.3,
             "CUP_V_CDF_6B3_4_DST", 0.2,
-            "CFP_AK_VEST", 0.3,
+            "CFP_AK_VEST_Flora_Arid", 0.7,
             "CFP_AK_VEST_Tan", 0.4,
             "CFP_AK_VEST_LOlive", 0.4
         };
@@ -2557,7 +2557,7 @@ class CfgVehicles {
             "CUP_V_CDF_6B3_2_DST", 0.3,
             "CUP_V_CDF_6B3_3_DST", 0.3,
             "CUP_V_CDF_6B3_4_DST", 0.2,
-            "CFP_AK_VEST", 0.3,
+            "CFP_AK_VEST_Flora_Arid", 0.7,
             "CFP_AK_VEST_Tan", 0.4,
             "CFP_AK_VEST_LOlive", 0.4
         };
@@ -2623,7 +2623,7 @@ class CfgVehicles {
             "CUP_V_CDF_6B3_2_DST", 0.3,
             "CUP_V_CDF_6B3_3_DST", 0.3,
             "CUP_V_CDF_6B3_4_DST", 0.2,
-            "CFP_AK_VEST", 0.3,
+            "CFP_AK_VEST_Flora_Arid", 0.7,
             "CFP_AK_VEST_Tan", 0.4,
             "CFP_AK_VEST_LOlive", 0.4
         };
@@ -2687,7 +2687,7 @@ class CfgVehicles {
             "CUP_V_CDF_6B3_2_DST", 0.3,
             "CUP_V_CDF_6B3_3_DST", 0.3,
             "CUP_V_CDF_6B3_4_DST", 0.2,
-            "CFP_AK_VEST", 0.3,
+            "CFP_AK_VEST_Flora_Arid", 0.7,
             "CFP_AK_VEST_Tan", 0.4,
             "CFP_AK_VEST_LOlive", 0.4
         };
@@ -2753,7 +2753,7 @@ class CfgVehicles {
             "CUP_V_CDF_6B3_2_DST", 0.3,
             "CUP_V_CDF_6B3_3_DST", 0.3,
             "CUP_V_CDF_6B3_4_DST", 0.2,
-            "CFP_AK_VEST", 0.3,
+            "CFP_AK_VEST_Flora_Arid", 0.7,
             "CFP_AK_VEST_Tan", 0.4,
             "CFP_AK_VEST_LOlive", 0.4
         };
@@ -2819,7 +2819,7 @@ class CfgVehicles {
             "CUP_V_CDF_6B3_2_DST", 0.3,
             "CUP_V_CDF_6B3_3_DST", 0.3,
             "CUP_V_CDF_6B3_4_DST", 0.2,
-            "CFP_AK_VEST", 0.3,
+            "CFP_AK_VEST_Flora_Arid", 0.7,
             "CFP_AK_VEST_Tan", 0.4,
             "CFP_AK_VEST_LOlive", 0.4
         };
@@ -2885,7 +2885,7 @@ class CfgVehicles {
             "CUP_V_CDF_6B3_2_DST", 0.3,
             "CUP_V_CDF_6B3_3_DST", 0.3,
             "CUP_V_CDF_6B3_4_DST", 0.2,
-            "CFP_AK_VEST", 0.3,
+            "CFP_AK_VEST_Flora_Arid", 0.7,
             "CFP_AK_VEST_Tan", 0.4,
             "CFP_AK_VEST_LOlive", 0.4
         };
@@ -2951,7 +2951,7 @@ class CfgVehicles {
             "CUP_V_CDF_6B3_2_DST", 0.3,
             "CUP_V_CDF_6B3_3_DST", 0.3,
             "CUP_V_CDF_6B3_4_DST", 0.2,
-            "CFP_AK_VEST", 0.3,
+            "CFP_AK_VEST_Flora_Arid", 0.7,
             "CFP_AK_VEST_Tan", 0.4,
             "CFP_AK_VEST_LOlive", 0.4
         };
@@ -3017,7 +3017,7 @@ class CfgVehicles {
             "CUP_V_CDF_6B3_2_DST", 0.3,
             "CUP_V_CDF_6B3_3_DST", 0.3,
             "CUP_V_CDF_6B3_4_DST", 0.2,
-            "CFP_AK_VEST", 0.3,
+            "CFP_AK_VEST_Flora_Arid", 0.7,
             "CFP_AK_VEST_Tan", 0.4,
             "CFP_AK_VEST_LOlive", 0.4
         };
@@ -3083,7 +3083,7 @@ class CfgVehicles {
             "CUP_V_CDF_6B3_2_DST", 0.3,
             "CUP_V_CDF_6B3_3_DST", 0.3,
             "CUP_V_CDF_6B3_4_DST", 0.2,
-            "CFP_AK_VEST", 0.3,
+            "CFP_AK_VEST_Flora_Arid", 0.7,
             "CFP_AK_VEST_Tan", 0.4,
             "CFP_AK_VEST_LOlive", 0.4
         };
@@ -3149,7 +3149,7 @@ class CfgVehicles {
             "CUP_V_CDF_6B3_2_DST", 0.3,
             "CUP_V_CDF_6B3_3_DST", 0.3,
             "CUP_V_CDF_6B3_4_DST", 0.2,
-            "CFP_AK_VEST", 0.3,
+            "CFP_AK_VEST_Flora_Arid", 0.7,
             "CFP_AK_VEST_Tan", 0.4,
             "CFP_AK_VEST_LOlive", 0.4
         };
@@ -3305,7 +3305,7 @@ class CfgVehicles {
             "CUP_V_CDF_6B3_2_DST", 0.3,
             "CUP_V_CDF_6B3_3_DST", 0.3,
             "CUP_V_CDF_6B3_4_DST", 0.2,
-            "CFP_AK_VEST", 0.3,
+            "CFP_AK_VEST_Flora_Arid", 0.7,
             "CFP_AK_VEST_Tan", 0.4,
             "CFP_AK_VEST_LOlive", 0.4
         };
@@ -3371,7 +3371,7 @@ class CfgVehicles {
             "CUP_V_CDF_6B3_2_DST", 0.3,
             "CUP_V_CDF_6B3_3_DST", 0.3,
             "CUP_V_CDF_6B3_4_DST", 0.2,
-            "CFP_AK_VEST", 0.3,
+            "CFP_AK_VEST_Flora_Arid", 0.7,
             "CFP_AK_VEST_Tan", 0.4,
             "CFP_AK_VEST_LOlive", 0.4
         };
@@ -3457,7 +3457,7 @@ class CfgVehicles {
             "CUP_V_CDF_6B3_2_DST", 0.3,
             "CUP_V_CDF_6B3_3_DST", 0.3,
             "CUP_V_CDF_6B3_4_DST", 0.2,
-            "CFP_AK_VEST", 0.3,
+            "CFP_AK_VEST_Flora_Arid", 0.7,
             "CFP_AK_VEST_Tan", 0.4,
             "CFP_AK_VEST_LOlive", 0.4
         };
@@ -3522,7 +3522,7 @@ class CfgVehicles {
             "CUP_V_CDF_6B3_2_DST", 0.3,
             "CUP_V_CDF_6B3_3_DST", 0.3,
             "CUP_V_CDF_6B3_4_DST", 0.2,
-            "CFP_AK_VEST", 0.3,
+            "CFP_AK_VEST_Flora_Arid", 0.7,
             "CFP_AK_VEST_Tan", 0.4,
             "CFP_AK_VEST_LOlive", 0.4
         };
@@ -3588,7 +3588,7 @@ class CfgVehicles {
             "CUP_V_CDF_6B3_2_DST", 0.3,
             "CUP_V_CDF_6B3_3_DST", 0.3,
             "CUP_V_CDF_6B3_4_DST", 0.2,
-            "CFP_AK_VEST", 0.3,
+            "CFP_AK_VEST_Flora_Arid", 0.7,
             "CFP_AK_VEST_Tan", 0.4,
             "CFP_AK_VEST_LOlive", 0.4
         };
@@ -3676,7 +3676,7 @@ class CfgVehicles {
         };
 
         vestList[] = {
-            "CFP_AK_VEST", 0.3,
+            "CFP_AK_VEST_Flora_Arid", 0.7,
             "CFP_AK_VEST_Tan", 0.4,
             "CFP_AK_VEST_LOlive", 0.4
         };
@@ -3741,7 +3741,7 @@ class CfgVehicles {
             "CUP_V_CDF_6B3_2_DST", 0.3,
             "CUP_V_CDF_6B3_3_DST", 0.3,
             "CUP_V_CDF_6B3_4_DST", 0.2,
-            "CFP_AK_VEST", 0.3,
+            "CFP_AK_VEST_Flora_Arid", 0.7,
             "CFP_AK_VEST_Tan", 0.4,
             "CFP_AK_VEST_LOlive", 0.4
         };
@@ -3807,7 +3807,7 @@ class CfgVehicles {
             "CUP_V_CDF_6B3_2_DST", 0.3,
             "CUP_V_CDF_6B3_3_DST", 0.3,
             "CUP_V_CDF_6B3_4_DST", 0.2,
-            "CFP_AK_VEST", 0.3,
+            "CFP_AK_VEST_Flora_Arid", 0.7,
             "CFP_AK_VEST_Tan", 0.4,
             "CFP_AK_VEST_LOlive", 0.4
         };
@@ -3873,7 +3873,7 @@ class CfgVehicles {
             "CUP_V_CDF_6B3_2_DST", 0.3,
             "CUP_V_CDF_6B3_3_DST", 0.3,
             "CUP_V_CDF_6B3_4_DST", 0.2,
-            "CFP_AK_VEST", 0.3,
+            "CFP_AK_VEST_Flora_Arid", 0.7,
             "CFP_AK_VEST_Tan", 0.4,
             "CFP_AK_VEST_LOlive", 0.4
         };
@@ -3939,7 +3939,7 @@ class CfgVehicles {
             "CUP_V_CDF_6B3_2_DST", 0.3,
             "CUP_V_CDF_6B3_3_DST", 0.3,
             "CUP_V_CDF_6B3_4_DST", 0.2,
-            "CFP_AK_VEST", 0.3,
+            "CFP_AK_VEST_Flora_Arid", 0.7,
             "CFP_AK_VEST_Tan", 0.4,
             "CFP_AK_VEST_LOlive", 0.4
         };
@@ -4005,7 +4005,7 @@ class CfgVehicles {
             "CUP_V_CDF_6B3_2_DST", 0.3,
             "CUP_V_CDF_6B3_3_DST", 0.3,
             "CUP_V_CDF_6B3_4_DST", 0.2,
-            "CFP_AK_VEST", 0.3,
+            "CFP_AK_VEST_Flora_Arid", 0.7,
             "CFP_AK_VEST_Tan", 0.4,
             "CFP_AK_VEST_LOlive", 0.4
         };
@@ -4071,7 +4071,7 @@ class CfgVehicles {
             "CUP_V_CDF_6B3_2_DST", 0.3,
             "CUP_V_CDF_6B3_3_DST", 0.3,
             "CUP_V_CDF_6B3_4_DST", 0.2,
-            "CFP_AK_VEST", 0.3,
+            "CFP_AK_VEST_Flora_Arid", 0.7,
             "CFP_AK_VEST_Tan", 0.4,
             "CFP_AK_VEST_LOlive", 0.4
         };
@@ -4137,7 +4137,7 @@ class CfgVehicles {
             "CUP_V_CDF_6B3_2_DST", 0.3,
             "CUP_V_CDF_6B3_3_DST", 0.3,
             "CUP_V_CDF_6B3_4_DST", 0.2,
-            "CFP_AK_VEST", 0.3,
+            "CFP_AK_VEST_Flora_Arid", 0.7,
             "CFP_AK_VEST_Tan", 0.4,
             "CFP_AK_VEST_LOlive", 0.4
         };
@@ -4203,7 +4203,7 @@ class CfgVehicles {
             "CUP_V_CDF_6B3_2_DST", 0.3,
             "CUP_V_CDF_6B3_3_DST", 0.3,
             "CUP_V_CDF_6B3_4_DST", 0.2,
-            "CFP_AK_VEST", 0.3,
+            "CFP_AK_VEST_Flora_Arid", 0.7,
             "CFP_AK_VEST_Tan", 0.4,
             "CFP_AK_VEST_LOlive", 0.4
         };
@@ -4269,7 +4269,7 @@ class CfgVehicles {
             "CUP_V_CDF_6B3_2_DST", 0.3,
             "CUP_V_CDF_6B3_3_DST", 0.3,
             "CUP_V_CDF_6B3_4_DST", 0.2,
-            "CFP_AK_VEST", 0.3,
+            "CFP_AK_VEST_Flora_Arid", 0.7,
             "CFP_AK_VEST_Tan", 0.4,
             "CFP_AK_VEST_LOlive", 0.4
         };
@@ -4335,7 +4335,7 @@ class CfgVehicles {
             "CUP_V_CDF_6B3_2_DST", 0.3,
             "CUP_V_CDF_6B3_3_DST", 0.3,
             "CUP_V_CDF_6B3_4_DST", 0.2,
-            "CFP_AK_VEST", 0.3,
+            "CFP_AK_VEST_Flora_Arid", 0.7,
             "CFP_AK_VEST_Tan", 0.4,
             "CFP_AK_VEST_LOlive", 0.4
         };
@@ -4401,7 +4401,7 @@ class CfgVehicles {
             "CUP_V_CDF_6B3_2_DST", 0.3,
             "CUP_V_CDF_6B3_3_DST", 0.3,
             "CUP_V_CDF_6B3_4_DST", 0.2,
-            "CFP_AK_VEST", 0.3,
+            "CFP_AK_VEST_Flora_Arid", 0.7,
             "CFP_AK_VEST_Tan", 0.4,
             "CFP_AK_VEST_LOlive", 0.4
         };
@@ -4587,7 +4587,7 @@ class CfgVehicles {
             "CUP_V_CDF_6B3_2_DST", 0.3,
             "CUP_V_CDF_6B3_3_DST", 0.3,
             "CUP_V_CDF_6B3_4_DST", 0.2,
-            "CFP_AK_VEST", 0.3,
+            "CFP_AK_VEST_Flora_Arid", 0.7,
             "CFP_AK_VEST_Tan", 0.4,
             "CFP_AK_VEST_LOlive", 0.4
         };
@@ -4673,7 +4673,7 @@ class CfgVehicles {
             "CUP_V_CDF_6B3_2_DST", 0.3,
             "CUP_V_CDF_6B3_3_DST", 0.3,
             "CUP_V_CDF_6B3_4_DST", 0.2,
-            "CFP_AK_VEST", 0.3,
+            "CFP_AK_VEST_Flora_Arid", 0.7,
             "CFP_AK_VEST_Tan", 0.4,
             "CFP_AK_VEST_LOlive", 0.4
         };
@@ -4739,7 +4739,7 @@ class CfgVehicles {
             "CUP_V_CDF_6B3_2_DST", 0.3,
             "CUP_V_CDF_6B3_3_DST", 0.3,
             "CUP_V_CDF_6B3_4_DST", 0.2,
-            "CFP_AK_VEST", 0.3,
+            "CFP_AK_VEST_Flora_Arid", 0.7,
             "CFP_AK_VEST_Tan", 0.4,
             "CFP_AK_VEST_LOlive", 0.4
         };
@@ -4805,7 +4805,7 @@ class CfgVehicles {
             "CUP_V_CDF_6B3_2_DST", 0.3,
             "CUP_V_CDF_6B3_3_DST", 0.3,
             "CUP_V_CDF_6B3_4_DST", 0.2,
-            "CFP_AK_VEST", 0.3,
+            "CFP_AK_VEST_Flora_Arid", 0.7,
             "CFP_AK_VEST_Tan", 0.4,
             "CFP_AK_VEST_LOlive", 0.4
         };
@@ -4871,7 +4871,7 @@ class CfgVehicles {
             "CUP_V_CDF_6B3_2_DST", 0.3,
             "CUP_V_CDF_6B3_3_DST", 0.3,
             "CUP_V_CDF_6B3_4_DST", 0.2,
-            "CFP_AK_VEST", 0.3,
+            "CFP_AK_VEST_Flora_Arid", 0.7,
             "CFP_AK_VEST_Tan", 0.4,
             "CFP_AK_VEST_LOlive", 0.4
         };
@@ -4933,7 +4933,7 @@ class CfgVehicles {
             "CUP_V_CDF_6B3_2_DST", 0.3,
             "CUP_V_CDF_6B3_3_DST", 0.3,
             "CUP_V_CDF_6B3_4_DST", 0.2,
-            "CFP_AK_VEST", 0.3,
+            "CFP_AK_VEST_Flora_Arid", 0.7,
             "CFP_AK_VEST_Tan", 0.4,
             "CFP_AK_VEST_LOlive", 0.4
         };
