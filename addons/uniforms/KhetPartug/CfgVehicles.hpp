@@ -63,13 +63,13 @@
 	class CFP_KhetPartug_Long_olive: CFP_KhetPartug_Long_M81
 	{
 		displayName = "Khet Partug, Long (Olive)";
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\KhetPartug\standard\KhetPartug_Long_olive.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\KhetPartug\standard\KhetPartug_Long_Olive.paa"};
 	};
 
 	class CFP_KhetPartug_short_olive: CFP_KhetPartug_Short_M81
 	{
 		displayName = "Khet Partug, Short (Olive)";
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\KhetPartug\standard\KhetPartug_short_olive.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\KhetPartug\standard\KhetPartug_Short_Olive.paa"};
 	};
 
 	class CFP_KhetPartug_Long_light_olive: CFP_KhetPartug_Long_M81
