@@ -1257,3 +1257,12 @@
 		uniformClass = "CFP_U_FieldUniform_flora_arid";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_flora_arid.paa"};
 	};
+	
+	class CFP_FieldUniform_afghan_w : CFP_FieldUniform_tigerstripe
+	{
+		displayName = "Field Uniform (Afghan Woodland)";
+		uniformClass = "CFP_U_FieldUniform_afghan_w";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_afghan_w.paa"};
+	};
+	
+	
