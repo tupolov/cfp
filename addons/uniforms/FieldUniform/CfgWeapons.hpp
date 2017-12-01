@@ -407,7 +407,7 @@
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (3 Color Desert)";
-		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\NodUrban.jpg";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_3ColorDesert.jpg";
 		author = "AccuracyThruVolume";
 
 		class ItemInfo: UniformItem
@@ -424,7 +424,7 @@
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (African Woodland)";
-		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\NodUrban.jpg";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_AfricanWoodland.jpg";
 		author = "AccuracyThruVolume";
 
 		class ItemInfo: UniformItem
@@ -441,7 +441,7 @@
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (Choc Chip)";
-		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\NodUrban.jpg";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_ChocChip.jpg";
 		author = "AccuracyThruVolume";
 
 		class ItemInfo: UniformItem
@@ -458,7 +458,7 @@
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (M81)";
-		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\NodUrban.jpg";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_M81.jpg";
 		author = "AccuracyThruVolume";
 
 		class ItemInfo: UniformItem
@@ -475,7 +475,7 @@
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (DPM)";
-		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\NodUrban.jpg";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_Dpm.jpg";
 		author = "AccuracyThruVolume";
 
 		class ItemInfo: UniformItem
@@ -492,7 +492,7 @@
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (DPM Woodland)";
-		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\NodUrban.jpg";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_DpmWoodland.jpg";
 		author = "AccuracyThruVolume";
 
 		class ItemInfo: UniformItem
@@ -509,7 +509,7 @@
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (EDRL)";
-		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\NodUrban.jpg";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_edrl.jpg";
 		author = "AccuracyThruVolume";
 
 		class ItemInfo: UniformItem
@@ -526,7 +526,7 @@
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (Polygon Desert)";
-		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\NodUrban.jpg";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_PolygonDesert.jpg";
 		author = "AccuracyThruVolume";
 
 		class ItemInfo: UniformItem
@@ -543,7 +543,7 @@
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (Tiger Stripe)";
-		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\NodUrban.jpg";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_TigerStripe.jpg";
 		author = "AccuracyThruVolume";
 
 		class ItemInfo: UniformItem
@@ -560,7 +560,7 @@
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (MultiCam)";
-		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\NodUrban.jpg";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_Multicam.jpg";
 		author = "AccuracyThruVolume";
 
 		class ItemInfo: UniformItem
@@ -577,7 +577,7 @@
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (UCP)";
-		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\NodUrban.jpg";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_ucp.jpg";
 		author = "AccuracyThruVolume";
 
 		class ItemInfo: UniformItem
@@ -594,7 +594,7 @@
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (Desert Flecktarn)";
-		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\NodUrban.jpg";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_DesertFlecktarn.jpg";
 		author = "AccuracyThruVolume";
 
 		class ItemInfo: UniformItem
@@ -611,7 +611,7 @@
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (Digital Multicam)";
-		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\NodUrban.jpg";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_DigitalMulticam.jpg";
 		author = "AccuracyThruVolume";
 
 		class ItemInfo: UniformItem
@@ -628,7 +628,7 @@
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (MARPAT Desert)";
-		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\NodUrban.jpg";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_MarpatDesert.jpg";
 		author = "AccuracyThruVolume";
 
 		class ItemInfo: UniformItem
@@ -645,7 +645,7 @@
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (MARPAT Woodland)";
-		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\NodUrban.jpg";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_MarpatWoodland.jpg";
 		author = "AccuracyThruVolume";
 
 		class ItemInfo: UniformItem
@@ -662,7 +662,7 @@
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (A-Tacs AU)";
-		picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\NodUrban.jpg";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_ATacsAU.jpg";
 		author = "AccuracyThruVolume";
 
 		class ItemInfo: UniformItem
