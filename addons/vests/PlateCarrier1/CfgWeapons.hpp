@@ -58,6 +58,7 @@ class CfgVehicleClasses
 
 		};
 	};
+
 	class SP_PlateCarrier1_Green: V_PlateCarrier1_rgr
 	{
 		scope = 2;
@@ -105,6 +106,7 @@ class CfgVehicleClasses
 
 		};
 	};
+
 	class SP_PlateCarrier1_Tan: V_PlateCarrier1_rgr
 	{
 		scope = 2;
@@ -152,7 +154,6 @@ class CfgVehicleClasses
 
 		};
 	};
-
 
 	class SP_PlateCarrier1_Grey: V_PlateCarrier1_rgr
 	{
@@ -202,7 +203,6 @@ class CfgVehicleClasses
 		};
 	};
 
-
 	class SP_PlateCarrier1_Hunter: V_PlateCarrier1_rgr
 	{
 		scope = 2;
@@ -250,7 +250,6 @@ class CfgVehicleClasses
 
 		};
 	};
-
 
 	class SP_PlateCarrier1_Hunter2: V_PlateCarrier1_rgr
 	{
@@ -300,7 +299,6 @@ class CfgVehicleClasses
 		};
 	};
 
-
 	class SP_PlateCarrier1_ATacsFG: V_PlateCarrier1_rgr
 	{
 		scope = 2;
@@ -348,7 +346,7 @@ class CfgVehicleClasses
 
 		};
 	};
-	
+
 	class PlateCarrier1_ATacsAU: SP_PlateCarrier1_ATacsFG
 	{
 		scope = 2;
