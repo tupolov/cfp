@@ -1265,4 +1265,11 @@
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_afghan_w.paa"};
 	};
 	
+	class CFP_FieldUniform_acr_desert : CFP_FieldUniform_tigerstripe
+	{
+		displayName = "Field Uniform (ACR Desert)";
+		uniformClass = "CFP_U_FieldUniform_acr_desert";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_acr_desert.paa"};
+	};
+	
 	

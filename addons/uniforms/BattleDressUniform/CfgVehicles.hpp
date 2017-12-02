@@ -316,6 +316,7 @@
 	UNIFORM_V("Battle Dress Uniform (OCP)",scorpion_w2)
 	UNIFORM_V("Battle Dress Uniform (Flora Arid)",flora_arid)
 	UNIFORM_V("Battle Dress Uniform (Afghan Woodland)",afghan_w)
+	UNIFORM_V("Battle Dress Uniform (ACR Desert)",acr_desert)
 
 	class CFP_BattleDressUniform_atacs_au : CFP_Uniform
 	{

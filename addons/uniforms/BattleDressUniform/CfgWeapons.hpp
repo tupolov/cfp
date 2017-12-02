@@ -379,3 +379,4 @@
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (OCP)",scorpion_w2,"AccuracyThruVolume")
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Flora Arid)",flora_arid,"AccuracyThruVolume")
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Afghan Woodland)",afghan_w,"AccuracyThruVolume")
+	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (ACR Desert)",acr_desert,"AccuracyThruVolume")
