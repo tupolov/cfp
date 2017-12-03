@@ -28,6 +28,31 @@ class CfgVehicles {
     class CUP_B_CZ_Soldier_base_OCimport_01 : CUP_B_CZ_Soldier_base { scope = 0; class EventHandlers; };
     class CUP_B_CZ_Soldier_base_OCimport_02 : CUP_B_CZ_Soldier_base_OCimport_01 {
         class EventHandlers;
+        randomGearProbability = 90;
+        headgearList[] = {
+            "SP_PASGTHelmet_Tan2",0.5,
+            "SP_PASGTHelmet_Tan1",0.5
+        };
+        nvgList[] = {
+            "", 0.7,
+            "CUP_NVG_HMNVS", 0.2
+        };
+        vestList[] = {
+            "SP_PlateCarrier1_Tan",0.5,
+            "PlateCarrier1_ATacsAU", 0.4,
+            "V_Chestrig_khk",0.3
+        };
+        backpackList[] = {
+            "", 0.5,
+            "B_Kitbag_cbr",0.5,
+            "B_Carryall_cbr",0.4,
+            "B_AssaultPack_cbr",0.3
+        };
+        insigniaList[] = {
+            "USP_PATCH_FLAG_CZECH_REPUBLIC", 0.7,
+            "USP_PATCH_FLAG_CZECH_REPUBLIC_SHIELD", 0.5,
+            "USP_PATCH_FLAG_CZECH_REPUBLIC_NAME", 0.3
+        };
     };
 
 // MEN
@@ -40,9 +65,9 @@ class CfgVehicles {
         faction = "CUP_B_CZ";
 
         identityTypes[] = {"Head_NATO","CUP_D_Language_CZ_ACR","G_NATO_default"};
-        uniformClass = "CFP_U_FieldUniform_atacs_au";
+        uniformClass = "CFP_U_BattleDressUniform_acr_desert";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_Sa58V_Aim_Laser","","","",{"CUP_30Rnd_Sa58_M",30},{},""},{},{"CUP_hgun_glock17_flashlight","","CUP_acc_Glock17_Flashlight","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_atacs_au",{{"FirstAidKit",1},{"CUP_30Rnd_Sa58_M",1,30},{"SmokeShellRed",1,1}}},{"PlateCarrier1_ATacsAU",{{"CUP_30Rnd_Sa58_M",6,30},{"CUP_HandGrenade_M67",2,1},{"B_IR_Grenade",1,1},{"CUP_17Rnd_9x19_glock17",2,17}}},{"B_Kitbag_cbr",{{"CUP_30Rnd_Sa58_M",4,30},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},"SP_PASGTHelmet_Tan2","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_HMNVS"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_Sa58V_Aim_Laser","","","",{"CUP_30Rnd_Sa58_M",30},{},""},{},{"CUP_hgun_glock17_flashlight","","CUP_acc_Glock17_Flashlight","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_BattleDressUniform_acr_desert",{{"FirstAidKit",1},{"CUP_30Rnd_Sa58_M",1,30},{"SmokeShellRed",1,1}}},{"PlateCarrier1_ATacsAU",{{"CUP_30Rnd_Sa58_M",6,30},{"CUP_HandGrenade_M67",2,1},{"B_IR_Grenade",1,1},{"CUP_17Rnd_9x19_glock17",2,17}}},{"B_Kitbag_cbr",{{"CUP_30Rnd_Sa58_M",4,30},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},"SP_PASGTHelmet_Tan2","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -50,7 +75,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -69,9 +94,9 @@ class CfgVehicles {
         faction = "CUP_B_CZ";
 
         identityTypes[] = {"Head_NATO","CUP_D_Language_CZ_ACR","G_NATO_default"};
-        uniformClass = "CFP_U_FieldUniform_atacs_au";
+        uniformClass = "CFP_U_BattleDressUniform_acr_desert";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_Sa58V_Aim_Laser","","","",{"CUP_30Rnd_Sa58_M",30},{},""},{},{},{"CFP_U_FieldUniform_atacs_au",{{"FirstAidKit",1},{"CUP_30Rnd_Sa58_M",1,30}}},{"SP_PlateCarrier1_Tan",{{"CUP_30Rnd_Sa58_M",6,30},{"CUP_HandGrenade_M67",4,1}}},{"B_Kitbag_cbr",{{"CUP_30Rnd_Sa58_M",4,30},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},"SP_PASGTHelmet_Tan1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_HMNVS"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_Sa58V_Aim_Laser","","","",{"CUP_30Rnd_Sa58_M",30},{},""},{},{},{"CFP_U_BattleDressUniform_acr_desert",{{"FirstAidKit",1},{"CUP_30Rnd_Sa58_M",1,30}}},{"SP_PlateCarrier1_Tan",{{"CUP_30Rnd_Sa58_M",6,30},{"CUP_HandGrenade_M67",4,1}}},{"B_Kitbag_cbr",{{"CUP_30Rnd_Sa58_M",4,30},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},"SP_PASGTHelmet_Tan1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -79,7 +104,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -98,9 +123,12 @@ class CfgVehicles {
         faction = "CUP_B_CZ";
 
         identityTypes[] = {"Head_NATO","CUP_D_Language_CZ_ACR","G_NATO_default"};
-        uniformClass = "CFP_U_FieldUniform_atacs_au";
-
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_Sa58V_Aim_Laser","","","",{"CUP_30Rnd_Sa58_M",30},{},""},{},{},{"CFP_U_FieldUniform_atacs_au",{{"FirstAidKit",1},{"CUP_30Rnd_Sa58_M",1,30}}},{"SP_PlateCarrier1_Tan",{{"CUP_30Rnd_Sa58_M",6,30},{"CUP_HandGrenade_M67",4,1}}},{"B_AssaultPack_cbr",{{"CUP_30Rnd_Sa58_M",6,30},{"CUP_PipeBomb_M",1,1},{"CUP_HandGrenade_M67",3,1},{"SmokeShell",2,1}}},"SP_PASGTHelmet_Tan1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_HMNVS"}};
+        uniformClass = "CFP_U_BattleDressUniform_acr_desert";
+        backpackList[] = {
+            "B_Kitbag_cbr",0.5,
+            "B_Carryall_cbr",0.4
+        };
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_Sa58V_Aim_Laser","","","",{"CUP_30Rnd_Sa58_M",30},{},""},{},{},{"CFP_U_BattleDressUniform_acr_desert",{{"FirstAidKit",1},{"CUP_30Rnd_Sa58_M",1,30}}},{"SP_PlateCarrier1_Tan",{{"CUP_30Rnd_Sa58_M",6,30},{"CUP_HandGrenade_M67",4,1}}},{"B_AssaultPack_cbr",{{"CUP_30Rnd_Sa58_M",6,30},{"CUP_PipeBomb_M",1,1},{"CUP_HandGrenade_M67",3,1},{"SmokeShell",2,1}}},"SP_PASGTHelmet_Tan1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -108,7 +136,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -127,9 +155,13 @@ class CfgVehicles {
         faction = "CUP_B_CZ";
 
         identityTypes[] = {"Head_NATO","CUP_D_Language_CZ_ACR","G_NATO_default"};
-        uniformClass = "CFP_U_FieldUniform_atacs_au";
-
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_Sa58V_Aim_Laser","","","",{"CUP_30Rnd_Sa58_M",30},{},""},{},{},{"CFP_U_FieldUniform_atacs_au",{{"FirstAidKit",1},{"CUP_30Rnd_Sa58_M",1,30},{"SmokeShell",1,1}}},{"PlateCarrier1_ATacsAU",{{"CUP_30Rnd_Sa58_M",4,30},{"SmokeShell",1,1}}},{"B_Kitbag_cbr",{{"CUP_30Rnd_Sa58_M",4,30},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},"SP_PASGTHelmet_Tan1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_HMNVS"}};
+        uniformClass = "CFP_U_BattleDressUniform_acr_desert";
+        backpackList[] = {
+            "B_Kitbag_cbr",0.5,
+            "B_Carryall_cbr",0.4,
+            "B_AssaultPack_cbr",0.3
+        };
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_Sa58V_Aim_Laser","","","",{"CUP_30Rnd_Sa58_M",30},{},""},{},{},{"CFP_U_BattleDressUniform_acr_desert",{{"FirstAidKit",1},{"CUP_30Rnd_Sa58_M",1,30},{"SmokeShell",1,1}}},{"PlateCarrier1_ATacsAU",{{"CUP_30Rnd_Sa58_M",4,30},{"SmokeShell",1,1}}},{"B_Kitbag_cbr",{{"CUP_30Rnd_Sa58_M",4,30},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},"SP_PASGTHelmet_Tan1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -137,7 +169,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -156,9 +188,13 @@ class CfgVehicles {
         faction = "CUP_B_CZ";
 
         identityTypes[] = {"Head_NATO","CUP_D_Language_CZ_ACR","G_NATO_default"};
-        uniformClass = "CFP_U_FieldUniform_atacs_au";
-
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_Sa58V_Aim_Laser","","","",{"CUP_30Rnd_Sa58_M",30},{},""},{},{},{"CFP_U_FieldUniform_atacs_au",{{"FirstAidKit",1},{"CUP_30Rnd_Sa58_M",1,30}}},{"SP_PlateCarrier1_Tan",{{"CUP_30Rnd_Sa58_M",6,30},{"CUP_HandGrenade_M67",4,1}}},{"B_AssaultPack_cbr",{{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",5,100},{"CUP_HandGrenade_M67",4,1}}},"SP_PASGTHelmet_Tan1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_HMNVS"}};
+        uniformClass = "CFP_U_BattleDressUniform_acr_desert";
+        backpackList[] = {
+            "B_Kitbag_cbr",0.5,
+            "B_Carryall_cbr",0.4,
+            "B_AssaultPack_cbr",0.3
+        };
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_Sa58V_Aim_Laser","","","",{"CUP_30Rnd_Sa58_M",30},{},""},{},{},{"CFP_U_BattleDressUniform_acr_desert",{{"FirstAidKit",1},{"CUP_30Rnd_Sa58_M",1,30}}},{"SP_PlateCarrier1_Tan",{{"CUP_30Rnd_Sa58_M",6,30},{"CUP_HandGrenade_M67",4,1}}},{"B_AssaultPack_cbr",{{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",5,100},{"CUP_HandGrenade_M67",4,1}}},"SP_PASGTHelmet_Tan1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -166,7 +202,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -185,9 +221,9 @@ class CfgVehicles {
         faction = "CUP_B_CZ";
 
         identityTypes[] = {"Head_NATO","CUP_D_Language_CZ_ACR","G_NATO_default"};
-        uniformClass = "CFP_U_FieldUniform_atacs_au";
+        uniformClass = "CFP_U_BattleDressUniform_acr_desert";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_Sa58V_Aim_Laser","","","",{"CUP_30Rnd_Sa58_M",30},{},""},{"CUP_launch_MAAWS_Scope","","","CUP_optic_MAAWS_Scope",{"CUP_MAAWS_HEAT_M",1},{},""},{},{"CFP_U_FieldUniform_atacs_au",{{"FirstAidKit",1},{"CUP_30Rnd_Sa58_M",1,30}}},{"PlateCarrier1_ATacsAU",{{"CUP_30Rnd_Sa58_M",2,30},{"CUP_HandGrenade_M67",2,1}}},{},"SP_PASGTHelmet_Tan2","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_HMNVS"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_Sa58V_Aim_Laser","","","",{"CUP_30Rnd_Sa58_M",30},{},""},{"CUP_launch_MAAWS_Scope","","","CUP_optic_MAAWS_Scope",{"CUP_MAAWS_HEAT_M",1},{},""},{},{"CFP_U_BattleDressUniform_acr_desert",{{"FirstAidKit",1},{"CUP_30Rnd_Sa58_M",1,30}}},{"PlateCarrier1_ATacsAU",{{"CUP_30Rnd_Sa58_M",2,30},{"CUP_HandGrenade_M67",2,1}}},{},"SP_PASGTHelmet_Tan2","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -195,7 +231,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -214,9 +250,9 @@ class CfgVehicles {
         faction = "CUP_B_CZ";
 
         identityTypes[] = {"Head_NATO","CUP_D_Language_CZ_ACR","G_NATO_default"};
-        uniformClass = "CFP_U_FieldUniform_atacs_au";
+        uniformClass = "CFP_U_BattleDressUniform_acr_desert";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_UK59","","","",{"CUP_50Rnd_UK59_762x54R_Tracer",50},{},""},{},{"CUP_hgun_Phantom_Flashlight","","CUP_acc_CZ_M3X","",{},{},""},{"CFP_U_FieldUniform_atacs_au",{{"FirstAidKit",1},{"CUP_HandGrenade_M67",2,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},{"SP_PlateCarrier1_Tan",{{"CUP_50Rnd_UK59_762x54R_Tracer",3,50},{"CUP_15Rnd_9x19_M9",5,15}}},{},"SP_PASGTHelmet_Tan1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_HMNVS"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_UK59","","","",{"CUP_50Rnd_UK59_762x54R_Tracer",50},{},""},{},{"CUP_hgun_Phantom_Flashlight","","CUP_acc_CZ_M3X","",{},{},""},{"CFP_U_BattleDressUniform_acr_desert",{{"FirstAidKit",1},{"CUP_HandGrenade_M67",2,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},{"SP_PlateCarrier1_Tan",{{"CUP_50Rnd_UK59_762x54R_Tracer",3,50},{"CUP_15Rnd_9x19_M9",5,15}}},{},"SP_PASGTHelmet_Tan1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -224,7 +260,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -238,9 +274,13 @@ class CfgVehicles {
 
         displayName = "Automatic Rifleman";
         identityTypes[] = {"Head_NATO","CUP_D_Language_CZ_ACR","G_NATO_default"};
-        uniformClass = "CFP_U_FieldUniform_atacs_au";
-
-        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_M249_ElcanM145_Laser","","CUP_acc_ANPEQ_15","CUP_optic_ElcanM145",{"CUP_100Rnd_TE4_Green_Tracer_556x45_M249",100},{},""},{},{"CUP_hgun_Phantom_Flashlight","","CUP_acc_CZ_M3X","",{},{},""},{"CFP_U_FieldUniform_atacs_au",{{"FirstAidKit",1},{"CUP_HandGrenade_M67",2,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},{"PlateCarrier1_ATacsAU",{{"CUP_100Rnd_TE4_Green_Tracer_556x45_M249",3,100},{"CUP_15Rnd_9x19_M9",4,15}}},{},"SP_PASGTHelmet_Tan1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_HMNVS"}};
+        uniformClass = "CFP_U_BattleDressUniform_acr_desert";
+        backpackList[] = {
+            "B_Kitbag_cbr",0.5,
+            "B_Carryall_cbr",0.4,
+            "B_AssaultPack_cbr",0.3
+        };
+        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_M249_ElcanM145_Laser","","CUP_acc_ANPEQ_15","CUP_optic_ElcanM145",{"CUP_100Rnd_TE4_Green_Tracer_556x45_M249",100},{},""},{},{"CUP_hgun_Phantom_Flashlight","","CUP_acc_CZ_M3X","",{},{},""},{"CFP_U_BattleDressUniform_acr_desert",{{"FirstAidKit",1},{"CUP_HandGrenade_M67",2,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},{"PlateCarrier1_ATacsAU",{{"CUP_100Rnd_TE4_Green_Tracer_556x45_M249",3,100},{"CUP_15Rnd_9x19_M9",4,15}}},{},"SP_PASGTHelmet_Tan1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -248,7 +288,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -257,6 +297,7 @@ class CfgVehicles {
         ALiVE_orbatCreator_owned = 1;
 
     };
+
     class CUP_B_CZ_Officer_DES : CUP_B_CZ_Soldier_base_OCimport_02 {
         author = "Tupolov";
         scope = 2;
@@ -266,9 +307,9 @@ class CfgVehicles {
         faction = "CUP_B_CZ";
 
         identityTypes[] = {"Head_NATO","CUP_D_Language_CZ_ACR","G_NATO_casual"};
-        uniformClass = "CFP_U_FieldUniform_atacs_au";
+        uniformClass = "CFP_U_BattleDressUniform_acr_desert";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_Sa58V","","","",{"CUP_30Rnd_Sa58_M",30},{},""},{},{"CUP_hgun_glock17_flashlight","","CUP_acc_Glock17_Flashlight","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_atacs_au",{{"FirstAidKit",1},{"CUP_30Rnd_Sa58_M",1,30},{"SmokeShellRed",1,1}}},{"PlateCarrier1_ATacsAU",{{"CUP_30Rnd_Sa58_M",2,30},{"B_IR_Grenade",1,1},{"CUP_17Rnd_9x19_glock17",3,17}}},{},"SP_MichHelmet_Tan2","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_Sa58V","","","",{"CUP_30Rnd_Sa58_M",30},{},""},{},{"CUP_hgun_glock17_flashlight","","CUP_acc_Glock17_Flashlight","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_BattleDressUniform_acr_desert",{{"FirstAidKit",1},{"CUP_30Rnd_Sa58_M",1,30},{"SmokeShellRed",1,1}}},{"PlateCarrier1_ATacsAU",{{"CUP_30Rnd_Sa58_M",2,30},{"B_IR_Grenade",1,1},{"CUP_17Rnd_9x19_glock17",3,17}}},{},"SP_MichHelmet_Tan2","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -276,7 +317,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -295,15 +336,15 @@ class CfgVehicles {
         faction = "CUP_B_CZ";
 
         identityTypes[] = {"Head_NATO","CUP_D_Language_CZ_ACR","G_NATO_default"};
-        uniformClass = "CFP_U_FieldUniform_atacs_au";
+        uniformClass = "CFP_U_BattleDressUniform_acr_desert";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_Sa58P","","","",{"CUP_30Rnd_Sa58_M",30},{},""},{},{"CUP_hgun_Duty_M3X","","CUP_acc_CZ_M3X","",{},{},""},{"CFP_U_FieldUniform_atacs_au",{{"FirstAidKit",1},{"CUP_30Rnd_Sa58_M",1,30},{"SmokeShell",1,1},{"CUP_15Rnd_9x19_M9",2,15}}},{"PlateCarrier1_ATacsAU",{{"CUP_30Rnd_Sa58_M",4,30},{"CUP_HandGrenade_M67",2,1},{"SmokeShellRed",1,1}}},{},"SP_PASGTHelmet_Tan1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_HMNVS"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_Sa58P","","","",{"CUP_30Rnd_Sa58_M",30},{},""},{},{"CUP_hgun_Duty_M3X","","CUP_acc_CZ_M3X","",{},{},""},{"CFP_U_BattleDressUniform_acr_desert",{{"FirstAidKit",1},{"CUP_30Rnd_Sa58_M",1,30},{"SmokeShell",1,1},{"CUP_15Rnd_9x19_M9",2,15}}},{"PlateCarrier1_ATacsAU",{{"CUP_30Rnd_Sa58_M",4,30},{"CUP_HandGrenade_M67",2,1},{"SmokeShellRed",1,1}}},{},"SP_PASGTHelmet_Tan1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -320,7 +361,7 @@ class CfgVehicles {
         displayName = "Pilot";
         side = 1;
         faction = "CUP_B_CZ";
-
+        randomGearProbability = 0;
         identityTypes[] = {"Head_NATO","CUP_D_Language_CZ_ACR","G_NATO_default"};
         uniformClass = "CUP_U_I_RACS_PilotOverall";
 
@@ -332,7 +373,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -349,17 +390,17 @@ class CfgVehicles {
         displayName = "Sniper";
         side = 1;
         faction = "CUP_B_CZ";
-
+        randomGearProbability = 0;
         identityTypes[] = {"Head_NATO","CUP_D_Language_CZ_ACR","G_NATO_sniper"};
         uniformClass = "CUP_U_B_BAF_DDPM_Ghillie";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_SVD_des_ghillie_pso","","CUP_SVD_camo_d","CUP_optic_PSO_1",{"CUP_10Rnd_762x54_SVD_M",10},{},""},{},{"CUP_hgun_glock17_flashlight","","CUP_acc_Glock17_Flashlight","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CUP_U_B_BAF_DDPM_Ghillie",{{"FirstAidKit",1},{"CUP_10Rnd_762x54_SVD_M",5,10}}},{"V_Chestrig_rgr",{{"CUP_HandGrenade_M67",2,1},{"B_IR_Grenade",1,1},{"CUP_17Rnd_9x19_glock17",3,17}}},{},"","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_HMNVS"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_SVD_des_ghillie_pso","","CUP_SVD_camo_d","CUP_optic_PSO_1",{"CUP_10Rnd_762x54_SVD_M",10},{},""},{},{"CUP_hgun_glock17_flashlight","","CUP_acc_Glock17_Flashlight","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CUP_U_B_BAF_DDPM_Ghillie",{{"FirstAidKit",1},{"CUP_10Rnd_762x54_SVD_M",5,10}}},{"V_Chestrig_khk",{{"CUP_HandGrenade_M67",2,1},{"B_IR_Grenade",1,1},{"CUP_17Rnd_9x19_glock17",3,17}}},{},"","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -378,9 +419,9 @@ class CfgVehicles {
         faction = "CUP_B_CZ";
 
         identityTypes[] = {"Head_NATO","CUP_D_Language_CZ_ACR","G_NATO_default"};
-        uniformClass = "CFP_U_FieldUniform_atacs_au";
+        uniformClass = "CFP_U_BattleDressUniform_acr_desert";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_CZ805_A1","","","",{"CUP_30Rnd_556x45_G36",30},{},""},{},{"CUP_hgun_Duty_M3X","","CUP_acc_CZ_M3X","",{},{},""},{"CFP_U_FieldUniform_atacs_au",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_G36",1,30},{"CUP_HandGrenade_M67",1,1}}},{"SP_PlateCarrier1_Tan",{{"CUP_30Rnd_556x45_G36",6,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1},{"CUP_15Rnd_9x19_M9",8,15}}},{"B_Kitbag_cbr",{{"CUP_30Rnd_Sa58_M",4,30},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},"SP_PASGTHelmet_Tan1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_HMNVS"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_CZ805_A1","","","",{"CUP_30Rnd_556x45_G36",30},{},""},{},{"CUP_hgun_Duty_M3X","","CUP_acc_CZ_M3X","",{},{},""},{"CFP_U_BattleDressUniform_acr_desert",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_G36",1,30},{"CUP_HandGrenade_M67",1,1}}},{"SP_PlateCarrier1_Tan",{{"CUP_30Rnd_556x45_G36",6,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1},{"CUP_15Rnd_9x19_M9",8,15}}},{"B_Kitbag_cbr",{{"CUP_30Rnd_Sa58_M",4,30},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},"SP_PASGTHelmet_Tan1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -388,7 +429,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -407,9 +448,9 @@ class CfgVehicles {
         faction = "CUP_B_CZ";
 
         identityTypes[] = {"Head_NATO","CUP_D_Language_CZ_ACR","G_NATO_default"};
-        uniformClass = "CFP_U_FieldUniform_atacs_au";
+        uniformClass = "CFP_U_BattleDressUniform_acr_desert";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_CZ805_GL","","","",{"CUP_30Rnd_556x45_G36",30},{"CUP_1Rnd_HEDP_M203",1},""},{},{"CUP_hgun_Duty_M3X","","CUP_acc_CZ_M3X","",{},{},""},{"CFP_U_FieldUniform_atacs_au",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_G36",1,30},{"CUP_HandGrenade_M67",1,1}}},{"PlateCarrier1_ATacsAU",{{"CUP_30Rnd_556x45_G36",6,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1},{"CUP_15Rnd_9x19_M9",3,15},{"CUP_1Rnd_HEDP_M203",4,1}}},{"B_Carryall_cbr",{{"CUP_30Rnd_556x45_Stanag",4,30},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},"SP_PASGTHelmet_Tan2","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_HMNVS"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_CZ805_GL","","","",{"CUP_30Rnd_556x45_G36",30},{"CUP_1Rnd_HEDP_M203",1},""},{},{"CUP_hgun_Duty_M3X","","CUP_acc_CZ_M3X","",{},{},""},{"CFP_U_BattleDressUniform_acr_desert",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_G36",1,30},{"CUP_HandGrenade_M67",1,1}}},{"PlateCarrier1_ATacsAU",{{"CUP_30Rnd_556x45_G36",6,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1},{"CUP_15Rnd_9x19_M9",3,15},{"CUP_1Rnd_HEDP_M203",4,1}}},{"B_Carryall_cbr",{{"CUP_30Rnd_556x45_Stanag",4,30},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},"SP_PASGTHelmet_Tan2","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -417,7 +458,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -434,11 +475,11 @@ class CfgVehicles {
         displayName = "Crewman";
         side = 1;
         faction = "CUP_B_CZ";
-
+        randomGearProbability = 0;
         identityTypes[] = {"Head_NATO","CUP_D_Language_CZ_ACR","G_NATO_default"};
-        uniformClass = "CFP_U_FieldUniform_atacs_au";
+        uniformClass = "CFP_U_BattleDressUniform_acr_desert";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_smg_EVO_MRad_Flashlight","","CUP_acc_Flashlight","CUP_optic_MRad",{"CUP_30Rnd_9x19_EVO",30},{},""},{},{"CUP_hgun_Compact","","","",{"CUP_10Rnd_9x19_Compact",10},{},""},{"CFP_U_FieldUniform_atacs_au",{{"FirstAidKit",1},{"CUP_30Rnd_9x19_EVO",2,30}}},{"PlateCarrier1_ATacsAU",{{"CUP_30Rnd_9x19_EVO",5,30},{"CUP_HandGrenade_M67",2,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},{},"SP_PASGTHelmet_Tan1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_HMNVS"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_smg_EVO_MRad_Flashlight","","CUP_acc_Flashlight","CUP_optic_MRad",{"CUP_30Rnd_9x19_EVO",30},{},""},{},{"CUP_hgun_Compact","","","",{"CUP_10Rnd_9x19_Compact",10},{},""},{"CFP_U_BattleDressUniform_acr_desert",{{"FirstAidKit",1},{"CUP_30Rnd_9x19_EVO",2,30}}},{"PlateCarrier1_ATacsAU",{{"CUP_30Rnd_9x19_EVO",5,30},{"CUP_HandGrenade_M67",2,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},{},"SP_PASGTHelmet_Tan1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -446,7 +487,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -465,9 +506,9 @@ class CfgVehicles {
         faction = "CUP_B_CZ";
 
         identityTypes[] = {"Head_NATO","CUP_D_Language_CZ_ACR","G_NATO_default"};
-        uniformClass = "CFP_U_FieldUniform_atacs_au";
+        uniformClass = "CFP_U_BattleDressUniform_acr_desert";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_Sa58V","","","",{"CUP_30Rnd_Sa58_M",30},{},""},{"CUP_launch_RPG7V","","","",{"CUP_PG7VL_M",1},{},""},{"CUP_hgun_Duty_M3X","","CUP_acc_CZ_M3X","",{},{},""},{"CFP_U_FieldUniform_atacs_au",{{"FirstAidKit",1},{"CUP_30Rnd_Sa58_M",1,30},{"CUP_15Rnd_9x19_M9",1,15}}},{"PlateCarrier1_ATacsAU",{{"CUP_30Rnd_Sa58_M",4,30},{"CUP_15Rnd_9x19_M9",7,15}}},{},"SP_PASGTHelmet_Tan2","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_HMNVS"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_Sa58V","","","",{"CUP_30Rnd_Sa58_M",30},{},""},{"CUP_launch_RPG7V","","","",{"CUP_PG7VL_M",1},{},""},{"CUP_hgun_Duty_M3X","","CUP_acc_CZ_M3X","",{},{},""},{"CFP_U_BattleDressUniform_acr_desert",{{"FirstAidKit",1},{"CUP_30Rnd_Sa58_M",1,30},{"CUP_15Rnd_9x19_M9",1,15}}},{"PlateCarrier1_ATacsAU",{{"CUP_30Rnd_Sa58_M",4,30},{"CUP_15Rnd_9x19_M9",7,15}}},{},"SP_PASGTHelmet_Tan2","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -475,7 +516,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -494,10 +535,14 @@ class CfgVehicles {
         faction = "CUP_B_CZ";
 
         identityTypes[] = {"Head_NATO","CUP_D_Language_CZ_ACR","G_NATO_default"};
-        uniformClass = "CFP_U_FieldUniform_atacs_au";
+        uniformClass = "CFP_U_BattleDressUniform_acr_desert";
+        backpackList[] = {
+            "B_Kitbag_cbr",0.5,
+            "B_Carryall_cbr",0.4,
+            "B_AssaultPack_cbr",0.3
+        };
 
-
-        ALiVE_orbatCreator_loadout[] = {{"CUP_smg_EVO_MRad_Flashlight","","CUP_acc_Flashlight","CUP_optic_MRad",{"CUP_30Rnd_9x19_EVO",30},{},""},{},{"CUP_hgun_Duty_M3X","","CUP_acc_CZ_M3X","",{},{},""},{"CFP_U_FieldUniform_atacs_au",{{"FirstAidKit",1},{"CUP_30Rnd_9x19_EVO",2,30}}},{"V_Chestrig_rgr",{{"CUP_30Rnd_9x19_EVO",3,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"CUP_15Rnd_9x19_M9",8,15}}},{"B_Kitbag_cbr",{{"CUP_Mine_M",1,1},{"CUP_PipeBomb_M",1,1}}},"SP_MichHelmet_Tan2","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_HMNVS"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_smg_EVO_MRad_Flashlight","","CUP_acc_Flashlight","CUP_optic_MRad",{"CUP_30Rnd_9x19_EVO",30},{},""},{},{"CUP_hgun_Duty_M3X","","CUP_acc_CZ_M3X","",{},{},""},{"CFP_U_BattleDressUniform_acr_desert",{{"FirstAidKit",1},{"CUP_30Rnd_9x19_EVO",2,30}}},{"V_Chestrig_khk",{{"CUP_30Rnd_9x19_EVO",3,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"CUP_15Rnd_9x19_M9",8,15}}},{"B_Kitbag_cbr",{{"CUP_Mine_M",1,1},{"CUP_PipeBomb_M",1,1}}},"SP_MichHelmet_Tan2","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -506,7 +551,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -523,18 +568,18 @@ class CfgVehicles {
         displayName = "Spotter";
         side = 1;
         faction = "CUP_B_CZ";
-
+        randomGearProbability = 0;
         identityTypes[] = {"Head_NATO","CUP_D_Language_CZ_ACR","G_NATO_sniper"};
         uniformClass = "CUP_U_O_TK_Ghillie_Top";
 
-       ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_CZ805_A2_ZDDot_Flashlight_Snds","muzzle_snds_M","CUP_acc_Flashlight","CUP_optic_ZDDot",{"CUP_30Rnd_556x45_G36",30},{},""},{},{"CUP_hgun_Phantom_Flashlight_snds","muzzle_snds_L","CUP_acc_CZ_M3X","",{"CUP_18Rnd_9x19_Phantom",18},{},""},{"CUP_U_O_TK_Ghillie_Top",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_G36",2,30},{"B_IR_Grenade",1,1}}},{"V_Chestrig_rgr",{{"CUP_30Rnd_556x45_G36",4,30},{"CUP_HandGrenade_M67",2,1},{"SmokeShellRed",1,1},{"CUP_18Rnd_9x19_Phantom",3,18}}},{},"","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_HMNVS"}};
+       ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_CZ805_A2_ZDDot_Flashlight_Snds","muzzle_snds_M","CUP_acc_Flashlight","CUP_optic_ZDDot",{"CUP_30Rnd_556x45_G36",30},{},""},{},{"CUP_hgun_Phantom_Flashlight_snds","muzzle_snds_L","CUP_acc_CZ_M3X","",{"CUP_18Rnd_9x19_Phantom",18},{},""},{"CUP_U_O_TK_Ghillie_Top",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_G36",2,30},{"B_IR_Grenade",1,1}}},{"V_Chestrig_khk",{{"CUP_30Rnd_556x45_G36",4,30},{"CUP_HandGrenade_M67",2,1},{"SmokeShellRed",1,1},{"CUP_18Rnd_9x19_Phantom",3,18}}},{},"","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -551,19 +596,19 @@ class CfgVehicles {
         displayName = "Asst. AT Specialist";
         side = 1;
         faction = "CUP_B_CZ";
-
+        backpack = "";
         identityTypes[] = {"Head_NATO","CUP_D_Language_CZ_ACR","G_NATO_default"};
-        uniformClass = "CFP_U_FieldUniform_atacs_au";
-
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_Sa58V","","","",{"CUP_30Rnd_Sa58_M",30},{},""},{},{"CUP_hgun_Duty_M3X","","CUP_acc_CZ_M3X","",{},{},""},{"CFP_U_FieldUniform_atacs_au",{{"FirstAidKit",1},{"CUP_30Rnd_Sa58_M",1,30},{"CUP_15Rnd_9x19_M9",1,15}}},{"SP_PlateCarrier1_Tan",{{"CUP_30Rnd_Sa58_M",6,30},{"CUP_15Rnd_9x19_M9",7,15}}},{},"SP_PASGTHelmet_Tan1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_HMNVS"}};
-
-
+        uniformClass = "CFP_U_BattleDressUniform_acr_desert";
+        backpackList[] = {
+            "B_Carryall_cbr",0.4
+        };
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_CZ805_A1","","","",{"CUP_30Rnd_556x45_G36",30},{},""},{},{"CUP_hgun_Duty","","","",{"16Rnd_9x21_Mag",16},{},""},{"CFP_U_BattleDressUniform_acr_desert",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_G36",1,30},{"CUP_HandGrenade_M67",1,1},{"16Rnd_9x21_Mag",3,16}}},{"SP_PlateCarrier1_Tan",{{"CUP_30Rnd_556x45_G36",6,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1},{"CUP_15Rnd_9x19_M9",6,15}}},{"SP_Carryall_Tan",{{"RPG7_F",1,1},{"CUP_PG7V_M",1,1}}},"SP_PASGTHelmet_Tan1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -582,15 +627,15 @@ class CfgVehicles {
         faction = "CUP_B_CZ";
 
         identityTypes[] = {"Head_NATO","CUP_D_Language_CZ_ACR","G_NATO_default"};
-        uniformClass = "CFP_U_FieldUniform_atacs_au";
+        uniformClass = "CFP_U_BattleDressUniform_acr_desert";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_SVD_pso","","","CUP_optic_PSO_1",{"CUP_10Rnd_762x54_SVD_M",10},{},""},{},{"CUP_hgun_Duty_M3X","","CUP_acc_CZ_M3X","",{},{},""},{"CFP_U_FieldUniform_atacs_au",{{"FirstAidKit",1},{"CUP_10Rnd_762x54_SVD_M",4,10}}},{"SP_PlateCarrier1_Tan",{{"CUP_10Rnd_762x54_SVD_M",3,10},{"CUP_HandGrenade_M67",4,1},{"CUP_15Rnd_9x19_M9",8,15}}},{},"SP_MichHelmet_Tan2","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_HMNVS"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_SVD_pso","","","CUP_optic_PSO_1",{"CUP_10Rnd_762x54_SVD_M",10},{},""},{},{"CUP_hgun_Duty_M3X","","CUP_acc_CZ_M3X","",{},{},""},{"CFP_U_BattleDressUniform_acr_desert",{{"FirstAidKit",1},{"CUP_10Rnd_762x54_SVD_M",4,10}}},{"SP_PlateCarrier1_Tan",{{"CUP_10Rnd_762x54_SVD_M",3,10},{"CUP_HandGrenade_M67",4,1},{"CUP_15Rnd_9x19_M9",8,15}}},{},"SP_MichHelmet_Tan2","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -612,9 +657,32 @@ class CfgVehicles {
         faction = "CUP_B_CZ";
         editorSubCategory = "EdSubcat_Personnel_SpecialForces";
         identityTypes[] = {"Head_NATO","CUP_D_Language_CZ_ACR","G_NATO_default"};
-        uniformClass = "CFP_U_FieldUniform_atacs_au";
-
-        ALiVE_orbatCreator_loadout[] = {{"CUP_smg_EVO_MRad_Flashlight_Snds","muzzle_snds_L","CUP_acc_Flashlight","CUP_optic_MRad",{"CUP_30Rnd_9x19_EVO",30},{},""},{},{"CUP_hgun_Phantom_Flashlight_snds","muzzle_snds_L","CUP_acc_CZ_M3X","",{"CUP_18Rnd_9x19_Phantom",18},{},""},{"CFP_U_FieldUniform_atacs_au",{{"FirstAidKit",1},{"CUP_30Rnd_9x19_EVO",2,30}}},{"V_Chestrig_rgr",{{"CUP_30Rnd_9x19_EVO",2,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1},{"CUP_18Rnd_9x19_Phantom",3,18}}},{"B_Kitbag_cbr",{{"CUP_Mine_M",1,1},{"CUP_PipeBomb_M",1,1}}},"SP_MichHelmet_Tan2","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_HMNVS"}};
+        uniformClass = "CFP_U_FieldUniform_acr_desert";
+        randomGearProbability = 100;
+        uniformList[] = {
+            "CFP_U_FieldUniform_acr_desert", 0.6,
+            "CFP_U_FieldUniform_acr_desert_SS", 0.4
+        };
+        headgearList[] = {
+            "SP_MichHelmet_Black2",0.5,
+            "SP_MichHelmet_Tan2",0.5
+        };
+        nvgList[] = {
+            "", 0.3,
+            "CUP_NVG_HMNVS", 0.7
+        };
+        facewearList[] = {
+            "SP_Kneepads_Tan2", 0.7,
+            "CUP_TK_NeckScarf", 0.3,
+            "CUP_FR_NeckScarf2", 0.3,
+            "SP_Balaclava_Tan", 0.5
+        };
+        backpackList[] = {
+            "B_Kitbag_cbr",0.5,
+            "B_Carryall_cbr",0.4,
+            "B_AssaultPack_cbr",0.3
+        };
+        ALiVE_orbatCreator_loadout[] = {{"CUP_smg_EVO_MRad_Flashlight_Snds","muzzle_snds_L","CUP_acc_Flashlight","CUP_optic_MRad",{"CUP_30Rnd_9x19_EVO",30},{},""},{},{"CUP_hgun_Phantom_Flashlight_snds","muzzle_snds_L","CUP_acc_CZ_M3X","",{"CUP_18Rnd_9x19_Phantom",18},{},""},{"CFP_U_BattleDressUniform_acr_desert",{{"FirstAidKit",1},{"CUP_30Rnd_9x19_EVO",2,30}}},{"V_Chestrig_khk",{{"CUP_30Rnd_9x19_EVO",2,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1},{"CUP_18Rnd_9x19_Phantom",3,18}}},{"B_Kitbag_cbr",{{"CUP_Mine_M",1,1},{"CUP_PipeBomb_M",1,1}}},"SP_MichHelmet_Tan2","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -622,7 +690,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -641,9 +709,27 @@ class CfgVehicles {
         faction = "CUP_B_CZ";
         editorSubCategory = "EdSubcat_Personnel_SpecialForces";
         identityTypes[] = {"Head_NATO","CUP_D_Language_CZ_ACR","G_NATO_default"};
-        uniformClass = "CFP_U_FieldUniform_atacs_au";
-
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_Sa58V_Aim_Laser","","","",{"CUP_30Rnd_Sa58_M",30},{},""},{},{"CUP_hgun_glock17_flashlight","","CUP_acc_Glock17_Flashlight","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_atacs_au",{{"FirstAidKit",1},{"CUP_30Rnd_Sa58_M",1,30},{"SmokeShell",1,1},{"CUP_17Rnd_9x19_glock17",1,17}}},{"SP_PlateCarrier1_Tan",{{"CUP_30Rnd_Sa58_M",5,30},{"CUP_HandGrenade_M67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellRed",1,1},{"CUP_17Rnd_9x19_glock17",6,17}}},{"B_Kitbag_cbr",{{"CUP_30Rnd_Sa58_M",4,30},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},"SP_PASGTHelmet_Tan1","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_HMNVS"}};
+        uniformClass = "CFP_U_FieldUniform_acr_desert";
+        randomGearProbability = 100;
+        uniformList[] = {
+            "CFP_U_FieldUniform_acr_desert", 0.6,
+            "CFP_U_FieldUniform_acr_desert_SS", 0.4
+        };
+        headgearList[] = {
+            "SP_MichHelmet_Black2",0.5,
+            "SP_MichHelmet_Tan2",0.5
+        };
+        nvgList[] = {
+            "", 0.3,
+            "CUP_NVG_HMNVS", 0.7
+        };
+        facewearList[] = {
+            "SP_Kneepads_Tan2", 0.7,
+            "CUP_TK_NeckScarf", 0.3,
+            "CUP_FR_NeckScarf2", 0.3,
+            "SP_Balaclava_Tan", 0.5
+        };
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_Sa58V_Aim_Laser","","","",{"CUP_30Rnd_Sa58_M",30},{},""},{},{"CUP_hgun_glock17_flashlight","","CUP_acc_Glock17_Flashlight","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_BattleDressUniform_acr_desert",{{"FirstAidKit",1},{"CUP_30Rnd_Sa58_M",1,30},{"SmokeShell",1,1},{"CUP_17Rnd_9x19_glock17",1,17}}},{"SP_PlateCarrier1_Tan",{{"CUP_30Rnd_Sa58_M",5,30},{"CUP_HandGrenade_M67",2,1},{"B_IR_Grenade",1,1},{"SmokeShellRed",1,1},{"CUP_17Rnd_9x19_glock17",6,17}}},{"B_Kitbag_cbr",{{"CUP_30Rnd_Sa58_M",4,30},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},"SP_PASGTHelmet_Tan1","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -651,7 +737,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -669,18 +755,35 @@ class CfgVehicles {
         side = 1;
         faction = "CUP_B_CZ";
         editorSubCategory = "EdSubcat_Personnel_SpecialForces";
-
+        randomGearProbability = 100;
         identityTypes[] = {"Head_NATO","CUP_D_Language_CZ_ACR","G_NATO_default"};
-        uniformClass = "CFP_U_FieldUniform_atacs_au";
-
-        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_M60E4","","","",{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",100},{},""},{},{"CUP_hgun_glock17_flashlight","","CUP_acc_Glock17_Flashlight","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_atacs_au",{{"FirstAidKit",1},{"CUP_HandGrenade_M67",1,1},{"B_IR_Grenade",1,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1},{"CUP_17Rnd_9x19_glock17",1,17}}},{"SP_PlateCarrier1_Tan",{{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",2,100},{"CUP_17Rnd_9x19_glock17",1,17}}},{},"SP_PASGTHelmet_Tan1","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_HMNVS"}};
+        uniformClass = "CFP_U_FieldUniform_acr_desert";
+        uniformList[] = {
+            "CFP_U_FieldUniform_acr_desert", 0.6,
+            "CFP_U_FieldUniform_acr_desert_SS", 0.4
+        };
+        headgearList[] = {
+            "SP_MichHelmet_Black2",0.5,
+            "SP_MichHelmet_Tan2",0.5
+        };
+        nvgList[] = {
+            "", 0.3,
+            "CUP_NVG_HMNVS", 0.7
+        };
+        facewearList[] = {
+            "SP_Kneepads_Tan2", 0.7,
+            "CUP_TK_NeckScarf", 0.3,
+            "CUP_FR_NeckScarf2", 0.3,
+            "SP_Balaclava_Tan", 0.5
+        };
+        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_M60E4","","","",{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",100},{},""},{},{"CUP_hgun_glock17_flashlight","","CUP_acc_Glock17_Flashlight","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_BattleDressUniform_acr_desert",{{"FirstAidKit",1},{"CUP_HandGrenade_M67",1,1},{"B_IR_Grenade",1,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1},{"CUP_17Rnd_9x19_glock17",1,17}}},{"SP_PlateCarrier1_Tan",{{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",2,100},{"CUP_17Rnd_9x19_glock17",1,17}}},{},"SP_PASGTHelmet_Tan1","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -700,9 +803,32 @@ class CfgVehicles {
         editorSubCategory = "EdSubcat_Personnel_SpecialForces";
 
         identityTypes[] = {"Head_NATO","CUP_D_Language_CZ_ACR","G_NATO_default"};
-        uniformClass = "CFP_U_FieldUniform_atacs_au";
-
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A3_desert_Aim_Flashlight","","CUP_acc_Flashlight_desert","CUP_optic_CompM2_Desert",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Phantom_Flashlight","","CUP_acc_CZ_M3X","",{},{},""},{"CFP_U_FieldUniform_atacs_au",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"SP_PlateCarrier1_Tan",{{"CUP_30Rnd_556x45_Stanag",5,30},{"CUP_HandGrenade_M67",1,1},{"B_IR_Grenade",1,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1},{"CUP_15Rnd_9x19_M9",8,15}}},{},"SP_PASGTHelmet_Tan1","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_HMNVS"}};
+        uniformClass = "CFP_U_FieldUniform_acr_desert";
+        randomGearProbability = 100;
+        uniformList[] = {
+            "CFP_U_FieldUniform_acr_desert", 0.6,
+            "CFP_U_FieldUniform_acr_desert_SS", 0.4
+        };
+        headgearList[] = {
+            "SP_MichHelmet_Black2",0.5,
+            "SP_MichHelmet_Tan2",0.5
+        };
+        backpackList[] = {
+            "B_Kitbag_cbr",0.5,
+            "B_Carryall_cbr",0.4,
+            "B_AssaultPack_cbr",0.3
+        };
+        nvgList[] = {
+            "", 0.3,
+            "CUP_NVG_HMNVS", 0.7
+        };
+        facewearList[] = {
+            "SP_Kneepads_Tan2", 0.7,
+            "CUP_TK_NeckScarf", 0.3,
+            "CUP_FR_NeckScarf2", 0.3,
+            "SP_Balaclava_Tan", 0.5
+        };
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A3_desert_Aim_Flashlight","","CUP_acc_Flashlight_desert","CUP_optic_CompM2_Desert",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Phantom_Flashlight","","CUP_acc_CZ_M3X","",{},{},""},{"CFP_U_BattleDressUniform_acr_desert",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"SP_PlateCarrier1_Tan",{{"CUP_30Rnd_556x45_Stanag",5,30},{"CUP_HandGrenade_M67",1,1},{"B_IR_Grenade",1,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1},{"CUP_15Rnd_9x19_M9",8,15}}},{},"SP_PASGTHelmet_Tan1","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -710,7 +836,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -730,9 +856,27 @@ class CfgVehicles {
         editorSubCategory = "EdSubcat_Personnel_SpecialForces";
 
         identityTypes[] = {"Head_NATO","CUP_D_Language_CZ_ACR","G_NATO_default"};
-        uniformClass = "CFP_U_FieldUniform_atacs_au";
-
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_CZ805B_GL_ACOG_Laser","","CUP_acc_ANPEQ_15","CUP_optic_ACOG",{"CUP_20Rnd_762x51_CZ805B",20},{"CUP_1Rnd_HEDP_M203",1},""},{},{"CUP_hgun_Duty_M3X","","CUP_acc_CZ_M3X","",{},{},""},{"CFP_U_FieldUniform_atacs_au",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_CZ805B",1,20},{"B_IR_Grenade",1,1}}},{"PlateCarrier1_ATacsAU",{{"CUP_20Rnd_762x51_CZ805B",5,20},{"CUP_HandGrenade_M67",1,1},{"SmokeShellRed",1,1},{"SmokeShellGreen",1,1},{"CUP_1Rnd_HEDP_M203",3,1},{"CUP_15Rnd_9x19_M9",4,15}}},{"B_Carryall_cbr",{{"CUP_30Rnd_556x45_Stanag",4,30},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},"SP_PASGTHelmet_Tan1","",{"CUP_LRTV","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_HMNVS"}};
+        uniformClass = "CFP_U_FieldUniform_acr_desert";
+        randomGearProbability = 100;
+        uniformList[] = {
+            "CFP_U_FieldUniform_acr_desert", 0.6,
+            "CFP_U_FieldUniform_acr_desert_SS", 0.4
+        };
+        headgearList[] = {
+            "SP_MichHelmet_Black2",0.5,
+            "SP_MichHelmet_Tan2",0.5
+        };
+        nvgList[] = {
+            "", 0.3,
+            "CUP_NVG_HMNVS", 0.7
+        };
+        facewearList[] = {
+            "SP_Kneepads_Tan2", 0.7,
+            "CUP_TK_NeckScarf", 0.3,
+            "CUP_FR_NeckScarf2", 0.3,
+            "SP_Balaclava_Tan", 0.5
+        };
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_CZ805B_GL_ACOG_Laser","","CUP_acc_ANPEQ_15","CUP_optic_ACOG",{"CUP_20Rnd_762x51_CZ805B",20},{"CUP_1Rnd_HEDP_M203",1},""},{},{"CUP_hgun_Duty_M3X","","CUP_acc_CZ_M3X","",{},{},""},{"CFP_U_BattleDressUniform_acr_desert",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_CZ805B",1,20},{"B_IR_Grenade",1,1}}},{"PlateCarrier1_ATacsAU",{{"CUP_20Rnd_762x51_CZ805B",5,20},{"CUP_HandGrenade_M67",1,1},{"SmokeShellRed",1,1},{"SmokeShellGreen",1,1},{"CUP_1Rnd_HEDP_M203",3,1},{"CUP_15Rnd_9x19_M9",4,15}}},{"B_Carryall_cbr",{{"CUP_30Rnd_556x45_Stanag",4,30},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},"SP_PASGTHelmet_Tan1","",{"CUP_LRTV","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -740,7 +884,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -760,9 +904,32 @@ class CfgVehicles {
         editorSubCategory = "EdSubcat_Personnel_SpecialForces";
 
         identityTypes[] = {"Head_NATO","CUP_D_Language_CZ_ACR","G_NATO_default"};
-        uniformClass = "CFP_U_FieldUniform_atacs_au";
-
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_CZ805B_GL_ACOG_Laser","","CUP_acc_ANPEQ_15","CUP_optic_ACOG",{"CUP_20Rnd_762x51_CZ805B",20},{"CUP_1Rnd_HEDP_M203",1},""},{},{"CUP_hgun_Duty_M3X","","CUP_acc_CZ_M3X","",{},{},""},{"CFP_U_FieldUniform_atacs_au",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_CZ805B",1,20},{"B_IR_Grenade",1,1}}},{"PlateCarrier1_ATacsAU",{{"CUP_20Rnd_762x51_CZ805B",5,20},{"CUP_HandGrenade_M67",2,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1},{"CUP_1Rnd_HEDP_M203",4,1},{"CUP_15Rnd_9x19_M9",3,15}}},{"B_Carryall_cbr",{{"CUP_30Rnd_556x45_Stanag",4,30},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},"SP_PASGTHelmet_Tan2","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_HMNVS"}};
+        uniformClass = "CFP_U_FieldUniform_acr_desert";
+        randomGearProbability = 100;
+        uniformList[] = {
+            "CFP_U_FieldUniform_acr_desert", 0.6,
+            "CFP_U_FieldUniform_acr_desert_SS", 0.4
+        };
+        headgearList[] = {
+            "SP_MichHelmet_Black2",0.5,
+            "SP_MichHelmet_Tan2",0.5
+        };
+        nvgList[] = {
+            "", 0.3,
+            "CUP_NVG_HMNVS", 0.7
+        };
+        facewearList[] = {
+            "SP_Kneepads_Tan2", 0.7,
+            "CUP_TK_NeckScarf", 0.3,
+            "CUP_FR_NeckScarf2", 0.3,
+            "SP_Balaclava_Tan", 0.5
+        };
+        backpackList[] = {
+            "B_Kitbag_cbr",0.5,
+            "B_Carryall_cbr",0.4,
+            "B_AssaultPack_cbr",0.3
+        };
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_CZ805B_GL_ACOG_Laser","","CUP_acc_ANPEQ_15","CUP_optic_ACOG",{"CUP_20Rnd_762x51_CZ805B",20},{"CUP_1Rnd_HEDP_M203",1},""},{},{"CUP_hgun_Duty_M3X","","CUP_acc_CZ_M3X","",{},{},""},{"CFP_U_BattleDressUniform_acr_desert",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_CZ805B",1,20},{"B_IR_Grenade",1,1}}},{"PlateCarrier1_ATacsAU",{{"CUP_20Rnd_762x51_CZ805B",5,20},{"CUP_HandGrenade_M67",2,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1},{"CUP_1Rnd_HEDP_M203",4,1},{"CUP_15Rnd_9x19_M9",3,15}}},{"B_Carryall_cbr",{{"CUP_30Rnd_556x45_Stanag",4,30},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},"SP_PASGTHelmet_Tan2","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -770,7 +937,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
