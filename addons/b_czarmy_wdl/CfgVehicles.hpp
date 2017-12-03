@@ -1386,7 +1386,7 @@ class CfgVehicles {
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Marksman (CUP_srifle_SVD_pso)";
+        displayName = "Marksman";
         side = 1;
         faction = "CFP_B_CZARMY_WDL";
 
@@ -1425,8 +1425,10 @@ class CfgVehicles {
         uniformClass = "CFP_U_FieldUniform_edrl";
         randomGearProbability = 100;
         headgearList[] = {
-            "SP_MichHelmet_Black2",0.5,
-            "SP_MichHelmet_Green2",0.5
+            "CUP_H_USArmy_Helmet_ECH2_Black",0.5,
+            "CUP_H_USArmy_Helmet_ECH1_Black",0.5,
+            "CUP_H_USArmy_Helmet_ECH2_Green",0.5,
+            "CUP_H_USArmy_Helmet_ECH1_Green",0.5
         };
         backpackList[] = {
             "B_Kitbag_rgr",0.5,
@@ -1475,8 +1477,10 @@ class CfgVehicles {
 
          randomGearProbability = 100;
         headgearList[] = {
-            "SP_MichHelmet_Black2",0.5,
-            "SP_MichHelmet_Green2",0.5
+            "CUP_H_USArmy_Helmet_ECH2_Black",0.5,
+            "CUP_H_USArmy_Helmet_ECH1_Black",0.5,
+            "CUP_H_USArmy_Helmet_ECH2_Green",0.5,
+            "CUP_H_USArmy_Helmet_ECH1_Green",0.5
         };
 
         nvgList[] = {
@@ -1521,8 +1525,10 @@ class CfgVehicles {
 
          randomGearProbability = 100;
         headgearList[] = {
-            "SP_MichHelmet_Black2",0.5,
-            "SP_MichHelmet_Green2",0.5
+            "CUP_H_USArmy_Helmet_ECH2_Black",0.5,
+            "CUP_H_USArmy_Helmet_ECH1_Black",0.5,
+            "CUP_H_USArmy_Helmet_ECH2_Green",0.5,
+            "CUP_H_USArmy_Helmet_ECH1_Green",0.5
         };
 
 
@@ -1569,8 +1575,10 @@ class CfgVehicles {
 
          randomGearProbability = 100;
         headgearList[] = {
-            "SP_MichHelmet_Black2",0.5,
-            "SP_MichHelmet_Green2",0.5
+            "CUP_H_USArmy_Helmet_ECH2_Black",0.5,
+            "CUP_H_USArmy_Helmet_ECH1_Black",0.5,
+            "CUP_H_USArmy_Helmet_ECH2_Green",0.5,
+            "CUP_H_USArmy_Helmet_ECH1_Green",0.5
         };
 
         nvgList[] = {
@@ -1615,8 +1623,10 @@ class CfgVehicles {
 
          randomGearProbability = 100;
         headgearList[] = {
-            "SP_MichHelmet_Black2",0.5,
-            "SP_MichHelmet_Green2",0.5
+            "CUP_H_USArmy_Helmet_ECH2_Black",0.5,
+            "CUP_H_USArmy_Helmet_ECH1_Black",0.5,
+            "CUP_H_USArmy_Helmet_ECH2_Green",0.5,
+            "CUP_H_USArmy_Helmet_ECH1_Green",0.5
         };
         backpackList[] = {
             "B_Kitbag_rgr",0.5,
@@ -1662,8 +1672,10 @@ class CfgVehicles {
 
          randomGearProbability = 100;
         headgearList[] = {
-            "SP_MichHelmet_Black2",0.5,
-            "SP_MichHelmet_Green2",0.5
+            "CUP_H_USArmy_Helmet_ECH2_Black",0.5,
+            "CUP_H_USArmy_Helmet_ECH1_Black",0.5,
+            "CUP_H_USArmy_Helmet_ECH2_Green",0.5,
+            "CUP_H_USArmy_Helmet_ECH1_Green",0.5
         };
         backpackList[] = {
             "B_Kitbag_rgr",0.5,
