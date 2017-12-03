@@ -700,6 +700,19 @@
 		};
 	};
 
+	class CFP_U_FieldUniform_acr_desert_SS : SP_0000_Standard_FieldUniform_NodUrban_SS
+	{
+		displayName = "Field Uniform SS (ACR Desert)";
+		author = "AccuracyThruVolume";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_FieldUniform_acr_desert_SS";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+
 	ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Tiger Stripe 2)",tigerstripe2,"AccuracyThruVolume")
 	ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (OCP)",scorpion_w2,"AccuracyThruVolume")
 	ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Flora Arid)",flora_arid,"AccuracyThruVolume")
