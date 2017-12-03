@@ -23,6 +23,44 @@ class CfgVehicles {
         faction = "CUP_B_CZ";
         crew = "CUP_B_CZ_Soldier_805_DES";
     };
+
+    class CUP_B_BMP_HQ_CZ;
+    class CUP_B_BMP_HQ_CZ_DES : CUP_B_BMP_HQ_CZ {
+        faction = "CUP_B_CZ";
+        crew = "CUP_B_CZ_Crew_DES";
+    };
+
+    class CUP_B_BMP2_CZ;
+    class CUP_B_BMP2_CZ_DES : CUP_B_BMP2_CZ {
+        faction = "CUP_B_CZ";
+        crew = "CUP_B_CZ_Crew_DES";
+    };
+
+    class CUP_B_BMP2_AMB_CZ;
+    class CUP_B_BMP2_AMB_CZ_Des : CUP_B_BMP2_AMB_CZ {
+        faction = "CUP_B_CZ";
+        crew = "CUP_B_CZ_Crew_DES";
+    };
+
+    class CUP_RBS70_Base;
+    class CUP_B_RBS70_ACR : CUP_RBS70_Base {
+        crew = "CUP_B_CZ_Soldier_805_DES";
+    };
+
+    class CUP_DSHKM_base;
+    class CUP_B_DSHKM_ACR : CUP_DSHKM_base {
+        crew = "CUP_B_CZ_Soldier_805_DES";
+    };
+
+    class CUP_2b14_82mm_Base;
+    class CUP_B_2b14_82mm_ACR : CUP_2b14_82mm_Base {
+        crew = "CUP_B_CZ_Soldier_805_DES";
+    };
+
+    class CUP_AGS_Base;
+    class CUP_B_AGS_ACR : CUP_AGS_Base {
+        crew = "CUP_B_CZ_Soldier_805_DES";
+    };
 // BASE MEN
     class CUP_B_CZ_Soldier_base;
     class CUP_B_CZ_Soldier_base_OCimport_01 : CUP_B_CZ_Soldier_base { scope = 0; class EventHandlers; };
@@ -622,7 +660,7 @@ class CfgVehicles {
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Marksman (CUP_srifle_SVD_pso)";
+        displayName = "Marksman";
         side = 1;
         faction = "CUP_B_CZ";
 
@@ -645,8 +683,6 @@ class CfgVehicles {
 
     };
 
-
-
 // SPECOPS
     class CUP_B_CZ_SpecOps_Exp_DES : CUP_B_CZ_Soldier_base_OCimport_02 {
         author = "Tupolov";
@@ -664,8 +700,11 @@ class CfgVehicles {
             "CFP_U_FieldUniform_acr_desert_SS", 0.4
         };
         headgearList[] = {
-            "SP_MichHelmet_Black2",0.5,
-            "SP_MichHelmet_Tan2",0.5
+            "CUP_H_USArmy_Helmet_ECH2_Black",0.5,
+            "CUP_H_USArmy_Helmet_ECH1_Black",0.5,
+            "CUP_H_USArmy_Helmet_ECH2_Sand",0.5,
+            "CUP_H_USArmy_Helmet_ECH1_Sand",0.5,
+            "CUP_H_FR_ECH",0.5
         };
         nvgList[] = {
             "", 0.3,
@@ -716,8 +755,11 @@ class CfgVehicles {
             "CFP_U_FieldUniform_acr_desert_SS", 0.4
         };
         headgearList[] = {
-            "SP_MichHelmet_Black2",0.5,
-            "SP_MichHelmet_Tan2",0.5
+            "CUP_H_USArmy_Helmet_ECH2_Black",0.5,
+            "CUP_H_USArmy_Helmet_ECH1_Black",0.5,
+            "CUP_H_USArmy_Helmet_ECH2_Sand",0.5,
+            "CUP_H_USArmy_Helmet_ECH1_Sand",0.5,
+            "CUP_H_FR_ECH",0.5
         };
         nvgList[] = {
             "", 0.3,
@@ -763,8 +805,11 @@ class CfgVehicles {
             "CFP_U_FieldUniform_acr_desert_SS", 0.4
         };
         headgearList[] = {
-            "SP_MichHelmet_Black2",0.5,
-            "SP_MichHelmet_Tan2",0.5
+            "CUP_H_USArmy_Helmet_ECH2_Black",0.5,
+            "CUP_H_USArmy_Helmet_ECH1_Black",0.5,
+            "CUP_H_USArmy_Helmet_ECH2_Sand",0.5,
+            "CUP_H_USArmy_Helmet_ECH1_Sand",0.5,
+            "CUP_H_FR_ECH",0.5
         };
         nvgList[] = {
             "", 0.3,
@@ -810,8 +855,11 @@ class CfgVehicles {
             "CFP_U_FieldUniform_acr_desert_SS", 0.4
         };
         headgearList[] = {
-            "SP_MichHelmet_Black2",0.5,
-            "SP_MichHelmet_Tan2",0.5
+            "CUP_H_USArmy_Helmet_ECH2_Black",0.5,
+            "CUP_H_USArmy_Helmet_ECH1_Black",0.5,
+            "CUP_H_USArmy_Helmet_ECH2_Sand",0.5,
+            "CUP_H_USArmy_Helmet_ECH1_Sand",0.5,
+            "CUP_H_FR_ECH",0.5
         };
         backpackList[] = {
             "B_Kitbag_cbr",0.5,
@@ -863,8 +911,11 @@ class CfgVehicles {
             "CFP_U_FieldUniform_acr_desert_SS", 0.4
         };
         headgearList[] = {
-            "SP_MichHelmet_Black2",0.5,
-            "SP_MichHelmet_Tan2",0.5
+            "CUP_H_USArmy_Helmet_ECH2_Black",0.5,
+            "CUP_H_USArmy_Helmet_ECH1_Black",0.5,
+            "CUP_H_USArmy_Helmet_ECH2_Sand",0.5,
+            "CUP_H_USArmy_Helmet_ECH1_Sand",0.5,
+            "CUP_H_FR_ECH",0.5
         };
         nvgList[] = {
             "", 0.3,
@@ -911,8 +962,11 @@ class CfgVehicles {
             "CFP_U_FieldUniform_acr_desert_SS", 0.4
         };
         headgearList[] = {
-            "SP_MichHelmet_Black2",0.5,
-            "SP_MichHelmet_Tan2",0.5
+            "CUP_H_USArmy_Helmet_ECH2_Black",0.5,
+            "CUP_H_USArmy_Helmet_ECH1_Black",0.5,
+            "CUP_H_USArmy_Helmet_ECH2_Sand",0.5,
+            "CUP_H_USArmy_Helmet_ECH1_Sand",0.5,
+            "CUP_H_FR_ECH",0.5
         };
         nvgList[] = {
             "", 0.3,
