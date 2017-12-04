@@ -58,7 +58,7 @@ if sys.platform == "win32":
 
 ######## GLOBALS #########
 project = "@cfp"
-project_version = "0.0.1"
+project_version = "0.2.0"
 arma3tools_path = ""
 work_drive = ""
 module_root = ""
@@ -792,7 +792,7 @@ def version_stamp_pboprefix(module,commitID):
 
 def main(argv):
     """Build an Arma addon suite in a directory from rules in a make.cfg file."""
-    print_blue("\nmake.py for Arma, modified for Advanced Combat Environment v{}".format(__version__))
+    print_blue("\nmake.py for Arma, modified for Community Factions Project v{}".format(__version__))
 
     global project_version
     global arma3tools_path
