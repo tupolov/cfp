@@ -37,10 +37,10 @@ class CfgPatches {
             "CFP_O_RUMVD_Ka_50_Black_Shark_01",
             "CFP_O_RUMVD_GAZ_Vodnik_AGS_30_PKM_01",
             "CFP_O_RUMVD_GAZ_Vodnik_Medical_01",
-            "CFP_O_RUMVD_GAZ_Vodnik_BPPU_01"
+            "CFP_O_RUMVD_GAZ_Vodnik_BPPU_01",
+            "CUP_O_MVD_SpecOps_Soldier"
         };
         weapons[] = {};
-        requiredVersion = 1.62;
         requiredAddons[] = {
             "CUP_AirVehicles_Mi8",
             "CUP_WheeledVehicles_UAZ",
@@ -61,7 +61,9 @@ class CfgPatches {
             "CUP_WheeledVehicles_Vodnik",
             "CUP_AirVehicles_Ka50"
         };
-        author = "Tupolov";
-        authors[] = {"Tupolov"};
+        author = MODULE_AUTHOR;
+        authors[] = {"CUP", "Tupolov"};
+        requiredVersion = REQUIRED_VERSION;
+        VERSION_CONFIG;
     };
 };
