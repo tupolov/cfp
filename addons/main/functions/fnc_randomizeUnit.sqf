@@ -34,7 +34,7 @@ nil
 
 params ["_unit"];
 
-if ( _unit getVariable ["NoRandom",false] ) exitWith {hint "NO RANDOM!"};
+if ( _unit getVariable ["NoRandom",false] ) exitWith {};
 
 if (local _unit) then {
 
