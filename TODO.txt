@@ -20,3 +20,6 @@ TO DO
 26. Add group icons to ISC factions
 28. Add CfgPatches macros
 30. Template factions
+31. NoLoadout code
+32. UI/Preview macros
+33. ALiVEOrbat loadout out macros

@@ -733,6 +733,7 @@ class CfgVehicles {
 
 // Vehicles
     class CFP_O_RUARMY_Mi_8AMT_VIV_DES_01 : CUP_O_Mi8_VIV_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Mi_8AMT_VIV_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -760,6 +761,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_UAZ_DShKM_DES_01 : CUP_O_UAZ_MG_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_UAZ_DShKM_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -790,6 +792,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_UAZ_AGS_30_DES_01 : CUP_O_UAZ_AGS30_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_UAZ_AGS_30_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -820,6 +823,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_UAZ_SPG_DES_01 : CUP_O_UAZ_SPG9_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_UAZ_SPG_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -849,6 +853,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_UAZ_Metis_DES_01 : CUP_O_UAZ_METIS_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_UAZ_Metis_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -879,6 +884,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_UAZ_Open_DES_01 : CUP_O_UAZ_Open_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_UAZ_Open_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -912,6 +918,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_UAZ_DES_01 : CUP_O_UAZ_Unarmed_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_UAZ_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -936,6 +943,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_BM_21_DES_01 : CUP_O_BM21_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_BM_21_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -965,6 +973,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Su_25T_Frogfoot_DES_01 : CUP_O_Su25_Dyn_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Su_25T_Frogfoot_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -990,6 +999,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_ZU_23_DES_01 : CUP_O_ZU23_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_ZU_23_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1019,6 +1029,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_KORD_Minitripod_DES_01 : CUP_O_KORD_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_KORD_Minitripod_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1048,6 +1059,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_KORD_DES_01 : CUP_O_KORD_high_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_KORD_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1077,6 +1089,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_AGS_30_DES_01 : CUP_O_AGS_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_AGS_30_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1106,6 +1119,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Metis_AT_13_DES_01 : CUP_O_Metis_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Metis_AT_13_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1135,6 +1149,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Podnos_2B14_DES_01 : CUP_O_2b14_82mm_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Podnos_2B14_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1164,6 +1179,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_D30_DES_01 : CUP_O_D30_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_D30_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1193,6 +1209,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_D30_AT_DES_01 : CUP_O_D30_AT_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_D30_AT_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1222,6 +1239,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Pchela_1T_DES_01 : CUP_O_Pchela1T_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Pchela_1T_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1251,12 +1269,14 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_PBX_DES_01 : CUP_O_PBX_RU {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_PBX_DES_01.JPG";
         author = "Tupolov";
         faction = "CFP_O_RUARMY_DES";
         crew = "CFP_O_RUARMY_Rifleman_DES_02";
     };
 
     class CFP_O_RUARMY_Ural_ZU_23_DES_01 : CUP_O_Ural_ZU23_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Ural_ZU_23_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1287,6 +1307,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Ural_Empty_DES_01 : CUP_O_Ural_Empty_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Ural_Empty_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1312,6 +1333,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Ural_Ammo_DES_01 : CUP_O_Ural_Reammo_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Ural_Ammo_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1337,6 +1359,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Ural_Repair_DES_01 : CUP_O_Ural_Repair_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Ural_Repair_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1362,6 +1385,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Ural_Refuel_DES_01 : CUP_O_Ural_Refuel_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Ural_Refuel_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1387,6 +1411,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Ural_Open_DES_01 : CUP_O_Ural_Open_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Ural_Open_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1418,6 +1443,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Ural_DES_01 : CUP_O_Ural_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Ural_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1449,6 +1475,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_UAZ_Medevac_DES_01 : CUP_O_UAZ_AMB_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_UAZ_Medevac_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1473,6 +1500,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_T72_DES_01 : CUP_O_T72_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_T72_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1508,6 +1536,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_BMP_2Ambulance_DES_01 : CUP_O_BMP2_AMB_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_BMP_2Ambulance_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1540,6 +1569,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_BMP_2HQ_DES_01 : CUP_O_BMP_HQ_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_BMP_2HQ_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1569,6 +1599,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_BMP_2_DES_01 : CUP_O_BMP2_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_BMP_2_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1604,6 +1635,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Su_34_DES_01 : CUP_O_SU34_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Su_34_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1633,6 +1665,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Ka_52_Grey_DES_01 : CUP_O_Ka52_Grey_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Ka_52_Grey_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1662,6 +1695,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Ka_52_Grey_Camo_DES_01 : CUP_O_Ka52_GreyCamo_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Ka_52_Grey_Camo_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1691,6 +1725,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Ka_52_Black_DES_01 : CUP_O_Ka52_Blk_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Ka_52_Black_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1720,6 +1755,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Ka_52_DES_01 : CUP_O_Ka52_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Ka_52_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1749,6 +1785,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Ka_50_Black_Shark_DES_01 : CUP_O_Ka50_DL_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Ka_50_Black_Shark_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1773,6 +1810,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_GAZ_Vodnik_AGS_30_PKM_DES_01 : CUP_O_GAZ_Vodnik_AGS_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_GAZ_Vodnik_AGS_30_PKM_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1803,6 +1841,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_GAZ_Vodnik_Medical_DES_01 : CUP_O_GAZ_Vodnik_MedEvac_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_GAZ_Vodnik_Medical_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1827,6 +1866,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_GAZ_Vodnik_BPPU_DES_01 : CUP_O_GAZ_Vodnik_BPPU_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_GAZ_Vodnik_BPPU_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1856,6 +1896,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_GAZ_Vodnik_2x_PKM_DES_01 : CUP_O_GAZ_Vodnik_PK_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_GAZ_Vodnik_2x_PKM_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1886,6 +1927,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_BTR_90_HQ_DES_01 : CUP_O_BTR90_HQ_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_BTR_90_HQ_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1915,6 +1957,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_BTR_90_DES_01 : CUP_O_BTR90_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_BTR_90_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1952,6 +1995,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_BRDM_2HQ_DES_01 : CUP_O_BRDM2_HQ_RUS_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_BRDM_2HQ_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1981,6 +2025,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_BRDM_2ATGM_DES_01 : CUP_O_BRDM2_ATGM_RUS_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_BRDM_2ATGM_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -2010,6 +2055,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_BRDM_2_DES_01 : CUP_O_BRDM2_RUS_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_BRDM_2_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -2039,6 +2085,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_T90A_DES_01 : CUP_O_T90_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_T90A_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -2068,6 +2115,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_BMP_3_DES_01 : CUP_O_BMP3_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_BMP_3_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -2099,6 +2147,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_2S6M_Tunguska_M_DES_01 : CUP_O_2S6M_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_2S6M_Tunguska_M_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -2128,6 +2177,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_2S6_Tunguska_DES_01 : CUP_O_2S6_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_2S6_Tunguska_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -2157,6 +2207,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Ka_60_Kasatka_Rockets_DES_01 : CUP_O_Ka60_Grey_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Ka_60_Kasatka_Rockets_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -2186,6 +2237,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Mi_24P_DES_01 : CUP_O_Mi24_P_Dynamic_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Mi_24P_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -2215,6 +2267,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Mi_24V_DES_01 : CUP_O_Mi24_V_Dynamic_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Mi_24V_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -2244,6 +2297,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Mi_6A_Hook_VIV_DES_01 : CUP_O_MI6A_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Mi_6A_Hook_VIV_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -2276,6 +2330,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Mi_6T_Hook_DES_01 : CUP_O_MI6T_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Mi_6T_Hook_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -2308,6 +2363,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Mi_8AMT_Medevac_DES_01 : CUP_O_Mi8_medevac_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Mi_8AMT_Medevac_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -2337,6 +2393,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Mi_8MTV3_DES_01 : CUP_O_Mi8_RU_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Mi_8MTV3_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -2416,6 +2473,7 @@ class CfgVehicles {
 
 // People
     class CFP_O_RUARMY_Rifleman_DES_02 : CUP_O_RU_Soldier_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Rifleman_DES_02.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -2481,6 +2539,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Rifleman_Saiga_DES_02 : CUP_O_RU_Soldier_Saiga_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Rifleman_Saiga_DES_02.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -2547,6 +2606,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Grenadier_DES_02 : CUP_O_RU_Soldier_GL_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Grenadier_DES_02.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -2611,6 +2671,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Squad_Leader_DES_02 : CUP_O_RU_Soldier_SL_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Squad_Leader_DES_02.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -2677,6 +2738,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Team_Leader_DES_02 : CUP_O_RU_Soldier_TL_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Team_Leader_DES_02.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -2743,6 +2805,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Machinegunner_DES_02 : CUP_O_RU_Soldier_MG_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Machinegunner_DES_02.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -2809,6 +2872,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Automatic_Rifleman_DES_02 : CUP_O_RU_Soldier_AR_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Automatic_Rifleman_DES_02.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -2875,6 +2939,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Rifleman_RPG_18_DES_02 : CUP_O_RU_Soldier_LAT_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Rifleman_RPG_18_DES_02.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -2941,6 +3006,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Rifleman_RPG_DES_02 : CUP_O_RU_Soldier_AT_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Rifleman_RPG_DES_02.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -3007,6 +3073,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_AT_Specialist_Metis_DES_02 : CUP_O_RU_Soldier_HAT_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_AT_Specialist_Metis_DES_02.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -3073,6 +3140,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_AA_Specialist_DES_02 : CUP_O_RU_Soldier_AA_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_AA_Specialist_DES_02.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -3139,6 +3207,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Sniper_DES_02 : CUP_O_RU_Sniper_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Sniper_DES_02.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -3169,6 +3238,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Sniper_KSVK_DES_02 : CUP_O_RU_Sniper_KSVK_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Sniper_KSVK_DES_02.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -3199,6 +3269,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Spotter_DES_02 : CUP_O_RU_Spotter_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Spotter_DES_02.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -3229,6 +3300,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Marksman_SVD_DES_02 : CUP_O_RU_Soldier_Marksman_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Marksman_SVD_DES_02.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -3295,6 +3367,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Medic_DES_02 : CUP_O_RU_Medic_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Medic_DES_02.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -3361,6 +3434,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Pilot_DES_02 : CUP_O_RU_Pilot_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Pilot_DES_02.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -3391,6 +3465,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Crewman_DES_02 : CUP_O_RU_Crew_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Crewman_DES_02.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -3446,6 +3521,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Engineer_DES_02 : CUP_O_RU_Engineer_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Engineer_DES_02.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -3512,6 +3588,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Explosives_Specialist_DES_02 : CUP_O_RU_Explosive_Specialist_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Explosives_Specialist_DES_02.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -3578,6 +3655,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Soldier_unarmed_DES_02 : CUP_O_RU_Soldier_Light_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Soldier_unarmed_DES_02.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -3608,6 +3686,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Officer_DES_02 : CUP_O_RU_Officer_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Officer_DES_02.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -3665,6 +3744,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Rifleman_DES_04 : CUP_O_RU_Soldier_VDV_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Rifleman_DES_04.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -3731,6 +3811,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Rifleman_Saiga_DES_04 : CUP_O_RU_Soldier_Saiga_VDV_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Rifleman_Saiga_DES_04.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -3797,6 +3878,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Grenadier_DES_04 : CUP_O_RU_Soldier_GL_VDV_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Grenadier_DES_04.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -3863,6 +3945,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Squad_Leader_DES_04 : CUP_O_RU_Soldier_SL_VDV_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Squad_Leader_DES_04.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -3929,6 +4012,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Team_Leader_DES_04 : CUP_O_RU_Soldier_TL_VDV_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Team_Leader_DES_04.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -3995,6 +4079,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Machinegunner_DES_04 : CUP_O_RU_Soldier_MG_VDV_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Machinegunner_DES_04.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -4061,6 +4146,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Automatic_Rifleman_DES_04 : CUP_O_RU_Soldier_AR_VDV_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Automatic_Rifleman_DES_04.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -4127,6 +4213,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Rifleman_RPG_18_DES_04 : CUP_O_RU_Soldier_LAT_VDV_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Rifleman_RPG_18_DES_04.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -4193,6 +4280,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Rifleman_RPG_DES_04 : CUP_O_RU_Soldier_AT_VDV_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Rifleman_RPG_DES_04.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -4259,6 +4347,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_AT_Specialist_Metis_DES_04 : CUP_O_RU_Soldier_HAT_VDV_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_AT_Specialist_Metis_DES_04.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -4325,6 +4414,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_AA_Specialist_DES_04 : CUP_O_RU_Soldier_AA_VDV_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_AA_Specialist_DES_04.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -4391,6 +4481,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Sniper_DES_04 : CUP_O_RU_Sniper_VDV_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Sniper_DES_04.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -4421,6 +4512,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Sniper_KSVK_DES_04 : CUP_O_RU_Sniper_KSVK_VDV_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Sniper_KSVK_DES_04.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -4451,6 +4543,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Spotter_DES_04 : CUP_O_RU_Spotter_VDV_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Spotter_DES_04.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -4481,6 +4574,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Marksman_SVD_DES_04 : CUP_O_RU_Soldier_Marksman_VDV_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Marksman_SVD_DES_04.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -4511,6 +4605,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Medic_DES_04 : CUP_O_RU_Medic_VDV_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Medic_DES_04.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -4577,6 +4672,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Pilot_DES_04 : CUP_O_RU_Pilot_VDV_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Pilot_DES_04.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -4607,6 +4703,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Crewman_DES_04 : CUP_O_RU_Crew_VDV_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Crewman_DES_04.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -4663,6 +4760,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Engineer_DES_04 : CUP_O_RU_Engineer_VDV_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Engineer_DES_04.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -4729,6 +4827,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Explosives_Specialist_DES_04 : CUP_O_RU_Explosive_Specialist_VDV_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Explosives_Specialist_DES_04.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -4795,6 +4894,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Soldier_unarmed_DES_04 : CUP_O_RU_Soldier_Light_VDV_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Soldier_unarmed_DES_04.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -4861,6 +4961,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Officer_DES_04 : CUP_O_RU_Officer_VDV_EMR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Officer_DES_04.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -4923,6 +5024,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Saboteur_DES_02 : CUP_O_RUS_Saboteur_Autumn_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Saboteur_DES_02.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -5014,6 +5116,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Spetsnaz_Marksman_DES_02 : CUP_O_RUS_Soldier_Marksman_Autumn_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Spetsnaz_Marksman_DES_02.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -5094,6 +5197,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Spetsnaz_Officer_DES_02 : CUP_O_RUS_Commander_Autumn_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Spetsnaz_Officer_DES_02.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -5176,6 +5280,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Spetsnaz_Team_Leader_DES_02 : CUP_O_RUS_Soldier_TL_Autumn_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Spetsnaz_Team_Leader_DES_02.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -5259,6 +5364,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Spetsnaz_Assaultman_DES_02 : CUP_O_RUS_Soldier_GL_Autumn_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Spetsnaz_Assaultman_DES_02.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -5340,6 +5446,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Spetsnaz_Scout_Night_DES_02 : CUP_O_RUS_SpecOps_Scout_Night_Autumn_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Spetsnaz_Scout_Night_DES_02.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -5418,6 +5525,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Spetsnaz_Scout_DES_02 : CUP_O_RUS_SpecOps_Scout_Autumn_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Spetsnaz_Scout_DES_02.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -5499,6 +5607,7 @@ class CfgVehicles {
     };
 
     class CFP_O_RUARMY_Spetsnaz_Operator_SD_DES_02 : CUP_O_RUS_SpecOps_SD_Autumn_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Spetsnaz_Operator_SD_DES_02.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
