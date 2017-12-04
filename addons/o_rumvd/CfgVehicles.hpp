@@ -1621,6 +1621,7 @@ class CfgVehicles {
     };
 
     class CUP_O_MVD_SpecOps_Soldier : CUP_O_MVD_Soldier_Base {
+        editorPreview = "\x\cfp\addons\o_rumvd\data\preview\CUP_O_MVD_SpecOps_Soldier.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
