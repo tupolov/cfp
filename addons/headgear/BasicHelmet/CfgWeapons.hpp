@@ -19,7 +19,7 @@ class CFP_Basic_Helmet_Black: ItemCore
 	weaponPoolAvailable = 1;
 	displayName = "Basic Helmet (Black)";
 	picture = "\x\cfp\addons\headgear\BasicHelmet\ui\Black.jpg";
-	model = "\A3\Characters_F_Orange\Headgear\H_PASGT_basic_F.p3d";
+	model = "\x\cfp\addons\headgear\BasicHelmet\H_PASGT_basic_F.p3d";
 	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\cfp_pasgt_black.paa"};
 	hiddenSelections[] = {"Camo"};
 	author = "AccuracyThruVolume";
@@ -27,7 +27,7 @@ class CFP_Basic_Helmet_Black: ItemCore
 	class ItemInfo: HeadgearItem
 	{
 		mass = 60;
-		uniformModel = "\A3\Characters_F_Orange\Headgear\H_PASGT_basic_F.p3d";
+		uniformModel = "\x\cfp\addons\headgear\BasicHelmet\H_PASGT_basic_F.p3d";
 		modelSides[] = {3,1};
 		armor = 10;
 		passThrough = 0.30;
@@ -44,7 +44,7 @@ class CFP_Basic_Helmet_Light_Green: ItemCore
 	weaponPoolAvailable = 1;
 	displayName = "Basic Helmet (Light Green)";
 	picture = "\x\cfp\addons\headgear\BasicHelmet\ui\Green.jpg";
-	model = "\A3\Characters_F_Orange\Headgear\H_PASGT_basic_F.p3d";
+	model = "\x\cfp\addons\headgear\BasicHelmet\H_PASGT_basic_F.p3d";
 	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\cfp_pasgt_light_green.paa"};
 	hiddenSelections[] = {"Camo"};
 	author = "AccuracyThruVolume";
@@ -52,7 +52,7 @@ class CFP_Basic_Helmet_Light_Green: ItemCore
 	class ItemInfo: HeadgearItem
 	{
 		mass = 60;
-		uniformModel = "\A3\Characters_F_Orange\Headgear\H_PASGT_basic_F.p3d";
+		uniformModel = "\x\cfp\addons\headgear\BasicHelmet\H_PASGT_basic_F.p3d";
 		modelSides[] = {3,1};
 		armor = 10;
 		passThrough = 0.30;
@@ -60,7 +60,7 @@ class CFP_Basic_Helmet_Light_Green: ItemCore
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\Green.paa"};
 		hiddenSelections[] = {"Camo"};
 	};
-};        
+};
 
 
 class CFP_Basic_Helmet_Tan: ItemCore
@@ -69,7 +69,7 @@ class CFP_Basic_Helmet_Tan: ItemCore
 	weaponPoolAvailable = 1;
 	displayName = "Basic Helmet (Tan)";
 	picture = "\x\cfp\addons\headgear\BasicHelmet\ui\Tan.jpg";
-	model = "\A3\Characters_F_Orange\Headgear\H_PASGT_basic_F.p3d";
+	model = "\x\cfp\addons\headgear\BasicHelmet\H_PASGT_basic_F.p3d";
 	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\cfp_pasgt_tan.paa"};
 	hiddenSelections[] = {"Camo"};
 	author = "AccuracyThruVolume";
@@ -77,7 +77,7 @@ class CFP_Basic_Helmet_Tan: ItemCore
 	class ItemInfo: HeadgearItem
 	{
 		mass = 60;
-		uniformModel = "\A3\Characters_F_Orange\Headgear\H_PASGT_basic_F.p3d";
+		uniformModel = "\x\cfp\addons\headgear\BasicHelmet\H_PASGT_basic_F.p3d";
 		modelSides[] = {3,1};
 		armor = 10;
 		passThrough = 0.30;
@@ -85,4 +85,4 @@ class CFP_Basic_Helmet_Tan: ItemCore
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\Tan.paa"};
 		hiddenSelections[] = {"Camo"};
 	};
-};        
+};
