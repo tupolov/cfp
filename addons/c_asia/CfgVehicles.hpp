@@ -144,7 +144,7 @@ class CfgVehicles {
 	"CUP_I_B_PMC_Unit_1", 0.2,
 	"CUP_I_B_PMC_Unit_2", 0.2,
 	"CUP_I_B_PMC_Unit_3", 0.2,
-	"CUP_I_B_PMC_Unit_4", 0.2,
+	"CUP_I_B_PMC_Unit_4", 0.2
 		};
 
 	// Asian Headgear
@@ -182,89 +182,89 @@ class CfgVehicles {
     };
 
     class CFP_C_ASIA_Civilian_2_01 : CFP_C_ASIA_Civilian_1_01 {
-        
+
         displayName = "Civilian";
-        
+
         ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_I_C_Soldier_Bandit_4_F",{}},{},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_C_ASIA_Civilian_3_01 : CFP_C_ASIA_Civilian_1_01 {
-        
+
         displayName = "Civilian";
-        
+
         ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_I_C_Soldier_Bandit_4_F",{}},{},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_C_ASIA_Civilian_4_01 : CFP_C_ASIA_Civilian_1_01 {
-        
+
         displayName = "Civilian";
-       
+
 	 ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_I_C_Soldier_Bandit_4_F",{}},{},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_C_ASIA_Civilian_5_01 : CFP_C_ASIA_Civilian_1_01 {
-        
+
         displayName = "Civilian";
-        
+
 	ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_I_C_Soldier_Bandit_4_F",{}},{},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_C_ASIA_Civilian_6_01 : CFP_C_ASIA_Civilian_1_01 {
-        
+
         displayName = "Civilian";
-       
+
 	 ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_I_C_Soldier_Bandit_4_F",{}},{},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_C_ASIA_Civilian_7_01 : CFP_C_ASIA_Civilian_1_01 {
-        
+
         displayName = "Civilian";
-       
+
 	 ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_I_C_Soldier_Bandit_4_F",{}},{},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_C_ASIA_Civilian_8_01 : CFP_C_ASIA_Civilian_1_01 {
-        
+
         displayName = "Civilian";
-        
+
 	ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_I_C_Soldier_Bandit_4_F",{}},{},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_C_ASIA_Civilian_9_01 : CFP_C_ASIA_Civilian_1_01 {
-        
+
         displayName = "Civilian";
-       
+
 	 ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_I_C_Soldier_Bandit_4_F",{}},{},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_C_ASIA_Civilian_10_01 : CFP_C_ASIA_Civilian_1_01 {
-        
+
         displayName = "Civilian";
-        
+
 	ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_I_C_Soldier_Bandit_4_F",{}},{},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_C_ASIA_Civilian_11_01 : CFP_C_ASIA_Civilian_1_01 {
-        
+
         displayName = "Civilian";
-        
+
 	ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_I_C_Soldier_Bandit_4_F",{}},{},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_C_ASIA_Civilian_12_01 : CFP_C_ASIA_Civilian_1_01 {
-        
+
         displayName = "Civilian";
-        
+
 	ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_I_C_Soldier_Bandit_4_F",{}},{},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };

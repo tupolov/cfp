@@ -1612,7 +1612,7 @@ class CfgVehicles {
                 "CUP_H_USMC_MICH2000_COMM_DES",0.5,
                 "CUP_H_USMC_MICH2000_DEF_DES",0.5,
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
-                "CUP_H_USMC_LWH_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5
             };
 
             facewearList[] = {
@@ -1665,7 +1665,7 @@ class CfgVehicles {
                 "CUP_H_USMC_MICH2000_COMM_DES",0.5,
                 "CUP_H_USMC_MICH2000_DEF_DES",0.5,
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
-                "CUP_H_USMC_LWH_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5
             };
 
             facewearList[] = {
@@ -1720,7 +1720,7 @@ class CfgVehicles {
                 "CUP_H_USMC_MICH2000_COMM_DES",0.5,
                 "CUP_H_USMC_MICH2000_DEF_DES",0.5,
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
-                "CUP_H_USMC_LWH_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5
             };
 
             facewearList[] = {
@@ -1775,7 +1775,7 @@ class CfgVehicles {
                 "CUP_H_USMC_MICH2000_COMM_DES",0.5,
                 "CUP_H_USMC_MICH2000_DEF_DES",0.5,
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
-                "CUP_H_USMC_LWH_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5
             };
 
             facewearList[] = {
@@ -1830,7 +1830,7 @@ class CfgVehicles {
                 "CUP_H_USMC_MICH2000_COMM_DES",0.5,
                 "CUP_H_USMC_MICH2000_DEF_DES",0.5,
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
-                "CUP_H_USMC_LWH_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5
             };
 
             facewearList[] = {
@@ -1885,7 +1885,7 @@ class CfgVehicles {
                 "CUP_H_USMC_MICH2000_COMM_DES",0.5,
                 "CUP_H_USMC_MICH2000_DEF_DES",0.5,
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
-                "CUP_H_USMC_LWH_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5
             };
 
             facewearList[] = {
@@ -1940,7 +1940,7 @@ class CfgVehicles {
                 "CUP_H_USMC_MICH2000_COMM_DES",0.5,
                 "CUP_H_USMC_MICH2000_DEF_DES",0.5,
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
-                "CUP_H_USMC_LWH_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5
             };
 
             facewearList[] = {
@@ -1995,7 +1995,7 @@ class CfgVehicles {
                 "CUP_H_USMC_MICH2000_COMM_DES",0.5,
                 "CUP_H_USMC_MICH2000_DEF_DES",0.5,
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
-                "CUP_H_USMC_LWH_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5
             };
 
             facewearList[] = {
@@ -2050,7 +2050,7 @@ class CfgVehicles {
                 "CUP_H_USMC_MICH2000_COMM_DES",0.5,
                 "CUP_H_USMC_MICH2000_DEF_DES",0.5,
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
-                "CUP_H_USMC_LWH_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5
             };
 
             facewearList[] = {
@@ -2105,7 +2105,7 @@ class CfgVehicles {
                 "CUP_H_USMC_MICH2000_COMM_DES",0.5,
                 "CUP_H_USMC_MICH2000_DEF_DES",0.5,
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
-                "CUP_H_USMC_LWH_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5
             };
 
             facewearList[] = {
@@ -2160,7 +2160,7 @@ class CfgVehicles {
                 "CUP_H_USMC_MICH2000_COMM_DES",0.5,
                 "CUP_H_USMC_MICH2000_DEF_DES",0.5,
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
-                "CUP_H_USMC_LWH_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5
             };
 
             facewearList[] = {
@@ -2215,7 +2215,7 @@ class CfgVehicles {
                 "CUP_H_USMC_MICH2000_COMM_DES",0.5,
                 "CUP_H_USMC_MICH2000_DEF_DES",0.5,
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
-                "CUP_H_USMC_LWH_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5
             };
 
             facewearList[] = {
@@ -2270,7 +2270,7 @@ class CfgVehicles {
                 "CUP_H_USMC_MICH2000_COMM_DES",0.5,
                 "CUP_H_USMC_MICH2000_DEF_DES",0.5,
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
-                "CUP_H_USMC_LWH_DES",0.5,
+                "CUP_H_USMC_LWH_DES",0.5
             };
 
             facewearList[] = {
