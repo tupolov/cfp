@@ -177,15 +177,6 @@ class CfgVehicles {
         };
 
         class CUP_O_PBX_RU;
-        class CUP_O_PBX_RU_OCimport_01 : CUP_O_PBX_RU { scope = 0; class EventHandlers; class Turrets; };
-        class CUP_O_PBX_RU_OCimport_02 : CUP_O_PBX_RU_OCimport_01 {
-            class EventHandlers;
-            class Turrets : Turrets {
-                class CargoTurret_01;
-                class CargoTurret_02;
-                class CargoTurret_03;
-            };
-        };
 
         class CUP_O_Ural_ZU23_RU;
         class CUP_O_Ural_ZU23_RU_OCimport_01 : CUP_O_Ural_ZU23_RU { scope = 0; class EventHandlers; class Turrets; };
@@ -1259,35 +1250,10 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_RUARMY_PBX_DES_01 : CUP_O_PBX_RU_OCimport_02 {
+    class CFP_O_RUARMY_PBX_DES_01 : CUP_O_PBX_RU {
         author = "Tupolov";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "PBX";
-        side = 0;
         faction = "CFP_O_RUARMY_DES";
         crew = "CFP_O_RUARMY_Rifleman_DES_02";
-
-        class Turrets : Turrets {
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
     class CFP_O_RUARMY_Ural_ZU_23_DES_01 : CUP_O_Ural_ZU23_RU_OCimport_02 {
