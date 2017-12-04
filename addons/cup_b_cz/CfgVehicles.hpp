@@ -12,6 +12,7 @@ class CfgVehicles {
 // OVERRIDES
     class CUP_B_Dingo_CZ_Wdl;
     class CUP_B_Dingo_CZ_DES : CUP_B_Dingo_CZ_Wdl {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_Dingo_CZ_DES.JPG";
         displayName = "Dingo 2 (MG) (Desert)";
         faction = "CUP_B_CZ";
         crew = "CUP_B_CZ_Soldier_805_DES";
@@ -19,6 +20,7 @@ class CfgVehicles {
 
     class CUP_B_Dingo_GL_CZ_Wdl;
     class CUP_B_Dingo_GL_CZ_DES : CUP_B_Dingo_GL_CZ_Wdl {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_Dingo_GL_CZ_DES.JPG";
         displayName = "Dingo 2 (GL) (Desert)";
         faction = "CUP_B_CZ";
         crew = "CUP_B_CZ_Soldier_805_DES";
@@ -26,39 +28,46 @@ class CfgVehicles {
 
     class CUP_B_BMP_HQ_CZ;
     class CUP_B_BMP_HQ_CZ_DES : CUP_B_BMP_HQ_CZ {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_BMP_HQ_CZ_DES.JPG";
         faction = "CUP_B_CZ";
         crew = "CUP_B_CZ_Crew_DES";
     };
 
     class CUP_B_BMP2_CZ;
     class CUP_B_BMP2_CZ_DES : CUP_B_BMP2_CZ {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_BMP2_CZ_DES.JPG";
         faction = "CUP_B_CZ";
         crew = "CUP_B_CZ_Crew_DES";
     };
 
     class CUP_B_BMP2_AMB_CZ;
     class CUP_B_BMP2_AMB_CZ_Des : CUP_B_BMP2_AMB_CZ {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_BMP2_AMB_CZ_Des.JPG";
         faction = "CUP_B_CZ";
         crew = "CUP_B_CZ_Crew_DES";
     };
 
     class CUP_RBS70_Base;
     class CUP_B_RBS70_ACR : CUP_RBS70_Base {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_RBS70_ACR.JPG";
         crew = "CUP_B_CZ_Soldier_805_DES";
     };
 
     class CUP_DSHKM_base;
     class CUP_B_DSHKM_ACR : CUP_DSHKM_base {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_DSHKM_ACR.JPG";
         crew = "CUP_B_CZ_Soldier_805_DES";
     };
 
     class CUP_2b14_82mm_Base;
     class CUP_B_2b14_82mm_ACR : CUP_2b14_82mm_Base {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_2b14_82mm_ACR.JPG";
         crew = "CUP_B_CZ_Soldier_805_DES";
     };
 
     class CUP_AGS_Base;
     class CUP_B_AGS_ACR : CUP_AGS_Base {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_AGS_ACR.JPG";
         crew = "CUP_B_CZ_Soldier_805_DES";
     };
 // BASE MEN
@@ -77,8 +86,7 @@ class CfgVehicles {
         };
         vestList[] = {
             "SP_PlateCarrier1_Tan",0.5,
-            "PlateCarrier1_ATacsAU", 0.4,
-            "V_Chestrig_khk",0.3
+            "PlateCarrier1_ATacsAU", 0.4
         };
         backpackList[] = {
             "", 0.5,
@@ -95,6 +103,7 @@ class CfgVehicles {
 
 // MEN
     class CUP_B_CZ_Soldier_SL_DES : CUP_B_CZ_Soldier_base_OCimport_02 {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_CZ_Soldier_SL_DES.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -124,6 +133,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_Soldier_DES : CUP_B_CZ_Soldier_base_OCimport_02 {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_CZ_Soldier_DES.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -153,6 +163,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_Soldier_Backpack_DES : CUP_B_CZ_Soldier_DES {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_CZ_Soldier_Backpack_DES.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -185,6 +196,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_Medic_DES : CUP_B_CZ_Soldier_DES {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_CZ_Medic_DES.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -218,6 +230,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_Soldier_AMG_DES : CUP_B_CZ_Soldier_DES {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_CZ_Soldier_AMG_DES.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -251,6 +264,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_Soldier_AT_DES : CUP_B_CZ_Soldier_base_OCimport_02 {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_CZ_Soldier_AT_DES.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -280,6 +294,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_Soldier_MG_DES : CUP_B_CZ_Soldier_base_OCimport_02 {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_CZ_Soldier_MG_DES.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -309,6 +324,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_Soldier_AR_DES : CUP_B_CZ_Soldier_MG_DES {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_CZ_Soldier_AR_DES.JPG";
 
         displayName = "Automatic Rifleman";
         identityTypes[] = {"Head_NATO","CUP_D_Language_CZ_ACR","G_NATO_default"};
@@ -337,6 +353,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_Officer_DES : CUP_B_CZ_Soldier_base_OCimport_02 {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_CZ_Officer_DES.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -366,6 +383,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_Soldier_Light_DES : CUP_B_CZ_Soldier_base_OCimport_02 {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_CZ_Soldier_Light_DES.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -393,6 +411,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_Pilot : CUP_B_CZ_Soldier_base_OCimport_02 {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_CZ_Pilot.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -422,6 +441,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_Sniper : CUP_B_CZ_Soldier_base_OCimport_02 {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_CZ_Sniper.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -449,6 +469,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_Soldier_805_DES : CUP_B_CZ_Soldier_DES {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_CZ_Soldier_805_DES.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -478,6 +499,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_Soldier_805_GL_DES : CUP_B_CZ_Soldier_base_OCimport_02 {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_CZ_Soldier_805_GL_DES.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -507,6 +529,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_Crew_DES : CUP_B_CZ_Soldier_base_OCimport_02 {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_CZ_Crew_DES.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -536,6 +559,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_Soldier_RPG_DES : CUP_B_CZ_Soldier_base_OCimport_02 {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_CZ_Soldier_RPG_DES.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -565,6 +589,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_Engineer_DES : CUP_B_CZ_Soldier_base_OCimport_02 {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_CZ_Engineer_DES.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -600,6 +625,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_Spotter : CUP_B_CZ_Sniper {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_CZ_Spotter.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -628,6 +654,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_Soldier_ARPG_DES : CUP_B_CZ_Soldier_base_OCimport_02 {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_CZ_Soldier_ARPG_DES.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -657,6 +684,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_Soldier_Marksman_DES : CUP_B_CZ_Soldier_base_OCimport_02 {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_CZ_Soldier_Marksman_DES.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -685,6 +713,7 @@ class CfgVehicles {
 
 // SPECOPS
     class CUP_B_CZ_SpecOps_Exp_DES : CUP_B_CZ_Soldier_base_OCimport_02 {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_CZ_SpecOps_Exp_DES.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -740,6 +769,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_SpecOps_Scout_DES : CUP_B_CZ_Soldier_base_OCimport_02 {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_CZ_SpecOps_Scout_DES.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -790,6 +820,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_SpecOps_MG_DES : CUP_B_CZ_Soldier_base_OCimport_02 {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_CZ_SpecOps_MG_DES.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -839,6 +870,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_SpecOps_DES : CUP_B_CZ_Soldier_base_OCimport_02 {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_CZ_SpecOps_DES.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -895,6 +927,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_SpecOps_TL_DES : CUP_B_CZ_Soldier_base_OCimport_02 {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_CZ_SpecOps_TL_DES.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -946,6 +979,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_SpecOps_GL_DES : CUP_B_CZ_Soldier_base_OCimport_02 {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_CZ_SpecOps_GL_DES.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1085,7 +1119,8 @@ class CfgVehicles {
         };
     };
 
-    class CUP_B_LR_MG_CZ_D : CUP_LR_MG_Base_OCimport_02 {
+    class CFP_B_LR_MG_CZ_D : CUP_LR_MG_Base_OCimport_02 {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CFP_B_LR_MG_CZ_D.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1114,6 +1149,7 @@ class CfgVehicles {
     };
 
     class CFP_B_T72M4CZ_01 : CUP_B_T72_CZ_OCimport_02 {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CFP_B_T72M4CZ_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1147,6 +1183,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UAZ_Metis_01 : CUP_B_UAZ_METIS_ACR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CFP_B_UAZ_Metis_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1176,6 +1213,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UAZ_01 : CUP_B_UAZ_Unarmed_ACR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CFP_B_UAZ_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1201,6 +1239,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UAZ_Open_01 : CUP_B_UAZ_Open_ACR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CFP_B_UAZ_Open_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1235,6 +1274,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UAZ_DShKM_01 : CUP_B_UAZ_MG_ACR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CFP_B_UAZ_DShKM_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1266,6 +1306,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UAZ_AGS_30_01 : CUP_B_UAZ_AGS30_ACR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CFP_B_UAZ_AGS_30_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1297,6 +1338,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UAZ_SPG_01 : CUP_B_UAZ_SPG9_ACR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CFP_B_UAZ_SPG_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;

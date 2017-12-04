@@ -909,6 +909,7 @@ class CfgVehicles {
 
 // MEN
     class CUP_B_CZ_Soldier_805_WDL : CUP_B_CZ_Soldier_base_OCimport_03 {
+        editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_Soldier_805_WDL.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -938,6 +939,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_Soldier_805_GL_WDL : CUP_B_CZ_Soldier_base_OCimport_03 {
+        editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_Soldier_805_GL_WDL.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -968,6 +970,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_Crew_WDL : CUP_B_CZ_Soldier_base_OCimport_03 {
+        editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_Crew_WDL.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -997,6 +1000,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_Soldier_SL_WDL : CUP_B_CZ_Soldier_base_OCimport_03 {
+        editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_Soldier_SL_WDL.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1026,6 +1030,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_Medic_WDL : CUP_B_CZ_Soldier_base_OCimport_03 {
+        editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_Medic_WDL.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1059,6 +1064,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_Soldier_MG_WDL : CUP_B_CZ_Soldier_base_OCimport_03 {
+        editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_Soldier_MG_WDL.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1088,6 +1094,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_Soldier_AR_WDL : CUP_B_CZ_Soldier_MG_WDL {
+        editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_Soldier_AR_WDL.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1121,6 +1128,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_Officer_WDL : CUP_B_CZ_Soldier_base_OCimport_03 {
+        editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_Officer_WDL.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1148,6 +1156,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_Pilot_WDL : CUP_B_CZ_Soldier_base_OCimport_03 {
+        editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_Pilot_WDL.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1177,6 +1186,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_Soldier_WDL : CUP_B_CZ_Soldier_base_OCimport_03 {
+        editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_Soldier_WDL.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1206,6 +1216,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_Soldier_AT_WDL : CUP_B_CZ_Soldier_base_OCimport_03 {
+        editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_Soldier_AT_WDL.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1236,6 +1247,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_Soldier_RPG_WDL : CUP_B_CZ_Soldier_base_OCimport_03 {
+        editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_Soldier_RPG_WDL.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1266,6 +1278,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_Engineer_WDL : CUP_B_CZ_Soldier_base_OCimport_03 {
+        editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_Engineer_WDL.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1295,6 +1308,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_Sniper_WDL : CUP_B_CZ_Soldier_base_OCimport_03 {
+        editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_Sniper_WDL.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1324,6 +1338,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_Soldier_Light_WDL : CUP_B_CZ_Soldier_base_OCimport_03 {
+        editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_Soldier_Light_WDL.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1352,6 +1367,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_Soldier_ARPG_WDL : CUP_B_CZ_Soldier_base_OCimport_03 {
+        editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_Soldier_ARPG_WDL.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1383,6 +1399,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_Soldier_Marksman_WDL : CUP_B_CZ_Soldier_base_OCimport_03 {
+        editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_Soldier_Marksman_WDL.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1414,6 +1431,7 @@ class CfgVehicles {
 // SPECOPS
 
     class CUP_B_CZ_SpecOps_WDL : CUP_B_CZ_Soldier_base_OCimport_03 {
+        editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_SpecOps_WDL.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1464,6 +1482,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_SpecOps_TL_WDL : CUP_B_CZ_Soldier_base_OCimport_03 {
+        editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_SpecOps_TL_WDL.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1512,6 +1531,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_SpecOps_Scout_WDL : CUP_B_CZ_SpecOps_TL_WDL {
+        editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_SpecOps_Scout_WDL.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1562,6 +1582,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_SpecOps_MG_WDL : CUP_B_CZ_SpecOps_TL_WDL {
+        editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_SpecOps_MG_WDL.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1610,6 +1631,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_SpecOps_Exp_WDL : CUP_B_CZ_SpecOps_WDL {
+        editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_SpecOps_Exp_WDL.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -1659,6 +1681,7 @@ class CfgVehicles {
     };
 
     class CUP_B_CZ_SpecOps_GL_WDL : CUP_B_CZ_Soldier_base_OCimport_03 {
+        editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_SpecOps_GL_WDL.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -2264,6 +2287,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CZARMY_RBS_70_WDL_01 : CUP_B_RBS70_ACR_OCimport_02 {
+        editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CFP_B_CZARMY_RBS_70_WDL_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -2294,6 +2318,7 @@ class CfgVehicles {
 
 // MEN
     class CFP_B_CZARMY_Spotter_WDL_01 : CUP_B_CZ_Spotter_OCimport_02 {
+        editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CFP_B_CZARMY_Spotter_WDL_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
