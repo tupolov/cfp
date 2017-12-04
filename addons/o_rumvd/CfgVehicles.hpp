@@ -1693,7 +1693,7 @@ class CfgVehicles {
         rifleList[] = {
             {"CUP_arifle_AK74M",{"CUP_30Rnd_545x39_AK_M",6}}, 0.5,
             {"CUP_arifle_AK107",{"CUP_30Rnd_545x39_AK_M",6}}, 0.5,
-            {"CUP_srifle_VSSVintorez",{"CUP_8Rnd_9x18_Makarov_M",6}}, 0.5,
+            {"CUP_srifle_VSSVintorez",{"CUP_20Rnd_9x39_SP5_VSS_M",6}}, 0.5,
             {"CUP_arifle_AKS74",{"CUP_30Rnd_545x39_AK_M",6}}, 0.3,
             {"CUP_arifle_AKS74_pso",{"CUP_30Rnd_545x39_AK_M",6}}, 0.1,
             {"CUP_arifle_AKS74U",{"CUP_30Rnd_545x39_AK_M",6}}, 0.2,
