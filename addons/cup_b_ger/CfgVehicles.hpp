@@ -19,11 +19,11 @@ class CfgVehicles {
         typicalCargo[]={CFP_B_DEArmy_Pilot_DES_01};
     };
 
-    class CFP_B_USARMY_US_Pilot;
-    class CFP_B_USARMY_US_Pilot_OCimport_01 : CFP_B_USARMY_US_Pilot { scope = 0; class EventHandlers; };
-    class CFP_B_USARMY_US_Pilot_OCimport_02 : CFP_B_USARMY_US_Pilot_OCimport_01 { class EventHandlers; };
+    class CUP_B_US_Pilot;
+    class CUP_B_US_Pilot_OCimport_01 : CUP_B_US_Pilot { scope = 0; class EventHandlers; };
+    class CUP_B_US_Pilot_OCimport_02 : CUP_B_US_Pilot_OCimport_01 { class EventHandlers; };
 
-    class CFP_B_DEARMY_Pilot_DES_01 : CFP_B_USARMY_US_Pilot_OCimport_02 {
+    class CFP_B_DEARMY_Pilot_DES_01 : CUP_B_US_Pilot_OCimport_02 {
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
