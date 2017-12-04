@@ -25,6 +25,8 @@
 	#define TRUCK CFP_O_RUMVD_Ural_01
 	#define BOAT CFP_O_RUMVD_PBX_01
 
+	#define SPECOPS CUP_O_MVD_SpecOps_Soldier
+
 // Helpers
 	#define DFACTION(x) DOUBLES(FACTION,x)
 	#define CLASS(x) class x

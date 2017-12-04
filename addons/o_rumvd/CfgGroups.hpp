@@ -461,7 +461,7 @@ class CfgGroups {
 
             class SpecOps {
                 name = "Special Forces";
-                /*
+
                 CLASS(DFACTION(specops_fireteam)) {
                     name = "Fireteam";
                     Side = SIDE;
@@ -773,7 +773,7 @@ class CfgGroups {
                         vehicle = APC_AT;
                     };
                 };
-                */
+
             };
 
             class Motorized {

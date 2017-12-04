@@ -7,6 +7,11 @@
 
 class CBA_Extended_EventHandlers_base;
 
+class CfgEditorSubCategories
+{
+    class CFP_EdSubcat_Personnel_SpecialPurpose { displayName = "Men (Special Purpose)";  };
+};
+
 class CfgVehicles {
 
 // Base Vehicles
@@ -116,15 +121,6 @@ class CfgVehicles {
     };
 
     class CUP_O_PBX_RU;
-    class CUP_O_PBX_RU_OCimport_01 : CUP_O_PBX_RU { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_PBX_RU_OCimport_02 : CUP_O_PBX_RU_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class CargoTurret_01;
-            class CargoTurret_02;
-            class CargoTurret_03;
-        };
-    };
 
     class CUP_O_Pchela1T_RU;
     class CUP_O_Pchela1T_RU_OCimport_01 : CUP_O_Pchela1T_RU { scope = 0; class EventHandlers; class Turrets; };
@@ -695,35 +691,10 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_RUMVD_PBX_01 : CUP_O_PBX_RU_OCimport_02 {
+    class CFP_O_RUMVD_PBX_01 : CUP_O_PBX_RU {
         author = "Tupolov";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "PBX";
-        side = 0;
         faction = "CFP_O_RUMVD";
         crew = "CUP_O_MVD_Soldier";
-
-        class Turrets : Turrets {
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
     class CFP_O_RUMVD_2S6_Tunguska_01 : CUP_O_2S6_RU_OCimport_02 {
@@ -1410,8 +1381,40 @@ class CfgVehicles {
 
     };
 
-// Men
+// Uniforms
     class CUP_O_RUS_Soldier_08;
+    class CFP_O_RUMVD_Gorka_Grey : CUP_O_RUS_Soldier_08
+    {
+        scope = 1;
+        scopeCurator = 0;
+        displayName = "Russian Gorka";
+        model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_RUS_Gorka.p3d";
+        uniformClass = "CUP_U_O_RUMVD_Gorka_Grey";
+
+        hiddenSelections[] = {"camo", "clan", "insignia"};
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\o_rumvd\data\gorka_grey_co.paa"
+        };
+        icon = "iconMan";
+    };
+
+    class CUP_O_RUS_Soldier_02;
+    class CFP_O_RUMVD_SURPAT : CUP_O_RUS_Soldier_02
+    {
+        scope = 1;
+        scopeCurator = 0;
+        displayName = "Russian SURPAT";
+        uniformClass = "CUP_U_O_RUMVD_SURPAT";
+        model="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_RUS_Soldier1.p3d";
+        hiddenSelections[] = {"camo", "clan", "insignia"};
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\o_rumvd\data\cfp_o_rumvd_surpat_co.paa"
+        };
+        icon = "iconMan";
+    };
+
+// Men
+
     class CUP_O_MVD_Soldier_Base : CUP_O_RUS_Soldier_08 { class EventHandlers; };
 
     class CUP_O_MVD_Soldier : CUP_O_MVD_Soldier_Base {
@@ -1617,20 +1620,107 @@ class CfgVehicles {
 
     };
 
-// Uniforms
-    class CFP_O_RUMVD_Gorka_Grey : CUP_O_RUS_Soldier_08
-    {
-        scope = 1;
-        scopeCurator = 0;
-        displayName = "Russian Gorka";
-        model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_RUS_Gorka.p3d";
-        uniformClass = "CUP_U_O_RUMVD_Gorka_Grey";
+    class CUP_O_MVD_SpecOps_Soldier : CUP_O_MVD_Soldier_Base {
+        author = "Tupolov";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Operator";
+        side = 0;
+        faction = "CFP_O_RUMVD";
+        editorSubCategory = "CFP_EdSubcat_Personnel_SpecialPurpose";
+        identityTypes[] = {"Head_Euro","CUP_D_Language_RU","G_GUERIL_default"};
+        uniformClass = "CFP_U_O_RUMVD_SURPAT";
 
-        hiddenSelections[] = {"camo", "clan", "insignia"};
-        hiddenSelectionsTextures[] = {
-            "\x\cfp\addons\o_rumvd\data\gorka_grey_co.paa"
+        randomGearProbability = 100;
+        randomWeaponProbability = 100;
+
+        vestList[] = {
+            "CFP_V_O_RUMVD_SURPAT", 0.5,
+            "SP_Modular1_Green",0.4,
+            "SP_Modular1_Grey",0.4,
+            "SP_Harness1_Black",0.5,
+            "SP_Harness1_Green",0.5,
+            "CUP_V_I_RACS_Carrier_Vest_wdl_3",0.3,
+            "SP_PlateCarrier1_Green", 0.4,
+            "SP_PlateCarrier1_Black", 0.4,
+            "SP_Tactical1_Green", 0.3,
+            "V_Tacvest_oli", 0.3
         };
-        icon = "iconMan";
+
+        // Beards / mouth scarf / scarf / sunglasses
+        facewearList[] = {
+            "", 0.1,
+            "SP_Balaclava_Black", 0.5,
+            "SP_Balaclava_Green", 0.5,
+            "CUP_RUS_Balaclava_blk", 0.5,
+            "CUP_RUS_Balaclava_grn", 0.5,
+            "G_Balaclava_oli", 0.3,
+            "G_Balaclava_Lowprofile", 0.2
+        };
+
+        // Baseball caps, boonies,
+        headgearList[] = {
+            "CFP_H_O_RUMVD_SURPAT", 0.7,
+            "CUP_H_RUS_6B27_NVG_olive", 0.2,
+            "CUP_H_RUS_6B27_olive", 0.2
+        };
+
+        nvgList[] = {
+            "", 1
+        };
+
+        backpackList[] = {
+            "",0.7,
+            "CUP_B_RUS_Pack_MG", 0.2,
+            "CUP_B_RUS_Backpack", 0.2
+        };
+
+        insigniaList[] = {
+            "USP_PATCH_RUS_TAB_MVD_RF_LRG", 0.5,
+            "USP_PATCH_RUS_DON_SSO_VS_RF", 0.5,
+            "USP_PATCH_RUS_DON_100SPECIALPURPOSE_DIV", 0.5,
+            "USP_PATCH_RUS_MVD_MOSCOW", 0.5,
+            "USP_PATCH_RUS_SOBR_SPD_RYS", 0.5,
+            "USP_PATCH_RUS_MVD_OMON", 0.5
+        };
+
+        grenadeList[] = {
+            {"HandGrenade",4}, 0.5,
+            {"MiniGrenade",4}, 0.5
+        };
+
+        // 6-8 options
+        rifleList[] = {
+            {"CUP_arifle_AK74M",{"CUP_30Rnd_545x39_AK_M",6}}, 0.5,
+            {"CUP_arifle_AK107",{"CUP_30Rnd_545x39_AK_M",6}}, 0.5,
+            {"CUP_srifle_VSSVintorez",{"CUP_8Rnd_9x18_Makarov_M",6}}, 0.5,
+            {"CUP_arifle_AKS74",{"CUP_30Rnd_545x39_AK_M",6}}, 0.3,
+            {"CUP_arifle_AKS74_pso",{"CUP_30Rnd_545x39_AK_M",6}}, 0.1,
+            {"CUP_arifle_AKS74U",{"CUP_30Rnd_545x39_AK_M",6}}, 0.2,
+            {"CUP_arifle_AK74_GL",{{"CUP_30Rnd_545x39_AK_M",6},{"CUP_1Rnd_HE_GP25_M",2},{"CUP_1Rnd_HE_GP25_M",2}}}, 0.3,
+            {"CUP_arifle_AK74M_GL",{{"CUP_30Rnd_545x39_AK_M",6},{"CUP_1Rnd_HE_GP25_M",2},{"CUP_1Rnd_HE_GP25_M",2}}}, 0.3,
+            {"CUP_arifle_AK74_GL",{{"CUP_30Rnd_545x39_AK_M",6},{"CUP_1Rnd_HE_GP25_M",2},{"CUP_1Rnd_HE_GP25_M",2}}}, 0.3,
+            {"arifle_AK12_GL_F",{{"30Rnd_762x39_Mag_F",6},{"1Rnd_HE_Grenade_shell",2},{"1Rnd_HE_Grenade_shell",2}}}, 0.1
+        };
+
+        handgunList[] = {
+            {"CUP_hgun_Makarov",{"CUP_8Rnd_9x18_Makarov_M",3}}, 0.7,
+            {"CUP_hgun_MicroUzi",{"CUP_30Rnd_9x19_UZI",3}}, 0.3
+        };
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ADDON
+            {
+                init = "if (local (_this select 0)) then { _onSpawn = { private _unit = _this select 0; sleep 0.2; [_unit] call CFP_main_fnc_randomizeUnit; }; _this spawn _onSpawn; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
     };
+
+
+
 };
 

@@ -1,21 +1,11 @@
+#define HEADGEAR_SLOT 605
+#define UNIFORM_SLOT 801
+#define VEST_SLOT      701
+#define BACKPACK_SLOT  901
+
 class CfgWeapons
 {
-	class Uniform_Base;
-	class UniformItem;
-	class CFP_U_O_RUMVD_Gorka_Grey: Uniform_Base
-	{
-		scope=2;
-		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Russian Gorka";
-		picture = "\x\cfp\addons\o_rumvd\data\UI\icon_u_o_gorka_olive_ca.paa";
-		author = "Tupolov";
-
-		class ItemInfo: UniformItem
-		{
-			uniformModel = "-";
-			uniformClass = "CFP_O_RUMVD_Gorka_Grey";
-			containerClass="Supply60";
-			mass=80;
-		};
-	};
+	#include "CfgHeadgear.hpp"
+	#include "CfgVests.hpp"
+	#include "CfgUniforms.hpp"
 };
