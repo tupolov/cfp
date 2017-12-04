@@ -31,9 +31,9 @@ class CfgVehicles {
         };
     };
 
-    class CUP_B_M1151_M2_WDL_USA;
-    class CUP_B_M1151_M2_WDL_USA_OCimport_01 : CUP_B_M1151_M2_WDL_USA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_B_M1151_M2_WDL_USA_OCimport_02 : CUP_B_M1151_M2_WDL_USA_OCimport_01 { 
+    class CFP_B_CZARMY_HMMWV_M1114_DSHKM_WDL_01;
+    class CFP_B_CZARMY_HMMWV_M1114_DSHKM_WDL_01_OCimport_01 : CFP_B_CZARMY_HMMWV_M1114_DSHKM_WDL_01 { scope = 0; class EventHandlers; class Turrets; };
+    class CFP_B_CZARMY_HMMWV_M1114_DSHKM_WDL_01_OCimport_02 : CFP_B_CZARMY_HMMWV_M1114_DSHKM_WDL_01_OCimport_01 { 
         class EventHandlers; 
         class Turrets : Turrets {
             class MainTurret;
@@ -368,10 +368,10 @@ class CfgVehicles {
         displayName = "M113";
         side = 1;
         faction = "CFP_B_AFARMY";
-        crew = "CFP_B_USARMY_US_Crew";
+        crew = "CFP_B_AFARMY_Rifleman_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_AFARMY_Rifleman_01"; };
         };
 
 
@@ -397,7 +397,7 @@ class CfgVehicles {
         displayName = "M113 Ambulance";
         side = 1;
         faction = "CFP_B_AFARMY";
-        crew = "CFP_B_USARMY_US_Crew";
+        crew = "CFP_B_AFARMY_Rifleman_01";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -419,17 +419,17 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_AFARMY_HMMWV_M2_01 : CUP_B_M1151_M2_WDL_USA_OCimport_02 {
+    class CFP_B_AFARMY_HMMWV_DShKM_01 : CFP_B_CZARMY_HMMWV_M1114_DSHKM_WDL_01_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
-        displayName = "HMMWV [M2]";
+        displayName = "HMMWV [DShKM]";
         side = 1;
         faction = "CFP_B_AFARMY";
         crew = "CFP_B_AFARMY_Rifleman_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_AFARMY_Rifleman_01"; };
         };
 
 
@@ -445,7 +445,7 @@ class CfgVehicles {
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "NatoGreen";
+        ALiVE_orbatCreator_texture = "Green";
 
     };
 

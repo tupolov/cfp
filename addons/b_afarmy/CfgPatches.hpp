@@ -13,7 +13,7 @@ class CfgPatches {
             "CFP_B_AFARMY_Officer_01",
             "CFP_B_AFARMY_M113_01",
             "CFP_B_AFARMY_M113_Ambulance_01",
-            "CFP_B_AFARMY_HMMWV_M2_01",
+            "CFP_B_AFARMY_HMMWV_DShKM_01",
             "CFP_B_AFARMY_HMMWV_01",
             "CFP_B_AFARMY_MTVR_01",
             "CFP_B_AFARMY_MTVR_Ammo_01",

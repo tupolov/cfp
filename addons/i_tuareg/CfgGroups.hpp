@@ -15,7 +15,7 @@ class CfgGroups {
 
             class cfp_i_tuareg_infantry_8man_team {
                     name = "8 Man Team";
-                    side = 0;
+                    side = 2;
                     faction = "CFP_I_TUAREG";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     rarityGroup = 0.5;
@@ -23,56 +23,56 @@ class CfgGroups {
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 0;
+                        side = 2;
                         vehicle = "CFP_I_TUAREG_Team_Leader_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "CFP_I_TUAREG_Grenadier_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "CFP_I_TUAREG_Rifleman_AT_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "CFP_I_TUAREG_Medic_01";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "CFP_I_TUAREG_Explosive_Specialist_01";
                     };
                     class Unit5 {
                         position[] = {15,-15,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "CFP_I_TUAREG_Rifleman_01";
                     };
                     class Unit6 {
                         position[] = {-15,-15,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "CFP_I_TUAREG_Rifleman_01";
                     };
                     class Unit7 {
                         position[] = {20,-20,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "CFP_I_TUAREG_Machine_Gunner_01";
                     };
                 };
 
                 class cfp_i_tuareg_infantry_sniper_team {
                     name = "Sniper Team";
-                    side = 0;
+                    side = 2;
                     faction = "CFP_I_TUAREG";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     rarityGroup = 0.5;
@@ -80,20 +80,20 @@ class CfgGroups {
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 0;
+                        side = 2;
                         vehicle = "CFP_I_TUAREG_Sniper_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "CFP_I_TUAREG_Sniper_01";
                     };
                 };
 
                 class cfp_i_tuareg_infantry_10_man_team {
                     name = "10 Man Team";
-                    side = 0;
+                    side = 2;
                     faction = "CFP_I_TUAREG";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     rarityGroup = 0.5;
@@ -101,62 +101,62 @@ class CfgGroups {
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 0;
+                        side = 2;
                         vehicle = "CFP_I_TUAREG_Team_Leader_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "CFP_I_TUAREG_Rifleman_AT_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "CFP_I_TUAREG_Grenadier_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "CFP_I_TUAREG_Medic_01";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "CFP_I_TUAREG_Explosive_Specialist_01";
                     };
                     class Unit5 {
                         position[] = {15,-15,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "CFP_I_TUAREG_Machine_Gunner_01";
                     };
                     class Unit6 {
                         position[] = {-15,-15,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "CFP_I_TUAREG_Rifleman_01";
                     };
                     class Unit7 {
                         position[] = {20,-20,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "CFP_I_TUAREG_Rifleman_01";
                     };
                     class Unit8 {
                         position[] = {-20,-20,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "CFP_I_TUAREG_Rifleman_01";
                     };
                 };
 
                 class cfp_i_tuareg_infantry_6man_team {
                     name = "6 Man Team";
-                    side = 0;
+                    side = 2;
                     faction = "CFP_I_TUAREG";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     rarityGroup = 0.5;
@@ -164,44 +164,44 @@ class CfgGroups {
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 0;
+                        side = 2;
                         vehicle = "CFP_I_TUAREG_Team_Leader_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "CFP_I_TUAREG_Rifleman_AT_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "CFP_I_TUAREG_Grenadier_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "CFP_I_TUAREG_Machine_Gunner_01";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "CFP_I_TUAREG_Rifleman_01";
                     };
                     class Unit5 {
                         position[] = {15,-15,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "CFP_I_TUAREG_Rifleman_01";
                     };
                 };
 
                 class cfp_i_tuareg_infantry_4man_team {
                     name = "4 Man Team";
-                    side = 0;
+                    side = 2;
                     faction = "CFP_I_TUAREG";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     rarityGroup = 0.5;
@@ -209,32 +209,32 @@ class CfgGroups {
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 0;
+                        side = 2;
                         vehicle = "CFP_I_TUAREG_Team_Leader_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "CFP_I_TUAREG_Rifleman_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "CFP_I_TUAREG_Grenadier_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "CFP_I_TUAREG_Machine_Gunner_01";
                     };
                 };
 		
 		class cfp_i_tuareg_infantry_demo_team {
                     name = "Demo Team";
-                    side = 0;
+                    side = 2;
                     faction = "CFP_I_TUAREG";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     rarityGroup = 0.5;
@@ -242,20 +242,20 @@ class CfgGroups {
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 0;
+                        side = 2;
                         vehicle = "CFP_I_TUAREG_Explosive_Specialist_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "CFP_I_TUAREG_Explosive_Specialist_01";
                     };
                 };
 	
 		class cfp_i_tuareg_infantry_mortar_team {
                     name = "Mortar Team";
-                    side = 0;
+                    side = 2;
                     faction = "CFP_I_TUAREG";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     rarityGroup = 0.5;
@@ -263,20 +263,20 @@ class CfgGroups {
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 0;
+                        side = 2;
                         vehicle = "CFP_I_TUAREG_Asst_Gunner_Mortar_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "CFP_I_TUAREG_Gunner_Mortar_01";
                     };
                 };
 
                 class cfp_i_tuareg_infantry_dshkm_team_high {
                     name = "DShKM Team [High]";
-                    side = 0;
+                    side = 2;
                     faction = "CFP_I_TUAREG";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     rarityGroup = 0.5;
@@ -284,20 +284,20 @@ class CfgGroups {
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 0;
+                        side = 2;
                         vehicle = "CFP_I_TUAREG_Asst_Gunner_DShKM_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "CFP_I_TUAREG_Gunner_DShKM_High_01";
                     };
                 };
 
                 class cfp_i_tuareg_infantry_dshkm_team_low {
                     name = "DShKM Team [Low]";
-                    side = 0;
+                    side = 2;
                     faction = "CFP_I_TUAREG";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     rarityGroup = 0.5;
@@ -305,20 +305,20 @@ class CfgGroups {
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 0;
+                        side = 2;
                         vehicle = "CFP_I_TUAREG_Asst_Gunner_DShKM_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "CFP_I_TUAREG_Gunner_DShKM_Low_01";
                     };
                 };
 
                 class cfp_i_tuareg_infantry_spg_9team {
                     name = "SPG-9 Team";
-                    side = 0;
+                    side = 2;
                     faction = "CFP_I_TUAREG";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     rarityGroup = 0.5;
@@ -326,13 +326,13 @@ class CfgGroups {
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 0;
+                        side = 2;
                         vehicle = "CFP_I_TUAREG_Asst_Gunner_SPG_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
-                        side = 0;
+                        side = 2;
                         vehicle = "CFP_I_TUAREG_Gunner_SPG_01";
                     };
                 };

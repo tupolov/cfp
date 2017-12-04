@@ -338,8 +338,8 @@ class CfgGroups {
                     };
                 };
 
-                class cfp_b_afarmy_motorized_motorized_patrol_hmmwv_m2 {
-                    name = "Motorized Patrol [HMMWV M2]";
+                class cfp_b_afarmy_motorized_motorized_patrol_hmmwv_dshkm {
+                    name = "Motorized Patrol [HMMWV DShKM]";
                     side = 1;
                     faction = "CFP_B_AFARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
@@ -349,7 +349,7 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_AFARMY_HMMWV_M2_01";
+                        vehicle = "CFP_B_AFARMY_HMMWV_DShKM_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
