@@ -35,7 +35,7 @@ class CfgGroups {
                 };
 
                 class b_uscia_sad_covert_team {
-                    name = "Covert Recom";
+                    name = "Covert Recon";
                     side = 1;
                     faction = "CFP_B_USCIA";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
