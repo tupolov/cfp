@@ -166,7 +166,7 @@ class CfgVehicles {
         	{"CUP_arifle_AKS74",{"CUP_30Rnd_545x39_AK_M",6}}, 0.3,
         	{"CUP_arifle_AKS74_pso",{"CUP_30Rnd_545x39_AK_M",6}}, 0.1,
         	{"CUP_arifle_AKS74U",{"CUP_30Rnd_545x39_AK_M",6}}, 0.1,
-        	{"CUP_arifle_CZ805_A2_Holo_Laser",{"CUP_30Rnd_556x45_Stanag",6}}, 0.2,
+        	{"CUP_arifle_CZ805_A2_Holo_Laser",{"CUP_30Rnd_556x45_G36",6}}, 0.2,
         	{"CUP_arifle_Mk16_CQC_FG_Aim_Laser_snds",{"CUP_30Rnd_556x45_Stanag",6}}, 0.2
         };
 
@@ -233,16 +233,15 @@ class CfgVehicles {
         };
 
         vestList[] = {
-            "", 0.5,
             "V_Chestrig_khk", 0.25,
             "V_Chestrig_oli", 0.25,
             "SP_Chestrig1_Tan", 0.25,
             "SP_Harness1_Tan", 0.25,
             "SP_OpforRig1_Tan", 0.25,
-            "CUP_V_OI_TKI_Jacket1_06", 0.15,
-            "CUP_V_OI_TKI_Jacket4_05", 0.15,
-            "CUP_V_OI_TKI_Jacket4_06", 0.15,
-            "CUP_V_OI_TKI_Jacket3_06", 0.15,
+            "CUP_V_OI_TKI_Jacket1_06", 0.25,
+            "CUP_V_OI_TKI_Jacket4_05", 0.25,
+            "CUP_V_OI_TKI_Jacket4_06", 0.25,
+            "CUP_V_OI_TKI_Jacket3_06", 0.25,
             "CUP_V_OI_TKI_Jacket6_06", 0.1
         };
 
@@ -315,7 +314,7 @@ class CfgVehicles {
             {"CUP_arifle_AKS74",{"CUP_30Rnd_545x39_AK_M",6}}, 0.4,
             {"CUP_arifle_AKS74_pso",{"CUP_30Rnd_545x39_AK_M",6}}, 0.1,
             {"CUP_arifle_AKS74U",{"CUP_30Rnd_545x39_AK_M",6}}, 0.3,
-            {"CUP_arifle_CZ805_A2_Holo_Laser",{"CUP_30Rnd_556x45_Stanag",6}}, 0.2,
+            {"CUP_arifle_CZ805_A2_Holo_Laser",{"CUP_30Rnd_556x45_G36",6}}, 0.2,
             {"CUP_arifle_Mk16_CQC_FG_Aim_Laser_snds",{"CUP_30Rnd_556x45_Stanag",6}}, 0.2
         };
     };
