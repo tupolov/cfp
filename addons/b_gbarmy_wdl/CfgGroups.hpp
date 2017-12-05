@@ -283,6 +283,89 @@ class CfgGroups {
                     };
                 };
 
+                class CFP_B_GBARMY_infantry_M2_team_high {
+                    name = "L111A1 MG Team [High]";
+                    side = 1;
+                    faction = "CFP_B_GBARMY";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CFP_B_GBARMY_Asst_Gunner_M2_WDL_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_GBARMY_Gunner_M2_High_WDL_01";
+                    };
+                };
+
+                class CFP_B_GBARMY_infantry_M2_team_low {
+                    name = "L111A1 MG Team [Low]";
+                    side = 1;
+                    faction = "CFP_B_GBARMY";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CFP_B_GBARMY_Asst_Gunner_M2Low_WDL_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_GBARMY_Gunner_M2_Low_WDL_01";
+                    };
+                };
+
+                class CFP_B_GBARMY_infantry_mortar_team {
+                    name = "Mortar Team";
+                    side = 1;
+                    faction = "CFP_B_GBARMY";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CFP_B_GBARMY_Asst_Gunner_Mortar_WDL_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_GBARMY_Gunner_Mortar_WDL_01";
+                    };
+                };
+
+                class CFP_B_GBARMY_infantry_TOW_team {
+                    name = "TOW Team";
+                    side = 1;
+                    faction = "CFP_B_GBARMY";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CFP_B_GBARMY_Asst_Gunner_TOW_WDL_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_GBARMY_Gunner_TOW_WDL_01";
+                    };
+                };
             };
 
             class SpecOps {
