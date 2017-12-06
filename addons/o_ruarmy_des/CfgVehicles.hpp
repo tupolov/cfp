@@ -5688,4 +5688,54 @@ class CfgVehicles {
 
     };
 
+    // Gunners
+
+        class CFP_O_RUARMY_Gunner_KORD_High_DES_01 : CFP_O_RUARMY_Rifleman_DES_02 {
+            displayName = "Gunner [KORD]";
+            randomGearProbability = 100;
+            backpackList[] = {
+                "CUP_B_KORD_Gun_Bag", 1
+            };
+        };
+
+        class CFP_O_RUARMY_Asst_Gunner_KORD_DES_01 : CFP_O_RUARMY_Rifleman_DES_02 {
+            displayName = "Asst. Gunner [KORD]";
+            randomGearProbability = 100;
+            backpackList[] = {
+                "CUP_B_KORD_Tripod_Bag", 1
+            };
+        };
+
+        class CFP_O_RUARMY_Gunner_METIS_DES_01 : CFP_O_RUARMY_Rifleman_DES_02 {
+            displayName = "Gunner [AT]";
+            randomGearProbability = 100;
+            backpackList[] = {
+                "CUP_B_METIS_Gun_Bag", 1
+            };
+
+        };
+
+        class CFP_O_RUARMY_Asst_Gunner_METIS_DES_01 : CFP_O_RUARMY_Rifleman_DES_02 {
+            displayName = "Asst. Gunner [AT]";
+            randomGearProbability = 100;
+            backpackList[] = {
+                "CUP_B_METIS_Tripod_Bag", 1
+            };
+        };
+
+        class CFP_O_RUARMY_Gunner_Mortar_DES_01 : CFP_O_RUARMY_Rifleman_DES_02 {
+            randomGearProbability = 100;
+            backpackList[] = {
+                "CUP_B_Podnos_Gun_Bag", 1
+            };
+            displayName = "Gunner [Mortar]";
+        };
+
+        class CFP_O_RUARMY_Asst_Gunner_Mortar_DES_01 : CFP_O_RUARMY_Rifleman_DES_02 {
+            displayName = "Asst. Gunner [Mortar]";
+            randomGearProbability = 100;
+            backpackList[] = {
+                "CUP_B_Podnos_Bipod_Bag", 1
+            };
+        };
 };
