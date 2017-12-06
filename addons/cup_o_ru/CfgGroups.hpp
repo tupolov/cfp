@@ -7,6 +7,68 @@ class CfgGroups {
             	delete CUP_O_MVD_AssaultTeam;
             	delete CUP_O_RU_ReconTeam;
             	delete CUP_O_RU_ReconTeam_AUT;
+                class CUP_O_RU_infantry_KORD_team_high {
+                    name = "KORD MG Team";
+                    side = 1;
+                    faction = "CUP_O_RU";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CUP_O_RU_Asst_Gunner_KORD_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_O_RU_Gunner_KORD_01";
+                    };
+                };
+
+                class CUP_O_RU_infantry_mortar_team {
+                    name = "Mortar Team";
+                    side = 1;
+                    faction = "CUP_O_RU";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CUP_O_RU_Asst_Gunner_Mortar_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_O_RU_Gunner_Mortar_01";
+                    };
+                };
+
+                class CUP_O_RU_infantry_METIS_team {
+                    name = "METIS Team";
+                    side = 1;
+                    faction = "CUP_O_RU";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CUP_O_RU_Asst_Gunner_METIS_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_O_RU_Gunner_METIS_01";
+                    };
+                };
             };
 
             class SpecOps {
