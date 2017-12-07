@@ -192,7 +192,7 @@
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (3 Color Desert)";
-		picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\NodUrban.jpg";
+		picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_3ColorDesert.jpg";
 		author = "AccuracyThruVolume";
 
 		class ItemInfo: UniformItem
@@ -209,7 +209,7 @@
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (African Woodland)";
-		picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\NodUrban.jpg";
+		picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_AfricanWoodland.jpg";
 		author = "AccuracyThruVolume";
 
 		class ItemInfo: UniformItem
@@ -226,7 +226,7 @@
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (Choc Chip)";
-		picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\NodUrban.jpg";
+		picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_ChocChip.jpg";
 		author = "AccuracyThruVolume";
 
 		class ItemInfo: UniformItem
@@ -243,7 +243,7 @@
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (M81)";
-		picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\NodUrban.jpg";
+		picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_M81.jpg";
 		author = "AccuracyThruVolume";
 
 		class ItemInfo: UniformItem
@@ -260,7 +260,7 @@
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (DPM)";
-		picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\NodUrban.jpg";
+		picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_Dpm.jpg";
 		author = "AccuracyThruVolume";
 
 		class ItemInfo: UniformItem
@@ -277,7 +277,7 @@
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (DPM Woodland)";
-		picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\NodUrban.jpg";
+		picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_DpmWoodland.jpg";
 		author = "AccuracyThruVolume";
 
 		class ItemInfo: UniformItem
@@ -294,7 +294,7 @@
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (EDRL)";
-		picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\NodUrban.jpg";
+		picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_edrl.jpg";
 		author = "AccuracyThruVolume";
 
 		class ItemInfo: UniformItem
@@ -311,7 +311,7 @@
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (Polygon Desert)";
-		picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\NodUrban.jpg";
+		picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_PolygonDesert.jpg";
 		author = "AccuracyThruVolume";
 
 		class ItemInfo: UniformItem
@@ -328,7 +328,7 @@
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (Tiger Stripe)";
-		picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\NodUrban.jpg";
+		picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_Tigerstripe.jpg";
 		author = "AccuracyThruVolume";
 
 		class ItemInfo: UniformItem
@@ -345,7 +345,7 @@
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (MultiCam)";
-		picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\NodUrban.jpg";
+		picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_Multicam.jpg";
 		author = "AccuracyThruVolume";
 
 		class ItemInfo: UniformItem
@@ -362,7 +362,7 @@
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (A-Tacs AU)";
-		picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\NodUrban.jpg";
+		picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_ATacsAU.jpg";
 		author = "AccuracyThruVolume";
 
 		class ItemInfo: UniformItem
