@@ -10,7 +10,7 @@
 		"CUP_B_HMMWV_Terminal_USA",
 		"CUP_B_M1151_USA",
 		"CUP_B_M1152_USA",
-		"CUP_B_MTVR_USA"
+		"CUP_B_MTVR_USA",
 		"CUP_B_MTVR_Ammo_USA",
 		"CUP_B_MTVR_Refuel_USA",
 		"CUP_B_MTVR_Repair_USA"
@@ -21,11 +21,11 @@
  * Mil placement random supply boxes per faction
  */
 [ALIVE_factionDefaultSupplies, "CFP_B_USARMY_WDL", [
-		"CUP_USBasicAmmunitionBox_EP1"
-		"CUP_USBasicWeapons_EP1"
-		"CUP_USOrdnanceBox_EP1"
-		"CUP_USLaunchers_EP1"
-		"CUP_USSpecialWeapons_EP1"
+		"CUP_USBasicAmmunitionBox_EP1",
+		"CUP_USBasicWeapons_EP1",
+		"CUP_USOrdnanceBox_EP1",
+		"CUP_USLaunchers_EP1",
+		"CUP_USSpecialWeapons_EP1",
 		"CUP_USVehicleBox_EP1"
 	]
 ] call ALIVE_fnc_hashSet;
@@ -35,7 +35,7 @@
  * Mil logistics convoy transport vehicles per faction
  */
 [ALIVE_factionDefaultTransport, "CFP_B_USARMY_WDL", [
-		"CUP_B_MTVR_USA"
+		"CUP_B_MTVR_USA",
 		"CUP_B_MTVR_Ammo_USA",
 		"CUP_B_MTVR_Refuel_USA",
 		"CUP_B_MTVR_Repair_USA"

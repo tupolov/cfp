@@ -22,11 +22,11 @@
  * Mil placement random supply boxes per faction
  */
 [ALIVE_factionDefaultSupplies, "CFP_B_USARMY_WDL", [
-		"CUP_USBasicAmmunitionBox_EP1"
-		"CUP_USBasicWeapons_EP1"
-		"CUP_USOrdnanceBox_EP1"
-		"CUP_USLaunchers_EP1"
-		"CUP_USSpecialWeapons_EP1"
+		"CUP_USBasicAmmunitionBox_EP1",
+		"CUP_USBasicWeapons_EP1",
+		"CUP_USOrdnanceBox_EP1",
+		"CUP_USLaunchers_EP1",
+		"CUP_USSpecialWeapons_EP1",
 		"CUP_USVehicleBox_EP1"
 	]
 ] call ALIVE_fnc_hashSet;
