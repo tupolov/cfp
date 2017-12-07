@@ -42,7 +42,7 @@ class CfgGroups {
                         position[] = { 10 , -10 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_O_ALQAEDA_AT_Rifleman_01";
+                        vehicle = "CFP_O_ALQAEDA_Rifleman_AT_01";
                     };
                 };
 
@@ -87,7 +87,7 @@ class CfgGroups {
                         position[] = { 15 , -15 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_O_ALQAEDA_AT_Rifleman_01";
+                        vehicle = "CFP_O_ALQAEDA_Rifleman_AT_01";
                     };
                 };
 
@@ -144,7 +144,7 @@ class CfgGroups {
                         position[] = { 20 , -20 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_O_ALQAEDA_AT_Rifleman_01";
+                        vehicle = "CFP_O_ALQAEDA_Rifleman_AT_01";
                     };
                 };
 
@@ -201,7 +201,7 @@ class CfgGroups {
                         position[] = { 20 , -20 , 0 };
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_O_ALQAEDA_AT_Rifleman_01";
+                        vehicle = "CFP_O_ALQAEDA_Rifleman_AT_01";
                     };
                     class Unit8 {
                         position[] = { -20 , -20 , 0 };
