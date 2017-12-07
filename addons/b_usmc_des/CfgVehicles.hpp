@@ -6020,4 +6020,77 @@ class CfgVehicles {
 
         };
 
+    // Gunners
+
+        class CFP_B_USMC_Gunner_M2_High_DES_01 : CFP_B_USMC_Rifleman_DES_01 {
+            displayName = "Gunner [MG High]";
+            randomGearProbability = 100;
+            backpackList[] = {
+                "CUP_B_M2_Gun_Bag", 1
+            };
+        };
+
+        class CFP_B_USMC_Gunner_M2_Low_DES_01 : CFP_B_USMC_Rifleman_DES_01 {
+            displayName = "Gunner [MG Low]";
+            randomGearProbability = 100;
+            backpackList[] = {
+                "CUP_B_M2_Gun_Bag", 1
+            };
+
+        };
+
+        class CFP_B_USMC_Asst_Gunner_M2_DES_01 : CFP_B_USMC_Rifleman_DES_01 {
+            displayName = "Asst. Gunner [MG]";
+            randomGearProbability = 100;
+            backpackList[] = {
+                "CUP_B_M2_Tripod_Bag", 1
+            };
+
+        };
+
+        class CFP_B_USMC_Asst_Gunner_M2Low_DES_01 : CFP_B_USMC_Rifleman_DES_01 {
+            displayName = "Asst. Gunner [MG Low]";
+            randomGearProbability = 100;
+            backpackList[] = {
+                "CUP_B_M2_Minitripod_Bag", 1
+            };
+
+        };
+
+        class CFP_B_USMC_Gunner_TOW_DES_01 : CFP_B_USMC_Rifleman_DES_01 {
+            displayName = "Gunner [AT]";
+            randomGearProbability = 100;
+            backpackList[] = {
+                "CUP_B_Tow_Gun_Bag", 1
+            };
+
+        };
+
+        class CFP_B_USMC_Asst_Gunner_TOW_DES_01 : CFP_B_USMC_Rifleman_DES_01 {
+            displayName = "Asst. Gunner [AT]";
+            randomGearProbability = 100;
+            backpackList[] = {
+                "CUP_B_TOW_Tripod_Bag", 1
+            };
+        };
+
+        class CFP_B_USMC_Gunner_Mortar_DES_01 : CFP_B_USMC_Rifleman_DES_01 {
+
+            displayName = "Gunner [Mortar]";
+            randomGearProbability = 100;
+            backpackList[] = {
+                "CUP_B_M252_Gun_Bag", 1
+            };
+
+        };
+
+        class CFP_B_USMC_Asst_Gunner_Mortar_DES_01 : CFP_B_USMC_Rifleman_DES_01 {
+            displayName = "Asst. Gunner [Mortar]";
+            randomGearProbability = 100;
+            backpackList[] = {
+                "CUP_B_M252_Bipod_Bag", 1
+            };
+
+        };
+
 };
