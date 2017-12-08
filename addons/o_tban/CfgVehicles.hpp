@@ -12,11 +12,11 @@ class CfgVehicles {
     class O_Soldier_F;
     class O_Soldier_F_OCimport_01 : O_Soldier_F { scope = 0; class EventHandlers; };
     class O_Soldier_F_OCimport_02 : O_Soldier_F_OCimport_01 { class EventHandlers; };
-    
+
     class CUP_I_Datsun_PK_TK;
     class CUP_I_Datsun_PK_TK_OCimport_01 : CUP_I_Datsun_PK_TK { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_I_Datsun_PK_TK_OCimport_02 : CUP_I_Datsun_PK_TK_OCimport_01 { 
-        class EventHandlers; 
+    class CUP_I_Datsun_PK_TK_OCimport_02 : CUP_I_Datsun_PK_TK_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
             class CargoTurret_01;
@@ -30,8 +30,8 @@ class CfgVehicles {
 
     class O_G_Offroad_01_armed_F;
     class O_G_Offroad_01_armed_F_OCimport_01 : O_G_Offroad_01_armed_F { scope = 0; class EventHandlers; class Turrets; };
-    class O_G_Offroad_01_armed_F_OCimport_02 : O_G_Offroad_01_armed_F_OCimport_01 { 
-        class EventHandlers; 
+    class O_G_Offroad_01_armed_F_OCimport_02 : O_G_Offroad_01_armed_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class M2_Turret;
         };
@@ -39,8 +39,8 @@ class CfgVehicles {
 
     class O_G_Van_01_transport_F;
     class O_G_Van_01_transport_F_OCimport_01 : O_G_Van_01_transport_F { scope = 0; class EventHandlers; class Turrets; };
-    class O_G_Van_01_transport_F_OCimport_02 : O_G_Van_01_transport_F_OCimport_01 { 
-        class EventHandlers; 
+    class O_G_Van_01_transport_F_OCimport_02 : O_G_Van_01_transport_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CargoTurret_L1;
             class CargoTurret_L2;
@@ -57,8 +57,8 @@ class CfgVehicles {
 
     class CUP_I_Ural_ZU23_TK_Gue;
     class CUP_I_Ural_ZU23_TK_Gue_OCimport_01 : CUP_I_Ural_ZU23_TK_Gue { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_I_Ural_ZU23_TK_Gue_OCimport_02 : CUP_I_Ural_ZU23_TK_Gue_OCimport_01 { 
-        class EventHandlers; 
+    class CUP_I_Ural_ZU23_TK_Gue_OCimport_02 : CUP_I_Ural_ZU23_TK_Gue_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -66,8 +66,8 @@ class CfgVehicles {
 
     class CUP_C_Datsun;
     class CUP_C_Datsun_OCimport_01 : CUP_C_Datsun { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_C_Datsun_OCimport_02 : CUP_C_Datsun_OCimport_01 { 
-        class EventHandlers; 
+    class CUP_C_Datsun_OCimport_02 : CUP_C_Datsun_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CargoTurret_01;
             class CargoTurret_02;
@@ -76,6 +76,7 @@ class CfgVehicles {
 
 
     class CFP_O_TBAN_Team_Leader_01 : O_Soldier_F_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_tban\data\preview\CFP_O_TBAN_Team_Leader_01.JPG";
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -88,225 +89,247 @@ class CfgVehicles {
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74_GL","","","",{"CUP_30Rnd_545x39_AK_M",30},{"CUP_1Rnd_HE_GP25_M",1},""},{},{},{"CUP_O_TKI_Khet_Partug_06",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",1,30},{"SmokeShell",1,1},{"SmokeShellBlue",1,1},{"CUP_1Rnd_HE_GP25_M",2,1}}},{"CUP_V_OI_TKI_Jacket4_04",{{"CUP_30Rnd_545x39_AK_M",2,30},{"CUP_1Rnd_HE_GP25_M",1,1}}},{},"CUP_H_TKI_Pakol_2_03","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
-	randomGearProbability = 100;
+    	randomGearProbability = 100;
 
-	// Taliban Uniforms
-		uniformList[] = {
-	"CUP_O_TKI_Khet_Partug_01", 0.2,
-	"CUP_O_TKI_Khet_Partug_02", 0.2,
-	"CUP_O_TKI_Khet_Partug_04", 0.2,
-	"CUP_O_TKI_Khet_Partug_06", 0.2,
-	"CUP_O_TKI_Khet_Partug_08", 0.2,
-	"CFP_U_KhetPartug_Long_olive", 0.2
-		};
+    	// Taliban Uniforms
+    		uniformList[] = {
+    	"CUP_O_TKI_Khet_Partug_01", 0.2,
+    	"CUP_O_TKI_Khet_Partug_02", 0.2,
+    	"CUP_O_TKI_Khet_Partug_04", 0.2,
+    	"CUP_O_TKI_Khet_Partug_06", 0.2,
+    	"CUP_O_TKI_Khet_Partug_08", 0.2,
+    	"CFP_U_KhetPartug_Long_olive", 0.2
+    		};
 
-	// Taliban Headgear
-		headgearList[] = {
-	"CUP_H_TK_Lungee", 0.2,
-	"CUP_H_TKI_Lungee_Open_01", 0.2,
-	"CUP_H_TKI_Lungee_Open_02", 0.2,
-	"CUP_H_TKI_Lungee_Open_03", 0.2,
-	"CUP_H_TKI_Lungee_Open_04", 0.2,
-	"CUP_H_TKI_Lungee_Open_05", 0.2,
-	"CUP_H_TKI_Lungee_Open_06", 0.2,
-	"CUP_H_TKI_Lungee_01", 0.2,
-	"CUP_H_TKI_Lungee_02", 0.2,
-	"CUP_H_TKI_Lungee_03", 0.2,
-	"CUP_H_TKI_Lungee_04", 0.2,
-	"CUP_H_TKI_Lungee_05", 0.2,
-	"CUP_H_TKI_Lungee_06", 0.2,
-	"CUP_H_TKI_Pakol_2_03", 0.2,
-	"CUP_H_TKI_SkullCap_01", 0.2,
-	"CUP_H_TKI_SkullCap_02", 0.2,
-	"CUP_H_TKI_SkullCap_03", 0.2,
-	"CUP_H_TKI_SkullCap_04", 0.2,
-	"CUP_H_TKI_SkullCap_05", 0.2,
-	"CUP_H_TKI_SkullCap_06", 0.2
-		};
-		
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+    	// Taliban Headgear
+    		headgearList[] = {
+    	"CUP_H_TK_Lungee", 0.2,
+    	"CUP_H_TKI_Lungee_Open_01", 0.2,
+    	"CUP_H_TKI_Lungee_Open_02", 0.2,
+    	"CUP_H_TKI_Lungee_Open_03", 0.2,
+    	"CUP_H_TKI_Lungee_Open_04", 0.2,
+    	"CUP_H_TKI_Lungee_Open_05", 0.2,
+    	"CUP_H_TKI_Lungee_Open_06", 0.2,
+    	"CUP_H_TKI_Lungee_01", 0.2,
+    	"CUP_H_TKI_Lungee_02", 0.2,
+    	"CUP_H_TKI_Lungee_03", 0.2,
+    	"CUP_H_TKI_Lungee_04", 0.2,
+    	"CUP_H_TKI_Lungee_05", 0.2,
+    	"CUP_H_TKI_Lungee_06", 0.2,
+    	"CUP_H_TKI_Pakol_2_03", 0.2,
+    	"CUP_H_TKI_SkullCap_01", 0.2,
+    	"CUP_H_TKI_SkullCap_02", 0.2,
+    	"CUP_H_TKI_SkullCap_03", 0.2,
+    	"CUP_H_TKI_SkullCap_04", 0.2,
+    	"CUP_H_TKI_SkullCap_05", 0.2,
+    	"CUP_H_TKI_SkullCap_06", 0.2
+    		};
 
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            class EventHandlers : EventHandlers {
+                class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+                class ALiVE_orbatCreator {
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                };
+
             };
 
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+            // custom attributes (do not delete)
+            ALiVE_orbatCreator_owned = 1;
 
     };
 
     class CFP_O_TBAN_Rifleman_AK_74_01 : CFP_O_TBAN_Team_Leader_01 {
-        
+        editorPreview = "\x\cfp\addons\o_tban\data\preview\CFP_O_TBAN_Rifleman_AK_74_01.JPG";
+
         displayName = "Rifleman [AK-74]";
-        
+
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"CUP_O_TKI_Khet_Partug_06",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",1,30}}},{"CUP_V_OI_TKI_Jacket2_03",{{"CUP_30Rnd_545x39_AK_M",2,30}}},{},"CUP_H_TK_Lungee","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_O_TBAN_Rifleman_AK_47_01 : CFP_O_TBAN_Team_Leader_01 {
-        
+        editorPreview = "\x\cfp\addons\o_tban\data\preview\CFP_O_TBAN_Rifleman_AK_47_01.JPG";
+
         displayName = "Rifleman [AK-47]";
-        
+
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CUP_O_TKI_Khet_Partug_08",{{"FirstAidKit",1}}},{"CUP_V_OI_TKI_Jacket2_05",{{"CUP_30Rnd_762x39_AK47_M",3,30}}},{},"CUP_H_TKI_Lungee_06","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_O_TBAN_Grenadier_AK_74_01 : CFP_O_TBAN_Team_Leader_01 {
-        
+        editorPreview = "\x\cfp\addons\o_tban\data\preview\CFP_O_TBAN_Grenadier_AK_74_01.JPG";
+
         displayName = "Grenadier [AK-74]";
-        
+
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74_GL","","","",{"CUP_30Rnd_545x39_AK_M",30},{"CUP_1Rnd_HE_GP25_M",1},""},{},{},{"CUP_O_TKI_Khet_Partug_04",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",1,30}}},{"CUP_V_OI_TKI_Jacket2_04",{{"CUP_30Rnd_545x39_AK_M",2,30},{"CUP_1Rnd_HE_GP25_M",3,1}}},{"CUP_B_TKI_AlicePack_Khaki_AmmoAK74",{{"CUP_30Rnd_545x39_AK_M",6,30},{"CUP_1Rnd_HE_GP25_M",2,1},{"CUP_HandGrenade_RGD5",2,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},"CUP_H_TKI_Lungee_Open_02","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_O_TBAN_Rifleman_Lee_Enfield_01 : CFP_O_TBAN_Team_Leader_01 {
-        
+        editorPreview = "\x\cfp\addons\o_tban\data\preview\CFP_O_TBAN_Rifleman_Lee_Enfield_01.JPG";
+
         displayName = "Rifleman [Lee-Enfield]";
-        
+
         ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_LeeEnfield","","","",{"CUP_10x_303_M",10},{},""},{},{},{"CUP_O_TKI_Khet_Partug_06",{{"FirstAidKit",1},{"CUP_10x_303_M",3,10}}},{"CUP_V_OI_TKI_Jacket4_01",{{"CUP_10x_303_M",5,10}}},{},"CUP_H_TKI_Lungee_Open_06","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_O_TBAN_Sniper_01 : CFP_O_TBAN_Team_Leader_01 {
-        
+        editorPreview = "\x\cfp\addons\o_tban\data\preview\CFP_O_TBAN_Sniper_01.JPG";
+
         displayName = "Sniper";
-        
+
         ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_LeeEnfield_rail","","","CUP_optic_LeupoldM3LR",{"CUP_10x_303_M",10},{},""},{},{},{"CUP_O_TKI_Khet_Partug_04",{{"FirstAidKit",1},{"SmokeShell",1,1},{"SmokeShellBlue",1,1},{"CUP_10x_303_M",2,10}}},{"CUP_V_OI_TKI_Jacket2_02",{{"CUP_10x_303_M",5,10}}},{},"CUP_H_TKI_Lungee_03","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_O_TBAN_Machine_Gunner_01 : CFP_O_TBAN_Team_Leader_01 {
-        
+        editorPreview = "\x\cfp\addons\o_tban\data\preview\CFP_O_TBAN_Machine_Gunner_01.JPG";
+
         displayName = "Machine Gunner";
-        
+
         ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_PKM","","","",{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",100},{},""},{},{},{"CUP_O_TKI_Khet_Partug_04",{{"FirstAidKit",1}}},{"CUP_V_OI_TKI_Jacket2_04",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",1,100}}},{"CUP_B_TKI_AlicePack_MG",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",2,100}}},"CUP_H_TKI_SkullCap_02","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_O_TBAN_Team_Leader_AK_47_01 : CFP_O_TBAN_Team_Leader_01 {
-        
+        editorPreview = "\x\cfp\addons\o_tban\data\preview\CFP_O_TBAN_Team_Leader_AK_47_01.JPG";
+
         displayName = "Team Leader [AK-47]";
-        
+
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CUP_O_TKI_Khet_Partug_02",{{"FirstAidKit",1}}},{"CUP_V_OI_TKI_Jacket3_06",{{"CUP_30Rnd_762x39_AK47_M",3,30}}},{"CUP_B_TIK_CivPack_WDL_Ammo",{{"CUP_10Rnd_762x54_SVD_M",2,10},{"CUP_1Rnd_HEDP_M203",2,1},{"CUP_HandGrenade_RGD5",2,1}}},"CUP_H_TKI_Pakol_2_06","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_O_TBAN_Rifleman_AK_47_02 : CFP_O_TBAN_Team_Leader_01 {
-        
+        editorPreview = "\x\cfp\addons\o_tban\data\preview\CFP_O_TBAN_Rifleman_AK_47_02.JPG";
+
         displayName = "Rifleman [AK-47 2]";
-        
+
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CUP_O_TKI_Khet_Partug_06",{{"FirstAidKit",1}}},{"CUP_V_OI_TKI_Jacket3_05",{{"CUP_30Rnd_762x39_AK47_M",3,30}}},{},"CUP_H_TKI_Lungee_04","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_O_TBAN_Rifleman_Lee_Enfield_02 : CFP_O_TBAN_Team_Leader_01 {
-        
+        editorPreview = "\x\cfp\addons\o_tban\data\preview\CFP_O_TBAN_Rifleman_Lee_Enfield_02.JPG";
+
         displayName = "Rifleman [Lee-Enfield 2]";
-        
+
         ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_LeeEnfield","","","",{"CUP_10x_303_M",10},{},""},{},{},{"CUP_O_TKI_Khet_Partug_04",{{"FirstAidKit",1},{"CUP_10x_303_M",3,10}}},{"CUP_V_OI_TKI_Jacket1_05",{{"CUP_10x_303_M",4,10}}},{},"CUP_H_TKI_Lungee_05","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_O_TBAN_Machine_Gunner_2_01 : CFP_O_TBAN_Team_Leader_01 {
-        
+        editorPreview = "\x\cfp\addons\o_tban\data\preview\CFP_O_TBAN_Machine_Gunner_2_01.JPG";
+
         displayName = "Machine Gunner 2";
-        
+
         ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_PKM","","","",{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",100},{},""},{},{},{"CUP_O_TKI_Khet_Partug_02",{{"FirstAidKit",1}}},{"CUP_V_OI_TKI_Jacket3_04",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",1,100}}},{"CUP_B_TKI_AlicePack_MG",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",2,100}}},"CUP_H_TKI_Lungee_06","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_O_TBAN_AT_Rifleman_01 : CFP_O_TBAN_Team_Leader_01 {
-        
+        editorPreview = "\x\cfp\addons\o_tban\data\preview\CFP_O_TBAN_AT_Rifleman_01.JPG";
+
         displayName = "AT Rifleman";
-        
+
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{"CUP_launch_RPG7V","","","",{"CUP_PG7VL_M",1},{},""},{},{"CUP_O_TKI_Khet_Partug_02",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",1,30}}},{"CUP_V_OI_TKI_Jacket4_05",{{"CUP_30Rnd_545x39_AK_M",2,30}}},{"CUP_B_TKI_Backpack_Gunner_RPG",{{"CUP_PG7VL_M",1,1}}},"CUP_H_TKI_Pakol_2_02","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_O_TBAN_AT_Rifleman_2_01 : CFP_O_TBAN_Team_Leader_01 {
-        
+        editorPreview = "\x\cfp\addons\o_tban\data\preview\CFP_O_TBAN_AT_Rifleman_2_01.JPG";
+
         displayName = "AT Rifleman 2";
-        
+
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{"CUP_launch_RPG7V","","","",{"CUP_PG7VL_M",1},{},""},{},{"CUP_O_TKI_Khet_Partug_04",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",1,30}}},{"CUP_V_OI_TKI_Jacket4_01",{{"CUP_30Rnd_545x39_AK_M",2,30}}},{"CUP_B_TKI_Backpack_Gunner_RPG",{{"CUP_PG7VL_M",1,1}}},"CUP_H_TKI_Lungee_02","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_O_TBAN_Grenadier_AK_74_02 : CFP_O_TBAN_Team_Leader_01 {
-        
+        editorPreview = "\x\cfp\addons\o_tban\data\preview\CFP_O_TBAN_Grenadier_AK_74_02.JPG";
+
         displayName = "Grenadier [AK-74 2]";
-        
+
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74_GL","","","",{"CUP_30Rnd_545x39_AK_M",30},{"CUP_1Rnd_HE_GP25_M",1},""},{},{},{"CUP_O_TKI_Khet_Partug_06",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",1,30}}},{"CUP_V_OI_TKI_Jacket2_05",{{"CUP_30Rnd_545x39_AK_M",2,30},{"CUP_1Rnd_HE_GP25_M",3,1}}},{"CUP_B_TKI_AlicePack_Khaki_AmmoAK74",{{"CUP_30Rnd_545x39_AK_M",6,30},{"CUP_1Rnd_HE_GP25_M",2,1},{"CUP_HandGrenade_RGD5",2,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},"CUP_H_TKI_Pakol_2_04","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_O_TBAN_Medic_Lee_Enfield_01 : CFP_O_TBAN_Team_Leader_01 {
-        
+        editorPreview = "\x\cfp\addons\o_tban\data\preview\CFP_O_TBAN_Medic_Lee_Enfield_01.JPG";
+
         displayName = "Medic [Lee Enfield]";
-        
+
         ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_LeeEnfield","","","",{"CUP_10x_303_M",10},{},""},{},{},{"CUP_O_TKI_Khet_Partug_02",{{"FirstAidKit",1},{"CUP_10x_303_M",3,10}}},{"CUP_V_OI_TKI_Jacket4_02",{{"CUP_10x_303_M",1,10}}},{"CUP_B_TK_AssaultPack_Medic",{{"Medikit",1},{"FirstAidKit",10}}},"CUP_H_TKI_Lungee_05","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_O_TBAN_Medic_AK_47_01 : CFP_O_TBAN_Team_Leader_01 {
-        
+        editorPreview = "\x\cfp\addons\o_tban\data\preview\CFP_O_TBAN_Medic_AK_47_01.JPG";
+
         displayName = "Medic [AK-47]";
-        
+
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CUP_O_TKI_Khet_Partug_04",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",1,30}}},{"CUP_V_OI_TKI_Jacket4_05",{{"CUP_30Rnd_762x39_AK47_M",3,30}}},{"CUP_B_TK_AssaultPack_Medic",{{"Medikit",1},{"FirstAidKit",10}}},"CUP_H_TKI_SkullCap_03","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_O_TBAN_Explosive_Specialist_01 : CFP_O_TBAN_Team_Leader_01 {
-        
+        editorPreview = "\x\cfp\addons\o_tban\data\preview\CFP_O_TBAN_Explosive_Specialist_01.JPG";
+
         displayName = "Explosive Specialist";
-       
+
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"CUP_O_TKI_Khet_Partug_08",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",1,30}}},{"CUP_V_OI_TKI_Jacket3_03",{{"CUP_30Rnd_545x39_AK_M",2,30}}},{"CUP_B_TKI_AlicePack_Exp",{{"ToolKit",1},{"MineDetector",1},{"CUP_PipeBomb_M",2,1}}},"CUP_H_TKI_Lungee_Open_05","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_O_TBAN_Explosive_Specialist_Lee_Enfield_01 : CFP_O_TBAN_Team_Leader_01 {
-        
+        editorPreview = "\x\cfp\addons\o_tban\data\preview\CFP_O_TBAN_Explosive_Specialist_Lee_Enfield_01.JPG";
+
         displayName = "Explosive Specialist [Lee Enfield]";
-        
+
         ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_LeeEnfield","","","",{"CUP_10x_303_M",10},{},""},{},{},{"CUP_O_TKI_Khet_Partug_06",{{"FirstAidKit",1},{"CUP_10x_303_M",3,10}}},{"CUP_V_OI_TKI_Jacket3_05",{{"CUP_10x_303_M",4,10}}},{"CUP_B_TKI_AlicePack_Exp",{{"ToolKit",1},{"MineDetector",1},{"CUP_PipeBomb_M",2,1}}},"CUP_H_TKI_SkullCap_05","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_O_TBAN_Gunner_DShKM_01 : CFP_O_TBAN_Team_Leader_01 {
-        
+        editorPreview = "\x\cfp\addons\o_tban\data\preview\CFP_O_TBAN_Gunner_DShKM_01.JPG";
+
         displayName = "Gunner [DShKM]";
-        
+
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"CUP_O_TKI_Khet_Partug_04",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",1,30}}},{"CUP_V_OI_TKI_Jacket2_04",{{"CUP_30Rnd_545x39_AK_M",2,30}}},{"CUP_B_DShkM_TripodHigh_Bag",{}},"CUP_H_TKI_Lungee_03","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_O_TBAN_Gunner_Low_DShKM_01 : CFP_O_TBAN_Team_Leader_01 {
-        
+        editorPreview = "\x\cfp\addons\o_tban\data\preview\CFP_O_TBAN_Gunner_Low_DShKM_01.JPG";
+
         displayName = "Gunner [Low DShKM]";
-        
+
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"CUP_O_TKI_Khet_Partug_02",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",1,30}}},{"CUP_V_OI_TKI_Jacket2_03",{{"CUP_30Rnd_545x39_AK_M",2,30}}},{"CUP_B_DShkM_TripodLow_Bag",{}},"CUP_H_TKI_Pakol_1_05","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_O_TBAN_Gunner_Mortar_01 : CFP_O_TBAN_Team_Leader_01 {
-        
+        editorPreview = "\x\cfp\addons\o_tban\data\preview\CFP_O_TBAN_Gunner_Mortar_01.JPG";
+
         displayName = "Gunner [Mortar}";
-        
+
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"CUP_O_TKI_Khet_Partug_02",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",1,30}}},{"CUP_V_OI_TKI_Jacket3_04",{{"CUP_30Rnd_545x39_AK_M",2,30}}},{"CUP_B_Podnos_Bipod_Bag",{}},"CUP_H_TKI_Pakol_2_01","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_O_TBAN_Gunner_SPG_01 : CFP_O_TBAN_Team_Leader_01 {
-        
+        editorPreview = "\x\cfp\addons\o_tban\data\preview\CFP_O_TBAN_Gunner_SPG_01.JPG";
+
         displayName = "Gunner [SPG-9]";
-        
+
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"CUP_O_TKI_Khet_Partug_06",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",1,30}}},{"CUP_V_OI_TKI_Jacket4_01",{{"CUP_30Rnd_545x39_AK_M",2,30}}},{"CUP_B_SPG9_Tripod_Bag",{}},"CUP_H_TKI_Lungee_05","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_O_TBAN_Technical_PK_01 : CUP_I_Datsun_PK_TK_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_tban\data\preview\CFP_O_TBAN_Technical_PK_01.JPG";
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -338,6 +361,7 @@ class CfgVehicles {
     };
 
     class CFP_O_TBAN_Praga_V3S_01 : CUP_I_V3S_Open_TKG_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_tban\data\preview\CFP_O_TBAN_Praga_V3S_01.JPG";
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -362,6 +386,7 @@ class CfgVehicles {
     };
 
     class CFP_O_TBAN_Offroad_Armed_01 : O_G_Offroad_01_armed_F_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_tban\data\preview\CFP_O_TBAN_Offroad_Armed_01.JPG";
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -391,6 +416,7 @@ class CfgVehicles {
     };
 
     class CFP_O_TBAN_Truck_01 : O_G_Van_01_transport_F_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_tban\data\preview\CFP_O_TBAN_Truck_01.JPG";
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -429,6 +455,7 @@ class CfgVehicles {
     };
 
     class CFP_O_TBAN_Ural_ZU_23_01 : CUP_I_Ural_ZU23_TK_Gue_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_tban\data\preview\CFP_O_TBAN_Ural_ZU_23_01.JPG";
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -458,6 +485,7 @@ class CfgVehicles {
     };
 
     class CFP_O_TBAN_Dastun_Pickup_01 : CUP_C_Datsun_OCimport_02 {
+        editorPreview = "\x\cfp\addons\o_tban\data\preview\CFP_O_TBAN_Dastun_Pickup_01.JPG";
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -488,9 +516,10 @@ class CfgVehicles {
     };
 
     class CFP_O_TBAN_Sniper_2_01 : CFP_O_TBAN_Team_Leader_01 {
-        
+        editorPreview = "\x\cfp\addons\o_tban\data\preview\CFP_O_TBAN_Sniper_2_01.JPG";
+
         displayName = "Sniper 2";
-        
+
         ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_LeeEnfield_rail","","","CUP_optic_LeupoldMk4",{"CUP_10x_303_M",10},{},""},{},{},{"CUP_O_TKI_Khet_Partug_08",{{"FirstAidKit",1},{"SmokeShell",1,1},{"SmokeShellBlue",1,1},{"CUP_10x_303_M",2,10}}},{"CUP_V_OI_TKI_Jacket2_05",{{"CUP_10x_303_M",5,10}}},{},"CUP_H_TKI_Lungee_Open_06","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
