@@ -402,7 +402,7 @@
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "CFP_BattleDressUniform_mtp_snow ";
+			uniformClass = "CFP_BattleDressUniform_mtp_snow";
 			containerClass="Supply60";
 			mass=80;
 		};
