@@ -29,7 +29,14 @@ class CfgPatches {
             "CFP_O_TBAN_Truck_01",
             "CFP_O_TBAN_Ural_ZU_23_01",
             "CFP_O_TBAN_Dastun_Pickup_01",
-            "CFP_O_TBAN_Sniper_2_01"
+            "CFP_O_TBAN_Sniper_2_01",
+            "CFP_O_TBAN_Asst_Gunner_DShKM_01",
+            "CFP_O_TBAN_Asst_Gunner_SPG_01",
+            "CFP_O_TBAN_Asst_Gunner_Mortar_01",
+            "CFP_O_TBAN_DShKM_01",
+            "CFP_O_TBAN_DShKM_Low_01",
+            "CFP_O_TBAN_SPG_9_01",
+            "CFP_O_TBAN_Podnos_2B14_01"
         };
         weapons[] = {};
         requiredAddons[] = {
@@ -40,6 +47,7 @@ class CfgPatches {
             "A3_Soft_F_Gamma_Van_01",
             "A3_Soft_F_Bootcamp_Van_01",
             "CUP_WheeledVehicles_Ural",
+	    "CUP_Weapons_StaticWeapons",
             "CFP_Main",
             "CFP_Uniforms"
         };
