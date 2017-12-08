@@ -30,7 +30,7 @@ nil
 
 #define GEAR_CATEGORIES ["uniform","headgear","facewear","nvg","vest","backpack","speaker","insignia"]
 
-#define WEAPON_CATEGORIES ["grenade", "rifle", "handgun", "launcher", "explosive"]
+#define WEAPON_CATEGORIES ["rifle", "handgun", "launcher", "grenade", "explosive"]
 
 params ["_unit"];
 
