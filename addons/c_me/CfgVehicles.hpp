@@ -8,9 +8,9 @@ class CBA_Extended_EventHandlers_base;
 
 class CfgVehicles {
 
-    class O_Soldier_F;
-    class O_Soldier_F_OCimport_01 : O_Soldier_F { scope = 0; class EventHandlers; };
-    class O_Soldier_F_OCimport_02 : O_Soldier_F_OCimport_01 { class EventHandlers; };
+    class C_man_1;
+    class C_man_1_OCimport_01 : C_man_1 { scope = 0; class EventHandlers; };
+    class C_man_1_OCimport_02 : C_man_1_OCimport_01 { class EventHandlers; };
 
     class CUP_C_Ikarus_TKC;
     class CUP_C_Ikarus_TKC_OCimport_01 : CUP_C_Ikarus_TKC { scope = 0; class EventHandlers; };
@@ -18,8 +18,8 @@ class CfgVehicles {
 
     class CUP_C_LR_Transport_CTK;
     class CUP_C_LR_Transport_CTK_OCimport_01 : CUP_C_LR_Transport_CTK { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_C_LR_Transport_CTK_OCimport_02 : CUP_C_LR_Transport_CTK_OCimport_01 { 
-        class EventHandlers; 
+    class CUP_C_LR_Transport_CTK_OCimport_02 : CUP_C_LR_Transport_CTK_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CargoTurret_01;
             class CargoTurret_02;
@@ -32,8 +32,8 @@ class CfgVehicles {
 
     class CUP_C_SUV_TK;
     class CUP_C_SUV_TK_OCimport_01 : CUP_C_SUV_TK { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_C_SUV_TK_OCimport_02 : CUP_C_SUV_TK_OCimport_01 { 
-        class EventHandlers; 
+    class CUP_C_SUV_TK_OCimport_02 : CUP_C_SUV_TK_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CargoTurret_03;
             class CargoTurret_04;
@@ -51,8 +51,8 @@ class CfgVehicles {
 
     class CUP_C_Datsun_Plain;
     class CUP_C_Datsun_Plain_OCimport_01 : CUP_C_Datsun_Plain { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_C_Datsun_Plain_OCimport_02 : CUP_C_Datsun_Plain_OCimport_01 { 
-        class EventHandlers; 
+    class CUP_C_Datsun_Plain_OCimport_02 : CUP_C_Datsun_Plain_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CargoTurret_01;
             class CargoTurret_02;
@@ -61,8 +61,8 @@ class CfgVehicles {
 
     class CUP_C_Datsun_Covered;
     class CUP_C_Datsun_Covered_OCimport_01 : CUP_C_Datsun_Covered { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_C_Datsun_Covered_OCimport_02 : CUP_C_Datsun_Covered_OCimport_01 { 
-        class EventHandlers; 
+    class CUP_C_Datsun_Covered_OCimport_02 : CUP_C_Datsun_Covered_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CargoTurret_01;
             class CargoTurret_02;
@@ -79,8 +79,8 @@ class CfgVehicles {
 
     class C_Van_01_transport_F;
     class C_Van_01_transport_F_OCimport_01 : C_Van_01_transport_F { scope = 0; class EventHandlers; class Turrets; };
-    class C_Van_01_transport_F_OCimport_02 : C_Van_01_transport_F_OCimport_01 { 
-        class EventHandlers; 
+    class C_Van_01_transport_F_OCimport_02 : C_Van_01_transport_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CargoTurret_L1;
             class CargoTurret_L2;
@@ -96,7 +96,8 @@ class CfgVehicles {
     };
 
 
-    class CFP_C_ME_Civ_1_01 : O_Soldier_F_OCimport_02 {
+    class CFP_C_ME_Civ_1_01 : C_man_1_OCimport_02 {
+        editorPreview = "\x\cfp\addons\c_me\data\preview\CFP_C_ME_Civ_1_01.JPG";
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -121,7 +122,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_C_ME_Civ_2_01 : O_Soldier_F_OCimport_02 {
+    class CFP_C_ME_Civ_2_01 : C_man_1_OCimport_02 {
+        editorPreview = "\x\cfp\addons\c_me\data\preview\CFP_C_ME_Civ_2_01.JPG";
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -146,7 +148,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_C_ME_Civ_3_01 : O_Soldier_F_OCimport_02 {
+    class CFP_C_ME_Civ_3_01 : C_man_1_OCimport_02 {
+        editorPreview = "\x\cfp\addons\c_me\data\preview\CFP_C_ME_Civ_3_01.JPG";
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -171,7 +174,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_C_ME_Civ_4_01 : O_Soldier_F_OCimport_02 {
+    class CFP_C_ME_Civ_4_01 : C_man_1_OCimport_02 {
+        editorPreview = "\x\cfp\addons\c_me\data\preview\CFP_C_ME_Civ_4_01.JPG";
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -196,7 +200,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_C_ME_Civ_5_01 : O_Soldier_F_OCimport_02 {
+    class CFP_C_ME_Civ_5_01 : C_man_1_OCimport_02 {
+        editorPreview = "\x\cfp\addons\c_me\data\preview\CFP_C_ME_Civ_5_01.JPG";
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -221,7 +226,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_C_ME_Civ_6_01 : O_Soldier_F_OCimport_02 {
+    class CFP_C_ME_Civ_6_01 : C_man_1_OCimport_02 {
+        editorPreview = "\x\cfp\addons\c_me\data\preview\CFP_C_ME_Civ_6_01.JPG";
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -246,7 +252,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_C_ME_Civ_7_01 : O_Soldier_F_OCimport_02 {
+    class CFP_C_ME_Civ_7_01 : C_man_1_OCimport_02 {
+        editorPreview = "\x\cfp\addons\c_me\data\preview\CFP_C_ME_Civ_7_01.JPG";
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -271,7 +278,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_C_ME_Civ_8_01 : O_Soldier_F_OCimport_02 {
+    class CFP_C_ME_Civ_8_01 : C_man_1_OCimport_02 {
+        editorPreview = "\x\cfp\addons\c_me\data\preview\CFP_C_ME_Civ_8_01.JPG";
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -296,7 +304,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_C_ME_Civ_9_01 : O_Soldier_F_OCimport_02 {
+    class CFP_C_ME_Civ_9_01 : C_man_1_OCimport_02 {
+        editorPreview = "\x\cfp\addons\c_me\data\preview\CFP_C_ME_Civ_9_01.JPG";
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -321,7 +330,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_C_ME_Civ_10_01 : O_Soldier_F_OCimport_02 {
+    class CFP_C_ME_Civ_10_01 : C_man_1_OCimport_02 {
+        editorPreview = "\x\cfp\addons\c_me\data\preview\CFP_C_ME_Civ_10_01.JPG";
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -346,7 +356,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_C_ME_Civ_11_01 : O_Soldier_F_OCimport_02 {
+    class CFP_C_ME_Civ_11_01 : C_man_1_OCimport_02 {
+        editorPreview = "\x\cfp\addons\c_me\data\preview\CFP_C_ME_Civ_11_01.JPG";
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -371,7 +382,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_C_ME_Civ_12_01 : O_Soldier_F_OCimport_02 {
+    class CFP_C_ME_Civ_12_01 : C_man_1_OCimport_02 {
+        editorPreview = "\x\cfp\addons\c_me\data\preview\CFP_C_ME_Civ_12_01.JPG";
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -396,7 +408,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_C_ME_Civ_13_01 : O_Soldier_F_OCimport_02 {
+    class CFP_C_ME_Civ_13_01 : C_man_1_OCimport_02 {
+        editorPreview = "\x\cfp\addons\c_me\data\preview\CFP_C_ME_Civ_13_01.JPG";
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -421,7 +434,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_C_ME_Civ_14_01 : O_Soldier_F_OCimport_02 {
+    class CFP_C_ME_Civ_14_01 : C_man_1_OCimport_02 {
+        editorPreview = "\x\cfp\addons\c_me\data\preview\CFP_C_ME_Civ_14_01.JPG";
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
