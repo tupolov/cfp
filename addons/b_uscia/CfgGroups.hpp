@@ -376,12 +376,6 @@ class CfgGroups {
                         vehicle = "CFP_b_uscia_paramilitary_officer_01";
                     };
                     class Unit1 {
-                        position[] = { 5 , -5 , 0 };
-                        rank = "SERGEANT";
-                        side = 1;
-                        vehicle = "CFP_b_uscia_paramilitary_officer_01";
-                    };
-                    class Unit2 {
                         position[] = { -10 , -10 , 0 };
                         rank = "PRIVATE";
                         side = 1;
@@ -565,7 +559,12 @@ class CfgGroups {
                     faction = "CFP_B_USCIA";
                     icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
                     rarityGroup = 0.5;
-
+                    class Unit0 {
+                        position[] = { 0 , 0 , 0 };
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CFP_B_USCIA_UH_1H_01";
+                    };
                 };
 
                 class cfp_b_uscia_air_mi8_mt {

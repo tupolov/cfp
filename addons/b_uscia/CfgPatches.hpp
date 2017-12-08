@@ -24,7 +24,6 @@ class CfgPatches {
             "A3_Soft_F_Exp_LSV_01",
             "CUP_Wheeled_SUV",
             "CUP_WheeledVehicles_Datsun",
-            "CFP_O_TBAN",
             "A3_Soft_F_Exp_Offroad_02",
             "CUP_AirVehicles_Mi8",
             "CUP_AirVehicles_UH1H",
