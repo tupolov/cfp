@@ -712,6 +712,57 @@
 			mass=80;
 		};
 	};
+	
+	class CFP_U_FieldUniform_multicam_snow : Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Field Uniform (Multicam Snow)";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_multicam_snow.jpg";
+		author = "AccuracyThruVolume";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_FieldUniform_multicam_snow";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+	
+	class CFP_U_FieldUniform_mtp_snow : Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Field Uniform (MTP Snow)";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_mtp_snow.jpg";
+		author = "AccuracyThruVolume";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_FieldUniform_mtp_snow";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+	
+	class CFP_U_FieldUniform_flecktarn_snow : Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Field Uniform (Flecktarn Snow)";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_flecktarn_snow.jpg";
+		author = "AccuracyThruVolume";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_FieldUniform_flecktarn_snow";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
 
 	ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Tiger Stripe 2)",tigerstripe2,"AccuracyThruVolume")
 	ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (OCP)",scorpion_w2,"AccuracyThruVolume")

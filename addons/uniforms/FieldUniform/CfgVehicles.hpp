@@ -1278,3 +1278,24 @@
 		uniformClass = "CFP_U_FieldUniform_acr_desert_SS";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_acr_desert.paa"};
 	};
+	
+	class CFP_FieldUniform_multicam_snow : CFP_FieldUniform_tigerstripe
+	{
+		displayName = "Field Uniform (Multicam Snow)";
+		uniformClass = "CFP_U_FieldUniform_multicam_snow";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_multicam_snow.paa"};
+	};
+	
+	class CFP_FieldUniform_mtp_snow : CFP_FieldUniform_tigerstripe
+	{
+		displayName = "Field Uniform (MTP Snow)";
+		uniformClass = "CFP_U_FieldUniform_mtp_snow";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_mtp_snow.paa"};
+	};
+	
+	class CFP_FieldUniform_flecktarn_snow : CFP_FieldUniform_tigerstripe
+	{
+		displayName = "Field Uniform (Flecktarn Snow)";
+		uniformClass = "CFP_U_FieldUniform_flecktarn_snow";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_flecktarn_snow.paa"};
+	};

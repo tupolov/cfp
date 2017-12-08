@@ -373,6 +373,57 @@
 			mass=80;
 		};
 	};
+	
+	class CFP_U_BattleDressUniform_multicam_snow: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Battle Dress Uniform (MultiCam Snow)";
+		picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_multicam_snow.jpg";
+		author = "AccuracyThruVolume";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_BattleDressUniform_multicam_snow";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+	
+	class CFP_U_BattleDressUniform_mtp_snow : Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Battle Dress Uniform (MTP Snow)";
+		picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_mtp_snow.jpg";
+		author = "AccuracyThruVolume";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_BattleDressUniform_mtp_snow ";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+	
+	class CFP_U_BattleDressUniform_flecktarn_snow : Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Battle Dress Uniform (Flecktarn Snow)";
+		picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_flecktarn_snow.jpg";
+		author = "AccuracyThruVolume";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_BattleDressUniform_flecktarn_snow";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
 
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Tiger Stripe 2)",tigerstripe2,"AccuracyThruVolume")
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (DPM Woodland / Green)",dpmwoodlandgreen,"AccuracyThruVolume")
