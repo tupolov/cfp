@@ -6,7 +6,7 @@ class CfgVehicles
         scope = 2;
         maximumLoad = 300;
         displayName = CSTRING(SP_Carryall_Black);
-        picture = "\x\cfp\addons\backpacks\data\Black.jpg";
+        picture = "\x\cfp\addons\backpacks\data\icon_Black.jpg";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\data\Black.paa"};
         author = "SP Craig";
     };
@@ -15,7 +15,7 @@ class CfgVehicles
         scope = 2;
         maximumLoad = 300;
         displayName = CSTRING(SP_Carryall_Green);
-        picture = "\x\cfp\addons\backpacks\data\Green.jpg";
+        picture = "\x\cfp\addons\backpacks\data\icon_Green.jpg";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\data\Green.paa"};
         author = "SP Craig";
     };
@@ -24,7 +24,7 @@ class CfgVehicles
         scope = 2;
         maximumLoad = 300;
         displayName = CSTRING(SP_Carryall_Tan);
-        picture = "\x\cfp\addons\backpacks\data\Tan.jpg";
+        picture = "\x\cfp\addons\backpacks\data\icon_Tan.jpg";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\data\Tan.paa"};
         author = "SP Craig";
     };
