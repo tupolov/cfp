@@ -11,3 +11,4 @@
 #include "CUP_B_USMC_Logistics.hpp"
 #include "CUP_B_US_ARMY_Logistics.hpp"
 #include "CUP_O_RU_Logistics.hpp"
+#include "CUP_O_TBAN_Logistics.hpp"
