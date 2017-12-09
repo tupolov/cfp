@@ -77,6 +77,7 @@ class CfgVehicles
     #include "GuineaBissau\CfgVehicles.hpp"
     #include "Guyana\CfgVehicles.hpp"
     #include "Haiti\CfgVehicles.hpp"
+	#include "Hezbollah\CfgVehicles.hpp"
     #include "Honduras\CfgVehicles.hpp"
     #include "HongKong\CfgVehicles.hpp"
     #include "Hungary\CfgVehicles.hpp"
