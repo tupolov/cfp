@@ -108,6 +108,7 @@ class CfgPatches
             "CUP_TrackedVehicles_T72",
             "CUP_TrackedVehicles_ZSU23",
             "CUP_Weapons_StaticWeapons",
+            "CUP_Creatures_StaticWeapons",
 			"A3_Dubbing_Radio_F",
 			"A3_Characters_F",
 			"A3_Characters_F_Common",

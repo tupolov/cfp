@@ -24,7 +24,7 @@ class CfgPatches {
             "CFP_C_AFRISLAMIC_Land_Rover_01"
         };
         weapons[] = {};
-        requiredVersion = 1.62;
+        requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "A3_Characters_F",
             "A3_Soft_F_Beta_Truck_02",

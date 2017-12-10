@@ -20,7 +20,7 @@ class CfgPatches {
             "CFP_O_BH_Landrover_M2_01"
         };
         weapons[] = {};
-        requiredVersion = 1.62;
+        requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "A3_Soft_F_Offroad_01",
             "CUP_WheeledVehicles_Datsun",

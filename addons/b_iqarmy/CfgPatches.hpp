@@ -69,7 +69,6 @@ class CfgPatches {
             "CUP_WheeledVehicles_HMMWV",
             "CUP_WheeledVehicles_Ural",
             "CUP_WheeledVehicles_RG31",
-            "CFP_B_USMC_DES",
             "CUP_WheeledVehicles_Mastiff",
             "CUP_WheeledVehicles_Ridgeback",
             "CUP_WheeledVehicles_Wolfhound",
@@ -79,6 +78,7 @@ class CfgPatches {
             "CUP_TrackedVehicles_T72",
             "CUP_TrackedVehicles_ZSU23",
             "CUP_TrackedVehicles_M1_Abrams",
+            "CUP_Weapons_StaticWeapons",
             "CUP_Creatures_StaticWeapons",
             "CUP_AirVehicles_Mi24",
             "CUP_AirVehicles_Su25"

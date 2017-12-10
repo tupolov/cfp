@@ -57,7 +57,8 @@ class CfgPatches {
             "A3_Air_F_Gamma_Plane_Fighter_03",
             "A3_Air_F_EPC_Plane_CAS_02",
             "CUP_AirVehicles_Su25",
-            "CUP_Weapons_StaticWeapons"
+            "CUP_Weapons_StaticWeapons",
+            "CUP_Creatures_StaticWeapons"
         };
         author = MODULE_AUTHOR;
         authors[] = {"AccuracyThruVolume"};

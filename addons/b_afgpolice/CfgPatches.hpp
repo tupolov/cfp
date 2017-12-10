@@ -11,7 +11,7 @@ class CfgPatches {
             "CFP_B_AFGPolice_offroad"
         };
         weapons[] = {};
-        requiredVersion = 1.62;
+        requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "A3_Characters_F",
             "CFP_Uniforms"

@@ -28,7 +28,7 @@ class CfgPatches {
             "CFP_O_ALQAEDA_Ural_Open_01"
         };
         weapons[] = {};
-        requiredVersion = 1.62;
+        requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "A3_Characters_F",
             "cfp_uniforms",

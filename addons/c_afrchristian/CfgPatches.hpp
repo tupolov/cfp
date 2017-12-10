@@ -27,7 +27,7 @@ class CfgPatches {
             "CFP_C_AFRCHRISTIAN_Skoda_01"
         };
         weapons[] = {};
-        requiredVersion = 1.62;
+        requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "A3_Characters_F",
             "CUP_WheeledVehicles_Ikarus",

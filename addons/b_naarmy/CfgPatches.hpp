@@ -38,7 +38,7 @@ class CfgPatches {
             "CFP_B_NAARMY_Automatic_Rifleman_SF_01"
         };
         weapons[] = {};
-        requiredVersion = 1.62;
+        requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "CUP_WheeledVehicles_LR",
             "CUP_AirVehicles_Mi24",

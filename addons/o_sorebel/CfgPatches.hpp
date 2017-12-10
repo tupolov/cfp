@@ -32,7 +32,7 @@ class CfgPatches {
             "CFP_O_SOREBEL_Bombmaker_2_01"
         };
         weapons[] = {};
-        requiredVersion = 1.62;
+        requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "A3_Characters_F",
             "CUP_Creatures_Military_SLA",
@@ -40,7 +40,8 @@ class CfgPatches {
             "CUP_WheeledVehicles_Datsun",
             "CUP_WheeledVehicles_V3S",
             "CUP_WheeledVehicles_UAZ",
-            "CUP_Weapons_StaticWeapons"
+            "CUP_Weapons_StaticWeapons",
+            "CUP_Creatures_StaticWeapons"
         };
         author = "Drew";
         authors[] = { "Drew" };

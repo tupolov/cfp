@@ -7,7 +7,7 @@ class CfgPatches {
             "CFP_B_CFPBUGARMY_Machine_Gunner_01"
         };
         weapons[] = {};
-        requiredVersion = 1.62;
+        requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "A3_Characters_F",
             "cfp_uniforms"

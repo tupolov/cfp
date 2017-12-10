@@ -57,6 +57,7 @@ class CfgPatches
             "CUP_WheeledVehicles_BTR60",
             "CUP_TrackedVehicles_BMP",
             "CUP_TrackedVehicles_ZSU23",
+            "CUP_Weapons_StaticWeapons",
             "CUP_Creatures_StaticWeapons"
         };
         author = MODULE_AUTHOR;
