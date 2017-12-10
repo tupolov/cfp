@@ -1,11 +1,11 @@
 
 //Honduras
 
-	class Hezbollah_Flag: FlagPole_F
+	class Hezbollah2_Flag: FlagPole_F
 	{
 		scope = 2;
 		accuracy = 10000;
-		displayName = "Honduras";
+		displayName = "Hezbollah 2";
 		nameSound = "flag";
 		class EventHandlers
 		{
