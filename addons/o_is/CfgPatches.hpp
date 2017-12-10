@@ -89,7 +89,6 @@ class CfgPatches
 			"IS_bandanna_black_logo2",
 			"IS_Balaclava_black_logo1"
 		};
-		requiredVersion = 0.1;
 		requiredAddons[] = {
             "CUP_WheeledVehicles_T810",
             "A3_Soft_F",
@@ -118,5 +117,9 @@ class CfgPatches
 			"A3_Characters_F_BLUFOR",
 			"CFP_protocols"
 		};
+        author = MODULE_AUTHOR;
+        authors[] = {"AccuracyThruVolume"};
+        requiredVersion = REQUIRED_VERSION;
+        VERSION_CONFIG;
 	};
 };
