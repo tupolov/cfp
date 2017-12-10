@@ -25,7 +25,7 @@ class CfgPatches {
             "CFP_O_HEZBOLLAH_Machine_Gunner_SF_01",
             "CFP_O_HEZBOLLAH_Explosive_Specialist_SF_01",
             "CFP_O_HEZBOLLAH_Sniper_SF_01",
-	    "CFP_O_HEZBOLLAH_Gunner_DShKM_01",
+	        "CFP_O_HEZBOLLAH_Gunner_DShKM_01",
             "CFP_O_HEZBOLLAH_Gunner_DShKM_Low_01",
             "CFP_O_HEZBOLLAH_Asst_Gunner_DShKM_01",
             "CFP_O_HEZBOLLAH_Gunner_TOW_01",
@@ -36,18 +36,19 @@ class CfgPatches {
             "CFP_O_HEZBOLLAH_Asst_Gunner_Mortar_01",
             "CFP_O_HEZBOLLAH_Gunner_SPG_01",
             "CFP_O_HEZBOLLAH_Asst_Gunner_SPG_01",
-	    "CFP_O_HEZBOLLAH_DShKM_01",
+	        "CFP_O_HEZBOLLAH_DShKM_01",
             "CFP_O_HEZBOLLAH_DShKM_Low_01",
             "CFP_O_HEZBOLLAH_TOW_AT_01",
             "CFP_O_HEZBOLLAH_SPG_9_01"
         };
         weapons[] = {};
-        requiredVersion = 1.62;
+        requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "A3_Characters_F",
             "cfp_uniforms",
-	    "CUP_Weapons_StaticWeapons"
-	};
+	        "CUP_Weapons_StaticWeapons",
+            "CUP_Creatures_StaticWeapons"
+	    };
         author = "Drew";
         authors[] = {"Drew"};
     };
