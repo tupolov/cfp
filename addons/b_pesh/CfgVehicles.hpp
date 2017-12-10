@@ -1,6 +1,9 @@
 class CfgVehicles
 {
-    class I_soldier_F;
+    class I_Soldier_base_F;
+    class I_soldier_F : I_Soldier_base_F {
+        class EventHandlers;
+    };
     class cfp_b_pesh_base: I_soldier_F
     {
         genericnames = "TakistaniMen";
@@ -32,7 +35,7 @@ class CfgVehicles
         magazines[] = {};
         Respawnmagazines[] = {};
         identityTypes[] = {"NoGlasses","LanguagePER_F","Head_TK","G_IRAN_default"};
-        class EventHandlers
+        class EventHandlers : EventHandlers
         {
             class ADDON
             {
@@ -226,13 +229,14 @@ class CfgVehicles
     };
 
     class FlagCarrier;
-    class ISC_Flag_Kurdistan: FlagCarrier
+    class FlagCarrier_OCimport_01 : FlagCarrier { scope = 0; class Eventhandlers; };
+    class ISC_Flag_Kurdistan : FlagCarrier_OCimport_01
     {
         author = "AccuracythruVolume";
         displayName = "Flag (Kurdistan)";
         scope = 2;
         scopeCurator = 2;
-        class EventHandlers
+        class EventHandlers : EventHandlers
         {
             class ADDON
             {
@@ -242,23 +246,8 @@ class CfgVehicles
     };
 
     class Offroad_01_base_F;
-    class B_G_Offroad_01_armed_F;
-    class CUP_B_HMMWV_M2_USA;
-    class CUP_O_Ural_CHDKZ;
-    class CUP_O_Ural_ZU23_CHDKZ;
-    class CUP_O_BRDM2_TKA;
-    class CUP_O_BTR60_TK;
-    class CUP_O_BMP1_TKA;
-    class CUP_O_BMP2_TKA;
-    class CUP_O_ZSU23_SLA;
-    class CUP_O_2b14_82mm_RU;
-    class CUP_O_Metis_RU;
-    class CUP_O_AGS_RU;
-    class CUP_O_DSHKM_TK_INS;
-    class CUP_O_DSHkM_MiniTriPod_TK_INS;
-    class CUP_O_ZU23_RU;
-
-    class cfp_b_pesh_offroad: Offroad_01_base_F
+    class Offroad_01_base_F_OCimport_01 : Offroad_01_base_F { scope = 0; class Eventhandlers; };
+    class cfp_b_pesh_offroad : Offroad_01_base_F_OCimport_01
     {
         scope = 2;
         side = 1;
@@ -270,7 +259,7 @@ class CfgVehicles
         typicalCargo[] = {"cfp_b_pesh_crewman","cfp_b_pesh_crewman"};
         hiddenSelections[] = {"camo","camo2"};
         hiddenSelectionsTextures[] = {"\x\cfp\addons\b_pesh\data\offroad_pesh_01.paa","\x\cfp\addons\b_pesh\data\offroad_pesh_01.paa"};
-        class EventHandlers
+        class EventHandlers : EventHandlers
         {
             class ADDON
             {
@@ -279,7 +268,9 @@ class CfgVehicles
         };
         Editorpreview = "\x\cfp\addons\b_pesh\data\Preview_Peshmerga_Offroad.jpg";
     };
-    class cfp_b_pesh_offroad_M2: B_G_Offroad_01_armed_F
+    class B_G_Offroad_01_armed_F;
+    class B_G_Offroad_01_armed_F_OCimport_01 : B_G_Offroad_01_armed_F { scope = 0; class Eventhandlers; };
+    class cfp_b_pesh_offroad_M2 : B_G_Offroad_01_armed_F_OCimport_01
     {
         scope = 2;
         side = 1;
@@ -291,7 +282,7 @@ class CfgVehicles
         typicalCargo[] = {"cfp_b_pesh_crewman","cfp_b_pesh_crewman"};
         hiddenSelections[] = {"camo","camo2"};
         hiddenSelectionsTextures[] = {"\x\cfp\addons\b_pesh\data\offroad_pesh_02.paa","\x\cfp\addons\b_pesh\data\offroad_pesh_02.paa"};
-        class EventHandlers
+        class EventHandlers : EventHandlers
         {
             class ADDON
             {
@@ -300,7 +291,9 @@ class CfgVehicles
         };
         Editorpreview = "\x\cfp\addons\b_pesh\data\Preview_Peshmerga_Offroad_M2.jpg";
     };
-    class cfp_b_pesh_HMMWV_M2: CUP_B_HMMWV_M2_USA
+    class CUP_B_HMMWV_M2_USA;
+    class CUP_B_HMMWV_M2_USA_OCimport_01 : CUP_B_HMMWV_M2_USA { scope = 0; class Eventhandlers; };
+    class cfp_b_pesh_HMMWV_M2 : CUP_B_HMMWV_M2_USA_OCimport_01
     {
         scope = 2;
         side = 1;
@@ -310,7 +303,7 @@ class CfgVehicles
         camouflage = 4;
         crew = "cfp_b_pesh_crewman";
         typicalCargo[] = {"cfp_b_pesh_crewman","cfp_b_pesh_crewman"};
-        class EventHandlers
+        class EventHandlers : EventHandlers
         {
             class ADDON
             {
@@ -319,7 +312,9 @@ class CfgVehicles
         };
         Editorpreview = "\x\cfp\addons\b_pesh\data\Preview_Peshmerga_HMMWV.jpg";
     };
-    class cfp_b_pesh_Ural: CUP_O_Ural_CHDKZ
+    class CUP_O_Ural_CHDKZ;
+    class CUP_O_Ural_CHDKZ_OCimport_01 : CUP_O_Ural_CHDKZ { scope = 0; class Eventhandlers; };
+    class cfp_b_pesh_Ural : CUP_O_Ural_CHDKZ_OCimport_01
     {
         scope = 2;
         side = 1;
@@ -329,7 +324,7 @@ class CfgVehicles
         camouflage = 4;
         crew = "cfp_b_pesh_crewman";
         typicalCargo[] = {"cfp_b_pesh_crewman","cfp_b_pesh_crewman"};
-        class EventHandlers
+        class EventHandlers : EventHandlers
         {
             class ADDON
             {
@@ -338,7 +333,9 @@ class CfgVehicles
         };
         Editorpreview = "\x\cfp\addons\b_pesh\data\Preview_Peshmerga_Ural.jpg";
     };
-    class cfp_b_pesh_Ural_ZU23: CUP_O_Ural_ZU23_CHDKZ
+    class CUP_O_Ural_ZU23_CHDKZ;
+    class CUP_O_Ural_ZU23_CHDKZ_OCimport_01 : CUP_O_Ural_ZU23_CHDKZ { scope = 0; class Eventhandlers; };
+    class cfp_b_pesh_Ural_ZU23 : CUP_O_Ural_ZU23_CHDKZ_OCimport_01
     {
         scope = 2;
         side = 1;
@@ -348,7 +345,7 @@ class CfgVehicles
         camouflage = 4;
         crew = "cfp_b_pesh_crewman";
         typicalCargo[] = {"cfp_b_pesh_crewman","cfp_b_pesh_crewman"};
-        class EventHandlers
+        class EventHandlers : EventHandlers
         {
             class ADDON
             {
@@ -357,7 +354,9 @@ class CfgVehicles
         };
         Editorpreview = "\x\cfp\addons\b_pesh\data\Preview_Peshmerga_Ural_ZU23.jpg";
     };
-    class cfp_b_pesh_BRDM: CUP_O_BRDM2_TKA
+    class CUP_O_BRDM2_TKA;
+    class CUP_O_BRDM2_TKA_OCimport_01 : CUP_O_BRDM2_TKA { scope = 0; class Eventhandlers; };
+    class cfp_b_pesh_BRDM : CUP_O_BRDM2_TKA_OCimport_01
     {
         scope = 2;
         side = 1;
@@ -369,7 +368,7 @@ class CfgVehicles
         typicalCargo[] = {"cfp_b_pesh_crewman","cfp_b_pesh_crewman"};
         hiddenSelections[] = {"camo1"};
         hiddenSelectionsTextures[] = {"\x\cfp\addons\b_pesh\data\brdm_pesh_1.paa"};
-        class EventHandlers
+        class EventHandlers : EventHandlers
         {
             class ADDON
             {
@@ -378,7 +377,9 @@ class CfgVehicles
         };
         Editorpreview = "\x\cfp\addons\b_pesh\data\Preview_Peshmerga_BRDM.jpg";
     };
-    class cfp_b_pesh_BTR60: CUP_O_BTR60_TK
+    class CUP_O_BTR60_TK;
+    class CUP_O_BTR60_TK_OCimport_01 : CUP_O_BTR60_TK { scope = 0; class Eventhandlers; };
+    class cfp_b_pesh_BTR60 : CUP_O_BTR60_TK_OCimport_01
     {
         scope = 2;
         side = 1;
@@ -388,7 +389,7 @@ class CfgVehicles
         camouflage = 4;
         crew = "cfp_b_pesh_crewman";
         typicalCargo[] = {"cfp_b_pesh_crewman","cfp_b_pesh_crewman"};
-        class EventHandlers
+        class EventHandlers : EventHandlers
         {
             class ADDON
             {
@@ -397,7 +398,9 @@ class CfgVehicles
         };
         Editorpreview = "\x\cfp\addons\b_pesh\data\Preview_Peshmerga_BTR60.jpg";
     };
-    class cfp_b_pesh_BMP1: CUP_O_BMP1_TKA
+    class CUP_O_BMP1_TKA;
+    class CUP_O_BMP1_TKA_OCimport_01 : CUP_O_BMP1_TKA { scope = 0; class Eventhandlers; };
+    class cfp_b_pesh_BMP1 : CUP_O_BMP1_TKA_OCimport_01
     {
         scope = 2;
         side = 1;
@@ -407,7 +410,7 @@ class CfgVehicles
         camouflage = 4;
         crew = "cfp_b_pesh_crewman";
         typicalCargo[] = {"cfp_b_pesh_crewman","cfp_b_pesh_crewman"};
-        class EventHandlers
+        class EventHandlers : EventHandlers
         {
             class ADDON
             {
@@ -416,7 +419,9 @@ class CfgVehicles
         };
         Editorpreview = "\x\cfp\addons\b_pesh\data\Preview_Peshmerga_BMP1.jpg";
     };
-    class cfp_b_pesh_BMP2: CUP_O_BMP2_TKA
+    class CUP_O_BMP2_TKA;
+    class CUP_O_BMP2_TKA_OCimport_01 : CUP_O_BMP2_TKA { scope = 0; class Eventhandlers; };
+    class cfp_b_pesh_BMP2 : CUP_O_BMP2_TKA_OCimport_01
     {
         scope = 2;
         side = 1;
@@ -426,7 +431,7 @@ class CfgVehicles
         camouflage = 4;
         crew = "cfp_b_pesh_crewman";
         typicalCargo[] = {"cfp_b_pesh_crewman","cfp_b_pesh_crewman"};
-        class EventHandlers
+        class EventHandlers : EventHandlers
         {
             class ADDON
             {
@@ -435,7 +440,9 @@ class CfgVehicles
         };
         Editorpreview = "\x\cfp\addons\b_pesh\data\Preview_Peshmerga_BMP2.jpg";
     };
-    class cfp_b_pesh_ZSU: CUP_O_ZSU23_SLA
+    class CUP_O_ZSU23_SLA;
+    class CUP_O_ZSU23_SLA_OCimport_01 : CUP_O_ZSU23_SLA { scope = 0; class Eventhandlers; };
+    class cfp_b_pesh_ZSU : CUP_O_ZSU23_SLA_OCimport_01
     {
         scope = 2;
         side = 1;
@@ -445,7 +452,7 @@ class CfgVehicles
         camouflage = 4;
         crew = "cfp_b_pesh_crewman";
         typicalCargo[] = {"cfp_b_pesh_crewman","cfp_b_pesh_crewman"};
-        class EventHandlers
+        class EventHandlers : EventHandlers
         {
             class ADDON
             {
@@ -454,7 +461,9 @@ class CfgVehicles
         };
         Editorpreview = "\x\cfp\addons\b_pesh\data\Preview_Peshmerga_ZSU.jpg";
     };
-    class cfp_b_pesh_2b14: CUP_O_2b14_82mm_RU
+    class CUP_O_2b14_82mm_RU;
+    class CUP_O_2b14_82mm_RU_OCimport_01 : CUP_O_2b14_82mm_RU { scope = 0; class Eventhandlers; };
+    class cfp_b_pesh_2b14 : CUP_O_2b14_82mm_RU_OCimport_01
     {
         scope = 2;
         side = 1;
@@ -465,7 +474,9 @@ class CfgVehicles
         crew = "cfp_b_pesh_rifleman";
         typicalCargo[] = {"cfp_b_pesh_rifleman"};
     };
-    class cfp_b_pesh_Metis: CUP_O_Metis_RU
+    class CUP_O_Metis_RU;
+    class CUP_O_Metis_RU_OCimport_01 : CUP_O_Metis_RU { scope = 0; class Eventhandlers; };
+    class cfp_b_pesh_Metis : CUP_O_Metis_RU_OCimport_01
     {
         scope = 2;
         side = 1;
@@ -476,7 +487,9 @@ class CfgVehicles
         crew = "cfp_b_pesh_rifleman";
         typicalCargo[] = {"cfp_b_pesh_rifleman"};
     };
-    class cfp_b_pesh_ags30: CUP_O_AGS_RU
+    class CUP_O_AGS_RU;
+    class CUP_O_AGS_RU_OCimport_01 : CUP_O_AGS_RU { scope = 0; class Eventhandlers; };
+    class cfp_b_pesh_ags30 : CUP_O_AGS_RU_OCimport_01
     {
         scope = 2;
         side = 1;
@@ -487,7 +500,9 @@ class CfgVehicles
         crew = "cfp_b_pesh_rifleman";
         typicalCargo[] = {"cfp_b_pesh_rifleman"};
     };
-    class cfp_b_pesh_dshkm: CUP_O_DSHKM_TK_INS
+    class CUP_O_DSHKM_TK_INS;
+    class CUP_O_DSHKM_TK_INS_OCimport_01 : CUP_O_DSHKM_TK_INS { scope = 0; class Eventhandlers; };
+    class cfp_b_pesh_dshkm : CUP_O_DSHKM_TK_INS_OCimport_01
     {
         scope = 2;
         side = 1;
@@ -498,7 +513,9 @@ class CfgVehicles
         crew = "cfp_b_pesh_rifleman";
         typicalCargo[] = {"cfp_b_pesh_rifleman"};
     };
-    class cfp_b_pesh_dshkm_minitripod: CUP_O_DSHkM_MiniTriPod_TK_INS
+    class CUP_O_DSHkM_MiniTriPod_TK_INS;
+    class CUP_O_DSHkM_MiniTriPod_TK_INS_OCimport_01 : CUP_O_DSHkM_MiniTriPod_TK_INS { scope = 0; class Eventhandlers; };
+    class cfp_b_pesh_dshkm_minitripod : CUP_O_DSHkM_MiniTriPod_TK_INS_OCimport_01
     {
         scope = 2;
         side = 1;
@@ -509,7 +526,9 @@ class CfgVehicles
         crew = "cfp_b_pesh_rifleman";
         typicalCargo[] = {"cfp_b_pesh_rifleman"};
     };
-    class cfp_b_pesh_zu23: CUP_O_ZU23_RU
+    class CUP_O_ZU23_RU;
+    class CUP_O_ZU23_RU_OCimport_01 : CUP_O_ZU23_RU { scope = 0; class Eventhandlers; };
+    class cfp_b_pesh_zu23 : CUP_O_ZU23_RU_OCimport_01
     {
         scope = 2;
         side = 1;
