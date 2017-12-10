@@ -1,6 +1,9 @@
 class CfgVehicles
 {
-	class I_soldier_F;
+    class I_Soldier_base_F;
+    class I_soldier_F : I_Soldier_base_F {
+        class EventHandlers;
+    };
 
 	class cfp_b_ypg_base: I_Soldier_F
 	{
@@ -33,7 +36,7 @@ class CfgVehicles
 		magazines[] = {};
 		Respawnmagazines[] = {};
 		identityTypes[] = {"NoGlasses","LanguagePER_F","Head_Greek","G_IRAN_default"};
-		class EventHandlers
+		class EventHandlers : EventHandlers
 		{
 			class ADDON {
 				init = "(_this select 0) execVM ""\x\cfp\addons\b_ypg\Scripts\randomize_gear.sqf""; (_this select 0) execVM ""\x\cfp\addons\b_ypg\Scripts\randomize_weapon.sqf""";
@@ -207,7 +210,8 @@ class CfgVehicles
 	};
 
 	class FlagChecked_F;
-	class YPG_Flag: FlagChecked_F
+    class FlagChecked_F_OCimport_01 : FlagChecked_F { scope = 0; class Eventhandlers; };
+    class YPG_Flag : FlagChecked_F_OCimport_01
 	{
 		_generalMacro = "FlagCarrier";
 		faction = "CFP_B_YPG";
@@ -217,16 +221,15 @@ class CfgVehicles
 		accuracy = 1000;
 		displayName = "Flag YPG";
 		armor = 1;
-		class EventHandlers
+		class EventHandlers : EventHandlers
 		{
 			init = "(_this select 0) setFlagTexture ""\x\cfp\addons\b_ypg\data\ISC_flag_YPG.paa""";
 		};
 	};
 
-	class B_G_Offroad_01_armed_F;
 	class Offroad_01_base_F;
-
-	class cfp_b_ypg_offroad: Offroad_01_base_F
+    class Offroad_01_base_F_OCimport_01 : Offroad_01_base_F { scope = 0; class Eventhandlers; };
+    class cfp_b_ypg_offroad : Offroad_01_base_F_OCimport_01
 	{
 		scope = 2;
 		side = 1;
@@ -238,13 +241,14 @@ class CfgVehicles
 		typicalCargo[] = {"cfp_b_ypg_crewman","cfp_b_ypg_crewman"};
 		hiddenSelections[] = {"camo","camo2"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\b_ypg\data\offroad_ypg_white.paa","\x\cfp\addons\b_ypg\data\offroad_ip_01.paa"};
-		class EventHandlers
+		class EventHandlers : EventHandlers
 		{
 			init = "(_this select 0) execVM ""\x\cfp\addons\b_ypg\Scripts\randomize_tex.sqf""";
 		};
 		editorPreview = "\x\cfp\addons\b_ypg\data\Preview_YPG_Offroad.jpg";
 	};
-	class cfp_b_ypg_offroad_flag: cfp_b_ypg_offroad
+
+    class cfp_b_ypg_offroad_flag : cfp_b_ypg_offroad
 	{
 		scope = 2;
 		side = 1;
@@ -256,7 +260,7 @@ class CfgVehicles
 		typicalCargo[] = {"cfp_b_ypg_crewman","cfp_b_ypg_crewman"};
 		hiddenSelections[] = {"camo","camo2"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\b_ypg\data\offroad_ypg_white.paa","\x\cfp\addons\b_ypg\data\offroad_ip_01.paa"};
-		class EventHandlers
+		class EventHandlers : EventHandlers
 		{
 			class ADDON {
 				init = "(_this select 0) execVM ""\x\cfp\addons\b_ypg\Scripts\randomize_tex.sqf""; (_this select 0) execVM ""\x\cfp\addons\b_ypg\Scripts\AttachFlag.sqf""";
@@ -265,7 +269,10 @@ class CfgVehicles
 		};
 		editorPreview = "\x\cfp\addons\b_ypg\data\Preview_YPG_Offroad_flag.jpg";
 	};
-	class cfp_b_ypg_offroad_M2: B_G_Offroad_01_armed_F
+
+	class B_G_Offroad_01_armed_F;
+    class B_G_Offroad_01_armed_F_OCimport_01 : B_G_Offroad_01_armed_F { scope = 0; class Eventhandlers; };
+    class cfp_b_ypg_offroad_M2 : B_G_Offroad_01_armed_F_OCimport_01
 	{
 		scope = 2;
 		side = 1;
@@ -277,7 +284,7 @@ class CfgVehicles
 		typicalCargo[] = {"cfp_b_ypg_crewman","cfp_b_ypg_crewman"};
 		hiddenSelections[] = {"camo","camo2"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\b_ypg\data\offroad_ypg_white.paa","\x\cfp\addons\b_ypg\data\offroad_ip_02.paa"};
-		class EventHandlers
+		class EventHandlers : EventHandlers
 		{
 			class ADDON {
 				init = "(_this select 0) execVM ""\x\cfp\addons\b_ypg\Scripts\randomize_tex.sqf""; (_this select 0) execVM ""\x\cfp\addons\b_ypg\Scripts\AttachFlag.sqf""";
@@ -286,7 +293,8 @@ class CfgVehicles
 		};
 		editorPreview = "\x\cfp\addons\b_ypg\data\Preview_YPG_Offroad_M2.jpg";
 	};
-	class cfp_b_ypg_offroad_M2_flag: cfp_b_ypg_offroad_M2
+
+    class cfp_b_ypg_offroad_M2_flag : cfp_b_ypg_offroad_M2
 	{
 		scope = 2;
 		side = 1;
@@ -298,7 +306,7 @@ class CfgVehicles
 		typicalCargo[] = {"cfp_b_ypg_crewman","cfp_b_ypg_crewman"};
 		hiddenSelections[] = {"camo","camo2"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\b_ypg\data\offroad_ypg_white.paa","\x\cfp\addons\b_ypg\data\offroad_ip_02.paa"};
-		class EventHandlers
+		class EventHandlers : EventHandlers
 		{
 			class ADDON {
 				init = "(_this select 0) execVM ""\x\cfp\addons\b_ypg\Scripts\randomize_tex.sqf""; (_this select 0) execVM ""\x\cfp\addons\b_ypg\Scripts\AttachFlag.sqf""";
