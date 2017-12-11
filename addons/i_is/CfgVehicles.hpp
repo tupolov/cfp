@@ -21,12 +21,8 @@ class CfgVehicles
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\fielduniform\is\IS_pixelated_desert.paa"};
 		camouflage = 1;
 		backpack = "";
-		headgearProbability = 50;
-		allowedHeadgear[] = {"IS_shemag_black","H_ShemagOpen_khk","H_Shemag_olive","H_ShemagOpen_tan"};
-		allowedHeadgearB[] = {"H_Bandanna_khk","H_Bandanna_cbr","H_Bandanna_sgg","H_Bandanna_gry","H_Bandanna_camo","H_Bandanna_mcamo"};
-		facewear = "";
-		allowedfacewear[] = {"G_Bandanna_blk","G_Bandanna_khk","G_Bandanna_oli","G_Bandanna_tan"};
 		randomWeaponProbability = 50;
+		randomGearProbability = 50;
 		linkedItems[] = {"V_TacVestIR_blk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"V_TacVestIR_blk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		weapons[] = {"Throw","Put"};
@@ -34,11 +30,294 @@ class CfgVehicles
 		magazines[] = {};
 		Respawnmagazines[] = {};
 		identityTypes[] = {"NoGlasses","Language_Ackbar","Head_TK","G_IRAN_default"};
+		
+		uniformList[] = {
+			"IS_uniform_o",1
+		};
+		
+		headgearList[] = {
+			"IS_shemag_black", 0.5,
+			"H_ShemagOpen_khk", 0.5,
+			"H_Shemag_olive", 0.5,
+			"H_ShemagOpen_tan", 0.5,
+			"H_Bandanna_khk", 0.25,
+			"H_Bandanna_cbr", 0.25,
+			"H_Bandanna_sgg", 0.25,
+			"H_Bandanna_gry", 0.25,
+			"H_Bandanna_camo", 0.25,
+			"H_Bandanna_mcamo", 0.25
+		};
+		
+		insigniaList[] = {
+			"", 0.5,
+			"insignia_cfp_i_IS", 0.5
+		};
+		
+		facewearList[] = {
+			"", 0.5,
+			"G_Bandanna_blk", 0.25,
+			"G_Bandanna_khk", 0.25,
+			"G_Bandanna_oli", 0.25,
+			"G_Bandanna_tan", 0.25,
+			"IS_Balaclava", 0.1,
+			"IS_Balaclava_logo1", 0.1,
+			"IS_Balaclava_logo2", 0.1
+		};
+		
+		vestList[] = {
+			"V_TacVest_blk", 0.5,
+			"V_TacVest_khk", 0.5,
+			"V_TacVest_brn", 0.5,
+			"V_TacVest_oli", 0.5,
+			"V_TacVest_camo", 0.5,
+			"SP_OpforRig1_Black", 0.5,
+			"SP_OpforRig1_Green", 0.5,
+			"SP_OpforRig1_Tan", 0.5,
+			"SP_OpforRig1_Grey", 0.5,
+			"V_TacChestrig_grn_F", 0.5,
+			"V_TacChestrig_cbr_F", 0.5,
+			"V_TacChestrig_oli_F", 0.5,
+			"CUP_V_B_GER_Carrier_Rig_2_Brown", 0.5,
+			"CUP_V_I_RACS_Carrier_Rig_2", 0.5,
+			"CUP_V_I_RACS_Carrier_Rig_wdl_2",  0.5,
+			"CUP_V_RUS_Smersh_1", 0.5,
+			"CUP_V_O_Ins_Carrier_Rig_Light", 0.5,
+			"CUP_V_I_Carrier_Belt", 0.5,
+			"CUP_V_O_Ins_Carrier_Rig", 0.5
+		};
+
+		grenadeList[] = {{"CUP_HandGrenade_RGD5",2},1};
+		rifleList[] = {
+			{"CUP_arifle_AKM",{"CUP_30Rnd_545x39_AK_M",6}}, 0.45,
+			{"CUP_arifle_AKS",{"CUP_30Rnd_545x39_AK_M",6}}, 0.2,
+			{"CUP_arifle_AK74M",{"CUP_30Rnd_545x39_AK_M",6}}, 0.05, 
+			{"CUP_arifle_AK47",{"CUP_30Rnd_545x39_AK_M",6}}, 0.05,
+			{"CUP_arifle_Sa58P",{"CUP_30Rnd_Sa58_M",6}}, 0.05,
+			{"CUP_arifle_M16A4_Base",{"CUP_30Rnd_556x45_Stanag",6}}, 0.05, 
+			{"CUP_arifle_M4A1",{"CUP_30Rnd_556x45_Stanag",6}}, 0.05,			
+			{"CUP_arifle_G36K",{"CUP_30Rnd_556x45_G36",6}}, 0.05,
+			{"CUP_arifle_FNFAL_OSW",{"CUP_20Rnd_762x51_FNFAL_M",6}}, 0.05,	
+			{"CUP_arifle_M4A1_desert",{"CUP_30Rnd_556x45_Stanag",6}}, 0.05						
+		};
+		handgunList[] = {
+			"", 0.7,
+			{"CUP_hgun_Makarov",{"CUP_8Rnd_9x18_Makarov_M",3}}, 0.3
+		};
+				
 		class EventHandlers : EventHandlers
 		{
 			class ADDON
 			{
-				init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_gear.sqf""; (_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_weapon.sqf""";
+				init = "(_this select 0) call  CFP_main_fnc_randomizeUnit; (_this select 0) setObjectTextureGlobal [0, (selectRandom [
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_3_color_des.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_3_color_des_s_acu_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_3_color_des_s_black_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_3_color_des_s_choc_chip_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_3_color_des_s_digital_multicam_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_3_color_des_s_dpm_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_3_color_des_s_desert_flectarn_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_3_color_des_s_marpat_d_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_3_color_des_s_marpat_w_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_3_color_des_s_multicam_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_3_color_des_s_pixelated_desert_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_3_color_des_s_woodland_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_3_color_des_s_woodland2_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_3_color_des_s_tan_p.paa',
+
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_acu.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_acu_s_3_color_des_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_acu_s_black_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_acu_s_choc_chip_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_acu_s_digital_multicam_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_acu_s_dpm_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_acu_s_desert_flectarn_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_acu_s_marpat_d_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_acu_s_marpat_w_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_acu_s_multicam_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_acu_s_pixelated_desert_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_acu_s_woodland_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_acu_s_woodland2_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_acu_s_tan_p.paa',
+
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_black.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_black_s_3_color_des_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_black_s_acu_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_black_s_choc_chip_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_black_s_digital_multicam_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_black_s_dpm_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_black_s_desert_flectarn_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_black_s_marpat_d_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_black_s_marpat_w_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_black_s_multicam_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_black_s_pixelated_desert_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_black_s_woodland_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_black_s_woodland2_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_black_s_tan_p.paa',
+
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_choc_chip.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_choc_chip_s_3_color_des_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_choc_chip_s_acu_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_choc_chip_s_black_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_choc_chip_s_digital_multicam_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_choc_chip_s_dpm_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_choc_chip_s_desert_flectarn_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_choc_chip_s_marpat_d_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_choc_chip_s_marpat_w_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_choc_chip_s_multicam_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_choc_chip_s_pixelated_desert_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_choc_chip_s_woodland_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_choc_chip_s_woodland2_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_choc_chip_s_tan_p.paa',
+
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_digital_multicam.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_digital_multicam_s_3_color_des_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_digital_multicam_s_acu_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_digital_multicam_s_black_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_digital_multicam_s_choc_chip_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_digital_multicam_s_dpm_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_digital_multicam_s_desert_flectarn_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_digital_multicam_s_marpat_d_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_digital_multicam_s_marpat_w_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_digital_multicam_s_multicam_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_digital_multicam_s_pixelated_desert_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_digital_multicam_s_woodland_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_digital_multicam_s_woodland2_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_digital_multicam_s_tan_p.paa',
+
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_dpm.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_dpm_s_3_color_des_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_dpm_s_acu_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_dpm_s_black_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_dpm_s_choc_chip_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_dpm_s_digital_multicam_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_dpm_s_desert_flectarn_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_dpm_s_marpat_d_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_dpm_s_marpat_w_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_dpm_s_multicam_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_dpm_s_pixelated_desert_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_dpm_s_woodland_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_dpm_s_woodland2_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_dpm_s_tan_p.paa',
+
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_desert_flectarn.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_desert_flectarn_s_3_color_des_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_desert_flectarn_s_acu_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_desert_flectarn_s_black_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_desert_flectarn_s_choc_chip_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_desert_flectarn_s_digital_multicam_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_desert_flectarn_s_dpm_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_desert_flectarn_s_marpat_d_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_desert_flectarn_s_marpat_w_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_desert_flectarn_s_multicam_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_desert_flectarn_s_pixelated_desert_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_desert_flectarn_s_woodland_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_desert_flectarn_s_woodland2_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_desert_flectarn_s_tan_p.paa',
+
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_marpat_d.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_marpat_d_s_3_color_des_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_marpat_d_s_acu_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_marpat_d_s_black_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_marpat_d_s_choc_chip_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_marpat_d_s_digital_multicam_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_marpat_d_s_dpm_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_marpat_d_s_desert_flectarn_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_marpat_d_s_marpat_w_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_marpat_d_s_multicam_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_marpat_d_s_pixelated_desert_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_marpat_d_s_woodland_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_marpat_d_s_woodland2_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_marpat_d_s_tan_p.paa',
+
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_marpat_w.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_marpat_w_s_3_color_des_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_marpat_w_s_acu_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_marpat_w_s_black_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_marpat_w_s_choc_chip_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_marpat_w_s_digital_multicam_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_marpat_w_s_dpm_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_marpat_w_s_desert_flectarn_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_marpat_w_s_marpat_d_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_marpat_w_s_multicam_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_marpat_w_s_pixelated_desert_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_marpat_w_s_woodland_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_marpat_w_s_woodland2_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_marpat_w_s_tan_p.paa',
+
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_multicam.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_multicam_s_3_color_des_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_multicam_s_acu_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_multicam_s_black_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_multicam_s_choc_chip_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_multicam_s_digital_multicam_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_multicam_s_dpm_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_multicam_s_desert_flectarn_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_multicam_s_marpat_d_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_multicam_s_marpat_w_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_multicam_s_pixelated_desert_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_multicam_s_woodland_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_multicam_s_woodland2_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_multicam_s_tan_p.paa',
+
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_pixelated_desert.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_pixelated_desert_s_3_color_des_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_pixelated_desert_s_acu_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_pixelated_desert_s_black_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_pixelated_desert_s_choc_chip_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_pixelated_desert_s_digital_multicam_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_pixelated_desert_s_dpm_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_pixelated_desert_s_desert_flectarn_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_pixelated_desert_s_marpat_d_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_pixelated_desert_s_marpat_w_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_pixelated_desert_s_multicam_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_pixelated_desert_s_woodland_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_pixelated_desert_s_woodland2_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_pixelated_desert_s_tan_p.paa',
+
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_woodland.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_woodland_s_3_color_des_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_woodland_s_acu_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_woodland_s_black_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_woodland_s_choc_chip_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_woodland_s_digital_multicam_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_woodland_s_dpm_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_woodland_s_desert_flectarn_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_woodland_s_marpat_d_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_woodland_s_marpat_w_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_woodland_s_multicam_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_woodland_s_pixelated_desert_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_woodland_s_woodland2_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_woodland_s_tan_p.paa',
+
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_woodland2.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_woodland2_s_3_color_des_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_woodland2_s_acu_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_woodland2_s_black_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_woodland2_s_choc_chip_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_woodland2_s_digital_multicam_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_woodland2_s_dpm_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_woodland2_s_desert_flectarn_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_woodland2_s_marpat_d_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_woodland2_s_marpat_w_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_woodland2_s_multicam_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_woodland2_s_pixelated_desert_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_woodland2_s_woodland_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_woodland2_s_tan_p.paa',
+
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_tan.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_tan_s_3_color_des_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_tan_s_acu_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_tan_s_black_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_tan_s_choc_chip_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_tan_s_digital_multicam_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_tan_s_dpm_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_tan_s_desert_flectarn_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_tan_s_marpat_d_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_tan_s_marpat_w_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_tan_s_multicam_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_tan_s_pixelated_desert_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_tan_s_woodland_p.paa',
+			'\x\cfp\addons\uniforms\FieldUniform\IS\IS_tan_s_woodland2_p.paa'])];[_this select 0, 'Male01_ackbar'] remoteExecCall ['setSpeaker', 0];";
 			};
 		};
 		editorPreview = "x\cfp\addons\uniforms\FieldUniform\IS\UI\Preview_is_infantry.jpg";
@@ -49,7 +328,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "IS Team Leader";
 		icon = "iconManOfficer";
-		headgearProbability = 50;
+		randomGearProbability = 50;
 		randomWeaponProbability = 50;
 		linkedItems[] = {"IS_uniform_i","V_TacVestIR_blk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"IS_uniform_i","V_TacVestIR_blk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -57,6 +336,12 @@ class CfgVehicles
 		respawnweapons[] = {"CUP_arifle_AK74M_GL","Binocular","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		Respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		rifleList[] = {
+			{"CUP_arifle_AKS74U",{"CUP_30Rnd_545x39_AK_M",6}}, 0.5,
+			{"CUP_arifle_AK74M",{"CUP_30Rnd_545x39_AK_M",6}}, 0.2, 
+			{"CUP_arifle_M4A1",{"CUP_30Rnd_556x45_Stanag",6}}, 0.2,
+			{"CUP_arifle_M16A4_GL",{{"CUP_30Rnd_556x45_Stanag",6},{"CUP_1Rnd_HE_M203",8}}}, 0.1
+		};
 	};
 	class cfp_i_is_squad_leader: cfp_i_is_base
 	{
@@ -64,7 +349,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "IS Squad Leader";
 		icon = "iconManLeader";
-		headgearProbability = 80;
+		randomGearProbability = 80;
 		randomWeaponProbability = 75;
 		linkedItems[] = {"IS_uniform_i","V_TacVest_khk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
 		respawnLinkedItems[] = {"IS_uniform_i","V_TacVest_khk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
@@ -72,6 +357,12 @@ class CfgVehicles
 		respawnweapons[] = {"CUP_arifle_M4A1_BUIS_GL","Binocular","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		Respawnmagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		rifleList[] = {
+			{"CUP_arifle_AKS",{"CUP_30Rnd_545x39_AK_M",6}}, 0.6,
+			{"CUP_arifle_AK74M",{"CUP_30Rnd_545x39_AK_M",6}}, 0.2, 
+			{"CUP_arifle_M4A1",{"CUP_30Rnd_556x45_Stanag",6}}, 0.1,
+			{"CUP_arifle_G36K",{"CUP_30Rnd_556x45_G36",6}}, 0.1
+		};
 	};
 	class cfp_i_is_grenadier: cfp_i_is_base
 	{
@@ -79,7 +370,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "IS Grenadier";
 		icon = "iconManExplosive";
-		headgearProbability = 60;
+		randomGearProbability = 60;
 		randomWeaponProbability = 20;
 		linkedItems[] = {"IS_uniform_i","V_HarnessOGL_gry","ItemRadio"};
 		respawnLinkedItems[] = {"IS_uniform_i","V_HarnessOGL_gry","ItemRadio"};
@@ -87,6 +378,11 @@ class CfgVehicles
 		respawnweapons[] = {"CUP_arifle_AK74M_GL","Binocular","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
 		Respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+		vestList[] = {"V_HarnessOGL_gry",0.5,"V_HarnessOGL_brn",0.5};
+		rifleList[] = {
+			{"CUP_arifle_M4A1_BUIS_GL",{{"CUP_30Rnd_556x45_Stanag",6},{"CUP_1Rnd_HE_M203",8}}}, 0.5,
+			{"CUP_arifle_AK74M_GL",{{"CUP_30Rnd_545x39_AK_M",6},{"CUP_1Rnd_HE_GP25_M",8}}}, 0.5
+		};
 	};
 	class cfp_i_is_rifleman: cfp_i_is_base
 	{
@@ -94,7 +390,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "IS Rifleman";
 		icon = "iconMan";
-		headgearProbability = 50;
+		randomGearProbability = 50;
 		randomWeaponProbability = 100;
 		linkedItems[] = {"IS_uniform_i","V_HarnessO_gry","ItemRadio"};
 		respawnLinkedItems[] = {"IS_uniform_i","V_HarnessO_gry","ItemRadio"};
@@ -109,7 +405,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "IS Militaman";
 		icon = "iconMan";
-		headgearProbability = 80;
+		randomGearProbability = 80;
 		randomWeaponProbability = 30;
 		linkedItems[] = {"U_I_C_Soldier_Para_5_F","V_BandollierB_khk","ItemRadio"};
 		respawnLinkedItems[] = {"U_I_C_Soldier_Para_5_F","V_BandollierB_khk","ItemRadio"};
@@ -117,6 +413,33 @@ class CfgVehicles
 		respawnweapons[] = {"CUP_srifle_LeeEnfield","Binocular","Throw","Put"};
 		magazines[] = {"CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_HandGrenade_RGD5"};
 		Respawnmagazines[] = {"CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M","CUP_HandGrenade_RGD5"};
+		uniformList[] = {
+			"U_I_C_Soldier_Para_5_F",0.33,
+			"U_I_C_Soldier_Bandit_3_F",0.33,
+			"U_BG_Guerilla2_1",0.33
+		};
+		vestList[] = {
+			"V_BandollierB_khk", 0.5,
+			"V_BandollierB_cbr", 0.5,
+			"V_BandollierB_rgr", 0.5,
+			"V_BandollierB_blk", 0.5,
+			"V_BandollierB_oli", 0.5,
+			"V_TacChestrig_grn_F", 0.5,
+			"V_TacChestrig_cbr_F", 0.5,
+			"V_TacChestrig_oli_F", 0.5
+		};
+
+		rifleList[] = {
+			{"CUP_srifle_LeeEnfield_rail",{"CUP_10x_303_M",10}}, 0.5,
+			{"CUP_arifle_AKS",{"CUP_30Rnd_545x39_AK_M",6}}, 0.5
+		};
+		class EventHandlers : EventHandlers
+		{
+			class ADDON
+			{
+				init = "(_this select 0) call  CFP_main_fnc_randomizeUnit;[_this select 0, 'Male01_ackbar'] remoteExecCall ['setSpeaker', 0];";
+			};
+		};
 	};
 	class cfp_i_is_irregular: cfp_i_is_base
 	{
@@ -124,7 +447,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "IS Irregular";
 		icon = "iconMan";
-		headgearProbability = 80;
+		randomGearProbability = 80;
 		randomWeaponProbability = 35;
 		linkedItems[] = {"U_I_C_Soldier_Para_5_F","V_BandollierB_khk","ItemRadio"};
 		respawnLinkedItems[] = {"U_I_C_Soldier_Para_5_F","V_BandollierB_khk","ItemRadio"};
@@ -132,6 +455,32 @@ class CfgVehicles
 		respawnweapons[] = {"CUP_smg_MP5A5","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_HandGrenade_RGD5"};
 		Respawnmagazines[] = {"CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_HandGrenade_RGD5"};
+		uniformList[] = {
+			"U_I_C_Soldier_Para_5_F",0.33,
+			"U_I_C_Soldier_Bandit_3_F",0.33,
+			"U_BG_Guerilla2_1",0.33
+		};
+		vestList[] = {
+			"V_BandollierB_khk", 0.5,
+			"V_BandollierB_cbr", 0.5,
+			"V_BandollierB_rgr", 0.5,
+			"V_BandollierB_blk", 0.5,
+			"V_BandollierB_oli", 0.5,
+			"V_TacChestrig_grn_F", 0.5,
+			"V_TacChestrig_cbr_F", 0.5,
+			"V_TacChestrig_oli_F", 0.5
+		};
+		rifleList[] = {
+			{"CUP_srifle_LeeEnfield_rail",{"CUP_10x_303_M",10}}, 0.5,
+			{"SMG_05_F",{"30Rnd_9x21_Mag_SMG_02",6}}, 0.5
+		};
+		class EventHandlers : EventHandlers
+		{
+			class ADDON
+			{
+				init = "(_this select 0) call  CFP_main_fnc_randomizeUnit;[_this select 0, 'Male01_ackbar'] remoteExecCall ['setSpeaker', 0];";
+			};
+		};
 	};
 	class cfp_i_is_autorifleman: cfp_i_is_base
 	{
@@ -139,7 +488,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "IS Autorifleman";
 		icon = "iconManMG";
-		headgearProbability = 60;
+		randomGearProbability = 60;
 		randomWeaponProbability = 50;
 		linkedItems[] = {"IS_uniform_i","V_TacVest_blk","ItemRadio"};
 		respawnLinkedItems[] = {"IS_uniform_i","V_TacVest_blk","ItemRadio"};
@@ -147,6 +496,20 @@ class CfgVehicles
 		respawnweapons[] = {"CUP_lmg_m249_pip1","Throw","Put"};
 		magazines[] = {"CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249"};
 		Respawnmagazines[] = {"CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249"};
+		backpackList[] = {
+			"b_assaultpack_blk", 0.5,
+			"b_assaultpack_cbr", 0.5,
+			"b_assaultpack_dgtl", 0.5,
+			"b_assaultpack_khk", 0.5,
+			"B_OutdoorPack_blk", 0.5,
+			"B_OutdoorPack_tan", 0.5,
+			"B_HuntingBackpack", 0.5,
+			"B_Kitbag_cbr", 0.5
+		};
+		rifleList[] = {
+			{"CUP_lmg_m249_para",{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",3}}, 0.8,
+			{"CUP_lmg_m249_pip4",{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",5}}, 0.2
+		};
 	};
 	class cfp_i_is_machinegunner: cfp_i_is_base
 	{
@@ -154,7 +517,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "IS Machinegunner";
 		icon = "iconManMG";
-		headgearProbability = 60;
+		randomGearProbability = 60;
 		randomWeaponProbability = 50;
 		linkedItems[] = {"IS_uniform_i","V_TacVest_blk","ItemRadio"};
 		respawnLinkedItems[] = {"IS_uniform_i","V_TacVest_blk","ItemRadio"};
@@ -162,6 +525,20 @@ class CfgVehicles
 		respawnweapons[] = {"CUP_lmg_PKM","Throw","Put"};
 		magazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"};
 		Respawnmagazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"};
+		backpackList[] = {
+			"b_assaultpack_blk", 0.5,
+			"b_assaultpack_cbr", 0.5,
+			"b_assaultpack_khk", 0.5,
+			"B_OutdoorPack_blk", 0.5,
+			"B_OutdoorPack_tan", 0.5,
+			"B_HuntingBackpack", 0.5,
+			"B_Kitbag_cbr", 0.5
+		};
+		rifleList[] = {
+			{"CUP_lmg_Pecheneg",{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",3}}, 0.6,
+			{"CUP_lmg_M240",{"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",4}}, 0.3,
+			{"CUP_arifle_RPK74",{"CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",3}}, 0.1			
+		};
 	};
 	class cfp_i_is_sniper: cfp_i_is_base
 	{
@@ -170,7 +547,6 @@ class CfgVehicles
 		displayName = "IS Sniper";
 		icon = "iconManRecon";
 		camouflage = 0.6;
-		headgearProbability = 80;
 		randomWeaponProbability = 25;
 		linkedItems[] = {"IS_uniform_i","V_BandollierB_khk","ItemRadio"};
 		respawnLinkedItems[] = {"IS_uniform_i","V_BandollierB_khk","ItemRadio"};
@@ -178,6 +554,22 @@ class CfgVehicles
 		respawnweapons[] = {"CUP_srifle_SVD_pso","Binocular","Throw","Put"};
 		magazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_HandGrenade_RGD5"};
 		Respawnmagazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_HandGrenade_RGD5"};
+		backpackList = {
+			"", 0.5,
+			"B_Kitbag_rgr", 0.5
+		};
+		vestList[] = {
+			"V_BandollierB_khk", 0.5,
+			"V_BandollierB_cbr", 0.5,
+			"V_BandollierB_rgr", 0.5,
+			"V_BandollierB_blk", 0.5,
+			"V_BandollierB_oli", 0.5
+		};
+		rifleList[] = {
+			{"CUP_srifle_SVD_des",{"CUP_10Rnd_762x54_SVD_M",6},"CUP_optic_PSO_1"}, 0.6,
+			{"CUP_srifle_LeeEnfield_rail",{"CUP_10x_303_M",10},"CUP_optic_SB_11_4x20_PM"}, 0.3,
+			{"CUP_srifle_M107_Base",{"CUP_10Rnd_127x99_M107",7},"CUP_optic_SB_3_12x50_PMII"}, 0.1			
+		};		
 	};
 	class cfp_i_is_at: cfp_i_is_base
 	{
@@ -186,7 +578,6 @@ class CfgVehicles
 		displayName = "IS Anti-Tank";
 		icon = "iconManAT";
 		backpack = "CUP_B_RPGPack_Khaki";
-		headgearProbability = 60;
 		randomWeaponProbability = 100;
 		linkedItems[] = {"IS_uniform_i","V_TacVest_camo","ItemRadio"};
 		respawnLinkedItems[] = {"IS_uniform_i","V_TacVest_camo","ItemRadio"};
@@ -194,6 +585,17 @@ class CfgVehicles
 		respawnweapons[] = {"CUP_arifle_AKS","CUP_launch_RPG7V","Throw","Put"};
 		magazines[] = {"CUP_PG7VL_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
 		Respawnmagazines[] = {"CUP_PG7VL_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+		rifleList[] = {
+			{"CUP_arifle_AKS",{"CUP_30Rnd_545x39_AK_M",6}}, 0.6,
+			{"CUP_arifle_AKM",{"CUP_30Rnd_545x39_AK_M",6}}, 0.2, 
+			{"CUP_arifle_M16A4_Base",{"CUP_30Rnd_556x45_Stanag",6}}, 0.1
+		};
+		launcherList[] = {
+			{"CUP_launch_RPG7V",{"CUP_PG7VL_M",1}}, 0.6,
+			{"CUP_launch_RPG18",{"CUP_RPG18_M",1}}, 0.1, 
+			{"CUP_launch_M136",{"CUP_M136_M",6}}, 0.1,
+			{"CUP_launch_RPG7V",{"CUP_OG7_M",4}}, 0.2		
+		};
 	};
 	class cfp_i_is_medic: cfp_i_is_base
 	{
@@ -203,13 +605,18 @@ class CfgVehicles
 		icon = "iconManMedic";
 		attendant = 1;
 		backpack = "B_AssaultPack_rgr_Medic";
-		headgearProbability = 60;
+		randomGearProbability = 60;
 		linkedItems[] = {"IS_uniform_i","V_Chestrig_blk","ItemRadio"};
 		respawnLinkedItems[] = {"IS_uniform_i","V_Chestrig_blk","ItemRadio"};
 		weapons[] = {"CUP_arifle_AKS","Throw","Put"};
 		respawnweapons[] = {"CUP_arifle_AKS","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
 		Respawnmagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+		rifleList[] = {
+			{"CUP_arifle_AKS",{"CUP_30Rnd_545x39_AK_M",6}}, 0.6,
+			{"CUP_arifle_AKM",{"CUP_30Rnd_545x39_AK_M",6}}, 0.2, 
+			{"CUP_arifle_M4A1",{"CUP_30Rnd_556x45_Stanag",6}}, 0.1
+		};
 	};
 	class cfp_i_is_sapper: cfp_i_is_base
 	{
@@ -218,7 +625,7 @@ class CfgVehicles
 		displayName = "IS Sapper";
 		icon = "iconManExplosive";
 		backpack = "B_AssaultPack_khk";
-		headgearProbability = 60;
+		randomGearProbability = 60;
 		randomWeaponProbability = 100;
 		linkedItems[] = {"IS_uniform_i","V_Chestrig_blk","ItemRadio"};
 		respawnLinkedItems[] = {"IS_uniform_i","V_Chestrig_blk","ItemRadio"};
@@ -226,6 +633,20 @@ class CfgVehicles
 		respawnweapons[] = {"CUP_arifle_AKM","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
 		Respawnmagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+		backpackList[] = {
+			"b_assaultpack_blk", 0.5,
+			"b_assaultpack_cbr", 0.5,
+			"b_assaultpack_khk", 0.5,
+			"B_OutdoorPack_blk", 0.5,
+			"B_OutdoorPack_tan", 0.5,
+			"B_HuntingBackpack", 0.5,
+			"B_Kitbag_cbr", 0.5
+		};
+		explosiveList[] = {
+			{{"APERSMine_Range_Mag",1},{"IEDLandSmall_Remote_Mag",1}}, 0.3,
+			{{"DemoCharge_Remote_Mag",1},{"IEDUrbanSmall_Remote_Mag",1}}, 0.3,
+			{{"APERSTripMine_Wire_Mag",1},{"IEDLandSmall_Remote_Mag",1}}, 0.3
+		};
 	};
 	class cfp_i_is_crewman: cfp_i_is_base
 	{
@@ -233,7 +654,7 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "IS Crewman";
 		icon = "iconManEngineer";
-		headgearProbability = 50;
+		randomGearProbability = 50;
 		randomWeaponProbability = 30;
 		linkedItems[] = {"IS_uniform_i","V_BandollierB_khk","ItemRadio"};
 		respawnLinkedItems[] = {"IS_uniform_i","V_BandollierB_khk","ItemRadio"};
@@ -241,6 +662,11 @@ class CfgVehicles
 		respawnweapons[] = {"CUP_arifle_AKM","Throw","Put"};
 		magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
 		Respawnmagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+		rifleList[] = {
+			{"CUP_arifle_AKS",{"CUP_30Rnd_545x39_AK_M",6}}, 0.6,
+			{"CUP_arifle_AKM",{"CUP_30Rnd_545x39_AK_M",6}}, 0.2, 
+			{"SMG_05_F",{"30Rnd_9x21_Mag_SMG_02",6}}, 0.1
+		};
 	};
 	class cfp_i_is_rifleman_dshkm: cfp_i_is_rifleman
 	{
