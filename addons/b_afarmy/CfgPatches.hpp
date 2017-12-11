@@ -33,7 +33,7 @@ class CfgPatches {
             "CFP_B_AFARMY_DShKM_High_01",
             "CFP_B_AFARMY_DShKM_Low_01",
             "CFP_B_AFARMY_SPG_9_01",
-            "CFP_B_AFARMY_M252_01",
+            "CFP_B_AFARMY_Podnos_2B14_01",
             "CFP_B_AFARMY_Operator_01",
             "CFP_B_AFARMY_Team_Leader_01",
             "CFP_B_AFARMY_Grenadier_SF_01",
@@ -50,7 +50,6 @@ class CfgPatches {
             "CUP_AirVehicles_Mi8",
             "CUP_AirVehicles_Mi24",
             "CUP_Weapons_StaticWeapons",
-            "CFP_B_USARMY_WDL"
         };
         author = "Drew";
         authors[] = {"Drew"};

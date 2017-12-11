@@ -64,13 +64,13 @@ class CfgVehicles {
         };
     };
 
-    class CFP_B_USARMY_HMMWV_Unarmed_USA;
-    class CFP_B_USARMY_HMMWV_Unarmed_USA_OCimport_01 : CFP_B_USARMY_HMMWV_Unarmed_USA { scope = 0; class EventHandlers; };
-    class CFP_B_USARMY_HMMWV_Unarmed_USA_OCimport_02 : CFP_B_USARMY_HMMWV_Unarmed_USA_OCimport_01 { scope = 0; class EventHandlers; };
+    class CUP_B_HMMWV_Unarmed_USA;
+    class CUP_B_HMMWV_Unarmed_USA_OCimport_01 : CUP_B_HMMWV_Unarmed_USA { scope = 0; class EventHandlers; };
+    class CUP_B_HMMWV_Unarmed_USA_OCimport_02 : CUP_B_HMMWV_Unarmed_USA_OCimport_01 { scope = 0; class EventHandlers; };
 
-    class CFP_B_USARMY_HMMWV_Transport_USA;
-    class CFP_B_USARMY_HMMWV_Transport_USA_OCimport_01 : CFP_B_USARMY_HMMWV_Transport_USA { scope = 0; class EventHandlers; };
-    class CFP_B_USARMY_HMMWV_Transport_USA_OCimport_02 : CFP_B_USARMY_HMMWV_Transport_USA_OCimport_01 { scope = 0; class EventHandlers; };
+    class CUP_B_HMMWV_Transport_USA;
+    class CUP_B_HMMWV_Transport_USA_OCimport_01 : CUP_B_HMMWV_Transport_USA { scope = 0; class EventHandlers; };
+    class CUP_B_HMMWV_Transport_USA_OCimport_02 : CUP_B_HMMWV_Transport_USA_OCimport_01 { scope = 0; class EventHandlers; };
 
     class CUP_B_M1151_Deploy_WDL_USA;
     class CUP_B_M1151_Deploy_WDL_USA_OCimport_01 : CUP_B_M1151_Deploy_WDL_USA { scope = 0; class EventHandlers; class Turrets; };
@@ -623,7 +623,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_KEARMY_HMMWV_Unarmed_01 : CFP_B_USARMY_HMMWV_Unarmed_USA_OCimport_02 {
+    class CFP_B_KEARMY_HMMWV_Unarmed_01 : CUP_B_HMMWV_Unarmed_USA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -648,7 +648,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_KEARMY_HMMWV_Transport_01 : CFP_B_USARMY_HMMWV_Transport_USA_OCimport_02 {
+    class CFP_B_KEARMY_HMMWV_Transport_01 : CUP_B_HMMWV_Transport_USA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;

@@ -25,7 +25,7 @@ class CfgPatches {
             "CFP_O_HEZBOLLAH_Machine_Gunner_SF_01",
             "CFP_O_HEZBOLLAH_Explosive_Specialist_SF_01",
             "CFP_O_HEZBOLLAH_Sniper_SF_01",
-	        "CFP_O_HEZBOLLAH_Gunner_DShKM_01",
+	    "CFP_O_HEZBOLLAH_Gunner_DShKM_01",
             "CFP_O_HEZBOLLAH_Gunner_DShKM_Low_01",
             "CFP_O_HEZBOLLAH_Asst_Gunner_DShKM_01",
             "CFP_O_HEZBOLLAH_Gunner_TOW_01",
@@ -36,18 +36,40 @@ class CfgPatches {
             "CFP_O_HEZBOLLAH_Asst_Gunner_Mortar_01",
             "CFP_O_HEZBOLLAH_Gunner_SPG_01",
             "CFP_O_HEZBOLLAH_Asst_Gunner_SPG_01",
-	        "CFP_O_HEZBOLLAH_DShKM_01",
+	    "CFP_O_HEZBOLLAH_DShKM_01",
             "CFP_O_HEZBOLLAH_DShKM_Low_01",
             "CFP_O_HEZBOLLAH_TOW_AT_01",
-            "CFP_O_HEZBOLLAH_SPG_9_01"
+            "CFP_O_HEZBOLLAH_SPG_9_01",
+	    "CFP_O_HEZBOLLAH_Metis_AT_13_01",
+            "CFP_O_HEZBOLLAH_Podnos_2B14_01",
+            "CFP_O_HEZBOLLAH_T55_01",
+            "CFP_O_HEZBOLLAH_T72_01",
+            "CFP_O_HEZBOLLAH_Crew_01",
+            "CFP_O_HEZBOLLAH_Ural_ZU_23_01",
+            "CFP_O_HEZBOLLAH_BMP_2_01",
+            "CFP_O_HEZBOLLAH_Offroad_01",
+            "CFP_O_HEZBOLLAH_Offroad_Armed_01",
+            "CFP_O_HEZBOLLAH_Truck_01",
+            "CFP_O_HEZBOLLAH_ZU_23_01",
+            "CFP_O_HEZBOLLAH_Quad_Bike_01",
+            "CFP_O_HEZBOLLAH_BTR_60PB_01"
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "A3_Characters_F",
             "cfp_uniforms",
-	        "CUP_Weapons_StaticWeapons",
-            "CUP_Creatures_StaticWeapons"
+	    "CUP_Weapons_StaticWeapons",
+            "CUP_Creatures_StaticWeapons",
+	    "CUP_TrackedVehicles_T55",
+            "CUP_TrackedVehicles_T72",
+	    "CUP_WheeledVehicles_Ural",
+            "CUP_TrackedVehicles_BMP",
+            "A3_Soft_F_Offroad_01",
+            "A3_Soft_F_Gamma_Van_01",
+            "A3_Soft_F_Bootcamp_Van_01",
+            "A3_Soft_F_Quadbike_01",
+            "CUP_WheeledVehicles_BTR60"
 	    };
         author = "Drew";
         authors[] = {"Drew"};

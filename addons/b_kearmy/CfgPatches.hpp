@@ -44,7 +44,6 @@ class CfgPatches {
             "cfp_uniforms",
             "CUP_AirVehicles_UH1H",
             "CUP_AirVehicles_AH6",
-            "CFP_B_USARMY_WDL",
             "CUP_WheeledVehicles_UpHMMWV",
             "CUP_WheeledVehicles_RG31",
             "CUP_WheeledVehicles_Stryker",
