@@ -174,11 +174,11 @@ class CfgVehicles {
         };
 
         explosiveList[] = {
-        	{"",0}, 0.9,
-        	{"CUP_TimeBomb_M",2}, 0.2,
-        	{"CUP_Mine_M",2}, 0.2,
-        	{"CUP_PipeBomb_M",2}, 0.2,
-        	{"CUP_IED_V1_M",2}, 0.2
+        	{}, 0.9,
+        	{{"CUP_TimeBomb_M",2}}, 0.2,
+        	{{"CUP_Mine_M",2}}, 0.2,
+        	{{"CUP_PipeBomb_M",2}}, 0.2,
+        	{{"CUP_IED_V1_M",2}}, 0.2
         };
 
         class EventHandlers : EventHandlers {

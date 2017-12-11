@@ -66,6 +66,10 @@ switch (_cat) do {
 			_unit addMagazines (_item select 1);
 		};
 		_unit addWeapon (_item select 0);
+		// Check for scope/muzzle etc
+		if (count _item > 2) then {
+			_unit addPrimaryWeaponItem (_item select 2);
+		};
 	};
 	case ("launcher") : {
 		// check for space?
@@ -73,7 +77,9 @@ switch (_cat) do {
 		_unit addWeapon (_item select 0);
 	};
 	case ("explosive") : {
-		_unit addMagazines _item;
+		{
+			_unit addMagazines _x;
+		} foreach _item;
 	};
 };
 
