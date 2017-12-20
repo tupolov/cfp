@@ -763,6 +763,23 @@
 			mass=80;
 		};
 	};
+	
+	class CFP_U_FieldUniform_ugandan : Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Field Uniform (Ugandan)";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_flecktarn_snow.jpg";
+		author = "AccuracyThruVolume";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_FieldUniform_ugandan";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
 
 	ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Tiger Stripe 2)",tigerstripe2,"AccuracyThruVolume")
 	ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (OCP)",scorpion_w2,"AccuracyThruVolume")
