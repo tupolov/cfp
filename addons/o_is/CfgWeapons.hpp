@@ -8,9 +8,10 @@ class CfgWeapons
 	class H_Bandmask_blk;
 	class G_Balaclava_blk;
 
-	class IS_uniform_o: U_I_CombatUniform
+	class CFP_U_o_is_uniform: U_I_CombatUniform
 	{
 		scope = 2;
+		side = 0;
 		displayName = "Islamic State Uniform";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
 		picture = "\x\cfp\addons\uniforms\fielduniform\is\ui\icon_is_combatuniform_tan.paa";
@@ -19,11 +20,12 @@ class CfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "cfp_o_is_rifleman";
+			uniformClass = "cfp_o_is_uniform";
 			containerClass = "Supply50";
 			mass = 50;
 		};
 	};
+
 	class IS_shemag_black: H_Shemag_tan
 	{
 		scope = 2;
@@ -35,7 +37,7 @@ class CfgWeapons
 	class IS_bandanna_black_logo1: H_Bandanna_gry
 	{
 		scope = 2;
-		displayName = "Islamic State Bandanna";
+		displayName = "Islamic State Bandana";
 		picture = "\A3\Characters_F\data\UI\icon_H_bandanna_gry_CA.paa";
 		hiddenSelections[] = {"Camo"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\bandana\IS_bandana_black_logo1.paa"};
@@ -43,7 +45,7 @@ class CfgWeapons
 	class IS_bandanna_black_logo2: H_Bandanna_gry
 	{
 		scope = 2;
-		displayName = "Islamic State Bandanna";
+		displayName = "Islamic State Bandana 2";
 		picture = "\A3\Characters_F\data\UI\icon_H_bandanna_gry_CA.paa";
 		hiddenSelections[] = {"Camo"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\bandana\IS_bandana_black_logo2.paa"};

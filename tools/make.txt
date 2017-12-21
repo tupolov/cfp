@@ -1,0 +1,432 @@
+
+make.py for Arma, modified for Community Factions Project v0.9
+
+Check external references is set to False
+COMMIT ID set to 0b84bacf
+CFP VERSION set to 0.2.0.0
+module_root: P:\x\cfp\addons
+optionals_root does not exist: P:\x\cfp\optionals
+release_dir: P:\x\cfp\release
+Found pboproject.
+Found rapify.
+Found makepbo.
+
+Checking for obsolete version numbers...
+Temporarily stashing P:\x\cfp\README.md => P:\x\cfp\release\README.md.bak for version update
+Temporarily stashing P:\x\cfp\mod.cpp => P:\x\cfp\release\mod.cpp.bak for version update
+Changing version 0.1.0 => 0.2.0 in P:\x\cfp\README.md
+Changing version 0.0.1 => 0.2.0 in P:\x\cfp\mod.cpp
+
+Requested key does not exist.
+Created: P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey
+Removing any old signature keys...
+Deleting *.bisign files from directory: P:\x\cfp\release\@cfp\addons
+Deleting *.bisign files from directory: P:\x\cfp\release\@cfp\optionals
+Deleting *.bikey files from directory: P:\x\cfp\release\@cfp\keys
+Copying public key to release directory.
+
+Checking for obsolete files...
+
+Building...
+
+Making backpacks---------------------------------------------------
+Missing PBO file cfp_backpacks.pbo. Building...
+Building: P:\x\cfp\addons\backpacks
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making b_afarmy----------------------------------------------------
+Missing PBO file cfp_b_afarmy.pbo. Building...
+Building: P:\x\cfp\addons\b_afarmy
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making b_afgpolice-------------------------------------------------
+Missing PBO file cfp_b_afgpolice.pbo. Building...
+Building: P:\x\cfp\addons\b_afgpolice
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making b_caf-------------------------------------------------------
+Missing PBO file cfp_b_caf.pbo. Building...
+Building: P:\x\cfp\addons\b_caf
+Destination: P:\x\cfp\release\@cfp\addons
+ERROR: $PBOPREFIX$ Does not exist for module: b_caf.
+ERROR: Failed to include build number: [Errno 2] No such file or directory: 'P:\\x\\cfp\\addons\\b_caf\\$PBOPREFIX$'
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making b_czarmy_wdl------------------------------------------------
+Missing PBO file cfp_b_czarmy_wdl.pbo. Building...
+Building: P:\x\cfp\addons\b_czarmy_wdl
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making b_dearmy_wdl------------------------------------------------
+Missing PBO file cfp_b_dearmy_wdl.pbo. Building...
+Building: P:\x\cfp\addons\b_dearmy_wdl
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making b_gbarmy_wdl------------------------------------------------
+Missing PBO file cfp_b_gbarmy_wdl.pbo. Building...
+Building: P:\x\cfp\addons\b_gbarmy_wdl
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making b_iqarmy----------------------------------------------------
+Missing PBO file cfp_b_iqarmy.pbo. Building...
+Building: P:\x\cfp\addons\b_iqarmy
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making b_iqpolice--------------------------------------------------
+Missing PBO file cfp_b_iqpolice.pbo. Building...
+Building: P:\x\cfp\addons\b_iqpolice
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making b_kearmy----------------------------------------------------
+Missing PBO file cfp_b_kearmy.pbo. Building...
+Building: P:\x\cfp\addons\b_kearmy
+Destination: P:\x\cfp\release\@cfp\addons
+ERROR: $PBOPREFIX$ Does not exist for module: b_kearmy.
+ERROR: Failed to include build number: [Errno 2] No such file or directory: 'P:\\x\\cfp\\addons\\b_kearmy\\$PBOPREFIX$'
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making b_naarmy----------------------------------------------------
+Missing PBO file cfp_b_naarmy.pbo. Building...
+Building: P:\x\cfp\addons\b_naarmy
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making b_pesh------------------------------------------------------
+Missing PBO file cfp_b_pesh.pbo. Building...
+Building: P:\x\cfp\addons\b_pesh
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making b_ugarmy----------------------------------------------------
+Missing PBO file cfp_b_ugarmy.pbo. Building...
+Building: P:\x\cfp\addons\b_ugarmy
+Destination: P:\x\cfp\release\@cfp\addons
+ERROR: $PBOPREFIX$ Does not exist for module: b_ugarmy.
+ERROR: Failed to include build number: [Errno 2] No such file or directory: 'P:\\x\\cfp\\addons\\b_ugarmy\\$PBOPREFIX$'
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making b_usarmy_wdl------------------------------------------------
+Missing PBO file cfp_b_usarmy_wdl.pbo. Building...
+Building: P:\x\cfp\addons\b_usarmy_wdl
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making b_uscia-----------------------------------------------------
+Missing PBO file cfp_b_uscia.pbo. Building...
+Building: P:\x\cfp\addons\b_uscia
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making b_usmc_des--------------------------------------------------
+Missing PBO file cfp_b_usmc_des.pbo. Building...
+Building: P:\x\cfp\addons\b_usmc_des
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making b_ypg-------------------------------------------------------
+Missing PBO file cfp_b_ypg.pbo. Building...
+Building: P:\x\cfp\addons\b_ypg
+Destination: P:\x\cfp\release\@cfp\addons
+ERROR: $PBOPREFIX$ Does not exist for module: b_ypg.
+ERROR: Failed to include build number: [Errno 2] No such file or directory: 'P:\\x\\cfp\\addons\\b_ypg\\$PBOPREFIX$'
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making cup_b_cz----------------------------------------------------
+Missing PBO file cfp_cup_b_cz.pbo. Building...
+Building: P:\x\cfp\addons\cup_b_cz
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making cup_b_gb----------------------------------------------------
+Missing PBO file cfp_cup_b_gb.pbo. Building...
+Building: P:\x\cfp\addons\cup_b_gb
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making cup_b_ger---------------------------------------------------
+Missing PBO file cfp_cup_b_ger.pbo. Building...
+Building: P:\x\cfp\addons\cup_b_ger
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making cup_b_usmc--------------------------------------------------
+Missing PBO file cfp_cup_b_usmc.pbo. Building...
+Building: P:\x\cfp\addons\cup_b_usmc
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making cup_b_us_army-----------------------------------------------
+Missing PBO file cfp_cup_b_us_army.pbo. Building...
+Building: P:\x\cfp\addons\cup_b_us_army
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making cup_o_ru----------------------------------------------------
+Missing PBO file cfp_cup_o_ru.pbo. Building...
+Building: P:\x\cfp\addons\cup_o_ru
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making c_afrchristian----------------------------------------------
+Missing PBO file cfp_c_afrchristian.pbo. Building...
+Building: P:\x\cfp\addons\c_afrchristian
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making c_afrislamic------------------------------------------------
+Missing PBO file cfp_c_afrislamic.pbo. Building...
+Building: P:\x\cfp\addons\c_afrislamic
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making c_asia------------------------------------------------------
+Missing PBO file cfp_c_asia.pbo. Building...
+Building: P:\x\cfp\addons\c_asia
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making c_me--------------------------------------------------------
+Missing PBO file cfp_c_me.pbo. Building...
+Building: P:\x\cfp\addons\c_me
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making faces-------------------------------------------------------
+Missing PBO file cfp_faces.pbo. Building...
+Building: P:\x\cfp\addons\faces
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making flags-------------------------------------------------------
+Missing PBO file cfp_flags.pbo. Building...
+Building: P:\x\cfp\addons\flags
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making glasses-----------------------------------------------------
+Missing PBO file cfp_glasses.pbo. Building...
+Building: P:\x\cfp\addons\glasses
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making headgear----------------------------------------------------
+Missing PBO file cfp_headgear.pbo. Building...
+Building: P:\x\cfp\addons\headgear
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making insignia----------------------------------------------------
+Missing PBO file cfp_insignia.pbo. Building...
+Building: P:\x\cfp\addons\insignia
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making i_alnusra---------------------------------------------------
+Missing PBO file cfp_i_alnusra.pbo. Building...
+Building: P:\x\cfp\addons\i_alnusra
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making i_is--------------------------------------------------------
+Missing PBO file cfp_i_is.pbo. Building...
+Building: P:\x\cfp\addons\i_is
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making i_tuareg----------------------------------------------------
+Missing PBO file cfp_i_tuareg.pbo. Building...
+Building: P:\x\cfp\addons\i_tuareg
+Destination: P:\x\cfp\release\@cfp\addons
+ERROR: $PBOPREFIX$ Does not exist for module: i_tuareg.
+ERROR: Failed to include build number: [Errno 2] No such file or directory: 'P:\\x\\cfp\\addons\\i_tuareg\\$PBOPREFIX$'
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making main--------------------------------------------------------
+Missing PBO file cfp_main.pbo. Building...
+Building: P:\x\cfp\addons\main
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making models------------------------------------------------------
+Missing PBO file cfp_models.pbo. Building...
+Building: P:\x\cfp\addons\models
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making nvg---------------------------------------------------------
+Missing PBO file cfp_nvg.pbo. Building...
+Building: P:\x\cfp\addons\nvg
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making o_alqaeda---------------------------------------------------
+Missing PBO file cfp_o_alqaeda.pbo. Building...
+Building: P:\x\cfp\addons\o_alqaeda
+Destination: P:\x\cfp\release\@cfp\addons
+ERROR: $PBOPREFIX$ Does not exist for module: o_alqaeda.
+ERROR: Failed to include build number: [Errno 2] No such file or directory: 'P:\\x\\cfp\\addons\\o_alqaeda\\$PBOPREFIX$'
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making o_alshabaab-------------------------------------------------
+Missing PBO file cfp_o_alshabaab.pbo. Building...
+Building: P:\x\cfp\addons\o_alshabaab
+Destination: P:\x\cfp\release\@cfp\addons
+ERROR: $PBOPREFIX$ Does not exist for module: o_alshabaab.
+ERROR: Failed to include build number: [Errno 2] No such file or directory: 'P:\\x\\cfp\\addons\\o_alshabaab\\$PBOPREFIX$'
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making o_bokoharam-------------------------------------------------
+Missing PBO file cfp_o_bokoharam.pbo. Building...
+Building: P:\x\cfp\addons\o_bokoharam
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making o_is--------------------------------------------------------
+Missing PBO file cfp_o_is.pbo. Building...
+Building: P:\x\cfp\addons\o_is
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making o_ruarmy_des------------------------------------------------
+Missing PBO file cfp_o_ruarmy_des.pbo. Building...
+Building: P:\x\cfp\addons\o_ruarmy_des
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making o_rumvd-----------------------------------------------------
+Missing PBO file cfp_o_rumvd.pbo. Building...
+Building: P:\x\cfp\addons\o_rumvd
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making o_sorebel---------------------------------------------------
+Missing PBO file cfp_o_sorebel.pbo. Building...
+Building: P:\x\cfp\addons\o_sorebel
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making o_syarmy----------------------------------------------------
+Missing PBO file cfp_o_syarmy.pbo. Building...
+Building: P:\x\cfp\addons\o_syarmy
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making o_tban------------------------------------------------------
+Missing PBO file cfp_o_tban.pbo. Building...
+Building: P:\x\cfp\addons\o_tban
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making protocols---------------------------------------------------
+Missing PBO file cfp_protocols.pbo. Building...
+Building: P:\x\cfp\addons\protocols
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making uniforms----------------------------------------------------
+Missing PBO file cfp_uniforms.pbo. Building...
+Building: P:\x\cfp\addons\uniforms
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making uniforms_afg------------------------------------------------
+Missing PBO file cfp_uniforms_afg.pbo. Building...
+Building: P:\x\cfp\addons\uniforms_afg
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making vehicles----------------------------------------------------
+Missing PBO file cfp_vehicles.pbo. Building...
+Building: P:\x\cfp\addons\vehicles
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Making vests-------------------------------------------------------
+Missing PBO file cfp_vests.pbo. Building...
+Building: P:\x\cfp\addons\vests
+Destination: P:\x\cfp\release\@cfp\addons
+pboProject return code == 0
+Signing with P:\private_keys\cfp_0.2.0.0-0b84bacf.biprivatekey.
+
+Searching for important files in P:\x\cfp
+Source_dir: P:\x\cfp
+Destination_dir: P:\x\cfp\release\@cfp
+Copying file => P:\x\cfp\mod.cpp
+Copying file => P:\x\cfp\README.md
+Copying file => P:\x\cfp\AUTHORS.txt
+Copying file => P:\x\cfp\LICENSE
+Copying file => P:\x\cfp\logo_cfp_ca.paa
+ERROR: Failed copying file => P:\x\cfp\meta.cpp
+
+Searching for DLLs in P:\x\cfp
+Empty SET
+
+Restoring version files...
+Restoring P:\x\cfp\README.md
+Restoring P:\x\cfp\mod.cpp
+
+ERROR: Failed with 15 errors.
+- P:\x\cfp\meta.cpp not found!
+- 14 untraced error(s)!
+
+Total Program time elapsed:  0h  6m 0.12458s
+Press Enter to continue...

@@ -2,7 +2,7 @@ class CfgGroups
 {
 	class EAST
 	{
-		class CFP_o_is
+		class CFP_O_IS
 		{
 			name = "Islamic State";
 			class Infantry
@@ -12,7 +12,7 @@ class CfgGroups
 				{
 					name = "Sentry";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					icon = "\A3\ui_f\data\map\markers\NATO\o_inf.paa";
                     rarityGroup = 0.3;
 					class Unit0
@@ -34,7 +34,7 @@ class CfgGroups
 				{
 					name = "Infantry Squad";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					icon = "\A3\ui_f\data\map\markers\NATO\o_inf.paa";
                     rarityGroup = 0.3;
 					class Unit0
@@ -112,7 +112,7 @@ class CfgGroups
 				{
 					name = "Weapons Squad";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					icon = "\A3\ui_f\data\map\markers\NATO\o_inf.paa";
                     rarityGroup = 0.3;
 					class Unit0
@@ -176,7 +176,7 @@ class CfgGroups
 				{
 					name = "Fire Team";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					icon = "\A3\ui_f\data\map\markers\NATO\o_inf.paa";
                     rarityGroup = 0.3;
 					class Unit0
@@ -219,7 +219,7 @@ class CfgGroups
 				{
 					name = "Anti-Armor Team";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					icon = "\A3\ui_f\data\map\markers\NATO\o_inf.paa";
                     rarityGroup = 0.3;
 					class Unit0
@@ -262,7 +262,7 @@ class CfgGroups
 				{
 					name = "HQ Squad";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					icon = "\A3\ui_f\data\map\markers\NATO\o_inf.paa";
                     rarityGroup = 0.3;
 					class Unit0
@@ -333,7 +333,7 @@ class CfgGroups
 				{
 					name = "IS Offroad MGs";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					rarityGroup = 0.3;
 					class Unit0
 					{
@@ -354,7 +354,7 @@ class CfgGroups
 				{
 					name = "IS Offroad Patrol";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					rarityGroup = 0.3;
 					class Unit0
 					{
@@ -378,7 +378,7 @@ class CfgGroups
 				{
 					name = "IS L.R. MGs";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					rarityGroup = 0.3;
 					class Unit0
 					{
@@ -399,7 +399,7 @@ class CfgGroups
 				{
 					name = "IS L.R. Support";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					rarityGroup = 0.3;
 					class Unit0
 					{
@@ -420,7 +420,7 @@ class CfgGroups
 				{
 					name = "IS L.R. Heavy Support";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					rarityGroup = 0.3;
 					class Unit0
 					{
@@ -451,7 +451,7 @@ class CfgGroups
 				{
 					name = "IS UAZ MGs";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					rarityGroup = 0.3;
 					class Unit0
 					{
@@ -472,7 +472,7 @@ class CfgGroups
 				{
 					name = "IS UAZ Support";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					rarityGroup = 0.3;
 					class Unit0
 					{
@@ -493,7 +493,7 @@ class CfgGroups
 				{
 					name = "IS UAZ Heavy Support";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					rarityGroup = 0.3;
 					class Unit0
 					{
@@ -524,7 +524,7 @@ class CfgGroups
 				{
 					name = "IS Mixed Technicals 1";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					rarityGroup = 0.3;
 					class Unit0
 					{
@@ -553,7 +553,7 @@ class CfgGroups
 				{
 					name = "IS Mixed Technicals 2";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					rarityGroup = 0.3;
 					class Unit0
 					{
@@ -582,7 +582,7 @@ class CfgGroups
 				{
 					name = "IS Mixed Technicals 3";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					rarityGroup = 0.3;
 					class Unit0
 					{
@@ -611,7 +611,7 @@ class CfgGroups
 				{
 					name = "IS Mixed Technicals 4";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					rarityGroup = 0.3;
 					class Unit0
 					{
@@ -640,7 +640,7 @@ class CfgGroups
 				{
 					name = "IS Mixed Technicals 5";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					rarityGroup = 0.3;
 					class Unit0
 					{
@@ -674,7 +674,7 @@ class CfgGroups
 				{
 					name = "IS BMP-1";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					rarityGroup = 0.3;
 					class Unit0
 					{
@@ -688,7 +688,7 @@ class CfgGroups
 				{
 					name = "IS BMP-1 Section";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					rarityGroup = 0.3;
 					class Unit0
 					{
@@ -710,7 +710,7 @@ class CfgGroups
 				{
 					name = "IS BMP-1 Platoon";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					rarityGroup = 0.3;
 					class Unit0
 					{
@@ -739,7 +739,7 @@ class CfgGroups
 				{
 					name = "IS BMP-1P";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					rarityGroup = 0.3;
 					class Unit0
 					{
@@ -753,7 +753,7 @@ class CfgGroups
 				{
 					name = "IS BMP-1P Section";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					rarityGroup = 0.3;
 					class Unit0
 					{
@@ -775,7 +775,7 @@ class CfgGroups
 				{
 					name = "IS BMP-1P Platoon";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					rarityGroup = 0.3;
 					class Unit0
 					{
@@ -804,7 +804,7 @@ class CfgGroups
 				{
 					name = "IS BMP-2";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					rarityGroup = 0.3;
 					class Unit0
 					{
@@ -818,7 +818,7 @@ class CfgGroups
 				{
 					name = "IS BMP-2 Section";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					rarityGroup = 0.3;
 					class Unit0
 					{
@@ -840,7 +840,7 @@ class CfgGroups
 				{
 					name = "IS BMP-2 Platoon";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					rarityGroup = 0.3;
 					class Unit0
 					{
@@ -869,7 +869,7 @@ class CfgGroups
 				{
 					name = "IS BMPs Mixed 1";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					rarityGroup = 0.3;
 					class Unit0
 					{
@@ -890,7 +890,7 @@ class CfgGroups
 				{
 					name = "IS BMPs Mixed 2";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					rarityGroup = 0.3;
 					class Unit0
 					{
@@ -911,7 +911,7 @@ class CfgGroups
 				{
 					name = "IS BMPs Mixed 3";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					rarityGroup = 0.3;
 					class Unit0
 					{
@@ -945,7 +945,7 @@ class CfgGroups
 				{
 					name = "IS T-55";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					rarityGroup = 0.3;
 					class Unit0
 					{
@@ -959,7 +959,7 @@ class CfgGroups
 				{
 					name = "IS T-55 Section";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					rarityGroup = 0.3;
 					class Unit0
 					{
@@ -980,7 +980,7 @@ class CfgGroups
 				{
 					name = "IS T-55 Platoon";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					rarityGroup = 0.3;
 					class Unit0
 					{
@@ -1009,7 +1009,7 @@ class CfgGroups
 				{
 					name = "IS T-72";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					rarityGroup = 0.3;
 					class Unit0
 					{
@@ -1023,7 +1023,7 @@ class CfgGroups
 				{
 					name = "IS T-72 Section";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					rarityGroup = 0.3;
 					class Unit0
 					{
@@ -1044,7 +1044,7 @@ class CfgGroups
 				{
 					name = "IS T-72 Platoon";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					rarityGroup = 0.3;
 					class Unit0
 					{
@@ -1073,7 +1073,7 @@ class CfgGroups
 				{
 					name = "IS Mixed Armor 1";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					rarityGroup = 0.3;
 					class Unit0
 					{
@@ -1095,7 +1095,7 @@ class CfgGroups
 				{
 					name = "IS Mixed Armor 2";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					rarityGroup = 0.3;
 					class Unit0
 					{
@@ -1117,7 +1117,7 @@ class CfgGroups
 				{
 					name = "IS Mixed Armor 3";
 					side = 0;
-					faction = "CFP_o_is";
+					faction = "CFP_O_IS";
 					rarityGroup = 0.3;
 					class Unit0
 					{
