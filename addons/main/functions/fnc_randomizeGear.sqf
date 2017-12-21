@@ -34,7 +34,10 @@ private _array = (configFile >> "CfgVehicles" >> typeOf _unit >> _category) call
 
 if (count _array == 0) exitWith {};
 
+if (_item isEqualType "" && {_item == ""}) exitWith {};
+
 private _item = selectRandomWeighted _array;
+
 
 _getRandomInsignia = {
     private _item = _this select 0;

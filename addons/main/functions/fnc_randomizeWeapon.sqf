@@ -46,6 +46,8 @@ if (count _array == 0) exitWith {};
 
 private _item = selectRandomWeighted _array;
 
+if (_item isEqualType "") exitWith {};
+
 // Need to check vest/backpack capacity?
 
 switch (_cat) do {
