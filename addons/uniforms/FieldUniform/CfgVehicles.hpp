@@ -1299,3 +1299,11 @@
 		uniformClass = "CFP_U_FieldUniform_flecktarn_snow";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_flecktarn_snow.paa"};
 	};
+	
+	class CFP_FieldUniform_ugandan : CFP_FieldUniform_tigerstripe
+	{
+		displayName = "Field Uniform (Ugandan)";
+		uniformClass = "CFP_U_FieldUniform_ugandan";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_ugandan.paa"};
+	};
+	

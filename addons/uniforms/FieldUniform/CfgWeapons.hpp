@@ -786,4 +786,3 @@
 	ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Flora Arid)",flora_arid,"AccuracyThruVolume")
 	ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Afghan Woodland)",afghan_w,"AccuracyThruVolume")
 	ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (ACR Desert)",acr_desert,"AccuracyThruVolume")
-
