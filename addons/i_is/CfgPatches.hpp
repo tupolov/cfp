@@ -3,6 +3,8 @@ class DefaultEventhandlers;
 class CfgPatches {
     class CFP_I_IS {
         units[] = {
+            "cfp_i_is_uniform",
+            "cfp_i_is_base",
             "cfp_i_is_team_leader",
             "cfp_i_is_squad_leader",
             "cfp_i_is_grenadier",
@@ -69,7 +71,7 @@ class CfgPatches {
             "cfp_i_is_M119"
         };
 		weapons[] = {
-			"IS_uniform_o",
+			"CFP_U_I_IS_uniform",
 			"IS_shemag_black",
 			"IS_bandanna_black_logo1",
 			"IS_bandanna_black_logo2",
