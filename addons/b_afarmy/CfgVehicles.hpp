@@ -12,15 +12,15 @@ class CfgVehicles {
     class O_Soldier_F;
     class O_Soldier_F_OCimport_01 : O_Soldier_F { scope = 0; class EventHandlers; };
     class O_Soldier_F_OCimport_02 : O_Soldier_F_OCimport_01 { class EventHandlers; };
-    
+
     class O_recon_F;
     class O_recon_F_OCimport_01 : O_recon_F { scope = 0; class EventHandlers; };
     class O_recon_F_OCimport_02 : O_recon_F_OCimport_01 { class EventHandlers; };
 
     class CUP_B_M113_USA;
     class CUP_B_M113_USA_OCimport_01 : CUP_B_M113_USA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_B_M113_USA_OCimport_02 : CUP_B_M113_USA_OCimport_01 { 
-        class EventHandlers; 
+    class CUP_B_M113_USA_OCimport_02 : CUP_B_M113_USA_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -28,8 +28,8 @@ class CfgVehicles {
 
     class CUP_B_M113_Med_USA;
     class CUP_B_M113_Med_USA_OCimport_01 : CUP_B_M113_Med_USA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_B_M113_Med_USA_OCimport_02 : CUP_B_M113_Med_USA_OCimport_01 { 
-        class EventHandlers; 
+    class CUP_B_M113_Med_USA_OCimport_02 : CUP_B_M113_Med_USA_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -37,8 +37,8 @@ class CfgVehicles {
 
     class CUP_B_HMMWV_DSHKM_GPK_ACR;
     class CUP_B_HMMWV_DSHKM_GPK_ACR_OCimport_01 : CUP_B_HMMWV_DSHKM_GPK_ACR { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_B_HMMWV_DSHKM_GPK_ACR_OCimport_02 : CUP_B_HMMWV_DSHKM_GPK_ACR_OCimport_01 { 
-        class EventHandlers; 
+    class CUP_B_HMMWV_DSHKM_GPK_ACR_OCimport_02 : CUP_B_HMMWV_DSHKM_GPK_ACR_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -49,26 +49,26 @@ class CfgVehicles {
     class CUP_B_M1151_WDL_USA_OCimport_01 : CUP_B_M1151_WDL_USA { scope = 0; class EventHandlers; };
     class CUP_B_M1151_WDL_USA_OCimport_02 : CUP_B_M1151_WDL_USA_OCimport_01 { scope = 0; class EventHandlers; };
 
-    class CUP_B_USARMY_MTVR_USA;
-    class CUP_B_USARMY_MTVR_USA_OCimport_01 : CUP_B_USARMY_MTVR_USA { scope = 0; class EventHandlers; };
-    class CUP_B_USARMY_MTVR_USA_OCimport_02 : CUP_B_USARMY_MTVR_USA_OCimport_01 { scope = 0; class EventHandlers; };
+    class CUP_B_MTVR_USA;
+    class CUP_B_MTVR_USA_OCimport_01 : CUP_B_MTVR_USA { scope = 0; class EventHandlers; };
+    class CUP_B_MTVR_USA_OCimport_02 : CUP_B_MTVR_USA_OCimport_01 { scope = 0; class EventHandlers; };
 
-    class CUP_B_USARMY_MTVR_Ammo_USA;
-    class CUP_B_USARMY_MTVR_Ammo_USA_OCimport_01 : CUP_B_USARMY_MTVR_Ammo_USA { scope = 0; class EventHandlers; };
-    class CUP_B_USARMY_MTVR_Ammo_USA_OCimport_02 : CUP_B_USARMY_MTVR_Ammo_USA_OCimport_01 { scope = 0; class EventHandlers; };
+    class CUP_B_MTVR_Ammo_USA;
+    class CUP_B_MTVR_Ammo_USA_OCimport_01 : CUP_B_MTVR_Ammo_USA { scope = 0; class EventHandlers; };
+    class CUP_B_MTVR_Ammo_USA_OCimport_02 : CUP_B_MTVR_Ammo_USA_OCimport_01 { scope = 0; class EventHandlers; };
 
-    class CUP_B_USARMY_MTVR_Refuel_USA;
-    class CUP_B_USARMY_MTVR_Refuel_USA_OCimport_01 : CUP_B_USARMY_MTVR_Refuel_USA { scope = 0; class EventHandlers; };
-    class CUP_B_USARMY_MTVR_Refuel_USA_OCimport_02 : CUP_B_USARMY_MTVR_Refuel_USA_OCimport_01 { scope = 0; class EventHandlers; };
+    class CUP_B_MTVR_Refuel_USA;
+    class CUP_B_MTVR_Refuel_USA_OCimport_01 : CUP_B_MTVR_Refuel_USA { scope = 0; class EventHandlers; };
+    class CUP_B_MTVR_Refuel_USA_OCimport_02 : CUP_B_MTVR_Refuel_USA_OCimport_01 { scope = 0; class EventHandlers; };
 
-    class CUP_B_USARMY_MTVR_Repair_USA;
-    class CUP_B_USARMY_MTVR_Repair_USA_OCimport_01 : CUP_B_USARMY_MTVR_Repair_USA { scope = 0; class EventHandlers; };
-    class CUP_B_USARMY_MTVR_Repair_USA_OCimport_02 : CUP_B_USARMY_MTVR_Repair_USA_OCimport_01 { scope = 0; class EventHandlers; };
+    class CUP_B_MTVR_Repair_USA;
+    class CUP_B_MTVR_Repair_USA_OCimport_01 : CUP_B_MTVR_Repair_USA { scope = 0; class EventHandlers; };
+    class CUP_B_MTVR_Repair_USA_OCimport_02 : CUP_B_MTVR_Repair_USA_OCimport_01 { scope = 0; class EventHandlers; };
 
     class CUP_O_DSHKM_SLA;
     class CUP_O_DSHKM_SLA_OCimport_01 : CUP_O_DSHKM_SLA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_DSHKM_SLA_OCimport_02 : CUP_O_DSHKM_SLA_OCimport_01 { 
-        class EventHandlers; 
+    class CUP_O_DSHKM_SLA_OCimport_02 : CUP_O_DSHKM_SLA_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -76,8 +76,8 @@ class CfgVehicles {
 
     class CUP_O_DSHKM_MiniTripod_SLA;
     class CUP_O_DSHKM_MiniTripod_SLA_OCimport_01 : CUP_O_DSHKM_MiniTripod_SLA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_DSHKM_MiniTripod_SLA_OCimport_02 : CUP_O_DSHKM_MiniTripod_SLA_OCimport_01 { 
-        class EventHandlers; 
+    class CUP_O_DSHKM_MiniTripod_SLA_OCimport_02 : CUP_O_DSHKM_MiniTripod_SLA_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -85,8 +85,8 @@ class CfgVehicles {
 
     class CUP_O_SPG9_SLA;
     class CUP_O_SPG9_SLA_OCimport_01 : CUP_O_SPG9_SLA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_SPG9_SLA_OCimport_02 : CUP_O_SPG9_SLA_OCimport_01 { 
-        class EventHandlers; 
+    class CUP_O_SPG9_SLA_OCimport_02 : CUP_O_SPG9_SLA_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -94,8 +94,8 @@ class CfgVehicles {
 
     class CUP_O_2b14_82mm_TK_INS;
     class CUP_O_2b14_82mm_TK_INS_OCimport_01 : CUP_O_2b14_82mm_TK_INS { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_2b14_82mm_TK_INS_OCimport_02 : CUP_O_2b14_82mm_TK_INS_OCimport_01 { 
-        class EventHandlers; 
+    class CUP_O_2b14_82mm_TK_INS_OCimport_02 : CUP_O_2b14_82mm_TK_INS_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -104,8 +104,8 @@ class CfgVehicles {
 
     class CUP_B_UH60M_US;
     class CUP_B_UH60M_US_OCimport_01 : CUP_B_UH60M_US { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_B_UH60M_US_OCimport_02 : CUP_B_UH60M_US_OCimport_01 { 
-        class EventHandlers; 
+    class CUP_B_UH60M_US_OCimport_02 : CUP_B_UH60M_US_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CopilotTurret;
             class MainTurret;
@@ -115,8 +115,8 @@ class CfgVehicles {
 
     class CUP_O_Mi8_SLA_1;
     class CUP_O_Mi8_SLA_1_OCimport_01 : CUP_O_Mi8_SLA_1 { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_Mi8_SLA_1_OCimport_02 : CUP_O_Mi8_SLA_1_OCimport_01 { 
-        class EventHandlers; 
+    class CUP_O_Mi8_SLA_1_OCimport_02 : CUP_O_Mi8_SLA_1_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
             class BackTurret;
@@ -126,8 +126,8 @@ class CfgVehicles {
 
     class CUP_O_Mi24_D_Dynamic_SLA;
     class CUP_O_Mi24_D_Dynamic_SLA_OCimport_01 : CUP_O_Mi24_D_Dynamic_SLA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_Mi24_D_Dynamic_SLA_OCimport_02 : CUP_O_Mi24_D_Dynamic_SLA_OCimport_01 { 
-        class EventHandlers; 
+    class CUP_O_Mi24_D_Dynamic_SLA_OCimport_02 : CUP_O_Mi24_D_Dynamic_SLA_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -546,7 +546,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_AFARMY_MTVR_01 : CUP_B_USARMY_MTVR_USA_OCimport_02 {
+    class CFP_B_AFARMY_MTVR_01 : CUP_B_MTVR_USA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -571,7 +571,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_AFARMY_MTVR_Ammo_01 : CUP_B_USARMY_MTVR_Ammo_USA_OCimport_02 {
+    class CFP_B_AFARMY_MTVR_Ammo_01 : CUP_B_MTVR_Ammo_USA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -596,7 +596,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_AFARMY_MTVR_Refuel_01 : CUP_B_USARMY_MTVR_Refuel_USA_OCimport_02 {
+    class CFP_B_AFARMY_MTVR_Refuel_01 : CUP_B_MTVR_Refuel_USA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -621,7 +621,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_AFARMY_MTVR_Repair_01 : CUP_B_USARMY_MTVR_Repair_USA_OCimport_02 {
+    class CFP_B_AFARMY_MTVR_Repair_01 : CUP_B_MTVR_Repair_USA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1139,41 +1139,41 @@ class CfgVehicles {
     };
 
     class CFP_B_AFARMY_Team_Leader_01 : CFP_B_AFARMY_Operator_01 {
-        
+
         displayName = "Team Leader [SF]";
-        
+
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_camo","","CUP_acc_ANPEQ_2_camo","CUP_optic_HoloWdl",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_M81",{{"CUP_30Rnd_556x45_Stanag",3,30},{"CUP_17Rnd_9x19_glock17",3,17}}},{"CUP_V_PMC_CIRAS_Black_TL",{{"CUP_30Rnd_556x45_Stanag",5,30}}},{},"SP_M88PSMHelmet_Green1","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_B_AFARMY_Grenadier_SF_01 : CFP_B_AFARMY_Operator_01 {
-        
+
         displayName = "Grenadier [SF]";
-        
+
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_BUIS_camo_GL","","CUP_acc_ANPEQ_2_camo","CUP_optic_HoloWdl",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_M81",{{"CUP_30Rnd_556x45_Stanag",4,30}}},{"CUP_V_PMC_CIRAS_Black_Grenadier",{{"CUP_30Rnd_556x45_Stanag",3,30},{"CUP_1Rnd_HEDP_M203",6,1}}},{},"SP_M88PSMHelmet_Green1","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_B_AFARMY_Explosive_Specialist_SF_01 : CFP_B_AFARMY_Operator_01 {
-        
+
         displayName = "Explosive Specialist [SF]";
-        
+
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_camo","","CUP_acc_ANPEQ_2_camo","CUP_optic_HoloWdl",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_M81",{{"CUP_30Rnd_556x45_Stanag",4,30}}},{"CUP_V_PMC_CIRAS_Black_Veh",{{"CUP_30Rnd_556x45_Stanag",4,30}}},{"CUP_B_AssaultPack_Black",{{"MineDetector",1},{"DemoCharge_Remote_Mag",4,1},{"CUP_PipeBomb_M",1,1}}},"SP_M88PSMHelmet_Green1","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_B_AFARMY_Machine_Gunner_SF_01 : CFP_B_AFARMY_Operator_01 {
-        
+
         displayName = "Machine Gunner [SF]";
-        
+
         ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_m249_pip3","","","CUP_optic_HoloBlack",{},{},""},{},{},{"CFP_U_FieldUniform_M81",{}},{"CUP_V_PMC_CIRAS_Black_Veh",{{"CUP_100Rnd_TE4_Red_Tracer_556x45_M249",1,100}}},{"CUP_B_AssaultPack_Black",{{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",2,200}}},"SP_M88PSMHelmet_Black1","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_B_AFARMY_Medic_SF_01 : CFP_B_AFARMY_Operator_01 {
-        
+
         displayName = "Medic [SF]";
-        
+
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_camo","","CUP_acc_ANPEQ_2_camo","CUP_optic_HoloWdl",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_M81",{{"CUP_30Rnd_556x45_Stanag",4,30}}},{"CUP_V_PMC_CIRAS_Black_Veh",{{"CUP_30Rnd_556x45_Stanag",4,30}}},{"B_AssaultPack_rgr",{{"Medikit",1},{"FirstAidKit",10}}},"SP_M88PSMHelmet_Green1","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };

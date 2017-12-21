@@ -50,6 +50,8 @@ class CfgPatches {
             "CUP_AirVehicles_Mi8",
             "CUP_AirVehicles_Mi24",
             "CUP_Weapons_StaticWeapons",
+            "CUP_WheeledVehicles_MTVR",
+            "CUP_TrackedVehicles_M113"
         };
         author = "Drew";
         authors[] = {"Drew"};
