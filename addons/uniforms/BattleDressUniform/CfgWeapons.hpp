@@ -424,6 +424,23 @@
 			mass=80;
 		};
 	};
+	
+	class CFP_U_BattleDressUniform_ugandan : Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Battle Dress Uniform (Ugandan)";
+		picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_AfghanWoodland.jpg";
+		author = "AccuracyThruVolume";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_BattleDressUniform_ugandan";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
 
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Tiger Stripe 2)",tigerstripe2,"AccuracyThruVolume")
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (DPM Woodland / Green)",dpmwoodlandgreen,"AccuracyThruVolume")

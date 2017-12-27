@@ -339,3 +339,10 @@
 		uniformClass = "CFP_U_BattleDressUniform_flecktarn_snow";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_flecktarn_snow.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_flecktarn_snow.paa"};
 	};
+	
+	class CFP_BattleDressUniform_ugandan : CFP_Uniform
+	{
+		displayName = "Battle Dress Uniform (Ugandan)";
+		uniformClass = "CFP_U_BattleDressUniform_ugandan";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_ugandan.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_ugandan.paa"};
+	};
