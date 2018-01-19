@@ -702,7 +702,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'cup\airvehicles\cup_airvehicles_uh60\data\uh60m_fuselage_co.paa'];_unit setObjectTextureGlobal [1,'cup\airvehicles\cup_airvehicles_uh60\data\uh60m_engine_co.paa'];_unit setObjectTextureGlobal [2,'cup\airvehicles\cup_airvehicles_uh60\data\default_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'cup\airvehicles\cup_airvehicles_uh60\data\uh60m_fuselage_co.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\b_afarmy\data\uh60m_engine_afghan_army.paa'];_unit setObjectTextureGlobal [2,'cup\airvehicles\cup_airvehicles_uh60\data\default_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -728,8 +728,8 @@ class CfgVehicles {
             class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_AFARMY_Helicopter_Pilot_01"; };
         };
 
-
-
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\b_afarmy\data\mi8_body_afghan_army.paa","\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\textures\mi8_sla1_2_co.paa","a3\data_f\clear_empty.paa","CUP\AirVehicles\CUP_AirVehicles_Mi8\data\mi8_decals_ca.paa"};
+		/*
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -738,6 +738,7 @@ class CfgVehicles {
             };
 
         };
+		*/
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
@@ -758,8 +759,10 @@ class CfgVehicles {
             class MainTurret : MainTurret { gunnerType = "CFP_B_AFARMY_Helicopter_Pilot_01"; };
         };
 
+		
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\b_afarmy\data\mi24_afghan_army.paa","CUP\AirVehicles\CUP_AirVehicles_Mi24\Data\mi24v_002_co.paa"};
 
-
+		/*
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -768,6 +771,7 @@ class CfgVehicles {
             };
 
         };
+		*/
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
