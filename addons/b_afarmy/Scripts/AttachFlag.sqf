@@ -6,8 +6,8 @@ if (local _this) then
 	_veh = _this;
 	_flag = objNull;
 
-	if ((_class == "CFP_B_AFARMY_M113_01") or
-		(_class == "CFP_B_AFARMY_M113_Ambulance_01")) then
+	if ((_class == "CFP_B_AFARMY_M113_01_flag") or
+		(_class == "CFP_B_AFARMY_M113_Ambulance_01_flag")) then
 	{
 		_flag = "AFghan_Flag_1" createVehicle (position _this);
 		_flag attachto [_this, [-0.55,-2.35,0.6]];

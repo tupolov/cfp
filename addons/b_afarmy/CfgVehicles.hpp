@@ -454,11 +454,43 @@ class CfgVehicles {
         };
     };
 
-    class CFP_B_AFARMY_M113_01 : CUP_B_M113_USA_OCimport_02 {
+    class CFP_B_AFARMY_M113_01 : CUP_B_M113_USA_OCimport_02 
+	{
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "M113";
+        side = 1;
+        faction = "CFP_B_AFARMY";
+        crew = "CFP_B_AFARMY_Rifleman_01";
+
+        class Turrets : Turrets 
+		{
+            class MainTurret : MainTurret { gunnerType = "CFP_B_AFARMY_Rifleman_01"; };
+        };
+
+        class EventHandlers : EventHandlers 
+		{
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator 
+			{
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+	
+	class CFP_B_AFARMY_M113_01_flag : CFP_B_AFARMY_M113_01 
+	{
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "M113 (Flag)";
         side = 1;
         faction = "CFP_B_AFARMY";
         crew = "CFP_B_AFARMY_Rifleman_01";
@@ -490,7 +522,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_AFARMY_M113_Ambulance_01 : CUP_B_M113_Med_USA_OCimport_02 {
+    class CFP_B_AFARMY_M113_Ambulance_01 : CUP_B_M113_Med_USA_OCimport_02 
+	{
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -503,7 +536,34 @@ class CfgVehicles {
             class MainTurret : MainTurret { gunnerType = ""; };
         };
 
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+			
+            class ALiVE_orbatCreator 
+			{
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
 
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+	
+	class CFP_B_AFARMY_M113_Ambulance_01_flag : CFP_B_AFARMY_M113_Ambulance_01 
+	{
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "M113 Ambulance (Flag)";
+        side = 1;
+        faction = "CFP_B_AFARMY";
+        crew = "CFP_B_AFARMY_Rifleman_01";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = ""; };
+        };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
