@@ -432,6 +432,27 @@ class CfgVehicles {
         ALiVE_orbatCreator_insignia = "USP_PATCH_AFG_ANA_SECFOR";
 
     };
+	
+	class FlagChecked_F;
+    class FlagChecked_F_OCimport_01 : FlagChecked_F { scope = 0; class Eventhandlers; };
+    class AFghan_Flag_1 : FlagChecked_F_OCimport_01
+    {
+        _generalMacro = "FlagCarrier";
+        faction = "CFP_B_AFARMY";
+        vehicleClass = "Afghan_Flags";
+        scope = 2;
+        side = 4;
+        accuracy = 1000;
+        displayName = "Flag Afghan";
+        armor = 1;
+        class EventHandlers : EventHandlers
+        {
+            class ADDON
+            {
+                init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Afghanistan\KingdomOfAfghanistan.paa""";
+            };
+        };
+    };
 
     class CFP_B_AFARMY_M113_01 : CUP_B_M113_USA_OCimport_02 {
         author = "Drew";
@@ -442,16 +463,23 @@ class CfgVehicles {
         faction = "CFP_B_AFARMY";
         crew = "CFP_B_AFARMY_Rifleman_01";
 
-        class Turrets : Turrets {
+        class Turrets : Turrets 
+		{
             class MainTurret : MainTurret { gunnerType = "CFP_B_AFARMY_Rifleman_01"; };
         };
 
-
-
-        class EventHandlers : EventHandlers {
+        class EventHandlers : EventHandlers 
+		{
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+			
+			class ADDON
+            {
+                init = "(_this select 0) execVM ""\x\cfp\addons\b_afarmy\Scripts\AttachFlag.sqf""";
+                killed = "(_this select 0) execVM ""\x\cfp\addons\b_afarmy\Scripts\onkilled.sqf""";
+            };
 
-            class ALiVE_orbatCreator {
+            class ALiVE_orbatCreator 
+			{
                 init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
@@ -480,7 +508,14 @@ class CfgVehicles {
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
-            class ALiVE_orbatCreator {
+			class ADDON
+            {
+                init = "(_this select 0) execVM ""\x\cfp\addons\b_afarmy\Scripts\AttachFlag.sqf""";
+                killed = "(_this select 0) execVM ""\x\cfp\addons\b_afarmy\Scripts\onkilled.sqf""";
+            };
+			
+            class ALiVE_orbatCreator 
+			{
                 init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
@@ -504,20 +539,39 @@ class CfgVehicles {
             class MainTurret : MainTurret { gunnerType = "CFP_B_AFARMY_Rifleman_01"; };
         };
 
-
+		/*
+		hiddenSelectionsTextures[]=
+		{
+			"\CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_body_canvas_1_wl_co.paa",
+			"\CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_hood_canvas_wl_co.paa",
+			"\CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_regular_wl_1_co.paa",
+			"\CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_gpk_tower_wl_co.paa",
+			"\CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_regular_wl_1_co.paa",
+			"\CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_regular_wl_1_co.paa"
+		};
+		*/
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
-            class ALiVE_orbatCreator {
+            class ALiVE_orbatCreator 
+			{
+				 init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_body_canvas_co.paa'];_unit setObjectTextureGlobal [1,'CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_hood_canvas_co.paa'];_unit setObjectTextureGlobal [2,'CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_regular_1_co.paa'];_unit setObjectTextureGlobal [3,'CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_gpk_tower_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+				
+				/*
+				init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_body_canvas_1_wl_co.paa'];_unit setObjectTextureGlobal [1,'CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_hood_canvas_wl_co.paa'];_unit setObjectTextureGlobal [2,'CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_regular_wl_1_co.paa'];_unit setObjectTextureGlobal [3,'CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_gpk_tower_wl_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+				
+				
+				
                 init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_body_canvas_co.paa'];_unit setObjectTextureGlobal [1,'CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_hood_canvas_co.paa'];_unit setObjectTextureGlobal [2,'CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_regular_1_co.paa'];_unit setObjectTextureGlobal [3,'CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_gpk_tower_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+				*/
             };
 
         };
 
         // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "Green";
+        //ALiVE_orbatCreator_owned = 1;
+        //ALiVE_orbatCreator_texture = "Green";
 
     };
 
@@ -530,7 +584,7 @@ class CfgVehicles {
         faction = "CFP_B_AFARMY";
         crew = "CFP_B_AFARMY_Rifleman_01";
 
-
+		/*
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -543,6 +597,7 @@ class CfgVehicles {
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_texture = "NatoGreen";
+		*/
 
     };
 
