@@ -158,6 +158,7 @@ class CfgPatches
 			"CFP_BattleDressUniform_mtp_snow",
 			"CFP_BattleDressUniform_flecktarn_snow",
 			"CFP_FieldUniform_3ColorDesert",
+			"CFP_FieldUniform_afghan_w",
 			"CFP_FieldUniform_AfricanWoodland",
 			"CFP_FieldUniform_M81",
 			"CFP_FieldUniform_ChocChip",

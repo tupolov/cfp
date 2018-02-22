@@ -1262,7 +1262,7 @@
 	{
 		displayName = "Field Uniform (Afghan Woodland)";
 		uniformClass = "CFP_U_FieldUniform_afghan_w";
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_afghan_w.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_afghan_w2.paa"};
 	};
 
 	class CFP_FieldUniform_acr_desert : CFP_FieldUniform_tigerstripe
