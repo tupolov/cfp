@@ -39,7 +39,13 @@ class CfgPatches {
             "CFP_B_AFARMY_Grenadier_SF_01",
             "CFP_B_AFARMY_Explosive_Specialist_SF_01",
             "CFP_B_AFARMY_Machine_Gunner_SF_01",
-            "CFP_B_AFARMY_Medic_SF_01"
+            "CFP_B_AFARMY_Medic_SF_01",
+            "CFP_B_AFARMY_Operator_Light_SF_01",
+            "CFP_B_AFARMY_Team_Leader_Light_SF_01",
+            "CFP_B_AFARMY_Grenadier_Light_SF_01",
+            "CFP_B_AFARMY_Explosive_Specialist_Light_SF_01",
+            "CFP_B_AFARMY_Machine_Gunner_Light_SF_01",
+            "CFP_B_AFARMY_Medic_Light_SF_01"
         };
         weapons[] = {};
         requiredVersion = 1.62;

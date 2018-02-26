@@ -474,6 +474,96 @@ class CfgGroups {
                     };
                 };
 
+                class cfp_b_afarmy_specops_ana_commando_squad_light {
+                    name = "ANA Commando Squad Light";
+                    side = 1;
+                    faction = "CFP_B_AFARMY";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CFP_B_AFARMY_Team_Leader_Light_SF_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_AFARMY_Grenadier_Light_SF_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_AFARMY_Explosive_Specialist_Light_SF_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_AFARMY_Machine_Gunner_Light_SF_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_AFARMY_Medic_Light_SF_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_AFARMY_Operator_Light_SF_01";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_AFARMY_Operator_Light_SF_01";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_AFARMY_Operator_Light_SF_01";
+                    };
+                };
+
+                class cfp_b_afarmy_specops_ana_commando_fireteam_light {
+                    name = "ANA Commando Fireteam Light";
+                    side = 1;
+                    faction = "CFP_B_AFARMY";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CFP_B_AFARMY_Team_Leader_Light_SF_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_AFARMY_Grenadier_Light_SF_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_AFARMY_Machine_Gunner_Light_SF_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_AFARMY_Operator_Light_SF_01";
+                    };
+                };
+
             };
 
             class Motorized {

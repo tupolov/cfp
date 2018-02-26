@@ -432,7 +432,7 @@ class CfgVehicles {
         ALiVE_orbatCreator_insignia = "USP_PATCH_AFG_ANA_SECFOR";
 
     };
-	
+
 	class FlagChecked_F;
     class FlagChecked_F_OCimport_01 : FlagChecked_F { scope = 0; class Eventhandlers; };
     class AFghan_Flag_1 : FlagChecked_F_OCimport_01
@@ -454,7 +454,7 @@ class CfgVehicles {
         };
     };
 
-    class CFP_B_AFARMY_M113_01 : CUP_B_M113_USA_OCimport_02 
+    class CFP_B_AFARMY_M113_01 : CUP_B_M113_USA_OCimport_02
 	{
         author = "Drew";
         scope = 2;
@@ -464,16 +464,16 @@ class CfgVehicles {
         faction = "CFP_B_AFARMY";
         crew = "CFP_B_AFARMY_Rifleman_01";
 
-        class Turrets : Turrets 
+        class Turrets : Turrets
 		{
             class MainTurret : MainTurret { gunnerType = "CFP_B_AFARMY_Rifleman_01"; };
         };
 
-        class EventHandlers : EventHandlers 
+        class EventHandlers : EventHandlers
 		{
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
-            class ALiVE_orbatCreator 
+            class ALiVE_orbatCreator
 			{
                 init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
@@ -484,8 +484,8 @@ class CfgVehicles {
         ALiVE_orbatCreator_owned = 1;
 
     };
-	
-	class CFP_B_AFARMY_M113_01_flag : CFP_B_AFARMY_M113_01 
+
+	class CFP_B_AFARMY_M113_01_flag : CFP_B_AFARMY_M113_01
 	{
         author = "Drew";
         scope = 2;
@@ -495,22 +495,22 @@ class CfgVehicles {
         faction = "CFP_B_AFARMY";
         crew = "CFP_B_AFARMY_Rifleman_01";
 
-        class Turrets : Turrets 
+        class Turrets : Turrets
 		{
             class MainTurret : MainTurret { gunnerType = "CFP_B_AFARMY_Rifleman_01"; };
         };
 
-        class EventHandlers : EventHandlers 
+        class EventHandlers : EventHandlers
 		{
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-			
+
 			class ADDON
             {
                 init = "(_this select 0) execVM ""\x\cfp\addons\b_afarmy\Scripts\AttachFlag.sqf""";
                 killed = "(_this select 0) execVM ""\x\cfp\addons\b_afarmy\Scripts\onkilled.sqf""";
             };
 
-            class ALiVE_orbatCreator 
+            class ALiVE_orbatCreator
 			{
                 init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
@@ -522,7 +522,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_AFARMY_M113_Ambulance_01 : CUP_B_M113_Med_USA_OCimport_02 
+    class CFP_B_AFARMY_M113_Ambulance_01 : CUP_B_M113_Med_USA_OCimport_02
 	{
         author = "Drew";
         scope = 2;
@@ -538,8 +538,8 @@ class CfgVehicles {
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-			
-            class ALiVE_orbatCreator 
+
+            class ALiVE_orbatCreator
 			{
                 init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
@@ -550,8 +550,8 @@ class CfgVehicles {
         ALiVE_orbatCreator_owned = 1;
 
     };
-	
-	class CFP_B_AFARMY_M113_Ambulance_01_flag : CFP_B_AFARMY_M113_Ambulance_01 
+
+	class CFP_B_AFARMY_M113_Ambulance_01_flag : CFP_B_AFARMY_M113_Ambulance_01
 	{
         author = "Drew";
         scope = 2;
@@ -573,8 +573,8 @@ class CfgVehicles {
                 init = "(_this select 0) execVM ""\x\cfp\addons\b_afarmy\Scripts\AttachFlag.sqf""";
                 killed = "(_this select 0) execVM ""\x\cfp\addons\b_afarmy\Scripts\onkilled.sqf""";
             };
-			
-            class ALiVE_orbatCreator 
+
+            class ALiVE_orbatCreator
 			{
                 init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
@@ -614,15 +614,15 @@ class CfgVehicles {
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
-            class ALiVE_orbatCreator 
+            class ALiVE_orbatCreator
 			{
 				 init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_body_canvas_co.paa'];_unit setObjectTextureGlobal [1,'CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_hood_canvas_co.paa'];_unit setObjectTextureGlobal [2,'CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_regular_1_co.paa'];_unit setObjectTextureGlobal [3,'CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_gpk_tower_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-				
+
 				/*
 				init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_body_canvas_1_wl_co.paa'];_unit setObjectTextureGlobal [1,'CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_hood_canvas_wl_co.paa'];_unit setObjectTextureGlobal [2,'CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_regular_wl_1_co.paa'];_unit setObjectTextureGlobal [3,'CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_gpk_tower_wl_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-				
-				
-				
+
+
+
                 init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_body_canvas_co.paa'];_unit setObjectTextureGlobal [1,'CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_hood_canvas_co.paa'];_unit setObjectTextureGlobal [2,'CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_regular_1_co.paa'];_unit setObjectTextureGlobal [3,'CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_gpk_tower_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
 				*/
             };
@@ -874,7 +874,7 @@ class CfgVehicles {
             class MainTurret : MainTurret { gunnerType = "CFP_B_AFARMY_Helicopter_Pilot_01"; };
         };
 
-		
+
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\b_afarmy\data\mi24_afghan_army.paa","CUP\AirVehicles\CUP_AirVehicles_Mi24\Data\mi24v_002_co.paa"};
 
 		/*
@@ -1231,7 +1231,7 @@ class CfgVehicles {
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
         uniformClass = "CFP_U_FieldUniform_M81";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_camo","","CUP_acc_ANPEQ_2_camo","CUP_optic_HoloWdl",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_M81",{{"CUP_30Rnd_556x45_Stanag",4,30}}},{"CUP_V_PMC_CIRAS_Black_Patrol",{{"CUP_30Rnd_556x45_Stanag",4,30}}},{},"SP_M88PSMHelmet_Green1","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"arifle_SPAR_01_blk_F","muzzle_snds_M","acc_pointer_IR","optic_Holosight_smg_blk_F",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_M81",{{"30Rnd_556x45_Stanag",3,30},{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_LBT6094_operator_M81",{{"30Rnd_556x45_Stanag",5,30}}},{},"SP_BeanieHat_Green","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 	randomGearProbability = 100;
 
@@ -1261,7 +1261,7 @@ class CfgVehicles {
 
         displayName = "Team Leader [SF]";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_camo","","CUP_acc_ANPEQ_2_camo","CUP_optic_HoloWdl",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_M81",{{"CUP_30Rnd_556x45_Stanag",3,30},{"CUP_17Rnd_9x19_glock17",3,17}}},{"CUP_V_PMC_CIRAS_Black_TL",{{"CUP_30Rnd_556x45_Stanag",5,30}}},{},"SP_M88PSMHelmet_Green1","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"arifle_SPAR_01_blk_F","muzzle_snds_M","acc_pointer_IR","optic_Holosight_smg_blk_F",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_M81",{{"30Rnd_556x45_Stanag",3,30},{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_LBT6094_operator_M81",{{"30Rnd_556x45_Stanag",5,30}}},{},"SP_M88PSMHelmet_Green1","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -1269,7 +1269,7 @@ class CfgVehicles {
 
         displayName = "Grenadier [SF]";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_BUIS_camo_GL","","CUP_acc_ANPEQ_2_camo","CUP_optic_HoloWdl",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_M81",{{"CUP_30Rnd_556x45_Stanag",4,30}}},{"CUP_V_PMC_CIRAS_Black_Grenadier",{{"CUP_30Rnd_556x45_Stanag",3,30},{"CUP_1Rnd_HEDP_M203",6,1}}},{},"SP_M88PSMHelmet_Green1","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"arifle_SPAR_01_GL_blk_F","muzzle_snds_M","acc_pointer_IR","optic_Holosight_smg_blk_F",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_M81",{{"CUP_17Rnd_9x19_glock17",3,17},{"30Rnd_556x45_Stanag",3,30}}},{"CFP_LBT6094_operator_M81",{{"1Rnd_HE_Grenade_shell",5,1},{"30Rnd_556x45_Stanag",5,30},{"1Rnd_Smoke_Grenade_shell",4,1}}},{},"SP_M88PSMHelmet_Green1","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -1277,7 +1277,7 @@ class CfgVehicles {
 
         displayName = "Explosive Specialist [SF]";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_camo","","CUP_acc_ANPEQ_2_camo","CUP_optic_HoloWdl",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_M81",{{"CUP_30Rnd_556x45_Stanag",4,30}}},{"CUP_V_PMC_CIRAS_Black_Veh",{{"CUP_30Rnd_556x45_Stanag",4,30}}},{"CUP_B_AssaultPack_Black",{{"MineDetector",1},{"DemoCharge_Remote_Mag",4,1},{"CUP_PipeBomb_M",1,1}}},"SP_M88PSMHelmet_Green1","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"arifle_SPAR_01_blk_F","muzzle_snds_M","acc_pointer_IR","optic_Holosight_smg_blk_F",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_M81",{{"30Rnd_556x45_Stanag",3,30},{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_LBT6094_operator_M81",{{"30Rnd_556x45_Stanag",5,30},{"DemoCharge_Remote_Mag",4,1},{"SLAMDirectionalMine_Wire_Mag",1,1},{"APERSTripMine_Wire_Mag",1,1}}},{},"SP_M88PSMHelmet_Green1","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -1285,7 +1285,7 @@ class CfgVehicles {
 
         displayName = "Machine Gunner [SF]";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_m249_pip3","","","CUP_optic_HoloBlack",{},{},""},{},{},{"CFP_U_FieldUniform_M81",{}},{"CUP_V_PMC_CIRAS_Black_Veh",{{"CUP_100Rnd_TE4_Red_Tracer_556x45_M249",1,100}}},{"CUP_B_AssaultPack_Black",{{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",2,200}}},"SP_M88PSMHelmet_Black1","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_m249_pip3","","","CUP_optic_HoloBlack",{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",200},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_M81",{{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_LBT6094_MG_M81",{{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",4,200}}},{},"SP_M88PSMHelmet_Green1","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -1293,7 +1293,84 @@ class CfgVehicles {
 
         displayName = "Medic [SF]";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_camo","","CUP_acc_ANPEQ_2_camo","CUP_optic_HoloWdl",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_M81",{{"CUP_30Rnd_556x45_Stanag",4,30}}},{"CUP_V_PMC_CIRAS_Black_Veh",{{"CUP_30Rnd_556x45_Stanag",4,30}}},{"B_AssaultPack_rgr",{{"Medikit",1},{"FirstAidKit",10}}},"SP_M88PSMHelmet_Green1","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"arifle_SPAR_01_blk_F","muzzle_snds_M","acc_pointer_IR","optic_Holosight_smg_blk_F",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_M81",{{"30Rnd_556x45_Stanag",3,30},{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_LBT6094_operator_M81",{{"FirstAidKit",10},{"30Rnd_556x45_Stanag",5,30}}},{},"SP_M88PSMHelmet_Green1","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+    };
+
+        class CFP_B_AFARMY_Operator_Light_SF_01 : O_recon_F_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Operator Light [SF]";
+        side = 1;
+        faction = "CFP_B_AFARMY";
+
+        identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
+        uniformClass = "CFP_U_FieldUniform_M81";
+
+        ALiVE_orbatCreator_loadout[] = {{"arifle_SPAR_01_blk_F","muzzle_snds_M","acc_pointer_IR","optic_Holosight_smg_blk_F",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_M81",{{"30Rnd_556x45_Stanag",3,30},{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_LBT6094_operator_M81",{{"30Rnd_556x45_Stanag",5,30}}},{},"SP_BeanieHat_Green","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+    randomGearProbability = 100;
+
+    // ANA Commando Shemaghs
+        facewearList[] = {
+    "", 0.3,
+    "CUP_FR_NeckScarf", 0.3,
+    "CUP_FR_NeckScarf2", 0.3
+        };
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_AFG_ANA_CDO_SF'] call BIS_fnc_setUnitInsignia;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_insignia = "USP_PATCH_AFG_ANA_CDO_SF";
+
+    };
+
+    class CFP_B_AFARMY_Team_Leader_Light_SF_01 : CFP_B_AFARMY_Operator_Light_SF_01 {
+
+        displayName = "Team Leader Light [SF]";
+
+        ALiVE_orbatCreator_loadout[] = {{"arifle_SPAR_01_blk_F","muzzle_snds_M","acc_pointer_IR","optic_Holosight_smg_blk_F",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_M81",{{"30Rnd_556x45_Stanag",3,30},{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_LBT6094_operator_M81",{{"30Rnd_556x45_Stanag",5,30}}},{},"H_Booniehat_oli","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+    };
+
+    class CFP_B_AFARMY_Grenadier_Light_SF_01 : CFP_B_AFARMY_Operator_Light_SF_01 {
+
+        displayName = "Grenadier Light [SF]";
+
+        ALiVE_orbatCreator_loadout[] = {{"arifle_SPAR_01_GL_blk_F","muzzle_snds_M","acc_pointer_IR","optic_Holosight_smg_blk_F",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_M81",{{"CUP_17Rnd_9x19_glock17",3,17},{"30Rnd_556x45_Stanag",3,30}}},{"CFP_LBT6094_operator_M81",{{"1Rnd_HE_Grenade_shell",5,1},{"30Rnd_556x45_Stanag",5,30},{"1Rnd_Smoke_Grenade_shell",4,1}}},{},"SP_BaseballCap_Green","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+    };
+
+    class CFP_B_AFARMY_Explosive_Specialist_Light_SF_01 : CFP_B_AFARMY_Operator_Light_SF_01 {
+
+        displayName = "Explosive Specialist Light [SF]";
+
+        ALiVE_orbatCreator_loadout[] = {{"arifle_SPAR_01_blk_F","muzzle_snds_M","acc_pointer_IR","optic_Holosight_smg_blk_F",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_M81",{{"30Rnd_556x45_Stanag",3,30},{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_LBT6094_operator_M81",{{"30Rnd_556x45_Stanag",5,30},{"DemoCharge_Remote_Mag",4,1},{"SLAMDirectionalMine_Wire_Mag",1,1},{"APERSTripMine_Wire_Mag",1,1}}},{},"SP_BeanieHat_Black","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+    };
+
+    class CFP_B_AFARMY_Machine_Gunner_Light_SF_01 : CFP_B_AFARMY_Operator_Light_SF_01 {
+
+        displayName = "Machine Gunner Light [SF]";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_m249_pip3","","","CUP_optic_HoloBlack",{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",200},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_M81",{{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_LBT6094_MG_M81",{{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",4,200}}},{},"SP_Bandana_Green","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+    };
+
+    class CFP_B_AFARMY_Medic_Light_SF_01 : CFP_B_AFARMY_Operator_Light_SF_01 {
+
+        displayName = "Medic Light [SF]";
+
+        ALiVE_orbatCreator_loadout[] = {{"arifle_SPAR_01_blk_F","muzzle_snds_M","acc_pointer_IR","optic_Holosight_smg_blk_F",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_M81",{{"30Rnd_556x45_Stanag",3,30},{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_LBT6094_operator_M81",{{"FirstAidKit",10},{"30Rnd_556x45_Stanag",5,30}}},{},"SP_BaseballCap_Green","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
