@@ -712,7 +712,7 @@
 			mass=80;
 		};
 	};
-	
+
 	class CFP_U_FieldUniform_multicam_snow : Uniform_Base
 	{
 		scope=2;
@@ -729,7 +729,7 @@
 			mass=80;
 		};
 	};
-	
+
 	class CFP_U_FieldUniform_mtp_snow : Uniform_Base
 	{
 		scope=2;
@@ -746,7 +746,7 @@
 			mass=80;
 		};
 	};
-	
+
 	class CFP_U_FieldUniform_flecktarn_snow : Uniform_Base
 	{
 		scope=2;
@@ -763,7 +763,7 @@
 			mass=80;
 		};
 	};
-	
+
 	class CFP_U_FieldUniform_ugandan : Uniform_Base
 	{
 		scope=2;
@@ -786,3 +786,5 @@
 	ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Flora Arid)",flora_arid,"AccuracyThruVolume")
 	ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Afghan Woodland)",afghan_w,"AccuracyThruVolume")
 	ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (ACR Desert)",acr_desert,"AccuracyThruVolume")
+    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (IA Special Forces Black)",iasfblack,"AuburnAlumni")
+    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (ANA Commando M81)",m81anasf,"AuburnAlumni")

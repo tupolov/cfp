@@ -1278,32 +1278,45 @@
 		uniformClass = "CFP_U_FieldUniform_acr_desert_SS";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_acr_desert.paa"};
 	};
-	
+
 	class CFP_FieldUniform_multicam_snow : CFP_FieldUniform_tigerstripe
 	{
 		displayName = "Field Uniform (Multicam Snow)";
 		uniformClass = "CFP_U_FieldUniform_multicam_snow";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_multicam_snow.paa"};
 	};
-	
+
 	class CFP_FieldUniform_mtp_snow : CFP_FieldUniform_tigerstripe
 	{
 		displayName = "Field Uniform (MTP Snow)";
 		uniformClass = "CFP_U_FieldUniform_mtp_snow";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_mtp_snow.paa"};
 	};
-	
+
 	class CFP_FieldUniform_flecktarn_snow : CFP_FieldUniform_tigerstripe
 	{
 		displayName = "Field Uniform (Flecktarn Snow)";
 		uniformClass = "CFP_U_FieldUniform_flecktarn_snow";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_flecktarn_snow.paa"};
 	};
-	
+
 	class CFP_FieldUniform_ugandan : CFP_FieldUniform_tigerstripe
 	{
 		displayName = "Field Uniform (Ugandan)";
 		uniformClass = "CFP_U_FieldUniform_ugandan";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_ugandan.paa"};
 	};
-	
+
+	class CFP_FieldUniform_iasfblack : SP_0000_Standard_FieldUniform_Black
+	{
+		displayName = "Field Uniform (IA Special Forces Black)";
+		uniformClass = "CFP_U_FieldUniform_iasfblack";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_iasfblack.paa"};
+	};
+
+	class CFP_FieldUniform_m81anasf : CFP_FieldUniform_m81
+	{
+		displayName = "Field Uniform (ANA Commando M81)";
+		uniformClass = "CFP_U_FieldUniform_m81anasf";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_m81anasf.paa"};
+	};
