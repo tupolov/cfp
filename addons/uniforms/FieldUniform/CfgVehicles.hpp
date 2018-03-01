@@ -1320,3 +1320,17 @@
 		uniformClass = "CFP_U_FieldUniform_m81anasf";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_m81anasf.paa"};
 	};
+
+	class CFP_FieldUniform_ana : SP_0000_Standard_FieldUniform_GreenOlive
+	{
+		displayName = "Field Uniform (ANA Spec4ce)";
+		uniformClass = "CFP_U_FieldUniform_ana";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_ana.paa"};
+	};
+
+    class CFP_FieldUniform_irandpm : SP_0000_Standard_FieldUniform_GreenOlive
+	{
+		displayName = "Field Uniform (Iran DPM)";
+		uniformClass = "CFP_U_FieldUniform_irandpm";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_irandpm.paa"};
+	};

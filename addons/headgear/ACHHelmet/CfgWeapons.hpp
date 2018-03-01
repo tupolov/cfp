@@ -254,7 +254,7 @@ class SP_ACHHelmet_NodUrban1: ItemCore
 		passThrough = 0.30;
 		HITPOINTS_HEAD(10,0.30)
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\ACHHelmet\NodUrban.paa"};
-		hiddenSelections[] = {"Camo"};		
+		hiddenSelections[] = {"Camo"};
 	};
 };
 
@@ -278,6 +278,30 @@ class CFP_ACHHelmet_ATacsAU : ItemCore
 		passThrough = 0.30;
 		HITPOINTS_HEAD(10,0.30)
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\ACHHelmet\ATacsAU.paa"};
-		hiddenSelections[] = {"Camo"};		
+		hiddenSelections[] = {"Camo"};
+	};
+};
+
+class CFP_ACHHelmet_IranDPM : ItemCore
+{
+	scope = 2;
+	weaponPoolAvailable = 1;
+	displayName = "ACH Helmet (Iran DPM)";
+	picture = "\x\cfp\addons\headgear\ACHHelmet\ui\ATacsAU.jpg";
+	model = "\x\cfp\addons\models\ACHHelmet1";
+	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\ACHHelmet\IranDPM.paa"};
+	hiddenSelections[] = {"Camo"};
+	author = "SP Craig";
+
+	class ItemInfo: HeadgearItem
+	{
+		mass = 60;
+		uniformmodel = "\x\cfp\addons\models\ACHHelmet1";
+		modelSides[] = {3,1};
+		armor = 10;
+		passThrough = 0.30;
+		HITPOINTS_HEAD(10,0.30)
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\ACHHelmet\IranDPM.paa"};
+		hiddenSelections[] = {"Camo"};
 	};
 };

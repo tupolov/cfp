@@ -788,3 +788,5 @@
 	ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (ACR Desert)",acr_desert,"AccuracyThruVolume")
     ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (IA Special Forces Black)",iasfblack,"AuburnAlumni")
     ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (ANA Commando M81)",m81anasf,"AuburnAlumni")
+    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (ANA Spec4ce)",ana,"AuburnAlumni")
+    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Iran DPM)",irandpm,"AuburnAlumni")

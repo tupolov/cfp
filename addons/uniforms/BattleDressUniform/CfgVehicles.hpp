@@ -318,31 +318,38 @@
 		uniformClass = "CFP_U_BattleDressUniform_atacs_au";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_atacs_au.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_atacs_au.paa"};
 	};
-	
+
 	class CFP_BattleDressUniform_multicam_snow : CFP_Uniform
 	{
 		displayName = "Battle Dress Uniform (Multicam Snow)";
 		uniformClass = "CFP_U_BattleDressUniform_multicam_snow";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_multicam_snow.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_multicam_snow.paa"};
 	};
-	
+
 	class CFP_BattleDressUniform_mtp_snow : CFP_Uniform
 	{
 		displayName = "Battle Dress Uniform (MTP Snow)";
 		uniformClass = "CFP_U_BattleDressUniform_mtp_snow";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_mtp_snow.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_mtp_snow.paa"};
 	};
-	
+
 	class CFP_BattleDressUniform_flecktarn_snow : CFP_Uniform
 	{
 		displayName = "Battle Dress Uniform (Flecktarn Snow)";
 		uniformClass = "CFP_U_BattleDressUniform_flecktarn_snow";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_flecktarn_snow.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_flecktarn_snow.paa"};
 	};
-	
+
 	class CFP_BattleDressUniform_ugandan : CFP_Uniform
 	{
 		displayName = "Battle Dress Uniform (Ugandan)";
 		uniformClass = "CFP_U_BattleDressUniform_ugandan";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_ugandan.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_ugandan.paa"};
+	};
+
+	class CFP_BattleDressUniform_irandpm : CFP_Uniform
+	{
+		displayName = "Battle Dress Uniform (Iran DPM)";
+		uniformClass = "CFP_U_BattleDressUniform_irandpm";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_irandpm.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_irandpm.paa"};
 	};

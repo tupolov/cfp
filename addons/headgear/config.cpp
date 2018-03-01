@@ -17,6 +17,7 @@ class CfgPatches
 			"SP_ACHHelmet_ATacsFG1",
 			"SP_ACHHelmet_NodUrban1",
 			"CFP_ACHHelmet_ATacsAU",
+			"CFP_ACHHelmet_IranDPM",
 			"SP_Bandana_Black",
 			"SP_Bandana_Green",
 			"SP_Bandana_Tan",

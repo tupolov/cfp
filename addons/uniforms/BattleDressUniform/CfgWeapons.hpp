@@ -373,7 +373,7 @@
 			mass=80;
 		};
 	};
-	
+
 	class CFP_U_BattleDressUniform_multicam_snow: Uniform_Base
 	{
 		scope=2;
@@ -390,7 +390,7 @@
 			mass=80;
 		};
 	};
-	
+
 	class CFP_U_BattleDressUniform_mtp_snow : Uniform_Base
 	{
 		scope=2;
@@ -407,7 +407,7 @@
 			mass=80;
 		};
 	};
-	
+
 	class CFP_U_BattleDressUniform_flecktarn_snow : Uniform_Base
 	{
 		scope=2;
@@ -424,7 +424,7 @@
 			mass=80;
 		};
 	};
-	
+
 	class CFP_U_BattleDressUniform_ugandan : Uniform_Base
 	{
 		scope=2;
@@ -448,3 +448,4 @@
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Flora Arid)",flora_arid,"AccuracyThruVolume")
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Afghan Woodland)",afghan_w,"AccuracyThruVolume")
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (ACR Desert)",acr_desert,"AccuracyThruVolume")
+	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Iran DPM)",irandpm,"AuburnAlumni")
