@@ -32,7 +32,8 @@ class CfgVehicleClasses
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MichHelmet\Black.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa"};
 			hiddenSelections[] = {"Camo","Camo1"};
 		};
-	};        class SP_MichHelmet_Black2: ItemCore
+	};
+	class SP_MichHelmet_Black2: ItemCore
 	{
 		scope = 2;
 		weaponPoolAvailable = 1;

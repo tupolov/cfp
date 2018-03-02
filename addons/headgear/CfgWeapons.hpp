@@ -48,5 +48,6 @@ class CfgWeapons {
     #include "SSh68Helmet\CfgWeapons.hpp"
     #include "SSh68NetHelmet\CfgWeapons.hpp"
     #include "TSH04Helmet\CfgWeapons.hpp"
+    #include "VSM_Helms\CfgWeapons.hpp"
     #include "ZSH1Helmet\CfgWeapons.hpp"
 };
