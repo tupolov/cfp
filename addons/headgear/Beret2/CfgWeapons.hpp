@@ -212,3 +212,106 @@ class CfgVehicleClasses
 		};
 	};
 
+		class CFP_Beret2_GreenIran: ItemCore
+	{
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "Beret2 (Iran Army)";
+		picture = "\x\cfp\addons\headgear\Beret2\ui\Green.jpg";
+		model = "\x\cfp\addons\models\Beret2";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\GreenIran.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "AuburnAlumni";
+
+
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 15;
+			uniformmodel = "\x\cfp\addons\models\Beret2";
+			modelSides[] = {3,1};
+			armor = 0;
+			passThrough = 0.30;
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\GreenIran.paa"};
+			hiddenSelections[] = {"Camo"};
+
+		};
+	};
+
+		class CFP_Beret2_RedIran: ItemCore
+	{
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "Beret2 (Iran Army)";
+		picture = "\x\cfp\addons\headgear\Beret2\ui\Red.jpg";
+		model = "\x\cfp\addons\models\Beret2";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\RedIran.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "AuburnAlumni";
+
+
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 15;
+			uniformmodel = "\x\cfp\addons\models\Beret2";
+			modelSides[] = {3,1};
+			armor = 0;
+			passThrough = 0.30;
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\RedIran.paa"};
+			hiddenSelections[] = {"Camo"};
+
+		};
+	};
+
+		class CFP_Beret2_GreenANA: ItemCore
+	{
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "Beret2 (Afghan National Army)";
+		picture = "\x\cfp\addons\headgear\Beret2\ui\Green.jpg";
+		model = "\x\cfp\addons\models\Beret2";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\GreenANA.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "AuburnAlumni";
+
+
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 15;
+			uniformmodel = "\x\cfp\addons\models\Beret2";
+			modelSides[] = {3,1};
+			armor = 0;
+			passThrough = 0.30;
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\GreenANA.paa"};
+			hiddenSelections[] = {"Camo"};
+
+		};
+	};
+
+		class CFP_Beret2_RedANA: ItemCore
+	{
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "Beret2 (Afghan National Army)";
+		picture = "\x\cfp\addons\headgear\Beret2\ui\Red.jpg";
+		model = "\x\cfp\addons\models\Beret2";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\RedANA.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "AuburnAlumni";
+
+
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 15;
+			uniformmodel = "\x\cfp\addons\models\Beret2";
+			modelSides[] = {3,1};
+			armor = 0;
+			passThrough = 0.30;
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\RedANA.paa"};
+			hiddenSelections[] = {"Camo"};
+
+		};
+	};
