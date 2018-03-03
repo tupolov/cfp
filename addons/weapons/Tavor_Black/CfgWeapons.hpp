@@ -2,6 +2,7 @@
 	class arifle_TRG20_F;
 	class CFP_Tavor_Black: arifle_TRG20_F
 	{
+		author = MODULE_AUTHOR;
 		baseWeapon = "CFP_Tavor_Black";
 		displayName = "Tavor (Black)";
 		hiddenSelections[] = {"camo"};
@@ -10,6 +11,7 @@
 	class arifle_TRG21_F;
 	class CFP_Tavor_Black_Long: arifle_TRG21_F
 	{
+		author = MODULE_AUTHOR;
 		baseWeapon = "CFP_Tavor_Black_Long";
 		displayName = "Tavor Long (Black)";
 		hiddenSelections[] = {"camo"};
@@ -19,6 +21,7 @@
 	class arifle_TRG21_GL_F;
 	class CFP_Tavor_Black_GL: arifle_TRG21_GL_F
 	{
+		author = MODULE_AUTHOR;
 		baseWeapon = "CFP_Tavor_Black_GL";
 		displayName = "Tavor GL (Black)";
 		hiddenSelections[] = {"camo1","camo2","camo3"};
