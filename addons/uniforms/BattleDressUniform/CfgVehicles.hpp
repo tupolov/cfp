@@ -353,3 +353,10 @@
 		uniformClass = "CFP_U_BattleDressUniform_irandpm";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_irandpm.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_irandpm.paa"};
 	};
+
+	class CFP_BattleDressUniform_idf : CFP_Uniform
+	{
+		displayName = "Battle Dress Uniform (Israeli Defense Force)";
+		uniformClass = "CFP_U_BattleDressUniform_idf";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_idf.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_idf.paa"};
+	};

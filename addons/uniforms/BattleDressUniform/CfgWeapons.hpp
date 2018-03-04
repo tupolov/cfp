@@ -449,3 +449,4 @@
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Afghan Woodland)",afghan_w,"AccuracyThruVolume")
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (ACR Desert)",acr_desert,"AccuracyThruVolume")
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Iran DPM)",irandpm,"AuburnAlumni")
+	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Israeli Defense Force)",idf,"AuburnAlumni")

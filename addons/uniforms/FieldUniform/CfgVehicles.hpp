@@ -1334,3 +1334,10 @@
 		uniformClass = "CFP_U_FieldUniform_irandpm";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_irandpm.paa"};
 	};
+
+	class CFP_FieldUniform_idf : SP_0000_Standard_FieldUniform_GreenOlive
+	{
+		displayName = "Field Uniform (Israeli Defense Force)";
+		uniformClass = "CFP_U_FieldUniform_idf";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_idf.paa"};
+	};
