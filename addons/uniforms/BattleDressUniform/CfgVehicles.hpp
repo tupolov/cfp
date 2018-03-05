@@ -360,3 +360,17 @@
 		uniformClass = "CFP_U_BattleDressUniform_idf";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_idf.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_idf.paa"};
 	};
+
+	class CFP_BattleDressUniform_ana_wdlight : CFP_Uniform
+	{
+		displayName = "Battle Dress Uniform (ANA Woodland Light Boots)";
+		uniformClass = "CFP_U_BattleDressUniform_ana_wdlight";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_anawoodland.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_ana_wdlight.paa"};
+	};
+
+	class CFP_BattleDressUniform_ana_wddark : CFP_Uniform
+	{
+		displayName = "Battle Dress Uniform (ANA Woodland Dark Boots)";
+		uniformClass = "CFP_U_BattleDressUniform_ana_wddark";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_anawoodland.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_ana_wddark.paa"};
+	};

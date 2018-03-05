@@ -173,7 +173,17 @@ class CfgPatches
 			"CFP_FieldUniform_multicam",
 			"CFP_FieldUniform_multicam_snow",
 			"CFP_FieldUniform_mtp_snow",
-			"CFP_FieldUniform_flecktarn_snow"
+			"CFP_FieldUniform_flecktarn_snow",
+			"CFP_FieldUniform_iasfblack",
+			"CFP_FieldUniform_m81anasf",
+			"CFP_FieldUniform_ana",
+			"CFP_FieldUniform_irandpm",
+			"CFP_FieldUniform_idf",
+			"CFP_FieldUniform_ana_wdlight",
+			"CFP_FieldUniform_ana_wddark",
+			"CFP_BattleDressUniform_irandpm",
+			"CFP_BattleDressUniform_idf",
+			"CFP_BattleDressUniform_anawoodland"
 			
 		};
 		weapons[] = {
@@ -332,8 +342,17 @@ class CfgPatches
 			"CFP_U_FieldUniform_multicam",
 			"CFP_U_FieldUniform_multicam_snow",
 			"CFP_U_FieldUniform_mtp_snow",
-			"CFP_U_FieldUniform_flecktarn_snow"
-
+			"CFP_U_FieldUniform_flecktarn_snow",
+			"CFP_FieldUniform_iasfblack",
+			"CFP_FieldUniform_m81anasf",
+			"CFP_FieldUniform_ana",
+			"CFP_FieldUniform_irandpm",
+			"CFP_FieldUniform_idf",
+			"CFP_FieldUniform_ana_wdlight",
+			"CFP_FieldUniform_ana_wddark",
+			"CFP_BattleDressUniform_irandpm",
+			"CFP_BattleDressUniform_idf",
+			"CFP_BattleDressUniform_anawoodland"
 		};
         author = MODULE_AUTHOR;
         authors[] = {"SP Craig", "Tupolov"};

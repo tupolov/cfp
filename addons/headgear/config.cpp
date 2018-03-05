@@ -277,6 +277,7 @@ class CfgPatches
 			"CFP_Basic_Helmet_Black",
 			"CFP_Basic_Helmet_Light_Green",
 			"CFP_Basic_Helmet_Tan",
+			"CFP_Basic_Helmet_Gray_Green",
 			"CFP_Lungee_Shemagh",
 			"CFP_Lungee_Shemagh_Yellow",
 			"CFP_Lungee_Shemagh_White",

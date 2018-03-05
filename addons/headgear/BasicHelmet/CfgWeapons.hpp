@@ -110,3 +110,27 @@ class CFP_Basic_Helmet_Gray: ItemCore
 		hiddenSelections[] = {"Camo"};
 	};
 };
+
+class CFP_Basic_Helmet_Gray_Green: ItemCore
+{
+	scope = 2;
+	weaponPoolAvailable = 1;
+	displayName = "Basic Helmet (Gray Green)";
+	picture = "\x\cfp\addons\headgear\BasicHelmet\ui\Gray.jpg";
+	model = "\x\cfp\addons\headgear\BasicHelmet\H_PASGT_basic_F.p3d";
+	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\cfp_pasgt_gray_green.paa"};
+	hiddenSelections[] = {"Camo"};
+	author = "AuburnAlumni";
+
+	class ItemInfo: HeadgearItem
+	{
+		mass = 60;
+		uniformModel = "\x\cfp\addons\headgear\BasicHelmet\H_PASGT_basic_F.p3d";
+		modelSides[] = {3,1};
+		armor = 10;
+		passThrough = 0.30;
+		HITPOINTS_HEAD(10,0.30)
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\gray_green.paa"};
+		hiddenSelections[] = {"Camo"};
+	};
+};

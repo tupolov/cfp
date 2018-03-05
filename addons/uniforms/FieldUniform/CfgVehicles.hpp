@@ -1341,3 +1341,17 @@
 		uniformClass = "CFP_U_FieldUniform_idf";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_idf.paa"};
 	};
+
+	class CFP_FieldUniform_ana_wdlight : SP_0000_Standard_FieldUniform_GreenOlive
+	{
+		displayName = "Field Uniform (ANA Woodland Light)";
+		uniformClass = "CFP_U_FieldUniform_ana_wdlight";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_ana_wdlight.paa"};
+	};
+
+	class CFP_FieldUniform_ana_wddark : SP_0000_Standard_FieldUniform_GreenOlive
+	{
+		displayName = "Field Uniform (ANA Woodland Dark)";
+		uniformClass = "CFP_U_FieldUniform_ana_wddark";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_ana_wddark.paa"};
+	};
