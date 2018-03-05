@@ -8,6 +8,6 @@
 		displayname = "Shades (Black)";
 		model = "\x\cfp\addons\models\ShadesBlack.p3d";
 		picture = "\x\cfp\addons\glasses\Shades\ui\Black.jpg";
-		identityTypes[] = {"NoGlasses",1000};
+		identityTypes[] = {"NoGlasses",0};
 
 	};

@@ -8,5 +8,5 @@
 		displayname = "Gas Mask (Black)";
 		model = "\x\cfp\addons\models\GasMaskBlack.p3d";
 		picture = "\x\cfp\addons\glasses\GasMask\ui\Black.jpg";
-		identityTypes[] = {"NoGlasses",1000};
+		identityTypes[] = {"NoGlasses",0};
 	};
