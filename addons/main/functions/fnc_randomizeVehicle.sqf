@@ -31,7 +31,7 @@ nil
 
 params ["_unit"];
 
-if ( !isNil (_unit getVariable "NoRandom")  ) exitWith {};
+if ( _unit getVariable ["NoRandom",false] || _unit getVariable ["CFP_DisableRandom",false]) exitWith {};
 
 if (local _unit) then {
 
@@ -46,7 +46,7 @@ if (local _unit) then {
 
 		if (count _array > 0) then {
 			private _textures = selectRandomWeighted _texturesArray;
-		
+
 			{
 				_unit setObjectTextureGlobal [_foreachIndex,_x];
 			} foreach _textures;

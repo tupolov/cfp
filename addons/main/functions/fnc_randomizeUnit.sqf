@@ -34,7 +34,7 @@ nil
 
 params ["_unit"];
 
-if ( _unit getVariable ["NoRandom",false] ) exitWith {};
+if ( _unit getVariable ["NoRandom",false] || _unit getVariable ["CFP_DisableRandom",false]) exitWith {};
 
 if (local _unit) then {
 
