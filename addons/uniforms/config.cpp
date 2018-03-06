@@ -186,8 +186,16 @@ class CfgPatches
 			"CFP_BattleDressUniform_anawoodland",
 			"CFP_BattleDressUniform_ana_spec4ce_wdlight",
 			"CFP_BattleDressUniform_ana_spec4ce_wddark",
-			"CFP_U_FieldUniform_ana_spec4cewd_light",
-			"CFP_U_FieldUniform_ana_spec4cewd_dark"
+			"CFP_FieldUniform_ana_spec4cewd_light",
+			"CFP_FieldUniform_ana_spec4cewd_dark",
+			"CFP_FieldUniform_anp_light",
+			"CFP_FieldUniform_anp_dark",
+			"CFP_FieldUniform_ancop_light",
+			"CFP_FieldUniform_ancop_dark",
+			"CFP_BattleDressUniform_anp_light",
+			"CFP_BattleDressUniform_anp_dark",
+			"CFP_BattleDressUniform_ancop_light",
+			"CFP_BattleDressUniform_ancop_dark"
 		};
 		weapons[] = {
 			"SP_0000_Standard_BattleDressUniform_Black",
@@ -358,11 +366,19 @@ class CfgPatches
 			"CFP_BattleDressUniform_anawoodland",
 			"CFP_BattleDressUniform_ana_spec4ce_wdlight",
 			"CFP_BattleDressUniform_ana_spec4ce_wddark",
-			"CFP_U_FieldUniform_ana_spec4cewd_light",
-			"CFP_U_FieldUniform_ana_spec4cewd_dark"
+			"CFP_FieldUniform_ana_spec4cewd_light",
+			"CFP_FieldUniform_ana_spec4cewd_dark",
+			"CFP_FieldUniform_anp_light",
+			"CFP_FieldUniform_anp_dark",
+			"CFP_FieldUniform_ancop_light",
+			"CFP_FieldUniform_ancop_dark",
+			"CFP_BattleDressUniform_anp_light",
+			"CFP_BattleDressUniform_anp_dark",
+			"CFP_BattleDressUniform_ancop_light",
+			"CFP_BattleDressUniform_ancop_dark"
 		};
         author = MODULE_AUTHOR;
-        authors[] = {"SP Craig", "Tupolov"};
+        authors[] = {"SP Craig", "Tupolov","AuburnAlumni"};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"CFP_main","CFP_Models"};
         VERSION_CONFIG;

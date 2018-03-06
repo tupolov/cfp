@@ -454,3 +454,7 @@
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (ANA Woodland Dark Boots)",ana_wddark,"AuburnAlumni")
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (ANA Spec4ce Dark Boots)",ana_spec4cewd_dark,"AuburnAlumni")
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (ANA Spec4ce Light Boots)",ana_spec4cewd_light,"AuburnAlumni")
+	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Afghan National Police Dark Boots)",anp_dark,"AuburnAlumni")
+	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Afghan National Police Light Boots)",anp_light,"AuburnAlumni")
+	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Afghan National Civil Order Police Dark Boots)",ancop_dark,"AuburnAlumni")
+	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Afghan National Civil Order Police Light Boots)",ancop_light,"AuburnAlumni")

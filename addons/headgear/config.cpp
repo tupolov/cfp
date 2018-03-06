@@ -203,6 +203,8 @@ class CfgPatches
 			"SP_PatrolCap_Hunter2",
 			"SP_PatrolCap_ATacsFG",
 			"SP_PatrolCap_NodUrban",
+			"CFP_PatrolCap_ANP",
+			"CFP_PatrolCap_ANCOP",
 			"SP_ProTecHelmet_Black",
 			"SP_ProTecHelmet_Green",
 			"SP_ProTecHelmet_Tan",
@@ -286,7 +288,7 @@ class CfgPatches
 			"CFP_Lungee_Shemagh_Red"
 		};
         author = MODULE_AUTHOR;
-        authors[] = {"SP Craig", "Tupolov"};
+        authors[] = {"SP Craig", "Tupolov","AuburnAlumni"};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"CFP_main","CFP_Models"};
         VERSION_CONFIG;

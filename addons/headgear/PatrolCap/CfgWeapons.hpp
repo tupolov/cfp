@@ -110,7 +110,9 @@ class CfgVehicleClasses
 			hiddenSelections[] = {"Camo"};
 
 		};
-	};        class SP_PatrolCap_UN: ItemCore
+	};
+
+	class SP_PatrolCap_UN: ItemCore
 	{
 		scope = 2;
 		weaponPoolAvailable = 1;
@@ -133,7 +135,9 @@ class CfgVehicleClasses
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\UN.paa"};
 			hiddenSelections[] = {"Camo"};
 		};
-	};        class SP_PatrolCap_Grey: ItemCore
+	};
+
+	class SP_PatrolCap_Grey: ItemCore
 	{
 		scope = 2;
 		weaponPoolAvailable = 1;
@@ -157,7 +161,9 @@ class CfgVehicleClasses
 			hiddenSelections[] = {"Camo"};
 
 		};
-	};        class SP_PatrolCap_Yellow: ItemCore
+	};
+
+	class SP_PatrolCap_Yellow: ItemCore
 	{
 		scope = 2;
 		weaponPoolAvailable = 1;
@@ -180,7 +186,9 @@ class CfgVehicleClasses
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\Yellow.paa"};
 			hiddenSelections[] = {"Camo"};
 		};
-	};        class SP_PatrolCap_BlueFrost: ItemCore
+	};
+
+	class SP_PatrolCap_BlueFrost: ItemCore
 	{
 		scope = 2;
 		weaponPoolAvailable = 1;
@@ -203,7 +211,9 @@ class CfgVehicleClasses
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\BlueFrost.paa"};
 			hiddenSelections[] = {"Camo"};
 		};
-	};        class SP_PatrolCap_BlueDark: ItemCore
+	};
+
+	class SP_PatrolCap_BlueDark: ItemCore
 	{
 		scope = 2;
 		weaponPoolAvailable = 1;
@@ -226,7 +236,9 @@ class CfgVehicleClasses
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\BlueDark.paa"};
 			hiddenSelections[] = {"Camo"};
 		};
-	};        class SP_PatrolCap_GreenOlive: ItemCore
+	};
+
+	class SP_PatrolCap_GreenOlive: ItemCore
 	{
 		scope = 2;
 		weaponPoolAvailable = 1;
@@ -249,7 +261,9 @@ class CfgVehicleClasses
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\GreenOlive.paa"};
 			hiddenSelections[] = {"Camo"};
 		};
-	};        class SP_PatrolCap_Hunter: ItemCore
+	};
+
+	class SP_PatrolCap_Hunter: ItemCore
 	{
 		scope = 2;
 		weaponPoolAvailable = 1;
@@ -273,7 +287,9 @@ class CfgVehicleClasses
 			hiddenSelections[] = {"Camo"};
 
 		};
-	};        class SP_PatrolCap_Hunter2: ItemCore
+	};
+
+	class SP_PatrolCap_Hunter2: ItemCore
 	{
 		scope = 2;
 		weaponPoolAvailable = 1;
@@ -296,7 +312,9 @@ class CfgVehicleClasses
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\Hunter2.paa"};
 			hiddenSelections[] = {"Camo"};
 		};
-	};        class SP_PatrolCap_ATacsFG: ItemCore
+	};
+
+	class SP_PatrolCap_ATacsFG: ItemCore
 	{
 		scope = 2;
 		weaponPoolAvailable = 1;
@@ -320,7 +338,9 @@ class CfgVehicleClasses
 			hiddenSelections[] = {"Camo"};
 
 		};
-	};        class SP_PatrolCap_NodUrban: ItemCore
+	};
+
+	class SP_PatrolCap_NodUrban: ItemCore
 	{
 		scope = 2;
 		weaponPoolAvailable = 1;
@@ -341,6 +361,56 @@ class CfgVehicleClasses
 			armor = 0;
 			passThrough = 0.30;
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\NodUrban.paa"};
+			hiddenSelections[] = {"Camo"};
+		};
+	};
+
+	class CFP_PatrolCap_ANP: ItemCore
+	{
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "Patrol Cap (Afghan National Police)";
+		picture = "\x\cfp\addons\headgear\PatrolCap\ui\BlueFrost.jpg";
+		model = "\x\cfp\addons\models\PatrolCap";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\ANP.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "AuburnAlumni";
+
+
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 15;
+			uniformmodel = "\x\cfp\addons\models\PatrolCap";
+			modelSides[] = {3,1};
+			armor = 0;
+			passThrough = 0.30;
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\ANP.paa"};
+			hiddenSelections[] = {"Camo"};
+		};
+	};
+
+	class CFP_PatrolCap_ANCOP: ItemCore
+	{
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "Patrol Cap (Afghan National Civil Order Police)";
+		picture = "\x\cfp\addons\headgear\PatrolCap\ui\BlueFrost.jpg";
+		model = "\x\cfp\addons\models\PatrolCap";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\ANCOP.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "AuburnAlumni";
+
+
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 15;
+			uniformmodel = "\x\cfp\addons\models\PatrolCap";
+			modelSides[] = {3,1};
+			armor = 0;
+			passThrough = 0.30;
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\ANCOP.paa"};
 			hiddenSelections[] = {"Camo"};
 		};
 	};

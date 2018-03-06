@@ -388,3 +388,31 @@
 		uniformClass = "CFP_U_BattleDressUniform_ana_spec4cewd_light";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_ana_spec4cewd.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_ana_spec4cewd_light.paa"};
 	};
+
+	class CFP_BattleDressUniform_anp_light : CFP_Uniform
+	{
+		displayName = "Battle Dress Uniform (Afghan National Police Light Boots)";
+		uniformClass = "CFP_U_BattleDressUniform_anp_light";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_anp.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_anp_light.paa"};
+	};
+
+	class CFP_BattleDressUniform_anp_dark : CFP_Uniform
+	{
+		displayName = "Battle Dress Uniform (Afghan National Police Dark Boots)";
+		uniformClass = "CFP_U_BattleDressUniform_anp_dark";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_anp.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_anp_dark.paa"};
+	};
+
+	class CFP_BattleDressUniform_ancop_light : CFP_Uniform
+	{
+		displayName = "Battle Dress Uniform (Afghan National Civil Order Police Light Boots)";
+		uniformClass = "CFP_U_BattleDressUniform_ancop_light";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_ancop.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_ancop_light.paa"};
+	};
+
+	class CFP_BattleDressUniform_ancop_dark : CFP_Uniform
+	{
+		displayName = "Battle Dress Uniform (Afghan National Civil Order Police Dark Boots)";
+		uniformClass = "CFP_U_BattleDressUniform_ancop_dark";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_ancop.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_ancop_dark.paa"};
+	};
