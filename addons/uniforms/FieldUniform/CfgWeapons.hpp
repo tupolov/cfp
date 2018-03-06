@@ -793,3 +793,5 @@
     ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Israeli Defense Force)",idf,"AuburnAlumni")
     ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (ANA Woodland Light)",ana_wdlight,"AuburnAlumni")
     ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (ANA Woodland Dark)",ana_wddark,"AuburnAlumni")
+    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (ANA Spec4ce Woodland Light)",spec4ce_wdlight,"AuburnAlumni")
+    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (ANA Spec4ce Woodland Dark)",spec4ce_wddark,"AuburnAlumni")

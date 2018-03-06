@@ -452,3 +452,5 @@
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Israeli Defense Force)",idf,"AuburnAlumni")
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (ANA Woodland Light Boots)",ana_wdlight,"AuburnAlumni")
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (ANA Woodland Dark Boots)",ana_wddark,"AuburnAlumni")
+	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (ANA Spec4ce Dark Boots)",ana_spec4cewd_dark,"AuburnAlumni")
+	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (ANA Spec4ce Light Boots)",ana_spec4cewd_light,"AuburnAlumni")
