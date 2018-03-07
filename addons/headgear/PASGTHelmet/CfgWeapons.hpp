@@ -35,6 +35,7 @@ class CfgVehicleClasses
 			hiddenSelections[] = {"Camo"};
 		};
 	};
+
 	class SP_PASGTHelmet_Black2: ItemCore
 	{
 		scope = 2;
@@ -60,7 +61,9 @@ class CfgVehicleClasses
 			hiddenSelections[] = {"Camo"};
 
 		};
-	};        class SP_PASGTHelmet_Blue1: ItemCore
+	};
+
+	class SP_PASGTHelmet_Blue1: ItemCore
 	{
 		scope = 2;
 		weaponPoolAvailable = 1;
@@ -84,7 +87,9 @@ class CfgVehicleClasses
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\Blue.paa"};
 			hiddenSelections[] = {"Camo"};
 		};
-	};        class SP_PASGTHelmet_Blue2: ItemCore
+	};
+
+	class SP_PASGTHelmet_Blue2: ItemCore
 	{
 		scope = 2;
 		weaponPoolAvailable = 1;
@@ -109,6 +114,7 @@ class CfgVehicleClasses
 			hiddenSelections[] = {"Camo"};
 		};
 	};
+
 	class SP_PASGTHelmet_Green1: ItemCore
 	{
 		scope = 2;
@@ -133,7 +139,9 @@ class CfgVehicleClasses
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\Green.paa"};
 			hiddenSelections[] = {"Camo"};
 		};
-	};        class SP_PASGTHelmet_Green2: ItemCore
+	};
+
+	class SP_PASGTHelmet_Green2: ItemCore
 	{
 		scope = 2;
 		weaponPoolAvailable = 1;
@@ -159,6 +167,7 @@ class CfgVehicleClasses
 
 		};
 	};
+
 	class SP_PASGTHelmet_Tan1: ItemCore
 	{
 		scope = 2;
@@ -183,7 +192,9 @@ class CfgVehicleClasses
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\Tan.paa"};
 			hiddenSelections[] = {"Camo"};
 		};
-	};        class SP_PASGTHelmet_Tan2: ItemCore
+	};
+
+	class SP_PASGTHelmet_Tan2: ItemCore
 	{
 		scope = 2;
 		weaponPoolAvailable = 1;
@@ -208,6 +219,7 @@ class CfgVehicleClasses
 			hiddenSelections[] = {"Camo"};
 		};
 	};
+
 	class SP_PASGTHelmet_Un1: ItemCore
 	{
 		scope = 2;
@@ -232,7 +244,9 @@ class CfgVehicleClasses
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\Un.paa"};
 			hiddenSelections[] = {"Camo"};
 		};
-	};        class SP_PASGTHelmet_Un2: ItemCore
+	};
+
+	class SP_PASGTHelmet_Un2: ItemCore
 	{
 		scope = 2;
 		weaponPoolAvailable = 1;
@@ -257,4 +271,7 @@ class CfgVehicleClasses
 			hiddenSelections[] = {"Camo"};
 		};
 	};
+
+
+
 
