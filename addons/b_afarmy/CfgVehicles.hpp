@@ -3,7 +3,9 @@
 // Generated with Arma 3 version 178.143717 on Stable branch
 // Generated with ALiVE version 1.5.1.1711281
 //////////////////////////////////////////////////////////////////////////////////
-
+#define mag_xx(a,b) class _xx_##a {magazine = ##a; count = b;}
+#define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
+#define item_xx(a,b) class _xx_##a {name = a; count = b;}
 
 class CBA_Extended_EventHandlers_base;
 
@@ -1374,4 +1376,209 @@ class CfgVehicles {
 
     };
 
+    class CUP_USBasicAmmunitionBox;
+    class CUP_USBasicWeaponsBox;
+    class CUP_USSpecialWeaponsBox;
+    class CUP_USLaunchersBox;
+    class B_SupplyCrate_F;
+
+    class CFP_B_AFARMY_AmmoBox : CUP_USBasicAmmunitionBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Afghan Army Ammo Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_556x45_Stanag,50);
+            mag_xx(CUP_1Rnd_HEDP_M203,50);
+            mag_xx(CUP_PG7V_M,50);
+            mag_xx(CUP_200Rnd_TE4_Red_Tracer_556x45_M249,50);
+            mag_xx(DemoCharge_Remote_Mag,50);
+            mag_xx(ATMine_Range_Mag,50);
+            mag_xx(APERSTripMine_Wire_Mag,50);
+            mag_xx(CUP_PipeBomb_M,50);
+            mag_xx(CUP_5Rnd_762x51_M24,50);
+            mag_xx(CUP_7Rnd_45ACP_1911,50);
+            mag_xx(30Rnd_556x45_Stanag,50);
+            mag_xx(CUP_17Rnd_9x19_glock17,50);
+            mag_xx(1Rnd_HE_Grenade_shell,50);
+            mag_xx(1Rnd_Smoke_Grenade_shell,50);
+            mag_xx(SLAMDirectionalMine_Wire_Mag,50);
+        };
+        class TransportWeapons {
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_B_AFARMY_WeaponsBox : CUP_USBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Afghan Army Weapons Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_556x45_Stanag,50);
+            mag_xx(CUP_1Rnd_HEDP_M203,50);
+            mag_xx(CUP_200Rnd_TE4_Red_Tracer_556x45_M249,50);
+            mag_xx(CUP_5Rnd_762x51_M24,50);
+            mag_xx(CUP_7Rnd_45ACP_1911,50);
+            mag_xx(30Rnd_556x45_Stanag,50);
+            mag_xx(CUP_17Rnd_9x19_glock17,50);
+            mag_xx(1Rnd_HE_Grenade_shell,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_M16A4_Base,10);
+            weap_xx(CUP_arifle_M16A4_GL,10);
+            weap_xx(CUP_lmg_M249_E2,10);
+            weap_xx(CUP_srifle_M24_wdl,10);
+            weap_xx(CUP_hgun_Colt1911,10);
+            weap_xx(arifle_SPAR_01_blk_F,10);
+            weap_xx(CUP_hgun_Glock17_blk,10);
+            weap_xx(arifle_SPAR_01_GL_blk_F,10);
+            weap_xx(CUP_lmg_m249_pip3,10);
+        };
+        class TransportItems {
+            item_xx(CUP_optic_LeupoldMk4,10);
+            item_xx(muzzle_snds_M,10);
+            item_xx(acc_pointer_IR,10);
+            item_xx(optic_Holosight_smg_blk_F,10);
+            item_xx(CUP_optic_HoloBlack,10);
+        };
+    };
+    class CFP_B_AFARMY_LaunchersBox : CUP_USLaunchersBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Afghan Army Launchers Box;
+        class TransportMagazines {
+            mag_xx(CUP_PG7V_M,5);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_launch_RPG7V,5);
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_B_AFARMY_UniformBox : CUP_USBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Afghan Army Uniform Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(CFP_U_BattleDressUniform_edrl,15);
+            item_xx(SP_0000_Standard_FieldUniform_Tan,15);
+            item_xx(CFP_U_FieldUniform_m81anasf,15);
+        };
+    };
+    class CFP_B_AFARMY_SupportBox : CUP_USSpecialWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Afghan Army Support Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(CUP_V_BAF_Osprey_Mk2_DPM_Empty,10);
+            item_xx(H_PASGT_basic_olive_F,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(Binocular,10);
+            item_xx(CUP_B_RPGPack_Khaki,10);
+            item_xx(B_AssaultPack_rgr,10);
+            item_xx(B_Kitbag_rgr,10);
+            item_xx(H_Booniehat_oli,10);
+            item_xx(SP_Beret_Green,10);
+            item_xx(CUP_V_B_PilotVest,10);
+            item_xx(CUP_H_USMC_Helmet_Pilot,10);
+            item_xx(G_Aviator,10);
+            item_xx(CUP_B_DShkM_TripodHigh_Bag,10);
+            item_xx(CUP_B_DShkM_TripodLow_Bag,10);
+            item_xx(CUP_B_DShkM_Gun_Bag,10);
+            item_xx(CUP_B_SPG9_Tripod_Bag,10);
+            item_xx(CUP_B_SPG9_Gun_Bag,10);
+            item_xx(CUP_B_M252_Bipod_Bag,10);
+            item_xx(CUP_B_M252_Gun_Bag,10);
+            item_xx(CFP_LBT6094_operator_M81,10);
+            item_xx(SP_BeanieHat_Green,10);
+            item_xx(CUP_FR_NeckScarf,10);
+            item_xx(ItemGPS,10);
+            item_xx(SP_M88PSMHelmet_Green1,10);
+            item_xx(CUP_FR_NeckScarf2,10);
+            item_xx(CFP_LBT6094_MG_M81,10);
+            item_xx(SP_BaseballCap_Green,10);
+            item_xx(SP_BeanieHat_Black,10);
+            item_xx(SP_Bandana_Green,10);
+        };
+    };
+    class CFP_B_AFARMY_SupplyBox : B_SupplyCrate_F {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Afghan Army Supply Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_556x45_Stanag,50);
+            mag_xx(CUP_1Rnd_HEDP_M203,50);
+            mag_xx(CUP_PG7V_M,50);
+            mag_xx(CUP_200Rnd_TE4_Red_Tracer_556x45_M249,50);
+            mag_xx(DemoCharge_Remote_Mag,50);
+            mag_xx(ATMine_Range_Mag,50);
+            mag_xx(APERSTripMine_Wire_Mag,50);
+            mag_xx(CUP_PipeBomb_M,50);
+            mag_xx(CUP_5Rnd_762x51_M24,50);
+            mag_xx(CUP_7Rnd_45ACP_1911,50);
+            mag_xx(30Rnd_556x45_Stanag,50);
+            mag_xx(CUP_17Rnd_9x19_glock17,50);
+            mag_xx(1Rnd_HE_Grenade_shell,50);
+            mag_xx(1Rnd_Smoke_Grenade_shell,50);
+            mag_xx(SLAMDirectionalMine_Wire_Mag,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_M16A4_Base,10);
+            weap_xx(CUP_arifle_M16A4_GL,10);
+            weap_xx(CUP_lmg_M249_E2,10);
+            weap_xx(CUP_srifle_M24_wdl,10);
+            weap_xx(CUP_hgun_Colt1911,10);
+            weap_xx(arifle_SPAR_01_blk_F,10);
+            weap_xx(CUP_hgun_Glock17_blk,10);
+            weap_xx(arifle_SPAR_01_GL_blk_F,10);
+            weap_xx(CUP_lmg_m249_pip3,10);
+            weap_xx(CUP_launch_RPG7V,10);
+        };
+        class TransportItems {
+            item_xx(CUP_optic_LeupoldMk4,10);
+            item_xx(muzzle_snds_M,10);
+            item_xx(acc_pointer_IR,10);
+            item_xx(optic_Holosight_smg_blk_F,10);
+            item_xx(CUP_optic_HoloBlack,10);
+            item_xx(CUP_V_BAF_Osprey_Mk2_DPM_Empty,10);
+            item_xx(H_PASGT_basic_olive_F,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(Binocular,10);
+            item_xx(CUP_B_RPGPack_Khaki,10);
+            item_xx(B_AssaultPack_rgr,10);
+            item_xx(B_Kitbag_rgr,10);
+            item_xx(H_Booniehat_oli,10);
+            item_xx(SP_Beret_Green,10);
+            item_xx(CUP_V_B_PilotVest,10);
+            item_xx(CUP_H_USMC_Helmet_Pilot,10);
+            item_xx(G_Aviator,10);
+            item_xx(CUP_B_DShkM_TripodHigh_Bag,10);
+            item_xx(CUP_B_DShkM_TripodLow_Bag,10);
+            item_xx(CUP_B_DShkM_Gun_Bag,10);
+            item_xx(CUP_B_SPG9_Tripod_Bag,10);
+            item_xx(CUP_B_SPG9_Gun_Bag,10);
+            item_xx(CUP_B_M252_Bipod_Bag,10);
+            item_xx(CUP_B_M252_Gun_Bag,10);
+            item_xx(CFP_LBT6094_operator_M81,10);
+            item_xx(SP_BeanieHat_Green,10);
+            item_xx(CUP_FR_NeckScarf,10);
+            item_xx(ItemGPS,10);
+            item_xx(SP_M88PSMHelmet_Green1,10);
+            item_xx(CUP_FR_NeckScarf2,10);
+            item_xx(CFP_LBT6094_MG_M81,10);
+            item_xx(SP_BaseballCap_Green,10);
+            item_xx(SP_BeanieHat_Black,10);
+            item_xx(SP_Bandana_Green,10);
+            item_xx(CFP_U_BattleDressUniform_edrl,10);
+            item_xx(SP_0000_Standard_FieldUniform_Tan,10);
+            item_xx(CFP_U_FieldUniform_m81anasf,10);
+        };
+    };
 };
