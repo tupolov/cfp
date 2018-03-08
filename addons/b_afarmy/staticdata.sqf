@@ -16,10 +16,7 @@
 /*
  * Mil placement random supply boxes per faction
  */
-[ALIVE_factionDefaultSupplies, "CFP_B_AFARMY", [
-		"CUP_BAF_BasicWeapons","CUP_BAF_BasicAmmunitionBox","CUP_BAF_BasicWeapons","CUP_BAF_BasicAmmunitionBox","CUP_BAF_BasicWeapons","CUP_BAF_OrdnanceBox","CUP_BAF_Launchers","CUP_BAF_VehicleBox"
-	]
-] call ALIVE_fnc_hashSet;
+[ALIVE_factionDefaultSupplies, "CFP_B_AFARMY", ["CFP_B_AFARMY_AmmoBox","CFP_B_AFARMY_WeaponsBox","CFP_B_AFARMY_LaunchersBox","CFP_B_AFARMY_UniformBox","CFP_B_AFARMY_SupportBox","CFP_B_AFARMY_SupplyBox"]] call ALIVE_fnc_hashSet;
 
 
 /*
