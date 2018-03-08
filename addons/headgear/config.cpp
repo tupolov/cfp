@@ -288,10 +288,13 @@ class CfgPatches
 			"CFP_Lungee_Shemagh_White",
 			"CFP_Lungee_Shemagh_LightBlue",
 			"CFP_Lungee_Shemagh_Green",
-			"CFP_Lungee_Shemagh_Red"
+			"CFP_Lungee_Shemagh_Red",
+			"VSM_MICH2017_Helmet_Tan",
+			"VSM_OPS2017_Helmet_Tan",
+			"CFP_OPS2017_Helmet_Multicam"
 		};
         author = MODULE_AUTHOR;
-        authors[] = {"SP Craig", "Tupolov","AuburnAlumni"};
+        authors[] = {"SP Craig", "Tupolov","AuburnAlumni","VanSchmoozin"};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"CFP_main","CFP_Models"};
         VERSION_CONFIG;
