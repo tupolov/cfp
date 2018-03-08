@@ -10,7 +10,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 50;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\VSM_MICH2017";
 			modelSides[] = {6};
 			armor = 11;
@@ -27,7 +27,7 @@
 		displayName = "OPSCORE 2017 (Tan)";
 		picture = "\x\cfp\addons\headgear\MichHelmet\ui\Tan1.jpg";
 		model = "\x\cfp\addons\models\VSM_OPS2017";
-		hiddenSelections[] = {"_helmbase","_VSMz110T","velcro"};
+		hiddenSelections[] = {"camo","camo1","camo2"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_co.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
 		author = "VanSchmoozin";
 
@@ -36,23 +36,20 @@
 			mass = 15;
 			allowedSlots[] = {901,605};
 			uniformmodel = "\x\cfp\addons\models\VSM_OPS2017";
-			modelSides[] = {3,1};
+			modelSides[] = {6};
 			armor = 6;
 			passThrough = 0.5;
-			HITPOINTS_HEAD(11,0.30)
-			hiddenSelections[] = {"_helmbase","_VSMz110T","velcro"};
+			HITPOINTS_HEAD(6,0.5)
+			hiddenSelections[] = {"camo","camo1","camo2"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_co.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
 		};
 	};
 
-	class CFP_OPS2017_Helmet_Multicam: ItemCore
+	class CFP_OPS2017_Helmet_Multicam: VSM_OPS2017_Helmet_Tan
 	{
-		scope = 2;
-		weaponPoolAvailable = 1;
 		displayName = "OPSCORE 2017 (Multicam)";
 		picture = "\x\cfp\addons\headgear\MichHelmet\ui\Tan1.jpg";
-		model = "\x\cfp\addons\models\VSM_OPS2017";
-		hiddenSelections[] = {"_helmbase","_VSMz110T","velcro"};
+		hiddenSelections[] = {"camo","camo1","camo2"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_multicam.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
 		author = "AuburnAlumni";
 
@@ -61,11 +58,11 @@
 			mass = 15;
 			allowedSlots[] = {901,605};
 			uniformmodel = "\x\cfp\addons\models\VSM_OPS2017";
-			modelSides[] = {3,1};
+			modelSides[] = {6};
 			armor = 6;
 			passThrough = 0.5;
-			HITPOINTS_HEAD(11,0.30)
-			hiddenSelections[] = {"_helmbase","_VSMz110T","velcro"};
+			HITPOINTS_HEAD(6,0.5)
+			hiddenSelections[] = {"camo","camo1","camo2"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_multicam.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
 
 		};
