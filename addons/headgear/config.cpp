@@ -291,7 +291,10 @@ class CfgPatches
 			"CFP_Lungee_Shemagh_Red",
 			"VSM_MICH2017_Helmet_Tan",
 			"VSM_OPS2017_Helmet_Tan",
-			"CFP_OPS2017_Helmet_Multicam"
+			"CFP_OPS2017_Helmet_Multicam",
+			"CFP_OPS2017_Helmet_M81",
+			"CFP_OPS2017_Helmet_Black",
+			"CFP_OPS2017_Helmet_OliveFabric"
 		};
         author = MODULE_AUTHOR;
         authors[] = {"SP Craig", "Tupolov","AuburnAlumni","VanSchmoozin"};
