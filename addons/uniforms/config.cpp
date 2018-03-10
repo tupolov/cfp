@@ -195,7 +195,10 @@ class CfgPatches
 			"CFP_BattleDressUniform_anp_light",
 			"CFP_BattleDressUniform_anp_dark",
 			"CFP_BattleDressUniform_ancop_light",
-			"CFP_BattleDressUniform_ancop_dark"
+			"CFP_BattleDressUniform_ancop_dark",
+			"CFP_BattleDressUniform_ana_wdlight",
+			"CFP_BattleDressUniform_ana_wddark"
+
 		};
 		weapons[] = {
 			"SP_0000_Standard_BattleDressUniform_Black",
@@ -375,7 +378,9 @@ class CfgPatches
 			"CFP_BattleDressUniform_anp_light",
 			"CFP_BattleDressUniform_anp_dark",
 			"CFP_BattleDressUniform_ancop_light",
-			"CFP_BattleDressUniform_ancop_dark"
+			"CFP_BattleDressUniform_ancop_dark",
+			"CFP_BattleDressUniform_ana_wdlight",
+			"CFP_BattleDressUniform_ana_wddark"
 		};
         author = MODULE_AUTHOR;
         authors[] = {"SP Craig", "Tupolov","AuburnAlumni"};
