@@ -435,9 +435,9 @@ class CfgVehicles {
 
     };
 
-	class FlagChecked_F;
-    class FlagChecked_F_OCimport_01 : FlagChecked_F { scope = 0; class Eventhandlers; };
-    class AFghan_Flag_1 : FlagChecked_F_OCimport_01
+    class FlagCarrier;
+    class FlagCarrier_OCimport_01 : FlagCarrier { scope = 0; class Eventhandlers; };
+    class AFghan_Flag_1 : FlagCarrier_OCimport_01
     {
         _generalMacro = "FlagCarrier";
         faction = "CFP_B_AFARMY";
