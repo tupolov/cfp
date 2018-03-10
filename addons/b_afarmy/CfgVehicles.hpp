@@ -187,7 +187,7 @@ class CfgVehicles {
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_insignia = "USP_PATCH_AFG_ANA_SECFOR";
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Rifleman_01.png";
     };
 
     class CFP_B_AFARMY_Squad_Leader_01 : CFP_B_AFARMY_Rifleman_01 {
@@ -195,7 +195,7 @@ class CfgVehicles {
         displayName = "Squad Leader";
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_BattleDressUniform_ana_wdlight",{{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_Osprey1_Wd",{{"CUP_30Rnd_556x45_Stanag",5,30}}},{},"CFP_Basic_Helmet_Gray_Green","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Squad_Leader_01.png";
     };
 
     class CFP_B_AFARMY_Grenadier_01 : CFP_B_AFARMY_Rifleman_01 {
@@ -203,7 +203,7 @@ class CfgVehicles {
         displayName = "Grenadier";
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_GL","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_BattleDressUniform_ana_wdlight",{{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_Osprey1_Wd",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_1Rnd_HEDP_M203",6,1}}},{},"CFP_Basic_Helmet_Gray_Green","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Grenadier_01.png";
     };
 
     class CFP_B_AFARMY_Rifleman_AT_01 : CFP_B_AFARMY_Rifleman_01 {
@@ -211,7 +211,7 @@ class CfgVehicles {
         displayName = "Rifleman AT";
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_RPG7V","","","",{"CUP_PG7V_M",1},{},""},{},{"CFP_U_BattleDressUniform_ana_wdlight",{{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_Osprey1_Wd",{{"CUP_30Rnd_556x45_Stanag",5,30}}},{"CUP_B_RPGPack_Khaki",{{"CUP_PG7V_M",3,1}}},"CFP_Basic_Helmet_Gray_Green","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Rifleman_AT_01.png";
     };
 
     class CFP_B_AFARMY_Machine_Gunner_01 : CFP_B_AFARMY_Rifleman_01 {
@@ -219,7 +219,7 @@ class CfgVehicles {
         displayName = "Machine Gunner";
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_M249_E2","","","",{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",200},{},""},{},{},{"CFP_U_BattleDressUniform_ana_wdlight",{}},{"CFP_Osprey1_Wd",{{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",1,200}}},{"B_AssaultPack_rgr",{{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",2,200}}},"CFP_Basic_Helmet_Gray_Green","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Machine_Gunner_01.png";
     };
 
     class CFP_B_AFARMY_Medic_01 : CFP_B_AFARMY_Rifleman_01 {
@@ -227,7 +227,7 @@ class CfgVehicles {
         displayName = "Medic ";
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_BattleDressUniform_ana_wdlight",{{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_Osprey1_Wd",{{"CUP_30Rnd_556x45_Stanag",5,30}}},{"B_AssaultPack_rgr",{{"Medikit",1},{"FirstAidKit",10}}},"CFP_Basic_Helmet_Gray_Green","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Medic_01.png";
     };
 
     class CFP_B_AFARMY_Explosive_Specialist_01 : CFP_B_AFARMY_Rifleman_01 {
@@ -235,7 +235,7 @@ class CfgVehicles {
         displayName = "Explosive Specialist";
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_BattleDressUniform_ana_wdlight",{{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_Osprey1_Wd",{{"CUP_30Rnd_556x45_Stanag",5,30}}},{"B_Kitbag_rgr",{{"MineDetector",1},{"DemoCharge_Remote_Mag",5,1},{"ATMine_Range_Mag",1,1},{"APERSTripMine_Wire_Mag",1,1},{"CUP_PipeBomb_M",1,1}}},"CFP_Basic_Helmet_Gray_Green","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Explosive_Specialist_01.png";
     };
 
     class CFP_B_AFARMY_Repair_Specialist_01 : CFP_B_AFARMY_Rifleman_01 {
@@ -243,7 +243,7 @@ class CfgVehicles {
         displayName = "Repair Specialist";
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_BattleDressUniform_ana_wdlight",{{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_Osprey1_Wd",{{"CUP_30Rnd_556x45_Stanag",5,30}}},{"B_AssaultPack_rgr",{{"ToolKit",2}}},"CFP_Basic_Helmet_Gray_Green","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Repair_Specialist_01.png";
     };
 
     class CFP_B_AFARMY_Sniper_01 : CFP_B_AFARMY_Rifleman_01 {
@@ -251,7 +251,7 @@ class CfgVehicles {
         displayName = "Sniper";
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_M24_wdl","","","CUP_optic_LeupoldMk4",{"CUP_5Rnd_762x51_M24",5},{},""},{},{},{"CFP_U_BattleDressUniform_ana_wdlight",{{"CUP_5Rnd_762x51_M24",3,5}}},{"CFP_Osprey1_Wd",{{"CUP_5Rnd_762x51_M24",5,5}}},{},"H_Booniehat_oli","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Sniper_01.png";
     };
 
     class CFP_B_AFARMY_Officer_01 : O_Soldier_F_OCimport_02 {
@@ -295,7 +295,7 @@ class CfgVehicles {
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_insignia = "USP_PATCH_AFG_ANA_SECFOR";
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Officer_01.png";
     };
 
 	class FlagChecked_F;
@@ -347,7 +347,7 @@ class CfgVehicles {
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_M113_01.png";
     };
 
 	class CFP_B_AFARMY_M113_01_flag : CFP_B_AFARMY_M113_01
@@ -384,7 +384,7 @@ class CfgVehicles {
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_M113_01_flag.png";
     };
 
     class CFP_B_AFARMY_M113_Ambulance_01 : CUP_B_M113_Med_USA_OCimport_02
@@ -413,7 +413,7 @@ class CfgVehicles {
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_M113_Ambulance_01.png";
     };
 
 	class CFP_B_AFARMY_M113_Ambulance_01_flag : CFP_B_AFARMY_M113_Ambulance_01
@@ -448,7 +448,7 @@ class CfgVehicles {
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_M113_Ambulance_01_flag.png";
     };
 
     class CFP_B_AFARMY_HMMWV_DShKM_01 : CUP_B_HMMWV_DSHKM_GPK_ACR_OCimport_02 {
@@ -497,7 +497,7 @@ class CfgVehicles {
         // custom attributes (do not delete)
         //ALiVE_orbatCreator_owned = 1;
         //ALiVE_orbatCreator_texture = "Green";
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_HMMWV_DShKM_01.png";
     };
 
     class CFP_B_AFARMY_HMMWV_01 : CUP_B_M1151_WDL_USA_OCimport_02 {
@@ -523,7 +523,7 @@ class CfgVehicles {
         ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_texture = "NatoGreen";
 		*/
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_HMMWV_01.png";
     };
 
     class CFP_B_AFARMY_MTVR_01 : CUP_B_MTVR_USA_OCimport_02 {
@@ -573,7 +573,7 @@ class CfgVehicles {
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_texture = "USMC";
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_MTVR_Ammo_01.png";
     };
 
     class CFP_B_AFARMY_MTVR_Refuel_01 : CUP_B_MTVR_Refuel_USA_OCimport_02 {
@@ -623,7 +623,7 @@ class CfgVehicles {
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_texture = "USMC";
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_MTVR_Repair_01.png";
     };
 
      class CFP_B_AFARMY_Helicopter_Pilot_01 : O_Soldier_F_OCimport_02 {
@@ -658,7 +658,7 @@ class CfgVehicles {
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_insignia = "USP_PATCH_AFG_AAF_777SPECIAL_WING";
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Helicopter_Pilot_01.png";
     };
 
     class CFP_B_AFARMY_UH_60M_01 : CUP_B_UH60M_US_OCimport_02 {
@@ -690,7 +690,7 @@ class CfgVehicles {
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_texture = "Black";
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_UH_60M_01.png";
     };
 
     class CFP_B_AFARMY_Mi_8MT_01 : CUP_O_Mi8_SLA_1_OCimport_02 {
@@ -723,7 +723,7 @@ class CfgVehicles {
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_texture = "CIA";
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Mi_8MT_01.png";
     };
 
     class CFP_B_AFARMY_Mi_24D_01 : CUP_O_Mi24_D_Dynamic_SLA_OCimport_02 {
@@ -756,7 +756,7 @@ class CfgVehicles {
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_texture = "SriLankaDesert";
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Mi_24D_01.png";
     };
 
     class CFP_B_AFARMY_Gunner_DShKM_High_01 : CFP_B_AFARMY_Rifleman_01 {
@@ -764,7 +764,7 @@ class CfgVehicles {
         displayName = "Gunner [DShKM High]";
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_BattleDressUniform_ana_wdlight",{{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_Osprey1_Wd",{}},{"CUP_B_DShkM_TripodHigh_Bag",{}},"CFP_Basic_Helmet_Gray_Green","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Gunner_DShKM_High_01.png";
     };
 
     class CFP_B_AFARMY_Gunner_DShKM_Low_01 : CFP_B_AFARMY_Rifleman_01 {
@@ -772,7 +772,7 @@ class CfgVehicles {
         displayName = "Gunner [DShKM Low]";
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_BattleDressUniform_ana_wdlight",{{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_Osprey1_Wd",{{"CUP_30Rnd_556x45_Stanag",5,30}}},{"CUP_B_DShkM_TripodLow_Bag",{}},"CFP_Basic_Helmet_Gray_Green","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Gunner_DShKM_Low_01.png";
     };
 
     class CFP_B_AFARMY_Asst_Gunner_DShKM_01 : CFP_B_AFARMY_Rifleman_01 {
@@ -780,7 +780,7 @@ class CfgVehicles {
         displayName = "Asst. Gunner [DShKM]";
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_BattleDressUniform_ana_wdlight",{{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_Osprey1_Wd",{{"CUP_30Rnd_556x45_Stanag",5,30}}},{"CUP_B_DShkM_Gun_Bag",{}},"CFP_Basic_Helmet_Gray_Green","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Asst_Gunner_DShKM_01.png";
     };
 
     class CFP_B_AFARMY_Gunner_SPG_01 : CFP_B_AFARMY_Rifleman_01 {
@@ -788,7 +788,7 @@ class CfgVehicles {
         displayName = "Gunner [SPG-9]";
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_BattleDressUniform_ana_wdlight",{{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_Osprey1_Wd",{{"CUP_30Rnd_556x45_Stanag",5,30}}},{"CUP_B_SPG9_Tripod_Bag",{}},"CFP_Basic_Helmet_Gray_Green","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Gunner_SPG_01.png";
     };
 
     class CFP_B_AFARMY_Asst_Gunner_SPG_01 : CFP_B_AFARMY_Rifleman_01 {
@@ -796,7 +796,7 @@ class CfgVehicles {
         displayName = "Asst. Gunner [SPG-9]";
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_BattleDressUniform_ana_wdlight",{{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_Osprey1_Wd",{{"CUP_30Rnd_556x45_Stanag",5,30}}},{"CUP_B_SPG9_Gun_Bag",{}},"CFP_Basic_Helmet_Gray_Green","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Asst_Gunner_SPG_01.png";
     };
 
     class CFP_B_AFARMY_Gunner_Mortar_01 : CFP_B_AFARMY_Rifleman_01 {
@@ -804,7 +804,7 @@ class CfgVehicles {
         displayName = "Gunner [Mortar]";
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_BattleDressUniform_ana_wdlight",{{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_Osprey1_Wd",{{"CUP_30Rnd_556x45_Stanag",5,30}}},{"CUP_B_M252_Bipod_Bag",{}},"CFP_Basic_Helmet_Gray_Green","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Gunner_Mortar_01.png";
     };
 
     class CFP_B_AFARMY_Asst_Gunner_Mortar_01 : CFP_B_AFARMY_Rifleman_01 {
@@ -812,7 +812,7 @@ class CfgVehicles {
         displayName = "Asst. Gunner [Mortar]";
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_BattleDressUniform_ana_wdlight",{{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_Osprey1_Wd",{{"CUP_30Rnd_556x45_Stanag",5,30}}},{"CUP_B_M252_Gun_Bag",{}},"CFP_Basic_Helmet_Gray_Green","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Asst_Gunner_Mortar_01.png";
     };
 
     class CFP_B_AFARMY_DShKM_High_01 : CUP_O_DSHKM_SLA_OCimport_02 {
@@ -973,7 +973,7 @@ class CfgVehicles {
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_insignia = "USP_PATCH_AFG_ANA_CDO";
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Operator_01.png";
     };
 
     class CFP_B_AFARMY_Team_Leader_01 : CFP_B_AFARMY_Operator_01 {
@@ -981,7 +981,7 @@ class CfgVehicles {
         displayName = "Team Leader [SF]";
 
         ALiVE_orbatCreator_loadout[] = {{"arifle_SPAR_01_blk_F","muzzle_snds_M","acc_pointer_IR","optic_Holosight_smg_blk_F",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_m81anasf",{{"30Rnd_556x45_Stanag",3,30},{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_LBT6094_operator_M81",{{"30Rnd_556x45_Stanag",5,30}}},{},"CFP_OPS2017_Helmet_M81","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Team_Leader_01.png";
     };
 
     class CFP_B_AFARMY_Grenadier_SF_01 : CFP_B_AFARMY_Operator_01 {
@@ -989,7 +989,7 @@ class CfgVehicles {
         displayName = "Grenadier [SF]";
 
         ALiVE_orbatCreator_loadout[] = {{"arifle_SPAR_01_GL_blk_F","muzzle_snds_M","acc_pointer_IR","optic_Holosight_smg_blk_F",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_m81anasf",{{"CUP_17Rnd_9x19_glock17",3,17},{"30Rnd_556x45_Stanag",3,30}}},{"CFP_LBT6094_operator_M81",{{"1Rnd_HE_Grenade_shell",5,1},{"30Rnd_556x45_Stanag",5,30},{"1Rnd_Smoke_Grenade_shell",4,1}}},{},"CFP_OPS2017_Helmet_M81","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Grenadier_SF_01.png";
     };
 
     class CFP_B_AFARMY_Explosive_Specialist_SF_01 : CFP_B_AFARMY_Operator_01 {
@@ -997,7 +997,7 @@ class CfgVehicles {
         displayName = "Explosive Specialist [SF]";
 
         ALiVE_orbatCreator_loadout[] = {{"arifle_SPAR_01_blk_F","muzzle_snds_M","acc_pointer_IR","optic_Holosight_smg_blk_F",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_m81anasf",{{"30Rnd_556x45_Stanag",3,30},{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_LBT6094_operator_M81",{{"30Rnd_556x45_Stanag",5,30},{"DemoCharge_Remote_Mag",4,1},{"SLAMDirectionalMine_Wire_Mag",1,1},{"APERSTripMine_Wire_Mag",1,1}}},{},"CFP_OPS2017_Helmet_M81","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Explosive_Specialist_01.png";
     };
 
     class CFP_B_AFARMY_Machine_Gunner_SF_01 : CFP_B_AFARMY_Operator_01 {
@@ -1005,7 +1005,7 @@ class CfgVehicles {
         displayName = "Machine Gunner [SF]";
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_m249_pip3","","","CUP_optic_HoloBlack",{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",200},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_m81anasf",{{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_LBT6094_MG_M81",{{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",4,200}}},{},"CFP_OPS2017_Helmet_M81","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Machine_Gunner_01.png";
     };
 
     class CFP_B_AFARMY_Medic_SF_01 : CFP_B_AFARMY_Operator_01 {
@@ -1013,7 +1013,7 @@ class CfgVehicles {
         displayName = "Medic [SF]";
 
         ALiVE_orbatCreator_loadout[] = {{"arifle_SPAR_01_blk_F","muzzle_snds_M","acc_pointer_IR","optic_Holosight_smg_blk_F",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_m81anasf",{{"30Rnd_556x45_Stanag",3,30},{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_LBT6094_operator_M81",{{"FirstAidKit",10},{"30Rnd_556x45_Stanag",5,30}}},{},"CFP_OPS2017_Helmet_M81","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Medic_SF_01.png";
     };
 
         class CFP_B_AFARMY_Operator_Light_SF_01 : O_recon_F_OCimport_02 {
@@ -1050,7 +1050,7 @@ class CfgVehicles {
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_insignia = "USP_PATCH_AFG_ANA_CDO_SF";
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Operator_Light_SF_01.png";
     };
 
     class CFP_B_AFARMY_Team_Leader_Light_SF_01 : CFP_B_AFARMY_Operator_Light_SF_01 {
@@ -1058,7 +1058,7 @@ class CfgVehicles {
         displayName = "Team Leader Light [SF]";
 
         ALiVE_orbatCreator_loadout[] = {{"arifle_SPAR_01_blk_F","muzzle_snds_M","acc_pointer_IR","optic_Holosight_smg_blk_F",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_m81anasf",{{"30Rnd_556x45_Stanag",3,30},{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_LBT6094_operator_M81",{{"30Rnd_556x45_Stanag",5,30}}},{},"H_Booniehat_oli","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Squad_Leader_LIght_SF_01.png";
     };
 
     class CFP_B_AFARMY_Grenadier_Light_SF_01 : CFP_B_AFARMY_Operator_Light_SF_01 {
@@ -1066,7 +1066,7 @@ class CfgVehicles {
         displayName = "Grenadier Light [SF]";
 
         ALiVE_orbatCreator_loadout[] = {{"arifle_SPAR_01_GL_blk_F","muzzle_snds_M","acc_pointer_IR","optic_Holosight_smg_blk_F",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_m81anasf",{{"CUP_17Rnd_9x19_glock17",3,17},{"30Rnd_556x45_Stanag",3,30}}},{"CFP_LBT6094_operator_M81",{{"1Rnd_HE_Grenade_shell",5,1},{"30Rnd_556x45_Stanag",5,30},{"1Rnd_Smoke_Grenade_shell",4,1}}},{},"SP_BaseballCap_Green","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Grenadier_Light_SF_01.png";
     };
 
     class CFP_B_AFARMY_Explosive_Specialist_Light_SF_01 : CFP_B_AFARMY_Operator_Light_SF_01 {
@@ -1074,7 +1074,7 @@ class CfgVehicles {
         displayName = "Explosive Specialist Light [SF]";
 
         ALiVE_orbatCreator_loadout[] = {{"arifle_SPAR_01_blk_F","muzzle_snds_M","acc_pointer_IR","optic_Holosight_smg_blk_F",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_m81anasf",{{"30Rnd_556x45_Stanag",3,30},{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_LBT6094_operator_M81",{{"30Rnd_556x45_Stanag",5,30},{"DemoCharge_Remote_Mag",4,1},{"SLAMDirectionalMine_Wire_Mag",1,1},{"APERSTripMine_Wire_Mag",1,1}}},{},"SP_BeanieHat_Black","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Explosive_Specialist_Light_01.png";
     };
 
     class CFP_B_AFARMY_Machine_Gunner_Light_SF_01 : CFP_B_AFARMY_Operator_Light_SF_01 {
@@ -1082,7 +1082,7 @@ class CfgVehicles {
         displayName = "Machine Gunner Light [SF]";
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_m249_pip3","","","CUP_optic_HoloBlack",{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",200},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_m81anasf",{{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_LBT6094_MG_M81",{{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",4,200}}},{},"SP_Bandana_Green","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Machine_Gunner_LIght_SF_01.png";
     };
 
     class CFP_B_AFARMY_Medic_Light_SF_01 : CFP_B_AFARMY_Operator_Light_SF_01 {
@@ -1090,7 +1090,7 @@ class CfgVehicles {
         displayName = "Medic Light [SF]";
 
         ALiVE_orbatCreator_loadout[] = {{"arifle_SPAR_01_blk_F","muzzle_snds_M","acc_pointer_IR","optic_Holosight_smg_blk_F",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_m81anasf",{{"30Rnd_556x45_Stanag",3,30},{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_LBT6094_operator_M81",{{"FirstAidKit",10},{"30Rnd_556x45_Stanag",5,30}}},{},"SP_BaseballCap_Green","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
-
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Medic_Light_01.png";
     };
 
     class CUP_USBasicAmmunitionBox;

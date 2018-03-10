@@ -18,12 +18,12 @@ class CfgVehicles {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Rifleman [AK74]";
+        displayName = "ANP Rifleman [AK74]";
         side = 1;
         faction = "CFP_B_AFGPOLICE";
 
         identityTypes[] = { "Head_TK" , "LanguagePER_F" , "G_IRAN_default" };
-        uniformClass = "SP_0000_Standard_FieldUniform_BlueFrost";
+        uniformClass = "CFP_U_BattleDressUniform_anp_dark";
 
 
 
@@ -31,7 +31,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then { _onSpawn = { private _unit = _this select 0; sleep 0.2; private _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _unit) >> 'backpack'); waituntil {sleep 0.2; backpack _unit == _backpack}; _unit setunitloadout [ ['CUP_arifle_AK74','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],[],[], ['SP_0000_Standard_FieldUniform_BlueFrost',[['CUP_30Rnd_545x39_AK_M',3,30]]], ['SP_Modular1_Black',[['CUP_30Rnd_545x39_AK_M',5,30]]],[], 'SP_PatrolCap_BlueFrost','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']]; [_unit,'AFG_NationalPolice'] call BIS_fnc_setUnitInsignia; reload _unit; };_this spawn _onSpawn; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then { _onSpawn = { private _unit = _this select 0; sleep 0.2; private _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _unit) >> 'backpack'); waituntil {sleep 0.2; backpack _unit == _backpack}; _unit setunitloadout [ ['CUP_arifle_AK74','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],[],[], ['CFP_U_BattleDressUniform_anp_dark',[['CUP_30Rnd_545x39_AK_M',3,30]]], ['CFP_AK_VEST_LOlive',[['CUP_30Rnd_545x39_AK_M',5,30]]],[], 'CFP_PatrolCap_ANP','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']]; [_unit,'AFG_NationalPolice'] call BIS_fnc_setUnitInsignia; reload _unit; };_this spawn _onSpawn; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -46,12 +46,12 @@ class CfgVehicles {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Grenadier [AK74]";
+        displayName = "ANP Grenadier [AK74]";
         side = 1;
         faction = "CFP_B_AFGPOLICE";
 
         identityTypes[] = { "Head_TK" , "LanguagePER_F" , "G_IRAN_default" };
-        uniformClass = "SP_0000_Standard_FieldUniform_BlueFrost_SS";
+        uniformClass = "CFP_U_BattleDressUniform_anp_dark";
 
 
 
@@ -59,7 +59,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_arifle_AK74_GL','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],[],[],['SP_0000_Standard_FieldUniform_BlueFrost_SS',[['CUP_30Rnd_545x39_AK_M',3,30]]],['SP_Modular1_Black',[['CUP_1Rnd_HE_GP25_M',5,1],['CUP_1Rnd_SMOKE_GP25_M',3,1],['CUP_30Rnd_545x39_AK_M',5,30]]],[],'SP_PatrolCap_BlueFrost','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];[_this,'AFG_NationalPolice'] call BIS_fnc_setUnitInsignia; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_arifle_AK74_GL','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],[],[],['CFP_U_BattleDressUniform_anp_dark',[['CUP_30Rnd_545x39_AK_M',3,30]]],['CFP_AK_VEST_LOlive',[['CUP_1Rnd_HE_GP25_M',5,1],['CUP_1Rnd_SMOKE_GP25_M',3,1],['CUP_30Rnd_545x39_AK_M',5,30]]],[],'CFP_PatrolCap_ANP','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];[_this,'AFG_NationalPolice'] call BIS_fnc_setUnitInsignia; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -74,12 +74,12 @@ class CfgVehicles {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Rifleman [AK74M]";
+        displayName = "ANP Rifleman [AK74M]";
         side = 1;
         faction = "CFP_B_AFGPOLICE";
 
         identityTypes[] = { "Head_TK" , "LanguagePER_F" , "G_IRAN_default" };
-        uniformClass = "SP_0000_Standard_FieldUniform_BlueFrost_SS";
+        uniformClass = "CFP_U_BattleDressUniform_anp_dark";
 
 
 
@@ -87,7 +87,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_arifle_AK74M','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],[],[],['SP_0000_Standard_FieldUniform_BlueFrost_SS',[['CUP_30Rnd_545x39_AK_M',3,30]]],['SP_Modular1_Black',[['CUP_30Rnd_545x39_AK_M',5,30]]],[],'SP_PatrolCap_BlueFrost','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];[_this,'AFG_NationalPolice'] call BIS_fnc_setUnitInsignia; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_arifle_AK74M','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],[],[],['CFP_U_BattleDressUniform_anp_dark',[['CUP_30Rnd_545x39_AK_M',3,30]]],['CFP_AK_VEST_LOlive',[['CUP_30Rnd_545x39_AK_M',5,30]]],[],'CFP_PatrolCap_ANP','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];[_this,'AFG_NationalPolice'] call BIS_fnc_setUnitInsignia; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -102,12 +102,12 @@ class CfgVehicles {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Officer";
+        displayName = " ANP Officer";
         side = 1;
         faction = "CFP_B_AFGPOLICE";
 
         identityTypes[] = { "Head_TK" , "LanguagePER_F" , "G_IRAN_default" };
-        uniformClass = "SP_0000_Standard_FieldUniform_BlueFrost";
+        uniformClass = "CFP_U_BattleDressUniform_anp_dark";
 
 
 
@@ -115,7 +115,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; _this setunitloadout [['CUP_arifle_AK74M','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],[],[],['SP_0000_Standard_FieldUniform_BlueFrost',[['CUP_30Rnd_545x39_AK_M',3,30]]],['SP_Modular1_Black',[['CUP_30Rnd_545x39_AK_M',5,30]]],[],'SP_PatrolCap_BlueFrost','',['Binocular','','','',[],[],''],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];[_this,'AFG_NationalPolice'] call BIS_fnc_setUnitInsignia; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; _this setunitloadout [['CUP_arifle_AK74M','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],[],[],['CFP_U_BattleDressUniform_anp_dark',[['CUP_30Rnd_545x39_AK_M',3,30]]],['CFP_AK_VEST_LOlive',[['CUP_30Rnd_545x39_AK_M',5,30]]],[],'CFP_PatrolCap_ANP','',['Binocular','','','',[],[],''],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];[_this,'AFG_NationalPolice'] call BIS_fnc_setUnitInsignia; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -130,12 +130,12 @@ class CfgVehicles {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Grenadier [AK74M]";
+        displayName = "ANP Grenadier [AK74M]";
         side = 1;
         faction = "CFP_B_AFGPOLICE";
 
         identityTypes[] = { "Head_TK" , "LanguagePER_F" , "G_IRAN_default" };
-        uniformClass = "SP_0000_Standard_FieldUniform_BlueFrost";
+        uniformClass = "CFP_U_BattleDressUniform_anp_dark";
 
 
 
@@ -143,7 +143,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; _this setunitloadout [['CUP_arifle_AK74M_GL','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],[],[],['SP_0000_Standard_FieldUniform_BlueFrost',[['CUP_30Rnd_545x39_AK_M',3,30]]],['SP_Modular1_Black',[['CUP_1Rnd_HE_GP25_M',5,1],['CUP_1Rnd_SMOKE_GP25_M',3,1],['CUP_30Rnd_545x39_AK_M',5,30]]],[],'SP_PatrolCap_BlueFrost','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];[_this,'AFG_NationalPolice'] call BIS_fnc_setUnitInsignia; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; _this setunitloadout [['CUP_arifle_AK74M_GL','','','',['CUP_30Rnd_545x39_AK_M',30],[],''],[],[],['CFP_U_BattleDressUniform_anp_dark',[['CUP_30Rnd_545x39_AK_M',3,30]]],['CFP_AK_VEST_LOlive',[['CUP_1Rnd_HE_GP25_M',5,1],['CUP_1Rnd_SMOKE_GP25_M',3,1],['CUP_30Rnd_545x39_AK_M',5,30]]],[],'CFP_PatrolCap_ANP','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];[_this,'AFG_NationalPolice'] call BIS_fnc_setUnitInsignia; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -158,12 +158,12 @@ class CfgVehicles {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Machine Gunner [PKM]";
+        displayName = "ANP Machine Gunner [PKM]";
         side = 1;
         faction = "CFP_B_AFGPOLICE";
 
         identityTypes[] = { "Head_TK" , "LanguagePER_F" , "G_IRAN_default" };
-        uniformClass = "SP_0000_Standard_FieldUniform_BlueFrost";
+        uniformClass = "CFP_U_BattleDressUniform_anp_dark";
 
 
 
@@ -171,7 +171,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_lmg_PKM','','','',['CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M',100],[],''],[],[],['SP_0000_Standard_FieldUniform_BlueFrost',[]],['SP_Modular1_Black',[['CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M',1,100]]],['CUP_B_AssaultPack_Black',[['CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M',2,100]]],'SP_PatrolCap_BlueFrost','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];[_this,'AFG_NationalPolice'] call BIS_fnc_setUnitInsignia; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_lmg_PKM','','','',['CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M',100],[],''],[],[],['CFP_U_BattleDressUniform_anp_dark',[]],['CFP_AK_VEST_LOlive',[['CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M',1,100]]],['CUP_B_AssaultPack_Black',[['CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M',2,100]]],'CFP_PatrolCap_ANP','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];[_this,'AFG_NationalPolice'] call BIS_fnc_setUnitInsignia; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -186,12 +186,12 @@ class CfgVehicles {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Rifleman AT [RPG]";
+        displayName = "ANP Rifleman AT [RPG]";
         side = 1;
         faction = "CFP_B_AFGPOLICE";
 
         identityTypes[] = { "Head_TK" , "LanguagePER_F" , "G_IRAN_default" };
-        uniformClass = "SP_0000_Standard_FieldUniform_BlueFrost_SS";
+        uniformClass = "CFP_U_BattleDressUniform_anp_dark";
 
 
 
@@ -199,7 +199,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_arifle_AKM','','','',['CUP_30Rnd_762x39_AK47_M',30],[],''],['CUP_launch_RPG7V','','','',['CUP_PG7V_M',1],[],''],[],['SP_0000_Standard_FieldUniform_BlueFrost_SS',[['CUP_30Rnd_762x39_AK47_M',2,30]]],['SP_Modular1_Black',[['CUP_30Rnd_762x39_AK47_M',5,30]]],['CUP_B_RPGPack_Khaki',[['CUP_PG7V_M',3,1]]],'SP_PatrolCap_BlueFrost','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];[_this,'AFG_NationalPolice'] call BIS_fnc_setUnitInsignia; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_arifle_AKM','','','',['CUP_30Rnd_762x39_AK47_M',30],[],''],['CUP_launch_RPG7V','','','',['CUP_PG7V_M',1],[],''],[],['CFP_U_BattleDressUniform_anp_dark',[['CUP_30Rnd_762x39_AK47_M',2,30]]],['CFP_AK_VEST_LOlive',[['CUP_30Rnd_762x39_AK47_M',5,30]]],['CUP_B_RPGPack_Khaki',[['CUP_PG7V_M',3,1]]],'CFP_PatrolCap_ANP','',[],['ItemMap','','ItemRadio','ItemCompass','ItemWatch','']];[_this,'AFG_NationalPolice'] call BIS_fnc_setUnitInsignia; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -216,6 +216,21 @@ class CfgVehicles {
         scope = 2;
         side = 1;
         displayName = "Afghan Police Offroad";
+        faction = "CFP_B_AFGPOLICE";
+        camouflage = 4;
+        crew = "CFP_B_AFGPolice_Rifleman_AK74_01";
+        typicalCargo[] = {"CFP_B_AFGPolice_Rifleman_AK74_01","CFP_B_AFGPolice_Rifleman_AK74M_01"};
+        hiddenSelections[] = {"camo","camo2"};
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\b_afgpolice\data\offroad_afghan_police.paa","\x\cfp\addons\b_afgpolice\data\offroad_afghan_police.paa"};
+        editorPreview = "\x\cfp\addons\b_afgpolice\data\Preview_afgpolice_Offroad.jpg";
+    };
+
+    class B_G_Offroad_01_armed_F;
+    class CFP_B_AFGPolice_offroad_armed: B_G_Offroad_01_armed_F
+    {
+        scope = 2;
+        side = 1;
+        displayName = "Afghan Police Offroad (Armed)";
         faction = "CFP_B_AFGPOLICE";
         camouflage = 4;
         crew = "CFP_B_AFGPolice_Rifleman_AK74_01";
