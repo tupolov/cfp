@@ -276,7 +276,7 @@ class CfgGroups {
                 };
 
                 class CUP_B_USMC_InfSquad_FROG_WDL {
-                    name = "Rifle Squad";
+                    name = "Rifle Squad (FROG)";
                     side = 1;
                     faction = "CUP_B_USMC";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -363,7 +363,7 @@ class CfgGroups {
                 };
 
                 class CUP_B_USMC_FireTeam_FROG_WDL {
-                    name = "Fire Team";
+                    name = "Fire Team (FROG)";
                     side = 1;
                     faction = "CUP_B_USMC";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -396,7 +396,7 @@ class CfgGroups {
                 };
 
                 class CUP_B_USMC_FireTeam_MG_FROG_WDL {
-                    name = "Fire Team (MG)";
+                    name = "Fire Team (MG - FROG)";
                     side = 1;
                     faction = "CUP_B_USMC";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -429,7 +429,7 @@ class CfgGroups {
                 };
 
                 class CUP_B_USMC_FireTeam_AT_FROG_WDL {
-                    name = "Fire Team (AT)";
+                    name = "Fire Team (AT - FROG)";
                     side = 1;
                     faction = "CUP_B_USMC";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -462,7 +462,7 @@ class CfgGroups {
                 };
 
                 class CUP_B_USMC_FireTeam_Support_FROG_WDL {
-                    name = "Fire Team (Support)";
+                    name = "Fire Team (Support - FROG)";
                     side = 1;
                     faction = "CUP_B_USMC";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -495,7 +495,7 @@ class CfgGroups {
                 };
 
                 class CUP_B_USMC_HeavyATTeam_FROG_WDL {
-                    name = "Heavy AT Team";
+                    name = "Heavy AT Team (FROG)";
                     side = 1;
                     faction = "CUP_B_USMC";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
@@ -520,15 +520,6 @@ class CfgGroups {
                         vehicle = "CUP_B_USMC_Soldier_LAT_FROG_WDL";
                     };
                 };
-
-                delete CUP_B_USMC_InfSquad_FROG_DES;
-                delete CUP_B_USMC_FireTeam_FROG_DES;
-                delete CUP_B_USMC_FireTeam_MG_FROG_DES;
-                delete CUP_B_USMC_FireTeam_AT_FROG_DES;
-                delete CUP_B_USMC_FireTeam_Support_FROG_DES;
-                delete CUP_B_USMC_HeavyATTeam_FROG_DES;
-                delete CUP_B_USMC_FRTeam_Desert;
-                delete CUP_B_USMC_FRTeam_Razor_Desert;
 
                 class CUP_B_USMC_infantry_M2_team_high {
                     name = "M2 MG Team [High]";
@@ -614,6 +605,9 @@ class CfgGroups {
                     };
                 };
             };
+
+            delete Infantry_FROG_DES;
+            delete Infantry_FROG_WDL;
 
             class SpecOps {
 
