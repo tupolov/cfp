@@ -314,7 +314,7 @@ class CfgVehicles {
         {
             class ADDON
             {
-                init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Afghanistan\KingdomOfAfghanistan.paa""";
+                init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Afghanistan\KingdomOfAfghanistan2.paa""";
             };
         };
     };
