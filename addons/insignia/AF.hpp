@@ -77,6 +77,12 @@
 		displayName = "[AFG] ALP Afghan Local Police";
 		texture = "x\cfp\addons\insignia\AF\data\anp\local_police_ca.paa";
 	};
+	class CFP_PATCH_AFG_ANP_NATIONAL_POLICE: USP_PATCH_BASE
+	{
+		author = "AuburnAlumni";
+		displayName = "[AFG] ANP Afghan National Police";
+		texture = "x\cfp\addons\insignia\AF\data\anp\anp_national_police_ca.paa";
+	};
 	class USP_PATCH_AFG_ANCOP: USP_PATCH_BASE
 	{
 		author = "Siege-A";

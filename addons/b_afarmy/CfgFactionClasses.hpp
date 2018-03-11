@@ -8,8 +8,8 @@ class CfgFactionClasses {
     class CFP_B_AFARMY {
         displayName = "Afghan Army";
         side = 1;
-        flag = "\A3\ui_f\data\map\markers\flags\nato_ca.paa";
-        icon = "\A3\ui_f\data\map\markers\flags\nato_ca.paa";
+        flag = "x\cfp\addons\flags\Afghanistan\Afghanistan.paa";
+        icon = "x\cfp\addons\flags\Afghanistan\Afghanistan.paa";
         priority = 0;
     };
 };

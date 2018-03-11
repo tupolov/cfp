@@ -72,9 +72,9 @@ class CfgVehicles
             };
 	    class Urban
 	    {
-		displayname = "Standard Urban";
-	        author = "SP Craig";
-	        textures[] = {"\x\cfp\addons\vehicles\Offroad\NodUrban1.paa","A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa"};
+		        displayname = "Standard Urban";
+	            author = "SP Craig";
+	            textures[] = {"\x\cfp\addons\vehicles\Offroad\NodUrban1.paa","A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa"};
                 factions[] = {};
 	    };
 	    class ISIS
@@ -119,7 +119,7 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Offroad\offroad_isis_02_dirty_2.paa","A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa"};
                 factions[] = {};
 	    };
-	    class ISIS3 
+	    class ISIS3
             {
                 displayName = "Standard ISIS3";
                 author = "AccuracyThruVolume";
@@ -140,7 +140,7 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Offroad\offroad_isis_03_dirty_2.paa","A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa"};
                 factions[] = {};
 	    };
-	    class ISIS4 
+	    class ISIS4
             {
                 displayName = "Standard ISIS4";
                 author = "AccuracyThruVolume";
@@ -161,6 +161,13 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Offroad\offroad_isis_04_dirty_2.paa","A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa"};
                 factions[] = {};
 	    };
+        class AfghanPolice
+            {
+                displayName = "Afghan Police";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Offroad\offroad_afghan_police.paa","A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa"};
+                factions[] = {};
+        };
         };
     };
 
@@ -280,7 +287,7 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Offroad\offroad_isis_02_dirty_2.paa","A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa"};
                 factions[] = {};
 	    };
-	    class ISIS3 
+	    class ISIS3
             {
                 displayName = "Standard ISIS3";
                 author = "AccuracyThruVolume";
@@ -301,7 +308,7 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Offroad\offroad_isis_03_dirty_2.paa","A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa"};
                 factions[] = {};
 	    };
-	    class ISIS4 
+	    class ISIS4
             {
                 displayName = "Standard ISIS4";
                 author = "AccuracyThruVolume";
@@ -322,6 +329,13 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Offroad\offroad_isis_04_dirty_2.paa","A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa"};
                 factions[] = {};
 	    };
+        class AfghanPolice
+            {
+                displayName = "Afghan Police";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Offroad\offroad_afghan_police.paa","A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa"};
+                factions[] = {};
+        };
         };
     };
 
@@ -441,7 +455,7 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Offroad\offroad_isis_02_dirty_2.paa","A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa"};
                 factions[] = {};
 	    };
-	    class ISIS3 
+	    class ISIS3
             {
                 displayName = "Standard ISIS3";
                 author = "AccuracyThruVolume";
@@ -462,7 +476,7 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Offroad\offroad_isis_03_dirty_2.paa","A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa"};
                 factions[] = {};
 	    };
-	    class ISIS4 
+	    class ISIS4
             {
                 displayName = "Standard ISIS4";
                 author = "AccuracyThruVolume";
@@ -483,6 +497,13 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Offroad\offroad_isis_04_dirty_2.paa","A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa"};
                 factions[] = {};
 	    };
+        class AfghanPolice
+            {
+                displayName = "Afghan Police";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Offroad\offroad_afghan_police.paa","A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa"};
+                factions[] = {};
+        };
         };
     };
     class CUP_UAZ_Base : Offroad_01_base_F
@@ -665,7 +686,7 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_4_d_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
                 factions[] = {};
 	    };
-	    class ISDatsun5c1 
+	    class ISDatsun5c1
             {
                 displayName = "ISIS Datsun5c1";
                 author = "AccuracyThruVolume";
@@ -835,7 +856,7 @@ class CfgVehicles
 	    };
         };
     };
-   
+
     class CUP_Datsun_PK_Base : CUP_Datsun_Base
     {
         class textureSources
@@ -952,7 +973,7 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Datsun\cup_is_datsun_4_d_2.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa"};
                 factions[] = {};
 	    };
-	    class ISDatsun5c1 
+	    class ISDatsun5c1
             {
                 displayName = "ISIS Datsun5c1";
                 author = "AccuracyThruVolume";
@@ -1184,7 +1205,7 @@ class CfgVehicles
 	    };
         };
     };
-    
+
     class CUP_Ural_BaseTurret;
 
     class CUP_Ural_Base : CUP_Ural_BaseTurret

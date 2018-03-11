@@ -265,7 +265,7 @@ class CfgVehicles {
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
         uniformClass = "CFP_U_BattleDressUniform_ana_wdlight";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_BattleDressUniform_ana_wdlight",{{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_Osprey1_Wd",{{"CUP_30Rnd_556x45_Stanag",5,30}}},{},"SP_Beret_Green","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_hgun_Makarov","","","",{},{},""},{},{},{"CFP_U_BattleDressUniform_ana_wdlight",{{"CUP_8Rnd_9x18_Makarov_M",2,8}}},{"SP_Holster1_Black",{{}}},{},"CFP_Beret2_RedANA","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
         randomGearProbability = 100;
 
@@ -997,7 +997,7 @@ class CfgVehicles {
         displayName = "Explosive Specialist [SF]";
 
         ALiVE_orbatCreator_loadout[] = {{"arifle_SPAR_01_blk_F","muzzle_snds_M","acc_pointer_IR","optic_Holosight_smg_blk_F",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_m81anasf",{{"30Rnd_556x45_Stanag",3,30},{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_LBT6094_operator_M81",{{"30Rnd_556x45_Stanag",5,30},{"DemoCharge_Remote_Mag",4,1},{"SLAMDirectionalMine_Wire_Mag",1,1},{"APERSTripMine_Wire_Mag",1,1}}},{},"CFP_OPS2017_Helmet_M81","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
-        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Explosive_Specialist_01.jpg";
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Explosive_Specialist_SF_01.jpg";
     };
 
     class CFP_B_AFARMY_Machine_Gunner_SF_01 : CFP_B_AFARMY_Operator_01 {
@@ -1005,7 +1005,7 @@ class CfgVehicles {
         displayName = "Machine Gunner [SF]";
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_m249_pip3","","","CUP_optic_HoloBlack",{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",200},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_m81anasf",{{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_LBT6094_MG_M81",{{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",4,200}}},{},"CFP_OPS2017_Helmet_M81","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
-        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Machine_Gunner_01.jpg";
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Machine_Gunner_SF_01.jpg";
     };
 
     class CFP_B_AFARMY_Medic_SF_01 : CFP_B_AFARMY_Operator_01 {
@@ -1058,7 +1058,7 @@ class CfgVehicles {
         displayName = "Team Leader Light [SF]";
 
         ALiVE_orbatCreator_loadout[] = {{"arifle_SPAR_01_blk_F","muzzle_snds_M","acc_pointer_IR","optic_Holosight_smg_blk_F",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_m81anasf",{{"30Rnd_556x45_Stanag",3,30},{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_LBT6094_operator_M81",{{"30Rnd_556x45_Stanag",5,30}}},{},"H_Booniehat_oli","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
-        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Squad_Leader_LIght_SF_01.jpg";
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Team_Leader_LIght_SF_01.jpg";
     };
 
     class CFP_B_AFARMY_Grenadier_Light_SF_01 : CFP_B_AFARMY_Operator_Light_SF_01 {
@@ -1074,7 +1074,7 @@ class CfgVehicles {
         displayName = "Explosive Specialist Light [SF]";
 
         ALiVE_orbatCreator_loadout[] = {{"arifle_SPAR_01_blk_F","muzzle_snds_M","acc_pointer_IR","optic_Holosight_smg_blk_F",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_m81anasf",{{"30Rnd_556x45_Stanag",3,30},{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_LBT6094_operator_M81",{{"30Rnd_556x45_Stanag",5,30},{"DemoCharge_Remote_Mag",4,1},{"SLAMDirectionalMine_Wire_Mag",1,1},{"APERSTripMine_Wire_Mag",1,1}}},{},"SP_BeanieHat_Black","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
-        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Explosive_Specialist_Light_01.jpg";
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Explosive_Specialist_Light_SF_01.jpg";
     };
 
     class CFP_B_AFARMY_Machine_Gunner_Light_SF_01 : CFP_B_AFARMY_Operator_Light_SF_01 {
@@ -1090,7 +1090,7 @@ class CfgVehicles {
         displayName = "Medic Light [SF]";
 
         ALiVE_orbatCreator_loadout[] = {{"arifle_SPAR_01_blk_F","muzzle_snds_M","acc_pointer_IR","optic_Holosight_smg_blk_F",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_m81anasf",{{"30Rnd_556x45_Stanag",3,30},{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_LBT6094_operator_M81",{{"FirstAidKit",10},{"30Rnd_556x45_Stanag",5,30}}},{},"SP_BaseballCap_Green","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
-        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Medic_Light_01.jpg";
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Medic_Light_SF_01.jpg";
     };
 
     class CUP_USBasicAmmunitionBox;
