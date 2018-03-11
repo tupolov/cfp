@@ -393,7 +393,7 @@ class CfgVehicles {
 
     };
 
-      class CFP_B_AFGPolice_ANCOP_Rifleman_01 : O_Soldier_F_OCimport_02 {
+    class CFP_B_AFGPolice_ANCOP_Rifleman_01 : O_Soldier_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -728,8 +728,6 @@ class CfgVehicles {
         class Turrets : Turrets {
             class M2_Turret : M2_Turret { gunnerType = "CFP_B_AFGPolice_Rifleman_AK74M_01"; };
         };
-
-
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
