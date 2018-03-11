@@ -27,7 +27,7 @@ class CfgVehicles {
     };
 
     class CFP_B_AFGPolice_Rifleman_AK74_01 : O_Soldier_F_OCimport_02 {
-        editorPreview = \x\\addons\cfpbafgpolice\data\preview\CFP_B_AFGPolice_Rifleman_AK74_01.JPG;
+        editorPreview = \x\cfp\addons\b_afgpolice\data\preview\CFP_B_AFGPolice_Rifleman_AK74_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -58,7 +58,7 @@ class CfgVehicles {
     };
 
     class CFP_B_AFGPolice_Grenadier_AK74_01 : O_Soldier_F_OCimport_02 {
-        editorPreview = \x\\addons\cfpbafgpolice\data\preview\CFP_B_AFGPolice_Grenadier_AK74_01.JPG;
+        editorPreview = \x\cfp\addons\b_afgpolice\data\preview\CFP_B_AFGPolice_Grenadier_AK74_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -89,7 +89,7 @@ class CfgVehicles {
     };
 
     class CFP_B_AFGPolice_Rifleman_AK74M_01 : O_Soldier_F_OCimport_02 {
-        editorPreview = \x\\addons\cfpbafgpolice\data\preview\CFP_B_AFGPolice_Rifleman_AK74M_01.JPG;
+        editorPreview = \x\cfp\addons\b_afgpolice\data\preview\CFP_B_AFGPolice_Rifleman_AK74M_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -120,7 +120,7 @@ class CfgVehicles {
     };
 
     class CFP_B_AFGPolice_Officer_01 : O_Soldier_F_OCimport_02 {
-        editorPreview = \x\\addons\cfpbafgpolice\data\preview\CFP_B_AFGPolice_Officer_01.JPG;
+        editorPreview = \x\cfp\addons\b_afgpolice\data\preview\CFP_B_AFGPolice_Officer_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -151,7 +151,7 @@ class CfgVehicles {
     };
 
     class CFP_B_AFGPolice_Grenadier_AK74M_01 : O_Soldier_F_OCimport_02 {
-        editorPreview = \x\\addons\cfpbafgpolice\data\preview\CFP_B_AFGPolice_Grenadier_AK74M_01.JPG;
+        editorPreview = \x\cfp\addons\b_afgpolice\data\preview\CFP_B_AFGPolice_Grenadier_AK74M_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -182,7 +182,7 @@ class CfgVehicles {
     };
 
     class CFP_B_AFGPolice_Machine_Gunner_PKM_01 : O_Soldier_F_OCimport_02 {
-        editorPreview = \x\\addons\cfpbafgpolice\data\preview\CFP_B_AFGPolice_Machine_Gunner_PKM_01.JPG;
+        editorPreview = \x\cfp\addons\b_afgpolice\data\preview\CFP_B_AFGPolice_Machine_Gunner_PKM_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -213,7 +213,7 @@ class CfgVehicles {
     };
 
     class CFP_B_AFGPolice_Rifleman_AT_RPG_01 : O_Soldier_F_OCimport_02 {
-        editorPreview = \x\\addons\cfpbafgpolice\data\preview\CFP_B_AFGPolice_Rifleman_AT_RPG_01.JPG;
+        editorPreview = \x\cfp\addons\b_afgpolice\data\preview\CFP_B_AFGPolice_Rifleman_AT_RPG_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -244,7 +244,7 @@ class CfgVehicles {
     };
 
     class CFP_B_AFGPolice_ANP_SWAT_Rifleman_01 : O_Soldier_F_OCimport_02 {
-        editorPreview = \x\\addons\cfpbafgpolice\data\preview\CFP_B_AFGPolice_ANP_SWAT_Rifleman_01.JPG;
+        editorPreview = \x\cfp\addons\b_afgpolice\data\preview\CFP_B_AFGPolice_ANP_SWAT_Rifleman_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -274,7 +274,7 @@ class CfgVehicles {
     };
 
     class CFP_B_AFGPolice_ANP_SWAT_Rifleman_AT_01 : CFP_B_AFGPolice_ANP_SWAT_Rifleman_01 {
-        editorPreview = \x\\addons\cfpbafgpolice\data\preview\CFP_B_AFGPolice_ANP_SWAT_Rifleman_AT_01.JPG;
+        editorPreview = \x\cfp\addons\b_afgpolice\data\preview\CFP_B_AFGPolice_ANP_SWAT_Rifleman_AT_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -304,7 +304,7 @@ class CfgVehicles {
     };
 
     class CFP_B_AFGPolice_ANP_SWAT_Grenadier_01 : CFP_B_AFGPolice_ANP_SWAT_Rifleman_01 {
-        editorPreview = \x\\addons\cfpbafgpolice\data\preview\CFP_B_AFGPolice_ANP_SWAT_Grenadier_01.JPG;
+        editorPreview = \x\cfp\addons\b_afgpolice\data\preview\CFP_B_AFGPolice_ANP_SWAT_Grenadier_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -334,7 +334,7 @@ class CfgVehicles {
     };
 
     class CFP_B_AFGPolice_ANP_SWAT_Machine_Gunner_01 : CFP_B_AFGPolice_ANP_SWAT_Rifleman_01 {
-        editorPreview = \x\\addons\cfpbafgpolice\data\preview\CFP_B_AFGPolice_ANP_SWAT_Machine_Gunner_01.JPG;
+        editorPreview = \x\cfp\addons\b_afgpolice\data\preview\CFP_B_AFGPolice_ANP_SWAT_Machine_Gunner_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -364,7 +364,7 @@ class CfgVehicles {
     };
 
     class CFP_B_AFGPolice_ANP_SWAT_Team_Leader_01 : CFP_B_AFGPolice_ANP_SWAT_Rifleman_01 {
-        editorPreview = \x\\addons\cfpbafgpolice\data\preview\CFP_B_AFGPolice_ANP_SWAT_Team_Leader_01.JPG;
+        editorPreview = \x\cfp\addons\b_afgpolice\data\preview\CFP_B_AFGPolice_ANP_SWAT_Team_Leader_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -544,7 +544,7 @@ class CfgVehicles {
     };
 
     class CFP_B_AFGPolice_ANCOP_SWAT_Rifleman_01 : O_Soldier_F_OCimport_02 {
-        editorPreview = \x\\addons\cfpbafgpolice\data\preview\CFP_B_AFGPolice_ANCOP_SWAT_Rifleman_01.JPG;
+        editorPreview = \x\cfp\addons\b_afgpolice\data\preview\CFP_B_AFGPolice_ANCOP_SWAT_Rifleman_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -574,7 +574,7 @@ class CfgVehicles {
     };
 
     class CFP_B_AFGPolice_ANCOP_SWAT_Rifleman_AT_01 : CFP_B_AFGPolice_ANCOP_SWAT_Rifleman_01 {
-        editorPreview = \x\\addons\cfpbafgpolice\data\preview\CFP_B_AFGPolice_ANCOP_SWAT_Rifleman_AT_01.JPG;
+        editorPreview = \x\cfp\addons\b_afgpolice\data\preview\CFP_B_AFGPolice_ANCOP_SWAT_Rifleman_AT_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -604,7 +604,7 @@ class CfgVehicles {
     };
 
     class CFP_B_AFGPolice_ANCOP_SWAT_Grenadier_01 : CFP_B_AFGPolice_ANCOP_SWAT_Rifleman_01 {
-        editorPreview = \x\\addons\cfpbafgpolice\data\preview\CFP_B_AFGPolice_ANCOP_SWAT_Grenadier_01.JPG;
+        editorPreview = \x\cfp\addons\b_afgpolice\data\preview\CFP_B_AFGPolice_ANCOP_SWAT_Grenadier_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -634,7 +634,7 @@ class CfgVehicles {
     };
 
     class CFP_B_AFGPolice_ANCOP_SWAT_Machine_Gunner_01 : CFP_B_AFGPolice_ANCOP_SWAT_Rifleman_01 {
-        editorPreview = \x\\addons\cfpbafgpolice\data\preview\CFP_B_AFGPolice_ANCOP_SWAT_Machine_Gunner_01.JPG;
+        editorPreview = \x\cfp\addons\b_afgpolice\data\preview\CFP_B_AFGPolice_ANCOP_SWAT_Machine_Gunner_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -664,7 +664,7 @@ class CfgVehicles {
     };
 
     class CFP_B_AFGPolice_ANCOP_SWAT_Team_Leader_01 : CFP_B_AFGPolice_ANCOP_SWAT_Grenadier_01 {
-        editorPreview = \x\\addons\cfpbafgpolice\data\preview\CFP_B_AFGPolice_ANCOP_SWAT_Team_Leader_01.JPG;
+        editorPreview = \x\cfp\addons\b_afgpolice\data\preview\CFP_B_AFGPolice_ANCOP_SWAT_Team_Leader_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
