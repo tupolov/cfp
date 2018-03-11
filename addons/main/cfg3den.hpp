@@ -40,7 +40,7 @@ class Cfg3DEN
                                     typeName = "BOOL"; // Defines data type of saved value, can be STRING, NUMBER or BOOL. Used only when control is "Combo", "Edit" or their variants
                               };
                               // Attribute class, can be anything
-                              class CFP_DisableRandom : CFP_OverrideLoadout
+                              class CFP_DisableRandom : ALiVE_OverrideLoadout
                               {
                                     displayName = "Disable CFP Randomization";
                                     tooltip = "Some CFP units have randomized weapons and/or items. Some vehicles have random textures. Enable this to disable randomization."; // Tooltip assigned to UI control class Title
