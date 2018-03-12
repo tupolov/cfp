@@ -27,9 +27,6 @@ class CfgVehicles {
 
         uniformClass = "U_BG_Guerilla2_1";
 
-        linkedItems[] = {"ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-        respawnLinkedItems[] = {"ItemGPS","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-
         randomGearProbability = 100;
         randomWeaponProbability = 100;
 
@@ -181,15 +178,26 @@ class CfgVehicles {
         	{{"CUP_IED_V1_M",2}}, 0.2
         };
 
+        backpack = "CUP_B_USPack_Coyote_Specops";
+        weapons[] = {"CUP_arifle_AK107","CUP_hgun_Glock17","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_AK107","CUP_hgun_Glock17","Throw","Put"};
+        linkedItems[] = {"V_TacVest_khk","CUP_H_PMC_Cap_Back_EP_Grey","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"V_TacVest_khk","CUP_H_PMC_Cap_Back_EP_Grey","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17"};
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK107","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{"CUP_hgun_Glock17","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CUP_I_B_PMC_Unit_3",{{"CUP_30Rnd_545x39_AK_M",4,30},{"CUP_17Rnd_9x19_glock17",1,17}}},{"V_TacVest_khk",{{"CUP_30Rnd_545x39_AK_M",1,30},{"CUP_17Rnd_9x19_glock17",1,17},{"HandGrenade",4,1}}},{"CUP_B_USPack_Coyote_Specops",{}},"CUP_H_PMC_Cap_Back_EP_Grey","SP_Shades_Black",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
-            class ADDON
-            {
-                init = "if (local (_this select 0)) then { _onSpawn = { private _unit = _this select 0; sleep 0.2; [_unit] call CFP_main_fnc_randomizeUnit; }; _this spawn _onSpawn; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout; [_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
 	};
 
 	class CFP_B_USCIA_paramilitary_officer_01 : CFP_B_USCIA_Paramilitary_Officer_Base {
@@ -308,6 +316,16 @@ class CfgVehicles {
             {"CUP_arifle_CZ805_A2_Holo_Laser",{"CUP_30Rnd_556x45_G36",6}}, 0.2,
             {"CUP_arifle_Mk16_CQC_FG_Aim_Laser_snds",{"CUP_30Rnd_556x45_Stanag",6}}, 0.2
         };
+
+        backpack = "CUP_B_USPack_Coyote_Specops";
+        weapons[] = {"CUP_arifle_AK74M","CUP_hgun_MicroUzi","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_AK74M","CUP_hgun_MicroUzi","Throw","Put"};
+        linkedItems[] = {"CUP_V_OI_TKI_Jacket3_06","CUP_H_TKI_SkullCap_01","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_OI_TKI_Jacket3_06","CUP_H_TKI_SkullCap_01","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_9x19_UZI","CUP_30Rnd_9x19_UZI","CUP_30Rnd_9x19_UZI"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_9x19_UZI","CUP_30Rnd_9x19_UZI","CUP_30Rnd_9x19_UZI"};
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{"CUP_hgun_MicroUzi","","","",{"CUP_30Rnd_9x19_UZI",30},{},""},{"CUP_O_TKI_Khet_Partug_02",{{"CUP_30Rnd_545x39_AK_M",2,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_OI_TKI_Jacket3_06",{{"CUP_30Rnd_545x39_AK_M",3,30},{"CUP_30Rnd_9x19_UZI",2,30},{"CUP_HandGrenade_M67",2,1}}},{"CUP_B_USPack_Coyote_Specops",{{"CUP_HandGrenade_M67",1,1},{"CUP_IED_V1_M",2,1}}},"CUP_H_TKI_SkullCap_01","CUP_TK_NeckScarf",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
     };
 
 	class CFP_B_USCIA_paramilitary_officer_assault_01 : CFP_B_USCIA_Paramilitary_Officer_Base {
@@ -444,6 +462,16 @@ class CfgVehicles {
             "CUP_NVG_PVS7", 0.25,
             "NVGoggles", 0.1
         };
+
+        backpack = "B_Carryall_cbr";
+        weapons[] = {"CUP_arifle_AK74M","CUP_hgun_M9","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_AK74M","CUP_hgun_M9","Throw","Put"};
+        linkedItems[] = {"CFP_RAV_MG_OCP","H_HelmetB_light_desert","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CFP_RAV_MG_OCP","H_HelmetB_light_desert","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{"CUP_hgun_M9","","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"SP_0000_Standard_FieldUniform_Tan_SS",{{"CUP_30Rnd_545x39_AK_M",4,30},{"CUP_15Rnd_9x19_M9",1,15}}},{"CFP_RAV_MG_OCP",{{"CUP_30Rnd_545x39_AK_M",1,30},{"CUP_15Rnd_9x19_M9",1,15},{"CUP_HandGrenade_L109A2_HE",4,1}}},{"B_Carryall_cbr",{}},"H_HelmetB_light_desert","G_Lowprofile",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
     };
 
     class CFP_B_USCIA_paramilitary_officer_assault_02 : CFP_B_USCIA_paramilitary_officer_assault_01 {
