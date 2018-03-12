@@ -693,6 +693,17 @@ class CfgVehicles {
         editorPreview = "\x\cfp\addons\b_uscia\data\preview\CFP_B_USCIA_LSV_02.JPG";
         displayName = "LSV (Special Forces)";
         crew = "CFP_B_USCIA_paramilitary_officer_assault_01";
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_01_black_CO.paa'];_unit setObjectTextureGlobal [1,'\A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_02_black_CO.paa'];_unit setObjectTextureGlobal [2,'\A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_03_black_CO.paa'];_unit setObjectTextureGlobal [3,'\A3\Soft_F_Exp\LSV_01\Data\NATO_LSV_Adds_black_CO.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        ALiVE_orbatCreator_texture = "Black";
     };
 
     class CFP_B_USCIA_SUV_01 : CUP_O_SUV_TKA_OCimport_02 {
