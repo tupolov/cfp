@@ -799,3 +799,4 @@
     ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Afghan National Police Dark Boots)",anp_dark,"AuburnAlumni")
     ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Afghan National Civil Order Police Light Boots)",ancop_light,"AuburnAlumni")
     ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Afghan National Civil Order Police Dark Boots)",ancop_dark,"AuburnAlumni")
+    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Iran Airborne SF)",iran_sf_digital,"AuburnAlumni")

@@ -1397,3 +1397,10 @@
 		uniformClass = "CFP_U_FieldUniform_ancop_dark";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_ancop_dark.paa"};
 	};
+
+	class CFP_FieldUniform_iran_sf_digital : SP_0000_Standard_FieldUniform_GreenOlive
+	{
+		displayName = "Field Uniform (Iran Airborne SF)";
+		uniformClass = "CFP_U_FieldUniform_iran_sf_digital";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_iran_sf_digital.paa"};
+	};

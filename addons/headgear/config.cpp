@@ -68,6 +68,7 @@ class CfgPatches
 			"SP_Beret2_Red",
 			"CFP_Beret2_RedIran",
 			"CFP_Beret2_RedANA",
+			"CFP_Beret2_GreenIranAirborne",
 			"SP_Beret2_Tan",
 			"SP_Beret2_Yellow",
 			"SP_Beret3_Black",

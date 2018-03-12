@@ -315,3 +315,29 @@ class CfgVehicleClasses
 
 		};
 	};
+
+		class CFP_Beret2_GreenIranAirborne: ItemCore
+	{
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "Beret2 (Iran Airborne)";
+		picture = "\x\cfp\addons\headgear\Beret2\ui\Green.jpg";
+		model = "\x\cfp\addons\models\Beret2";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\GreenIranAirborne.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "AuburnAlumni";
+
+
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 15;
+			uniformmodel = "\x\cfp\addons\models\Beret2";
+			modelSides[] = {3,1};
+			armor = 0;
+			passThrough = 0.30;
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\GreenIranAirborne.paa"};
+			hiddenSelections[] = {"Camo"};
+
+		};
+	};
