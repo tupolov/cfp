@@ -701,7 +701,14 @@ class CfgVehicles {
                 "CUP_H_USMC_BOONIE_DES",0.1,
                 "CUP_H_USMC_BOONIE_PRR_DES",0.1
             };
-            ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_M240","","","",{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",100},{},""},{},{},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"FirstAidKit",1}}},{"CUP_V_B_Eagle_SPC_MG",{}},{"CUP_B_USMC_MOLLE_MG",{{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",4,100}}},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+            backpack = "CUP_B_USMC_MOLLE_MG";
+        weapons[] = {"CUP_lmg_M240","Throw","Put"};
+        respawnWeapons[] = {"CUP_lmg_M240","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_Eagle_SPC_MG","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"};
+        respawnLinkedItems[] = {"CUP_V_B_Eagle_SPC_MG","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"};
+        magazines[] = {"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
+        respawnMagazines[] = {"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_M240","","","",{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",100},{},""},{},{},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"FirstAidKit",1}}},{"CUP_V_B_Eagle_SPC_MG",{}},{"CUP_B_USMC_MOLLE_MG",{{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",4,100}}},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
 
 
@@ -709,7 +716,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -749,7 +756,14 @@ class CfgVehicles {
                 "CUP_H_USMC_BOONIE_DES",0.1,
                 "CUP_H_USMC_BOONIE_PRR_DES",0.1
             };
-           ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_M249","","","",{"CUP_200Rnd_TE4_Green_Tracer_556x45_M249",200},{},""},{},{},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_HandGrenade_M67",2,1},{"SmokeShell",2,1}}},{"CUP_V_B_Eagle_SPC_AR",{}},{"CUP_B_USMC_MOLLE_AR",{{"CUP_200Rnd_TE4_Green_Tracer_556x45_M249",3,200}}},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+           backpack = "CUP_B_USMC_MOLLE_AR";
+        weapons[] = {"CUP_lmg_M249","Throw","Put"};
+        respawnWeapons[] = {"CUP_lmg_M249","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_Eagle_SPC_AR","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"};
+        respawnLinkedItems[] = {"CUP_V_B_Eagle_SPC_AR","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"};
+        magazines[] = {"CUP_200Rnd_TE4_Green_Tracer_556x45_M249","CUP_200Rnd_TE4_Green_Tracer_556x45_M249","CUP_200Rnd_TE4_Green_Tracer_556x45_M249"};
+        respawnMagazines[] = {"CUP_200Rnd_TE4_Green_Tracer_556x45_M249","CUP_200Rnd_TE4_Green_Tracer_556x45_M249","CUP_200Rnd_TE4_Green_Tracer_556x45_M249"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_M249","","","",{"CUP_200Rnd_TE4_Green_Tracer_556x45_M249",200},{},""},{},{},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_HandGrenade_M67",2,1},{"SmokeShell",2,1}}},{"CUP_V_B_Eagle_SPC_AR",{}},{"CUP_B_USMC_MOLLE_AR",{{"CUP_200Rnd_TE4_Green_Tracer_556x45_M249",3,200}}},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
 
 
@@ -757,7 +771,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -798,7 +812,14 @@ class CfgVehicles {
                 "CUP_H_USMC_BOONIE_PRR_DES",0.1
             };
 
-           ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1}}},{"CUP_V_B_Eagle_SPC_Empty",{}},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        linkedItems[] = {"CUP_V_B_Eagle_SPC_Empty","","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_B_Eagle_SPC_Empty","","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {};
+        respawnMagazines[] = {};
+        ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1}}},{"CUP_V_B_Eagle_SPC_Empty",{}},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -806,7 +827,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -846,7 +867,14 @@ class CfgVehicles {
                 "CUP_H_USMC_BOONIE_DES",0.1,
                 "CUP_H_USMC_BOONIE_PRR_DES",0.1
             };
-           ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_FIM92Stinger","","","",{"CUP_Stinger_M",1},{},""},{},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"CUP_30Rnd_556x45_Stanag",2,30}}},{"CUP_V_B_Eagle_SPC_Patrol",{{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",2,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+
+        weapons[] = {"CUP_arifle_M16A4_Aim_Laser","CUP_launch_FIM92Stinger","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_Aim_Laser","CUP_launch_FIM92Stinger","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_Eagle_SPC_Patrol","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"};
+        respawnLinkedItems[] = {"CUP_V_B_Eagle_SPC_Patrol","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_Stinger_M"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_Stinger_M"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_FIM92Stinger","","","",{"CUP_Stinger_M",1},{},""},{},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"CUP_30Rnd_556x45_Stanag",2,30}}},{"CUP_V_B_Eagle_SPC_Patrol",{{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",2,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
 
 
@@ -854,7 +882,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -894,7 +922,14 @@ class CfgVehicles {
                 "CUP_H_USMC_BOONIE_DES",0.1,
                 "CUP_H_USMC_BOONIE_PRR_DES",0.1
             };
-           ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_Javelin","","","",{"CUP_Javelin_M",1},{},""},{},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"CUP_30Rnd_556x45_Stanag",2,30}}},{"CUP_V_B_Eagle_SPC_AT",{{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",2,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+
+        weapons[] = {"CUP_arifle_M16A4_Aim_Laser","CUP_launch_Javelin","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_Aim_Laser","CUP_launch_Javelin","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_Eagle_SPC_AT","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"};
+        respawnLinkedItems[] = {"CUP_V_B_Eagle_SPC_AT","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_Javelin_M"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_Javelin_M"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_Javelin","","","",{"CUP_Javelin_M",1},{},""},{},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"CUP_30Rnd_556x45_Stanag",2,30}}},{"CUP_V_B_Eagle_SPC_AT",{{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",2,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
 
 
@@ -902,7 +937,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -942,7 +977,14 @@ class CfgVehicles {
                 "CUP_H_USMC_BOONIE_DES",0.1,
                 "CUP_H_USMC_BOONIE_PRR_DES",0.1
             };
-           ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_Mk153Mod0_SMAWOptics","","","CUP_optic_SMAW_Scope",{"CUP_SMAW_HEAA_M",1},{"CUP_SMAW_Spotting",5},""},{},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"CUP_30Rnd_556x45_Stanag",2,30}}},{"CUP_V_B_Eagle_SPC_AT",{{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",2,1},{"CUP_SMAW_Spotting",1,5}}},{"CUP_B_USMC_AssaultPack_SMAW",{{"CUP_SMAW_HEDP_M",1,1},{"CUP_SMAW_HEAA_M",1,1}}},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+           backpack = "CUP_B_USMC_AssaultPack_SMAW";
+        weapons[] = {"CUP_arifle_M16A4_Aim_Laser","CUP_launch_Mk153Mod0_SMAWOptics","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_Aim_Laser","CUP_launch_Mk153Mod0_SMAWOptics","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_Eagle_SPC_AT","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"};
+        respawnLinkedItems[] = {"CUP_V_B_Eagle_SPC_AT","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_SMAW_HEAA_M"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_SMAW_HEAA_M"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_Mk153Mod0_SMAWOptics","","","CUP_optic_SMAW_Scope",{"CUP_SMAW_HEAA_M",1},{"CUP_SMAW_Spotting",5},""},{},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"CUP_30Rnd_556x45_Stanag",2,30}}},{"CUP_V_B_Eagle_SPC_AT",{{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",2,1},{"CUP_SMAW_Spotting",1,5}}},{"CUP_B_USMC_AssaultPack_SMAW",{{"CUP_SMAW_HEDP_M",1,1},{"CUP_SMAW_HEAA_M",1,1}}},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
 
 
@@ -950,7 +992,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -990,7 +1032,14 @@ class CfgVehicles {
                 "CUP_H_USMC_BOONIE_DES",0.1,
                 "CUP_H_USMC_BOONIE_PRR_DES",0.1
             };
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_M136","","","",{"CUP_M136_M",1},{},""},{},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"CUP_30Rnd_556x45_Stanag",2,30}}},{"CUP_V_B_Eagle_SPC_AT",{{"CUP_30Rnd_556x45_Stanag",2,30},{"CUP_HandGrenade_M67",1,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+
+        weapons[] = {"CUP_arifle_M16A4_Aim_Laser","CUP_launch_M136","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_Aim_Laser","CUP_launch_M136","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_Eagle_SPC_AT","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"};
+        respawnLinkedItems[] = {"CUP_V_B_Eagle_SPC_AT","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_M136_M"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_M136_M"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_M136","","","",{"CUP_M136_M",1},{},""},{},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"CUP_30Rnd_556x45_Stanag",2,30}}},{"CUP_V_B_Eagle_SPC_AT",{{"CUP_30Rnd_556x45_Stanag",2,30},{"CUP_HandGrenade_M67",1,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
 
 
@@ -998,7 +1047,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -1038,7 +1087,14 @@ class CfgVehicles {
                 "CUP_H_USMC_BOONIE_DES",0.1,
                 "CUP_H_USMC_BOONIE_PRR_DES",0.1
             };
-           ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30}}},{"CUP_V_B_Eagle_SPC_Empty",{{"CUP_30Rnd_556x45_Stanag",2,30},{"CUP_7Rnd_45ACP_1911",2,7},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+
+        weapons[] = {"CUP_arifle_M4A1","CUP_hgun_Colt1911","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M4A1","CUP_hgun_Colt1911","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_Eagle_SPC_Empty","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"};
+        respawnLinkedItems[] = {"CUP_V_B_Eagle_SPC_Empty","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30}}},{"CUP_V_B_Eagle_SPC_Empty",{{"CUP_30Rnd_556x45_Stanag",2,30},{"CUP_7Rnd_45ACP_1911",2,7},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
 
 
@@ -1046,7 +1102,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -1086,7 +1142,14 @@ class CfgVehicles {
                 "CUP_H_USMC_BOONIE_DES",0.1,
                 "CUP_H_USMC_BOONIE_PRR_DES",0.1
             };
-           ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_M9","","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_SL",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",2,1},{"SmokeShellRed",1,1},{"SmokeShellGreen",1,1},{"CUP_15Rnd_9x19_M9",3,15}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+
+        weapons[] = {"CUP_arifle_M16A4_Aim_Laser","CUP_hgun_M9","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_Aim_Laser","CUP_hgun_M9","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_Eagle_SPC_SL","CUP_H_USMC_LWH_ESS_DES","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"};
+        respawnLinkedItems[] = {"CUP_V_B_Eagle_SPC_SL","CUP_H_USMC_LWH_ESS_DES","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_M9","","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_SL",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",2,1},{"SmokeShellRed",1,1},{"SmokeShellGreen",1,1},{"CUP_15Rnd_9x19_M9",3,15}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
 
 
@@ -1094,7 +1157,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -1135,7 +1198,14 @@ class CfgVehicles {
                 "CUP_H_USMC_BOONIE_DES",0.1,
                 "CUP_H_USMC_BOONIE_PRR_DES",0.1
             };
-           ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_GL_ACOG_Laser","","CUP_acc_ANPEQ_2","CUP_optic_ACOG",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_1Rnd_HEDP_M203",1},""},{},{},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_TL",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",3,1},{"CUP_1Rnd_HEDP_M203",3,1},{"CUP_1Rnd_Smoke_M203",2,1},{"CUP_1Rnd_SmokeRed_M203",1,1},{"CUP_1Rnd_SmokeGreen_M203",1,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+
+        weapons[] = {"CUP_arifle_M16A4_GL_ACOG_Laser","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_GL_ACOG_Laser","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_Eagle_SPC_TL","CUP_H_USMC_LWH_ESS_DES","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"};
+        respawnLinkedItems[] = {"CUP_V_B_Eagle_SPC_TL","CUP_H_USMC_LWH_ESS_DES","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_GL_ACOG_Laser","","CUP_acc_ANPEQ_2","CUP_optic_ACOG",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_1Rnd_HEDP_M203",1},""},{},{},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_TL",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",3,1},{"CUP_1Rnd_HEDP_M203",3,1},{"CUP_1Rnd_Smoke_M203",2,1},{"CUP_1Rnd_SmokeRed_M203",1,1},{"CUP_1Rnd_SmokeGreen_M203",1,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
 
 
@@ -1143,7 +1213,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -1183,7 +1253,14 @@ class CfgVehicles {
                 "CUP_H_USMC_BOONIE_DES",0.1,
                 "CUP_H_USMC_BOONIE_PRR_DES",0.1
             };
-           ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_Aim","","","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"SmokeShell",1,1}}},{"CUP_V_B_Eagle_SPC_Corpsman",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_B_USMC_AssaultPack_Medic",{{"Medikit",1},{"FirstAidKit",10}}},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+           backpack = "CUP_B_USMC_AssaultPack_Medic";
+        weapons[] = {"CUP_arifle_M4A1_Aim","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M4A1_Aim","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_Eagle_SPC_Corpsman","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"};
+        respawnLinkedItems[] = {"CUP_V_B_Eagle_SPC_Corpsman","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_Aim","","","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"SmokeShell",1,1}}},{"CUP_V_B_Eagle_SPC_Corpsman",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_B_USMC_AssaultPack_Medic",{{"Medikit",1},{"FirstAidKit",10}}},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
 
 
@@ -1191,7 +1268,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -1231,7 +1308,14 @@ class CfgVehicles {
                 "CUP_H_USMC_BOONIE_DES",0.1,
                 "CUP_H_USMC_BOONIE_PRR_DES",0.1
             };
-           ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_RTO",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",3,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+
+        weapons[] = {"CUP_arifle_M16A4_Aim_Laser","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_Aim_Laser","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_Eagle_SPC_RTO","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"};
+        respawnLinkedItems[] = {"CUP_V_B_Eagle_SPC_RTO","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_RTO",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",3,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
 
 
@@ -1239,7 +1323,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -1279,7 +1363,14 @@ class CfgVehicles {
                 "CUP_H_USMC_BOONIE_DES",0.1,
                 "CUP_H_USMC_BOONIE_PRR_DES",0.1
             };
-           ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_Aim","","","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG1_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"SmokeShell",1,1}}},{"CUP_V_B_Eagle_SPC_Scout",{{"CUP_30Rnd_556x45_Stanag",6,30},{"CUP_15Rnd_9x19_M9",3,15},{"SmokeShellPurple",1,1},{"SmokeShellYellow",1,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"CUP_SOFLAM","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+
+        weapons[] = {"CUP_arifle_M4A1_Aim","CUP_hgun_M9_snds","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M4A1_Aim","CUP_hgun_M9_snds","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_Eagle_SPC_Scout","CUP_H_USMC_LWH_ESS_DES","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"};
+        respawnLinkedItems[] = {"CUP_V_B_Eagle_SPC_Scout","CUP_H_USMC_LWH_ESS_DES","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","Laserbatteries"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","Laserbatteries"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_Aim","","","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG1_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"SmokeShell",1,1}}},{"CUP_V_B_Eagle_SPC_Scout",{{"CUP_30Rnd_556x45_Stanag",6,30},{"CUP_15Rnd_9x19_M9",3,15},{"SmokeShellPurple",1,1},{"SmokeShellYellow",1,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"CUP_SOFLAM","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
 
 
@@ -1287,7 +1378,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -1327,7 +1418,14 @@ class CfgVehicles {
                 "CUP_H_USMC_BOONIE_DES",0.1,
                 "CUP_H_USMC_BOONIE_PRR_DES",0.1
             };
-           ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_GL_ACOG_Laser","","CUP_acc_ANPEQ_2","CUP_optic_ACOG",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_1Rnd_HEDP_M203",1},""},{},{},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_1Rnd_HEDP_M203",1,1}}},{"CUP_V_B_Eagle_SPC_GL",{{"CUP_30Rnd_556x45_Stanag",6,30},{"CUP_1Rnd_HEDP_M203",6,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+
+        weapons[] = {"CUP_arifle_M16A4_GL_ACOG_Laser","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_GL_ACOG_Laser","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_Eagle_SPC_GL","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"};
+        respawnLinkedItems[] = {"CUP_V_B_Eagle_SPC_GL","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_GL_ACOG_Laser","","CUP_acc_ANPEQ_2","CUP_optic_ACOG",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_1Rnd_HEDP_M203",1},""},{},{},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_1Rnd_HEDP_M203",1,1}}},{"CUP_V_B_Eagle_SPC_GL",{{"CUP_30Rnd_556x45_Stanag",6,30},{"CUP_1Rnd_HEDP_M203",6,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
 
 
@@ -1335,7 +1433,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -1375,7 +1473,14 @@ class CfgVehicles {
                 "CUP_H_USMC_BOONIE_DES",0.1,
                 "CUP_H_USMC_BOONIE_PRR_DES",0.1
             };
-           ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_Aim","","","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_Corpsman",{{"CUP_30Rnd_556x45_Stanag",4,30},{"SmokeShell",1,1}}},{"CUP_B_USMC_MOLLE_Exp",{{"ToolKit",1},{"MineDetector",1},{"CUP_Mine_M",2,1}}},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+           backpack = "CUP_B_USMC_MOLLE_Exp";
+        weapons[] = {"CUP_arifle_M4A1_Aim","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M4A1_Aim","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_Eagle_SPC_Corpsman","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"};
+        respawnLinkedItems[] = {"CUP_V_B_Eagle_SPC_Corpsman","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_Aim","","","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_Corpsman",{{"CUP_30Rnd_556x45_Stanag",4,30},{"SmokeShell",1,1}}},{"CUP_B_USMC_MOLLE_Exp",{{"ToolKit",1},{"MineDetector",1},{"CUP_Mine_M",2,1}}},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
 
 
@@ -1383,7 +1488,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -1423,7 +1528,14 @@ class CfgVehicles {
                 "CUP_H_USMC_BOONIE_DES",0.1,
                 "CUP_H_USMC_BOONIE_PRR_DES",0.1
             };
-           ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_DMR_LeupoldMk4","","","CUP_optic_LeupoldMk4",{"CUP_20Rnd_762x51_DMR",20},{},"CUP_bipod_Harris_1A2_L"},{},{},{"CUP_U_B_USMC_FROG1_DMARPAT",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_DMR",1,20},{"SmokeShell",1,1}}},{"CUP_V_B_Eagle_SPC_DMR",{{"CUP_20Rnd_762x51_DMR",6,20},{"CUP_HandGrenade_M67",2,1},{"SmokeShellRed",1,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+
+        weapons[] = {"CUP_srifle_DMR_LeupoldMk4","Throw","Put"};
+        respawnWeapons[] = {"CUP_srifle_DMR_LeupoldMk4","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_Eagle_SPC_DMR","CUP_H_USMC_LWH_ESS_DES","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"};
+        respawnLinkedItems[] = {"CUP_V_B_Eagle_SPC_DMR","CUP_H_USMC_LWH_ESS_DES","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"};
+        magazines[] = {"CUP_20Rnd_762x51_DMR","CUP_20Rnd_762x51_DMR","CUP_20Rnd_762x51_DMR"};
+        respawnMagazines[] = {"CUP_20Rnd_762x51_DMR","CUP_20Rnd_762x51_DMR","CUP_20Rnd_762x51_DMR"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_DMR_LeupoldMk4","","","CUP_optic_LeupoldMk4",{"CUP_20Rnd_762x51_DMR",20},{},"CUP_bipod_Harris_1A2_L"},{},{},{"CUP_U_B_USMC_FROG1_DMARPAT",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_DMR",1,20},{"SmokeShell",1,1}}},{"CUP_V_B_Eagle_SPC_DMR",{{"CUP_20Rnd_762x51_DMR",6,20},{"CUP_HandGrenade_M67",2,1},{"SmokeShellRed",1,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
 
 
@@ -1431,7 +1543,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -1471,7 +1583,14 @@ class CfgVehicles {
                 "CUP_H_USMC_BOONIE_DES",0.1,
                 "CUP_H_USMC_BOONIE_PRR_DES",0.1
             };
-           ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_USMC_FROG1_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30}}},{"CUP_V_B_Eagle_SPC_Officer",{{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_7Rnd_45ACP_1911",3,7}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+
+        weapons[] = {"CUP_arifle_M4A1","CUP_hgun_Colt1911","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M4A1","CUP_hgun_Colt1911","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_Eagle_SPC_Officer","CUP_H_USMC_LWH_ESS_DES","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"};
+        respawnLinkedItems[] = {"CUP_V_B_Eagle_SPC_Officer","CUP_H_USMC_LWH_ESS_DES","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_USMC_FROG1_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30}}},{"CUP_V_B_Eagle_SPC_Officer",{{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_7Rnd_45ACP_1911",3,7}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
 
 
@@ -1479,7 +1598,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -1519,7 +1638,14 @@ class CfgVehicles {
                 "CUP_H_USMC_BOONIE_DES",0.1,
                 "CUP_H_USMC_BOONIE_PRR_DES",0.1
             };
-           ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_Officer",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",3,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","B_UavTerminal","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+
+        weapons[] = {"CUP_arifle_M16A4_Aim_Laser","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_Aim_Laser","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_Eagle_SPC_Officer","CUP_H_USMC_LWH_ESS_DES","ItemMap","B_UavTerminal","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"};
+        respawnLinkedItems[] = {"CUP_V_B_Eagle_SPC_Officer","CUP_H_USMC_LWH_ESS_DES","ItemMap","B_UavTerminal","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_Officer",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",3,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","B_UavTerminal","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
 
 
@@ -1527,7 +1653,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -1567,7 +1693,14 @@ class CfgVehicles {
                 "CUP_H_USMC_BOONIE_DES",0.1,
                 "CUP_H_USMC_BOONIE_PRR_DES",0.1
             };
-           ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_Rifleman",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",3,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+
+        weapons[] = {"CUP_arifle_M16A4_Aim_Laser","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_Aim_Laser","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_Eagle_SPC_Rifleman","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"};
+        respawnLinkedItems[] = {"CUP_V_B_Eagle_SPC_Rifleman","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_Rifleman",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",3,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
 
 
@@ -1575,7 +1708,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -1623,13 +1756,20 @@ class CfgVehicles {
                 "G_Bandanna_Tan", 0.2
             };
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_Mk48_des_Aim_Laser","","CUP_acc_ANPEQ_2_desert","CUP_optic_CompM2_Desert",{},{},""},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_HandGrenade_M67",2,1},{"SmokeShell",2,1}}},{"CUP_V_B_Eagle_SPC_MG",{{"CUP_15Rnd_9x19_M9",3,15}}},{"CUP_B_FR_MOLLE_MG",{{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",4,100}}},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+            backpack = "CUP_B_FR_MOLLE_MG";
+        weapons[] = {"CUP_lmg_Mk48_des_Aim_Laser","CUP_hgun_M9_snds","Throw","Put"};
+        respawnWeapons[] = {"CUP_lmg_Mk48_des_Aim_Laser","CUP_hgun_M9_snds","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_Eagle_SPC_MG","CUP_H_USMC_LWH_ESS_DES","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_B_Eagle_SPC_MG","CUP_H_USMC_LWH_ESS_DES","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
+        respawnMagazines[] = {"CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_Mk48_des_Aim_Laser","","CUP_acc_ANPEQ_2_desert","CUP_optic_CompM2_Desert",{},{},""},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_HandGrenade_M67",2,1},{"SmokeShell",2,1}}},{"CUP_V_B_Eagle_SPC_MG",{{"CUP_15Rnd_9x19_M9",3,15}}},{"CUP_B_FR_MOLLE_MG",{{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",4,100}}},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
             class EventHandlers : EventHandlers {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -1676,7 +1816,14 @@ class CfgVehicles {
                 "G_Bandanna_Tan", 0.2
             };
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_Aim","","","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG1_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},{"CUP_V_B_Eagle_SPC_Corpsman",{{"CUP_30Rnd_556x45_Stanag",4,30},{"SmokeShellGreen",1,1},{"CUP_15Rnd_9x19_M9",3,15}}},{"CUP_B_USMC_AssaultPack_Medic",{{"Medikit",1},{"FirstAidKit",10}}},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+            backpack = "CUP_B_USMC_AssaultPack_Medic";
+        weapons[] = {"CUP_arifle_M4A1_Aim","CUP_hgun_M9_snds","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M4A1_Aim","CUP_hgun_M9_snds","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_Eagle_SPC_Corpsman","CUP_H_USMC_LWH_ESS_DES","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_B_Eagle_SPC_Corpsman","CUP_H_USMC_LWH_ESS_DES","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_Aim","","","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG1_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},{"CUP_V_B_Eagle_SPC_Corpsman",{{"CUP_30Rnd_556x45_Stanag",4,30},{"SmokeShellGreen",1,1},{"CUP_15Rnd_9x19_M9",3,15}}},{"CUP_B_USMC_AssaultPack_Medic",{{"Medikit",1},{"FirstAidKit",10}}},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -1684,7 +1831,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -1731,7 +1878,14 @@ class CfgVehicles {
                 "G_Bandanna_Tan", 0.2
             };
 
-            ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_U_B_USMC_FROG1_DMARPAT",{{"FirstAidKit",1}}},{"CUP_V_B_Eagle_SPC_Empty",{}},{},"H_Bandanna_sand","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        linkedItems[] = {"CUP_V_B_Eagle_SPC_Empty","H_Bandanna_sand","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_B_Eagle_SPC_Empty","H_Bandanna_sand","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {};
+        respawnMagazines[] = {};
+        ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_U_B_USMC_FROG1_DMARPAT",{{"FirstAidKit",1}}},{"CUP_V_B_Eagle_SPC_Empty",{}},{},"H_Bandanna_sand","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -1739,7 +1893,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -1786,7 +1940,14 @@ class CfgVehicles {
                 "G_Bandanna_Tan", 0.2
             };
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_GL_Holo_Flashlight","","CUP_acc_Flashlight","CUP_optic_HoloBlack",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_1Rnd_HEDP_M203",1},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_GL",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"SmokeShellPurple",1,1},{"CUP_1Rnd_HEDP_M203",4,1},{"CUP_1Rnd_Smoke_M203",1,1},{"CUP_7Rnd_45ACP_1911",1,7}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+        weapons[] = {"CUP_arifle_M4A1_GL_Holo_Flashlight","CUP_hgun_Colt1911","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M4A1_GL_Holo_Flashlight","CUP_hgun_Colt1911","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_Eagle_SPC_GL","CUP_H_USMC_LWH_ESS_DES","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_B_Eagle_SPC_GL","CUP_H_USMC_LWH_ESS_DES","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_GL_Holo_Flashlight","","CUP_acc_Flashlight","CUP_optic_HoloBlack",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_1Rnd_HEDP_M203",1},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_GL",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"SmokeShellPurple",1,1},{"CUP_1Rnd_HEDP_M203",4,1},{"CUP_1Rnd_Smoke_M203",1,1},{"CUP_7Rnd_45ACP_1911",1,7}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -1794,7 +1955,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -1841,7 +2002,14 @@ class CfgVehicles {
                 "G_Bandanna_Tan", 0.2
             };
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_Aim","","","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_SL",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"SmokeShellPurple",1,1},{"CUP_7Rnd_45ACP_1911",3,7}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+        weapons[] = {"CUP_arifle_M4A1_Aim","CUP_hgun_Colt1911","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M4A1_Aim","CUP_hgun_Colt1911","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_Eagle_SPC_SL","CUP_H_USMC_LWH_ESS_DES","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_B_Eagle_SPC_SL","CUP_H_USMC_LWH_ESS_DES","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_Aim","","","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_SL",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"SmokeShellPurple",1,1},{"CUP_7Rnd_45ACP_1911",3,7}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -1849,7 +2017,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -1896,7 +2064,14 @@ class CfgVehicles {
                 "G_Bandanna_Tan", 0.2
             };
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_camo_GL_Holo_Flashlight_Snds","CUP_muzzle_snds_M16_camo","CUP_acc_Flashlight_wdl","CUP_optic_HoloWdl",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_1Rnd_HEDP_M203",1},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"SmokeShell",2,1}}},{"CUP_V_B_Eagle_SPC_Patrol",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_1Rnd_HEDP_M203",3,1},{"CUP_FlareRed_M203",1,1},{"CUP_FlareGreen_M203",1,1},{"CUP_7Rnd_45ACP_1911",1,7}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"CUP_SOFLAM","","","",{"Laserbatteries",1},{},""},{"ItemMap","B_UavTerminal","ItemRadio","ItemCompass","ItemWatch",""}};
+
+        weapons[] = {"CUP_arifle_M4A1_camo_GL_Holo_Flashlight_Snds","CUP_hgun_Colt1911","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M4A1_camo_GL_Holo_Flashlight_Snds","CUP_hgun_Colt1911","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_Eagle_SPC_Patrol","CUP_H_USMC_LWH_ESS_DES","ItemMap","B_UavTerminal","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_B_Eagle_SPC_Patrol","CUP_H_USMC_LWH_ESS_DES","ItemMap","B_UavTerminal","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","Laserbatteries"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","Laserbatteries"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_camo_GL_Holo_Flashlight_Snds","CUP_muzzle_snds_M16_camo","CUP_acc_Flashlight_wdl","CUP_optic_HoloWdl",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_1Rnd_HEDP_M203",1},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"SmokeShell",2,1}}},{"CUP_V_B_Eagle_SPC_Patrol",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_1Rnd_HEDP_M203",3,1},{"CUP_FlareRed_M203",1,1},{"CUP_FlareGreen_M203",1,1},{"CUP_7Rnd_45ACP_1911",1,7}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"CUP_SOFLAM","","","",{"Laserbatteries",1},{},""},{"ItemMap","B_UavTerminal","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -1904,7 +2079,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -1951,7 +2126,14 @@ class CfgVehicles {
                 "G_Bandanna_Tan", 0.2
             };
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_camo_GL_Holo_Flashlight_Snds","CUP_muzzle_snds_M16_camo","CUP_acc_Flashlight_wdl","CUP_optic_HoloWdl",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_1Rnd_HEDP_M203",1},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"SmokeShell",2,1}}},{"CUP_V_B_Eagle_SPC_RTO",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_1Rnd_HEDP_M203",3,1},{"CUP_FlareRed_M203",1,1},{"CUP_FlareGreen_M203",1,1},{"CUP_7Rnd_45ACP_1911",1,7}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"CUP_SOFLAM","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+        weapons[] = {"CUP_arifle_M4A1_camo_GL_Holo_Flashlight_Snds","CUP_hgun_Colt1911","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M4A1_camo_GL_Holo_Flashlight_Snds","CUP_hgun_Colt1911","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_Eagle_SPC_RTO","CUP_H_USMC_LWH_ESS_DES","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_B_Eagle_SPC_RTO","CUP_H_USMC_LWH_ESS_DES","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","Laserbatteries"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","Laserbatteries"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_camo_GL_Holo_Flashlight_Snds","CUP_muzzle_snds_M16_camo","CUP_acc_Flashlight_wdl","CUP_optic_HoloWdl",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_1Rnd_HEDP_M203",1},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"SmokeShell",2,1}}},{"CUP_V_B_Eagle_SPC_RTO",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_1Rnd_HEDP_M203",3,1},{"CUP_FlareRed_M203",1,1},{"CUP_FlareGreen_M203",1,1},{"CUP_7Rnd_45ACP_1911",1,7}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"CUP_SOFLAM","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -1959,7 +2141,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -2006,7 +2188,14 @@ class CfgVehicles {
                 "G_Bandanna_Tan", 0.2
             };
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_Aim","","","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30}}},{"CUP_V_B_Eagle_SPC_Rifleman",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_PipeBomb_M",1,1},{"CUP_15Rnd_9x19_M9",3,15}}},{"CUP_B_FR_MOLLE_Sab",{{"ToolKit",1},{"MineDetector",1},{"CUP_PipeBomb_M",2,1}}},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+            backpack = "CUP_B_FR_MOLLE_Sab";
+        weapons[] = {"CUP_arifle_M4A1_Aim","CUP_hgun_M9_snds","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M4A1_Aim","CUP_hgun_M9_snds","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_Eagle_SPC_Rifleman","CUP_H_USMC_LWH_ESS_DES","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_B_Eagle_SPC_Rifleman","CUP_H_USMC_LWH_ESS_DES","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_Aim","","","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30}}},{"CUP_V_B_Eagle_SPC_Rifleman",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_PipeBomb_M",1,1},{"CUP_15Rnd_9x19_M9",3,15}}},{"CUP_B_FR_MOLLE_Sab",{{"ToolKit",1},{"MineDetector",1},{"CUP_PipeBomb_M",2,1}}},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -2014,7 +2203,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -2061,7 +2250,14 @@ class CfgVehicles {
                 "G_Bandanna_Tan", 0.2
             };
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_GL_Holo_Flashlight","","CUP_acc_Flashlight","CUP_optic_HoloBlack",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_1Rnd_HEDP_M203",1},""},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG1_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_1Rnd_HEDP_M203",1,1}}},{"CUP_V_B_Eagle_SPC_GL",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_1Rnd_HEDP_M203",6,1},{"CUP_15Rnd_9x19_M9",1,15}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+        weapons[] = {"CUP_arifle_M4A1_GL_Holo_Flashlight","CUP_hgun_M9_snds","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M4A1_GL_Holo_Flashlight","CUP_hgun_M9_snds","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_Eagle_SPC_GL","CUP_H_USMC_LWH_ESS_DES","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_B_Eagle_SPC_GL","CUP_H_USMC_LWH_ESS_DES","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_GL_Holo_Flashlight","","CUP_acc_Flashlight","CUP_optic_HoloBlack",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_1Rnd_HEDP_M203",1},""},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG1_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_1Rnd_HEDP_M203",1,1}}},{"CUP_V_B_Eagle_SPC_GL",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_1Rnd_HEDP_M203",6,1},{"CUP_15Rnd_9x19_M9",1,15}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -2069,7 +2265,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -2116,7 +2312,14 @@ class CfgVehicles {
                 "G_Bandanna_Tan", 0.2
             };
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_DMR_LeupoldMk4","","","CUP_optic_LeupoldMk4",{"CUP_20Rnd_762x51_DMR",20},{},"CUP_bipod_Harris_1A2_L"},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_DMR",1,20},{"SmokeShell",1,1}}},{"CUP_V_B_Eagle_SPC_DMR",{{"CUP_20Rnd_762x51_DMR",4,20},{"CUP_15Rnd_9x19_M9",3,15},{"CUP_HandGrenade_M67",1,1},{"SmokeShellYellow",1,1},{"SmokeShellPurple",1,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+        weapons[] = {"CUP_srifle_DMR_LeupoldMk4","CUP_hgun_M9_snds","Throw","Put"};
+        respawnWeapons[] = {"CUP_srifle_DMR_LeupoldMk4","CUP_hgun_M9_snds","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_Eagle_SPC_DMR","CUP_H_USMC_LWH_ESS_DES","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_B_Eagle_SPC_DMR","CUP_H_USMC_LWH_ESS_DES","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_20Rnd_762x51_DMR","CUP_20Rnd_762x51_DMR","CUP_20Rnd_762x51_DMR","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
+        respawnMagazines[] = {"CUP_20Rnd_762x51_DMR","CUP_20Rnd_762x51_DMR","CUP_20Rnd_762x51_DMR","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_DMR_LeupoldMk4","","","CUP_optic_LeupoldMk4",{"CUP_20Rnd_762x51_DMR",20},{},"CUP_bipod_Harris_1A2_L"},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_DMR",1,20},{"SmokeShell",1,1}}},{"CUP_V_B_Eagle_SPC_DMR",{{"CUP_20Rnd_762x51_DMR",4,20},{"CUP_15Rnd_9x19_M9",3,15},{"CUP_HandGrenade_M67",1,1},{"SmokeShellYellow",1,1},{"SmokeShellPurple",1,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -2124,7 +2327,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -2171,7 +2374,14 @@ class CfgVehicles {
                 "G_Bandanna_Tan", 0.2
             };
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_camo_AIM_snds","CUP_muzzle_snds_M16_camo","","CUP_optic_CompM2_Woodland",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_USMC_FROG1_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_Patrol",{{"CUP_30Rnd_556x45_Stanag",4,30},{"SmokeShell",1,1},{"CUP_7Rnd_45ACP_1911",3,7}}},{"CUP_B_FR_MOLLE_Sab",{{"ToolKit",1},{"MineDetector",1},{"CUP_PipeBomb_M",2,1}}},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+            backpack = "CUP_B_FR_MOLLE_Sab";
+        weapons[] = {"CUP_arifle_M4A1_camo_AIM_snds","CUP_hgun_Colt1911","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M4A1_camo_AIM_snds","CUP_hgun_Colt1911","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_Eagle_SPC_Patrol","CUP_H_USMC_LWH_ESS_DES","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_B_Eagle_SPC_Patrol","CUP_H_USMC_LWH_ESS_DES","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_camo_AIM_snds","CUP_muzzle_snds_M16_camo","","CUP_optic_CompM2_Woodland",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_USMC_FROG1_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_Patrol",{{"CUP_30Rnd_556x45_Stanag",4,30},{"SmokeShell",1,1},{"CUP_7Rnd_45ACP_1911",3,7}}},{"CUP_B_FR_MOLLE_Sab",{{"ToolKit",1},{"MineDetector",1},{"CUP_PipeBomb_M",2,1}}},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -2179,7 +2389,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -2226,7 +2436,14 @@ class CfgVehicles {
                 "G_Bandanna_Tan", 0.2
             };
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_Aim","","","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_M9","","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},{"CUP_V_B_Eagle_SPC_Officer",{{"CUP_30Rnd_556x45_Stanag",4,30},{"SmokeShellPurple",1,1},{"SmokeShellYellow",1,1},{"CUP_15Rnd_9x19_M9",3,15}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+        weapons[] = {"CUP_arifle_M4A1_Aim","CUP_hgun_M9","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M4A1_Aim","CUP_hgun_M9","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_Eagle_SPC_Officer","CUP_H_USMC_LWH_ESS_DES","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_B_Eagle_SPC_Officer","CUP_H_USMC_LWH_ESS_DES","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_Aim","","","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_M9","","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},{"CUP_V_B_Eagle_SPC_Officer",{{"CUP_30Rnd_556x45_Stanag",4,30},{"SmokeShellPurple",1,1},{"SmokeShellYellow",1,1},{"CUP_15Rnd_9x19_M9",3,15}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -2234,7 +2451,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -2281,7 +2498,14 @@ class CfgVehicles {
                 "G_Bandanna_Tan", 0.2
             };
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A3_desert_GL_ACOG_Laser","","CUP_acc_ANPEQ_2_desert","CUP_optic_RCO_desert",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_FlareWhite_M203",1},""},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_Scout",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",2,1},{"CUP_1Rnd_SmokeRed_M203",1,1},{"CUP_1Rnd_SmokeGreen_M203",1,1},{"CUP_FlareGreen_M203",1,1},{"CUP_15Rnd_9x19_M9",3,15}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+        weapons[] = {"CUP_arifle_M4A3_desert_GL_ACOG_Laser","CUP_hgun_M9_snds","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M4A3_desert_GL_ACOG_Laser","CUP_hgun_M9_snds","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_Eagle_SPC_Scout","CUP_H_USMC_LWH_ESS_DES","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_B_Eagle_SPC_Scout","CUP_H_USMC_LWH_ESS_DES","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_FlareWhite_M203","CUP_FlareWhite_M203","CUP_FlareWhite_M203","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_FlareWhite_M203","CUP_FlareWhite_M203","CUP_FlareWhite_M203","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A3_desert_GL_ACOG_Laser","","CUP_acc_ANPEQ_2_desert","CUP_optic_RCO_desert",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_FlareWhite_M203",1},""},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_Scout",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",2,1},{"CUP_1Rnd_SmokeRed_M203",1,1},{"CUP_1Rnd_SmokeGreen_M203",1,1},{"CUP_FlareGreen_M203",1,1},{"CUP_15Rnd_9x19_M9",3,15}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -2289,7 +2513,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -2326,7 +2550,14 @@ class CfgVehicles {
                 "G_Bandanna_Tan", 0.2
             };
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_Mk48_des_Aim_Laser","","CUP_acc_ANPEQ_2_desert","CUP_optic_CompM2_Desert",{},{},""},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"FirstAidKit",1},{"CUP_15Rnd_9x19_M9",3,15}}},{"CUP_V_B_Eagle_SPC_MG",{}},{"CUP_B_FR_MOLLE_MG",{{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",4,100}}},"CUP_H_PMC_Cap_Back_PRR_Tan","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+            backpack = "CUP_B_FR_MOLLE_MG";
+        weapons[] = {"CUP_lmg_Mk48_des_Aim_Laser","CUP_hgun_M9_snds","Throw","Put"};
+        respawnWeapons[] = {"CUP_lmg_Mk48_des_Aim_Laser","CUP_hgun_M9_snds","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_Eagle_SPC_MG","CUP_H_PMC_Cap_Back_PRR_Tan","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_B_Eagle_SPC_MG","CUP_H_PMC_Cap_Back_PRR_Tan","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
+        respawnMagazines[] = {"CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_Mk48_des_Aim_Laser","","CUP_acc_ANPEQ_2_desert","CUP_optic_CompM2_Desert",{},{},""},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"FirstAidKit",1},{"CUP_15Rnd_9x19_M9",3,15}}},{"CUP_V_B_Eagle_SPC_MG",{}},{"CUP_B_FR_MOLLE_MG",{{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",4,100}}},"CUP_H_PMC_Cap_Back_PRR_Tan","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -2334,7 +2565,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -2371,7 +2602,14 @@ class CfgVehicles {
                 "G_Bandanna_Tan", 0.2
             };
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_Aim","","","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG1_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_Corpsman",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShellRed",1,1},{"SmokeShellGreen",1,1},{"CUP_15Rnd_9x19_M9",3,15}}},{"CUP_B_USMC_AssaultPack_Medic",{{"Medikit",1},{"FirstAidKit",10}}},"CUP_H_FR_Headband_Headset","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+            backpack = "CUP_B_USMC_AssaultPack_Medic";
+        weapons[] = {"CUP_arifle_M4A1_Aim","CUP_hgun_M9_snds","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M4A1_Aim","CUP_hgun_M9_snds","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_Eagle_SPC_Corpsman","CUP_H_FR_Headband_Headset","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_B_Eagle_SPC_Corpsman","CUP_H_FR_Headband_Headset","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_Aim","","","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG1_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_Corpsman",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShellRed",1,1},{"SmokeShellGreen",1,1},{"CUP_15Rnd_9x19_M9",3,15}}},{"CUP_B_USMC_AssaultPack_Medic",{{"Medikit",1},{"FirstAidKit",10}}},"CUP_H_FR_Headband_Headset","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -2379,7 +2617,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -2416,7 +2654,14 @@ class CfgVehicles {
                 "G_Bandanna_Tan", 0.2
             };
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_DMR_LeupoldMk4","","","CUP_optic_LeupoldMk4",{"CUP_20Rnd_762x51_DMR",20},{},"CUP_bipod_Harris_1A2_L"},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_DMR",1,20},{"SmokeShell",1,1}}},{"CUP_V_B_Eagle_SPC_DMR",{{"CUP_20Rnd_762x51_DMR",4,20},{"CUP_15Rnd_9x19_M9",3,15},{"CUP_HandGrenade_M67",1,1},{"SmokeShellYellow",1,1},{"SmokeShellPurple",1,1}}},{},"H_Bandanna_sand","CUP_FR_NeckScarf2",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+        weapons[] = {"CUP_srifle_DMR_LeupoldMk4","CUP_hgun_M9_snds","Throw","Put"};
+        respawnWeapons[] = {"CUP_srifle_DMR_LeupoldMk4","CUP_hgun_M9_snds","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_Eagle_SPC_DMR","H_Bandanna_sand","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_B_Eagle_SPC_DMR","H_Bandanna_sand","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_20Rnd_762x51_DMR","CUP_20Rnd_762x51_DMR","CUP_20Rnd_762x51_DMR","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
+        respawnMagazines[] = {"CUP_20Rnd_762x51_DMR","CUP_20Rnd_762x51_DMR","CUP_20Rnd_762x51_DMR","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_DMR_LeupoldMk4","","","CUP_optic_LeupoldMk4",{"CUP_20Rnd_762x51_DMR",20},{},"CUP_bipod_Harris_1A2_L"},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_DMR",1,20},{"SmokeShell",1,1}}},{"CUP_V_B_Eagle_SPC_DMR",{{"CUP_20Rnd_762x51_DMR",4,20},{"CUP_15Rnd_9x19_M9",3,15},{"CUP_HandGrenade_M67",1,1},{"SmokeShellYellow",1,1},{"SmokeShellPurple",1,1}}},{},"H_Bandanna_sand","CUP_FR_NeckScarf2",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -2424,7 +2669,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -2462,7 +2707,14 @@ class CfgVehicles {
                 "G_Bandanna_Tan", 0.2
             };
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_GL_Holo_Flashlight","","CUP_acc_Flashlight","CUP_optic_HoloBlack",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_1Rnd_HEDP_M203",1},""},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},{"CUP_V_B_Eagle_SPC_TL",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_1Rnd_HEDP_M203",5,1},{"CUP_15Rnd_9x19_M9",1,15}}},{},"H_Cap_tan","CUP_FR_NeckScarf2",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+        weapons[] = {"CUP_arifle_M4A1_GL_Holo_Flashlight","CUP_hgun_M9_snds","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M4A1_GL_Holo_Flashlight","CUP_hgun_M9_snds","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_Eagle_SPC_TL","H_Cap_tan","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_B_Eagle_SPC_TL","H_Cap_tan","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_GL_Holo_Flashlight","","CUP_acc_Flashlight","CUP_optic_HoloBlack",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_1Rnd_HEDP_M203",1},""},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG3_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},{"CUP_V_B_Eagle_SPC_TL",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_1Rnd_HEDP_M203",5,1},{"CUP_15Rnd_9x19_M9",1,15}}},{},"H_Cap_tan","CUP_FR_NeckScarf2",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -2470,7 +2722,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -2507,7 +2759,14 @@ class CfgVehicles {
                 "G_Bandanna_Tan", 0.2
             };
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_GL_Holo_Flashlight","","CUP_acc_Flashlight","CUP_optic_HoloBlack",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_FlareGreen_M203",1},""},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_GL",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",2,1},{"CUP_1Rnd_SmokeRed_M203",1,1},{"CUP_1Rnd_SmokeGreen_M203",1,1},{"CUP_FlareRed_M203",1,1},{"CUP_15Rnd_9x19_M9",3,15}}},{},"CUP_H_USMC_LWH_ESS_DES","CUP_FR_NeckScarf2",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+        weapons[] = {"CUP_arifle_M4A1_GL_Holo_Flashlight","CUP_hgun_M9_snds","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M4A1_GL_Holo_Flashlight","CUP_hgun_M9_snds","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_Eagle_SPC_GL","CUP_H_USMC_LWH_ESS_DES","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_B_Eagle_SPC_GL","CUP_H_USMC_LWH_ESS_DES","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_FlareGreen_M203","CUP_FlareGreen_M203","CUP_FlareGreen_M203","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_FlareGreen_M203","CUP_FlareGreen_M203","CUP_FlareGreen_M203","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_GL_Holo_Flashlight","","CUP_acc_Flashlight","CUP_optic_HoloBlack",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_FlareGreen_M203",1},""},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USMC_FROG2_DMARPAT",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_Eagle_SPC_GL",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",2,1},{"CUP_1Rnd_SmokeRed_M203",1,1},{"CUP_1Rnd_SmokeGreen_M203",1,1},{"CUP_FlareRed_M203",1,1},{"CUP_15Rnd_9x19_M9",3,15}}},{},"CUP_H_USMC_LWH_ESS_DES","CUP_FR_NeckScarf2",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -2515,7 +2774,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -4581,7 +4840,14 @@ class CfgVehicles {
                 "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_MTV_Patrol",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",3,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+
+        weapons[] = {"CUP_arifle_M16A4_Aim_Laser","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_Aim_Laser","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_MTV_Patrol","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        respawnLinkedItems[] = {"CUP_V_B_MTV_Patrol","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_MTV_Patrol",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",3,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
 
 
@@ -4589,7 +4855,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -4644,7 +4910,14 @@ class CfgVehicles {
                 "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_MTV_Patrol",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",3,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","B_UavTerminal","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+
+        weapons[] = {"CUP_arifle_M16A4_Aim_Laser","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_Aim_Laser","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_MTV_Patrol","CUP_H_USMC_LWH_ESS_DES","ItemMap","B_UavTerminal","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        respawnLinkedItems[] = {"CUP_V_B_MTV_Patrol","CUP_H_USMC_LWH_ESS_DES","ItemMap","B_UavTerminal","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_MTV_Patrol",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",3,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","B_UavTerminal","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
 
 
@@ -4652,7 +4925,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -4707,7 +4980,14 @@ class CfgVehicles {
                 "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
 
-            ALiVE_orbatCreator_loadout[] = {{},{},{},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1}}},{"CUP_V_B_MTV",{}},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        linkedItems[] = {"CUP_V_B_MTV","","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_B_MTV","","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {};
+        respawnMagazines[] = {};
+        ALiVE_orbatCreator_loadout[] = {{},{},{},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1}}},{"CUP_V_B_MTV",{}},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -4715,7 +4995,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -4770,7 +5050,14 @@ class CfgVehicles {
                 "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_sgun_M1014","","","",{"CUP_8Rnd_B_Beneli_74Slug",8},{},""},{},{},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1},{"CUP_8Rnd_B_Beneli_74Slug",4,8}}},{"CUP_V_B_MTV_Patrol",{{"CUP_8Rnd_B_Beneli_74Slug",3,8},{"CUP_HandGrenade_M67",4,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+
+        weapons[] = {"CUP_sgun_M1014","Throw","Put"};
+        respawnWeapons[] = {"CUP_sgun_M1014","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_MTV_Patrol","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        respawnLinkedItems[] = {"CUP_V_B_MTV_Patrol","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        magazines[] = {"CUP_8Rnd_B_Beneli_74Slug","CUP_8Rnd_B_Beneli_74Slug","CUP_8Rnd_B_Beneli_74Slug"};
+        respawnMagazines[] = {"CUP_8Rnd_B_Beneli_74Slug","CUP_8Rnd_B_Beneli_74Slug","CUP_8Rnd_B_Beneli_74Slug"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_sgun_M1014","","","",{"CUP_8Rnd_B_Beneli_74Slug",8},{},""},{},{},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1},{"CUP_8Rnd_B_Beneli_74Slug",4,8}}},{"CUP_V_B_MTV_Patrol",{{"CUP_8Rnd_B_Beneli_74Slug",3,8},{"CUP_HandGrenade_M67",4,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
 
 
@@ -4778,7 +5065,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -4833,7 +5120,14 @@ class CfgVehicles {
                 "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_GL_ACOG_Laser","","CUP_acc_ANPEQ_2","CUP_optic_ACOG",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_1Rnd_HEDP_M203",1},""},{},{},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_1Rnd_HEDP_M203",1,1}}},{"CUP_V_B_MTV_TL",{{"CUP_30Rnd_556x45_Stanag",6,30},{"CUP_1Rnd_HEDP_M203",6,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+
+        weapons[] = {"CUP_arifle_M16A4_GL_ACOG_Laser","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_GL_ACOG_Laser","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_MTV_TL","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        respawnLinkedItems[] = {"CUP_V_B_MTV_TL","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_GL_ACOG_Laser","","CUP_acc_ANPEQ_2","CUP_optic_ACOG",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_1Rnd_HEDP_M203",1},""},{},{},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_1Rnd_HEDP_M203",1,1}}},{"CUP_V_B_MTV_TL",{{"CUP_30Rnd_556x45_Stanag",6,30},{"CUP_1Rnd_HEDP_M203",6,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
 
 
@@ -4841,7 +5135,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -4896,7 +5190,14 @@ class CfgVehicles {
                 "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30}}},{"V_Rangemaster_belt",{{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_7Rnd_45ACP_1911",3,7}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+
+        weapons[] = {"CUP_arifle_M4A1","CUP_hgun_Colt1911","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M4A1","CUP_hgun_Colt1911","Throw","Put"};
+        linkedItems[] = {"V_Rangemaster_belt","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"V_Rangemaster_belt","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30}}},{"V_Rangemaster_belt",{{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_7Rnd_45ACP_1911",3,7}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -4904,7 +5205,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -4959,7 +5260,14 @@ class CfgVehicles {
                 "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_M9","","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_MTV_noCB",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",2,1},{"SmokeShellRed",1,1},{"SmokeShellGreen",1,1},{"CUP_15Rnd_9x19_M9",3,15}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+
+        weapons[] = {"CUP_arifle_M16A4_Aim_Laser","CUP_hgun_M9","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_Aim_Laser","CUP_hgun_M9","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_MTV_noCB","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_B_MTV_noCB","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_M9","","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_MTV_noCB",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",2,1},{"SmokeShellRed",1,1},{"SmokeShellGreen",1,1},{"CUP_15Rnd_9x19_M9",3,15}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -4967,7 +5275,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -5022,7 +5330,14 @@ class CfgVehicles {
                 "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_GL_ACOG_Laser","","CUP_acc_ANPEQ_2","CUP_optic_ACOG",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_1Rnd_HEDP_M203",1},""},{},{},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_MTV_TL",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",3,1},{"CUP_1Rnd_HEDP_M203",3,1},{"CUP_1Rnd_Smoke_M203",2,1},{"CUP_1Rnd_SmokeRed_M203",1,1},{"CUP_1Rnd_SmokeGreen_M203",1,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+
+        weapons[] = {"CUP_arifle_M16A4_GL_ACOG_Laser","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_GL_ACOG_Laser","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_MTV_TL","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        respawnLinkedItems[] = {"CUP_V_B_MTV_TL","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_GL_ACOG_Laser","","CUP_acc_ANPEQ_2","CUP_optic_ACOG",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_1Rnd_HEDP_M203",1},""},{},{},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_MTV_TL",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",3,1},{"CUP_1Rnd_HEDP_M203",3,1},{"CUP_1Rnd_Smoke_M203",2,1},{"CUP_1Rnd_SmokeRed_M203",1,1},{"CUP_1Rnd_SmokeGreen_M203",1,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
 
 
@@ -5030,7 +5345,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -5085,7 +5400,14 @@ class CfgVehicles {
                 "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_M136","","","",{"CUP_M136_M",1},{},""},{},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_MTV_Pouches",{{"CUP_30Rnd_556x45_Stanag",3,30}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+
+        weapons[] = {"CUP_arifle_M16A4_Aim_Laser","CUP_launch_M136","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_Aim_Laser","CUP_launch_M136","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_MTV_Pouches","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        respawnLinkedItems[] = {"CUP_V_B_MTV_Pouches","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_M136_M"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_M136_M"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_M136","","","",{"CUP_M136_M",1},{},""},{},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_MTV_Pouches",{{"CUP_30Rnd_556x45_Stanag",3,30}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
 
 
@@ -5093,7 +5415,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -5148,7 +5470,14 @@ class CfgVehicles {
                 "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_Mk153Mod0_SMAWOptics","","","CUP_optic_SMAW_Scope",{"CUP_SMAW_HEAA_M",1},{"CUP_SMAW_Spotting",5},""},{},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_MTV_Pouches",{{"CUP_30Rnd_556x45_Stanag",2,30},{"CUP_HandGrenade_M67",1,1},{"CUP_SMAW_Spotting",1,5}}},{"CUP_B_USMC_AssaultPack_SMAW",{{"CUP_SMAW_HEDP_M",1,1},{"CUP_SMAW_HEAA_M",1,1}}},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+            backpack = "CUP_B_USMC_AssaultPack_SMAW";
+        weapons[] = {"CUP_arifle_M16A4_Aim_Laser","CUP_launch_Mk153Mod0_SMAWOptics","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_Aim_Laser","CUP_launch_Mk153Mod0_SMAWOptics","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_MTV_Pouches","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        respawnLinkedItems[] = {"CUP_V_B_MTV_Pouches","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_SMAW_HEAA_M"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_SMAW_HEAA_M"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_Mk153Mod0_SMAWOptics","","","CUP_optic_SMAW_Scope",{"CUP_SMAW_HEAA_M",1},{"CUP_SMAW_Spotting",5},""},{},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_MTV_Pouches",{{"CUP_30Rnd_556x45_Stanag",2,30},{"CUP_HandGrenade_M67",1,1},{"CUP_SMAW_Spotting",1,5}}},{"CUP_B_USMC_AssaultPack_SMAW",{{"CUP_SMAW_HEDP_M",1,1},{"CUP_SMAW_HEAA_M",1,1}}},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
 
 
@@ -5156,7 +5485,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -5211,7 +5540,14 @@ class CfgVehicles {
                 "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_Javelin","","","",{"CUP_Javelin_M",1},{},""},{},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_MTV_Pouches",{{"CUP_30Rnd_556x45_Stanag",2,30},{"CUP_HandGrenade_M67",1,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+
+        weapons[] = {"CUP_arifle_M16A4_Aim_Laser","CUP_launch_Javelin","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_Aim_Laser","CUP_launch_Javelin","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_MTV_Pouches","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        respawnLinkedItems[] = {"CUP_V_B_MTV_Pouches","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_Javelin_M"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_Javelin_M"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_Javelin","","","",{"CUP_Javelin_M",1},{},""},{},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_MTV_Pouches",{{"CUP_30Rnd_556x45_Stanag",2,30},{"CUP_HandGrenade_M67",1,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
 
 
@@ -5219,7 +5555,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -5274,7 +5610,14 @@ class CfgVehicles {
                 "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_FIM92Stinger","","","",{"CUP_Stinger_M",1},{},""},{},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_MTV_Pouches",{{"CUP_30Rnd_556x45_Stanag",2,30},{"CUP_HandGrenade_M67",1,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+
+        weapons[] = {"CUP_arifle_M16A4_Aim_Laser","CUP_launch_FIM92Stinger","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_Aim_Laser","CUP_launch_FIM92Stinger","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_MTV_Pouches","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        respawnLinkedItems[] = {"CUP_V_B_MTV_Pouches","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_Stinger_M"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_Stinger_M"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Aim_Laser","","CUP_acc_ANPEQ_2","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_FIM92Stinger","","","",{"CUP_Stinger_M",1},{},""},{},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_MTV_Pouches",{{"CUP_30Rnd_556x45_Stanag",2,30},{"CUP_HandGrenade_M67",1,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
 
 
@@ -5282,7 +5625,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -5337,7 +5680,14 @@ class CfgVehicles {
                 "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_Aim","","","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"SmokeShell",1,1}}},{"CUP_V_B_MTV_LegPouch",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_B_USMC_AssaultPack_Medic",{{"Medikit",1},{"FirstAidKit",10}}},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+            backpack = "CUP_B_USMC_AssaultPack_Medic";
+        weapons[] = {"CUP_arifle_M4A1_Aim","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M4A1_Aim","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_MTV_LegPouch","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_B_MTV_LegPouch","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_Aim","","","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"SmokeShell",1,1}}},{"CUP_V_B_MTV_LegPouch",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_B_USMC_AssaultPack_Medic",{{"Medikit",1},{"FirstAidKit",10}}},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -5345,7 +5695,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -5400,7 +5750,14 @@ class CfgVehicles {
                 "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_M249","","","",{"CUP_200Rnd_TE4_Green_Tracer_556x45_M249",200},{},""},{},{},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1},{"CUP_HandGrenade_M67",2,1},{"SmokeShell",2,1}}},{"CUP_V_B_MTV_MG",{}},{"CUP_B_USMC_MOLLE_AR",{{"CUP_200Rnd_TE4_Green_Tracer_556x45_M249",3,200}}},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+            backpack = "CUP_B_USMC_MOLLE_AR";
+        weapons[] = {"CUP_lmg_M249","Throw","Put"};
+        respawnWeapons[] = {"CUP_lmg_M249","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_MTV_MG","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_B_MTV_MG","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_200Rnd_TE4_Green_Tracer_556x45_M249","CUP_200Rnd_TE4_Green_Tracer_556x45_M249","CUP_200Rnd_TE4_Green_Tracer_556x45_M249"};
+        respawnMagazines[] = {"CUP_200Rnd_TE4_Green_Tracer_556x45_M249","CUP_200Rnd_TE4_Green_Tracer_556x45_M249","CUP_200Rnd_TE4_Green_Tracer_556x45_M249"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_M249","","","",{"CUP_200Rnd_TE4_Green_Tracer_556x45_M249",200},{},""},{},{},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1},{"CUP_HandGrenade_M67",2,1},{"SmokeShell",2,1}}},{"CUP_V_B_MTV_MG",{}},{"CUP_B_USMC_MOLLE_AR",{{"CUP_200Rnd_TE4_Green_Tracer_556x45_M249",3,200}}},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -5408,7 +5765,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -5463,7 +5820,14 @@ class CfgVehicles {
                 "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_M240","","","",{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",100},{},""},{},{},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1}}},{"CUP_V_B_MTV_MG",{}},{"CUP_B_USMC_MOLLE_MG",{{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",4,100}}},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+            backpack = "CUP_B_USMC_MOLLE_MG";
+        weapons[] = {"CUP_lmg_M240","Throw","Put"};
+        respawnWeapons[] = {"CUP_lmg_M240","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_MTV_MG","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_B_MTV_MG","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
+        respawnMagazines[] = {"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_M240","","","",{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",100},{},""},{},{},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1}}},{"CUP_V_B_MTV_MG",{}},{"CUP_B_USMC_MOLLE_MG",{{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",4,100}}},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -5471,7 +5835,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -5493,7 +5857,14 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_BAF_DDPM_Ghillie";
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_ACOG_Laser","","CUP_acc_ANPEQ_2","CUP_optic_ACOG",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CUP_U_B_BAF_DDPM_Ghillie",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",5,30},{"SmokeShell",1,1}}},{"V_BandollierB_oli",{{"CUP_30Rnd_556x45_Stanag",2,30},{"CUP_HandGrenade_M67",2,1},{"SmokeShellYellow",1,1}}},{},"","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+
+        weapons[] = {"CUP_arifle_M16A4_ACOG_Laser","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_ACOG_Laser","Throw","Put"};
+        linkedItems[] = {"V_BandollierB_oli","","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        respawnLinkedItems[] = {"V_BandollierB_oli","","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_ACOG_Laser","","CUP_acc_ANPEQ_2","CUP_optic_ACOG",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CUP_U_B_BAF_DDPM_Ghillie",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",5,30},{"SmokeShell",1,1}}},{"V_BandollierB_oli",{{"CUP_30Rnd_556x45_Stanag",2,30},{"CUP_HandGrenade_M67",2,1},{"SmokeShellYellow",1,1}}},{},"","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
 
 
@@ -5501,7 +5872,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -5523,7 +5894,14 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_BAF_DDPM_Ghillie";
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_M40A3_bipod","","","CUP_optic_LeupoldMk4",{"CUP_5Rnd_762x51_M24",5},{},"CUP_bipod_Harris_1A2_L"},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_BAF_DDPM_Ghillie",{{"FirstAidKit",1},{"CUP_5Rnd_762x51_M24",7,5},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},{"V_BandollierB_oli",{{"CUP_HandGrenade_M67",1,1},{"SmokeShellGreen",1,1},{"CUP_7Rnd_45ACP_1911",3,7}}},{},"","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+
+        weapons[] = {"CUP_srifle_M40A3_bipod","CUP_hgun_Colt1911","Throw","Put"};
+        respawnWeapons[] = {"CUP_srifle_M40A3_bipod","CUP_hgun_Colt1911","Throw","Put"};
+        linkedItems[] = {"V_BandollierB_oli","","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        respawnLinkedItems[] = {"V_BandollierB_oli","","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        magazines[] = {"CUP_5Rnd_762x51_M24","CUP_5Rnd_762x51_M24","CUP_5Rnd_762x51_M24","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911"};
+        respawnMagazines[] = {"CUP_5Rnd_762x51_M24","CUP_5Rnd_762x51_M24","CUP_5Rnd_762x51_M24","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_M40A3_bipod","","","CUP_optic_LeupoldMk4",{"CUP_5Rnd_762x51_M24",5},{},"CUP_bipod_Harris_1A2_L"},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_BAF_DDPM_Ghillie",{{"FirstAidKit",1},{"CUP_5Rnd_762x51_M24",7,5},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},{"V_BandollierB_oli",{{"CUP_HandGrenade_M67",1,1},{"SmokeShellGreen",1,1},{"CUP_7Rnd_45ACP_1911",3,7}}},{},"","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
 
 
@@ -5531,7 +5909,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -5553,7 +5931,14 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_BAF_DDPM_Ghillie";
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_M107_LeupoldVX3","","","CUP_optic_Leupold_VX3",{"CUP_10Rnd_127x99_M107",10},{},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_BAF_DDPM_Ghillie",{{"FirstAidKit",1},{"CUP_10Rnd_127x99_M107",3,10},{"CUP_HandGrenade_M67",1,1},{"CUP_7Rnd_45ACP_1911",2,7}}},{"V_BandollierB_oli",{{"CUP_10Rnd_127x99_M107",4,10},{"SmokeShell",1,1},{"SmokeShellRed",1,1},{"SmokeShellGreen",1,1},{"CUP_7Rnd_45ACP_1911",1,7}}},{},"","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+
+        weapons[] = {"CUP_srifle_M107_LeupoldVX3","CUP_hgun_Colt1911","Throw","Put"};
+        respawnWeapons[] = {"CUP_srifle_M107_LeupoldVX3","CUP_hgun_Colt1911","Throw","Put"};
+        linkedItems[] = {"V_BandollierB_oli","","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        respawnLinkedItems[] = {"V_BandollierB_oli","","ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        magazines[] = {"CUP_10Rnd_127x99_M107","CUP_10Rnd_127x99_M107","CUP_10Rnd_127x99_M107","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911"};
+        respawnMagazines[] = {"CUP_10Rnd_127x99_M107","CUP_10Rnd_127x99_M107","CUP_10Rnd_127x99_M107","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_M107_LeupoldVX3","","","CUP_optic_Leupold_VX3",{"CUP_10Rnd_127x99_M107",10},{},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_BAF_DDPM_Ghillie",{{"FirstAidKit",1},{"CUP_10Rnd_127x99_M107",3,10},{"CUP_HandGrenade_M67",1,1},{"CUP_7Rnd_45ACP_1911",2,7}}},{"V_BandollierB_oli",{{"CUP_10Rnd_127x99_M107",4,10},{"SmokeShell",1,1},{"SmokeShellRed",1,1},{"SmokeShellGreen",1,1},{"CUP_7Rnd_45ACP_1911",1,7}}},{},"","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
 
 
@@ -5561,7 +5946,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -5583,7 +5968,14 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CFP_U_FieldUniform_marpat_d";
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_DMR_LeupoldMk4","","","CUP_optic_LeupoldMk4",{"CUP_20Rnd_762x51_DMR",20},{},"CUP_bipod_Harris_1A2_L"},{},{},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_DMR",1,20},{"SmokeShell",1,1}}},{"CUP_V_B_MTV_Marksman",{{"CUP_20Rnd_762x51_DMR",6,20},{"CUP_HandGrenade_M67",2,1},{"SmokeShellRed",1,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+
+        weapons[] = {"CUP_srifle_DMR_LeupoldMk4","Throw","Put"};
+        respawnWeapons[] = {"CUP_srifle_DMR_LeupoldMk4","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_MTV_Marksman","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_B_MTV_Marksman","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_20Rnd_762x51_DMR","CUP_20Rnd_762x51_DMR","CUP_20Rnd_762x51_DMR"};
+        respawnMagazines[] = {"CUP_20Rnd_762x51_DMR","CUP_20Rnd_762x51_DMR","CUP_20Rnd_762x51_DMR"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_DMR_LeupoldMk4","","","CUP_optic_LeupoldMk4",{"CUP_20Rnd_762x51_DMR",20},{},"CUP_bipod_Harris_1A2_L"},{},{},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_DMR",1,20},{"SmokeShell",1,1}}},{"CUP_V_B_MTV_Marksman",{{"CUP_20Rnd_762x51_DMR",6,20},{"CUP_HandGrenade_M67",2,1},{"SmokeShellRed",1,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -5591,7 +5983,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -5646,7 +6038,14 @@ class CfgVehicles {
                 "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_Aim","","","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"SmokeShell",1,1}}},{"CUP_V_B_MTV_PistolBlack",{{"CUP_30Rnd_556x45_Stanag",6,30},{"CUP_15Rnd_9x19_M9",3,15},{"SmokeShellPurple",1,1},{"SmokeShellYellow",1,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"CUP_SOFLAM","","","",{"Laserbatteries",1},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+
+        weapons[] = {"CUP_arifle_M4A1_Aim","CUP_hgun_M9_snds","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M4A1_Aim","CUP_hgun_M9_snds","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_MTV_PistolBlack","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_B_MTV_PistolBlack","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","Laserbatteries"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","Laserbatteries"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_Aim","","","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_M9_snds","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"SmokeShell",1,1}}},{"CUP_V_B_MTV_PistolBlack",{{"CUP_30Rnd_556x45_Stanag",6,30},{"CUP_15Rnd_9x19_M9",3,15},{"SmokeShellPurple",1,1},{"SmokeShellYellow",1,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"CUP_SOFLAM","","","",{"Laserbatteries",1},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -5654,7 +6053,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -5709,7 +6108,14 @@ class CfgVehicles {
                 "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_Aim","","","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_MTV_Mine",{{"CUP_30Rnd_556x45_Stanag",4,30},{"SmokeShell",1,1}}},{"CUP_B_USMC_MOLLE_Exp",{{"ToolKit",1},{"MineDetector",1},{"CUP_Mine_M",2,1}}},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+            backpack = "CUP_B_USMC_MOLLE_Exp";
+        weapons[] = {"CUP_arifle_M4A1_Aim","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M4A1_Aim","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_MTV_Mine","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_B_MTV_Mine","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_Aim","","","CUP_optic_CompM2_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_V_B_MTV_Mine",{{"CUP_30Rnd_556x45_Stanag",4,30},{"SmokeShell",1,1}}},{"CUP_B_USMC_MOLLE_Exp",{{"ToolKit",1},{"MineDetector",1},{"CUP_Mine_M",2,1}}},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -5717,7 +6123,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -5739,7 +6145,14 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_PilotOverall";
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_smg_MP5A5","","","",{"CUP_30Rnd_9x19_MP5",30},{},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_USMC_PilotOverall",{{"FirstAidKit",1},{"CUP_30Rnd_9x19_MP5",2,30}}},{"CUP_V_B_PilotVest",{{"CUP_30Rnd_9x19_MP5",3,30},{"SmokeShellRed",1,1},{"SmokeShellGreen",1,1},{"CUP_7Rnd_45ACP_1911",2,7}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+
+        weapons[] = {"CUP_smg_MP5A5","CUP_hgun_Colt1911","Throw","Put"};
+        respawnWeapons[] = {"CUP_smg_MP5A5","CUP_hgun_Colt1911","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_PilotVest","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_B_PilotVest","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911"};
+        respawnMagazines[] = {"CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_smg_MP5A5","","","",{"CUP_30Rnd_9x19_MP5",30},{},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_USMC_PilotOverall",{{"FirstAidKit",1},{"CUP_30Rnd_9x19_MP5",2,30}}},{"CUP_V_B_PilotVest",{{"CUP_30Rnd_9x19_MP5",3,30},{"SmokeShellRed",1,1},{"SmokeShellGreen",1,1},{"CUP_7Rnd_45ACP_1911",2,7}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -5747,7 +6160,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -5802,7 +6215,14 @@ class CfgVehicles {
                 "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
 
-            ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30}}},{"CUP_V_B_MTV",{{"CUP_30Rnd_556x45_Stanag",2,30},{"CUP_7Rnd_45ACP_1911",2,7},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+
+        weapons[] = {"CUP_arifle_M4A1","CUP_hgun_Colt1911","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M4A1","CUP_hgun_Colt1911","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_MTV","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_B_MTV","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30}}},{"CUP_V_B_MTV",{{"CUP_30Rnd_556x45_Stanag",2,30},{"CUP_7Rnd_45ACP_1911",2,7},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -5810,7 +6230,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -5830,7 +6250,14 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_B_USMC_Navy_Blue";
 
-            ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_B_USMC_Navy_Blue",{{"FirstAidKit",1}}},{"CUP_V_B_LHDVest_Blue",{}},{},"CUP_H_Navy_CrewHelmet_Blue","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        linkedItems[] = {"CUP_V_B_LHDVest_Blue","CUP_H_Navy_CrewHelmet_Blue","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_B_LHDVest_Blue","CUP_H_Navy_CrewHelmet_Blue","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {};
+        respawnMagazines[] = {};
+        ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_B_USMC_Navy_Blue",{{"FirstAidKit",1}}},{"CUP_V_B_LHDVest_Blue",{}},{},"CUP_H_Navy_CrewHelmet_Blue","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -5838,7 +6265,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -5859,7 +6286,14 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_B_USMC_Navy_Brown";
 
-            ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_B_USMC_Navy_Brown",{{"FirstAidKit",1}}},{"CUP_V_B_LHDVest_Brown",{}},{},"CUP_H_Navy_CrewHelmet_Brown","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        linkedItems[] = {"CUP_V_B_LHDVest_Brown","CUP_H_Navy_CrewHelmet_Brown","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_B_LHDVest_Brown","CUP_H_Navy_CrewHelmet_Brown","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {};
+        respawnMagazines[] = {};
+        ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_B_USMC_Navy_Brown",{{"FirstAidKit",1}}},{"CUP_V_B_LHDVest_Brown",{}},{},"CUP_H_Navy_CrewHelmet_Brown","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -5867,7 +6301,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -5888,7 +6322,14 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_B_USMC_Navy_Green";
 
-            ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_B_USMC_Navy_Green",{{"FirstAidKit",1}}},{"CUP_V_B_LHDVest_Green",{}},{},"CUP_H_Navy_CrewHelmet_Green","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        linkedItems[] = {"CUP_V_B_LHDVest_Green","CUP_H_Navy_CrewHelmet_Green","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_B_LHDVest_Green","CUP_H_Navy_CrewHelmet_Green","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {};
+        respawnMagazines[] = {};
+        ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_B_USMC_Navy_Green",{{"FirstAidKit",1}}},{"CUP_V_B_LHDVest_Green",{}},{},"CUP_H_Navy_CrewHelmet_Green","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -5896,7 +6337,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -5916,7 +6357,14 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_B_USMC_Navy_Red";
 
-            ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_B_USMC_Navy_Red",{{"FirstAidKit",1}}},{"CUP_V_B_LHDVest_Red",{}},{},"CUP_H_Navy_CrewHelmet_Red","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        linkedItems[] = {"CUP_V_B_LHDVest_Red","CUP_H_Navy_CrewHelmet_Red","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_B_LHDVest_Red","CUP_H_Navy_CrewHelmet_Red","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {};
+        respawnMagazines[] = {};
+        ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_B_USMC_Navy_Red",{{"FirstAidKit",1}}},{"CUP_V_B_LHDVest_Red",{}},{},"CUP_H_Navy_CrewHelmet_Red","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -5924,7 +6372,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -5945,7 +6393,14 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_B_USMC_Navy_Violet";
 
-            ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_B_USMC_Navy_Violet",{{"FirstAidKit",1}}},{"CUP_V_B_LHDVest_Violet",{}},{},"CUP_H_Navy_CrewHelmet_Violet","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        linkedItems[] = {"CUP_V_B_LHDVest_Violet","CUP_H_Navy_CrewHelmet_Violet","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_B_LHDVest_Violet","CUP_H_Navy_CrewHelmet_Violet","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {};
+        respawnMagazines[] = {};
+        ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_B_USMC_Navy_Violet",{{"FirstAidKit",1}}},{"CUP_V_B_LHDVest_Violet",{}},{},"CUP_H_Navy_CrewHelmet_Violet","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -5953,7 +6408,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -5974,7 +6429,14 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_B_USMC_Navy_White";
 
-            ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_B_USMC_Navy_White",{{"FirstAidKit",1}}},{"CUP_V_B_LHDVest_White",{}},{},"CUP_H_Navy_CrewHelmet_White","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        linkedItems[] = {"CUP_V_B_LHDVest_White","CUP_H_Navy_CrewHelmet_White","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_B_LHDVest_White","CUP_H_Navy_CrewHelmet_White","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {};
+        respawnMagazines[] = {};
+        ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_B_USMC_Navy_White",{{"FirstAidKit",1}}},{"CUP_V_B_LHDVest_White",{}},{},"CUP_H_Navy_CrewHelmet_White","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -5982,7 +6444,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -6002,7 +6464,14 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_B_USMC_Navy_Yellow";
 
-            ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_B_USMC_Navy_Yellow",{{"FirstAidKit",1}}},{"CUP_V_B_LHDVest_Yellow",{}},{},"CUP_H_Navy_CrewHelmet_Yellow","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        linkedItems[] = {"CUP_V_B_LHDVest_Yellow","CUP_H_Navy_CrewHelmet_Yellow","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_B_LHDVest_Yellow","CUP_H_Navy_CrewHelmet_Yellow","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {};
+        respawnMagazines[] = {};
+        ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_B_USMC_Navy_Yellow",{{"FirstAidKit",1}}},{"CUP_V_B_LHDVest_Yellow",{}},{},"CUP_H_Navy_CrewHelmet_Yellow","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -6010,7 +6479,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };

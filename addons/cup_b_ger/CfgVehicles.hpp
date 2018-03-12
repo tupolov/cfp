@@ -35,15 +35,23 @@ class CfgVehicles {
         identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
         uniformClass = "CUP_U_B_GER_Tropentarn_1";
 
+        weapons[] = {"CUP_smg_MP5A5","CUP_hgun_Glock17_tan","Throw","Put"};
+        respawnWeapons[] = {"CUP_smg_MP5A5","CUP_hgun_Glock17_tan","Throw","Put"};
+        linkedItems[] = {"CUP_V_BAF_Osprey_Mk2_DDPM_Pilot","CUP_H_BAF_Helmet_Pilot","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        respawnLinkedItems[] = {"CUP_V_BAF_Osprey_Mk2_DDPM_Pilot","CUP_H_BAF_Helmet_Pilot","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        magazines[] = {"CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17"};
+        respawnMagazines[] = {"CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17"};
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_smg_MP5A5","","","",{"CUP_30Rnd_9x19_MP5",30},{},""},{},{"CUP_hgun_Glock17_tan","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CUP_U_B_GER_Tropentarn_1",{{"FirstAidKit",1},{"CUP_HandGrenade_M67",1,1},{"CUP_30Rnd_9x19_MP5",3,30},{"CUP_17Rnd_9x19_glock17",1,17}}},{"CUP_V_BAF_Osprey_Mk2_DDPM_Pilot",{{"SmokeShell",1,1},{"SmokeShellRed",1,1},{"CUP_17Rnd_9x19_glock17",2,17}}},{},"CUP_H_BAF_Helmet_Pilot","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_this setunitloadout [['CUP_smg_MP5A5','','','',['CUP_30Rnd_9x19_MP5',30],[],''],[],['CUP_hgun_Glock17_tan','','','',['CUP_17Rnd_9x19_glock17',17],[],''],['CUP_U_B_GER_Tropentarn_1',[['FirstAidKit',1],['CUP_HandGrenade_M67',1,1],['CUP_30Rnd_9x19_MP5',3,30],['CUP_17Rnd_9x19_glock17',1,17]]],['CUP_V_BAF_Osprey_Mk2_DDPM_Pilot',[['SmokeShell',1,1],['SmokeShellRed',1,1],['CUP_17Rnd_9x19_glock17',2,17]]],[],'CUP_H_BAF_Helmet_Pilot','',[],['ItemMap','ItemGPS','ItemRadio','ItemCompass','ItemWatch','CUP_NVG_PVS7']];reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
-
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
 

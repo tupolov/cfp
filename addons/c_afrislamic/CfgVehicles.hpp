@@ -92,6 +92,13 @@ class CfgVehicles {
         identityTypes[] = {"Head_African","LanguagePER_F"};
         uniformClass = "CUP_O_TKI_Khet_Partug_05";
 
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        linkedItems[] = {"CUP_H_TKI_Lungee_Open_04","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_H_TKI_Lungee_Open_04","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {};
+        respawnMagazines[] = {};
         ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_O_TKI_Khet_Partug_05",{}},{},{},"CUP_H_TKI_Lungee_Open_04","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 	randomGearProbability = 100;
@@ -132,7 +139,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -146,6 +153,13 @@ class CfgVehicles {
 
         displayName = "Civilian";
 
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        linkedItems[] = {"CUP_H_TKI_SkullCap_06","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_H_TKI_SkullCap_06","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {};
+        respawnMagazines[] = {};
         ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_O_TKI_Khet_Partug_03",{}},{},{},"CUP_H_TKI_SkullCap_06","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
@@ -154,6 +168,13 @@ class CfgVehicles {
 
         displayName = "Civilian";
 
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        linkedItems[] = {"CUP_H_TKI_SkullCap_04","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_H_TKI_SkullCap_04","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {};
+        respawnMagazines[] = {};
         ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_C_Man_casual_2_F",{}},{},{},"CUP_H_TKI_SkullCap_04","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
@@ -162,6 +183,13 @@ class CfgVehicles {
 
         displayName = "Civilian";
 
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        linkedItems[] = {"CUP_H_C_Beanie_04","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_H_C_Beanie_04","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {};
+        respawnMagazines[] = {};
         ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_O_TKI_Khet_Jeans_04",{{"FirstAidKit",1},{"Chemlight_red",1,1}}},{},{},"CUP_H_C_Beanie_04","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
@@ -170,6 +198,13 @@ class CfgVehicles {
 
         displayName = "Civilian";
 
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        linkedItems[] = {"CUP_H_TKI_SkullCap_02","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_H_TKI_SkullCap_02","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {};
+        respawnMagazines[] = {};
         ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_C_Poor_1",{}},{},{},"CUP_H_TKI_SkullCap_02","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
@@ -178,6 +213,13 @@ class CfgVehicles {
 
         displayName = "Civilian";
 
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        linkedItems[] = {"CUP_H_TKI_Lungee_Open_01","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_H_TKI_Lungee_Open_01","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {};
+        respawnMagazines[] = {};
         ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_O_TKI_Khet_Partug_07",{}},{},{},"CUP_H_TKI_Lungee_Open_01","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
@@ -186,6 +228,13 @@ class CfgVehicles {
 
         displayName = "Civilian";
 
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        linkedItems[] = {"CUP_H_TKI_SkullCap_03","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_H_TKI_SkullCap_03","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {};
+        respawnMagazines[] = {};
         ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_O_TKI_Khet_Partug_04",{}},{},{},"CUP_H_TKI_SkullCap_03","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
@@ -194,6 +243,13 @@ class CfgVehicles {
 
         displayName = "Civilian";
 
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        linkedItems[] = {"CUP_H_TKI_Lungee_Open_06","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_H_TKI_Lungee_Open_06","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {};
+        respawnMagazines[] = {};
         ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_O_TKI_Khet_Partug_06",{}},{},{},"CUP_H_TKI_Lungee_Open_06","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
@@ -202,6 +258,13 @@ class CfgVehicles {
 
         displayName = "Civilian";
 
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        linkedItems[] = {"CUP_H_TKI_Lungee_Open_05","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_H_TKI_Lungee_Open_05","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {};
+        respawnMagazines[] = {};
         ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_O_TKI_Khet_Partug_01",{}},{},{},"CUP_H_TKI_Lungee_Open_05","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
@@ -210,6 +273,13 @@ class CfgVehicles {
 
         displayName = "Civilian";
 
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        linkedItems[] = {"CUP_H_TKI_SkullCap_04","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_H_TKI_SkullCap_04","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {};
+        respawnMagazines[] = {};
         ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_O_TKI_Khet_Partug_08",{{"FirstAidKit",1},{"Chemlight_red",1,1}}},{},{},"CUP_H_TKI_SkullCap_04","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
@@ -218,6 +288,13 @@ class CfgVehicles {
 
         displayName = "Civilian";
 
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        linkedItems[] = {"CUP_H_C_Beanie_02","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_H_C_Beanie_02","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {};
+        respawnMagazines[] = {};
         ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_U_C_Citizen_03",{}},{},{},"CUP_H_C_Beanie_02","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
@@ -226,6 +303,13 @@ class CfgVehicles {
 
         displayName = "Civilian";
 
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        linkedItems[] = {"CUP_H_C_Beanie_04","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_H_C_Beanie_04","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {};
+        respawnMagazines[] = {};
         ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_U_C_Citizen_02",{}},{},{},"CUP_H_C_Beanie_04","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };

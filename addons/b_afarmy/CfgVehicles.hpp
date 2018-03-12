@@ -146,6 +146,13 @@ class CfgVehicles {
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
         uniformClass = "CFP_U_BattleDressUniform_ana_wdlight";
 
+
+        weapons[] = {"CUP_arifle_M16A4_Base","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_Base","Throw","Put"};
+        linkedItems[] = {"CFP_Osprey1_Wd","CFP_Basic_Helmet_Gray_Green","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CFP_Osprey1_Wd","CFP_Basic_Helmet_Gray_Green","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_BattleDressUniform_ana_wdlight",{{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_Osprey1_Wd",{{"CUP_30Rnd_556x45_Stanag",5,30}}},{},"CFP_Basic_Helmet_Gray_Green","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
         randomGearProbability = 100;
@@ -179,7 +186,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_AFG_ANA_SECFOR'] call BIS_fnc_setUnitInsignia;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_AFG_ANA_SECFOR'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -194,6 +201,13 @@ class CfgVehicles {
 
         displayName = "Squad Leader";
 
+
+        weapons[] = {"CUP_arifle_M16A4_Base","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_Base","Throw","Put"};
+        linkedItems[] = {"CFP_Osprey1_Wd","CFP_Basic_Helmet_Gray_Green","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CFP_Osprey1_Wd","CFP_Basic_Helmet_Gray_Green","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_BattleDressUniform_ana_wdlight",{{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_Osprey1_Wd",{{"CUP_30Rnd_556x45_Stanag",5,30}}},{},"CFP_Basic_Helmet_Gray_Green","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Squad_Leader_01.jpg";
     };
@@ -202,6 +216,13 @@ class CfgVehicles {
 
         displayName = "Grenadier";
 
+
+        weapons[] = {"CUP_arifle_M16A4_GL","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_GL","Throw","Put"};
+        linkedItems[] = {"CFP_Osprey1_Wd","CFP_Basic_Helmet_Gray_Green","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CFP_Osprey1_Wd","CFP_Basic_Helmet_Gray_Green","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_GL","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_BattleDressUniform_ana_wdlight",{{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_Osprey1_Wd",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_1Rnd_HEDP_M203",6,1}}},{},"CFP_Basic_Helmet_Gray_Green","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Grenadier_01.jpg";
     };
@@ -210,6 +231,13 @@ class CfgVehicles {
 
         displayName = "Rifleman AT";
 
+        backpack = "CUP_B_RPGPack_Khaki";
+        weapons[] = {"CUP_arifle_M16A4_Base","CUP_launch_RPG7V","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_Base","CUP_launch_RPG7V","Throw","Put"};
+        linkedItems[] = {"CFP_Osprey1_Wd","CFP_Basic_Helmet_Gray_Green","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CFP_Osprey1_Wd","CFP_Basic_Helmet_Gray_Green","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_PG7V_M"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_PG7V_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_RPG7V","","","",{"CUP_PG7V_M",1},{},""},{},{"CFP_U_BattleDressUniform_ana_wdlight",{{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_Osprey1_Wd",{{"CUP_30Rnd_556x45_Stanag",5,30}}},{"CUP_B_RPGPack_Khaki",{{"CUP_PG7V_M",3,1}}},"CFP_Basic_Helmet_Gray_Green","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Rifleman_AT_01.jpg";
     };
@@ -218,6 +246,13 @@ class CfgVehicles {
 
         displayName = "Machine Gunner";
 
+        backpack = "B_AssaultPack_rgr";
+        weapons[] = {"CUP_lmg_M249_E2","Throw","Put"};
+        respawnWeapons[] = {"CUP_lmg_M249_E2","Throw","Put"};
+        linkedItems[] = {"CFP_Osprey1_Wd","CFP_Basic_Helmet_Gray_Green","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CFP_Osprey1_Wd","CFP_Basic_Helmet_Gray_Green","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249"};
+        respawnMagazines[] = {"CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_M249_E2","","","",{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",200},{},""},{},{},{"CFP_U_BattleDressUniform_ana_wdlight",{}},{"CFP_Osprey1_Wd",{{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",1,200}}},{"B_AssaultPack_rgr",{{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",2,200}}},"CFP_Basic_Helmet_Gray_Green","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Machine_Gunner_01.jpg";
     };
@@ -226,6 +261,13 @@ class CfgVehicles {
 
         displayName = "Medic ";
 
+        backpack = "B_AssaultPack_rgr";
+        weapons[] = {"CUP_arifle_M16A4_Base","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_Base","Throw","Put"};
+        linkedItems[] = {"CFP_Osprey1_Wd","CFP_Basic_Helmet_Gray_Green","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CFP_Osprey1_Wd","CFP_Basic_Helmet_Gray_Green","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_BattleDressUniform_ana_wdlight",{{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_Osprey1_Wd",{{"CUP_30Rnd_556x45_Stanag",5,30}}},{"B_AssaultPack_rgr",{{"Medikit",1},{"FirstAidKit",10}}},"CFP_Basic_Helmet_Gray_Green","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Medic_01.jpg";
     };
@@ -234,6 +276,13 @@ class CfgVehicles {
 
         displayName = "Explosive Specialist";
 
+        backpack = "B_Kitbag_rgr";
+        weapons[] = {"CUP_arifle_M16A4_Base","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_Base","Throw","Put"};
+        linkedItems[] = {"CFP_Osprey1_Wd","CFP_Basic_Helmet_Gray_Green","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CFP_Osprey1_Wd","CFP_Basic_Helmet_Gray_Green","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_BattleDressUniform_ana_wdlight",{{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_Osprey1_Wd",{{"CUP_30Rnd_556x45_Stanag",5,30}}},{"B_Kitbag_rgr",{{"MineDetector",1},{"DemoCharge_Remote_Mag",5,1},{"ATMine_Range_Mag",1,1},{"APERSTripMine_Wire_Mag",1,1},{"CUP_PipeBomb_M",1,1}}},"CFP_Basic_Helmet_Gray_Green","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Explosive_Specialist_01.jpg";
     };
@@ -242,6 +291,13 @@ class CfgVehicles {
 
         displayName = "Repair Specialist";
 
+        backpack = "B_AssaultPack_rgr";
+        weapons[] = {"CUP_arifle_M16A4_Base","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_Base","Throw","Put"};
+        linkedItems[] = {"CFP_Osprey1_Wd","CFP_Basic_Helmet_Gray_Green","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CFP_Osprey1_Wd","CFP_Basic_Helmet_Gray_Green","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_BattleDressUniform_ana_wdlight",{{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_Osprey1_Wd",{{"CUP_30Rnd_556x45_Stanag",5,30}}},{"B_AssaultPack_rgr",{{"ToolKit",2}}},"CFP_Basic_Helmet_Gray_Green","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Repair_Specialist_01.jpg";
     };
@@ -250,6 +306,13 @@ class CfgVehicles {
 
         displayName = "Sniper";
 
+
+        weapons[] = {"CUP_srifle_M24_wdl","Throw","Put"};
+        respawnWeapons[] = {"CUP_srifle_M24_wdl","Throw","Put"};
+        linkedItems[] = {"CFP_Osprey1_Wd","H_Booniehat_oli","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CFP_Osprey1_Wd","H_Booniehat_oli","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_5Rnd_762x51_M24","CUP_5Rnd_762x51_M24","CUP_5Rnd_762x51_M24"};
+        respawnMagazines[] = {"CUP_5Rnd_762x51_M24","CUP_5Rnd_762x51_M24","CUP_5Rnd_762x51_M24"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_M24_wdl","","","CUP_optic_LeupoldMk4",{"CUP_5Rnd_762x51_M24",5},{},""},{},{},{"CFP_U_BattleDressUniform_ana_wdlight",{{"CUP_5Rnd_762x51_M24",3,5}}},{"CFP_Osprey1_Wd",{{"CUP_5Rnd_762x51_M24",5,5}}},{},"H_Booniehat_oli","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Sniper_01.jpg";
     };
@@ -265,6 +328,13 @@ class CfgVehicles {
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
         uniformClass = "CFP_U_BattleDressUniform_ana_wdlight";
 
+
+        weapons[] = {"CUP_hgun_Makarov","Throw","Put"};
+        respawnWeapons[] = {"CUP_hgun_Makarov","Throw","Put"};
+        linkedItems[] = {"SP_Holster1_Black","CFP_Beret2_RedANA","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"SP_Holster1_Black","CFP_Beret2_RedANA","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {};
+        respawnMagazines[] = {};
         ALiVE_orbatCreator_loadout[] = {{"CUP_hgun_Makarov","","","",{},{},""},{},{},{"CFP_U_BattleDressUniform_ana_wdlight",{{"CUP_8Rnd_9x18_Makarov_M",2,8}}},{"SP_Holster1_Black",{{}}},{},"CFP_Beret2_RedANA","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
         randomGearProbability = 100;
@@ -287,7 +357,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_AFG_ANA_SECFOR'] call BIS_fnc_setUnitInsignia;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_AFG_ANA_SECFOR'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -637,6 +707,13 @@ class CfgVehicles {
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
         uniformClass = "SP_0000_Standard_FieldUniform_Tan";
 
+
+        weapons[] = {"CUP_hgun_Colt1911","Throw","Put"};
+        respawnWeapons[] = {"CUP_hgun_Colt1911","Throw","Put"};
+        linkedItems[] = {"CUP_V_B_PilotVest","CUP_H_USMC_Helmet_Pilot","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_B_PilotVest","CUP_H_USMC_Helmet_Pilot","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_7Rnd_45ACP_1911"};
+        respawnMagazines[] = {"CUP_7Rnd_45ACP_1911"};
         ALiVE_orbatCreator_loadout[] = {{},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"SP_0000_Standard_FieldUniform_Tan",{{"CUP_7Rnd_45ACP_1911",3,7}}},{"CUP_V_B_PilotVest",{}},{},"CUP_H_USMC_Helmet_Pilot","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 	randomGearProbability = 100;
@@ -650,7 +727,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_AFG_AAF_777SPECIAL_WING'] call BIS_fnc_setUnitInsignia;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_AFG_AAF_777SPECIAL_WING'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -763,6 +840,13 @@ class CfgVehicles {
 
         displayName = "Gunner [DShKM High]";
 
+        backpack = "CUP_B_DShkM_TripodHigh_Bag";
+        weapons[] = {"CUP_arifle_M16A4_Base","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_Base","Throw","Put"};
+        linkedItems[] = {"CFP_Osprey1_Wd","CFP_Basic_Helmet_Gray_Green","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CFP_Osprey1_Wd","CFP_Basic_Helmet_Gray_Green","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_BattleDressUniform_ana_wdlight",{{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_Osprey1_Wd",{}},{"CUP_B_DShkM_TripodHigh_Bag",{}},"CFP_Basic_Helmet_Gray_Green","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Gunner_DShKM_High_01.jpg";
     };
@@ -771,6 +855,13 @@ class CfgVehicles {
 
         displayName = "Gunner [DShKM Low]";
 
+        backpack = "CUP_B_DShkM_TripodLow_Bag";
+        weapons[] = {"CUP_arifle_M16A4_Base","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_Base","Throw","Put"};
+        linkedItems[] = {"CFP_Osprey1_Wd","CFP_Basic_Helmet_Gray_Green","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CFP_Osprey1_Wd","CFP_Basic_Helmet_Gray_Green","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_BattleDressUniform_ana_wdlight",{{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_Osprey1_Wd",{{"CUP_30Rnd_556x45_Stanag",5,30}}},{"CUP_B_DShkM_TripodLow_Bag",{}},"CFP_Basic_Helmet_Gray_Green","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Gunner_DShKM_Low_01.jpg";
     };
@@ -779,6 +870,13 @@ class CfgVehicles {
 
         displayName = "Asst. Gunner [DShKM]";
 
+        backpack = "CUP_B_DShkM_Gun_Bag";
+        weapons[] = {"CUP_arifle_M16A4_Base","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_Base","Throw","Put"};
+        linkedItems[] = {"CFP_Osprey1_Wd","CFP_Basic_Helmet_Gray_Green","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CFP_Osprey1_Wd","CFP_Basic_Helmet_Gray_Green","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_BattleDressUniform_ana_wdlight",{{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_Osprey1_Wd",{{"CUP_30Rnd_556x45_Stanag",5,30}}},{"CUP_B_DShkM_Gun_Bag",{}},"CFP_Basic_Helmet_Gray_Green","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Asst_Gunner_DShKM_01.jpg";
     };
@@ -787,6 +885,13 @@ class CfgVehicles {
 
         displayName = "Gunner [SPG-9]";
 
+        backpack = "CUP_B_SPG9_Tripod_Bag";
+        weapons[] = {"CUP_arifle_M16A4_Base","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_Base","Throw","Put"};
+        linkedItems[] = {"CFP_Osprey1_Wd","CFP_Basic_Helmet_Gray_Green","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CFP_Osprey1_Wd","CFP_Basic_Helmet_Gray_Green","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_BattleDressUniform_ana_wdlight",{{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_Osprey1_Wd",{{"CUP_30Rnd_556x45_Stanag",5,30}}},{"CUP_B_SPG9_Tripod_Bag",{}},"CFP_Basic_Helmet_Gray_Green","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Gunner_SPG_01.jpg";
     };
@@ -795,6 +900,13 @@ class CfgVehicles {
 
         displayName = "Asst. Gunner [SPG-9]";
 
+        backpack = "CUP_B_SPG9_Gun_Bag";
+        weapons[] = {"CUP_arifle_M16A4_Base","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_Base","Throw","Put"};
+        linkedItems[] = {"CFP_Osprey1_Wd","CFP_Basic_Helmet_Gray_Green","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CFP_Osprey1_Wd","CFP_Basic_Helmet_Gray_Green","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_BattleDressUniform_ana_wdlight",{{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_Osprey1_Wd",{{"CUP_30Rnd_556x45_Stanag",5,30}}},{"CUP_B_SPG9_Gun_Bag",{}},"CFP_Basic_Helmet_Gray_Green","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Asst_Gunner_SPG_01.jpg";
     };
@@ -803,6 +915,13 @@ class CfgVehicles {
 
         displayName = "Gunner [Mortar]";
 
+        backpack = "CUP_B_M252_Bipod_Bag";
+        weapons[] = {"CUP_arifle_M16A4_Base","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_Base","Throw","Put"};
+        linkedItems[] = {"CFP_Osprey1_Wd","CFP_Basic_Helmet_Gray_Green","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CFP_Osprey1_Wd","CFP_Basic_Helmet_Gray_Green","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_BattleDressUniform_ana_wdlight",{{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_Osprey1_Wd",{{"CUP_30Rnd_556x45_Stanag",5,30}}},{"CUP_B_M252_Bipod_Bag",{}},"CFP_Basic_Helmet_Gray_Green","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Gunner_Mortar_01.jpg";
     };
@@ -811,6 +930,13 @@ class CfgVehicles {
 
         displayName = "Asst. Gunner [Mortar]";
 
+        backpack = "CUP_B_M252_Gun_Bag";
+        weapons[] = {"CUP_arifle_M16A4_Base","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M16A4_Base","Throw","Put"};
+        linkedItems[] = {"CFP_Osprey1_Wd","CFP_Basic_Helmet_Gray_Green","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CFP_Osprey1_Wd","CFP_Basic_Helmet_Gray_Green","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_BattleDressUniform_ana_wdlight",{{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_Osprey1_Wd",{{"CUP_30Rnd_556x45_Stanag",5,30}}},{"CUP_B_M252_Gun_Bag",{}},"CFP_Basic_Helmet_Gray_Green","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Asst_Gunner_Mortar_01.jpg";
     };
@@ -942,6 +1068,13 @@ class CfgVehicles {
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
         uniformClass = "CFP_U_FieldUniform_m81anasf";
 
+
+        weapons[] = {"arifle_SPAR_01_blk_F","CUP_hgun_Glock17_blk","Throw","Put"};
+        respawnWeapons[] = {"arifle_SPAR_01_blk_F","CUP_hgun_Glock17_blk","Throw","Put"};
+        linkedItems[] = {"CFP_LBT6094_operator_M81","SP_BeanieHat_Green","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CFP_LBT6094_operator_M81","SP_BeanieHat_Green","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17"};
         ALiVE_orbatCreator_loadout[] = {{"arifle_SPAR_01_blk_F","muzzle_snds_M","acc_pointer_IR","optic_Holosight_smg_blk_F",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_m81anasf",{{"30Rnd_556x45_Stanag",3,30},{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_LBT6094_operator_M81",{{"30Rnd_556x45_Stanag",5,30}}},{},"SP_BeanieHat_Green","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 	randomGearProbability = 100;
@@ -965,7 +1098,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_AFG_ANA_CDO'] call BIS_fnc_setUnitInsignia;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_AFG_ANA_CDO'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -980,6 +1113,13 @@ class CfgVehicles {
 
         displayName = "Team Leader [SF]";
 
+
+        weapons[] = {"arifle_SPAR_01_blk_F","CUP_hgun_Glock17_blk","Throw","Put"};
+        respawnWeapons[] = {"arifle_SPAR_01_blk_F","CUP_hgun_Glock17_blk","Throw","Put"};
+        linkedItems[] = {"CFP_LBT6094_operator_M81","CFP_OPS2017_Helmet_M81","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CFP_LBT6094_operator_M81","CFP_OPS2017_Helmet_M81","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17"};
         ALiVE_orbatCreator_loadout[] = {{"arifle_SPAR_01_blk_F","muzzle_snds_M","acc_pointer_IR","optic_Holosight_smg_blk_F",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_m81anasf",{{"30Rnd_556x45_Stanag",3,30},{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_LBT6094_operator_M81",{{"30Rnd_556x45_Stanag",5,30}}},{},"CFP_OPS2017_Helmet_M81","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Team_Leader_01.jpg";
     };
@@ -988,6 +1128,13 @@ class CfgVehicles {
 
         displayName = "Grenadier [SF]";
 
+
+        weapons[] = {"arifle_SPAR_01_GL_blk_F","CUP_hgun_Glock17_blk","Throw","Put"};
+        respawnWeapons[] = {"arifle_SPAR_01_GL_blk_F","CUP_hgun_Glock17_blk","Throw","Put"};
+        linkedItems[] = {"CFP_LBT6094_operator_M81","CFP_OPS2017_Helmet_M81","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CFP_LBT6094_operator_M81","CFP_OPS2017_Helmet_M81","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17"};
         ALiVE_orbatCreator_loadout[] = {{"arifle_SPAR_01_GL_blk_F","muzzle_snds_M","acc_pointer_IR","optic_Holosight_smg_blk_F",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_m81anasf",{{"CUP_17Rnd_9x19_glock17",3,17},{"30Rnd_556x45_Stanag",3,30}}},{"CFP_LBT6094_operator_M81",{{"1Rnd_HE_Grenade_shell",5,1},{"30Rnd_556x45_Stanag",5,30},{"1Rnd_Smoke_Grenade_shell",4,1}}},{},"CFP_OPS2017_Helmet_M81","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Grenadier_SF_01.jpg";
     };
@@ -996,6 +1143,13 @@ class CfgVehicles {
 
         displayName = "Explosive Specialist [SF]";
 
+
+        weapons[] = {"arifle_SPAR_01_blk_F","CUP_hgun_Glock17_blk","Throw","Put"};
+        respawnWeapons[] = {"arifle_SPAR_01_blk_F","CUP_hgun_Glock17_blk","Throw","Put"};
+        linkedItems[] = {"CFP_LBT6094_operator_M81","CFP_OPS2017_Helmet_M81","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CFP_LBT6094_operator_M81","CFP_OPS2017_Helmet_M81","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17"};
         ALiVE_orbatCreator_loadout[] = {{"arifle_SPAR_01_blk_F","muzzle_snds_M","acc_pointer_IR","optic_Holosight_smg_blk_F",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_m81anasf",{{"30Rnd_556x45_Stanag",3,30},{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_LBT6094_operator_M81",{{"30Rnd_556x45_Stanag",5,30},{"DemoCharge_Remote_Mag",4,1},{"SLAMDirectionalMine_Wire_Mag",1,1},{"APERSTripMine_Wire_Mag",1,1}}},{},"CFP_OPS2017_Helmet_M81","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Explosive_Specialist_SF_01.jpg";
     };
@@ -1004,6 +1158,13 @@ class CfgVehicles {
 
         displayName = "Machine Gunner [SF]";
 
+
+        weapons[] = {"CUP_lmg_m249_pip3","CUP_hgun_Glock17_blk","Throw","Put"};
+        respawnWeapons[] = {"CUP_lmg_m249_pip3","CUP_hgun_Glock17_blk","Throw","Put"};
+        linkedItems[] = {"CFP_LBT6094_MG_M81","CFP_OPS2017_Helmet_M81","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CFP_LBT6094_MG_M81","CFP_OPS2017_Helmet_M81","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17"};
+        respawnMagazines[] = {"CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_m249_pip3","","","CUP_optic_HoloBlack",{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",200},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_m81anasf",{{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_LBT6094_MG_M81",{{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",4,200}}},{},"CFP_OPS2017_Helmet_M81","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Machine_Gunner_SF_01.jpg";
     };
@@ -1012,6 +1173,13 @@ class CfgVehicles {
 
         displayName = "Medic [SF]";
 
+
+        weapons[] = {"arifle_SPAR_01_blk_F","CUP_hgun_Glock17_blk","Throw","Put"};
+        respawnWeapons[] = {"arifle_SPAR_01_blk_F","CUP_hgun_Glock17_blk","Throw","Put"};
+        linkedItems[] = {"CFP_LBT6094_operator_M81","CFP_OPS2017_Helmet_M81","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CFP_LBT6094_operator_M81","CFP_OPS2017_Helmet_M81","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17"};
         ALiVE_orbatCreator_loadout[] = {{"arifle_SPAR_01_blk_F","muzzle_snds_M","acc_pointer_IR","optic_Holosight_smg_blk_F",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_m81anasf",{{"30Rnd_556x45_Stanag",3,30},{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_LBT6094_operator_M81",{{"FirstAidKit",10},{"30Rnd_556x45_Stanag",5,30}}},{},"CFP_OPS2017_Helmet_M81","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Medic_SF_01.jpg";
     };
@@ -1027,6 +1195,13 @@ class CfgVehicles {
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
         uniformClass = "CFP_U_FieldUniform_m81anasf";
 
+
+        weapons[] = {"arifle_SPAR_01_blk_F","CUP_hgun_Glock17_blk","Throw","Put"};
+        respawnWeapons[] = {"arifle_SPAR_01_blk_F","CUP_hgun_Glock17_blk","Throw","Put"};
+        linkedItems[] = {"CFP_LBT6094_operator_M81","SP_BeanieHat_Green","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CFP_LBT6094_operator_M81","SP_BeanieHat_Green","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17"};
         ALiVE_orbatCreator_loadout[] = {{"arifle_SPAR_01_blk_F","muzzle_snds_M","acc_pointer_IR","optic_Holosight_smg_blk_F",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_m81anasf",{{"30Rnd_556x45_Stanag",3,30},{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_LBT6094_operator_M81",{{"30Rnd_556x45_Stanag",5,30}}},{},"SP_BeanieHat_Green","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
     randomGearProbability = 100;
@@ -1042,7 +1217,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_AFG_ANA_CDO_SF'] call BIS_fnc_setUnitInsignia;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_AFG_ANA_CDO_SF'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -1057,6 +1232,13 @@ class CfgVehicles {
 
         displayName = "Team Leader Light [SF]";
 
+
+        weapons[] = {"arifle_SPAR_01_blk_F","CUP_hgun_Glock17_blk","Throw","Put"};
+        respawnWeapons[] = {"arifle_SPAR_01_blk_F","CUP_hgun_Glock17_blk","Throw","Put"};
+        linkedItems[] = {"CFP_LBT6094_operator_M81","H_Booniehat_oli","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CFP_LBT6094_operator_M81","H_Booniehat_oli","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17"};
         ALiVE_orbatCreator_loadout[] = {{"arifle_SPAR_01_blk_F","muzzle_snds_M","acc_pointer_IR","optic_Holosight_smg_blk_F",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_m81anasf",{{"30Rnd_556x45_Stanag",3,30},{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_LBT6094_operator_M81",{{"30Rnd_556x45_Stanag",5,30}}},{},"H_Booniehat_oli","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Team_Leader_LIght_SF_01.jpg";
     };
@@ -1065,6 +1247,13 @@ class CfgVehicles {
 
         displayName = "Grenadier Light [SF]";
 
+
+        weapons[] = {"arifle_SPAR_01_GL_blk_F","CUP_hgun_Glock17_blk","Throw","Put"};
+        respawnWeapons[] = {"arifle_SPAR_01_GL_blk_F","CUP_hgun_Glock17_blk","Throw","Put"};
+        linkedItems[] = {"CFP_LBT6094_operator_M81","SP_BaseballCap_Green","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CFP_LBT6094_operator_M81","SP_BaseballCap_Green","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17"};
         ALiVE_orbatCreator_loadout[] = {{"arifle_SPAR_01_GL_blk_F","muzzle_snds_M","acc_pointer_IR","optic_Holosight_smg_blk_F",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_m81anasf",{{"CUP_17Rnd_9x19_glock17",3,17},{"30Rnd_556x45_Stanag",3,30}}},{"CFP_LBT6094_operator_M81",{{"1Rnd_HE_Grenade_shell",5,1},{"30Rnd_556x45_Stanag",5,30},{"1Rnd_Smoke_Grenade_shell",4,1}}},{},"SP_BaseballCap_Green","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Grenadier_Light_SF_01.jpg";
     };
@@ -1073,6 +1262,13 @@ class CfgVehicles {
 
         displayName = "Explosive Specialist Light [SF]";
 
+
+        weapons[] = {"arifle_SPAR_01_blk_F","CUP_hgun_Glock17_blk","Throw","Put"};
+        respawnWeapons[] = {"arifle_SPAR_01_blk_F","CUP_hgun_Glock17_blk","Throw","Put"};
+        linkedItems[] = {"CFP_LBT6094_operator_M81","SP_BeanieHat_Black","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CFP_LBT6094_operator_M81","SP_BeanieHat_Black","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17"};
         ALiVE_orbatCreator_loadout[] = {{"arifle_SPAR_01_blk_F","muzzle_snds_M","acc_pointer_IR","optic_Holosight_smg_blk_F",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_m81anasf",{{"30Rnd_556x45_Stanag",3,30},{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_LBT6094_operator_M81",{{"30Rnd_556x45_Stanag",5,30},{"DemoCharge_Remote_Mag",4,1},{"SLAMDirectionalMine_Wire_Mag",1,1},{"APERSTripMine_Wire_Mag",1,1}}},{},"SP_BeanieHat_Black","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Explosive_Specialist_Light_SF_01.jpg";
     };
@@ -1081,6 +1277,13 @@ class CfgVehicles {
 
         displayName = "Machine Gunner Light [SF]";
 
+
+        weapons[] = {"CUP_lmg_m249_pip3","CUP_hgun_Glock17_blk","Throw","Put"};
+        respawnWeapons[] = {"CUP_lmg_m249_pip3","CUP_hgun_Glock17_blk","Throw","Put"};
+        linkedItems[] = {"CFP_LBT6094_MG_M81","SP_Bandana_Green","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CFP_LBT6094_MG_M81","SP_Bandana_Green","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17"};
+        respawnMagazines[] = {"CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_m249_pip3","","","CUP_optic_HoloBlack",{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",200},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_m81anasf",{{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_LBT6094_MG_M81",{{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",4,200}}},{},"SP_Bandana_Green","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Machine_Gunner_LIght_SF_01.jpg";
     };
@@ -1089,6 +1292,13 @@ class CfgVehicles {
 
         displayName = "Medic Light [SF]";
 
+
+        weapons[] = {"arifle_SPAR_01_blk_F","CUP_hgun_Glock17_blk","Throw","Put"};
+        respawnWeapons[] = {"arifle_SPAR_01_blk_F","CUP_hgun_Glock17_blk","Throw","Put"};
+        linkedItems[] = {"CFP_LBT6094_operator_M81","SP_BaseballCap_Green","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CFP_LBT6094_operator_M81","SP_BaseballCap_Green","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17"};
         ALiVE_orbatCreator_loadout[] = {{"arifle_SPAR_01_blk_F","muzzle_snds_M","acc_pointer_IR","optic_Holosight_smg_blk_F",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_m81anasf",{{"30Rnd_556x45_Stanag",3,30},{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_LBT6094_operator_M81",{{"FirstAidKit",10},{"30Rnd_556x45_Stanag",5,30}}},{},"SP_BaseballCap_Green","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Medic_Light_SF_01.jpg";
     };

@@ -19,8 +19,8 @@ class CfgVehicles {
 
     class CUP_C_LR_Transport_CTK;
     class CUP_C_LR_Transport_CTK_OCimport_01 : CUP_C_LR_Transport_CTK { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_C_LR_Transport_CTK_OCimport_02 : CUP_C_LR_Transport_CTK_OCimport_01 { 
-        class EventHandlers; 
+    class CUP_C_LR_Transport_CTK_OCimport_02 : CUP_C_LR_Transport_CTK_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CargoTurret_01;
             class CargoTurret_02;
@@ -29,8 +29,8 @@ class CfgVehicles {
 
     class CUP_C_UAZ_Open_TK_CIV;
     class CUP_C_UAZ_Open_TK_CIV_OCimport_01 : CUP_C_UAZ_Open_TK_CIV { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_C_UAZ_Open_TK_CIV_OCimport_02 : CUP_C_UAZ_Open_TK_CIV_OCimport_01 { 
-        class EventHandlers; 
+    class CUP_C_UAZ_Open_TK_CIV_OCimport_02 : CUP_C_UAZ_Open_TK_CIV_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CargoTurret_01;
             class CargoTurret_02;
@@ -42,8 +42,8 @@ class CfgVehicles {
 
     class CUP_C_SUV_TK;
     class CUP_C_SUV_TK_OCimport_01 : CUP_C_SUV_TK { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_C_SUV_TK_OCimport_02 : CUP_C_SUV_TK_OCimport_01 { 
-        class EventHandlers; 
+    class CUP_C_SUV_TK_OCimport_02 : CUP_C_SUV_TK_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CargoTurret_03;
             class CargoTurret_04;
@@ -57,8 +57,8 @@ class CfgVehicles {
 
     class CUP_C_SUV_CIV;
     class CUP_C_SUV_CIV_OCimport_01 : CUP_C_SUV_CIV { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_C_SUV_CIV_OCimport_02 : CUP_C_SUV_CIV_OCimport_01 { 
-        class EventHandlers; 
+    class CUP_C_SUV_CIV_OCimport_02 : CUP_C_SUV_CIV_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CargoTurret_03;
             class CargoTurret_04;
@@ -72,8 +72,8 @@ class CfgVehicles {
 
     class CUP_C_Datsun_Plain;
     class CUP_C_Datsun_Plain_OCimport_01 : CUP_C_Datsun_Plain { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_C_Datsun_Plain_OCimport_02 : CUP_C_Datsun_Plain_OCimport_01 { 
-        class EventHandlers; 
+    class CUP_C_Datsun_Plain_OCimport_02 : CUP_C_Datsun_Plain_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CargoTurret_01;
             class CargoTurret_02;
@@ -82,8 +82,8 @@ class CfgVehicles {
 
     class C_Truck_02_covered_F;
     class C_Truck_02_covered_F_OCimport_01 : C_Truck_02_covered_F { scope = 0; class EventHandlers; class Turrets; };
-    class C_Truck_02_covered_F_OCimport_02 : C_Truck_02_covered_F_OCimport_01 { 
-        class EventHandlers; 
+    class C_Truck_02_covered_F_OCimport_02 : C_Truck_02_covered_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CargoTurret_01;
             class CargoTurret_02;
@@ -115,6 +115,13 @@ class CfgVehicles {
         identityTypes[] = {"Head_African","LanguageFRE_F"};
         uniformClass = "U_I_C_Soldier_Bandit_4_F";
 
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        linkedItems[] = {"","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {};
+        respawnMagazines[] = {};
         ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_I_C_Soldier_Bandit_4_F",{}},{},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 	randomGearProbability = 100;
@@ -174,7 +181,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -185,105 +192,196 @@ class CfgVehicles {
     };
 
     class CFP_C_AFRCHRISTIAN_Civ_2_01 :  CFP_C_AFRCHRISTIAN_Civ_1_01 {
-        
+
         displayName = "Civilian";
-        
+
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        linkedItems[] = {"","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {};
+        respawnMagazines[] = {};
         ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_I_C_Soldier_Bandit_2_F",{}},{},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_C_AFRCHRISTIAN_Civ_3_01 :  CFP_C_AFRCHRISTIAN_Civ_1_01 {
-        
+
         displayName = "Civilian";
-       
+
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        linkedItems[] = {"","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {};
+        respawnMagazines[] = {};
         ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_I_C_Soldier_Bandit_1_F",{}},{},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_C_AFRCHRISTIAN_Civ_4_01 :  CFP_C_AFRCHRISTIAN_Civ_1_01 {
-        
+
         displayName = "Civilian";
-        
+
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        linkedItems[] = {"H_Booniehat_oli","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"H_Booniehat_oli","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {};
+        respawnMagazines[] = {};
         ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_I_C_Soldier_Bandit_5_F",{}},{},{},"H_Booniehat_oli","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_C_AFRCHRISTIAN_Civ_5_01 :  CFP_C_AFRCHRISTIAN_Civ_1_01 {
-        
+
         displayName = "Civilian";
-        
+
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        linkedItems[] = {"H_Cap_grn","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"H_Cap_grn","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {};
+        respawnMagazines[] = {};
         ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_I_C_Soldier_Bandit_3_F",{}},{},{},"H_Cap_grn","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_C_AFRCHRISTIAN_Civ_6_01 :  CFP_C_AFRCHRISTIAN_Civ_1_01 {
-        
+
         displayName = "Civilian";
-        
+
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        linkedItems[] = {"H_Booniehat_tan","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"H_Booniehat_tan","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {};
+        respawnMagazines[] = {};
         ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_C_Poloshirt_salmon",{}},{},{},"H_Booniehat_tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_C_AFRCHRISTIAN_Civ_7_01 :  CFP_C_AFRCHRISTIAN_Civ_1_01 {
-        
+
         displayName = "Civilian";
-        
+
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        linkedItems[] = {"H_Bandanna_cbr","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"H_Bandanna_cbr","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {};
+        respawnMagazines[] = {};
         ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_BG_Guerilla2_3",{}},{},{},"H_Bandanna_cbr","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_C_AFRCHRISTIAN_Civ_8_01 :  CFP_C_AFRCHRISTIAN_Civ_1_01 {
-        
+
         displayName = "Civilian";
-        
+
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        linkedItems[] = {"","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {};
+        respawnMagazines[] = {};
         ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_C_Poloshirt_tricolour",{}},{},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_C_AFRCHRISTIAN_Civ_9_01 :  CFP_C_AFRCHRISTIAN_Civ_1_01 {
-        
+
         displayName = "Civilian";
-        
+
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        linkedItems[] = {"","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {};
+        respawnMagazines[] = {};
         ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_OrestesBody",{}},{},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_C_AFRCHRISTIAN_Civ_10_01 :  CFP_C_AFRCHRISTIAN_Civ_1_01 {
-        
+
         displayName = "Civilian";
-        
+
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        linkedItems[] = {"","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {};
+        respawnMagazines[] = {};
         ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_C_Poloshirt_burgundy",{{"FirstAidKit",1},{"Chemlight_red",1,1}}},{},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_C_AFRCHRISTIAN_Civ_11_01 :  CFP_C_AFRCHRISTIAN_Civ_1_01 {
-        
+
         displayName = "Civilian";
-        
+
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        linkedItems[] = {"CUP_H_C_Beanie_04","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_H_C_Beanie_04","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {};
+        respawnMagazines[] = {};
         ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_O_TKI_Khet_Partug_02",{}},{},{},"CUP_H_C_Beanie_04","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_C_AFRCHRISTIAN_Civ_12_01 :  CFP_C_AFRCHRISTIAN_Civ_1_01 {
-        
+
         displayName = "Civilian";
-        
+
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        linkedItems[] = {"CUP_H_C_Beanie_01","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_H_C_Beanie_01","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {};
+        respawnMagazines[] = {};
         ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_O_TKI_Khet_Partug_03",{}},{},{},"CUP_H_C_Beanie_01","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_C_AFRCHRISTIAN_Civ_13_01 :  CFP_C_AFRCHRISTIAN_Civ_1_01 {
-        
+
         displayName = "Civilian";
-        
+
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        linkedItems[] = {"","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {};
+        respawnMagazines[] = {};
         ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_Marshal",{}},{},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_C_AFRCHRISTIAN_Civ_14_01 :  CFP_C_AFRCHRISTIAN_Civ_1_01 {
-        
+
         displayName = "Civilian";
-        
+
+
+        weapons[] = {"Throw","Put"};
+        respawnWeapons[] = {"Throw","Put"};
+        linkedItems[] = {"H_Cap_red","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"H_Cap_red","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {};
+        respawnMagazines[] = {};
         ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_U_C_Worker_01",{}},{},{},"H_Cap_red","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };

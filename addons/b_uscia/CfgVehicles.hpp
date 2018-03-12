@@ -198,9 +198,6 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Paramilitary Officer";
 
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
 	class CFP_B_USCIA_paramilitary_officer_covert_01 : CFP_B_USCIA_Paramilitary_Officer_Base {
@@ -208,9 +205,6 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Paramilitary Officer (Covert)";
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
 
         uniformClass = "CUP_O_TKI_Khet_Jeans_01";
 
@@ -450,9 +444,6 @@ class CfgVehicles {
             "CUP_NVG_PVS7", 0.25,
             "NVGoggles", 0.1
         };
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
     class CFP_B_USCIA_paramilitary_officer_assault_02 : CFP_B_USCIA_paramilitary_officer_assault_01 {
@@ -473,9 +464,6 @@ class CfgVehicles {
             {"arifle_AK12_GL_F",{{"30Rnd_762x39_Mag_F",6},{"1Rnd_HE_Grenade_shell",4},{"1Rnd_HE_Grenade_shell",2}}}, 0.2
         };
 
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
     class CFP_B_USCIA_paramilitary_officer_assault_03 : CFP_B_USCIA_paramilitary_officer_assault_01 {
@@ -492,9 +480,6 @@ class CfgVehicles {
             {"CUP_launch_M72A6",{"CUP_M72A6_M",3}}, 0.2,
             {"CUP_launch_RPG18",{"CUP_RPG18_M",3}}, 0.2
         };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
 
     };
 
@@ -517,9 +502,6 @@ class CfgVehicles {
             {"CUP_arifle_RPK74M",{"CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",6}}, 0.2,
             {"CUP_lmg_Mk48_des",{"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",6}}, 0.1
         };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
 
     };
 

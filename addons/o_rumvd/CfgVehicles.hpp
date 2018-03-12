@@ -1428,6 +1428,13 @@ class CfgVehicles {
         identityTypes[] = {"Head_Euro","CUP_D_Language_RU","G_GUERIL_default"};
         uniformClass = "CUP_U_O_RUS_Gorka_Green";
 
+
+        weapons[] = {"CUP_arifle_AK74M_kobra","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_AK74M_kobra","Throw","Put"};
+        linkedItems[] = {"CUP_V_RUS_Smersh_1","CUP_H_RUS_ZSH_1_Goggles","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_RUS_Smersh_1","CUP_H_RUS_ZSH_1_Goggles","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_kobra","","","CUP_optic_Kobra",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"CUP_U_O_RUS_Gorka_Green",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",3,30},{"SmokeShell",1,1}}},{"CUP_V_RUS_Smersh_1",{{"CUP_30Rnd_545x39_AK_M",2,30},{"CUP_HandGrenade_RGD5",4,1},{"SmokeShellOrange",1,1}}},{},"CUP_H_RUS_ZSH_1_Goggles","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
@@ -1436,7 +1443,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -1457,6 +1464,13 @@ class CfgVehicles {
         identityTypes[] = {"Head_Euro","CUP_D_Language_RU","G_GUERIL_default"};
         uniformClass = "CUP_U_O_RUS_Gorka_Green";
 
+
+        weapons[] = {"CUP_arifle_AK74M_GL_kobra","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_AK74M_GL_kobra","Throw","Put"};
+        linkedItems[] = {"CUP_V_RUS_Smersh_1","CUP_H_RUS_ZSH_1","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_RUS_Smersh_1","CUP_H_RUS_ZSH_1","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_GL_kobra","","","CUP_optic_Kobra",{"CUP_30Rnd_545x39_AK_M",30},{"CUP_1Rnd_HE_GP25_M",1},""},{},{},{"CUP_U_O_RUS_Gorka_Green",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",3,30},{"SmokeShell",1,1}}},{"CUP_V_RUS_Smersh_1",{{"CUP_30Rnd_545x39_AK_M",4,30},{"SmokeShellOrange",1,1},{"CUP_1Rnd_HE_GP25_M",7,1}}},{},"CUP_H_RUS_ZSH_1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
@@ -1465,7 +1479,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -1486,6 +1500,13 @@ class CfgVehicles {
         identityTypes[] = {"Head_Euro","CUP_D_Language_RU","G_GUERIL_default"};
         uniformClass = "CUP_U_O_RUS_Gorka_Green";
 
+
+        weapons[] = {"CUP_arifle_AK74M_GL_pso","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_AK74M_GL_pso","Throw","Put"};
+        linkedItems[] = {"CUP_V_RUS_Smersh_1","CUP_H_RUS_ZSH_1","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_RUS_Smersh_1","CUP_H_RUS_ZSH_1","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_GL_pso","","","CUP_optic_PSO_1",{"CUP_30Rnd_545x39_AK_M",30},{"CUP_1Rnd_HE_GP25_M",1},""},{},{},{"CUP_U_O_RUS_Gorka_Green",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",3,30},{"SmokeShellOrange",1,1}}},{"CUP_V_RUS_Smersh_1",{{"CUP_30Rnd_545x39_AK_M",2,30},{"CUP_HandGrenade_RGD5",2,1},{"SmokeShellBlue",1,1},{"CUP_1Rnd_HE_GP25_M",3,1},{"CUP_1Rnd_SMOKE_GP25_M",2,1},{"CUP_FlareWhite_M203",1,1},{"CUP_FlareRed_GP25_M",1,1}}},{},"CUP_H_RUS_ZSH_1","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
@@ -1494,7 +1515,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -1515,6 +1536,13 @@ class CfgVehicles {
         identityTypes[] = {"Head_Euro","CUP_D_Language_RU","G_GUERIL_default"};
         uniformClass = "CUP_U_O_RUS_Gorka_Green";
 
+        backpack = "CUP_B_RUS_Pack_AT";
+        weapons[] = {"CUP_arifle_AK74M_kobra","CUP_launch_RPG7V","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_AK74M_kobra","CUP_launch_RPG7V","Throw","Put"};
+        linkedItems[] = {"CUP_V_RUS_Smersh_2","CUP_H_RUS_ZSH_1","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_RUS_Smersh_2","CUP_H_RUS_ZSH_1","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_PG7VL_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_PG7VL_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_kobra","","","CUP_optic_Kobra",{"CUP_30Rnd_545x39_AK_M",30},{},""},{"CUP_launch_RPG7V","","","",{"CUP_PG7VL_M",1},{},""},{},{"CUP_U_O_RUS_Gorka_Green",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",3,30}}},{"CUP_V_RUS_Smersh_2",{{"CUP_30Rnd_545x39_AK_M",2,30}}},{"CUP_B_RUS_Pack_AT",{{"CUP_PG7VL_M",2,1}}},"CUP_H_RUS_ZSH_1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
@@ -1523,7 +1551,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -1544,6 +1572,13 @@ class CfgVehicles {
         identityTypes[] = {"Head_Euro","CUP_D_Language_RU","G_GUERIL_default"};
         uniformClass = "CUP_U_O_RUS_Gorka_Green";
 
+        backpack = "CUP_B_RUS_Pack_MG";
+        weapons[] = {"CUP_lmg_Pecheneg_PScope","Throw","Put"};
+        respawnWeapons[] = {"CUP_lmg_Pecheneg_PScope","Throw","Put"};
+        linkedItems[] = {"CUP_V_RUS_Smersh_2","CUP_H_RUS_ZSH_1_Goggles","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_RUS_Smersh_2","CUP_H_RUS_ZSH_1_Goggles","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"};
+        respawnMagazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_Pecheneg_PScope","","","CUP_optic_PechenegScope",{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",100},{},""},{},{},{"CUP_U_O_RUS_Gorka_Green",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",2,1}}},{"CUP_V_RUS_Smersh_2",{}},{"CUP_B_RUS_Pack_MG",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",3,100}}},"CUP_H_RUS_ZSH_1_Goggles","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
@@ -1552,7 +1587,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -1573,6 +1608,13 @@ class CfgVehicles {
         identityTypes[] = {"Head_Euro","CUP_D_Language_RU","G_GUERIL_default"};
         uniformClass = "CUP_U_O_RUS_Gorka_Green";
 
+
+        weapons[] = {"CUP_srifle_VSSVintorez_pso","Throw","Put"};
+        respawnWeapons[] = {"CUP_srifle_VSSVintorez_pso","Throw","Put"};
+        linkedItems[] = {"CUP_V_RUS_Smersh_1","CUP_H_RUS_ZSH_1_Goggles","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_RUS_Smersh_1","CUP_H_RUS_ZSH_1_Goggles","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_10Rnd_9x39_SP5_VSS_M","CUP_10Rnd_9x39_SP5_VSS_M","CUP_10Rnd_9x39_SP5_VSS_M"};
+        respawnMagazines[] = {"CUP_10Rnd_9x39_SP5_VSS_M","CUP_10Rnd_9x39_SP5_VSS_M","CUP_10Rnd_9x39_SP5_VSS_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_VSSVintorez_pso","","","CUP_optic_PSO_1",{"CUP_10Rnd_9x39_SP5_VSS_M",10},{},""},{},{},{"CUP_U_O_RUS_Gorka_Green",{{"FirstAidKit",1},{"CUP_10Rnd_9x39_SP5_VSS_M",7,10},{"SmokeShell",1,1}}},{"CUP_V_RUS_Smersh_1",{{"CUP_HandGrenade_RGD5",2,1},{"SmokeShellOrange",1,1}}},{},"CUP_H_RUS_ZSH_1_Goggles","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
@@ -1581,7 +1623,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -1602,6 +1644,13 @@ class CfgVehicles {
         identityTypes[] = {"Head_Euro","CUP_D_Language_RU","G_GUERIL_default"};
         uniformClass = "CUP_U_O_RUS_Gorka_Green";
 
+
+        weapons[] = {"CUP_srifle_SVD_pso","Throw","Put"};
+        respawnWeapons[] = {"CUP_srifle_SVD_pso","Throw","Put"};
+        linkedItems[] = {"CUP_V_RUS_Smersh_1","CUP_H_RUS_ZSH_1_Goggles","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_RUS_Smersh_1","CUP_H_RUS_ZSH_1_Goggles","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M"};
+        respawnMagazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_SVD_pso","","","CUP_optic_PSO_1",{"CUP_10Rnd_762x54_SVD_M",10},{},""},{},{},{"CUP_U_O_RUS_Gorka_Green",{{"FirstAidKit",1},{"CUP_10Rnd_762x54_SVD_M",7,10},{"SmokeShell",1,1}}},{"CUP_V_RUS_Smersh_1",{{"CUP_HandGrenade_RGD5",2,1},{"SmokeShellOrange",1,1}}},{},"CUP_H_RUS_ZSH_1_Goggles","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
@@ -1610,7 +1659,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };

@@ -76,8 +76,8 @@ class CfgVehicles {
 
     class CUP_O_DSHKM_SLA;
     class CUP_O_DSHKM_SLA_OCimport_01 : CUP_O_DSHKM_SLA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_DSHKM_SLA_OCimport_02 : CUP_O_DSHKM_SLA_OCimport_01 { 
-        class EventHandlers; 
+    class CUP_O_DSHKM_SLA_OCimport_02 : CUP_O_DSHKM_SLA_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -85,8 +85,8 @@ class CfgVehicles {
 
     class CUP_O_DSHKM_MiniTripod_SLA;
     class CUP_O_DSHKM_MiniTripod_SLA_OCimport_01 : CUP_O_DSHKM_MiniTripod_SLA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_DSHKM_MiniTripod_SLA_OCimport_02 : CUP_O_DSHKM_MiniTripod_SLA_OCimport_01 { 
-        class EventHandlers; 
+    class CUP_O_DSHKM_MiniTripod_SLA_OCimport_02 : CUP_O_DSHKM_MiniTripod_SLA_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -94,8 +94,8 @@ class CfgVehicles {
 
     class CUP_O_SPG9_SLA;
     class CUP_O_SPG9_SLA_OCimport_01 : CUP_O_SPG9_SLA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_SPG9_SLA_OCimport_02 : CUP_O_SPG9_SLA_OCimport_01 { 
-        class EventHandlers; 
+    class CUP_O_SPG9_SLA_OCimport_02 : CUP_O_SPG9_SLA_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -103,8 +103,8 @@ class CfgVehicles {
 
     class CUP_O_2b14_82mm_SLA;
     class CUP_O_2b14_82mm_SLA_OCimport_01 : CUP_O_2b14_82mm_SLA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_2b14_82mm_SLA_OCimport_02 : CUP_O_2b14_82mm_SLA_OCimport_01 { 
-        class EventHandlers; 
+    class CUP_O_2b14_82mm_SLA_OCimport_02 : CUP_O_2b14_82mm_SLA_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -123,6 +123,13 @@ class CfgVehicles {
         identityTypes[] = {"Head_TK","LanguagePER_F"};
         uniformClass = "CUP_O_TKI_Khet_Partug_06";
 
+
+        weapons[] = {"CUP_arifle_AK74_GL","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_AK74_GL","Throw","Put"};
+        linkedItems[] = {"CUP_V_OI_TKI_Jacket4_04","CUP_H_TKI_Pakol_2_03","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_OI_TKI_Jacket4_04","CUP_H_TKI_Pakol_2_03","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74_GL","","","",{"CUP_30Rnd_545x39_AK_M",30},{"CUP_1Rnd_HE_GP25_M",1},""},{},{},{"CUP_O_TKI_Khet_Partug_06",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",1,30},{"SmokeShell",1,1},{"SmokeShellBlue",1,1},{"CUP_1Rnd_HE_GP25_M",2,1}}},{"CUP_V_OI_TKI_Jacket4_04",{{"CUP_30Rnd_545x39_AK_M",2,30},{"CUP_1Rnd_HE_GP25_M",1,1}}},{},"CUP_H_TKI_Pakol_2_03","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     	randomGearProbability = 100;
@@ -165,7 +172,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;reload _this};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -180,6 +187,13 @@ class CfgVehicles {
 
         displayName = "Rifleman [AK-74]";
 
+
+        weapons[] = {"CUP_arifle_AK74","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_AK74","Throw","Put"};
+        linkedItems[] = {"CUP_V_OI_TKI_Jacket2_03","CUP_H_TK_Lungee","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_OI_TKI_Jacket2_03","CUP_H_TK_Lungee","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"CUP_O_TKI_Khet_Partug_06",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",1,30}}},{"CUP_V_OI_TKI_Jacket2_03",{{"CUP_30Rnd_545x39_AK_M",2,30}}},{},"CUP_H_TK_Lungee","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
@@ -189,6 +203,13 @@ class CfgVehicles {
 
         displayName = "Rifleman [AK-47]";
 
+
+        weapons[] = {"CUP_arifle_AK47","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_AK47","Throw","Put"};
+        linkedItems[] = {"CUP_V_OI_TKI_Jacket2_05","CUP_H_TKI_Lungee_06","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_OI_TKI_Jacket2_05","CUP_H_TKI_Lungee_06","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CUP_O_TKI_Khet_Partug_08",{{"FirstAidKit",1}}},{"CUP_V_OI_TKI_Jacket2_05",{{"CUP_30Rnd_762x39_AK47_M",3,30}}},{},"CUP_H_TKI_Lungee_06","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
@@ -198,6 +219,13 @@ class CfgVehicles {
 
         displayName = "Grenadier [AK-74]";
 
+        backpack = "CUP_B_TKI_AlicePack_Khaki_AmmoAK74";
+        weapons[] = {"CUP_arifle_AK74_GL","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_AK74_GL","Throw","Put"};
+        linkedItems[] = {"CUP_V_OI_TKI_Jacket2_04","CUP_H_TKI_Lungee_Open_02","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_OI_TKI_Jacket2_04","CUP_H_TKI_Lungee_Open_02","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74_GL","","","",{"CUP_30Rnd_545x39_AK_M",30},{"CUP_1Rnd_HE_GP25_M",1},""},{},{},{"CUP_O_TKI_Khet_Partug_04",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",1,30}}},{"CUP_V_OI_TKI_Jacket2_04",{{"CUP_30Rnd_545x39_AK_M",2,30},{"CUP_1Rnd_HE_GP25_M",3,1}}},{"CUP_B_TKI_AlicePack_Khaki_AmmoAK74",{{"CUP_30Rnd_545x39_AK_M",6,30},{"CUP_1Rnd_HE_GP25_M",2,1},{"CUP_HandGrenade_RGD5",2,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},"CUP_H_TKI_Lungee_Open_02","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
@@ -207,6 +235,13 @@ class CfgVehicles {
 
         displayName = "Rifleman [Lee-Enfield]";
 
+
+        weapons[] = {"CUP_srifle_LeeEnfield","Throw","Put"};
+        respawnWeapons[] = {"CUP_srifle_LeeEnfield","Throw","Put"};
+        linkedItems[] = {"CUP_V_OI_TKI_Jacket4_01","CUP_H_TKI_Lungee_Open_06","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_OI_TKI_Jacket4_01","CUP_H_TKI_Lungee_Open_06","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M"};
+        respawnMagazines[] = {"CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_LeeEnfield","","","",{"CUP_10x_303_M",10},{},""},{},{},{"CUP_O_TKI_Khet_Partug_06",{{"FirstAidKit",1},{"CUP_10x_303_M",3,10}}},{"CUP_V_OI_TKI_Jacket4_01",{{"CUP_10x_303_M",5,10}}},{},"CUP_H_TKI_Lungee_Open_06","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
@@ -216,6 +251,13 @@ class CfgVehicles {
 
         displayName = "Sniper";
 
+
+        weapons[] = {"CUP_srifle_LeeEnfield_rail","Throw","Put"};
+        respawnWeapons[] = {"CUP_srifle_LeeEnfield_rail","Throw","Put"};
+        linkedItems[] = {"CUP_V_OI_TKI_Jacket2_02","CUP_H_TKI_Lungee_03","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_OI_TKI_Jacket2_02","CUP_H_TKI_Lungee_03","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M"};
+        respawnMagazines[] = {"CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_LeeEnfield_rail","","","CUP_optic_LeupoldM3LR",{"CUP_10x_303_M",10},{},""},{},{},{"CUP_O_TKI_Khet_Partug_04",{{"FirstAidKit",1},{"SmokeShell",1,1},{"SmokeShellBlue",1,1},{"CUP_10x_303_M",2,10}}},{"CUP_V_OI_TKI_Jacket2_02",{{"CUP_10x_303_M",5,10}}},{},"CUP_H_TKI_Lungee_03","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
@@ -225,6 +267,13 @@ class CfgVehicles {
 
         displayName = "Machine Gunner";
 
+        backpack = "CUP_B_TKI_AlicePack_MG";
+        weapons[] = {"CUP_lmg_PKM","Throw","Put"};
+        respawnWeapons[] = {"CUP_lmg_PKM","Throw","Put"};
+        linkedItems[] = {"CUP_V_OI_TKI_Jacket2_04","CUP_H_TKI_SkullCap_02","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_OI_TKI_Jacket2_04","CUP_H_TKI_SkullCap_02","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"};
+        respawnMagazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_PKM","","","",{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",100},{},""},{},{},{"CUP_O_TKI_Khet_Partug_04",{{"FirstAidKit",1}}},{"CUP_V_OI_TKI_Jacket2_04",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",1,100}}},{"CUP_B_TKI_AlicePack_MG",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",2,100}}},"CUP_H_TKI_SkullCap_02","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
@@ -234,6 +283,13 @@ class CfgVehicles {
 
         displayName = "Team Leader [AK-47]";
 
+        backpack = "CUP_B_TIK_CivPack_WDL_Ammo";
+        weapons[] = {"CUP_arifle_AK47","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_AK47","Throw","Put"};
+        linkedItems[] = {"CUP_V_OI_TKI_Jacket3_06","CUP_H_TKI_Pakol_2_06","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_OI_TKI_Jacket3_06","CUP_H_TKI_Pakol_2_06","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CUP_O_TKI_Khet_Partug_02",{{"FirstAidKit",1}}},{"CUP_V_OI_TKI_Jacket3_06",{{"CUP_30Rnd_762x39_AK47_M",3,30}}},{"CUP_B_TIK_CivPack_WDL_Ammo",{{"CUP_10Rnd_762x54_SVD_M",2,10},{"CUP_1Rnd_HEDP_M203",2,1},{"CUP_HandGrenade_RGD5",2,1}}},"CUP_H_TKI_Pakol_2_06","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
@@ -243,6 +299,13 @@ class CfgVehicles {
 
         displayName = "Rifleman [AK-47 2]";
 
+
+        weapons[] = {"CUP_arifle_AK47","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_AK47","Throw","Put"};
+        linkedItems[] = {"CUP_V_OI_TKI_Jacket3_05","CUP_H_TKI_Lungee_04","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_OI_TKI_Jacket3_05","CUP_H_TKI_Lungee_04","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CUP_O_TKI_Khet_Partug_06",{{"FirstAidKit",1}}},{"CUP_V_OI_TKI_Jacket3_05",{{"CUP_30Rnd_762x39_AK47_M",3,30}}},{},"CUP_H_TKI_Lungee_04","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
@@ -252,6 +315,13 @@ class CfgVehicles {
 
         displayName = "Rifleman [Lee-Enfield 2]";
 
+
+        weapons[] = {"CUP_srifle_LeeEnfield","Throw","Put"};
+        respawnWeapons[] = {"CUP_srifle_LeeEnfield","Throw","Put"};
+        linkedItems[] = {"CUP_V_OI_TKI_Jacket1_05","CUP_H_TKI_Lungee_05","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_OI_TKI_Jacket1_05","CUP_H_TKI_Lungee_05","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M"};
+        respawnMagazines[] = {"CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_LeeEnfield","","","",{"CUP_10x_303_M",10},{},""},{},{},{"CUP_O_TKI_Khet_Partug_04",{{"FirstAidKit",1},{"CUP_10x_303_M",3,10}}},{"CUP_V_OI_TKI_Jacket1_05",{{"CUP_10x_303_M",4,10}}},{},"CUP_H_TKI_Lungee_05","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
@@ -261,6 +331,13 @@ class CfgVehicles {
 
         displayName = "Machine Gunner 2";
 
+        backpack = "CUP_B_TKI_AlicePack_MG";
+        weapons[] = {"CUP_lmg_PKM","Throw","Put"};
+        respawnWeapons[] = {"CUP_lmg_PKM","Throw","Put"};
+        linkedItems[] = {"CUP_V_OI_TKI_Jacket3_04","CUP_H_TKI_Lungee_06","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_OI_TKI_Jacket3_04","CUP_H_TKI_Lungee_06","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"};
+        respawnMagazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_PKM","","","",{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",100},{},""},{},{},{"CUP_O_TKI_Khet_Partug_02",{{"FirstAidKit",1}}},{"CUP_V_OI_TKI_Jacket3_04",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",1,100}}},{"CUP_B_TKI_AlicePack_MG",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",2,100}}},"CUP_H_TKI_Lungee_06","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
@@ -270,6 +347,13 @@ class CfgVehicles {
 
         displayName = "AT Rifleman";
 
+        backpack = "CUP_B_TKI_Backpack_Gunner_RPG";
+        weapons[] = {"CUP_arifle_AK74","CUP_launch_RPG7V","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_AK74","CUP_launch_RPG7V","Throw","Put"};
+        linkedItems[] = {"CUP_V_OI_TKI_Jacket4_05","CUP_H_TKI_Pakol_2_02","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_OI_TKI_Jacket4_05","CUP_H_TKI_Pakol_2_02","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_PG7VL_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_PG7VL_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{"CUP_launch_RPG7V","","","",{"CUP_PG7VL_M",1},{},""},{},{"CUP_O_TKI_Khet_Partug_02",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",1,30}}},{"CUP_V_OI_TKI_Jacket4_05",{{"CUP_30Rnd_545x39_AK_M",2,30}}},{"CUP_B_TKI_Backpack_Gunner_RPG",{{"CUP_PG7VL_M",1,1}}},"CUP_H_TKI_Pakol_2_02","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
@@ -279,6 +363,13 @@ class CfgVehicles {
 
         displayName = "AT Rifleman 2";
 
+        backpack = "CUP_B_TKI_Backpack_Gunner_RPG";
+        weapons[] = {"CUP_arifle_AK74","CUP_launch_RPG7V","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_AK74","CUP_launch_RPG7V","Throw","Put"};
+        linkedItems[] = {"CUP_V_OI_TKI_Jacket4_01","CUP_H_TKI_Lungee_02","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_OI_TKI_Jacket4_01","CUP_H_TKI_Lungee_02","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_PG7VL_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_PG7VL_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{"CUP_launch_RPG7V","","","",{"CUP_PG7VL_M",1},{},""},{},{"CUP_O_TKI_Khet_Partug_04",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",1,30}}},{"CUP_V_OI_TKI_Jacket4_01",{{"CUP_30Rnd_545x39_AK_M",2,30}}},{"CUP_B_TKI_Backpack_Gunner_RPG",{{"CUP_PG7VL_M",1,1}}},"CUP_H_TKI_Lungee_02","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
@@ -288,6 +379,13 @@ class CfgVehicles {
 
         displayName = "Grenadier [AK-74 2]";
 
+        backpack = "CUP_B_TKI_AlicePack_Khaki_AmmoAK74";
+        weapons[] = {"CUP_arifle_AK74_GL","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_AK74_GL","Throw","Put"};
+        linkedItems[] = {"CUP_V_OI_TKI_Jacket2_05","CUP_H_TKI_Pakol_2_04","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_OI_TKI_Jacket2_05","CUP_H_TKI_Pakol_2_04","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74_GL","","","",{"CUP_30Rnd_545x39_AK_M",30},{"CUP_1Rnd_HE_GP25_M",1},""},{},{},{"CUP_O_TKI_Khet_Partug_06",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",1,30}}},{"CUP_V_OI_TKI_Jacket2_05",{{"CUP_30Rnd_545x39_AK_M",2,30},{"CUP_1Rnd_HE_GP25_M",3,1}}},{"CUP_B_TKI_AlicePack_Khaki_AmmoAK74",{{"CUP_30Rnd_545x39_AK_M",6,30},{"CUP_1Rnd_HE_GP25_M",2,1},{"CUP_HandGrenade_RGD5",2,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},"CUP_H_TKI_Pakol_2_04","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
@@ -297,6 +395,13 @@ class CfgVehicles {
 
         displayName = "Medic [Lee Enfield]";
 
+        backpack = "CUP_B_TK_AssaultPack_Medic";
+        weapons[] = {"CUP_srifle_LeeEnfield","Throw","Put"};
+        respawnWeapons[] = {"CUP_srifle_LeeEnfield","Throw","Put"};
+        linkedItems[] = {"CUP_V_OI_TKI_Jacket4_02","CUP_H_TKI_Lungee_05","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_OI_TKI_Jacket4_02","CUP_H_TKI_Lungee_05","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M"};
+        respawnMagazines[] = {"CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_LeeEnfield","","","",{"CUP_10x_303_M",10},{},""},{},{},{"CUP_O_TKI_Khet_Partug_02",{{"FirstAidKit",1},{"CUP_10x_303_M",3,10}}},{"CUP_V_OI_TKI_Jacket4_02",{{"CUP_10x_303_M",1,10}}},{"CUP_B_TK_AssaultPack_Medic",{{"Medikit",1},{"FirstAidKit",10}}},"CUP_H_TKI_Lungee_05","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
@@ -306,6 +411,13 @@ class CfgVehicles {
 
         displayName = "Medic [AK-47]";
 
+        backpack = "CUP_B_TK_AssaultPack_Medic";
+        weapons[] = {"CUP_arifle_AK47","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_AK47","Throw","Put"};
+        linkedItems[] = {"CUP_V_OI_TKI_Jacket4_05","CUP_H_TKI_SkullCap_03","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_OI_TKI_Jacket4_05","CUP_H_TKI_SkullCap_03","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CUP_O_TKI_Khet_Partug_04",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",1,30}}},{"CUP_V_OI_TKI_Jacket4_05",{{"CUP_30Rnd_762x39_AK47_M",3,30}}},{"CUP_B_TK_AssaultPack_Medic",{{"Medikit",1},{"FirstAidKit",10}}},"CUP_H_TKI_SkullCap_03","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
@@ -315,6 +427,13 @@ class CfgVehicles {
 
         displayName = "Explosive Specialist";
 
+        backpack = "CUP_B_TKI_AlicePack_Exp";
+        weapons[] = {"CUP_arifle_AK74","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_AK74","Throw","Put"};
+        linkedItems[] = {"CUP_V_OI_TKI_Jacket3_03","CUP_H_TKI_Lungee_Open_05","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_OI_TKI_Jacket3_03","CUP_H_TKI_Lungee_Open_05","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"CUP_O_TKI_Khet_Partug_08",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",1,30}}},{"CUP_V_OI_TKI_Jacket3_03",{{"CUP_30Rnd_545x39_AK_M",2,30}}},{"CUP_B_TKI_AlicePack_Exp",{{"ToolKit",1},{"MineDetector",1},{"CUP_PipeBomb_M",2,1}}},"CUP_H_TKI_Lungee_Open_05","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
@@ -324,6 +443,13 @@ class CfgVehicles {
 
         displayName = "Explosive Specialist [Lee Enfield]";
 
+        backpack = "CUP_B_TKI_AlicePack_Exp";
+        weapons[] = {"CUP_srifle_LeeEnfield","Throw","Put"};
+        respawnWeapons[] = {"CUP_srifle_LeeEnfield","Throw","Put"};
+        linkedItems[] = {"CUP_V_OI_TKI_Jacket3_05","CUP_H_TKI_SkullCap_05","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_OI_TKI_Jacket3_05","CUP_H_TKI_SkullCap_05","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M"};
+        respawnMagazines[] = {"CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_LeeEnfield","","","",{"CUP_10x_303_M",10},{},""},{},{},{"CUP_O_TKI_Khet_Partug_06",{{"FirstAidKit",1},{"CUP_10x_303_M",3,10}}},{"CUP_V_OI_TKI_Jacket3_05",{{"CUP_10x_303_M",4,10}}},{"CUP_B_TKI_AlicePack_Exp",{{"ToolKit",1},{"MineDetector",1},{"CUP_PipeBomb_M",2,1}}},"CUP_H_TKI_SkullCap_05","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
@@ -333,6 +459,13 @@ class CfgVehicles {
 
         displayName = "Gunner [DShKM]";
 
+        backpack = "CUP_B_DShkM_TripodHigh_Bag";
+        weapons[] = {"CUP_arifle_AK74","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_AK74","Throw","Put"};
+        linkedItems[] = {"CUP_V_OI_TKI_Jacket2_04","CUP_H_TKI_Lungee_03","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_OI_TKI_Jacket2_04","CUP_H_TKI_Lungee_03","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"CUP_O_TKI_Khet_Partug_04",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",1,30}}},{"CUP_V_OI_TKI_Jacket2_04",{{"CUP_30Rnd_545x39_AK_M",2,30}}},{"CUP_B_DShkM_TripodHigh_Bag",{}},"CUP_H_TKI_Lungee_03","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
@@ -342,6 +475,13 @@ class CfgVehicles {
 
         displayName = "Gunner [Low DShKM]";
 
+        backpack = "CUP_B_DShkM_TripodLow_Bag";
+        weapons[] = {"CUP_arifle_AK74","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_AK74","Throw","Put"};
+        linkedItems[] = {"CUP_V_OI_TKI_Jacket2_03","CUP_H_TKI_Pakol_1_05","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_OI_TKI_Jacket2_03","CUP_H_TKI_Pakol_1_05","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"CUP_O_TKI_Khet_Partug_02",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",1,30}}},{"CUP_V_OI_TKI_Jacket2_03",{{"CUP_30Rnd_545x39_AK_M",2,30}}},{"CUP_B_DShkM_TripodLow_Bag",{}},"CUP_H_TKI_Pakol_1_05","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
@@ -351,6 +491,13 @@ class CfgVehicles {
 
         displayName = "Gunner [Mortar}";
 
+        backpack = "CUP_B_Podnos_Bipod_Bag";
+        weapons[] = {"CUP_arifle_AK74","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_AK74","Throw","Put"};
+        linkedItems[] = {"CUP_V_OI_TKI_Jacket3_04","CUP_H_TKI_Pakol_2_01","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_OI_TKI_Jacket3_04","CUP_H_TKI_Pakol_2_01","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"CUP_O_TKI_Khet_Partug_02",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",1,30}}},{"CUP_V_OI_TKI_Jacket3_04",{{"CUP_30Rnd_545x39_AK_M",2,30}}},{"CUP_B_Podnos_Bipod_Bag",{}},"CUP_H_TKI_Pakol_2_01","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
@@ -360,6 +507,13 @@ class CfgVehicles {
 
         displayName = "Gunner [SPG-9]";
 
+        backpack = "CUP_B_SPG9_Tripod_Bag";
+        weapons[] = {"CUP_arifle_AK74","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_AK74","Throw","Put"};
+        linkedItems[] = {"CUP_V_OI_TKI_Jacket4_01","CUP_H_TKI_Lungee_05","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_OI_TKI_Jacket4_01","CUP_H_TKI_Lungee_05","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"CUP_O_TKI_Khet_Partug_06",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",1,30}}},{"CUP_V_OI_TKI_Jacket4_01",{{"CUP_30Rnd_545x39_AK_M",2,30}}},{"CUP_B_SPG9_Tripod_Bag",{}},"CUP_H_TKI_Lungee_05","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
@@ -556,30 +710,58 @@ class CfgVehicles {
 
         displayName = "Sniper 2";
 
+
+        weapons[] = {"CUP_srifle_LeeEnfield_rail","Throw","Put"};
+        respawnWeapons[] = {"CUP_srifle_LeeEnfield_rail","Throw","Put"};
+        linkedItems[] = {"CUP_V_OI_TKI_Jacket2_05","CUP_H_TKI_Lungee_Open_06","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_OI_TKI_Jacket2_05","CUP_H_TKI_Lungee_Open_06","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M"};
+        respawnMagazines[] = {"CUP_10x_303_M","CUP_10x_303_M","CUP_10x_303_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_LeeEnfield_rail","","","CUP_optic_LeupoldMk4",{"CUP_10x_303_M",10},{},""},{},{},{"CUP_O_TKI_Khet_Partug_08",{{"FirstAidKit",1},{"SmokeShell",1,1},{"SmokeShellBlue",1,1},{"CUP_10x_303_M",2,10}}},{"CUP_V_OI_TKI_Jacket2_05",{{"CUP_10x_303_M",5,10}}},{},"CUP_H_TKI_Lungee_Open_06","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
         class CFP_O_TBAN_Asst_Gunner_DShKM_01 : CFP_O_TBAN_Team_Leader_01 {
-        
+
         displayName = "Asst. Gunner [DShKM]";
-        
+
+        backpack = "CUP_B_DShkM_Gun_Bag";
+        weapons[] = {"CUP_arifle_AK74","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_AK74","Throw","Put"};
+        linkedItems[] = {"CUP_V_OI_TKI_Jacket2_05","CUP_H_TKI_Lungee_Open_02","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_OI_TKI_Jacket2_05","CUP_H_TKI_Lungee_Open_02","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"CFP_U_KhetPartug_Long_olive",{{"SmokeShell",1,1},{"SmokeShellBlue",1,1},{"CUP_1Rnd_HE_GP25_M",3,1},{"CUP_30Rnd_545x39_AK_M",1,30}}},{"CUP_V_OI_TKI_Jacket2_05",{{"CUP_1Rnd_HE_GP25_M",1,1},{"CUP_30Rnd_545x39_AK_M",5,30}}},{"CUP_B_DShkM_Gun_Bag",{}},"CUP_H_TKI_Lungee_Open_02","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_O_TBAN_Asst_Gunner_SPG_01 : CFP_O_TBAN_Rifleman_AK_47_01 {
-        
+
         displayName = "Asst. Gunner [SPG-9]";
-        
+
+        backpack = "CUP_B_SPG9_Gun_Bag";
+        weapons[] = {"CUP_arifle_AK47","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_AK47","Throw","Put"};
+        linkedItems[] = {"CUP_V_OI_TKI_Jacket2_01","CUP_H_TKI_SkullCap_01","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_OI_TKI_Jacket2_01","CUP_H_TKI_SkullCap_01","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CUP_O_TKI_Khet_Partug_02",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CUP_V_OI_TKI_Jacket2_01",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_SPG9_Gun_Bag",{}},"CUP_H_TKI_SkullCap_01","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
     class CFP_O_TBAN_Asst_Gunner_Mortar_01 : CFP_O_TBAN_Team_Leader_01 {
-        
+
         displayName = "Asst. Gunner [Mortar]";
-        
+
+        backpack = "CUP_B_Podnos_Gun_Bag";
+        weapons[] = {"CUP_arifle_AK74","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_AK74","Throw","Put"};
+        linkedItems[] = {"CUP_V_OI_TKI_Jacket5_04","CUP_H_TKI_SkullCap_06","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_OI_TKI_Jacket5_04","CUP_H_TKI_SkullCap_06","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"CFP_U_KhetPartug_Long_olive",{{"SmokeShell",1,1},{"SmokeShellBlue",1,1},{"CUP_1Rnd_HE_GP25_M",3,1}}},{"CUP_V_OI_TKI_Jacket5_04",{{"CUP_1Rnd_HE_GP25_M",1,1},{"CUP_30Rnd_545x39_AK_M",6,30}}},{"CUP_B_Podnos_Gun_Bag",{}},"CUP_H_TKI_SkullCap_06","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
