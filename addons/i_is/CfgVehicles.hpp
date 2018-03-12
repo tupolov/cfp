@@ -43,7 +43,7 @@ class CfgVehicles
         camouflage = 1;
         backpack = "";
         randomWeaponProbability = 50;
-        randomGearProbability = 50;
+        randomGearProbability = 80;
         linkedItems[] = {"V_TacVestIR_blk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
         respawnLinkedItems[] = {"V_TacVestIR_blk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
         weapons[] = {"Throw","Put"};
@@ -57,10 +57,11 @@ class CfgVehicles
         };
 
         headgearList[] = {
-            "IS_shemag_black", 0.5,
-            "H_ShemagOpen_khk", 0.5,
-            "H_Shemag_olive", 0.5,
-            "H_ShemagOpen_tan", 0.5,
+            "IS_shemag_black", 0.6,
+            "IS_bandanna_black_logo1", 0.6,
+            "IS_bandanna_black_logo2", 0.6,
+            "H_ShemagOpen_khk", 0.3,
+            "H_ShemagOpen_tan", 0.3,
             "H_Bandanna_khk", 0.25,
             "H_Bandanna_cbr", 0.25,
             "H_Bandanna_sgg", 0.25,
@@ -71,18 +72,18 @@ class CfgVehicles
 
         insigniaList[] = {
             "", 0.5,
-            "insignia_cfp_i_IS", 0.5
+            "insignia_cfp_o_is", 0.5
         };
 
         facewearList[] = {
-            "", 0.5,
+            "IS_Balaclava", 0.2,
+            "IS_Balaclava_logo1", 0.2,
+            "IS_Balaclava_logo2", 0.2,
             "G_Bandanna_blk", 0.25,
             "G_Bandanna_khk", 0.25,
             "G_Bandanna_oli", 0.25,
             "G_Bandanna_tan", 0.25,
-            "IS_Balaclava", 0.1,
-            "IS_Balaclava_logo1", 0.1,
-            "IS_Balaclava_logo2", 0.1
+            "", 0.25,
         };
 
         vestList[] = {
@@ -203,7 +204,7 @@ class CfgVehicles
         scopeCurator = 2;
         displayName = "IS Rifleman";
         icon = "iconMan";
-        randomGearProbability = 50;
+        randomGearProbability = 66;
         randomWeaponProbability = 100;
         linkedItems[] = {"V_HarnessO_gry","ItemRadio"};
         respawnLinkedItems[] = {"V_HarnessO_gry","ItemRadio"};
@@ -218,7 +219,7 @@ class CfgVehicles
         scopeCurator = 2;
         displayName = "IS Militaman";
         icon = "iconMan";
-        randomGearProbability = 80;
+        randomGearProbability = 90;
         randomWeaponProbability = 30;
         uniformClass = "U_I_C_Soldier_Para_5_F";
         linkedItems[] = {"V_BandollierB_khk","ItemRadio"};
@@ -261,7 +262,7 @@ class CfgVehicles
         scopeCurator = 2;
         displayName = "IS Irregular";
         icon = "iconMan";
-        randomGearProbability = 80;
+        randomGearProbability = 90;
         randomWeaponProbability = 35;
         linkedItems[] = {"V_BandollierB_khk","ItemRadio"};
         uniformClass = "U_I_C_Soldier_Para_5_F";
