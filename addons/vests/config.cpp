@@ -80,6 +80,7 @@ class CfgPatches
 			"SP_Tactical1_Tan",
 			"SP_Tactical1_Grey",
 			"SP_Tactical1_White",
+			"CFP_Tactical1_IranDesert",
 			"CFP_AK_VEST",
 			"CFP_AK_VEST_Black",
 			"CFP_AK_VEST_EDRL",
