@@ -207,7 +207,7 @@ if (isServer) then
 		};
 		case "cfp_b_iqarmy_sf":
 		{
-			_vests = ["CUP_V_PMC_IOTV_Coyote_Patrol"];
+			_vests = ["CFP_CarrierRig_Operator_OGA","CFP_CarrierRig_Operator_OGA_OD","CFP_FAPC_Operator_OGA","CFP_FAPC_Operator_OGA_OD"];
 			_count = count _vests;
 			_this addVest (_vests select floor random _count);
 			_this addGoggles "G_Bandanna_blk";
