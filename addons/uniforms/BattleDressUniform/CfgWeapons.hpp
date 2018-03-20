@@ -204,18 +204,35 @@
 		};
 	};
 
-	class CFP_U_BattleDressUniform_AfricanWoodland: Uniform_Base
+	class CFP_U_BattleDressUniform_AfricanWoodlandDark: Uniform_Base
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Battle Dress Uniform (African Woodland)";
+		displayName = "Battle Dress Uniform (African Woodland Dark Boots)";
 		picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_AfricanWoodland.jpg";
 		author = "AccuracyThruVolume";
 
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "CFP_BattleDressUniform_AfricanWoodland";
+			uniformClass = "CFP_BattleDressUniform_AfricanWoodlandDark";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+
+	class CFP_U_BattleDressUniform_AfricanWoodlandLight: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Battle Dress Uniform (African Woodland Light Boots)";
+		picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_AfricanWoodland.jpg";
+		author = "AccuracyThruVolume";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_BattleDressUniform_AfricanWoodlandLight";
 			containerClass="Supply60";
 			mass=80;
 		};
@@ -306,18 +323,35 @@
 		};
 	};
 
-	class CFP_U_BattleDressUniform_polygondesert: Uniform_Base
+	class CFP_U_BattleDressUniform_polygondesertdark: Uniform_Base
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Battle Dress Uniform (Polygon Desert)";
+		displayName = "Battle Dress Uniform (Polygon Desert Dark Boots)";
 		picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_PolygonDesert.jpg";
 		author = "AccuracyThruVolume";
 
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "CFP_BattleDressUniform_polygondesert";
+			uniformClass = "CFP_BattleDressUniform_polygondesertdark";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+
+	class CFP_U_BattleDressUniform_polygondesertlight: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Battle Dress Uniform (Polygon Desert Light Boots)";
+		picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_PolygonDesert.jpg";
+		author = "AccuracyThruVolume";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_BattleDressUniform_polygondesertlight";
 			containerClass="Supply60";
 			mass=80;
 		};
@@ -458,4 +492,5 @@
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Afghan National Police Light Boots)",anp_light,"AuburnAlumni")
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Afghan National Civil Order Police Dark Boots)",ancop_dark,"AuburnAlumni")
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Afghan National Civil Order Police Light Boots)",ancop_light,"AuburnAlumni")
-	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Woodland)",woodland,"AuburnAlumni")
+	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Woodland Dark Boots)",woodlanddark,"AuburnAlumni")
+	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Woodland Light Boots)",woodlandlight,"AuburnAlumni")

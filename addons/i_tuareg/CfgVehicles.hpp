@@ -180,7 +180,8 @@ class CfgVehicles {
 	"CFP_U_BattleDressUniform_3ColorDesert", 0.2,
 	"SP_0000_Standard_BattleDressUniform_Green", 0.2,
 	"SP_0000_Standard_BattleDressUniform_Black", 0.2,
-	"CFP_U_BattleDressUniform_polygondesert", 0.2
+	"CFP_U_BattleDressUniform_polygondesertlight", 0.2,
+    "CFP_U_BattleDressUniform_polygondesertdark", 0.2
 		};
 
 	// Tuareg Headgear
@@ -414,7 +415,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"CFP_AK_VEST_Tan","CFP_Lungee_Shemagh_LightBlue","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_BattleDressUniform_polygondesert",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_Tan",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{"CUP_B_SPG9_Gun_Bag",{}},"CFP_Lungee_Shemagh_LightBlue","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_BattleDressUniform_polygondesertlight",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_Tan",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{"CUP_B_SPG9_Gun_Bag",{}},"CFP_Lungee_Shemagh_LightBlue","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 

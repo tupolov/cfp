@@ -509,7 +509,7 @@ class CfgVehicles {
 		uniformList[] = {
 	"CFP_U_BattleDressUniform_M81", 0.33,
 	"CFP_U_BattleDressUniform_edrl", 0.33,
-    "CFP_U_BattleDressUniform_woodland", 0.33
+    "CFP_U_BattleDressUniform_woodlanddark", 0.33
 		};
 
 	// Militia Headgear
@@ -637,7 +637,7 @@ class CfgVehicles {
 		uniformList[] = {
 	"CFP_U_BattleDressUniform_M81", 0.33,
 	"CFP_U_BattleDressUniform_edrl", 0.33,
-    "CFP_U_BattleDressUniform_woodland", 0.33
+    "CFP_U_BattleDressUniform_woodlanddark", 0.33
 		};
 
 	// Militia Facewear

@@ -181,15 +181,28 @@
 
 	};
 
-	class CFP_BattleDressUniform_AfricanWoodland: CFP_Uniform
+	class CFP_BattleDressUniform_AfricanWoodlandDark: CFP_Uniform
 	{
 
 
-		displayName = "Battle Dress Uniform (African Woodland)";
+		displayName = "Battle Dress Uniform (African Woodland Dark Boots)";
 
-		uniformClass = "CFP_U_BattleDressUniform_AfricanWoodland";
+		uniformClass = "CFP_U_BattleDressUniform_AfricanWoodlandDark";
 
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_africanwoodland.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_africanwoodland.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_africanwoodland.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_africanwoodlanddark.paa"};
+
+
+	};
+
+	class CFP_BattleDressUniform_AfricanWoodlandLight: CFP_Uniform
+	{
+
+
+		displayName = "Battle Dress Uniform (African Woodland Light Boots)";
+
+		uniformClass = "CFP_U_BattleDressUniform_AfricanWoodlandLight";
+
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_africanwoodland.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_africanwoodlandlight.paa"};
 
 
 	};
@@ -259,15 +272,28 @@
 
 	};
 
-	class CFP_BattleDressUniform_polygondesert: CFP_Uniform
+	class CFP_BattleDressUniform_polygondesertdark: CFP_Uniform
 	{
 
 
-		displayName = "Battle Dress Uniform (Polygon Desert)";
+		displayName = "Battle Dress Uniform (Polygon Desert Dark Boots)";
 
-		uniformClass = "CFP_U_BattleDressUniform_polygondesert";
+		uniformClass = "CFP_U_BattleDressUniform_polygondesertdark";
 
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_polygondesert.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_polygondesert.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_polygondesert.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_polygondesertdark.paa"};
+
+
+	};
+
+	class CFP_BattleDressUniform_polygondesertlight: CFP_Uniform
+	{
+
+
+		displayName = "Battle Dress Uniform (Polygon Desert Light Boots)";
+
+		uniformClass = "CFP_U_BattleDressUniform_polygondesertlight";
+
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_polygondesert.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_polygondesertlight.paa"};
 
 
 	};
@@ -417,9 +443,16 @@
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_ancop.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_ancop_dark.paa"};
 	};
 
-	class CFP_BattleDressUniform_woodland : CFP_Uniform
+	class CFP_BattleDressUniform_woodlanddark : CFP_Uniform
 	{
-		displayName = "Battle Dress Uniform (Woodland)";
-		uniformClass = "CFP_U_BattleDressUniform_woodland";
+		displayName = "Battle Dress Uniform (Woodland Dark Boots)";
+		uniformClass = "CFP_U_BattleDressUniform_woodlanddark";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_woodland.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_ana_wddark.paa"};
+	};
+
+	class CFP_BattleDressUniform_woodlandlight : CFP_Uniform
+	{
+		displayName = "Battle Dress Uniform (Woodland Light Boots)";
+		uniformClass = "CFP_U_BattleDressUniform_woodlandlight";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_woodland.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_ana_wdlight.paa"};
 	};

@@ -419,18 +419,35 @@
 		};
 	};
 
-	class CFP_U_FieldUniform_AfricanWoodland: Uniform_Base
+	class CFP_U_FieldUniform_AfricanWoodlandDark: Uniform_Base
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Field Uniform (African Woodland)";
+		displayName = "Field Uniform (African Woodland Dark Boots)";
 		picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_AfricanWoodland.jpg";
 		author = "AccuracyThruVolume";
 
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "CFP_FieldUniform_AfricanWoodland";
+			uniformClass = "CFP_FieldUniform_AfricanWoodlandDark";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+
+	class CFP_U_FieldUniform_AfricanWoodlandLight: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Field Uniform (African Woodland Light Boots)";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_AfricanWoodland.jpg";
+		author = "AccuracyThruVolume";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_FieldUniform_AfricanWoodlandLight";
 			containerClass="Supply60";
 			mass=80;
 		};

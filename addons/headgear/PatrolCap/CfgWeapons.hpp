@@ -514,3 +514,53 @@ class CfgVehicleClasses
 			hiddenSelections[] = {"Camo"};
 		};
 	};
+
+	class CFP_PatrolCap_AfricanWoodland: ItemCore
+	{
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "Patrol Cap (African Woodland)";
+		picture = "\x\cfp\addons\headgear\PatrolCap\ui\GreenOlive.jpg";
+		model = "\x\cfp\addons\models\PatrolCap";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\AfricanWoodland.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "AuburnAlumni";
+
+
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 15;
+			uniformmodel = "\x\cfp\addons\models\PatrolCap";
+			modelSides[] = {3,1};
+			armor = 0;
+			passThrough = 0.30;
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\AfricanWoodland.paa"};
+			hiddenSelections[] = {"Camo"};
+		};
+	};
+
+	class CFP_PatrolCap_PolygonDesert: ItemCore
+	{
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "Patrol Cap (Polygon Desert)";
+		picture = "\x\cfp\addons\headgear\PatrolCap\ui\GreenOlive.jpg";
+		model = "\x\cfp\addons\models\PatrolCap";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\PolygonDesert.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "AuburnAlumni";
+
+
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 15;
+			uniformmodel = "\x\cfp\addons\models\PatrolCap";
+			modelSides[] = {3,1};
+			armor = 0;
+			passThrough = 0.30;
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\PolygonDesert.paa"};
+			hiddenSelections[] = {"Camo"};
+		};
+	};

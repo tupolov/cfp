@@ -752,11 +752,11 @@
 		};
 	};
 
-	class CFP_FieldUniform_AfricanWoodland: B_Soldier_base_F
+	class CFP_FieldUniform_AfricanWoodlandDark: B_Soldier_base_F
 	{
 
 		scope = 1;
-		displayName = "Field Uniform (African Woodland)";
+		displayName = "Field Uniform (African Woodland Dark Boots)";
 		faction = "BLU_F";
         modelSides[] = {6};
 		vehicleClass = "CFP_FieldUniform";
@@ -765,7 +765,7 @@
 		engineer=1;
 		attendant = "true";
 		uniformAccessories[] = {};
-		uniformClass = "CFP_U_FieldUniform_AfricanWoodland";
+		uniformClass = "CFP_U_FieldUniform_AfricanWoodlandDark";
 		nakedUniform = "U_BasicBody";
 		model = "\x\cfp\addons\models\FieldUniform.p3d";
 		Items[] = {};
@@ -773,7 +773,37 @@
 		magazines[] = {};
 		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_africanwoodland.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_africanwoodlanddark.paa"};
+		hiddenSelections[] = {"Camo","insignia"};
+		class Wounds
+		{
+			tex[] = {};
+			mat[] = {"A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing.rvmat","A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing_injury.rvmat","A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
+		};
+	};
+
+	class CFP_FieldUniform_AfricanWoodlandLight: B_Soldier_base_F
+	{
+
+		scope = 1;
+		displayName = "Field Uniform (African Woodland Light Boots)";
+		faction = "BLU_F";
+        modelSides[] = {6};
+		vehicleClass = "CFP_FieldUniform";
+		canCarryBackPack=1;
+		canDeactivateMines=1;
+		engineer=1;
+		attendant = "true";
+		uniformAccessories[] = {};
+		uniformClass = "CFP_U_FieldUniform_AfricanWoodlandLight";
+		nakedUniform = "U_BasicBody";
+		model = "\x\cfp\addons\models\FieldUniform.p3d";
+		Items[] = {};
+		weapons[] = {"Throw","Put"};
+		magazines[] = {};
+		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
+		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_africanwoodlandlight.paa"};
 		hiddenSelections[] = {"Camo","insignia"};
 		class Wounds
 		{
@@ -932,11 +962,11 @@
 		};
 	};
 
-	class CFP_FieldUniform_polygondesert: B_Soldier_base_F
+	class CFP_FieldUniform_polygondesertdark: B_Soldier_base_F
 	{
 
 		scope = 1;
-		displayName = "Field Uniform (Polygon Desert)";
+		displayName = "Field Uniform (Polygon Desert Dark Boots)";
 		faction = "BLU_F";
         modelSides[] = {6};
 		vehicleClass = "CFP_FieldUniform";
@@ -945,7 +975,7 @@
 		engineer=1;
 		attendant = "true";
 		uniformAccessories[] = {};
-		uniformClass = "CFP_U_FieldUniform_polygondesert";
+		uniformClass = "CFP_U_FieldUniform_polygondesertdark";
 		nakedUniform = "U_BasicBody";
 		model = "\x\cfp\addons\models\FieldUniform.p3d";
 		Items[] = {};
@@ -953,7 +983,37 @@
 		magazines[] = {};
 		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_polygondesert.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_polygondesertdark.paa"};
+		hiddenSelections[] = {"Camo","insignia"};
+		class Wounds
+		{
+			tex[] = {};
+			mat[] = {"A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing.rvmat","A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing_injury.rvmat","A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
+		};
+	};
+
+	class CFP_FieldUniform_polygondesertlight: B_Soldier_base_F
+	{
+
+		scope = 1;
+		displayName = "Field Uniform (Polygon Desert Light Boots)";
+		faction = "BLU_F";
+        modelSides[] = {6};
+		vehicleClass = "CFP_FieldUniform";
+		canCarryBackPack=1;
+		canDeactivateMines=1;
+		engineer=1;
+		attendant = "true";
+		uniformAccessories[] = {};
+		uniformClass = "CFP_U_FieldUniform_polygondesertlight";
+		nakedUniform = "U_BasicBody";
+		model = "\x\cfp\addons\models\FieldUniform.p3d";
+		Items[] = {};
+		weapons[] = {"Throw","Put"};
+		magazines[] = {};
+		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
+		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_polygondesertlight.paa"};
 		hiddenSelections[] = {"Camo","insignia"};
 		class Wounds
 		{
