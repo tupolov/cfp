@@ -416,3 +416,10 @@
 		uniformClass = "CFP_U_BattleDressUniform_ancop_dark";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_ancop.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_ancop_dark.paa"};
 	};
+
+	class CFP_BattleDressUniform_woodland : CFP_Uniform
+	{
+		displayName = "Battle Dress Uniform (Woodland)";
+		uniformClass = "CFP_U_BattleDressUniform_woodland";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_woodland.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_ana_wddark.paa"};
+	};

@@ -198,7 +198,8 @@ class CfgPatches
 			"CFP_BattleDressUniform_ancop_dark",
 			"CFP_BattleDressUniform_ana_wdlight",
 			"CFP_BattleDressUniform_ana_wddark",
-			"CFP_FieldUniform_iran_sf_digital"
+			"CFP_FieldUniform_iran_sf_digital",
+			"CFP_BattleDressUniform_woodland"
 
 		};
 		weapons[] = {
@@ -382,7 +383,8 @@ class CfgPatches
 			"CFP_BattleDressUniform_ancop_dark",
 			"CFP_BattleDressUniform_ana_wdlight",
 			"CFP_BattleDressUniform_ana_wddark",
-			"CFP_U_FieldUniform_iran_sf_digital"
+			"CFP_U_FieldUniform_iran_sf_digital",
+			"CFP_BattleDressUniform_woodland"
 		};
         author = MODULE_AUTHOR;
         authors[] = {"SP Craig", "Tupolov","AuburnAlumni"};
