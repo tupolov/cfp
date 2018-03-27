@@ -109,3 +109,55 @@
 			mass=20;
 		};
 	};
+
+	class CFP_U_KhetPartug_Long_AfricanWoodland: CFP_U_KhetPartug_Long_M81
+	{
+		displayName = "Khet Partug (African Woodland)";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_KhetPartug_Long_AfricanWoodland";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+
+	class CFP_U_KhetPartug_Long_EDRL: CFP_U_KhetPartug_Long_M81
+	{
+		displayName = "Khet Partug (EDRL)";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_KhetPartug_Long_EDRL";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+
+	class CFP_U_KhetPartug_Long_PolygonDesert: CFP_U_KhetPartug_Long_M81
+	{
+		displayName = "Khet Partug (Polygon Desert)";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_KhetPartug_Long_PolygonDesert";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+
+	class CFP_U_KhetPartug_Long_Woodland: CFP_U_KhetPartug_Long_M81
+	{
+		displayName = "Khet Partug (Woodland)";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_KhetPartug_Long_Woodland";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};

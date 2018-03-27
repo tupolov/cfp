@@ -206,3 +206,27 @@ class CFP_Basic_Helmet_Spec4cesierra: ItemCore
 		hiddenSelections[] = {"Camo"};
 	};
 };
+
+class CFP_Basic_Helmet_PolygonDesert: ItemCore
+{
+	scope = 2;
+	weaponPoolAvailable = 1;
+	displayName = "Basic Helmet (Polygon Desert)";
+	picture = "\x\cfp\addons\headgear\BasicHelmet\ui\Gray.jpg";
+	model = "\x\cfp\addons\headgear\BasicHelmet\H_PASGT_basic_F.p3d";
+	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\cfp_pasgt_polygondesert.paa"};
+	hiddenSelections[] = {"Camo"};
+	author = "AuburnAlumni";
+
+	class ItemInfo: HeadgearItem
+	{
+		mass = 60;
+		uniformModel = "\x\cfp\addons\headgear\BasicHelmet\H_PASGT_basic_F.p3d";
+		modelSides[] = {3,1};
+		armor = 10;
+		passThrough = 0.30;
+		HITPOINTS_HEAD(10,0.30)
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\polygondesert.paa"};
+		hiddenSelections[] = {"Camo"};
+	};
+};

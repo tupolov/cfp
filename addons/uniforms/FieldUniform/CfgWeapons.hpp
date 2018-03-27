@@ -476,12 +476,29 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (M81)";
 		picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_M81.jpg";
-		author = "AccuracyThruVolume";
+		author = "AuburnAlumni";
 
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
 			uniformClass = "CFP_FieldUniform_M81";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+
+	class CFP_U_FieldUniform_M81_SS: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Field Uniform SS (M81)";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_M81.jpg";
+		author = "AuburnAlumni";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_FieldUniform_M81_SS";
 			containerClass="Supply60";
 			mass=80;
 		};
@@ -538,18 +555,35 @@
 		};
 	};
 
-	class CFP_U_FieldUniform_polygondesert: Uniform_Base
+	class CFP_U_FieldUniform_polygondesertlight: Uniform_Base
 	{
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Field Uniform (Polygon Desert)";
+		displayName = "Field Uniform (Polygon Desert Light Boots)";
 		picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_PolygonDesert.jpg";
-		author = "AccuracyThruVolume";
+		author = "AuburnAlumni";
 
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "CFP_FieldUniform_polygondesert";
+			uniformClass = "CFP_FieldUniform_polygondesertlight";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+
+	class CFP_U_FieldUniform_polygondesertdark: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Field Uniform (Polygon Desert Dark Boots)";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_PolygonDesert.jpg";
+		author = "AuburnAlumni";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_FieldUniform_polygondesertdark";
 			containerClass="Supply60";
 			mass=80;
 		};
@@ -663,12 +697,63 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (MARPAT Woodland)";
 		picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_MarpatWoodland.jpg";
-		author = "AccuracyThruVolume";
+		author = "AuburnAlumni";
 
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
 			uniformClass = "CFP_FieldUniform_marpat_w";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+
+	class CFP_U_FieldUniform_marpat_w_light: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Field Uniform (MARPAT Woodland Light Boots)";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_MarpatWoodland.jpg";
+		author = "AuburnAlumni";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_FieldUniform_marpat_w_light";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+
+	class CFP_U_FieldUniform_marpat_w_SS: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Field Uniform SS (MARPAT Woodland)";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_MarpatWoodland.jpg";
+		author = "AuburnAlumni";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_FieldUniform_marpat_w_SS";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+
+	class CFP_U_FieldUniform_marpat_w_light_SS: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Field Uniform SS (MARPAT Woodland Light Boots)";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_MarpatWoodland.jpg";
+		author = "AuburnAlumni";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_FieldUniform_marpat_w_light_SS";
 			containerClass="Supply60";
 			mass=80;
 		};

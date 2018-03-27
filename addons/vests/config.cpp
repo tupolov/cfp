@@ -49,6 +49,8 @@ class CfgPatches
 			"SP_Modular1_Grey",
 			"SP_Modular1_White",
 			"CFP_Modular1_M81",
+			"CFP_Modular1_IranDPM",
+			"CFP_Modular1_Woodland",
 			"Modular1_Atacs_au",
 			"SP_Modular2_Black",
 			"SP_Modular2_Green",
@@ -81,6 +83,7 @@ class CfgPatches
 			"SP_Tactical1_Grey",
 			"SP_Tactical1_White",
 			"CFP_Tactical1_IranDesert",
+			"CFP_Tactical1_IranDesert2",
 			"CFP_AK_VEST",
 			"CFP_AK_VEST_Black",
 			"CFP_AK_VEST_EDRL",
@@ -91,7 +94,7 @@ class CfgPatches
 			
 		};
         author = MODULE_AUTHOR;
-        authors[] = {"SP Craig", "Tupolov"};
+        authors[] = {"SP Craig", "Tupolov", "AuburnAlumni"};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"CFP_main","CFP_Models"};
         VERSION_CONFIG;

@@ -325,3 +325,93 @@ class CfgVehicleClasses
 
 		};
 	};
+
+	class CFP_Tactical1_IranDesert2: V_PlateCarrier1_rgr
+	{
+		scope = 2;
+		displayName = "Tactical 1 (Iran Desert2)";
+		picture = "\x\cfp\addons\vests\Tactical1\ui\Black.jpg";
+		model = "\x\cfp\addons\models\Tactical1";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Tactical1\IranDesert2.paa"};
+		hiddenSelections[] = {"Camo"};
+
+		class ItemInfo: VestItem
+		{
+			uniformModel = "\x\cfp\addons\models\Tactical1";
+			containerClass = "Supply100";
+			hiddenSelections[] = {"camo"};
+			mass = 150;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					hitpointName = "HitChest";
+					armor = 18;
+					passThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					hitpointName = "HitDiaphragm";
+					armor = 18;
+					passThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 18;
+					passThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.2;
+				};
+			};
+
+		};
+	};
+
+	class CFP_Tactical1_3ColorDesert: V_PlateCarrier1_rgr
+	{
+		scope = 2;
+		displayName = "Tactical 1 (3 Color Desert)";
+		picture = "\x\cfp\addons\vests\Tactical1\ui\Black.jpg";
+		model = "\x\cfp\addons\models\Tactical1";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Tactical1\3ColorDesert.paa"};
+		hiddenSelections[] = {"Camo"};
+
+		class ItemInfo: VestItem
+		{
+			uniformModel = "\x\cfp\addons\models\Tactical1";
+			containerClass = "Supply100";
+			hiddenSelections[] = {"camo"};
+			mass = 150;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					hitpointName = "HitChest";
+					armor = 18;
+					passThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					hitpointName = "HitDiaphragm";
+					armor = 18;
+					passThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 18;
+					passThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.2;
+				};
+			};
+
+		};
+	};
