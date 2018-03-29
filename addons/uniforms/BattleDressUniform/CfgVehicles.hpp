@@ -298,6 +298,32 @@
 
 	};
 
+	class CFP_BattleDressUniform_polygonwoodlanddark: CFP_Uniform
+	{
+
+
+		displayName = "Battle Dress Uniform (Polygon Woodland Dark Boots)";
+
+		uniformClass = "CFP_U_BattleDressUniform_polygonwoodlanddark";
+
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_polygonwoodland.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_polygonwoodlanddark.paa"};
+
+
+	};
+
+	class CFP_BattleDressUniform_polygonwoodlandlight: CFP_Uniform
+	{
+
+
+		displayName = "Battle Dress Uniform (Polygon Woodland Light Boots)";
+
+		uniformClass = "CFP_U_BattleDressUniform_polygonwoodlandlight";
+
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_polygonwoodland.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_polygonwoodlandlight.paa"};
+
+
+	};
+
 	class CFP_BattleDressUniform_tigerstripe: CFP_Uniform
 	{
 

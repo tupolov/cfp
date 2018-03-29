@@ -7,4 +7,5 @@ class CfgGlasses
     #include "Goggles\CfgGlasses.hpp"
     #include "KneePads\CfgGlasses.hpp"
     #include "Shades\CfgGlasses.hpp"
+    #include "Beards\CfgGlasses.hpp"
 };

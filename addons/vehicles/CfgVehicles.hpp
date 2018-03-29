@@ -1270,4 +1270,20 @@ class CfgVehicles
 	    };
         };
     };
+
+    class CUP_RG31_M2;
+
+    class CUP_RG31_Base : CUP_RG31_M2
+    {
+        class textureSources
+        {
+            class Nigeria1
+            {
+                displayName = "Nigerian Camo";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\RG31\exa_rg31_body_nigeria.paa","\x\cfp\addons\vehicles\RG31\exa_rg31_body2_nigeria.paa","cup\wheeledvehicles\cup_wheeledvehicles_rg31\data\exa_rg31_interior2_co.paa"};
+                factions[] = {};
+        };
+        };
+    };
 };

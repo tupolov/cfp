@@ -7,7 +7,7 @@ class CfgPatches
         units[] = {};
 		weapons[] = {};
         author = MODULE_AUTHOR;
-        authors[] = {"SP Craig", "Tupolov"};
+        authors[] = {"SP Craig", "Tupolov", "Van Schmoozin"};
         requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {"CFP_main","CFP_Models"};
         VERSION_CONFIG;

@@ -90,7 +90,8 @@ class CfgPatches
 			"CFP_AK_VEST_LOlive",
 			"CFP_AK_VEST_Olive",
 			"CFP_AK_VEST_Tan",
-			"CFP_AK_VEST_Flora_Arid"
+			"CFP_AK_VEST_Flora_Arid",
+			"CFP_AK_VEST_Lime"
 			
 		};
         author = MODULE_AUTHOR;

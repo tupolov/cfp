@@ -357,6 +357,40 @@
 		};
 	};
 
+	class CFP_U_BattleDressUniform_polygonwoodlanddark: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Battle Dress Uniform (Polygon Woodland Dark Boots)";
+		picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_PolygonDesert.jpg";
+		author = "AuburnAlumni";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_BattleDressUniform_polygonwoodlanddark";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+
+	class CFP_U_BattleDressUniform_polygonwoodlandlight: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Battle Dress Uniform (Polygon Woodland Light Boots)";
+		picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_PolygonDesert.jpg";
+		author = "AuburnAlumni";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_BattleDressUniform_polygonwoodlandlight";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+
 	class CFP_U_BattleDressUniform_tigerstripe: Uniform_Base
 	{
 		scope=2;
