@@ -1149,6 +1149,13 @@ class CfgVehicles
     {
         class textureSources
         {
+            class OLIVE
+            {
+                displayName = "Olive";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\LandRover\lr_base_baf_olive.paa"};
+                factions[] = {};
+            };
             class ISIS
             {
                 displayName = "Standard ISIS";
@@ -1169,6 +1176,13 @@ class CfgVehicles
     {
         class textureSources
         {
+            class OLIVE
+            {
+                displayName = "Olive";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\LandRover\lr_base_baf_olive.paa"};
+                factions[] = {};
+            };
             class ISIS
             {
                 displayName = "Standard ISIS";
@@ -1189,6 +1203,13 @@ class CfgVehicles
     {
         class textureSources
         {
+            class OLIVE
+            {
+                displayName = "Olive";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\LandRover\lr_base_baf_olive.paa"};
+                factions[] = {};
+            };
             class ISIS
             {
                 displayName = "Standard ISIS";
@@ -1281,7 +1302,23 @@ class CfgVehicles
             {
                 displayName = "Nigerian Camo";
                 author = "AuburnAlumni";
-                textures[] = {"\x\cfp\addons\vehicles\RG31\exa_rg31_body_nigeria.paa","\x\cfp\addons\vehicles\RG31\exa_rg31_body2_nigeria.paa","cup\wheeledvehicles\cup_wheeledvehicles_rg31\data\exa_rg31_interior2_co.paa"};
+                textures[] = {"\x\cfp\addons\vehicles\RG31\exa_rg31_body_nigeria.paa","\x\cfp\addons\vehicles\RG31\exa_rg31_body2_nigeria.paa"};
+                factions[] = {};
+        };
+        };
+    };
+
+    class CUP_BTR60_RU;
+
+    class CUP_BTR60_Base : CUP_BTR60_RU
+    {
+        class textureSources
+        {
+            class SAACamo1
+            {
+                displayName = "Syrian Arab Army Camo 1";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\BTR60\btr60_saa_camo_1"};
                 factions[] = {};
         };
         };

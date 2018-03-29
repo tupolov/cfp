@@ -161,9 +161,9 @@ class CfgVehicles {
         };
     };
 
-    class CUP_B_Mastiff_GMG_GB_W;
-    class CUP_B_Mastiff_GMG_GB_W_OCimport_01 : CUP_B_Mastiff_GMG_GB_W { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_B_Mastiff_GMG_GB_W_OCimport_02 : CUP_B_Mastiff_GMG_GB_W_OCimport_01 {
+    class CUP_B_Ridgback_GMG_GB_W;
+    class CUP_B_Ridgback_GMG_GB_W_OCimport_01 : CUP_B_Ridgback_GMG_GB_W { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_B_Ridgback_GMG_GB_W_OCimport_02 : CUP_B_Ridgback_GMG_GB_W_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
@@ -214,7 +214,9 @@ class CfgVehicles {
 	"CFP_U_BattleDressUniform_AfricanWoodlandDark", 0.25,
     "CFP_U_BattleDressUniform_AfricanWoodlandLight", 0.25,
 	"CFP_U_BattleDressUniform_polygondesertdark", 0.25,
-    "CFP_U_BattleDressUniform_polygondesertlight", 0.25
+    "CFP_U_BattleDressUniform_polygondesertlight", 0.25,
+    "CFP_U_BattleDressUniform_polygonwoodlanddark", 0.25,
+    "CFP_U_BattleDressUniform_polygonwoodlandlight", 0.25
 		};
 
 	// Nigerian Army Headgear
@@ -224,13 +226,16 @@ class CfgVehicles {
     "CFP_Basic_Helmet_Gray_Green", 0.25,
     "CFP_Basic_Helmet_Tan", 0.25,
     "CFP_Basic_Helmet_Woodland", 0.25,
+    "CFP_Basic_Helmet_PolygonWoodland", 0.25,
+    "CFP_Basic_Helmet_PolygonDesert", 0.25
 		};
 
     //Vests
         vestList[] = {
-    "CFP_Osprey1_Wd", 0.33,
-    "CFP_Modular1_M81", 0.33,
-    "V_I_G_resistanceLeader_F", 0.33
+    "CFP_Osprey1_Wd", 0.25,
+    "CFP_Modular1_M81", 0.25,
+    "V_I_G_resistanceLeader_F", 0.25,
+    "CFP_AK_VEST_Lime", 0.25
         };
 
         class EventHandlers : EventHandlers {
@@ -363,16 +368,16 @@ class CfgVehicles {
         faction = "CFP_B_NAARMY";
 
         identityTypes[] = {"Head_African","LanguageENGFRE_F","G_IRAN_default"};
-        uniformClass = "CFP_U_BattleDressUniform_WoodlandLight";
+        uniformClass = "CFP_U_BattleDressUniform_polygonwoodlandlight";
 
 
         weapons[] = {"CUP_srifle_G22_wdl","Throw","Put"};
         respawnWeapons[] = {"CUP_srifle_G22_wdl","Throw","Put"};
-        linkedItems[] = {"CUP_V_O_TK_Vest_1","H_Booniehat_oli","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
-        respawnLinkedItems[] = {"CUP_V_O_TK_Vest_1","H_Booniehat_oli","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        linkedItems[] = {"CUP_V_O_TK_Vest_1","H_Booniehat_PolygonWoodland","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_O_TK_Vest_1","CFP_Booniehat_oli","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {"CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22"};
         respawnMagazines[] = {"CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22","CUP_5Rnd_762x67_G22"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_G22_wdl","","","CUP_optic_LeupoldMk4_10x40_LRT_Woodland",{"CUP_5Rnd_762x67_G22",5},{},""},{},{},{"CFP_U_BattleDressUniform_WoodlandLight",{{"CUP_5Rnd_762x67_G22",3,5}}},{"CUP_V_O_TK_Vest_1",{{"CUP_5Rnd_762x67_G22",7,5}}},{},"H_Booniehat_oli","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_G22_wdl","","","CUP_optic_LeupoldMk4_10x40_LRT_Woodland",{"CUP_5Rnd_762x67_G22",5},{},""},{},{},{"CFP_U_BattleDressUniform_polygonwoodlandlight",{{"CUP_5Rnd_762x67_G22",3,5}}},{"CUP_V_O_TK_Vest_1",{{"CUP_5Rnd_762x67_G22",7,5}}},{},"CFP_Booniehat_PolygonWoodland","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -638,14 +643,14 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\BTR60\btr60_saa_camo_1.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-
+        ALiVE_orbatCreator_texture = "SAACamo1";
     };
 
     class CFP_B_NAARMY_Land_Rover_MG_01 : CUP_B_LR_MG_GB_W_OCimport_02 {
@@ -668,14 +673,14 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\LandRover\lr_base_baf_olive.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-
+        ALiVE_orbatCreator_texture = "OLIVE";
     };
 
     class CFP_B_NAARMY_Mi_24D_01 : CUP_O_Mi24_D_Dynamic_SLA_OCimport_02 {
@@ -860,14 +865,14 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\textures\gb_w_lr_base_co.paa'];_unit setObjectTextureGlobal [1,'CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\lr_amb_ext_co.paa'];_unit setObjectTextureGlobal [2,'CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\textures\gb_w_lr_special_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\LandRover\lr_base_baf_olive.paa'];_unit setObjectTextureGlobal [1,'CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\lr_amb_ext_co.paa'];_unit setObjectTextureGlobal [2,'CUP\WheeledVehicles\CUP_WheeledVehicles_LR\data\textures\gb_w_lr_special_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "GBW";
+        ALiVE_orbatCreator_texture = "OLIVE";
 
     };
 
@@ -935,7 +940,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_NAARMY_Ridgeback_GMG_01 : CUP_B_Mastiff_GMG_GB_W_OCimport_02 {
+    class CFP_B_NAARMY_Ridgeback_GMG_01 : CUP_B_Ridgback_GMG_GB_W_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -987,14 +992,14 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\gb_w_lr_base_co.paa'];_unit setObjectTextureGlobal [1,'cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\gb_w_lr_special_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\LandRover\lr_base_baf_olive.paa'];_unit setObjectTextureGlobal [1,'cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\gb_w_lr_special_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "GBW";
+        ALiVE_orbatCreator_texture = "OLIVE";
 
     };
 
