@@ -1291,16 +1291,43 @@ class CfgVehicles
         };
     };
 
-    class car_F;
-    class CUP_RG31_BASE : car_F
+    class Car_F;
+    class CUP_RG31_BASE : Car_F
     {
         class textureSources
         {
-            class africanunion
+            class africanunion_des
             {
-                displayName = "African Union";
+                displayName = "African Union (Desert)";
                 author = "AuburnAlumni";
-                textures[] = {"\x\cfp\addons\vehicles\RG31\id\afr_union.paa","\CUP\WheeledVehicles\CUP_WheeledVehicles_RG31\data\id\id_a_ca.paa","\CUP\WheeledVehicles\CUP_WheeledVehicles_RG31\data\id\id_1_ca.paa","","","\x\cfp\addons\vehicles\RG31\exa_rg31_body_od_olive.paa","\x\cfp\addons\vehicles\RG31\exa_rg31_body2_od_olive.paa","\CUP\Wheeledvehicles\CUP_WheeledVehicles_RG31\data\exa_rg31_interior2_co.paa"};
+                textures[] =
+                {
+                    "\x\cfp\addons\vehicles\RG31\id\afr_union.paa",
+                    "\CUP\WheeledVehicles\CUP_WheeledVehicles_RG31\data\id\id_a_ca.paa",
+                    "\CUP\WheeledVehicles\CUP_WheeledVehicles_RG31\data\id\id_1_ca.paa",
+                    "",
+                    "",
+                    "\x\cfp\addons\vehicles\RG31\exa_rg31_body_nigeria_co.paa",
+                    "\x\cfp\addons\vehicles\RG31\exa_rg31_body2_nigeria_ca.paa",
+                    "cup\wheeledvehicles\cup_wheeledvehicles_rg31\data\exa_rg31_interior2_co.paa"
+                };
+                factions[] = {};
+            };
+            class africanunion_wdl
+            {
+                displayName = "African Union (Woodland)";
+                author = "AuburnAlumni";
+                textures[] =
+                {
+                    "\x\cfp\addons\vehicles\RG31\id\afr_union.paa",
+                    "\CUP\WheeledVehicles\CUP_WheeledVehicles_RG31\data\id\id_a_ca.paa",
+                    "\CUP\WheeledVehicles\CUP_WheeledVehicles_RG31\data\id\id_1_ca.paa",
+                    "",
+                    "",
+                    "\x\cfp\addons\vehicles\RG31\exa_rg31_body_od_olive_co.paa",
+                    "\x\cfp\addons\vehicles\RG31\exa_rg31_body2_od_olive_ca.paa",
+                    "cup\wheeledvehicles\cup_wheeledvehicles_rg31\data\exa_rg31_interior2_od_co.paa"
+                };
                 factions[] = {};
             };
         };
