@@ -86,7 +86,8 @@ class CfgVehicles {
             "G_Shades_Black",0.3,
             "G_Shades_Blue",0.3,
             "SP_Shades_Black",0.3,
-            "CUP_FR_Neckscarf2",0.3
+            "CUP_FR_Neckscarf2",0.3,
+            "CFP_Beard",0.4
         };
 
       	// Baseball caps, boonies,
@@ -246,10 +247,11 @@ class CfgVehicles {
 
         // Beards / mouth scarf / scarf / sunglasses
         facewearList[] = {
-            "", 0.5,
+            "CFP_Beard", 0.5,
             "CUP_TK_NeckScarf", 0.3,
             "CUP_FR_Neckscarf2",0.3,
-            "CUP_FR_Neckscarf",0.3
+            "CUP_FR_Neckscarf",0.3,
+            "",0.4
         };
 
         // Baseball caps, boonies,
