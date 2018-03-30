@@ -1292,17 +1292,17 @@ class CfgVehicles
         };
     };
 
-    class CUP_RG31_M2;
+    class CUP_B_RG31_M2;
 
-    class CUP_RG31_Base : CUP_RG31_M2
+    class CUP_B_RG31_BASE : CUP_B_RG31_M2
     {
         class textureSources
         {
-            class Nigeria1
+            class africanunion
             {
-                displayName = "Nigerian Camo";
+                displayName = "African Union";
                 author = "AuburnAlumni";
-                textures[] = {"\x\cfp\addons\vehicles\RG31\exa_rg31_body_nigeria.paa","\x\cfp\addons\vehicles\RG31\exa_rg31_body2_nigeria.paa"};
+                textures[] = {"\x\cfp\addons\vehicles\RG31\id\afr_union.paa","\CUP\WheeledVehicles\CUP_WheeledVehicles_RG31\data\id\id_a_ca.paa","\CUP\WheeledVehicles\CUP_WheeledVehicles_RG31\data\id\id_1_ca.paa","","","\x\cfp\addons\vehicles\RG31\exa_rg31_body_od_olive.paa","\x\cfp\addons\vehicles\RG31\exa_rg31_body2_od_olive.paa","\CUP\Wheeledvehicles\CUP_WheeledVehicles_RG31\data\exa_rg31_interior2_co.paa"};
                 factions[] = {};
         };
         };
