@@ -254,3 +254,99 @@ class CFP_Basic_Helmet_PolygonWoodland: ItemCore
 		hiddenSelections[] = {"Camo"};
 	};
 };
+
+class CFP_Basic_Helmet_M81: ItemCore
+{
+	scope = 2;
+	weaponPoolAvailable = 1;
+	displayName = "Basic Helmet (M81)";
+	picture = "\x\cfp\addons\headgear\BasicHelmet\ui\Gray.jpg";
+	model = "\x\cfp\addons\headgear\BasicHelmet\H_PASGT_basic_F.p3d";
+	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\cfp_pasgt_m81.paa"};
+	hiddenSelections[] = {"Camo"};
+	author = "AuburnAlumni";
+
+	class ItemInfo: HeadgearItem
+	{
+		mass = 60;
+		uniformModel = "\x\cfp\addons\headgear\BasicHelmet\H_PASGT_basic_F.p3d";
+		modelSides[] = {3,1};
+		armor = 10;
+		passThrough = 0.30;
+		HITPOINTS_HEAD(10,0.30)
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\m81.paa"};
+		hiddenSelections[] = {"Camo"};
+	};
+};
+
+class CFP_Basic_Helmet_EDRL: ItemCore
+{
+	scope = 2;
+	weaponPoolAvailable = 1;
+	displayName = "Basic Helmet (EDRL)";
+	picture = "\x\cfp\addons\headgear\BasicHelmet\ui\Gray.jpg";
+	model = "\x\cfp\addons\headgear\BasicHelmet\H_PASGT_basic_F.p3d";
+	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\cfp_pasgt_edrl.paa"};
+	hiddenSelections[] = {"Camo"};
+	author = "AuburnAlumni";
+
+	class ItemInfo: HeadgearItem
+	{
+		mass = 60;
+		uniformModel = "\x\cfp\addons\headgear\BasicHelmet\H_PASGT_basic_F.p3d";
+		modelSides[] = {3,1};
+		armor = 10;
+		passThrough = 0.30;
+		HITPOINTS_HEAD(10,0.30)
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\edrl.paa"};
+		hiddenSelections[] = {"Camo"};
+	};
+};
+
+class CFP_Basic_Helmet_ArmyGreen: ItemCore
+{
+	scope = 2;
+	weaponPoolAvailable = 1;
+	displayName = "Basic Helmet (Army Green)";
+	picture = "\x\cfp\addons\headgear\BasicHelmet\ui\Gray.jpg";
+	model = "\x\cfp\addons\headgear\BasicHelmet\H_PASGT_basic_F.p3d";
+	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\cfp_pasgt_armygreen.paa"};
+	hiddenSelections[] = {"Camo"};
+	author = "AuburnAlumni";
+
+	class ItemInfo: HeadgearItem
+	{
+		mass = 60;
+		uniformModel = "\x\cfp\addons\headgear\BasicHelmet\H_PASGT_basic_F.p3d";
+		modelSides[] = {3,1};
+		armor = 10;
+		passThrough = 0.30;
+		HITPOINTS_HEAD(10,0.30)
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\armygreen.paa"};
+		hiddenSelections[] = {"Camo"};
+	};
+};
+
+class CFP_Basic_Helmet_Marpat: ItemCore
+{
+	scope = 2;
+	weaponPoolAvailable = 1;
+	displayName = "Basic Helmet (Marpat)";
+	picture = "\x\cfp\addons\headgear\BasicHelmet\ui\Gray.jpg";
+	model = "\x\cfp\addons\headgear\BasicHelmet\H_PASGT_basic_F.p3d";
+	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\cfp_pasgt_marpat.paa"};
+	hiddenSelections[] = {"Camo"};
+	author = "AuburnAlumni";
+
+	class ItemInfo: HeadgearItem
+	{
+		mass = 60;
+		uniformModel = "\x\cfp\addons\headgear\BasicHelmet\H_PASGT_basic_F.p3d";
+		modelSides[] = {3,1};
+		armor = 10;
+		passThrough = 0.30;
+		HITPOINTS_HEAD(10,0.30)
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\marpat.paa"};
+		hiddenSelections[] = {"Camo"};
+	};
+};

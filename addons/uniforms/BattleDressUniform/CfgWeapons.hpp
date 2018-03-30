@@ -272,6 +272,23 @@
 		};
 	};
 
+	class CFP_U_BattleDressUniform_M81light: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Battle Dress Uniform (M81 Light Boots)";
+		picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_M81.jpg";
+		author = "AuburnAlumni";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_BattleDressUniform_M81light";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+
 	class CFP_U_BattleDressUniform_DPM: Uniform_Base
 	{
 		scope=2;
@@ -528,3 +545,5 @@
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Afghan National Civil Order Police Light Boots)",ancop_light,"AuburnAlumni")
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Woodland Dark Boots)",woodlanddark,"AuburnAlumni")
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Woodland Light Boots)",woodlandlight,"AuburnAlumni")
+	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Marpat Uganda Dark Boots)",marpatugandadark,"AuburnAlumni")
+	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Marpat Uganda Light Boots)",marpatugandalight,"AuburnAlumni")

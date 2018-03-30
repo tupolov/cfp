@@ -872,6 +872,36 @@
 		};
 	};
 
+	class CFP_FieldUniform_M81light: B_Soldier_base_F
+	{
+
+		scope = 1;
+		displayName = "Field Uniform (M81 Light Boots)";
+		faction = "BLU_F";
+        modelSides[] = {6};
+		vehicleClass = "CFP_FieldUniform";
+		canCarryBackPack=1;
+		canDeactivateMines=1;
+		engineer=1;
+		attendant = "true";
+		uniformAccessories[] = {};
+		uniformClass = "CFP_U_FieldUniform_M81light";
+		nakedUniform = "U_BasicBody";
+		model = "\x\cfp\addons\models\FieldUniform.p3d";
+		Items[] = {};
+		weapons[] = {"Throw","Put"};
+		magazines[] = {};
+		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
+		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_M81.paa"};
+		hiddenSelections[] = {"Camo","insignia"};
+		class Wounds
+		{
+			tex[] = {};
+			mat[] = {"A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing.rvmat","A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing_injury.rvmat","A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
+		};
+	};
+
 	class CFP_FieldUniform_M81_SS: B_Soldier_base_F
 	{
 
@@ -1596,4 +1626,18 @@
 		displayName = "Field Uniform (Iran Airborne SF)";
 		uniformClass = "CFP_U_FieldUniform_iran_sf_digital";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_iran_sf_digital.paa"};
+	};
+
+	class CFP_FieldUniform_marpatugandadark : SP_0000_Standard_FieldUniform_GreenOlive
+	{
+		displayName = "Field Uniform (Uganda Marpat Dark Boots)";
+		uniformClass = "CFP_U_FieldUniform_marpatugandadark";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_marpatdarkuganda.paa"};
+	};
+
+	class CFP_FieldUniform_marpatugandalight : SP_0000_Standard_FieldUniform_GreenOlive
+	{
+		displayName = "Field Uniform (Uganda Marpat Light Boots)";
+		uniformClass = "CFP_U_FieldUniform_marpatugandalight";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_marpatlightuganda.paa"};
 	};

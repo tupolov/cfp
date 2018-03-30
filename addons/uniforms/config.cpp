@@ -149,6 +149,7 @@ class CfgPatches
 			"CFP_BattleDressUniform_AfricanWoodlandDark",
 			"CFP_BattleDressUniform_AfricanWoodlandLight",
 			"CFP_BattleDressUniform_M81",
+			"CFP_BattleDressUniform_M81light",
 			"CFP_BattleDressUniform_ChocChip",
 			"CFP_BattleDressUniform_DPMWoodland",
 			"CFP_BattleDressUniform_DPMWoodlandGreen",
@@ -170,6 +171,7 @@ class CfgPatches
 			"CFP_FieldUniform_AfricanWoodlandDark",
 			"CFP_FieldUniform_AfricanWoodlandLight",
 			"CFP_FieldUniform_M81",
+			"CFP_FieldUniform_M81light",
 			"CFP_FieldUniform_M81_SS",
 			"CFP_FieldUniform_ChocChip",
 			"CFP_FieldUniform_DPMWoodland",
@@ -216,8 +218,11 @@ class CfgPatches
 			"CFP_BattleDressUniform_ana_wdlight",
 			"CFP_BattleDressUniform_ana_wddark",
 			"CFP_FieldUniform_iran_sf_digital",
-			"CFP_BattleDressUniform_woodland"
-
+			"CFP_BattleDressUniform_woodland",
+			"CFP_BattleDressUniform_marpatugandadark",
+			"CFP_BattleDressUniform_marpatugandalight",
+			"CFP_FieldUniform_marpatugandalight",
+			"CFP_FieldUniform_marpatugandadark"
 		};
 		weapons[] = {
 			"SP_0000_Standard_BattleDressUniform_Black",
@@ -357,6 +362,7 @@ class CfgPatches
 			"CFP_U_BattleDressUniform_AfricanWoodlandDark",
 			"CFP_U_BattleDressUniform_AfricanWoodlandLight",
 			"CFP_U_BattleDressUniform_M81",
+			"CFP_U_BattleDressUniform_M81light",
 			"CFP_U_BattleDressUniform_ChocChip",
 			"CFP_U_BattleDressUniform_DPMWoodland",
 			"CFP_U_BattleDressUniform_DPMWoodlandGreen",
@@ -375,6 +381,7 @@ class CfgPatches
 			"CFP_U_FieldUniform_AfricanWoodlandDark",
 			"CFP_U_FieldUniform_AfricanWoodlandLight",
 			"CFP_U_FieldUniform_M81",
+			"CFP_U_FieldUniform_M81light",
 			"CFP_U_FieldUniform_M81_SS",
 			"CFP_U_FieldUniform_ChocChip",
 			"CFP_U_FieldUniform_DPMWoodland",
@@ -418,7 +425,11 @@ class CfgPatches
 			"CFP_U_BattleDressUniform_ana_wdlight",
 			"CFP_U_BattleDressUniform_ana_wddark",
 			"CFP_U_FieldUniform_iran_sf_digital",
-			"CFP_U_BattleDressUniform_woodland"
+			"CFP_U_BattleDressUniform_woodland",
+			"CFP_U_BattleDressUniform_marpatugandadark",
+			"CFP_U_BattleDressUniform_marpatugandalight",
+			"CFP_U_FieldUniform_marpatugandalight",
+			"CFP_U_FieldUniform_marpatugandadark"
 		};
         author = MODULE_AUTHOR;
         authors[] = {"SP Craig", "Tupolov","AuburnAlumni"};

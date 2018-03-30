@@ -233,6 +233,19 @@
 
 	};
 
+	class CFP_BattleDressUniform_m81light: CFP_Uniform
+	{
+
+
+		displayName = "Battle Dress Uniform (M81 Light Boots)";
+
+		uniformClass = "CFP_U_BattleDressUniform_M81light";
+
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_M81.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_M81light.paa"};
+
+
+	};
+
 	class CFP_BattleDressUniform_dpm: CFP_Uniform
 	{
 
@@ -481,4 +494,18 @@
 		displayName = "Battle Dress Uniform (Woodland Light Boots)";
 		uniformClass = "CFP_U_BattleDressUniform_woodlandlight";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_woodland.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_ana_wdlight.paa"};
+	};
+
+	class CFP_BattleDressUniform_marpatugandadark : CFP_Uniform
+	{
+		displayName = "Battle Dress Uniform (Marpat Uganda Dark Boots)";
+		uniformClass = "CFP_U_BattleDressUniform_marpatugandadark";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_marpatuganda.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_marpatdarkuganda.paa"};
+	};
+
+	class CFP_BattleDressUniform_marpatugandalight : CFP_Uniform
+	{
+		displayName = "Battle Dress Uniform (Marpat Uganda Light Boots)";
+		uniformClass = "CFP_U_BattleDressUniform_marpatugandalight";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_marpatuganda.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_marpatlightuganda.paa"};
 	};

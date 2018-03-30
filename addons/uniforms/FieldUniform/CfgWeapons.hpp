@@ -487,6 +487,23 @@
 		};
 	};
 
+	class CFP_U_FieldUniform_M81light: Uniform_Base
+	{
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Field Uniform (M81 Light Boots)";
+		picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_M81.jpg";
+		author = "AuburnAlumni";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_FieldUniform_M81light";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+
 	class CFP_U_FieldUniform_M81_SS: Uniform_Base
 	{
 		scope=2;
@@ -936,3 +953,5 @@
     ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Afghan National Civil Order Police Light Boots)",ancop_light,"AuburnAlumni")
     ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Afghan National Civil Order Police Dark Boots)",ancop_dark,"AuburnAlumni")
     ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Iran Airborne SF)",iran_sf_digital,"AuburnAlumni")
+    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Uganda Marpat Dark Boots)",marpatugandadark,"AuburnAlumni")
+    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Uganda Marpat Light Boots)",marpatugandalight,"AuburnAlumni")

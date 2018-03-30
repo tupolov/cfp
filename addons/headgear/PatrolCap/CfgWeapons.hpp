@@ -614,3 +614,28 @@ class CfgVehicleClasses
 			hiddenSelections[] = {"Camo"};
 		};
 	};
+
+	class CFP_PatrolCap_MarpatUganda: ItemCore
+	{
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "Patrol Cap (Marpat Uganda)";
+		picture = "\x\cfp\addons\headgear\PatrolCap\ui\GreenOlive.jpg";
+		model = "\x\cfp\addons\models\PatrolCap";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\MarpatUganda.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "AuburnAlumni";
+
+
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 15;
+			uniformmodel = "\x\cfp\addons\models\PatrolCap";
+			modelSides[] = {3,1};
+			armor = 0;
+			passThrough = 0.30;
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\MarpatUganda.paa"};
+			hiddenSelections[] = {"Camo"};
+		};
+	};
