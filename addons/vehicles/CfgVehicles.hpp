@@ -1323,4 +1323,36 @@ class CfgVehicles
         };
         };
     };
+
+    class CUP_O_Mi24_P_RU;
+
+    class CUP_Mi24_Base : CUP_O_Mi24_P_RU
+    {
+        class textureSources
+        {
+            class Nigeria
+            {
+                displayname = "Nigerian Camo";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Mi24\mi24_nigeria.paa","\x\cfp\addons\vehicles\Mi24\mi24_nigeria2.paa"};
+                factions[] = {};
+        };
+        };
+    };
+
+    class CUP_O_Mi17_TK;
+
+    class CUP_Mi8_base : CUP_O_Mi17_TK
+    {
+        class textureSources
+        {
+            class Nigeria
+            {
+                displayname = "Nigerian Camo";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Mi8\mi17_body_nigeria.paa","\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\mi17_det_IND_CO.paa"};
+                factions[] = {};
+        };
+        };
+    };
 };
