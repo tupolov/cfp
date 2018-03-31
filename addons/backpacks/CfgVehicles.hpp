@@ -153,4 +153,75 @@ class CfgVehicles
         hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\RPG\RPGtropicgreen.paa"};
         author = "AuburnAlumni";
     };
+    class B_Kitbag_Base;
+    class CFP_Kitbag_EDRL : B_Kitbag_Base
+    {
+        scope = 2;
+        maximumLoad = 280;
+        displayName = "Kitbag (EDRL)";
+        model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast.p3d";
+        picture = "\A3\Weapons_F\ammoboxes\bags\data\ui\icon_B_C_Kitbag_rgr";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Fast\backpack_fast_edrl.paa"};
+        author = "AuburnAlumni";
+    };
+    class CFP_Kitbag_IranDPM : B_Kitbag_Base
+    {
+        scope = 2;
+        maximumLoad = 280;
+        displayName = "Kitbag (Iran DPM)";
+        model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast.p3d";
+        picture = "\A3\Weapons_F\ammoboxes\bags\data\ui\icon_B_C_Kitbag_rgr";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Fast\backpack_fast_irandpm.paa"};
+        author = "AuburnAlumni";
+    };
+    class CFP_Kitbag_M81 : B_Kitbag_Base
+    {
+        scope = 2;
+        maximumLoad = 280;
+        displayName = "Kitbag (M81)";
+        model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast.p3d";
+        picture = "\A3\Weapons_F\ammoboxes\bags\data\ui\icon_B_C_Kitbag_rgr";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Fast\backpack_fast_m81.paa"};
+        author = "AuburnAlumni";
+    };
+    class CFP_Kitbag_Marpat : B_Kitbag_Base
+    {
+        scope = 2;
+        maximumLoad = 280;
+        displayName = "Kitbag (Marpat)";
+        model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast.p3d";
+        picture = "\A3\Weapons_F\ammoboxes\bags\data\ui\icon_B_C_Kitbag_rgr";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Fast\backpack_fast_marpat.paa"};
+        author = "AuburnAlumni";
+    };
+    class CFP_Kitbag_PolygonDesert : B_Kitbag_Base
+    {
+        scope = 2;
+        maximumLoad = 280;
+        displayName = "Kitbag (Polygon Desert)";
+        model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast.p3d";
+        picture = "\A3\Weapons_F\ammoboxes\bags\data\ui\icon_B_C_Kitbag_rgr";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Fast\backpack_fast_polygondesert.paa"};
+        author = "AuburnAlumni";
+    };
+    class CFP_Kitbag_PolygonWoodland : B_Kitbag_Base
+    {
+        scope = 2;
+        maximumLoad = 280;
+        displayName = "Kitbag (Polygon Woodland)";
+        model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast.p3d";
+        picture = "\A3\Weapons_F\ammoboxes\bags\data\ui\icon_B_C_Kitbag_rgr";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Fast\backpack_fast_polygonwoodland.paa"};
+        author = "AuburnAlumni";
+    };
+    class CFP_Kitbag_Woodland : B_Kitbag_Base
+    {
+        scope = 2;
+        maximumLoad = 280;
+        displayName = "Kitbag (Woodland)";
+        model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast.p3d";
+        picture = "\A3\Weapons_F\ammoboxes\bags\data\ui\icon_B_C_Kitbag_rgr";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Fast\backpack_fast_woodland.paa"};
+        author = "AuburnAlumni";
+    };
 };
