@@ -112,4 +112,45 @@ class CfgVehicles
         hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\data\Tan.paa"};
         author = "SP Craig";
     };
+    class CUP_B_RPGPack_Base;
+    class CFP_RPGPack_Black : CUP_B_RPGPack_Base
+    {
+        scope = 2;
+        maximumLoad = 180;
+        displayName = "RPG Pack (Black)";
+        model = "\CUP\Weapons\CUP_Weapons_Backpacks\CUP_Backpack_RPG.p3d";
+        picture = "\CUP\Weapons\CUP_Weapons_Backpacks\data\ui\icon_b_c_backpack_rpg_ca.paa";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\RPG\RPGblack.paa"};
+        author = "AuburnAlumni";
+    };
+    class CFP_RPGPack_Grey : CUP_B_RPGPack_Base
+    {
+        scope = 2;
+        maximumLoad = 180;
+        displayName = "RPG Pack (Grey)";
+        model = "\CUP\Weapons\CUP_Weapons_Backpacks\CUP_Backpack_RPG.p3d";
+        picture = "\CUP\Weapons\CUP_Weapons_Backpacks\data\ui\icon_b_c_backpack_rpg_ca.paa";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\RPG\RPGgrey.paa"};
+        author = "AuburnAlumni";
+    };
+    class CFP_RPGPack_Khaki : CUP_B_RPGPack_Base
+    {
+        scope = 2;
+        maximumLoad = 180;
+        displayName = "RPG Pack (Khaki)";
+        model = "\CUP\Weapons\CUP_Weapons_Backpacks\CUP_Backpack_RPG.p3d";
+        picture = "\CUP\Weapons\CUP_Weapons_Backpacks\data\ui\icon_b_c_backpack_rpg_ca.paa";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\RPG\RPGkhaki.paa"};
+        author = "AuburnAlumni";
+    };
+    class CFP_RPGPack_TropicGreen : CUP_B_RPGPack_Base
+    {
+        scope = 2;
+        maximumLoad = 180;
+        displayName = "RPG Pack (Tropical Green)";
+        model = "\CUP\Weapons\CUP_Weapons_Backpacks\CUP_Backpack_RPG.p3d";
+        picture = "\CUP\Weapons\CUP_Weapons_Backpacks\data\ui\icon_b_c_backpack_rpg_ca.paa";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\RPG\RPGtropicgreen.paa"};
+        author = "AuburnAlumni";
+    };
 };
