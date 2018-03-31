@@ -91,7 +91,14 @@ class CfgPatches
 			"CFP_AK_VEST_Olive",
 			"CFP_AK_VEST_Tan",
 			"CFP_AK_VEST_Flora_Arid",
-			"CFP_AK_VEST_Lime"
+			"CFP_AK_VEST_Lime",
+			"CFP_Smersh_Tropic",
+			"CFP_Smersh_ArmyGreen",
+			"CFP_Smersh_Brown",
+			"CFP_Smersh_Tan",
+			"CFP_Smersh_Green",
+			"CFP_Smersh_Creme",
+			"CFP_Smersh_Olive"
 			
 		};
         author = MODULE_AUTHOR;

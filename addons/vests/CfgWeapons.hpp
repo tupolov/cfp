@@ -19,4 +19,5 @@ class CfgWeapons {
 	#include "Tactical1\CfgWeapons.hpp"
 	#include "AK_Vest\CfgWeapons.hpp"
     #include "OspreyMk2\CfgWeapons.hpp"
+    #include "Smersh\CfgWeapons.hpp"
 };
