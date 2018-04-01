@@ -224,4 +224,55 @@ class CfgVehicles
         hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Fast\backpack_fast_woodland.paa"};
         author = "AuburnAlumni";
     };
+    class B_AssaultPack_Base;
+    class CFP_AssaultPack_M81 : B_AssaultPack_Base
+    {
+        scope = 2;
+        maximumLoad = 160;
+        displayName = "Assault Pack (M81)";
+        model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Compact";
+        picture = "\A3\Weapons_F\Ammoboxes\Bags\data\UI\icon_B_AssaultPack_khk_ca.paa";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Compact\backpack_compact_m81.paa"};
+        author = "AuburnAlumni";
+    };
+    class CFP_AssaultPack_Marpat : B_AssaultPack_Base
+    {
+        scope = 2;
+        maximumLoad = 160;
+        displayName = "Assault Pack (Marpat)";
+        model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Compact";
+        picture = "\A3\Weapons_F\Ammoboxes\Bags\data\UI\icon_B_AssaultPack_khk_ca.paa";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Compact\backpack_compact_marpat.paa"};
+        author = "AuburnAlumni";
+    };
+    class CFP_AssaultPack_PolygonDesert : B_AssaultPack_Base
+    {
+        scope = 2;
+        maximumLoad = 160;
+        displayName = "Assault Pack (Polygon Desert)";
+        model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Compact";
+        picture = "\A3\Weapons_F\Ammoboxes\Bags\data\UI\icon_B_AssaultPack_khk_ca.paa";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Compact\backpack_compact_polygondesert.paa"};
+        author = "AuburnAlumni";
+    };
+    class CFP_AssaultPack_PolygonWoodland : B_AssaultPack_Base
+    {
+        scope = 2;
+        maximumLoad = 160;
+        displayName = "Assault Pack (Polygon Woodland)";
+        model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Compact";
+        picture = "\A3\Weapons_F\Ammoboxes\Bags\data\UI\icon_B_AssaultPack_khk_ca.paa";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Compact\backpack_compact_polygonwoodland.paa"};
+        author = "AuburnAlumni";
+    };
+    class CFP_AssaultPack_Woodland : B_AssaultPack_Base
+    {
+        scope = 2;
+        maximumLoad = 160;
+        displayName = "Assault Pack (Woodland)";
+        model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Compact";
+        picture = "\A3\Weapons_F\Ammoboxes\Bags\data\UI\icon_B_AssaultPack_khk_ca.paa";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Compact\backpack_compact_woodland.paa"};
+        author = "AuburnAlumni";
+    };
 };
