@@ -294,23 +294,76 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_TBAN_Rifleman_AK_47_02 : CFP_O_TBAN_Team_Leader_01 {
+    class CFP_O_TBAN_Rifleman_AK_47_02 : O_Soldier_F_OCimport_02 {
         editorPreview = "\x\cfp\addons\o_tban\data\preview\CFP_O_TBAN_Rifleman_AK_47_02.JPG";
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Rifleman (AK47)";
+        side = 0;
+        faction = "CFP_O_TBAN";
 
-        displayName = "Rifleman [AK-47 2]";
+        identityTypes[] = {"Head_TK","LanguagePER_F"};
+        uniformClass = "CUP_O_TKI_Khet_Partug_06";
 
 
-        weapons[] = {"CUP_arifle_AK47","Throw","Put"};
-        respawnWeapons[] = {"CUP_arifle_AK47","Throw","Put"};
-        linkedItems[] = {"CUP_V_OI_TKI_Jacket3_05","CUP_H_TKI_Lungee_04","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
-        respawnLinkedItems[] = {"CUP_V_OI_TKI_Jacket3_05","CUP_H_TKI_Lungee_04","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
-        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
-        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CUP_O_TKI_Khet_Partug_06",{{"FirstAidKit",1}}},{"CUP_V_OI_TKI_Jacket3_05",{{"CUP_30Rnd_762x39_AK47_M",3,30}}},{},"CUP_H_TKI_Lungee_04","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        weapons[] = {"CUP_arifle_AK74_GL","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_AK74_GL","Throw","Put"};
+        linkedItems[] = {"CUP_V_OI_TKI_Jacket4_04","CUP_H_TKI_Pakol_2_03","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"CUP_V_OI_TKI_Jacket4_04","CUP_H_TKI_Pakol_2_03","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74_GL","","","",{"CUP_30Rnd_545x39_AK_M",30},{"CUP_1Rnd_HE_GP25_M",1},""},{},{},{"CUP_O_TKI_Khet_Partug_06",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",1,30},{"SmokeShell",1,1},{"SmokeShellBlue",1,1},{"CUP_1Rnd_HE_GP25_M",2,1}}},{"CUP_V_OI_TKI_Jacket4_04",{{"CUP_30Rnd_545x39_AK_M",2,30},{"CUP_1Rnd_HE_GP25_M",1,1}}},{},"CUP_H_TKI_Pakol_2_03","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+
+        randomGearProbability = 100;
+
+        // Taliban Uniforms
+            uniformList[] = {
+        "CUP_O_TKI_Khet_Partug_01", 0.2,
+        "CUP_O_TKI_Khet_Partug_02", 0.2,
+        "CUP_O_TKI_Khet_Partug_04", 0.2,
+        "CUP_O_TKI_Khet_Partug_06", 0.2,
+        "CUP_O_TKI_Khet_Partug_08", 0.2,
+        "CFP_U_KhetPartug_Long_olive", 0.2
+            };
+
+        // Taliban Headgear
+            headgearList[] = {
+        "CUP_H_TKI_Lungee_Open_01", 0.2,
+        "CUP_H_TKI_Lungee_Open_02", 0.2,
+        "CUP_H_TKI_Lungee_Open_03", 0.2,
+        "CUP_H_TKI_Lungee_Open_04", 0.2,
+        "CUP_H_TKI_Lungee_Open_05", 0.2,
+        "CUP_H_TKI_Lungee_Open_06", 0.2,
+        "CUP_H_TKI_Pakol_2_03", 0.2,
+        "CUP_H_TKI_SkullCap_01", 0.2,
+        "CUP_H_TKI_SkullCap_02", 0.2,
+        "CUP_H_TKI_SkullCap_03", 0.2,
+        "CUP_H_TKI_SkullCap_04", 0.2,
+        "CUP_H_TKI_SkullCap_05", 0.2,
+        "CUP_H_TKI_SkullCap_06", 0.2
+            };
+
+        // Taliban Facewear
+            facewearList[] = {
+        "CFP_Beard", 1.0
+            };
+
+            class EventHandlers : EventHandlers {
+                class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+                class ALiVE_orbatCreator {
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                };
+
+            };
+
+            // custom attributes (do not delete)
+            ALiVE_orbatCreator_owned = 1;
 
     };
 
-    class CFP_O_TBAN_Rifleman_Lee_Enfield_02 : CFP_O_TBAN_Team_Leader_01 {
+    class CFP_O_TBAN_Rifleman_Lee_Enfield_02 : CFP_O_TBAN_Rifleman_AK_47_02 {
         editorPreview = "\x\cfp\addons\o_tban\data\preview\CFP_O_TBAN_Rifleman_Lee_Enfield_02.JPG";
 
         displayName = "Rifleman [Lee-Enfield 2]";
@@ -326,10 +379,10 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_TBAN_Machine_Gunner_2_01 : CFP_O_TBAN_Team_Leader_01 {
+    class CFP_O_TBAN_Machine_Gunner_2_01 : CFP_O_TBAN_Rifleman_AK_47_02 {
         editorPreview = "\x\cfp\addons\o_tban\data\preview\CFP_O_TBAN_Machine_Gunner_2_01.JPG";
 
-        displayName = "Machine Gunner 2";
+        displayName = "Machine Gunner";
 
         backpack = "CUP_B_TKI_AlicePack_MG";
         weapons[] = {"CUP_lmg_PKM","Throw","Put"};
@@ -358,26 +411,26 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_TBAN_AT_Rifleman_2_01 : CFP_O_TBAN_Team_Leader_01 {
+    class CFP_O_TBAN_AT_Rifleman_2_01 : CFP_O_TBAN_Rifleman_AK_47_02 {
         editorPreview = "\x\cfp\addons\o_tban\data\preview\CFP_O_TBAN_AT_Rifleman_2_01.JPG";
 
-        displayName = "AT Rifleman 2";
+        displayName = "AT Rifleman";
 
-        backpack = "CUP_B_TKI_Backpack_Gunner_RPG";
+        backpack = "CFP_RPGPack_Khaki";
         weapons[] = {"CUP_arifle_AK74","CUP_launch_RPG7V","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_AK74","CUP_launch_RPG7V","Throw","Put"};
         linkedItems[] = {"CUP_V_OI_TKI_Jacket4_01","CUP_H_TKI_Lungee_02","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         respawnLinkedItems[] = {"CUP_V_OI_TKI_Jacket4_01","CUP_H_TKI_Lungee_02","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_PG7VL_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_PG7VL_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{"CUP_launch_RPG7V","","","",{"CUP_PG7VL_M",1},{},""},{},{"CUP_O_TKI_Khet_Partug_04",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",1,30}}},{"CUP_V_OI_TKI_Jacket4_01",{{"CUP_30Rnd_545x39_AK_M",2,30}}},{"CUP_B_TKI_Backpack_Gunner_RPG",{{"CUP_PG7VL_M",1,1}}},"CUP_H_TKI_Lungee_02","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{"CUP_launch_RPG7V","","","",{"CUP_PG7VL_M",1},{},""},{},{"CUP_O_TKI_Khet_Partug_04",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",1,30}}},{"CUP_V_OI_TKI_Jacket4_01",{{"CUP_30Rnd_545x39_AK_M",2,30}}},{"CFP_RPGPack_Khaki",{{"CUP_PG7VL_M",1,1}}},"CUP_H_TKI_Lungee_02","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
-    class CFP_O_TBAN_Grenadier_AK_74_02 : CFP_O_TBAN_Team_Leader_01 {
+    class CFP_O_TBAN_Grenadier_AK_74_02 : CFP_O_TBAN_Rifleman_AK_47_02 {
         editorPreview = "\x\cfp\addons\o_tban\data\preview\CFP_O_TBAN_Grenadier_AK_74_02.JPG";
 
-        displayName = "Grenadier [AK-74 2]";
+        displayName = "Grenadier [AK-74]";
 
         backpack = "CUP_B_TKI_AlicePack_Khaki_AmmoAK74";
         weapons[] = {"CUP_arifle_AK74_GL","Throw","Put"};
@@ -406,7 +459,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_TBAN_Medic_AK_47_01 : CFP_O_TBAN_Team_Leader_01 {
+    class CFP_O_TBAN_Medic_AK_47_01 : CFP_O_TBAN_Rifleman_AK_47_02 {
         editorPreview = "\x\cfp\addons\o_tban\data\preview\CFP_O_TBAN_Medic_AK_47_01.JPG";
 
         displayName = "Medic [AK-47]";
@@ -438,7 +491,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_TBAN_Explosive_Specialist_Lee_Enfield_01 : CFP_O_TBAN_Team_Leader_01 {
+    class CFP_O_TBAN_Explosive_Specialist_Lee_Enfield_01 : CFP_O_TBAN_Rifleman_AK_47_02 {
         editorPreview = "\x\cfp\addons\o_tban\data\preview\CFP_O_TBAN_Explosive_Specialist_Lee_Enfield_01.JPG";
 
         displayName = "Explosive Specialist [Lee Enfield]";
@@ -486,7 +539,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_TBAN_Gunner_Mortar_01 : CFP_O_TBAN_Team_Leader_01 {
+    class CFP_O_TBAN_Gunner_Mortar_01 : CFP_O_TBAN_Rifleman_AK_47_02 {
         editorPreview = "\x\cfp\addons\o_tban\data\preview\CFP_O_TBAN_Gunner_Mortar_01.JPG";
 
         displayName = "Gunner [Mortar}";
@@ -502,7 +555,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_TBAN_Gunner_SPG_01 : CFP_O_TBAN_Team_Leader_01 {
+    class CFP_O_TBAN_Gunner_SPG_01 : CFP_O_TBAN_Rifleman_AK_47_02 {
         editorPreview = "\x\cfp\addons\o_tban\data\preview\CFP_O_TBAN_Gunner_SPG_01.JPG";
 
         displayName = "Gunner [SPG-9]";
@@ -705,10 +758,10 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_TBAN_Sniper_2_01 : CFP_O_TBAN_Team_Leader_01 {
+    class CFP_O_TBAN_Sniper_2_01 : CFP_O_TBAN_Rifleman_AK_47_02 {
         editorPreview = "\x\cfp\addons\o_tban\data\preview\CFP_O_TBAN_Sniper_2_01.JPG";
 
-        displayName = "Sniper 2";
+        displayName = "Sniper";
 
 
         weapons[] = {"CUP_srifle_LeeEnfield_rail","Throw","Put"};
@@ -721,7 +774,7 @@ class CfgVehicles {
 
     };
 
-        class CFP_O_TBAN_Asst_Gunner_DShKM_01 : CFP_O_TBAN_Team_Leader_01 {
+        class CFP_O_TBAN_Asst_Gunner_DShKM_01 : CFP_O_TBAN_Rifleman_AK_47_02 {
 
         displayName = "Asst. Gunner [DShKM]";
 
@@ -736,7 +789,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_TBAN_Asst_Gunner_SPG_01 : CFP_O_TBAN_Rifleman_AK_47_01 {
+    class CFP_O_TBAN_Asst_Gunner_SPG_01 : CFP_O_TBAN_Rifleman_AK_47_02 {
 
         displayName = "Asst. Gunner [SPG-9]";
 
