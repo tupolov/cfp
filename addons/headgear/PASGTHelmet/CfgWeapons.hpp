@@ -531,3 +531,107 @@ class CfgVehicleClasses
 			hiddenSelections[] = {"Camo"};
 		};
 	};
+
+	class CFP_PASGTHelmet_ChocChip1: ItemCore
+	{
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "PASGT Helmet (Chocolate Chip 1)";
+		picture = "\x\cfp\addons\headgear\PASGTHelmet\ui\Tan1.jpg";
+		model = "\x\cfp\addons\models\PASGTHelmet1";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\ChocChip.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "AuburnAlumni";
+
+
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 60;
+			uniformmodel = "\x\cfp\addons\models\PASGTHelmet1";
+			modelSides[] = {3,1};
+			armor = 10;
+			passThrough = 0.30;
+			HITPOINTS_HEAD(10,0.30)
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\ChocChip.paa"};
+			hiddenSelections[] = {"Camo"};
+		};
+	};
+
+	class CFP_PASGTHelmet_ChocChip2: ItemCore
+	{
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "PASGT Helmet (Chocolate Chip 2)";
+		picture = "\x\cfp\addons\headgear\PASGTHelmet\ui\Tan1.jpg";
+		model = "\x\cfp\addons\models\PASGTHelmet1";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\ChocChip.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "AuburnAlumni";
+
+
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 60;
+			uniformmodel = "\x\cfp\addons\models\PASGTHelmet2";
+			modelSides[] = {3,1};
+			armor = 10;
+			passThrough = 0.30;
+			HITPOINTS_HEAD(10,0.30)
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\ChocChip.paa"};
+			hiddenSelections[] = {"Camo"};
+		};
+	};
+
+	class CFP_PASGTHelmet_EDRL1: ItemCore
+	{
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "PASGT Helmet (EDRL 1)";
+		picture = "\x\cfp\addons\headgear\PASGTHelmet\ui\Tan1.jpg";
+		model = "\x\cfp\addons\models\PASGTHelmet1";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\EDRL.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "AuburnAlumni";
+
+
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 60;
+			uniformmodel = "\x\cfp\addons\models\PASGTHelmet1";
+			modelSides[] = {3,1};
+			armor = 10;
+			passThrough = 0.30;
+			HITPOINTS_HEAD(10,0.30)
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\EDRL.paa"};
+			hiddenSelections[] = {"Camo"};
+		};
+	};
+
+	class CFP_PASGTHelmet_EDRL2: ItemCore
+	{
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "PASGT Helmet (EDRL 2)";
+		picture = "\x\cfp\addons\headgear\PASGTHelmet\ui\Tan1.jpg";
+		model = "\x\cfp\addons\models\PASGTHelmet1";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\EDRL.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "AuburnAlumni";
+
+
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 60;
+			uniformmodel = "\x\cfp\addons\models\PASGTHelmet2";
+			modelSides[] = {3,1};
+			armor = 10;
+			passThrough = 0.30;
+			HITPOINTS_HEAD(10,0.30)
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\EDRL.paa"};
+			hiddenSelections[] = {"Camo"};
+		};
+	};
