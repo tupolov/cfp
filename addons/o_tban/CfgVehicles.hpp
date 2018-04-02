@@ -136,12 +136,29 @@ class CfgVehicles {
 
     	// Taliban Uniforms
     		uniformList[] = {
-    	"CUP_O_TKI_Khet_Partug_01", 0.2,
-    	"CUP_O_TKI_Khet_Partug_02", 0.2,
-    	"CUP_O_TKI_Khet_Partug_04", 0.2,
-    	"CUP_O_TKI_Khet_Partug_06", 0.2,
-    	"CUP_O_TKI_Khet_Partug_08", 0.2,
-    	"CFP_U_KhetPartug_Long_olive", 0.2
+    	"CFP_U_KhetPartug_Long_Olive", 0.2,
+        "CFP_U_KhetPartug_Short_Olive", 0.2,
+        "CFP_U_KhetPartug_Long_Light_Olive", 0.2,
+        "CFP_U_KhetPartug_Short_Light_Olive", 0.2,
+        "CFP_U_KhetPartug_Long_Black", 0.2,
+        "CFP_U_KhetPartug_Short_GreenOlive", 0.2,
+        "CFP_U_KhetPartug_Long_Blue", 0.2,
+        "CFP_U_KhetPartug_Long_BlueGrey", 0.2,
+        "CFP_U_KhetPartug_Long_Brown", 0.2,
+        "CFP_U_KhetPartug_Long_Creme", 0.2,
+        "CFP_U_KhetPartug_Long_Grey", 0.2,
+        "CFP_U_KhetPartug_Long_Purple", 0.2,
+        "CFP_U_KhetPartug_Long_Tan", 0.2,
+        "CFP_U_KhetPartug_Long_White", 0.2,
+        "CFP_U_KhetPartug_Short_Blue", 0.2,
+        "CFP_U_KhetPartug_Short_BlueGrey", 0.2,
+        "CFP_U_KhetPartug_Short_Brown", 0.2,
+        "CFP_U_KhetPartug_Short_Creme", 0.2,
+        "CFP_U_KhetPartug_Short_Grey", 0.2,
+        "CFP_U_KhetPartug_Short_Purple", 0.2,
+        "CFP_U_KhetPartug_Short_Tan", 0.2,
+        "CFP_U_KhetPartug_Short_White", 0.2,
+        "CFP_U_KhetPartug_Short_Black", 0.2
     		};
 
     	// Taliban Headgear
@@ -160,13 +177,68 @@ class CfgVehicles {
     	"CUP_H_TKI_Lungee_05", 0.2,
     	"CUP_H_TKI_Lungee_06", 0.2,
     	"CUP_H_TKI_Pakol_2_03", 0.2,
+        "CUP_H_TKI_Pakol_2_01", 0.2,
+        "CUP_H_TKI_Pakol_2_02", 0.2,
+        "CUP_H_TKI_Pakol_2_04", 0.2,
+        "CUP_H_TKI_Pakol_2_05", 0.2,
+        "CUP_H_TKI_Pakol_2_06", 0.2,
+        "CUP_H_TKI_Pakol_1_01", 0.2,
+        "CUP_H_TKI_Pakol_1_03", 0.2,
+        "CUP_H_TKI_Pakol_1_04", 0.2,
+        "CUP_H_TKI_Pakol_1_05", 0.2,
+        "CUP_H_TKI_Pakol_1_06", 0.2,
     	"CUP_H_TKI_SkullCap_01", 0.2,
     	"CUP_H_TKI_SkullCap_02", 0.2,
     	"CUP_H_TKI_SkullCap_03", 0.2,
     	"CUP_H_TKI_SkullCap_04", 0.2,
     	"CUP_H_TKI_SkullCap_05", 0.2,
-    	"CUP_H_TKI_SkullCap_06", 0.2
+    	"CUP_H_TKI_SkullCap_06", 0.2,
+        "CFP_Lungee_Open_Tan", 0.2,
+        "CFP_Lungee_Open_LightOlive", 0.2,
+        "CFP_Lungee_Open_Grey", 0.2,
+        "CFP_Lungee_Open_Creme", 0.2,
+        "CFP_Lungee_Open_Brown", 0.2,
+        "CFP_Lungee_Open_BlueGrey", 0.2,
+        "CFP_Lungee_Open_Blue", 0.2,
+        "CFP_Lungee_BlueGrey", 0.2,
+        "CFP_Lungee_Brown", 0.2,
+        "CFP_Lungee_Green", 0.2,
+        "CFP_Lungee_Grey", 0.2,
+        "CFP_Lungee_LightOlive", 0.2,
+        "CFP_Lungee_Tan", 0.2
     		};
+
+        // Taliban Vests
+            vestList[] = {
+        "CUP_V_OI_TKI_Jacket2_04", 0.2,
+        "CUP_V_OI_TKI_Jacket2_05", 0.2,
+        "CUP_V_OI_TKI_Jacket2_06", 0.2,
+        "CUP_V_OI_TKI_Jacket3_03", 0.2,
+        "CUP_V_OI_TKI_Jacket3_04", 0.2,
+        "CUP_V_OI_TKI_Jacket3_05", 0.2,
+        "CUP_V_OI_TKI_Jacket3_06", 0.2,
+        "CUP_V_OI_TKI_Jacket5_04", 0.2,
+        "CUP_V_OI_TKI_Jacket5_05", 0.2,
+        "CUP_V_OI_TKI_Jacket5_06", 0.2,
+        "CUP_V_OI_TKI_Jacket6_02", 0.2,
+        "CUP_V_OI_TKI_Jacket6_03", 0.2,
+        "CUP_V_OI_TKI_Jacket6_04", 0.2,
+        "CUP_V_OI_TKI_Jacket6_05", 0.2,
+        "CUP_V_OI_TKI_Jacket6_06", 0.2,
+        "CFP_TakJacket_Woodland", 0.2,
+        "CFP_TakJacket_Marpat", 0.2,
+        "CFP_TakJacket_M81", 0.2,
+        "CFP_TakJacket_EDRL", 0.2,
+        "CFP_TakJacket_ChocChip", 0.2,
+        "CFP_UtilityJacket_Woodland", 0.2,
+        "CFP_UtilityJacket_M81", 0.2,
+        "CFP_UtilityJacket_EDRL", 0.2,
+        "CFP_UtilityJacket_ChocChip", 0.2,
+        "CFP_AK_VEST_Tan", 0.2,
+        "CFP_AK_VEST_EDRL", 0.2,
+        "CFP_AK_VEST_LOlive", 0.2,
+        "CFP_AK_VEST_Olive", 0.2
+            };
 
             class EventHandlers : EventHandlers {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -299,7 +371,7 @@ class CfgVehicles {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Rifleman (AK47)";
+        displayName = "Rifleman [AK47]";
         side = 0;
         faction = "CFP_O_TBAN";
 
@@ -319,12 +391,29 @@ class CfgVehicles {
 
         // Taliban Uniforms
             uniformList[] = {
-        "CUP_O_TKI_Khet_Partug_01", 0.2,
-        "CUP_O_TKI_Khet_Partug_02", 0.2,
-        "CUP_O_TKI_Khet_Partug_04", 0.2,
-        "CUP_O_TKI_Khet_Partug_06", 0.2,
-        "CUP_O_TKI_Khet_Partug_08", 0.2,
-        "CFP_U_KhetPartug_Long_olive", 0.2
+        "CFP_U_KhetPartug_Long_Olive", 0.2,
+        "CFP_U_KhetPartug_Short_Olive", 0.2,
+        "CFP_U_KhetPartug_Long_Light_Olive", 0.2,
+        "CFP_U_KhetPartug_Short_Light_Olive", 0.2,
+        "CFP_U_KhetPartug_Long_Black", 0.2,
+        "CFP_U_KhetPartug_Short_GreenOlive", 0.2,
+        "CFP_U_KhetPartug_Long_Blue", 0.2,
+        "CFP_U_KhetPartug_Long_BlueGrey", 0.2,
+        "CFP_U_KhetPartug_Long_Brown", 0.2,
+        "CFP_U_KhetPartug_Long_Creme", 0.2,
+        "CFP_U_KhetPartug_Long_Grey", 0.2,
+        "CFP_U_KhetPartug_Long_Purple", 0.2,
+        "CFP_U_KhetPartug_Long_Tan", 0.2,
+        "CFP_U_KhetPartug_Long_White", 0.2,
+        "CFP_U_KhetPartug_Short_Blue", 0.2,
+        "CFP_U_KhetPartug_Short_BlueGrey", 0.2,
+        "CFP_U_KhetPartug_Short_Brown", 0.2,
+        "CFP_U_KhetPartug_Short_Creme", 0.2,
+        "CFP_U_KhetPartug_Short_Grey", 0.2,
+        "CFP_U_KhetPartug_Short_Purple", 0.2,
+        "CFP_U_KhetPartug_Short_Tan", 0.2,
+        "CFP_U_KhetPartug_Short_White", 0.2,
+        "CFP_U_KhetPartug_Short_Black", 0.2
             };
 
         // Taliban Headgear
@@ -336,12 +425,61 @@ class CfgVehicles {
         "CUP_H_TKI_Lungee_Open_05", 0.2,
         "CUP_H_TKI_Lungee_Open_06", 0.2,
         "CUP_H_TKI_Pakol_2_03", 0.2,
+        "CUP_H_TKI_Pakol_2_01", 0.2,
+        "CUP_H_TKI_Pakol_2_02", 0.2,
+        "CUP_H_TKI_Pakol_2_04", 0.2,
+        "CUP_H_TKI_Pakol_2_05", 0.2,
+        "CUP_H_TKI_Pakol_2_06", 0.2,
+        "CUP_H_TKI_Pakol_1_01", 0.2,
+        "CUP_H_TKI_Pakol_1_03", 0.2,
+        "CUP_H_TKI_Pakol_1_04", 0.2,
+        "CUP_H_TKI_Pakol_1_05", 0.2,
+        "CUP_H_TKI_Pakol_1_06", 0.2,
         "CUP_H_TKI_SkullCap_01", 0.2,
         "CUP_H_TKI_SkullCap_02", 0.2,
         "CUP_H_TKI_SkullCap_03", 0.2,
         "CUP_H_TKI_SkullCap_04", 0.2,
         "CUP_H_TKI_SkullCap_05", 0.2,
-        "CUP_H_TKI_SkullCap_06", 0.2
+        "CUP_H_TKI_SkullCap_06", 0.2,
+        "CFP_Lungee_Open_Tan", 0.2,
+        "CFP_Lungee_Open_LightOlive", 0.2,
+        "CFP_Lungee_Open_Grey", 0.2,
+        "CFP_Lungee_Open_Creme", 0.2,
+        "CFP_Lungee_Open_Brown", 0.2,
+        "CFP_Lungee_Open_BlueGrey", 0.2,
+        "CFP_Lungee_Open_Blue", 0.2
+            };
+
+        // Taliban Vests
+            vestList[] = {
+        "CUP_V_OI_TKI_Jacket2_04", 0.2,
+        "CUP_V_OI_TKI_Jacket2_05", 0.2,
+        "CUP_V_OI_TKI_Jacket2_06", 0.2,
+        "CUP_V_OI_TKI_Jacket3_03", 0.2,
+        "CUP_V_OI_TKI_Jacket3_04", 0.2,
+        "CUP_V_OI_TKI_Jacket3_05", 0.2,
+        "CUP_V_OI_TKI_Jacket3_06", 0.2,
+        "CUP_V_OI_TKI_Jacket5_04", 0.2,
+        "CUP_V_OI_TKI_Jacket5_05", 0.2,
+        "CUP_V_OI_TKI_Jacket5_06", 0.2,
+        "CUP_V_OI_TKI_Jacket6_02", 0.2,
+        "CUP_V_OI_TKI_Jacket6_03", 0.2,
+        "CUP_V_OI_TKI_Jacket6_04", 0.2,
+        "CUP_V_OI_TKI_Jacket6_05", 0.2,
+        "CUP_V_OI_TKI_Jacket6_06", 0.2,
+        "CFP_TakJacket_Woodland", 0.2,
+        "CFP_TakJacket_Marpat", 0.2,
+        "CFP_TakJacket_M81", 0.2,
+        "CFP_TakJacket_EDRL", 0.2,
+        "CFP_TakJacket_ChocChip", 0.2,
+        "CFP_UtilityJacket_Woodland", 0.2,
+        "CFP_UtilityJacket_M81", 0.2,
+        "CFP_UtilityJacket_EDRL", 0.2,
+        "CFP_UtilityJacket_ChocChip", 0.2,
+        "CFP_AK_VEST_Tan", 0.2,
+        "CFP_AK_VEST_EDRL", 0.2,
+        "CFP_AK_VEST_LOlive", 0.2,
+        "CFP_AK_VEST_Olive", 0.2
             };
 
         // Taliban Facewear
@@ -384,14 +522,14 @@ class CfgVehicles {
 
         displayName = "Machine Gunner";
 
-        backpack = "CUP_B_TKI_AlicePack_MG";
+        backpack = "CFP_Kitbag_Woodland";
         weapons[] = {"CUP_lmg_PKM","Throw","Put"};
         respawnWeapons[] = {"CUP_lmg_PKM","Throw","Put"};
         linkedItems[] = {"CUP_V_OI_TKI_Jacket3_04","CUP_H_TKI_Lungee_06","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         respawnLinkedItems[] = {"CUP_V_OI_TKI_Jacket3_04","CUP_H_TKI_Lungee_06","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"};
         respawnMagazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_PKM","","","",{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",100},{},""},{},{},{"CUP_O_TKI_Khet_Partug_02",{{"FirstAidKit",1}}},{"CUP_V_OI_TKI_Jacket3_04",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",1,100}}},{"CUP_B_TKI_AlicePack_MG",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",2,100}}},"CUP_H_TKI_Lungee_06","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_PKM","","","",{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",100},{},""},{},{},{"CUP_O_TKI_Khet_Partug_02",{{"FirstAidKit",1}}},{"CUP_V_OI_TKI_Jacket3_04",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",1,100}}},{"CFP_Kitbag_Woodland",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",2,100}}},"CUP_H_TKI_Lungee_06","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -480,14 +618,14 @@ class CfgVehicles {
 
         displayName = "Explosive Specialist";
 
-        backpack = "CUP_B_TKI_AlicePack_Exp";
+        backpack = "CFP_Kitbag_Woodland";
         weapons[] = {"CUP_arifle_AK74","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_AK74","Throw","Put"};
         linkedItems[] = {"CUP_V_OI_TKI_Jacket3_03","CUP_H_TKI_Lungee_Open_05","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         respawnLinkedItems[] = {"CUP_V_OI_TKI_Jacket3_03","CUP_H_TKI_Lungee_Open_05","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"CUP_O_TKI_Khet_Partug_08",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",1,30}}},{"CUP_V_OI_TKI_Jacket3_03",{{"CUP_30Rnd_545x39_AK_M",2,30}}},{"CUP_B_TKI_AlicePack_Exp",{{"ToolKit",1},{"MineDetector",1},{"CUP_PipeBomb_M",2,1}}},"CUP_H_TKI_Lungee_Open_05","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"CUP_O_TKI_Khet_Partug_08",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",1,30}}},{"CUP_V_OI_TKI_Jacket3_03",{{"CUP_30Rnd_545x39_AK_M",2,30}}},{"CFP_Kitbag_Woodland",{{"ToolKit",1},{"MineDetector",1},{"CUP_PipeBomb_M",2,1}}},"CUP_H_TKI_Lungee_Open_05","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 

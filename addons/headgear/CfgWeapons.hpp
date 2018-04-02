@@ -50,4 +50,6 @@ class CfgWeapons {
     #include "TSH04Helmet\CfgWeapons.hpp"
     #include "VSM_Helms\CfgWeapons.hpp"
     #include "ZSH1Helmet\CfgWeapons.hpp"
+    #include "LungeeOpen\CfgWeapons.hpp"
+    #include "Lungee\CfgWeapons.hpp"
 };

@@ -28,7 +28,7 @@ class CfgVehicleClasses
 		class ItemInfo: VestItem
 		{
 			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_TakiInsurgents\CUP_Taki_Jacket.p3d";
-			containerClass = "Supply40";
+			containerClass = "Supply80";
 			hiddenSelections[] = {"camo1","camo2"};
 			mass = 80;
 			class HitpointsProtectionInfo
@@ -59,7 +59,7 @@ class CfgVehicleClasses
 		class ItemInfo: VestItem
 		{
 			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_TakiInsurgents\CUP_Taki_Jacket.p3d";
-			containerClass = "Supply40";
+			containerClass = "Supply80";
 			hiddenSelections[] = {"camo1","camo2"};
 			mass = 80;
 			class HitpointsProtectionInfo
@@ -90,7 +90,7 @@ class CfgVehicleClasses
 		class ItemInfo: VestItem
 		{
 			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_TakiInsurgents\CUP_Taki_Jacket.p3d";
-			containerClass = "Supply40";
+			containerClass = "Supply80";
 			hiddenSelections[] = {"camo1","camo2"};
 			mass = 80;
 			class HitpointsProtectionInfo
@@ -121,7 +121,7 @@ class CfgVehicleClasses
 		class ItemInfo: VestItem
 		{
 			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_TakiInsurgents\CUP_Taki_Jacket.p3d";
-			containerClass = "Supply40";
+			containerClass = "Supply80";
 			hiddenSelections[] = {"camo1","camo2"};
 			mass = 80;
 			class HitpointsProtectionInfo
@@ -152,7 +152,7 @@ class CfgVehicleClasses
 		class ItemInfo: VestItem
 		{
 			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_TakiInsurgents\CUP_Taki_Jacket.p3d";
-			containerClass = "Supply40";
+			containerClass = "Supply80";
 			hiddenSelections[] = {"camo1","camo2"};
 			mass = 80;
 			class HitpointsProtectionInfo
@@ -183,7 +183,7 @@ class CfgVehicleClasses
 		class ItemInfo: VestItem
 		{
 			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_TakiInsurgents\CUP_Taki_Jacket.p3d";
-			containerClass = "Supply40";
+			containerClass = "Supply80";
 			hiddenSelections[] = {"camo1","camo2"};
 			mass = 80;
 			class HitpointsProtectionInfo
@@ -214,7 +214,7 @@ class CfgVehicleClasses
 		class ItemInfo: VestItem
 		{
 			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_TakiInsurgents\CUP_Taki_Jacket.p3d";
-			containerClass = "Supply40";
+			containerClass = "Supply80";
 			hiddenSelections[] = {"camo1","camo2"};
 			mass = 80;
 			class HitpointsProtectionInfo
@@ -245,7 +245,7 @@ class CfgVehicleClasses
 		class ItemInfo: VestItem
 		{
 			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_TakiInsurgents\CUP_Taki_Jacket.p3d";
-			containerClass = "Supply40";
+			containerClass = "Supply80";
 			hiddenSelections[] = {"camo1","camo2"};
 			mass = 80;
 			class HitpointsProtectionInfo

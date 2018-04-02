@@ -325,7 +325,20 @@ class CfgPatches
 			"CFP_OPS2017_Helmet_Multicam",
 			"CFP_OPS2017_Helmet_M81",
 			"CFP_OPS2017_Helmet_Black",
-			"CFP_OPS2017_Helmet_OliveFabric"
+			"CFP_OPS2017_Helmet_OliveFabric",
+			"CFP_Lungee_Open_Tan",
+			"CFP_Lungee_Open_LightOlive",
+			"CFP_Lungee_Open_Grey",
+			"CFP_Lungee_Open_Creme",
+			"CFP_Lungee_Open_Brown",
+			"CFP_Lungee_Open_BlueGrey",
+			"CFP_Lungee_Open_Blue",
+			"CFP_Lungee_BlueGrey",
+			"CFP_Lungee_Brown",
+			"CFP_Lungee_Green",
+			"CFP_Lungee_Grey",
+			"CFP_Lungee_LightOlive",
+			"CFP_Lungee_Tan"
 		};
         author = MODULE_AUTHOR;
         authors[] = {"SP Craig", "Tupolov","AuburnAlumni","VanSchmoozin"};
