@@ -104,8 +104,20 @@ class CfgPatches
 			"CFP_Smersh_Tan",
 			"CFP_Smersh_Green",
 			"CFP_Smersh_Creme",
-			"CFP_Smersh_Olive"
-			
+			"CFP_Smersh_Olive",
+			"CFP_UtilityJacket_Woodland",
+			"CFP_UtilityJacket_PolygonWoodland",
+			"CFP_UtilityJacket_PolygonDesert",
+			"CFP_UtilityJacket_M81",
+			"CFP_UtilityJacket_EDRL",
+			"CFP_UtilityJacket_ChocChip",
+			"CFP_TakJacket_Woodland",
+			"CFP_TakJacket_PolygonWoodland",
+			"CFP_TakJacket_PolygonDesert",
+			"CFP_TakJacket_Marpat",
+			"CFP_TakJacket_M81",
+			"CFP_TakJacket_EDRL",
+			"CFP_TakJacket_ChocChip"
 		};
         author = MODULE_AUTHOR;
         authors[] = {"SP Craig", "Tupolov", "AuburnAlumni"};

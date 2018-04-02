@@ -161,3 +161,68 @@
 			mass=20;
 		};
 	};
+
+	class CFP_U_KhetPartug_Long_Black: CFP_U_KhetPartug_Long_M81
+	{
+		displayName = "Khet Partug (Black)";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_KhetPartug_Long_Black";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+
+	class CFP_U_KhetPartug_Short_EDRL: CFP_U_KhetPartug_Short_M81
+	{
+		displayName = "Khet Partug (Short, EDRL)";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_KhetPartug_Short_EDRL";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+
+	class CFP_U_KhetPartug_Short_GreenOlive: CFP_U_KhetPartug_Short_M81
+	{
+		displayName = "Khet Partug (Short, Green Olive)";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_KhetPartug_Short_GreenOlive";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+
+	class CFP_U_KhetPartug_Short_Woodland: CFP_U_KhetPartug_Short_M81
+	{
+		displayName = "Khet Partug (Short, Woodland)";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_KhetPartug_Short_Woodland";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+
+	class CFP_U_KhetPartug_Short_PolygonDesert: CFP_U_KhetPartug_Short_M81
+	{
+		displayName = "Khet Partug (Short, Polygon Desert)";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_KhetPartug_Short_PolygonDesert";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};

@@ -119,3 +119,33 @@
 		displayName = "Khet Partug, Long (EDRL)";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\KhetPartug\camo\KhetPartug_Long_EDRL.paa"};
 	};
+
+	class CFP_KhetPartug_Long_Black: CFP_KhetPartug_Long_M81
+	{
+		displayName = "Khet Partug, Long (Black)";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\KhetPartug\camo\KhetPartug_Long_Black.paa"};
+	};
+
+	class CFP_KhetPartug_Short_EDRL: CFP_KhetPartug_Short_M81
+	{
+		displayName = "Khet Partug, Short (EDRL)";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\KhetPartug\camo\KhetPartug_Short_EDRL.paa"};
+	};
+
+	class CFP_KhetPartug_Short_GreenOlive: CFP_KhetPartug_Short_M81
+	{
+		displayName = "Khet Partug, Short (Green Olive)";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\KhetPartug\camo\KhetPartug_Short_GreenOlive.paa"};
+	};
+
+	class CFP_KhetPartug_Short_Woodland: CFP_KhetPartug_Short_M81
+	{
+		displayName = "Khet Partug, Short (Woodland)";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\KhetPartug\camo\KhetPartug_Short_Woodland.paa"};
+	};
+
+	class CFP_KhetPartug_Short_PolygonDesert: CFP_KhetPartug_Short_M81
+	{
+		displayName = "Khet Partug, Short (Olive)";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\KhetPartug\camo\KhetPartug_Short_PolygonDesert.paa"};
+	};
