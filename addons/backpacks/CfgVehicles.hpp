@@ -275,4 +275,15 @@ class CfgVehicles
         hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Compact\backpack_compact_woodland.paa"};
         author = "AuburnAlumni";
     };
+    class B_TacticalPack_Base;
+    class CFP_TacticalPack_DPMWoodland : B_TacticalPack_Base
+    {
+        scope = 2;
+        maximumLoad = 240;
+        displayName = "Tactical Pack (DPM Woodland)";
+        model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Small";
+        picture = "\A3\weapons_f\ammoboxes\bags\data\ui\icon_B_C_Small_blk.paa";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Tactical\tortila_dpmwoodland.paa"};
+        author = "AuburnAlumni";
+    };
 };
