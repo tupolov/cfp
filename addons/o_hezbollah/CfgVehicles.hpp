@@ -215,33 +215,40 @@ class CfgVehicles {
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_FieldUniform_marpat_w",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"SP_Modular1_Tan",{{"CUP_30Rnd_762x39_AK47_M",6,30}}},{},"CFP_PatrolCap_Marpat","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
+        randomGearProbability = 100;
 
+        // Militia Headgear
+            headgearList[] = {
+        "CFP_PASGTHelmet_Marpat1", 0.2,
+        "CFP_PASGTHelmet_Marpat2", 0.2
+            };
+
+        // Militia Vests
+            vestList[] = {
+        "CFP_Tactical1_Woodland", 0.2,
+        "CFP_Tactical1_EDRL", 0.2,
+        "CFP_Tactical1_Marpat", 0.2,
+        "CFP_Tactical1_M81", 0.2,
+        "V_I_G_resistanceLeader_F", 0.2
+            };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this, 'CFP_INSIGNIA_HEZBOLLAH2'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'CFP_INSIGNIA_HEZBOLLAH2'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-	ALiVE_orbatCreator_insignia = "CFP_INSIGNIA_HEZBOLLAH2";
+    ALiVE_orbatCreator_insignia = "CFP_INSIGNIA_HEZBOLLAH2";
+
     };
-
     class CFP_O_HEZBOLLAH_Paramilitary_Squad_Leader_01 : CFP_O_HEZBOLLAH_Paramilitary_Rifleman_01 {
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
+
         displayName = "Paramilitary [Squad Leader]";
-        side = 0;
-        faction = "CFP_O_HEZBOLLAH";
-
-        identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
-        uniformClass = "CFP_U_FieldUniform_marpat_w";
-
 
         weapons[] = {"CUP_arifle_AKM","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_AKM","Throw","Put"};
@@ -251,68 +258,26 @@ class CfgVehicles {
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_FieldUniform_marpat_w",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"SP_Modular1_Green",{{"CUP_30Rnd_762x39_AK47_M",6,30}}},{},"CFP_PatrolCap_Marpat","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this, 'CFP_INSIGNIA_HEZBOLLAH2'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-    ALiVE_orbatCreator_insignia = "CFP_INSIGNIA_HEZBOLLAH2";
     };
 
     class CFP_O_HEZBOLLAH_Paramilitary_Rifleman_AT_01 : CFP_O_HEZBOLLAH_Paramilitary_Rifleman_01 {
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
+
         displayName = "Paramilitary [Rifleman AT]";
-        side = 0;
-        faction = "CFP_O_HEZBOLLAH";
 
-        identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
-        uniformClass = "CFP_U_FieldUniform_marpat_w";
-
-        backpack = "CUP_B_RPGPack_Khaki";
+        backpack = "CFP_RPGPack_Khaki";
         weapons[] = {"CUP_arifle_AKM","CUP_launch_RPG7V","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_AKM","CUP_launch_RPG7V","Throw","Put"};
         linkedItems[] = {"SP_Modular1_Tan","SP_PASGTHelmet_Black1","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         respawnLinkedItems[] = {"SP_Modular1_Tan","SP_PASGTHelmet_Black1","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_PG7V_M"};
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_PG7V_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{"CUP_launch_RPG7V","","","",{"CUP_PG7V_M",1},{},""},{},{"CFP_U_FieldUniform_marpat_w",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"SP_Modular1_Tan",{{"CUP_30Rnd_762x39_AK47_M",6,30}}},{"CUP_B_RPGPack_Khaki",{{"CUP_PG7V_M",3,1}}},"SP_PASGTHelmet_Black1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{"CUP_launch_RPG7V","","","",{"CUP_PG7V_M",1},{},""},{},{"CFP_U_FieldUniform_marpat_w",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"SP_Modular1_Tan",{{"CUP_30Rnd_762x39_AK47_M",6,30}}},{"CFP_RPGPack_Khaki",{{"CUP_PG7V_M",3,1}}},"SP_PASGTHelmet_Black1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this, 'CFP_INSIGNIA_HEZBOLLAH2'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-    ALiVE_orbatCreator_insignia = "CFP_INSIGNIA_HEZBOLLAH2";
     };
 
     class CFP_O_HEZBOLLAH_Paramilitary_Medic_01 : CFP_O_HEZBOLLAH_Paramilitary_Rifleman_01 {
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Paramilitary [Medic]";
-        side = 0;
-        faction = "CFP_O_HEZBOLLAH";
 
-        identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
-        uniformClass = "CFP_U_FieldUniform_marpat_w";
+        displayName = "Paramilitary [Medic]";
 
         backpack = "B_AssaultPack_rgr";
         weapons[] = {"CUP_arifle_AKM","Throw","Put"};
@@ -323,33 +288,11 @@ class CfgVehicles {
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_FieldUniform_marpat_w",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"SP_Modular1_Black",{{"CUP_30Rnd_762x39_AK47_M",6,30}}},{"B_AssaultPack_rgr",{{"Medikit",1},{"FirstAidKit",10}}},"CFP_PatrolCap_Marpat","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this, 'CFP_INSIGNIA_HEZBOLLAH2'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-    ALiVE_orbatCreator_insignia = "CFP_INSIGNIA_HEZBOLLAH2";
     };
 
     class CFP_O_HEZBOLLAH_Paramilitary_Grenadier_01 : CFP_O_HEZBOLLAH_Paramilitary_Rifleman_01 {
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
+
         displayName = "Paramilitary [Grenadier]";
-        side = 0;
-        faction = "CFP_O_HEZBOLLAH";
-
-        identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
-        uniformClass = "CFP_U_FieldUniform_marpat_w";
-
 
         weapons[] = {"CUP_arifle_AK74M_GL","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_AK74M_GL","Throw","Put"};
@@ -359,105 +302,41 @@ class CfgVehicles {
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_GL","","","",{"CUP_30Rnd_545x39_AK_M",30},{"CUP_1Rnd_HE_GP25_M",1},""},{},{},{"CFP_U_FieldUniform_marpat_w",{{"CUP_30Rnd_545x39_AK_M",3,30}}},{"SP_Modular1_Tan",{{"CUP_30Rnd_545x39_AK_M",5,30},{"CUP_1Rnd_HE_GP25_M",5,1},{"CUP_1Rnd_SMOKE_GP25_M",3,1}}},{},"CFP_PatrolCap_Marpat","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this, 'CFP_INSIGNIA_HEZBOLLAH2'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-    ALiVE_orbatCreator_insignia = "CFP_INSIGNIA_HEZBOLLAH2";
     };
 
     class CFP_O_HEZBOLLAH_Paramilitary_Machine_Gunner_01 : CFP_O_HEZBOLLAH_Paramilitary_Rifleman_01 {
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
+
         displayName = "Paramilitary [Machine Gunner]";
-        side = 0;
-        faction = "CFP_O_HEZBOLLAH";
 
-        identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
-        uniformClass = "CFP_U_FieldUniform_marpat_w";
-
-        backpack = "B_AssaultPack_rgr";
+        backpack = "CFP_AssaultPack_Marpat";
         weapons[] = {"CUP_lmg_PKM","Throw","Put"};
         respawnWeapons[] = {"CUP_lmg_PKM","Throw","Put"};
         linkedItems[] = {"SP_Modular1_Green","SP_PASGTHelmet_Black2","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         respawnLinkedItems[] = {"SP_Modular1_Green","SP_PASGTHelmet_Black2","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"};
         respawnMagazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_PKM","","","",{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",100},{},""},{},{},{"CFP_U_FieldUniform_marpat_w",{}},{"SP_Modular1_Green",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",1,100}}},{"B_AssaultPack_rgr",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",2,100}}},"SP_PASGTHelmet_Black2","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_PKM","","","",{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",100},{},""},{},{},{"CFP_U_FieldUniform_marpat_w",{}},{"SP_Modular1_Green",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",1,100}}},{"CFP_AssaultPack_Marpat",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",2,100}}},"SP_PASGTHelmet_Black2","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this, 'CFP_INSIGNIA_HEZBOLLAH2'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-    ALiVE_orbatCreator_insignia = "CFP_INSIGNIA_HEZBOLLAH2";
     };
 
     class CFP_O_HEZBOLLAH_Paramilitary_Explosive_Specialist_01 : CFP_O_HEZBOLLAH_Paramilitary_Rifleman_01 {
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
+
         displayName = "Paramilitary [Explosive Specialist]";
-        side = 0;
-        faction = "CFP_O_HEZBOLLAH";
 
-        identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
-        uniformClass = "CFP_U_FieldUniform_marpat_w";
-
-        backpack = "B_Kitbag_rgr";
+        backpack = "CFP_Kitbag_Marpat";
         weapons[] = {"CUP_arifle_AKM","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_AKM","Throw","Put"};
         linkedItems[] = {"SP_Modular1_Tan","SP_PatrolCap_Green","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         respawnLinkedItems[] = {"SP_Modular1_Tan","SP_PatrolCap_Green","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_FieldUniform_marpat_w",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"SP_Modular1_Tan",{{"CUP_30Rnd_762x39_AK47_M",6,30}}},{"B_Kitbag_rgr",{{"MineDetector",1},{"DemoCharge_Remote_Mag",5,1},{"APERSTripMine_Wire_Mag",1,1},{"ATMine_Range_Mag",1,1},{"CUP_PipeBomb_M",1,1}}},"SP_PatrolCap_Green","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_FieldUniform_marpat_w",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"SP_Modular1_Tan",{{"CUP_30Rnd_762x39_AK47_M",6,30}}},{"CFP_Kitbag_Marpat",{{"MineDetector",1},{"DemoCharge_Remote_Mag",5,1},{"APERSTripMine_Wire_Mag",1,1},{"ATMine_Range_Mag",1,1},{"CUP_PipeBomb_M",1,1}}},"SP_PatrolCap_Green","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this, 'CFP_INSIGNIA_HEZBOLLAH2'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-    ALiVE_orbatCreator_insignia = "CFP_INSIGNIA_HEZBOLLAH2";
     };
 
     class CFP_O_HEZBOLLAH_Paramilitary_Sniper_01 : CFP_O_HEZBOLLAH_Paramilitary_Rifleman_01 {
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
+
         displayName = "Paramilitary [Sniper]";
-        side = 0;
-        faction = "CFP_O_HEZBOLLAH";
-
-        identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
-        uniformClass = "CFP_U_FieldUniform_marpat_w";
-
 
         weapons[] = {"CUP_srifle_SVD","Throw","Put"};
         respawnWeapons[] = {"CUP_srifle_SVD","Throw","Put"};
@@ -467,20 +346,6 @@ class CfgVehicles {
         respawnMagazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_SVD","","","CUP_optic_PSO_3",{"CUP_10Rnd_762x54_SVD_M",10},{},""},{},{},{"CFP_U_FieldUniform_marpat_w",{{"CUP_10Rnd_762x54_SVD_M",3,10}}},{"SP_Modular1_Black",{{"CUP_10Rnd_762x54_SVD_M",6,10}}},{},"SP_PatrolCap_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this, 'CFP_INSIGNIA_HEZBOLLAH2'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-    ALiVE_orbatCreator_insignia = "CFP_INSIGNIA_HEZBOLLAH2";
     };
 
     class CFP_O_HEZBOLLAH_Militia_Rifleman_01 : O_Soldier_F_OCimport_02 {
@@ -521,7 +386,8 @@ class CfgVehicles {
 	"SP_BeanieHat_Black", 0.15,
 	"H_Bandanna_khk", 0.15,
     "CFP_PatrolCap_Woodland", 0.15,
-    "CFP_PatrolCap_EDRL", 0.15
+    "CFP_PatrolCap_EDRL", 0.15,
+    "CFP_PatrolCap_M81", 0.15
 		};
 
 	// Militia Facewear
@@ -533,8 +399,21 @@ class CfgVehicles {
 	"G_Bandanna_khk", 0.15,
 	"CUP_TK_NeckScarf", 0.15,
 	"CUP_FR_NeckScarf", 0.15,
-	"CUP_FR_NeckScarf2", 0.15
+	"CUP_FR_NeckScarf2", 0.15,
+    "CFP_Beard", 0.3
 		};
+
+    // Militia Vests
+        vestList[] = {
+    "CFP_AK_VEST_EDRL", 0.2,
+    "CFP_AK_VEST_LOlive", 0.2,
+    "CFP_AK_VEST_Black", 0.2,
+    "CFP_AK_VEST_Olive", 0.2,
+    "CFP_TakJacket_Marpat", 0.2,
+    "CFP_TakJacket_M81", 0.2,
+    "CFP_TakJacket_EDRL", 0.2,
+    "CFP_TakJacket_Woodland", 0.2
+        };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -570,14 +449,14 @@ class CfgVehicles {
 
         displayName = "Militia [Rifleman AT]";
 
-        backpack = "CUP_B_RPGPack_Khaki";
+        backpack = "CFP_RPGPack_Khaki";
         weapons[] = {"CUP_arifle_AKM","CUP_launch_RPG7V","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_AKM","CUP_launch_RPG7V","Throw","Put"};
         linkedItems[] = {"CFP_AK_VEST_EDRL","CFP_Headband_wdl","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         respawnLinkedItems[] = {"CFP_AK_VEST_EDRL","CFP_Headband_wdl","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_PG7V_M"};
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_PG7V_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{"CUP_launch_RPG7V","","","",{"CUP_PG7V_M",1},{},""},{},{"CFP_U_BattleDressUniform_M81",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_EDRL",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{"CUP_B_RPGPack_Khaki",{{"CUP_PG7V_M",3,1}}},"CFP_Headband_wdl","G_Balaclava_oli",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{"CUP_launch_RPG7V","","","",{"CUP_PG7V_M",1},{},""},{},{"CFP_U_BattleDressUniform_M81",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_EDRL",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{"CFP_RPGPack_Khaki",{{"CUP_PG7V_M",3,1}}},"CFP_Headband_wdl","G_Balaclava_oli",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -600,14 +479,14 @@ class CfgVehicles {
 
         displayName = "Militia [Medic]";
 
-        backpack = "B_AssaultPack_rgr";
+        backpack = "CFP_AssaultPack_Woodland";
         weapons[] = {"CUP_arifle_AKM","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_AKM","Throw","Put"};
         linkedItems[] = {"CFP_AK_VEST_LOlive","SP_BeanieHat_Green","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         respawnLinkedItems[] = {"CFP_AK_VEST_LOlive","SP_BeanieHat_Green","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_BattleDressUniform_M81",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_LOlive",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{"B_AssaultPack_rgr",{{"Medikit",1},{"FirstAidKit",10}}},"SP_BeanieHat_Green","G_Bandanna_oli",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_BattleDressUniform_M81",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_LOlive",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{"CFP_AssaultPack_Woodland",{{"Medikit",1},{"FirstAidKit",10}}},"SP_BeanieHat_Green","G_Bandanna_oli",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -647,6 +526,17 @@ class CfgVehicles {
 	"SP_Balaclava_USWoodland", 0.33,
 		};
 
+    // Militia Vests
+        vestList[] = {
+    "CFP_AK_VEST_EDRL", 0.2,
+    "CFP_AK_VEST_LOlive", 0.2,
+    "CFP_AK_VEST_Black", 0.2,
+    "CFP_AK_VEST_Olive", 0.2,
+    "CFP_TakJacket_Marpat", 0.2,
+    "CFP_TakJacket_M81", 0.2,
+    "CFP_TakJacket_EDRL", 0.2,
+    "CFP_TakJacket_Woodland", 0.2
+        };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -666,14 +556,14 @@ class CfgVehicles {
 
         displayName = "Militia [Explosive Specialist]";
 
-        backpack = "B_Kitbag_rgr";
+        backpack = "CFP_Kitbag_M81";
         weapons[] = {"CUP_arifle_AK74","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_AK74","Throw","Put"};
         linkedItems[] = {"CFP_AK_VEST_Tan","","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         respawnLinkedItems[] = {"CFP_AK_VEST_Tan","","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"CFP_U_BattleDressUniform_M81",{{"CUP_30Rnd_545x39_AK_M",3,30}}},{"CFP_AK_VEST_Tan",{{"CUP_30Rnd_545x39_AK_M",5,30}}},{"B_Kitbag_rgr",{{"MineDetector",1},{"DemoCharge_Remote_Mag",5,1},{"APERSTripMine_Wire_Mag",1,1},{"ATMine_Range_Mag",1,1},{"CUP_PipeBomb_M",1,1}}},"","SP_Balaclava_Black",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"CFP_U_BattleDressUniform_M81",{{"CUP_30Rnd_545x39_AK_M",3,30}}},{"CFP_AK_VEST_Tan",{{"CUP_30Rnd_545x39_AK_M",5,30}}},{"CFP_Kitbag_M81",{{"MineDetector",1},{"DemoCharge_Remote_Mag",5,1},{"APERSTripMine_Wire_Mag",1,1},{"ATMine_Range_Mag",1,1},{"CUP_PipeBomb_M",1,1}}},"","SP_Balaclava_Black",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -736,9 +626,10 @@ class CfgVehicles {
 
 	// Hezbollah Facewear
 		facewearList[] = {
-	"CUP_TK_NeckScarf", 0.33,
-	"CUP_FR_NeckScarf", 0.33,
-	"CUP_FR_NeckScarf2", 0.33
+	"CUP_TK_NeckScarf", 0.25,
+	"CUP_FR_NeckScarf", 0.25,
+	"CUP_FR_NeckScarf2", 0.25,
+    "CFP_Beard", 0.25
 		};
 
         class EventHandlers : EventHandlers {
@@ -774,14 +665,14 @@ class CfgVehicles {
 
         displayName = "Rifleman AT [SF]";
 
-        backpack = "B_AssaultPack_rgr";
+        backpack = "CFP_AssaultPack_M81";
         weapons[] = {"CUP_arifle_AKS","CUP_launch_RPG18","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_AKS","CUP_launch_RPG18","Throw","Put"};
         linkedItems[] = {"V_I_G_resistanceLeader_F","SP_BeanieHat_Black","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
         respawnLinkedItems[] = {"V_I_G_resistanceLeader_F","SP_BeanieHat_Black","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_RPG18_M"};
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_RPG18_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","CUP_optic_Kobra",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{"CUP_launch_RPG18","","","",{"CUP_RPG18_M",1},{},""},{},{"CFP_U_FieldUniform_edrl",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"V_I_G_resistanceLeader_F",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{"B_AssaultPack_rgr",{{"CUP_RPG18_M",2,1}}},"SP_BeanieHat_Black","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","CUP_optic_Kobra",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{"CUP_launch_RPG18","","","",{"CUP_RPG18_M",1},{},""},{},{"CFP_U_FieldUniform_edrl",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"V_I_G_resistanceLeader_F",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{"CFP_AssaultPack_M81",{{"CUP_RPG18_M",2,1}}},"SP_BeanieHat_Black","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -789,14 +680,14 @@ class CfgVehicles {
 
         displayName = "Medic [SF]";
 
-        backpack = "B_AssaultPack_rgr";
+        backpack = "CFP_Kitbag_M81";
         weapons[] = {"CUP_arifle_AKS","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_AKS","Throw","Put"};
         linkedItems[] = {"V_I_G_resistanceLeader_F","SP_Bandana_Green","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
         respawnLinkedItems[] = {"V_I_G_resistanceLeader_F","SP_Bandana_Green","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","CUP_optic_Kobra",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_FieldUniform_edrl",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"V_I_G_resistanceLeader_F",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{"B_AssaultPack_rgr",{{"FirstAidKit",10},{"Medikit",1}}},"SP_Bandana_Green","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","CUP_optic_Kobra",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_FieldUniform_edrl",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"V_I_G_resistanceLeader_F",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{"CFP_Kitbag_M81",{{"FirstAidKit",10},{"Medikit",1}}},"SP_Bandana_Green","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -819,14 +710,14 @@ class CfgVehicles {
 
         displayName = "Machine Gunner [SF]";
 
-        backpack = "B_AssaultPack_rgr";
+        backpack = "CFP_Kitbag_Woodland";
         weapons[] = {"CUP_arifle_RPK74_45","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_RPK74_45","Throw","Put"};
         linkedItems[] = {"V_I_G_resistanceLeader_F","SP_BeanieHat_Green","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
         respawnLinkedItems[] = {"V_I_G_resistanceLeader_F","SP_BeanieHat_Green","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M"};
         respawnMagazines[] = {"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_RPK74_45","","","CUP_optic_Kobra",{"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",45},{},""},{},{},{"CFP_U_FieldUniform_M81",{{"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",1,45}}},{"V_I_G_resistanceLeader_F",{{"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",4,45}}},{"B_AssaultPack_rgr",{{"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",5,45}}},"SP_BeanieHat_Green","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_RPK74_45","","","CUP_optic_Kobra",{"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",45},{},""},{},{},{"CFP_U_FieldUniform_M81",{{"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",1,45}}},{"V_I_G_resistanceLeader_F",{{"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",4,45}}},{"CFP_Kitbag_Woodland",{{"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",5,45}}},"SP_BeanieHat_Green","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -834,14 +725,14 @@ class CfgVehicles {
 
         displayName = "Explosive Specialist [SF]";
 
-        backpack = "B_Kitbag_rgr";
+        backpack = "CFP_Kitbag_M81";
         weapons[] = {"CUP_arifle_AKS","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_AKS","Throw","Put"};
         linkedItems[] = {"V_I_G_resistanceLeader_F","SP_PatrolCap_Green","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
         respawnLinkedItems[] = {"V_I_G_resistanceLeader_F","SP_PatrolCap_Green","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","CUP_optic_Kobra",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_FieldUniform_edrl",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"V_I_G_resistanceLeader_F",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{"B_Kitbag_rgr",{{"MineDetector",1},{"DemoCharge_Remote_Mag",5,1},{"APERSTripMine_Wire_Mag",1,1},{"ATMine_Range_Mag",1,1},{"CUP_PipeBomb_M",1,1}}},"SP_PatrolCap_Green","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","CUP_optic_Kobra",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_FieldUniform_edrl",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"V_I_G_resistanceLeader_F",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{"CFP_Kitbag_M81",{{"MineDetector",1},{"DemoCharge_Remote_Mag",5,1},{"APERSTripMine_Wire_Mag",1,1},{"ATMine_Range_Mag",1,1},{"CUP_PipeBomb_M",1,1}}},"SP_PatrolCap_Green","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 

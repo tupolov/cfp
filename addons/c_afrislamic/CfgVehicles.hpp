@@ -150,6 +150,12 @@ class CfgVehicles {
     "CFP_Lungee_Open_Blue", 0.2
 		};
 
+    // African Beards
+        facewearList[] = {
+    "", 0.7,
+    "CFP_Beard", 0.3
+        };
+
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
