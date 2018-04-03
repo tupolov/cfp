@@ -8,8 +8,8 @@ class CfgFactionClasses {
     class CFP_B_NAARMY {
         displayName = "Nigerian Army";
         side = 1;
-        flag = "\A3\ui_f\data\map\markers\flags\nato_ca.paa";
-        icon = "\A3\ui_f\data\map\markers\flags\nato_ca.paa";
+        flag = "x\cfp\addons\flags\Nigeria\Nigeria.paa";
+        icon = "x\cfp\addons\flags\Nigeria\Nigeria.paa";
         priority = 0;
     };
 };
