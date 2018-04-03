@@ -105,21 +105,29 @@ class CfgVehicles {
 
 	// African Clothing
 		uniformList[] = {
-	"CUP_O_TKI_Khet_Partug_05", 0.2,
-	"CUP_O_TKI_Khet_Partug_03", 0.2,
-	"U_C_Man_casual_2_F", 0.2,
-	"CUP_O_TKI_Khet_Jeans_04", 0.2,
-	"U_C_Poor_1", 0.2,
-	"CUP_O_TKI_Khet_Partug_07", 0.2,
-	"CUP_O_TKI_Khet_Partug_06", 0.2,
-	"CUP_O_TKI_Khet_Partug_01", 0.2,
-	"CUP_O_TKI_Khet_Partug_08", 0.2,
-	"CUP_U_C_Citizen_02", 0.2,
-	"CUP_U_C_Citizen_03", 0.2,
-	"CFP_U_KhetPartug_Long_olive", 0.2,
-	"CFP_U_KhetPartug_Short_olive", 0.2,
-	"CFP_U_KhetPartug_Short_light_olive", 0.2,
-	"CFP_U_KhetPartug_Long_light_olive", 0.2
+	"CFP_U_KhetPartug_Long_Olive", 0.2,
+    "CFP_U_KhetPartug_Short_Olive", 0.2,
+    "CFP_U_KhetPartug_Long_Light_Olive", 0.2,
+    "CFP_U_KhetPartug_Short_Light_Olive", 0.2,
+    "CFP_U_KhetPartug_Long_Black", 0.2,
+    "CFP_U_KhetPartug_Short_GreenOlive", 0.2,
+    "CFP_U_KhetPartug_Long_Blue", 0.2,
+    "CFP_U_KhetPartug_Long_BlueGrey", 0.2,
+    "CFP_U_KhetPartug_Long_Brown", 0.2,
+    "CFP_U_KhetPartug_Long_Creme", 0.2,
+    "CFP_U_KhetPartug_Long_Grey", 0.2,
+    "CFP_U_KhetPartug_Long_Purple", 0.2,
+    "CFP_U_KhetPartug_Long_Tan", 0.2,
+    "CFP_U_KhetPartug_Long_White", 0.2,
+    "CFP_U_KhetPartug_Short_Blue", 0.2,
+    "CFP_U_KhetPartug_Short_BlueGrey", 0.2,
+    "CFP_U_KhetPartug_Short_Brown", 0.2,
+    "CFP_U_KhetPartug_Short_Creme", 0.2,
+    "CFP_U_KhetPartug_Short_Grey", 0.2,
+    "CFP_U_KhetPartug_Short_Purple", 0.2,
+    "CFP_U_KhetPartug_Short_Tan", 0.2,
+    "CFP_U_KhetPartug_Short_White", 0.2,
+    "CFP_U_KhetPartug_Short_Black", 0.2
 	    };
 
 	// African headgear
@@ -132,7 +140,14 @@ class CfgVehicles {
 	"CUP_H_TKI_Lungee_Open_06", 0.2,
 	"CUP_H_TKI_SkullCap_03", 0.2,
 	"CUP_H_TKI_Lungee_Open_05", 0.2,
-	"CUP_H_C_Beanie_02", 0.2
+	"CUP_H_C_Beanie_02", 0.2,
+    "CFP_Lungee_Open_Tan", 0.2,
+    "CFP_Lungee_Open_LightOlive", 0.2,
+    "CFP_Lungee_Open_Grey", 0.2,
+    "CFP_Lungee_Open_Creme", 0.2,
+    "CFP_Lungee_Open_Brown", 0.2,
+    "CFP_Lungee_Open_BlueGrey", 0.2,
+    "CFP_Lungee_Open_Blue", 0.2
 		};
 
         class EventHandlers : EventHandlers {

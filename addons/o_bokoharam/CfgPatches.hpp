@@ -17,7 +17,19 @@ class CfgPatches {
             "CFP_O_BH_Landrover_SPG9_01",
             "CFP_O_BH_Humvee_M2_01",
             "CFP_O_BH_Ural_01",
-            "CFP_O_BH_Landrover_M2_01"
+            "CFP_O_BH_Landrover_M2_01",
+            "CFP_O_BH_Gunner_DShKM_01",
+            "CFP_O_BH_Asst_Gunner_DShKM_01",
+            "CFP_O_BH_Gunner_Mortar_01",
+            "CFP_O_BH_Asst_Gunner_Mortar_01",
+            "CFP_O_BH_Gunner_SPG_01",
+            "CFP_O_BH_Asst_Gunner_SPG_01",
+            "CFP_O_BH_DShKM_01",
+            "CFP_O_BH_DShKM_Minitripod_01",
+            "CFP_O_BH_SPG_9_01",
+            "CFP_O_BH_Podnos_2B14_01",
+            "CFP_O_BH_D30_AT_01",
+            "CFP_O_BH_ZU_23_01"
         };
         weapons[] = {};
         requiredVersion = REQUIRED_VERSION;
