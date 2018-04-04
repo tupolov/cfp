@@ -11,11 +11,12 @@ class CfgVehicleClasses
 };
 */
 	class SP_CVCHelmet_Black: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_CVCHelmet_Black.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "CVC Helmet (Black)";
-		picture = "\x\cfp\addons\headgear\CVCHelmet\ui\Black.jpg";
+		// picture = "\x\cfp\addons\headgear\CVCHelmet\ui\Black.jpg";
 		model = "\x\cfp\addons\models\CVCHelmet";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\CVCHelmet\Black.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -35,11 +36,12 @@ class CfgVehicleClasses
 	};
 
 	class SP_CVCHelmet_Green: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_CVCHelmet_Green.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "CVC Helmet (Green)";
-		picture = "\x\cfp\addons\headgear\CVCHelmet\ui\Green.jpg";
+		// picture = "\x\cfp\addons\headgear\CVCHelmet\ui\Green.jpg";
 		model = "\x\cfp\addons\models\CVCHelmet";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\CVCHelmet\Green.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -62,11 +64,12 @@ class CfgVehicleClasses
 	};
 
 	class SP_CVCHelmet_Tan: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_CVCHelmet_Tan.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "CVC Helmet (Tan)";
-		picture = "\x\cfp\addons\headgear\CVCHelmet\ui\Tan.jpg";
+		// picture = "\x\cfp\addons\headgear\CVCHelmet\ui\Tan.jpg";
 		model = "\x\cfp\addons\models\CVCHelmet";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\CVCHelmet\Tan.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -87,11 +90,12 @@ class CfgVehicleClasses
 
 		};
 	};        class SP_CVCHelmet_UN: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_CVCHelmet_UN.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "CVC Helmet (U.N)";
-		picture = "\x\cfp\addons\headgear\CVCHelmet\ui\UN.jpg";
+		// picture = "\x\cfp\addons\headgear\CVCHelmet\ui\UN.jpg";
 		model = "\x\cfp\addons\models\CVCHelmet";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\CVCHelmet\UN.paa"};
 		hiddenSelections[] = {"Camo"};

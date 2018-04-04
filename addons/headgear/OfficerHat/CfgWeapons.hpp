@@ -11,11 +11,12 @@ class CfgVehicleClasses
 };
 */
 	class SP_OfficerHat_Black: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_OfficerHat_Black.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Officer Hat (Black)";
-		picture = "\x\cfp\addons\headgear\OfficerHat\ui\Black.jpg";
+		// picture = "\x\cfp\addons\headgear\OfficerHat\ui\Black.jpg";
 		model = "\x\cfp\addons\models\OfficerHat";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\OfficerHat\Black.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -36,11 +37,12 @@ class CfgVehicleClasses
 	};
 
 	class SP_OfficerHat_US_Army: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_OfficerHat_US_Army.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Officer Hat (U.S Army)";
-		picture = "\x\cfp\addons\headgear\OfficerHat\ui\US_Army.jpg";
+		// picture = "\x\cfp\addons\headgear\OfficerHat\ui\US_Army.jpg";
 		model = "\x\cfp\addons\models\OfficerHat";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\OfficerHat\US_Army.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -62,11 +64,12 @@ class CfgVehicleClasses
 	};
 
 	class SP_OfficerHat_US_Marine: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_OfficerHat_US_Marine.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Officer Hat (U.S Marine)";
-		picture = "\x\cfp\addons\headgear\OfficerHat\ui\US_Marine.jpg";
+		// picture = "\x\cfp\addons\headgear\OfficerHat\ui\US_Marine.jpg";
 		model = "\x\cfp\addons\models\OfficerHat";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\OfficerHat\US_Marine.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -88,11 +91,12 @@ class CfgVehicleClasses
 	};
 
 	class SP_OfficerHat_UK_Police: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_OfficerHat_UK_Police.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Officer Hat (UK Police)";
-		picture = "\x\cfp\addons\headgear\OfficerHat\ui\UK_Police.jpg";
+		// picture = "\x\cfp\addons\headgear\OfficerHat\ui\UK_Police.jpg";
 		model = "\x\cfp\addons\models\OfficerHat";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\OfficerHat\UK_Police.paa"};
 		hiddenSelections[] = {"Camo"};

@@ -473,7 +473,18 @@ class CfgPatches
 			"CFP_U_BattleDressUniform_marpatugandadark",
 			"CFP_U_BattleDressUniform_marpatugandalight",
 			"CFP_U_FieldUniform_marpatugandalight",
-			"CFP_U_FieldUniform_marpatugandadark"
+			"CFP_U_FieldUniform_marpatugandadark",
+			"cfp_u_battledressuniform_atacs_au",
+			"cfp_u_battledressuniform_ugandan",
+			"cfp_u_fielduniform_acu",
+			"cfp_u_fielduniform_desert_flecktarn",
+			"cfp_u_fielduniform_digital_multicam",
+			"cfp_u_fielduniform_marpat_d",
+			"cfp_u_fielduniform_atacs_au",
+			"cfp_u_fielduniform_marpat_d_ss",
+			"cfp_u_fielduniform_scorpion_w2_ss",
+			"cfp_u_fielduniform_acr_desert_ss",
+			"cfp_u_fielduniform_ugandan"
 		};
         author = MODULE_AUTHOR;
         authors[] = {"SP Craig", "Tupolov","AuburnAlumni"};

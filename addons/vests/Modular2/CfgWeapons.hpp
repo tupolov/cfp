@@ -13,10 +13,11 @@ class CfgVehicleClasses
 */
 
 	class SP_Modular2_Black: V_PlateCarrier1_rgr
-	{
+{
+    picture = "\x\cfp\addons\vests\data\ui\icon_SP_Modular2_Black.paa";
 		scope = 2;
 		displayName = "Modular 2 (Black)";
-		picture = "\x\cfp\addons\vests\Modular2\ui\Black.jpg";
+		// picture = "\x\cfp\addons\vests\Modular2\ui\Black.jpg";
 		model = "\x\cfp\addons\models\Modular2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Modular2\Black.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -60,10 +61,11 @@ class CfgVehicleClasses
 	};
 
 	class SP_Modular2_Green: V_PlateCarrier1_rgr
-	{
+{
+    picture = "\x\cfp\addons\vests\data\ui\icon_SP_Modular2_Green.paa";
 		scope = 2;
 		displayName = "Modular 2 (Green)";
-		picture = "\x\cfp\addons\vests\Modular2\ui\Green.jpg";
+		// picture = "\x\cfp\addons\vests\Modular2\ui\Green.jpg";
 		model = "\x\cfp\addons\models\Modular2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Modular2\Green.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -107,10 +109,11 @@ class CfgVehicleClasses
 	};
 
 	class SP_Modular2_Tan: V_PlateCarrier1_rgr
-	{
+{
+    picture = "\x\cfp\addons\vests\data\ui\icon_SP_Modular2_Tan.paa";
 		scope = 2;
 		displayName = "Modular 2 (Tan)";
-		picture = "\x\cfp\addons\vests\Modular2\ui\Tan.jpg";
+		// picture = "\x\cfp\addons\vests\Modular2\ui\Tan.jpg";
 		model = "\x\cfp\addons\models\Modular2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Modular2\Tan.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -154,10 +157,11 @@ class CfgVehicleClasses
 	};
 
 	class SP_Modular2_Grey: V_PlateCarrier1_rgr
-	{
+{
+    picture = "\x\cfp\addons\vests\data\ui\icon_SP_Modular2_Grey.paa";
 		scope = 2;
 		displayName = "Modular 2 (Grey)";
-		picture = "\x\cfp\addons\vests\Modular2\ui\Grey.jpg";
+		// picture = "\x\cfp\addons\vests\Modular2\ui\Grey.jpg";
 		model = "\x\cfp\addons\models\Modular2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Modular2\Grey.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -201,10 +205,11 @@ class CfgVehicleClasses
 	};
 
 	class SP_Modular2_White: V_PlateCarrier1_rgr
-	{
+{
+    picture = "\x\cfp\addons\vests\data\ui\icon_SP_Modular2_White.paa";
 		scope = 2;
 		displayName = "Modular 2 (White)";
-		picture = "\x\cfp\addons\vests\Modular2\ui\White.jpg";
+		// picture = "\x\cfp\addons\vests\Modular2\ui\White.jpg";
 		model = "\x\cfp\addons\models\Modular2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Modular2\White.paa"};
 		hiddenSelections[] = {"Camo"};

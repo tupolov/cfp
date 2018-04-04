@@ -11,11 +11,12 @@ class CfgVehicleClasses
 };
 */
 	class SP_PatrolCap_Black: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_PatrolCap_Black.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Patrol Cap (Black)";
-		picture = "\x\cfp\addons\headgear\PatrolCap\ui\Black.jpg";
+		// picture = "\x\cfp\addons\headgear\PatrolCap\ui\Black.jpg";
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\Black.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -36,11 +37,12 @@ class CfgVehicleClasses
 	};
 
 	class SP_PatrolCap_Blue: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_PatrolCap_Blue.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Patrol Cap (Blue)";
-		picture = "\x\cfp\addons\headgear\PatrolCap\ui\Blue.jpg";
+		// picture = "\x\cfp\addons\headgear\PatrolCap\ui\Blue.jpg";
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\Blue.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -61,11 +63,12 @@ class CfgVehicleClasses
 	};
 
 	class SP_PatrolCap_Green: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_PatrolCap_Green.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Patrol Cap (Green)";
-		picture = "\x\cfp\addons\headgear\PatrolCap\ui\Green.jpg";
+		// picture = "\x\cfp\addons\headgear\PatrolCap\ui\Green.jpg";
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\Green.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -87,11 +90,12 @@ class CfgVehicleClasses
 	};
 
 	class SP_PatrolCap_Tan: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_PatrolCap_Tan.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Patrol Cap (Tan)";
-		picture = "\x\cfp\addons\headgear\PatrolCap\ui\Tan.jpg";
+		// picture = "\x\cfp\addons\headgear\PatrolCap\ui\Tan.jpg";
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\Tan.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -113,11 +117,12 @@ class CfgVehicleClasses
 	};
 
 	class SP_PatrolCap_UN: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_PatrolCap_UN.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Patrol Cap (U.N)";
-		picture = "\x\cfp\addons\headgear\PatrolCap\ui\UN.jpg";
+		// picture = "\x\cfp\addons\headgear\PatrolCap\ui\UN.jpg";
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\UN.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -138,11 +143,12 @@ class CfgVehicleClasses
 	};
 
 	class SP_PatrolCap_Grey: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_PatrolCap_Grey.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Patrol Cap (Grey)";
-		picture = "\x\cfp\addons\headgear\PatrolCap\ui\Grey.jpg";
+		// picture = "\x\cfp\addons\headgear\PatrolCap\ui\Grey.jpg";
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\Grey.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -164,11 +170,12 @@ class CfgVehicleClasses
 	};
 
 	class SP_PatrolCap_Yellow: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_PatrolCap_Yellow.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Patrol Cap (Yellow)";
-		picture = "\x\cfp\addons\headgear\PatrolCap\ui\Yellow.jpg";
+		// picture = "\x\cfp\addons\headgear\PatrolCap\ui\Yellow.jpg";
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\Yellow.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -189,11 +196,12 @@ class CfgVehicleClasses
 	};
 
 	class SP_PatrolCap_BlueFrost: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_PatrolCap_BlueFrost.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Patrol Cap (Blue Frost)";
-		picture = "\x\cfp\addons\headgear\PatrolCap\ui\BlueFrost.jpg";
+		// picture = "\x\cfp\addons\headgear\PatrolCap\ui\BlueFrost.jpg";
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\BlueFrost.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -214,11 +222,12 @@ class CfgVehicleClasses
 	};
 
 	class SP_PatrolCap_BlueDark: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_PatrolCap_BlueDark.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Patrol Cap (Blue Dark)";
-		picture = "\x\cfp\addons\headgear\PatrolCap\ui\BlueDark.jpg";
+		// picture = "\x\cfp\addons\headgear\PatrolCap\ui\BlueDark.jpg";
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\BlueDark.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -239,11 +248,12 @@ class CfgVehicleClasses
 	};
 
 	class SP_PatrolCap_GreenOlive: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_PatrolCap_GreenOlive.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Patrol Cap (Green Olive)";
-		picture = "\x\cfp\addons\headgear\PatrolCap\ui\GreenOlive.jpg";
+		// picture = "\x\cfp\addons\headgear\PatrolCap\ui\GreenOlive.jpg";
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\GreenOlive.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -264,11 +274,12 @@ class CfgVehicleClasses
 	};
 
 	class SP_PatrolCap_Hunter: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_PatrolCap_Hunter.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Patrol Cap (Hunter)";
-		picture = "\x\cfp\addons\headgear\PatrolCap\ui\Hunter.jpg";
+		// picture = "\x\cfp\addons\headgear\PatrolCap\ui\Hunter.jpg";
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\Hunter.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -290,11 +301,12 @@ class CfgVehicleClasses
 	};
 
 	class SP_PatrolCap_Hunter2: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_PatrolCap_Hunter2.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Patrol Cap (Hunter2)";
-		picture = "\x\cfp\addons\headgear\PatrolCap\ui\Hunter2.jpg";
+		// picture = "\x\cfp\addons\headgear\PatrolCap\ui\Hunter2.jpg";
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\Hunter2.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -315,11 +327,12 @@ class CfgVehicleClasses
 	};
 
 	class SP_PatrolCap_ATacsFG: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_PatrolCap_ATacsFG.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Patrol Cap (A-Tacs FG)";
-		picture = "\x\cfp\addons\headgear\PatrolCap\ui\ATacsFG.jpg";
+		// picture = "\x\cfp\addons\headgear\PatrolCap\ui\ATacsFG.jpg";
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\ATacsFG.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -341,11 +354,12 @@ class CfgVehicleClasses
 	};
 
 	class SP_PatrolCap_NodUrban: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_PatrolCap_NodUrban.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Patrol Cap (Nod Urban)";
-		picture = "\x\cfp\addons\headgear\PatrolCap\ui\NodUrban.jpg";
+		// picture = "\x\cfp\addons\headgear\PatrolCap\ui\NodUrban.jpg";
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\NodUrban.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -366,11 +380,12 @@ class CfgVehicleClasses
 	};
 
 	class CFP_PatrolCap_ANP: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_PatrolCap_ANP.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Patrol Cap (Afghan National Police)";
-		picture = "\x\cfp\addons\headgear\PatrolCap\ui\BlueFrost.jpg";
+		// picture = "\x\cfp\addons\headgear\PatrolCap\ui\BlueFrost.jpg";
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\ANP.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -391,11 +406,12 @@ class CfgVehicleClasses
 	};
 
 	class CFP_PatrolCap_ANCOP: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_PatrolCap_ANCOP.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Patrol Cap (Afghan National Civil Order Police)";
-		picture = "\x\cfp\addons\headgear\PatrolCap\ui\BlueFrost.jpg";
+		// picture = "\x\cfp\addons\headgear\PatrolCap\ui\BlueFrost.jpg";
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\ANCOP.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -416,11 +432,12 @@ class CfgVehicleClasses
 	};
 
 	class CFP_PatrolCap_EDRL: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_PatrolCap_EDRL.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Patrol Cap (EDRL)";
-		picture = "\x\cfp\addons\headgear\PatrolCap\ui\GreenOlive.jpg";
+		// picture = "\x\cfp\addons\headgear\PatrolCap\ui\GreenOlive.jpg";
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\EDRL.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -441,11 +458,12 @@ class CfgVehicleClasses
 	};
 
 	class CFP_PatrolCap_IranDPM: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_PatrolCap_IranDPM.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Patrol Cap (Iran DPM)";
-		picture = "\x\cfp\addons\headgear\PatrolCap\ui\GreenOlive.jpg";
+		// picture = "\x\cfp\addons\headgear\PatrolCap\ui\GreenOlive.jpg";
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\IranDPM.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -466,11 +484,12 @@ class CfgVehicleClasses
 	};
 
 	class CFP_PatrolCap_Marpat: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_PatrolCap_Marpat.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Patrol Cap (Marpat)";
-		picture = "\x\cfp\addons\headgear\PatrolCap\ui\GreenOlive.jpg";
+		// picture = "\x\cfp\addons\headgear\PatrolCap\ui\GreenOlive.jpg";
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\Marpat.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -491,11 +510,12 @@ class CfgVehicleClasses
 	};
 
 	class CFP_PatrolCap_Woodland: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_PatrolCap_Woodland.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Patrol Cap (Woodland)";
-		picture = "\x\cfp\addons\headgear\PatrolCap\ui\GreenOlive.jpg";
+		// picture = "\x\cfp\addons\headgear\PatrolCap\ui\GreenOlive.jpg";
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\Woodland.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -516,11 +536,12 @@ class CfgVehicleClasses
 	};
 
 	class CFP_PatrolCap_AfricanWoodland: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_PatrolCap_AfricanWoodland.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Patrol Cap (African Woodland)";
-		picture = "\x\cfp\addons\headgear\PatrolCap\ui\GreenOlive.jpg";
+		// picture = "\x\cfp\addons\headgear\PatrolCap\ui\GreenOlive.jpg";
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\AfricanWoodland.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -541,11 +562,12 @@ class CfgVehicleClasses
 	};
 
 	class CFP_PatrolCap_PolygonDesert: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_PatrolCap_PolygonDesert.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Patrol Cap (Polygon Desert)";
-		picture = "\x\cfp\addons\headgear\PatrolCap\ui\GreenOlive.jpg";
+		// picture = "\x\cfp\addons\headgear\PatrolCap\ui\GreenOlive.jpg";
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\PolygonDesert.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -566,11 +588,12 @@ class CfgVehicleClasses
 	};
 
 	class CFP_PatrolCap_M81: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_PatrolCap_M81.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Patrol Cap (M81)";
-		picture = "\x\cfp\addons\headgear\PatrolCap\ui\GreenOlive.jpg";
+		// picture = "\x\cfp\addons\headgear\PatrolCap\ui\GreenOlive.jpg";
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\M81.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -591,11 +614,12 @@ class CfgVehicleClasses
 	};
 
 	class CFP_PatrolCap_PolygonWoodland: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_PatrolCap_PolygonWoodland.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Patrol Cap (Polygon Woodland)";
-		picture = "\x\cfp\addons\headgear\PatrolCap\ui\GreenOlive.jpg";
+		// picture = "\x\cfp\addons\headgear\PatrolCap\ui\GreenOlive.jpg";
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\PolygonWoodland.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -616,11 +640,12 @@ class CfgVehicleClasses
 	};
 
 	class CFP_PatrolCap_MarpatUganda: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_PatrolCap_MarpatUganda.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Patrol Cap (Marpat Uganda)";
-		picture = "\x\cfp\addons\headgear\PatrolCap\ui\GreenOlive.jpg";
+		// picture = "\x\cfp\addons\headgear\PatrolCap\ui\GreenOlive.jpg";
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\MarpatUganda.paa"};
 		hiddenSelections[] = {"Camo"};

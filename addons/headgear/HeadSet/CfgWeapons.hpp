@@ -11,11 +11,12 @@ class CfgVehicleClasses
 };
 */
 	class SP_HeadSet_Black: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_HeadSet_Black.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Head Set (Black)";
-		picture = "\x\cfp\addons\headgear\HeadSet\ui\Black.jpg";
+		// picture = "\x\cfp\addons\headgear\HeadSet\ui\Black.jpg";
 		model = "\x\cfp\addons\models\HeadSet";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\HeadSet\Black.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -34,11 +35,12 @@ class CfgVehicleClasses
 		};
 	};
 	class SP_HeadSet_Green: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_HeadSet_Green.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Head Set (Green)";
-		picture = "\x\cfp\addons\headgear\HeadSet\ui\Green.jpg";
+		// picture = "\x\cfp\addons\headgear\HeadSet\ui\Green.jpg";
 		model = "\x\cfp\addons\models\HeadSet";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\HeadSet\Green.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -59,11 +61,12 @@ class CfgVehicleClasses
 		};
 	};
 	class SP_HeadSet_Tan: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_HeadSet_Tan.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Head Set (Tan)";
-		picture = "\x\cfp\addons\headgear\HeadSet\ui\Tan.jpg";
+		// picture = "\x\cfp\addons\headgear\HeadSet\ui\Tan.jpg";
 		model = "\x\cfp\addons\models\HeadSet";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\HeadSet\Tan.paa"};
 		hiddenSelections[] = {"Camo"};

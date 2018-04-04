@@ -12,10 +12,11 @@ class CfgVehicleClasses
 */
 
 	class SP_FlyyeMolle1_Black: V_PlateCarrier1_rgr
-	{
+{
+    picture = "\x\cfp\addons\vests\data\ui\icon_SP_FlyyeMolle1_Black.paa";
 		scope = 2;
 		displayName = "Flyye Molle 1 (Black)";
-		picture = "\x\cfp\addons\vests\FlyyeMolle1\ui\Black.jpg";
+		// picture = "\x\cfp\addons\vests\FlyyeMolle1\ui\Black.jpg";
 		model = "\x\cfp\addons\models\FlyyeMolle1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\FlyyeMolle1\Black.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -59,10 +60,11 @@ class CfgVehicleClasses
 	};
 
 	class SP_FlyyeMolle1_Green: V_PlateCarrier1_rgr
-	{
+{
+    picture = "\x\cfp\addons\vests\data\ui\icon_SP_FlyyeMolle1_Green.paa";
 		scope = 2;
 		displayName = "Flyye Molle 1 (Green)";
-		picture = "\x\cfp\addons\vests\FlyyeMolle1\ui\Green.jpg";
+		// picture = "\x\cfp\addons\vests\FlyyeMolle1\ui\Green.jpg";
 		model = "\x\cfp\addons\models\FlyyeMolle1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\FlyyeMolle1\Green.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -106,10 +108,11 @@ class CfgVehicleClasses
 	};
 
 	class SP_FlyyeMolle1_Tan: V_PlateCarrier1_rgr
-	{
+{
+    picture = "\x\cfp\addons\vests\data\ui\icon_SP_FlyyeMolle1_Tan.paa";
 		scope = 2;
 		displayName = "Flyye Molle 1 (Tan)";
-		picture = "\x\cfp\addons\vests\FlyyeMolle1\ui\Tan.jpg";
+		// picture = "\x\cfp\addons\vests\FlyyeMolle1\ui\Tan.jpg";
 		model = "\x\cfp\addons\models\FlyyeMolle1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\FlyyeMolle1\Tan.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -152,10 +155,11 @@ class CfgVehicleClasses
 		};
 	};
 	class SP_FlyyeMolle1_Grey: V_PlateCarrier1_rgr
-	{
+{
+    picture = "\x\cfp\addons\vests\data\ui\icon_SP_FlyyeMolle1_Grey.paa";
 		scope = 2;
 		displayName = "Flyye Molle 1 (Grey)";
-		picture = "\x\cfp\addons\vests\FlyyeMolle1\ui\Grey.jpg";
+		// picture = "\x\cfp\addons\vests\FlyyeMolle1\ui\Grey.jpg";
 		model = "\x\cfp\addons\models\FlyyeMolle1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\FlyyeMolle1\Grey.paa"};
 		hiddenSelections[] = {"Camo"};

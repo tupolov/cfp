@@ -1,5 +1,6 @@
 class CFP_Headband_wdl: ItemCore
-{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_Headband_wdl.paa";
 	scope = 2;
 	weaponPoolAvailable = 1;
 	displayName = "Headband (Woodland)";

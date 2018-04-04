@@ -11,11 +11,12 @@ class CfgVehicleClasses
 };
 */
 	class SP_MkBushHelmet_Forrest: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_MkBushHelmet_Forrest.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Mk Bush Helmet (Forrest)";
-		picture = "\x\cfp\addons\headgear\MkBushHelmet\ui\Forrest.jpg";
+		// picture = "\x\cfp\addons\headgear\MkBushHelmet\ui\Forrest.jpg";
 		model = "\x\cfp\addons\models\MkBushHelmet";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Mk7Helmet\Green.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa","\x\cfp\addons\headgear\MkBushHelmet\Forrest.paa"};
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
@@ -34,11 +35,12 @@ class CfgVehicleClasses
 		};
 	};
 	class SP_MkBushHelmet_Tropical: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_MkBushHelmet_Tropical.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Mk Bush Helmet (Tropical)";
-		picture = "\x\cfp\addons\headgear\MkBushHelmet\ui\Tropical.jpg";
+		// picture = "\x\cfp\addons\headgear\MkBushHelmet\ui\Tropical.jpg";
 		model = "\x\cfp\addons\models\MkBushHelmet";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Mk7Helmet\Tan.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa","\x\cfp\addons\headgear\MkBushHelmet\Tropical.paa"};
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};

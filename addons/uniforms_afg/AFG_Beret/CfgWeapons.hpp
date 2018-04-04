@@ -3,11 +3,12 @@
 //Beret4
 
 	class AFG_Beret_ArmyGreen: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\uniforms_afg\data\ui\icon_AFG_Beret_ArmyGreen.paa";
 		scope = 1;
 		weaponPoolAvailable = 1;
 		displayName = "AFG Beret (Army Green)";
-		picture = "\x\cfp\addons\uniforms_afg\AFG_Beret\ui\ArmyGreen.jpg";
+		// picture = "\x\cfp\addons\uniforms_afg\AFG_Beret\ui\ArmyGreen.jpg";
 		model = "\x\cfp\addons\models\Beret4";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms_afg\AFG_Beret\ArmyGreen.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -28,11 +29,12 @@
 	};
 
 	class AFG_Beret_CommandoRed: ItemCore
-	{
+    {
+        picture = "\x\cfp\addons\uniforms_afg\data\ui\icon_AFG_Beret_CommandoRed.paa";
 		scope = 1;
 		weaponPoolAvailable = 1;
 		displayName = "AFG Beret (Commando Red)";
-		picture = "\x\cfp\addons\uniforms_afg\AFG_Beret\ui\CommandoRed.jpg";
+		// picture = "\x\cfp\addons\uniforms_afg\AFG_Beret\ui\CommandoRed.jpg";
 		model = "\x\cfp\addons\models\Beret4";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms_afg\AFG_Beret\CommandoRed.paa"};
 		hiddenSelections[] = {"Camo"};

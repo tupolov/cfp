@@ -12,10 +12,11 @@ class CfgVehicleClasses
 */
 
 	class SP_OpforRig1_Black: V_PlateCarrier1_rgr
-	{
+{
+    picture = "\x\cfp\addons\vests\data\ui\icon_SP_OpforRig1_Black.paa";
 		scope = 2;
 		displayName = "Opfor Rig 1 (Black)";
-		picture = "\x\cfp\addons\vests\OpforRig1\ui\Black.jpg";
+		// picture = "\x\cfp\addons\vests\OpforRig1\ui\Black.jpg";
 		model = "\x\cfp\addons\models\OpforRig1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\OpforRig1\Black.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -58,10 +59,11 @@ class CfgVehicleClasses
 		};
 	};
 	class SP_OpforRig1_Green: V_PlateCarrier1_rgr
-	{
+{
+    picture = "\x\cfp\addons\vests\data\ui\icon_SP_OpforRig1_Green.paa";
 		scope = 2;
 		displayName = "Opfor Rig 1 (Green)";
-		picture = "\x\cfp\addons\vests\OpforRig1\ui\Green.jpg";
+		// picture = "\x\cfp\addons\vests\OpforRig1\ui\Green.jpg";
 		model = "\x\cfp\addons\models\OpforRig1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\OpforRig1\Green.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -105,10 +107,11 @@ class CfgVehicleClasses
 	};
 
 	class SP_OpforRig1_Tan: V_PlateCarrier1_rgr
-	{
+{
+    picture = "\x\cfp\addons\vests\data\ui\icon_SP_OpforRig1_Tan.paa";
 		scope = 2;
 		displayName = "Opfor Rig 1 (Tan)";
-		picture = "\x\cfp\addons\vests\OpforRig1\ui\Tan.jpg";
+		// picture = "\x\cfp\addons\vests\OpforRig1\ui\Tan.jpg";
 		model = "\x\cfp\addons\models\OpforRig1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\OpforRig1\Tan.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -152,10 +155,11 @@ class CfgVehicleClasses
 	};
 
 	class SP_OpforRig1_Grey: V_PlateCarrier1_rgr
-	{
+{
+    picture = "\x\cfp\addons\vests\data\ui\icon_SP_OpforRig1_Grey.paa";
 		scope = 2;
 		displayName = "Opfor Rig 1 (Grey)";
-		picture = "\x\cfp\addons\vests\OpforRig1\ui\Grey.jpg";
+		// picture = "\x\cfp\addons\vests\OpforRig1\ui\Grey.jpg";
 		model = "\x\cfp\addons\models\OpforRig1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\OpforRig1\Grey.paa"};
 		hiddenSelections[] = {"Camo"};

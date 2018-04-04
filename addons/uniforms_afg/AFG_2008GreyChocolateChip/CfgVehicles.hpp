@@ -30,7 +30,7 @@
 			mat[] = {"A3\Characters_F_Beta\INDEP\Data\officer.rvmat","A3\Characters_F_Beta\INDEP\Data\officer_injury.rvmat","A3\Characters_F_Beta\INDEP\Data\officer_injury.rvmat"};
 		};
 	};
-	
+
     class AFG_2008GreyChocolateChip_PulloverUniform: B_Soldier_base_F
 	{
 

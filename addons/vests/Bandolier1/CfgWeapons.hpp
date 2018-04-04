@@ -12,10 +12,11 @@ class CfgVehicleClasses
 */
 
 	class SP_Bandolier1_Black: V_PlateCarrier1_rgr
-	{
+{
+    picture = "\x\cfp\addons\vests\data\ui\icon_SP_Bandolier1_Black.paa";
 		scope = 2;
 		displayName = "Bandolier 1 (Black)";
-		picture = "\x\cfp\addons\vests\Bandolier1\ui\Black.jpg";
+		// picture = "\x\cfp\addons\vests\Bandolier1\ui\Black.jpg";
 		model = "\x\cfp\addons\models\Bandolier1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Bandolier1\Black.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -60,10 +61,11 @@ class CfgVehicleClasses
 	};
 
 	class SP_Bandolier1_Green: V_PlateCarrier1_rgr
-	{
+{
+    picture = "\x\cfp\addons\vests\data\ui\icon_SP_Bandolier1_Green.paa";
 		scope = 2;
 		displayName = "Bandolier 1 (Green)";
-		picture = "\x\cfp\addons\vests\Bandolier1\ui\Green.jpg";
+		// picture = "\x\cfp\addons\vests\Bandolier1\ui\Green.jpg";
 		model = "\x\cfp\addons\models\Bandolier1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Bandolier1\Green.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -108,10 +110,11 @@ class CfgVehicleClasses
 	};
 
 	class SP_Bandolier1_Tan: V_PlateCarrier1_rgr
-	{
+{
+    picture = "\x\cfp\addons\vests\data\ui\icon_SP_Bandolier1_Tan.paa";
 		scope = 2;
 		displayName = "Bandolier 1 (Tan)";
-		picture = "\x\cfp\addons\vests\Bandolier1\ui\Tan.jpg";
+		// picture = "\x\cfp\addons\vests\Bandolier1\ui\Tan.jpg";
 		model = "\x\cfp\addons\models\Bandolier1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Bandolier1\Tan.paa"};
 		hiddenSelections[] = {"Camo"};
@@ -156,10 +159,11 @@ class CfgVehicleClasses
 	};
 
 	class SP_Bandolier1_Grey: V_PlateCarrier1_rgr
-	{
+{
+    picture = "\x\cfp\addons\vests\data\ui\icon_SP_Bandolier1_Grey.paa";
 		scope = 2;
 		displayName = "Bandolier (Grey)";
-		picture = "\x\cfp\addons\vests\Bandolier1\ui\Grey.jpg";
+		// picture = "\x\cfp\addons\vests\Bandolier1\ui\Grey.jpg";
 		model = "\x\cfp\addons\models\Bandolier1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Bandolier1\Grey.paa"};
 		hiddenSelections[] = {"Camo"};

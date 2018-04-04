@@ -1,9 +1,10 @@
 class CFP_Lungee_Shemagh: ItemCore
-{
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_Lungee_Shemagh.paa";
 	scope = 2;
 	weaponPoolAvailable = 1;
 	displayName = "Lungee Shemagh (Black / Tan)";
-	picture = "\x\cfp\addons\headgear\Lungee_Shemagh\data\ui\CheckWhite.jpg";
+	// picture = "\x\cfp\addons\headgear\Lungee_Shemagh\data\ui\CheckWhite.jpg";
 	model = "\x\cfp\addons\models\Lungee_Shemagh";
 	hiddenSelections[] = {"Camo","Camo1"};
 	hiddenSelectionsTextures[] = {
@@ -33,7 +34,7 @@ class CFP_Lungee_Shemagh_Red : CFP_Lungee_Shemagh
 	scope = 2;
 	weaponPoolAvailable = 1;
 	displayName = "Lungee Shemagh (Red)";
-	picture = "\x\cfp\addons\headgear\Lungee_Shemagh\data\ui\Red.jpg";
+	// picture = "\x\cfp\addons\headgear\Lungee_Shemagh\data\ui\Red.jpg";
 	model = "\x\cfp\addons\models\Lungee_Shemagh";
 	hiddenSelections[] = {"Camo","Camo1"};
 	hiddenSelectionsTextures[] = {
@@ -63,7 +64,7 @@ class CFP_Lungee_Shemagh_Yellow : CFP_Lungee_Shemagh
 	scope = 2;
 	weaponPoolAvailable = 1;
 	displayName = "Lungee Shemagh (Yellow)";
-	picture = "\x\cfp\addons\headgear\Lungee_Shemagh\data\ui\Yellow.jpg";
+	// picture = "\x\cfp\addons\headgear\Lungee_Shemagh\data\ui\Yellow.jpg";
 	model = "\x\cfp\addons\models\Lungee_Shemagh";
 	hiddenSelections[] = {"Camo","Camo1"};
 	hiddenSelectionsTextures[] = {
@@ -93,7 +94,7 @@ class CFP_Lungee_Shemagh_White : CFP_Lungee_Shemagh
 	scope = 2;
 	weaponPoolAvailable = 1;
 	displayName = "Lungee Shemagh (White)";
-	picture = "\x\cfp\addons\headgear\Lungee_Shemagh\data\ui\White.jpg";
+	// picture = "\x\cfp\addons\headgear\Lungee_Shemagh\data\ui\White.jpg";
 	model = "\x\cfp\addons\models\Lungee_Shemagh";
 	hiddenSelections[] = {"Camo","Camo1"};
 	hiddenSelectionsTextures[] = {
@@ -123,7 +124,7 @@ class CFP_Lungee_Shemagh_LightBlue : CFP_Lungee_Shemagh
 	scope = 2;
 	weaponPoolAvailable = 1;
 	displayName = "Lungee Shemagh (Light Blue)";
-	picture = "\x\cfp\addons\headgear\Lungee_Shemagh\data\ui\LightBlue.jpg";
+	// picture = "\x\cfp\addons\headgear\Lungee_Shemagh\data\ui\LightBlue.jpg";
 	model = "\x\cfp\addons\models\Lungee_Shemagh";
 	hiddenSelections[] = {"Camo","Camo1"};
 	hiddenSelectionsTextures[] = {
@@ -153,7 +154,7 @@ class CFP_Lungee_Shemagh_Green : CFP_Lungee_Shemagh
 	scope = 2;
 	weaponPoolAvailable = 1;
 	displayName = "Lungee Shemagh (Green)";
-	picture = "\x\cfp\addons\headgear\Lungee_Shemagh\data\ui\Green.jpg";
+	// picture = "\x\cfp\addons\headgear\Lungee_Shemagh\data\ui\Green.jpg";
 	model = "\x\cfp\addons\models\Lungee_Shemagh";
 	hiddenSelections[] = {"Camo","Camo1"};
 	hiddenSelectionsTextures[] = {
