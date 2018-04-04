@@ -141,6 +141,36 @@ class CfgVehicles {
         };
     };
 
+        class B_Heli_Light_01_dynamicLoadout_F;
+    class B_Heli_Light_01_dynamicLoadout_F_OCimport_01 : B_Heli_Light_01_dynamicLoadout_F { scope = 0; class EventHandlers; class Turrets; };
+    class B_Heli_Light_01_dynamicLoadout_F_OCimport_02 : B_Heli_Light_01_dynamicLoadout_F_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class CopilotTurret;
+        };
+    };
+
+    class O_Heli_Light_02_dynamicLoadout_F;
+    class O_Heli_Light_02_dynamicLoadout_F_OCimport_01 : O_Heli_Light_02_dynamicLoadout_F { scope = 0; class EventHandlers; class Turrets; };
+    class O_Heli_Light_02_dynamicLoadout_F_OCimport_02 : O_Heli_Light_02_dynamicLoadout_F_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class CopilotTurret;
+        };
+    };
+
+    class CUP_I_SA330_Puma_HC2_RACS;
+    class CUP_I_SA330_Puma_HC2_RACS_OCimport_01 : CUP_I_SA330_Puma_HC2_RACS { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_I_SA330_Puma_HC2_RACS_OCimport_02 : CUP_I_SA330_Puma_HC2_RACS_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class CopilotTurret;
+            class CargoTurret_01;
+            class CargoTurret_02;
+        };
+    };
+
+
 
     class CFP_B_KEARMY_Rifleman_01 : O_Soldier_F_OCimport_02 {
         author = "Drew";
@@ -1056,6 +1086,98 @@ class CfgVehicles {
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_B_KEARMY_MD_500_Defender_01 : B_Heli_Light_01_dynamicLoadout_F_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "MD 500 Defender";
+        side = 1;
+        faction = "CFP_B_KEARMY";
+        crew = "CFP_B_KEARMY_Helicopter_Pilot_01";
+
+        class Turrets : Turrets {
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_KEARMY_Helicopter_Pilot_01"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\Hummingbird\Hummingbird_KDF.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "Kenya";
+
+    };
+
+    class CFP_B_KEARMY_Harbin_ZB9_01 : O_Heli_Light_02_dynamicLoadout_F_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Harbin ZB9 ";
+        side = 1;
+        faction = "CFP_B_KEARMY";
+        crew = "CFP_B_KEARMY_Helicopter_Pilot_01";
+
+        class Turrets : Turrets {
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_KEARMY_Helicopter_Pilot_01"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\Orca\Orca_KDF.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "Kenya";
+
+    };
+
+    class CFP_B_KEARMY_SA330_Puma_01 : CUP_I_SA330_Puma_HC2_RACS_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "SA330 Puma";
+        side = 1;
+        faction = "CFP_B_KEARMY";
+        crew = "CFP_B_KEARMY_Helicopter_Pilot_01";
+
+        class Turrets : Turrets {
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_KEARMY_Helicopter_Pilot_01"; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = "CFP_B_KEARMY_Helicopter_Pilot_01"; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = "CFP_B_KEARMY_Helicopter_Pilot_01"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\Puma\Puma_KDF.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "Kenya";
 
     };
 

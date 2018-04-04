@@ -1395,6 +1395,34 @@ class CfgVehicles
         };
     };
 
+    class CUP_SA330_Base : Helicopter_Base_H
+    {
+        class textureSources
+        {
+            class Kenya
+            {
+                displayname = "KDF Camo";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Puma\Puma_KDF.paa"};
+                factions[] = {};
+            };
+        };
+    };
+
+    class Heli_Light_01_base_F : Helicopter_Base_H
+    {
+        class textureSources
+        {
+            class Kenya
+            {
+                displayname = "KDF Camo";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Hummingbird\Hummingbird_KDF.paa"};
+                factions[] = {};
+            };
+        };
+    };
+
     // Crates
     class CUP_RUBasicAmmunitionBox; // CUP_RUBasicAmmunitionBox
     class CUP_RUBasicWeaponsBox; // CUP_RUBasicWeaponsBox

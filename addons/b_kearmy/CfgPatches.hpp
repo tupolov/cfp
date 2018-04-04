@@ -35,22 +35,22 @@ class CfgPatches {
             "CFP_B_KEARMY_M1128_01",
             "CFP_B_KEARMY_M1126_01",
             "CFP_B_KEARMY_Landrover_Transport_01",
-            "CFP_B_KEARMY_Land_Rover_M2_01"
+            "CFP_B_KEARMY_Land_Rover_M2_01",
+            "CFP_B_KEARMY_MD_500_Defender_01",
+            "CFP_B_KEARMY_Harbin_ZB9_01",
+            "CFP_B_KEARMY_SA330_Puma_01"
         };
         weapons[] = {};
         requiredVersion = 1.62;
         requiredAddons[] = {
-            "A3_Characters_F",
-            "cfp_uniforms",
-            "CUP_AirVehicles_UH1H",
-            "CUP_AirVehicles_AH6",
-            "CUP_WheeledVehicles_UpHMMWV",
-            "CUP_WheeledVehicles_RG31",
-            "CUP_WheeledVehicles_Stryker",
-            "cfp_vehicles",
-            "CUP_WheeledVehicles_LR"
+            "CFP_B_AFARMY",
+            "CFP_B_USMC_DES",
+            "A3_Air_F_Heli_Light_01",
+            "A3_Air_F_Heli_Light_02",
+            "CUP_AirVehciles_SA330"
         };
         author = "Drew";
         authors[] = {"Drew"};
     };
 };
+
