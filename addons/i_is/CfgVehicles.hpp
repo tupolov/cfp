@@ -76,14 +76,11 @@ class CfgVehicles
         };
 
         facewearList[] = {
+            "CFP_Beard",0.6,
             "IS_Balaclava", 0.2,
             "IS_Balaclava_logo1", 0.2,
             "IS_Balaclava_logo2", 0.2,
-            "G_Bandanna_blk", 0.25,
-            "G_Bandanna_khk", 0.25,
-            "G_Bandanna_oli", 0.25,
-            "G_Bandanna_tan", 0.25,
-            "", 0.25,
+            "", 0.1
         };
 
         vestList[] = {

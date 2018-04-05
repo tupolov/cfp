@@ -331,6 +331,7 @@ class CfgGroups
 
 				class cfp_o_grp_is_offroad_mgs
 				{
+					icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
 					name = "IS Offroad MGs";
 					side = 0;
 					faction = "CFP_O_IS";
@@ -352,6 +353,7 @@ class CfgGroups
 				};
 				class cfp_o_grp_is_offroad_patrol
 				{
+					icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
 					name = "IS Offroad Patrol";
 					side = 0;
 					faction = "CFP_O_IS";
@@ -376,6 +378,7 @@ class CfgGroups
 
 				class cfp_o_grp_is_lr_mgs
 				{
+					icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
 					name = "IS L.R. MGs";
 					side = 0;
 					faction = "CFP_O_IS";
@@ -397,6 +400,7 @@ class CfgGroups
 				};
 				class cfp_o_grp_is_lr_light_support
 				{
+					icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
 					name = "IS L.R. Support";
 					side = 0;
 					faction = "CFP_O_IS";
@@ -418,6 +422,7 @@ class CfgGroups
 				};
 				class cfp_o_grp_is_lr_heavy_support
 				{
+					icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
 					name = "IS L.R. Heavy Support";
 					side = 0;
 					faction = "CFP_O_IS";
@@ -449,6 +454,7 @@ class CfgGroups
 
 				class cfp_o_grp_is_uaz_mgs
 				{
+					icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
 					name = "IS UAZ MGs";
 					side = 0;
 					faction = "CFP_O_IS";
@@ -470,6 +476,7 @@ class CfgGroups
 				};
 				class cfp_o_grp_is_uaz_light_support
 				{
+					icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
 					name = "IS UAZ Support";
 					side = 0;
 					faction = "CFP_O_IS";
@@ -491,6 +498,7 @@ class CfgGroups
 				};
 				class cfp_o_grp_is_uaz_heavy_support
 				{
+					icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
 					name = "IS UAZ Heavy Support";
 					side = 0;
 					faction = "CFP_O_IS";
@@ -522,6 +530,7 @@ class CfgGroups
 
 				class cfp_o_grp_is_mixed_technicals_1
 				{
+					icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
 					name = "IS Mixed Technicals 1";
 					side = 0;
 					faction = "CFP_O_IS";
@@ -551,6 +560,7 @@ class CfgGroups
 
 				class cfp_o_grp_is_mixed_technicals_2
 				{
+					icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
 					name = "IS Mixed Technicals 2";
 					side = 0;
 					faction = "CFP_O_IS";
@@ -580,6 +590,7 @@ class CfgGroups
 
 				class cfp_o_grp_is_mixed_technicals_3
 				{
+					icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
 					name = "IS Mixed Technicals 3";
 					side = 0;
 					faction = "CFP_O_IS";
@@ -609,6 +620,7 @@ class CfgGroups
 
 				class cfp_o_grp_is_mixed_technicals_4
 				{
+					icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
 					name = "IS Mixed Technicals 4";
 					side = 0;
 					faction = "CFP_O_IS";
@@ -638,6 +650,7 @@ class CfgGroups
 
 				class cfp_o_grp_is_mixed_technicals_5
 				{
+					icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
 					name = "IS Mixed Technicals 5";
 					side = 0;
 					faction = "CFP_O_IS";
@@ -672,6 +685,7 @@ class CfgGroups
 
 				class cfp_o_grp_is_bmp1
 				{
+					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
 					name = "IS BMP-1";
 					side = 0;
 					faction = "CFP_O_IS";
@@ -686,6 +700,7 @@ class CfgGroups
 				};
 				class cfp_o_grp_is_bmp1_section
 				{
+					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
 					name = "IS BMP-1 Section";
 					side = 0;
 					faction = "CFP_O_IS";
@@ -708,6 +723,7 @@ class CfgGroups
 				};
 				class cfp_o_grp_is_bmp1_platoon
 				{
+					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
 					name = "IS BMP-1 Platoon";
 					side = 0;
 					faction = "CFP_O_IS";
@@ -737,6 +753,7 @@ class CfgGroups
 				};
 				class cfp_o_grp_is_bmp1p
 				{
+					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
 					name = "IS BMP-1P";
 					side = 0;
 					faction = "CFP_O_IS";
@@ -751,6 +768,7 @@ class CfgGroups
 				};
 				class cfp_o_grp_is_bmp1p_section
 				{
+					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
 					name = "IS BMP-1P Section";
 					side = 0;
 					faction = "CFP_O_IS";
@@ -773,6 +791,7 @@ class CfgGroups
 				};
 				class cfp_o_grp_is_bmp1p_platoon
 				{
+					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
 					name = "IS BMP-1P Platoon";
 					side = 0;
 					faction = "CFP_O_IS";
@@ -802,6 +821,7 @@ class CfgGroups
 				};
 				class cfp_o_grp_is_bmp2
 				{
+					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
 					name = "IS BMP-2";
 					side = 0;
 					faction = "CFP_O_IS";
@@ -816,6 +836,7 @@ class CfgGroups
 				};
 				class cfp_o_grp_is_bmp2_section
 				{
+					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
 					name = "IS BMP-2 Section";
 					side = 0;
 					faction = "CFP_O_IS";
@@ -838,6 +859,7 @@ class CfgGroups
 				};
 				class cfp_o_grp_is_bmp2_platoon
 				{
+					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
 					name = "IS BMP-2 Platoon";
 					side = 0;
 					faction = "CFP_O_IS";
@@ -867,6 +889,7 @@ class CfgGroups
 				};
 				class cfp_o_grp_is_bmps_mixed_1
 				{
+					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
 					name = "IS BMPs Mixed 1";
 					side = 0;
 					faction = "CFP_O_IS";
@@ -888,6 +911,7 @@ class CfgGroups
 				};
 				class cfp_o_grp_is_bmps_mixed_2
 				{
+					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
 					name = "IS BMPs Mixed 2";
 					side = 0;
 					faction = "CFP_O_IS";
@@ -909,6 +933,7 @@ class CfgGroups
 				};
 				class cfp_o_grp_is_bmps_mixed_3
 				{
+					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
 					name = "IS BMPs Mixed 3";
 					side = 0;
 					faction = "CFP_O_IS";
@@ -943,6 +968,7 @@ class CfgGroups
 				name = "Armored";
 				class cfp_o_grp_is_t55
 				{
+					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
 					name = "IS T-55";
 					side = 0;
 					faction = "CFP_O_IS";
@@ -957,6 +983,7 @@ class CfgGroups
 				};
 				class cfp_o_grp_is_t55_section
 				{
+					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
 					name = "IS T-55 Section";
 					side = 0;
 					faction = "CFP_O_IS";
@@ -978,6 +1005,7 @@ class CfgGroups
 				};
 				class cfp_o_grp_is_t55_platoon
 				{
+					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
 					name = "IS T-55 Platoon";
 					side = 0;
 					faction = "CFP_O_IS";
@@ -1007,6 +1035,7 @@ class CfgGroups
 
 				class cfp_o_grp_is_t72
 				{
+					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
 					name = "IS T-72";
 					side = 0;
 					faction = "CFP_O_IS";
@@ -1021,6 +1050,7 @@ class CfgGroups
 				};
 				class cfp_o_grp_is_t72_section
 				{
+					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
 					name = "IS T-72 Section";
 					side = 0;
 					faction = "CFP_O_IS";
@@ -1042,6 +1072,7 @@ class CfgGroups
 				};
 				class cfp_o_grp_is_t72_platoon
 				{
+					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
 					name = "IS T-72 Platoon";
 					side = 0;
 					faction = "CFP_O_IS";
@@ -1071,6 +1102,7 @@ class CfgGroups
 
 				class cfp_o_grp_is_mixed_armor_1
 				{
+					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
 					name = "IS Mixed Armor 1";
 					side = 0;
 					faction = "CFP_O_IS";
@@ -1093,6 +1125,7 @@ class CfgGroups
 
 				class cfp_o_grp_is_mixed_armor_2
 				{
+					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
 					name = "IS Mixed Armor 2";
 					side = 0;
 					faction = "CFP_O_IS";
@@ -1115,6 +1148,7 @@ class CfgGroups
 
 				class cfp_o_grp_is_mixed_armor_3
 				{
+					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
 					name = "IS Mixed Armor 3";
 					side = 0;
 					faction = "CFP_O_IS";
