@@ -1,3 +1,7 @@
+#define mag_xx(a,b) class _xx_##a {magazine = ##a; count = b;}
+#define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
+#define item_xx(a,b) class _xx_##a {name = a; count = b;}
+
 class CfgVehicles
 {
 	class I_Soldier_02_F;
@@ -180,4 +184,85 @@ class CfgVehicles
 		};
 		editorPreview = "\x\cfp\addons\b_iqpolice\data\Preview_IA_Ural.jpg";
 	};
+
+    class CUP_USBasicAmmunitionBox; // CUP_USBasicAmmunitionBox
+    class CUP_USBasicWeaponsBox; // CUP_USBasicWeaponsBox
+    class CUP_USSpecialWeaponsBox; // CUP_USSpecialWeaponsBox
+    class CUP_USVehicleBox; // CUP_USVehicleBox
+
+    class CFP_B_IQPOLICE_AmmoBox : CUP_USBasicAmmunitionBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Iraqi Police Ammo Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+        };
+        class TransportWeapons {
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_B_IQPOLICE_WeaponsBox : CUP_USBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Iraqi Police Weapons Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_AK47,10);
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_B_IQPOLICE_UniformBox : CUP_USBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Iraqi Police Uniform Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(IP_uniform_officer_b,15);
+            item_xx(IP_uniform_policeman_b,15);
+        };
+    };
+    class CFP_B_IQPOLICE_SupportBox : CUP_USSpecialWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Iraqi Police Support Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(Binocular,10);
+            item_xx(V_TacChestrig_grn_F,10);
+            item_xx(H_PASGT_basic_blue_F,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(V_TacVest_camo,10);
+        };
+    };
+    class CFP_B_IQPOLICE_SupplyBox : CUP_USVehicleBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Iraqi Police Supply Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_AK47,10);
+        };
+        class TransportItems {
+            item_xx(Binocular,10);
+            item_xx(V_TacChestrig_grn_F,10);
+            item_xx(H_PASGT_basic_blue_F,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(V_TacVest_camo,10);
+            item_xx(IP_uniform_officer_b,10);
+            item_xx(IP_uniform_policeman_b,10);
+        };
+    };
 };
