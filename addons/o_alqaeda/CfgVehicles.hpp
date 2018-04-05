@@ -124,6 +124,7 @@ class CfgVehicles {
 
 
     class CFP_O_ALQAEDA_Rifleman_01 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_alqaeda\data\preview\CFP_O_ALQAEDA_Rifleman_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -202,6 +203,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALQAEDA_Team_Leader_01 : CFP_O_ALQAEDA_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_alqaeda\data\preview\CFP_O_ALQAEDA_Team_Leader_01.JPG;
 
         displayName = "Team Leader";
 
@@ -216,6 +218,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALQAEDA_Grenadier_01 : CFP_O_ALQAEDA_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_alqaeda\data\preview\CFP_O_ALQAEDA_Grenadier_01.JPG;
 
         displayName = "Grenadier";
 
@@ -231,6 +234,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALQAEDA_Rifleman_AT_01 : CFP_O_ALQAEDA_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_alqaeda\data\preview\CFP_O_ALQAEDA_Rifleman_AT_01.JPG;
 
         displayName = "Rifleman AT";
 
@@ -246,6 +250,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALQAEDA_Explosive_Specialist_01 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_alqaeda\data\preview\CFP_O_ALQAEDA_Explosive_Specialist_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -309,6 +314,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALQAEDA_Medic_01 : CFP_O_ALQAEDA_Explosive_Specialist_01 {
+        editorPreview = \x\cfp\addons\o_alqaeda\data\preview\CFP_O_ALQAEDA_Medic_01.JPG;
 
         displayName = "Medic";
 
@@ -324,6 +330,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALQAEDA_Sniper_01 : CFP_O_ALQAEDA_Explosive_Specialist_01 {
+        editorPreview = \x\cfp\addons\o_alqaeda\data\preview\CFP_O_ALQAEDA_Sniper_01.JPG;
 
         displayName = "Sniper";
 
@@ -339,6 +346,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALQAEDA_Gunner_DShKM_High_01 : CFP_O_ALQAEDA_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_alqaeda\data\preview\CFP_O_ALQAEDA_Gunner_DShKM_High_01.JPG;
 
         displayName = "Gunner [DShKM High]";
 
@@ -354,6 +362,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALQAEDA_Gunner_DShKM_Low_01 : CFP_O_ALQAEDA_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_alqaeda\data\preview\CFP_O_ALQAEDA_Gunner_DShKM_Low_01.JPG;
 
         displayName = "Gunner [DShKM Low]";
 
@@ -369,6 +378,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALQAEDA_Gunner_SPG9_01 : CFP_O_ALQAEDA_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_alqaeda\data\preview\CFP_O_ALQAEDA_Gunner_SPG9_01.JPG;
 
         displayName = "Gunner [SPG9]";
 
@@ -384,6 +394,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALQAEDA_Gunner_Mortar_01 : CFP_O_ALQAEDA_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_alqaeda\data\preview\CFP_O_ALQAEDA_Gunner_Mortar_01.JPG;
 
         displayName = "Gunner [Mortar]";
 
@@ -399,6 +410,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALQAEDA_Asst_Gunner_DShKM_01 : CFP_O_ALQAEDA_Explosive_Specialist_01 {
+        editorPreview = \x\cfp\addons\o_alqaeda\data\preview\CFP_O_ALQAEDA_Asst_Gunner_DShKM_01.JPG;
 
         displayName = "Asst. Gunner [DShKM]";
 
@@ -414,6 +426,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALQAEDA_Asst_Gunner_SPG9_01 : CFP_O_ALQAEDA_Explosive_Specialist_01 {
+        editorPreview = \x\cfp\addons\o_alqaeda\data\preview\CFP_O_ALQAEDA_Asst_Gunner_SPG9_01.JPG;
 
         displayName = "Asst. Gunner [SPG9]";
 
@@ -429,6 +442,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALQAEDA_Asst_Gunner_Mortar_01 : CFP_O_ALQAEDA_Explosive_Specialist_01 {
+        editorPreview = \x\cfp\addons\o_alqaeda\data\preview\CFP_O_ALQAEDA_Asst_Gunner_Mortar_01.JPG;
 
         displayName = "Asst. Gunner [Mortar]";
 
@@ -444,6 +458,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALQAEDA_Machine_Gunner_01 : CFP_O_ALQAEDA_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_alqaeda\data\preview\CFP_O_ALQAEDA_Machine_Gunner_01.JPG;
 
         displayName = "Machine Gunner";
 
