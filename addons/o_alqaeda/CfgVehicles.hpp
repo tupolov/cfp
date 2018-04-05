@@ -3,7 +3,9 @@
 // Generated with Arma 3 version 178.143717 on Stable branch
 // Generated with ALiVE version 1.5.1.1711281
 //////////////////////////////////////////////////////////////////////////////////
-
+#define mag_xx(a,b) class _xx_##a {magazine = ##a; count = b;}
+#define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
+#define item_xx(a,b) class _xx_##a {name = a; count = b;}
 
 class CBA_Extended_EventHandlers_base;
 
@@ -145,38 +147,45 @@ class CfgVehicles {
 
 	// Al Qaeda Uniforms
 		uniformList[] = {
-	"CFP_U_BattleDressUniform_atacs_au", 0.1,
-	"SP_0000_Standard_FieldUniform_Black", 0.1,
-	"CUP_I_B_PMC_Unit_3", 0.1,
-	"CUP_O_TKI_Khet_Partug_04", 0.1,
-	"CFP_U_KhetPartug_Long_olive", 0.1,
-	"CFP_U_BattleDressUniform_ChocChip", 0.1,
-	"CUP_O_TKI_Khet_Partug_02", 0.1,
-	"CFP_U_KhetPartug_Long_light_olive", 0.1,
-	"CUP_I_B_PMC_Unit_24", 0.1,
-	"SP_0000_Standard_PulloverUniform_Tan", 0.1,
-	"SP_0000_Standard_BattleDressUniform_Green", 0.1,
-	"CFP_U_BattleDressUniform_scorpion_w2", 0.1,
-	"SP_0000_Standard_BattleDressUniform_ATacsFG", 0.1,
-	"U_BG_Guerilla2_1", 0.1
+        	"CFP_U_BattleDressUniform_atacs_au", 0.1,
+        	"SP_0000_Standard_FieldUniform_Black", 0.1,
+        	"CUP_I_B_PMC_Unit_3", 0.1,
+        	"CUP_O_TKI_Khet_Partug_04", 0.1,
+        	"CFP_U_KhetPartug_Long_olive", 0.1,
+        	"CFP_U_BattleDressUniform_ChocChip", 0.1,
+        	"CUP_O_TKI_Khet_Partug_02", 0.1,
+        	"CFP_U_KhetPartug_Long_light_olive", 0.1,
+        	"CUP_I_B_PMC_Unit_24", 0.1,
+        	"SP_0000_Standard_PulloverUniform_Tan", 0.1,
+        	"SP_0000_Standard_BattleDressUniform_Green", 0.1,
+        	"CFP_U_BattleDressUniform_scorpion_w2", 0.1,
+        	"SP_0000_Standard_BattleDressUniform_ATacsFG", 0.1,
+        	"U_BG_Guerilla2_1", 0.1
 		};
 
 
 	// Al Qaeda Headgear
 		headgearList[] = {
-	"SP_Shemagh_Black", 0.25,
-	"SP_Shemagh_CheckBlack", 0.25,
-	"SP_Shemagh_CheckGreen", 0.1,
-	"SP_Shemagh_CheckRed", 0.1,
-	"SP_Shemagh_CheckTan", 0.1,
-	"SP_Shemagh_CheckWhite", 0.1,
-	"SP_Shemagh_Green", 0.1,
-	"SP_Shemagh_Grey", 0.1,
-	"SP_Shemagh_Tan", 0.1,
-	"SP_Shemagh_White", 0.1,
-	"IS_shemag_black", 0.1
+            "",0.25,
+        	"SP_Shemagh_Black", 0.25,
+        	"SP_Shemagh_CheckBlack", 0.25,
+        	"SP_Shemagh_CheckGreen", 0.1,
+        	"SP_Shemagh_CheckRed", 0.1,
+        	"SP_Shemagh_CheckTan", 0.1,
+        	"SP_Shemagh_CheckWhite", 0.1,
+        	"SP_Shemagh_Green", 0.1,
+        	"SP_Shemagh_Grey", 0.1,
+        	"SP_Shemagh_Tan", 0.1,
+        	"SP_Shemagh_White", 0.1,
+        	"IS_shemag_black", 0.1
 		};
 
+        facewearList[] = {
+            "CFP_Beard", 0.8,
+            "G_Balaclava_oli", 0.1,
+            "IS_Balaclava", 0.1,
+            "IS_Balaclava_logo1", 0.1
+        };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -195,7 +204,6 @@ class CfgVehicles {
     class CFP_O_ALQAEDA_Team_Leader_01 : CFP_O_ALQAEDA_Rifleman_01 {
 
         displayName = "Team Leader";
-
 
         weapons[] = {"CUP_arifle_AKM","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_AKM","Throw","Put"};
@@ -257,32 +265,33 @@ class CfgVehicles {
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CUP_O_TKI_Khet_Partug_04",{{"CUP_30Rnd_762x39_AK47_M",1,30}}},{"CFP_AK_VEST_LOlive",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{"B_Kitbag_rgr",{{"DemoCharge_Remote_Mag",5,1},{"ATMine_Range_Mag",1,1},{"APERSTripMine_Wire_Mag",1,1},{"CUP_PipeBomb_M",1,1}}},"","IS_Balaclava",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
-	randomGearProbability = 100;
+    	randomGearProbability = 100;
 
-	// Al Qaeda Uniforms
+    	// Al Qaeda Uniforms
 		uniformList[] = {
-	"CFP_U_BattleDressUniform_atacs_au", 0.1,
-	"SP_0000_Standard_FieldUniform_Black", 0.1,
-	"CUP_I_B_PMC_Unit_3", 0.1,
-	"CUP_O_TKI_Khet_Partug_04", 0.1,
-	"CFP_U_KhetPartug_Long_olive", 0.1,
-	"CFP_U_BattleDressUniform_ChocChip", 0.1,
-	"CUP_O_TKI_Khet_Partug_02", 0.1,
-	"CFP_U_KhetPartug_Long_light_olive", 0.1,
-	"CUP_I_B_PMC_Unit_24", 0.1,
-	"SP_0000_Standard_PulloverUniform_Tan", 0.1,
-	"SP_0000_Standard_BattleDressUniform_Green", 0.1,
-	"CFP_U_BattleDressUniform_scorpion_w2", 0.1,
-	"SP_0000_Standard_BattleDressUniform_ATacsFG", 0.1,
-	"U_BG_Guerilla2_1", 0.1,
-	"CUP_U_O_CHDKZ_Lopotev", 0.2
+        	"CFP_U_BattleDressUniform_atacs_au", 0.1,
+        	"SP_0000_Standard_FieldUniform_Black", 0.1,
+        	"CUP_I_B_PMC_Unit_3", 0.1,
+        	"CUP_O_TKI_Khet_Partug_04", 0.1,
+        	"CFP_U_KhetPartug_Long_olive", 0.1,
+        	"CFP_U_BattleDressUniform_ChocChip", 0.1,
+        	"CUP_O_TKI_Khet_Partug_02", 0.1,
+        	"CFP_U_KhetPartug_Long_light_olive", 0.1,
+        	"CUP_I_B_PMC_Unit_24", 0.1,
+        	"SP_0000_Standard_PulloverUniform_Tan", 0.1,
+        	"SP_0000_Standard_BattleDressUniform_Green", 0.1,
+        	"CFP_U_BattleDressUniform_scorpion_w2", 0.1,
+        	"SP_0000_Standard_BattleDressUniform_ATacsFG", 0.1,
+        	"U_BG_Guerilla2_1", 0.1,
+        	"CUP_U_O_CHDKZ_Lopotev", 0.2
 		};
 
 	// Al Qaeda Facewear
 		facewearList[] = {
-	"G_Balaclava_oli", 0.33,
-	"IS_Balaclava", 0.33,
-	"IS_Balaclava_logo1", 0.33
+            "CFP_Beard", 0.5,
+        	"G_Balaclava_oli", 0.33,
+        	"IS_Balaclava", 0.33,
+        	"IS_Balaclava_logo1", 0.33
 		};
 
         class EventHandlers : EventHandlers {
@@ -756,4 +765,181 @@ class CfgVehicles {
 
     };
 
+    class CUP_RUBasicAmmunitionBox; // CUP_RUBasicAmmunitionBox
+
+    class CUP_RUBasicWeaponsBox; // CUP_RUBasicWeaponsBox
+
+    class CUP_RUSpecialWeaponsBox; // CUP_RUSpecialWeaponsBox
+
+    class CUP_RULaunchersBox; // CUP_RULaunchersBox
+
+    class CUP_RUVehicleBox; // CUP_RUVehicleBox
+
+
+    class CFP_O_ALQAEDA_AmmoBox : CUP_RUBasicAmmunitionBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Al Qaeda Ammo Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_PG7V_M,50);
+            mag_xx(DemoCharge_Remote_Mag,50);
+            mag_xx(ATMine_Range_Mag,50);
+            mag_xx(APERSTripMine_Wire_Mag,50);
+            mag_xx(CUP_PipeBomb_M,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+        };
+        class TransportWeapons {
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_O_ALQAEDA_WeaponsBox : CUP_RUBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Al Qaeda Weapons Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_AKM,10);
+            weap_xx(CUP_arifle_AK74_GL,10);
+            weap_xx(CUP_arifle_AK47,10);
+            weap_xx(CUP_srifle_SVD,10);
+            weap_xx(CUP_lmg_PKM,10);
+        };
+        class TransportItems {
+            item_xx(CUP_optic_PSO_1,10);
+        };
+    };
+    class CFP_O_ALQAEDA_LaunchersBox : CUP_RULaunchersBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Al Qaeda Launchers Box;
+        class TransportMagazines {
+            mag_xx(CUP_PG7V_M,5);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_launch_RPG7V,5);
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_O_ALQAEDA_UniformBox : CUP_RUBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Al Qaeda Uniform Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(SP_0000_Standard_PulloverUniform_Tan,15);
+            item_xx(CFP_U_BattleDressUniform_ChocChip,15);
+            item_xx(CUP_I_B_PMC_Unit_24,15);
+            item_xx(CFP_U_KhetPartug_Long_olive,15);
+            item_xx(SP_0000_Standard_BattleDressUniform_Green,15);
+            item_xx(CFP_U_KhetPartug_Long_light_olive,15);
+            item_xx(CUP_O_TKI_Khet_Partug_02,15);
+            item_xx(CUP_O_TKI_Khet_Partug_04,15);
+            item_xx(CUP_I_B_PMC_Unit_3,15);
+        };
+    };
+    class CFP_O_ALQAEDA_SupportBox : CUP_RUSpecialWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Al Qaeda Support Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(CFP_AK_VEST_Tan,10);
+            item_xx(SP_Shemagh_Grey,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(CFP_AK_VEST_Black,10);
+            item_xx(SP_Shemagh_CheckBlack,10);
+            item_xx(CUP_B_RPGPack_Khaki,10);
+            item_xx(CFP_AK_VEST_LOlive,10);
+            item_xx(G_Balaclava_oli,10);
+            item_xx(B_Kitbag_rgr,10);
+            item_xx(IS_Balaclava_logo1,10);
+            item_xx(B_AssaultPack_rgr,10);
+            item_xx(SP_Shemagh_White,10);
+            item_xx(CUP_B_DShkM_TripodHigh_Bag,10);
+            item_xx(CUP_B_DShkM_TripodLow_Bag,10);
+            item_xx(CUP_B_SPG9_Tripod_Bag,10);
+            item_xx(SP_Shemagh_Black,10);
+            item_xx(CUP_B_Podnos_Bipod_Bag,10);
+            item_xx(IS_Balaclava,10);
+            item_xx(CUP_B_DShkM_Gun_Bag,10);
+            item_xx(CUP_B_SPG9_Gun_Bag,10);
+            item_xx(CUP_B_Podnos_Gun_Bag,10);
+        };
+    };
+    class CFP_O_ALQAEDA_SupplyBox : CUP_RUVehicleBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Al Qaeda Supply Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_PG7V_M,50);
+            mag_xx(DemoCharge_Remote_Mag,50);
+            mag_xx(ATMine_Range_Mag,50);
+            mag_xx(APERSTripMine_Wire_Mag,50);
+            mag_xx(CUP_PipeBomb_M,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_AKM,10);
+            weap_xx(CUP_arifle_AK74_GL,10);
+            weap_xx(CUP_arifle_AK47,10);
+            weap_xx(CUP_srifle_SVD,10);
+            weap_xx(CUP_lmg_PKM,10);
+            weap_xx(CUP_launch_RPG7V,10);
+        };
+        class TransportItems {
+            item_xx(CUP_optic_PSO_1,10);
+            item_xx(CFP_AK_VEST_Tan,10);
+            item_xx(SP_Shemagh_Grey,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(CFP_AK_VEST_Black,10);
+            item_xx(SP_Shemagh_CheckBlack,10);
+            item_xx(CUP_B_RPGPack_Khaki,10);
+            item_xx(CFP_AK_VEST_LOlive,10);
+            item_xx(G_Balaclava_oli,10);
+            item_xx(B_Kitbag_rgr,10);
+            item_xx(IS_Balaclava_logo1,10);
+            item_xx(B_AssaultPack_rgr,10);
+            item_xx(SP_Shemagh_White,10);
+            item_xx(CUP_B_DShkM_TripodHigh_Bag,10);
+            item_xx(CUP_B_DShkM_TripodLow_Bag,10);
+            item_xx(CUP_B_SPG9_Tripod_Bag,10);
+            item_xx(SP_Shemagh_Black,10);
+            item_xx(CUP_B_Podnos_Bipod_Bag,10);
+            item_xx(IS_Balaclava,10);
+            item_xx(CUP_B_DShkM_Gun_Bag,10);
+            item_xx(CUP_B_SPG9_Gun_Bag,10);
+            item_xx(CUP_B_Podnos_Gun_Bag,10);
+            item_xx(SP_0000_Standard_PulloverUniform_Tan,10);
+            item_xx(CFP_U_BattleDressUniform_ChocChip,10);
+            item_xx(CUP_I_B_PMC_Unit_24,10);
+            item_xx(CFP_U_KhetPartug_Long_olive,10);
+            item_xx(SP_0000_Standard_BattleDressUniform_Green,10);
+            item_xx(CFP_U_KhetPartug_Long_light_olive,10);
+            item_xx(CUP_O_TKI_Khet_Partug_02,10);
+            item_xx(CUP_O_TKI_Khet_Partug_04,10);
+            item_xx(CUP_I_B_PMC_Unit_3,10);
+        };
+    };
 };
