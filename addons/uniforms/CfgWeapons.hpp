@@ -5,6 +5,7 @@
 		model = "\x\cfp\addons\models\Suitpack"; \
 		displayName = NAME; \
 		author = AUTHOR; \
+		picture = \x\cfp\addons\uniforms\data\ui\icon_cfp_u_##CLASS##_##CAMO##.paa; \
 		class ItemInfo: UniformItem \
 		{ \
 			uniformModel = "-"; \

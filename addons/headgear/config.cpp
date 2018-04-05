@@ -338,7 +338,13 @@ class CfgPatches
 			"CFP_Lungee_Green",
 			"CFP_Lungee_Grey",
 			"CFP_Lungee_LightOlive",
-			"CFP_Lungee_Tan"
+			"CFP_Lungee_Tan",
+			"cfp_basic_helmet_gray",
+			"cfp_headband_wdl",
+			"cfp_pasgthelmet_chocchip1",
+			"cfp_pasgthelmet_chocchip2",
+			"cfp_pasgthelmet_edrl1",
+			"cfp_pasgthelmet_edrl2"
 		};
         author = MODULE_AUTHOR;
         authors[] = {"SP Craig", "Tupolov","AuburnAlumni","VanSchmoozin"};
