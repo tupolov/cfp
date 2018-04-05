@@ -191,7 +191,15 @@ class CfgVehicles {
 	"CFP_U_KhetPartug_Long_M81", 0.2,
 	"CFP_U_KhetPartug_Long_olive", 0.2,
 	"CFP_U_KhetPartug_Short_olive", 0.2,
-	"CUP_O_TKI_Khet_Partug_04", 0.2
+	"CFP_U_KhetPartug_Long_Light_Olive", 0.2,
+    "CFP_U_KhetPartug_Short_Light_Olive", 0.2,
+    "CFP_U_KhetPartug_Short_Woodland", 0.2,
+    "CFP_U_KhetPartug_Long_Woodland", 0.2,
+    "CFP_U_KhetPartug_Short_GreenOlive", 0.2,
+    "CFP_U_KhetPartug_Long_Black", 0.2,
+    "CFP_U_KhetPartug_Short_Black", 0.2,
+    "CFP_U_KhetPartug_Long_EDRL", 0.2,
+    "CFP_U_KhetPartug_Short_EDRL", 0.2
 		};
 
 	// al Shabaab Headgear
@@ -208,6 +216,24 @@ class CfgVehicles {
 	"SP_Shemagh_White", 0.1,
 	"IS_shemag_black", 0.1
 		};
+
+    // al Shabaab Vests
+        vestList[] = {
+    "CFP_AK_VEST_Black", 0.2,
+    "CFP_AK_VEST_EDRL", 0.2,
+    "CFP_AK_VEST_LOlive", 0.2,
+    "CFP_AK_VEST_Olive", 0.2,
+    "CFP_AK_VEST_Tan", 0.2,
+    "CFP_AK_VEST_Lime", 0.2,
+    "CFP_UtilityJacket_Woodland", 0.2,
+    "CFP_UtilityJacket_M81", 0.2,
+    "CFP_UtilityJacket_EDRL", 0.2,
+    "CFP_UtilityJacket_ChocChip", 0.2,
+    "CFP_TakJacket_Woodland", 0.2,
+    "CFP_TakJacket_M81", 0.2,
+    "CFP_TakJacket_EDRL", 0.2,
+    "CFP_TakJacket_ChocChip", 0.2
+        };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -853,6 +879,57 @@ class CfgVehicles {
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_ALSHABAAB_Asst_Gunner_DShKM_01 : CFP_O_ALSHABAAB_Rifleman_01 {
+
+        displayName = "Asst. Gunner [DShKM]";
+
+        linkedItems[] = {"CFP_UtilityJacket_Woodland","SP_Shemagh_Black","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CFP_UtilityJacket_Woodland","SP_Shemagh_Black","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        weapons[] = {"CUP_arifle_AK47"};
+        respawnWeapons[] = {"CUP_arifle_AK47"};
+        magazines[] = {"CUP_30Rnd_762x39_AK47_M"};
+        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M"};
+
+        backpack = "CUP_B_DShkM_Gun_Bag";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_KhetPartug_Long_EDRL",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_UtilityJacket_Woodland",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_DShkM_Gun_Bag",{}},"SP_Shemagh_Black","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+
+    };
+
+    class CFP_O_ALSHABAAB_Asst_Gunner_Mortar_01 : CFP_O_ALSHABAAB_Rifleman_01 {
+
+        displayName = "Asst. Gunner [Mortar]";
+
+        linkedItems[] = {"CFP_AK_VEST_Olive","SP_Shemagh_Black","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CFP_AK_VEST_Olive","SP_Shemagh_Black","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        weapons[] = {"CUP_arifle_AK47"};
+        respawnWeapons[] = {"CUP_arifle_AK47"};
+        magazines[] = {"CUP_30Rnd_762x39_AK47_M"};
+        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M"};
+
+        backpack = "CUP_B_Podnos_Gun_Bag";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_KhetPartug_Long_Black",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_Olive",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_Podnos_Gun_Bag",{}},"SP_Shemagh_Black","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+
+    };
+
+    class CFP_O_ALSHABAAB_Asst_Gunner_SPG_01 : CFP_O_ALSHABAAB_Rifleman_01 {
+
+        displayName = "Asst. Gunner [SPG-9]";
+
+        linkedItems[] = {"CFP_AK_VEST_EDRL","SP_Shemagh_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CFP_AK_VEST_EDRL","SP_Shemagh_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        weapons[] = {"CUP_arifle_AK47"};
+        respawnWeapons[] = {"CUP_arifle_AK47"};
+        magazines[] = {"CUP_30Rnd_762x39_AK47_M"};
+        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M"};
+
+        backpack = "CUP_B_SPG9_Gun_Bag";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_KhetPartug_Short_light_olive",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_EDRL",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_SPG9_Gun_Bag",{}},"SP_Shemagh_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 

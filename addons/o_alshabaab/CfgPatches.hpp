@@ -28,23 +28,16 @@ class CfgPatches {
             "CFP_O_ALSHABAAB_Ural_Fuel_01",
             "CFP_O_ALSHABAAB_Ural_Repair_01",
             "CFP_O_ALSHABAAB_UAZ_SPG_01",
-            "CFP_O_ALSHABAAB_Ural_Open_01"
+            "CFP_O_ALSHABAAB_Ural_Open_01",
+            "CFP_O_ALSHABAAB_Asst_Gunner_DShKM_01",
+            "CFP_O_ALSHABAAB_Asst_Gunner_Mortar_01",
+            "CFP_O_ALSHABAAB_Asst_Gunner_SPG_01"
         };
         weapons[] = {};
-        requiredVersion = REQUIRED_VERSION;
-        requiredAddons[] = {
-            "A3_Characters_F",
-            "cfp_uniforms",
-            "CUP_WheeledVehicles_Ural",
-            "CUP_WheeledVehicles_Datsun",
-            "A3_Soft_F_Offroad_01",
-            "A3_Soft_F_Exp_Offroad_01",
-            "A3_Soft_F_Beta_Truck_02",
-            "A3_Soft_F_Gamma_Van_01",
-            "CUP_Weapons_StaticWeapons",
-            "CUP_WheeledVehicles_UAZ"
-        };
+        requiredVersion = 1.62;
+        requiredAddons[] = {};
         author = "Drew";
         authors[] = {"Drew"};
     };
 };
+
