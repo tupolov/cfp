@@ -38,7 +38,9 @@ Factions are delivered in a modular way, enabling groups to maintain their own t
 - Includes AccuracyThruVolume's Iraq/Syria pack
 - Includes SP Craig's gear pack
 - Includes Siege-A's insignias and patches content
+- Includes VanSchmoozin's vests and helmets content
 - Additional custom textures and assets donated by community members
+- 900+ custom helmets, vests, uniforms, rucks and more
 - Randomization tech that provides variation of gear and equipment to appropriate units and vehicles resulting in hundreds of possible civilian, insurgent, PMC, clandestine operative and special forces units and vehicles.
 - Standardizes faction and group configurations for the community
 - Follows best practice configuration and implementation using CBA and ACE3 standards
