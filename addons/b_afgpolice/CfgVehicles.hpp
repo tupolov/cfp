@@ -4,6 +4,9 @@
 // Generated with ALiVE version 1.5.3.1801061
 //////////////////////////////////////////////////////////////////////////////////
 
+#define mag_xx(a,b) class _xx_##a {magazine = ##a; count = b;}
+#define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
+#define item_xx(a,b) class _xx_##a {name = a; count = b;}
 
 class CBA_Extended_EventHandlers_base;
 
@@ -949,4 +952,171 @@ class CfgVehicles {
 
     };
 
+
+    class CUP_USBasicAmmunitionBox; // CUP_USBasicAmmunitionBox
+
+    class CUP_USBasicWeaponsBox; // CUP_USBasicWeaponsBox
+
+    class CUP_USSpecialWeaponsBox; // CUP_USSpecialWeaponsBox
+
+    class CUP_USLaunchersBox; // CUP_USLaunchersBox
+
+    class CUP_USVehicleBox; // CUP_USVehicleBox
+
+    class CFP_B_AFGPOLICE_AmmoBox : CUP_USBasicAmmunitionBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Afghan Police Ammo Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_1Rnd_SMOKE_GP25_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_PG7V_M,50);
+            mag_xx(CUP_HandGrenade_M67,50);
+            mag_xx(CUP_8Rnd_9x18_Makarov_M,50);
+        };
+        class TransportWeapons {
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_B_AFGPOLICE_WeaponsBox : CUP_USBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Afghan Police Weapons Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_8Rnd_9x18_Makarov_M,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_AK74,10);
+            weap_xx(CUP_arifle_AK74_GL,10);
+            weap_xx(CUP_arifle_AK74M,10);
+            weap_xx(CUP_arifle_AK74M_GL,10);
+            weap_xx(CUP_lmg_PKM,10);
+            weap_xx(CUP_arifle_AKM,10);
+            weap_xx(CUP_hgun_Makarov,10);
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_B_AFGPOLICE_LaunchersBox : CUP_USLaunchersBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Afghan Police Launchers Box;
+        class TransportMagazines {
+            mag_xx(CUP_PG7V_M,5);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_launch_RPG7V,5);
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_B_AFGPOLICE_UniformBox : CUP_USBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Afghan Police Uniform Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(CFP_U_BattleDressUniform_anp_dark,15);
+            item_xx(CFP_U_FieldUniform_anp_dark,15);
+            item_xx(CFP_U_BattleDressUniform_ancop_dark,15);
+            item_xx(CFP_U_BattleDressUniform_ancop_light,15);
+            item_xx(CFP_U_FieldUniform_ancop_dark,15);
+            item_xx(CFP_U_FieldUniform_ancop_light,15);
+        };
+    };
+    class CFP_B_AFGPOLICE_SupportBox : CUP_USSpecialWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Afghan Police Support Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(CFP_AK_VEST_LOlive,10);
+            item_xx(CFP_PatrolCap_ANP,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(Binocular,10);
+            item_xx(CUP_B_AssaultPack_Black,10);
+            item_xx(CUP_B_RPGPack_Khaki,10);
+            item_xx(SP_Modular1_Black,10);
+            item_xx(SP_PASGTHelmet_Black2,10);
+            item_xx(SP_Kneepads_Black2,10);
+            item_xx(CFP_AK_VEST_Tan,10);
+            item_xx(CFP_PatrolCap_ANCOP,10);
+            item_xx(CUP_B_AssaultPack_Coyote,10);
+            item_xx(SP_Modular2_Tan,10);
+            item_xx(CFP_Basic_Helmet_Tan,10);
+            item_xx(SP_Kneepads_Tan2,10);
+            item_xx(SP_Modular2_Green,10);
+            item_xx(CFP_Basic_Helmet_Spec4cesierra,10);
+            item_xx(SP_Modular2_Black,10);
+            item_xx(CFP_Basic_Helmet_Black,10);
+            item_xx(CFP_Basic_Helmet_Gray_Green,10);
+        };
+    };
+    class CFP_B_AFGPOLICE_SupplyBox : CUP_USVehicleBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Afghan Police Supply Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_1Rnd_SMOKE_GP25_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_PG7V_M,50);
+            mag_xx(CUP_HandGrenade_M67,50);
+            mag_xx(CUP_8Rnd_9x18_Makarov_M,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_AK74,10);
+            weap_xx(CUP_arifle_AK74_GL,10);
+            weap_xx(CUP_arifle_AK74M,10);
+            weap_xx(CUP_arifle_AK74M_GL,10);
+            weap_xx(CUP_lmg_PKM,10);
+            weap_xx(CUP_arifle_AKM,10);
+            weap_xx(CUP_hgun_Makarov,10);
+            weap_xx(CUP_launch_RPG7V,10);
+        };
+        class TransportItems {
+            item_xx(CFP_AK_VEST_LOlive,10);
+            item_xx(CFP_PatrolCap_ANP,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(Binocular,10);
+            item_xx(CUP_B_AssaultPack_Black,10);
+            item_xx(CUP_B_RPGPack_Khaki,10);
+            item_xx(SP_Modular1_Black,10);
+            item_xx(SP_PASGTHelmet_Black2,10);
+            item_xx(SP_Kneepads_Black2,10);
+            item_xx(CFP_AK_VEST_Tan,10);
+            item_xx(CFP_PatrolCap_ANCOP,10);
+            item_xx(CUP_B_AssaultPack_Coyote,10);
+            item_xx(SP_Modular2_Tan,10);
+            item_xx(CFP_Basic_Helmet_Tan,10);
+            item_xx(SP_Kneepads_Tan2,10);
+            item_xx(SP_Modular2_Green,10);
+            item_xx(CFP_Basic_Helmet_Spec4cesierra,10);
+            item_xx(SP_Modular2_Black,10);
+            item_xx(CFP_Basic_Helmet_Black,10);
+            item_xx(CFP_Basic_Helmet_Gray_Green,10);
+            item_xx(CFP_U_BattleDressUniform_anp_dark,10);
+            item_xx(CFP_U_FieldUniform_anp_dark,10);
+            item_xx(CFP_U_BattleDressUniform_ancop_dark,10);
+            item_xx(CFP_U_BattleDressUniform_ancop_light,10);
+            item_xx(CFP_U_FieldUniform_ancop_dark,10);
+            item_xx(CFP_U_FieldUniform_ancop_light,10);
+        };
+    };
 };
