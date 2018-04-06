@@ -1,3 +1,33 @@
+	class I_C_Soldier_Camo_F;
+	class CFP_Uniform : I_C_Soldier_Camo_F
+	{
+		scope = 1;
+		faction = "BLU_F";
+        modelSides[] = {6};
+		vehicleClass = "CFP_BattleDressUniform";
+		canCarryBackPack=1;
+		canDeactivateMines=1;
+		engineer=1;
+		attendant = "true";
+		uniformAccessories[] = {};
+		nakedUniform = "U_BasicBody";
+		//model = "\x\cfp\addons\models\BattleDressUniform.p3d";
+		Items[] = {};
+		weapons[] = {"Throw","Put"};
+		magazines[] = {};
+		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
+		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
+		hiddenSelections[] = {"Camo1","Camo2","insignia"};
+		class Wounds
+		{
+			tex[] = {};
+			mat[] = {"x\cfp\addons\models\rv\BDU.rvmat","x\cfp\addons\models\rv\BDU_injury.rvmat","x\cfp\addons\models\rv\BDU_injury.rvmat"};
+
+		};
+		
+	};
+	
+	/*   OLD Definition
 	class CFP_Uniform : B_Soldier_base_F
 	{
 		scope = 1;
@@ -17,22 +47,16 @@
 		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
 		hiddenSelections[] = {"Camo1","Camo2","insignia"};
-		class Wounds
-		{
-			tex[] = {};
-			mat[] = {"x\cfp\addons\models\rv\BDU.rvmat","x\cfp\addons\models\rv\BDU_injury.rvmat","x\cfp\addons\models\rv\BDU_injury.rvmat"};
 
-		};
-		
-		/*    OLD definition
 		class Wounds
 		{
 			tex[] = {};
 			mat[] = {"A3\Characters_F_Beta\INDEP\Data\officer.rvmat","A3\Characters_F_Beta\INDEP\Data\officer_injury.rvmat","A3\Characters_F_Beta\INDEP\Data\officer_injury.rvmat"};
 
 		};
-		*/
+		
 	};
+	*/
 
 	class SP_0000_Standard_BattleDressUniform_Black: CFP_Uniform
 	{
