@@ -11,7 +11,7 @@
 		attendant = "true";
 		uniformAccessories[] = {};
 		nakedUniform = "U_BasicBody";
-		//model = "\x\cfp\addons\models\BattleDressUniform.p3d";
+		model = "\x\cfp\addons\models\BattleDressUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
