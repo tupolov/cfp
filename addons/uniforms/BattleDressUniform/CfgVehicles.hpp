@@ -20,9 +20,18 @@
 		class Wounds
 		{
 			tex[] = {};
+			mat[] = {"x\cfp\addons\models\rv\BDU.rvmat","x\cfp\addons\models\rv\BDU_injury.rvmat","x\cfp\addons\models\rv\BDU_injury.rvmat"};
+
+		};
+		
+		/*    OLD definition
+		class Wounds
+		{
+			tex[] = {};
 			mat[] = {"A3\Characters_F_Beta\INDEP\Data\officer.rvmat","A3\Characters_F_Beta\INDEP\Data\officer_injury.rvmat","A3\Characters_F_Beta\INDEP\Data\officer_injury.rvmat"};
 
 		};
+		*/
 	};
 
 	class SP_0000_Standard_BattleDressUniform_Black: CFP_Uniform
