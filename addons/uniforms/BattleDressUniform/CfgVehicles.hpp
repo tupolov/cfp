@@ -1,3 +1,5 @@
+	
+	/*  Stars n bars fix attempt,  wiping out insignias
 	class I_C_Soldier_Camo_F;
 	class CFP_Uniform : I_C_Soldier_Camo_F
 	{
@@ -11,7 +13,7 @@
 		attendant = "true";
 		uniformAccessories[] = {};
 		nakedUniform = "U_BasicBody";
-		model = "\x\cfp\addons\models\BattleDressUniform.p3d";
+		//model = "\x\cfp\addons\models\BattleDressUniform.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
@@ -27,7 +29,8 @@
 		
 	};
 	
-	/*   OLD Definition
+	*/
+	
 	class CFP_Uniform : B_Soldier_base_F
 	{
 		scope = 1;
@@ -56,7 +59,6 @@
 		};
 		
 	};
-	*/
 
 	class SP_0000_Standard_BattleDressUniform_Black: CFP_Uniform
 	{
