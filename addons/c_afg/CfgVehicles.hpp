@@ -221,7 +221,7 @@ class CfgVehicles {
         "CUP_V_OI_TKI_Jacket5_06", 0.2,
         "CUP_V_OI_TKI_Jacket6_04", 0.2,
         "CUP_V_OI_TKI_Jacket6_05", 0.2,
-        "CUP_V_OI_TKI_Jacket6_06", 0.2,
+        "CUP_V_OI_TKI_Jacket6_06", 0.2
             };
 
         // Afghan Facewear

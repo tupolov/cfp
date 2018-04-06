@@ -523,7 +523,7 @@ class CfgVehicles {
 		facewearList[] = {
 	"G_Balaclava_oli", 0.33,
 	"SP_Balaclava_Black", 0.33,
-	"SP_Balaclava_USWoodland", 0.33,
+	"SP_Balaclava_USWoodland", 0.33
 		};
 
     // Militia Vests
