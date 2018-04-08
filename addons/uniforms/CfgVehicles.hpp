@@ -11,5 +11,5 @@ class CfgVehicles {
 	#include "WorkUniform\CfgVehicles.hpp"
 	#include "TacticalUniform\CfgVehicles.hpp"
 	#include "Underwear\CfgVehicles.hpp"
-
+	#include "VDVUniform\CfgVehicles.hpp"
 };

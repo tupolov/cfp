@@ -244,7 +244,13 @@ class CfgPatches
 			"CFP_BattleDressUniform_marpatugandadark",
 			"CFP_BattleDressUniform_marpatugandalight",
 			"CFP_FieldUniform_marpatugandalight",
-			"CFP_FieldUniform_marpatugandadark"
+			"CFP_FieldUniform_marpatugandadark",
+			"CFP_VDVBDU_M81dark",
+			"CFP_VDVBDU_M81light",
+			"CFP_VDVBDU_IranDPM",
+			"CFP_VDVBDU_IranSFDigital",
+			"CFP_VDVBDU_PolygonDesertlight",
+			"CFP_VDVBDU_OCPACU"
 		};
 		weapons[] = {
 			"cfp_u_battledressuniform_3colordesert",
@@ -498,7 +504,13 @@ class CfgPatches
 			"sp_0000_standard_workuniform_atacsfg",
 			"sp_0000_standard_workuniform_hunter",
 			"sp_0000_standard_workuniform_hunter2",
-			"sp_0000_standard_workuniform_nodurban"
+			"sp_0000_standard_workuniform_nodurban",
+			"CFP_U_VDVBDU_M81dark",
+			"CFP_U_VDVBDU_M81light",
+			"CFP_U_VDVBDU_IranDPM",
+			"CFP_U_VDVBDU_IranSFDigital",
+			"CFP_U_VDVBDU_PolygonDesertlight",
+			"CFP_U_VDVBDU_OCPACU"
 		};
         author = MODULE_AUTHOR;
         authors[] = {"SP Craig", "Tupolov","AuburnAlumni"};
