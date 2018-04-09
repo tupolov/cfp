@@ -250,7 +250,8 @@ class CfgPatches
 			"CFP_VDVBDU_IranDPM",
 			"CFP_VDVBDU_IranSFDigital",
 			"CFP_VDVBDU_PolygonDesertlight",
-			"CFP_VDVBDU_OCPACU"
+			"CFP_VDVBDU_OCPACU",
+			"CFP_VDVBDU_Marpat"
 		};
 		weapons[] = {
 			"cfp_u_battledressuniform_3colordesert",
@@ -510,7 +511,8 @@ class CfgPatches
 			"CFP_U_VDVBDU_IranDPM",
 			"CFP_U_VDVBDU_IranSFDigital",
 			"CFP_U_VDVBDU_PolygonDesertlight",
-			"CFP_U_VDVBDU_OCPACU"
+			"CFP_U_VDVBDU_OCPACU",
+			"CFP_U_VDVBDU_Marpat"
 		};
         author = MODULE_AUTHOR;
         authors[] = {"SP Craig", "Tupolov","AuburnAlumni"};

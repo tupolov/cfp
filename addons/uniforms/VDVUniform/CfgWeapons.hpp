@@ -100,3 +100,20 @@
 		};
 	};
 
+	class CFP_U_VDVBDU_Marpat: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "VDV BDU (Marpat)";
+		author = "AuburnAlumni";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\x\cfp\addons\models\Modern_russian_soldier2.p3d";
+			uniformClass = "CFP_VDVBDU_Marpat";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+
