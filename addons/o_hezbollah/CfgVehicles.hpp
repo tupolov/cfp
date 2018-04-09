@@ -1196,6 +1196,27 @@ class CfgVehicles {
         ALiVE_orbatCreator_insignia = "CFP_INSIGNIA_HEZBOLLAH2";
 
     };
+	
+	class FlagChecked_F;
+    class FlagChecked_F_OCimport_01 : FlagChecked_F { scope = 0; class Eventhandlers; };
+    class Hezbollah_Flag_1 : FlagChecked_F_OCimport_01
+    {
+        _generalMacro = "FlagCarrier";
+        faction = "CFP_O_HEZBOLLAH";
+        vehicleClass = "Afghan_Flags";
+        scope = 2;
+        side = 4;
+        accuracy = 1000;
+        displayName = "Flag Hezbollah";
+        armor = 1;
+        class EventHandlers : EventHandlers
+        {
+            class ADDON
+            {
+                init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Hezbollah\cfp_flag_hezbollah.paa""";
+            };
+        };
+    };
 
     class CFP_O_HEZBOLLAH_Ural_ZU_23_01 : CUP_O_Ural_ZU23_SLA_OCimport_02 {
         author = "Drew";
@@ -1292,6 +1313,46 @@ class CfgVehicles {
         ALiVE_orbatCreator_owned = 1;
 
     };
+	
+	 class CFP_O_HEZBOLLAH_Offroad_flag_01 : CFP_O_HEZBOLLAH_Offroad_01 
+	{
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Offroad (Flag)";
+        side = 0;
+        faction = "CFP_O_HEZBOLLAH";
+        crew = "CFP_O_HEZBOLLAH_Militia_Rifleman_01";
+
+        class Turrets : Turrets {
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
+            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers 
+		{
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+			
+			class ADDON
+			{
+				init = "(_this select 0) execVM ""\x\cfp\addons\o_hezbollah\Scripts\AttachFlag.sqf""";
+				killed = "(_this select 0) execVM ""\x\cfp\addons\o_hezbollah\Scripts\onkilled.sqf""";
+			};
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
 
     class CFP_O_HEZBOLLAH_Offroad_Armed_01 : O_G_Offroad_01_armed_F_OCimport_02 {
         author = "Drew";
@@ -1316,6 +1377,45 @@ class CfgVehicles {
             };
 
         };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+	
+	class CFP_O_HEZBOLLAH_Offroad_Armed_flag_01 : O_G_Offroad_01_armed_F_OCimport_02 
+	{
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Offroad [Armed] (Flag)";
+        side = 0;
+        faction = "CFP_O_HEZBOLLAH";
+        crew = "CFP_O_HEZBOLLAH_Militia_Rifleman_01";
+
+        class Turrets : Turrets {
+            class M2_Turret : M2_Turret { gunnerType = "CFP_O_HEZBOLLAH_Militia_Rifleman_01"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers 
+		{
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+			
+			class ADDON
+			{
+				init = "(_this select 0) execVM ""\x\cfp\addons\o_hezbollah\Scripts\AttachFlag.sqf""";
+				killed = "(_this select 0) execVM ""\x\cfp\addons\o_hezbollah\Scripts\onkilled.sqf""";
+			};
+
+        };
+		
+		
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
