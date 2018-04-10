@@ -1423,6 +1423,63 @@ class CfgVehicles
         };
     };
 
+    class CUP_T810_Base: Car_F
+    {
+        class textureSources
+        {
+            class Green
+            {
+                displayname = "Green";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\T810\cabin_co_green.paa","\x\cfp\addons\vehicles\T810\bed2_co_green.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_T810\data\undercarriage_co.paa"};
+                factions[] = {};
+            };
+        };
+    };
+
+    class CUP_T810_Unarmed_Base;
+    class CUP_T810_Refuel_Base: CUP_T810_Unarmed_Base
+    {
+        class textureSources
+        {
+            class Green
+            {
+                displayname = "Green";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\T810\cabin_co_green.paa","\x\cfp\addons\vehicles\T810\t810_fueltank_co_green.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_T810\data\undercarriage_co.paa","\x\cfp\addons\vehicles\T810\t810_mlod_co_green.paa"};
+                factions[] = {};
+            };
+        };
+    };
+
+    class CUP_T810_Reammo_Base: CUP_T810_Unarmed_Base
+    {
+        class textureSources
+        {
+            class Green
+            {
+                displayname = "Green";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\T810\cabin_co_green.paa","\x\cfp\addons\vehicles\T810\bed2_co_green.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_T810\data\undercarriage_co.paa","\x\cfp\addons\vehicles\T810\t810_mlod_co_green.paa"};
+                factions[] = {};
+            };
+        };
+    };
+
+    class CUP_T810_Repair_Base: CUP_T810_Unarmed_Base
+    {
+        class textureSources
+        {
+            class Green
+            {
+                displayname = "Green";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\T810\cabin_co_green.paa","\x\cfp\addons\vehicles\T810\bed2_co_green.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_T810\data\undercarriage_co.paa","\x\cfp\addons\vehicles\T810\t810_mlod_co_green.paa"};
+                factions[] = {};
+            };
+        };
+    };
+
     // Crates
     class CUP_RUBasicAmmunitionBox; // CUP_RUBasicAmmunitionBox
     class CUP_RUBasicWeaponsBox; // CUP_RUBasicWeaponsBox
