@@ -23,9 +23,9 @@ class CfgPatches {
             "CFP_B_KEARMY_Squad_Leader_GSU_Recce_01",
             "CFP_B_KEARMY_Helicopter_Pilot_01",
             "CFP_B_KEARMY_Crew_01",
-            "CFP_B_KEARMY_UH_1H_01",
-            "CFP_B_KEARMY_MH_6M_Recon_01",
-            "CFP_B_KEARMY_MH_6M_MELB_01",
+            "CFP_B_KEARMY_MD_500_Defender_01",
+            "CFP_B_KEARMY_Landrover_M2_01",
+            "CFP_B_KEARMY_Harbin_ZB9_01",
             "CFP_B_KEARMY_HMMWV_Unarmed_01",
             "CFP_B_KEARMY_HMMWV_Transport_01",
             "CFP_B_KEARMY_M1151_M2_01",
@@ -35,19 +35,21 @@ class CfgPatches {
             "CFP_B_KEARMY_M1128_01",
             "CFP_B_KEARMY_M1126_01",
             "CFP_B_KEARMY_Landrover_Transport_01",
-            "CFP_B_KEARMY_Land_Rover_M2_01",
-            "CFP_B_KEARMY_MD_500_Defender_01",
-            "CFP_B_KEARMY_Harbin_ZB9_01",
-            "CFP_B_KEARMY_SA330_Puma_01"
+            "CFP_B_KEARMY_SA330_Puma_01",
+            "CFP_B_KEARMY_T72_01",
+            "CFP_B_KEARMY_Tatra_T810_Fuel_01",
+            "CFP_B_KEARMY_Tatra_T810_Ammo_01",
+            "CFP_B_KEARMY_Tatra_T810_Covered_01",
+            "CFP_B_KEARMY_Tatra_T810_Repair_01"
         };
         weapons[] = {};
         requiredVersion = 1.62;
         requiredAddons[] = {
+            "CFP_B_CZARMY_WDL",
+            "CUP_B_CZ",
             "CFP_B_AFARMY",
             "CFP_B_USMC_DES",
-            "A3_Air_F_Heli_Light_01",
-            "A3_Air_F_Heli_Light_02",
-            "CUP_AirVehciles_SA330"
+            "CUP_TrackedVehicles_T72"
         };
         author = "Drew";
         authors[] = {"Drew"};

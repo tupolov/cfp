@@ -17,50 +17,31 @@ class CfgVehicles {
     class O_recon_F_OCimport_01 : O_recon_F { scope = 0; class EventHandlers; };
     class O_recon_F_OCimport_02 : O_recon_F_OCimport_01 { class EventHandlers; };
 
-    class CUP_O_UH1H_SLA;
-    class CUP_O_UH1H_SLA_OCimport_01 : CUP_O_UH1H_SLA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_UH1H_SLA_OCimport_02 : CUP_O_UH1H_SLA_OCimport_01 {
+     class B_Heli_Light_01_dynamicLoadout_F;
+    class B_Heli_Light_01_dynamicLoadout_F_OCimport_01 : B_Heli_Light_01_dynamicLoadout_F { scope = 0; class EventHandlers; class Turrets; };
+    class B_Heli_Light_01_dynamicLoadout_F_OCimport_02 : B_Heli_Light_01_dynamicLoadout_F_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
+            class CopilotTurret;
+        };
+    };
+
+    class CUP_B_LR_MG_CZ_W;
+    class CUP_B_LR_MG_CZ_W_OCimport_01 : CUP_B_LR_MG_CZ_W { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_B_LR_MG_CZ_W_OCimport_02 : CUP_B_LR_MG_CZ_W_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class CargoTurret_01;
             class MainTurret;
-            class LeftDoorGun;
-            class CopilotTurret;
-            class CargoTurret_01;
-            class CargoTurret_02;
         };
     };
 
-    class CUP_B_MH6M_OBS_USA;
-    class CUP_B_MH6M_OBS_USA_OCimport_01 : CUP_B_MH6M_OBS_USA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_B_MH6M_OBS_USA_OCimport_02 : CUP_B_MH6M_OBS_USA_OCimport_01 {
+    class O_Heli_Light_02_dynamicLoadout_F;
+    class O_Heli_Light_02_dynamicLoadout_F_OCimport_01 : O_Heli_Light_02_dynamicLoadout_F { scope = 0; class EventHandlers; class Turrets; };
+    class O_Heli_Light_02_dynamicLoadout_F_OCimport_02 : O_Heli_Light_02_dynamicLoadout_F_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class CopilotTurret;
-            class CargoTurret_01;
-            class CargoTurret_02;
-            class CargoTurret_03;
-            class CargoTurret_04;
-            class CargoTurret_05;
-            class CargoTurret_06;
-            class CargoTurret_07;
-            class CargoTurret_08;
-        };
-    };
-
-    class CUP_B_MH6M_USA;
-    class CUP_B_MH6M_USA_OCimport_01 : CUP_B_MH6M_USA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_B_MH6M_USA_OCimport_02 : CUP_B_MH6M_USA_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class CopilotTurret;
-            class CargoTurret_01;
-            class CargoTurret_02;
-            class CargoTurret_03;
-            class CargoTurret_04;
-            class CargoTurret_05;
-            class CargoTurret_06;
-            class CargoTurret_07;
-            class CargoTurret_08;
         };
     };
 
@@ -128,37 +109,6 @@ class CfgVehicles {
         };
     };
 
-    class CUP_B_LR_Special_M2_GB_W;
-    class CUP_B_LR_Special_M2_GB_W_OCimport_01 : CUP_B_LR_Special_M2_GB_W { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_B_LR_Special_M2_GB_W_OCimport_02 : CUP_B_LR_Special_M2_GB_W_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class CargoTurret_01;
-            class CargoTurret_02;
-            class CargoTurret_03;
-            class PK_Turret;
-            class MainTurret;
-        };
-    };
-
-        class B_Heli_Light_01_dynamicLoadout_F;
-    class B_Heli_Light_01_dynamicLoadout_F_OCimport_01 : B_Heli_Light_01_dynamicLoadout_F { scope = 0; class EventHandlers; class Turrets; };
-    class B_Heli_Light_01_dynamicLoadout_F_OCimport_02 : B_Heli_Light_01_dynamicLoadout_F_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class CopilotTurret;
-        };
-    };
-
-    class O_Heli_Light_02_dynamicLoadout_F;
-    class O_Heli_Light_02_dynamicLoadout_F_OCimport_01 : O_Heli_Light_02_dynamicLoadout_F { scope = 0; class EventHandlers; class Turrets; };
-    class O_Heli_Light_02_dynamicLoadout_F_OCimport_02 : O_Heli_Light_02_dynamicLoadout_F_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class CopilotTurret;
-        };
-    };
-
     class CUP_I_SA330_Puma_HC2_RACS;
     class CUP_I_SA330_Puma_HC2_RACS_OCimport_01 : CUP_I_SA330_Puma_HC2_RACS { scope = 0; class EventHandlers; class Turrets; };
     class CUP_I_SA330_Puma_HC2_RACS_OCimport_02 : CUP_I_SA330_Puma_HC2_RACS_OCimport_01 {
@@ -169,6 +119,37 @@ class CfgVehicles {
             class CargoTurret_02;
         };
     };
+
+    class CUP_O_T72_SLA;
+    class CUP_O_T72_SLA_OCimport_01 : CUP_O_T72_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_T72_SLA_OCimport_02 : CUP_O_T72_SLA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+            class CargoTurret_01;
+            class CargoTurret_02;
+            class CargoTurret_03;
+            class CargoTurret_04;
+            class CargoTurret_05;
+            class CargoTurret_06;
+        };
+    };
+
+    class CUP_B_T810_Refuel_CZ_WDL;
+    class CUP_B_T810_Refuel_CZ_WDL_OCimport_01 : CUP_B_T810_Refuel_CZ_WDL { scope = 0; class EventHandlers; };
+    class CUP_B_T810_Refuel_CZ_WDL_OCimport_02 : CUP_B_T810_Refuel_CZ_WDL_OCimport_01 { scope = 0; class EventHandlers; };
+
+    class CUP_B_T810_Reammo_CZ_WDL;
+    class CUP_B_T810_Reammo_CZ_WDL_OCimport_01 : CUP_B_T810_Reammo_CZ_WDL { scope = 0; class EventHandlers; };
+    class CUP_B_T810_Reammo_CZ_WDL_OCimport_02 : CUP_B_T810_Reammo_CZ_WDL_OCimport_01 { scope = 0; class EventHandlers; };
+
+    class CUP_B_T810_Unarmed_CZ_WDL;
+    class CUP_B_T810_Unarmed_CZ_WDL_OCimport_01 : CUP_B_T810_Unarmed_CZ_WDL { scope = 0; class EventHandlers; };
+    class CUP_B_T810_Unarmed_CZ_WDL_OCimport_02 : CUP_B_T810_Unarmed_CZ_WDL_OCimport_01 { scope = 0; class EventHandlers; };
+
+    class CUP_B_T810_Repair_CZ_WDL;
+    class CUP_B_T810_Repair_CZ_WDL_OCimport_01 : CUP_B_T810_Repair_CZ_WDL { scope = 0; class EventHandlers; };
+    class CUP_B_T810_Repair_CZ_WDL_OCimport_02 : CUP_B_T810_Repair_CZ_WDL_OCimport_01 { scope = 0; class EventHandlers; };
 
 
 
@@ -698,21 +679,17 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_KEARMY_UH_1H_01 : CUP_O_UH1H_SLA_OCimport_02 {
+   class CFP_B_KEARMY_MD_500_Defender_01 : B_Heli_Light_01_dynamicLoadout_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
-        displayName = "UH-1H";
+        displayName = "MD 500 Defender";
         side = 1;
         faction = "CFP_B_KEARMY";
         crew = "CFP_B_KEARMY_Helicopter_Pilot_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_KEARMY_Helicopter_Pilot_01"; };
-            class LeftDoorGun : LeftDoorGun { gunnerType = "CFP_B_KEARMY_Helicopter_Pilot_01"; };
             class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_KEARMY_Helicopter_Pilot_01"; };
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
         };
 
 
@@ -721,35 +698,29 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\Hummingbird\Hummingbird_KDF.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "Kenya";
 
     };
 
-    class CFP_B_KEARMY_MH_6M_Recon_01 : CUP_B_MH6M_OBS_USA_OCimport_02 {
+    class CFP_B_KEARMY_Landrover_M2_01 : CUP_B_LR_MG_CZ_W_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
-        displayName = "MH-6M Recon";
+        displayName = "Landrover [M2]";
         side = 1;
         faction = "CFP_B_KEARMY";
-        crew = "CFP_B_KEARMY_Helicopter_Pilot_01";
+        crew = "CFP_B_KEARMY_Rifleman_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_KEARMY_Helicopter_Pilot_01"; };
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
-            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
-            class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
-            class CargoTurret_06 : CargoTurret_06 { gunnerType = ""; };
-            class CargoTurret_07 : CargoTurret_07 { gunnerType = ""; };
-            class CargoTurret_08 : CargoTurret_08 { gunnerType = ""; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = "CFP_B_KEARMY_Rifleman_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_KEARMY_Rifleman_01"; };
         };
 
 
@@ -758,36 +729,28 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'CUP\AirVehicles\CUP_AirVehicles_AH6\data\ah6_hull_ion_co.paa'];_unit setObjectTextureGlobal [1,'CUP\AirVehicles\CUP_AirVehicles_AH6\data\ah6_interior_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\LandRover\lr_base_baf_olive.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "ION";
+        ALiVE_orbatCreator_texture = "OLIVE";
 
     };
 
-    class CFP_B_KEARMY_MH_6M_MELB_01 : CUP_B_MH6M_USA_OCimport_02 {
+    class CFP_B_KEARMY_Harbin_ZB9_01 : O_Heli_Light_02_dynamicLoadout_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
-        displayName = "MH-6M MELB";
+        displayName = "Harbin ZB9 ";
         side = 1;
         faction = "CFP_B_KEARMY";
         crew = "CFP_B_KEARMY_Helicopter_Pilot_01";
 
         class Turrets : Turrets {
             class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_KEARMY_Helicopter_Pilot_01"; };
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
-            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
-            class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
-            class CargoTurret_06 : CargoTurret_06 { gunnerType = ""; };
-            class CargoTurret_07 : CargoTurret_07 { gunnerType = ""; };
-            class CargoTurret_08 : CargoTurret_08 { gunnerType = ""; };
         };
 
 
@@ -796,14 +759,14 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'CUP\AirVehicles\CUP_AirVehicles_AH6\data\ah6_hull_co.paa'];_unit setObjectTextureGlobal [1,'CUP\AirVehicles\CUP_AirVehicles_AH6\data\ah6_interior_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\Orca\Orca_KDF.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "Black";
+        ALiVE_orbatCreator_texture = "Kenya";
 
     };
 
@@ -1046,106 +1009,14 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\LandRover\lr_base_baf_olive.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class CFP_B_KEARMY_Land_Rover_M2_01 : CUP_B_LR_Special_M2_GB_W_OCimport_02 {
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Land Rover M2";
-        side = 1;
-        faction = "CFP_B_KEARMY";
-        crew = "CFP_B_KEARMY_Rifleman_01";
-
-        class Turrets : Turrets {
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
-            class PK_Turret : PK_Turret { gunnerType = "CFP_B_KEARMY_Rifleman_01"; };
-            class MainTurret : MainTurret { gunnerType = "CFP_B_KEARMY_Rifleman_01"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class CFP_B_KEARMY_MD_500_Defender_01 : B_Heli_Light_01_dynamicLoadout_F_OCimport_02 {
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "MD 500 Defender";
-        side = 1;
-        faction = "CFP_B_KEARMY";
-        crew = "CFP_B_KEARMY_Helicopter_Pilot_01";
-
-        class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_KEARMY_Helicopter_Pilot_01"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\Hummingbird\Hummingbird_KDF.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "Kenya";
-
-    };
-
-    class CFP_B_KEARMY_Harbin_ZB9_01 : O_Heli_Light_02_dynamicLoadout_F_OCimport_02 {
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Harbin ZB9 ";
-        side = 1;
-        faction = "CFP_B_KEARMY";
-        crew = "CFP_B_KEARMY_Helicopter_Pilot_01";
-
-        class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_KEARMY_Helicopter_Pilot_01"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\Orca\Orca_KDF.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "Kenya";
+        ALiVE_orbatCreator_texture = "OLIVE";
 
     };
 
@@ -1178,6 +1049,142 @@ class CfgVehicles {
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_texture = "Kenya";
+
+    };
+
+    class CFP_B_KEARMY_T72_01 : CUP_O_T72_SLA_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "T-72";
+        side = 1;
+        faction = "CFP_B_KEARMY";
+        crew = "CFP_B_KEARMY_Crew_01";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "CFP_B_KEARMY_Crew_01"; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
+            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
+            class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
+            class CargoTurret_06 : CargoTurret_06 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'cup\TrackedVehicles\CUP_TrackedVehicles_T72\data\textures\gue_T72_1_co.paa'];_unit setObjectTextureGlobal [1,'cup\TrackedVehicles\CUP_TrackedVehicles_T72\data\textures\gue_T72_2_co.paa'];_unit setObjectTextureGlobal [2,'cup\TrackedVehicles\CUP_TrackedVehicles_T72\data\textures\gue_T72_3_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "SLA";
+
+    };
+
+    class CFP_B_KEARMY_Tatra_T810_Fuel_01 : CUP_B_T810_Refuel_CZ_WDL_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Tatra T810 [Fuel]";
+        side = 1;
+        faction = "CFP_B_KEARMY";
+        crew = "CFP_B_KEARMY_Rifleman_01";
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\T810\cabin_co_green.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\T810\t810_fueltank_co_green.paa'];_unit setObjectTextureGlobal [2,'CUP\WheeledVehicles\CUP_WheeledVehicles_T810\data\undercarriage_co.paa'];_unit setObjectTextureGlobal [3,'\x\cfp\addons\vehicles\T810\t810_mlod_co_green.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "Green";
+
+    };
+
+    class CFP_B_KEARMY_Tatra_T810_Ammo_01 : CUP_B_T810_Reammo_CZ_WDL_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Tatra T810 [Ammo]";
+        side = 1;
+        faction = "CFP_B_KEARMY";
+        crew = "CFP_B_KEARMY_Rifleman_01";
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\T810\cabin_co_green.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\T810\bed2_co_green.paa'];_unit setObjectTextureGlobal [2,'CUP\WheeledVehicles\CUP_WheeledVehicles_T810\data\undercarriage_co.paa'];_unit setObjectTextureGlobal [3,'\x\cfp\addons\vehicles\T810\t810_mlod_co_green.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "Green";
+
+    };
+
+    class CFP_B_KEARMY_Tatra_T810_Covered_01 : CUP_B_T810_Unarmed_CZ_WDL_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Tatra T810 [Covered]";
+        side = 1;
+        faction = "CFP_B_KEARMY";
+        crew = "CFP_B_KEARMY_Rifleman_01";
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\T810\cabin_co_green.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\T810\bed2_co_green.paa'];_unit setObjectTextureGlobal [2,'CUP\WheeledVehicles\CUP_WheeledVehicles_T810\data\undercarriage_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "Green";
+
+    };
+
+    class CFP_B_KEARMY_Tatra_T810_Repair_01 : CUP_B_T810_Repair_CZ_WDL_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Tatra T810 [Repair]";
+        side = 1;
+        faction = "CFP_B_KEARMY";
+        crew = "CFP_B_KEARMY_Rifleman_01";
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\T810\cabin_co_green.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\T810\bed2_co_green.paa'];_unit setObjectTextureGlobal [2,'CUP\WheeledVehicles\CUP_WheeledVehicles_T810\data\undercarriage_co.paa'];_unit setObjectTextureGlobal [3,'\x\cfp\addons\vehicles\T810\t810_mlod_co_green.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "Green";
 
     };
 
