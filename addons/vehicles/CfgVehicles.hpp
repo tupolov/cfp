@@ -1160,6 +1160,13 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\LandRover\lr_base_baf_olive.paa"};
                 factions[] = {};
             };
+            class GREEN
+            {
+                displayName = "Green";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\LandRover\lr_base_baf_green.paa"};
+                factions[] = {};
+            };
             class ISIS
             {
                 displayName = "Standard ISIS";
@@ -1184,7 +1191,14 @@ class CfgVehicles
             {
                 displayName = "Olive";
                 author = "AuburnAlumni";
-                textures[] = {"\x\cfp\addons\vehicles\LandRover\lr_base_baf_olive.paa"};
+                textures[] = {"\x\cfp\addons\vehicles\LandRover\lr_base_baf_olive.paa","cup\wheeledvehicles\cup_wheeledvehicles_lr\data\lr_acr_spec_co.paa"};
+                factions[] = {};
+            };
+            class GREEN
+            {
+                displayName = "Green";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\LandRover\lr_base_baf_green.paa","\x\cfp\addons\vehicles\LandRover\lr_acr_spec_co_green.paa"};
                 factions[] = {};
             };
             class ISIS
@@ -1212,6 +1226,13 @@ class CfgVehicles
                 displayName = "Olive";
                 author = "AuburnAlumni";
                 textures[] = {"\x\cfp\addons\vehicles\LandRover\lr_base_baf_olive.paa"};
+                factions[] = {};
+            };
+            class GREEN
+            {
+                displayName = "Green";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\LandRover\lr_base_baf_green.paa"};
                 factions[] = {};
             };
             class ISIS
