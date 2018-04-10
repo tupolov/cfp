@@ -22,4 +22,5 @@ class CfgWeapons {
     #include "Smersh\CfgWeapons.hpp"
     #include "TakJacket\CfgWeapons.hpp"
     #include "UtilityJacket\CfgWeapons.hpp"
+    #include "IOTV\CfgWeapons.hpp"
 };

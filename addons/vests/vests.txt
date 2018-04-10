@@ -13,4 +13,10 @@ OpforMolle1
 OpforRig1
 PlateCarrier1
 Tactical1
+AK_Vest
+OspreyMk2
+Smersh
+TakJacket
+UtilityJacket
+IOTV
 vests.txt

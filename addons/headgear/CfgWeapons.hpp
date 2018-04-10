@@ -52,4 +52,5 @@ class CfgWeapons {
     #include "ZSH1Helmet\CfgWeapons.hpp"
     #include "LungeeOpen\CfgWeapons.hpp"
     #include "Lungee\CfgWeapons.hpp"
+    #include "Mich2000\CfgWeapons.hpp"
 };

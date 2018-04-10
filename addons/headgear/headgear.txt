@@ -30,3 +30,6 @@ SSh68Helmet
 SSh68NetHelmet
 TSH04Helmet
 ZSH1Helmet
+Mich2000
+LungeeOpen
+Lungee

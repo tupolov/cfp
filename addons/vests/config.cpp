@@ -119,7 +119,8 @@ class CfgPatches
 			"CFP_TakJacket_Marpat",
 			"CFP_TakJacket_M81",
 			"CFP_TakJacket_EDRL",
-			"CFP_TakJacket_ChocChip"
+			"CFP_TakJacket_ChocChip",
+			"CFP_IOTV_Rifleman"
 		};
         author = MODULE_AUTHOR;
         authors[] = {"SP Craig", "Tupolov", "AuburnAlumni"};

@@ -344,7 +344,8 @@ class CfgPatches
 			"cfp_pasgthelmet_chocchip1",
 			"cfp_pasgthelmet_chocchip2",
 			"cfp_pasgthelmet_edrl1",
-			"cfp_pasgthelmet_edrl2"
+			"cfp_pasgthelmet_edrl2",
+			"CFP_Mich2000_USArmy"
 		};
         author = MODULE_AUTHOR;
         authors[] = {"SP Craig", "Tupolov","AuburnAlumni","VanSchmoozin"};

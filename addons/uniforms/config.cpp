@@ -251,6 +251,7 @@ class CfgPatches
 			"CFP_VDVBDU_IranSFDigital",
 			"CFP_VDVBDU_PolygonDesertlight",
 			"CFP_VDVBDU_OCPACU",
+			"CFP_VDVBDU_ACU",
 			"CFP_VDVBDU_Marpat"
 		};
 		weapons[] = {
@@ -512,6 +513,7 @@ class CfgPatches
 			"CFP_U_VDVBDU_IranSFDigital",
 			"CFP_U_VDVBDU_PolygonDesertlight",
 			"CFP_U_VDVBDU_OCPACU",
+			"CFP_U_VDVBDU_ACU",
 			"CFP_U_VDVBDU_Marpat"
 		};
         author = MODULE_AUTHOR;
