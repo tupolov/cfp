@@ -100,6 +100,8 @@ class CfgPatches
 			"CFP_BoonieHat_PolygonWoodland",
 			"CFP_BoonieHat_M81",
 			"CFP_BoonieHat_ACRDesert",
+			"CFP_BoonieHat_MarpatDesert",
+			"CFP_BoonieHat_Marpat",
 			"SP_CVCHelmet_Black",
 			"SP_CVCHelmet_Green",
 			"SP_CVCHelmet_Tan",

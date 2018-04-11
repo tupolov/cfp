@@ -71,7 +71,7 @@ class CfgVehicles
         hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\data\ATacsFG.paa"};
         author = "SP Craig";
     };
-	class Carryall_ATacsAU: B_Carryall_oucamo
+	class SP_Carryall_ATacsAU: B_Carryall_oucamo
     {
         picture = "\x\cfp\addons\backpacks\data\ui\icon_Carryall_ATacsAU.paa";
         scope = 2;
@@ -90,6 +90,16 @@ class CfgVehicles
         // picture = "\x\cfp\addons\backpacks\data\NodUrban.jpg";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\data\NodUrban.paa"};
         author = "SP Craig";
+    };
+    class CFP_Carryall_DPMWoodland: B_Carryall_oucamo
+    {
+        picture = "\x\cfp\addons\backpacks\data\ui\icon_SP_Carryall_NodUrban.paa";
+        scope = 2;
+        maximumLoad = 300;
+        displayName = "Carryall (DPM Woodland)"
+        // picture = "\x\cfp\addons\backpacks\data\NodUrban.jpg";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Carryall\tortila_dpmwoodland.paa"};
+        author = "AuburnAlumni";
     };
     class SP_Camelbak_Black: B_Carryall_oucamo
     {
@@ -214,6 +224,17 @@ class CfgVehicles
         hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Fast\backpack_fast_marpat.paa"};
         author = "AuburnAlumni";
     };
+    class CFP_Kitbag_MarpatDesert: B_Kitbag_Base
+    {
+        picture = "\x\cfp\addons\backpacks\data\ui\icon_CFP_Kitbag_Marpat.paa";
+        scope = 2;
+        maximumLoad = 280;
+        displayName = "Kitbag (Marpat Desert)";
+        model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast.p3d";
+        // picture = "\A3\Weapons_F\ammoboxes\bags\data\ui\icon_B_C_Kitbag_rgr";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Fast\backpack_fast_marpatdesert.paa"};
+        author = "AuburnAlumni";
+    };
     class CFP_Kitbag_PolygonDesert: B_Kitbag_Base
     {
         picture = "\x\cfp\addons\backpacks\data\ui\icon_CFP_Kitbag_PolygonDesert.paa";
@@ -270,6 +291,17 @@ class CfgVehicles
         hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Compact\backpack_compact_marpat.paa"};
         author = "AuburnAlumni";
     };
+    class CFP_AssaultPack_MarpatDesert: B_AssaultPack_Base
+    {
+        picture = "\x\cfp\addons\backpacks\data\ui\icon_CFP_AssaultPack_Marpat.paa";
+        scope = 2;
+        maximumLoad = 160;
+        displayName = "Assault Pack (Marpat Desert)";
+        model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Compact";
+        // picture = "\A3\Weapons_F\Ammoboxes\Bags\data\UI\icon_B_AssaultPack_khk_ca.paa";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Compact\backpack_compact_marpatdesert.paa"};
+        author = "AuburnAlumni";
+    };
     class CFP_AssaultPack_PolygonDesert: B_AssaultPack_Base
     {
         picture = "\x\cfp\addons\backpacks\data\ui\icon_CFP_AssaultPack_PolygonDesert.paa";
@@ -301,18 +333,6 @@ class CfgVehicles
         model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Compact";
         // picture = "\A3\Weapons_F\Ammoboxes\Bags\data\UI\icon_B_AssaultPack_khk_ca.paa";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Compact\backpack_compact_woodland.paa"};
-        author = "AuburnAlumni";
-    };
-    class B_TacticalPack_Base;
-    class CFP_TacticalPack_DPMWoodland: B_TacticalPack_Base
-    {
-        picture = "\x\cfp\addons\backpacks\data\ui\icon_CFP_TacticalPack_DPMWoodland.paa";
-        scope = 2;
-        maximumLoad = 240;
-        displayName = "Tactical Pack (DPM Woodland)";
-        model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Small";
-        // picture = "\A3\weapons_f\ammoboxes\bags\data\ui\icon_B_C_Small_blk.paa";
-        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Tactical\tortila_dpmwoodland.paa"};
         author = "AuburnAlumni";
     };
 };
