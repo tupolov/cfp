@@ -40,19 +40,34 @@ class CfgPatches {
             "CFP_B_KEARMY_Tatra_T810_Fuel_01",
             "CFP_B_KEARMY_Tatra_T810_Ammo_01",
             "CFP_B_KEARMY_Tatra_T810_Covered_01",
-            "CFP_B_KEARMY_Tatra_T810_Repair_01"
+            "CFP_B_KEARMY_Tatra_T810_Repair_01",
+            "CFP_B_KEARMY_Engineer_01",
+            "CFP_B_KEARMY_Gunner_M2_01",
+            "CFP_B_KEARMY_Gunner_Mortar_01",
+            "CFP_B_KEARMY_Gunner_TOW_01",
+            "CFP_B_KEARMY_Asst_Gunner_M2_01",
+            "CFP_B_KEARMY_Asst_Gunner_Mortar_01",
+            "CFP_B_KEARMY_Asst_Gunner_TOW_01",
+            "CFP_B_KEARMY_M2_Machine_Gun_01",
+            "CFP_B_KEARMY_M2_Minitripod_01",
+            "CFP_B_KEARMY_M252_81mm_Mortar_01",
+            "CFP_B_KEARMY_D30_AT_01",
+            "CFP_B_KEARMY_TOW_Tripod_01",
+            "CFP_B_KEARMY_ZU_23_01"
         };
         weapons[] = {};
         requiredVersion = 1.62;
         requiredAddons[] = {
-            "CFP_B_CZARMY_WDL",
-            "CUP_B_CZ",
             "CFP_B_AFARMY",
             "CFP_B_USMC_DES",
-            "CUP_TrackedVehicles_T72"
+            "CFP_O_HEZBOLLAH",
+            "CFP_B_NAARMY",
+            "CFP_B_USARMY_WDL",
+            "CUP_Weapons_StaticWeapons"
         };
         author = "Drew";
         authors[] = {"Drew"};
     };
 };
+
 

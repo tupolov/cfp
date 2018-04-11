@@ -8,8 +8,8 @@ class CfgFactionClasses {
     class CFP_O_BOKOHARAM {
         displayName = "Boko Haram";
         side = 0;
-        flag = "\A3\ui_f\data\map\markers\flags\CSAT_ca.paa";
-        icon = "\A3\ui_f\data\map\markers\flags\CSAT_ca.paa";
+        flag = "x\cfp\addons\flags\IslamicState\ISC_flag_IS.paa";
+        icon = "x\cfp\addons\flags\IslamicState\ISC_flag_IS.paa";
         priority = 0;
     };
 };

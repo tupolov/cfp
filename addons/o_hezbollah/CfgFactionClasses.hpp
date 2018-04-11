@@ -8,8 +8,8 @@ class CfgFactionClasses {
     class CFP_O_HEZBOLLAH {
         displayName = "Hezbollah";
         side = 0;
-        flag = "a3\data_f\Flags\flag_red_co";
-        icon = "a3\data_f\Flags\flag_red_co";
+        flag = "x\cfp\addons\flags\Hezbollah\cfp_flag_hezbollah.paa";
+        icon = "x\cfp\addons\flags\Hezbollah\cfp_flag_hezbollah.paa";
         priority = 0;
     };
 };

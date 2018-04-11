@@ -8,8 +8,8 @@ class CfgFactionClasses {
     class CFP_B_KEARMY {
         displayName = "Kenyan Defense Force";
         side = 1;
-        flag = "\A3\ui_f\data\map\markers\flags\nato_ca.paa";
-        icon = "\A3\ui_f\data\map\markers\flags\nato_ca.paa";
+        flag = "x\cfp\addons\flags\Kenya\Kenya.paa";
+        icon = "x\cfp\addons\flags\Kenya\Kenya.paa";
         priority = 0;
     };
 };
