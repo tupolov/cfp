@@ -12,13 +12,14 @@ if (isServer) then
 		(_class == "cfp_o_is_offroad_flag") or
 		(_class == "cfp_o_is_offroad_M2_flag")) then
 	{
-		_rnd1 = floor random 12;
+		_rnd1 = floor random 13;
 		_this setVariable ["BIS_randomSeed1", _rnd1, TRUE];
 
 		waitUntil {!(isNil {_this getVariable "BIS_randomSeed1"})};
 		_randomSeed1 = _this getVariable "BIS_randomSeed1";
 
 		_this setObjectTextureGlobal [0, [
+			"\x\cfp\addons\vehicles\offroad\offroad_muddy.paa",
 			"\x\cfp\addons\vehicles\offroad\offroad_isis_01.paa",
 			"\x\cfp\addons\vehicles\offroad\offroad_isis_01_dirty_1.paa",
 			"\x\cfp\addons\vehicles\offroad\offroad_isis_01_dirty_2.paa",
@@ -33,6 +34,7 @@ if (isServer) then
 			"\x\cfp\addons\vehicles\offroad\offroad_isis_04_dirty_2.paa"
 		] select _randomSeed1];
 		_this setObjectTextureGlobal [1, [
+			"\x\cfp\addons\vehicles\offroad\offroad_muddy.paa",
 			"\x\cfp\addons\vehicles\offroad\offroad_isis_01.paa",
 			"\x\cfp\addons\vehicles\offroad\offroad_isis_01_dirty_1.paa",
 			"\x\cfp\addons\vehicles\offroad\offroad_isis_01_dirty_2.paa",
