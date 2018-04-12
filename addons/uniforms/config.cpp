@@ -252,7 +252,11 @@ class CfgPatches
 			"CFP_VDVBDU_PolygonDesertlight",
 			"CFP_VDVBDU_OCPACU",
 			"CFP_VDVBDU_ACU",
-			"CFP_VDVBDU_Marpat"
+			"CFP_VDVBDU_Marpat",
+			"CFP_Crye_Multicam",
+			"CFP_Crye_Multicam2",
+			"CFP_Crye_Marpatd",
+			"CFP_Crye_M81"
 		};
 		weapons[] = {
 			"cfp_u_battledressuniform_3colordesert",
@@ -514,7 +518,11 @@ class CfgPatches
 			"CFP_U_VDVBDU_PolygonDesertlight",
 			"CFP_U_VDVBDU_OCPACU",
 			"CFP_U_VDVBDU_ACU",
-			"CFP_U_VDVBDU_Marpat"
+			"CFP_U_VDVBDU_Marpat",
+			"CFP_U_Crye_Multicam",
+			"CFP_U_Crye_Multicam2",
+			"CFP_U_Crye_Marpatd",
+			"CFP_U_Crye_M81"
 		};
         author = MODULE_AUTHOR;
         authors[] = {"SP Craig", "Tupolov","AuburnAlumni"};
