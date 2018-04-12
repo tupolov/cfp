@@ -89,8 +89,8 @@ class CfgPatches
 			"SP_0000_Standard_TacticalUniform_Green",
 			"SP_0000_Standard_TacticalUniform_Green_SS",
 			"SP_0000_Standard_TacticalUniform_Green_TS",
-			"SP_0000_Standard_TacticalUniform_Tan",
-			"SP_0000_Standard_TacticalUniform_Tan_SS",
+			"CFP_Crye_Tan",
+			"CFP_Crye_Tan_SS",
 			"SP_0000_Standard_TacticalUniform_Tan_TS",
 			"SP_0000_Standard_TacticalUniform_Grey",
 			"SP_0000_Standard_TacticalUniform_Grey_SS",
@@ -256,7 +256,8 @@ class CfgPatches
 			"CFP_Crye_Multicam",
 			"CFP_Crye_Multicam2",
 			"CFP_Crye_Marpatd",
-			"CFP_Crye_M81"
+			"CFP_Crye_M81",
+			"CFP_Crye_AOR1"
 		};
 		weapons[] = {
 			"cfp_u_battledressuniform_3colordesert",
@@ -487,8 +488,8 @@ class CfgPatches
 			"sp_0000_standard_tacticaluniform_nodurban",
 			"sp_0000_standard_tacticaluniform_nodurban_ss",
 			"sp_0000_standard_tacticaluniform_nodurban_ts",
-			"sp_0000_standard_tacticaluniform_tan",
-			"sp_0000_standard_tacticaluniform_tan_ss",
+			"CFP_U_Crye_Tan",
+			"CFP_U_Crye_Tan_SS",
 			"sp_0000_standard_tacticaluniform_tan_ts",
 			"sp_0000_standard_underwear_black",
 			"sp_0000_standard_underwear_bluedark",
@@ -522,7 +523,8 @@ class CfgPatches
 			"CFP_U_Crye_Multicam",
 			"CFP_U_Crye_Multicam2",
 			"CFP_U_Crye_Marpatd",
-			"CFP_U_Crye_M81"
+			"CFP_U_Crye_M81",
+			"CFP_U_Crye_AOR1"
 		};
         author = MODULE_AUTHOR;
         authors[] = {"SP Craig", "Tupolov","AuburnAlumni"};

@@ -114,38 +114,38 @@
 		};
 	};
 
-	class SP_0000_Standard_TacticalUniform_Tan: Uniform_Base
+	class CFP_U_Crye_Tan: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_TacticalUniform_Tan.paa";
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Tactical Uniform (Tan)";
+		displayName = "Crye Uniform (Tan)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\Tan.jpg";
-		author = "SP Craig";
+		author = "AuburnAlumni";
 
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "SP_0000_Standard_TacticalUniform_Tan";
+			uniformClass = "CFP_Crye_Tan";
 			containerClass="Supply60";
 			mass=80;
 
 		};
 	};
 
-	class SP_0000_Standard_TacticalUniform_Tan_SS: Uniform_Base
+	class CFP_U_Crye_Tan_SS: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_TacticalUniform_Tan_SS.paa";
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Tactical Uniform SS (Tan)";
+		displayName = "Crye Uniform SS (Tan)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\Tan.jpg";
-		author = "SP Craig";
+		author = "AuburnAlumni";
 
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "SP_0000_Standard_TacticalUniform_Tan_SS";
+			uniformClass = "CFP_Crye_Tan_SS";
 			containerClass="Supply60";
 			mass=80;
 
@@ -706,6 +706,25 @@
 		{
 			uniformModel = "-";
 			uniformClass = "CFP_Crye_Marpatd";
+			containerClass="Supply60";
+			mass=80;
+
+		};
+	};
+
+	class CFP_U_Crye_AOR1: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_TacticalUniform_NodUrban.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Crye Uniform (AOR1)";
+		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\NodUrban.jpg";
+		author = "AuburnAlumni";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_Crye_AOR1";
 			containerClass="Supply60";
 			mass=80;
 
