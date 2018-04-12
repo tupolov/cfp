@@ -680,6 +680,82 @@ class CfgVehicles
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_Offroad_MG_flag.jpg";
     };
+	
+	class B_G_Offroad_01_AT_F;
+	class B_G_Offroad_01_AT_F_OCimport_01 : B_G_Offroad_01_AT_F { scope = 0; class Eventhandlers; };
+    class cfp_o_is_offroad_AT : B_G_Offroad_01_AT_F_OCimport_01
+    {
+        scope = 2;
+        side = 0;
+        displayName = "IS Offroad AT";
+        faction = "CFP_O_IS";
+        vehicleClass = "CFP_o_is_MOTORIZED";
+        camouflage = 4;
+        crew = "cfp_o_is_crewman";
+        typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman"};
+        hiddenSelections[] = {"camo","camo2"};
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\offroad\offroad_isis_02.paa","\x\cfp\addons\vehicles\offroad\offroad_isis_02.paa"};
+        class EventHandlers : EventHandlers
+        {
+            class ADDON
+            {
+                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
+            };
+        };
+        editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_Offroad_AT.jpg";
+    };
+	
+	class I_C_Offroad_02_LMG_F;
+	class I_C_Offroad_02_LMG_F_OCimport_01 : I_C_Offroad_02_LMG_F { scope = 0; class Eventhandlers; };
+    class cfp_o_is_jeep_lmg : I_C_Offroad_02_LMG_F_OCimport_01
+    {
+        scope = 2;
+        side = 0;
+        displayName = "IS Jeep (LMG)";
+        faction = "CFP_O_IS";
+        vehicleClass = "CFP_o_is_MOTORIZED";
+        camouflage = 4;
+        crew = "cfp_o_is_crewman";
+        typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman"};
+		
+        hiddenSelections[] = {"camo","camo2","camo3","camo4"};
+        hiddenSelectionsTextures[] = {"\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_olive_co.paa","\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_olive_co.paa","\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_olive_co.paa","\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_olive_co.paa"};
+        class EventHandlers : EventHandlers
+        {
+            class ADDON
+            {
+                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
+            };
+        };
+        editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_Jeep_LMG.jpg";
+    };
+	
+	class I_C_Offroad_02_AT_F;
+	class I_C_Offroad_02_AT_F_OCimport_01 : I_C_Offroad_02_AT_F { scope = 0; class Eventhandlers; };
+    class cfp_o_is_jeep_at : I_C_Offroad_02_AT_F_OCimport_01
+    {
+        scope = 2;
+        side = 0;
+        displayName = "IS Jeep (AT)";
+        faction = "CFP_O_IS";
+        vehicleClass = "CFP_o_is_MOTORIZED";
+        camouflage = 4;
+        crew = "cfp_o_is_crewman";
+        typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman"};
+		
+        hiddenSelections[] = {"camo","camo2","camo3","camo4"};
+        hiddenSelectionsTextures[] = {"\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_olive_co.paa","\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_olive_co.paa","\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_olive_co.paa","\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_olive_co.paa"};
+        class EventHandlers : EventHandlers
+        {
+            class ADDON
+            {
+                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
+            };
+        };
+        editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_Jeep_AT.jpg";
+    };
+	
+	
     class CUP_I_Datsun_PK_TK_Random;
     class CUP_I_Datsun_PK_TK_Random_OCimport_01 : CUP_I_Datsun_PK_TK_Random { scope = 0; class EventHandlers; class Turrets; };
     class cfp_o_is_pickup_PK : CUP_I_Datsun_PK_TK_Random_OCimport_01

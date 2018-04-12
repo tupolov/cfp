@@ -8,11 +8,8 @@ if (isServer) then
 
 	if ((_class == "cfp_o_is_offroad") or
 		(_class == "cfp_o_is_offroad_M2") or
-		(_class == "cfp_o_is_offroad") or
-		(_class == "cfp_o_is_offroad_M2") or
+		(_class == "cfp_o_is_offroad_AT") or
 		(_class == "cfp_o_is_offroad_flag") or
-		(_class == "cfp_o_is_offroad_flag") or
-		(_class == "cfp_o_is_offroad_M2_flag") or
 		(_class == "cfp_o_is_offroad_M2_flag")) then
 	{
 		_rnd1 = floor random 12;
