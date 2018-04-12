@@ -630,8 +630,7 @@ class CfgVehicles
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_Offroad.jpg";
     };
 
-    class cfp_o_is_offroad_OCimport_01 : cfp_o_is_offroad { scope = 0; class Eventhandlers; };
-    class cfp_o_is_offroad_flag : cfp_o_is_offroad_OCimport_01
+    class cfp_o_is_offroad_flag : cfp_o_is_offroad
     {
         displayName = "IS Offroad (Flag)";
         class EventHandlers : EventHandlers
@@ -667,8 +666,7 @@ class CfgVehicles
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_Offroad_MG.jpg";
     };
 
-    class cfp_o_is_offroad_M2_OCimport_01 : cfp_o_is_offroad_M2 { scope = 0; class Eventhandlers; };
-    class cfp_o_is_offroad_M2_flag : cfp_o_is_offroad_M2_OCimport_01
+    class cfp_o_is_offroad_M2_flag : cfp_o_is_offroad_M2
     {
         displayName = "IS Offroad MG (Flag)";
         class EventHandlers : EventHandlers
@@ -719,7 +717,7 @@ class CfgVehicles
         typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman"};
 		
         hiddenSelections[] = {"camo","camo2","camo3","camo4"};
-        hiddenSelectionsTextures[] = {"\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_olive_co.paa","\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_olive_co.paa","\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_olive_co.paa","\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_olive_co.paa"};
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Jeep\offroad_02_ext_muddy.paa","\x\cfp\addons\vehicles\Jeep\offroad_02_ext_muddy.paa","\x\cfp\addons\vehicles\Jeep\offroad_02_int_muddy.paa","\x\cfp\addons\vehicles\Jeep\offroad_02_int_muddy.paa"};
         class EventHandlers : EventHandlers
         {
             class ADDON

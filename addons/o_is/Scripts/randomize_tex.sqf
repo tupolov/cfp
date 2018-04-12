@@ -47,6 +47,37 @@ if (isServer) then
 			"\x\cfp\addons\vehicles\offroad\offroad_isis_04_dirty_2.paa"
 		] select _randomSeed1];
 	};
+	
+	if ((_class == "cfp_o_is_jeep_lmg") or
+		(_class == "cfp_o_is_jeep_at")) then
+	{
+		_rnd1 = floor random 2;
+		_this setVariable ["BIS_randomSeed1", _rnd1, TRUE];
+
+		waitUntil {!(isNil {_this getVariable "BIS_randomSeed1"})};
+		_randomSeed1 = _this getVariable "BIS_randomSeed1";
+
+		_this setObjectTextureGlobal [0, [
+			"\x\cfp\addons\vehicles\Jeep\offroad_02_ext_muddy.paa",
+			"\x\cfp\addons\vehicles\Jeep\offroad_02_ext_muddy.paa"
+		] select _randomSeed1];
+		
+		_this setObjectTextureGlobal [1, [
+			"\x\cfp\addons\vehicles\Jeep\offroad_02_ext_muddy.paa",
+			"\x\cfp\addons\vehicles\Jeep\offroad_02_ext_muddy.paa"
+		] select _randomSeed1];
+		
+		_this setObjectTextureGlobal [2, [
+			"\x\cfp\addons\vehicles\Jeep\offroad_02_int_muddy.paa",
+			"\x\cfp\addons\vehicles\Jeep\offroad_02_int_muddy.paa"
+		] select _randomSeed1];
+		
+		_this setObjectTextureGlobal [3, [
+			"\x\cfp\addons\vehicles\Jeep\offroad_02_int_muddy.paa",
+			"\x\cfp\addons\vehicles\Jeep\offroad_02_int_muddy.paa"
+		] select _randomSeed1];
+	};
+	
 
 	// Datsun pickup
 
