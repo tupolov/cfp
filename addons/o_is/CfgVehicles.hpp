@@ -109,10 +109,10 @@ class CfgVehicles
         grenadeList[] = {{"CUP_HandGrenade_RGD5",2},1};
 
         rifleList[] = {
-            {"CUP_arifle_AKM",{"CUP_30Rnd_545x39_AK_M",6}}, 0.45,
-            {"CUP_arifle_AKS",{"CUP_30Rnd_545x39_AK_M",6}}, 0.2,
+            {"CUP_arifle_AKM",{"CUP_30Rnd_762x39_AK47_M",6}}, 0.45,
+            {"CUP_arifle_AKS",{"CUP_30Rnd_762x39_AK47_M",6}}, 0.2,
             {"CUP_arifle_AK74M",{"CUP_30Rnd_545x39_AK_M",6}}, 0.05,
-            {"CUP_arifle_AK47",{"CUP_30Rnd_545x39_AK_M",6}}, 0.05,
+            {"CUP_arifle_AK47",{"CUP_30Rnd_762x39_AK47_M",6}}, 0.05,
             {"CUP_arifle_Sa58P",{"CUP_30Rnd_Sa58_M",6}}, 0.05,
             {"CUP_arifle_M16A4_Base",{"CUP_30Rnd_556x45_Stanag",6}}, 0.05,
             {"CUP_arifle_M4A1",{"CUP_30Rnd_556x45_Stanag",6}}, 0.05,
@@ -170,7 +170,7 @@ class CfgVehicles
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
         Respawnmagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
         rifleList[] = {
-            {"CUP_arifle_AKS",{"CUP_30Rnd_545x39_AK_M",6}}, 0.6,
+            {"CUP_arifle_AKS",{"CUP_30Rnd_762x39_AK47_M",6}}, 0.6,
             {"CUP_arifle_AK74M",{"CUP_30Rnd_545x39_AK_M",6}}, 0.2,
             {"CUP_arifle_M4A1",{"CUP_30Rnd_556x45_Stanag",6}}, 0.1,
             {"CUP_arifle_G36K",{"CUP_30Rnd_556x45_G36",6}}, 0.1
@@ -400,8 +400,8 @@ class CfgVehicles
         magazines[] = {"CUP_PG7VL_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         Respawnmagazines[] = {"CUP_PG7VL_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         rifleList[] = {
-            {"CUP_arifle_AKS",{"CUP_30Rnd_545x39_AK_M",6}}, 0.6,
-            {"CUP_arifle_AKM",{"CUP_30Rnd_545x39_AK_M",6}}, 0.2,
+            {"CUP_arifle_AKS",{"CUP_30Rnd_762x39_AK47_M",6}}, 0.6,
+            {"CUP_arifle_AKM",{"CUP_30Rnd_762x39_AK47_M",6}}, 0.2,
             {"CUP_arifle_M16A4_Base",{"CUP_30Rnd_556x45_Stanag",6}}, 0.1
         };
         launcherList[] = {
@@ -427,8 +427,8 @@ class CfgVehicles
         magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         Respawnmagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         rifleList[] = {
-            {"CUP_arifle_AKS",{"CUP_30Rnd_545x39_AK_M",6}}, 0.6,
-            {"CUP_arifle_AKM",{"CUP_30Rnd_545x39_AK_M",6}}, 0.2,
+            {"CUP_arifle_AKS",{"CUP_30Rnd_762x39_AK47_M",6}}, 0.6,
+            {"CUP_arifle_AKM",{"CUP_30Rnd_762x39_AK47_M",6}}, 0.2,
             {"CUP_arifle_M4A1",{"CUP_30Rnd_556x45_Stanag",6}}, 0.1
         };
     };
@@ -477,8 +477,8 @@ class CfgVehicles
         magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         Respawnmagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         rifleList[] = {
-            {"CUP_arifle_AKS",{"CUP_30Rnd_545x39_AK_M",6}}, 0.6,
-            {"CUP_arifle_AKM",{"CUP_30Rnd_545x39_AK_M",6}}, 0.2,
+            {"CUP_arifle_AKS",{"CUP_30Rnd_762x39_AK47_M",6}}, 0.6,
+            {"CUP_arifle_AKM",{"CUP_30Rnd_762x39_AK47_M",6}}, 0.2,
             {"SMG_05_F",{"30Rnd_9x21_Mag_SMG_02",6}}, 0.1
         };
     };
