@@ -788,3 +788,41 @@
 
 		};
 	};
+
+	class CFP_U_Crye_AOR2: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_TacticalUniform_NodUrban.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Crye Uniform (AOR2)";
+		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\NodUrban.jpg";
+		author = "AuburnAlumni";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_Crye_AOR2";
+			containerClass="Supply60";
+			mass=80;
+
+		};
+	};
+
+	class CFP_U_Crye_AOR2_SS: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_TacticalUniform_NodUrban_SS.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Crye Uniform SS (AOR2)";
+		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\NodUrban.jpg";
+		author = "AuburnAlumni";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_Crye_AOR2_SS";
+			containerClass="Supply60";
+			mass=80;
+
+		};
+	};

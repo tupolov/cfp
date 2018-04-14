@@ -260,7 +260,9 @@ class CfgPatches
 			"CFP_Crye_M81",
 			"CFP_Crye_M81_SS",
 			"CFP_Crye_AOR1",
-			"CFP_Crye_AOR1_SS"
+			"CFP_Crye_AOR1_SS",
+			"CFP_Crye_AOR2",
+			"CFP_Crye_AOR2_SS"
 		};
 		weapons[] = {
 			"cfp_u_battledressuniform_3colordesert",
@@ -530,7 +532,9 @@ class CfgPatches
 			"CFP_U_Crye_M81",
 			"CFP_U_Crye_M81_SS",
 			"CFP_U_Crye_AOR1",
-			"CFP_U_Crye_AOR1_SS"
+			"CFP_U_Crye_AOR1_SS",
+			"CFP_U_Crye_AOR2",
+			"CFP_U_Crye_AOR2_SS"
 		};
         author = MODULE_AUTHOR;
         authors[] = {"SP Craig", "Tupolov","AuburnAlumni"};

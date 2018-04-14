@@ -134,7 +134,122 @@
 			passThrough = 0.5;
 			HITPOINTS_HEAD(6,0.5)
 			hiddenSelections[] = {"camo","camo1","camo2"};
-			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_olivefabric.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_olivefabric.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_green.paa"};
+
+		};
+	};
+
+	class CFP_OPS2017_Helmet_Grey: VSM_OPS2017_Helmet_Tan
+	{
+		displayName = "OPSCORE 2017 (Grey)";
+		// picture = "\x\cfp\addons\headgear\MichHelmet\ui\Tan1.jpg";
+		hiddenSelections[] = {"camo","camo1","camo2"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_grey.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
+		author = "AuburnAlumni";
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 15;
+			allowedSlots[] = {901,605};
+			uniformmodel = "\x\cfp\addons\models\VSM_OPS2017";
+			modelSides[] = {6};
+			armor = 6;
+			passThrough = 0.5;
+			HITPOINTS_HEAD(6,0.5)
+			hiddenSelections[] = {"camo","camo1","camo2"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_grey.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
+
+		};
+	};
+
+	class CFP_OPS2017_Helmet_Black2: VSM_OPS2017_Helmet_Tan
+	{
+		displayName = "OPSCORE 2017 (Black 2)";
+		// picture = "\x\cfp\addons\headgear\MichHelmet\ui\Tan1.jpg";
+		hiddenSelections[] = {"camo","camo1","camo2"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_black2.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110tblack.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_black.paa"};
+		author = "AuburnAlumni";
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 15;
+			allowedSlots[] = {901,605};
+			uniformmodel = "\x\cfp\addons\models\VSM_OPS2017";
+			modelSides[] = {6};
+			armor = 6;
+			passThrough = 0.5;
+			HITPOINTS_HEAD(6,0.5)
+			hiddenSelections[] = {"camo","camo1","camo2"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_black2.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110tblack.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_black.paa"};
+
+		};
+	};
+
+	class CFP_OPS2017_Helmet_Multicam2: VSM_OPS2017_Helmet_Tan
+	{
+		displayName = "OPSCORE 2017 (Multicam 2)";
+		// picture = "\x\cfp\addons\headgear\MichHelmet\ui\Tan1.jpg";
+		hiddenSelections[] = {"camo","camo1","camo2"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_multicam2.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
+		author = "AuburnAlumni";
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 15;
+			allowedSlots[] = {901,605};
+			uniformmodel = "\x\cfp\addons\models\VSM_OPS2017";
+			modelSides[] = {6};
+			armor = 6;
+			passThrough = 0.5;
+			HITPOINTS_HEAD(6,0.5)
+			hiddenSelections[] = {"camo","camo1","camo2"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_multicam2.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
+
+		};
+	};
+
+	class CFP_OPS2017_Helmet_AOR2: VSM_OPS2017_Helmet_Tan
+	{
+		displayName = "OPSCORE 2017 (AOR2)";
+		// picture = "\x\cfp\addons\headgear\MichHelmet\ui\Tan1.jpg";
+		hiddenSelections[] = {"camo","camo1","camo2"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_aor2.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_green.paa"};
+		author = "AuburnAlumni";
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 15;
+			allowedSlots[] = {901,605};
+			uniformmodel = "\x\cfp\addons\models\VSM_OPS2017";
+			modelSides[] = {6};
+			armor = 6;
+			passThrough = 0.5;
+			HITPOINTS_HEAD(6,0.5)
+			hiddenSelections[] = {"camo","camo1","camo2"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_aor2.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_green.paa"};
+
+		};
+	};
+
+	class CFP_OPS2017_Helmet_AOR1: VSM_OPS2017_Helmet_Tan
+	{
+		displayName = "OPSCORE 2017 (AOR1)";
+		// picture = "\x\cfp\addons\headgear\MichHelmet\ui\Tan1.jpg";
+		hiddenSelections[] = {"camo","camo1","camo2"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_aor1.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
+		author = "AuburnAlumni";
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 15;
+			allowedSlots[] = {901,605};
+			uniformmodel = "\x\cfp\addons\models\VSM_OPS2017";
+			modelSides[] = {6};
+			armor = 6;
+			passThrough = 0.5;
+			HITPOINTS_HEAD(6,0.5)
+			hiddenSelections[] = {"camo","camo1","camo2"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_aor1.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
 
 		};
 	};
