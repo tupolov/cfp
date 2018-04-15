@@ -604,6 +604,9 @@ class CfgGroups {
                         vehicle = "CUP_B_USMC_Gunner_TOW_WDL_01";
                     };
                 };
+
+                delete CUP_B_USMC_FRTeam_Desert;
+                delete CUP_B_USMC_FRTeam_Razor_Desert;
             };
 
             delete Infantry_FROG_DES;
