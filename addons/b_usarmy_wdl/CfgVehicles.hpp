@@ -2951,9 +2951,9 @@ class CfgVehicles {
             "VSM_MICH2017_Helmet_Tan", 0.2,
             "VSM_OPS2017_Helmet_Tan", 0.2,
             "CFP_OPS2017_Helmet_Multicam", 0.2,
-            "CFP_OPS2017_Helmet_M81", 0.2,
-            "CFP_OPS2017_Helmet_Black", 0.2,
-            "CFP_OPS2017_Helmet_OliveFabric", 0.2
+            "CFP_OPS2017_Helmet_OliveFabric", 0.2,
+            "CFP_OPS2017_Helmet_Multicam2", 0.2,
+            "CFP_OPS2017_Helmet_Grey", 0.2
         };
 
         // FACEWEAR

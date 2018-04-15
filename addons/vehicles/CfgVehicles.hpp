@@ -1469,6 +1469,13 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Mi24\mi24_nigeria.paa","\x\cfp\addons\vehicles\Mi24\mi24_nigeria2.paa"};
                 factions[] = {};
             };
+            class Uganda
+            {
+                displayname = "Ugandan Camo";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Mi24\mi24_uganda1.paa","\x\cfp\addons\vehicles\Mi24\mi24_uganda2.paa"};
+                factions[] = {};
+            };
         };
     };
 
@@ -1481,6 +1488,20 @@ class CfgVehicles
                 displayname = "Nigerian Camo";
                 author = "AuburnAlumni";
                 textures[] = {"\x\cfp\addons\vehicles\Mi8\mi17_body_nigeria.paa","\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\mi17_det_IND_CO.paa"};
+                factions[] = {};
+            };
+             class Tan
+            {
+                displayname = "Tan";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Mi8\mi17_tan.paa","\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\mi17_det_IND_CO.paa"};
+                factions[] = {};
+            };
+            class Uganda
+            {
+                displayname = "Ugandan Camo";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Mi8\mi17_uganda.paa","\x\cfp\addons\vehicles\Mi8\mi17_det_uganda.paa"};
                 factions[] = {};
             };
         };
