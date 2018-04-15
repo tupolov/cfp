@@ -178,6 +178,20 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Offroad\offroad_muddy.paa","A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa"};
                 factions[] = {};
     	    };
+            class PolygonWooodland
+            {
+                displayName = "Polygon Woodland";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Offroad\PolygonWoodland.paa","A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa"};
+                factions[] = {};
+            };
+            class PolygonDesert
+            {
+                displayName = "Polygon Desert";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Offroad\PolygonDesert.paa","A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa"};
+                factions[] = {};
+            };
         };
     };
 
@@ -353,6 +367,20 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Offroad\offroad_muddy.paa","A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa"};
                 factions[] = {};
     	    };
+            class PolygonWooodland
+            {
+                displayName = "Polygon Woodland";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Offroad\PolygonWoodland.paa","A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa"};
+                factions[] = {};
+            };
+            class PolygonDesert
+            {
+                displayName = "Polygon Desert";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Offroad\PolygonDesert.paa","A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa"};
+                factions[] = {};
+            };
         };
     };
 
@@ -528,6 +556,20 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Offroad\offroad_muddy.paa","A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa"};
                 factions[] = {};
     	    };
+            class PolygonWooodland
+            {
+                displayName = "Polygon Woodland";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Offroad\PolygonWoodland.paa","A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa"};
+                factions[] = {};
+            };
+            class PolygonDesert
+            {
+                displayName = "Polygon Desert";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Offroad\PolygonDesert.paa","A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa"};
+                factions[] = {};
+            };
         };
     };
 
