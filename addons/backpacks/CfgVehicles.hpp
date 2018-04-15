@@ -96,7 +96,7 @@ class CfgVehicles
         picture = "\x\cfp\addons\backpacks\data\ui\icon_SP_Carryall_NodUrban.paa";
         scope = 2;
         maximumLoad = 300;
-        displayName = "Carryall (DPM Woodland)"
+        displayName = "Carryall (DPM Woodland)";
         // picture = "\x\cfp\addons\backpacks\data\NodUrban.jpg";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Carryall\tortila_dpmwoodland.paa"};
         author = "AuburnAlumni";
