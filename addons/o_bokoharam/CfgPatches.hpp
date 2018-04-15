@@ -29,18 +29,21 @@ class CfgPatches {
             "CFP_O_BH_SPG_9_01",
             "CFP_O_BH_Podnos_2B14_01",
             "CFP_O_BH_D30_AT_01",
-            "CFP_O_BH_ZU_23_01"
+            "CFP_O_BH_ZU_23_01",
+            "CFP_O_BH_Offroad_AT_01"
         };
         weapons[] = {};
-        requiredVersion = REQUIRED_VERSION;
+        requiredVersion = 1.62;
         requiredAddons[] = {
             "A3_Soft_F_Offroad_01",
             "CUP_WheeledVehicles_Datsun",
             "CUP_WheeledVehicles_LR",
             "CUP_WheeledVehicles_HMMWV",
-            "CUP_WheeledVehicles_Ural"
+            "CUP_WheeledVehicles_Ural",
+            "A3_Soft_F_Offroad_01"
         };
         author = "Drew";
         authors[] = {"Drew"};
     };
 };
+

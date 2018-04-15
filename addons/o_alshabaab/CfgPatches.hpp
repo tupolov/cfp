@@ -31,10 +31,11 @@ class CfgPatches {
             "CFP_O_ALSHABAAB_Ural_Open_01",
             "CFP_O_ALSHABAAB_Asst_Gunner_DShKM_01",
             "CFP_O_ALSHABAAB_Asst_Gunner_Mortar_01",
-            "CFP_O_ALSHABAAB_Asst_Gunner_SPG_01"
+            "CFP_O_ALSHABAAB_Asst_Gunner_SPG_01",
+            "CFP_O_ALSHABAAB_Offroad_AT_01"
         };
         weapons[] = {};
-        requiredVersion = REQUIRED_VERSION;
+        requiredVersion = 1.62;
         requiredAddons[] = {
             "A3_Characters_F",
             "cfp_uniforms",
@@ -45,7 +46,8 @@ class CfgPatches {
             "A3_Soft_F_Beta_Truck_02",
             "A3_Soft_F_Gamma_Van_01",
             "CUP_Weapons_StaticWeapons",
-            "CUP_WheeledVehicles_UAZ"
+            "CUP_WheeledVehicles_UAZ",
+            "A3_Soft_F_Offroad_01"
         };
         author = "Drew";
         authors[] = {"Drew"};

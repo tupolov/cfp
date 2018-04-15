@@ -161,6 +161,15 @@ class CfgVehicles {
         };
     };
 
+    class B_G_Offroad_01_AT_F;
+    class B_G_Offroad_01_AT_F_OCimport_01 : B_G_Offroad_01_AT_F { scope = 0; class EventHandlers; class Turrets; };
+    class B_G_Offroad_01_AT_F_OCimport_02 : B_G_Offroad_01_AT_F_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class AT_Turret;
+        };
+    };
+
 
     class CFP_O_ALSHABAAB_Rifleman_01 : O_Soldier_F_OCimport_02 {
         author = "Drew";
@@ -524,13 +533,14 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\Offroad\PolygonDesert.paa'];_unit setObjectTextureGlobal [1,'A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "PolygonDesert";
 
     };
 
@@ -556,13 +566,14 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\Offroad\PolygonWoodland.paa'];_unit setObjectTextureGlobal [1,'A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "PolygonWooodland";
 
     };
 
@@ -930,6 +941,36 @@ class CfgVehicles {
         backpack = "CUP_B_SPG9_Gun_Bag";
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_KhetPartug_Short_light_olive",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_EDRL",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_SPG9_Gun_Bag",{}},"SP_Shemagh_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+
+    };
+
+    class CFP_O_ALSHABAAB_Offroad_AT_01 : B_G_Offroad_01_AT_F_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Offroad [AT]";
+        side = 0;
+        faction = "CFP_O_ALSHABAAB";
+        crew = "CFP_O_ALSHABAAB_Rifleman_01";
+
+        class Turrets : Turrets {
+            class AT_Turret : AT_Turret { gunnerType = "CFP_O_ALSHABAAB_Grenadier_01"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\Offroad\PolygonWoodland.paa'];_unit setObjectTextureGlobal [1,'A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "PolygonWooodland";
 
     };
 
