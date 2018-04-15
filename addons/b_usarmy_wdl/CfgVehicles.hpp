@@ -130,6 +130,7 @@ class CfgVehicles {
             editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Stryker\Data\preview\CUP_B_M1126_ICV_M2_Woodland.jpg";
             class AnimationSources;
         };
+
         class CUP_B_M1126_ICV_M2_Woodland_Slat : CUP_B_M1126_ICV_M2_Woodland {
             author = "Tupolov";
             scope = 2;
@@ -176,6 +177,7 @@ class CfgVehicles {
             editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Stryker\Data\preview\CUP_B_M1126_ICV_MK19_Woodland.jpg";
             class AnimationSources;
         };
+
         class CUP_B_M1126_ICV_MK19_Woodland_Slat : CUP_B_M1126_ICV_M2_Woodland {
             author = "Tupolov";
             scope = 2;
@@ -219,6 +221,7 @@ class CfgVehicles {
             editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Stryker\Data\preview\CUP_B_M1130_CV_M2_Woodland.jpg";
             class AnimationSources;
         };
+
         class CUP_B_M1130_CV_M2_Woodland_Slat : CUP_B_M1130_CV_M2_Woodland {
             author = "Tupolov";
             scope = 2;
@@ -1275,7 +1278,7 @@ class CfgVehicles {
             displayName = "HMMWV SOV (Mk19)";
             side = 1;
             faction = "CFP_B_USARMY_WDL";
-            crew = "CFP_B_USARMY_US_Soldier";
+            crew = "CFP_B_USARMY_US_SpecOps";
 
             class Turrets : Turrets {
                 class MainTurret : MainTurret { gunnerType = ""; };
@@ -1285,8 +1288,6 @@ class CfgVehicles {
                 class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
                 class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
             };
-
-
 
             class EventHandlers : EventHandlers {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -1310,7 +1311,7 @@ class CfgVehicles {
             displayName = "HMMWV SOV (M2)";
             side = 1;
             faction = "CFP_B_USARMY_WDL";
-            crew = "CFP_B_USARMY_US_Soldier";
+            crew = "CFP_B_USARMY_US_SpecOps";
 
             class Turrets : Turrets {
                 class MainTurret : MainTurret { gunnerType = ""; };
@@ -1320,8 +1321,6 @@ class CfgVehicles {
                 class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
                 class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
             };
-
-
 
             class EventHandlers : EventHandlers {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
