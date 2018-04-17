@@ -578,3 +578,4 @@
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Woodland Light Boots)",woodlandlight,"AuburnAlumni")
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Marpat Uganda Dark Boots)",marpatugandadark,"AuburnAlumni")
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Marpat Uganda Light Boots)",marpatugandalight,"AuburnAlumni")
+	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Tiger Desert)",tigerdesert,"AuburnAlumni")

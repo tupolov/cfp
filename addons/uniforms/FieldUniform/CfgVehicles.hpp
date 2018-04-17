@@ -1641,3 +1641,17 @@
 		uniformClass = "CFP_U_FieldUniform_marpatugandalight";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_marpatlightuganda.paa"};
 	};
+
+	class CFP_FieldUniform_tiger_desert : CFP_FieldUniform_tigerstripe
+	{
+		displayName = "Field Uniform (Tiger Desert)";
+		uniformClass = "CFP_U_FieldUniform_acr_desert";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_deserttiger.paa"};
+	};
+
+	class CFP_FieldUniform_tiger_desert_SS : CFP_FieldUniform_multicam_SS
+	{
+		displayName = "Field Uniform SS (Tiger Desert)";
+		uniformClass = "CFP_U_FieldUniform_acr_desert_SS";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_deserttiger.paa"};
+	};

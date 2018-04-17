@@ -1,36 +1,36 @@
 
-	class SP_0000_Standard_TacticalUniform_Black: Uniform_Base
+	class CFP_U_Crye_Black: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_TacticalUniform_Black.paa";
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Tactical Uniform (Black)";
+		displayName = "Crye Uniform (Black)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\Black.jpg";
-		author = "SP Craig";
+		author = "AuburnAlumni";
 
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "SP_0000_Standard_TacticalUniform_Black";
+			uniformClass = "CFP_Crye_Black";
 			containerClass="Supply60";
 			mass=80;
 
 		};
 	};
 
-	class SP_0000_Standard_TacticalUniform_Black_SS: Uniform_Base
+	class CFP_U_Crye_Black_SS: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_TacticalUniform_Black_SS.paa";
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Tactical Uniform SS (Black)";
+		displayName = "Crye Uniform SS (Black)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\Black.jpg";
-		author = "SP Craig";
+		author = "AuburnAlumni";
 
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "SP_0000_Standard_TacticalUniform_Black_SS";
+			uniformClass = "CFP_Crye_Black_SS";
 			containerClass="Supply60";
 			mass=80;
 
@@ -821,6 +821,44 @@
 		{
 			uniformModel = "-";
 			uniformClass = "CFP_Crye_AOR2_SS";
+			containerClass="Supply60";
+			mass=80;
+
+		};
+	};
+
+	class CFP_U_Crye_Tiger_Desert: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_TacticalUniform_NodUrban.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Crye Uniform (Tiger Desert)";
+		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\NodUrban.jpg";
+		author = "AuburnAlumni";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_Crye_Tiger_Desert";
+			containerClass="Supply60";
+			mass=80;
+
+		};
+	};
+
+	class CFP_U_Crye_Tiger_Desert_SS: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_TacticalUniform_NodUrban_SS.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Crye Uniform SS (Tiger Desert)";
+		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\NodUrban.jpg";
+		author = "AuburnAlumni";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_Crye_Tiger_Desert_SS";
 			containerClass="Supply60";
 			mass=80;
 

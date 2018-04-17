@@ -83,8 +83,8 @@ class CfgPatches
 			"SP_0000_Standard_WorkUniform_Hunter2",
 			"SP_0000_Standard_WorkUniform_ATacsFG",
 			"SP_0000_Standard_WorkUniform_NodUrban",
-			"SP_0000_Standard_TacticalUniform_Black",
-			"SP_0000_Standard_TacticalUniform_Black_SS",
+			"CFP_Crye_Black",
+			"CFP_Crye_Black_SS",
 			"SP_0000_Standard_TacticalUniform_Black_TS",
 			"SP_0000_Standard_TacticalUniform_Green",
 			"SP_0000_Standard_TacticalUniform_Green_SS",
@@ -188,6 +188,7 @@ class CfgPatches
 			"CFP_BattleDressUniform_multicam_snow",
 			"CFP_BattleDressUniform_mtp_snow",
 			"CFP_BattleDressUniform_flecktarn_snow",
+			"CFP_BattleDressUniform_tigerdesert",
 			"CFP_FieldUniform_3ColorDesert",
 			"CFP_FieldUniform_afghan_w",
 			"CFP_FieldUniform_AfricanWoodlandDark",
@@ -233,6 +234,8 @@ class CfgPatches
 			"CFP_FieldUniform_anp_dark",
 			"CFP_FieldUniform_ancop_light",
 			"CFP_FieldUniform_ancop_dark",
+			"CFP_FieldUniform_tiger_desert_ss",
+			"CFP_FieldUniform_tiger_desert",
 			"CFP_BattleDressUniform_anp_light",
 			"CFP_BattleDressUniform_anp_dark",
 			"CFP_BattleDressUniform_ancop_light",
@@ -266,7 +269,9 @@ class CfgPatches
 			"CFP_Crye_AOR1",
 			"CFP_Crye_AOR1_SS",
 			"CFP_Crye_AOR2",
-			"CFP_Crye_AOR2_SS"
+			"CFP_Crye_AOR2_SS",
+			"CFP_Crye_Tiger_Desert",
+			"CFP_Crye_Tiger_Desert_SS"
 		};
 		weapons[] = {
 			"cfp_u_battledressuniform_3colordesert",
@@ -313,6 +318,7 @@ class CfgPatches
 			"cfp_u_battledressuniform_woodland",
 			"cfp_u_battledressuniform_woodlanddark",
 			"cfp_u_battledressuniform_woodlandlight",
+			"cfp_u_battledressuniform_tigerdesert",
 			"cfp_u_fielduniform_3colordesert",
 			"cfp_u_fielduniform_acr_desert",
 			"cfp_u_fielduniform_acr_desert_ss",
@@ -366,6 +372,8 @@ class CfgPatches
 			"cfp_u_fielduniform_tigerstripe",
 			"cfp_u_fielduniform_tigerstripe2",
 			"cfp_u_fielduniform_ugandan",
+			"cfp_u_fielduniform_tiger_desert_ss",
+			"cfp_u_fielduniform_tiger_desert",
 			"cfp_u_khetpartug_long_africanwoodland",
 			"cfp_u_khetpartug_long_black",
 			"cfp_u_khetpartug_long_blue",
@@ -470,8 +478,8 @@ class CfgPatches
 			"sp_0000_standard_tacticaluniform_atacsfg",
 			"sp_0000_standard_tacticaluniform_atacsfg_ss",
 			"sp_0000_standard_tacticaluniform_atacsfg_ts",
-			"sp_0000_standard_tacticaluniform_black",
-			"sp_0000_standard_tacticaluniform_black_ss",
+			"CFP_U_Crye_Black",
+			"CFP_U_Crye_Black_SS",
 			"sp_0000_standard_tacticaluniform_black_ts",
 			"sp_0000_standard_tacticaluniform_bluedark",
 			"sp_0000_standard_tacticaluniform_bluedark_ss",
@@ -542,7 +550,9 @@ class CfgPatches
 			"CFP_U_Crye_AOR1",
 			"CFP_U_Crye_AOR1_SS",
 			"CFP_U_Crye_AOR2",
-			"CFP_U_Crye_AOR2_SS"
+			"CFP_U_Crye_AOR2_SS",
+			"CFP_U_Crye_Tiger_Desert",
+			"CFP_U_Crye_Tiger_Desert_SS"
 		};
         author = MODULE_AUTHOR;
         authors[] = {"SP Craig", "Tupolov","AuburnAlumni"};

@@ -218,31 +218,47 @@ class CfgVehicles {
         uniformClass = "CUP_O_TKI_Khet_Jeans_01";
 
         uniformList[] = {
-            "CUP_O_TKI_Khet_Jeans_01", 0.25,
-            "CUP_O_TKI_Khet_Jeans_02", 0.25,
-            "CUP_O_TKI_Khet_Jeans_03", 0.25,
-            "CUP_O_TKI_Khet_Jeans_04", 0.25,
-            "CUP_O_TKI_Khet_Partug_01", 0.25,
-            "CUP_O_TKI_Khet_Partug_02", 0.25,
-            "CUP_O_TKI_Khet_Partug_03", 0.25,
-            "CUP_O_TKI_Khet_Partug_04", 0.25,
-            "CUP_O_TKI_Khet_Partug_05", 0.25,
-            "CUP_O_TKI_Khet_Partug_06", 0.25,
-            "CUP_O_TKI_Khet_Partug_07", 0.25,
-            "CUP_O_TKI_Khet_Partug_08", 0.25
+            "CFP_U_KhetPartug_Long_Olive", 0.2,
+            "CFP_U_KhetPartug_Short_Olive", 0.2,
+            "CFP_U_KhetPartug_Long_Light_Olive", 0.2,
+            "CFP_U_KhetPartug_Short_Light_Olive", 0.2,
+            "CFP_U_KhetPartug_Long_Black", 0.2,
+            "CFP_U_KhetPartug_Short_GreenOlive", 0.2,
+            "CFP_U_KhetPartug_Long_Blue", 0.2,
+            "CFP_U_KhetPartug_Long_BlueGrey", 0.2,
+            "CFP_U_KhetPartug_Long_Brown", 0.2,
+            "CFP_U_KhetPartug_Long_Creme", 0.2,
+            "CFP_U_KhetPartug_Long_Grey", 0.2,
+            "CFP_U_KhetPartug_Long_Purple", 0.2,
+            "CFP_U_KhetPartug_Long_Tan", 0.2,
+            "CFP_U_KhetPartug_Short_Blue", 0.2,
+            "CFP_U_KhetPartug_Short_BlueGrey", 0.2,
+            "CFP_U_KhetPartug_Short_Brown", 0.2,
+            "CFP_U_KhetPartug_Short_Creme", 0.2,
+            "CFP_U_KhetPartug_Short_Grey", 0.2,
+            "CFP_U_KhetPartug_Short_Purple", 0.2,
+            "CFP_U_KhetPartug_Short_Tan", 0.2,
+            "CFP_U_KhetPartug_Short_Black", 0.2
         };
 
         vestList[] = {
-            "V_Chestrig_khk", 0.25,
-            "V_Chestrig_oli", 0.25,
-            "SP_Chestrig1_Tan", 0.25,
-            "SP_Harness1_Tan", 0.25,
-            "SP_OpforRig1_Tan", 0.25,
-            "CUP_V_OI_TKI_Jacket1_06", 0.25,
-            "CUP_V_OI_TKI_Jacket4_05", 0.25,
-            "CUP_V_OI_TKI_Jacket4_06", 0.25,
-            "CUP_V_OI_TKI_Jacket3_06", 0.25,
-            "CUP_V_OI_TKI_Jacket6_06", 0.1
+            "CFP_UtilityJacket_Woodland", 0.2,
+            "CFP_UtilityJacket_PolygonWoodland", 0.2,
+            "CFP_UtilityJacket_PolygonDesert", 0.2,
+            "CFP_UtilityJacket_M81", 0.2,
+            "CFP_UtilityJacket_EDRL", 0.2,
+            "CFP_UtilityJacket_ChocChip", 0.2,
+            "CFP_TakJacket_Woodland", 0.2,
+            "CFP_TakJacket_AfricanWoodland", 0.2,
+            "CFP_TakJacket_PolygonWoodland", 0.2,
+            "CFP_TakJacket_PolygonDesert", 0.2,
+            "CFP_TakJacket_Marpat", 0.2,
+            "CFP_TakJacket_M81", 0.2,
+            "CFP_TakJacket_EDRL", 0.2,
+            "CFP_TakJacket_ChocChip", 0.2,
+            "CFP_LBT1961_CB", 0.2,
+            "CFP_LBT1961_GRN", 0.2,
+            "CFP_LBT1961_OGA_OD", 0.2
         };
 
         // Beards / mouth scarf / scarf / sunglasses
@@ -289,7 +305,14 @@ class CfgVehicles {
             "CUP_H_TKI_Lungee_03", 0.2,
             "CUP_H_TKI_Lungee_04", 0.2,
             "CUP_H_TKI_Lungee_05", 0.2,
-            "CUP_H_TKI_Lungee_06", 0.2
+            "CUP_H_TKI_Lungee_06", 0.2,
+            "CFP_Lungee_Open_Tan", 0.2,
+            "CFP_Lungee_Open_LightOlive", 0.2,
+            "CFP_Lungee_Open_Grey", 0.2,
+            "CFP_Lungee_Open_Creme", 0.2,
+            "CFP_Lungee_Open_Brown", 0.2,
+            "CFP_Lungee_Open_BlueGrey", 0.2,
+            "CFP_Lungee_Open_Blue", 0.2
         };
 
         nvgList[] = {
@@ -339,13 +362,14 @@ class CfgVehicles {
 
         // Camo clothes
         uniformList[] = {
-            "CFP_U_FieldUniform_multicam", 0.8,
-            "U_B_CombatUniform_mcam_tshirt", 0.2,
-            "SP_0000_Standard_FieldUniform_Tan_SS", 0.2,
-            "SP_0000_Standard_TacticalUniform_Tan_TS", 0.2,
-            "U_B_CombatUniform_mcam_tshirt", 0.2,
-            "U_B_CombatUniform_mcam", 0.2,
-            "U_BG_Guerilla2_1",0.2
+            "CFP_U_Crye_Tiger_Desert", 0.2,
+            "CFP_U_Crye_Tiger_Desert_SS", 0.2,
+            "CFP_U_Crye_Multicam", 0.2,
+            "CFP_U_Crye_Multicam2", 0.2,
+            "CFP_U_Crye_Multicam_SS", 0.2,
+            "CFP_U_Crye_Multicam2_SS", 0.2,
+            "CFP_U_Fielduniform_tiger_desert_ss", 0.2,
+            "CFP_U_Fielduniform_tiger_desert", 0.2
         };
 
         insigniaList[] = {
@@ -434,16 +458,15 @@ class CfgVehicles {
             "SP_Goggles_Black",0.3,
             "SP_Goggles_Tan",0.3,
             "G_Lowprofile",0.3,
-            "CUP_FR_Neckscarf2",0.3
+            "CUP_FR_Neckscarf2",0.3,
+            "CFP_Beard", 0.3
         };
 
         // Baseball caps, boonies,
         headgearList[] = {
             "VSM_MICH2017_Helmet_Tan", 0.35,
-            "VSM_OPS2017_Helmet_Tan", 0.4,
-            "SP_ECHHelmet_Tan1", 0.3,
+            "VSM_OPS2017_Helmet_Tan", 0.6,
             "SP_ProTecHelmet_Tan", 0.3,
-            "SP_ECHHelmet_Tan1", 0.3,
             "SP_ProTecHelmet_Black", 0.25,
             "SP_MichHelmet_Black1", 0.25,
             "SP_MichHelmet_Black2", 0.25,
@@ -451,12 +474,10 @@ class CfgVehicles {
             "SP_MichHelmet_Tan2", 0.3,
             "CUP_H_USArmy_Helmet_Pro_gog", 0.25,
             "CUP_H_USArmy_Helmet_Pro", 0.25,
-            "CUP_H_USArmy_Helmet_ECH1_Sand", 0.25,
-            "CUP_H_USArmy_Helmet_ECH2_Sand", 0.25,
-            "CUP_H_FR_ECH", 0.25,
-            "H_HelmetB_light_sand", 0.2,
-            "H_HelmetB_light_desert", 0.2,
-            "CUP_H_PMC_Cap_Back_EP_Tan", 0.1
+            "CFP_OPS2017_Helmet_OliveFabric", 0.4,
+            "CFP_OPS2017_Helmet_Grey", 0.4,
+            "CFP_OPS2017_Helmet_Multicam", 0.4,
+            "CFP_OPS2017_Helmet_Multicam2", 0.4
         };
 
         nvgList[] = {

@@ -1,4 +1,4 @@
-	
+
 	/*  Stars n bars fix attempt,  wiping out insignias
 	class I_C_Soldier_Camo_F;
 	class CFP_Uniform : I_C_Soldier_Camo_F
@@ -26,11 +26,11 @@
 			mat[] = {"x\cfp\addons\models\rv\BDU.rvmat","x\cfp\addons\models\rv\BDU_injury.rvmat","x\cfp\addons\models\rv\BDU_injury.rvmat"};
 
 		};
-		
+
 	};
-	
+
 	*/
-	
+
 	class CFP_Uniform : B_Soldier_base_F
 	{
 		scope = 1;
@@ -57,7 +57,7 @@
 			mat[] = {"A3\Characters_F_Beta\INDEP\Data\officer.rvmat","A3\Characters_F_Beta\INDEP\Data\officer_injury.rvmat","A3\Characters_F_Beta\INDEP\Data\officer_injury.rvmat"};
 
 		};
-		
+
 	};
 
 	class SP_0000_Standard_BattleDressUniform_Black: CFP_Uniform
@@ -543,4 +543,11 @@
 		displayName = "Battle Dress Uniform (Marpat Uganda Light Boots)";
 		uniformClass = "CFP_U_BattleDressUniform_marpatugandalight";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_marpatuganda.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_marpatlightuganda.paa"};
+	};
+
+	class CFP_BattleDressUniform_tigerdesert : CFP_Uniform
+	{
+		displayName = "Battle Dress Uniform (Tiger Desert)";
+		uniformClass = "CFP_U_BattleDressUniform_tigerdesert";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_deserttiger.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_deserttiger.paa"};
 	};
