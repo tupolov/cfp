@@ -32,48 +32,33 @@ class CfgVehicles {
 
         // Civilian clothes
 		uniformList[] = {
-			"U_BG_Guerilla2_1", 0.25,
-			"U_BG_Guerilla2_2", 0.25,
-			"U_BG_Guerilla2_3", 0.25,
-			"U_BG_Guerilla3_1", 0.25,
-            "U_C_HunterBody_grn", 0.25,
-            "CUP_I_B_PMC_Unit_13", 0.25,
-            "CUP_I_B_PMC_Unit_15", 0.25,
-            "CUP_I_B_PMC_Unit_19", 0.25,
-            "CUP_I_B_PMC_Unit_20", 0.25,
-            "CUP_I_B_PMC_Unit_3", 0.25,
-            "CUP_I_B_PMC_Unit_7", 0.25,
-            "CUP_I_B_PMC_Unit_11", 0.25,
-            "CUP_U_C_Pilot_01", 0.2,
-            "U_Marshal", 0.1,
-            "U_C_Mechanic_01_F", 0.1
+			"CFP_U_BattleDressUniform_tigerdesert", 0.4,
+            "CFP_U_BattleDressUniform_tigerdesert_tan", 0.4,
+            "CFP_U_BattleDressUniform_multicam", 0.4
 		};
 
 		// Basic Rigs
 		vestList[] = {
-			"CUP_V_I_RACS_Carrier_Vest", 0.25,
-            "CUP_V_I_RACS_Carrier_Vest_2", 0.25,
-            "CUP_V_I_RACS_Carrier_Vest_3", 0.25,
-			"V_Chestrig_khk", 0.25,
-            "V_Chestrig_oli", 0.25,
-            "SP_Chestrig1_Tan", 0.25,
-            "SP_Harness1_Tan", 0.25,
-            "CUP_V_B_GER_Carrier_Rig_3_Brown", 0.25,
-            "CUP_V_B_GER_Carrier_Rig_2_Brown", 0.25,
-            "SP_Modular1_Tan", 0.25,
-            "SP_Tactical1_Tan", 0.25,
-            "SP_OpforRig1_Tan", 0.25,
-            "SP_PlateCarrier1_Tan", 0.25,
-            "V_TacChestrig_cbr_F", 0.25,
-            "V_TacVest_brn",0.2,
-            "V_TacVest_khk",0.2,
-            "V_TacVestR_F", 0.1,
-            "CUP_V_B_RRV_Scout3",0.1,
-            "CUP_V_OI_TKI_Jacket1_06", 0.15,
-            "CUP_V_OI_TKI_Jacket4_05", 0.15,
-            "CUP_V_OI_TKI_Jacket4_06", 0.15,
-            "CUP_V_OI_TKI_Jacket3_06", 0.15,
-            "CUP_V_OI_TKI_Jacket6_06", 0.1
+			"CFP_LBT1961_CB", 0.2,
+            "CFP_LBT1961_GRN", 0.2,
+            "CFP_LBT1961_OGA_OD", 0.2,
+            "CFP_MBSS_Green", 0.2,
+            "CFP_MBSS_BLK", 0.2,
+            "CFP_MBSS_TAN", 0.2,
+            "CFP_MBSS_CB", 0.2,
+            "CFP_MBSS_PACA_operator", 0.2,
+            "CFP_MBSS_PACA", 0.2,
+            "CFP_MBSS_PACA_BLK", 0.2,
+            "CFP_MBSS_PACA_TAN", 0.2,
+            "CFP_MBSS_PACA_CB", 0.2,
+            "CFP_RAV_operator_Multicam", 0.2,
+            "CFP_RAV_Breacher_Multicam", 0.2,
+            "CFP_CarrierRig_Operator_Multicam", 0.2,
+            "CFP_CarrierRig_Breacher_Multicam", 0.2,
+            "CFP_LBT6094_operator_Multicam", 0.2,
+            "CFP_LBT6094_breacher_Multicam", 0.2,
+            "CFP_FAPC_Operator_Multicam", 0.2,
+            "CFP_FAPC_Breacher_Multicam", 0.2
 		};
 
 		// Beards / mouth scarf / scarf / sunglasses
