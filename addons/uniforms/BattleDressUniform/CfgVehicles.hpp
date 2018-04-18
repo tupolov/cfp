@@ -551,3 +551,10 @@
 		uniformClass = "CFP_U_BattleDressUniform_tigerdesert";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_deserttiger.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_deserttiger.paa"};
 	};
+
+	class CFP_BattleDressUniform_tigerdesert_tan : CFP_Uniform
+	{
+		displayName = "Battle Dress Uniform (Tiger Desert Tan Pants)";
+		uniformClass = "CFP_U_BattleDressUniform_tigerdesert_tan";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_deserttiger.paa","\x\cfp\addons\uniforms\FieldUniform\0000_Standard\Tan.paa"};
+	};

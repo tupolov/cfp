@@ -483,7 +483,6 @@ class CfgVehicles {
         nvgList[] = {
             "", 0.8,
             "CUP_NVG_PVS7", 0.25,
-            "NVGoggles", 0.1
         };
 
         backpack = "B_Carryall_cbr";
