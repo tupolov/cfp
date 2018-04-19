@@ -1,7 +1,7 @@
 _this setVariable ["BIS_enableRandomization", false];
 sleep 0.5;
 
-[_this,"insignia_cfp_Iraq"] call BIS_fnc_setUnitInsignia;
+//[_this,"insignia_cfp_Iraq"] call BIS_fnc_setUnitInsignia;
 
 if ( !isNil { _this getVariable "NoRandom" }  ) exitWith {};
 
