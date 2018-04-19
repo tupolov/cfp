@@ -3015,7 +3015,7 @@ class CfgVehicles {
         class CFP_B_USARMY_US_SpecOps_UAV : CFP_B_USARMY_US_SpecOps {
 
             displayName = "UAV Controller";
-
+            uavHacker = 1;
             linkedItems[] = {"CFP_LBT6094_operator_Multicam","CFP_OPS2017_Helmet_Multicam","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
             respawnlinkedItems[] = {"CFP_LBT6094_operator_Multicam","CFP_OPS2017_Helmet_Multicam","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
             weapons[] = {"CUP_arifle_Mk17_CQC_SFG_Aim_mfsup","CUP_hgun_M9","CUP_Vector21Nite"};
@@ -3045,7 +3045,7 @@ class CfgVehicles {
         class CFP_B_USARMY_US_SpecOps_Medic : CFP_B_USARMY_US_SpecOps {
 
             displayName = "Medic";
-
+            attendant = 1;
             linkedItems[] = {"CFP_LBT6094_operator_Multicam","CFP_OPS2017_Helmet_Multicam","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
             respawnlinkedItems[] = {"CFP_LBT6094_operator_Multicam","CFP_OPS2017_Helmet_Multicam","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
             weapons[] = {"CUP_arifle_Mk17_CQC_SFG_Aim_mfsup","CUP_hgun_M9","CUP_Vector21Nite"};

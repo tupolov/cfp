@@ -260,7 +260,7 @@ class CfgVehicles {
     class CFP_B_AFARMY_Medic_01 : CFP_B_AFARMY_Rifleman_01 {
 
         displayName = "Medic ";
-
+        attendant = 1;
         backpack = "B_AssaultPack_rgr";
         weapons[] = {"CUP_arifle_M16A4_Base","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_M16A4_Base","Throw","Put"};
@@ -275,7 +275,7 @@ class CfgVehicles {
     class CFP_B_AFARMY_Explosive_Specialist_01 : CFP_B_AFARMY_Rifleman_01 {
 
         displayName = "Explosive Specialist";
-
+        canDeactivateMines = 1;
         backpack = "B_Kitbag_rgr";
         weapons[] = {"CUP_arifle_M16A4_Base","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_M16A4_Base","Throw","Put"};
@@ -290,7 +290,7 @@ class CfgVehicles {
     class CFP_B_AFARMY_Repair_Specialist_01 : CFP_B_AFARMY_Rifleman_01 {
 
         displayName = "Repair Specialist";
-
+        engineer = 1;
         backpack = "B_AssaultPack_rgr";
         weapons[] = {"CUP_arifle_M16A4_Base","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_M16A4_Base","Throw","Put"};
@@ -546,7 +546,7 @@ class CfgVehicles {
 		};
 		*/
 
-        class EventHandlers : EventHandlers 
+        class EventHandlers : EventHandlers
 		{
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -570,8 +570,8 @@ class CfgVehicles {
         //ALiVE_orbatCreator_texture = "Green";
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_HMMWV_DShKM_01.jpg";
     };
-	
-	class CFP_B_AFARMY_HMMWV_DShKM_flag_01 : CFP_B_AFARMY_HMMWV_DShKM_01 
+
+	class CFP_B_AFARMY_HMMWV_DShKM_flag_01 : CFP_B_AFARMY_HMMWV_DShKM_01
 	{
         author = "Drew";
         scope = 2;
@@ -599,7 +599,7 @@ class CfgVehicles {
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-			
+
 			class ADDON
             {
                 init = "(_this select 0) execVM ""\x\cfp\addons\b_afarmy\Scripts\AttachFlag.sqf""";
@@ -636,10 +636,10 @@ class CfgVehicles {
         faction = "CFP_B_AFARMY";
         crew = "CFP_B_AFARMY_Rifleman_01";
 
-		
-        class EventHandlers : EventHandlers 
+
+        class EventHandlers : EventHandlers
 		{
-			
+
 			/*
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -656,8 +656,8 @@ class CfgVehicles {
 		*/
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_HMMWV_01.jpg";
     };
-	
-	class CFP_B_AFARMY_HMMWV_flag_01 : CFP_B_AFARMY_HMMWV_01 
+
+	class CFP_B_AFARMY_HMMWV_flag_01 : CFP_B_AFARMY_HMMWV_01
 	{
         author = "Drew";
         scope = 2;
@@ -667,15 +667,15 @@ class CfgVehicles {
         faction = "CFP_B_AFARMY";
         crew = "CFP_B_AFARMY_Rifleman_01";
 
-		
-        class EventHandlers : EventHandlers 
+
+        class EventHandlers : EventHandlers
 		{
 			class ADDON
             {
                 init = "(_this select 0) execVM ""\x\cfp\addons\b_afarmy\Scripts\AttachFlag.sqf""";
                 killed = "(_this select 0) execVM ""\x\cfp\addons\b_afarmy\Scripts\onkilled.sqf""";
             };
-			
+
 			/*
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 

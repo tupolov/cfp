@@ -101,18 +101,42 @@ class CfgVehicles {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Civ 1";
+        displayName = "Civilian";
         side = 3;
         faction = "CFP_C_ME";
 
         identityTypes[] = { "Head_TK" , "LanguagePER_F" , "G_IRAN_default" };
 
+        randomGearProbability = 100;
+
+        // Middle Eastern Clothing
+        uniformList[] = {
+            "CUP_U_C_Profiteer_01", 0.3,
+            "CUP_U_C_Profiteer_02", 0.3,
+            "CUP_U_C_Profiteer_03", 0.3,
+            "CUP_U_C_Profiteer_04", 0.3,
+            "CUP_U_C_Woodlander_04", 0.3,
+            "U_Marshal", 0.3,
+            "CUP_U_C_Citizen_01", 0.3,
+            "CUP_U_C_Citizen_02", 0.3,
+            "CUP_U_C_Citizen_03", 0.3,
+            "CUP_U_C_Citizen_04", 0.3
+        };
+
+        facewearList[] = {
+            "", 0.5,
+            "CFP_Beard", 0.5
+        };
+
+        headgearList[] = {
+            "", 1
+        };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_this setunitloadout [[],[],[],['CUP_U_C_Citizen_02',[]],[],[],'','',[],['','','','','','']];reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_this setunitloadout [[],[],[],['CUP_U_C_Citizen_02',[]],[],[],'','',[],['','','','','','']];[_this] call CFP_main_fnc_randomizeUnit;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -127,330 +151,65 @@ class CfgVehicles {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Civ 2";
+        displayName = "Civilian";
         side = 3;
         faction = "CFP_C_ME";
 
         identityTypes[] = { "Head_TK" , "LanguagePER_F" , "G_IRAN_default" };
 
+        randomGearProbability = 100;
 
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_this setunitloadout [[],[],[],['CUP_U_C_Citizen_01',[]],[],[],'CUP_H_C_Beanie_03','',[],['','','','','ItemWatch','']];reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
+        // Middle Eastern Clothing
+        uniformList[] = {
+            "U_I_C_Soldier_Bandit_3_F", 0.2,
+            "U_C_Man_casual_1_F", 0.2,
+            "U_C_Man_casual_2_F", 0.2,
+            "U_C_Man_casual_3_F", 0.2,
+            "CUP_U_O_CHDKZ_Lopotev", 0.2,
+            "U_BG_Guerilla3_1", 0.2,
+            "U_BG_Guerilla2_1", 0.2,
+            "U_BG_Guerilla2_2", 0.2,
+            "U_BG_Guerilla2_3", 0.2,
+            "U_C_Mechanic_01_F", 0.2,
+            "CUP_U_C_Mechanic_01", 0.2,
+            "CUP_I_B_PMC_Unit_1", 0.2,
+            "CUP_I_B_PMC_Unit_2", 0.2,
+            "CUP_I_B_PMC_Unit_3", 0.2,
+            "CUP_I_B_PMC_Unit_4", 0.2,
+            "U_C_Poor_1", 0.2
         };
 
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class CFP_C_ME_Civ_3_01 : C_man_1_OCimport_02 {
-        editorPreview = "\x\cfp\addons\c_me\data\preview\CFP_C_ME_Civ_3_01.JPG";
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Civ 3";
-        side = 3;
-        faction = "CFP_C_ME";
-
-        identityTypes[] = { "Head_TK" , "LanguagePER_F" , "G_IRAN_default" };
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_this setunitloadout [[],[],[],['U_C_Man_casual_3_F',[]],[],[],'','',[],['','','','','ItemWatch','']];reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
+        facewearList[] = {
+            "", 0.5,
+            "CFP_Beard", 0.5
         };
 
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class CFP_C_ME_Civ_4_01 : C_man_1_OCimport_02 {
-        editorPreview = "\x\cfp\addons\c_me\data\preview\CFP_C_ME_Civ_4_01.JPG";
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Civ 4";
-        side = 3;
-        faction = "CFP_C_ME";
-
-        identityTypes[] = { "Head_TK" , "LanguagePER_F" , "G_IRAN_default" };
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_this setunitloadout [[],[],[],['CUP_U_C_Citizen_04',[]],[],[],'','',[],['','','','','ItemWatch','']];reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
+        headgearList[] = {
+            "", 0.9,
+            "H_Cap_blk", 0.05,
+            "H_Cap_blu", 0.05,
+            "H_Cap_red", 0.05,
+            "H_Cap_grn", 0.05,
+            "H_Cap_tan", 0.05,
+            "SP_BeanieHat_Tan", 0.05,
+            "SP_BeanieHat_Black", 0.05,
+            "SP_BeanieHat_Green", 0.05,
+            "CUP_H_C_Beanie_02", 0.05,
+            "CUP_H_C_Beanie_04", 0.05,
+            "CUP_H_C_Beanie_01", 0.05,
+            "CUP_H_TKI_SkullCap_01", 0.05,
+            "CUP_H_TKI_SkullCap_02", 0.05,
+            "CUP_H_TKI_SkullCap_03", 0.05,
+            "CUP_H_TKI_SkullCap_04", 0.05,
+            "CUP_H_TKI_SkullCap_05", 0.05,
+            "CUP_H_TKI_SkullCap_06", 0.05
         };
 
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class CFP_C_ME_Civ_5_01 : C_man_1_OCimport_02 {
-        editorPreview = "\x\cfp\addons\c_me\data\preview\CFP_C_ME_Civ_5_01.JPG";
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Civ 5";
-        side = 3;
-        faction = "CFP_C_ME";
-
-        identityTypes[] = { "Head_TK" , "LanguagePER_F" , "G_IRAN_default" };
-
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_this setunitloadout [[],[],[],['CUP_U_C_Citizen_03',[]],[],[],'CUP_H_C_Beanie_02','',[],['','','','','ItemWatch','']];reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class CFP_C_ME_Civ_6_01 : C_man_1_OCimport_02 {
-        editorPreview = "\x\cfp\addons\c_me\data\preview\CFP_C_ME_Civ_6_01.JPG";
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Civ 6";
-        side = 3;
-        faction = "CFP_C_ME";
-
-        identityTypes[] = { "Head_TK" , "LanguagePER_F" , "G_IRAN_default" };
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_this setunitloadout [[],[],[],['U_BG_Guerilla2_3',[]],[],[],'','',[],['','','','','','']];reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class CFP_C_ME_Civ_7_01 : C_man_1_OCimport_02 {
-        editorPreview = "\x\cfp\addons\c_me\data\preview\CFP_C_ME_Civ_7_01.JPG";
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Civ 7";
-        side = 3;
-        faction = "CFP_C_ME";
-
-        identityTypes[] = { "Head_TK" , "LanguagePER_F" , "G_IRAN_default" };
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_this setunitloadout [[],[],[],['CUP_I_B_PMC_Unit_1',[]],[],[],'','',[],['','','','','','']];reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class CFP_C_ME_Civ_8_01 : C_man_1_OCimport_02 {
-        editorPreview = "\x\cfp\addons\c_me\data\preview\CFP_C_ME_Civ_8_01.JPG";
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Civ 8";
-        side = 3;
-        faction = "CFP_C_ME";
-
-        identityTypes[] = { "Head_TK" , "LanguagePER_F" , "G_IRAN_default" };
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_this setunitloadout [[],[],[],['CUP_I_B_PMC_Unit_2',[]],[],[],'','',[],['','','','','','']];reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class CFP_C_ME_Civ_9_01 : C_man_1_OCimport_02 {
-        editorPreview = "\x\cfp\addons\c_me\data\preview\CFP_C_ME_Civ_9_01.JPG";
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Civ 9";
-        side = 3;
-        faction = "CFP_C_ME";
-
-        identityTypes[] = { "Head_TK" , "LanguagePER_F" , "G_IRAN_default" };
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_this setunitloadout [[],[],[],['U_C_Man_casual_1_F',[]],[],[],'','',[],['','','','','','']];reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class CFP_C_ME_Civ_10_01 : C_man_1_OCimport_02 {
-        editorPreview = "\x\cfp\addons\c_me\data\preview\CFP_C_ME_Civ_10_01.JPG";
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Civ 10";
-        side = 3;
-        faction = "CFP_C_ME";
-
-        identityTypes[] = { "Head_TK" , "LanguagePER_F" , "G_IRAN_default" };
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_this setunitloadout [[],[],[],['U_C_Man_casual_2_F',[]],[],[],'','',[],['','','','','ItemWatch','']];reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class CFP_C_ME_Civ_11_01 : C_man_1_OCimport_02 {
-        editorPreview = "\x\cfp\addons\c_me\data\preview\CFP_C_ME_Civ_11_01.JPG";
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Civ 11";
-        side = 3;
-        faction = "CFP_C_ME";
-
-        identityTypes[] = { "Head_TK" , "LanguagePER_F" , "G_IRAN_default" };
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_this setunitloadout [[],[],[],['U_Marshal',[]],[],[],'','',[],['','','','','ItemWatch','']];reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class CFP_C_ME_Civ_12_01 : C_man_1_OCimport_02 {
-        editorPreview = "\x\cfp\addons\c_me\data\preview\CFP_C_ME_Civ_12_01.JPG";
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Civ 12";
-        side = 3;
-        faction = "CFP_C_ME";
-
-        identityTypes[] = { "Head_TK" , "LanguagePER_F" , "G_IRAN_default" };
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_this setunitloadout [[],[],[],['CUP_U_I_GUE_Anorak_03',[]],[],[],'H_Bandanna_sgg','',[],['','','','','ItemWatch','']];reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class CFP_C_ME_Civ_13_01 : C_man_1_OCimport_02 {
-        editorPreview = "\x\cfp\addons\c_me\data\preview\CFP_C_ME_Civ_13_01.JPG";
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Civ 13";
-        side = 3;
-        faction = "CFP_C_ME";
-
-        identityTypes[] = { "Head_TK" , "LanguagePER_F" , "G_IRAN_default" };
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_this setunitloadout [[],[],[],['CUP_I_B_PMC_Unit_4',[]],[],[],'H_Bandanna_cbr','',[],['','','','','ItemWatch','']];reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class CFP_C_ME_Civ_14_01 : C_man_1_OCimport_02 {
-        editorPreview = "\x\cfp\addons\c_me\data\preview\CFP_C_ME_Civ_14_01.JPG";
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Civ 14";
-        side = 3;
-        faction = "CFP_C_ME";
-
-        identityTypes[] = { "Head_TK" , "LanguagePER_F" , "G_IRAN_default" };
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_this setunitloadout [[],[],[],['U_C_Poor_1',[]],[],[],'H_Bandanna_blu','',[],['','','','','ItemWatch','']];reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_this setunitloadout [[],[],[],['CUP_U_C_Citizen_01',[]],[],[],'CUP_H_C_Beanie_03','',[],['','','','','ItemWatch','']];[_this] call CFP_main_fnc_randomizeUnit;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -467,7 +226,7 @@ class CfgVehicles {
         displayName = "Ikarus";
         side = 3;
         faction = "CFP_C_ME";
-        crew = "CFP_C_ME_Civ_1_01";
+        crew = "CFP_C_ME_Civ_2_01";
 
 
         class EventHandlers : EventHandlers {
@@ -521,7 +280,7 @@ class CfgVehicles {
         displayName = "UAZ";
         side = 3;
         faction = "CFP_C_ME";
-        crew = "CFP_C_ME_Civ_3_01";
+        crew = "CFP_C_ME_Civ_2_01";
 
 
         class EventHandlers : EventHandlers {
@@ -545,7 +304,7 @@ class CfgVehicles {
         displayName = "SUV";
         side = 3;
         faction = "CFP_C_ME";
-        crew = "CFP_C_ME_Civ_4_01";
+        crew = "CFP_C_ME_Civ_2_01";
 
         class Turrets : Turrets {
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -580,7 +339,7 @@ class CfgVehicles {
         displayName = "Skoda";
         side = 3;
         faction = "CFP_C_ME";
-        crew = "CFP_C_ME_Civ_5_01";
+        crew = "CFP_C_ME_Civ_2_01";
 
 
         class EventHandlers : EventHandlers {
@@ -604,7 +363,7 @@ class CfgVehicles {
         displayName = "Datsun Pickup";
         side = 3;
         faction = "CFP_C_ME";
-        crew = "CFP_C_ME_Civ_6_01";
+        crew = "CFP_C_ME_Civ_2_01";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -634,7 +393,7 @@ class CfgVehicles {
         displayName = "Datsun Pickup Covered";
         side = 3;
         faction = "CFP_C_ME";
-        crew = "CFP_C_ME_Civ_7_01";
+        crew = "CFP_C_ME_Civ_2_01";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -664,7 +423,7 @@ class CfgVehicles {
         displayName = "Golf Red";
         side = 3;
         faction = "CFP_C_ME";
-        crew = "CFP_C_ME_Civ_8_01";
+        crew = "CFP_C_ME_Civ_2_01";
 
 
         class EventHandlers : EventHandlers {
@@ -688,7 +447,7 @@ class CfgVehicles {
         displayName = "Skoda Octavia";
         side = 3;
         faction = "CFP_C_ME";
-        crew = "CFP_C_ME_Civ_9_01";
+        crew = "CFP_C_ME_Civ_2_01";
 
 
         class EventHandlers : EventHandlers {
@@ -712,7 +471,7 @@ class CfgVehicles {
         displayName = "Truck";
         side = 3;
         faction = "CFP_C_ME";
-        crew = "CFP_C_ME_Civ_10_01";
+        crew = "CFP_C_ME_Civ_2_01";
 
         class Turrets : Turrets {
             class CargoTurret_L1 : CargoTurret_L1 { gunnerType = ""; };
