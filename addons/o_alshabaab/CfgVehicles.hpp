@@ -306,7 +306,7 @@ class CfgVehicles {
     class CFP_O_ALSHABAAB_Medic_01 : CFP_O_ALSHABAAB_Rifleman_01 {
 
         displayName = "Medic";
-
+        attendant = 1;
         backpack = "B_FieldPack_oli";
         weapons[] = {"CUP_arifle_AK47","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_AK47","Throw","Put"};
@@ -336,7 +336,8 @@ class CfgVehicles {
     class CFP_O_ALSHABAAB_Explosive_Specialist_01 : CFP_O_ALSHABAAB_Rifleman_01 {
 
         displayName = "Explosive Specialist";
-
+        canDeactivateMines = 1;
+        engineer = 1;
         backpack = "SP_Carryall_Green";
         weapons[] = {"CUP_arifle_AK47","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_AK47","Throw","Put"};

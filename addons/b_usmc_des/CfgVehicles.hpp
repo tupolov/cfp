@@ -1228,6 +1228,7 @@ class CfgVehicles {
             scope = 2;
             scopeCurator = 2;
             displayName = "Corpsman";
+            attendant = 1;
             side = 1;
             faction = "CFP_B_USMC_DES";
 
@@ -1448,6 +1449,7 @@ class CfgVehicles {
             scope = 2;
             scopeCurator = 2;
             displayName = "Engineer";
+            engineer = 1;
             side = 1;
             faction = "CFP_B_USMC_DES";
 
@@ -1613,6 +1615,7 @@ class CfgVehicles {
             scope = 2;
             scopeCurator = 2;
             displayName = "UAV Controller";
+            uavHacker = 1;
             side = 1;
             faction = "CFP_B_USMC_DES";
 
@@ -1784,6 +1787,7 @@ class CfgVehicles {
             scope = 2;
             scopeCurator = 2;
             displayName = "Corpsman";
+            attendant = 1;
             side = 1;
             faction = "CFP_B_USMC_DES";
 
@@ -2032,6 +2036,7 @@ class CfgVehicles {
             scope = 2;
             scopeCurator = 2;
             displayName = "UAV Operator";
+            uavHacker = 1;
             side = 1;
             faction = "CFP_B_USMC_DES";
 
@@ -2156,6 +2161,7 @@ class CfgVehicles {
             scope = 2;
             scopeCurator = 2;
             displayName = "Demolitions Specialist";
+            canDeactivateMines = 1;
             side = 1;
             faction = "CFP_B_USMC_DES";
 
@@ -2342,6 +2348,7 @@ class CfgVehicles {
             scope = 2;
             scopeCurator = 2;
             displayName = "Saboteur";
+            canDeactivateMines = 1;
             side = 1;
             faction = "CFP_B_USMC_DES";
 
@@ -6068,6 +6075,7 @@ class CfgVehicles {
             scope = 2;
             scopeCurator = 2;
             displayName = "Engineer";
+            engineer = 1;
             side = 1;
             faction = "CFP_B_USMC_DES";
 

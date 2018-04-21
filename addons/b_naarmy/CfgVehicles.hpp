@@ -403,7 +403,7 @@ class CfgVehicles {
     class CFP_B_NAARMY_Medic_01 : CFP_B_NAARMY_Squad_Leader_01 {
 
         displayName = "Medic";
-
+        attendant = 1;
         backpack = "CFP_AssaultPack_PolygonDesert";
         weapons[] = {"CUP_arifle_AKM","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_AKM","Throw","Put"};
@@ -418,7 +418,7 @@ class CfgVehicles {
     class CFP_B_NAARMY_Explosive_Specialist_01 : CFP_B_NAARMY_Squad_Leader_01 {
 
         displayName = "Explosive Specialist";
-
+        canDeactivateMines = 1;
         backpack = "CFP_AssaultPack_PolygonDesert";
         weapons[] = {"CUP_arifle_AK74M","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_AK74M","Throw","Put"};
@@ -436,7 +436,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Sniper";
         side = 1;
-	genericNames = "Afromen";
+	    genericNames = "Afromen";
         faction = "CFP_B_NAARMY";
 
         identityTypes[] = {"Head_African","LanguageENGFRE_F","G_IRAN_default"};
@@ -474,7 +474,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Crew Officer";
         side = 1;
-	genericNames = "Afromen";
+	    genericNames = "Afromen";
         faction = "CFP_B_NAARMY";
 
         identityTypes[] = {"Head_African","LanguageENGFRE_F","G_IRAN_default"};
@@ -1166,7 +1166,7 @@ class CfgVehicles {
     class CFP_B_NAARMY_Explosive_Specialist_SF_01 : CFP_B_NAARMY_Rifleman_SF_01 {
 
         displayName = "Explosive Specialist [SF]";
-
+        canDeactivateMines = 1;
         backpack = "B_Carryall_oli";
         weapons[] = {"CUP_arifle_AKM","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_AKM","Throw","Put"};
@@ -1181,7 +1181,7 @@ class CfgVehicles {
     class CFP_B_NAARMY_Medic_SF_01 : CFP_B_NAARMY_Rifleman_SF_01 {
 
         displayName = "Medic [SF]";
-
+        attendant = 1;
         backpack = "CUP_B_USPack_Black";
         weapons[] = {"CUP_arifle_AKM","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_AKM","Throw","Put"};
@@ -1653,7 +1653,7 @@ class CfgVehicles {
         class CFP_B_NAARMY_Engineer_01 : CFP_B_NAARMY_Squad_Leader_01 {
 
         displayName = "Engineer";
-
+        engineer =1;
         linkedItems[] = {"V_I_G_resistanceLeader_F","CFP_Basic_Helmet_Woodland","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"V_I_G_resistanceLeader_F","CFP_Basic_Helmet_Woodland","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         weapons[] = {"CUP_arifle_AKM"};

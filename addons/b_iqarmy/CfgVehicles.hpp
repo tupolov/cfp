@@ -166,6 +166,7 @@ class CfgVehicles
 		scope = 2;
 		scopeCurator = 2;
 		displayName = "IA Sapper";
+		engineer = 1;
 		icon = "iconManExplosive";
 		backpack = "B_AssaultPack_khk";
 		headgearProbability = 40;

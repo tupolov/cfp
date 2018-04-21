@@ -211,6 +211,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman";
         side = 1;
+        genericNames = "Afromen";
         faction = "CFP_B_KEARMY";
 
         identityTypes[] = {"Head_African","LanguageENGFRE_F"};
@@ -302,7 +303,7 @@ class CfgVehicles {
     class CFP_B_KEARMY_Medic_01 : CFP_B_KEARMY_Rifleman_01 {
 
         displayName = "Medic";
-
+        attendant = 1;
         backpack = "CUP_B_Bergen_BAF";
         weapons[] = {"CUP_arifle_M4A1","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_M4A1","Throw","Put"};
@@ -317,7 +318,7 @@ class CfgVehicles {
     class CFP_B_KEARMY_Explosive_Specialist_01 : CFP_B_KEARMY_Rifleman_01 {
 
         displayName = "Explosive Specialist";
-
+        canDeactivateMines = 1;
         backpack = "CFP_Carryall_DPMWoodland";
         weapons[] = {"CUP_arifle_M4A1","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_M4A1","Throw","Put"};
@@ -335,6 +336,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Sniper";
         side = 1;
+        genericNames = "Afromen";
         faction = "CFP_B_KEARMY";
 
         identityTypes[] = {"Head_African","LanguageENGFRE_F"};
@@ -372,6 +374,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Spotter";
         side = 1;
+        genericNames = "Afromen";
         faction = "CFP_B_KEARMY";
 
         identityTypes[] = {"Head_African","LanguageENGFRE_F"};
@@ -439,6 +442,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman [20th PB]";
         side = 1;
+        genericNames = "Afromen";
         faction = "CFP_B_KEARMY";
 
         identityTypes[] = {"Head_African","LanguageENGFRE_F"};
@@ -538,7 +542,7 @@ class CfgVehicles {
     class CFP_B_KEARMY_Medic_20th_PB_01 : CFP_B_KEARMY_Rifleman_20th_PB_01 {
 
         displayName = "Medic [20th PB]";
-
+        attendant = 1;
         backpack = "B_AssaultPack_khk";
         weapons[] = {"CUP_arifle_Mk16_STD","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_Mk16_STD","Throw","Put"};
@@ -553,7 +557,7 @@ class CfgVehicles {
     class CFP_B_KEARMY_Explosive_Specialist_20th_PB_01 : CFP_B_KEARMY_Rifleman_20th_PB_01 {
 
         displayName = "Explosive Specialist [20th PB]";
-
+        canDeactivateMines = 1;
         backpack = "CFP_Carryall_DPMWoodland";
         weapons[] = {"CUP_arifle_Mk16_STD","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_Mk16_STD","Throw","Put"};
@@ -586,6 +590,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman [GSU Recce]";
         side = 1;
+        genericNames = "Afromen";
         faction = "CFP_B_KEARMY";
 
         identityTypes[] = {"Head_African","LanguageENGFRE_F"};
@@ -658,6 +663,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Helicopter Pilot";
         side = 1;
+        genericNames = "Afromen";
         faction = "CFP_B_KEARMY";
 
         identityTypes[] = {"Head_African","LanguageENGFRE_F"};
@@ -700,6 +706,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Crew";
         side = 1;
+        genericNames = "Afromen";
         faction = "CFP_B_KEARMY";
 
         identityTypes[] = {"Head_African","LanguageENGFRE_F"};
@@ -1243,7 +1250,7 @@ class CfgVehicles {
     class CFP_B_KEARMY_Engineer_01 : CFP_B_KEARMY_Rifleman_01 {
 
         displayName = "Engineer";
-
+        engineer = 1;
         linkedItems[] = {"CUP_V_BAF_Osprey_Mk2_DPM_Empty","SP_Mk7Helmet_Green1","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CUP_V_BAF_Osprey_Mk2_DPM_Empty","SP_Mk7Helmet_Green1","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 

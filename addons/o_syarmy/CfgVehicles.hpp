@@ -178,6 +178,8 @@ class CfgVehicles
 		scopeCurator = 2;
 		displayName = "SAA Sapper";
 		icon = "iconManExplosive";
+		engineer = 1;
+		canDeactivateMines = 1;
 		nakedUniform = "U_BasicBody";
 		backpack = "B_AssaultPack_khk";
 		headgearProbability = 60;

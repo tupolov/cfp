@@ -1239,7 +1239,7 @@ class CfgVehicles {
     class CFP_B_AFARMY_Explosive_Specialist_SF_01 : CFP_B_AFARMY_Operator_01 {
 
         displayName = "Explosive Specialist [SF]";
-
+        canDeactivateMines = 1;
 
         weapons[] = {"arifle_SPAR_01_blk_F","CUP_hgun_Glock17_blk","Throw","Put"};
         respawnWeapons[] = {"arifle_SPAR_01_blk_F","CUP_hgun_Glock17_blk","Throw","Put"};
@@ -1269,7 +1269,7 @@ class CfgVehicles {
     class CFP_B_AFARMY_Medic_SF_01 : CFP_B_AFARMY_Operator_01 {
 
         displayName = "Medic [SF]";
-
+        attendant = 1;
 
         weapons[] = {"arifle_SPAR_01_blk_F","CUP_hgun_Glock17_blk","Throw","Put"};
         respawnWeapons[] = {"arifle_SPAR_01_blk_F","CUP_hgun_Glock17_blk","Throw","Put"};
@@ -1358,7 +1358,7 @@ class CfgVehicles {
     class CFP_B_AFARMY_Explosive_Specialist_Light_SF_01 : CFP_B_AFARMY_Operator_Light_SF_01 {
 
         displayName = "Explosive Specialist Light [SF]";
-
+        canDeactivateMines = 1;
 
         weapons[] = {"arifle_SPAR_01_blk_F","CUP_hgun_Glock17_blk","Throw","Put"};
         respawnWeapons[] = {"arifle_SPAR_01_blk_F","CUP_hgun_Glock17_blk","Throw","Put"};
@@ -1388,7 +1388,7 @@ class CfgVehicles {
     class CFP_B_AFARMY_Medic_Light_SF_01 : CFP_B_AFARMY_Operator_Light_SF_01 {
 
         displayName = "Medic Light [SF]";
-
+        attendant = 1;
 
         weapons[] = {"arifle_SPAR_01_blk_F","CUP_hgun_Glock17_blk","Throw","Put"};
         respawnWeapons[] = {"arifle_SPAR_01_blk_F","CUP_hgun_Glock17_blk","Throw","Put"};

@@ -437,6 +437,8 @@ class CfgVehicles
         scopeCurator = 2;
         displayName = "IS Sapper";
         icon = "iconManExplosive";
+        engineer = 1;
+        canDeactivateMines = 1;
         backpack = "B_AssaultPack_khk";
         randomGearProbability = 60;
         randomWeaponProbability = 100;
@@ -679,7 +681,7 @@ class CfgVehicles
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_Offroad_MG_flag.jpg";
     };
-	
+
 	class B_G_Offroad_01_AT_F;
 	class B_G_Offroad_01_AT_F_OCimport_01 : B_G_Offroad_01_AT_F { scope = 0; class Eventhandlers; };
     class cfp_i_is_offroad_AT : B_G_Offroad_01_AT_F_OCimport_01
@@ -703,7 +705,7 @@ class CfgVehicles
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_Offroad_MG.jpg";
     };
-	
+
 	class I_C_Offroad_02_LMG_F;
 	class I_C_Offroad_02_LMG_F_OCimport_01 : I_C_Offroad_02_LMG_F { scope = 0; class Eventhandlers; };
     class cfp_i_is_jeep_lmg : I_C_Offroad_02_LMG_F_OCimport_01
@@ -716,7 +718,7 @@ class CfgVehicles
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman","cfp_i_is_crewman"};
-		
+
         hiddenSelections[] = {"camo","camo2","camo3","camo4"};
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Jeep\offroad_02_ext_muddy.paa","\x\cfp\addons\vehicles\Jeep\offroad_02_ext_muddy.paa","\x\cfp\addons\vehicles\Jeep\offroad_02_int_muddy.paa","\x\cfp\addons\vehicles\Jeep\offroad_02_int_muddy.paa"};
         class EventHandlers : EventHandlers
@@ -728,7 +730,7 @@ class CfgVehicles
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_Jeep_LMG.jpg";
     };
-	
+
 	class I_C_Offroad_02_AT_F;
 	class I_C_Offroad_02_AT_F_OCimport_01 : I_C_Offroad_02_AT_F { scope = 0; class Eventhandlers; };
     class cfp_i_is_jeep_at : I_C_Offroad_02_AT_F_OCimport_01
@@ -741,7 +743,7 @@ class CfgVehicles
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman","cfp_i_is_crewman"};
-		
+
         hiddenSelections[] = {"camo","camo2","camo3","camo4"};
         hiddenSelectionsTextures[] = {"\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_olive_co.paa","\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_olive_co.paa","\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_olive_co.paa","\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_olive_co.paa"};
         class EventHandlers : EventHandlers
@@ -753,7 +755,7 @@ class CfgVehicles
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_Jeep_AT.jpg";
     };
-	
+
     class CUP_I_Datsun_PK_TK_Random;
     class CUP_I_Datsun_PK_TK_Random_OCimport_01 : CUP_I_Datsun_PK_TK_Random { scope = 0; class EventHandlers; class Turrets; };
     class cfp_i_is_pickup_PK : CUP_I_Datsun_PK_TK_Random_OCimport_01

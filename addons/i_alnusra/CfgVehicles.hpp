@@ -172,6 +172,7 @@ class CfgVehicles
         scopeCurator = 2;
         displayName = "al-Nusra Sapper";
         icon = "iconManExplosive";
+        engineer = 1;
         backpack = "B_AssaultPack_khk";
         headgearProbability = 100;
         randomWeaponProbability = 100;

@@ -3478,6 +3478,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorSubCategory = "CFP_EdSubcat_Personnel_DesertEMR";
         displayName = "Medic";
+        attendant = 1;
         side = 0;
         faction = "CFP_O_RUARMY_DES";
 
@@ -3653,6 +3654,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorSubCategory = "CFP_EdSubcat_Personnel_DesertEMR";
         displayName = "Engineer";
+        engineer = 1;
         side = 0;
         faction = "CFP_O_RUARMY_DES";
 
@@ -3727,6 +3729,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorSubCategory = "CFP_EdSubcat_Personnel_DesertEMR";
         displayName = "Explosives Specialist";
+        canDeactivateMines = 1;
         side = 0;
         faction = "CFP_O_RUARMY_DES";
 
@@ -4870,6 +4873,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorSubCategory = "CFP_EdSubcat_Personnel_VDVDesertEMR";
         displayName = "Medic";
+        attendant = 1;
         side = 0;
         faction = "CFP_O_RUARMY_DES";
 
@@ -5046,6 +5050,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorSubCategory = "CFP_EdSubcat_Personnel_VDVDesertEMR";
         displayName = "Engineer";
+        engineer = 1;
         side = 0;
         faction = "CFP_O_RUARMY_DES";
 
@@ -5120,6 +5125,7 @@ class CfgVehicles {
         scopeCurator = 2;
         editorSubCategory = "CFP_EdSubcat_Personnel_VDVDesertEMR";
         displayName = "Explosives Specialist";
+        canDeactivateMines = 1;
         side = 0;
         faction = "CFP_O_RUARMY_DES";
 

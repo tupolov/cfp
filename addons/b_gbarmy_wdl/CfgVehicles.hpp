@@ -2034,6 +2034,7 @@ class CfgVehicles
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "Medic";
+                attendant = 1;
                 side = 1;
                 faction = "CFP_B_GBARMY_WDL";
 
@@ -2108,6 +2109,7 @@ class CfgVehicles
                 scope = 2;
                 scopeCurator = 2;
                 displayName = "Engineer";
+                engineer = 1;
                 side = 1;
                 faction = "CFP_B_GBARMY_WDL";
 

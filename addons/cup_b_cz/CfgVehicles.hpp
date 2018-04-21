@@ -222,6 +222,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Medic";
+        attendant = 1;
         side = 1;
         faction = "CUP_B_CZ";
 
@@ -706,6 +707,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Engineer";
+        engineer = 1;
         side = 1;
         faction = "CUP_B_CZ";
 
@@ -858,6 +860,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "SF Saboteur";
+        canDeactivateMines = 1;
         side = 1;
         faction = "CUP_B_CZ";
         editorSubCategory = "EdSubcat_Personnel_SpecialForces";

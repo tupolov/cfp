@@ -243,7 +243,7 @@ class CfgVehicles {
     class CFP_O_SOREBEL_Bonesetter_01 : CFP_O_SOREBEL_Rifleman_01 {
 
         displayName = "Bonesetter";
-
+        attendant = 1;
         backpack = "CFP_Kitbag_PolygonWoodland";
         weapons[] = {"CUP_arifle_AK74","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_AK74","Throw","Put"};
@@ -363,7 +363,7 @@ class CfgVehicles {
     class CFP_O_SOREBEL_Bonesetter_2_01 : CFP_O_SOREBEL_Rifleman_01 {
 
         displayName = "Bonesetter";
-
+        attendant = 1;
         backpack = "CFP_Kitbag_EDRL";
         weapons[] = {"CUP_arifle_FNFAL","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_FNFAL","Throw","Put"};
@@ -599,7 +599,8 @@ class CfgVehicles {
     class CFP_O_SOREBEL_Bombmaker_01 : CFP_O_SOREBEL_Rifleman_01 {
 
         displayName = "Bombmaker";
-
+        canDeactivateMines = 1;
+        engineer = 1;
         backpack = "CFP_KItbag_Woodland";
         weapons[] = {"CUP_arifle_AK74","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_AK74","Throw","Put"};
@@ -614,7 +615,8 @@ class CfgVehicles {
     class CFP_O_SOREBEL_Bombmaker_2_01 : CFP_O_SOREBEL_Rifleman_01 {
 
         displayName = "Bombmaker";
-
+        canDeactivateMines = 1;
+        engineer = 1;
         backpack = "CFP_Kitbag_M81";
         weapons[] = {"CUP_arifle_AK74","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_AK74","Throw","Put"};

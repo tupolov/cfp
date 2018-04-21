@@ -655,6 +655,45 @@ class CfgGroups {
                         vehicle = "CFP_B_UGARMY_Ural_ZU_23_01";
                     };
                 };
+
+                 class cfp_b_ugarmy_motorized_eod_team_rg_31 {
+                    name = "Motorized EOD Team [RG-31]";
+                    side = 1;
+                    faction = "CFP_B_UGARMY";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_UGARMY_RG_31_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CFP_B_UGARMY_Explosive_Specialist_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_UGARMY_Explosive_Specialist_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_UGARMY_Engineer_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_UGARMY_Engineer_01";
+                    };
+                };
             };
 
             class Motorized_MTP {

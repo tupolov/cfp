@@ -2413,6 +2413,7 @@ class CfgVehicles {
             scope = 2;
             scopeCurator = 2;
             displayName = "Medic";
+            attendant = 1;
             side = 1;
             faction = "CFP_B_USARMY_WDL";
 
@@ -2709,6 +2710,7 @@ class CfgVehicles {
             scope = 2;
             scopeCurator = 2;
             displayName = "Sapper";
+            engineer = 1;
             side = 1;
             faction = "CFP_B_USARMY_WDL";
 
@@ -2746,6 +2748,8 @@ class CfgVehicles {
             scope = 2;
             scopeCurator = 2;
             displayName = "EOD Engineer";
+            engineer =1;
+            canDeactivateMines = 1;
             side = 1;
             faction = "CFP_B_USARMY_WDL";
 
@@ -2783,6 +2787,7 @@ class CfgVehicles {
             scope = 2;
             scopeCurator = 2;
             displayName = "Engineer";
+            engineer = 1;
             side = 1;
             faction = "CFP_B_USARMY_WDL";
 

@@ -255,6 +255,8 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Explosive Specialist";
+        engineer = 1;
+        canDeactivateMines = 1;
         side = 0;
         faction = "CFP_O_ALQAEDA";
 
@@ -317,7 +319,7 @@ class CfgVehicles {
         editorPreview = \x\cfp\addons\o_alqaeda\data\preview\CFP_O_ALQAEDA_Medic_01.JPG;
 
         displayName = "Medic";
-
+        attendant = 1;
         backpack = "B_AssaultPack_rgr";
         weapons[] = {"CUP_arifle_AK47","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_AK47","Throw","Put"};

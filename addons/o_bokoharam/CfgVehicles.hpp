@@ -463,7 +463,7 @@ class CfgVehicles {
     class CFP_O_BH_Medic_AK47_01 : CFP_O_BH_Rifleman_AK47_01 {
 
         displayName = "Medic [AK47]";
-
+        attendant = 1;
         backpack = "CFP_Kitbag_PolygonWoodland";
         weapons[] = {"CUP_arifle_AK47","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_AK47","Throw","Put"};
@@ -478,7 +478,8 @@ class CfgVehicles {
     class CFP_O_BH_Explosive_Specialist_01 : CFP_O_BH_Rifleman_AK74_01 {
 
         displayName = "Explosive Specialist";
-
+        canDeactivateMines = 1;
+        engineer = 1;
         backpack = "CFP_Kitbag_Woodland";
         weapons[] = {"CUP_arifle_AK74M","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_AK74M","Throw","Put"};
