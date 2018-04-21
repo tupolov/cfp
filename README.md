@@ -50,79 +50,83 @@ Factions are delivered in a modular way, enabling groups to maintain their own t
 
 CFP factions cover major current conflict zones such as Afghanistan, Iraq, Syria, Libya, Sudan, Philippines, Ukraine, South America and African states dealing with Boko Haram, Al-Shabaab and islamic insurgencies such as Nigeria, Kenya, Central African Republic, Somalia, Yemen and Mali. In addition, western regular forces and special forces are represented along with historical and current aggressors. 
 
+**bold** = Complete
+
 ### OPFOR
 - Abu Sayyaf
-- *Al-Qaeda*
+- **Al-Qaeda**
 - Al-Qassam Brigades
-- *Al-Shabaab*
-- *Boko Haram* (Nigeria)
+- **Al-Shabaab**
+- **Boko Haram** (Nigeria)
 - Central African Rebels
 - Columbian FARC Rebels
-- *Hezbollah*
+- **Hezbollah**
 - Houthis (Yemen)
 - IRA
 - Iraqi Army (2003)
-- *Islamic State*
+- **Islamic State**
 - Libyan National Army
-- *Mali Islamic Rebels*
-- *Russian Ground Forces* - split into various theater specific factions including Special Operations Forces
-- *Russian National Guard* (formerly MVD)
+- Mali Islamic Rebels
+- **Russian Ground Forces** - split into various theater specific factions including Special Operations Forces
+- **Russian National Guard** (formerly MVD)
 - Russian Navy (Infantry)
-- Somali Rebels
+- **Somali Rebels**
 - South Thailand Insurgents
 - Sudan Army
 - Syrian Air Force
-- *Syrian Arab Army*
-- *Taliban Insurgents*
+- **Syrian Arab Army**
+- **Taliban Insurgents**
 - Western Ultranationalists / Terrorist
 
 ### INDFOR
+- **Al-Nusra**
 - Afghani Militia
 - Central African Republic Armed Forces
 - Chechnya Militia
 - Columbian Armed Forces
 - Egyptian Armed Forces
 - Free Syrian Army
-- *Islamic State*
+- **Islamic State**
 - Myanmar Armed Forces
 - PMC: Blackwater 
 - Sudanese Rebels
+- **Tuareg Rebels**
 - Ulster Loyalist Paramilitaries (Ulster Volunteer Force)
 - UNAMID (Niger, Chad, Cameroon etc)
 - Yemen Armed Forces
 
 ### BLUFOR
-- *Afghan Police*
-- *Afghanistan Army*
-- *Armed Forces of the Czech Republic* - split into theater factions
-- *British Army* - split into theater factions
-- *Bundeswehr (KSK)*  - split into theater factions
-- *Iraqi Armed Forces*
-- *Iraqi Police*
-- *Kenyan Defence Forces*
-- *Kurdish Peshmurga*
+- **Afghan Police**
+- **Afghanistan Army**
+- **Armed Forces of the Czech Republic** - split into theater factions
+- **British Army** - split into theater factions
+- **Bundeswehr (KSK)**  - split into theater factions
+- **Iraqi Armed Forces**
+- **Iraqi Police**
+- **Kenyan Defence Forces**
+- **Kurdish Peshmurga**
 - Libyan National Transitional Council / Government Forces
-- Malian Government Forces
-- *Nigerian Armed Forces* (Nigeria)
+- **Malian Government Forces**
+- **Nigerian Armed Forces** (Nigeria)
 - Philippine Army
 - Royal Thai Army
 - Saudi Armed Forces
 - Somali National Army
-- *Ugandan Defence Forces*
+- **Ugandan Defence Forces**
 - Ukraine Armed Forces
-- *US Army* - split into theater factions
-- *US CIA* (Middle East) 
+- **US Army** - split into theater factions
+- **US CIA** (Middle East) 
 - US CIA (South America)
-- *US Marine Corps* - split into theater factions
-- *YPG* (Syrian Kurds)
+- **US Marine Corps** - split into theater factions
+- **YPG** (Syrian Kurds)
 
 ### CIVILIAN
-- *African* (Christian)
-- African (Muslim)
-- Asian
+- **African** (Christian)
+- **African** (Muslim)
+- **Asian**
 - International Committee of the Red Cross
-- Afghani/Pakistani
-- *Middle Eastern* (Iraqi/Syrian/Libyan)
+- **Afghani/Pakistani**
+- **Middle Eastern** (Iraqi/Syrian/Libyan)
 - South American
 
 ## Customizing loadouts for CFP units in 3DEN
