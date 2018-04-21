@@ -91,6 +91,7 @@ class CfgPatches
 			"CFP_Tactical1_3colordesert",
 			"CFP_Tactical1_EDRL",
 			"CFP_Tactical1_Flecktarn",
+			"CFP_Tactical1_DPM",
 			"CFP_AK_VEST",
 			"CFP_AK_VEST_Black",
 			"CFP_AK_VEST_EDRL",

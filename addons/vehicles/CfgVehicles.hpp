@@ -1454,6 +1454,20 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\BTR60\btr60_saa_camo_4"};
                 factions[] = {};
             };
+            class Olive
+            {
+                displayName = "Olive";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\BTR60\olivebody1.paa","\x\cfp\addons\vehicles\BTR60\olivebody2.paa"};
+                factions[] = {};
+            };
+            class LGreen
+            {
+                displayName = "Light Green";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\BTR60\lgreenbody1.paa","\x\cfp\addons\vehicles\BTR60\lgreenbody2.paa"};
+                factions[] = {};
+            };
         };
     };
 
@@ -1605,6 +1619,49 @@ class CfgVehicles
             };
         };
     };
+
+    class MBT_02_base_F;
+    class CUP_T90_Base: MBT_02_base_F
+    {
+        class textureSources
+        {
+            class Olive
+            {
+                displayname = "Olive";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\T90\olivebody1.paa","\x\cfp\addons\vehicles\T90\olivebody2.paa","\x\cfp\addons\vehicles\T90\olivebody3.paa"};
+                factions[] = {};
+            };
+            class LGreen
+            {
+                displayname = "Light Green";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\T90\lgreenbody1.paa","\x\cfp\addons\vehicles\T90\lgreenbody2.paa","\x\cfp\addons\vehicles\T90\lgreenbody3.paa"};
+                factions[] = {};
+            };
+        };
+    };
+
+   class CUP_BTR90_Base: Wheeled_APC_F
+   {
+        class textureSources
+        {
+            class Olive
+            {
+                displayname = "Olive";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\BTR90\olivebody1.paa","\x\cfp\addons\vehicles\BTR90\olivebody2.paa"};
+                factions[] = {};
+            };
+            class LGreen
+            {
+                displayname = "Light Green";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\BTR90\lgreenbody1.paa","\x\cfp\addons\vehicles\BTR90\lgreenbody2.paa"};
+                factions[] = {};
+            };
+        };
+   };
 
     // Crates
     class CUP_RUBasicAmmunitionBox; // CUP_RUBasicAmmunitionBox

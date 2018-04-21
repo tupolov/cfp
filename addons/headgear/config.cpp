@@ -207,6 +207,8 @@ class CfgPatches
 			"CFP_PASGTHelmet_M812",
 			"CFP_PASGTHelmet_Marpat1",
 			"CFP_PASGTHelmet_Marpat2",
+			"CFP_PASGTHelmet_SFUPDF1",
+			"CFP_PASGTHelmet_SFUPDF2",
 			"SP_PatrolCap_Black",
 			"SP_PatrolCap_Blue",
 			"SP_PatrolCap_Green",
