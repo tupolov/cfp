@@ -284,7 +284,7 @@ class CfgVehicles {
     };
 
 
-    class CFP_B_UGArmy_Crew_01 : O_Soldier_F_OCimport_02 {
+    class CFP_B_UGARMY_Crew_01 : O_Soldier_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;

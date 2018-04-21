@@ -1,7 +1,7 @@
 class CfgPatches {
     class CFP_B_UGARMY {
         units[] = {
-            "CFP_B_UGArmy_Crew_01",
+            "CFP_B_UGARMY_Crew_01",
             "CFP_B_UGARMY_Rifleman_Light_01",
             "CFP_B_UGARMY_Machine_Gunner_Light_01",
             "CFP_B_UGARMY_Rifleman_AT_Light_01",
@@ -61,11 +61,9 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = 1.62;
         requiredAddons[] = {
-            "CFP_B_CAF",
             "CFP_O_HEZBOLLAH",
             "CFP_B_NAARMY",
             "CFP_O_BOKOHARAM",
-            "CFP_I_TUAREG",
             "CFP_O_ALSHABAAB",
             "CFP_O_ALQAEDA",
             "CFP_B_USMC_DES",
