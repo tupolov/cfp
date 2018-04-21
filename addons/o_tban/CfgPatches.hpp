@@ -47,7 +47,7 @@ class CfgPatches {
             "A3_Soft_F_Gamma_Van_01",
             "A3_Soft_F_Bootcamp_Van_01",
             "CUP_WheeledVehicles_Ural",
-	    "CUP_Weapons_StaticWeapons",
+	        "CUP_Weapons_StaticWeapons",
             "CFP_Main",
             "CFP_Uniforms"
         };

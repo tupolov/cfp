@@ -61,10 +61,8 @@ class CfgPatches {
         requiredVersion = 1.62;
         requiredAddons[] = {
             "CFP_O_HEZBOLLAH",
-            "CFP_B_CAF",
             "CFP_B_AFARMY",
             "CFP_O_BOKOHARAM",
-            "CFP_I_TUAREG",
             "CFP_O_ALSHABAAB",
             "A3_Characters_F",
             "cfp_uniforms",
