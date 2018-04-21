@@ -211,7 +211,7 @@ class CfgVehicles
 		camouflage = 1;
 		backpack = "";
 		headgearProbability = 100;
-		allowedHeadgear[] = {"CFP_OPS2017_Helmet_Black","VSM_OPS2017_Helmet_Tan"};
+		allowedHeadgear[] = {"CFP_OPS2017_Helmet_Black","CFP_OPS2017_Helmet_Black2","VSM_OPS2017_Helmet_Tan"};
 		allowedHeadgearB[] = {""};
 		facewear = "G_Bandanna_blk";
 		allowedfacewear[] = {"G_Bandanna_blk","G_Bandanna_blk","G_Bandanna_blk","G_Bandanna_blk","G_Bandanna_khk","G_Bandanna_oli"};

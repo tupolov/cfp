@@ -475,8 +475,8 @@ class CfgVehicles {
         respawnWeapons[] = {"CUP_arifle_AK74M","CUP_hgun_M9","Throw","Put"};
         linkedItems[] = {"CFP_RAV_MG_OCP","H_HelmetB_light_desert","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
         respawnLinkedItems[] = {"CFP_RAV_MG_OCP","H_HelmetB_light_desert","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
-        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
-        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_15Rnd_9x19_M9"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_15Rnd_9x19_M9"};
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{"CUP_hgun_M9","","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"SP_0000_Standard_FieldUniform_Tan_SS",{{"CUP_30Rnd_545x39_AK_M",4,30},{"CUP_15Rnd_9x19_M9",1,15}}},{"CFP_RAV_MG_OCP",{{"CUP_30Rnd_545x39_AK_M",1,30},{"CUP_15Rnd_9x19_M9",1,15},{"CUP_HandGrenade_L109A2_HE",4,1}}},{"B_Carryall_cbr",{}},"H_HelmetB_light_desert","G_Lowprofile",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
     };

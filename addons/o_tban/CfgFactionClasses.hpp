@@ -8,8 +8,8 @@ class CfgFactionClasses {
     class CFP_O_TBAN {
         displayName = "Taliban Insurgents";
         side = 0;
-        flag = "CUP\BaseConfigs\CUP_BaseConfigs\Data\Flags\flag_tkm_co.paa";
-        icon = "CUP\BaseConfigs\CUP_BaseConfigs\Data\Flags\flag_tkm_co.paa";
+        flag = "x\cfp\addons\flags\Afghanistan\Taliban.paa";
+        icon = "x\cfp\addons\flags\Afghanistan\Taliban.paa";
         priority = 0;
     };
 };
