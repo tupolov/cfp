@@ -52,28 +52,28 @@ CFP factions cover major current conflict zones such as Afghanistan, Iraq, Syria
 
 ### OPFOR
 - Abu Sayyaf
-- Al-Qaeda
+- *Al-Qaeda*
 - Al-Qassam Brigades
-- Al-Shabaab
-- Boko Haram (Nigeria)
+- *Al-Shabaab*
+- *Boko Haram* (Nigeria)
 - Central African Rebels
 - Columbian FARC Rebels
-- Hezbollah
+- *Hezbollah*
 - Houthis (Yemen)
 - IRA
 - Iraqi Army (2003)
-- Islamic State
+- *Islamic State*
 - Libyan National Army
-- Mali Islamic Rebels
-- Russian Ground Forces - split into various theater specific factions including Special Operations Forces
-- Russian National Guard (formerly MVD)
+- *Mali Islamic Rebels*
+- *Russian Ground Forces* - split into various theater specific factions including Special Operations Forces
+- *Russian National Guard* (formerly MVD)
 - Russian Navy (Infantry)
 - Somali Rebels
 - South Thailand Insurgents
 - Sudan Army
 - Syrian Air Force
-- Syrian Arab Army
-- Taliban Insurgents
+- *Syrian Arab Army*
+- *Taliban Insurgents*
 - Western Ultranationalists / Terrorist
 
 ### INDFOR
@@ -83,7 +83,7 @@ CFP factions cover major current conflict zones such as Afghanistan, Iraq, Syria
 - Columbian Armed Forces
 - Egyptian Armed Forces
 - Free Syrian Army
-- Islamic State
+- *Islamic State*
 - Myanmar Armed Forces
 - PMC: Blackwater 
 - Sudanese Rebels
@@ -92,38 +92,41 @@ CFP factions cover major current conflict zones such as Afghanistan, Iraq, Syria
 - Yemen Armed Forces
 
 ### BLUFOR
-- Afghan Police
-- Afghanistan Army 
-- Armed Forces of the Czech Republic - split into theater factions
-- British Army - split into theater factions
-- Bundeswehr (KSK)  - split into theater factions
-- Iraqi Armed Forces
-- Iraqi Police
-- Kenyan Defence Forces
-- Kurdish Peshmurga
+- *Afghan Police*
+- *Afghanistan Army*
+- *Armed Forces of the Czech Republic* - split into theater factions
+- *British Army* - split into theater factions
+- *Bundeswehr (KSK)*  - split into theater factions
+- *Iraqi Armed Forces*
+- *Iraqi Police*
+- *Kenyan Defence Forces*
+- *Kurdish Peshmurga*
 - Libyan National Transitional Council / Government Forces
 - Malian Government Forces
-- Nigerian Armed Forces (Nigeria)
+- *Nigerian Armed Forces* (Nigeria)
 - Philippine Army
 - Royal Thai Army
 - Saudi Armed Forces
 - Somali National Army
-- Ugandan Defence Forces
+- *Ugandan Defence Forces*
 - Ukraine Armed Forces
-- US Army - split into theater factions
-- US CIA (Middle East) 
+- *US Army* - split into theater factions
+- *US CIA* (Middle East) 
 - US CIA (South America)
-- US Marine Corps - split into theater factions
-- YPG (Syrian Kurds)
+- *US Marine Corps* - split into theater factions
+- *YPG* (Syrian Kurds)
 
 ### CIVILIAN
-- African (Christian)
+- *African* (Christian)
 - African (Muslim)
 - Asian
 - International Committee of the Red Cross
 - Afghani/Pakistani
-- Middle Eastern (Iraqi/Syrian/Libyan)
+- *Middle Eastern* (Iraqi/Syrian/Libyan)
 - South American
+
+## Customizing loadouts for CFP units in 3DEN
+CFP uses technology to script and randomize loadouts of units. In order to customize the loadouts of units in 3DEN editor, you will first need to disable the scripted loadout and/or the randomization. To do this simply *Right-Click* the unit in 3DEN and select *Attributes*, then check the box *Override ALiVE ORBAT Loadout* and/or *Disable CFP Randomization* as needed.
 
 ## CFP Ultimate
 
@@ -159,4 +162,4 @@ To help us test the latest development changes, download our master branch ([dir
 
 ## License
 
-CFP is licensed under the Creative Commons No-Derivatives 4.0 License ([CC-ND](https://github.com/tupolov/CFP/blob/master/LICENSE)).
+CFP is currently licensed under the Creative Commons No-Derivatives 4.0 License ([CC-ND](https://github.com/tupolov/CFP/blob/master/LICENSE)).
