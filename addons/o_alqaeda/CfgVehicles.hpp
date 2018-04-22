@@ -181,13 +181,6 @@ class CfgVehicles {
         	"IS_shemag_black", 0.1
 		};
 
-        facewearList[] = {
-            "CFP_Beard", 0.8,
-            "G_Balaclava_oli", 0.1,
-            "IS_Balaclava", 0.1,
-            "IS_Balaclava_logo1", 0.1
-        };
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -295,8 +288,7 @@ class CfgVehicles {
 
 	// Al Qaeda Facewear
 		facewearList[] = {
-            "CFP_Beard", 0.5,
-        	"G_Balaclava_oli", 0.33,
+            "G_Balaclava_oli", 0.33,
         	"IS_Balaclava", 0.33,
         	"IS_Balaclava_logo1", 0.33
 		};
