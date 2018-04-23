@@ -3,7 +3,9 @@
 // Generated with Arma 3 version 182.144647 on Stable branch
 // Generated with ALiVE version 1.6.0.1804112
 //////////////////////////////////////////////////////////////////////////////////
-
+#define mag_xx(a,b) class _xx_##a {magazine = ##a; count = b;}
+#define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
+#define item_xx(a,b) class _xx_##a {name = a; count = b;}
 
 class CBA_Extended_EventHandlers_base;
 
@@ -285,6 +287,7 @@ class CfgVehicles {
 
 
     class CFP_B_UGARMY_Crew_01 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Crew_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -325,6 +328,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_Rifleman_Light_01 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Rifleman_Light_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -365,6 +369,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_Machine_Gunner_Light_01 : CFP_B_UGARMY_Rifleman_Light_01 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Machine_Gunner_Light_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -407,6 +412,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_Rifleman_AT_Light_01 : CFP_B_UGARMY_Rifleman_Light_01 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Rifleman_AT_Light_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -449,6 +455,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_Squad_Leader_Light_01 : CFP_B_UGARMY_Rifleman_Light_01 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Squad_Leader_Light_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -489,6 +496,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_Grenadier_Light_01 : CFP_B_UGARMY_Squad_Leader_Light_01 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Grenadier_Light_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -531,6 +539,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_Engineer_Light_01 : CFP_B_UGARMY_Rifleman_Light_01 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Engineer_Light_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -573,6 +582,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_Explosive_Specialist_Light_01 : CFP_B_UGARMY_Engineer_Light_01 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Explosive_Specialist_Light_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -615,6 +625,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_Medic_Light_01 : CFP_B_UGARMY_Engineer_Light_01 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Medic_Light_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -657,6 +668,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_Rifleman_01 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Rifleman_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -682,47 +694,48 @@ class CfgVehicles {
 
         randomGearProbability = 100;
 
-    // Ugandan Army Uniforms
-        uniformList[] = {
-    "CFP_U_BattleDressUniform_M81", 0.25,
-    "CFP_U_BattleDressUniform_M81light", 0.25,
-    "CFP_U_BattleDressUniform_marpatugandadark", 0.25,
-    "CFP_U_BattleDressUniform_marpatugandaLight", 0.25
-        };
-
-    // Ugandan Army Headgear
-        headgearList[] = {
-    "CFP_Basic_Helmet_Black", 0.25,
-    "CFP_Basic_Helmet_ArmyGreen", 0.25,
-    "CFP_Basic_Helmet_Gray_Green", 0.25,
-    "CFP_Basic_Helmet_Tan", 0.25,
-    "CFP_Basic_Helmet_M81", 0.25
-        };
-
-    //Vests
-        vestList[] = {
-    "CFP_Tactical1_M81", 0.25,
-    "CFP_Tactical1_Marpat", 0.25,
-    "CFP_Tactical1_Woodland", 0.25,
-    "CFP_Tactical1_EDRL", 0.25
-        };
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_FLAG_UGANDA'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+        // Ugandan Army Uniforms
+            uniformList[] = {
+        "CFP_U_BattleDressUniform_M81", 0.25,
+        "CFP_U_BattleDressUniform_M81light", 0.25,
+        "CFP_U_BattleDressUniform_marpatugandadark", 0.25,
+        "CFP_U_BattleDressUniform_marpatugandaLight", 0.25
             };
 
-        };
+        // Ugandan Army Headgear
+            headgearList[] = {
+        "CFP_Basic_Helmet_Black", 0.25,
+        "CFP_Basic_Helmet_ArmyGreen", 0.25,
+        "CFP_Basic_Helmet_Gray_Green", 0.25,
+        "CFP_Basic_Helmet_Tan", 0.25,
+        "CFP_Basic_Helmet_M81", 0.25
+            };
 
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_insignia = "USP_PATCH_FLAG_UGANDA";
+        //Vests
+            vestList[] = {
+        "CFP_Tactical1_M81", 0.25,
+        "CFP_Tactical1_Marpat", 0.25,
+        "CFP_Tactical1_Woodland", 0.25,
+        "CFP_Tactical1_EDRL", 0.25
+            };
+
+            class EventHandlers : EventHandlers {
+                class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+                class ALiVE_orbatCreator {
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_FLAG_UGANDA'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                };
+
+            };
+
+            // custom attributes (do not delete)
+            ALiVE_orbatCreator_owned = 1;
+            ALiVE_orbatCreator_insignia = "USP_PATCH_FLAG_UGANDA";
 
     };
 
     class CFP_B_UGARMY_Rifleman_AT_01 : CFP_B_UGARMY_Rifleman_01 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Rifleman_AT_01.JPG;
 
         displayName = "Rifleman AT";
 
@@ -740,6 +753,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_Squad_Leader_01 : CFP_B_UGARMY_Rifleman_01 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Squad_Leader_01.JPG;
 
         displayName = "Squad Leader";
 
@@ -755,6 +769,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_Machine_Gunner_01 : CFP_B_UGARMY_Rifleman_01 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Machine_Gunner_01.JPG;
 
         displayName = "Machine Gunner";
 
@@ -772,6 +787,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_Grenadier_01 : CFP_B_UGARMY_Rifleman_01 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Grenadier_01.JPG;
 
         displayName = "Grenadier";
 
@@ -789,6 +805,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_Engineer_01 : CFP_B_UGARMY_Rifleman_01 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Engineer_01.JPG;
 
         displayName = "Engineer";
         engineer = 1;
@@ -806,6 +823,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_Explosive_Specialist_01 : CFP_B_UGARMY_Rifleman_01 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Explosive_Specialist_01.JPG;
 
         displayName = "Explosive Specialist";
         canDeactivateMines = 1;
@@ -823,6 +841,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_Medic_01 : CFP_B_UGARMY_Rifleman_01 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Medic_01.JPG;
 
         displayName = "Medic";
         attendant = 1;
@@ -840,6 +859,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_Helicopter_Pilot_01 : O_helipilot_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Helicopter_Pilot_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -879,6 +899,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_Mi_24D_01 : CUP_O_Mi24_D_Dynamic_TK_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Mi_24D_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -909,6 +930,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_Mi_17_01 : CUP_O_Mi17_TK_OCImport_02_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Mi_17_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -919,7 +941,8 @@ class CfgVehicles {
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_UGARMY_Helicopter_Pilot_01"; };
-            class BackTurret : BackTurret { gunnerType = "CFP_B_UGARMY_Helicopter_Pilot_01"; };
+            class BackTurret : BackTurret {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\BackTurret.JPG; gunnerType = "CFP_B_UGARMY_Helicopter_Pilot_01"; };
             class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_UGARMY_Helicopter_Pilot_01"; };
         };
 
@@ -941,6 +964,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_Mi_17_VIV_01 : CUP_O_Mi17_VIV_TK_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Mi_17_VIV_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -971,6 +995,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_T55_01 : CUP_O_T55_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_T55_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1006,6 +1031,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_BMP_2_01 : CUP_O_BMP2_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_BMP_2_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1041,6 +1067,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_BRDM_2_01 : CUP_O_BRDM2_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_BRDM_2_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1070,6 +1097,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_Ural_01 : CUP_O_Ural_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Ural_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1100,6 +1128,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_Ural_Refuel_01 : CUP_O_Ural_Refuel_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Ural_Refuel_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1124,6 +1153,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_Ural_Repair_01 : CUP_O_Ural_Repair_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Ural_Repair_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1148,6 +1178,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_Ural_Ammo_01 : CUP_O_Ural_Reammo_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Ural_Ammo_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1172,6 +1203,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_Ural_Open_01 : CUP_O_Ural_Open_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Ural_Open_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1202,6 +1234,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_BM_21_01 : CUP_O_BM21_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_BM_21_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1231,6 +1264,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_Ural_ZU_23_01 : CUP_O_Ural_ZU23_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Ural_ZU_23_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1260,6 +1294,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_RG_31_01 : CUP_B_RG31_M2_OD_USMC_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_RG_31_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1289,6 +1324,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_UAZ_Open_01 : CUP_O_UAZ_Open_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_UAZ_Open_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1322,6 +1358,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_UAZ_DShKM_01 : CUP_O_UAZ_MG_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_UAZ_DShKM_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1352,6 +1389,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_UAZ_SPG_01 : CUP_O_UAZ_SPG9_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_UAZ_SPG_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1382,6 +1420,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_UAZ_01 : CUP_O_UAZ_Unarmed_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_UAZ_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1406,6 +1445,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_T90_01 : CUP_O_T90_RU_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_T90_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1436,6 +1476,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_Operator_01 : O_recon_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Operator_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1476,6 +1517,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_Operator_Team_Leader_01 : CFP_B_UGARMY_Operator_01 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Operator_Team_Leader_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1518,6 +1560,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_Operator_Medic_01 : CFP_B_UGARMY_Operator_01 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Operator_Medic_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1560,6 +1603,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_Operator_Explosive_Specialist_01 : CFP_B_UGARMY_Operator_01 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Operator_Explosive_Specialist_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1602,6 +1646,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_Gunner_DShKM_01 : CFP_B_UGARMY_Rifleman_01 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Gunner_DShKM_01.JPG;
 
         displayName = "Gunner [DShKM]";
 
@@ -1620,6 +1665,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_Asst_Gunner_DShKM_01 : CFP_B_UGARMY_Rifleman_01 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Asst_Gunner_DShKM_01.JPG;
 
         displayName = "Asst. Gunner [DShKM]";
 
@@ -1637,6 +1683,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_Gunner_Mortar_01 : CFP_B_UGARMY_Rifleman_01 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Gunner_Mortar_01.JPG;
 
         displayName = "Gunner [Mortar]";
 
@@ -1654,6 +1701,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_Asst_Gunner_Mortar_01 : CFP_B_UGARMY_Rifleman_01 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Asst_Gunner_Mortar_01.JPG;
 
         displayName = "Asst. Gunner [Mortar]";
 
@@ -1671,6 +1719,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_Gunner_SPG_01 : CFP_B_UGARMY_Rifleman_01 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Gunner_SPG_01.JPG;
 
         displayName = "Gunner [SPG-9]";
 
@@ -1688,6 +1737,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_Asst_Gunner_SPG_01 : CFP_B_UGARMY_Rifleman_01 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Asst_Gunner_SPG_01.JPG;
 
         displayName = "Asst. Gunner [SPG-9]";
 
@@ -1705,6 +1755,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_DShKM_Minitripod_01 : CUP_O_DSHKM_MiniTripod_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_DShKM_Minitripod_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1734,6 +1785,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_DShKM_01 : CUP_O_DSHKM_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_DShKM_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1763,6 +1815,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_Podnos_2B14_01 : CUP_O_2b14_82mm_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Podnos_2B14_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1792,6 +1845,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_SPG_9_01 : CUP_O_SPG9_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_SPG_9_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1821,6 +1875,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_D30_AT_01 : CUP_O_D30_AT_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_D30_AT_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1850,6 +1905,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_ZU_23_01 : CUP_O_ZU23_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_ZU_23_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1879,6 +1935,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_BTR_90_01 : CUP_O_BTR90_RU_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_BTR_90_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1917,6 +1974,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_BTR_60_01 : CUP_O_BTR60_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_BTR_60_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1956,6 +2014,7 @@ class CfgVehicles {
     };
 
     class CFP_B_UGARMY_Sniper_01 : CFP_B_UGARMY_Rifleman_01 {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Sniper_01.JPG;
 
         displayName = "Sniper";
 
@@ -1970,4 +2029,242 @@ class CfgVehicles {
 
     };
 
+    class CUP_RUBasicAmmunitionBox; // CUP_RUBasicAmmunitionBox
+
+    class CUP_RUBasicWeaponsBox; // CUP_RUBasicWeaponsBox
+
+    class CUP_RUSpecialWeaponsBox; // CUP_RUSpecialWeaponsBox
+
+    class CUP_RULaunchersBox; // CUP_RULaunchersBox
+
+    class CUP_RUVehicleBox; // CUP_RUVehicleBox
+
+    class CFP_B_UGARMY_AmmoBox : CUP_RUBasicAmmunitionBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = "Uganda People's Defense Force Ammo Box";
+        class TransportMagazines {
+            mag_xx(CUP_8Rnd_9x18_Makarov_M,50);
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_PG7V_M,50);
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_1Rnd_SMOKE_GP25_M,50);
+            mag_xx(DemoCharge_Remote_Mag,50);
+            mag_xx(SatchelCharge_Remote_Mag,50);
+            mag_xx(ATMine_Range_Mag,50);
+            mag_xx(SmokeShellRed,50);
+            mag_xx(SmokeShellOrange,50);
+            mag_xx(SmokeShellYellow,50);
+            mag_xx(CUP_17Rnd_9x19_glock17,50);
+            mag_xx(Chemlight_red,50);
+            mag_xx(CUP_30Rnd_Sa58_M_TracerG,50);
+            mag_xx(SmokeShell,50);
+            mag_xx(CUP_HandGrenade_M67,50);
+            mag_xx(CUP_1Rnd_HEDP_M203,50);
+            mag_xx(CUP_1Rnd_Smoke_M203,50);
+            mag_xx(APERSTripMine_Wire_Mag,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+            mag_xx(CUP_HandGrenade_RGD5,50);
+        };
+        class TransportWeapons {
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_B_UGARMY_WeaponsBox : CUP_RUBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = "Uganda People's Defense Force Weapons Box";
+        class TransportMagazines {
+            mag_xx(CUP_8Rnd_9x18_Makarov_M,50);
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_17Rnd_9x19_glock17,50);
+            mag_xx(CUP_30Rnd_Sa58_M_TracerG,50);
+            mag_xx(CUP_1Rnd_HEDP_M203,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_hgun_Makarov,10);
+            weap_xx(CUP_arifle_AK47,10);
+            weap_xx(CUP_lmg_PKM,10);
+            weap_xx(CUP_arifle_AK74_GL,10);
+            weap_xx(CUP_arifle_AK74M_GL,10);
+            weap_xx(CUP_hgun_Glock17_blk,10);
+            weap_xx(CUP_arifle_Sa58RIS1,10);
+            weap_xx(CUP_arifle_Sa58RIS2_gl,10);
+            weap_xx(CUP_srifle_SVD,10);
+        };
+        class TransportItems {
+            item_xx(optic_Holosight_blk_F,10);
+            item_xx(CUP_optic_PSO_3,10);
+        };
+    };
+    class CFP_B_UGARMY_LaunchersBox : CUP_RULaunchersBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = "Uganda People's Defense Force Launchers Box";
+        class TransportMagazines {
+            mag_xx(CUP_PG7V_M,5);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_launch_RPG7V,5);
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_B_UGARMY_UniformBox : CUP_RUBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = "Uganda People's Defense Force Uniform Box";
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(CFP_U_BattleDressUniform_M81,15);
+            item_xx(CFP_U_BattleDressUniform_M81light,15);
+            item_xx(CFP_U_BattleDressUniform_marpatugandalight,15);
+            item_xx(CFP_U_BattleDressUniform_marpatugandadark,15);
+            item_xx(SP_0000_Standard_FieldUniform_Green,15);
+            item_xx(CFP_U_FieldUniform_DPMWoodland,15);
+        };
+    };
+    class CFP_B_UGARMY_SupportBox : CUP_RUSpecialWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = "Uganda People's Defense Force Support Box";
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(CUP_V_O_TK_OfficerBelt,10);
+            item_xx(SP_TSH04Helmet_Black,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(CFP_AK_VEST_Lime,10);
+            item_xx(CFP_PatrolCap_M81,10);
+            item_xx(CFP_Kitbag_M81,10);
+            item_xx(CFP_RPGPack_Khaki,10);
+            item_xx(Binocular,10);
+            item_xx(CFP_AssaultPack_M81,10);
+            item_xx(CFP_Tactical1_Marpat,10);
+            item_xx(CFP_Basic_Helmet_ArmyGreen,10);
+            item_xx(CFP_Basic_Helmet_Black,10);
+            item_xx(CFP_Tactical1_M81,10);
+            item_xx(CFP_Basic_Helmet_Tan,10);
+            item_xx(CFP_Tactical1_Woodland,10);
+            item_xx(CFP_Basic_Helmet_Gray_Green,10);
+            item_xx(CFP_AssaultPack_Marpat,10);
+            item_xx(CFP_Kitbag_Woodland,10);
+            item_xx(CFP_Tactical1_EDRL,10);
+            item_xx(CUP_V_B_PilotVest,10);
+            item_xx(H_PilotHelmetHeli_O,10);
+            item_xx(CFP_Tactical1_DPM,10);
+            item_xx(CFP_PASGTHelmet_SFUPDF1,10);
+            item_xx(SP_Kneepads_Green,10);
+            item_xx(ItemGPS,10);
+            item_xx(CFP_AssaultPack_Woodland,10);
+            item_xx(CFP_Carryall_DPMWoodland,10);
+            item_xx(CUP_B_DShkM_TripodHigh_Bag,10);
+            item_xx(CFP_Basic_Helmet_M81,10);
+            item_xx(CUP_B_DShkM_Gun_Bag,10);
+            item_xx(CUP_B_Podnos_Bipod_Bag,10);
+            item_xx(CUP_B_Podnos_Gun_Bag,10);
+            item_xx(CUP_B_SPG9_Tripod_Bag,10);
+            item_xx(CUP_B_SPG9_Gun_Bag,10);
+            item_xx(CUP_SOFLAM,10);
+        };
+    };
+    class CFP_B_UGARMY_SupplyBox : CUP_RUVehicleBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = "Uganda People's Defense Force Supply Box";
+        class TransportMagazines {
+            mag_xx(CUP_8Rnd_9x18_Makarov_M,50);
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_PG7V_M,50);
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_1Rnd_SMOKE_GP25_M,50);
+            mag_xx(DemoCharge_Remote_Mag,50);
+            mag_xx(SatchelCharge_Remote_Mag,50);
+            mag_xx(ATMine_Range_Mag,50);
+            mag_xx(SmokeShellRed,50);
+            mag_xx(SmokeShellOrange,50);
+            mag_xx(SmokeShellYellow,50);
+            mag_xx(CUP_17Rnd_9x19_glock17,50);
+            mag_xx(Chemlight_red,50);
+            mag_xx(CUP_30Rnd_Sa58_M_TracerG,50);
+            mag_xx(SmokeShell,50);
+            mag_xx(CUP_HandGrenade_M67,50);
+            mag_xx(CUP_1Rnd_HEDP_M203,50);
+            mag_xx(CUP_1Rnd_Smoke_M203,50);
+            mag_xx(APERSTripMine_Wire_Mag,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+            mag_xx(CUP_HandGrenade_RGD5,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_hgun_Makarov,10);
+            weap_xx(CUP_arifle_AK47,10);
+            weap_xx(CUP_lmg_PKM,10);
+            weap_xx(CUP_arifle_AK74_GL,10);
+            weap_xx(CUP_arifle_AK74M_GL,10);
+            weap_xx(CUP_hgun_Glock17_blk,10);
+            weap_xx(CUP_arifle_Sa58RIS1,10);
+            weap_xx(CUP_arifle_Sa58RIS2_gl,10);
+            weap_xx(CUP_srifle_SVD,10);
+            weap_xx(CUP_launch_RPG7V,10);
+        };
+        class TransportItems {
+            item_xx(optic_Holosight_blk_F,10);
+            item_xx(CUP_optic_PSO_3,10);
+            item_xx(CUP_V_O_TK_OfficerBelt,10);
+            item_xx(SP_TSH04Helmet_Black,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(CFP_AK_VEST_Lime,10);
+            item_xx(CFP_PatrolCap_M81,10);
+            item_xx(CFP_Kitbag_M81,10);
+            item_xx(CFP_RPGPack_Khaki,10);
+            item_xx(Binocular,10);
+            item_xx(CFP_AssaultPack_M81,10);
+            item_xx(CFP_Tactical1_Marpat,10);
+            item_xx(CFP_Basic_Helmet_ArmyGreen,10);
+            item_xx(CFP_Basic_Helmet_Black,10);
+            item_xx(CFP_Tactical1_M81,10);
+            item_xx(CFP_Basic_Helmet_Tan,10);
+            item_xx(CFP_Tactical1_Woodland,10);
+            item_xx(CFP_Basic_Helmet_Gray_Green,10);
+            item_xx(CFP_AssaultPack_Marpat,10);
+            item_xx(CFP_Kitbag_Woodland,10);
+            item_xx(CFP_Tactical1_EDRL,10);
+            item_xx(CUP_V_B_PilotVest,10);
+            item_xx(H_PilotHelmetHeli_O,10);
+            item_xx(CFP_Tactical1_DPM,10);
+            item_xx(CFP_PASGTHelmet_SFUPDF1,10);
+            item_xx(SP_Kneepads_Green,10);
+            item_xx(ItemGPS,10);
+            item_xx(CFP_AssaultPack_Woodland,10);
+            item_xx(CFP_Carryall_DPMWoodland,10);
+            item_xx(CUP_B_DShkM_TripodHigh_Bag,10);
+            item_xx(CFP_Basic_Helmet_M81,10);
+            item_xx(CUP_B_DShkM_Gun_Bag,10);
+            item_xx(CUP_B_Podnos_Bipod_Bag,10);
+            item_xx(CUP_B_Podnos_Gun_Bag,10);
+            item_xx(CUP_B_SPG9_Tripod_Bag,10);
+            item_xx(CUP_B_SPG9_Gun_Bag,10);
+            item_xx(CUP_SOFLAM,10);
+            item_xx(CFP_U_BattleDressUniform_M81,10);
+            item_xx(CFP_U_BattleDressUniform_M81light,10);
+            item_xx(CFP_U_BattleDressUniform_marpatugandalight,10);
+            item_xx(CFP_U_BattleDressUniform_marpatugandadark,10);
+            item_xx(SP_0000_Standard_FieldUniform_Green,10);
+            item_xx(CFP_U_FieldUniform_DPMWoodland,10);
+        };
+    };
 };

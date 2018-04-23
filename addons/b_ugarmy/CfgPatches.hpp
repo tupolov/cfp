@@ -59,7 +59,6 @@ class CfgPatches {
             "CFP_B_UGARMY_Sniper_01"
         };
         weapons[] = {};
-        requiredVersion = 1.62;
         requiredAddons[] = {
             "CFP_O_HEZBOLLAH",
             "CFP_B_NAARMY",
@@ -76,7 +75,9 @@ class CfgPatches {
             "CUP_WheeledVehicles_BTR60",
             "cfp_uniforms"
         };
-        author = "Drew";
+        requiredVersion = REQUIRED_VERSION;
+        VERSION_CONFIG;
         authors[] = {"Drew"};
+        author = MODULE_AUTHOR;
     };
 };
