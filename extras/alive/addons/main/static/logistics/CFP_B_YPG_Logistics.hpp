@@ -4,8 +4,9 @@
  * Mil placement ambient vehicles per faction
  */
 [ALIVE_factionDefaultSupports, "CFP_B_YPG", [
-"cfp_b_ypg_offroad",
-"cfp_b_ypg_offroad_flag"
+	"cfp_b_ypg_offroad",
+	"cfp_b_ypg_offroad_flag"
+	]
 ] call ALIVE_fnc_hashSet;
 
 /*

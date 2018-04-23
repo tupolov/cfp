@@ -4,7 +4,8 @@
  * Mil placement ambient vehicles per faction
  */
 [ALIVE_factionDefaultSupports, "CFP_O_SYARMY", [
-"cfp_o_syarmy_Ural"
+		"cfp_o_syarmy_Ural"
+	]
 ] call ALIVE_fnc_hashSet;
 
 /*

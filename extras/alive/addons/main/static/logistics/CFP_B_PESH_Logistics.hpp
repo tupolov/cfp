@@ -6,6 +6,7 @@
 [ALIVE_factionDefaultSupports, "CFP_B_PESH", [
 "cfp_b_pesh_Ural",
 "cfp_b_pesh_offroad"
+]
 ] call ALIVE_fnc_hashSet;
 
 /*
