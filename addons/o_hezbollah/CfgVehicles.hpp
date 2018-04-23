@@ -4,6 +4,9 @@
 // Generated with ALiVE version 1.5.2.1712071
 //////////////////////////////////////////////////////////////////////////////////
 
+#define mag_xx(a,b) class _xx_##a {magazine = ##a; count = b;}
+#define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
+#define item_xx(a,b) class _xx_##a {name = a; count = b;}
 
 class CBA_Extended_EventHandlers_base;
 
@@ -196,6 +199,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_Paramilitary_Rifleman_01 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Paramilitary_Rifleman_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -243,10 +247,11 @@ class CfgVehicles {
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-    ALiVE_orbatCreator_insignia = "CFP_INSIGNIA_HEZBOLLAH2";
+        ALiVE_orbatCreator_insignia = "CFP_INSIGNIA_HEZBOLLAH2";
 
     };
     class CFP_O_HEZBOLLAH_Paramilitary_Squad_Leader_01 : CFP_O_HEZBOLLAH_Paramilitary_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Paramilitary_Squad_Leader_01.JPG;
 
         displayName = "Paramilitary [Squad Leader]";
 
@@ -261,6 +266,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_Paramilitary_Rifleman_AT_01 : CFP_O_HEZBOLLAH_Paramilitary_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Paramilitary_Rifleman_AT_01.JPG;
 
         displayName = "Paramilitary [Rifleman AT]";
 
@@ -276,6 +282,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_Paramilitary_Medic_01 : CFP_O_HEZBOLLAH_Paramilitary_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Paramilitary_Medic_01.JPG;
 
         displayName = "Paramilitary [Medic]";
         attendant = 1;
@@ -291,6 +298,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_Paramilitary_Grenadier_01 : CFP_O_HEZBOLLAH_Paramilitary_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Paramilitary_Grenadier_01.JPG;
 
         displayName = "Paramilitary [Grenadier]";
 
@@ -305,6 +313,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_Paramilitary_Machine_Gunner_01 : CFP_O_HEZBOLLAH_Paramilitary_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Paramilitary_Machine_Gunner_01.JPG;
 
         displayName = "Paramilitary [Machine Gunner]";
 
@@ -320,6 +329,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_Paramilitary_Explosive_Specialist_01 : CFP_O_HEZBOLLAH_Paramilitary_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Paramilitary_Explosive_Specialist_01.JPG;
 
         displayName = "Paramilitary [Explosive Specialist]";
         canDeactivateMines = 1;
@@ -336,6 +346,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_Paramilitary_Sniper_01 : CFP_O_HEZBOLLAH_Paramilitary_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Paramilitary_Sniper_01.JPG;
 
         displayName = "Paramilitary [Sniper]";
 
@@ -350,6 +361,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_Militia_Rifleman_01 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Militia_Rifleman_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -369,69 +381,70 @@ class CfgVehicles {
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_BattleDressUniform_M81",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_EDRL",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{},"SP_BeanieHat_Green","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
-	randomGearProbability = 100;
+    	randomGearProbability = 100;
 
-	// Militia Uniforms
-		uniformList[] = {
-	"CFP_U_BattleDressUniform_M81", 0.33,
-	"CFP_U_BattleDressUniform_edrl", 0.33,
-    "CFP_U_BattleDressUniform_woodlanddark", 0.33
-		};
+    	// Militia Uniforms
+    		uniformList[] = {
+    	"CFP_U_BattleDressUniform_M81", 0.33,
+    	"CFP_U_BattleDressUniform_edrl", 0.33,
+        "CFP_U_BattleDressUniform_woodlanddark", 0.33
+    		};
 
-	// Militia Headgear
-		headgearList[] = {
-	"", 0.15,
-	"SP_BeanieHat_Green", 0.15,
-	"SP_PatrolCap_Green", 0.15,
-	"SP_BaseballCap_Green", 0.15,
-	"SP_BeanieHat_Black", 0.15,
-	"H_Bandanna_khk", 0.15,
-    "CFP_PatrolCap_Woodland", 0.15,
-    "CFP_PatrolCap_EDRL", 0.15,
-    "CFP_PatrolCap_M81", 0.15
-		};
+    	// Militia Headgear
+    		headgearList[] = {
+    	"", 0.15,
+    	"SP_BeanieHat_Green", 0.15,
+    	"SP_PatrolCap_Green", 0.15,
+    	"SP_BaseballCap_Green", 0.15,
+    	"SP_BeanieHat_Black", 0.15,
+    	"H_Bandanna_khk", 0.15,
+        "CFP_PatrolCap_Woodland", 0.15,
+        "CFP_PatrolCap_EDRL", 0.15,
+        "CFP_PatrolCap_M81", 0.15
+    		};
 
-	// Militia Facewear
-		facewearList[] = {
-	"G_Bandanna_aviator", 0.15,
-	"G_Bandanna_beast", 0.15,
-	"G_Bandanna_blk", 0.15,
-	"G_Bandanna_oli", 0.15,
-	"G_Bandanna_khk", 0.15,
-	"CUP_TK_NeckScarf", 0.15,
-	"CUP_FR_NeckScarf", 0.15,
-	"CUP_FR_NeckScarf2", 0.15,
-    "CFP_Beard", 0.3
-		};
+    	// Militia Facewear
+    		facewearList[] = {
+    	"G_Bandanna_aviator", 0.15,
+    	"G_Bandanna_beast", 0.15,
+    	"G_Bandanna_blk", 0.15,
+    	"G_Bandanna_oli", 0.15,
+    	"G_Bandanna_khk", 0.15,
+    	"CUP_TK_NeckScarf", 0.15,
+    	"CUP_FR_NeckScarf", 0.15,
+    	"CUP_FR_NeckScarf2", 0.15,
+        "CFP_Beard", 0.3
+    		};
 
-    // Militia Vests
-        vestList[] = {
-    "CFP_AK_VEST_EDRL", 0.2,
-    "CFP_AK_VEST_LOlive", 0.2,
-    "CFP_AK_VEST_Black", 0.2,
-    "CFP_AK_VEST_Olive", 0.2,
-    "CFP_TakJacket_Marpat", 0.2,
-    "CFP_TakJacket_M81", 0.2,
-    "CFP_TakJacket_EDRL", 0.2,
-    "CFP_TakJacket_Woodland", 0.2
-        };
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'CFP_INSIGNIA_HEZBOLLAH2'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+        // Militia Vests
+            vestList[] = {
+        "CFP_AK_VEST_EDRL", 0.2,
+        "CFP_AK_VEST_LOlive", 0.2,
+        "CFP_AK_VEST_Black", 0.2,
+        "CFP_AK_VEST_Olive", 0.2,
+        "CFP_TakJacket_Marpat", 0.2,
+        "CFP_TakJacket_M81", 0.2,
+        "CFP_TakJacket_EDRL", 0.2,
+        "CFP_TakJacket_Woodland", 0.2
             };
 
-        };
+            class EventHandlers : EventHandlers {
+                class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-	ALiVE_orbatCreator_insignia = "CFP_INSIGNIA_HEZBOLLAH2";
+                class ALiVE_orbatCreator {
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'CFP_INSIGNIA_HEZBOLLAH2'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                };
+
+            };
+
+            // custom attributes (do not delete)
+            ALiVE_orbatCreator_owned = 1;
+    	ALiVE_orbatCreator_insignia = "CFP_INSIGNIA_HEZBOLLAH2";
 
     };
 
     class CFP_O_HEZBOLLAH_Militia_Squad_Leader_01 : CFP_O_HEZBOLLAH_Militia_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Militia_Squad_Leader_01.JPG;
 
         displayName = "Militia [Squad Leader]";
 
@@ -447,6 +460,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_Militia_Rifleman_AT_01 : CFP_O_HEZBOLLAH_Militia_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Militia_Rifleman_AT_01.JPG;
 
         displayName = "Militia [Rifleman AT]";
 
@@ -462,6 +476,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_Militia_Grenadier_01 : CFP_O_HEZBOLLAH_Militia_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Militia_Grenadier_01.JPG;
 
         displayName = "Militia [Grenadier]";
 
@@ -477,6 +492,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_Militia_Medic_01 : CFP_O_HEZBOLLAH_Militia_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Militia_Medic_01.JPG;
 
         displayName = "Militia [Medic]";
         attendant = 1;
@@ -492,6 +508,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_Militia_Machine_Gunner_01 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Militia_Machine_Gunner_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -511,32 +528,32 @@ class CfgVehicles {
         respawnMagazines[] = {"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_RPK74","","","",{"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",45},{},""},{},{},{"CFP_U_BattleDressUniform_edrl",{{"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",1,45}}},{"CFP_AK_VEST_LOlive",{{"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",4,45}}},{"B_AssaultPack_rgr",{{"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",6,45}}},"","G_Balaclava_oli",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
-	randomGearProbability = 100;
+    	randomGearProbability = 100;
 
-	// Militia Uniforms
+    	// Militia Uniforms
 		uniformList[] = {
-	"CFP_U_BattleDressUniform_M81", 0.33,
-	"CFP_U_BattleDressUniform_edrl", 0.33,
-    "CFP_U_BattleDressUniform_woodlanddark", 0.33
+        	"CFP_U_BattleDressUniform_M81", 0.33,
+        	"CFP_U_BattleDressUniform_edrl", 0.33,
+            "CFP_U_BattleDressUniform_woodlanddark", 0.33
 		};
 
-	// Militia Facewear
+    	// Militia Facewear
 		facewearList[] = {
-	"G_Balaclava_oli", 0.33,
-	"SP_Balaclava_Black", 0.33,
-	"SP_Balaclava_USWoodland", 0.33
+        	"G_Balaclava_oli", 0.33,
+        	"SP_Balaclava_Black", 0.33,
+        	"SP_Balaclava_USWoodland", 0.33
 		};
 
-    // Militia Vests
+        // Militia Vests
         vestList[] = {
-    "CFP_AK_VEST_EDRL", 0.2,
-    "CFP_AK_VEST_LOlive", 0.2,
-    "CFP_AK_VEST_Black", 0.2,
-    "CFP_AK_VEST_Olive", 0.2,
-    "CFP_TakJacket_Marpat", 0.2,
-    "CFP_TakJacket_M81", 0.2,
-    "CFP_TakJacket_EDRL", 0.2,
-    "CFP_TakJacket_Woodland", 0.2
+            "CFP_AK_VEST_EDRL", 0.2,
+            "CFP_AK_VEST_LOlive", 0.2,
+            "CFP_AK_VEST_Black", 0.2,
+            "CFP_AK_VEST_Olive", 0.2,
+            "CFP_TakJacket_Marpat", 0.2,
+            "CFP_TakJacket_M81", 0.2,
+            "CFP_TakJacket_EDRL", 0.2,
+            "CFP_TakJacket_Woodland", 0.2
         };
 
         class EventHandlers : EventHandlers {
@@ -550,10 +567,11 @@ class CfgVehicles {
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-	ALiVE_orbatCreator_insignia = "CFP_INSIGNIA_HEZBOLLAH2";
+    	ALiVE_orbatCreator_insignia = "CFP_INSIGNIA_HEZBOLLAH2";
     };
 
     class CFP_O_HEZBOLLAH_Militia_Explosive_Specialist_01 : CFP_O_HEZBOLLAH_Militia_Machine_Gunner_01 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Militia_Explosive_Specialist_01.JPG;
 
         displayName = "Militia [Explosive Specialist]";
         canDeactivateMines = 1;
@@ -570,6 +588,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_Militia_Sniper_01 : CFP_O_HEZBOLLAH_Militia_Machine_Gunner_01 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Militia_Sniper_01.JPG;
 
         displayName = "Militia [Sniper]";
 
@@ -585,6 +604,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_Rifleman_SF_01 : O_recon_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Rifleman_SF_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -604,51 +624,52 @@ class CfgVehicles {
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","CUP_optic_Kobra",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_FieldUniform_edrl",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"V_I_G_resistanceLeader_F",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{},"SP_BeanieHat_Green","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
-	randomGearProbability = 100;
+    	randomGearProbability = 100;
 
-	// Hezbollah Uniforms
-		uniformList[] = {
-	"CFP_U_FieldUniform_edrl", 0.33,
-	"CFP_U_FieldUniform_M81", 0.33,
-    "CFP_U_FieldUniform_ana_wddark", 0.33
-		};
+    	// Hezbollah Uniforms
+    		uniformList[] = {
+    	"CFP_U_FieldUniform_edrl", 0.33,
+    	"CFP_U_FieldUniform_M81", 0.33,
+        "CFP_U_FieldUniform_ana_wddark", 0.33
+    		};
 
-	// Hezbollah Headgear
-		headgearList[] = {
-	"SP_BeanieHat_Green", 0.15,
-	"SP_BaseballCap_Green", 0.15,
-	"SP_BeanieHat_Black", 0.15,
-	"SP_PatrolCap_Green", 0.15,
-	"H_Bandanna_khk", 0.15,
-	"SP_BaseballCap_Black", 0.15,
-	"H_Bandanna_camo", 0.15,
-    "CFP_PatrolCap_Woodland", 0.15,
-    "CFP_PatrolCap_EDRL", 0.15
-		};
+    	// Hezbollah Headgear
+    		headgearList[] = {
+    	"SP_BeanieHat_Green", 0.15,
+    	"SP_BaseballCap_Green", 0.15,
+    	"SP_BeanieHat_Black", 0.15,
+    	"SP_PatrolCap_Green", 0.15,
+    	"H_Bandanna_khk", 0.15,
+    	"SP_BaseballCap_Black", 0.15,
+    	"H_Bandanna_camo", 0.15,
+        "CFP_PatrolCap_Woodland", 0.15,
+        "CFP_PatrolCap_EDRL", 0.15
+    		};
 
-	// Hezbollah Facewear
-		facewearList[] = {
-	"CUP_TK_NeckScarf", 0.25,
-	"CUP_FR_NeckScarf", 0.25,
-	"CUP_FR_NeckScarf2", 0.25,
-    "CFP_Beard", 0.25
-		};
+    	// Hezbollah Facewear
+    		facewearList[] = {
+    	"CUP_TK_NeckScarf", 0.25,
+    	"CUP_FR_NeckScarf", 0.25,
+    	"CUP_FR_NeckScarf2", 0.25,
+        "CFP_Beard", 0.25
+    		};
 
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+            class EventHandlers : EventHandlers {
+                class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'CFP_INSIGNIA_HEZBOLLAH2'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                class ALiVE_orbatCreator {
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'CFP_INSIGNIA_HEZBOLLAH2'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                };
+
             };
 
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-	ALiVE_orbatCreator_insignia = "CFP_INSIGNIA_HEZBOLLAH2";
+            // custom attributes (do not delete)
+            ALiVE_orbatCreator_owned = 1;
+	   ALiVE_orbatCreator_insignia = "CFP_INSIGNIA_HEZBOLLAH2";
     };
 
     class CFP_O_HEZBOLLAH_Squad_Leader_SF_01 : CFP_O_HEZBOLLAH_Rifleman_SF_01 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Squad_Leader_SF_01.JPG;
 
         displayName = "Squad Leader [SF]";
 
@@ -664,6 +685,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_Rifleman_AT_SF_01 : CFP_O_HEZBOLLAH_Rifleman_SF_01 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Rifleman_AT_SF_01.JPG;
 
         displayName = "Rifleman AT [SF]";
 
@@ -679,6 +701,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_Medic_SF_01 : CFP_O_HEZBOLLAH_Rifleman_SF_01 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Medic_SF_01.JPG;
 
         displayName = "Medic [SF]";
         attendant = 1;
@@ -694,6 +717,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_Grenadier_SF_01 : CFP_O_HEZBOLLAH_Rifleman_SF_01 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Grenadier_SF_01.JPG;
 
         displayName = "Grenadier [SF]";
 
@@ -709,6 +733,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_Machine_Gunner_SF_01 : CFP_O_HEZBOLLAH_Rifleman_SF_01 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Machine_Gunner_SF_01.JPG;
 
         displayName = "Machine Gunner [SF]";
 
@@ -724,6 +749,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_Explosive_Specialist_SF_01 : CFP_O_HEZBOLLAH_Rifleman_SF_01 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Explosive_Specialist_SF_01.JPG;
 
         displayName = "Explosive Specialist [SF]";
         canDeactivateMines = 1;
@@ -740,6 +766,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_Sniper_SF_01 : CFP_O_HEZBOLLAH_Rifleman_SF_01 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Sniper_SF_01.JPG;
 
         displayName = "Sniper [SF]";
 
@@ -755,6 +782,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_Gunner_DShKM_01 : CFP_O_HEZBOLLAH_Militia_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Gunner_DShKM_01.JPG;
 
         displayName = "Gunner [DShKM]";
 
@@ -770,6 +798,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_Gunner_DShKM_Low_01 : CFP_O_HEZBOLLAH_Militia_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Gunner_DShKM_Low_01.JPG;
 
         displayName = "Gunner [DShKM Low]";
 
@@ -785,6 +814,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_Asst_Gunner_DShKM_01 : CFP_O_HEZBOLLAH_Militia_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Asst_Gunner_DShKM_01.JPG;
 
         displayName = "Asst. Gunner [DShKM]";
 
@@ -800,6 +830,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_Gunner_TOW_01 : CFP_O_HEZBOLLAH_Militia_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Gunner_TOW_01.JPG;
 
         displayName = "Gunner [TOW]";
 
@@ -815,6 +846,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_Asst_Gunner_TOW_01 : CFP_O_HEZBOLLAH_Militia_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Asst_Gunner_TOW_01.JPG;
 
         displayName = "Asst. Gunner [TOW]";
 
@@ -830,6 +862,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_Gunner_Metis_01 : CFP_O_HEZBOLLAH_Militia_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Gunner_Metis_01.JPG;
 
         displayName = "Gunner [Metis]";
 
@@ -845,6 +878,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_Asst_Gunner_Metis_01 : CFP_O_HEZBOLLAH_Militia_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Asst_Gunner_Metis_01.JPG;
 
         displayName = "Asst. Gunner [Metis]";
 
@@ -860,6 +894,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_Gunner_Mortar_01 : CFP_O_HEZBOLLAH_Militia_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Gunner_Mortar_01.JPG;
 
         displayName = "Gunner [Mortar]";
 
@@ -875,6 +910,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_Asst_Gunner_Mortar_01 : CFP_O_HEZBOLLAH_Militia_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Asst_Gunner_Mortar_01.JPG;
 
         displayName = "Asst. Gunner [Mortar]";
 
@@ -890,6 +926,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_Gunner_SPG_01 : CFP_O_HEZBOLLAH_Militia_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Gunner_SPG_01.JPG;
 
         displayName = "Gunner [SPG-9]";
 
@@ -905,6 +942,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_Asst_Gunner_SPG_01 : CFP_O_HEZBOLLAH_Militia_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Asst_Gunner_SPG_01.JPG;
 
         displayName = "Asst. Gunner [SPG-9]";
 
@@ -920,6 +958,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_DShKM_01 : CUP_O_DSHKM_TK_INS_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_DShKM_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -949,6 +988,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_DShKM_Low_01 : CUP_O_DSHkM_MiniTriPod_TK_INS_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_DShKM_Low_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -978,6 +1018,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_TOW_AT_01 : CUP_B_TOW_TriPod_US_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_TOW_AT_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1007,6 +1048,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_SPG_9_01 : CUP_O_SPG9_TK_INS_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_SPG_9_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1035,7 +1077,8 @@ class CfgVehicles {
 
     };
 
-     class CFP_O_HEZBOLLAH_Metis_AT_13_01 : CUP_O_Metis_RU_OCimport_02 {
+    class CFP_O_HEZBOLLAH_Metis_AT_13_01 : CUP_O_Metis_RU_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Metis_AT_13_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1065,6 +1108,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_Podnos_2B14_01 : CUP_O_2b14_82mm_RU_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Podnos_2B14_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1094,6 +1138,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_T55_01 : CUP_O_T55_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_T55_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1129,6 +1174,7 @@ class CfgVehicles {
     };
 
 	class CFP_O_HEZBOLLAH_T55_flag_01 : CUP_O_T55_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_T55_flag_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1171,6 +1217,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_T72_01 : CUP_O_T72_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_T72_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1205,7 +1252,8 @@ class CfgVehicles {
 
     };
 
-	 class CFP_O_HEZBOLLAH_T72_flag_01 : CUP_O_T72_SLA_OCimport_02 {
+	class CFP_O_HEZBOLLAH_T72_flag_01 : CUP_O_T72_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_T72_flag_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1248,6 +1296,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_Crew_01 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Crew_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1306,6 +1355,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_Ural_ZU_23_01 : CUP_O_Ural_ZU23_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Ural_ZU_23_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1335,6 +1385,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_BMP_2_01 : CUP_O_BMP2_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_BMP_2_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1370,6 +1421,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_Offroad_01 : O_G_Offroad_01_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Offroad_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1401,8 +1453,9 @@ class CfgVehicles {
 
     };
 
-	 class CFP_O_HEZBOLLAH_Offroad_flag_01 : CFP_O_HEZBOLLAH_Offroad_01
+	class CFP_O_HEZBOLLAH_Offroad_flag_01 : CFP_O_HEZBOLLAH_Offroad_01
 	{
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Offroad_flag_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1442,6 +1495,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_Offroad_Armed_01 : O_G_Offroad_01_armed_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Offroad_Armed_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1472,6 +1526,7 @@ class CfgVehicles {
 
 	class CFP_O_HEZBOLLAH_Offroad_Armed_flag_01 : O_G_Offroad_01_armed_F_OCimport_02
 	{
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Offroad_Armed_flag_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1510,6 +1565,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_Truck_01 : O_G_Van_01_transport_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Truck_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1548,6 +1604,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_ZU_23_01 : CUP_O_ZU23_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_ZU_23_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1577,6 +1634,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_Quad_Bike_01 : B_Quadbike_01_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_Quad_Bike_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1601,6 +1659,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HEZBOLLAH_BTR_60PB_01 : CUP_O_BTR60_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_BTR_60PB_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1636,6 +1695,272 @@ class CfgVehicles {
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
 
+    };
+
+    class CUP_RUBasicAmmunitionBox; // CUP_RUBasicAmmunitionBox
+
+    class CUP_RUBasicWeaponsBox; // CUP_RUBasicWeaponsBox
+
+    class CUP_RUSpecialWeaponsBox; // CUP_RUSpecialWeaponsBox
+
+    class CUP_RULaunchersBox; // CUP_RULaunchersBox
+
+    class CUP_RUVehicleBox; // CUP_RUVehicleBox
+
+    class CFP_O_HEZBOLLAH_AmmoBox : CUP_RUBasicAmmunitionBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Hezbollah Ammo Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_PG7V_M,50);
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(DemoCharge_Remote_Mag,50);
+            mag_xx(APERSTripMine_Wire_Mag,50);
+            mag_xx(ATMine_Range_Mag,50);
+            mag_xx(CUP_PipeBomb_M,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+            mag_xx(CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,50);
+            mag_xx(CUP_RPG18_M,50);
+            mag_xx(CUP_8Rnd_9x18_Makarov_M,50);
+        };
+        class TransportWeapons {
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_O_HEZBOLLAH_WeaponsBox : CUP_RUBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Hezbollah Weapons Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+            mag_xx(CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,50);
+            mag_xx(CUP_8Rnd_9x18_Makarov_M,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_AKM,10);
+            weap_xx(CUP_arifle_AK74M_GL,10);
+            weap_xx(CUP_lmg_PKM,10);
+            weap_xx(CUP_srifle_SVD,10);
+            weap_xx(CUP_arifle_AK74M,10);
+            weap_xx(CUP_arifle_AK74_GL,10);
+            weap_xx(CUP_arifle_RPK74,10);
+            weap_xx(CUP_arifle_AK74,10);
+            weap_xx(CUP_arifle_AKS,10);
+            weap_xx(CUP_arifle_RPK74_45,10);
+            weap_xx(CUP_hgun_Makarov,10);
+        };
+        class TransportItems {
+            item_xx(CUP_optic_PSO_3,10);
+            item_xx(CUP_optic_Kobra,10);
+            item_xx(CUP_optic_PSO_1,10);
+        };
+    };
+    class CFP_O_HEZBOLLAH_LaunchersBox : CUP_RULaunchersBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Hezbollah Launchers Box;
+        class TransportMagazines {
+            mag_xx(CUP_PG7V_M,5);
+            mag_xx(CUP_RPG18_M,5);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_launch_RPG7V,5);
+            weap_xx(CUP_launch_RPG18,5);
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_O_HEZBOLLAH_UniformBox : CUP_RUBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Hezbollah Uniform Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(CFP_U_FieldUniform_marpat_w,15);
+            item_xx(CFP_U_BattleDressUniform_woodlanddark,15);
+            item_xx(CFP_U_BattleDressUniform_edrl,15);
+            item_xx(CFP_U_BattleDressUniform_M81,15);
+            item_xx(CFP_U_FieldUniform_edrl,15);
+            item_xx(CFP_U_FieldUniform_M81,15);
+            item_xx(CFP_U_FieldUniform_ana_wddark,15);
+        };
+    };
+    class CFP_O_HEZBOLLAH_SupportBox : CUP_RUSpecialWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Hezbollah Support Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(CFP_Tactical1_Marpat,10);
+            item_xx(CFP_PASGTHelmet_Marpat1,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(CFP_RPGPack_Khaki,10);
+            item_xx(B_AssaultPack_rgr,10);
+            item_xx(CFP_Tactical1_EDRL,10);
+            item_xx(CFP_PASGTHelmet_Marpat2,10);
+            item_xx(CFP_AssaultPack_Marpat,10);
+            item_xx(CFP_Tactical1_M81,10);
+            item_xx(CFP_Kitbag_Marpat,10);
+            item_xx(V_I_G_resistanceLeader_F,10);
+            item_xx(CFP_TakJacket_M81,10);
+            item_xx(CFP_PatrolCap_EDRL,10);
+            item_xx(G_Bandanna_blk,10);
+            item_xx(CFP_AK_VEST_Black,10);
+            item_xx(SP_PatrolCap_Green,10);
+            item_xx(CUP_FR_Neckscarf2,10);
+            item_xx(G_Bandanna_beast,10);
+            item_xx(CFP_TakJacket_Marpat,10);
+            item_xx(CFP_AK_VEST_EDRL,10);
+            item_xx(SP_BeanieHat_Green,10);
+            item_xx(G_Bandanna_aviator,10);
+            item_xx(CFP_AssaultPack_Woodland,10);
+            item_xx(G_Balaclava_oli,10);
+            item_xx(CFP_TakJacket_Woodland,10);
+            item_xx(CFP_Kitbag_M81,10);
+            item_xx(Binocular,10);
+            item_xx(H_Bandanna_khk,10);
+            item_xx(CUP_TK_NeckScarf,10);
+            item_xx(ItemGPS,10);
+            item_xx(CUP_FR_NeckScarf,10);
+            item_xx(CFP_AssaultPack_M81,10);
+            item_xx(SP_BeanieHat_Black,10);
+            item_xx(CFP_Kitbag_Woodland,10);
+            item_xx(CFP_Beard,10);
+            item_xx(CFP_AK_VEST_Olive,10);
+            item_xx(CUP_B_DShkM_TripodHigh_Bag,10);
+            item_xx(CFP_AK_VEST_LOlive,10);
+            item_xx(CFP_PatrolCap_M81,10);
+            item_xx(CUP_B_DShkM_TripodLow_Bag,10);
+            item_xx(CUP_B_DShkM_Gun_Bag,10);
+            item_xx(CFP_TakJacket_EDRL,10);
+            item_xx(CUP_B_TOW_Tripod_Bag,10);
+            item_xx(G_Bandanna_oli,10);
+            item_xx(CUP_B_Tow_Gun_Bag,10);
+            item_xx(G_Bandanna_khk,10);
+            item_xx(CUP_B_Metis_Tripod_Bag,10);
+            item_xx(CUP_B_Metis_Gun_Bag,10);
+            item_xx(CUP_B_Podnos_Bipod_Bag,10);
+            item_xx(CUP_B_Podnos_Gun_Bag,10);
+            item_xx(CUP_B_SPG9_Tripod_Bag,10);
+            item_xx(CUP_B_SPG9_Gun_Bag,10);
+            item_xx(CUP_V_CDF_OfficerBelt,10);
+            item_xx(SP_TSH04Helmet_Black,10);
+        };
+    };
+    class CFP_O_HEZBOLLAH_SupplyBox : CUP_RUVehicleBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Hezbollah Supply Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_PG7V_M,50);
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(DemoCharge_Remote_Mag,50);
+            mag_xx(APERSTripMine_Wire_Mag,50);
+            mag_xx(ATMine_Range_Mag,50);
+            mag_xx(CUP_PipeBomb_M,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+            mag_xx(CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,50);
+            mag_xx(CUP_RPG18_M,50);
+            mag_xx(CUP_8Rnd_9x18_Makarov_M,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_AKM,10);
+            weap_xx(CUP_arifle_AK74M_GL,10);
+            weap_xx(CUP_lmg_PKM,10);
+            weap_xx(CUP_srifle_SVD,10);
+            weap_xx(CUP_arifle_AK74M,10);
+            weap_xx(CUP_arifle_AK74_GL,10);
+            weap_xx(CUP_arifle_RPK74,10);
+            weap_xx(CUP_arifle_AK74,10);
+            weap_xx(CUP_arifle_AKS,10);
+            weap_xx(CUP_arifle_RPK74_45,10);
+            weap_xx(CUP_hgun_Makarov,10);
+            weap_xx(CUP_launch_RPG7V,10);
+            weap_xx(CUP_launch_RPG18,10);
+        };
+        class TransportItems {
+            item_xx(CUP_optic_PSO_3,10);
+            item_xx(CUP_optic_Kobra,10);
+            item_xx(CUP_optic_PSO_1,10);
+            item_xx(CFP_Tactical1_Marpat,10);
+            item_xx(CFP_PASGTHelmet_Marpat1,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(CFP_RPGPack_Khaki,10);
+            item_xx(B_AssaultPack_rgr,10);
+            item_xx(CFP_Tactical1_EDRL,10);
+            item_xx(CFP_PASGTHelmet_Marpat2,10);
+            item_xx(CFP_AssaultPack_Marpat,10);
+            item_xx(CFP_Tactical1_M81,10);
+            item_xx(CFP_Kitbag_Marpat,10);
+            item_xx(V_I_G_resistanceLeader_F,10);
+            item_xx(CFP_TakJacket_M81,10);
+            item_xx(CFP_PatrolCap_EDRL,10);
+            item_xx(G_Bandanna_blk,10);
+            item_xx(CFP_AK_VEST_Black,10);
+            item_xx(SP_PatrolCap_Green,10);
+            item_xx(CUP_FR_Neckscarf2,10);
+            item_xx(G_Bandanna_beast,10);
+            item_xx(CFP_TakJacket_Marpat,10);
+            item_xx(CFP_AK_VEST_EDRL,10);
+            item_xx(SP_BeanieHat_Green,10);
+            item_xx(G_Bandanna_aviator,10);
+            item_xx(CFP_AssaultPack_Woodland,10);
+            item_xx(G_Balaclava_oli,10);
+            item_xx(CFP_TakJacket_Woodland,10);
+            item_xx(CFP_Kitbag_M81,10);
+            item_xx(Binocular,10);
+            item_xx(H_Bandanna_khk,10);
+            item_xx(CUP_TK_NeckScarf,10);
+            item_xx(ItemGPS,10);
+            item_xx(CUP_FR_NeckScarf,10);
+            item_xx(CFP_AssaultPack_M81,10);
+            item_xx(SP_BeanieHat_Black,10);
+            item_xx(CFP_Kitbag_Woodland,10);
+            item_xx(CFP_Beard,10);
+            item_xx(CFP_AK_VEST_Olive,10);
+            item_xx(CUP_B_DShkM_TripodHigh_Bag,10);
+            item_xx(CFP_AK_VEST_LOlive,10);
+            item_xx(CFP_PatrolCap_M81,10);
+            item_xx(CUP_B_DShkM_TripodLow_Bag,10);
+            item_xx(CUP_B_DShkM_Gun_Bag,10);
+            item_xx(CFP_TakJacket_EDRL,10);
+            item_xx(CUP_B_TOW_Tripod_Bag,10);
+            item_xx(G_Bandanna_oli,10);
+            item_xx(CUP_B_Tow_Gun_Bag,10);
+            item_xx(G_Bandanna_khk,10);
+            item_xx(CUP_B_Metis_Tripod_Bag,10);
+            item_xx(CUP_B_Metis_Gun_Bag,10);
+            item_xx(CUP_B_Podnos_Bipod_Bag,10);
+            item_xx(CUP_B_Podnos_Gun_Bag,10);
+            item_xx(CUP_B_SPG9_Tripod_Bag,10);
+            item_xx(CUP_B_SPG9_Gun_Bag,10);
+            item_xx(CUP_V_CDF_OfficerBelt,10);
+            item_xx(SP_TSH04Helmet_Black,10);
+            item_xx(CFP_U_FieldUniform_marpat_w,10);
+            item_xx(CFP_U_BattleDressUniform_woodlanddark,10);
+            item_xx(CFP_U_BattleDressUniform_edrl,10);
+            item_xx(CFP_U_BattleDressUniform_M81,10);
+            item_xx(CFP_U_FieldUniform_edrl,10);
+            item_xx(CFP_U_FieldUniform_M81,10);
+            item_xx(CFP_U_FieldUniform_ana_wddark,10);
+        };
     };
 
 };
