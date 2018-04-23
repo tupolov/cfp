@@ -591,7 +591,7 @@ class CfgVehicles
             item_xx(CUP_optic_PSO_1,10);
         };
     };
-    class CFP_B_PESH_LaunchersBox : Box_NATO_WpsLaunch_F {
+    class CFP_B_PESH_LaunchersBox : CUP_USLaunchersBox {
         author = ALiVE ORBAT CREATOR;
         displayName = Peshmerga Launchers Box;
         class TransportMagazines {
