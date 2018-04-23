@@ -1,3 +1,7 @@
+#define mag_xx(a,b) class _xx_##a {magazine = ##a; count = b;}
+#define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
+#define item_xx(a,b) class _xx_##a {name = a; count = b;}
+
 class CfgVehicles
 {
 
@@ -679,4 +683,161 @@ class CfgVehicles
 		crew = "cfp_o_syarmy_rifleman";
 		typicalCargo[] = {"cfp_o_syarmy_rifleman"};
 	};
+
+	class CUP_RUBasicAmmunitionBox; // CUP_RUBasicAmmunitionBox
+
+    class CUP_RUBasicWeaponsBox; // CUP_RUBasicWeaponsBox
+
+    class CUP_RUSpecialWeaponsBox; // CUP_RUSpecialWeaponsBox
+
+    class CUP_RULaunchersBox; // CUP_RULaunchersBox
+
+    class CUP_RUVehicleBox; // CUP_RUVehicleBox
+
+    class CFP_O_SYARMY_AmmoBox : CUP_RUBasicAmmunitionBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Syrian Arab Army Ammo Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_HandGrenade_RGD5,50);
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+        };
+        class TransportWeapons {
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_O_SYARMY_WeaponsBox : CUP_RUBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Syrian Arab Army Weapons Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_AK74M_GL,10);
+            weap_xx(CUP_arifle_AK47,10);
+            weap_xx(CUP_lmg_PKM,10);
+            weap_xx(CUP_srifle_SVD_pso,10);
+            weap_xx(CUP_arifle_AKS,10);
+        };
+        class TransportItems {
+            item_xx(CUP_optic_PSO_1,10);
+        };
+    };
+    class CFP_O_SYARMY_LaunchersBox : CUP_RULaunchersBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Syrian Arab Army Launchers Box;
+        class TransportMagazines {
+            mag_xx(CUP_PG7VL_M,5);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_launch_RPG7V,5);
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_O_SYARMY_UniformBox : CUP_RUBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Syrian Arab Army Uniform Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(SAA_uniform_officer,15);
+            item_xx(SAA_uniform,15);
+        };
+    };
+    class CFP_O_SYARMY_SupportBox : CUP_RUSpecialWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Syrian Arab Army Support Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(Binocular,10);
+            item_xx(V_TacChestrig_cbr_F,10);
+            item_xx(CUP_H_SLA_Helmet,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(V_HarnessOGL_brn,10);
+            item_xx(H_PASGT_basic_olive_F,10);
+            item_xx(V_TacVest_camo,10);
+            item_xx(B_OutdoorPack_blk,10);
+            item_xx(V_BandollierB_blk,10);
+            item_xx(CUP_H_TK_Helmet,10);
+            item_xx(CUP_B_RPGPack_Khaki,10);
+            item_xx(V_TacVest_oli,10);
+            item_xx(CUP_B_AlicePack_Khaki,10);
+            item_xx(B_OutdoorPack_tan,10);
+            item_xx(CUP_B_DShkM_TripodHigh_Bag,10);
+            item_xx(CUP_B_Kord_Tripod_Bag,10);
+            item_xx(V_TacChestrig_oli_F,10);
+            item_xx(CUP_B_Podnos_Bipod_Bag,10);
+            item_xx(CUP_B_AGS30_Tripod_Bag,10);
+            item_xx(CUP_B_SPG9_Tripod_Bag,10);
+            item_xx(CUP_H_RUS_6B27_olive,10);
+            item_xx(CUP_B_Metis_Tripod_Bag,10);
+        };
+    };
+    class CFP_O_SYARMY_SupplyBox : CUP_RUVehicleBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Syrian Arab Army Supply Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_HandGrenade_RGD5,50);
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_AK74M_GL,10);
+            weap_xx(CUP_arifle_AK47,10);
+            weap_xx(CUP_lmg_PKM,10);
+            weap_xx(CUP_srifle_SVD_pso,10);
+            weap_xx(CUP_arifle_AKS,10);
+            weap_xx(CUP_launch_RPG7V,10);
+        };
+        class TransportItems {
+            item_xx(CUP_optic_PSO_1,10);
+            item_xx(Binocular,10);
+            item_xx(V_TacChestrig_cbr_F,10);
+            item_xx(CUP_H_SLA_Helmet,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(V_HarnessOGL_brn,10);
+            item_xx(H_PASGT_basic_olive_F,10);
+            item_xx(V_TacVest_camo,10);
+            item_xx(B_OutdoorPack_blk,10);
+            item_xx(V_BandollierB_blk,10);
+            item_xx(CUP_H_TK_Helmet,10);
+            item_xx(CUP_B_RPGPack_Khaki,10);
+            item_xx(V_TacVest_oli,10);
+            item_xx(CUP_B_AlicePack_Khaki,10);
+            item_xx(B_OutdoorPack_tan,10);
+            item_xx(CUP_B_DShkM_TripodHigh_Bag,10);
+            item_xx(CUP_B_Kord_Tripod_Bag,10);
+            item_xx(V_TacChestrig_oli_F,10);
+            item_xx(CUP_B_Podnos_Bipod_Bag,10);
+            item_xx(CUP_B_AGS30_Tripod_Bag,10);
+            item_xx(CUP_B_SPG9_Tripod_Bag,10);
+            item_xx(CUP_H_RUS_6B27_olive,10);
+            item_xx(CUP_B_Metis_Tripod_Bag,10);
+            item_xx(SAA_uniform_officer,10);
+            item_xx(SAA_uniform,10);
+        };
+    };
 };

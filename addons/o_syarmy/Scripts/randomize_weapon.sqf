@@ -371,8 +371,10 @@ if (_randomWeaponChance <= _randomWeaponProbability) then  // replace default we
 				_this removeWeapon "CUP_arifle_AKS";	// delete default rifle / ammo
 				_this removeMagazines "CUP_30Rnd_762x39_AK47_M";
 
-				_backPackStuff = backpackItems _this;
-				{_this removeItemfromBackpack _x} forEach _backPackStuff;
+				private _backPackStuff = backpackItems _this;
+				if !(isNil "_backPackStuff") then {
+					{_this removeItemfromBackpack _x} forEach _backPackStuff;
+				};
 
 				_randomOtherATChance = floor (random 100);
 				if (_randomOtherATChance <= 10) then
