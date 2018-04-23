@@ -2,6 +2,7 @@
 #include "CFP_B_CZARMY_DES_Logistics.hpp"
 #include "CFP_B_DEARMY_WDL_Logistics.hpp"
 #include "CFP_B_GBARMY_WDL_Logistics.hpp"
+#include "CFP_B_IQARMY_Logistics.hpp"
 #include "CFP_B_PESH_Logistics.hpp"
 #include "CFP_B_USARMY_WDL_Logistics.hpp"
 #include "CFP_B_USCIA_Logistics.hpp"
