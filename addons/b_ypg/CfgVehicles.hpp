@@ -1,3 +1,7 @@
+#define mag_xx(a,b) class _xx_##a {magazine = ##a; count = b;}
+#define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
+#define item_xx(a,b) class _xx_##a {name = a; count = b;}
+
 class CfgVehicles
 {
     class I_Soldier_base_F;
@@ -315,4 +319,147 @@ class CfgVehicles
 		};
 		editorPreview = "\x\cfp\addons\b_ypg\data\Preview_YPG_Offroad_M2_flag.jpg";
 	};
+
+    class CUP_USBasicAmmunitionBox; // CUP_USBasicAmmunitionBox
+
+    class CUP_USBasicWeaponsBox; // CUP_USBasicWeaponsBox
+
+    class CUP_USSpecialWeaponsBox; // CUP_USSpecialWeaponsBox
+
+    class CUP_USLaunchersBox; // CUP_USLaunchersBox
+
+    class CUP_USVehicleBox; // CUP_USVehicleBox
+
+    class CFP_B_YPG_AmmoBox : CUP_USBasicAmmunitionBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = YPG Ammo Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_HandGrenade_RGD5,50);
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+        };
+        class TransportWeapons {
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_B_YPG_WeaponsBox : CUP_USBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = YPG Weapons Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_AK74M_GL,10);
+            weap_xx(CUP_arifle_AK47,10);
+            weap_xx(CUP_lmg_PKM,10);
+            weap_xx(CUP_srifle_SVD_pso,10);
+            weap_xx(CUP_arifle_AKS,10);
+        };
+        class TransportItems {
+            item_xx(CUP_optic_PSO_1,10);
+        };
+    };
+    class CFP_B_YPG_LaunchersBox : CUP_USLaunchersBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = YPG Launchers Box;
+        class TransportMagazines {
+            mag_xx(CUP_PG7VL_M,5);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_launch_RPG7V,5);
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_B_YPG_UniformBox : CUP_USBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = YPG Uniform Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(YPG_uniform,15);
+        };
+    };
+    class CFP_B_YPG_SupportBox : CUP_USSpecialWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = YPG Support Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(Binocular,10);
+            item_xx(V_TacVest_camo,10);
+            item_xx(SP_Goggles_Tan,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(SP_Goggles_Black,10);
+            item_xx(B_AssaultPack_blk,10);
+            item_xx(V_BandollierB_oli,10);
+            item_xx(CUP_B_RPGPack_Khaki,10);
+            item_xx(B_AssaultPack_rgr_Medic,10);
+            item_xx(CUP_B_DShkM_TripodHigh_Bag,10);
+            item_xx(CUP_B_Kord_Tripod_Bag,10);
+            item_xx(SP_Goggles_Green,10);
+            item_xx(CUP_B_Podnos_Bipod_Bag,10);
+            item_xx(CUP_B_AGS30_Tripod_Bag,10);
+            item_xx(CUP_B_Metis_Tripod_Bag,10);
+            item_xx(CUP_B_SPG9_Tripod_Bag,10);
+        };
+    };
+    class CFP_B_YPG_SupplyBox : CUP_USVehicleBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = YPG Supply Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_HandGrenade_RGD5,50);
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_AK74M_GL,10);
+            weap_xx(CUP_arifle_AK47,10);
+            weap_xx(CUP_lmg_PKM,10);
+            weap_xx(CUP_srifle_SVD_pso,10);
+            weap_xx(CUP_arifle_AKS,10);
+            weap_xx(CUP_launch_RPG7V,10);
+        };
+        class TransportItems {
+            item_xx(CUP_optic_PSO_1,10);
+            item_xx(Binocular,10);
+            item_xx(V_TacVest_camo,10);
+            item_xx(SP_Goggles_Tan,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(SP_Goggles_Black,10);
+            item_xx(B_AssaultPack_blk,10);
+            item_xx(V_BandollierB_oli,10);
+            item_xx(CUP_B_RPGPack_Khaki,10);
+            item_xx(B_AssaultPack_rgr_Medic,10);
+            item_xx(CUP_B_DShkM_TripodHigh_Bag,10);
+            item_xx(CUP_B_Kord_Tripod_Bag,10);
+            item_xx(SP_Goggles_Green,10);
+            item_xx(CUP_B_Podnos_Bipod_Bag,10);
+            item_xx(CUP_B_AGS30_Tripod_Bag,10);
+            item_xx(CUP_B_Metis_Tripod_Bag,10);
+            item_xx(CUP_B_SPG9_Tripod_Bag,10);
+            item_xx(YPG_uniform,10);
+        };
+    };
 };
