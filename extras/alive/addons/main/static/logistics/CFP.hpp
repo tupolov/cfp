@@ -11,6 +11,7 @@
 #include "CFP_B_YPG_Logistics.hpp"
 #include "CFP_I_IS_Logistics.hpp"
 #include "CFP_O_ALQAEDA_Logistics.hpp"
+#include "CFP_O_BOKOHARAM_Logistics.hpp"
 #include "CFP_O_IS_Logistics.hpp"
 #include "CFP_O_RUARMY_DES_Logistics.hpp"
 #include "CFP_O_RUMVD_Logistics.hpp"

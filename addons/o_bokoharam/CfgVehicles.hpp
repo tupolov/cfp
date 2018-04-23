@@ -4,6 +4,9 @@
 // Generated with ALiVE version 1.5.0.1711091
 //////////////////////////////////////////////////////////////////////////////////
 
+#define mag_xx(a,b) class _xx_##a {magazine = ##a; count = b;}
+#define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
+#define item_xx(a,b) class _xx_##a {name = a; count = b;}
 
 class CBA_Extended_EventHandlers_base;
 
@@ -148,6 +151,7 @@ class CfgVehicles {
     };
 
     class CFP_O_BH_Rifleman_AK47_01 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_bokoharam\data\preview\CFP_O_BH_Rifleman_AK47_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -168,122 +172,123 @@ class CfgVehicles {
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_KhetPartug_Short_M81",{{"CUP_30Rnd_762x39_AK47_M",1,30}}},{"V_TacChestrig_grn_F",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{},"SP_Shemagh_Black","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
-	randomGearProbability = 100;
+    	randomGearProbability = 100;
 
-	// Boko Haram Gear
-		uniformList[] = {
-	    "CFP_U_KhetPartug_Short_M81", 0.25,
-	    "CFP_U_KhetPartug_Long_M81", 0.25,
-	    "CFP_U_KhetPartug_Long_olive", 0.25,
-	    "CFP_U_KhetPartug_Long_olive_polygon", 0.25,
-	    "CFP_U_KhetPartug_Long_light_olive", 0.25,
-	    "CFP_U_KhetPartug_Short_olive", 0.25,
-	    "CFP_U_KhetPartug_Short_light_olive", 0.25,
-	    "CFP_U_KhetPartug_Short_olive_polygon", 0.25,
-	    "CFP_U_KhetPartug_Long_Olive", 0.2,
-        "CFP_U_KhetPartug_Short_Olive", 0.2,
-        "CFP_U_KhetPartug_Long_Light_Olive", 0.2,
-        "CFP_U_KhetPartug_Short_Light_Olive", 0.2,
-        "CFP_U_KhetPartug_Long_Black", 0.2,
-        "CFP_U_KhetPartug_Short_GreenOlive", 0.2,
-        "CFP_U_KhetPartug_Long_Blue", 0.2,
-        "CFP_U_KhetPartug_Long_BlueGrey", 0.2,
-        "CFP_U_KhetPartug_Long_Brown", 0.2,
-        "CFP_U_KhetPartug_Long_PolygonDesert", 0.2,
-        "CFP_U_KhetPartug_Long_Grey", 0.2,
-        "CFP_U_KhetPartug_Long_Purple", 0.2,
-        "CFP_U_KhetPartug_Long_Tan", 0.2,
-        "CFP_U_KhetPartug_Short_Blue", 0.2,
-        "CFP_U_KhetPartug_Short_BlueGrey", 0.2,
-        "CFP_U_KhetPartug_Short_Brown", 0.2,
-        "CFP_U_KhetPartug_Short_PolygonDesert", 0.2,
-        "CFP_U_KhetPartug_Short_Grey", 0.2,
-        "CFP_U_KhetPartug_Short_Purple", 0.2,
-        "CFP_U_KhetPartug_Short_Tan", 0.2,
-        "CFP_U_KhetPartug_Short_Black", 0.2,
-        "CFP_U_KhetPartug_Short_EDRL", 0.2,
-        "CFP_U_KhetPartug_Long_EDRL", 0.2,
-        "CFP_U_KhetPartug_Short_Woodland", 0.2,
-        "CFP_U_KhetPartug_Long_Woodland", 0.2
-		    };
+    	// Boko Haram Gear
+    		uniformList[] = {
+    	    "CFP_U_KhetPartug_Short_M81", 0.25,
+    	    "CFP_U_KhetPartug_Long_M81", 0.25,
+    	    "CFP_U_KhetPartug_Long_olive", 0.25,
+    	    "CFP_U_KhetPartug_Long_olive_polygon", 0.25,
+    	    "CFP_U_KhetPartug_Long_light_olive", 0.25,
+    	    "CFP_U_KhetPartug_Short_olive", 0.25,
+    	    "CFP_U_KhetPartug_Short_light_olive", 0.25,
+    	    "CFP_U_KhetPartug_Short_olive_polygon", 0.25,
+    	    "CFP_U_KhetPartug_Long_Olive", 0.2,
+            "CFP_U_KhetPartug_Short_Olive", 0.2,
+            "CFP_U_KhetPartug_Long_Light_Olive", 0.2,
+            "CFP_U_KhetPartug_Short_Light_Olive", 0.2,
+            "CFP_U_KhetPartug_Long_Black", 0.2,
+            "CFP_U_KhetPartug_Short_GreenOlive", 0.2,
+            "CFP_U_KhetPartug_Long_Blue", 0.2,
+            "CFP_U_KhetPartug_Long_BlueGrey", 0.2,
+            "CFP_U_KhetPartug_Long_Brown", 0.2,
+            "CFP_U_KhetPartug_Long_PolygonDesert", 0.2,
+            "CFP_U_KhetPartug_Long_Grey", 0.2,
+            "CFP_U_KhetPartug_Long_Purple", 0.2,
+            "CFP_U_KhetPartug_Long_Tan", 0.2,
+            "CFP_U_KhetPartug_Short_Blue", 0.2,
+            "CFP_U_KhetPartug_Short_BlueGrey", 0.2,
+            "CFP_U_KhetPartug_Short_Brown", 0.2,
+            "CFP_U_KhetPartug_Short_PolygonDesert", 0.2,
+            "CFP_U_KhetPartug_Short_Grey", 0.2,
+            "CFP_U_KhetPartug_Short_Purple", 0.2,
+            "CFP_U_KhetPartug_Short_Tan", 0.2,
+            "CFP_U_KhetPartug_Short_Black", 0.2,
+            "CFP_U_KhetPartug_Short_EDRL", 0.2,
+            "CFP_U_KhetPartug_Long_EDRL", 0.2,
+            "CFP_U_KhetPartug_Short_Woodland", 0.2,
+            "CFP_U_KhetPartug_Long_Woodland", 0.2
+    		    };
 
-	// Boko Haram Headgear
-		headgearList[] = {
-	    "SP_Shemagh_Black", 0.2,
-	    "SP_Shemagh_CheckBlack", 0.2,
-	    "SP_Shemagh_CheckGreen", 0.2,
-	    "SP_Shemagh_CheckRed", 0.2,
-	    "SP_Shemagh_CheckTan", 0.2,
-	    "SP_Shemagh_CheckWhite", 0.2,
-	    "SP_Shemagh_Green", 0.2,
-	    "SP_Shemagh_Grey", 0.2,
-	    "SP_Shemagh_Tan", 0.2,
-	    "SP_Shemagh_White", 0.2,
-	    "CUP_H_TK_Lungee", 0.2,
-	    "CUP_H_TKI_Lungee_Open_01", 0.2,
-	    "CUP_H_TKI_Lungee_Open_02", 0.2,
-	    "CUP_H_TKI_Lungee_Open_03", 0.2,
-	    "CUP_H_TKI_Lungee_Open_04", 0.2,
-	    "CUP_H_TKI_Lungee_Open_05", 0.2,
-	    "CUP_H_TKI_Lungee_Open_06", 0.2,
-	    "CUP_H_TKI_Lungee_01", 0.2,
-	    "CUP_H_TKI_Lungee_02", 0.2,
-	    "CUP_H_TKI_Lungee_03", 0.2,
-	    "CUP_H_TKI_Lungee_04", 0.2,
-	    "CUP_H_TKI_Lungee_05", 0.2,
-	    "CUP_H_TKI_Lungee_06", 0.2,
-        "CFP_Lungee_Open_Tan", 0.2,
-        "CFP_Lungee_Open_LightOlive", 0.2,
-        "CFP_Lungee_Open_Grey", 0.2,
-        "CFP_Lungee_Open_Creme", 0.2,
-        "CFP_Lungee_Open_Brown", 0.2,
-        "CFP_Lungee_Open_BlueGrey", 0.2,
-        "CFP_Lungee_Open_Blue", 0.2,
-        "CFP_Lungee_BlueGrey", 0.2,
-        "CFP_Lungee_Brown", 0.2,
-        "CFP_Lungee_Green", 0.2,
-        "CFP_Lungee_Grey", 0.2,
-        "CFP_Lungee_LightOlive", 0.2,
-        "CFP_Lungee_Tan", 0.2
-	        };
+    	// Boko Haram Headgear
+    		headgearList[] = {
+    	    "SP_Shemagh_Black", 0.2,
+    	    "SP_Shemagh_CheckBlack", 0.2,
+    	    "SP_Shemagh_CheckGreen", 0.2,
+    	    "SP_Shemagh_CheckRed", 0.2,
+    	    "SP_Shemagh_CheckTan", 0.2,
+    	    "SP_Shemagh_CheckWhite", 0.2,
+    	    "SP_Shemagh_Green", 0.2,
+    	    "SP_Shemagh_Grey", 0.2,
+    	    "SP_Shemagh_Tan", 0.2,
+    	    "SP_Shemagh_White", 0.2,
+    	    "CUP_H_TK_Lungee", 0.2,
+    	    "CUP_H_TKI_Lungee_Open_01", 0.2,
+    	    "CUP_H_TKI_Lungee_Open_02", 0.2,
+    	    "CUP_H_TKI_Lungee_Open_03", 0.2,
+    	    "CUP_H_TKI_Lungee_Open_04", 0.2,
+    	    "CUP_H_TKI_Lungee_Open_05", 0.2,
+    	    "CUP_H_TKI_Lungee_Open_06", 0.2,
+    	    "CUP_H_TKI_Lungee_01", 0.2,
+    	    "CUP_H_TKI_Lungee_02", 0.2,
+    	    "CUP_H_TKI_Lungee_03", 0.2,
+    	    "CUP_H_TKI_Lungee_04", 0.2,
+    	    "CUP_H_TKI_Lungee_05", 0.2,
+    	    "CUP_H_TKI_Lungee_06", 0.2,
+            "CFP_Lungee_Open_Tan", 0.2,
+            "CFP_Lungee_Open_LightOlive", 0.2,
+            "CFP_Lungee_Open_Grey", 0.2,
+            "CFP_Lungee_Open_Creme", 0.2,
+            "CFP_Lungee_Open_Brown", 0.2,
+            "CFP_Lungee_Open_BlueGrey", 0.2,
+            "CFP_Lungee_Open_Blue", 0.2,
+            "CFP_Lungee_BlueGrey", 0.2,
+            "CFP_Lungee_Brown", 0.2,
+            "CFP_Lungee_Green", 0.2,
+            "CFP_Lungee_Grey", 0.2,
+            "CFP_Lungee_LightOlive", 0.2,
+            "CFP_Lungee_Tan", 0.2
+    	        };
 
-    // Boko Haram Vests
-        vestList[] = {
-        "CFP_TakJacket_Woodland", 0.2,
-        "CFP_TakJacket_Marpat", 0.2,
-        "CFP_TakJacket_M81", 0.2,
-        "CFP_TakJacket_EDRL", 0.2,
-        "CFP_TakJacket_ChocChip", 0.2,
-        "CFP_UtilityJacket_Woodland", 0.2,
-        "CFP_UtilityJacket_M81", 0.2,
-        "CFP_UtilityJacket_EDRL", 0.2,
-        "CFP_UtilityJacket_ChocChip", 0.2,
-        "CFP_AK_VEST_Tan", 0.2,
-        "CFP_AK_VEST_EDRL", 0.2,
-        "CFP_AK_VEST_LOlive", 0.2,
-        "CFP_AK_VEST_Olive", 0.2,
-        "CFP_AK_VEST_Lime", 0.2,
-        "CFP_TakJacket_PolygonWoodland", 0.2,
-        "CFP_TakJacket_PolygonDesert", 0.2,
-        "CFP_UtilityJacket_PolygonWoodland", 0.2,
-        "CFP_UtilityJacket_PolygonDesert", 0.2
+        // Boko Haram Vests
+            vestList[] = {
+            "CFP_TakJacket_Woodland", 0.2,
+            "CFP_TakJacket_Marpat", 0.2,
+            "CFP_TakJacket_M81", 0.2,
+            "CFP_TakJacket_EDRL", 0.2,
+            "CFP_TakJacket_ChocChip", 0.2,
+            "CFP_UtilityJacket_Woodland", 0.2,
+            "CFP_UtilityJacket_M81", 0.2,
+            "CFP_UtilityJacket_EDRL", 0.2,
+            "CFP_UtilityJacket_ChocChip", 0.2,
+            "CFP_AK_VEST_Tan", 0.2,
+            "CFP_AK_VEST_EDRL", 0.2,
+            "CFP_AK_VEST_LOlive", 0.2,
+            "CFP_AK_VEST_Olive", 0.2,
+            "CFP_AK_VEST_Lime", 0.2,
+            "CFP_TakJacket_PolygonWoodland", 0.2,
+            "CFP_TakJacket_PolygonDesert", 0.2,
+            "CFP_UtilityJacket_PolygonWoodland", 0.2,
+            "CFP_UtilityJacket_PolygonDesert", 0.2
+                };
+
+            class EventHandlers : EventHandlers {
+                class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+                class ALiVE_orbatCreator {
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2;  _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                };
+
             };
 
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2;  _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+            // custom attributes (do not delete)
+            ALiVE_orbatCreator_owned = 1;
 
     };
 
     class CFP_O_BH_Rifleman_AK74_01 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_bokoharam\data\preview\CFP_O_BH_Rifleman_AK74_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -303,104 +308,105 @@ class CfgVehicles {
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"CFP_U_KhetPartug_Long_M81",{{"CUP_30Rnd_545x39_AK_M",2,30}}},{"V_TacChestrig_oli_F",{{"CUP_30Rnd_545x39_AK_M",5,30}}},{},"CUP_H_TKI_Lungee_02","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
-    randomGearProbability = 100;
+        randomGearProbability = 100;
 
-    // Boko Haram Gear
-        uniformList[] = {
-        "CFP_U_KhetPartug_Short_M81", 0.25,
-        "CFP_U_KhetPartug_Long_M81", 0.25,
-        "CFP_U_KhetPartug_Long_olive", 0.25,
-        "CFP_U_KhetPartug_Long_olive_polygon", 0.25,
-        "CFP_U_KhetPartug_Long_light_olive", 0.25,
-        "CFP_U_KhetPartug_Short_olive", 0.25,
-        "CFP_U_KhetPartug_Short_light_olive", 0.25,
-        "CFP_U_KhetPartug_Short_olive_polygon", 0.25,
-        "CFP_U_KhetPartug_Long_Olive", 0.2,
-        "CFP_U_KhetPartug_Short_Olive", 0.2,
-        "CFP_U_KhetPartug_Long_Light_Olive", 0.2,
-        "CFP_U_KhetPartug_Short_Light_Olive", 0.2,
-        "CFP_U_KhetPartug_Long_Black", 0.2,
-        "CFP_U_KhetPartug_Short_GreenOlive", 0.2,
-        "CFP_U_KhetPartug_Long_Blue", 0.2,
-        "CFP_U_KhetPartug_Long_BlueGrey", 0.2,
-        "CFP_U_KhetPartug_Long_Brown", 0.2,
-        "CFP_U_KhetPartug_Long_PolygonDesert", 0.2,
-        "CFP_U_KhetPartug_Long_Grey", 0.2,
-        "CFP_U_KhetPartug_Long_Purple", 0.2,
-        "CFP_U_KhetPartug_Long_Tan", 0.2,
-        "CFP_U_KhetPartug_Short_Blue", 0.2,
-        "CFP_U_KhetPartug_Short_BlueGrey", 0.2,
-        "CFP_U_KhetPartug_Short_Brown", 0.2,
-        "CFP_U_KhetPartug_Short_PolygonDesert", 0.2,
-        "CFP_U_KhetPartug_Short_Grey", 0.2,
-        "CFP_U_KhetPartug_Short_Purple", 0.2,
-        "CFP_U_KhetPartug_Short_Tan", 0.2,
-        "CFP_U_KhetPartug_Short_Black", 0.2,
-        "CFP_U_KhetPartug_Short_EDRL", 0.2,
-        "CFP_U_KhetPartug_Long_EDRL", 0.2,
-        "CFP_U_KhetPartug_Short_Woodland", 0.2,
-        "CFP_U_KhetPartug_Long_Woodland", 0.2
+        // Boko Haram Gear
+            uniformList[] = {
+            "CFP_U_KhetPartug_Short_M81", 0.25,
+            "CFP_U_KhetPartug_Long_M81", 0.25,
+            "CFP_U_KhetPartug_Long_olive", 0.25,
+            "CFP_U_KhetPartug_Long_olive_polygon", 0.25,
+            "CFP_U_KhetPartug_Long_light_olive", 0.25,
+            "CFP_U_KhetPartug_Short_olive", 0.25,
+            "CFP_U_KhetPartug_Short_light_olive", 0.25,
+            "CFP_U_KhetPartug_Short_olive_polygon", 0.25,
+            "CFP_U_KhetPartug_Long_Olive", 0.2,
+            "CFP_U_KhetPartug_Short_Olive", 0.2,
+            "CFP_U_KhetPartug_Long_Light_Olive", 0.2,
+            "CFP_U_KhetPartug_Short_Light_Olive", 0.2,
+            "CFP_U_KhetPartug_Long_Black", 0.2,
+            "CFP_U_KhetPartug_Short_GreenOlive", 0.2,
+            "CFP_U_KhetPartug_Long_Blue", 0.2,
+            "CFP_U_KhetPartug_Long_BlueGrey", 0.2,
+            "CFP_U_KhetPartug_Long_Brown", 0.2,
+            "CFP_U_KhetPartug_Long_PolygonDesert", 0.2,
+            "CFP_U_KhetPartug_Long_Grey", 0.2,
+            "CFP_U_KhetPartug_Long_Purple", 0.2,
+            "CFP_U_KhetPartug_Long_Tan", 0.2,
+            "CFP_U_KhetPartug_Short_Blue", 0.2,
+            "CFP_U_KhetPartug_Short_BlueGrey", 0.2,
+            "CFP_U_KhetPartug_Short_Brown", 0.2,
+            "CFP_U_KhetPartug_Short_PolygonDesert", 0.2,
+            "CFP_U_KhetPartug_Short_Grey", 0.2,
+            "CFP_U_KhetPartug_Short_Purple", 0.2,
+            "CFP_U_KhetPartug_Short_Tan", 0.2,
+            "CFP_U_KhetPartug_Short_Black", 0.2,
+            "CFP_U_KhetPartug_Short_EDRL", 0.2,
+            "CFP_U_KhetPartug_Long_EDRL", 0.2,
+            "CFP_U_KhetPartug_Short_Woodland", 0.2,
+            "CFP_U_KhetPartug_Long_Woodland", 0.2
+                };
+
+        // Boko Haram Headgear
+            headgearList[] = {
+            "CUP_H_TKI_Lungee_Open_01", 0.2,
+            "CUP_H_TKI_Lungee_Open_02", 0.2,
+            "CUP_H_TKI_Lungee_Open_03", 0.2,
+            "CUP_H_TKI_Lungee_Open_04", 0.2,
+            "CUP_H_TKI_Lungee_Open_05", 0.2,
+            "CUP_H_TKI_Lungee_Open_06", 0.2,
+            "CFP_Lungee_Open_Tan", 0.2,
+            "CFP_Lungee_Open_LightOlive", 0.2,
+            "CFP_Lungee_Open_Grey", 0.2,
+            "CFP_Lungee_Open_Creme", 0.2,
+            "CFP_Lungee_Open_Brown", 0.2,
+            "CFP_Lungee_Open_BlueGrey", 0.2,
+            "CFP_Lungee_Open_Blue", 0.2
+                };
+
+        // Boko Haram Vests
+            vestList[] = {
+            "CFP_TakJacket_Woodland", 0.2,
+            "CFP_TakJacket_Marpat", 0.2,
+            "CFP_TakJacket_M81", 0.2,
+            "CFP_TakJacket_EDRL", 0.2,
+            "CFP_TakJacket_ChocChip", 0.2,
+            "CFP_UtilityJacket_Woodland", 0.2,
+            "CFP_UtilityJacket_M81", 0.2,
+            "CFP_UtilityJacket_EDRL", 0.2,
+            "CFP_UtilityJacket_ChocChip", 0.2,
+            "CFP_AK_VEST_Tan", 0.2,
+            "CFP_AK_VEST_EDRL", 0.2,
+            "CFP_AK_VEST_LOlive", 0.2,
+            "CFP_AK_VEST_Olive", 0.2,
+            "CFP_AK_VEST_Lime", 0.2,
+            "CFP_TakJacket_PolygonWoodland", 0.2,
+            "CFP_TakJacket_PolygonDesert", 0.2,
+            "CFP_UtilityJacket_PolygonWoodland", 0.2,
+            "CFP_UtilityJacket_PolygonDesert", 0.2
+                };
+
+        // Boko Haram Beards
+            facewearList[] = {
+            "CFP_Beard", 1.0
+                };
+
+            class EventHandlers : EventHandlers {
+                class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+                class ALiVE_orbatCreator {
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2;  _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                };
+
             };
 
-    // Boko Haram Headgear
-        headgearList[] = {
-        "CUP_H_TKI_Lungee_Open_01", 0.2,
-        "CUP_H_TKI_Lungee_Open_02", 0.2,
-        "CUP_H_TKI_Lungee_Open_03", 0.2,
-        "CUP_H_TKI_Lungee_Open_04", 0.2,
-        "CUP_H_TKI_Lungee_Open_05", 0.2,
-        "CUP_H_TKI_Lungee_Open_06", 0.2,
-        "CFP_Lungee_Open_Tan", 0.2,
-        "CFP_Lungee_Open_LightOlive", 0.2,
-        "CFP_Lungee_Open_Grey", 0.2,
-        "CFP_Lungee_Open_Creme", 0.2,
-        "CFP_Lungee_Open_Brown", 0.2,
-        "CFP_Lungee_Open_BlueGrey", 0.2,
-        "CFP_Lungee_Open_Blue", 0.2
-            };
-
-    // Boko Haram Vests
-        vestList[] = {
-        "CFP_TakJacket_Woodland", 0.2,
-        "CFP_TakJacket_Marpat", 0.2,
-        "CFP_TakJacket_M81", 0.2,
-        "CFP_TakJacket_EDRL", 0.2,
-        "CFP_TakJacket_ChocChip", 0.2,
-        "CFP_UtilityJacket_Woodland", 0.2,
-        "CFP_UtilityJacket_M81", 0.2,
-        "CFP_UtilityJacket_EDRL", 0.2,
-        "CFP_UtilityJacket_ChocChip", 0.2,
-        "CFP_AK_VEST_Tan", 0.2,
-        "CFP_AK_VEST_EDRL", 0.2,
-        "CFP_AK_VEST_LOlive", 0.2,
-        "CFP_AK_VEST_Olive", 0.2,
-        "CFP_AK_VEST_Lime", 0.2,
-        "CFP_TakJacket_PolygonWoodland", 0.2,
-        "CFP_TakJacket_PolygonDesert", 0.2,
-        "CFP_UtilityJacket_PolygonWoodland", 0.2,
-        "CFP_UtilityJacket_PolygonDesert", 0.2
-            };
-
-    // Boko Haram Beards
-        facewearList[] = {
-        "CFP_Beard", 1.0
-            };
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2;  _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+            // custom attributes (do not delete)
+            ALiVE_orbatCreator_owned = 1;
 
     };
 
     class CFP_O_BH_Team_Leader_01 : CFP_O_BH_Rifleman_AK47_01 {
+        editorPreview = \x\cfp\addons\o_bokoharam\data\preview\CFP_O_BH_Team_Leader_01.JPG;
 
         displayName = "Team Leader [AKM]";
 
@@ -416,6 +422,7 @@ class CfgVehicles {
     };
 
     class CFP_O_BH_Machine_Gunner_PKM_01 : CFP_O_BH_Rifleman_AK74_01 {
+        editorPreview = \x\cfp\addons\o_bokoharam\data\preview\CFP_O_BH_Machine_Gunner_PKM_01.JPG;
 
         displayName = "Machine Gunner [PKM]";
 
@@ -431,6 +438,7 @@ class CfgVehicles {
     };
 
     class CFP_O_BH_Rifleman_AT_AK47_01 : CFP_O_BH_Rifleman_AK47_01 {
+        editorPreview = \x\cfp\addons\o_bokoharam\data\preview\CFP_O_BH_Rifleman_AT_AK47_01.JPG;
 
         displayName = "Rifleman AT [AK47]";
 
@@ -446,6 +454,7 @@ class CfgVehicles {
     };
 
     class CFP_O_BH_Grenadier_AK74_01 : CFP_O_BH_Rifleman_AK74_01 {
+        editorPreview = \x\cfp\addons\o_bokoharam\data\preview\CFP_O_BH_Grenadier_AK74_01.JPG;
 
         displayName = "Grenadier [AK74]";
 
@@ -461,6 +470,7 @@ class CfgVehicles {
     };
 
     class CFP_O_BH_Medic_AK47_01 : CFP_O_BH_Rifleman_AK47_01 {
+        editorPreview = \x\cfp\addons\o_bokoharam\data\preview\CFP_O_BH_Medic_AK47_01.JPG;
 
         displayName = "Medic [AK47]";
         attendant = 1;
@@ -476,6 +486,7 @@ class CfgVehicles {
     };
 
     class CFP_O_BH_Explosive_Specialist_01 : CFP_O_BH_Rifleman_AK74_01 {
+        editorPreview = \x\cfp\addons\o_bokoharam\data\preview\CFP_O_BH_Explosive_Specialist_01.JPG;
 
         displayName = "Explosive Specialist";
         canDeactivateMines = 1;
@@ -492,6 +503,7 @@ class CfgVehicles {
     };
 
     class CFP_O_BH_Sniper_SVD_01 : CFP_O_BH_Rifleman_AK47_01 {
+        editorPreview = \x\cfp\addons\o_bokoharam\data\preview\CFP_O_BH_Sniper_SVD_01.JPG;
 
         displayName = "Sniper [SVD]";
 
@@ -507,6 +519,7 @@ class CfgVehicles {
     };
 
     class CFP_O_BH_Sniper_Enfield_01 : CFP_O_BH_Rifleman_AK74_01 {
+        editorPreview = \x\cfp\addons\o_bokoharam\data\preview\CFP_O_BH_Sniper_Enfield_01.JPG;
 
         displayName = "Sniper [Enfield]";
 
@@ -522,6 +535,7 @@ class CfgVehicles {
     };
 
     class CFP_O_BH_Offroad_01 : C_Offroad_01_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_bokoharam\data\preview\CFP_O_BH_Offroad_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -555,6 +569,7 @@ class CfgVehicles {
     };
 
     class CFP_O_BH_Offroad_MG_01 : O_G_Offroad_01_armed_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_bokoharam\data\preview\CFP_O_BH_Offroad_MG_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -585,6 +600,7 @@ class CfgVehicles {
     };
 
     class CFP_O_BH_Pickup_PK_01 : CUP_I_Datsun_PK_TK_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_bokoharam\data\preview\CFP_O_BH_Pickup_PK_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -617,6 +633,7 @@ class CfgVehicles {
     };
 
     class CFP_O_BH_Landrover_SPG9_01 : CUP_O_LR_SPG9_TKA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_bokoharam\data\preview\CFP_O_BH_Landrover_SPG9_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -648,6 +665,7 @@ class CfgVehicles {
     };
 
     class CFP_O_BH_Humvee_M2_01 : CUP_B_M1151_M2_USA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_bokoharam\data\preview\CFP_O_BH_Humvee_M2_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -678,6 +696,7 @@ class CfgVehicles {
     };
 
     class CFP_O_BH_Ural_01 : CUP_O_Ural_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_bokoharam\data\preview\CFP_O_BH_Ural_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -709,6 +728,7 @@ class CfgVehicles {
     };
 
     class CFP_O_BH_Landrover_M2_01 : CUP_O_LR_MG_TKA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_bokoharam\data\preview\CFP_O_BH_Landrover_M2_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -740,6 +760,7 @@ class CfgVehicles {
     };
 
     class CFP_O_BH_Gunner_DShKM_01 : CFP_O_BH_Rifleman_AK47_01 {
+        editorPreview = \x\cfp\addons\o_bokoharam\data\preview\CFP_O_BH_Gunner_DShKM_01.JPG;
 
         displayName = "Gunner [DShKM]";
 
@@ -757,6 +778,7 @@ class CfgVehicles {
     };
 
     class CFP_O_BH_Asst_Gunner_DShKM_01 : CFP_O_BH_Rifleman_AK74_01 {
+        editorPreview = \x\cfp\addons\o_bokoharam\data\preview\CFP_O_BH_Asst_Gunner_DShKM_01.JPG;
 
         displayName = "Asst. Gunner [DShKM]";
 
@@ -774,6 +796,7 @@ class CfgVehicles {
     };
 
     class CFP_O_BH_Gunner_Mortar_01 : CFP_O_BH_Rifleman_AK47_01 {
+        editorPreview = \x\cfp\addons\o_bokoharam\data\preview\CFP_O_BH_Gunner_Mortar_01.JPG;
 
         displayName = "Gunner [Mortar]";
 
@@ -791,6 +814,7 @@ class CfgVehicles {
     };
 
     class CFP_O_BH_Asst_Gunner_Mortar_01 : CFP_O_BH_Rifleman_AK74_01 {
+        editorPreview = \x\cfp\addons\o_bokoharam\data\preview\CFP_O_BH_Asst_Gunner_Mortar_01.JPG;
 
         displayName = "Asst. Gunner [Mortar]";
 
@@ -808,6 +832,7 @@ class CfgVehicles {
     };
 
     class CFP_O_BH_Gunner_SPG_01 : CFP_O_BH_Rifleman_AK74_01 {
+        editorPreview = \x\cfp\addons\o_bokoharam\data\preview\CFP_O_BH_Gunner_SPG_01.JPG;
 
         displayName = "Gunner [SPG-9]";
 
@@ -825,6 +850,7 @@ class CfgVehicles {
     };
 
     class CFP_O_BH_Asst_Gunner_SPG_01 : CFP_O_BH_Rifleman_AK47_01 {
+        editorPreview = \x\cfp\addons\o_bokoharam\data\preview\CFP_O_BH_Asst_Gunner_SPG_01.JPG;
 
         displayName = "Asst. Gunner [SPG-9]";
 
@@ -844,6 +870,7 @@ class CfgVehicles {
     };
 
     class CFP_O_BH_DShKM_01 : CUP_O_DSHKM_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_bokoharam\data\preview\CFP_O_BH_DShKM_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -873,6 +900,7 @@ class CfgVehicles {
     };
 
     class CFP_O_BH_DShKM_Minitripod_01 : CUP_O_DSHKM_MiniTripod_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_bokoharam\data\preview\CFP_O_BH_DShKM_Minitripod_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -902,6 +930,7 @@ class CfgVehicles {
     };
 
     class CFP_O_BH_SPG_9_01 : CUP_O_SPG9_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_bokoharam\data\preview\CFP_O_BH_SPG_9_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -931,6 +960,7 @@ class CfgVehicles {
     };
 
     class CFP_O_BH_Podnos_2B14_01 : CUP_O_2b14_82mm_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_bokoharam\data\preview\CFP_O_BH_Podnos_2B14_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -960,6 +990,7 @@ class CfgVehicles {
     };
 
     class CFP_O_BH_D30_AT_01 : CUP_O_D30_AT_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_bokoharam\data\preview\CFP_O_BH_D30_AT_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -989,6 +1020,7 @@ class CfgVehicles {
     };
 
     class CFP_O_BH_ZU_23_01 : CUP_O_ZU23_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_bokoharam\data\preview\CFP_O_BH_ZU_23_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1018,6 +1050,7 @@ class CfgVehicles {
     };
 
     class CFP_O_BH_Offroad_AT_01 : B_G_Offroad_01_AT_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_bokoharam\data\preview\CFP_O_BH_Offroad_AT_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1045,6 +1078,232 @@ class CfgVehicles {
         ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_texture = "ISIS4Dirty2";
 
+    };
+
+    class CUP_RUBasicAmmunitionBox; // CUP_RUBasicAmmunitionBox
+
+    class CUP_RUBasicWeaponsBox; // CUP_RUBasicWeaponsBox
+
+    class CUP_RUSpecialWeaponsBox; // CUP_RUSpecialWeaponsBox
+
+    class CUP_RULaunchersBox; // CUP_RULaunchersBox
+
+    class CUP_RUVehicleBox; // CUP_RUVehicleBox
+
+    class CFP_O_BOKOHARAM_AmmoBox : CUP_RUBasicAmmunitionBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Boko Haram Ammo Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_PG7V_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_1Rnd_SMOKE_GP25_M,50);
+            mag_xx(DemoCharge_Remote_Mag,50);
+            mag_xx(ATMine_Range_Mag,50);
+            mag_xx(APERSTripMine_Wire_Mag,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+            mag_xx(CUP_10x_303_M,50);
+        };
+        class TransportWeapons {
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_O_BOKOHARAM_WeaponsBox : CUP_RUBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Boko Haram Weapons Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+            mag_xx(CUP_10x_303_M,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_AK47,10);
+            weap_xx(CUP_arifle_AK74,10);
+            weap_xx(CUP_arifle_AKM,10);
+            weap_xx(CUP_lmg_PKM,10);
+            weap_xx(CUP_arifle_AK74_GL,10);
+            weap_xx(CUP_arifle_AK74M,10);
+            weap_xx(CUP_srifle_SVD,10);
+            weap_xx(CUP_srifle_LeeEnfield_rail,10);
+        };
+        class TransportItems {
+            item_xx(CUP_optic_PSO_1,10);
+            item_xx(CUP_optic_LeupoldM3LR,10);
+        };
+    };
+    class CFP_O_BOKOHARAM_LaunchersBox : CUP_RULaunchersBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Boko Haram Launchers Box;
+        class TransportMagazines {
+            mag_xx(CUP_PG7V_M,5);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_launch_RPG7V,5);
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_O_BOKOHARAM_UniformBox : CUP_RUBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Boko Haram Uniform Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(CFP_U_KhetPartug_Short_EDRL,15);
+            item_xx(CFP_U_KhetPartug_Long_olive_polygon,15);
+            item_xx(CFP_U_KhetPartug_Short_Woodland,15);
+            item_xx(CFP_U_KhetPartug_Short_olive_polygon,15);
+            item_xx(CFP_U_KhetPartug_Long_Brown,15);
+            item_xx(CFP_U_KhetPartug_Short_olive,15);
+            item_xx(CFP_U_KhetPartug_Long_Blue,15);
+            item_xx(CFP_U_KhetPartug_Long_light_olive,15);
+            item_xx(CFP_U_KhetPartug_Long_Grey,15);
+            item_xx(CFP_U_KhetPartug_Short_PolygonDesert,15);
+            item_xx(CFP_U_KhetPartug_Long_BlueGrey,15);
+            item_xx(CFP_U_KhetPartug_Short_M81,15);
+            item_xx(CFP_U_KhetPartug_Short_BlueGrey,15);
+            item_xx(CFP_U_KhetPartug_Short_Black,15);
+        };
+    };
+    class CFP_O_BOKOHARAM_SupportBox : CUP_RUSpecialWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Boko Haram Support Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(CFP_AK_VEST_Tan,10);
+            item_xx(CFP_Lungee_Open_LightOlive,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(CFP_TakJacket_EDRL,10);
+            item_xx(CUP_H_TKI_Lungee_Open_01,10);
+            item_xx(CFP_Beard,10);
+            item_xx(CFP_TakJacket_Woodland,10);
+            item_xx(SP_Shemagh_CheckGreen,10);
+            item_xx(CFP_AK_VEST_Olive,10);
+            item_xx(CUP_H_TKI_Lungee_Open_06,10);
+            item_xx(CFP_UtilityJacket_Woodland,10);
+            item_xx(SP_Shemagh_Black,10);
+            item_xx(CUP_B_RPGPack_Khaki,10);
+            item_xx(CFP_Lungee_Open_Blue,10);
+            item_xx(CFP_UtilityJacket_PolygonWoodland,10);
+            item_xx(SP_Shemagh_CheckBlack,10);
+            item_xx(CFP_Kitbag_PolygonWoodland,10);
+            item_xx(CFP_TakJacket_ChocChip,10);
+            item_xx(CFP_Lungee_Open_BlueGrey,10);
+            item_xx(CFP_Kitbag_Woodland,10);
+            item_xx(CUP_H_TK_Lungee,10);
+            item_xx(CFP_TakJacket_Marpat,10);
+            item_xx(CFP_UtilityJacket_PolygonDesert,10);
+            item_xx(CFP_Lungee_Open_Tan,10);
+            item_xx(CUP_B_DShkM_TripodHigh_Bag,10);
+            item_xx(CFP_UtilityJacket_ChocChip,10);
+            item_xx(CUP_B_DShkM_Gun_Bag,10);
+            item_xx(CFP_Lungee_Brown,10);
+            item_xx(CUP_B_Podnos_Bipod_Bag,10);
+            item_xx(CFP_TakJacket_M81,10);
+            item_xx(CUP_B_Podnos_Gun_Bag,10);
+            item_xx(CFP_TakJacket_PolygonDesert,10);
+            item_xx(CUP_B_SPG9_Tripod_Bag,10);
+            item_xx(CUP_H_TKI_Lungee_01,10);
+            item_xx(CUP_B_SPG9_Gun_Bag,10);
+        };
+    };
+    class CFP_O_BOKOHARAM_SupplyBox : CUP_RUVehicleBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Boko Haram Supply Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_PG7V_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_1Rnd_SMOKE_GP25_M,50);
+            mag_xx(DemoCharge_Remote_Mag,50);
+            mag_xx(ATMine_Range_Mag,50);
+            mag_xx(APERSTripMine_Wire_Mag,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+            mag_xx(CUP_10x_303_M,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_AK47,10);
+            weap_xx(CUP_arifle_AK74,10);
+            weap_xx(CUP_arifle_AKM,10);
+            weap_xx(CUP_lmg_PKM,10);
+            weap_xx(CUP_arifle_AK74_GL,10);
+            weap_xx(CUP_arifle_AK74M,10);
+            weap_xx(CUP_srifle_SVD,10);
+            weap_xx(CUP_srifle_LeeEnfield_rail,10);
+            weap_xx(CUP_launch_RPG7V,10);
+        };
+        class TransportItems {
+            item_xx(CUP_optic_PSO_1,10);
+            item_xx(CUP_optic_LeupoldM3LR,10);
+            item_xx(CFP_AK_VEST_Tan,10);
+            item_xx(CFP_Lungee_Open_LightOlive,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(CFP_TakJacket_EDRL,10);
+            item_xx(CUP_H_TKI_Lungee_Open_01,10);
+            item_xx(CFP_Beard,10);
+            item_xx(CFP_TakJacket_Woodland,10);
+            item_xx(SP_Shemagh_CheckGreen,10);
+            item_xx(CFP_AK_VEST_Olive,10);
+            item_xx(CUP_H_TKI_Lungee_Open_06,10);
+            item_xx(CFP_UtilityJacket_Woodland,10);
+            item_xx(SP_Shemagh_Black,10);
+            item_xx(CUP_B_RPGPack_Khaki,10);
+            item_xx(CFP_Lungee_Open_Blue,10);
+            item_xx(CFP_UtilityJacket_PolygonWoodland,10);
+            item_xx(SP_Shemagh_CheckBlack,10);
+            item_xx(CFP_Kitbag_PolygonWoodland,10);
+            item_xx(CFP_TakJacket_ChocChip,10);
+            item_xx(CFP_Lungee_Open_BlueGrey,10);
+            item_xx(CFP_Kitbag_Woodland,10);
+            item_xx(CUP_H_TK_Lungee,10);
+            item_xx(CFP_TakJacket_Marpat,10);
+            item_xx(CFP_UtilityJacket_PolygonDesert,10);
+            item_xx(CFP_Lungee_Open_Tan,10);
+            item_xx(CUP_B_DShkM_TripodHigh_Bag,10);
+            item_xx(CFP_UtilityJacket_ChocChip,10);
+            item_xx(CUP_B_DShkM_Gun_Bag,10);
+            item_xx(CFP_Lungee_Brown,10);
+            item_xx(CUP_B_Podnos_Bipod_Bag,10);
+            item_xx(CFP_TakJacket_M81,10);
+            item_xx(CUP_B_Podnos_Gun_Bag,10);
+            item_xx(CFP_TakJacket_PolygonDesert,10);
+            item_xx(CUP_B_SPG9_Tripod_Bag,10);
+            item_xx(CUP_H_TKI_Lungee_01,10);
+            item_xx(CUP_B_SPG9_Gun_Bag,10);
+            item_xx(CFP_U_KhetPartug_Short_EDRL,10);
+            item_xx(CFP_U_KhetPartug_Long_olive_polygon,10);
+            item_xx(CFP_U_KhetPartug_Short_Woodland,10);
+            item_xx(CFP_U_KhetPartug_Short_olive_polygon,10);
+            item_xx(CFP_U_KhetPartug_Long_Brown,10);
+            item_xx(CFP_U_KhetPartug_Short_olive,10);
+            item_xx(CFP_U_KhetPartug_Long_Blue,10);
+            item_xx(CFP_U_KhetPartug_Long_light_olive,10);
+            item_xx(CFP_U_KhetPartug_Long_Grey,10);
+            item_xx(CFP_U_KhetPartug_Short_PolygonDesert,10);
+            item_xx(CFP_U_KhetPartug_Long_BlueGrey,10);
+            item_xx(CFP_U_KhetPartug_Short_M81,10);
+            item_xx(CFP_U_KhetPartug_Short_BlueGrey,10);
+            item_xx(CFP_U_KhetPartug_Short_Black,10);
+        };
     };
 
 };
