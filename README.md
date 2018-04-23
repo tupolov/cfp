@@ -25,14 +25,13 @@
 
 CFP offers not only enhanced vanilla CUP factions but also a huge number of new factions using CUP and community donated assets. CFP includes custom assets and textures in order to help expand whats possible with CUP. 
 
-CFP Ultimate enhances base CFP factions (if running CFP) and introduces new factions using the most efficient combination of community gear, weapon and vehicle addons. CFP Ultimate requires VSM, SMA and NIArms.
+CFP Ultimate will enhance base CFP factions (if running CFP) and introduces new factions using the most efficient combination of community gear, weapon and vehicle addons. CFP Ultimate dependencies are TBD.
 
 Factions are delivered in a modular way, enabling groups to maintain their own tailored version of CFP by simply excluding any components they don't need, or those possibly in conflict with other mods. 
 
-## Features
-- 88 new factions!
-- CFP introduces 58 new factions based on CUP assets (including 9 new civilian factions)
-- CFP Ultimate enhances the CFP factions and introduces 30 new factions/sub-factions based on common community addons (TBC etc)
+## CFP Features
+- CFP plus CFP Ultimate provides 91 new factions!
+- CFP introduces 59 new factions based on CUP + custom assets (including 9 new civilian factions)
 - Replaces certain CUP factions with factions split by theater (i.e. Arid/Desert, Woodland/Jungle, Artic/Snow etc)
 - Enhances certain CUP factions with additonal groups and loadouts (i.e. special forces)
 - Includes AccuracyThruVolume's Iraq/Syria pack
@@ -45,6 +44,7 @@ Factions are delivered in a modular way, enabling groups to maintain their own t
 - Standardizes faction and group configurations for the community
 - Follows best practice configuration and implementation using CBA and ACE3 standards
 - Full support for ZEUS, ALiVE, ACE3 and VCOM
+- CFP Ultimate will enhance the CFP factions and introduces 32 new factions/sub-factions based on common community addons taking the total new or enhanced factions to over 100!
 
 ## CFP Factions
 
@@ -69,7 +69,7 @@ CFP factions cover major current conflict zones such as Afghanistan, Iraq, Syria
 - Mali Islamic Rebels
 - **Russian Ground Forces** - split into various theater specific factions including Special Operations Forces
 - **Russian National Guard** (formerly MVD)
-- Russian Navy (Infantry)
+- Russian Navy
 - **Somali Rebels**
 - South Thailand Insurgents
 - Sudan Army
@@ -88,11 +88,13 @@ CFP factions cover major current conflict zones such as Afghanistan, Iraq, Syria
 - Free Syrian Army
 - **Islamic State**
 - Myanmar Armed Forces
-- PMC: Blackwater 
+- PMC: Blackwater
+- PMC: ION - split into various theater specific factions
 - Sudanese Rebels
-- **Tuareg Rebels**
+- Tuareg Rebels
 - Ulster Loyalist Paramilitaries (Ulster Volunteer Force)
 - UNAMID (Niger, Chad, Cameroon etc)
+- United Nations - split into various theater specific factions
 - Yemen Armed Forces
 
 ### BLUFOR
@@ -103,13 +105,13 @@ CFP factions cover major current conflict zones such as Afghanistan, Iraq, Syria
 - **Bundeswehr (KSK)**  - split into theater factions
 - **Iraqi Armed Forces**
 - **Iraqi Police**
+- Jordanian Armed Forces
 - **Kenyan Defence Forces**
 - **Kurdish Peshmurga**
 - Libyan National Transitional Council / Government Forces
-- **Malian Government Forces**
+- Malian Government Forces
 - **Nigerian Armed Forces** (Nigeria)
 - Philippine Army
-- Royal Thai Army
 - Saudi Armed Forces
 - Somali National Army
 - **Ugandan Defence Forces**
