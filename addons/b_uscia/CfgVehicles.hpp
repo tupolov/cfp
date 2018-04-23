@@ -475,8 +475,8 @@ class CfgVehicles {
         respawnWeapons[] = {"CUP_arifle_AK74M","CUP_hgun_M9","Throw","Put"};
         linkedItems[] = {"CFP_RAV_MG_OCP","H_HelmetB_light_desert","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
         respawnLinkedItems[] = {"CFP_RAV_MG_OCP","H_HelmetB_light_desert","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
-        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_15Rnd_9x19_M9"};
-        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_15Rnd_9x19_M9"};
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{"CUP_hgun_M9","","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"SP_0000_Standard_FieldUniform_Tan_SS",{{"CUP_30Rnd_545x39_AK_M",4,30},{"CUP_15Rnd_9x19_M9",1,15}}},{"CFP_RAV_MG_OCP",{{"CUP_30Rnd_545x39_AK_M",1,30},{"CUP_15Rnd_9x19_M9",1,15},{"CUP_HandGrenade_L109A2_HE",4,1}}},{"B_Carryall_cbr",{}},"H_HelmetB_light_desert","G_Lowprofile",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
     };
@@ -498,7 +498,6 @@ class CfgVehicles {
             {"CUP_arifle_AK74_GL",{{"CUP_30Rnd_545x39_AK_M",6},{"CUP_1Rnd_HE_GP25_M",4},{"CUP_1Rnd_HE_GP25_M",2}}}, 0.3,
             {"arifle_AK12_GL_F",{{"30Rnd_762x39_Mag_F",6},{"1Rnd_HE_Grenade_shell",4},{"1Rnd_HE_Grenade_shell",2}}}, 0.2
         };
-
     };
 
     class CFP_B_USCIA_paramilitary_officer_assault_03 : CFP_B_USCIA_paramilitary_officer_assault_01 {
@@ -515,7 +514,6 @@ class CfgVehicles {
             {"CUP_launch_M72A6",{"CUP_M72A6_M",3}}, 0.2,
             {"CUP_launch_RPG18",{"CUP_RPG18_M",3}}, 0.2
         };
-
     };
 
     class CFP_B_USCIA_paramilitary_officer_assault_04 : CFP_B_USCIA_paramilitary_officer_assault_01 {
@@ -537,7 +535,6 @@ class CfgVehicles {
             {"CUP_arifle_RPK74M",{"CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",6}}, 0.2,
             {"CUP_lmg_Mk48_des",{"CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M",6}}, 0.1
         };
-
     };
 
     // Vehicles
