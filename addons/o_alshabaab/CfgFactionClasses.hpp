@@ -6,7 +6,7 @@
 
 class CfgFactionClasses {
     class CFP_O_ALSHABAAB {
-        displayName = "al-Shabaab";
+        displayName = "Al-Shabaab";
         side = 0;
         flag = "x\cfp\addons\flags\IslamicState\ISC_flag_IS.paa";
         icon = "x\cfp\addons\flags\IslamicState\ISC_flag_IS.paa";

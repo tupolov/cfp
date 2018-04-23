@@ -8,7 +8,7 @@ class CfgGroups {
     class EAST {
 
         class CFP_O_ALSHABAAB {
-            name = "al-Shabaab";
+            name = "Al-Shabaab";
 
             class Infantry {
                 name = "Infantry";

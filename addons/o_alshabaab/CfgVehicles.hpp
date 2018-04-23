@@ -3,7 +3,9 @@
 // Generated with Arma 3 version 176.143187 on Stable branch
 // Generated with ALiVE version 1.5.0.1711091
 //////////////////////////////////////////////////////////////////////////////////
-
+#define mag_xx(a,b) class _xx_##a {magazine = ##a; count = b;}
+#define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
+#define item_xx(a,b) class _xx_##a {name = a; count = b;}
 
 class CBA_Extended_EventHandlers_base;
 
@@ -172,12 +174,13 @@ class CfgVehicles {
 
 
     class CFP_O_ALSHABAAB_Rifleman_01 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_alshabaab\data\preview\CFP_O_ALSHABAAB_Rifleman_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman";
         side = 0;
-	genericNames = "AfroMen";
+    	genericNames = "AfroMen";
         faction = "CFP_O_ALSHABAAB";
 
         identityTypes[] = {"Head_African","LanguagePER_F","G_IRAN_default"};
@@ -192,73 +195,74 @@ class CfgVehicles {
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_KhetPartug_Long_olive",{{"CUP_30Rnd_762x39_AK47_M",1,30}}},{"CFP_AK_VEST_LOlive",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{},"IS_shemag_black","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
-	randomGearProbability = 100;
+    	randomGearProbability = 100;
 
-	// al Shabaab Uniforms
-		uniformList[] = {
-	"CFP_U_KhetPartug_Short_M81", 0.2,
-	"CFP_U_KhetPartug_Long_M81", 0.2,
-	"CFP_U_KhetPartug_Long_olive", 0.2,
-	"CFP_U_KhetPartug_Short_olive", 0.2,
-	"CFP_U_KhetPartug_Long_Light_Olive", 0.2,
-    "CFP_U_KhetPartug_Short_Light_Olive", 0.2,
-    "CFP_U_KhetPartug_Short_Woodland", 0.2,
-    "CFP_U_KhetPartug_Long_Woodland", 0.2,
-    "CFP_U_KhetPartug_Short_GreenOlive", 0.2,
-    "CFP_U_KhetPartug_Long_Black", 0.2,
-    "CFP_U_KhetPartug_Short_Black", 0.2,
-    "CFP_U_KhetPartug_Long_EDRL", 0.2,
-    "CFP_U_KhetPartug_Short_EDRL", 0.2
-		};
+    	// al Shabaab Uniforms
+    		uniformList[] = {
+    	"CFP_U_KhetPartug_Short_M81", 0.2,
+    	"CFP_U_KhetPartug_Long_M81", 0.2,
+    	"CFP_U_KhetPartug_Long_olive", 0.2,
+    	"CFP_U_KhetPartug_Short_olive", 0.2,
+    	"CFP_U_KhetPartug_Long_Light_Olive", 0.2,
+        "CFP_U_KhetPartug_Short_Light_Olive", 0.2,
+        "CFP_U_KhetPartug_Short_Woodland", 0.2,
+        "CFP_U_KhetPartug_Long_Woodland", 0.2,
+        "CFP_U_KhetPartug_Short_GreenOlive", 0.2,
+        "CFP_U_KhetPartug_Long_Black", 0.2,
+        "CFP_U_KhetPartug_Short_Black", 0.2,
+        "CFP_U_KhetPartug_Long_EDRL", 0.2,
+        "CFP_U_KhetPartug_Short_EDRL", 0.2
+    		};
 
-	// al Shabaab Headgear
-		headgearList[] = {
-	"SP_Shemagh_Black", 0.25,
-	"SP_Shemagh_CheckBlack", 0.25,
-	"SP_Shemagh_CheckGreen", 0.1,
-	"SP_Shemagh_CheckRed", 0.1,
-	"SP_Shemagh_CheckTan", 0.1,
-	"SP_Shemagh_CheckWhite", 0.1,
-	"SP_Shemagh_Green", 0.1,
-	"SP_Shemagh_Grey", 0.1,
-	"SP_Shemagh_Tan", 0.1,
-	"SP_Shemagh_White", 0.1,
-	"IS_shemag_black", 0.1
-		};
+    	// al Shabaab Headgear
+    		headgearList[] = {
+    	"SP_Shemagh_Black", 0.25,
+    	"SP_Shemagh_CheckBlack", 0.25,
+    	"SP_Shemagh_CheckGreen", 0.1,
+    	"SP_Shemagh_CheckRed", 0.1,
+    	"SP_Shemagh_CheckTan", 0.1,
+    	"SP_Shemagh_CheckWhite", 0.1,
+    	"SP_Shemagh_Green", 0.1,
+    	"SP_Shemagh_Grey", 0.1,
+    	"SP_Shemagh_Tan", 0.1,
+    	"SP_Shemagh_White", 0.1,
+    	"IS_shemag_black", 0.1
+    		};
 
-    // al Shabaab Vests
-        vestList[] = {
-    "CFP_AK_VEST_Black", 0.2,
-    "CFP_AK_VEST_EDRL", 0.2,
-    "CFP_AK_VEST_LOlive", 0.2,
-    "CFP_AK_VEST_Olive", 0.2,
-    "CFP_AK_VEST_Tan", 0.2,
-    "CFP_AK_VEST_Lime", 0.2,
-    "CFP_UtilityJacket_Woodland", 0.2,
-    "CFP_UtilityJacket_M81", 0.2,
-    "CFP_UtilityJacket_EDRL", 0.2,
-    "CFP_UtilityJacket_ChocChip", 0.2,
-    "CFP_TakJacket_Woodland", 0.2,
-    "CFP_TakJacket_M81", 0.2,
-    "CFP_TakJacket_EDRL", 0.2,
-    "CFP_TakJacket_ChocChip", 0.2
-        };
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+        // al Shabaab Vests
+            vestList[] = {
+        "CFP_AK_VEST_Black", 0.2,
+        "CFP_AK_VEST_EDRL", 0.2,
+        "CFP_AK_VEST_LOlive", 0.2,
+        "CFP_AK_VEST_Olive", 0.2,
+        "CFP_AK_VEST_Tan", 0.2,
+        "CFP_AK_VEST_Lime", 0.2,
+        "CFP_UtilityJacket_Woodland", 0.2,
+        "CFP_UtilityJacket_M81", 0.2,
+        "CFP_UtilityJacket_EDRL", 0.2,
+        "CFP_UtilityJacket_ChocChip", 0.2,
+        "CFP_TakJacket_Woodland", 0.2,
+        "CFP_TakJacket_M81", 0.2,
+        "CFP_TakJacket_EDRL", 0.2,
+        "CFP_TakJacket_ChocChip", 0.2
             };
 
-        };
+            class EventHandlers : EventHandlers {
+                class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+                class ALiVE_orbatCreator {
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                };
+
+            };
+
+            // custom attributes (do not delete)
+            ALiVE_orbatCreator_owned = 1;
 
     };
 
     class CFP_O_ALSHABAAB_Team_Leader_01 : CFP_O_ALSHABAAB_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_alshabaab\data\preview\CFP_O_ALSHABAAB_Team_Leader_01.JPG;
 
         displayName = "Team Leader";
 
@@ -274,6 +278,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALSHABAAB_Rifleman_AT_01 : CFP_O_ALSHABAAB_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_alshabaab\data\preview\CFP_O_ALSHABAAB_Rifleman_AT_01.JPG;
 
         displayName = "Rifleman AT";
 
@@ -289,6 +294,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALSHABAAB_Machine_Gunner_01 : CFP_O_ALSHABAAB_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_alshabaab\data\preview\CFP_O_ALSHABAAB_Machine_Gunner_01.JPG;
 
         displayName = "Machine Gunner";
 
@@ -304,6 +310,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALSHABAAB_Medic_01 : CFP_O_ALSHABAAB_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_alshabaab\data\preview\CFP_O_ALSHABAAB_Medic_01.JPG;
 
         displayName = "Medic";
         attendant = 1;
@@ -319,6 +326,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALSHABAAB_Grenadier_01 : CFP_O_ALSHABAAB_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_alshabaab\data\preview\CFP_O_ALSHABAAB_Grenadier_01.JPG;
 
         displayName = "Grenadier";
 
@@ -334,6 +342,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALSHABAAB_Explosive_Specialist_01 : CFP_O_ALSHABAAB_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_alshabaab\data\preview\CFP_O_ALSHABAAB_Explosive_Specialist_01.JPG;
 
         displayName = "Explosive Specialist";
         canDeactivateMines = 1;
@@ -350,6 +359,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALSHABAAB_Sniper_01 : CFP_O_ALSHABAAB_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_alshabaab\data\preview\CFP_O_ALSHABAAB_Sniper_01.JPG;
 
         displayName = "Sniper";
 
@@ -365,6 +375,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALSHABAAB_Gunner_DShKM_High_01 : CFP_O_ALSHABAAB_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_alshabaab\data\preview\CFP_O_ALSHABAAB_Gunner_DShKM_High_01.JPG;
 
         displayName = "Gunner [DShKM High]";
 
@@ -380,6 +391,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALSHABAAB_Gunner_DShKM_Low_01 : CFP_O_ALSHABAAB_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_alshabaab\data\preview\CFP_O_ALSHABAAB_Gunner_DShKM_Low_01.JPG;
 
         displayName = "Gunner [DShKM Low]";
 
@@ -395,6 +407,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALSHABAAB_Gunner_Mortar_01 : CFP_O_ALSHABAAB_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_alshabaab\data\preview\CFP_O_ALSHABAAB_Gunner_Mortar_01.JPG;
 
         displayName = "Gunner [Mortar]";
 
@@ -410,6 +423,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALSHABAAB_Gunner_SPG_01 : CFP_O_ALSHABAAB_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_alshabaab\data\preview\CFP_O_ALSHABAAB_Gunner_SPG_01.JPG;
 
         displayName = "Gunner [SPG-9]";
 
@@ -425,6 +439,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALSHABAAB_Ural_ZU_23_01 : CUP_I_Ural_ZU23_TK_Gue_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_alshabaab\data\preview\CFP_O_ALSHABAAB_Ural_ZU_23_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -454,6 +469,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALSHABAAB_Technical_PK_01 : CUP_I_Datsun_PK_TK_Random_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_alshabaab\data\preview\CFP_O_ALSHABAAB_Technical_PK_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -485,6 +501,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALSHABAAB_Technical_01 : CUP_I_Datsun_4seat_TK_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_alshabaab\data\preview\CFP_O_ALSHABAAB_Technical_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -516,6 +533,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALSHABAAB_Offroad_Armed_01 : O_G_Offroad_01_armed_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_alshabaab\data\preview\CFP_O_ALSHABAAB_Offroad_Armed_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -546,6 +564,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALSHABAAB_Offroad_01 : C_Offroad_01_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_alshabaab\data\preview\CFP_O_ALSHABAAB_Offroad_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -579,6 +598,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALSHABAAB_Zamak_01 : C_Truck_02_transport_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_alshabaab\data\preview\CFP_O_ALSHABAAB_Zamak_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -609,6 +629,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALSHABAAB_Truck_01 : C_Van_01_transport_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_alshabaab\data\preview\CFP_O_ALSHABAAB_Truck_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -647,6 +668,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALSHABAAB_DShKM_High_01 : CUP_O_DSHKM_TK_INS_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_alshabaab\data\preview\CFP_O_ALSHABAAB_DShKM_High_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -676,6 +698,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALSHABAAB_DShKM_Low_01 : CUP_O_DSHkM_MiniTriPod_TK_INS_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_alshabaab\data\preview\CFP_O_ALSHABAAB_DShKM_Low_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -705,6 +728,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALSHABAAB_Podnos_2B14_01 : CUP_O_2b14_82mm_TK_INS_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_alshabaab\data\preview\CFP_O_ALSHABAAB_Podnos_2B14_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -734,6 +758,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALSHABAAB_SPG_9_01 : CUP_O_SPG9_TK_INS_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_alshabaab\data\preview\CFP_O_ALSHABAAB_SPG_9_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -763,6 +788,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALSHABAAB_Ural_Ammo_01 : CUP_O_Ural_Reammo_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_alshabaab\data\preview\CFP_O_ALSHABAAB_Ural_Ammo_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -787,6 +813,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALSHABAAB_Ural_Fuel_01 : CUP_O_Ural_Refuel_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_alshabaab\data\preview\CFP_O_ALSHABAAB_Ural_Fuel_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -811,6 +838,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALSHABAAB_Ural_Repair_01 : CUP_O_Ural_Repair_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_alshabaab\data\preview\CFP_O_ALSHABAAB_Ural_Repair_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -835,6 +863,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALSHABAAB_UAZ_SPG_01 : CUP_O_UAZ_SPG9_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_alshabaab\data\preview\CFP_O_ALSHABAAB_UAZ_SPG_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -865,6 +894,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALSHABAAB_Ural_Open_01 : CUP_O_Ural_Open_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_alshabaab\data\preview\CFP_O_ALSHABAAB_Ural_Open_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -895,6 +925,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALSHABAAB_Asst_Gunner_DShKM_01 : CFP_O_ALSHABAAB_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_alshabaab\data\preview\CFP_O_ALSHABAAB_Asst_Gunner_DShKM_01.JPG;
 
         displayName = "Asst. Gunner [DShKM]";
 
@@ -912,6 +943,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALSHABAAB_Asst_Gunner_Mortar_01 : CFP_O_ALSHABAAB_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_alshabaab\data\preview\CFP_O_ALSHABAAB_Asst_Gunner_Mortar_01.JPG;
 
         displayName = "Asst. Gunner [Mortar]";
 
@@ -929,6 +961,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALSHABAAB_Asst_Gunner_SPG_01 : CFP_O_ALSHABAAB_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_alshabaab\data\preview\CFP_O_ALSHABAAB_Asst_Gunner_SPG_01.JPG;
 
         displayName = "Asst. Gunner [SPG-9]";
 
@@ -946,6 +979,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ALSHABAAB_Offroad_AT_01 : B_G_Offroad_01_AT_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_alshabaab\data\preview\CFP_O_ALSHABAAB_Offroad_AT_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -975,4 +1009,192 @@ class CfgVehicles {
 
     };
 
+    class CUP_RUBasicAmmunitionBox; // CUP_RUBasicAmmunitionBox
+
+    class CUP_RUBasicWeaponsBox; // CUP_RUBasicWeaponsBox
+
+    class CUP_RUSpecialWeaponsBox; // CUP_RUSpecialWeaponsBox
+
+    class CUP_RULaunchersBox; // CUP_RULaunchersBox
+
+    class CUP_RUVehicleBox; // CUP_RUVehicleBox
+
+    class CFP_O_ALSHABAAB_AmmoBox : CUP_RUBasicAmmunitionBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = al-Shabaab Ammo Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_PG7V_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(DemoCharge_Remote_Mag,50);
+            mag_xx(ATMine_Range_Mag,50);
+            mag_xx(APERSTripMine_Wire_Mag,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+        };
+        class TransportWeapons {
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_O_ALSHABAAB_WeaponsBox : CUP_RUBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = al-Shabaab Weapons Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_AK47,10);
+            weap_xx(CUP_lmg_PKM,10);
+            weap_xx(CUP_arifle_AK74M_GL,10);
+            weap_xx(CUP_srifle_SVD,10);
+        };
+        class TransportItems {
+            item_xx(CUP_optic_PSO_3,10);
+        };
+    };
+    class CFP_O_ALSHABAAB_LaunchersBox : CUP_RULaunchersBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = al-Shabaab Launchers Box;
+        class TransportMagazines {
+            mag_xx(CUP_PG7V_M,5);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_launch_RPG7V,5);
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_O_ALSHABAAB_UniformBox : CUP_RUBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = al-Shabaab Uniform Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(CFP_U_KhetPartug_Short_Woodland,15);
+            item_xx(CFP_U_KhetPartug_Long_olive,15);
+            item_xx(CFP_U_KhetPartug_Long_EDRL,15);
+            item_xx(CFP_U_KhetPartug_Short_olive,15);
+            item_xx(CFP_U_KhetPartug_Short_Black,15);
+            item_xx(CFP_U_KhetPartug_Long_Black,15);
+            item_xx(CFP_U_KhetPartug_Short_light_olive,15);
+            item_xx(CFP_U_KhetPartug_Long_M81,15);
+            item_xx(CFP_U_KhetPartug_Long_Woodland,15);
+        };
+    };
+    class CFP_O_ALSHABAAB_SupportBox : CUP_RUSpecialWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = al-Shabaab Support Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(CFP_AK_VEST_Lime,10);
+            item_xx(SP_Shemagh_CheckBlack,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(CFP_AK_VEST_EDRL,10);
+            item_xx(SP_Shemagh_CheckWhite,10);
+            item_xx(CFP_UtilityJacket_EDRL,10);
+            item_xx(SP_Shemagh_Black,10);
+            item_xx(CUP_B_RPGPack_Khaki,10);
+            item_xx(B_TacticalPack_oli,10);
+            item_xx(CFP_UtilityJacket_Woodland,10);
+            item_xx(B_FieldPack_oli,10);
+            item_xx(CFP_TakJacket_Woodland,10);
+            item_xx(IS_shemag_black,10);
+            item_xx(CFP_TakJacket_ChocChip,10);
+            item_xx(SP_Shemagh_Grey,10);
+            item_xx(SP_Carryall_Green,10);
+            item_xx(CFP_AK_VEST_Tan,10);
+            item_xx(CUP_B_DShkM_TripodHigh_Bag,10);
+            item_xx(CFP_TakJacket_EDRL,10);
+            item_xx(SP_Shemagh_CheckGreen,10);
+            item_xx(CUP_B_DShkM_TripodLow_Bag,10);
+            item_xx(CFP_AK_VEST_Olive,10);
+            item_xx(CUP_B_Podnos_Bipod_Bag,10);
+            item_xx(CUP_B_SPG9_Tripod_Bag,10);
+            item_xx(CUP_B_DShkM_Gun_Bag,10);
+            item_xx(CUP_B_Podnos_Gun_Bag,10);
+            item_xx(CFP_AK_VEST_LOlive,10);
+            item_xx(SP_Shemagh_CheckTan,10);
+            item_xx(CUP_B_SPG9_Gun_Bag,10);
+        };
+    };
+    class CFP_O_ALSHABAAB_SupplyBox : CUP_RUVehicleBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = al-Shabaab Supply Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_PG7V_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(DemoCharge_Remote_Mag,50);
+            mag_xx(ATMine_Range_Mag,50);
+            mag_xx(APERSTripMine_Wire_Mag,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_AK47,10);
+            weap_xx(CUP_lmg_PKM,10);
+            weap_xx(CUP_arifle_AK74M_GL,10);
+            weap_xx(CUP_srifle_SVD,10);
+            weap_xx(CUP_launch_RPG7V,10);
+        };
+        class TransportItems {
+            item_xx(CUP_optic_PSO_3,10);
+            item_xx(CFP_AK_VEST_Lime,10);
+            item_xx(SP_Shemagh_CheckBlack,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(CFP_AK_VEST_EDRL,10);
+            item_xx(SP_Shemagh_CheckWhite,10);
+            item_xx(CFP_UtilityJacket_EDRL,10);
+            item_xx(SP_Shemagh_Black,10);
+            item_xx(CUP_B_RPGPack_Khaki,10);
+            item_xx(B_TacticalPack_oli,10);
+            item_xx(CFP_UtilityJacket_Woodland,10);
+            item_xx(B_FieldPack_oli,10);
+            item_xx(CFP_TakJacket_Woodland,10);
+            item_xx(IS_shemag_black,10);
+            item_xx(CFP_TakJacket_ChocChip,10);
+            item_xx(SP_Shemagh_Grey,10);
+            item_xx(SP_Carryall_Green,10);
+            item_xx(CFP_AK_VEST_Tan,10);
+            item_xx(CUP_B_DShkM_TripodHigh_Bag,10);
+            item_xx(CFP_TakJacket_EDRL,10);
+            item_xx(SP_Shemagh_CheckGreen,10);
+            item_xx(CUP_B_DShkM_TripodLow_Bag,10);
+            item_xx(CFP_AK_VEST_Olive,10);
+            item_xx(CUP_B_Podnos_Bipod_Bag,10);
+            item_xx(CUP_B_SPG9_Tripod_Bag,10);
+            item_xx(CUP_B_DShkM_Gun_Bag,10);
+            item_xx(CUP_B_Podnos_Gun_Bag,10);
+            item_xx(CFP_AK_VEST_LOlive,10);
+            item_xx(SP_Shemagh_CheckTan,10);
+            item_xx(CUP_B_SPG9_Gun_Bag,10);
+            item_xx(CFP_U_KhetPartug_Short_Woodland,10);
+            item_xx(CFP_U_KhetPartug_Long_olive,10);
+            item_xx(CFP_U_KhetPartug_Long_EDRL,10);
+            item_xx(CFP_U_KhetPartug_Short_olive,10);
+            item_xx(CFP_U_KhetPartug_Short_Black,10);
+            item_xx(CFP_U_KhetPartug_Long_Black,10);
+            item_xx(CFP_U_KhetPartug_Short_light_olive,10);
+            item_xx(CFP_U_KhetPartug_Long_M81,10);
+            item_xx(CFP_U_KhetPartug_Long_Woodland,10);
+        };
+    };
 };
