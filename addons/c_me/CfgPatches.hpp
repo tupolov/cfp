@@ -15,7 +15,6 @@ class CfgPatches {
             "CFP_C_ME_Truck_01"
         };
         weapons[] = {};
-        requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "A3_Characters_F",
             "CUP_WheeledVehicles_Ikarus",
@@ -30,7 +29,9 @@ class CfgPatches {
             "A3_Soft_F_Exp_Offroad_02",
             "A3_Soft_F_Gamma_Van_01"
         };
-        author = "Drew";
-        authors[] = { "Drew" };
+        requiredVersion = REQUIRED_VERSION;
+        VERSION_CONFIG;
+        authors[] = {"Drew"};
+        author = MODULE_AUTHOR;
     };
 };

@@ -56,7 +56,6 @@ class CfgPatches {
             "CFP_B_KEARMY_ZU_23_01"
         };
         weapons[] = {};
-        requiredVersion = 1.62;
         requiredAddons[] = {
             "CFP_B_AFARMY",
             "CFP_B_USMC_DES",
@@ -65,8 +64,10 @@ class CfgPatches {
             "CFP_B_USARMY_WDL",
             "CUP_Weapons_StaticWeapons"
         };
-        author = "Drew";
+        requiredVersion = REQUIRED_VERSION;
+        VERSION_CONFIG;
         authors[] = {"Drew"};
+        author = MODULE_AUTHOR;
     };
 };
 

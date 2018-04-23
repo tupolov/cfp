@@ -24,7 +24,6 @@ class CfgPatches {
             "CFP_C_AFRISLAMIC_Land_Rover_01"
         };
         weapons[] = {};
-        requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "A3_Characters_F",
             "A3_Soft_F_Beta_Truck_02",
@@ -35,7 +34,9 @@ class CfgPatches {
             "CUP_WheeledVehicles_Ural",
             "CUP_WheeledVehicles_LR"
         };
-        author = "Drew";
-        authors[] = { "Drew" };
+        requiredVersion = REQUIRED_VERSION;
+        VERSION_CONFIG;
+        authors[] = {"Drew"};
+        author = MODULE_AUTHOR;
     };
 };

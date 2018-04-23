@@ -28,7 +28,6 @@ class CfgPatches {
             "CFP_O_ALQAEDA_Ural_Open_01"
         };
         weapons[] = {};
-        requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "A3_Characters_F",
             "cfp_uniforms",
@@ -39,7 +38,9 @@ class CfgPatches {
             "A3_Soft_F_Offroad_01",
             "CUP_WheeledVehicles_Ural"
         };
-        author = "Drew";
+        requiredVersion = REQUIRED_VERSION;
+        VERSION_CONFIG;
         authors[] = {"Drew"};
+        author = MODULE_AUTHOR;
     };
 };

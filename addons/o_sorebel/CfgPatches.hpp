@@ -32,7 +32,6 @@ class CfgPatches {
             "CFP_O_SOREBEL_Bombmaker_2_01"
         };
         weapons[] = {};
-        requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "A3_Characters_F",
             "CUP_Creatures_Military_SLA",
@@ -43,7 +42,9 @@ class CfgPatches {
             "CUP_Weapons_StaticWeapons",
             "CUP_Creatures_StaticWeapons"
         };
-        author = "Drew";
-        authors[] = { "Drew" };
+        requiredVersion = REQUIRED_VERSION;
+        VERSION_CONFIG;
+        authors[] = {"Drew"};
+        author = MODULE_AUTHOR;
     };
 };

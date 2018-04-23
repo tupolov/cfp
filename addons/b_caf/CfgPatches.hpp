@@ -40,7 +40,6 @@ class CfgPatches {
             "CFP_B_CAF_UAZ_Open_01"
         };
         weapons[] = {};
-        requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "A3_Characters_F",
             "cfp_uniforms",
@@ -54,7 +53,9 @@ class CfgPatches {
             "CUP_AirVehicles_Mi24",
             "CUP_WheeledVehicles_UAZ"
         };
-        author = "Drew";
+        requiredVersion = REQUIRED_VERSION;
+        VERSION_CONFIG;
         authors[] = {"Drew"};
+        author = MODULE_AUTHOR;
     };
 };

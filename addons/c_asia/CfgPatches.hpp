@@ -43,7 +43,9 @@ class CfgPatches {
             "A3_Soft_F_Offroad_01",
             "A3_Soft_F_Exp_Offroad_01"
         };
-        author = "Drew";
-        authors[] = { "Drew" };
+        requiredVersion = REQUIRED_VERSION;
+        VERSION_CONFIG;
+        authors[] = {"Drew"};
+        author = MODULE_AUTHOR;
     };
 };

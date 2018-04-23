@@ -18,7 +18,6 @@ class CfgPatches {
             "CFP_C_AFG_SUV_01"
         };
         weapons[] = {};
-        requiredVersion = 1.62;
         requiredAddons[] = {
             "A3_Characters_F",
             "cfp_uniforms",
@@ -38,7 +37,9 @@ class CfgPatches {
             "CUP_WheeledVehicles_Skoda",
             "CUP_Wheeled_SUV"
         };
-        author = "Drew";
+        requiredVersion = REQUIRED_VERSION;
+        VERSION_CONFIG;
         authors[] = {"Drew"};
+        author = MODULE_AUTHOR;
     };
 };

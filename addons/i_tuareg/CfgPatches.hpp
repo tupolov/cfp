@@ -33,7 +33,6 @@ class CfgPatches {
             "CFP_I_TUAREG_Repair_Specialist_01"
         };
         weapons[] = {};
-        requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "A3_Characters_F",
             "cfp_uniforms",
@@ -45,7 +44,9 @@ class CfgPatches {
             "CUP_WheeledVehicles_Datsun",
             "CUP_WheeledVehicles_Ural"
         };
-        author = "Drew";
+        requiredVersion = REQUIRED_VERSION;
+        VERSION_CONFIG;
         authors[] = {"Drew"};
+        author = MODULE_AUTHOR;
     };
 };

@@ -35,7 +35,6 @@ class CfgPatches {
             "CFP_O_ALSHABAAB_Offroad_AT_01"
         };
         weapons[] = {};
-        requiredVersion = 1.62;
         requiredAddons[] = {
             "A3_Characters_F",
             "cfp_uniforms",
@@ -49,8 +48,10 @@ class CfgPatches {
             "CUP_WheeledVehicles_UAZ",
             "A3_Soft_F_Offroad_01"
         };
-        author = "Drew";
+        requiredVersion = REQUIRED_VERSION;
+        VERSION_CONFIG;
         authors[] = {"Drew"};
+        author = MODULE_AUTHOR;
     };
 };
 

@@ -27,7 +27,6 @@ class CfgPatches {
             "CFP_C_AFRCHRISTIAN_Skoda_01"
         };
         weapons[] = {};
-        requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "A3_Characters_F",
             "CUP_WheeledVehicles_Ikarus",
@@ -41,7 +40,9 @@ class CfgPatches {
             "CUP_Wheeledvehicles_VWGolf",
             "A3_Soft_F"
         };
-        author = "Drew";
-        authors[] = { "Drew" };
+        requiredVersion = REQUIRED_VERSION;
+        VERSION_CONFIG;
+        authors[] = {"Drew"};
+        author = MODULE_AUTHOR;
     };
 };

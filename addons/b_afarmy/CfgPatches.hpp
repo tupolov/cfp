@@ -50,7 +50,6 @@ class CfgPatches {
             "CFP_B_AFARMY_Medic_Light_SF_01"
         };
         weapons[] = {};
-        requiredVersion = 1.62;
         requiredAddons[] = {
             "A3_Characters_F",
             "cfp_uniforms",
@@ -61,7 +60,9 @@ class CfgPatches {
             "CUP_WheeledVehicles_MTVR",
             "CUP_TrackedVehicles_M113"
         };
-        author = "Drew";
+        requiredVersion = REQUIRED_VERSION;
+        VERSION_CONFIG;
         authors[] = {"Drew"};
+        author = MODULE_AUTHOR;
     };
 };

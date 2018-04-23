@@ -55,7 +55,6 @@ class CfgPatches {
             "CFP_O_HEZBOLLAH_BTR_60PB_01"
         };
         weapons[] = {};
-        requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "A3_Characters_F",
             "cfp_uniforms",
@@ -71,7 +70,9 @@ class CfgPatches {
             "A3_Soft_F_Quadbike_01",
             "CUP_WheeledVehicles_BTR60"
 	    };
-        author = "Drew";
+        requiredVersion = REQUIRED_VERSION;
+        VERSION_CONFIG;
         authors[] = {"Drew"};
+        author = MODULE_AUTHOR;
     };
 };
