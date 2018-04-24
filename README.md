@@ -4,7 +4,7 @@
 
 <p align="center">
     <a href="https://github.com/tupolov/cfp/releases/latest">
-        <img src="https://img.shields.io/badge/Version-0.2.5-blue.svg?style=flat-square" alt="CFP Version">
+        <img src="https://img.shields.io/badge/Version-0.3.5-blue.svg?style=flat-square" alt="CFP Version">
     </a>
     <a href="https://github.com/tupolov/cfp/issues">
         <img src="https://img.shields.io/github/issues-raw/tupolov/CFP.svg?style=flat-square&label=Issues" alt="CFP Issues">
@@ -133,10 +133,6 @@ CFP factions cover major current conflict zones such as Afghanistan, Iraq, Syria
 
 ## Customizing loadouts for CFP units in 3DEN
 CFP uses technology to script and randomize loadouts of units. In order to customize the loadouts of units in 3DEN editor, you will first need to disable the scripted loadout and/or the randomization. To do this simply **Right-Click** the unit in 3DEN and select **Attributes**, then check the box **Override ALiVE ORBAT Loadout** and/or **Disable CFP Randomization** as needed.
-
-## CFP Ultimate
-
-For more information on CFP Ultimate, go to our <a href="https://github.com/tupolov/cfpu/blob/master/README.md">GitHub project site</a>. 
 
 ## Assets Needed for CFP
 
