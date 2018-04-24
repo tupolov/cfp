@@ -73,5 +73,6 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         authors[] = {"Drew"};
         author = MODULE_AUTHOR;
+        VERSION_CONFIG;
     };
 };
