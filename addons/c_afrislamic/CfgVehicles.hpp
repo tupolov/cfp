@@ -81,12 +81,13 @@ class CfgVehicles {
 
 
     class CFP_C_AFRISLAMIC_Civ_1_01 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\c_afrislamic\data\preview\CFP_C_AFRISLAMIC_Civ_1_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Civilian";
         side = 3;
-	genericNames = "Afromen";
+        genericNames = "Afromen";
         faction = "CFP_C_AFRISLAMIC";
 
         identityTypes[] = {"Head_African","LanguagePER_F"};
@@ -101,59 +102,59 @@ class CfgVehicles {
         respawnMagazines[] = {};
         ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_O_TKI_Khet_Partug_05",{}},{},{},"CUP_H_TKI_Lungee_Open_04","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
-	randomGearProbability = 100;
+        randomGearProbability = 100;
 
-	// African Clothing
+    	// African Clothing
 		uniformList[] = {
-	"CFP_U_KhetPartug_Long_Olive", 0.2,
-    "CFP_U_KhetPartug_Short_Olive", 0.2,
-    "CFP_U_KhetPartug_Long_Light_Olive", 0.2,
-    "CFP_U_KhetPartug_Short_Light_Olive", 0.2,
-    "CFP_U_KhetPartug_Long_Black", 0.2,
-    "CFP_U_KhetPartug_Short_GreenOlive", 0.2,
-    "CFP_U_KhetPartug_Long_Blue", 0.2,
-    "CFP_U_KhetPartug_Long_BlueGrey", 0.2,
-    "CFP_U_KhetPartug_Long_Brown", 0.2,
-    "CFP_U_KhetPartug_Long_Creme", 0.2,
-    "CFP_U_KhetPartug_Long_Grey", 0.2,
-    "CFP_U_KhetPartug_Long_Purple", 0.2,
-    "CFP_U_KhetPartug_Long_Tan", 0.2,
-    "CFP_U_KhetPartug_Long_White", 0.2,
-    "CFP_U_KhetPartug_Short_Blue", 0.2,
-    "CFP_U_KhetPartug_Short_BlueGrey", 0.2,
-    "CFP_U_KhetPartug_Short_Brown", 0.2,
-    "CFP_U_KhetPartug_Short_Creme", 0.2,
-    "CFP_U_KhetPartug_Short_Grey", 0.2,
-    "CFP_U_KhetPartug_Short_Purple", 0.2,
-    "CFP_U_KhetPartug_Short_Tan", 0.2,
-    "CFP_U_KhetPartug_Short_White", 0.2,
-    "CFP_U_KhetPartug_Short_Black", 0.2
-	    };
+        	"CFP_U_KhetPartug_Long_Olive", 0.2,
+            "CFP_U_KhetPartug_Short_Olive", 0.2,
+            "CFP_U_KhetPartug_Long_Light_Olive", 0.2,
+            "CFP_U_KhetPartug_Short_Light_Olive", 0.2,
+            "CFP_U_KhetPartug_Long_Black", 0.2,
+            "CFP_U_KhetPartug_Short_GreenOlive", 0.2,
+            "CFP_U_KhetPartug_Long_Blue", 0.2,
+            "CFP_U_KhetPartug_Long_BlueGrey", 0.2,
+            "CFP_U_KhetPartug_Long_Brown", 0.2,
+            "CFP_U_KhetPartug_Long_Creme", 0.2,
+            "CFP_U_KhetPartug_Long_Grey", 0.2,
+            "CFP_U_KhetPartug_Long_Purple", 0.2,
+            "CFP_U_KhetPartug_Long_Tan", 0.2,
+            "CFP_U_KhetPartug_Long_White", 0.2,
+            "CFP_U_KhetPartug_Short_Blue", 0.2,
+            "CFP_U_KhetPartug_Short_BlueGrey", 0.2,
+            "CFP_U_KhetPartug_Short_Brown", 0.2,
+            "CFP_U_KhetPartug_Short_Creme", 0.2,
+            "CFP_U_KhetPartug_Short_Grey", 0.2,
+            "CFP_U_KhetPartug_Short_Purple", 0.2,
+            "CFP_U_KhetPartug_Short_Tan", 0.2,
+            "CFP_U_KhetPartug_Short_White", 0.2,
+            "CFP_U_KhetPartug_Short_Black", 0.2
+    	    };
 
-	// African headgear
+    	// African headgear
 		headgearList[] = {
-	"CUP_H_TKI_SkullCap_06", 0.2,
-	"CUP_H_TKI_SkullCap_04", 0.2,
-	"CUP_H_C_Beanie_04", 0.2,
-	"CUP_H_TKI_SkullCap_02", 0.2,
-	"CUP_H_TKI_Lungee_Open_01", 0.2,
-	"CUP_H_TKI_Lungee_Open_06", 0.2,
-	"CUP_H_TKI_SkullCap_03", 0.2,
-	"CUP_H_TKI_Lungee_Open_05", 0.2,
-	"CUP_H_C_Beanie_02", 0.2,
-    "CFP_Lungee_Open_Tan", 0.2,
-    "CFP_Lungee_Open_LightOlive", 0.2,
-    "CFP_Lungee_Open_Grey", 0.2,
-    "CFP_Lungee_Open_Creme", 0.2,
-    "CFP_Lungee_Open_Brown", 0.2,
-    "CFP_Lungee_Open_BlueGrey", 0.2,
-    "CFP_Lungee_Open_Blue", 0.2
+        	"CUP_H_TKI_SkullCap_06", 0.2,
+        	"CUP_H_TKI_SkullCap_04", 0.2,
+        	"CUP_H_C_Beanie_04", 0.2,
+        	"CUP_H_TKI_SkullCap_02", 0.2,
+        	"CUP_H_TKI_Lungee_Open_01", 0.2,
+        	"CUP_H_TKI_Lungee_Open_06", 0.2,
+        	"CUP_H_TKI_SkullCap_03", 0.2,
+        	"CUP_H_TKI_Lungee_Open_05", 0.2,
+        	"CUP_H_C_Beanie_02", 0.2,
+            "CFP_Lungee_Open_Tan", 0.2,
+            "CFP_Lungee_Open_LightOlive", 0.2,
+            "CFP_Lungee_Open_Grey", 0.2,
+            "CFP_Lungee_Open_Creme", 0.2,
+            "CFP_Lungee_Open_Brown", 0.2,
+            "CFP_Lungee_Open_BlueGrey", 0.2,
+            "CFP_Lungee_Open_Blue", 0.2
 		};
 
-    // African Beards
+        // African Beards
         facewearList[] = {
-    "", 0.7,
-    "CFP_Beard", 0.3
+            "", 0.7,
+            "CFP_Beard", 0.3
         };
 
         class EventHandlers : EventHandlers {
@@ -171,6 +172,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFRISLAMIC_Civ_2_01 : CFP_C_AFRISLAMIC_Civ_1_01 {
+        editorPreview = \x\cfp\addons\c_afrislamic\data\preview\CFP_C_AFRISLAMIC_Civ_2_01.JPG;
 
         displayName = "Civilian";
 
@@ -186,6 +188,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFRISLAMIC_Civ_3_01 : CFP_C_AFRISLAMIC_Civ_1_01 {
+        editorPreview = \x\cfp\addons\c_afrislamic\data\preview\CFP_C_AFRISLAMIC_Civ_3_01.JPG;
 
         displayName = "Civilian";
 
@@ -201,6 +204,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFRISLAMIC_Civ_4_01 : CFP_C_AFRISLAMIC_Civ_1_01 {
+        editorPreview = \x\cfp\addons\c_afrislamic\data\preview\CFP_C_AFRISLAMIC_Civ_4_01.JPG;
 
         displayName = "Civilian";
 
@@ -216,6 +220,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFRISLAMIC_Civ_5_01 : CFP_C_AFRISLAMIC_Civ_1_01 {
+        editorPreview = \x\cfp\addons\c_afrislamic\data\preview\CFP_C_AFRISLAMIC_Civ_5_01.JPG;
 
         displayName = "Civilian";
 
@@ -231,6 +236,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFRISLAMIC_Civ_6_01 : CFP_C_AFRISLAMIC_Civ_1_01 {
+        editorPreview = \x\cfp\addons\c_afrislamic\data\preview\CFP_C_AFRISLAMIC_Civ_6_01.JPG;
 
         displayName = "Civilian";
 
@@ -246,6 +252,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFRISLAMIC_Civ_7_01 : CFP_C_AFRISLAMIC_Civ_1_01 {
+        editorPreview = \x\cfp\addons\c_afrislamic\data\preview\CFP_C_AFRISLAMIC_Civ_7_01.JPG;
 
         displayName = "Civilian";
 
@@ -261,6 +268,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFRISLAMIC_Civ_8_01 : CFP_C_AFRISLAMIC_Civ_1_01 {
+        editorPreview = \x\cfp\addons\c_afrislamic\data\preview\CFP_C_AFRISLAMIC_Civ_8_01.JPG;
 
         displayName = "Civilian";
 
@@ -276,6 +284,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFRISLAMIC_Civ_9_01 : CFP_C_AFRISLAMIC_Civ_1_01 {
+        editorPreview = \x\cfp\addons\c_afrislamic\data\preview\CFP_C_AFRISLAMIC_Civ_9_01.JPG;
 
         displayName = "Civilian";
 
@@ -291,6 +300,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFRISLAMIC_Civ_10_01 : CFP_C_AFRISLAMIC_Civ_1_01 {
+        editorPreview = \x\cfp\addons\c_afrislamic\data\preview\CFP_C_AFRISLAMIC_Civ_10_01.JPG;
 
         displayName = "Civilian";
 
@@ -306,6 +316,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFRISLAMIC_Civ_11_01 : CFP_C_AFRISLAMIC_Civ_1_01 {
+        editorPreview = \x\cfp\addons\c_afrislamic\data\preview\CFP_C_AFRISLAMIC_Civ_11_01.JPG;
 
         displayName = "Civilian";
 
@@ -321,6 +332,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFRISLAMIC_Civ_12_01 : CFP_C_AFRISLAMIC_Civ_1_01 {
+        editorPreview = \x\cfp\addons\c_afrislamic\data\preview\CFP_C_AFRISLAMIC_Civ_12_01.JPG;
 
         displayName = "Civilian";
 
@@ -336,6 +348,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFRISLAMIC_Zamak_01 : C_Truck_02_covered_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\c_afrislamic\data\preview\CFP_C_AFRISLAMIC_Zamak_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -366,6 +379,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFRISLAMIC_Truck_Boxer_01 : C_Van_01_box_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\c_afrislamic\data\preview\CFP_C_AFRISLAMIC_Truck_Boxer_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -390,6 +404,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFRISLAMIC_Skoda_White_01 : CUP_C_Skoda_White_CIV_OCimport_02 {
+        editorPreview = \x\cfp\addons\c_afrislamic\data\preview\CFP_C_AFRISLAMIC_Skoda_White_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -414,6 +429,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFRISLAMIC_Skoda_Blue_01 : CUP_C_Skoda_Blue_CIV_OCimport_02 {
+        editorPreview = \x\cfp\addons\c_afrislamic\data\preview\CFP_C_AFRISLAMIC_Skoda_Blue_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -438,6 +454,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFRISLAMIC_Skoda_Green_01 : CUP_C_Skoda_Green_CIV_OCimport_02 {
+        editorPreview = \x\cfp\addons\c_afrislamic\data\preview\CFP_C_AFRISLAMIC_Skoda_Green_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -462,6 +479,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFRISLAMIC_Datsun_Pickup_Old_01 : CUP_C_Datsun_Plain_OCimport_02 {
+        editorPreview = \x\cfp\addons\c_afrislamic\data\preview\CFP_C_AFRISLAMIC_Datsun_Pickup_Old_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -492,6 +510,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFRISLAMIC_Ural_Yellow_01 : CUP_C_Ural_Civ_02_OCimport_02 {
+        editorPreview = \x\cfp\addons\c_afrislamic\data\preview\CFP_C_AFRISLAMIC_Ural_Yellow_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -522,6 +541,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFRISLAMIC_Ural_Blue_01 : CUP_C_Ural_Civ_01_OCimport_02 {
+        editorPreview = \x\cfp\addons\c_afrislamic\data\preview\CFP_C_AFRISLAMIC_Ural_Blue_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -552,6 +572,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFRISLAMIC_Land_Rover_01 : CUP_C_LR_Transport_CTK_OCimport_02 {
+        editorPreview = \x\cfp\addons\c_afrislamic\data\preview\CFP_C_AFRISLAMIC_Land_Rover_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
