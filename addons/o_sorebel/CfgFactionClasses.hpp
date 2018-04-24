@@ -8,8 +8,8 @@ class CfgFactionClasses {
     class CFP_O_SOREBEL {
         displayName = "Somali Rebels";
         side = 0;
-        flag = "\a3\Data_f\Flags\flag_CSAT_co.paa";
-        icon = "\a3\Data_f\cfgFactionClasses_OPF_ca.paa";
+        flag = "\x\cfp\addons\flags\Somalia\Somali_Pirates.paa";
+        icon = "\x\cfp\addons\flags\Somalia\Somali_Pirates.paa";
         priority = 1;
     };
 };

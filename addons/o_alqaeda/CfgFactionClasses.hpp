@@ -8,8 +8,8 @@ class CfgFactionClasses {
     class CFP_O_ALQAEDA {
         displayName = "Al Qaeda";
         side = 0;
-        flag = "\A3\ui_f\data\map\markers\flags\CSAT_ca.paa";
-        icon = "\A3\ui_f\data\map\markers\flags\CSAT_ca.paa";
+        flag = "\x\cfp\addons\i_alnusra\data\ISC_flag_alNusra.paa";
+        icon = "\x\cfp\addons\i_alnusra\data\ISC_flag_alNusra.paa";
         priority = 0;
     };
 };

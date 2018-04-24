@@ -59,6 +59,33 @@ class CfgVehicles {
         };
     };
 
+     class CUP_O_DSHkM_MiniTriPod_TK_INS;
+    class CUP_O_DSHkM_MiniTriPod_TK_INS_OCimport_01 : CUP_O_DSHkM_MiniTriPod_TK_INS { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_DSHkM_MiniTriPod_TK_INS_OCimport_02 : CUP_O_DSHkM_MiniTriPod_TK_INS_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
+    class CUP_O_2b14_82mm_TK_INS;
+    class CUP_O_2b14_82mm_TK_INS_OCimport_01 : CUP_O_2b14_82mm_TK_INS { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_2b14_82mm_TK_INS_OCimport_02 : CUP_O_2b14_82mm_TK_INS_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
+    class CUP_O_SPG9_TK_INS;
+    class CUP_O_SPG9_TK_INS_OCimport_01 : CUP_O_SPG9_TK_INS { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_SPG9_TK_INS_OCimport_02 : CUP_O_SPG9_TK_INS_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
     class CUP_O_TK_INS_Bomber;
     class CUP_O_TK_INS_Bomber_OCimport_01 : CUP_O_TK_INS_Bomber { scope = 0; class EventHandlers; };
     class CUP_O_TK_INS_Bomber_OCimport_02 : CUP_O_TK_INS_Bomber_OCimport_01 { class EventHandlers; };
@@ -121,6 +148,12 @@ class CfgVehicles {
         "CFP_PatrolCap_PolygonWoodland", 0.05,
         "CFP_PatrolCap_Woodland", 0.05
     		};
+
+        // Somali Facewear
+            facewearList[] = {
+        "", 0.8,
+        "CFP_Beard", 0.2
+            };
 
             class EventHandlers : EventHandlers {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -655,6 +688,96 @@ class CfgVehicles {
         magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"U_I_C_Soldier_Para_1_F",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",1,30}}},{"CUP_V_OI_TKI_Jacket2_01",{{"CUP_30Rnd_545x39_AK_M",4,30}}},{"CFP_Kitbag_M81",{{"ToolKit",1},{"MineDetector",1},{"CUP_PipeBomb_M",2,1}}},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+
+    };
+
+    class CFP_O_SOREBEL_DShKM_Low_01 : CUP_O_DSHkM_MiniTriPod_TK_INS_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_alshabaab\data\preview\CFP_O_SOREBEL_DShKM_Low_01.JPG;
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "DShKM [Low]";
+        side = 0;
+        faction = "CFP_O_SOREBEL";
+        crew = "CFP_O_SOREBEL_Rifleman_01";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_SOREBEL_Podnos_2B14_01 : CUP_O_2b14_82mm_TK_INS_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_alshabaab\data\preview\CFP_O_SOREBEL_Podnos_2B14_01.JPG;
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Podnos 2B14";
+        side = 0;
+        faction = "CFP_O_SOREBEL";
+        crew = "CFP_O_SOREBEL_Rifleman_01";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_SOREBEL_SPG_9_01 : CUP_O_SPG9_TK_INS_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_alshabaab\data\preview\CFP_O_SOREBEL_SPG_9_01.JPG;
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "SPG-9";
+        side = 0;
+        faction = "CFP_O_SOREBEL";
+        crew = "CFP_O_SOREBEL_Rifleman_01";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
 
     };
 

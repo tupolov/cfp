@@ -272,6 +272,12 @@ class CfgMarkers
 		icon = "\x\cfp\addons\markers\data\africa\marker_somalia_ca.paa";
 		texture = "\x\cfp\addons\markers\data\africa\marker_somalia_ca.paa";
 	};
+	class CFP_MARKER_SOMALI_PIRATES : CFP_MARKER_BASE
+	{
+		name = "[AFRICA] Somali Pirates";
+		icon = "\x\cfp\addons\markers\data\africa\marker_somali_pirates_ca.paa";
+		texture = "\x\cfp\addons\markers\data\africa\marker_somali_pirates_ca.paa";
+	};
 	class CFP_MARKER_SOUTH_AFRICA : CFP_MARKER_BASE
 	{
 		name = "[AFRICA] South Africa";
@@ -344,6 +350,18 @@ class CfgMarkers
 		icon = "\x\cfp\addons\markers\data\mideast\marker_afghanistan_ca.paa";
 		texture = "\x\cfp\addons\markers\data\mideast\marker_afghanistan_ca.paa";
 	};
+		class CFP_MARKER_AFGHANISTAN_POLICE : CFP_MARKER_BASE
+	{
+		name = "[MIDEAST] Afghan National Police";
+		icon = "\x\cfp\addons\markers\data\mideast\marker_afghanistan_police_ca.paa";
+		texture = "\x\cfp\addons\markers\data\mideast\marker_afghanistan_police_ca.paa";
+	};
+		class CFP_MARKER_AL_NUSRA : CFP_MARKER_BASE
+	{
+		name = "[MIDEAST] Al Nusra Front";
+		icon = "\x\cfp\addons\markers\data\mideast\marker_al_nusra_ca.paa";
+		texture = "\x\cfp\addons\markers\data\mideast\marker_al_nusra_ca.paa";
+	};
 	class CFP_MARKER_EGYPT : CFP_MARKER_BASE
 	{
 		name = "[MIDEAST] Egypt";
@@ -391,6 +409,12 @@ class CfgMarkers
 		name = "[MIDEAST] Kingdom of Bahrain";
 		icon = "\x\cfp\addons\markers\data\mideast\marker_kingdom_bahrain_ca.paa";
 		texture = "\x\cfp\addons\markers\data\mideast\marker_kingdom_bahrain_ca.paa";
+	};
+	class CFP_MARKER_KURDISTAN : CFP_MARKER_BASE
+	{
+		name = "[MIDEAST] Kurdistan";
+		icon = "\x\cfp\addons\markers\data\mideast\marker_kurdistan_ca.paa";
+		texture = "\x\cfp\addons\markers\data\mideast\marker_kurdistan_ca.paa";
 	};
 	class CFP_MARKER_KUWAIT : CFP_MARKER_BASE
 	{
@@ -469,6 +493,12 @@ class CfgMarkers
 		name = "[MIDEAST] Yemen";
 		icon = "\x\cfp\addons\markers\data\mideast\marker_yemen_ca.paa";
 		texture = "\x\cfp\addons\markers\data\mideast\marker_yemen_ca.paa";
+	};
+	class CFP_MARKER_YPG : CFP_MARKER_BASE
+	{
+		name = "[MIDEAST] YPG";
+		icon = "\x\cfp\addons\markers\data\mideast\marker_ypg_ca.paa";
+		texture = "\x\cfp\addons\markers\data\mideast\marker_ypg_ca.paa";
 	};
 		class CFP_MARKER_ALBANIA : CFP_MARKER_BASE
 	{
