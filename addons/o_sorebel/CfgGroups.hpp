@@ -21,7 +21,7 @@ class CfgGroups {
                     rarityGroup = 0.5;
 
                     class Unit0 {
-                        position[] = {5,-5,0};
+                        position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 0;
                         vehicle = "CFP_O_SOREBEL_Gunner_SPG_01";
@@ -42,7 +42,7 @@ class CfgGroups {
                     rarityGroup = 0.5;
 
                     class Unit0 {
-                        position[] = {5,-5,0};
+                        position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 0;
                         vehicle = "CFP_O_SOREBEL_Gunner_Mortar_01";
@@ -63,7 +63,7 @@ class CfgGroups {
                     rarityGroup = 0.5;
 
                     class Unit0 {
-                        position[] = {5,-5,0};
+                        position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 0;
                         vehicle = "CFP_O_SOREBEL_Gunner_DShKM_Low_01";
@@ -174,7 +174,7 @@ class CfgGroups {
                     rarityGroup = 0.5;
 
                     class Unit0 {
-                        position[] = {5,-5,0};
+                        position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 0;
                         vehicle = "CFP_O_SOREBEL_Gunner_DShKM_High_01";
