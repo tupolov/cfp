@@ -146,7 +146,11 @@ class CfgVehicles {
         "CFP_PatrolCap_EDRL", 0.05,
         "CFP_PatrolCap_M81", 0.05,
         "CFP_PatrolCap_PolygonWoodland", 0.05,
-        "CFP_PatrolCap_Woodland", 0.05
+        "CFP_PatrolCap_Woodland", 0.05,
+        "CFP_BoonieHat_AfricanWoodland", 0.05,
+        "CFP_BoonieHat_PolygonDesert", 0.05,
+        "CFP_BoonieHat_PolygonWoodland", 0.05,
+        "CFP_BoonieHat_M81", 0.05
     		};
 
         // Somali Facewear
@@ -154,6 +158,28 @@ class CfgVehicles {
         "", 0.8,
         "CFP_Beard", 0.2
             };
+
+         // Somali Pirate Vests
+            vestList[] = {
+            "CFP_UtilityJacket_Woodland", 0.2,
+            "CFP_UtilityJacket_M81", 0.2,
+            "CFP_UtilityJacket_EDRL", 0.2,
+            "CFP_UtilityJacket_ChocChip", 0.2,
+            "CFP_AK_VEST_Tan", 0.2,
+            "CFP_AK_VEST_EDRL", 0.2,
+            "CFP_AK_VEST_LOlive", 0.2,
+            "CFP_AK_VEST_Olive", 0.2,
+            "CFP_AK_VEST_Lime", 0.2,
+            "CFP_UtilityJacket_PolygonWoodland", 0.2,
+            "CFP_TakJacket_PolygonWoodland", 0.2,
+            "CFP_TakJacket_PolygonDesert", 0.2,
+            "CFP_TakJacket_Woodland", 0.2,
+            "CFP_TakJacket_Marpat", 0.2,
+            "CFP_TakJacket_M81", 0.2,
+            "CFP_TakJacket_EDRL", 0.2,
+            "CFP_TakJacket_ChocChip", 0.2,
+            "CFP_UtilityJacket_PolygonDesert", 0.2
+                };
 
             class EventHandlers : EventHandlers {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -217,22 +243,6 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_SOREBEL_Rifleman_2_01 : CFP_O_SOREBEL_Rifleman_01 {
-        editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Rifleman_2_01.JPG;
-
-        displayName = "Rifleman";
-
-
-        weapons[] = {"CUP_arifle_AK47","Throw","Put"};
-        respawnWeapons[] = {"CUP_arifle_AK47","Throw","Put"};
-        linkedItems[] = {"CFP_Tactical1_EDRL","H_Cap_blk","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
-        respawnLinkedItems[] = {"CFP_Tactical1_EDRL","H_Cap_blk","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
-        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
-        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"U_I_C_Soldier_Bandit_2_F",{{"FirstAidKit",1},{"Chemlight_red",1,1}}},{"CFP_Tactical1_EDRL",{{"HandGrenade",2,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1},{"Chemlight_red",1,1},{"CUP_30Rnd_762x39_AK47_M",3,30}}},{},"H_Cap_blk","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
-
-    };
-
     class CFP_O_SOREBEL_Warlord_01 : CFP_O_SOREBEL_Rifleman_01 {
         editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Warlord_01.JPG;
 
@@ -252,7 +262,7 @@ class CfgVehicles {
     class CFP_O_SOREBEL_Autorifleman_01 : CFP_O_SOREBEL_Rifleman_01 {
         editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Autorifleman_01.JPG;
 
-        displayName = "Autorifleman";
+        displayName = "Autorifleman [RPK]";
 
 
         weapons[] = {"CUP_arifle_RPK74_45","Throw","Put"};
@@ -269,7 +279,7 @@ class CfgVehicles {
     class CFP_O_SOREBEL_Autorifleman_2_01 : CFP_O_SOREBEL_Rifleman_01 {
         editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Autorifleman_2_01.JPG;
 
-        displayName = "Autorifleman";
+        displayName = "Machine Gunner [PKM]";
 
 
         weapons[] = {"CUP_lmg_Pecheneg","Throw","Put"};
@@ -346,99 +356,54 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_SOREBEL_Rifleman_AT_2_01 : CFP_O_SOREBEL_Rifleman_01 {
-        editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Rifleman_AT_2_01.JPG;
+     class CFP_O_SOREBEL_Asst_Gunner_DShKM_01 : CFP_O_SOREBEL_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Gunner_DShKM_High_01.JPG;
+        displayName = "Asst. Gunner [DShKM]";
 
-        displayName = "Rifleman AT";
+        linkedItems[] = {"V_BandollierB_cbr","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"V_BandollierB_cbr","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        weapons[] = {"CUP_arifle_AK47","hgun_Rook40_F"};
+        respawnWeapons[] = {"CUP_arifle_AK47","hgun_Rook40_F"};
+        magazines[] = {"CUP_30Rnd_762x39_AK47_M","16Rnd_9x21_Mag"};
+        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","16Rnd_9x21_Mag"};
 
-        backpack = "CFP_RPGPack_Khaki";
-        weapons[] = {"CUP_arifle_AK74","CUP_launch_RPG7V_PGO7V2","Throw","Put"};
-        respawnWeapons[] = {"CUP_arifle_AK74","CUP_launch_RPG7V_PGO7V2","Throw","Put"};
-        linkedItems[] = {"CUP_V_O_TK_Vest_1","H_Booniehat_khk","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
-        respawnLinkedItems[] = {"CUP_V_O_TK_Vest_1","H_Booniehat_khk","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
-        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_PG7VL_M"};
-        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_PG7VL_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{"CUP_launch_RPG7V_PGO7V2","","","CUP_optic_PGO7V2",{"CUP_PG7VL_M",1},{},""},{},{"U_C_Man_casual_5_F",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",1,30}}},{"CUP_V_O_TK_Vest_1",{{"CUP_30Rnd_545x39_AK_M",4,30}}},{"CFP_RPGPack_Khaki",{{"CUP_PG7VL_M",1,1}}},"H_Booniehat_khk","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        backpack = "CUP_B_DShkM_Gun_Bag";
 
-    };
-
-    class CFP_O_SOREBEL_Warlord_2_01 : CFP_O_SOREBEL_Rifleman_01 {
-        editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Warlord_2_01.JPG;
-
-        displayName = "Warlord";
-
-
-        weapons[] = {"CUP_arifle_AK74","Throw","Put"};
-        respawnWeapons[] = {"CUP_arifle_AK74","Throw","Put"};
-        linkedItems[] = {"CFP_Tactical1_Woodland","H_Cap_blk","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
-        respawnLinkedItems[] = {"CFP_Tactical1_Woodland","H_Cap_blk","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
-        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
-        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"U_BG_Guerrilla_6_1",{{"FirstAidKit",1},{"Chemlight_red",2,1}}},{"CFP_Tactical1_Woodland",{{"HandGrenade",2,1},{"O_IR_Grenade",2,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1},{"SmokeShellOrange",1,1},{"SmokeShellYellow",1,1},{"CUP_30Rnd_545x39_AK_M",2,30}}},{},"H_Cap_blk","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{"hgun_Rook40_F","","","",{"16Rnd_9x21_Mag",16},{},""},{"U_I_C_Soldier_Bandit_4_F",{{"Chemlight_red",1,1},{"16Rnd_9x21_Mag",1,16},{"SmokeShell",1,1}}},{"V_BandollierB_cbr",{{"16Rnd_9x21_Mag",1,16},{"SmokeShell",1,1},{"CUP_30Rnd_762x39_AK47_M",3,30}}},{"CUP_B_DShkM_Gun_Bag",{}},"","CFP_Beard",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
-    class CFP_O_SOREBEL_Grenadier_2_01 : CFP_O_SOREBEL_Rifleman_01 {
-        editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Grenadier_2_01.JPG;
+    class CFP_O_SOREBEL_Asst_Gunner_SPG_01 : CFP_O_SOREBEL_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Gunner_SPG_01.JPG;
+        displayName = "Asst. Gunner [SPG-9]";
 
-        displayName = "Grenadier";
+        linkedItems[] = {"V_BandollierB_cbr","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"V_BandollierB_cbr","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        weapons[] = {"CUP_arifle_AK47","hgun_Rook40_F"};
+        respawnWeapons[] = {"CUP_arifle_AK47","hgun_Rook40_F"};
+        magazines[] = {"CUP_30Rnd_762x39_AK47_M","16Rnd_9x21_Mag"};
+        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","16Rnd_9x21_Mag"};
 
+        backpack = "CUP_B_SPG9_Gun_Bag";
 
-        weapons[] = {"CUP_arifle_AK74_GL","Throw","Put"};
-        respawnWeapons[] = {"CUP_arifle_AK74_GL","Throw","Put"};
-        linkedItems[] = {"CFP_AK_Vest_Lime","","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
-        respawnLinkedItems[] = {"CFP_AK_Vest_Lime","","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
-        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M"};
-        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74_GL","","","",{"CUP_30Rnd_545x39_AK_M",30},{"CUP_1Rnd_HE_GP25_M",1},""},{},{},{"U_C_Poloshirt_stripped",{}},{"CFP_AK_Vest_Lime",{{"CUP_30Rnd_545x39_AK_M",3,30},{"CUP_1Rnd_HE_GP25_M",3,1}}},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
-
-    };
-
-    class CFP_O_SOREBEL_Rifleman_3_01 : CFP_O_SOREBEL_Rifleman_01 {
-        editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Rifleman_3_01.JPG;
-
-        displayName = "Rifleman";
-
-
-        weapons[] = {"CUP_arifle_AK47","Throw","Put"};
-        respawnWeapons[] = {"CUP_arifle_AK47","Throw","Put"};
-        linkedItems[] = {"CUP_V_OI_TKI_Jacket3_03","H_Bandanna_camo","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
-        respawnLinkedItems[] = {"CUP_V_OI_TKI_Jacket3_03","H_Bandanna_camo","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
-        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
-        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"U_C_Poloshirt_salmon",{}},{"CUP_V_OI_TKI_Jacket3_03",{{"CUP_30Rnd_762x39_AK47_M",3,30}}},{},"H_Bandanna_camo","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{"hgun_Rook40_F","","","",{"16Rnd_9x21_Mag",16},{},""},{"U_I_C_Soldier_Bandit_1_F",{{"Chemlight_red",1,1},{"16Rnd_9x21_Mag",1,16},{"SmokeShell",1,1}}},{"V_BandollierB_cbr",{{"16Rnd_9x21_Mag",1,16},{"SmokeShell",1,1},{"CUP_30Rnd_762x39_AK47_M",3,30}}},{"CUP_B_SPG9_Gun_Bag",{}},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
-    class CFP_O_SOREBEL_Bonesetter_2_01 : CFP_O_SOREBEL_Rifleman_01 {
-        editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Bonesetter_2_01.JPG;
+    class CFP_O_SOREBEL_Asst_Gunner_Mortar_01 : CFP_O_SOREBEL_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Gunner_Mortar_01.JPG;
+        displayName = "Asst. Gunner [Mortar]";
 
-        displayName = "Bonesetter";
-        attendant = 1;
-        backpack = "CFP_Kitbag_EDRL";
-        weapons[] = {"CUP_arifle_FNFAL","Throw","Put"};
-        respawnWeapons[] = {"CUP_arifle_FNFAL","Throw","Put"};
-        linkedItems[] = {"CUP_V_O_TK_Vest_1","H_Cap_grn","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
-        respawnLinkedItems[] = {"CUP_V_O_TK_Vest_1","H_Cap_grn","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
-        magazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M"};
-        respawnMagazines[] = {"CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M","CUP_20Rnd_762x51_FNFAL_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_FNFAL","","","",{"CUP_20Rnd_762x51_FNFAL_M",20},{},""},{},{},{"U_I_C_Soldier_Bandit_3_F",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_FNFAL_M",1,20}}},{"CUP_V_O_TK_Vest_1",{{"CUP_20Rnd_762x51_FNFAL_M",4,20},{"CUP_HandGrenade_RGD5",2,1}}},{"CFP_Kitbag_EDRL",{{"Medikit",1},{"FirstAidKit",10}}},"H_Cap_grn","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        linkedItems[] = {"V_BandollierB_cbr","CFP_PatrolCap_Woodland","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"V_BandollierB_cbr","CFP_PatrolCap_Woodland","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        weapons[] = {"CUP_arifle_AK47","hgun_Rook40_F"};
+        respawnWeapons[] = {"CUP_arifle_AK47","hgun_Rook40_F"};
+        magazines[] = {"CUP_30Rnd_762x39_AK47_M","16Rnd_9x21_Mag"};
+        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","16Rnd_9x21_Mag"};
 
-    };
+        backpack = "CUP_B_Podnos_Gun_Bag";
 
-    class CFP_O_SOREBEL_Rifleman_AA_2_01 : CFP_O_SOREBEL_Rifleman_01 {
-        editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Rifleman_AA_2_01.JPG;
-
-        displayName = "Rifleman AA";
-
-
-        weapons[] = {"CUP_arifle_AK74","CUP_launch_Igla","Throw","Put"};
-        respawnWeapons[] = {"CUP_arifle_AK74","CUP_launch_Igla","Throw","Put"};
-        linkedItems[] = {"CUP_V_OI_TKI_Jacket3_03","H_Bandanna_sand","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
-        respawnLinkedItems[] = {"CUP_V_OI_TKI_Jacket3_03","H_Bandanna_sand","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
-        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_Igla_M"};
-        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_Igla_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{"CUP_launch_Igla","","","",{"CUP_Igla_M",1},{},""},{},{"U_I_C_Soldier_Bandit_5_F",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",1,30}}},{"CUP_V_OI_TKI_Jacket3_03",{{"CUP_30Rnd_545x39_AK_M",4,30}}},{},"H_Bandanna_sand","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{"hgun_Rook40_F","","","",{"16Rnd_9x21_Mag",16},{},""},{"U_C_Poloshirt_salmon",{{"Chemlight_red",1,1},{"16Rnd_9x21_Mag",1,16},{"SmokeShell",1,1}}},{"V_BandollierB_cbr",{{"16Rnd_9x21_Mag",1,16},{"SmokeShell",1,1},{"CUP_30Rnd_762x39_AK47_M",3,30}}},{"CUP_B_Podnos_Gun_Bag",{}},"CFP_PatrolCap_Woodland","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -453,7 +418,7 @@ class CfgVehicles {
         crew = "CFP_O_SOREBEL_Rifleman_Light_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_O_SOREBEL_Rifleman_2_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_O_SOREBEL_Rifleman_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
         };
@@ -482,7 +447,7 @@ class CfgVehicles {
         displayName = "Truck";
         side = 0;
         faction = "CFP_O_SOREBEL";
-        crew = "CFP_O_SOREBEL_Rifleman_3_01";
+        crew = "CFP_O_SOREBEL_Rifleman_01";
 
 
         class EventHandlers : EventHandlers {
@@ -507,11 +472,11 @@ class CfgVehicles {
         displayName = "Technical (DSHkM)";
         side = 0;
         faction = "CFP_O_SOREBEL";
-        crew = "CFP_O_SOREBEL_Warlord_2_01";
+        crew = "CFP_O_SOREBEL_Rifleman_01";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-            class MainTurret : MainTurret { gunnerType = "CFP_O_SOREBEL_Bonesetter_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_O_SOREBEL_Rifleman_01"; };
         };
 
 
@@ -539,11 +504,11 @@ class CfgVehicles {
         displayName = "Technical (SPG 9)";
         side = 0;
         faction = "CFP_O_SOREBEL";
-        crew = "CFP_O_SOREBEL_Rifleman_2_01";
+        crew = "CFP_O_SOREBEL_Rifleman_01";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-            class MainTurret : MainTurret { gunnerType = "CFP_O_SOREBEL_Bonesetter_2_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_O_SOREBEL_Rifleman_01"; };
         };
 
 
@@ -571,7 +536,7 @@ class CfgVehicles {
         displayName = "DShKM";
         side = 0;
         faction = "CFP_O_SOREBEL";
-        crew = "CFP_O_SOREBEL_Warlord_2_01";
+        crew = "CFP_O_SOREBEL_Rifleman_01";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };

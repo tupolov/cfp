@@ -5,7 +5,6 @@ class CfgPatches {
             "CFP_O_SOREBEL_Sharpshooter_01",
             "CFP_O_SOREBEL_Grenadier_01",
             "CFP_O_SOREBEL_Rifleman_Light_01",
-            "CFP_O_SOREBEL_Rifleman_2_01",
             "CFP_O_SOREBEL_Warlord_01",
             "CFP_O_SOREBEL_Autorifleman_01",
             "CFP_O_SOREBEL_Autorifleman_2_01",
@@ -13,12 +12,6 @@ class CfgPatches {
             "CFP_O_SOREBEL_Rifleman_AT_01",
             "CFP_O_SOREBEL_Marksman_01",
             "CFP_O_SOREBEL_Rifleman_AA_01",
-            "CFP_O_SOREBEL_Rifleman_AT_2_01",
-            "CFP_O_SOREBEL_Warlord_2_01",
-            "CFP_O_SOREBEL_Grenadier_2_01",
-            "CFP_O_SOREBEL_Rifleman_3_01",
-            "CFP_O_SOREBEL_Bonesetter_2_01",
-            "CFP_O_SOREBEL_Rifleman_AA_2_01",
             "CFP_O_SOREBEL_Technical_PK_01",
             "CFP_O_SOREBEL_Truck_01",
             "CFP_O_SOREBEL_Technical_DSHkM_01",
@@ -28,8 +21,13 @@ class CfgPatches {
             "CFP_O_SOREBEL_Gunner_DShKM_Low_01",
             "CFP_O_SOREBEL_Gunner_SPG_01",
             "CFP_O_SOREBEL_Gunner_Mortar_01",
+            "CFP_O_SOREBEL_Asst_Gunner_DShKM_01",
+            "CFP_O_SOREBEL_Asst_Gunner_SPG_01",
+            "CFP_O_SOREBEL_Asst_Gunner_Mortar_01",
             "CFP_O_SOREBEL_Bombmaker_01",
-            "CFP_O_SOREBEL_Bombmaker_2_01"
+            "CFP_O_SOREBEL_Podnos_2B14_01",
+            "CFP_O_SOREBEL_SPG_9_01",
+            "CFP_O_SOREBEL_DShKM_Low_01"
         };
         weapons[] = {};
         requiredAddons[] = {
