@@ -104,17 +104,17 @@ class CfgVehicles {
 
 
     class CFP_C_AFRCHRISTIAN_Civ_1_01 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\c_afrchristian\data\preview\CFP_C_AFRCHRISTIAN_Civ_1_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Civilian";
         side = 3;
-	genericNames = "Afromen";
+    	genericNames = "Afromen";
         faction = "CFP_C_AFRCHRISTIAN";
 
         identityTypes[] = {"Head_African","LanguageFRE_F"};
         uniformClass = "U_I_C_Soldier_Bandit_4_F";
-
 
         weapons[] = {"Throw","Put"};
         respawnWeapons[] = {"Throw","Put"};
@@ -124,58 +124,58 @@ class CfgVehicles {
         respawnMagazines[] = {};
         ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_I_C_Soldier_Bandit_4_F",{}},{},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
-	randomGearProbability = 100;
+    	randomGearProbability = 100;
 
-	// African Clothing
+    	// African Clothing
 		uniformList[] = {
-	"U_C_Poor_1", 0.2,
-	"U_C_Man_casual_1_F", 0.2,
-	"U_C_Man_casual_2_F", 0.2,
-	"U_C_Man_casual_3_F", 0.2,
-	"U_C_Man_casual_4_F", 0.2,
-	"U_C_Man_casual_5_F", 0.2,
-	"U_C_Man_casual_6_F", 0.2,
-	"CUP_U_O_CHDKZ_Lopotev", 0.2,
-	"CUP_U_I_GUE_Anorak_03", 0.2,
-	"U_I_C_Soldier_Bandit_4_F", 0.2,
-	"CUP_U_C_Citizen_02", 0.2,
-	"U_C_Poloshirt_burgundy", 0.2,
-	"U_C_Poloshirt_redwhite", 0.2,
-	"U_C_Poloshirt_blue", 0.2,
-	"U_C_Poloshirt_salmon", 0.2,
-	"U_C_Poloshirt_stripped", 0.2,
-	"U_C_Poloshirt_tricolour", 0.2,
-	"U_BG_Guerilla2_1", 0.2,
-	"U_BG_Guerilla2_2", 0.2,
-	"U_BG_Guerilla2_3", 0.2,
-	"U_BG_Guerilla3_1", 0.2,
-	"U_C_HunterBody_grn", 0.2,
-	"U_OrestesBody", 0.2,
-	"CUP_I_B_PMC_Unit_1", 0.2,
-	"CUP_I_B_PMC_Unit_2", 0.2,
-	"CUP_I_B_PMC_Unit_3", 0.2,
-	"CUP_I_B_PMC_Unit_4", 0.2,
-	"CUP_U_C_Rocker_02", 0.2
+        	"U_C_Poor_1", 0.2,
+        	"U_C_Man_casual_1_F", 0.2,
+        	"U_C_Man_casual_2_F", 0.2,
+        	"U_C_Man_casual_3_F", 0.2,
+        	"U_C_Man_casual_4_F", 0.2,
+        	"U_C_Man_casual_5_F", 0.2,
+        	"U_C_Man_casual_6_F", 0.2,
+        	"CUP_U_O_CHDKZ_Lopotev", 0.2,
+        	"CUP_U_I_GUE_Anorak_03", 0.2,
+        	"U_I_C_Soldier_Bandit_4_F", 0.2,
+        	"CUP_U_C_Citizen_02", 0.2,
+        	"U_C_Poloshirt_burgundy", 0.2,
+        	"U_C_Poloshirt_redwhite", 0.2,
+        	"U_C_Poloshirt_blue", 0.2,
+        	"U_C_Poloshirt_salmon", 0.2,
+        	"U_C_Poloshirt_stripped", 0.2,
+        	"U_C_Poloshirt_tricolour", 0.2,
+        	"U_BG_Guerilla2_1", 0.2,
+        	"U_BG_Guerilla2_2", 0.2,
+        	"U_BG_Guerilla2_3", 0.2,
+        	"U_BG_Guerilla3_1", 0.2,
+        	"U_C_HunterBody_grn", 0.2,
+        	"U_OrestesBody", 0.2,
+        	"CUP_I_B_PMC_Unit_1", 0.2,
+        	"CUP_I_B_PMC_Unit_2", 0.2,
+        	"CUP_I_B_PMC_Unit_3", 0.2,
+        	"CUP_I_B_PMC_Unit_4", 0.2,
+        	"CUP_U_C_Rocker_02", 0.2
 		};
 
-	// African Headgear
-		headgearList[] = {
-	"", 0.8,
-	"H_Bandanna_blu", 0.2,
-	"H_Bandanna_cbr", 0.2,
-	"H_Bandanna_gry", 0.2,
-	"H_Bandanna_khk", 0.2,
-	"H_Bandanna_sgg", 0.2,
-	"H_Booniehat_tan", 0.2,
-	"H_Cap_blu", 0.2,
-	"H_Cap_oli", 0.2,
-	"H_Cap_red", 0.2,
-	"H_Cap_tan", 0.2,
-	"H_Cap_blk", 0.2,
-	"SP_BaseballCap_Yellow", 0.2,
-	"SP_BaseballCap_White", 0.2,
-	"SP_BoonieHat_Black", 0.2
-		};
+    	// African Headgear
+        headgearList[] = {
+        	"", 0.8,
+        	"H_Bandanna_blu", 0.2,
+        	"H_Bandanna_cbr", 0.2,
+        	"H_Bandanna_gry", 0.2,
+        	"H_Bandanna_khk", 0.2,
+        	"H_Bandanna_sgg", 0.2,
+        	"H_Booniehat_tan", 0.2,
+        	"H_Cap_blu", 0.2,
+        	"H_Cap_oli", 0.2,
+        	"H_Cap_red", 0.2,
+        	"H_Cap_tan", 0.2,
+        	"H_Cap_blk", 0.2,
+        	"SP_BaseballCap_Yellow", 0.2,
+        	"SP_BaseballCap_White", 0.2,
+        	"SP_BoonieHat_Black", 0.2
+    	};
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -191,10 +191,10 @@ class CfgVehicles {
 
     };
 
-    class CFP_C_AFRCHRISTIAN_Civ_2_01 :  CFP_C_AFRCHRISTIAN_Civ_1_01 {
+    class CFP_C_AFRCHRISTIAN_Civ_2_01 : CFP_C_AFRCHRISTIAN_Civ_1_01 {
+        editorPreview = \x\cfp\addons\c_afrchristian\data\preview\CFP_C_AFRCHRISTIAN_Civ_2_01.JPG;
 
         displayName = "Civilian";
-
 
         weapons[] = {"Throw","Put"};
         respawnWeapons[] = {"Throw","Put"};
@@ -206,7 +206,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_C_AFRCHRISTIAN_Civ_3_01 :  CFP_C_AFRCHRISTIAN_Civ_1_01 {
+    class CFP_C_AFRCHRISTIAN_Civ_3_01 : CFP_C_AFRCHRISTIAN_Civ_1_01 {
+        editorPreview = \x\cfp\addons\c_afrchristian\data\preview\CFP_C_AFRCHRISTIAN_Civ_3_01.JPG;
 
         displayName = "Civilian";
 
@@ -221,7 +222,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_C_AFRCHRISTIAN_Civ_4_01 :  CFP_C_AFRCHRISTIAN_Civ_1_01 {
+    class CFP_C_AFRCHRISTIAN_Civ_4_01 : CFP_C_AFRCHRISTIAN_Civ_1_01 {
+        editorPreview = \x\cfp\addons\c_afrchristian\data\preview\CFP_C_AFRCHRISTIAN_Civ_4_01.JPG;
 
         displayName = "Civilian";
 
@@ -236,7 +238,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_C_AFRCHRISTIAN_Civ_5_01 :  CFP_C_AFRCHRISTIAN_Civ_1_01 {
+    class CFP_C_AFRCHRISTIAN_Civ_5_01 : CFP_C_AFRCHRISTIAN_Civ_1_01 {
+        editorPreview = \x\cfp\addons\c_afrchristian\data\preview\CFP_C_AFRCHRISTIAN_Civ_5_01.JPG;
 
         displayName = "Civilian";
 
@@ -251,7 +254,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_C_AFRCHRISTIAN_Civ_6_01 :  CFP_C_AFRCHRISTIAN_Civ_1_01 {
+    class CFP_C_AFRCHRISTIAN_Civ_6_01 : CFP_C_AFRCHRISTIAN_Civ_1_01 {
+        editorPreview = \x\cfp\addons\c_afrchristian\data\preview\CFP_C_AFRCHRISTIAN_Civ_6_01.JPG;
 
         displayName = "Civilian";
 
@@ -266,7 +270,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_C_AFRCHRISTIAN_Civ_7_01 :  CFP_C_AFRCHRISTIAN_Civ_1_01 {
+    class CFP_C_AFRCHRISTIAN_Civ_7_01 : CFP_C_AFRCHRISTIAN_Civ_1_01 {
+        editorPreview = \x\cfp\addons\c_afrchristian\data\preview\CFP_C_AFRCHRISTIAN_Civ_7_01.JPG;
 
         displayName = "Civilian";
 
@@ -281,7 +286,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_C_AFRCHRISTIAN_Civ_8_01 :  CFP_C_AFRCHRISTIAN_Civ_1_01 {
+    class CFP_C_AFRCHRISTIAN_Civ_8_01 : CFP_C_AFRCHRISTIAN_Civ_1_01 {
+        editorPreview = \x\cfp\addons\c_afrchristian\data\preview\CFP_C_AFRCHRISTIAN_Civ_8_01.JPG;
 
         displayName = "Civilian";
 
@@ -296,7 +302,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_C_AFRCHRISTIAN_Civ_9_01 :  CFP_C_AFRCHRISTIAN_Civ_1_01 {
+    class CFP_C_AFRCHRISTIAN_Civ_9_01 : CFP_C_AFRCHRISTIAN_Civ_1_01 {
+        editorPreview = \x\cfp\addons\c_afrchristian\data\preview\CFP_C_AFRCHRISTIAN_Civ_9_01.JPG;
 
         displayName = "Civilian";
 
@@ -311,7 +318,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_C_AFRCHRISTIAN_Civ_10_01 :  CFP_C_AFRCHRISTIAN_Civ_1_01 {
+    class CFP_C_AFRCHRISTIAN_Civ_10_01 : CFP_C_AFRCHRISTIAN_Civ_1_01 {
+        editorPreview = \x\cfp\addons\c_afrchristian\data\preview\CFP_C_AFRCHRISTIAN_Civ_10_01.JPG;
 
         displayName = "Civilian";
 
@@ -326,7 +334,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_C_AFRCHRISTIAN_Civ_11_01 :  CFP_C_AFRCHRISTIAN_Civ_1_01 {
+    class CFP_C_AFRCHRISTIAN_Civ_11_01 : CFP_C_AFRCHRISTIAN_Civ_1_01 {
+        editorPreview = \x\cfp\addons\c_afrchristian\data\preview\CFP_C_AFRCHRISTIAN_Civ_11_01.JPG;
 
         displayName = "Civilian";
 
@@ -341,7 +350,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_C_AFRCHRISTIAN_Civ_12_01 :  CFP_C_AFRCHRISTIAN_Civ_1_01 {
+    class CFP_C_AFRCHRISTIAN_Civ_12_01 : CFP_C_AFRCHRISTIAN_Civ_1_01 {
+        editorPreview = \x\cfp\addons\c_afrchristian\data\preview\CFP_C_AFRCHRISTIAN_Civ_12_01.JPG;
 
         displayName = "Civilian";
 
@@ -356,7 +366,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_C_AFRCHRISTIAN_Civ_13_01 :  CFP_C_AFRCHRISTIAN_Civ_1_01 {
+    class CFP_C_AFRCHRISTIAN_Civ_13_01 : CFP_C_AFRCHRISTIAN_Civ_1_01 {
+        editorPreview = \x\cfp\addons\c_afrchristian\data\preview\CFP_C_AFRCHRISTIAN_Civ_13_01.JPG;
 
         displayName = "Civilian";
 
@@ -371,7 +382,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_C_AFRCHRISTIAN_Civ_14_01 :  CFP_C_AFRCHRISTIAN_Civ_1_01 {
+    class CFP_C_AFRCHRISTIAN_Civ_14_01 : CFP_C_AFRCHRISTIAN_Civ_1_01 {
+        editorPreview = \x\cfp\addons\c_afrchristian\data\preview\CFP_C_AFRCHRISTIAN_Civ_14_01.JPG;
 
         displayName = "Civilian";
 
@@ -387,6 +399,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFRCHRISTIAN_Ikarus_01 : CUP_C_Ikarus_TKC_OCimport_02 {
+        editorPreview = \x\cfp\addons\c_afrchristian\data\preview\CFP_C_AFRCHRISTIAN_Ikarus_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -411,6 +424,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFRCHRISTIAN_Land_Rover_01 : CUP_C_LR_Transport_CTK_OCimport_02 {
+        editorPreview = \x\cfp\addons\c_afrchristian\data\preview\CFP_C_AFRCHRISTIAN_Land_Rover_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -441,6 +455,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFRCHRISTIAN_UAZ_Open_01 : CUP_C_UAZ_Open_TK_CIV_OCimport_02 {
+        editorPreview = \x\cfp\addons\c_afrchristian\data\preview\CFP_C_AFRCHRISTIAN_UAZ_Open_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -474,6 +489,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFRCHRISTIAN_SUV_01 : CUP_C_SUV_TK_OCimport_02 {
+        editorPreview = \x\cfp\addons\c_afrchristian\data\preview\CFP_C_AFRCHRISTIAN_SUV_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -509,6 +525,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFRCHRISTIAN_SUV_2_01 : CUP_C_SUV_CIV_OCimport_02 {
+        editorPreview = \x\cfp\addons\c_afrchristian\data\preview\CFP_C_AFRCHRISTIAN_SUV_2_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -544,6 +561,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFRCHRISTIAN_Pickup_Old_01 : CUP_C_Datsun_Plain_OCimport_02 {
+        editorPreview = \x\cfp\addons\c_afrchristian\data\preview\CFP_C_AFRCHRISTIAN_Pickup_Old_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -574,6 +592,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFRCHRISTIAN_Zamak_01 : C_Truck_02_covered_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\c_afrchristian\data\preview\CFP_C_AFRCHRISTIAN_Zamak_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -604,6 +623,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFRCHRISTIAN_Truck_Boxer_01 : C_Van_01_box_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\c_afrchristian\data\preview\CFP_C_AFRCHRISTIAN_Truck_Boxer_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -628,6 +648,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFRCHRISTIAN_Golf_01 : CUP_C_Golf4_random_Civ_OCimport_02 {
+        editorPreview = \x\cfp\addons\c_afrchristian\data\preview\CFP_C_AFRCHRISTIAN_Golf_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -652,6 +673,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFRCHRISTIAN_Skoda_01 : CUP_C_Octavia_CIV_OCimport_02 {
+        editorPreview = \x\cfp\addons\c_afrchristian\data\preview\CFP_C_AFRCHRISTIAN_Skoda_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
