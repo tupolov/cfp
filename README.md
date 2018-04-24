@@ -18,7 +18,7 @@
 </p>
 
 <p align="center">
-    <sup><strong>Requires the latest version of <a href="https://github.com/CBATeam/CBA_A3/releases">CBA A3</a>.<br/>Requires the latest version of  <a href="http://cup-arma3.org/">Community Upgrade Project</a> (Weapons, Units and Vehicles).
+    <sup><strong>Requires the latest version of <a href="https://github.com/CBATeam/CBA_A3/releases">CBA A3</a>.<br/>Requires the latest version of  <a href="http://cup-arma3.org/">Community Upgrade Project</a> (Weapons, Units and Vehicles).</strong></sup>
 </p>
 
 **CFP** is a community project to provide Arma 3 with 100 new or enhanced real world factions/sub-factions involved in current and historical armed conflicts. CFP comes in two flavours - CFP and CFP Ultimate, only CFP requires **Community Upgrade Project (CUP)**. 
