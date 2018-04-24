@@ -26,7 +26,6 @@ class CfgPatches {
             "CFP_C_ASIA_Offroad_01"
         };
         weapons[] = {};
-        requiredVersion = REQUIRED_VERSION;
         requiredAddons[] = {
             "A3_Characters_F_Exp",
             "A3_Characters_F",

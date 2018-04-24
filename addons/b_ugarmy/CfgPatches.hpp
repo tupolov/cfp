@@ -60,11 +60,6 @@ class CfgPatches {
         };
         weapons[] = {};
         requiredAddons[] = {
-            "CFP_O_HEZBOLLAH",
-            "CFP_B_NAARMY",
-            "CFP_O_BOKOHARAM",
-            "CFP_O_ALSHABAAB",
-            "CFP_O_ALQAEDA",
             "CFP_B_USMC_DES",
             "CFP_B_KEARMY",
             "CFP_O_RUARMY_DES",
@@ -76,7 +71,6 @@ class CfgPatches {
             "cfp_uniforms"
         };
         requiredVersion = REQUIRED_VERSION;
-        VERSION_CONFIG;
         authors[] = {"Drew"};
         author = MODULE_AUTHOR;
     };
