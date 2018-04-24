@@ -127,7 +127,7 @@ class CfgVehicles {
 
 
     class CFP_C_AFG_Civilian_01 : O_Soldier_F_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_c_afg\data\preview\CFP_C_AFG_Civilian_01.JPG;
+        editorPreview = \x\CFP\addons\c_afg\data\preview\CFP_C_AFG_Civilian_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -154,80 +154,80 @@ class CfgVehicles {
 
         // Afghan Clothing
             uniformList[] = {
-        "CFP_U_KhetPartug_Long_Olive", 0.2,
-        "CFP_U_KhetPartug_Short_Olive", 0.2,
-        "CFP_U_KhetPartug_Long_Light_Olive", 0.2,
-        "CFP_U_KhetPartug_Short_Light_Olive", 0.2,
-        "CFP_U_KhetPartug_Long_Black", 0.2,
-        "CFP_U_KhetPartug_Short_GreenOlive", 0.2,
-        "CFP_U_KhetPartug_Long_Blue", 0.2,
-        "CFP_U_KhetPartug_Long_BlueGrey", 0.2,
-        "CFP_U_KhetPartug_Long_Brown", 0.2,
-        "CFP_U_KhetPartug_Long_Creme", 0.2,
-        "CFP_U_KhetPartug_Long_Grey", 0.2,
-        "CFP_U_KhetPartug_Long_Purple", 0.2,
-        "CFP_U_KhetPartug_Long_Tan", 0.2,
-        "CFP_U_KhetPartug_Long_White", 0.2,
-        "CFP_U_KhetPartug_Short_Blue", 0.2,
-        "CFP_U_KhetPartug_Short_BlueGrey", 0.2,
-        "CFP_U_KhetPartug_Short_Brown", 0.2,
-        "CFP_U_KhetPartug_Short_Creme", 0.2,
-        "CFP_U_KhetPartug_Short_Grey", 0.2,
-        "CFP_U_KhetPartug_Short_Purple", 0.2,
-        "CFP_U_KhetPartug_Short_Tan", 0.2,
-        "CFP_U_KhetPartug_Short_White", 0.2,
-        "CFP_U_KhetPartug_Short_Black", 0.2
+                "CFP_U_KhetPartug_Long_Olive", 0.2,
+                "CFP_U_KhetPartug_Short_Olive", 0.2,
+                "CFP_U_KhetPartug_Long_Light_Olive", 0.2,
+                "CFP_U_KhetPartug_Short_Light_Olive", 0.2,
+                "CFP_U_KhetPartug_Long_Black", 0.2,
+                "CFP_U_KhetPartug_Short_GreenOlive", 0.2,
+                "CFP_U_KhetPartug_Long_Blue", 0.2,
+                "CFP_U_KhetPartug_Long_BlueGrey", 0.2,
+                "CFP_U_KhetPartug_Long_Brown", 0.2,
+                "CFP_U_KhetPartug_Long_Creme", 0.2,
+                "CFP_U_KhetPartug_Long_Grey", 0.2,
+                "CFP_U_KhetPartug_Long_Purple", 0.2,
+                "CFP_U_KhetPartug_Long_Tan", 0.2,
+                "CFP_U_KhetPartug_Long_White", 0.2,
+                "CFP_U_KhetPartug_Short_Blue", 0.2,
+                "CFP_U_KhetPartug_Short_BlueGrey", 0.2,
+                "CFP_U_KhetPartug_Short_Brown", 0.2,
+                "CFP_U_KhetPartug_Short_Creme", 0.2,
+                "CFP_U_KhetPartug_Short_Grey", 0.2,
+                "CFP_U_KhetPartug_Short_Purple", 0.2,
+                "CFP_U_KhetPartug_Short_Tan", 0.2,
+                "CFP_U_KhetPartug_Short_White", 0.2,
+                "CFP_U_KhetPartug_Short_Black", 0.2
             };
 
         // Afghan Headgear
             headgearList[] = {
-        "CUP_H_TKI_Lungee_Open_01", 0.2,
-        "CUP_H_TKI_Lungee_Open_02", 0.2,
-        "CUP_H_TKI_Lungee_Open_03", 0.2,
-        "CUP_H_TKI_Lungee_Open_04", 0.2,
-        "CUP_H_TKI_Lungee_Open_05", 0.2,
-        "CUP_H_TKI_Lungee_Open_06", 0.2,
-        "CUP_H_TKI_Pakol_2_03", 0.2,
-        "CUP_H_TKI_Pakol_2_01", 0.2,
-        "CUP_H_TKI_Pakol_2_02", 0.2,
-        "CUP_H_TKI_Pakol_2_04", 0.2,
-        "CUP_H_TKI_Pakol_2_05", 0.2,
-        "CUP_H_TKI_Pakol_2_06", 0.2,
-        "CUP_H_TKI_Pakol_1_01", 0.2,
-        "CUP_H_TKI_Pakol_1_03", 0.2,
-        "CUP_H_TKI_Pakol_1_04", 0.2,
-        "CUP_H_TKI_Pakol_1_05", 0.2,
-        "CUP_H_TKI_Pakol_1_06", 0.2,
-        "CUP_H_TKI_SkullCap_01", 0.2,
-        "CUP_H_TKI_SkullCap_02", 0.2,
-        "CUP_H_TKI_SkullCap_03", 0.2,
-        "CUP_H_TKI_SkullCap_04", 0.2,
-        "CUP_H_TKI_SkullCap_05", 0.2,
-        "CUP_H_TKI_SkullCap_06", 0.2,
-        "CFP_Lungee_Open_Tan", 0.2,
-        "CFP_Lungee_Open_LightOlive", 0.2,
-        "CFP_Lungee_Open_Grey", 0.2,
-        "CFP_Lungee_Open_Creme", 0.2,
-        "CFP_Lungee_Open_Brown", 0.2,
-        "CFP_Lungee_Open_BlueGrey", 0.2,
-        "CFP_Lungee_Open_Blue", 0.2
+                "CUP_H_TKI_Lungee_Open_01", 0.2,
+                "CUP_H_TKI_Lungee_Open_02", 0.2,
+                "CUP_H_TKI_Lungee_Open_03", 0.2,
+                "CUP_H_TKI_Lungee_Open_04", 0.2,
+                "CUP_H_TKI_Lungee_Open_05", 0.2,
+                "CUP_H_TKI_Lungee_Open_06", 0.2,
+                "CUP_H_TKI_Pakol_2_03", 0.2,
+                "CUP_H_TKI_Pakol_2_01", 0.2,
+                "CUP_H_TKI_Pakol_2_02", 0.2,
+                "CUP_H_TKI_Pakol_2_04", 0.2,
+                "CUP_H_TKI_Pakol_2_05", 0.2,
+                "CUP_H_TKI_Pakol_2_06", 0.2,
+                "CUP_H_TKI_Pakol_1_01", 0.2,
+                "CUP_H_TKI_Pakol_1_03", 0.2,
+                "CUP_H_TKI_Pakol_1_04", 0.2,
+                "CUP_H_TKI_Pakol_1_05", 0.2,
+                "CUP_H_TKI_Pakol_1_06", 0.2,
+                "CUP_H_TKI_SkullCap_01", 0.2,
+                "CUP_H_TKI_SkullCap_02", 0.2,
+                "CUP_H_TKI_SkullCap_03", 0.2,
+                "CUP_H_TKI_SkullCap_04", 0.2,
+                "CUP_H_TKI_SkullCap_05", 0.2,
+                "CUP_H_TKI_SkullCap_06", 0.2,
+                "CFP_Lungee_Open_Tan", 0.2,
+                "CFP_Lungee_Open_LightOlive", 0.2,
+                "CFP_Lungee_Open_Grey", 0.2,
+                "CFP_Lungee_Open_Creme", 0.2,
+                "CFP_Lungee_Open_Brown", 0.2,
+                "CFP_Lungee_Open_BlueGrey", 0.2,
+                "CFP_Lungee_Open_Blue", 0.2
             };
 
         // Afghan Vests
             vestList[] = {
-        "", 0.6,
-        "CUP_V_OI_TKI_Jacket5_04", 0.2,
-        "CUP_V_OI_TKI_Jacket5_05", 0.2,
-        "CUP_V_OI_TKI_Jacket5_06", 0.2,
-        "CUP_V_OI_TKI_Jacket6_04", 0.2,
-        "CUP_V_OI_TKI_Jacket6_05", 0.2,
-        "CUP_V_OI_TKI_Jacket6_06", 0.2
+                "", 0.9,
+                "CUP_V_OI_TKI_Jacket5_04", 0.2,
+                "CUP_V_OI_TKI_Jacket5_05", 0.2,
+                "CUP_V_OI_TKI_Jacket5_06", 0.2,
+                "CUP_V_OI_TKI_Jacket6_04", 0.2,
+                "CUP_V_OI_TKI_Jacket6_05", 0.2,
+                "CUP_V_OI_TKI_Jacket6_06", 0.2
             };
 
         // Afghan Facewear
             facewearList[] = {
-        "", 0.5,
-        "CFP_Beard", 0.5
+                "", 0.5,
+                "CFP_Beard", 0.5
             };
 
         class EventHandlers : EventHandlers {
@@ -245,7 +245,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFG_Civilian_02 : CFP_C_AFG_Civilian_01 {
-        editorPreview = \x\CFP\addons\cfp_c_afg\data\preview\CFP_C_AFG_Civilian_02.JPG;
+        editorPreview = \x\CFP\addons\c_afg\data\preview\CFP_C_AFG_Civilian_02.JPG;
 
         displayName = "Civilian";
 
@@ -264,7 +264,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFG_Datsun_Pickup_01 : CUP_C_Datsun_Plain_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_c_afg\data\preview\CFP_C_AFG_Datsun_Pickup_01.JPG;
+        editorPreview = \x\CFP\addons\c_afg\data\preview\CFP_C_AFG_Datsun_Pickup_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -296,7 +296,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFG_Golf_01 : CUP_C_Golf4_random_Civ_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_c_afg\data\preview\CFP_C_AFG_Golf_01.JPG;
+        editorPreview = \x\CFP\addons\c_afg\data\preview\CFP_C_AFG_Golf_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -321,7 +321,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFG_Offroad_01 : C_Offroad_01_F_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_c_afg\data\preview\CFP_C_AFG_Offroad_01.JPG;
+        editorPreview = \x\CFP\addons\c_afg\data\preview\CFP_C_AFG_Offroad_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -354,7 +354,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFG_Zamak_Fuel_01 : C_Truck_02_fuel_F_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_c_afg\data\preview\CFP_C_AFG_Zamak_Fuel_01.JPG;
+        editorPreview = \x\CFP\addons\c_afg\data\preview\CFP_C_AFG_Zamak_Fuel_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -379,7 +379,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFG_Truck_01 : C_Van_01_transport_F_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_c_afg\data\preview\CFP_C_AFG_Truck_01.JPG;
+        editorPreview = \x\CFP\addons\c_afg\data\preview\CFP_C_AFG_Truck_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -418,7 +418,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFG_Truck_Boxer_01 : C_Van_01_box_F_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_c_afg\data\preview\CFP_C_AFG_Truck_Boxer_01.JPG;
+        editorPreview = \x\CFP\addons\c_afg\data\preview\CFP_C_AFG_Truck_Boxer_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -443,7 +443,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFG_Van_Transport_01 : C_Van_02_transport_F_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_c_afg\data\preview\CFP_C_AFG_Van_Transport_01.JPG;
+        editorPreview = \x\CFP\addons\c_afg\data\preview\CFP_C_AFG_Van_Transport_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -475,7 +475,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFG_Skoda_Octavia_01 : CUP_C_Octavia_CIV_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_c_afg\data\preview\CFP_C_AFG_Skoda_Octavia_01.JPG;
+        editorPreview = \x\CFP\addons\c_afg\data\preview\CFP_C_AFG_Skoda_Octavia_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -500,7 +500,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFG_Zamak_Transport_Covered_01 : C_Truck_02_covered_F_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_c_afg\data\preview\CFP_C_AFG_Zamak_Transport_Covered_01.JPG;
+        editorPreview = \x\CFP\addons\c_afg\data\preview\CFP_C_AFG_Zamak_Transport_Covered_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -531,7 +531,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFG_Lada_01 : CUP_C_Lada_White_CIV_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_c_afg\data\preview\CFP_C_AFG_Lada_01.JPG;
+        editorPreview = \x\CFP\addons\c_afg\data\preview\CFP_C_AFG_Lada_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -556,7 +556,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFG_Skoda_105_L_01 : CUP_C_Skoda_Red_CIV_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_c_afg\data\preview\CFP_C_AFG_Skoda_105_L_01.JPG;
+        editorPreview = \x\CFP\addons\c_afg\data\preview\CFP_C_AFG_Skoda_105_L_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -581,7 +581,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFG_Datsun_Pickup_Covered_01 : CUP_C_Datsun_Covered_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_c_afg\data\preview\CFP_C_AFG_Datsun_Pickup_Covered_01.JPG;
+        editorPreview = \x\CFP\addons\c_afg\data\preview\CFP_C_AFG_Datsun_Pickup_Covered_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -613,7 +613,7 @@ class CfgVehicles {
     };
 
     class CFP_C_AFG_SUV_01 : CUP_C_SUV_CIV_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_c_afg\data\preview\CFP_C_AFG_SUV_01.JPG;
+        editorPreview = \x\CFP\addons\c_afg\data\preview\CFP_C_AFG_SUV_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
