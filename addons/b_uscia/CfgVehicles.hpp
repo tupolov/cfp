@@ -228,15 +228,10 @@ class CfgVehicles {
 
         vestList[] = {
             "CFP_UtilityJacket_Woodland", 0.2,
-            "CFP_UtilityJacket_PolygonWoodland", 0.2,
-            "CFP_UtilityJacket_PolygonDesert", 0.2,
             "CFP_UtilityJacket_M81", 0.2,
             "CFP_UtilityJacket_EDRL", 0.2,
             "CFP_UtilityJacket_ChocChip", 0.2,
             "CFP_TakJacket_Woodland", 0.2,
-            "CFP_TakJacket_AfricanWoodland", 0.2,
-            "CFP_TakJacket_PolygonWoodland", 0.2,
-            "CFP_TakJacket_PolygonDesert", 0.2,
             "CFP_TakJacket_Marpat", 0.2,
             "CFP_TakJacket_M81", 0.2,
             "CFP_TakJacket_EDRL", 0.2,
