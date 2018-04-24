@@ -19,6 +19,7 @@
 #include "CFP_O_IS_Logistics.hpp"
 #include "CFP_O_RUARMY_DES_Logistics.hpp"
 #include "CFP_O_RUMVD_Logistics.hpp"
+#include "CFP_O_SOREBEL_Logistics.hpp"
 #include "CFP_O_SYARMY_Logistics.hpp"
 #include "CFP_O_TBAN_Logistics.hpp"
 #include "CUP_B_CZ_Logistics.hpp"

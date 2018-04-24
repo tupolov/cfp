@@ -3,7 +3,9 @@
 // Generated with Arma 3 version 176.143187 on Stable branch
 // Generated with ALiVE version 1.5.0.1711091
 //////////////////////////////////////////////////////////////////////////////////
-
+#define mag_xx(a,b) class _xx_##a {magazine = ##a; count = b;}
+#define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
+#define item_xx(a,b) class _xx_##a {name = a; count = b;}
 
 class CBA_Extended_EventHandlers_base;
 
@@ -63,17 +65,17 @@ class CfgVehicles {
 
 
     class CFP_O_SOREBEL_Rifleman_01 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Rifleman_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman";
         side = 0;
-	genericNames = "Afromen";
+    	genericNames = "Afromen";
         faction = "CFP_O_SOREBEL";
 
         identityTypes[] = {"Head_African","LanguagePER_F"};
         uniformClass = "U_I_C_Soldier_Bandit_4_F";
-
 
         weapons[] = {"CUP_arifle_AK47","hgun_Rook40_F","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_AK47","hgun_Rook40_F","Throw","Put"};
@@ -83,58 +85,59 @@ class CfgVehicles {
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","16Rnd_9x21_Mag","16Rnd_9x21_Mag","16Rnd_9x21_Mag"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{"hgun_Rook40_F","","","",{"16Rnd_9x21_Mag",16},{},""},{"U_I_C_Soldier_Bandit_4_F",{{"FirstAidKit",1},{"Chemlight_red",1,1}}},{"V_BandollierB_cbr",{{"16Rnd_9x21_Mag",1,16},{"SmokeShell",1,1},{"CUP_30Rnd_762x39_AK47_M",3,30}}},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
-	randomGearProbability = 100;
+    	randomGearProbability = 100;
 
-	// Somali Clothing
-		uniformList[] = {
-	"U_I_C_Soldier_Bandit_4_F", 0.2,
-	"U_I_C_Soldier_Bandit_1_F", 0.2,
-	"CUP_U_I_GUE_Anorak_03", 0.2,
-	"U_I_C_Soldier_Bandit_5_F", 0.2,
-	"U_I_C_Soldier_Bandit_2_F", 0.2,
-	"U_I_C_Soldier_Bandit_3_F", 0.2,
-	"U_C_Poloshirt_salmon", 0.2,
-	"U_I_C_Soldier_Para_4_F", 0.2,
-	"U_I_C_Soldier_Para_1_F", 0.2,
-	"U_C_Poloshirt_blue", 0.2,
-	"U_C_Poloshirt_tricolour", 0.2,
-	"U_I_C_Soldier_Para_2_F", 0.2,
-	"U_C_Man_casual_5_F", 0.2,
-	"U_I_C_Soldier_Para_5_F", 0.2,
-	"U_BG_Guerrilla_6_1", 0.2
-		};
+    	// Somali Clothing
+    		uniformList[] = {
+    	"U_I_C_Soldier_Bandit_4_F", 0.2,
+    	"U_I_C_Soldier_Bandit_1_F", 0.2,
+    	"CUP_U_I_GUE_Anorak_03", 0.2,
+    	"U_I_C_Soldier_Bandit_5_F", 0.2,
+    	"U_I_C_Soldier_Bandit_2_F", 0.2,
+    	"U_I_C_Soldier_Bandit_3_F", 0.2,
+    	"U_C_Poloshirt_salmon", 0.2,
+    	"U_I_C_Soldier_Para_4_F", 0.2,
+    	"U_I_C_Soldier_Para_1_F", 0.2,
+    	"U_C_Poloshirt_blue", 0.2,
+    	"U_C_Poloshirt_tricolour", 0.2,
+    	"U_I_C_Soldier_Para_2_F", 0.2,
+    	"U_C_Man_casual_5_F", 0.2,
+    	"U_I_C_Soldier_Para_5_F", 0.2,
+    	"U_BG_Guerrilla_6_1", 0.2
+    		};
 
-	// Somali Headgear
-		headgearList[] = {
-	"", 0.5,
-	"H_Bandanna_khk", 0.05,
-	"H_Bandanna_sand", 0.05,
-	"H_Cap_blk", 0.05,
-	"H_Booniehat_khk", 0.05,
-	"H_Cap_oli", 0.05,
-	"H_Bandanna_camo", 0.05,
-	"H_Cap_grn", 0.05,
-    "CFP_PatrolCap_EDRL", 0.05,
-    "CFP_PatrolCap_M81", 0.05,
-    "CFP_PatrolCap_PolygonWoodland", 0.05,
-    "CFP_PatrolCap_Woodland", 0.05
-		};
+    	// Somali Headgear
+    		headgearList[] = {
+    	"", 0.5,
+    	"H_Bandanna_khk", 0.05,
+    	"H_Bandanna_sand", 0.05,
+    	"H_Cap_blk", 0.05,
+    	"H_Booniehat_khk", 0.05,
+    	"H_Cap_oli", 0.05,
+    	"H_Bandanna_camo", 0.05,
+    	"H_Cap_grn", 0.05,
+        "CFP_PatrolCap_EDRL", 0.05,
+        "CFP_PatrolCap_M81", 0.05,
+        "CFP_PatrolCap_PolygonWoodland", 0.05,
+        "CFP_PatrolCap_Woodland", 0.05
+    		};
 
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+            class EventHandlers : EventHandlers {
+                class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                class ALiVE_orbatCreator {
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                };
+
             };
 
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+            // custom attributes (do not delete)
+            ALiVE_orbatCreator_owned = 1;
 
     };
 
     class CFP_O_SOREBEL_Sharpshooter_01 : CFP_O_SOREBEL_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Sharpshooter_01.JPG;
 
         displayName = "Sharpshooter";
 
@@ -150,6 +153,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SOREBEL_Grenadier_01 : CFP_O_SOREBEL_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Grenadier_01.JPG;
 
         displayName = "Grenadier";
 
@@ -165,6 +169,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SOREBEL_Rifleman_Light_01 : CFP_O_SOREBEL_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Rifleman_Light_01.JPG;
 
         displayName = "Rifleman (Light)";
 
@@ -180,6 +185,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SOREBEL_Rifleman_2_01 : CFP_O_SOREBEL_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Rifleman_2_01.JPG;
 
         displayName = "Rifleman";
 
@@ -195,6 +201,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SOREBEL_Warlord_01 : CFP_O_SOREBEL_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Warlord_01.JPG;
 
         displayName = "Warlord";
 
@@ -210,6 +217,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SOREBEL_Autorifleman_01 : CFP_O_SOREBEL_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Autorifleman_01.JPG;
 
         displayName = "Autorifleman";
 
@@ -226,6 +234,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SOREBEL_Autorifleman_2_01 : CFP_O_SOREBEL_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Autorifleman_2_01.JPG;
 
         displayName = "Autorifleman";
 
@@ -241,6 +250,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SOREBEL_Bonesetter_01 : CFP_O_SOREBEL_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Bonesetter_01.JPG;
 
         displayName = "Bonesetter";
         attendant = 1;
@@ -256,6 +266,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SOREBEL_Rifleman_AT_01 : CFP_O_SOREBEL_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Rifleman_AT_01.JPG;
 
         displayName = "Rifleman AT";
 
@@ -271,6 +282,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SOREBEL_Marksman_01 : CFP_O_SOREBEL_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Marksman_01.JPG;
 
         displayName = "Marksman";
 
@@ -286,6 +298,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SOREBEL_Rifleman_AA_01 : CFP_O_SOREBEL_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Rifleman_AA_01.JPG;
 
         displayName = "Rifleman AA";
 
@@ -301,6 +314,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SOREBEL_Rifleman_AT_2_01 : CFP_O_SOREBEL_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Rifleman_AT_2_01.JPG;
 
         displayName = "Rifleman AT";
 
@@ -316,6 +330,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SOREBEL_Warlord_2_01 : CFP_O_SOREBEL_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Warlord_2_01.JPG;
 
         displayName = "Warlord";
 
@@ -331,6 +346,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SOREBEL_Grenadier_2_01 : CFP_O_SOREBEL_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Grenadier_2_01.JPG;
 
         displayName = "Grenadier";
 
@@ -346,6 +362,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SOREBEL_Rifleman_3_01 : CFP_O_SOREBEL_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Rifleman_3_01.JPG;
 
         displayName = "Rifleman";
 
@@ -361,6 +378,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SOREBEL_Bonesetter_2_01 : CFP_O_SOREBEL_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Bonesetter_2_01.JPG;
 
         displayName = "Bonesetter";
         attendant = 1;
@@ -376,6 +394,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SOREBEL_Rifleman_AA_2_01 : CFP_O_SOREBEL_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Rifleman_AA_2_01.JPG;
 
         displayName = "Rifleman AA";
 
@@ -391,6 +410,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SOREBEL_Technical_PK_01 : CUP_I_Datsun_PK_TK_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Technical_PK_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -422,6 +442,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SOREBEL_Truck_01 : CUP_I_V3S_Open_TKG_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Truck_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -446,6 +467,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SOREBEL_Technical_DSHkM_01 : CUP_O_UAZ_MG_CHDKZ_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Technical_DSHkM_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -477,6 +499,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SOREBEL_Technical_SPG_01 : CUP_O_UAZ_SPG9_CHDKZ_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Technical_SPG_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -508,6 +531,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SOREBEL_DShKM_01 : CUP_O_DSHKM_TK_INS_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_DShKM_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -537,6 +561,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SOREBEL_Gunner_DShKM_High_01 : CFP_O_SOREBEL_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Gunner_DShKM_High_01.JPG;
 
         displayName = "Gunner [DShKM High]";
 
@@ -552,6 +577,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SOREBEL_Gunner_DShKM_Low_01 : CFP_O_SOREBEL_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Gunner_DShKM_Low_01.JPG;
 
         displayName = "Gunner [DShKM Low]";
 
@@ -567,6 +593,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SOREBEL_Gunner_SPG_01 : CFP_O_SOREBEL_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Gunner_SPG_01.JPG;
 
         displayName = "Gunner [SPG-9]";
 
@@ -582,6 +609,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SOREBEL_Gunner_Mortar_01 : CFP_O_SOREBEL_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Gunner_Mortar_01.JPG;
 
         displayName = "Gunner [Mortar]";
 
@@ -597,6 +625,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SOREBEL_Bombmaker_01 : CFP_O_SOREBEL_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Bombmaker_01.JPG;
 
         displayName = "Bombmaker";
         canDeactivateMines = 1;
@@ -613,6 +642,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SOREBEL_Bombmaker_2_01 : CFP_O_SOREBEL_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Bombmaker_2_01.JPG;
 
         displayName = "Bombmaker";
         canDeactivateMines = 1;
@@ -628,4 +658,252 @@ class CfgVehicles {
 
     };
 
+    class CUP_RUBasicAmmunitionBox; // CUP_RUBasicAmmunitionBox
+    class CUP_RUBasicWeaponsBox; // CUP_RUBasicWeaponsBox
+    class CUP_RUSpecialWeaponsBox; // CUP_RUSpecialWeaponsBox
+    class CUP_RULaunchersBox; // CUP_RULaunchersBox
+    class CUP_RUVehicleBox; // CUP_RUVehicleBox
+
+    class CFP_O_SOREBEL_AmmoBox : CUP_RUBasicAmmunitionBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Somali Rebels Ammo Box;
+        class TransportMagazines {
+            mag_xx(Chemlight_red,50);
+            mag_xx(16Rnd_9x21_Mag,50);
+            mag_xx(SmokeShell,50);
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(SmokeShellRed,50);
+            mag_xx(HandGrenade,50);
+            mag_xx(CUP_20Rnd_762x51_FNFAL_M,50);
+            mag_xx(1Rnd_Smoke_Grenade_shell,50);
+            mag_xx(1Rnd_SmokeRed_Grenade_shell,50);
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_8Rnd_9x18_Makarov_M,50);
+            mag_xx(O_IR_Grenade,50);
+            mag_xx(SmokeShellOrange,50);
+            mag_xx(SmokeShellYellow,50);
+            mag_xx(CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_HandGrenade_RGD5,50);
+            mag_xx(CUP_PG7VL_M,50);
+            mag_xx(CUP_PipeBomb_M,50);
+        };
+        class TransportWeapons {
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_O_SOREBEL_WeaponsBox : CUP_RUBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Somali Rebels Weapons Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(16Rnd_9x21_Mag,50);
+            mag_xx(CUP_20Rnd_762x51_FNFAL_M,50);
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_8Rnd_9x18_Makarov_M,50);
+            mag_xx(CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_AK47,10);
+            weap_xx(hgun_Rook40_F,10);
+            weap_xx(CUP_arifle_FNFAL_railed,10);
+            weap_xx(CUP_arifle_AK74_GL,10);
+            weap_xx(CUP_arifle_FNFAL,10);
+            weap_xx(CUP_arifle_AK74M_GL,10);
+            weap_xx(CUP_hgun_Makarov,10);
+            weap_xx(CUP_arifle_RPK74_45,10);
+            weap_xx(CUP_lmg_Pecheneg,10);
+            weap_xx(CUP_arifle_AK74,10);
+        };
+        class TransportItems {
+            item_xx(CUP_optic_LeupoldM3LR,10);
+        };
+    };
+    class CFP_O_SOREBEL_LaunchersBox : CUP_RULaunchersBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Somali Rebels Launchers Box;
+        class TransportMagazines {
+            mag_xx(CUP_PG7VL_M,5);
+            mag_xx(CUP_Igla_M,5);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_launch_RPG7V_PGO7V2,5);
+            weap_xx(CUP_launch_Igla,5);
+        };
+        class TransportItems {
+            item_xx(CUP_optic_PGO7V2,5);
+        };
+    };
+    class CFP_O_SOREBEL_UniformBox : CUP_RUBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Somali Rebels Uniform Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(U_C_Man_casual_5_F,15);
+            item_xx(U_BG_Guerrilla_6_1,15);
+            item_xx(U_I_C_Soldier_Para_5_F,15);
+            item_xx(U_C_Poloshirt_blue,15);
+            item_xx(U_C_Poloshirt_tricolour,15);
+            item_xx(U_I_C_Soldier_Para_1_F,15);
+            item_xx(U_C_Poloshirt_salmon,15);
+            item_xx(U_I_C_Soldier_Bandit_2_F,15);
+            item_xx(CUP_U_I_GUE_Anorak_03,15);
+            item_xx(U_I_C_Soldier_Bandit_4_F,15);
+            item_xx(U_I_C_Soldier_Para_4_F,15);
+            item_xx(U_I_C_Soldier_Bandit_1_F,15);
+            item_xx(U_I_C_Soldier_Para_2_F,15);
+        };
+    };
+    class CFP_O_SOREBEL_SupportBox : CUP_RUSpecialWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Somali Rebels Support Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(V_BandollierB_cbr,10);
+            item_xx(H_Cap_grn,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(Binocular,10);
+            item_xx(CUP_V_O_TK_Vest_1,10);
+            item_xx(H_Bandanna_khk,10);
+            item_xx(CFP_AK_VEST_LOlive,10);
+            item_xx(CFP_PatrolCap_Woodland,10);
+            item_xx(CFP_AK_VEST_Lime,10);
+            item_xx(H_Bandanna_sand,10);
+            item_xx(CFP_Tactical1_EDRL,10);
+            item_xx(H_Cap_oli,10);
+            item_xx(V_TacVest_camo,10);
+            item_xx(H_Cap_blk,10);
+            item_xx(ItemGPS,10);
+            item_xx(CFP_AK_VEST_Tan,10);
+            item_xx(CUP_V_I_Guerilla_Jacket,10);
+            item_xx(H_Bandanna_camo,10);
+            item_xx(CUP_V_OI_TKI_Jacket3_06,10);
+            item_xx(CFP_Kitbag_PolygonWoodland,10);
+            item_xx(CFP_RPGPack_Khaki,10);
+            item_xx(CFP_AK_VEST_EDRL,10);
+            item_xx(H_Booniehat_khk,10);
+            item_xx(CFP_Tactical1_Woodland,10);
+            item_xx(CUP_V_OI_TKI_Jacket3_03,10);
+            item_xx(CFP_Kitbag_EDRL,10);
+            item_xx(CUP_B_DShkM_TripodHigh_Bag,10);
+            item_xx(CUP_V_OI_TKI_Jacket3_01,10);
+            item_xx(CUP_B_DShkM_TripodLow_Bag,10);
+            item_xx(CUP_V_OI_TKI_Jacket3_05,10);
+            item_xx(CUP_B_SPG9_Tripod_Bag,10);
+            item_xx(CUP_V_OI_TKI_Jacket2_02,10);
+            item_xx(CUP_B_Podnos_Bipod_Bag,10);
+            item_xx(CFP_Kitbag_Woodland,10);
+            item_xx(CUP_V_OI_TKI_Jacket2_01,10);
+            item_xx(CFP_Kitbag_M81,10);
+        };
+    };
+    class CFP_O_SOREBEL_SupplyBox : CUP_RUVehicleBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Somali Rebels Supply Box;
+        class TransportMagazines {
+            mag_xx(Chemlight_red,50);
+            mag_xx(16Rnd_9x21_Mag,50);
+            mag_xx(SmokeShell,50);
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(SmokeShellRed,50);
+            mag_xx(HandGrenade,50);
+            mag_xx(CUP_20Rnd_762x51_FNFAL_M,50);
+            mag_xx(1Rnd_Smoke_Grenade_shell,50);
+            mag_xx(1Rnd_SmokeRed_Grenade_shell,50);
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_8Rnd_9x18_Makarov_M,50);
+            mag_xx(O_IR_Grenade,50);
+            mag_xx(SmokeShellOrange,50);
+            mag_xx(SmokeShellYellow,50);
+            mag_xx(CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_HandGrenade_RGD5,50);
+            mag_xx(CUP_PG7VL_M,50);
+            mag_xx(CUP_PipeBomb_M,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_AK47,10);
+            weap_xx(hgun_Rook40_F,10);
+            weap_xx(CUP_arifle_FNFAL_railed,10);
+            weap_xx(CUP_arifle_AK74_GL,10);
+            weap_xx(CUP_arifle_FNFAL,10);
+            weap_xx(CUP_arifle_AK74M_GL,10);
+            weap_xx(CUP_hgun_Makarov,10);
+            weap_xx(CUP_arifle_RPK74_45,10);
+            weap_xx(CUP_lmg_Pecheneg,10);
+            weap_xx(CUP_arifle_AK74,10);
+            weap_xx(CUP_launch_RPG7V_PGO7V2,10);
+            weap_xx(CUP_launch_Igla,10);
+        };
+        class TransportItems {
+            item_xx(CUP_optic_LeupoldM3LR,10);
+            item_xx(V_BandollierB_cbr,10);
+            item_xx(H_Cap_grn,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(Binocular,10);
+            item_xx(CUP_V_O_TK_Vest_1,10);
+            item_xx(H_Bandanna_khk,10);
+            item_xx(CFP_AK_VEST_LOlive,10);
+            item_xx(CFP_PatrolCap_Woodland,10);
+            item_xx(CFP_AK_VEST_Lime,10);
+            item_xx(H_Bandanna_sand,10);
+            item_xx(CFP_Tactical1_EDRL,10);
+            item_xx(H_Cap_oli,10);
+            item_xx(V_TacVest_camo,10);
+            item_xx(H_Cap_blk,10);
+            item_xx(ItemGPS,10);
+            item_xx(CFP_AK_VEST_Tan,10);
+            item_xx(CUP_V_I_Guerilla_Jacket,10);
+            item_xx(H_Bandanna_camo,10);
+            item_xx(CUP_V_OI_TKI_Jacket3_06,10);
+            item_xx(CFP_Kitbag_PolygonWoodland,10);
+            item_xx(CFP_RPGPack_Khaki,10);
+            item_xx(CFP_AK_VEST_EDRL,10);
+            item_xx(H_Booniehat_khk,10);
+            item_xx(CFP_Tactical1_Woodland,10);
+            item_xx(CUP_V_OI_TKI_Jacket3_03,10);
+            item_xx(CFP_Kitbag_EDRL,10);
+            item_xx(CUP_B_DShkM_TripodHigh_Bag,10);
+            item_xx(CUP_V_OI_TKI_Jacket3_01,10);
+            item_xx(CUP_B_DShkM_TripodLow_Bag,10);
+            item_xx(CUP_V_OI_TKI_Jacket3_05,10);
+            item_xx(CUP_B_SPG9_Tripod_Bag,10);
+            item_xx(CUP_V_OI_TKI_Jacket2_02,10);
+            item_xx(CUP_B_Podnos_Bipod_Bag,10);
+            item_xx(CFP_Kitbag_Woodland,10);
+            item_xx(CUP_V_OI_TKI_Jacket2_01,10);
+            item_xx(CFP_Kitbag_M81,10);
+            item_xx(U_C_Man_casual_5_F,10);
+            item_xx(U_BG_Guerrilla_6_1,10);
+            item_xx(U_I_C_Soldier_Para_5_F,10);
+            item_xx(U_C_Poloshirt_blue,10);
+            item_xx(U_C_Poloshirt_tricolour,10);
+            item_xx(U_I_C_Soldier_Para_1_F,10);
+            item_xx(U_C_Poloshirt_salmon,10);
+            item_xx(U_I_C_Soldier_Bandit_2_F,10);
+            item_xx(CUP_U_I_GUE_Anorak_03,10);
+            item_xx(U_I_C_Soldier_Bandit_4_F,10);
+            item_xx(U_I_C_Soldier_Para_4_F,10);
+            item_xx(U_I_C_Soldier_Bandit_1_F,10);
+            item_xx(U_I_C_Soldier_Para_2_F,10);
+            item_xx(CUP_optic_PGO7V2,5);
+        };
+    };
 };
