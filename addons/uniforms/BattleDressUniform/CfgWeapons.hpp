@@ -560,11 +560,10 @@
 
 	class CFP_U_BattleDressUniform_tigerdesert_tan: Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_CFP_U_BattleDressUniform_ugandan.paa";
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_CFP_U_BattleDressUniform_tigerdesert_tan.paa";
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (Tiger Desert Tan Pants)";
-		// picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_AfghanWoodland.jpg";
 		author = "AuburnAlumni";
 
 		class ItemInfo: UniformItem

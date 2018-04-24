@@ -1652,6 +1652,6 @@
 	class CFP_FieldUniform_tiger_desert_SS : CFP_FieldUniform_multicam_SS
 	{
 		displayName = "Field Uniform SS (Tiger Desert)";
-		uniformClass = "CFP_U_FieldUniform_acr_desert_SS";
+		uniformClass = "CFP_U_FieldUniform_tiger_desert_SS";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_deserttiger.paa"};
 	};

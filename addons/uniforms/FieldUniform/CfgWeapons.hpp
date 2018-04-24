@@ -918,7 +918,7 @@
 
 	class CFP_U_FieldUniform_tiger_desert_SS: SP_0000_Standard_FieldUniform_NodUrban_SS
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_CFP_U_FieldUniform_acr_desert_SS.paa";
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_CFP_U_FieldUniform_tiger_desert_SS.paa";
 		displayName = "Field Uniform SS (Tiger Desert)";
 		author = "AuburnAlumni";
 		class ItemInfo: UniformItem
