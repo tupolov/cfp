@@ -4,6 +4,9 @@
 // Generated with ALiVE version 1.5.0.1711091
 //////////////////////////////////////////////////////////////////////////////////
 
+#define mag_xx(a,b) class _xx_##a {magazine = ##a; count = b;}
+#define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
+#define item_xx(a,b) class _xx_##a {name = a; count = b;}
 
 class CBA_Extended_EventHandlers_base;
 
@@ -206,6 +209,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_Rifleman_01 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_Rifleman_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -226,36 +230,37 @@ class CfgVehicles {
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_BattleDressUniform_DPMWoodland",{{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CUP_V_BAF_Osprey_Mk2_DPM_Empty",{{"CUP_30Rnd_556x45_Stanag",7,30}}},{},"SP_Mk7Helmet_Green1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
-	randomGearProbability = 100;
+    	randomGearProbability = 100;
 
-	// Kenyan Helmets
-		headgearList[] = {
-	"SP_Mk7Helmet_Green1", 0.2,
-	"SP_Mk7Helmet_Black1", 0.2,
-	"SP_Mk7Helmet_Black2", 0.2,
-	"SP_Mk7Helmet_Green2", 0.2,
-	"CUP_H_BAF_Helmet_3_DPM", 0.2,
-	"CUP_H_BAF_Helmet_1_DPM", 0.2,
-	"CUP_H_BAF_Helmet_2_DPM", 0.2,
-	"CUP_H_BAF_Helmet_4_DPM", 0.2
-		};
+    	// Kenyan Helmets
+    		headgearList[] = {
+    	"SP_Mk7Helmet_Green1", 0.2,
+    	"SP_Mk7Helmet_Black1", 0.2,
+    	"SP_Mk7Helmet_Black2", 0.2,
+    	"SP_Mk7Helmet_Green2", 0.2,
+    	"CUP_H_BAF_Helmet_3_DPM", 0.2,
+    	"CUP_H_BAF_Helmet_1_DPM", 0.2,
+    	"CUP_H_BAF_Helmet_2_DPM", 0.2,
+    	"CUP_H_BAF_Helmet_4_DPM", 0.2
+    		};
 
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+            class EventHandlers : EventHandlers {
+                class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_FLAG_KENYA'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                class ALiVE_orbatCreator {
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_FLAG_KENYA'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                };
+
             };
 
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_insignia = "USP_PATCH_FLAG_KENYA";
+            // custom attributes (do not delete)
+            ALiVE_orbatCreator_owned = 1;
+            ALiVE_orbatCreator_insignia = "USP_PATCH_FLAG_KENYA";
 
     };
 
     class CFP_B_KEARMY_Squad_Leader_01 : CFP_B_KEARMY_Rifleman_01 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_Squad_Leader_01.JPG;
 
         displayName = "Squad Leader";
 
@@ -271,6 +276,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_Machine_Gunner_01 : CFP_B_KEARMY_Rifleman_01 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_Machine_Gunner_01.JPG;
 
         displayName = "Machine Gunner";
 
@@ -286,6 +292,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_Rifleman_AT_01 : CFP_B_KEARMY_Rifleman_01 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_Rifleman_AT_01.JPG;
 
         displayName = "Rifleman AT";
 
@@ -301,6 +308,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_Medic_01 : CFP_B_KEARMY_Rifleman_01 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_Medic_01.JPG;
 
         displayName = "Medic";
         attendant = 1;
@@ -316,6 +324,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_Explosive_Specialist_01 : CFP_B_KEARMY_Rifleman_01 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_Explosive_Specialist_01.JPG;
 
         displayName = "Explosive Specialist";
         canDeactivateMines = 1;
@@ -331,6 +340,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_Sniper_01 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_Sniper_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -369,6 +379,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_Spotter_01 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_Spotter_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -407,6 +418,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_Grenadier_01 : CFP_B_KEARMY_Rifleman_01 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_Grenadier_01.JPG;
 
         displayName = "Grenadier";
 
@@ -422,6 +434,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_Asst_Machine_Gunner_01 : CFP_B_KEARMY_Rifleman_01 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_Asst_Machine_Gunner_01.JPG;
 
         displayName = "Asst. Machine Gunner";
 
@@ -437,6 +450,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_Rifleman_20th_PB_01 : O_recon_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_Rifleman_20th_PB_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -457,44 +471,45 @@ class CfgVehicles {
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_Mk16_STD","","","CUP_optic_Eotech533",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_DPMWoodland",{{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CUP_V_BAF_Osprey_Mk2_DPM_Soldier2",{}},{},"CUP_H_BAF_Helmet_3_DPM","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
-	randomGearProbability = 100;
+    	randomGearProbability = 100;
 
-	// Kenyan Helmets
-		headgearList[] = {
-	"SP_Mk7Helmet_Green1", 0.2,
-	"SP_Mk7Helmet_Black1", 0.2,
-	"SP_Mk7Helmet_Black2", 0.2,
-	"SP_Mk7Helmet_Green2", 0.2,
-	"CUP_H_BAF_Helmet_3_DPM", 0.2,
-	"CUP_H_BAF_Helmet_1_DPM", 0.2,
-	"CUP_H_BAF_Helmet_2_DPM", 0.2,
-	"CUP_H_BAF_Helmet_4_DPM", 0.2
-		};
+    	// Kenyan Helmets
+    		headgearList[] = {
+    	"SP_Mk7Helmet_Green1", 0.2,
+    	"SP_Mk7Helmet_Black1", 0.2,
+    	"SP_Mk7Helmet_Black2", 0.2,
+    	"SP_Mk7Helmet_Green2", 0.2,
+    	"CUP_H_BAF_Helmet_3_DPM", 0.2,
+    	"CUP_H_BAF_Helmet_1_DPM", 0.2,
+    	"CUP_H_BAF_Helmet_2_DPM", 0.2,
+    	"CUP_H_BAF_Helmet_4_DPM", 0.2
+    		};
 
-	// Kenyan Shemaghs
-		facewearList[] = {
-	"", 0.3,
-	"CUP_FR_NeckScarf", 0.3,
-	"CUP_FR_NeckScarf2", 0.3
-		};
+    	// Kenyan Shemaghs
+    		facewearList[] = {
+    	"", 0.3,
+    	"CUP_FR_NeckScarf", 0.3,
+    	"CUP_FR_NeckScarf2", 0.3
+    		};
 
 
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+            class EventHandlers : EventHandlers {
+                class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_FLAG_KENYA_SHIELD'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                class ALiVE_orbatCreator {
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_FLAG_KENYA_SHIELD'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                };
+
             };
 
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_insignia = "USP_PATCH_FLAG_KENYA_SHIELD";
+            // custom attributes (do not delete)
+            ALiVE_orbatCreator_owned = 1;
+            ALiVE_orbatCreator_insignia = "USP_PATCH_FLAG_KENYA_SHIELD";
 
     };
 
     class CFP_B_KEARMY_Squad_Leader_20th_PB_01 : CFP_B_KEARMY_Rifleman_20th_PB_01 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_Squad_Leader_20th_PB_01.JPG;
 
         displayName = "Squad Leader [20th PB]";
 
@@ -510,6 +525,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_Grenadier_20th_PB_01 : CFP_B_KEARMY_Rifleman_20th_PB_01 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_Grenadier_20th_PB_01.JPG;
 
         displayName = "Grenadier [20th PB]";
 
@@ -525,6 +541,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_Rifleman_AT_20th_PB_01 : CFP_B_KEARMY_Rifleman_20th_PB_01 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_Rifleman_AT_20th_PB_01.JPG;
 
         displayName = "Rifleman AT [20th PB]";
 
@@ -540,6 +557,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_Medic_20th_PB_01 : CFP_B_KEARMY_Rifleman_20th_PB_01 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_Medic_20th_PB_01.JPG;
 
         displayName = "Medic [20th PB]";
         attendant = 1;
@@ -555,6 +573,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_Explosive_Specialist_20th_PB_01 : CFP_B_KEARMY_Rifleman_20th_PB_01 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_Explosive_Specialist_20th_PB_01.JPG;
 
         displayName = "Explosive Specialist [20th PB]";
         canDeactivateMines = 1;
@@ -570,6 +589,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_Marksman_20th_PB_01 : CFP_B_KEARMY_Rifleman_20th_PB_01 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_Marksman_20th_PB_01.JPG;
 
         displayName = "Marksman [20th PB]";
 
@@ -585,6 +605,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_Rifleman_GSU_Recce_01 : O_recon_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_Rifleman_GSU_Recce_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -605,29 +626,30 @@ class CfgVehicles {
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_black","","","CUP_optic_HoloBlack",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"hgun_Pistol_01_F","","","",{"10Rnd_9x21_Mag",10},{},""},{"CFP_U_BattleDressUniform_dpmwoodlandgreen",{{"CUP_30Rnd_556x45_Stanag",3,30},{"10Rnd_9x21_Mag",3,10}}},{"V_PlateCarrier1_blk",{{"CUP_30Rnd_556x45_Stanag",6,30}}},{},"SP_Beret2_Red","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","SP_Kneepads_Black"}};
 
-	randomGearProbability = 100;
+    	randomGearProbability = 100;
 
-	// GSU Shades
-		facewearList[] = {
-	"SP_Shades_Black", 0.9
-		};
+    	// GSU Shades
+    		facewearList[] = {
+    	"SP_Shades_Black", 0.9
+    		};
 
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+            class EventHandlers : EventHandlers {
+                class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_FLAG_KENYA_NAME'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                class ALiVE_orbatCreator {
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_FLAG_KENYA_NAME'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                };
+
             };
 
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_insignia = "USP_PATCH_FLAG_KENYA_NAME";
+            // custom attributes (do not delete)
+            ALiVE_orbatCreator_owned = 1;
+            ALiVE_orbatCreator_insignia = "USP_PATCH_FLAG_KENYA_NAME";
 
     };
 
     class CFP_B_KEARMY_Grenadier_GSU_Recce_01 : CFP_B_KEARMY_Rifleman_GSU_Recce_01 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_Grenadier_GSU_Recce_01.JPG;
 
         displayName = "Grenadier [GSU Recce]";
 
@@ -643,6 +665,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_Squad_Leader_GSU_Recce_01 : CFP_B_KEARMY_Rifleman_GSU_Recce_01 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_Squad_Leader_GSU_Recce_01.JPG;
 
         displayName = "Squad Leader [GSU Recce]";
 
@@ -658,6 +681,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_Helicopter_Pilot_01 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_Helicopter_Pilot_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -678,29 +702,30 @@ class CfgVehicles {
         respawnMagazines[] = {"CUP_17Rnd_9x19_glock17"};
         ALiVE_orbatCreator_loadout[] = {{},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"SP_0000_Standard_FieldUniform_Green",{{"CUP_17Rnd_9x19_glock17",3,17}}},{"CUP_V_B_PilotVest",{}},{},"CUP_H_BAF_Helmet_Pilot","G_Aviator",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
-	randomGearProbability = 100;
+    	randomGearProbability = 100;
 
-	// Aviator glasses
-		facewearList[] = {
-	"G_Aviator", 0.9
-		};
+    	// Aviator glasses
+    		facewearList[] = {
+    	"G_Aviator", 0.9
+    		};
 
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+            class EventHandlers : EventHandlers {
+                class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_FLAG_KENYA_SHIELD'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                class ALiVE_orbatCreator {
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_FLAG_KENYA_SHIELD'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                };
+
             };
 
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_insignia = "USP_PATCH_FLAG_KENYA_SHIELD";
+            // custom attributes (do not delete)
+            ALiVE_orbatCreator_owned = 1;
+            ALiVE_orbatCreator_insignia = "USP_PATCH_FLAG_KENYA_SHIELD";
 
     };
 
     class CFP_B_KEARMY_Crew_01 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_Crew_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -739,6 +764,7 @@ class CfgVehicles {
     };
 
    class CFP_B_KEARMY_MD_500_Defender_01 : B_Heli_Light_01_dynamicLoadout_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_MD_500_Defender_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -769,6 +795,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_Landrover_M2_01 : CUP_B_LR_MG_CZ_W_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_Landrover_M2_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -800,6 +827,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_Harbin_ZB9_01 : O_Heli_Light_02_dynamicLoadout_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_Harbin_ZB9_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -830,6 +858,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_HMMWV_Unarmed_01 : CUP_B_HMMWV_Unarmed_USA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_HMMWV_Unarmed_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -855,6 +884,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_HMMWV_Transport_01 : CUP_B_HMMWV_Transport_USA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_HMMWV_Transport_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -880,6 +910,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_M1151_M2_01 : CUP_B_M1151_Deploy_WDL_USA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_M1151_M2_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -910,6 +941,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_M1151_Unarmed_01 : CUP_B_M1151_WDL_USA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_M1151_Unarmed_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -935,6 +967,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_M1152_ECV_01 : CUP_B_M1152_WDL_USA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_M1152_ECV_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -960,6 +993,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_RG_31_M2_01 : CUP_B_RG31_M2_OD_USMC_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_RG_31_M2_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -989,6 +1023,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_M1128_01 : CUP_B_M1128_MGS_Woodland_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_M1128_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1019,6 +1054,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_M1126_01 : CUP_B_M1126_ICV_M2_Woodland_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_M1126_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1028,7 +1064,8 @@ class CfgVehicles {
         crew = "CFP_B_KEARMY_Crew_01";
 
         class Turrets : Turrets {
-            class ObsTurret : ObsTurret { gunnerType = "CFP_B_KEARMY_Crew_01"; };
+            class ObsTurret : ObsTurret {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\ObsTurret.JPG; gunnerType = "CFP_B_KEARMY_Crew_01"; };
             class CommanderTurret : CommanderTurret { gunnerType = ""; };
         };
 
@@ -1049,6 +1086,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_Landrover_Transport_01 : CUP_B_LR_Transport_GB_W_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_Landrover_Transport_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1080,6 +1118,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_SA330_Puma_01 : CUP_I_SA330_Puma_HC2_RACS_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_SA330_Puma_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1112,6 +1151,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_T72_01 : CUP_O_T72_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_T72_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1148,6 +1188,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_Tatra_T810_Fuel_01 : CUP_B_T810_Refuel_CZ_WDL_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_Tatra_T810_Fuel_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1173,6 +1214,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_Tatra_T810_Ammo_01 : CUP_B_T810_Reammo_CZ_WDL_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_Tatra_T810_Ammo_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1198,6 +1240,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_Tatra_T810_Covered_01 : CUP_B_T810_Unarmed_CZ_WDL_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_Tatra_T810_Covered_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1223,6 +1266,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_Tatra_T810_Repair_01 : CUP_B_T810_Repair_CZ_WDL_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_Tatra_T810_Repair_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1248,6 +1292,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_Engineer_01 : CFP_B_KEARMY_Rifleman_01 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_Engineer_01.JPG;
 
         displayName = "Engineer";
         engineer = 1;
@@ -1267,6 +1312,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_Gunner_M2_01 : CFP_B_KEARMY_Rifleman_01 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_Gunner_M2_01.JPG;
 
         displayName = "Gunner [M2]";
 
@@ -1286,6 +1332,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_Gunner_Mortar_01 : CFP_B_KEARMY_Rifleman_01 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_Gunner_Mortar_01.JPG;
 
         displayName = "Gunner [Mortar]";
 
@@ -1305,6 +1352,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_Gunner_TOW_01 : CFP_B_KEARMY_Rifleman_01 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_Gunner_TOW_01.JPG;
 
         displayName = "Gunner [TOW]";
 
@@ -1324,6 +1372,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_Asst_Gunner_M2_01 : CFP_B_KEARMY_Rifleman_01 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_Asst_Gunner_M2_01.JPG;
 
         displayName = "Asst. Gunner [M2]";
 
@@ -1343,6 +1392,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_Asst_Gunner_Mortar_01 : CFP_B_KEARMY_Rifleman_01 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_Asst_Gunner_Mortar_01.JPG;
 
         displayName = "Asst. Gunner [Mortar]";
 
@@ -1362,6 +1412,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_Asst_Gunner_TOW_01 : CFP_B_KEARMY_Rifleman_01 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_Asst_Gunner_TOW_01.JPG;
 
         displayName = "Asst. Gunner [TOW]";
 
@@ -1381,6 +1432,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_M2_Machine_Gun_01 : CFP_B_USARMY_M2StaticMG_US_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_M2_Machine_Gun_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1410,6 +1462,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_M2_Minitripod_01 : CFP_B_USARMY_M2StaticMG_MiniTripod_US_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_M2_Minitripod_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1439,6 +1492,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_M252_81mm_Mortar_01 : CFP_B_USARMY_M252_US_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_M252_81mm_Mortar_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1468,6 +1522,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_D30_AT_01 : CUP_O_D30_AT_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_D30_AT_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1497,6 +1552,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_TOW_Tripod_01 : CFP_B_USARMY_TOW_TriPod_US_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_TOW_Tripod_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1526,6 +1582,7 @@ class CfgVehicles {
     };
 
     class CFP_B_KEARMY_ZU_23_01 : CUP_O_ZU23_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_ZU_23_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1552,6 +1609,236 @@ class CfgVehicles {
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
 
+    };
+
+    class CUP_USBasicAmmunitionBox; // CUP_USBasicAmmunitionBox
+
+    class CUP_USBasicWeaponsBox; // CUP_USBasicWeaponsBox
+
+    class CUP_USSpecialWeaponsBox; // CUP_USSpecialWeaponsBox
+
+    class CUP_USLaunchersBox; // CUP_USLaunchersBox
+
+    class CUP_USVehicleBox; // CUP_USVehicleBox
+
+    class CFP_B_KEARMY_AmmoBox : CUP_USBasicAmmunitionBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Kenyan Defense Force Ammo Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_556x45_Stanag,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_PG7V_M,50);
+            mag_xx(DemoCharge_Remote_Mag,50);
+            mag_xx(ATMine_Range_Mag,50);
+            mag_xx(APERSTripMine_Wire_Mag,50);
+            mag_xx(CUP_5Rnd_86x70_L115A1,50);
+            mag_xx(CUP_1Rnd_HE_M203,50);
+            mag_xx(CUP_1Rnd_HEDP_M203,50);
+            mag_xx(CUP_1Rnd_Smoke_M203,50);
+            mag_xx(Chemlight_red,50);
+            mag_xx(CUP_17Rnd_9x19_glock17,50);
+            mag_xx(CUP_PipeBomb_M,50);
+            mag_xx(10Rnd_9x21_Mag,50);
+        };
+        class TransportWeapons {
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_B_KEARMY_WeaponsBox : CUP_USBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Kenyan Defense Force Weapons Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_556x45_Stanag,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_5Rnd_86x70_L115A1,50);
+            mag_xx(CUP_1Rnd_HE_M203,50);
+            mag_xx(CUP_17Rnd_9x19_glock17,50);
+            mag_xx(10Rnd_9x21_Mag,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_M4A1,10);
+            weap_xx(CUP_lmg_PKM,10);
+            weap_xx(CUP_srifle_AWM_wdl,10);
+            weap_xx(CUP_arifle_M4A1_BUIS_GL,10);
+            weap_xx(CUP_arifle_Mk16_STD,10);
+            weap_xx(CUP_hgun_Glock17_blk,10);
+            weap_xx(CUP_arifle_Mk16_CQC_EGLM,10);
+            weap_xx(CUP_arifle_M4A1_black,10);
+            weap_xx(hgun_Pistol_01_F,10);
+        };
+        class TransportItems {
+            item_xx(CUP_optic_LeupoldM3LR,10);
+            item_xx(CUP_optic_HoloBlack,10);
+            item_xx(CUP_optic_Eotech533,10);
+            item_xx(CUP_optic_Elcan_reflex,10);
+        };
+    };
+    class CFP_B_KEARMY_LaunchersBox : CUP_USLaunchersBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Kenyan Defense Force Launchers Box;
+        class TransportMagazines {
+            mag_xx(CUP_PG7V_M,5);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_launch_RPG7V,5);
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_B_KEARMY_UniformBox : CUP_USBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Kenyan Defense Force Uniform Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(CFP_U_BattleDressUniform_DPMWoodland,15);
+            item_xx(CFP_U_FieldUniform_DPMWoodland,15);
+            item_xx(CFP_U_BattleDressUniform_dpmwoodlandgreen,15);
+            item_xx(SP_0000_Standard_FieldUniform_Green,15);
+        };
+    };
+    class CFP_B_KEARMY_SupportBox : CUP_USSpecialWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Kenyan Defense Force Support Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(CUP_V_BAF_Osprey_Mk2_DPM_Empty,10);
+            item_xx(SP_Mk7Helmet_Black2,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(Binocular,10);
+            item_xx(CUP_H_BAF_Helmet_3_DPM,10);
+            item_xx(CUP_H_BAF_Helmet_2_DPM,10);
+            item_xx(CFP_Carryall_DPMWoodland,10);
+            item_xx(CUP_B_RPGPack_Khaki,10);
+            item_xx(CUP_V_BAF_Osprey_Mk2_DPM_Medic,10);
+            item_xx(CUP_H_BAF_Helmet_4_DPM,10);
+            item_xx(CUP_B_Bergen_BAF,10);
+            item_xx(CUP_V_BAF_Osprey_Mk2_DPM_Sapper,10);
+            item_xx(CUP_V_BAF_Osprey_Mk2_DPM_Scout,10);
+            item_xx(H_Booniehat_oli,10);
+            item_xx(Rangefinder,10);
+            item_xx(CUP_V_BAF_Osprey_Mk2_DPM_Grenadier,10);
+            item_xx(CUP_V_BAF_Osprey_Mk2_DPM_Soldier2,10);
+            item_xx(SP_Mk7Helmet_Green1,10);
+            item_xx(ItemGPS,10);
+            item_xx(CUP_V_BAF_Osprey_Mk2_DPM_Officer,10);
+            item_xx(CUP_FR_NeckScarf,10);
+            item_xx(CUP_FR_NeckScarf2,10);
+            item_xx(CUP_V_BAF_Osprey_Mk2_DPM_Crewman,10);
+            item_xx(B_AssaultPack_khk,10);
+            item_xx(V_PlateCarrier1_blk,10);
+            item_xx(SP_Beret2_Red,10);
+            item_xx(SP_Shades_Black,10);
+            item_xx(SP_Kneepads_Black,10);
+            item_xx(CUP_V_B_PilotVest,10);
+            item_xx(CUP_H_BAF_Helmet_Pilot,10);
+            item_xx(G_Aviator,10);
+            item_xx(CUP_V_O_TK_CrewBelt,10);
+            item_xx(SP_TSH04Helmet_Black,10);
+            item_xx(SP_Mk7Helmet_Green2,10);
+            item_xx(CUP_B_M2_Tripod_Bag,10);
+            item_xx(CUP_H_BAF_Helmet_1_DPM,10);
+            item_xx(CUP_B_M252_Bipod_Bag,10);
+            item_xx(CUP_B_TOW_Tripod_Bag,10);
+            item_xx(CUP_B_M2_Gun_Bag,10);
+            item_xx(CUP_B_M252_Gun_Bag,10);
+            item_xx(CUP_B_Tow_Gun_Bag,10);
+        };
+    };
+    class CFP_B_KEARMY_SupplyBox : CUP_USVehicleBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Kenyan Defense Force Supply Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_556x45_Stanag,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_PG7V_M,50);
+            mag_xx(DemoCharge_Remote_Mag,50);
+            mag_xx(ATMine_Range_Mag,50);
+            mag_xx(APERSTripMine_Wire_Mag,50);
+            mag_xx(CUP_5Rnd_86x70_L115A1,50);
+            mag_xx(CUP_1Rnd_HE_M203,50);
+            mag_xx(CUP_1Rnd_HEDP_M203,50);
+            mag_xx(CUP_1Rnd_Smoke_M203,50);
+            mag_xx(Chemlight_red,50);
+            mag_xx(CUP_17Rnd_9x19_glock17,50);
+            mag_xx(CUP_PipeBomb_M,50);
+            mag_xx(10Rnd_9x21_Mag,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_M4A1,10);
+            weap_xx(CUP_lmg_PKM,10);
+            weap_xx(CUP_srifle_AWM_wdl,10);
+            weap_xx(CUP_arifle_M4A1_BUIS_GL,10);
+            weap_xx(CUP_arifle_Mk16_STD,10);
+            weap_xx(CUP_hgun_Glock17_blk,10);
+            weap_xx(CUP_arifle_Mk16_CQC_EGLM,10);
+            weap_xx(CUP_arifle_M4A1_black,10);
+            weap_xx(hgun_Pistol_01_F,10);
+            weap_xx(CUP_launch_RPG7V,10);
+        };
+        class TransportItems {
+            item_xx(CUP_optic_LeupoldM3LR,10);
+            item_xx(CUP_optic_HoloBlack,10);
+            item_xx(CUP_optic_Eotech533,10);
+            item_xx(CUP_optic_Elcan_reflex,10);
+            item_xx(CUP_V_BAF_Osprey_Mk2_DPM_Empty,10);
+            item_xx(SP_Mk7Helmet_Black2,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(Binocular,10);
+            item_xx(CUP_H_BAF_Helmet_3_DPM,10);
+            item_xx(CUP_H_BAF_Helmet_2_DPM,10);
+            item_xx(CFP_Carryall_DPMWoodland,10);
+            item_xx(CUP_B_RPGPack_Khaki,10);
+            item_xx(CUP_V_BAF_Osprey_Mk2_DPM_Medic,10);
+            item_xx(CUP_H_BAF_Helmet_4_DPM,10);
+            item_xx(CUP_B_Bergen_BAF,10);
+            item_xx(CUP_V_BAF_Osprey_Mk2_DPM_Sapper,10);
+            item_xx(CUP_V_BAF_Osprey_Mk2_DPM_Scout,10);
+            item_xx(H_Booniehat_oli,10);
+            item_xx(Rangefinder,10);
+            item_xx(CUP_V_BAF_Osprey_Mk2_DPM_Grenadier,10);
+            item_xx(CUP_V_BAF_Osprey_Mk2_DPM_Soldier2,10);
+            item_xx(SP_Mk7Helmet_Green1,10);
+            item_xx(ItemGPS,10);
+            item_xx(CUP_V_BAF_Osprey_Mk2_DPM_Officer,10);
+            item_xx(CUP_FR_NeckScarf,10);
+            item_xx(CUP_FR_NeckScarf2,10);
+            item_xx(CUP_V_BAF_Osprey_Mk2_DPM_Crewman,10);
+            item_xx(B_AssaultPack_khk,10);
+            item_xx(V_PlateCarrier1_blk,10);
+            item_xx(SP_Beret2_Red,10);
+            item_xx(SP_Shades_Black,10);
+            item_xx(SP_Kneepads_Black,10);
+            item_xx(CUP_V_B_PilotVest,10);
+            item_xx(CUP_H_BAF_Helmet_Pilot,10);
+            item_xx(G_Aviator,10);
+            item_xx(CUP_V_O_TK_CrewBelt,10);
+            item_xx(SP_TSH04Helmet_Black,10);
+            item_xx(SP_Mk7Helmet_Green2,10);
+            item_xx(CUP_B_M2_Tripod_Bag,10);
+            item_xx(CUP_H_BAF_Helmet_1_DPM,10);
+            item_xx(CUP_B_M252_Bipod_Bag,10);
+            item_xx(CUP_B_TOW_Tripod_Bag,10);
+            item_xx(CUP_B_M2_Gun_Bag,10);
+            item_xx(CUP_B_M252_Gun_Bag,10);
+            item_xx(CUP_B_Tow_Gun_Bag,10);
+            item_xx(CFP_U_BattleDressUniform_DPMWoodland,10);
+            item_xx(CFP_U_FieldUniform_DPMWoodland,10);
+            item_xx(CFP_U_BattleDressUniform_dpmwoodlandgreen,10);
+            item_xx(SP_0000_Standard_FieldUniform_Green,10);
+        };
     };
 
 };
