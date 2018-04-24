@@ -28,9 +28,9 @@ class CfgVehicles {
         };
     };
 
-    class CUP_O_Mi17_TK_OCImport_02;
-    class CUP_O_Mi17_TK_OCImport_02_OCimport_01 : CUP_O_Mi17_TK_OCImport_02 { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_Mi17_TK_OCImport_02_OCimport_02 : CUP_O_Mi17_TK_OCImport_02_OCimport_01 {
+    class CUP_O_Mi17_TK;
+    class CUP_O_Mi17_TK_OCimport_01 : CUP_O_Mi17_TK { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_Mi17_TK_OCimport_02 : CUP_O_Mi17_TK_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
@@ -929,7 +929,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_UGARMY_Mi_17_01 : CUP_O_Mi17_TK_OCImport_02_OCimport_02 {
+    class CFP_B_UGARMY_Mi_17_01 : CUP_O_Mi17_TK_OCimport_02 {
         editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Mi_17_01.JPG;
         author = "Drew";
         scope = 2;
