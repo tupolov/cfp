@@ -9,7 +9,7 @@
 		"CFP_B_NAARMY_Ural_01",
 		"CFP_B_NAARMY_Ural_Ammo_01",
 		"CFP_B_NAARMY_Ural_Refuel_01",
-		"CFP_B_NAARMY_Ural_Repair_01",
+		"CFP_B_NAARMY_Ural_Repair_01"
 	]
 ] call ALIVE_fnc_hashSet;
 
