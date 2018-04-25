@@ -12,7 +12,7 @@
     <a href="https://github.com/tupolov/cfp/releases">
         <img src="https://img.shields.io/github/downloads/tupolov/CFP/total.svg?style=flat-square&label=Downloads" alt="CFP Downloads">
     </a>
-    <a href="TBC">
+    <a href="https://forums.bohemia.net/forums/topic/216320-community-factions-project/">
         <img src="https://img.shields.io/badge/BIF-Thread-lightgrey.svg?style=flat-square" alt="BIF Thread">
     </a>
 </p>
