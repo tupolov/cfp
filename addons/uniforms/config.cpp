@@ -274,7 +274,11 @@ class CfgPatches
 			"CFP_Crye_Tiger_Desert",
 			"CFP_Crye_Tiger_Desert_SS", 
 			"CFP_Crye_ATacsAU",
-			"CFP_Crye_ATacsAU_SS"
+			"CFP_Crye_ATacsAU_SS",
+			"CFP_Crye_Multicamplain",
+			"CFP_Crye_Multicamplain_SS",
+			"CFP_Crye_Multicam2plain",
+			"CFP_Crye_Multicam2plain_SS"
 		};
 		weapons[] = {
 			"cfp_u_battledressuniform_3colordesert",
@@ -558,7 +562,11 @@ class CfgPatches
 			"CFP_U_Crye_Tiger_Desert",
 			"CFP_U_Crye_Tiger_Desert_SS",
 			"CFP_U_Crye_ATacsAU",
-			"CFP_U_Crye_ATacsAU_SS"
+			"CFP_U_Crye_ATacsAU_SS",
+			"CFP_U_Crye_Multicamplain",
+			"CFP_U_Crye_Multicamplain_SS",
+			"CFP_U_Crye_Multicam2plain",
+			"CFP_U_Crye_Multicam2plain_SS"
 		};
         author = MODULE_AUTHOR;
         authors[] = {"SP Craig", "Tupolov","AuburnAlumni"};
