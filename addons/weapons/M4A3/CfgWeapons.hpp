@@ -1,6 +1,6 @@
 
-	class CUP_arifle_M4A1_BUIS_Base;
-	class CFP_M4A3_Black: CUP_arifle_M4A1_BUIS_Base
+	class CUP_arifle_M4A3_desert;
+	class CFP_M4A3_Black: CUP_arifle_M4A3_desert
 	{
 		author = MODULE_AUTHOR;
 		scope = 2;

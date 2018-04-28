@@ -9,7 +9,11 @@ class CfgPatches
 			"CFP_Tavor_Black",
             		"CFP_Tavor_Black_Long",
            		"CFP_Tavor_Black_GL",
-			"CFP_M4A3_Black"
+			"CFP_M4A3_Black",
+			"CFP_AK12_Woodland",
+			"CFP_AK12_GL_Woodland",
+			"CFP_AK12_Desert",
+			"CFP_AK12_GL_Desert"
 		};
         author = MODULE_AUTHOR;
         authors[] = {"AccuracyThruVolume", "Tupolov", "AuburnAlumni"};
