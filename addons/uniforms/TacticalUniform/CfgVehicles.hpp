@@ -1162,6 +1162,7 @@
 		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\Crye2.paa"};
+
 		hiddenSelections[] = {"Camo", "insignia"};
 		class Wounds
 		{
@@ -1636,6 +1637,8 @@
 
 		};
 	};
+
+
 
 
 

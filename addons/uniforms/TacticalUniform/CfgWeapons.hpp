@@ -649,8 +649,8 @@
 		{
 			uniformModel = "-";
 			uniformClass = "CFP_Crye_Multicam";
-			containerClass="Supply60";
-			mass=80;
+			containerClass="Supply70";
+			mass=35;
 
 		};
 	};
@@ -668,7 +668,7 @@
 		{
 			uniformModel = "-";
 			uniformClass = "CFP_Crye_Multicam_SS";
-			containerClass="Supply60";
+			containerClass="Supply70";
 			mass=80;
 
 		};
@@ -978,3 +978,4 @@
 
 		};
 	};
+
