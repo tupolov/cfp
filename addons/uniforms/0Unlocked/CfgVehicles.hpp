@@ -270,3 +270,38 @@
 		scope = 1;
 	};
 
+	class B_G_Soldier_AR_F: I_G_Soldier_AR_F
+	{
+		modelsides[] = {3,2,1,0};
+	};
+
+	class B_G_Medic_F: I_G_medic_F
+	{
+		modelsides[] = {3,2,1,0};
+	};
+
+	class I_C_Soldier_base_F;
+	class I_C_Soldier_Para_1_F: I_C_Soldier_base_F
+	{
+		modelsides[] = {3,2,1,0};
+	};
+
+	// CUP
+	class CUP_I_PMC_Soldier_19;
+	class CUP_I_PMC_Soldier_22: CUP_I_PMC_Soldier_19
+	{
+		modelsides[] = {3,2,1,0};
+	};
+
+	class CUP_I_PMC_Soldier_01;
+	class CUP_I_PMC_Soldier_03: CUP_I_PMC_Soldier_01
+	{
+		modelsides[] = {3,2,1,0};
+	};
+
+	class CUP_I_PMC_Soldier_13;
+	class CUP_I_PMC_Soldier_15: CUP_I_PMC_Soldier_13
+	{
+		modelsides[] = {3,2,1,0};
+	};
+
