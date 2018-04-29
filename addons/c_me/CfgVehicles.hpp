@@ -103,6 +103,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Civilian";
         side = 3;
+        genericNames = "TakistaniMen";
         faction = "CFP_C_ME";
 
         identityTypes[] = { "Head_TK" , "LanguagePER_F" , "G_IRAN_default" };
@@ -153,6 +154,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Civilian";
         side = 3;
+        genericNames = "TakistaniMen";
         faction = "CFP_C_ME";
 
         identityTypes[] = { "Head_TK" , "LanguagePER_F" , "G_IRAN_default" };
