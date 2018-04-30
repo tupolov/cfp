@@ -59,10 +59,13 @@ if (local _unit) then {
 
 		// Add FAK and medikit if medic
 		if (side _unit != civilian) then {
-			[_unit] spawn {(_this select 0) addItem "FirstAidKit"};
-			if (_unit getUnitTrait "medic") then {
+			if !("FirstAidKit" in items _unit) then {
 				[_unit] spawn {(_this select 0) addItem "FirstAidKit"};
-				[_unit] spawn {(_this select 0) addItem "Medikit"};
+			};
+			if (_unit getUnitTrait "medic") then {
+				if !("Medikit" in items _unit) then {
+					[_unit] spawn {(_this select 0) addItem "Medikit"};
+				};
 			};
 		};
 	};
