@@ -24,10 +24,10 @@ Author:
 Tupolov
 
 Peer reviewed:
-nil
+Jmaster
 ----------------------------------------------------------------------------
 */
-
+waitUntil {!(isNull _unit)}; //checks if unit is initialized
 #define GEAR_CATEGORIES ["uniform","headgear","facewear","nvg","vest","backpack","speaker","insignia"]
 
 #define WEAPON_CATEGORIES ["rifle", "handgun", "launcher", "grenade", "explosive"]
