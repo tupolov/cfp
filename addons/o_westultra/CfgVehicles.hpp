@@ -120,10 +120,13 @@ class CfgVehicles {
         displayName = "Rifleman";
         side = 0;
         faction = "CFP_O_WestUltra";
-
+        genericNames = "NATOMen";
         identityTypes[] = {"Head_Euro","CUP_D_Language_RU","G_GUERIL_default"};
 
         uniformClass = "U_BG_Guerilla2_1";
+
+        items[] = {"FirstAidKit"};
+        respawnItems[] = {"FirstAidKit"};
 
         linkedItems[] = {"SP_Modular1_Black","CUP_H_PMC_Cap_Back_Tan","ItemMap","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"SP_Modular1_Black","CUP_H_PMC_Cap_Back_Tan","ItemMap","ItemCompass","ItemWatch"};
@@ -206,7 +209,7 @@ class CfgVehicles {
             {"CUP_hgun_MicroUzi",{"CUP_30Rnd_9x19_UZI",3}}, 0.2
         };
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A3_desert","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_tan","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"U_BG_Guerilla2_1",{{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_17Rnd_9x19_glock17",1,17}}},{"SP_Modular1_Black",{}},{},"CUP_H_PMC_Cap_Back_Tan","",{},{"ItemMap","","","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A3_desert","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_tan","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"U_BG_Guerilla2_1",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_17Rnd_9x19_glock17",1,17}}},{"SP_Modular1_Black",{}},{},"CUP_H_PMC_Cap_Back_Tan","",{},{"ItemMap","","","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -333,6 +336,9 @@ class CfgVehicles {
 
         uniformClass = "U_I_C_Soldier_Para_1_F";
 
+        items[] = {"FirstAidKit","Medikit"};
+        respawnItems[] = {"FirstAidKit","Medikit"};
+
         linkedItems[] = {"CFP_RAV_operator_M81","H_Cap_usblack","ItemMap","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CFP_RAV_operator_M81","H_Cap_usblack","ItemMap","ItemCompass","ItemWatch"};
 
@@ -342,7 +348,7 @@ class CfgVehicles {
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_camo","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_tan","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"U_I_C_Soldier_Para_1_F",{{"CUP_17Rnd_9x19_glock17",1,17},{"CUP_30Rnd_556x45_Stanag",2,30}}},{"CFP_RAV_operator_M81",{{"CUP_30Rnd_556x45_Stanag",1,30}}},{},"H_Cap_usblack","",{},{"ItemMap","","","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_camo","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_tan","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"U_I_C_Soldier_Para_1_F",{{"CUP_17Rnd_9x19_glock17",1,17},{"CUP_30Rnd_556x45_Stanag",2,30}}},{"CFP_RAV_operator_M81",{{"CUP_30Rnd_556x45_Stanag",1,30}}},{"CUP_B_AlicePack_Bedroll",{{"Medikit",1}}},"H_Cap_usblack","",{},{"ItemMap","","","ItemCompass","ItemWatch",""}};
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
@@ -544,7 +550,7 @@ class CfgVehicles {
         displayName = "Car";
         side = 0;
         faction = "CFP_O_WestUltra";
-        crew = "CFP_O_WestUltra_Rifleman_01ss";
+        crew = "CFP_O_WestUltra_Rifleman_01";
 
 
         class EventHandlers : EventHandlers {
