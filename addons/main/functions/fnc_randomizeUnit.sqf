@@ -56,6 +56,15 @@ if (local _unit) then {
 		{
 			_unit addMagazine _x;
 		} foreach _magazines;
+
+		// Add FAK and medikit if medic
+		if (side _unit != civilian) then {
+			[_unit] spawn {(_this select 0) addItem "FirstAidKit"};
+			if (_unit getUnitTrait "medic") then {
+				[_unit] spawn {(_this select 0) addItem "FirstAidKit"};
+				[_unit] spawn {(_this select 0) addItem "Medikit"};
+			};
+		};
 	};
 
 	// Check to see if we randomize Weapon
