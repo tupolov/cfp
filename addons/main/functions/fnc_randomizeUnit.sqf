@@ -27,13 +27,13 @@ Peer reviewed:
 Jmaster
 ----------------------------------------------------------------------------
 */
-waitUntil {!(isNull _unit)}; //checks if unit is initialized
+
 #define GEAR_CATEGORIES ["uniform","headgear","facewear","nvg","vest","backpack","speaker","insignia"]
 
 #define WEAPON_CATEGORIES ["rifle", "handgun", "launcher", "grenade", "explosive"]
 
 params ["_unit"];
-
+waitUntil {!(isNull _unit)}; //checks if unit is initialized
 if ( _unit getVariable ["NoRandom",false] || _unit getVariable ["CFP_DisableRandom",false]) exitWith {};
 
 if (local _unit) then {
