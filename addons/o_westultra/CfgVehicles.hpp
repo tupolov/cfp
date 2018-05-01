@@ -152,10 +152,15 @@ class CfgVehicles {
 
         // Basic Rigs
         vestList[] = {
-            "SP_Modular1_Black", 0.2,
-            "CFP_FAPC_Breacher_Multicam", 0.2,
-            "CFP_FAPC_Operator_M81", 0.2,
-            "CFP_AK_VEST_Tan", 0.2
+            "SP_Modular1_Black", 0.3,
+            "CFP_FAPC_Breacher_Multicam", 0.3,
+            "CFP_FAPC_Operator_M81", 0.23,
+            "CFP_AK_VEST_Tan", 0.3,
+            "CUP_V_OI_Taki_Jacket1_03", 0.1,
+            "CUP_V_OI_Taki_Jacket1_04", 0.1,
+            "CUP_V_OI_Taki_Jacket1_05", 0.1,
+            "CUP_V_OI_Taki_Jacket1_06", 0.1,
+            "CFP_TakJacket_Woodland", 0.1
         };
 
         // Beards / mouth scarf / scarf / sunglasses
@@ -333,7 +338,8 @@ class CfgVehicles {
         faction = "CFP_O_WestUltra";
         attendant = 1;
         identityTypes[] = {"Head_Greek","CUP_D_Language_RU","G_GUERIL_default"};
-
+        icon = "iconManMedic";
+        picture = "pictureHeal";
         uniformClass = "U_I_C_Soldier_Para_1_F";
 
         items[] = {"FirstAidKit","Medikit"};
