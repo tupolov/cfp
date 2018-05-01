@@ -326,6 +326,7 @@ class CfgPatches
 			"CFP_OPS2017_Helmet_AOR1",
 			"CFP_OPS2017_Helmet_ATACS",
 			"CFP_OPS2017_Helmet_ATACSAU",
+			"CFP_OPS2017_Helmet_Tropentarn",
 			"CFP_Lungee_Open_Tan",
 			"CFP_Lungee_Open_LightOlive",
 			"CFP_Lungee_Open_Grey",

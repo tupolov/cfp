@@ -81,6 +81,7 @@ class CfgPatches
 			"CFP_PlateCarrier1_Woodland",
 			"CFP_PlateCarrier1_Multicam",
 			"CFP_PlateCarrier1_M81",
+			"CFP_PlateCarrier2_Tropentarn",
 			"SP_Tactical1_Black",
 			"SP_Tactical1_Blue",
 			"SP_Tactical1_Green",

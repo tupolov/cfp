@@ -636,6 +636,21 @@ class CfgVehicles
         };
     };
 
+    class MRAP_03_base_F;
+    class I_MRAP_03_F : MRAP_03_base_F
+    {
+        class textureSources
+        {
+            class GermanDesert
+            {
+                displayName = "German Desert Camo";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Fennek\mrap_03_germandesert"};
+                factions[] = {};
+            };
+        };
+    };
+
     class CUP_Datsun_Base;
     class CUP_Datsun_civil_Base : CUP_Datsun_Base
     {

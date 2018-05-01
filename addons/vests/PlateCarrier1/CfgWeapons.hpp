@@ -450,6 +450,55 @@ class CfgVehicleClasses
 		};
 	};
 
+	class CFP_PlateCarrier2_Tropentarn: V_PlateCarrier1_rgr
+{
+    picture = "\x\cfp\addons\vests\data\ui\icon_SP_PlateCarrier1_NodUrban.paa";
+		scope = 2;
+		displayName = "Plate Carrier 2 (Tropentarn)";
+		// picture = "\x\cfp\addons\vests\PlateCarrier1\ui\NodUrban.jpg";
+		model = "\A3\Characters_F\BLUFOR\equip_b_vest01.p3d";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\PlateCarrier1\Tropentarn.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "AuburnAlumni";
+
+
+
+		class ItemInfo: VestItem
+		{
+			uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest01.p3d";
+			containerClass = "Supply120";
+			hiddenSelections[] = {"camo"};
+			mass = 200;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					hitpointName = "HitChest";
+					armor = 20;
+					passThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					hitpointName = "HitDiaphragm";
+					armor = 20;
+					passThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 20;
+					passThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.2;
+
+				};
+			};
+		};
+	};
+
 	class CFP_PlateCarrier1_Flecktarn: V_PlateCarrier1_rgr
 {
     picture = "\x\cfp\addons\vests\data\ui\icon_SP_PlateCarrier1_NodUrban.paa";

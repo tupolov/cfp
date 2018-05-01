@@ -1,7 +1,8 @@
 class CfgPatches {
     class CUP_B_GER {
         units[] = {
-            "CFP_B_DEARMY_Pilot_DES_01"
+            "CFP_B_DEARMY_Pilot_DES_01",
+            "CFP_B_DEARMY_Fennek_01"
         };
         weapons[] = {};
         requiredAddons[] = {
@@ -11,7 +12,9 @@ class CfgPatches {
             "CUP_AirVehicles_CH53E",
             "CUP_WheeledVehicles_Dingo",
             "CFP_Main",
-            "CFP_Uniforms"
+            "CFP_Uniforms",
+            "A3_Sounds_F",
+            "A3_Soft_F_Beta_MRAP_03"
         };
       author = MODULE_AUTHOR;
       authors[] = {"CUP", "Tupolov"};

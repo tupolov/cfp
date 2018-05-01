@@ -23,6 +23,15 @@ class CfgVehicles {
     class CUP_B_US_Pilot_OCimport_01 : CUP_B_US_Pilot { scope = 0; class EventHandlers; };
     class CUP_B_US_Pilot_OCimport_02 : CUP_B_US_Pilot_OCimport_01 { class EventHandlers; };
 
+    class I_MRAP_03_F;
+    class I_MRAP_03_F_OCimport_01 : I_MRAP_03_F { scope = 0; class EventHandlers; class Turrets; };
+    class I_MRAP_03_F_OCimport_02 : I_MRAP_03_F_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class CommanderTurret;
+        };
+    };
+
     class CFP_B_DEARMY_Pilot_DES_01 : CUP_B_US_Pilot_OCimport_02 {
         author = "Tupolov";
         scope = 2;
@@ -54,6 +63,36 @@ class CfgVehicles {
         };
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_B_DEARMY_Fennek_01 : I_MRAP_03_F_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Fennek";
+        side = 1;
+        faction = "CUP_B_GER";
+        crew = "CUP_B_GER_Soldier";
+
+        class Turrets : Turrets {
+            class CommanderTurret : CommanderTurret { gunnerType = "CUP_B_GER_Soldier"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\Fennek\mrap_03_germandesert'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "GermanDesert";
 
     };
 
