@@ -1229,6 +1229,8 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "Corpsman";
             attendant = 1;
+        icon = "iconManMedic";
+        picture = "pictureHeal";
             side = 1;
             faction = "CFP_B_USMC_DES";
 
@@ -1788,6 +1790,8 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "Corpsman";
             attendant = 1;
+        icon = "iconManMedic";
+        picture = "pictureHeal";
             side = 1;
             faction = "CFP_B_USMC_DES";
 

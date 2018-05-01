@@ -634,6 +634,8 @@ class CfgVehicles {
         genericNames = "Afromen";
         faction = "CFP_B_UGARMY";
         attendant = 1;
+        icon = "iconManMedic";
+        picture = "pictureHeal";
         identityTypes[] = {"Head_African","LanguageENGFRE_F","G_IRAN_default"};
 
         uniformClass = "CFP_U_BattleDressUniform_M81";
@@ -845,6 +847,8 @@ class CfgVehicles {
 
         displayName = "Medic";
         attendant = 1;
+        icon = "iconManMedic";
+        picture = "pictureHeal";
         linkedItems[] = {"CFP_Tactical1_EDRL","CFP_Basic_Helmet_Black","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CFP_Tactical1_EDRL","CFP_Basic_Helmet_Black","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         weapons[] = {"CUP_arifle_AK47"};
@@ -1568,6 +1572,8 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_UGARMY";
         attendant = 1;
+        icon = "iconManMedic";
+        picture = "pictureHeal";
         genericNames = "Afromen";
         identityTypes[] = {"Head_African","LanguageENGFRE_F","G_IRAN_default"};
 

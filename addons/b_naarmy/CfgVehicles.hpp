@@ -414,6 +414,8 @@ class CfgVehicles {
 
         displayName = "Medic";
         attendant = 1;
+        icon = "iconManMedic";
+        picture = "pictureHeal";
         backpack = "CFP_AssaultPack_PolygonDesert";
         weapons[] = {"CUP_arifle_AKM","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_AKM","Throw","Put"};
@@ -1219,6 +1221,8 @@ class CfgVehicles {
 
         displayName = "Medic [SF]";
         attendant = 1;
+        icon = "iconManMedic";
+        picture = "pictureHeal";
         backpack = "CUP_B_USPack_Black";
         weapons[] = {"CUP_arifle_AKM","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_AKM","Throw","Put"};

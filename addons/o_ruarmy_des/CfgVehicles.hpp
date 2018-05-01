@@ -3457,6 +3457,8 @@ class CfgVehicles {
         editorSubCategory = "CFP_EdSubcat_Personnel_DesertEMR";
         displayName = "Medic";
         attendant = 1;
+        icon = "iconManMedic";
+        picture = "pictureHeal";
         side = 0;
         faction = "CFP_O_RUARMY_DES";
 
@@ -4820,6 +4822,8 @@ class CfgVehicles {
         editorSubCategory = "CFP_EdSubcat_Personnel_VDVDesertEMR";
         displayName = "Medic";
         attendant = 1;
+        icon = "iconManMedic";
+        picture = "pictureHeal";
         side = 0;
         faction = "CFP_O_RUARMY_DES";
 

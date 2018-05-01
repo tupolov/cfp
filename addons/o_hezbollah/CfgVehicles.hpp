@@ -286,6 +286,8 @@ class CfgVehicles {
 
         displayName = "Paramilitary [Medic]";
         attendant = 1;
+        icon = "iconManMedic";
+        picture = "pictureHeal";
         backpack = "B_AssaultPack_rgr";
         weapons[] = {"CUP_arifle_AKM","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_AKM","Throw","Put"};
@@ -496,6 +498,8 @@ class CfgVehicles {
 
         displayName = "Militia [Medic]";
         attendant = 1;
+        icon = "iconManMedic";
+        picture = "pictureHeal";
         backpack = "CFP_AssaultPack_Woodland";
         weapons[] = {"CUP_arifle_AKM","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_AKM","Throw","Put"};
@@ -705,6 +709,8 @@ class CfgVehicles {
 
         displayName = "Medic [SF]";
         attendant = 1;
+        icon = "iconManMedic";
+        picture = "pictureHeal";
         backpack = "CFP_Kitbag_M81";
         weapons[] = {"CUP_arifle_AKS","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_AKS","Throw","Put"};

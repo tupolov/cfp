@@ -418,6 +418,8 @@ class CfgVehicles
         displayName = "IS Medic";
         icon = "iconManMedic";
         attendant = 1;
+        icon = "iconManMedic";
+        picture = "pictureHeal";
         backpack = "B_AssaultPack_rgr_Medic";
         randomGearProbability = 60;
         linkedItems[] = {"V_Chestrig_blk","ItemRadio"};

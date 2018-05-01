@@ -156,6 +156,8 @@ class CfgVehicles
         displayName = "Peshmerga Medic";
         icon = "iconManMedic";
         attendant = 1;
+        icon = "iconManMedic";
+        picture = "pictureHeal";
         backpack = "B_AssaultPack_rgr_Medic";
         headgearProbability = 15;
         beardProbability = 50;

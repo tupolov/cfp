@@ -155,6 +155,8 @@ class CfgVehicles
 		displayName = "IA Medic";
 		icon = "iconManMedic";
 		attendant = 1;
+        icon = "iconManMedic";
+        picture = "pictureHeal";
 		backpack = "B_AssaultPack_rgr_Medic";
 		headgearProbability = 40;
 		randomWeaponProbability = 25;

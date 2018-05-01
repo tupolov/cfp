@@ -261,6 +261,8 @@ class CfgVehicles {
 
         displayName = "Medic ";
         attendant = 1;
+        icon = "iconManMedic";
+        picture = "pictureHeal";
         backpack = "B_AssaultPack_rgr";
         weapons[] = {"CUP_arifle_M16A4_Base","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_M16A4_Base","Throw","Put"};
@@ -1270,6 +1272,8 @@ class CfgVehicles {
 
         displayName = "Medic [SF]";
         attendant = 1;
+        icon = "iconManMedic";
+        picture = "pictureHeal";
 
         weapons[] = {"arifle_SPAR_01_blk_F","CUP_hgun_Glock17_blk","Throw","Put"};
         respawnWeapons[] = {"arifle_SPAR_01_blk_F","CUP_hgun_Glock17_blk","Throw","Put"};
@@ -1389,6 +1393,8 @@ class CfgVehicles {
 
         displayName = "Medic Light [SF]";
         attendant = 1;
+        icon = "iconManMedic";
+        picture = "pictureHeal";
 
         weapons[] = {"arifle_SPAR_01_blk_F","CUP_hgun_Glock17_blk","Throw","Put"};
         respawnWeapons[] = {"arifle_SPAR_01_blk_F","CUP_hgun_Glock17_blk","Throw","Put"};

@@ -167,6 +167,8 @@ class CfgVehicles
 		displayName = "SAA Medic";
 		icon = "iconManMedic";
 		attendant = 1;
+        icon = "iconManMedic";
+        picture = "pictureHeal";
 		backpack = "CUP_B_AlicePack_Khaki";
 		headgearProbability = 60;
 		linkedItems[] = {"SAA_uniform","CUP_V_CDF_6B3_2_FST","ItemRadio"};

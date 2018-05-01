@@ -314,6 +314,8 @@ class CfgVehicles {
 
         displayName = "Medic";
         attendant = 1;
+        icon = "iconManMedic";
+        picture = "pictureHeal";
         backpack = "B_FieldPack_oli";
         weapons[] = {"CUP_arifle_AK47","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_AK47","Throw","Put"};

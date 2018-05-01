@@ -312,6 +312,8 @@ class CfgVehicles {
 
         displayName = "Medic";
         attendant = 1;
+        icon = "iconManMedic";
+        picture = "pictureHeal";
         backpack = "CUP_B_Bergen_BAF";
         weapons[] = {"CUP_arifle_M4A1","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_M4A1","Throw","Put"};
@@ -561,6 +563,8 @@ class CfgVehicles {
 
         displayName = "Medic [20th PB]";
         attendant = 1;
+        icon = "iconManMedic";
+        picture = "pictureHeal";
         backpack = "B_AssaultPack_khk";
         weapons[] = {"CUP_arifle_Mk16_STD","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_Mk16_STD","Throw","Put"};

@@ -586,6 +586,8 @@ class CfgVehicles {
 
         displayName = "Medic [Lee Enfield]";
         attendant = 1;
+        icon = "iconManMedic";
+        picture = "pictureHeal";
         backpack = "CUP_B_TK_AssaultPack_Medic";
         weapons[] = {"CUP_srifle_LeeEnfield","Throw","Put"};
         respawnWeapons[] = {"CUP_srifle_LeeEnfield","Throw","Put"};
@@ -602,6 +604,8 @@ class CfgVehicles {
 
         displayName = "Medic [AK-47]";
         attendant = 1;
+        icon = "iconManMedic";
+        picture = "pictureHeal";
         backpack = "CUP_B_TK_AssaultPack_Medic";
         weapons[] = {"CUP_arifle_AK47","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_AK47","Throw","Put"};

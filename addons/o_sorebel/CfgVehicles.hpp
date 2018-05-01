@@ -297,6 +297,8 @@ class CfgVehicles {
 
         displayName = "Bonesetter";
         attendant = 1;
+        icon = "iconManMedic";
+        picture = "pictureHeal";
         backpack = "CFP_Kitbag_PolygonWoodland";
         weapons[] = {"CUP_arifle_AK74","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_AK74","Throw","Put"};

@@ -337,9 +337,9 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_WestUltra";
         attendant = 1;
-        identityTypes[] = {"Head_Greek","CUP_D_Language_RU","G_GUERIL_default"};
         icon = "iconManMedic";
         picture = "pictureHeal";
+        identityTypes[] = {"Head_Greek","CUP_D_Language_RU","G_GUERIL_default"};
         uniformClass = "U_I_C_Soldier_Para_1_F";
 
         items[] = {"FirstAidKit","Medikit"};

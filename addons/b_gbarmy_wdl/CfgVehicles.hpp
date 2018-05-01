@@ -2035,6 +2035,8 @@ class CfgVehicles
                 scopeCurator = 2;
                 displayName = "Medic";
                 attendant = 1;
+                icon = "iconManMedic";
+                picture = "pictureHeal";
                 side = 1;
                 faction = "CFP_B_GBARMY_WDL";
 
