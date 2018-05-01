@@ -154,7 +154,6 @@ class CfgVehicles
         scope = 2;
         scopeCurator = 2;
         displayName = "al-Nusra Medic";
-        icon = "iconManMedic";
         attendant = 1;
         icon = "iconManMedic";
         picture = "pictureHeal";

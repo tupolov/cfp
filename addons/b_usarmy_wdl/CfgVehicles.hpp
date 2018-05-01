@@ -2416,8 +2416,8 @@ class CfgVehicles {
             scopeCurator = 2;
             displayName = "Medic";
             attendant = 1;
-        icon = "iconManMedic";
-        picture = "pictureHeal";
+            icon = "iconManMedic";
+            picture = "pictureHeal";
             side = 1;
             faction = "CFP_B_USARMY_WDL";
 
@@ -3075,8 +3075,6 @@ class CfgVehicles {
             magazines[] = {"CUP_20Rnd_762x51_B_SCAR","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
             respawnMagazines[] = {"CUP_20Rnd_762x51_B_SCAR","CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
             backpack = "B_TacticalPack_mcamo";
-            picture = "pictureHeal";
-            icon = "iconManMedic";
             ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_Mk17_CQC_SFG_Aim_mfsup","CUP_muzzle_mfsup_SCAR_H","","CUP_optic_CompM4",{"CUP_20Rnd_762x51_B_SCAR",20},{},""},{},{"CUP_hgun_M9","","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CFP_U_Crye_Multicam",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_B_SCAR",1,20},{"SmokeShellRed",1,1},{"B_IR_Grenade",1,1},{"CUP_15Rnd_9x19_M9",2,15}}},{"CFP_LBT6094_operator_Multicam",{{"CUP_20Rnd_762x51_B_SCAR",6,20},{"CUP_HandGrenade_M67",1,1},{"SmokeShellGreen",1,1}}},{"B_TacticalPack_mcamo",{{"Medikit",1},{"FirstAidKit",10}}},"CFP_OPS2017_Helmet_Multicam","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
         };
