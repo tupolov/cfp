@@ -401,16 +401,212 @@ class CfgVehicleClasses
 		};
 	};
 
-	class SP_PlateCarrier1_NodUrban: V_PlateCarrier1_rgr
+	class CFP_PlateCarrier1_Tropentarn: V_PlateCarrier1_rgr
 {
     picture = "\x\cfp\addons\vests\data\ui\icon_SP_PlateCarrier1_NodUrban.paa";
 		scope = 2;
-		displayName = "Plate Carrier 1 (Nod Urban)";
+		displayName = "Plate Carrier 1 (Tropentarn)";
 		// picture = "\x\cfp\addons\vests\PlateCarrier1\ui\NodUrban.jpg";
 		model = "\x\cfp\addons\models\PlateCarrier1";
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\PlateCarrier1\NodUrban.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\PlateCarrier1\Tropentarn.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "AuburnAlumni";
+
+
+
+		class ItemInfo: VestItem
+		{
+			uniformModel = "\x\cfp\addons\models\PlateCarrier1";
+			containerClass = "Supply120";
+			hiddenSelections[] = {"camo"};
+			mass = 200;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					hitpointName = "HitChest";
+					armor = 20;
+					passThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					hitpointName = "HitDiaphragm";
+					armor = 20;
+					passThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 20;
+					passThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.2;
+
+				};
+			};
+		};
+	};
+
+	class CFP_PlateCarrier1_Flecktarn: V_PlateCarrier1_rgr
+{
+    picture = "\x\cfp\addons\vests\data\ui\icon_SP_PlateCarrier1_NodUrban.paa";
+		scope = 2;
+		displayName = "Plate Carrier 1 (Flecktarn)";
+		// picture = "\x\cfp\addons\vests\PlateCarrier1\ui\NodUrban.jpg";
+		model = "\x\cfp\addons\models\PlateCarrier1";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\PlateCarrier1\Flecktarn.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "AuburnAlumni";
+
+
+
+		class ItemInfo: VestItem
+		{
+			uniformModel = "\x\cfp\addons\models\PlateCarrier1";
+			containerClass = "Supply120";
+			hiddenSelections[] = {"camo"};
+			mass = 200;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					hitpointName = "HitChest";
+					armor = 20;
+					passThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					hitpointName = "HitDiaphragm";
+					armor = 20;
+					passThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 20;
+					passThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.2;
+
+				};
+			};
+		};
+	};
+
+	class CFP_PlateCarrier1_M81: V_PlateCarrier1_rgr
+{
+    picture = "\x\cfp\addons\vests\data\ui\icon_SP_PlateCarrier1_NodUrban.paa";
+		scope = 2;
+		displayName = "Plate Carrier 1 (M81)";
+		// picture = "\x\cfp\addons\vests\PlateCarrier1\ui\NodUrban.jpg";
+		model = "\x\cfp\addons\models\PlateCarrier1";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\PlateCarrier1\M81.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "AuburnAlumni";
+
+
+
+		class ItemInfo: VestItem
+		{
+			uniformModel = "\x\cfp\addons\models\PlateCarrier1";
+			containerClass = "Supply120";
+			hiddenSelections[] = {"camo"};
+			mass = 200;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					hitpointName = "HitChest";
+					armor = 20;
+					passThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					hitpointName = "HitDiaphragm";
+					armor = 20;
+					passThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 20;
+					passThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.2;
+
+				};
+			};
+		};
+	};
+
+	class CFP_PlateCarrier1_Multicam: V_PlateCarrier1_rgr
+{
+    picture = "\x\cfp\addons\vests\data\ui\icon_SP_PlateCarrier1_NodUrban.paa";
+		scope = 2;
+		displayName = "Plate Carrier 1 (Multicam)";
+		// picture = "\x\cfp\addons\vests\PlateCarrier1\ui\NodUrban.jpg";
+		model = "\x\cfp\addons\models\PlateCarrier1";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\PlateCarrier1\Multicam.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "AuburnAlumni";
+
+
+
+		class ItemInfo: VestItem
+		{
+			uniformModel = "\x\cfp\addons\models\PlateCarrier1";
+			containerClass = "Supply120";
+			hiddenSelections[] = {"camo"};
+			mass = 200;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					hitpointName = "HitChest";
+					armor = 20;
+					passThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					hitpointName = "HitDiaphragm";
+					armor = 20;
+					passThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 20;
+					passThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.2;
+
+				};
+			};
+		};
+	};
+
+	class CFP_PlateCarrier1_Woodland: V_PlateCarrier1_rgr
+{
+    picture = "\x\cfp\addons\vests\data\ui\icon_SP_PlateCarrier1_NodUrban.paa";
+		scope = 2;
+		displayName = "Plate Carrier 1 (Woodland)";
+		// picture = "\x\cfp\addons\vests\PlateCarrier1\ui\NodUrban.jpg";
+		model = "\x\cfp\addons\models\PlateCarrier1";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\PlateCarrier1\Woodland.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "AuburnAlumni";
 
 
 

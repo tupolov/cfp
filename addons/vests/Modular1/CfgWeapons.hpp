@@ -309,14 +309,14 @@ class CfgVehicleClasses
 		};
 	};
 
-	class CFP_Modular1_IranDPM: V_PlateCarrier1_rgr
+	class CFP_Modular1_Tropentarn: V_PlateCarrier1_rgr
 {
     picture = "\x\cfp\addons\vests\data\ui\icon_CFP_Modular1_IranDPM.paa";
 		scope = 2;
-		displayName = "Modular 1 (Iran DPM)";
+		displayName = "Modular 1 (Tropentarn)";
 		// picture = "\x\cfp\addons\vests\Modular1\ui\Black.jpg";
 		model = "\x\cfp\addons\models\Modular1";
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Modular1\IranDPM.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Modular1\Tropentarn.paa"};
 		hiddenSelections[] = {"Camo"};
 
 
@@ -365,6 +365,54 @@ class CfgVehicleClasses
 		// picture = "\x\cfp\addons\vests\Modular1\ui\Black.jpg";
 		model = "\x\cfp\addons\models\Modular1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Modular1\Woodland.paa"};
+		hiddenSelections[] = {"Camo"};
+
+
+
+		class ItemInfo: VestItem
+		{
+			uniformModel = "\x\cfp\addons\models\Modular1";
+			containerClass = "Supply120";
+			hiddenSelections[] = {"camo"};
+			mass = 150;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					hitpointName = "HitChest";
+					armor = 18;
+					passThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					hitpointName = "HitDiaphragm";
+					armor = 18;
+					passThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 18;
+					passThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.2;
+				};
+			};
+
+		};
+	};
+
+	class CFP_Modular1_Flecktarn: V_PlateCarrier1_rgr
+{
+    picture = "\x\cfp\addons\vests\data\ui\icon_CFP_Modular1_Woodland.paa";
+		scope = 2;
+		displayName = "Modular 1 (Flecktarn)";
+		// picture = "\x\cfp\addons\vests\Modular1\ui\Black.jpg";
+		model = "\x\cfp\addons\models\Modular1";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Modular1\Flecktarn.paa"};
 		hiddenSelections[] = {"Camo"};
 
 

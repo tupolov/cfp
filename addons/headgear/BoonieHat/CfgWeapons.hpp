@@ -439,3 +439,58 @@ class CfgVehicleClasses
 	    };
 	};
 
+	class CFP_BoonieHat_Tropentarn: ItemCore
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_BoonieHat_ACRDesert.paa";
+	 	scope = 2;
+	   	weaponPoolAvailable = 1;
+	  	displayName = "Boonie Hat (Tropentarn)";
+	    // picture = "\x\cfp\addons\headgear\BoonieHat\ui\NodUrban.jpg";
+	    model = "\x\cfp\addons\models\BoonieHat";
+	    hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BoonieHat\Tropentarn.paa"};
+	    hiddenSelections[] = {"Camo"};
+	    author = "AuburnAlumni";
+
+
+
+	    class ItemInfo: HeadgearItem
+	    {
+	      	mass = 15;
+	     	uniformmodel = "\x\cfp\addons\models\BoonieHat";
+	       	modelSides[] = {3,1};
+	       	armor = 0;
+	       	passThrough = 0.30;
+	       	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BoonieHat\Tropentarn.paa"};
+	       	hiddenSelections[] = {"Camo"};
+
+	    };
+	};
+
+	class CFP_BoonieHat_Flecktarn: ItemCore
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_BoonieHat_ACRDesert.paa";
+	 	scope = 2;
+	   	weaponPoolAvailable = 1;
+	  	displayName = "Boonie Hat (Flecktarn)";
+	    // picture = "\x\cfp\addons\headgear\BoonieHat\ui\NodUrban.jpg";
+	    model = "\x\cfp\addons\models\BoonieHat";
+	    hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BoonieHat\Flecktarn.paa"};
+	    hiddenSelections[] = {"Camo"};
+	    author = "AuburnAlumni";
+
+
+
+	    class ItemInfo: HeadgearItem
+	    {
+	      	mass = 15;
+	     	uniformmodel = "\x\cfp\addons\models\BoonieHat";
+	       	modelSides[] = {3,1};
+	       	armor = 0;
+	       	passThrough = 0.30;
+	       	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BoonieHat\Flecktarn.paa"};
+	       	hiddenSelections[] = {"Camo"};
+
+	    };
+	};
+
+

@@ -21,8 +21,6 @@ class CfgWeapons {
     #include "BeanieHat\CfgWeapons.hpp"
     #include "Beret\CfgWeapons.hpp"
     #include "Beret2\CfgWeapons.hpp"
-    #include "Beret3\CfgWeapons.hpp"
-    #include "Beret4\CfgWeapons.hpp"
     #include "BoonieHat\CfgWeapons.hpp"
     #include "CVCHelmet\CfgWeapons.hpp"
     #include "ECHHelmet\CfgWeapons.hpp"

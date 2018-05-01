@@ -268,6 +268,28 @@ class CfgVehicles
         hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Fast\backpack_fast_woodland.paa"};
         author = "AuburnAlumni";
     };
+    class CFP_Kitbag_Tropentarn: B_Kitbag_Base
+    {
+        picture = "\x\cfp\addons\backpacks\data\ui\icon_CFP_Kitbag_Woodland.paa";
+        scope = 2;
+        maximumLoad = 280;
+        displayName = "Kitbag (Tropentarn)";
+        model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast.p3d";
+        // picture = "\A3\Weapons_F\ammoboxes\bags\data\ui\icon_B_C_Kitbag_rgr";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Fast\backpack_fast_tropentarn.paa"};
+        author = "AuburnAlumni";
+    };
+    class CFP_Kitbag_Flecktarn: B_Kitbag_Base
+    {
+        picture = "\x\cfp\addons\backpacks\data\ui\icon_CFP_Kitbag_Woodland.paa";
+        scope = 2;
+        maximumLoad = 280;
+        displayName = "Kitbag (Flecktarn)";
+        model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast.p3d";
+        // picture = "\A3\Weapons_F\ammoboxes\bags\data\ui\icon_B_C_Kitbag_rgr";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Fast\backpack_fast_flecktarn.paa"};
+        author = "AuburnAlumni";
+    };
     class B_AssaultPack_Base;
     class CFP_AssaultPack_M81: B_AssaultPack_Base
     {
@@ -335,4 +357,28 @@ class CfgVehicles
         hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Compact\backpack_compact_woodland.paa"};
         author = "AuburnAlumni";
     };
+    class CFP_AssaultPack_Tropentarn: B_AssaultPack_Base
+    {
+        picture = "\x\cfp\addons\backpacks\data\ui\icon_CFP_AssaultPack_Woodland.paa";
+        scope = 2;
+        maximumLoad = 160;
+        displayName = "Assault Pack (Tropentarn)";
+        model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Compact";
+        // picture = "\A3\Weapons_F\Ammoboxes\Bags\data\UI\icon_B_AssaultPack_khk_ca.paa";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Compact\backpack_compact_tropentarn.paa"};
+        author = "AuburnAlumni";
+    };
+    class CFP_AssaultPack_Flecktarn: B_AssaultPack_Base
+    {
+        picture = "\x\cfp\addons\backpacks\data\ui\icon_CFP_AssaultPack_Woodland.paa";
+        scope = 2;
+        maximumLoad = 160;
+        displayName = "Assault Pack (Flecktarn)";
+        model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Compact";
+        // picture = "\A3\Weapons_F\Ammoboxes\Bags\data\UI\icon_B_AssaultPack_khk_ca.paa";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Compact\backpack_compact_flecktarn.paa"};
+        author = "AuburnAlumni";
+    };
 };
+
+

@@ -4,8 +4,6 @@ BaseballCap
 BeanieHat
 Beret
 Beret2
-Beret3
-Beret4
 BoonieHat
 CVCHelmet
 ECHHelmet
