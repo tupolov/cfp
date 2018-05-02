@@ -636,8 +636,8 @@ class CfgVehicles
         };
     };
 
-    class MRAP_03_base_F;
-    class I_MRAP_03_F : MRAP_03_base_F
+    class Car_F;
+    class MRAP_03_base_F : Car_F
     {
         class textureSources
         {
@@ -1394,7 +1394,6 @@ class CfgVehicles
         };
     };
 
-    class Car_F;
     class CUP_RG31_BASE : Car_F
     {
         class textureSources
