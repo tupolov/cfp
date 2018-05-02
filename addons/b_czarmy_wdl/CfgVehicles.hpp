@@ -876,8 +876,8 @@ class CfgVehicles {
     };
 
 // BASE MEN
-    class CUP_B_CZ_Soldier_base;
-    class CUP_B_CZ_Soldier_base_OCimport_01 : CUP_B_CZ_Soldier_base { scope = 0; class EventHandlers; };
+    class CUP_Creatures_Military_ACR_Soldier_Base;
+    class CUP_B_CZ_Soldier_base_OCimport_01 : CUP_Creatures_Military_ACR_Soldier_Base { class EventHandlers; };
     class CUP_B_CZ_Soldier_base_OCimport_03 : CUP_B_CZ_Soldier_base_OCimport_01 {
         class EventHandlers;
         randomGearProbability = 90;

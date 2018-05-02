@@ -71,8 +71,8 @@ class CfgVehicles {
         crew = "CUP_B_CZ_Soldier_805_DES";
     };
 // BASE MEN
-    class CUP_B_CZ_Soldier_base;
-    class CUP_B_CZ_Soldier_base_OCimport_01 : CUP_B_CZ_Soldier_base { scope = 0; class EventHandlers; };
+    class CUP_Creatures_Military_ACR_Soldier_Base;
+    class CUP_B_CZ_Soldier_base_OCimport_01 : CUP_Creatures_Military_ACR_Soldier_Base { class EventHandlers; };
     class CUP_B_CZ_Soldier_base_OCimport_02 : CUP_B_CZ_Soldier_base_OCimport_01 {
         class EventHandlers;
         randomGearProbability = 90;

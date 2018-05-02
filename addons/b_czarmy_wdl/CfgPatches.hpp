@@ -1,5 +1,5 @@
 class CfgPatches {
-    class CFP_B_CZARMY_WDL {
+    class ADDON {
         units[] = {
             "CUP_B_T810_Armed_CZ_WDL",
             "CUP_B_T810_Unarmed_CZ_WDL",
@@ -73,7 +73,7 @@ class CfgPatches {
             "CUP_WheeledVehicles_HMMWV",
             "CUP_TrackedVehicles_BMP",
             "CUP_WheeledVehicles_LR",
-            "CUP_Creatures_People_Military_DummyInfantrySet",
+            "CUP_Creatures_Military_ACR",
             "CUP_Weapons_StaticWeapons",
             "CUP_WheeledVehicles_BRDM2",
             "CUP_WheeledVehicles_Dingo",
