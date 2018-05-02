@@ -135,8 +135,7 @@ class CfgVehicles {
             "CFP_FAPC_Operator_OGA_OD", 0.2,
             "CFP_CarrierRig_Operator_OGA", 0.2,
             "CFP_LBT6094_operator_OGA", 0.2,
-            "CFP_FAPC_Operator_OGA", 0.2,
-            "CFP_PACA_MBSS_TAN", 0.2
+            "CFP_FAPC_Operator_OGA", 0.2
         };
         // KSK Facewear
         facewearList[] = {
@@ -222,8 +221,7 @@ class CfgVehicles {
             "CFP_FAPC_Operator_OGA_OD", 0.2,
             "CFP_CarrierRig_Operator_OGA", 0.2,
             "CFP_LBT6094_operator_OGA", 0.2,
-            "CFP_FAPC_Operator_OGA", 0.2,
-            "CFP_PACA_MBSS_TAN", 0.2
+            "CFP_FAPC_Operator_OGA", 0.2
         };
         // KSK Facewear
         facewearList[] = {
@@ -306,8 +304,7 @@ class CfgVehicles {
             "CFP_FAPC_Operator_OGA_OD", 0.2,
             "CFP_CarrierRig_Operator_OGA", 0.2,
             "CFP_LBT6094_operator_OGA", 0.2,
-            "CFP_FAPC_Operator_OGA", 0.2,
-            "CFP_PACA_MBSS_TAN", 0.2
+            "CFP_FAPC_Operator_OGA", 0.2
         };
         // KSK Facewear
         facewearList[] = {
@@ -522,8 +519,7 @@ class CfgVehicles {
             "CFP_FAPC_Operator_OGA_OD", 0.2,
             "CFP_CarrierRig_Operator_OGA", 0.2,
             "CFP_LBT6094_operator_OGA", 0.2,
-            "CFP_FAPC_Operator_OGA", 0.2,
-            "CFP_PACA_MBSS_TAN", 0.2
+            "CFP_FAPC_Operator_OGA", 0.2
         };
         // KSK Facewear
         facewearList[] = {
