@@ -1,5 +1,5 @@
 class CfgPatches {
-    class CUP_B_USMC {
+    class ADDON {
         units[] = {
         };
         weapons[] = {};

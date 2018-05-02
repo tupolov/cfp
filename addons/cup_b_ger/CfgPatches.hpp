@@ -1,5 +1,5 @@
 class CfgPatches {
-    class CUP_B_GER {
+    class ADDON {
         units[] = {
             "CFP_B_DEARMY_Pilot_DES_01",
             "CFP_B_DEARMY_Fennek_01"
