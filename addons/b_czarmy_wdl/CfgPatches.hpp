@@ -19,6 +19,7 @@ class CfgPatches {
             "CUP_B_CZ_Pilot_WDL",
             "CUP_B_CZ_Soldier_WDL",
             "CUP_B_CZ_SpecOps_WDL",
+            "CUP_B_CZ_SpecOps_Recon_WDL",
             "CUP_B_CZ_SpecOps_TL_WDL",
             "CUP_B_CZ_SpecOps_Scout_WDL",
             "CUP_B_CZ_SpecOps_MG_WDL",
@@ -65,7 +66,10 @@ class CfgPatches {
             "CFP_B_CZARMY_HMMWV_M1114_DSHKM_WDL_01",
             "CFP_B_CZARMY_HMMWV_M1114_AGS_WDL_01",
             "CFP_B_CZARMY_RBS_70_WDL_01",
-            "CFP_B_CZARMY_Spotter_WDL_01"
+            "CUP_B_CZ_Soldier_AMG_WDL",
+            "CUP_B_CZ_ExplosiveSpecialist_WDL",
+            "CUP_B_CZ_Spotter_WDL",
+            "CUP_B_CZ_Soldier_backpack_WDL"
         };
         weapons[] = {};
         requiredAddons[] = {
