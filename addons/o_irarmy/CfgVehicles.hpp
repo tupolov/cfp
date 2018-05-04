@@ -18,14 +18,14 @@ class CfgVehicles {
     class O_Soldier_F_OCimport_02 : O_Soldier_F_OCimport_01 { class EventHandlers; };
 
 
-    class CFP_O_IRANARMY_Rifleman_65th_AB_01 : O_recon_F_OCimport_02 {
-        editorPreview = \x\\addons\cfpoiranarmy\data\preview\CFP_O_IRANARMY_Rifleman_65th_AB_01.JPG;
+    class CFP_O_irarmy_Rifleman_65th_AB_01 : O_recon_F_OCimport_02 {
+        editorPreview = \x\addons\o_irarmy\data\preview\CFP_O_irarmy_Rifleman_65th_AB_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman [65th AB]";
         side = 0;
-        faction = "CFP_O_IRANARMY";
+        faction = "CFP_O_irarmy";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -59,14 +59,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_IRANARMY_Sniper_65th_AB_01 : CFP_O_IRANARMY_Rifleman_65th_AB_01 {
-        editorPreview = \x\\addons\cfpoiranarmy\data\preview\CFP_O_IRANARMY_Sniper_65th_AB_01.JPG;
+    class CFP_O_irarmy_Sniper_65th_AB_01 : CFP_O_irarmy_Rifleman_65th_AB_01 {
+        editorPreview = \x\addons\o_irarmy\data\preview\CFP_O_irarmy_Sniper_65th_AB_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Sniper [65th AB]";
         side = 0;
-        faction = "CFP_O_IRANARMY";
+        faction = "CFP_O_irarmy";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -98,14 +98,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_IRANARMY_Team_Leader_65th_AB_01 : CFP_O_IRANARMY_Rifleman_65th_AB_01 {
-        editorPreview = \x\\addons\cfpoiranarmy\data\preview\CFP_O_IRANARMY_Team_Leader_65th_AB_01.JPG;
+    class CFP_O_irarmy_Team_Leader_65th_AB_01 : CFP_O_irarmy_Rifleman_65th_AB_01 {
+        editorPreview = \x\addons\o_irarmy\data\preview\CFP_O_irarmy_Team_Leader_65th_AB_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Team Leader [65th AB]";
         side = 0;
-        faction = "CFP_O_IRANARMY";
+        faction = "CFP_O_irarmy";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -139,14 +139,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_IRANARMY_Explosives_Specialist_65th_AB_01 : CFP_O_IRANARMY_Rifleman_65th_AB_01 {
-        editorPreview = \x\\addons\cfpoiranarmy\data\preview\CFP_O_IRANARMY_Explosives_Specialist_65th_AB_01.JPG;
+    class CFP_O_irarmy_Explosives_Specialist_65th_AB_01 : CFP_O_irarmy_Rifleman_65th_AB_01 {
+        editorPreview = \x\addons\o_irarmy\data\preview\CFP_O_irarmy_Explosives_Specialist_65th_AB_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Explosives Specialist [65th AB]";
         side = 0;
-        faction = "CFP_O_IRANARMY";
+        faction = "CFP_O_irarmy";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -180,14 +180,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_IRANARMY_Medic_65th_AB_01 : CFP_O_IRANARMY_Rifleman_65th_AB_01 {
-        editorPreview = \x\\addons\cfpoiranarmy\data\preview\CFP_O_IRANARMY_Medic_65th_AB_01.JPG;
+    class CFP_O_irarmy_Medic_65th_AB_01 : CFP_O_irarmy_Rifleman_65th_AB_01 {
+        editorPreview = \x\addons\o_irarmy\data\preview\CFP_O_irarmy_Medic_65th_AB_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Medic [65th AB]";
         side = 0;
-        faction = "CFP_O_IRANARMY";
+        faction = "CFP_O_irarmy";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -221,14 +221,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_IRANARMY_Rifleman_AT_65th_AB_01 : CFP_O_IRANARMY_Rifleman_65th_AB_01 {
-        editorPreview = \x\\addons\cfpoiranarmy\data\preview\CFP_O_IRANARMY_Rifleman_AT_65th_AB_01.JPG;
+    class CFP_O_irarmy_Rifleman_AT_65th_AB_01 : CFP_O_irarmy_Rifleman_65th_AB_01 {
+        editorPreview = \x\addons\o_irarmy\data\preview\CFP_O_irarmy_Rifleman_AT_65th_AB_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman AT [65th AB]";
         side = 0;
-        faction = "CFP_O_IRANARMY";
+        faction = "CFP_O_irarmy";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -262,14 +262,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_IRANARMY_Rifleman_Assault_65th_AB_01 : CFP_O_IRANARMY_Rifleman_65th_AB_01 {
-        editorPreview = \x\\addons\cfpoiranarmy\data\preview\CFP_O_IRANARMY_Rifleman_Assault_65th_AB_01.JPG;
+    class CFP_O_irarmy_Rifleman_Assault_65th_AB_01 : CFP_O_irarmy_Rifleman_65th_AB_01 {
+        editorPreview = \x\addons\o_irarmy\data\preview\CFP_O_irarmy_Rifleman_Assault_65th_AB_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman Assault [65th AB]";
         side = 0;
-        faction = "CFP_O_IRANARMY";
+        faction = "CFP_O_irarmy";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -303,14 +303,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_IRANARMY_Rifleman_01 : O_Soldier_F_OCimport_02 {
-        editorPreview = \x\\addons\cfpoiranarmy\data\preview\CFP_O_IRANARMY_Rifleman_01.JPG;
+    class CFP_O_irarmy_Rifleman_01 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\addons\o_irarmy\data\preview\CFP_O_irarmy_Rifleman_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman";
         side = 0;
-        faction = "CFP_O_IRANARMY";
+        faction = "CFP_O_irarmy";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -342,14 +342,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_IRANARMY_Rifleman_AT_01 : CFP_O_IRANARMY_Rifleman_01 {
-        editorPreview = \x\\addons\cfpoiranarmy\data\preview\CFP_O_IRANARMY_Rifleman_AT_01.JPG;
+    class CFP_O_irarmy_Rifleman_AT_01 : CFP_O_irarmy_Rifleman_01 {
+        editorPreview = \x\addons\o_irarmy\data\preview\CFP_O_irarmy_Rifleman_AT_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman AT";
         side = 0;
-        faction = "CFP_O_IRANARMY";
+        faction = "CFP_O_irarmy";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -383,14 +383,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_IRANARMY_Squad_Leader_01 : CFP_O_IRANARMY_Rifleman_01 {
-        editorPreview = \x\\addons\cfpoiranarmy\data\preview\CFP_O_IRANARMY_Squad_Leader_01.JPG;
+    class CFP_O_irarmy_Squad_Leader_01 : CFP_O_irarmy_Rifleman_01 {
+        editorPreview = \x\addons\o_irarmy\data\preview\CFP_O_irarmy_Squad_Leader_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Squad Leader";
         side = 0;
-        faction = "CFP_O_IRANARMY";
+        faction = "CFP_O_irarmy";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -422,14 +422,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_IRANARMY_Grenadier_01 : CFP_O_IRANARMY_Rifleman_01 {
-        editorPreview = \x\\addons\cfpoiranarmy\data\preview\CFP_O_IRANARMY_Grenadier_01.JPG;
+    class CFP_O_irarmy_Grenadier_01 : CFP_O_irarmy_Rifleman_01 {
+        editorPreview = \x\addons\o_irarmy\data\preview\CFP_O_irarmy_Grenadier_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Grenadier";
         side = 0;
-        faction = "CFP_O_IRANARMY";
+        faction = "CFP_O_irarmy";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -463,14 +463,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_IRANARMY_Machine_Gunner_01 : CFP_O_IRANARMY_Rifleman_01 {
-        editorPreview = \x\\addons\cfpoiranarmy\data\preview\CFP_O_IRANARMY_Machine_Gunner_01.JPG;
+    class CFP_O_irarmy_Machine_Gunner_01 : CFP_O_irarmy_Rifleman_01 {
+        editorPreview = \x\addons\o_irarmy\data\preview\CFP_O_irarmy_Machine_Gunner_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Machine Gunner";
         side = 0;
-        faction = "CFP_O_IRANARMY";
+        faction = "CFP_O_irarmy";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -504,14 +504,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_IRANARMY_Asst_Machine_Gunner_01 : CFP_O_IRANARMY_Rifleman_01 {
-        editorPreview = \x\\addons\cfpoiranarmy\data\preview\CFP_O_IRANARMY_Asst_Machine_Gunner_01.JPG;
+    class CFP_O_irarmy_Asst_Machine_Gunner_01 : CFP_O_irarmy_Rifleman_01 {
+        editorPreview = \x\addons\o_irarmy\data\preview\CFP_O_irarmy_Asst_Machine_Gunner_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Asst. Machine Gunner";
         side = 0;
-        faction = "CFP_O_IRANARMY";
+        faction = "CFP_O_irarmy";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -545,14 +545,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_IRANARMY_Auto_Rifleman_01 : CFP_O_IRANARMY_Rifleman_01 {
-        editorPreview = \x\\addons\cfpoiranarmy\data\preview\CFP_O_IRANARMY_Auto_Rifleman_01.JPG;
+    class CFP_O_irarmy_Auto_Rifleman_01 : CFP_O_irarmy_Rifleman_01 {
+        editorPreview = \x\addons\o_irarmy\data\preview\CFP_O_irarmy_Auto_Rifleman_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Auto Rifleman";
         side = 0;
-        faction = "CFP_O_IRANARMY";
+        faction = "CFP_O_irarmy";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -586,14 +586,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_IRANARMY_Asst_Auto_Rifleman_01 : CFP_O_IRANARMY_Rifleman_01 {
-        editorPreview = \x\\addons\cfpoiranarmy\data\preview\CFP_O_IRANARMY_Asst_Auto_Rifleman_01.JPG;
+    class CFP_O_irarmy_Asst_Auto_Rifleman_01 : CFP_O_irarmy_Rifleman_01 {
+        editorPreview = \x\addons\o_irarmy\data\preview\CFP_O_irarmy_Asst_Auto_Rifleman_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Asst. Auto Rifleman";
         side = 0;
-        faction = "CFP_O_IRANARMY";
+        faction = "CFP_O_irarmy";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -627,14 +627,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_IRANARMY_Medic_01 : CFP_O_IRANARMY_Rifleman_01 {
-        editorPreview = \x\\addons\cfpoiranarmy\data\preview\CFP_O_IRANARMY_Medic_01.JPG;
+    class CFP_O_irarmy_Medic_01 : CFP_O_irarmy_Rifleman_01 {
+        editorPreview = \x\addons\o_irarmy\data\preview\CFP_O_irarmy_Medic_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Medic";
         side = 0;
-        faction = "CFP_O_IRANARMY";
+        faction = "CFP_O_irarmy";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -668,14 +668,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_IRANARMY_Engineer_01 : CFP_O_IRANARMY_Rifleman_01 {
-        editorPreview = \x\\addons\cfpoiranarmy\data\preview\CFP_O_IRANARMY_Engineer_01.JPG;
+    class CFP_O_irarmy_Engineer_01 : CFP_O_irarmy_Rifleman_01 {
+        editorPreview = \x\addons\o_irarmy\data\preview\CFP_O_irarmy_Engineer_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Engineer";
         side = 0;
-        faction = "CFP_O_IRANARMY";
+        faction = "CFP_O_irarmy";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -709,14 +709,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_IRANARMY_Explosive_Specialist_01 : CFP_O_IRANARMY_Rifleman_01 {
-        editorPreview = \x\\addons\cfpoiranarmy\data\preview\CFP_O_IRANARMY_Explosive_Specialist_01.JPG;
+    class CFP_O_irarmy_Explosive_Specialist_01 : CFP_O_irarmy_Rifleman_01 {
+        editorPreview = \x\addons\o_irarmy\data\preview\CFP_O_irarmy_Explosive_Specialist_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Explosive Specialist";
         side = 0;
-        faction = "CFP_O_IRANARMY";
+        faction = "CFP_O_irarmy";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
