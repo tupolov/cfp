@@ -129,7 +129,7 @@ class CfgVehicles
         {
             class ADDON
             {
-                init = "(_this select 0) call CFP_main_fnc_randomizeUnit;  (_this select 0) spawn CFP_o_is_fnc_randomizeUniform; [_this select 0, 'Male01_ackbar'] remoteExecCall ['setSpeaker', 0];  [_this select 0,'Male01_ackbar'] call cfp_main_fnc_setSpeakerRemote;"; //
+                init = "(_this select 0) call CFP_main_fnc_randomizeUnit;  (_this select 0) spawn CFP_o_is_fnc_randomizeUniform; [_this select 0, 'Male01_ackbar'] remoteExecCall ['setSpeaker', 0];  [_this select 0,'Male01_ackbar'] spawn cfp_main_fnc_setSpeakerRemote;"; //
             };
         };
         editorPreview = "x\cfp\addons\uniforms\FieldUniform\IS\UI\Preview_is_infantry.jpg";
