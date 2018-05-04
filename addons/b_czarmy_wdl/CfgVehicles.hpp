@@ -877,8 +877,12 @@ class CfgVehicles {
 
 // BASE MEN
     class CUP_Creatures_Military_ACR_Soldier_Base;
-    class CUP_B_CZ_Soldier_base_OCimport_01 : CUP_Creatures_Military_ACR_Soldier_Base { class EventHandlers; };
-    class CUP_B_CZ_Soldier_base_OCimport_03 : CUP_B_CZ_Soldier_base_OCimport_01 {
+    class CUP_B_CZ_Soldier_WDL_Base : CUP_Creatures_Military_ACR_Soldier_Base {
+        faction = "CFP_B_CZARMY_WDL";
+        editorSubcategory = "EdSubcat_Personnel";
+    }
+    class CUP_B_CZ_Soldier_WDL_Base_OCimport_01 : CUP_B_CZ_Soldier_WDL_Base { class EventHandlers; };
+    class CUP_B_CZ_Soldier_WDL_Base_OCimport_03 : CUP_B_CZ_Soldier_WDL_Base_OCimport_01 {
         class EventHandlers;
         randomGearProbability = 90;
         headgearList[] = {
@@ -907,8 +911,12 @@ class CfgVehicles {
         };
     };
 
+    class CUP_B_CZ_Spotter_DES;
+    class CUP_B_CZ_Spotter_OCimport_01 : CUP_B_CZ_Spotter_DES { scope = 0; class EventHandlers; };
+    class CUP_B_CZ_Spotter_OCimport_02 : CUP_B_CZ_Spotter_OCimport_01 { class EventHandlers; };
+
 // MEN
-    class CUP_B_CZ_Soldier_805_WDL : CUP_B_CZ_Soldier_base_OCimport_03 {
+    class CUP_B_CZ_Soldier_805_WDL : CUP_B_CZ_Soldier_WDL_Base_OCimport_03 {
         editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_Soldier_805_WDL.JPG";
         author = "Tupolov";
         scope = 2;
@@ -945,7 +953,7 @@ class CfgVehicles {
 
     };
 
-    class CUP_B_CZ_Soldier_805_GL_WDL : CUP_B_CZ_Soldier_base_OCimport_03 {
+    class CUP_B_CZ_Soldier_805_GL_WDL : CUP_B_CZ_Soldier_WDL_Base_OCimport_03 {
         editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_Soldier_805_GL_WDL.JPG";
         author = "Tupolov";
         scope = 2;
@@ -983,7 +991,7 @@ class CfgVehicles {
 
     };
 
-    class CUP_B_CZ_Crew_WDL : CUP_B_CZ_Soldier_base_OCimport_03 {
+    class CUP_B_CZ_Crew_WDL : CUP_B_CZ_Soldier_WDL_Base_OCimport_03 {
         editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_Crew_WDL.JPG";
         author = "Tupolov";
         scope = 2;
@@ -1020,7 +1028,7 @@ class CfgVehicles {
 
     };
 
-    class CUP_B_CZ_Soldier_SL_WDL : CUP_B_CZ_Soldier_base_OCimport_03 {
+    class CUP_B_CZ_Soldier_SL_WDL : CUP_B_CZ_Soldier_WDL_Base_OCimport_03 {
         editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_Soldier_SL_WDL.JPG";
         author = "Tupolov";
         scope = 2;
@@ -1057,7 +1065,7 @@ class CfgVehicles {
 
     };
 
-    class CUP_B_CZ_Medic_WDL : CUP_B_CZ_Soldier_base_OCimport_03 {
+    class CUP_B_CZ_Medic_WDL : CUP_B_CZ_Soldier_WDL_Base_OCimport_03 {
         editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_Medic_WDL.JPG";
         author = "Tupolov";
         scope = 2;
@@ -1101,7 +1109,7 @@ class CfgVehicles {
 
     };
 
-    class CUP_B_CZ_Soldier_MG_WDL : CUP_B_CZ_Soldier_base_OCimport_03 {
+    class CUP_B_CZ_Soldier_MG_WDL : CUP_B_CZ_Soldier_WDL_Base_OCimport_03 {
         editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_Soldier_MG_WDL.JPG";
         author = "Tupolov";
         scope = 2;
@@ -1179,7 +1187,7 @@ class CfgVehicles {
 
     };
 
-    class CUP_B_CZ_Officer_WDL : CUP_B_CZ_Soldier_base_OCimport_03 {
+    class CUP_B_CZ_Officer_WDL : CUP_B_CZ_Soldier_WDL_Base_OCimport_03 {
         editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_Officer_WDL.JPG";
         author = "Tupolov";
         scope = 2;
@@ -1214,7 +1222,7 @@ class CfgVehicles {
 
     };
 
-    class CUP_B_CZ_Pilot_WDL : CUP_B_CZ_Soldier_base_OCimport_03 {
+    class CUP_B_CZ_Pilot_WDL : CUP_B_CZ_Soldier_WDL_Base_OCimport_03 {
         editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_Pilot_WDL.JPG";
         author = "Tupolov";
         scope = 2;
@@ -1251,7 +1259,7 @@ class CfgVehicles {
 
     };
 
-    class CUP_B_CZ_Soldier_WDL : CUP_B_CZ_Soldier_base_OCimport_03 {
+    class CUP_B_CZ_Soldier_WDL : CUP_B_CZ_Soldier_WDL_Base_OCimport_03 {
         editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_Soldier_WDL.JPG";
         author = "Tupolov";
         scope = 2;
@@ -1272,6 +1280,41 @@ class CfgVehicles {
         respawnMagazines[] = {"CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M","CUP_30Rnd_Sa58_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_Sa58P","","","",{"CUP_30Rnd_Sa58_M",30},{},""},{},{"CUP_hgun_Duty_M3X","","CUP_acc_CZ_M3X","",{},{},""},{"CFP_U_BattleDressUniform_edrl",{{"FirstAidKit",1},{"CUP_30Rnd_Sa58_M",1,30},{"SmokeShell",1,1},{"CUP_15Rnd_9x19_M9",2,15}}},{"V_PlateCarrier1_rgr",{{"CUP_30Rnd_Sa58_M",6,30},{"CUP_HandGrenade_M67",2,1},{"SmokeShellRed",1,1},{"CUP_15Rnd_9x19_M9",6,15}}},{"CUP_B_ACRScout_m95_Sa58",{{"CUP_30Rnd_Sa58_M",4,30},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},"SP_PASGTHelmet_Green1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CUP_B_CZ_Soldier_backpack_WDL : CUP_B_CZ_Soldier_WDL {
+        displayName = "Rifleman (Backpack)";
+        backpackList[] = {
+            "B_Kitbag_rgr",0.5,
+            "B_Carryall_oli",0.4,
+            "B_AssaultPack_rgr",0.3
+        };
+        backpack = "B_AssaultPack_rgr";
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_Sa58P","","","",{"CUP_30Rnd_Sa58_M",30},{},""},{},{"CUP_hgun_Duty_M3X","","CUP_acc_CZ_M3X","",{},{},""},{"CFP_U_BattleDressUniform_edrl",{{"FirstAidKit",1},{"CUP_30Rnd_Sa58_M",1,30},{"SmokeShell",1,1},{"CUP_15Rnd_9x19_M9",2,15}}},{"V_PlateCarrier1_rgr",{{"CUP_30Rnd_Sa58_M",6,30},{"CUP_HandGrenade_M67",2,1},{"SmokeShellRed",1,1},{"CUP_15Rnd_9x19_M9",6,15}}},{"B_AssaultPack_rgr",{{"CUP_30Rnd_Sa58_M",4,30},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},"SP_PASGTHelmet_Green1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+    };
+
+    class CUP_B_CZ_Soldier_AMG_WDL : CUP_B_CZ_Soldier_WDL {
+        displayName = "Asst. Machinegunner";
+        backpackList[] = {
+            "B_Kitbag_rgr",0.5,
+            "B_Carryall_oli",0.4,
+            "B_AssaultPack_rgr",0.3
+        };
+        backpack = "B_AssaultPack_rgr";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_Sa58V_Aim_Laser","","","",{"CUP_30Rnd_Sa58_M",30},{},""},{},{"CUP_hgun_Duty_M3X","","CUP_acc_CZ_M3X","",{},{},""},{"CFP_U_BattleDressUniform_edrl",{{"FirstAidKit",1},{"CUP_30Rnd_Sa58_M",1,30},{"SmokeShell",1,1},{"CUP_15Rnd_9x19_M9",2,15}}},{"V_PlateCarrier1_rgr",{{"CUP_30Rnd_Sa58_M",6,30},{"CUP_HandGrenade_M67",2,1},{"SmokeShellRed",1,1},{"CUP_15Rnd_9x19_M9",1,15}}},{"B_AssaultPack_rgr",{{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",5,100},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},"SP_PASGTHelmet_Green1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1287,8 +1330,7 @@ class CfgVehicles {
         ALiVE_orbatCreator_owned = 1;
 
     };
-
-    class CUP_B_CZ_Soldier_AT_WDL : CUP_B_CZ_Soldier_base_OCimport_03 {
+    class CUP_B_CZ_Soldier_AT_WDL : CUP_B_CZ_Soldier_WDL_Base_OCimport_03 {
         editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_Soldier_AT_WDL.JPG";
         author = "Tupolov";
         scope = 2;
@@ -1326,7 +1368,7 @@ class CfgVehicles {
 
     };
 
-    class CUP_B_CZ_Soldier_RPG_WDL : CUP_B_CZ_Soldier_base_OCimport_03 {
+    class CUP_B_CZ_Soldier_RPG_WDL : CUP_B_CZ_Soldier_WDL_Base_OCimport_03 {
         editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_Soldier_RPG_WDL.JPG";
         author = "Tupolov";
         scope = 2;
@@ -1364,7 +1406,7 @@ class CfgVehicles {
 
     };
 
-    class CUP_B_CZ_Engineer_WDL : CUP_B_CZ_Soldier_base_OCimport_03 {
+    class CUP_B_CZ_Engineer_WDL : CUP_B_CZ_Soldier_WDL_Base_OCimport_03 {
         editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_Engineer_WDL.JPG";
         author = "Tupolov";
         scope = 2;
@@ -1384,7 +1426,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"V_Chestrig_rgr","SP_PASGTHelmet_Green1","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {"CUP_30Rnd_9x19_EVO","CUP_30Rnd_9x19_EVO","CUP_30Rnd_9x19_EVO"};
         respawnMagazines[] = {"CUP_30Rnd_9x19_EVO","CUP_30Rnd_9x19_EVO","CUP_30Rnd_9x19_EVO"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_smg_EVO_MRad_Flashlight","","CUP_acc_Flashlight","CUP_optic_MRad",{"CUP_30Rnd_9x19_EVO",30},{},""},{},{"CUP_hgun_Duty_M3X","","CUP_acc_CZ_M3X","",{},{},""},{"CFP_U_BattleDressUniform_edrl",{{"FirstAidKit",1},{"CUP_30Rnd_9x19_EVO",2,30}}},{"V_Chestrig_rgr",{{"CUP_30Rnd_9x19_EVO",3,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"CUP_15Rnd_9x19_M9",8,15}}},{"B_Carryall_oli",{{"CUP_30Rnd_556x45_Stanag",6,30},{"Laserbatteries",1,1},{"CUP_PipeBomb_M",2,1},{"CUP_HandGrenade_M67",1,1},{"B_IR_Grenade",1,1}}},"SP_PASGTHelmet_Green1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_smg_EVO_MRad_Flashlight","","CUP_acc_Flashlight","CUP_optic_MRad",{"CUP_30Rnd_9x19_EVO",30},{},""},{},{"CUP_hgun_Duty_M3X","","CUP_acc_CZ_M3X","",{},{},""},{"CFP_U_BattleDressUniform_edrl",{{"FirstAidKit",1},{"CUP_30Rnd_9x19_EVO",2,30}}},{"V_Chestrig_rgr",{{"CUP_30Rnd_9x19_EVO",3,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"CUP_15Rnd_9x19_M9",2,15}}},{"B_Carryall_oli",{{"CUP_30Rnd_9x19_EVO",3,30},{"Laserbatteries",1,1},{"CUP_Mine_M",1,1},{"CUP_PipeBomb_M",1,1},{"CUP_HandGrenade_M67",1,1},{"B_IR_Grenade",1,1}}},"SP_PASGTHelmet_Green1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -1402,28 +1444,29 @@ class CfgVehicles {
 
     };
 
-    class CUP_B_CZ_Sniper_WDL : CUP_B_CZ_Soldier_base_OCimport_03 {
-        editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_Sniper_WDL.JPG";
+    class CUP_B_CZ_ExplosiveSpecialist_WDL : CUP_B_CZ_Engineer_WDL {
+        displayName = "Explosive Specialist";
+        ALiVE_orbatCreator_loadout[] = {{"CUP_smg_EVO_MRad_Flashlight","","CUP_acc_Flashlight","CUP_optic_MRad",{"CUP_30Rnd_9x19_EVO",30},{},""},{},{"CUP_hgun_Duty_M3X","","CUP_acc_CZ_M3X","",{},{},""},{"CFP_U_BattleDressUniform_edrl",{{"FirstAidKit",1},{"CUP_30Rnd_9x19_EVO",2,30}}},{"V_Chestrig_rgr",{{"CUP_30Rnd_9x19_EVO",3,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"CUP_15Rnd_9x19_M9",3,15}}},{"B_Carryall_oli",{{"Laserbatteries",1,1},{"CUP_PipeBomb_M",2,1},{"CUP_HandGrenade_M67",1,1},{"B_IR_Grenade",1,1}}},"SP_PASGTHelmet_Green1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+    };
+
+    class CUP_B_CZ_Sniper_WDL : CUP_B_CZ_Soldier_WDL_Base_OCimport_03 {
+        editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_CZ_Sniper.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
         displayName = "Sniper";
         side = 1;
-        faction = "CFP_B_CZARMY_WDL";
         randomGearProbability = 0;
-        identityTypes[] = {"Head_NATO","CUP_D_Language_CZ_ACR","G_NATO_default"};
-        uniformClass = "CFP_U_BattleDressUniform_edrl";
+        identityTypes[] = {"Head_NATO","CUP_D_Language_CZ_ACR","G_NATO_sniper"};
+        uniformClass = "CUP_U_B_CZ_WDL_Ghillie";
 
-
-        weapons[] = {"CUP_srifle_CZ750_SOS_bipod","CUP_hgun_Phantom_Flashlight_snds","Throw","Put"};
-        respawnWeapons[] = {"CUP_srifle_CZ750_SOS_bipod","CUP_hgun_Phantom_Flashlight_snds","Throw","Put"};
-        linkedItems[] = {"V_PlateCarrier1_rgr","SP_PASGTHelmet_Green1","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
-        respawnLinkedItems[] = {"V_PlateCarrier1_rgr","SP_PASGTHelmet_Green1","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
-        magazines[] = {"CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_18Rnd_9x19_Phantom","CUP_18Rnd_9x19_Phantom","CUP_18Rnd_9x19_Phantom"};
-        respawnMagazines[] = {"CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_10Rnd_762x51_CZ750","CUP_18Rnd_9x19_Phantom","CUP_18Rnd_9x19_Phantom","CUP_18Rnd_9x19_Phantom"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_CZ750_SOS_bipod","","","optic_SOS",{"CUP_10Rnd_762x51_CZ750",10},{},"CUP_bipod_Harris_1A2_L"},{},{"CUP_hgun_Phantom_Flashlight_snds","muzzle_snds_L","CUP_acc_CZ_M3X","",{"CUP_18Rnd_9x19_Phantom",18},{},""},{"CFP_U_BattleDressUniform_edrl",{{"FirstAidKit",1},{"CUP_10Rnd_762x51_CZ750",1,10},{"SmokeShellRed",1,1}}},{"V_PlateCarrier1_rgr",{{"CUP_10Rnd_762x51_CZ750",2,10},{"CUP_HandGrenade_M67",2,1},{"B_IR_Grenade",1,1},{"CUP_18Rnd_9x19_Phantom",3,18}}},{},"SP_PASGTHelmet_Green1","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
-
-
+        weapons[] = {"CUP_srifle_SVD_wdl_ghillie","CUP_hgun_glock17_flashlight","Throw","Put"};
+        respawnWeapons[] = {"CUP_srifle_SVD_wdl_ghillie","CUP_hgun_glock17_flashlight","Throw","Put"};
+        linkedItems[] = {"V_Chestrig_rgr","","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"V_Chestrig_rgr","","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17"};
+        respawnMagazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_SVD_wdl_ghillie","","CUP_SVD_camo_g","CUP_optic_PSO_1",{"CUP_10Rnd_762x54_SVD_M",10},{},""},{},{"CUP_hgun_glock17_flashlight","","CUP_acc_Glock17_Flashlight","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CUP_U_B_CZ_WDL_Ghillie",{{"FirstAidKit",1},{"CUP_10Rnd_762x54_SVD_M",5,10}}},{"V_Chestrig_rgr",{{"CUP_HandGrenade_M67",2,1},{"B_IR_Grenade",1,1},{"CUP_17Rnd_9x19_glock17",3,17}}},{},"","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -1439,7 +1482,7 @@ class CfgVehicles {
 
     };
 
-    class CUP_B_CZ_Soldier_Light_WDL : CUP_B_CZ_Soldier_base_OCimport_03 {
+    class CUP_B_CZ_Soldier_Light_WDL : CUP_B_CZ_Soldier_WDL_Base_OCimport_03 {
         editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_Soldier_Light_WDL.JPG";
         author = "Tupolov";
         scope = 2;
@@ -1475,7 +1518,7 @@ class CfgVehicles {
 
     };
 
-    class CUP_B_CZ_Soldier_ARPG_WDL : CUP_B_CZ_Soldier_base_OCimport_03 {
+    class CUP_B_CZ_Soldier_ARPG_WDL : CUP_B_CZ_Soldier_WDL_Base_OCimport_03 {
         editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_Soldier_ARPG_WDL.JPG";
         author = "Tupolov";
         scope = 2;
@@ -1514,7 +1557,7 @@ class CfgVehicles {
 
     };
 
-    class CUP_B_CZ_Soldier_Marksman_WDL : CUP_B_CZ_Soldier_base_OCimport_03 {
+    class CUP_B_CZ_Soldier_Marksman_WDL : CUP_B_CZ_Soldier_WDL_Base_OCimport_03 {
         editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_Soldier_Marksman_WDL.JPG";
         author = "Tupolov";
         scope = 2;
@@ -1551,19 +1594,55 @@ class CfgVehicles {
 
     };
 
-// SPECOPS
-
-    class CUP_B_CZ_SpecOps_WDL : CUP_B_CZ_Soldier_base_OCimport_03 {
-        editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_SpecOps_WDL.JPG";
+    class CUP_B_CZ_Spotter_WDL : CUP_B_CZ_Spotter_OCimport_02 {
+        editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CFP_B_CZARMY_Spotter_WDL_01.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
-        displayName = "SF Recon";
+        displayName = "Spotter";
         side = 1;
         faction = "CFP_B_CZARMY_WDL";
+        randomGearProbability = 0;
+        identityTypes[] = {"Head_NATO","CUP_D_Language_CZ_ACR","G_NATO_sniper"};
+        uniformClass = "CUP_U_I_Ghillie_Top";
+        backpackList[] = {
+            "B_Kitbag_rgr",0.5,
+            "B_Carryall_oli",0.4,
+            "B_AssaultPack_rgr",0.3
+        };
+
+        weapons[] = {"CUP_arifle_CZ805_A2_ZDDot_Flashlight_Snds","CUP_hgun_Phantom_Flashlight_snds","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_CZ805_A2_ZDDot_Flashlight_Snds","CUP_hgun_Phantom_Flashlight_snds","Throw","Put"};
+        linkedItems[] = {"V_Chestrig_rgr","","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"V_Chestrig_rgr","","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_556x45_G36","CUP_30Rnd_556x45_G36","CUP_30Rnd_556x45_G36","CUP_18Rnd_9x19_Phantom","CUP_18Rnd_9x19_Phantom","CUP_18Rnd_9x19_Phantom"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_G36","CUP_30Rnd_556x45_G36","CUP_30Rnd_556x45_G36","CUP_18Rnd_9x19_Phantom","CUP_18Rnd_9x19_Phantom","CUP_18Rnd_9x19_Phantom"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_CZ805_A2_ZDDot_Flashlight_Snds","muzzle_snds_M","CUP_acc_Flashlight","CUP_optic_ZDDot",{"CUP_30Rnd_556x45_G36",30},{},""},{},{"CUP_hgun_Phantom_Flashlight_snds","muzzle_snds_L","CUP_acc_CZ_M3X","",{"CUP_18Rnd_9x19_Phantom",18},{},""},{"CUP_U_I_Ghillie_Top",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_G36",2,30},{"B_IR_Grenade",1,1}}},{"V_Chestrig_rgr",{{"CUP_30Rnd_556x45_G36",4,30},{"CUP_HandGrenade_M67",2,1},{"SmokeShellRed",1,1},{"CUP_18Rnd_9x19_Phantom",3,18}}},{},"","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+// SPECOPS
+    class CUP_B_CZ_SpecOp_WDL_Base : CUP_Creatures_Military_ACR_Soldier_Base {
+        faction = "CFP_B_CZARMY_WDL";
         editorSubCategory = "EdSubcat_Personnel_SpecialForces";
-        identityTypes[] = {"Head_NATO","CUP_D_Language_CZ_ACR","G_NATO_default"};
-        uniformClass = "CFP_U_FieldUniform_edrl";
+    }
+    class CUP_B_CZ_SpecOp_WDL_Base_OCimport_01 : CUP_B_CZ_SpecOp_WDL_Base { class EventHandlers; };
+    class CUP_B_CZ_SpecOp_WDL_Base_OCimport_02 : CUP_B_CZ_SpecOp_WDL_Base_OCimport_01 {
+        class EventHandlers;
         randomGearProbability = 100;
         headgearList[] = {
             "CUP_H_USArmy_Helmet_ECH2_Black",0.5,
@@ -1586,14 +1665,25 @@ class CfgVehicles {
             "CUP_FR_NeckScarf", 0.3,
             "SP_Balaclava_Geen", 0.5
         };
+    };
 
-        weapons[] = {"CUP_arifle_CZ805_B_GL","CUP_hgun_Duty_M3X","Throw","Put"};
-        respawnWeapons[] = {"CUP_arifle_CZ805_B_GL","CUP_hgun_Duty_M3X","Throw","Put"};
-        linkedItems[] = {"V_Chestrig_rgr","H_Watchcap_camo","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
-        respawnLinkedItems[] = {"V_Chestrig_rgr","H_Watchcap_camo","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
-        magazines[] = {"CUP_20Rnd_762x51_CZ805B","CUP_20Rnd_762x51_CZ805B","CUP_20Rnd_762x51_CZ805B","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","Laserbatteries"};
-        respawnMagazines[] = {"CUP_20Rnd_762x51_CZ805B","CUP_20Rnd_762x51_CZ805B","CUP_20Rnd_762x51_CZ805B","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","Laserbatteries"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_CZ805_B_GL","","","",{"CUP_20Rnd_762x51_CZ805B",20},{"CUP_1Rnd_HEDP_M203",1},""},{},{"CUP_hgun_Duty_M3X","","CUP_acc_CZ_M3X","",{},{},""},{"CFP_U_FieldUniform_edrl",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_CZ805B",1,20},{"B_IR_Grenade",1,1}}},{"V_Chestrig_rgr",{{"CUP_20Rnd_762x51_CZ805B",5,20},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1},{"CUP_1Rnd_HEDP_M203",3,1},{"CUP_15Rnd_9x19_M9",4,15}}},{},"H_Watchcap_camo","",{"CUP_LRTV","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+    class CUP_B_CZ_SpecOps_WDL : CUP_B_CZ_SpecOp_WDL_Base_OCimport_02 {
+        editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_SpecOps_WDL.JPG";
+        author = "Tupolov";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Rifleman";
+        side = 1;
+        identityTypes[] = {"Head_NATO","CUP_D_Language_CZ_ACR","G_NATO_default"};
+        uniformClass = "CFP_U_FieldUniform_edrl";
+
+        weapons[] = {"CUP_arifle_M4A1_camo_GL_Holo_Flashlight","CUP_hgun_Phantom_Flashlight","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_M4A1_camo_GL_Holo_Flashlight","CUP_hgun_Phantom_Flashlight","Throw","Put"};
+        linkedItems[] = {"V_Chestrig_rgr","CUP_H_USArmy_Helmet_ECH1_Green","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"V_Chestrig_rgr","CUP_H_USArmy_Helmet_ECH1_Green","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_camo_GL_Holo_Flashlight","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Phantom_Flashlight","","CUP_acc_CZ_M3X","",{},{},""},{"CFP_U_FieldUniform_edrl",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"V_Chestrig_rgr",{{"CUP_30Rnd_556x45_Stanag",5,30},{"CUP_HandGrenade_M67",1,1},{"B_IR_Grenade",1,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1},{"CUP_15Rnd_9x19_M9",6,15}}},{},"CUP_H_USArmy_Helmet_ECH1_Green","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -1611,7 +1701,40 @@ class CfgVehicles {
 
     };
 
-    class CUP_B_CZ_SpecOps_TL_WDL : CUP_B_CZ_Soldier_base_OCimport_03 {
+    class CUP_B_CZ_SpecOps_Recon_WDL : CUP_B_CZ_SpecOp_WDL_Base_OCimport_02 {
+        editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_SpecOps_WDL.JPG";
+        author = "Tupolov";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Recon";
+        side = 1;
+        identityTypes[] = {"Head_NATO","CUP_D_Language_CZ_ACR","G_NATO_default"};
+        uniformClass = "CFP_U_FieldUniform_edrl";
+
+        weapons[] = {"CUP_arifle_CZ805_B_GL","CUP_hgun_Duty_M3X","Throw","Put"};
+        respawnWeapons[] = {"CUP_arifle_CZ805_B_GL","CUP_hgun_Duty_M3X","Throw","Put"};
+        linkedItems[] = {"V_Chestrig_rgr","H_Watchcap_camo","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"V_Chestrig_rgr","H_Watchcap_camo","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        magazines[] = {"CUP_20Rnd_762x51_CZ805B","CUP_20Rnd_762x51_CZ805B","CUP_20Rnd_762x51_CZ805B","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","Laserbatteries"};
+        respawnMagazines[] = {"CUP_20Rnd_762x51_CZ805B","CUP_20Rnd_762x51_CZ805B","CUP_20Rnd_762x51_CZ805B","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","Laserbatteries"};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_CZ805_B_GL","","","",{"CUP_20Rnd_762x51_CZ805B",20},{"CUP_1Rnd_HEDP_M203",1},""},{},{"CUP_hgun_Duty_M3X","","CUP_acc_CZ_M3X","",{},{},""},{"CFP_U_FieldUniform_edrl",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_CZ805B",1,20},{"B_IR_Grenade",1,1}}},{"V_Chestrig_rgr",{{"CUP_20Rnd_762x51_CZ805B",5,20},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1},{"CUP_1Rnd_HEDP_M203",3,1},{"CUP_15Rnd_9x19_M9",4,15}}},{},"H_Watchcap_camo","",{"CUP_LRTV","","","",{"Laserbatteries",1},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CUP_B_CZ_SpecOps_TL_WDL : CUP_B_CZ_SpecOp_WDL_Base_OCimport_02 {
         editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_SpecOps_TL_WDL.JPG";
         author = "Tupolov";
         scope = 2;
@@ -1781,12 +1904,12 @@ class CfgVehicles {
 
     };
 
-    class CUP_B_CZ_SpecOps_Exp_WDL : CUP_B_CZ_SpecOps_WDL {
+    class CUP_B_CZ_SpecOps_Exp_WDL : CUP_B_CZ_SpecOps_Recon_WDL {
         editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_SpecOps_Exp_WDL.JPG";
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
-        displayName = "SF Saboteur";
+        displayName = "Saboteur";
         canDeactivateMines = 1;
         side = 1;
         faction = "CFP_B_CZARMY_WDL";
@@ -1839,7 +1962,7 @@ class CfgVehicles {
 
     };
 
-    class CUP_B_CZ_SpecOps_GL_WDL : CUP_B_CZ_Soldier_base_OCimport_03 {
+    class CUP_B_CZ_SpecOps_GL_WDL : CUP_B_CZ_SpecOp_WDL_Base_OCimport_02 {
         editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CUP_B_CZ_SpecOps_GL_WDL.JPG";
         author = "Tupolov";
         scope = 2;
@@ -2035,10 +2158,6 @@ class CfgVehicles {
             class MainTurret;
         };
     };
-
-    class CUP_B_CZ_Spotter;
-    class CUP_B_CZ_Spotter_OCimport_01 : CUP_B_CZ_Spotter { scope = 0; class EventHandlers; };
-    class CUP_B_CZ_Spotter_OCimport_02 : CUP_B_CZ_Spotter_OCimport_01 { class EventHandlers; };
 
 // NEW VEHICLES
 
@@ -2483,45 +2602,6 @@ class CfgVehicles {
     };
 
 // MEN
-    class CFP_B_CZARMY_Spotter_WDL_01 : CUP_B_CZ_Spotter_OCimport_02 {
-        editorPreview = "\x\cfp\addons\b_czarmy_wdl\data\preview\CFP_B_CZARMY_Spotter_WDL_01.JPG";
-        author = "Tupolov";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Spotter";
-        side = 1;
-        faction = "CFP_B_CZARMY_WDL";
-        randomGearProbability = 0;
-        identityTypes[] = {"Head_NATO","CUP_D_Language_CZ_ACR","G_NATO_sniper"};
-        uniformClass = "CUP_U_I_Ghillie_Top";
-        backpackList[] = {
-            "B_Kitbag_rgr",0.5,
-            "B_Carryall_oli",0.4,
-            "B_AssaultPack_rgr",0.3
-        };
 
-        weapons[] = {"CUP_arifle_CZ805_A2_ZDDot_Flashlight_Snds","CUP_hgun_Phantom_Flashlight_snds","Throw","Put"};
-        respawnWeapons[] = {"CUP_arifle_CZ805_A2_ZDDot_Flashlight_Snds","CUP_hgun_Phantom_Flashlight_snds","Throw","Put"};
-        linkedItems[] = {"V_Chestrig_rgr","","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
-        respawnLinkedItems[] = {"V_Chestrig_rgr","","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
-        magazines[] = {"CUP_30Rnd_556x45_G36","CUP_30Rnd_556x45_G36","CUP_30Rnd_556x45_G36","CUP_18Rnd_9x19_Phantom","CUP_18Rnd_9x19_Phantom","CUP_18Rnd_9x19_Phantom"};
-        respawnMagazines[] = {"CUP_30Rnd_556x45_G36","CUP_30Rnd_556x45_G36","CUP_30Rnd_556x45_G36","CUP_18Rnd_9x19_Phantom","CUP_18Rnd_9x19_Phantom","CUP_18Rnd_9x19_Phantom"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_CZ805_A2_ZDDot_Flashlight_Snds","muzzle_snds_M","CUP_acc_Flashlight","CUP_optic_ZDDot",{"CUP_30Rnd_556x45_G36",30},{},""},{},{"CUP_hgun_Phantom_Flashlight_snds","muzzle_snds_L","CUP_acc_CZ_M3X","",{"CUP_18Rnd_9x19_Phantom",18},{},""},{"CUP_U_I_Ghillie_Top",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_G36",2,30},{"B_IR_Grenade",1,1}}},{"V_Chestrig_rgr",{{"CUP_30Rnd_556x45_G36",4,30},{"CUP_HandGrenade_M67",2,1},{"SmokeShellRed",1,1},{"CUP_18Rnd_9x19_Phantom",3,18}}},{},"","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
 
 };
