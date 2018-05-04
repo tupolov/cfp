@@ -2938,6 +2938,7 @@ class CfgVehicles {
         // DELTA FORCE
 
         class CFP_B_USARMY_US_SpecOps_Base : CUP_B_USArmy_Soldier_01_OCimport_02 {
+            editorPreview = \x\cfp\addons\b_usarmy_wdl\data\preview\CFP_B_USARMY_US_SpecOps_Base.JPG;
             author = "Drew";
             scope = 1;
             scopeCurator = 1;
@@ -3021,6 +3022,7 @@ class CfgVehicles {
         };
 
         class CFP_B_USARMY_US_SpecOps : CFP_B_USARMY_US_SpecOps_Base {
+            editorPreview = \x\cfp\addons\b_usarmy_wdl\data\preview\CFP_B_USARMY_US_SpecOps.JPG;
             scope = 2;
             scopeCurator = 2;
             displayName = "Operator";
@@ -3030,6 +3032,7 @@ class CfgVehicles {
         };
 
         class CFP_B_USARMY_US_SpecOps_UAV : CFP_B_USARMY_US_SpecOps_Base {
+            editorPreview = \x\cfp\addons\b_usarmy_wdl\data\preview\CFP_B_USARMY_US_SpecOps_UAV.JPG;
             scope = 2;
             scopeCurator = 2;
             displayName = "UAV Controller";
@@ -3047,6 +3050,7 @@ class CfgVehicles {
         };
 
         class CFP_B_USARMY_US_SpecOps_TL : CFP_B_USARMY_US_SpecOps_Base {
+            editorPreview = \x\cfp\addons\b_usarmy_wdl\data\preview\CFP_B_USARMY_US_SpecOps_TL.JPG;
             scope = 2;
             scopeCurator = 2;
             displayName = "Team Leader";
@@ -3062,6 +3066,7 @@ class CfgVehicles {
         };
 
         class CFP_B_USARMY_US_SpecOps_Medic : CFP_B_USARMY_US_SpecOps_Base {
+            editorPreview = \x\cfp\addons\b_usarmy_wdl\data\preview\CFP_B_USARMY_US_SpecOps_Medic.JPG;
             scope = 2;
             scopeCurator = 2;
             displayName = "Medic";
@@ -3080,6 +3085,7 @@ class CfgVehicles {
         };
 
         class CFP_B_USARMY_US_SpecOps_Assault : CFP_B_USARMY_US_SpecOps_Base {
+            editorPreview = \x\cfp\addons\b_usarmy_wdl\data\preview\CFP_B_USARMY_US_SpecOps_Assault.JPG;
             scope = 2;
             scopeCurator = 2;
             displayName = "Operator (Assault)";
@@ -3097,6 +3103,7 @@ class CfgVehicles {
         };
 
         class CFP_B_USARMY_US_SpecOps_SD : CFP_B_USARMY_US_SpecOps_Base {
+            editorPreview = \x\cfp\addons\b_usarmy_wdl\data\preview\CFP_B_USARMY_US_SpecOps_SD.JPG;
             scope = 2;
             scopeCurator = 2;
             displayName = "Operator (Silenced)";
@@ -3113,6 +3120,7 @@ class CfgVehicles {
         };
 
         class CFP_B_USARMY_US_SpecOps_MG : CFP_B_USARMY_US_SpecOps_Base {
+            editorPreview = \x\cfp\addons\b_usarmy_wdl\data\preview\CFP_B_USARMY_US_SpecOps_MG.JPG;
             scope = 2;
             scopeCurator = 2;
             displayName = "Machinegunner";
@@ -3130,6 +3138,7 @@ class CfgVehicles {
         };
 
         class CFP_B_USARMY_US_SpecOps_AR : CFP_B_USARMY_US_SpecOps_Base {
+            editorPreview = \x\cfp\addons\b_usarmy_wdl\data\preview\CFP_B_USARMY_US_SpecOps_AR.JPG;
             scope = 2;
             scopeCurator = 2;
             displayName = "Automatic Rifleman";
@@ -3147,6 +3156,7 @@ class CfgVehicles {
         };
 
         class CFP_B_USARMY_US_SpecOps_Night : CFP_B_USARMY_US_SpecOps_Base {
+            editorPreview = \x\cfp\addons\b_usarmy_wdl\data\preview\CFP_B_USARMY_US_SpecOps_Night.JPG;
             scope = 2;
             scopeCurator = 2;
             displayName = "Operator (Night Assault)";
@@ -3163,6 +3173,7 @@ class CfgVehicles {
         };
 
         class CFP_B_USARMY_US_SpecOps_M : CFP_B_USARMY_US_SpecOps_Base {
+            editorPreview = \x\cfp\addons\b_usarmy_wdl\data\preview\CFP_B_USARMY_US_SpecOps_M.JPG;
             scope = 2;
             scopeCurator = 2;
             displayName = "Marksman";
@@ -3179,6 +3190,7 @@ class CfgVehicles {
         };
 
         class CFP_B_USARMY_US_SpecOps_M14 : CFP_B_USARMY_US_SpecOps_Base {
+            editorPreview = \x\cfp\addons\b_usarmy_wdl\data\preview\CFP_B_USARMY_US_SpecOps_M14.JPG;
             scope = 2;
             scopeCurator = 2;
             displayName = "Operator (M14)";
@@ -3195,6 +3207,7 @@ class CfgVehicles {
         };
 
         class CFP_B_USARMY_US_SpecOps_JTAC : CFP_B_USARMY_US_SpecOps_Base {
+            editorPreview = \x\cfp\addons\b_usarmy_wdl\data\preview\CFP_B_USARMY_US_SpecOps_JTAC.JPG;
             scope = 2;
             scopeCurator = 2;
             displayName = "Forward Air Controller";
