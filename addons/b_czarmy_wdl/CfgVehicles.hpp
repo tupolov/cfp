@@ -880,7 +880,7 @@ class CfgVehicles {
     class CUP_B_CZ_Soldier_WDL_Base : CUP_Creatures_Military_ACR_Soldier_Base {
         faction = "CFP_B_CZARMY_WDL";
         editorSubcategory = "EdSubcat_Personnel";
-    }
+    };
     class CUP_B_CZ_Soldier_WDL_Base_OCimport_01 : CUP_B_CZ_Soldier_WDL_Base { class EventHandlers; };
     class CUP_B_CZ_Soldier_WDL_Base_OCimport_03 : CUP_B_CZ_Soldier_WDL_Base_OCimport_01 {
         class EventHandlers;
@@ -1625,7 +1625,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then { _onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};}; _this spawn _onSpawn; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -1639,7 +1639,7 @@ class CfgVehicles {
     class CUP_B_CZ_SpecOp_WDL_Base : CUP_Creatures_Military_ACR_Soldier_Base {
         faction = "CFP_B_CZARMY_WDL";
         editorSubCategory = "EdSubcat_Personnel_SpecialForces";
-    }
+    };
     class CUP_B_CZ_SpecOp_WDL_Base_OCimport_01 : CUP_B_CZ_SpecOp_WDL_Base { class EventHandlers; };
     class CUP_B_CZ_SpecOp_WDL_Base_OCimport_02 : CUP_B_CZ_SpecOp_WDL_Base_OCimport_01 {
         class EventHandlers;

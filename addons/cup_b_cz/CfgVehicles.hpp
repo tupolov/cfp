@@ -73,7 +73,7 @@ class CfgVehicles {
     class CUP_Creatures_Military_ACR_Soldier_Base;
     class CUP_B_CZ_Soldier_DST_Base : CUP_Creatures_Military_ACR_Soldier_Base {
         editorSubcategory = "EdSubcat_Personnel";
-    }
+    };
     class CUP_B_CZ_Soldier_base_OCimport_01 : CUP_B_CZ_Soldier_DST_Base { class EventHandlers; };
     class CUP_B_CZ_Soldier_base_OCimport_02 : CUP_B_CZ_Soldier_base_OCimport_01 {
         class EventHandlers;
@@ -860,7 +860,7 @@ class CfgVehicles {
 // SPECOPS
     class CUP_B_CZ_SpecOp_DST_Base : CUP_Creatures_Military_ACR_Soldier_Base {
         editorSubCategory = "EdSubcat_Personnel_SpecialForces";
-    }
+    };
     class CUP_B_CZ_SpecOp_DST_Base_OCimport_01 : CUP_B_CZ_SpecOp_DST_Base { class EventHandlers; };
     class CUP_B_CZ_SpecOp_DST_Base_OCimport_02 : CUP_B_CZ_SpecOp_DST_Base_OCimport_01 {
         class EventHandlers;
