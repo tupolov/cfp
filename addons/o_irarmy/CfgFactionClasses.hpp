@@ -8,8 +8,8 @@ class CfgFactionClasses {
     class CFP_O_irarmy {
         displayName = "Islamic Republic of Iran Army";
         side = 0;
-        flag = "\A3\ui_f\data\map\markers\flags\nato_ca.paa";
-        icon = "\A3\ui_f\data\map\markers\flags\nato_ca.paa";
+        flag = "x\cfp\addons\flags\Iran\Iran.paa";
+        icon = "x\cfp\addons\flags\Iran\Iran.paa";
         priority = 0;
     };
 };
