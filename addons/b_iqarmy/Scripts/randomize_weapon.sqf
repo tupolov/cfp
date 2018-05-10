@@ -396,7 +396,7 @@ if (_randomWeaponChance <= _randomWeaponProbability) then  // replace default we
 				private _backPackStuff = backpackItems _this;
 				if !(isNil "_backPackStuff") then {
 					{_this removeItemfromBackpack _x} forEach _backPackStuff;
-				}
+				};
 				_randomOtherATChance = floor (random 100);
 				if (_randomOtherATChance <=30) then
 				{
