@@ -1763,8 +1763,7 @@ class CfgVehicles
         };
    };
 
-   class CUP_BMP1_base_F;
-   class CUP_BMP2_base: CUP_BMP1_base_F
+   class CUP_BMP2_base: CUP_BMP1_base
    {
         class textureSources
         {
@@ -1778,7 +1777,7 @@ class CfgVehicles
         };
    };
 
-   class CUP_BMP1P_base: CUP_BMP1_base_F
+   class CUP_BMP1P_base: CUP_BMP1_base
    {
         class textureSources
         {
