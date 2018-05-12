@@ -153,6 +153,17 @@
 			init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Others\FreeSyrianArmyFSA.paa""";
 		};
 	};
+	class AnsarAllah_Flag: FlagPole_F
+	{
+		scope = 2;
+		accuracy = 10000;
+		displayName = "Ansar Allah";
+		nameSound = "flag";
+		class EventHandlers
+		{
+			init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Others\houthis.paa""";
+		};
+	};
 	class IslamicFront_Flag: FlagPole_F
 	{
 		scope = 2;
