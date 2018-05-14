@@ -1,19 +1,19 @@
 class CfgPatches {
-    class CFP_O_WestUltra {
+    class CFP_I_WestUltra {
         units[] = {
-            "CFP_O_WestUltra_Offroad_01",
-            "CFP_O_WestUltra_Rifleman_01",
-            "CFP_O_WestUltra_Team_Leader_01",
-            "CFP_O_WestUltra_Marksman_01",
-            "CFP_O_WestUltra_Gunner_01",
-            "CFP_O_WestUltra_Medic_01",
-            "CFP_O_WestUltra_Specialist_01",
-            "CFP_O_WestUltra_SUV_02",
-            "CFP_O_WestUltra_4WD_01",
-            "CFP_O_WestUltra_Quad_Bike_01",
-            "CFP_O_WestUltra_Truck_01",
-            "CFP_O_WestUltra_Van_01",
-            "CFP_O_WestUltra_Car_01"
+            "CFP_I_WestUltra_Offroad_01",
+            "CFP_I_WestUltra_Rifleman_01",
+            "CFP_I_WestUltra_Team_Leader_01",
+            "CFP_I_WestUltra_Marksman_01",
+            "CFP_I_WestUltra_Gunner_01",
+            "CFP_I_WestUltra_Medic_01",
+            "CFP_I_WestUltra_Specialist_01",
+            "CFP_I_WestUltra_SUV_02",
+            "CFP_I_WestUltra_4WD_01",
+            "CFP_I_WestUltra_Quad_Bike_01",
+            "CFP_I_WestUltra_Truck_01",
+            "CFP_I_WestUltra_Van_01",
+            "CFP_I_WestUltra_Car_01"
         };
         weapons[] = {};
         requiredVersion = 1.62;
