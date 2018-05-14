@@ -158,11 +158,11 @@
 	{
 		modelsides[] = {3,2,1,0};
 	};
-	class B_Helipilot_F: B_Soldier_base_F
+	class B_Helipilot_F: B_Soldier_04_f
 	{
 		modelsides[] = {3,2,1,0};
 	};
-	class B_Pilot_F: B_Helipilot_F
+	class B_Pilot_F: B_Soldier_05_f
 	{
 		modelsides[] = {3,2,1,0};
 	};
