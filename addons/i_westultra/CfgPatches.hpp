@@ -16,7 +16,6 @@ class CfgPatches {
             "CFP_I_WestUltra_Car_01"
         };
         weapons[] = {};
-        requiredVersion = 1.62;
         requiredAddons[] = {
             "CUP_Creatures_Military_Chedaki",
             "CUP_Wheeled_SUV",
@@ -29,7 +28,9 @@ class CfgPatches {
             "A3_Soft_F",
             "A3_Soft_F_Gamma_Hatchback_01"
         };
-        author = "Matt";
-        authors[] = {"Matt"};
+        author = MODULE_AUTHOR;
+        authors[] = {"Tupolov"};
+        requiredVersion = REQUIRED_VERSION;
+        VERSION_CONFIG;
     };
 };

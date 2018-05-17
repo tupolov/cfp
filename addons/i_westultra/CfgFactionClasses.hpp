@@ -8,8 +8,8 @@ class CfgFactionClasses {
     class CFP_I_WestUltra {
         displayName = "Western Ultranationalists";
         side = 2;
-        flag = "\A3\ui_f_orange\data\cfgmarkers\white_ca.paa";
-        icon = "\A3\ui_f_orange\data\cfgmarkers\white_ca.paa";
+        flag = "x\cfp\addons\flags\Others\3percenters.paa";
+        icon = "x\cfp\addons\flags\Others\3percenters.paa";
         priority = 0;
     };
 };

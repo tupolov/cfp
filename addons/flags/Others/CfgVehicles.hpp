@@ -1,4 +1,14 @@
-
+	class threepercenters_Flag: FlagPole_F
+	{
+		scope = 2;
+		accuracy = 10000;
+		displayName = "3 Percenters";
+		nameSound = "flag";
+		class EventHandlers
+		{
+			init = "(_this select 0) setFlagTexture ""\x\cfp\addons\flags\Others\3percenters.paa""";
+		};
+	};
 	class Antarctica_Flag: FlagPole_F
 	{
 		scope = 2;
