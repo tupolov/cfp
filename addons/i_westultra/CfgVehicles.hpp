@@ -77,16 +77,15 @@ class CfgVehicles {
     class CUP_C_Octavia_CIV_OCimport_02 : CUP_C_Octavia_CIV_OCimport_01 { scope = 0; class EventHandlers; };
 
 
-    class CFP_O_WestUltra_Offroad_01 : I_G_Offroad_01_F_OCimport_02 {
-        editorPreview = \x\cfp\addons\o_westultra\data\preview\CFP_O_WestUltra_Offroad_01.JPG;
+    class CFP_I_WestUltra_Offroad_01 : I_G_Offroad_01_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_westultra\data\preview\CFP_I_WestUltra_Offroad_01.JPG;
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
         displayName = "Offroad";
-        side = 0;
-        faction = "CFP_O_WestUltra";
-        crew = "CFP_O_WestUltra_Rifleman_01";
-
+        side = 2;
+        faction = "CFP_I_WestUltra";
+        crew = "CFP_I_WestUltra_Rifleman_01";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -112,16 +111,16 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_WestUltra_Rifleman_01 : CUP_O_INS_Worker2_OCimport_02 {
-        editorPreview = \x\cfp\addons\o_westultra\data\preview\CFP_O_WestUltra_Rifleman_01.JPG;
+    class CFP_I_WestUltra_Rifleman_01 : CUP_O_INS_Worker2_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_westultra\data\preview\CFP_I_WestUltra_Rifleman_01.JPG;
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman";
-        side = 0;
-        faction = "CFP_O_WestUltra";
+        side = 2;
+        faction = "CFP_I_WestUltra";
         genericNames = "NATOMen";
-        identityTypes[] = {"Head_Euro","CUP_D_Language_RU","G_GUERIL_default"};
+        identityTypes[] = {"Head_Euro","LanguageENG_F","G_GUERIL_default"};
 
         uniformClass = "U_BG_Guerilla2_1";
 
@@ -230,16 +229,16 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_WestUltra_Team_Leader_01 : CFP_O_WestUltra_Rifleman_01 {
-        editorPreview = \x\cfp\addons\o_westultra\data\preview\CFP_O_WestUltra_Team_Leader_01.JPG;
+    class CFP_I_WestUltra_Team_Leader_01 : CFP_I_WestUltra_Rifleman_01 {
+        editorPreview = \x\cfp\addons\i_westultra\data\preview\CFP_I_WestUltra_Team_Leader_01.JPG;
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
         displayName = "Team Leader";
-        side = 0;
-        faction = "CFP_O_WestUltra";
+        side = 2;
+        faction = "CFP_I_WestUltra";
 
-        identityTypes[] = {"Head_NATO","CUP_D_Language_RU","G_GUERIL_default"};
+        identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
 
         uniformClass = "CUP_I_B_PMC_Unit_15";
 
@@ -259,16 +258,16 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_WestUltra_Marksman_01 : CFP_O_WestUltra_Rifleman_01 {
-        editorPreview = \x\cfp\addons\o_westultra\data\preview\CFP_O_WestUltra_Marksman_01.JPG;
+    class CFP_I_WestUltra_Marksman_01 : CFP_I_WestUltra_Rifleman_01 {
+        editorPreview = \x\cfp\addons\i_westultra\data\preview\CFP_I_WestUltra_Marksman_01.JPG;
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
         displayName = "Marksman";
-        side = 0;
-        faction = "CFP_O_WestUltra";
+        side = 2;
+        faction = "CFP_I_WestUltra";
 
-        identityTypes[] = {"Head_Greek","CUP_D_Language_RU","G_GUERIL_default"};
+        identityTypes[] = {"Head_Greek","LanguageENG_F","G_GUERIL_default"};
 
         uniformClass = "CUP_I_B_PMC_Unit_22";
 
@@ -297,16 +296,16 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_WestUltra_Gunner_01 : CFP_O_WestUltra_Rifleman_01 {
-        editorPreview = \x\cfp\addons\o_westultra\data\preview\CFP_O_WestUltra_Gunner_01.JPG;
+    class CFP_I_WestUltra_Gunner_01 : CFP_I_WestUltra_Rifleman_01 {
+        editorPreview = \x\cfp\addons\i_westultra\data\preview\CFP_I_WestUltra_Gunner_01.JPG;
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
         displayName = "Gunner";
-        side = 0;
-        faction = "CFP_O_WestUltra";
+        side = 2;
+        faction = "CFP_I_WestUltra";
 
-        identityTypes[] = {"Head_NATO","CUP_D_Language_RU","G_GUERIL_default"};
+        identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
 
         uniformClass = "CUP_I_B_PMC_Unit_3";
 
@@ -328,18 +327,18 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_WestUltra_Medic_01 : CFP_O_WestUltra_Rifleman_01 {
-        editorPreview = \x\cfp\addons\o_westultra\data\preview\CFP_O_WestUltra_Medic_01.JPG;
+    class CFP_I_WestUltra_Medic_01 : CFP_I_WestUltra_Rifleman_01 {
+        editorPreview = \x\cfp\addons\i_westultra\data\preview\CFP_I_WestUltra_Medic_01.JPG;
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
         displayName = "Medic";
-        side = 0;
-        faction = "CFP_O_WestUltra";
+        side = 2;
+        faction = "CFP_I_WestUltra";
         attendant = 1;
         icon = "iconManMedic";
         picture = "pictureHeal";
-        identityTypes[] = {"Head_Greek","CUP_D_Language_RU","G_GUERIL_default"};
+        identityTypes[] = {"Head_Greek","LanguageENG_F","G_GUERIL_default"};
         uniformClass = "U_I_C_Soldier_Para_1_F";
 
         items[] = {"FirstAidKit","Medikit"};
@@ -361,18 +360,18 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_WestUltra_Specialist_01 : CFP_O_WestUltra_Rifleman_01 {
-        editorPreview = \x\cfp\addons\o_westultra\data\preview\CFP_O_WestUltra_Specialist_01.JPG;
+    class CFP_I_WestUltra_Specialist_01 : CFP_I_WestUltra_Rifleman_01 {
+        editorPreview = \x\cfp\addons\i_westultra\data\preview\CFP_I_WestUltra_Specialist_01.JPG;
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
         displayName = "Specialist";
-        side = 0;
-        faction = "CFP_O_WestUltra";
+        side = 2;
+        faction = "CFP_I_WestUltra";
         engineer = 1;
         canDeactivateMines = 1;
 
-        identityTypes[] = {"Tanker","CUP_D_Language_RU","G_GUERIL_default"};
+        identityTypes[] = {"Tanker","LanguageENG_F","G_GUERIL_default"};
 
         uniformClass = "U_BG_Guerilla2_3";
 
@@ -394,15 +393,15 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_WestUltra_SUV_02 : CUP_I_SUV_UNO_OCimport_02 {
-        editorPreview = \x\cfp\addons\o_westultra\data\preview\CFP_O_WestUltra_SUV_02.JPG;
+    class CFP_I_WestUltra_SUV_02 : CUP_I_SUV_UNO_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_westultra\data\preview\CFP_I_WestUltra_SUV_02.JPG;
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
         displayName = "SUV";
-        side = 0;
-        faction = "CFP_O_WestUltra";
-        crew = "CFP_O_WestUltra_Rifleman_01";
+        side = 2;
+        faction = "CFP_I_WestUltra";
+        crew = "CFP_I_WestUltra_Rifleman_01";
 
         class Turrets : Turrets {
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -430,15 +429,15 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_WestUltra_4WD_01 : C_Offroad_02_unarmed_F_OCimport_02 {
-        editorPreview = \x\cfp\addons\o_westultra\data\preview\CFP_O_WestUltra_4WD_01.JPG;
+    class CFP_I_WestUltra_4WD_01 : C_Offroad_02_unarmed_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_westultra\data\preview\CFP_I_WestUltra_4WD_01.JPG;
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
         displayName = "4WD";
-        side = 0;
-        faction = "CFP_O_WestUltra";
-        crew = "CFP_O_WestUltra_Rifleman_01";
+        side = 2;
+        faction = "CFP_I_WestUltra";
+        crew = "CFP_I_WestUltra_Rifleman_01";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -463,15 +462,15 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_WestUltra_Quad_Bike_01 : C_Quadbike_01_F_OCimport_02 {
-        editorPreview = \x\cfp\addons\o_westultra\data\preview\CFP_O_WestUltra_Quad_Bike_01.JPG;
+    class CFP_I_WestUltra_Quad_Bike_01 : C_Quadbike_01_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_westultra\data\preview\CFP_I_WestUltra_Quad_Bike_01.JPG;
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
         displayName = "Quad Bike";
-        side = 0;
-        faction = "CFP_O_WestUltra";
-        crew = "CFP_O_WestUltra_Rifleman_01";
+        side = 2;
+        faction = "CFP_I_WestUltra";
+        crew = "CFP_I_WestUltra_Rifleman_01";
 
 
         class EventHandlers : EventHandlers {
@@ -489,15 +488,15 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_WestUltra_Truck_01 : C_Van_01_box_F_OCimport_02 {
-        editorPreview = \x\cfp\addons\o_westultra\data\preview\CFP_O_WestUltra_Truck_01.JPG;
+    class CFP_I_WestUltra_Truck_01 : C_Van_01_box_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_westultra\data\preview\CFP_I_WestUltra_Truck_01.JPG;
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
         displayName = "Truck";
-        side = 0;
-        faction = "CFP_O_WestUltra";
-        crew = "CFP_O_WestUltra_Rifleman_01";
+        side = 2;
+        faction = "CFP_I_WestUltra";
+        crew = "CFP_I_WestUltra_Rifleman_01";
 
 
         class EventHandlers : EventHandlers {
@@ -515,15 +514,15 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_WestUltra_Van_01 : C_Van_02_transport_F_OCimport_02 {
-        editorPreview = \x\cfp\addons\o_westultra\data\preview\CFP_O_WestUltra_Van_01.JPG;
+    class CFP_I_WestUltra_Van_01 : C_Van_02_transport_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_westultra\data\preview\CFP_I_WestUltra_Van_01.JPG;
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
         displayName = "Van";
-        side = 0;
-        faction = "CFP_O_WestUltra";
-        crew = "CFP_O_WestUltra_Rifleman_01";
+        side = 2;
+        faction = "CFP_I_WestUltra";
+        crew = "CFP_I_WestUltra_Rifleman_01";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -548,15 +547,15 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_WestUltra_Car_01 : CUP_C_Octavia_CIV_OCimport_02 {
-        editorPreview = \x\cfp\addons\o_westultra\data\preview\CFP_O_WestUltra_Car_01.JPG;
+    class CFP_I_WestUltra_Car_01 : CUP_C_Octavia_CIV_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_westultra\data\preview\CFP_I_WestUltra_Car_01.JPG;
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
         displayName = "Car";
-        side = 0;
-        faction = "CFP_O_WestUltra";
-        crew = "CFP_O_WestUltra_Rifleman_01";
+        side = 2;
+        faction = "CFP_I_WestUltra";
+        crew = "CFP_I_WestUltra_Rifleman_01";
 
 
         class EventHandlers : EventHandlers {
@@ -585,7 +584,7 @@ class CfgVehicles {
 
     class CUP_USVehicleBox; // CUP_USVehicleBox
 
-    class CFP_O_WestUltra_AmmoBox : CUP_USBasicAmmunitionBox {
+    class CFP_I_WestUltra_AmmoBox : CUP_USBasicAmmunitionBox {
         author = ALiVE ORBAT CREATOR;
         displayName = Western Ultranationalists Ammo Box;
         class TransportMagazines {
@@ -600,7 +599,7 @@ class CfgVehicles {
         };
     };
 
-    class CFP_O_WestUltra_WeaponsBox : CUP_USBasicWeaponsBox {
+    class CFP_I_WestUltra_WeaponsBox : CUP_USBasicWeaponsBox {
         author = ALiVE ORBAT CREATOR;
         displayName = Western Ultranationalists Weapons Box;
         class TransportMagazines {
@@ -623,7 +622,7 @@ class CfgVehicles {
         };
     };
 
-    class CFP_O_WestUltra_LaunchersBox : CUP_USLaunchersBox {
+    class CFP_I_WestUltra_LaunchersBox : CUP_USLaunchersBox {
         author = ALiVE ORBAT CREATOR;
         displayName = Western Ultranationalists Launchers Box;
         class TransportMagazines {
@@ -633,7 +632,7 @@ class CfgVehicles {
         class TransportItems {
         };
     };
-    class CFP_O_WestUltra_UniformBox : CUP_USBasicWeaponsBox {
+    class CFP_I_WestUltra_UniformBox : CUP_USBasicWeaponsBox {
         author = ALiVE ORBAT CREATOR;
         displayName = Western Ultranationalists Uniform Box;
         class TransportWeapons {
@@ -646,7 +645,7 @@ class CfgVehicles {
             item_xx(U_I_C_Soldier_Para_1_F,15);
         };
     };
-    class CFP_O_WestUltra_SupportBox : CUP_USSpecialWeaponsBox {
+    class CFP_I_WestUltra_SupportBox : CUP_USSpecialWeaponsBox {
         author = ALiVE ORBAT CREATOR;
         displayName = Western Ultranationalists Support Box;
         class TransportWeapons {
@@ -674,7 +673,7 @@ class CfgVehicles {
             item_xx(CFP_Beard,10);
         };
     };
-    class CFP_O_WestUltra_SupplyBox : CUP_USVehicleBox {
+    class CFP_I_WestUltra_SupplyBox : CUP_USVehicleBox {
         author = ALiVE ORBAT CREATOR;
         displayName = Western Ultranationalists Supply Box;
         class TransportMagazines {
