@@ -13,7 +13,9 @@ class CfgPatches
 			"CFP_AK12_Woodland",
 			"CFP_AK12_GL_Woodland",
 			"CFP_AK12_Desert",
-			"CFP_AK12_GL_Desert"
+			"CFP_AK12_GL_Desert",
+			"CFP_PKP_Woodland",
+			"CFP_PKP_Desert"
 		};
         author = MODULE_AUTHOR;
         authors[] = {"AccuracyThruVolume", "Tupolov", "AuburnAlumni"};

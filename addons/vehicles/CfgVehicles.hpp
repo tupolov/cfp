@@ -628,11 +628,18 @@ class CfgVehicles
     	    };
     	    class UAZMAINIS4
     	    {
-    		displayName = "Main UAZIS4";
-    		author = "AccuracyThruVolume";
+    		      displayName = "Main UAZIS4";
+    		      author = "AccuracyThruVolume";
                     textures[] = {"\x\cfp\addons\vehicles\UAZ\uaz_main_is_4.paa"};
                     factions[] = {};
     	    };
+            class Iran
+            {
+                  displayName = "Iran";
+                  author = "AuburnAlumni";
+                    textures[] = {"\x\cfp\addons\vehicles\UAZ\uaz_main_iran.paa"};
+                    factions[] = {};
+            };
         };
     };
 
@@ -1388,9 +1395,87 @@ class CfgVehicles
     	    {
         		displayName = "URAL IS8";
         		author = "AccuracyThruVolume";
-                    textures[] = {"\x\cfp\addons\vehicles\Ural\ural_is_8.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_plachta_sla_co.paa"};
-                    factions[] = {};
+                textures[] = {"\x\cfp\addons\vehicles\Ural\ural_is_8.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_plachta_sla_co.paa"};
+                factions[] = {};
     	    };
+            class Iran
+            {
+                displayName = "Iran";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_iran.paa","\x\cfp\addons\vehicles\Ural\ural_plachta_iran.paa"};
+                factions[] = {};
+            };
+        };
+    };
+
+    class CUP_Ural_ZU23_Base : CUP_Ural_BaseTurret
+    {
+        class textureSources
+        {
+            class Iran
+            {
+                displayName = "Iran";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_iran.paa","\x\cfp\addons\vehicles\Ural\ural_open_iran.paa"};
+                factions[] = {};
+            };
+        };
+    };
+
+    class CUP_Ural_Open_Base: CUP_Ural_Base
+    {
+        class textureSources
+        {
+            class Iran
+            {
+                displayName = "Iran";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_iran.paa","\x\cfp\addons\vehicles\Ural\ural_open_iran.paa"};
+                factions[] = {};
+            };
+        };
+    };
+
+    class CUP_Ural_Support_Base;
+    class CUP_Ural_Refuel_Base: CUP_Ural_Support_Base
+    {
+        class textureSources
+        {
+            class Iran
+            {
+                displayName = "Iran";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_iran.paa","\x\cfp\addons\vehicles\Ural\ural_open_iran.paa","\x\cfp\addons\vehicles\Ural\ural_fuel_iran.paa"};
+                factions[] = {};
+            };
+        };
+    };
+
+    class CUP_Ural_Repair_Base: CUP_Ural_Support_Base
+    {
+        class textureSources
+        {
+            class Iran
+            {
+                displayName = "Iran";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_iran.paa","\x\cfp\addons\vehicles\Ural\ural_plachta_iran.paa"};
+                factions[] = {};
+            };
+        };
+    };
+
+    class CUP_Ural_Reammo_Base: CUP_Ural_Support_Base
+    {
+        class textureSources
+        {
+            class Iran
+            {
+                displayName = "Iran";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_iran.paa","\x\cfp\addons\vehicles\Ural\ural_plachta_iran.paa"};
+                factions[] = {};
+            };
         };
     };
 
@@ -1430,6 +1515,20 @@ class CfgVehicles
                     "\x\cfp\addons\vehicles\RG31\exa_rg31_body2_od_olive_ca.paa",
                     "cup\wheeledvehicles\cup_wheeledvehicles_rg31\data\exa_rg31_interior2_od_co.paa"
                 };
+                factions[] = {};
+            };
+        };
+    };
+
+    class CUP_Volha_Base: Car_F
+    {
+        class textureSources
+        {
+            class Iran
+            {
+                displayName = "Iran";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Volha\volha_black_iran"};
                 factions[] = {};
             };
         };
@@ -1542,6 +1641,20 @@ class CfgVehicles
         };
     };
 
+    class CUP_CH47F_base: Helicopter_Base_H
+    {
+        class textureSources
+        {
+            class Iran
+            {
+                displayname = "Iran";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\CH47\ch47_ext_iran1_co.paa","\x\cfp\addons\vehicles\CH47\ch47_ext_iran2_co.paa"};
+                factions[] = {};
+            };
+        };
+    };
+
     class Heli_Light_02_base_F : Helicopter_Base_H
     {
         class textureSources
@@ -1579,6 +1692,20 @@ class CfgVehicles
                 displayname = "KDF Camo";
                 author = "AuburnAlumni";
                 textures[] = {"\x\cfp\addons\vehicles\Hummingbird\Hummingbird_KDF.paa"};
+                factions[] = {};
+            };
+        };
+    };
+
+    class CUP_AH1Z_Base: Helicopter_Base_H
+    {
+        class textureSources
+        {
+            class Iran
+            {
+                displayname = "Iran";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\AH1Z\Iranbody.paa","\x\cfp\addons\vehicles\AH1Z\Iranengine.paa"};
                 factions[] = {};
             };
         };
@@ -1729,6 +1856,20 @@ class CfgVehicles
                 displayname = "Iran";
                 author = "AuburnAlumni";
                 textures[] = {"\x\cfp\addons\vehicles\M60\Iranbodyuv.paa","\x\cfp\addons\vehicles\M60\IranM60Turret.paa","\x\cfp\addons\vehicles\M60\IranGun_mnt.paa","\x\cfp\addons\vehicles\M60\IranM60_gun.paa","\x\cfp\addons\vehicles\M60\Iranm60_fuelcan_co.paa","\x\cfp\addons\vehicles\M60\Iranwheel_1_g_co.paa","\x\cfp\addons\vehicles\M60\Iranwheel_2_g_co.paa","CUP\TrackedVehicles\CUP_TrackedVehicles_M1_Abrams\data\m1abrams_02_co.paa","\x\cfp\addons\vehicles\M60\Iranbk_eg_co.paa","CUP\TrackedVehicles\CUP_TrackedVehicles_M60\data\m60_alp_uvs_1024s_ca.paa"};
+                factions[] = {};
+            };
+        };
+   };
+
+   class CUP_T55_Base: Tank_F
+   {
+        class textureSources
+        {
+            class Iran
+            {
+                displayname = "Iran";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\T55\t55_body_iran.paa","\x\cfp\addons\vehicles\T55\t55_tower_iran.paa"};
                 factions[] = {};
             };
         };

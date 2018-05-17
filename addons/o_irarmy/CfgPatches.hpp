@@ -37,22 +37,35 @@ class CfgPatches {
             "CFP_O_IRARMY_BTR_90_01",
             "CFP_O_IRARMY_M113_01",
             "CFP_O_IRARMY_M60_Patton_01",
-            "CFP_O_IRARMY_T72_01"
+            "CFP_O_IRARMY_T72_01",
+            "CFP_O_IRARMY_Ural_01",
+            "CFP_O_IRARMY_Ural_ZU_23_01",
+            "CFP_O_IRARMY_Ural_Open_01",
+            "CFP_O_IRARMY_Ural_Refuel_01",
+            "CFP_O_IRARMY_Ural_Repair_01",
+            "CFP_O_IRARMY_Ural_Ammo_01",
+            "CFP_O_IRARMY_Volha_01",
+            "CFP_O_IRARMY_Safir_01",
+            "CFP_O_IRARMY_Safir_SPG_01",
+            "CFP_O_IRARMY_Safir_DShKM_01",
+            "CFP_O_IRARMY_Safir_Metis_01",
+            "CFP_O_IRARMY_Safir_AGS_30_01",
+            "CFP_O_IRARMY_T55_01"
         };
         weapons[] = {};
         requiredVersion = 1.62;
         requiredAddons[] = {
-            "A3_Characters_F",
-            "cfp_uniforms",
-            "cfp_vehicles",
-            "CUP_TrackedVehicles_BMP",
-            "CUP_WheeledVehicles_BTR60",
-            "CFP_O_RUARMY_DES",
-            "CFP_O_RUMVD",
+            "CFP_O_HEZBOLLAH",
+            "CFP_B_NAARMY",
             "CFP_B_UGARMY",
-            "CUP_TrackedVehicles_M113",
-            "CUP_TrackedVehicles_M60",
-            "CUP_TrackedVehicles_T72"
+            "CFP_B_CAF",
+            "CFP_B_AFARMY",
+            "CFP_B_USMC_DES",
+            "CFP_B_KEARMY",
+            "cfp_vehicles",
+            "CUP_WheeledVehicles_Ural",
+            "CUP_WheeledVehicles_Volha",
+            "CUP_WheeledVehicles_UAZ"
         };
         author = "Drew";
         authors[] = {"Drew"};

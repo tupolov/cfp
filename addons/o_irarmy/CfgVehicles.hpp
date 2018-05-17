@@ -124,6 +124,110 @@ class CfgVehicles {
         };
     };
 
+    class CUP_O_Ural_SLA;
+    class CUP_O_Ural_SLA_OCimport_01 : CUP_O_Ural_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_Ural_SLA_OCimport_02 : CUP_O_Ural_SLA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class CargoTurret_01;
+            class CargoTurret_02;
+        };
+    };
+
+    class CUP_O_Ural_ZU23_SLA;
+    class CUP_O_Ural_ZU23_SLA_OCimport_01 : CUP_O_Ural_ZU23_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_Ural_ZU23_SLA_OCimport_02 : CUP_O_Ural_ZU23_SLA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
+    class CUP_O_Ural_Open_SLA;
+    class CUP_O_Ural_Open_SLA_OCimport_01 : CUP_O_Ural_Open_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_Ural_Open_SLA_OCimport_02 : CUP_O_Ural_Open_SLA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class CargoTurret_01;
+            class CargoTurret_02;
+        };
+    };
+
+    class CUP_O_Ural_Refuel_SLA;
+    class CUP_O_Ural_Refuel_SLA_OCimport_01 : CUP_O_Ural_Refuel_SLA { scope = 0; class EventHandlers; };
+    class CUP_O_Ural_Refuel_SLA_OCimport_02 : CUP_O_Ural_Refuel_SLA_OCimport_01 { scope = 0; class EventHandlers; };
+
+    class CUP_O_Ural_Repair_SLA;
+    class CUP_O_Ural_Repair_SLA_OCimport_01 : CUP_O_Ural_Repair_SLA { scope = 0; class EventHandlers; };
+    class CUP_O_Ural_Repair_SLA_OCimport_02 : CUP_O_Ural_Repair_SLA_OCimport_01 { scope = 0; class EventHandlers; };
+
+    class CUP_O_Ural_Reammo_SLA;
+    class CUP_O_Ural_Reammo_SLA_OCimport_01 : CUP_O_Ural_Reammo_SLA { scope = 0; class EventHandlers; };
+    class CUP_O_Ural_Reammo_SLA_OCimport_02 : CUP_O_Ural_Reammo_SLA_OCimport_01 { scope = 0; class EventHandlers; };
+
+    class CUP_O_Volha_SLA;
+    class CUP_O_Volha_SLA_OCimport_01 : CUP_O_Volha_SLA { scope = 0; class EventHandlers; };
+    class CUP_O_Volha_SLA_OCimport_02 : CUP_O_Volha_SLA_OCimport_01 { scope = 0; class EventHandlers; };
+
+    class CUP_O_UAZ_Unarmed_SLA;
+    class CUP_O_UAZ_Unarmed_SLA_OCimport_01 : CUP_O_UAZ_Unarmed_SLA { scope = 0; class EventHandlers; };
+    class CUP_O_UAZ_Unarmed_SLA_OCimport_02 : CUP_O_UAZ_Unarmed_SLA_OCimport_01 { scope = 0; class EventHandlers; };
+
+    class CUP_O_UAZ_SPG9_SLA;
+    class CUP_O_UAZ_SPG9_SLA_OCimport_01 : CUP_O_UAZ_SPG9_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_UAZ_SPG9_SLA_OCimport_02 : CUP_O_UAZ_SPG9_SLA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class CargoTurret_01;
+            class MainTurret;
+        };
+    };
+
+    class CUP_O_UAZ_MG_SLA;
+    class CUP_O_UAZ_MG_SLA_OCimport_01 : CUP_O_UAZ_MG_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_UAZ_MG_SLA_OCimport_02 : CUP_O_UAZ_MG_SLA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class CargoTurret_01;
+            class MainTurret;
+        };
+    };
+
+    class CUP_O_UAZ_METIS_SLA;
+    class CUP_O_UAZ_METIS_SLA_OCimport_01 : CUP_O_UAZ_METIS_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_UAZ_METIS_SLA_OCimport_02 : CUP_O_UAZ_METIS_SLA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class CargoTurret_01;
+            class MainTurret;
+        };
+    };
+
+    class CUP_O_UAZ_AGS30_SLA;
+    class CUP_O_UAZ_AGS30_SLA_OCimport_01 : CUP_O_UAZ_AGS30_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_UAZ_AGS30_SLA_OCimport_02 : CUP_O_UAZ_AGS30_SLA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class CargoTurret_01;
+            class MainTurret;
+        };
+    };
+
+    class CUP_O_T55_SLA;
+    class CUP_O_T55_SLA_OCimport_01 : CUP_O_T55_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_T55_SLA_OCimport_02 : CUP_O_T55_SLA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+            class CargoTurret_01;
+            class CargoTurret_02;
+            class CargoTurret_03;
+            class CargoTurret_04;
+            class CargoTurret_05;
+            class CargoTurret_06;
+        };
+    };
+
 
     class CFP_O_IRARMY_Rifleman_65th_AB_01 : O_recon_F_OCimport_02 {
         author = "Drew";
@@ -1555,6 +1659,383 @@ class CfgVehicles {
 
             class ALiVE_orbatCreator {
                 init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\T72\iranbody1.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\T72\iranbody2.paa'];_unit setObjectTextureGlobal [2,'\x\cfp\addons\vehicles\T72\iranbody3.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "Iran";
+
+    };
+
+    class CFP_O_IRARMY_Ural_01 : CUP_O_Ural_SLA_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Ural ";
+        side = 0;
+        faction = "CFP_O_irarmy";
+        crew = "CFP_O_IRARMY_Rifleman_01";
+
+        class Turrets : Turrets {
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\Ural\ural_kabina_iran.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\Ural\ural_plachta_iran.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "Iran";
+
+    };
+
+    class CFP_O_IRARMY_Ural_ZU_23_01 : CUP_O_Ural_ZU23_SLA_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Ural [ZU-23]";
+        side = 0;
+        faction = "CFP_O_irarmy";
+        crew = "CFP_O_IRARMY_Rifleman_01";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "CFP_O_IRARMY_Rifleman_01"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\Ural\ural_kabina_iran.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\Ural\ural_open_iran.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "Iran";
+
+    };
+
+    class CFP_O_IRARMY_Ural_Open_01 : CUP_O_Ural_Open_SLA_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Ural [Open]";
+        side = 0;
+        faction = "CFP_O_irarmy";
+        crew = "CFP_O_IRARMY_Rifleman_01";
+
+        class Turrets : Turrets {
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\Ural\ural_kabina_iran.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\Ural\ural_open_iran.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "Iran";
+
+    };
+
+    class CFP_O_IRARMY_Ural_Refuel_01 : CUP_O_Ural_Refuel_SLA_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Ural [Refuel]";
+        side = 0;
+        faction = "CFP_O_irarmy";
+        crew = "CFP_O_IRARMY_Rifleman_01";
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\Ural\ural_kabina_iran.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\Ural\ural_open_iran.paa'];_unit setObjectTextureGlobal [2,'\x\cfp\addons\vehicles\Ural\ural_fuel_iran.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "Iran";
+
+    };
+
+    class CFP_O_IRARMY_Ural_Repair_01 : CUP_O_Ural_Repair_SLA_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Ural [Repair]";
+        side = 0;
+        faction = "CFP_O_irarmy";
+        crew = "CFP_O_IRARMY_Rifleman_01";
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\Ural\ural_kabina_iran.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\Ural\ural_plachta_iran.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "Iran";
+
+    };
+
+    class CFP_O_IRARMY_Ural_Ammo_01 : CUP_O_Ural_Reammo_SLA_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Ural [Ammo]";
+        side = 0;
+        faction = "CFP_O_irarmy";
+        crew = "CFP_O_IRARMY_Rifleman_01";
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\Ural\ural_kabina_iran.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\Ural\ural_plachta_iran.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "Iran";
+
+    };
+
+    class CFP_O_IRARMY_Volha_01 : CUP_O_Volha_SLA_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Volha";
+        side = 0;
+        faction = "CFP_O_irarmy";
+        crew = "CFP_O_IRARMY_Rifleman_01";
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\Volha\volha_black_iran'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "Iran";
+
+    };
+
+    class CFP_O_IRARMY_Safir_01 : CUP_O_UAZ_Unarmed_SLA_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Safir";
+        side = 0;
+        faction = "CFP_O_irarmy";
+        crew = "CFP_O_IRARMY_Rifleman_01";
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\UAZ\uaz_main_iran.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "Iran";
+
+    };
+
+    class CFP_O_IRARMY_Safir_SPG_01 : CUP_O_UAZ_SPG9_SLA_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Safir [SPG-9]";
+        side = 0;
+        faction = "CFP_O_irarmy";
+        crew = "CFP_O_IRARMY_Rifleman_01";
+
+        class Turrets : Turrets {
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\UAZ\uaz_main_iran.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "Iran";
+
+    };
+
+    class CFP_O_IRARMY_Safir_DShKM_01 : CUP_O_UAZ_MG_SLA_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Safir [DShKM]";
+        side = 0;
+        faction = "CFP_O_irarmy";
+        crew = "CFP_O_IRARMY_Rifleman_01";
+
+        class Turrets : Turrets {
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "CFP_O_IRARMY_Rifleman_01"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\UAZ\uaz_main_iran.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "Iran";
+
+    };
+
+    class CFP_O_IRARMY_Safir_Metis_01 : CUP_O_UAZ_METIS_SLA_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Safir [Metis-M]";
+        side = 0;
+        faction = "CFP_O_irarmy";
+        crew = "CFP_O_IRARMY_Rifleman_01";
+
+        class Turrets : Turrets {
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "CFP_O_IRARMY_Rifleman_01"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\UAZ\uaz_main_iran.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "Iran";
+
+    };
+
+    class CFP_O_IRARMY_Safir_AGS_30_01 : CUP_O_UAZ_AGS30_SLA_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Safir [AGS-30]";
+        side = 0;
+        faction = "CFP_O_irarmy";
+        crew = "CFP_O_IRARMY_Rifleman_01";
+
+        class Turrets : Turrets {
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "CFP_O_IRARMY_Rifleman_01"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\UAZ\uaz_main_iran.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "Iran";
+
+    };
+
+    class CFP_O_IRARMY_T55_01 : CUP_O_T55_SLA_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "T-55";
+        side = 0;
+        faction = "CFP_O_irarmy";
+        crew = "CFP_O_IRARMY_Crewman_01";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "CFP_O_IRARMY_Crewman_01"; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
+            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
+            class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
+            class CargoTurret_06 : CargoTurret_06 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\T55\t55_body_iran.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\T55\t55_tower_iran.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
