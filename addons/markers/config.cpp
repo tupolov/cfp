@@ -2,13 +2,17 @@
 
 class CfgPatches
 {
-	class CFP_Markers
+	class ADDON
 	{
 		units[] = {};
 		weapons[] = {};
-		requiredVersion = 0.1;
-		requiredAddons[] = {};
-		author[] = {"CFP"};
+        author = MODULE_AUTHOR;
+        authors[] = {"Siege-A"};
+        requiredVersion = REQUIRED_VERSION;
+        VERSION_CONFIG;
+        requiredAddons[] = {
+        	"A3_UI_F"
+        };
 	};
 };
 
