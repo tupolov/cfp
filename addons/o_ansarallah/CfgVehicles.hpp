@@ -256,12 +256,6 @@ class CfgVehicles {
                 "CFP_AK_VEST_Olive", 0.2,
                 "CFP_AK_VEST_Tan", 0.2,
                 "CFP_AK_VEST_Lime", 0.2,
-                "V_ChestRig_blk",0.2,
-                "V_ChestRig_oli",0.2,
-                "V_ChestRig_rgr",0.2,
-                "V_ChestRig_khk",0.2,
-                "SP_ChestRig1_Grey",0.2,
-                "SP_ChestRig1_Tan",0.2,
                 "CFP_HouthisJacket", 0.1
             };
 
