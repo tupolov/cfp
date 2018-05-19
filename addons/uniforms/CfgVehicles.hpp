@@ -4,7 +4,6 @@ class CfgVehicles {
     #include "0Unlocked\CfgVehicles.hpp"
 	#include "BattleDressUniform\CfgVehicles.hpp"
 	#include "Coverall\CfgVehicles.hpp"
-	#include "DiverUniform\CfgVehicles.hpp"
 	#include "FieldUniform\CfgVehicles.hpp"
 	#include "KhetPartug\CfgVehicles.hpp"
 	#include "PulloverUniform\CfgVehicles.hpp"

@@ -250,7 +250,7 @@ class CfgVehicleClasses
 		};
 	};
 
-	class Modular1_Atacs_au : SP_Modular1_Tan
+	class SP_Modular1_Atacs_au : SP_Modular1_Tan
 	{
 		scope = 2;
 		displayName = "Modular 1 (A-Tacs AU)";

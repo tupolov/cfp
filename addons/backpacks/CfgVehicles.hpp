@@ -379,6 +379,29 @@ class CfgVehicles
         hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Compact\backpack_compact_flecktarn.paa"};
         author = "AuburnAlumni";
     };
+    class B_FieldPack_Base;
+    class CFP_FieldPack_ATACSFG: B_FieldPack_Base
+    {
+        picture = "\A3\weapons_f\ammoboxes\bags\data\ui\icon_B_C_Gorod_khk_ca.paa";
+        scope = 2;
+        maximumLoad = 200;
+        displayName = "Field Pack (ATACS FG)";
+        model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Gorod";
+        // picture = "\A3\weapons_f\ammoboxes\bags\data\ui\icon_B_C_Gorod_khk_ca.paa";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Gorod\backpack_gorod_atacsfg.paa"};
+        author = "AuburnAlumni";
+    };
+    class CFP_FieldPack_ATACSAU: B_FieldPack_Base
+    {
+        picture = "\A3\weapons_f\ammoboxes\bags\data\ui\icon_B_C_Gorod_khk_ca.paa";
+        scope = 2;
+        maximumLoad = 200;
+        displayName = "Field Pack (ATACS AU)";
+        model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Gorod";
+        // picture = "\A3\weapons_f\ammoboxes\bags\data\ui\icon_B_C_Gorod_khk_ca.paa";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Gorod\backpack_gorod_atacsau.paa"};
+        author = "AuburnAlumni";
+    };
 };
 
 

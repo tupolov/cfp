@@ -108,33 +108,6 @@
 	};
 
 
-	class SP_0000_Standard_BattleDressUniform_BlueDark: CFP_Uniform
-	{
-
-
-		displayName = "Battle Dress Uniform (Blue Dark)";
-
-		uniformClass = "SP_0000_Standard_BattleDressUniform_BlueDark";
-
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\BlueDark.paa","\x\cfp\addons\uniforms\FieldUniform\0000_Standard\BlueDark.paa"};
-
-	};
-
-
-	class SP_0000_Standard_BattleDressUniform_BlueFrost: CFP_Uniform
-	{
-
-
-		displayName = "Battle Dress Uniform (Blue Frost)";
-
-		uniformClass = "SP_0000_Standard_BattleDressUniform_BlueFrost";
-
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\BlueFrost.paa","\x\cfp\addons\uniforms\FieldUniform\0000_Standard\BlueFrost.paa"};
-
-
-	};
-
-
 	class SP_0000_Standard_BattleDressUniform_GreenOlive: CFP_Uniform
 	{
 

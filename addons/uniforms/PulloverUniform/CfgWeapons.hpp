@@ -71,42 +71,6 @@
 		};
 	};
 
-	class SP_0000_Standard_PulloverUniform_BlueDark: Uniform_Base
-    {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_PulloverUniform_BlueDark.paa";
-		scope=2;
-		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Pullover Uniform (Blue Dark)";
-		// picture = "\x\cfp\addons\uniforms\PulloverUniform\0000_Standard\ui\BlueDark.jpg";
-		author = "SP Craig";
-
-		class ItemInfo: UniformItem
-		{
-			uniformModel = "-";
-			uniformClass = "SP_0000_Standard_PulloverUniform_BlueDark";
-			containerClass="Supply60";
-			mass=80;
-		};
-	};
-
-	class SP_0000_Standard_PulloverUniform_BlueFrost: Uniform_Base
-    {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_PulloverUniform_BlueFrost.paa";
-		scope=2;
-		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Pullover Uniform (Blue Frost)";
-		// picture = "\x\cfp\addons\uniforms\PulloverUniform\0000_Standard\ui\BlueFrost.jpg";
-		author = "SP Craig";
-
-		class ItemInfo: UniformItem
-		{
-			uniformModel = "-";
-			uniformClass = "SP_0000_Standard_PulloverUniform_BlueFrost";
-			containerClass="Supply60";
-			mass=80;
-		};
-	};
-
 	class SP_0000_Standard_PulloverUniform_GreenOlive: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_PulloverUniform_GreenOlive.paa";
