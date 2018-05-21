@@ -90,42 +90,6 @@
 		};
 	};
 
-	class SP_0000_Standard_BattleDressUniform_Hunter: Uniform_Base
-    {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_BattleDressUniform_Hunter.paa";
-		scope=2;
-		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Battle Dress Uniform (Hunter)";
-		// picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\Hunter.jpg";
-		author = "SP Craig";
-
-		class ItemInfo: UniformItem
-		{
-			uniformModel = "-";
-			uniformClass = "SP_0000_Standard_BattleDressUniform_Hunter";
-			containerClass="Supply60";
-			mass=80;
-		};
-	};
-
-	class SP_0000_Standard_BattleDressUniform_Hunter2: Uniform_Base
-    {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_BattleDressUniform_Hunter2.paa";
-		scope=2;
-		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Battle Dress Uniform (Hunter2)";
-		// picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\Hunter2.jpg";
-		author = "SP Craig";
-
-		class ItemInfo: UniformItem
-		{
-			uniformModel = "-";
-			uniformClass = "SP_0000_Standard_BattleDressUniform_Hunter2";
-			containerClass="Supply60";
-			mass=80;
-		};
-	};
-
 	class SP_0000_Standard_BattleDressUniform_ATacsFG: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_BattleDressUniform_ATacsFG.paa";

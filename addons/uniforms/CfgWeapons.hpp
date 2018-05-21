@@ -33,4 +33,5 @@ class CfgWeapons {
 	#include "TacticalUniform\CfgWeapons.hpp"
 	#include "Underwear\CfgWeapons.hpp"
 	#include "VDVUniform\CfgWeapons.hpp"
+	#include "CUPBDU\CfgWeapons.hpp"
 };

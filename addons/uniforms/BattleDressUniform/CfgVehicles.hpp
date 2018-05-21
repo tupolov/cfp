@@ -121,34 +121,6 @@
 	};
 
 
-	class SP_0000_Standard_BattleDressUniform_Hunter: CFP_Uniform
-	{
-
-
-		displayName = "Battle Dress Uniform (Hunter)";
-
-		uniformClass = "SP_0000_Standard_BattleDressUniform_Hunter";
-
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\Hunter.paa","\x\cfp\addons\uniforms\FieldUniform\0000_Standard\Hunter.paa"};
-
-
-	};
-
-
-	class SP_0000_Standard_BattleDressUniform_Hunter2: CFP_Uniform
-	{
-
-
-		displayName = "Battle Dress Uniform (Hunter2)";
-
-		uniformClass = "SP_0000_Standard_BattleDressUniform_Hunter2";
-
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\Hunter2.paa","\x\cfp\addons\uniforms\FieldUniform\0000_Standard\Hunter2.paa"};
-
-
-	};
-
-
 	class SP_0000_Standard_BattleDressUniform_ATacsFG: CFP_Uniform
 	{
 

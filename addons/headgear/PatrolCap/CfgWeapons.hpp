@@ -195,58 +195,6 @@ class CfgVehicleClasses
 		};
 	};
 
-	class SP_PatrolCap_BlueFrost: ItemCore
-    {
-        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_PatrolCap_BlueFrost.paa";
-		scope = 2;
-		weaponPoolAvailable = 1;
-		displayName = "Patrol Cap (Blue Frost)";
-		// picture = "\x\cfp\addons\headgear\PatrolCap\ui\BlueFrost.jpg";
-		model = "\x\cfp\addons\models\PatrolCap";
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\BlueFrost.paa"};
-		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
-
-
-
-		class ItemInfo: HeadgearItem
-		{
-			mass = 15;
-			uniformmodel = "\x\cfp\addons\models\PatrolCap";
-			modelSides[] = {3,1};
-			armor = 0;
-			passThrough = 0.30;
-			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\BlueFrost.paa"};
-			hiddenSelections[] = {"Camo"};
-		};
-	};
-
-	class SP_PatrolCap_BlueDark: ItemCore
-    {
-        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_PatrolCap_BlueDark.paa";
-		scope = 2;
-		weaponPoolAvailable = 1;
-		displayName = "Patrol Cap (Blue Dark)";
-		// picture = "\x\cfp\addons\headgear\PatrolCap\ui\BlueDark.jpg";
-		model = "\x\cfp\addons\models\PatrolCap";
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\BlueDark.paa"};
-		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
-
-
-
-		class ItemInfo: HeadgearItem
-		{
-			mass = 15;
-			uniformmodel = "\x\cfp\addons\models\PatrolCap";
-			modelSides[] = {3,1};
-			armor = 0;
-			passThrough = 0.30;
-			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\BlueDark.paa"};
-			hiddenSelections[] = {"Camo"};
-		};
-	};
-
 	class SP_PatrolCap_GreenOlive: ItemCore
     {
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_PatrolCap_GreenOlive.paa";
@@ -269,59 +217,6 @@ class CfgVehicleClasses
 			armor = 0;
 			passThrough = 0.30;
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\GreenOlive.paa"};
-			hiddenSelections[] = {"Camo"};
-		};
-	};
-
-	class SP_PatrolCap_Hunter: ItemCore
-    {
-        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_PatrolCap_Hunter.paa";
-		scope = 2;
-		weaponPoolAvailable = 1;
-		displayName = "Patrol Cap (Hunter)";
-		// picture = "\x\cfp\addons\headgear\PatrolCap\ui\Hunter.jpg";
-		model = "\x\cfp\addons\models\PatrolCap";
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\Hunter.paa"};
-		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
-
-
-
-		class ItemInfo: HeadgearItem
-		{
-			mass = 15;
-			uniformmodel = "\x\cfp\addons\models\PatrolCap";
-			modelSides[] = {3,1};
-			armor = 0;
-			passThrough = 0.30;
-			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\Hunter.paa"};
-			hiddenSelections[] = {"Camo"};
-
-		};
-	};
-
-	class SP_PatrolCap_Hunter2: ItemCore
-    {
-        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_PatrolCap_Hunter2.paa";
-		scope = 2;
-		weaponPoolAvailable = 1;
-		displayName = "Patrol Cap (Hunter2)";
-		// picture = "\x\cfp\addons\headgear\PatrolCap\ui\Hunter2.jpg";
-		model = "\x\cfp\addons\models\PatrolCap";
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\Hunter2.paa"};
-		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
-
-
-
-		class ItemInfo: HeadgearItem
-		{
-			mass = 15;
-			uniformmodel = "\x\cfp\addons\models\PatrolCap";
-			modelSides[] = {3,1};
-			armor = 0;
-			passThrough = 0.30;
-			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\Hunter2.paa"};
 			hiddenSelections[] = {"Camo"};
 		};
 	};

@@ -89,42 +89,6 @@
 		};
 	};
 
-	class SP_0000_Standard_PulloverUniform_Hunter: Uniform_Base
-    {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_PulloverUniform_Hunter.paa";
-		scope=2;
-		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Pullover Uniform (Hunter)";
-		// picture = "\x\cfp\addons\uniforms\PulloverUniform\0000_Standard\ui\Hunter.jpg";
-		author = "SP Craig";
-
-		class ItemInfo: UniformItem
-		{
-			uniformModel = "-";
-			uniformClass = "SP_0000_Standard_PulloverUniform_Hunter";
-			containerClass="Supply60";
-			mass=80;
-		};
-	};
-
-	class SP_0000_Standard_PulloverUniform_Hunter2: Uniform_Base
-    {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_PulloverUniform_Hunter2.paa";
-		scope=2;
-		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Pullover Uniform (Hunter2)";
-		// picture = "\x\cfp\addons\uniforms\PulloverUniform\0000_Standard\ui\Hunter2.jpg";
-		author = "SP Craig";
-
-		class ItemInfo: UniformItem
-		{
-			uniformModel = "-";
-			uniformClass = "SP_0000_Standard_PulloverUniform_Hunter2";
-			containerClass="Supply60";
-			mass=80;
-		};
-	};
-
 	class SP_0000_Standard_PulloverUniform_ATacsFG: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_PulloverUniform_ATacsFG.paa";

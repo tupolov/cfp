@@ -41,26 +41,6 @@ class CfgVehicles
         hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\data\White.paa"};
         author = "SP Craig";
     };
-    class SP_Carryall_Hunter: B_Carryall_oucamo
-    {
-        picture = "\x\cfp\addons\backpacks\data\ui\icon_SP_Carryall_Hunter.paa";
-        scope = 2;
-        maximumLoad = 300;
-        displayName = CSTRING(SP_Carryall_Hunter);
-        // picture = "\x\cfp\addons\backpacks\data\Hunter.jpg";
-        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\data\Hunter.paa"};
-        author = "SP Craig";
-    };
-    class SP_Carryall_Hunter2: B_Carryall_oucamo
-    {
-        picture = "\x\cfp\addons\backpacks\data\ui\icon_SP_Carryall_Hunter2.paa";
-        scope = 2;
-        maximumLoad = 300;
-        displayName = CSTRING(SP_Carryall_Hunter2);
-        // picture = "\x\cfp\addons\backpacks\data\Hunter2.jpg";
-        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\data\Hunter2.paa"};
-        author = "SP Craig";
-    };
     class SP_Carryall_ATacsFG: B_Carryall_oucamo
     {
         picture = "\x\cfp\addons\backpacks\data\ui\icon_SP_Carryall_ATacsFG.paa";

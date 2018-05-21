@@ -49,40 +49,6 @@
 		};
 	};
 
-	class CFP_U_VDVBDU_IranSFDigital: Uniform_Base
-    {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";
-		scope=2;
-		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "BDU (Iran SF Digital)";
-		author = "AuburnAlumni";
-
-		class ItemInfo: UniformItem
-		{
-			uniformModel = "\x\cfp\addons\models\Modern_russian_soldier2.p3d";
-			uniformClass = "CFP_VDVBDU_IranSFDigital";
-			containerClass="Supply40";
-			mass=20;
-		};
-	};
-
-	class CFP_U_VDVBDU_PolygonDesertlight: Uniform_Base
-    {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";
-		scope=2;
-		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "BDU (Polygon Desert Light Boots)";
-		author = "AuburnAlumni";
-
-		class ItemInfo: UniformItem
-		{
-			uniformModel = "\x\cfp\addons\models\Modern_russian_soldier2.p3d";
-			uniformClass = "CFP_VDVBDU_PolygonDesertlight";
-			containerClass="Supply40";
-			mass=20;
-		};
-	};
-
 	class CFP_U_VDVBDU_OCPACU: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";

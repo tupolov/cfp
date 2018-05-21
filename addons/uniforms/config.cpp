@@ -17,8 +17,6 @@ class CfgPatches
 			"SP_0000_Standard_BattleDressUniform_Tan",
 			"SP_0000_Standard_BattleDressUniform_Grey",
 			"SP_0000_Standard_BattleDressUniform_GreenOlive",
-			"SP_0000_Standard_BattleDressUniform_Hunter",
-			"SP_0000_Standard_BattleDressUniform_Hunter2",
 			"SP_0000_Standard_BattleDressUniform_ATacsFG",
 			"SP_0000_Standard_BattleDressUniform_NodUrban",
 			"SP_0000_Standard_Coverall_Black",
@@ -43,10 +41,6 @@ class CfgPatches
 			"SP_0000_Standard_FieldUniform_Grey_SS",
 			"SP_0000_Standard_FieldUniform_GreenOlive",
 			"SP_0000_Standard_FieldUniform_GreenOlive_SS",
-			"SP_0000_Standard_FieldUniform_Hunter",
-			"SP_0000_Standard_FieldUniform_Hunter_SS",
-			"SP_0000_Standard_FieldUniform_Hunter2",
-			"SP_0000_Standard_FieldUniform_Hunter2_SS",
 			"SP_0000_Standard_FieldUniform_ATacsFG",
 			"SP_0000_Standard_FieldUniform_ATacsFG_SS",
 			"SP_0000_Standard_FieldUniform_NodUrban",
@@ -238,7 +232,8 @@ class CfgPatches
 			"CFP_Crye_Multicamplain",
 			"CFP_Crye_Multicamplain_SS",
 			"CFP_Crye_Multicam2plain",
-			"CFP_Crye_Multicam2plain_SS"
+			"CFP_Crye_Multicam2plain_SS",
+			"CFP_ACU_OCP"
 		};
 		weapons[] = {
 			"cfp_u_battledressuniform_3colordesert",
@@ -381,8 +376,6 @@ class CfgPatches
 			"sp_0000_standard_battledressuniform_green",
 			"sp_0000_standard_battledressuniform_greenolive",
 			"sp_0000_standard_battledressuniform_grey",
-			"sp_0000_standard_battledressuniform_hunter",
-			"sp_0000_standard_battledressuniform_hunter2",
 			"sp_0000_standard_battledressuniform_nodurban",
 			"sp_0000_standard_battledressuniform_tan",
 			"sp_0000_standard_coverall_black",
@@ -407,10 +400,6 @@ class CfgPatches
 			"sp_0000_standard_fielduniform_greenolive_ss",
 			"sp_0000_standard_fielduniform_grey",
 			"sp_0000_standard_fielduniform_grey_ss",
-			"sp_0000_standard_fielduniform_hunter",
-			"sp_0000_standard_fielduniform_hunter2",
-			"sp_0000_standard_fielduniform_hunter2_ss",
-			"sp_0000_standard_fielduniform_hunter_ss",
 			"sp_0000_standard_fielduniform_nodurban",
 			"sp_0000_standard_fielduniform_nodurban_ss",
 			"sp_0000_standard_fielduniform_tan",
@@ -486,7 +475,8 @@ class CfgPatches
 			"CFP_U_Crye_Multicamplain",
 			"CFP_U_Crye_Multicamplain_SS",
 			"CFP_U_Crye_Multicam2plain",
-			"CFP_U_Crye_Multicam2plain_SS"
+			"CFP_U_Crye_Multicam2plain_SS",
+			"CFP_U_ACU_OCP"
 		};
         author = MODULE_AUTHOR;
         authors[] = {"SP Craig", "Tupolov","AuburnAlumni"};

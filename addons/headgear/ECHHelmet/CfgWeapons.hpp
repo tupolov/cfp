@@ -137,58 +137,7 @@ class SP_ECHHelmet_White1: ItemCore
 		hiddenSelections[] = {"Camo"};
 	};
 };
-class SP_ECHHelmet_Hunter1: ItemCore
-    {
-        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_ECHHelmet_Hunter1.paa";
-	scope = 2;
-	weaponPoolAvailable = 1;
-	displayName = "ECH Helmet (Hunter 1)";
-	// picture = "\x\cfp\addons\headgear\ECHHelmet\ui\Hunter1.jpg";
-	model = "\x\cfp\addons\models\ECHHelmet1";
-	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\ECHHelmet\Hunter.paa"};
-	hiddenSelections[] = {"Camo"};
-	author = "SP Craig";
 
-
-
-	class ItemInfo: HeadgearItem
-	{
-		mass = 60;
-		uniformmodel = "\x\cfp\addons\models\ECHHelmet1";
-		modelSides[] = {3,1};
-		armor = 10;
-		passThrough = 0.30;
-		HITPOINTS_HEAD(10,0.30)
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\ECHHelmet\Hunter.paa"};
-		hiddenSelections[] = {"Camo"};
-	};
-};
-class SP_ECHHelmet_Hunter2: ItemCore
-    {
-        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_ECHHelmet_Hunter2.paa";
-	scope = 2;
-	weaponPoolAvailable = 1;
-	displayName = "ECH Helmet (Hunter 2)";
-	// picture = "\x\cfp\addons\headgear\ECHHelmet\ui\Hunter2.jpg";
-	model = "\x\cfp\addons\models\ECHHelmet1";
-	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\ECHHelmet\Hunter2.paa"};
-	hiddenSelections[] = {"Camo"};
-	author = "SP Craig";
-
-
-
-	class ItemInfo: HeadgearItem
-	{
-		mass = 60;
-		uniformmodel = "\x\cfp\addons\models\ECHHelmet1";
-		modelSides[] = {3,1};
-		armor = 10;
-		passThrough = 0.30;
-		HITPOINTS_HEAD(10,0.30)
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\ECHHelmet\Hunter2.paa"};
-		hiddenSelections[] = {"Camo"};
-	};
-};
 class SP_ECHHelmet_ATacsFG1: ItemCore
     {
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_ECHHelmet_ATacsFG1.paa";

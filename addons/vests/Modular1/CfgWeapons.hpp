@@ -17,7 +17,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Modular 1 (Black)";
 		// picture = "\x\cfp\addons\vests\Modular1\ui\Black.jpg";
-		model = "\x\cfp\addons\models\Modular1";
+		model = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Modular1\Black.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -25,28 +25,28 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\models\Modular1";
+			uniformModel = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
 			containerClass = "Supply120";
 			hiddenSelections[] = {"camo"};
-			mass = 150;
+			mass = 60;
 			class HitpointsProtectionInfo
 			{
 				class Chest
 				{
 					hitpointName = "HitChest";
-					armor = 18;
+					armor = 16;
 					passThrough = 0.2;
 				};
 				class Diaphragm
 				{
 					hitpointName = "HitDiaphragm";
-					armor = 18;
+					armor = 16;
 					passThrough = 0.2;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 18;
+					armor = 16;
 					passThrough = 0.2;
 				};
 				class Body
@@ -65,7 +65,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Modular 1 (Green)";
 		// picture = "\x\cfp\addons\vests\Modular1\ui\Green.jpg";
-		model = "\x\cfp\addons\models\Modular1";
+		model = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Modular1\Green.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -73,28 +73,28 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\models\Modular1";
+			uniformModel = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
 			containerClass = "Supply120";
 			hiddenSelections[] = {"camo"};
-			mass = 150;
+			mass = 60;
 			class HitpointsProtectionInfo
 			{
 				class Chest
 				{
 					hitpointName = "HitChest";
-					armor = 18;
+					armor = 16;
 					passThrough = 0.2;
 				};
 				class Diaphragm
 				{
 					hitpointName = "HitDiaphragm";
-					armor = 18;
+					armor = 16;
 					passThrough = 0.2;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 18;
+					armor = 16;
 					passThrough = 0.2;
 				};
 				class Body
@@ -113,7 +113,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Modular 1 (Tan)";
 		// picture = "\x\cfp\addons\vests\Modular1\ui\Tan.jpg";
-		model = "\x\cfp\addons\models\Modular1";
+		model = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Modular1\Tan.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -121,28 +121,28 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\models\Modular1";
+			uniformModel = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
 			containerClass = "Supply120";
 			hiddenSelections[] = {"camo"};
-			mass = 150;
+			mass = 60;
 			class HitpointsProtectionInfo
 			{
 				class Chest
 				{
 					hitpointName = "HitChest";
-					armor = 18;
+					armor = 16;
 					passThrough = 0.2;
 				};
 				class Diaphragm
 				{
 					hitpointName = "HitDiaphragm";
-					armor = 18;
+					armor = 16;
 					passThrough = 0.2;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 18;
+					armor = 16;
 					passThrough = 0.2;
 				};
 				class Body
@@ -161,7 +161,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Modular 1 (Grey)";
 		// picture = "\x\cfp\addons\vests\Modular1\ui\Grey.jpg";
-		model = "\x\cfp\addons\models\Modular1";
+		model = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Modular1\Grey.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -169,28 +169,28 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\models\Modular1";
+			uniformModel = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
 			containerClass = "Supply120";
 			hiddenSelections[] = {"camo"};
-			mass = 150;
+			mass = 60;
 			class HitpointsProtectionInfo
 			{
 				class Chest
 				{
 					hitpointName = "HitChest";
-					armor = 18;
+					armor = 16;
 					passThrough = 0.2;
 				};
 				class Diaphragm
 				{
 					hitpointName = "HitDiaphragm";
-					armor = 18;
+					armor = 16;
 					passThrough = 0.2;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 18;
+					armor = 16;
 					passThrough = 0.2;
 				};
 				class Body
@@ -209,7 +209,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Modular 1 (White)";
 		// picture = "\x\cfp\addons\vests\Modular1\ui\White.jpg";
-		model = "\x\cfp\addons\models\Modular1";
+		model = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Modular1\White.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -217,28 +217,28 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\models\Modular1";
+			uniformModel = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
 			containerClass = "Supply120";
 			hiddenSelections[] = {"camo"};
-			mass = 150;
+			mass = 60;
 			class HitpointsProtectionInfo
 			{
 				class Chest
 				{
 					hitpointName = "HitChest";
-					armor = 18;
+					armor = 16;
 					passThrough = 0.2;
 				};
 				class Diaphragm
 				{
 					hitpointName = "HitDiaphragm";
-					armor = 18;
+					armor = 16;
 					passThrough = 0.2;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 18;
+					armor = 16;
 					passThrough = 0.2;
 				};
 				class Body
@@ -255,7 +255,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Modular 1 (A-Tacs AU)";
 		// picture = "\x\cfp\addons\vests\Modular1\ui\Tan.jpg";
-		model = "\x\cfp\addons\models\Modular1";
+		model = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Modular1\Modular_1_atacs_au.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -267,7 +267,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Modular 1 (M81)";
 		// picture = "\x\cfp\addons\vests\Modular1\ui\Black.jpg";
-		model = "\x\cfp\addons\models\Modular1";
+		model = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Modular1\M81.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -275,28 +275,28 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\models\Modular1";
+			uniformModel = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
 			containerClass = "Supply120";
 			hiddenSelections[] = {"camo"};
-			mass = 150;
+			mass = 60;
 			class HitpointsProtectionInfo
 			{
 				class Chest
 				{
 					hitpointName = "HitChest";
-					armor = 18;
+					armor = 16;
 					passThrough = 0.2;
 				};
 				class Diaphragm
 				{
 					hitpointName = "HitDiaphragm";
-					armor = 18;
+					armor = 16;
 					passThrough = 0.2;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 18;
+					armor = 16;
 					passThrough = 0.2;
 				};
 				class Body
@@ -315,7 +315,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Modular 1 (Tropentarn)";
 		// picture = "\x\cfp\addons\vests\Modular1\ui\Black.jpg";
-		model = "\x\cfp\addons\models\Modular1";
+		model = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Modular1\Tropentarn.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -323,28 +323,28 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\models\Modular1";
+			uniformModel = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
 			containerClass = "Supply120";
 			hiddenSelections[] = {"camo"};
-			mass = 150;
+			mass = 60;
 			class HitpointsProtectionInfo
 			{
 				class Chest
 				{
 					hitpointName = "HitChest";
-					armor = 18;
+					armor = 16;
 					passThrough = 0.2;
 				};
 				class Diaphragm
 				{
 					hitpointName = "HitDiaphragm";
-					armor = 18;
+					armor = 16;
 					passThrough = 0.2;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 18;
+					armor = 16;
 					passThrough = 0.2;
 				};
 				class Body
@@ -363,7 +363,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Modular 1 (Woodland)";
 		// picture = "\x\cfp\addons\vests\Modular1\ui\Black.jpg";
-		model = "\x\cfp\addons\models\Modular1";
+		model = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Modular1\Woodland.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -371,28 +371,28 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\models\Modular1";
+			uniformModel = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
 			containerClass = "Supply120";
 			hiddenSelections[] = {"camo"};
-			mass = 150;
+			mass = 60;
 			class HitpointsProtectionInfo
 			{
 				class Chest
 				{
 					hitpointName = "HitChest";
-					armor = 18;
+					armor = 16;
 					passThrough = 0.2;
 				};
 				class Diaphragm
 				{
 					hitpointName = "HitDiaphragm";
-					armor = 18;
+					armor = 16;
 					passThrough = 0.2;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 18;
+					armor = 16;
 					passThrough = 0.2;
 				};
 				class Body
@@ -411,7 +411,7 @@ class CfgVehicleClasses
 		scope = 2;
 		displayName = "Modular 1 (Flecktarn)";
 		// picture = "\x\cfp\addons\vests\Modular1\ui\Black.jpg";
-		model = "\x\cfp\addons\models\Modular1";
+		model = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Modular1\Flecktarn.paa"};
 		hiddenSelections[] = {"Camo"};
 
@@ -419,28 +419,28 @@ class CfgVehicleClasses
 
 		class ItemInfo: VestItem
 		{
-			uniformModel = "\x\cfp\addons\models\Modular1";
+			uniformModel = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
 			containerClass = "Supply120";
 			hiddenSelections[] = {"camo"};
-			mass = 150;
+			mass = 60;
 			class HitpointsProtectionInfo
 			{
 				class Chest
 				{
 					hitpointName = "HitChest";
-					armor = 18;
+					armor = 16;
 					passThrough = 0.2;
 				};
 				class Diaphragm
 				{
 					hitpointName = "HitDiaphragm";
-					armor = 18;
+					armor = 16;
 					passThrough = 0.2;
 				};
 				class Abdomen
 				{
 					hitpointName = "HitAbdomen";
-					armor = 18;
+					armor = 16;
 					passThrough = 0.2;
 				};
 				class Body

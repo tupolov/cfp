@@ -115,60 +115,6 @@ class CfgVehicleClasses
 		};
 	};
 
-	class SP_BoonieHat_Hunter: ItemCore
-    {
-        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_BoonieHat_Hunter.paa";
-		scope = 2;
-		weaponPoolAvailable = 1;
-		displayName = "Boonie Hat (Hunter";
-	    // picture = "\x\cfp\addons\headgear\BoonieHat\ui\Hunter.jpg";
-	    model = "\x\cfp\addons\models\BoonieHat";
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BoonieHat\Hunter.paa"};
-		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
-
-
-
-		class ItemInfo: HeadgearItem
-		{
-		    mass = 15;
-		    uniformmodel = "\x\cfp\addons\models\BoonieHat";
-		    modelSides[] = {3,1};
-		    armor = 0;
-		    passThrough = 0.30;
-		    hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BoonieHat\Hunter.paa"};
-		    hiddenSelections[] = {"Camo"};
-
-		};
-	};
-
-	class SP_BoonieHat_Hunter2: ItemCore
-    {
-        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_BoonieHat_Hunter2.paa";
-		scope = 2;
-		weaponPoolAvailable = 1;
-		displayName = "Boonie Hat (Hunter2";
-		// picture = "\x\cfp\addons\headgear\BoonieHat\ui\Hunter2.jpg";
-		model = "\x\cfp\addons\models\BoonieHat";
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BoonieHat\Hunter2.paa"};
-		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
-
-
-
-		class ItemInfo: HeadgearItem
-		{
-		    mass = 15;
-		    uniformmodel = "\x\cfp\addons\models\BoonieHat";
-		    modelSides[] = {3,1};
-		    armor = 0;
-		    passThrough = 0.30;
-		    hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BoonieHat\Hunter2.paa"};
-		    hiddenSelections[] = {"Camo"};
-
-		};
-	};
-
 	class SP_BoonieHat_ATacsFG: ItemCore
     {
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_BoonieHat_ATacsFG.paa";
