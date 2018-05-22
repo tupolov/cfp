@@ -54,7 +54,7 @@
 	class SP_Balaclava_USWoodland: None
 	{
 		scope = 2;
-		displayname = "Balaclava (U.S Woodland)";
+		displayname = "Balaclava (Woodland)";
 		model = "\x\cfp\addons\models\BalaclavaUSWoodland.p3d";
 		picture = "\x\cfp\addons\glasses\Balaclava\ui\USWoodland.jpg";
 		identityTypes[] = {"NoGlasses",0};
@@ -71,12 +71,12 @@
 
 	};
 
-	class SP_Balaclava_USDigitalAcu: None
+	class SP_Balaclava_M81: None
 	{
 		scope = 2;
-		displayname = "Balaclava (U.S Digital Acu)";
+		displayname = "Balaclava (M81)";
 		model = "\x\cfp\addons\models\BalaclavaUSDigitalAcu.p3d";
-		picture = "\x\cfp\addons\glasses\Balaclava\ui\USDigitalAcu.jpg";
+		picture = "\x\cfp\addons\glasses\Balaclava\ui\Black.jpg";
 		identityTypes[] = {"NoGlasses",0};
 
 	};
@@ -90,19 +90,19 @@
 		identityTypes[] = {"NoGlasses",0};
 	};
 
-	class SP_Balaclava_UKDpmDesert: None
+	class SP_Balaclava_ATacsAU: None
 	{
 		scope = 2;
-		displayname = "Balaclava (UK Dpm Desert)";
+		displayname = "Balaclava (A-Tacs AU)";
 		model = "\x\cfp\addons\models\BalaclavaUKDpmDesert.p3d";
 		picture = "\x\cfp\addons\glasses\Balaclava\ui\UKDpmDesert.jpg";
 		identityTypes[] = {"NoGlasses",0};
 	};
 
-	class SP_Balaclava_UKDpmTropical: None
+	class SP_Balaclava_DpmTropical: None
 	{
 		scope = 2;
-		displayname = "Balaclava (UK Dpm Tropical)";
+		displayname = "Balaclava (DPM Tropical)";
 		model = "\x\cfp\addons\models\BalaclavaUKDpmTropical.p3d";
 		picture = "\x\cfp\addons\glasses\Balaclava\ui\UKDpmTropical.jpg";
 		identityTypes[] = {"NoGlasses",0};
@@ -118,22 +118,22 @@
 
 	};
 
-	class SP_Balaclava_Hunter: None
+	class SP_Balaclava_Venom: None
 	{
 		scope = 2;
-		displayname = "Balaclava (Hunter)";
+		displayname = "Balaclava (Venom)";
 		model = "\x\cfp\addons\models\BalaclavaHunter.p3d";
-		picture = "\x\cfp\addons\glasses\Balaclava\ui\Hunter.jpg";
+		picture = "\x\cfp\addons\glasses\Balaclava\ui\Black.jpg";
 		identityTypes[] = {"NoGlasses",0};
 
 	};
 
-	class SP_Balaclava_Hunter2: None
+	class SP_Balaclava_Skull: None
 	{
 		scope = 2;
-		displayname = "Balaclava (Hunter2)";
+		displayname = "Balaclava (Skull)";
 		model = "\x\cfp\addons\models\BalaclavaHunter2.p3d";
-		picture = "\x\cfp\addons\glasses\Balaclava\ui\Hunter2.jpg";
+		picture = "\x\cfp\addons\glasses\Balaclava\ui\Black.jpg";
 		identityTypes[] = {"NoGlasses",0};
 	};
 
@@ -147,14 +147,12 @@
 
 	};
 
-	class SP_Balaclava_NodUrban: None
+	class SP_Balaclava_Skull2: None
 	{
 		scope = 2;
-		displayname = "Balaclava (Nod Urban)";
+		displayname = "Balaclava (Skull 2)";
 		model = "\x\cfp\addons\models\BalaclavaNodUrban.p3d";
-		picture = "\x\cfp\addons\glasses\Balaclava\ui\NodUrban.jpg";
+		picture = "\x\cfp\addons\glasses\Balaclava\ui\Black.jpg";
 		identityTypes[] = {"NoGlasses",0};
-
-
 
 	};
