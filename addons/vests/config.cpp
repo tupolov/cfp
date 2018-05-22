@@ -55,8 +55,6 @@ class CfgPatches
 			"SP_PlateCarrier1_Green",
 			"SP_PlateCarrier1_Tan",
 			"SP_PlateCarrier1_Grey",
-			"SP_PlateCarrier1_Hunter",
-			"SP_PlateCarrier1_Hunter2",
 			"SP_PlateCarrier1_ATacsFG",
 			"PlateCarrier1_ATacsAU",
 			"CFP_PlateCarrier1_Tropentarn",

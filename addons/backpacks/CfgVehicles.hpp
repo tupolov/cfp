@@ -81,6 +81,16 @@ class CfgVehicles
         hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Carryall\tortila_dpmwoodland.paa"};
         author = "AuburnAlumni";
     };
+    class CFP_Carryall_Multicam: B_Carryall_oucamo
+    {
+        picture = "\x\cfp\addons\backpacks\data\ui\icon_SP_Carryall_NodUrban.paa";
+        scope = 2;
+        maximumLoad = 300;
+        displayName = "Carryall (Multicam)";
+        // picture = "\x\cfp\addons\backpacks\data\NodUrban.jpg";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Carryall\tortila_multicam.paa"};
+        author = "AuburnAlumni";
+    };
     class SP_Camelbak_Black: B_Carryall_oucamo
     {
         picture = "\x\cfp\addons\backpacks\data\ui\icon_SP_Camelbak_Black.paa";
@@ -357,6 +367,17 @@ class CfgVehicles
         model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Compact";
         // picture = "\A3\Weapons_F\Ammoboxes\Bags\data\UI\icon_B_AssaultPack_khk_ca.paa";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Compact\backpack_compact_flecktarn.paa"};
+        author = "AuburnAlumni";
+    };
+    class CFP_AssaultPack_Multicam: B_AssaultPack_Base
+    {
+        picture = "\x\cfp\addons\backpacks\data\ui\icon_CFP_AssaultPack_Woodland.paa";
+        scope = 2;
+        maximumLoad = 160;
+        displayName = "Assault Pack (Multicam)";
+        model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Compact";
+        // picture = "\A3\Weapons_F\Ammoboxes\Bags\data\UI\icon_B_AssaultPack_khk_ca.paa";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Compact\backpack_compact_multicam.paa"};
         author = "AuburnAlumni";
     };
     class B_FieldPack_Base;
