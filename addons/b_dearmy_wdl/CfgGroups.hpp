@@ -373,6 +373,33 @@ class CfgGroups {
                     };
                 };
 
+                class cfp_b_dearmy_motorized_special_forces_recon_patrol_wdl_fennek {
+                    name = "Special Forces Recon Patrol (Fennek)";
+                    side = 1;
+                    faction = "CUP_B_GER";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_DEARMY_Fennek_WDL_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_GER_Fleck_Soldier_Scout";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_GER_Fleck_Soldier_Engineer";
+                    };
+                };
+
             };
 
             class Motorized_MTP {

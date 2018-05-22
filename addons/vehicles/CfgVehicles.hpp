@@ -652,6 +652,13 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Fennek\mrap_03_germandesert"};
                 factions[] = {};
             };
+            class GermanWoodland
+            {
+                displayName = "German Woodland Camo";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Fennek\mrap_03_germanwoodland"};
+                factions[] = {};
+            };
         };
     };
 

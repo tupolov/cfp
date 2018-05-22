@@ -23,7 +23,8 @@ class CfgPatches {
             "CFP_B_DEArmy_AA_Specialist_Fliegerfaust_WDL_02",
             "CFP_B_DEArmy_AA_Assistant_WDL_02",
             "CFP_B_DEArmy_AT_Specialist_Carl_Gustav_WDL_02",
-            "CFP_B_DEArmy_Pilot_WDL_01"
+            "CFP_B_DEArmy_Pilot_WDL_01",
+            "CFP_B_DEARMY_Fennek_WDL_01"
         };
         weapons[] = {};
         requiredAddons[] = {

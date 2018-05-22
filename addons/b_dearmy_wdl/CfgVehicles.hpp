@@ -14,6 +14,118 @@ class CfgEditorSubCategories
 
 class CfgVehicles {
 
+    class CUP_B_GER_Soldier;
+    class CUP_B_GER_Soldier_OCimport_01 : CUP_B_GER_Soldier { scope = 0; class EventHandlers; };
+    class CUP_B_GER_Soldier_OCimport_02 : CUP_B_GER_Soldier_OCimport_01 { class EventHandlers; };
+
+    class CUP_B_GER_Medic;
+    class CUP_B_GER_Medic_OCimport_01 : CUP_B_GER_Medic { scope = 0; class EventHandlers; };
+    class CUP_B_GER_Medic_OCimport_02 : CUP_B_GER_Medic_OCimport_01 { class EventHandlers; };
+
+    class CUP_B_GER_Soldier_TL;
+    class CUP_B_GER_Soldier_TL_OCimport_01 : CUP_B_GER_Soldier_TL { scope = 0; class EventHandlers; };
+    class CUP_B_GER_Soldier_TL_OCimport_02 : CUP_B_GER_Soldier_TL_OCimport_01 { class EventHandlers; };
+
+    class CUP_B_GER_Soldier_Scout;
+    class CUP_B_GER_Soldier_Scout_OCimport_01 : CUP_B_GER_Soldier_Scout { scope = 0; class EventHandlers; };
+    class CUP_B_GER_Soldier_Scout_OCimport_02 : CUP_B_GER_Soldier_Scout_OCimport_01 { class EventHandlers; };
+
+    class CUP_B_GER_Soldier_MG;
+    class CUP_B_GER_Soldier_MG_OCimport_01 : CUP_B_GER_Soldier_MG { scope = 0; class EventHandlers; };
+    class CUP_B_GER_Soldier_MG_OCimport_02 : CUP_B_GER_Soldier_MG_OCimport_01 { class EventHandlers; };
+
+    class CUP_B_GER_Soldier_Engineer;
+    class CUP_B_GER_Soldier_Engineer_OCimport_01 : CUP_B_GER_Soldier_Engineer { scope = 0; class EventHandlers; };
+    class CUP_B_GER_Soldier_Engineer_OCimport_02 : CUP_B_GER_Soldier_Engineer_OCimport_01 { class EventHandlers; };
+
+    class CUP_B_GER_Soldier_AA;
+    class CUP_B_GER_Soldier_AA_OCimport_01 : CUP_B_GER_Soldier_AA { scope = 0; class EventHandlers; };
+    class CUP_B_GER_Soldier_AA_OCimport_02 : CUP_B_GER_Soldier_AA_OCimport_01 { class EventHandlers; };
+
+    class CUP_B_GER_Soldier_AAA;
+    class CUP_B_GER_Soldier_AAA_OCimport_01 : CUP_B_GER_Soldier_AAA { scope = 0; class EventHandlers; };
+    class CUP_B_GER_Soldier_AAA_OCimport_02 : CUP_B_GER_Soldier_AAA_OCimport_01 { class EventHandlers; };
+
+    class CUP_B_GER_Soldier_AT;
+    class CUP_B_GER_Soldier_AT_OCimport_01 : CUP_B_GER_Soldier_AT { scope = 0; class EventHandlers; };
+    class CUP_B_GER_Soldier_AT_OCimport_02 : CUP_B_GER_Soldier_AT_OCimport_01 { class EventHandlers; };
+
+    class CUP_B_GER_Soldier_AAT;
+    class CUP_B_GER_Soldier_AAT_OCimport_01 : CUP_B_GER_Soldier_AAT { scope = 0; class EventHandlers; };
+    class CUP_B_GER_Soldier_AAT_OCimport_02 : CUP_B_GER_Soldier_AAT_OCimport_01 { class EventHandlers; };
+
+    class CUP_B_GER_Soldier_Sniper;
+    class CUP_B_GER_Soldier_Sniper_OCimport_01 : CUP_B_GER_Soldier_Sniper { scope = 0; class EventHandlers; };
+    class CUP_B_GER_Soldier_Sniper_OCimport_02 : CUP_B_GER_Soldier_Sniper_OCimport_01 { class EventHandlers; };
+
+    class CUP_B_GER_Soldier_Ammo;
+    class CUP_B_GER_Soldier_Ammo_OCimport_01 : CUP_B_GER_Soldier_Ammo { scope = 0; class EventHandlers; };
+    class CUP_B_GER_Soldier_Ammo_OCimport_02 : CUP_B_GER_Soldier_Ammo_OCimport_01 { class EventHandlers; };
+
+    class CUP_M2StaticMG_base;
+    class CUP_M2StaticMG_base_OCimport_01 : CUP_M2StaticMG_base { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_M2StaticMG_base_OCimport_02 : CUP_M2StaticMG_base_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
+    class CUP_M2StaticMG_MiniTripod_base;
+    class CUP_M2StaticMG_MiniTripod_base_OCimport_01 : CUP_M2StaticMG_MiniTripod_base { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_M2StaticMG_MiniTripod_base_OCimport_02 : CUP_M2StaticMG_MiniTripod_base_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
+    class CUP_B_Dingo_CZ_Wdl;
+    class CUP_B_Dingo_CZ_Wdl_OCimport_01 : CUP_B_Dingo_CZ_Wdl { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_B_Dingo_CZ_Wdl_OCimport_02 : CUP_B_Dingo_CZ_Wdl_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
+    class CUP_B_Dingo_GL_CZ_Wdl;
+    class CUP_B_Dingo_GL_CZ_Wdl_OCimport_01 : CUP_B_Dingo_GL_CZ_Wdl { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_B_Dingo_GL_CZ_Wdl_OCimport_02 : CUP_B_Dingo_GL_CZ_Wdl_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
+    class CUP_UH1H_base;
+    class CUP_UH1H_base_OCimport_01 : CUP_UH1H_base { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_UH1H_base_OCimport_02 : CUP_UH1H_base_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+            class LeftDoorGun;
+            class CopilotTurret;
+            class CargoTurret_01;
+            class CargoTurret_02;
+        };
+    };
+
+    class CUP_UH1H_slick_base;
+    class CUP_UH1H_slick_base_OCimport_01 : CUP_UH1H_slick_base { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_UH1H_slick_base_OCimport_02 : CUP_UH1H_slick_base_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+            class LeftDoorGun;
+            class CopilotTurret;
+            class CargoTurret_01;
+            class CargoTurret_02;
+            class CargoTurret_03;
+            class CargoTurret_04;
+        };
+    };
+
     class CUP_B_CH53E_VIV_GER;
     class CUP_B_CH53E_VIV_GER_OCimport_01 : CUP_B_CH53E_VIV_GER { scope = 0; class EventHandlers; class Turrets; };
     class CUP_B_CH53E_VIV_GER_OCimport_02 : CUP_B_CH53E_VIV_GER_OCimport_01 {
@@ -32,8 +144,746 @@ class CfgVehicles {
         };
     };
 
+    class CUP_B_US_Pilot;
+    class CUP_B_US_Pilot_OCimport_01 : CUP_B_US_Pilot { scope = 0; class EventHandlers; };
+    class CUP_B_US_Pilot_OCimport_02 : CUP_B_US_Pilot_OCimport_01 { class EventHandlers; };
+
+    class I_MRAP_03_F;
+    class I_MRAP_03_F_OCimport_01 : I_MRAP_03_F { scope = 0; class EventHandlers; class Turrets; };
+    class I_MRAP_03_F_OCimport_02 : I_MRAP_03_F_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class CommanderTurret;
+        };
+    };
+
+
+    class CUP_B_GER_Fleck_Soldier : CUP_B_GER_Soldier_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Rifleman";
+        side = 1;
+        faction = "CFP_B_DEARMY_WDL";
+        editorSubcategory = "CFP_EdSubcat_Personnel_Camo_Fleck";
+
+        identityTypes[] = {"Head_Euro","LanguageENG_F","G_GUERIL_default"};
+
+        uniformClass = "CFP_U_WorkUniform_Flecktarn";
+
+         // KSK Vests
+        vestList[] = {
+            "CFP_PlateCarrier1_Flecktarn", 0.25,
+            "CFP_CarrierRig_Operator_OGA_OD", 0.25,
+            "CFP_LBT6094_operator_OGA_OD", 0.25,
+            "CFP_FAPC_Operator_OGA_OD", 0.25
+        };
+        // KSK Facewear
+        facewearList[] = {
+            "CUP_TK_NeckScarf", 0.3,
+            "G_Bandanna_beast",0.3,
+            "G_Bandanna_khk",0.3,
+            "G_Bandanna_oli",0.3,
+            "G_Bandanna_tan",0.3,
+            "G_Bandanna_shades",0.3,
+            "CUP_FR_Neckscarf2",0.3,
+            "CFP_Beard",0.2,
+            "CUP_FR_Neckscarf",0.3
+        };
+        // KSK Headwear
+        headgearList[] = {
+            "CFP_BoonieHat_Flecktarn", 0.3,
+            "SP_BaseballCap_Black", 0.3,
+            "SP_BeanieHat_Green", 0.2,
+            "SP_BeanieHat_Tan", 0.2,
+            "SP_BeanieHat_Black", 0.2,
+            "H_BoonieHat_khk",0.25,
+            "H_Cap_blk",0.3,
+            "H_Cap_oli",0.3,
+            "SP_Headset_Black",0.35
+        };
+
+        linkedItems[] = {"CFP_PlateCarrier1_Flecktarn","H_Cap_blk","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CFP_PlateCarrier1_Flecktarn","H_Cap_blk","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_G36A","CUP_hgun_glock17_flashlight","CUP_Vector21Nite"};
+        respawnWeapons[] = {"CUP_arifle_G36A","CUP_hgun_glock17_flashlight","CUP_Vector21Nite"};
+
+        magazines[] = {"CUP_30Rnd_556x45_G36","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_G36","CUP_17Rnd_9x19_glock17"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_G36","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_G36","CUP_17Rnd_9x19_glock17"};
+
+        backpack = "CFP_Kitbag_Flecktarn";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G36A","","","",{"CUP_30Rnd_556x45_G36",30},{},""},{},{"CUP_hgun_glock17_flashlight","","CUP_acc_Glock17_Flashlight","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_WorkUniform_Flecktarn",{{"FirstAidKit",1},{"CUP_NVG_PVS7",1},{"SmokeShellRed",1,1},{"CUP_30Rnd_556x45_G36",2,30},{"CUP_17Rnd_9x19_glock17",2,17}}},{"CFP_PlateCarrier1_Flecktarn",{{"CUP_HandGrenade_M67",2,1},{"B_IR_Grenade",1,1},{"CUP_30Rnd_556x45_G36",6,30}}},{"CFP_Kitbag_Flecktarn",{{"CUP_PipeBomb_M",2,1},{"Laserbatteries",1,1},{"B_IR_Grenade",1,1}}},"H_Cap_blk","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CUP_B_GER_Fleck_Medic : CUP_B_GER_Medic_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Paramedic";
+        attendant = 1;
+        icon = "iconManMedic";
+        picture = "pictureHeal";
+        side = 1;
+        faction = "CFP_B_DEARMY_WDL";
+        editorSubcategory = "CFP_EdSubcat_Personnel_Camo_Fleck";
+
+        identityTypes[] = {"Head_Euro","LanguageENG_F","G_GUERIL_default"};
+
+        uniformClass = "CFP_U_WorkUniform_Flecktarn";
+
+        randomGearProbability = 100;
+
+        // KSK Vests
+        vestList[] = {
+            "CFP_PlateCarrier1_Flecktarn", 0.25,
+            "CFP_CarrierRig_Operator_OGA_OD", 0.25,
+            "CFP_LBT6094_operator_OGA_OD", 0.25,
+            "CFP_FAPC_Operator_OGA_OD", 0.25
+        };
+        // KSK Facewear
+        facewearList[] = {
+            "CUP_TK_NeckScarf", 0.3,
+            "G_Bandanna_beast",0.3,
+            "G_Bandanna_khk",0.3,
+            "G_Bandanna_oli",0.3,
+            "G_Bandanna_tan",0.3,
+            "G_Bandanna_shades",0.3,
+            "CUP_FR_Neckscarf2",0.3,
+            "CFP_Beard",0.2,
+            "CUP_FR_Neckscarf",0.3
+        };
+        // KSK Headwear
+        headgearList[] = {
+            "CFP_BoonieHat_Flecktarn", 0.3,
+            "SP_BaseballCap_Black", 0.3,
+            "SP_BeanieHat_Green", 0.2,
+            "SP_BeanieHat_Tan", 0.2,
+            "SP_BeanieHat_Black", 0.2,
+            "H_BoonieHat_khk",0.25,
+            "H_Cap_blk",0.3,
+            "H_Cap_oli",0.3,
+            "SP_Headset_Black",0.35
+        };
+
+        linkedItems[] = {"CFP_PlateCarrier1_Flecktarn","CFP_BoonieHat_Flecktarn","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CFP_PlateCarrier1_Flecktarn","CFP_BoonieHat_Flecktarn","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_G36C","CUP_hgun_glock17_flashlight","CUP_Vector21Nite"};
+        respawnWeapons[] = {"CUP_arifle_G36C","CUP_hgun_glock17_flashlight","CUP_Vector21Nite"};
+
+        magazines[] = {"CUP_30Rnd_556x45_G36","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_G36","CUP_17Rnd_9x19_glock17"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_G36","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_G36","CUP_17Rnd_9x19_glock17"};
+
+        backpack = "CFP_Kitbag_Flecktarn";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G36C","","","",{"CUP_30Rnd_556x45_G36",30},{},""},{},{"CUP_hgun_glock17_flashlight","","CUP_acc_Glock17_Flashlight","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_WorkUniform_Flecktarn",{{"FirstAidKit",1},{"CUP_NVG_PVS7",1},{"SmokeShellRed",1,1},{"CUP_30Rnd_556x45_G36",3,30}}},{"CFP_PlateCarrier1_Flecktarn",{{"B_IR_Grenade",1,1},{"CUP_30Rnd_556x45_G36",5,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1}}},{"CFP_Kitbag_Flecktarn",{{"Medikit",1},{"FirstAidKit",10}}},"CFP_BoonieHat_Flecktarn","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+             class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CUP_B_GER_Fleck_Soldier_TL : CUP_B_GER_Soldier_TL_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Team Leader";
+        side = 1;
+        faction = "CFP_B_DEARMY_WDL";
+        editorSubcategory = "CFP_EdSubcat_Personnel_Camo_Fleck";
+
+        identityTypes[] = {"Head_Euro","LanguageENG_F","G_GUERIL_default"};
+
+        uniformClass = "CFP_U_WorkUniform_Flecktarn";
+
+         // KSK Vests
+        vestList[] = {
+            "CFP_PlateCarrier1_Flecktarn", 0.25,
+            "CFP_CarrierRig_Operator_OGA_OD", 0.25,
+            "CFP_LBT6094_operator_OGA_OD", 0.25,
+            "CFP_FAPC_Operator_OGA_OD", 0.25
+        };
+        // KSK Facewear
+        facewearList[] = {
+            "CUP_TK_NeckScarf", 0.3,
+            "G_Bandanna_beast",0.3,
+            "G_Bandanna_khk",0.3,
+            "G_Bandanna_oli",0.3,
+            "G_Bandanna_tan",0.3,
+            "G_Bandanna_shades",0.3,
+            "CUP_FR_Neckscarf2",0.3,
+            "CFP_Beard",0.2,
+            "CUP_FR_Neckscarf",0.3
+        };
+        // KSK Headwear
+        headgearList[] = {
+            "CFP_BoonieHat_Flecktarn", 0.3,
+            "SP_BaseballCap_Black", 0.3,
+            "SP_BeanieHat_Green", 0.2,
+            "SP_BeanieHat_Tan", 0.2,
+            "SP_BeanieHat_Black", 0.2,
+            "H_BoonieHat_khk",0.25,
+            "H_Cap_blk",0.3,
+            "H_Cap_oli",0.3,
+            "SP_Headset_Black",0.35
+        };
+
+        linkedItems[] = {"CFP_CarrierRig_Operator_OGA_OD","H_Cap_oli","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CFP_CarrierRig_Operator_OGA_OD","H_Cap_oli","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_G36K","CUP_hgun_glock17_flashlight","CUP_Vector21Nite"};
+        respawnWeapons[] = {"CUP_arifle_G36K","CUP_hgun_glock17_flashlight","CUP_Vector21Nite"};
+
+        magazines[] = {"CUP_30Rnd_556x45_G36","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_G36","CUP_17Rnd_9x19_glock17"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_G36","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_G36","CUP_17Rnd_9x19_glock17"};
+
+        backpack = "CFP_AssaultPack_Flecktarn";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G36K","","","",{"CUP_30Rnd_556x45_G36",30},{},""},{},{"CUP_hgun_glock17_flashlight","","CUP_acc_Glock17_Flashlight","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_WorkUniform_Flecktarn",{{"FirstAidKit",1},{"CUP_NVG_PVS7",1},{"SmokeShellRed",1,1},{"CUP_17Rnd_9x19_glock17",2,17},{"CUP_30Rnd_556x45_G36",1,30}}},{"CFP_CarrierRig_Operator_OGA_OD",{{"CUP_HandGrenade_M67",1,1},{"B_IR_Grenade",1,1},{"SmokeShellGreen",1,1},{"CUP_30Rnd_556x45_G36",5,30}}},{"CFP_AssaultPack_Flecktarn",{{"CUP_PipeBomb_M",1,1},{"Laserbatteries",1,1},{"B_IR_Grenade",1,1}}},"H_Cap_oli","G_Aviator",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CUP_B_GER_Fleck_Soldier_Scout : CUP_B_GER_Soldier_Scout_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Scout";
+        side = 1;
+        faction = "CFP_B_DEARMY_WDL";
+        editorSubcategory = "CFP_EdSubcat_Personnel_Camo_Fleck";
+
+        identityTypes[] = {"Head_Euro","LanguageENG_F","G_GUERIL_default"};
+
+        uniformClass = "CFP_U_WorkUniform_Flecktarn";
+
+        linkedItems[] = {"CFP_PlateCarrier1_Flecktarn","H_Shemag_olive","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CFP_PlateCarrier1_Flecktarn","H_Shemag_olive","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_G36C","CUP_hgun_glock17_flashlight","CUP_Vector21Nite"};
+        respawnWeapons[] = {"CUP_arifle_G36C","CUP_hgun_glock17_flashlight","CUP_Vector21Nite"};
+
+        magazines[] = {"CUP_30Rnd_556x45_G36","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_G36","CUP_17Rnd_9x19_glock17"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_G36","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_G36","CUP_17Rnd_9x19_glock17"};
+
+        backpack = "CFP_AssaultPack_Flecktarn";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G36C","CUP_muzzle_snds_G36_black","","CUP_optic_HoloBlack",{"CUP_30Rnd_556x45_G36",30},{},""},{},{"CUP_hgun_glock17_flashlight","","CUP_acc_Glock17_Flashlight","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_WorkUniform_Flecktarn",{{"FirstAidKit",1},{"CUP_NVG_PVS7",1},{"SmokeShellRed",1,1},{"CUP_17Rnd_9x19_glock17",2,17},{"CUP_30Rnd_556x45_G36",1,30}}},{"CFP_PlateCarrier1_Flecktarn",{{"CUP_HandGrenade_M67",2,1},{"B_IR_Grenade",1,1},{"SmokeShell",1,1},{"CUP_30Rnd_556x45_G36",6,30}}},{"CFP_AssaultPack_Flecktarn",{{"CUP_PipeBomb_M",1,1},{"Laserbatteries",1,1},{"B_IR_Grenade",1,1}}},"H_Shemag_olive","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CUP_B_GER_Fleck_Soldier_MG : CUP_B_GER_Soldier_MG_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Machinegunner";
+        side = 1;
+        faction = "CFP_B_DEARMY_WDL";
+        editorSubcategory = "CFP_EdSubcat_Personnel_Camo_Fleck";
+
+        identityTypes[] = {"Head_Euro","LanguageENG_F","G_GUERIL_default"};
+
+        uniformClass = "CFP_U_WorkUniform_Flecktarn";
+
+         // KSK Facewear
+        facewearList[] = {
+            "CUP_TK_NeckScarf", 0.3,
+            "G_Bandanna_beast",0.3,
+            "G_Bandanna_khk",0.3,
+            "G_Bandanna_oli",0.3,
+            "G_Bandanna_tan",0.3,
+            "G_Bandanna_shades",0.3,
+            "CUP_FR_Neckscarf2",0.3,
+            "CFP_Beard",0.2,
+            "CUP_FR_Neckscarf",0.3
+        };
+        // KSK Headwear
+        headgearList[] = {
+            "CFP_BoonieHat_Flecktarn", 0.3,
+            "SP_BaseballCap_Black", 0.3,
+            "SP_BeanieHat_Green", 0.2,
+            "SP_BeanieHat_Tan", 0.2,
+            "SP_BeanieHat_Black", 0.2,
+            "H_BoonieHat_khk",0.25,
+            "H_Cap_blk",0.3,
+            "H_Cap_oli",0.3,
+            "SP_Headset_Black",0.35
+        };
+
+        linkedItems[] = {"CFP_RAV_MG_OGA_OD","SP_BeanieHat_Green","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CFP_RAV_MG_OGA_OD","SP_BeanieHat_Green","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_MG36","CUP_hgun_glock17_flashlight","CUP_Vector21Nite"};
+        respawnWeapons[] = {"CUP_arifle_MG36","CUP_hgun_glock17_flashlight","CUP_Vector21Nite"};
+
+        magazines[] = {"CUP_100Rnd_556x45_BetaCMag","CUP_17Rnd_9x19_glock17","CUP_100Rnd_556x45_BetaCMag","CUP_17Rnd_9x19_glock17"};
+        respawnMagazines[] = {"CUP_100Rnd_556x45_BetaCMag","CUP_17Rnd_9x19_glock17","CUP_100Rnd_556x45_BetaCMag","CUP_17Rnd_9x19_glock17"};
+
+        backpack = "CFP_Kitbag_Flecktarn";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_MG36","","","CUP_optic_HoloBlack",{"CUP_100Rnd_556x45_BetaCMag",100},{},""},{},{"CUP_hgun_glock17_flashlight","","CUP_acc_Glock17_Flashlight","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_WorkUniform_Flecktarn",{{"FirstAidKit",1},{"CUP_NVG_PVS7",1},{"CUP_17Rnd_9x19_glock17",2,17}}},{"CFP_RAV_MG_OGA_OD",{{"CUP_HandGrenade_M67",1,1},{"B_IR_Grenade",1,1},{"CUP_100Rnd_556x45_BetaCMag",3,100},{"SmokeShell",1,1}}},{"CFP_Kitbag_Flecktarn",{{"CUP_PipeBomb_M",2,1},{"Laserbatteries",1,1},{"B_IR_Grenade",1,1},{"CUP_100Rnd_556x45_BetaCMag",2,100}}},"SP_BeanieHat_Green","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CUP_B_GER_Fleck_Soldier_Engineer : CUP_B_GER_Fleck_Soldier {
+
+        displayName = "Combat Engineer";
+        engineer = 1;
+        canDeactivateMines = 1;
+
+        linkedItems[] = {"CFP_RAV_operator_OGA_OD","H_Cap_oli","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CFP_RAV_operator_OGA_OD","H_Cap_oli","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_G36A","CUP_hgun_glock17_flashlight","CUP_Vector21Nite"};
+        respawnWeapons[] = {"CUP_arifle_G36A","CUP_hgun_glock17_flashlight","CUP_Vector21Nite"};
+
+        magazines[] = {"CUP_30Rnd_556x45_G36","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_G36","CUP_17Rnd_9x19_glock17"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_G36","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_G36","CUP_17Rnd_9x19_glock17"};
+
+        backpack = "CFP_Kitbag_Flecktarn";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G36A","","","",{"CUP_30Rnd_556x45_G36",30},{},""},{},{"CUP_hgun_glock17_flashlight","","CUP_acc_Glock17_Flashlight","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_WorkUniform_Flecktarn",{{"FirstAidKit",1},{"CUP_NVG_PVS7",1},{"SmokeShellRed",1,1},{"CUP_17Rnd_9x19_glock17",2,17},{"CUP_30Rnd_556x45_G36",1,30}}},{"CFP_RAV_operator_OGA_OD",{{"CUP_HandGrenade_M67",2,1},{"B_IR_Grenade",1,1},{"CUP_30Rnd_556x45_G36",6,30},{"SmokeShell",1,1}}},{"CFP_Kitbag_Flecktarn",{{"ToolKit",1},{"MineDetector",1},{"CUP_PipeBomb_M",2,1},{"APERSTripMine_Wire_Mag",1,1}}},"H_Cap_oli","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+    };
+
+    class CUP_B_GER_Fleck_Soldier_AA : CUP_B_GER_Soldier_AA_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "AA Specialist (Fliegerfaust)";
+        side = 1;
+        faction = "CFP_B_DEARMY_WDL";
+        editorSubcategory = "CFP_EdSubcat_Personnel_Camo_Fleck";
+
+        identityTypes[] = {"Head_Euro","LanguageENG_F","G_GUERIL_default"};
+
+        uniformClass = "CFP_U_WorkUniform_Flecktarn";
+
+        // KSK Vests
+        vestList[] = {
+            "CFP_PlateCarrier1_Flecktarn", 0.25,
+            "CFP_CarrierRig_Operator_OGA_OD", 0.25,
+            "CFP_LBT6094_operator_OGA_OD", 0.25,
+            "CFP_FAPC_Operator_OGA_OD", 0.25
+        };
+        // KSK Facewear
+        facewearList[] = {
+            "CUP_TK_NeckScarf", 0.3,
+            "G_Bandanna_beast",0.3,
+            "G_Bandanna_khk",0.3,
+            "G_Bandanna_oli",0.3,
+            "G_Bandanna_tan",0.3,
+            "G_Bandanna_shades",0.3,
+            "CUP_FR_Neckscarf2",0.3,
+            "CFP_Beard",0.2,
+            "CUP_FR_Neckscarf",0.3
+        };
+        // KSK Headwear
+        headgearList[] = {
+            "CFP_BoonieHat_Flecktarn", 0.3,
+            "SP_BaseballCap_Black", 0.3,
+            "SP_BeanieHat_Green", 0.2,
+            "SP_BeanieHat_Tan", 0.2,
+            "SP_BeanieHat_Black", 0.2,
+            "H_BoonieHat_khk",0.25,
+            "H_Cap_blk",0.3,
+            "H_Cap_oli",0.3,
+            "SP_Headset_Black",0.35
+        };
+
+        linkedItems[] = {"CFP_CarrierRig_Operator_OGA_OD","SP_BaseballCap_Green","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CFP_CarrierRig_Operator_OGA_OD","SP_BaseballCap_Green","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_G36K","CUP_launch_FIM92Stinger","CUP_hgun_glock17_flashlight","CUP_Vector21Nite"};
+        respawnWeapons[] = {"CUP_arifle_G36K","CUP_launch_FIM92Stinger","CUP_hgun_glock17_flashlight","CUP_Vector21Nite"};
+
+        magazines[] = {"CUP_30Rnd_556x45_G36","CUP_Stinger_M","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_G36","CUP_17Rnd_9x19_glock17"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_G36","CUP_Stinger_M","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_G36","CUP_17Rnd_9x19_glock17"};
+
+        backpack = "CFP_AssaultPack_Flecktarn";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G36K","","","",{"CUP_30Rnd_556x45_G36",30},{},""},{"CUP_launch_FIM92Stinger","","","",{"CUP_Stinger_M",1},{},""},{"CUP_hgun_glock17_flashlight","","CUP_acc_Glock17_Flashlight","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_WorkUniform_Flecktarn",{{"FirstAidKit",1},{"CUP_NVG_PVS7",1},{"CUP_17Rnd_9x19_glock17",2,17},{"CUP_30Rnd_556x45_G36",1,30}}},{"CFP_CarrierRig_Operator_OGA_OD",{{"CUP_HandGrenade_M67",1,1},{"CUP_30Rnd_556x45_G36",6,30},{"SmokeShell",1,1}}},{"CFP_AssaultPack_Flecktarn",{}},"SP_BaseballCap_Green","G_Bandanna_oli",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CUP_B_GER_Fleck_Soldier_AAA : CUP_B_GER_Fleck_Soldier {
+
+        displayName = "AA Assistant";
+
+        linkedItems[] = {"CFP_PlateCarrier1_Flecktarn","CFP_BoonieHat_Flecktarn","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CFP_PlateCarrier1_Flecktarn","CFP_BoonieHat_Flecktarn","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_G36A","CUP_hgun_glock17_flashlight","CUP_Vector21Nite"};
+        respawnWeapons[] = {"CUP_arifle_G36A","CUP_hgun_glock17_flashlight","CUP_Vector21Nite"};
+
+        magazines[] = {"CUP_30Rnd_556x45_G36","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_G36","CUP_17Rnd_9x19_glock17"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_G36","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_G36","CUP_17Rnd_9x19_glock17"};
+
+        backpack = "CFP_Kitbag_Flecktarn";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G36A","","","",{"CUP_30Rnd_556x45_G36",30},{},""},{},{"CUP_hgun_glock17_flashlight","","CUP_acc_Glock17_Flashlight","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_WorkUniform_Flecktarn",{{"FirstAidKit",1},{"CUP_NVG_PVS7",1},{"SmokeShellRed",1,1},{"CUP_17Rnd_9x19_glock17",2,17},{"CUP_30Rnd_556x45_G36",1,30}}},{"CFP_PlateCarrier1_Flecktarn",{{"CUP_HandGrenade_M67",2,1},{"B_IR_Grenade",1,1},{"CUP_30Rnd_556x45_G36",6,30},{"SmokeShell",1,1}}},{"CFP_Kitbag_Flecktarn",{{"CUP_Stinger_M",1,1}}},"CFP_BoonieHat_Flecktarn","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+    };
+
+    class CUP_B_GER_Fleck_Soldier_AT : CUP_B_GER_Fleck_Soldier {
+
+        displayName = "AT Specialist (Carl Gustav)";
+
+        linkedItems[] = {"CFP_CarrierRig_Operator_OGA_OD","H_Booniehat_oli","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CFP_CarrierRig_Operator_OGA_OD","H_Booniehat_oli","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_G36A","CUP_launch_MAAWS_Scope","CUP_hgun_glock17_flashlight","CUP_Vector21Nite"};
+        respawnWeapons[] = {"CUP_arifle_G36A","CUP_launch_MAAWS_Scope","CUP_hgun_glock17_flashlight","CUP_Vector21Nite"};
+
+        magazines[] = {"CUP_30Rnd_556x45_G36","CUP_MAAWS_HEAT_M","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_G36","CUP_17Rnd_9x19_glock17"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_G36","CUP_MAAWS_HEAT_M","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_G36","CUP_17Rnd_9x19_glock17"};
+
+        backpack = "CFP_Kitbag_Flecktarn";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G36A","","","",{"CUP_30Rnd_556x45_G36",30},{},""},{"CUP_launch_MAAWS_Scope","","","CUP_optic_MAAWS_Scope",{"CUP_MAAWS_HEAT_M",1},{},""},{"CUP_hgun_glock17_flashlight","","CUP_acc_Glock17_Flashlight","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_WorkUniform_Flecktarn",{{"FirstAidKit",1},{"CUP_NVG_PVS7",1},{"SmokeShellRed",1,1},{"CUP_17Rnd_9x19_glock17",2,17},{"CUP_30Rnd_556x45_G36",1,30}}},{"CFP_CarrierRig_Operator_OGA_OD",{{"CUP_HandGrenade_M67",2,1},{"B_IR_Grenade",1,1},{"SmokeShell",1,1},{"CUP_30Rnd_556x45_G36",6,30}}},{"CFP_Kitbag_Flecktarn",{{"CUP_MAAWS_HEAT_M",1,1},{"CUP_MAAWS_HEDP_M",1,1}}},"H_Booniehat_oli","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+    };
+
+    class CUP_B_GER_Fleck_Soldier_AAT : CUP_B_GER_Fleck_Soldier {
+
+        displayName = "AT Assistant";
+
+        linkedItems[] = {"CFP_CarrierRig_Operator_OGA_OD","CFP_BoonieHat_Flecktarn","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CFP_CarrierRig_Operator_OGA_OD","CFP_BoonieHat_Flecktarn","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_G36A","CUP_hgun_glock17_flashlight","CUP_Vector21Nite"};
+        respawnWeapons[] = {"CUP_arifle_G36A","CUP_hgun_glock17_flashlight","CUP_Vector21Nite"};
+
+        magazines[] = {"CUP_30Rnd_556x45_G36","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_G36","CUP_17Rnd_9x19_glock17"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_G36","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_G36","CUP_17Rnd_9x19_glock17"};
+
+        backpack = "CUP_B_GER_Pack_Flecktarn";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G36A","","","",{"CUP_30Rnd_556x45_G36",30},{},""},{},{"CUP_hgun_glock17_flashlight","","CUP_acc_Glock17_Flashlight","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_WorkUniform_Flecktarn",{{"FirstAidKit",1},{"CUP_NVG_PVS7",1},{"SmokeShellRed",1,1},{"CUP_30Rnd_556x45_G36",1,30},{"CUP_17Rnd_9x19_glock17",2,17}}},{"CFP_CarrierRig_Operator_OGA_OD",{{"CUP_HandGrenade_M67",2,1},{"B_IR_Grenade",1,1},{"CUP_30Rnd_556x45_G36",6,30},{"SmokeShell",1,1}}},{"CUP_B_GER_Pack_Flecktarn",{{"CUP_MAAWS_HEAT_M",3,1},{"CUP_MAAWS_HEDP_M",1,1}}},"CFP_BoonieHat_Flecktarn","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+    };
+
+    class CUP_B_GER_Fleck_Soldier_Sniper : CUP_B_GER_Soldier_Sniper_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Sniper (G22)";
+        side = 1;
+        faction = "CFP_B_DEARMY_WDL";
+        editorSubcategory = "CFP_EdSubcat_Personnel_Camo_Fleck";
+
+        identityTypes[] = {"Head_Euro","LanguageENG_F","G_GUERIL_default"};
+
+        uniformClass = "CFP_U_WorkUniform_Flecktarn";
+
+        linkedItems[] = {"CFP_LBT6094_operator_OGA_OD","SP_BaseballCap_Black","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CFP_LBT6094_operator_OGA_OD","SP_BaseballCap_Black","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_srifle_G22_wdl","CUP_hgun_glock17_flashlight","CUP_Vector21Nite"};
+        respawnWeapons[] = {"CUP_srifle_G22_wdl","CUP_hgun_glock17_flashlight","CUP_Vector21Nite"};
+
+        magazines[] = {"CUP_5Rnd_762x67_G22","CUP_17Rnd_9x19_glock17","CUP_5Rnd_762x67_G22","CUP_17Rnd_9x19_glock17"};
+        respawnMagazines[] = {"CUP_5Rnd_762x67_G22","CUP_17Rnd_9x19_glock17","CUP_5Rnd_762x67_G22","CUP_17Rnd_9x19_glock17"};
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_G22_wdl","","","CUP_optic_SB_3_12x50_PMII",{"CUP_5Rnd_762x67_G22",5},{},"CUP_bipod_Harris_1A2_L"},{},{"CUP_hgun_glock17_flashlight","","CUP_acc_Glock17_Flashlight","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_WorkUniform_Flecktarn",{{"FirstAidKit",1},{"CUP_NVG_PVS7",1},{"CUP_muzzle_snds_AWM",1},{"SmokeShellRed",1,1},{"CUP_17Rnd_9x19_glock17",2,17},{"CUP_5Rnd_762x67_G22",1,5}}},{"CFP_LBT6094_operator_OGA_OD",{{"CUP_HandGrenade_M67",2,1},{"B_IR_Grenade",1,1},{"CUP_5Rnd_762x67_G22",6,5},{"SmokeShell",1,1}}},{},"SP_BaseballCap_Black","G_Bandanna_beast",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CUP_B_GER_Fleck_Soldier_Ammo : CUP_B_GER_Fleck_Soldier {
+
+        displayName = "Ammo Bearer";
+
+        linkedItems[] = {"CFP_PlateCarrier1_Flecktarn","H_Cap_blk","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CFP_PlateCarrier1_Flecktarn","H_Cap_blk","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_G36A","CUP_hgun_glock17_flashlight","CUP_Vector21Nite"};
+        respawnWeapons[] = {"CUP_arifle_G36A","CUP_hgun_glock17_flashlight","CUP_Vector21Nite"};
+
+        magazines[] = {"CUP_30Rnd_556x45_G36","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_G36","CUP_17Rnd_9x19_glock17"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_G36","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_G36","CUP_17Rnd_9x19_glock17"};
+
+        backpack = "CFP_Kitbag_Flecktarn";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G36A","","","",{"CUP_30Rnd_556x45_G36",30},{},""},{},{"CUP_hgun_glock17_flashlight","","CUP_acc_Glock17_Flashlight","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_WorkUniform_Flecktarn",{{"FirstAidKit",1},{"CUP_NVG_PVS7",1},{"SmokeShellRed",1,1},{"CUP_30Rnd_556x45_G36",1,30},{"CUP_17Rnd_9x19_glock17",2,17}}},{"CFP_PlateCarrier1_Flecktarn",{{"CUP_HandGrenade_M67",2,1},{"B_IR_Grenade",1,1},{"CUP_30Rnd_556x45_G36",6,30},{"SmokeShell",1,1}}},{"CFP_Kitbag_Flecktarn",{{"Medikit",2},{"CUP_5Rnd_762x67_G22",1,5}}},"H_Cap_blk","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+
+    };
+
+    class CUP_B_M2StaticMG_GER_Fleck : CUP_M2StaticMG_base_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "M2 Machine Gun";
+        side = 1;
+        faction = "CFP_B_DEARMY_WDL";
+        crew = "CUP_B_GER_Fleck_Soldier";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CUP_B_M2StaticMG_MiniTripod_GER_Fleck : CUP_M2StaticMG_MiniTripod_base_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "M2 Minitripod";
+        side = 1;
+        faction = "CFP_B_DEARMY_WDL";
+        crew = "CUP_B_GER_Fleck_Soldier";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CUP_B_Dingo_GER_Wdl : CUP_B_Dingo_CZ_Wdl_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Dingo 2 (MG) (Woodland)";
+        side = 1;
+        faction = "CFP_B_DEARMY_WDL";
+        crew = "CUP_B_GER_Fleck_Soldier";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CUP_B_Dingo_GL_GER_Wdl : CUP_B_Dingo_GL_CZ_Wdl_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Dingo 2 (GL) (Woodland)";
+        side = 1;
+        faction = "CFP_B_DEARMY_WDL";
+        crew = "CUP_B_GER_Fleck_Soldier";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CUP_B_UH1D_GER_KSK : CUP_UH1H_base_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "UH-1D";
+        side = 1;
+        faction = "CFP_B_DEARMY_WDL";
+        crew = "CFP_B_DEARMY_Pilot_WDL_01";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = ""; };
+            class LeftDoorGun : LeftDoorGun { gunnerType = ""; };
+            class CopilotTurret : CopilotTurret { gunnerType = ""; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CUP_B_UH1D_slick_GER_KSK : CUP_UH1H_slick_base_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "UH-1D Slick";
+        side = 1;
+        faction = "CFP_B_DEARMY_WDL";
+        crew = "CFP_B_DEARMY_Pilot_WDL_01";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = ""; };
+            class LeftDoorGun : LeftDoorGun { gunnerType = ""; };
+            class CopilotTurret : CopilotTurret { gunnerType = ""; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
+            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
     class CFP_B_DEArmy_CH_53G_Super_Stallion_VIV_WDL_01 : CUP_B_CH53E_VIV_GER_OCimport_02 {
-        author = "Tupolov";
+        author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "CH-53G Super Stallion (VIV)";
@@ -62,7 +912,7 @@ class CfgVehicles {
     };
 
     class CFP_B_DEArmy_CH_53G_Super_Stallion_WDL_01 : CUP_B_CH53E_GER_OCimport_02 {
-        author = "Tupolov";
+        author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "CH-53G Super Stallion";
@@ -90,129 +940,8 @@ class CfgVehicles {
 
     };
 
-    class CUP_M2StaticMG_base;
-    class CUP_B_M2StaticMG_GER_Fleck : CUP_M2StaticMG_base
-    {
-        faction = "CFP_B_DEARMY_WDL";
-        crew = "CUP_B_GER_Fleck_Soldier";
-        typicalCargo[] = {"CUP_B_GER_Fleck_Soldier"};
-    };
-
-    class CUP_M2StaticMG_MiniTripod_base;
-    class CUP_B_M2StaticMG_MiniTripod_GER_Fleck : CUP_M2StaticMG_MiniTripod_base
-    {
-        faction = "CFP_B_DEARMY_WDL";
-        crew = "CUP_B_GER_Fleck_Soldier";
-        typicalCargo[] = {"CUP_B_GER_Fleck_Soldier"};
-    };
-    class CUP_B_Dingo_CZ_Wdl;
-    class CUP_B_Dingo_GER_Wdl : CUP_B_Dingo_CZ_Wdl
-    {
-        faction = "CFP_B_DEARMY_WDL";
-        crew = "CUP_B_GER_Fleck_Soldier";
-        typicalCargo[] = {"CUP_B_GER_Fleck_Soldier"};
-    };
-    class CUP_B_Dingo_GL_CZ_Wdl;
-    class CUP_B_Dingo_GL_GER_Wdl : CUP_B_Dingo_GL_CZ_Wdl
-    {
-        faction = "CFP_B_DEARMY_WDL";
-        crew = "CUP_B_GER_Fleck_Soldier";
-        typicalCargo[] = {"CUP_B_GER_Fleck_Soldier"};
-    };
-    class CUP_UH1H_base;
-    class CUP_B_UH1D_GER_KSK : CUP_UH1H_base
-    {
-        faction = "CFP_B_DEARMY_WDL";
-        crew = "CFP_B_DEARMY_Pilot_WDL_01";
-        typicalCargo[] = {"CUP_B_GER_Fleck_Soldier"};
-    };
-    class CUP_UH1H_slick_base;
-    class CUP_B_UH1D_slick_GER_KSK : CUP_UH1H_slick_base
-    {
-        faction = "CFP_B_DEARMY_WDL";
-        crew = "CFP_B_DEARMY_Pilot_WDL_01";
-        typicalCargo[] = {"CUP_B_GER_Fleck_Soldier"};
-    };
-
-    class CUP_B_GER_Soldier;
-    class CUP_B_GER_Fleck_Soldier : CUP_B_GER_Soldier
-    {
-        faction = "CFP_B_DEARMY_WDL";
-        editorSubcategory = "CFP_EdSubcat_Personnel_Camo_Fleck";
-    };
-    class CUP_B_GER_Medic;
-    class CUP_B_GER_Fleck_Medic : CUP_B_GER_Medic
-    {
-        faction = "CFP_B_DEARMY_WDL";
-        editorSubcategory = "CFP_EdSubcat_Personnel_Camo_Fleck";
-    };
-    class CUP_B_GER_Soldier_TL;
-    class CUP_B_GER_Fleck_Soldier_TL : CUP_B_GER_Soldier_TL
-    {
-        faction = "CFP_B_DEARMY_WDL";
-        editorSubcategory = "CFP_EdSubcat_Personnel_Camo_Fleck";
-    };
-    class CUP_B_GER_Soldier_Scout;
-    class CUP_B_GER_Fleck_Soldier_Scout : CUP_B_GER_Soldier_Scout
-    {
-        faction = "CFP_B_DEARMY_WDL";
-        editorSubcategory = "CFP_EdSubcat_Personnel_Camo_Fleck";
-    };
-    class CUP_B_GER_Soldier_MG;
-    class CUP_B_GER_Fleck_Soldier_MG : CUP_B_GER_Soldier_MG
-    {
-        faction = "CFP_B_DEARMY_WDL";
-        editorSubcategory = "CFP_EdSubcat_Personnel_Camo_Fleck";
-    };
-    class CUP_B_GER_Soldier_Engineer;
-    class CUP_B_GER_Fleck_Soldier_Engineer : CUP_B_GER_Soldier_Engineer
-    {
-        faction = "CFP_B_DEARMY_WDL";
-        editorSubcategory = "CFP_EdSubcat_Personnel_Camo_Fleck";
-    };
-    class CUP_B_GER_Soldier_AA;
-    class CUP_B_GER_Fleck_Soldier_AA : CUP_B_GER_Soldier_AA
-    {
-        faction = "CFP_B_DEARMY_WDL";
-        editorSubcategory = "CFP_EdSubcat_Personnel_Camo_Fleck";
-    };
-    class CUP_B_GER_Soldier_AAA;
-    class CUP_B_GER_Fleck_Soldier_AAA : CUP_B_GER_Soldier_AAA
-    {
-        faction = "CFP_B_DEARMY_WDL";
-        editorSubcategory = "CFP_EdSubcat_Personnel_Camo_Fleck";
-    };
-    class CUP_B_GER_Soldier_AT;
-    class CUP_B_GER_Fleck_Soldier_AT : CUP_B_GER_Soldier_AT
-    {
-        faction = "CFP_B_DEARMY_WDL";
-        editorSubcategory = "CFP_EdSubcat_Personnel_Camo_Fleck";
-    };
-    class CUP_B_GER_Soldier_AAT;
-    class CUP_B_GER_Fleck_Soldier_AAT : CUP_B_GER_Soldier_AAT
-    {
-        faction = "CFP_B_DEARMY_WDL";
-        editorSubcategory = "CFP_EdSubcat_Personnel_Camo_Fleck";
-    };
-    class CUP_B_GER_Soldier_Sniper;
-    class CUP_B_GER_Fleck_Soldier_Sniper : CUP_B_GER_Soldier_Sniper
-    {
-        faction = "CFP_B_DEARMY_WDL";
-        editorSubcategory = "CFP_EdSubcat_Personnel_Camo_Fleck";
-    };
-    class CUP_B_GER_Soldier_Ammo;
-    class CUP_B_GER_Fleck_Soldier_Ammo : CUP_B_GER_Soldier_Ammo
-    {
-        faction = "CFP_B_DEARMY_WDL";
-        editorSubcategory = "CFP_EdSubcat_Personnel_Camo_Fleck";
-    };
-
-    class CUP_B_US_Pilot;
-    class CUP_B_US_Pilot_OCimport_01 : CUP_B_US_Pilot { scope = 0; class EventHandlers; };
-    class CUP_B_US_Pilot_OCimport_02 : CUP_B_US_Pilot_OCimport_01 { class EventHandlers; };
-
     class CFP_B_DEARMY_Pilot_WDL_01 : CUP_B_US_Pilot_OCimport_02 {
-        author = "Tupolov";
+        author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Pilot";
@@ -220,23 +949,27 @@ class CfgVehicles {
         faction = "CFP_B_DEARMY_WDL";
         editorSubcategory = "CFP_EdSubcat_Personnel_Camo_Fleck";
 
-        identityTypes[] = { "Head_NATO" , "LanguageENG_F" , "G_GUERIL_default" };
-        uniformClass = "CUP_U_B_GER_Flecktarn_1";
+        identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
 
-        weapons[] = {"CUP_smg_MP5A5","CUP_hgun_Glock17_tan","Throw","Put"};
-        respawnWeapons[] = {"CUP_smg_MP5A5","CUP_hgun_Glock17_tan","Throw","Put"};
-        linkedItems[] = {"CUP_V_BAF_Osprey_Mk2_DPM_Pilot","CUP_H_BAF_Helmet_Pilot","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
-        respawnLinkedItems[] = {"CUP_V_BAF_Osprey_Mk2_DPM_Pilot","CUP_H_BAF_Helmet_Pilot","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
-        magazines[] = {"CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17"};
-        respawnMagazines[] = {"CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17"};
+        uniformClass = "CFP_U_WorkUniform_Flecktarn";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_smg_MP5A5","","","",{"CUP_30Rnd_9x19_MP5",30},{},""},{},{"CUP_hgun_Glock17_tan","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CUP_U_B_GER_Flecktarn_1",{{"FirstAidKit",1},{"CUP_HandGrenade_M67",1,1},{"CUP_30Rnd_9x19_MP5",3,30},{"CUP_17Rnd_9x19_glock17",1,17}}},{"CUP_V_BAF_Osprey_Mk2_DPM_Pilot",{{"SmokeShell",1,1},{"SmokeShellRed",1,1},{"CUP_17Rnd_9x19_glock17",2,17}}},{},"CUP_H_BAF_Helmet_Pilot","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+        linkedItems[] = {"CUP_V_B_PilotVest","CUP_H_BAF_Helmet_Pilot","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        respawnlinkedItems[] = {"CUP_V_B_PilotVest","CUP_H_BAF_Helmet_Pilot","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+
+        weapons[] = {"CUP_smg_MP5A5","CUP_hgun_Glock17_tan"};
+        respawnWeapons[] = {"CUP_smg_MP5A5","CUP_hgun_Glock17_tan"};
+
+        magazines[] = {"CUP_30Rnd_9x19_MP5","CUP_17Rnd_9x19_glock17","CUP_30Rnd_9x19_MP5","CUP_17Rnd_9x19_glock17"};
+        respawnMagazines[] = {"CUP_30Rnd_9x19_MP5","CUP_17Rnd_9x19_glock17","CUP_30Rnd_9x19_MP5","CUP_17Rnd_9x19_glock17"};
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_smg_MP5A5","","","",{"CUP_30Rnd_9x19_MP5",30},{},""},{},{"CUP_hgun_Glock17_tan","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_WorkUniform_Flecktarn",{{"FirstAidKit",1},{"CUP_HandGrenade_M67",1,1},{"CUP_17Rnd_9x19_glock17",2,17}}},{"CUP_V_B_PilotVest",{{"SmokeShell",2,1},{"SmokeShellRed",2,1},{"CUP_HandGrenade_M67",1,1},{"CUP_30Rnd_9x19_MP5",5,30}}},{},"CUP_H_BAF_Helmet_Pilot","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit; reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -246,5 +979,34 @@ class CfgVehicles {
 
     };
 
-};
+    class CFP_B_DEARMY_Fennek_WDL_01 : I_MRAP_03_F_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Fennek";
+        side = 1;
+        faction = "CUP_B_GER";
+        crew = "CUP_B_GER_Soldier";
 
+        class Turrets : Turrets {
+            class CommanderTurret : CommanderTurret { gunnerType = "CUP_B_GER_Soldier"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\Fennek\mrap_03_germanwoodland'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "GermanWoodland";
+
+    };
+
+};

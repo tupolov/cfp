@@ -159,6 +159,7 @@ class CfgVehicles {
             "SP_BoonieHat_Tan", 0.25,
             "H_BoonieHat_tan",0.25,
             "H_BoonieHat_khk",0.25,
+            "CFP_BoonieHat_Tropentarn", 0.4,
             "H_Cap_blk",0.3,
             "H_Cap_tan",0.3,
             "H_Cap_oli",0.3,
@@ -243,6 +244,7 @@ class CfgVehicles {
             "SP_BeanieHat_Tan", 0.2,
             "SP_BeanieHat_Black", 0.2,
             "SP_BoonieHat_Tan", 0.25,
+            "CFP_BoonieHat_Tropentarn", 0.4,
             "H_BoonieHat_tan",0.25,
             "H_BoonieHat_khk",0.25,
             "H_Cap_blk",0.3,
@@ -327,6 +329,7 @@ class CfgVehicles {
             "SP_BeanieHat_Black", 0.2,
             "SP_BoonieHat_Tan", 0.25,
             "H_BoonieHat_tan",0.25,
+            "CFP_BoonieHat_Tropentarn", 0.4,
             "H_BoonieHat_khk",0.25,
             "H_Cap_blk",0.3,
             "H_Cap_tan",0.3,
@@ -438,6 +441,7 @@ class CfgVehicles {
             "SP_BeanieHat_Black", 0.2,
             "SP_BoonieHat_Tan", 0.25,
             "H_BoonieHat_tan",0.25,
+            "CFP_BoonieHat_Tropentarn", 0.4,
             "H_BoonieHat_khk",0.25,
             "H_Cap_blk",0.3,
             "H_Cap_tan",0.3,
@@ -542,6 +546,7 @@ class CfgVehicles {
             "SP_BeanieHat_Black", 0.2,
             "SP_BoonieHat_Tan", 0.25,
             "H_BoonieHat_tan",0.25,
+            "CFP_BoonieHat_Tropentarn", 0.4,
             "H_BoonieHat_khk",0.25,
             "H_Cap_blk",0.3,
             "H_Cap_tan",0.3,
@@ -941,6 +946,7 @@ class CfgVehicles {
         displayName = "Pilot";
         side = 1;
         faction = "CUP_B_GER";
+        editorSubcategory = "CFP_EdSubcat_Personnel_Camo_Tropen";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
 
