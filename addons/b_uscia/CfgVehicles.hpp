@@ -439,6 +439,11 @@ class CfgVehicles {
             "SP_Goggles_Tan",0.3,
             "G_Lowprofile",0.3,
             "CUP_FR_Neckscarf2",0.3,
+            "SP_Balaclava_Black", 0.3,
+            "SP_Balaclava_Tan", 0.3,
+            "SP_Balaclava_Skull", 0.3,
+            "SP_Balaclava_Skull2", 0.3,
+            "SP_Balaclava_Venom", 0.3,
             "CFP_Beard", 0.3
         };
 

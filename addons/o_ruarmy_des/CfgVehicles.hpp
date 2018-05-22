@@ -5322,7 +5322,12 @@ class CfgVehicles {
         // Beards / mouth scarf / scarf / sunglasses
         facewearList[] = {
             "SP_Balaclava_Black", 0.3,
-            "SP_Balaclava_Tan", 0.4,
+            "SP_Balaclava_Tan", 0.3,
+            "SP_Balaclava_Skull", 0.3,
+            "SP_Balaclava_Skull2", 0.3,
+            "SP_Balaclava_Venom", 0.3,
+            "SP_Balaclava_ATacsAU", 0.4,
+            "SP_Balaclava_USMulticam", 0.4,
             "G_Bandanna_blk", 0.1,
             "G_Bandanna_khk", 0.4,
             "G_Bandanna_tan", 0.4,
@@ -5409,9 +5414,14 @@ class CfgVehicles {
         };
 
         // Beards / mouth scarf / scarf / sunglasses
-        facewearList[] = {
+       facewearList[] = {
             "SP_Balaclava_Black", 0.3,
-            "SP_Balaclava_Tan", 0.4,
+            "SP_Balaclava_Tan", 0.3,
+            "SP_Balaclava_Skull", 0.3,
+            "SP_Balaclava_Skull2", 0.3,
+            "SP_Balaclava_Venom", 0.3,
+            "SP_Balaclava_ATacsAU", 0.4,
+            "SP_Balaclava_USMulticam", 0.4,
             "G_Bandanna_blk", 0.1,
             "G_Bandanna_khk", 0.4,
             "G_Bandanna_tan", 0.4,
@@ -5498,9 +5508,14 @@ class CfgVehicles {
         };
 
         // Beards / mouth scarf / scarf / sunglasses
-        facewearList[] = {
+       facewearList[] = {
             "SP_Balaclava_Black", 0.3,
-            "SP_Balaclava_Tan", 0.4,
+            "SP_Balaclava_Tan", 0.3,
+            "SP_Balaclava_Skull", 0.3,
+            "SP_Balaclava_Skull2", 0.3,
+            "SP_Balaclava_Venom", 0.3,
+            "SP_Balaclava_ATacsAU", 0.4,
+            "SP_Balaclava_USMulticam", 0.4,
             "G_Bandanna_blk", 0.1,
             "G_Bandanna_khk", 0.4,
             "G_Bandanna_tan", 0.4,
@@ -5592,7 +5607,12 @@ class CfgVehicles {
         // Beards / mouth scarf / scarf / sunglasses
         facewearList[] = {
             "SP_Balaclava_Black", 0.3,
-            "SP_Balaclava_Tan", 0.4,
+            "SP_Balaclava_Tan", 0.3,
+            "SP_Balaclava_Skull", 0.3,
+            "SP_Balaclava_Skull2", 0.3,
+            "SP_Balaclava_Venom", 0.3,
+            "SP_Balaclava_ATacsAU", 0.4,
+            "SP_Balaclava_USMulticam", 0.4,
             "G_Bandanna_blk", 0.1,
             "G_Bandanna_khk", 0.4,
             "G_Bandanna_tan", 0.4,
@@ -5678,9 +5698,14 @@ class CfgVehicles {
         };
 
         // Beards / mouth scarf / scarf / sunglasses
-        facewearList[] = {
+       facewearList[] = {
             "SP_Balaclava_Black", 0.3,
-            "SP_Balaclava_Tan", 0.4,
+            "SP_Balaclava_Tan", 0.3,
+            "SP_Balaclava_Skull", 0.3,
+            "SP_Balaclava_Skull2", 0.3,
+            "SP_Balaclava_Venom", 0.3,
+            "SP_Balaclava_ATacsAU", 0.4,
+            "SP_Balaclava_USMulticam", 0.4,
             "G_Bandanna_blk", 0.1,
             "G_Bandanna_khk", 0.4,
             "G_Bandanna_tan", 0.4,
@@ -5769,9 +5794,14 @@ class CfgVehicles {
         };
 
         // Beards / mouth scarf / scarf / sunglasses
-        facewearList[] = {
+       facewearList[] = {
             "SP_Balaclava_Black", 0.3,
-            "SP_Balaclava_Tan", 0.4,
+            "SP_Balaclava_Tan", 0.3,
+            "SP_Balaclava_Skull", 0.3,
+            "SP_Balaclava_Skull2", 0.3,
+            "SP_Balaclava_Venom", 0.3,
+            "SP_Balaclava_ATacsAU", 0.4,
+            "SP_Balaclava_USMulticam", 0.4,
             "G_Bandanna_blk", 0.1,
             "G_Bandanna_khk", 0.4,
             "G_Bandanna_tan", 0.4,
@@ -5858,9 +5888,14 @@ class CfgVehicles {
         };
 
         // Beards / mouth scarf / scarf / sunglasses
-        facewearList[] = {
+       facewearList[] = {
             "SP_Balaclava_Black", 0.3,
-            "SP_Balaclava_Tan", 0.4,
+            "SP_Balaclava_Tan", 0.3,
+            "SP_Balaclava_Skull", 0.3,
+            "SP_Balaclava_Skull2", 0.3,
+            "SP_Balaclava_Venom", 0.3,
+            "SP_Balaclava_ATacsAU", 0.4,
+            "SP_Balaclava_USMulticam", 0.4,
             "G_Bandanna_blk", 0.1,
             "G_Bandanna_khk", 0.4,
             "G_Bandanna_tan", 0.4,
@@ -5949,7 +5984,12 @@ class CfgVehicles {
         // Beards / mouth scarf / scarf / sunglasses
         facewearList[] = {
             "SP_Balaclava_Black", 0.3,
-            "SP_Balaclava_Tan", 0.4,
+            "SP_Balaclava_Tan", 0.3,
+            "SP_Balaclava_Skull", 0.3,
+            "SP_Balaclava_Skull2", 0.3,
+            "SP_Balaclava_Venom", 0.3,
+            "SP_Balaclava_ATacsAU", 0.4,
+            "SP_Balaclava_USMulticam", 0.4,
             "G_Bandanna_blk", 0.1,
             "G_Bandanna_khk", 0.4,
             "G_Bandanna_tan", 0.4,

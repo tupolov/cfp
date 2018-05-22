@@ -2971,6 +2971,11 @@ class CfgVehicles {
                 "G_Bandanna_blk", 0.15,
                 "G_Bandanna_oli", 0.15,
                 "G_Bandanna_khk", 0.15,
+                "SP_Balaclava_Black", 0.2,
+                "SP_Balaclava_USMulticam", 0.2,
+                "SP_Balaclava_Skull", 0.15,
+                "SP_Balaclava_Skull2", 0.15,
+                "SP_Balaclava_Venom", 0.15,
                 "CUP_TK_NeckScarf", 0.15,
                 "CUP_FR_NeckScarf", 0.15,
                 "CUP_FR_NeckScarf2", 0.15
