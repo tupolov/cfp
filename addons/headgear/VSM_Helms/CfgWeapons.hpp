@@ -70,6 +70,29 @@
 		};
 	};
 
+	class CFP_OPS2017_Helmet_Flecktarn: VSM_OPS2017_Helmet_Tan
+	{
+		displayName = "OPSCORE (Flecktarn)";
+		// picture = "\x\cfp\addons\headgear\MichHelmet\ui\Tan1.jpg";
+		hiddenSelections[] = {"camo","camo1","camo2"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_flecktarn.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
+		author = "AuburnAlumni";
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 15;
+			allowedSlots[] = {901,605};
+			uniformmodel = "\x\cfp\addons\models\VSM_OPS2017";
+			modelSides[] = {6};
+			armor = 6;
+			passThrough = 0.5;
+			HITPOINTS_HEAD(6,0.5)
+			hiddenSelections[] = {"camo","camo1","camo2"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_flecktarn.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
+
+		};
+	};
+
 	class CFP_OPS2017_Helmet_M81: VSM_OPS2017_Helmet_Tan
 	{
 		displayName = "OPSCORE (M81)";

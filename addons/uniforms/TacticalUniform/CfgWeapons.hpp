@@ -553,3 +553,41 @@
 		};
 	};
 
+	class CFP_U_Crye_Flecktarn: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_TacticalUniform_ATacsFG.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Crye Uniform (Flecktarn)";
+		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\ATacsFG.jpg";
+		author = "AuburnAlumni";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_Crye_Flecktarn";
+			containerClass="Supply60";
+			mass=80;
+
+		};
+	};
+
+	class CFP_U_Crye_Flecktarn_SS: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_TacticalUniform_ATacsFG_SS.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Crye Uniform SS (Flecktarn)";
+		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\ATacsFG.jpg";
+		author = "AuburnAlumni";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_Crye_Flecktarn_SS";
+			containerClass="Supply60";
+			mass=80;
+
+		};
+	};
+

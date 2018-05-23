@@ -267,6 +267,96 @@ class CfgGroups {
             class SpecOps {
                 name = "Special Forces";
 
+                class cfp_b_dearmy_specops_fire_team_wdl {
+                    name = "Fire Team";
+                    side = 1;
+                    faction = "CUP_B_GER";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CUP_B_GER_Team_Leader_Assault_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_GER_Rifleman_Assault_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_GER_Machine_Gunner_Assault_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_GER_AT_Specialist_Assault_01";
+                    };
+                };
+
+                class cfp_b_dearmy_specops_assault_team_wdl {
+                    name = "Assault Team";
+                    side = 1;
+                    faction = "CUP_B_GER";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CUP_B_GER_Team_Leader_Assault_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_GER_Machine_Gunner_Assault_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_GER_AT_Specialist_Assault_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_GER_Paramedic_Assault_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_GER_Rifleman_Assault_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_GER_Rifleman_Assault_01";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_GER_Rifleman_Assault_01";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_GER_Rifleman_Assault_01";
+                    };
+                };
+
             };
 
             class Motorized {

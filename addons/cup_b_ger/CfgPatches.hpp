@@ -2,7 +2,12 @@ class CfgPatches {
     class ADDON {
         units[] = {
             "CFP_B_DEARMY_Pilot_DES_01",
-            "CFP_B_DEARMY_Fennek_01"
+            "CFP_B_DEARMY_Fennek_01",
+            "CUP_B_GER_Team_Leader_Assault_01",
+            "CUP_B_GER_Rifleman_Assault_01",
+            "CUP_B_GER_Machine_Gunner_Assault_01",
+            "CUP_B_GER_AT_Specialist_01",
+            "CUP_B_GER_Paramedic_Assault_01"
         };
         weapons[] = {};
         requiredAddons[] = {
