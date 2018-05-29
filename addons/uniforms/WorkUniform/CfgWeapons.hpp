@@ -92,3 +92,23 @@
 
 		};
 	};
+
+	class CFP_U_WorkUniform_IDF: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_WorkUniform_NodUrban.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Work Uniform (IDF)";
+		// picture = "\x\cfp\addons\uniforms\WorkUniform\0000_Standard\ui\NodUrban.jpg";
+		author = "AuburnAlumni";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_WOrkUniform_IDF";
+			containerClass="Supply60";
+			mass=80;
+
+
+		};
+	};

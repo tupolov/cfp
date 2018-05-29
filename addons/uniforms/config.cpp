@@ -59,6 +59,7 @@ class CfgPatches
 			"SP_0000_Standard_WorkUniform_ATacsFG",
 			"CFP_WorkUniform_Tropentarn",
 			"CFP_WorkUniform_Flecktarn",
+			"CFP_WorkUniform_IDF",
 			"CFP_Crye_Black",
 			"CFP_Crye_Black_SS",
 			"SP_0000_Standard_TacticalUniform_Black_TS",
@@ -142,6 +143,7 @@ class CfgPatches
 			"CFP_BattleDressUniform_flecktarn_snow",
 			"CFP_BattleDressUniform_tigerdesert",
 			"CFP_BattleDressUniform_tigerdesert_tan",
+			"CFP_BattleDressUniform_basijdigital",
 			"CFP_FieldUniform_3ColorDesert",
 			"CFP_FieldUniform_afghan_w",
 			"CFP_FieldUniform_AfricanWoodlandDark",
@@ -167,9 +169,9 @@ class CfgPatches
 			"CFP_FieldUniform_flecktarn_snow",
 			"CFP_FieldUniform_iasfblack",
 			"CFP_FieldUniform_m81anasf",
-			"CFP_FieldUniform_ana",
 			"CFP_FieldUniform_irandpm",
 			"CFP_FieldUniform_idf",
+			"CFP_FieldUniform_idf_ss",
 			"CFP_FieldUniform_ana_wdlight",
 			"CFP_FieldUniform_ana_wddark",
 			"CFP_FieldUniform_marpat_w",
@@ -235,6 +237,8 @@ class CfgPatches
 			"CFP_Crye_Multicamplain_SS",
 			"CFP_Crye_Multicam2plain",
 			"CFP_Crye_Multicam2plain_SS",
+			"CFP_Crye_IDF",
+			"CFP_Crye_IDF_SS",
 			"CFP_ACU_OCP"
 		};
 		weapons[] = {
@@ -284,6 +288,7 @@ class CfgPatches
 			"cfp_u_battledressuniform_woodlandlight",
 			"cfp_u_battledressuniform_tigerdesert",
 			"cfp_u_battledressuniform_tigerdesert_tan",
+			"cfp_u_battledressuniform_basijdigital",
 			"cfp_u_fielduniform_3colordesert",
 			"cfp_u_fielduniform_acr_desert",
 			"cfp_u_fielduniform_acr_desert_ss",
@@ -291,7 +296,6 @@ class CfgPatches
 			"cfp_u_fielduniform_afghan_w",
 			"cfp_u_fielduniform_africanwoodlanddark",
 			"cfp_u_fielduniform_africanwoodlandlight",
-			"cfp_u_fielduniform_ana",
 			"cfp_u_fielduniform_ana_spec4cewd_dark",
 			"cfp_u_fielduniform_ana_spec4cewd_light",
 			"cfp_u_fielduniform_ana_wddark",
@@ -311,6 +315,7 @@ class CfgPatches
 			"cfp_u_fielduniform_flora_arid",
 			"cfp_u_fielduniform_iasfblack",
 			"cfp_u_fielduniform_idf",
+			"cfp_u_fielduniform_idf_ss",
 			"cfp_u_fielduniform_iran_sf_digital",
 			"cfp_u_fielduniform_irandpm",
 			"cfp_u_fielduniform_m81",
@@ -446,6 +451,7 @@ class CfgPatches
 			"sp_0000_standard_workuniform_hunter2",
 			"CFP_U_WorkUniform_Tropentarn",
 			"CFP_U_WorkUniform_Flecktarn",
+			"CFP_U_WorkUniform_IDF",
 			"CFP_U_VDVBDU_M81dark",
 			"CFP_U_VDVBDU_M81light",
 			"CFP_U_VDVBDU_IranDPM",
@@ -480,6 +486,8 @@ class CfgPatches
 			"CFP_U_Crye_Multicamplain_SS",
 			"CFP_U_Crye_Multicam2plain",
 			"CFP_U_Crye_Multicam2plain_SS",
+			"CFP_U_Crye_IDF",
+			"CFP_U_Crye_IDF_SS",
 			"CFP_U_ACU_OCP"
 		};
         author = MODULE_AUTHOR;

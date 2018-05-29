@@ -1642,6 +1642,13 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Mi8\mi17_uganda.paa","\x\cfp\addons\vehicles\Mi8\mi17_det_uganda.paa"};
                 factions[] = {};
             };
+            class Iran
+            {
+                displayname = "Iran";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Mi8\mi8_body_iran.paa","\x\cfp\addons\vehicles\Mi8\mi8_det_g_iran.paa"};
+                factions[] = {};
+            };
         };
     };
 
@@ -1936,4 +1943,18 @@ class CfgVehicles
         };
    };
 
+   class Plane;
+   class CUP_Su25_base: Plane
+   {
+        class textureSources
+        {
+            class Iran
+            {
+                displayname = "Iran";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\SU25\su25_body1_iran_co.paa","\x\cfp\addons\vehicles\SU25\su25_body2_iran_co.paa"};
+                factions[] = {};
+            };
+        };
+   };
 };

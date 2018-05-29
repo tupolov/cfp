@@ -596,3 +596,52 @@ class CfgVehicleClasses
 			};
 		};
 	};
+
+	class CFP_PlateCarrier1_IDF: V_PlateCarrier1_rgr
+{
+    picture = "\x\cfp\addons\vests\data\ui\icon_SP_PlateCarrier1_Green.paa";
+		scope = 2;
+		displayName = "Plate Carrier 1 (IDF)";
+		// picture = "\x\cfp\addons\vests\PlateCarrier1\ui\Green.jpg";
+		model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\PlateCarrier1\IDF.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "SP Craig";
+
+
+
+		class ItemInfo: VestItem
+		{
+			uniformModel = "\A3\Characters_F\BLUFOR\equip_b_vest02";
+			containerClass = "Supply120";
+			hiddenSelections[] = {"camo"};
+			mass = 200;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					hitpointName = "HitChest";
+					armor = 20;
+					passThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					hitpointName = "HitDiaphragm";
+					armor = 20;
+					passThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 20;
+					passThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.2;
+				};
+			};
+
+		};
+	};

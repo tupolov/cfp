@@ -109,6 +109,7 @@ class CfgPatches
 			"SP_M1Helmet_Blue",
 			"SP_M1Helmet_Green",
 			"SP_M1Helmet_Tan",
+			"SP_M1Helmet_Iran",
 			"SP_M1Helmet_GrayDim",
 			"SP_M1Helmet_White",
 			"SP_M1Helmet_UN",
@@ -334,11 +335,16 @@ class CfgPatches
 			"CFP_Lungee_Tan",
 			"cfp_basic_helmet_gray",
 			"cfp_headband_wdl",
+			"cfp_headband_basij1",
 			"cfp_pasgthelmet_chocchip1",
 			"cfp_pasgthelmet_chocchip2",
 			"cfp_pasgthelmet_edrl1",
 			"cfp_pasgthelmet_edrl2",
-			"CFP_Mich2000_USArmy"
+			"CFP_Mich2000_USArmy",
+			"CFP_IDF_GOLANI",
+			"CFP_IDF_GOLANI_BLACK",
+			"CFP_IDF_GOLANI_GREEN2",
+			"CFP_IDF_GOLANI_CAMO"
 		};
         author = MODULE_AUTHOR;
         authors[] = {"SP Craig", "Tupolov","AuburnAlumni","VanSchmoozin"};

@@ -503,3 +503,10 @@
 		uniformClass = "CFP_U_BattleDressUniform_tigerdesert_tan";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_deserttiger.paa","\x\cfp\addons\uniforms\FieldUniform\0000_Standard\Tan.paa"};
 	};
+
+	class CFP_BattleDressUniform_basijdigital : CFP_Uniform
+	{
+		displayName = "Battle Dress Uniform (Iran Basij Digital)";
+		uniformClass = "CFP_U_BattleDressUniform_basijdigital";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_iranbasijdigital.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_iran_sf_digital.paa"};
+	};

@@ -1279,13 +1279,6 @@
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_m81anasf.paa"};
 	};
 
-	class CFP_FieldUniform_ana : SP_0000_Standard_FieldUniform_GreenOlive
-	{
-		displayName = "Field Uniform (ANA Spec4ce)";
-		uniformClass = "CFP_U_FieldUniform_ana";
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_ana.paa"};
-	};
-
     class CFP_FieldUniform_irandpm : SP_0000_Standard_FieldUniform_GreenOlive
 	{
 		displayName = "Field Uniform (Iran DPM)";
@@ -1297,6 +1290,13 @@
 	{
 		displayName = "Field Uniform (Israeli Defense Force)";
 		uniformClass = "CFP_U_FieldUniform_idf";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_idf.paa"};
+	};
+
+	class CFP_FieldUniform_idf_SS : CFP_FieldUniform_multicam_SS
+	{
+		displayName = "Field Uniform SS (Israeli Defense Force)";
+		uniformClass = "CFP_U_FieldUniform_idf_SS";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_idf.paa"};
 	};
 

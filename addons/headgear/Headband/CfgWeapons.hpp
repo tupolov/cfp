@@ -1,6 +1,6 @@
 class CFP_Headband_wdl: ItemCore
     {
-        picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_Headband_wdl.paa";
+    picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_Headband_wdl.paa";
 	scope = 2;
 	weaponPoolAvailable = 1;
 	displayName = "Headband (Woodland)";
@@ -13,7 +13,7 @@ class CFP_Headband_wdl: ItemCore
 
 	class ItemInfo: HeadgearItem
 	{
-		mass = 15;
+		mass = 10;
 		uniformmodel = "\x\cfp\addons\models\Headband";
 		modelSides[] = {6};
 		armor = 0;
@@ -25,5 +25,34 @@ class CFP_Headband_wdl: ItemCore
 
 	};
 };
+
+class CFP_Headband_basij1: ItemCore
+	{
+	picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_Headband_wdl.paa";
+	scope = 2;
+	weaponPoolAvailable = 1;
+	displayName = "Headband (Basij)";
+	model = "\x\cfp\addons\models\Headband";
+	hiddenSelections[] = {"Head"};
+	hiddenSelectionsTextures[] = {
+		"\x\cfp\addons\headgear\Headband\data\basij1.paa"
+	};
+	author = "Tupolov";
+
+	class ItemInfo: HeadgearItem
+	{
+		mass = 10;
+		uniformmodel = "\x\cfp\addons\models\Headband";
+		modelSides[] = {6};
+		armor = 0;
+		passThrough = 0.30;
+		hiddenSelections[] = {"Head"};
+		hiddenSelectionsTextures[] = {
+			"\x\cfp\addons\headgear\Headband\data\basij1.paa"
+		};
+
+	};
+};
+
 
 

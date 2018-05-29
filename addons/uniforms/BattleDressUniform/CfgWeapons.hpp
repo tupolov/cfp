@@ -503,6 +503,23 @@
 		};
 	};
 
+	class CFP_U_BattleDressUniform_basijdigital: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_CFP_U_BattleDressUniform_tigerdesert_tan.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Battle Dress Uniform (Iran Basij Digital)";
+		author = "AuburnAlumni";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_BattleDressUniform_basijdigital";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Tiger Stripe 2)",tigerstripe2,"AccuracyThruVolume")
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (DPM Woodland / Green)",dpmwoodlandgreen,"AccuracyThruVolume")
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (OCP)",scorpion_w2,"AccuracyThruVolume")
@@ -524,3 +541,4 @@
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Marpat Uganda Dark Boots)",marpatugandadark,"AuburnAlumni")
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Marpat Uganda Light Boots)",marpatugandalight,"AuburnAlumni")
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Tiger Desert)",tigerdesert,"AuburnAlumni")
+

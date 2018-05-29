@@ -63,6 +63,7 @@ class CfgVehicleClasses
 
 		};
 	};
+
 	class SP_M1Helmet_Green: ItemCore
     {
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_M1Helmet_Green.paa";
@@ -86,7 +87,9 @@ class CfgVehicleClasses
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\M1Helmet\Green.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa"};
 			hiddenSelections[] = {"Camo","Camo1"};
 		};
-	};               class SP_M1Helmet_Tan: ItemCore
+	};
+
+	class SP_M1Helmet_Tan: ItemCore
     {
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_M1Helmet_Tan.paa";
 		scope = 2;
@@ -111,7 +114,36 @@ class CfgVehicleClasses
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\M1Helmet\Tan.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa"};
 			hiddenSelections[] = {"Camo","Camo1"};
 		};
-	};               class SP_M1Helmet_GrayDim: ItemCore
+	};
+
+	class SP_M1Helmet_Iran: ItemCore
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_M1Helmet_Tan.paa";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "M1 Helmet (Iran Camo)";
+		// picture = "\x\cfp\addons\headgear\M1Helmet\ui\Tan.jpg";
+		model = "\x\cfp\addons\models\M1Helmet";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\M1Helmet\Iran.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa"};
+		hiddenSelections[] = {"Camo","Camo1"};
+		author = "AuburnAlumni";
+
+
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 60;
+			uniformmodel = "\x\cfp\addons\models\M1Helmet";
+			modelSides[] = {3,1};
+			armor = 10;
+			passThrough = 0.30;
+			HITPOINTS_HEAD(10,0.30)
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\M1Helmet\Iran.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa"};
+			hiddenSelections[] = {"Camo","Camo1"};
+		};
+	};
+
+	class SP_M1Helmet_GrayDim: ItemCore
     {
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_M1Helmet_GrayDim.paa";
 		scope = 2;
@@ -136,7 +168,9 @@ class CfgVehicleClasses
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\M1Helmet\GrayDim.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa"};
 			hiddenSelections[] = {"Camo","Camo1"};
 		};
-	};               class SP_M1Helmet_White: ItemCore
+	};
+
+	class SP_M1Helmet_White: ItemCore
     {
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_M1Helmet_White.paa";
 		scope = 2;
@@ -163,6 +197,7 @@ class CfgVehicleClasses
 
 		};
 	};
+
 	class SP_M1Helmet_UN: ItemCore
     {
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_M1Helmet_UN.paa";
@@ -189,6 +224,7 @@ class CfgVehicleClasses
 			hiddenSelections[] = {"Camo","Camo1"};
 		};
 	};
+
 	class SP_M1Helmet_MPBlack: ItemCore
     {
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_M1Helmet_MPBlack.paa";
@@ -215,6 +251,7 @@ class CfgVehicleClasses
 			hiddenSelections[] = {"Camo","Camo1"};
 		};
 	};
+
 	class SP_M1Helmet_MPWhite: ItemCore
     {
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_M1Helmet_MPWhite.paa";
@@ -241,6 +278,7 @@ class CfgVehicleClasses
 			hiddenSelections[] = {"Camo","Camo1"};
 		};
 	};
+
 	class SP_M1Helmet_MPGreen: ItemCore
     {
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_M1Helmet_MPGreen.paa";

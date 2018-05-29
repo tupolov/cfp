@@ -1,7 +1,7 @@
 class CfgPatches {
     class CFP_O_irarmy {
         units[] = {
-            "CFP_O_IRARMY_Rifleman_65th_AB_01",
+             "CFP_O_IRARMY_Rifleman_65th_AB_01",
             "CFP_O_IRARMY_Sniper_65th_AB_01",
             "CFP_O_IRARMY_Team_Leader_65th_AB_01",
             "CFP_O_IRARMY_Explosives_Specialist_65th_AB_01",
@@ -50,7 +50,31 @@ class CfgPatches {
             "CFP_O_IRARMY_Safir_DShKM_01",
             "CFP_O_IRARMY_Safir_Metis_01",
             "CFP_O_IRARMY_Safir_AGS_30_01",
-            "CFP_O_IRARMY_T55_01"
+            "CFP_O_IRARMY_T55_01",
+            "CFP_O_IRARMY_CH47_01",
+            "CFP_O_IRARMY_Helicopter_Pilot_01",
+            "CFP_O_IRARMY_Pilot_01",
+            "CFP_O_IRARMY_Toufan_II_01",
+            "CFP_O_IRARMY_CH47_VIV_01",
+            "CFP_O_IRARMY_Mi_8_01",
+            "CFP_O_IRARMY_SU25_Frogfoot_01",
+            "CFP_O_IRARMY_DShKM_01",
+            "CFP_O_IRARMY_DShKM_Minitripod_01",
+            "CFP_O_IRARMY_AGS_30_01",
+            "CFP_O_IRARMY_SPG_9_01",
+            "CFP_O_IRARMY_Podnos_2B14_01",
+            "CFP_O_IRARMY_D30_AT_01",
+            "CFP_O_IRARMY_ZU_23_01",
+            "CFP_O_IRARMY_Gunner_DShKM_01",
+            "CFP_O_IRARMY_Asst_Gunner_DShKM_01",
+            "CFP_O_IRARMY_Gunner_AGS_30_01",
+            "CFP_O_IRARMY_Asst_Gunner_AGS_30_01",
+            "CFP_O_IRARMY_Gunner_Mortar_01",
+            "CFP_O_IRARMY_Asst_Gunner_Mortar_01",
+            "CFP_O_IRARMY_Gunner_SPG_01",
+            "CFP_O_IRARMY_Asst_Gunner_SPG_01",
+            "CFP_O_IRARMY_Gunner_Metis_01",
+            "CFP_O_IRARMY_Asst_Gunner_Metis_01"
         };
         weapons[] = {};
         requiredVersion = 1.62;
