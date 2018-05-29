@@ -8,4 +8,5 @@ class CfgGlasses
     #include "KneePads\CfgGlasses.hpp"
     #include "Shades\CfgGlasses.hpp"
     #include "Beards\CfgGlasses.hpp"
+    #include "Scarfbeardshades\CfgGlasses.hpp"
 };
