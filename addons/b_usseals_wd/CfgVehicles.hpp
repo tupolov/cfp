@@ -846,6 +846,20 @@ class CfgVehicles {
 
         //Seal Headgear
             headgearList[] = {
+               "CFP_BoonieHat_Multicam", 0.4,
+               "H_Bandanna_khk", 0.2,
+               "SP_Bandana_Green", 0.2,
+               "SP_BaseballCap_Black", 0.2,
+               "SP_BaseballCap_Green", 0.2,
+               "SP_BeanieHat_Green", 0.2,
+               "SP_BoonieHat_Green", 0.2,
+               "H_Cap_tan_specops_US", 0.2,
+               "SP_Headset_Green", 0.2,
+               "SP_Headset_Black", 0.2
+            };
+
+        //Seal Facewear
+            facewearList[] = {
                 "G_Bandanna_blk", 0.2,
                 "G_Bandanna_khk", 0.2,
                 "G_Bandanna_oli", 0.2,
@@ -864,20 +878,6 @@ class CfgVehicles {
                 "CFP_Scarfbeardshades_grey", 0.3,
                 "CFP_Scarfbeardshades_tan", 0.3,
                 "CFP_Scarfbeardshades_white", 0.3,
-                "CUP_FR_Neckscarf2",0.3,
-                "CFP_Beard", 0.3,
-                "CFP_Scarfshades", 0.3
-            };
-
-        //Seal Facewear
-            facewearList[] = {
-                "G_Bandanna_blk", 0.2,
-                "G_Bandanna_khk", 0.2,
-                "G_Bandanna_oli", 0.2,
-                "G_Bandanna_beast", 0.2,
-                "CUP_TK_NeckScarf", 0.3,
-                "SP_Goggles_Black",0.3,
-                "G_Lowprofile",0.3,
                 "CUP_FR_Neckscarf2",0.3,
                 "CFP_Beard", 0.3,
                 "CFP_Scarfshades", 0.3
