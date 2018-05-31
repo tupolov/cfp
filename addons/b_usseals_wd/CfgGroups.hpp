@@ -8,7 +8,7 @@ class CfgGroups {
     class WEST {
 
         class CFP_B_USSEALS_WD {
-            name = "US Navy Seals";
+            name = "US Navy Seals (Jungle / Woodland)";
 
             class Infantry {
                 name = "Infantry";

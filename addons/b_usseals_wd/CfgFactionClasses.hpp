@@ -6,7 +6,7 @@
 
 class CfgFactionClasses {
     class CFP_B_USSEALS_WD {
-        displayName = "US Navy Seals";
+        displayName = "US Navy Seals (Jungle / Woodland)";
         side = 1;
         flag = "\A3\ui_f\data\map\markers\flags\USA_ca.paa";
         icon = "\A3\ui_f\data\map\markers\flags\USA_ca.paa";

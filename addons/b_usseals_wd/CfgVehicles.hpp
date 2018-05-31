@@ -272,8 +272,18 @@ class CfgVehicles {
                 "G_Bandanna_blk", 0.4,
                 "G_Bandanna_khk", 0.4,
                 "CUP_TK_NeckScarf", 0.3,
-                "SP_Goggles_Black",0.3,
-                "G_Lowprofile",0.3,
+                "CFP_Scarfshades_green", 0.3,
+                "CFP_Scarfshades_white", 0.3,
+                "CFP_Scarfshades_tan", 0.3,
+                "CFP_Scarfshades_grey", 0.3,
+                "CFP_Scarfbeard_green", 0.3,
+                "CFP_Scarfbeard_grey", 0.3,
+                "CFP_Scarfbeard_tan", 0.3,
+                "CFP_Scarfbeard_white", 0.3,
+                "CFP_Scarfbeardshades_green", 0.3,
+                "CFP_Scarfbeardshades_grey", 0.3,
+                "CFP_Scarfbeardshades_tan", 0.3,
+                "CFP_Scarfbeardshades_white", 0.3,
                 "CUP_FR_Neckscarf2",0.3,
                 "SP_Balaclava_Black", 0.3,
                 "SP_Balaclava_Skull", 0.3,
@@ -333,19 +343,6 @@ class CfgVehicles {
 
         ALiVE_orbatCreator_loadout[] = {{"arifle_SPAR_01_khk_F","muzzle_snds_m_khk_F","CUP_acc_ANPEQ_2_camo","optic_Holosight_khk_F",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_Crye_AOR2",{{"FirstAidKit",1},{"CUP_17Rnd_9x19_glock17",3,17},{"30Rnd_556x45_Stanag",3,30}}},{"CFP_LBT6094_operator_OGA_OD",{{"30Rnd_556x45_Stanag",5,30},{"Chemlight_green",1,1},{"Chemlight_red",1,1},{"B_IR_Grenade",1,1},{"CUP_HandGrenade_M67",2,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},{},"CFP_OPS2017_Helmet_AOR2","CUP_FR_NeckScarf",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
     class CFP_B_USSEALS_Machine_Gunner_AOR2_WD_01 : CFP_B_USSEALS_Rifleman_AOR2_WD_01 {
@@ -362,19 +359,6 @@ class CfgVehicles {
         respawnMagazines[] = {"CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_17Rnd_9x19_glock17","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_17Rnd_9x19_glock17"};
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_m249_pip3","","","optic_Holosight_blk_F",{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",200},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_Crye_AOR2",{{"FirstAidKit",1},{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_RAV_MG_OGA_OD",{{"Chemlight_green",1,1},{"Chemlight_red",1,1},{"B_IR_Grenade",1,1},{"CUP_HandGrenade_M67",2,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1},{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",3,200}}},{},"CFP_OPS2017_Helmet_AOR2","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
 
     };
 
@@ -485,7 +469,18 @@ class CfgVehicles {
                 "G_Bandanna_beast", 0.2,
                 "CUP_TK_NeckScarf", 0.3,
                 "SP_Goggles_Black",0.3,
-                "G_Lowprofile",0.3,
+                "CFP_Scarfshades_green", 0.3,
+                "CFP_Scarfshades_white", 0.3,
+                "CFP_Scarfshades_tan", 0.3,
+                "CFP_Scarfshades_grey", 0.3,
+                "CFP_Scarfbeard_green", 0.3,
+                "CFP_Scarfbeard_grey", 0.3,
+                "CFP_Scarfbeard_tan", 0.3,
+                "CFP_Scarfbeard_white", 0.3,
+                "CFP_Scarfbeardshades_green", 0.3,
+                "CFP_Scarfbeardshades_grey", 0.3,
+                "CFP_Scarfbeardshades_tan", 0.3,
+                "CFP_Scarfbeardshades_white", 0.3,
                 "CUP_FR_Neckscarf2",0.3,
                 "CFP_Beard", 0.3,
                 "CFP_Scarfshades", 0.3
@@ -659,8 +654,18 @@ class CfgVehicles {
                 "G_Bandanna_blk", 0.4,
                 "G_Bandanna_khk", 0.4,
                 "CUP_TK_NeckScarf", 0.3,
-                "SP_Goggles_Black",0.3,
-                "G_Lowprofile",0.3,
+                "CFP_Scarfshades_green", 0.3,
+                "CFP_Scarfshades_white", 0.3,
+                "CFP_Scarfshades_tan", 0.3,
+                "CFP_Scarfshades_grey", 0.3,
+                "CFP_Scarfbeard_green", 0.3,
+                "CFP_Scarfbeard_grey", 0.3,
+                "CFP_Scarfbeard_tan", 0.3,
+                "CFP_Scarfbeard_white", 0.3,
+                "CFP_Scarfbeardshades_green", 0.3,
+                "CFP_Scarfbeardshades_grey", 0.3,
+                "CFP_Scarfbeardshades_tan", 0.3,
+                "CFP_Scarfbeardshades_white", 0.3,
                 "CUP_FR_Neckscarf2",0.3,
                 "SP_Balaclava_Black", 0.3,
                 "SP_Balaclava_Skull", 0.3,
@@ -749,19 +754,6 @@ class CfgVehicles {
         respawnMagazines[] = {"CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_17Rnd_9x19_glock17","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_17Rnd_9x19_glock17"};
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_m249_pip3","","","optic_Holosight_blk_F",{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",200},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_Crye_Multicam2",{{"FirstAidKit",1},{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_RAV_MG_Multicam",{{"Chemlight_green",1,1},{"Chemlight_red",1,1},{"B_IR_Grenade",1,1},{"CUP_HandGrenade_M67",2,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1},{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",3,200}}},{},"CFP_OPS2017_Helmet_Multicam2","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
 
     };
 
@@ -854,14 +846,27 @@ class CfgVehicles {
 
         //Seal Headgear
             headgearList[] = {
-                "CFP_BoonieHat_Multicam", 0.4,
-                "H_Bandanna_khk", 0.2,
-                "H_Booniehat_oli", 0.2,
-                "H_Cap_blk", 0.2,
-                "H_Cap_oli", 0.2,
-                "SP_HeadSet_Green", 0.2,
-                "SP_Headset_Black", 0.2,
-                "H_Cap_usblack", 0.2
+                "G_Bandanna_blk", 0.2,
+                "G_Bandanna_khk", 0.2,
+                "G_Bandanna_oli", 0.2,
+                "G_Bandanna_beast", 0.2,
+                "CUP_TK_NeckScarf", 0.3,
+                "SP_Goggles_Black",0.3,
+                "CFP_Scarfshades_green", 0.3,
+                "CFP_Scarfshades_white", 0.3,
+                "CFP_Scarfshades_tan", 0.3,
+                "CFP_Scarfshades_grey", 0.3,
+                "CFP_Scarfbeard_green", 0.3,
+                "CFP_Scarfbeard_grey", 0.3,
+                "CFP_Scarfbeard_tan", 0.3,
+                "CFP_Scarfbeard_white", 0.3,
+                "CFP_Scarfbeardshades_green", 0.3,
+                "CFP_Scarfbeardshades_grey", 0.3,
+                "CFP_Scarfbeardshades_tan", 0.3,
+                "CFP_Scarfbeardshades_white", 0.3,
+                "CUP_FR_Neckscarf2",0.3,
+                "CFP_Beard", 0.3,
+                "CFP_Scarfshades", 0.3
             };
 
         //Seal Facewear
