@@ -1,5 +1,5 @@
 class CfgPatches {
-    class CFP_O_irarmy {
+    class CFP_O_IRARMY {
         units[] = {
              "CFP_O_IRARMY_Rifleman_65th_AB_01",
             "CFP_O_IRARMY_Sniper_65th_AB_01",
@@ -74,7 +74,9 @@ class CfgPatches {
             "CFP_O_IRARMY_Gunner_SPG_01",
             "CFP_O_IRARMY_Asst_Gunner_SPG_01",
             "CFP_O_IRARMY_Gunner_Metis_01",
-            "CFP_O_IRARMY_Asst_Gunner_Metis_01"
+            "CFP_O_IRARMY_Asst_Gunner_Metis_01",
+            "CFP_O_IRARMY_C130_01",
+            "CFP_O_IRARMY_C130_VIV_01"
         };
         weapons[] = {};
         requiredVersion = 1.62;

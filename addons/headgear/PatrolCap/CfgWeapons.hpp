@@ -508,6 +508,58 @@ class CfgVehicleClasses
 		};
 	};
 
+	class CFP_PatrolCap_M81Hamas: ItemCore
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_PatrolCap_M81.paa";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "Patrol Cap (M81 Hamas)";
+		// picture = "\x\cfp\addons\headgear\PatrolCap\ui\GreenOlive.jpg";
+		model = "\x\cfp\addons\models\PatrolCap";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\M81Hamas.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "AuburnAlumni";
+
+
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 15;
+			uniformmodel = "\x\cfp\addons\models\PatrolCap";
+			modelSides[] = {3,1};
+			armor = 0;
+			passThrough = 0.30;
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\M81Hamas.paa"};
+			hiddenSelections[] = {"Camo"};
+		};
+	};
+
+	class CFP_PatrolCap_BlackHamas: ItemCore
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_PatrolCap_M81.paa";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "Patrol Cap (Black Hamas)";
+		// picture = "\x\cfp\addons\headgear\PatrolCap\ui\GreenOlive.jpg";
+		model = "\x\cfp\addons\models\PatrolCap";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\BlackHamas.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "AuburnAlumni";
+
+
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 15;
+			uniformmodel = "\x\cfp\addons\models\PatrolCap";
+			modelSides[] = {3,1};
+			armor = 0;
+			passThrough = 0.30;
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\BlackHamas.paa"};
+			hiddenSelections[] = {"Camo"};
+		};
+	};
+
 	class CFP_PatrolCap_PolygonWoodland: ItemCore
     {
         picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_PatrolCap_PolygonWoodland.paa";

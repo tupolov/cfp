@@ -214,6 +214,8 @@ class CfgPatches
 			"CFP_PatrolCap_PolygonDesert",
 			"CFP_PatrolCap_PolygonWoodland",
 			"CFP_PatrolCap_M81",
+			"CFP_PatrolCap_M81Hamas",
+			"CFP_PatrolCap_BlackHamas",
 			"CFP_PatrolCap_MarpatUganda",
 			"SP_ProTecHelmet_Black",
 			"SP_ProTecHelmet_Green",

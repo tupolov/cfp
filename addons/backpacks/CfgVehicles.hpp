@@ -292,6 +292,17 @@ class CfgVehicles
         hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Compact\backpack_compact_m81.paa"};
         author = "AuburnAlumni";
     };
+    class CFP_AssaultPack_IDF: B_AssaultPack_Base
+    {
+        picture = "\x\cfp\addons\backpacks\data\ui\icon_CFP_AssaultPack_M81.paa";
+        scope = 2;
+        maximumLoad = 160;
+        displayName = "Assault Pack (IDF)";
+        model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Compact";
+        // picture = "\A3\Weapons_F\Ammoboxes\Bags\data\UI\icon_B_AssaultPack_khk_ca.paa";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Compact\backpack_compact_idf.paa"};
+        author = "AuburnAlumni";
+    };
     class CFP_AssaultPack_Marpat: B_AssaultPack_Base
     {
         picture = "\x\cfp\addons\backpacks\data\ui\icon_CFP_AssaultPack_Marpat.paa";

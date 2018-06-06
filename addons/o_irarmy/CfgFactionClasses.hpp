@@ -5,7 +5,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 class CfgFactionClasses {
-    class CFP_O_irarmy {
+    class CFP_O_IRARMY {
         displayName = "Islamic Republic of Iran Army";
         side = 0;
         flag = "x\cfp\addons\flags\Iran\Iran.paa";

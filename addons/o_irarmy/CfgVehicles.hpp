@@ -346,6 +346,24 @@ class CfgVehicles {
         };
     };
 
+    class CUP_B_C130J_USMC;
+    class CUP_B_C130J_USMC_OCimport_01 : CUP_B_C130J_USMC { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_B_C130J_USMC_OCimport_02 : CUP_B_C130J_USMC_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
+    class CUP_B_C130J_Cargo_USMC;
+    class CUP_B_C130J_Cargo_USMC_OCimport_01 : CUP_B_C130J_Cargo_USMC { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_B_C130J_Cargo_USMC_OCimport_02 : CUP_B_C130J_Cargo_USMC_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
 
     class CFP_O_IRARMY_Rifleman_65th_AB_01 : O_recon_F_OCimport_02 {
         author = "Drew";
@@ -353,7 +371,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman [65th AB]";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -393,7 +411,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Sniper [65th AB]";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -431,7 +449,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Team Leader [65th AB]";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -473,7 +491,7 @@ class CfgVehicles {
         engineer = 1;
         canDeactivateMines = 1;
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -516,7 +534,7 @@ class CfgVehicles {
         icon = "iconManMedic";
         picture = "pictureHeal";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -556,7 +574,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman AT [65th AB]";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -596,7 +614,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman Assault [65th AB]";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -636,7 +654,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -886,7 +904,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman [55th AB Div]";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -924,7 +942,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Rifleman AT [55th AB Div]";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -964,7 +982,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Squad Leader [55th AB Div]";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -1002,7 +1020,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Grenadier [55th AB Div]";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -1042,7 +1060,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Machine Gunner [55th AB Div]";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -1082,7 +1100,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Asst. Machine Gunner [55th AB Div]";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -1125,7 +1143,7 @@ class CfgVehicles {
         icon = "iconManMedic";
         picture = "pictureHeal";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -1167,7 +1185,7 @@ class CfgVehicles {
         engineer = 1;
         canDeactivateMines = 1;
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -1207,7 +1225,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Sniper [55th AB Div]";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -1245,7 +1263,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Autorifleman [55th AB Div]";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -1285,7 +1303,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Asst. Auto Rifleman [55th AB Div]";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -1325,7 +1343,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Crewman";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -1363,7 +1381,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "BMP2";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
         crew = "CFP_O_IRARMY_Crewman_01";
 
         class Turrets : Turrets {
@@ -1399,7 +1417,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "BMP1";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
         crew = "CFP_O_IRARMY_Crewman_01";
 
         class Turrets : Turrets {
@@ -1438,7 +1456,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "BTR-60";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
         crew = "CFP_O_IRARMY_Crewman_01";
 
         class Turrets : Turrets {
@@ -1477,7 +1495,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "BTR-90";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
         crew = "CFP_O_IRARMY_Crewman_01";
 
         class Turrets : Turrets {
@@ -1515,7 +1533,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M113 ";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
         crew = "CFP_O_IRARMY_Crewman_01";
 
         class Turrets : Turrets {
@@ -1545,7 +1563,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "M60 Patton";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
         crew = "CFP_O_IRARMY_Crewman_01";
 
         class Turrets : Turrets {
@@ -1581,7 +1599,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "T-72 ";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
         crew = "CFP_O_IRARMY_Crewman_01";
 
         class Turrets : Turrets {
@@ -1617,7 +1635,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Ural ";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
         crew = "CFP_O_IRARMY_Rifleman_01";
 
         class Turrets : Turrets {
@@ -1648,7 +1666,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Ural [ZU-23]";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
         crew = "CFP_O_IRARMY_Rifleman_01";
 
         class Turrets : Turrets {
@@ -1678,7 +1696,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Ural [Open]";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
         crew = "CFP_O_IRARMY_Rifleman_01";
 
         class Turrets : Turrets {
@@ -1709,7 +1727,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Ural [Refuel]";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
         crew = "CFP_O_IRARMY_Rifleman_01";
 
 
@@ -1734,7 +1752,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Ural [Repair]";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
         crew = "CFP_O_IRARMY_Rifleman_01";
 
 
@@ -1759,7 +1777,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Ural [Ammo]";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
         crew = "CFP_O_IRARMY_Rifleman_01";
 
 
@@ -1784,7 +1802,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Volha";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
         crew = "CFP_O_IRARMY_Rifleman_01";
 
 
@@ -1809,7 +1827,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Safir";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
         crew = "CFP_O_IRARMY_Rifleman_01";
 
 
@@ -1834,7 +1852,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Safir [SPG-9]";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
         crew = "CFP_O_IRARMY_Rifleman_01";
 
         class Turrets : Turrets {
@@ -1865,7 +1883,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Safir [DShKM]";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
         crew = "CFP_O_IRARMY_Rifleman_01";
 
         class Turrets : Turrets {
@@ -1896,7 +1914,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Safir [Metis-M]";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
         crew = "CFP_O_IRARMY_Rifleman_01";
 
         class Turrets : Turrets {
@@ -1927,7 +1945,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Safir [AGS-30]";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
         crew = "CFP_O_IRARMY_Rifleman_01";
 
         class Turrets : Turrets {
@@ -1958,7 +1976,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "T-55";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
         crew = "CFP_O_IRARMY_Crewman_01";
 
         class Turrets : Turrets {
@@ -1994,7 +2012,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "CH47";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
         crew = "CFP_O_IRARMY_Helicopter_Pilot_01";
 
         class Turrets : Turrets {
@@ -2027,7 +2045,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Helicopter Pilot";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -2066,7 +2084,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Pilot";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -2106,7 +2124,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Toufan II";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
         crew = "CFP_O_IRARMY_Helicopter_Pilot_01";
 
         class Turrets : Turrets {
@@ -2136,7 +2154,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "CH47 [VIV]";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
         crew = "CFP_O_IRARMY_Helicopter_Pilot_01";
 
         class Turrets : Turrets {
@@ -2168,7 +2186,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Mi-8";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
         crew = "CFP_O_IRARMY_Helicopter_Pilot_01";
 
         class Turrets : Turrets {
@@ -2200,7 +2218,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "SU25 Frogfoot";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
         crew = "CFP_O_IRARMY_Pilot_01";
 
 
@@ -2225,7 +2243,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "DShKM";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
         crew = "CFP_O_IRARMY_Rifleman_01";
 
         class Turrets : Turrets {
@@ -2254,7 +2272,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "DShKM Minitripod";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
         crew = "CFP_O_IRARMY_Rifleman_01";
 
         class Turrets : Turrets {
@@ -2283,7 +2301,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "AGS-30";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
         crew = "CFP_O_IRARMY_Rifleman_01";
 
         class Turrets : Turrets {
@@ -2312,7 +2330,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "SPG-9";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
         crew = "CFP_O_IRARMY_Rifleman_01";
 
         class Turrets : Turrets {
@@ -2341,7 +2359,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Podnos 2B14";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
         crew = "CFP_O_IRARMY_Rifleman_01";
 
         class Turrets : Turrets {
@@ -2370,7 +2388,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "D-30 AT";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
         crew = "CFP_O_IRARMY_Rifleman_01";
 
         class Turrets : Turrets {
@@ -2399,7 +2417,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "ZU-23";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
         crew = "CFP_O_IRARMY_Rifleman_01";
 
         class Turrets : Turrets {
@@ -2428,7 +2446,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Gunner [DShKM]";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -2468,7 +2486,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Asst. Gunner [DShKM]";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -2508,7 +2526,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Gunner [AGS-30]";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -2548,7 +2566,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Asst. Gunner [AGS-30]";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -2588,7 +2606,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Gunner [Mortar]";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -2628,7 +2646,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Asst. Gunner [Mortar]";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -2668,7 +2686,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Gunner [SPG-9]";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -2708,7 +2726,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Asst. Gunner [SPG-9]";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -2748,7 +2766,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Gunner [Metis]";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -2788,7 +2806,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Asst. Gunner [Metis]";
         side = 0;
-        faction = "CFP_O_irarmy";
+        faction = "CFP_O_IRARMY";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
 
@@ -2819,6 +2837,67 @@ class CfgVehicles {
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
+
+    };
+
+
+    class CFP_O_IRARMY_C130_01 : CUP_B_C130J_USMC_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "C-130";
+        side = 0;
+        faction = "CFP_O_IRARMY";
+        crew = "CFP_O_IRARMY_Pilot_01";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "CFP_O_IRARMY_Pilot_01"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\C130\c130j_body_iran.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\C130\c130j_wings_iran.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "Iran";
+
+    };
+
+    class CFP_O_IRARMY_C130_VIV_01 : CUP_B_C130J_Cargo_USMC_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "C-130 [VIV]";
+        side = 0;
+        faction = "CFP_O_IRARMY";
+        crew = "CFP_O_IRARMY_Pilot_01";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "CFP_O_IRARMY_Pilot_01"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\C130\c130j_body_iran.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\C130\c130j_wings_iran.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "Iran";
 
     };
 

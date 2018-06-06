@@ -777,6 +777,20 @@
 		};
 	};
 
+	class CFP_U_FieldUniform_idf_SS: SP_0000_Standard_FieldUniform_NodUrban_SS
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_CFP_U_FieldUniform_tiger_desert_SS.paa";
+		displayName = "Field Uniform SS (Israeli Defense Force)";
+		author = "AuburnAlumni";
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_FieldUniform_idf_SS";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+
 	class CFP_U_FieldUniform_multicam_snow: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_CFP_U_FieldUniform_multicam_snow.paa";
@@ -858,7 +872,6 @@
     ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (ANA Commando M81)",m81anasf,"AuburnAlumni")
     ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Iran DPM)",irandpm,"AuburnAlumni")
     ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Israeli Defense Force)",idf,"AuburnAlumni")
-    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform SS (Israeli Defense Force)",idf_ss,"AuburnAlumni")
     ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (ANA Woodland Light)",ana_wdlight,"AuburnAlumni")
     ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (ANA Woodland Dark)",ana_wddark,"AuburnAlumni")
     ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (ANA Spec4ce Woodland Light)",ana_spec4cewd_light,"AuburnAlumni")

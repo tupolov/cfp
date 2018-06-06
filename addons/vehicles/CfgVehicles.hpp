@@ -1256,6 +1256,13 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\LandRover\lr_base_baf_green.paa"};
                 factions[] = {};
             };
+            class IDF
+            {
+                displayName = "IDF";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\LandRover\lr_base_idf.paa"};
+                factions[] = {};
+            };
             class ISIS
             {
                 displayName = "Standard ISIS";
@@ -1288,6 +1295,13 @@ class CfgVehicles
                 displayName = "Green";
                 author = "AuburnAlumni";
                 textures[] = {"\x\cfp\addons\vehicles\LandRover\lr_base_baf_green.paa","\x\cfp\addons\vehicles\LandRover\lr_acr_spec_co_green.paa"};
+                factions[] = {};
+            };
+            class IDF
+            {
+                displayName = "IDF";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\LandRover\lr_base_idf.paa","\x\cfp\addons\vehicles\LandRover\lr_acr_spec_idf.paa"};
                 factions[] = {};
             };
             class ISIS
@@ -1722,6 +1736,48 @@ class CfgVehicles
         };
     };
 
+    class CUP_AH64_base: Helicopter_Base_H
+    {
+        class textureSources
+        {
+            class IDF
+            {
+                displayname = "IDF";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Apache\ah64d_body_idf.paa","\x\cfp\addons\vehicles\Apache\ah64d_details_idf.paa","\CUP\AirVehicles\CUP_AirVehicles_AH64\data\clear_empty.paa"};
+                factions[] = {};
+            };
+        };
+    };
+
+   class CUP_Uh60_Base: Helicopter_Base_H
+   {
+        class textureSources
+        {
+            class IDF
+            {
+                displayname = "IDF";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\UH60\uh60_fuselage_idf.paa","\x\cfp\addons\vehicles\UH60\uh60_engine_idf.paa","cup\airvehicles\cup_airvehicles_uh60\data\default_co.paa"};
+                factions[] = {};
+            };
+        };
+    };
+
+    class CUP_CH53E_Base: Helicopter_Base_H
+    {
+        class textureSources
+        {
+            class IDF
+            {
+                displayname = "IDF";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\CH53\ch53_1_idf.paa","\x\cfp\addons\vehicles\CH53\ch53_2_co.paa","cup\airvehicles\cup_airvehicles_uh60\data\default_co.paa"};
+                factions[] = {};
+            };
+        };
+    };
+
     class CUP_T810_Base: Car_F
     {
         class textureSources
@@ -1897,6 +1953,13 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\M113a3\iranbody1.paa","\x\cfp\addons\vehicles\M113a3\iranbody2.paa"};
                 factions[] = {};
             };
+            class IDF
+             {
+                displayname = "IDF";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\M113a3\idfbody1.paa","\x\cfp\addons\vehicles\M113a3\idfbody2.paa"};
+                factions[] = {};
+            };
         };
    };
 
@@ -1957,4 +2020,125 @@ class CfgVehicles
             };
         };
    };
+
+   class CUP_F35B_base: Plane
+   {
+        class textureSources
+        {
+            class IDF
+            {
+                displayname = "IDF";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\F35\f35_idf.paa"};
+                factions[] = {};
+            };
+        };
+   };
+
+   class Plane_Base_F;
+   class CUP_C130J_Base: Plane_Base_F
+   {
+        class textureSources
+        {
+            class IDF
+            {
+                displayname = "IDF";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\C130\c130j_body_idf.paa","\x\cfp\addons\vehicles\C130\c130j_wings_idf.paa"};
+                factions[] = {};
+            };
+            class Iran
+            {
+                displayname = "Iran";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\C130\c130j_body_iran.paa","\x\cfp\addons\vehicles\C130\c130j_wings_iran.paa"};
+                factions[] = {};
+            };
+        };
+   };
+
+   class CUP_HMMWV_Base: Car_F
+   {
+        class textureSources
+        {
+            class IDF
+            {
+                displayname = "IDF";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\HMMWV\hmmwv_body_idf.paa"};
+                factions[] = {};
+            };
+        };
+   };
+
+   class CUP_HMMWV_TOW_Base: CUP_HMMWV_Base
+   {
+        class textureSources
+        {
+            class IDF
+            {
+                displayname = "IDF";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\HMMWV\hmmwv_body_idf.paa","\CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_tow_co.paa"};
+                factions[] = {};
+            };
+        };
+   };
+
+   class CUP_HMMWV_Ambulance_Base: CUP_HMMWV_Base
+   {
+        class textureSources
+        {
+            class IDF
+            {
+                displayname = "IDF";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\HMMWV\hmmwv_body_idf.paa","\x\cfp\addons\vehicles\HMMWV\hmmwv_parts_1_idf.paa"};
+                factions[] = {};
+            };
+        };
+   };
+
+   class CUP_HMMWV_Terminal_Base: CUP_HMMWV_Base
+   {
+        class textureSources
+        {
+            class IDF
+            {
+                displayname = "IDF";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\HMMWV\hmmwv_body_idf.paa","\x\cfp\addons\vehicles\HMMWV\hmmwv_parts_1_idf.paa"};
+                factions[] = {};
+            };
+        };
+   };
+
+   class B_MBT_01_base_F;
+   class B_MBT_01_cannon_F: B_MBT_01_base_F
+   {
+        class textureSources
+        {
+            class IDF
+            {
+                displayname = "IDF";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Merkava\merkava.paa","\x\cfp\addons\vehicles\Merkava\merkava_tow.paa", "a3\Armor_F\Data\camonet_NATO_Desert_CO.paa"};
+                factions[] = {};
+            };
+        };
+    };
+
+    class B_MBT_01_TUSK_F: B_MBT_01_cannon_F
+   {
+        class textureSources
+        {
+            class IDF
+            {
+                displayname = "IDF";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Merkava\merkava.paa","\x\cfp\addons\vehicles\Merkava\merkava_tow.paa", "a3\armor_f_epc\mbt_01\data\mbt_addons_co.paa","a3\Armor_F\Data\camonet_NATO_Desert_CO.paa"};
+                factions[] = {};
+            };
+        };
+    };
 };

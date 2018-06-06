@@ -61,10 +61,10 @@
 
 	};
 
-	class SP_Balaclava_USTricolorDesert: None
+	class SP_Balaclava_IDF: None
 	{
 		scope = 2;
-		displayname = "Balaclava (U.S Tricolor Desert)";
+		displayname = "Balaclava (IDF)";
 		model = "\x\cfp\addons\models\BalaclavaUSTricolorDesert.p3d";
 		picture = "\x\cfp\addons\glasses\Balaclava\ui\USTricolorDesert.jpg";
 		identityTypes[] = {"NoGlasses",0};
@@ -152,6 +152,29 @@
 		scope = 2;
 		displayname = "Balaclava (Skull 2)";
 		model = "\x\cfp\addons\models\BalaclavaNodUrban.p3d";
+		picture = "\x\cfp\addons\glasses\Balaclava\ui\Black.jpg";
+		identityTypes[] = {"NoGlasses",0};
+
+	};
+
+	class G_Balaclava_blk;
+	class SP_Balaclava_Hamas: G_Balaclava_blk
+	{
+		scope = 2;
+		displayname = "Balaclava (Hamas)";
+		hiddenSelections[] = {"Camo"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\Balaclava\Hamas.paa"};
+		picture = "\x\cfp\addons\glasses\Balaclava\ui\Black.jpg";
+		identityTypes[] = {"NoGlasses",0};
+
+	};
+
+	class SP_Balaclava_HamasBlack: G_Balaclava_blk
+	{
+		scope = 2;
+		displayname = "Balaclava (Hamas Black Headband)";
+		hiddenSelections[] = {"Camo"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\Balaclava\HamasBlack.paa"};
 		picture = "\x\cfp\addons\glasses\Balaclava\ui\Black.jpg";
 		identityTypes[] = {"NoGlasses",0};
 
