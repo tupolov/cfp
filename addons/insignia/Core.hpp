@@ -113,6 +113,30 @@
         displayName = "[FACTION] Syrian Resistance";
         texture = "x\cfp\addons\insignia\Core\data\faction\syrian_resistance_ca.paa";
     };
+    class USP_PATCH_FACTION_DARFUR: USP_PATCH_BASE
+    {
+        author = "Siege-A";
+        displayName = "[FACTION] Darfur Flag";
+        texture = "x\cfp\addons\insignia\Core\data\faction\Darfur.paa";
+    };
+    class USP_PATCH_FACTION_JEM: USP_PATCH_BASE
+    {
+        author = "Siege-A";
+        displayName = "[FACTION] Sudan Justice and Equality Movement";
+        texture = "x\cfp\addons\insignia\Core\data\faction\JEM.paa";
+    };
+    class USP_PATCH_FACTION_SPLMN: USP_PATCH_BASE
+    {
+        author = "Siege-A";
+        displayName = "[FACTION] Sudan People's Liberation Movement";
+        texture = "x\cfp\addons\insignia\Core\data\faction\SPLMN.paa";
+    };
+    class USP_PATCH_FACTION_SRF: USP_PATCH_BASE
+    {
+        author = "Siege-A";
+        displayName = "[FACTION] Sudan Revolutionary Front";
+        texture = "x\cfp\addons\insignia\Core\data\faction\Sudan_Revolutionary_Front.paa";
+    };
     class USP_PATCH_FLAG_ALGERIA: USP_PATCH_BASE
     {
         author = "Siege-A";
