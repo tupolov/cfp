@@ -13,6 +13,357 @@ class CfgGroups {
             class Infantry {
                 name = "Infantry";
 
+                class cfp_o_hamas_infantry_10_man_team {
+                    name = "10 Man Team ";
+                    side = 0;
+                    faction = "CFP_O_HAMAS";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Team_Leader_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Medic_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Grenadier_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Machine_Gunner_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Rifleman_AT_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Explosive_Specialist_01";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Repair_Specialist_01";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Rifleman_01";
+                    };
+                    class Unit8 {
+                        position[] = {-20,-20,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Rifleman_01";
+                    };
+                    class Unit9 {
+                        position[] = {25,-25,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Rifleman_01";
+                    };
+                };
+
+                class cfp_o_hamas_infantry_8man_team {
+                    name = "8 Man Team";
+                    side = 0;
+                    faction = "CFP_O_HAMAS";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Team_Leader_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Medic_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Grenadier_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Machine_Gunner_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Explosive_Specialist_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Rifleman_AT_01";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Rifleman_01";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Rifleman_01";
+                    };
+                };
+
+                class cfp_o_hamas_infantry_6man_team {
+                    name = "6 Man Team";
+                    side = 0;
+                    faction = "CFP_O_HAMAS";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Team_Leader_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Grenadier_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Machine_Gunner_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Medic_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Rifleman_AT_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Explosive_Specialist_01";
+                    };
+                };
+
+                class cfp_o_hamas_infantry_4man_team {
+                    name = "4 Man Team";
+                    side = 0;
+                    faction = "CFP_O_HAMAS";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Team_Leader_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Grenadier_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Machine_Gunner_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Rifleman_01";
+                    };
+                };
+
+                class cfp_o_hamas_infantry_sniper_team {
+                    name = "Sniper Team";
+                    side = 0;
+                    faction = "CFP_O_HAMAS";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Sniper_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Sniper_01";
+                    };
+                };
+
+                class cfp_o_hamas_infantry_demo_team {
+                    name = "Demo Team";
+                    side = 0;
+                    faction = "CFP_O_HAMAS";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Explosive_Specialist_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Explosive_Specialist_01";
+                    };
+                };
+
+                class cfp_o_hamas_infantry_dshkm_team {
+                    name = "DShKM Team";
+                    side = 0;
+                    faction = "CFP_O_HAMAS";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Gunner_DShKM_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Asst_Gunner_DShKM_01";
+                    };
+                };
+
+                class cfp_o_hamas_infantry_mortar_team {
+                    name = "Mortar Team";
+                    side = 0;
+                    faction = "CFP_O_HAMAS";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Gunner_Mortar_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Asst_Gunner_Mortar_01";
+                    };
+                };
+
+                class cfp_o_hamas_infantry_spg_9team {
+                    name = "SPG-9 Team";
+                    side = 0;
+                    faction = "CFP_O_HAMAS";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Gunner_SPG_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Asst_Gunner_SPG_01";
+                    };
+                };
+
+                class cfp_o_hamas_infantry_metis_team {
+                    name = "Metis Team";
+                    side = 0;
+                    faction = "CFP_O_HAMAS";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Gunner_Metis_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Asst_Gunner_Metis_01";
+                    };
+                };
+
+                class cfp_o_hamas_infantry_anti_air_team {
+                    name = "Anti-Air Team";
+                    side = 0;
+                    faction = "CFP_O_HAMAS";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Rifleman_AA_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Rifleman_AA_01";
+                    };
+                };
+
             };
 
             class SpecOps {
@@ -22,6 +373,234 @@ class CfgGroups {
 
             class Motorized {
                 name = "Motorized Infantry";
+
+                class cfp_o_hamas_motorized_motorized_team {
+                    name = "Motorized Team";
+                    side = 0;
+                    faction = "CFP_O_HAMAS";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Truck_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Team_Leader_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Medic_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Grenadier_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Machine_Gunner_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Explosive_Specialist_01";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Repair_Specialist_01";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Rifleman_AT_01";
+                    };
+                    class Unit8 {
+                        position[] = {-20,-20,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Rifleman_01";
+                    };
+                    class Unit9 {
+                        position[] = {25,-25,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Rifleman_01";
+                    };
+                };
+
+                class cfp_o_hamas_motorized_technical_patrol_mg {
+                    name = "Technical Patrol [MG]";
+                    side = 0;
+                    faction = "CFP_O_HAMAS";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Technical_MG_01";
+                    };
+                };
+
+                class cfp_o_hamas_motorized_technical_patrol_spg {
+                    name = "Technical Patrol [SPG-9]";
+                    side = 0;
+                    faction = "CFP_O_HAMAS";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Technical_SPG_01";
+                    };
+                };
+
+                class cfp_o_hamas_motorized_technical_patrol_metis {
+                    name = "Technical Patrol [Metis]";
+                    side = 0;
+                    faction = "CFP_O_HAMAS";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Technical_Metis_01";
+                    };
+                };
+
+                class cfp_o_hamas_motorized_technical_patrol_unarmed {
+                    name = "Technical Patrol [Unarmed]";
+                    side = 0;
+                    faction = "CFP_O_HAMAS";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Technical_Unarmed_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Grenadier_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Machine_Gunner_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Rifleman_AT_01";
+                    };
+                };
+
+                class cfp_o_hamas_motorized_anti_air_patrol_zu_23 {
+                    name = "Anti Air Patrol [ZU-23]";
+                    side = 0;
+                    faction = "CFP_O_HAMAS";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Ural_ZU_23_01";
+                    };
+                };
+
+                class cfp_o_hamas_motorized_motorized_at_team {
+                    name = "Motorized AT Team ";
+                    side = 0;
+                    faction = "CFP_O_HAMAS";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Technical_Unarmed_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Team_Leader_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Rifleman_AT_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Rifleman_AT_01";
+                    };
+                };
+
+                class cfp_o_hamas_motorized_motorized_aa_team {
+                    name = "Motorized AA Team";
+                    side = 0;
+                    faction = "CFP_O_HAMAS";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Technical_Unarmed_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Team_Leader_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Rifleman_AA_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Rifleman_AA_01";
+                    };
+                };
 
             };
 

@@ -850,7 +850,7 @@ class CfgVehicles {
     };
 
     class CFP_B_ILIDF_Explosive_Specialist_Recon_01 : CFP_B_ILIDF_Rifleman_Recon_01 {
-        editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_Explosive_Specialist_Recon_01.JPG;
+        editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_Rifleman_Recon_01.JPG;
 
         displayName = "Explosive Specialist [Recon]";
         engineer = 1;
@@ -872,7 +872,7 @@ class CfgVehicles {
     };
 
     class CFP_B_ILIDF_Repair_Specialist_Recon_01 : CFP_B_ILIDF_Rifleman_Recon_01 {
-        editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_Repair_Specialist_Recon_01.JPG;
+        editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_Rifleman_Recon_01.JPG;
 
         displayName = "Repair Specialist [Recon]";
         engineer = 1;
@@ -894,7 +894,7 @@ class CfgVehicles {
     };
 
     class CFP_B_ILIDF_Rifleman_AT_Recon_01 : CFP_B_ILIDF_Rifleman_Recon_01 {
-        editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_Rifleman_AT_Recon_01.JPG;
+        editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_Rifleman_Recon_01.JPG;
 
         displayName = "Rifleman AT [Recon]";
 
@@ -914,7 +914,7 @@ class CfgVehicles {
     };
 
     class CFP_B_ILIDF_Sniper_Anti_Material_01 : CFP_B_ILIDF_Rifleman_01 {
-        editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_Sniper_Anti_Material_01.JPG;
+        editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_Sniper_01.JPG;
 
         displayName = "Sniper [Anti-Material]";
 
@@ -932,7 +932,7 @@ class CfgVehicles {
     };
 
     class CFP_B_ILIDF_Gunner_M2_01 : CFP_B_ILIDF_Rifleman_01 {
-        editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_Gunner_M2_01.JPG;
+        editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_Rifleman_01.JPG;
 
         displayName = "Gunner [M2]";
 
@@ -952,7 +952,7 @@ class CfgVehicles {
     };
 
     class CFP_B_ILIDF_Asst_Gunner_M2_01 : CFP_B_ILIDF_Rifleman_01 {
-        editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_Asst_Gunner_M2_01.JPG;
+        editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_Rifleman_01.JPG;
 
         displayName = "Asst. Gunner [M2]";
 
@@ -972,7 +972,7 @@ class CfgVehicles {
     };
 
     class CFP_B_ILIDF_Gunner_Mortar_01 : CFP_B_ILIDF_Rifleman_01 {
-        editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_Gunner_Mortar_01.JPG;
+        editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_Rifleman_01.JPG;
 
         displayName = "Gunner [Mortar]";
 
@@ -992,7 +992,7 @@ class CfgVehicles {
     };
 
     class CFP_B_ILIDF_Asst_Gunner_Mortar_01 : CFP_B_ILIDF_Rifleman_01 {
-        editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_Asst_Gunner_Mortar_01.JPG;
+        editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_Asst_Rifleman_01.JPG;
 
         displayName = "Asst. Gunner [Mortar]";
 
@@ -1012,7 +1012,7 @@ class CfgVehicles {
     };
 
     class CFP_B_ILIDF_Gunner_Mk19_01 : CFP_B_ILIDF_Rifleman_01 {
-        editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_Gunner_Mk19_01.JPG;
+        editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_Rifleman_01.JPG;
 
         displayName = "Gunner [Mk19]";
 
@@ -1032,7 +1032,7 @@ class CfgVehicles {
     };
 
     class CFP_B_ILIDF_Asst_Gunner_Mk19_01 : CFP_B_ILIDF_Rifleman_01 {
-        editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_Asst_Gunner_Mk19_01.JPG;
+        editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_Rifleman_01.JPG;
 
         displayName = "Asst. Gunner [Mk19]";
 
@@ -1052,7 +1052,7 @@ class CfgVehicles {
     };
 
     class CFP_B_ILIDF_Gunner_TOW_01 : CFP_B_ILIDF_Rifleman_01 {
-        editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_Gunner_TOW_01.JPG;
+        editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_Rifleman_01.JPG;
 
         displayName = "Gunner [TOW]";
 
@@ -1072,7 +1072,7 @@ class CfgVehicles {
     };
 
     class CFP_B_ILIDF_Asst_Gunner_TOW_01 : CFP_B_ILIDF_Rifleman_01 {
-        editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_Asst_Gunner_TOW_01.JPG;
+        editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_Rifleman_TOW_01.JPG;
 
         displayName = "Asst. Gunner [TOW]";
 
@@ -1389,7 +1389,7 @@ class CfgVehicles {
     };
 
     class CFP_B_ILIDF_UAV_Specialist_01 : CFP_B_ILIDF_Rifleman_01 {
-        editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_UAV_Specialist_01.JPG;
+        editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_Rifleman_01.JPG;
 
         displayName = "UAV Specialist";
 
