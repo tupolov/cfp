@@ -287,6 +287,7 @@
 		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ATacsFG.paa"};
+		hiddenSelectionsMaterials[] = {"\x\cfp\addons\uniforms\TacticalUniform\crye_mcam_v1.rvmat"};
 		hiddenSelections[] = {"Camo", "insignia"};
 		class Wounds
 		{
@@ -319,6 +320,7 @@
 		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ATacsFG.paa"};
+		hiddenSelectionsMaterials[] = {"\x\cfp\addons\uniforms\TacticalUniform\crye_mcam_v1.rvmat"};
 		hiddenSelections[] = {"Camo", "insignia"};
 		class Wounds
 		{

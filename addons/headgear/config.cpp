@@ -346,7 +346,7 @@ class CfgPatches
 			"CFP_IDF_GOLANI",
 			"CFP_IDF_GOLANI_BLACK",
 			"CFP_IDF_GOLANI_GREEN2",
-			"CFP_IDF_GOLANI_CAMO"
+			"CFP_IDF_GOLANI_CAMO" 
 		};
         author = MODULE_AUTHOR;
         authors[] = {"SP Craig", "Tupolov","AuburnAlumni","VanSchmoozin"};

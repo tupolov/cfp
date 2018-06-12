@@ -1,0 +1,29 @@
+////////////////////////////////////////////////////////////////////
+//DeRap: hawaiians_75th_rangers\face_wear\mat\reflective_glass.rvmat
+//Produced from mikero's Dos Tools Dll version 6.44
+//'now' is Sat Jun 09 21:43:00 2018 : 'file' last modified on Sat Oct 07 19:15:31 2017
+//http://dev-heaven.net/projects/list_files/mikero-pbodll
+////////////////////////////////////////////////////////////////////
+
+#define _ARMA_
+
+ambient[] = {0.9999999,1,0.9999993,1};
+diffuse[] = {0.9999999,1,0.9999993,1};
+forcedDiffuse[] = {0,0,0,0};
+emmisive[] = {0,0,0,1};
+specular[] = {0.8010003,0.8009996,0.79599965,0};
+specularPower = 15;
+renderFlags[] = {"NoAlphaWrite"};
+nextPass = "x\cfp\addons\glasses\75Facewear\mat\glass-pass2.rvmat";
+PixelShaderID = "Glass";
+VertexShaderID = "Glass";
+class Stage1
+{
+	texture = "#(ai,64,64,1)fresnelGlass()";
+	uvSource = "none";
+};
+class Stage2
+{
+	texture = "x\cfp\addons\glasses\75Facewear\mat\env_land_co.paa";
+	uvSource = "none";
+};

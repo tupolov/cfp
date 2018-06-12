@@ -9,4 +9,6 @@ class CfgGlasses
     #include "Shades\CfgGlasses.hpp"
     #include "Beards\CfgGlasses.hpp"
     #include "Scarfbeardshades\CfgGlasses.hpp"
+    #include "75Facewear\CfgGlasses.hpp"
+    #include "75Neckwear\CfgGlasses.hpp"
 };

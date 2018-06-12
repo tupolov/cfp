@@ -1355,6 +1355,20 @@ class CfgVehicles
         };
     };
 
+    class CUP_LR_Special_Base : CUP_LR_Base
+    {
+        class textureSources
+        {
+            class Ranger
+            {
+                displayName = "Ranger SOV";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\LandRover\ranger_sov_base.paa","\x\cfp\addons\vehicles\LandRover\ranger_sov_spec.paa"};
+                factions[] = {};
+            };
+        };
+    };
+
     class CUP_Ural_BaseTurret;
     class CUP_Ural_Base : CUP_Ural_BaseTurret
     {

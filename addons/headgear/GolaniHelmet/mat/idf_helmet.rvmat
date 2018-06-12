@@ -56,7 +56,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="idf_golani_helmet\mat\default_smdi.paa";
+	texture="x\cfp\addons\headgear\GolaniHelmet\textures\default_smdi.paa";
 	uvSource="tex";
 	class uvTransform
 	{

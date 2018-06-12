@@ -1,0 +1,18 @@
+////////////////////////////////////////////////////////////////////
+//DeRap: hawaiians_75th_rangers\face_wear\mat\glass-pass2.rvmat
+//Produced from mikero's Dos Tools Dll version 6.44
+//'now' is Sat Jun 09 21:43:00 2018 : 'file' last modified on Sat Oct 07 19:15:31 2017
+//http://dev-heaven.net/projects/list_files/mikero-pbodll
+////////////////////////////////////////////////////////////////////
+
+#define _ARMA_
+
+ambient[] = {1,1,1,1};
+diffuse[] = {1,1,1,1};
+forcedDiffuse[] = {0,0,0,0};
+emmisive[] = {0,0,0,1};
+specular[] = {0,0,0,0};
+specularPower = 0;
+renderFlags[] = {"NoColorWrite"};
+PixelShaderID = "AlphaShadow";
+VertexShaderID = "Basic";

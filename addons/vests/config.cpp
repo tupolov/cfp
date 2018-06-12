@@ -111,7 +111,12 @@ class CfgPatches
 			"CFP_TakJacket_EDRL",
 			"CFP_TakJacket_ChocChip",
 			"CFP_IOTV_Empty",
-			"CFP_IOTV_Patrol"
+			"CFP_IOTV_Patrol",
+			"CFP_HV1_Ciras_Olive",
+			"CFP_HV2_Ciras_Olive",
+			"CFP_HV3_Ciras_Olive",
+			"CFP_HV4_Ciras_Olive",
+			"CFP_HV5_Ciras_Olive"
 		};
         author = MODULE_AUTHOR;
         authors[] = {"SP Craig", "Tupolov", "AuburnAlumni"};
