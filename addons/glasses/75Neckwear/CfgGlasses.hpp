@@ -203,15 +203,14 @@
 			displayname = "[75th] Face Wear Blk";
 			author = "Adacas/modifiedbyHawaiian";
 			model = "\x\cfp\addons\glasses\75Facewear\face_wear.p3d";
-			hiddenSelections[] = {"camo","camo3"};
-			hiddenSelectionsTextures[] = {"x\cfp\addons\glasses\75Facewear\tex\face_wear_blk.paa","x\cfp\addons\glasses\75Neckwear\tex\ua_thermals1_blk_co.paa""x\cfp\addons\glasses\75Neckwear\tex\ua_thermals2_blk_co.paa"};
-			hiddenSelectionsMaterials[] = {"\x\cfp\addons\glasses\75Facewear\mat\face_wear.rvmat","\x\cfp\addons\glasses\75Neckwear\mat\thermals1.rvmat","\x\cfp\addons\glasses\75Neckwear\mat\ua_thermals2.rvmat"};
+			hiddenSelections[] = {"camo","camo2","camo3"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\75Facewear\tex\face_wear_blk.paa","\x\cfp\addons\glasses\75Neckwear\tex\ua_thermals1_blk_co.paa","\x\cfp\addons\glasses\75Neckwear\tex\ua_thermals2_blk_co.paa"};
+			hiddenSelectionsMaterials[] = {"\x\cfp\addons\glasses\75Facewear\mat\face_wear.rvmat","\x\cfp\addons\glasses\75Neckwear\mat\ua_thermals1.rvmat","\x\cfp\addons\glasses\75Neckwear\mat\ua_thermals2.rvmat"};
 			identityTypes[] = {"NoGlasses",1000};
-			class ItemInfo
-			{
+			class ItemInfo {
 					type = 616;
 					hmdType = 0;
-					uniformModel = "\x\cfp\addons\glasses\75Facewear\face_wear.p3d";
+					uniformModel = "\hawaiians_75th_rangers\face_wear\face_wear.p3d";
 					mass = 4;
 					hiddenSelections[] = {"camo","camo2","camo3"};
 		};
@@ -223,10 +222,11 @@
 			scope = 2;
 			displayname = "[75th] Face Wear Spook";
 			author = "Adacas/modifiedbyHawaiian";
-			model = "x\cfp\addons\glasses\75Facewear\face_wear.p3d";
+			model = "\x\cfp\addons\glasses\75Facewear\face_wear.p3d";
+			hiddenSelections[] = {"camo","camo2","camo3"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\75Facewear\tex\face_wear_spook.paa","\x\cfp\addons\glasses\75Neckwear\tex\oak_thermals1_blk_co.paa","\x\cfp\addons\glasses\75Neckwear\tex\ua_thermals2_blk_co.paa"};
 			identityTypes[] = {"NoGlasses",1000};
-			class ItemInfo
-			{
+			class ItemInfo {
 					type = 616;
 					hmdType = 0;
 					uniformModel = "\x\cfp\addons\glasses\75Facewear\face_wear.p3d";
@@ -234,6 +234,7 @@
 					hiddenSelections[] = {"camo","camo2","camo3"};
 		};
 	};
+
 
 ////////////////////////////////////THERMAL/WEAR
 ////////////////////////////////////

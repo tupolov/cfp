@@ -113,4 +113,95 @@ class CfgWeapons
 			mass = 4;
 		};
 	};
+
+	class CFP_ANPVS15_Black: NVGoggles
+	{
+		displayname = "AN/PVS-15 NVG Blk";
+		model = "\x\cfp\addons\nvg\an_pvs15.p3d";
+		picture = "";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\nvg\tex\an_pvs15_blk_co.paa"};
+		class ItemInfo
+		{
+			type = 616;
+			hmdType = 0;
+			uniformModel = "\x\cfp\addons\nvg\an_pvs15.p3d";
+			modelOff = "\x\cfp\addons\nvg\an_pvs15_off.p3d";
+			hiddenSelections[] = {"camo"};
+			mass = 4;
+		};
+	};
+
+	class CFP_ANPVS15_Camo_V1: NVGoggles
+	{
+		displayname = "AN/PVS-15 NVG Camo_V1";
+		model = "\x\cfp\addons\nvg\an_pvs15.p3d";
+		picture = "";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\nvg\tex\an_pvs15_cam1_co.paa"};
+		class ItemInfo
+		{
+			type = 616;
+			hmdType = 0;
+			uniformModel = "\x\cfp\addons\nvg\an_pvs15.p3d";
+			modelOff = "\x\cfp\addons\nvg\an_pvs15_off.p3d";
+			hiddenSelections[] = {"camo"};
+			mass = 4;
+		};
+	};
+
+	class CFP_ANPVS15_Camo_V2: NVGoggles
+	{
+		displayname = "AN/PVS-15 NVG Camo V2";
+		model = "\x\cfp\addons\nvg\an_pvs15.p3d";
+		picture = "";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\nvg\tex\an_pvs15_cam2_co.paa"};
+		class ItemInfo
+		{
+			type = 616;
+			hmdType = 0;
+			uniformModel = "\x\cfp\addons\nvg\an_pvs15.p3d";
+			modelOff = "\x\cfp\addons\nvg\an_pvs15_off.p3d";
+			hiddenSelections[] = {"camo"};
+			mass = 4;
+		};
+	};
+
+	class CFP_ANPVS15_Camo_V3: NVGoggles
+	{
+		displayname = "AN/PVS-15 NVG Camo V3";
+		model = "\x\cfp\addons\nvg\an_pvs15.p3d";
+		picture = "";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\nvg\tex\an_pvs15_cam3_co.paa"};
+		class ItemInfo
+		{
+			type = 616;
+			hmdType = 0;
+			uniformModel = "\x\cfp\addons\nvg\an_pvs15.p3d";
+			modelOff = "\x\cfp\addons\nvg\an_pvs15_off.p3d";
+			hiddenSelections[] = {"camo"};
+			mass = 4;
+		};
+	};
+
+	class CFP_ANPVS15_Camo_V4: NVGoggles
+	{
+		displayname = "AN/PVS-15 NVG Camo V4";
+		model = "\x\cfp\addons\nvg\an_pvs15.p3d";
+		picture = "";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\nvg\tex\an_pvs15_cam4_co.paa"};
+		class ItemInfo
+		{
+			type = 616;
+			hmdType = 0;
+			uniformModel = "\x\cfp\addons\nvg\an_pvs15.p3d";
+			modelOff = "\x\cfp\addons\nvg\an_pvs15_off.p3d";
+			hiddenSelections[] = {"camo"};
+			mass = 4;
+		};
+	};
 };
+
