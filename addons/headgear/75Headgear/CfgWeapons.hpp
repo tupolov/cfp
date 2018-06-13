@@ -146,7 +146,7 @@
 			displayName = "[75th] OpsC Cov Goggles/Shemagh";
 			model = "\x\cfp\addons\headgear\75Headgear\ops_core_cov_full.p3d";
 			hiddenSelections[] = {"camo","camo1","camo2","camo3"};
-			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\opscore_co.paa","\x\cfp\addons\headgear\75Neckwear\tex\shemagh_wrap_wht_co.paa","\x\cfp\addons\headgear\75Headgear\tex\opscore_co.paa","\hawaiians_75th_rangers\face_wear\tex\ember_lense_ca.paa"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\opscore_co.paa","\x\cfp\addons\headgear\75Neckwear\tex\shemagh_wrap_wht_co.paa","\x\cfp\addons\headgear\75Headgear\tex\opscore_co.paa","\x\cfp\addons\glasses\75Facewear\tex\ember_lense_ca.paa"};
 
 			class ItemInfo: HeadgearItem {
 
