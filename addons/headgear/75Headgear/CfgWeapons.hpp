@@ -429,7 +429,7 @@
 						hiddenSelections[] = {"camo"};
 			};
 	};
-	class CFP_75th_Beanie_Beanie_Olv: ItemCore {
+	class CFP_75th_Beanie_Olv: ItemCore {
 
 
 			scope = 2;
@@ -467,7 +467,7 @@
 						hiddenSelections[] = {"camo"};
 			};
 	};
-	class CFP_75th_Beanie_Beanie_Grn: ItemCore {
+	class CFP_75th_Beanie_Grn: ItemCore {
 
 
 			scope = 2;

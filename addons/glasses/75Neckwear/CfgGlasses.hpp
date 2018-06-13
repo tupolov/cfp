@@ -18,7 +18,7 @@
 					hmdType = 0;
 					uniformModel = "\x\cfp\addons\glasses\75Neckwear\shemagh_neck_wrap_oakleys.p3d";
 					mass = 4;
-					hiddenSelections[] = {"camo", "camo2"};
+					hiddenSelections[] = {"camo","camo2"};
 		};
 	};
 	class CFP_Neck_Plain2: None
@@ -56,7 +56,7 @@
 					hmdType = 0;
 					uniformModel = "\x\cfp\addons\glasses\75Neckwear\shemagh_neck_wrap_oakleys.p3d";
 					mass = 4;
-					hiddenSelections[] = {"camo", "camo2"};
+					hiddenSelections[] = {"camo","camo2"};
 		};
 	};
 	class CFP_Neck_Plain3: None
@@ -94,7 +94,7 @@
 					hmdType = 0;
 					uniformModel = "\x\cfp\addons\glasses\75Neckwear\shemagh_neck_wrap_oakleys.p3d";
 					mass = 4;
-					hiddenSelections[] = {"camo", "camo2"};
+					hiddenSelections[] = {"camo","camo2"};
 		};
 	};
 	class CFP_Neck_Plain4: None
@@ -132,7 +132,7 @@
 					hmdType = 0;
 					uniformModel = "\x\cfp\addons\glasses\75Neckwear\shemagh_neck_wrap_oakleys.p3d";
 					mass = 4;
-					hiddenSelections[] = {"camo", "camo2"};
+					hiddenSelections[] = {"camo","camo2"};
 		};
 	};
 	class CFP_Neck_Plain_Atacs: None
@@ -170,7 +170,7 @@
 					hmdType = 0;
 					uniformModel = "\x\cfp\addons\glasses\75Neckwear\shemagh_neck_wrap_oakleys.p3d";
 					mass = 4;
-					hiddenSelections[] = {"camo", "camo2"};
+					hiddenSelections[] = {"camo","camo2"};
 		};
 	};
 	class CFP_Neck_Plain_Atacs2: None
