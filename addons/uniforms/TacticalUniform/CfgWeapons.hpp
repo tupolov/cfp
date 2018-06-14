@@ -80,7 +80,7 @@
         picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_TacticalUniform_Black_SS.paa";
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Crye Uniform SS (Black)";
+		displayName = "Crye Uniform SS (IDF)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\Black.jpg";
 		author = "AuburnAlumni";
 
