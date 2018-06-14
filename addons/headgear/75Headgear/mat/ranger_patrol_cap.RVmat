@@ -8,7 +8,7 @@ PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture="\x\cfp\addons\headgear\75Headgear\mat\ranger_patrol_cap_nohq.paa";
+	texture="x\cfp\addons\headgear\75Headgear\mat\ranger_patrol_cap_nohq.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -44,7 +44,7 @@ class Stage3
 };
 class Stage4
 {
-	texture="\x\cfp\addons\headgear\75Headgear\mat\ranger_patrol_cap_as.paa";
+	texture="x\cfp\addons\headgear\75Headgear\mat\ranger_patrol_cap_as.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -56,7 +56,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="\x\cfp\addons\headgear\75Headgear\mat\default_smdi.paa";
+	texture="x\cfp\addons\headgear\75Headgear\mat\default_smdi.paa";
 	uvSource="tex";
 	class uvTransform
 	{

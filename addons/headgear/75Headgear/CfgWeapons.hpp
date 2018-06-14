@@ -286,7 +286,7 @@
 			displayName = "[75th] OpsC Uncov Shemagh";
 			model = "\x\cfp\addons\headgear\75Headgear\ops_core_uncov_shemagh.p3d";
 			hiddenSelections[] = {"camo","camo1"};
-			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\opscore_co.paa","\x\cfp\addons\headgear\75Neckwear\tex\shemagh_wrap_blk_co.paa"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\opscore_co.paa","\x\cfp\addons\glasses\75Neckwear\tex\shemagh_wrap_blk_co.paa"};
 
 			class ItemInfo: HeadgearItem {
 
@@ -335,14 +335,14 @@
 			weaponPoolAvailable = 1;
 			author = "WilliamHurt/modifiedbyHawaiian";
 			displayName = "[75th] Patrol Cap/Oakleys";
-			model = "\x\cfp\addons\headgear\75Headgear\ranger_patrol_cap_oakleys.p3d";
+			model = "x\cfp\addons\headgear\75Headgear\ranger_patrol_cap_oakleys.p3d";
 			hiddenSelections[] = {""};
 			hiddenSelectionsTextures[] = {""};
 
 			class ItemInfo: HeadgearItem {
 
 						mass = 10;
-						uniformModel = "\x\cfp\addons\headgear\75Headgear\ranger_patrol_cap_oakleys.p3d";
+						uniformModel = "x\cfp\addons\headgear\75Headgear\ranger_patrol_cap_oakleys.p3d";
 						modelSides[] = {6};
 						hiddenSelections[] = {""};
 			};

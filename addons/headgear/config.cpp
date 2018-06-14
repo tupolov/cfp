@@ -69,6 +69,11 @@ class CfgPatches
 			"CFP_Beret2_GreenIranAirborne",
 			"SP_Beret2_Tan",
 			"SP_Beret2_Yellow",
+			"CFP_Ranger_Beret",
+			"CFP_Ranger_Beret_1Btn",
+			"CFP_Ranger_Beret_2Btn",
+			"CFP_Ranger_Beret_3Btn",
+			"CFP_Ranger_Beret_Cmdr",
 			"SP_BoonieHat_Black",
 			"SP_BoonieHat_Green",
 			"SP_BoonieHat_Tan",
@@ -346,27 +351,8 @@ class CfgPatches
 			"CFP_IDF_GOLANI",
 			"CFP_IDF_GOLANI_BLACK",
 			"CFP_IDF_GOLANI_GREEN2",
-			"CFP_IDF_GOLANI_CAMO",
-			"CFP_OpsC_Covered",
-			"CFP_OpsC_Covered2",
-			"CFP_OpsC_Uncov_Goggles",
-			"CFP_OpsC_Uncov_Full",
-			"CFP_OpsC_Cov_Goggles_Off",
-			"CFP_OpsC_Cov_Full",
-			"CFP_OpsC_Med",
-			"CFP_OpsC_Uncovered",
-			"CFP_OpsC_Painted",
-			"CFP_OpsC_Uncov_Goggle_Off",
-			"CFP_OpsC_Uncov_Shemagh",
-			"CFP_75th_Patrol_Cap",
-			"CFP_75th_Patrol_Cap_Oakleys",
-			"CFP_75th_Beanie_Blk",
-			"CFP_75th_Beanie_Blk2",
-			"CFP_75th_Beanie_Khaki",
-			"CFP_75th_Beanie_Khaki2",
-			"CFP_75th_Beanie_Olv",
-			"CFP_75th_Beanie_Olv2",
-			"CFP_75th_Beanie_Grn" 
+			"CFP_IDF_GOLANI_CAMO"
+			
 		};
         author = MODULE_AUTHOR;
         authors[] = {"SP Craig", "Tupolov","AuburnAlumni","VanSchmoozin"};

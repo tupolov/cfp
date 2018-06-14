@@ -354,3 +354,50 @@ class CfgVehicleClasses
 
 		};
 	};
+
+	class CFP_Ranger_Beret: ItemCore
+{
+	scope = 2;
+	displayName = "[75th] Ranger Beret HHC";
+	picture = "\A3\characters_f_EPB\BLUFOR\Data\UI\icon_H_beret02_ca.paa";
+	model = "\A3\Characters_F_EPB\BLUFOR\headgear_beret02.p3d";
+	hiddenSelections[] = {"camo"};
+	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\ranger_beret_co.paa"};
+	hiddenSelectionsMaterials[] = {"\x\cfp\addons\headgear\Beret2\ranger_beret.rvmat"};
+	class ItemInfo: HeadgearItem
+	{
+		mass = 4;
+		allowedSlots[] = {801, 901, 701, 605};
+		uniformModel = "\A3\Characters_F_EPB\BLUFOR\headgear_beret02.p3d";
+		modelSides[] = {6};
+		hiddenSelections[] = {"camo"};
+	    hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\ranger_beret_co.paa"};
+	};
+};
+class CFP_Ranger_Beret_1Btn: CFP_Ranger_Beret
+{
+
+	displayName = "[75th] Ranger Beret 1st Battalion";
+	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\ranger_beret01_co.paa"};
+	hiddenSelectionsMaterials[] = {"\x\cfp\addons\headgear\Beret2\ranger_beret01.rvmat"};
+};
+class CFP_Ranger_Beret_2Btn: CFP_Ranger_Beret
+{
+
+	displayName = "[75th] Ranger Beret 2nd Battalion";
+	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\ranger_beret02_co.paa"};
+	hiddenSelectionsMaterials[] = {"\x\cfp\addons\headgear\Beret2\ranger_beret02.rvmat"};
+};
+class CFP_Ranger_Beret_3Btn: CFP_Ranger_Beret
+{
+
+	displayName = "[75th] Ranger Beret 3rd Battalion";
+	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\ranger_beret03_co.paa"};
+	hiddenSelectionsMaterials[] = {"\x\cfp\addons\headgear\Beret2\ranger_beret03.rvmat"};
+};
+class CFP_Ranger_Beret_Cmdr: CFP_Ranger_Beret
+{
+	displayName = "[75th] Ranger Beret Regimental Commander";
+	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\ranger_beret04_co.paa"};
+	hiddenSelectionsMaterials[] = {"\x\cfp\addons\headgear\Beret2\ranger_beret04.rvmat"};
+};
