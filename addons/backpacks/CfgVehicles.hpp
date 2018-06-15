@@ -280,6 +280,124 @@ class CfgVehicles
         hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Fast\backpack_fast_flecktarn.paa"};
         author = "AuburnAlumni";
     };
+    class CFP_Kitbag_Olive: B_Kitbag_Base
+    {
+        picture = "\x\cfp\addons\backpacks\data\ui\icon_CFP_Kitbag_Woodland.paa";
+        scope = 2;
+        maximumLoad = 280;
+        displayName = "Kitbag (Olive)";
+        model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast.p3d";
+        // picture = "\A3\Weapons_F\ammoboxes\bags\data\ui\icon_B_C_Kitbag_rgr";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Fast\fastpack_olv_co.paa"};
+        author = "Hawaiian";
+    };
+    class CFP_Kitbag_Drab: B_Kitbag_Base
+    {
+        picture = "\x\cfp\addons\backpacks\data\ui\icon_CFP_Kitbag_Woodland.paa";
+        scope = 2;
+        maximumLoad = 280;
+        displayName = "Kitbag (Drab)";
+        model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast.p3d";
+        // picture = "\A3\Weapons_F\ammoboxes\bags\data\ui\icon_B_C_Kitbag_rgr";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Fast\fastpack_drab_co.paa"};
+        author = "Hawaiian";
+    };
+
+    class CFP_Kitbag_Aloha: B_Kitbag_Base
+    {
+        picture = "\x\cfp\addons\backpacks\data\ui\icon_CFP_Kitbag_Woodland.paa";
+        scope = 2;
+        maximumLoad = 280;
+        displayName = "Kitbag (Aloha)";
+        model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast.p3d";
+        // picture = "\A3\Weapons_F\ammoboxes\bags\data\ui\icon_B_C_Kitbag_rgr";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Fast\fastpack_aloha_co.paa"};
+        author = "Hawaiian";
+    };
+    class CFP_Kitbag_MCam_Grn: B_Kitbag_Base
+    {
+        picture = "\x\cfp\addons\backpacks\data\ui\icon_CFP_Kitbag_Woodland.paa";
+        scope = 2;
+        maximumLoad = 280;
+        displayName = "Kitbag (MCam Grn)";
+        model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast.p3d";
+        // picture = "\A3\Weapons_F\ammoboxes\bags\data\ui\icon_B_C_Kitbag_rgr";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Fast\fastpack_mcam_grn_co.paa"};
+        author = "Hawaiian";
+    };
+    class CFP_Kitbag_Brown: B_Kitbag_Base
+    {
+        picture = "\x\cfp\addons\backpacks\data\ui\icon_CFP_Kitbag_Woodland.paa";
+        scope = 2;
+        maximumLoad = 280;
+        displayName = "Kitbag (Brown)";
+        model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast.p3d";
+        // picture = "\A3\Weapons_F\ammoboxes\bags\data\ui\icon_B_C_Kitbag_rgr";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Fast\fastpack_brwn_co.paa"};
+        author = "Hawaiian";
+    };
+    class Bag_Base;
+    class CFP_Cutters: Bag_Base
+    {
+        scope = 2;
+        author = "Adacas/modifiedbyHawaiian";
+        displayName = "[75th] Cutters";
+        picture = "";
+        model = "x\cfp\addons\backpacks\cutter_set.p3d";
+        hiddenSelections[] = {""};
+        hiddenSelectionsTextures[] = {""};
+        maximumLoad = 20;
+        mass = 8;
+    };
+////////////////////////////////////CAMELBAKMULE////////////////////////////////////
+    class CFP_Camelbak_Mule_RngrGrn: Bag_Base
+    {
+        scope = 2;
+        author = "DaveGary/modifiedbyHawaiian";
+        displayName = "[75th] Camelbak Mule Ranger Grn";
+        picture = "";
+        model = "x\cfp\addons\backpacks\h_camelbak_mule.p3d";
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {"x\cfp\addons\backpacks\75Bags\tex\h_camelbak_mule_rngrgrn_co.paa"};
+        maximumLoad = 140;
+        mass = 8;
+    };
+    class H75th_Camelbak_Mule_Drab: Bag_Base
+    {
+        scope = 2;
+        author = "DaveGary/modifiedbyHawaiian";
+        displayName = "[75th] Camelbak Mule Drab";
+        picture = "";
+        model = "x\cfp\addons\backpacks\h_camelbak_mule.p3d";
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {"x\cfp\addons\backpacks\75Bags\tex\h_camelbak_mule_drab_co.paa"};
+        maximumLoad = 140;
+        mass = 8;
+    };
+    class H75th_Camelbak_Mule_Khki: Bag_Base
+    {
+        scope = 2;
+        author = "DaveGary/modifiedbyHawaiian";
+        displayName = "[75th] Camelbak Mule Khaki";
+        picture = "";
+        model = "x\cfp\addons\backpacks\h_camelbak_mule.p3d";
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {"x\cfp\addons\backpacks\75Bags\tex\h_camelbak_mule_khki_co.paa"};
+        maximumLoad = 140;
+        mass = 8;
+    };
+    class H75th_Camelbak_Mule_Coy: Bag_Base
+    {
+        scope = 2;
+        author = "DaveGary/modifiedbyHawaiian";
+        displayName = "[75th] Camelbak Mule Coyote";
+        picture = "";
+        model = "x\cfp\addons\backpacks\h_camelbak_mule.p3d";
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {"x\cfp\addons\backpacks\75Bags\tex\h_camelbak_mule_coy_co.paa"};
+        maximumLoad = 140;
+        mass = 8;
+    };
     class B_AssaultPack_Base;
     class CFP_AssaultPack_M81: B_AssaultPack_Base
     {
