@@ -24,6 +24,10 @@ class CfgVehicles {
     class I_Spotter_F_OCimport_01 : I_Spotter_F { scope = 0; class EventHandlers; };
     class I_Spotter_F_OCimport_02 : I_Spotter_F_OCimport_01 { class EventHandlers; };
 
+    class I_diver_F;
+    class I_diver_F_OCimport_01 : I_diver_F { scope = 0; class EventHandlers; };
+    class I_diver_F_OCimport_02 : I_diver_F_OCimport_01 { class EventHandlers; };
+
     class CUP_B_M2StaticMG_USMC;
     class CUP_B_M2StaticMG_USMC_OCimport_01 : CUP_B_M2StaticMG_USMC { scope = 0; class EventHandlers; class Turrets; };
     class CUP_B_M2StaticMG_USMC_OCimport_02 : CUP_B_M2StaticMG_USMC_OCimport_01 {
@@ -1088,6 +1092,217 @@ class CfgVehicles {
         backpack = "CUP_B_Tow_Gun_Bag";
 
         ALiVE_orbatCreator_loadout[] = {{"CFP_Tavor_Black","","","optic_Holosight_blk_F",{"30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_idf",{{"FirstAidKit",1},{"30Rnd_556x45_Stanag",3,30}}},{"CFP_Modular1_IDF",{{"30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1},{"Chemlight_green",1,1},{"SmokeShell",1,1}}},{"CUP_B_Tow_Gun_Bag",{}},"CFP_IDF_GOLANI","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+
+    };
+
+    class CFP_B_ILIDF_Commando_Team_Leader_01 : I_diver_F_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Commando [Team Leader]";
+        engineer = 1;
+        canDeactivateMines = 1;
+        side = 1;
+        faction = "CFP_B_ILIDF";
+
+        identityTypes[] = {"Head_Greek","LanguageGRE_F","G_NATO_diver"};
+
+        uniformClass = "CFP_U_Crye_IDF_SS";
+
+        linkedItems[] = {"CFP_CarrierRig_Operator_OGA_OD","CFP_OpsC_Uncov_Full_IDF","ItemMap","ItemRadio","ItemCompass","ItemWatch","CFP_ANPVS15_Black"};
+        respawnlinkedItems[] = {"CFP_CarrierRig_Operator_OGA_OD","CFP_OpsC_Uncov_Full_IDF","ItemMap","ItemRadio","ItemCompass","ItemWatch","CFP_ANPVS15_Black"};
+
+        weapons[] = {"CFP_Tavor_Black","CUP_hgun_Glock17_blk","Binocular"};
+        respawnWeapons[] = {"CFP_Tavor_Black","CUP_hgun_Glock17_blk","Binocular"};
+
+        magazines[] = {"30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
+
+        ALiVE_orbatCreator_loadout[] = {{"CFP_Tavor_Black","muzzle_snds_M","acc_pointer_IR","optic_Holosight_blk_F",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_Crye_IDF_SS",{{"FirstAidKit",1},{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_CarrierRig_Operator_OGA_OD",{{"30Rnd_556x45_Stanag",7,30},{"Chemlight_green",1,1},{"Chemlight_red",1,1},{"B_IR_Grenade",1,1},{"CUP_HandGrenade_M67",2,1},{"SmokeShell",1,1}}},{},"CFP_OpsC_Uncov_Full_IDF","G_I_Diving",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CFP_ANPVS15_Black"}};
+
+        randomGearProbability = 100;
+
+       //IDF Uniforms
+            uniformList[] = {
+                "CFP_U_Crye_IDF_SS", 0.5,
+                "CFP_U_Crye_IDF", 0.5
+            };
+
+        //IDF Facewear
+            facewearList[] = {
+                "CFP_Face_Wear_Blk", 1.0
+            };
+
+        //IDF Helmets
+            headgearList[] = {
+                "CFP_OpsC_Covered2_IDF", 0.5,
+                "CFP_OpsC_Med_IDF", 0.3,
+                "CFP_OpsC_Covered_IDF", 0.2,
+                "CFP_OpsC_Painted_IDF", 0.2
+            };
+
+        //IDF Vests
+            vestList[] = {
+                "CFP_CarrierRig_Operator_OGA_OD", 0.33,
+                "CFP_FAPC_Operator_OGA_OD", 0.33,
+                "CFP_LBT6094_breacher_OGA_OD", 0.33
+            };
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_B_ILIDF_Commando_Rifleman_01 : CFP_B_ILIDF_Commando_Team_Leader_01 {
+
+        displayName = "Commando [Rifleman]";
+        engineer = 1;
+        canDeactivateMines = 1;
+
+        linkedItems[] = {"CFP_FAPC_Operator_OGA_OD","CFP_OpsC_Covered2_IDF","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CFP_ANPVS15_Black"};
+        respawnlinkedItems[] = {"CFP_FAPC_Operator_OGA_OD","CFP_OpsC_Covered2_IDF","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CFP_ANPVS15_Black"};
+
+        weapons[] = {"CFP_Tavor_Black","CUP_hgun_Glock17_blk","Binocular"};
+        respawnWeapons[] = {"CFP_Tavor_Black","CUP_hgun_Glock17_blk","Binocular"};
+
+        magazines[] = {"30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
+
+        ALiVE_orbatCreator_loadout[] = {{"CFP_Tavor_Black","muzzle_snds_M","acc_pointer_IR","optic_Holosight_blk_F",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","muzzle_snds_L","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_Crye_IDF_SS",{{"FirstAidKit",1},{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_FAPC_Operator_OGA_OD",{{"30Rnd_556x45_Stanag",7,30},{"SmokeShell",1,1},{"B_IR_Grenade",1,1},{"CUP_HandGrenade_M67",2,1},{"Chemlight_green",1,1},{"Chemlight_red",1,1}}},{},"CFP_OpsC_Covered2_IDF","CFP_Face_Wear_Blk",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CFP_ANPVS15_Black"}};
+
+    };
+
+    class CFP_B_ILIDF_Commando_Automatic_Rifleman_01 : I_diver_F_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Commando [Automatic Rifleman]";
+        engineer = 1;
+        canDeactivateMines = 1;
+        side = 1;
+        faction = "CFP_B_ILIDF";
+
+        identityTypes[] = {"Head_Greek","LanguageGRE_F","G_NATO_diver"};
+
+        uniformClass = "CFP_U_Crye_IDF_SS";
+
+        linkedItems[] = {"CFP_CarrierRig_Gunner_OGA_OD","CFP_OpsC_Uncov_Full_IDF","ItemMap","ItemRadio","ItemCompass","ItemWatch","CFP_ANPVS15_Black"};
+        respawnlinkedItems[] = {"CFP_CarrierRig_Gunner_OGA_OD","CFP_OpsC_Uncov_Full_IDF","ItemMap","ItemRadio","ItemCompass","ItemWatch","CFP_ANPVS15_Black"};
+
+        weapons[] = {"LMG_Zafir_F","CUP_hgun_Glock17_blk","Binocular"};
+        respawnWeapons[] = {"LMG_Zafir_F","CUP_hgun_Glock17_blk","Binocular"};
+
+        magazines[] = {"150Rnd_762x54_Box","CUP_17Rnd_9x19_glock17","150Rnd_762x54_Box","CUP_17Rnd_9x19_glock17"};
+        respawnMagazines[] = {"150Rnd_762x54_Box","CUP_17Rnd_9x19_glock17","150Rnd_762x54_Box","CUP_17Rnd_9x19_glock17"};
+
+        ALiVE_orbatCreator_loadout[] = {{"LMG_Zafir_F","","acc_pointer_IR","optic_Holosight_blk_F",{"150Rnd_762x54_Box",150},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_Crye_IDF_SS",{{"FirstAidKit",1},{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_CarrierRig_Gunner_OGA_OD",{{"Chemlight_green",1,1},{"Chemlight_red",1,1},{"B_IR_Grenade",1,1},{"CUP_HandGrenade_M67",2,1},{"SmokeShell",1,1},{"150Rnd_762x54_Box",3,150}}},{},"CFP_OpsC_Uncov_Full_IDF","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CFP_ANPVS15_Black"}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_B_ILIDF_Commando_Grenadier_01 : CFP_B_ILIDF_Commando_Team_Leader_01 {
+
+        displayName = "Commando [Grenadier]";
+        engineer = 1;
+        canDeactivateMines = 1;
+
+        linkedItems[] = {"CFP_CarrierRig_Operator_OGA_OD","CFP_OpsC_Uncov_Full_IDF","ItemMap","ItemRadio","ItemCompass","ItemWatch","CFP_ANPVS15_Black"};
+        respawnlinkedItems[] = {"CFP_CarrierRig_Operator_OGA_OD","CFP_OpsC_Uncov_Full_IDF","ItemMap","ItemRadio","ItemCompass","ItemWatch","CFP_ANPVS15_Black"};
+
+        weapons[] = {"CFP_Tavor_Black_GL","CUP_hgun_Glock17_blk","Binocular"};
+        respawnWeapons[] = {"CFP_Tavor_Black_GL","CUP_hgun_Glock17_blk","Binocular"};
+
+        magazines[] = {"30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
+
+        ALiVE_orbatCreator_loadout[] = {{"CFP_Tavor_Black_GL","muzzle_snds_M","acc_pointer_IR","optic_Holosight_blk_F",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_Crye_IDF_SS",{{"FirstAidKit",1},{"CUP_17Rnd_9x19_glock17",3,17},{"30Rnd_556x45_Stanag",3,30}}},{"CFP_CarrierRig_Operator_OGA_OD",{{"Chemlight_green",1,1},{"Chemlight_red",1,1},{"B_IR_Grenade",1,1},{"CUP_HandGrenade_M67",2,1},{"SmokeShell",1,1},{"30Rnd_556x45_Stanag",7,30},{"1Rnd_HE_Grenade_shell",8,1},{"1Rnd_Smoke_Grenade_shell",8,1}}},{},"CFP_OpsC_Uncov_Full_IDF","G_I_Diving",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CFP_ANPVS15_Black"}};
+
+    };
+
+    class CFP_B_ILIDF_Commando_Medic_01 : CFP_B_ILIDF_Commando_Team_Leader_01 {
+
+        displayName = "Commando [Medic]";
+        attendant = 1;
+        icon = "iconManMedic";
+        picture = "pictureHeal";
+        engineer = 1;
+        canDeactivateMines = 1;
+
+        linkedItems[] = {"CFP_CarrierRig_Operator_OGA_OD","CFP_OpsC_Med_IDF","ItemMap","ItemRadio","ItemCompass","ItemWatch","CFP_ANPVS15_Black"};
+        respawnlinkedItems[] = {"CFP_CarrierRig_Operator_OGA_OD","CFP_OpsC_Med_IDF","ItemMap","ItemRadio","ItemCompass","ItemWatch","CFP_ANPVS15_Black"};
+
+        weapons[] = {"CFP_Tavor_Black","CUP_hgun_Glock17_blk","Binocular"};
+        respawnWeapons[] = {"CFP_Tavor_Black","CUP_hgun_Glock17_blk","Binocular"};
+
+        magazines[] = {"30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
+
+        backpack = "CFP_Kitbag_Drab";
+
+        ALiVE_orbatCreator_loadout[] = {{"CFP_Tavor_Black","muzzle_snds_M","acc_pointer_IR","optic_Holosight_blk_F",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_Crye_IDF_SS",{{"FirstAidKit",1},{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_CarrierRig_Operator_OGA_OD",{{"30Rnd_556x45_Stanag",7,30},{"Chemlight_green",1,1},{"Chemlight_red",1,1},{"B_IR_Grenade",1,1},{"CUP_HandGrenade_M67",2,1},{"SmokeShell",1,1}}},{"CFP_Kitbag_Drab",{{"Medikit",1},{"FirstAidKit",10}}},"CFP_OpsC_Med_IDF","CFP_Face_Wear_Blk",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CFP_ANPVS15_Black"}};
+
+    };
+
+    class CFP_B_ILIDF_Commando_Explosive_Specialist_01 : I_diver_F_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Commando [Explosive Specialist]";
+        engineer = 1;
+        canDeactivateMines = 1;
+        side = 1;
+        faction = "CFP_B_ILIDF";
+
+        identityTypes[] = {"Head_Greek","LanguageGRE_F","G_NATO_diver"};
+
+        uniformClass = "CFP_U_Crye_IDF_SS";
+
+        linkedItems[] = {"CFP_CarrierRig_Operator_OGA_OD","CFP_OpsC_Uncov_Full_IDF","ItemMap","ItemRadio","ItemCompass","ItemWatch","CFP_ANPVS15_Black"};
+        respawnlinkedItems[] = {"CFP_CarrierRig_Operator_OGA_OD","CFP_OpsC_Uncov_Full_IDF","ItemMap","ItemRadio","ItemCompass","ItemWatch","CFP_ANPVS15_Black"};
+
+        weapons[] = {"CFP_Tavor_Black","CUP_hgun_Glock17_blk","Binocular"};
+        respawnWeapons[] = {"CFP_Tavor_Black","CUP_hgun_Glock17_blk","Binocular"};
+
+        magazines[] = {"30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
+        respawnMagazines[] = {"30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
+
+        backpack = "CFP_Kitbag_Drab";
+
+        ALiVE_orbatCreator_loadout[] = {{"CFP_Tavor_Black","muzzle_snds_M","acc_pointer_IR","optic_Holosight_blk_F",{"30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_Crye_IDF_SS",{{"FirstAidKit",1},{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_CarrierRig_Operator_OGA_OD",{{"30Rnd_556x45_Stanag",7,30},{"Chemlight_green",1,1},{"Chemlight_red",1,1},{"B_IR_Grenade",1,1},{"CUP_HandGrenade_M67",2,1},{"SmokeShell",1,1}}},{"CFP_Kitbag_Drab",{{"MineDetector",1},{"ToolKit",1},{"DemoCharge_Remote_Mag",5,1},{"APERSTripMine_Wire_Mag",1,1},{"CUP_PipeBomb_M",1,1}}},"CFP_OpsC_Uncov_Full_IDF","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CFP_ANPVS15_Black"}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
 
     };
 

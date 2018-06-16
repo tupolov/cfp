@@ -229,3 +229,49 @@ class CFP_HV5_Ciras_Olive: V_PlateCarrier1_rgr
 			};
 		};
 	};
+
+	class CFP_HV5_Ciras_MCam: V_PlateCarrier1_rgr
+{
+
+		scope = 2;
+		displayName = "[75th] Ciras Vers05 MCam";
+		author = "CFP";
+		picture = "";
+		model = "\x\cfp\addons\vests\75Vests\ciras_vest_v5.p3d";
+		hiddenSelections[] = {"a_ciras_shell"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\75Vests\tex\ciras_v5_mcam_co.paa"};
+
+		class ItemInfo: VestItem {
+
+					uniformModel = "\x\cfp\addons\vests\75Vests\ciras_vest_v5.p3d";
+					containerClass = "Supply220";
+					mass = 100;
+					hiddenSelections[] = {"camo"};
+
+		class HitpointsProtectionInfo {
+
+				class Chest {
+					HitpointName = "HitChest";
+					armor = 20;
+					PassThrough = 0.200000;
+				};
+
+				class Diaphragm {
+					HitpointName = "HitDiaphragm";
+					armor = 20;
+					PassThrough = 0.200000;
+				};
+
+				class Abdomen {
+					hitpointName = "HitAbdomen";
+					armor = 20;
+					passThrough = 0.200000;
+				};
+
+				class Body {
+					hitpointName = "HitBody";
+					passThrough = 0.200000;
+				};
+			};
+		};
+	};

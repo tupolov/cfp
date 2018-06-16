@@ -66,7 +66,13 @@ class CfgPatches {
             "CFP_B_ILIDF_HEMTT_Transport_01",
             "CFP_B_ILIDF_HEMTT_Transport_Covered_01",
             "CFP_B_ILIDF_HEMTT_Box_01",
-            "CFP_B_ILIDF_ATV_01"
+            "CFP_B_ILIDF_ATV_01",
+            "CFP_B_ILIDF_Commando_Rifleman_01",
+            "CFP_B_ILIDF_Commando_Team_Leader_01",
+            "CFP_B_ILIDF_Commando_Automatic_Rifleman_01",
+            "CFP_B_ILIDF_Commando_Grenadier_01",
+            "CFP_B_ILIDF_Commando_Medic_01",
+            "CFP_B_ILIDF_Commando_Explosive_Specialist_01"
         };
         weapons[] = {};
         requiredVersion = 1.62;
