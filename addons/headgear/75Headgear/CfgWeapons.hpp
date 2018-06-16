@@ -25,6 +25,30 @@
 		};
 	};
 
+	class CFP_OpsC_Covered_IDF: ItemCore
+    {
+        scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "OpsC Covered (IDF)";
+		model = "\x\cfp\addons\headgear\75Headgear\ops_core_covered.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\opscore_co_idf.paa"};
+		author = "DaveGary/Hawaiian";
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 15;
+			allowedSlots[] = {901,605};
+			uniformmodel = "\x\cfp\addons\headgear\75Headgear\ops_core_covered.p3d";
+			modelSides[] = {6};
+			armor = 6;
+			passThrough = 0.5;
+			HITPOINTS_HEAD(6,0.5)
+			hiddenSelections[] = {"camo"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\opscore_co_idf.paa"};
+		};
+	};
+
 
 	class CFP_OpsC_Covered2: ItemCore {
 
@@ -35,6 +59,33 @@
 			model = "\x\cfp\addons\headgear\75Headgear\ops_core_covered2.p3d";
 			hiddenSelections[] = {"camo","camo1"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\opscore_co.paa","\x\cfp\addons\headgear\75Headgear\tex\wmx200_insight_co.paa"};
+
+			class ItemInfo: HeadgearItem {
+
+						mass = 30;
+						uniformModel = "\x\cfp\addons\headgear\75Headgear\ops_core_covered2.p3d";
+						modelSides[] = {3,1};
+						hiddenSelections[] = {"camo","camo1"};
+			class HitpointsProtectionInfo {
+
+					class Head {
+						hitpointName = "HitHead";
+						armor = 6;
+						passThrough = 0.500000;
+					};
+				};
+			};
+		};
+
+		class CFP_OpsC_Covered2_IDF: ItemCore {
+
+
+			scope = 2;
+			author = "DaveGary/modifiedbyHawaiian";
+			displayName = "OpsC Covered II (IDF)";
+			model = "\x\cfp\addons\headgear\75Headgear\ops_core_covered2.p3d";
+			hiddenSelections[] = {"camo","camo1"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\opscore_co_idf.paa","\x\cfp\addons\headgear\75Headgear\tex\wmx200_insight_co.paa"};
 
 			class ItemInfo: HeadgearItem {
 
@@ -96,6 +147,34 @@
 
 						mass = 30;
 						uniformModel = "\x\cfp\addons\headgear\75Headgear\ops_core_uncov_full.p3d";
+						modelSides[] = {3,1};
+						hiddenSelections[] = {""};
+			class HitpointsProtectionInfo {
+
+					class Head {
+						hitpointName = "HitHead";
+						armor = 6;
+						passThrough = 0.500000;
+					};
+				};
+			};
+		};
+
+		class CFP_OpsC_Uncov_Full_IDF: ItemCore {
+
+
+			scope = 2;
+			weaponPoolAvailable = 1;
+			author = "DaveGary/modifiedbyHawaiian";
+			displayName = "OpsC Uncov Full (IDF)";
+			model = "\x\cfp\addons\headgear\75Headgear\ops_core_uncov_full_idf.p3d";
+			hiddenSelections[] = {""};
+			hiddenSelectionsTextures[] = {""};
+
+			class ItemInfo: HeadgearItem {
+
+						mass = 30;
+						uniformModel = "\x\cfp\addons\headgear\75Headgear\ops_core_uncov_full_idf.p3d";
 						modelSides[] = {3,1};
 						hiddenSelections[] = {""};
 			class HitpointsProtectionInfo {
@@ -193,6 +272,34 @@
 			};
 		};
 
+		class CFP_OpsC_Med_IDF: ItemCore {
+
+
+			scope = 2;
+			weaponPoolAvailable = 1;
+			author = "DaveGary/modifiedbyHawaiian";
+			displayName = "OpsC Spec (IDF)";
+			model = "\x\cfp\addons\headgear\75Headgear\ops_core_cov_medic.p3d";
+			hiddenSelections[] = {"camo","camo1"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\opscore_co_idf.paa","\x\cfp\addons\headgear\75Headgear\tex\wmx200_insight_co.paa"};
+
+			class ItemInfo: HeadgearItem {
+
+						mass = 30;
+						uniformModel = "\x\cfp\addons\headgear\75Headgear\ops_core_cov_medic.p3d";
+						modelSides[] = {3,1};
+						hiddenSelections[] = {"camo","camo1"};
+			class HitpointsProtectionInfo {
+
+					class Head {
+						hitpointName = "HitHead";
+						armor = 6;
+						passThrough = 0.500000;
+					};
+				};
+			};
+		};
+
 	class CFP_OpsC_Uncovered: ItemCore {
 
 
@@ -231,6 +338,34 @@
 			model = "\x\cfp\addons\headgear\75Headgear\ops_core_uncov_painted.p3d";
 			hiddenSelections[] = {"camo","camo1"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\opscore_co.paa","\x\cfp\addons\headgear\75Headgear\tex\opscore_painted_co.paa"};
+
+			class ItemInfo: HeadgearItem {
+
+						mass = 30;
+						uniformModel = "\x\cfp\addons\headgear\75Headgear\ops_core_uncov_painted.p3d";
+						modelSides[] = {3,1};
+						hiddenSelections[] = {"camo","camo1"};
+			class HitpointsProtectionInfo {
+
+					class Head {
+						hitpointName = "HitHead";
+						armor = 6;
+						passThrough = 0.500000;
+					};
+				};
+			};
+		};
+
+		class CFP_OpsC_Painted_IDF: ItemCore {
+
+
+			scope = 2;
+			weaponPoolAvailable = 1;
+			author = "DaveGary/modifiedbyHawaiian";
+			displayName = "OpsC Painted (IDF)";
+			model = "\x\cfp\addons\headgear\75Headgear\ops_core_uncov_painted.p3d";
+			hiddenSelections[] = {"camo","camo1"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\opscore_co_idf.paa","\x\cfp\addons\headgear\75Headgear\tex\opscore_painted_co.paa"};
 
 			class ItemInfo: HeadgearItem {
 
