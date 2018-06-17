@@ -53,4 +53,5 @@ class CfgWeapons {
     #include "Mich2000\CfgWeapons.hpp"
     #include "GolaniHelmet\CfgWeapons.hpp"
     #include "75Headgear\CfgWeapons.hpp"
+    #include "HeloHelmet\CfgWeapons.hpp"
 };
