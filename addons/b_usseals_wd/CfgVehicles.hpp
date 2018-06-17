@@ -13,6 +13,10 @@ class CfgVehicles {
     class B_recon_F_OCimport_01 : B_recon_F { scope = 0; class EventHandlers; };
     class B_recon_F_OCimport_02 : B_recon_F_OCimport_01 { class EventHandlers; };
 
+    class B_Helipilot_F;
+    class B_Helipilot_F_OCimport_01 : B_Helipilot_F { scope = 0; class EventHandlers; };
+    class B_Helipilot_F_OCimport_02 : B_Helipilot_F_OCimport_01 { class EventHandlers; };
+
     class CFP_B_USARMY_UH60M_US;
     class CFP_B_USARMY_UH60M_US_OCimport_01 : CFP_B_USARMY_UH60M_US { scope = 0; class EventHandlers; class Turrets; };
     class CFP_B_USARMY_UH60M_US_OCimport_02 : CFP_B_USARMY_UH60M_US_OCimport_01 {
@@ -1015,12 +1019,12 @@ class CfgVehicles {
         displayName = "UH-60M";
         side = 1;
         faction = "CFP_B_USSEALS_WD";
-        crew = "CFP_B_USARMY_US_Pilot";
+        crew = "CFP_B_USSEALS_Helicopter_Pilot_WD_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = ""; };
-            class MainTurret : MainTurret { gunnerType = ""; };
-            class RightDoorGun : RightDoorGun { gunnerType = ""; };
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_WD_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Crew_WD_01"; };
+            class RightDoorGun : RightDoorGun { gunnerType = "CFP_B_USSEALS_Helicopter_Crew_WD_01"; };
         };
 
 
@@ -1046,10 +1050,10 @@ class CfgVehicles {
         displayName = "MH-6M MELB";
         side = 1;
         faction = "CFP_B_USSEALS_WD";
-        crew = "CFP_B_USARMY_US_Pilot";
+        crew = "CFP_B_USSEALS_Helicopter_Pilot_WD_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = ""; };
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_WD_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -1083,10 +1087,10 @@ class CfgVehicles {
         displayName = "MH-6J Little Bird";
         side = 1;
         faction = "CFP_B_USSEALS_WD";
-        crew = "CFP_B_USARMY_US_Pilot";
+        crew = "CFP_B_USSEALS_Helicopter_Pilot_WD_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = ""; };
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_WD_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -1120,10 +1124,10 @@ class CfgVehicles {
         displayName = "MH-6M Recon";
         side = 1;
         faction = "CFP_B_USSEALS_WD";
-        crew = "CFP_B_USARMY_US_Pilot";
+        crew = "CFP_B_USSEALS_Helicopter_Pilot_WD_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = ""; };
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_WD_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -1157,10 +1161,10 @@ class CfgVehicles {
         displayName = "MH-6J Recon";
         side = 1;
         faction = "CFP_B_USSEALS_WD";
-        crew = "CFP_B_USARMY_US_Pilot";
+        crew = "CFP_B_USSEALS_Helicopter_Pilot_WD_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = ""; };
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_WD_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -1194,10 +1198,10 @@ class CfgVehicles {
         displayName = "AH-6M";
         side = 1;
         faction = "CFP_B_USSEALS_WD";
-        crew = "CFP_B_USARMY_US_Pilot";
+        crew = "CFP_B_USSEALS_Helicopter_Pilot_WD_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = ""; };
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_WD_01"; };
         };
 
 
@@ -1223,10 +1227,10 @@ class CfgVehicles {
         displayName = "AH-6J";
         side = 1;
         faction = "CFP_B_USSEALS_WD";
-        crew = "CFP_B_USARMY_US_Pilot";
+        crew = "CFP_B_USSEALS_Helicopter_Pilot_WD_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = ""; };
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_WD_01"; };
         };
 
 
@@ -1252,12 +1256,12 @@ class CfgVehicles {
         displayName = "MH-60L DAP [4 Pylons]";
         side = 1;
         faction = "CFP_B_USSEALS_WD";
-        crew = "CFP_B_USARMY_US_Pilot";
+        crew = "CFP_B_USSEALS_Helicopter_Pilot_WD_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = ""; };
-            class MainTurret : MainTurret { gunnerType = ""; };
-            class RightDoorGun : RightDoorGun { gunnerType = ""; };
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_WD_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Crew_WD_01"; };
+            class RightDoorGun : RightDoorGun { gunnerType = "CFP_B_USSEALS_Helicopter_Crew_WD_01"; };
         };
 
 
@@ -1283,12 +1287,12 @@ class CfgVehicles {
         displayName = "MH-60L DAP [2 Pylons]";
         side = 1;
         faction = "CFP_B_USSEALS_WD";
-        crew = "CFP_B_USARMY_US_Pilot";
+        crew = "CFP_B_USSEALS_Helicopter_Pilot_WD_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = ""; };
-            class MainTurret : MainTurret { gunnerType = ""; };
-            class RightDoorGun : RightDoorGun { gunnerType = ""; };
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_WD_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Crew_WD_01"; };
+            class RightDoorGun : RightDoorGun { gunnerType = "CFP_B_USSEALS_Helicopter_Crew_WD_01"; };
         };
 
 
@@ -1314,12 +1318,12 @@ class CfgVehicles {
         displayName = "UH-60M [FFV]";
         side = 1;
         faction = "CFP_B_USSEALS_WD";
-        crew = "CFP_B_USARMY_US_Pilot";
+        crew = "CFP_B_USSEALS_Helicopter_Pilot_WD_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = ""; };
-            class MainTurret : MainTurret { gunnerType = ""; };
-            class RightDoorGun : RightDoorGun { gunnerType = ""; };
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_WD_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Crew_WD_01"; };
+            class RightDoorGun : RightDoorGun { gunnerType = "CFP_B_USSEALS_Helicopter_Crew_WD_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -1598,6 +1602,84 @@ class CfgVehicles {
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_B_USSEALS_Helicopter_Pilot_WD_01 : B_Helipilot_F_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Helicopter Pilot";
+        side = 1;
+        faction = "CFP_B_USSEALS_WD";
+
+        identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_pilot"};
+
+        uniformClass = "CFP_U_FieldUniform_acu";
+
+        linkedItems[] = {"CFP_IOTV_Patrol","H_PilotHelmetHeli_B","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        respawnlinkedItems[] = {"CFP_IOTV_Patrol","H_PilotHelmetHeli_B","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+
+        weapons[] = {"CUP_arifle_M4A1","CUP_hgun_M9"};
+        respawnWeapons[] = {"CUP_arifle_M4A1","CUP_hgun_M9"};
+
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9","CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9","CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9"};
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1","","","CUP_optic_CompM4",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_M9","","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CFP_U_FieldUniform_acu",{{"FirstAidKit",1},{"Chemlight_green",1,1},{"CUP_15Rnd_9x19_M9",3,15},{"CUP_30Rnd_556x45_Stanag",1,30}}},{"CFP_IOTV_Patrol",{{"FirstAidKit",1},{"SmokeShellGreen",1,1},{"SmokeShellBlue",1,1},{"SmokeShellOrange",1,1},{"Chemlight_green",1,1},{"CUP_30Rnd_556x45_Stanag",3,30}}},{},"H_PilotHelmetHeli_B","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this, 'USP_PATCH_USA_ARMY_160SOAR_OCP'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_insignia = "USP_PATCH_USA_ARMY_160SOAR_OCP";
+
+    };
+
+    class CFP_B_USSEALS_Helicopter_Crew_WD_01 : CFP_B_USSEALS_Helicopter_Pilot_WD_01 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Helicopter Crew";
+        side = 1;
+        faction = "CFP_B_USSEALS_WD";
+
+        identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_pilot"};
+
+        uniformClass = "CFP_U_FieldUniform_acu";
+
+        linkedItems[] = {"CFP_IOTV_Patrol","H_CrewHelmetHeli_B","ItemMap","ItemRadio","ItemCompass","ItemWatch","CFP_ANPVS15_Black"};
+        respawnlinkedItems[] = {"CFP_IOTV_Patrol","H_CrewHelmetHeli_B","ItemMap","ItemRadio","ItemCompass","ItemWatch","CFP_ANPVS15_Black"};
+
+        weapons[] = {"CUP_arifle_M4A1","CUP_hgun_M9"};
+        respawnWeapons[] = {"CUP_arifle_M4A1","CUP_hgun_M9"};
+
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9","CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9","CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9"};
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1","","","CUP_optic_CompM4",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_M9","","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CFP_U_FieldUniform_acu",{{"FirstAidKit",1},{"Chemlight_green",1,1},{"CUP_15Rnd_9x19_M9",3,15},{"CUP_30Rnd_556x45_Stanag",1,30}}},{"CFP_IOTV_Patrol",{{"SmokeShellGreen",1,1},{"SmokeShellBlue",1,1},{"SmokeShellOrange",1,1},{"Chemlight_green",1,1},{"CUP_30Rnd_556x45_Stanag",3,30}}},{},"H_CrewHelmetHeli_B","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CFP_ANPVS15_Black"}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this, 'USP_PATCH_USA_ARMY_160SOAR_OCP'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_insignia = "USP_PATCH_USA_ARMY_160SOAR_OCP";
 
     };
 

@@ -16,10 +16,10 @@ class CfgVehicleClasses
 	{
 	    picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\data\ui\icon_v_iotv_c1_ca.paa";
 		scope = 2;
-		displayName = "IOTV (Empty)";
+		displayName = "IOTV (Empty UCP)";
 		// picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\data\ui\icon_v_iotv_c1_ca.paa";
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\CUP_iotv_1.p3d";
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\IOTV\iotv_ocp.paa","\x\cfp\addons\vests\IOTV\extras_ocp.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\IOTV\iotv_ucp.paa","\x\cfp\addons\vests\IOTV\extras_ucp.paa"};
 		hiddenSelections[] = {"camo1","camo2","camo3"};
 		author = "AuburnAlumni";
 		class ItemInfo: VestItem
@@ -62,10 +62,10 @@ class CfgVehicleClasses
 	{
 	    picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\data\ui\icon_v_iotv_c1_ca.paa";
 		scope = 2;
-		displayName = "IOTV (Patrol)";
+		displayName = "IOTV (Patrol UCP)";
 		// picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\data\ui\icon_v_iotv_c1_ca.paa";
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\CUP_iotv_2.p3d";
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\IOTV\iotv_ocp.paa","\x\cfp\addons\vests\IOTV\extras_ocp.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\IOTV\iotv_ucp.paa","\x\cfp\addons\vests\IOTV\extras_ucp.paa"};
 		hiddenSelections[] = {"camo1","camo2","camo3"};
 		author = "AuburnAlumni";
 		class ItemInfo: VestItem

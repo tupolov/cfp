@@ -307,6 +307,51 @@ class CfgGroups {
                     };
                 };
 
+                class cfp_b_usrangers_wd_infantry_support_section {
+                    name = "Support Section";
+                    side = 1;
+                    faction = "CFP_B_USRANGERS_WD";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CFP_B_USRANGERS_Squad_Leader_WD_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USRANGERS_Medic_WD_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USRANGERS_Engineer_WD_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USRANGERS_Medic_WD_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USRANGERS_Engineer_WD_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USRANGERS_Automatic_Rifleman_WD_01";
+                    };
+                };
+
             };
 
             class SpecOps {
