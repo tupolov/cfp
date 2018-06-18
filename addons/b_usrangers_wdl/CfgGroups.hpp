@@ -7,16 +7,16 @@
 class CfgGroups {
     class WEST {
 
-        class CFP_B_USRANGERS_WD {
+        class CFP_B_USRANGERS_WDL {
             name = "US 75th Rangers (Jungle/Woodland)";
 
             class Infantry {
                 name = "Infantry";
 
-                class cfp_b_usrangers_wd_infantry_rifle_squad {
+                class cfp_b_usrangers_wdl_infantry_rifle_squad {
                     name = "Rifle Squad";
                     side = 1;
-                    faction = "CFP_B_USRANGERS_WD";
+                    faction = "CFP_B_USRANGERS_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.5;
 
@@ -24,62 +24,62 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Squad_Leader_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Squad_Leader_WDL_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Team_Leader_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Team_Leader_WDL_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Rifleman_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Rifleman_WDL_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Automatic_Rifleman_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Automatic_Rifleman_WDL_01";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Grenadier_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Grenadier_WDL_01";
                     };
                     class Unit5 {
                         position[] = {15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Team_Leader_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Team_Leader_WDL_01";
                     };
                     class Unit6 {
                         position[] = {-15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Rifleman_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Rifleman_WDL_01";
                     };
                     class Unit7 {
                         position[] = {20,-20,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Automatic_Rifleman_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Automatic_Rifleman_WDL_01";
                     };
                     class Unit8 {
                         position[] = {-20,-20,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Grenadier_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Grenadier_WDL_01";
                     };
                 };
 
-                class cfp_b_usrangers_wd_infantry_machine_gun_squad {
+                class cfp_b_usrangers_wdl_infantry_machine_gun_squad {
                     name = "Machine Gun Squad";
                     side = 1;
-                    faction = "CFP_B_USRANGERS_WD";
+                    faction = "CFP_B_USRANGERS_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.5;
 
@@ -87,50 +87,50 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Squad_Leader_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Squad_Leader_WDL_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Machine_Gunner_M240_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Machine_Gunner_M240_WDL_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Asst_Machine_Gunner_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Asst_Machine_Gunner_WDL_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Machine_Gunner_M240_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Machine_Gunner_M240_WDL_01";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Asst_Machine_Gunner_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Asst_Machine_Gunner_WDL_01";
                     };
                     class Unit5 {
                         position[] = {15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Machine_Gunner_Mk_48_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Machine_Gunner_Mk_48_WDL_01";
                     };
                     class Unit6 {
                         position[] = {-15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Asst_Machine_Gunner_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Asst_Machine_Gunner_WDL_01";
                     };
                 };
 
-                class cfp_b_usrangers_wd_infantry_mortar_section {
+                class cfp_b_usrangers_wdl_infantry_mortar_section {
                     name = "Mortar Section";
                     side = 1;
-                    faction = "CFP_B_USRANGERS_WD";
+                    faction = "CFP_B_USRANGERS_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.5;
 
@@ -138,44 +138,44 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Gunner_Mortar_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Gunner_Mortar_WDL_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Asst_Gunner_Mortar_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Asst_Gunner_Mortar_WDL_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Gunner_Mortar_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Gunner_Mortar_WDL_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Asst_Gunner_Mortar_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Asst_Gunner_Mortar_WDL_01";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Gunner_Mortar_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Gunner_Mortar_WDL_01";
                     };
                     class Unit5 {
                         position[] = {15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Asst_Gunner_Mortar_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Asst_Gunner_Mortar_WDL_01";
                     };
                 };
 
-                class cfp_b_usrangers_wd_infantry_anti_armor_section {
+                class cfp_b_usrangers_wdl_infantry_anti_armor_section {
                     name = "Anti-Armor Section";
                     side = 1;
-                    faction = "CFP_B_USRANGERS_WD";
+                    faction = "CFP_B_USRANGERS_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.5;
 
@@ -183,44 +183,44 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Rifleman_AT_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Rifleman_AT_WDL_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Rifleman_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Rifleman_WDL_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Rifleman_AT_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Rifleman_AT_WDL_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Rifleman_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Rifleman_WDL_01";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Rifleman_AT_Javelin_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Rifleman_AT_Javelin_WDL_01";
                     };
                     class Unit5 {
                         position[] = {15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Rifleman_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Rifleman_WDL_01";
                     };
                 };
 
-                class cfp_b_usrangers_wd_infantry_eod_section {
+                class cfp_b_usrangers_wdl_infantry_eod_section {
                     name = "EOD Section";
                     side = 1;
-                    faction = "CFP_B_USRANGERS_WD";
+                    faction = "CFP_B_USRANGERS_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.5;
 
@@ -228,44 +228,44 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Explosive_Specialist_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Explosive_Specialist_WDL_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Engineer_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Engineer_WDL_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Explosive_Specialist_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Explosive_Specialist_WDL_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Engineer_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Engineer_WDL_01";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Explosive_Specialist_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Explosive_Specialist_WDL_01";
                     };
                     class Unit5 {
                         position[] = {15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Engineer_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Engineer_WDL_01";
                     };
                 };
 
-                class cfp_b_usrangers_wd_infantry_sniper_section {
+                class cfp_b_usrangers_wdl_infantry_sniper_section {
                     name = "Sniper Section";
                     side = 1;
-                    faction = "CFP_B_USRANGERS_WD";
+                    faction = "CFP_B_USRANGERS_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.5;
 
@@ -273,44 +273,44 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Sniper_M110_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Sniper_M110_WDL_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Spotter_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Spotter_WDL_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Sniper_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Sniper_WDL_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Spotter_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Spotter_WDL_01";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Sniper_M107_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Sniper_M107_WDL_01";
                     };
                     class Unit5 {
                         position[] = {15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Spotter_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Spotter_WDL_01";
                     };
                 };
 
-                class cfp_b_usrangers_wd_infantry_support_section {
+                class cfp_b_usrangers_wdl_infantry_support_section {
                     name = "Support Section";
                     side = 1;
-                    faction = "CFP_B_USRANGERS_WD";
+                    faction = "CFP_B_USRANGERS_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.5;
 
@@ -318,37 +318,37 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Squad_Leader_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Squad_Leader_WDL_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Medic_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Medic_WDL_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Engineer_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Engineer_WDL_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Medic_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Medic_WDL_01";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Engineer_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Engineer_WDL_01";
                     };
                     class Unit5 {
                         position[] = {15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Automatic_Rifleman_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Automatic_Rifleman_WDL_01";
                     };
                 };
 
@@ -362,10 +362,10 @@ class CfgGroups {
             class Motorized {
                 name = "Motorized Infantry";
 
-                class cfp_b_usrangers_wd_motorized_fire_team_sov_m2 {
+                class cfp_b_usrangers_wdl_motorized_fire_team_sov_m2 {
                     name = "Fire Team [SOV M2]";
                     side = 1;
-                    faction = "CFP_B_USRANGERS_WD";
+                    faction = "CFP_B_USRANGERS_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -373,38 +373,38 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_HMMWV_SOV_M2_WD_01";
+                        vehicle = "CFP_B_USRANGERS_HMMWV_SOV_M2_WDL_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Team_Leader_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Team_Leader_WDL_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Rifleman_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Rifleman_WDL_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Grenadier_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Grenadier_WDL_01";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Automatic_Rifleman_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Automatic_Rifleman_WDL_01";
                     };
                 };
 
-                class cfp_b_usrangers_wd_motorized_fire_team_sov_mk19 {
+                class cfp_b_usrangers_wdl_motorized_fire_team_sov_mk19 {
                     name = "Fire Team [SOV Mk19]";
                     side = 1;
-                    faction = "CFP_B_USRANGERS_WD";
+                    faction = "CFP_B_USRANGERS_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -412,38 +412,38 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_HMMWV_SOV_Mk19_WD_01";
+                        vehicle = "CFP_B_USRANGERS_HMMWV_SOV_Mk19_WDL_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Team_Leader_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Team_Leader_WDL_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Rifleman_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Rifleman_WDL_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Grenadier_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Grenadier_WDL_01";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Automatic_Rifleman_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Automatic_Rifleman_WDL_01";
                     };
                 };
 
-                class cfp_b_usrangers_wd_motorized_fire_team_m1165_gmv {
+                class cfp_b_usrangers_wdl_motorized_fire_team_m1165_gmv {
                     name = "Fire Team [M1165 GMV]";
                     side = 1;
-                    faction = "CFP_B_USRANGERS_WD";
+                    faction = "CFP_B_USRANGERS_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -451,32 +451,32 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_M1165_GMV_WD_01";
+                        vehicle = "CFP_B_USRANGERS_M1165_GMV_WDL_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Team_Leader_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Team_Leader_WDL_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Grenadier_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Grenadier_WDL_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Automatic_Rifleman_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Automatic_Rifleman_WDL_01";
                     };
                 };
 
-                class cfp_b_usrangers_wd_motorized_fire_team_polaris_dagor {
+                class cfp_b_usrangers_wdl_motorized_fire_team_polaris_dagor {
                     name = "Fire Team [Polaris DAGOR]";
                     side = 1;
-                    faction = "CFP_B_USRANGERS_WD";
+                    faction = "CFP_B_USRANGERS_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -484,38 +484,38 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Polaris_DAGOR_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Polaris_DAGOR_WDL_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Team_Leader_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Team_Leader_WDL_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Rifleman_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Rifleman_WDL_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Grenadier_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Grenadier_WDL_01";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Automatic_Rifleman_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Automatic_Rifleman_WDL_01";
                     };
                 };
 
-                class cfp_b_usrangers_wd_motorized_at_team_sov_m2 {
+                class cfp_b_usrangers_wdl_motorized_at_team_sov_m2 {
                     name = "AT Team [SOV M2]";
                     side = 1;
-                    faction = "CFP_B_USRANGERS_WD";
+                    faction = "CFP_B_USRANGERS_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -523,38 +523,38 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_HMMWV_SOV_M2_WD_01";
+                        vehicle = "CFP_B_USRANGERS_HMMWV_SOV_M2_WDL_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Team_Leader_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Team_Leader_WDL_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Rifleman_AT_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Rifleman_AT_WDL_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Rifleman_AT_Javelin_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Rifleman_AT_Javelin_WDL_01";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Grenadier_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Grenadier_WDL_01";
                     };
                 };
 
-                class cfp_b_usrangers_wd_motorized_at_team_sov_mk19 {
+                class cfp_b_usrangers_wdl_motorized_at_team_sov_mk19 {
                     name = "AT Team [SOV Mk19]";
                     side = 1;
-                    faction = "CFP_B_USRANGERS_WD";
+                    faction = "CFP_B_USRANGERS_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -562,31 +562,31 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_HMMWV_SOV_Mk19_WD_01";
+                        vehicle = "CFP_B_USRANGERS_HMMWV_SOV_Mk19_WDL_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Team_Leader_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Team_Leader_WDL_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Rifleman_AT_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Rifleman_AT_WDL_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Rifleman_AT_Javelin_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Rifleman_AT_Javelin_WDL_01";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Grenadier_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Grenadier_WDL_01";
                     };
                 };
 
@@ -605,10 +605,10 @@ class CfgGroups {
             class Mechanized {
                 name = "Mechanized Infantry";
 
-                class cfp_b_usrangers_wd_motorized_rifle_squad_stryker_m2 {
+                class cfp_b_usrangers_wdl_motorized_rifle_squad_stryker_m2 {
                     name = "Rifle Squad [Stryker M2]";
                     side = 1;
-                    faction = "CFP_B_USRANGERS_WD";
+                    faction = "CFP_B_USRANGERS_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
                     rarityGroup = 0.5;
 
@@ -616,62 +616,62 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_M1126_ICV_M2_CROWS_WD_01";
+                        vehicle = "CFP_B_USRANGERS_M1126_ICV_M2_CROWS_WDL_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Squad_Leader_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Squad_Leader_WDL_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Rifleman_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Rifleman_WDL_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Grenadier_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Grenadier_WDL_01";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Automatic_Rifleman_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Automatic_Rifleman_WDL_01";
                     };
                     class Unit5 {
                         position[] = {15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Team_Leader_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Team_Leader_WDL_01";
                     };
                     class Unit6 {
                         position[] = {-15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Rifleman_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Rifleman_WDL_01";
                     };
                     class Unit7 {
                         position[] = {20,-20,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Grenadier_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Grenadier_WDL_01";
                     };
                     class Unit8 {
                         position[] = {-20,-20,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Automatic_Rifleman_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Automatic_Rifleman_WDL_01";
                     };
                 };
 
-                class cfp_b_usrangers_wd_motorized_rifle_squad_stryker_mk19 {
+                class cfp_b_usrangers_wdl_motorized_rifle_squad_stryker_mk19 {
                     name = "Rifle Squad [Stryker Mk19]";
                     side = 1;
-                    faction = "CFP_B_USRANGERS_WD";
+                    faction = "CFP_B_USRANGERS_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
                     rarityGroup = 0.5;
 
@@ -679,62 +679,62 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_M1126_ICV_MK19_CROWS_WD_01";
+                        vehicle = "CFP_B_USRANGERS_M1126_ICV_MK19_CROWS_WDL_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Squad_Leader_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Squad_Leader_WDL_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Rifleman_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Rifleman_WDL_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Grenadier_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Grenadier_WDL_01";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Automatic_Rifleman_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Automatic_Rifleman_WDL_01";
                     };
                     class Unit5 {
                         position[] = {15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Team_Leader_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Team_Leader_WDL_01";
                     };
                     class Unit6 {
                         position[] = {-15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Rifleman_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Rifleman_WDL_01";
                     };
                     class Unit7 {
                         position[] = {20,-20,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Grenadier_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Grenadier_WDL_01";
                     };
                     class Unit8 {
                         position[] = {-20,-20,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Automatic_Rifleman_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Automatic_Rifleman_WDL_01";
                     };
                 };
 
-                class cfp_b_usrangers_wd_mechanized_anti_armor_section_stryker_m2 {
+                class cfp_b_usrangers_wdl_mechanized_anti_armor_section_stryker_m2 {
                     name = "Anti Armor Section [Stryker M2]";
                     side = 1;
-                    faction = "CFP_B_USRANGERS_WD";
+                    faction = "CFP_B_USRANGERS_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
                     rarityGroup = 0.5;
 
@@ -742,56 +742,56 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_M1126_ICV_M2_CROWS_WD_01";
+                        vehicle = "CFP_B_USRANGERS_M1126_ICV_M2_CROWS_WDL_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Squad_Leader_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Squad_Leader_WDL_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Rifleman_AT_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Rifleman_AT_WDL_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Rifleman_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Rifleman_WDL_01";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Rifleman_AT_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Rifleman_AT_WDL_01";
                     };
                     class Unit5 {
                         position[] = {15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Rifleman_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Rifleman_WDL_01";
                     };
                     class Unit6 {
                         position[] = {-15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Rifleman_AT_Javelin_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Rifleman_AT_Javelin_WDL_01";
                     };
                     class Unit7 {
                         position[] = {20,-20,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Grenadier_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Grenadier_WDL_01";
                     };
                 };
 
-                class cfp_b_usrangers_wd_mechanized_anti_armor_section_stryker_mk19 {
+                class cfp_b_usrangers_wdl_mechanized_anti_armor_section_stryker_mk19 {
                     name = "Anti Armor Section [Stryker Mk19]";
                     side = 1;
-                    faction = "CFP_B_USRANGERS_WD";
+                    faction = "CFP_B_USRANGERS_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
                     rarityGroup = 0.5;
 
@@ -799,56 +799,56 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_M1126_ICV_MK19_CROWS_WD_01";
+                        vehicle = "CFP_B_USRANGERS_M1126_ICV_MK19_CROWS_WDL_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Squad_Leader_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Squad_Leader_WDL_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Rifleman_AT_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Rifleman_AT_WDL_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Rifleman_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Rifleman_WDL_01";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Rifleman_AT_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Rifleman_AT_WDL_01";
                     };
                     class Unit5 {
                         position[] = {15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Rifleman_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Rifleman_WDL_01";
                     };
                     class Unit6 {
                         position[] = {-15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Rifleman_AT_Javelin_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Rifleman_AT_Javelin_WDL_01";
                     };
                     class Unit7 {
                         position[] = {20,-20,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Grenadier_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Grenadier_WDL_01";
                     };
                 };
 
-                class cfp_b_usrangers_wd_mechanized_machine_gun_squad_stryker_m2 {
+                class cfp_b_usrangers_wdl_mechanized_machine_gun_squad_stryker_m2 {
                     name = "Machine Gun Squad [Stryker M2]";
                     side = 1;
-                    faction = "CFP_B_USRANGERS_WD";
+                    faction = "CFP_B_USRANGERS_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
                     rarityGroup = 0.5;
 
@@ -856,56 +856,56 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_M1126_ICV_M2_CROWS_WD_01";
+                        vehicle = "CFP_B_USRANGERS_M1126_ICV_M2_CROWS_WDL_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Squad_Leader_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Squad_Leader_WDL_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Machine_Gunner_M240_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Machine_Gunner_M240_WDL_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Asst_Machine_Gunner_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Asst_Machine_Gunner_WDL_01";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Machine_Gunner_M240_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Machine_Gunner_M240_WDL_01";
                     };
                     class Unit5 {
                         position[] = {15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Asst_Machine_Gunner_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Asst_Machine_Gunner_WDL_01";
                     };
                     class Unit6 {
                         position[] = {-15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Machine_Gunner_Mk_48_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Machine_Gunner_Mk_48_WDL_01";
                     };
                     class Unit7 {
                         position[] = {20,-20,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Asst_Machine_Gunner_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Asst_Machine_Gunner_WDL_01";
                     };
                 };
 
-                class cfp_b_usrangers_wd_mechanized_machine_gun_squad_stryker_mk19 {
+                class cfp_b_usrangers_wdl_mechanized_machine_gun_squad_stryker_mk19 {
                     name = "Machine Gun Squad [Stryker Mk19]";
                     side = 1;
-                    faction = "CFP_B_USRANGERS_WD";
+                    faction = "CFP_B_USRANGERS_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
                     rarityGroup = 0.5;
 
@@ -913,49 +913,49 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_M1126_ICV_MK19_CROWS_WD_01";
+                        vehicle = "CFP_B_USRANGERS_M1126_ICV_MK19_CROWS_WDL_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Squad_Leader_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Squad_Leader_WDL_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Machine_Gunner_M240_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Machine_Gunner_M240_WDL_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Asst_Machine_Gunner_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Asst_Machine_Gunner_WDL_01";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Machine_Gunner_M240_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Machine_Gunner_M240_WDL_01";
                     };
                     class Unit5 {
                         position[] = {15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Asst_Machine_Gunner_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Asst_Machine_Gunner_WDL_01";
                     };
                     class Unit6 {
                         position[] = {-15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Machine_Gunner_Mk_48_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Machine_Gunner_Mk_48_WDL_01";
                     };
                     class Unit7 {
                         position[] = {20,-20,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USRANGERS_Asst_Machine_Gunner_WD_01";
+                        vehicle = "CFP_B_USRANGERS_Asst_Machine_Gunner_WDL_01";
                     };
                 };
 

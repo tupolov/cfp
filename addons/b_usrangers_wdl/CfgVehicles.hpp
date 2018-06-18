@@ -484,13 +484,13 @@ class CfgVehicles {
     };
 
 
-    class CFP_B_USRANGERS_Rifleman_WD_01 : B_Soldier_F_OCimport_02 {
+    class CFP_B_USRANGERS_Rifleman_WDL_01 : B_Soldier_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
+        faction = "CFP_B_USRANGERS_WDL";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -554,7 +554,7 @@ class CfgVehicles {
                     "CFP_UA_Thermals_Blk_GPS", 0.2,
                     "CFP_Oakley_Thermals_Gry", 0.2,
                     "CFP_Oakley_Thermals_Blk", 0.2,
-                    "CFP_Foretex", 0.2,
+                    "CFP_Foretex", 0.2
                 };
 
 
@@ -573,7 +573,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_Squad_Leader_WD_01 : CFP_B_USRANGERS_Rifleman_WD_01 {
+    class CFP_B_USRANGERS_Squad_Leader_WDL_01 : CFP_B_USRANGERS_Rifleman_WDL_01 {
 
         displayName = "Squad Leader";
 
@@ -592,7 +592,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_Grenadier_WD_01 : CFP_B_USRANGERS_Rifleman_WD_01 {
+    class CFP_B_USRANGERS_Grenadier_WDL_01 : CFP_B_USRANGERS_Rifleman_WDL_01 {
 
         displayName = "Grenadier";
 
@@ -611,13 +611,13 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_Automatic_Rifleman_WD_01 : B_Soldier_F_OCimport_02 {
+    class CFP_B_USRANGERS_Automatic_Rifleman_WDL_01 : B_Soldier_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Automatic Rifleman";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
+        faction = "CFP_B_USRANGERS_WDL";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -680,7 +680,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_Rifleman_AT_WD_01 : CFP_B_USRANGERS_Rifleman_WD_01 {
+    class CFP_B_USRANGERS_Rifleman_AT_WDL_01 : CFP_B_USRANGERS_Rifleman_WDL_01 {
 
         displayName = "Rifleman AT (Carl Gustav)";
 
@@ -699,7 +699,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_Medic_WD_01 : CFP_B_USRANGERS_Rifleman_WD_01 {
+    class CFP_B_USRANGERS_Medic_WDL_01 : CFP_B_USRANGERS_Rifleman_WDL_01 {
 
         displayName = "Medic";
         attendant = 1;
@@ -721,7 +721,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_Machine_Gunner_M240_WD_01 : CFP_B_USRANGERS_Automatic_Rifleman_WD_01 {
+    class CFP_B_USRANGERS_Machine_Gunner_M240_WDL_01 : CFP_B_USRANGERS_Automatic_Rifleman_WDL_01 {
 
         displayName = "Machine Gunner [M240]";
 
@@ -740,7 +740,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_Machine_Gunner_Mk_48_WD_01 : CFP_B_USRANGERS_Automatic_Rifleman_WD_01 {
+    class CFP_B_USRANGERS_Machine_Gunner_Mk_48_WDL_01 : CFP_B_USRANGERS_Automatic_Rifleman_WDL_01 {
 
         displayName = "Machine Gunner [Mk 48]";
 
@@ -759,7 +759,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_Asst_Machine_Gunner_WD_01 : CFP_B_USRANGERS_Rifleman_WD_01 {
+    class CFP_B_USRANGERS_Asst_Machine_Gunner_WDL_01 : CFP_B_USRANGERS_Rifleman_WDL_01 {
 
         displayName = "Asst. Machine Gunner";
 
@@ -778,7 +778,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_Sniper_WD_01 : CFP_B_USRANGERS_Rifleman_WD_01 {
+    class CFP_B_USRANGERS_Sniper_WDL_01 : CFP_B_USRANGERS_Rifleman_WDL_01 {
 
         displayName = "Sniper (SCAR Mk17)";
 
@@ -797,7 +797,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_Spotter_WD_01 : CFP_B_USRANGERS_Rifleman_WD_01 {
+    class CFP_B_USRANGERS_Spotter_WDL_01 : CFP_B_USRANGERS_Rifleman_WDL_01 {
 
         displayName = "Spotter";
 
@@ -816,7 +816,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_Gunner_Mortar_WD_01 : CFP_B_USRANGERS_Rifleman_WD_01 {
+    class CFP_B_USRANGERS_Gunner_Mortar_WDL_01 : CFP_B_USRANGERS_Rifleman_WDL_01 {
 
         displayName = "Gunner (Mortar)";
 
@@ -835,7 +835,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_Asst_Gunner_Mortar_WD_01 : CFP_B_USRANGERS_Rifleman_WD_01 {
+    class CFP_B_USRANGERS_Asst_Gunner_Mortar_WDL_01 : CFP_B_USRANGERS_Rifleman_WDL_01 {
 
         displayName = "Asst. Gunner [Mortar]";
 
@@ -854,7 +854,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_Sniper_M110_WD_01 : CFP_B_USRANGERS_Rifleman_WD_01 {
+    class CFP_B_USRANGERS_Sniper_M110_WDL_01 : CFP_B_USRANGERS_Rifleman_WDL_01 {
 
         displayName = "Sniper [M110]";
 
@@ -873,7 +873,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_Sniper_M107_WD_01 : CFP_B_USRANGERS_Rifleman_WD_01 {
+    class CFP_B_USRANGERS_Sniper_M107_WDL_01 : CFP_B_USRANGERS_Rifleman_WDL_01 {
 
         displayName = "Sniper [M107]";
 
@@ -892,7 +892,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_Rifleman_AT_Javelin_WD_01 : CFP_B_USRANGERS_Rifleman_WD_01 {
+    class CFP_B_USRANGERS_Rifleman_AT_Javelin_WDL_01 : CFP_B_USRANGERS_Rifleman_WDL_01 {
 
         displayName = "Rifleman AT [Javelin]";
 
@@ -911,7 +911,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_Gunner_Mk19_WD_01 : CFP_B_USRANGERS_Rifleman_WD_01 {
+    class CFP_B_USRANGERS_Gunner_Mk19_WDL_01 : CFP_B_USRANGERS_Rifleman_WDL_01 {
 
         displayName = "Gunner [Mk19]";
 
@@ -930,7 +930,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_Asst_Gunner_Mk19_WD_01 : CFP_B_USRANGERS_Automatic_Rifleman_WD_01 {
+    class CFP_B_USRANGERS_Asst_Gunner_Mk19_WDL_01 : CFP_B_USRANGERS_Automatic_Rifleman_WDL_01 {
 
         displayName = "Asst. Gunner [Mk19]";
 
@@ -949,7 +949,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_Team_Leader_WD_01 : CFP_B_USRANGERS_Rifleman_WD_01 {
+    class CFP_B_USRANGERS_Team_Leader_WDL_01 : CFP_B_USRANGERS_Rifleman_WDL_01 {
 
         displayName = "Team Leader";
 
@@ -968,7 +968,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_Engineer_WD_01 : CFP_B_USRANGERS_Rifleman_WD_01 {
+    class CFP_B_USRANGERS_Engineer_WDL_01 : CFP_B_USRANGERS_Rifleman_WDL_01 {
 
         displayName = "Engineer";
         engineer = 1;
@@ -989,7 +989,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_Explosive_Specialist_WD_01 : CFP_B_USRANGERS_Rifleman_WD_01 {
+    class CFP_B_USRANGERS_Explosive_Specialist_WDL_01 : CFP_B_USRANGERS_Rifleman_WDL_01 {
 
         displayName = "Explosive Specialist";
         engineer = 1;
@@ -1010,17 +1010,17 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_MH_6M_MELB_WD_01 : CUP_B_MH6M_USA_OCimport_02 {
+    class CFP_B_USRANGERS_MH_6M_MELB_WDL_01 : CUP_B_MH6M_USA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "MH-6M MELB";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Helicopter_Pilot_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Helicopter_Pilot_WDL_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Pilot_WD_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Pilot_WDL_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -1047,17 +1047,17 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_MH_6J_Little_Bird_WD_01 : CUP_B_MH6J_USA_OCimport_02 {
+    class CFP_B_USRANGERS_MH_6J_Little_Bird_WDL_01 : CUP_B_MH6J_USA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "MH-6J Little Bird";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Helicopter_Pilot_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Helicopter_Pilot_WDL_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Pilot_WD_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Pilot_WDL_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -1084,17 +1084,17 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_MH_6M_Recon_WD_01 : CUP_B_MH6M_OBS_USA_OCimport_02 {
+    class CFP_B_USRANGERS_MH_6M_Recon_WDL_01 : CUP_B_MH6M_OBS_USA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "MH-6M Recon";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Helicopter_Pilot_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Helicopter_Pilot_WDL_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Pilot_WD_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Pilot_WDL_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -1121,17 +1121,17 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_MH_6J_Recon_WD_01 : CUP_B_MH6J_OBS_USA_OCimport_02 {
+    class CFP_B_USRANGERS_MH_6J_Recon_WDL_01 : CUP_B_MH6J_OBS_USA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "MH-6J Recon";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Helicopter_Pilot_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Helicopter_Pilot_WDL_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Pilot_WD_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Pilot_WDL_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -1158,17 +1158,17 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_AH_6M_WD_01 : CUP_B_AH6M_USA_OCimport_02 {
+    class CFP_B_USRANGERS_AH_6M_WDL_01 : CUP_B_AH6M_USA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "AH-6M";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Helicopter_Pilot_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Helicopter_Pilot_WDL_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Pilot_WD_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Pilot_WDL_01"; };
         };
 
 
@@ -1187,17 +1187,17 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_AH_6J_WD_01 : CUP_B_AH6J_USA_OCimport_02 {
+    class CFP_B_USRANGERS_AH_6J_WDL_01 : CUP_B_AH6J_USA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "AH-6J";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Helicopter_Pilot_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Helicopter_Pilot_WDL_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Pilot_WD_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Pilot_WDL_01"; };
         };
 
 
@@ -1216,19 +1216,19 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_UH_60M_WD_01 : CUP_B_UH60M_US_OCimport_02 {
+    class CFP_B_USRANGERS_UH_60M_WDL_01 : CUP_B_UH60M_US_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "UH-60M";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Helicopter_Pilot_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Helicopter_Pilot_WDL_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Pilot_WD_01"; };
-            class MainTurret : MainTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WD_01"; };
-            class RightDoorGun : RightDoorGun { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WD_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Pilot_WDL_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WDL_01"; };
+            class RightDoorGun : RightDoorGun { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WDL_01"; };
         };
 
 
@@ -1247,19 +1247,19 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_UH_60M_FFV_WD_01 : CUP_B_UH60M_FFV_US_OCimport_02 {
+    class CFP_B_USRANGERS_UH_60M_FFV_WDL_01 : CUP_B_UH60M_FFV_US_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "UH-60M [FFV]";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Helicopter_Pilot_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Helicopter_Pilot_WDL_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Pilot_WD_01"; };
-            class MainTurret : MainTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WD_01"; };
-            class RightDoorGun : RightDoorGun { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WD_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Pilot_WDL_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WDL_01"; };
+            class RightDoorGun : RightDoorGun { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WDL_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -1282,19 +1282,19 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_UH_60M_Unarmed_WD_01 : CUP_B_UH60M_Unarmed_US_OCimport_02 {
+    class CFP_B_USRANGERS_UH_60M_Unarmed_WDL_01 : CUP_B_UH60M_Unarmed_US_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "UH-60M [Unarmed]";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Helicopter_Pilot_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Helicopter_Pilot_WDL_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Pilot_WD_01"; };
-            class MainTurret : MainTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WD_01"; };
-            class RightDoorGun : RightDoorGun { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WD_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Pilot_WDL_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WDL_01"; };
+            class RightDoorGun : RightDoorGun { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WDL_01"; };
         };
 
 
@@ -1313,19 +1313,19 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_UH_60M_Unarmed_FFV_WD_01 : CUP_B_UH60M_Unarmed_FFV_US_OCimport_02 {
+    class CFP_B_USRANGERS_UH_60M_Unarmed_FFV_WDL_01 : CUP_B_UH60M_Unarmed_FFV_US_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "UH-60M [Unarmed/FFV]";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Helicopter_Pilot_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Helicopter_Pilot_WDL_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Pilot_WD_01"; };
-            class MainTurret : MainTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WD_01"; };
-            class RightDoorGun : RightDoorGun { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WD_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Pilot_WDL_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WDL_01"; };
+            class RightDoorGun : RightDoorGun { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WDL_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -1348,19 +1348,19 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_UH_60M_MEV_WD_01 : CUP_B_UH60M_Unarmed_FFV_MEV_US_OCimport_02 {
+    class CFP_B_USRANGERS_UH_60M_MEV_WDL_01 : CUP_B_UH60M_Unarmed_FFV_MEV_US_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "UH-60M MEV";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Helicopter_Pilot_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Helicopter_Pilot_WDL_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Pilot_WD_01"; };
-            class MainTurret : MainTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WD_01"; };
-            class RightDoorGun : RightDoorGun { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WD_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Pilot_WDL_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WDL_01"; };
+            class RightDoorGun : RightDoorGun { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WDL_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -1383,17 +1383,17 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_AH_64D_WD_01 : CUP_B_AH64D_DL_USA_OCimport_02 {
+    class CFP_B_USRANGERS_AH_64D_WDL_01 : CUP_B_AH64D_DL_USA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "AH-64D";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Helicopter_Pilot_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Helicopter_Pilot_WDL_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Pilot_WD_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Pilot_WDL_01"; };
         };
 
 
@@ -1412,20 +1412,20 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_CH_47F_WD_01 : CUP_B_CH47F_USA_OCimport_02 {
+    class CFP_B_USRANGERS_CH_47F_WDL_01 : CUP_B_CH47F_USA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "CH-47F";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Helicopter_Pilot_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Helicopter_Pilot_WDL_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WD_01"; };
-            class RightDoorGun : RightDoorGun { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WD_01"; };
-            class BackDoorGun : BackDoorGun { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WD_01"; };
-            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Pilot_WD_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WDL_01"; };
+            class RightDoorGun : RightDoorGun { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WDL_01"; };
+            class BackDoorGun : BackDoorGun { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WDL_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Pilot_WDL_01"; };
         };
 
 
@@ -1444,19 +1444,19 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_CH_47F_VIV_WD_01 : CUP_B_CH47F_VIV_USA_OCimport_02 {
+    class CFP_B_USRANGERS_CH_47F_VIV_WDL_01 : CUP_B_CH47F_VIV_USA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "CH-47F [VIV]";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Helicopter_Pilot_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Helicopter_Pilot_WDL_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WD_01"; };
-            class RightDoorGun : RightDoorGun { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WD_01"; };
-            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Pilot_WD_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WDL_01"; };
+            class RightDoorGun : RightDoorGun { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WDL_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Pilot_WDL_01"; };
         };
 
 
@@ -1475,19 +1475,19 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_MH_60L_DAP_4Pylons_WD_01 : CUP_B_MH60L_DAP_4x_US_OCimport_02 {
+    class CFP_B_USRANGERS_MH_60L_DAP_4Pylons_WDL_01 : CUP_B_MH60L_DAP_4x_US_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "MH-60L DAP [4 Pylons]";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Helicopter_Pilot_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Helicopter_Pilot_WDL_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Pilot_WD_01"; };
-            class MainTurret : MainTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WD_01"; };
-            class RightDoorGun : RightDoorGun { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WD_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Pilot_WDL_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WDL_01"; };
+            class RightDoorGun : RightDoorGun { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WDL_01"; };
         };
 
 
@@ -1506,19 +1506,19 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_MH_60L_DAP_2Pylons_WD_01 : CUP_B_MH60L_DAP_2x_US_OCimport_02 {
+    class CFP_B_USRANGERS_MH_60L_DAP_2Pylons_WDL_01 : CUP_B_MH60L_DAP_2x_US_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "MH-60L DAP [2 Pylons]";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Helicopter_Pilot_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Helicopter_Pilot_WDL_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Pilot_WD_01"; };
-            class MainTurret : MainTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WD_01"; };
-            class RightDoorGun : RightDoorGun { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WD_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Pilot_WDL_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WDL_01"; };
+            class RightDoorGun : RightDoorGun { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WDL_01"; };
         };
 
 
@@ -1537,17 +1537,17 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_M1126_ICV_M2_CROWS_WD_01 : CUP_B_M1126_ICV_M2_Desert_OCimport_02 {
+    class CFP_B_USRANGERS_M1126_ICV_M2_CROWS_WDL_01 : CUP_B_M1126_ICV_M2_Desert_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "M1126 ICV M2 CROWS";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Crew_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Crew_WDL_01";
 
         class Turrets : Turrets {
-            class ObsTurret : ObsTurret { gunnerType = "CFP_B_USRANGERS_Crew_WD_01"; };
+            class ObsTurret : ObsTurret { gunnerType = "CFP_B_USRANGERS_Crew_WDL_01"; };
             class CommanderTurret : CommanderTurret { gunnerType = ""; };
         };
 
@@ -1568,17 +1568,17 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_M1126_ICV_M2_CROWS_Slat_WD_01 : CUP_B_M1126_ICV_M2_Woodland_Slat_OCimport_02 {
+    class CFP_B_USRANGERS_M1126_ICV_M2_CROWS_Slat_WDL_01 : CUP_B_M1126_ICV_M2_Woodland_Slat_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "M1126 ICV M2 CROWS [Slat]";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Crew_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Crew_WDL_01";
 
         class Turrets : Turrets {
-            class ObsTurret : ObsTurret { gunnerType = "CFP_B_USRANGERS_Crew_WD_01"; };
+            class ObsTurret : ObsTurret { gunnerType = "CFP_B_USRANGERS_Crew_WDL_01"; };
             class CommanderTurret : CommanderTurret { gunnerType = ""; };
         };
 
@@ -1598,17 +1598,17 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_M1126_ICV_MK19_CROWS_WD_01 : CUP_B_M1126_ICV_MK19_Desert_OCimport_02 {
+    class CFP_B_USRANGERS_M1126_ICV_MK19_CROWS_WDL_01 : CUP_B_M1126_ICV_MK19_Desert_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "M1126 ICV MK19 CROWS";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Crew_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Crew_WDL_01";
 
         class Turrets : Turrets {
-            class ObsTurret : ObsTurret { gunnerType = "CFP_B_USRANGERS_Crew_WD_01"; };
+            class ObsTurret : ObsTurret { gunnerType = "CFP_B_USRANGERS_Crew_WDL_01"; };
             class CommanderTurret : CommanderTurret { gunnerType = ""; };
         };
 
@@ -1629,17 +1629,17 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_M1126_ICV_MK19_CROWS_Slat_WD_01 : CUP_B_M1126_ICV_MK19_Woodland_Slat_OCimport_02 {
+    class CFP_B_USRANGERS_M1126_ICV_MK19_CROWS_Slat_WDL_01 : CUP_B_M1126_ICV_MK19_Woodland_Slat_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "M1126 ICV MK19 CROWS [Slat]";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Crew_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Crew_WDL_01";
 
         class Turrets : Turrets {
-            class ObsTurret : ObsTurret { gunnerType = "CFP_B_USRANGERS_Crew_WD_01"; };
+            class ObsTurret : ObsTurret { gunnerType = "CFP_B_USRANGERS_Crew_WDL_01"; };
             class CommanderTurret : CommanderTurret { gunnerType = ""; };
         };
 
@@ -1659,17 +1659,17 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_M1130_CV_M2_CROWS_WD_01 : CUP_B_M1130_CV_M2_Desert_OCimport_02 {
+    class CFP_B_USRANGERS_M1130_CV_M2_CROWS_WDL_01 : CUP_B_M1130_CV_M2_Desert_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "M1130 CV M2 CROWS";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Crew_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Crew_WDL_01";
 
         class Turrets : Turrets {
-            class ObsTurret : ObsTurret { gunnerType = "CFP_B_USRANGERS_Crew_WD_01"; };
+            class ObsTurret : ObsTurret { gunnerType = "CFP_B_USRANGERS_Crew_WDL_01"; };
             class CommanderTurret : CommanderTurret { gunnerType = ""; };
         };
 
@@ -1690,17 +1690,17 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_M1130_CV_M2_CROWS_Slat_WD_01 : CUP_B_M1130_CV_M2_Woodland_Slat_OCimport_02 {
+    class CFP_B_USRANGERS_M1130_CV_M2_CROWS_Slat_WDL_01 : CUP_B_M1130_CV_M2_Woodland_Slat_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "M1130 CV M2 CROWS [Slat]";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Crew_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Crew_WDL_01";
 
         class Turrets : Turrets {
-            class ObsTurret : ObsTurret { gunnerType = "CFP_B_USRANGERS_Crew_WD_01"; };
+            class ObsTurret : ObsTurret { gunnerType = "CFP_B_USRANGERS_Crew_WDL_01"; };
             class CommanderTurret : CommanderTurret { gunnerType = ""; };
         };
 
@@ -1720,18 +1720,18 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_M1135_ATGMV_WD_01 : CUP_B_M1135_ATGMV_Desert_OCimport_02 {
+    class CFP_B_USRANGERS_M1135_ATGMV_WDL_01 : CUP_B_M1135_ATGMV_Desert_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "M1135 ATGMV";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Crew_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Crew_WDL_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_USRANGERS_Crew_WD_01"; };
-            class CommanderTurret : CommanderTurret { gunnerType = "CFP_B_USRANGERS_Crew_WD_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_USRANGERS_Crew_WDL_01"; };
+            class CommanderTurret : CommanderTurret { gunnerType = "CFP_B_USRANGERS_Crew_WDL_01"; };
         };
 
 
@@ -1751,18 +1751,18 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_M1135_ATGMV_Slat_WD_01 : CUP_B_M1135_ATGMV_Woodland_Slat_OCimport_02 {
+    class CFP_B_USRANGERS_M1135_ATGMV_Slat_WDL_01 : CUP_B_M1135_ATGMV_Woodland_Slat_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "M1135 ATGMV [Slat]";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Crew_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Crew_WDL_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_USRANGERS_Crew_WD_01"; };
-            class CommanderTurret : CommanderTurret { gunnerType = "CFP_B_USRANGERS_Crew_WD_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_USRANGERS_Crew_WDL_01"; };
+            class CommanderTurret : CommanderTurret { gunnerType = "CFP_B_USRANGERS_Crew_WDL_01"; };
         };
 
 
@@ -1781,18 +1781,18 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_M1128_MGS_WD_01 : CUP_B_M1128_MGS_Woodland_OCimport_02 {
+    class CFP_B_USRANGERS_M1128_MGS_WDL_01 : CUP_B_M1128_MGS_Woodland_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "M1128 MGS";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Crew_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Crew_WDL_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_USRANGERS_Crew_WD_01"; };
-            class CommanderOptics : CommanderOptics { gunnerType = "CFP_B_USRANGERS_Crew_WD_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_USRANGERS_Crew_WDL_01"; };
+            class CommanderOptics : CommanderOptics { gunnerType = "CFP_B_USRANGERS_Crew_WDL_01"; };
         };
 
 
@@ -1811,18 +1811,18 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_M1128_MGS_Slat_WD_01 : CUP_B_M1128_MGS_Woodland_Slat_OCimport_02 {
+    class CFP_B_USRANGERS_M1128_MGS_Slat_WDL_01 : CUP_B_M1128_MGS_Woodland_Slat_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "M1128 MGS [Slat]";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Crew_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Crew_WDL_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_USRANGERS_Crew_WD_01"; };
-            class CommanderOptics : CommanderOptics { gunnerType = "CFP_B_USRANGERS_Crew_WD_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_USRANGERS_Crew_WDL_01"; };
+            class CommanderOptics : CommanderOptics { gunnerType = "CFP_B_USRANGERS_Crew_WDL_01"; };
         };
 
 
@@ -1841,17 +1841,17 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_M1133_MEV_WD_01 : CUP_B_M1133_MEV_Woodland_OCimport_02 {
+    class CFP_B_USRANGERS_M1133_MEV_WDL_01 : CUP_B_M1133_MEV_Woodland_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "M1133 MEV";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Crew_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Crew_WDL_01";
 
         class Turrets : Turrets {
-            class ObsTurret : ObsTurret { gunnerType = "CFP_B_USRANGERS_Medic_WD_01"; };
+            class ObsTurret : ObsTurret { gunnerType = "CFP_B_USRANGERS_Medic_WDL_01"; };
             class CommanderTurret : CommanderTurret { gunnerType = ""; };
         };
 
@@ -1871,17 +1871,17 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_M1133_MEV_Slat_WD_01 : CUP_B_M1133_MEV_Woodland_Slat_OCimport_02 {
+    class CFP_B_USRANGERS_M1133_MEV_Slat_WDL_01 : CUP_B_M1133_MEV_Woodland_Slat_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "M1133 MEV [Slat]";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Crew_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Crew_WDL_01";
 
         class Turrets : Turrets {
-            class ObsTurret : ObsTurret { gunnerType = "CFP_B_USRANGERS_Medic_WD_01"; };
+            class ObsTurret : ObsTurret { gunnerType = "CFP_B_USRANGERS_Medic_WDL_01"; };
             class CommanderTurret : CommanderTurret { gunnerType = ""; };
         };
 
@@ -1901,18 +1901,18 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_HMMWV_SOV_Mk19_WD_01 : CFP_B_USARMY_HMMWV_SOV_USA_OCimport_02 {
+    class CFP_B_USRANGERS_HMMWV_SOV_Mk19_WDL_01 : CFP_B_USARMY_HMMWV_SOV_USA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "HMMWV SOV [Mk19]";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Rifleman_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Rifleman_WDL_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_USRANGERS_Rifleman_WD_01"; };
-            class SideTurret : SideTurret { gunnerType = "CFP_B_USRANGERS_Rifleman_WD_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_USRANGERS_Rifleman_WDL_01"; };
+            class SideTurret : SideTurret { gunnerType = "CFP_B_USRANGERS_Rifleman_WDL_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -1936,18 +1936,18 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_HMMWV_SOV_M2_WD_01 : CFP_B_USARMY_HMMWV_SOV_M2_USA_OCimport_02 {
+    class CFP_B_USRANGERS_HMMWV_SOV_M2_WDL_01 : CFP_B_USARMY_HMMWV_SOV_M2_USA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "HMMWV SOV [M2]";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Rifleman_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Rifleman_WDL_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_USRANGERS_Rifleman_WD_01"; };
-            class SideTurret : SideTurret { gunnerType = "CFP_B_USRANGERS_Rifleman_WD_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_USRANGERS_Rifleman_WDL_01"; };
+            class SideTurret : SideTurret { gunnerType = "CFP_B_USRANGERS_Rifleman_WDL_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -1971,17 +1971,17 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_M1165_GMV_WD_01 : CUP_B_M1165_GMV_WDL_USA_OCimport_02 {
+    class CFP_B_USRANGERS_M1165_GMV_WDL_01 : CUP_B_M1165_GMV_WDL_USA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "M1165 GMV";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Rifleman_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Rifleman_WDL_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_USRANGERS_Rifleman_WD_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_USRANGERS_Rifleman_WDL_01"; };
         };
 
 
@@ -2001,14 +2001,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_Polaris_DAGOR_WD_01 : B_LSV_01_unarmed_F_OCimport_02 {
+    class CFP_B_USRANGERS_Polaris_DAGOR_WDL_01 : B_LSV_01_unarmed_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Polaris DAGOR";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Rifleman_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Rifleman_WDL_01";
 
         class Turrets : Turrets {
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
@@ -2035,14 +2035,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_Quad_Bike_WD_01 : B_Quadbike_01_F_OCimport_02 {
+    class CFP_B_USRANGERS_Quad_Bike_WDL_01 : B_Quadbike_01_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Quad Bike";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Rifleman_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Rifleman_WDL_01";
 
 
         class EventHandlers : EventHandlers {
@@ -2059,18 +2059,18 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_M1129_MC_MK19_CROWS_WD_01 : CUP_B_M1129_MC_MK19_Woodland_OCimport_02 {
+    class CFP_B_USRANGERS_M1129_MC_MK19_CROWS_WDL_01 : CUP_B_M1129_MC_MK19_Woodland_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "M1129 MC MK19 CROWS";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Crew_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Crew_WDL_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_USRANGERS_Crew_WD_01"; };
-            class ObsTurret : ObsTurret { gunnerType = "CFP_B_USRANGERS_Crew_WD_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_USRANGERS_Crew_WDL_01"; };
+            class ObsTurret : ObsTurret { gunnerType = "CFP_B_USRANGERS_Crew_WDL_01"; };
         };
 
 
@@ -2089,18 +2089,18 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_M1129_MC_MK19_CROWS_Slat_WD_01 : CUP_B_M1129_MC_MK19_Woodland_Slat_OCimport_02 {
+    class CFP_B_USRANGERS_M1129_MC_MK19_CROWS_Slat_WDL_01 : CUP_B_M1129_MC_MK19_Woodland_Slat_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "M1129 MC MK19 CROWS [Slat]";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Crew_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Crew_WDL_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_USRANGERS_Crew_WD_01"; };
-            class ObsTurret : ObsTurret { gunnerType = "CFP_B_USRANGERS_Crew_WD_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_USRANGERS_Crew_WDL_01"; };
+            class ObsTurret : ObsTurret { gunnerType = "CFP_B_USRANGERS_Crew_WDL_01"; };
         };
 
 
@@ -2119,13 +2119,13 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_A10C_Thunderbolt_II_WD_01 : CFP_B_USARMY_A10_DYN_USA_OCimport_02 {
+    class CFP_B_USRANGERS_A10C_Thunderbolt_II_WDL_01 : CFP_B_USARMY_A10_DYN_USA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "A-10C Thunderbolt II";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
+        faction = "CFP_B_USRANGERS_WDL";
         crew = "CFP_B_USARMY_US_Pilot";
 
 
@@ -2144,14 +2144,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_Assault_Boat_WD_01 : B_Boat_Transport_01_F_OCimport_02 {
+    class CFP_B_USRANGERS_Assault_Boat_WDL_01 : B_Boat_Transport_01_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Assault Boat";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Rifleman_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Rifleman_WDL_01";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -2176,14 +2176,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_HEMTT_Repair_WD_01 : B_Truck_01_Repair_F_OCimport_02 {
+    class CFP_B_USRANGERS_HEMTT_Repair_WDL_01 : B_Truck_01_Repair_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "HEMTT Repair";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Rifleman_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Rifleman_WDL_01";
 
 
         class EventHandlers : EventHandlers {
@@ -2200,14 +2200,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_HEMTT_Ammo_WD_01 : B_Truck_01_ammo_F_OCimport_02 {
+    class CFP_B_USRANGERS_HEMTT_Ammo_WDL_01 : B_Truck_01_ammo_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "HEMTT Ammo";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Rifleman_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Rifleman_WDL_01";
 
 
         class EventHandlers : EventHandlers {
@@ -2224,14 +2224,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_HEMTT_Fuel_WD_01 : B_Truck_01_fuel_F_OCimport_02 {
+    class CFP_B_USRANGERS_HEMTT_Fuel_WDL_01 : B_Truck_01_fuel_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "HEMTT Fuel";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Rifleman_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Rifleman_WDL_01";
 
 
         class EventHandlers : EventHandlers {
@@ -2248,13 +2248,13 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_MQ_9Reaper_WD_01 : CUP_B_USMC_DYN_MQ9_OCimport_02 {
+    class CFP_B_USRANGERS_MQ_9Reaper_WDL_01 : CUP_B_USMC_DYN_MQ9_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "MQ-9 Reaper";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
+        faction = "CFP_B_USRANGERS_WDL";
         crew = "B_UAV_AI";
 
         class Turrets : Turrets {
@@ -2277,13 +2277,13 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_Crew_WD_01 : B_Helipilot_F_OCimport_02 {
+    class CFP_B_USRANGERS_Crew_WDL_01 : B_Helipilot_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Crew";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
+        faction = "CFP_B_USRANGERS_WDL";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -2315,13 +2315,13 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_Helicopter_Pilot_WD_01 : B_Helipilot_F_OCimport_02 {
+    class CFP_B_USRANGERS_Helicopter_Pilot_WDL_01 : B_Helipilot_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Helicopter Pilot";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
+        faction = "CFP_B_USRANGERS_WDL";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_pilot"};
 
@@ -2354,13 +2354,13 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_Helicopter_Crew_WD_01 : CFP_B_USRANGERS_Helicopter_Pilot_WD_01 {
+    class CFP_B_USRANGERS_Helicopter_Crew_WDL_01 : CFP_B_USRANGERS_Helicopter_Pilot_WDL_01 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Helicopter Crew";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
+        faction = "CFP_B_USRANGERS_WDL";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_pilot"};
 
@@ -2402,14 +2402,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_M2_Minitripod_WD_01 : CFP_B_USARMY_M2StaticMG_MiniTripod_US_OCimport_02 {
+    class CFP_B_USRANGERS_M2_Minitripod_WDL_01 : CFP_B_USARMY_M2StaticMG_MiniTripod_US_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "M2 Minitripod";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Rifleman_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Rifleman_WDL_01";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -2431,14 +2431,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_M2_Machine_Gun_WD_01 : CFP_B_USARMY_M2StaticMG_US_OCimport_02 {
+    class CFP_B_USRANGERS_M2_Machine_Gun_WDL_01 : CFP_B_USARMY_M2StaticMG_US_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "M2 Machine Gun";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Rifleman_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Rifleman_WDL_01";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -2460,14 +2460,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_M252_81mm_Mortar_WD_01 : CFP_B_USARMY_M252_US_OCimport_02 {
+    class CFP_B_USRANGERS_M252_81mm_Mortar_WDL_01 : CFP_B_USARMY_M252_US_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "M252 81mm Mortar";
         side = 1;
-        faction = "CFP_B_USRANGERS_WD";
-        crew = "CFP_B_USRANGERS_Rifleman_WD_01";
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Rifleman_WDL_01";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
