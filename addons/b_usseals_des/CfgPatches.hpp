@@ -46,7 +46,9 @@ class CfgPatches {
             "CFP_B_USSEALS_SEAL_Delivery_Vehicle_DES_01",
             "CFP_B_USSEALS_RHIB_DES_01",
             "CFP_B_USSEALS_Zodiac_Assault_Boat_DES_01",
-            "CFP_B_USSEALS_SEAL_Diver_DES_01"
+            "CFP_B_USSEALS_SEAL_Diver_DES_01",
+            "CFP_B_USSEALS_Helicopter_Pilot_DES_01",
+            "CFP_B_USSEALS_Helicopter_Crew_DES_01"
         };
         weapons[] = {};
         requiredVersion = 1.62;
