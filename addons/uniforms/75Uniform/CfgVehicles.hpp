@@ -3,7 +3,7 @@
 	{
 
 		scope = 1;
-		displayName = "[75th] Crye Tan Full";
+		displayName = "Crye Tan Full [75th]";
 		faction = "BLU_F";
         modelSides[] = {6};
 		vehicleClass = "CFP_75th_CRYE";
@@ -37,7 +37,7 @@
 	{
 
 		scope = 1;
-		displayName = "[75th] Crye MCam Full";
+		displayName = "Crye MCam Full [75th]";
 		faction = "BLU_F";
         modelSides[] = {6};
 		vehicleClass = "CFP_75th_CRYE";
@@ -71,7 +71,7 @@
 	{
 
 		scope = 1;
-		displayName = "[75th] Crye MCam Full II";
+		displayName = "Crye MCam Full II [75th]";
 		faction = "BLU_F";
         modelSides[] = {6};
 		vehicleClass = "CFP_75th_CRYE";
@@ -104,7 +104,7 @@
 	{
 
 		scope = 1;
-		displayName = "[75th] Crye MCam Full II";
+		displayName = "Crye MCam Full II [75th]";
 		faction = "BLU_F";
         modelSides[] = {6};
 		vehicleClass = "CFP_75th_CRYE";
@@ -137,7 +137,7 @@
 	{
 
 		scope = 1;
-		displayName = "[75th] Crye MCam Full III";
+		displayName = "Crye MCam Full III [75th]";
 		faction = "BLU_F";
         modelSides[] = {6};
 		vehicleClass = "CFP_75th_CRYE";
@@ -171,7 +171,7 @@
 	{
 
 		scope = 1;
-		displayName = "[75th] Crye MCam Full III";
+		displayName = "Crye MCam Full III [75th]";
 		faction = "BLU_F";
         modelSides[] = {6};
 		vehicleClass = "CFP_75th_CRYE";
@@ -205,7 +205,7 @@
 	{
 
 		scope = 1;
-		displayName = "[75th] Crye MCam Full IV";
+		displayName = "Crye MCam Full IV [75th]";
 		faction = "BLU_F";
         modelSides[] = {6};
 		vehicleClass = "CFP_75th_CRYE";
@@ -238,7 +238,7 @@
 	{
 
 		scope = 1;
-		displayName = "[75th] Crye MCam Full IV";
+		displayName = "Crye MCam Full IV [75th]";
 		faction = "BLU_F";
         modelSides[] = {6};
 		vehicleClass = "CFP_75th_CRYE";
@@ -273,7 +273,7 @@
 	{
 
 		scope = 1;
-		displayName = "[75th] Crye Tan Rolled";
+		displayName = "Crye Tan Rolled [75th]";
 		faction = "BLU_F";
         modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_TacticalUniform";
@@ -307,7 +307,7 @@
 	{
 
 		scope = 1;
-		displayName = "[75th] Crye MCam Rolled";
+		displayName = "Crye MCam Rolled [75th]";
 		faction = "BLU_F";
         modelSides[] = {6};
 		vehicleClass = "SP_0000_Standard_TacticalUniform";
@@ -341,7 +341,7 @@
 	{
 
 		scope = 1;
-		displayName = "[75th] Crye MCam Rolled II";
+		displayName = "Crye MCam Rolled II [75th]";
 		faction = "BLU_F";
         modelSides[] = {6};
 		vehicleClass = "CFP_75th_CRYE";
@@ -373,7 +373,7 @@
 	{
 
 		scope = 1;
-		displayName = "[75th] Crye MCam Rolled II";
+		displayName = "Crye MCam Rolled II [75th]";
 		faction = "BLU_F";
         modelSides[] = {6};
 		vehicleClass = "CFP_75th_CRYE";
@@ -406,7 +406,7 @@
 	{
 
 		scope = 1;
-		displayName = "[75th] Crye MCam Rolled III";
+		displayName = "Crye MCam Rolled III [75th]";
 		faction = "BLU_F";
         modelSides[] = {6};
 		vehicleClass = "CFP_75th_CRYE";
@@ -438,7 +438,7 @@
 	{
 
 		scope = 1;
-		displayName = "[75th] Crye MCam Rolled III";
+		displayName = "Crye MCam Rolled III [75th]";
 		faction = "BLU_F";
         modelSides[] = {6};
 		vehicleClass = "CFP_75th_CRYE";
@@ -471,7 +471,7 @@
 	{
 
 		scope = 1;
-		displayName = "[75th] Crye MCam Rolled IV";
+		displayName = "Crye MCam Rolled IV [75th]";
 		faction = "BLU_F";
         modelSides[] = {6};
 		vehicleClass = "CFP_75th_CRYE";
@@ -505,7 +505,7 @@
 	{
 
 		scope = 1;
-		displayName = "[75th] Crye MCam Rolled IV";
+		displayName = "Crye MCam Rolled IV [75th]";
 		faction = "BLU_F";
         modelSides[] = {6};
 		vehicleClass = "CFP_75th_CRYE";
@@ -541,7 +541,7 @@
 	{
 
 		scope = 1;
-		displayName = "[75th] Crye/G3AW Khaki";
+		displayName = "Crye/G3AW Khaki [75th]";
 		faction = "BLU_F";
         modelSides[] = {6};
 		vehicleClass = "CFP_75th_CRYEG3";
@@ -573,7 +573,7 @@
 	{
 
 		scope = 1;
-		displayName = "[75th] Crye/G3AW Khaki";
+		displayName = "Crye/G3AW Khaki [75th]";
 		faction = "BLU_F";
         modelSides[] = {6};
 		vehicleClass = "CFP_75th_CRYEG3";
@@ -606,7 +606,7 @@
 	{
 
 		scope = 1;
-		displayName = "[75th] Crye/G3AW Ranger Green";
+		displayName = "Crye/G3AW Ranger Green [75th]";
 		faction = "BLU_F";
         modelSides[] = {6};
 		vehicleClass = "CFP_75th_CRYEG3";
@@ -638,7 +638,7 @@
 	{
 
 		scope = 1;
-		displayName = "[75th] Crye/G3AW Ranger Green";
+		displayName = "Crye/G3AW Ranger Green [75th]";
 		faction = "BLU_F";
         modelSides[] = {6};
 		vehicleClass = "CFP_75th_CRYEG3";
@@ -671,7 +671,7 @@
 	{
 
 		scope = 1;
-		displayName = "[75th] Crye/G3AW Coyote";
+		displayName = "Crye/G3AW Coyote [75th]";
 		faction = "BLU_F";
         modelSides[] = {6};
 		vehicleClass = "CFP_75th_CRYEG3";
@@ -704,7 +704,7 @@
 	{
 
 		scope = 1;
-		displayName = "[75th] Crye/G3AW Coyote";
+		displayName = "Crye/G3AW Coyote [75th]";
 		faction = "BLU_F";
         modelSides[] = {6};
 		vehicleClass = "CFP_75th_CRYEG3";
@@ -737,7 +737,7 @@
 	{
 
 		scope = 1;
-		displayName = "[75th] Crye/G3AW MCam";
+		displayName = "Crye/G3AW MCam [75th]";
 		faction = "BLU_F";
         modelSides[] = {6};
 		vehicleClass = "CFP_75th_CRYEG3";
@@ -771,7 +771,7 @@
 	{
 
 		scope = 1;
-		displayName = "[75th] Crye Tan Tee";
+		displayName = "Crye Tan Tee [75th]";
 		faction = "BLU_F";
         modelSides[] = {6};
 		vehicleClass = "CFP_75th_CRYE";
@@ -803,7 +803,7 @@
 	{
 
 		scope = 1;
-		displayName = "[75th] Crye MCam Tee";
+		displayName = "Crye MCam Tee [75th]";
 		faction = "BLU_F";
         modelSides[] = {6};
 		vehicleClass = "CFP_75th_CRYE";
@@ -837,7 +837,7 @@
 	{
 
 		scope = 1;
-		displayName = "[75th] Under Shirt";
+		displayName = "Under Shirt [75th]";
 		faction = "BLU_F";
         modelSides[] = {6};
 		vehicleClass = "CFP_75th_CRYE";

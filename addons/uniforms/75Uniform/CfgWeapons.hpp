@@ -2,7 +2,7 @@ class CFP_75th_CRYE_V1_Full: Uniform_Base {
 
 
 		scope = 2;
-		displayName = "[75th] Crye Tan Full";
+		displayName = "Crye Tan Full [75th]";
 		author = "Hawaiian";
 		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -22,7 +22,7 @@ class CFP_75th_CRYE_V1b_Full: Uniform_Base {
 
 
 		scope = 2;
-		displayName = "[75th] Crye MCam Full";
+		displayName = "Crye Multicam Full [75th]";
 		author = "Hawaiian";
 		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -43,7 +43,7 @@ class CFP_75th_CRYE_V2_Full: Uniform_Base {
 
 
 		scope = 2;
-		displayName = "[75th] Crye MCam Full II";
+		displayName = "Crye Multicam Full II [75th]";
 		author = "Hawaiian";
 		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -62,7 +62,7 @@ class CFP_75th_CRYE_V2b_Full: Uniform_Base {
 
 
 		scope = 2;
-		displayName = "[75th] Crye MCam Full II";
+		displayName = "Crye Multicam Full II [75th]";
 		author = "Hawaiian";
 		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -84,7 +84,7 @@ class CFP_75th_CRYE_V3_Full: Uniform_Base {
 
 
 		scope = 2;
-		displayName = "[75th] Crye MCam Full III";
+		displayName = "Crye Multicam Full III [75th]";
 		author = "Hawaiian";
 		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -103,7 +103,7 @@ class CFP_75th_CRYE_V3b_Full: Uniform_Base {
 
 
 		scope = 2;
-		displayName = "[75th] Crye MCam Full III";
+		displayName = "Crye Multicam Full III [75th]";
 		author = "Hawaiian";
 		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -122,7 +122,7 @@ class CFP_75th_CRYE_V4_Full: Uniform_Base {
 
 
 		scope = 2;
-		displayName = "[75th] Crye MCam Full IV";
+		displayName = "Crye Multicam Full IV [75th]";
 		author = "Hawaiian";
 		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -141,7 +141,7 @@ class CFP_75th_CRYE_V4b_Full: Uniform_Base {
 
 
 		scope = 2;
-		displayName = "[75th] Crye MCam Full IV";
+		displayName = "Crye Multicam Full IV [75th]";
 		author = "Hawaiian";
 		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -164,7 +164,7 @@ class CFP_75th_CRYE_V1_Sleeved: Uniform_Base {
 
 
 		scope = 2;
-		displayName = "[75th] Crye Tan Rolled";
+		displayName = "Crye Tan Rolled [75th]";
 		author = "Hawaiian";
 		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -184,7 +184,7 @@ class CFP_75th_CRYE_V1b_Sleeved: Uniform_Base {
 
 
 		scope = 2;
-		displayName = "[75th] Crye MCam Rolled";
+		displayName = "Crye Multicam Rolled [75th]";
 		author = "Hawaiian";
 		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -206,7 +206,7 @@ class CFP_75th_CRYE_V2_Sleeved: Uniform_Base {
 
 
 		scope = 2;
-		displayName = "[75th] Crye MCam Rolled II";
+		displayName = "Crye Multicam Rolled II [75th]";
 		author = "Hawaiian";
 		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -226,7 +226,7 @@ class CFP_75th_CRYE_V2b_Sleeved: Uniform_Base {
 
 
 		scope = 2;
-		displayName = "[75th] Crye MCam Rolled II";
+		displayName = "Crye Multicam Rolled II [75th]";
 		author = "Hawaiian";
 		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -246,7 +246,7 @@ class CFP_75th_CRYE_V3_Sleeved: Uniform_Base {
 
 
 		scope = 2;
-		displayName = "[75th] Crye MCam Rolled III";
+		displayName = "Crye Multicam Rolled III [75th]";
 		author = "Hawaiian";
 		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -266,7 +266,7 @@ class CFP_75th_CRYE_V3b_Sleeved: Uniform_Base {
 
 
 		scope = 2;
-		displayName = "[75th] Crye MCam Rolled III";
+		displayName = "Crye Multicam Rolled III [75th]";
 		author = "Hawaiian";
 		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -286,7 +286,7 @@ class CFP_75th_CRYE_V4_Sleeved: Uniform_Base {
 
 
 		scope = 2;
-		displayName = "[75th] Crye MCam Rolled IV";
+		displayName = "Crye Multicam Rolled IV [75th]";
 		author = "Hawaiian";
 		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -306,7 +306,7 @@ class CFP_75th_CRYE_V4b_Sleeved: Uniform_Base {
 
 
 		scope = 2;
-		displayName = "[75th] Crye MCam Rolled IV";
+		displayName = "Crye Multicam Rolled IV [75th]";
 		author = "Hawaiian";
 		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -331,7 +331,7 @@ class CFP_75th_CRYEG3_V1: Uniform_Base {
 
 
 		scope = 2;
-		displayName = "[75th] Crye/G3AW Khaki";
+		displayName = "Crye/G3AW Khaki [75th]";
 		author = "Hawaiian";
 		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -351,7 +351,7 @@ class CFP_75th_CRYEG3_V1b: Uniform_Base {
 
 
 		scope = 2;
-		displayName = "[75th] Crye/G3AW Khaki";
+		displayName = "Crye/G3AW Khaki [75th]";
 		author = "Hawaiian";
 		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -371,7 +371,7 @@ class CFP_75th_CRYEG3_V2: Uniform_Base {
 
 
 		scope = 2;
-		displayName = "[75th] Crye/G3AW Ranger Green";
+		displayName = "Crye/G3AW Ranger Green [75th]";
 		author = "Hawaiian";
 		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -391,7 +391,7 @@ class CFP_75th_CRYEG3_V2b: Uniform_Base {
 
 
 		scope = 2;
-		displayName = "[75th] Crye/G3AW Ranger Green";
+		displayName = "Crye/G3AW Ranger Green [75th]";
 		author = "Hawaiian";
 		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -411,7 +411,7 @@ class CFP_75th_CRYEG3_V3: Uniform_Base {
 
 
 		scope = 2;
-		displayName = "[75th] Crye/G3AW Coyote";
+		displayName = "Crye/G3AW Coyote [75th]";
 		author = "Hawaiian";
 		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -431,7 +431,7 @@ class CFP_75th_CRYEG3_V3b: Uniform_Base {
 
 
 		scope = 2;
-		displayName = "[75th] Crye/G3AW Coyote";
+		displayName = "Crye/G3AW Coyote [75th]";
 		author = "Hawaiian";
 		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -451,7 +451,7 @@ class CFP_75th_CRYEG3_V4: Uniform_Base {
 
 
 		scope = 2;
-		displayName = "[75th] Crye/G3AW MCam";
+		displayName = "Crye/G3AW Multicam [75th]";
 		author = "Hawaiian";
 		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -476,7 +476,7 @@ class CFP_75th_CRYE_Tee: Uniform_Base {
 
 
 		scope = 2;
-		displayName = "[75th] Crye Tan Tee";
+		displayName = "Crye Tan Tee [75th]";
 		author = "Hawaiian";
 		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -496,7 +496,7 @@ class CFP_75th_CRYE_Tee2: Uniform_Base {
 
 
 		scope = 2;
-		displayName = "[75th] Crye MCam Tee";
+		displayName = "Crye Multicam Tee [75th]";
 		author = "Hawaiian";
 		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
@@ -519,7 +519,7 @@ class CFP_75th_Under_Wear: Uniform_Base {
 
 
 		scope = 2;
-		displayName = "[75th] Under Shirt";
+		displayName = "Under Shirt [75th]";
 		author = "Hawaiian";
 		picture = "";
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";

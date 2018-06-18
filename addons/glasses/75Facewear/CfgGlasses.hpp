@@ -5,7 +5,7 @@
 	class CFP_Tac_Goggles_Blk_Clr: None
 	{
 		scope = 2;
-		displayname = "[75th] Tac Goggles Clr";
+		displayname = "Tac Goggles Clear [75th]";
 		author = "Hawaiian";
 		model = "\x\cfp\addons\glasses\75Facewear\tactical_goggles.p3d";
 		picture = "";
@@ -25,7 +25,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] Tac Goggles Ylw";
+			displayname = "Tac Goggles Yellow [75th]";
 			author = "Hawaiian";
 			model = "\x\cfp\addons\glasses\75Facewear\tactical_goggles.p3d";
 			picture = "";
@@ -45,7 +45,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] Tac Goggles Drk";
+			displayname = "Tac Goggles Dark [75th]";
 			author = "Hawaiian";
 			model = "\x\cfp\addons\glasses\75Facewear\tactical_goggles.p3d";
 			picture = "";
@@ -65,7 +65,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] Tac Goggles Tan Clr";
+			displayname = "Tac Goggles Tan Clear [75th]";
 			author = "Hawaiian";
 			model = "\x\cfp\addons\glasses\75Facewear\tactical_goggles.p3d";
 			picture = "";
@@ -85,7 +85,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] Tac Goggles Tan Drk";
+			displayname = "Tac Goggles Tan Dark [75th]";
 			author = "Hawaiian";
 			model = "\x\cfp\addons\glasses\75Facewear\tactical_goggles.p3d";
 			picture = "";
@@ -104,7 +104,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] Tac Goggles Smoke";
+			displayname = "Tac Goggles Smoke [75th]";
 			author = "Hawaiian";
 			model = "\x\cfp\addons\glasses\75Facewear\tactical_goggles.p3d";
 			picture = "";
@@ -125,7 +125,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] Oakleys Clear";
+			displayname = "Oakleys Clear [75th]";
 			author = "DaveGary/Hawaiian";
 			model = "\x\cfp\addons\glasses\75Facewear\oakley_glasses.p3d";
 			hiddenSelections[] = {"camo"};
@@ -145,7 +145,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] Oakleys Dark";
+			displayname = "Oakleys Dark [75th]";
 			author = "DaveGary/Hawaiian";
 			model = "\x\cfp\addons\glasses\75Facewear\oakley_glasses.p3d";
 			hiddenSelections[] = {"camo"};
@@ -165,7 +165,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] Oakleys Ember";
+			displayname = "Oakleys Ember [75th]";
 			author = "DaveGary/Hawaiian";
 			model = "\x\cfp\addons\glasses\75Facewear\oakley_glasses.p3d";
 			hiddenSelections[] = {"camo"};
@@ -188,7 +188,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] Ballistics Blk";
+			displayname = "Ballistics Black [75th]";
 			author = "Hawaiian";
 			model = "\x\cfp\addons\glasses\75Facewear\oakley_ballistic_goggles.p3d";
 			hiddenSelections[] = {"camo", "camo2"};
@@ -208,7 +208,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] Ballistics Tint Blk";
+			displayname = "Ballistics Tint Black [75th]";
 			author = "Hawaiian";
 			model = "\x\cfp\addons\glasses\75Facewear\oakley_ballistic_goggles.p3d";
 			hiddenSelections[] = {"camo", "camo2"};
@@ -228,7 +228,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] Ballistics DTan";
+			displayname = "Ballistics Dark Tan [75th]";
 			author = "Hawaiian";
 			model = "\x\cfp\addons\glasses\75Facewear\oakley_ballistic_goggles.p3d";
 			hiddenSelections[] = {"camo", "camo2"};
@@ -248,7 +248,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] Ballistics Tint DTan";
+			displayname = "Ballistics Tint Dark Tan [75th]";
 			author = "Hawaiian";
 			model = "\x\cfp\addons\glasses\75Facewear\oakley_ballistic_goggles.p3d";
 			hiddenSelections[] = {"camo", "camo2"};
@@ -268,7 +268,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] Ballistics Olve";
+			displayname = "Ballistics Olive [75th]";
 			author = "Hawaiian";
 			model = "\x\cfp\addons\glasses\75Facewear\oakley_ballistic_goggles.p3d";
 			hiddenSelections[] = {"camo", "camo2"};
@@ -288,7 +288,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] Ballistics Tint Olv";
+			displayname = "Ballistics Tint Olive [75th]";
 			author = "Hawaiian";
 			model = "\x\cfp\addons\glasses\75Facewear\oakley_ballistic_goggles.p3d";
 			hiddenSelections[] = {"camo", "camo2"};
@@ -308,7 +308,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] Ballistics Choc";
+			displayname = "Ballistics Choc [75th]";
 			author = "Hawaiian";
 			model = "\x\cfp\addons\glasses\75Facewear\oakley_ballistic_goggles.p3d";
 			hiddenSelections[] = {"camo", "camo2"};
@@ -328,7 +328,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] Ballistics Tint Choc";
+			displayname = "Ballistics Tint Choc [75th]";
 			author = "Hawaiian";
 			model = "\x\cfp\addons\glasses\75Facewear\oakley_ballistic_goggles.p3d";
 			hiddenSelections[] = {"camo", "camo2"};
@@ -348,7 +348,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] Ballistics Grn";
+			displayname = "Ballistics Green [75th]";
 			author = "Hawaiian";
 			model = "\x\cfp\addons\glasses\75Facewear\oakley_ballistic_goggles.p3d";
 			hiddenSelections[] = {"camo", "camo2"};
@@ -368,7 +368,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] Ballistics Tint Grn";
+			displayname = "Ballistics Tint Green [75th]";
 			author = "Hawaiian";
 			model = "\x\cfp\addons\glasses\75Facewear\oakley_ballistic_goggles.p3d";
 			hiddenSelections[] = {"camo", "camo2"};
@@ -388,7 +388,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] Ballistics MCAM";
+			displayname = "Ballistics Multicam [75th]";
 			author = "Hawaiian";
 			model = "\x\cfp\addons\glasses\75Facewear\oakley_ballistic_goggles.p3d";
 			hiddenSelections[] = {"camo", "camo2"};
@@ -408,7 +408,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] Ballistics Tint MCAM";
+			displayname = "Ballistics Tint Multicam [75th]";
 			author = "Hawaiian";
 			model = "\x\cfp\addons\glasses\75Facewear\oakley_ballistic_goggles.p3d";
 			hiddenSelections[] = {"camo", "camo2"};
@@ -428,7 +428,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] Ballistics Alp";
+			displayname = "Ballistics Alpine [75th]";
 			author = "Hawaiian";
 			model = "\x\cfp\addons\glasses\75Facewear\oakley_ballistic_goggles.p3d";
 			hiddenSelections[] = {"camo", "camo2"};
@@ -448,7 +448,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] Ballistics Tint Alp";
+			displayname = "Ballistics Tint Alpine [75th]";
 			author = "Hawaiian";
 			model = "\x\cfp\addons\glasses\75Facewear\oakley_ballistic_goggles.p3d";
 			hiddenSelections[] = {"camo", "camo2"};

@@ -5,7 +5,7 @@
     {
         scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "[75th] OpsC Covered";
+		displayName = "Ops-Core Covered [75th]";
 		model = "\x\cfp\addons\headgear\75Headgear\ops_core_covered.p3d";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\opscore_co.paa"};
@@ -29,7 +29,7 @@
     {
         scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "OpsC Covered (IDF)";
+		displayName = "Ops-Core Covered [IDF]";
 		model = "\x\cfp\addons\headgear\75Headgear\ops_core_covered.p3d";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\opscore_co_idf.paa"};
@@ -55,7 +55,7 @@
 
 			scope = 2;
 			author = "DaveGary/modifiedbyHawaiian";
-			displayName = "[75th] OpsC Covered II";
+			displayName = "Ops-Core Covered II [75th]";
 			model = "\x\cfp\addons\headgear\75Headgear\ops_core_covered2.p3d";
 			hiddenSelections[] = {"camo","camo1"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\opscore_co.paa","\x\cfp\addons\headgear\75Headgear\tex\wmx200_insight_co.paa"};
@@ -82,7 +82,7 @@
 
 			scope = 2;
 			author = "DaveGary/modifiedbyHawaiian";
-			displayName = "OpsC Covered II (IDF)";
+			displayName = "Ops-Core Covered II [IDF]";
 			model = "\x\cfp\addons\headgear\75Headgear\ops_core_covered2.p3d";
 			hiddenSelections[] = {"camo","camo1"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\opscore_co_idf.paa","\x\cfp\addons\headgear\75Headgear\tex\wmx200_insight_co.paa"};
@@ -110,7 +110,7 @@
 			scope = 2;
 			weaponPoolAvailable = 1;
 			author = "DaveGary/modifiedbyHawaiian";
-			displayName = "[75th] OpsC Uncov Goggles";
+			displayName = "Ops-Core Uncov Goggles [75th]";
 			model = "\x\cfp\addons\headgear\75Headgear\ops_core_uncov_goggles.p3d";
 			hiddenSelections[] = {""};
 			hiddenSelectionsTextures[] = {""};
@@ -138,7 +138,7 @@
 			scope = 2;
 			weaponPoolAvailable = 1;
 			author = "DaveGary/modifiedbyHawaiian";
-			displayName = "[75th] OpsC Uncov Full";
+			displayName = "Ops-Core Uncov Full [75th]";
 			model = "\x\cfp\addons\headgear\75Headgear\ops_core_uncov_full.p3d";
 			hiddenSelections[] = {""};
 			hiddenSelectionsTextures[] = {""};
@@ -166,7 +166,7 @@
 			scope = 2;
 			weaponPoolAvailable = 1;
 			author = "DaveGary/modifiedbyHawaiian";
-			displayName = "OpsC Uncov Full (IDF)";
+			displayName = "Ops-Core Uncov Full [IDF]";
 			model = "\x\cfp\addons\headgear\75Headgear\ops_core_uncov_full_idf.p3d";
 			hiddenSelections[] = {""};
 			hiddenSelectionsTextures[] = {""};
@@ -194,7 +194,7 @@
 			scope = 2;
 			weaponPoolAvailable = 1;
 			author = "DaveGary/modifiedbyHawaiian";
-			displayName = "[75th] OpsC Cov Goggles Off";
+			displayName = "Ops-Core Cov Goggles Off [75th]";
 			model = "\x\cfp\addons\headgear\75Headgear\ops_core_cov_goggles_off.p3d";
 			hiddenSelections[] = {"camo","camo1"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\opscore_co.paa","\x\cfp\addons\headgear\75Headgear\tex\wmx200_insight_co.paa"};
@@ -222,7 +222,7 @@
 			scope = 2;
 			weaponPoolAvailable = 1;
 			author = "DaveGary/modifiedbyHawaiian";
-			displayName = "[75th] OpsC Cov Goggles/Shemagh";
+			displayName = "Ops-Core Cov Goggles/Shemagh [75th]";
 			model = "\x\cfp\addons\headgear\75Headgear\ops_core_cov_full.p3d";
 			hiddenSelections[] = {"camo","camo1","camo2","camo3"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\opscore_co.paa","\x\cfp\addons\glasses\75Neckwear\tex\shemagh_wrap_wht_co.paa","\x\cfp\addons\headgear\75Headgear\tex\opscore_co.paa","\x\cfp\addons\glasses\75Facewear\tex\ember_lense_ca.paa"};
@@ -250,7 +250,7 @@
 			scope = 2;
 			weaponPoolAvailable = 1;
 			author = "DaveGary/modifiedbyHawaiian";
-			displayName = "[75th] OpsC Spec";
+			displayName = "Ops-Core Spec [75th]";
 			model = "\x\cfp\addons\headgear\75Headgear\ops_core_cov_medic.p3d";
 			hiddenSelections[] = {"camo","camo1"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\opscore_co.paa","\x\cfp\addons\headgear\75Headgear\tex\wmx200_insight_co.paa"};
@@ -278,7 +278,7 @@
 			scope = 2;
 			weaponPoolAvailable = 1;
 			author = "DaveGary/modifiedbyHawaiian";
-			displayName = "OpsC Spec (IDF)";
+			displayName = "Ops-Core Spec [IDF]";
 			model = "\x\cfp\addons\headgear\75Headgear\ops_core_cov_medic.p3d";
 			hiddenSelections[] = {"camo","camo1"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\opscore_co_idf.paa","\x\cfp\addons\headgear\75Headgear\tex\wmx200_insight_co.paa"};
@@ -306,7 +306,7 @@
 			scope = 2;
 			weaponPoolAvailable = 1;
 			author = "DaveGary/modifiedbyHawaiian";
-			displayName = "[75th] OpsC Uncovered";
+			displayName = "Ops-Core Uncovered [75th]";
 			model = "\x\cfp\addons\headgear\75Headgear\ops_core_uncovered.p3d";
 			hiddenSelections[] = {"camo"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\opscore_co.paa"};
@@ -334,7 +334,7 @@
 			scope = 2;
 			weaponPoolAvailable = 1;
 			author = "DaveGary/modifiedbyHawaiian";
-			displayName = "[75th] OpsC Painted";
+			displayName = "Ops-Core Painted [75th]";
 			model = "\x\cfp\addons\headgear\75Headgear\ops_core_uncov_painted.p3d";
 			hiddenSelections[] = {"camo","camo1"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\opscore_co.paa","\x\cfp\addons\headgear\75Headgear\tex\opscore_painted_co.paa"};
@@ -362,7 +362,7 @@
 			scope = 2;
 			weaponPoolAvailable = 1;
 			author = "DaveGary/modifiedbyHawaiian";
-			displayName = "OpsC Painted (IDF)";
+			displayName = "Ops-Core Painted [IDF]";
 			model = "\x\cfp\addons\headgear\75Headgear\ops_core_uncov_painted.p3d";
 			hiddenSelections[] = {"camo","camo1"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\opscore_co_idf.paa","\x\cfp\addons\headgear\75Headgear\tex\opscore_painted_co.paa"};
@@ -390,7 +390,7 @@
 			scope = 2;
 			weaponPoolAvailable = 1;
 			author = "DaveGary/modifiedbyHawaiian";
-			displayName = "[75th] OpsC Uncov Goggles Off";
+			displayName = "Ops-Core Uncov Goggles Off [75th]";
 			model = "\x\cfp\addons\headgear\75Headgear\ops_core_uncov_goggles_off.p3d";
 			hiddenSelections[] = {"camo"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\opscore_co.paa"};
@@ -418,7 +418,7 @@
 			scope = 2;
 			weaponPoolAvailable = 1;
 			author = "DaveGary/modifiedbyHawaiian";
-			displayName = "[75th] OpsC Uncov Shemagh";
+			displayName = "Ops-Core Uncov Shemagh [75th]";
 			model = "\x\cfp\addons\headgear\75Headgear\ops_core_uncov_shemagh.p3d";
 			hiddenSelections[] = {"camo","camo1"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\opscore_co.paa","\x\cfp\addons\glasses\75Neckwear\tex\shemagh_wrap_blk_co.paa"};
@@ -449,7 +449,7 @@
 			scope = 2;
 			weaponPoolAvailable = 1;
 			author = "WilliamHurt/modifiedbyHawaiian";
-			displayName = "[75th] Patrol Cap";
+			displayName = "Patrol Cap [75th]";
 			model = "\x\cfp\addons\headgear\75Headgear\ranger_patrol_cap.p3d";
 			hiddenSelections[] = {""};
 			hiddenSelectionsTextures[] = {""};
@@ -469,7 +469,7 @@
 			scope = 2;
 			weaponPoolAvailable = 1;
 			author = "WilliamHurt/modifiedbyHawaiian";
-			displayName = "[75th] Patrol Cap/Oakleys";
+			displayName = "Patrol Cap/Oakleys [75th]";
 			model = "x\cfp\addons\headgear\75Headgear\ranger_patrol_cap_oakleys.p3d";
 			hiddenSelections[] = {""};
 			hiddenSelectionsTextures[] = {""};
@@ -494,7 +494,7 @@
 			scope = 2;
 			weaponPoolAvailable = 1;
 			author = "itsthomas/modifiedbyHawaiian";
-			displayName = "[75th] Beanie Tactical Blk";
+			displayName = "Beanie Tactical Blk [75th]";
 			model = "\x\cfp\addons\headgear\75Headgear\thm_tactical_beanie.p3d";
 			hiddenSelections[] = {"camo"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\tac_beanie_blk_co.paa"};
@@ -513,7 +513,7 @@
 			scope = 2;
 			weaponPoolAvailable = 1;
 			author = "itsthomas/retexbyHawaiian";
-			displayName = "[75th] Beanie Blk";
+			displayName = "Beanie Blk [75th]";
 			model = "\x\cfp\addons\headgear\75Headgear\thm_beanie.p3d";
 			hiddenSelections[] = {"camo"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\beanie_blk_co.paa"};
@@ -532,7 +532,7 @@
 			scope = 2;
 			weaponPoolAvailable = 1;
 			author = "itsthomas/modifiedbyHawaiian";
-			displayName = "[75th] Beanie Tactical Khki";
+			displayName = "Beanie Tactical Khki [75th]";
 			model = "\x\cfp\addons\headgear\75Headgear\thm_tactical_beanie.p3d";
 			hiddenSelections[] = {"camo"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\tac_beanie_khki_co.paa"};
@@ -551,7 +551,7 @@
 			scope = 2;
 			weaponPoolAvailable = 1;
 			author = "itsthomas/retexbyHawaiian";
-			displayName = "[75th] Beanie Khki";
+			displayName = "Beanie Khki [75th]";
 			model = "\x\cfp\addons\headgear\75Headgear\thm_beanie.p3d";
 			hiddenSelections[] = {"camo"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\beanie_khaki_co.paa"};
@@ -570,7 +570,7 @@
 			scope = 2;
 			weaponPoolAvailable = 1;
 			author = "itsthomas/modifiedbyHawaiian";
-			displayName = "[75th] Beanie Tactical Olv";
+			displayName = "Beanie Tactical Olv [75th]";
 			model = "\x\cfp\addons\headgear\75Headgear\thm_tactical_beanie.p3d";
 			hiddenSelections[] = {"camo"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\tac_beanie_olv_co.paa"};
@@ -589,7 +589,7 @@
 			scope = 2;
 			weaponPoolAvailable = 1;
 			author = "itsthomas/retexbyHawaiian";
-			displayName = "[75th] Beanie Olv";
+			displayName = "Beanie Olv [75th]";
 			model = "\x\cfp\addons\headgear\75Headgear\thm_beanie.p3d";
 			hiddenSelections[] = {"camo"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\beanie_olv_co.paa"};
@@ -608,7 +608,7 @@
 			scope = 2;
 			weaponPoolAvailable = 1;
 			author = "itsthomas/modifiedbyHawaiian";
-			displayName = "[75th] Beanie Tactical Grn";
+			displayName = "Beanie Tactical Grn [75th]";
 			model = "\x\cfp\addons\headgear\75Headgear\thm_tactical_beanie.p3d";
 			hiddenSelections[] = {"camo"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\tac_beanie_grn_co.paa"};

@@ -31,7 +31,8 @@ class CfgPatches {
             // CUP
             "CUP_BaseConfigs",
             "CUP_Creatures_People_Core",
-            "CUP_Vehicles_Core"
+            "CUP_Vehicles_Core",
+            "CUP_Weapons_WeaponsCore"
         };
         author = CSTRING(CFPTeam);
         url = CSTRING(URL);

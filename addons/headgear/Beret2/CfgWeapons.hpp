@@ -225,7 +225,7 @@ class CfgVehicleClasses
         picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_Beret2_GreenIran.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "Beret2 (Iran Army)";
+		displayName = "Beret2 [Iran Army]";
 		// picture = "\x\cfp\addons\headgear\Beret2\ui\Green.jpg";
 		model = "\x\cfp\addons\models\Beret2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\GreenIran.paa"};
@@ -252,7 +252,7 @@ class CfgVehicleClasses
         picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_Beret2_RedIran.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "Beret2 (Iran Army)";
+		displayName = "Beret2 [Iran Army]";
 		// picture = "\x\cfp\addons\headgear\Beret2\ui\Red.jpg";
 		model = "\x\cfp\addons\models\Beret2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\RedIran.paa"};
@@ -279,7 +279,7 @@ class CfgVehicleClasses
         picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_Beret2_GreenANA.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "Beret2 (Afghan National Army)";
+		displayName = "Beret2 [Afghan National Army]";
 		// picture = "\x\cfp\addons\headgear\Beret2\ui\Green.jpg";
 		model = "\x\cfp\addons\models\Beret2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\GreenANA.paa"};
@@ -306,7 +306,7 @@ class CfgVehicleClasses
         picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_Beret2_RedANA.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "Beret2 (Afghan National Army)";
+		displayName = "Beret2 [Afghan National Army]";
 		// picture = "\x\cfp\addons\headgear\Beret2\ui\Red.jpg";
 		model = "\x\cfp\addons\models\Beret2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\RedANA.paa"};
@@ -333,7 +333,7 @@ class CfgVehicleClasses
         picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_Beret2_GreenIranAirborne.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "Beret2 (Iran Airborne)";
+		displayName = "Beret2 [Iran Airborne]";
 		// picture = "\x\cfp\addons\headgear\Beret2\ui\Green.jpg";
 		model = "\x\cfp\addons\models\Beret2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\GreenIranAirborne.paa"};
@@ -358,7 +358,7 @@ class CfgVehicleClasses
 	class CFP_Ranger_Beret: ItemCore
 {
 	scope = 2;
-	displayName = "[75th] Ranger Beret HHC";
+	displayName = "Ranger Beret HHC [75th]";
 	picture = "\A3\characters_f_EPB\BLUFOR\Data\UI\icon_H_beret02_ca.paa";
 	model = "\A3\Characters_F_EPB\BLUFOR\headgear_beret02.p3d";
 	hiddenSelections[] = {"camo"};
@@ -377,27 +377,27 @@ class CfgVehicleClasses
 class CFP_Ranger_Beret_1Btn: CFP_Ranger_Beret
 {
 
-	displayName = "[75th] Ranger Beret 1st Battalion";
+	displayName = "Ranger Beret 1st Battalion [75th]";
 	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\ranger_beret01_co.paa"};
 	hiddenSelectionsMaterials[] = {"\x\cfp\addons\headgear\Beret2\ranger_beret01.rvmat"};
 };
 class CFP_Ranger_Beret_2Btn: CFP_Ranger_Beret
 {
 
-	displayName = "[75th] Ranger Beret 2nd Battalion";
+	displayName = "Ranger Beret 2nd Battalion [75th]";
 	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\ranger_beret02_co.paa"};
 	hiddenSelectionsMaterials[] = {"\x\cfp\addons\headgear\Beret2\ranger_beret02.rvmat"};
 };
 class CFP_Ranger_Beret_3Btn: CFP_Ranger_Beret
 {
 
-	displayName = "[75th] Ranger Beret 3rd Battalion";
+	displayName = "Ranger Beret 3rd Battalion [75th]";
 	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\ranger_beret03_co.paa"};
 	hiddenSelectionsMaterials[] = {"\x\cfp\addons\headgear\Beret2\ranger_beret03.rvmat"};
 };
 class CFP_Ranger_Beret_Cmdr: CFP_Ranger_Beret
 {
-	displayName = "[75th] Ranger Beret Regimental Commander";
+	displayName = "Ranger Beret Regimental Commander [75th]";
 	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\ranger_beret04_co.paa"};
 	hiddenSelectionsMaterials[] = {"\x\cfp\addons\headgear\Beret2\ranger_beret04.rvmat"};
 };

@@ -64,7 +64,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="x\cfp\adoons\nvg\mat\nvg_glass_smdi.paa";
+	texture="x\cfp\addons\nvg\mat\nvg_glass_smdi.paa";
 	uvSource="tex";
 	class uvTransform
 	{

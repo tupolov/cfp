@@ -341,7 +341,7 @@ class CfgVehicles
     {
         scope = 2;
         author = "Adacas/modifiedbyHawaiian";
-        displayName = "[75th] Cutters";
+        displayName = "Cutters [75th]";
         picture = "";
         model = "x\cfp\addons\backpacks\cutter_set.p3d";
         hiddenSelections[] = {""};
@@ -354,7 +354,7 @@ class CfgVehicles
     {
         scope = 2;
         author = "DaveGary/modifiedbyHawaiian";
-        displayName = "[75th] Camelbak Mule Ranger Grn";
+        displayName = "Camelbak Mule Ranger Grn [75th]";
         picture = "";
         model = "x\cfp\addons\backpacks\h_camelbak_mule.p3d";
         hiddenSelections[] = {"camo"};
@@ -362,11 +362,11 @@ class CfgVehicles
         maximumLoad = 140;
         mass = 8;
     };
-    class H75th_Camelbak_Mule_Drab: Bag_Base
+    class CFP_Camelbak_Mule_Drab: Bag_Base
     {
         scope = 2;
         author = "DaveGary/modifiedbyHawaiian";
-        displayName = "[75th] Camelbak Mule Drab";
+        displayName = "Camelbak Mule Drab [75th]";
         picture = "";
         model = "x\cfp\addons\backpacks\h_camelbak_mule.p3d";
         hiddenSelections[] = {"camo"};
@@ -374,11 +374,11 @@ class CfgVehicles
         maximumLoad = 140;
         mass = 8;
     };
-    class H75th_Camelbak_Mule_Khki: Bag_Base
+    class CFP_Camelbak_Mule_Khki: Bag_Base
     {
         scope = 2;
         author = "DaveGary/modifiedbyHawaiian";
-        displayName = "[75th] Camelbak Mule Khaki";
+        displayName = "Camelbak Mule Khaki [75th]";
         picture = "";
         model = "x\cfp\addons\backpacks\h_camelbak_mule.p3d";
         hiddenSelections[] = {"camo"};
@@ -386,11 +386,11 @@ class CfgVehicles
         maximumLoad = 140;
         mass = 8;
     };
-    class H75th_Camelbak_Mule_Coy: Bag_Base
+    class CFP_Camelbak_Mule_Coy: Bag_Base
     {
         scope = 2;
         author = "DaveGary/modifiedbyHawaiian";
-        displayName = "[75th] Camelbak Mule Coyote";
+        displayName = "Camelbak Mule Coyote [75th]";
         picture = "";
         model = "x\cfp\addons\backpacks\h_camelbak_mule.p3d";
         hiddenSelections[] = {"camo"};

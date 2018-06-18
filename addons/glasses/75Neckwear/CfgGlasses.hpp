@@ -6,7 +6,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] Neck Wrap/Glasses Olive";
+			displayname = "Neck Wrap/Glasses Olive [75th]";
 			author = "Hawaiian";
 			model = "\x\cfp\addons\glasses\75Neckwear\shemagh_neck_wrap_oakleys.p3d";
 			hiddenSelections[] = {"camo", "camo2"};
@@ -25,7 +25,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] Neck Wrap Olive";
+			displayname = "Neck Wrap Olive [75th]";
 			author = "Hawaiian";
 			model = "\x\cfp\addons\glasses\75Neckwear\shemagh_neck_wrap.p3d";
 			hiddenSelections[] = {"camo"};
@@ -44,7 +44,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] Neck Wrap/Glasses Red Brwn";
+			displayname = "Neck Wrap/Glasses Red Borwn [75th]";
 			author = "Hawaiian";
 			model = "\x\cfp\addons\glasses\75Neckwear\shemagh_neck_wrap_oakleys.p3d";
 			hiddenSelections[] = {"camo", "camo2"};
@@ -63,7 +63,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] Neck Wrap Red Brwn";
+			displayname = "Neck Wrap Red Brown [75th]";
 			author = "Hawaiian";
 			model = "\x\cfp\addons\glasses\75Neckwear\shemagh_neck_wrap.p3d";
 			hiddenSelections[] = {"camo"};
@@ -82,7 +82,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] Neck Wrap/Glasses Red";
+			displayname = "Neck Wrap/Glasses Red [75th]";
 			author = "Hawaiian";
 			model = "\x\cfp\addons\glasses\75Neckwear\shemagh_neck_wrap_oakleys.p3d";
 			hiddenSelections[] = {"camo", "camo2"};
@@ -101,7 +101,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] Neck Wrap Red";
+			displayname = "Neck Wrap Red [75th]";
 			author = "Hawaiian";
 			model = "\x\cfp\addons\glasses\75Neckwear\shemagh_neck_wrap.p3d";
 			hiddenSelections[] = {"camo"};
@@ -120,7 +120,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] Neck Wrap/Glasses A-TACs";
+			displayname = "Neck Wrap/Glasses A-TACs [75th]";
 			author = "Hawaiian";
 			model = "\x\cfp\addons\glasses\75Neckwear\shemagh_neck_wrap_oakleys.p3d";
 			hiddenSelections[] = {"camo", "camo2"};
@@ -139,7 +139,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] Neck Wrap A-TACs";
+			displayname = "Neck Wrap A-TACs [75th]";
 			author = "Hawaiian";
 			model = "\x\cfp\addons\glasses\75Neckwear\shemagh_neck_wrap.p3d";
 			hiddenSelections[] = {"camo"};
@@ -158,7 +158,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] Neck Wrap/Glasses A-TACs II";
+			displayname = "Neck Wrap/Glasses A-TACs II [75th]";
 			author = "Hawaiian";
 			model = "\x\cfp\addons\glasses\75Neckwear\shemagh_neck_wrap_oakleys.p3d";
 			hiddenSelections[] = {"camo", "camo2"};
@@ -177,7 +177,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] Neck Wrap A-TACs II";
+			displayname = "Neck Wrap A-TACs II [75th]";
 			author = "Hawaiian";
 			model = "\x\cfp\addons\glasses\75Neckwear\shemagh_neck_wrap.p3d";
 			hiddenSelections[] = {"camo"};
@@ -200,7 +200,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] Face Wear Blk";
+			displayname = "Face Wear Black [75th]";
 			author = "Adacas/modifiedbyHawaiian";
 			model = "\x\cfp\addons\glasses\75Facewear\face_wear.p3d";
 			hiddenSelections[] = {"camo","camo2","camo3"};
@@ -220,7 +220,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] Face Wear Spook";
+			displayname = "Face Wear Spook [75th]";
 			author = "Adacas/modifiedbyHawaiian";
 			model = "\x\cfp\addons\glasses\75Facewear\face_wear.p3d";
 			hiddenSelections[] = {"camo","camo2","camo3"};
@@ -243,7 +243,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] Under Armour Thermals Grn";
+			displayname = "Under Armour Thermals Green [75th]";
 			author = "Hawaiian";
 			model = "\x\cfp\addons\glasses\75Neckwear\ua_thermals.p3d";
 			hiddenSelections[] = {"camo","camo2"};
@@ -263,7 +263,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] UA Thermals Grn GPS";
+			displayname = "UA Thermals Green GPS [75th]";
 			author = "Hawaiian";
 			model = "\x\cfp\addons\glasses\75Neckwear\ua_thermals_gps.p3d";
 			hiddenSelections[] = {"camo","camo2","camo3"};
@@ -283,7 +283,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] Under Armour Thermals Blk";
+			displayname = "Under Armour Thermals Black [75th]";
 			author = "Hawaiian";
 			model = "\x\cfp\addons\glasses\75Neckwear\ua_thermals.p3d";
 			hiddenSelections[] = {"camo","camo2"};
@@ -303,7 +303,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] UA Thermals Blk GPS";
+			displayname = "UA Thermals Black GPS [75th]";
 			author = "Hawaiian";
 			model = "\x\cfp\addons\glasses\75Neckwear\ua_thermals_gps.p3d";
 			hiddenSelections[] = {"camo","camo2"};
@@ -323,7 +323,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] Oakley Thermals Gry";
+			displayname = "Oakley Thermals Grey [75th]";
 			author = "Hawaiian";
 			model = "x\cfp\addons\glasses\75Neckwear\thermals.p3d";
 			hiddenSelections[] = {"camo","camo2"};
@@ -343,7 +343,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] Oakley Thermals Blk";
+			displayname = "Oakley Thermals Black [75th]";
 			author = "Hawaiian";
 			model = "x\cfp\addons\glasses\75Neckwear\thermals.p3d";
 			hiddenSelections[] = {"camo","camo2"};
@@ -363,7 +363,7 @@
 	{
 
 			scope = 2;
-			displayname = "[75th] Garmin Foretex 301";
+			displayname = "Garmin Foretex 301 [75th]";
 			author = "Syncing & Tigg";
 			model = "x\cfp\addons\glasses\75Neckwear\garmin_foretex_301.p3d";
 			hiddenSelections[] = {"camo"};
