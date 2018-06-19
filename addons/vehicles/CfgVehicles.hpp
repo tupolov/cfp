@@ -1946,6 +1946,13 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\M60\Iranbodyuv.paa","\x\cfp\addons\vehicles\M60\IranM60Turret.paa","\x\cfp\addons\vehicles\M60\IranGun_mnt.paa","\x\cfp\addons\vehicles\M60\IranM60_gun.paa","\x\cfp\addons\vehicles\M60\Iranm60_fuelcan_co.paa","\x\cfp\addons\vehicles\M60\Iranwheel_1_g_co.paa","\x\cfp\addons\vehicles\M60\Iranwheel_2_g_co.paa","CUP\TrackedVehicles\CUP_TrackedVehicles_M1_Abrams\data\m1abrams_02_co.paa","\x\cfp\addons\vehicles\M60\Iranbk_eg_co.paa","CUP\TrackedVehicles\CUP_TrackedVehicles_M60\data\m60_alp_uvs_1024s_ca.paa"};
                 factions[] = {};
             };
+            class Sudan
+            {
+                displayname = "Sudan";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\M60\Sudanbodyuv.paa","\x\cfp\addons\vehicles\M60\SudanM60Turret.paa","\x\cfp\addons\vehicles\M60\SudanGun_mnt.paa","\x\cfp\addons\vehicles\M60\SudanM60_gun.paa","\x\cfp\addons\vehicles\M60\M60_fuelcan_co.paa","\x\cfp\addons\vehicles\M60\Sudanwheel_1_g_co.paa","\x\cfp\addons\vehicles\M60\wheel_2_g_co.paa","CUP\TrackedVehicles\CUP_TrackedVehicles_M1_Abrams\data\m1abrams_02_co.paa","\x\cfp\addons\vehicles\M60\SudanBk.paa","CUP\TrackedVehicles\CUP_TrackedVehicles_M60\data\m60_alp_uvs_1024s_ca.paa"};
+                factions[] = {};
+            };
         };
    };
 
@@ -1958,6 +1965,13 @@ class CfgVehicles
                 displayname = "Iran";
                 author = "AuburnAlumni";
                 textures[] = {"\x\cfp\addons\vehicles\T55\t55_body_iran.paa","\x\cfp\addons\vehicles\T55\t55_tower_iran.paa"};
+                factions[] = {};
+            };
+            class Sudan
+            {
+                displayname = "Sudan";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\T55\t55_body_sudan.paa","\x\cfp\addons\vehicles\T55\t55_tower_sudan.paa"};
                 factions[] = {};
             };
         };
