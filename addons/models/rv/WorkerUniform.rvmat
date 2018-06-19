@@ -12,7 +12,7 @@ PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture="a3\characters_f\opfor\data\officer_noinsignia_hex_nohq.paa";
+	texture="x\cfp\addons\models\rv\officer_noinsignia_hex_nohq.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -60,7 +60,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="a3\characters_f\opfor\data\officer_noinsignia_hex_smdi.paa";
+	texture="x\cfp\addons\models\rv\officer_noinsignia_hex_smdi.paa";
 	uvSource="tex";
 	class uvTransform
 	{

@@ -21,6 +21,7 @@
 		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\WorkUniform\0000_Standard\Hunter.paa"};
+		hiddenSelectionsMaterials[] = {"\x\cfp\addons\models\rv\WorkerUniform.rvmat"};
 		hiddenSelections[] = {"Camo", "insignia"};
 		class Wounds
 		{
@@ -52,6 +53,7 @@
 		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\WorkUniform\0000_Standard\Hunter2.paa"};
+		hiddenSelectionsMaterials[] = {"\x\cfp\addons\models\rv\WorkerUniform.rvmat"};
 		hiddenSelections[] = {"Camo", "insignia"};
 		class Wounds
 		{
@@ -83,6 +85,7 @@
 		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\WorkUniform\0000_Standard\ATacsFG.paa"};
+		hiddenSelectionsMaterials[] = {"\x\cfp\addons\models\rv\WorkerUniform.rvmat"};
 		hiddenSelections[] = {"Camo", "insignia"};
 		class Wounds
 		{
@@ -114,6 +117,7 @@
 		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\WorkUniform\0000_Standard\Tropentarn.paa"};
+		hiddenSelectionsMaterials[] = {"\x\cfp\addons\models\rv\WorkerUniform.rvmat"};
 		hiddenSelections[] = {"Camo", "insignia"};
 		class Wounds
 		{
@@ -145,6 +149,7 @@
 		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\WorkUniform\0000_Standard\Flecktarn.paa"};
+		hiddenSelectionsMaterials[] = {"\x\cfp\addons\models\rv\WorkerUniform.rvmat"};
 		hiddenSelections[] = {"Camo", "insignia"};
 		class Wounds
 		{
@@ -176,6 +181,7 @@
 		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\WorkUniform\0000_Standard\IDF.paa"};
+		hiddenSelectionsMaterials[] = {"\x\cfp\addons\models\rv\WorkerUniform.rvmat"};
 		hiddenSelections[] = {"Camo", "insignia"};
 		class Wounds
 		{
