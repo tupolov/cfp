@@ -217,7 +217,7 @@ class CfgVehicles {
     };
     class CFP_I_SDMILITA_Soldier_base_Sudan_01: B_Soldier_base_F
     {
-        side=0;
+        side = 2;
         scope=1;
         scopeCurator=0;
         asr_ai_level=6;
@@ -384,7 +384,7 @@ class CfgVehicles {
     };
     class CFP_I_SDMILITA_Soldier_base_Sudan_02: B_Soldier_base_F
     {
-        side=0;
+        side = 2;
         scope=1;
         scopeCurator=0;
         asr_ai_level=6;

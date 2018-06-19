@@ -8,7 +8,7 @@ class CfgGroups {
     class INDEP {
 
         class CFP_I_SDMilitia {
-            name = "Rapid Support Forces and Janjaweed";
+            name = "Sudan Rapid Support Forces / Janjaweed";
 
             class Infantry {
                 name = "Infantry";
