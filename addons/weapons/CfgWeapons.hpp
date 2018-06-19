@@ -4,5 +4,5 @@ class CfgWeapons {
 	#include "M4A3\CfgWeapons.hpp"
 	#include "PKP\CfgWeapons.hpp"
 	#include "Tavor_Black\CfgWeapons.hpp"
-	#include "ANPEQ15\CfgWeapons.hpp"
+	#include "Attachments\CfgWeapons.hpp"
 };
