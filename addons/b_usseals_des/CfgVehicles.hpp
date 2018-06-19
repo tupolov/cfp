@@ -1017,6 +1017,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_UH_60M_DES_01 : CFP_B_USARMY_UH60M_US_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_UH_60M_DES_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1048,6 +1049,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_MH_6M_MELB_DES_01 : CFP_B_USARMY_MH6M_USA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_MH_6M_MELB_DES_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1085,6 +1087,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_MH_6J_Little_Bird_DES_01 : CFP_B_USARMY_MH6J_USA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_MH_6J_Little_Bird_DES_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1122,6 +1125,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_MH_6M_Recon_DES_01 : CFP_B_USARMY_MH6M_OBS_USA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_MH_6M_Recon_DES_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1159,6 +1163,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_MH_6J_Recon_DES_01 : CFP_B_USARMY_MH6J_OBS_USA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_MH_6J_Recon_DES_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1196,6 +1201,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_AH_6M_DES_01 : CFP_B_USARMY_AH6M_USA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_AH_6M_DES_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1225,6 +1231,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_AH_6J_DES_01 : CFP_B_USARMY_AH6J_USA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_AH_6J_DES_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1254,6 +1261,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_MH_60L_DAP_4Pylons_DES_01 : CFP_B_USARMY_MH60L_DAP_4x_US_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_MH_60L_DAP_4Pylons_DES_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1285,6 +1293,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_MH_60L_DAP_2Pylons_DES_01 : CFP_B_USARMY_MH60L_DAP_2x_US_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_MH_60L_DAP_2Pylons_DES_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1316,6 +1325,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_UH_60M_FFV_DES_01 : CFP_B_USARMY_UH60M_FFV_US_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_UH_60M_FFV_DES_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1351,6 +1361,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_HMMWV_SOV_Mk19_DES_01 : CUP_B_HMMWV_SOV_USA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_HMMWV_SOV_Mk19_DES_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1386,6 +1397,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_HMMWV_SOV_M2_DES_01 : CUP_B_HMMWV_SOV_M2_USA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_HMMWV_SOV_M2_DES_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1421,6 +1433,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_ATV_DES_01 : B_Quadbike_01_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_ATV_DES_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1445,6 +1458,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_Polaris_Dagor_DES_01 : B_T_LSV_01_unarmed_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_Polaris_Dagor_DES_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1481,6 +1495,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_SEAL_Delivery_Vehicle_DES_01 : B_SDV_01_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_SEAL_Delivery_Vehicle_DES_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1510,6 +1525,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_RHIB_DES_01 : CFP_B_USMC_RHIB_Mk19_DES_01_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_RHIB_DES_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1540,6 +1556,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_Zodiac_Assault_Boat_DES_01 : B_Boat_Transport_01_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_Zodiac_Assault_Boat_DES_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1572,6 +1589,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_SEAL_Diver_DES_01 : B_diver_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_SEAL_Diver_DES_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1612,6 +1630,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_Helicopter_Pilot_DES_01 : B_Helipilot_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_Helicopter_Pilot_DES_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1651,6 +1670,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_Helicopter_Crew_DES_01 : CFP_B_USSEALS_Helicopter_Pilot_DES_01 {
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_Helicopter_Crew_DES_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
