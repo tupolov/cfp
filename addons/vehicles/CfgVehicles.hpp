@@ -2032,6 +2032,13 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\SU25\su25_body1_iran_co.paa","\x\cfp\addons\vehicles\SU25\su25_body2_iran_co.paa"};
                 factions[] = {};
             };
+            class Sudan
+            {
+                displayname = "Sudan";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\SU25\su25_body1_sudan_co.paa","\x\cfp\addons\vehicles\SU25\su25_body2_sudan_co.paa"};
+                factions[] = {};
+            };
         };
    };
 
