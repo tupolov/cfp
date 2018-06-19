@@ -233,14 +233,14 @@ class CfgVehicles {
     class B_diver_F_OCimport_02 : B_diver_F_OCimport_01 { class EventHandlers; };
 
 
-    class CFP_B_USSEALS_Rifleman_AOR2_WD_01 : B_recon_F_OCimport_02 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Rifleman_AOR2_WD_01.JPG;
+    class CFP_B_USSEALS_Rifleman_AOR2_WDL_01 : B_recon_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_usseals_wdl\data\preview\CFP_B_USSEALS_Rifleman_AOR2_WDL_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman [AOR2]";
         side = 1;
-        faction = "CFP_B_USSEALS_WD";
+        faction = "CFP_B_USSEALS_WDL";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -310,8 +310,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_Medic_AOR2_WD_01 : CFP_B_USSEALS_Rifleman_AOR2_WD_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Medic_AOR2_WD_01.JPG;
+    class CFP_B_USSEALS_Medic_AOR2_WDL_01 : CFP_B_USSEALS_Rifleman_AOR2_WDL_01 {
+        editorPreview = \x\cfp\addons\b_usseals_wdl\data\preview\CFP_B_USSEALS_Medic_AOR2_WDL_01.JPG;
         displayName = "Medic [AOR2]";
         attendant = 1;
         icon = "iconManMedic";
@@ -332,8 +332,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_Team_Leader_AOR2_WD_01 : CFP_B_USSEALS_Rifleman_AOR2_WD_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Team_Leader_AOR2_WD_01.JPG;
+    class CFP_B_USSEALS_Team_Leader_AOR2_WDL_01 : CFP_B_USSEALS_Rifleman_AOR2_WDL_01 {
+        editorPreview = \x\cfp\addons\b_usseals_wdl\data\preview\CFP_B_USSEALS_Team_Leader_AOR2_WDL_01.JPG;
         displayName = "Team Leader [AOR2]";
 
         linkedItems[] = {"CFP_LBT6094_operator_OGA_OD","CFP_OPS2017_Helmet_AOR2","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -349,8 +349,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_Machine_Gunner_AOR2_WD_01 : CFP_B_USSEALS_Rifleman_AOR2_WD_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Machine_Gunner_AOR2_WD_01.JPG;
+    class CFP_B_USSEALS_Machine_Gunner_AOR2_WDL_01 : CFP_B_USSEALS_Rifleman_AOR2_WDL_01 {
+        editorPreview = \x\cfp\addons\b_usseals_wdl\data\preview\CFP_B_USSEALS_Machine_Gunner_AOR2_WDL_01.JPG;
         displayName = "Machine Gunner [AOR2]";
 
         linkedItems[] = {"CFP_RAV_MG_OGA_OD","CFP_OPS2017_Helmet_AOR2","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -366,8 +366,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_Grenadier_AOR2_WD_01 : CFP_B_USSEALS_Rifleman_AOR2_WD_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Grenadier_AOR2_WD_01.JPG;
+    class CFP_B_USSEALS_Grenadier_AOR2_WDL_01 : CFP_B_USSEALS_Rifleman_AOR2_WDL_01 {
+        editorPreview = \x\cfp\addons\b_usseals_wdl\data\preview\CFP_B_USSEALS_Grenadier_AOR2_WDL_01.JPG;
         displayName = "Grenadier [AOR2]";
 
         linkedItems[] = {"CFP_LBT6094_operator_OGA_OD","CFP_OPS2017_Helmet_AOR2","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -383,8 +383,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_Marksman_AOR2_WD_01 : CFP_B_USSEALS_Rifleman_AOR2_WD_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Marksman_AOR2_WD_01.JPG;
+    class CFP_B_USSEALS_Marksman_AOR2_WDL_01 : CFP_B_USSEALS_Rifleman_AOR2_WDL_01 {
+        editorPreview = \x\cfp\addons\b_usseals_wdl\data\preview\CFP_B_USSEALS_Marksman_AOR2_WDL_01.JPG;
         displayName = "Marksman [AOR2]";
 
         linkedItems[] = {"CFP_LBT6094_operator_OGA_OD","CFP_OPS2017_Helmet_AOR2","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -400,8 +400,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_Explosive_Specialist_AOR2_WD_01 : CFP_B_USSEALS_Rifleman_AOR2_WD_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Explosive_Specialist_AOR2_WD_01.JPG;
+    class CFP_B_USSEALS_Explosive_Specialist_AOR2_WDL_01 : CFP_B_USSEALS_Rifleman_AOR2_WDL_01 {
+        editorPreview = \x\cfp\addons\b_usseals_wdl\data\preview\CFP_B_USSEALS_Explosive_Specialist_AOR2_WDL_01.JPG;
         displayName = "Explosive Specialist [AOR2]";
         engineer = 1;
         canDeactivateMines = 1;
@@ -421,14 +421,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_Rifleman_Light_AOR2_WD_01 : B_recon_F_OCimport_02 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Rifleman_Light_AOR2_WD_01.JPG;
+    class CFP_B_USSEALS_Rifleman_Light_AOR2_WDL_01 : B_recon_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_usseals_wdl\data\preview\CFP_B_USSEALS_Rifleman_Light_AOR2_WDL_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman Light [AOR2]";
         side = 1;
-        faction = "CFP_B_USSEALS_WD";
+        faction = "CFP_B_USSEALS_WDL";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -504,8 +504,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_Medic_Light_AOR2_WD_01 : CFP_B_USSEALS_Rifleman_Light_AOR2_WD_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Medic_Light_AOR2_WD_01.JPG;
+    class CFP_B_USSEALS_Medic_Light_AOR2_WDL_01 : CFP_B_USSEALS_Rifleman_Light_AOR2_WDL_01 {
+        editorPreview = \x\cfp\addons\b_usseals_wdl\data\preview\CFP_B_USSEALS_Medic_Light_AOR2_WDL_01.JPG;
         displayName = "Medic Light [AOR2]";
         attendant = 1;
         icon = "iconManMedic";
@@ -526,8 +526,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_Team_Leader_Light_AOR2_WD_01 : CFP_B_USSEALS_Rifleman_Light_AOR2_WD_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Team_Leader_Light_AOR2_WD_01.JPG;
+    class CFP_B_USSEALS_Team_Leader_Light_AOR2_WDL_01 : CFP_B_USSEALS_Rifleman_Light_AOR2_WDL_01 {
+        editorPreview = \x\cfp\addons\b_usseals_wdl\data\preview\CFP_B_USSEALS_Team_Leader_Light_AOR2_WDL_01.JPG;
         displayName = "Team Leader Light [AOR2]";
 
         linkedItems[] = {"CFP_CarrierRig_Operator_OGA_OD","H_Cap_blk","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -543,8 +543,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_Machine_Gunner_Light_AOR2_WD_01 : CFP_B_USSEALS_Rifleman_Light_AOR2_WD_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Machine_Gunner_Light_AOR2_WD_01.JPG;
+    class CFP_B_USSEALS_Machine_Gunner_Light_AOR2_WDL_01 : CFP_B_USSEALS_Rifleman_Light_AOR2_WDL_01 {
+        editorPreview = \x\cfp\addons\b_usseals_wdl\data\preview\CFP_B_USSEALS_Machine_Gunner_Light_AOR2_WDL_01.JPG;
         displayName = "Machine Gunner Light [AOR2]";
 
         linkedItems[] = {"CFP_CarrierRig_Gunner_OGA_OD","CFP_BoonieHat_AOR2","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -560,8 +560,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_Grenadier_Light_AOR2_WD_01 : CFP_B_USSEALS_Rifleman_Light_AOR2_WD_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Grenadier_Light_AOR2_WD_01.JPG;
+    class CFP_B_USSEALS_Grenadier_Light_AOR2_WDL_01 : CFP_B_USSEALS_Rifleman_Light_AOR2_WDL_01 {
+        editorPreview = \x\cfp\addons\b_usseals_wdl\data\preview\CFP_B_USSEALS_Grenadier_Light_AOR2_WDL_01.JPG;
         displayName = "Grenadier Light [AOR2]";
 
         linkedItems[] = {"CFP_CarrierRig_Operator_OGA_OD","CFP_BoonieHat_AOR2","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -577,8 +577,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_Marksman_Light_AOR2_WD_01 : CFP_B_USSEALS_Rifleman_Light_AOR2_WD_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Marksman_Light_AOR2_WD_01.JPG;
+    class CFP_B_USSEALS_Marksman_Light_AOR2_WDL_01 : CFP_B_USSEALS_Rifleman_Light_AOR2_WDL_01 {
+        editorPreview = \x\cfp\addons\b_usseals_wdl\data\preview\CFP_B_USSEALS_Marksman_Light_AOR2_WDL_01.JPG;
         displayName = "Marksman Light [AOR2]";
 
         linkedItems[] = {"CFP_CarrierRig_Operator_OGA_OD","SP_HeadSet_Green","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -594,8 +594,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_Explosive_Specialist_Light_AOR2_WD_01 : CFP_B_USSEALS_Rifleman_Light_AOR2_WD_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Explosive_Specialist_Light_AOR2_WD_01.JPG;
+    class CFP_B_USSEALS_Explosive_Specialist_Light_AOR2_WDL_01 : CFP_B_USSEALS_Rifleman_Light_AOR2_WDL_01 {
+        editorPreview = \x\cfp\addons\b_usseals_wdl\data\preview\CFP_B_USSEALS_Explosive_Specialist_Light_AOR2_WDL_01.JPG;
         displayName = "Explosive Specialist Light [AOR2]";
         engineer = 1;
         canDeactivateMines = 1;
@@ -615,14 +615,14 @@ class CfgVehicles {
 
     };
 
-     class CFP_B_USSEALS_Rifleman_MCAM_WD_01 : B_recon_F_OCimport_02 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Rifleman_MCAM_WD_01.JPG;
+     class CFP_B_USSEALS_Rifleman_MCAM_WDL_01 : B_recon_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_usseals_wdl\data\preview\CFP_B_USSEALS_Rifleman_MCAM_WDL_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman [Multicam]";
         side = 1;
-        faction = "CFP_B_USSEALS_WD";
+        faction = "CFP_B_USSEALS_WDL";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -692,8 +692,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_Medic_MCAM_WD_01 : CFP_B_USSEALS_Rifleman_MCAM_WD_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Medic_MCAM_WD_01.JPG;
+    class CFP_B_USSEALS_Medic_MCAM_WDL_01 : CFP_B_USSEALS_Rifleman_MCAM_WDL_01 {
+        editorPreview = \x\cfp\addons\b_usseals_wdl\data\preview\CFP_B_USSEALS_Medic_MCAM_WDL_01.JPG;
         displayName = "Medic [Multicam]";
         attendant = 1;
         icon = "iconManMedic";
@@ -714,8 +714,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_Team_Leader_MCAM_WD_01 : CFP_B_USSEALS_Rifleman_MCAM_WD_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Team_Leader_MCAM_WD_01.JPG;
+    class CFP_B_USSEALS_Team_Leader_MCAM_WDL_01 : CFP_B_USSEALS_Rifleman_MCAM_WDL_01 {
+        editorPreview = \x\cfp\addons\b_usseals_wdl\data\preview\CFP_B_USSEALS_Team_Leader_MCAM_WDL_01.JPG;
         displayName = "Team Leader [Multicam]";
 
         linkedItems[] = {"CFP_LBT6094_operator_Multicam","CFP_OPS2017_Helmet_Multicam2","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -744,8 +744,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_Machine_Gunner_MCAM_WD_01 : CFP_B_USSEALS_Rifleman_MCAM_WD_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Machine_Gunner_MCAM_WD_01.JPG;
+    class CFP_B_USSEALS_Machine_Gunner_MCAM_WDL_01 : CFP_B_USSEALS_Rifleman_MCAM_WDL_01 {
+        editorPreview = \x\cfp\addons\b_usseals_wdl\data\preview\CFP_B_USSEALS_Machine_Gunner_MCAM_WDL_01.JPG;
         displayName = "Machine Gunner [Multicam]";
 
         linkedItems[] = {"CFP_RAV_MG_Multicam","CFP_OPS2017_Helmet_Multicam2","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -761,8 +761,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_Grenadier_MCAM_WD_01 : CFP_B_USSEALS_Rifleman_MCAM_WD_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Grenadier_MCAM_WD_01.JPG;
+    class CFP_B_USSEALS_Grenadier_MCAM_WDL_01 : CFP_B_USSEALS_Rifleman_MCAM_WDL_01 {
+        editorPreview = \x\cfp\addons\b_usseals_wdl\data\preview\CFP_B_USSEALS_Grenadier_MCAM_WDL_01.JPG;
         displayName = "Grenadier [Multicam]";
 
         linkedItems[] = {"CFP_LBT6094_operator_Multicam","CFP_OPS2017_Helmet_Multicam2","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -778,8 +778,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_Marksman_MCAM_WD_01 : CFP_B_USSEALS_Rifleman_MCAM_WD_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Marksman_MCAM_WD_01.JPG;
+    class CFP_B_USSEALS_Marksman_MCAM_WDL_01 : CFP_B_USSEALS_Rifleman_MCAM_WDL_01 {
+        editorPreview = \x\cfp\addons\b_usseals_wdl\data\preview\CFP_B_USSEALS_Marksman_MCAM_WDL_01.JPG;
         displayName = "Marksman [Multicam]";
 
         linkedItems[] = {"CFP_LBT6094_operator_Multicam","CFP_OPS2017_Helmet_Multicam2","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -795,8 +795,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_Explosive_Specialist_MCAM_WD_01 : CFP_B_USSEALS_Rifleman_MCAM_WD_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Explosive_Specialist_MCAM_WD_01.JPG;
+    class CFP_B_USSEALS_Explosive_Specialist_MCAM_WDL_01 : CFP_B_USSEALS_Rifleman_MCAM_WDL_01 {
+        editorPreview = \x\cfp\addons\b_usseals_wdl\data\preview\CFP_B_USSEALS_Explosive_Specialist_MCAM_WDL_01.JPG;
         displayName = "Explosive Specialist [Multicam]";
         engineer = 1;
         canDeactivateMines = 1;
@@ -816,14 +816,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_Rifleman_Light_MCAM_WD_01 : B_recon_F_OCimport_02 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Rifleman_Light_MCAM_WD_01.JPG;
+    class CFP_B_USSEALS_Rifleman_Light_MCAM_WDL_01 : B_recon_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_usseals_wdl\data\preview\CFP_B_USSEALS_Rifleman_Light_MCAM_WDL_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman Light [Multicam]";
         side = 1;
-        faction = "CFP_B_USSEALS_WD";
+        faction = "CFP_B_USSEALS_WDL";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
 
@@ -901,8 +901,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_Medic_Light_MCAM_WD_01 : CFP_B_USSEALS_Rifleman_Light_MCAM_WD_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Medic_Light_MCAM_WD_01.JPG;
+    class CFP_B_USSEALS_Medic_Light_MCAM_WDL_01 : CFP_B_USSEALS_Rifleman_Light_MCAM_WDL_01 {
+        editorPreview = \x\cfp\addons\b_usseals_wdl\data\preview\CFP_B_USSEALS_Medic_Light_MCAM_WDL_01.JPG;
         displayName = "Medic Light [Multicam]";
         attendant = 1;
         icon = "iconManMedic";
@@ -923,8 +923,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_Team_Leader_Light_MCAM_WD_01 : CFP_B_USSEALS_Rifleman_Light_MCAM_WD_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Team_Leader_Light_MCAM_WD_01.JPG;
+    class CFP_B_USSEALS_Team_Leader_Light_MCAM_WDL_01 : CFP_B_USSEALS_Rifleman_Light_MCAM_WDL_01 {
+        editorPreview = \x\cfp\addons\b_usseals_wdl\data\preview\CFP_B_USSEALS_Team_Leader_Light_MCAM_WDL_01.JPG;
         displayName = "Team Leader Light [Multicam]";
 
         linkedItems[] = {"CFP_CarrierRig_Operator_Multicam","H_Cap_blk","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -940,8 +940,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_Machine_Gunner_Light_MCAM_WD_01 : CFP_B_USSEALS_Rifleman_Light_MCAM_WD_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Machine_Gunner_Light_AOR2_WD_01.JPG;
+    class CFP_B_USSEALS_Machine_Gunner_Light_MCAM_WDL_01 : CFP_B_USSEALS_Rifleman_Light_MCAM_WDL_01 {
+        editorPreview = \x\cfp\addons\b_usseals_wdl\data\preview\CFP_B_USSEALS_Machine_Gunner_Light_AOR2_WDL_01.JPG;
         displayName = "Machine Gunner Light [Multicam]";
 
         linkedItems[] = {"CFP_CarrierRig_Gunner_Multicam","CFP_BoonieHat_Multicam","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -957,8 +957,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_Grenadier_Light_MCAM_WD_01 : CFP_B_USSEALS_Rifleman_Light_MCAM_WD_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Grenadier_Light_MCAM_WD_01.JPG;
+    class CFP_B_USSEALS_Grenadier_Light_MCAM_WDL_01 : CFP_B_USSEALS_Rifleman_Light_MCAM_WDL_01 {
+        editorPreview = \x\cfp\addons\b_usseals_wdl\data\preview\CFP_B_USSEALS_Grenadier_Light_MCAM_WDL_01.JPG;
         displayName = "Grenadier Light [Multicam]";
 
         linkedItems[] = {"CFP_CarrierRig_Operator_Multicam","CFP_BoonieHat_Multicam","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -974,8 +974,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_Marksman_Light_MCAM_WD_01 : CFP_B_USSEALS_Rifleman_Light_MCAM_WD_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Marksman_Light_MCAM_WD_01.JPG;
+    class CFP_B_USSEALS_Marksman_Light_MCAM_WDL_01 : CFP_B_USSEALS_Rifleman_Light_MCAM_WDL_01 {
+        editorPreview = \x\cfp\addons\b_usseals_wdl\data\preview\CFP_B_USSEALS_Marksman_Light_MCAM_WDL_01.JPG;
         displayName = "Marksman Light [Multicam]";
 
         linkedItems[] = {"CFP_CarrierRig_Operator_Multicam","SP_HeadSet_Green","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -991,8 +991,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_Explosive_Specialist_Light_MCAM_WD_01 : CFP_B_USSEALS_Rifleman_Light_MCAM_WD_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Explosive_Specialist_Light_MCAM_WD_01.JPG;
+    class CFP_B_USSEALS_Explosive_Specialist_Light_MCAM_WDL_01 : CFP_B_USSEALS_Rifleman_Light_MCAM_WDL_01 {
+        editorPreview = \x\cfp\addons\b_usseals_wdl\data\preview\CFP_B_USSEALS_Explosive_Specialist_Light_MCAM_WDL_01.JPG;
         displayName = "Explosive Specialist Light [Multicam]";
         engineer = 1;
         canDeactivateMines = 1;
@@ -1012,19 +1012,19 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_UH_60M_WD_01 : CFP_B_USARMY_UH60M_US_OCimport_02 {
+    class CFP_B_USSEALS_UH_60M_WDL_01 : CFP_B_USARMY_UH60M_US_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "UH-60M";
         side = 1;
-        faction = "CFP_B_USSEALS_WD";
-        crew = "CFP_B_USSEALS_Helicopter_Pilot_WD_01";
+        faction = "CFP_B_USSEALS_WDL";
+        crew = "CFP_B_USSEALS_Helicopter_Pilot_WDL_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_WD_01"; };
-            class MainTurret : MainTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Crew_WD_01"; };
-            class RightDoorGun : RightDoorGun { gunnerType = "CFP_B_USSEALS_Helicopter_Crew_WD_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_WDL_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Crew_WDL_01"; };
+            class RightDoorGun : RightDoorGun { gunnerType = "CFP_B_USSEALS_Helicopter_Crew_WDL_01"; };
         };
 
 
@@ -1043,17 +1043,17 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_MH_6M_MELB_WD_01 : CFP_B_USARMY_MH6M_USA_OCimport_02 {
+    class CFP_B_USSEALS_MH_6M_MELB_WDL_01 : CFP_B_USARMY_MH6M_USA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "MH-6M MELB";
         side = 1;
-        faction = "CFP_B_USSEALS_WD";
-        crew = "CFP_B_USSEALS_Helicopter_Pilot_WD_01";
+        faction = "CFP_B_USSEALS_WDL";
+        crew = "CFP_B_USSEALS_Helicopter_Pilot_WDL_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_WD_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_WDL_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -1080,17 +1080,17 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_MH_6J_Little_Bird_WD_01 : CFP_B_USARMY_MH6J_USA_OCimport_02 {
+    class CFP_B_USSEALS_MH_6J_Little_Bird_WDL_01 : CFP_B_USARMY_MH6J_USA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "MH-6J Little Bird";
         side = 1;
-        faction = "CFP_B_USSEALS_WD";
-        crew = "CFP_B_USSEALS_Helicopter_Pilot_WD_01";
+        faction = "CFP_B_USSEALS_WDL";
+        crew = "CFP_B_USSEALS_Helicopter_Pilot_WDL_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_WD_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_WDL_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -1117,17 +1117,17 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_MH_6M_Recon_WD_01 : CFP_B_USARMY_MH6M_OBS_USA_OCimport_02 {
+    class CFP_B_USSEALS_MH_6M_Recon_WDL_01 : CFP_B_USARMY_MH6M_OBS_USA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "MH-6M Recon";
         side = 1;
-        faction = "CFP_B_USSEALS_WD";
-        crew = "CFP_B_USSEALS_Helicopter_Pilot_WD_01";
+        faction = "CFP_B_USSEALS_WDL";
+        crew = "CFP_B_USSEALS_Helicopter_Pilot_WDL_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_WD_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_WDL_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -1154,17 +1154,17 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_MH_6J_Recon_WD_01 : CFP_B_USARMY_MH6J_OBS_USA_OCimport_02 {
+    class CFP_B_USSEALS_MH_6J_Recon_WDL_01 : CFP_B_USARMY_MH6J_OBS_USA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "MH-6J Recon";
         side = 1;
-        faction = "CFP_B_USSEALS_WD";
-        crew = "CFP_B_USSEALS_Helicopter_Pilot_WD_01";
+        faction = "CFP_B_USSEALS_WDL";
+        crew = "CFP_B_USSEALS_Helicopter_Pilot_WDL_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_WD_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_WDL_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -1191,17 +1191,17 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_AH_6M_WD_01 : CFP_B_USARMY_AH6M_USA_OCimport_02 {
+    class CFP_B_USSEALS_AH_6M_WDL_01 : CFP_B_USARMY_AH6M_USA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "AH-6M";
         side = 1;
-        faction = "CFP_B_USSEALS_WD";
-        crew = "CFP_B_USSEALS_Helicopter_Pilot_WD_01";
+        faction = "CFP_B_USSEALS_WDL";
+        crew = "CFP_B_USSEALS_Helicopter_Pilot_WDL_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_WD_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_WDL_01"; };
         };
 
 
@@ -1220,17 +1220,17 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_AH_6J_WD_01 : CFP_B_USARMY_AH6J_USA_OCimport_02 {
+    class CFP_B_USSEALS_AH_6J_WDL_01 : CFP_B_USARMY_AH6J_USA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "AH-6J";
         side = 1;
-        faction = "CFP_B_USSEALS_WD";
-        crew = "CFP_B_USSEALS_Helicopter_Pilot_WD_01";
+        faction = "CFP_B_USSEALS_WDL";
+        crew = "CFP_B_USSEALS_Helicopter_Pilot_WDL_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_WD_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_WDL_01"; };
         };
 
 
@@ -1249,19 +1249,19 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_MH_60L_DAP_4Pylons_WD_01 : CFP_B_USARMY_MH60L_DAP_4x_US_OCimport_02 {
+    class CFP_B_USSEALS_MH_60L_DAP_4Pylons_WDL_01 : CFP_B_USARMY_MH60L_DAP_4x_US_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "MH-60L DAP [4 Pylons]";
         side = 1;
-        faction = "CFP_B_USSEALS_WD";
-        crew = "CFP_B_USSEALS_Helicopter_Pilot_WD_01";
+        faction = "CFP_B_USSEALS_WDL";
+        crew = "CFP_B_USSEALS_Helicopter_Pilot_WDL_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_WD_01"; };
-            class MainTurret : MainTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Crew_WD_01"; };
-            class RightDoorGun : RightDoorGun { gunnerType = "CFP_B_USSEALS_Helicopter_Crew_WD_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_WDL_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Crew_WDL_01"; };
+            class RightDoorGun : RightDoorGun { gunnerType = "CFP_B_USSEALS_Helicopter_Crew_WDL_01"; };
         };
 
 
@@ -1280,19 +1280,19 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_MH_60L_DAP_2Pylons_WD_01 : CFP_B_USARMY_MH60L_DAP_2x_US_OCimport_02 {
+    class CFP_B_USSEALS_MH_60L_DAP_2Pylons_WDL_01 : CFP_B_USARMY_MH60L_DAP_2x_US_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "MH-60L DAP [2 Pylons]";
         side = 1;
-        faction = "CFP_B_USSEALS_WD";
-        crew = "CFP_B_USSEALS_Helicopter_Pilot_WD_01";
+        faction = "CFP_B_USSEALS_WDL";
+        crew = "CFP_B_USSEALS_Helicopter_Pilot_WDL_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_WD_01"; };
-            class MainTurret : MainTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Crew_WD_01"; };
-            class RightDoorGun : RightDoorGun { gunnerType = "CFP_B_USSEALS_Helicopter_Crew_WD_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_WDL_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Crew_WDL_01"; };
+            class RightDoorGun : RightDoorGun { gunnerType = "CFP_B_USSEALS_Helicopter_Crew_WDL_01"; };
         };
 
 
@@ -1311,19 +1311,19 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_UH_60M_FFV_WD_01 : CFP_B_USARMY_UH60M_FFV_US_OCimport_02 {
+    class CFP_B_USSEALS_UH_60M_FFV_WDL_01 : CFP_B_USARMY_UH60M_FFV_US_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "UH-60M [FFV]";
         side = 1;
-        faction = "CFP_B_USSEALS_WD";
-        crew = "CFP_B_USSEALS_Helicopter_Pilot_WD_01";
+        faction = "CFP_B_USSEALS_WDL";
+        crew = "CFP_B_USSEALS_Helicopter_Pilot_WDL_01";
 
         class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_WD_01"; };
-            class MainTurret : MainTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Crew_WD_01"; };
-            class RightDoorGun : RightDoorGun { gunnerType = "CFP_B_USSEALS_Helicopter_Crew_WD_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_WDL_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Crew_WDL_01"; };
+            class RightDoorGun : RightDoorGun { gunnerType = "CFP_B_USSEALS_Helicopter_Crew_WDL_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -1346,18 +1346,18 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_HMMWV_SOV_Mk19_WD_01 : CFP_B_USARMY_HMMWV_SOV_USA_OCimport_02 {
+    class CFP_B_USSEALS_HMMWV_SOV_Mk19_WDL_01 : CFP_B_USARMY_HMMWV_SOV_USA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "HMMWV SOV [Mk19]";
         side = 1;
-        faction = "CFP_B_USSEALS_WD";
-        crew = "CFP_B_USSEALS_Rifleman_AOR2_WD_01";
+        faction = "CFP_B_USSEALS_WDL";
+        crew = "CFP_B_USSEALS_Rifleman_AOR2_WDL_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_USSEALS_Rifleman_AOR2_WD_01"; };
-            class SideTurret : SideTurret { gunnerType = "CFP_B_USSEALS_Rifleman_AOR2_WD_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_USSEALS_Rifleman_AOR2_WDL_01"; };
+            class SideTurret : SideTurret { gunnerType = "CFP_B_USSEALS_Rifleman_AOR2_WDL_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -1381,18 +1381,18 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_HMMWV_SOV_M2_WD_01 : CFP_B_USARMY_HMMWV_SOV_M2_USA_OCimport_02 {
+    class CFP_B_USSEALS_HMMWV_SOV_M2_WDL_01 : CFP_B_USARMY_HMMWV_SOV_M2_USA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "HMMWV SOV [M2]";
         side = 1;
-        faction = "CFP_B_USSEALS_WD";
-        crew = "CFP_B_USSEALS_Rifleman_AOR2_WD_01";
+        faction = "CFP_B_USSEALS_WDL";
+        crew = "CFP_B_USSEALS_Rifleman_AOR2_WDL_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_USSEALS_Rifleman_AOR2_WD_01"; };
-            class SideTurret : SideTurret { gunnerType = "CFP_B_USSEALS_Rifleman_AOR2_WD_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_USSEALS_Rifleman_AOR2_WDL_01"; };
+            class SideTurret : SideTurret { gunnerType = "CFP_B_USSEALS_Rifleman_AOR2_WDL_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -1416,14 +1416,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_ATV_WD_01 : B_Quadbike_01_F_OCimport_02 {
+    class CFP_B_USSEALS_ATV_WDL_01 : B_Quadbike_01_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "ATV";
         side = 1;
-        faction = "CFP_B_USSEALS_WD";
-        crew = "CFP_B_USSEALS_Rifleman_AOR2_WD_01";
+        faction = "CFP_B_USSEALS_WDL";
+        crew = "CFP_B_USSEALS_Rifleman_AOR2_WDL_01";
 
 
         class EventHandlers : EventHandlers {
@@ -1440,14 +1440,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_Polaris_Dagor_WD_01 : B_T_LSV_01_unarmed_F_OCimport_02 {
+    class CFP_B_USSEALS_Polaris_Dagor_WDL_01 : B_T_LSV_01_unarmed_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Polaris Dagor";
         side = 1;
-        faction = "CFP_B_USSEALS_WD";
-        crew = "CFP_B_USSEALS_Rifleman_AOR2_WD_01";
+        faction = "CFP_B_USSEALS_WDL";
+        crew = "CFP_B_USSEALS_Rifleman_AOR2_WDL_01";
 
         class Turrets : Turrets {
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
@@ -1455,7 +1455,7 @@ class CfgVehicles {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
             class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
-            class CargoTurret_06 : CargoTurret_06 { gunnerType = "CFP_B_USSEALS_Rifleman_AOR2_WD_01"; };
+            class CargoTurret_06 : CargoTurret_06 { gunnerType = "CFP_B_USSEALS_Rifleman_AOR2_WDL_01"; };
         };
 
 
@@ -1474,17 +1474,17 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_SEAL_Delivery_Vehicle_WD_01 : B_SDV_01_F_OCimport_02 {
+    class CFP_B_USSEALS_SEAL_Delivery_Vehicle_WDL_01 : B_SDV_01_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "SEAL Delivery Vehicle";
         side = 1;
-        faction = "CFP_B_USSEALS_WD";
-        crew = "CFP_B_USSEALS_SEAL_Diver_WD_01";
+        faction = "CFP_B_USSEALS_WDL";
+        crew = "CFP_B_USSEALS_SEAL_Diver_WDL_01";
 
         class Turrets : Turrets {
-            class CommanderTurret : CommanderTurret { gunnerType = "CFP_B_USSEALS_SEAL_Diver_WD_01"; };
+            class CommanderTurret : CommanderTurret { gunnerType = "CFP_B_USSEALS_SEAL_Diver_WDL_01"; };
         };
 
 
@@ -1503,18 +1503,18 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_RHIB_WD_01 : CFP_B_USMC_RHIB_Mk19_DES_01_OCimport_02 {
+    class CFP_B_USSEALS_RHIB_WDL_01 : CFP_B_USMC_RHIB_Mk19_DES_01_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "RHIB";
         side = 1;
-        faction = "CFP_B_USSEALS_WD";
-        crew = "CFP_B_USSEALS_Rifleman_AOR2_WD_01";
+        faction = "CFP_B_USSEALS_WDL";
+        crew = "CFP_B_USSEALS_Rifleman_AOR2_WDL_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_USSEALS_Rifleman_AOR2_WD_01"; };
-            class BackTurret : BackTurret { gunnerType = "CFP_B_USSEALS_Rifleman_AOR2_WD_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_USSEALS_Rifleman_AOR2_WDL_01"; };
+            class BackTurret : BackTurret { gunnerType = "CFP_B_USSEALS_Rifleman_AOR2_WDL_01"; };
         };
 
 
@@ -1533,14 +1533,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_Zodiac_Assault_Boat_WD_01 : B_Boat_Transport_01_F_OCimport_02 {
+    class CFP_B_USSEALS_Zodiac_Assault_Boat_WDL_01 : B_Boat_Transport_01_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Zodiac Assault Boat";
         side = 1;
-        faction = "CFP_B_USSEALS_WD";
-        crew = "CFP_B_USSEALS_Rifleman_AOR2_WD_01";
+        faction = "CFP_B_USSEALS_WDL";
+        crew = "CFP_B_USSEALS_Rifleman_AOR2_WDL_01";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -1565,13 +1565,13 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_SEAL_Diver_WD_01 : B_diver_F_OCimport_02 {
+    class CFP_B_USSEALS_SEAL_Diver_WDL_01 : B_diver_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "SEAL Diver";
         side = 1;
-        faction = "CFP_B_USSEALS_WD";
+        faction = "CFP_B_USSEALS_WDL";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_diver"};
 
@@ -1605,13 +1605,13 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_Helicopter_Pilot_WD_01 : B_Helipilot_F_OCimport_02 {
+    class CFP_B_USSEALS_Helicopter_Pilot_WDL_01 : B_Helipilot_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Helicopter Pilot";
         side = 1;
-        faction = "CFP_B_USSEALS_WD";
+        faction = "CFP_B_USSEALS_WDL";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_pilot"};
 
@@ -1644,13 +1644,13 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USSEALS_Helicopter_Crew_WD_01 : CFP_B_USSEALS_Helicopter_Pilot_WD_01 {
+    class CFP_B_USSEALS_Helicopter_Crew_WDL_01 : CFP_B_USSEALS_Helicopter_Pilot_WDL_01 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Helicopter Crew";
         side = 1;
-        faction = "CFP_B_USSEALS_WD";
+        faction = "CFP_B_USSEALS_WDL";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_pilot"};
 

@@ -7,16 +7,16 @@
 class CfgGroups {
     class WEST {
 
-        class CFP_B_USSEALS_WD {
+        class CFP_B_USSEALS_WDL {
             name = "US Navy Seals (Jungle / Woodland)";
 
             class Infantry {
                 name = "Infantry";
 
-                class cfp_b_usseals_infantry_fire_team_aor2_wd {
+                class cfp_b_usseals_infantry_fire_team_aor2_wdl {
                     name = "Fire Team [AOR2]";
                     side = 1;
-                    faction = "CFP_B_USSEALS_WD";
+                    faction = "CFP_B_USSEALS_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.5;
 
@@ -24,32 +24,32 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Team_Leader_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Team_Leader_AOR2_WDL_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Machine_Gunner_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Machine_Gunner_AOR2_WDL_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Grenadier_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Grenadier_AOR2_WDL_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Rifleman_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Rifleman_AOR2_WDL_01";
                     };
                 };
 
-                class cfp_b_usseals_infantry_squad_aor2_wd {
+                class cfp_b_usseals_infantry_squad_aor2_wdl {
                     name = "Squad [AOR2]";
                     side = 1;
-                    faction = "CFP_B_USSEALS_WD";
+                    faction = "CFP_B_USSEALS_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.5;
 
@@ -57,56 +57,56 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Team_Leader_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Team_Leader_AOR2_WDL_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Medic_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Medic_AOR2_WDL_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Machine_Gunner_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Machine_Gunner_AOR2_WDL_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Grenadier_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Grenadier_AOR2_WDL_01";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Marksman_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Marksman_AOR2_WDL_01";
                     };
                     class Unit5 {
                         position[] = {15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Explosive_Specialist_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Explosive_Specialist_AOR2_WDL_01";
                     };
                     class Unit6 {
                         position[] = {-15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Rifleman_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Rifleman_AOR2_WDL_01";
                     };
                     class Unit7 {
                         position[] = {20,-20,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Rifleman_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Rifleman_AOR2_WDL_01";
                     };
                 };
 
-                class cfp_b_usseals_infantry_fire_team_light_aor2_wd {
+                class cfp_b_usseals_infantry_fire_team_light_aor2_wdl {
                     name = "Fire Team Light [AOR2]";
                     side = 1;
-                    faction = "CFP_B_USSEALS_WD";
+                    faction = "CFP_B_USSEALS_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.5;
 
@@ -114,32 +114,32 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Team_Leader_Light_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Team_Leader_Light_AOR2_WDL_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Machine_Gunner_Light_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Machine_Gunner_Light_AOR2_WDL_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Grenadier_Light_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Grenadier_Light_AOR2_WDL_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Rifleman_Light_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Rifleman_Light_AOR2_WDL_01";
                     };
                 };
 
-                class cfp_b_usseals_infantry_squad_light_aor2_wd {
+                class cfp_b_usseals_infantry_squad_light_aor2_wdl {
                     name = "Squad Light [AOR2]";
                     side = 1;
-                    faction = "CFP_B_USSEALS_WD";
+                    faction = "CFP_B_USSEALS_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.5;
 
@@ -147,56 +147,56 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Team_Leader_Light_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Team_Leader_Light_AOR2_WDL_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Medic_Light_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Medic_Light_AOR2_WDL_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Machine_Gunner_Light_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Machine_Gunner_Light_AOR2_WDL_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Grenadier_Light_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Grenadier_Light_AOR2_WDL_01";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Explosive_Specialist_Light_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Explosive_Specialist_Light_AOR2_WDL_01";
                     };
                     class Unit5 {
                         position[] = {15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Marksman_Light_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Marksman_Light_AOR2_WDL_01";
                     };
                     class Unit6 {
                         position[] = {-15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Rifleman_Light_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Rifleman_Light_AOR2_WDL_01";
                     };
                     class Unit7 {
                         position[] = {20,-20,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Rifleman_Light_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Rifleman_Light_AOR2_WDL_01";
                     };
                 };
 
-                class cfp_b_usseals_infantry_fire_team_mcam_wd {
+                class cfp_b_usseals_infantry_fire_team_mcam_wdl {
                     name = "Fire Team [Multicam]";
                     side = 1;
-                    faction = "CFP_B_USSEALS_WD";
+                    faction = "CFP_B_USSEALS_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.5;
 
@@ -204,32 +204,32 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Team_Leader_MCAM_WD_01";
+                        vehicle = "CFP_B_USSEALS_Team_Leader_MCAM_WDL_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Machine_Gunner_MCAM_WD_01";
+                        vehicle = "CFP_B_USSEALS_Machine_Gunner_MCAM_WDL_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Grenadier_MCAM_WD_01";
+                        vehicle = "CFP_B_USSEALS_Grenadier_MCAM_WDL_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Rifleman_MCAM_WD_01";
+                        vehicle = "CFP_B_USSEALS_Rifleman_MCAM_WDL_01";
                     };
                 };
 
-                class cfp_b_usseals_infantry_squad_mcam_wd {
+                class cfp_b_usseals_infantry_squad_mcam_wdl {
                     name = "Squad [Multicam]";
                     side = 1;
-                    faction = "CFP_B_USSEALS_WD";
+                    faction = "CFP_B_USSEALS_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.5;
 
@@ -237,56 +237,56 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Team_Leader_MCAM_WD_01";
+                        vehicle = "CFP_B_USSEALS_Team_Leader_MCAM_WDL_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Medic_MCAM_WD_01";
+                        vehicle = "CFP_B_USSEALS_Medic_MCAM_WDL_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Machine_Gunner_MCAM_WD_01";
+                        vehicle = "CFP_B_USSEALS_Machine_Gunner_MCAM_WDL_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Grenadier_MCAM_WD_01";
+                        vehicle = "CFP_B_USSEALS_Grenadier_MCAM_WDL_01";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Marksman_MCAM_WD_01";
+                        vehicle = "CFP_B_USSEALS_Marksman_MCAM_WDL_01";
                     };
                     class Unit5 {
                         position[] = {15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Explosive_Specialist_MCAM_WD_01";
+                        vehicle = "CFP_B_USSEALS_Explosive_Specialist_MCAM_WDL_01";
                     };
                     class Unit6 {
                         position[] = {-15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Rifleman_MCAM_WD_01";
+                        vehicle = "CFP_B_USSEALS_Rifleman_MCAM_WDL_01";
                     };
                     class Unit7 {
                         position[] = {20,-20,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Rifleman_MCAM_WD_01";
+                        vehicle = "CFP_B_USSEALS_Rifleman_MCAM_WDL_01";
                     };
                 };
 
-                class cfp_b_usseals_infantry_fire_team_light_mcam_wd {
+                class cfp_b_usseals_infantry_fire_team_light_mcam_wdl {
                     name = "Fire Team Light [Multicam]";
                     side = 1;
-                    faction = "CFP_B_USSEALS_WD";
+                    faction = "CFP_B_USSEALS_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.5;
 
@@ -294,32 +294,32 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Team_Leader_Light_MCAM_WD_01";
+                        vehicle = "CFP_B_USSEALS_Team_Leader_Light_MCAM_WDL_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Machine_Gunner_Light_MCAM_WD_01";
+                        vehicle = "CFP_B_USSEALS_Machine_Gunner_Light_MCAM_WDL_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Grenadier_Light_MCAM_WD_01";
+                        vehicle = "CFP_B_USSEALS_Grenadier_Light_MCAM_WDL_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Rifleman_Light_MCAM_WD_01";
+                        vehicle = "CFP_B_USSEALS_Rifleman_Light_MCAM_WDL_01";
                     };
                 };
 
-                class cfp_b_usseals_infantry_squad_light_mcam_wd {
+                class cfp_b_usseals_infantry_squad_light_mcam_wdl {
                     name = "Squad Light [Multicam]";
                     side = 1;
-                    faction = "CFP_B_USSEALS_WD";
+                    faction = "CFP_B_USSEALS_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.5;
 
@@ -327,49 +327,49 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Team_Leader_Light_MCAM_WD_01";
+                        vehicle = "CFP_B_USSEALS_Team_Leader_Light_MCAM_WDL_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Medic_Light_MCAM_WD_01";
+                        vehicle = "CFP_B_USSEALS_Medic_Light_MCAM_WDL_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Machine_Gunner_Light_MCAM_WD_01";
+                        vehicle = "CFP_B_USSEALS_Machine_Gunner_Light_MCAM_WDL_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Grenadier_Light_MCAM_WD_01";
+                        vehicle = "CFP_B_USSEALS_Grenadier_Light_MCAM_WDL_01";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Explosive_Specialist_Light_MCAM_WD_01";
+                        vehicle = "CFP_B_USSEALS_Explosive_Specialist_Light_MCAM_WDL_01";
                     };
                     class Unit5 {
                         position[] = {15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Marksman_Light_MCAM_WD_01";
+                        vehicle = "CFP_B_USSEALS_Marksman_Light_MCAM_WDL_01";
                     };
                     class Unit6 {
                         position[] = {-15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Rifleman_Light_MCAM_WD_01";
+                        vehicle = "CFP_B_USSEALS_Rifleman_Light_MCAM_WDL_01";
                     };
                     class Unit7 {
                         position[] = {20,-20,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Rifleman_Light_MCAM_WD_01";
+                        vehicle = "CFP_B_USSEALS_Rifleman_Light_MCAM_WDL_01";
                     };
                 };
 
@@ -383,10 +383,10 @@ class CfgGroups {
             class Motorized {
                 name = "Motorized Infantry";
 
-                class cfp_b_usseals_motorized_fire_team_hmmwv_mk19_wd {
+                class cfp_b_usseals_motorized_fire_team_hmmwv_mk19_wdl {
                     name = "Fire Team [HMMWV Mk19]";
                     side = 1;
-                    faction = "CFP_B_USSEALS_WD";
+                    faction = "CFP_B_USSEALS_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -394,26 +394,26 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_HMMWV_SOV_Mk19_WD_01";
+                        vehicle = "CFP_B_USSEALS_HMMWV_SOV_Mk19_WDL_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Grenadier_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Grenadier_AOR2_WDL_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Rifleman_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Rifleman_AOR2_WDL_01";
                     };
                 };
 
-                class cfp_b_usseals_motorized_fire_team_hmmwv_m2_wd {
+                class cfp_b_usseals_motorized_fire_team_hmmwv_m2_wdl {
                     name = "Fire Team [HMMWV M2]";
                     side = 1;
-                    faction = "CFP_B_USSEALS_WD";
+                    faction = "CFP_B_USSEALS_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -421,26 +421,26 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_HMMWV_SOV_M2_WD_01";
+                        vehicle = "CFP_B_USSEALS_HMMWV_SOV_M2_WDL_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Grenadier_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Grenadier_AOR2_WDL_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Rifleman_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Rifleman_AOR2_WDL_01";
                     };
                 };
 
-                class cfp_b_usseals_motorized_fire_team_polaris_dagor_wd {
+                class cfp_b_usseals_motorized_fire_team_polaris_dagor_wdl {
                     name = "Recon Team [Polaris Dagor]";
                     side = 1;
-                    faction = "CFP_B_USSEALS_WD";
+                    faction = "CFP_B_USSEALS_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
                     rarityGroup = 0.5;
 
@@ -448,25 +448,25 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Polaris_Dagor_WD_01";
+                        vehicle = "CFP_B_USSEALS_Polaris_Dagor_WDL_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Team_Leader_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Team_Leader_AOR2_WDL_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Machine_Gunner_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Machine_Gunner_AOR2_WDL_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Marksman_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Marksman_AOR2_WDL_01";
                     };
                 };
 
@@ -500,10 +500,10 @@ class CfgGroups {
             class Naval {
                 name = "Naval";
 
-                class cfp_b_usseals_naval_assault_team_zodiac_wd {
+                class cfp_b_usseals_naval_assault_team_zodiac_wdl {
                     name = "Assault Team [Zodiac]";
                     side = 1;
-                    faction = "CFP_B_USSEALS_WD";
+                    faction = "CFP_B_USSEALS_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_naval.paa";
                     rarityGroup = 0.5;
 
@@ -511,38 +511,38 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Zodiac_Assault_Boat_WD_01";
+                        vehicle = "CFP_B_USSEALS_Zodiac_Assault_Boat_WDL_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Team_Leader_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Team_Leader_AOR2_WDL_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Machine_Gunner_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Machine_Gunner_AOR2_WDL_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Grenadier_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Grenadier_AOR2_WDL_01";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Rifleman_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Rifleman_AOR2_WDL_01";
                     };
                 };
 
-                class cfp_b_usseals_naval_assault_team_light_zodiac_wd {
+                class cfp_b_usseals_naval_assault_team_light_zodiac_wdl {
                     name = "Assault Team Light [Zodiac]";
                     side = 1;
-                    faction = "CFP_B_USSEALS_WD";
+                    faction = "CFP_B_USSEALS_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_naval.paa";
                     rarityGroup = 0.5;
 
@@ -550,38 +550,38 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Zodiac_Assault_Boat_WD_01";
+                        vehicle = "CFP_B_USSEALS_Zodiac_Assault_Boat_WDL_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Team_Leader_Light_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Team_Leader_Light_AOR2_WDL_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Machine_Gunner_Light_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Machine_Gunner_Light_AOR2_WDL_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Grenadier_Light_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Grenadier_Light_AOR2_WDL_01";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Rifleman_Light_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Rifleman_Light_AOR2_WDL_01";
                     };
                 };
 
-                class cfp_b_usseals_naval_assault_team_rhib_wd {
+                class cfp_b_usseals_naval_assault_team_rhib_wdl {
                     name = "Assault Team [RHIB]";
                     side = 1;
-                    faction = "CFP_B_USSEALS_WD";
+                    faction = "CFP_B_USSEALS_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_naval.paa";
                     rarityGroup = 0.5;
 
@@ -589,56 +589,56 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_RHIB_WD_01";
+                        vehicle = "CFP_B_USSEALS_RHIB_WDL_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Team_Leader_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Team_Leader_AOR2_WDL_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Medic_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Medic_AOR2_WDL_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Machine_Gunner_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Machine_Gunner_AOR2_WDL_01";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Grenadier_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Grenadier_AOR2_WDL_01";
                     };
                     class Unit5 {
                         position[] = {15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Marksman_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Marksman_AOR2_WDL_01";
                     };
                     class Unit6 {
                         position[] = {-15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Explosive_Specialist_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Explosive_Specialist_AOR2_WDL_01";
                     };
                     class Unit7 {
                         position[] = {20,-20,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_Rifleman_AOR2_WD_01";
+                        vehicle = "CFP_B_USSEALS_Rifleman_AOR2_WDL_01";
                     };
                 };
 
-                class cfp_b_usseals_naval_sdv_assault_team_wd {
+                class cfp_b_usseals_naval_sdv_assault_team_wdl {
                     name = "SDV Assault Team";
                     side = 1;
-                    faction = "CFP_B_USSEALS_WD";
+                    faction = "CFP_B_USSEALS_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_naval.paa";
                     rarityGroup = 0.5;
 
@@ -646,19 +646,19 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_SEAL_Delivery_Vehicle_WD_01";
+                        vehicle = "CFP_B_USSEALS_SEAL_Delivery_Vehicle_WDL_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_SEAL_Diver_WD_01";
+                        vehicle = "CFP_B_USSEALS_SEAL_Diver_WDL_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USSEALS_SEAL_Diver_WD_01";
+                        vehicle = "CFP_B_USSEALS_SEAL_Diver_WDL_01";
                     };
                 };
 
