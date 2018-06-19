@@ -1642,6 +1642,13 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Mi24\mi24_uganda1.paa","\x\cfp\addons\vehicles\Mi24\mi24_uganda2.paa"};
                 factions[] = {};
             };
+            class Sudan
+            {
+                displayname = "Sudanese Army Camo";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Mi24\mi24_sudan.paa","\x\cfp\addons\vehicles\Mi24\mi24_sudan2.paa"};
+                factions[] = {};
+            };
         };
     };
 
