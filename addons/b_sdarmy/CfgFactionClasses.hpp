@@ -5,11 +5,11 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 class CfgFactionClasses {
-    class CFP_B_SSARMY {
+    class CFP_B_SDARMY {
         displayName = "Sudanese Armed Forces";
         side = 1;
-        flag = "x\cfp\addons\b_ssarmy\Data\UI\Sudan.paa";
-        icon = "x\cfp\addons\b_ssarmy\Data\UI\Sudan.paa";
+        flag = "x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
+        icon = "x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
         priority = 0;
     };
 };
