@@ -552,7 +552,7 @@ class CfgVehicles
         cost=150000;
         dlc="CFP_Sudan";
         author="Archduke";
-        faction="CFP_B_SSARMY";
+        faction="CFP_B_SDARMY";
         identityTypes[]=
         {
             "LanguageGRE_F",
@@ -571,7 +571,7 @@ class CfgVehicles
         };
         hiddenSelectionsTextures[]=
         {
-            "\x\cfp\addons\b_ssarmy\Data\Uniform_Sudan.paa"
+            "\x\cfp\addons\b_sdarmy\Data\Uniform_Sudan.paa"
         };
         icon="iconMan";
         headgearList[]=
@@ -709,7 +709,7 @@ class CfgVehicles
     {
         side=1;
         scope=1;
-        faction="CFP_B_SSARMY";
+        faction="CFP_B_SDARMY";
         modelSides[]={6};
         vehicleClass="CFP_ShirtUniform";
         canCarryBackPack=1;
@@ -769,8 +769,8 @@ class CfgVehicles
         uniformClass="CFP_Uniform_Sudan_02";
         hiddenSelectionsTextures[]=
         {
-            "\x\cfp\addons\b_ssarmy\Data\BDU_Sudan.paa",
-            "\x\cfp\addons\b_ssarmy\Data\Uniform_Sudan.paa"
+            "\x\cfp\addons\b_sdarmy\Data\BDU_Sudan.paa",
+            "\x\cfp\addons\b_sdarmy\Data\Uniform_Sudan.paa"
         };
     };
     class CFP_B_soldier_base_Sudan_03: B_Soldier_base_F
@@ -787,7 +787,7 @@ class CfgVehicles
         cost=150000;
         dlc="CFP_Sudan";
         author="Archduke";
-        faction="CFP_B_SSARMY";
+        faction="CFP_B_SDARMY";
         identityTypes[]=
         {
             "LanguageGRE_F",
@@ -806,7 +806,7 @@ class CfgVehicles
         };
         hiddenSelectionsTextures[]=
         {
-            "\x\cfp\addons\b_ssarmy\Data\Uniform_Brown.paa"
+            "\x\cfp\addons\b_sdarmy\Data\Uniform_Brown.paa"
         };
         icon="iconMan";
         headgearList[]=
@@ -946,8 +946,8 @@ class CfgVehicles
         uniformClass="CFP_Uniform_Sudan_04";
         hiddenSelectionsTextures[]=
         {
-            "\x\cfp\addons\b_ssarmy\Data\BDU_Brown.paa",
-            "\x\cfp\addons\b_ssarmy\Data\Uniform_Brown.paa"
+            "\x\cfp\addons\b_sdarmy\Data\BDU_Brown.paa",
+            "\x\cfp\addons\b_sdarmy\Data\Uniform_Brown.paa"
         };
     };
     class CFP_B_soldier_base_Sudan_05: CFP_B_soldier_base_Sudan_01
@@ -956,7 +956,7 @@ class CfgVehicles
         uniformClass="CFP_Uniform_Sudan_05";
         hiddenSelectionsTextures[]=
         {
-            "\x\cfp\addons\b_ssarmy\Data\Uniform_Green.paa"
+            "\x\cfp\addons\b_sdarmy\Data\Uniform_Green.paa"
         };
     };
     class CFP_B_soldier_base_Sudan_06: CFP_B_soldier_base_Sudan_BDU
@@ -965,8 +965,8 @@ class CfgVehicles
         uniformClass="CFP_Uniform_Sudan_06";
         hiddenSelectionsTextures[]=
         {
-            "\x\cfp\addons\b_ssarmy\Data\BDU_Green.paa",
-            "\x\cfp\addons\b_ssarmy\Data\Uniform_Green.paa"
+            "\x\cfp\addons\b_sdarmy\Data\BDU_Green.paa",
+            "\x\cfp\addons\b_sdarmy\Data\Uniform_Green.paa"
         };
     };
     class CFP_B_soldier_base_Sudan_07: CFP_B_soldier_base_Sudan_01
@@ -975,7 +975,7 @@ class CfgVehicles
         uniformClass="CFP_Uniform_Sudan_07";
         hiddenSelectionsTextures[]=
         {
-            "\x\cfp\addons\b_ssarmy\Data\Uniform_Pixel.paa"
+            "\x\cfp\addons\b_sdarmy\Data\Uniform_Pixel.paa"
         };
     };
     class CFP_B_soldier_base_Sudan_08: CFP_B_soldier_base_Sudan_BDU
@@ -984,8 +984,8 @@ class CfgVehicles
         uniformClass="CFP_Uniform_Sudan_08";
         hiddenSelectionsTextures[]=
         {
-            "\x\cfp\addons\b_ssarmy\Data\BDU_Pixel.paa",
-            "\x\cfp\addons\b_ssarmy\Data\Uniform_Pixel.paa"
+            "\x\cfp\addons\b_sdarmy\Data\BDU_Pixel.paa",
+            "\x\cfp\addons\b_sdarmy\Data\Uniform_Pixel.paa"
         };
     };
     class CFP_B_soldier_base_Sudan_09: CFP_B_soldier_base_Sudan_01
@@ -994,7 +994,7 @@ class CfgVehicles
         uniformClass="CFP_Uniform_Sudan_09";
         hiddenSelectionsTextures[]=
         {
-            "\x\cfp\addons\b_ssarmy\Data\Uniform_Leaf.paa"
+            "\x\cfp\addons\b_sdarmy\Data\Uniform_Leaf.paa"
         };
     };
     class CFP_B_soldier_base_Sudan_10: CFP_B_soldier_base_Sudan_BDU
@@ -1003,8 +1003,8 @@ class CfgVehicles
         uniformClass="CFP_Uniform_Sudan_10";
         hiddenSelectionsTextures[]=
         {
-            "\x\cfp\addons\b_ssarmy\Data\BDU_Leaf.paa",
-            "\x\cfp\addons\b_ssarmy\Data\Uniform_Leaf.paa"
+            "\x\cfp\addons\b_sdarmy\Data\BDU_Leaf.paa",
+            "\x\cfp\addons\b_sdarmy\Data\Uniform_Leaf.paa"
         };
     };
     class CFP_B_soldier_base_Sudan_11: CFP_B_soldier_base_Sudan_01
@@ -1013,7 +1013,7 @@ class CfgVehicles
         uniformClass="CFP_Uniform_Sudan_11";
         hiddenSelectionsTextures[]=
         {
-            "\x\cfp\addons\b_ssarmy\Data\Uniform_Police.paa"
+            "\x\cfp\addons\b_sdarmy\Data\Uniform_Police.paa"
         };
     };
     class CFP_B_soldier_base_Sudan_12: CFP_B_soldier_base_Sudan_BDU
@@ -1022,8 +1022,8 @@ class CfgVehicles
         uniformClass="CFP_Uniform_Sudan_12";
         hiddenSelectionsTextures[]=
         {
-            "\x\cfp\addons\b_ssarmy\Data\BDU_Police.paa",
-            "\x\cfp\addons\b_ssarmy\Data\Uniform_Police.paa"
+            "\x\cfp\addons\b_sdarmy\Data\BDU_Police.paa",
+            "\x\cfp\addons\b_sdarmy\Data\Uniform_Police.paa"
         };
     };
     class CFP_B_soldier_base_Sudan_13: CFP_B_soldier_base_Sudan_01
@@ -1032,7 +1032,7 @@ class CfgVehicles
         uniformClass="CFP_Uniform_Sudan_13";
         hiddenSelectionsTextures[]=
         {
-            "\x\cfp\addons\b_ssarmy\Data\Uniform_Sword.paa"
+            "\x\cfp\addons\b_sdarmy\Data\Uniform_Sword.paa"
         };
     };
     class CFP_B_soldier_base_Sudan_14: CFP_B_soldier_base_Sudan_BDU
@@ -1041,8 +1041,8 @@ class CfgVehicles
         uniformClass="CFP_Uniform_Sudan_14";
         hiddenSelectionsTextures[]=
         {
-            "\x\cfp\addons\b_ssarmy\Data\BDU_Sword.paa",
-            "\x\cfp\addons\b_ssarmy\Data\Uniform_Sword.paa"
+            "\x\cfp\addons\b_sdarmy\Data\BDU_Sword.paa",
+            "\x\cfp\addons\b_sdarmy\Data\Uniform_Sword.paa"
         };
     };
     class CFP_B_soldier_base_Sudan_15: CFP_B_soldier_base_Sudan_01
@@ -1051,7 +1051,7 @@ class CfgVehicles
         uniformClass="CFP_Uniform_Sudan_15";
         hiddenSelectionsTextures[]=
         {
-            "\x\cfp\addons\b_ssarmy\Data\Uniform_Sword2.paa"
+            "\x\cfp\addons\b_sdarmy\Data\Uniform_Sword2.paa"
         };
     };
     class CFP_B_soldier_base_Sudan_16: CFP_B_soldier_base_Sudan_BDU
@@ -1060,8 +1060,8 @@ class CfgVehicles
         uniformClass="CFP_Uniform_Sudan_16";
         hiddenSelectionsTextures[]=
         {
-            "\x\cfp\addons\b_ssarmy\Data\BDU_Sword2.paa",
-            "\x\cfp\addons\b_ssarmy\Data\Uniform_Sword2.paa"
+            "\x\cfp\addons\b_sdarmy\Data\BDU_Sword2.paa",
+            "\x\cfp\addons\b_sdarmy\Data\Uniform_Sword2.paa"
         };
     };
     class CFP_B_soldier_base_Sudan_17: CFP_B_soldier_base_Sudan_BDU
@@ -1070,8 +1070,8 @@ class CfgVehicles
         uniformClass="CFP_Uniform_Sudan_17";
         hiddenSelectionsTextures[]=
         {
-            "\x\cfp\addons\b_ssarmy\Data\BDU_Police2.paa",
-            "\x\cfp\addons\b_ssarmy\Data\Uniform_Police2.paa"
+            "\x\cfp\addons\b_sdarmy\Data\BDU_Police2.paa",
+            "\x\cfp\addons\b_sdarmy\Data\Uniform_Police2.paa"
         };
     };
     class CFP_B_soldier_base_Sudan_18: CFP_B_soldier_base_Sudan_BDU
@@ -1080,11 +1080,11 @@ class CfgVehicles
         uniformClass="CFP_Uniform_Sudan_18";
         hiddenSelectionsTextures[]=
         {
-            "\x\cfp\addons\b_ssarmy\Data\BDU_SF.paa",
-            "\x\cfp\addons\b_ssarmy\Data\Uniform_SF.paa"
+            "\x\cfp\addons\b_sdarmy\Data\BDU_SF.paa",
+            "\x\cfp\addons\b_sdarmy\Data\Uniform_SF.paa"
         };
     };
-    class CFP_B_SSARMY_Soldier_01: CFP_B_soldier_base_Sudan_01
+    class CFP_B_SDARMY_Soldier_01: CFP_B_soldier_base_Sudan_01
     {
         displayName="Rifleman";
         scope=2;
@@ -1253,9 +1253,9 @@ class CfgVehicles
         };
         ALiVE_orbatCreator_owned=1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SUDAN";
-        editorPreview="\x\cfp\addons\b_ssarmy\Data\Preview\Rifleman.jpg";
+        editorPreview="\x\cfp\addons\b_sdarmy\Data\Preview\Rifleman.jpg";
     };
-    class CFP_B_SSARMY_Soldier_02: CFP_B_soldier_base_Sudan_03
+    class CFP_B_SDARMY_Soldier_02: CFP_B_soldier_base_Sudan_03
     {
         displayName="Rifleman";
         scope=2;
@@ -1424,9 +1424,9 @@ class CfgVehicles
         };
         ALiVE_orbatCreator_owned=1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SUDAN";
-        editorPreview="\x\cfp\addons\b_ssarmy\Data\Preview\Rifleman.jpg";
+        editorPreview="\x\cfp\addons\b_sdarmy\Data\Preview\Rifleman.jpg";
     };
-    class CFP_B_SSARMY_Soldier_03: CFP_B_soldier_base_Sudan_01
+    class CFP_B_SDARMY_Soldier_03: CFP_B_soldier_base_Sudan_01
     {
         displayName="Rifleman AT";
         scope=2;
@@ -1596,9 +1596,9 @@ class CfgVehicles
         };
         ALiVE_orbatCreator_owned=1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SUDAN";
-        editorPreview="\x\cfp\addons\b_ssarmy\Data\Preview\AT.jpg";
+        editorPreview="\x\cfp\addons\b_sdarmy\Data\Preview\AT.jpg";
     };
-    class CFP_B_SSARMY_Soldier_04: CFP_B_soldier_base_Sudan_01
+    class CFP_B_SDARMY_Soldier_04: CFP_B_soldier_base_Sudan_01
     {
         displayName="Rifleman AA";
         scope=2;
@@ -1768,9 +1768,9 @@ class CfgVehicles
         };
         ALiVE_orbatCreator_owned=1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SUDAN";
-        editorPreview="\x\cfp\addons\b_ssarmy\Data\Preview\AA.jpg";
+        editorPreview="\x\cfp\addons\b_sdarmy\Data\Preview\AA.jpg";
     };
-    class CFP_B_SSARMY_Soldier_05: CFP_B_soldier_base_Sudan_01
+    class CFP_B_SDARMY_Soldier_05: CFP_B_soldier_base_Sudan_01
     {
         displayName="Machinegunner";
         scope=2;
@@ -1930,9 +1930,9 @@ class CfgVehicles
         };
         ALiVE_orbatCreator_owned=1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SUDAN";
-        editorPreview="\x\cfp\addons\b_ssarmy\Data\Preview\MG.jpg";
+        editorPreview="\x\cfp\addons\b_sdarmy\Data\Preview\MG.jpg";
     };
-    class CFP_B_SSARMY_Soldier_06: CFP_B_soldier_base_Sudan_01
+    class CFP_B_SDARMY_Soldier_06: CFP_B_soldier_base_Sudan_01
     {
         displayName="Automatic Rifleman";
         scope=2;
@@ -2097,9 +2097,9 @@ class CfgVehicles
         };
         ALiVE_orbatCreator_owned=1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SUDAN";
-        editorPreview="\x\cfp\addons\b_ssarmy\Data\Preview\Auto.jpg";
+        editorPreview="\x\cfp\addons\b_sdarmy\Data\Preview\Auto.jpg";
     };
-    class CFP_B_SSARMY_Soldier_07: CFP_B_soldier_base_Sudan_01
+    class CFP_B_SDARMY_Soldier_07: CFP_B_soldier_base_Sudan_01
     {
         displayName="Crewman";
         scope=2;
@@ -2220,9 +2220,9 @@ class CfgVehicles
         };
         ALiVE_orbatCreator_owned=1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SUDAN";
-        editorPreview="\x\cfp\addons\b_ssarmy\Data\Preview\Rifleman.jpg";
+        editorPreview="\x\cfp\addons\b_sdarmy\Data\Preview\Rifleman.jpg";
     };
-    class CFP_B_SSARMY_Soldier_08: CFP_B_soldier_base_Sudan_01
+    class CFP_B_SDARMY_Soldier_08: CFP_B_soldier_base_Sudan_01
     {
         displayName="Medic";
         scope=2;
@@ -2390,9 +2390,9 @@ class CfgVehicles
         };
         ALiVE_orbatCreator_owned=1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SUDAN";
-        editorPreview="\x\cfp\addons\b_ssarmy\Data\Preview\Medic.jpg";
+        editorPreview="\x\cfp\addons\b_sdarmy\Data\Preview\Medic.jpg";
     };
-    class CFP_B_SSARMY_Soldier_09: CFP_B_soldier_base_Sudan_03
+    class CFP_B_SDARMY_Soldier_09: CFP_B_soldier_base_Sudan_03
     {
         displayName="Engineer";
         scope=2;
@@ -2558,9 +2558,9 @@ class CfgVehicles
         };
         ALiVE_orbatCreator_owned=1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SUDAN";
-        editorPreview="\x\cfp\addons\b_ssarmy\Data\Preview\Medic.jpg";
+        editorPreview="\x\cfp\addons\b_sdarmy\Data\Preview\Medic.jpg";
     };
-    class CFP_B_SSARMY_Soldier_10: CFP_B_soldier_base_Sudan_03
+    class CFP_B_SDARMY_Soldier_10: CFP_B_soldier_base_Sudan_03
     {
         displayName="Helicopter Pilot";
         scope=2;
@@ -2663,9 +2663,9 @@ class CfgVehicles
         };
         ALiVE_orbatCreator_owned=1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SUDAN";
-        editorPreview="\x\cfp\addons\b_ssarmy\Data\Preview\HeliPilot.jpg";
+        editorPreview="\x\cfp\addons\b_sdarmy\Data\Preview\HeliPilot.jpg";
     };
-    class CFP_B_SSARMY_Soldier_11: CFP_B_soldier_base_Sudan_03
+    class CFP_B_SDARMY_Soldier_11: CFP_B_soldier_base_Sudan_03
     {
         displayName="Pilot";
         scope=2;
@@ -2747,9 +2747,9 @@ class CfgVehicles
         };
         ALiVE_orbatCreator_owned=1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SUDAN";
-        editorPreview="\x\cfp\addons\b_ssarmy\Data\Preview\Pilot.jpg";
+        editorPreview="\x\cfp\addons\b_sdarmy\Data\Preview\Pilot.jpg";
     };
-    class CFP_B_SSARMY_Soldier_12: CFP_B_soldier_base_Sudan_01
+    class CFP_B_SDARMY_Soldier_12: CFP_B_soldier_base_Sudan_01
     {
         displayName="Paratrooper";
         scope=2;
@@ -2874,9 +2874,9 @@ class CfgVehicles
         };
         ALiVE_orbatCreator_owned=1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SUDAN";
-        editorPreview="\x\cfp\addons\b_ssarmy\Data\Preview\Paratrooper.jpg";
+        editorPreview="\x\cfp\addons\b_sdarmy\Data\Preview\Paratrooper.jpg";
     };
-    class CFP_B_SSARMY_Soldier_13: CFP_B_soldier_base_Sudan_03
+    class CFP_B_SDARMY_Soldier_13: CFP_B_soldier_base_Sudan_03
     {
         displayName="Paratrooper";
         scope=2;
@@ -3001,9 +3001,9 @@ class CfgVehicles
         };
         ALiVE_orbatCreator_owned=1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SUDAN";
-        editorPreview="\x\cfp\addons\b_ssarmy\Data\Preview\Paratrooper.jpg";
+        editorPreview="\x\cfp\addons\b_sdarmy\Data\Preview\Paratrooper.jpg";
     };
-    class CFP_B_SSARMY_Soldier_14: CFP_B_soldier_base_Sudan_01
+    class CFP_B_SDARMY_Soldier_14: CFP_B_soldier_base_Sudan_01
     {
         displayName="Paratrooper Medic";
         scope=2;
@@ -3127,9 +3127,9 @@ class CfgVehicles
         };
         ALiVE_orbatCreator_owned=1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SUDAN";
-        editorPreview="\x\cfp\addons\b_ssarmy\Data\Preview\Paratrooper.jpg";
+        editorPreview="\x\cfp\addons\b_sdarmy\Data\Preview\Paratrooper.jpg";
     };
-    class CFP_B_SSARMY_Soldier_15: CFP_B_soldier_base_Sudan_03
+    class CFP_B_SDARMY_Soldier_15: CFP_B_soldier_base_Sudan_03
     {
         displayName="Paratrooper Engineer";
         scope=2;
@@ -3251,9 +3251,9 @@ class CfgVehicles
         };
         ALiVE_orbatCreator_owned=1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SUDAN";
-        editorPreview="\x\cfp\addons\b_ssarmy\Data\Preview\Paratrooper.jpg";
+        editorPreview="\x\cfp\addons\b_sdarmy\Data\Preview\Paratrooper.jpg";
     };
-    class CFP_B_SSARMY_Soldier_16: CFP_B_soldier_base_Sudan_01
+    class CFP_B_SDARMY_Soldier_16: CFP_B_soldier_base_Sudan_01
     {
         displayName="Paratrooper AT";
         scope=2;
@@ -3379,9 +3379,9 @@ class CfgVehicles
         };
         ALiVE_orbatCreator_owned=1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SUDAN";
-        editorPreview="\x\cfp\addons\b_ssarmy\Data\Preview\Paratrooper.jpg";
+        editorPreview="\x\cfp\addons\b_sdarmy\Data\Preview\Paratrooper.jpg";
     };
-    class CFP_B_SSARMY_Soldier_17: CFP_B_soldier_base_Sudan_03
+    class CFP_B_SDARMY_Soldier_17: CFP_B_soldier_base_Sudan_03
     {
         displayName="Paratrooper AA";
         scope=2;
@@ -3507,9 +3507,9 @@ class CfgVehicles
         };
         ALiVE_orbatCreator_owned=1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SUDAN";
-        editorPreview="\x\cfp\addons\b_ssarmy\Data\Preview\Paratrooper.jpg";
+        editorPreview="\x\cfp\addons\b_sdarmy\Data\Preview\Paratrooper.jpg";
     };
-    class CFP_B_SSARMY_Soldier_18: CFP_B_soldier_base_Sudan_01
+    class CFP_B_SDARMY_Soldier_18: CFP_B_soldier_base_Sudan_01
     {
         displayName="Paratrooper Machinegunner";
         scope=2;
@@ -3625,9 +3625,9 @@ class CfgVehicles
         };
         ALiVE_orbatCreator_owned=1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SUDAN";
-        editorPreview="\x\cfp\addons\b_ssarmy\Data\Preview\Paratrooper.jpg";
+        editorPreview="\x\cfp\addons\b_sdarmy\Data\Preview\Paratrooper.jpg";
     };
-    class CFP_B_SSARMY_Soldier_19: CFP_B_soldier_base_Sudan_01
+    class CFP_B_SDARMY_Soldier_19: CFP_B_soldier_base_Sudan_01
     {
         displayName="Automatic Paratrooper";
         scope=2;
@@ -3748,9 +3748,9 @@ class CfgVehicles
         };
         ALiVE_orbatCreator_owned=1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SUDAN";
-        editorPreview="\x\cfp\addons\b_ssarmy\Data\Preview\Paratrooper.jpg";
+        editorPreview="\x\cfp\addons\b_sdarmy\Data\Preview\Paratrooper.jpg";
     };
-    class CFP_B_SSARMY_Soldier_20: CFP_B_soldier_base_Sudan_03
+    class CFP_B_SDARMY_Soldier_20: CFP_B_soldier_base_Sudan_03
     {
         displayName="Officer";
         scope=2;
@@ -3846,9 +3846,9 @@ class CfgVehicles
         };
         ALiVE_orbatCreator_owned=1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SUDAN";
-        editorPreview="\x\cfp\addons\b_ssarmy\Data\Preview\Officer.jpg";
+        editorPreview="\x\cfp\addons\b_sdarmy\Data\Preview\Officer.jpg";
     };
-    class CFP_B_SSARMY_Soldier_21: CFP_B_soldier_base_Sudan_01
+    class CFP_B_SDARMY_Soldier_21: CFP_B_soldier_base_Sudan_01
     {
         displayName="Squad Leader";
         scope=2;
@@ -4001,9 +4001,9 @@ class CfgVehicles
         };
         ALiVE_orbatCreator_owned=1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SUDAN";
-        editorPreview="\x\cfp\addons\b_ssarmy\Data\Preview\Rifleman.jpg";
+        editorPreview="\x\cfp\addons\b_sdarmy\Data\Preview\Rifleman.jpg";
     };
-    class CFP_B_SSARMY_Soldier_22: CFP_B_soldier_base_Sudan_01
+    class CFP_B_SDARMY_Soldier_22: CFP_B_soldier_base_Sudan_01
     {
         displayName="Sniper";
         scope=2;
@@ -4192,9 +4192,9 @@ class CfgVehicles
         };
         ALiVE_orbatCreator_owned=1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SUDAN";
-        editorPreview="\x\cfp\addons\b_ssarmy\Data\Preview\Sniper.jpg";
+        editorPreview="\x\cfp\addons\b_sdarmy\Data\Preview\Sniper.jpg";
     };
-    class CFP_B_SSARMY_Soldier_23: CFP_B_soldier_base_Sudan_01
+    class CFP_B_SDARMY_Soldier_23: CFP_B_soldier_base_Sudan_01
     {
         displayName="Assistant Gunner (DShKM)";
         scope=2;
@@ -4360,9 +4360,9 @@ class CfgVehicles
         };
         ALiVE_orbatCreator_owned=1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SUDAN";
-        editorPreview="\x\cfp\addons\b_ssarmy\Data\Preview\Assist.jpg";
+        editorPreview="\x\cfp\addons\b_sdarmy\Data\Preview\Assist.jpg";
     };
-    class CFP_B_SSARMY_Soldier_24: CFP_B_soldier_base_Sudan_01
+    class CFP_B_SDARMY_Soldier_24: CFP_B_soldier_base_Sudan_01
     {
         displayName="Gunner (DShKM)";
         scope=2;
@@ -4528,9 +4528,9 @@ class CfgVehicles
         };
         ALiVE_orbatCreator_owned=1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SUDAN";
-        editorPreview="\x\cfp\addons\b_ssarmy\Data\Preview\Gunner.jpg";
+        editorPreview="\x\cfp\addons\b_sdarmy\Data\Preview\Gunner.jpg";
     };
-    class CFP_B_SSARMY_Soldier_25: CFP_B_soldier_base_Sudan_01
+    class CFP_B_SDARMY_Soldier_25: CFP_B_soldier_base_Sudan_01
     {
         displayName="Gunner (DShKM Low)";
         scope=2;
@@ -4696,9 +4696,9 @@ class CfgVehicles
         };
         ALiVE_orbatCreator_owned=1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SUDAN";
-        editorPreview="\x\cfp\addons\b_ssarmy\Data\Preview\Gunner.jpg";
+        editorPreview="\x\cfp\addons\b_sdarmy\Data\Preview\Gunner.jpg";
     };
-    class CFP_B_SSARMY_Soldier_26: CFP_B_soldier_base_Sudan_01
+    class CFP_B_SDARMY_Soldier_26: CFP_B_soldier_base_Sudan_01
     {
         displayName="Assistant Gunner (Mortar)";
         scope=2;
@@ -4864,9 +4864,9 @@ class CfgVehicles
         };
         ALiVE_orbatCreator_owned=1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SUDAN";
-        editorPreview="\x\cfp\addons\b_ssarmy\Data\Preview\Assist.jpg";
+        editorPreview="\x\cfp\addons\b_sdarmy\Data\Preview\Assist.jpg";
     };
-    class CFP_B_SSARMY_Soldier_27: CFP_B_soldier_base_Sudan_03
+    class CFP_B_SDARMY_Soldier_27: CFP_B_soldier_base_Sudan_03
     {
         displayName="Gunner (Mortar)";
         scope=2;
@@ -5032,9 +5032,9 @@ class CfgVehicles
         };
         ALiVE_orbatCreator_owned=1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SUDAN";
-        editorPreview="\x\cfp\addons\b_ssarmy\Data\Preview\Gunner.jpg";
+        editorPreview="\x\cfp\addons\b_sdarmy\Data\Preview\Gunner.jpg";
     };
-    class CFP_B_SSARMY_Soldier_28: CFP_B_soldier_base_Sudan_01
+    class CFP_B_SDARMY_Soldier_28: CFP_B_soldier_base_Sudan_01
     {
         displayName="Assistant Gunner (SPG-9)";
         scope=2;
@@ -5200,9 +5200,9 @@ class CfgVehicles
         };
         ALiVE_orbatCreator_owned=1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SUDAN";
-        editorPreview="\x\cfp\addons\b_ssarmy\Data\Preview\Assist.jpg";
+        editorPreview="\x\cfp\addons\b_sdarmy\Data\Preview\Assist.jpg";
     };
-    class CFP_B_SSARMY_Soldier_29: CFP_B_soldier_base_Sudan_03
+    class CFP_B_SDARMY_Soldier_29: CFP_B_soldier_base_Sudan_03
     {
         displayName="Gunner (SPG-9)";
         scope=2;
@@ -5368,9 +5368,9 @@ class CfgVehicles
         };
         ALiVE_orbatCreator_owned=1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SUDAN";
-        editorPreview="\x\cfp\addons\b_ssarmy\Data\Preview\Gunner.jpg";
+        editorPreview="\x\cfp\addons\b_sdarmy\Data\Preview\Gunner.jpg";
     };
-    class CFP_B_SSARMY_Soldier_30: CFP_B_soldier_base_Sudan_01
+    class CFP_B_SDARMY_Soldier_30: CFP_B_soldier_base_Sudan_01
     {
         displayName="Policeman";
         scope=2;
@@ -5473,9 +5473,9 @@ class CfgVehicles
         };
         ALiVE_orbatCreator_owned=1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SUDAN";
-        editorPreview="\x\cfp\addons\b_ssarmy\Data\Preview\Police.jpg";
+        editorPreview="\x\cfp\addons\b_sdarmy\Data\Preview\Police.jpg";
     };
-    class CFP_B_SSARMY_Soldier_31: CFP_B_soldier_base_Sudan_01
+    class CFP_B_SDARMY_Soldier_31: CFP_B_soldier_base_Sudan_01
     {
         displayName="Policeman";
         scope=2;
@@ -5578,9 +5578,9 @@ class CfgVehicles
         };
         ALiVE_orbatCreator_owned=1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SUDAN";
-        editorPreview="\x\cfp\addons\b_ssarmy\Data\Preview\Police.jpg";
+        editorPreview="\x\cfp\addons\b_sdarmy\Data\Preview\Police.jpg";
     };
-    class CFP_B_SSARMY_Soldier_32: CFP_B_soldier_base_Sudan_01
+    class CFP_B_SDARMY_Soldier_32: CFP_B_soldier_base_Sudan_01
     {
         displayName="Policeman";
         scope=2;
@@ -5683,19 +5683,19 @@ class CfgVehicles
         };
         ALiVE_orbatCreator_owned=1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SUDAN";
-        editorPreview="\x\cfp\addons\b_ssarmy\Data\Preview\Police.jpg";
+        editorPreview="\x\cfp\addons\b_sdarmy\Data\Preview\Police.jpg";
     };
-    class CFP_B_SSARMY_Ural_ZU_23_01 : CUP_O_Ural_ZU23_SLA_OCimport_02 {
+    class CFP_B_SDARMY_Ural_ZU_23_01 : CUP_O_Ural_ZU23_SLA_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "Ural (ZU-23)";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_01";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_SSARMY_Soldier_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_SDARMY_Soldier_01"; };
         };
 
 
@@ -5715,17 +5715,17 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_BRDM_2_01 : CUP_O_BRDM2_SLA_OCimport_02 {
+    class CFP_B_SDARMY_BRDM_2_01 : CUP_O_BRDM2_SLA_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "BRDM-2";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_07";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_07";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_SSARMY_Soldier_07"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_SDARMY_Soldier_07"; };
         };
 
 
@@ -5745,17 +5745,17 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_BTR_60_01 : CUP_O_BTR60_SLA_OCimport_02 {
+    class CFP_B_SDARMY_BTR_60_01 : CUP_O_BTR60_SLA_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "BTR-60";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_07";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_07";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_SSARMY_Soldier_07"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_SDARMY_Soldier_07"; };
             class CommanderTurret : CommanderTurret { gunnerType = "CFP_O_soldier_Sudan_20"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
@@ -5784,14 +5784,14 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_BTR_90_01 : CUP_O_BTR90_RU_OCimport_02 {
+    class CFP_B_SDARMY_BTR_90_01 : CUP_O_BTR90_RU_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "BTR-90";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_07";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_07";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_soldier_Sudan_07"; };
@@ -5821,18 +5821,18 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_BMP_1_01 : CUP_O_BMP1_TKA_OCimport_02 {
+    class CFP_B_SDARMY_BMP_1_01 : CUP_O_BMP1_TKA_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "BMP-1";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_07";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_07";
 
         class Turrets : Turrets {
-            class CommanderOptics : CommanderOptics { gunnerType = "CFP_B_SSARMY_Soldier_20"; };
-            class MainTurret : MainTurret { gunnerType = "CFP_B_SSARMY_Soldier_07"; };
+            class CommanderOptics : CommanderOptics { gunnerType = "CFP_B_SDARMY_Soldier_20"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_SDARMY_Soldier_07"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -5860,17 +5860,17 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_BMP_2_01 : CUP_O_BMP2_SLA_OCimport_02 {
+    class CFP_B_SDARMY_BMP_2_01 : CUP_O_BMP2_SLA_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "BMP-2";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_07";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_07";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_SSARMY_Soldier_07"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_SDARMY_Soldier_07"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -5896,17 +5896,17 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_BM_21_01 : CUP_O_BM21_SLA_OCimport_02 {
+    class CFP_B_SDARMY_BM_21_01 : CUP_O_BM21_SLA_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "BM-21";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_01";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_SSARMY_Soldier_02"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_SDARMY_Soldier_02"; };
         };
 
 
@@ -5926,14 +5926,14 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_UAZ_01 : CUP_O_UAZ_Unarmed_SLA_OCimport_02 {
+    class CFP_B_SDARMY_UAZ_01 : CUP_O_UAZ_Unarmed_SLA_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "UAZ";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_01";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_01";
 
 
         class EventHandlers : EventHandlers {
@@ -5951,14 +5951,14 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_UAZ_Open_01 : CUP_O_UAZ_Open_SLA_OCimport_02 {
+    class CFP_B_SDARMY_UAZ_Open_01 : CUP_O_UAZ_Open_SLA_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "UAZ (Open)";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_01";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_01";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -5985,18 +5985,18 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_UAZ_DShKM_01 : CUP_O_UAZ_MG_SLA_OCimport_02 {
+    class CFP_B_SDARMY_UAZ_DShKM_01 : CUP_O_UAZ_MG_SLA_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "UAZ (DShKM)";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_01";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_01";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-            class MainTurret : MainTurret { gunnerType = "CFP_B_SSARMY_Soldier_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_SDARMY_Soldier_01"; };
         };
 
 
@@ -6016,18 +6016,18 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_UAZ_SPG_01 : CUP_O_UAZ_SPG9_SLA_OCimport_02 {
+    class CFP_B_SDARMY_UAZ_SPG_01 : CUP_O_UAZ_SPG9_SLA_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "UAZ (SPG-9)";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_02";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_02";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-            class MainTurret : MainTurret { gunnerType = "CFP_B_SSARMY_Soldier_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_SDARMY_Soldier_01"; };
         };
 
 
@@ -6047,18 +6047,18 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_UAZ_GL_01 : CUP_O_UAZ_AGS30_SLA_OCimport_02 {
+    class CFP_B_SDARMY_UAZ_GL_01 : CUP_O_UAZ_AGS30_SLA_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "UAZ (GL)";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_02";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_02";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-            class MainTurret : MainTurret { gunnerType = "CFP_B_SSARMY_Soldier_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_SDARMY_Soldier_01"; };
         };
 
 
@@ -6078,14 +6078,14 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_Ural_01 : CUP_O_Ural_SLA_OCimport_02 {
+    class CFP_B_SDARMY_Ural_01 : CUP_O_Ural_SLA_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "Ural";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_01";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_01";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -6109,14 +6109,14 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_Ural_Open_01 : CUP_O_Ural_Open_SLA_OCimport_02 {
+    class CFP_B_SDARMY_Ural_Open_01 : CUP_O_Ural_Open_SLA_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "Ural (Open)";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_01";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_01";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -6140,14 +6140,14 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_Ural_Refuel_01 : CUP_O_Ural_Refuel_SLA_OCimport_02 {
+    class CFP_B_SDARMY_Ural_Refuel_01 : CUP_O_Ural_Refuel_SLA_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "Ural (Refuel)";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_02";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_02";
 
 
         class EventHandlers : EventHandlers {
@@ -6165,14 +6165,14 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_Ural_Repair_01 : CUP_O_Ural_Repair_SLA_OCimport_02 {
+    class CFP_B_SDARMY_Ural_Repair_01 : CUP_O_Ural_Repair_SLA_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "Ural (Repair)";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_09";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_09";
 
 
         class EventHandlers : EventHandlers {
@@ -6190,14 +6190,14 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_Ural_Ammunition_01 : CUP_O_Ural_Reammo_SLA_OCimport_02 {
+    class CFP_B_SDARMY_Ural_Ammunition_01 : CUP_O_Ural_Reammo_SLA_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "Ural (Ammunition)";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_01";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_01";
 
 
         class EventHandlers : EventHandlers {
@@ -6215,17 +6215,17 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_Mi_24P_01 : CUP_O_Mi24_P_Dynamic_RU_OCimport_02 {
+    class CFP_B_SDARMY_Mi_24P_01 : CUP_O_Mi24_P_Dynamic_RU_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "Mi-24P";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_10";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_10";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_SSARMY_Soldier_10"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_SDARMY_Soldier_10"; };
         };
 
 
@@ -6244,19 +6244,19 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_Mi_8MT_01 : CUP_O_Mi8_SLA_1_OCimport_02 {
+    class CFP_B_SDARMY_Mi_8MT_01 : CUP_O_Mi8_SLA_1_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "Mi-8MT";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_10";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_10";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_SSARMY_Soldier_10"; };
-            class BackTurret : BackTurret { gunnerType = "CFP_B_SSARMY_Soldier_10"; };
-            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_SSARMY_Soldier_10"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_SDARMY_Soldier_10"; };
+            class BackTurret : BackTurret { gunnerType = "CFP_B_SDARMY_Soldier_10"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_SDARMY_Soldier_10"; };
         };
 
 
@@ -6276,14 +6276,14 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_SU_25_01 : CUP_O_Su25_Dyn_SLA_OCimport_02 {
+    class CFP_B_SDARMY_SU_25_01 : CUP_O_Su25_Dyn_SLA_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "SU-25";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_11";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_11";
 
 
         class EventHandlers : EventHandlers {
@@ -6301,17 +6301,17 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_C130_01 : CUP_O_C130J_TKA_OCimport_02 {
+    class CFP_B_SDARMY_C130_01 : CUP_O_C130J_TKA_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "C-130";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_11";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_11";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_SSARMY_Soldier_11"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_SDARMY_Soldier_11"; };
         };
 
 
@@ -6331,17 +6331,17 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_T72_01 : CUP_O_T72_SLA_OCimport_02 {
+    class CFP_B_SDARMY_T72_01 : CUP_O_T72_SLA_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "T-72";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_07";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_07";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_SSARMY_Soldier_07"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_SDARMY_Soldier_07"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -6367,17 +6367,17 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_T55_01 : CUP_O_T55_SLA_OCimport_02 {
+    class CFP_B_SDARMY_T55_01 : CUP_O_T55_SLA_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "T-55";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_07";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_07";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_SSARMY_Soldier_07"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_SDARMY_Soldier_07"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -6403,14 +6403,14 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_DShKM_01 : CUP_O_DSHKM_SLA_OCimport_02 {
+    class CFP_B_SDARMY_DShKM_01 : CUP_O_DSHKM_SLA_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "DShKM";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_01";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_01";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -6432,14 +6432,14 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_DShKM_Low_01 : CUP_O_DSHKM_MiniTripod_SLA_OCimport_02 {
+    class CFP_B_SDARMY_DShKM_Low_01 : CUP_O_DSHKM_MiniTripod_SLA_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "DShKM (Low)";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_01";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_01";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -6461,14 +6461,14 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_SPG_9_01 : CUP_O_SPG9_SLA_OCimport_02 {
+    class CFP_B_SDARMY_SPG_9_01 : CUP_O_SPG9_SLA_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "SPG-9";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_01";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_01";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -6490,14 +6490,14 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_Podnos_2B14_01 : CUP_O_2b14_82mm_SLA_OCimport_02 {
+    class CFP_B_SDARMY_Podnos_2B14_01 : CUP_O_2b14_82mm_SLA_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "Podnos 2B14";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_01";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_01";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -6519,14 +6519,14 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_D30_01 : CUP_O_D30_SLA_OCimport_02 {
+    class CFP_B_SDARMY_D30_01 : CUP_O_D30_SLA_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "D-30";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_01";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_01";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -6548,14 +6548,14 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_D30_AT_01 : CUP_O_D30_AT_SLA_OCimport_02 {
+    class CFP_B_SDARMY_D30_AT_01 : CUP_O_D30_AT_SLA_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "D30 AT";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_02";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_02";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -6577,17 +6577,17 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_M113A3_01 : CUP_O_M113_TKA_OCimport_02 {
+    class CFP_B_SDARMY_M113A3_01 : CUP_O_M113_TKA_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "M113A3";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_07";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_07";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_SSARMY_Soldier_07"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_SDARMY_Soldier_07"; };
         };
 
 
@@ -6607,18 +6607,18 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_BMP_2AA_01 : CUP_O_BMP2_ZU_TKA_OCimport_02 {
+    class CFP_B_SDARMY_BMP_2AA_01 : CUP_O_BMP2_ZU_TKA_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "BMP-2 (AA)";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_07";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_07";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_SSARMY_Soldier_01"; };
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = "CFP_B_SSARMY_Soldier_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_SDARMY_Soldier_01"; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = "CFP_B_SDARMY_Soldier_01"; };
         };
 
 
@@ -6638,14 +6638,14 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_Land_Rover_Ambulance_01 : CUP_O_LR_Ambulance_TKA_OCimport_02 {
+    class CFP_B_SDARMY_Land_Rover_Ambulance_01 : CUP_O_LR_Ambulance_TKA_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "Land Rover (Ambulance)";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_08";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_08";
 
 
         class EventHandlers : EventHandlers {
@@ -6663,17 +6663,17 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_Pickup_PK_01 : CUP_O_Datsun_PK_OCimport_02 {
+    class CFP_B_SDARMY_Pickup_PK_01 : CUP_O_Datsun_PK_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "Pickup (PK)";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_01";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_SSARMY_Soldier_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_SDARMY_Soldier_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
         };
@@ -6694,14 +6694,14 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_Pickup_01 : CUP_O_Datsun_4seat_OCimport_02 {
+    class CFP_B_SDARMY_Pickup_01 : CUP_O_Datsun_4seat_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "Pickup";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_02";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_02";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -6725,14 +6725,14 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_BMP_2Ambulance_01 : CUP_O_BMP2_AMB_TKA_OCimport_02 {
+    class CFP_B_SDARMY_BMP_2Ambulance_01 : CUP_O_BMP2_AMB_TKA_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "BMP-2 (Ambulance)";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_07";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_07";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -6758,14 +6758,14 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_HMMWV_01 : CFP_B_AFARMY_HMMWV_01_OCimport_02 {
+    class CFP_B_SDARMY_HMMWV_01 : CFP_B_AFARMY_HMMWV_01_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "HMMWV";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_02";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_02";
 
 
         class EventHandlers : EventHandlers {
@@ -6783,17 +6783,17 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_HMMWV_DShKM_01 : CFP_B_AFARMY_HMMWV_DShKM_01_OCimport_02 {
+    class CFP_B_SDARMY_HMMWV_DShKM_01 : CFP_B_AFARMY_HMMWV_DShKM_01_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "HMMWV (DShKM)";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_01";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_SSARMY_Soldier_02"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_SDARMY_Soldier_02"; };
         };
 
 
@@ -6813,17 +6813,17 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_M60_01 : CUP_B_M60A3_USMC_OCimport_02 {
+    class CFP_B_SDARMY_M60_01 : CUP_B_M60A3_USMC_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "M60";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_07";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_07";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_SSARMY_Soldier_07"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_SDARMY_Soldier_07"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -6849,14 +6849,14 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_Walid_01 : CUP_O_BTR40_TKA_OCimport_02 {
+    class CFP_B_SDARMY_Walid_01 : CUP_O_BTR40_TKA_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "Walid";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_02";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_02";
 
 
         class EventHandlers : EventHandlers {
@@ -6874,17 +6874,17 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_Walid_DShKM_01 : CUP_O_BTR40_MG_TKA_OCimport_02 {
+    class CFP_B_SDARMY_Walid_DShKM_01 : CUP_O_BTR40_MG_TKA_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "Walid (DShKM)";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_01";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_SSARMY_Soldier_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_SDARMY_Soldier_01"; };
         };
 
 
@@ -6904,14 +6904,14 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_Truck_01 : C_Van_01_transport_F_OCimport_02 {
+    class CFP_B_SDARMY_Truck_01 : C_Van_01_transport_F_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "Truck";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_01";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_01";
 
         class Turrets : Turrets {
             class CargoTurret_L1 : CargoTurret_L1 { gunnerType = ""; };
@@ -6943,14 +6943,14 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SSARMY_Offroad_01 : C_Offroad_01_F_OCimport_02 {
+    class CFP_B_SDARMY_Offroad_01 : C_Offroad_01_F_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "Offroad";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_01";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_01";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -6975,14 +6975,14 @@ class CfgVehicles
         ALiVE_orbatCreator_texture = "Guerilla_12";
 
     };
-    class CFP_B_SSARMY_Offroad_Police_01 : CFP_B_AFGPolice_Offroad_ANCOP_01_OCimport_02 {
+    class CFP_B_SDARMY_Offroad_Police_01 : CFP_B_AFGPolice_Offroad_ANCOP_01_OCimport_02 {
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "Offroad (Police)";
         side = 1;
-        faction = "CFP_B_SSARMY";
-        crew = "CFP_B_SSARMY_Soldier_30";
+        faction = "CFP_B_SDARMY";
+        crew = "CFP_B_SDARMY_Soldier_30";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };

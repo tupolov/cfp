@@ -26,7 +26,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\b_ssarmy\Data\UI\Sudan.paa";
+		picture="\x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -38,7 +38,7 @@ class cfgWeapons
 	};
 	class CFP_Uniform_Sudan_02: ItemCore
 	{
-		picture="\x\cfp\addons\b_ssarmy\Data\UI\Sudan.paa";
+		picture="\x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
 		scope=2;
 		model="\x\cfp\addons\models\Suitpack";
 		displayName="Battle Dress Uniform (Sudanese Arid Digital)";
@@ -62,7 +62,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\b_ssarmy\Data\UI\Sudan.paa";
+		picture="\x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -74,7 +74,7 @@ class cfgWeapons
 	};
 	class CFP_Uniform_Sudan_04: ItemCore
 	{
-		picture="\x\cfp\addons\b_ssarmy\Data\UI\Sudan.paa";
+		picture="\x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
 		scope=2;
 		model="\x\cfp\addons\models\Suitpack";
 		displayName="Battle Dress Uniform (Sudanese Brown Digital)";
@@ -98,7 +98,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\b_ssarmy\Data\UI\Sudan.paa";
+		picture="\x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -110,7 +110,7 @@ class cfgWeapons
 	};
 	class CFP_Uniform_Sudan_06: ItemCore
 	{
-		picture="\x\cfp\addons\b_ssarmy\Data\UI\Sudan.paa";
+		picture="\x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
 		scope=2;
 		model="\x\cfp\addons\models\Suitpack";
 		displayName="Battle Dress Uniform (Sudanese RSF Digital)";
@@ -134,7 +134,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\b_ssarmy\Data\UI\Sudan.paa";
+		picture="\x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -146,7 +146,7 @@ class cfgWeapons
 	};
 	class CFP_Uniform_Sudan_08: ItemCore
 	{
-		picture="\x\cfp\addons\b_ssarmy\Data\UI\Sudan.paa";
+		picture="\x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
 		scope=2;
 		model="\x\cfp\addons\models\Suitpack";
 		displayName="Battle Dress Uniform (Sudanese Pixel)";
@@ -170,7 +170,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\b_ssarmy\Data\UI\Sudan.paa";
+		picture="\x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -182,7 +182,7 @@ class cfgWeapons
 	};
 	class CFP_Uniform_Sudan_10: ItemCore
 	{
-		picture="\x\cfp\addons\b_ssarmy\Data\UI\Sudan.paa";
+		picture="\x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
 		scope=2;
 		model="\x\cfp\addons\models\Suitpack";
 		displayName="Battle Dress Uniform (Sudanese Leaf)";
@@ -206,7 +206,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\b_ssarmy\Data\UI\Sudan.paa";
+		picture="\x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -218,7 +218,7 @@ class cfgWeapons
 	};
 	class CFP_Uniform_Sudan_12: ItemCore
 	{
-		picture="\x\cfp\addons\b_ssarmy\Data\UI\Sudan.paa";
+		picture="\x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
 		scope=2;
 		model="\x\cfp\addons\models\Suitpack";
 		displayName="Battle Dress Uniform (Sudanese Police)";
@@ -242,7 +242,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\b_ssarmy\Data\UI\Sudan.paa";
+		picture="\x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -254,7 +254,7 @@ class cfgWeapons
 	};
 	class CFP_Uniform_Sudan_14: ItemCore
 	{
-		picture="\x\cfp\addons\b_ssarmy\Data\UI\Sudan.paa";
+		picture="\x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
 		scope=2;
 		model="\x\cfp\addons\models\Suitpack";
 		displayName="Battle Dress Uniform (Sudanese Desert)";
@@ -278,7 +278,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\b_ssarmy\Data\UI\Sudan.paa";
+		picture="\x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -290,7 +290,7 @@ class cfgWeapons
 	};
 	class CFP_Uniform_Sudan_16: ItemCore
 	{
-		picture="\x\cfp\addons\b_ssarmy\Data\UI\Sudan.paa";
+		picture="\x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
 		scope=2;
 		model="\x\cfp\addons\models\Suitpack";
 		displayName="Battle Dress Uniform (Sudanese Desert Variant)";
@@ -305,7 +305,7 @@ class cfgWeapons
 	};
 	class CFP_Uniform_Sudan_17: ItemCore
 	{
-		picture="\x\cfp\addons\b_ssarmy\Data\UI\Sudan.paa";
+		picture="\x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
 		scope=2;
 		model="\x\cfp\addons\models\Suitpack";
 		displayName="Battle Dress Uniform (Sudanese Police Desert)";
@@ -320,7 +320,7 @@ class cfgWeapons
 	};
 	class CFP_Uniform_Sudan_18: ItemCore
 	{
-		picture="\x\cfp\addons\b_ssarmy\Data\UI\Sudan.paa";
+		picture="\x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
 		scope=2;
 		model="\x\cfp\addons\models\Suitpack";
 		displayName="Battle Dress Uniform (Sudanese Speckle)";
@@ -340,7 +340,7 @@ class cfgWeapons
 
 		author="Archduke";
 		displayName="Sudanese Brown Beret";
-		picture="\x\cfp\addons\b_ssarmy\Data\UI\Sudan.paa";
+		picture="\x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
 		model="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\CUP_TK_Beret.p3d";
 		hiddenSelections[]=
 		{
@@ -348,7 +348,7 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"x\cfp\addons\b_ssarmy\Data\Beret_Brown.paa"
+			"x\cfp\addons\b_sdarmy\Data\Beret_Brown.paa"
 		};
 		class ItemInfo: HeadgearItem
 		{
@@ -360,7 +360,7 @@ class cfgWeapons
 			};
 			hiddenSelectionsTextures[]=
 			{
-				"x\cfp\addons\b_ssarmy\Data\Beret_Brown.paa"
+				"x\cfp\addons\b_sdarmy\Data\Beret_Brown.paa"
 			};
 			allowedSlots[]={801,901,701,605};
 			modelSides[]={0,3};
@@ -383,7 +383,7 @@ class cfgWeapons
 		displayName = "PASGT Helmet (Sudanese Arid Digital)";
 		// picture = "\x\cfp\addons\headgear\PASGTHelmet\ui\Black1.jpg";
 		model = "\x\cfp\addons\models\PASGTHelmet1";
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\b_ssarmy\Data\PASGT_Sudan_Digital.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\b_sdarmy\Data\PASGT_Sudan_Digital.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "Archduke";
 
@@ -395,7 +395,7 @@ class cfgWeapons
 			armor = 10;
 			passThrough = 0.30;
 			HITPOINTS_HEAD(10,0.30)
-			hiddenSelectionsTextures[] = {"\x\cfp\addons\b_ssarmy\Data\PASGT_Sudan_Digital.paa"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\b_sdarmy\Data\PASGT_Sudan_Digital.paa"};
 			hiddenSelections[] = {"Camo"};
 		};
 	};
@@ -407,7 +407,7 @@ class cfgWeapons
 		displayName = "PASGT Helmet (Sudanese Arid Digital)";
 		// picture = "\x\cfp\addons\headgear\PASGTHelmet\ui\Black1.jpg";
 		model = "\x\cfp\addons\models\PASGTHelmet1";
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\b_ssarmy\Data\PASGT_Sudan_Brown.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\b_sdarmy\Data\PASGT_Sudan_Brown.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "Archduke";
 
@@ -421,7 +421,7 @@ class cfgWeapons
 			armor = 10;
 			passThrough = 0.30;
 			HITPOINTS_HEAD(10,0.30)
-			hiddenSelectionsTextures[] = {"\x\cfp\addons\b_ssarmy\Data\PASGT_Sudan_Brown.paa"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\b_sdarmy\Data\PASGT_Sudan_Brown.paa"};
 			hiddenSelections[] = {"Camo"};
 		};
 	};
@@ -433,7 +433,7 @@ class cfgWeapons
 		displayName = "PASGT Helmet (Sudanese Arid Digital)";
 		// picture = "\x\cfp\addons\headgear\PASGTHelmet\ui\Black1.jpg";
 		model = "\x\cfp\addons\models\PASGTHelmet1";
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\b_ssarmy\Data\PASGT_Sudan_Pixel.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\b_sdarmy\Data\PASGT_Sudan_Pixel.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "Archduke";
 
@@ -447,7 +447,7 @@ class cfgWeapons
 			armor = 10;
 			passThrough = 0.30;
 			HITPOINTS_HEAD(10,0.30)
-			hiddenSelectionsTextures[] = {"\x\cfp\addons\b_ssarmy\Data\PASGT_Sudan_Pixel.paa"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\b_sdarmy\Data\PASGT_Sudan_Pixel.paa"};
 			hiddenSelections[] = {"Camo"};
 		};
 	};
@@ -459,7 +459,7 @@ class cfgWeapons
 		displayName = "PASGT Helmet (Sudanese Arid Digital)";
 		// picture = "\x\cfp\addons\headgear\PASGTHelmet\ui\Black1.jpg";
 		model = "\x\cfp\addons\models\PASGTHelmet1";
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\b_ssarmy\Data\PASGT_Sudan_Leaf.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\b_sdarmy\Data\PASGT_Sudan_Leaf.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "Archduke";
 
@@ -473,7 +473,7 @@ class cfgWeapons
 			armor = 10;
 			passThrough = 0.30;
 			HITPOINTS_HEAD(10,0.30)
-			hiddenSelectionsTextures[] = {"\x\cfp\addons\b_ssarmy\Data\PASGT_Sudan_Leaf.paa"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\b_sdarmy\Data\PASGT_Sudan_Leaf.paa"};
 			hiddenSelections[] = {"Camo"};
 		};
 	};
@@ -485,7 +485,7 @@ class cfgWeapons
 		displayName = "PASGT Helmet (Sudanese Desert)";
 		// picture = "\x\cfp\addons\headgear\PASGTHelmet\ui\Black1.jpg";
 		model = "\x\cfp\addons\models\PASGTHelmet1";
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\b_ssarmy\Data\PASGT_Sudan_Sword.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\b_sdarmy\Data\PASGT_Sudan_Sword.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "Archduke";
 
@@ -499,7 +499,7 @@ class cfgWeapons
 			armor = 10;
 			passThrough = 0.30;
 			HITPOINTS_HEAD(10,0.30)
-			hiddenSelectionsTextures[] = {"\x\cfp\addons\b_ssarmy\Data\PASGT_Sudan_Sword.paa"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\b_sdarmy\Data\PASGT_Sudan_Sword.paa"};
 			hiddenSelections[] = {"Camo"};
 		};
 	};
@@ -511,7 +511,7 @@ class cfgWeapons
 		displayName = "PASGT Helmet (Sudanese Desert)";
 		// picture = "\x\cfp\addons\headgear\PASGTHelmet\ui\Black1.jpg";
 		model = "\x\cfp\addons\models\PASGTHelmet1";
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\b_ssarmy\Data\PASGT_Sudan_Sword2.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\b_sdarmy\Data\PASGT_Sudan_Sword2.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "Archduke";
 
@@ -525,7 +525,7 @@ class cfgWeapons
 			armor = 10;
 			passThrough = 0.30;
 			HITPOINTS_HEAD(10,0.30)
-			hiddenSelectionsTextures[] = {"\x\cfp\addons\b_ssarmy\Data\PASGT_Sudan_Sword2.paa"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\b_sdarmy\Data\PASGT_Sudan_Sword2.paa"};
 			hiddenSelections[] = {"Camo"};
 		};
 	};
@@ -544,7 +544,7 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\x\cfp\addons\b_ssarmy\Data\Cap_Sudan.paa"
+			"\x\cfp\addons\b_sdarmy\Data\Cap_Sudan.paa"
 		};
 		class ItemInfo: HeadgearItem
 		{
@@ -556,7 +556,7 @@ class cfgWeapons
 			};
 			hiddenSelectionsTextures[]=
 			{
-				"\x\cfp\addons\b_ssarmy\Data\Cap_Sudan.paa"
+				"\x\cfp\addons\b_sdarmy\Data\Cap_Sudan.paa"
 			};
 			allowedSlots[]={801,901,701,605};
 			modelSides[]={0,3};
@@ -586,7 +586,7 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\x\cfp\addons\b_ssarmy\Data\Cap_Brown.paa"
+			"\x\cfp\addons\b_sdarmy\Data\Cap_Brown.paa"
 		};
 		class ItemInfo: HeadgearItem
 		{
@@ -598,7 +598,7 @@ class cfgWeapons
 			};
 			hiddenSelectionsTextures[]=
 			{
-				"\x\cfp\addons\b_ssarmy\Data\Cap_Brown.paa"
+				"\x\cfp\addons\b_sdarmy\Data\Cap_Brown.paa"
 			};
 			allowedSlots[]={801,901,701,605};
 			modelSides[]={0,3};
@@ -628,7 +628,7 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\x\cfp\addons\b_ssarmy\Data\Cap_Green.paa"
+			"\x\cfp\addons\b_sdarmy\Data\Cap_Green.paa"
 		};
 		class ItemInfo: HeadgearItem
 		{
@@ -640,7 +640,7 @@ class cfgWeapons
 			};
 			hiddenSelectionsTextures[]=
 			{
-				"\x\cfp\addons\b_ssarmy\Data\Cap_Green.paa"
+				"\x\cfp\addons\b_sdarmy\Data\Cap_Green.paa"
 			};
 			allowedSlots[]={801,901,701,605};
 			modelSides[]={0,3};
@@ -670,7 +670,7 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\x\cfp\addons\b_ssarmy\Data\Cap_Pixel.paa"
+			"\x\cfp\addons\b_sdarmy\Data\Cap_Pixel.paa"
 		};
 		class ItemInfo: HeadgearItem
 		{
@@ -682,7 +682,7 @@ class cfgWeapons
 			};
 			hiddenSelectionsTextures[]=
 			{
-				"\x\cfp\addons\b_ssarmy\Data\Cap_Pixel.paa"
+				"\x\cfp\addons\b_sdarmy\Data\Cap_Pixel.paa"
 			};
 			allowedSlots[]={801,901,701,605};
 			modelSides[]={0,3};
@@ -712,7 +712,7 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\x\cfp\addons\b_ssarmy\Data\Cap_Leaf.paa"
+			"\x\cfp\addons\b_sdarmy\Data\Cap_Leaf.paa"
 		};
 		class ItemInfo: HeadgearItem
 		{
@@ -724,7 +724,7 @@ class cfgWeapons
 			};
 			hiddenSelectionsTextures[]=
 			{
-				"\x\cfp\addons\b_ssarmy\Data\Cap_Leaf.paa"
+				"\x\cfp\addons\b_sdarmy\Data\Cap_Leaf.paa"
 			};
 			allowedSlots[]={801,901,701,605};
 			modelSides[]={0,3};
@@ -754,7 +754,7 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\x\cfp\addons\b_ssarmy\Data\Cap_Police.paa"
+			"\x\cfp\addons\b_sdarmy\Data\Cap_Police.paa"
 		};
 		class ItemInfo: HeadgearItem
 		{
@@ -766,7 +766,7 @@ class cfgWeapons
 			};
 			hiddenSelectionsTextures[]=
 			{
-				"\x\cfp\addons\b_ssarmy\Data\Cap_Police.paa"
+				"\x\cfp\addons\b_sdarmy\Data\Cap_Police.paa"
 			};
 			allowedSlots[]={801,901,701,605};
 			modelSides[]={0,3};
@@ -796,7 +796,7 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\x\cfp\addons\b_ssarmy\Data\Cap_Sword.paa"
+			"\x\cfp\addons\b_sdarmy\Data\Cap_Sword.paa"
 		};
 		class ItemInfo: HeadgearItem
 		{
@@ -808,7 +808,7 @@ class cfgWeapons
 			};
 			hiddenSelectionsTextures[]=
 			{
-				"\x\cfp\addons\b_ssarmy\Data\Cap_Sword.paa"
+				"\x\cfp\addons\b_sdarmy\Data\Cap_Sword.paa"
 			};
 			allowedSlots[]={801,901,701,605};
 			modelSides[]={0,3};
@@ -838,7 +838,7 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\x\cfp\addons\b_ssarmy\Data\Cap_Sword2.paa"
+			"\x\cfp\addons\b_sdarmy\Data\Cap_Sword2.paa"
 		};
 		class ItemInfo: HeadgearItem
 		{
@@ -850,7 +850,7 @@ class cfgWeapons
 			};
 			hiddenSelectionsTextures[]=
 			{
-				"\x\cfp\addons\b_ssarmy\Data\Cap_Sword2.paa"
+				"\x\cfp\addons\b_sdarmy\Data\Cap_Sword2.paa"
 			};
 			allowedSlots[]={801,901,701,605};
 			modelSides[]={0,3};
@@ -880,7 +880,7 @@ class cfgWeapons
 		};
 		hiddenSelectionsTextures[]=
 		{
-			"\x\cfp\addons\b_ssarmy\Data\Cap_Police2.paa"
+			"\x\cfp\addons\b_sdarmy\Data\Cap_Police2.paa"
 		};
 		class ItemInfo: HeadgearItem
 		{
@@ -892,7 +892,7 @@ class cfgWeapons
 			};
 			hiddenSelectionsTextures[]=
 			{
-				"\x\cfp\addons\b_ssarmy\Data\Cap_Police2.paa"
+				"\x\cfp\addons\b_sdarmy\Data\Cap_Police2.paa"
 			};
 			allowedSlots[]={801,901,701,605};
 			modelSides[]={0,3};
