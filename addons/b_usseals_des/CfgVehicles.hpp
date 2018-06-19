@@ -234,7 +234,7 @@ class CfgVehicles {
 
 
     class CFP_B_USSEALS_Rifleman_AOR1_DES_01 : B_recon_F_OCimport_02 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Rifleman_AOR1_DES_01.JPG;
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_Rifleman_AOR1_DES_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -312,7 +312,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_Medic_AOR1_DES_01 : CFP_B_USSEALS_Rifleman_AOR1_DES_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Medic_AOR1_DES_01.JPG;
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_Medic_AOR1_DES_01.JPG;
         displayName = "Medic [AOR1]";
         attendant = 1;
         icon = "iconManMedic";
@@ -334,7 +334,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_Team_Leader_AOR1_DES_01 : CFP_B_USSEALS_Rifleman_AOR1_DES_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Team_Leader_AOR1_DES_01.JPG;
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_Team_Leader_AOR1_DES_01.JPG;
         displayName = "Team Leader [AOR1]";
 
         linkedItems[] = {"CFP_LBT6094_operator_AOR1","CFP_OPS2017_Helmet_AOR1","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -351,7 +351,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_Machine_Gunner_AOR1_DES_01 : CFP_B_USSEALS_Rifleman_AOR1_DES_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Machine_Gunner_AOR1_DES_01.JPG;
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_Machine_Gunner_AOR1_DES_01.JPG;
         displayName = "Machine Gunner [AOR1]";
 
         linkedItems[] = {"CFP_RAV_MG_AOR1","CFP_OPS2017_Helmet_AOR1","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -368,7 +368,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_Grenadier_AOR1_DES_01 : CFP_B_USSEALS_Rifleman_AOR1_DES_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Grenadier_AOR1_DES_01.JPG;
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_Grenadier_AOR1_DES_01.JPG;
         displayName = "Grenadier [AOR1]";
 
         linkedItems[] = {"CFP_LBT6094_operator_AOR1","CFP_OPS2017_Helmet_AOR1","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -385,7 +385,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_Marksman_AOR1_DES_01 : CFP_B_USSEALS_Rifleman_AOR1_DES_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Marksman_AOR1_DES_01.JPG;
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_Marksman_AOR1_DES_01.JPG;
         displayName = "Marksman [AOR1]";
 
         linkedItems[] = {"CFP_LBT6094_operator_AOR1","CFP_OPS2017_Helmet_AOR1","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -402,7 +402,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_Explosive_Specialist_AOR1_DES_01 : CFP_B_USSEALS_Rifleman_AOR1_DES_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Explosive_Specialist_AOR1_DES_01.JPG;
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_Explosive_Specialist_AOR1_DES_01.JPG;
         displayName = "Explosive Specialist [AOR1]";
         engineer = 1;
         canDeactivateMines = 1;
@@ -423,7 +423,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_Rifleman_Light_AOR1_DES_01 : B_recon_F_OCimport_02 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Rifleman_Light_AOR1_DES_01.JPG;
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_Rifleman_Light_AOR1_DES_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -509,7 +509,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_Medic_Light_AOR1_DES_01 : CFP_B_USSEALS_Rifleman_Light_AOR1_DES_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Medic_Light_AOR1_DES_01.JPG;
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_Medic_Light_AOR1_DES_01.JPG;
         displayName = "Medic Light [AOR1]";
         attendant = 1;
         icon = "iconManMedic";
@@ -531,7 +531,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_Team_Leader_Light_AOR1_DES_01 : CFP_B_USSEALS_Rifleman_Light_AOR1_DES_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Team_Leader_Light_AOR1_DES_01.JPG;
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_Team_Leader_Light_AOR1_DES_01.JPG;
         displayName = "Team Leader Light [AOR1]";
 
         linkedItems[] = {"CFP_CarrierRig_Operator_AOR1","H_Cap_blk","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -548,7 +548,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_Machine_Gunner_Light_AOR1_DES_01 : CFP_B_USSEALS_Rifleman_Light_AOR1_DES_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Machine_Gunner_Light_AOR1_DES_01.JPG;
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_Machine_Gunner_Light_AOR1_DES_01.JPG;
         displayName = "Machine Gunner Light [AOR1]";
 
         linkedItems[] = {"CFP_CarrierRig_Gunner_AOR1","CFP_OPS2017_Helmet_AOR1","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -565,7 +565,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_Grenadier_Light_AOR1_DES_01 : CFP_B_USSEALS_Rifleman_Light_AOR1_DES_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Grenadier_Light_AOR1_DES_01.JPG;
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_Grenadier_Light_AOR1_DES_01.JPG;
         displayName = "Grenadier Light [AOR1]";
 
         linkedItems[] = {"CFP_CarrierRig_Operator_AOR1","CFP_BoonieHat_MarpatDesert","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -582,7 +582,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_Marksman_Light_AOR1_DES_01 : CFP_B_USSEALS_Rifleman_Light_AOR1_DES_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Marksman_Light_AOR1_DES_01.JPG;
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_Marksman_Light_AOR1_DES_01.JPG;
         displayName = "Marksman Light [AOR1]";
 
         linkedItems[] = {"CFP_CarrierRig_Operator_AOR1","SP_HeadSet_Tan","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -599,7 +599,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_Explosive_Specialist_Light_AOR1_DES_01 : CFP_B_USSEALS_Rifleman_Light_AOR1_DES_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Explosive_Specialist_Light_AOR1_DES_01.JPG;
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_Explosive_Specialist_Light_AOR1_DES_01.JPG;
         displayName = "Explosive Specialist Light [AOR1]";
         engineer = 1;
         canDeactivateMines = 1;
@@ -620,7 +620,7 @@ class CfgVehicles {
     };
 
      class CFP_B_USSEALS_Rifleman_MCAM_DES_01 : B_recon_F_OCimport_02 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Rifleman_MCAM_DES_01.JPG;
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_Rifleman_MCAM_DES_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -697,7 +697,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_Medic_MCAM_DES_01 : CFP_B_USSEALS_Rifleman_MCAM_DES_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Medic_MCAM_DES_01.JPG;
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_Medic_MCAM_DES_01.JPG;
         displayName = "Medic [Multicam]";
         attendant = 1;
         icon = "iconManMedic";
@@ -719,7 +719,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_Team_Leader_MCAM_DES_01 : CFP_B_USSEALS_Rifleman_MCAM_DES_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Team_Leader_MCAM_DES_01.JPG;
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_Team_Leader_MCAM_DES_01.JPG;
         displayName = "Team Leader [Multicam]";
 
         linkedItems[] = {"CFP_LBT6094_operator_Multicam","CFP_OPS2017_Helmet_Multicam2","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -749,7 +749,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_Machine_Gunner_MCAM_DES_01 : CFP_B_USSEALS_Rifleman_MCAM_DES_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Machine_Gunner_MCAM_DES_01.JPG;
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_Machine_Gunner_MCAM_DES_01.JPG;
         displayName = "Machine Gunner [Multicam]";
 
         linkedItems[] = {"CFP_RAV_MG_Multicam","CFP_OPS2017_Helmet_Multicam2","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -766,7 +766,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_Grenadier_MCAM_DES_01 : CFP_B_USSEALS_Rifleman_MCAM_DES_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Grenadier_MCAM_DES_01.JPG;
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_Grenadier_MCAM_DES_01.JPG;
         displayName = "Grenadier [Multicam]";
 
         linkedItems[] = {"CFP_LBT6094_operator_Multicam","CFP_OPS2017_Helmet_Multicam2","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -783,7 +783,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_Marksman_MCAM_DES_01 : CFP_B_USSEALS_Rifleman_MCAM_DES_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Marksman_MCAM_DES_01.JPG;
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_Marksman_MCAM_DES_01.JPG;
         displayName = "Marksman [Multicam]";
 
         linkedItems[] = {"CFP_LBT6094_operator_Multicam","CFP_OPS2017_Helmet_Multicam2","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -800,7 +800,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_Explosive_Specialist_MCAM_DES_01 : CFP_B_USSEALS_Rifleman_MCAM_DES_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Explosive_Specialist_MCAM_DES_01.JPG;
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_Explosive_Specialist_MCAM_DES_01.JPG;
         displayName = "Explosive Specialist [Multicam]";
         engineer = 1;
         canDeactivateMines = 1;
@@ -821,7 +821,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_Rifleman_Light_MCAM_DES_01 : B_recon_F_OCimport_02 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Rifleman_Light_MCAM_DES_01.JPG;
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_Rifleman_Light_MCAM_DES_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -906,7 +906,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_Medic_Light_MCAM_DES_01 : CFP_B_USSEALS_Rifleman_Light_MCAM_DES_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Medic_Light_MCAM_DES_01.JPG;
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_Medic_Light_MCAM_DES_01.JPG;
         displayName = "Medic Light [Multicam]";
         attendant = 1;
         icon = "iconManMedic";
@@ -928,7 +928,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_Team_Leader_Light_MCAM_DES_01 : CFP_B_USSEALS_Rifleman_Light_MCAM_DES_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Team_Leader_Light_MCAM_DES_01.JPG;
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_Team_Leader_Light_MCAM_DES_01.JPG;
         displayName = "Team Leader Light [Multicam]";
 
         linkedItems[] = {"CFP_CarrierRig_Operator_Multicam","H_Cap_blk","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -945,7 +945,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_Machine_Gunner_Light_MCAM_DES_01 : CFP_B_USSEALS_Rifleman_Light_MCAM_DES_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Machine_Gunner_Light_AOR1_DES_01.JPG;
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_Machine_Gunner_Light_AOR1_DES_01.JPG;
         displayName = "Machine Gunner Light [Multicam]";
 
         linkedItems[] = {"CFP_CarrierRig_Gunner_Multicam","CFP_BoonieHat_Multicam","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -962,7 +962,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_Grenadier_Light_MCAM_DES_01 : CFP_B_USSEALS_Rifleman_Light_MCAM_DES_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Grenadier_Light_MCAM_DES_01.JPG;
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_Grenadier_Light_MCAM_DES_01.JPG;
         displayName = "Grenadier Light [Multicam]";
 
         linkedItems[] = {"CFP_CarrierRig_Operator_Multicam","CFP_BoonieHat_Multicam","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -979,7 +979,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_Marksman_Light_MCAM_DES_01 : CFP_B_USSEALS_Rifleman_Light_MCAM_DES_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Marksman_Light_MCAM_DES_01.JPG;
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_Marksman_Light_MCAM_DES_01.JPG;
         displayName = "Marksman Light [Multicam]";
 
         linkedItems[] = {"CFP_CarrierRig_Operator_Multicam","SP_HeadSet_Green","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
@@ -996,7 +996,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USSEALS_Explosive_Specialist_Light_MCAM_DES_01 : CFP_B_USSEALS_Rifleman_Light_MCAM_DES_01 {
-        editorPreview = \x\cfp\addons\b_usseals_wd\data\preview\CFP_B_USSEALS_Explosive_Specialist_Light_MCAM_DES_01.JPG;
+        editorPreview = \x\cfp\addons\b_usseals_des\data\preview\CFP_B_USSEALS_Explosive_Specialist_Light_MCAM_DES_01.JPG;
         displayName = "Explosive Specialist Light [Multicam]";
         engineer = 1;
         canDeactivateMines = 1;
@@ -1617,7 +1617,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Helicopter Pilot";
         side = 1;
-        faction = "CFP_B_USSEALS_WD";
+        faction = "CFP_B_USSEALS_DES";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_pilot"};
 
@@ -1656,7 +1656,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Helicopter Crew";
         side = 1;
-        faction = "CFP_B_USSEALS_WD";
+        faction = "CFP_B_USSEALS_DES";
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_pilot"};
 
