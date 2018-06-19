@@ -1132,7 +1132,8 @@ class CfgVehicles {
             "SP_Balaclava_Black", 0.3,
             "SP_Balaclava_Skull", 0.3,
             "SP_Balaclava_Skull2", 0.3,
-            "SP_Balaclava_Venom", 0.3
+            "SP_Balaclava_Venom", 0.3,
+            "CFP_Face_Wear_Blk", 0.5
         };
         // KSK Headwear
         headgearList[] = {
