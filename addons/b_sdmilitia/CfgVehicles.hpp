@@ -227,7 +227,7 @@ class CfgVehicles {
         camouflage=1.1;
         minFireTime=7;
         cost=150000;
-
+        modelSides[]={6};
         author="Archduke";
         faction="CFP_B_SDMilitia";
         identityTypes[]=
@@ -394,7 +394,7 @@ class CfgVehicles {
         camouflage=1.1;
         minFireTime=7;
         cost=150000;
-
+        modelSides[]={6};
         author="Archduke";
         faction="CFP_B_SDMilitia";
         identityTypes[]=
@@ -681,7 +681,7 @@ class CfgVehicles {
             0.2,
             "SP_OpforRig1_Tan",
             0.2,
-            "CUP_V_O_Ins_Carrier_Belt",
+            "CUP_V_O_Ins_Carrier_Rig",
             0.2,
             "CFP_AK_VEST_Tan",
             0.2,
@@ -868,7 +868,7 @@ class CfgVehicles {
             0.2,
             "SP_OpforRig1_Tan",
             0.2,
-            "CUP_V_O_Ins_Carrier_Belt",
+            "CUP_V_O_Ins_Carrier_Rig",
             0.2,
             "CFP_AK_VEST_Tan",
             0.2,
@@ -1048,7 +1048,7 @@ class CfgVehicles {
             0.2,
             "SP_OpforRig1_Tan",
             0.2,
-            "CUP_V_O_Ins_Carrier_Belt",
+            "CUP_V_O_Ins_Carrier_Rig",
             0.2,
             "CFP_AK_VEST_Tan",
             0.2,
@@ -1362,7 +1362,7 @@ class CfgVehicles {
             0.2,
             "SP_OpforRig1_Tan",
             0.2,
-            "CUP_V_O_Ins_Carrier_Belt",
+            "CUP_V_O_Ins_Carrier_Rig",
             0.2,
             "CFP_AK_VEST_Tan",
             0.2,
@@ -1545,7 +1545,7 @@ class CfgVehicles {
             0.2,
             "SP_OpforRig1_Tan",
             0.2,
-            "CUP_V_O_Ins_Carrier_Belt",
+            "CUP_V_O_Ins_Carrier_Rig",
             0.2,
             "CFP_AK_VEST_Tan",
             0.2,
@@ -1728,7 +1728,7 @@ class CfgVehicles {
             0.2,
             "SP_OpforRig1_Tan",
             0.2,
-            "CUP_V_O_Ins_Carrier_Belt",
+            "CUP_V_O_Ins_Carrier_Rig",
             0.2,
             "CFP_AK_VEST_Tan",
             0.2,
@@ -1911,7 +1911,7 @@ class CfgVehicles {
             0.2,
             "SP_OpforRig1_Tan",
             0.2,
-            "CUP_V_O_Ins_Carrier_Belt",
+            "CUP_V_O_Ins_Carrier_Rig",
             0.2,
             "CFP_AK_VEST_Tan",
             0.2,
@@ -2094,7 +2094,7 @@ class CfgVehicles {
             0.2,
             "SP_OpforRig1_Tan",
             0.2,
-            "CUP_V_O_Ins_Carrier_Belt",
+            "CUP_V_O_Ins_Carrier_Rig",
             0.2,
             "CFP_AK_VEST_Tan",
             0.2,
@@ -2277,7 +2277,7 @@ class CfgVehicles {
             0.2,
             "SP_OpforRig1_Tan",
             0.2,
-            "CUP_V_O_Ins_Carrier_Belt",
+            "CUP_V_O_Ins_Carrier_Rig",
             0.2,
             "CFP_AK_VEST_Tan",
             0.2,
@@ -2460,7 +2460,7 @@ class CfgVehicles {
             0.2,
             "SP_OpforRig1_Tan",
             0.2,
-            "CUP_V_O_Ins_Carrier_Belt",
+            "CUP_V_O_Ins_Carrier_Rig",
             0.2,
             "CFP_AK_VEST_Tan",
             0.2,
@@ -2643,7 +2643,7 @@ class CfgVehicles {
             0.2,
             "SP_OpforRig1_Tan",
             0.2,
-            "CUP_V_O_Ins_Carrier_Belt",
+            "CUP_V_O_Ins_Carrier_Rig",
             0.2,
             "CFP_AK_VEST_Tan",
             0.2,
@@ -2826,7 +2826,7 @@ class CfgVehicles {
             0.2,
             "SP_OpforRig1_Tan",
             0.2,
-            "CUP_V_O_Ins_Carrier_Belt",
+            "CUP_V_O_Ins_Carrier_Rig",
             0.2,
             "CFP_AK_VEST_Tan",
             0.2,
@@ -3008,7 +3008,7 @@ class CfgVehicles {
             0.2,
             "SP_OpforRig1_Tan",
             0.2,
-            "CUP_V_O_Ins_Carrier_Belt",
+            "CUP_V_O_Ins_Carrier_Rig",
             0.2,
             "CFP_AK_VEST_Tan",
             0.2,
@@ -3196,7 +3196,7 @@ class CfgVehicles {
             0.2,
             "SP_OpforRig1_Tan",
             0.2,
-            "CUP_V_O_Ins_Carrier_Belt",
+            "CUP_V_O_Ins_Carrier_Rig",
             0.2,
             "CFP_AK_VEST_Tan",
             0.2,
@@ -3408,7 +3408,7 @@ class CfgVehicles {
             0.2,
             "SP_OpforRig1_Tan",
             0.2,
-            "CUP_V_O_Ins_Carrier_Belt",
+            "CUP_V_O_Ins_Carrier_Rig",
             0.2,
             "CFP_AK_VEST_Tan",
             0.2,
@@ -3614,7 +3614,7 @@ class CfgVehicles {
             0.2,
             "SP_OpforRig1_Tan",
             0.2,
-            "CUP_V_O_Ins_Carrier_Belt",
+            "CUP_V_O_Ins_Carrier_Rig",
             0.2,
             "CFP_AK_VEST_Tan",
             0.2,
@@ -3954,7 +3954,7 @@ class CfgVehicles {
             0.2,
             "SP_OpforRig1_Tan",
             0.2,
-            "CUP_V_O_Ins_Carrier_Belt",
+            "CUP_V_O_Ins_Carrier_Rig",
             0.2,
             "CFP_AK_VEST_Tan",
             0.2,
@@ -4124,7 +4124,7 @@ class CfgVehicles {
             0.2,
             "SP_OpforRig1_Tan",
             0.2,
-            "CUP_V_O_Ins_Carrier_Belt",
+            "CUP_V_O_Ins_Carrier_Rig",
             0.2,
             "CFP_AK_VEST_Tan",
             0.2,
