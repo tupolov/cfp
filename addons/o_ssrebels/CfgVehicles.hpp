@@ -245,12 +245,12 @@ class CfgVehicles {
         };
     };
     class B_Soldier_base_F;
-    class CFP_O_SSREBELS_Soldier_Base_SPLM_00: B_Soldier_base_F
+    class CFP_O_SSREBELS_Soldier_Base_00: B_Soldier_base_F
     {
         scope=0;
         class EventHandlers;
     };
-    class CFP_O_SSREBELS_Soldier_Base_SPLM_PMC: B_Soldier_base_F
+    class CFP_O_SSREBELS_Soldier_Base_PMC: B_Soldier_base_F
     {
         side=0;
         scope=1;
@@ -308,7 +308,7 @@ class CfgVehicles {
             };
         };
     };
-    class CFP_O_SSREBELS_Soldier_Base_SPLM_Hunter: B_Soldier_base_F
+    class CFP_O_SSREBELS_Soldier_Base_Hunter: B_Soldier_base_F
     {
         side=0;
         scope=1;
@@ -475,7 +475,7 @@ class CfgVehicles {
             };
         };
     };
-    class CFP_O_SSREBELS_Soldier_Base_SPLM_Civil: B_Soldier_base_F
+    class CFP_O_SSREBELS_Soldier_Base_Civil: B_Soldier_base_F
     {
         side=0;
         scope=1;
@@ -642,7 +642,7 @@ class CfgVehicles {
             };
         };
     };
-    class CFP_O_SSREBELS_Soldier_Base_SPLM_01: CFP_O_SSREBELS_Soldier_Base_SPLM_PMC
+    class CFP_O_SSREBELS_Soldier_Base_01: CFP_O_SSREBELS_Soldier_Base_PMC
     {
         displayName="SPLM Militia Uniform";
         uniformClass="CFP_Uniform_SPLM_01";
@@ -652,7 +652,7 @@ class CfgVehicles {
             "\x\cfp\addons\o_ssrebels\Data\Pants_Wdl.paa"
         };
     };
-    class CFP_O_SSREBELS_Soldier_Base_SPLM_02: CFP_O_SSREBELS_Soldier_Base_SPLM_PMC
+    class CFP_O_SSREBELS_Soldier_Base_02: CFP_O_SSREBELS_Soldier_Base_PMC
     {
         displayName="SPLM Militia Uniform";
         uniformClass="CFP_Uniform_SPLM_02";
@@ -662,7 +662,7 @@ class CfgVehicles {
             "\x\cfp\addons\o_ssrebels\Data\Pants_Khk.paa"
         };
     };
-    class CFP_O_SSREBELS_Soldier_Base_SPLM_Guerrilla: B_Soldier_base_F
+    class CFP_O_SSREBELS_Soldier_Base_Guerrilla: B_Soldier_base_F
     {
         side=0;
         scope=1;
@@ -829,7 +829,7 @@ class CfgVehicles {
             };
         };
     };
-    class CFP_O_SSREBELS_Soldier_Base_SPLM_BDU: B_Soldier_base_F
+    class CFP_O_SSREBELS_Soldier_Base_BDU: B_Soldier_base_F
     {
         side=0;
         scope=1;
@@ -996,7 +996,7 @@ class CfgVehicles {
             };
         };
     };
-    class CFP_O_SSREBELS_Soldier_Base_SPLM_05: CFP_O_SSREBELS_Soldier_Base_SPLM_Guerrilla
+    class CFP_O_SSREBELS_Soldier_Base_05: CFP_O_SSREBELS_Soldier_Base_Guerrilla
     {
         displayName="Militia";
         uniformClass="CFP_Uniform_SPLM_05";
@@ -1005,7 +1005,7 @@ class CfgVehicles {
             "\x\cfp\addons\o_ssrebels\Data\Guerrilla_Khk_Wdl.paa"
         };
     };
-    class CFP_O_SSREBELS_Soldier_Base_SPLM_07: CFP_O_SSREBELS_Soldier_Base_SPLM_Guerrilla
+    class CFP_O_SSREBELS_Soldier_Base_07: CFP_O_SSREBELS_Soldier_Base_Guerrilla
     {
         displayName="Militia";
         uniformClass="CFP_Uniform_SPLM_07";
@@ -1014,7 +1014,7 @@ class CfgVehicles {
             "\x\cfp\addons\o_ssrebels\Data\Guerrilla_DDPM.paa"
         };
     };
-    class CFP_O_SSREBELS_Soldier_Base_SPLM_08: CFP_O_SSREBELS_Soldier_Base_SPLM_BDU
+    class CFP_O_SSREBELS_Soldier_Base_08: CFP_O_SSREBELS_Soldier_Base_BDU
     {
         displayName="Militia";
         uniformClass="CFP_Uniform_SPLM_08";
@@ -1023,7 +1023,7 @@ class CfgVehicles {
             "\x\cfp\addons\o_ssrebels\Data\BDU_Pixel.paa"
         };
     };
-    class CFP_O_SSREBELS_Soldier_Base_SPLM_09: CFP_O_SSREBELS_Soldier_Base_SPLM_BDU
+    class CFP_O_SSREBELS_Soldier_Base_09: CFP_O_SSREBELS_Soldier_Base_BDU
     {
         displayName="Militia";
         uniformClass="CFP_Uniform_SPLM_09";
@@ -1032,7 +1032,7 @@ class CfgVehicles {
             "\x\cfp\addons\o_ssrebels\Data\BDU_Police2.paa"
         };
     };
-    class CFP_O_SSREBELS_Soldier_Base_SPLM_10: CFP_O_SSREBELS_Soldier_Base_SPLM_Hunter
+    class CFP_O_SSREBELS_Soldier_Base_10: CFP_O_SSREBELS_Soldier_Base_Hunter
     {
         displayName="Militia";
         uniformClass="CFP_Uniform_SPLM_10";
@@ -1041,7 +1041,7 @@ class CfgVehicles {
             "\x\cfp\addons\o_ssrebels\Data\Hunter_Yellow_Wdl.paa"
         };
     };
-    class CFP_O_SSREBELS_Soldier_Base_SPLM_11: CFP_O_SSREBELS_Soldier_Base_SPLM_Guerrilla
+    class CFP_O_SSREBELS_Soldier_Base_11: CFP_O_SSREBELS_Soldier_Base_Guerrilla
     {
         displayName="Militia";
         uniformClass="CFP_Uniform_SPLM_11";
@@ -1050,7 +1050,7 @@ class CfgVehicles {
             "\x\cfp\addons\o_ssrebels\Data\Guerrilla_Police2.paa"
         };
     };
-    class CFP_O_SSREBELS_Soldier_Base_SPLM_13: CFP_O_SSREBELS_Soldier_Base_SPLM_Guerrilla
+    class CFP_O_SSREBELS_Soldier_Base_13: CFP_O_SSREBELS_Soldier_Base_Guerrilla
     {
         displayName="Militia";
         uniformClass="CFP_Uniform_SPLM_13";
@@ -1059,7 +1059,7 @@ class CfgVehicles {
             "\x\cfp\addons\o_ssrebels\Data\Guerrilla_Blue_Khk.paa"
         };
     };
-    class CFP_O_SSREBELS_Soldier_Base_SPLM_14: CFP_O_SSREBELS_Soldier_Base_SPLM_Guerrilla
+    class CFP_O_SSREBELS_Soldier_Base_14: CFP_O_SSREBELS_Soldier_Base_Guerrilla
     {
         displayName="Militia";
         uniformClass="CFP_Uniform_SPLM_14";
@@ -1068,7 +1068,7 @@ class CfgVehicles {
             "\x\cfp\addons\o_ssrebels\Data\Guerrilla_Green_Blue.paa"
         };
     };
-    class CFP_O_SSREBELS_Soldier_Base_SPLM_15: CFP_O_SSREBELS_Soldier_Base_SPLM_Guerrilla
+    class CFP_O_SSREBELS_Soldier_Base_15: CFP_O_SSREBELS_Soldier_Base_Guerrilla
     {
         displayName="Militia";
         uniformClass="CFP_Uniform_SPLM_15";
@@ -1077,7 +1077,7 @@ class CfgVehicles {
             "\x\cfp\addons\o_ssrebels\Data\Guerrilla_Khk_Blue.paa"
         };
     };
-    class CFP_O_SSREBELS_Soldier_Base_SPLM_16: CFP_O_SSREBELS_Soldier_Base_SPLM_Guerrilla
+    class CFP_O_SSREBELS_Soldier_Base_16: CFP_O_SSREBELS_Soldier_Base_Guerrilla
     {
         displayName="Militia";
         uniformClass="CFP_Uniform_SPLM_16";
@@ -1086,7 +1086,7 @@ class CfgVehicles {
             "\x\cfp\addons\o_ssrebels\Data\Guerrilla_Olive.paa"
         };
     };
-    class CFP_O_SSREBELS_Soldier_Base_SPLM_17: CFP_O_SSREBELS_Soldier_Base_SPLM_Guerrilla
+    class CFP_O_SSREBELS_Soldier_Base_17: CFP_O_SSREBELS_Soldier_Base_Guerrilla
     {
         displayName="Militia";
         uniformClass="CFP_Uniform_SPLM_17";
@@ -1095,7 +1095,7 @@ class CfgVehicles {
             "\x\cfp\addons\o_ssrebels\Data\Guerrilla_Police.paa"
         };
     };
-    class CFP_O_SSREBELS_Soldier_Base_SPLM_18: CFP_O_SSREBELS_Soldier_Base_SPLM_Civil
+    class CFP_O_SSREBELS_Soldier_Base_18: CFP_O_SSREBELS_Soldier_Base_Civil
     {
         displayName="Militia";
         uniformClass="CFP_Uniform_SPLM_18";
@@ -1104,7 +1104,7 @@ class CfgVehicles {
             "\x\cfp\addons\o_ssrebels\Data\Civil_Wdl.paa"
         };
     };
-    class CFP_O_SSREBELS_Soldier_Base_SPLM_19: CFP_O_SSREBELS_Soldier_Base_SPLM_Civil
+    class CFP_O_SSREBELS_Soldier_Base_19: CFP_O_SSREBELS_Soldier_Base_Civil
     {
         displayName="Militia";
         uniformClass="CFP_Uniform_SPLM_19";
@@ -1113,7 +1113,7 @@ class CfgVehicles {
             "\x\cfp\addons\o_ssrebels\Data\Civil_Wdl_Jeans.paa"
         };
     };
-    class CFP_O_SSREBELS_Soldier_Base_SPLM_20: CFP_O_SSREBELS_Soldier_Base_SPLM_Civil
+    class CFP_O_SSREBELS_Soldier_Base_20: CFP_O_SSREBELS_Soldier_Base_Civil
     {
         displayName="Militia";
         uniformClass="CFP_Uniform_SPLM_20";
@@ -1122,7 +1122,7 @@ class CfgVehicles {
             "\x\cfp\addons\o_ssrebels\Data\Civil_Black_Jeans.paa"
         };
     };
-    class CFP_O_SSREBELS_Soldier_Base_SPLM_21: CFP_O_SSREBELS_Soldier_Base_SPLM_Civil
+    class CFP_O_SSREBELS_Soldier_Base_21: CFP_O_SSREBELS_Soldier_Base_Civil
     {
         displayName="Militia";
         uniformClass="CFP_Uniform_SPLM_21";
@@ -1131,7 +1131,7 @@ class CfgVehicles {
             "\x\cfp\addons\o_ssrebels\Data\Civil_DDPM.paa"
         };
     };
-    class CFP_O_SSREBELS_Soldier_Base_SPLM_22: CFP_O_SSREBELS_Soldier_Base_SPLM_Civil
+    class CFP_O_SSREBELS_Soldier_Base_22: CFP_O_SSREBELS_Soldier_Base_Civil
     {
         displayName="Militia";
         uniformClass="CFP_Uniform_SPLM_22";
@@ -1140,7 +1140,7 @@ class CfgVehicles {
             "\x\cfp\addons\o_ssrebels\Data\Civil_Police.paa"
         };
     };
-    class CFP_O_SSREBELS_Soldier_Base_SPLM_Taki: B_Soldier_base_F
+    class CFP_O_SSREBELS_Soldier_Base_Taki: B_Soldier_base_F
     {
         side=0;
         scope=1;
@@ -1307,7 +1307,7 @@ class CfgVehicles {
             };
         };
     };
-    class CFP_O_SSREBELS_Soldier_Base_SPLM_23: CFP_O_SSREBELS_Soldier_Base_SPLM_Taki
+    class CFP_O_SSREBELS_Soldier_Base_23: CFP_O_SSREBELS_Soldier_Base_Taki
     {
         displayName="Militia";
         uniformClass="CFP_Uniform_SPLM_24";
@@ -1316,7 +1316,7 @@ class CfgVehicles {
             "\x\cfp\addons\o_ssrebels\Data\Taki_Dark.paa"
         };
     };
-    class CFP_O_SSREBELS_Soldier_Base_SPLM_24: CFP_O_SSREBELS_Soldier_Base_SPLM_Taki
+    class CFP_O_SSREBELS_Soldier_Base_24: CFP_O_SSREBELS_Soldier_Base_Taki
     {
         displayName="Militia";
         uniformClass="CFP_Uniform_SPLM_25";
@@ -1325,7 +1325,7 @@ class CfgVehicles {
             "\x\cfp\addons\o_ssrebels\Data\Taki_DDPM.paa"
         };
     };
-    class CFP_O_SSREBELS_Soldier_Base_SPLM_25: CFP_O_SSREBELS_Soldier_Base_SPLM_BDU
+    class CFP_O_SSREBELS_Soldier_Base_25: CFP_O_SSREBELS_Soldier_Base_BDU
     {
         displayName="Militia";
         uniformClass="CFP_Uniform_SPLM_26";
@@ -1334,7 +1334,7 @@ class CfgVehicles {
             "\x\cfp\addons\o_ssrebels\Data\BDU_Brown.paa"
         };
     };
-    class CFP_O_SSREBELS_Soldier_Base_SPLM_26: CFP_O_SSREBELS_Soldier_Base_SPLM_Taki
+    class CFP_O_SSREBELS_Soldier_Base_26: CFP_O_SSREBELS_Soldier_Base_Taki
     {
         displayName="Militia";
         uniformClass="CFP_Uniform_SPLM_27";
@@ -1343,7 +1343,7 @@ class CfgVehicles {
             "\x\cfp\addons\o_ssrebels\Data\Taki_RSF.paa"
         };
     };
-    class CFP_O_SSREBELS_Soldier_01: CFP_O_SSREBELS_Soldier_Base_SPLM_01
+    class CFP_O_SSREBELS_Soldier_01: CFP_O_SSREBELS_Soldier_Base_01
     {
         displayName="Rifleman";
         scope=2;
@@ -1527,7 +1527,7 @@ class CfgVehicles {
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SOUTH_SUDAN";
         editorPreview="\x\cfp\addons\o_ssrebels\Data\Preview\Rifleman.jpg";
     };
-    class CFP_O_SSREBELS_Soldier_02: CFP_O_SSREBELS_Soldier_Base_SPLM_01
+    class CFP_O_SSREBELS_Soldier_02: CFP_O_SSREBELS_Soldier_Base_01
     {
         displayName="Rifleman";
         scope=2;
@@ -1711,7 +1711,7 @@ class CfgVehicles {
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SOUTH_SUDAN";
         editorPreview="\x\cfp\addons\o_ssrebels\Data\Preview\Rifleman.jpg";
     };
-    class CFP_O_SSREBELS_Soldier_03: CFP_O_SSREBELS_Soldier_Base_SPLM_Hunter
+    class CFP_O_SSREBELS_Soldier_03: CFP_O_SSREBELS_Soldier_Base_Hunter
     {
         displayName="Rifleman AT";
         scope=2;
@@ -1896,7 +1896,7 @@ class CfgVehicles {
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SOUTH_SUDAN";
         editorPreview="\x\cfp\addons\o_ssrebels\Data\Preview\RiflemanAT.jpg";
     };
-    class CFP_O_SSREBELS_Soldier_04: CFP_O_SSREBELS_Soldier_Base_SPLM_Guerrilla
+    class CFP_O_SSREBELS_Soldier_04: CFP_O_SSREBELS_Soldier_Base_Guerrilla
     {
         displayName="Machinegunner";
         scope=2;
@@ -2056,7 +2056,7 @@ class CfgVehicles {
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SOUTH_SUDAN";
         editorPreview="\x\cfp\addons\o_ssrebels\Data\Preview\MG.jpg";
     };
-    class CFP_O_SSREBELS_Soldier_05: CFP_O_SSREBELS_Soldier_Base_SPLM_01
+    class CFP_O_SSREBELS_Soldier_05: CFP_O_SSREBELS_Soldier_Base_01
     {
         displayName="Marksman";
         scope=2;
@@ -2236,7 +2236,7 @@ class CfgVehicles {
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SOUTH_SUDAN";
         editorPreview="\x\cfp\addons\o_ssrebels\Data\Preview\Marksman.jpg";
     };
-    class CFP_O_SSREBELS_Soldier_06: CFP_O_SSREBELS_Soldier_Base_SPLM_01
+    class CFP_O_SSREBELS_Soldier_06: CFP_O_SSREBELS_Soldier_Base_01
     {
         displayName="Egineer";
         scope=2;
@@ -2417,7 +2417,7 @@ class CfgVehicles {
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SOUTH_SUDAN";
         editorPreview="\x\cfp\addons\o_ssrebels\Data\Preview\Medic.jpg";
     };
-    class CFP_O_SSREBELS_Soldier_07: CFP_O_SSREBELS_Soldier_Base_SPLM_01
+    class CFP_O_SSREBELS_Soldier_07: CFP_O_SSREBELS_Soldier_Base_01
     {
         displayName="Medic";
         scope=2;
@@ -2598,7 +2598,7 @@ class CfgVehicles {
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SOUTH_SUDAN";
         editorPreview="\x\cfp\addons\o_ssrebels\Data\Preview\Medic.jpg";
     };
-    class CFP_O_SSREBELS_Soldier_08: CFP_O_SSREBELS_Soldier_Base_SPLM_01
+    class CFP_O_SSREBELS_Soldier_08: CFP_O_SSREBELS_Soldier_Base_01
     {
         displayName="Rifleman";
         scope=2;
@@ -2782,7 +2782,7 @@ class CfgVehicles {
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SOUTH_SUDAN";
         editorPreview="\x\cfp\addons\o_ssrebels\Data\Preview\Rifleman.jpg";
     };
-    class CFP_O_SSREBELS_Soldier_09: CFP_O_SSREBELS_Soldier_Base_SPLM_01
+    class CFP_O_SSREBELS_Soldier_09: CFP_O_SSREBELS_Soldier_Base_01
     {
         displayName="Gunner (DShKM)";
         scope=2;
@@ -2963,7 +2963,7 @@ class CfgVehicles {
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SOUTH_SUDAN";
         editorPreview="\x\cfp\addons\o_ssrebels\Data\Preview\Gunner.jpg";
     };
-    class CFP_O_SSREBELS_Soldier_10: CFP_O_SSREBELS_Soldier_Base_SPLM_01
+    class CFP_O_SSREBELS_Soldier_10: CFP_O_SSREBELS_Soldier_Base_01
     {
         displayName="Gunner (DShKM/Low)";
         scope=2;
@@ -3144,7 +3144,7 @@ class CfgVehicles {
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SOUTH_SUDAN";
         editorPreview="\x\cfp\addons\o_ssrebels\Data\Preview\Gunner.jpg";
     };
-    class CFP_O_SSREBELS_Soldier_11: CFP_O_SSREBELS_Soldier_Base_SPLM_01
+    class CFP_O_SSREBELS_Soldier_11: CFP_O_SSREBELS_Soldier_Base_01
     {
         displayName="Assistant (DShKM)";
         scope=2;
@@ -3325,7 +3325,7 @@ class CfgVehicles {
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SOUTH_SUDAN";
         editorPreview="\x\cfp\addons\o_ssrebels\Data\Preview\Assistant.jpg";
     };
-    class CFP_O_SSREBELS_Soldier_12: CFP_O_SSREBELS_Soldier_Base_SPLM_01
+    class CFP_O_SSREBELS_Soldier_12: CFP_O_SSREBELS_Soldier_Base_01
     {
         displayName="Gunner (Mortar)";
         scope=2;
@@ -3506,7 +3506,7 @@ class CfgVehicles {
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SOUTH_SUDAN";
         editorPreview="\x\cfp\addons\o_ssrebels\Data\Preview\Gunner.jpg";
     };
-    class CFP_O_SSREBELS_Soldier_13: CFP_O_SSREBELS_Soldier_Base_SPLM_01
+    class CFP_O_SSREBELS_Soldier_13: CFP_O_SSREBELS_Soldier_Base_01
     {
         displayName="Assistant (Mortar)";
         scope=2;
@@ -3687,7 +3687,7 @@ class CfgVehicles {
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SOUTH_SUDAN";
         editorPreview="\x\cfp\addons\o_ssrebels\Data\Preview\Assistant.jpg";
     };
-    class CFP_O_SSREBELS_Soldier_14: CFP_O_SSREBELS_Soldier_Base_SPLM_01
+    class CFP_O_SSREBELS_Soldier_14: CFP_O_SSREBELS_Soldier_Base_01
     {
         displayName="Gunner (SPG-9)";
         scope=2;
@@ -3868,7 +3868,7 @@ class CfgVehicles {
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SOUTH_SUDAN";
         editorPreview="\x\cfp\addons\o_ssrebels\Data\Preview\Gunner.jpg";
     };
-    class CFP_O_SSREBELS_Soldier_15: CFP_O_SSREBELS_Soldier_Base_SPLM_01
+    class CFP_O_SSREBELS_Soldier_15: CFP_O_SSREBELS_Soldier_Base_01
     {
         displayName="Assistant (SPG-9)";
         scope=2;
@@ -4049,7 +4049,7 @@ class CfgVehicles {
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SOUTH_SUDAN";
         editorPreview="\x\cfp\addons\o_ssrebels\Data\Preview\Assistant.jpg";
     };
-    class CFP_O_SSREBELS_Soldier_16: CFP_O_SSREBELS_Soldier_Base_SPLM_15
+    class CFP_O_SSREBELS_Soldier_16: CFP_O_SSREBELS_Soldier_Base_15
     {
         displayName="Militiaman";
         scope=2;
@@ -4241,7 +4241,7 @@ class CfgVehicles {
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SOUTH_SUDAN";
         editorPreview="\x\cfp\addons\o_ssrebels\Data\Preview\Militia.jpg";
     };
-    class CFP_O_SSREBELS_Soldier_17: CFP_O_SSREBELS_Soldier_Base_SPLM_01
+    class CFP_O_SSREBELS_Soldier_17: CFP_O_SSREBELS_Soldier_Base_01
     {
         displayName="Officer";
         scope=2;
@@ -4363,7 +4363,7 @@ class CfgVehicles {
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SOUTH_SUDAN";
         editorPreview="\x\cfp\addons\o_ssrebels\Data\Preview\Officer.jpg";
     };
-    class CFP_O_SSREBELS_Soldier_18: CFP_O_SSREBELS_Soldier_Base_SPLM_15
+    class CFP_O_SSREBELS_Soldier_18: CFP_O_SSREBELS_Soldier_Base_15
     {
         displayName="Militiaman AT";
         scope=2;
@@ -4560,7 +4560,7 @@ class CfgVehicles {
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SOUTH_SUDAN";
         editorPreview="\x\cfp\addons\o_ssrebels\Data\Preview\MilitiaAT.jpg";
     };
-    class CFP_O_SSREBELS_Soldier_19: CFP_O_SSREBELS_Soldier_Base_SPLM_15
+    class CFP_O_SSREBELS_Soldier_19: CFP_O_SSREBELS_Soldier_Base_15
     {
         displayName="Militia Machinegunner";
         scope=2;
@@ -4742,7 +4742,7 @@ class CfgVehicles {
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SOUTH_SUDAN";
         editorPreview="\x\cfp\addons\o_ssrebels\Data\Preview\MilitiaMG.jpg";
     };
-    class CFP_O_SSREBELS_Soldier_20: CFP_O_SSREBELS_Soldier_Base_SPLM_15
+    class CFP_O_SSREBELS_Soldier_20: CFP_O_SSREBELS_Soldier_Base_15
     {
         displayName="Militiaman";
         scope=2;

@@ -25,12 +25,12 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\o_ssrebels\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="CFP_O_soldier_base_SPLM_01";
+			uniformClass="CFP_O_SSREBELS_Soldier_Base_01";
 			containerClass="Supply60";
 			mass=20;
 		};
@@ -45,12 +45,12 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\o_ssrebels\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="CFP_O_soldier_base_SPLM_02";
+			uniformClass="CFP_O_SSREBELS_Soldier_Base_02";
 			containerClass="Supply60";
 			mass=20;
 		};
@@ -66,12 +66,12 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\o_ssrebels\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="CFP_O_soldier_base_SPLM_Hunter";
+			uniformClass="CFP_O_SSREBELS_Soldier_Base_Hunter";
 			containerClass="Supply60";
 			mass=20;
 		};
@@ -87,12 +87,12 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\o_ssrebels\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="CFP_O_soldier_base_SPLM_Guerrilla";
+			uniformClass="CFP_O_SSREBELS_Soldier_Base_Guerrilla";
 			containerClass="Supply60";
 			mass=20;
 		};
@@ -108,12 +108,12 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\o_ssrebels\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="CFP_O_soldier_base_SPLM_05";
+			uniformClass="CFP_O_SSREBELS_Soldier_Base_05";
 			containerClass="Supply60";
 			mass=20;
 		};
@@ -124,17 +124,17 @@ class cfgWeapons
 		scopeArsenal=2;
 
 		author="Archduke";
-		displayName="BDU (Woodland)";
+		displayName="Battle Dress Uniform (Woodland)";
 		allowedSlots[]=
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\o_ssrebels\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="CFP_O_soldier_base_SPLM_BDU";
+			uniformClass="CFP_O_SSREBELS_Soldier_Base_BDU";
 			containerClass="Supply60";
 			mass=20;
 		};
@@ -150,12 +150,12 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\o_ssrebels\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="CFP_O_soldier_base_SPLM_07";
+			uniformClass="CFP_O_SSREBELS_Soldier_Base_07";
 			containerClass="Supply60";
 			mass=20;
 		};
@@ -166,17 +166,17 @@ class cfgWeapons
 		scopeArsenal=2;
 
 		author="Archduke";
-		displayName="BDU (Pixel)";
+		displayName="Battle Dress Uniform (Pixel)";
 		allowedSlots[]=
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\o_ssrebels\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="CFP_O_soldier_base_SPLM_08";
+			uniformClass="CFP_O_SSREBELS_Soldier_Base_08";
 			containerClass="Supply60";
 			mass=20;
 		};
@@ -187,17 +187,17 @@ class cfgWeapons
 		scopeArsenal=2;
 
 		author="Archduke";
-		displayName="BDU (Police)";
+		displayName="Battle Dress Uniform (Police)";
 		allowedSlots[]=
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\o_ssrebels\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="CFP_O_soldier_base_SPLM_09";
+			uniformClass="CFP_O_SSREBELS_Soldier_Base_09";
 			containerClass="Supply60";
 			mass=20;
 		};
@@ -213,12 +213,12 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\o_ssrebels\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="CFP_O_soldier_base_SPLM_10";
+			uniformClass="CFP_O_SSREBELS_Soldier_Base_10";
 			containerClass="Supply60";
 			mass=20;
 		};
@@ -234,12 +234,12 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\o_ssrebels\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="CFP_O_soldier_base_SPLM_11";
+			uniformClass="CFP_O_SSREBELS_Soldier_Base_11";
 			containerClass="Supply60";
 			mass=20;
 		};
@@ -255,12 +255,12 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\o_ssrebels\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="CFP_O_soldier_base_SPLM_Civil";
+			uniformClass="CFP_O_SSREBELS_Soldier_Base_Civil";
 			containerClass="Supply60";
 			mass=20;
 		};
@@ -276,12 +276,12 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\o_ssrebels\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="CFP_O_soldier_base_SPLM_13";
+			uniformClass="CFP_O_SSREBELS_Soldier_Base_13";
 			containerClass="Supply60";
 			mass=20;
 		};
@@ -297,12 +297,12 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\o_ssrebels\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="CFP_O_soldier_base_SPLM_14";
+			uniformClass="CFP_O_SSREBELS_Soldier_Base_14";
 			containerClass="Supply60";
 			mass=20;
 		};
@@ -318,12 +318,12 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\o_ssrebels\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="CFP_O_soldier_base_SPLM_15";
+			uniformClass="CFP_O_SSREBELS_Soldier_Base_15";
 			containerClass="Supply60";
 			mass=20;
 		};
@@ -339,12 +339,12 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\o_ssrebels\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="CFP_O_soldier_base_SPLM_16";
+			uniformClass="CFP_O_SSREBELS_Soldier_Base_16";
 			containerClass="Supply60";
 			mass=20;
 		};
@@ -360,12 +360,12 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\o_ssrebels\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="CFP_O_soldier_base_SPLM_17";
+			uniformClass="CFP_O_SSREBELS_Soldier_Base_17";
 			containerClass="Supply60";
 			mass=20;
 		};
@@ -381,12 +381,12 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\o_ssrebels\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="CFP_O_soldier_base_SPLM_18";
+			uniformClass="CFP_O_SSREBELS_Soldier_Base_18";
 			containerClass="Supply60";
 			mass=20;
 		};
@@ -402,12 +402,12 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\o_ssrebels\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="CFP_O_soldier_base_SPLM_19";
+			uniformClass="CFP_O_SSREBELS_Soldier_Base_19";
 			containerClass="Supply60";
 			mass=20;
 		};
@@ -423,12 +423,12 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\o_ssrebels\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="CFP_O_soldier_base_SPLM_20";
+			uniformClass="CFP_O_SSREBELS_Soldier_Base_20";
 			containerClass="Supply60";
 			mass=20;
 		};
@@ -444,12 +444,12 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\o_ssrebels\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="CFP_O_soldier_base_SPLM_21";
+			uniformClass="CFP_O_SSREBELS_Soldier_Base_21";
 			containerClass="Supply60";
 			mass=20;
 		};
@@ -465,12 +465,12 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\o_ssrebels\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="CFP_O_soldier_base_SPLM_22";
+			uniformClass="CFP_O_SSREBELS_Soldier_Base_22";
 			containerClass="Supply60";
 			mass=20;
 		};
@@ -486,12 +486,12 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\o_ssrebels\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="CFP_O_soldier_base_SPLM_Taki";
+			uniformClass="CFP_O_SSREBELS_Soldier_Base_Taki";
 			containerClass="Supply60";
 			mass=20;
 		};
@@ -507,12 +507,12 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\o_ssrebels\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="CFP_O_soldier_base_SPLM_23";
+			uniformClass="CFP_O_SSREBELS_Soldier_Base_23";
 			containerClass="Supply60";
 			mass=20;
 		};
@@ -528,12 +528,12 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\o_ssrebels\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="CFP_O_soldier_base_SPLM_24";
+			uniformClass="CFP_O_SSREBELS_Soldier_Base_24";
 			containerClass="Supply60";
 			mass=20;
 		};
@@ -544,17 +544,17 @@ class cfgWeapons
 		scopeArsenal=2;
 
 		author="Archduke";
-		displayName="BDU (Brown Digital)";
+		displayName="Battle Dress Uniform (Brown Digital)";
 		allowedSlots[]=
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\o_ssrebels\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="CFP_O_soldier_base_SPLM_25";
+			uniformClass="CFP_O_SSREBELS_Soldier_Base_25";
 			containerClass="Supply60";
 			mass=20;
 		};
@@ -570,12 +570,12 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\o_ssrebels\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="CFP_O_soldier_base_SPLM_26";
+			uniformClass="CFP_O_SSREBELS_Soldier_Base_26";
 			containerClass="Supply60";
 			mass=20;
 		};
@@ -585,7 +585,7 @@ class cfgWeapons
 	{
 		picture="\x\cfp\addons\vests\data\ui\icon_CFP_TakJacket_ChocChip.paa";
 		scope=2;
-		displayName="BDU Chest Rig (Woodland)";
+		displayName="Battle Dress Uniform Chest Rig (Woodland)";
 		model="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_TakiInsurgents\CUP_Taki_Jacket4.p3d";
 		hiddenSelectionsTextures[]=
 		{
@@ -622,7 +622,7 @@ class cfgWeapons
 	{
 		picture="\x\cfp\addons\vests\data\ui\icon_CFP_TakJacket_ChocChip.paa";
 		scope=2;
-		displayName="BDU Chest Rig (Woodland/Green)";
+		displayName="Battle Dress Uniform Chest Rig (Woodland/Green)";
 		model="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_TakiInsurgents\CUP_Taki_Jacket4.p3d";
 		hiddenSelectionsTextures[]=
 		{
@@ -659,7 +659,7 @@ class cfgWeapons
 	{
 		picture="\x\cfp\addons\vests\data\ui\icon_CFP_TakJacket_ChocChip.paa";
 		scope=2;
-		displayName="BDU Chest Rig (Woodland/Tan)";
+		displayName="Battle Dress Uniform Chest Rig (Woodland/Tan)";
 		model="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_TakiInsurgents\CUP_Taki_Jacket4.p3d";
 		hiddenSelectionsTextures[]=
 		{
@@ -696,7 +696,7 @@ class cfgWeapons
 	{
 		picture="\x\cfp\addons\vests\data\ui\icon_CFP_TakJacket_ChocChip.paa";
 		scope=2;
-		displayName="BDU Chest Rig (ChocChip/Tan)";
+		displayName="Battle Dress Uniform Chest Rig (ChocChip/Tan)";
 		model="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_TakiInsurgents\CUP_Taki_Jacket4.p3d";
 		hiddenSelectionsTextures[]=
 		{
