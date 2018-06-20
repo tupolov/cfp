@@ -26,7 +26,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\i_ssarmy\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -47,7 +47,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\i_ssarmy\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -68,7 +68,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\i_ssarmy\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -89,7 +89,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\i_ssarmy\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -110,7 +110,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\i_ssarmy\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -131,7 +131,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\i_ssarmy\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -152,7 +152,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\i_ssarmy\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -173,7 +173,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\i_ssarmy\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -194,7 +194,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\i_ssarmy\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -215,7 +215,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\i_ssarmy\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -236,7 +236,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\i_ssarmy\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -257,7 +257,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\i_ssarmy\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -278,7 +278,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\i_ssarmy\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -299,7 +299,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\i_ssarmy\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -320,7 +320,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\i_ssarmy\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -341,7 +341,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\i_ssarmy\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -362,7 +362,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\i_ssarmy\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -383,7 +383,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\i_ssarmy\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -404,7 +404,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\i_ssarmy\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -425,7 +425,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\i_ssarmy\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -446,7 +446,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\i_ssarmy\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -467,7 +467,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\i_ssarmy\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -488,7 +488,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\i_ssarmy\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -509,7 +509,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\i_ssarmy\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -530,7 +530,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\i_ssarmy\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -551,7 +551,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\i_ssarmy\Data\UI\SSudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
