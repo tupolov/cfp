@@ -30,7 +30,7 @@ class cfgWeapons
 		class ItemInfo: UniformItem
 		{
 			uniformModel="-";
-			uniformClass="CFP_B_SDMILITIA_Soldier_base_Sudan_01";
+			uniformClass="CFP_B_SDMILITIA_Soldier_base_01";
 			containerClass="Supply60";
 			mass=20;
 		};
