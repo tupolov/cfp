@@ -26,7 +26,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -38,7 +38,7 @@ class cfgWeapons
 	};
 	class CFP_Uniform_Sudan_02: ItemCore
 	{
-		picture="\x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
+		picture="";
 		scope=2;
 		model="\x\cfp\addons\models\Suitpack";
 		displayName="Battle Dress Uniform (Sudanese Arid Digital)";
@@ -62,7 +62,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -74,7 +74,7 @@ class cfgWeapons
 	};
 	class CFP_Uniform_Sudan_04: ItemCore
 	{
-		picture="\x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
+		picture="";
 		scope=2;
 		model="\x\cfp\addons\models\Suitpack";
 		displayName="Battle Dress Uniform (Sudanese Brown Digital)";
@@ -98,7 +98,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -110,7 +110,7 @@ class cfgWeapons
 	};
 	class CFP_Uniform_Sudan_06: ItemCore
 	{
-		picture="\x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
+		picture="";
 		scope=2;
 		model="\x\cfp\addons\models\Suitpack";
 		displayName="Battle Dress Uniform (Sudanese RSF Digital)";
@@ -134,7 +134,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -146,7 +146,7 @@ class cfgWeapons
 	};
 	class CFP_Uniform_Sudan_08: ItemCore
 	{
-		picture="\x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
+		picture="";
 		scope=2;
 		model="\x\cfp\addons\models\Suitpack";
 		displayName="Battle Dress Uniform (Sudanese Pixel)";
@@ -170,7 +170,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -182,7 +182,7 @@ class cfgWeapons
 	};
 	class CFP_Uniform_Sudan_10: ItemCore
 	{
-		picture="\x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
+		picture="";
 		scope=2;
 		model="\x\cfp\addons\models\Suitpack";
 		displayName="Battle Dress Uniform (Sudanese Leaf)";
@@ -206,7 +206,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -218,7 +218,7 @@ class cfgWeapons
 	};
 	class CFP_Uniform_Sudan_12: ItemCore
 	{
-		picture="\x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
+		picture="";
 		scope=2;
 		model="\x\cfp\addons\models\Suitpack";
 		displayName="Battle Dress Uniform (Sudanese Police)";
@@ -242,7 +242,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -254,7 +254,7 @@ class cfgWeapons
 	};
 	class CFP_Uniform_Sudan_14: ItemCore
 	{
-		picture="\x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
+		picture="";
 		scope=2;
 		model="\x\cfp\addons\models\Suitpack";
 		displayName="Battle Dress Uniform (Sudanese Desert)";
@@ -278,7 +278,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
@@ -290,7 +290,7 @@ class cfgWeapons
 	};
 	class CFP_Uniform_Sudan_16: ItemCore
 	{
-		picture="\x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
+		picture="";
 		scope=2;
 		model="\x\cfp\addons\models\Suitpack";
 		displayName="Battle Dress Uniform (Sudanese Desert Variant)";
@@ -305,7 +305,7 @@ class cfgWeapons
 	};
 	class CFP_Uniform_Sudan_17: ItemCore
 	{
-		picture="\x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
+		picture="";
 		scope=2;
 		model="\x\cfp\addons\models\Suitpack";
 		displayName="Battle Dress Uniform (Sudanese Police Desert)";
@@ -320,7 +320,7 @@ class cfgWeapons
 	};
 	class CFP_Uniform_Sudan_18: ItemCore
 	{
-		picture="\x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
+		picture="";
 		scope=2;
 		model="\x\cfp\addons\models\Suitpack";
 		displayName="Battle Dress Uniform (Sudanese Speckle)";
@@ -340,7 +340,7 @@ class cfgWeapons
 
 		author="Archduke";
 		displayName="Sudanese Brown Beret";
-		picture="\x\cfp\addons\b_sdarmy\Data\UI\Sudan.paa";
+		picture="";
 		model="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\CUP_TK_Beret.p3d";
 		hiddenSelections[]=
 		{
