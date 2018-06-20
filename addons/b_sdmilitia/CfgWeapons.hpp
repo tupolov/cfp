@@ -25,7 +25,7 @@ class cfgWeapons
 		{
 			"BACKPACK_SLOT"
 		};
-		picture="\x\cfp\addons\b_sdmilitia\Data\UI\Sudan.paa";
+		picture="";
 		model="\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		class ItemInfo: UniformItem
 		{
