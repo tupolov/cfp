@@ -550,7 +550,7 @@ class CfgVehicles
         camouflage=1.1;
         minFireTime=7;
         cost=150000;
-        dlc="CFP_Sudan";
+        modelSides[]={6};
         author="Archduke";
         faction="CFP_B_SDARMY";
         identityTypes[]=
@@ -785,7 +785,7 @@ class CfgVehicles
         camouflage=1.1;
         minFireTime=7;
         cost=150000;
-        dlc="CFP_Sudan";
+
         author="Archduke";
         faction="CFP_B_SDARMY";
         identityTypes[]=
