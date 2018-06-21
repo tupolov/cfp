@@ -1035,7 +1035,7 @@ class CfgVehicles {
 
     class CFP_O_ANSARALLAH_AmmoBox : CUP_RUBasicAmmunitionBox {
         author = ALiVE ORBAT CREATOR;
-        displayName = al-Shabaab Ammo Box;
+        displayName = Ansar Allah (Houthis) Ammo Box;
         class TransportMagazines {
             mag_xx(CUP_30Rnd_762x39_AK47_M,50);
             mag_xx(CUP_PG7V_M,50);
@@ -1054,7 +1054,7 @@ class CfgVehicles {
     };
     class CFP_O_ANSARALLAH_WeaponsBox : CUP_RUBasicWeaponsBox {
         author = ALiVE ORBAT CREATOR;
-        displayName = al-Shabaab Weapons Box;
+        displayName = Ansar Allah (Houthis) Weapons Box;
         class TransportMagazines {
             mag_xx(CUP_30Rnd_762x39_AK47_M,50);
             mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
@@ -1074,7 +1074,7 @@ class CfgVehicles {
     };
     class CFP_O_ANSARALLAH_LaunchersBox : CUP_RULaunchersBox {
         author = ALiVE ORBAT CREATOR;
-        displayName = al-Shabaab Launchers Box;
+        displayName = Ansar Allah (Houthis) Launchers Box;
         class TransportMagazines {
             mag_xx(CUP_PG7V_M,5);
         };
@@ -1086,68 +1086,71 @@ class CfgVehicles {
     };
     class CFP_O_ANSARALLAH_UniformBox : CUP_RUBasicWeaponsBox {
         author = ALiVE ORBAT CREATOR;
-        displayName = al-Shabaab Uniform Box;
+        displayName = Ansar Allah (Houthis) Uniform Box;
         class TransportWeapons {
         };
         class TransportMagazines {
         };
         class TransportItems {
-            item_xx(CFP_U_KhetPartug_Short_Woodland,15);
+            item_xx(CFP_U_KhetPartug_Long_Tan,15);
+            item_xx(CUP_O_TKI_Khet_Partug_03,15);
             item_xx(CFP_U_KhetPartug_Long_olive,15);
-            item_xx(CFP_U_KhetPartug_Long_EDRL,15);
-            item_xx(CFP_U_KhetPartug_Short_olive,15);
-            item_xx(CFP_U_KhetPartug_Short_Black,15);
+            item_xx(CFP_U_KhetPartug_Long_Blue,15);
+            item_xx(CFP_U_KhetPartug_Long_light_olive,15);
+            item_xx(CUP_O_TKI_Khet_Partug_01,15);
+            item_xx(CFP_U_KhetPartug_Long_BlueGrey,15);
             item_xx(CFP_U_KhetPartug_Long_Black,15);
-            item_xx(CFP_U_KhetPartug_Short_light_olive,15);
-            item_xx(CFP_U_KhetPartug_Long_M81,15);
-            item_xx(CFP_U_KhetPartug_Long_Woodland,15);
+            item_xx(CFP_U_KhetPartug_Long_Creme,15);
+            item_xx(CUP_O_TKI_Khet_Partug_02,15);
         };
     };
     class CFP_O_ANSARALLAH_SupportBox : CUP_RUSpecialWeaponsBox {
         author = ALiVE ORBAT CREATOR;
-        displayName = al-Shabaab Support Box;
+        displayName = Ansar Allah (Houthis) Support Box;
         class TransportWeapons {
         };
         class TransportMagazines {
         };
         class TransportItems {
-            item_xx(CFP_AK_VEST_Lime,10);
-            item_xx(SP_Shemagh_CheckBlack,10);
+            item_xx(CFP_AK_VEST_Black,10);
+            item_xx(CUP_H_TKI_Pakol_2_03,10);
             item_xx(ItemMap,10);
             item_xx(ItemCompass,10);
             item_xx(ItemWatch,10);
             item_xx(ItemRadio,10);
-            item_xx(CFP_AK_VEST_EDRL,10);
-            item_xx(SP_Shemagh_CheckWhite,10);
-            item_xx(CFP_UtilityJacket_EDRL,10);
-            item_xx(SP_Shemagh_Black,10);
-            item_xx(CUP_B_RPGPack_Khaki,10);
-            item_xx(B_TacticalPack_oli,10);
-            item_xx(CFP_UtilityJacket_Woodland,10);
-            item_xx(B_FieldPack_oli,10);
-            item_xx(CFP_TakJacket_Woodland,10);
-            item_xx(IS_shemag_black,10);
-            item_xx(CFP_TakJacket_ChocChip,10);
-            item_xx(SP_Shemagh_Grey,10);
-            item_xx(SP_Carryall_Green,10);
-            item_xx(CFP_AK_VEST_Tan,10);
-            item_xx(CUP_B_DShkM_TripodHigh_Bag,10);
-            item_xx(CFP_TakJacket_EDRL,10);
-            item_xx(SP_Shemagh_CheckGreen,10);
-            item_xx(CUP_B_DShkM_TripodLow_Bag,10);
+            item_xx(CFP_AK_VEST_Lime,10);
+            item_xx(CUP_H_TKI_Pakol_2_04,10);
             item_xx(CFP_AK_VEST_Olive,10);
+            item_xx(CUP_H_TKI_Lungee_Open_06,10);
+            item_xx(CUP_B_RPGPack_Khaki,10);
+            item_xx(CUP_H_TKI_Lungee_Open_02,10);
+            item_xx(B_TacticalPack_oli,10);
+            item_xx(CFP_HouthisJacket,10);
+            item_xx(CUP_H_TKI_SkullCap_05,10);
+            item_xx(B_FieldPack_oli,10);
+            item_xx(CUP_H_TKI_Pakol_2_05,10);
+            item_xx(CFP_AK_VEST_LOlive,10);
+            item_xx(CUP_H_TKI_Pakol_1_03,10);
+            item_xx(SP_Carryall_Green,10);
+            item_xx(CUP_H_TKI_Lungee_Open_05,10);
+            item_xx(CUP_B_DShkM_TripodHigh_Bag,10);
+            item_xx(CUP_H_TKI_Pakol_1_05,10);
+            item_xx(CUP_B_DShkM_TripodLow_Bag,10);
             item_xx(CUP_B_Podnos_Bipod_Bag,10);
             item_xx(CUP_B_SPG9_Tripod_Bag,10);
+            item_xx(CUP_H_TKI_Lungee_Open_01,10);
             item_xx(CUP_B_DShkM_Gun_Bag,10);
+            item_xx(CFP_AK_VEST_EDRL,10);
+            item_xx(CUP_H_TKI_Pakol_1_06,10);
             item_xx(CUP_B_Podnos_Gun_Bag,10);
-            item_xx(CFP_AK_VEST_LOlive,10);
-            item_xx(SP_Shemagh_CheckTan,10);
+            item_xx(CFP_AK_VEST_Tan,10);
+            item_xx(CUP_H_TKI_Pakol_2_06,10);
             item_xx(CUP_B_SPG9_Gun_Bag,10);
         };
     };
     class CFP_O_ANSARALLAH_SupplyBox : CUP_RUVehicleBox {
         author = ALiVE ORBAT CREATOR;
-        displayName = al-Shabaab Supply Box;
+        displayName = Ansar Allah (Houthis) Supply Box;
         class TransportMagazines {
             mag_xx(CUP_30Rnd_762x39_AK47_M,50);
             mag_xx(CUP_PG7V_M,50);
@@ -1168,47 +1171,50 @@ class CfgVehicles {
         };
         class TransportItems {
             item_xx(CUP_optic_PSO_3,10);
-            item_xx(CFP_AK_VEST_Lime,10);
-            item_xx(SP_Shemagh_CheckBlack,10);
+            item_xx(CFP_AK_VEST_Black,10);
+            item_xx(CUP_H_TKI_Pakol_2_03,10);
             item_xx(ItemMap,10);
             item_xx(ItemCompass,10);
             item_xx(ItemWatch,10);
             item_xx(ItemRadio,10);
-            item_xx(CFP_AK_VEST_EDRL,10);
-            item_xx(SP_Shemagh_CheckWhite,10);
-            item_xx(CFP_UtilityJacket_EDRL,10);
-            item_xx(SP_Shemagh_Black,10);
-            item_xx(CUP_B_RPGPack_Khaki,10);
-            item_xx(B_TacticalPack_oli,10);
-            item_xx(CFP_UtilityJacket_Woodland,10);
-            item_xx(B_FieldPack_oli,10);
-            item_xx(CFP_TakJacket_Woodland,10);
-            item_xx(IS_shemag_black,10);
-            item_xx(CFP_TakJacket_ChocChip,10);
-            item_xx(SP_Shemagh_Grey,10);
-            item_xx(SP_Carryall_Green,10);
-            item_xx(CFP_AK_VEST_Tan,10);
-            item_xx(CUP_B_DShkM_TripodHigh_Bag,10);
-            item_xx(CFP_TakJacket_EDRL,10);
-            item_xx(SP_Shemagh_CheckGreen,10);
-            item_xx(CUP_B_DShkM_TripodLow_Bag,10);
+            item_xx(CFP_AK_VEST_Lime,10);
+            item_xx(CUP_H_TKI_Pakol_2_04,10);
             item_xx(CFP_AK_VEST_Olive,10);
+            item_xx(CUP_H_TKI_Lungee_Open_06,10);
+            item_xx(CUP_B_RPGPack_Khaki,10);
+            item_xx(CUP_H_TKI_Lungee_Open_02,10);
+            item_xx(B_TacticalPack_oli,10);
+            item_xx(CFP_HouthisJacket,10);
+            item_xx(CUP_H_TKI_SkullCap_05,10);
+            item_xx(B_FieldPack_oli,10);
+            item_xx(CUP_H_TKI_Pakol_2_05,10);
+            item_xx(CFP_AK_VEST_LOlive,10);
+            item_xx(CUP_H_TKI_Pakol_1_03,10);
+            item_xx(SP_Carryall_Green,10);
+            item_xx(CUP_H_TKI_Lungee_Open_05,10);
+            item_xx(CUP_B_DShkM_TripodHigh_Bag,10);
+            item_xx(CUP_H_TKI_Pakol_1_05,10);
+            item_xx(CUP_B_DShkM_TripodLow_Bag,10);
             item_xx(CUP_B_Podnos_Bipod_Bag,10);
             item_xx(CUP_B_SPG9_Tripod_Bag,10);
+            item_xx(CUP_H_TKI_Lungee_Open_01,10);
             item_xx(CUP_B_DShkM_Gun_Bag,10);
+            item_xx(CFP_AK_VEST_EDRL,10);
+            item_xx(CUP_H_TKI_Pakol_1_06,10);
             item_xx(CUP_B_Podnos_Gun_Bag,10);
-            item_xx(CFP_AK_VEST_LOlive,10);
-            item_xx(SP_Shemagh_CheckTan,10);
+            item_xx(CFP_AK_VEST_Tan,10);
+            item_xx(CUP_H_TKI_Pakol_2_06,10);
             item_xx(CUP_B_SPG9_Gun_Bag,10);
-            item_xx(CFP_U_KhetPartug_Short_Woodland,10);
+            item_xx(CFP_U_KhetPartug_Long_Tan,10);
+            item_xx(CUP_O_TKI_Khet_Partug_03,10);
             item_xx(CFP_U_KhetPartug_Long_olive,10);
-            item_xx(CFP_U_KhetPartug_Long_EDRL,10);
-            item_xx(CFP_U_KhetPartug_Short_olive,10);
-            item_xx(CFP_U_KhetPartug_Short_Black,10);
+            item_xx(CFP_U_KhetPartug_Long_Blue,10);
+            item_xx(CFP_U_KhetPartug_Long_light_olive,10);
+            item_xx(CUP_O_TKI_Khet_Partug_01,10);
+            item_xx(CFP_U_KhetPartug_Long_BlueGrey,10);
             item_xx(CFP_U_KhetPartug_Long_Black,10);
-            item_xx(CFP_U_KhetPartug_Short_light_olive,10);
-            item_xx(CFP_U_KhetPartug_Long_M81,10);
-            item_xx(CFP_U_KhetPartug_Long_Woodland,10);
+            item_xx(CFP_U_KhetPartug_Long_Creme,10);
+            item_xx(CUP_O_TKI_Khet_Partug_02,10);
         };
     };
 };
