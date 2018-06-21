@@ -1684,6 +1684,13 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Mi8\mi8_body_iran.paa","\x\cfp\addons\vehicles\Mi8\mi8_det_g_iran.paa"};
                 factions[] = {};
             };
+            class Sudan
+            {
+                displayname = "Sudan";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Mi8\mi17_sudan.paa","\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\mi17_det_IND_CO.paa"};
+                factions[] = {};
+            };
         };
     };
 
