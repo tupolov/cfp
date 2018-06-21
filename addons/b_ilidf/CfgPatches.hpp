@@ -98,8 +98,8 @@ class CfgPatches {
             "A3_Sounds_F",
             "A3_Soft_F_Quadbike_01"
         };
-        authors[] = {"Drew"};
         author = MODULE_AUTHOR;
+        authors[] = {"Drew"};
         requiredVersion = REQUIRED_VERSION;
         VERSION_CONFIG;
     };
