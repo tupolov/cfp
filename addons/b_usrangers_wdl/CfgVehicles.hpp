@@ -2501,7 +2501,6 @@ class CfgVehicles {
     class Box_NATO_Support_F; // CUP_USSpecialWeaponsBox
     class Box_East_WpsLaunch_F; // CUP_RULaunchersBox
     class Box_NATO_WpsLaunch_F; // CUP_USLaunchersBox
-    class Box_East_Uniforms_F; // CUP_RUBasicWeaponsBox
     class Box_NATO_Uniforms_F; // CUP_USBasicWeaponsBox
     class O_SupplyCrate_F; // CUP_RUVehicleBox
     class B_SupplyCrate_F; // CUP_USVehicleBox
