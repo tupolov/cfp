@@ -75,7 +75,6 @@ class CfgPatches {
             "CFP_B_ILIDF_Commando_Explosive_Specialist_01"
         };
         weapons[] = {};
-        requiredVersion = 1.62;
         requiredAddons[] = {
             "A3_Characters_F",
             "cfp_uniforms",
@@ -99,7 +98,9 @@ class CfgPatches {
             "A3_Sounds_F",
             "A3_Soft_F_Quadbike_01"
         };
-        author = "Drew";
         authors[] = {"Drew"};
+        author = MODULE_AUTHOR;
+        requiredVersion = REQUIRED_VERSION;
+        VERSION_CONFIG;
     };
 };
