@@ -12,6 +12,7 @@
 #include "CFP_B_USARMY_WDL_Logistics.hpp"
 #include "CFP_B_USCIA_Logistics.hpp"
 #include "CFP_B_USMC_DES_Logistics.hpp"
+#include "CFP_B_USRANGERS_WDL_Logistics.hpp"
 #include "CFP_B_YPG_Logistics.hpp"
 #include "CFP_I_IS_Logistics.hpp"
 #include "CFP_O_ALQAEDA_Logistics.hpp"

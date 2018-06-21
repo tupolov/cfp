@@ -5,6 +5,10 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
+#define mag_xx(a,b) class _xx_##a {magazine = ##a; count = b;}
+#define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
+#define item_xx(a,b) class _xx_##a {name = a; count = b;}
+
 class CBA_Extended_EventHandlers_base;
 
 class CfgVehicles {
@@ -2489,4 +2493,291 @@ class CfgVehicles {
 
     };
 
+    class Box_East_Ammo_F; // CUP_RUBasicAmmunitionBox
+    class Box_NATO_Ammo_F; // CUP_USBasicAmmunitionBox
+    class Box_East_Wps_F; // CUP_RUBasicWeaponsBox
+    class Box_NATO_Wps_F; // CUP_USBasicWeaponsBox
+    class Box_East_Support_F; // CUP_RUSpecialWeaponsBox
+    class Box_NATO_Support_F; // CUP_USSpecialWeaponsBox
+    class Box_East_WpsLaunch_F; // CUP_RULaunchersBox
+    class Box_NATO_WpsLaunch_F; // CUP_USLaunchersBox
+    class Box_East_Uniforms_F; // CUP_RUBasicWeaponsBox
+    class Box_NATO_Uniforms_F; // CUP_USBasicWeaponsBox
+    class O_SupplyCrate_F; // CUP_RUVehicleBox
+    class B_SupplyCrate_F; // CUP_USVehicleBox
+
+    class CFP_B_USRANGERS_WDL_AmmoBox : Box_NATO_Ammo_F {
+        author = ALiVE ORBAT CREATOR;
+        displayName = US 75th Rangers (Jungle/Woodland) Ammo Box;
+        class TransportMagazines {
+            mag_xx(CUP_15Rnd_9x19_M9,50);
+            mag_xx(CUP_HandGrenade_M67,50);
+            mag_xx(B_IR_Grenade,50);
+            mag_xx(Chemlight_green,50);
+            mag_xx(Chemlight_red,50);
+            mag_xx(SmokeShell,50);
+            mag_xx(CUP_20Rnd_762x51_B_SCAR,50);
+            mag_xx(CUP_1Rnd_HEDP_M203,50);
+            mag_xx(CUP_1Rnd_Smoke_M203,50);
+            mag_xx(CUP_200Rnd_TE4_Red_Tracer_556x45_M249,50);
+            mag_xx(CUP_MAAWS_HEDP_M,50);
+            mag_xx(CUP_MAAWS_HEAT_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M,50);
+            mag_xx(CUP_20Rnd_762x51_B_M110,50);
+            mag_xx(CUP_10Rnd_127x99_M107,50);
+            mag_xx(CUP_PipeBomb_M,50);
+            mag_xx(ATMine_Range_Mag,50);
+            mag_xx(DemoCharge_Remote_Mag,50);
+            mag_xx(CUP_30Rnd_556x45_Stanag,50);
+            mag_xx(SmokeShellGreen,50);
+            mag_xx(SmokeShellBlue,50);
+            mag_xx(SmokeShellOrange,50);
+        };
+        class TransportWeapons {
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_B_USRANGERS_WDL_WeaponsBox : Box_NATO_Wps_F {
+        author = ALiVE ORBAT CREATOR;
+        displayName = US 75th Rangers (Jungle/Woodland) Weapons Box;
+        class TransportMagazines {
+            mag_xx(CUP_20Rnd_762x51_B_SCAR,50);
+            mag_xx(CUP_15Rnd_9x19_M9,50);
+            mag_xx(CUP_1Rnd_HEDP_M203,50);
+            mag_xx(CUP_200Rnd_TE4_Red_Tracer_556x45_M249,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M,50);
+            mag_xx(CUP_20Rnd_762x51_B_M110,50);
+            mag_xx(CUP_10Rnd_127x99_M107,50);
+            mag_xx(CUP_30Rnd_556x45_Stanag,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_Mk17_CQC_SFG_woodland,10);
+            weap_xx(CUP_hgun_M9,10);
+            weap_xx(CUP_arifle_Mk17_CQC_EGLM_woodland,10);
+            weap_xx(CUP_lmg_m249_pip4,10);
+            weap_xx(CUP_lmg_M240,10);
+            weap_xx(CUP_lmg_Mk48_wdl,10);
+            weap_xx(CUP_arifle_Mk20,10);
+            weap_xx(CUP_srifle_M110,10);
+            weap_xx(CUP_srifle_M107_Base,10);
+            weap_xx(CUP_arifle_M4A1,10);
+        };
+        class TransportItems {
+            item_xx(CFP_acc_ANPEQ15_Black,10);
+            item_xx(CFP_optic_ELCAN_SpecterDR_Black,10);
+            item_xx(CUP_acc_ANPEQ_2,10);
+            item_xx(CUP_muzzle_snds_SCAR_H,10);
+            item_xx(optic_DMS,10);
+            item_xx(CUP_muzzle_snds_M110,10);
+            item_xx(CUP_acc_ANPEQ_2_desert,10);
+            item_xx(CUP_optic_LeupoldMk4_MRT_tan,10);
+            item_xx(CUP_optic_Leupold_VX3,10);
+            item_xx(CUP_optic_CompM4,10);
+        };
+    };
+    class CFP_B_USRANGERS_WDL_LaunchersBox : Box_NATO_WpsLaunch_F {
+        author = ALiVE ORBAT CREATOR;
+        displayName = US 75th Rangers (Jungle/Woodland) Launchers Box;
+        class TransportMagazines {
+            mag_xx(CUP_MAAWS_HEAT_M,5);
+            mag_xx(CUP_Javelin_M,5);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_launch_MAAWS,5);
+            weap_xx(CUP_launch_Javelin,5);
+        };
+        class TransportItems {
+            item_xx(CUP_optic_MAAWS_Scope,5);
+        };
+    };
+    class CFP_B_USRANGERS_WDL_UniformBox : Box_NATO_Uniforms_F {
+        author = ALiVE ORBAT CREATOR;
+        displayName = US 75th Rangers (Jungle/Woodland) Uniform Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(CFP_75th_CRYE_V4b_Sleeved,15);
+            item_xx(CFP_75th_CRYE_V3b_Sleeved,15);
+            item_xx(CFP_75th_CRYE_V4b_Full,15);
+            item_xx(CFP_75th_CRYEG3_V4,15);
+            item_xx(CFP_75th_CRYE_V1b_Full,15);
+            item_xx(CFP_75th_CRYE_V2b_Full,15);
+            item_xx(CFP_75th_CRYE_V3b_Full,15);
+            item_xx(CFP_U_FieldUniform_acu,15);
+        };
+    };
+    class CFP_B_USRANGERS_WDL_SupportBox : Box_NATO_Support_F {
+        author = ALiVE ORBAT CREATOR;
+        displayName = US 75th Rangers (Jungle/Woodland) Support Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(Binocular,10);
+            item_xx(CFP_HV5_Ciras_Olive,10);
+            item_xx(CFP_OpsC_Painted,10);
+            item_xx(CFP_Face_Wear_Blk,10);
+            item_xx(CFP_Camelbak_Mule_RngrGrn,10);
+            item_xx(CFP_ANPVS15_Camo_V3,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(CFP_OpsC_Uncovered,10);
+            item_xx(CFP_Oakley_Thermals_Blk,10);
+            item_xx(CFP_HV4_Ciras_Olive,10);
+            item_xx(CFP_Tac_Goggles_Blk_Clr,10);
+            item_xx(CFP_ANPVS15_Camo_V1,10);
+            item_xx(CFP_LBT6094_MG_OGA_OD,10);
+            item_xx(CFP_OpsC_Uncov_Full,10);
+            item_xx(CFP_UA_Thermals_Blk_GPS,10);
+            item_xx(CFP_OpsC_Covered,10);
+            item_xx(CFP_Tac_Goggles_Blk_Drk,10);
+            item_xx(CFP_Kitbag_MCam_Grn,10);
+            item_xx(CFP_ANPVS15_Camo_V4,10);
+            item_xx(CFP_OpsC_Uncov_Goggle_Off,10);
+            item_xx(CFP_OpsC_Uncov_Shemagh,10);
+            item_xx(CFP_RAV_MG_OGA_OD,10);
+            item_xx(CFP_UA_Thermals_Blk,10);
+            item_xx(CFP_OpsC_Cov_Goggles_Off,10);
+            item_xx(CFP_Kitbag_Drab,10);
+            item_xx(Rangefinder,10);
+            item_xx(CFP_Oakleys_Drk,10);
+            item_xx(CUP_B_M252_Bipod_Bag,10);
+            item_xx(CFP_OpsC_Med,10);
+            item_xx(CUP_B_M252_Gun_Bag,10);
+            item_xx(CFP_HV1_Ciras_Olive,10);
+            item_xx(CFP_OpsC_Covered2,10);
+            item_xx(CFP_Oakley_Goggles_MCam,10);
+            item_xx(CFP_UA_Thermals_Grn_GPS,10);
+            item_xx(CFP_Oakleys_Clr,10);
+            item_xx(CFP_UA_Thermals_Grn,10);
+            item_xx(CUP_B_Mk19_Tripod_Bag,10);
+            item_xx(CUP_B_Mk19_Gun_Bag,10);
+            item_xx(CFP_Oakley_Thermals_Gry,10);
+            item_xx(H_HelmetCrew_I,10);
+            item_xx(CFP_IOTV_Patrol,10);
+            item_xx(H_PilotHelmetHeli_B,10);
+            item_xx(CUP_NVG_PVS7,10);
+            item_xx(CFP_SOARCREW_RED,10);
+            item_xx(CFP_ANPVS15_Black,10);
+        };
+    };
+    class CFP_B_USRANGERS_WDL_SupplyBox : B_SupplyCrate_F {
+        author = ALiVE ORBAT CREATOR;
+        displayName = US 75th Rangers (Jungle/Woodland) Supply Box;
+        class TransportMagazines {
+            mag_xx(CUP_15Rnd_9x19_M9,50);
+            mag_xx(CUP_HandGrenade_M67,50);
+            mag_xx(B_IR_Grenade,50);
+            mag_xx(Chemlight_green,50);
+            mag_xx(Chemlight_red,50);
+            mag_xx(SmokeShell,50);
+            mag_xx(CUP_20Rnd_762x51_B_SCAR,50);
+            mag_xx(CUP_1Rnd_HEDP_M203,50);
+            mag_xx(CUP_1Rnd_Smoke_M203,50);
+            mag_xx(CUP_200Rnd_TE4_Red_Tracer_556x45_M249,50);
+            mag_xx(CUP_MAAWS_HEDP_M,50);
+            mag_xx(CUP_MAAWS_HEAT_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M,50);
+            mag_xx(CUP_20Rnd_762x51_B_M110,50);
+            mag_xx(CUP_10Rnd_127x99_M107,50);
+            mag_xx(CUP_PipeBomb_M,50);
+            mag_xx(ATMine_Range_Mag,50);
+            mag_xx(DemoCharge_Remote_Mag,50);
+            mag_xx(CUP_30Rnd_556x45_Stanag,50);
+            mag_xx(SmokeShellGreen,50);
+            mag_xx(SmokeShellBlue,50);
+            mag_xx(SmokeShellOrange,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_Mk17_CQC_SFG_woodland,10);
+            weap_xx(CUP_hgun_M9,10);
+            weap_xx(CUP_arifle_Mk17_CQC_EGLM_woodland,10);
+            weap_xx(CUP_lmg_m249_pip4,10);
+            weap_xx(CUP_lmg_M240,10);
+            weap_xx(CUP_lmg_Mk48_wdl,10);
+            weap_xx(CUP_arifle_Mk20,10);
+            weap_xx(CUP_srifle_M110,10);
+            weap_xx(CUP_srifle_M107_Base,10);
+            weap_xx(CUP_arifle_M4A1,10);
+            weap_xx(CUP_launch_MAAWS,10);
+            weap_xx(CUP_launch_Javelin,10);
+        };
+        class TransportItems {
+            item_xx(CFP_acc_ANPEQ15_Black,10);
+            item_xx(CFP_optic_ELCAN_SpecterDR_Black,10);
+            item_xx(CUP_acc_ANPEQ_2,10);
+            item_xx(CUP_muzzle_snds_SCAR_H,10);
+            item_xx(optic_DMS,10);
+            item_xx(CUP_muzzle_snds_M110,10);
+            item_xx(CUP_acc_ANPEQ_2_desert,10);
+            item_xx(CUP_optic_LeupoldMk4_MRT_tan,10);
+            item_xx(CUP_optic_Leupold_VX3,10);
+            item_xx(CUP_optic_CompM4,10);
+            item_xx(Binocular,10);
+            item_xx(CFP_HV5_Ciras_Olive,10);
+            item_xx(CFP_OpsC_Painted,10);
+            item_xx(CFP_Face_Wear_Blk,10);
+            item_xx(CFP_Camelbak_Mule_RngrGrn,10);
+            item_xx(CFP_ANPVS15_Camo_V3,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(CFP_OpsC_Uncovered,10);
+            item_xx(CFP_Oakley_Thermals_Blk,10);
+            item_xx(CFP_HV4_Ciras_Olive,10);
+            item_xx(CFP_Tac_Goggles_Blk_Clr,10);
+            item_xx(CFP_ANPVS15_Camo_V1,10);
+            item_xx(CFP_LBT6094_MG_OGA_OD,10);
+            item_xx(CFP_OpsC_Uncov_Full,10);
+            item_xx(CFP_UA_Thermals_Blk_GPS,10);
+            item_xx(CFP_OpsC_Covered,10);
+            item_xx(CFP_Tac_Goggles_Blk_Drk,10);
+            item_xx(CFP_Kitbag_MCam_Grn,10);
+            item_xx(CFP_ANPVS15_Camo_V4,10);
+            item_xx(CFP_OpsC_Uncov_Goggle_Off,10);
+            item_xx(CFP_OpsC_Uncov_Shemagh,10);
+            item_xx(CFP_RAV_MG_OGA_OD,10);
+            item_xx(CFP_UA_Thermals_Blk,10);
+            item_xx(CFP_OpsC_Cov_Goggles_Off,10);
+            item_xx(CFP_Kitbag_Drab,10);
+            item_xx(Rangefinder,10);
+            item_xx(CFP_Oakleys_Drk,10);
+            item_xx(CUP_B_M252_Bipod_Bag,10);
+            item_xx(CFP_OpsC_Med,10);
+            item_xx(CUP_B_M252_Gun_Bag,10);
+            item_xx(CFP_HV1_Ciras_Olive,10);
+            item_xx(CFP_OpsC_Covered2,10);
+            item_xx(CFP_Oakley_Goggles_MCam,10);
+            item_xx(CFP_UA_Thermals_Grn_GPS,10);
+            item_xx(CFP_Oakleys_Clr,10);
+            item_xx(CFP_UA_Thermals_Grn,10);
+            item_xx(CUP_B_Mk19_Tripod_Bag,10);
+            item_xx(CUP_B_Mk19_Gun_Bag,10);
+            item_xx(CFP_Oakley_Thermals_Gry,10);
+            item_xx(H_HelmetCrew_I,10);
+            item_xx(CFP_IOTV_Patrol,10);
+            item_xx(H_PilotHelmetHeli_B,10);
+            item_xx(CUP_NVG_PVS7,10);
+            item_xx(CFP_SOARCREW_RED,10);
+            item_xx(CFP_ANPVS15_Black,10);
+            item_xx(CFP_75th_CRYE_V4b_Sleeved,10);
+            item_xx(CFP_75th_CRYE_V3b_Sleeved,10);
+            item_xx(CFP_75th_CRYE_V4b_Full,10);
+            item_xx(CFP_75th_CRYEG3_V4,10);
+            item_xx(CFP_75th_CRYE_V1b_Full,10);
+            item_xx(CFP_75th_CRYE_V2b_Full,10);
+            item_xx(CFP_75th_CRYE_V3b_Full,10);
+            item_xx(CFP_U_FieldUniform_acu,10);
+            item_xx(CUP_optic_MAAWS_Scope,5);
+        };
+    };
 };
