@@ -1,7 +1,7 @@
 class CfgPatches {
     class CFP_O_IRARMY {
         units[] = {
-             "CFP_O_IRARMY_Rifleman_65th_AB_01",
+            "CFP_O_IRARMY_Rifleman_65th_AB_01",
             "CFP_O_IRARMY_Sniper_65th_AB_01",
             "CFP_O_IRARMY_Team_Leader_65th_AB_01",
             "CFP_O_IRARMY_Explosives_Specialist_65th_AB_01",
@@ -79,7 +79,6 @@ class CfgPatches {
             "CFP_O_IRARMY_C130_VIV_01"
         };
         weapons[] = {};
-        requiredVersion = 1.62;
         requiredAddons[] = {
             "CFP_O_HEZBOLLAH",
             "CFP_B_NAARMY",
@@ -93,7 +92,9 @@ class CfgPatches {
             "CUP_WheeledVehicles_Volha",
             "CUP_WheeledVehicles_UAZ"
         };
-        author = "Drew";
+        requiredVersion = REQUIRED_VERSION;
+        VERSION_CONFIG;
         authors[] = {"Drew"};
+        author = MODULE_AUTHOR;
     };
 };
