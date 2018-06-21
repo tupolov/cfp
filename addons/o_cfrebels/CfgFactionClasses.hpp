@@ -8,8 +8,8 @@ class CfgFactionClasses {
     class CFP_O_CFRebels {
         displayName = "Central African Rebels";
         side = 0;
-        flag = "x\cfp\addons\flags\Afghanistan\Taliban.paa";
-        icon = "x\cfp\addons\flags\Afghanistan\Taliban.paa";
+        flag = "x\cfp\addons\flags\CentralAfricanRepublic\CentralAfricanRepublic.paa";
+        icon = "x\cfp\addons\flags\CentralAfricanRepublic\CentralAfricanRepublic.paa";
         priority = 0;
     };
 };

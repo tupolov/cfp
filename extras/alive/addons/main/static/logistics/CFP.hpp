@@ -17,6 +17,7 @@
 #include "CFP_O_ALSHABAAB_Logistics.hpp"
 #include "CFP_O_ANSARALLAH_Logistics.hpp"
 #include "CFP_O_BOKOHARAM_Logistics.hpp"
+#include "CFP_O_CFRebels_Logistics.hpp"
 #include "CFP_O_IS_Logistics.hpp"
 #include "CFP_O_RUARMY_DES_Logistics.hpp"
 #include "CFP_O_RUMVD_Logistics.hpp"
@@ -30,3 +31,4 @@
 #include "CUP_B_US_ARMY_Logistics.hpp"
 #include "CUP_B_USMC_Logistics.hpp"
 #include "CUP_O_RU_Logistics.hpp"
+

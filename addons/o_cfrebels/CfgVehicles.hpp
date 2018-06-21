@@ -5,6 +5,11 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
+#define mag_xx(a,b) class _xx_##a {magazine = ##a; count = b;}
+#define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
+#define item_xx(a,b) class _xx_##a {name = a; count = b;}
+
+
 class CBA_Extended_EventHandlers_base;
 
 class CfgVehicles {
@@ -59,8 +64,8 @@ class CfgVehicles {
 
     class CFP_O_SOREBEL_Technical_PK_01;
     class CFP_O_SOREBEL_Technical_PK_01_OCimport_01 : CFP_O_SOREBEL_Technical_PK_01 { scope = 0; class EventHandlers; class Turrets; };
-    class CFP_O_SOREBEL_Technical_PK_01_OCimport_02 : CFP_O_SOREBEL_Technical_PK_01_OCimport_01 { 
-        class EventHandlers; 
+    class CFP_O_SOREBEL_Technical_PK_01_OCimport_02 : CFP_O_SOREBEL_Technical_PK_01_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
             class CargoTurret_01;
@@ -70,8 +75,8 @@ class CfgVehicles {
 
     class O_G_Offroad_01_repair_F;
     class O_G_Offroad_01_repair_F_OCimport_01 : O_G_Offroad_01_repair_F { scope = 0; class EventHandlers; class Turrets; };
-    class O_G_Offroad_01_repair_F_OCimport_02 : O_G_Offroad_01_repair_F_OCimport_01 { 
-        class EventHandlers; 
+    class O_G_Offroad_01_repair_F_OCimport_02 : O_G_Offroad_01_repair_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -79,8 +84,8 @@ class CfgVehicles {
 
     class O_G_Offroad_01_armed_F;
     class O_G_Offroad_01_armed_F_OCimport_01 : O_G_Offroad_01_armed_F { scope = 0; class EventHandlers; class Turrets; };
-    class O_G_Offroad_01_armed_F_OCimport_02 : O_G_Offroad_01_armed_F_OCimport_01 { 
-        class EventHandlers; 
+    class O_G_Offroad_01_armed_F_OCimport_02 : O_G_Offroad_01_armed_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class M2_Turret;
         };
@@ -88,8 +93,8 @@ class CfgVehicles {
 
     class O_G_Offroad_01_AT_F;
     class O_G_Offroad_01_AT_F_OCimport_01 : O_G_Offroad_01_AT_F { scope = 0; class EventHandlers; class Turrets; };
-    class O_G_Offroad_01_AT_F_OCimport_02 : O_G_Offroad_01_AT_F_OCimport_01 { 
-        class EventHandlers; 
+    class O_G_Offroad_01_AT_F_OCimport_02 : O_G_Offroad_01_AT_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class AT_Turret;
         };
@@ -101,8 +106,8 @@ class CfgVehicles {
 
     class CFP_O_SOREBEL_SPG_9_01;
     class CFP_O_SOREBEL_SPG_9_01_OCimport_01 : CFP_O_SOREBEL_SPG_9_01 { scope = 0; class EventHandlers; class Turrets; };
-    class CFP_O_SOREBEL_SPG_9_01_OCimport_02 : CFP_O_SOREBEL_SPG_9_01_OCimport_01 { 
-        class EventHandlers; 
+    class CFP_O_SOREBEL_SPG_9_01_OCimport_02 : CFP_O_SOREBEL_SPG_9_01_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -110,8 +115,8 @@ class CfgVehicles {
 
     class CFP_O_SOREBEL_Podnos_2B14_01;
     class CFP_O_SOREBEL_Podnos_2B14_01_OCimport_01 : CFP_O_SOREBEL_Podnos_2B14_01 { scope = 0; class EventHandlers; class Turrets; };
-    class CFP_O_SOREBEL_Podnos_2B14_01_OCimport_02 : CFP_O_SOREBEL_Podnos_2B14_01_OCimport_01 { 
-        class EventHandlers; 
+    class CFP_O_SOREBEL_Podnos_2B14_01_OCimport_02 : CFP_O_SOREBEL_Podnos_2B14_01_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
@@ -119,8 +124,8 @@ class CfgVehicles {
 
     class O_G_Boat_Transport_01_F;
     class O_G_Boat_Transport_01_F_OCimport_01 : O_G_Boat_Transport_01_F { scope = 0; class EventHandlers; class Turrets; };
-    class O_G_Boat_Transport_01_F_OCimport_02 : O_G_Boat_Transport_01_F_OCimport_01 { 
-        class EventHandlers; 
+    class O_G_Boat_Transport_01_F_OCimport_02 : O_G_Boat_Transport_01_F_OCimport_01 {
+        class EventHandlers;
         class Turrets : Turrets {
             class CargoTurret_01;
             class CargoTurret_02;
@@ -131,6 +136,7 @@ class CfgVehicles {
 
 
     class CFP_O_CFRebels_Rifleman_01 : O_G_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Rifleman_01.JPG;
         author = "jarrad96";
         scope = 2;
         scopeCurator = 2;
@@ -169,6 +175,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Militiaman_01 : CFP_O_SOREBEL_Rifleman_Light_01_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Militiaman_01.JPG;
         author = "jarrad96";
         scope = 2;
         scopeCurator = 2;
@@ -207,6 +214,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Autorifleman_RPK_01 : O_G_Soldier_AR_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Autorifleman_RPK_01.JPG;
         author = "jarrad96";
         scope = 2;
         scopeCurator = 2;
@@ -245,6 +253,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Team_Leader_01 : O_G_Soldier_TL_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Team_Leader_01.JPG;
         author = "jarrad96";
         scope = 2;
         scopeCurator = 2;
@@ -283,6 +292,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Surgeon_01 : O_G_medic_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Surgeon_01.JPG;
         author = "jarrad96";
         scope = 2;
         scopeCurator = 2;
@@ -323,6 +333,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Demo_Specialist_01 : O_G_Soldier_exp_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Demo_Specialist_01.JPG;
         author = "jarrad96";
         scope = 2;
         scopeCurator = 2;
@@ -363,6 +374,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Grenadier_01 : O_G_Soldier_GL_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Grenadier_01.JPG;
         author = "jarrad96";
         scope = 2;
         scopeCurator = 2;
@@ -403,6 +415,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Squad_Leader_01 : O_G_Soldier_SL_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Squad_Leader_01.JPG;
         author = "jarrad96";
         scope = 2;
         scopeCurator = 2;
@@ -441,6 +454,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_RPG_Gunner_01 : CFP_O_SOREBEL_Rifleman_AT_01_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_RPG_Gunner_01.JPG;
         author = "jarrad96";
         scope = 2;
         scopeCurator = 2;
@@ -481,6 +495,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Sharpshooter_01 : O_G_Soldier_M_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Sharpshooter_01.JPG;
         author = "jarrad96";
         scope = 2;
         scopeCurator = 2;
@@ -519,6 +534,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Sniper_01 : CFP_O_CFRebels_Sharpshooter_01 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Sniper_01.JPG;
         author = "jarrad96";
         scope = 2;
         scopeCurator = 2;
@@ -557,6 +573,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Machinegunner_PKM_01 : CFP_O_SOREBEL_Autorifleman_2_01_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Machinegunner_PKM_01.JPG;
         author = "jarrad96";
         scope = 2;
         scopeCurator = 2;
@@ -597,6 +614,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Commander_01 : O_G_officer_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Commander_01.JPG;
         author = "jarrad96";
         scope = 2;
         scopeCurator = 2;
@@ -635,6 +653,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Ex_FACA_Rifleman_01 : CFP_O_CFRebels_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Ex_FACA_Rifleman_01.JPG;
         author = "jarrad96";
         scope = 2;
         scopeCurator = 2;
@@ -673,6 +692,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Ex_FACA_Autorifleman_01 : CFP_O_CFRebels_Machinegunner_PKM_01 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Ex_FACA_Autorifleman_01.JPG;
         author = "jarrad96";
         scope = 2;
         scopeCurator = 2;
@@ -713,6 +733,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Ex_FACA_Team_Leader_01 : CFP_O_CFRebels_Team_Leader_01 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Ex_FACA_Team_Leader_01.JPG;
         author = "jarrad96";
         scope = 2;
         scopeCurator = 2;
@@ -751,6 +772,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Technical_PK_01 : CFP_O_SOREBEL_Technical_PK_01_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Technical_PK_01.JPG;
         author = "jarrad96";
         scope = 2;
         scopeCurator = 2;
@@ -782,6 +804,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Offroad_Repair_01 : O_G_Offroad_01_repair_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Offroad_Repair_01.JPG;
         author = "jarrad96";
         scope = 2;
         scopeCurator = 2;
@@ -812,6 +835,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Offroad_50_Cal_01 : O_G_Offroad_01_armed_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Offroad_50_Cal_01.JPG;
         author = "jarrad96";
         scope = 2;
         scopeCurator = 2;
@@ -842,6 +866,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Offroad_SPG_9_01 : O_G_Offroad_01_AT_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Offroad_SPG_9_01.JPG;
         author = "jarrad96";
         scope = 2;
         scopeCurator = 2;
@@ -872,6 +897,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Truck_01 : CFP_O_SOREBEL_Truck_01_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Truck_01.JPG;
         author = "jarrad96";
         scope = 2;
         scopeCurator = 2;
@@ -896,6 +922,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_SPG_9_01 : CFP_O_SOREBEL_SPG_9_01_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_SPG_9_01.JPG;
         author = "jarrad96";
         scope = 2;
         scopeCurator = 2;
@@ -925,6 +952,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Podnos_Mortar_01 : CFP_O_SOREBEL_Podnos_2B14_01_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Podnos_Mortar_01.JPG;
         author = "jarrad96";
         scope = 2;
         scopeCurator = 2;
@@ -954,6 +982,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Assault_Boat_01 : O_G_Boat_Transport_01_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Assault_Boat_01.JPG;
         author = "jarrad96";
         scope = 2;
         scopeCurator = 2;
@@ -986,6 +1015,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Gunner_HMG_01 : CFP_O_CFRebels_Militiaman_01 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Gunner_HMG_01.JPG;
         author = "jarrad96";
         scope = 2;
         scopeCurator = 2;
@@ -1026,6 +1056,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Assistant_Gunner_HMG_01 : CFP_O_CFRebels_Gunner_HMG_01 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Assistant_Gunner_HMG_01.JPG;
         author = "jarrad96";
         scope = 2;
         scopeCurator = 2;
@@ -1066,6 +1097,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Gunner_Mortar_01 : CFP_O_CFRebels_Gunner_HMG_01 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Gunner_Mortar_01.JPG;
         author = "jarrad96";
         scope = 2;
         scopeCurator = 2;
@@ -1106,6 +1138,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Assistant_Gunner_Mortar_01 : CFP_O_CFRebels_Assistant_Gunner_HMG_01 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Assistant_Gunner_Mortar_01.JPG;
         author = "jarrad96";
         scope = 2;
         scopeCurator = 2;
@@ -1145,4 +1178,309 @@ class CfgVehicles {
 
     };
 
+    class CUP_RUBasicAmmunitionBox; // CUP_RUBasicAmmunitionBox
+
+    class CUP_RUBasicWeaponsBox; // CUP_RUBasicWeaponsBox
+
+    class CUP_RUSpecialWeaponsBox; // CUP_RUSpecialWeaponsBox
+
+    class CUP_RULaunchersBox; // CUP_RULaunchersBox
+
+    class CUP_RUVehicleBox; // CUP_RUVehicleBox
+
+    class CFP_O_CFRebels_AmmoBox : CUP_RUBasicAmmunitionBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Central African Rebels Ammo Box;
+        class TransportMagazines {
+            mag_xx(CUP_HandGrenade_RGD5,50);
+            mag_xx(SmokeShell,50);
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_20Rnd_762x51_FNFAL_M,50);
+            mag_xx(SmokeShellGreen,50);
+            mag_xx(Chemlight_blue,50);
+            mag_xx(CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,50);
+            mag_xx(SmokeShellYellow,50);
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(MiniGrenade,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_IlumFlareRed_GP25_M,50);
+            mag_xx(APERSBoundingMine_Range_Mag,50);
+            mag_xx(SLAMDirectionalMine_Wire_Mag,50);
+            mag_xx(DemoCharge_Remote_Mag,50);
+            mag_xx(CUP_1Rnd_SMOKE_GP25_M,50);
+            mag_xx(SmokeShellRed,50);
+            mag_xx(CUP_PG7VL_M,50);
+            mag_xx(CUP_10x_303_M,50);
+            mag_xx(CUP_5x_22_LR_17_HMR_M,50);
+            mag_xx(CUP_20Rnd_B_765x17_Ball_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(SmokeShellBlue,50);
+            mag_xx(CUP_30Rnd_9x19_UZI,50);
+            mag_xx(CUP_8Rnd_9x18_Makarov_M,50);
+            mag_xx(CUP_7Rnd_45ACP_1911,50);
+        };
+        class TransportWeapons {
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_O_CFRebels_WeaponsBox : CUP_RUBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Central African Rebels Weapons Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_20Rnd_762x51_FNFAL_M,50);
+            mag_xx(CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,50);
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_10x_303_M,50);
+            mag_xx(CUP_5x_22_LR_17_HMR_M,50);
+            mag_xx(CUP_10Rnd_B_765x17_Ball_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_30Rnd_9x19_UZI,50);
+            mag_xx(CUP_8Rnd_9x18_Makarov_M,50);
+            mag_xx(CUP_7Rnd_45ACP_1911,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_AK47,10);
+            weap_xx(CUP_arifle_FNFAL,10);
+            weap_xx(CUP_arifle_RPK74,10);
+            weap_xx(CUP_arifle_AK74,10);
+            weap_xx(CUP_arifle_AKS74U,10);
+            weap_xx(CUP_arifle_AK74_GL,10);
+            weap_xx(CUP_srifle_LeeEnfield,10);
+            weap_xx(CUP_srifle_CZ550,10);
+            weap_xx(CUP_hgun_SA61,10);
+            weap_xx(CUP_lmg_PKM,10);
+            weap_xx(CUP_hgun_MicroUzi,10);
+            weap_xx(CUP_hgun_Makarov,10);
+            weap_xx(CUP_hgun_Colt1911,10);
+            weap_xx(CUP_arifle_AKS,10);
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_O_CFRebels_LaunchersBox : CUP_RULaunchersBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Central African Rebels Launchers Box;
+        class TransportMagazines {
+            mag_xx(CUP_PG7VL_M,5);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_launch_RPG7V_PGO7V2,5);
+        };
+        class TransportItems {
+            item_xx(CUP_optic_PGO7V2,5);
+        };
+    };
+    class CFP_O_CFRebels_UniformBox : CUP_RUBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Central African Rebels Uniform Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(U_BG_Guerilla2_2,15);
+            item_xx(U_C_Poloshirt_tricolour,15);
+            item_xx(U_OG_Guerilla2_1,15);
+            item_xx(CUP_O_TKI_Khet_Jeans_04,15);
+            item_xx(U_OG_Guerilla2_3,15);
+            item_xx(CUP_U_I_GUE_Woodland1,15);
+            item_xx(CUP_U_I_GUE_Anorak_03,15);
+            item_xx(U_C_Poloshirt_blue,15);
+            item_xx(U_BG_Guerrilla_6_1,15);
+            item_xx(U_I_C_Soldier_Bandit_2_F,15);
+            item_xx(CUP_U_O_Partisan_VSR_Mixed1,15);
+            item_xx(CFP_U_BattleDressUniform_polygonwoodlanddark,15);
+            item_xx(U_I_C_Soldier_Bandit_3_F,15);
+            item_xx(U_I_C_Soldier_Bandit_5_F,15);
+            item_xx(U_C_IDAP_Man_Tee_F,15);
+            item_xx(U_I_C_Soldier_Bandit_4_F,15);
+        };
+    };
+    class CFP_O_CFRebels_SupportBox : CUP_RUSpecialWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Central African Rebels Support Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(CFP_AK_VEST_LOlive,10);
+            item_xx(CUP_H_PMC_Cap_Burberry,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(CFP_TakJacket_M81,10);
+            item_xx(H_Bandanna_sand,10);
+            item_xx(CUP_V_OI_TKI_Jacket3_03,10);
+            item_xx(CUP_H_C_Beanie_03,10);
+            item_xx(V_TacVest_blk,10);
+            item_xx(SP_BaseballCap_Hunter2,10);
+            item_xx(CUP_V_OI_TKI_Jacket2_04,10);
+            item_xx(H_Booniehat_oli,10);
+            item_xx(G_FieldPack_Medic,10);
+            item_xx(SP_Harness1_Green,10);
+            item_xx(CFP_Basic_Helmet_PolygonDesert,10);
+            item_xx(G_Sport_Greenblack,10);
+            item_xx(G_Carryall_Exp,10);
+            item_xx(SP_OpforRig1_Green,10);
+            item_xx(H_Cap_blu,10);
+            item_xx(B_Messenger_Olive_F,10);
+            item_xx(Binocular,10);
+            item_xx(CFP_Smersh_Brown,10);
+            item_xx(SP_M1Helmet_UN,10);
+            item_xx(G_Aviator,10);
+            item_xx(CUP_V_O_TK_Vest_1,10);
+            item_xx(H_Cap_red,10);
+            item_xx(CFP_RPGPack_Khaki,10);
+            item_xx(CFP_TakJacket_PolygonWoodland,10);
+            item_xx(CFP_BoonieHat_PolygonWoodland,10);
+            item_xx(H_Booniehat_khk,10);
+            item_xx(CFP_UtilityJacket_M81,10);
+            item_xx(H_Cap_grn,10);
+            item_xx(B_FieldPack_oli,10);
+            item_xx(CUP_V_CDF_OfficerBelt2,10);
+            item_xx(H_Beret_blk,10);
+            item_xx(ItemGPS,10);
+            item_xx(CFP_AK_VEST_Olive,10);
+            item_xx(G_Sport_Checkered,10);
+            item_xx(V_TacVest_camo,10);
+            item_xx(CFP_Basic_Helmet_M81,10);
+            item_xx(SP_Modular2_Green,10);
+            item_xx(CFP_Basic_Helmet_PolygonWoodland,10);
+            item_xx(CUP_V_O_Ins_Carrier_Rig_Light,10);
+            item_xx(CUP_B_DShkM_Gun_Bag,10);
+            item_xx(SP_BaseballCap_Hunter,10);
+            item_xx(CUP_B_DShkM_TripodHigh_Bag,10);
+            item_xx(SP_Tactical1_Green,10);
+            item_xx(CUP_H_C_Beanie_04,10);
+            item_xx(CUP_B_Podnos_Gun_Bag,10);
+            item_xx(H_Bandanna_camo,10);
+            item_xx(CUP_B_Podnos_Bipod_Bag,10);
+        };
+    };
+    class CFP_O_CFRebels_SupplyBox : CUP_RUVehicleBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Central African Rebels Supply Box;
+        class TransportMagazines {
+            mag_xx(CUP_HandGrenade_RGD5,50);
+            mag_xx(SmokeShell,50);
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_20Rnd_762x51_FNFAL_M,50);
+            mag_xx(SmokeShellGreen,50);
+            mag_xx(Chemlight_blue,50);
+            mag_xx(CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,50);
+            mag_xx(SmokeShellYellow,50);
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(MiniGrenade,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_IlumFlareRed_GP25_M,50);
+            mag_xx(APERSBoundingMine_Range_Mag,50);
+            mag_xx(SLAMDirectionalMine_Wire_Mag,50);
+            mag_xx(DemoCharge_Remote_Mag,50);
+            mag_xx(CUP_1Rnd_SMOKE_GP25_M,50);
+            mag_xx(SmokeShellRed,50);
+            mag_xx(CUP_PG7VL_M,50);
+            mag_xx(CUP_10x_303_M,50);
+            mag_xx(CUP_5x_22_LR_17_HMR_M,50);
+            mag_xx(CUP_20Rnd_B_765x17_Ball_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(SmokeShellBlue,50);
+            mag_xx(CUP_30Rnd_9x19_UZI,50);
+            mag_xx(CUP_8Rnd_9x18_Makarov_M,50);
+            mag_xx(CUP_7Rnd_45ACP_1911,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_AK47,10);
+            weap_xx(CUP_arifle_FNFAL,10);
+            weap_xx(CUP_arifle_RPK74,10);
+            weap_xx(CUP_arifle_AK74,10);
+            weap_xx(CUP_arifle_AKS74U,10);
+            weap_xx(CUP_arifle_AK74_GL,10);
+            weap_xx(CUP_srifle_LeeEnfield,10);
+            weap_xx(CUP_srifle_CZ550,10);
+            weap_xx(CUP_hgun_SA61,10);
+            weap_xx(CUP_lmg_PKM,10);
+            weap_xx(CUP_hgun_MicroUzi,10);
+            weap_xx(CUP_hgun_Makarov,10);
+            weap_xx(CUP_hgun_Colt1911,10);
+            weap_xx(CUP_arifle_AKS,10);
+            weap_xx(CUP_launch_RPG7V_PGO7V2,10);
+        };
+        class TransportItems {
+            item_xx(CFP_AK_VEST_LOlive,10);
+            item_xx(CUP_H_PMC_Cap_Burberry,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(CFP_TakJacket_M81,10);
+            item_xx(H_Bandanna_sand,10);
+            item_xx(CUP_V_OI_TKI_Jacket3_03,10);
+            item_xx(CUP_H_C_Beanie_03,10);
+            item_xx(V_TacVest_blk,10);
+            item_xx(SP_BaseballCap_Hunter2,10);
+            item_xx(CUP_V_OI_TKI_Jacket2_04,10);
+            item_xx(H_Booniehat_oli,10);
+            item_xx(G_FieldPack_Medic,10);
+            item_xx(SP_Harness1_Green,10);
+            item_xx(CFP_Basic_Helmet_PolygonDesert,10);
+            item_xx(G_Sport_Greenblack,10);
+            item_xx(G_Carryall_Exp,10);
+            item_xx(SP_OpforRig1_Green,10);
+            item_xx(H_Cap_blu,10);
+            item_xx(B_Messenger_Olive_F,10);
+            item_xx(Binocular,10);
+            item_xx(CFP_Smersh_Brown,10);
+            item_xx(SP_M1Helmet_UN,10);
+            item_xx(G_Aviator,10);
+            item_xx(CUP_V_O_TK_Vest_1,10);
+            item_xx(H_Cap_red,10);
+            item_xx(CFP_RPGPack_Khaki,10);
+            item_xx(CFP_TakJacket_PolygonWoodland,10);
+            item_xx(CFP_BoonieHat_PolygonWoodland,10);
+            item_xx(H_Booniehat_khk,10);
+            item_xx(CFP_UtilityJacket_M81,10);
+            item_xx(H_Cap_grn,10);
+            item_xx(B_FieldPack_oli,10);
+            item_xx(CUP_V_CDF_OfficerBelt2,10);
+            item_xx(H_Beret_blk,10);
+            item_xx(ItemGPS,10);
+            item_xx(CFP_AK_VEST_Olive,10);
+            item_xx(G_Sport_Checkered,10);
+            item_xx(V_TacVest_camo,10);
+            item_xx(CFP_Basic_Helmet_M81,10);
+            item_xx(SP_Modular2_Green,10);
+            item_xx(CFP_Basic_Helmet_PolygonWoodland,10);
+            item_xx(CUP_V_O_Ins_Carrier_Rig_Light,10);
+            item_xx(CUP_B_DShkM_Gun_Bag,10);
+            item_xx(SP_BaseballCap_Hunter,10);
+            item_xx(CUP_B_DShkM_TripodHigh_Bag,10);
+            item_xx(SP_Tactical1_Green,10);
+            item_xx(CUP_H_C_Beanie_04,10);
+            item_xx(CUP_B_Podnos_Gun_Bag,10);
+            item_xx(H_Bandanna_camo,10);
+            item_xx(CUP_B_Podnos_Bipod_Bag,10);
+            item_xx(U_BG_Guerilla2_2,10);
+            item_xx(U_C_Poloshirt_tricolour,10);
+            item_xx(U_OG_Guerilla2_1,10);
+            item_xx(CUP_O_TKI_Khet_Jeans_04,10);
+            item_xx(U_OG_Guerilla2_3,10);
+            item_xx(CUP_U_I_GUE_Woodland1,10);
+            item_xx(CUP_U_I_GUE_Anorak_03,10);
+            item_xx(U_C_Poloshirt_blue,10);
+            item_xx(U_BG_Guerrilla_6_1,10);
+            item_xx(U_I_C_Soldier_Bandit_2_F,10);
+            item_xx(CUP_U_O_Partisan_VSR_Mixed1,10);
+            item_xx(CFP_U_BattleDressUniform_polygonwoodlanddark,10);
+            item_xx(U_I_C_Soldier_Bandit_3_F,10);
+            item_xx(U_I_C_Soldier_Bandit_5_F,10);
+            item_xx(U_C_IDAP_Man_Tee_F,10);
+            item_xx(U_I_C_Soldier_Bandit_4_F,10);
+            item_xx(CUP_optic_PGO7V2,5);
+        };
+    };
 };
