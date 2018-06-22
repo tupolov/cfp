@@ -58,7 +58,7 @@ if sys.platform == "win32":
 
 ######## GLOBALS #########
 project = "@cfp"
-project_version = "0.2.0"
+project_version = "0.4.5"
 arma3tools_path = ""
 work_drive = ""
 module_root = ""
