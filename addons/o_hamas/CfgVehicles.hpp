@@ -4,6 +4,9 @@
 // Generated with ALiVE version 1.6.1.1804271
 //////////////////////////////////////////////////////////////////////////////////
 
+#define mag_xx(a,b) class _xx_##a {magazine = ##a; count = b;}
+#define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
+#define item_xx(a,b) class _xx_##a {name = a; count = b;}
 
 class CBA_Extended_EventHandlers_base;
 
@@ -118,6 +121,7 @@ class CfgVehicles {
 
 
     class CFP_O_HAMAS_Rifleman_01 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_hamas\data\preview\CFP_O_HAMAS_Rifleman_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -188,6 +192,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HAMAS_Rifleman_AT_01 : CFP_O_HAMAS_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_hamas\data\preview\CFP_O_HAMAS_Rifleman_AT_01.JPG;
 
         displayName = "Rifleman AT";
 
@@ -207,6 +212,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HAMAS_Team_Leader_01 : CFP_O_HAMAS_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_hamas\data\preview\CFP_O_HAMAS_Team_Leader_01.JPG;
 
         displayName = "Team Leader";
 
@@ -224,6 +230,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HAMAS_Medic_01 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_hamas\data\preview\CFP_O_HAMAS_Medic_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -301,6 +308,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HAMAS_Grenadier_01 : CFP_O_HAMAS_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_hamas\data\preview\CFP_O_HAMAS_Grenadier_01.JPG;
 
         displayName = "Grenadier";
 
@@ -320,6 +328,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HAMAS_Machine_Gunner_01 : CFP_O_HAMAS_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_hamas\data\preview\CFP_O_HAMAS_Machine_Gunner_01.JPG;
 
         displayName = "Machine Gunner";
 
@@ -339,6 +348,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HAMAS_Explosive_Specialist_01 : CFP_O_HAMAS_Medic_01 {
+        editorPreview = \x\cfp\addons\o_hamas\data\preview\CFP_O_HAMAS_Explosive_Specialist_01.JPG;
 
         displayName = "Explosive Specialist";
         engineer = 1;
@@ -360,6 +370,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HAMAS_Repair_Specialist_01 : CFP_O_HAMAS_Medic_01 {
+        editorPreview = \x\cfp\addons\o_hamas\data\preview\CFP_O_HAMAS_Repair_Specialist_01.JPG;
 
         displayName = "Repair Specialist";
         engineer = 1;
@@ -381,6 +392,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HAMAS_Sniper_01 : CFP_O_HAMAS_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_hamas\data\preview\CFP_O_HAMAS_Sniper_01.JPG;
 
         displayName = "Sniper";
 
@@ -398,6 +410,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HAMAS_Gunner_DShKM_01 : CFP_O_HAMAS_Medic_01 {
+        editorPreview = \x\cfp\addons\o_hamas\data\preview\CFP_O_HAMAS_Gunner_DShKM_01.JPG;
 
         displayName = "Gunner [DShKM]";
 
@@ -417,6 +430,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HAMAS_Asst_Gunner_DShKM_01 : CFP_O_HAMAS_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_hamas\data\preview\CFP_O_HAMAS_Asst_Gunner_DShKM_01.JPG;
 
         displayName = "Asst. Gunner [DShKM]";
 
@@ -436,6 +450,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HAMAS_Gunner_Mortar_01 : CFP_O_HAMAS_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_hamas\data\preview\CFP_O_HAMAS_Gunner_Mortar_01.JPG;
 
         displayName = "Gunner [Mortar]";
 
@@ -455,6 +470,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HAMAS_Asst_Gunner_Mortar_01 : CFP_O_HAMAS_Medic_01 {
+        editorPreview = \x\cfp\addons\o_hamas\data\preview\CFP_O_HAMAS_Asst_Gunner_Mortar_01.JPG;
 
         displayName = "Asst. Gunner [Mortar]";
 
@@ -474,6 +490,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HAMAS_Gunner_SPG_01 : CFP_O_HAMAS_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_hamas\data\preview\CFP_O_HAMAS_Gunner_SPG_01.JPG;
 
         displayName = "Gunner [SPG-9]";
 
@@ -493,6 +510,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HAMAS_Asst_Gunner_SPG_01 : CFP_O_HAMAS_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_hamas\data\preview\CFP_O_HAMAS_Asst_Gunner_SPG_01.JPG;
 
         displayName = "Asst. Gunner [SPG-9]";
 
@@ -512,6 +530,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HAMAS_Gunner_Metis_01 : CFP_O_HAMAS_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_hamas\data\preview\CFP_O_HAMAS_Gunner_Metis_01.JPG;
 
         displayName = "Gunner [Metis]";
 
@@ -531,6 +550,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HAMAS_Asst_Gunner_Metis_01 : CFP_O_HAMAS_Medic_01 {
+        editorPreview = \x\cfp\addons\o_hamas\data\preview\CFP_O_HAMAS_Asst_Gunner_Metis_01.JPG;
 
         displayName = "Asst. Gunner [Metis]";
 
@@ -550,6 +570,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HAMAS_DShKM_01 : CUP_O_DSHKM_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_hamas\data\preview\CFP_O_HAMAS_DShKM_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -579,6 +600,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HAMAS_Podnos_2B14_01 : CUP_O_2b14_82mm_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_hamas\data\preview\CFP_O_HAMAS_Podnos_2B14_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -608,6 +630,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HAMAS_SPG_9_01 : CUP_O_SPG9_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_hamas\data\preview\CFP_O_HAMAS_SPG_9_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -637,6 +660,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HAMAS_Metis_01 : CUP_O_Metis_TK_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_hamas\data\preview\CFP_O_HAMAS_Metis_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -666,6 +690,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HAMAS_Rifleman_AA_01 : CFP_O_HAMAS_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_hamas\data\preview\CFP_O_HAMAS_Rifleman_AA_01.JPG;
 
         displayName = "Rifleman AA";
 
@@ -685,6 +710,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HAMAS_Technical_MG_01 : O_G_Offroad_01_armed_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_hamas\data\preview\CFP_O_HAMAS_Technical_MG_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -714,6 +740,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HAMAS_Technical_SPG_01 : O_G_Offroad_01_AT_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_hamas\data\preview\CFP_O_HAMAS_Technical_SPG_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -743,6 +770,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HAMAS_Technical_Metis_01 : CUP_O_UAZ_METIS_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_hamas\data\preview\CFP_O_HAMAS_Technical_Metis_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -773,6 +801,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HAMAS_Ural_ZU_23_01 : CUP_O_Ural_ZU23_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_hamas\data\preview\CFP_O_HAMAS_Ural_ZU_23_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -802,6 +831,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HAMAS_Technical_Unarmed_01 : O_G_Offroad_01_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_hamas\data\preview\CFP_O_HAMAS_Technical_Unarmed_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -834,6 +864,7 @@ class CfgVehicles {
     };
 
     class CFP_O_HAMAS_Truck_01 : O_G_Van_01_transport_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_hamas\data\preview\CFP_O_HAMAS_Truck_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -869,6 +900,205 @@ class CfgVehicles {
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
 
+    };
+
+
+    class CUP_RUBasicAmmunitionBox; // CUP_RUBasicAmmunitionBox
+    class Box_NATO_Ammo_F; // CUP_USBasicAmmunitionBox
+    class CUP_RUBasicWeaponsBox; // CUP_RUBasicWeaponsBox
+    class Box_NATO_Wps_F; // CUP_USBasicWeaponsBox
+    class CUP_RUSpecialWeaponsBox; // CUP_RUSpecialWeaponsBox
+    class Box_NATO_Support_F; // CUP_USSpecialWeaponsBox
+    class CUP_RULaunchersBox; // CUP_RULaunchersBox
+    class Box_NATO_WpsLaunch_F; // CUP_USLaunchersBox
+    class Box_NATO_Uniforms_F; // CUP_USBasicWeaponsBox
+    class CUP_RUVehicleBox; // CUP_RUVehicleBox
+    class B_SupplyCrate_F; // CUP_USVehicleBox
+
+    class CFP_O_HAMAS_AmmoBox : CUP_RUBasicAmmunitionBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Hamas Al Qassam Brigades Ammo Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_PG7V_M,50);
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_1Rnd_SMOKE_GP25_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(APERSTripMine_Wire_Mag,50);
+            mag_xx(DemoCharge_Remote_Mag,50);
+            mag_xx(ATMine_Range_Mag,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+            mag_xx(CUP_Igla_M,50);
+        };
+        class TransportWeapons {
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_O_HAMAS_WeaponsBox : CUP_RUBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Hamas Al Qassam Brigades Weapons Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_AKS,10);
+            weap_xx(CUP_arifle_AKS74U,10);
+            weap_xx(CUP_arifle_AK74M,10);
+            weap_xx(CUP_arifle_AK74M_GL,10);
+            weap_xx(CUP_lmg_PKM,10);
+            weap_xx(CUP_arifle_AK74,10);
+            weap_xx(CUP_arifle_AKM,10);
+            weap_xx(CUP_srifle_SVD,10);
+        };
+        class TransportItems {
+            item_xx(CUP_optic_PSO_3,10);
+        };
+    };
+    class CFP_O_HAMAS_LaunchersBox : CUP_RULaunchersBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Hamas Al Qassam Brigades Launchers Box;
+        class TransportMagazines {
+            mag_xx(CUP_PG7V_M,5);
+            mag_xx(CUP_Igla_M,5);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_launch_RPG7V,5);
+            weap_xx(CUP_launch_Igla,5);
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_O_HAMAS_UniformBox : CUP_RUBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Hamas Al Qassam Brigades Uniform Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(CFP_U_FieldUniform_marpat_w_SS,15);
+            item_xx(SP_0000_Standard_FieldUniform_Black_SS,15);
+            item_xx(CFP_U_FieldUniform_edrl,15);
+            item_xx(CFP_U_FieldUniform_acu,15);
+            item_xx(SP_0000_Standard_FieldUniform_Black,15);
+            item_xx(CFP_U_FieldUniform_M81_SS,15);
+        };
+    };
+    class CFP_O_HAMAS_SupportBox : CUP_RUSpecialWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Hamas Al Qassam Brigades Support Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(V_TacVest_camo,10);
+            item_xx(SP_Balaclava_Hamas,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(CFP_Tactical1_M81,10);
+            item_xx(CFP_RPGPack_Black,10);
+            item_xx(SP_Tactical1_Black,10);
+            item_xx(V_TacVest_oli,10);
+            item_xx(CFP_PatrolCap_M81Hamas,10);
+            item_xx(G_Bandanna_blk,10);
+            item_xx(B_FieldPack_blk,10);
+            item_xx(CFP_Tactical1_Woodland,10);
+            item_xx(B_AssaultPack_blk,10);
+            item_xx(B_Kitbag_rgr,10);
+            item_xx(CFP_PatrolCap_BlackHamas,10);
+            item_xx(G_Bandanna_oli,10);
+            item_xx(CFP_Kitbag_EDRL,10);
+            item_xx(G_Bandanna_khk,10);
+            item_xx(CFP_Tactical1_EDRL,10);
+            item_xx(CUP_B_DShkM_TripodHigh_Bag,10);
+            item_xx(CUP_B_DShkM_Gun_Bag,10);
+            item_xx(SP_Balaclava_HamasBlack,10);
+            item_xx(CUP_B_Podnos_Bipod_Bag,10);
+            item_xx(CUP_B_Podnos_Gun_Bag,10);
+            item_xx(CUP_B_SPG9_Tripod_Bag,10);
+            item_xx(CUP_B_SPG9_Gun_Bag,10);
+            item_xx(CUP_B_Metis_Tripod_Bag,10);
+            item_xx(CUP_B_Metis_Gun_Bag,10);
+            item_xx(CFP_Kitbag_M81,10);
+        };
+    };
+    class CFP_O_HAMAS_SupplyBox : CUP_RUVehicleBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Hamas Al Qassam Brigades Supply Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_PG7V_M,50);
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_1Rnd_SMOKE_GP25_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(APERSTripMine_Wire_Mag,50);
+            mag_xx(DemoCharge_Remote_Mag,50);
+            mag_xx(ATMine_Range_Mag,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+            mag_xx(CUP_Igla_M,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_AKS,10);
+            weap_xx(CUP_arifle_AKS74U,10);
+            weap_xx(CUP_arifle_AK74M,10);
+            weap_xx(CUP_arifle_AK74M_GL,10);
+            weap_xx(CUP_lmg_PKM,10);
+            weap_xx(CUP_arifle_AK74,10);
+            weap_xx(CUP_arifle_AKM,10);
+            weap_xx(CUP_srifle_SVD,10);
+            weap_xx(CUP_launch_RPG7V,10);
+            weap_xx(CUP_launch_Igla,10);
+        };
+        class TransportItems {
+            item_xx(CUP_optic_PSO_3,10);
+            item_xx(V_TacVest_camo,10);
+            item_xx(SP_Balaclava_Hamas,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(CFP_Tactical1_M81,10);
+            item_xx(CFP_RPGPack_Black,10);
+            item_xx(SP_Tactical1_Black,10);
+            item_xx(V_TacVest_oli,10);
+            item_xx(CFP_PatrolCap_M81Hamas,10);
+            item_xx(G_Bandanna_blk,10);
+            item_xx(B_FieldPack_blk,10);
+            item_xx(CFP_Tactical1_Woodland,10);
+            item_xx(B_AssaultPack_blk,10);
+            item_xx(B_Kitbag_rgr,10);
+            item_xx(CFP_PatrolCap_BlackHamas,10);
+            item_xx(G_Bandanna_oli,10);
+            item_xx(CFP_Kitbag_EDRL,10);
+            item_xx(G_Bandanna_khk,10);
+            item_xx(CFP_Tactical1_EDRL,10);
+            item_xx(CUP_B_DShkM_TripodHigh_Bag,10);
+            item_xx(CUP_B_DShkM_Gun_Bag,10);
+            item_xx(SP_Balaclava_HamasBlack,10);
+            item_xx(CUP_B_Podnos_Bipod_Bag,10);
+            item_xx(CUP_B_Podnos_Gun_Bag,10);
+            item_xx(CUP_B_SPG9_Tripod_Bag,10);
+            item_xx(CUP_B_SPG9_Gun_Bag,10);
+            item_xx(CUP_B_Metis_Tripod_Bag,10);
+            item_xx(CUP_B_Metis_Gun_Bag,10);
+            item_xx(CFP_Kitbag_M81,10);
+            item_xx(CFP_U_FieldUniform_marpat_w_SS,10);
+            item_xx(SP_0000_Standard_FieldUniform_Black_SS,10);
+            item_xx(CFP_U_FieldUniform_edrl,10);
+            item_xx(CFP_U_FieldUniform_acu,10);
+            item_xx(SP_0000_Standard_FieldUniform_Black,10);
+            item_xx(CFP_U_FieldUniform_M81_SS,10);
+        };
     };
 
 };
