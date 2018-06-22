@@ -23,7 +23,6 @@ class CfgPatches {
             "CFP_O_SDRebels_Mortar_01",
             "CFP_O_SDRebels_DShKM_01",
             "CFP_O_SDRebels_DShKM_Low_01",
-            "CFP_O_SDRebels_UAZ_DShKM_01",
             "CFP_O_SDRebels_Land_Rover_SPG_01",
             "CFP_O_SDRebels_Land_Rover_01",
             "CFP_O_SDRebels_Offroad_01",

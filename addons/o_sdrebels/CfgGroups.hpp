@@ -544,7 +544,7 @@ class CfgGroups {
                         position[] = {-5,-9,0};
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_O_SDRebels_UAZ_DShKM_01";
+                        vehicle = "CFP_O_SDRebels_Pickup_PK_01";
                     };
                     class Unit3 {
                         position[] = {10,-13,0};
