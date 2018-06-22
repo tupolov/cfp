@@ -1620,6 +1620,13 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\BTR60\iranbody1.paa","\x\cfp\addons\vehicles\BTR60\iranbody2.paa"};
                 factions[] = {};
             };
+            class Sudan
+            {
+                displayName = "Sudan";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\BTR60\sudanbody1.paa","\x\cfp\addons\vehicles\BTR60\sudanbody2.paa"};
+                factions[] = {};
+            };
         };
     };
 
@@ -1917,6 +1924,13 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\BTR90\iranbody1.paa","\x\cfp\addons\vehicles\BTR90\iranbody2.paa"};
                 factions[] = {};
             };
+            class Sudan
+            {
+                displayname = "Sudan";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\BTR90\sudanbody1.paa","\x\cfp\addons\vehicles\BTR90\sudanbody2.paa"};
+                factions[] = {};
+            };
         };
    };
 
@@ -2002,6 +2016,13 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\M113a3\iranbody1.paa","\x\cfp\addons\vehicles\M113a3\iranbody2.paa"};
                 factions[] = {};
             };
+            class Sudan
+             {
+                displayname = "Sudan";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\M113a3\sudanbody1.paa","\x\cfp\addons\vehicles\M113a3\sudanbody2.paa"};
+                factions[] = {};
+            };
             class IDF
              {
                 displayname = "IDF";
@@ -2021,7 +2042,14 @@ class CfgVehicles
             {
                 displayname = "Iran";
                 author = "AuburnAlumni";
-                textures[] = {"\x\cfp\addons\vehicles\BMP2\IranBMP2body1.paa","\x\cfp\addons\vehicles\BMP2\IranBMP2body2.paa"};
+                textures[] = {"\x\cfp\addons\vehicles\BMP\trup_iran.paa","\x\cfp\addons\vehicles\BMP\veza0_iran.paa"};
+                factions[] = {};
+            };
+            class Sudan
+            {
+                displayname = "Sudan";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\BMP\trup_sudan.paa","\x\cfp\addons\vehicles\BMP\veza0_sudan.paa"};
                 factions[] = {};
             };
         };
@@ -2038,6 +2066,13 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\BMP2\IranBMP2body1.paa","\x\cfp\addons\vehicles\BMP2\IranBMP2body2.paa"};
                 factions[] = {};
             };
+            class Sudan
+            {
+                displayname = "Sudan";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\BMP2\SudanBMP2body1.paa","\x\cfp\addons\vehicles\BMP2\SudanBMP2body2.paa"};
+                factions[] = {};
+            };
         };
    };
 
@@ -2049,7 +2084,14 @@ class CfgVehicles
             {
                 displayname = "Iran";
                 author = "AuburnAlumni";
-                textures[] = {"\x\cfp\addons\vehicles\BMP2\IranBMP2body1.paa","\x\cfp\addons\vehicles\BMP2\IranBMP2body2.paa"};
+                textures[] = {"\x\cfp\addons\vehicles\BMP\trup_iran.paa","\x\cfp\addons\vehicles\BMP\veza0_iran.paa"};
+                factions[] = {};
+            };
+            class Sudan
+            {
+                displayname = "Sudan";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\BMP\trup_sudan.paa","\x\cfp\addons\vehicles\BMP\veza0_sudan.paa"};
                 factions[] = {};
             };
         };
@@ -2108,6 +2150,13 @@ class CfgVehicles
                 displayname = "Iran";
                 author = "CFP";
                 textures[] = {"\x\cfp\addons\vehicles\C130\c130j_body_iran.paa","\x\cfp\addons\vehicles\C130\c130j_wings_iran.paa"};
+                factions[] = {};
+            };
+            class Sudan
+            {
+                displayname = "Sudan";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\C130\c130j_body_sudan.paa","\x\cfp\addons\vehicles\C130\c130j_wings_sudan.paa"};
                 factions[] = {};
             };
         };
