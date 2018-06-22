@@ -348,7 +348,7 @@ class CfgVehicles {
         {
             "",
             1,
-            "SP_Beret2_Green",
+            "SP_Beret2_Green"
         };
         class HitPoints
         {
@@ -515,7 +515,7 @@ class CfgVehicles {
         {
             "",
             1,
-            "SP_Beret2_Green",
+            "SP_Beret2_Green"
         };
         class HitPoints
         {
@@ -702,7 +702,7 @@ class CfgVehicles {
         {
             "",
             1,
-            "SP_Beret2_Green",
+            "SP_Beret2_Green"
         };
         class HitPoints
         {
@@ -869,7 +869,7 @@ class CfgVehicles {
         {
             "",
             1,
-            "SP_Beret2_Green",
+            "SP_Beret2_Green"
         };
         class HitPoints
         {
@@ -1180,7 +1180,7 @@ class CfgVehicles {
         {
             "",
             1,
-            "SP_Beret2_Green",
+            "SP_Beret2_Green"
         };
         class HitPoints
         {
@@ -1480,7 +1480,7 @@ class CfgVehicles {
             "H_Bandanna_gry",
             0.25,
             "CUP_H_SLA_BeanieGreen",
-            0.25,
+            0.25
         };
         vestList[]=
         {
@@ -1664,7 +1664,7 @@ class CfgVehicles {
             "H_Bandanna_gry",
             0.25,
             "CUP_H_SLA_BeanieGreen",
-            0.25,
+            0.25
         };
         vestList[]=
         {
@@ -1849,7 +1849,7 @@ class CfgVehicles {
             "H_Bandanna_gry",
             0.25,
             "CUP_H_SLA_BeanieGreen",
-            0.25,
+            0.25
         };
         vestList[]=
         {
@@ -2029,7 +2029,7 @@ class CfgVehicles {
             "H_Bandanna_gry",
             0.25,
             "CUP_H_SLA_BeanieGreen",
-            0.25,
+            0.25
         };
         vestList[]=
         {
@@ -2189,7 +2189,7 @@ class CfgVehicles {
             "H_Bandanna_gry",
             0.25,
             "CUP_H_SLA_BeanieGreen",
-            0.25,
+            0.25
         };
         vestList[]=
         {
@@ -2370,7 +2370,7 @@ class CfgVehicles {
             "H_Bandanna_gry",
             0.25,
             "CUP_H_SLA_BeanieGreen",
-            0.25,
+            0.25
         };
         vestList[]=
         {
@@ -2551,7 +2551,7 @@ class CfgVehicles {
             "H_Bandanna_gry",
             0.25,
             "CUP_H_SLA_BeanieGreen",
-            0.25,
+            0.25
         };
         vestList[]=
         {
@@ -2735,7 +2735,7 @@ class CfgVehicles {
             "H_Bandanna_gry",
             0.25,
             "CUP_H_SLA_BeanieGreen",
-            0.25,
+            0.25
         };
         vestList[]=
         {
@@ -2916,7 +2916,7 @@ class CfgVehicles {
             "H_Bandanna_gry",
             0.25,
             "CUP_H_SLA_BeanieGreen",
-            0.25,
+            0.25
         };
         vestList[]=
         {
@@ -3097,7 +3097,7 @@ class CfgVehicles {
             "H_Bandanna_gry",
             0.25,
             "CUP_H_SLA_BeanieGreen",
-            0.25,
+            0.25
         };
         vestList[]=
         {
@@ -3278,7 +3278,7 @@ class CfgVehicles {
             "H_Bandanna_gry",
             0.25,
             "CUP_H_SLA_BeanieGreen",
-            0.25,
+            0.25
         };
         vestList[]=
         {
@@ -3459,7 +3459,7 @@ class CfgVehicles {
             "H_Bandanna_gry",
             0.25,
             "CUP_H_SLA_BeanieGreen",
-            0.25,
+            0.25
         };
         vestList[]=
         {
@@ -3640,7 +3640,7 @@ class CfgVehicles {
             "H_Bandanna_gry",
             0.25,
             "CUP_H_SLA_BeanieGreen",
-            0.25,
+            0.25
         };
         vestList[]=
         {
@@ -3821,7 +3821,7 @@ class CfgVehicles {
             "H_Bandanna_gry",
             0.25,
             "CUP_H_SLA_BeanieGreen",
-            0.25,
+            0.25
         };
         vestList[]=
         {
@@ -4002,7 +4002,7 @@ class CfgVehicles {
             "H_Bandanna_gry",
             0.25,
             "CUP_H_SLA_BeanieGreen",
-            0.25,
+            0.25
         };
         vestList[]=
         {
@@ -4204,7 +4204,7 @@ class CfgVehicles {
             "CUP_H_PMC_Cap_Back_Grey",
             0.25,
             "CUP_H_NAPA_Fedora",
-            0.25,
+            0.25
         };
         vestList[]=
         {
@@ -4523,7 +4523,7 @@ class CfgVehicles {
             "CUP_H_PMC_Cap_Back_Grey",
             0.25,
             "CUP_H_NAPA_Fedora",
-            0.25,
+            0.25
         };
         vestList[]=
         {
@@ -4715,7 +4715,7 @@ class CfgVehicles {
             "CUP_H_PMC_Cap_Back_Grey",
             0.25,
             "CUP_H_NAPA_Fedora",
-            0.25,
+            0.25
         };
         vestList[]=
         {
@@ -4897,7 +4897,7 @@ class CfgVehicles {
             "CUP_H_PMC_Cap_Back_Grey",
             0.25,
             "CUP_H_NAPA_Fedora",
-            0.25,
+            0.25
         };
         vestList[]=
         {

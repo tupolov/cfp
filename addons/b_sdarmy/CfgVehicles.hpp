@@ -582,7 +582,7 @@ class CfgVehicles
         {
             "",
             1,
-            "SP_Beret2_Red",
+            "SP_Beret2_Red"
         };
         class HitPoints
         {
@@ -817,7 +817,7 @@ class CfgVehicles
         {
             "",
             1,
-            "SP_Beret2_Red",
+            "SP_Beret2_Red"
         };
         class HitPoints
         {
@@ -4019,7 +4019,7 @@ class CfgVehicles
             "ItemCompass",
             "ItemWatch",
             "ItemRadio",
-            "CUP_optic_PSO_1",
+            "CUP_optic_PSO_1"
         };
         respawnLinkedItems[]=
         {
@@ -4029,7 +4029,7 @@ class CfgVehicles
             "ItemCompass",
             "ItemWatch",
             "ItemRadio",
-            "CUP_optic_PSO_1",
+            "CUP_optic_PSO_1"
         };
         weapons[]=
         {
@@ -5091,7 +5091,7 @@ class CfgVehicles
             "CUP_30Rnd_762x39_AK47_M",
             "CUP_30Rnd_762x39_AK47_M"
         };
-                ALiVE_orbatCreator_loadout[]=
+        ALiVE_orbatCreator_loadout[]=
         {};
         randomGearProbability=100;
         uniformList[]=
@@ -5703,7 +5703,6 @@ class CfgVehicles
         };
 
 
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -5812,8 +5811,6 @@ class CfgVehicles
             class CargoTurret_08 : CargoTurret_08 { gunnerType = ""; };
         };
 
-
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -5865,7 +5862,7 @@ class CfgVehicles
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "Sudan"
+        ALiVE_orbatCreator_texture = "Sudan";
 
     };
 

@@ -42,7 +42,7 @@ class CfgPatches {
             "A3_Soft_F_Exp_Offroad_01",
             "CUP_WheeledVehicles_Datsun",
             "A3_Soft_F_Orange_Van_02",
-            "A3_Soft_F_Gamma_Van_01",
+            "A3_Soft_F_Gamma_Van_01"
         };
         requiredVersion = REQUIRED_VERSION;
         VERSION_CONFIG;

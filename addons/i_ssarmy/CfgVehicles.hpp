@@ -62,7 +62,7 @@ class CfgVehicles
         {
             "",
             1,
-            "SP_Beret2_Green",
+            "SP_Beret2_Green"
         };
         class HitPoints
         {
@@ -229,7 +229,7 @@ class CfgVehicles
         {
             "",
             1,
-            "SP_Beret2_Green",
+            "SP_Beret2_Green"
         };
         class HitPoints
         {
@@ -464,7 +464,7 @@ class CfgVehicles
         {
             "",
             1,
-            "SP_Beret2_Green",
+            "SP_Beret2_Green"
         };
         class HitPoints
         {
@@ -1262,7 +1262,7 @@ class CfgVehicles
             "CUP_V_O_Ins_Carrier_Rig",
             0.2,
             "CFP_AK_VEST_Tan",
-            0.2,
+            0.2
         };
         class EventHandlers: EventHandlers_base
         {
@@ -1460,7 +1460,7 @@ class CfgVehicles
             "CUP_V_O_Ins_Carrier_Rig",
             0.2,
             "CFP_AK_VEST_Tan",
-            0.2,
+            0.2
         };
         class EventHandlers: EventHandlers_base
         {
@@ -1681,7 +1681,7 @@ class CfgVehicles
             "CUP_V_O_Ins_Carrier_Rig",
             0.2,
             "CFP_AK_VEST_Tan",
-            0.2,
+            0.2
         };
         class EventHandlers: EventHandlers_base
         {
@@ -1829,7 +1829,7 @@ class CfgVehicles
             "CUP_V_O_Ins_Carrier_Rig",
             0.2,
             "CFP_AK_VEST_Tan",
-            0.2,
+            0.2
         };
         class EventHandlers: EventHandlers_base
         {
@@ -2052,7 +2052,7 @@ class CfgVehicles
             "CUP_V_O_Ins_Carrier_Rig",
             0.2,
             "CFP_AK_VEST_Tan",
-            0.2,
+            0.2
         };
         class EventHandlers: EventHandlers_base
         {
@@ -2231,7 +2231,7 @@ class CfgVehicles
             "CUP_V_O_Ins_Carrier_Rig",
             0.2,
             "CFP_AK_VEST_Tan",
-            0.2,
+            0.2
         };
         class EventHandlers: EventHandlers_base
         {
@@ -2438,7 +2438,7 @@ class CfgVehicles
             "CUP_V_O_Ins_Carrier_Rig",
             0.2,
             "CFP_AK_VEST_Tan",
-            0.2,
+            0.2
         };
         class EventHandlers: EventHandlers_base
         {
@@ -2468,7 +2468,7 @@ class CfgVehicles
             "ItemCompass",
             "ItemWatch",
             "ItemRadio",
-            "MineDetector",
+            "MineDetector"
         };
         respawnLinkedItems[]=
         {
@@ -2478,7 +2478,7 @@ class CfgVehicles
             "ItemCompass",
             "ItemWatch",
             "ItemRadio",
-            "MineDetector",
+            "MineDetector"
         };
         weapons[]=
         {
@@ -2631,7 +2631,7 @@ class CfgVehicles
             "CUP_V_O_Ins_Carrier_Rig",
             0.2,
             "CFP_AK_VEST_Tan",
-            0.2,
+            0.2
         };
         class EventHandlers: EventHandlers_base
         {
@@ -2810,7 +2810,7 @@ class CfgVehicles
             "CUP_V_O_Ins_Carrier_Rig",
             0.2,
             "CFP_AK_VEST_Tan",
-            0.2,
+            0.2
         };
         class EventHandlers: EventHandlers_base
         {
@@ -2985,7 +2985,7 @@ class CfgVehicles
             "CUP_V_O_Ins_Carrier_Rig",
             0.2,
             "CFP_AK_VEST_Tan",
-            0.2,
+            0.2
         };
         class EventHandlers: EventHandlers_base
         {
@@ -3176,7 +3176,7 @@ class CfgVehicles
             "CUP_V_O_Ins_Carrier_Rig",
             0.2,
             "CFP_AK_VEST_Tan",
-            0.2,
+            0.2
         };
         class EventHandlers: EventHandlers_base
         {
@@ -3351,7 +3351,7 @@ class CfgVehicles
             "CUP_V_O_Ins_Carrier_Rig",
             0.2,
             "CFP_AK_VEST_Tan",
-            0.2,
+            0.2
         };
         class EventHandlers: EventHandlers_base
         {
@@ -3899,7 +3899,7 @@ class CfgVehicles
             "CUP_V_O_Ins_Carrier_Rig",
             0.2,
             "CFP_AK_VEST_Tan",
-            0.2,
+            0.2
         };
         class EventHandlers: EventHandlers_base
         {
@@ -4093,7 +4093,7 @@ class CfgVehicles
             "CUP_V_O_Ins_Carrier_Rig",
             0.2,
             "CFP_AK_VEST_Tan",
-            0.2,
+            0.2
         };
         class EventHandlers: EventHandlers_base
         {
@@ -4289,7 +4289,7 @@ class CfgVehicles
             "CUP_V_O_Ins_Carrier_Rig",
             0.2,
             "CFP_AK_VEST_Tan",
-            0.2,
+            0.2
         };
         class EventHandlers: EventHandlers_base
         {
@@ -4485,7 +4485,7 @@ class CfgVehicles
             "CUP_V_O_Ins_Carrier_Rig",
             0.2,
             "CFP_AK_VEST_Tan",
-            0.2,
+            0.2
         };
         class EventHandlers: EventHandlers_base
         {
@@ -4681,7 +4681,7 @@ class CfgVehicles
             "CUP_V_O_Ins_Carrier_Rig",
             0.2,
             "CFP_AK_VEST_Tan",
-            0.2,
+            0.2
         };
         class EventHandlers: EventHandlers_base
         {
@@ -4877,7 +4877,7 @@ class CfgVehicles
             "CUP_V_O_Ins_Carrier_Rig",
             0.2,
             "CFP_AK_VEST_Tan",
-            0.2,
+            0.2
         };
         class EventHandlers: EventHandlers_base
         {
@@ -5073,7 +5073,7 @@ class CfgVehicles
             "CUP_V_O_Ins_Carrier_Rig",
             0.2,
             "CFP_AK_VEST_Tan",
-            0.2,
+            0.2
         };
         class EventHandlers: EventHandlers_base
         {
@@ -5241,7 +5241,7 @@ class CfgVehicles
             "CUP_V_O_Ins_Carrier_Rig",
             0.2,
             "CFP_AK_VEST_Tan",
-            0.2,
+            0.2
         };
         class EventHandlers: EventHandlers_base
         {

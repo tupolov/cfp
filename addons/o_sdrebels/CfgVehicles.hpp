@@ -334,7 +334,7 @@ class CfgVehicles {
         {
             "",
             1,
-            "SP_Beret2_Green",
+            "SP_Beret2_Green"
         };
         class HitPoints
         {
