@@ -4,6 +4,10 @@
 // Generated with ALiVE version 1.6.1.1804271
 //////////////////////////////////////////////////////////////////////////////////
 
+#define mag_xx(a,b) class _xx_##a {magazine = ##a; count = b;}
+#define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
+#define item_xx(a,b) class _xx_##a {name = a; count = b;}
+
 
 class CBA_Extended_EventHandlers_base;
 
@@ -1727,6 +1731,300 @@ class CfgVehicles {
         ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_insignia = "USP_PATCH_USA_ARMY_160SOAR_OCP";
 
+    };
+
+    class Box_East_Ammo_F; // CUP_RUBasicAmmunitionBox
+    class Box_NATO_Ammo_F; // CUP_USBasicAmmunitionBox
+    class Box_East_Wps_F; // CUP_RUBasicWeaponsBox
+    class Box_NATO_Wps_F; // CUP_USBasicWeaponsBox
+    class Box_East_Support_F; // CUP_RUSpecialWeaponsBox
+    class Box_NATO_Support_F; // CUP_USSpecialWeaponsBox
+    class Box_East_WpsLaunch_F; // CUP_RULaunchersBox
+    class Box_NATO_WpsLaunch_F; // CUP_USLaunchersBox
+    class Box_NATO_Uniforms_F; // CUP_USBasicWeaponsBox
+    class O_SupplyCrate_F; // CUP_RUVehicleBox
+    class B_SupplyCrate_F; // CUP_USVehicleBox
+
+    class CFP_B_USSEALS_DES_AmmoBox : Box_NATO_Ammo_F {
+        author = ALiVE ORBAT CREATOR;
+        displayName = US Navy Seals (Arid / Desert) Ammo Box;
+        class TransportMagazines {
+            mag_xx(CUP_17Rnd_9x19_glock17,50);
+            mag_xx(CUP_20Rnd_762x51_B_SCAR,50);
+            mag_xx(CUP_HandGrenade_M67,50);
+            mag_xx(Chemlight_green,50);
+            mag_xx(Chemlight_red,50);
+            mag_xx(B_IR_Grenade,50);
+            mag_xx(SmokeShell,50);
+            mag_xx(SmokeShellRed,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M,50);
+            mag_xx(CUP_1Rnd_HEDP_M203,50);
+            mag_xx(CUP_1Rnd_Smoke_M203,50);
+            mag_xx(20Rnd_762x51_Mag,50);
+            mag_xx(DemoCharge_Remote_Mag,50);
+            mag_xx(APERSTripMine_Wire_Mag,50);
+            mag_xx(CUP_PipeBomb_M,50);
+            mag_xx(ClaymoreDirectionalMine_Remote_Mag,50);
+            mag_xx(CUP_200Rnd_TE4_Red_Tracer_556x45_M249,50);
+            mag_xx(SmokeShellBlue,50);
+            mag_xx(Chemlight_blue,50);
+            mag_xx(SatchelCharge_Remote_Mag,50);
+            mag_xx(MiniGrenade,50);
+            mag_xx(CUP_15Rnd_9x19_M9,50);
+            mag_xx(SmokeShellGreen,50);
+            mag_xx(SmokeShellOrange,50);
+        };
+        class TransportWeapons {
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_B_USSEALS_DES_WeaponsBox : Box_NATO_Wps_F {
+        author = ALiVE ORBAT CREATOR;
+        displayName = US Navy Seals (Arid / Desert) Weapons Box;
+        class TransportMagazines {
+            mag_xx(CUP_20Rnd_762x51_B_SCAR,50);
+            mag_xx(CUP_17Rnd_9x19_glock17,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M,50);
+            mag_xx(CUP_1Rnd_HEDP_M203,50);
+            mag_xx(20Rnd_762x51_Mag,50);
+            mag_xx(CUP_200Rnd_TE4_Red_Tracer_556x45_M249,50);
+            mag_xx(CUP_15Rnd_9x19_M9,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_Mk17_CQC_SFG,10);
+            weap_xx(CUP_hgun_Glock17_blk,10);
+            weap_xx(CUP_lmg_Mk48_des,10);
+            weap_xx(CUP_arifle_Mk17_CQC_EGLM,10);
+            weap_xx(srifle_EBR_F,10);
+            weap_xx(CUP_lmg_m249_pip3,10);
+            weap_xx(arifle_SPAR_01_blk_F,10);
+            weap_xx(CUP_arifle_M4A1,10);
+            weap_xx(CUP_hgun_M9,10);
+        };
+        class TransportItems {
+            item_xx(CUP_muzzle_snds_SCAR_H,10);
+            item_xx(CUP_acc_ANPEQ_15,10);
+            item_xx(CUP_optic_ELCAN_SpecterDR,10);
+            item_xx(muzzle_snds_B,10);
+            item_xx(acc_pointer_IR,10);
+            item_xx(optic_DMS,10);
+            item_xx(CFP_optic_ELCAN_SpecterDR_Black,10);
+            item_xx(muzzle_snds_M,10);
+            item_xx(muzzle_snds_L,10);
+            item_xx(CUP_optic_CompM4,10);
+        };
+    };
+    class CFP_B_USSEALS_DES_LaunchersBox : Box_NATO_WpsLaunch_F {
+        author = ALiVE ORBAT CREATOR;
+        displayName = US Navy Seals (Arid / Desert) Launchers Box;
+        class TransportMagazines {
+        };
+        class TransportWeapons {
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_B_USSEALS_DES_UniformBox : Box_NATO_Uniforms_F {
+        author = ALiVE ORBAT CREATOR;
+        displayName = US Navy Seals (Arid / Desert) Uniform Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(CFP_U_Crye_AOR1,15);
+            item_xx(CFP_U_Crye_AOR1_SS,15);
+            item_xx(CFP_U_Crye_Multicam2_SS,15);
+            item_xx(CFP_U_Crye_Multicam2,15);
+            item_xx(U_B_Wetsuit,15);
+            item_xx(CFP_U_FieldUniform_acu,15);
+        };
+    };
+    class CFP_B_USSEALS_DES_SupportBox : Box_NATO_Support_F {
+        author = ALiVE ORBAT CREATOR;
+        displayName = US Navy Seals (Arid / Desert) Support Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(Binocular,10);
+            item_xx(CFP_LBT6094_operator_AOR1,10);
+            item_xx(CFP_OPS2017_Helmet_AOR1,10);
+            item_xx(CFP_Oakleys_Drk,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(ItemGPS,10);
+            item_xx(CFP_Scarfbeard_green,10);
+            item_xx(B_AssaultPack_cbr,10);
+            item_xx(VSM_OPS2017_Helmet_Tan,10);
+            item_xx(CFP_Beard,10);
+            item_xx(CFP_RAV_MG_AOR1,10);
+            item_xx(CFP_Scarfbeardshades_green,10);
+            item_xx(CFP_OPS2017_Helmet_Grey,10);
+            item_xx(G_Bandanna_khk,10);
+            item_xx(CFP_Scarfbeard_grey,10);
+            item_xx(B_Kitbag_cbr,10);
+            item_xx(CFP_CarrierRig_Operator_AOR1,10);
+            item_xx(H_Bandanna_sand,10);
+            item_xx(G_Bandanna_blk,10);
+            item_xx(CUP_TK_NeckScarf,10);
+            item_xx(H_Cap_blk,10);
+            item_xx(CFP_Scarfshades_green,10);
+            item_xx(CFP_CarrierRig_Gunner_AOR1,10);
+            item_xx(H_Bandanna_cbr,10);
+            item_xx(SP_BeanieHat_Tan,10);
+            item_xx(SP_Goggles_Black,10);
+            item_xx(SP_HeadSet_Tan,10);
+            item_xx(CFP_Scarfbeard_white,10);
+            item_xx(H_Cap_tan,10);
+            item_xx(CFP_Scarfshades_tan,10);
+            item_xx(CFP_LBT6094_operator_Multicam,10);
+            item_xx(CFP_Oakleys_Clr,10);
+            item_xx(CFP_AssaultPack_Multicam,10);
+            item_xx(CFP_OPS2017_Helmet_Multicam2,10);
+            item_xx(CUP_FR_NeckScarf,10);
+            item_xx(CFP_RAV_MG_Multicam,10);
+            item_xx(CFP_Scarfshades_grey,10);
+            item_xx(SP_Balaclava_Skull,10);
+            item_xx(B_Kitbag_mcamo,10);
+            item_xx(CFP_CarrierRig_Operator_Multicam,10);
+            item_xx(SP_BaseballCap_Black,10);
+            item_xx(CUP_FR_Neckscarf2,10);
+            item_xx(SP_BoonieHat_Green,10);
+            item_xx(CFP_CarrierRig_Gunner_Multicam,10);
+            item_xx(SP_HeadSet_Green,10);
+            item_xx(SP_HeadSet_Black,10);
+            item_xx(SP_Bandana_Green,10);
+            item_xx(V_RebreatherB,10);
+            item_xx(G_B_Diving,10);
+            item_xx(B_Assault_Diver,10);
+            item_xx(CFP_IOTV_Patrol,10);
+            item_xx(H_PilotHelmetHeli_B,10);
+            item_xx(CUP_NVG_PVS7,10);
+            item_xx(CFP_SOARCREW_RED,10);
+            item_xx(CFP_ANPVS15_Black,10);
+        };
+    };
+    class CFP_B_USSEALS_DES_SupplyBox : B_SupplyCrate_F {
+        author = ALiVE ORBAT CREATOR;
+        displayName = US Navy Seals (Arid / Desert) Supply Box;
+        class TransportMagazines {
+            mag_xx(CUP_17Rnd_9x19_glock17,50);
+            mag_xx(CUP_20Rnd_762x51_B_SCAR,50);
+            mag_xx(CUP_HandGrenade_M67,50);
+            mag_xx(Chemlight_green,50);
+            mag_xx(Chemlight_red,50);
+            mag_xx(B_IR_Grenade,50);
+            mag_xx(SmokeShell,50);
+            mag_xx(SmokeShellRed,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M,50);
+            mag_xx(CUP_1Rnd_HEDP_M203,50);
+            mag_xx(CUP_1Rnd_Smoke_M203,50);
+            mag_xx(20Rnd_762x51_Mag,50);
+            mag_xx(DemoCharge_Remote_Mag,50);
+            mag_xx(APERSTripMine_Wire_Mag,50);
+            mag_xx(CUP_PipeBomb_M,50);
+            mag_xx(ClaymoreDirectionalMine_Remote_Mag,50);
+            mag_xx(CUP_200Rnd_TE4_Red_Tracer_556x45_M249,50);
+            mag_xx(SmokeShellBlue,50);
+            mag_xx(Chemlight_blue,50);
+            mag_xx(SatchelCharge_Remote_Mag,50);
+            mag_xx(MiniGrenade,50);
+            mag_xx(CUP_15Rnd_9x19_M9,50);
+            mag_xx(SmokeShellGreen,50);
+            mag_xx(SmokeShellOrange,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_Mk17_CQC_SFG,10);
+            weap_xx(CUP_hgun_Glock17_blk,10);
+            weap_xx(CUP_lmg_Mk48_des,10);
+            weap_xx(CUP_arifle_Mk17_CQC_EGLM,10);
+            weap_xx(srifle_EBR_F,10);
+            weap_xx(CUP_lmg_m249_pip3,10);
+            weap_xx(arifle_SPAR_01_blk_F,10);
+            weap_xx(CUP_arifle_M4A1,10);
+            weap_xx(CUP_hgun_M9,10);
+        };
+        class TransportItems {
+            item_xx(CUP_muzzle_snds_SCAR_H,10);
+            item_xx(CUP_acc_ANPEQ_15,10);
+            item_xx(CUP_optic_ELCAN_SpecterDR,10);
+            item_xx(muzzle_snds_B,10);
+            item_xx(acc_pointer_IR,10);
+            item_xx(optic_DMS,10);
+            item_xx(CFP_optic_ELCAN_SpecterDR_Black,10);
+            item_xx(muzzle_snds_M,10);
+            item_xx(muzzle_snds_L,10);
+            item_xx(CUP_optic_CompM4,10);
+            item_xx(Binocular,10);
+            item_xx(CFP_LBT6094_operator_AOR1,10);
+            item_xx(CFP_OPS2017_Helmet_AOR1,10);
+            item_xx(CFP_Oakleys_Drk,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(ItemGPS,10);
+            item_xx(CFP_Scarfbeard_green,10);
+            item_xx(B_AssaultPack_cbr,10);
+            item_xx(VSM_OPS2017_Helmet_Tan,10);
+            item_xx(CFP_Beard,10);
+            item_xx(CFP_RAV_MG_AOR1,10);
+            item_xx(CFP_Scarfbeardshades_green,10);
+            item_xx(CFP_OPS2017_Helmet_Grey,10);
+            item_xx(G_Bandanna_khk,10);
+            item_xx(CFP_Scarfbeard_grey,10);
+            item_xx(B_Kitbag_cbr,10);
+            item_xx(CFP_CarrierRig_Operator_AOR1,10);
+            item_xx(H_Bandanna_sand,10);
+            item_xx(G_Bandanna_blk,10);
+            item_xx(CUP_TK_NeckScarf,10);
+            item_xx(H_Cap_blk,10);
+            item_xx(CFP_Scarfshades_green,10);
+            item_xx(CFP_CarrierRig_Gunner_AOR1,10);
+            item_xx(H_Bandanna_cbr,10);
+            item_xx(SP_BeanieHat_Tan,10);
+            item_xx(SP_Goggles_Black,10);
+            item_xx(SP_HeadSet_Tan,10);
+            item_xx(CFP_Scarfbeard_white,10);
+            item_xx(H_Cap_tan,10);
+            item_xx(CFP_Scarfshades_tan,10);
+            item_xx(CFP_LBT6094_operator_Multicam,10);
+            item_xx(CFP_Oakleys_Clr,10);
+            item_xx(CFP_AssaultPack_Multicam,10);
+            item_xx(CFP_OPS2017_Helmet_Multicam2,10);
+            item_xx(CUP_FR_NeckScarf,10);
+            item_xx(CFP_RAV_MG_Multicam,10);
+            item_xx(CFP_Scarfshades_grey,10);
+            item_xx(SP_Balaclava_Skull,10);
+            item_xx(B_Kitbag_mcamo,10);
+            item_xx(CFP_CarrierRig_Operator_Multicam,10);
+            item_xx(SP_BaseballCap_Black,10);
+            item_xx(CUP_FR_Neckscarf2,10);
+            item_xx(SP_BoonieHat_Green,10);
+            item_xx(CFP_CarrierRig_Gunner_Multicam,10);
+            item_xx(SP_HeadSet_Green,10);
+            item_xx(SP_HeadSet_Black,10);
+            item_xx(SP_Bandana_Green,10);
+            item_xx(V_RebreatherB,10);
+            item_xx(G_B_Diving,10);
+            item_xx(B_Assault_Diver,10);
+            item_xx(CFP_IOTV_Patrol,10);
+            item_xx(H_PilotHelmetHeli_B,10);
+            item_xx(CUP_NVG_PVS7,10);
+            item_xx(CFP_SOARCREW_RED,10);
+            item_xx(CFP_ANPVS15_Black,10);
+            item_xx(CFP_U_Crye_AOR1,10);
+            item_xx(CFP_U_Crye_AOR1_SS,10);
+            item_xx(CFP_U_Crye_Multicam2_SS,10);
+            item_xx(CFP_U_Crye_Multicam2,10);
+            item_xx(U_B_Wetsuit,10);
+            item_xx(CFP_U_FieldUniform_acu,10);
+        };
     };
 
 };
