@@ -4,6 +4,7 @@
 #include "CFP_B_GBARMY_WDL_Logistics.hpp"
 #include "CFP_B_IQARMY_Logistics.hpp"
 #include "CFP_B_IQPOLICE_Logistics.hpp"
+#include "CFP_B_ILIDF_Logistics.hpp"
 #include "CFP_B_KEARMY_Logistics.hpp"
 #include "CFP_B_NAARMY_Logistics.hpp"
 #include "CFP_B_PESH_Logistics.hpp"

@@ -4,6 +4,10 @@
 // Generated with ALiVE version 1.6.1.1804271
 //////////////////////////////////////////////////////////////////////////////////
 
+#define mag_xx(a,b) class _xx_##a {magazine = ##a; count = b;}
+#define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
+#define item_xx(a,b) class _xx_##a {name = a; count = b;}
+
 class CBA_Extended_EventHandlers_base;
 
 class CfgVehicles {
@@ -2291,6 +2295,298 @@ class CfgVehicles {
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
 
+    };
+
+    class Box_East_Ammo_F; // CUP_RUBasicAmmunitionBox
+    class CUP_USBasicAmmunitionBox; // CUP_USBasicAmmunitionBox
+    class Box_East_Wps_F; // CUP_RUBasicWeaponsBox
+    class CUP_USBasicWeaponsBox; // CUP_USBasicWeaponsBox
+    class Box_East_Support_F; // CUP_RUSpecialWeaponsBox
+    class CUP_USSpecialWeaponsBox; // CUP_USSpecialWeaponsBox
+    class Box_East_WpsLaunch_F; // CUP_RULaunchersBox
+    class CUP_USLaunchersBox; // CUP_USLaunchersBox
+    class O_SupplyCrate_F; // CUP_RUVehicleBox
+    class CUP_USVehicleBox; // CUP_USVehicleBox
+
+    class CFP_B_ILIDF_AmmoBox : CUP_USBasicAmmunitionBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Israeli Defense Force Ammo Box;
+        class TransportMagazines {
+            mag_xx(30Rnd_556x45_Stanag,50);
+            mag_xx(Chemlight_green,50);
+            mag_xx(CUP_HandGrenade_M67,50);
+            mag_xx(SmokeShell,50);
+            mag_xx(1Rnd_HE_Grenade_shell,50);
+            mag_xx(1Rnd_Smoke_Grenade_shell,50);
+            mag_xx(150Rnd_762x54_Box,50);
+            mag_xx(150Rnd_762x51_Box,50);
+            mag_xx(DemoCharge_Remote_Mag,50);
+            mag_xx(APERSTripMine_Wire_Mag,50);
+            mag_xx(ATMine_Range_Mag,50);
+            mag_xx(ClaymoreDirectionalMine_Remote_Mag,50);
+            mag_xx(CUP_5Rnd_762x51_M24,50);
+            mag_xx(30Rnd_9x21_Yellow_Mag,50);
+            mag_xx(SmokeShellGreen,50);
+            mag_xx(SmokeShellOrange,50);
+            mag_xx(SmokeShellPurple,50);
+            mag_xx(CUP_17Rnd_9x19_glock17,50);
+            mag_xx(CUP_30Rnd_556x45_Stanag,50);
+            mag_xx(CUP_1Rnd_HEDP_M203,50);
+            mag_xx(CUP_1Rnd_Smoke_M203,50);
+            mag_xx(SatchelCharge_Remote_Mag,50);
+            mag_xx(CUP_M72A6_M,50);
+            mag_xx(CUP_10Rnd_127x99_M107,50);
+            mag_xx(Chemlight_red,50);
+            mag_xx(B_IR_Grenade,50);
+            mag_xx(CUP_PipeBomb_M,50);
+        };
+        class TransportWeapons {
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_B_ILIDF_WeaponsBox : CUP_USBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Israeli Defense Force Weapons Box;
+        class TransportMagazines {
+            mag_xx(30Rnd_556x45_Stanag,50);
+            mag_xx(1Rnd_HE_Grenade_shell,50);
+            mag_xx(150Rnd_762x54_Box,50);
+            mag_xx(CUP_5Rnd_762x51_M24,50);
+            mag_xx(30Rnd_9x21_Yellow_Mag,50);
+            mag_xx(CUP_30Rnd_556x45_Stanag,50);
+            mag_xx(CUP_17Rnd_9x19_glock17,50);
+            mag_xx(CUP_1Rnd_HEDP_M203,50);
+            mag_xx(CUP_10Rnd_127x99_M107,50);
+        };
+        class TransportWeapons {
+            weap_xx(CFP_Tavor_Black,10);
+            weap_xx(CFP_Tavor_Black_GL,10);
+            weap_xx(LMG_Zafir_F,10);
+            weap_xx(CUP_srifle_M24_wdl,10);
+            weap_xx(hgun_PDW2000_Holo_F,10);
+            weap_xx(CFP_arifle_M4A3_black,10);
+            weap_xx(CUP_hgun_Glock17_blk,10);
+            weap_xx(CUP_arifle_M4A1_BUIS_GL,10);
+            weap_xx(CUP_srifle_M107_Base,10);
+        };
+        class TransportItems {
+            item_xx(optic_Holosight_blk_F,10);
+            item_xx(CUP_optic_LeupoldMk4_10x40_LRT_Woodland,10);
+            item_xx(optic_Holosight_smg_blk_F,10);
+            item_xx(optic_Holosight_smg,10);
+            item_xx(CUP_muzzle_snds_M16,10);
+            item_xx(CFP_acc_ANPEQ15_Black,10);
+            item_xx(optic_MRCO,10);
+            item_xx(CUP_optic_ACOG,10);
+            item_xx(CUP_optic_LeupoldM3LR,10);
+            item_xx(muzzle_snds_M,10);
+            item_xx(acc_pointer_IR,10);
+            item_xx(muzzle_snds_L,10);
+        };
+    };
+    class CFP_B_ILIDF_LaunchersBox : CUP_USLaunchersBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Israeli Defense Force Launchers Box;
+        class TransportMagazines {
+            mag_xx(CUP_M136_M,5);
+            mag_xx(CUP_Stinger_M,5);
+            mag_xx(CUP_M72A6_M,5);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_launch_M136,5);
+            weap_xx(CUP_launch_FIM92Stinger,5);
+            weap_xx(CUP_launch_M72A6,5);
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_B_ILIDF_UniformBox : CUP_USBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Israeli Defense Force Uniform Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(CFP_U_FieldUniform_idf_SS,15);
+            item_xx(CFP_U_FieldUniform_idf,15);
+            item_xx(SP_0000_Standard_FieldUniform_Green,15);
+            item_xx(U_I_pilotCoveralls,15);
+            item_xx(CFP_U_Crye_IDF_SS,15);
+        };
+    };
+    class CFP_B_ILIDF_SupportBox : CUP_USSpecialWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Israeli Defense Force Support Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(CFP_Modular1_IDF,10);
+            item_xx(CFP_IDF_GOLANI_BLACK,10);
+            item_xx(SP_Kneepads_Black2,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(CFP_IDF_GOLANI,10);
+            item_xx(CFP_AssaultPack_IDF,10);
+            item_xx(SP_Kneepads_Green2,10);
+            item_xx(B_Kitbag_rgr,10);
+            item_xx(H_HelmetCrew_I,10);
+            item_xx(CUP_NVG_HMNVS,10);
+            item_xx(V_TacVest_oli,10);
+            item_xx(H_PilotHelmetHeli_B,10);
+            item_xx(G_Combat,10);
+            item_xx(H_CrewHelmetHeli_B,10);
+            item_xx(H_PilotHelmetFighter_I,10);
+            item_xx(G_Squares_Tinted,10);
+            item_xx(B_Parachute,10);
+            item_xx(Binocular,10);
+            item_xx(CFP_LBT1961_GRN,10);
+            item_xx(SP_Balaclava_Black,10);
+            item_xx(SP_Kneepads_Green,10);
+            item_xx(ItemGPS,10);
+            item_xx(SP_Balaclava_IDF,10);
+            item_xx(SP_Kneepads_Black,10);
+            item_xx(CFP_IDF_GOLANI_GREEN,10);
+            item_xx(CFP_IDF_GOLANI_CAMO,10);
+            item_xx(CUP_B_M2_MiniTripod_Bag,10);
+            item_xx(CUP_B_M2_Gun_Bag,10);
+            item_xx(CUP_B_M252_Bipod_Bag,10);
+            item_xx(CUP_B_M252_Gun_Bag,10);
+            item_xx(CUP_B_Mk19_Tripod_Bag,10);
+            item_xx(CUP_B_Mk19_Gun_Bag,10);
+            item_xx(CUP_B_TOW_Tripod_Bag,10);
+            item_xx(CUP_B_Tow_Gun_Bag,10);
+            item_xx(CFP_CarrierRig_Operator_OGA_OD,10);
+            item_xx(CFP_OpsC_Uncov_Full_IDF,10);
+            item_xx(G_I_Diving,10);
+            item_xx(CFP_ANPVS15_Black,10);
+            item_xx(CFP_FAPC_Operator_OGA_OD,10);
+            item_xx(CFP_OpsC_Covered2_IDF,10);
+            item_xx(CFP_Face_Wear_Blk,10);
+            item_xx(CFP_CarrierRig_Gunner_OGA_OD,10);
+            item_xx(CFP_Kitbag_Drab,10);
+            item_xx(B_UAV_01_backpack_F,10);
+            item_xx(B_UavTerminal,10);
+        };
+    };
+    class CFP_B_ILIDF_SupplyBox : CUP_USVehicleBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Israeli Defense Force Supply Box;
+        class TransportMagazines {
+            mag_xx(30Rnd_556x45_Stanag,50);
+            mag_xx(Chemlight_green,50);
+            mag_xx(CUP_HandGrenade_M67,50);
+            mag_xx(SmokeShell,50);
+            mag_xx(1Rnd_HE_Grenade_shell,50);
+            mag_xx(1Rnd_Smoke_Grenade_shell,50);
+            mag_xx(150Rnd_762x54_Box,50);
+            mag_xx(150Rnd_762x51_Box,50);
+            mag_xx(DemoCharge_Remote_Mag,50);
+            mag_xx(APERSTripMine_Wire_Mag,50);
+            mag_xx(ATMine_Range_Mag,50);
+            mag_xx(ClaymoreDirectionalMine_Remote_Mag,50);
+            mag_xx(CUP_5Rnd_762x51_M24,50);
+            mag_xx(30Rnd_9x21_Yellow_Mag,50);
+            mag_xx(SmokeShellGreen,50);
+            mag_xx(SmokeShellOrange,50);
+            mag_xx(SmokeShellPurple,50);
+            mag_xx(CUP_17Rnd_9x19_glock17,50);
+            mag_xx(CUP_30Rnd_556x45_Stanag,50);
+            mag_xx(CUP_1Rnd_HEDP_M203,50);
+            mag_xx(CUP_1Rnd_Smoke_M203,50);
+            mag_xx(SatchelCharge_Remote_Mag,50);
+            mag_xx(CUP_M72A6_M,50);
+            mag_xx(CUP_10Rnd_127x99_M107,50);
+            mag_xx(Chemlight_red,50);
+            mag_xx(B_IR_Grenade,50);
+            mag_xx(CUP_PipeBomb_M,50);
+        };
+        class TransportWeapons {
+            weap_xx(CFP_Tavor_Black,10);
+            weap_xx(CFP_Tavor_Black_GL,10);
+            weap_xx(LMG_Zafir_F,10);
+            weap_xx(CUP_srifle_M24_wdl,10);
+            weap_xx(hgun_PDW2000_Holo_F,10);
+            weap_xx(CFP_arifle_M4A3_black,10);
+            weap_xx(CUP_hgun_Glock17_blk,10);
+            weap_xx(CUP_arifle_M4A1_BUIS_GL,10);
+            weap_xx(CUP_srifle_M107_Base,10);
+            weap_xx(CUP_launch_M136,10);
+            weap_xx(CUP_launch_FIM92Stinger,10);
+            weap_xx(CUP_launch_M72A6,10);
+        };
+        class TransportItems {
+            item_xx(optic_Holosight_blk_F,10);
+            item_xx(CUP_optic_LeupoldMk4_10x40_LRT_Woodland,10);
+            item_xx(optic_Holosight_smg_blk_F,10);
+            item_xx(optic_Holosight_smg,10);
+            item_xx(CUP_muzzle_snds_M16,10);
+            item_xx(CFP_acc_ANPEQ15_Black,10);
+            item_xx(optic_MRCO,10);
+            item_xx(CUP_optic_ACOG,10);
+            item_xx(CUP_optic_LeupoldM3LR,10);
+            item_xx(muzzle_snds_M,10);
+            item_xx(acc_pointer_IR,10);
+            item_xx(muzzle_snds_L,10);
+            item_xx(CFP_Modular1_IDF,10);
+            item_xx(CFP_IDF_GOLANI_BLACK,10);
+            item_xx(SP_Kneepads_Black2,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(CFP_IDF_GOLANI,10);
+            item_xx(CFP_AssaultPack_IDF,10);
+            item_xx(SP_Kneepads_Green2,10);
+            item_xx(B_Kitbag_rgr,10);
+            item_xx(H_HelmetCrew_I,10);
+            item_xx(CUP_NVG_HMNVS,10);
+            item_xx(V_TacVest_oli,10);
+            item_xx(H_PilotHelmetHeli_B,10);
+            item_xx(G_Combat,10);
+            item_xx(H_CrewHelmetHeli_B,10);
+            item_xx(H_PilotHelmetFighter_I,10);
+            item_xx(G_Squares_Tinted,10);
+            item_xx(B_Parachute,10);
+            item_xx(Binocular,10);
+            item_xx(CFP_LBT1961_GRN,10);
+            item_xx(SP_Balaclava_Black,10);
+            item_xx(SP_Kneepads_Green,10);
+            item_xx(ItemGPS,10);
+            item_xx(SP_Balaclava_IDF,10);
+            item_xx(SP_Kneepads_Black,10);
+            item_xx(CFP_IDF_GOLANI_GREEN,10);
+            item_xx(CFP_IDF_GOLANI_CAMO,10);
+            item_xx(CUP_B_M2_MiniTripod_Bag,10);
+            item_xx(CUP_B_M2_Gun_Bag,10);
+            item_xx(CUP_B_M252_Bipod_Bag,10);
+            item_xx(CUP_B_M252_Gun_Bag,10);
+            item_xx(CUP_B_Mk19_Tripod_Bag,10);
+            item_xx(CUP_B_Mk19_Gun_Bag,10);
+            item_xx(CUP_B_TOW_Tripod_Bag,10);
+            item_xx(CUP_B_Tow_Gun_Bag,10);
+            item_xx(CFP_CarrierRig_Operator_OGA_OD,10);
+            item_xx(CFP_OpsC_Uncov_Full_IDF,10);
+            item_xx(G_I_Diving,10);
+            item_xx(CFP_ANPVS15_Black,10);
+            item_xx(CFP_FAPC_Operator_OGA_OD,10);
+            item_xx(CFP_OpsC_Covered2_IDF,10);
+            item_xx(CFP_Face_Wear_Blk,10);
+            item_xx(CFP_CarrierRig_Gunner_OGA_OD,10);
+            item_xx(CFP_Kitbag_Drab,10);
+            item_xx(B_UAV_01_backpack_F,10);
+            item_xx(B_UavTerminal,10);
+            item_xx(CFP_U_FieldUniform_idf_SS,10);
+            item_xx(CFP_U_FieldUniform_idf,10);
+            item_xx(SP_0000_Standard_FieldUniform_Green,10);
+            item_xx(U_I_pilotCoveralls,10);
+            item_xx(CFP_U_Crye_IDF_SS,10);
+        };
     };
 
 };
