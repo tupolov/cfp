@@ -133,16 +133,30 @@ CFP factions cover major current conflict zones such as Afghanistan, Iraq, Syria
 * YPG (Syrian Kurds) - cfp_b_ypg
 
 ### CIVILIAN
-- **African** (Christian)
-- **African** (Muslim)
-- **Asian**
-- International Committee of the Red Cross
-- **Afghani/Pakistani**
-- **Middle Eastern** (Iraqi/Syrian/Libyan)
-- South American
+* **African** (Christian)
+* **African** (Muslim)
+* **Asian**
+* International Committee of the Red Cross
+* **Afghani/Pakistani**
+* **Middle Eastern** (Iraqi/Syrian/Libyan)
+* South American
 
 ## Customizing loadouts for CFP units in 3DEN
-CFP uses technology to script and randomize loadouts of units. In order to customize the loadouts of units in 3DEN editor, you will first need to disable the scripted loadout and/or the randomization. To do this simply **Right-Click** the unit in 3DEN and select **Attributes**, then check the box **Override ALiVE ORBAT Loadout** and/or **Disable CFP Randomization** as needed.
+CFP uses technology to script and randomize loadouts of units - this provides a massive variety for the units you'll see on the battlefield. In order to customize the loadouts of units in 3DEN editor, you will first need to disable the scripted loadout and/or the randomization. To do this simply:
+
+1. Right-Click the unit in 3D Editor (3DEN)
+2. Select Attributes
+3. Check the box Override ALiVE ORBAT Loadout and/or Disable CFP Randomization as needed.
+
+## Contributors
+* Tupolov
+* AUTigerGrad
+* AccuracyThruVolume
+* Archduke
+* SP Craig
+* VanSchmoozin
+* Siege-A
+* Hawaiian
 
 ## Assets Needed for CFP
 
