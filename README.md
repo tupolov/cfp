@@ -30,21 +30,23 @@ CFP Ultimate will enhance base CFP factions (if running CFP) and introduces new 
 Factions are delivered in a modular way, enabling groups to maintain their own tailored version of CFP by simply excluding any components they don't need, or those possibly in conflict with other mods. 
 
 ## CFP Features
-- CFP plus CFP Ultimate provides 91 new factions!
-- CFP introduces 59 new factions based on CUP + custom assets (including 9 new civilian factions)
-- Replaces certain CUP factions with factions split by theater (i.e. Arid/Desert, Woodland/Jungle, Artic/Snow etc)
-- Enhances certain CUP factions with additonal groups and loadouts (i.e. special forces)
-- Includes AccuracyThruVolume's Iraq/Syria pack
-- Includes SP Craig's gear pack
-- Includes Siege-A's insignias and patches content
-- Includes VanSchmoozin's vests and helmets content
-- Additional custom textures and assets donated by community members
-- 900+ custom helmets, vests, uniforms, rucks and more
-- Randomization tech that provides variation of gear and equipment to appropriate units and vehicles resulting in hundreds of possible civilian, insurgent, PMC, clandestine operative and special forces units and vehicles.
-- Standardizes faction and group configurations for the community
-- Follows best practice configuration and implementation using CBA and ACE3 standards
-- Full support for ZEUS, ALiVE, ACE3 and VCOM
-- CFP Ultimate will enhance the CFP factions and introduces 32 new factions/sub-factions based on common community addons taking the total new or enhanced factions to over 100!
+* CFP plus CFP Ultimate provides 91 new factions! (excluding enhanced CUP factions)
+* CFP introduces 59 new factions based on CUP + custom assets (including 9 new civilian factions)
+* Replaces certain CUP factions with factions split by theater (i.e. Arid/Desert, Woodland/Jungle, Artic/Snow etc)
+* Enhances certain CUP factions with additonal groups and loadouts (i.e. special forces)
+* Includes AccuracyThruVolume's Iraq/Syria pack
+* Includes SP Craig's gear pack
+* Includes Siege-A's insignias and patches content
+* Includes VanSchmoozin's vests and helmets content
+* Includes 75th Rangers mod content, thanks to Hawaiian and co!
+* Additional custom textures and assets donated by community members
+* 900+ custom helmets, vests, uniforms, rucks and more
+* Custom Supply Crates for each faction
+* Randomization tech that provides variation of gear and equipment to appropriate units and vehicles resulting in hundreds of possible civilian, insurgent, PMC, clandestine operative and special forces units and vehicles.
+* Standardizes faction and group configurations for the community
+* Follows best practice configuration and implementation using CBA and ACE3 standards
+* Full support for ZEUS, ALiVE, ACE3 and VCOM
+* CFP Ultimate will enhance the CFP factions and introduces 32 new factions/sub-factions based on common community addons taking the total new or enhanced factions to over 100!
 
 ## CFP Factions
 
@@ -53,74 +55,82 @@ CFP factions cover major current conflict zones such as Afghanistan, Iraq, Syria
 **bold** = Complete
 
 ### OPFOR
-- Abu Sayyaf
-- **Al-Qaeda**
-- Al-Qassam Brigades
-- **Al-Shabaab**
-- **Boko Haram** (Nigeria)
-- Central African Rebels
-- Columbian FARC Rebels
-- **Hezbollah**
-- Houthis (Yemen)
-- IRA
-- Iraqi Army (2003)
-- **Islamic State**
-- Libyan National Army
-- Mali Islamic Rebels
-- **Russian Ground Forces** - split into various theater specific factions including Special Operations Forces
-- **Russian National Guard** (formerly MVD)
-- Russian Navy
-- **Somali Rebels**
-- South Thailand Insurgents
-- Sudan Army
-- Syrian Air Force
-- **Syrian Arab Army**
-- **Taliban Insurgents**
-- Western Ultranationalists / Terrorist
+* Abu Sayyaf
+* Al-Qaeda - cfp_o_alqaeda
+* Al-Qassam Brigades (Hamas) - cfp_o_hamas
+* Al-Shabaab - cfp_o_alshabaab
+* Boko Haram (Nigeria) - cfp_o_bokoharam
+* Central African Rebels - cfp_o_cfrebels
+* Columbian FARC Rebels
+* Hezbollah - cfp_o_hezbollah
+* Houthis (Yemen) - cfp_o_ansarallah
+* IRA
+* Iraqi Army (2003)
+* Islamic Republic of Iran Army - cfp_o_irarmy
+* Islamic State - cfp_o_isis
+* Libyan National Army
+* Mali Islamic Rebels
+* Russian Ground Forces - split into various theater specific factions including Special Operations Forces - cup_o_ru, cfp_o_ruarmy_des
+* Russian National Guard (formerly MVD) - cfp_o_rumvd
+* Russian Navy
+* Somali Rebels - cfp_o_sorebel
+* South Thailand Insurgents
+* Sudan Revolutionary Front - cfp_o_sdrebels
+* Sudan People's Liberation Movement In Opposition - cfp_o_ssrebels
+* Syrian Air Force
+* Syrian Arab Army - cfp_o_syarmy
+* Taliban Insurgents - cfp_o_tban
 
 ### INDFOR
-- **Al-Nusra**
-- Afghani Militia
-- Central African Republic Armed Forces
-- Chechnya Militia
-- Columbian Armed Forces
-- Egyptian Armed Forces
-- Free Syrian Army
-- **Islamic State**
-- Myanmar Armed Forces
-- PMC: Blackwater
-- PMC: ION - split into various theater specific factions
-- Sudanese Rebels
-- Tuareg Rebels
-- Ulster Loyalist Paramilitaries (Ulster Volunteer Force)
-- UNAMID (Niger, Chad, Cameroon etc)
-- United Nations - split into various theater specific factions
-- Yemen Armed Forces
+* Al-Nusra - cfp_i_alnusra
+* Afghani Militia
+* Central African Republic Armed Forces
+* Chechnya Militia
+* Columbian Armed Forces
+* Egyptian Armed Forces
+* Free Syrian Army
+* Islamic State - cfp_i_isis
+* Myanmar Armed Forces
+* PMC: Blackwater
+* PMC: ION - split into various theater specific factions
+* South Sudan People's Defense Force - cfp_i_ssarmy
+* Sudan People's Liberation Movement North - cfp_i_sdrebels
+* Tuareg Rebels - cfp_i_tuareg
+* Ulster Loyalist Paramilitaries (Ulster Volunteer Force)
+* UNAMID (Niger, Chad, Cameroon etc)
+* United Nations - split into various theater specific factions
+* Western Ultranationalists / Terrorist - cfp_i_westultra 
+* Yemen Armed Forces
 
 ### BLUFOR
-- **Afghan Police**
-- **Afghanistan Army**
-- **Armed Forces of the Czech Republic** - split into theater factions
-- **British Army** - split into theater factions
-- **Bundeswehr (KSK)**  - split into theater factions
-- **Iraqi Armed Forces**
-- **Iraqi Police**
-- Jordanian Armed Forces
-- **Kenyan Defence Forces**
-- **Kurdish Peshmurga**
-- Libyan National Transitional Council / Government Forces
-- Malian Government Forces
-- **Nigerian Armed Forces** (Nigeria)
-- Philippine Army
-- Saudi Armed Forces
-- Somali National Army
-- **Ugandan Defence Forces**
-- Ukraine Armed Forces
-- **US Army** - split into theater factions
-- **US CIA** (Middle East) 
-- US CIA (South America)
-- **US Marine Corps** - split into theater factions
-- **YPG** (Syrian Kurds)
+* Afghan Police - cfp_b_afpolice
+* Afghanistan Army - cfp_b_afarmy
+* Armed Forces of the Czech Republic - split into theater factions - cfp_b_czarmy_wdl, cup_b_cz
+* British Army - split into theater factions - cup_b_gb, cfp_b_gbarmy_wdl
+* Bundeswehr (KSK) - split into theater factions - cfp_b_dearmy_wdl, cup_b_ger
+* Iraqi Armed Forces - cfp_b_iqarmy
+* Iraqi Police - cfp_b_iqpolice
+* Israeli Defence Force - cfp_b_ilidf
+* Jordanian Armed Forces
+* Kenyan Defence Forces - cfp_b_kearmy
+* Kurdish Peshmurga - cfp_b_pesh
+* Libyan National Transitional Council / Government Forces
+* Malian Government Forces
+* Nigerian Armed Forces (Nigeria) - cfp_b_ngarmy
+* Philippine Army
+* Saudi Armed Forces
+* Somali National Army
+* Sudanese Armed Forces - cfp_b_sdarmy
+* Sudanese Rapid Support Forces / Janjaweed - cfp_b_sdmilitia
+* Ugandan Defence Forces - cfp_b_ugarmy
+* Ukraine Armed Forces
+* US 75th Rangers - cfp_b_usrangers_wdl
+* US Army - split into theater factions (Delta Force enhanced) - cup_b_us_army, cfp_b_usarmy_wdl
+* US CIA (Middle East) - cfp_b_uscia
+* US CIA (South America)
+* US Marine Corps - split into theater factions - cup_b_usmc, cfp_b_usmc_des
+* US Navy SEALs - split into theater factions - cfp_b_usseals_des, cfp_b_usseals_wdl 
+* YPG (Syrian Kurds) - cfp_b_ypg
 
 ### CIVILIAN
 - **African** (Christian)
