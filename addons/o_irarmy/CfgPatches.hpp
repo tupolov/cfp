@@ -83,7 +83,6 @@ class CfgPatches {
             "CFP_O_HEZBOLLAH",
             "CFP_B_NAARMY",
             "CFP_B_UGARMY",
-            "CFP_B_CAF",
             "CFP_B_AFARMY",
             "CFP_B_USMC_DES",
             "CFP_B_KEARMY",
