@@ -239,6 +239,19 @@
 
 	};
 
+	class CFP_BattleDressUniform_drk: CFP_Uniform
+	{
+
+
+		displayName = "Battle Dress Uniform (DRK)";
+
+		uniformClass = "CFP_U_BattleDressUniform_drk";
+
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_drk.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_drk.paa"};
+
+
+	};
+
 	class CFP_BattleDressUniform_DPMWoodland: CFP_Uniform
 	{
 
@@ -397,13 +410,6 @@
 		displayName = "Battle Dress Uniform (Iran DPM)";
 		uniformClass = "CFP_U_BattleDressUniform_irandpm";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_irandpm.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_irandpm.paa"};
-	};
-
-	class CFP_BattleDressUniform_idf : CFP_Uniform
-	{
-		displayName = "Battle Dress Uniform (Israeli Defense Force)";
-		uniformClass = "CFP_U_BattleDressUniform_idf";
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_idf.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_idf.paa"};
 	};
 
 	class CFP_BattleDressUniform_ana_wdlight : CFP_Uniform

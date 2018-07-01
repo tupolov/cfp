@@ -93,19 +93,59 @@
 		};
 	};
 
-	class CFP_U_WorkUniform_IDF: Uniform_Base
+	class CFP_U_WorkUniform_DRK: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_WorkUniform_NodUrban.paa";
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Work Uniform (IDF)";
+		displayName = "Work Uniform (DRK)";
 		// picture = "\x\cfp\addons\uniforms\WorkUniform\0000_Standard\ui\NodUrban.jpg";
 		author = "AuburnAlumni";
 
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "CFP_WOrkUniform_IDF";
+			uniformClass = "CFP_WOrkUniform_DRK";
+			containerClass="Supply60";
+			mass=80;
+
+
+		};
+	};
+
+	class CFP_U_WorkUniform_DRK2: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_WorkUniform_NodUrban.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Work Uniform (DRK Camo)";
+		// picture = "\x\cfp\addons\uniforms\WorkUniform\0000_Standard\ui\NodUrban.jpg";
+		author = "AuburnAlumni";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_WOrkUniform_DRK2";
+			containerClass="Supply60";
+			mass=80;
+
+
+		};
+	};
+
+	class CFP_U_WorkUniform_DRK2v2: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_WorkUniform_NodUrban.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Work Uniform (DRK Camo2)";
+		// picture = "\x\cfp\addons\uniforms\WorkUniform\0000_Standard\ui\NodUrban.jpg";
+		author = "AuburnAlumni";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_WOrkUniform_DRK2v2";
 			containerClass="Supply60";
 			mass=80;
 

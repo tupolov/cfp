@@ -333,3 +333,30 @@ class CfgVehicleClasses
 		};
 	};
 
+	class SP_SSh68CoverHelmet_DRK: ItemCore
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_SSh68CoverHelmet_Green1.paa";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "SSh68 Cover Helmet (North Korean Camo)";
+		// picture = "\x\cfp\addons\headgear\SSh68CoverHelmet\ui\Green1.jpg";
+		model = "\x\cfp\addons\models\SSh68CoverHelmet1";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\DRK.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "AuburnAlumni";
+
+
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 60;
+			uniformmodel = "\x\cfp\addons\models\SSh68CoverHelmet1";
+			modelSides[] = {3,1};
+			armor = 10;
+			passThrough = 0.30;
+			HITPOINTS_HEAD(10,0.30)
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\DRK.paa"};
+			hiddenSelections[] = {"Camo"};
+		};
+	};
+
