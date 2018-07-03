@@ -1,3 +1,7 @@
+#define mag_xx(a,b) class _xx_##a {magazine = ##a; count = b;}
+#define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
+#define item_xx(a,b) class _xx_##a {name = a; count = b;}
+
 class CBA_Extended_EventHandlers_base;
 class EventHandlers_base;
 class Extended_Init_Eventhandlers;
@@ -348,7 +352,7 @@ class CfgVehicles {
         {
             "",
             1,
-            "SP_Beret2_Green"
+            "SP_Beret2_Green",0.2
         };
         class HitPoints
         {
@@ -515,7 +519,7 @@ class CfgVehicles {
         {
             "",
             1,
-            "SP_Beret2_Green"
+            "SP_Beret2_Green",0.2
         };
         class HitPoints
         {
@@ -702,7 +706,7 @@ class CfgVehicles {
         {
             "",
             1,
-            "SP_Beret2_Green"
+            "SP_Beret2_Green",0.2
         };
         class HitPoints
         {
@@ -869,7 +873,7 @@ class CfgVehicles {
         {
             "",
             1,
-            "SP_Beret2_Green"
+            "SP_Beret2_Green",0.2
         };
         class HitPoints
         {
@@ -1180,7 +1184,7 @@ class CfgVehicles {
         {
             "",
             1,
-            "SP_Beret2_Green"
+            "SP_Beret2_Green",0.2
         };
         class HitPoints
         {
@@ -1343,8 +1347,8 @@ class CfgVehicles {
             "\x\cfp\addons\o_ssrebels\Data\Taki_RSF.paa"
         };
     };
-    class CFP_O_SSREBELS_Soldier_01: CFP_O_SSREBELS_Soldier_Base_01
-    {
+    class CFP_O_SSREBELS_Soldier_01 : CFP_O_SSREBELS_Soldier_Base_01 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_01.JPG;
         displayName="Rifleman";
         scope=2;
         scopeCurator=2;
@@ -1398,9 +1402,7 @@ class CfgVehicles {
             "CUP_HandGrenade_RGD5",
             "CUP_HandGrenade_RGD5"
         };
-        ALiVE_orbatCreator_loadout[]=
-        {
-        };
+
         randomGearProbability=100;
         uniformList[]=
         {
@@ -1523,12 +1525,12 @@ class CfgVehicles {
                 init="if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_FLAG_SOUTH_SUDAN'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
         };
-        ALiVE_orbatCreator_owned=1;
+        //ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SOUTH_SUDAN";
-        editorPreview="\x\cfp\addons\o_ssrebels\Data\Preview\Rifleman.jpg";
+
     };
-    class CFP_O_SSREBELS_Soldier_02: CFP_O_SSREBELS_Soldier_Base_01
-    {
+    class CFP_O_SSREBELS_Soldier_02 : CFP_O_SSREBELS_Soldier_Base_01 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_02.JPG;
         displayName="Rifleman";
         scope=2;
         scopeCurator=2;
@@ -1582,9 +1584,7 @@ class CfgVehicles {
             "CUP_HandGrenade_RGD5",
             "CUP_HandGrenade_RGD5"
         };
-        ALiVE_orbatCreator_loadout[]=
-        {
-        };
+
         randomGearProbability=100;
         uniformList[]=
         {
@@ -1707,12 +1707,12 @@ class CfgVehicles {
                 init="if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_FLAG_SOUTH_SUDAN'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
         };
-        ALiVE_orbatCreator_owned=1;
+        //ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SOUTH_SUDAN";
-        editorPreview="\x\cfp\addons\o_ssrebels\Data\Preview\Rifleman.jpg";
+
     };
-    class CFP_O_SSREBELS_Soldier_03: CFP_O_SSREBELS_Soldier_Base_Hunter
-    {
+    class CFP_O_SSREBELS_Soldier_03 : CFP_O_SSREBELS_Soldier_Base_Hunter {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_03.JPG;
         displayName="Rifleman AT";
         scope=2;
         scopeCurator=2;
@@ -1767,9 +1767,7 @@ class CfgVehicles {
             "CUP_30Rnd_762x39_AK47_M",
             "CUP_PG7V_M"
         };
-        ALiVE_orbatCreator_loadout[]=
-        {
-        };
+
         randomGearProbability=100;
         uniformList[]=
         {
@@ -1892,12 +1890,12 @@ class CfgVehicles {
                 init="if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_FLAG_SOUTH_SUDAN'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
         };
-        ALiVE_orbatCreator_owned=1;
+        //ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SOUTH_SUDAN";
-        editorPreview="\x\cfp\addons\o_ssrebels\Data\Preview\RiflemanAT.jpg";
+
     };
-    class CFP_O_SSREBELS_Soldier_04: CFP_O_SSREBELS_Soldier_Base_Guerrilla
-    {
+    class CFP_O_SSREBELS_Soldier_04 : CFP_O_SSREBELS_Soldier_Base_Guerrilla {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_04.JPG;
         displayName="Machinegunner";
         scope=2;
         scopeCurator=2;
@@ -1947,9 +1945,7 @@ class CfgVehicles {
             "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",
             "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"
         };
-        ALiVE_orbatCreator_loadout[]=
-        {
-        };
+
         randomGearProbability=100;
         uniformList[]=
         {
@@ -2052,12 +2048,12 @@ class CfgVehicles {
                 init="if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_FLAG_SOUTH_SUDAN'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
         };
-        ALiVE_orbatCreator_owned=1;
+        //ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SOUTH_SUDAN";
-        editorPreview="\x\cfp\addons\o_ssrebels\Data\Preview\MG.jpg";
+
     };
-    class CFP_O_SSREBELS_Soldier_05: CFP_O_SSREBELS_Soldier_Base_01
-    {
+    class CFP_O_SSREBELS_Soldier_05 : CFP_O_SSREBELS_Soldier_Base_01 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_05.JPG;
         displayName="Marksman";
         scope=2;
         scopeCurator=2;
@@ -2107,9 +2103,7 @@ class CfgVehicles {
             "CUP_10Rnd_762x54_SVD_M",
             "CUP_10Rnd_762x54_SVD_M"
         };
-        ALiVE_orbatCreator_loadout[]=
-        {
-        };
+
         randomGearProbability=100;
         uniformList[]=
         {
@@ -2232,12 +2226,12 @@ class CfgVehicles {
                 init="if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_FLAG_SOUTH_SUDAN'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
         };
-        ALiVE_orbatCreator_owned=1;
+        //ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SOUTH_SUDAN";
-        editorPreview="\x\cfp\addons\o_ssrebels\Data\Preview\Marksman.jpg";
+
     };
-    class CFP_O_SSREBELS_Soldier_06: CFP_O_SSREBELS_Soldier_Base_01
-    {
+    class CFP_O_SSREBELS_Soldier_06 : CFP_O_SSREBELS_Soldier_Base_01 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_06.JPG;
         displayName="Egineer";
         scope=2;
         scopeCurator=2;
@@ -2288,9 +2282,7 @@ class CfgVehicles {
             "CUP_30Rnd_762x39_AK47_M",
             "CUP_30Rnd_762x39_AK47_M"
         };
-        ALiVE_orbatCreator_loadout[]=
-        {
-        };
+
         randomGearProbability=100;
         uniformList[]=
         {
@@ -2413,12 +2405,12 @@ class CfgVehicles {
                 init="if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_FLAG_SOUTH_SUDAN'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
         };
-        ALiVE_orbatCreator_owned=1;
+        //ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SOUTH_SUDAN";
-        editorPreview="\x\cfp\addons\o_ssrebels\Data\Preview\Medic.jpg";
+
     };
-    class CFP_O_SSREBELS_Soldier_07: CFP_O_SSREBELS_Soldier_Base_01
-    {
+    class CFP_O_SSREBELS_Soldier_07 : CFP_O_SSREBELS_Soldier_Base_01 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_07.JPG;
         displayName="Medic";
         scope=2;
         scopeCurator=2;
@@ -2469,9 +2461,7 @@ class CfgVehicles {
             "CUP_30Rnd_762x39_AK47_M",
             "CUP_30Rnd_762x39_AK47_M"
         };
-        ALiVE_orbatCreator_loadout[]=
-        {
-        };
+
         randomGearProbability=100;
         uniformList[]=
         {
@@ -2594,12 +2584,12 @@ class CfgVehicles {
                 init="if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_FLAG_SOUTH_SUDAN'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
         };
-        ALiVE_orbatCreator_owned=1;
+        //ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SOUTH_SUDAN";
-        editorPreview="\x\cfp\addons\o_ssrebels\Data\Preview\Medic.jpg";
+
     };
-    class CFP_O_SSREBELS_Soldier_08: CFP_O_SSREBELS_Soldier_Base_01
-    {
+    class CFP_O_SSREBELS_Soldier_08 : CFP_O_SSREBELS_Soldier_Base_01 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_08.JPG;
         displayName="Rifleman";
         scope=2;
         scopeCurator=2;
@@ -2653,9 +2643,7 @@ class CfgVehicles {
             "CUP_HandGrenade_RGD5",
             "CUP_HandGrenade_RGD5"
         };
-        ALiVE_orbatCreator_loadout[]=
-        {
-        };
+
         randomGearProbability=100;
         uniformList[]=
         {
@@ -2778,12 +2766,12 @@ class CfgVehicles {
                 init="if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_FLAG_SOUTH_SUDAN'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
         };
-        ALiVE_orbatCreator_owned=1;
+        //ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SOUTH_SUDAN";
-        editorPreview="\x\cfp\addons\o_ssrebels\Data\Preview\Rifleman.jpg";
+
     };
-    class CFP_O_SSREBELS_Soldier_09: CFP_O_SSREBELS_Soldier_Base_01
-    {
+    class CFP_O_SSREBELS_Soldier_09 : CFP_O_SSREBELS_Soldier_Base_01 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_09.JPG;
         displayName="Gunner (DShKM)";
         scope=2;
         scopeCurator=2;
@@ -2834,9 +2822,7 @@ class CfgVehicles {
             "CUP_30Rnd_762x39_AK47_M",
             "CUP_30Rnd_762x39_AK47_M"
         };
-        ALiVE_orbatCreator_loadout[]=
-        {
-        };
+
         randomGearProbability=100;
         uniformList[]=
         {
@@ -2959,12 +2945,12 @@ class CfgVehicles {
                 init="if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_FLAG_SOUTH_SUDAN'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
         };
-        ALiVE_orbatCreator_owned=1;
+        //ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SOUTH_SUDAN";
-        editorPreview="\x\cfp\addons\o_ssrebels\Data\Preview\Gunner.jpg";
+
     };
-    class CFP_O_SSREBELS_Soldier_10: CFP_O_SSREBELS_Soldier_Base_01
-    {
+    class CFP_O_SSREBELS_Soldier_10 : CFP_O_SSREBELS_Soldier_Base_01 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_10.JPG;
         displayName="Gunner (DShKM/Low)";
         scope=2;
         scopeCurator=2;
@@ -3015,9 +3001,7 @@ class CfgVehicles {
             "CUP_30Rnd_762x39_AK47_M",
             "CUP_30Rnd_762x39_AK47_M"
         };
-        ALiVE_orbatCreator_loadout[]=
-        {
-        };
+
         randomGearProbability=100;
         uniformList[]=
         {
@@ -3140,12 +3124,12 @@ class CfgVehicles {
                 init="if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_FLAG_SOUTH_SUDAN'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
         };
-        ALiVE_orbatCreator_owned=1;
+        //ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SOUTH_SUDAN";
-        editorPreview="\x\cfp\addons\o_ssrebels\Data\Preview\Gunner.jpg";
+
     };
-    class CFP_O_SSREBELS_Soldier_11: CFP_O_SSREBELS_Soldier_Base_01
-    {
+    class CFP_O_SSREBELS_Soldier_11 : CFP_O_SSREBELS_Soldier_Base_01 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_11.JPG;
         displayName="Assistant (DShKM)";
         scope=2;
         scopeCurator=2;
@@ -3196,9 +3180,7 @@ class CfgVehicles {
             "CUP_30Rnd_762x39_AK47_M",
             "CUP_30Rnd_762x39_AK47_M"
         };
-        ALiVE_orbatCreator_loadout[]=
-        {
-        };
+
         randomGearProbability=100;
         uniformList[]=
         {
@@ -3321,12 +3303,12 @@ class CfgVehicles {
                 init="if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_FLAG_SOUTH_SUDAN'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
         };
-        ALiVE_orbatCreator_owned=1;
+        //ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SOUTH_SUDAN";
-        editorPreview="\x\cfp\addons\o_ssrebels\Data\Preview\Assistant.jpg";
+
     };
-    class CFP_O_SSREBELS_Soldier_12: CFP_O_SSREBELS_Soldier_Base_01
-    {
+    class CFP_O_SSREBELS_Soldier_12 : CFP_O_SSREBELS_Soldier_Base_01 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_12.JPG;
         displayName="Gunner (Mortar)";
         scope=2;
         scopeCurator=2;
@@ -3377,9 +3359,7 @@ class CfgVehicles {
             "CUP_30Rnd_762x39_AK47_M",
             "CUP_30Rnd_762x39_AK47_M"
         };
-        ALiVE_orbatCreator_loadout[]=
-        {
-        };
+
         randomGearProbability=100;
         uniformList[]=
         {
@@ -3502,12 +3482,12 @@ class CfgVehicles {
                 init="if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_FLAG_SOUTH_SUDAN'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
         };
-        ALiVE_orbatCreator_owned=1;
+        //ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SOUTH_SUDAN";
-        editorPreview="\x\cfp\addons\o_ssrebels\Data\Preview\Gunner.jpg";
+
     };
-    class CFP_O_SSREBELS_Soldier_13: CFP_O_SSREBELS_Soldier_Base_01
-    {
+    class CFP_O_SSREBELS_Soldier_13 : CFP_O_SSREBELS_Soldier_Base_01 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_13.JPG;
         displayName="Assistant (Mortar)";
         scope=2;
         scopeCurator=2;
@@ -3558,9 +3538,7 @@ class CfgVehicles {
             "CUP_30Rnd_762x39_AK47_M",
             "CUP_30Rnd_762x39_AK47_M"
         };
-        ALiVE_orbatCreator_loadout[]=
-        {
-        };
+
         randomGearProbability=100;
         uniformList[]=
         {
@@ -3683,12 +3661,12 @@ class CfgVehicles {
                 init="if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_FLAG_SOUTH_SUDAN'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
         };
-        ALiVE_orbatCreator_owned=1;
+        //ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SOUTH_SUDAN";
-        editorPreview="\x\cfp\addons\o_ssrebels\Data\Preview\Assistant.jpg";
+
     };
-    class CFP_O_SSREBELS_Soldier_14: CFP_O_SSREBELS_Soldier_Base_01
-    {
+    class CFP_O_SSREBELS_Soldier_14 : CFP_O_SSREBELS_Soldier_Base_01 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_14.JPG;
         displayName="Gunner (SPG-9)";
         scope=2;
         scopeCurator=2;
@@ -3739,9 +3717,7 @@ class CfgVehicles {
             "CUP_30Rnd_762x39_AK47_M",
             "CUP_30Rnd_762x39_AK47_M"
         };
-        ALiVE_orbatCreator_loadout[]=
-        {
-        };
+
         randomGearProbability=100;
         uniformList[]=
         {
@@ -3864,12 +3840,12 @@ class CfgVehicles {
                 init="if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_FLAG_SOUTH_SUDAN'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
         };
-        ALiVE_orbatCreator_owned=1;
+        //ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SOUTH_SUDAN";
-        editorPreview="\x\cfp\addons\o_ssrebels\Data\Preview\Gunner.jpg";
+
     };
-    class CFP_O_SSREBELS_Soldier_15: CFP_O_SSREBELS_Soldier_Base_01
-    {
+    class CFP_O_SSREBELS_Soldier_15 : CFP_O_SSREBELS_Soldier_Base_01 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_15.JPG;
         displayName="Assistant (SPG-9)";
         scope=2;
         scopeCurator=2;
@@ -3920,9 +3896,7 @@ class CfgVehicles {
             "CUP_30Rnd_762x39_AK47_M",
             "CUP_30Rnd_762x39_AK47_M"
         };
-        ALiVE_orbatCreator_loadout[]=
-        {
-        };
+
         randomGearProbability=100;
         uniformList[]=
         {
@@ -4045,12 +4019,12 @@ class CfgVehicles {
                 init="if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_FLAG_SOUTH_SUDAN'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
         };
-        ALiVE_orbatCreator_owned=1;
+        //ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SOUTH_SUDAN";
-        editorPreview="\x\cfp\addons\o_ssrebels\Data\Preview\Assistant.jpg";
+
     };
-    class CFP_O_SSREBELS_Soldier_16: CFP_O_SSREBELS_Soldier_Base_15
-    {
+    class CFP_O_SSREBELS_Soldier_16 : CFP_O_SSREBELS_Soldier_Base_15 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_16.JPG;
         displayName="Militiaman";
         scope=2;
         scopeCurator=2;
@@ -4100,9 +4074,7 @@ class CfgVehicles {
             "CUP_30Rnd_762x39_AK47_M",
             "CUP_30Rnd_762x39_AK47_M"
         };
-        ALiVE_orbatCreator_loadout[]=
-        {
-        };
+
         randomGearProbability=100;
         uniformList[]=
         {
@@ -4237,12 +4209,12 @@ class CfgVehicles {
                 init="if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_FLAG_SOUTH_SUDAN'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
         };
-        ALiVE_orbatCreator_owned=1;
+        //ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SOUTH_SUDAN";
-        editorPreview="\x\cfp\addons\o_ssrebels\Data\Preview\Militia.jpg";
+
     };
-    class CFP_O_SSREBELS_Soldier_17: CFP_O_SSREBELS_Soldier_Base_01
-    {
+    class CFP_O_SSREBELS_Soldier_17 : CFP_O_SSREBELS_Soldier_Base_01 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_17.JPG;
         displayName="Officer";
         scope=2;
         scopeCurator=2;
@@ -4294,9 +4266,7 @@ class CfgVehicles {
             "CUP_30Rnd_762x39_AK47_M",
             "CUP_30Rnd_762x39_AK47_M"
         };
-        ALiVE_orbatCreator_loadout[]=
-        {
-        };
+
         randomGearProbability=100;
         uniformList[]=
         {
@@ -4359,12 +4329,12 @@ class CfgVehicles {
                 init="if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_FLAG_SOUTH_SUDAN'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
         };
-        ALiVE_orbatCreator_owned=1;
+        //ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SOUTH_SUDAN";
-        editorPreview="\x\cfp\addons\o_ssrebels\Data\Preview\Officer.jpg";
+
     };
-    class CFP_O_SSREBELS_Soldier_18: CFP_O_SSREBELS_Soldier_Base_15
-    {
+    class CFP_O_SSREBELS_Soldier_18 : CFP_O_SSREBELS_Soldier_Base_15 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_18.JPG;
         displayName="Militiaman AT";
         scope=2;
         scopeCurator=2;
@@ -4419,9 +4389,7 @@ class CfgVehicles {
             "CUP_30Rnd_762x39_AK47_M",
             "CUP_PG7V_M"
         };
-        ALiVE_orbatCreator_loadout[]=
-        {
-        };
+
         randomGearProbability=100;
         uniformList[]=
         {
@@ -4556,12 +4524,12 @@ class CfgVehicles {
                 init="if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_FLAG_SOUTH_SUDAN'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
         };
-        ALiVE_orbatCreator_owned=1;
+        //ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SOUTH_SUDAN";
-        editorPreview="\x\cfp\addons\o_ssrebels\Data\Preview\MilitiaAT.jpg";
+
     };
-    class CFP_O_SSREBELS_Soldier_19: CFP_O_SSREBELS_Soldier_Base_15
-    {
+    class CFP_O_SSREBELS_Soldier_19 : CFP_O_SSREBELS_Soldier_Base_15 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_19.JPG;
         displayName="Militia Machinegunner";
         scope=2;
         scopeCurator=2;
@@ -4611,9 +4579,7 @@ class CfgVehicles {
             "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",
             "CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"
         };
-        ALiVE_orbatCreator_loadout[]=
-        {
-        };
+
         randomGearProbability=100;
         uniformList[]=
         {
@@ -4738,12 +4704,12 @@ class CfgVehicles {
                 init="if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_FLAG_SOUTH_SUDAN'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
         };
-        ALiVE_orbatCreator_owned=1;
+        //ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SOUTH_SUDAN";
-        editorPreview="\x\cfp\addons\o_ssrebels\Data\Preview\MilitiaMG.jpg";
+
     };
-    class CFP_O_SSREBELS_Soldier_20: CFP_O_SSREBELS_Soldier_Base_15
-    {
+    class CFP_O_SSREBELS_Soldier_20 : CFP_O_SSREBELS_Soldier_Base_15 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_20.JPG;
         displayName="Militiaman";
         scope=2;
         scopeCurator=2;
@@ -4793,9 +4759,7 @@ class CfgVehicles {
             "CUP_30Rnd_762x39_AK47_M",
             "CUP_30Rnd_762x39_AK47_M"
         };
-        ALiVE_orbatCreator_loadout[]=
-        {
-        };
+
         randomGearProbability=100;
         uniformList[]=
         {
@@ -4930,11 +4894,12 @@ class CfgVehicles {
                 init="if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_FLAG_SOUTH_SUDAN'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
         };
-        ALiVE_orbatCreator_owned=1;
+        //ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_insignia="USP_PATCH_FLAG_SOUTH_SUDAN";
-        editorPreview="\x\cfp\addons\o_ssrebels\Data\Preview\Militia.jpg";
+
     };
     class CFP_O_SSREBELS_T55_01 : CUP_I_T55_TK_GUE_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_T55_01.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -4965,12 +4930,13 @@ class CfgVehicles {
         };
 
         // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+        //ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_texture = "TKG";
 
     };
 
     class CFP_O_SSREBELS_ZU_23_01 : CUP_I_ZU23_TK_GUE_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_ZU_23_01.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -4995,11 +4961,12 @@ class CfgVehicles {
         };
 
         // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+        //ALiVE_orbatCreator_owned = 1;
 
     };
 
     class CFP_O_SSREBELS_SPG_9_01 : CUP_I_SPG9_TK_GUE_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_SPG_9_01.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -5024,11 +4991,12 @@ class CfgVehicles {
         };
 
         // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+        //ALiVE_orbatCreator_owned = 1;
 
     };
 
     class CFP_O_SSREBELS_Mortar_01 : CUP_I_2b14_82mm_TK_GUE_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Mortar_01.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -5053,11 +5021,12 @@ class CfgVehicles {
         };
 
         // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+        //ALiVE_orbatCreator_owned = 1;
 
     };
 
     class CFP_O_SSREBELS_DShKM_01 : CUP_I_DSHKM_TK_GUE_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_DShKM_01.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -5082,11 +5051,12 @@ class CfgVehicles {
         };
 
         // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+        //ALiVE_orbatCreator_owned = 1;
 
     };
 
     class CFP_O_SSREBELS_DShKM_Low_01 : CUP_I_DSHkM_MiniTriPod_TK_GUE_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_DShKM_Low_01.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -5111,11 +5081,12 @@ class CfgVehicles {
         };
 
         // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+        //ALiVE_orbatCreator_owned = 1;
 
     };
 
     class CFP_O_SSREBELS_UAZ_DShKM_01 : CUP_O_UAZ_MG_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_UAZ_DShKM_01.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -5141,12 +5112,13 @@ class CfgVehicles {
         };
 
         // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+        //ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_texture = "TKC";
 
     };
 
     class CFP_O_SSREBELS_Land_Rover_SPG_01 : CUP_O_LR_SPG9_TKA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Land_Rover_SPG_01.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -5172,12 +5144,13 @@ class CfgVehicles {
         };
 
         // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+        //ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_texture = "OLIVE";
 
     };
 
     class CFP_O_SSREBELS_Land_Rover_01 : CUP_O_LR_Transport_TKA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Land_Rover_01.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -5203,12 +5176,13 @@ class CfgVehicles {
         };
 
         // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+        //ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_texture = "OLIVE";
 
     };
 
     class CFP_O_SSREBELS_Offroad_02 : O_G_Offroad_01_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Offroad_02.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -5236,12 +5210,13 @@ class CfgVehicles {
         };
 
         // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+        //ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_texture = "Guerilla_12";
 
     };
 
     class CFP_O_SSREBELS_Offroad_White_Army_01 : CFP_O_SSREBELS_Offroad_02 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Offroad_White_Army_01.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -5269,12 +5244,13 @@ class CfgVehicles {
         };
 
         // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+        //ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_texture = "Muddy";
 
     };
 
     class CFP_O_SSREBELS_Pickup_01 : CUP_I_Datsun_4seat_TK_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Pickup_01.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -5301,11 +5277,12 @@ class CfgVehicles {
         };
 
         // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+        //ALiVE_orbatCreator_owned = 1;
 
     };
 
     class CFP_O_SSREBELS_Pickup_White_Army_01 : CFP_O_SSREBELS_Pickup_01 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Pickup_White_Army_01.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -5332,11 +5309,12 @@ class CfgVehicles {
         };
 
         // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+        //ALiVE_orbatCreator_owned = 1;
 
     };
 
     class CFP_O_SSREBELS_Pickup_PK_01 : CUP_I_Datsun_PK_TK_Random_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Pickup_PK_01.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -5363,11 +5341,12 @@ class CfgVehicles {
         };
 
         // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+        //ALiVE_orbatCreator_owned = 1;
 
     };
 
     class CFP_O_SSREBELS_Pickup_PK_White_Army_01 : CFP_O_SSREBELS_Pickup_PK_01 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Pickup_PK_White_Army_01.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -5394,11 +5373,12 @@ class CfgVehicles {
         };
 
         // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+        //ALiVE_orbatCreator_owned = 1;
 
     };
 
     class CFP_O_SSREBELS_Truck_01 : C_Van_01_transport_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Truck_01.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -5432,12 +5412,13 @@ class CfgVehicles {
         };
 
         // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+        //ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_texture = "Guerilla_03";
 
     };
 
     class CFP_O_SSREBELS_Truck_White_Army_01 : CFP_O_SSREBELS_Truck_01 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Truck_White_Army_01.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -5471,12 +5452,13 @@ class CfgVehicles {
         };
 
         // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+        //ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_texture = "Brown";
 
     };
 
     class CFP_O_SSREBELS_BM_21_01 : CUP_O_BM21_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_BM_21_01.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -5501,12 +5483,13 @@ class CfgVehicles {
         };
 
         // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+        //ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_texture = "RU";
 
     };
 
     class CFP_O_SSREBELS_Praga_V3S_01 : CUP_I_V3S_Open_TKG_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Praga_V3S_01.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -5526,12 +5509,13 @@ class CfgVehicles {
         };
 
         // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+        //ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_texture = "TKG";
 
     };
 
     class CFP_O_SSREBELS_Praga_V3S_Repair_01 : CUP_I_V3S_Repair_TKG_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Praga_V3S_Repair_01.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -5551,12 +5535,13 @@ class CfgVehicles {
         };
 
         // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+        //ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_texture = "TKG";
 
     };
 
     class CFP_O_SSREBELS_Praga_V3S_Refuel_01 : CUP_I_V3S_Refuel_TKG_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Praga_V3S_Refuel_01.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -5576,11 +5561,12 @@ class CfgVehicles {
         };
 
         // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+        //ALiVE_orbatCreator_owned = 1;
 
     };
 
     class CFP_O_SSREBELS_Praga_V3S_Ammunition_01 : CUP_I_V3S_Rearm_TKG_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Praga_V3S_Ammunition_01.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -5600,8 +5586,208 @@ class CfgVehicles {
         };
 
         // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+        //ALiVE_orbatCreator_owned = 1;
 
     };
 
+    class CUP_RUBasicAmmunitionBox; // CUP_RUBasicAmmunitionBox
+    class Box_NATO_Ammo_F; // CUP_USBasicAmmunitionBox
+    class CUP_RUBasicWeaponsBox; // CUP_RUBasicWeaponsBox
+    class Box_NATO_Wps_F; // CUP_USBasicWeaponsBox
+    class CUP_RUSpecialWeaponsBox; // CUP_RUSpecialWeaponsBox
+    class Box_NATO_Support_F; // CUP_USSpecialWeaponsBox
+    class CUP_RULaunchersBox; // CUP_RULaunchersBox
+    class Box_NATO_WpsLaunch_F; // CUP_USLaunchersBox
+    class Box_NATO_Uniforms_F; // CUP_USBasicWeaponsBox
+    class CUP_RUVehicleBox; // CUP_RUVehicleBox
+    class B_SupplyCrate_F; // CUP_USVehicleBox
+
+    class CFP_O_SSREBELS_AmmoBox : CUP_RUBasicAmmunitionBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = "Sudan People's Liberation Movement In Opposition Ammo Box";
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_HandGrenade_RGD5,50);
+            mag_xx(CUP_PG7VL_M,50);
+            mag_xx(CUP_PG7V_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+            mag_xx(APERSMine_Range_Mag,50);
+            mag_xx(CUP_PipeBomb_M,50);
+        };
+        class TransportWeapons {
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_O_SSREBELS_WeaponsBox : CUP_RUBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = "Sudan People's Liberation Movement In Opposition Weapons Box";
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_AK47,10);
+            weap_xx(CUP_arifle_AKS,10);
+            weap_xx(CUP_lmg_PKM,10);
+            weap_xx(CUP_srifle_SVD_pso,10);
+            weap_xx(CUP_arifle_AKM,10);
+        };
+        class TransportItems {
+            item_xx(CUP_optic_PSO_1,10);
+        };
+    };
+    class CFP_O_SSREBELS_LaunchersBox : CUP_RULaunchersBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = "Sudan People's Liberation Movement In Opposition Launchers Box";
+        class TransportMagazines {
+            mag_xx(CUP_PG7V_M,5);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_launch_RPG7V,5);
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_O_SSREBELS_UniformBox : CUP_RUBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = "Sudan People's Liberation Movement In Opposition Uniform Box";
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(CFP_Uniform_SPLM_11,15);
+            item_xx(CFP_Uniform_SPLM_03,15);
+            item_xx(CFP_Uniform_SPLM_10,15);
+            item_xx(CFP_Uniform_SPLM_15,15);
+            item_xx(CFP_Uniform_SPLM_26,15);
+            item_xx(CFP_Uniform_SPLM_14,15);
+            item_xx(CFP_Uniform_SPLM_09,15);
+            item_xx(CFP_Uniform_SPLM_21,15);
+            item_xx(CFP_Uniform_SPLM_27,15);
+            item_xx(CFP_Uniform_SPLM_22,15);
+            item_xx(CUP_U_C_Worker_02,15);
+            item_xx(CFP_Uniform_SPLA_09,15);
+            item_xx(CFP_Uniform_SPLM_19,15);
+            item_xx(CUP_I_B_PMC_Unit_4,15);
+        };
+    };
+    class CFP_O_SSREBELS_SupportBox : CUP_RUSpecialWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = "Sudan People's Liberation Movement In Opposition Support Box";
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(CFP_Jacket_SPLM_01,10);
+            item_xx(H_Cap_oli,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(SP_OpforRig1_Tan,10);
+            item_xx(CUP_H_SLA_BeanieGreen,10);
+            item_xx(CFP_Chest_Rig_SPLM_02,10);
+            item_xx(H_Cap_grn,10);
+            item_xx(CFP_SPLM_RPG_Backpack,10);
+            item_xx(CFP_Jacket_SPLM_02,10);
+            item_xx(CFP_Cap_SPLA_04,10);
+            item_xx(CFP_Chest_Rig_SPLM_01,10);
+            item_xx(CUP_V_I_Carrier_Belt,10);
+            item_xx(CUP_B_AlicePack_Egineer,10);
+            item_xx(CUP_B_AlicePack_Medic,10);
+            item_xx(CUP_V_OI_TKI_Jacket1_01,10);
+            item_xx(CFP_Chest_Rig_SPLM_04,10);
+            item_xx(CUP_B_DShkM_TripodHigh_Bag,10);
+            item_xx(CFP_Jacket_SPLM_03,10);
+            item_xx(CUP_B_DShkM_TripodLow_Bag,10);
+            item_xx(CUP_B_DShkM_Gun_Bag,10);
+            item_xx(CUP_B_Podnos_Bipod_Bag,10);
+            item_xx(CFP_Bandolier_SPLM_01,10);
+            item_xx(CUP_B_Podnos_Gun_Bag,10);
+            item_xx(SP_OpforRig1_Green,10);
+            item_xx(CUP_B_SPG9_Tripod_Bag,10);
+            item_xx(CUP_B_SPG9_Gun_Bag,10);
+            item_xx(H_Bandanna_surfer_blk,10);
+            item_xx(SP_Beret_Green,10);
+            item_xx(H_Bandanna_gry,10);
+            item_xx(H_Cap_blk,10);
+        };
+    };
+    class CFP_O_SSREBELS_SupplyBox : CUP_RUVehicleBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = "Sudan People's Liberation Movement In Opposition Supply Box";
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_HandGrenade_RGD5,50);
+            mag_xx(CUP_PG7VL_M,50);
+            mag_xx(CUP_PG7V_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+            mag_xx(APERSMine_Range_Mag,50);
+            mag_xx(CUP_PipeBomb_M,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_AK47,10);
+            weap_xx(CUP_arifle_AKS,10);
+            weap_xx(CUP_lmg_PKM,10);
+            weap_xx(CUP_srifle_SVD_pso,10);
+            weap_xx(CUP_arifle_AKM,10);
+            weap_xx(CUP_launch_RPG7V,10);
+        };
+        class TransportItems {
+            item_xx(CUP_optic_PSO_1,10);
+            item_xx(CFP_Jacket_SPLM_01,10);
+            item_xx(H_Cap_oli,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(SP_OpforRig1_Tan,10);
+            item_xx(CUP_H_SLA_BeanieGreen,10);
+            item_xx(CFP_Chest_Rig_SPLM_02,10);
+            item_xx(H_Cap_grn,10);
+            item_xx(CFP_SPLM_RPG_Backpack,10);
+            item_xx(CFP_Jacket_SPLM_02,10);
+            item_xx(CFP_Cap_SPLA_04,10);
+            item_xx(CFP_Chest_Rig_SPLM_01,10);
+            item_xx(CUP_V_I_Carrier_Belt,10);
+            item_xx(CUP_B_AlicePack_Egineer,10);
+            item_xx(CUP_B_AlicePack_Medic,10);
+            item_xx(CUP_V_OI_TKI_Jacket1_01,10);
+            item_xx(CFP_Chest_Rig_SPLM_04,10);
+            item_xx(CUP_B_DShkM_TripodHigh_Bag,10);
+            item_xx(CFP_Jacket_SPLM_03,10);
+            item_xx(CUP_B_DShkM_TripodLow_Bag,10);
+            item_xx(CUP_B_DShkM_Gun_Bag,10);
+            item_xx(CUP_B_Podnos_Bipod_Bag,10);
+            item_xx(CFP_Bandolier_SPLM_01,10);
+            item_xx(CUP_B_Podnos_Gun_Bag,10);
+            item_xx(SP_OpforRig1_Green,10);
+            item_xx(CUP_B_SPG9_Tripod_Bag,10);
+            item_xx(CUP_B_SPG9_Gun_Bag,10);
+            item_xx(H_Bandanna_surfer_blk,10);
+            item_xx(SP_Beret_Green,10);
+            item_xx(H_Bandanna_gry,10);
+            item_xx(H_Cap_blk,10);
+            item_xx(CFP_Uniform_SPLM_11,10);
+            item_xx(CFP_Uniform_SPLM_03,10);
+            item_xx(CFP_Uniform_SPLM_10,10);
+            item_xx(CFP_Uniform_SPLM_15,10);
+            item_xx(CFP_Uniform_SPLM_26,10);
+            item_xx(CFP_Uniform_SPLM_14,10);
+            item_xx(CFP_Uniform_SPLM_09,10);
+            item_xx(CFP_Uniform_SPLM_21,10);
+            item_xx(CFP_Uniform_SPLM_27,10);
+            item_xx(CFP_Uniform_SPLM_22,10);
+            item_xx(CUP_U_C_Worker_02,10);
+            item_xx(CFP_Uniform_SPLA_09,10);
+            item_xx(CFP_Uniform_SPLM_19,10);
+            item_xx(CUP_I_B_PMC_Unit_4,10);
+        };
+    };
 };
