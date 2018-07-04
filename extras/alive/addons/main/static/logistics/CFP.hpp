@@ -22,6 +22,7 @@
 #include "CFP_I_SSArmy_Logistics.hpp"
 #include "CFP_I_SDRebels_Logistics.hpp"
 #include "CFP_I_WestUltra_Logistics.hpp"
+#include "CFP_O_ABUSAYYAF_Logistics.hpp"
 #include "CFP_O_ALQAEDA_Logistics.hpp"
 #include "CFP_O_ALSHABAAB_Logistics.hpp"
 #include "CFP_O_ANSARALLAH_Logistics.hpp"
