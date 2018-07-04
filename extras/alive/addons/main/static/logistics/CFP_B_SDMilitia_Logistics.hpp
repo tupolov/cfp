@@ -30,6 +30,7 @@
  * Mil logistics air transport vehicles per faction
  */
 [ALIVE_factionDefaultAirTransport, "CFP_B_SDMilitia", [
+		"CFP_B_SDARMY_Mi_8MT_01"
 	]
 ] call ALIVE_fnc_hashSet;
 
