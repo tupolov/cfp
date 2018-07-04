@@ -9,6 +9,7 @@
 #include "CFP_B_NAARMY_Logistics.hpp"
 #include "CFP_B_PESH_Logistics.hpp"
 #include "CFP_B_SDARMY_Logistics.hpp"
+#include "CFP_B_SDMilitia_Logistics.hpp"
 #include "CFP_B_UGARMY_Logistics.hpp"
 #include "CFP_B_USARMY_WDL_Logistics.hpp"
 #include "CFP_B_USCIA_Logistics.hpp"
