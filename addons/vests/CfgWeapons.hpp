@@ -21,4 +21,5 @@ class CfgWeapons {
     #include "IOTV\CfgWeapons.hpp"
     #include "HouthisJacket\CfgWeapons.hpp"
     #include "75Vests\CfgWeapons.hpp"
+    #include "Alice\CfgWeapons.hpp"
 };

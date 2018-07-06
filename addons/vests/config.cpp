@@ -116,7 +116,8 @@ class CfgPatches
 			"CFP_HV2_Ciras_Olive",
 			"CFP_HV3_Ciras_Olive",
 			"CFP_HV4_Ciras_Olive",
-			"CFP_HV5_Ciras_Olive"
+			"CFP_HV5_Ciras_Olive",
+			"CFP_Alice_Vest"
 		};
         author = MODULE_AUTHOR;
         authors[] = {"SP Craig", "Tupolov", "AuburnAlumni"};
