@@ -12,4 +12,5 @@ class CfgVehicles {
 	#include "Underwear\CfgVehicles.hpp"
 	#include "VDVUniform\CfgVehicles.hpp"
 	#include "75Uniform\CfgVehicles.hpp"
+	#include "Guerrilla\CfgVehicles.hpp"
 };
