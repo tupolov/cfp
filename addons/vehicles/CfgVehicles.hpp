@@ -1627,6 +1627,13 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\BTR60\sudanbody1.paa","\x\cfp\addons\vehicles\BTR60\sudanbody2.paa"};
                 factions[] = {};
             };
+            class NorthKorea
+            {
+                displayName = "North Korea";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\BTR60\nkoreabody1.paa","\x\cfp\addons\vehicles\BTR60\nkoreabody2.paa"};
+                factions[] = {};
+            };
         };
     };
 
@@ -1995,6 +2002,13 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\T55\t55_body_iran.paa","\x\cfp\addons\vehicles\T55\t55_tower_iran.paa"};
                 factions[] = {};
             };
+            class NorthKorea
+            {
+                displayname = "North Korea";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\T55\t55_body_nkorea.paa","\x\cfp\addons\vehicles\T55\t55_tower_nkorea.paa"};
+                factions[] = {};
+            };
             class Sudan
             {
                 displayname = "Sudan";
@@ -2045,6 +2059,13 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\BMP\trup_iran.paa","\x\cfp\addons\vehicles\BMP\veza0_iran.paa"};
                 factions[] = {};
             };
+            class NorthKorea
+            {
+                displayname = "North Korea";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\BMP\trup_nkorea.paa","\x\cfp\addons\vehicles\BMP\veza0_nkorea.paa"};
+                factions[] = {};
+            };
             class Sudan
             {
                 displayname = "Sudan";
@@ -2085,6 +2106,13 @@ class CfgVehicles
                 displayname = "Iran";
                 author = "AuburnAlumni";
                 textures[] = {"\x\cfp\addons\vehicles\BMP\trup_iran.paa","\x\cfp\addons\vehicles\BMP\veza0_iran.paa"};
+                factions[] = {};
+            };
+            class NorthKorea
+            {
+                displayname = "North Korea";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\BMP\trup_nkorea.paa","\x\cfp\addons\vehicles\BMP\veza0_nkorea.paa"};
                 factions[] = {};
             };
             class Sudan
