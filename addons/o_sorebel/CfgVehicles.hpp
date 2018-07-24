@@ -116,7 +116,15 @@ class CfgVehicles {
 
     	// Somali Clothing
     		uniformList[] = {
-    	"U_I_C_Soldier_Bandit_4_F", 0.2,
+    	"CFP_GUER_TanTee", 0.3,
+        "CFP_GUER_M81", 0.3,
+        "CFP_GUER_ERDLpants", 0.3,
+        "CFP_GUER_GreenTan", 0.3,
+        "CFP_GUER_MCampants", 0.3,
+        "CFP_GUER_PolyDespants", 0.3,
+        "CFP_GUER_M81Tee", 0.3,
+        "CFP_GUER_PolyDesTee", 0.3,
+        "U_I_C_Soldier_Bandit_4_F", 0.2,
     	"U_I_C_Soldier_Bandit_1_F", 0.2,
     	"CUP_U_I_GUE_Anorak_03", 0.2,
     	"U_I_C_Soldier_Bandit_5_F", 0.2,
@@ -156,21 +164,21 @@ class CfgVehicles {
         // Somali Facewear
             facewearList[] = {
         "", 0.8,
-        "CFP_Beard", 0.2
+        "CFP_Beard", 0.1
             };
 
          // Somali Pirate Vests
             vestList[] = {
-            "CFP_UtilityJacket_Woodland", 0.2,
-            "CFP_UtilityJacket_M81", 0.2,
-            "CFP_UtilityJacket_EDRL", 0.2,
-            "CFP_UtilityJacket_ChocChip", 0.2,
-            "CFP_AK_VEST_Tan", 0.2,
-            "CFP_AK_VEST_EDRL", 0.2,
-            "CFP_AK_VEST_LOlive", 0.2,
-            "CFP_AK_VEST_Olive", 0.2,
-            "CFP_AK_VEST_Lime", 0.2,
-            "CFP_UtilityJacket_PolygonWoodland", 0.2,
+            "CFP_UtilityJacket_Woodland", 0.4,
+            "CFP_UtilityJacket_M81", 0.4,
+            "CFP_UtilityJacket_EDRL", 0.4,
+            "CFP_UtilityJacket_ChocChip", 0.4,
+            "CFP_AK_VEST_Tan", 0.4,
+            "CFP_AK_VEST_EDRL", 0.4,
+            "CFP_AK_VEST_LOlive", 0.4,
+            "CFP_AK_VEST_Olive", 0.4,
+            "CFP_AK_VEST_Lime", 0.4,
+            "CFP_UtilityJacket_PolygonWoodland", 0.4,
             "CFP_TakJacket_PolygonWoodland", 0.2,
             "CFP_TakJacket_PolygonDesert", 0.2,
             "CFP_TakJacket_Woodland", 0.2,

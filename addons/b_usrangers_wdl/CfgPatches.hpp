@@ -2,6 +2,7 @@ class CfgPatches {
     class CFP_B_USRANGERS_WDL {
         units[] = {
             "CFP_B_USRANGERS_Rifleman_WDL_01",
+            "CFP_B_USRANGERS_AA_Specialist_WDL_01",
             "CFP_B_USRANGERS_Squad_Leader_WDL_01",
             "CFP_B_USRANGERS_Grenadier_WDL_01",
             "CFP_B_USRANGERS_Automatic_Rifleman_WDL_01",

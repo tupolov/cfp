@@ -577,6 +577,25 @@ class CfgVehicles {
 
     };
 
+    class CFP_B_USRANGERS_AA_Specialist_WDL_01 : CFP_B_USRANGERS_Rifleman_WDL_01 {
+
+        displayName = "AA Specialist";
+
+        linkedItems[] = {"CFP_HV5_Ciras_Olive","CFP_OpsC_Painted","ItemMap","ItemRadio","ItemCompass","ItemWatch","CFP_ANPVS15_Camo_V3"};
+        respawnlinkedItems[] = {"CFP_HV5_Ciras_Olive","CFP_OpsC_Painted","ItemMap","ItemRadio","ItemCompass","ItemWatch","CFP_ANPVS15_Camo_V3"};
+
+        weapons[] = {"CUP_arifle_Mk17_CQC_SFG_woodland","CUP_launch_FIM92Stinger","CUP_hgun_M9","Binocular"};
+        respawnWeapons[] = {"CUP_arifle_Mk17_CQC_SFG_woodland","CUP_launch_FIM92Stinger","CUP_hgun_M9","Binocular"};
+
+        magazines[] = {"CUP_20Rnd_762x51_B_SCAR","CUP_15Rnd_9x19_M9","CUP_20Rnd_762x51_B_SCAR","CUP_15Rnd_9x19_M9"};
+        respawnMagazines[] = {"CUP_20Rnd_762x51_B_SCAR","CUP_15Rnd_9x19_M9","CUP_20Rnd_762x51_B_SCAR","CUP_15Rnd_9x19_M9"};
+
+        backpack = "CFP_Kitbag_MCam_Grn";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_Mk17_CQC_SFG_woodland","","CFP_acc_ANPEQ15_Black","CFP_optic_ELCAN_SpecterDR_Black",{"CUP_20Rnd_762x51_B_SCAR",20},{},""},{"CUP_launch_FIM92Stinger","","","",{},{},""},{"CUP_hgun_M9","","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CFP_75th_CRYE_V2b_Full",{{"CUP_15Rnd_9x19_M9",2,15},{"CUP_HandGrenade_M67",1,1},{"B_IR_Grenade",1,1},{"Chemlight_green",1,1},{"Chemlight_red",1,1},{"SmokeShell",1,1}}},{"CFP_HV5_Ciras_Olive",{{"FirstAidKit",1},{"CUP_HandGrenade_M67",1,1},{"B_IR_Grenade",1,1},{"Chemlight_green",1,1},{"Chemlight_red",1,1},{"SmokeShell",1,1},{"CUP_20Rnd_762x51_B_SCAR",13,20}}},{"CFP_Kitbag_MCam_Grn",{{"CUP_20Rnd_762x51_B_SCAR",1,20},{"CUP_Stinger_M",1,1}}},"CFP_OpsC_Painted","CFP_Foretex",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CFP_ANPVS15_Camo_V3"}};
+
+    };
+
     class CFP_B_USRANGERS_Squad_Leader_WDL_01 : CFP_B_USRANGERS_Rifleman_WDL_01 {
 
         displayName = "Squad Leader";
