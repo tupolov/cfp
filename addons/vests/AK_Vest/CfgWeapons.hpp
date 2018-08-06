@@ -21,7 +21,7 @@ class CFP_AK_VEST: Vest_Camo_Base
 		armor = "2";
 		passThrough = true;
 		hiddenSelections[] = {"camo"};
-		HiddenSelectionTextures[] = {};
+		HiddenSelectionsTextures[] = {};
 
 	};
 };
@@ -82,4 +82,27 @@ class CFP_AK_VEST_Lime: CFP_AK_VEST
 
 	displayName = "AK Chest Rig Lime";
 	hiddenSelectionsTextures[] = {"x\cfp\addons\vests\AK_Vest\data\tak_soldier_equip_limegreen.paa"};
+};
+
+class CFP_Field_Satchel: Vest_Camo_Base
+	{
+		author = "CFP";
+		scope = 2;
+		displayName = "Field Satchel";
+		model = "x\cfp\addons\vests\AK_Vest\cfp_satchel2.p3d";
+		hiddenSelectionsTextures[] = {"x\cfp\addons\vests\AK_Vest\data\satchelbrown.paa"};
+		picture = "\CUP\Weapons\CUP_Weapons_Backpacks\data\ui\icon_b_c_GER_Medic_Desert_ca.paa";
+
+		class ItemInfo: VestItem
+	{
+
+		uniformModel = "x\cfp\addons\vests\AK_Vest\cfp_satchel2.p3d";
+		containerClass = "Supply100";
+		mass = 25;
+		armor = "2";
+		passThrough = true;
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"x\cfp\addons\vests\AK_Vest\data\satchelbrown.paa"};
+
+	};
 };

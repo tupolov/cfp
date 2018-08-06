@@ -2274,4 +2274,32 @@ class CfgVehicles
             };
         };
     };
+
+    class CUP_BRDM2_Base: Wheeled_APC_F
+   {
+        class textureSources
+        {
+            class NorthKorea
+            {
+                displayname = "North Korea";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\BRDM\brdm2_01_nk.paa","\x\cfp\addons\vehicles\BRDM\brdm2_02_co.paa"};
+                factions[] = {};
+            };
+        };
+    };
+
+    class CUP_T34_Base: Tank_F
+    {
+        class textureSources
+        {
+            class NorthKorea
+            {
+                displayname = "North Korea";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\T34\t34_body01_nk.paa","\x\cfp\addons\vehicles\T34\t34_body02_nk.paa","\x\cfp\addons\vehicles\T34\t34_turret_nk.paa","\x\cfp\addons\vehicles\T34\t34_wheels_nk_co.paa","\x\cfp\addons\vehicles\T34\t34_body03_co.paa"};
+                factions[] = {};
+            };
+        };
+    };
 };
