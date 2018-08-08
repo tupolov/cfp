@@ -1705,6 +1705,13 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Mi8\mi17_sudan.paa","\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\mi17_det_IND_CO.paa"};
                 factions[] = {};
             };
+            class NorthKorea
+            {
+                displayname = "North Korea";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Mi8\mi17_nk.paa","\x\cfp\addons\vehicles\Mi8\mi17_det_nk.paa"};
+                factions[] = {};
+            };
         };
     };
 
@@ -1759,6 +1766,13 @@ class CfgVehicles
                 displayname = "KDF Camo";
                 author = "AuburnAlumni";
                 textures[] = {"\x\cfp\addons\vehicles\Hummingbird\Hummingbird_KDF.paa"};
+                factions[] = {};
+            };
+            class NorthKorea
+            {
+                displayname = "North Korea";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Hummingbird\Hummingbird_NK.paa"};
                 factions[] = {};
             };
         };
