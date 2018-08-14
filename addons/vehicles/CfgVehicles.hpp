@@ -1649,6 +1649,13 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Mi24\mi24_nigeria.paa","\x\cfp\addons\vehicles\Mi24\mi24_nigeria2.paa"};
                 factions[] = {};
             };
+            class NorthKorea
+            {
+                displayname = "North Korea";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Mi24\mi24_nkorea1.paa","\x\cfp\addons\vehicles\Mi24\mi24_nkorea2.paa"};
+                factions[] = {};
+            };
             class Uganda
             {
                 displayname = "Ugandan Camo";
