@@ -2165,6 +2165,13 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\SU25\su25_body1_sudan_co.paa","\x\cfp\addons\vehicles\SU25\su25_body2_sudan_co.paa"};
                 factions[] = {};
             };
+            class NorthKorea
+            {
+                displayname = "North Korea";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\SU25\su25_body1_nk_co.paa","\x\cfp\addons\vehicles\SU25\su25_body2_nk_co.paa"};
+                factions[] = {};
+            };
         };
    };
 
