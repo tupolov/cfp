@@ -1,6 +1,6 @@
 
-	class CUP_V_BAF_Osprey_Mk2_DPM_Empty;
-	class CFP_Osprey1_Wd: CUP_V_BAF_Osprey_Mk2_DPM_Empty
+	class CUP_V_B_DDPM_Osprey_Mk3_Empty;
+	class CFP_Osprey1_Wd: CUP_V_B_DDPM_Osprey_Mk3_Empty
 {
     picture = "\x\cfp\addons\vests\data\ui\icon_CFP_Osprey1_Wd.paa";
 		scope = 2;
