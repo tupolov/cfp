@@ -2218,6 +2218,20 @@ class CfgVehicles
         };
    };
 
+   class CUP_AN2_Base: Plane_Base_F
+   {
+        class textureSources
+        {
+            class NorthKorea
+            {
+                displayname = "North Korea";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\AN2\an2_1_nk.paa","\x\cfp\addons\vehicles\AN2\an2_2_nk.paa","\x\cfp\addons\vehicles\AN2\an2_wings_nk.paa"};
+                factions[] = {};
+            };
+        };
+   };
+
    class CUP_HMMWV_Base: Car_F
    {
         class textureSources
