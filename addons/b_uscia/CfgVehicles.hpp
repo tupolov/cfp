@@ -32,14 +32,37 @@ class CfgVehicles {
 
         // Civilian clothes
 		uniformList[] = {
-			"CFP_U_BattleDressUniform_tigerdesert", 0.4,
-            "CFP_U_BattleDressUniform_tigerdesert_tan", 0.4,
-            "CFP_U_BattleDressUniform_multicam", 0.4
+			"CUP_I_B_PMC_Unit_1", 0.2,
+            "CUP_I_B_PMC_Unit_2", 0.2,
+            "CUP_I_B_PMC_Unit_3", 0.2,
+            "CUP_I_B_PMC_Unit_4", 0.2,
+            "CUP_I_B_PMC_Unit_5", 0.2,
+            "CUP_I_B_PMC_Unit_6", 0.2,
+            "CUP_I_B_PMC_Unit_7", 0.2,
+            "CUP_I_B_PMC_Unit_8", 0.2,
+            "CUP_I_B_PMC_Unit_9", 0.2,
+            "CUP_I_B_PMC_Unit_10", 0.2,
+            "CUP_I_B_PMC_Unit_11", 0.2,
+            "CUP_I_B_PMC_Unit_12", 0.2,
+            "CUP_I_B_PMC_Unit_13", 0.2,
+            "CUP_I_B_PMC_Unit_14", 0.2,
+            "CUP_I_B_PMC_Unit_15", 0.2,
+            "CUP_I_B_PMC_Unit_16", 0.2,
+            "CUP_I_B_PMC_Unit_17", 0.2,
+            "CUP_I_B_PMC_Unit_19", 0.2,
+            "CUP_I_B_PMC_Unit_20", 0.2,
+            "CUP_I_B_PMC_Unit_21", 0.2,
+            "CUP_I_B_PMC_Unit_22", 0.2,
+            "CUP_I_B_PMC_Unit_23", 0.2,
+            "CUP_I_B_PMC_Unit_24", 0.2,
+            "CFP_GUER_GreenTan", 0.2,
+            "CFP_GUER_ERDLpants", 0.2
 		};
 
 		// Basic Rigs
 		vestList[] = {
-			"CFP_LBT1961_CB", 0.2,
+			"CFP_HV5_Ciras_Olive", 0.4,
+            "CFP_LBT1961_CB", 0.2,
             "CFP_LBT1961_GRN", 0.2,
             "CFP_LBT1961_OGA_OD", 0.2,
             "CFP_MBSS_Green", 0.2,
@@ -55,8 +78,6 @@ class CfgVehicles {
             "CFP_RAV_Breacher_Multicam", 0.2,
             "CFP_CarrierRig_Operator_Multicam", 0.2,
             "CFP_CarrierRig_Breacher_Multicam", 0.2,
-            "CFP_LBT6094_operator_Multicam", 0.2,
-            "CFP_LBT6094_breacher_Multicam", 0.2,
             "CFP_FAPC_Operator_Multicam", 0.2,
             "CFP_FAPC_Breacher_Multicam", 0.2
 		};
@@ -72,7 +93,24 @@ class CfgVehicles {
             "G_Shades_Blue",0.3,
             "SP_Shades_Black",0.3,
             "CUP_FR_Neckscarf2",0.3,
-            "CFP_Beard",0.4
+            "CFP_Beard",0.4,
+            "CFP_Oakleys_Clr", 0.2,
+            "CFP_Oakleys_Drk", 0.2,
+            "CFP_Oakleys_Embr", 0.2,
+            "CFP_Neck_Wrap2", 0.3,
+            "CFP_Neck_Wrap3", 0.3,
+            "CFP_Neck_Wrap4", 0.3,
+            "CFP_Neck_Plain2", 0.2,
+            "CFP_Neck_Plain3", 0.2,
+            "CFP_Neck_Plain4", 0.2,
+            "CFP_Scarfbeard_white", 0.2,
+            "CFP_Scarfbeard_grey", 0.2,
+            "CFP_Scarfbeard_green", 0.2,
+            "CFP_Scarfbeard_tan", 0.2,
+            "CFP_Scarfbeardshades_white", 0.2,
+            "CFP_Scarfbeardshades_grey", 0.2,
+            "CFP_Scarfbeardshades_green", 0.2,
+            "CFP_Scarfbeardshades_tan", 0.2
         };
 
       	// Baseball caps, boonies,
@@ -136,9 +174,9 @@ class CfgVehicles {
 
         // 6-8 options
         rifleList[] = {
-        	{"CUP_arifle_M4A1_camo_Aim",{"CUP_30Rnd_556x45_Stanag",6}}, 0.4,
+        	{"CUP_arifle_M4A3_camo",{"CUP_30Rnd_556x45_Stanag",6}}, 0.4,
         	{"CUP_arifle_M4A3_desert_Aim_Flashlight",{"CUP_30Rnd_556x45_Stanag",6}}, 0.4,
-        	{"CUP_arifle_M4A1_Aim",{"CUP_30Rnd_556x45_Stanag",6}}, 0.4,
+        	{"CUP_arifle_M4A3_black",{"CUP_30Rnd_556x45_Stanag",6}}, 0.4,
         	{"CUP_arifle_AK74M",{"CUP_30Rnd_545x39_AK_M",6}}, 0.3,
         	{"CUP_arifle_AK107",{"CUP_30Rnd_545x39_AK_M",6}}, 0.2,
         	{"CUP_arifle_AKS74",{"CUP_30Rnd_545x39_AK_M",6}}, 0.3,
