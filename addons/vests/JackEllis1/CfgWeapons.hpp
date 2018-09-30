@@ -535,3 +535,51 @@ class CfgVehicleClasses
 			};
 		};
 	};
+
+	class SP_JackEllis1_NKSF: V_PlateCarrier1_rgr
+{
+    picture = "\x\cfp\addons\vests\data\ui\icon_SP_JackEllis1_Tan.paa";
+		scope = 2;
+		displayName = "Jack Ellis 1 (NK SF)";
+		// picture = "\x\cfp\addons\vests\JackEllis1\ui\Tan.jpg";
+		model = "\x\cfp\addons\models\JackEllis1";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\JackEllis1\NKSF.paa"};
+		hiddenSelections[] = {"Camo"};
+
+
+
+		class ItemInfo: VestItem
+		{
+			uniformModel = "\x\cfp\addons\models\JackEllis1";
+			containerClass = "Supply0";
+			hiddenSelections[] = {"camo"};
+			mass = 120;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					hitpointName = "HitChest";
+					armor = 16;
+					passThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					hitpointName = "HitDiaphragm";
+					armor = 16;
+					passThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 16;
+					passThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.2;
+				};
+			};
+
+		};
+	};
