@@ -61,6 +61,68 @@
 		};
 	};
 
+	class CFP_VDVBDU_ANAlight: B_Soldier_base_F
+	{
+
+		scope = 1;
+		displayName = "BDU (ANA Light)";
+		faction = "BLU_F";
+		modelSides[] = {6};
+		vehicleClass = "CFP_VDVBDU";
+		canCarryBackPack=1;
+		canDeactivateMines=1;
+		engineer=1;
+		attendant = "true";
+		uniformAccessories[] = {};
+		uniformClass = "CFP_VDVBDU_ANAlight";
+		nakedUniform = "U_BasicBody";
+		model = "\x\cfp\addons\models\Modern_russian_soldier2.p3d";
+
+		Items[] = {};
+		weapons[] = {"Throw","Put"};
+		magazines[] = {};
+		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
+		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\VDVUniform\camo\VDVBDU_ANAlight.paa"};
+		hiddenSelections[] = {"Camo", "insignia"};
+		class Wounds /// changes material of skin according to damage
+		{
+			tex[] = {};
+			mat[] = {"A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing.rvmat","A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing_injury.rvmat","A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
+		};
+	};
+
+	class CFP_VDVBDU_ANPlight: B_Soldier_base_F
+	{
+
+		scope = 1;
+		displayName = "BDU (ANP Light)";
+		faction = "BLU_F";
+		modelSides[] = {6};
+		vehicleClass = "CFP_VDVBDU";
+		canCarryBackPack=1;
+		canDeactivateMines=1;
+		engineer=1;
+		attendant = "true";
+		uniformAccessories[] = {};
+		uniformClass = "CFP_VDVBDU_ANPlight";
+		nakedUniform = "U_BasicBody";
+		model = "\x\cfp\addons\models\Modern_russian_soldier2.p3d";
+
+		Items[] = {};
+		weapons[] = {"Throw","Put"};
+		magazines[] = {};
+		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
+		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\VDVUniform\camo\VDVBDU_ANPlight.paa"};
+		hiddenSelections[] = {"Camo", "insignia"};
+		class Wounds /// changes material of skin according to damage
+		{
+			tex[] = {};
+			mat[] = {"A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing.rvmat","A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing_injury.rvmat","A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
+		};
+	};
+
 	class CFP_VDVBDU_ChocChip: B_Soldier_base_F
 	{
 

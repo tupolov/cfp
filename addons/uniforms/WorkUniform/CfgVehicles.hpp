@@ -1,18 +1,18 @@
 
-	class SP_0000_Standard_WorkUniform_Hunter: B_Soldier_base_F
+	class CFP_WorkUniform_Green: B_Soldier_base_F
 	{
 
 		scope = 1;
-		displayName = "Work Uniform (Hunter)";
+		displayName = "Work Uniform (Green)";
 		faction = "BLU_F";
         modelSides[] = {6};
-		vehicleClass = "SP_0000_Standard_WorkUniform";
+		vehicleClass = "CFP_WorkUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
 		engineer=1;
 		attendant = "true";
 		uniformAccessories[] = {};
-		uniformClass = "SP_0000_Standard_WorkUniform_Hunter";
+		uniformClass = "CFP_U_WorkUniform_Green";
 		nakedUniform = "U_BasicBody";
 		model = "\x\cfp\addons\models\WorkUniform.p3d";
 		Items[] = {};
@@ -20,7 +20,7 @@
 		magazines[] = {};
 		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\WorkUniform\0000_Standard\Hunter.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\WorkUniform\0000_Standard\Green.paa"};
 		hiddenSelectionsMaterials[] = {"\x\cfp\addons\models\rv\WorkerUniform.rvmat"};
 		hiddenSelections[] = {"Camo", "insignia"};
 		class Wounds
@@ -31,20 +31,20 @@
 		};
 	};
 
-	class SP_0000_Standard_WorkUniform_Hunter2: B_Soldier_base_F
+	class CFP_WorkUniform_M81Des: B_Soldier_base_F
 	{
 
 		scope = 1;
-		displayName = "Work Uniform (Hunter 2)";
+		displayName = "Work Uniform (M81 Desert)";
 		faction = "BLU_F";
         modelSides[] = {6};
-		vehicleClass = "SP_0000_Standard_WorkUniform";
+		vehicleClass = "CFP_WorkUniform";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
 		engineer=1;
 		attendant = "true";
 		uniformAccessories[] = {};
-		uniformClass = "SP_0000_Standard_WorkUniform_Hunter2";
+		uniformClass = "CFP_U_WorkUniform_M81Des";
 		nakedUniform = "U_BasicBody";
 		model = "\x\cfp\addons\models\WorkUniform.p3d";
 		Items[] = {};
@@ -52,7 +52,7 @@
 		magazines[] = {};
 		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\WorkUniform\0000_Standard\Hunter2.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\WorkUniform\0000_Standard\M81Des.paa"};
 		hiddenSelectionsMaterials[] = {"\x\cfp\addons\models\rv\WorkerUniform.rvmat"};
 		hiddenSelections[] = {"Camo", "insignia"};
 		class Wounds
@@ -254,3 +254,196 @@
 
 		};
 	};
+
+	class CFP_WorkUniform_DPM: B_Soldier_base_F
+	{
+
+		scope = 1;
+		displayName = "Uniform (DPM)";
+		faction = "BLU_F";
+        modelSides[] = {6};
+		vehicleClass = "CFP_WorkUniform";
+		canCarryBackPack=1;
+		canDeactivateMines=1;
+		engineer=1;
+		attendant = "true";
+		uniformAccessories[] = {};
+		uniformClass = "CFP_U_WorkUniform_DPM";
+		nakedUniform = "U_BasicBody";
+		model = "\x\cfp\addons\models\WorkUniform.p3d";
+		Items[] = {};
+		weapons[] = {"Throw","Put"};
+		magazines[] = {};
+		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
+		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\WorkUniform\0000_Standard\DPM.paa"};
+		hiddenSelectionsMaterials[] = {"\x\cfp\addons\models\rv\WorkerUniform.rvmat"};
+		hiddenSelections[] = {"Camo", "insignia"};
+		class Wounds
+		{
+			tex[] = {};
+			mat[] = {"A3\Characters_F\OPFOR\Data\officer.rvmat","A3\Characters_F\OPFOR\Data\officer_injury.rvmat","A3\Characters_F\OPFOR\Data\officer_injury.rvmat"};
+
+		};
+	};
+
+	class CFP_WorkUniform_DesTiger: B_Soldier_base_F
+	{
+
+		scope = 1;
+		displayName = "Uniform (Desert Tiger)";
+		faction = "BLU_F";
+        modelSides[] = {6};
+		vehicleClass = "CFP_WorkUniform";
+		canCarryBackPack=1;
+		canDeactivateMines=1;
+		engineer=1;
+		attendant = "true";
+		uniformAccessories[] = {};
+		uniformClass = "CFP_U_WorkUniform_DesTiger";
+		nakedUniform = "U_BasicBody";
+		model = "\x\cfp\addons\models\WorkUniform.p3d";
+		Items[] = {};
+		weapons[] = {"Throw","Put"};
+		magazines[] = {};
+		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
+		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\WorkUniform\0000_Standard\DesTiger.paa"};
+		hiddenSelectionsMaterials[] = {"\x\cfp\addons\models\rv\WorkerUniform.rvmat"};
+		hiddenSelections[] = {"Camo", "insignia"};
+		class Wounds
+		{
+			tex[] = {};
+			mat[] = {"A3\Characters_F\OPFOR\Data\officer.rvmat","A3\Characters_F\OPFOR\Data\officer_injury.rvmat","A3\Characters_F\OPFOR\Data\officer_injury.rvmat"};
+
+		};
+	};
+
+	class CFP_WorkUniform_BlackGrey: B_Soldier_base_F
+	{
+
+		scope = 1;
+		displayName = "Uniform (Black Shirt Grey Pants)";
+		faction = "BLU_F";
+        modelSides[] = {6};
+		vehicleClass = "CFP_WorkUniform";
+		canCarryBackPack=1;
+		canDeactivateMines=1;
+		engineer=1;
+		attendant = "true";
+		uniformAccessories[] = {};
+		uniformClass = "CFP_U_WorkUniform_BlackGrey";
+		nakedUniform = "U_BasicBody";
+		model = "\x\cfp\addons\models\WorkUniform.p3d";
+		Items[] = {};
+		weapons[] = {"Throw","Put"};
+		magazines[] = {};
+		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
+		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\WorkUniform\0000_Standard\BlackGrey.paa"};
+		hiddenSelectionsMaterials[] = {"\x\cfp\addons\models\rv\WorkerUniform.rvmat"};
+		hiddenSelections[] = {"Camo", "insignia"};
+		class Wounds
+		{
+			tex[] = {};
+			mat[] = {"A3\Characters_F\OPFOR\Data\officer.rvmat","A3\Characters_F\OPFOR\Data\officer_injury.rvmat","A3\Characters_F\OPFOR\Data\officer_injury.rvmat"};
+
+		};
+	};
+
+	class CFP_WorkUniform_TanM81: B_Soldier_base_F
+	{
+
+		scope = 1;
+		displayName = "Uniform (Tan Shirt M81 Pants)";
+		faction = "BLU_F";
+        modelSides[] = {6};
+		vehicleClass = "CFP_WorkUniform";
+		canCarryBackPack=1;
+		canDeactivateMines=1;
+		engineer=1;
+		attendant = "true";
+		uniformAccessories[] = {};
+		uniformClass = "CFP_U_WorkUniform_TanM81";
+		nakedUniform = "U_BasicBody";
+		model = "\x\cfp\addons\models\WorkUniform.p3d";
+		Items[] = {};
+		weapons[] = {"Throw","Put"};
+		magazines[] = {};
+		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
+		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\WorkUniform\0000_Standard\TanM81.paa"};
+		hiddenSelectionsMaterials[] = {"\x\cfp\addons\models\rv\WorkerUniform.rvmat"};
+		hiddenSelections[] = {"Camo", "insignia"};
+		class Wounds
+		{
+			tex[] = {};
+			mat[] = {"A3\Characters_F\OPFOR\Data\officer.rvmat","A3\Characters_F\OPFOR\Data\officer_injury.rvmat","A3\Characters_F\OPFOR\Data\officer_injury.rvmat"};
+
+		};
+	};
+
+	class CFP_WorkUniform_ChocChip: B_Soldier_base_F
+	{
+
+		scope = 1;
+		displayName = "Uniform (Chocolate Chip)";
+		faction = "BLU_F";
+        modelSides[] = {6};
+		vehicleClass = "CFP_WorkUniform";
+		canCarryBackPack=1;
+		canDeactivateMines=1;
+		engineer=1;
+		attendant = "true";
+		uniformAccessories[] = {};
+		uniformClass = "CFP_U_WorkUniform_ChocChip";
+		nakedUniform = "U_BasicBody";
+		model = "\x\cfp\addons\models\WorkUniform.p3d";
+		Items[] = {};
+		weapons[] = {"Throw","Put"};
+		magazines[] = {};
+		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
+		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\WorkUniform\0000_Standard\ChocChip.paa"};
+		hiddenSelectionsMaterials[] = {"\x\cfp\addons\models\rv\WorkerUniform.rvmat"};
+		hiddenSelections[] = {"Camo", "insignia"};
+		class Wounds
+		{
+			tex[] = {};
+			mat[] = {"A3\Characters_F\OPFOR\Data\officer.rvmat","A3\Characters_F\OPFOR\Data\officer_injury.rvmat","A3\Characters_F\OPFOR\Data\officer_injury.rvmat"};
+
+		};
+	};
+
+	class CFP_WorkUniform_3Desert: B_Soldier_base_F
+	{
+
+		scope = 1;
+		displayName = "Uniform (3 Color Desert)";
+		faction = "BLU_F";
+        modelSides[] = {6};
+		vehicleClass = "CFP_WorkUniform";
+		canCarryBackPack=1;
+		canDeactivateMines=1;
+		engineer=1;
+		attendant = "true";
+		uniformAccessories[] = {};
+		uniformClass = "CFP_U_WorkUniform_3Desert";
+		nakedUniform = "U_BasicBody";
+		model = "\x\cfp\addons\models\WorkUniform.p3d";
+		Items[] = {};
+		weapons[] = {"Throw","Put"};
+		magazines[] = {};
+		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
+		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\WorkUniform\0000_Standard\3Desert.paa"};
+		hiddenSelectionsMaterials[] = {"\x\cfp\addons\models\rv\WorkerUniform.rvmat"};
+		hiddenSelections[] = {"Camo", "insignia"};
+		class Wounds
+		{
+			tex[] = {};
+			mat[] = {"A3\Characters_F\OPFOR\Data\officer.rvmat","A3\Characters_F\OPFOR\Data\officer_injury.rvmat","A3\Characters_F\OPFOR\Data\officer_injury.rvmat"};
+
+		};
+	};
+

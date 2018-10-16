@@ -3,15 +3,15 @@ class CFP_Lungee_Shemagh: ItemCore
         picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_Lungee_Shemagh.paa";
 	scope = 2;
 	weaponPoolAvailable = 1;
-	displayName = "Lungee Shemagh (Black / Tan)";
+	displayName = "Lungee Shemagh (Tan)";
 	// picture = "\x\cfp\addons\headgear\Lungee_Shemagh\data\ui\CheckWhite.jpg";
 	model = "\x\cfp\addons\models\Lungee_Shemagh";
-	hiddenSelections[] = {"Camo","Camo1"};
+	hiddenSelections[] = {"Camo"};
 	hiddenSelectionsTextures[] = {
-		"\x\cfp\addons\headgear\Lungee_Shemagh\data\lungee_shemagh_cream_check.paa",
-		"\x\cfp\addons\headgear\Lungee_Shemagh\data\tex2_co.paa"
+		"\x\cfp\addons\headgear\Lungee_Shemagh\data\shemagh_tan.paa",
+		"\x\cfp\addons\headgear\LungeeOpen\Tan.paa"
 	};
-	author = "Tupolov";
+	author = "CFP";
 
 	class ItemInfo: HeadgearItem
 	{
@@ -20,28 +20,28 @@ class CFP_Lungee_Shemagh: ItemCore
 		modelSides[] = {6};
 		armor = 0;
 		passThrough = 0.30;
-		hiddenSelections[] = {"Camo","Camo1"};
+		hiddenSelections[] = {"Camo"};
 		hiddenSelectionsTextures[] = {
-			"\x\cfp\addons\headgear\Lungee_Shemagh\data\lungee_shemagh_cream_check.paa",
-			"\x\cfp\addons\headgear\Lungee_Shemagh\data\tex2_co.paa"
+		"\x\cfp\addons\headgear\Lungee_Shemagh\data\shemagh_tan.paa",
+		"\x\cfp\addons\headgear\LungeeOpen\Tan.paa"
 		};
 
 	};
 };
 
-class CFP_Lungee_Shemagh_Red : CFP_Lungee_Shemagh
+class CFP_Lungee_Shemagh_Black : CFP_Lungee_Shemagh
 {
 	scope = 2;
 	weaponPoolAvailable = 1;
-	displayName = "Lungee Shemagh (Red)";
+	displayName = "Lungee Shemagh (Black)";
 	// picture = "\x\cfp\addons\headgear\Lungee_Shemagh\data\ui\Red.jpg";
 	model = "\x\cfp\addons\models\Lungee_Shemagh";
-	hiddenSelections[] = {"Camo","Camo1"};
+	hiddenSelections[] = {"Camo"};
 	hiddenSelectionsTextures[] = {
-		"\x\cfp\addons\headgear\Lungee_Shemagh\data\lungee_shemagh_red_1.paa",
-		"\x\cfp\addons\headgear\Lungee_Shemagh\data\lungee_shemagh_red_2.paa"
+		"\x\cfp\addons\headgear\Lungee_Shemagh\data\shemagh_black.paa",
+		"\x\cfp\addons\headgear\LungeeOpen\Black.paa"
 	};
-	author = "Tupolov";
+	author = "CFP";
 
 	class ItemInfo: HeadgearItem
 	{
@@ -50,10 +50,10 @@ class CFP_Lungee_Shemagh_Red : CFP_Lungee_Shemagh
 		modelSides[] = {6};
 		armor = 0;
 		passThrough = 0.30;
-		hiddenSelections[] = {"Camo","Camo1"};
+		hiddenSelections[] = {"Camo"};
 		hiddenSelectionsTextures[] = {
-			"\x\cfp\addons\headgear\Lungee_Shemagh\data\lungee_shemagh_red_1.paa",
-			"\x\cfp\addons\headgear\Lungee_Shemagh\data\lungee_shemagh_red_2.paa"
+		"\x\cfp\addons\headgear\Lungee_Shemagh\data\shemagh_black.paa",
+		"\x\cfp\addons\headgear\LungeeOpen\Black.paa"
 		};
 
 	};
@@ -66,12 +66,12 @@ class CFP_Lungee_Shemagh_Yellow : CFP_Lungee_Shemagh
 	displayName = "Lungee Shemagh (Yellow)";
 	// picture = "\x\cfp\addons\headgear\Lungee_Shemagh\data\ui\Yellow.jpg";
 	model = "\x\cfp\addons\models\Lungee_Shemagh";
-	hiddenSelections[] = {"Camo","Camo1"};
+	hiddenSelections[] = {"Camo"};
 	hiddenSelectionsTextures[] = {
-		"\x\cfp\addons\headgear\Lungee_Shemagh\data\lungee_shemagh_yellow_1.paa",
-		"\x\cfp\addons\headgear\Lungee_Shemagh\data\lungee_shemagh_yellow_2.paa"
+		"\x\cfp\addons\headgear\Lungee_Shemagh\data\shemagh_yellow.paa",
+		"\x\cfp\addons\headgear\LungeeOpen\Yellow.paa"
 	};
-	author = "Tupolov";
+	author = "CFP";
 
 	class ItemInfo: HeadgearItem
 	{
@@ -80,10 +80,10 @@ class CFP_Lungee_Shemagh_Yellow : CFP_Lungee_Shemagh
 		modelSides[] = {6};
 		armor = 0;
 		passThrough = 0.30;
-		hiddenSelections[] = {"Camo","Camo1"};
+		hiddenSelections[] = {"Camo"};
 		hiddenSelectionsTextures[] = {
-			"\x\cfp\addons\headgear\Lungee_Shemagh\data\lungee_shemagh_yellow_1.paa",
-			"\x\cfp\addons\headgear\Lungee_Shemagh\data\lungee_shemagh_yellow_2.paa"
+		"\x\cfp\addons\headgear\Lungee_Shemagh\data\shemagh_yellow.paa",
+		"\x\cfp\addons\headgear\LungeeOpen\Yellow.paa"
 		};
 
 	};
@@ -96,12 +96,12 @@ class CFP_Lungee_Shemagh_White : CFP_Lungee_Shemagh
 	displayName = "Lungee Shemagh (White)";
 	// picture = "\x\cfp\addons\headgear\Lungee_Shemagh\data\ui\White.jpg";
 	model = "\x\cfp\addons\models\Lungee_Shemagh";
-	hiddenSelections[] = {"Camo","Camo1"};
+	hiddenSelections[] = {"Camo"};
 	hiddenSelectionsTextures[] = {
-		"\x\cfp\addons\headgear\Lungee_Shemagh\data\lungee_shemagh_white_1.paa",
-		"\x\cfp\addons\headgear\Lungee_Shemagh\data\lungee_shemagh_white_2.paa"
+		"\x\cfp\addons\headgear\Lungee_Shemagh\data\shemagh_white.paa",
+		"\x\cfp\addons\headgear\LungeeOpen\White.paa"
 	};
-	author = "Tupolov";
+	author = "CFP";
 
 	class ItemInfo: HeadgearItem
 	{
@@ -110,10 +110,10 @@ class CFP_Lungee_Shemagh_White : CFP_Lungee_Shemagh
 		modelSides[] = {6};
 		armor = 0;
 		passThrough = 0.30;
-		hiddenSelections[] = {"Camo","Camo1"};
+		hiddenSelections[] = {"Camo"};
 		hiddenSelectionsTextures[] = {
-			"\x\cfp\addons\headgear\Lungee_Shemagh\data\lungee_shemagh_white_1.paa",
-			"\x\cfp\addons\headgear\Lungee_Shemagh\data\lungee_shemagh_white_2.paa"
+		"\x\cfp\addons\headgear\Lungee_Shemagh\data\shemagh_white.paa",
+		"\x\cfp\addons\headgear\LungeeOpen\White.paa"
 		};
 
 	};
@@ -126,12 +126,12 @@ class CFP_Lungee_Shemagh_LightBlue : CFP_Lungee_Shemagh
 	displayName = "Lungee Shemagh (Light Blue)";
 	// picture = "\x\cfp\addons\headgear\Lungee_Shemagh\data\ui\LightBlue.jpg";
 	model = "\x\cfp\addons\models\Lungee_Shemagh";
-	hiddenSelections[] = {"Camo","Camo1"};
+	hiddenSelections[] = {"Camo"};
 	hiddenSelectionsTextures[] = {
-		"\x\cfp\addons\headgear\Lungee_Shemagh\data\lungee_shemagh_lightblue_1.paa",
-		"\x\cfp\addons\headgear\Lungee_Shemagh\data\lungee_shemagh_lightblue_2.paa"
+		"\x\cfp\addons\headgear\Lungee_Shemagh\data\shemagh_babyblue.paa",
+		"\x\cfp\addons\headgear\LungeeOpen\BabyBlue.paa"
 	};
-	author = "Tupolov";
+	author = "CFP";
 
 	class ItemInfo: HeadgearItem
 	{
@@ -140,10 +140,10 @@ class CFP_Lungee_Shemagh_LightBlue : CFP_Lungee_Shemagh
 		modelSides[] = {6};
 		armor = 0;
 		passThrough = 0.30;
-		hiddenSelections[] = {"Camo","Camo1"};
+		hiddenSelections[] = {"Camo"};
 		hiddenSelectionsTextures[] = {
-			"\x\cfp\addons\headgear\Lungee_Shemagh\data\lungee_shemagh_lightblue_1.paa",
-			"\x\cfp\addons\headgear\Lungee_Shemagh\data\lungee_shemagh_lightblue_2.paa"
+		"\x\cfp\addons\headgear\Lungee_Shemagh\data\shemagh_babyblue.paa",
+		"\x\cfp\addons\headgear\LungeeOpen\BabyBlue.paa"
 		};
 
 	};
@@ -156,12 +156,12 @@ class CFP_Lungee_Shemagh_Green : CFP_Lungee_Shemagh
 	displayName = "Lungee Shemagh (Green)";
 	// picture = "\x\cfp\addons\headgear\Lungee_Shemagh\data\ui\Green.jpg";
 	model = "\x\cfp\addons\models\Lungee_Shemagh";
-	hiddenSelections[] = {"Camo","Camo1"};
+	hiddenSelections[] = {"Camo"};
 	hiddenSelectionsTextures[] = {
-		"\x\cfp\addons\headgear\Lungee_Shemagh\data\lungee_shemagh_green_1.paa",
-		"\x\cfp\addons\headgear\Lungee_Shemagh\data\lungee_shemagh_green_2.paa"
+		"\x\cfp\addons\headgear\Lungee_Shemagh\data\shemagh_green.paa",
+		"\x\cfp\addons\headgear\LungeeOpen\Green.paa"
 	};
-	author = "Tupolov";
+	author = "CFP";
 
 	class ItemInfo: HeadgearItem
 	{
@@ -170,10 +170,100 @@ class CFP_Lungee_Shemagh_Green : CFP_Lungee_Shemagh
 		modelSides[] = {6};
 		armor = 0;
 		passThrough = 0.30;
-		hiddenSelections[] = {"Camo","Camo1"};
+		hiddenSelections[] = {"Camo"};
 		hiddenSelectionsTextures[] = {
-			"\x\cfp\addons\headgear\Lungee_Shemagh\data\lungee_shemagh_green_1.paa",
-			"\x\cfp\addons\headgear\Lungee_Shemagh\data\lungee_shemagh_green_2.paa"
+		"\x\cfp\addons\headgear\Lungee_Shemagh\data\shemagh_green.paa",
+		"\x\cfp\addons\headgear\LungeeOpen\Green.paa"
+		};
+
+	};
+};
+
+class CFP_Lungee_Shemagh_Olive : CFP_Lungee_Shemagh
+{
+	scope = 2;
+	weaponPoolAvailable = 1;
+	displayName = "Lungee Shemagh (Olive)";
+	// picture = "\x\cfp\addons\headgear\Lungee_Shemagh\data\ui\Green.jpg";
+	model = "\x\cfp\addons\models\Lungee_Shemagh";
+	hiddenSelections[] = {"Camo"};
+	hiddenSelectionsTextures[] = {
+		"\x\cfp\addons\headgear\Lungee_Shemagh\data\shemagh_olive.paa",
+		"\x\cfp\addons\headgear\LungeeOpen\Olive.paa"
+	};
+	author = "CFP";
+
+	class ItemInfo: HeadgearItem
+	{
+		mass = 15;
+		uniformmodel = "\x\cfp\addons\models\Lungee_Shemagh";
+		modelSides[] = {6};
+		armor = 0;
+		passThrough = 0.30;
+		hiddenSelections[] = {"Camo"};
+		hiddenSelectionsTextures[] = {
+		"\x\cfp\addons\headgear\Lungee_Shemagh\data\shemagh_olive.paa",
+		"\x\cfp\addons\headgear\LungeeOpen\Olive.paa"
+		};
+
+	};
+};
+
+class CFP_Lungee_Shemagh_Grey : CFP_Lungee_Shemagh
+{
+	scope = 2;
+	weaponPoolAvailable = 1;
+	displayName = "Lungee Shemagh (Grey)";
+	// picture = "\x\cfp\addons\headgear\Lungee_Shemagh\data\ui\Green.jpg";
+	model = "\x\cfp\addons\models\Lungee_Shemagh";
+	hiddenSelections[] = {"Camo"};
+	hiddenSelectionsTextures[] = {
+		"\x\cfp\addons\headgear\Lungee_Shemagh\data\shemagh_lightgrey.paa",
+		"\x\cfp\addons\headgear\LungeeOpen\Creme.paa"
+	};
+	author = "CFP";
+
+	class ItemInfo: HeadgearItem
+	{
+		mass = 15;
+		uniformmodel = "\x\cfp\addons\models\Lungee_Shemagh";
+		modelSides[] = {6};
+		armor = 0;
+		passThrough = 0.30;
+		hiddenSelections[] = {"Camo"};
+		hiddenSelectionsTextures[] = {
+		"\x\cfp\addons\headgear\Lungee_Shemagh\data\shemagh_lightgrey.paa",
+		"\x\cfp\addons\headgear\LungeeOpen\Creme.paa"
+		};
+
+	};
+};
+
+class CFP_Lungee_Shemagh_BlueGrey : CFP_Lungee_Shemagh
+{
+	scope = 2;
+	weaponPoolAvailable = 1;
+	displayName = "Lungee Shemagh (Blue Grey)";
+	// picture = "\x\cfp\addons\headgear\Lungee_Shemagh\data\ui\Green.jpg";
+	model = "\x\cfp\addons\models\Lungee_Shemagh";
+	hiddenSelections[] = {"Camo"};
+	hiddenSelectionsTextures[] = {
+		"\x\cfp\addons\headgear\Lungee_Shemagh\data\shemagh_bluegrey.paa",
+		"\x\cfp\addons\headgear\LungeeOpen\BlueGrey.paa"
+	};
+	author = "CFP";
+
+	class ItemInfo: HeadgearItem
+	{
+		mass = 15;
+		uniformmodel = "\x\cfp\addons\models\Lungee_Shemagh";
+		modelSides[] = {6};
+		armor = 0;
+		passThrough = 0.30;
+		hiddenSelections[] = {"Camo"};
+		hiddenSelectionsTextures[] = {
+		"\x\cfp\addons\headgear\Lungee_Shemagh\data\shemagh_bluegrey.paa",
+		"\x\cfp\addons\headgear\LungeeOpen\BlueGrey.paa"
 		};
 
 	};

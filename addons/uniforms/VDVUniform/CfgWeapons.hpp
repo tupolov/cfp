@@ -32,6 +32,40 @@
 		};
 	};
 
+	class CFP_U_VDVBDU_ANAlight: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "BDU (ANA light)";
+		author = "AuburnAlumni";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\x\cfp\addons\models\Modern_russian_soldier2.p3d";
+			uniformClass = "CFP_VDVBDU_ANAlight";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+
+	class CFP_U_VDVBDU_ANPlight: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "BDU (ANP light)";
+		author = "AuburnAlumni";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\x\cfp\addons\models\Modern_russian_soldier2.p3d";
+			uniformClass = "CFP_VDVBDU_ANPlight";
+			containerClass="Supply40";
+			mass=20;
+		};
+	};
+
 	class CFP_U_VDVBDU_ChocChip: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";

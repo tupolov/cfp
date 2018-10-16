@@ -291,7 +291,7 @@ class CfgVehicles {
         hiddenSelectionsTextures[]=
         {
             "\x\cfp\addons\o_sdrebels\Data\Shirt_JEM.paa",
-            "\x\cfp\addons\o_sdrebels\Data\Uniform_OD.paa"
+            "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\GreenOlive.paa"
         };
     };
     class CFP_O_SDRebels_Soldier_base_Guerilla: B_Soldier_base_F

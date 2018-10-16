@@ -607,7 +607,7 @@ class CfgVehicles
         hiddenSelectionsTextures[]=
         {
             "\x\cfp\addons\i_ssarmy\Data\GreenOlive.paa",
-            "\x\cfp\addons\i_ssarmy\Data\Uniform_SPLA_Olive.paa"
+            "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\GreenOlive.paa"
         };
     };
     class CFP_I_SSArmy_Soldier_base_SPLA_07: CFP_I_SSArmy_Soldier_base_SPLA_01
