@@ -59,6 +59,36 @@ class CFP_Lungee_Shemagh_Black : CFP_Lungee_Shemagh
 	};
 };
 
+class CFP_Lungee_Shemagh_Red : CFP_Lungee_Shemagh
+{
+	scope = 2;
+	weaponPoolAvailable = 1;
+	displayName = "Lungee Shemagh (Red)";
+	// picture = "\x\cfp\addons\headgear\Lungee_Shemagh\data\ui\Red.jpg";
+	model = "\x\cfp\addons\models\Lungee_Shemagh";
+	hiddenSelections[] = {"Camo"};
+	hiddenSelectionsTextures[] = {
+		"\x\cfp\addons\headgear\Lungee_Shemagh\data\shemagh_red.paa",
+		"\x\cfp\addons\headgear\LungeeOpen\Red.paa"
+	};
+	author = "CFP";
+
+	class ItemInfo: HeadgearItem
+	{
+		mass = 15;
+		uniformmodel = "\x\cfp\addons\models\Lungee_Shemagh";
+		modelSides[] = {6};
+		armor = 0;
+		passThrough = 0.30;
+		hiddenSelections[] = {"Camo"};
+		hiddenSelectionsTextures[] = {
+		"\x\cfp\addons\headgear\Lungee_Shemagh\data\shemagh_red.paa",
+		"\x\cfp\addons\headgear\LungeeOpen\Red.paa"
+		};
+
+	};
+};
+
 class CFP_Lungee_Shemagh_Yellow : CFP_Lungee_Shemagh
 {
 	scope = 2;

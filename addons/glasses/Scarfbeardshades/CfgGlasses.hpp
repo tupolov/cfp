@@ -35,6 +35,17 @@
 		identityTypes[] = {"NoGlasses",0};
 	};
 
+	class CFP_Shemaghbeardshades_white: None
+	{
+		scope = 2;
+		displayname = "Shemagh/Beard/Shades (White)";
+		model = "\x\cfp\addons\models\ShadesShemaghBeard.p3d";
+		hiddenSelections[] = {"Camo","_newnew"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\ShemaghNeck\shemagh_neck_white.paa","\x\cfp\addons\glasses\Beards\VSM_Beard_2.paa"};
+		picture = "\x\cfp\addons\glasses\Goggles\ui\Black.jpg";
+		identityTypes[] = {"NoGlasses",0};
+	};
+
 	class CFP_Scarfbeardshades_tan: None
 	{
 		scope = 2;
@@ -129,6 +140,8 @@
 		picture = "\x\cfp\addons\glasses\Goggles\ui\Black.jpg";
 		identityTypes[] = {"NoGlasses",0};
 	};
+
+
 
 
 

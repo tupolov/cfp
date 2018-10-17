@@ -11,4 +11,5 @@ class CfgGlasses
     #include "Scarfbeardshades\CfgGlasses.hpp"
     #include "75Facewear\CfgGlasses.hpp"
     #include "75Neckwear\CfgGlasses.hpp"
+    #include "ShemaghNeck\CfgGlasses.hpp"
 };
