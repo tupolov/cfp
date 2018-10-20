@@ -171,7 +171,7 @@ class CfgVehicles {
             "CFP_Basic_Helmet_Light_Green", 0.25,
             "CFP_Basic_Helmet_Gray_Green", 0.25,
             "CFP_Basic_Helmet_Tan", 0.25,
-            "CFP_Basic_Helmet_Woodland", 0.25,
+            "CFP_Basic_Helmet_M81", 0.25,
             "CFP_Basic_Helmet_Spec4cewood", 0.25
         };
 

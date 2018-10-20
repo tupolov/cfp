@@ -208,7 +208,7 @@
 
 		uniformClass = "CFP_U_BattleDressUniform_M81";
 
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_M81.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_M81.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_M81.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_ana_wddark.paa"};
 
 
 	};
@@ -221,7 +221,7 @@
 
 		uniformClass = "CFP_U_BattleDressUniform_M81light";
 
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_M81.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_M81light.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_M81.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_ana_wdlight.paa"};
 
 
 	};
@@ -235,19 +235,6 @@
 		uniformClass = "CFP_U_BattleDressUniform_Dpm";
 
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_dpm.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_dpm.paa"};
-
-
-	};
-
-	class CFP_BattleDressUniform_drk: CFP_Uniform
-	{
-
-
-		displayName = "Battle Dress Uniform (DRK)";
-
-		uniformClass = "CFP_U_BattleDressUniform_drk";
-
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_drk.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_drk.paa"};
 
 
 	};
@@ -367,7 +354,6 @@
 	UNIFORM_V("Battle Dress Uniform (TIger Stripe 2)",tigerstripe2)
 	UNIFORM_V("Battle Dress Uniform (OCP)",scorpion_w2)
 	UNIFORM_V("Battle Dress Uniform (Flora Arid)",flora_arid)
-	UNIFORM_V("Battle Dress Uniform (Afghan Woodland)",afghan_w)
 	UNIFORM_V("Battle Dress Uniform (ACR Desert)",acr_desert)
 
 	class CFP_BattleDressUniform_atacs_au : CFP_Uniform

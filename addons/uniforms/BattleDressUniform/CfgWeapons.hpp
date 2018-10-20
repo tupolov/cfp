@@ -252,24 +252,6 @@
 		};
 	};
 
-	class CFP_U_BattleDressUniform_DRK: Uniform_Base
-    {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_CFP_U_BattleDressUniform_DPM.paa";
-		scope=2;
-		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Battle Dress Uniform (DRK)";
-		// picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_Dpm.jpg";
-		author = "AuburnAlumni";
-
-		class ItemInfo: UniformItem
-		{
-			uniformModel = "-";
-			uniformClass = "CFP_BattleDressUniform_DRK";
-			containerClass="Supply60";
-			mass=80;
-		};
-	};
-
 	class CFP_U_BattleDressUniform_DPMWoodland: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_CFP_U_BattleDressUniform_DPMWoodland.paa";
@@ -542,7 +524,6 @@
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (DPM Woodland / Green)",dpmwoodlandgreen,"AccuracyThruVolume")
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (OCP)",scorpion_w2,"AccuracyThruVolume")
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Flora Arid)",flora_arid,"AccuracyThruVolume")
-	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Afghan Woodland)",afghan_w,"AccuracyThruVolume")
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (ACR Desert)",acr_desert,"AccuracyThruVolume")
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Iran DPM)",irandpm,"AuburnAlumni")
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (ANA Woodland Light Boots)",ana_wdlight,"AuburnAlumni")
