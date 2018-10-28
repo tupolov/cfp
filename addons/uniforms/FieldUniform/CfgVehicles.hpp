@@ -667,11 +667,12 @@
 		};
 	};
 
-	class CFP_FieldUniform_dpm: B_Soldier_base_F
+
+	class CFP_FieldUniform_ddpm: B_Soldier_base_F
 	{
 
 		scope = 1;
-		displayName = "Field Uniform (DPM)";
+		displayName = "Field Uniform (DDPM)";
 		faction = "BLU_F";
         modelSides[] = {6};
 		vehicleClass = "CFP_FieldUniform";
@@ -680,7 +681,7 @@
 		engineer=1;
 		attendant = "true";
 		uniformAccessories[] = {};
-		uniformClass = "CFP_U_FieldUniform_Dpm";
+		uniformClass = "CFP_U_FieldUniform_Ddpm";
 		nakedUniform = "U_BasicBody";
 		model = "\x\cfp\addons\models\FieldUniform.p3d";
 		Items[] = {};
@@ -688,7 +689,7 @@
 		magazines[] = {};
 		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_dpm.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_ddpm.paa"};
 		hiddenSelections[] = {"Camo","insignia"};
 		class Wounds
 		{

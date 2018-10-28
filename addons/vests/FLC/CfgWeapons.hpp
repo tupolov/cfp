@@ -443,7 +443,7 @@ class CfgVehicleClasses
 		// picture = "\x\cfp\addons\vsm_vests\data\VSM_OGA.paa";
 		model = "\x\cfp\addons\models\CFP_RAV.p3d";
 		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"x\cfp\addons\vsm_vests\data\vsm_rav_OGA.paa"};
+		hiddenSelectionsTextures[] = {"x\cfp\addons\vsm_vests\data\spec_rav_tan.paa"};
 		descriptionShort = "$STR_A3_SP_AL_IV";
 		class ItemInfo: VestItem
 		{

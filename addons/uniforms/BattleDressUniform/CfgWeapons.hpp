@@ -133,7 +133,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (3 Color Desert)";
 		// picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_3ColorDesert.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -151,7 +151,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (African Woodland Dark Boots)";
 		// picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_AfricanWoodland.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -169,7 +169,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (African Woodland Light Boots)";
 		// picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_AfricanWoodland.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -187,7 +187,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (Choc Chip)";
 		// picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_ChocChip.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -205,7 +205,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (M81)";
 		// picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_M81.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -234,19 +234,19 @@
 		};
 	};
 
-	class CFP_U_BattleDressUniform_DPM: Uniform_Base
+	class CFP_U_BattleDressUniform_DDPM: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_CFP_U_BattleDressUniform_DPM.paa";
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Battle Dress Uniform (DPM)";
+		displayName = "Battle Dress Uniform (DDPM)";
 		// picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_Dpm.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "CFP_BattleDressUniform_DPM";
+			uniformClass = "CFP_BattleDressUniform_DDPM";
 			containerClass="Supply60";
 			mass=80;
 		};
@@ -259,7 +259,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (DPM Woodland)";
 		// picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_DpmWoodland.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -277,7 +277,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (EDRL)";
 		// picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_edrl.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -295,7 +295,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (Polygon Desert Dark Boots)";
 		// picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_PolygonDesert.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -313,7 +313,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (Polygon Desert Light Boots)";
 		// picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_PolygonDesert.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -367,7 +367,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (Tiger Stripe)";
 		// picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_Tigerstripe.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -385,7 +385,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (MultiCam)";
 		// picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_Multicam.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -403,7 +403,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (A-Tacs AU)";
 		// picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_ATacsAU.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -421,7 +421,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (MultiCam Snow)";
 		// picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_multicam_snow.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -439,7 +439,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (MTP Snow)";
 		// picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_mtp_snow.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -457,30 +457,12 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (Flecktarn Snow)";
 		// picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_flecktarn_snow.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
 			uniformClass = "CFP_BattleDressUniform_flecktarn_snow";
-			containerClass="Supply60";
-			mass=80;
-		};
-	};
-
-	class CFP_U_BattleDressUniform_ugandan: Uniform_Base
-    {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_CFP_U_BattleDressUniform_ugandan.paa";
-		scope=2;
-		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Battle Dress Uniform (Ugandan)";
-		// picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_AfghanWoodland.jpg";
-		author = "AccuracyThruVolume";
-
-		class ItemInfo: UniformItem
-		{
-			uniformModel = "-";
-			uniformClass = "CFP_BattleDressUniform_ugandan";
 			containerClass="Supply60";
 			mass=80;
 		};
@@ -520,11 +502,11 @@
 		};
 	};
 
-	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Tiger Stripe 2)",tigerstripe2,"AccuracyThruVolume")
-	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (DPM Woodland / Green)",dpmwoodlandgreen,"AccuracyThruVolume")
-	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (OCP)",scorpion_w2,"AccuracyThruVolume")
-	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Flora Arid)",flora_arid,"AccuracyThruVolume")
-	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (ACR Desert)",acr_desert,"AccuracyThruVolume")
+	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Tiger Stripe 2)",tigerstripe2,"CFP")
+	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (DPM Woodland / Green)",dpmwoodlandgreen,"CFP")
+	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (OCP)",scorpion_w2,"CFP")
+	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Flora Arid)",flora_arid,"CFP")
+	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (ACR Desert)",acr_desert,"CFP")
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Iran DPM)",irandpm,"AuburnAlumni")
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (ANA Woodland Light Boots)",ana_wdlight,"AuburnAlumni")
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (ANA Woodland Dark Boots)",ana_wddark,"AuburnAlumni")

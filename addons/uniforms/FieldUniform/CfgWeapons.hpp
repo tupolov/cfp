@@ -397,19 +397,19 @@
 		};
 	};
 
-	class CFP_U_FieldUniform_DPM: Uniform_Base
+	class CFP_U_FieldUniform_DDPM: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_CFP_U_FieldUniform_DPM.paa";
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Field Uniform (DPM)";
+		displayName = "Field Uniform (DDPM)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_Dpm.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
-			uniformClass = "CFP_FieldUniform_DPM";
+			uniformClass = "CFP_FieldUniform_DDPM";
 			containerClass="Supply60";
 			mass=80;
 		};
@@ -840,24 +840,6 @@
 		{
 			uniformModel = "-";
 			uniformClass = "CFP_FieldUniform_flecktarn_snow";
-			containerClass="Supply60";
-			mass=80;
-		};
-	};
-
-	class CFP_U_FieldUniform_ugandan: Uniform_Base
-    {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_CFP_U_FieldUniform_ugandan.paa";
-		scope=2;
-		model = "\x\cfp\addons\models\Suitpack";
-		displayName = "Field Uniform (Ugandan)";
-		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_flecktarn_snow.jpg";
-		author = "AccuracyThruVolume";
-
-		class ItemInfo: UniformItem
-		{
-			uniformModel = "-";
-			uniformClass = "CFP_FieldUniform_ugandan";
 			containerClass="Supply60";
 			mass=80;
 		};

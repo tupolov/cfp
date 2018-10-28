@@ -175,9 +175,36 @@ class CfgVehicles {
             "CFP_Basic_Helmet_Spec4cewood", 0.25
         };
 
+        // Beards / mouth scarf / scarf / sunglasses
+        facewearList[] = {
+            "CFP_Beard",0.1,
+            "CFP_Oakleys_Clr", 0.2,
+            "CFP_Oakleys_Drk", 0.2,
+            "CFP_Oakleys_Embr", 0.2,
+            "CFP_Neck_Wrap2", 0.3,
+            "CFP_Neck_Wrap3", 0.3,
+            "CFP_Neck_Wrap4", 0.3,
+            "CFP_Neck_Plain2", 0.2,
+            "CFP_Neck_Plain3", 0.2,
+            "CFP_Neck_Plain4", 0.2,
+            "CFP_Scarfbeard_white", 0.2,
+            "CFP_Scarfbeard_grey", 0.2,
+            "CFP_Scarfbeard_green", 0.2,
+            "CFP_Scarfbeard_tan", 0.2,
+            "CFP_Scarfbeardshades_white", 0.2,
+            "CFP_Scarfbeardshades_grey", 0.2,
+            "CFP_Scarfbeardshades_green", 0.2,
+            "CFP_Scarfbeardshades_tan", 0.2,
+            "CFP_Scarfshades_tan", 0.3,
+            "CFP_Scarfshades_grey", 0.3,
+            "CFP_Scarfshades_white", 0.3,
+            "CFP_Scarfshades_green", 0.3
+        };
+
         //Vests
         vestList[] = {
             "CFP_Osprey1_Wd", 0.33,
+            "CFP_Osprey1_Green", 0.2,
             "CFP_Modular1_M81", 0.33,
             "V_I_G_resistanceLeader_F", 0.33
         };
@@ -1179,11 +1206,31 @@ class CfgVehicles {
 	randomGearProbability = 100;
 
 	// ANA Commando Shemaghs
-		facewearList[] = {
-	"", 0.3,
-	"CUP_FR_NeckScarf", 0.3,
-	"CUP_FR_NeckScarf2", 0.3
-		};
+		// Beards / mouth scarf / scarf / sunglasses
+        facewearList[] = {
+            "CFP_Beard",0.1,
+            "CFP_Oakleys_Clr", 0.2,
+            "CFP_Oakleys_Drk", 0.2,
+            "CFP_Oakleys_Embr", 0.2,
+            "CFP_Neck_Wrap2", 0.3,
+            "CFP_Neck_Wrap3", 0.3,
+            "CFP_Neck_Wrap4", 0.3,
+            "CFP_Neck_Plain2", 0.2,
+            "CFP_Neck_Plain3", 0.2,
+            "CFP_Neck_Plain4", 0.2,
+            "CFP_Scarfbeard_white", 0.2,
+            "CFP_Scarfbeard_grey", 0.2,
+            "CFP_Scarfbeard_green", 0.2,
+            "CFP_Scarfbeard_tan", 0.2,
+            "CFP_Scarfbeardshades_white", 0.2,
+            "CFP_Scarfbeardshades_grey", 0.2,
+            "CFP_Scarfbeardshades_green", 0.2,
+            "CFP_Scarfbeardshades_tan", 0.2,
+            "CFP_Scarfshades_tan", 0.3,
+            "CFP_Scarfshades_grey", 0.3,
+            "CFP_Scarfshades_white", 0.3,
+            "CFP_Scarfshades_green", 0.3
+        };
 
         headgearList[] = {
     "CFP_OPS2017_Helmet_M81", 0.25,

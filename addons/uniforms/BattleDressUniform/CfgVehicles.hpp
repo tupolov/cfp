@@ -226,15 +226,15 @@
 
 	};
 
-	class CFP_BattleDressUniform_dpm: CFP_Uniform
+	class CFP_BattleDressUniform_DDPM: CFP_Uniform
 	{
 
 
-		displayName = "Battle Dress Uniform (DPM)";
+		displayName = "Battle Dress Uniform (DDPM)";
 
-		uniformClass = "CFP_U_BattleDressUniform_Dpm";
+		uniformClass = "CFP_U_BattleDressUniform_DDPM";
 
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_dpm.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_dpm.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_ddpm.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_ddpm.paa"};
 
 
 	};
