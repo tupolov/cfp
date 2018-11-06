@@ -34,6 +34,78 @@ class CfgVehicleClasses
 		};
 	};
 
+	class CFP_BaseballCap_IASF1: ItemCore
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_BaseballCap_Black.paa";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "Baseball Cap (Black IA SF 1)";
+		// picture = "\x\cfp\addons\headgear\BaseballCap\ui\Black.jpg";
+		model = "\x\cfp\addons\models\BaseballCap";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\IASF1.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "SP Craig";
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 15;
+			uniformmodel = "\x\cfp\addons\models\BaseballCap";
+			modelSides[] = {3,1};
+			armor = 0;
+			passThrough = 0.30;
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\IASF1.paa"};
+			hiddenSelections[] = {"Camo"};
+		};
+	};
+
+	class CFP_BaseballCap_IASF2: ItemCore
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_BaseballCap_Black.paa";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "Baseball Cap (Black IA SF 2)";
+		// picture = "\x\cfp\addons\headgear\BaseballCap\ui\Black.jpg";
+		model = "\x\cfp\addons\models\BaseballCap";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\IASF2.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "SP Craig";
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 15;
+			uniformmodel = "\x\cfp\addons\models\BaseballCap";
+			modelSides[] = {3,1};
+			armor = 0;
+			passThrough = 0.30;
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\IASF2.paa"};
+			hiddenSelections[] = {"Camo"};
+		};
+	};
+
+	class CFP_BaseballCap_IASF3: ItemCore
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_BaseballCap_Black.paa";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "Baseball Cap (Black IA SF 3)";
+		// picture = "\x\cfp\addons\headgear\BaseballCap\ui\Black.jpg";
+		model = "\x\cfp\addons\models\BaseballCap";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\IASF3.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "SP Craig";
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 15;
+			uniformmodel = "\x\cfp\addons\models\BaseballCap";
+			modelSides[] = {3,1};
+			armor = 0;
+			passThrough = 0.30;
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\IASF3.paa"};
+			hiddenSelections[] = {"Camo"};
+		};
+	};
+
 	class SP_BaseballCap_Blue: ItemCore
     {
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_BaseballCap_Blue.paa";

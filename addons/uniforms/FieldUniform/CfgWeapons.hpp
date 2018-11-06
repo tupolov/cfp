@@ -37,6 +37,120 @@
 		};
 	};
 
+	class CFP_FieldUniform_iadcu: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Field Uniform (IA DCU)";
+		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_FieldUniform_iadcu";
+			containerClass="Supply60";
+			mass=80;
+
+		};
+	};
+
+	class CFP_FieldUniform_iadcu_SS: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black_SS.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Field Uniform SS (IA DCU)";
+		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_FieldUniform_iadcu_SS";
+			containerClass="Supply60";
+			mass=80;
+
+		};
+	};
+
+	class CFP_FieldUniform_iasfblack: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Field Uniform (IA SF Black)";
+		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_FieldUniform_iasfblack";
+			containerClass="Supply60";
+			mass=80;
+
+		};
+	};
+
+	class CFP_FieldUniform_iasfblack_SS: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black_SS.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Field Uniform SS (IA Special Forces)";
+		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_FieldUniform_iasfblack_SS";
+			containerClass="Supply60";
+			mass=80;
+
+		};
+	};
+
+	class CFP_FieldUniform_iachocchip: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Field Uniform (IA Choc Chip)";
+		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_FieldUniform_iachocchip";
+			containerClass="Supply60";
+			mass=80;
+
+		};
+	};
+
+	class CFP_U_FieldUniform_iachocchip_SS: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black_SS.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Field Uniform SS (IA Choc Chip)";
+		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_FieldUniform_iachocchip_SS";
+			containerClass="Supply60";
+			mass=80;
+
+		};
+	};
+
 	class SP_0000_Standard_FieldUniform_Green: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Green.paa";
@@ -505,6 +619,42 @@
 		};
 	};
 
+	class CFP_U_FieldUniform_woodlandlight: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_CFP_U_FieldUniform_polygonwoodlandlight.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Field Uniform (Woodland Light Boots)";
+		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_PolygonDesert.jpg";
+		author = "AuburnAlumni";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_FieldUniform_woodlandlight";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+
+	class CFP_U_FieldUniform_woodlanddark: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_CFP_U_FieldUniform_polygonwoodlandlight.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Field Uniform (Woodland Dark Boots)";
+		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_PolygonDesert.jpg";
+		author = "AuburnAlumni";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_FieldUniform_woodlanddark";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+
 	class CFP_U_FieldUniform_polygonwoodlanddark: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_CFP_U_FieldUniform_polygonwoodlanddark.paa";
@@ -850,7 +1000,6 @@
 	ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Flora Arid)",flora_arid,"AccuracyThruVolume")
 	ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Afghan Woodland)",afghan_w,"AccuracyThruVolume")
 	ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (ACR Desert)",acr_desert,"AccuracyThruVolume")
-    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (IA Special Forces Black)",iasfblack,"AuburnAlumni")
     ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (ANA Commando M81)",m81anasf,"AuburnAlumni")
     ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Iran DPM)",irandpm,"AuburnAlumni")
     ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Israeli Defense Force)",idf,"AuburnAlumni")

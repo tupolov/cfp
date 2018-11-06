@@ -23,4 +23,5 @@ class CfgWeapons {
     #include "75Vests\CfgWeapons.hpp"
     #include "Alice\CfgWeapons.hpp"
     #include "FLC\CfgWeapons.hpp"
+    #include "Interceptor\CfgWeapons.hpp"
 };
