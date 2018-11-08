@@ -326,6 +326,58 @@ class CfgVehicleClasses
 		};
 	};
 
+	class CFP_PatrolCap_IPDigital: ItemCore
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_PatrolCap_ANP.paa";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "Patrol Cap (Iraqi Police Digital)";
+		// picture = "\x\cfp\addons\headgear\PatrolCap\ui\BlueFrost.jpg";
+		model = "\x\cfp\addons\models\PatrolCap";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\IPDigital.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "AuburnAlumni";
+
+
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 15;
+			uniformmodel = "\x\cfp\addons\models\PatrolCap";
+			modelSides[] = {3,1};
+			armor = 0;
+			passThrough = 0.30;
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\IPDigital.paa"};
+			hiddenSelections[] = {"Camo"};
+		};
+	};
+
+	class CFP_PatrolCap_IPDPM: ItemCore
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_PatrolCap_ANP.paa";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "Patrol Cap (Iraqi Police DPM)";
+		// picture = "\x\cfp\addons\headgear\PatrolCap\ui\BlueFrost.jpg";
+		model = "\x\cfp\addons\models\PatrolCap";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\IPDPM.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "AuburnAlumni";
+
+
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 15;
+			uniformmodel = "\x\cfp\addons\models\PatrolCap";
+			modelSides[] = {3,1};
+			armor = 0;
+			passThrough = 0.30;
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\IPDPM.paa"};
+			hiddenSelections[] = {"Camo"};
+		};
+	};
+
 	class CFP_PatrolCap_EDRL: ItemCore
     {
         picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_PatrolCap_EDRL.paa";
