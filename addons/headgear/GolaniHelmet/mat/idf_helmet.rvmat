@@ -2,13 +2,13 @@ ambient[]={1,1,1,1};
 diffuse[]={1,1,1,1};
 forcedDiffuse[]={0,0,0,0};
 emmisive[]={0,0,0,1};
-specular[]={1,0.99999994,1,1};
+specular[]={0.1,0.1,0.1,0.1};
 specularPower=10;
 PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture="x\cfp\addons\headgear\GolaniHelmet\textures\idf_helmet_nohq.paa";
+	texture="x\cfp\addons\headgear\GolaniHelmet\mat\idf_helmet_nohq.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -44,7 +44,7 @@ class Stage3
 };
 class Stage4
 {
-	texture="x\cfp\addons\headgear\GolaniHelmet\textures\idf_helmet_as.paa";
+	texture="x\cfp\addons\headgear\GolaniHelmet\mat\idf_helmet_as.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -56,7 +56,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="x\cfp\addons\headgear\GolaniHelmet\textures\default_smdi.paa";
+	texture="x\cfp\addons\headgear\GolaniHelmet\mat\idf_helmet_smdi.paa";
 	uvSource="tex";
 	class uvTransform
 	{
