@@ -479,6 +479,24 @@
 		};
 	};
 
+	class CFP_U_FieldUniform_3ColorDesert_SS: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_CFP_U_FieldUniform_3ColorDesert.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Field Uniform SS (3 Color Desert)";
+		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_3ColorDesert.jpg";
+		author = "AccuracyThruVolume";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_FieldUniform_3ColorDesert_SS";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+
 	class CFP_U_FieldUniform_AfricanWoodlandDark: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_CFP_U_FieldUniform_AfricanWoodlandDark.paa";
@@ -528,6 +546,24 @@
 		{
 			uniformModel = "-";
 			uniformClass = "CFP_FieldUniform_ChocChip";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+
+	class CFP_U_FieldUniform_ChocChip_SS: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_CFP_U_FieldUniform_ChocChip.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Field Uniform SS (Choc Chip)";
+		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_ChocChip.jpg";
+		author = "AccuracyThruVolume";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_FieldUniform_ChocChip_SS";
 			containerClass="Supply60";
 			mass=80;
 		};

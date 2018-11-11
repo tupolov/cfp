@@ -206,7 +206,7 @@ class CfgVehicles {
         faction = "CFP_B_CAF";
 
         identityTypes[] = {"Head_African","LanguageFRE_F"};
-        uniformClass = "CFP_U_BattleDressUniform_3ColorDesert";
+        uniformClass = "CFP_U_FieldUniform_3ColorDesert_SS";
 
 
         weapons[] = {"CUP_arifle_AKM","Throw","Put"};
@@ -215,15 +215,15 @@ class CfgVehicles {
         respawnLinkedItems[] = {"CFP_AK_VEST_LOlive","SP_Shemagh_White","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_BattleDressUniform_3ColorDesert",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_LOlive",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{},"SP_Shemagh_White","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_FieldUniform_3ColorDesert_SS",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_LOlive",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{},"SP_Shemagh_White","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 	randomGearProbability = 100;
 
 	// Chadian Uniforms
 		uniformList[] = {
-	"CFP_U_BattleDressUniform_3ColorDesert", 0.33,
-	"CFP_U_BattleDressUniform_ChocChip", 0.33,
-	"SP_0000_Standard_BattleDressUniform_Tan", 0.33
+	"SP_0000_Standard_FieldUniform_Tan_SS", 0.33,
+	"CFP_U_FieldUniform_ChocChip_SS", 0.33,
+	"CFP_U_FieldUniform_3ColorDesert_SS", 0.33
 		};
 
 	// Chadian Headgear
@@ -235,6 +235,15 @@ class CfgVehicles {
 	"CFP_Lungee_Shemagh_Red", 0.2,
 	"CFP_Lungee_Shemagh_LightBlue", 0.2
 		};
+
+    // Chadian Facewear
+        facewearList[] = {
+    "", 0.2,
+    "SP_Goggles_Black", 0.2,
+    "CFP_Oakleys_Clr", 0.2,
+    "CFP_Oakleys_Drk", 0.2,
+    "CFP_Oakleys_Embr", 0.2
+        };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -262,7 +271,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"CFP_AK_VEST_LOlive","SP_Shemagh_CheckWhite","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_BattleDressUniform_3ColorDesert",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_LOlive",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{},"SP_Shemagh_CheckWhite","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_FieldUniform_3ColorDesert_SS",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_LOlive",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{},"SP_Shemagh_CheckWhite","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -277,7 +286,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"CFP_AK_VEST_LOlive","SP_Shemagh_Tan","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_GL","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"CFP_U_BattleDressUniform_ChocChip",{{"CUP_30Rnd_545x39_AK_M",3,30}}},{"CFP_AK_VEST_LOlive",{{"CUP_30Rnd_545x39_AK_M",5,30},{"CUP_1Rnd_HE_GP25_M",6,1}}},{},"SP_Shemagh_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_GL","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"CFP_U_FieldUniform_ChocChip_SS",{{"CUP_30Rnd_545x39_AK_M",3,30}}},{"CFP_AK_VEST_LOlive",{{"CUP_30Rnd_545x39_AK_M",5,30},{"CUP_1Rnd_HE_GP25_M",6,1}}},{},"SP_Shemagh_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -292,7 +301,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"CFP_AK_VEST_LOlive","SP_Shemagh_CheckWhite","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_PG7V_M"};
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_PG7V_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{"CUP_launch_RPG7V","","","",{"CUP_PG7V_M",1},{},""},{},{"CFP_U_BattleDressUniform_ChocChip",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_LOlive",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{"CUP_B_RPGPack_Khaki",{{"CUP_PG7V_M",3,1}}},"SP_Shemagh_CheckWhite","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{"CUP_launch_RPG7V","","","",{"CUP_PG7V_M",1},{},""},{},{"CFP_U_FieldUniform_ChocChip_SS",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_LOlive",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{"CUP_B_RPGPack_Khaki",{{"CUP_PG7V_M",3,1}}},"SP_Shemagh_CheckWhite","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -307,7 +316,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"CFP_AK_VEST_LOlive","SP_Shemagh_White","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M"};
         respawnMagazines[] = {"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_RPK74","","","",{"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",45},{},""},{},{},{"CFP_U_BattleDressUniform_3ColorDesert",{{"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",1,45}}},{"CFP_AK_VEST_LOlive",{{"CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",2,75}}},{"B_AssaultPack_cbr",{{"CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",4,75}}},"SP_Shemagh_White","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_RPK74","","","",{"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",45},{},""},{},{},{"CFP_U_FieldUniform_3ColorDesert_SS",{{"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",1,45}}},{"CFP_AK_VEST_LOlive",{{"CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",2,75}}},{"B_AssaultPack_cbr",{{"CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",4,75}}},"SP_Shemagh_White","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -322,7 +331,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"CFP_AK_VEST_LOlive","SP_Shemagh_Tan","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_BattleDressUniform_ChocChip",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_LOlive",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{"B_AssaultPack_cbr",{{"FirstAidKit",10}}},"SP_Shemagh_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_FieldUniform_ChocChip_SS",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_LOlive",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{"B_AssaultPack_cbr",{{"FirstAidKit",10}}},"SP_Shemagh_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -337,7 +346,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"CFP_AK_VEST_LOlive","SP_Shemagh_White","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_BattleDressUniform_3ColorDesert",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_LOlive",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{"SP_Carryall_Tan",{{"MineDetector",1},{"DemoCharge_Remote_Mag",5,1},{"ATMine_Range_Mag",1,1},{"APERSTripMine_Wire_Mag",1,1},{"CUP_PipeBomb_M",1,1}}},"SP_Shemagh_White","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_FieldUniform_3ColorDesert_SS",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_LOlive",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{"SP_Carryall_Tan",{{"MineDetector",1},{"DemoCharge_Remote_Mag",5,1},{"ATMine_Range_Mag",1,1},{"APERSTripMine_Wire_Mag",1,1},{"CUP_PipeBomb_M",1,1}}},"SP_Shemagh_White","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -352,7 +361,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"CFP_AK_VEST_LOlive","SP_Shemagh_CheckWhite","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M"};
         respawnMagazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_SVD_des","","","CUP_optic_PSO_3",{"CUP_10Rnd_762x54_SVD_M",10},{},""},{},{},{"CFP_U_BattleDressUniform_3ColorDesert",{{"CUP_10Rnd_762x54_SVD_M",3,10}}},{"CFP_AK_VEST_LOlive",{{"CUP_10Rnd_762x54_SVD_M",7,10}}},{},"SP_Shemagh_CheckWhite","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_SVD_des","","","CUP_optic_PSO_3",{"CUP_10Rnd_762x54_SVD_M",10},{},""},{},{},{"CFP_U_FieldUniform_3ColorDesert_SS",{{"CUP_10Rnd_762x54_SVD_M",3,10}}},{"CFP_AK_VEST_LOlive",{{"CUP_10Rnd_762x54_SVD_M",7,10}}},{},"SP_Shemagh_CheckWhite","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -368,14 +377,16 @@ class CfgVehicles {
         uniformClass = "CFP_U_FieldUniform_3ColorDesert";
 
 
-        weapons[] = {"CUP_arifle_AKM","Throw","Put"};
-        respawnWeapons[] = {"CUP_arifle_AKM","Throw","Put"};
-        linkedItems[] = {"CFP_AK_VEST_Tan","SP_BoonieHat_Tan","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
-        respawnLinkedItems[] = {"CFP_AK_VEST_Tan","SP_BoonieHat_Tan","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
-        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
-        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","CUP_optic_Kobra",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_FieldUniform_3ColorDesert",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_Tan",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{},"SP_BoonieHat_Tan","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        linkedItems[] = {"CFP_AK_VEST_Tan","SP_BoonieHat_Tan","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CFP_AK_VEST_Tan","SP_BoonieHat_Tan","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
 
+        weapons[] = {"CUP_arifle_AK74M_railed","Binocular"};
+        respawnWeapons[] = {"CUP_arifle_AK74M_railed","Binocular"};
+
+        magazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_30Rnd_545x39_AK74M_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_30Rnd_545x39_AK74M_M"};
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed","","","optic_Holosight_blk_F",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{},{},{"CFP_U_FieldUniform_3ColorDesert",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK74M_M",1,30},{"MiniGrenade",2,1}}},{"CFP_AK_VEST_Tan",{{"CUP_30Rnd_545x39_AK74M_M",6,30},{"SmokeShell",1,1}}},{},"SP_BoonieHat_Tan","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -404,16 +415,18 @@ class CfgVehicles {
         identityTypes[] = {"Head_African","LanguageFRE_F"};
         uniformClass = "CFP_U_FieldUniform_3ColorDesert";
 
+        linkedItems[] = {"CFP_AK_VEST_Tan","SP_BoonieHat_Tan","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CFP_AK_VEST_Tan","SP_BoonieHat_Tan","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_AK74M_railed","CUP_launch_RPG7V","Binocular"};
+        respawnWeapons[] = {"CUP_arifle_AK74M_railed","CUP_launch_RPG7V","Binocular"};
+
+        magazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_PG7V_M","CUP_30Rnd_545x39_AK74M_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_PG7V_M","CUP_30Rnd_545x39_AK74M_M"};
+
         backpack = "CUP_B_RPGPack_Khaki";
-        weapons[] = {"CUP_arifle_AKM","CUP_launch_RPG7V","Throw","Put"};
-        respawnWeapons[] = {"CUP_arifle_AKM","CUP_launch_RPG7V","Throw","Put"};
-        linkedItems[] = {"CFP_AK_VEST_Tan","SP_BoonieHat_Tan","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
-        respawnLinkedItems[] = {"CFP_AK_VEST_Tan","SP_BoonieHat_Tan","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
-        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_PG7V_M"};
-        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_PG7V_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","CUP_optic_Kobra",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{"CUP_launch_RPG7V","","","",{"CUP_PG7V_M",1},{},""},{},{"CFP_U_FieldUniform_3ColorDesert",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_Tan",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{"CUP_B_RPGPack_Khaki",{{"CUP_PG7V_M",3,1}}},"SP_BoonieHat_Tan","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
-
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed","","","optic_Holosight_blk_F",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{"CUP_launch_RPG7V","","","",{"CUP_PG7V_M",1},{},""},{},{"CFP_U_FieldUniform_3ColorDesert",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK74M_M",3,30},{"MiniGrenade",2,1}}},{"CFP_AK_VEST_Tan",{{"CUP_30Rnd_545x39_AK74M_M",6,30},{"SmokeShell",1,1}}},{"CUP_B_RPGPack_Khaki",{{"CUP_PG7V_M",3,1}}},"SP_BoonieHat_Tan","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -442,13 +455,16 @@ class CfgVehicles {
         uniformClass = "CFP_U_FieldUniform_3ColorDesert";
 
 
-        weapons[] = {"CUP_arifle_AKM","Throw","Put"};
-        respawnWeapons[] = {"CUP_arifle_AKM","Throw","Put"};
-        linkedItems[] = {"CFP_AK_VEST_Tan","SP_BoonieHat_Tan","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
-        respawnLinkedItems[] = {"CFP_AK_VEST_Tan","SP_BoonieHat_Tan","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
-        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
-        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","CUP_optic_Kobra",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_FieldUniform_3ColorDesert",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_Tan",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{},"SP_BoonieHat_Tan","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        linkedItems[] = {"CFP_AK_VEST_Tan","SP_BoonieHat_Tan","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CFP_AK_VEST_Tan","SP_BoonieHat_Tan","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_AK74M_railed","Binocular"};
+        respawnWeapons[] = {"CUP_arifle_AK74M_railed","Binocular"};
+
+        magazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_30Rnd_545x39_AK74M_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_30Rnd_545x39_AK74M_M"};
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed","","","optic_Holosight_blk_F",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{},{},{"CFP_U_FieldUniform_3ColorDesert",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK74M_M",1,30},{"MiniGrenade",2,1}}},{"CFP_AK_VEST_Tan",{{"CUP_30Rnd_545x39_AK74M_M",6,30},{"SmokeShell",1,1}}},{},"SP_BoonieHat_Tan","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -623,7 +639,7 @@ class CfgVehicles {
         faction = "CFP_B_CAF";
 
         identityTypes[] = {"Head_African","LanguageFRE_F"};
-        uniformClass = "SP_0000_Standard_BattleDressUniform_Tan";
+        uniformClass = "SP_0000_Standard_FieldUniform_Tan_SS";
 
 
         weapons[] = {"CUP_hgun_Makarov","Throw","Put"};
@@ -632,7 +648,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"CUP_V_CDF_OfficerBelt","SP_TSH04Helmet_Black","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {"CUP_8Rnd_9x18_Makarov_M"};
         respawnMagazines[] = {"CUP_8Rnd_9x18_Makarov_M"};
-        ALiVE_orbatCreator_loadout[] = {{},{},{"CUP_hgun_Makarov","","","",{"CUP_8Rnd_9x18_Makarov_M",8},{},""},{"SP_0000_Standard_BattleDressUniform_Tan",{{"CUP_8Rnd_9x18_Makarov_M",3,8}}},{"CUP_V_CDF_OfficerBelt",{}},{},"SP_TSH04Helmet_Black","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{},{},{"CUP_hgun_Makarov","","","",{"CUP_8Rnd_9x18_Makarov_M",8},{},""},{"SP_0000_Standard_FieldUniform_Tan_SS",{{"CUP_8Rnd_9x18_Makarov_M",3,8}}},{"CUP_V_CDF_OfficerBelt",{}},{},"SP_TSH04Helmet_Black","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -660,7 +676,7 @@ class CfgVehicles {
         faction = "CFP_B_CAF";
 
         identityTypes[] = {"Head_African","LanguageFRE_F"};
-        uniformClass = "SP_0000_Standard_BattleDressUniform_Tan";
+        uniformClass = "SP_0000_Standard_FieldUniform_Tan_SS";
 
 
         weapons[] = {"CUP_hgun_Makarov","Throw","Put"};
@@ -669,7 +685,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"CUP_V_O_TK_OfficerBelt2","SP_TSH04Helmet_Black","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {"CUP_8Rnd_9x18_Makarov_M"};
         respawnMagazines[] = {"CUP_8Rnd_9x18_Makarov_M"};
-        ALiVE_orbatCreator_loadout[] = {{},{},{"CUP_hgun_Makarov","","","",{"CUP_8Rnd_9x18_Makarov_M",8},{},""},{"SP_0000_Standard_BattleDressUniform_Tan",{{"CUP_8Rnd_9x18_Makarov_M",3,8}}},{"CUP_V_O_TK_OfficerBelt2",{}},{},"SP_TSH04Helmet_Black","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{},{},{"CUP_hgun_Makarov","","","",{"CUP_8Rnd_9x18_Makarov_M",8},{},""},{"SP_0000_Standard_FieldUniform_Tan_SS",{{"CUP_8Rnd_9x18_Makarov_M",3,8}}},{"CUP_V_O_TK_OfficerBelt2",{}},{},"SP_TSH04Helmet_Black","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -810,7 +826,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"CFP_AK_VEST_LOlive","SP_Shemagh_CheckWhite","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_Stinger_M"};
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_Stinger_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{"CUP_launch_FIM92Stinger","","","",{"CUP_Stinger_M",1},{},""},{},{"CFP_U_BattleDressUniform_ChocChip",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_LOlive",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{"SP_Carryall_Tan",{}},"SP_Shemagh_CheckWhite","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{"CUP_launch_FIM92Stinger","","","",{"CUP_Stinger_M",1},{},""},{},{"CFP_U_FieldUniform_ChocChip_SS",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_LOlive",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{"SP_Carryall_Tan",{}},"SP_Shemagh_CheckWhite","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
