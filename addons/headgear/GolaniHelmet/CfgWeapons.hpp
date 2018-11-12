@@ -6,7 +6,7 @@
 		author = "CFP";
 		displayName = "[CFP] IDF M76 Combat Helmet";
 		picture = "";
-		model = "\x\cfp\addons\headgear\GolaniHelmet\idf_m76_helmet.p3d"
+		model = "\x\cfp\addons\headgear\GolaniHelmet\idf_m76_helmet.p3d";
 		hiddenSelections[] = {"Camo","Camo1","Camo2","_Band","_Cover_Back","_Cover_Front","_Goggle_ESS","_Goggle_Strap"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\GolaniHelmet\tex\idf_helmet_co.paa","\x\cfp\addons\headgear\GolaniHelmet\tex\idf_helmet_co.paa","\x\cfp\addons\headgear\GolaniHelmet\tex\idf_helmet_co.paa"};
 		class ItemInfo: HeadgearItem

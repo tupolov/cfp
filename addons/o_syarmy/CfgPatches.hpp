@@ -18,6 +18,8 @@ class CfgPatches {
             "cfp_o_syarmy_rifleman_ags30",
             "cfp_o_syarmy_rifleman_spg9",
             "cfp_o_syarmy_rifleman_metis",
+            "cfp_o_syarmy_helicopter_pilot_01",
+            "cfp_o_syarmy_pilot_01",
             "cfp_o_syarmy_Ural",
             "cfp_o_syarmy_Ural_ZU23",
             "cfp_o_syarmy_BTR40_MG",

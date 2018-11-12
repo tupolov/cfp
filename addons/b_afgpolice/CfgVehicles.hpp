@@ -39,7 +39,7 @@ class CfgVehicles {
         faction = "CFP_B_AFGPOLICE";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
-        uniformClass = "CFP_U_BattleDressUniform_anp_dark";
+        uniformClass = "CFP_U_WorkUniform_ANP";
 
 
         weapons[] = {"CUP_arifle_AK74","Throw","Put"};
@@ -48,7 +48,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"CFP_AK_VEST_LOlive","CFP_PatrolCap_ANP","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"CFP_U_BattleDressUniform_anp_dark",{{"CUP_30Rnd_545x39_AK_M",3,30}}},{"CFP_AK_VEST_LOlive",{{"CUP_30Rnd_545x39_AK_M",5,30}}},{},"CFP_PatrolCap_ANP","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"CFP_U_WorkUniform_ANP",{{"CUP_30Rnd_545x39_AK_M",3,30}}},{"CFP_AK_VEST_LOlive",{{"CUP_30Rnd_545x39_AK_M",5,30}}},{},"CFP_PatrolCap_ANP","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -77,7 +77,7 @@ class CfgVehicles {
         faction = "CFP_B_AFGPOLICE";
 
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
-        uniformClass = "CFP_U_BattleDressUniform_anp_dark";
+        uniformClass = "CFP_U_WorkUniform_ANP";
 
 
         weapons[] = {"CUP_arifle_AK74_GL","Throw","Put"};
@@ -86,7 +86,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"CFP_AK_VEST_LOlive","CFP_PatrolCap_ANP","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74_GL","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"CFP_U_BattleDressUniform_anp_dark",{{"CUP_30Rnd_545x39_AK_M",3,30}}},{"CFP_AK_VEST_LOlive",{{"CUP_1Rnd_HE_GP25_M",5,1},{"CUP_1Rnd_SMOKE_GP25_M",3,1},{"CUP_30Rnd_545x39_AK_M",5,30}}},{},"CFP_PatrolCap_ANP","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74_GL","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"CFP_U_WorkUniform_ANP",{{"CUP_30Rnd_545x39_AK_M",3,30}}},{"CFP_AK_VEST_LOlive",{{"CUP_1Rnd_HE_GP25_M",5,1},{"CUP_1Rnd_SMOKE_GP25_M",3,1},{"CUP_30Rnd_545x39_AK_M",5,30}}},{},"CFP_PatrolCap_ANP","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
