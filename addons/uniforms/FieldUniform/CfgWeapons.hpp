@@ -75,6 +75,120 @@
 		};
 	};
 
+	class CFP_FieldUniform_pesh_3cd: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Field Uniform (Peshmerga DCU)";
+		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_FieldUniform_pesh_3cd";
+			containerClass="Supply60";
+			mass=80;
+
+		};
+	};
+
+	class CFP_FieldUniform_pesh_3cd_SS: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black_SS.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Field Uniform SS (Peshmerga DCU)";
+		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_FieldUniform_pesh_3cd_SS";
+			containerClass="Supply60";
+			mass=80;
+
+		};
+	};
+
+	class CFP_FieldUniform_pesh_edrl: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Field Uniform (Peshmerga EDRL)";
+		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_FieldUniform_pesh_edrl";
+			containerClass="Supply60";
+			mass=80;
+
+		};
+	};
+
+	class CFP_FieldUniform_pesh_edrl_SS: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black_SS.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Field Uniform SS (Peshmerga EDRL)";
+		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_FieldUniform_pesh_edrl_SS";
+			containerClass="Supply60";
+			mass=80;
+
+		};
+	};
+
+	class CFP_FieldUniform_pesh_m81: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Field Uniform (Peshmerga M81)";
+		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_FieldUniform_pesh_m81";
+			containerClass="Supply60";
+			mass=80;
+
+		};
+	};
+
+	class CFP_FieldUniform_pesh_m81_SS: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black_SS.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Field Uniform SS (Peshmerga M81)";
+		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_FieldUniform_pesh_m81_SS";
+			containerClass="Supply60";
+			mass=80;
+
+		};
+	};
+
 	class CFP_FieldUniform_ipdigital: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black.paa";
