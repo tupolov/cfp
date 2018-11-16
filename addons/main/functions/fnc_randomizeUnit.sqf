@@ -44,8 +44,9 @@ if (local _unit) then {
 	private _gearProbability = getNumber (configFile >> "CfgVehicles" >> typeOf _unit >> "randomGearProbability");
 
 	if (random 100 < _gearProbability) then {
-		private _magazines = magazines _unit;
-
+		/*private _magazines = magazines _unit;
+		_magazines call ALiVE_fnc_inspectArray;
+		diag_log format["%1 Mags: %2", typeof _unit, count _magazines];*/
 		{
 			private _cat = format ["%1List",_x];
 			if (count (getArray (configFile >> "CfgVehicles" >> typeOf _unit >> _cat))>0) then {
@@ -53,9 +54,10 @@ if (local _unit) then {
 			};
 		} foreach GEAR_CATEGORIES;
 
+		/*
 		{
 			_unit addMagazine _x;
-		} foreach _magazines;
+		} foreach _magazines;*/
 
 		// Add FAK and medikit if medic
 		if (side _unit != civilian) then {
@@ -68,6 +70,7 @@ if (local _unit) then {
 				};
 			};
 		};
+		// diag_log format["%1 New Mags: %2", typeof _unit, count magazines _unit];
 	};
 
 	// Check to see if we randomize Weapon
@@ -75,12 +78,13 @@ if (local _unit) then {
 
 	if (random 100 < _weaponProbability) then {
 		removeAllWeapons _unit;
+		//diag_log format["Mags Clean: %1",magazines _unit];
 		{
 			private _cat = format ["%1List",_x];
 			if (count  (getArray(configFile >> "CfgVehicles" >> typeOf _unit >> _cat))>0) then {
 				[_unit, _x] call FUNC(randomizeWeapon);
 			};
 		} foreach WEAPON_CATEGORIES;
-
+		//diag_log format["Mags Updated: %1",magazines _unit];
 	};
 };
