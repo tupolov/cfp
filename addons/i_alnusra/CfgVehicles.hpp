@@ -1,251 +1,596 @@
-class CfgVehicles
-{
+class CBA_Extended_EventHandlers_base;
+
+class CfgVehicles {
+
+    class O_Soldier_F;
+    class O_Soldier_F_OCimport_01 : O_Soldier_F { scope = 0; class EventHandlers; };
+    class O_Soldier_F_OCimport_02 : O_Soldier_F_OCimport_01 { class EventHandlers; };
 
 
-    class I_Soldier_02_F;
-    class I_Soldier_A_F : I_Soldier_02_F {
-        class EventHandlers;
-    };
-
-    class cfp_i_alNusra_base: I_Soldier_A_F
-    {
-        genericnames = "TakistaniMen";
-        scope = 0;
-        scopeCurator = 0;
+    class cfp_i_alNusra_team_leader : O_Soldier_F_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
         displayName = "al-Nusra Team Leader";
+        side = 2;
         faction = "CFP_I_ALNUSRA";
-        modelsides[] = {3,2,1,0};
-        vehicleClass = "CFP_I_alNusra_INFANTRY";
-        icon = "iconMan";
-        nakedUniform = "U_BasicBody";
-        uniformClass = "alNusra_uniform";
-        hiddenSelections[] = {"Camo","insignia"};
-        hiddenSelectionsTextures[] = {"\x\cfp\addons\i_alnusra\data\IS_black.paa"};
-        camouflage = 1;
-        backpack = "";
-        headgearProbability = 100;
-        allowedHeadgear[] = {"IS_shemag_black"};
-        allowedHeadgearB[] = {"H_Bandanna_khk","H_Bandanna_cbr","H_Bandanna_sgg","H_Bandanna_gry","H_Bandanna_camo","H_Bandanna_mcamo"};
-        facewear = "";
-        allowedfacewear[] = {""};
-        randomWeaponProbability = 50;
-        linkedItems[] = {"V_TacVestIR_blk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-        respawnLinkedItems[] = {"V_TacVestIR_blk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-        weapons[] = {"CUP_arifle_AK47","Throw","Put"};
-        respawnweapons[] = {"CUP_arifle_AK47","Throw","Put"};
-        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
-        Respawnmagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
-        identityTypes[] = {"NoGlasses","Language_Ackbar","Head_TK","G_IRAN_default"};
-        class EventHandlers : EventHandlers
-        {
-            class ADDON {
-                init = "(_this select 0) execVM ""\x\cfp\addons\i_alnusra\Scripts\randomize_gear.sqf""; (_this select 0) execVM ""\x\cfp\addons\i_alnusra\Scripts\randomize_weapon.sqf""";
-            };
+
+        identityTypes[] = {"Head_TK","Language_Ackbar","NoGlasses","G_IRAN_default"};
+
+        uniformClass = "SP_0000_Standard_FieldUniform_Black";
+
+        linkedItems[] = {"V_TacVest_khk","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"V_TacVest_khk","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_AK74M"};
+        respawnWeapons[] = {"CUP_arifle_AK74M"};
+
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"SP_0000_Standard_FieldUniform_Black",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",2,1},{"CUP_30Rnd_545x39_AK_M",2,30}}},{"V_TacVest_khk",{{"CUP_30Rnd_545x39_AK_M",4,30}}},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+
+        randomGearProbability = 100;
+
+        //Uniforms
+        uniformList[] = {
+          "SP_0000_Standard_FieldUniform_Black", 0.3,
+          "CFP_FieldUniform_tanblack_SS", 0.3,
+          "CFP_FieldUniform_blackacu_SS", 0.3,
+          "SP_0000_Standard_FieldUniform_Black_SS", 0.3,
+          "CFP_U_WOrkUniform_BlackGrey", 0.2,
+          "SP_0000_Standard_PulloverUniform_Black", 0.2,
+          "CUP_I_B_PMC_Unit_24", 0.2,
+          "CUP_I_B_PMC_Unit_3", 0.2,
+          "CUP_I_B_PMC_Unit_14", 0.2,
+          "CFP_U_KhetPartug_Short_Black", 0.2,
+          "CFP_U_KhetPartug_Short_Grey", 0.2
         };
-        editorPreview = "x\cfp\addons\i_alnusra\data\Preview_alnusra_infantry.jpg";
+
+        //Helmets
+        headgearList[] = {
+            "", 0.3,
+            "H_Bandanna_camo", 0.2,
+            "H_Bandanna_sand", 0.2,
+            "H_Bandanna_khk", 0.1,
+            "H_Bandanna_gry", 0.2,
+            "H_Bandanna_mcamo", 0.2,
+            "H_Bandanna_sgg", 0.25,
+            "H_Bandanna_cbr", 0.2,
+            "SP_BeanieHat_Black", 0.25,
+            "SP_PatrolCap_Black", 0.2,
+            "CFP_PatrolCap_M81", 0.2
+        };
+
+        // Beards / mouth scarf / scarf / sunglasses
+        facewearList[] = {
+            "CFP_Oakleys_Clr", 0.2,
+            "CFP_Oakleys_Drk", 0.2,
+            "CFP_Oakleys_Embr", 0.2,
+            "CFP_Neck_Wrap2", 0.3,
+            "CFP_Neck_Wrap3", 0.3,
+            "CFP_Neck_Wrap4", 0.3,
+            "CFP_Neck_Plain2", 0.2,
+            "CFP_Neck_Plain3", 0.2,
+            "CFP_Neck_Plain4", 0.2,
+            "CFP_Scarfshades_tan", 0.3,
+            "CFP_Scarfshades_grey", 0.3,
+            "CFP_Scarfshades_white", 0.3,
+            "CFP_Scarfshades_green", 0.3,
+            "CFP_Scarfbeard_white", 0.2,
+            "CFP_Scarfbeard_grey", 0.2,
+            "CFP_Scarfbeard_green", 0.2,
+            "CFP_Scarfbeard_tan", 0.2,
+            "CFP_Scarfbeardshades_white", 0.2,
+            "CFP_Scarfbeardshades_grey", 0.2,
+            "CFP_Scarfbeardshades_green", 0.2,
+            "CFP_Scarfbeardshades_tan", 0.2,
+            "CFP_Shemagh_Half_Red", 0.3,
+            "CFP_Shemagh_Half_Black", 0.4,
+            "CFP_Shemagh_Half_White", 0.3,
+            "CFP_Shemagh_Half_Tan", 0.3,
+            "CFP_Shemagh_Face_Atacsau", 0.3,
+            "CFP_Shemagh_Neck_Gold", 0.3,
+            "CFP_Shemagh_Neck_Creme", 0.3,
+            "CFP_Shemagh_Neck_Red", 0.3,
+            "CFP_Shemagh_Neck_White", 0.3,
+            "CFP_Shemagh_Neck", 0.3
+        };
+
+        //Vests
+        vestList[] = {
+            "V_TacVest_brn", 0.3,
+            "V_TacVest_khk", 0.3,
+            "V_TacVest_blk", 0.4,
+            "V_TacVest_camo", 0.4,
+            "CFP_AK_VEST_EDRL", 0.4,
+            "CFP_AK_VEST_Olive", 0.4,
+            "CFP_AK_VEST_LOlive", 0.4,
+            "CFP_AK_VEST_Black", 0.4,
+            "CFP_AK_VEST_Tan", 0.4,
+            "V_I_G_resistanceLeader_F", 0.4,
+            "CFP_Tactical1_Flecktarn", 0.3,
+            "SP_Tactical1_Black", 0.4,
+            "CFP_UtilityJacket_Woodland", 0.2,
+            "CFP_UtilityJacket_M81", 0.2,
+            "CFP_UtilityJacket_ChocChip", 0.2,
+            "CUP_V_OI_TKI_Jacket1_01", 0.1,
+            "CUP_V_OI_TKI_Jacket1_03", 0.1,
+            "CUP_V_OI_TKI_Jacket1_04", 0.1,
+            "CUP_V_OI_TKI_Jacket1_05", 0.1,
+            "CUP_V_OI_TKI_Jacket1_06", 0.1,
+            "CFP_RAV_Green", 0.2,
+            "CFP_RAV_Black", 0.2,
+            "CUP_V_OI_TKI_Jacket3_05", 0.1,
+            "CUP_V_OI_TKI_Jacket3_03", 0.1
+        };
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this select 0, 'Male01_ackbar'] remoteExecCall ['setSpeaker', 0];  [_this select 0,'Male01_ackbar'] spawn cfp_main_fnc_setSpeakerRemote;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
     };
-    class cfp_i_alNusra_team_leader: cfp_i_alNusra_base
-    {
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "al-Nusra Team Leader";
-        icon = "iconManOfficer";
-        headgearProbability = 100;
-        randomWeaponProbability = 50;
-        linkedItems[] = {"V_TacVestIR_blk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-        respawnLinkedItems[] = {"V_TacVestIR_blk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-        weapons[] = {"CUP_arifle_AK74M_GL","Binocular","Throw","Put"};
-        respawnweapons[] = {"CUP_arifle_AK74M_GL","Binocular","Throw","Put"};
-        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-        Respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-    };
-    class cfp_i_alNusra_squad_leader: cfp_i_alNusra_base
-    {
-        scope = 2;
-        scopeCurator = 2;
+
+    class cfp_i_alNusra_squad_leader : cfp_i_alNusra_team_leader {
+
         displayName = "al-Nusra Squad Leader";
-        icon = "iconManLeader";
-        headgearProbability = 100;
-        randomWeaponProbability = 75;
-        linkedItems[] = {"V_TacVest_khk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-        respawnLinkedItems[] = {"V_TacVest_khk","ItemMap","ItemCompass","ItemWatch","ItemRadio"};
-        weapons[] = {"CUP_arifle_M16A4_Base","Binocular","Throw","Put"};
-        respawnweapons[] = {"CUP_arifle_M16A4_Base","Binocular","Throw","Put"};
-        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-        Respawnmagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+
+        linkedItems[] = {"V_TacVest_camo","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"V_TacVest_camo","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_AK74"};
+        respawnWeapons[] = {"CUP_arifle_AK74"};
+
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"SP_0000_Standard_BattleDressUniform_Black",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",2,1},{"CUP_30Rnd_545x39_AK_M",2,30}}},{"V_TacVest_camo",{{"CUP_30Rnd_545x39_AK_M",2,30}}},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+
     };
-    class cfp_i_alNusra_grenadier: cfp_i_alNusra_base
-    {
+
+    class cfp_i_alNusra_grenadier : O_Soldier_F_OCimport_02 {
+        author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "al-Nusra Grenadier";
-        headgearProbability = 100;
-        randomWeaponProbability = 20;
-        linkedItems[] = {"V_HarnessOGL_gry","ItemRadio"};
-        respawnLinkedItems[] = {"V_HarnessOGL_gry","ItemRadio"};
-        weapons[] = {"CUP_arifle_AK74M_GL","Binocular","Throw","Put"};
-        respawnweapons[] = {"CUP_arifle_AK74M_GL","Binocular","Throw","Put"};
-        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-        Respawnmagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+        side = 2;
+        faction = "CFP_I_ALNUSRA";
+
+        identityTypes[] = {"Head_TK","Language_Ackbar","NoGlasses","G_IRAN_default"};
+
+        uniformClass = "SP_0000_Standard_FieldUniform_Black_SS";
+
+        linkedItems[] = {"CFP_AK_VEST_Black","ItemRadio"};
+        respawnlinkedItems[] = {"CFP_AK_VEST_Black","ItemRadio"};
+
+        weapons[] = {"CUP_arifle_AK74M_GL","Binocular"};
+        respawnWeapons[] = {"CUP_arifle_AK74M_GL","Binocular"};
+
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_1Rnd_HE_GP25_M","CUP_30Rnd_545x39_AK_M","CUP_1Rnd_HE_GP25_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_1Rnd_HE_GP25_M","CUP_30Rnd_545x39_AK_M","CUP_1Rnd_HE_GP25_M"};
+
+        backpack = "CFP_Kitbag_Drab";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_GL","","","",{"CUP_30Rnd_545x39_AK_M",30},{"CUP_1Rnd_HE_GP25_M",1},""},{},{},{"SP_0000_Standard_FieldUniform_Black_SS",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",2,30}}},{"CFP_AK_VEST_Black",{{"CUP_30Rnd_545x39_AK_M",4,30},{"CUP_HandGrenade_RGD5",1,1},{"CUP_1Rnd_HE_GP25_M",2,1}}},{"CFP_Kitbag_Drab",{{"CUP_1Rnd_HE_GP25_M",10,1},{"CUP_1Rnd_SMOKE_GP25_M",5,1}}},"","",{"Binocular","","","",{},{},""},{"","","ItemRadio","","",""}};
+
+        randomGearProbability = 100;
+
+        //Uniforms
+        uniformList[] = {
+          "SP_0000_Standard_FieldUniform_Black", 0.3,
+          "CFP_FieldUniform_tanblack_SS", 0.3,
+          "CFP_FieldUniform_blackacu_SS", 0.3,
+          "SP_0000_Standard_FieldUniform_Black_SS", 0.3,
+          "CFP_U_WOrkUniform_BlackGrey", 0.2,
+          "SP_0000_Standard_PulloverUniform_Black", 0.2,
+          "CUP_I_B_PMC_Unit_24", 0.2,
+          "CUP_I_B_PMC_Unit_3", 0.2,
+          "CUP_I_B_PMC_Unit_14", 0.2,
+          "CFP_U_KhetPartug_Short_Black", 0.2,
+          "CFP_U_KhetPartug_Short_Grey", 0.2
+        };
+
+        //Helmets
+        headgearList[] = {
+            "CFP_Shemagh_Full_Red", 0.3,
+            "CFP_Shemagh_Full_Black", 0.5,
+            "CFP_Shemagh_Head_Grey", 0.4,
+            "CFP_Shemagh_Full_Gold", 0.2,
+            "CFP_Shemagh_Full_Tan", 0.2,
+            "CFP_Shemagh_Full_Green", 0.2,
+            "CFP_Shemagh_Full_Creme", 0.2,
+            "CFP_Shemagh_Head_White", 0.2
+        };
+
+        // Beards / mouth scarf / scarf / sunglasses
+        facewearList[] = {
+            "", 1.0
+        };
+
+        //Vests
+        vestList[] = {
+            "V_TacVest_brn", 0.3,
+            "V_TacVest_khk", 0.3,
+            "V_TacVest_blk", 0.4,
+            "V_TacVest_camo", 0.4,
+            "CFP_AK_VEST_EDRL", 0.4,
+            "CFP_AK_VEST_Olive", 0.4,
+            "CFP_AK_VEST_LOlive", 0.4,
+            "CFP_AK_VEST_Black", 0.4,
+            "CFP_AK_VEST_Tan", 0.4,
+            "V_I_G_resistanceLeader_F", 0.4,
+            "CFP_Tactical1_Flecktarn", 0.3,
+            "SP_Tactical1_Black", 0.4,
+            "CFP_UtilityJacket_Woodland", 0.2,
+            "CFP_UtilityJacket_M81", 0.2,
+            "CFP_UtilityJacket_ChocChip", 0.2,
+            "CUP_V_OI_TKI_Jacket1_01", 0.1,
+            "CUP_V_OI_TKI_Jacket1_03", 0.1,
+            "CUP_V_OI_TKI_Jacket1_04", 0.1,
+            "CUP_V_OI_TKI_Jacket1_05", 0.1,
+            "CUP_V_OI_TKI_Jacket1_06", 0.1,
+            "CFP_RAV_Green", 0.2,
+            "CFP_RAV_Black", 0.2,
+            "CUP_V_OI_TKI_Jacket3_05", 0.1,
+            "CUP_V_OI_TKI_Jacket3_03", 0.1
+        };
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this select 0, 'Male01_ackbar'] remoteExecCall ['setSpeaker', 0];  [_this select 0,'Male01_ackbar'] spawn cfp_main_fnc_setSpeakerRemote;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
     };
-    class cfp_i_alNusra_rifleman: cfp_i_alNusra_base
-    {
-        scope = 2;
-        scopeCurator = 2;
+
+    class cfp_i_alNusra_rifleman : cfp_i_alNusra_team_leader {
+
         displayName = "al-Nusra Rifleman";
-        headgearProbability = 100;
-        randomWeaponProbability = 100;
-        linkedItems[] = {"V_TacChestrig_grn_F","ItemRadio"};
-        respawnLinkedItems[] = {"V_TacChestrig_grn_F","ItemRadio"};
-        weapons[] = {"CUP_arifle_AK47","Binocular","Throw","Put"};
-        respawnweapons[] = {"CUP_arifle_AK47","Binocular","Throw","Put"};
-        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
-        Respawnmagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_HandGrenade_RGD5","CUP_HandGrenade_RGD5"};
+
+        linkedItems[] = {"SP_Tactical1_Black","ItemRadio"};
+        respawnlinkedItems[] = {"SP_Tactical1_Black","ItemRadio"};
+
+        weapons[] = {"CUP_arifle_AK47"};
+        respawnWeapons[] = {"CUP_arifle_AK47"};
+
+        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_KhetPartug_Short_Black",{{"CUP_HandGrenade_RGD5",2,1},{"CUP_30Rnd_762x39_AK47_M",1,30}}},{"SP_Tactical1_Black",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{},"","",{},{"","","ItemRadio","","",""}};
+
     };
-    class cfp_i_alNusra_machinegunner: cfp_i_alNusra_base
-    {
+
+    class cfp_i_alNusra_machinegunner : O_Soldier_F_OCimport_02 {
+        author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "al-Nusra Machinegunner";
-        icon = "iconManMG";
-        backpack = "b_assaultpack_blk";
-        headgearProbability = 100;
-        randomWeaponProbability = 50;
-        linkedItems[] = {"V_TacVest_blk","ItemRadio"};
-        respawnLinkedItems[] = {"V_TacVest_blk","ItemRadio"};
-        weapons[] = {"CUP_lmg_PKM","Throw","Put"};
-        respawnweapons[] = {"CUP_lmg_PKM","Throw","Put"};
-        magazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"};
-        Respawnmagazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"};
+        side = 2;
+        faction = "CFP_I_ALNUSRA";
+
+        identityTypes[] = {"Head_TK","Language_Ackbar","NoGlasses","G_IRAN_default"};
+
+        uniformClass = "CFP_U_KhetPartug_Short_Grey";
+
+        linkedItems[] = {"V_I_G_resistanceLeader_F","ItemRadio"};
+        respawnlinkedItems[] = {"V_I_G_resistanceLeader_F","ItemRadio"};
+
+        weapons[] = {"CUP_lmg_PKM"};
+        respawnWeapons[] = {"CUP_lmg_PKM"};
+
+        magazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"};
+        respawnMagazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"};
+
+        backpack = "B_AssaultPack_blk";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_PKM","","","",{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",100},{},""},{},{},{"CFP_U_KhetPartug_Short_Grey",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",2,1}}},{"V_I_G_resistanceLeader_F",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",1,100}}},{"B_AssaultPack_blk",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",2,100}}},"","",{},{"","","ItemRadio","","",""}};
+
+        randomGearProbability = 100;
+
+        //Uniforms
+        uniformList[] = {
+          "SP_0000_Standard_FieldUniform_Black", 0.3,
+          "CFP_FieldUniform_tanblack_SS", 0.3,
+          "CFP_FieldUniform_blackacu_SS", 0.3,
+          "SP_0000_Standard_FieldUniform_Black_SS", 0.3,
+          "CFP_U_WOrkUniform_BlackGrey", 0.2,
+          "SP_0000_Standard_PulloverUniform_Black", 0.2,
+          "CUP_I_B_PMC_Unit_24", 0.2,
+          "CUP_I_B_PMC_Unit_3", 0.2,
+          "CUP_I_B_PMC_Unit_14", 0.2,
+          "CFP_U_KhetPartug_Short_Black", 0.2,
+          "CFP_U_KhetPartug_Short_Grey", 0.2
+        };
+
+        //Helmets
+        headgearList[] = {
+            "", 1.0
+        };
+
+        // Beards / mouth scarf / scarf / sunglasses
+        facewearList[] = {
+            "SP_Balaclava_Skull2", 0.2,
+            "IS_Balaclava", 0.4,
+            "SP_Balaclava_IDF", 0.3,
+            "G_Balaclava_oli", 0.3,
+            "CFP_Scarfbeard_white", 0.2,
+            "CFP_Scarfbeard_grey", 0.2,
+            "CFP_Scarfbeard_green", 0.2,
+            "CFP_Scarfbeard_tan", 0.2,
+            "CFP_Scarfbeardshades_white", 0.2,
+            "CFP_Scarfbeardshades_grey", 0.2,
+            "CFP_Scarfbeardshades_green", 0.2,
+            "CFP_Scarfbeardshades_tan", 0.2,
+            "CFP_Shemagh_Half_Red", 0.3,
+            "CFP_Shemagh_Half_Black", 0.4,
+            "CFP_Shemagh_Half_White", 0.3,
+            "CFP_Shemagh_Half_Tan", 0.3
+        };
+
+        //Vests
+        vestList[] = {
+            "V_TacVest_brn", 0.3,
+            "V_TacVest_khk", 0.3,
+            "V_TacVest_blk", 0.4,
+            "V_TacVest_camo", 0.4,
+            "CFP_AK_VEST_EDRL", 0.4,
+            "CFP_AK_VEST_Olive", 0.4,
+            "CFP_AK_VEST_LOlive", 0.4,
+            "CFP_AK_VEST_Black", 0.4,
+            "CFP_AK_VEST_Tan", 0.4,
+            "V_I_G_resistanceLeader_F", 0.4,
+            "CFP_Tactical1_Flecktarn", 0.3,
+            "SP_Tactical1_Black", 0.4,
+            "CFP_UtilityJacket_Woodland", 0.2,
+            "CFP_UtilityJacket_M81", 0.2,
+            "CFP_UtilityJacket_ChocChip", 0.2,
+            "CUP_V_OI_TKI_Jacket1_01", 0.1,
+            "CUP_V_OI_TKI_Jacket1_03", 0.1,
+            "CUP_V_OI_TKI_Jacket1_04", 0.1,
+            "CUP_V_OI_TKI_Jacket1_05", 0.1,
+            "CUP_V_OI_TKI_Jacket1_06", 0.1,
+            "CFP_RAV_Green", 0.2,
+            "CFP_RAV_Black", 0.2,
+            "CUP_V_OI_TKI_Jacket3_05", 0.1,
+            "CUP_V_OI_TKI_Jacket3_03", 0.1
+        };
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this select 0, 'Male01_ackbar'] remoteExecCall ['setSpeaker', 0];  [_this select 0,'Male01_ackbar'] spawn cfp_main_fnc_setSpeakerRemote;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
     };
-    class cfp_i_alNusra_sniper: cfp_i_alNusra_base
-    {
-        scope = 2;
-        scopeCurator = 2;
+
+    class cfp_i_alNusra_sniper : cfp_i_alNusra_machinegunner {
+
         displayName = "al-Nusra Sniper";
-        icon = "iconManRecon";
-        headgearProbability = 100;
-        randomWeaponProbability = 25;
-        linkedItems[] = {"V_BandollierB_khk","ItemRadio"};
-        respawnLinkedItems[] = {"V_BandollierB_khk","ItemRadio"};
-        weapons[] = {"CUP_srifle_SVD_pso","Binocular","Throw","Put"};
-        respawnweapons[] = {"CUP_srifle_SVD_pso","Binocular","Throw","Put"};
-        magazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_HandGrenade_RGD5"};
-        Respawnmagazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M","CUP_HandGrenade_RGD5"};
+
+        linkedItems[] = {"CUP_V_OI_TKI_Jacket3_05","ItemRadio"};
+        respawnlinkedItems[] = {"CUP_V_OI_TKI_Jacket3_05","ItemRadio"};
+
+        weapons[] = {"CUP_srifle_SVD_pso","Binocular"};
+        respawnWeapons[] = {"CUP_srifle_SVD_pso","Binocular"};
+
+        magazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M"};
+        respawnMagazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M"};
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_SVD_pso","","","CUP_optic_PSO_1",{"CUP_10Rnd_762x54_SVD_M",10},{},""},{},{},{"CUP_I_B_PMC_Unit_3",{{"FirstAidKit",1},{"CUP_10Rnd_762x54_SVD_M",2,10},{"CUP_HandGrenade_RGD5",1,1}}},{"CUP_V_OI_TKI_Jacket3_05",{{"CUP_10Rnd_762x54_SVD_M",6,10},{"CUP_HandGrenade_RGD5",1,1}}},{},"","",{"Binocular","","","",{},{},""},{"","","ItemRadio","","",""}};
+
     };
-    class cfp_i_alNusra_at: cfp_i_alNusra_base
-    {
-        scope = 2;
-        scopeCurator = 2;
+
+    class cfp_i_alNusra_at : cfp_i_alNusra_grenadier {
+
         displayName = "al-Nusra Anti-Tank";
-        icon = "iconManAT";
+
+        linkedItems[] = {"V_TacVest_blk","ItemRadio"};
+        respawnlinkedItems[] = {"V_TacVest_blk","ItemRadio"};
+
+        weapons[] = {"CUP_arifle_AKS","CUP_launch_RPG7V"};
+        respawnWeapons[] = {"CUP_arifle_AKS","CUP_launch_RPG7V"};
+
+        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_PG7VL_M","CUP_30Rnd_762x39_AK47_M"};
+        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_PG7VL_M","CUP_30Rnd_762x39_AK47_M"};
+
         backpack = "CUP_B_RPGPack_Khaki";
-        headgearProbability = 100;
-        randomWeaponProbability = 100;
-        linkedItems[] = {"V_TacVest_camo","ItemRadio"};
-        respawnLinkedItems[] = {"V_TacVest_camo","ItemRadio"};
-        weapons[] = {"CUP_arifle_AKS","CUP_launch_RPG7V","Throw","Put"};
-        respawnweapons[] = {"CUP_arifle_AKS","CUP_launch_RPG7V","Throw","Put"};
-        magazines[] = {"CUP_PG7VL_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
-        Respawnmagazines[] = {"CUP_PG7VL_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{"CUP_launch_RPG7V","","","",{"CUP_PG7VL_M",1},{},""},{},{"CUP_I_B_PMC_Unit_24",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"V_TacVest_blk",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_RPGPack_Khaki",{{"CUP_PG7VL_M",2,1}}},"","",{},{"","","ItemRadio","","",""}};
+
     };
-    class cfp_i_alNusra_medic: cfp_i_alNusra_base
-    {
-        scope = 2;
-        scopeCurator = 2;
+
+    class cfp_i_alNusra_medic : cfp_i_alNusra_team_leader {
+
         displayName = "al-Nusra Medic";
         attendant = 1;
         icon = "iconManMedic";
         picture = "pictureHeal";
+
+        linkedItems[] = {"CFP_UtilityJacket_M81","ItemRadio"};
+        respawnlinkedItems[] = {"CFP_UtilityJacket_M81","ItemRadio"};
+
+        weapons[] = {"CUP_arifle_AKS"};
+        respawnWeapons[] = {"CUP_arifle_AKS"};
+
+        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+
         backpack = "B_AssaultPack_rgr_Medic";
-        headgearProbability = 100;
-        randomWeaponProbability = 0;
-        linkedItems[] = {"V_Chestrig_blk","ItemRadio"};
-        respawnLinkedItems[] = {"V_Chestrig_blk","ItemRadio"};
-        weapons[] = {"CUP_arifle_AKS","Throw","Put"};
-        respawnweapons[] = {"CUP_arifle_AKS","Throw","Put"};
-        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
-        Respawnmagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_WorkUniform_BlackGrey",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_UtilityJacket_M81",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"B_AssaultPack_rgr_Medic",{{"Medikit",1},{"FirstAidKit",10}}},"","",{},{"","","ItemRadio","","",""}};
+
     };
-    class cfp_i_alNusra_sapper: cfp_i_alNusra_base
-    {
-        scope = 2;
-        scopeCurator = 2;
+
+    class cfp_i_alNusra_sapper : cfp_i_alNusra_grenadier {
+
         displayName = "al-Nusra Sapper";
-        icon = "iconManExplosive";
+        canDeactivateMines = 1;
         engineer = 1;
-        backpack = "B_AssaultPack_khk";
-        headgearProbability = 100;
-        randomWeaponProbability = 100;
-        linkedItems[] = {"V_Chestrig_blk","ItemRadio"};
-        respawnLinkedItems[] = {"V_Chestrig_blk","ItemRadio"};
-        weapons[] = {"CUP_arifle_AKS","Throw","Put"};
-        respawnweapons[] = {"CUP_arifle_AKS","Throw","Put"};
-        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
-        Respawnmagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+
+        linkedItems[] = {"CFP_AK_VEST_Olive","ItemRadio"};
+        respawnlinkedItems[] = {"CFP_AK_VEST_Olive","ItemRadio"};
+
+        weapons[] = {"CUP_arifle_AK47"};
+        respawnWeapons[] = {"CUP_arifle_AK47"};
+
+        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+
+        backpack = "B_Kitbag_cbr";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"SP_0000_Standard_PulloverUniform_Black",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_Olive",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"B_Kitbag_cbr",{{"APERSMine_Range_Mag",1,1},{"IEDLandSmall_Remote_Mag",1,1},{"DemoCharge_Remote_Mag",6,1},{"ClaymoreDirectionalMine_Remote_Mag",2,1},{"APERSTripMine_Wire_Mag",1,1}}},"","",{},{"","","ItemRadio","","",""}};
+
     };
-    class cfp_i_alNusra_crewman: cfp_i_alNusra_base
-    {
-        scope = 2;
-        scopeCurator = 2;
+
+    class cfp_i_alNusra_crewman : cfp_i_alNusra_team_leader {
+
         displayName = "al-Nusra Crewman";
-        icon = "iconManEngineer";
-        headgearProbability = 100;
-        randomWeaponProbability = 30;
-        linkedItems[] = {"V_BandollierB_khk","ItemRadio"};
-        respawnLinkedItems[] = {"V_BandollierB_khk","ItemRadio"};
-        weapons[] = {"CUP_arifle_AKS","Throw","Put"};
-        respawnweapons[] = {"CUP_arifle_AKS","Throw","Put"};
-        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
-        Respawnmagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+
+        linkedItems[] = {"CFP_UtilityJacket_ChocChip","ItemRadio"};
+        respawnlinkedItems[] = {"CFP_UtilityJacket_ChocChip","ItemRadio"};
+
+        weapons[] = {"CUP_arifle_AK74M"};
+        respawnWeapons[] = {"CUP_arifle_AK74M"};
+
+        magazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_30Rnd_545x39_AK74M_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_30Rnd_545x39_AK74M_M"};
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","","","",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{},{},{"CFP_FieldUniform_blackacu_SS",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK74M_M",2,30}}},{"CFP_UtilityJacket_ChocChip",{{"CUP_30Rnd_545x39_AK74M_M",4,30}}},{},"","",{},{"","","ItemRadio","","",""}};
+
     };
-    class cfp_i_alNusra_rifleman_dshkm: cfp_i_alNusra_rifleman
-    {
-        scope = 2;
-        scopeCurator = 2;
+
+    class cfp_i_alNusra_rifleman_dshkm : cfp_i_alNusra_team_leader {
+
         displayName = "al-Nusra Gunner [DSHKM]";
-        icon = "iconManAT";
+
+        linkedItems[] = {"CFP_AK_VEST_Lime","ItemRadio"};
+        respawnlinkedItems[] = {"CFP_AK_VEST_Lime","ItemRadio"};
+
+        weapons[] = {"CUP_arifle_AKM"};
+        respawnWeapons[] = {"CUP_arifle_AKM"};
+
+        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+
         backpack = "CUP_B_DShkM_TripodHigh_Bag";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CUP_I_B_PMC_Unit_14",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",1,1},{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_Lime",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_DShkM_TripodHigh_Bag",{}},"","",{},{"","","ItemRadio","","",""}};
+
     };
-    class cfp_i_alNusra_rifleman_kord: cfp_i_alNusra_rifleman
-    {
-        scope = 2;
-        scopeCurator = 2;
+
+    class cfp_i_alNusra_rifleman_kord : cfp_i_alNusra_team_leader {
+
         displayName = "al-Nusra Gunner [KORD]";
-        icon = "iconManAT";
+
+        linkedItems[] = {"CUP_V_OI_TKI_Jacket3_03","ItemRadio"};
+        respawnlinkedItems[] = {"CUP_V_OI_TKI_Jacket3_03","ItemRadio"};
+
+        weapons[] = {"CUP_arifle_AK47"};
+        respawnWeapons[] = {"CUP_arifle_AK47"};
+
+        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+
         backpack = "CUP_B_Kord_Tripod_Bag";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_FieldUniform_tanblack_SS",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",1,1},{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CUP_V_OI_TKI_Jacket3_03",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_Kord_Tripod_Bag",{}},"","",{},{"","","ItemRadio","","",""}};
+
     };
-    class cfp_i_alNusra_rifleman_podnos: cfp_i_alNusra_rifleman
-    {
-        scope = 2;
-        scopeCurator = 2;
+
+    class cfp_i_alNusra_rifleman_podnos : cfp_i_alNusra_team_leader {
+
         displayName = "al-Nusra Gunner [Podnos]";
-        icon = "iconManAT";
+
+        linkedItems[] = {"V_TacVest_khk","ItemRadio"};
+        respawnlinkedItems[] = {"V_TacVest_khk","ItemRadio"};
+
+        weapons[] = {"CUP_arifle_AK47"};
+        respawnWeapons[] = {"CUP_arifle_AK47"};
+
+        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+
         backpack = "CUP_B_Podnos_Bipod_Bag";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_WorkUniform_BlackGrey",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",1,1},{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"V_TacVest_khk",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_Podnos_Bipod_Bag",{}},"","",{},{"","","ItemRadio","","",""}};
+
     };
-    class cfp_i_alNusra_rifleman_ags30: cfp_i_alNusra_rifleman
-    {
-        scope = 2;
-        scopeCurator = 2;
+
+    class cfp_i_alNusra_rifleman_ags30 : cfp_i_alNusra_grenadier {
+
         displayName = "al-Nusra Gunner [AGS30]";
-        icon = "iconManAT";
+
+        linkedItems[] = {"SP_Modular1_Black","ItemRadio"};
+        respawnlinkedItems[] = {"SP_Modular1_Black","ItemRadio"};
+
+        weapons[] = {"CUP_arifle_AKS"};
+        respawnWeapons[] = {"CUP_arifle_AKS"};
+
+        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+
         backpack = "CUP_B_AGS30_Tripod_Bag";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"SP_0000_Standard_FieldUniform_Black_SS",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",1,1},{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"SP_Modular1_Black",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_AGS30_Tripod_Bag",{}},"","",{},{"","","ItemRadio","","",""}};
+
     };
-    class cfp_i_alNusra_rifleman_spg9: cfp_i_alNusra_rifleman
-    {
-        scope = 2;
-        scopeCurator = 2;
+
+    class cfp_i_alNusra_rifleman_spg9 : cfp_i_alNusra_machinegunner {
+
         displayName = "al-Nusra Gunner [SPG9]";
-        icon = "iconManAT";
+
+        linkedItems[] = {"CFP_AK_VEST_Tan","ItemRadio"};
+        respawnlinkedItems[] = {"CFP_AK_VEST_Tan","ItemRadio"};
+
+        weapons[] = {"CUP_arifle_AK74M_railed"};
+        respawnWeapons[] = {"CUP_arifle_AK74M_railed"};
+
+        magazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_30Rnd_545x39_AK74M_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_30Rnd_545x39_AK74M_M"};
+
         backpack = "CUP_B_SPG9_Tripod_Bag";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed","","","",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{},{},{"SP_0000_Standard_BattleDressUniform_Black",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK74M_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_AK_VEST_Tan",{{"CUP_30Rnd_545x39_AK74M_M",4,30}}},{"CUP_B_SPG9_Tripod_Bag",{}},"","",{},{"","","ItemRadio","","",""}};
+
     };
-    class cfp_i_alNusra_rifleman_metis: cfp_i_alNusra_rifleman
-    {
-        scope = 2;
-        scopeCurator = 2;
+
+    class cfp_i_alNusra_rifleman_metis : cfp_i_alNusra_machinegunner {
+
         displayName = "al-Nusra Gunner [METIS]";
-        icon = "iconManAT";
+
+        linkedItems[] = {"V_TacVest_khk","ItemRadio"};
+        respawnlinkedItems[] = {"V_TacVest_khk","ItemRadio"};
+
+        weapons[] = {"CUP_arifle_AKM"};
+        respawnWeapons[] = {"CUP_arifle_AKM"};
+
+        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+
         backpack = "CUP_B_Metis_Tripod_Bag";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"SP_0000_Standard_FieldUniform_Black",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",1,1},{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"V_TacVest_khk",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_Metis_Tripod_Bag",{}},"","",{},{"","","ItemRadio","","",""}};
+
     };
 
     class FlagCarrier;

@@ -44,3 +44,25 @@
 		identityTypes[] = {"NoGlasses",0};
 
 	};
+
+	class CFP_Shemagh_Neck_Creme: None
+	{
+		scope = 2;
+		displayname = "Shemagh (Creme)";
+		model = "\x\cfp\addons\models\shemagh_neck.p3d";
+		hiddenSelections[] = {"Camo"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\ShemaghNeck\shemagh_neck_creme.paa"};
+		identityTypes[] = {"NoGlasses",0};
+
+	};
+
+	class CFP_Shemagh_Neck_Gold: None
+	{
+		scope = 2;
+		displayname = "Shemagh (Gold)";
+		model = "\x\cfp\addons\models\shemagh_neck.p3d";
+		hiddenSelections[] = {"Camo"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\ShemaghNeck\shemagh_neck_gold.paa"};
+		identityTypes[] = {"NoGlasses",0};
+
+	};

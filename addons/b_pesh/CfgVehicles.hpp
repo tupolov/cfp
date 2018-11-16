@@ -128,6 +128,7 @@ class CfgVehicles {
         headgearList[] = {
             "", 0.5,
             "PESH_Beret", 0.2,
+            "CFP_PatrolCap_M81", 0.4,
             "CFP_Basic_Helmet_Black", 0.1,
             "H_Cap_oli", 0.25,
             "CFP_Basic_Helmet_ArmyGreen", 0.2,
