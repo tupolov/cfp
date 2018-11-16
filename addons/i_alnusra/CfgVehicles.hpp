@@ -8,6 +8,7 @@ class CfgVehicles {
 
 
     class cfp_i_alNusra_team_leader : O_Soldier_F_OCimport_02 {
+        editorPreview = "x\cfp\addons\i_alnusra\data\Preview_alnusra_infantry.jpg";
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -129,8 +130,8 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this select 0, 'Male01_ackbar'] remoteExecCall ['setSpeaker', 0];  [_this select 0,'Male01_ackbar'] spawn cfp_main_fnc_setSpeakerRemote;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
+               init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'Male01_ackbar'] remoteExecCall ['setSpeaker', 0];  [_this, 'Male01_ackbar'] spawn cfp_main_fnc_setSpeakerRemote;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+           };
 
         };
 
@@ -140,7 +141,7 @@ class CfgVehicles {
     };
 
     class cfp_i_alNusra_squad_leader : cfp_i_alNusra_team_leader {
-
+        editorPreview = "x\cfp\addons\i_alnusra\data\Preview_alnusra_infantry.jpg";
         displayName = "al-Nusra Squad Leader";
 
         linkedItems[] = {"V_TacVest_camo","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -157,6 +158,7 @@ class CfgVehicles {
     };
 
     class cfp_i_alNusra_grenadier : O_Soldier_F_OCimport_02 {
+        editorPreview = "x\cfp\addons\i_alnusra\data\Preview_alnusra_infantry.jpg";
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -247,8 +249,8 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this select 0, 'Male01_ackbar'] remoteExecCall ['setSpeaker', 0];  [_this select 0,'Male01_ackbar'] spawn cfp_main_fnc_setSpeakerRemote;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
+               init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'Male01_ackbar'] remoteExecCall ['setSpeaker', 0];  [_this, 'Male01_ackbar'] spawn cfp_main_fnc_setSpeakerRemote;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+           };
 
         };
 
@@ -258,7 +260,7 @@ class CfgVehicles {
     };
 
     class cfp_i_alNusra_rifleman : cfp_i_alNusra_team_leader {
-
+        editorPreview = "x\cfp\addons\i_alnusra\data\Preview_alnusra_infantry.jpg";
         displayName = "al-Nusra Rifleman";
 
         linkedItems[] = {"SP_Tactical1_Black","ItemRadio"};
@@ -275,6 +277,7 @@ class CfgVehicles {
     };
 
     class cfp_i_alNusra_machinegunner : O_Soldier_F_OCimport_02 {
+        editorPreview = "x\cfp\addons\i_alnusra\data\Preview_alnusra_infantry.jpg";
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -373,8 +376,8 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this select 0, 'Male01_ackbar'] remoteExecCall ['setSpeaker', 0];  [_this select 0,'Male01_ackbar'] spawn cfp_main_fnc_setSpeakerRemote;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
+               init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'Male01_ackbar'] remoteExecCall ['setSpeaker', 0];  [_this, 'Male01_ackbar'] spawn cfp_main_fnc_setSpeakerRemote;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+           };
 
         };
 
@@ -384,7 +387,7 @@ class CfgVehicles {
     };
 
     class cfp_i_alNusra_sniper : cfp_i_alNusra_machinegunner {
-
+        editorPreview = "x\cfp\addons\i_alnusra\data\Preview_alnusra_infantry.jpg";
         displayName = "al-Nusra Sniper";
 
         linkedItems[] = {"CUP_V_OI_TKI_Jacket3_05","ItemRadio"};
@@ -401,7 +404,7 @@ class CfgVehicles {
     };
 
     class cfp_i_alNusra_at : cfp_i_alNusra_grenadier {
-
+        editorPreview = "x\cfp\addons\i_alnusra\data\Preview_alnusra_infantry.jpg";
         displayName = "al-Nusra Anti-Tank";
 
         linkedItems[] = {"V_TacVest_blk","ItemRadio"};
@@ -420,7 +423,7 @@ class CfgVehicles {
     };
 
     class cfp_i_alNusra_medic : cfp_i_alNusra_team_leader {
-
+        editorPreview = "x\cfp\addons\i_alnusra\data\Preview_alnusra_infantry.jpg";
         displayName = "al-Nusra Medic";
         attendant = 1;
         icon = "iconManMedic";
@@ -442,7 +445,7 @@ class CfgVehicles {
     };
 
     class cfp_i_alNusra_sapper : cfp_i_alNusra_grenadier {
-
+        editorPreview = "x\cfp\addons\i_alnusra\data\Preview_alnusra_infantry.jpg";
         displayName = "al-Nusra Sapper";
         canDeactivateMines = 1;
         engineer = 1;
@@ -463,7 +466,7 @@ class CfgVehicles {
     };
 
     class cfp_i_alNusra_crewman : cfp_i_alNusra_team_leader {
-
+        editorPreview = "x\cfp\addons\i_alnusra\data\Preview_alnusra_infantry.jpg";
         displayName = "al-Nusra Crewman";
 
         linkedItems[] = {"CFP_UtilityJacket_ChocChip","ItemRadio"};
@@ -480,7 +483,7 @@ class CfgVehicles {
     };
 
     class cfp_i_alNusra_rifleman_dshkm : cfp_i_alNusra_team_leader {
-
+        editorPreview = "x\cfp\addons\i_alnusra\data\Preview_alnusra_infantry.jpg";
         displayName = "al-Nusra Gunner [DSHKM]";
 
         linkedItems[] = {"CFP_AK_VEST_Lime","ItemRadio"};
@@ -499,7 +502,7 @@ class CfgVehicles {
     };
 
     class cfp_i_alNusra_rifleman_kord : cfp_i_alNusra_team_leader {
-
+        editorPreview = "x\cfp\addons\i_alnusra\data\Preview_alnusra_infantry.jpg";
         displayName = "al-Nusra Gunner [KORD]";
 
         linkedItems[] = {"CUP_V_OI_TKI_Jacket3_03","ItemRadio"};
@@ -518,7 +521,7 @@ class CfgVehicles {
     };
 
     class cfp_i_alNusra_rifleman_podnos : cfp_i_alNusra_team_leader {
-
+        editorPreview = "x\cfp\addons\i_alnusra\data\Preview_alnusra_infantry.jpg";
         displayName = "al-Nusra Gunner [Podnos]";
 
         linkedItems[] = {"V_TacVest_khk","ItemRadio"};
@@ -537,7 +540,7 @@ class CfgVehicles {
     };
 
     class cfp_i_alNusra_rifleman_ags30 : cfp_i_alNusra_grenadier {
-
+        editorPreview = "x\cfp\addons\i_alnusra\data\Preview_alnusra_infantry.jpg";
         displayName = "al-Nusra Gunner [AGS30]";
 
         linkedItems[] = {"SP_Modular1_Black","ItemRadio"};
@@ -556,7 +559,7 @@ class CfgVehicles {
     };
 
     class cfp_i_alNusra_rifleman_spg9 : cfp_i_alNusra_machinegunner {
-
+        editorPreview = "x\cfp\addons\i_alnusra\data\Preview_alnusra_infantry.jpg";
         displayName = "al-Nusra Gunner [SPG9]";
 
         linkedItems[] = {"CFP_AK_VEST_Tan","ItemRadio"};
@@ -575,7 +578,7 @@ class CfgVehicles {
     };
 
     class cfp_i_alNusra_rifleman_metis : cfp_i_alNusra_machinegunner {
-
+        editorPreview = "x\cfp\addons\i_alnusra\data\Preview_alnusra_infantry.jpg";
         displayName = "al-Nusra Gunner [METIS]";
 
         linkedItems[] = {"V_TacVest_khk","ItemRadio"};
