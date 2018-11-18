@@ -132,7 +132,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_ALQAEDA";
 
-        identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
+        identityTypes[] = {"Head_TK","Language_Ackbar","G_IRAN_default"};
         uniformClass = "CFP_U_BattleDressUniform_atacs_au";
 
 
@@ -161,7 +161,14 @@ class CfgVehicles {
         	"SP_0000_Standard_BattleDressUniform_Green", 0.1,
         	"CFP_U_BattleDressUniform_scorpion_w2", 0.1,
         	"SP_0000_Standard_BattleDressUniform_ATacsFG", 0.1,
-        	"U_BG_Guerilla2_1", 0.1
+        	"U_BG_Guerilla2_1", 0.1,
+            "CFP_FieldUniform_rogtan_SS", 0.2,
+            "CFP_FieldUniform_tanblack_SS", 0.2,
+            "CFP_FieldUniform_tanatacs_SS", 0.2,
+            "CFP_FieldUniform_marpatm81_SS", 0.2,
+            "CFP_FieldUniform_fleckacr_SS", 0.2,
+            "CFP_FieldUniform_dcum81_SS", 0.2,
+            "CFP_FieldUniform_blackacu_SS", 0.2
 		};
 
 
@@ -174,19 +181,21 @@ class CfgVehicles {
         	"SP_Shemagh_CheckRed", 0.1,
         	"SP_Shemagh_CheckTan", 0.1,
         	"SP_Shemagh_CheckWhite", 0.1,
-        	"SP_Shemagh_Green", 0.1,
-        	"SP_Shemagh_Grey", 0.1,
-        	"SP_Shemagh_Tan", 0.1,
-        	"SP_Shemagh_White", 0.1,
-        	"IS_shemag_black", 0.1
+        	"CFP_Shemagh_Full_Red", 0.3,
+            "CFP_Shemagh_Full_Black", 0.3,
+            "CFP_Shemagh_Full_Gold", 0.2,
+            "CFP_Shemagh_Full_Tan", 0.2,
+            "CFP_Shemagh_Full_Green", 0.2,
+            "CFP_Shemagh_Full_Creme", 0.2,
+            "CFP_Shemagh_Full_White", 0.2
 		};
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
+               init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'Male01_ackbar'] remoteExecCall ['setSpeaker', 0];  [_this, 'Male01_ackbar'] spawn cfp_main_fnc_setSpeakerRemote;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+           };
 
         };
 
@@ -253,7 +262,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_ALQAEDA";
 
-        identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
+        identityTypes[] = {"Head_TK","Language_Ackbar","G_IRAN_default"};
         uniformClass = "CUP_O_TKI_Khet_Partug_04";
 
         backpack = "B_Kitbag_rgr";
@@ -283,23 +292,34 @@ class CfgVehicles {
         	"CFP_U_BattleDressUniform_scorpion_w2", 0.1,
         	"SP_0000_Standard_BattleDressUniform_ATacsFG", 0.1,
         	"U_BG_Guerilla2_1", 0.1,
-        	"CUP_U_O_CHDKZ_Lopotev", 0.2
+        	"CUP_U_O_CHDKZ_Lopotev", 0.2,
+            "CFP_FieldUniform_rogtan_SS", 0.3,
+            "CFP_FieldUniform_tanblack_SS", 0.3,
+            "CFP_FieldUniform_tanatacs_SS", 0.3,
+            "CFP_FieldUniform_marpatm81_SS", 0.3,
+            "CFP_FieldUniform_fleckacr_SS", 0.3,
+            "CFP_FieldUniform_dcum81_SS", 0.3,
+            "CFP_FieldUniform_blackacu_SS", 0.3,
 		};
 
 	// Al Qaeda Facewear
 		facewearList[] = {
             "G_Balaclava_oli", 0.33,
         	"IS_Balaclava", 0.33,
-        	"IS_Balaclava_logo1", 0.33
+        	"IS_Balaclava_logo1", 0.33,
+            "CFP_Shemagh_Half_Red", 0.3,
+            "CFP_Shemagh_Half_White", 0.3,
+            "CFP_Shemagh_Half_Tan", 0.3,
+            "CFP_Shemagh_Half_Black", 0.3,
+            "CFP_Shemagh_Face_Atacsau", 0.3
 		};
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
+               init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'Male01_ackbar'] remoteExecCall ['setSpeaker', 0];  [_this, 'Male01_ackbar'] spawn cfp_main_fnc_setSpeakerRemote;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+           };
         };
 
         // custom attributes (do not delete)
