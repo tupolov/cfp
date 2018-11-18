@@ -267,7 +267,7 @@ class CfgGroups {
                         position[] = { 0 , 5 , 0 };
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "CFP_B_GBARMY_Sniper_AS50_TWS_WDL_01";
+                        vehicle = "CFP_B_GBARMY_Sniper_LRR_TWS_WDL_01";
                     };
                     class Unit1 {
                         position[] = { 3 , 0 , 0 };
