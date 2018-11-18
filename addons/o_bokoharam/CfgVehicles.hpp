@@ -160,7 +160,7 @@ class CfgVehicles {
 	    genericNames = "AfroMen";
         faction = "CFP_O_BOKOHARAM";
 
-        identityTypes[] = {"Head_African","LanguagePER_F","G_IRAN_default"};
+        identityTypes[] = {"Head_African","Language_Ackbar","G_IRAN_default"};
         uniformClass = "CFP_U_KhetPartug_Short_M81";
 
 
@@ -219,11 +219,14 @@ class CfgVehicles {
     	    "SP_Shemagh_CheckRed", 0.2,
     	    "SP_Shemagh_CheckTan", 0.2,
     	    "SP_Shemagh_CheckWhite", 0.2,
-    	    "SP_Shemagh_Green", 0.2,
-    	    "SP_Shemagh_Grey", 0.2,
-    	    "SP_Shemagh_Tan", 0.2,
-    	    "SP_Shemagh_White", 0.2,
     	    "CUP_H_TK_Lungee", 0.2,
+            "CFP_Shemagh_Full_Red", 0.4,
+            "CFP_Shemagh_Full_Black", 0.4,
+            "CFP_Shemagh_Full_Gold", 0.3,
+            "CFP_Shemagh_Full_Tan", 0.3,
+            "CFP_Shemagh_Full_Green", 0.3,
+            "CFP_Shemagh_Full_Creme", 0.3,
+            "CFP_Shemagh_Full_White", 0.3,
     	    "CUP_H_TKI_Lungee_Open_01", 0.2,
     	    "CUP_H_TKI_Lungee_Open_02", 0.2,
     	    "CUP_H_TKI_Lungee_Open_03", 0.2,
@@ -277,7 +280,7 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2;  _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'Male01_ackbar'] remoteExecCall ['setSpeaker', 0];  [_this, 'Male01_ackbar'] spawn cfp_main_fnc_setSpeakerRemote;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
@@ -297,7 +300,7 @@ class CfgVehicles {
         genericNames = "AfroMen";
         faction = "CFP_O_BOKOHARAM";
 
-        identityTypes[] = {"Head_African","LanguagePER_F","G_IRAN_default"};
+        identityTypes[] = {"Head_African","Language_Ackbar","G_IRAN_default"};
         uniformClass = "CFP_U_KhetPartug_Short_M81";
 
         weapons[] = {"CUP_arifle_AK74","Throw","Put"};
@@ -388,14 +391,44 @@ class CfgVehicles {
 
         // Boko Haram Beards
             facewearList[] = {
-            "CFP_Beard", 1.0
-                };
+            "CFP_Oakleys_Clr", 0.2,
+            "CFP_Oakleys_Drk", 0.2,
+            "CFP_Oakleys_Embr", 0.2,
+            "CFP_Neck_Wrap2", 0.3,
+            "CFP_Neck_Wrap3", 0.3,
+            "CFP_Neck_Wrap4", 0.3,
+            "CFP_Neck_Plain2", 0.2,
+            "CFP_Neck_Plain3", 0.2,
+            "CFP_Neck_Plain4", 0.2,
+            "CFP_Scarfshades_tan", 0.3,
+            "CFP_Scarfshades_grey", 0.3,
+            "CFP_Scarfshades_white", 0.3,
+            "CFP_Scarfshades_green", 0.3,
+            "CFP_Scarfbeard_white", 0.2,
+            "CFP_Scarfbeard_grey", 0.2,
+            "CFP_Scarfbeard_green", 0.2,
+            "CFP_Scarfbeard_tan", 0.2,
+            "CFP_Scarfbeardshades_white", 0.2,
+            "CFP_Scarfbeardshades_grey", 0.2,
+            "CFP_Scarfbeardshades_green", 0.2,
+            "CFP_Scarfbeardshades_tan", 0.2,
+            "CFP_Shemagh_Half_Red", 0.3,
+            "CFP_Shemagh_Half_White", 0.3,
+            "CFP_Shemagh_Half_Tan", 0.3,
+            "CFP_Shemagh_Half_Black", 0.3,
+            "CFP_Shemagh_Face_Atacsau", 0.3,
+            "CFP_Shemagh_Neck_Gold", 0.3,
+            "CFP_Shemagh_Neck_Creme", 0.3,
+            "CFP_Shemagh_Neck_Red", 0.3,
+            "CFP_Shemagh_Neck_White", 0.3,
+            "CFP_Shemagh_Neck", 0.3
+        };
 
             class EventHandlers : EventHandlers {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2;  _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'Male01_ackbar'] remoteExecCall ['setSpeaker', 0];  [_this, 'Male01_ackbar'] spawn cfp_main_fnc_setSpeakerRemote;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };

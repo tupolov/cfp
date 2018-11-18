@@ -652,8 +652,15 @@ class CfgVehicles {
 
         //Seal Uniforms
             uniformList[] = {
-                "CFP_U_Crye_Multicam2_SS", 0.5,
-                "CFP_U_Crye_Multicam2", 0.5
+                "CFP_75th_CRYE_V1b_Full", 0.2,
+                "CFP_75th_CRYE_V2b_Full", 0.2,
+                "CFP_75th_CRYE_V3b_Full", 0.2,
+                "CFP_75th_CRYE_V4b_Full", 0.2,
+                "CFP_75th_CRYE_V1b_Sleeved", 0.2,
+                "CFP_75th_CRYE_V2b_Sleeved", 0.2,
+                "CFP_75th_CRYE_V3b_Sleeved", 0.2,
+                "CFP_75th_CRYE_V4b_Sleeved", 0.2,
+                "CFP_75th_CRYEG3_V4", 0.2
             };
 
         //Seal Headgear
@@ -740,19 +747,6 @@ class CfgVehicles {
         respawnMagazines[] = {"CUP_20Rnd_762x51_B_SCAR","CUP_17Rnd_9x19_glock17","CUP_20Rnd_762x51_B_SCAR","CUP_17Rnd_9x19_glock17"};
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_Mk17_CQC_SFG_woodland","CUP_muzzle_snds_SCAR_H","CFP_acc_ANPEQ15_Black","CFP_optic_ELCAN_SpecterDR_Black",{"CUP_20Rnd_762x51_B_SCAR",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_Crye_Multicam2",{{"FirstAidKit",1},{"CUP_17Rnd_9x19_glock17",3,17},{"CUP_20Rnd_762x51_B_SCAR",3,30}}},{"CFP_LBT6094_operator_Multicam",{{"CUP_20Rnd_762x51_B_SCAR",2,30},{"Chemlight_green",1,1},{"Chemlight_red",1,1},{"B_IR_Grenade",1,1},{"CUP_HandGrenade_M67",2,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},{},"CFP_OPS2017_Helmet_Multicam2","CUP_FR_NeckScarf",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
 
     };
 
@@ -856,8 +850,15 @@ class CfgVehicles {
 
         //Seal Uniforms
             uniformList[] = {
-                "CFP_U_Crye_Multicam2_SS", 0.5,
-                "CFP_U_Crye_Multicam2", 0.5
+                "CFP_75th_CRYE_V1b_Full", 0.2,
+                "CFP_75th_CRYE_V2b_Full", 0.2,
+                "CFP_75th_CRYE_V3b_Full", 0.2,
+                "CFP_75th_CRYE_V4b_Full", 0.2,
+                "CFP_75th_CRYE_V1b_Sleeved", 0.2,
+                "CFP_75th_CRYE_V2b_Sleeved", 0.2,
+                "CFP_75th_CRYE_V3b_Sleeved", 0.2,
+                "CFP_75th_CRYE_V4b_Sleeved", 0.2,
+                "CFP_75th_CRYEG3_V4", 0.2
             };
 
         //Seal Headgear

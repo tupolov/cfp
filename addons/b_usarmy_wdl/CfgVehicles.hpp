@@ -2995,10 +2995,15 @@ class CfgVehicles {
 
             // UNIFORMS
             uniformList[] = {
-                "CFP_U_Crye_Multicam", 0.25,
-                "CFP_U_Crye_Multicam2", 0.25,
-                "CFP_U_Crye_Multicam_SS", 0.25,
-                "CFP_U_Crye_Multicam2_SS", 0.25
+                "CFP_75th_CRYE_V1b_Full", 0.2,
+                "CFP_75th_CRYE_V2b_Full", 0.2,
+                "CFP_75th_CRYE_V3b_Full", 0.2,
+                "CFP_75th_CRYE_V4b_Full", 0.2,
+                "CFP_75th_CRYE_V1b_Sleeved", 0.2,
+                "CFP_75th_CRYE_V2b_Sleeved", 0.2,
+                "CFP_75th_CRYE_V3b_Sleeved", 0.2,
+                "CFP_75th_CRYE_V4b_Sleeved", 0.2,
+                "CFP_75th_CRYEG3_V4", 0.2
             };
 
             linkedItems[] = {"CFP_LBT6094_operator_Multicam","CFP_OPS2017_Helmet_Multicam","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
