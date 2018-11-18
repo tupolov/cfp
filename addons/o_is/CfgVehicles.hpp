@@ -252,7 +252,7 @@ class CfgVehicles {
             "CFP_Shemagh_Full_Tan", 0.2,
             "CFP_Shemagh_Full_Green", 0.2,
             "CFP_Shemagh_Full_Creme", 0.2,
-            "CFP_Shemagh_Head_White", 0.2
+            "CFP_Shemagh_Full_White", 0.2
         };
 
         // Beards / mouth scarf / scarf / sunglasses
