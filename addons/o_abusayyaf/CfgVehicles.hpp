@@ -1133,7 +1133,7 @@ class CfgVehicles {
         displayName = "ASG ZU-23";
         side = 0;
         faction = "CFP_O_ABUSAYYAF";
-        crew = "cfp_o_is_crewman";
+        crew = "CFP_O_ABUSAYYAF_Rifleman_Light_01";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -1163,7 +1163,7 @@ class CfgVehicles {
         displayName = "ASG DSHKM";
         side = 0;
         faction = "CFP_O_ABUSAYYAF";
-        crew = "cfp_o_is_crewman";
+        crew = "CFP_O_ABUSAYYAF_Rifleman_Light_01";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -1193,7 +1193,7 @@ class CfgVehicles {
         displayName = "ASG DSKHM (Low)";
         side = 0;
         faction = "CFP_O_ABUSAYYAF";
-        crew = "cfp_o_is_crewman";
+        crew = "CFP_O_ABUSAYYAF_Rifleman_Light_01";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -1223,7 +1223,7 @@ class CfgVehicles {
         displayName = "ASG M2";
         side = 0;
         faction = "CFP_O_ABUSAYYAF";
-        crew = "cfp_o_is_crewman";
+        crew = "CFP_O_ABUSAYYAF_Rifleman_Light_01";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -1253,7 +1253,7 @@ class CfgVehicles {
         displayName = "ASG SPG-9";
         side = 0;
         faction = "CFP_O_ABUSAYYAF";
-        crew = "cfp_o_is_crewman";
+        crew = "CFP_O_ABUSAYYAF_Rifleman_Light_01";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -1283,7 +1283,7 @@ class CfgVehicles {
         displayName = "ASG Mortar";
         side = 0;
         faction = "CFP_O_ABUSAYYAF";
-        crew = "cfp_o_is_crewman";
+        crew = "CFP_O_ABUSAYYAF_Rifleman_Light_01";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
