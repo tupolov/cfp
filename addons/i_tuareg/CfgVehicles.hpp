@@ -173,7 +173,7 @@ class CfgVehicles {
 		uniformList[] = {
 	"CFP_U_BattleDressUniform_edrl", 0.2,
 	"CFP_U_BattleDressUniform_DDPM", 0.2,
-	"CFP_U_BattleDressUniform_DDPMWoodland", 0.2,
+	"CFP_U_BattleDressUniform_DPMWoodland", 0.2,
 	"CFP_U_BattleDressUniform_ChocChip", 0.2,
 	"CFP_U_BattleDressUniform_M81", 0.2,
 	"SP_0000_Standard_BattleDressUniform_Tan", 0.2,

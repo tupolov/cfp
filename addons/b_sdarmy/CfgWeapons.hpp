@@ -404,7 +404,7 @@ class cfgWeapons
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_PASGTHelmet_Black1.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "PASGT Helmet (Sudanese Arid Digital)";
+		displayName = "PASGT Helmet (Sudanese Brown Digital)";
 		// picture = "\x\cfp\addons\headgear\PASGTHelmet\ui\Black1.jpg";
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\b_sdarmy\Data\PASGT_Sudan_Brown.paa"};
@@ -430,7 +430,7 @@ class cfgWeapons
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_PASGTHelmet_Black1.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "PASGT Helmet (Sudanese Arid Digital)";
+		displayName = "PASGT Helmet (Sudanese Pixel)";
 		// picture = "\x\cfp\addons\headgear\PASGTHelmet\ui\Black1.jpg";
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\b_sdarmy\Data\PASGT_Sudan_Pixel.paa"};
@@ -456,7 +456,7 @@ class cfgWeapons
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_PASGTHelmet_Black1.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "PASGT Helmet (Sudanese Arid Digital)";
+		displayName = "PASGT Helmet (Sudanese Leaf)";
 		// picture = "\x\cfp\addons\headgear\PASGTHelmet\ui\Black1.jpg";
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\b_sdarmy\Data\PASGT_Sudan_Leaf.paa"};
@@ -508,7 +508,7 @@ class cfgWeapons
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_PASGTHelmet_Black1.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "PASGT Helmet (Sudanese Desert)";
+		displayName = "PASGT Helmet (Sudanese Desert Variant)";
 		// picture = "\x\cfp\addons\headgear\PASGTHelmet\ui\Black1.jpg";
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\b_sdarmy\Data\PASGT_Sudan_Sword2.paa"};
