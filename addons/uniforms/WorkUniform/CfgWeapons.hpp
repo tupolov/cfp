@@ -38,6 +38,46 @@
 		};
 	};
 
+	class CFP_U_WorkUniform_M81_Sudan: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_WorkUniform_NodUrban.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Work Uniform (M81 Sudan)";
+		// picture = "\x\cfp\addons\uniforms\WorkUniform\0000_Standard\ui\NodUrban.jpg";
+		author = "AuburnAlumni";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_WOrkUniform_M81_Sudan";
+			containerClass="Supply60";
+			mass=80;
+
+
+		};
+	};
+
+	class CFP_U_WorkUniform_DDPM: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_WorkUniform_NodUrban.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Work Uniform (DDPM)";
+		// picture = "\x\cfp\addons\uniforms\WorkUniform\0000_Standard\ui\NodUrban.jpg";
+		author = "AuburnAlumni";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_WOrkUniform_DDPM";
+			containerClass="Supply60";
+			mass=80;
+
+
+		};
+	};
+
 	class CFP_U_WorkUniform_M81Des: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_WorkUniform_NodUrban.paa";

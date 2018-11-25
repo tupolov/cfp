@@ -1454,66 +1454,35 @@ class CfgVehicles {
             0.25,
             "CFP_Uniform_SPLM_24",
             0.25,
-            "CFP_Uniform_SPLM_25",
-            0.25,
-            "CFP_Uniform_SPLM_26",
-            0.25,
-            "CFP_Uniform_SPLM_27",
-            0.25
+            "CFP_Uniform_SPLM_25", 0.25,
+            "CFP_Uniform_SPLM_26", 0.25,
+            "CFP_Uniform_SPLM_27", 0.25
         };
         headgearList[]=
         {
-            "None",
-            0.25,
-            "CFP_Cap_SPLA_01",
-            0.25,
-            "CFP_Cap_SPLA_02",
-            0.25,
-            "CFP_Cap_SPLA_03",
-            0.25,
-            "CFP_Cap_SPLA_04",
-            0.25,
-            "CFP_Cap_SPLA_05",
-            0.25,
-            "H_Cap_grn",
-            0.25,
-            "H_Cap_oli",
-            0.25,
-            "H_Bandanna_gry",
-            0.25,
-            "CUP_H_SLA_BeanieGreen",
-            0.25
+            "", 0.25,
+            "CFP_Cap_SPLA_01", 0.25,
+            "CFP_Cap_SPLA_02", 0.25,
+            "CFP_Cap_SPLA_03", 0.25,
+            "CFP_Cap_SPLA_04", 0.25,
+            "CFP_Cap_SPLA_05", 0.25,
+            "H_Cap_grn", 0.25,
+            "H_Cap_oli", 0.25,
+            "H_Bandanna_gry", 0.25,
+            "CUP_H_SLA_BeanieGreen", 0.25
         };
         vestList[]=
         {
-            "CUP_V_I_Carrier_Belt",
-            0.2,
-            "SP_OpforRig1_Green",
-            0.2,
-            "SP_OpforRig1_Tan",
-            0.2,
-            "CUP_V_O_Ins_Carrier_Rig",
-            0.2,
-            "CFP_AK_VEST_Tan",
-            0.2,
-            "CFP_Chest_Rig_SPLM_01",
-            0.2,
-            "CFP_Chest_Rig_SPLM_02",
-            0.2,
-            "CFP_Chest_Rig_SPLM_03",
-            0.2,
-            "CFP_Chest_Rig_SPLM_04",
-            0.2,
-            "CFP_Jacket_SPLM_01",
-            0.2,
-            "CFP_Jacket_SPLM_02",
-            0.2,
-            "CFP_Jacket_SPLM_03",
-            0.2,
-            "CFP_Bandolier_SPLM_01",
-            0.2,
-            "CUP_V_OI_TKI_Jacket1_01",
-            0.2
+            "CUP_V_I_Carrier_Belt", 0.2,
+            "SP_OpforRig1_Green", 0.2,
+            "SP_OpforRig1_Tan", 0.2,
+            "CUP_V_O_Ins_Carrier_Rig", 0.2,
+            "CFP_AK_VEST_Tan", 0.2,
+            "CFP_TakJacket_SudanWoodland", 0.2,
+            "CFP_TakJacket_OD", 0.2,
+            "CFP_TakJacket_DDPM", 0.2,
+            "CFP_Bandolier_SPLM_01", 0.2,
+            "CUP_V_OI_TKI_Jacket1_01", 0.2
         };
         class EventHandlers: EventHandlers_base
         {
@@ -1686,11 +1655,11 @@ class CfgVehicles {
             0.2,
             "CFP_Chest_Rig_SPLM_04",
             0.2,
-            "CFP_Jacket_SPLM_01",
+            "CFP_TakJacket_SudanWoodland",
             0.2,
-            "CFP_Jacket_SPLM_02",
+            "CFP_TakJacket_OD",
             0.2,
-            "CFP_Jacket_SPLM_03",
+            "CFP_TakJacket_DDPM",
             0.2,
             "CFP_Bandolier_SPLM_01",
             0.2,
@@ -1869,11 +1838,11 @@ class CfgVehicles {
             0.2,
             "CFP_Chest_Rig_SPLM_04",
             0.2,
-            "CFP_Jacket_SPLM_01",
+            "CFP_TakJacket_SudanWoodland",
             0.2,
-            "CFP_Jacket_SPLM_02",
+            "CFP_TakJacket_OD",
             0.2,
-            "CFP_Jacket_SPLM_03",
+            "CFP_TakJacket_DDPM",
             0.2,
             "CFP_Bandolier_SPLM_01",
             0.2,
@@ -1901,7 +1870,7 @@ class CfgVehicles {
         scopeCurator=2;
         linkedItems[]=
         {
-            "CFP_Jacket_SPLM_02",
+            "CFP_TakJacket_OD",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
@@ -1909,7 +1878,7 @@ class CfgVehicles {
         };
         respawnLinkedItems[]=
         {
-            "CFP_Jacket_SPLM_02",
+            "CFP_TakJacket_OD",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
@@ -2029,11 +1998,11 @@ class CfgVehicles {
         };
         vestList[]=
         {
-            "CFP_Jacket_SPLM_01",
+            "CFP_TakJacket_SudanWoodland",
             0.25,
-            "CFP_Jacket_SPLM_02",
+            "CFP_TakJacket_OD",
             0.25,
-            "CFP_Jacket_SPLM_03",
+            "CFP_TakJacket_DDPM",
             0.25,
             "CFP_Bandolier_SPLM_01",
             0.50
@@ -2205,11 +2174,11 @@ class CfgVehicles {
             0.2,
             "CFP_Chest_Rig_SPLM_04",
             0.2,
-            "CFP_Jacket_SPLM_01",
+            "CFP_TakJacket_SudanWoodland",
             0.2,
-            "CFP_Jacket_SPLM_02",
+            "CFP_TakJacket_OD",
             0.2,
-            "CFP_Jacket_SPLM_03",
+            "CFP_TakJacket_DDPM",
             0.2,
             "CFP_Bandolier_SPLM_01",
             0.2,
@@ -2384,11 +2353,11 @@ class CfgVehicles {
             0.2,
             "CFP_Chest_Rig_SPLM_04",
             0.2,
-            "CFP_Jacket_SPLM_01",
+            "CFP_TakJacket_SudanWoodland",
             0.2,
-            "CFP_Jacket_SPLM_02",
+            "CFP_TakJacket_OD",
             0.2,
-            "CFP_Jacket_SPLM_03",
+            "CFP_TakJacket_DDPM",
             0.2,
             "CFP_Bandolier_SPLM_01",
             0.2,
@@ -2563,11 +2532,11 @@ class CfgVehicles {
             0.2,
             "CFP_Chest_Rig_SPLM_04",
             0.2,
-            "CFP_Jacket_SPLM_01",
+            "CFP_TakJacket_SudanWoodland",
             0.2,
-            "CFP_Jacket_SPLM_02",
+            "CFP_TakJacket_OD",
             0.2,
-            "CFP_Jacket_SPLM_03",
+            "CFP_TakJacket_DDPM",
             0.2,
             "CFP_Bandolier_SPLM_01",
             0.2,
@@ -2745,11 +2714,11 @@ class CfgVehicles {
             0.2,
             "CFP_Chest_Rig_SPLM_04",
             0.2,
-            "CFP_Jacket_SPLM_01",
+            "CFP_TakJacket_SudanWoodland",
             0.2,
-            "CFP_Jacket_SPLM_02",
+            "CFP_TakJacket_OD",
             0.2,
-            "CFP_Jacket_SPLM_03",
+            "CFP_TakJacket_DDPM",
             0.2,
             "CFP_Bandolier_SPLM_01",
             0.2,
@@ -2916,19 +2885,11 @@ class CfgVehicles {
             0.2,
             "CFP_AK_VEST_Tan",
             0.2,
-            "CFP_Chest_Rig_SPLM_01",
+            "CFP_TakJacket_SudanWoodland",
             0.2,
-            "CFP_Chest_Rig_SPLM_02",
+            "CFP_TakJacket_OD",
             0.2,
-            "CFP_Chest_Rig_SPLM_03",
-            0.2,
-            "CFP_Chest_Rig_SPLM_04",
-            0.2,
-            "CFP_Jacket_SPLM_01",
-            0.2,
-            "CFP_Jacket_SPLM_02",
-            0.2,
-            "CFP_Jacket_SPLM_03",
+            "CFP_TakJacket_DDPM",
             0.2,
             "CFP_Bandolier_SPLM_01",
             0.2,
@@ -3103,11 +3064,11 @@ class CfgVehicles {
             0.2,
             "CFP_Chest_Rig_SPLM_04",
             0.2,
-            "CFP_Jacket_SPLM_01",
+            "CFP_TakJacket_SudanWoodland",
             0.2,
-            "CFP_Jacket_SPLM_02",
+            "CFP_TakJacket_OD",
             0.2,
-            "CFP_Jacket_SPLM_03",
+            "CFP_TakJacket_DDPM",
             0.2,
             "CFP_Bandolier_SPLM_01",
             0.2,
@@ -3282,11 +3243,11 @@ class CfgVehicles {
             0.2,
             "CFP_Chest_Rig_SPLM_04",
             0.2,
-            "CFP_Jacket_SPLM_01",
+            "CFP_TakJacket_SudanWoodland",
             0.2,
-            "CFP_Jacket_SPLM_02",
+            "CFP_TakJacket_OD",
             0.2,
-            "CFP_Jacket_SPLM_03",
+            "CFP_TakJacket_DDPM",
             0.2,
             "CFP_Bandolier_SPLM_01",
             0.2,
@@ -3461,11 +3422,11 @@ class CfgVehicles {
             0.2,
             "CFP_Chest_Rig_SPLM_04",
             0.2,
-            "CFP_Jacket_SPLM_01",
+            "CFP_TakJacket_SudanWoodland",
             0.2,
-            "CFP_Jacket_SPLM_02",
+            "CFP_TakJacket_OD",
             0.2,
-            "CFP_Jacket_SPLM_03",
+            "CFP_TakJacket_DDPM",
             0.2,
             "CFP_Bandolier_SPLM_01",
             0.2,
@@ -3640,11 +3601,11 @@ class CfgVehicles {
             0.2,
             "CFP_Chest_Rig_SPLM_04",
             0.2,
-            "CFP_Jacket_SPLM_01",
+            "CFP_TakJacket_SudanWoodland",
             0.2,
-            "CFP_Jacket_SPLM_02",
+            "CFP_TakJacket_OD",
             0.2,
-            "CFP_Jacket_SPLM_03",
+            "CFP_TakJacket_DDPM",
             0.2,
             "CFP_Bandolier_SPLM_01",
             0.2,
@@ -3819,11 +3780,11 @@ class CfgVehicles {
             0.2,
             "CFP_Chest_Rig_SPLM_04",
             0.2,
-            "CFP_Jacket_SPLM_01",
+            "CFP_TakJacket_SudanWoodland",
             0.2,
-            "CFP_Jacket_SPLM_02",
+            "CFP_TakJacket_OD",
             0.2,
-            "CFP_Jacket_SPLM_03",
+            "CFP_TakJacket_DDPM",
             0.2,
             "CFP_Bandolier_SPLM_01",
             0.2,
@@ -3998,11 +3959,11 @@ class CfgVehicles {
             0.2,
             "CFP_Chest_Rig_SPLM_04",
             0.2,
-            "CFP_Jacket_SPLM_01",
+            "CFP_TakJacket_SudanWoodland",
             0.2,
-            "CFP_Jacket_SPLM_02",
+            "CFP_TakJacket_OD",
             0.2,
-            "CFP_Jacket_SPLM_03",
+            "CFP_TakJacket_DDPM",
             0.2,
             "CFP_Bandolier_SPLM_01",
             0.2,
@@ -4190,11 +4151,11 @@ class CfgVehicles {
             0.2,
             "CUP_V_O_Ins_Carrier_Rig",
             0.2,
-            "CFP_Jacket_SPLM_01",
+            "CFP_TakJacket_SudanWoodland",
             0.2,
-            "CFP_Jacket_SPLM_02",
+            "CFP_TakJacket_OD",
             0.2,
-            "CFP_Jacket_SPLM_03",
+            "CFP_TakJacket_DDPM",
             0.2,
             "CUP_V_OI_TKI_Jacket1_01",
             0.2
@@ -4505,11 +4466,11 @@ class CfgVehicles {
             0.2,
             "CUP_V_O_Ins_Carrier_Rig",
             0.2,
-            "CFP_Jacket_SPLM_01",
+            "CFP_TakJacket_SudanWoodland",
             0.2,
-            "CFP_Jacket_SPLM_02",
+            "CFP_TakJacket_OD",
             0.2,
-            "CFP_Jacket_SPLM_03",
+            "CFP_TakJacket_DDPM",
             0.2,
             "CUP_V_OI_TKI_Jacket1_01",
             0.2
@@ -4535,7 +4496,7 @@ class CfgVehicles {
         scopeCurator=2;
         linkedItems[]=
         {
-            "CFP_Jacket_SPLM_02",
+            "CFP_TakJacket_OD",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
@@ -4543,7 +4504,7 @@ class CfgVehicles {
         };
         respawnLinkedItems[]=
         {
-            "CFP_Jacket_SPLM_02",
+            "CFP_TakJacket_OD",
             "ItemMap",
             "ItemCompass",
             "ItemWatch",
@@ -4687,11 +4648,11 @@ class CfgVehicles {
         {
             "CFP_Bandolier_SPLM_01",
             0.25,
-            "CFP_Jacket_SPLM_01",
+            "CFP_TakJacket_SudanWoodland",
             0.25,
-            "CFP_Jacket_SPLM_02",
+            "CFP_TakJacket_OD",
             0.25,
-            "CFP_Jacket_SPLM_03",
+            "CFP_TakJacket_DDPM",
             0.25
         };
         class EventHandlers: EventHandlers_base
@@ -4875,11 +4836,11 @@ class CfgVehicles {
             0.2,
             "CUP_V_O_Ins_Carrier_Rig",
             0.2,
-            "CFP_Jacket_SPLM_01",
+            "CFP_TakJacket_SudanWoodland",
             0.2,
-            "CFP_Jacket_SPLM_02",
+            "CFP_TakJacket_OD",
             0.2,
-            "CFP_Jacket_SPLM_03",
+            "CFP_TakJacket_DDPM",
             0.2,
             "CUP_V_OI_TKI_Jacket1_01",
             0.2
@@ -5683,7 +5644,7 @@ class CfgVehicles {
         class TransportMagazines {
         };
         class TransportItems {
-            item_xx(CFP_Jacket_SPLM_01,10);
+            item_xx(CFP_TakJacket_SudanWoodland,10);
             item_xx(H_Cap_oli,10);
             item_xx(ItemMap,10);
             item_xx(ItemCompass,10);
@@ -5694,7 +5655,7 @@ class CfgVehicles {
             item_xx(CFP_Chest_Rig_SPLM_02,10);
             item_xx(H_Cap_grn,10);
             item_xx(CFP_SPLM_RPG_Backpack,10);
-            item_xx(CFP_Jacket_SPLM_02,10);
+            item_xx(CFP_TakJacket_OD,10);
             item_xx(CFP_Cap_SPLA_04,10);
             item_xx(CFP_Chest_Rig_SPLM_01,10);
             item_xx(CUP_V_I_Carrier_Belt,10);
@@ -5703,7 +5664,7 @@ class CfgVehicles {
             item_xx(CUP_V_OI_TKI_Jacket1_01,10);
             item_xx(CFP_Chest_Rig_SPLM_04,10);
             item_xx(CUP_B_DShkM_TripodHigh_Bag,10);
-            item_xx(CFP_Jacket_SPLM_03,10);
+            item_xx(CFP_TakJacket_DDPM,10);
             item_xx(CUP_B_DShkM_TripodLow_Bag,10);
             item_xx(CUP_B_DShkM_Gun_Bag,10);
             item_xx(CUP_B_Podnos_Bipod_Bag,10);
@@ -5741,7 +5702,7 @@ class CfgVehicles {
         };
         class TransportItems {
             item_xx(CUP_optic_PSO_1,10);
-            item_xx(CFP_Jacket_SPLM_01,10);
+            item_xx(CFP_TakJacket_SudanWoodland,10);
             item_xx(H_Cap_oli,10);
             item_xx(ItemMap,10);
             item_xx(ItemCompass,10);
@@ -5752,7 +5713,7 @@ class CfgVehicles {
             item_xx(CFP_Chest_Rig_SPLM_02,10);
             item_xx(H_Cap_grn,10);
             item_xx(CFP_SPLM_RPG_Backpack,10);
-            item_xx(CFP_Jacket_SPLM_02,10);
+            item_xx(CFP_TakJacket_OD,10);
             item_xx(CFP_Cap_SPLA_04,10);
             item_xx(CFP_Chest_Rig_SPLM_01,10);
             item_xx(CUP_V_I_Carrier_Belt,10);
@@ -5761,7 +5722,7 @@ class CfgVehicles {
             item_xx(CUP_V_OI_TKI_Jacket1_01,10);
             item_xx(CFP_Chest_Rig_SPLM_04,10);
             item_xx(CUP_B_DShkM_TripodHigh_Bag,10);
-            item_xx(CFP_Jacket_SPLM_03,10);
+            item_xx(CFP_TakJacket_DDPM,10);
             item_xx(CUP_B_DShkM_TripodLow_Bag,10);
             item_xx(CUP_B_DShkM_Gun_Bag,10);
             item_xx(CUP_B_Podnos_Bipod_Bag,10);

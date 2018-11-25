@@ -144,6 +144,96 @@
 		};
 	};
 
+	class CFP_U_BattleDressUniform_M81_Sudan: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_CFP_U_BattleDressUniform_3ColorDesert.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Battle Dress Uniform (M81 Sudan)";
+		// picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_3ColorDesert.jpg";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_BattleDressUniform_M81_Sudan";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+
+	class CFP_U_BattleDressUniform_Sword: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_CFP_U_BattleDressUniform_3ColorDesert.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Battle Dress Uniform (Sudan Sword)";
+		// picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_3ColorDesert.jpg";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_BattleDressUniform_Sword";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+
+	class CFP_U_BattleDressUniform_Sword2: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_CFP_U_BattleDressUniform_3ColorDesert.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Battle Dress Uniform (Sudan Sword 2)";
+		// picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_3ColorDesert.jpg";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_BattleDressUniform_Sword2";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+
+	class CFP_U_BattleDressUniform_AridDigital: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_CFP_U_BattleDressUniform_3ColorDesert.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Battle Dress Uniform (Sudan Arid Digital)";
+		// picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_3ColorDesert.jpg";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_BattleDressUniform_AridDigital";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+
+	class CFP_U_BattleDressUniform_BrownDigital: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_CFP_U_BattleDressUniform_3ColorDesert.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Battle Dress Uniform (Sudan Brown Digital)";
+		// picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_3ColorDesert.jpg";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_BattleDressUniform_BrownDigital";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+
 	class CFP_U_BattleDressUniform_AfricanWoodlandDark: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_CFP_U_BattleDressUniform_AfricanWoodlandDark.paa";

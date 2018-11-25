@@ -744,6 +744,114 @@
 		};
 	};
 
+	class CFP_U_FieldUniform_M81_Sudan: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_CFP_U_FieldUniform_3ColorDesert.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Field Uniform (M81 Sudan)";
+		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_3ColorDesert.jpg";
+		author = "AccuracyThruVolume";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_FieldUniform_M81_Sudan";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+
+	class CFP_U_FieldUniform_M81_Sudan_SS: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_CFP_U_FieldUniform_3ColorDesert.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Field Uniform SS (M81 Sudan)";
+		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_3ColorDesert.jpg";
+		author = "AccuracyThruVolume";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_FieldUniform_M81_Sudan_SS";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+
+	class CFP_U_FieldUniform_Sword_SS: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_CFP_U_FieldUniform_3ColorDesert.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Field Uniform SS (Sudan Sword)";
+		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_3ColorDesert.jpg";
+		author = "AccuracyThruVolume";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_FieldUniform_Sword_SS";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+
+	class CFP_U_FieldUniform_Sword2_SS: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_CFP_U_FieldUniform_3ColorDesert.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Field Uniform SS (Sudan Sword 2)";
+		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_3ColorDesert.jpg";
+		author = "AccuracyThruVolume";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_FieldUniform_Sword2_SS";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+
+	class CFP_U_FieldUniform_AridDigital_SS: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_CFP_U_FieldUniform_3ColorDesert.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Field Uniform SS (Sudan Arid Digital)";
+		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_3ColorDesert.jpg";
+		author = "AccuracyThruVolume";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_FieldUniform_AridDigital_SS";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+
+	class CFP_U_FieldUniform_BrownDigital_SS: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_CFP_U_FieldUniform_3ColorDesert.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Field Uniform SS (Sudan Brown Digital)";
+		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_3ColorDesert.jpg";
+		author = "AccuracyThruVolume";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_FieldUniform_BrownDigital_SS";
+			containerClass="Supply60";
+			mass=80;
+		};
+	};
+
 	class CFP_U_FieldUniform_AfricanWoodlandDark: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_CFP_U_FieldUniform_AfricanWoodlandDark.paa";

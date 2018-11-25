@@ -161,6 +161,71 @@
 
 	};
 
+	class CFP_BattleDressUniform_M81_Sudan: CFP_Uniform
+	{
+
+
+		displayName = "Battle Dress Uniform (M81 Sudan)";
+
+		uniformClass = "CFP_BattleDressUniform_3ColorDesert";
+
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_M81_Sudan.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_M81_Sudan.paa"};
+
+
+	};
+
+	class CFP_BattleDressUniform_Sword: CFP_Uniform
+	{
+
+
+		displayName = "Battle Dress Uniform (Sudan Sword)";
+
+		uniformClass = "CFP_BattleDressUniform_Sword";
+
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_Sword.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_Sword.paa"};
+
+
+	};
+
+	class CFP_BattleDressUniform_Sword2: CFP_Uniform
+	{
+
+
+		displayName = "Battle Dress Uniform (Sudan Sword 2)";
+
+		uniformClass = "CFP_BattleDressUniform_Sword2";
+
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_Sword2.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_Sword2.paa"};
+
+
+	};
+
+	class CFP_BattleDressUniform_BrownDigital: CFP_Uniform
+	{
+
+
+		displayName = "Battle Dress Uniform (Sudan Brown Digital)";
+
+		uniformClass = "CFP_BattleDressUniform_BrownDigital";
+
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_Brown.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_Brown.paa"};
+
+
+	};
+
+	class CFP_BattleDressUniform_AridDigital: CFP_Uniform
+	{
+
+
+		displayName = "Battle Dress Uniform (Sudan Arid Digital)";
+
+		uniformClass = "CFP_BattleDressUniform_AridDigital";
+
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_Sudan.paa","\x\cfp\addons\uniforms\FieldUniform\camo\CombatUniform_Sudan.paa"};
+
+
+	};
+
 	class CFP_BattleDressUniform_AfricanWoodlandDark: CFP_Uniform
 	{
 

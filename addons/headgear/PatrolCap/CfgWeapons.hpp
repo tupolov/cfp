@@ -378,6 +378,32 @@ class CfgVehicleClasses
 		};
 	};
 
+	class CFP_PatrolCap_M81Sudan: ItemCore
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_PatrolCap_ANP.paa";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "Patrol Cap (M81 Sudan)";
+		// picture = "\x\cfp\addons\headgear\PatrolCap\ui\BlueFrost.jpg";
+		model = "\x\cfp\addons\models\PatrolCap";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\M81Sudan.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "AuburnAlumni";
+
+
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 15;
+			uniformmodel = "\x\cfp\addons\models\PatrolCap";
+			modelSides[] = {3,1};
+			armor = 0;
+			passThrough = 0.30;
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\M81Sudan.paa"};
+			hiddenSelections[] = {"Camo"};
+		};
+	};
+
 	class CFP_PatrolCap_EDRL: ItemCore
     {
         picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_PatrolCap_EDRL.paa";
