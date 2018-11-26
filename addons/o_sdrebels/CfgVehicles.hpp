@@ -3,7 +3,9 @@
 // Generated with Arma 3 version 184.144923 on Stable branch
 // Generated with ALiVE version 1.8.1.1810091
 //////////////////////////////////////////////////////////////////////////////////
-
+#define mag_xx(a,b) class _xx_##a {magazine = ##a; count = b;}
+#define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
+#define item_xx(a,b) class _xx_##a {name = a; count = b;}
 
 class CBA_Extended_EventHandlers_base;
 
