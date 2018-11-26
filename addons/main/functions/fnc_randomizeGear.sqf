@@ -80,6 +80,7 @@ switch (_cat) do {
         };
     };
     case ("uniform") : {
+        private _items = uniformItems _unit;
         removeUniform _unit;
         if (_item isEqualType []) then {
                 _unit forceAddUniform (_item select 0);
@@ -90,18 +91,29 @@ switch (_cat) do {
         } else {
             _unit forceAddUniform _item;
         };
+        {
+            _unit addItemToUniform _x;
+        } foreach _items;
     };
     case ("vest") : {
+        private _items = vestItems _unit;
         removeVest _unit;
         if (_item != "") then {
             _unit addVest _item;
         };
+        {
+            _unit addItemToVest _x;
+        } foreach _items;
     };
     case ("backpack") : {
+        private _items = backpackItems _unit;
         removeBackpack _unit;
         if (_item != "") then {
             _unit addBackpack _item;
         };
+        {
+            _unit addItemToBackpack _x;
+        } foreach _items;
     };
     case ("nvg") : {
         if (_item == "") then {
