@@ -287,14 +287,14 @@ class CfgVehicleClasses
 		};
 	};
 
-	class CFP_Tactical1_IranDesert: V_PlateCarrier1_rgr
+	class CFP_Tactical1_SudanTiger: V_PlateCarrier1_rgr
 {
     picture = "\x\cfp\addons\vests\data\ui\icon_CFP_Tactical1_IranDesert.paa";
 		scope = 2;
-		displayName = "Tactical 1 (Iran Desert)";
+		displayName = "Tactical 1 (Sudan Tiger)";
 		// picture = "\x\cfp\addons\vests\Tactical1\ui\Black.jpg";
 		model = "\x\cfp\addons\models\Tactical1";
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Tactical1\IranDesert.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Tactical1\SudanTiger.paa"};
 		hiddenSelections[] = {"Camo"};
 
 		class ItemInfo: VestItem

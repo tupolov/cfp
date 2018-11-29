@@ -127,6 +127,38 @@
 		};
 	};
 
+	class CFP_WorkUniform_M81: B_Soldier_base_F
+	{
+
+		scope = 1;
+		displayName = "Work Uniform (M81)";
+		faction = "BLU_F";
+        modelSides[] = {6};
+		vehicleClass = "CFP_WorkUniform";
+		canCarryBackPack=1;
+		canDeactivateMines=1;
+		engineer=1;
+		attendant = "true";
+		uniformAccessories[] = {};
+		uniformClass = "CFP_U_WorkUniform_M81";
+		nakedUniform = "U_BasicBody";
+		model = "\x\cfp\addons\models\WorkUniform.p3d";
+		Items[] = {};
+		weapons[] = {"Throw","Put"};
+		magazines[] = {};
+		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
+		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BattleDressUniform\camo\BDU_M81.paa"};
+		hiddenSelectionsMaterials[] = {"\x\cfp\addons\models\rv\WorkerUniform.rvmat"};
+		hiddenSelections[] = {"Camo", "insignia"};
+		class Wounds
+		{
+			tex[] = {};
+			mat[] = {"A3\Characters_F\OPFOR\Data\officer.rvmat","A3\Characters_F\OPFOR\Data\officer_injury.rvmat","A3\Characters_F\OPFOR\Data\officer_injury.rvmat"};
+
+		};
+	};
+
 	class CFP_WorkUniform_M81Des: B_Soldier_base_F
 	{
 
