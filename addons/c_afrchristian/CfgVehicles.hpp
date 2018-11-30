@@ -135,6 +135,12 @@ class CfgVehicles {
         	"U_C_Man_casual_4_F", 0.2,
         	"U_C_Man_casual_5_F", 0.2,
         	"U_C_Man_casual_6_F", 0.2,
+            "CFP_Polo_RealMadrid", 0.2,
+            "CFP_Polo_Liverpool", 0.2,
+            "CFP_Polo_Sudan", 0.2,
+            "CFP_Bandit_Adidas", 0.2,
+            "CFP_Bandit_Chang", 0.2,
+            "CFP_Bandit_Africa", 0.2,
         	"CUP_U_O_CHDKZ_Lopotev", 0.2,
         	"CUP_U_I_GUE_Anorak_03", 0.2,
         	"U_I_C_Soldier_Bandit_4_F", 0.2,
@@ -230,11 +236,11 @@ class CfgVehicles {
 
         weapons[] = {"Throw","Put"};
         respawnWeapons[] = {"Throw","Put"};
-        linkedItems[] = {"H_Booniehat_oli","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
-        respawnLinkedItems[] = {"H_Booniehat_oli","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        linkedItems[] = {"","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {};
         respawnMagazines[] = {};
-        ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_I_C_Soldier_Bandit_5_F",{}},{},{},"H_Booniehat_oli","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_I_C_Soldier_Bandit_5_F",{}},{},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -246,11 +252,11 @@ class CfgVehicles {
 
         weapons[] = {"Throw","Put"};
         respawnWeapons[] = {"Throw","Put"};
-        linkedItems[] = {"H_Cap_grn","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
-        respawnLinkedItems[] = {"H_Cap_grn","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        linkedItems[] = {"","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {};
         respawnMagazines[] = {};
-        ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_I_C_Soldier_Bandit_3_F",{}},{},{},"H_Cap_grn","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_I_C_Soldier_Bandit_3_F",{}},{},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -262,11 +268,11 @@ class CfgVehicles {
 
         weapons[] = {"Throw","Put"};
         respawnWeapons[] = {"Throw","Put"};
-        linkedItems[] = {"H_Booniehat_tan","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
-        respawnLinkedItems[] = {"H_Booniehat_tan","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        linkedItems[] = {"","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {};
         respawnMagazines[] = {};
-        ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_C_Poloshirt_salmon",{}},{},{},"H_Booniehat_tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_C_Poloshirt_salmon",{}},{},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -279,10 +285,10 @@ class CfgVehicles {
         weapons[] = {"Throw","Put"};
         respawnWeapons[] = {"Throw","Put"};
         linkedItems[] = {"H_Bandanna_cbr","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
-        respawnLinkedItems[] = {"H_Bandanna_cbr","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {};
         respawnMagazines[] = {};
-        ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_BG_Guerilla2_3",{}},{},{},"H_Bandanna_cbr","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{},{},{},{"U_BG_Guerilla2_3",{}},{},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -342,11 +348,11 @@ class CfgVehicles {
 
         weapons[] = {"Throw","Put"};
         respawnWeapons[] = {"Throw","Put"};
-        linkedItems[] = {"CUP_H_C_Beanie_04","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
-        respawnLinkedItems[] = {"CUP_H_C_Beanie_04","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        linkedItems[] = {"","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {};
         respawnMagazines[] = {};
-        ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_O_TKI_Khet_Partug_02",{}},{},{},"CUP_H_C_Beanie_04","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_O_TKI_Khet_Partug_02",{}},{},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -358,11 +364,11 @@ class CfgVehicles {
 
         weapons[] = {"Throw","Put"};
         respawnWeapons[] = {"Throw","Put"};
-        linkedItems[] = {"CUP_H_C_Beanie_01","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
-        respawnLinkedItems[] = {"CUP_H_C_Beanie_01","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        linkedItems[] = {"","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {};
         respawnMagazines[] = {};
-        ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_O_TKI_Khet_Partug_03",{}},{},{},"CUP_H_C_Beanie_01","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_O_TKI_Khet_Partug_03",{}},{},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -391,10 +397,10 @@ class CfgVehicles {
         weapons[] = {"Throw","Put"};
         respawnWeapons[] = {"Throw","Put"};
         linkedItems[] = {"H_Cap_red","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
-        respawnLinkedItems[] = {"H_Cap_red","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {};
         respawnMagazines[] = {};
-        ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_U_C_Worker_01",{}},{},{},"H_Cap_red","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{},{},{},{"CUP_U_C_Worker_01",{}},{},{},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 

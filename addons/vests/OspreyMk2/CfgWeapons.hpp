@@ -1,6 +1,6 @@
 
-	class CUP_V_B_DDPM_Osprey_Mk3_Empty;
-	class CFP_Osprey1_Wd: CUP_V_B_DDPM_Osprey_Mk3_Empty
+	class CUP_V_B_BAF_DDPM_Osprey_Mk3_Empty;
+	class CFP_Osprey1_Wd: CUP_V_B_BAF_DDPM_Osprey_Mk3_Empty
 {
     picture = "\x\cfp\addons\vests\data\ui\icon_CFP_Osprey1_Wd.paa";
 		scope = 2;
@@ -9,7 +9,7 @@
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\OspreyMk2\mk2_empty_m81.paa","\x\cfp\addons\vests\OspreyMk2\mk2_empty_m81.paa","\x\cfp\addons\vests\OspreyMk2\mk2_empty_m81.paa","\x\cfp\addons\vests\OspreyMk2\mk2_empty_m81.paa"};
 	};
 
-class CFP_Osprey1_Green: CUP_V_B_DDPM_Osprey_Mk3_Empty
+class CFP_Osprey1_Green: CUP_V_B_BAF_DDPM_Osprey_Mk3_Empty
 {
     picture = "\x\cfp\addons\vests\data\ui\icon_CFP_Osprey1_Wd.paa";
 		scope = 2;
