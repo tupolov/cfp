@@ -696,7 +696,7 @@ class CfgVehicles {
         //Vests
         vestList[] = {
             "CFP_AK_VEST_EDRL", 0.3,
-            "CFP_Tactical1_Sudan_Tiger", 0.6,
+            "CFP_Tactical1_SudanTiger", 0.6,
             "CFP_AK_VEST_Olive", 0.3,
             "CFP_AK_VEST_LOlive", 0.3,
             "CFP_AK_VEST_Black", 0.3,

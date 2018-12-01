@@ -84,6 +84,22 @@ class CFP_AK_VEST_Lime: CFP_AK_VEST
 	hiddenSelectionsTextures[] = {"x\cfp\addons\vests\AK_Vest\data\tak_soldier_equip_limegreen.paa"};
 };
 
+class CFP_AK_VEST_M81: CFP_AK_VEST
+{
+    picture = "\x\cfp\addons\vests\data\ui\icon_CFP_AK_VEST_Lime.paa";
+
+	displayName = "AK Chest Rig M81";
+	hiddenSelectionsTextures[] = {"x\cfp\addons\vests\AK_Vest\data\tak_soldier_equip_m81.paa"};
+};
+
+class CFP_AK_VEST_Marpat: CFP_AK_VEST
+{
+    picture = "\x\cfp\addons\vests\data\ui\icon_CFP_AK_VEST_Lime.paa";
+
+	displayName = "AK Chest Rig Marpat";
+	hiddenSelectionsTextures[] = {"x\cfp\addons\vests\AK_Vest\data\tak_soldier_equip_marpat.paa"};
+};
+
 class CFP_Field_Satchel: Vest_Camo_Base
 	{
 		author = "CFP";
