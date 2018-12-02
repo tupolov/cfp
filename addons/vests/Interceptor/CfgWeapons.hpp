@@ -103,6 +103,52 @@ class CfgVehicleClasses
 		};
 	};
 
+	class CFP_ITV_Empty_Grey: CUP_V_PMC_IOTV_Base
+	{
+	    picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\data\ui\icon_v_iotv_c1_ca.paa";
+		scope = 2;
+		displayName = "Interceptor (Empty Grey)";
+		// picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\data\ui\icon_v_iotv_c1_ca.paa";
+		model = "x\cfp\addons\models\interceptor_base.p3d";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Interceptor\tex\Intergrey.paa"};
+		hiddenSelections[] = {"camo"};
+		author = "AuburnAlumni";
+		class ItemInfo: VestItem
+		{
+			uniformModel = "x\cfp\addons\models\interceptor_base.p3d";
+			containerClass = "Supply80";
+			hiddenSelections[] = {"camo"};
+			mass = 80;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					hitpointName = "HitChest";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Diaphragm
+				{
+					hitpointName = "HitDiaphragm";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.3;
+				};
+			};
+
+		};
+	};
+
 	class CFP_ITV_Empty_DCU: CUP_V_PMC_IOTV_Base
 	{
 	    picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\data\ui\icon_v_iotv_c1_ca.paa";
@@ -378,6 +424,53 @@ class CfgVehicleClasses
 		};
 	};
 
+	class CFP_ITV_Rifleman_Grey: CUP_V_PMC_IOTV_Base
+	{
+	    picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\data\ui\icon_v_iotv_c1_ca.paa";
+		scope = 2;
+		displayName = "Interceptor (Rifleman Grey)";
+		// picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\data\ui\icon_v_iotv_c1_ca.paa";
+		model = "x\cfp\addons\models\interceptor_rifleman.p3d";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Interceptor\tex\Intergrey.paa","x\cfp\addons\vests\Interceptor\tex\webbing_grey.paa","\x\cfp\addons\vests\Interceptor\tex\us_soldier_equip_anp.paa"};
+		hiddenSelections[] = {"camo","camo2","camo3"};
+		author = "AuburnAlumni";
+		class ItemInfo: VestItem
+		{
+			uniformModel = "x\cfp\addons\models\interceptor_rifleman.p3d";
+			containerClass = "Supply220";
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Interceptor\tex\Intergrey.paa","x\cfp\addons\vests\Interceptor\tex\webbing_grey.paa","\x\cfp\addons\vests\Interceptor\tex\us_soldier_equip_anp.paa"};
+			hiddenSelections[] = {"camo","camo2","camo3"};
+			mass = 80;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					hitpointName = "HitChest";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Diaphragm
+				{
+					hitpointName = "HitDiaphragm";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.3;
+				};
+			};
+
+		};
+	};
+
 	class CFP_ITV_Rifleman_Green: CUP_V_PMC_IOTV_Base
 	{
 	    picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\data\ui\icon_v_iotv_c1_ca.paa";
@@ -577,6 +670,53 @@ class CfgVehicleClasses
 			uniformModel = "x\cfp\addons\models\interceptor_gl.p3d";
 			containerClass = "Supply220";
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Interceptor\tex\Interanp.paa","x\cfp\addons\vests\Interceptor\tex\wg_anp.paa"};
+			hiddenSelections[] = {"camo","camo2"};
+			mass = 80;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					hitpointName = "HitChest";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Diaphragm
+				{
+					hitpointName = "HitDiaphragm";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 16;
+					passThrough = 0.3;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.3;
+				};
+			};
+
+		};
+	};
+
+	class CFP_ITV_Grenadier_Grey: CUP_V_PMC_IOTV_Base
+	{
+	    picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\data\ui\icon_v_iotv_c1_ca.paa";
+		scope = 2;
+		displayName = "Interceptor (Grey)";
+		// picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\data\ui\icon_v_iotv_c1_ca.paa";
+		model = "x\cfp\addons\models\interceptor_gl.p3d";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Interceptor\tex\Intergrey.paa","x\cfp\addons\vests\Interceptor\tex\wg_grey.paa"};
+		hiddenSelections[] = {"camo","camo2"};
+		author = "AuburnAlumni";
+		class ItemInfo: VestItem
+		{
+			uniformModel = "x\cfp\addons\models\interceptor_gl.p3d";
+			containerClass = "Supply220";
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Interceptor\tex\Intergrey.paa","x\cfp\addons\vests\Interceptor\tex\wg_anp.paa"};
 			hiddenSelections[] = {"camo","camo2"};
 			mass = 80;
 			class HitpointsProtectionInfo

@@ -390,6 +390,114 @@ class CfgVehicleClasses
 		};
 	};
 
+	class CFP_PASGTHelmet_TPat1: ItemCore
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_PASGTHelmet_Woodland1.paa";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "PASGT Helmet (TPat 1)";
+		// picture = "\x\cfp\addons\headgear\PASGTHelmet\ui\Tan1.jpg";
+		model = "\x\cfp\addons\models\PASGTHelmet1";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\TPat.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "AuburnAlumni";
+
+
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 60;
+			uniformmodel = "\x\cfp\addons\models\PASGTHelmet1";
+			modelSides[] = {3,1};
+			armor = 10;
+			passThrough = 0.30;
+			HITPOINTS_HEAD(10,0.30)
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\TPat.paa"};
+			hiddenSelections[] = {"Camo"};
+		};
+	};
+
+	class CFP_PASGTHelmet_TPat2: ItemCore
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_PASGTHelmet_Woodland2.paa";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "PASGT Helmet (TPat 2)";
+		// picture = "\x\cfp\addons\headgear\PASGTHelmet\ui\Tan1.jpg";
+		model = "\x\cfp\addons\models\PASGTHelmet1";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\TPat.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "AuburnAlumni";
+
+
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 60;
+			uniformmodel = "\x\cfp\addons\models\PASGTHelmet2";
+			modelSides[] = {3,1};
+			armor = 10;
+			passThrough = 0.30;
+			HITPOINTS_HEAD(10,0.30)
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\TPat.paa"};
+			hiddenSelections[] = {"Camo"};
+		};
+	};
+
+	class CFP_PASGTHelmet_Tiger1: ItemCore
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_PASGTHelmet_Woodland1.paa";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "PASGT Helmet (Tiger 1)";
+		// picture = "\x\cfp\addons\headgear\PASGTHelmet\ui\Tan1.jpg";
+		model = "\x\cfp\addons\models\PASGTHelmet1";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\Tiger.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "AuburnAlumni";
+
+
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 60;
+			uniformmodel = "\x\cfp\addons\models\PASGTHelmet1";
+			modelSides[] = {3,1};
+			armor = 10;
+			passThrough = 0.30;
+			HITPOINTS_HEAD(10,0.30)
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\Tiger.paa"};
+			hiddenSelections[] = {"Camo"};
+		};
+	};
+
+	class CFP_PASGTHelmet_Tiger2: ItemCore
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_PASGTHelmet_Woodland2.paa";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "PASGT Helmet (Tiger 2)";
+		// picture = "\x\cfp\addons\headgear\PASGTHelmet\ui\Tan1.jpg";
+		model = "\x\cfp\addons\models\PASGTHelmet1";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\Tiger.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "AuburnAlumni";
+
+
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 60;
+			uniformmodel = "\x\cfp\addons\models\PASGTHelmet2";
+			modelSides[] = {3,1};
+			armor = 10;
+			passThrough = 0.30;
+			HITPOINTS_HEAD(10,0.30)
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\Tiger.paa"};
+			hiddenSelections[] = {"Camo"};
+		};
+	};
+
 	class CFP_PASGTHelmet_Marpat1: ItemCore
     {
         picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_PASGTHelmet_Marpat1.paa";

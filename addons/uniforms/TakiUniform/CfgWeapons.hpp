@@ -117,6 +117,91 @@
 		};
 	};
 
+	class CFP_BDU_UPDFM81: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";
+		scope=2;
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+		displayName = "BDU (UPDF M81)";
+		author = "AuburnAlumni";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+			uniformClass = "CFP_BDU_UPDFM81";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
+	class CFP_BDU_TPat: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";
+		scope=2;
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+		displayName = "BDU (TPat)";
+		author = "AuburnAlumni";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+			uniformClass = "CFP_BDU_TPat";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
+	class CFP_BDU_IRAN: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";
+		scope=2;
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+		displayName = "BDU (DPM Iran)";
+		author = "AuburnAlumni";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+			uniformClass = "CFP_BDU_Iran";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
+	class CFP_BDU_EDRL: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";
+		scope=2;
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+		displayName = "BDU (EDRL)";
+		author = "AuburnAlumni";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+			uniformClass = "CFP_BDU_EDRL";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
+	class CFP_BDU_Tiger: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";
+		scope=2;
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+		displayName = "BDU (Tiger)";
+		author = "AuburnAlumni";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+			uniformClass = "CFP_BDU_Tiger";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
 	class CFP_BDU_ChocChip: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";
