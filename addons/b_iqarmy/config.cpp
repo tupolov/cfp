@@ -3,7 +3,6 @@
 #include "CfgFactionClasses.hpp"
 #include "CfgUnitInsignias.hpp"
 #include "CfgGroups.hpp"
-#include "CfgWeapons.hpp"
 #include "CfgVehicles.hpp"
 
 

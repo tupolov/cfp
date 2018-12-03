@@ -1,29 +1,11 @@
 class CfgWeapons
 {
 
-	class UniformItem;
-	class U_I_CombatUniform;
 	class H_Shemag_tan;
 	class H_Bandanna_gry;
 	class H_Bandmask_blk;
 	class G_Balaclava_blk;
 
-	class CFP_U_I_IS_uniform: U_I_CombatUniform
-	{
-		scope = 2;
-		displayName = "Islamic State Uniform";
-		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		picture = "\x\cfp\addons\uniforms\fielduniform\is\ui\icon_is_combatuniform_tan.paa";
-		hiddenSelections[] = {"Camo","insignia"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\FieldUniform\IS\IS_pixelated_desert.paa"};
-		class ItemInfo: UniformItem
-		{
-			uniformModel = "-";
-			uniformClass = "cfp_i_is_uniform";
-			containerClass = "Supply50";
-			mass = 50;
-		};
-	};
 
 	class IS_shemag_black: H_Shemag_tan
 	{

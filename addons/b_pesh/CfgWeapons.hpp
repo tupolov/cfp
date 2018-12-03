@@ -60,24 +60,4 @@ class CfgWeapons
 			};
 		};
 	};
-
-
-	class UniformItem;
-	class U_I_CombatUniform;
-	class PESH_uniform: U_I_CombatUniform
-	{
-		scope = 2;
-		displayName = "Peshmerga Uniform (Woodland)";
-		model = "\A3\Characters_F\Common\Suitpacks\suitpack_blufor_diver";
-		picture = "\x\cfp\addons\b_pesh\data\icon_saa_uniformwoodland.paa";
-		hiddenSelections[] = {"Camo","insignia"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\b_pesh\data\Peshmerga_woodland_1.paa"};
-		class ItemInfo: UniformItem
-		{
-			uniformModel = "-";
-			uniformClass = "cfp_b_pesh_rifleman";
-			containerClass = "Supply50";
-			mass = 50;
-		};
-	};
 };

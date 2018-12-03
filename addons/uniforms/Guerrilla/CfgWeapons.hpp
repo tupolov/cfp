@@ -170,6 +170,25 @@
 		};
 	};
 
+	class CFP_GUER_Khk_Wdl: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Guerilla Uniform (Sudan Woodland Pants)";
+		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+		author = "AuburnAlumni";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_GUER_Khk_Wdl";
+			containerClass="Supply60";
+			mass=80;
+
+		};
+	};
+
 	class CFP_GUER_M81Tee: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black.paa";
@@ -278,6 +297,25 @@
 		{
 			uniformModel = "-";
 			uniformClass = "CFP_Bandit_Africa";
+			containerClass="Supply60";
+			mass=30;
+
+		};
+	};
+
+	class CFP_Bandit_ChocChip: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Bandit Clothing (Choc Chip Pants)";
+		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+		author = "AuburnAlumni";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_Bandit_ChocChip";
 			containerClass="Supply60";
 			mass=30;
 

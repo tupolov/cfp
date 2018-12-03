@@ -128,6 +128,7 @@ class CfgVehicles {
         headgearList[] = {
             "", 0.5,
             "PESH_Beret", 0.2,
+            "PESH_Beret_CTG", 0.2,
             "CFP_PatrolCap_M81", 0.4,
             "CFP_Basic_Helmet_Black", 0.1,
             "H_Cap_oli", 0.25,
@@ -971,7 +972,6 @@ class CfgVehicles {
             item_xx(CUP_B_AGS30_Tripod_Bag,10);
             item_xx(CUP_B_Metis_Tripod_Bag,10);
             item_xx(CUP_B_SPG9_Tripod_Bag,10);
-            item_xx(PESH_uniform,10);
         };
     };
 };
