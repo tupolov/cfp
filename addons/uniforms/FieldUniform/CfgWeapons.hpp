@@ -75,6 +75,25 @@
 		};
 	};
 
+	class CFP_FieldUniform_police_sudan_SS: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black_SS.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Field Uniform SS (Sudan Police)";
+		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_FieldUniform_police_sudan_SS";
+			containerClass="Supply60";
+			mass=80;
+
+		};
+	};
+
 	class CFP_FieldUniform_tanblack_SS: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black_SS.paa";

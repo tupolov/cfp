@@ -554,7 +554,7 @@ class CfgVehicles {
 
         identityTypes[] = {"Head_African","LanguageGRE_F"};
 
-        uniformClass = "CFP_Uniform_SPLA_18";
+        uniformClass = "CFP_FieldUniform_police_sudan_SS";
 
         linkedItems[] = {"CFP_AK_VEST_Black","SP_Beret2_Black","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CFP_AK_VEST_Black","SP_Beret2_Black","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -565,7 +565,7 @@ class CfgVehicles {
         magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_Uniform_SPLA_18",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_Black",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{},"SP_Beret2_Black","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_FieldUniform_police_sudan_SS",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_Black",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{},"SP_Beret2_Black","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -610,7 +610,7 @@ class CfgVehicles {
 
         identityTypes[] = {"Head_African","LanguageGRE_F"};
 
-        uniformClass = "CFP_Uniform_SPLA_19";
+        uniformClass = "CFP_FieldUniform_police_sudan_SS";
 
         linkedItems[] = {"CFP_Alice_Vest2_Black","SP_PatrolCap_Black","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CFP_Alice_Vest2_Black","SP_PatrolCap_Black","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -621,7 +621,7 @@ class CfgVehicles {
         magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_Uniform_SPLA_19",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_Alice_Vest2_Black",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{},"SP_PatrolCap_Black","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_FieldUniform_police_sudan_SS",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_Alice_Vest2_Black",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{},"SP_PatrolCap_Black","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {

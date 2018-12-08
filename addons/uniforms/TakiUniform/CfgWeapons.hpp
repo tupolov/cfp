@@ -100,6 +100,23 @@
 		};
 	};
 
+	class CFP_BDU_M81Mali: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";
+		scope=2;
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+		displayName = "BDU (M81 Mali)";
+		author = "AuburnAlumni";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+			uniformClass = "CFP_BDU_M81Mali";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
 	class CFP_BDU_M81: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";
@@ -112,6 +129,23 @@
 		{
 			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 			uniformClass = "CFP_BDU_M81";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
+	class CFP_BDU_UCP: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";
+		scope=2;
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+		displayName = "BDU (UCP)";
+		author = "AuburnAlumni";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+			uniformClass = "CFP_BDU_UCP";
 			containerClass="Supply60";
 			mass=20;
 		};
