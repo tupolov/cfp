@@ -10,8 +10,7 @@ class CfgVehicles {
 	#include "WorkUniform\CfgVehicles.hpp"
 	#include "TacticalUniform\CfgVehicles.hpp"
 	#include "Underwear\CfgVehicles.hpp"
-	#include "VDVUniform\CfgVehicles.hpp"
 	#include "75Uniform\CfgVehicles.hpp"
 	#include "Guerrilla\CfgVehicles.hpp"
-	#include "TakiUniform\CfgVehicles.hpp"
+	#include "BDU\CfgVehicles.hpp"
 };
