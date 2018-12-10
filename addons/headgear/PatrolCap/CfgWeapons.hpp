@@ -689,3 +689,55 @@ class CfgVehicleClasses
 			hiddenSelections[] = {"Camo"};
 		};
 	};
+
+	class CFP_PatrolCap_MaliWdl: ItemCore
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_PatrolCap_MarpatUganda.paa";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "Patrol Cap (Mali Woodland)";
+		// picture = "\x\cfp\addons\headgear\PatrolCap\ui\GreenOlive.jpg";
+		model = "\x\cfp\addons\models\PatrolCap";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\WdlMali.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "AuburnAlumni";
+
+
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 15;
+			uniformmodel = "\x\cfp\addons\models\PatrolCap";
+			modelSides[] = {3,1};
+			armor = 0;
+			passThrough = 0.30;
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\WdlMali.paa"};
+			hiddenSelections[] = {"Camo"};
+		};
+	};
+
+	class CFP_PatrolCap_CEU: ItemCore
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_PatrolCap_MarpatUganda.paa";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "Patrol Cap (French CEU)";
+		// picture = "\x\cfp\addons\headgear\PatrolCap\ui\GreenOlive.jpg";
+		model = "\x\cfp\addons\models\PatrolCap";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\CEU.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "AuburnAlumni";
+
+
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 15;
+			uniformmodel = "\x\cfp\addons\models\PatrolCap";
+			modelSides[] = {3,1};
+			armor = 0;
+			passThrough = 0.30;
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\CEU.paa"};
+			hiddenSelections[] = {"Camo"};
+		};
+	};

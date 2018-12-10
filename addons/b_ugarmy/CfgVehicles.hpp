@@ -843,6 +843,7 @@ class CfgVehicles {
         editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Explosive_Specialist_01.JPG;
 
         displayName = "Explosive Specialist";
+        engineer = 1;
         canDeactivateMines = 1;
         linkedItems[] = {"CUP_V_B_PASGT_OD","CFP_Basic_Helmet_M81","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CUP_V_B_PASGT_OD","CFP_Basic_Helmet_M81","ItemMap","ItemRadio","ItemCompass","ItemWatch"};

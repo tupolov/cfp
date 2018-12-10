@@ -1437,6 +1437,13 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_iran.paa","\x\cfp\addons\vehicles\Ural\ural_plachta_iran.paa"};
                 factions[] = {};
             };
+            class Desert
+            {
+                displayName = "Desert";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_des.paa","\x\cfp\addons\vehicles\Ural\ural_plachta_iran.paa"};
+                factions[] = {};
+            };
         };
     };
 
@@ -1451,6 +1458,13 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_iran.paa","\x\cfp\addons\vehicles\Ural\ural_open_iran.paa"};
                 factions[] = {};
             };
+            class Desert
+            {
+                displayName = "Desert";
+                author = "AccuracyThruVolume";
+                textures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_des.paa","\x\cfp\addons\vehicles\Ural\ural_open_iran.paa"};
+                factions[] = {};
+            };
         };
     };
 
@@ -1463,6 +1477,13 @@ class CfgVehicles
                 displayName = "Iran";
                 author = "AuburnAlumni";
                 textures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_iran.paa","\x\cfp\addons\vehicles\Ural\ural_open_iran.paa"};
+                factions[] = {};
+            };
+            class Desert
+            {
+                displayName = "Desert";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_des.paa","\x\cfp\addons\vehicles\Ural\ural_open_iran.paa"};
                 factions[] = {};
             };
         };
@@ -1480,6 +1501,13 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_iran.paa","\x\cfp\addons\vehicles\Ural\ural_open_iran.paa","\x\cfp\addons\vehicles\Ural\ural_fuel_iran.paa"};
                 factions[] = {};
             };
+            class Desert
+            {
+                displayName = "Desert";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_des.paa","\x\cfp\addons\vehicles\Ural\ural_open_iran.paa","\x\cfp\addons\vehicles\Ural\ural_fuel_iran.paa"};
+                factions[] = {};
+            };
         };
     };
 
@@ -1494,6 +1522,13 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_iran.paa","\x\cfp\addons\vehicles\Ural\ural_plachta_iran.paa"};
                 factions[] = {};
             };
+            class Desert
+            {
+                displayName = "Desert";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_des.paa","\x\cfp\addons\vehicles\Ural\ural_plachta_iran.paa"};
+                factions[] = {};
+            };
         };
     };
 
@@ -1506,6 +1541,13 @@ class CfgVehicles
                 displayName = "Iran";
                 author = "AuburnAlumni";
                 textures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_iran.paa","\x\cfp\addons\vehicles\Ural\ural_plachta_iran.paa"};
+                factions[] = {};
+            };
+            class Desert
+            {
+                displayName = "Desert";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_des.paa","\x\cfp\addons\vehicles\Ural\ural_plachta_iran.paa"};
                 factions[] = {};
             };
         };
@@ -1526,8 +1568,8 @@ class CfgVehicles
                     "\CUP\WheeledVehicles\CUP_WheeledVehicles_RG31\data\id\id_1_ca.paa",
                     "",
                     "",
-                    "\x\cfp\addons\vehicles\RG31\exa_rg31_body_nigeria_co.paa",
-                    "\x\cfp\addons\vehicles\RG31\exa_rg31_body2_nigeria_ca.paa",
+                    "\x\cfp\addons\vehicles\RG31\exa_rg31_body1_des.paa",
+                    "\x\cfp\addons\vehicles\RG31\exa_rg31_body2_des.paa",
                     "cup\wheeledvehicles\cup_wheeledvehicles_rg31\data\exa_rg31_interior2_co.paa"
                 };
                 factions[] = {};
@@ -1546,6 +1588,23 @@ class CfgVehicles
                     "\x\cfp\addons\vehicles\RG31\exa_rg31_body_od_olive_co.paa",
                     "\x\cfp\addons\vehicles\RG31\exa_rg31_body2_od_olive_ca.paa",
                     "cup\wheeledvehicles\cup_wheeledvehicles_rg31\data\exa_rg31_interior2_od_co.paa"
+                };
+                factions[] = {};
+            };
+            class Desert
+            {
+                displayName = "Desert";
+                author = "AuburnAlumni";
+                textures[] =
+                {
+                    "\x\cfp\addons\vehicles\RG31\id\afr_union.paa",
+                    "\CUP\WheeledVehicles\CUP_WheeledVehicles_RG31\data\id\id_a_ca.paa",
+                    "\CUP\WheeledVehicles\CUP_WheeledVehicles_RG31\data\id\id_1_ca.paa",
+                    "",
+                    "",
+                    "\x\cfp\addons\vehicles\RG31\exa_rg31_body1_des.paa",
+                    "\x\cfp\addons\vehicles\RG31\exa_rg31_body2_des.paa",
+                    "cup\wheeledvehicles\cup_wheeledvehicles_rg31\data\exa_rg31_interior2_co.paa"
                 };
                 factions[] = {};
             };
@@ -1634,9 +1693,43 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\BTR60\nkoreabody1.paa","\x\cfp\addons\vehicles\BTR60\nkoreabody2.paa"};
                 factions[] = {};
             };
+            class Desert
+            {
+                displayName = "Desert";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\BTR60\desertbody1.paa","\x\cfp\addons\vehicles\BTR60\desertbody2.paa"};
+                factions[] = {};
+            };
         };
     };
 
+    class CUP_BTR40_MG_Base: Wheeled_APC_F
+    {
+        class textureSources
+        {
+            class NorthKorea
+            {
+                displayName = "North Korea";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\BTR40\btr40ext_nk"};
+                factions[] = {};
+            };
+            class Tan
+            {
+                displayName = "Tan";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\BTR40\btr40ext_tan"};
+                factions[] = {};
+            };
+            class Desert
+            {
+                displayName = "Desert";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\BTR40\btr40ext_des"};
+                factions[] = {};
+            };
+        };
+    };
     class Helicopter_Base_H;
     class CUP_Mi24_Base: Helicopter_Base_H
     {
@@ -1668,6 +1761,13 @@ class CfgVehicles
                 displayname = "Sudanese Army Camo";
                 author = "AuburnAlumni";
                 textures[] = {"\x\cfp\addons\vehicles\Mi24\mi24_sudan.paa","\x\cfp\addons\vehicles\Mi24\mi24_sudan2.paa"};
+                factions[] = {};
+            };
+            class Mali
+            {
+                displayname = "Mali";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Mi24\mi24_01_mali.paa","\x\cfp\addons\vehicles\Mi24\mi24_02_mali.paa"};
                 factions[] = {};
             };
         };
@@ -1747,6 +1847,13 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Orca\Orca_KDF.paa"};
                 factions[] = {};
             };
+            class Mali
+            {
+                displayname = "Mali";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Orca\Orca_Mali.paa"};
+                factions[] = {};
+            };
         };
     };
 
@@ -1759,6 +1866,13 @@ class CfgVehicles
                 displayname = "KDF Camo";
                 author = "AuburnAlumni";
                 textures[] = {"\x\cfp\addons\vehicles\Puma\Puma_KDF.paa"};
+                factions[] = {};
+            };
+            class Mali
+            {
+                displayname = "Mali";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Puma\Puma_Mali.paa"};
                 factions[] = {};
             };
         };
@@ -2035,6 +2149,13 @@ class CfgVehicles
                 displayname = "Sudan";
                 author = "AuburnAlumni";
                 textures[] = {"\x\cfp\addons\vehicles\T55\t55_body_sudan.paa","\x\cfp\addons\vehicles\T55\t55_tower_sudan.paa"};
+                factions[] = {};
+            };
+            class Desert
+            {
+                displayname = "Desert";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\T55\t55_body_desert.paa","\x\cfp\addons\vehicles\T55\t55_tower_desert.paa"};
                 factions[] = {};
             };
         };
@@ -2328,6 +2449,13 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\BRDM\brdm2_01_nk.paa","\x\cfp\addons\vehicles\BRDM\brdm2_02_co.paa"};
                 factions[] = {};
             };
+            class Desert
+            {
+                displayname = "Desert";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\BRDM\brdm2_01_des.paa","\x\cfp\addons\vehicles\BRDM\brdm2_02_co.paa"};
+                factions[] = {};
+            };
         };
     };
 
@@ -2340,6 +2468,13 @@ class CfgVehicles
                 displayname = "North Korea";
                 author = "CFP";
                 textures[] = {"\x\cfp\addons\vehicles\T34\t34_body01_nk.paa","\x\cfp\addons\vehicles\T34\t34_body02_nk.paa","\x\cfp\addons\vehicles\T34\t34_turret_nk.paa","\x\cfp\addons\vehicles\T34\t34_wheels_nk_co.paa","\x\cfp\addons\vehicles\T34\t34_body03_co.paa"};
+                factions[] = {};
+            };
+            class Desert
+            {
+                displayname = "Desert";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\T34\t34_body01_desert.paa","\x\cfp\addons\vehicles\T34\t34_body02_desert.paa","\x\cfp\addons\vehicles\T34\t34_turret_desert.paa","\x\cfp\addons\vehicles\T34\t34_wheels_desert.paa","\x\cfp\addons\vehicles\T34\t34_body03_co.paa"};
                 factions[] = {};
             };
         };

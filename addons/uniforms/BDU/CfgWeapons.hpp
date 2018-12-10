@@ -32,6 +32,23 @@
 		};
 	};
 
+	class CFP_BDU_Wdl_Mali: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";
+		scope=2;
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+		displayName = "BDU (Woodland Mali)";
+		author = "AuburnAlumni";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+			uniformClass = "CFP_BDU_Wdl_Mali";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
 	class CFP_BDU_M81: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";
@@ -299,6 +316,23 @@
 		{
 			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 			uniformClass = "CFP_BDU_Grey";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
+	class CFP_BDU_CEU: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";
+		scope=2;
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+		displayName = "BDU (French CEU)";
+		author = "AuburnAlumni";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+			uniformClass = "CFP_BDU_CEU";
 			containerClass="Supply60";
 			mass=20;
 		};
