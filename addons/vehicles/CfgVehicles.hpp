@@ -1770,6 +1770,13 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Mi24\mi24_01_mali.paa","\x\cfp\addons\vehicles\Mi24\mi24_02_mali.paa"};
                 factions[] = {};
             };
+            class Chad
+            {
+                displayname = "Chad";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Mi24\mi24_01_chad.paa","\x\cfp\addons\vehicles\Mi24\mi24_02_chad.paa"};
+                factions[] = {};
+            };
         };
     };
 
@@ -1817,6 +1824,13 @@ class CfgVehicles
                 displayname = "North Korea";
                 author = "AuburnAlumni";
                 textures[] = {"\x\cfp\addons\vehicles\Mi8\mi17_nk.paa","\x\cfp\addons\vehicles\Mi8\mi17_det_nk.paa"};
+                factions[] = {};
+            };
+            class Chad
+            {
+                displayname = "Chad";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Mi8\mi17_chad.paa","\x\cfp\addons\vehicles\Mi8\mi8_det_g_iran.paa"};
                 factions[] = {};
             };
         };
@@ -2215,6 +2229,13 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\BMP\trup_sudan.paa","\x\cfp\addons\vehicles\BMP\veza0_sudan.paa"};
                 factions[] = {};
             };
+            class Tan
+            {
+                displayname = "Tan";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\BMP\bmp_tan_hull.paa","\x\cfp\addons\vehicles\BMP\bmp_tan_trt.paa"};
+                factions[] = {};
+            };
         };
    };
 
@@ -2264,6 +2285,13 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\BMP\trup_sudan.paa","\x\cfp\addons\vehicles\BMP\veza0_sudan.paa"};
                 factions[] = {};
             };
+            class Tan
+            {
+                displayname = "Tan";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\BMP\bmp_tan_hull.paa","\x\cfp\addons\vehicles\BMP\bmp_tan_trt.paa"};
+                factions[] = {};
+            };
         };
    };
 
@@ -2291,6 +2319,13 @@ class CfgVehicles
                 displayname = "North Korea";
                 author = "CFP";
                 textures[] = {"\x\cfp\addons\vehicles\SU25\su25_body1_nk_co.paa","\x\cfp\addons\vehicles\SU25\su25_body2_nk_co.paa"};
+                factions[] = {};
+            };
+            class Chad
+            {
+                displayname = "Chad";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\SU25\su25_body1_chad_co.paa","\x\cfp\addons\vehicles\SU25\su25_body2_chad_co.paa"};
                 factions[] = {};
             };
         };

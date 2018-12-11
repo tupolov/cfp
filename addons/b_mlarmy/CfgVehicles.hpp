@@ -541,7 +541,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Crew";
         side = 1;
-	   genericNames = "Afromen";
+	    genericNames = "Afromen";
         faction = "CFP_B_MLARMY";
 
         identityTypes[] = {"Head_African","LanguageFRE_F"};
@@ -579,6 +579,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Helicopter Pilot";
         side = 1;
+        genericNames = "Afromen";
         faction = "CFP_B_MLARMY";
 
         identityTypes[] = {"Head_African","LanguageFRE_F"};
@@ -617,6 +618,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "SF Rifleman";
         side = 1;
+        genericNames = "Afromen";
         faction = "CFP_B_MLARMY";
 
         identityTypes[] = {"Head_African","LanguageFRE_F"};
@@ -755,6 +757,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Officer";
         side = 1;
+        genericNames = "Afromen";
         faction = "CFP_B_MLARMY";
 
         identityTypes[] = {"Head_African","LanguageFRE_F"};
@@ -1579,7 +1582,7 @@ class CfgVehicles {
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "Iran";
+        ALiVE_orbatCreator_texture = "Desert";
 
     };
 

@@ -37,7 +37,16 @@ class CfgPatches {
             "CFP_B_CAF_Mi_24D_01",
             "CFP_B_CAF_UAZ_DShKM_01",
             "CFP_B_CAF_UAZ_SPG_01",
-            "CFP_B_CAF_UAZ_Open_01"
+            "CFP_B_CAF_UAZ_Open_01",
+            "CFP_B_CAF_Technical_MG_01",
+            "CFP_B_CAF_Technical_AT_01",
+            "CFP_B_CAF_Technical_Unarmed_01",
+            "CFP_B_CAF_Truck_01",
+            "CFP_B_CAF_Ural_01",
+            "CFP_B_CAF_Ural_Open_01",
+            "CFP_B_CAF_Ural_Refuel_01",
+            "CFP_B_CAF_Ural_Repair_01",
+            "CFP_B_CAF_Ural_Ammo_01"
         };
         weapons[] = {};
         requiredAddons[] = {
