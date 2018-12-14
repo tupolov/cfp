@@ -97,6 +97,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman";
+        genericNames = "Afromen";
         side = 0;
         faction = "CFP_O_CFRebels";
 
@@ -477,6 +478,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Ex-FACA Rifleman";
+        genericNames = "Afromen";
         side = 0;
         faction = "CFP_O_CFRebels";
 

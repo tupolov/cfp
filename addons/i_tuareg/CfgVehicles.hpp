@@ -152,6 +152,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman";
+        genericNames = "Afromen";
         side = 2;
         faction = "CFP_I_TUAREG";
 
@@ -266,6 +267,9 @@ class CfgVehicles {
     class CFP_I_TUAREG_Medic_01 : CFP_I_TUAREG_Rifleman_01 {
 
         displayName = "Medic";
+        attendant = 1;
+        icon = "iconManMedic";
+        picture = "pictureHeal";
 
         backpack = "B_Kitbag_rgr";
         weapons[] = {"CUP_arifle_AK47","Throw","Put"};
@@ -281,6 +285,8 @@ class CfgVehicles {
     class CFP_I_TUAREG_Explosive_Specialist_01 : CFP_I_TUAREG_Rifleman_01 {
 
         displayName = "Explosive Specialist";
+        engineer = 1;
+        canDeactivateMines = 1;
 
         backpack = "B_Kitbag_rgr";
         weapons[] = {"CUP_arifle_AK47","Throw","Put"};
@@ -754,13 +760,14 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\Ural\ural_kabina_des.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\Ural\ural_plachta_iran.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "Desert";
 
     };
 
@@ -778,13 +785,14 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\Ural\ural_kabina_des.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\Ural\ural_plachta_iran.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "Desert";
 
     };
 
@@ -802,13 +810,14 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\Ural\ural_kabina_des.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\Ural\ural_open_iran.paa'];_unit setObjectTextureGlobal [2,'\x\cfp\addons\vehicles\Ural\ural_fuel_iran.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "Desert";
 
     };
 
@@ -831,19 +840,22 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\Ural\ural_kabina_des.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\Ural\ural_open_iran.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "Desert";
 
     };
 
     class CFP_I_TUAREG_Repair_Specialist_01 : CFP_I_TUAREG_Rifleman_01 {
 
         displayName = "Repair Specialist";
+        engineer = 1;
+        canDeactivateMines = 1;
 
         backpack = "B_Kitbag_cbr";
         weapons[] = {"CUP_arifle_AK47","Throw","Put"};

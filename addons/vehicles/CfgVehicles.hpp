@@ -1587,7 +1587,7 @@ class CfgVehicles
                     "",
                     "\x\cfp\addons\vehicles\RG31\exa_rg31_body_od_olive_co.paa",
                     "\x\cfp\addons\vehicles\RG31\exa_rg31_body2_od_olive_ca.paa",
-                    "cup\wheeledvehicles\cup_wheeledvehicles_rg31\data\exa_rg31_interior2_od_co.paa"
+                    "\x\cfp\addons\vehicles\RG31\exa_rg31_interior2_od_olive_co.paa"
                 };
                 factions[] = {};
             };
@@ -1763,6 +1763,13 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Mi24\mi24_sudan.paa","\x\cfp\addons\vehicles\Mi24\mi24_sudan2.paa"};
                 factions[] = {};
             };
+            class SouthSudan
+            {
+                displayname = "South Sudan";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Mi24\mi24_ssudan.paa","\x\cfp\addons\vehicles\Mi24\mi24_ssudan2.paa"};
+                factions[] = {};
+            };
             class Mali
             {
                 displayname = "Mali";
@@ -1817,6 +1824,13 @@ class CfgVehicles
                 displayname = "Sudan";
                 author = "AuburnAlumni";
                 textures[] = {"\x\cfp\addons\vehicles\Mi8\mi17_sudan.paa","\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\mi17_det_IND_CO.paa"};
+                factions[] = {};
+            };
+            class SouthSudan
+            {
+                displayname = "South Sudan";
+                author = "AuburnAlumni";
+                textures[] = {"\x\cfp\addons\vehicles\Mi8\mi17_ssudan.paa","\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\mi17_det_IND_CO.paa"};
                 factions[] = {};
             };
             class NorthKorea

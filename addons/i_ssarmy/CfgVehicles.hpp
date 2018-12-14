@@ -260,6 +260,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman";
+        genericNames = "Afromen";
         side = 2;
         faction = "CFP_I_SSArmy";
 
@@ -424,6 +425,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Crewman";
+        genericNames = "Afromen";
         side = 2;
         faction = "CFP_I_SSArmy";
 
@@ -510,6 +512,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Officer";
+        genericNames = "Afromen";
         side = 2;
         faction = "CFP_I_SSArmy";
 
@@ -549,6 +552,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Policeman";
+        genericNames = "Afromen";
         side = 2;
         faction = "CFP_I_SSArmy";
 
@@ -605,6 +609,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Policeman";
+        genericNames = "Afromen";
         side = 2;
         faction = "CFP_I_SSArmy";
 
@@ -644,6 +649,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Commando Team Leader";
+        genericNames = "Afromen";
         side = 2;
         faction = "CFP_I_SSArmy";
 
@@ -873,6 +879,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Pilot";
+        genericNames = "Afromen";
         side = 2;
         faction = "CFP_I_SSArmy";
 
@@ -1670,28 +1677,13 @@ class CfgVehicles {
         side = 2;
         faction = "CFP_I_SSArmy";
         crew = "CFP_I_SSArmy_Soldier_22";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Mi8\mi17_ssudan.paa","\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\mi17_det_IND_CO.paa"};
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_I_SSArmy_Soldier_01"; };
             class BackTurret : BackTurret { gunnerType = "CFP_I_SSArmy_Soldier_01"; };
             class CopilotTurret : CopilotTurret { gunnerType = "CFP_I_SSArmy_Soldier_22"; };
         };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\textures\mi8_sla2_1_co.paa'];_unit setObjectTextureGlobal [1,'\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\mi8_det_g_co.paa'];_unit setObjectTextureGlobal [2,'a3\data_f\clear_empty.paa'];_unit setObjectTextureGlobal [3,'CUP\AirVehicles\CUP_AirVehicles_Mi8\data\mi8_decals_ca.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "SLA_W";
-
     };
 
     class CFP_I_SSArmy_Mi_24D_01 : CUP_I_Mi24_D_Dynamic_UN_OCimport_02 {
@@ -1702,26 +1694,12 @@ class CfgVehicles {
         side = 2;
         faction = "CFP_I_SSArmy";
         crew = "CFP_I_SSArmy_Soldier_22";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Mi24\mi24_ssudan.paa","\x\cfp\addons\vehicles\Mi24\mi24_ssudan2.paa"};
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_I_SSArmy_Soldier_22"; };
         };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'CUP\AirVehicles\CUP_AirVehicles_Mi24\Data\textures\sla_001_co.paa'];_unit setObjectTextureGlobal [1,'CUP\AirVehicles\CUP_AirVehicles_Mi24\Data\textures\sla_002_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "SLA";
-
     };
 
 };
+

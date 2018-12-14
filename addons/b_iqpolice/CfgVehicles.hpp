@@ -21,7 +21,7 @@ class CfgVehicles {
 
         identityTypes[] = {"Head_TK","LanguagePER_F","NoGlasses","G_IRAN_default"};
 
-        uniformClass = "IP_uniform_officer_b";
+        uniformClass = "CFP_FieldUniform_ipdigital";
 
         linkedItems[] = {"CFP_RAV_Black","CFP_BaseballCap_IP2","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CFP_RAV_Black","CFP_BaseballCap_IP2","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -32,7 +32,7 @@ class CfgVehicles {
         magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"IP_uniform_officer_b",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",1,30}}},{"CFP_RAV_Black",{{"CUP_30Rnd_762x39_AK47_M",6,30}}},{},"CFP_BaseballCap_IP2","CFP_Scarfshades_grey",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_FieldUniform_ipdigital",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",1,30}}},{"CFP_RAV_Black",{{"CUP_30Rnd_762x39_AK47_M",6,30}}},{},"CFP_BaseballCap_IP2","CFP_Scarfshades_grey",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
         randomGearProbability = 100;
 
@@ -257,7 +257,7 @@ class CfgVehicles {
         class TransportMagazines {
         };
         class TransportItems {
-            item_xx(IP_uniform_officer_b,15);
+            item_xx(CFP_FieldUniform_ipdigital,15);
             item_xx(IP_uniform_policeman_b,15);
         };
     };
@@ -297,7 +297,7 @@ class CfgVehicles {
             item_xx(ItemWatch,10);
             item_xx(ItemRadio,10);
             item_xx(V_TacVest_camo,10);
-            item_xx(IP_uniform_officer_b,10);
+            item_xx(CFP_FieldUniform_ipdigital,10);
             item_xx(IP_uniform_policeman_b,10);
         };
     };

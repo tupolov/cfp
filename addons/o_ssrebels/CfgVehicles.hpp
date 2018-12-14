@@ -183,6 +183,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Squad Leader";
+        genericNames = "Afromen";
         side = 0;
         faction = "CFP_O_SSREBELS";
 
@@ -593,6 +594,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Militiaman";
+        genericNames = "Afromen";
         side = 0;
         faction = "CFP_O_SSREBELS";
 
@@ -713,6 +715,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Officer";
+        genericNames = "Afromen";
         side = 0;
         faction = "CFP_O_SSREBELS";
 
