@@ -246,53 +246,6 @@ class CfgVehicleClasses
 		};
 	};
 
-	class CFP_LBT6094_Empty_OGA: V_PlateCarrier1_rgr
-    {
-        picture = "\x\cfp\addons\vsm_vests\data\ui\icon_CFP_LBT6094_operator_OGA.paa";
-		scope = 2;
-		author = "CFP";
-		displayName = "OGA LBT6094 (Empty)";
-		// picture = "\x\cfp\addons\vsm_vests\data\VSM_OGA.paa";
-		model = "\x\cfp\addons\models\LBT6094_Empty.p3d";
-		hiddenSelections[] = {"_vestBase"};
-		hiddenSelectionsTextures[] = {"x\cfp\addons\vsm_vests\data\VSM_lbt6094_OGA.paa"};
-		descriptionShort = "$STR_A3_SP_AL_IV";
-		class ItemInfo: VestItem
-		{
-			uniformModel = "\x\cfp\addons\models\LBT6094_Empty.p3d";
-			containerClass = "Supply200";
-			mass = 50;
-			passThrough = 1;
-			hiddenSelections[] = {"_vestBase"};
-			class HitpointsProtectionInfo
-			{
-				class Chest
-				{
-					HitpointName = "HitChest";
-					armor = 25;
-					PassThrough = 0.3;
-				};
-				class Diaphragm
-				{
-					HitpointName = "HitDiaphragm";
-					armor = 25;
-					PassThrough = 0.3;
-				};
-				class Abdomen
-				{
-					hitpointName = "HitAbdomen";
-					armor = 25;
-					passThrough = 0.3;
-				};
-				class Body
-				{
-					hitpointName = "HitBody";
-					passThrough = 0.3;
-				};
-			};
-		};
-	};
-
 	class CFP_RAV_Green: V_PlateCarrier1_rgr
     {
         picture = "\x\cfp\addons\vsm_vests\data\ui\icon_CFP_LBT6094_operator_OGA.paa";

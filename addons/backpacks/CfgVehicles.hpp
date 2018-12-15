@@ -91,39 +91,7 @@ class CfgVehicles
         hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Carryall\tortila_multicam.paa"};
         author = "AuburnAlumni";
     };
-    class SP_Camelbak_Black: B_Carryall_oucamo
-    {
-        picture = "\x\cfp\addons\backpacks\data\ui\icon_SP_Camelbak_Black.paa";
-        scope = 2;
-        maximumLoad = 50;
-        displayName = "Camelbak (Black)";
-        model = "\x\cfp\addons\backpacks\Camelbak.p3d";
-        // picture = "\x\cfp\addons\backpacks\data\Black.jpg";
-        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\data\Black.paa"};
-        author = "SP Craig";
-    };
-    class SP_Camelbak_Green: B_Carryall_oucamo
-    {
-        picture = "\x\cfp\addons\backpacks\data\ui\icon_SP_Camelbak_Green.paa";
-        scope = 2;
-        maximumLoad = 50;
-        displayName = "Camelbak (Green)";
-        model = "\x\cfp\addons\backpacks\Camelbak.p3d";
-        // picture = "\x\cfp\addons\backpacks\data\Green.jpg";
-        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\data\Green.paa"};
-        author = "SP Craig";
-    };
-    class SP_Camelbak_Tan: B_Carryall_oucamo
-    {
-        picture = "\x\cfp\addons\backpacks\data\ui\icon_SP_Camelbak_Tan.paa";
-        scope = 2;
-        maximumLoad = 50;
-        displayName = "Camelbak (Tan)";
-        model = "\x\cfp\addons\backpacks\Camelbak.p3d";
-        // picture = "\x\cfp\addons\backpacks\data\Tan.jpg";
-        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\data\Tan.paa"};
-        author = "SP Craig";
-    };
+
     class CUP_B_RPGPack_Base;
     class CFP_RPGPack_Black: CUP_B_RPGPack_Base
     {

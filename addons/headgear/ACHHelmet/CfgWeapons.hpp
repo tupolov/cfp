@@ -241,27 +241,4 @@ class CFP_ACHHelmet_ATacsAU: ItemCore
 	};
 };
 
-class CFP_ACHHelmet_IranDPM: ItemCore
-    {
-        picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_ACHHelmet_IranDPM.paa";
-	scope = 2;
-	weaponPoolAvailable = 1;
-	displayName = "ACH Helmet (Iran DPM)";
-	// picture = "\x\cfp\addons\headgear\ACHHelmet\ui\ATacsAU.jpg";
-	model = "\x\cfp\addons\models\ACHHelmet1";
-	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\ACHHelmet\IranDPM.paa"};
-	hiddenSelections[] = {"Camo"};
-	author = "SP Craig";
 
-	class ItemInfo: HeadgearItem
-	{
-		mass = 60;
-		uniformmodel = "\x\cfp\addons\models\ACHHelmet1";
-		modelSides[] = {3,1};
-		armor = 10;
-		passThrough = 0.30;
-		HITPOINTS_HEAD(10,0.30)
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\ACHHelmet\IranDPM.paa"};
-		hiddenSelections[] = {"Camo"};
-	};
-};
