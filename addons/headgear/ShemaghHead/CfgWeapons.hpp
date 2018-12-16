@@ -166,6 +166,32 @@ class CfgVehicleClasses
 		};
 	};
 
+	class CFP_Shemagh_Head_M81: ItemCore
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_Shemagh_Black.paa";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "Shemagh 2 (M81)";
+		// picture = "\x\cfp\addons\headgear\Shemagh\ui\Black.jpg";
+		model = "\x\cfp\addons\models\shemagh_head";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\ShemaghHead\shemagh_head_m81.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "CFP";
+
+
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 15;
+			uniformmodel = "\x\cfp\addons\models\shemagh_head";
+			modelSides[] = {3,1};
+			armor = 0;
+			passThrough = 0.30;
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\ShemaghHead\shemagh_head_m81.paa"};
+			hiddenSelections[] = {"Camo"};
+		};
+	};
+
 	class CFP_Shemagh_Full_Black: ItemCore
     {
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_Shemagh_Black.paa";
@@ -188,6 +214,32 @@ class CfgVehicleClasses
 			armor = 0;
 			passThrough = 0.30;
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\ShemaghHead\shemagh_head_black.paa","\x\cfp\addons\glasses\ShemaghNeck\shemagh_neck_black.paa"};
+			hiddenSelections[] = {"Camo"};
+		};
+	};
+
+	class CFP_Shemagh_Full_M81: ItemCore
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_Shemagh_Black.paa";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "Shemagh Full (M81)";
+		// picture = "\x\cfp\addons\headgear\Shemagh\ui\Black.jpg";
+		model = "\x\cfp\addons\models\shemagh_full";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\ShemaghHead\shemagh_head_m81.paa","\x\cfp\addons\glasses\ShemaghNeck\shemagh_neck_m81.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "CFP";
+
+
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 15;
+			uniformmodel = "\x\cfp\addons\models\shemagh_full";
+			modelSides[] = {3,1};
+			armor = 0;
+			passThrough = 0.30;
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\ShemaghHead\shemagh_head_m81.paa","\x\cfp\addons\glasses\ShemaghNeck\shemagh_neck_m81.paa"};
 			hiddenSelections[] = {"Camo"};
 		};
 	};

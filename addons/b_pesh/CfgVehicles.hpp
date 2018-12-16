@@ -287,6 +287,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Peshmerga Crewman";
+        engineer = 1;
         side = 1;
         faction = "CFP_B_PESH";
 

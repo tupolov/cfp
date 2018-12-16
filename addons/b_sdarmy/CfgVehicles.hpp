@@ -441,649 +441,7 @@ class CfgVehicles
             class CargoTurret_04;
         };
     };
-    class CUP_B_RPGPack_Khaki;
-    class CUP_B_AT_Backpack: CUP_B_RPGPack_Khaki
-    {
-        author="Archduke";
-        scope=1;
-        class TransportMagazines
-        {
-            class _xx_CUP_PG7VL_M
-            {
-                magazine="CUP_PG7VL_M";
-                count=2;
-            };
-        };
-    };
-    class CUP_B_AA_Backpack: CUP_B_RPGPack_Khaki
-    {
-        author="Archduke";
-        scope=1;
-        class TransportMagazines
-        {
-            class _xx_CUP_Strela_2_M
-            {
-                magazine="CUP_Strela_2_M";
-                count=2;
-            };
-        };
-    };
-    class B_TacticalPack_oli;
-    class CUP_B_MG_Ammo: B_TacticalPack_oli
-    {
-        author="Archduke";
-        scope=1;
-        class TransportMagazines
-        {
-            class _xx_CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M
-            {
-                magazine="CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M";
-                count=2;
-            };
-        };
-    };
-    class CUP_B_AlicePack_Khaki;
-    class CUP_B_Medic: CUP_B_AlicePack_Khaki
-    {
-        scope=1;
-        displayName="ALICE Pack (Medic)";
-        class TransportItems
-        {
-            class _xx_Medikit
-            {
-                name="Medikit";
-                count=1;
-            };
-            class _xx_FirstAidKit
-            {
-                name="FirstAidKit";
-                count=10;
-            };
-        };
-    };
-    class CUP_B_AlicePack_Egineer: CUP_B_AlicePack_Khaki
-    {
-        author="Archduke";
-        scope=1;
-        class TransportMagazines
-        {
-            class _xx_APERSMine_Range_Mag
-            {
-                magazine="APERSMine_Range_Mag";
-                count=3;
-            };
-            class _xx_CUP_PipeBomb_M
-            {
-                magazine="CUP_PipeBomb_M";
-                count=3;
-            };
-        };
-        class TransportItems
-        {
-            class _xx_ToolKit
-            {
-                name="ToolKit";
-                count=1;
-            };
-            class _xx_MineDetector
-            {
-                name="MineDetector";
-                count=1;
-            };
-        };
-    };
-    class B_Soldier_base_F;
-    class CFP_B_soldier_base_Sudan_00: B_Soldier_base_F
-    {
-        scope=0;
-        class EventHandlers;
-    };
-    class CFP_B_soldier_base_Sudan_01: B_Soldier_base_F
-    {
-        side=1;
-        scope=1;
-        scopeCurator=0;
-        asr_ai_level=6;
-        accuracy=2.3;
-        sensitivity=3;
-        threat[]={1,0.1,0.1};
-        camouflage=1.1;
-        minFireTime=7;
-        cost=150000;
-        modelSides[]={6};
-        author="Archduke";
-        faction="CFP_B_SDARMY";
-        identityTypes[]=
-        {
-            "LanguageGRE_F",
-            "Head_African",
-            ""
-        };
-        model="A3\Characters_F_Beta\INDEP\ia_soldier_02.p3d";
-        uniformClass="CFP_Uniform_Sudan_01";
-        Items[]=
-        {
-            "FirstAidKit"
-        };
-        RespawnItems[]=
-        {
-            "FirstAidKit"
-        };
-        hiddenSelectionsTextures[]=
-        {
-            "\x\cfp\addons\b_sdarmy\Data\Uniform_Sudan.paa"
-        };
-        icon="iconMan";
-        headgearList[]=
-        {
-            "",
-            1,
-            "SP_Beret2_Red"
-        };
-        class HitPoints
-        {
-            class HitFace
-            {
-                armor=1;
-                material=-1;
-                name="face_hub";
-                passThrough=0.1;
-                radius=0.079999998;
-                explosionShielding=0.1;
-                minimalHit=0.0099999998;
-            };
-            class HitNeck: HitFace
-            {
-                armor=1;
-                material=-1;
-                name="neck";
-                passThrough=0.1;
-                radius=0.1;
-                explosionShielding=0.5;
-                minimalHit=0.0099999998;
-            };
-            class HitHead: HitNeck
-            {
-                armor=1;
-                material=-1;
-                name="head";
-                passThrough=0.1;
-                radius=0.2;
-                explosionShielding=0.5;
-                minimalHit=0.0099999998;
-                depends="HitFace max HitNeck";
-            };
-            class HitPelvis
-            {
-                armor=1;
-                material=-1;
-                name="pelvis";
-                passThrough=0.1;
-                radius=0.2;
-                explosionShielding=1;
-                visual="injury_body";
-                minimalHit=0.0099999998;
-            };
-            class HitAbdomen: HitPelvis
-            {
-                armor=1;
-                material=-1;
-                name="spine1";
-                passThrough=0.1;
-                radius=0.15000001;
-                explosionShielding=1;
-                visual="injury_body";
-                minimalHit=0.0099999998;
-            };
-            class HitDiaphragm: HitAbdomen
-            {
-                armor=1;
-                material=-1;
-                name="spine2";
-                passThrough=0.1;
-                radius=0.15000001;
-                explosionShielding=6;
-                visual="injury_body";
-                minimalHit=0.0099999998;
-            };
-            class HitChest: HitDiaphragm
-            {
-                armor=1;
-                material=-1;
-                name="spine3";
-                passThrough=0.1;
-                radius=0.15000001;
-                explosionShielding=6;
-                visual="injury_body";
-                minimalHit=0.0099999998;
-            };
-            class HitBody: HitChest
-            {
-                armor=1000;
-                material=-1;
-                name="body";
-                passThrough=0.1;
-                radius=0.16;
-                explosionShielding=6;
-                visual="injury_body";
-                minimalHit=0.0099999998;
-                depends="HitPelvis max HitAbdomen max HitDiaphragm max HitChest";
-            };
-            class HitArms
-            {
-                armor=1;
-                material=-1;
-                name="arms";
-                passThrough=1;
-                radius=0.1;
-                explosionShielding=1;
-                visual="injury_hands";
-                minimalHit=0.0099999998;
-            };
-            class HitHands: HitArms
-            {
-                armor=1;
-                material=-1;
-                name="hands";
-                passThrough=1;
-                radius=0.1;
-                explosionShielding=1;
-                visual="injury_hands";
-                minimalHit=0.0099999998;
-                depends="HitArms";
-            };
-            class HitLegs
-            {
-                armor=1;
-                material=-1;
-                name="legs";
-                passThrough=1;
-                radius=0.12;
-                explosionShielding=1;
-                visual="injury_legs";
-                minimalHit=0.0099999998;
-            };
-        };
-    };
-    class CFP_B_soldier_base_Sudan_BDU: B_Soldier_base_F
-    {
-        side=1;
-        scope=1;
-        faction="CFP_B_SDARMY";
-        modelSides[]={6};
-        vehicleClass="CFP_ShirtUniform";
-        canCarryBackPack=1;
-        canDeactivateMines=1;
-        engineer=1;
-        attendant="true";
-        uniformAccessories[]={};
-        nakedUniform="U_BasicBody";
-        model="\A3\Characters_F_beta\INDEP\ia_officer.p3d";
-        identityTypes[]=
-        {
-            "LanguageGRE_F",
-            "Head_African",
-            ""
-        };
-        Items[]={};
-        weapons[]=
-        {
-            "Throw",
-            "Put"
-        };
-        magazines[]={};
-        linkedItems[]=
-        {
-            "ItemWatch",
-            "ItemRadio",
-            "ItemGPS"
-        };
-        respawnLinkedItems[]=
-        {
-            "ItemMap",
-            "ItemCompass",
-            "ItemWatch",
-            "ItemRadio",
-            "ItemGPS"
-        };
-        hiddenSelections[]=
-        {
-            "Camo1",
-            "Camo2",
-            "insignia"
-        };
-        class Wounds
-        {
-            tex[]={};
-            mat[]=
-            {
-                "A3\Characters_F_Beta\INDEP\Data\officer.rvmat",
-                "A3\Characters_F_Beta\INDEP\Data\officer_injury.rvmat",
-                "A3\Characters_F_Beta\INDEP\Data\officer_injury.rvmat"
-            };
-        };
-    };
-    class CFP_B_soldier_base_Sudan_02: CFP_B_soldier_base_Sudan_BDU
-    {
-        displayName="Sudan Arid Digital BDU";
-        uniformClass="CFP_Uniform_Sudan_02";
-        hiddenSelectionsTextures[]=
-        {
-            "\x\cfp\addons\b_sdarmy\Data\BDU_Sudan.paa",
-            "\x\cfp\addons\b_sdarmy\Data\Uniform_Sudan.paa"
-        };
-    };
-    class CFP_B_soldier_base_Sudan_03: B_Soldier_base_F
-    {
-        side=1;
-        scope=1;
-        scopeCurator=0;
-        asr_ai_level=6;
-        accuracy=2.3;
-        sensitivity=3;
-        threat[]={1,0.1,0.1};
-        camouflage=1.1;
-        minFireTime=7;
-        cost=150000;
 
-        author="Archduke";
-        faction="CFP_B_SDARMY";
-        identityTypes[]=
-        {
-            "LanguageGRE_F",
-            "Head_TK",
-            ""
-        };
-        model="A3\Characters_F_Beta\INDEP\ia_soldier_02.p3d";
-        uniformClass="CFP_Uniform_Sudan_03";
-        Items[]=
-        {
-            "FirstAidKit"
-        };
-        RespawnItems[]=
-        {
-            "FirstAidKit"
-        };
-        hiddenSelectionsTextures[]=
-        {
-            "\x\cfp\addons\b_sdarmy\Data\Uniform_Brown.paa"
-        };
-        icon="iconMan";
-        headgearList[]=
-        {
-            "",
-            1,
-            "SP_Beret2_Red"
-        };
-        class HitPoints
-        {
-            class HitFace
-            {
-                armor=1;
-                material=-1;
-                name="face_hub";
-                passThrough=0.1;
-                radius=0.079999998;
-                explosionShielding=0.1;
-                minimalHit=0.0099999998;
-            };
-            class HitNeck: HitFace
-            {
-                armor=1;
-                material=-1;
-                name="neck";
-                passThrough=0.1;
-                radius=0.1;
-                explosionShielding=0.5;
-                minimalHit=0.0099999998;
-            };
-            class HitHead: HitNeck
-            {
-                armor=1;
-                material=-1;
-                name="head";
-                passThrough=0.1;
-                radius=0.2;
-                explosionShielding=0.5;
-                minimalHit=0.0099999998;
-                depends="HitFace max HitNeck";
-            };
-            class HitPelvis
-            {
-                armor=1;
-                material=-1;
-                name="pelvis";
-                passThrough=0.1;
-                radius=0.2;
-                explosionShielding=1;
-                visual="injury_body";
-                minimalHit=0.0099999998;
-            };
-            class HitAbdomen: HitPelvis
-            {
-                armor=1;
-                material=-1;
-                name="spine1";
-                passThrough=0.1;
-                radius=0.15000001;
-                explosionShielding=1;
-                visual="injury_body";
-                minimalHit=0.0099999998;
-            };
-            class HitDiaphragm: HitAbdomen
-            {
-                armor=1;
-                material=-1;
-                name="spine2";
-                passThrough=0.1;
-                radius=0.15000001;
-                explosionShielding=6;
-                visual="injury_body";
-                minimalHit=0.0099999998;
-            };
-            class HitChest: HitDiaphragm
-            {
-                armor=1;
-                material=-1;
-                name="spine3";
-                passThrough=0.1;
-                radius=0.15000001;
-                explosionShielding=6;
-                visual="injury_body";
-                minimalHit=0.0099999998;
-            };
-            class HitBody: HitChest
-            {
-                armor=1000;
-                material=-1;
-                name="body";
-                passThrough=0.1;
-                radius=0.16;
-                explosionShielding=6;
-                visual="injury_body";
-                minimalHit=0.0099999998;
-                depends="HitPelvis max HitAbdomen max HitDiaphragm max HitChest";
-            };
-            class HitArms
-            {
-                armor=1;
-                material=-1;
-                name="arms";
-                passThrough=1;
-                radius=0.1;
-                explosionShielding=1;
-                visual="injury_hands";
-                minimalHit=0.0099999998;
-            };
-            class HitHands: HitArms
-            {
-                armor=1;
-                material=-1;
-                name="hands";
-                passThrough=1;
-                radius=0.1;
-                explosionShielding=1;
-                visual="injury_hands";
-                minimalHit=0.0099999998;
-                depends="HitArms";
-            };
-            class HitLegs
-            {
-                armor=1;
-                material=-1;
-                name="legs";
-                passThrough=1;
-                radius=0.12;
-                explosionShielding=1;
-                visual="injury_legs";
-                minimalHit=0.0099999998;
-            };
-        };
-    };
-    class CFP_B_soldier_base_Sudan_04: CFP_B_soldier_base_Sudan_BDU
-    {
-        displayName="Sudan BDU";
-        uniformClass="CFP_Uniform_Sudan_04";
-        hiddenSelectionsTextures[]=
-        {
-            "\x\cfp\addons\b_sdarmy\Data\BDU_Brown.paa",
-            "\x\cfp\addons\b_sdarmy\Data\Uniform_Brown.paa"
-        };
-    };
-    class CFP_B_soldier_base_Sudan_05: CFP_B_soldier_base_Sudan_01
-    {
-        displayName="Sudan BDU";
-        uniformClass="CFP_Uniform_Sudan_05";
-        hiddenSelectionsTextures[]=
-        {
-            "\x\cfp\addons\b_sdarmy\Data\Uniform_Green.paa"
-        };
-    };
-    class CFP_B_soldier_base_Sudan_06: CFP_B_soldier_base_Sudan_BDU
-    {
-        displayName="Sudan BDU";
-        uniformClass="CFP_Uniform_Sudan_06";
-        hiddenSelectionsTextures[]=
-        {
-            "\x\cfp\addons\b_sdarmy\Data\BDU_Green.paa",
-            "\x\cfp\addons\b_sdarmy\Data\Uniform_Green.paa"
-        };
-    };
-    class CFP_B_soldier_base_Sudan_07: CFP_B_soldier_base_Sudan_01
-    {
-        displayName="Sudan BDU";
-        uniformClass="CFP_Uniform_Sudan_07";
-        hiddenSelectionsTextures[]=
-        {
-            "\x\cfp\addons\b_sdarmy\Data\Uniform_Pixel.paa"
-        };
-    };
-    class CFP_B_soldier_base_Sudan_08: CFP_B_soldier_base_Sudan_BDU
-    {
-        displayName="Sudan BDU";
-        uniformClass="CFP_Uniform_Sudan_08";
-        hiddenSelectionsTextures[]=
-        {
-            "\x\cfp\addons\b_sdarmy\Data\BDU_Pixel.paa",
-            "\x\cfp\addons\b_sdarmy\Data\Uniform_Pixel.paa"
-        };
-    };
-    class CFP_B_soldier_base_Sudan_09: CFP_B_soldier_base_Sudan_01
-    {
-        displayName="Sudan BDU";
-        uniformClass="CFP_Uniform_Sudan_09";
-        hiddenSelectionsTextures[]=
-        {
-            "\x\cfp\addons\b_sdarmy\Data\Uniform_Leaf.paa"
-        };
-    };
-    class CFP_B_soldier_base_Sudan_10: CFP_B_soldier_base_Sudan_BDU
-    {
-        displayName="Sudan BDU";
-        uniformClass="CFP_Uniform_Sudan_10";
-        hiddenSelectionsTextures[]=
-        {
-            "\x\cfp\addons\b_sdarmy\Data\BDU_Leaf.paa",
-            "\x\cfp\addons\b_sdarmy\Data\Uniform_Leaf.paa"
-        };
-    };
-    class CFP_B_soldier_base_Sudan_11: CFP_B_soldier_base_Sudan_01
-    {
-        displayName="Sudan BDU";
-        uniformClass="CFP_Uniform_Sudan_11";
-        hiddenSelectionsTextures[]=
-        {
-            "\x\cfp\addons\b_sdarmy\Data\Uniform_Police.paa"
-        };
-    };
-    class CFP_B_soldier_base_Sudan_12: CFP_B_soldier_base_Sudan_BDU
-    {
-        displayName="Sudan BDU";
-        uniformClass="CFP_Uniform_Sudan_12";
-        hiddenSelectionsTextures[]=
-        {
-            "\x\cfp\addons\b_sdarmy\Data\BDU_Police.paa",
-            "\x\cfp\addons\b_sdarmy\Data\Uniform_Police.paa"
-        };
-    };
-    class CFP_B_soldier_base_Sudan_13: CFP_B_soldier_base_Sudan_01
-    {
-        displayName="Sudan BDU";
-        uniformClass="CFP_Uniform_Sudan_13";
-        hiddenSelectionsTextures[]=
-        {
-            "\x\cfp\addons\b_sdarmy\Data\Uniform_Sword.paa"
-        };
-    };
-    class CFP_B_soldier_base_Sudan_14: CFP_B_soldier_base_Sudan_BDU
-    {
-        displayName="Sudan BDU";
-        uniformClass="CFP_Uniform_Sudan_14";
-        hiddenSelectionsTextures[]=
-        {
-            "\x\cfp\addons\b_sdarmy\Data\BDU_Sword.paa",
-            "\x\cfp\addons\b_sdarmy\Data\Uniform_Sword.paa"
-        };
-    };
-    class CFP_B_soldier_base_Sudan_15: CFP_B_soldier_base_Sudan_01
-    {
-        displayName="Sudan BDU";
-        uniformClass="CFP_Uniform_Sudan_15";
-        hiddenSelectionsTextures[]=
-        {
-            "\x\cfp\addons\b_sdarmy\Data\Uniform_Sword2.paa"
-        };
-    };
-    class CFP_B_soldier_base_Sudan_16: CFP_B_soldier_base_Sudan_BDU
-    {
-        displayName="Sudan BDU";
-        uniformClass="CFP_Uniform_Sudan_16";
-        hiddenSelectionsTextures[]=
-        {
-            "\x\cfp\addons\b_sdarmy\Data\BDU_Sword2.paa",
-            "\x\cfp\addons\b_sdarmy\Data\Uniform_Sword2.paa"
-        };
-    };
-    class CFP_B_soldier_base_Sudan_17: CFP_B_soldier_base_Sudan_BDU
-    {
-        displayName="Sudan BDU";
-        uniformClass="CFP_Uniform_Sudan_17";
-        hiddenSelectionsTextures[]=
-        {
-            "\x\cfp\addons\b_sdarmy\Data\BDU_Police2.paa",
-            "\x\cfp\addons\b_sdarmy\Data\Uniform_Police2.paa"
-        };
-    };
-    class CFP_B_soldier_base_Sudan_18: CFP_B_soldier_base_Sudan_BDU
-    {
-        displayName="Sudan BDU";
-        uniformClass="CFP_Uniform_Sudan_18";
-        hiddenSelectionsTextures[]=
-        {
-            "\x\cfp\addons\b_sdarmy\Data\BDU_SF.paa",
-            "\x\cfp\addons\b_sdarmy\Data\Uniform_SF.paa"
-        };
-    };
     class CFP_B_SDARMY_Soldier_01 : O_Soldier_F_OCimport_02 {
         author = "Drew";
         scope = 2;
@@ -1094,7 +452,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_African","LanguageGRE_F"};
 
-        uniformClass = "CFP_Uniform_Sudan_02";
+        uniformClass = "CFP_U_BattleDressUniform_AridDigital";
 
         linkedItems[] = {"CFP_AK_VEST_Tan","SP_Beret2_Red","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CFP_AK_VEST_Tan","SP_Beret2_Red","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -1105,7 +463,7 @@ class CfgVehicles
         magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_Uniform_Sudan_02",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",1,1},{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_Tan",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{},"SP_Beret2_Red","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_BattleDressUniform_AridDigital",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",1,1},{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_Tan",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{},"SP_Beret2_Red","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1133,7 +491,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_TK","LanguageGRE_F"};
 
-        uniformClass = "CFP_Uniform_Sudan_14";
+        uniformClass = "CFP_U_BattleDressUniform_Sword";
 
         linkedItems[] = {"CFP_Alice_Vest2_Tan","SP_SSh68NetHelmet_Green1","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CFP_Alice_Vest2_Tan","SP_SSh68NetHelmet_Green1","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -1144,7 +502,7 @@ class CfgVehicles
         magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_Uniform_Sudan_14",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_Alice_Vest2_Tan",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{},"SP_SSh68NetHelmet_Green1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_BattleDressUniform_Sword",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_Alice_Vest2_Tan",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{},"SP_SSh68NetHelmet_Green1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1172,7 +530,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_African","LanguageGRE_F"};
 
-        uniformClass = "CFP_Uniform_Sudan_16";
+        uniformClass = "CFP_U_BattleDressUniform_Sword2";
 
         linkedItems[] = {"CFP_AK_VEST_Tan","CFP_Cap_Sudan_08","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CFP_AK_VEST_Tan","CFP_Cap_Sudan_08","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -1183,9 +541,9 @@ class CfgVehicles
         magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_PG7V_M","CUP_30Rnd_762x39_AK47_M"};
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_PG7V_M","CUP_30Rnd_762x39_AK47_M"};
 
-        backpack = "CUP_B_AT_Backpack";
+        backpack = "CUP_B_RPGPack_Khaki";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{"CUP_launch_RPG7V","","","",{"CUP_PG7V_M",1},{},""},{},{"CFP_Uniform_Sudan_16",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_AK_VEST_Tan",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_AT_Backpack",{{"CUP_PG7VL_M",2,1}}},"CFP_Cap_Sudan_08","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{"CUP_launch_RPG7V","","","",{"CUP_PG7V_M",1},{},""},{},{"CFP_U_BattleDressUniform_Sword2",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_AK_VEST_Tan",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_RPGPack_Khaki",{{"CUP_PG7VL_M",2,1}}},"CFP_Cap_Sudan_08","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1213,7 +571,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_African","LanguageGRE_F"};
 
-        uniformClass = "CFP_Uniform_Sudan_16";
+        uniformClass = "CFP_U_BattleDressUniform_Sword2";
 
         linkedItems[] = {"CFP_AK_VEST_Tan","CFP_PASGTHelmet_Sudan_06","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CFP_AK_VEST_Tan","CFP_PASGTHelmet_Sudan_06","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -1226,7 +584,7 @@ class CfgVehicles
 
         backpack = "B_Kitbag_cbr";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{"CUP_launch_9K32Strela","","","",{"CUP_Strela_2_M",1},{},""},{},{"CFP_Uniform_Sudan_16",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",1,1},{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_Tan",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"B_Kitbag_cbr",{{"CUP_Strela_2_M",1,1}}},"CFP_PASGTHelmet_Sudan_06","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{"CUP_launch_9K32Strela","","","",{"CUP_Strela_2_M",1},{},""},{},{"CFP_U_BattleDressUniform_Sword2",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",1,1},{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_Tan",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"B_Kitbag_cbr",{{"CUP_Strela_2_M",1,1}}},"CFP_PASGTHelmet_Sudan_06","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1254,7 +612,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_African","LanguageGRE_F"};
 
-        uniformClass = "CFP_Uniform_Sudan_14";
+        uniformClass = "CFP_U_BattleDressUniform_Sword";
 
         linkedItems[] = {"CFP_AK_VEST_Tan","CFP_Cap_Sudan_07","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CFP_AK_VEST_Tan","CFP_Cap_Sudan_07","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -1267,7 +625,7 @@ class CfgVehicles
 
         backpack = "B_Kitbag_cbr";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_PKM","","","",{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",100},{},""},{},{},{"CFP_Uniform_Sudan_14",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_AK_VEST_Tan",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",1,100}}},{"B_Kitbag_cbr",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",2,100}}},"CFP_Cap_Sudan_07","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_PKM","","","",{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",100},{},""},{},{},{"CFP_U_BattleDressUniform_Sword",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_AK_VEST_Tan",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",1,100}}},{"B_Kitbag_cbr",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",2,100}}},"CFP_Cap_Sudan_07","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1295,7 +653,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_African","LanguageGRE_F"};
 
-        uniformClass = "CFP_Uniform_Sudan_02";
+        uniformClass = "CFP_U_BattleDressUniform_AridDigital";
 
         linkedItems[] = {"CFP_Alice_Vest2_Tan","CFP_PASGTHelmet_Sudan_01","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CFP_Alice_Vest2_Tan","CFP_PASGTHelmet_Sudan_01","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -1308,7 +666,7 @@ class CfgVehicles
 
         backpack = "B_AssaultPack_cbr";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_RPK74","","","",{"CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",75},{},""},{},{},{"CFP_Uniform_Sudan_02",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",1,1},{"CUP_75Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M",1,75}}},{"CFP_Alice_Vest2_Tan",{{"CUP_75Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M",3,75}}},{"B_AssaultPack_cbr",{{"CUP_75Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M",2,75}}},"CFP_PASGTHelmet_Sudan_01","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_RPK74","","","",{"CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",75},{},""},{},{},{"CFP_U_BattleDressUniform_AridDigital",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",1,1},{"CUP_75Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M",1,75}}},{"CFP_Alice_Vest2_Tan",{{"CUP_75Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M",3,75}}},{"B_AssaultPack_cbr",{{"CUP_75Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M",2,75}}},"CFP_PASGTHelmet_Sudan_01","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1336,7 +694,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_African","LanguageGRE_F"};
 
-        uniformClass = "CFP_Uniform_Sudan_02";
+        uniformClass = "CFP_U_BattleDressUniform_AridDigital";
 
         linkedItems[] = {"CFP_Alice_Vest2","CUP_H_RUS_TSH_4_Brown","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CFP_Alice_Vest2","CUP_H_RUS_TSH_4_Brown","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -1347,7 +705,7 @@ class CfgVehicles
         magazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS74U","","","",{"CUP_30Rnd_545x39_AK74_plum_M",30},{},""},{},{},{"CFP_Uniform_Sudan_02",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK74_plum_M",2,30}}},{"CFP_Alice_Vest2",{{"CUP_30Rnd_545x39_AK74_plum_M",4,30}}},{},"CUP_H_RUS_TSH_4_Brown","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS74U","","","",{"CUP_30Rnd_545x39_AK74_plum_M",30},{},""},{},{},{"CFP_U_BattleDressUniform_AridDigital",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK74_plum_M",2,30}}},{"CFP_Alice_Vest2",{{"CUP_30Rnd_545x39_AK74_plum_M",4,30}}},{},"CUP_H_RUS_TSH_4_Brown","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1375,7 +733,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_African","LanguageGRE_F"};
 
-        uniformClass = "CFP_Uniform_Sudan_16";
+        uniformClass = "CFP_U_BattleDressUniform_Sword2";
 
         linkedItems[] = {"CFP_AK_VEST_LOlive","CFP_Cap_Sudan_08","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CFP_AK_VEST_LOlive","CFP_Cap_Sudan_08","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -1386,9 +744,9 @@ class CfgVehicles
         magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
 
-        backpack = "CUP_B_Medic";
+        backpack = "B_AssaultPack_rgr";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_Uniform_Sudan_16",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",1,1},{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_LOlive",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_Medic",{{"Medikit",1},{"FirstAidKit",10}}},"CFP_Cap_Sudan_08","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_BattleDressUniform_Sword2",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",1,1},{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_LOlive",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"B_AssaultPack_rgr",{{"Medikit",1},{"FirstAidKit",10}}},"CFP_Cap_Sudan_08","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1416,7 +774,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_TK","LanguageGRE_F"};
 
-        uniformClass = "CFP_Uniform_Sudan_02";
+        uniformClass = "CFP_U_BattleDressUniform_AridDigital";
 
         linkedItems[] = {"CFP_AK_VEST_Tan","CFP_Cap_Sudan_01","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CFP_AK_VEST_Tan","CFP_Cap_Sudan_01","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -1427,9 +785,9 @@ class CfgVehicles
         magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
 
-        backpack = "CUP_B_AlicePack_Egineer";
+        backpack = "CUP_B_AlicePack_Khaki";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_Uniform_Sudan_02",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_AK_VEST_Tan",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_AlicePack_Egineer",{{"ToolKit",1},{"MineDetector",1},{"APERSMine_Range_Mag",3,1},{"CUP_PipeBomb_M",3,1},{"DemoCharge_Remote_Mag",2,1}}},"CFP_Cap_Sudan_01","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_BattleDressUniform_AridDigital",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_AK_VEST_Tan",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_AlicePack_Khaki",{{"ToolKit",1},{"MineDetector",1},{"APERSMine_Range_Mag",3,1},{"CUP_PipeBomb_M",3,1},{"DemoCharge_Remote_Mag",2,1}}},"CFP_Cap_Sudan_01","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1496,7 +854,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_TK","LanguageGRE_F"};
 
-        uniformClass = "CFP_Uniform_Sudan_03";
+        uniformClass = "CFP_U_FieldUniform_BrownDigital_SS";
 
         linkedItems[] = {"CUP_V_B_PilotVest","CUP_H_RUS_ZSH_Shield_Up","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
         respawnlinkedItems[] = {"CUP_V_B_PilotVest","CUP_H_RUS_ZSH_Shield_Up","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
@@ -1507,7 +865,7 @@ class CfgVehicles
         magazines[] = {"CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"};
         respawnMagazines[] = {"CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_smg_MP5A5","","","",{"CUP_30Rnd_9x19_MP5",30},{},""},{},{},{"CFP_Uniform_Sudan_03",{{"FirstAidKit",1},{"CUP_30Rnd_9x19_MP5",4,30}}},{"CUP_V_B_PilotVest",{{"CUP_30Rnd_9x19_MP5",1,30}}},{},"CUP_H_RUS_ZSH_Shield_Up","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_smg_MP5A5","","","",{"CUP_30Rnd_9x19_MP5",30},{},""},{},{},{"CFP_U_FieldUniform_BrownDigital_SS",{{"FirstAidKit",1},{"CUP_30Rnd_9x19_MP5",4,30}}},{"CUP_V_B_PilotVest",{{"CUP_30Rnd_9x19_MP5",1,30}}},{},"CUP_H_RUS_ZSH_Shield_Up","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
 
         class EventHandlers : EventHandlers {
@@ -1535,7 +893,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_African","LanguageGRE_F"};
 
-        uniformClass = "CFP_Uniform_Sudan_01";
+        uniformClass = "CFP_U_FieldUniform_AridDigital_SS";
 
         linkedItems[] = {"V_I_G_resistanceLeader_F","CFP_PASGTHelmet_Sudan_01","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"V_I_G_resistanceLeader_F","CFP_PASGTHelmet_Sudan_01","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -1546,7 +904,7 @@ class CfgVehicles
         magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_Uniform_Sudan_01",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"V_I_G_resistanceLeader_F",{}},{},"CFP_PASGTHelmet_Sudan_01","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_FieldUniform_AridDigital_SS",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"V_I_G_resistanceLeader_F",{}},{},"CFP_PASGTHelmet_Sudan_01","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1574,7 +932,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_TK","LanguageGRE_F"};
 
-        uniformClass = "CFP_Uniform_Sudan_01";
+        uniformClass = "CFP_U_FieldUniform_AridDigital_SS";
 
         linkedItems[] = {"V_TacVest_camo","CFP_PASGTHelmet_Sudan_01","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"V_TacVest_camo","CFP_PASGTHelmet_Sudan_01","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -1585,7 +943,7 @@ class CfgVehicles
         magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_Uniform_Sudan_01",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"V_TacVest_camo",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{},"CFP_PASGTHelmet_Sudan_01","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_FieldUniform_AridDigital_SS",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"V_TacVest_camo",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{},"CFP_PASGTHelmet_Sudan_01","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1613,7 +971,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_African","LanguageGRE_F"};
 
-        uniformClass = "CFP_Uniform_Sudan_01";
+        uniformClass = "CFP_U_FieldUniform_AridDigital_SS";
 
         linkedItems[] = {"V_I_G_resistanceLeader_F","CFP_Basic_Helmet_Gray_Green","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"V_I_G_resistanceLeader_F","CFP_Basic_Helmet_Gray_Green","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -1624,9 +982,9 @@ class CfgVehicles
         magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
 
-        backpack = "CUP_B_Medic";
+        backpack = "B_AssaultPack_rgr";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_Uniform_Sudan_01",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"V_I_G_resistanceLeader_F",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_Medic",{{"Medikit",1},{"FirstAidKit",10}}},"CFP_Basic_Helmet_Gray_Green","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_FieldUniform_AridDigital_SS",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"V_I_G_resistanceLeader_F",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"B_AssaultPack_rgr",{{"Medikit",1},{"FirstAidKit",10}}},"CFP_Basic_Helmet_Gray_Green","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1654,7 +1012,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_TK","LanguageGRE_F"};
 
-        uniformClass = "CFP_Uniform_Sudan_01";
+        uniformClass = "CFP_U_FieldUniform_AridDigital_SS";
 
         linkedItems[] = {"V_TacVest_camo","CFP_PASGTHelmet_Sudan_01","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"V_TacVest_camo","CFP_PASGTHelmet_Sudan_01","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -1665,9 +1023,9 @@ class CfgVehicles
         magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
 
-        backpack = "CUP_B_AlicePack_Egineer";
+        backpack = "CUP_B_AlicePack_Khaki";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_Uniform_Sudan_01",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"V_TacVest_camo",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_AlicePack_Egineer",{{"ToolKit",1},{"MineDetector",1},{"APERSMine_Range_Mag",3,1},{"CUP_PipeBomb_M",3,1},{"DemoCharge_Remote_Mag",2,1}}},"CFP_PASGTHelmet_Sudan_01","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_FieldUniform_AridDigital_SS",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"V_TacVest_camo",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_AlicePack_Khaki",{{"ToolKit",1},{"MineDetector",1},{"APERSMine_Range_Mag",3,1},{"CUP_PipeBomb_M",3,1},{"DemoCharge_Remote_Mag",2,1}}},"CFP_PASGTHelmet_Sudan_01","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1695,7 +1053,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_African","LanguageGRE_F"};
 
-        uniformClass = "CFP_Uniform_Sudan_01";
+        uniformClass = "CFP_U_FieldUniform_AridDigital_SS";
 
         linkedItems[] = {"V_I_G_resistanceLeader_F","CFP_PASGTHelmet_Sudan_01","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"V_I_G_resistanceLeader_F","CFP_PASGTHelmet_Sudan_01","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -1706,9 +1064,9 @@ class CfgVehicles
         magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_PG7V_M","CUP_30Rnd_762x39_AK47_M"};
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_PG7V_M","CUP_30Rnd_762x39_AK47_M"};
 
-        backpack = "CUP_B_AT_Backpack";
+        backpack = "CUP_B_RPGPack_Khaki";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{"CUP_launch_RPG7V_PGO7V3","","","CUP_optic_PGO7V3",{"CUP_PG7V_M",1},{},""},{},{"CFP_Uniform_Sudan_01",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"V_I_G_resistanceLeader_F",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_AT_Backpack",{{"CUP_PG7VL_M",2,1}}},"CFP_PASGTHelmet_Sudan_01","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{"CUP_launch_RPG7V_PGO7V3","","","CUP_optic_PGO7V3",{"CUP_PG7V_M",1},{},""},{},{"CFP_U_FieldUniform_AridDigital_SS",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"V_I_G_resistanceLeader_F",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_RPGPack_Khaki",{{"CUP_PG7VL_M",2,1}}},"CFP_PASGTHelmet_Sudan_01","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1736,7 +1094,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_TK","LanguageGRE_F"};
 
-        uniformClass = "CFP_Uniform_Sudan_01";
+        uniformClass = "CFP_U_FieldUniform_AridDigital_SS";
 
         linkedItems[] = {"V_I_G_resistanceLeader_F","CFP_Basic_Helmet_Gray_Green","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"V_I_G_resistanceLeader_F","CFP_Basic_Helmet_Gray_Green","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -1749,7 +1107,7 @@ class CfgVehicles
 
         backpack = "B_Kitbag_cbr";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{"CUP_launch_9K32Strela","","","",{"CUP_Strela_2_M",1},{},""},{},{"CFP_Uniform_Sudan_01",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"V_I_G_resistanceLeader_F",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"B_Kitbag_cbr",{{"CUP_Strela_2_M",1,1}}},"CFP_Basic_Helmet_Gray_Green","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{"CUP_launch_9K32Strela","","","",{"CUP_Strela_2_M",1},{},""},{},{"CFP_U_FieldUniform_AridDigital_SS",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"V_I_G_resistanceLeader_F",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"B_Kitbag_cbr",{{"CUP_Strela_2_M",1,1}}},"CFP_Basic_Helmet_Gray_Green","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1777,7 +1135,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_African","LanguageGRE_F"};
 
-        uniformClass = "CFP_Uniform_Sudan_01";
+        uniformClass = "CFP_U_FieldUniform_AridDigital_SS";
 
         linkedItems[] = {"V_TacVest_camo","CFP_Basic_Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"V_TacVest_camo","CFP_Basic_Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -1790,7 +1148,7 @@ class CfgVehicles
 
         backpack = "CUP_B_MG_Ammo";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_PKM","","","",{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",100},{},""},{},{},{"CFP_Uniform_Sudan_01",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",1,1}}},{"V_TacVest_camo",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",1,100}}},{"CUP_B_MG_Ammo",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",2,100}}},"CFP_Basic_Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_PKM","","","",{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",100},{},""},{},{},{"CFP_U_FieldUniform_AridDigital_SS",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",1,1}}},{"V_TacVest_camo",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",1,100}}},{"CUP_B_MG_Ammo",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",2,100}}},"CFP_Basic_Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1818,7 +1176,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_African","LanguageGRE_F"};
 
-        uniformClass = "CFP_Uniform_Sudan_01";
+        uniformClass = "CFP_U_FieldUniform_AridDigital_SS";
 
         linkedItems[] = {"V_TacVest_camo","CFP_PASGTHelmet_Sudan_01","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"V_TacVest_camo","CFP_PASGTHelmet_Sudan_01","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -1831,7 +1189,7 @@ class CfgVehicles
 
         backpack = "B_AssaultPack_rgr";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_RPK74","","","",{"CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",75},{},""},{},{},{"CFP_Uniform_Sudan_01",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",1,1},{"CUP_75Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M",1,75}}},{"V_TacVest_camo",{{"CUP_75Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M",2,75}}},{"B_AssaultPack_rgr",{{"CUP_75Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M",2,75}}},"CFP_PASGTHelmet_Sudan_01","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_RPK74","","","",{"CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",75},{},""},{},{},{"CFP_U_FieldUniform_AridDigital_SS",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",1,1},{"CUP_75Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M",1,75}}},{"V_TacVest_camo",{{"CUP_75Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M",2,75}}},{"B_AssaultPack_rgr",{{"CUP_75Rnd_TE4_LRT4_Green_Tracer_762x39_RPK_M",2,75}}},"CFP_PASGTHelmet_Sudan_01","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1859,7 +1217,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_TK","LanguageGRE_F"};
 
-        uniformClass = "CFP_Uniform_Sudan_16";
+        uniformClass = "CFP_U_BattleDressUniform_Sword2";
 
         linkedItems[] = {"SP_Holster1_Brown","SP_Beret2_Red","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"SP_Holster1_Brown","SP_Beret2_Red","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -1870,7 +1228,7 @@ class CfgVehicles
         magazines[] = {"CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
         respawnMagazines[] = {"CUP_15Rnd_9x19_M9","CUP_15Rnd_9x19_M9"};
 
-        ALiVE_orbatCreator_loadout[] = {{},{},{"CUP_hgun_M9","","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CFP_Uniform_Sudan_16",{{"FirstAidKit",1},{"CUP_15Rnd_9x19_M9",2,15}}},{"SP_Holster1_Brown",{}},{},"SP_Beret2_Red","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{},{},{"CUP_hgun_M9","","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CFP_U_BattleDressUniform_Sword2",{{"FirstAidKit",1},{"CUP_15Rnd_9x19_M9",2,15}}},{"SP_Holster1_Brown",{}},{},"SP_Beret2_Red","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1898,7 +1256,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_African","LanguageGRE_F"};
 
-        uniformClass = "CFP_Uniform_Sudan_16";
+        uniformClass = "CFP_U_BattleDressUniform_Sword2";
 
         linkedItems[] = {"CFP_Alice_Vest2_Tan","CFP_PASGTHelmet_Sudan_06","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CFP_Alice_Vest2_Tan","CFP_PASGTHelmet_Sudan_06","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -1909,7 +1267,7 @@ class CfgVehicles
         magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_Uniform_Sudan_16",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_Alice_Vest2_Tan",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{},"CFP_PASGTHelmet_Sudan_06","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_BattleDressUniform_Sword2",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_Alice_Vest2_Tan",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{},"CFP_PASGTHelmet_Sudan_06","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1937,7 +1295,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_African","LanguageGRE_F"};
 
-        uniformClass = "CFP_Uniform_Sudan_14";
+        uniformClass = "CFP_U_BattleDressUniform_Sword";
 
         linkedItems[] = {"CFP_AK_VEST_Tan","CFP_Cap_Sudan_07","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CFP_AK_VEST_Tan","CFP_Cap_Sudan_07","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -1948,7 +1306,7 @@ class CfgVehicles
         magazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M"};
         respawnMagazines[] = {"CUP_10Rnd_762x54_SVD_M","CUP_10Rnd_762x54_SVD_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_SVD_pso","","","CUP_optic_PSO_1",{"CUP_10Rnd_762x54_SVD_M",10},{},""},{},{},{"CFP_Uniform_Sudan_14",{{"FirstAidKit",1},{"CUP_10Rnd_762x54_SVD_M",2,10},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_AK_VEST_Tan",{{"CUP_10Rnd_762x54_SVD_M",5,10}}},{},"CFP_Cap_Sudan_07","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_SVD_pso","","","CUP_optic_PSO_1",{"CUP_10Rnd_762x54_SVD_M",10},{},""},{},{},{"CFP_U_BattleDressUniform_Sword",{{"FirstAidKit",1},{"CUP_10Rnd_762x54_SVD_M",2,10},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_AK_VEST_Tan",{{"CUP_10Rnd_762x54_SVD_M",5,10}}},{},"CFP_Cap_Sudan_07","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1976,7 +1334,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_African","LanguageGRE_F"};
 
-        uniformClass = "CFP_Uniform_Sudan_02";
+        uniformClass = "CFP_U_BattleDressUniform_AridDigital";
 
         linkedItems[] = {"CFP_AK_VEST_Tan","CFP_PASGTHelmet_Sudan_01","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CFP_AK_VEST_Tan","CFP_PASGTHelmet_Sudan_01","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -1989,7 +1347,7 @@ class CfgVehicles
 
         backpack = "CUP_B_DShkM_Gun_Bag";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_Uniform_Sudan_02",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_AK_VEST_Tan",{}},{"CUP_B_DShkM_Gun_Bag",{}},"CFP_PASGTHelmet_Sudan_01","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_BattleDressUniform_AridDigital",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_AK_VEST_Tan",{}},{"CUP_B_DShkM_Gun_Bag",{}},"CFP_PASGTHelmet_Sudan_01","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -2017,7 +1375,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_African","LanguageGRE_F"};
 
-        uniformClass = "CFP_Uniform_Sudan_14";
+        uniformClass = "CFP_U_BattleDressUniform_Sword";
 
         linkedItems[] = {"CFP_Alice_Vest2_Tan","CFP_Cap_Sudan_08","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CFP_Alice_Vest2_Tan","CFP_Cap_Sudan_08","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -2030,7 +1388,7 @@ class CfgVehicles
 
         backpack = "CUP_B_DShkM_TripodHigh_Bag";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_Uniform_Sudan_14",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_Alice_Vest2_Tan",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_DShkM_TripodHigh_Bag",{}},"CFP_Cap_Sudan_08","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_BattleDressUniform_Sword",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_Alice_Vest2_Tan",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_DShkM_TripodHigh_Bag",{}},"CFP_Cap_Sudan_08","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -2058,7 +1416,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_African","LanguageGRE_F"};
 
-        uniformClass = "CFP_Uniform_Sudan_16";
+        uniformClass = "CFP_U_BattleDressUniform_Sword2";
 
         linkedItems[] = {"CFP_AK_VEST_LOlive","CFP_Cap_Sudan_08","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CFP_AK_VEST_LOlive","CFP_Cap_Sudan_08","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -2071,7 +1429,7 @@ class CfgVehicles
 
         backpack = "CUP_B_DShkM_TripodLow_Bag";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_Uniform_Sudan_16",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_AK_VEST_LOlive",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_DShkM_TripodLow_Bag",{}},"CFP_Cap_Sudan_08","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_BattleDressUniform_Sword2",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_AK_VEST_LOlive",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_DShkM_TripodLow_Bag",{}},"CFP_Cap_Sudan_08","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -2099,7 +1457,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_African","LanguageGRE_F"};
 
-        uniformClass = "CFP_Uniform_Sudan_14";
+        uniformClass = "CFP_U_BattleDressUniform_Sword";
 
         linkedItems[] = {"CFP_Alice_Vest2_Tan","CFP_PASGTHelmet_Sudan_05","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CFP_Alice_Vest2_Tan","CFP_PASGTHelmet_Sudan_05","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -2112,7 +1470,7 @@ class CfgVehicles
 
         backpack = "CUP_B_Podnos_Gun_Bag";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_Uniform_Sudan_14",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_Alice_Vest2_Tan",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_Podnos_Gun_Bag",{}},"CFP_PASGTHelmet_Sudan_05","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_BattleDressUniform_Sword",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_Alice_Vest2_Tan",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_Podnos_Gun_Bag",{}},"CFP_PASGTHelmet_Sudan_05","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -2140,7 +1498,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_TK","LanguageGRE_F"};
 
-        uniformClass = "CFP_Uniform_Sudan_14";
+        uniformClass = "CFP_U_BattleDressUniform_Sword";
 
         linkedItems[] = {"CFP_Alice_Vest2_Tan","CFP_Cap_Sudan_07","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CFP_Alice_Vest2_Tan","CFP_Cap_Sudan_07","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -2153,7 +1511,7 @@ class CfgVehicles
 
         backpack = "CUP_B_Podnos_Bipod_Bag";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_Uniform_Sudan_14",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_Alice_Vest2_Tan",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_Podnos_Bipod_Bag",{}},"CFP_Cap_Sudan_07","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_BattleDressUniform_Sword",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_Alice_Vest2_Tan",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_Podnos_Bipod_Bag",{}},"CFP_Cap_Sudan_07","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -2181,7 +1539,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_African","LanguageGRE_F"};
 
-        uniformClass = "CFP_Uniform_Sudan_02";
+        uniformClass = "CFP_U_BattleDressUniform_AridDigital";
 
         linkedItems[] = {"CFP_AK_VEST_LOlive","CFP_Cap_Sudan_01","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CFP_AK_VEST_LOlive","CFP_Cap_Sudan_01","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -2194,7 +1552,7 @@ class CfgVehicles
 
         backpack = "CUP_B_SPG9_Gun_Bag";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_Uniform_Sudan_02",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_AK_VEST_LOlive",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_SPG9_Gun_Bag",{}},"CFP_Cap_Sudan_01","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_BattleDressUniform_AridDigital",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_AK_VEST_LOlive",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_SPG9_Gun_Bag",{}},"CFP_Cap_Sudan_01","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -2222,7 +1580,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_TK","LanguageGRE_F"};
 
-        uniformClass = "CFP_Uniform_Sudan_02";
+        uniformClass = "CFP_U_BattleDressUniform_AridDigital";
 
         linkedItems[] = {"CFP_AK_VEST_Tan","SP_Beret2_Red","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CFP_AK_VEST_Tan","SP_Beret2_Red","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -2235,7 +1593,7 @@ class CfgVehicles
 
         backpack = "CUP_B_SPG9_Tripod_Bag";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_Uniform_Sudan_02",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_AK_VEST_Tan",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_SPG9_Tripod_Bag",{}},"SP_Beret2_Red","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_BattleDressUniform_AridDigital",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_AK_VEST_Tan",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_SPG9_Tripod_Bag",{}},"SP_Beret2_Red","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -2263,7 +1621,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_African","LanguageGRE_F"};
 
-        uniformClass = "CFP_Uniform_Sudan_12";
+        uniformClass = "CFP_U_WorkUniform_SudanPolice";
 
         linkedItems[] = {"CFP_AK_VEST_Black","SP_Beret2_Black","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CFP_AK_VEST_Black","SP_Beret2_Black","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -2274,7 +1632,7 @@ class CfgVehicles
         magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_Uniform_Sudan_12",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_AK_VEST_Black",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{},"SP_Beret2_Black","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_WorkUniform_SudanPolice",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_AK_VEST_Black",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{},"SP_Beret2_Black","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -2302,7 +1660,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_African","LanguageGRE_F"};
 
-        uniformClass = "CFP_Uniform_Sudan_12";
+        uniformClass = "CFP_U_WorkUniform_SudanPolice";
 
         linkedItems[] = {"CFP_AK_VEST_Black","CFP_Cap_Sudan_06","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CFP_AK_VEST_Black","CFP_Cap_Sudan_06","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -2313,7 +1671,7 @@ class CfgVehicles
         magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_Uniform_Sudan_12",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_AK_VEST_Black",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{},"CFP_Cap_Sudan_06","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_WorkUniform_SudanPolice",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_AK_VEST_Black",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{},"CFP_Cap_Sudan_06","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -2341,7 +1699,7 @@ class CfgVehicles
 
         identityTypes[] = {"Head_African","LanguageGRE_F"};
 
-        uniformClass = "CFP_Uniform_Sudan_11";
+        uniformClass = "CFP_U_WorkUniform_SudanPolice2";
 
         linkedItems[] = {"CFP_AK_VEST_Black","SP_Beret2_Black","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CFP_AK_VEST_Black","SP_Beret2_Black","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -2352,7 +1710,7 @@ class CfgVehicles
         magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_Uniform_Sudan_11",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_AK_VEST_Black",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{},"SP_Beret2_Black","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_WorkUniform_SudanPolice2",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_AK_VEST_Black",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{},"SP_Beret2_Black","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -3824,17 +3182,17 @@ class CfgVehicles
             item_xx(CFP_U_BattleDressUniform_3ColorDesert,15);
             item_xx(CFP_Uniform_Sudan_10,15);
             item_xx(CFP_Uniform_Sudan_13,15);
-            item_xx(CFP_Uniform_Sudan_04,15);
+            item_xx(CFP_U_BattleDressUniform_BrownDigital,15);
             item_xx(SP_0000_Standard_Coverall_Green,15);
-            item_xx(CFP_Uniform_Sudan_01,15);
-            item_xx(CFP_Uniform_Sudan_03,15);
+            item_xx(CFP_U_FieldUniform_AridDigital_SS,15);
+            item_xx(CFP_U_FieldUniform_BrownDigital_SS,15);
             item_xx(CFP_Uniform_Sudan_06,15);
-            item_xx(CFP_Uniform_Sudan_14,15);
+            item_xx(CFP_U_BattleDressUniform_Sword,15);
             item_xx(CFP_Uniform_Sudan_08,15);
-            item_xx(CFP_Uniform_Sudan_16,15);
+            item_xx(CFP_U_BattleDressUniform_Sword2,15);
             item_xx(CFP_Uniform_Sudan_05,15);
-            item_xx(CFP_Uniform_Sudan_12,15);
-            item_xx(CFP_Uniform_Sudan_11,15);
+            item_xx(CFP_U_WorkUniform_SudanPolice,15);
+            item_xx(CFP_U_WorkUniform_SudanPolice2,15);
         };
     };
     class CFP_B_SDARMY_SupportBox : CUP_USSpecialWeaponsBox {
@@ -3854,7 +3212,7 @@ class CfgVehicles
             item_xx(SP_Harness1_Green,10);
             item_xx(SP_SSh68NetHelmet_Green1,10);
             item_xx(CUP_V_I_Carrier_Belt,10);
-            item_xx(CUP_B_AT_Backpack,10);
+            item_xx(CUP_B_RPGPack_Khaki,10);
             item_xx(CFP_Beret_Brown_Sudan,10);
             item_xx(CUP_B_AA_Backpack,10);
             item_xx(SP_Harness1_Tan,10);
@@ -3863,9 +3221,7 @@ class CfgVehicles
             item_xx(SP_PASGTHelmet_Tan1,10);
             item_xx(CUP_H_SLA_TankerHelmet,10);
             item_xx(CFP_Cap_Sudan_03,10);
-            item_xx(CUP_B_Medic,10);
             item_xx(CFP_Cap_Sudan_05,10);
-            item_xx(CUP_B_AlicePack_Egineer,10);
             item_xx(CUP_V_B_PilotVest,10);
             item_xx(CUP_H_TK_PilotHelmet,10);
             item_xx(CUP_NVG_PVS7,10);
@@ -3938,7 +3294,7 @@ class CfgVehicles
             item_xx(SP_Harness1_Green,10);
             item_xx(SP_SSh68NetHelmet_Green1,10);
             item_xx(CUP_V_I_Carrier_Belt,10);
-            item_xx(CUP_B_AT_Backpack,10);
+            item_xx(CUP_B_RPGPack_Khaki,10);
             item_xx(CFP_Beret_Brown_Sudan,10);
             item_xx(CUP_B_AA_Backpack,10);
             item_xx(SP_Harness1_Tan,10);
@@ -3947,9 +3303,7 @@ class CfgVehicles
             item_xx(SP_PASGTHelmet_Tan1,10);
             item_xx(CUP_H_SLA_TankerHelmet,10);
             item_xx(CFP_Cap_Sudan_03,10);
-            item_xx(CUP_B_Medic,10);
             item_xx(CFP_Cap_Sudan_05,10);
-            item_xx(CUP_B_AlicePack_Egineer,10);
             item_xx(CUP_V_B_PilotVest,10);
             item_xx(CUP_H_TK_PilotHelmet,10);
             item_xx(CUP_NVG_PVS7,10);
@@ -3987,17 +3341,17 @@ class CfgVehicles
             item_xx(CFP_U_BattleDressUniform_3ColorDesert,10);
             item_xx(CFP_Uniform_Sudan_10,10);
             item_xx(CFP_Uniform_Sudan_13,10);
-            item_xx(CFP_Uniform_Sudan_04,10);
+            item_xx(CFP_U_BattleDressUniform_BrownDigital,10);
             item_xx(SP_0000_Standard_Coverall_Green,10);
-            item_xx(CFP_Uniform_Sudan_01,10);
-            item_xx(CFP_Uniform_Sudan_03,10);
+            item_xx(CFP_U_FieldUniform_AridDigital_SS,10);
+            item_xx(CFP_U_FieldUniform_BrownDigital_SS,10);
             item_xx(CFP_Uniform_Sudan_06,10);
-            item_xx(CFP_Uniform_Sudan_14,10);
+            item_xx(CFP_U_BattleDressUniform_Sword,10);
             item_xx(CFP_Uniform_Sudan_08,10);
-            item_xx(CFP_Uniform_Sudan_16,10);
+            item_xx(CFP_U_BattleDressUniform_Sword2,10);
             item_xx(CFP_Uniform_Sudan_05,10);
-            item_xx(CFP_Uniform_Sudan_12,10);
-            item_xx(CFP_Uniform_Sudan_11,10);
+            item_xx(CFP_U_WorkUniform_SudanPolice,10);
+            item_xx(CFP_U_WorkUniform_SudanPolice2,10);
             item_xx(CUP_optic_PGO7V3,5);
         };
     };

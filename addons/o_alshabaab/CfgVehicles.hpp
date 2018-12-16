@@ -183,7 +183,7 @@ class CfgVehicles {
     	genericNames = "AfroMen";
         faction = "CFP_O_ALSHABAAB";
 
-        identityTypes[] = {"Head_African","Language_Ackbar","G_IRAN_default"};
+        identityTypes[] = {"Head_African","Language_Ackbar"};
         uniformClass = "CFP_U_KhetPartug_Long_olive";
 
 
