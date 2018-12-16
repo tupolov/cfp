@@ -741,3 +741,55 @@ class CfgVehicleClasses
 			hiddenSelections[] = {"Camo"};
 		};
 	};
+
+	class CFP_PatrolCap_DDPM: ItemCore
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_PatrolCap_MarpatUganda.paa";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "Patrol Cap (DDPM)";
+		// picture = "\x\cfp\addons\headgear\PatrolCap\ui\GreenOlive.jpg";
+		model = "\x\cfp\addons\models\PatrolCap";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\DDPM.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "AuburnAlumni";
+
+
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 15;
+			uniformmodel = "\x\cfp\addons\models\PatrolCap";
+			modelSides[] = {3,1};
+			armor = 0;
+			passThrough = 0.30;
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\DDPM.paa"};
+			hiddenSelections[] = {"Camo"};
+		};
+	};
+
+	class CFP_PatrolCap_ChocChip: ItemCore
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_PatrolCap_MarpatUganda.paa";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "Patrol Cap (Choc Chip)";
+		// picture = "\x\cfp\addons\headgear\PatrolCap\ui\GreenOlive.jpg";
+		model = "\x\cfp\addons\models\PatrolCap";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\ChocChip.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "AuburnAlumni";
+
+
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 15;
+			uniformmodel = "\x\cfp\addons\models\PatrolCap";
+			modelSides[] = {3,1};
+			armor = 0;
+			passThrough = 0.30;
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\ChocChip.paa"};
+			hiddenSelections[] = {"Camo"};
+		};
+	};

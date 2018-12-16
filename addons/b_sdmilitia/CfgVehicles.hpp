@@ -264,7 +264,7 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_SDMilitia";
 
-        identityTypes[] = {"Head_TK","LanguagePER_F"};
+        identityTypes[] = {"Head_African","LanguagePER_F"};
 
         uniformClass = "CUP_U_B_US_BDU_desert";
 
@@ -797,10 +797,10 @@ class CfgVehicles {
         "CFP_Scarfbeard_grey", 0.2,
         "CFP_Scarfbeard_green", 0.2,
         "CFP_Scarfbeard_tan", 0.2,
-        "CFP_Scarfbeardshades_white", 0.2,
-        "CFP_Scarfbeardshades_grey", 0.2,
-        "CFP_Scarfbeardshades_green", 0.2,
-        "CFP_Scarfbeardshades_tan", 0.2,
+        "CFP_Scarfshades_tan", 0.3,
+        "CFP_Scarfshades_grey", 0.3,
+        "CFP_Scarfshades_white", 0.3,
+        "CFP_Scarfshades_green", 0.3,
         "CFP_Shemagh_Half_White", 0.3,
         "CFP_Shemagh_Half_Tan", 0.3,
         "CFP_Shemagh_Half_Black", 0.3
@@ -829,7 +829,7 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_SDMilitia";
 
-        identityTypes[] = {"Head_TK","LanguagePER_F"};
+        identityTypes[] = {"Head_African","LanguagePER_F"};
 
         uniformClass = "CFP_U_KhetPartug_Long_Creme";
 
@@ -921,14 +921,10 @@ class CfgVehicles {
         "CFP_Shemagh_Neck_Tan", 0.2,
         "CFP_Shemagh_Neck_Red", 0.2,
         "CFP_Shemagh_Neck_White", 0.2,
-        "CFP_Scarfbeard_white", 0.2,
-        "CFP_Scarfbeard_grey", 0.2,
-        "CFP_Scarfbeard_green", 0.2,
-        "CFP_Scarfbeard_tan", 0.2,
-        "CFP_Scarfbeardshades_white", 0.2,
-        "CFP_Scarfbeardshades_grey", 0.2,
-        "CFP_Scarfbeardshades_green", 0.2,
-        "CFP_Scarfbeardshades_tan", 0.2,
+        "CFP_Scarfshades_tan", 0.3,
+        "CFP_Scarfshades_grey", 0.3,
+        "CFP_Scarfshades_white", 0.3,
+        "CFP_Scarfshades_green", 0.3,
         "CFP_Shemagh_Half_White", 0.3,
         "CFP_Shemagh_Half_Tan", 0.3,
         "CFP_Shemagh_Half_Black", 0.3
@@ -1050,10 +1046,10 @@ class CfgVehicles {
         "CFP_Scarfbeard_grey", 0.2,
         "CFP_Scarfbeard_green", 0.2,
         "CFP_Scarfbeard_tan", 0.2,
-        "CFP_Scarfbeardshades_white", 0.2,
-        "CFP_Scarfbeardshades_grey", 0.2,
-        "CFP_Scarfbeardshades_green", 0.2,
-        "CFP_Scarfbeardshades_tan", 0.2,
+        "CFP_Scarfshades_tan", 0.3,
+        "CFP_Scarfshades_grey", 0.3,
+        "CFP_Scarfshades_white", 0.3,
+        "CFP_Scarfshades_green", 0.3,
         "CFP_Shemagh_Half_White", 0.3,
         "CFP_Shemagh_Half_Tan", 0.3,
         "CFP_Shemagh_Half_Black", 0.3
