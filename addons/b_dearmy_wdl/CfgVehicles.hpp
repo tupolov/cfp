@@ -167,6 +167,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman";
+        genericNames = "CUP_Names_GermanMen";
         side = 1;
         faction = "CFP_B_DEARMY_WDL";
         editorSubcategory = "CFP_EdSubcat_Personnel_Camo_Fleck";
@@ -240,6 +241,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Paramedic";
+        genericNames = "CUP_Names_GermanMen";
         attendant = 1;
         icon = "iconManMedic";
         picture = "pictureHeal";
@@ -318,6 +320,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Team Leader";
+        genericNames = "CUP_Names_GermanMen";
         side = 1;
         faction = "CFP_B_DEARMY_WDL";
         editorSubcategory = "CFP_EdSubcat_Personnel_Camo_Fleck";
@@ -392,6 +395,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Scout";
+        genericNames = "CUP_Names_GermanMen";
         side = 1;
         faction = "CFP_B_DEARMY_WDL";
         editorSubcategory = "CFP_EdSubcat_Personnel_Camo_Fleck";
@@ -433,6 +437,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Machinegunner";
+        genericNames = "CUP_Names_GermanMen";
         side = 1;
         faction = "CFP_B_DEARMY_WDL";
         editorSubcategory = "CFP_EdSubcat_Personnel_Camo_Fleck";
@@ -522,6 +527,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "AA Specialist (Fliegerfaust)";
+        genericNames = "CUP_Names_GermanMen";
         side = 1;
         faction = "CFP_B_DEARMY_WDL";
         editorSubcategory = "CFP_EdSubcat_Personnel_Camo_Fleck";
@@ -656,6 +662,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Sniper (G22)";
+        genericNames = "CUP_Names_GermanMen";
         side = 1;
         faction = "CFP_B_DEARMY_WDL";
         editorSubcategory = "CFP_EdSubcat_Personnel_Camo_Fleck";
@@ -957,6 +964,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Pilot";
+        genericNames = "CUP_Names_GermanMen";
         side = 1;
         faction = "CFP_B_DEARMY_WDL";
         editorSubcategory = "CFP_EdSubcat_Personnel_Camo_Fleck";
@@ -1026,6 +1034,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Team Leader [Assault]";
+        genericNames = "CUP_Names_GermanMen";
         side = 1;
         faction = "CFP_B_DEARMY_WDL";
 
@@ -1114,6 +1123,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Machine Gunner [Assault]";
+        genericNames = "CUP_Names_GermanMen";
         side = 1;
         faction = "CFP_B_DEARMY_WDL";
 
