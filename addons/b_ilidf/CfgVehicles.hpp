@@ -290,6 +290,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman";
+        genericNames = "IsraelNames";
         side = 1;
         faction = "CFP_B_ILIDF";
 
@@ -581,6 +582,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Crew";
+        genericNames = "IsraelNames";
         side = 1;
         faction = "CFP_B_ILIDF";
 
@@ -620,6 +622,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Helicopter Pilot";
+        genericNames = "IsraelNames";
         side = 1;
         faction = "CFP_B_ILIDF";
 
@@ -659,6 +662,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Helicopter Crew";
+        genericNames = "IsraelNames";
         side = 1;
         faction = "CFP_B_ILIDF";
 
@@ -698,6 +702,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Pilot";
+        genericNames = "IsraelNames";
         side = 1;
         faction = "CFP_B_ILIDF";
 
@@ -739,6 +744,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman [Recon]";
+        genericNames = "IsraelNames";
         side = 1;
         faction = "CFP_B_ILIDF";
 
@@ -1145,6 +1151,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Commando [Team Leader]";
+        genericNames = "IsraelNames";
         engineer = 1;
         canDeactivateMines = 1;
         side = 1;
@@ -1233,6 +1240,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Commando [Automatic Rifleman]";
+        genericNames = "IsraelNames";
         engineer = 1;
         canDeactivateMines = 1;
         side = 1;
@@ -1319,6 +1327,7 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Commando [Explosive Specialist]";
+        genericNames = "IsraelNames";
         engineer = 1;
         canDeactivateMines = 1;
         side = 1;
