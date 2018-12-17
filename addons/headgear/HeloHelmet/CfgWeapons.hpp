@@ -10,7 +10,7 @@ class CfgVehicleClasses
 	};
 };
 */
-	class CFP_SOARCREW_SKULL: ItemCore
+class CFP_SOARCREW_SKULL: ItemCore
     {
     picture = "\A3\Characters_F\data\ui\icon_H_Crew_Helmet_Heli_B_CA.paa";
 	scope = 2;
@@ -20,6 +20,8 @@ class CfgVehicleClasses
 	hiddenSelectionsTextures[] = {"x\cfp\addons\headgear\HeloHelmet\soarskull.paa"};
 	hiddenSelections[] = {"Camo"};
 	author = "AuburnAlumni";
+        ace_hearing_protection = 0.85;  // Protection against deafening (0 to 1, higher means more protection)
+        ace_hearing_lowerVolume = 0.60;  // Muffling of the sound (0 to 1, higher means more muffling)
 
 	class ItemInfo: HeadgearItem
 	{
@@ -35,7 +37,7 @@ class CfgVehicleClasses
 	};
 };
 
-	class CFP_SOARCREW_RED: ItemCore
+class CFP_SOARCREW_RED: ItemCore
     {
     picture = "\A3\Characters_F\data\ui\icon_H_Crew_Helmet_Heli_B_CA.paa";
 	scope = 2;
@@ -45,6 +47,8 @@ class CfgVehicleClasses
 	hiddenSelectionsTextures[] = {"x\cfp\addons\headgear\HeloHelmet\soarred.paa"};
 	hiddenSelections[] = {"Camo"};
 	author = "AuburnAlumni";
+        ace_hearing_protection = 0.85;  // Protection against deafening (0 to 1, higher means more protection)
+        ace_hearing_lowerVolume = 0.60;  // Muffling of the sound (0 to 1, higher means more muffling)
 
 	class ItemInfo: HeadgearItem
 	{
@@ -60,7 +64,7 @@ class CfgVehicleClasses
 	};
 };
 
-	class CFP_SOARCREW_BLUE: ItemCore
+class CFP_SOARCREW_BLUE: ItemCore
     {
     picture = "\A3\Characters_F\data\ui\icon_H_Crew_Helmet_Heli_B_CA.paa";
 	scope = 2;
@@ -70,6 +74,8 @@ class CfgVehicleClasses
 	hiddenSelectionsTextures[] = {"x\cfp\addons\headgear\HeloHelmet\soarblue.paa"};
 	hiddenSelections[] = {"Camo"};
 	author = "AuburnAlumni";
+        ace_hearing_protection = 0.85;  // Protection against deafening (0 to 1, higher means more protection)
+        ace_hearing_lowerVolume = 0.60;  // Muffling of the sound (0 to 1, higher means more muffling)
 
 	class ItemInfo: HeadgearItem
 	{
