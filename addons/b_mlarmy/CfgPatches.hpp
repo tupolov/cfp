@@ -72,7 +72,9 @@ class CfgPatches {
             "CUP_AirVehciles_SA330",
             "CUP_WheeledVehicles_RG31"
         };
-        author = "Drew";
+        requiredVersion = REQUIRED_VERSION;
+        VERSION_CONFIG;
         authors[] = {"Drew"};
+        author = MODULE_AUTHOR;
     };
 };
