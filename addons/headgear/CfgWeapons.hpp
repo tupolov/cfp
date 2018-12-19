@@ -34,6 +34,7 @@ class CfgWeapons {
     #include "M96Helmet\CfgWeapons.hpp"
     #include "MichHelmet\CfgWeapons.hpp"
     #include "Mk7Helmet\CfgWeapons.hpp"
+    #include "MitzHelmet\CfgWeapons.hpp"
     #include "OfficerHat\CfgWeapons.hpp"
     #include "PASGTHelmet\CfgWeapons.hpp"
     #include "PatrolCap\CfgWeapons.hpp"

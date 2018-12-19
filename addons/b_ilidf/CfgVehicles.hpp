@@ -350,7 +350,23 @@ class CfgVehicles {
                 "CFP_IDF_M76_CF_GG_Black", 0.2,
                 "CFP_IDF_M76_GG_Black", 0.2,
                 "CFP_IDF_M76_BD_CF_GG_Black", 0.2,
-                "CFP_IDF_M76_BD_Camo", 0.3
+                "CFP_IDF_M76_BD_Camo", 0.3,
+                "CFP_MitzHelm1_Wdl", 0.4,
+                "CFP_MitzHelm1_Des", 0.4,
+                "CFP_MitzHelm1_Wdl2", 0.2,
+                "CFP_MitzHelm1_Des2", 0.2,
+                "CFP_MitzHelm2_Wdl", 0.4,
+                "CFP_MitzHelm2_Des", 0.4,
+                "CFP_MitzHelm2_Wdl2", 0.2,
+                "CFP_MitzHelm2_Des2", 0.2,
+                "CFP_MitzHelm3_Wdl", 0.4,
+                "CFP_MitzHelm3_Des", 0.4,
+                "CFP_MitzHelm3_Wdl2", 0.2,
+                "CFP_MitzHelm3_Des2", 0.2,
+                "CFP_MitzHelm4_Wdl", 0.4,
+                "CFP_MitzHelm4_Des", 0.4,
+                "CFP_MitzHelm4_Wdl2", 0.2,
+                "CFP_MitzHelm4_Des2", 0.2
             };
 
         //IDF Vests
@@ -776,34 +792,20 @@ class CfgVehicles {
 
         //IDF Facewear
             facewearList[] = {
-                "SP_Balaclava_Black", 0.7,
-                "SP_Balaclava_IDF", 0.3
+                "SP_Kneepads_Green", 0.7,
+                "SP_Kneepads_Black", 0.3
             };
 
         //IDF Helmets
             headgearList[] = {
-                "CFP_IDF_M76", 0.2,
-                "CFP_IDF_M76_BD", 0.5,
-                "CFP_IDF_M76_BD_GG", 0.2,
-                "CFP_IDF_M76_BD_CB_GG", 0.2,
-                "CFP_IDF_M76_CB_GG", 0.2,
-                "CFP_IDF_M76_CF_GG", 0.2,
-                "CFP_IDF_M76_GG", 0.2,
-                "CFP_IDF_M76_BD_CF_GG", 0.2,
-                "CFP_IDF_M76_BD_Black", 0.5,
-                "CFP_IDF_M76_BD_GG_Black", 0.2,
-                "CFP_IDF_M76_BD_CB_GG_Black", 0.2,
-                "CFP_IDF_M76_CB_GG_Black", 0.2,
-                "CFP_IDF_M76_CF_GG_Black", 0.2,
-                "CFP_IDF_M76_GG_Black", 0.2,
-                "CFP_IDF_M76_BD_CF_GG_Black", 0.2,
-                "CFP_IDF_M76_BD_Camo", 0.3
-            };
-
-        //IDF Kneepads
-            nvgList[] = {
-                "SP_Kneepads_Green", 0.7,
-                "SP_Kneepads_Black", 0.3
+                "CFP_Mitznefet", 0.5,
+                "CFP_Mitznefet_Desert", 0.5,
+                "CFP_Mitznefet_Desert_Tan", 0.2,
+                "CFP_Mitznefet_Desert_Ranger", 0.2,
+                "CFP_Mitznefet_Desert_Tropical", 0.2,
+                "CFP_Mitznefet_Tan", 0.2,
+                "CFP_Mitznefet_Ranger", 0.2,
+                "CFP_Mitznefet_Tropical", 0.2
             };
 
         class EventHandlers : EventHandlers {
