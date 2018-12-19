@@ -50,7 +50,6 @@ class CfgPatches {
             "CFP_B_MLARMY_RG_31_01"
         };
         weapons[] = {};
-        requiredVersion = 1.62;
         requiredAddons[] = {
             "A3_Characters_F",
             "cfp_uniforms",

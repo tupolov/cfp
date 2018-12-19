@@ -146,7 +146,6 @@ class CfgVehicles {
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
         uniformClass = "CFP_U_FieldUniform_ana_wddark";
 
-
         linkedItems[] = {"CFP_ITV_Empty_Green","CFP_Basic_Helmet_Black","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CFP_ITV_Empty_Green","CFP_Basic_Helmet_Black","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
@@ -157,6 +156,7 @@ class CfgVehicles {
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_ana_wddark",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"MiniGrenade",2,1}}},{"CFP_ITV_Empty_Green",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",6,30}}},{},"CFP_Basic_Helmet_Black","CFP_Oakleys_Drk",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+
         randomGearProbability = 100;
 
         //Uniforms
@@ -928,7 +928,7 @@ class CfgVehicles {
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_MTVR_Repair_01.jpg";
     };
 
-     class CFP_B_AFARMY_Helicopter_Pilot_01 : O_Soldier_F_OCimport_02 {
+    class CFP_B_AFARMY_Helicopter_Pilot_01 : O_Soldier_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -953,10 +953,10 @@ class CfgVehicles {
 
        randomGearProbability = 100;
 
-	// Aviator glasses
-		facewearList[] = {
-	"G_Aviator", 0.9
-		};
+    	// Aviator glasses
+    		facewearList[] = {
+    	       "G_Aviator", 0.9
+    		};
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -1333,8 +1333,7 @@ class CfgVehicles {
         identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
         uniformClass = "CFP_U_FieldUniform_m81anasf";
 
-
-       linkedItems[] = {"CFP_HV5_Ciras_Olive","CFP_OPS2017_Helmet_OliveFabric","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS15_black"};
+        linkedItems[] = {"CFP_HV5_Ciras_Olive","CFP_OPS2017_Helmet_OliveFabric","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS15_black"};
         respawnlinkedItems[] = {"CFP_HV5_Ciras_Olive","CFP_OPS2017_Helmet_OliveFabric","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS15_black"};
 
         weapons[] = {"CUP_arifle_M4A3_black","CUP_hgun_Glock17_blk","Binocular"};
@@ -1347,7 +1346,7 @@ class CfgVehicles {
 
         randomGearProbability = 100;
 
-	// ANA Commando Shemaghs
+	   // ANA Commando Shemaghs
 		// Beards / mouth scarf / scarf / sunglasses
         facewearList[] = {
             "CFP_Oakleys_Clr", 0.2,
@@ -1400,7 +1399,6 @@ class CfgVehicles {
     class CFP_B_AFARMY_Team_Leader_01 : CFP_B_AFARMY_Operator_01 {
 
         displayName = "Team Leader [SF]";
-
 
         linkedItems[] = {"CFP_HV5_Ciras_Olive","CUP_H_USArmy_Helmet_ECH1_Black","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS15_black"};
         respawnlinkedItems[] = {"CFP_HV5_Ciras_Olive","CUP_H_USArmy_Helmet_ECH1_Black","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS15_black"};
@@ -1494,7 +1492,7 @@ class CfgVehicles {
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Medic_SF_01.jpg";
     };
 
-        class CFP_B_AFARMY_Operator_Light_SF_01 : O_recon_F_OCimport_02 {
+    class CFP_B_AFARMY_Operator_Light_SF_01 : O_recon_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1517,9 +1515,9 @@ class CfgVehicles {
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A3_black","","CUP_acc_Flashlight","CUP_optic_ACOG",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_m81anasf",{{"FirstAidKit",1},{"CUP_17Rnd_9x19_glock17",2,17},{"MiniGrenade",2,1},{"CUP_30Rnd_556x45_Stanag",1,30}}},{"CUP_V_B_RRV_TL",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",6,30},{"SmokeShell",2,1}}},{},"SP_BeanieHat_Green","CUP_FR_NeckScarf2",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
-    randomGearProbability = 100;
+        randomGearProbability = 100;
 
-    // ANA Commando Shemaghs
+        // ANA Commando Shemaghs
         facewearList[] = {
             "CFP_Oakleys_Clr", 0.2,
             "CFP_Oakleys_Drk", 0.2,
