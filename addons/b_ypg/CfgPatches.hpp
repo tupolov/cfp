@@ -19,7 +19,10 @@ class CfgPatches {
             "cfp_b_ypg_offroad",
             "cfp_b_ypg_offroad_flag",
             "cfp_b_ypg_offroad_M2",
-            "cfp_b_ypg_offroad_M2_flag"
+            "cfp_b_ypg_offroad_M2_flag",
+			"cfp_b_ypg_Ural_Refuel_01",
+			"cfp_b_ypg_Ural_Repair_01",
+			"cfp_b_ypg_Ural_Ammo_01"
         };
 		weapons[] = {"YPG_uniform","YPG_shemag"};
         requiredAddons[] = {
