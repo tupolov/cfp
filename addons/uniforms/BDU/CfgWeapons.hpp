@@ -1,6 +1,7 @@
-	class CFP_BDU_M81Sudan: Uniform_Base
+	class CFP_BDU_M81Sudan : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_M81Sudan.paa;
+
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (M81 Sudan)";
@@ -15,9 +16,10 @@
 		};
 	};
 
-	class CFP_BDU_M81Sudan2: Uniform_Base
+	class CFP_BDU_M81Sudan2 : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_M81Sudan2.paa;
+
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (M81 Sudan Plain)";
@@ -32,9 +34,10 @@
 		};
 	};
 
-	class CFP_BDU_M81Mali: Uniform_Base
+	class CFP_BDU_M81Mali : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_M81Mali.paa;
+
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (M81 Mali)";
@@ -49,9 +52,10 @@
 		};
 	};
 
-	class CFP_BDU_Wdl_Mali: Uniform_Base
+	class CFP_BDU_Wdl_Mali : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_Wdl_Mali.paa;
+
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (Woodland Mali)";
@@ -66,9 +70,10 @@
 		};
 	};
 
-	class CFP_BDU_M81: Uniform_Base
+	class CFP_BDU_M81 : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_M81.paa;
+
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (M81)";
@@ -83,9 +88,10 @@
 		};
 	};
 
-	class CFP_BDU_UCP: Uniform_Base
+	class CFP_BDU_UCP : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_UCP.paa;
+
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (UCP)";
@@ -100,9 +106,10 @@
 		};
 	};
 
-	class CFP_BDU_DCU: Uniform_Base
+	class CFP_BDU_DCU : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_DCU.paa;
+
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (DCU)";
@@ -117,9 +124,10 @@
 		};
 	};
 
-	class CFP_BDU_UPDFM81: Uniform_Base
+	class CFP_BDU_UPDFM81 : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_UPDFM81.paa;
+
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (UPDF M81)";
@@ -134,9 +142,10 @@
 		};
 	};
 
-	class CFP_BDU_TPat: Uniform_Base
+	class CFP_BDU_TPat : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_TPat.paa;
+
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (TPat)";
@@ -151,9 +160,10 @@
 		};
 	};
 
-	class CFP_BDU_IRAN: Uniform_Base
+	class CFP_BDU_IRAN : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_IRAN.paa;
+
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (DPM Iran)";
@@ -168,9 +178,10 @@
 		};
 	};
 
-	class CFP_BDU_DDPM: Uniform_Base
+	class CFP_BDU_DDPM : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_DDPM.paa;
+
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (DDPM)";
@@ -185,9 +196,10 @@
 		};
 	};
 
-	class CFP_BDU_ERDL: Uniform_Base
+	class CFP_BDU_ERDL : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_ERDL.paa;
+
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (ERDL)";
@@ -202,9 +214,10 @@
 		};
 	};
 
-	class CFP_BDU_Tiger: Uniform_Base
+	class CFP_BDU_Tiger : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_Tiger.paa;
+
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (Tiger)";
@@ -219,9 +232,10 @@
 		};
 	};
 
-	class CFP_BDU_ChocChip: Uniform_Base
+	class CFP_BDU_ChocChip : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_ChocChip.paa;
+
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (ChocChip)";
@@ -236,9 +250,10 @@
 		};
 	};
 
-	class CFP_BDU_Marpat: Uniform_Base
+	class CFP_BDU_Marpat : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_Marpat.paa;
+
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (Marpat)";
@@ -253,9 +268,10 @@
 		};
 	};
 
-	class CFP_BDU_UPDFMarpat: Uniform_Base
+	class CFP_BDU_UPDFMarpat : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_UPDFMarpat.paa;
+
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (UPDF Marpat)";
@@ -270,9 +286,10 @@
 		};
 	};
 
-	class CFP_BDU_OD_Sudan: Uniform_Base
+	class CFP_BDU_OD_Sudan : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_OD_Sudan.paa;
+
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (OD Sudan)";
@@ -287,9 +304,10 @@
 		};
 	};
 
-	class CFP_BDU_Sword2: Uniform_Base
+	class CFP_BDU_Sword2 : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_Sword2.paa;
+
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (Sword)";
@@ -304,9 +322,10 @@
 		};
 	};
 
-	class CFP_BDU_Grey_Chad: Uniform_Base
+	class CFP_BDU_Grey_Chad : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_Grey_Chad.paa;
+
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (Grey Chad)";
@@ -321,9 +340,10 @@
 		};
 	};
 
-	class CFP_BDU_Grey: Uniform_Base
+	class CFP_BDU_Grey : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_Grey.paa;
+
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (Grey)";
@@ -338,9 +358,10 @@
 		};
 	};
 
-	class CFP_BDU_CEU: Uniform_Base
+	class CFP_BDU_CEU : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_CEU.paa;
+
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (French CEU)";
@@ -355,9 +376,10 @@
 		};
 	};
 
-	class CFP_BDU_Tan: Uniform_Base
+	class CFP_BDU_Tan : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_ru_digi_uniform.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_Tan.paa;
+
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (Tan)";

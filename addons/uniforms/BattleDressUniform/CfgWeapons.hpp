@@ -577,7 +577,7 @@
 
 	class CFP_U_BattleDressUniform_basijdigital: Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_CFP_U_BattleDressUniform_tigerdesert_tan.paa";
+		picture = "\x\cfp\addons\uniforms\data\ui\icon_CFP_U_BattleDressUniform_basijdigital.paa";
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (Iran Basij Digital)";

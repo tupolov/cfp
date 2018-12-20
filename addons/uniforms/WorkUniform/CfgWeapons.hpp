@@ -1,10 +1,11 @@
-	class CFP_U_WorkUniform_Green: Uniform_Base
+	class CFP_U_WorkUniform_Green : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_WorkUniform_NodUrban.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_U_WorkUniform_Green.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Work Uniform (Green Shirt)";
-		// picture = "\x\cfp\addons\uniforms\WorkUniform\0000_Standard\ui\NodUrban.jpg";
+
 		author = "AuburnAlumni";
 
 		class ItemInfo: UniformItem
@@ -18,13 +19,14 @@
 		};
 	};
 
-	class CFP_U_WorkUniform_ANP: Uniform_Base
+	class CFP_U_WorkUniform_ANP : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_WorkUniform_NodUrban.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_U_WorkUniform_ANP.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Work Uniform (ANP)";
-		// picture = "\x\cfp\addons\uniforms\WorkUniform\0000_Standard\ui\NodUrban.jpg";
+
 		author = "AuburnAlumni";
 
 		class ItemInfo: UniformItem
@@ -38,13 +40,14 @@
 		};
 	};
 
-	class CFP_U_WorkUniform_M81_Sudan: Uniform_Base
+	class CFP_U_WorkUniform_M81_Sudan : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_WorkUniform_NodUrban.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_U_WorkUniform_M81_Sudan.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Work Uniform (M81 Sudan)";
-		// picture = "\x\cfp\addons\uniforms\WorkUniform\0000_Standard\ui\NodUrban.jpg";
+
 		author = "AuburnAlumni";
 
 		class ItemInfo: UniformItem
@@ -58,13 +61,14 @@
 		};
 	};
 
-	class CFP_U_WorkUniform_DDPM: Uniform_Base
+	class CFP_U_WorkUniform_DDPM : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_WorkUniform_NodUrban.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_U_WorkUniform_DDPM.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Work Uniform (DDPM)";
-		// picture = "\x\cfp\addons\uniforms\WorkUniform\0000_Standard\ui\NodUrban.jpg";
+
 		author = "AuburnAlumni";
 
 		class ItemInfo: UniformItem
@@ -78,13 +82,14 @@
 		};
 	};
 
-	class CFP_U_WorkUniform_M81: Uniform_Base
+	class CFP_U_WorkUniform_M81 : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_WorkUniform_NodUrban.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_U_WorkUniform_M81.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Work Uniform (M81)";
-		// picture = "\x\cfp\addons\uniforms\WorkUniform\0000_Standard\ui\NodUrban.jpg";
+
 		author = "AuburnAlumni";
 
 		class ItemInfo: UniformItem
@@ -98,13 +103,14 @@
 		};
 	};
 
-	class CFP_U_WorkUniform_M81Des: Uniform_Base
+	class CFP_U_WorkUniform_M81Des : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_WorkUniform_NodUrban.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_U_WorkUniform_M81Des.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Work Uniform (M81 Desert)";
-		// picture = "\x\cfp\addons\uniforms\WorkUniform\0000_Standard\ui\NodUrban.jpg";
+
 		author = "AuburnAlumni";
 
 		class ItemInfo: UniformItem
@@ -136,13 +142,14 @@
 		};
 	};
 
-	class CFP_U_WorkUniform_Tropentarn: Uniform_Base
+	class CFP_U_WorkUniform_Tropentarn : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_WorkUniform_NodUrban.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_U_WorkUniform_Tropentarn.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Work Uniform (Tropentarn)";
-		// picture = "\x\cfp\addons\uniforms\WorkUniform\0000_Standard\ui\NodUrban.jpg";
+
 		author = "AuburnAlumni";
 
 		class ItemInfo: UniformItem
@@ -156,13 +163,14 @@
 		};
 	};
 
-	class CFP_U_WorkUniform_Flecktarn: Uniform_Base
+	class CFP_U_WorkUniform_Flecktarn : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_WorkUniform_NodUrban.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_U_WorkUniform_Flecktarn.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Work Uniform (Flecktarn)";
-		// picture = "\x\cfp\addons\uniforms\WorkUniform\0000_Standard\ui\NodUrban.jpg";
+
 		author = "AuburnAlumni";
 
 		class ItemInfo: UniformItem
@@ -176,13 +184,14 @@
 		};
 	};
 
-	class CFP_U_WorkUniform_DRK: Uniform_Base
+	class CFP_U_WorkUniform_DRK : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_WorkUniform_NodUrban.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_U_WorkUniform_DRK.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Work Uniform (DRK)";
-		// picture = "\x\cfp\addons\uniforms\WorkUniform\0000_Standard\ui\NodUrban.jpg";
+
 		author = "AuburnAlumni";
 
 		class ItemInfo: UniformItem
@@ -196,13 +205,14 @@
 		};
 	};
 
-	class CFP_U_WorkUniform_DRK2: Uniform_Base
+	class CFP_U_WorkUniform_DRK2 : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_WorkUniform_NodUrban.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_U_WorkUniform_DRK2.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Work Uniform (DRK Camo)";
-		// picture = "\x\cfp\addons\uniforms\WorkUniform\0000_Standard\ui\NodUrban.jpg";
+
 		author = "AuburnAlumni";
 
 		class ItemInfo: UniformItem
@@ -216,13 +226,14 @@
 		};
 	};
 
-	class CFP_U_WorkUniform_DRK2v2: Uniform_Base
+	class CFP_U_WorkUniform_DRK2v2 : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_WorkUniform_NodUrban.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_U_WorkUniform_DRK2v2.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Work Uniform (DRK Camo2)";
-		// picture = "\x\cfp\addons\uniforms\WorkUniform\0000_Standard\ui\NodUrban.jpg";
+
 		author = "AuburnAlumni";
 
 		class ItemInfo: UniformItem
@@ -236,13 +247,14 @@
 		};
 	};
 
-	class CFP_U_WorkUniform_DPM: Uniform_Base
+	class CFP_U_WorkUniform_DPM : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_WorkUniform_NodUrban.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_U_WorkUniform_DPM.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Work Uniform (DPM)";
-		// picture = "\x\cfp\addons\uniforms\WorkUniform\0000_Standard\ui\NodUrban.jpg";
+
 		author = "AuburnAlumni";
 
 		class ItemInfo: UniformItem
@@ -256,13 +268,14 @@
 		};
 	};
 
-	class CFP_U_WorkUniform_DesTiger: Uniform_Base
+	class CFP_U_WorkUniform_DesTiger : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_WorkUniform_NodUrban.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_U_WorkUniform_DesTiger.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Work Uniform (Desert Tiger)";
-		// picture = "\x\cfp\addons\uniforms\WorkUniform\0000_Standard\ui\NodUrban.jpg";
+
 		author = "AuburnAlumni";
 
 		class ItemInfo: UniformItem
@@ -276,13 +289,14 @@
 		};
 	};
 
-	class CFP_U_WorkUniform_BlackGrey: Uniform_Base
+	class CFP_U_WorkUniform_BlackGrey : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_WorkUniform_NodUrban.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_U_WorkUniform_BlackGrey.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Work Uniform (Black Shirt Grey Pants)";
-		// picture = "\x\cfp\addons\uniforms\WorkUniform\0000_Standard\ui\NodUrban.jpg";
+
 		author = "AuburnAlumni";
 
 		class ItemInfo: UniformItem
@@ -296,13 +310,14 @@
 		};
 	};
 
-	class CFP_U_WorkUniform_TanM81: Uniform_Base
+	class CFP_U_WorkUniform_TanM81 : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_WorkUniform_NodUrban.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_U_WorkUniform_TanM81.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Work Uniform (Tan Shirt M81 Pants)";
-		// picture = "\x\cfp\addons\uniforms\WorkUniform\0000_Standard\ui\NodUrban.jpg";
+
 		author = "AuburnAlumni";
 
 		class ItemInfo: UniformItem
@@ -316,13 +331,14 @@
 		};
 	};
 
-	class CFP_U_WorkUniform_ChocChip: Uniform_Base
+	class CFP_U_WorkUniform_ChocChip : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_WorkUniform_NodUrban.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_U_WorkUniform_ChocChip.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Work Uniform (Chocolate Chip)";
-		// picture = "\x\cfp\addons\uniforms\WorkUniform\0000_Standard\ui\NodUrban.jpg";
+
 		author = "AuburnAlumni";
 
 		class ItemInfo: UniformItem
@@ -336,13 +352,14 @@
 		};
 	};
 
-	class CFP_U_WorkUniform_3Desert: Uniform_Base
+	class CFP_U_WorkUniform_3Desert : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_WorkUniform_NodUrban.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_U_WorkUniform_3Desert.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Work Uniform (3 Color Desert)";
-		// picture = "\x\cfp\addons\uniforms\WorkUniform\0000_Standard\ui\NodUrban.jpg";
+
 		author = "AuburnAlumni";
 
 		class ItemInfo: UniformItem
@@ -356,13 +373,14 @@
 		};
 	};
 
-	class CFP_U_WorkUniform_SudanPolice: Uniform_Base
+	class CFP_U_WorkUniform_SudanPolice : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_WorkUniform_NodUrban.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_U_WorkUniform_SudanPolice.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Work Uniform (Sudan Police)";
-		// picture = "\x\cfp\addons\uniforms\WorkUniform\0000_Standard\ui\NodUrban.jpg";
+
 		author = "AuburnAlumni";
 
 		class ItemInfo: UniformItem
@@ -376,13 +394,14 @@
 		};
 	};
 
-	class CFP_U_WorkUniform_SudanPolice2: Uniform_Base
+	class CFP_U_WorkUniform_SudanPolice2 : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_WorkUniform_NodUrban.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_U_WorkUniform_SudanPolice2.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Work Uniform (Sudan Police 2)";
-		// picture = "\x\cfp\addons\uniforms\WorkUniform\0000_Standard\ui\NodUrban.jpg";
+
 		author = "AuburnAlumni";
 
 		class ItemInfo: UniformItem

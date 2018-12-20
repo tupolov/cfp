@@ -5,7 +5,7 @@
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (Black)";
-		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+
 		author = "SP Craig";
 
 		class ItemInfo: UniformItem
@@ -24,7 +24,7 @@
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform SS (Black)";
-		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+
 		author = "SP Craig";
 
 		class ItemInfo: UniformItem
@@ -37,13 +37,14 @@
 		};
 	};
 
-	class CFP_FieldUniform_iadcu: Uniform_Base
+	class CFP_FieldUniform_iadcu : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_FieldUniform_iadcu.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (IA DCU)";
-		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+
 		author = "CFP";
 
 		class ItemInfo: UniformItem
@@ -56,13 +57,14 @@
 		};
 	};
 
-	class CFP_FieldUniform_iadcu_SS: Uniform_Base
+	class CFP_FieldUniform_iadcu_SS : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black_SS.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_FieldUniform_iadcu_SS.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform SS (IA DCU)";
-		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+
 		author = "CFP";
 
 		class ItemInfo: UniformItem
@@ -75,13 +77,14 @@
 		};
 	};
 
-	class CFP_FieldUniform_police_sudan_SS: Uniform_Base
+	class CFP_FieldUniform_police_sudan_SS : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black_SS.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_FieldUniform_police_sudan_SS.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform SS (Sudan Police)";
-		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+
 		author = "CFP";
 
 		class ItemInfo: UniformItem
@@ -94,13 +97,14 @@
 		};
 	};
 
-	class CFP_FieldUniform_tanblack_SS: Uniform_Base
+	class CFP_FieldUniform_tanblack_SS : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black_SS.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_FieldUniform_tanblack_SS.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform SS (Tan/Black)";
-		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+
 		author = "CFP";
 
 		class ItemInfo: UniformItem
@@ -113,13 +117,14 @@
 		};
 	};
 
-	class CFP_FieldUniform_tanatacs_SS: Uniform_Base
+	class CFP_FieldUniform_tanatacs_SS : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black_SS.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_FieldUniform_tanatacs_SS.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform SS (Tan/ATACSAU)";
-		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+
 		author = "CFP";
 
 		class ItemInfo: UniformItem
@@ -132,13 +137,14 @@
 		};
 	};
 
-	class CFP_FieldUniform_marpatm81_SS: Uniform_Base
+	class CFP_FieldUniform_marpatm81_SS : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black_SS.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_FieldUniform_marpatm81_SS.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform SS (Marpat/M81)";
-		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+
 		author = "CFP";
 
 		class ItemInfo: UniformItem
@@ -151,13 +157,14 @@
 		};
 	};
 
-	class CFP_FieldUniform_dcum81_SS: Uniform_Base
+	class CFP_FieldUniform_dcum81_SS : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black_SS.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_FieldUniform_dcum81_SS.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform SS (DCU/M81)";
-		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+
 		author = "CFP";
 
 		class ItemInfo: UniformItem
@@ -170,13 +177,14 @@
 		};
 	};
 
-	class CFP_FieldUniform_rogtan_SS: Uniform_Base
+	class CFP_FieldUniform_rogtan_SS : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black_SS.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_FieldUniform_rogtan_SS.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform SS (Roggenwolf/Tan)";
-		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+
 		author = "CFP";
 
 		class ItemInfo: UniformItem
@@ -189,13 +197,14 @@
 		};
 	};
 
-	class CFP_FieldUniform_blackacu_SS: Uniform_Base
+	class CFP_FieldUniform_blackacu_SS : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black_SS.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_FieldUniform_blackacu_SS.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform SS (Black/ACU)";
-		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+
 		author = "CFP";
 
 		class ItemInfo: UniformItem
@@ -208,13 +217,14 @@
 		};
 	};
 
-	class CFP_FieldUniform_fleckacr_SS: Uniform_Base
+	class CFP_FieldUniform_fleckacr_SS : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black_SS.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_FieldUniform_fleckacr_SS.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform SS (Flecktarn/ACR Desert)";
-		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+
 		author = "CFP";
 
 		class ItemInfo: UniformItem
@@ -227,13 +237,14 @@
 		};
 	};
 
-	class CFP_FieldUniform_pesh_3cd: Uniform_Base
+	class CFP_FieldUniform_pesh_3cd : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_FieldUniform_pesh_3cd.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (Peshmerga DCU)";
-		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+
 		author = "CFP";
 
 		class ItemInfo: UniformItem
@@ -246,13 +257,14 @@
 		};
 	};
 
-	class CFP_FieldUniform_pesh_3cd_SS: Uniform_Base
+	class CFP_FieldUniform_pesh_3cd_SS : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black_SS.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_FieldUniform_pesh_3cd_SS.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform SS (Peshmerga DCU)";
-		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+
 		author = "CFP";
 
 		class ItemInfo: UniformItem
@@ -265,13 +277,14 @@
 		};
 	};
 
-	class CFP_FieldUniform_pesh_edrl: Uniform_Base
+	class CFP_FieldUniform_pesh_edrl : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_FieldUniform_pesh_edrl.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (Peshmerga EDRL)";
-		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+
 		author = "CFP";
 
 		class ItemInfo: UniformItem
@@ -284,13 +297,14 @@
 		};
 	};
 
-	class CFP_FieldUniform_pesh_edrl_SS: Uniform_Base
+	class CFP_FieldUniform_pesh_edrl_SS : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black_SS.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_FieldUniform_pesh_edrl_SS.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform SS (Peshmerga EDRL)";
-		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+
 		author = "CFP";
 
 		class ItemInfo: UniformItem
@@ -303,13 +317,14 @@
 		};
 	};
 
-	class CFP_FieldUniform_pesh_m81: Uniform_Base
+	class CFP_FieldUniform_pesh_m81 : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_FieldUniform_pesh_m81.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (Peshmerga M81)";
-		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+
 		author = "CFP";
 
 		class ItemInfo: UniformItem
@@ -322,13 +337,14 @@
 		};
 	};
 
-	class CFP_FieldUniform_pesh_m81_SS: Uniform_Base
+	class CFP_FieldUniform_pesh_m81_SS : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black_SS.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_FieldUniform_pesh_m81_SS.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform SS (Peshmerga M81)";
-		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+
 		author = "CFP";
 
 		class ItemInfo: UniformItem
@@ -341,13 +357,14 @@
 		};
 	};
 
-	class CFP_FieldUniform_ipdigital: Uniform_Base
+	class CFP_FieldUniform_ipdigital : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_FieldUniform_ipdigital.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (IP Digital)";
-		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+
 		author = "CFP";
 
 		class ItemInfo: UniformItem
@@ -360,13 +377,14 @@
 		};
 	};
 
-	class CFP_FieldUniform_ipdigital_SS: Uniform_Base
+	class CFP_FieldUniform_ipdigital_SS : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black_SS.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_FieldUniform_ipdigital_SS.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform SS (IP Digital)";
-		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+
 		author = "CFP";
 
 		class ItemInfo: UniformItem
@@ -379,13 +397,14 @@
 		};
 	};
 
-	class CFP_FieldUniform_ipdpm: Uniform_Base
+	class CFP_FieldUniform_ipdpm : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_FieldUniform_ipdpm.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (IP DPM)";
-		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+
 		author = "CFP";
 
 		class ItemInfo: UniformItem
@@ -398,13 +417,14 @@
 		};
 	};
 
-	class CFP_FieldUniform_ipdpm_SS: Uniform_Base
+	class CFP_FieldUniform_ipdpm_SS : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black_SS.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_FieldUniform_ipdpm_SS.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform SS (IP DPM)";
-		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+
 		author = "CFP";
 
 		class ItemInfo: UniformItem
@@ -417,13 +437,14 @@
 		};
 	};
 
-	class CFP_FieldUniform_iasfblack: Uniform_Base
+	class CFP_FieldUniform_iasfblack : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_FieldUniform_iasfblack.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (IA SF Black)";
-		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+
 		author = "CFP";
 
 		class ItemInfo: UniformItem
@@ -436,13 +457,14 @@
 		};
 	};
 
-	class CFP_FieldUniform_iasfblack_SS: Uniform_Base
+	class CFP_FieldUniform_iasfblack_SS : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black_SS.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_FieldUniform_iasfblack_SS.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform SS (IA Special Forces)";
-		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+
 		author = "CFP";
 
 		class ItemInfo: UniformItem
@@ -455,13 +477,14 @@
 		};
 	};
 
-	class CFP_FieldUniform_iachocchip: Uniform_Base
+	class CFP_FieldUniform_iachocchip : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_FieldUniform_iachocchip.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (IA Choc Chip)";
-		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+
 		author = "CFP";
 
 		class ItemInfo: UniformItem
@@ -474,13 +497,14 @@
 		};
 	};
 
-	class CFP_U_FieldUniform_iachocchip_SS: Uniform_Base
+	class CFP_U_FieldUniform_iachocchip_SS : Uniform_Base
     {
-        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_FieldUniform_Black_SS.paa";
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_U_FieldUniform_iachocchip_SS.paa;
+
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform SS (IA Choc Chip)";
-		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Black.jpg";
+
 		author = "CFP";
 
 		class ItemInfo: UniformItem
