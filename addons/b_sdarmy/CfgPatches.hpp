@@ -77,7 +77,23 @@ class CfgPatches {
             "CFP_B_SDARMY_Offroad_01",
             "CFP_B_SDARMY_Offroad_Police_01"
         };
-        weapons[] = {};
+        weapons[] = {
+            "CFP_Cap_Sudan_01",
+            "CFP_Cap_Sudan_02",
+            "CFP_Cap_Sudan_03",
+            "CFP_Cap_Sudan_04",
+            "CFP_Cap_Sudan_05",
+            "CFP_Cap_Sudan_06",
+            "CFP_Cap_Sudan_07",
+            "CFP_Cap_Sudan_08",
+            "CFP_Cap_Sudan_09",
+            "CFP_PASGTHelmet_Sudan_01",
+            "CFP_PASGTHelmet_Sudan_02",
+            "CFP_PASGTHelmet_Sudan_03",
+            "CFP_PASGTHelmet_Sudan_04",
+            "CFP_PASGTHelmet_Sudan_05",
+            "CFP_PASGTHelmet_Sudan_06"
+        };
         requiredAddons[] = {
             "CFP_O_HEZBOLLAH",
             "CFP_B_UGARMY",
