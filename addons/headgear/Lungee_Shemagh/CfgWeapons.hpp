@@ -1,6 +1,6 @@
-class CFP_Lungee_Shemagh: ItemCore
-    {
-        picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_Lungee_Shemagh.paa";
+class CFP_Lungee_Shemagh : ItemCore
+{
+    picture = \x\cfp\addons\headgear\data\ui\icon_CFP_Lungee_Shemagh.paa;
 	scope = 2;
 	weaponPoolAvailable = 1;
 	displayName = "Lungee Shemagh (Tan)";
@@ -29,8 +29,9 @@ class CFP_Lungee_Shemagh: ItemCore
 	};
 };
 
-class CFP_Lungee_Shemagh_Black : CFP_Lungee_Shemagh
+class CFP_Lungee_Shemagh_Black  : CFP_Lungee_Shemagh
 {
+    picture = \x\cfp\addons\headgear\data\ui\icon_CFP_Lungee_Shemagh_Black.paa;
 	scope = 2;
 	weaponPoolAvailable = 1;
 	displayName = "Lungee Shemagh (Black)";
@@ -59,8 +60,9 @@ class CFP_Lungee_Shemagh_Black : CFP_Lungee_Shemagh
 	};
 };
 
-class CFP_Lungee_Shemagh_M81 : CFP_Lungee_Shemagh
+class CFP_Lungee_Shemagh_M81  : CFP_Lungee_Shemagh
 {
+    picture = \x\cfp\addons\headgear\data\ui\icon_CFP_Lungee_Shemagh_M81.paa;
 	scope = 2;
 	weaponPoolAvailable = 1;
 	displayName = "Lungee Shemagh (M81)";
@@ -89,8 +91,9 @@ class CFP_Lungee_Shemagh_M81 : CFP_Lungee_Shemagh
 	};
 };
 
-class CFP_Lungee_Shemagh_Red : CFP_Lungee_Shemagh
+class CFP_Lungee_Shemagh_Red  : CFP_Lungee_Shemagh
 {
+    picture = \x\cfp\addons\headgear\data\ui\icon_CFP_Lungee_Shemagh_Red.paa;
 	scope = 2;
 	weaponPoolAvailable = 1;
 	displayName = "Lungee Shemagh (Red)";
@@ -119,8 +122,9 @@ class CFP_Lungee_Shemagh_Red : CFP_Lungee_Shemagh
 	};
 };
 
-class CFP_Lungee_Shemagh_Yellow : CFP_Lungee_Shemagh
+class CFP_Lungee_Shemagh_Yellow  : CFP_Lungee_Shemagh
 {
+    picture = \x\cfp\addons\headgear\data\ui\icon_CFP_Lungee_Shemagh_Yellow.paa;
 	scope = 2;
 	weaponPoolAvailable = 1;
 	displayName = "Lungee Shemagh (Yellow)";
@@ -149,8 +153,9 @@ class CFP_Lungee_Shemagh_Yellow : CFP_Lungee_Shemagh
 	};
 };
 
-class CFP_Lungee_Shemagh_White : CFP_Lungee_Shemagh
+class CFP_Lungee_Shemagh_White  : CFP_Lungee_Shemagh
 {
+    picture = \x\cfp\addons\headgear\data\ui\icon_CFP_Lungee_Shemagh_White.paa;
 	scope = 2;
 	weaponPoolAvailable = 1;
 	displayName = "Lungee Shemagh (White)";
@@ -179,8 +184,9 @@ class CFP_Lungee_Shemagh_White : CFP_Lungee_Shemagh
 	};
 };
 
-class CFP_Lungee_Shemagh_LightBlue : CFP_Lungee_Shemagh
+class CFP_Lungee_Shemagh_LightBlue  : CFP_Lungee_Shemagh
 {
+    picture = \x\cfp\addons\headgear\data\ui\icon_CFP_Lungee_Shemagh_LightBlue.paa;
 	scope = 2;
 	weaponPoolAvailable = 1;
 	displayName = "Lungee Shemagh (Light Blue)";
@@ -209,8 +215,9 @@ class CFP_Lungee_Shemagh_LightBlue : CFP_Lungee_Shemagh
 	};
 };
 
-class CFP_Lungee_Shemagh_Green : CFP_Lungee_Shemagh
+class CFP_Lungee_Shemagh_Green  : CFP_Lungee_Shemagh
 {
+    picture = \x\cfp\addons\headgear\data\ui\icon_CFP_Lungee_Shemagh_Green.paa;
 	scope = 2;
 	weaponPoolAvailable = 1;
 	displayName = "Lungee Shemagh (Green)";
@@ -239,8 +246,9 @@ class CFP_Lungee_Shemagh_Green : CFP_Lungee_Shemagh
 	};
 };
 
-class CFP_Lungee_Shemagh_Olive : CFP_Lungee_Shemagh
+class CFP_Lungee_Shemagh_Olive  : CFP_Lungee_Shemagh
 {
+    picture = \x\cfp\addons\headgear\data\ui\icon_CFP_Lungee_Shemagh_Olive.paa;
 	scope = 2;
 	weaponPoolAvailable = 1;
 	displayName = "Lungee Shemagh (Olive)";
@@ -269,8 +277,9 @@ class CFP_Lungee_Shemagh_Olive : CFP_Lungee_Shemagh
 	};
 };
 
-class CFP_Lungee_Shemagh_Grey : CFP_Lungee_Shemagh
+class CFP_Lungee_Shemagh_Grey  : CFP_Lungee_Shemagh
 {
+    picture = \x\cfp\addons\headgear\data\ui\icon_CFP_Lungee_Shemagh_Grey.paa;
 	scope = 2;
 	weaponPoolAvailable = 1;
 	displayName = "Lungee Shemagh (Grey)";
@@ -299,8 +308,9 @@ class CFP_Lungee_Shemagh_Grey : CFP_Lungee_Shemagh
 	};
 };
 
-class CFP_Lungee_Shemagh_BlueGrey : CFP_Lungee_Shemagh
+class CFP_Lungee_Shemagh_BlueGrey  : CFP_Lungee_Shemagh
 {
+    picture = \x\cfp\addons\headgear\data\ui\icon_CFP_Lungee_Shemagh_BlueGrey.paa;
 	scope = 2;
 	weaponPoolAvailable = 1;
 	displayName = "Lungee Shemagh (Blue Grey)";

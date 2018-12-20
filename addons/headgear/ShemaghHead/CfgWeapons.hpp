@@ -1,18 +1,7 @@
-
-
-/*ShemaghHead
-
-class CfgVehicleClasses
-{
-	class CFP_Shemagh_Head
-	{
-		displayName = "Shemagh";
-	};
-};
-*/
-	class CFP_Shemagh_Head_Green: ItemCore
+	class CFP_Shemagh_Head_Green : ItemCore
     {
-        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_Shemagh_Black.paa";
+        picture = \x\cfp\addons\headgear\data\ui\icon_CFP_Shemagh_Head_Green.paa;
+
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Shemagh 2 (Ranger Green)";
@@ -36,9 +25,10 @@ class CfgVehicleClasses
 		};
 	};
 
-	class CFP_Shemagh_Head_Grey: ItemCore
+	class CFP_Shemagh_Head_Grey : ItemCore
     {
-        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_Shemagh_Black.paa";
+        picture = \x\cfp\addons\headgear\data\ui\icon_CFP_Shemagh_Head_Grey.paa;
+
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Shemagh 2 (Grey)";
@@ -47,8 +37,6 @@ class CfgVehicleClasses
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\ShemaghHead\shemagh_head_gry_co.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "CFP";
-
-
 
 		class ItemInfo: HeadgearItem
 		{
@@ -62,9 +50,10 @@ class CfgVehicleClasses
 		};
 	};
 
-	class CFP_Shemagh_Head_Red: ItemCore
+	class CFP_Shemagh_Head_Red : ItemCore
     {
-        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_Shemagh_Black.paa";
+        picture = \x\cfp\addons\headgear\data\ui\icon_CFP_Shemagh_Head_Red.paa;
+
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Shemagh 2 (Red)";
@@ -88,9 +77,10 @@ class CfgVehicleClasses
 		};
 	};
 
-	class CFP_Shemagh_Head_White: ItemCore
+	class CFP_Shemagh_Head_White : ItemCore
     {
-        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_Shemagh_Black.paa";
+        picture = \x\cfp\addons\headgear\data\ui\icon_CFP_Shemagh_Head_White.paa;
+
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Shemagh 2 (White)";
@@ -114,9 +104,10 @@ class CfgVehicleClasses
 		};
 	};
 
-	class CFP_Shemagh_Head_Tan: ItemCore
+	class CFP_Shemagh_Head_Tan : ItemCore
     {
-        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_Shemagh_Black.paa";
+        picture = \x\cfp\addons\headgear\data\ui\icon_CFP_Shemagh_Head_Tan.paa;
+
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Shemagh 2 (Tan)";
@@ -140,9 +131,10 @@ class CfgVehicleClasses
 		};
 	};
 
-	class CFP_Shemagh_Head_Black: ItemCore
+	class CFP_Shemagh_Head_Black : ItemCore
     {
-        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_Shemagh_Black.paa";
+        picture = \x\cfp\addons\headgear\data\ui\icon_CFP_Shemagh_Head_Black.paa;
+
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Shemagh 2 (Black)";
@@ -166,9 +158,10 @@ class CfgVehicleClasses
 		};
 	};
 
-	class CFP_Shemagh_Head_M81: ItemCore
+	class CFP_Shemagh_Head_M81 : ItemCore
     {
-        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_Shemagh_Black.paa";
+        picture = \x\cfp\addons\headgear\data\ui\icon_CFP_Shemagh_Head_M81.paa;
+
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Shemagh 2 (M81)";
@@ -192,9 +185,10 @@ class CfgVehicleClasses
 		};
 	};
 
-	class CFP_Shemagh_Full_Black: ItemCore
+	class CFP_Shemagh_Full_Black : ItemCore
     {
-        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_Shemagh_Black.paa";
+        picture = \x\cfp\addons\headgear\data\ui\icon_CFP_Shemagh_Full_Black.paa;
+
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Shemagh Full (Black)";
@@ -218,9 +212,10 @@ class CfgVehicleClasses
 		};
 	};
 
-	class CFP_Shemagh_Full_M81: ItemCore
+	class CFP_Shemagh_Full_M81 : ItemCore
     {
-        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_Shemagh_Black.paa";
+        picture = \x\cfp\addons\headgear\data\ui\icon_CFP_Shemagh_Full_M81.paa;
+
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Shemagh Full (M81)";
@@ -244,9 +239,10 @@ class CfgVehicleClasses
 		};
 	};
 
-	class CFP_Shemagh_Full_Green: ItemCore
+	class CFP_Shemagh_Full_Green : ItemCore
     {
-        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_Shemagh_Black.paa";
+        picture = \x\cfp\addons\headgear\data\ui\icon_CFP_Shemagh_Full_Green.paa;
+
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Shemagh Full (Green)";
@@ -270,9 +266,10 @@ class CfgVehicleClasses
 		};
 	};
 
-	class CFP_Shemagh_Full_Tan: ItemCore
+	class CFP_Shemagh_Full_Tan : ItemCore
     {
-        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_Shemagh_Black.paa";
+        picture = \x\cfp\addons\headgear\data\ui\icon_CFP_Shemagh_Full_Tan.paa;
+
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Shemagh Full (Tan)";
@@ -296,9 +293,10 @@ class CfgVehicleClasses
 		};
 	};
 
-	class CFP_Shemagh_Full_Red: ItemCore
+	class CFP_Shemagh_Full_Red : ItemCore
     {
-        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_Shemagh_Black.paa";
+        picture = \x\cfp\addons\headgear\data\ui\icon_CFP_Shemagh_Full_Red.paa;
+
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Shemagh Full (Red)";
@@ -322,9 +320,10 @@ class CfgVehicleClasses
 		};
 	};
 
-	class CFP_Shemagh_Full_Creme: ItemCore
+	class CFP_Shemagh_Full_Creme : ItemCore
     {
-        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_Shemagh_Black.paa";
+        picture = \x\cfp\addons\headgear\data\ui\icon_CFP_Shemagh_Full_Creme.paa;
+
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Shemagh Full (Creme)";
@@ -348,9 +347,10 @@ class CfgVehicleClasses
 		};
 	};
 
-	class CFP_Shemagh_Full_Gold: ItemCore
+	class CFP_Shemagh_Full_Gold : ItemCore
     {
-        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_Shemagh_Black.paa";
+        picture = \x\cfp\addons\headgear\data\ui\icon_CFP_Shemagh_Full_Gold.paa;
+
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Shemagh Full (Gold)";
@@ -374,9 +374,10 @@ class CfgVehicleClasses
 		};
 	};
 
-	class CFP_Shemagh_Full_White: ItemCore
+	class CFP_Shemagh_Full_White : ItemCore
     {
-        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_Shemagh_Black.paa";
+        picture = \x\cfp\addons\headgear\data\ui\icon_CFP_Shemagh_Full_White.paa;
+
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Shemagh Full (White)";
