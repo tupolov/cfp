@@ -50,7 +50,6 @@ class CfgPatches {
             "CFP_B_MLARMY_RG_31_01"
         };
         weapons[] = {};
-        requiredVersion = 1.62;
         requiredAddons[] = {
             "A3_Characters_F",
             "cfp_uniforms",
@@ -72,7 +71,9 @@ class CfgPatches {
             "CUP_AirVehciles_SA330",
             "CUP_WheeledVehicles_RG31"
         };
-        author = "Drew";
+        requiredVersion = REQUIRED_VERSION;
+        VERSION_CONFIG;
         authors[] = {"Drew"};
+        author = MODULE_AUTHOR;
     };
 };
