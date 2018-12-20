@@ -10,6 +10,7 @@ class CfgPatches {
             "CFP_O_IRARMY_Rifleman_Assault_65th_AB_01",
             "CFP_O_IRARMY_Rifleman_01",
             "CFP_O_IRARMY_Rifleman_AT_01",
+            "CFP_O_IRARMY_AA_Specialist_01",
             "CFP_O_IRARMY_Squad_Leader_01",
             "CFP_O_IRARMY_Grenadier_01",
             "CFP_O_IRARMY_Machine_Gunner_01",
@@ -80,12 +81,6 @@ class CfgPatches {
         };
         weapons[] = {};
         requiredAddons[] = {
-            "CFP_O_HEZBOLLAH",
-            "CFP_B_NAARMY",
-            "CFP_B_UGARMY",
-            "CFP_B_AFARMY",
-            "CFP_B_USMC_DES",
-            "CFP_B_KEARMY",
             "cfp_vehicles",
             "CUP_WheeledVehicles_Ural",
             "CUP_WheeledVehicles_Volha",

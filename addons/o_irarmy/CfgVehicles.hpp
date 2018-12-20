@@ -734,6 +734,27 @@ class CfgVehicles {
 
     };
 
+    class CFP_O_IRARMY_AA_Specialist_01 : CFP_O_IRARMY_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_irarmy\data\preview\CFP_O_IRARMY_Rifleman_AT_01.JPG;
+
+        displayName = "AA Specialist";
+
+        linkedItems[] = {"V_TacVest_khk","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"V_TacVest_khk","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_M16A2","CUP_launch_Igla"};
+        respawnWeapons[] = {"CUP_arifle_M16A2","CUP_launch_Igla"};
+
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_Igla_M","CUP_30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_Igla_M","CUP_30Rnd_556x45_Stanag"};
+
+        backpack = "B_Kitbag_cbr";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_Igla","","","",{"CUP_Igla_M",1},{},""},{},{"CFP_BDU_IRAN",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",2,30}}},{"V_TacVest_khk",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1}}},{"B_Kitbag_cbr",{{"CUP_Igla_M",1,1}}},"SP_M1Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+
+    };
+
+
     class CFP_O_IRARMY_Squad_Leader_01 : CFP_O_IRARMY_Rifleman_01 {
         editorPreview = \x\cfp\addons\o_irarmy\data\preview\CFP_O_IRARMY_Squad_Leader_01.JPG;
 
