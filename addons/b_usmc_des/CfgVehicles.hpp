@@ -682,12 +682,10 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG3_DMARPAT";
 
-            randomGearProbability = 80;
+            randomGearProbability = 100;
             uniformList[] = {
-                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+                "CFP_U_FieldUniform_marpat_d", 0.5,
+                "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -737,12 +735,10 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG2_DMARPAT";
 
-            randomGearProbability = 80;
+            randomGearProbability = 100;
             uniformList[] = {
-                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+                "CFP_U_FieldUniform_marpat_d", 0.5,
+                "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -792,12 +788,10 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG2_DMARPAT";
 
-            randomGearProbability = 80;
+            randomGearProbability = 100;
             uniformList[] = {
-                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+                "CFP_U_FieldUniform_marpat_d", 0.5,
+                "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -848,12 +842,10 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG2_DMARPAT";
 
-            randomGearProbability = 80;
+            randomGearProbability = 100;
             uniformList[] = {
-                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+                "CFP_U_FieldUniform_marpat_d", 0.5,
+                "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -903,12 +895,10 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG2_DMARPAT";
 
-            randomGearProbability = 80;
+            randomGearProbability = 100;
             uniformList[] = {
-                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+                "CFP_U_FieldUniform_marpat_d", 0.5,
+                "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -958,12 +948,10 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG3_DMARPAT";
 
-            randomGearProbability = 80;
+            randomGearProbability = 100;
             uniformList[] = {
-                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+                "CFP_U_FieldUniform_marpat_d", 0.5,
+                "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -1013,12 +1001,10 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG3_DMARPAT";
 
-            randomGearProbability = 80;
+            randomGearProbability = 100;
             uniformList[] = {
-                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+                "CFP_U_FieldUniform_marpat_d", 0.5,
+                "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -1068,12 +1054,10 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG2_DMARPAT";
 
-            randomGearProbability = 80;
+            randomGearProbability = 100;
             uniformList[] = {
-                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+                "CFP_U_FieldUniform_marpat_d", 0.5,
+                "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -1123,12 +1107,10 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG2_DMARPAT";
 
-            randomGearProbability = 80;
+            randomGearProbability = 100;
             uniformList[] = {
-                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+                "CFP_U_FieldUniform_marpat_d", 0.5,
+                "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -1179,12 +1161,10 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG2_DMARPAT";
 
-            randomGearProbability = 80;
+            randomGearProbability = 100;
             uniformList[] = {
-                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+                "CFP_U_FieldUniform_marpat_d", 0.5,
+                "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -1237,12 +1217,10 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG3_DMARPAT";
 
-            randomGearProbability = 80;
+            randomGearProbability = 100;
             uniformList[] = {
-                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+                "CFP_U_FieldUniform_marpat_d", 0.5,
+                "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -1292,12 +1270,10 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG2_DMARPAT";
 
-            randomGearProbability = 80;
+            randomGearProbability = 100;
             uniformList[] = {
-                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+                "CFP_U_FieldUniform_marpat_d", 0.5,
+                "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -1347,12 +1323,10 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG1_DMARPAT";
 
-            randomGearProbability = 80;
+            randomGearProbability = 100;
             uniformList[] = {
-                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+                "CFP_U_FieldUniform_marpat_d", 0.5,
+                "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -1402,12 +1376,10 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG2_DMARPAT";
 
-            randomGearProbability = 80;
+            randomGearProbability = 100;
             uniformList[] = {
-                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+                "CFP_U_FieldUniform_marpat_d", 0.5,
+                "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -1458,12 +1430,10 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG2_DMARPAT";
 
-            randomGearProbability = 80;
+            randomGearProbability = 100;
             uniformList[] = {
-                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+                "CFP_U_FieldUniform_marpat_d", 0.5,
+                "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -1513,12 +1483,10 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG1_DMARPAT";
 
-            randomGearProbability = 80;
+            randomGearProbability = 100;
             uniformList[] = {
-                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+                "CFP_U_FieldUniform_marpat_d", 0.5,
+                "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -1568,12 +1536,10 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG1_DMARPAT";
 
-            randomGearProbability = 80;
+            randomGearProbability = 100;
             uniformList[] = {
-                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+                "CFP_U_FieldUniform_marpat_d", 0.5,
+                "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -1624,12 +1590,10 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG3_DMARPAT";
 
-            randomGearProbability = 80;
+            randomGearProbability = 100;
             uniformList[] = {
-                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+                "CFP_U_FieldUniform_marpat_d", 0.5,
+                "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -1679,12 +1643,10 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG2_DMARPAT";
 
-            randomGearProbability = 80;
+            randomGearProbability = 100;
             uniformList[] = {
-                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+                "CFP_U_FieldUniform_marpat_d", 0.5,
+                "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -1735,12 +1697,10 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG2_DMARPAT";
 
-            randomGearProbability = 80;
+            randomGearProbability = 100;
             uniformList[] = {
-                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+                "CFP_U_FieldUniform_marpat_d", 0.5,
+                "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
 
 
@@ -1798,12 +1758,10 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG1_DMARPAT";
 
-            randomGearProbability = 80;
+            randomGearProbability = 100;
             uniformList[] = {
-                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+                "CFP_U_FieldUniform_marpat_d", 0.5,
+                "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
 
 
@@ -1860,12 +1818,10 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","NoGlasses"};
             uniformClass = "CUP_U_B_USMC_FROG1_DMARPAT";
 
-            randomGearProbability = 80;
+            randomGearProbability = 100;
             uniformList[] = {
-                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+                "CFP_U_FieldUniform_marpat_d", 0.5,
+                "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
 
 
@@ -1922,12 +1878,10 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG3_DMARPAT";
 
-            randomGearProbability = 80;
+            randomGearProbability = 100;
             uniformList[] = {
-                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+                "CFP_U_FieldUniform_marpat_d", 0.5,
+                "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
 
 
@@ -1984,12 +1938,10 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG3_DMARPAT";
 
-            randomGearProbability = 80;
+            randomGearProbability = 100;
             uniformList[] = {
-                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+                "CFP_U_FieldUniform_marpat_d", 0.5,
+                "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
 
 
@@ -2047,12 +1999,10 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG2_DMARPAT";
 
-            randomGearProbability = 80;
+            randomGearProbability = 100;
             uniformList[] = {
-                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+                "CFP_U_FieldUniform_marpat_d", 0.5,
+                "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
 
 
@@ -2109,12 +2059,10 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG3_DMARPAT";
 
-            randomGearProbability = 80;
+            randomGearProbability = 100;
             uniformList[] = {
-                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+                "CFP_U_FieldUniform_marpat_d", 0.5,
+                "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
 
 
@@ -2172,12 +2120,10 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG2_DMARPAT";
 
-            randomGearProbability = 80;
+            randomGearProbability = 100;
             uniformList[] = {
-                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+                "CFP_U_FieldUniform_marpat_d", 0.5,
+                "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
 
 
@@ -2234,12 +2180,10 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG1_DMARPAT";
 
-            randomGearProbability = 80;
+            randomGearProbability = 100;
             uniformList[] = {
-                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+                "CFP_U_FieldUniform_marpat_d", 0.5,
+                "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
 
 
@@ -2296,12 +2240,10 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","NoGlasses"};
             uniformClass = "CUP_U_B_USMC_FROG3_DMARPAT";
 
-            randomGearProbability = 80;
+            randomGearProbability = 100;
             uniformList[] = {
-                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+                "CFP_U_FieldUniform_marpat_d", 0.5,
+                "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
 
 
@@ -2359,12 +2301,10 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CUP_U_B_USMC_FROG1_DMARPAT";
 
-            randomGearProbability = 80;
+            randomGearProbability = 100;
             uniformList[] = {
-                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+                "CFP_U_FieldUniform_marpat_d", 0.5,
+                "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
 
 
@@ -2421,12 +2361,10 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","NoGlasses"};
             uniformClass = "CUP_U_B_USMC_FROG2_DMARPAT";
 
-            randomGearProbability = 80;
+            randomGearProbability = 100;
             uniformList[] = {
-                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+                "CFP_U_FieldUniform_marpat_d", 0.5,
+                "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
 
 
@@ -2483,12 +2421,10 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","NoGlasses"};
             uniformClass = "CUP_U_B_USMC_FROG2_DMARPAT";
 
-            randomGearProbability = 80;
+            randomGearProbability = 100;
             uniformList[] = {
-                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+                "CFP_U_FieldUniform_marpat_d", 0.5,
+                "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
 
 
@@ -2545,12 +2481,10 @@ class CfgVehicles {
             identityTypes[] = {"CUP_Rodriguez"};
             uniformClass = "CUP_U_B_USMC_FROG3_DMARPAT";
 
-            randomGearProbability = 80;
+            randomGearProbability = 100;
             uniformList[] = {
-                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+                "CFP_U_FieldUniform_marpat_d", 0.5,
+                "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
 
             facewearList[] = {
@@ -2597,12 +2531,10 @@ class CfgVehicles {
             identityTypes[] = {"CUP_Ohara"};
             uniformClass = "CUP_U_B_USMC_FROG1_DMARPAT";
 
-            randomGearProbability = 80;
+            randomGearProbability = 100;
             uniformList[] = {
-                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+                "CFP_U_FieldUniform_marpat_d", 0.5,
+                "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
 
             facewearList[] = {
@@ -2649,12 +2581,10 @@ class CfgVehicles {
             identityTypes[] = {"CUP_Sykes"};
             uniformClass = "CUP_U_B_USMC_FROG3_DMARPAT";
 
-            randomGearProbability = 80;
+            randomGearProbability = 100;
             uniformList[] = {
-                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+                "CFP_U_FieldUniform_marpat_d", 0.5,
+                "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
 
             facewearList[] = {
@@ -2701,12 +2631,10 @@ class CfgVehicles {
             identityTypes[] = {"CUP_Cooper"};
             uniformClass = "CUP_U_B_USMC_FROG3_DMARPAT";
 
-            randomGearProbability = 80;
+            randomGearProbability = 100;
             uniformList[] = {
-                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+                "CFP_U_FieldUniform_marpat_d", 0.5,
+                "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
 
 
@@ -2754,12 +2682,10 @@ class CfgVehicles {
             identityTypes[] = {"CUP_Miles"};
             uniformClass = "CUP_U_B_USMC_FROG2_DMARPAT";
 
-            randomGearProbability = 80;
+            randomGearProbability = 100;
             uniformList[] = {
-                "CUP_U_B_USMC_FROG1_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG2_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG3_DMARPAT",0.5,
-                "CUP_U_B_USMC_FROG4_DMARPAT",0.5
+                "CFP_U_FieldUniform_marpat_d", 0.5,
+                "CFP_U_FieldUniform_marpat_d_SS", 0.5
             };
 
             facewearList[] = {
@@ -4818,7 +4744,7 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CFP_U_FieldUniform_marpat_d";
 
-            randomGearProbability = 80;
+            randomGearProbability = 100;
 
             insigniaList[] = {
                 "", 0.5,
@@ -4888,7 +4814,7 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CFP_U_FieldUniform_marpat_d";
 
-             randomGearProbability = 80;
+             randomGearProbability = 100;
 
             insigniaList[] = {
                 "", 0.5,
@@ -4958,7 +4884,7 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CFP_U_FieldUniform_marpat_d";
 
-             randomGearProbability = 80;
+             randomGearProbability = 100;
 
             insigniaList[] = {
                 "", 0.5,
@@ -5028,7 +4954,7 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CFP_U_FieldUniform_marpat_d";
 
-             randomGearProbability = 80;
+             randomGearProbability = 100;
 
             insigniaList[] = {
                 "", 0.5,
@@ -5098,7 +5024,7 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CFP_U_FieldUniform_marpat_d";
 
-             randomGearProbability = 80;
+             randomGearProbability = 100;
 
             insigniaList[] = {
                 "", 0.5,
@@ -5168,7 +5094,7 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CFP_U_FieldUniform_marpat_d";
 
-             randomGearProbability = 80;
+             randomGearProbability = 100;
 
             insigniaList[] = {
                 "", 0.5,
@@ -5238,7 +5164,7 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CFP_U_FieldUniform_marpat_d";
 
-             randomGearProbability = 80;
+             randomGearProbability = 100;
 
             insigniaList[] = {
                 "", 0.5,
@@ -5308,7 +5234,7 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CFP_U_FieldUniform_marpat_d";
 
-             randomGearProbability = 80;
+             randomGearProbability = 100;
 
             insigniaList[] = {
                 "", 0.5,
@@ -5378,7 +5304,7 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CFP_U_FieldUniform_marpat_d";
 
-             randomGearProbability = 80;
+             randomGearProbability = 100;
 
             insigniaList[] = {
                 "", 0.5,
@@ -5448,7 +5374,7 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CFP_U_FieldUniform_marpat_d";
 
-             randomGearProbability = 80;
+             randomGearProbability = 100;
 
             insigniaList[] = {
                 "", 0.5,
@@ -5518,7 +5444,7 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CFP_U_FieldUniform_marpat_d";
 
-             randomGearProbability = 80;
+             randomGearProbability = 100;
 
             insigniaList[] = {
                 "", 0.5,
@@ -5588,7 +5514,7 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CFP_U_FieldUniform_marpat_d";
 
-             randomGearProbability = 80;
+             randomGearProbability = 100;
 
             insigniaList[] = {
                 "", 0.5,
@@ -5658,7 +5584,7 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CFP_U_FieldUniform_marpat_d";
 
-             randomGearProbability = 80;
+             randomGearProbability = 100;
 
             insigniaList[] = {
                 "", 0.5,
@@ -5728,7 +5654,7 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CFP_U_FieldUniform_marpat_d";
 
-             randomGearProbability = 80;
+             randomGearProbability = 100;
 
             insigniaList[] = {
                 "", 0.5,
@@ -5798,7 +5724,7 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CFP_U_FieldUniform_marpat_d";
 
-             randomGearProbability = 80;
+             randomGearProbability = 100;
 
             insigniaList[] = {
                 "", 0.5,
@@ -6016,7 +5942,7 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CFP_U_FieldUniform_marpat_d";
 
-             randomGearProbability = 80;
+             randomGearProbability = 100;
 
             insigniaList[] = {
                 "", 0.5,
@@ -6087,7 +6013,7 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CFP_U_FieldUniform_marpat_d";
 
-             randomGearProbability = 80;
+             randomGearProbability = 100;
 
             insigniaList[] = {
                 "", 0.5,
@@ -6194,7 +6120,7 @@ class CfgVehicles {
             identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
             uniformClass = "CFP_U_FieldUniform_marpat_d";
 
-             randomGearProbability = 80;
+             randomGearProbability = 100;
 
             insigniaList[] = {
                 "", 0.5,
