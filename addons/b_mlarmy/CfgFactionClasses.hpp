@@ -8,8 +8,8 @@ class CfgFactionClasses {
     class CFP_B_MLARMY {
         displayName = "Malian Government Forces";
         side = 1;
-        flag = "\x\cfp\addons\flags\Mali\Mali.paa";
-        icon = "\x\cfp\addons\flags\Mali\Mali.paa";
+        flag = "a3\data_f\Flags\flag_blue_co";
+        icon = "a3\data_f\Flags\flag_blue_co";
         priority = 0;
     };
 };

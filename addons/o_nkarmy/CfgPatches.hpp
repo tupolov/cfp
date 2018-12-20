@@ -48,6 +48,7 @@ class CfgPatches {
             "CFP_O_NKARMY_Anotov_AN_2_01"
         };
         weapons[] = {};
+        requiredVersion = 1.62;
         requiredAddons[] = {
             "A3_Characters_F",
             "cfp_uniforms",
@@ -67,9 +68,7 @@ class CfgPatches {
             "CUP_AirVehicles_Mi8",
             "CUP_AirVehicles_AN2"
         };
-        requiredVersion = REQUIRED_VERSION;
-        VERSION_CONFIG;
+        author = "Drew";
         authors[] = {"Drew"};
-        author = MODULE_AUTHOR;
     };
 };

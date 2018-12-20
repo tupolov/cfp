@@ -284,8 +284,7 @@ class CfgVehicles {
         };
     };
 
-    class CFP_B_MLARMY_Rifleman_01 : O_Soldier_F_OCimport_02  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_Rifleman_01.JPG;
+    class CFP_B_MLARMY_Rifleman_01 : O_Soldier_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -362,8 +361,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_Squad_Leader_01 : CFP_B_MLARMY_Rifleman_01  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_Squad_Leader_01.JPG;
+    class CFP_B_MLARMY_Squad_Leader_01 : CFP_B_MLARMY_Rifleman_01 {
 
         displayName = "Squad Leader";
 
@@ -378,8 +376,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_Rifleman_AT_01 : O_Soldier_F_OCimport_02  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_Rifleman_AT_01.JPG;
+    class CFP_B_MLARMY_Rifleman_AT_01 : O_Soldier_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -459,8 +456,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_Machine_Gunner_01 : CFP_B_MLARMY_Rifleman_01  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_Machine_Gunner_01.JPG;
+    class CFP_B_MLARMY_Machine_Gunner_01 : CFP_B_MLARMY_Rifleman_01 {
 
         displayName = "Machine Gunner";
 
@@ -475,8 +471,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_Grenadier_01 : CFP_B_MLARMY_Rifleman_AT_01  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_Grenadier_01.JPG;
+    class CFP_B_MLARMY_Grenadier_01 : CFP_B_MLARMY_Rifleman_AT_01 {
 
         displayName = "Grenadier";
 
@@ -491,8 +486,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_Explosive_Specialist_01 : CFP_B_MLARMY_Rifleman_01  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_Explosive_Specialist_01.JPG;
+    class CFP_B_MLARMY_Explosive_Specialist_01 : CFP_B_MLARMY_Rifleman_01 {
 
         displayName = "Explosive Specialist";
         engineer = 1;
@@ -509,8 +503,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_Medic_01 : CFP_B_MLARMY_Rifleman_AT_01  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_Medic_01.JPG;
+    class CFP_B_MLARMY_Medic_01 : CFP_B_MLARMY_Rifleman_AT_01 {
 
         displayName = "Medic";
         attendant = 1;
@@ -528,8 +521,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_Sniper_01 : CFP_B_MLARMY_Rifleman_01  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_Sniper_01.JPG;
+    class CFP_B_MLARMY_Sniper_01 : CFP_B_MLARMY_Rifleman_01 {
 
         displayName = "Sniper";
 
@@ -543,8 +535,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_Crew_01 : O_Soldier_F_OCimport_02  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_Crew_01.JPG;
+    class CFP_B_MLARMY_Crew_01 : O_Soldier_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -582,8 +573,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_Helicopter_Pilot_01 : O_helipilot_F_OCimport_02  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_Helicopter_Pilot_01.JPG;
+    class CFP_B_MLARMY_Helicopter_Pilot_01 : O_helipilot_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -622,8 +612,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_SF_Rifleman_01 : O_recon_F_OCimport_02  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_SF_Rifleman_01.JPG;
+    class CFP_B_MLARMY_SF_Rifleman_01 : O_recon_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -681,8 +670,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_SF_Team_Leader_01 : CFP_B_MLARMY_SF_Rifleman_01  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_SF_Team_Leader_01.JPG;
+    class CFP_B_MLARMY_SF_Team_Leader_01 : CFP_B_MLARMY_SF_Rifleman_01 {
 
         displayName = "SF Team Leader";
 
@@ -701,8 +689,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_SF_Machine_Gunner_01 : CFP_B_MLARMY_SF_Rifleman_01  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_SF_Machine_Gunner_01.JPG;
+    class CFP_B_MLARMY_SF_Machine_Gunner_01 : CFP_B_MLARMY_SF_Rifleman_01 {
 
         displayName = "SF Machine Gunner";
 
@@ -721,8 +708,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_SF_Explosive_Specialist_01 : CFP_B_MLARMY_SF_Rifleman_01  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_SF_Explosive_Specialist_01.JPG;
+    class CFP_B_MLARMY_SF_Explosive_Specialist_01 : CFP_B_MLARMY_SF_Rifleman_01 {
 
         displayName = "SF Explosive Specialist";
         engineer = 1;
@@ -743,8 +729,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_SF_Medic_01 : CFP_B_MLARMY_SF_Rifleman_01  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_SF_Medic_01.JPG;
+    class CFP_B_MLARMY_SF_Medic_01 : CFP_B_MLARMY_SF_Rifleman_01 {
 
         displayName = "SF Medic";
         attendant = 1;
@@ -766,8 +751,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_Officer_01 : O_Soldier_F_OCimport_02  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_Officer_01.JPG;
+    class CFP_B_MLARMY_Officer_01 : O_Soldier_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -826,8 +810,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_Gunner_DShKM_01 : CFP_B_MLARMY_Rifleman_01  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_Gunner_DShKM_01.JPG;
+    class CFP_B_MLARMY_Gunner_DShKM_01 : CFP_B_MLARMY_Rifleman_01 {
 
         displayName = "Gunner [DShKM]";
 
@@ -846,8 +829,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_Asst_Gunner_DShKM_01 : CFP_B_MLARMY_Rifleman_01  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_Asst_Gunner_DShKM_01.JPG;
+    class CFP_B_MLARMY_Asst_Gunner_DShKM_01 : CFP_B_MLARMY_Rifleman_01 {
 
         displayName = "Asst. Gunner [DShKM]";
 
@@ -866,8 +848,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_Gunner_Mortar_01 : CFP_B_MLARMY_Rifleman_01  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_Gunner_Mortar_01.JPG;
+    class CFP_B_MLARMY_Gunner_Mortar_01 : CFP_B_MLARMY_Rifleman_01 {
 
         displayName = "Gunner [Mortar]";
 
@@ -886,8 +867,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_Asst_Gunner_Mortar_01 : CFP_B_MLARMY_Rifleman_01  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_Asst_Gunner_Mortar_01.JPG;
+    class CFP_B_MLARMY_Asst_Gunner_Mortar_01 : CFP_B_MLARMY_Rifleman_01 {
 
         displayName = "Asst. Gunner [Mortar]";
 
@@ -935,8 +915,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_Podnos_2B14_01 : CUP_O_2b14_82mm_SLA_OCimport_02  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_Podnos_2B14_01.JPG;
+    class CFP_B_MLARMY_Podnos_2B14_01 : CUP_O_2b14_82mm_SLA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -965,8 +944,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_DShKM_Mini_tripod_01 : CUP_O_DSHKM_MiniTripod_SLA_OCimport_02  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_DShKM_Mini_tripod_01.JPG;
+    class CFP_B_MLARMY_DShKM_Mini_tripod_01 : CUP_O_DSHKM_MiniTripod_SLA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -995,8 +973,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_D30_01 : CUP_O_D30_SLA_OCimport_02  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_D30_01.JPG;
+    class CFP_B_MLARMY_D30_01 : CUP_O_D30_SLA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1025,8 +1002,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_SPG_9_01 : CUP_O_SPG9_SLA_OCimport_02  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_SPG_9_01.JPG;
+    class CFP_B_MLARMY_SPG_9_01 : CUP_O_SPG9_SLA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1055,8 +1031,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_Technical_Armed_01 : CUP_I_Datsun_PK_TK_Random_OCimport_02  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_Technical_Armed_01.JPG;
+    class CFP_B_MLARMY_Technical_Armed_01 : CUP_I_Datsun_PK_TK_Random_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1087,8 +1062,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_Technical_01 : CUP_I_Datsun_4seat_TK_OCimport_02  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_Technical_01.JPG;
+    class CFP_B_MLARMY_Technical_01 : CUP_I_Datsun_4seat_TK_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1119,8 +1093,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_Truck_01 : B_G_Van_01_transport_F_OCimport_02  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_Truck_01.JPG;
+    class CFP_B_MLARMY_Truck_01 : B_G_Van_01_transport_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1158,8 +1131,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_Technical_AT_01 : B_G_Offroad_01_AT_F_OCimport_02  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_Technical_AT_01.JPG;
+    class CFP_B_MLARMY_Technical_AT_01 : B_G_Offroad_01_AT_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1189,8 +1161,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_Ural_01 : CUP_O_Ural_SLA_OCimport_02  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_Ural_01.JPG;
+    class CFP_B_MLARMY_Ural_01 : CUP_O_Ural_SLA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1221,8 +1192,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_Ural_Ammo_01 : CUP_O_Ural_Reammo_SLA_OCimport_02  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_Ural_Ammo_01.JPG;
+    class CFP_B_MLARMY_Ural_Ammo_01 : CUP_O_Ural_Reammo_SLA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1247,8 +1217,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_Ural_Refuel_01 : CUP_O_Ural_Refuel_SLA_OCimport_02  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_Ural_Refuel_01.JPG;
+    class CFP_B_MLARMY_Ural_Refuel_01 : CUP_O_Ural_Refuel_SLA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1273,8 +1242,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_Ural_Repair_01 : CUP_O_Ural_Repair_SLA_OCimport_02  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_Ural_Repair_01.JPG;
+    class CFP_B_MLARMY_Ural_Repair_01 : CUP_O_Ural_Repair_SLA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1299,8 +1267,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_Ural_Open_01 : CUP_O_Ural_Open_SLA_OCimport_02  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_Ural_Open_01.JPG;
+    class CFP_B_MLARMY_Ural_Open_01 : CUP_O_Ural_Open_SLA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1331,8 +1298,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_Land_Rover_Ambulance_01 : CUP_O_LR_Ambulance_TKA_OCimport_02  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_Land_Rover_Ambulance_01.JPG;
+    class CFP_B_MLARMY_Land_Rover_Ambulance_01 : CUP_O_LR_Ambulance_TKA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1357,8 +1323,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_T34_01 : CUP_O_T34_TKA_OCimport_02  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_T34_01.JPG;
+    class CFP_B_MLARMY_T34_01 : CUP_O_T34_TKA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1397,8 +1362,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_T55_01 : CUP_O_T55_TK_OCimport_02  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_T55_01.JPG;
+    class CFP_B_MLARMY_T55_01 : CUP_O_T55_TK_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1434,8 +1398,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_BTR_60PB_01 : CUP_O_BTR60_TK_OCimport_02  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_BTR_60PB_01.JPG;
+    class CFP_B_MLARMY_BTR_60PB_01 : CUP_O_BTR60_TK_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1474,8 +1437,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_BTR_40_Unarmed_01 : CUP_O_BTR40_TKA_OCimport_02  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_BTR_40_Unarmed_01.JPG;
+    class CFP_B_MLARMY_BTR_40_Unarmed_01 : CUP_O_BTR40_TKA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1500,8 +1462,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_BTR_40_DShKM_01 : CUP_O_BTR40_MG_TKA_OCimport_02  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_BTR_40_DShKM_01.JPG;
+    class CFP_B_MLARMY_BTR_40_DShKM_01 : CUP_O_BTR40_MG_TKA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1531,8 +1492,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_BRDM_2_01 : CUP_O_BRDM2_CSAT_OCimport_02  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_BRDM_2_01.JPG;
+    class CFP_B_MLARMY_BRDM_2_01 : CUP_O_BRDM2_CSAT_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1562,8 +1522,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_UAZ_01 : CUP_O_UAZ_Open_TKA_OCimport_02  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_UAZ_01.JPG;
+    class CFP_B_MLARMY_UAZ_01 : CUP_O_UAZ_Open_TKA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1597,8 +1556,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_Ural_ZU_23_01 : CUP_O_Ural_ZU23_TKA_OCimport_02  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_Ural_ZU_23_01.JPG;
+    class CFP_B_MLARMY_Ural_ZU_23_01 : CUP_O_Ural_ZU23_TKA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1628,8 +1586,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_Harbin_ZB_9_01 : O_Heli_Light_02_unarmed_F_OCimport_02  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_Harbin_ZB_9_01.JPG;
+    class CFP_B_MLARMY_Harbin_ZB_9_01 : O_Heli_Light_02_unarmed_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1659,8 +1616,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_Mi_35_01 : CUP_O_Mi24_D_Dynamic_SLA_OCimport_02  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_Mi_35_01.JPG;
+    class CFP_B_MLARMY_Mi_35_01 : CUP_O_Mi24_D_Dynamic_SLA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1690,8 +1646,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_SA_330_Puma_01 : CUP_I_SA330_Puma_HC1_RACS_OCimport_02  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_SA_330_Puma_01.JPG;
+    class CFP_B_MLARMY_SA_330_Puma_01 : CUP_I_SA330_Puma_HC1_RACS_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1723,8 +1678,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_MLARMY_RG_31_01 : CUP_B_RG31E_M2_OD_USMC_OCimport_02  {
-        editorPreview = \x\cfp\addons\b_mlarmy\data\preview\CFP_B_MLARMY_RG_31_01.JPG;
+    class CFP_B_MLARMY_RG_31_01 : CUP_B_RG31E_M2_OD_USMC_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
