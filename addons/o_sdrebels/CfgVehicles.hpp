@@ -646,9 +646,9 @@ class CfgVehicles {
         magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
 
-        backpack = "CUP_B_AlicePack_Egineer";
+        backpack = "CUP_B_AlicePack_OD";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"CFP_U_BattleDressUniform_M81_Sudan",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_AK_VEST_Tan",{{"CUP_30Rnd_545x39_AK_M",5,30}}},{"CUP_B_AlicePack_Egineer",{{"ToolKit",1},{"MineDetector",1},{"APERSMine_Range_Mag",3,1},{"CUP_PipeBomb_M",3,1},{"DemoCharge_Remote_Mag",2,1}}},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"CFP_U_BattleDressUniform_M81_Sudan",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_AK_VEST_Tan",{{"CUP_30Rnd_545x39_AK_M",5,30}}},{"CUP_B_AlicePack_OD",{{"ToolKit",1},{"MineDetector",1},{"APERSMine_Range_Mag",3,1},{"CUP_PipeBomb_M",3,1},{"DemoCharge_Remote_Mag",2,1}}},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -668,9 +668,9 @@ class CfgVehicles {
         magazines[] = {"20Rnd_762x51_Mag","20Rnd_762x51_Mag"};
         respawnMagazines[] = {"20Rnd_762x51_Mag","20Rnd_762x51_Mag"};
 
-        backpack = "CUP_B_AlicePack_Medic";
+        backpack = "CUP_B_AlicePack_OD";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_M14","","","",{"20Rnd_762x51_Mag",20},{},""},{},{},{"CFP_GUER_M81Tee",{{"20Rnd_762x51_Mag",2,20},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_Alice_Vest2",{{"20Rnd_762x51_Mag",5,20}}},{"CUP_B_AlicePack_Medic",{{"Medikit",1},{"FirstAidKit",10}}},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_M14","","","",{"20Rnd_762x51_Mag",20},{},""},{},{},{"CFP_GUER_M81Tee",{{"20Rnd_762x51_Mag",2,20},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_Alice_Vest2",{{"20Rnd_762x51_Mag",5,20}}},{"CUP_B_AlicePack_OD",{{"Medikit",1},{"FirstAidKit",10}}},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 

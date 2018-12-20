@@ -297,7 +297,7 @@ class CfgVehicles {
             "CFP_UtilityJacket_M81", 0.1,
             "CFP_UtilityJacket_ChocChip", 0.2,
             "CFP_Alice_Vest2", 0.4,
-            "CFP_Tacitcal1_SudanTiger", 0.3,
+            "CFP_Tactical1_SudanTiger", 0.3,
             "CFP_Alice_Vest2_Tan", 0.4
         };
 
