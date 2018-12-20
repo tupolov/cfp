@@ -147,7 +147,7 @@ class CfgVehicleClasses
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_BoonieHat_ATacsFG.paa";
 	   	scope = 2;
 	   	weaponPoolAvailable = 1;
-	   	displayName = "Boonie Hat (A-Tacs FG";
+	   	displayName = "Boonie Hat (A-Tacs FG)";
 	    // picture = "\x\cfp\addons\headgear\BoonieHat\ui\ATacsFG.jpg";
 	    model = "\x\cfp\addons\models\BoonieHat";
 	    hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BoonieHat\ATacsFG.paa"};
@@ -363,7 +363,7 @@ class CfgVehicleClasses
         picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_BoonieHat_ACRDesert.paa";
 	 	scope = 2;
 	   	weaponPoolAvailable = 1;
-	  	displayName = "Boonie Hat (Marpat Desert)";
+	  	displayName = "Boonie Hat (AOR1)";
 	    // picture = "\x\cfp\addons\headgear\BoonieHat\ui\NodUrban.jpg";
 	    model = "\x\cfp\addons\models\BoonieHat";
 	    hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BoonieHat\MarpatDesert.paa"};
