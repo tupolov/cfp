@@ -10,7 +10,7 @@
 		"CFP_B_CAF_Ural_Refuel_01",
 		"CFP_B_CAF_Ural_Repair_01",
 		"CFP_B_CAF_UAZ_Open_01",
-		"CFP_B_CAF_Technical_Unarmed_01",
+		"CFP_B_CAF_Technical_Unarmed_01"
 	]
 ] call ALIVE_fnc_hashSet;
 
