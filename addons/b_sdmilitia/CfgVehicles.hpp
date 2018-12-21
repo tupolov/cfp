@@ -256,6 +256,7 @@ class CfgVehicles {
     };
 
     class CFP_B_SDMilitia_Soldier_02 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_sdmilitia\data\preview\CFP_B_SDMilitia_Soldier_02.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -371,6 +372,7 @@ class CfgVehicles {
     };
 
     class CFP_B_SDMilitia_Soldier_03 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_sdmilitia\data\preview\CFP_B_SDMilitia_Soldier_03.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -484,6 +486,7 @@ class CfgVehicles {
     };
 
     class CFP_B_SDMilitia_Soldier_04 : CFP_B_SDMilitia_Soldier_03 {
+        editorPreview = \x\cfp\addons\b_sdmilitia\data\preview\CFP_B_SDMilitia_Soldier_04.JPG;
 
         displayName = "Machinegunner";
 
@@ -503,6 +506,7 @@ class CfgVehicles {
     };
 
     class CFP_B_SDMilitia_Soldier_05 : CFP_B_SDMilitia_Soldier_01 {
+        editorPreview = \x\cfp\addons\b_sdmilitia\data\preview\CFP_B_SDMilitia_Soldier_05.JPG;
 
         displayName = "Engineer";
         engineer = 1;
@@ -524,6 +528,7 @@ class CfgVehicles {
     };
 
     class CFP_B_SDMilitia_Soldier_06 : CFP_B_SDMilitia_Soldier_02 {
+        editorPreview = \x\cfp\addons\b_sdmilitia\data\preview\CFP_B_SDMilitia_Soldier_06.JPG;
 
         displayName = "Medic";
         attendant = 1;
@@ -546,6 +551,7 @@ class CfgVehicles {
     };
 
     class CFP_B_SDMilitia_Soldier_07 : CFP_B_SDMilitia_Soldier_03 {
+        editorPreview = \x\cfp\addons\b_sdmilitia\data\preview\CFP_B_SDMilitia_Soldier_07.JPG;
 
         displayName = "Gunner (DShKM)";
 
@@ -565,6 +571,7 @@ class CfgVehicles {
     };
 
     class CFP_B_SDMilitia_Soldier_08 : CFP_B_SDMilitia_Soldier_01 {
+        editorPreview = \x\cfp\addons\b_sdmilitia\data\preview\CFP_B_SDMilitia_Soldier_08.JPG;
 
         displayName = "Gunner (DShKM/Low)";
 
@@ -584,6 +591,7 @@ class CfgVehicles {
     };
 
     class CFP_B_SDMilitia_Soldier_09 : CFP_B_SDMilitia_Soldier_02 {
+        editorPreview = \x\cfp\addons\b_sdmilitia\data\preview\CFP_B_SDMilitia_Soldier_09.JPG;
 
         displayName = "Assistant (DShKM)";
 
@@ -603,6 +611,7 @@ class CfgVehicles {
     };
 
     class CFP_B_SDMilitia_Soldier_10 : CFP_B_SDMilitia_Soldier_03 {
+        editorPreview = \x\cfp\addons\b_sdmilitia\data\preview\CFP_B_SDMilitia_Soldier_10.JPG;
 
         displayName = "Gunner (Mortar)";
 
@@ -622,6 +631,7 @@ class CfgVehicles {
     };
 
     class CFP_B_SDMilitia_Soldier_11 : CFP_B_SDMilitia_Soldier_01 {
+        editorPreview = \x\cfp\addons\b_sdmilitia\data\preview\CFP_B_SDMilitia_Soldier_11.JPG;
 
         displayName = "Assistant (Mortar)";
 
@@ -641,6 +651,7 @@ class CfgVehicles {
     };
 
     class CFP_B_SDMilitia_Soldier_12 : CFP_B_SDMilitia_Soldier_02 {
+        editorPreview = \x\cfp\addons\b_sdmilitia\data\preview\CFP_B_SDMilitia_Soldier_12.JPG;
 
         displayName = "Gunner (SPG-9)";
 
@@ -660,6 +671,7 @@ class CfgVehicles {
     };
 
     class CFP_B_SDMilitia_Soldier_13 : CFP_B_SDMilitia_Soldier_03 {
+        editorPreview = \x\cfp\addons\b_sdmilitia\data\preview\CFP_B_SDMilitia_Soldier_13.JPG;
 
         displayName = "Assistant (SPG-9)";
 
@@ -679,6 +691,7 @@ class CfgVehicles {
     };
 
     class CFP_B_SDMilitia_Soldier_14 : CFP_B_SDMilitia_Soldier_03 {
+        editorPreview = \x\cfp\addons\b_sdmilitia\data\preview\CFP_B_SDMilitia_Soldier_14.JPG;
 
         displayName = "Leader";
 
@@ -696,6 +709,7 @@ class CfgVehicles {
     };
 
     class CFP_B_SDMilitia_Soldier_15 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_sdmilitia\data\preview\CFP_B_SDMilitia_Soldier_15.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -821,6 +835,7 @@ class CfgVehicles {
     };
 
     class CFP_B_SDMilitia_Soldier_16 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_sdmilitia\data\preview\CFP_B_SDMilitia_Soldier_16.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -945,6 +960,7 @@ class CfgVehicles {
     };
 
     class CFP_B_SDMilitia_Soldier_17 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_sdmilitia\data\preview\CFP_B_SDMilitia_Soldier_17.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1070,6 +1086,7 @@ class CfgVehicles {
     };
 
     class CFP_B_SDMilitia_Soldier_18 : CFP_B_SDMilitia_Soldier_15 {
+        editorPreview = \x\cfp\addons\b_sdmilitia\data\preview\CFP_B_SDMilitia_Soldier_18.JPG;
 
         displayName = "Militia Machinegunner";
 
@@ -1089,6 +1106,7 @@ class CfgVehicles {
     };
 
     class CFP_B_SDMilitia_Soldier_19 : CFP_B_SDMilitia_Soldier_17 {
+        editorPreview = \x\cfp\addons\b_sdmilitia\data\preview\CFP_B_SDMilitia_Soldier_19.JPG;
 
         displayName = "Militia Engineer";
         engineer = 1;
@@ -1109,6 +1127,7 @@ class CfgVehicles {
     };
 
     class CFP_B_SDMilitia_Soldier_20 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_sdmilitia\data\preview\CFP_B_SDMilitia_Soldier_20.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
