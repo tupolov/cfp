@@ -115,17 +115,6 @@ class CfgVehicles {
         };
     };
 
-    class CUP_O_Mi8_SLA_1;
-    class CUP_O_Mi8_SLA_1_OCimport_01 : CUP_O_Mi8_SLA_1 { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_Mi8_SLA_1_OCimport_02 : CUP_O_Mi8_SLA_1_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-            class BackTurret;
-            class CopilotTurret;
-        };
-    };
-
     class CUP_O_Mi24_D_Dynamic_SLA;
     class CUP_O_Mi24_D_Dynamic_SLA_OCimport_01 : CUP_O_Mi24_D_Dynamic_SLA { scope = 0; class EventHandlers; class Turrets; };
     class CUP_O_Mi24_D_Dynamic_SLA_OCimport_02 : CUP_O_Mi24_D_Dynamic_SLA_OCimport_01 {
@@ -1005,37 +994,20 @@ class CfgVehicles {
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_UH_60M_01.jpg";
     };
 
-    class CFP_B_AFARMY_Mi_8MT_01 : CUP_O_Mi8_SLA_1_OCimport_02 {
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Mi-8MT";
-        side = 1;
-        faction = "CFP_B_AFARMY";
-        crew = "CFP_B_AFARMY_Helicopter_Pilot_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_AFARMY_Helicopter_Pilot_01"; };
-            class BackTurret : BackTurret { gunnerType = "CFP_B_AFARMY_Helicopter_Pilot_01"; };
-            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_AFARMY_Helicopter_Pilot_01"; };
-        };
-
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\b_afarmy\data\mi8_body_afghan_army.paa","\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\textures\mi8_sla1_2_co.paa","a3\data_f\clear_empty.paa","CUP\AirVehicles\CUP_AirVehicles_Mi8\data\mi8_decals_ca.paa"};
-		/*
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\textures\mi8_cia1_1_co.paa'];_unit setObjectTextureGlobal [1,'\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\textures\mi8_cia1_2_co.paa'];_unit setObjectTextureGlobal [2,'a3\data_f\clear_empty.paa'];_unit setObjectTextureGlobal [3,'CUP\AirVehicles\CUP_AirVehicles_Mi8\data\mi8_decals_ca.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-		*/
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "CIA";
+    class CUP_O_Mi17_TK;
+    class CUP_O_Mi17_TK_OCimport_01 : CUP_O_Mi17_TK { scope = 0; class EventHandlers; class Turrets; };
+    class CFP_B_AFARMY_Mi_8MT_01 : CUP_O_Mi17_TK_OCimport_01
+    {
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Mi_8MT_01.jpg";
+        scope = 2;
+        side = 1;
+        displayName = "Mi-8MT";
+        faction = "CFP_B_AFARMY";
+        vehicleClass = "CFP_B_AFARMY_AIRCRAFT";
+        camouflage = 4;
+        crew = "CFP_B_AFARMY_Helicopter_Pilot_01";
+        typicalCargo[] = {"CFP_B_AFARMY_Helicopter_Pilot_01","CFP_B_AFARMY_Helicopter_Pilot_01"};
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\b_afarmy\data\mi8_body_afghan_army.paa","\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\textures\mi8_sla1_2_co.paa"};
     };
 
     class CFP_B_AFARMY_Mi_24D_01 : CUP_O_Mi24_D_Dynamic_SLA_OCimport_02 {

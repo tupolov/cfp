@@ -199,53 +199,6 @@ class CfgVehicleClasses
 		};
 	};
 
-	class CFP_LBT6094_Light_OGA: V_PlateCarrier1_rgr
-    {
-        picture = "\x\cfp\addons\vsm_vests\data\ui\icon_CFP_LBT6094_operator_OGA.paa";
-		scope = 2;
-		author = "CFP";
-		displayName = "OGA LBT6094 (Light)";
-		// picture = "\x\cfp\addons\vsm_vests\data\VSM_OGA.paa";
-		model = "\x\cfp\addons\models\LBT6094_Light.p3d";
-		hiddenSelections[] = {"_battleBelt","_SOTGGear","_SOTGRadio","_vestBase","_VSMPouches"};
-		hiddenSelectionsTextures[] = {"x\cfp\addons\vsm_vests\data\VSM_battlebelt_OGA.paa","x\cfp\addons\vsm_vests\data\VSM_OGA_gear_co.paa","x\cfp\addons\vsm_vests\data\radio_pouch.paa","x\cfp\addons\vsm_vests\data\VSM_lbt6094_OGA.paa","x\cfp\addons\vsm_vests\data\VSM_pouches_OGA.paa"};
-		descriptionShort = "$STR_A3_SP_AL_IV";
-		class ItemInfo: VestItem
-		{
-			uniformModel = "\x\cfp\addons\models\LBT6094_Light.p3d";
-			containerClass = "Supply200";
-			mass = 50;
-			passThrough = 1;
-			hiddenSelections[] = {"_battleBelt","_SOTGGear","_SOTGRadio","_vestBase","_VSMPouches"};
-			class HitpointsProtectionInfo
-			{
-				class Chest
-				{
-					HitpointName = "HitChest";
-					armor = 25;
-					PassThrough = 0.3;
-				};
-				class Diaphragm
-				{
-					HitpointName = "HitDiaphragm";
-					armor = 25;
-					PassThrough = 0.3;
-				};
-				class Abdomen
-				{
-					hitpointName = "HitAbdomen";
-					armor = 25;
-					passThrough = 0.3;
-				};
-				class Body
-				{
-					hitpointName = "HitBody";
-					passThrough = 0.3;
-				};
-			};
-		};
-	};
-
 	class CFP_RAV_Green: V_PlateCarrier1_rgr
     {
         picture = "\x\cfp\addons\vsm_vests\data\ui\icon_CFP_LBT6094_operator_OGA.paa";
@@ -481,49 +434,3 @@ class CfgVehicleClasses
 		};
 	};
 
-	class CFP_RAV_OGA_IA: V_PlateCarrier1_rgr
-    {
-        picture = "\x\cfp\addons\vsm_vests\data\ui\icon_CFP_LBT6094_operator_OGA.paa";
-		scope = 2;
-		author = "CFP";
-		displayName = "RAV Vest (OGA IA)";
-		// picture = "\x\cfp\addons\vsm_vests\data\VSM_OGA.paa";
-		model = "\x\cfp\addons\models\CFP_RAV.p3d";
-		hiddenSelections[] = {"camo"};
-		hiddenSelectionsTextures[] = {"x\cfp\addons\vsm_vests\data\spec_rav_tanIA.paa"};
-		descriptionShort = "$STR_A3_SP_AL_IV";
-		class ItemInfo: VestItem
-		{
-			uniformModel = "\x\cfp\addons\models\CFP_RAV.p3d";
-			containerClass = "Supply200";
-			mass = 50;
-			passThrough = 1;
-			hiddenSelections[] = {"camo"};
-			class HitpointsProtectionInfo
-			{
-				class Chest
-				{
-					HitpointName = "HitChest";
-					armor = 25;
-					PassThrough = 0.3;
-				};
-				class Diaphragm
-				{
-					HitpointName = "HitDiaphragm";
-					armor = 25;
-					PassThrough = 0.3;
-				};
-				class Abdomen
-				{
-					hitpointName = "HitAbdomen";
-					armor = 25;
-					passThrough = 0.3;
-				};
-				class Body
-				{
-					hitpointName = "HitBody";
-					passThrough = 0.3;
-				};
-			};
-		};
-	};

@@ -185,17 +185,6 @@ class CfgVehicles {
         };
     };
 
-    class CUP_O_Mi8_SLA_1;
-    class CUP_O_Mi8_SLA_1_OCimport_01 : CUP_O_Mi8_SLA_1 { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_Mi8_SLA_1_OCimport_02 : CUP_O_Mi8_SLA_1_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-            class BackTurret;
-            class CopilotTurret;
-        };
-    };
-
     class CUP_O_UAZ_Open_SLA;
     class CUP_O_UAZ_Open_SLA_OCimport_01 : CUP_O_UAZ_Open_SLA { scope = 0; class EventHandlers; class Turrets; };
     class CUP_O_UAZ_Open_SLA_OCimport_02 : CUP_O_UAZ_Open_SLA_OCimport_01 {
@@ -1696,37 +1685,20 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_NKARMY_Mi_8MT_01 : CUP_O_Mi8_SLA_1_OCimport_02  {
+    class CUP_O_Mi17_TK;
+    class CUP_O_Mi17_TK_OCimport_01 : CUP_O_Mi17_TK { scope = 0; class EventHandlers; class Turrets; };
+    class CFP_O_NKARMY_Mi_8MT_01 : CUP_O_Mi17_TK_OCimport_01
+    {
         editorPreview = \x\cfp\addons\o_nkarmy\data\preview\CFP_O_NKARMY_Mi_8MT_01.JPG;
-        author = "Drew";
         scope = 2;
-        scopeCurator = 2;
-        displayName = "Mi-8MT";
         side = 0;
+        displayName = "Mi-8MT";
         faction = "CFP_O_NKARMY";
+        vehicleClass = "CFP_O_NKARMY_AIRCRAFT";
+        camouflage = 4;
         crew = "CFP_O_NKARMY_Helicopter_Pilot_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_O_NKARMY_Helicopter_Pilot_01"; };
-            class BackTurret : BackTurret { gunnerType = "CFP_O_NKARMY_Helicopter_Pilot_01"; };
-            class CopilotTurret : CopilotTurret { gunnerType = "CFP_O_NKARMY_Helicopter_Pilot_01"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\Mi8\mi17_nk.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\Mi8\mi17_det_nk.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "NorthKorea";
-
+        typicalCargo[] = {"CFP_O_NKARMY_Helicopter_Pilot_01","CFP_O_NKARMY_Helicopter_Pilot_01"};
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Mi8\mi17_nk.paa","\x\cfp\addons\vehicles\Mi8\mi17_det_nk.paa"};
     };
 
     class CFP_O_NKARMY_UAZ_Open_01 : CUP_O_UAZ_Open_SLA_OCimport_02  {

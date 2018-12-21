@@ -231,7 +231,7 @@ class CfgVehicles {
         };
     };
 
-      class CUP_B_CH47F_GB;
+    class CUP_B_CH47F_GB;
     class CUP_B_CH47F_GB_OCimport_01 : CUP_B_CH47F_GB { scope = 0; class EventHandlers; class Turrets; };
     class CUP_B_CH47F_GB_OCimport_02 : CUP_B_CH47F_GB_OCimport_01 {
         class EventHandlers;
@@ -267,17 +267,6 @@ class CfgVehicles {
         class Turrets : Turrets {
             class MainTurret;
             class RightDoorGun;
-            class CopilotTurret;
-        };
-    };
-
-    class CUP_O_Mi8_SLA_1;
-    class CUP_O_Mi8_SLA_1_OCimport_01 : CUP_O_Mi8_SLA_1 { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_Mi8_SLA_1_OCimport_02 : CUP_O_Mi8_SLA_1_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-            class BackTurret;
             class CopilotTurret;
         };
     };
@@ -2259,37 +2248,20 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_IRARMY_Mi_8_01 : CUP_O_Mi8_SLA_1_OCimport_02 {
+    class CUP_O_Mi17_TK;
+    class CUP_O_Mi17_TK_OCimport_01 : CUP_O_Mi17_TK { scope = 0; class EventHandlers; class Turrets; };
+    class CFP_O_IRARMY_Mi_8MT_01 : CUP_O_Mi17_TK_OCimport_01
+    {
         editorPreview = \x\cfp\addons\o_irarmy\data\preview\CFP_O_IRARMY_Mi_8_01.JPG;
-        author = "Drew";
         scope = 2;
-        scopeCurator = 2;
-        displayName = "Mi-8";
         side = 0;
+        displayName = "Mi-8MT";
         faction = "CFP_O_IRARMY";
+        vehicleClass = "CFP_O_IRARMY_AIRCRAFT";
+        camouflage = 4;
         crew = "CFP_O_IRARMY_Helicopter_Pilot_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_O_IRARMY_Helicopter_Pilot_01"; };
-            class BackTurret : BackTurret { gunnerType = "CFP_O_IRARMY_Helicopter_Pilot_01"; };
-            class CopilotTurret : CopilotTurret { gunnerType = "CFP_O_IRARMY_Helicopter_Pilot_01"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\Mi8\mi8_body_iran.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\Mi8\mi8_det_g_iran.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "Iran";
-
+        typicalCargo[] = {"CFP_O_IRARMY_Helicopter_Pilot_01","CFP_O_IRARMY_Helicopter_Pilot_01"};
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Mi8\mi8_body_iran.paa","\x\cfp\addons\vehicles\Mi8\mi8_det_g_iran.paa"};
     };
 
     class CFP_O_IRARMY_SU25_Frogfoot_01 : CUP_O_Su25_Dyn_RU_OCimport_02 {
