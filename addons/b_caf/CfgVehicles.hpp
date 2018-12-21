@@ -82,21 +82,6 @@ class CfgVehicles {
         };
     };
 
-    class CUP_O_T55_SLA;
-    class CUP_O_T55_SLA_OCimport_01 : CUP_O_T55_SLA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_T55_SLA_OCimport_02 : CUP_O_T55_SLA_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-            class CargoTurret_01;
-            class CargoTurret_02;
-            class CargoTurret_03;
-            class CargoTurret_04;
-            class CargoTurret_05;
-            class CargoTurret_06;
-        };
-    };
-
     class CUP_O_BM21_RU;
     class CUP_O_BM21_RU_OCimport_01 : CUP_O_BM21_RU { scope = 0; class EventHandlers; class Turrets; };
     class CUP_O_BM21_RU_OCimport_02 : CUP_O_BM21_RU_OCimport_01 {
@@ -982,41 +967,20 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_CAF_T55_01 : CUP_O_T55_SLA_OCimport_02  {
-        editorPreview = \x\cfp\addons\b_caf\data\preview\CFP_B_CAF_T55_01.JPG;
-        author = "Drew";
+    class CUP_O_T55_CSAT;
+    class CUP_O_T55_CSAT_OCimport_01 : CUP_O_T55_CSAT { scope = 0; class EventHandlers; class Turrets; };
+    class CFP_B_CAF_T55_01 : CUP_O_T55_CSAT_OCimport_01
+    {
         scope = 2;
-        scopeCurator = 2;
-        displayName = "T-55";
         side = 1;
+        displayName = "T-55";
         faction = "CFP_B_CAF";
+        vehicleClass = "CFP_B_CAF_ARMORED";
+        camouflage = 4;
         crew = "CFP_B_CAF_Crew_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_CAF_Crew_Officer_01"; };
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
-            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
-            class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
-            class CargoTurret_06 : CargoTurret_06 { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\T55\t55_body_desert.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\T55\t55_tower_desert.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "Desert";
-
+        typicalCargo[] = {"CFP_B_CAF_Crew_01","CFP_B_CAF_Crew_01","CFP_B_CAF_Crew_Officer_01"};
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\T55\t55_body_desert.paa","\x\cfp\addons\vehicles\T55\t55_tower_desert.paa"};
+        editorPreview = \x\cfp\addons\b_caf\data\preview\CFP_B_CAF_T55_01.JPG;
     };
 
     class CFP_B_CAF_BM_21_01 : CUP_O_BM21_RU_OCimport_02  {
