@@ -20,7 +20,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\Bandolier1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Bandolier1\Black.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -69,7 +69,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\Bandolier1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Bandolier1\Green.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -118,7 +118,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\Bandolier1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Bandolier1\Tan.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -167,7 +167,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\Bandolier1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Bandolier1\Grey.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 

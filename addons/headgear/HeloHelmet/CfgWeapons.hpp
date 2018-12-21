@@ -19,7 +19,7 @@ class CFP_SOARCREW_SKULL: ItemCore
 	model="A3\Characters_F\Common\headgear_helmet_heli_shield";
 	hiddenSelectionsTextures[] = {"x\cfp\addons\headgear\HeloHelmet\soarskull.paa"};
 	hiddenSelections[] = {"Camo"};
-	author = "AuburnAlumni";
+	author = "CFP";
         ace_hearing_protection = 0.85;  // Protection against deafening (0 to 1, higher means more protection)
         ace_hearing_lowerVolume = 0.60;  // Muffling of the sound (0 to 1, higher means more muffling)
 
@@ -46,7 +46,7 @@ class CFP_SOARCREW_RED: ItemCore
 	model="A3\Characters_F\Common\headgear_helmet_heli_shield";
 	hiddenSelectionsTextures[] = {"x\cfp\addons\headgear\HeloHelmet\soarred.paa"};
 	hiddenSelections[] = {"Camo"};
-	author = "AuburnAlumni";
+	author = "CFP";
         ace_hearing_protection = 0.85;  // Protection against deafening (0 to 1, higher means more protection)
         ace_hearing_lowerVolume = 0.60;  // Muffling of the sound (0 to 1, higher means more muffling)
 
@@ -73,7 +73,7 @@ class CFP_SOARCREW_BLUE: ItemCore
 	model="A3\Characters_F\Common\headgear_helmet_heli_shield";
 	hiddenSelectionsTextures[] = {"x\cfp\addons\headgear\HeloHelmet\soarblue.paa"};
 	hiddenSelections[] = {"Camo"};
-	author = "AuburnAlumni";
+	author = "CFP";
         ace_hearing_protection = 0.85;  // Protection against deafening (0 to 1, higher means more protection)
         ace_hearing_lowerVolume = 0.60;  // Muffling of the sound (0 to 1, higher means more muffling)
 

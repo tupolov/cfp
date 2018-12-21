@@ -20,7 +20,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\OfficerHat";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\OfficerHat\Black.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -46,7 +46,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\OfficerHat";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\OfficerHat\US_Army.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -73,7 +73,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\OfficerHat";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\OfficerHat\US_Marine.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -100,7 +100,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\OfficerHat";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\OfficerHat\UK_Police.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 

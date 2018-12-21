@@ -22,7 +22,7 @@ class CfgVehicleClasses
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_RUS_SPVest_1.p3d";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Smersh\partizan_brown.paa","\x\cfp\addons\vests\Smersh\equip_brown.paa"};
 		hiddenSelections[] = {"camo1","camo2"};
-		author = "AuburnAlumni";
+		author = "CFP";
 		class ItemInfo: VestItem
 		{
 			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_RUS_SPVest_1.p3d";
@@ -68,7 +68,7 @@ class CfgVehicleClasses
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_RUS_SPVest_1.p3d";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Smersh\partizan_tan.paa","\x\cfp\addons\vests\Smersh\equip_tan.paa"};
 		hiddenSelections[] = {"camo1","camo2"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -117,7 +117,7 @@ class CFP_Smersh_ArmyGreen: CUP_Vest_RUS_Camo_Base
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_RUS_SPVest_1.p3d";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Smersh\partizan_armygreen.paa","\x\cfp\addons\vests\Smersh\equip_armygreen.paa"};
 		hiddenSelections[] = {"camo1","camo2"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -166,7 +166,7 @@ class CFP_Smersh_Green: CUP_Vest_RUS_Camo_Base
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_RUS_SPVest_1.p3d";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Smersh\partizan_green.paa","\x\cfp\addons\vests\Smersh\equip_green.paa"};
 		hiddenSelections[] = {"camo1","camo2"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -215,7 +215,7 @@ class CFP_Smersh_Creme: CUP_Vest_RUS_Camo_Base
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_RUS_SPVest_1.p3d";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Smersh\partizan_creme.paa","\x\cfp\addons\vests\Smersh\equip_creme.paa"};
 		hiddenSelections[] = {"camo1","camo2"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -264,7 +264,7 @@ class CFP_Smersh_Creme: CUP_Vest_RUS_Camo_Base
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_RUS_SPVest_1.p3d";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Smersh\partizan_olive.paa","\x\cfp\addons\vests\Smersh\equip_olive.paa"};
 		hiddenSelections[] = {"camo1","camo2"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 

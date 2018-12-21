@@ -20,7 +20,7 @@ class CfgVehicleClasses
 		model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\PlateCarrier1\Black.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -69,7 +69,7 @@ class CfgVehicleClasses
 		model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\PlateCarrier1\Green.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -118,7 +118,7 @@ class CfgVehicleClasses
 		model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\PlateCarrier1\Tan.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -167,7 +167,7 @@ class CfgVehicleClasses
 		model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\PlateCarrier1\Grey.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -216,7 +216,7 @@ class CfgVehicleClasses
 		model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\PlateCarrier1\ATacsFG.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -312,7 +312,7 @@ class CfgVehicleClasses
 		model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\PlateCarrier1\Tropentarn.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -361,7 +361,7 @@ class CfgVehicleClasses
 		model = "\A3\Characters_F\BLUFOR\equip_b_vest01.p3d";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\PlateCarrier1\Tropentarn.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -410,7 +410,7 @@ class CfgVehicleClasses
 		model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\PlateCarrier1\Flecktarn.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -459,7 +459,7 @@ class CfgVehicleClasses
 		model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\PlateCarrier1\M81.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -508,7 +508,7 @@ class CfgVehicleClasses
 		model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\PlateCarrier1\Multicam.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -557,7 +557,7 @@ class CfgVehicleClasses
 		model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\PlateCarrier1\Woodland.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -606,7 +606,7 @@ class CfgVehicleClasses
 		model = "\A3\Characters_F\BLUFOR\equip_b_vest02";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\PlateCarrier1\IDF.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 

@@ -6,7 +6,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform (Black)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\Black.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -25,7 +25,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform SS (Black)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\Black.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -44,7 +44,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform (IASF)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\Black.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -63,7 +63,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform SS (IASF)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\Black.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -83,7 +83,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Tactical Uniform TS (Black)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\BlackTS.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -102,7 +102,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform (IDF)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\Black.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -121,7 +121,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform SS (IDF)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\Black.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -140,7 +140,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform (Tan)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\Tan.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -159,7 +159,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform SS (Tan)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\Tan.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -178,7 +178,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Tactical Uniform TS (Tan)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\TanTS.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -199,7 +199,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform (A-Tacs FG)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\ATacsFG.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -218,7 +218,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform SS (A-Tacs FG)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\ATacsFG.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -237,7 +237,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Tactical Uniform TS (A-Tacs FG)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\ATacsFGTS.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -256,7 +256,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform (Multicam US)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\NodUrban.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -275,7 +275,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform SS (Multicam US)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\NodUrban.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -295,7 +295,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform (Multicam 2 US)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\NodUrban.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -314,7 +314,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform SS (Multicam 2 US)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\NodUrban.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -333,7 +333,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform (M81)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\NodUrban.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -352,7 +352,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform SS (M81)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\NodUrban.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -371,7 +371,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform (AOR1)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\NodUrban.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -390,7 +390,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform SS (AOR1)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\NodUrban.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -409,7 +409,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform (AOR2)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\NodUrban.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -428,7 +428,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform SS (AOR2)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\NodUrban.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -447,7 +447,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform (Tiger Desert)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\NodUrban.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -466,7 +466,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform SS (Tiger Desert)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\NodUrban.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -485,7 +485,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform (Multicam)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\NodUrban.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -504,7 +504,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform SS (Multicam)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\NodUrban.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -523,7 +523,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform (Multicam 2)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\NodUrban.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -542,7 +542,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform SS (Multicam 2)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\NodUrban.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -561,7 +561,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform (A-Tacs AU)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\ATacsFG.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -580,7 +580,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform SS (A-Tacs AU)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\ATacsFG.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -599,7 +599,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform (Tropentarn)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\ATacsFG.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -618,7 +618,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform SS (Tropentarn)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\ATacsFG.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -637,7 +637,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform (Flecktarn)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\ATacsFG.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -656,7 +656,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform SS (Flecktarn)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\ATacsFG.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{

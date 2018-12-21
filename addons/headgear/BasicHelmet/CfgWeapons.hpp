@@ -23,7 +23,7 @@ class CFP_Basic_Helmet_Black: ItemCore
 	model = "\x\cfp\addons\headgear\BasicHelmet\H_PASGT_basic_F.p3d";
 	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\cfp_pasgt_black.paa"};
 	hiddenSelections[] = {"Camo"};
-	author = "AccuracyThruVolume";
+	author = "CFP";
 
 	class ItemInfo: HeadgearItem
 	{
@@ -49,7 +49,7 @@ class CFP_Basic_Helmet_Light_Green: ItemCore
 	model = "\x\cfp\addons\headgear\BasicHelmet\H_PASGT_basic_F.p3d";
 	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\cfp_pasgt_light_green.paa"};
 	hiddenSelections[] = {"Camo"};
-	author = "AccuracyThruVolume";
+	author = "CFP";
 
 	class ItemInfo: HeadgearItem
 	{
@@ -74,7 +74,7 @@ class CFP_Basic_Helmet_NKSF: ItemCore
 	model = "\x\cfp\addons\headgear\BasicHelmet\H_PASGT_basic_F.p3d";
 	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\cfp_pasgt_nksf.paa"};
 	hiddenSelections[] = {"Camo"};
-	author = "AuburnAlumni";
+	author = "CFP";
 
 	class ItemInfo: HeadgearItem
 	{
@@ -100,7 +100,7 @@ class CFP_Basic_Helmet_Tan: ItemCore
 	model = "\x\cfp\addons\headgear\BasicHelmet\H_PASGT_basic_F.p3d";
 	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\cfp_pasgt_tan.paa"};
 	hiddenSelections[] = {"Camo"};
-	author = "AccuracyThruVolume";
+	author = "CFP";
 
 	class ItemInfo: HeadgearItem
 	{
@@ -125,7 +125,7 @@ class CFP_Basic_Helmet_Gray: ItemCore
 	model = "\x\cfp\addons\headgear\BasicHelmet\H_PASGT_basic_F.p3d";
 	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\cfp_pasgt_Gray.paa"};
 	hiddenSelections[] = {"Camo"};
-	author = "AccuracyThruVolume";
+	author = "CFP";
 
 	class ItemInfo: HeadgearItem
 	{
@@ -150,7 +150,7 @@ class CFP_Basic_Helmet_Gray_Green: ItemCore
 	model = "\x\cfp\addons\headgear\BasicHelmet\H_PASGT_basic_F.p3d";
 	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\cfp_pasgt_gray_green.paa"};
 	hiddenSelections[] = {"Camo"};
-	author = "AuburnAlumni";
+	author = "CFP";
 
 	class ItemInfo: HeadgearItem
 	{
@@ -175,7 +175,7 @@ class CFP_Basic_Helmet_Woodland: ItemCore
 	model = "\x\cfp\addons\headgear\BasicHelmet\H_PASGT_basic_F.p3d";
 	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\cfp_pasgt_woodland.paa"};
 	hiddenSelections[] = {"Camo"};
-	author = "AuburnAlumni";
+	author = "CFP";
 
 	class ItemInfo: HeadgearItem
 	{
@@ -200,7 +200,7 @@ class CFP_Basic_Helmet_Spec4cewood: ItemCore
 	model = "\x\cfp\addons\headgear\BasicHelmet\H_PASGT_basic_F.p3d";
 	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\cfp_pasgt_spec4cewood.paa"};
 	hiddenSelections[] = {"Camo"};
-	author = "AuburnAlumni";
+	author = "CFP";
 
 	class ItemInfo: HeadgearItem
 	{
@@ -225,7 +225,7 @@ class CFP_Basic_Helmet_Spec4cesierra: ItemCore
 	model = "\x\cfp\addons\headgear\BasicHelmet\H_PASGT_basic_F.p3d";
 	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\cfp_pasgt_spec4cesierra.paa"};
 	hiddenSelections[] = {"Camo"};
-	author = "AuburnAlumni";
+	author = "CFP";
 
 	class ItemInfo: HeadgearItem
 	{
@@ -250,7 +250,7 @@ class CFP_Basic_Helmet_PolygonDesert: ItemCore
 	model = "\x\cfp\addons\headgear\BasicHelmet\H_PASGT_basic_F.p3d";
 	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\cfp_pasgt_polygondesert.paa"};
 	hiddenSelections[] = {"Camo"};
-	author = "AuburnAlumni";
+	author = "CFP";
 
 	class ItemInfo: HeadgearItem
 	{
@@ -275,7 +275,7 @@ class CFP_Basic_Helmet_PolygonWoodland: ItemCore
 	model = "\x\cfp\addons\headgear\BasicHelmet\H_PASGT_basic_F.p3d";
 	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\cfp_pasgt_polygonwoodland.paa"};
 	hiddenSelections[] = {"Camo"};
-	author = "AuburnAlumni";
+	author = "CFP";
 
 	class ItemInfo: HeadgearItem
 	{
@@ -300,7 +300,7 @@ class CFP_Basic_Helmet_M81: ItemCore
 	model = "\x\cfp\addons\headgear\BasicHelmet\H_PASGT_basic_F.p3d";
 	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\cfp_pasgt_m81.paa"};
 	hiddenSelections[] = {"Camo"};
-	author = "AuburnAlumni";
+	author = "CFP";
 
 	class ItemInfo: HeadgearItem
 	{
@@ -325,7 +325,7 @@ class CFP_Basic_Helmet_EDRL: ItemCore
 	model = "\x\cfp\addons\headgear\BasicHelmet\H_PASGT_basic_F.p3d";
 	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\cfp_pasgt_edrl.paa"};
 	hiddenSelections[] = {"Camo"};
-	author = "AuburnAlumni";
+	author = "CFP";
 
 	class ItemInfo: HeadgearItem
 	{
@@ -350,7 +350,7 @@ class CFP_Basic_Helmet_ArmyGreen: ItemCore
 	model = "\x\cfp\addons\headgear\BasicHelmet\H_PASGT_basic_F.p3d";
 	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\cfp_pasgt_armygreen.paa"};
 	hiddenSelections[] = {"Camo"};
-	author = "AuburnAlumni";
+	author = "CFP";
 
 	class ItemInfo: HeadgearItem
 	{
@@ -375,7 +375,7 @@ class CFP_Basic_Helmet_Marpat: ItemCore
 	model = "\x\cfp\addons\headgear\BasicHelmet\H_PASGT_basic_F.p3d";
 	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\cfp_pasgt_marpat.paa"};
 	hiddenSelections[] = {"Camo"};
-	author = "AuburnAlumni";
+	author = "CFP";
 
 	class ItemInfo: HeadgearItem
 	{

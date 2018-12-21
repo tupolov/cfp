@@ -20,7 +20,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\GhillieHat";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\GhillieHat\Forrest.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: HeadgearItem
 		{
@@ -44,7 +44,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\GhillieHat";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\GhillieHat\Tropical.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: HeadgearItem
 		{
@@ -68,7 +68,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\GhillieHat";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\GhillieHat\Summer.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 

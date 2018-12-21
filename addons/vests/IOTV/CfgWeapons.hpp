@@ -21,7 +21,7 @@ class CfgVehicleClasses
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\CUP_iotv_1.p3d";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\IOTV\iotv_ucp.paa","\x\cfp\addons\vests\IOTV\extras_ucp.paa"};
 		hiddenSelections[] = {"camo1","camo2","camo3"};
-		author = "AuburnAlumni";
+		author = "CFP";
 		class ItemInfo: VestItem
 		{
 			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\CUP_iotv_1.p3d";
@@ -67,7 +67,7 @@ class CfgVehicleClasses
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\CUP_iotv_2.p3d";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\IOTV\iotv_ucp.paa","\x\cfp\addons\vests\IOTV\extras_ucp.paa"};
 		hiddenSelections[] = {"camo1","camo2","camo3"};
-		author = "AuburnAlumni";
+		author = "CFP";
 		class ItemInfo: VestItem
 		{
 			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_PMC\CUP_iotv_2.p3d";

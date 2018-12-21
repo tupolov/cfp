@@ -6,7 +6,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Pullover Uniform (Black)";
 		// picture = "\x\cfp\addons\uniforms\PulloverUniform\0000_Standard\ui\Black.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -24,7 +24,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Pullover Uniform (Green)";
 		// picture = "\x\cfp\addons\uniforms\PulloverUniform\0000_Standard\ui\Green.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -42,7 +42,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Pullover Uniform (Tan)";
 		// picture = "\x\cfp\addons\uniforms\PulloverUniform\0000_Standard\ui\Tan.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -60,7 +60,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Pullover Uniform (Grey)";
 		// picture = "\x\cfp\addons\uniforms\PulloverUniform\0000_Standard\ui\Grey.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -78,7 +78,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Pullover Uniform (Green Olive)";
 		// picture = "\x\cfp\addons\uniforms\PulloverUniform\0000_Standard\ui\GreenOlive.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -96,7 +96,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Pullover Uniform (A-Tacs FG)";
 		// picture = "\x\cfp\addons\uniforms\PulloverUniform\0000_Standard\ui\ATacsFG.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -114,7 +114,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Pullover Uniform (Nod Urban)";
 		// picture = "\x\cfp\addons\uniforms\PulloverUniform\0000_Standard\ui\NodUrban.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{

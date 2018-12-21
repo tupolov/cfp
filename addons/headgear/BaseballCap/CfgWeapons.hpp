@@ -20,7 +20,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\Black.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: HeadgearItem
 		{
@@ -236,7 +236,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\Blue.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -263,7 +263,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\Green.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -290,7 +290,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\Red.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -317,7 +317,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\Tan.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -342,7 +342,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\White.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -367,7 +367,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\Yellow.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -392,7 +392,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\UN.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -416,7 +416,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\TweedCheckedBrown.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -441,7 +441,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\TweedCheckedGreen.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -466,7 +466,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\TweedCheckedGrey.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -490,7 +490,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\Hunter.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -515,7 +515,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\Hunter2.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -539,7 +539,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\ATacsFG.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -564,7 +564,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\NodUrban.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -589,7 +589,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\PoliceBlack1.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -613,7 +613,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\FBIBlack1.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -637,7 +637,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\SwatBlack1.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -662,7 +662,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\MPBlack1.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -686,7 +686,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\BaseballCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BaseballCap\MPBlack2.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 

@@ -7,7 +7,7 @@
 		displayName = "MICH (Tan)";
 		// picture = "\x\cfp\addons\headgear\MichHelmet\ui\Tan1.jpg";
 		model = "\x\cfp\addons\models\VSM_MICH2017";
-		author = "VanSchmoozin";
+		author = "CFP";
 
 		class ItemInfo: HeadgearItem
 		{
@@ -31,7 +31,7 @@
 		model = "\x\cfp\addons\models\VSM_OPS2017";
 		hiddenSelections[] = {"camo","camo1","camo2"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_co.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
-		author = "VanSchmoozin";
+		author = "CFP";
 
 		class ItemInfo: HeadgearItem
 		{
@@ -53,7 +53,7 @@
 		// picture = "\x\cfp\addons\headgear\MichHelmet\ui\Tan1.jpg";
 		hiddenSelections[] = {"camo","camo1","camo2"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_multicam.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: HeadgearItem
 		{
@@ -76,7 +76,7 @@
 		// picture = "\x\cfp\addons\headgear\MichHelmet\ui\Tan1.jpg";
 		hiddenSelections[] = {"camo","camo1","camo2"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_flecktarn.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: HeadgearItem
 		{
@@ -99,7 +99,7 @@
 		// picture = "\x\cfp\addons\headgear\MichHelmet\ui\Tan1.jpg";
 		hiddenSelections[] = {"camo","camo1","camo2"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_m81.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: HeadgearItem
 		{
@@ -122,7 +122,7 @@
 		// picture = "\x\cfp\addons\headgear\MichHelmet\ui\Tan1.jpg";
 		hiddenSelections[] = {"camo","camo1","camo2"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_black.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: HeadgearItem
 		{
@@ -145,7 +145,7 @@
 		// picture = "\x\cfp\addons\headgear\MichHelmet\ui\Tan1.jpg";
 		hiddenSelections[] = {"camo","camo1","camo2"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_olivefabric.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: HeadgearItem
 		{
@@ -168,7 +168,7 @@
 		// picture = "\x\cfp\addons\headgear\MichHelmet\ui\Tan1.jpg";
 		hiddenSelections[] = {"camo","camo1","camo2"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_grey.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: HeadgearItem
 		{
@@ -191,7 +191,7 @@
 		// picture = "\x\cfp\addons\headgear\MichHelmet\ui\Tan1.jpg";
 		hiddenSelections[] = {"camo","camo1","camo2"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_black2.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110tblack.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_black.paa"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: HeadgearItem
 		{
@@ -214,7 +214,7 @@
 		// picture = "\x\cfp\addons\headgear\MichHelmet\ui\Tan1.jpg";
 		hiddenSelections[] = {"camo","camo1","camo2"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_multicam2.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: HeadgearItem
 		{
@@ -237,7 +237,7 @@
 		// picture = "\x\cfp\addons\headgear\MichHelmet\ui\Tan1.jpg";
 		hiddenSelections[] = {"camo","camo1","camo2"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_aor2.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_green.paa"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: HeadgearItem
 		{
@@ -260,7 +260,7 @@
 		// picture = "\x\cfp\addons\headgear\MichHelmet\ui\Tan1.jpg";
 		hiddenSelections[] = {"camo","camo1","camo2"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_aor1.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: HeadgearItem
 		{
@@ -283,7 +283,7 @@
 		// picture = "\x\cfp\addons\headgear\MichHelmet\ui\Tan1.jpg";
 		hiddenSelections[] = {"camo","camo1","camo2"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_atacs.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_green.paa"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: HeadgearItem
 		{
@@ -306,7 +306,7 @@
 		// picture = "\x\cfp\addons\headgear\MichHelmet\ui\Tan1.jpg";
 		hiddenSelections[] = {"camo","camo1","camo2"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_atacsau.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: HeadgearItem
 		{
@@ -329,7 +329,7 @@
 		// picture = "\x\cfp\addons\headgear\MichHelmet\ui\Tan1.jpg";
 		hiddenSelections[] = {"camo","camo1","camo2"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_tropentarn.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: HeadgearItem
 		{

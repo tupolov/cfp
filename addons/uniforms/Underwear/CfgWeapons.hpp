@@ -5,7 +5,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Underwear (Black)";
 		// picture = "\x\cfp\addons\uniforms\Underwear\0000_Standard\ui\Black.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -23,7 +23,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Underwear (Green)";
 		// picture = "\x\cfp\addons\uniforms\Underwear\0000_Standard\ui\Green.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -41,7 +41,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Underwear (Tan)";
 		// picture = "\x\cfp\addons\uniforms\Underwear\0000_Standard\ui\Tan.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -59,7 +59,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Underwear (Grey)";
 		// picture = "\x\cfp\addons\uniforms\Underwear\0000_Standard\ui\Grey.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -77,7 +77,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Underwear (Blue Dark)";
 		// picture = "\x\cfp\addons\uniforms\Underwear\0000_Standard\ui\BlueDark.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -95,7 +95,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Underwear (Blue Frost)";
 		// picture = "\x\cfp\addons\uniforms\Underwear\0000_Standard\ui\BlueFrost.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -113,7 +113,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Underwear (Blue Sky)";
 		// picture = "\x\cfp\addons\uniforms\Underwear\0000_Standard\ui\BlueSky.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -131,7 +131,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Underwear (Green Olive)";
 		// picture = "\x\cfp\addons\uniforms\Underwear\0000_Standard\ui\GreenOlive.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -149,7 +149,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Underwear (Green Spring)";
 		// picture = "\x\cfp\addons\uniforms\Underwear\0000_Standard\ui\GreenSpring.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -167,7 +167,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Underwear (Brown)";
 		// picture = "\x\cfp\addons\uniforms\Underwear\0000_Standard\ui\Brown.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -185,7 +185,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Underwear (Olive)";
 		// picture = "\x\cfp\addons\uniforms\Underwear\0000_Standard\ui\Olive.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -203,7 +203,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Underwear (Orange)";
 		// picture = "\x\cfp\addons\uniforms\Underwear\0000_Standard\ui\Orange.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -221,7 +221,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Underwear (Pink)";
 		// picture = "\x\cfp\addons\uniforms\Underwear\0000_Standard\ui\Pink.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -239,7 +239,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Underwear (Purple)";
 		// picture = "\x\cfp\addons\uniforms\Underwear\0000_Standard\ui\Purple.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -257,7 +257,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Underwear (Red)";
 		// picture = "\x\cfp\addons\uniforms\Underwear\0000_Standard\ui\Red.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -275,7 +275,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Underwear (White)";
 		// picture = "\x\cfp\addons\uniforms\Underwear\0000_Standard\ui\White.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -293,7 +293,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Underwear (Yellow)";
 		// picture = "\x\cfp\addons\uniforms\Underwear\0000_Standard\ui\Yellow.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{

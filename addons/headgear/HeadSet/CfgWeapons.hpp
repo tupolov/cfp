@@ -20,7 +20,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\HeadSet";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\HeadSet\Black.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: HeadgearItem
 		{
@@ -44,7 +44,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\HeadSet";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\HeadSet\Green.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -70,7 +70,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\HeadSet";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\HeadSet\Tan.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 

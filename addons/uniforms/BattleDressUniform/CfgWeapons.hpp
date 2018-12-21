@@ -6,7 +6,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (Black)";
 		// picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\Black.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -24,7 +24,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (Green)";
 		// picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\Green.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -43,7 +43,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (Tan)";
 		// picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\Tan.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -61,7 +61,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (Grey)";
 		// picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\Grey.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -79,7 +79,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (Green Olive)";
 		// picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\GreenOlive.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -97,7 +97,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (A-Tacs FG)";
 		// picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\ATacsFG.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -115,7 +115,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (Nod Urban)";
 		// picture = "\x\cfp\addons\uniforms\BattleDressUniform\0000_Standard\ui\NodUrban.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -313,7 +313,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (M81 Light Boots)";
 		// picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_M81.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -421,7 +421,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (Polygon Woodland Dark Boots)";
 		// picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_PolygonDesert.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -439,7 +439,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (Polygon Woodland Light Boots)";
 		// picture = "\x\cfp\addons\uniforms\BattleDressUniform\camo\ui\icon_PolygonDesert.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -564,7 +564,7 @@
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (Tiger Desert Tan Pants)";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -581,7 +581,7 @@
 		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Battle Dress Uniform (Iran Basij Digital)";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -597,18 +597,18 @@
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (OCP)",scorpion_w2,"CFP")
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Flora Arid)",flora_arid,"CFP")
 	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (ACR Desert)",acr_desert,"CFP")
-	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Iran DPM)",irandpm,"AuburnAlumni")
-	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (ANA Woodland Light Boots)",ana_wdlight,"AuburnAlumni")
-	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (ANA Woodland Dark Boots)",ana_wddark,"AuburnAlumni")
-	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (ANA Spec4ce Dark Boots)",ana_spec4cewd_dark,"AuburnAlumni")
-	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (ANA Spec4ce Light Boots)",ana_spec4cewd_light,"AuburnAlumni")
-	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Afghan National Police Dark Boots)",anp_dark,"AuburnAlumni")
-	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Afghan National Police Light Boots)",anp_light,"AuburnAlumni")
-	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Afghan National Civil Order Police Dark Boots)",ancop_dark,"AuburnAlumni")
-	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Afghan National Civil Order Police Light Boots)",ancop_light,"AuburnAlumni")
-	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Woodland Dark Boots)",woodlanddark,"AuburnAlumni")
-	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Woodland Light Boots)",woodlandlight,"AuburnAlumni")
-	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Marpat Uganda Dark Boots)",marpatugandadark,"AuburnAlumni")
-	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Marpat Uganda Light Boots)",marpatugandalight,"AuburnAlumni")
-	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Tiger Desert)",tigerdesert,"AuburnAlumni")
+	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Iran DPM)",irandpm,"CFP")
+	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (ANA Woodland Light Boots)",ana_wdlight,"CFP")
+	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (ANA Woodland Dark Boots)",ana_wddark,"CFP")
+	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (ANA Spec4ce Dark Boots)",ana_spec4cewd_dark,"CFP")
+	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (ANA Spec4ce Light Boots)",ana_spec4cewd_light,"CFP")
+	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Afghan National Police Dark Boots)",anp_dark,"CFP")
+	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Afghan National Police Light Boots)",anp_light,"CFP")
+	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Afghan National Civil Order Police Dark Boots)",ancop_dark,"CFP")
+	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Afghan National Civil Order Police Light Boots)",ancop_light,"CFP")
+	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Woodland Dark Boots)",woodlanddark,"CFP")
+	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Woodland Light Boots)",woodlandlight,"CFP")
+	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Marpat Uganda Dark Boots)",marpatugandadark,"CFP")
+	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Marpat Uganda Light Boots)",marpatugandalight,"CFP")
+	ADD_UNIFORM_W(BattleDressUniform,Camo,"Battle Dress Uniform (Tiger Desert)",tigerdesert,"CFP")
 

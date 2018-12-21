@@ -20,7 +20,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\TSH04Helmet";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\TSH04Helmet\Black.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 

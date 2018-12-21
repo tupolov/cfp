@@ -20,7 +20,7 @@ class SP_ACHHelmet_Black1: ItemCore
 	model = "\x\cfp\addons\models\ACHHelmet1";
 	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\ACHHelmet\Black.paa"};
 	hiddenSelections[] = {"Camo"};
-	author = "SP Craig";
+	author = "CFP";
 
 	class ItemInfo: HeadgearItem
 	{
@@ -45,7 +45,7 @@ class SP_ACHHelmet_Blue1: ItemCore
 	model = "\x\cfp\addons\models\ACHHelmet1";
 	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\ACHHelmet\Blue.paa"};
 	hiddenSelections[] = {"Camo"};
-	author = "SP Craig";
+	author = "CFP";
 
 	class ItemInfo: HeadgearItem
 	{
@@ -70,7 +70,7 @@ class SP_ACHHelmet_Green1: ItemCore
 	model = "\x\cfp\addons\models\ACHHelmet1";
 	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\ACHHelmet\Green.paa"};
 	hiddenSelections[] = {"Camo"};
-	author = "SP Craig";
+	author = "CFP";
 
 	class ItemInfo: HeadgearItem
 	{
@@ -95,7 +95,7 @@ class SP_ACHHelmet_Tan1: ItemCore
 	model = "\x\cfp\addons\models\ACHHelmet1";
 	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\ACHHelmet\Tan.paa"};
 	hiddenSelections[] = {"Camo"};
-	author = "SP Craig";
+	author = "CFP";
 
 	class ItemInfo: HeadgearItem
 	{
@@ -119,7 +119,7 @@ class SP_ACHHelmet_White1: ItemCore
 	model = "\x\cfp\addons\models\ACHHelmet1";
 	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\ACHHelmet\White.paa"};
 	hiddenSelections[] = {"Camo"};
-	author = "SP Craig";
+	author = "CFP";
 
 
 
@@ -145,7 +145,7 @@ class SP_ACHHelmet_Un1: ItemCore
 	model = "\x\cfp\addons\models\ACHHelmet1";
 	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\ACHHelmet\Un.paa"};
 	hiddenSelections[] = {"Camo"};
-	author = "SP Craig";
+	author = "CFP";
 
 
 
@@ -172,7 +172,7 @@ class SP_ACHHelmet_ATacsFG1: ItemCore
 	model = "\x\cfp\addons\models\ACHHelmet1";
 	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\ACHHelmet\ATacsFG.paa"};
 	hiddenSelections[] = {"Camo"};
-	author = "SP Craig";
+	author = "CFP";
 
 
 
@@ -199,7 +199,7 @@ class SP_ACHHelmet_NodUrban1: ItemCore
 	model = "\x\cfp\addons\models\ACHHelmet1";
 	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\ACHHelmet\NodUrban.paa"};
 	hiddenSelections[] = {"Camo"};
-	author = "SP Craig";
+	author = "CFP";
 
 
 
@@ -226,7 +226,7 @@ class CFP_ACHHelmet_ATacsAU: ItemCore
 	model = "\x\cfp\addons\models\ACHHelmet1";
 	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\ACHHelmet\ATacsAU.paa"};
 	hiddenSelections[] = {"Camo"};
-	author = "SP Craig";
+	author = "CFP";
 
 	class ItemInfo: HeadgearItem
 	{

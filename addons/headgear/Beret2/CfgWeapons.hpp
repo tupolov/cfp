@@ -20,7 +20,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\Beret2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\Black.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: HeadgearItem
 		{
@@ -44,7 +44,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\Beret2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\Grey.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -70,7 +70,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\Beret2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\Blue.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -96,7 +96,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\Beret2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\Brown.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -122,7 +122,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\Beret2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\Green.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -149,7 +149,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\Beret2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\Red.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -176,7 +176,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\Beret2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\Tan.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -203,7 +203,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\Beret2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\Yellow.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -230,7 +230,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\Beret2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\GreenIran.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -257,7 +257,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\Beret2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\Sahrani.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -284,7 +284,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\Beret2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\RedIran.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -311,7 +311,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\Beret2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\GreenANA.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -338,7 +338,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\Beret2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\RedANA.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -365,7 +365,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\Beret2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\GreenIranAirborne.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 

@@ -6,7 +6,7 @@
 	{
 		scope = 2;
 		displayname = "Tac Goggles Clear [75th]";
-		author = "Hawaiian";
+		author = "CFP";
 		model = "\x\cfp\addons\glasses\75Facewear\tactical_goggles.p3d";
 		picture = "";
 		hiddenSelections[] = {"camo"};
@@ -26,7 +26,7 @@
 
 			scope = 2;
 			displayname = "Tac Goggles Yellow [75th]";
-			author = "Hawaiian";
+			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Facewear\tactical_goggles.p3d";
 			picture = "";
 			hiddenSelections[] = {"camo"};
@@ -46,7 +46,7 @@
 
 			scope = 2;
 			displayname = "Tac Goggles Dark [75th]";
-			author = "Hawaiian";
+			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Facewear\tactical_goggles.p3d";
 			picture = "";
 			hiddenSelections[] = {"camo"};
@@ -66,7 +66,7 @@
 
 			scope = 2;
 			displayname = "Tac Goggles Tan Clear [75th]";
-			author = "Hawaiian";
+			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Facewear\tactical_goggles.p3d";
 			picture = "";
 			hiddenSelections[] = {"camo"};
@@ -86,7 +86,7 @@
 
 			scope = 2;
 			displayname = "Tac Goggles Tan Dark [75th]";
-			author = "Hawaiian";
+			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Facewear\tactical_goggles.p3d";
 			picture = "";
 			hiddenSelections[] = {"camo"};
@@ -105,7 +105,7 @@
 
 			scope = 2;
 			displayname = "Tac Goggles Smoke [75th]";
-			author = "Hawaiian";
+			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Facewear\tactical_goggles.p3d";
 			picture = "";
 			hiddenSelections[] = {"camo"};
@@ -126,7 +126,7 @@
 
 			scope = 2;
 			displayname = "Oakleys Clear [75th]";
-			author = "DaveGary/Hawaiian";
+			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Facewear\oakley_glasses.p3d";
 			hiddenSelections[] = {"camo"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\75Facewear\tex\clear_lense_ca.paa"};
@@ -146,7 +146,7 @@
 
 			scope = 2;
 			displayname = "Oakleys Dark [75th]";
-			author = "DaveGary/Hawaiian";
+			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Facewear\oakley_glasses.p3d";
 			hiddenSelections[] = {"camo"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\75Facewear\tex\black_lense_ca.paa"};
@@ -166,7 +166,7 @@
 
 			scope = 2;
 			displayname = "Oakleys Ember [75th]";
-			author = "DaveGary/Hawaiian";
+			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Facewear\oakley_glasses.p3d";
 			hiddenSelections[] = {"camo"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\75Facewear\tex\ember_lense_ca.paa"};
@@ -189,7 +189,7 @@
 
 			scope = 2;
 			displayname = "Ballistics Black [75th]";
-			author = "Hawaiian";
+			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Facewear\oakley_ballistic_goggles.p3d";
 			hiddenSelections[] = {"camo", "camo2"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\75Facewear\tex\oakley_b_goggles_blk_co.paa","\x\cfp\addons\glasses\75Facewear\tex\glass_clear_ca.paa"};
@@ -209,7 +209,7 @@
 
 			scope = 2;
 			displayname = "Ballistics Tint Black [75th]";
-			author = "Hawaiian";
+			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Facewear\oakley_ballistic_goggles.p3d";
 			hiddenSelections[] = {"camo", "camo2"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\75Facewear\tex\oakley_b_goggles_blk_co.paa","\x\cfp\addons\glasses\75Facewear\tex\glass_dark_ca.paa"};
@@ -229,7 +229,7 @@
 
 			scope = 2;
 			displayname = "Ballistics Dark Tan [75th]";
-			author = "Hawaiian";
+			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Facewear\oakley_ballistic_goggles.p3d";
 			hiddenSelections[] = {"camo", "camo2"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\75Facewear\tex\oakley_b_goggles_dtan_co.paa","\x\cfp\addons\glasses\75Facewear\tex\glass_clear_ca.paa"};
@@ -249,7 +249,7 @@
 
 			scope = 2;
 			displayname = "Ballistics Tint Dark Tan [75th]";
-			author = "Hawaiian";
+			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Facewear\oakley_ballistic_goggles.p3d";
 			hiddenSelections[] = {"camo", "camo2"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\75Facewear\tex\oakley_b_goggles_dtan_co.paa","\x\cfp\addons\glasses\75Facewear\tex\glass_dark_ca.paa"};
@@ -269,7 +269,7 @@
 
 			scope = 2;
 			displayname = "Ballistics Olive [75th]";
-			author = "Hawaiian";
+			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Facewear\oakley_ballistic_goggles.p3d";
 			hiddenSelections[] = {"camo", "camo2"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\75Facewear\tex\oakley_b_goggles_olv_co.paa","\x\cfp\addons\glasses\75Facewear\tex\glass_clear_ca.paa"};
@@ -289,7 +289,7 @@
 
 			scope = 2;
 			displayname = "Ballistics Tint Olive [75th]";
-			author = "Hawaiian";
+			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Facewear\oakley_ballistic_goggles.p3d";
 			hiddenSelections[] = {"camo", "camo2"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\75Facewear\tex\oakley_b_goggles_olv_co.paa","\x\cfp\addons\glasses\75Facewear\tex\glass_dark_ca.paa"};
@@ -309,7 +309,7 @@
 
 			scope = 2;
 			displayname = "Ballistics Choc [75th]";
-			author = "Hawaiian";
+			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Facewear\oakley_ballistic_goggles.p3d";
 			hiddenSelections[] = {"camo", "camo2"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\75Facewear\tex\oakley_b_goggles_choc_co.paa","\x\cfp\addons\glasses\75Facewear\tex\glass_clear_ca.paa"};
@@ -329,7 +329,7 @@
 
 			scope = 2;
 			displayname = "Ballistics Tint Choc [75th]";
-			author = "Hawaiian";
+			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Facewear\oakley_ballistic_goggles.p3d";
 			hiddenSelections[] = {"camo", "camo2"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\75Facewear\tex\oakley_b_goggles_choc_co.paa","\x\cfp\addons\glasses\75Facewear\tex\glass_dark_ca.paa"};
@@ -349,7 +349,7 @@
 
 			scope = 2;
 			displayname = "Ballistics Green [75th]";
-			author = "Hawaiian";
+			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Facewear\oakley_ballistic_goggles.p3d";
 			hiddenSelections[] = {"camo", "camo2"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\75Facewear\tex\oakley_b_goggles_grn_co.paa","\x\cfp\addons\glasses\75Facewear\tex\glass_clear_ca.paa"};
@@ -369,7 +369,7 @@
 
 			scope = 2;
 			displayname = "Ballistics Tint Green [75th]";
-			author = "Hawaiian";
+			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Facewear\oakley_ballistic_goggles.p3d";
 			hiddenSelections[] = {"camo", "camo2"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\75Facewear\tex\oakley_b_goggles_grn_co.paa","\x\cfp\addons\glasses\75Facewear\tex\glass_dark_ca.paa"};
@@ -389,7 +389,7 @@
 
 			scope = 2;
 			displayname = "Ballistics Multicam [75th]";
-			author = "Hawaiian";
+			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Facewear\oakley_ballistic_goggles.p3d";
 			hiddenSelections[] = {"camo", "camo2"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\75Facewear\tex\oakley_b_goggles_mcam_co.paa","\x\cfp\addons\glasses\75Facewear\tex\glass_clear_ca.paa"};
@@ -409,7 +409,7 @@
 
 			scope = 2;
 			displayname = "Ballistics Tint Multicam [75th]";
-			author = "Hawaiian";
+			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Facewear\oakley_ballistic_goggles.p3d";
 			hiddenSelections[] = {"camo", "camo2"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\75Facewear\tex\oakley_b_goggles_mcam_co.paa","\x\cfp\addons\glasses\75Facewear\tex\glass_dark_ca.paa"};
@@ -429,7 +429,7 @@
 
 			scope = 2;
 			displayname = "Ballistics Alpine [75th]";
-			author = "Hawaiian";
+			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Facewear\oakley_ballistic_goggles.p3d";
 			hiddenSelections[] = {"camo", "camo2"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\75Facewear\tex\oakley_b_goggles_alpn_co.paa","\x\cfp\addons\glasses\75Facewear\tex\glass_clear_ca.paa"};
@@ -449,7 +449,7 @@
 
 			scope = 2;
 			displayname = "Ballistics Tint Alpine [75th]";
-			author = "Hawaiian";
+			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Facewear\oakley_ballistic_goggles.p3d";
 			hiddenSelections[] = {"camo", "camo2"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\75Facewear\tex\oakley_b_goggles_alpn_co.paa","\x\cfp\addons\glasses\75Facewear\tex\glass_dark_ca.paa"};

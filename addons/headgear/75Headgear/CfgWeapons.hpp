@@ -10,7 +10,7 @@
 		model = "\x\cfp\addons\headgear\75Headgear\ops_core_covered.p3d";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\opscore_co.paa"};
-		author = "DaveGary/Hawaiian";
+		author = "CFP";
 
 		class ItemInfo: HeadgearItem
 		{
@@ -35,7 +35,7 @@
 		model = "\x\cfp\addons\headgear\75Headgear\ops_core_covered.p3d";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\opscore_co_idf.paa"};
-		author = "DaveGary/Hawaiian";
+		author = "CFP";
 
 		class ItemInfo: HeadgearItem
 		{
@@ -56,7 +56,7 @@
 
             picture = \x\cfp\addons\headgear\data\ui\icon_CFP_OpsC_Covered2.paa;
 			scope = 2;
-			author = "DaveGary/modifiedbyHawaiian";
+			author = "CFP";
 			displayName = "Ops-Core Covered II [75th]";
 			model = "\x\cfp\addons\headgear\75Headgear\ops_core_covered2.p3d";
 			hiddenSelections[] = {"camo","camo1"};
@@ -85,7 +85,7 @@
 
 
 			scope = 2;
-			author = "DaveGary/modifiedbyHawaiian";
+			author = "CFP";
 			displayName = "Ops-Core Covered II [IDF]";
 			model = "\x\cfp\addons\headgear\75Headgear\ops_core_covered2.p3d";
 			hiddenSelections[] = {"camo","camo1"};
@@ -115,7 +115,7 @@
 
 			scope = 2;
 			weaponPoolAvailable = 1;
-			author = "DaveGary/modifiedbyHawaiian";
+			author = "CFP";
 			displayName = "Ops-Core Uncov Goggles [75th]";
 			model = "\x\cfp\addons\headgear\75Headgear\ops_core_uncov_goggles.p3d";
 			hiddenSelections[] = {""};
@@ -145,7 +145,7 @@
 
 			scope = 2;
 			weaponPoolAvailable = 1;
-			author = "DaveGary/modifiedbyHawaiian";
+			author = "CFP";
 			displayName = "Ops-Core Uncov Full [75th]";
 			model = "\x\cfp\addons\headgear\75Headgear\ops_core_uncov_full.p3d";
 			hiddenSelections[] = {""};
@@ -175,7 +175,7 @@
 
 			scope = 2;
 			weaponPoolAvailable = 1;
-			author = "DaveGary/modifiedbyHawaiian";
+			author = "CFP";
 			displayName = "Ops-Core Uncov Full [IDF]";
 			model = "\x\cfp\addons\headgear\75Headgear\ops_core_uncov_full_idf.p3d";
 			hiddenSelections[] = {""};
@@ -205,7 +205,7 @@
 
 			scope = 2;
 			weaponPoolAvailable = 1;
-			author = "DaveGary/modifiedbyHawaiian";
+			author = "CFP";
 			displayName = "Ops-Core Cov Goggles Off [75th]";
 			model = "\x\cfp\addons\headgear\75Headgear\ops_core_cov_goggles_off.p3d";
 			hiddenSelections[] = {"camo","camo1"};
@@ -235,7 +235,7 @@
 
 			scope = 2;
 			weaponPoolAvailable = 1;
-			author = "DaveGary/modifiedbyHawaiian";
+			author = "CFP";
 			displayName = "Ops-Core Cov Goggles/Shemagh [75th]";
 			model = "\x\cfp\addons\headgear\75Headgear\ops_core_cov_full.p3d";
 			hiddenSelections[] = {"camo","camo1","camo2","camo3"};
@@ -265,7 +265,7 @@
 
 			scope = 2;
 			weaponPoolAvailable = 1;
-			author = "DaveGary/modifiedbyHawaiian";
+			author = "CFP";
 			displayName = "Ops-Core Spec [75th]";
 			model = "\x\cfp\addons\headgear\75Headgear\ops_core_cov_medic.p3d";
 			hiddenSelections[] = {"camo","camo1"};
@@ -295,7 +295,7 @@
 
 			scope = 2;
 			weaponPoolAvailable = 1;
-			author = "DaveGary/modifiedbyHawaiian";
+			author = "CFP";
 			displayName = "Ops-Core Spec [IDF]";
 			model = "\x\cfp\addons\headgear\75Headgear\ops_core_cov_medic.p3d";
 			hiddenSelections[] = {"camo","camo1"};
@@ -325,7 +325,7 @@
 
 			scope = 2;
 			weaponPoolAvailable = 1;
-			author = "DaveGary/modifiedbyHawaiian";
+			author = "CFP";
 			displayName = "Ops-Core Uncovered [75th]";
 			model = "\x\cfp\addons\headgear\75Headgear\ops_core_uncovered.p3d";
 			hiddenSelections[] = {"camo"};
@@ -355,7 +355,7 @@
 
 			scope = 2;
 			weaponPoolAvailable = 1;
-			author = "DaveGary/modifiedbyHawaiian";
+			author = "CFP";
 			displayName = "Ops-Core Painted [75th]";
 			model = "\x\cfp\addons\headgear\75Headgear\ops_core_uncov_painted.p3d";
 			hiddenSelections[] = {"camo","camo1"};
@@ -385,7 +385,7 @@
 
 			scope = 2;
 			weaponPoolAvailable = 1;
-			author = "DaveGary/modifiedbyHawaiian";
+			author = "CFP";
 			displayName = "Ops-Core Painted [IDF]";
 			model = "\x\cfp\addons\headgear\75Headgear\ops_core_uncov_painted.p3d";
 			hiddenSelections[] = {"camo","camo1"};
@@ -415,7 +415,7 @@
 
 			scope = 2;
 			weaponPoolAvailable = 1;
-			author = "DaveGary/modifiedbyHawaiian";
+			author = "CFP";
 			displayName = "Ops-Core Uncov Goggles Off [75th]";
 			model = "\x\cfp\addons\headgear\75Headgear\ops_core_uncov_goggles_off.p3d";
 			hiddenSelections[] = {"camo"};
@@ -445,7 +445,7 @@
 
 			scope = 2;
 			weaponPoolAvailable = 1;
-			author = "DaveGary/modifiedbyHawaiian";
+			author = "CFP";
 			displayName = "Ops-Core Uncov Shemagh [75th]";
 			model = "\x\cfp\addons\headgear\75Headgear\ops_core_uncov_shemagh.p3d";
 			hiddenSelections[] = {"camo","camo1"};

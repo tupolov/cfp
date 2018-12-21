@@ -90,7 +90,6 @@ class CfgPatches
             "CFP_Lungee_Shemagh_White",
             "CFP_Lungee_Shemagh_Yellow",
             "CFP_Lungee_Tan",
-            "CFP_Mich2000_USArmy",
             "CFP_MitzHelm1_Des",
             "CFP_MitzHelm1_Des2",
             "CFP_MitzHelm1_Wdl",

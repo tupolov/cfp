@@ -20,7 +20,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\BoonieHat";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BoonieHat\Black.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: HeadgearItem
 		{
@@ -44,7 +44,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\BoonieHat";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BoonieHat\Green.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -71,7 +71,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\BoonieHat";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BoonieHat\Tan.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -125,7 +125,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\BoonieHat";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BoonieHat\UN.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -152,7 +152,7 @@ class CfgVehicleClasses
 	    model = "\x\cfp\addons\models\BoonieHat";
 	    hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BoonieHat\ATacsFG.paa"};
 	    hiddenSelections[] = {"Camo"};
-	    author = "SP Craig";
+	    author = "CFP";
 
 
 
@@ -179,7 +179,7 @@ class CfgVehicleClasses
 	    model = "\x\cfp\addons\models\BoonieHat";
 	    hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BoonieHat\NodUrban.paa"};
 	    hiddenSelections[] = {"Camo"};
-	    author = "SP Craig";
+	    author = "CFP";
 
 
 
@@ -206,7 +206,7 @@ class CfgVehicleClasses
 	    model = "\x\cfp\addons\models\BoonieHat";
 	    hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BoonieHat\AfricanWoodland.paa"};
 	    hiddenSelections[] = {"Camo"};
-	    author = "AuburnAlumni";
+	    author = "CFP";
 
 
 
@@ -233,7 +233,7 @@ class CfgVehicleClasses
 	    model = "\x\cfp\addons\models\BoonieHat";
 	    hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BoonieHat\PolygonDesert.paa"};
 	    hiddenSelections[] = {"Camo"};
-	    author = "AuburnAlumni";
+	    author = "CFP";
 
 
 
@@ -260,7 +260,7 @@ class CfgVehicleClasses
 	    model = "\x\cfp\addons\models\BoonieHat";
 	    hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BoonieHat\PolygonWoodland.paa"};
 	    hiddenSelections[] = {"Camo"};
-	    author = "AuburnAlumni";
+	    author = "CFP";
 
 
 
@@ -287,7 +287,7 @@ class CfgVehicleClasses
 	    model = "\x\cfp\addons\models\BoonieHat";
 	    hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BoonieHat\M81.paa"};
 	    hiddenSelections[] = {"Camo"};
-	    author = "AuburnAlumni";
+	    author = "CFP";
 
 
 
@@ -314,7 +314,7 @@ class CfgVehicleClasses
 	    model = "\x\cfp\addons\models\BoonieHat";
 	    hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BoonieHat\ACRDesert.paa"};
 	    hiddenSelections[] = {"Camo"};
-	    author = "AuburnAlumni";
+	    author = "CFP";
 
 
 
@@ -341,7 +341,7 @@ class CfgVehicleClasses
 	    model = "\x\cfp\addons\models\BoonieHat";
 	    hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BoonieHat\Marpat.paa"};
 	    hiddenSelections[] = {"Camo"};
-	    author = "AuburnAlumni";
+	    author = "CFP";
 
 
 
@@ -368,7 +368,7 @@ class CfgVehicleClasses
 	    model = "\x\cfp\addons\models\BoonieHat";
 	    hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BoonieHat\MarpatDesert.paa"};
 	    hiddenSelections[] = {"Camo"};
-	    author = "AuburnAlumni";
+	    author = "CFP";
 
 
 
@@ -395,7 +395,7 @@ class CfgVehicleClasses
 	    model = "\x\cfp\addons\models\BoonieHat";
 	    hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BoonieHat\AOR2.paa"};
 	    hiddenSelections[] = {"Camo"};
-	    author = "AuburnAlumni";
+	    author = "CFP";
 
 
 
@@ -422,7 +422,7 @@ class CfgVehicleClasses
 	    model = "\x\cfp\addons\models\BoonieHat";
 	    hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BoonieHat\Tropentarn.paa"};
 	    hiddenSelections[] = {"Camo"};
-	    author = "AuburnAlumni";
+	    author = "CFP";
 
 
 
@@ -449,7 +449,7 @@ class CfgVehicleClasses
 	    model = "\x\cfp\addons\models\BoonieHat";
 	    hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BoonieHat\Flecktarn.paa"};
 	    hiddenSelections[] = {"Camo"};
-	    author = "AuburnAlumni";
+	    author = "CFP";
 
 
 
@@ -476,7 +476,7 @@ class CfgVehicleClasses
 	    model = "\x\cfp\addons\models\BoonieHat";
 	    hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BoonieHat\Multicam.paa"};
 	    hiddenSelections[] = {"Camo"};
-	    author = "AuburnAlumni";
+	    author = "CFP";
 
 
 
@@ -503,7 +503,7 @@ class CfgVehicleClasses
 	    model = "\x\cfp\addons\models\Booniefolded";
 	    hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BoonieHat\DCU2.paa"};
 	    hiddenSelections[] = {"camo3"};
-	    author = "AuburnAlumni";
+	    author = "CFP";
 
 
 
@@ -530,7 +530,7 @@ class CfgVehicleClasses
 	    model = "\x\cfp\addons\models\Booniefolded";
 	    hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BoonieHat\M812.paa"};
 	    hiddenSelections[] = {"camo3"};
-	    author = "AuburnAlumni";
+	    author = "CFP";
 
 
 
@@ -557,7 +557,7 @@ class CfgVehicleClasses
 	    model = "\x\cfp\addons\models\Booniefolded";
 	    hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BoonieHat\M81Mali2.paa"};
 	    hiddenSelections[] = {"camo3"};
-	    author = "AuburnAlumni";
+	    author = "CFP";
 
 
 

@@ -20,7 +20,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\ZSH1Helmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\ZSH1Helmet\Black.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa"};
 		hiddenSelections[] = {"Camo","Camo1"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -45,7 +45,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\ZSH1Helmet2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\ZSH1Helmet\Black.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa"};
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -71,7 +71,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\ZSH1Helmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\ZSH1Helmet\Green.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa"};
 		hiddenSelections[] = {"Camo","Camo1"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -96,7 +96,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\ZSH1Helmet2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\ZSH1Helmet\Green.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa"};
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -123,7 +123,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\ZSH1Helmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\ZSH1Helmet\Tan.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa"};
 		hiddenSelections[] = {"Camo","Camo1"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -149,7 +149,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\ZSH1Helmet2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\ZSH1Helmet\Tan.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa"};
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 

@@ -10,7 +10,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\Black.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -38,7 +38,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\Black.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -67,7 +67,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\Blue.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -95,7 +95,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\Blue.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -123,7 +123,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\Green.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -151,7 +151,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\Green.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -180,7 +180,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\Tan.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -208,7 +208,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\Tan.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -236,7 +236,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\Un.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -264,7 +264,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\Un.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -292,7 +292,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\IranDPM.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -320,7 +320,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\IranDPM.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -348,7 +348,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\Woodland.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -376,7 +376,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\Woodland.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -404,7 +404,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\TPat.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -432,7 +432,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\TPat.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -460,7 +460,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\Tiger.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -488,7 +488,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\Tiger.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -516,7 +516,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\Marpat.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -544,7 +544,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\Marpat.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -572,7 +572,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\ACRDesert.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -600,7 +600,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\ACRDesert.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -628,7 +628,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\DCU.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -656,7 +656,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\DCU.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -684,7 +684,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\IPDPM.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -712,7 +712,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\IPDPM.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -740,7 +740,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\IPDigital.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -768,7 +768,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\IPDigital.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -796,7 +796,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\M81.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -824,7 +824,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\M81.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -852,7 +852,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\ChocChip.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -880,7 +880,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\ChocChip.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -908,7 +908,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\EDRL.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -936,7 +936,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\EDRL.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -964,7 +964,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\SFUPDF.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -992,7 +992,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\SFUPDF.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -1020,7 +1020,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\Tropentarn.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -1048,7 +1048,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\Tropentarn.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -1076,7 +1076,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\Flecktarn.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -1104,7 +1104,7 @@
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\Flecktarn.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 

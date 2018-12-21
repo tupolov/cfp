@@ -10,7 +10,7 @@
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\Black.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -37,7 +37,7 @@
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\Blue.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -64,7 +64,7 @@
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\Green.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -92,7 +92,7 @@
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\Tan.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -120,7 +120,7 @@
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\UN.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -147,7 +147,7 @@
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\Grey.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -175,7 +175,7 @@
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\Yellow.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -202,7 +202,7 @@
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\GreenOlive.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -229,7 +229,7 @@
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\ATacsFG.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -257,7 +257,7 @@
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\NodUrban.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -284,7 +284,7 @@
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\ANP.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -311,7 +311,7 @@
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\ANCOP.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -338,7 +338,7 @@
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\IPDigital.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -365,7 +365,7 @@
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\IPDPM.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -392,7 +392,7 @@
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\M81Sudan.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -419,7 +419,7 @@
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\EDRL.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -446,7 +446,7 @@
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\IranDPM.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -473,7 +473,7 @@
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\Marpat.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -500,7 +500,7 @@
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\Woodland.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -527,7 +527,7 @@
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\AfricanWoodland.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -554,7 +554,7 @@
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\PolygonDesert.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -581,7 +581,7 @@
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\M81.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -608,7 +608,7 @@
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\M81Hamas.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -635,7 +635,7 @@
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\BlackHamas.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -662,7 +662,7 @@
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\PolygonWoodland.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -689,7 +689,7 @@
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\MarpatUganda.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -716,7 +716,7 @@
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\WdlMali.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -743,7 +743,7 @@
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\CEU.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -770,7 +770,7 @@
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\DDPM.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -797,7 +797,7 @@
 		model = "\x\cfp\addons\models\PatrolCap";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\ChocChip.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 

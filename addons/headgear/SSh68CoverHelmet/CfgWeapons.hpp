@@ -20,7 +20,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\SSh68CoverHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\Black.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -47,7 +47,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\SSh68CoverHelmet2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\Black.paa","\x\cfp\addons\headgear\SSh68CoverHelmet\Black.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa"};
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -72,7 +72,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\SSh68CoverHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\Blue.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -99,7 +99,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\SSh68CoverHelmet2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\Blue.paa","\x\cfp\addons\headgear\SSh68CoverHelmet\Black.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa"};
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -126,7 +126,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\SSh68CoverHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\Green.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -153,7 +153,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\SSh68CoverHelmet2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\Green.paa","\x\cfp\addons\headgear\SSh68CoverHelmet\Black.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa"};
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -180,7 +180,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\SSh68CoverHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\Tan.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -207,7 +207,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\SSh68CoverHelmet2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\Tan.paa","\x\cfp\addons\headgear\SSh68CoverHelmet\Black.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa"};
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -234,7 +234,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\SSh68CoverHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\White.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -262,7 +262,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\SSh68CoverHelmet2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\White.paa","\x\cfp\addons\headgear\SSh68CoverHelmet\Black.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa"};
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -287,7 +287,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\SSh68CoverHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\UN.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -315,7 +315,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\SSh68CoverHelmet2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\UN.paa","\x\cfp\addons\headgear\SSh68CoverHelmet\Black.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa"};
 		hiddenSelections[] = {"Camo","Camo1","Camo2"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -343,7 +343,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\SSh68CoverHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\DRK.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 

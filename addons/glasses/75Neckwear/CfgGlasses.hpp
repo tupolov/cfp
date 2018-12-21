@@ -7,7 +7,7 @@
 
 			scope = 2;
 			displayname = "Neck Wrap/Glasses Olive [75th]";
-			author = "Hawaiian";
+			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Neckwear\shemagh_neck_wrap_oakleys.p3d";
 			hiddenSelections[] = {"camo", "camo2"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\75Neckwear\tex\neckwrap_olv_co.paa","x\cfp\addons\glasses\75Facewear\tex\clear_lense_ca.paa"};
@@ -26,7 +26,7 @@
 
 			scope = 2;
 			displayname = "Neck Wrap Olive [75th]";
-			author = "Hawaiian";
+			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Neckwear\shemagh_neck_wrap.p3d";
 			hiddenSelections[] = {"camo"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\75Neckwear\tex\neckwrap_olv_co.paa"};
@@ -45,7 +45,7 @@
 
 			scope = 2;
 			displayname = "Neck Wrap/Glasses Red Borwn [75th]";
-			author = "Hawaiian";
+			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Neckwear\shemagh_neck_wrap_oakleys.p3d";
 			hiddenSelections[] = {"camo", "camo2"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\75Neckwear\tex\neckwrap_redbrwn_co.paa","x\cfp\addons\glasses\75Facewear\tex\ember_lense_ca.paa"};
@@ -64,7 +64,7 @@
 
 			scope = 2;
 			displayname = "Neck Wrap Red Brown [75th]";
-			author = "Hawaiian";
+			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Neckwear\shemagh_neck_wrap.p3d";
 			hiddenSelections[] = {"camo"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\75Neckwear\tex\neckwrap_redbrwn_co.paa"};
@@ -83,7 +83,7 @@
 
 			scope = 2;
 			displayname = "Neck Wrap/Glasses Red [75th]";
-			author = "Hawaiian";
+			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Neckwear\shemagh_neck_wrap_oakleys.p3d";
 			hiddenSelections[] = {"camo", "camo2"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\75Neckwear\tex\neckwrap_red_co.paa","x\cfp\addons\glasses\75Facewear\tex\black_lense_ca.paa"};
@@ -102,7 +102,7 @@
 
 			scope = 2;
 			displayname = "Neck Wrap Red [75th]";
-			author = "Hawaiian";
+			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Neckwear\shemagh_neck_wrap.p3d";
 			hiddenSelections[] = {"camo"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\75Neckwear\tex\neckwrap_red_co.paa"};
@@ -121,7 +121,7 @@
 
 			scope = 2;
 			displayname = "Neck Wrap/Glasses A-TACs [75th]";
-			author = "Hawaiian";
+			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Neckwear\shemagh_neck_wrap_oakleys.p3d";
 			hiddenSelections[] = {"camo", "camo2"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\75Neckwear\tex\neckwrap_atacs_co.paa","x\cfp\addons\glasses\75Facewear\tex\clear_lense_ca.paa"};
@@ -140,7 +140,7 @@
 
 			scope = 2;
 			displayname = "Neck Wrap A-TACs [75th]";
-			author = "Hawaiian";
+			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Neckwear\shemagh_neck_wrap.p3d";
 			hiddenSelections[] = {"camo"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\75Neckwear\tex\neckwrap_atacs_co.paa"};
@@ -159,7 +159,7 @@
 
 			scope = 2;
 			displayname = "Neck Wrap/Glasses A-TACs II [75th]";
-			author = "Hawaiian";
+			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Neckwear\shemagh_neck_wrap_oakleys.p3d";
 			hiddenSelections[] = {"camo", "camo2"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\75Neckwear\tex\neckwrap_atacs2_co.paa","x\cfp\addons\glasses\75Facewear\tex\black_lense_ca.paa"};
@@ -178,7 +178,7 @@
 
 			scope = 2;
 			displayname = "Neck Wrap A-TACs II [75th]";
-			author = "Hawaiian";
+			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Neckwear\shemagh_neck_wrap.p3d";
 			hiddenSelections[] = {"camo"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\75Neckwear\tex\neckwrap_atacs2_co.paa"};
@@ -244,7 +244,7 @@
 
 			scope = 2;
 			displayname = "Under Armour Thermals Green [75th]";
-			author = "Hawaiian";
+			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Neckwear\ua_thermals.p3d";
 			hiddenSelections[] = {"camo","camo2"};
 			hiddenSelectionsTextures[] = {"x\cfp\addons\glasses\75Neckwear\tex\ua_thermals1_grn_co.paa","x\cfp\addons\glasses\75Neckwear\tex\ua_thermals2_grn_co.paa"};
@@ -264,7 +264,7 @@
 
 			scope = 2;
 			displayname = "UA Thermals Green GPS [75th]";
-			author = "Hawaiian";
+			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Neckwear\ua_thermals_gps.p3d";
 			hiddenSelections[] = {"camo","camo2","camo3"};
 			hiddenSelectionsTextures[] = {"x\cfp\addons\glasses\75Neckwear\tex\ua_thermals1_grn_co.paa","x\cfp\addons\glasses\75Neckwear\tex\ua_thermals2_grn_co.paa","x\cfp\addons\glasses\75Neckwear\tex\gps_co.paa"};
@@ -284,7 +284,7 @@
 
 			scope = 2;
 			displayname = "Under Armour Thermals Black [75th]";
-			author = "Hawaiian";
+			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Neckwear\ua_thermals.p3d";
 			hiddenSelections[] = {"camo","camo2"};
 			hiddenSelectionsTextures[] = {"x\cfp\addons\glasses\75Neckwear\tex\ua_thermals1_blk_co.paa","x\cfp\addons\glasses\75Neckwear\tex\ua_thermals2_blk_co.paa"};
@@ -304,7 +304,7 @@
 
 			scope = 2;
 			displayname = "UA Thermals Black GPS [75th]";
-			author = "Hawaiian";
+			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Neckwear\ua_thermals_gps.p3d";
 			hiddenSelections[] = {"camo","camo2"};
 			hiddenSelectionsTextures[] = {"x\cfp\addons\glasses\75Neckwear\tex\ua_thermals1_blk_co.paa","x\cfp\addons\glasses\75Neckwear\tex\ua_thermals2_blk_co.paa"};
@@ -324,7 +324,7 @@
 
 			scope = 2;
 			displayname = "Oakley Thermals Grey [75th]";
-			author = "Hawaiian";
+			author = "CFP";
 			model = "x\cfp\addons\glasses\75Neckwear\thermals.p3d";
 			hiddenSelections[] = {"camo","camo2"};
 			hiddenSelectionsTextures[] = {"x\cfp\addons\glasses\75Neckwear\tex\oak_thermals1_gry_co.paa","x\cfp\addons\glasses\75Neckwear\tex\oak_thermals2_gry_co.paa"};
@@ -344,7 +344,7 @@
 
 			scope = 2;
 			displayname = "Oakley Thermals Black [75th]";
-			author = "Hawaiian";
+			author = "CFP";
 			model = "x\cfp\addons\glasses\75Neckwear\thermals.p3d";
 			hiddenSelections[] = {"camo","camo2"};
 			hiddenSelectionsTextures[] = {"x\cfp\addons\glasses\75Neckwear\tex\oak_thermals1_blk_co.paa","x\cfp\addons\glasses\75Neckwear\tex\ua_thermals2_blk_co.paa"};
@@ -364,7 +364,7 @@
 
 			scope = 2;
 			displayname = "Garmin Foretex 301 [75th]";
-			author = "Syncing & Tigg";
+			author = "CFP";
 			model = "x\cfp\addons\glasses\75Neckwear\garmin_foretex_301.p3d";
 			hiddenSelections[] = {"camo"};
 			hiddenSelectionsTextures[] = {"x\cfp\addons\glasses\75Neckwear\tex\gps_co.paa"};

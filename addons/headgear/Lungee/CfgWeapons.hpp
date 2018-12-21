@@ -20,7 +20,7 @@ class CfgVehicleClasses
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_TakiInsurgents\CUP_Taki_lungee.p3d";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Lungee\BlueGrey.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -55,7 +55,7 @@ class CfgVehicleClasses
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_TakiInsurgents\CUP_Taki_lungee.p3d";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Lungee\Brown.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -90,7 +90,7 @@ class CfgVehicleClasses
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_TakiInsurgents\CUP_Taki_lungee.p3d";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Lungee\Green.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -125,7 +125,7 @@ class CfgVehicleClasses
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_TakiInsurgents\CUP_Taki_lungee.p3d";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Lungee\Grey.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -160,7 +160,7 @@ class CfgVehicleClasses
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_TakiInsurgents\CUP_Taki_lungee.p3d";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Lungee\LightOlive.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -195,7 +195,7 @@ class CfgVehicleClasses
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_TakiInsurgents\CUP_Taki_lungee.p3d";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Lungee\Tan.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 
@@ -230,7 +230,7 @@ class CfgVehicleClasses
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_TakiInsurgents\CUP_Taki_lungee.p3d";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Lungee\M81.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AuburnAlumni";
+		author = "CFP";
 
 
 

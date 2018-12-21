@@ -20,7 +20,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\vests\Alice\alice_sample.p3d";
 		hiddenSelectionsTextures[] = {""};
 		hiddenSelections[] = {""};
-		author = "AuburnAlumni";
+		author = "CFP";
 		class ItemInfo: VestItem
 		{
 			uniformModel = "\x\cfp\addons\vests\Alice\alice_sample.p3d";
@@ -66,7 +66,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\vests\Alice\alice_sample.p3d";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Alice\tex\equip_nato_brown.paa","\x\cfp\addons\vests\Alice\tex\wg_co_dcu.paa"};
 		hiddenSelections[] = {"Camo1","Camo2"};
-		author = "AuburnAlumni";
+		author = "CFP";
 		class ItemInfo: VestItem
 		{
 			uniformModel = "\x\cfp\addons\vests\Alice\alice_sample.p3d";
@@ -112,7 +112,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\vests\Alice\alice_sample.p3d";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Alice\tex\equip_nato_black.paa","\x\cfp\addons\vests\Alice\tex\wg_co_black.paa"};
 		hiddenSelections[] = {"Camo1","Camo2"};
-		author = "AuburnAlumni";
+		author = "CFP";
 		class ItemInfo: VestItem
 		{
 			uniformModel = "\x\cfp\addons\vests\Alice\alice_sample.p3d";
@@ -158,7 +158,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\vests\Alice\alice_sample2.p3d";
 		hiddenSelectionsTextures[] = {""};
 		hiddenSelections[] = {""};
-		author = "AuburnAlumni";
+		author = "CFP";
 		class ItemInfo: VestItem
 		{
 			uniformModel = "\x\cfp\addons\vests\Alice\alice_sample2.p3d";
@@ -204,7 +204,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\vests\Alice\alice_sample2.p3d";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Alice\tex\equip_nato_brown.paa","\x\cfp\addons\vests\Alice\tex\wg_co_dcu.paa"};
 		hiddenSelections[] = {"Camo1","Camo2"};
-		author = "AuburnAlumni";
+		author = "CFP";
 		class ItemInfo: VestItem
 		{
 			uniformModel = "\x\cfp\addons\vests\Alice\alice_sample2.p3d";
@@ -250,7 +250,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\vests\Alice\alice_sample2.p3d";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Alice\tex\equip_nato_black.paa","\x\cfp\addons\vests\Alice\tex\wg_co_black.paa"};
 		hiddenSelections[] = {"Camo1","Camo2"};
-		author = "AuburnAlumni";
+		author = "CFP";
 		class ItemInfo: VestItem
 		{
 			uniformModel = "\x\cfp\addons\vests\Alice\alice_sample2.p3d";

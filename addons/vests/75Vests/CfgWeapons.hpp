@@ -7,7 +7,7 @@ class CFP_HV1_Ciras_Olive : V_PlateCarrier1_rgr
 
 		scope = 2;
 		displayName = "Ciras Vers01 Olive [75th]";
-		author = "Adacas/modifiedbyHawaiian";
+		author = "CFP";
 
 		model = "\x\cfp\addons\vests\75Vests\ciras_vest_v1.p3d";
 		hiddenSelections[] = {""};
@@ -54,7 +54,7 @@ class CFP_HV2_Ciras_Olive : V_PlateCarrier1_rgr
 
 		scope = 2;
 		displayName = "Ciras Vers02 Olive [75th]";
-		author = "Adacas/modifiedbyHawaiian";
+		author = "CFP";
 
 		model = "\x\cfp\addons\vests\75Vests\ciras_vest_v2.p3d";
 		hiddenSelections[] = {""};
@@ -101,7 +101,7 @@ class CFP_HV3_Ciras_Olive : V_PlateCarrier1_rgr
 
 		scope = 2;
 		displayName = "Ciras Vers03 Olive [75th]";
-		author = "Adacas/modifiedbyHawaiian";
+		author = "CFP";
 
 		model = "\x\cfp\addons\vests\75Vests\ciras_vest_v3.p3d";
 		hiddenSelections[] = {""};
@@ -148,7 +148,7 @@ class CFP_HV4_Ciras_Olive : V_PlateCarrier1_rgr
 
 		scope = 2;
 		displayName = "Ciras Vers04 Olive [75th]";
-		author = "Adacas/modifiedbyHawaiian";
+		author = "CFP";
 
 		model = "\x\cfp\addons\vests\75Vests\ciras_vest_v4.p3d";
 		hiddenSelections[] = {""};
@@ -195,7 +195,7 @@ class CFP_HV5_Ciras_Olive : V_PlateCarrier1_rgr
 
 		scope = 2;
 		displayName = "Ciras Vers05 Olive [75th]";
-		author = "Adacas/modifiedbyHawaiian";
+		author = "CFP";
 
 		model = "\x\cfp\addons\vests\75Vests\ciras_vest_v5.p3d";
 		hiddenSelections[] = {""};

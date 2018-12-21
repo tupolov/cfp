@@ -5,7 +5,7 @@
 		displayName = "Houthis Jacket (Pouches)";
 		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_TakiInsurgents\data\ui\icon_v_jacket3_01_ca.paa";
 		model = "\x\cfp\addons\models\Houthis_Jacket.p3d";
-		author = "Tupolov";
+		author = "CFP";
 		hiddenSelections[] = {"camo","camo1","camo2"}; // Vest, arms, pouches
 		hiddenSelectionsTextures[] = {"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_TakiInsurgents\data\loc_ind01_1_co.paa", "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_TakiInsurgents\data\loc_ind01_1_co.paa", "cup\creatures\people\military\cup_creatures_people_military_takiinsurgents\data\loc_opfor05_1_co.paa"};
 

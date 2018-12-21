@@ -20,7 +20,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\ProTecHelmet";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\ProTecHelmet\Black.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -47,7 +47,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\ProTecHelmet";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\ProTecHelmet\Green.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -75,7 +75,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\ProTecHelmet";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\ProTecHelmet\Tan.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 

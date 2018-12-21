@@ -6,7 +6,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Work Uniform (Green Shirt)";
 
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -27,7 +27,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Work Uniform (ANP)";
 
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -48,7 +48,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Work Uniform (M81 Sudan)";
 
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -69,7 +69,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Work Uniform (DDPM)";
 
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -90,7 +90,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Work Uniform (M81)";
 
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -111,7 +111,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Work Uniform (M81 Desert)";
 
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -131,7 +131,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Work Uniform (A-Tacs FG)";
 		// picture = "\x\cfp\addons\uniforms\WorkUniform\0000_Standard\ui\ATacsFG.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -150,7 +150,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Work Uniform (Tropentarn)";
 
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -171,7 +171,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Work Uniform (Flecktarn)";
 
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -192,7 +192,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Work Uniform (DRK)";
 
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -213,7 +213,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Work Uniform (DRK Camo)";
 
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -234,7 +234,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Work Uniform (DRK Camo2)";
 
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -255,7 +255,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Work Uniform (DPM)";
 
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -276,7 +276,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Work Uniform (Desert Tiger)";
 
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -297,7 +297,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Work Uniform (Black Shirt Grey Pants)";
 
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -318,7 +318,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Work Uniform (Tan Shirt M81 Pants)";
 
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -339,7 +339,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Work Uniform (Chocolate Chip)";
 
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -360,7 +360,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Work Uniform (3 Color Desert)";
 
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -381,7 +381,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Work Uniform (Sudan Police)";
 
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -402,7 +402,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Work Uniform (Sudan Police 2)";
 
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{

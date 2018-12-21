@@ -20,7 +20,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\Shemagh";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Shemagh\Black.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -46,7 +46,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\Shemagh";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Shemagh\Green.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -73,7 +73,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\Shemagh";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Shemagh\Tan.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -99,7 +99,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\Shemagh";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Shemagh\White.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -126,7 +126,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\Shemagh";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Shemagh\Grey.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -153,7 +153,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\Shemagh";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Shemagh\CheckBlack.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -180,7 +180,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\Shemagh";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Shemagh\CheckGreen.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -207,7 +207,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\Shemagh";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Shemagh\CheckTan.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -233,7 +233,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\Shemagh";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Shemagh\CheckWhite.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -260,7 +260,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\Shemagh";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Shemagh\CheckBlue.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -286,7 +286,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\Shemagh";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Shemagh\CheckRed.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: HeadgearItem
 		{
@@ -309,7 +309,7 @@ class CfgVehicleClasses
 		// picture = "\x\cfp\addons\headgear\Shemagh\ui\Sand.jpg";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Shemagh\Sand.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: HeadgearItem
 		{

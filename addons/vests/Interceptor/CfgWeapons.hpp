@@ -8,7 +8,7 @@
         model = "x\cfp\addons\models\interceptor_base.p3d";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Interceptor\tex\Interm81.paa"};
         hiddenSelections[] = {"camo"};
-        author = "AuburnAlumni";
+        author = "CFP";
         class ItemInfo: VestItem
         {
             uniformModel = "x\cfp\addons\models\interceptor_base.p3d";
@@ -55,7 +55,7 @@
         model = "x\cfp\addons\models\interceptor_base.p3d";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Interceptor\tex\Interanp.paa"};
         hiddenSelections[] = {"camo"};
-        author = "AuburnAlumni";
+        author = "CFP";
         class ItemInfo: VestItem
         {
             uniformModel = "x\cfp\addons\models\interceptor_base.p3d";
@@ -102,7 +102,7 @@
         model = "x\cfp\addons\models\interceptor_base.p3d";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Interceptor\tex\Intergrey.paa"};
         hiddenSelections[] = {"camo"};
-        author = "AuburnAlumni";
+        author = "CFP";
         class ItemInfo: VestItem
         {
             uniformModel = "x\cfp\addons\models\interceptor_base.p3d";
@@ -149,7 +149,7 @@
         model = "x\cfp\addons\models\interceptor_base.p3d";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Interceptor\tex\Interdcu.paa"};
         hiddenSelections[] = {"camo"};
-        author = "AuburnAlumni";
+        author = "CFP";
         class ItemInfo: VestItem
         {
             uniformModel = "x\cfp\addons\models\interceptor_base.p3d";
@@ -196,7 +196,7 @@
         model = "x\cfp\addons\models\interceptor_base.p3d";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Interceptor\tex\Interbrown.paa"};
         hiddenSelections[] = {"camo"};
-        author = "AuburnAlumni";
+        author = "CFP";
         class ItemInfo: VestItem
         {
             uniformModel = "x\cfp\addons\models\interceptor_base.p3d";
@@ -243,7 +243,7 @@
         model = "x\cfp\addons\models\interceptor_base.p3d";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Interceptor\tex\Intergreen.paa"};
         hiddenSelections[] = {"camo"};
-        author = "AuburnAlumni";
+        author = "CFP";
         class ItemInfo: VestItem
         {
             uniformModel = "x\cfp\addons\models\interceptor_base.p3d";
@@ -288,7 +288,7 @@
         displayName = "Interceptor (Rifleman M81)";
         //
         model = "x\cfp\addons\models\interceptor_rifleman.p3d";
-        author = "AuburnAlumni";
+        author = "CFP";
         class ItemInfo: VestItem
         {
             uniformModel = "x\cfp\addons\models\interceptor_rifleman.p3d";
@@ -334,7 +334,7 @@
         model = "x\cfp\addons\models\interceptor_rifleman.p3d";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Interceptor\tex\Interdcu.paa","x\cfp\addons\vests\Interceptor\tex\webbing_dcu.paa","\x\cfp\addons\vests\Interceptor\tex\us_soldier_equip_dcu.paa"};
         hiddenSelections[] = {"camo","camo2","camo3"};
-        author = "AuburnAlumni";
+        author = "CFP";
         class ItemInfo: VestItem
         {
             uniformModel = "x\cfp\addons\models\interceptor_rifleman.p3d";
@@ -382,7 +382,7 @@
         model = "x\cfp\addons\models\interceptor_rifleman.p3d";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Interceptor\tex\Interanp.paa","x\cfp\addons\vests\Interceptor\tex\webbing_anp.paa","\x\cfp\addons\vests\Interceptor\tex\us_soldier_equip_anp.paa"};
         hiddenSelections[] = {"camo","camo2","camo3"};
-        author = "AuburnAlumni";
+        author = "CFP";
         class ItemInfo: VestItem
         {
             uniformModel = "x\cfp\addons\models\interceptor_rifleman.p3d";
@@ -430,7 +430,7 @@
         model = "x\cfp\addons\models\interceptor_rifleman.p3d";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Interceptor\tex\Intergrey.paa","x\cfp\addons\vests\Interceptor\tex\webbing_grey.paa","\x\cfp\addons\vests\Interceptor\tex\us_soldier_equip_anp.paa"};
         hiddenSelections[] = {"camo","camo2","camo3"};
-        author = "AuburnAlumni";
+        author = "CFP";
         class ItemInfo: VestItem
         {
             uniformModel = "x\cfp\addons\models\interceptor_rifleman.p3d";
@@ -478,7 +478,7 @@
         model = "x\cfp\addons\models\interceptor_rifleman.p3d";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Interceptor\tex\Intergreen.paa","x\cfp\addons\vests\Interceptor\tex\webbing_green.paa","\x\cfp\addons\vests\Interceptor\tex\us_soldier_equip_green.paa"};
         hiddenSelections[] = {"camo","camo2","camo3"};
-        author = "AuburnAlumni";
+        author = "CFP";
         class ItemInfo: VestItem
         {
             uniformModel = "x\cfp\addons\models\interceptor_rifleman.p3d";
@@ -526,7 +526,7 @@
         model = "x\cfp\addons\models\interceptor_rifleman.p3d";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Interceptor\tex\Interbrown.paa","x\cfp\addons\vests\Interceptor\tex\webbing_brown.paa","\x\cfp\addons\vests\Interceptor\tex\us_soldier_equip_brown.paa"};
         hiddenSelections[] = {"camo","camo2","camo3"};
-        author = "AuburnAlumni";
+        author = "CFP";
         class ItemInfo: VestItem
         {
             uniformModel = "x\cfp\addons\models\interceptor_rifleman.p3d";
@@ -572,7 +572,7 @@
         displayName = "Interceptor (Grenadier M81)";
         //
         model = "x\cfp\addons\models\interceptor_gl.p3d";
-        author = "AuburnAlumni";
+        author = "CFP";
         class ItemInfo: VestItem
         {
             uniformModel = "x\cfp\addons\models\interceptor_gl.p3d";
@@ -618,7 +618,7 @@
         model = "x\cfp\addons\models\interceptor_gl.p3d";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Interceptor\tex\Interdcu.paa","x\cfp\addons\vests\Interceptor\tex\wg_dcu.paa"};
         hiddenSelections[] = {"camo","camo2"};
-        author = "AuburnAlumni";
+        author = "CFP";
         class ItemInfo: VestItem
         {
             uniformModel = "x\cfp\addons\models\interceptor_gl.p3d";
@@ -666,7 +666,7 @@
         model = "x\cfp\addons\models\interceptor_gl.p3d";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Interceptor\tex\Interanp.paa","x\cfp\addons\vests\Interceptor\tex\wg_anp.paa"};
         hiddenSelections[] = {"camo","camo2"};
-        author = "AuburnAlumni";
+        author = "CFP";
         class ItemInfo: VestItem
         {
             uniformModel = "x\cfp\addons\models\interceptor_gl.p3d";
@@ -714,7 +714,7 @@
         model = "x\cfp\addons\models\interceptor_gl.p3d";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Interceptor\tex\Intergrey.paa","x\cfp\addons\vests\Interceptor\tex\wg_grey.paa"};
         hiddenSelections[] = {"camo","camo2"};
-        author = "AuburnAlumni";
+        author = "CFP";
         class ItemInfo: VestItem
         {
             uniformModel = "x\cfp\addons\models\interceptor_gl.p3d";
@@ -762,7 +762,7 @@
         model = "x\cfp\addons\models\interceptor_gl.p3d";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Interceptor\tex\Interbrown.paa","x\cfp\addons\vests\Interceptor\tex\wg_brown.paa"};
         hiddenSelections[] = {"camo","camo2"};
-        author = "AuburnAlumni";
+        author = "CFP";
         class ItemInfo: VestItem
         {
             uniformModel = "x\cfp\addons\models\interceptor_gl.p3d";
@@ -810,7 +810,7 @@
         model = "x\cfp\addons\models\interceptor_gl.p3d";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Interceptor\tex\Intergreen.paa","x\cfp\addons\vests\Interceptor\tex\wg_green.paa"};
         hiddenSelections[] = {"camo","camo2"};
-        author = "AuburnAlumni";
+        author = "CFP";
         class ItemInfo: VestItem
         {
             uniformModel = "x\cfp\addons\models\interceptor_gl.p3d";

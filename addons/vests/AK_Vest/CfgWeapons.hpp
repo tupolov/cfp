@@ -6,7 +6,7 @@ class CFP_AK_VEST: Vest_Camo_Base
 	scope = 2;
 	displayName = "AK MAG Vest";
 	// picture = "\x\cfp\addons\vests\AK_Vest\data\icon_chest_rig.paa";
-	author = "Yugoslav";
+	author = "CFP";
 	model = "x\cfp\addons\vests\AK_Vest\data\model\UO_AK_VEST.p3d";
 	hiddenSelections[] = {"camo"};
 	hiddenSelectionsTextures[] = {"x\cfp\addons\vests\AK_Vest\data\tak_soldier_equip_liz_co.paa"};

@@ -5,7 +5,7 @@
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (M81 Sudan)";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -23,7 +23,7 @@
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (M81 Sudan Plain)";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -41,7 +41,7 @@
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (M81 Mali)";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -59,7 +59,7 @@
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (Woodland Mali)";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -77,7 +77,7 @@
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (M81)";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -95,7 +95,7 @@
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (UCP)";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -113,7 +113,7 @@
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (DCU)";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -131,7 +131,7 @@
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (UPDF M81)";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -149,7 +149,7 @@
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (TPat)";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -167,7 +167,7 @@
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (DPM Iran)";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -185,7 +185,7 @@
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (DDPM)";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -203,7 +203,7 @@
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (ERDL)";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -221,7 +221,7 @@
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (Tiger)";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -239,7 +239,7 @@
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (ChocChip)";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -257,7 +257,7 @@
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (Marpat)";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -275,7 +275,7 @@
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (UPDF Marpat)";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -293,7 +293,7 @@
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (OD Sudan)";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -311,7 +311,7 @@
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (Sword)";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -329,7 +329,7 @@
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (Grey Chad)";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -347,7 +347,7 @@
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (Grey)";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -365,7 +365,7 @@
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (French CEU)";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -383,7 +383,7 @@
 		scope=2;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (Tan)";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{

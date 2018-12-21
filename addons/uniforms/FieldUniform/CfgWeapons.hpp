@@ -6,7 +6,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (Black)";
 
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -25,7 +25,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform SS (Black)";
 
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -524,7 +524,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (Green)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Green.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -543,7 +543,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform SS (Green)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Green.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -563,7 +563,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (Tan)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Tan.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -582,7 +582,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform SS (Tan)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Tan.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -603,7 +603,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (Grey)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Grey.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -622,7 +622,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform SS (Grey)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\Grey.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -643,7 +643,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (Green Olive)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\GreenOlive.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -662,7 +662,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform SS (Green Olive)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\GreenOlive.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -682,7 +682,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (A-Tacs FG)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\ATacsFG.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -701,7 +701,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform SS (A-Tacs FG)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\ATacsFG.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -721,7 +721,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (Nod Urban)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\NodUrban.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -740,7 +740,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform SS (Nod Urban)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\0000_Standard\ui\NodUrban.jpg";
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -758,7 +758,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (3 Color Desert)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_3ColorDesert.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -776,7 +776,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform SS (3 Color Desert)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_3ColorDesert.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -794,7 +794,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (M81 Sudan)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_3ColorDesert.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -812,7 +812,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform SS (M81 Sudan)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_3ColorDesert.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -830,7 +830,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform SS (Sudan Sword)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_3ColorDesert.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -848,7 +848,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform SS (Sudan Sword 2)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_3ColorDesert.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -866,7 +866,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform SS (Sudan Arid Digital)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_3ColorDesert.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -884,7 +884,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform SS (Sudan Brown Digital)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_3ColorDesert.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -902,7 +902,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (African Woodland Dark Boots)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_AfricanWoodland.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -920,7 +920,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (African Woodland Light Boots)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_AfricanWoodland.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -938,7 +938,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (Choc Chip)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_ChocChip.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -956,7 +956,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform SS (Choc Chip)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_ChocChip.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -974,7 +974,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (M81)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_M81.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -992,7 +992,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (M81 Light Boots)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_M81.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -1010,7 +1010,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform SS (M81)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_M81.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -1046,7 +1046,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (DPM Woodland)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_DpmWoodland.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -1064,7 +1064,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (EDRL)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_edrl.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -1082,7 +1082,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (Polygon Desert Light Boots)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_PolygonDesert.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -1100,7 +1100,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (Polygon Desert Dark Boots)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_PolygonDesert.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -1118,7 +1118,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (Polygon Woodland Light Boots)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_PolygonDesert.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -1136,7 +1136,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (Woodland Light Boots)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_PolygonDesert.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -1154,7 +1154,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (Woodland Dark Boots)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_PolygonDesert.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -1172,7 +1172,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (Polygon Woodland Dark Boots)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_PolygonDesert.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -1190,7 +1190,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (Tiger Stripe)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_TigerStripe.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -1208,7 +1208,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (MultiCam)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_Multicam.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -1226,7 +1226,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (UCP)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_ucp.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -1244,7 +1244,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (Desert Flecktarn)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_DesertFlecktarn.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -1262,7 +1262,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (Digital Multicam)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_DigitalMulticam.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -1280,7 +1280,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (MARPAT Desert)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_MarpatDesert.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -1298,7 +1298,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (MARPAT Woodland)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_MarpatWoodland.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -1316,7 +1316,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (MARPAT Woodland Light Boots)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_MarpatWoodland.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -1334,7 +1334,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform SS (MARPAT Woodland)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_MarpatWoodland.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -1352,7 +1352,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform SS (MARPAT Woodland Light Boots)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_MarpatWoodland.jpg";
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -1370,7 +1370,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (A-Tacs AU)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_ATacsAU.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -1385,7 +1385,7 @@
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_CFP_U_FieldUniform_marpat_d_SS.paa";
 		displayName = "Field Uniform SS (MARPAT - Desert)";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
@@ -1399,7 +1399,7 @@
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_CFP_U_FieldUniform_scorpion_w2_SS.paa";
 		displayName = "Field Uniform SS (OCP)";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
@@ -1413,7 +1413,7 @@
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_CFP_U_FieldUniform_acr_desert_SS.paa";
 		displayName = "Field Uniform SS (ACR Desert)";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
@@ -1427,7 +1427,7 @@
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_CFP_U_FieldUniform_tiger_desert_SS.paa";
 		displayName = "Field Uniform SS (Tiger Desert)";
-		author = "AuburnAlumni";
+		author = "CFP";
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
@@ -1441,7 +1441,7 @@
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_CFP_U_FieldUniform_tiger_desert_SS.paa";
 		displayName = "Field Uniform SS (Israeli Defense Force)";
-		author = "AuburnAlumni";
+		author = "CFP";
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
@@ -1458,7 +1458,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (Multicam Snow)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_multicam_snow.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -1476,7 +1476,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (MTP Snow)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_mtp_snow.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -1494,7 +1494,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Field Uniform (Flecktarn Snow)";
 		// picture = "\x\cfp\addons\uniforms\FieldUniform\camo\ui\icon_flecktarn_snow.jpg";
-		author = "AccuracyThruVolume";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -1505,24 +1505,24 @@
 		};
 	};
 
-	ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Tiger Stripe 2)",tigerstripe2,"AccuracyThruVolume")
-	ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (OCP)",scorpion_w2,"AccuracyThruVolume")
-	ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Flora Arid)",flora_arid,"AccuracyThruVolume")
-	ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Afghan Woodland)",afghan_w,"AccuracyThruVolume")
-	ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (ACR Desert)",acr_desert,"AccuracyThruVolume")
-    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (ANA Commando M81)",m81anasf,"AuburnAlumni")
-    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Iran DPM)",irandpm,"AuburnAlumni")
-    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Israeli Defense Force)",idf,"AuburnAlumni")
-    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (ANA Woodland Light)",ana_wdlight,"AuburnAlumni")
-    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (ANA Woodland Dark)",ana_wddark,"AuburnAlumni")
-    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (ANA Spec4ce Woodland Light)",ana_spec4cewd_light,"AuburnAlumni")
-    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (ANA Spec4ce Woodland Dark)",ana_spec4cewd_dark,"AuburnAlumni")
-    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Afghan National Police Light Boots)",anp_light,"AuburnAlumni")
-    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Afghan National Police Dark Boots)",anp_dark,"AuburnAlumni")
-    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Afghan National Civil Order Police Light Boots)",ancop_light,"AuburnAlumni")
-    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Afghan National Civil Order Police Dark Boots)",ancop_dark,"AuburnAlumni")
-    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Iran Airborne SF)",iran_sf_digital,"AuburnAlumni")
-    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Uganda Marpat Dark Boots)",marpatugandadark,"AuburnAlumni")
-    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Uganda Marpat Light Boots)",marpatugandalight,"AuburnAlumni")
-    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Tiger Desert)",tiger_desert,"AuburnAlumni")
+	ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Tiger Stripe 2)",tigerstripe2,"CFP")
+	ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (OCP)",scorpion_w2,"CFP")
+	ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Flora Arid)",flora_arid,"CFP")
+	ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Afghan Woodland)",afghan_w,"CFP")
+	ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (ACR Desert)",acr_desert,"CFP")
+    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (ANA Commando M81)",m81anasf,"CFP")
+    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Iran DPM)",irandpm,"CFP")
+    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Israeli Defense Force)",idf,"CFP")
+    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (ANA Woodland Light)",ana_wdlight,"CFP")
+    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (ANA Woodland Dark)",ana_wddark,"CFP")
+    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (ANA Spec4ce Woodland Light)",ana_spec4cewd_light,"CFP")
+    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (ANA Spec4ce Woodland Dark)",ana_spec4cewd_dark,"CFP")
+    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Afghan National Police Light Boots)",anp_light,"CFP")
+    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Afghan National Police Dark Boots)",anp_dark,"CFP")
+    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Afghan National Civil Order Police Light Boots)",ancop_light,"CFP")
+    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Afghan National Civil Order Police Dark Boots)",ancop_dark,"CFP")
+    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Iran Airborne SF)",iran_sf_digital,"CFP")
+    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Uganda Marpat Dark Boots)",marpatugandadark,"CFP")
+    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Uganda Marpat Light Boots)",marpatugandalight,"CFP")
+    ADD_UNIFORM_W(FieldUniform,Camo,"Field Uniform (Tiger Desert)",tiger_desert,"CFP")
 

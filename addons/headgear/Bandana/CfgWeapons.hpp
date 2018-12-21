@@ -20,7 +20,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\Bandana";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Bandana\Black.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 		class ItemInfo: HeadgearItem
 		{
@@ -44,7 +44,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\Bandana";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Bandana\Green.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -71,7 +71,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\Bandana";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Bandana\Tan.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -97,7 +97,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\Bandana";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Bandana\Hunter.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -123,7 +123,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\Bandana";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Bandana\Hunter2.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -149,7 +149,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\Bandana";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Bandana\ATacsFG.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -175,7 +175,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\Bandana";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Bandana\NodUrban.paa"};
 		hiddenSelections[] = {"Camo"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 

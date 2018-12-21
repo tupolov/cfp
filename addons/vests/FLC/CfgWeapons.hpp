@@ -20,7 +20,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\vests\FLC\flc_e.p3d";
 		hiddenSelectionsTextures[] = {"x\cfp\addons\vests\FLC\tex\flc_m81_co.paa"};
 		hiddenSelections[] = {"camo3"};
-		author = "AuburnAlumni";
+		author = "CFP";
 		class ItemInfo: VestItem
 		{
 			uniformModel = "\x\cfp\addons\vests\FLC\flc_e.p3d";
@@ -67,7 +67,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\vests\FLC\flc_e.p3d";
 		hiddenSelectionsTextures[] = {"x\cfp\addons\vests\FLC\tex\flc_dcu_co.paa"};
 		hiddenSelections[] = {"camo3"};
-		author = "AuburnAlumni";
+		author = "CFP";
 		class ItemInfo: VestItem
 		{
 			uniformModel = "\x\cfp\addons\vests\FLC\flc_e.p3d";
@@ -114,7 +114,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\vests\FLC\flc_e.p3d";
 		hiddenSelectionsTextures[] = {"x\cfp\addons\vests\FLC\tex\flc_ucp_co.paa"};
 		hiddenSelections[] = {"camo3"};
-		author = "AuburnAlumni";
+		author = "CFP";
 		class ItemInfo: VestItem
 		{
 			uniformModel = "\x\cfp\addons\vests\FLC\flc_e.p3d";

@@ -7,7 +7,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Guerilla Uniform (M81)";
 
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -27,7 +27,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Guerilla Uniform (ERDL Pants)";
 
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -47,7 +47,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Guerilla Uniform (Green/Tan combo)";
 
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -67,7 +67,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Guerilla Uniform (MCam Pants)";
 
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -87,7 +87,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Guerilla Uniform (Polygon Desert Pants)";
 
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -107,7 +107,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Guerilla Uniform (Polygon Desert)";
 
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -127,7 +127,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Guerilla Uniform (Tiger Pants)";
 
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -147,7 +147,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Guerilla Uniform (3 Color Desert Pants)";
 
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -167,7 +167,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Guerilla Uniform (Choc Chip Pants)";
 
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -187,7 +187,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Guerilla Uniform (Sudan Woodland Pants)";
 
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -207,7 +207,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Guerilla Uniform (M81 Pants T Shirt)";
 
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -227,7 +227,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Guerilla Uniform (Polygon Desert Pants T Shirt)";
 
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -247,7 +247,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Guerilla Uniform (Tan Pants T Shirt)";
 
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -267,7 +267,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Bandit Clothing (Chang)";
 
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -287,7 +287,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Bandit Clothing (Adidas)";
 
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -307,7 +307,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Bandit Clothing (Africa)";
 
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -327,7 +327,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Bandit Clothing (Choc Chip Pants)";
 
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -347,7 +347,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Polo Shirt Pants (Real Madrid)";
 
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -367,7 +367,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Polo Shirt Pants (Liverpool)";
 
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
@@ -387,7 +387,7 @@
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Polo Shirt Pants (Sudan Soccer)";
 
-		author = "AuburnAlumni";
+		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{

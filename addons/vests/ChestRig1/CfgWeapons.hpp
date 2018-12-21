@@ -20,7 +20,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\ChestRig1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\ChestRig1\Black.paa","\x\cfp\addons\vests\ChestRig1\Black2.paa"};
 		hiddenSelections[] = {"Camo1","Camo2"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -69,7 +69,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\ChestRig1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\ChestRig1\Green.paa","\x\cfp\addons\vests\ChestRig1\Green2.paa"};
 		hiddenSelections[] = {"Camo1","Camo2"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -118,7 +118,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\ChestRig1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\ChestRig1\Tan.paa","\x\cfp\addons\vests\ChestRig1\Tan2.paa"};
 		hiddenSelections[] = {"Camo1","Camo2"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 
@@ -167,7 +167,7 @@ class CfgVehicleClasses
 		model = "\x\cfp\addons\models\ChestRig1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\ChestRig1\Grey.paa","\x\cfp\addons\vests\ChestRig1\Grey2.paa"};
 		hiddenSelections[] = {"Camo1","Camo2"};
-		author = "SP Craig";
+		author = "CFP";
 
 
 

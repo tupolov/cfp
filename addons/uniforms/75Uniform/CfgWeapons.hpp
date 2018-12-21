@@ -4,7 +4,7 @@ class CFP_75th_CRYE_V1_Full : Uniform_Base  {
 
 		scope = 2;
 		displayName = "Crye Tan Full [75th]";
-		author = "Hawaiian";
+		author = "CFP";
 
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"Camo", "insignia"};
@@ -25,7 +25,7 @@ class CFP_75th_CRYE_V1b_Full : Uniform_Base  {
 
 		scope = 2;
 		displayName = "Crye Multicam Full [75th]";
-		author = "Hawaiian";
+		author = "CFP";
 
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"Camo", "insignia"};
@@ -47,7 +47,7 @@ class CFP_75th_CRYE_V2_Full : Uniform_Base  {
 
 		scope = 2;
 		displayName = "Crye Multicam Full II [75th]";
-		author = "Hawaiian";
+		author = "CFP";
 
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"Camo", "insignia"};
@@ -67,7 +67,7 @@ class CFP_75th_CRYE_V2b_Full : Uniform_Base  {
 
 		scope = 2;
 		displayName = "Crye Multicam Full II [75th]";
-		author = "Hawaiian";
+		author = "CFP";
 
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"Camo", "insignia"};
@@ -90,7 +90,7 @@ class CFP_75th_CRYE_V3_Full : Uniform_Base  {
 
 		scope = 2;
 		displayName = "Crye Multicam Full III [75th]";
-		author = "Hawaiian";
+		author = "CFP";
 
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"Camo", "insignia"};
@@ -110,7 +110,7 @@ class CFP_75th_CRYE_V3b_Full : Uniform_Base  {
 
 		scope = 2;
 		displayName = "Crye Multicam Full III [75th]";
-		author = "Hawaiian";
+		author = "CFP";
 
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"Camo", "insignia"};
@@ -130,7 +130,7 @@ class CFP_75th_CRYE_V4_Full : Uniform_Base  {
 
 		scope = 2;
 		displayName = "Crye Multicam Full IV [75th]";
-		author = "Hawaiian";
+		author = "CFP";
 
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"Camo", "insignia"};
@@ -150,7 +150,7 @@ class CFP_75th_CRYE_V4b_Full : Uniform_Base  {
 
 		scope = 2;
 		displayName = "Crye Multicam Full IV [75th]";
-		author = "Hawaiian";
+		author = "CFP";
 
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"Camo", "insignia"};
@@ -174,7 +174,7 @@ class CFP_75th_CRYE_V1_Sleeved : Uniform_Base  {
 
 		scope = 2;
 		displayName = "Crye Tan Rolled [75th]";
-		author = "Hawaiian";
+		author = "CFP";
 
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"Camo", "insignia"};
@@ -195,7 +195,7 @@ class CFP_75th_CRYE_V1b_Sleeved : Uniform_Base  {
 
 		scope = 2;
 		displayName = "Crye Multicam Rolled [75th]";
-		author = "Hawaiian";
+		author = "CFP";
 
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"Camo", "insignia"};
@@ -218,7 +218,7 @@ class CFP_75th_CRYE_V2_Sleeved : Uniform_Base  {
 
 		scope = 2;
 		displayName = "Crye Multicam Rolled II [75th]";
-		author = "Hawaiian";
+		author = "CFP";
 
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"Camo", "insignia"};
@@ -239,7 +239,7 @@ class CFP_75th_CRYE_V2b_Sleeved : Uniform_Base  {
 
 		scope = 2;
 		displayName = "Crye Multicam Rolled II [75th]";
-		author = "Hawaiian";
+		author = "CFP";
 
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"Camo", "insignia"};
@@ -260,7 +260,7 @@ class CFP_75th_CRYE_V3_Sleeved : Uniform_Base  {
 
 		scope = 2;
 		displayName = "Crye Multicam Rolled III [75th]";
-		author = "Hawaiian";
+		author = "CFP";
 
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"Camo", "insignia"};
@@ -281,7 +281,7 @@ class CFP_75th_CRYE_V3b_Sleeved : Uniform_Base  {
 
 		scope = 2;
 		displayName = "Crye Multicam Rolled III [75th]";
-		author = "Hawaiian";
+		author = "CFP";
 
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"Camo", "insignia"};
@@ -302,7 +302,7 @@ class CFP_75th_CRYE_V4_Sleeved : Uniform_Base  {
 
 		scope = 2;
 		displayName = "Crye Multicam Rolled IV [75th]";
-		author = "Hawaiian";
+		author = "CFP";
 
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"Camo", "insignia"};
@@ -323,7 +323,7 @@ class CFP_75th_CRYE_V4b_Sleeved : Uniform_Base  {
 
 		scope = 2;
 		displayName = "Crye Multicam Rolled IV [75th]";
-		author = "Hawaiian";
+		author = "CFP";
 
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"Camo", "insignia"};
@@ -349,7 +349,7 @@ class CFP_75th_CRYEG3_V1 : Uniform_Base  {
 
 		scope = 2;
 		displayName = "Crye/G3AW Khaki [75th]";
-		author = "Hawaiian";
+		author = "CFP";
 
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"Camo", "insignia"};
@@ -370,7 +370,7 @@ class CFP_75th_CRYEG3_V1b : Uniform_Base  {
 
 		scope = 2;
 		displayName = "Crye/G3AW Khaki [75th]";
-		author = "Hawaiian";
+		author = "CFP";
 
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"Camo", "insignia"};
@@ -391,7 +391,7 @@ class CFP_75th_CRYEG3_V2 : Uniform_Base  {
 
 		scope = 2;
 		displayName = "Crye/G3AW Ranger Green [75th]";
-		author = "Hawaiian";
+		author = "CFP";
 
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"Camo", "insignia"};
@@ -412,7 +412,7 @@ class CFP_75th_CRYEG3_V2b : Uniform_Base  {
 
 		scope = 2;
 		displayName = "Crye/G3AW Ranger Green [75th]";
-		author = "Hawaiian";
+		author = "CFP";
 
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"Camo", "insignia"};
@@ -433,7 +433,7 @@ class CFP_75th_CRYEG3_V3 : Uniform_Base  {
 
 		scope = 2;
 		displayName = "Crye/G3AW Coyote [75th]";
-		author = "Hawaiian";
+		author = "CFP";
 
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"Camo", "insignia"};
@@ -454,7 +454,7 @@ class CFP_75th_CRYEG3_V3b : Uniform_Base  {
 
 		scope = 2;
 		displayName = "Crye/G3AW Coyote [75th]";
-		author = "Hawaiian";
+		author = "CFP";
 
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"Camo", "insignia"};
@@ -475,7 +475,7 @@ class CFP_75th_CRYEG3_V4 : Uniform_Base  {
 
 		scope = 2;
 		displayName = "Crye/G3AW Multicam [75th]";
-		author = "Hawaiian";
+		author = "CFP";
 
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"Camo", "insignia"};
@@ -501,7 +501,7 @@ class CFP_75th_CRYE_Tee : Uniform_Base  {
 
 		scope = 2;
 		displayName = "Crye Tan Tee [75th]";
-		author = "Hawaiian";
+		author = "CFP";
 
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"Camo", "insignia"};
@@ -522,7 +522,7 @@ class CFP_75th_CRYE_Tee2 : Uniform_Base  {
 
 		scope = 2;
 		displayName = "Crye Multicam Tee [75th]";
-		author = "Hawaiian";
+		author = "CFP";
 
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_universal_F.p3d";
 		hiddenSelections[] = {"Camo", "insignia"};
@@ -546,7 +546,7 @@ class CFP_75th_Under_Wear : Uniform_Base  {
 
 		scope = 2;
 		displayName = "Under Shirt [75th]";
-		author = "Hawaiian";
+		author = "CFP";
 
 		model = "\A3\Characters_F\Common\Suitpacks\suitpack_civilian_F.p3d";
 		hiddenSelections[] = {"Camo"};

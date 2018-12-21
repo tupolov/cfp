@@ -49,7 +49,6 @@ class CfgWeapons {
     #include "ZSH1Helmet\CfgWeapons.hpp"
     #include "LungeeOpen\CfgWeapons.hpp"
     #include "Lungee\CfgWeapons.hpp"
-    #include "Mich2000\CfgWeapons.hpp"
     #include "GolaniHelmet\CfgWeapons.hpp"
     #include "75Headgear\CfgWeapons.hpp"
     #include "HeloHelmet\CfgWeapons.hpp"
