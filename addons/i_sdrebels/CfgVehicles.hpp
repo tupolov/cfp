@@ -750,7 +750,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SDRebels_Praga_V3S_01  : CUP_I_V3S_Open_TKG_OCimport_02 {
-        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SDRebels_Praga_V3S_01 .JPG;
+        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SDRebels_Praga_V3S_01.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -776,7 +776,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SDRebels_Praga_V3S_Repair_01  : CUP_I_V3S_Repair_TKG_OCimport_02 {
-        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SDRebels_Praga_V3S_Repair_01 .JPG;
+        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SDRebels_Praga_V3S_Repair_01.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -802,7 +802,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SDRebels_Praga_V3S_Refuel_01  : CUP_I_V3S_Refuel_TKG_OCimport_02 {
-        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SDRebels_Praga_V3S_Refuel_01 .JPG;
+        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SDRebels_Praga_V3S_Refuel_01.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -827,7 +827,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SDRebels_Praga_V3S_Ammunition_01  : CUP_I_V3S_Rearm_TKG_OCimport_02 {
-        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SDRebels_Praga_V3S_Ammunition_01 .JPG;
+        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SDRebels_Praga_V3S_Ammunition_01.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -851,7 +851,7 @@ class CfgVehicles {
 
     };
     class CFP_I_SDRebels_Truck_01  : C_Van_01_transport_F_OCimport_02 {
-        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SDRebels_Truck_01 .JPG;
+        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SDRebels_Truck_01.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -890,7 +890,7 @@ class CfgVehicles {
 
     };
     class CFP_I_SDRebels_Pickup_PK_01  : CUP_I_Datsun_PK_TK_Random_OCimport_02 {
-        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SDRebels_Pickup_PK_01 .JPG;
+        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SDRebels_Pickup_PK_01.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -921,7 +921,7 @@ class CfgVehicles {
 
     };
     class CFP_I_SDRebels_Pickup_01  : CUP_I_Datsun_4seat_TK_OCimport_02 {
-        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SDRebels_Pickup_01 .JPG;
+        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SDRebels_Pickup_01.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -952,7 +952,7 @@ class CfgVehicles {
 
     };
     class CFP_I_SDRebels_T55_01  : CUP_I_T55_TK_GUE_OCimport_02 {
-        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SDRebels_T55_01 .JPG;
+        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SDRebels_T55_01.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -989,7 +989,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SDRebels_ZU_23_01  : CUP_I_ZU23_TK_GUE_OCimport_02 {
-        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SDRebels_ZU_23_01 .JPG;
+        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SDRebels_ZU_23_01.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -1019,7 +1019,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SDRebels_SPG_9_01  : CUP_I_SPG9_TK_GUE_OCimport_02 {
-        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SDRebels_SPG_9_01 .JPG;
+        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SDRebels_SPG_9_01.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -1049,7 +1049,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SDRebels_Mortar_01  : CUP_I_2b14_82mm_TK_GUE_OCimport_02 {
-        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SDRebels_Mortar_01 .JPG;
+        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SDRebels_Mortar_01.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -1079,7 +1079,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SDRebels_DShKM_01  : CUP_I_DSHKM_TK_GUE_OCimport_02 {
-        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SDRebels_DShKM_01 .JPG;
+        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SDRebels_DShKM_01.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -1109,7 +1109,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SDRebels_DShKM_Low_01  : CUP_I_DSHkM_MiniTriPod_TK_GUE_OCimport_02 {
-        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SDRebels_DShKM_Low_01 .JPG;
+        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SDRebels_DShKM_Low_01.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -1139,7 +1139,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SDRebels_UAZ_DShKM_01  : CUP_O_UAZ_MG_SLA_OCimport_02 {
-        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SDRebels_UAZ_DShKM_01 .JPG;
+        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SDRebels_UAZ_DShKM_01.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -1171,7 +1171,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SDRebels_Land_Rover_SPG_01  : CUP_O_LR_SPG9_TKA_OCimport_02 {
-        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SDRebels_Land_Rover_SPG_01 .JPG;
+        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SDRebels_Land_Rover_SPG_01.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -1203,7 +1203,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SDRebels_Land_Rover_01  : CUP_O_LR_Transport_TKA_OCimport_02 {
-        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SDRebels_Land_Rover_01 .JPG;
+        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SDRebels_Land_Rover_01.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -1268,7 +1268,7 @@ class CfgVehicles {
 
     };
     class CFP_I_SDRebels_D30_01  : CUP_O_D30_SLA_OCimport_02 {
-        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SDRebels_D30_01 .JPG;
+        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SDRebels_D30_01.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -1298,7 +1298,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SDRebels_D30_AT_01  : CUP_O_D30_AT_SLA_OCimport_02 {
-        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SDRebels_D30_AT_01 .JPG;
+        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SDRebels_D30_AT_01.JPG;
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;

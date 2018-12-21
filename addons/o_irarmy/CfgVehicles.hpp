@@ -216,21 +216,6 @@ class CfgVehicles {
         };
     };
 
-    class CUP_O_T55_SLA;
-    class CUP_O_T55_SLA_OCimport_01 : CUP_O_T55_SLA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_T55_SLA_OCimport_02 : CUP_O_T55_SLA_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-            class CargoTurret_01;
-            class CargoTurret_02;
-            class CargoTurret_03;
-            class CargoTurret_04;
-            class CargoTurret_05;
-            class CargoTurret_06;
-        };
-    };
-
     class CUP_B_CH47F_GB;
     class CUP_B_CH47F_GB_OCimport_01 : CUP_B_CH47F_GB { scope = 0; class EventHandlers; class Turrets; };
     class CUP_B_CH47F_GB_OCimport_02 : CUP_B_CH47F_GB_OCimport_01 {
@@ -2032,41 +2017,20 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_IRARMY_T55_01 : CUP_O_T55_SLA_OCimport_02 {
-        editorPreview = \x\cfp\addons\o_irarmy\data\preview\CFP_O_IRARMY_T55_01.JPG;
-        author = "Drew";
+    class CUP_O_T55_CSAT;
+    class CUP_O_T55_CSAT_OCimport_01 : CUP_O_T55_CSAT { scope = 0; class EventHandlers; class Turrets; };
+    class CFP_O_IRARMY_T55_01 : CUP_O_T55_CSAT_OCimport_01
+    {
         scope = 2;
-        scopeCurator = 2;
-        displayName = "T-55";
         side = 0;
+        displayName = "T-55";
         faction = "CFP_O_IRARMY";
+        vehicleClass = "CFP_O_IRARMY_ARMORED";
+        camouflage = 4;
         crew = "CFP_O_IRARMY_Crewman_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_O_IRARMY_Crewman_01"; };
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
-            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
-            class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
-            class CargoTurret_06 : CargoTurret_06 { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\T55\t55_body_iran.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\T55\t55_tower_iran.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "Iran";
-
+        typicalCargo[] = {"CFP_O_IRARMY_Crewman_01","CFP_O_IRARMY_Crewman_01","CFP_O_IRARMY_Crewman_01"};
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\T55\t55_body_iran.paa","\x\cfp\addons\vehicles\T55\t55_tower_iran.paa"};
+        editorPreview = \x\cfp\addons\o_irarmy\data\preview\CFP_O_IRARMY_T55_01.JPG;
     };
 
     class CFP_O_IRARMY_CH47_01 : CUP_B_CH47F_GB_OCimport_02 {
