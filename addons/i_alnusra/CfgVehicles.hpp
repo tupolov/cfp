@@ -1,3 +1,7 @@
+#define mag_xx(a,b) class _xx_##a {magazine = ##a; count = b;}
+#define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
+#define item_xx(a,b) class _xx_##a {name = a; count = b;}
+
 class CBA_Extended_EventHandlers_base;
 
 class CfgVehicles {
@@ -5,7 +9,6 @@ class CfgVehicles {
     class O_Soldier_F;
     class O_Soldier_F_OCimport_01 : O_Soldier_F { scope = 0; class EventHandlers; };
     class O_Soldier_F_OCimport_02 : O_Soldier_F_OCimport_01 { class EventHandlers; };
-
 
     class cfp_i_alNusra_team_leader : O_Soldier_F_OCimport_02 {
         editorPreview = "x\cfp\addons\i_alnusra\data\Preview_alnusra_infantry.jpg";
@@ -1096,5 +1099,243 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_i_alNusra_rifleman";
         typicalCargo[] = {"cfp_i_alNusra_rifleman"};
+    };
+
+    class CUP_RUBasicAmmunitionBox; // CUP_RUBasicAmmunitionBox
+    class Box_NATO_Ammo_F; // CUP_USBasicAmmunitionBox
+    class CUP_RUBasicWeaponsBox; // CUP_RUBasicWeaponsBox
+    class Box_NATO_Wps_F; // CUP_USBasicWeaponsBox
+    class CUP_RUSpecialWeaponsBox; // CUP_RUSpecialWeaponsBox
+    class Box_NATO_Support_F; // CUP_USSpecialWeaponsBox
+    class CUP_RULaunchersBox; // CUP_RULaunchersBox
+    class Box_NATO_WpsLaunch_F; // CUP_USLaunchersBox
+    class Box_NATO_Uniforms_F; // CUP_USBasicWeaponsBox
+    class CUP_RUVehicleBox; // CUP_RUVehicleBox
+    class B_SupplyCrate_F; // CUP_USVehicleBox
+
+    class CFP_I_ALNUSRA_AmmoBox : CUP_RUBasicAmmunitionBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = al-Nusra Front Ammo Box;
+        class TransportMagazines {
+            mag_xx(CUP_HandGrenade_RGD5,50);
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_1Rnd_SMOKE_GP25_M,50);
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+            mag_xx(CUP_PG7VL_M,50);
+            mag_xx(APERSMine_Range_Mag,50);
+            mag_xx(IEDLandSmall_Remote_Mag,50);
+            mag_xx(DemoCharge_Remote_Mag,50);
+            mag_xx(ClaymoreDirectionalMine_Remote_Mag,50);
+            mag_xx(APERSTripMine_Wire_Mag,50);
+            mag_xx(CUP_30Rnd_545x39_AK74M_M,50);
+        };
+        class TransportWeapons {
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_I_ALNUSRA_WeaponsBox : CUP_RUBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = al-Nusra Front Weapons Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+            mag_xx(CUP_30Rnd_545x39_AK74M_M,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_AK74M,10);
+            weap_xx(CUP_arifle_AK74,10);
+            weap_xx(CUP_arifle_AK74M_GL,10);
+            weap_xx(CUP_arifle_AK47,10);
+            weap_xx(CUP_lmg_PKM,10);
+            weap_xx(CUP_srifle_SVD_pso,10);
+            weap_xx(CUP_arifle_AKS,10);
+            weap_xx(CUP_arifle_AKM,10);
+            weap_xx(CUP_arifle_AK74M_railed,10);
+        };
+        class TransportItems {
+            item_xx(CUP_optic_PSO_1,10);
+        };
+    };
+    class CFP_I_ALNUSRA_LaunchersBox : CUP_RULaunchersBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = al-Nusra Front Launchers Box;
+        class TransportMagazines {
+            mag_xx(CUP_PG7VL_M,5);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_launch_RPG7V,5);
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_I_ALNUSRA_UniformBox : CUP_RUBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = al-Nusra Front Uniform Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(CFP_U_KhetPartug_Short_Grey,15);
+            item_xx(SP_0000_Standard_FieldUniform_Black_SS,15);
+            item_xx(CUP_I_B_PMC_Unit_3,15);
+            item_xx(SP_0000_Standard_FieldUniform_Black,15);
+            item_xx(CFP_U_KhetPartug_Short_Black,15);
+            item_xx(CFP_U_WorkUniform_BlackGrey,15);
+            item_xx(CUP_I_B_PMC_Unit_24,15);
+            item_xx(CFP_FieldUniform_tanblack_SS,15);
+        };
+    };
+    class CFP_I_ALNUSRA_SupportBox : CUP_RUSpecialWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = al-Nusra Front Support Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(CFP_Tactical1_Flecktarn,10);
+            item_xx(H_Bandanna_mcamo,10);
+            item_xx(CFP_Shemagh_Neck_Creme,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(V_TacVest_khk,10);
+            item_xx(H_Bandanna_gry,10);
+            item_xx(CFP_Neck_Wrap2,10);
+            item_xx(Binocular,10);
+            item_xx(V_TacVest_camo,10);
+            item_xx(CFP_Shemagh_Full_Creme,10);
+            item_xx(CFP_Kitbag_Drab,10);
+            item_xx(SP_BeanieHat_Black,10);
+            item_xx(CFP_Neck_Wrap3,10);
+            item_xx(CFP_UtilityJacket_ChocChip,10);
+            item_xx(CFP_Shemagh_Half_Black,10);
+            item_xx(B_AssaultPack_blk,10);
+            item_xx(CUP_V_OI_TKI_Jacket3_05,10);
+            item_xx(CFP_AK_VEST_Tan,10);
+            item_xx(CFP_Shemagh_Full_Red,10);
+            item_xx(CUP_B_RPGPack_Khaki,10);
+            item_xx(CFP_AK_VEST_Black,10);
+            item_xx(H_Bandanna_sgg,10);
+            item_xx(CFP_Shemagh_Face_Atacsau,10);
+            item_xx(B_AssaultPack_rgr_Medic,10);
+            item_xx(CFP_Shemagh_Head_Grey,10);
+            item_xx(B_Kitbag_cbr,10);
+            item_xx(SP_Tactical1_Black,10);
+            item_xx(CFP_Scarfbeard_grey,10);
+            item_xx(V_TacVest_brn,10);
+            item_xx(CUP_B_DShkM_TripodHigh_Bag,10);
+            item_xx(CFP_AK_VEST_LOlive,10);
+            item_xx(SP_PatrolCap_Black,10);
+            item_xx(CFP_Shemagh_Neck_White,10);
+            item_xx(CUP_B_Kord_Tripod_Bag,10);
+            item_xx(CUP_V_OI_TKI_Jacket1_04,10);
+            item_xx(CFP_Scarfshades_tan,10);
+            item_xx(CUP_B_Podnos_Bipod_Bag,10);
+            item_xx(CFP_Shemagh_Head_White,10);
+            item_xx(CUP_B_AGS30_Tripod_Bag,10);
+            item_xx(IS_Balaclava,10);
+            item_xx(CUP_B_SPG9_Tripod_Bag,10);
+            item_xx(V_TacVest_blk,10);
+            item_xx(CUP_B_Metis_Tripod_Bag,10);
+        };
+    };
+    class CFP_I_ALNUSRA_SupplyBox : CUP_RUVehicleBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = al-Nusra Front Supply Box;
+        class TransportMagazines {
+            mag_xx(CUP_HandGrenade_RGD5,50);
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_1Rnd_SMOKE_GP25_M,50);
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+            mag_xx(CUP_PG7VL_M,50);
+            mag_xx(APERSMine_Range_Mag,50);
+            mag_xx(IEDLandSmall_Remote_Mag,50);
+            mag_xx(DemoCharge_Remote_Mag,50);
+            mag_xx(ClaymoreDirectionalMine_Remote_Mag,50);
+            mag_xx(APERSTripMine_Wire_Mag,50);
+            mag_xx(CUP_30Rnd_545x39_AK74M_M,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_AK74M,10);
+            weap_xx(CUP_arifle_AK74,10);
+            weap_xx(CUP_arifle_AK74M_GL,10);
+            weap_xx(CUP_arifle_AK47,10);
+            weap_xx(CUP_lmg_PKM,10);
+            weap_xx(CUP_srifle_SVD_pso,10);
+            weap_xx(CUP_arifle_AKS,10);
+            weap_xx(CUP_arifle_AKM,10);
+            weap_xx(CUP_arifle_AK74M_railed,10);
+            weap_xx(CUP_launch_RPG7V,10);
+        };
+        class TransportItems {
+            item_xx(CUP_optic_PSO_1,10);
+            item_xx(CFP_Tactical1_Flecktarn,10);
+            item_xx(H_Bandanna_mcamo,10);
+            item_xx(CFP_Shemagh_Neck_Creme,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(V_TacVest_khk,10);
+            item_xx(H_Bandanna_gry,10);
+            item_xx(CFP_Neck_Wrap2,10);
+            item_xx(Binocular,10);
+            item_xx(V_TacVest_camo,10);
+            item_xx(CFP_Shemagh_Full_Creme,10);
+            item_xx(CFP_Kitbag_Drab,10);
+            item_xx(SP_BeanieHat_Black,10);
+            item_xx(CFP_Neck_Wrap3,10);
+            item_xx(CFP_UtilityJacket_ChocChip,10);
+            item_xx(CFP_Shemagh_Half_Black,10);
+            item_xx(B_AssaultPack_blk,10);
+            item_xx(CUP_V_OI_TKI_Jacket3_05,10);
+            item_xx(CFP_AK_VEST_Tan,10);
+            item_xx(CFP_Shemagh_Full_Red,10);
+            item_xx(CUP_B_RPGPack_Khaki,10);
+            item_xx(CFP_AK_VEST_Black,10);
+            item_xx(H_Bandanna_sgg,10);
+            item_xx(CFP_Shemagh_Face_Atacsau,10);
+            item_xx(B_AssaultPack_rgr_Medic,10);
+            item_xx(CFP_Shemagh_Head_Grey,10);
+            item_xx(B_Kitbag_cbr,10);
+            item_xx(SP_Tactical1_Black,10);
+            item_xx(CFP_Scarfbeard_grey,10);
+            item_xx(V_TacVest_brn,10);
+            item_xx(CUP_B_DShkM_TripodHigh_Bag,10);
+            item_xx(CFP_AK_VEST_LOlive,10);
+            item_xx(SP_PatrolCap_Black,10);
+            item_xx(CFP_Shemagh_Neck_White,10);
+            item_xx(CUP_B_Kord_Tripod_Bag,10);
+            item_xx(CUP_V_OI_TKI_Jacket1_04,10);
+            item_xx(CFP_Scarfshades_tan,10);
+            item_xx(CUP_B_Podnos_Bipod_Bag,10);
+            item_xx(CFP_Shemagh_Head_White,10);
+            item_xx(CUP_B_AGS30_Tripod_Bag,10);
+            item_xx(IS_Balaclava,10);
+            item_xx(CUP_B_SPG9_Tripod_Bag,10);
+            item_xx(V_TacVest_blk,10);
+            item_xx(CUP_B_Metis_Tripod_Bag,10);
+            item_xx(CFP_U_KhetPartug_Short_Grey,10);
+            item_xx(SP_0000_Standard_FieldUniform_Black_SS,10);
+            item_xx(CUP_I_B_PMC_Unit_3,10);
+            item_xx(SP_0000_Standard_FieldUniform_Black,10);
+            item_xx(CFP_U_KhetPartug_Short_Black,10);
+            item_xx(CFP_U_WorkUniform_BlackGrey,10);
+            item_xx(CUP_I_B_PMC_Unit_24,10);
+            item_xx(CFP_FieldUniform_tanblack_SS,10);
+        };
     };
 };
