@@ -4,6 +4,9 @@
 // Generated with ALiVE version 1.5.0.1711091
 //////////////////////////////////////////////////////////////////////////////////
 
+#define mag_xx(a,b) class _xx_##a {magazine = ##a; count = b;}
+#define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
+#define item_xx(a,b) class _xx_##a {name = a; count = b;}
 
 class CBA_Extended_EventHandlers_base;
 
@@ -1604,5 +1607,215 @@ class CfgVehicles {
         ALiVE_orbatCreator_texture = "Desert";
 
     };
+
+
+    class CUP_USBasicAmmunitionBox; //
+
+    class CUP_USBasicWeaponsBox; //
+
+    class CUP_USSpecialWeaponsBox; //
+
+    class CUP_USLaunchersBox; //
+
+    class CUP_USVehicleBox; //
+
+    class CFP_B_CAF_AmmoBox : CUP_USBasicAmmunitionBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Chadian Armed Forces Ammo Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_PG7V_M,50);
+            mag_xx(CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,50);
+            mag_xx(CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,50);
+            mag_xx(DemoCharge_Remote_Mag,50);
+            mag_xx(ATMine_Range_Mag,50);
+            mag_xx(APERSTripMine_Wire_Mag,50);
+            mag_xx(CUP_PipeBomb_M,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+            mag_xx(CUP_30Rnd_545x39_AK74M_M,50);
+            mag_xx(MiniGrenade,50);
+            mag_xx(SmokeShell,50);
+            mag_xx(Chemlight_red,50);
+            mag_xx(SmokeShellRed,50);
+            mag_xx(CUP_8Rnd_9x18_Makarov_M,50);
+        };
+        class TransportWeapons {
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_B_CAF_WeaponsBox : CUP_USBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Chadian Armed Forces Weapons Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+            mag_xx(CUP_30Rnd_545x39_AK74M_M,50);
+            mag_xx(CUP_8Rnd_9x18_Makarov_M,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_AKM,10);
+            weap_xx(CUP_arifle_AK74M_GL,10);
+            weap_xx(CUP_arifle_RPK74,10);
+            weap_xx(CUP_srifle_SVD_des,10);
+            weap_xx(CUP_arifle_AK74M_railed,10);
+            weap_xx(CUP_hgun_Makarov,10);
+        };
+        class TransportItems {
+            item_xx(CUP_optic_PSO_3,10);
+            item_xx(optic_Holosight_blk_F,10);
+            item_xx(CUP_optic_Kobra,10);
+        };
+    };
+    class CFP_B_CAF_LaunchersBox : CUP_USLaunchersBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Chadian Armed Forces Launchers Box;
+        class TransportMagazines {
+            mag_xx(CUP_PG7V_M,5);
+            mag_xx(CUP_Stinger_M,5);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_launch_RPG7V,5);
+            weap_xx(CUP_launch_FIM92Stinger,5);
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_B_CAF_UniformBox : CUP_USSpecialWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Chadian Armed Forces Uniform Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(CFP_U_FieldUniform_ChocChip_SS,15);
+            item_xx(SP_0000_Standard_FieldUniform_Tan_SS,15);
+            item_xx(CFP_U_FieldUniform_3ColorDesert,15);
+            item_xx(SP_0000_Standard_Coverall_Tan,15);
+            item_xx(SP_0000_Standard_FieldUniform_Tan,15);
+        };
+    };
+    class CFP_B_CAF_SupportBox : CUP_USSpecialWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Chadian Armed Forces Support Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(CFP_AK_VEST_LOlive,10);
+            item_xx(CFP_Lungee_Shemagh_Green,10);
+            item_xx(CFP_Oakleys_Clr,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(CFP_Lungee_Shemagh_Yellow,10);
+            item_xx(CFP_Lungee_Shemagh_White,10);
+            item_xx(CFP_Oakleys_Drk,10);
+            item_xx(CFP_Oakleys_Embr,10);
+            item_xx(CUP_B_RPGPack_Khaki,10);
+            item_xx(B_AssaultPack_cbr,10);
+            item_xx(SP_Carryall_Tan,10);
+            item_xx(Binocular,10);
+            item_xx(CFP_AK_VEST_Tan,10);
+            item_xx(CFP_BoonieHat2_DCU,10);
+            item_xx(CFP_Neck_Wrap4,10);
+            item_xx(ItemGPS,10);
+            item_xx(CFP_Scarfshades_green,10);
+            item_xx(CFP_Neck_Plain3,10);
+            item_xx(CFP_Neck_Wrap3,10);
+            item_xx(CUP_V_B_PilotVest,10);
+            item_xx(CUP_H_RUS_ZSH_Shield_Up,10);
+            item_xx(B_Parachute,10);
+            item_xx(CUP_V_CDF_OfficerBelt,10);
+            item_xx(SP_TSH04Helmet_Black,10);
+            item_xx(CUP_V_O_TK_OfficerBelt2,10);
+            item_xx(CUP_H_BAF_Helmet_Pilot,10);
+            item_xx(CFP_Scarfshades_white,10);
+            item_xx(CFP_Lungee_Shemagh_LightBlue,10);
+        };
+    };
+    class CFP_B_CAF_SupplyBox : CUP_USVehicleBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Chadian Armed Forces Supply Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_PG7V_M,50);
+            mag_xx(CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,50);
+            mag_xx(CUP_75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,50);
+            mag_xx(DemoCharge_Remote_Mag,50);
+            mag_xx(ATMine_Range_Mag,50);
+            mag_xx(APERSTripMine_Wire_Mag,50);
+            mag_xx(CUP_PipeBomb_M,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+            mag_xx(CUP_30Rnd_545x39_AK74M_M,50);
+            mag_xx(MiniGrenade,50);
+            mag_xx(SmokeShell,50);
+            mag_xx(Chemlight_red,50);
+            mag_xx(SmokeShellRed,50);
+            mag_xx(CUP_8Rnd_9x18_Makarov_M,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_AKM,10);
+            weap_xx(CUP_arifle_AK74M_GL,10);
+            weap_xx(CUP_arifle_RPK74,10);
+            weap_xx(CUP_srifle_SVD_des,10);
+            weap_xx(CUP_arifle_AK74M_railed,10);
+            weap_xx(CUP_hgun_Makarov,10);
+            weap_xx(CUP_launch_RPG7V,10);
+            weap_xx(CUP_launch_FIM92Stinger,10);
+        };
+        class TransportItems {
+            item_xx(CUP_optic_PSO_3,10);
+            item_xx(optic_Holosight_blk_F,10);
+            item_xx(CUP_optic_Kobra,10);
+            item_xx(CFP_AK_VEST_LOlive,10);
+            item_xx(CFP_Lungee_Shemagh_Green,10);
+            item_xx(CFP_Oakleys_Clr,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(CFP_Lungee_Shemagh_Yellow,10);
+            item_xx(CFP_Lungee_Shemagh_White,10);
+            item_xx(CFP_Oakleys_Drk,10);
+            item_xx(CFP_Oakleys_Embr,10);
+            item_xx(CUP_B_RPGPack_Khaki,10);
+            item_xx(B_AssaultPack_cbr,10);
+            item_xx(SP_Carryall_Tan,10);
+            item_xx(Binocular,10);
+            item_xx(CFP_AK_VEST_Tan,10);
+            item_xx(CFP_BoonieHat2_DCU,10);
+            item_xx(CFP_Neck_Wrap4,10);
+            item_xx(ItemGPS,10);
+            item_xx(CFP_Scarfshades_green,10);
+            item_xx(CFP_Neck_Plain3,10);
+            item_xx(CFP_Neck_Wrap3,10);
+            item_xx(CUP_V_B_PilotVest,10);
+            item_xx(CUP_H_RUS_ZSH_Shield_Up,10);
+            item_xx(B_Parachute,10);
+            item_xx(CUP_V_CDF_OfficerBelt,10);
+            item_xx(SP_TSH04Helmet_Black,10);
+            item_xx(CUP_V_O_TK_OfficerBelt2,10);
+            item_xx(CUP_H_BAF_Helmet_Pilot,10);
+            item_xx(CFP_Scarfshades_white,10);
+            item_xx(CFP_Lungee_Shemagh_LightBlue,10);
+            item_xx(CFP_U_FieldUniform_ChocChip_SS,10);
+            item_xx(SP_0000_Standard_FieldUniform_Tan_SS,10);
+            item_xx(CFP_U_FieldUniform_3ColorDesert,10);
+            item_xx(SP_0000_Standard_Coverall_Tan,10);
+            item_xx(SP_0000_Standard_FieldUniform_Tan,10);
+        };
+    };
+
 
 };
