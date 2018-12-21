@@ -5,7 +5,7 @@
 class CBA_Extended_EventHandlers_base;
 
 class CfgVehicles
-    {
+{
 
     class O_Soldier_F;
     class O_Soldier_F_OCimport_01 : O_Soldier_F { scope = 0; class EventHandlers; };
@@ -360,12 +360,16 @@ class CfgVehicles
     };
 
     class CFP_B_AFARMY_HMMWV_01;
-    class CFP_B_AFARMY_HMMWV_01_OCimport_01 : CFP_B_AFARMY_HMMWV_01 { scope = 0; class EventHandlers; };
-    class CFP_B_AFARMY_HMMWV_01_OCimport_02 : CFP_B_AFARMY_HMMWV_01_OCimport_01 { scope = 0; class EventHandlers; };
+    class CFP_B_AFARMY_HMMWV_01_OCimport_01 : CFP_B_AFARMY_HMMWV_01 {
+        editorPreview = \x\cfp\addons\b_sdarmy\data\preview\CFP_B_AFARMY_HMMWV_01_OCimport_01.JPG; scope = 0; class EventHandlers; };
+    class CFP_B_AFARMY_HMMWV_01_OCimport_02 : CFP_B_AFARMY_HMMWV_01_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_sdarmy\data\preview\CFP_B_AFARMY_HMMWV_01_OCimport_02.JPG; scope = 0; class EventHandlers; };
 
     class CFP_B_AFARMY_HMMWV_DShKM_01;
-    class CFP_B_AFARMY_HMMWV_DShKM_01_OCimport_01 : CFP_B_AFARMY_HMMWV_DShKM_01 { scope = 0; class EventHandlers; class Turrets; };
+    class CFP_B_AFARMY_HMMWV_DShKM_01_OCimport_01 : CFP_B_AFARMY_HMMWV_DShKM_01 {
+        editorPreview = \x\cfp\addons\b_sdarmy\data\preview\CFP_B_AFARMY_HMMWV_DShKM_01_OCimport_01.JPG; scope = 0; class EventHandlers; class Turrets; };
     class CFP_B_AFARMY_HMMWV_DShKM_01_OCimport_02 : CFP_B_AFARMY_HMMWV_DShKM_01_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_sdarmy\data\preview\CFP_B_AFARMY_HMMWV_DShKM_01_OCimport_02.JPG;
         class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
@@ -443,6 +447,7 @@ class CfgVehicles
     };
 
     class CFP_B_SDARMY_Soldier_01 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_sdarmy\data\preview\CFP_B_SDARMY_Soldier_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -482,6 +487,7 @@ class CfgVehicles
     };
 
     class CFP_B_SDARMY_Soldier_02 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_sdarmy\data\preview\CFP_B_SDARMY_Soldier_02.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -521,6 +527,7 @@ class CfgVehicles
     };
 
     class CFP_B_SDARMY_Soldier_03 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_sdarmy\data\preview\CFP_B_SDARMY_Soldier_03.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -562,6 +569,7 @@ class CfgVehicles
     };
 
     class CFP_B_SDARMY_Soldier_04 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_sdarmy\data\preview\CFP_B_SDARMY_Soldier_04.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -603,6 +611,7 @@ class CfgVehicles
     };
 
     class CFP_B_SDARMY_Soldier_05 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_sdarmy\data\preview\CFP_B_SDARMY_Soldier_05.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -644,6 +653,7 @@ class CfgVehicles
     };
 
     class CFP_B_SDARMY_Soldier_06 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_sdarmy\data\preview\CFP_B_SDARMY_Soldier_06.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -685,6 +695,7 @@ class CfgVehicles
     };
 
     class CFP_B_SDARMY_Soldier_07 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_sdarmy\data\preview\CFP_B_SDARMY_Soldier_07.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -724,6 +735,7 @@ class CfgVehicles
     };
 
     class CFP_B_SDARMY_Soldier_08 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_sdarmy\data\preview\CFP_B_SDARMY_Soldier_08.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -765,6 +777,7 @@ class CfgVehicles
     };
 
     class CFP_B_SDARMY_Soldier_09 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_sdarmy\data\preview\CFP_B_SDARMY_Soldier_09.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -806,6 +819,7 @@ class CfgVehicles
     };
 
     class CFP_B_SDARMY_Soldier_10 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_sdarmy\data\preview\CFP_B_SDARMY_Soldier_10.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -845,6 +859,7 @@ class CfgVehicles
     };
 
     class CFP_B_SDARMY_Soldier_11 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_sdarmy\data\preview\CFP_B_SDARMY_Soldier_11.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -884,6 +899,7 @@ class CfgVehicles
     };
 
     class CFP_B_SDARMY_Soldier_12 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_sdarmy\data\preview\CFP_B_SDARMY_Soldier_12.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -923,6 +939,7 @@ class CfgVehicles
     };
 
     class CFP_B_SDARMY_Soldier_13 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_sdarmy\data\preview\CFP_B_SDARMY_Soldier_13.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -962,6 +979,7 @@ class CfgVehicles
     };
 
     class CFP_B_SDARMY_Soldier_14 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_sdarmy\data\preview\CFP_B_SDARMY_Soldier_14.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1003,6 +1021,7 @@ class CfgVehicles
     };
 
     class CFP_B_SDARMY_Soldier_15 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_sdarmy\data\preview\CFP_B_SDARMY_Soldier_15.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1044,6 +1063,7 @@ class CfgVehicles
     };
 
     class CFP_B_SDARMY_Soldier_16 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_sdarmy\data\preview\CFP_B_SDARMY_Soldier_16.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1085,6 +1105,7 @@ class CfgVehicles
     };
 
     class CFP_B_SDARMY_Soldier_17 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_sdarmy\data\preview\CFP_B_SDARMY_Soldier_17.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1126,6 +1147,7 @@ class CfgVehicles
     };
 
     class CFP_B_SDARMY_Soldier_18 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_sdarmy\data\preview\CFP_B_SDARMY_Soldier_18.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1167,6 +1189,7 @@ class CfgVehicles
     };
 
     class CFP_B_SDARMY_Soldier_19 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_sdarmy\data\preview\CFP_B_SDARMY_Soldier_19.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1208,6 +1231,7 @@ class CfgVehicles
     };
 
     class CFP_B_SDARMY_Soldier_20 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_sdarmy\data\preview\CFP_B_SDARMY_Soldier_20.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1247,6 +1271,7 @@ class CfgVehicles
     };
 
     class CFP_B_SDARMY_Soldier_21 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_sdarmy\data\preview\CFP_B_SDARMY_Soldier_21.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1286,6 +1311,7 @@ class CfgVehicles
     };
 
     class CFP_B_SDARMY_Soldier_22 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_sdarmy\data\preview\CFP_B_SDARMY_Soldier_22.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1325,6 +1351,7 @@ class CfgVehicles
     };
 
     class CFP_B_SDARMY_Soldier_23 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_sdarmy\data\preview\CFP_B_SDARMY_Soldier_23.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1366,6 +1393,7 @@ class CfgVehicles
     };
 
     class CFP_B_SDARMY_Soldier_24 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_sdarmy\data\preview\CFP_B_SDARMY_Soldier_24.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1407,6 +1435,7 @@ class CfgVehicles
     };
 
     class CFP_B_SDARMY_Soldier_25 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_sdarmy\data\preview\CFP_B_SDARMY_Soldier_25.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1448,6 +1477,7 @@ class CfgVehicles
     };
 
     class CFP_B_SDARMY_Soldier_26 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_sdarmy\data\preview\CFP_B_SDARMY_Soldier_26.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1489,6 +1519,7 @@ class CfgVehicles
     };
 
     class CFP_B_SDARMY_Soldier_27 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_sdarmy\data\preview\CFP_B_SDARMY_Soldier_27.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1530,6 +1561,7 @@ class CfgVehicles
     };
 
     class CFP_B_SDARMY_Soldier_28 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_sdarmy\data\preview\CFP_B_SDARMY_Soldier_28.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1571,6 +1603,7 @@ class CfgVehicles
     };
 
     class CFP_B_SDARMY_Soldier_29 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_sdarmy\data\preview\CFP_B_SDARMY_Soldier_29.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1612,6 +1645,7 @@ class CfgVehicles
     };
 
     class CFP_B_SDARMY_Soldier_30 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_sdarmy\data\preview\CFP_B_SDARMY_Soldier_30.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1651,6 +1685,7 @@ class CfgVehicles
     };
 
     class CFP_B_SDARMY_Soldier_31 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_sdarmy\data\preview\CFP_B_SDARMY_Soldier_31.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1690,6 +1725,7 @@ class CfgVehicles
     };
 
     class CFP_B_SDARMY_Soldier_32 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_sdarmy\data\preview\CFP_B_SDARMY_Soldier_32.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
