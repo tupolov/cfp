@@ -299,7 +299,7 @@ class CfgVehicles {
             "CFP_FieldUniform_marpatm81_SS", 0.3,
             "CFP_FieldUniform_fleckacr_SS", 0.3,
             "CFP_FieldUniform_dcum81_SS", 0.3,
-            "CFP_FieldUniform_blackacu_SS", 0.3,
+            "CFP_FieldUniform_blackacu_SS", 0.3
 		};
 
 	// Al Qaeda Facewear

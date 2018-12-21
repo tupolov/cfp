@@ -647,7 +647,7 @@ class CfgVehicles {
             "H_Bandanna_cbr", 0.2,
             "SP_BeanieHat_Black", 0.2,
             "SP_BeanieHat_Tan", 0.2,
-            "SP_BeanieHat_Green", 0.2,
+            "SP_BeanieHat_Green", 0.2
         };
 
         // Beards / mouth scarf / scarf / sunglasses
