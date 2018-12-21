@@ -28,26 +28,6 @@ class CfgVehicles {
         };
     };
 
-    class CUP_O_Mi17_TK;
-    class CUP_O_Mi17_TK_OCimport_01 : CUP_O_Mi17_TK { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_Mi17_TK_OCimport_02 : CUP_O_Mi17_TK_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-            class BackTurret;
-            class CopilotTurret;
-        };
-    };
-
-    class CUP_O_Mi17_VIV_TK;
-    class CUP_O_Mi17_VIV_TK_OCimport_01 : CUP_O_Mi17_VIV_TK { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_Mi17_VIV_TK_OCimport_02 : CUP_O_Mi17_VIV_TK_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class CopilotTurret;
-        };
-    };
-
     class CUP_O_T55_SLA;
     class CUP_O_T55_SLA_OCimport_01 : CUP_O_T55_SLA { scope = 0; class EventHandlers; class Turrets; };
     class CUP_O_T55_SLA_OCimport_02 : CUP_O_T55_SLA_OCimport_01 {
@@ -949,69 +929,36 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_UGARMY_Mi_17_01 : CUP_O_Mi17_TK_OCimport_02 {
+    class CUP_O_Mi17_TK;
+    class CUP_O_Mi17_TK_OCimport_01 : CUP_O_Mi17_TK { scope = 0; class EventHandlers; class Turrets; };
+    class CFP_B_UGARMY_Mi_17_01 : CUP_O_Mi17_TK_OCimport_01
+    {
         editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Mi_17_01.JPG;
-        author = "Drew";
         scope = 2;
-        scopeCurator = 2;
-        displayName = "Mi-17";
         side = 1;
+        displayName = "Mi-17";
         faction = "CFP_B_UGARMY";
+        vehicleClass = "CFP_B_UGARMY_AIRCRAFT";
+        camouflage = 4;
         crew = "CFP_B_UGARMY_Helicopter_Pilot_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_UGARMY_Helicopter_Pilot_01"; };
-            class BackTurret : BackTurret {
-        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\BackTurret.JPG; gunnerType = "CFP_B_UGARMY_Helicopter_Pilot_01"; };
-            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_UGARMY_Helicopter_Pilot_01"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\Mi8\mi17_uganda.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\Mi8\mi17_det_uganda.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "Uganda";
-
+        typicalCargo[] = {"CFP_B_UGARMY_Helicopter_Pilot_01","CFP_B_UGARMY_Helicopter_Pilot_01"};
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Mi8\mi17_uganda.paa","\x\cfp\addons\vehicles\Mi8\mi17_det_uganda.paa"};
     };
 
-    class CFP_B_UGARMY_Mi_17_VIV_01 : CUP_O_Mi17_VIV_TK_OCimport_02 {
-        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Mi_17_VIV_01.JPG;
-        author = "Drew";
+    class CUP_O_Mi17_VIV_TK;
+    class CUP_O_Mi17_VIV_TK_OCimport_01 : CUP_O_Mi17_VIV_TK { scope = 0; class EventHandlers; class Turrets; };
+    class CFP_B_UGARMY_Mi_17_VIV_01 : CUP_O_Mi17_VIV_TK_OCimport_01
+    {
+        editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Mi_17_01.JPG;
         scope = 2;
-        scopeCurator = 2;
-        displayName = "Mi-17 [VIV]";
         side = 1;
+        displayName = "Mi-17 [VIV]";
         faction = "CFP_B_UGARMY";
+        vehicleClass = "CFP_B_UGARMY_AIRCRAFT";
+        camouflage = 4;
         crew = "CFP_B_UGARMY_Helicopter_Pilot_01";
-
-        class Turrets : Turrets {
-            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_UGARMY_Helicopter_Pilot_01"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\Mi8\mi17_uganda.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\Mi8\mi17_det_uganda.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "Uganda";
-
+        typicalCargo[] = {"CFP_B_UGARMY_Helicopter_Pilot_01","CFP_B_UGARMY_Helicopter_Pilot_01"};
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Mi8\mi17_uganda.paa","\x\cfp\addons\vehicles\Mi8\mi17_det_uganda.paa"};
     };
 
     class CFP_B_UGARMY_T55_01 : CUP_O_T55_SLA_OCimport_02 {
