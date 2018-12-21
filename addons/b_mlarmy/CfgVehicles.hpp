@@ -4,6 +4,9 @@
 // Generated with ALiVE version 1.5.1.1712051
 //////////////////////////////////////////////////////////////////////////////////
 
+#define mag_xx(a,b) class _xx_##a {magazine = ##a; count = b;}
+#define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
+#define item_xx(a,b) class _xx_##a {name = a; count = b;}
 
 class CBA_Extended_EventHandlers_base;
 
@@ -1752,6 +1755,246 @@ class CfgVehicles {
         ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_texture = "africanunion_des";
 
+    };
+
+    class CUP_RUBasicAmmunitionBox; // CUP_RUBasicAmmunitionBox
+    class Box_NATO_Ammo_F; // CUP_USBasicAmmunitionBox
+    class CUP_RUBasicWeaponsBox; // CUP_RUBasicWeaponsBox
+    class Box_NATO_Wps_F; // CUP_USBasicWeaponsBox
+    class CUP_RUSpecialWeaponsBox; // CUP_RUSpecialWeaponsBox
+    class Box_NATO_Support_F; // CUP_USSpecialWeaponsBox
+    class CUP_RULaunchersBox; // CUP_RULaunchersBox
+    class Box_NATO_WpsLaunch_F; // CUP_USLaunchersBox
+    class Box_NATO_Uniforms_F; // CUP_USBasicWeaponsBox
+    class CUP_RUVehicleBox; // CUP_RUVehicleBox
+    class B_SupplyCrate_F; // CUP_USVehicleBox
+
+    class CFP_B_MLARMY_AmmoBox : CUP_RUBasicAmmunitionBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Malian Government Forces Ammo Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_PG7V_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(DemoCharge_Remote_Mag,50);
+            mag_xx(CUP_PipeBomb_M,50);
+            mag_xx(APERSTripMine_Wire_Mag,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+            mag_xx(CUP_8Rnd_9x18_Makarov_M,50);
+            mag_xx(SmokeShellRed,50);
+            mag_xx(SmokeShellOrange,50);
+            mag_xx(SmokeShellYellow,50);
+            mag_xx(CUP_30Rnd_545x39_AK74_plum_M,50);
+            mag_xx(Chemlight_red,50);
+            mag_xx(MiniGrenade,50);
+            mag_xx(SmokeShell,50);
+            mag_xx(CUP_1Rnd_SMOKE_GP25_M,50);
+            mag_xx(CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,50);
+            mag_xx(ClaymoreDirectionalMine_Remote_Mag,50);
+            mag_xx(10Rnd_9x21_Mag,50);
+        };
+        class TransportWeapons {
+        };
+        class TransportItems {
+        };
+    };
+
+    class CFP_B_MLARMY_WeaponsBox : CUP_RUBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Malian Government Forces Weapons Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+            mag_xx(CUP_8Rnd_9x18_Makarov_M,50);
+            mag_xx(CUP_30Rnd_545x39_AK74_plum_M,50);
+            mag_xx(CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,50);
+            mag_xx(10Rnd_9x21_Mag,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_AK47,10);
+            weap_xx(CUP_lmg_PKM,10);
+            weap_xx(CUP_arifle_AK74_GL,10);
+            weap_xx(CUP_srifle_SVD,10);
+            weap_xx(CUP_hgun_Makarov,10);
+            weap_xx(CUP_arifle_AKS74U,10);
+            weap_xx(CUP_arifle_AKM,10);
+            weap_xx(CUP_arifle_AKM_GL,10);
+            weap_xx(CUP_arifle_RPK74_45,10);
+            weap_xx(hgun_Pistol_01_F,10);
+        };
+        class TransportItems {
+            item_xx(CUP_optic_PSO_1,10);
+        };
+    };
+    class CFP_B_MLARMY_LaunchersBox : CUP_RULaunchersBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Malian Government Forces Launchers Box;
+        class TransportMagazines {
+            mag_xx(CUP_PG7V_M,5);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_launch_RPG7V,5);
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_B_MLARMY_UniformBox : CUP_RUBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Malian Government Forces Uniform Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(CFP_BDU_Wdl_Mali,15);
+            item_xx(CFP_BDU_CEU,15);
+            item_xx(CFP_U_BattleDressUniform_edrl,15);
+            item_xx(SP_0000_Standard_FieldUniform_Tan,15);
+            item_xx(CFP_BDU_M81Mali,15);
+        };
+    };
+    class CFP_B_MLARMY_SupportBox : CUP_RUSpecialWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Malian Government Forces Support Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(CFP_AK_VEST_LOlive,10);
+            item_xx(CFP_Basic_Helmet_Black,10);
+            item_xx(CFP_Scarfshades_tan,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(Binocular,10);
+            item_xx(SP_M1Helmet_GrayDim,10);
+            item_xx(CFP_Neck_Wrap4,10);
+            item_xx(CFP_PatrolCap_CEU,10);
+            item_xx(CFP_Scarfshades_grey,10);
+            item_xx(CUP_B_RPGPack_Khaki,10);
+            item_xx(CFP_Neck_Wrap2,10);
+            item_xx(B_Kitbag_rgr,10);
+            item_xx(SP_PatrolCap_Green,10);
+            item_xx(SP_M1Helmet_Green,10);
+            item_xx(B_AssaultPack_rgr,10);
+            item_xx(SP_BeanieHat_Green,10);
+            item_xx(CUP_V_CDF_OfficerBelt,10);
+            item_xx(SP_TSH04Helmet_Black,10);
+            item_xx(V_TacVest_khk,10);
+            item_xx(H_PilotHelmetHeli_O,10);
+            item_xx(CUP_NVG_PVS15_black,10);
+            item_xx(V_I_G_resistanceLeader_F,10);
+            item_xx(CFP_BoonieHat2_M81Mali,10);
+            item_xx(CFP_Neck_Plain3,10);
+            item_xx(ItemGPS,10);
+            item_xx(CFP_Neck_Plain2,10);
+            item_xx(B_AssaultPack_cbr,10);
+            item_xx(B_Kitbag_cbr,10);
+            item_xx(SP_Beret2_Black,10);
+            item_xx(SP_BeanieHat_Black,10);
+            item_xx(CFP_Scarfshades_white,10);
+            item_xx(CUP_B_DShkM_TripodHigh_Bag,10);
+            item_xx(CUP_B_DShkM_Gun_Bag,10);
+            item_xx(CFP_Oakleys_Embr,10);
+            item_xx(CUP_B_Podnos_Bipod_Bag,10);
+            item_xx(SP_M1Helmet_Black,10);
+            item_xx(CUP_B_Podnos_Gun_Bag,10);
+        };
+    };
+    class CFP_B_MLARMY_SupplyBox : CUP_RUVehicleBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Malian Government Forces Supply Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_PG7V_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(DemoCharge_Remote_Mag,50);
+            mag_xx(CUP_PipeBomb_M,50);
+            mag_xx(APERSTripMine_Wire_Mag,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+            mag_xx(CUP_8Rnd_9x18_Makarov_M,50);
+            mag_xx(SmokeShellRed,50);
+            mag_xx(SmokeShellOrange,50);
+            mag_xx(SmokeShellYellow,50);
+            mag_xx(CUP_30Rnd_545x39_AK74_plum_M,50);
+            mag_xx(Chemlight_red,50);
+            mag_xx(MiniGrenade,50);
+            mag_xx(SmokeShell,50);
+            mag_xx(CUP_1Rnd_SMOKE_GP25_M,50);
+            mag_xx(CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,50);
+            mag_xx(ClaymoreDirectionalMine_Remote_Mag,50);
+            mag_xx(10Rnd_9x21_Mag,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_AK47,10);
+            weap_xx(CUP_lmg_PKM,10);
+            weap_xx(CUP_arifle_AK74_GL,10);
+            weap_xx(CUP_srifle_SVD,10);
+            weap_xx(CUP_hgun_Makarov,10);
+            weap_xx(CUP_arifle_AKS74U,10);
+            weap_xx(CUP_arifle_AKM,10);
+            weap_xx(CUP_arifle_AKM_GL,10);
+            weap_xx(CUP_arifle_RPK74_45,10);
+            weap_xx(hgun_Pistol_01_F,10);
+            weap_xx(CUP_launch_RPG7V,10);
+        };
+        class TransportItems {
+            item_xx(CUP_optic_PSO_1,10);
+            item_xx(CFP_AK_VEST_LOlive,10);
+            item_xx(CFP_Basic_Helmet_Black,10);
+            item_xx(CFP_Scarfshades_tan,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(Binocular,10);
+            item_xx(SP_M1Helmet_GrayDim,10);
+            item_xx(CFP_Neck_Wrap4,10);
+            item_xx(CFP_PatrolCap_CEU,10);
+            item_xx(CFP_Scarfshades_grey,10);
+            item_xx(CUP_B_RPGPack_Khaki,10);
+            item_xx(CFP_Neck_Wrap2,10);
+            item_xx(B_Kitbag_rgr,10);
+            item_xx(SP_PatrolCap_Green,10);
+            item_xx(SP_M1Helmet_Green,10);
+            item_xx(B_AssaultPack_rgr,10);
+            item_xx(SP_BeanieHat_Green,10);
+            item_xx(CUP_V_CDF_OfficerBelt,10);
+            item_xx(SP_TSH04Helmet_Black,10);
+            item_xx(V_TacVest_khk,10);
+            item_xx(H_PilotHelmetHeli_O,10);
+            item_xx(CUP_NVG_PVS15_black,10);
+            item_xx(V_I_G_resistanceLeader_F,10);
+            item_xx(CFP_BoonieHat2_M81Mali,10);
+            item_xx(CFP_Neck_Plain3,10);
+            item_xx(ItemGPS,10);
+            item_xx(CFP_Neck_Plain2,10);
+            item_xx(B_AssaultPack_cbr,10);
+            item_xx(B_Kitbag_cbr,10);
+            item_xx(SP_Beret2_Black,10);
+            item_xx(SP_BeanieHat_Black,10);
+            item_xx(CFP_Scarfshades_white,10);
+            item_xx(CUP_B_DShkM_TripodHigh_Bag,10);
+            item_xx(CUP_B_DShkM_Gun_Bag,10);
+            item_xx(CFP_Oakleys_Embr,10);
+            item_xx(CUP_B_Podnos_Bipod_Bag,10);
+            item_xx(SP_M1Helmet_Black,10);
+            item_xx(CUP_B_Podnos_Gun_Bag,10);
+            item_xx(CFP_BDU_Wdl_Mali,10);
+            item_xx(CFP_BDU_CEU,10);
+            item_xx(CFP_U_BattleDressUniform_edrl,10);
+            item_xx(SP_0000_Standard_FieldUniform_Tan,10);
+            item_xx(CFP_BDU_M81Mali,10);
+        };
     };
 
 };
