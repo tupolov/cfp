@@ -12,6 +12,7 @@ class CfgVehicles {
 
 
     class cfp_b_ypg_leader : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_ypg\data\preview\cfp_b_ypg_leader.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -104,6 +105,7 @@ class CfgVehicles {
     };
 
     class cfp_b_ypg_rifleman : cfp_b_ypg_leader {
+        editorPreview = \x\cfp\addons\b_ypg\data\preview\cfp_b_ypg_rifleman.JPG;
 
         displayName = "YPG Rifleman";
 
@@ -121,6 +123,7 @@ class CfgVehicles {
     };
 
     class cfp_b_ypg_machinegunner : cfp_b_ypg_leader {
+        editorPreview = \x\cfp\addons\b_ypg\data\preview\cfp_b_ypg_machinegunner.JPG;
 
         displayName = "YPG Machinegunner";
 
@@ -140,6 +143,7 @@ class CfgVehicles {
     };
 
     class cfp_b_ypg_sniper : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_ypg\data\preview\cfp_b_ypg_sniper.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -222,6 +226,7 @@ class CfgVehicles {
     };
 
     class cfp_b_ypg_at : cfp_b_ypg_leader {
+        editorPreview = \x\cfp\addons\b_ypg\data\preview\cfp_b_ypg_at.JPG;
 
         displayName = "YPG AT Gunner";
 
@@ -241,6 +246,7 @@ class CfgVehicles {
     };
 
     class cfp_b_ypg_medic : cfp_b_ypg_sniper {
+        editorPreview = \x\cfp\addons\b_ypg\data\preview\cfp_b_ypg_medic.JPG;
 
         displayName = "YPG Medic";
         attendant = 1;
@@ -263,6 +269,7 @@ class CfgVehicles {
     };
 
     class cfp_b_ypg_crewman : cfp_b_ypg_leader {
+        editorPreview = \x\cfp\addons\b_ypg\data\preview\cfp_b_ypg_crewman.JPG;
 
         displayName = "YPG Engineer";
         engineer = 1;
@@ -284,6 +291,7 @@ class CfgVehicles {
     };
 
     class cfp_b_ypg_rifleman_dshkm : cfp_b_ypg_leader {
+        editorPreview = \x\cfp\addons\b_ypg\data\preview\cfp_b_ypg_rifleman_dshkm.JPG;
 
         displayName = "YPG Gunner [DSHKM]";
 
@@ -303,6 +311,7 @@ class CfgVehicles {
     };
 
     class cfp_b_ypg_rifleman_kord : cfp_b_ypg_sniper {
+        editorPreview = \x\cfp\addons\b_ypg\data\preview\cfp_b_ypg_rifleman_kord.JPG;
 
         displayName = "YPG Gunner [KORD]";
 
@@ -322,6 +331,7 @@ class CfgVehicles {
     };
 
     class cfp_b_ypg_rifleman_podnos : cfp_b_ypg_leader {
+        editorPreview = \x\cfp\addons\b_ypg\data\preview\cfp_b_ypg_rifleman_podnos.JPG;
 
         displayName = "YPG Gunner [Podnos]";
 
@@ -341,6 +351,7 @@ class CfgVehicles {
     };
 
     class cfp_b_ypg_rifleman_ags30 : cfp_b_ypg_leader {
+        editorPreview = \x\cfp\addons\b_ypg\data\preview\cfp_b_ypg_rifleman_ags30.JPG;
 
         displayName = "YPG Gunner [AGS30]";
 
@@ -360,6 +371,7 @@ class CfgVehicles {
     };
 
     class cfp_b_ypg_rifleman_metis : cfp_b_ypg_leader {
+        editorPreview = \x\cfp\addons\b_ypg\data\preview\cfp_b_ypg_rifleman_metis.JPG;
 
         displayName = "YPG Gunner [METIS]";
 
@@ -379,6 +391,7 @@ class CfgVehicles {
     };
 
     class cfp_b_ypg_rifleman_spg9 : cfp_b_ypg_sniper {
+        editorPreview = \x\cfp\addons\b_ypg\data\preview\cfp_b_ypg_rifleman_spg9.JPG;
 
         displayName = "YPG Gunner [SPG9]";
 
@@ -420,6 +433,7 @@ class CfgVehicles {
     class Offroad_01_base_F_OCimport_01 : Offroad_01_base_F { scope = 0; class Eventhandlers; };
     class cfp_b_ypg_offroad : Offroad_01_base_F_OCimport_01
 	{
+        editorPreview = \x\cfp\addons\b_ypg\data\preview\cfp_b_ypg_offroad.JPG;
 		scope = 2;
 		side = 1;
 		displayName = "YPG Offroad";
@@ -434,11 +448,12 @@ class CfgVehicles {
 		{
 			init = "(_this select 0) execVM ""\x\cfp\addons\b_ypg\Scripts\randomize_tex.sqf""";
 		};
-		editorPreview = "\x\cfp\addons\b_ypg\data\Preview_YPG_Offroad.jpg";
+
 	};
 
     class cfp_b_ypg_offroad_flag : cfp_b_ypg_offroad
 	{
+        editorPreview = \x\cfp\addons\b_ypg\data\preview\cfp_b_ypg_offroad_flag.JPG;
 		scope = 2;
 		side = 1;
 		displayName = "YPG Offroad (Flag)";
@@ -456,13 +471,14 @@ class CfgVehicles {
 				killed = "(_this select 0) execVM ""\x\cfp\addons\b_ypg\Scripts\onkilled.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\b_ypg\data\Preview_YPG_Offroad_flag.jpg";
+
 	};
 
 	class B_G_Offroad_01_armed_F;
     class B_G_Offroad_01_armed_F_OCimport_01 : B_G_Offroad_01_armed_F { scope = 0; class Eventhandlers; };
     class cfp_b_ypg_offroad_M2 : B_G_Offroad_01_armed_F_OCimport_01
 	{
+        editorPreview = \x\cfp\addons\b_ypg\data\preview\cfp_b_ypg_offroad_M2.JPG;
 		scope = 2;
 		side = 1;
 		displayName = "YPG Offroad MG";
@@ -480,11 +496,12 @@ class CfgVehicles {
 				killed = "(_this select 0) execVM ""\x\cfp\addons\b_ypg\Scripts\onkilled.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\b_ypg\data\Preview_YPG_Offroad_M2.jpg";
+
 	};
 
     class cfp_b_ypg_offroad_M2_flag : cfp_b_ypg_offroad_M2
 	{
+        editorPreview = \x\cfp\addons\b_ypg\data\preview\cfp_b_ypg_offroad_M2_flag.JPG;
 		scope = 2;
 		side = 1;
 		displayName = "YPG Offroad MG (Flag)";
@@ -502,15 +519,16 @@ class CfgVehicles {
 				killed = "(_this select 0) execVM ""\x\cfp\addons\b_ypg\Scripts\onkilled.sqf""";
 			};
 		};
-		editorPreview = "\x\cfp\addons\b_ypg\data\Preview_YPG_Offroad_M2_flag.jpg";
+
 	};
-	
+
 	class CUP_O_Ural_Refuel_SLA;
     class CUP_O_Ural_Refuel_SLA_OCimport_01 : CUP_O_Ural_Refuel_SLA { scope = 0; class EventHandlers; };
     class CUP_O_Ural_Refuel_SLA_OCimport_02 : CUP_O_Ural_Refuel_SLA_OCimport_01 { scope = 0; class EventHandlers; };
-	
+
 	class cfp_b_ypg_Ural_Refuel_01 : CUP_O_Ural_Refuel_SLA_OCimport_02 {
-        editorPreview = \x\cfp\addons\b_ypg\data\Preview_Ural_Refuel_01.JPG;
+        editorPreview = \x\cfp\addons\b_ypg\data\preview\cfp_b_ypg_Ural_Refuel_01.JPG;
+
         author = "AccuracyThruVolume";
         scope = 2;
         scopeCurator = 2;
@@ -537,9 +555,10 @@ class CfgVehicles {
     class CUP_O_Ural_Repair_SLA;
     class CUP_O_Ural_Repair_SLA_OCimport_01 : CUP_O_Ural_Repair_SLA { scope = 0; class EventHandlers; };
     class CUP_O_Ural_Repair_SLA_OCimport_02 : CUP_O_Ural_Repair_SLA_OCimport_01 { scope = 0; class EventHandlers; };
-	
-	 class cfp_b_ypg_Ural_Repair_01 : CUP_O_Ural_Repair_SLA_OCimport_02 {
-        editorPreview = \x\cfp\addons\b_ypg\data\Preview_Ural_Repair_01.JPG;
+
+	class cfp_b_ypg_Ural_Repair_01 : CUP_O_Ural_Repair_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_ypg\data\preview\cfp_b_ypg_Ural_Repair_01.JPG;
+
         author = "AccuracyThruVolume";
         scope = 2;
         scopeCurator = 2;
@@ -565,9 +584,10 @@ class CfgVehicles {
     class CUP_O_Ural_Reammo_SLA;
     class CUP_O_Ural_Reammo_SLA_OCimport_01 : CUP_O_Ural_Reammo_SLA { scope = 0; class EventHandlers; };
     class CUP_O_Ural_Reammo_SLA_OCimport_02 : CUP_O_Ural_Reammo_SLA_OCimport_01 { scope = 0; class EventHandlers; };
-	
+
 	class cfp_b_ypg_Ural_Ammo_01 : CUP_O_Ural_Reammo_SLA_OCimport_02 {
-        editorPreview = \x\cfp\addons\b_ypg\data\Preview_Ural_Ammo_01.JPG;
+        editorPreview = \x\cfp\addons\b_ypg\data\preview\cfp_b_ypg_Ural_Ammo_01.JPG;
+
         author = "AccuracyThruVolume";
         scope = 2;
         scopeCurator = 2;
@@ -602,6 +622,7 @@ class CfgVehicles {
     class CUP_USVehicleBox; // CUP_USVehicleBox
 
     class CFP_B_YPG_AmmoBox : CUP_USBasicAmmunitionBox {
+
         author = ALiVE ORBAT CREATOR;
         displayName = YPG Ammo Box;
         class TransportMagazines {
@@ -618,6 +639,7 @@ class CfgVehicles {
         };
     };
     class CFP_B_YPG_WeaponsBox : CUP_USBasicWeaponsBox {
+
         author = ALiVE ORBAT CREATOR;
         displayName = YPG Weapons Box;
         class TransportMagazines {
@@ -639,6 +661,7 @@ class CfgVehicles {
         };
     };
     class CFP_B_YPG_LaunchersBox : CUP_USLaunchersBox {
+
         author = ALiVE ORBAT CREATOR;
         displayName = YPG Launchers Box;
         class TransportMagazines {
@@ -651,6 +674,7 @@ class CfgVehicles {
         };
     };
     class CFP_B_YPG_UniformBox : CUP_USBasicWeaponsBox {
+
         author = ALiVE ORBAT CREATOR;
         displayName = YPG Uniform Box;
         class TransportWeapons {
@@ -662,6 +686,7 @@ class CfgVehicles {
         };
     };
     class CFP_B_YPG_SupportBox : CUP_USSpecialWeaponsBox {
+
         author = ALiVE ORBAT CREATOR;
         displayName = YPG Support Box;
         class TransportWeapons {
@@ -691,6 +716,7 @@ class CfgVehicles {
         };
     };
     class CFP_B_YPG_SupplyBox : CUP_USVehicleBox {
+
         author = ALiVE ORBAT CREATOR;
         displayName = YPG Supply Box;
         class TransportMagazines {
