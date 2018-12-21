@@ -12,6 +12,7 @@ class CfgVehicles {
 
 
     class cfp_b_iqpolice_officer : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_iqpolice\data\preview\cfp_b_iqpolice_officer.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -107,6 +108,7 @@ class CfgVehicles {
     };
 
     class cfp_b_iqpolice_policeman : cfp_b_iqpolice_officer {
+        editorPreview = \x\cfp\addons\b_iqpolice\data\preview\cfp_b_iqpolice_policeman.JPG;
 
         displayName = "Iraqi Policeman";
 
@@ -123,103 +125,103 @@ class CfgVehicles {
 
     };
 
-	class Offroad_01_base_F;
+    class Offroad_01_base_F;
     class Offroad_01_base_F_OCimport_01 : Offroad_01_base_F { scope = 0; class Eventhandlers; };
-    class cfp_b_iqpolice_offroad : Offroad_01_base_F_OCimport_01
-	{
-		scope = 2;
-		side = 1;
-		displayName = "IP Offroad";
-		faction = "CFP_B_IQPOLICE";
-		vehicleClass = "CFP_B_IQPOLICE_MOTORIZED";
-		camouflage = 4;
-		crew = "cfp_b_iqpolice_policeman";
-		typicalCargo[] = {"cfp_b_iqpolice_policeman","cfp_b_iqpolice_policeman"};
-		hiddenSelections[] = {"camo","camo2"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\b_iqpolice\data\offroad_ip_03.paa","\x\cfp\addons\b_iqpolice\data\offroad_ip_01.paa"};
-		class EventHandlers : EventHandlers
-		{
-			class ADDON {
-				init = "(_this select 0) execVM ""\x\cfp\addons\b_iqpolice\Scripts\randomize_tex.sqf""";
-			};
-		};
-		editorPreview = "\x\cfp\addons\b_iqpolice\data\Preview_IP_Offroad.jpg";
-	};
-	class B_G_Offroad_01_armed_F;
+    class cfp_b_iqpolice_offroad : Offroad_01_base_F_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_iqpolice\data\preview\cfp_b_iqpolice_offroad.JPG;
+        scope = 2;
+        side = 1;
+        displayName = "IP Offroad";
+        faction = "CFP_B_IQPOLICE";
+        vehicleClass = "CFP_B_IQPOLICE_MOTORIZED";
+        camouflage = 4;
+        crew = "cfp_b_iqpolice_policeman";
+        typicalCargo[] = {"cfp_b_iqpolice_policeman","cfp_b_iqpolice_policeman"};
+        hiddenSelections[] = {"camo","camo2"};
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\b_iqpolice\data\offroad_ip_03.paa","\x\cfp\addons\b_iqpolice\data\offroad_ip_01.paa"};
+        class EventHandlers : EventHandlers
+        {
+            class ADDON {
+                init = "(_this select 0) execVM ""\x\cfp\addons\b_iqpolice\Scripts\randomize_tex.sqf""";
+            };
+        };
+
+    };
+    class B_G_Offroad_01_armed_F;
     class B_G_Offroad_01_armed_F_OCimport_01 : B_G_Offroad_01_armed_F { scope = 0; class Eventhandlers; };
-    class cfp_b_iqpolice_offroad_M2 : B_G_Offroad_01_armed_F_OCimport_01
-	{
-		scope = 2;
-		side = 1;
-		displayName = "IP Offroad MG";
-		faction = "CFP_B_IQPOLICE";
-		vehicleClass = "CFP_B_IQPOLICE_MOTORIZED";
-		camouflage = 4;
-		crew = "cfp_b_iqpolice_policeman";
-		typicalCargo[] = {"cfp_b_iqpolice_policeman","cfp_b_iqpolice_policeman"};
-		hiddenSelections[] = {"camo","camo2"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\b_iqpolice\data\offroad_ip_05.paa","\x\cfp\addons\b_iqpolice\data\offroad_ip_02.paa"};
-		class EventHandlers : EventHandlers
-		{
-			class ADDON {
-				init = "(_this select 0) execVM ""\x\cfp\addons\b_iqpolice\Scripts\randomize_tex.sqf""";
-			};
-		};
-		editorPreview = "\x\cfp\addons\b_iqpolice\data\Preview_IP_Offroad_MG.jpg";
-	};
-	class CUP_B_HMMWV_M2_USA;
+    class cfp_b_iqpolice_offroad_M2 : B_G_Offroad_01_armed_F_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_iqpolice\data\preview\cfp_b_iqpolice_offroad_M2.JPG;
+        scope = 2;
+        side = 1;
+        displayName = "IP Offroad MG";
+        faction = "CFP_B_IQPOLICE";
+        vehicleClass = "CFP_B_IQPOLICE_MOTORIZED";
+        camouflage = 4;
+        crew = "cfp_b_iqpolice_policeman";
+        typicalCargo[] = {"cfp_b_iqpolice_policeman","cfp_b_iqpolice_policeman"};
+        hiddenSelections[] = {"camo","camo2"};
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\b_iqpolice\data\offroad_ip_05.paa","\x\cfp\addons\b_iqpolice\data\offroad_ip_02.paa"};
+        class EventHandlers : EventHandlers
+        {
+            class ADDON {
+                init = "(_this select 0) execVM ""\x\cfp\addons\b_iqpolice\Scripts\randomize_tex.sqf""";
+            };
+        };
+
+    };
+    class CUP_B_HMMWV_M2_USA;
     class CUP_B_HMMWV_M2_USA_OCimport_01 : CUP_B_HMMWV_M2_USA { scope = 0; class Eventhandlers; };
-    class cfp_b_iqpolice_HMMWV_M2 : CUP_B_HMMWV_M2_USA_OCimport_01
-	{
-		scope = 2;
-		side = 1;
-		displayName = "IP HMMWV M2";
-		faction = "CFP_B_IQPOLICE";
-		vehicleClass = "CFP_B_IQPOLICE_MOTORIZED";
-		camouflage = 4;
-		crew = "cfp_b_iqpolice_policeman";
-		typicalCargo[] = {"cfp_b_iqpolice_policeman","cfp_b_iqpolice_policeman"};
-		class EventHandlers : EventHandlers
-		{
-			class ADDON {
-				init = "(_this select 0) execVM ""\x\cfp\addons\b_iqpolice\Scripts\randomize_tex.sqf""";
-			};
-		};
-		editorPreview = "\x\cfp\addons\b_iqpolice\data\Preview_IP_HMMWV.jpg";
-	};
-	class CUP_B_HMMWV_DSHKM_GPK_ACR;
+    class cfp_b_iqpolice_HMMWV_M2 : CUP_B_HMMWV_M2_USA_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_iqpolice\data\preview\cfp_b_iqpolice_HMMWV_M2.JPG;
+        scope = 2;
+        side = 1;
+        displayName = "IP HMMWV M2";
+        faction = "CFP_B_IQPOLICE";
+        vehicleClass = "CFP_B_IQPOLICE_MOTORIZED";
+        camouflage = 4;
+        crew = "cfp_b_iqpolice_policeman";
+        typicalCargo[] = {"cfp_b_iqpolice_policeman","cfp_b_iqpolice_policeman"};
+        class EventHandlers : EventHandlers
+        {
+            class ADDON {
+                init = "(_this select 0) execVM ""\x\cfp\addons\b_iqpolice\Scripts\randomize_tex.sqf""";
+            };
+        };
+
+    };
+    class CUP_B_HMMWV_DSHKM_GPK_ACR;
     class CUP_B_HMMWV_DSHKM_GPK_ACR_OCimport_01 : CUP_B_HMMWV_DSHKM_GPK_ACR { scope = 0; class Eventhandlers; };
-    class cfp_b_iqpolice_hmmwv_dshkm : CUP_B_HMMWV_DSHKM_GPK_ACR_OCimport_01
-	{
-		scope = 2;
-		side = 1;
-		displayName = "IA HMMWV GPK DShKM";
-		faction = "CFP_B_IQPOLICE";
-		vehicleClass = "CFP_B_IQPOLICE_MOTORIZED";
-		camouflage = 4;
-		crew = "cfp_b_iqpolice_policeman";
-		typicalCargo[] = {"cfp_b_iqpolice_policeman","cfp_b_iqpolice_policeman"};
-	};
-	class CUP_O_Ural_CHDKZ;
+    class cfp_b_iqpolice_hmmwv_dshkm : CUP_B_HMMWV_DSHKM_GPK_ACR_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_iqpolice\data\preview\cfp_b_iqpolice_hmmwv_dshkm.JPG;
+        scope = 2;
+        side = 1;
+        displayName = "IA HMMWV GPK DShKM";
+        faction = "CFP_B_IQPOLICE";
+        vehicleClass = "CFP_B_IQPOLICE_MOTORIZED";
+        camouflage = 4;
+        crew = "cfp_b_iqpolice_policeman";
+        typicalCargo[] = {"cfp_b_iqpolice_policeman","cfp_b_iqpolice_policeman"};
+    };
+    class CUP_O_Ural_CHDKZ;
     class CUP_O_Ural_CHDKZ_OCimport_01 : CUP_O_Ural_CHDKZ { scope = 0; class Eventhandlers; };
-    class cfp_b_iqpolice_Ural : CUP_O_Ural_CHDKZ_OCimport_01
-	{
-		scope = 2;
-		side = 1;
-		displayName = "IP Ural";
-		faction = "CFP_B_IQPOLICE";
-		vehicleClass = "CFP_B_IQPOLICE_MOTORIZED";
-		camouflage = 4;
-		crew = "cfp_b_iqpolice_policeman";
-		typicalCargo[] = {"cfp_b_iqpolice_policeman","cfp_b_iqpolice_policeman"};
-		class EventHandlers : EventHandlers
-		{
-			class ADDON {
-				init = "(_this select 0) execVM ""\x\cfp\addons\b_iqpolice\Scripts\randomize_tex.sqf""";
-			};
-		};
-		editorPreview = "\x\cfp\addons\b_iqpolice\data\Preview_IA_Ural.jpg";
-	};
+    class cfp_b_iqpolice_Ural : CUP_O_Ural_CHDKZ_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_iqpolice\data\preview\cfp_b_iqpolice_Ural.JPG;
+        scope = 2;
+        side = 1;
+        displayName = "IP Ural";
+        faction = "CFP_B_IQPOLICE";
+        vehicleClass = "CFP_B_IQPOLICE_MOTORIZED";
+        camouflage = 4;
+        crew = "cfp_b_iqpolice_policeman";
+        typicalCargo[] = {"cfp_b_iqpolice_policeman","cfp_b_iqpolice_policeman"};
+        class EventHandlers : EventHandlers
+        {
+            class ADDON {
+                init = "(_this select 0) execVM ""\x\cfp\addons\b_iqpolice\Scripts\randomize_tex.sqf""";
+            };
+        };
+
+    };
 
     class CUP_USBasicAmmunitionBox; // CUP_USBasicAmmunitionBox
     class CUP_USBasicWeaponsBox; // CUP_USBasicWeaponsBox
