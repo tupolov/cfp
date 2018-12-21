@@ -103,7 +103,7 @@ class CfgVehicles {
     class CUP_UH1H_base_OCimport_02 : CUP_UH1H_base_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
-            class MainTurret;
+            class RightDoorGun;
             class LeftDoorGun;
             class CopilotTurret;
             class CargoTurret_01;
@@ -116,7 +116,7 @@ class CfgVehicles {
     class CUP_UH1H_slick_base_OCimport_02 : CUP_UH1H_slick_base_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
-            class MainTurret;
+            class RightDoorGun;
             class LeftDoorGun;
             class CopilotTurret;
             class CargoTurret_01;
@@ -883,7 +883,7 @@ class CfgVehicles {
         crew = "CFP_B_DEARMY_WDL_Pilot_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
+            class RightDoorGun : RightDoorGun { gunnerType = ""; };
             class LeftDoorGun : LeftDoorGun { gunnerType = ""; };
             class CopilotTurret : CopilotTurret { gunnerType = ""; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -916,7 +916,7 @@ class CfgVehicles {
         crew = "CFP_B_DEARMY_WDL_Pilot_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
+            class RightDoorGun : RightDoorGun { gunnerType = ""; };
             class LeftDoorGun : LeftDoorGun { gunnerType = ""; };
             class CopilotTurret : CopilotTurret { gunnerType = ""; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };

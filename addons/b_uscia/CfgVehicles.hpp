@@ -654,7 +654,7 @@ class CfgVehicles {
     class CUP_I_UH1H_TK_GUE_OCimport_02 : CUP_I_UH1H_TK_GUE_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
-            class MainTurret;
+            class RightDoorGun;
             class LeftDoorGun;
             class CopilotTurret;
             class CargoTurret_01;
@@ -932,7 +932,7 @@ class CfgVehicles {
         crew = "CFP_B_USCIA_paramilitary_officer_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
+            class RightDoorGun : RightDoorGun { gunnerType = ""; };
             class LeftDoorGun : LeftDoorGun { gunnerType = ""; };
             class CopilotTurret : CopilotTurret { gunnerType = ""; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };

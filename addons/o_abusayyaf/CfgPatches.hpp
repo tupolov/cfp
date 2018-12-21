@@ -17,7 +17,7 @@ class CfgPatches {
             "CFP_O_ABUSAYYAF_Squad_Leader_01",
             "CFP_O_ABUSAYYAF_Ural_ZU_23_01",
             "CFP_O_ABUSAYYAF_M113_01",
-            "CFP_O_ABUSAYYAF_113_Flag_01",
+            "CFP_O_ABUSAYYAF_M113_Flag_01",
             "CFP_O_ABUSAYYAF_Offroad_01",
             "CFP_O_ABUSAYYAF_Offroad_50_Cal_01",
             "CFP_O_ABUSAYYAF_Offroad_50_Cal_Flag_01",

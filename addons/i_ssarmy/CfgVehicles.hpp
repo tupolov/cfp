@@ -99,21 +99,6 @@ class CfgVehicles {
         };
     };
 
-    class CUP_O_T55_SLA;
-    class CUP_O_T55_SLA_OCimport_01 : CUP_O_T55_SLA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_T55_SLA_OCimport_02 : CUP_O_T55_SLA_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-            class CargoTurret_01;
-            class CargoTurret_02;
-            class CargoTurret_03;
-            class CargoTurret_04;
-            class CargoTurret_05;
-            class CargoTurret_06;
-        };
-    };
-
     class CUP_O_BM21_SLA;
     class CUP_O_BM21_SLA_OCimport_01 : CUP_O_BM21_SLA { scope = 0; class EventHandlers; class Turrets; };
     class CUP_O_BM21_SLA_OCimport_02 : CUP_O_BM21_SLA_OCimport_01 {
@@ -1221,39 +1206,19 @@ class CfgVehicles {
 
     };
 
-    class CFP_I_SSArmy_T55_01 : CUP_O_T55_SLA_OCimport_02 {
-        author = "Drew";
+    class CUP_O_T55_CSAT;
+    class CUP_O_T55_CSAT_OCimport_01 : CUP_O_T55_CSAT { scope = 0; class EventHandlers; class Turrets; };
+    class CFP_I_SSSArmy_T55_01 : CUP_O_T55_CSAT_OCimport_01
+    {
         scope = 2;
-        scopeCurator = 2;
-        displayName = "T-55";
         side = 2;
+        displayName = "T-55";
         faction = "CFP_I_SSArmy";
+        vehicleClass = "CFP_I_SSArmy_ARMORED";
+        camouflage = 4;
         crew = "CFP_I_SSArmy_Soldier_06";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_I_SSArmy_Soldier_06"; };
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
-            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
-            class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
-            class CargoTurret_06 : CargoTurret_06 { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_body_TKG_co.paa'];_unit setObjectTextureGlobal [1,'\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_tower_TKG_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "TKG";
+        typicalCargo[] = {"CFP_I_SSArmy_Soldier_06","CFP_I_SSArmy_Soldier_06","CFP_I_SSArmy_Soldier_06"};
+        hiddenSelectionsTextures[] = {"\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_body_TKG_co.paa","\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_tower_TKG_co.paa"};
 
     };
 
