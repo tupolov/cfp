@@ -194,17 +194,6 @@ class CfgVehicles
         };
     };
 
-    class CUP_O_Mi8_SLA_1;
-    class CUP_O_Mi8_SLA_1_OCimport_01 : CUP_O_Mi8_SLA_1 { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_Mi8_SLA_1_OCimport_02 : CUP_O_Mi8_SLA_1_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-            class BackTurret;
-            class CopilotTurret;
-        };
-    };
-
     class CUP_O_Su25_Dyn_SLA;
     class CUP_O_Su25_Dyn_SLA_OCimport_01 : CUP_O_Su25_Dyn_SLA { scope = 0; class EventHandlers; };
     class CUP_O_Su25_Dyn_SLA_OCimport_02 : CUP_O_Su25_Dyn_SLA_OCimport_01 { scope = 0; class EventHandlers; };
@@ -221,21 +210,6 @@ class CfgVehicles
     class CUP_O_T72_SLA;
     class CUP_O_T72_SLA_OCimport_01 : CUP_O_T72_SLA { scope = 0; class EventHandlers; class Turrets; };
     class CUP_O_T72_SLA_OCimport_02 : CUP_O_T72_SLA_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-            class CargoTurret_01;
-            class CargoTurret_02;
-            class CargoTurret_03;
-            class CargoTurret_04;
-            class CargoTurret_05;
-            class CargoTurret_06;
-        };
-    };
-
-    class CUP_O_T55_SLA;
-    class CUP_O_T55_SLA_OCimport_01 : CUP_O_T55_SLA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_T55_SLA_OCimport_02 : CUP_O_T55_SLA_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
@@ -2338,37 +2312,20 @@ class CfgVehicles
         ALiVE_orbatCreator_texture = "Sudan";
     };
 
-    class CFP_B_SDARMY_Mi_8MT_01 : CUP_O_Mi8_SLA_1_OCimport_02 {
+    class CUP_O_Mi17_TK;
+    class CUP_O_Mi17_TK_OCimport_01 : CUP_O_Mi17_TK { scope = 0; class EventHandlers; class Turrets; };
+    class CFP_B_SDARMY_Mi_8MT_01 : CUP_O_Mi17_TK_OCimport_01
+    {
         editorPreview = \x\cfp\addons\b_sdarmy\data\preview\CFP_B_SDARMY_Mi_8MT_01.JPG;
-        author = "Archduke";
         scope = 2;
-        scopeCurator = 2;
-        displayName = "Mi-8MT";
         side = 1;
+        displayName = "Mi-8MT";
         faction = "CFP_B_SDARMY";
+        vehicleClass = "CFP_B_SDARMY_AIRCRAFT";
+        camouflage = 4;
         crew = "CFP_B_SDARMY_Soldier_10";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_SDARMY_Soldier_10"; };
-            class BackTurret : BackTurret { gunnerType = "CFP_B_SDARMY_Soldier_10"; };
-            class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_SDARMY_Soldier_10"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\Mi8\mi17_sudan.paa'];_unit setObjectTextureGlobal [1,'\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\mi17_det_IND_CO.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "Sudan";
-
+        typicalCargo[] = {"CFP_B_SDARMY_Soldier_10","CFP_B_SDARMY_Soldier_10"};
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Mi8\mi17_sudan.paa","\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\mi17_det_IND_CO.paa"};
     };
 
     class CFP_B_SDARMY_SU_25_01 : CUP_O_Su25_Dyn_SLA_OCimport_02 {
@@ -2465,41 +2422,20 @@ class CfgVehicles
 
     };
 
-    class CFP_B_SDARMY_T55_01 : CUP_O_T55_SLA_OCimport_02 {
-        editorPreview = \x\cfp\addons\b_sdarmy\data\preview\CFP_B_SDARMY_T55_01.JPG;
-        author = "Archduke";
+    class CUP_O_T55_CSAT;
+    class CUP_O_T55_CSAT_OCimport_01 : CUP_O_T55_CSAT { scope = 0; class EventHandlers; class Turrets; };
+    class CFP_B_SDARMY_T55_01 : CUP_O_T55_CSAT_OCimport_01
+    {
         scope = 2;
-        scopeCurator = 2;
-        displayName = "T-55";
         side = 1;
+        displayName = "T-55";
         faction = "CFP_B_SDARMY";
+        vehicleClass = "CFP_B_SDARMY_ARMORED";
+        camouflage = 4;
         crew = "CFP_B_SDARMY_Soldier_07";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_SDARMY_Soldier_07"; };
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
-            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
-            class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
-            class CargoTurret_06 : CargoTurret_06 { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\T55\t55_body_sudan.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\T55\t55_tower_sudan.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "Sudan";
-
+        typicalCargo[] = {"CFP_B_SDARMY_Soldier_07","CFP_B_SDARMY_Soldier_07","CFP_B_SDARMY_Soldier_07"};
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\T55\t55_body_sudan.paa","\x\cfp\addons\vehicles\T55\t55_tower_sudan.paa"};
+        editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_T55.jpg";
     };
 
     class CFP_B_SDARMY_DShKM_01 : CUP_O_DSHKM_SLA_OCimport_02 {
