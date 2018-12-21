@@ -12,6 +12,7 @@ class CfgVehicles {
 
 
     class cfp_b_pesh_leader : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_pesh\data\preview\cfp_b_pesh_leader.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -90,6 +91,7 @@ class CfgVehicles {
     };
 
     class cfp_b_pesh_rifleman : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_pesh\data\preview\cfp_b_pesh_rifleman.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -187,6 +189,7 @@ class CfgVehicles {
     };
 
     class cfp_b_pesh_grenadier : cfp_b_pesh_rifleman {
+        editorPreview = \x\cfp\addons\b_pesh\data\preview\cfp_b_pesh_grenadier.JPG;
 
         displayName = "Peshmerga Grenadier";
 
@@ -206,6 +209,7 @@ class CfgVehicles {
     };
 
     class cfp_b_pesh_machinegunner : cfp_b_pesh_rifleman {
+        editorPreview = \x\cfp\addons\b_pesh\data\preview\cfp_b_pesh_machinegunner.JPG;
 
         displayName = "Peshmerga Machinegunner";
 
@@ -225,6 +229,7 @@ class CfgVehicles {
     };
 
     class cfp_b_pesh_sniper : cfp_b_pesh_rifleman {
+        editorPreview = \x\cfp\addons\b_pesh\data\preview\cfp_b_pesh_sniper.JPG;
 
         displayName = "Peshmerga Sniper";
 
@@ -242,6 +247,7 @@ class CfgVehicles {
     };
 
     class cfp_b_pesh_at : cfp_b_pesh_rifleman {
+        editorPreview = \x\cfp\addons\b_pesh\data\preview\cfp_b_pesh_at.JPG;
 
         displayName = "Peshmerga AT Gunner";
 
@@ -261,6 +267,7 @@ class CfgVehicles {
     };
 
     class cfp_b_pesh_medic : cfp_b_pesh_rifleman {
+        editorPreview = \x\cfp\addons\b_pesh\data\preview\cfp_b_pesh_medic.JPG;
 
         displayName = "Peshmerga Medic";
         attendant = 1;
@@ -283,6 +290,7 @@ class CfgVehicles {
     };
 
     class cfp_b_pesh_crewman : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_pesh\data\preview\cfp_b_pesh_crewman.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -322,6 +330,7 @@ class CfgVehicles {
     };
 
     class cfp_b_pesh_rifleman_dshkm : cfp_b_pesh_rifleman {
+        editorPreview = \x\cfp\addons\b_pesh\data\preview\cfp_b_pesh_rifleman_dshkm.JPG;
 
         displayName = "Peshmerga Gunner [DSHKM]";
 
@@ -341,6 +350,7 @@ class CfgVehicles {
     };
 
     class cfp_b_pesh_rifleman_kord : cfp_b_pesh_rifleman {
+        editorPreview = \x\cfp\addons\b_pesh\data\preview\cfp_b_pesh_rifleman_kord.JPG;
 
         displayName = "Peshmerga Gunner [KORD]";
 
@@ -360,6 +370,7 @@ class CfgVehicles {
     };
 
     class cfp_b_pesh_rifleman_podnos : cfp_b_pesh_rifleman {
+        editorPreview = \x\cfp\addons\b_pesh\data\preview\cfp_b_pesh_rifleman_podnos.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -400,6 +411,7 @@ class CfgVehicles {
     };
 
     class cfp_b_pesh_rifleman_ags30 : cfp_b_pesh_rifleman {
+        editorPreview = \x\cfp\addons\b_pesh\data\preview\cfp_b_pesh_rifleman_ags30.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -440,6 +452,7 @@ class CfgVehicles {
     };
 
     class cfp_b_pesh_rifleman_metis : cfp_b_pesh_rifleman {
+        editorPreview = \x\cfp\addons\b_pesh\data\preview\cfp_b_pesh_rifleman_metis.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -480,6 +493,7 @@ class CfgVehicles {
     };
 
     class cfp_b_pesh_rifleman_spg9 : cfp_b_pesh_rifleman {
+        editorPreview = \x\cfp\addons\b_pesh\data\preview\cfp_b_pesh_rifleman_spg9.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -522,8 +536,8 @@ class CfgVehicles {
 
     class FlagCarrier;
     class FlagCarrier_OCimport_01 : FlagCarrier { scope = 0; class Eventhandlers; };
-    class ISC_Flag_Kurdistan : FlagCarrier_OCimport_01
-    {
+    class ISC_Flag_Kurdistan : FlagCarrier_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_pesh\data\preview\ISC_Flag_Kurdistan.JPG;
         author = "AccuracythruVolume";
         displayName = "Flag (Kurdistan)";
         scope = 2;
@@ -539,8 +553,8 @@ class CfgVehicles {
 
     class Offroad_01_base_F;
     class Offroad_01_base_F_OCimport_01 : Offroad_01_base_F { scope = 0; class Eventhandlers; };
-    class cfp_b_pesh_offroad : Offroad_01_base_F_OCimport_01
-    {
+    class cfp_b_pesh_offroad : Offroad_01_base_F_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_pesh\data\preview\cfp_b_pesh_offroad.JPG;
         scope = 2;
         side = 1;
         displayName = "Peshmerga Offroad";
@@ -558,12 +572,11 @@ class CfgVehicles {
                 init = "(_this select 0) execVM ""\x\cfp\addons\b_pesh\Scripts\randomize_tex.sqf""";
             };
         };
-        Editorpreview = "\x\cfp\addons\b_pesh\data\Preview_Peshmerga_Offroad.jpg";
     };
     class B_G_Offroad_01_armed_F;
     class B_G_Offroad_01_armed_F_OCimport_01 : B_G_Offroad_01_armed_F { scope = 0; class Eventhandlers; };
-    class cfp_b_pesh_offroad_M2 : B_G_Offroad_01_armed_F_OCimport_01
-    {
+    class cfp_b_pesh_offroad_M2 : B_G_Offroad_01_armed_F_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_pesh\data\preview\cfp_b_pesh_offroad_M2.JPG;
         scope = 2;
         side = 1;
         displayName = "Peshmerga Offroad MG";
@@ -581,12 +594,11 @@ class CfgVehicles {
                 init = "(_this select 0) execVM ""\x\cfp\addons\b_pesh\Scripts\randomize_tex.sqf""";
             };
         };
-        Editorpreview = "\x\cfp\addons\b_pesh\data\Preview_Peshmerga_Offroad_M2.jpg";
     };
     class CUP_B_HMMWV_M2_USA;
     class CUP_B_HMMWV_M2_USA_OCimport_01 : CUP_B_HMMWV_M2_USA { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_pesh_HMMWV_M2 : CUP_B_HMMWV_M2_USA_OCimport_01
-    {
+    class cfp_b_pesh_HMMWV_M2 : CUP_B_HMMWV_M2_USA_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_pesh\data\preview\cfp_b_pesh_HMMWV_M2.JPG;
         scope = 2;
         side = 1;
         displayName = "Peshmerga HMMWV M2";
@@ -602,12 +614,12 @@ class CfgVehicles {
                 init = "(_this select 0) execVM ""\x\cfp\addons\b_pesh\Scripts\randomize_tex.sqf""";
             };
         };
-        Editorpreview = "\x\cfp\addons\b_pesh\data\Preview_Peshmerga_HMMWV.jpg";
+
     };
     class CUP_O_Ural_CHDKZ;
     class CUP_O_Ural_CHDKZ_OCimport_01 : CUP_O_Ural_CHDKZ { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_pesh_Ural : CUP_O_Ural_CHDKZ_OCimport_01
-    {
+    class cfp_b_pesh_Ural : CUP_O_Ural_CHDKZ_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_pesh\data\preview\cfp_b_pesh_Ural.JPG;
         scope = 2;
         side = 1;
         displayName = "Peshmerga Ural";
@@ -623,12 +635,11 @@ class CfgVehicles {
                 init = "(_this select 0) execVM ""\x\cfp\addons\b_pesh\Scripts\randomize_tex.sqf""";
             };
         };
-        Editorpreview = "\x\cfp\addons\b_pesh\data\Preview_Peshmerga_Ural.jpg";
     };
     class CUP_O_Ural_ZU23_CHDKZ;
     class CUP_O_Ural_ZU23_CHDKZ_OCimport_01 : CUP_O_Ural_ZU23_CHDKZ { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_pesh_Ural_ZU23 : CUP_O_Ural_ZU23_CHDKZ_OCimport_01
-    {
+    class cfp_b_pesh_Ural_ZU23 : CUP_O_Ural_ZU23_CHDKZ_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_pesh\data\preview\cfp_b_pesh_Ural_ZU23.JPG;
         scope = 2;
         side = 1;
         displayName = "Peshmerga Ural ZU23";
@@ -644,15 +655,14 @@ class CfgVehicles {
                 init = "(_this select 0) execVM ""\x\cfp\addons\b_pesh\Scripts\randomize_tex.sqf""";
             };
         };
-        Editorpreview = "\x\cfp\addons\b_pesh\data\Preview_Peshmerga_Ural_ZU23.jpg";
     };
-	
+
 	class CUP_O_Ural_Refuel_SLA;
     class CUP_O_Ural_Refuel_SLA_OCimport_01 : CUP_O_Ural_Refuel_SLA { scope = 0; class EventHandlers; };
     class CUP_O_Ural_Refuel_SLA_OCimport_02 : CUP_O_Ural_Refuel_SLA_OCimport_01 { scope = 0; class EventHandlers; };
-	
+
 	class cfp_b_pesh_Ural_Refuel_01 : CUP_O_Ural_Refuel_SLA_OCimport_02 {
-        editorPreview = \x\cfp\addons\b_pesh\data\Preview_Ural_Refuel_01.JPG;
+        editorPreview = \x\cfp\addons\b_pesh\data\preview\cfp_b_pesh_Ural_Refuel_01.JPG;
         author = "AccuracyThruVolume";
         scope = 2;
         scopeCurator = 2;
@@ -679,9 +689,9 @@ class CfgVehicles {
     class CUP_O_Ural_Repair_SLA;
     class CUP_O_Ural_Repair_SLA_OCimport_01 : CUP_O_Ural_Repair_SLA { scope = 0; class EventHandlers; };
     class CUP_O_Ural_Repair_SLA_OCimport_02 : CUP_O_Ural_Repair_SLA_OCimport_01 { scope = 0; class EventHandlers; };
-	
+
 	 class cfp_b_pesh_Ural_Repair_01 : CUP_O_Ural_Repair_SLA_OCimport_02 {
-        editorPreview = \x\cfp\addons\b_pesh\data\Preview_Ural_Repair_01.JPG;
+        editorPreview = \x\cfp\addons\b_pesh\data\preview\cfp_b_pesh_Ural_Repair_01.JPG;
         author = "AccuracyThruVolume";
         scope = 2;
         scopeCurator = 2;
@@ -707,9 +717,9 @@ class CfgVehicles {
     class CUP_O_Ural_Reammo_SLA;
     class CUP_O_Ural_Reammo_SLA_OCimport_01 : CUP_O_Ural_Reammo_SLA { scope = 0; class EventHandlers; };
     class CUP_O_Ural_Reammo_SLA_OCimport_02 : CUP_O_Ural_Reammo_SLA_OCimport_01 { scope = 0; class EventHandlers; };
-	
+
 	class cfp_b_pesh_Ural_Ammo_01 : CUP_O_Ural_Reammo_SLA_OCimport_02 {
-        editorPreview = \x\cfp\addons\b_pesh\data\Preview_Ural_Ammo_01.JPG;
+        editorPreview = \x\cfp\addons\b_pesh\data\preview\cfp_b_pesh_Ural_Ammo_01.JPG;
         author = "AccuracyThruVolume";
         scope = 2;
         scopeCurator = 2;
@@ -732,14 +742,14 @@ class CfgVehicles {
         ALiVE_orbatCreator_owned = 1;
 
     };
-	
-	
-	
-	
+
+
+
+
     class CUP_O_BRDM2_TKA;
     class CUP_O_BRDM2_TKA_OCimport_01 : CUP_O_BRDM2_TKA { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_pesh_BRDM : CUP_O_BRDM2_TKA_OCimport_01
-    {
+    class cfp_b_pesh_BRDM : CUP_O_BRDM2_TKA_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_pesh\data\preview\cfp_b_pesh_BRDM.JPG;
         scope = 2;
         side = 1;
         displayName = "Peshmerga BRDM";
@@ -757,12 +767,12 @@ class CfgVehicles {
                 init = "(_this select 0) execVM ""\x\cfp\addons\b_pesh\Scripts\randomize_tex.sqf""";
             };
         };
-        Editorpreview = "\x\cfp\addons\b_pesh\data\Preview_Peshmerga_BRDM.jpg";
+
     };
     class CUP_O_BTR60_TK;
     class CUP_O_BTR60_TK_OCimport_01 : CUP_O_BTR60_TK { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_pesh_BTR60 : CUP_O_BTR60_TK_OCimport_01
-    {
+    class cfp_b_pesh_BTR60 : CUP_O_BTR60_TK_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_pesh\data\preview\cfp_b_pesh_BTR60.JPG;
         scope = 2;
         side = 1;
         displayName = "Peshmerga BTR60";
@@ -778,12 +788,12 @@ class CfgVehicles {
                 init = "(_this select 0) execVM ""\x\cfp\addons\b_pesh\Scripts\randomize_tex.sqf""";
             };
         };
-        Editorpreview = "\x\cfp\addons\b_pesh\data\Preview_Peshmerga_BTR60.jpg";
+
     };
     class CUP_O_BMP1_TKA;
     class CUP_O_BMP1_TKA_OCimport_01 : CUP_O_BMP1_TKA { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_pesh_BMP1 : CUP_O_BMP1_TKA_OCimport_01
-    {
+    class cfp_b_pesh_BMP1 : CUP_O_BMP1_TKA_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_pesh\data\preview\cfp_b_pesh_BMP1.JPG;
         scope = 2;
         side = 1;
         displayName = "Peshmerga BMP-1";
@@ -799,12 +809,12 @@ class CfgVehicles {
                 init = "(_this select 0) execVM ""\x\cfp\addons\b_pesh\Scripts\randomize_tex.sqf""";
             };
         };
-        Editorpreview = "\x\cfp\addons\b_pesh\data\Preview_Peshmerga_BMP1.jpg";
+
     };
     class CUP_O_BMP2_TKA;
     class CUP_O_BMP2_TKA_OCimport_01 : CUP_O_BMP2_TKA { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_pesh_BMP2 : CUP_O_BMP2_TKA_OCimport_01
-    {
+    class cfp_b_pesh_BMP2 : CUP_O_BMP2_TKA_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_pesh\data\preview\cfp_b_pesh_BMP2.JPG;
         scope = 2;
         side = 1;
         displayName = "Peshmerga BMP-2";
@@ -820,12 +830,12 @@ class CfgVehicles {
                 init = "(_this select 0) execVM ""\x\cfp\addons\b_pesh\Scripts\randomize_tex.sqf""";
             };
         };
-        Editorpreview = "\x\cfp\addons\b_pesh\data\Preview_Peshmerga_BMP2.jpg";
+
     };
     class CUP_O_ZSU23_SLA;
     class CUP_O_ZSU23_SLA_OCimport_01 : CUP_O_ZSU23_SLA { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_pesh_ZSU : CUP_O_ZSU23_SLA_OCimport_01
-    {
+    class cfp_b_pesh_ZSU : CUP_O_ZSU23_SLA_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_pesh\data\preview\cfp_b_pesh_ZSU.JPG;
         scope = 2;
         side = 1;
         displayName = "Peshmerga ZSU";
@@ -841,12 +851,12 @@ class CfgVehicles {
                 init = "(_this select 0) execVM ""\x\cfp\addons\b_pesh\Scripts\randomize_tex.sqf""";
             };
         };
-        Editorpreview = "\x\cfp\addons\b_pesh\data\Preview_Peshmerga_ZSU.jpg";
+
     };
     class CUP_O_2b14_82mm_RU;
     class CUP_O_2b14_82mm_RU_OCimport_01 : CUP_O_2b14_82mm_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_pesh_2b14 : CUP_O_2b14_82mm_RU_OCimport_01
-    {
+    class cfp_b_pesh_2b14 : CUP_O_2b14_82mm_RU_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_pesh\data\preview\cfp_b_pesh_2b14.JPG;
         scope = 2;
         side = 1;
         displayName = "Peshmerga 2b14";
@@ -858,8 +868,8 @@ class CfgVehicles {
     };
     class CUP_O_Metis_RU;
     class CUP_O_Metis_RU_OCimport_01 : CUP_O_Metis_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_pesh_Metis : CUP_O_Metis_RU_OCimport_01
-    {
+    class cfp_b_pesh_Metis : CUP_O_Metis_RU_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_pesh\data\preview\cfp_b_pesh_Metis.JPG;
         scope = 2;
         side = 1;
         displayName = "Peshmerga Metis";
@@ -871,8 +881,8 @@ class CfgVehicles {
     };
     class CUP_O_AGS_RU;
     class CUP_O_AGS_RU_OCimport_01 : CUP_O_AGS_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_pesh_ags30 : CUP_O_AGS_RU_OCimport_01
-    {
+    class cfp_b_pesh_ags30 : CUP_O_AGS_RU_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_pesh\data\preview\cfp_b_pesh_ags30.JPG;
         scope = 2;
         side = 1;
         displayName = "Peshmerga AGS30";
@@ -884,8 +894,8 @@ class CfgVehicles {
     };
     class CUP_O_DSHKM_TK_INS;
     class CUP_O_DSHKM_TK_INS_OCimport_01 : CUP_O_DSHKM_TK_INS { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_pesh_dshkm : CUP_O_DSHKM_TK_INS_OCimport_01
-    {
+    class cfp_b_pesh_dshkm : CUP_O_DSHKM_TK_INS_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_pesh\data\preview\cfp_b_pesh_dshkm.JPG;
         scope = 2;
         side = 1;
         displayName = "Peshmerga DSHKM";
@@ -897,8 +907,8 @@ class CfgVehicles {
     };
     class CUP_O_DSHkM_MiniTriPod_TK_INS;
     class CUP_O_DSHkM_MiniTriPod_TK_INS_OCimport_01 : CUP_O_DSHkM_MiniTriPod_TK_INS { scope = 0; class Eventhandlers; class Turrets; };
-    class cfp_b_pesh_dshkm_minitripod : CUP_O_DSHkM_MiniTriPod_TK_INS_OCimport_01
-    {
+    class cfp_b_pesh_dshkm_minitripod : CUP_O_DSHkM_MiniTriPod_TK_INS_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_pesh\data\preview\cfp_b_pesh_dshkm_minitripod.JPG;
         scope = 2;
         side = 1;
         displayName = "Peshmerga DSHKM (Minitripod)";
@@ -910,8 +920,8 @@ class CfgVehicles {
     };
     class CUP_O_ZU23_RU;
     class CUP_O_ZU23_RU_OCimport_01 : CUP_O_ZU23_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_pesh_zu23 : CUP_O_ZU23_RU_OCimport_01
-    {
+    class cfp_b_pesh_zu23 : CUP_O_ZU23_RU_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_pesh\data\preview\cfp_b_pesh_zu23.JPG;
         scope = 2;
         side = 1;
         displayName = "Peshmerga ZU23";
@@ -933,6 +943,7 @@ class CfgVehicles {
     class CUP_USVehicleBox; // CUP_USVehicleBox
 
     class CFP_B_PESH_AmmoBox : CUP_USBasicAmmunitionBox {
+
         author = ALiVE ORBAT CREATOR;
         displayName = Peshmerga Ammo Box;
         class TransportMagazines {
@@ -949,6 +960,7 @@ class CfgVehicles {
         };
     };
     class CFP_B_PESH_WeaponsBox : CUP_USBasicWeaponsBox {
+
         author = ALiVE ORBAT CREATOR;
         displayName = Peshmerga Weapons Box;
         class TransportMagazines {
@@ -970,6 +982,7 @@ class CfgVehicles {
         };
     };
     class CFP_B_PESH_LaunchersBox : CUP_USLaunchersBox {
+
         author = ALiVE ORBAT CREATOR;
         displayName = Peshmerga Launchers Box;
         class TransportMagazines {
@@ -982,6 +995,7 @@ class CfgVehicles {
         };
     };
     class CFP_B_PESH_UniformBox : CUP_USBasicWeaponsBox {
+
         author = ALiVE ORBAT CREATOR;
         displayName = Peshmerga Uniform Box;
         class TransportWeapons {
@@ -993,6 +1007,7 @@ class CfgVehicles {
         };
     };
     class CFP_B_PESH_SupportBox : CUP_USSpecialWeaponsBox {
+
         author = ALiVE ORBAT CREATOR;
         displayName = Peshmerga Support Box;
         class TransportWeapons {
@@ -1023,6 +1038,7 @@ class CfgVehicles {
         };
     };
     class CFP_B_PESH_SupplyBox : CUP_USVehicleBox {
+
         author = ALiVE ORBAT CREATOR;
         displayName = Peshmerga Supply Box;
         class TransportMagazines {
