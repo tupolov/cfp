@@ -20,6 +20,7 @@ class CfgVehicles {
 
 
     class cfp_o_syarmy_officer : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_officer.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -57,7 +58,7 @@ class CfgVehicles {
 
         //Helmets
         headgearList[] = {
-        	"CFP_Basic_Helmet_Black", 0.2,
+            "CFP_Basic_Helmet_Black", 0.2,
             "CFP_PatrolCap_M81", 0.25,
             "SP_SSh68NetHelmet_Green1", 0.3,
             "CUP_H_SLA_Helmet", 0.3,
@@ -125,6 +126,7 @@ class CfgVehicles {
     };
 
     class cfp_o_syarmy_rifleman : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_rifleman.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -166,7 +168,7 @@ class CfgVehicles {
 
         //Helmets
         headgearList[] = {
-        	"", 0.3,
+            "", 0.3,
             "CFP_Basic_Helmet_Black", 0.2,
             "CFP_PatrolCap_M81", 0.25,
             "SP_SSh68NetHelmet_Green1", 0.3,
@@ -240,6 +242,7 @@ class CfgVehicles {
     };
 
     class cfp_o_syarmy_grenadier : cfp_o_syarmy_rifleman {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_grenadier.JPG;
 
         displayName = "SAA Grenadier";
 
@@ -259,6 +262,7 @@ class CfgVehicles {
     };
 
     class cfp_o_syarmy_machinegunner : cfp_o_syarmy_rifleman {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_machinegunner.JPG;
 
         displayName = "SAA Machinegunner";
 
@@ -278,6 +282,7 @@ class CfgVehicles {
     };
 
     class cfp_o_syarmy_sniper : cfp_o_syarmy_rifleman {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_sniper.JPG;
 
         displayName = "SAA Sniper";
 
@@ -295,6 +300,7 @@ class CfgVehicles {
     };
 
     class cfp_o_syarmy_at : cfp_o_syarmy_rifleman {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_at.JPG;
 
         displayName = "SAA Anti-Tank";
 
@@ -314,6 +320,7 @@ class CfgVehicles {
     };
 
     class cfp_o_syarmy_medic : cfp_o_syarmy_rifleman {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_medic.JPG;
 
         displayName = "SAA Medic";
         attendant = 1;
@@ -336,6 +343,7 @@ class CfgVehicles {
     };
 
     class cfp_o_syarmy_sapper : cfp_o_syarmy_rifleman {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_sapper.JPG;
 
         displayName = "SAA Sapper";
         canDeactivateMines = 1;
@@ -357,6 +365,7 @@ class CfgVehicles {
     };
 
     class cfp_o_syarmy_crewman : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_crewman.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -395,6 +404,7 @@ class CfgVehicles {
     };
 
     class cfp_o_syarmy_rifleman_dshkm : cfp_o_syarmy_rifleman {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_rifleman_dshkm.JPG;
 
         displayName = "SAA Gunner [DSHKM]";
 
@@ -414,6 +424,7 @@ class CfgVehicles {
     };
 
     class cfp_o_syarmy_rifleman_kord : cfp_o_syarmy_rifleman {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_rifleman_kord.JPG;
 
         displayName = "SAA Gunner [KORD]";
 
@@ -433,6 +444,7 @@ class CfgVehicles {
     };
 
     class cfp_o_syarmy_rifleman_podnos : cfp_o_syarmy_rifleman {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_rifleman_podnos.JPG;
 
         displayName = "SAA Gunner [Podnos]";
 
@@ -452,6 +464,7 @@ class CfgVehicles {
     };
 
     class cfp_o_syarmy_rifleman_ags30 : cfp_o_syarmy_rifleman {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_rifleman_ags30.JPG;
 
         displayName = "SAA Gunner [AGS30]";
 
@@ -471,6 +484,7 @@ class CfgVehicles {
     };
 
     class cfp_o_syarmy_rifleman_spg9 : cfp_o_syarmy_rifleman {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_rifleman_spg9.JPG;
 
         displayName = "SAA Gunner [SPG9]";
 
@@ -490,6 +504,7 @@ class CfgVehicles {
     };
 
     class cfp_o_syarmy_rifleman_metis : cfp_o_syarmy_rifleman {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_rifleman_metis.JPG;
 
         displayName = "SAA Gunner [METIS]";
 
@@ -509,6 +524,7 @@ class CfgVehicles {
     };
 
     class cfp_o_syarmy_helicopter_pilot_01 : O_helipilot_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_helicopter_pilot_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -547,6 +563,7 @@ class CfgVehicles {
     };
 
     class cfp_o_syarmy_pilot_01 : O_Pilot_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_pilot_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -586,55 +603,56 @@ class CfgVehicles {
 
     };
 
-	class CUP_O_Ural_CHDKZ;
+    class CUP_O_Ural_CHDKZ;
     class CUP_O_Ural_CHDKZ_OCimport_01 : CUP_O_Ural_CHDKZ { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_o_syarmy_Ural : CUP_O_Ural_CHDKZ_OCimport_01
-	{
-		scope = 2;
-		side = 0;
-		displayName = "SAA Ural";
-		faction = "CFP_O_SYARMY";
-		vehicleClass = "cfp_o_syarmy_MOTORIZED";
-		camouflage = 4;
-		crew = "cfp_o_syarmy_rifleman";
-		typicalCargo[] = {"cfp_o_syarmy_rifleman","cfp_o_syarmy_rifleman"};
-		class EventHandlers : EventHandlers
-		{
-			class ADDON
-			{
-				init = "(_this select 0) execVM ""\x\cfp\addons\o_syarmy\Scripts\randomize_tex.sqf""";
-			};
-		};
-		editorPreview = "\x\cfp\addons\o_syarmy\data\Preview_SAA_Ural.jpg";
-	};
-	class CUP_O_Ural_ZU23_CHDKZ;
+    class cfp_o_syarmy_Ural : CUP_O_Ural_CHDKZ_OCimport_01 {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_Ural.JPG;
+        scope = 2;
+        side = 0;
+        displayName = "SAA Ural";
+        faction = "CFP_O_SYARMY";
+        vehicleClass = "cfp_o_syarmy_MOTORIZED";
+        camouflage = 4;
+        crew = "cfp_o_syarmy_rifleman";
+        typicalCargo[] = {"cfp_o_syarmy_rifleman","cfp_o_syarmy_rifleman"};
+        class EventHandlers : EventHandlers
+        {
+            class ADDON
+            {
+                init = "(_this select 0) execVM ""\x\cfp\addons\o_syarmy\Scripts\randomize_tex.sqf""";
+            };
+        };
+
+    };
+    class CUP_O_Ural_ZU23_CHDKZ;
     class CUP_O_Ural_ZU23_CHDKZ_OCimport_01 : CUP_O_Ural_ZU23_CHDKZ { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_o_syarmy_Ural_ZU23 : CUP_O_Ural_ZU23_CHDKZ_OCimport_01
-	{
-		scope = 2;
-		side = 0;
-		displayName = "SAA Ural ZU23";
-		faction = "CFP_O_SYARMY";
-		vehicleClass = "cfp_o_syarmy_MOTORIZED";
-		camouflage = 4;
-		crew = "cfp_o_syarmy_rifleman";
-		typicalCargo[] = {"cfp_o_syarmy_rifleman","cfp_o_syarmy_rifleman"};
-		class EventHandlers : EventHandlers
-		{
-			class ADDON
-			{
-				init = "(_this select 0) execVM ""\x\cfp\addons\o_syarmy\Scripts\randomize_tex.sqf""";
-			};
-		};
-		editorPreview = "\x\cfp\addons\o_syarmy\data\Preview_SAA_Ural_ZU23.jpg";
-	};
-	
-	class CUP_O_Ural_Refuel_SLA;
+    class cfp_o_syarmy_Ural_ZU23 : CUP_O_Ural_ZU23_CHDKZ_OCimport_01 {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_Ural_ZU23.JPG;
+        scope = 2;
+        side = 0;
+        displayName = "SAA Ural ZU23";
+        faction = "CFP_O_SYARMY";
+        vehicleClass = "cfp_o_syarmy_MOTORIZED";
+        camouflage = 4;
+        crew = "cfp_o_syarmy_rifleman";
+        typicalCargo[] = {"cfp_o_syarmy_rifleman","cfp_o_syarmy_rifleman"};
+        class EventHandlers : EventHandlers
+        {
+            class ADDON
+            {
+                init = "(_this select 0) execVM ""\x\cfp\addons\o_syarmy\Scripts\randomize_tex.sqf""";
+            };
+        };
+
+    };
+
+    class CUP_O_Ural_Refuel_SLA;
     class CUP_O_Ural_Refuel_SLA_OCimport_01 : CUP_O_Ural_Refuel_SLA { scope = 0; class EventHandlers; };
     class CUP_O_Ural_Refuel_SLA_OCimport_02 : CUP_O_Ural_Refuel_SLA_OCimport_01 { scope = 0; class EventHandlers; };
-	
-	class cfp_o_syarmy_Ural_Refuel_01 : CUP_O_Ural_Refuel_SLA_OCimport_02 {
-        editorPreview = \x\cfp\addons\o_syarmy\data\Preview_Ural_Refuel_01.JPG;
+
+    class cfp_o_syarmy_Ural_Refuel_01 : CUP_O_Ural_Refuel_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_Ural_Refuel_01.JPG;
+
         author = "AccuracyThruVolume";
         scope = 2;
         scopeCurator = 2;
@@ -657,13 +675,14 @@ class CfgVehicles {
         ALiVE_orbatCreator_owned = 1;
 
     };
-	
-	class CUP_O_Ural_Repair_SLA;
+
+    class CUP_O_Ural_Repair_SLA;
     class CUP_O_Ural_Repair_SLA_OCimport_01 : CUP_O_Ural_Repair_SLA { scope = 0; class EventHandlers; };
     class CUP_O_Ural_Repair_SLA_OCimport_02 : CUP_O_Ural_Repair_SLA_OCimport_01 { scope = 0; class EventHandlers; };
-	
-	 class cfp_o_syarmy_Ural_Repair_01 : CUP_O_Ural_Repair_SLA_OCimport_02 {
-        editorPreview = \x\cfp\addons\o_syarmy\data\Preview_Ural_Repair_01.JPG;
+
+     class cfp_o_syarmy_Ural_Repair_01 : CUP_O_Ural_Repair_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_Ural_Repair_01.JPG;
+
         author = "AccuracyThruVolume";
         scope = 2;
         scopeCurator = 2;
@@ -689,9 +708,10 @@ class CfgVehicles {
     class CUP_O_Ural_Reammo_SLA;
     class CUP_O_Ural_Reammo_SLA_OCimport_01 : CUP_O_Ural_Reammo_SLA { scope = 0; class EventHandlers; };
     class CUP_O_Ural_Reammo_SLA_OCimport_02 : CUP_O_Ural_Reammo_SLA_OCimport_01 { scope = 0; class EventHandlers; };
-	
-	class cfp_o_syarmy_Ural_Ammo_01 : CUP_O_Ural_Reammo_SLA_OCimport_02 {
-        editorPreview = \x\cfp\addons\o_syarmy\data\Preview_Ural_Ammo_01.JPG;
+
+    class cfp_o_syarmy_Ural_Ammo_01 : CUP_O_Ural_Reammo_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_Ural_Ammo_01.JPG;
+
         author = "AccuracyThruVolume";
         scope = 2;
         scopeCurator = 2;
@@ -714,402 +734,391 @@ class CfgVehicles {
         ALiVE_orbatCreator_owned = 1;
 
     };
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	class CUP_O_BTR40_MG_TKA;
-    class CUP_O_BTR40_MG_TKA_OCimport_01 : CUP_O_BTR40_MG_TKA { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_o_syarmy_BTR40_MG : CUP_O_BTR40_MG_TKA_OCimport_01
-	{
-		scope = 2;
-		side = 0;
-		displayName = "SAA BTR40 MG";
-		faction = "CFP_O_SYARMY";
-		vehicleClass = "cfp_o_syarmy_MOTORIZED";
-		camouflage = 4;
-		crew = "cfp_o_syarmy_crewman";
-		typicalCargo[] = {"cfp_o_syarmy_crewman","cfp_o_syarmy_crewman"};
-		class EventHandlers : EventHandlers
-		{
-			class ADDON
-			{
-				init = "(_this select 0) execVM ""\x\cfp\addons\o_syarmy\Scripts\randomize_tex.sqf""";
-			};
-		};
-		editorPreview = "\x\cfp\addons\o_syarmy\data\Preview_SAA_BTR40.jpg";
-	};
-	class CUP_O_BTR60_TK;
-    class CUP_O_BTR60_TK_OCimport_01 : CUP_O_BTR60_TK { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_o_syarmy_BTR60 : CUP_O_BTR60_TK_OCimport_01
-	{
-		scope = 2;
-		side = 0;
-		displayName = "SAA BTR60";
-		faction = "CFP_O_SYARMY";
-		vehicleClass = "cfp_o_syarmy_MECHANIZED";
-		camouflage = 4;
-		crew = "cfp_o_syarmy_crewman";
-		typicalCargo[] = {"cfp_o_syarmy_crewman","cfp_o_syarmy_crewman","cfp_o_syarmy_crewman"};
-		class EventHandlers : EventHandlers
-		{
-			class ADDON
-			{
-				init = "(_this select 0) execVM ""\x\cfp\addons\o_syarmy\Scripts\randomize_tex.sqf""";
-			};
-		};
-		editorPreview = "\x\cfp\addons\o_syarmy\data\Preview_SAA_BTR60.jpg";
-	};
-	class CUP_O_BMP1_TKA;
-    class CUP_O_BMP1_TKA_OCimport_01 : CUP_O_BMP1_TKA { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_o_syarmy_BMP1 : CUP_O_BMP1_TKA_OCimport_01
-	{
-		scope = 2;
-		side = 0;
-		displayName = "SAA BMP-1";
-		faction = "CFP_O_SYARMY";
-		vehicleClass = "cfp_o_syarmy_MECHANIZED";
-		camouflage = 4;
-		crew = "cfp_o_syarmy_crewman";
-		typicalCargo[] = {"cfp_o_syarmy_crewman","cfp_o_syarmy_crewman","cfp_o_syarmy_crewman"};
-		class EventHandlers : EventHandlers
-		{
-			class ADDON
-			{
-				init = "(_this select 0) execVM ""\x\cfp\addons\o_syarmy\Scripts\randomize_tex.sqf""";
-			};
-		};
-		editorPreview = "\x\cfp\addons\o_syarmy\data\Preview_SAA_BMP1.jpg";
-	};
-	class CUP_O_BMP1P_TKA;
-    class CUP_O_BMP1P_TKA_OCimport_01 : CUP_O_BMP1P_TKA { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_o_syarmy_BMP1P : CUP_O_BMP1P_TKA_OCimport_01
-	{
-		scope = 2;
-		side = 0;
-		displayName = "SAA BMP-1P";
-		faction = "CFP_O_SYARMY";
-		vehicleClass = "cfp_o_syarmy_MECHANIZED";
-		camouflage = 4;
-		crew = "cfp_o_syarmy_crewman";
-		typicalCargo[] = {"cfp_o_syarmy_crewman","cfp_o_syarmy_crewman","cfp_o_syarmy_crewman"};
-		class EventHandlers : EventHandlers
-		{
-			class ADDON
-			{
-				init = "(_this select 0) execVM ""\x\cfp\addons\o_syarmy\Scripts\randomize_tex.sqf""";
-			};
-		};
-		editorPreview = "\x\cfp\addons\o_syarmy\data\Preview_SAA_BMP1P.jpg";
-	};
-	class CUP_O_BMP2_TKA;
-    class CUP_O_BMP2_TKA_OCimport_01 : CUP_O_BMP2_TKA { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_o_syarmy_BMP2 : CUP_O_BMP2_TKA_OCimport_01
-	{
-		scope = 2;
-		side = 0;
-		displayName = "SAA BMP-2";
-		faction = "CFP_O_SYARMY";
-		vehicleClass = "cfp_o_syarmy_MECHANIZED";
-		camouflage = 4;
-		crew = "cfp_o_syarmy_crewman";
-		typicalCargo[] = {"cfp_o_syarmy_crewman","cfp_o_syarmy_crewman","cfp_o_syarmy_crewman"};
-		class EventHandlers : EventHandlers
-		{
-			class ADDON
-			{
-				init = "(_this select 0) execVM ""\x\cfp\addons\o_syarmy\Scripts\randomize_tex.sqf""";
-			};
-		};
-		editorPreview = "\x\cfp\addons\o_syarmy\data\Preview_SAA_BMP2.jpg";
-	};
-	class CUP_O_T55_CSAT;
-    class CUP_O_T55_CSAT_OCimport_01 : CUP_O_T55_CSAT { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_o_syarmy_T55 : CUP_O_T55_CSAT_OCimport_01
-	{
-		scope = 2;
-		side = 0;
-		displayName = "SAA T55";
-		faction = "CFP_O_SYARMY";
-		vehicleClass = "cfp_o_syarmy_ARMORED";
-		camouflage = 4;
-		crew = "cfp_o_syarmy_crewman";
-		typicalCargo[] = {"cfp_o_syarmy_crewman","cfp_o_syarmy_crewman","cfp_o_syarmy_crewman"};
-		class EventHandlers : EventHandlers
-		{
-			class ADDON
-			{
-				init = "(_this select 0) execVM ""\x\cfp\addons\o_syarmy\Scripts\randomize_tex.sqf""";
-			};
-		};
-		editorPreview = "\x\cfp\addons\o_syarmy\data\Preview_T55_desert.jpg";
-	};
-	class CUP_O_T72_TKA;
-    class CUP_O_T72_TKA_OCimport_01 : CUP_O_T72_TKA { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_o_syarmy_T72 : CUP_O_T72_TKA_OCimport_01
-	{
-		scope = 2;
-		side = 0;
-		displayName = "SAA T72";
-		faction = "CFP_O_SYARMY";
-		vehicleClass = "cfp_o_syarmy_ARMORED";
-		camouflage = 4;
-		crew = "cfp_o_syarmy_crewman";
-		typicalCargo[] = {"cfp_o_syarmy_crewman","cfp_o_syarmy_crewman","cfp_o_syarmy_crewman"};
-		class EventHandlers : EventHandlers
-		{
-			class ADDON
-			{
-				init = "(_this select 0) execVM ""\x\cfp\addons\o_syarmy\Scripts\randomize_tex.sqf""";
-			};
-		};
-		editorPreview = "\x\cfp\addons\o_syarmy\data\Preview_T72_tan.jpg";
-	};
-	class CUP_O_ZSU23_SLA;
-    class CUP_O_ZSU23_SLA_OCimport_01 : CUP_O_ZSU23_SLA { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_o_syarmy_ZSU : CUP_O_ZSU23_SLA_OCimport_01
-	{
-		scope = 2;
-		side = 0;
-		displayName = "SAA ZSU";
-		faction = "CFP_O_SYARMY";
-		vehicleClass = "cfp_o_syarmy_ARMORED";
-		camouflage = 4;
-		crew = "cfp_o_syarmy_crewman";
-		typicalCargo[] = {"cfp_o_syarmy_crewman","cfp_o_syarmy_crewman","cfp_o_syarmy_crewman"};
-		class EventHandlers : EventHandlers
-		{
-			class ADDON
-			{
-				init = "(_this select 0) execVM ""\x\cfp\addons\o_syarmy\Scripts\randomize_tex.sqf""";
-			};
-		};
-	};
-	class I_Plane_Fighter_03_AA_F;
-    class I_Plane_Fighter_03_AA_F_OCimport_01 : I_Plane_Fighter_03_AA_F { scope = 0; class Eventhandlers; };
-    class cfp_o_syarmy_L39_AA : I_Plane_Fighter_03_AA_F_OCimport_01
-	{
-		scope = 2;
-		side = 0;
-		displayName = "SAA L-39 AntiAir";
-		faction = "CFP_O_SYARMY";
-		vehicleClass = "cfp_o_syarmy_AIR";
-		camouflage = 4;
-		crew = "cfp_o_syarmy_pilot_01";
-		typicalCargo[] = {"cfp_o_syarmy_pilot_01"};
-		class EventHandlers : EventHandlers
-		{
-			class ADDON
-			{
-				init = "(_this select 0) execVM ""\x\cfp\addons\o_syarmy\Scripts\randomize_tex.sqf""";
-			};
-		};
-		editorPreview = "\x\cfp\addons\o_syarmy\data\Preview_SAA_L39_AA.jpg";
-	};
-	class I_Plane_Fighter_03_CAS_F;
-    class I_Plane_Fighter_03_CAS_F_OCimport_01 : I_Plane_Fighter_03_CAS_F { scope = 0; class Eventhandlers; };
-    class cfp_o_syarmy_L39_CAS : I_Plane_Fighter_03_CAS_F_OCimport_01
-	{
-		scope = 2;
-		side = 0;
-		displayName = "SAA L-39 CAS";
-		faction = "CFP_O_SYARMY";
-		vehicleClass = "cfp_o_syarmy_AIR";
-		camouflage = 4;
-		crew = "cfp_o_syarmy_pilot_01";
-		typicalCargo[] = {"cfp_o_syarmy_pilot_01"};
-		class EventHandlers : EventHandlers
-		{
-			class ADDON
-			{
-				init = "(_this select 0) execVM ""\x\cfp\addons\o_syarmy\Scripts\randomize_tex.sqf""";
-			};
-		};
-		editorPreview = "\x\cfp\addons\o_syarmy\data\Preview_SAA_L39_CAS.jpg";
-	};
-	class O_Plane_CAS_02_F;
-    class O_Plane_CAS_02_F_OCimport_01 : O_Plane_CAS_02_F { scope = 0; class Eventhandlers; };
-    class cfp_o_syarmy_yak130 : O_Plane_CAS_02_F_OCimport_01
-	{
-		scope = 2;
-		side = 0;
-		displayName = "SAA Yak-130";
-		faction = "CFP_O_SYARMY";
-		vehicleClass = "cfp_o_syarmy_AIR";
-		camouflage = 4;
-		crew = "cfp_o_syarmy_pilot_01";
-		typicalCargo[] = {"cfp_o_syarmy_pilot_01"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\o_syarmy\data\01.paa","\x\cfp\addons\o_syarmy\data\02.paa"};
-		editorPreview = "\x\cfp\addons\o_syarmy\data\Preview_SAA_Yak130.jpg";
-	};
-	class CUP_O_Su25_Dyn_RU;
-    class CUP_O_Su25_Dyn_RU_OCimport_01 : CUP_O_Su25_Dyn_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_o_syarmy_SU25 : CUP_O_Su25_Dyn_RU_OCimport_01
-	{
-		scope = 2;
-		side = 0;
-		displayName = "SAA SU25";
-		faction = "CFP_O_SYARMY";
-		vehicleClass = "cfp_o_syarmy_AIR";
-		camouflage = 4;
-		crew = "cfp_o_syarmy_pilot_01";
-		typicalCargo[] = {"cfp_o_syarmy_pilot_01"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\o_syarmy\data\su25_body1_saa.paa","\x\cfp\addons\o_syarmy\data\su25_body2_saa.paa"};
-		editorPreview = "\x\cfp\addons\o_syarmy\data\Preview_saa_su25.jpg";
-	};
-	class CUP_O_ZU23_RU;
-    class CUP_O_ZU23_RU_OCimport_01 : CUP_O_ZU23_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_o_syarmy_ZU23 : CUP_O_ZU23_RU_OCimport_01
-	{
-		scope = 2;
-		side = 0;
-		displayName = "SAA ZU23";
-		faction = "CFP_O_SYARMY";
-		vehicleClass = "cfp_o_syarmy_STATIC";
-		camouflage = 4;
-		crew = "cfp_o_syarmy_rifleman";
-		typicalCargo[] = {"cfp_o_syarmy_rifleman"};
-	};
-	class CUP_O_DSHKM_TK_INS;
-    class CUP_O_DSHKM_TK_INS_OCimport_01 : CUP_O_DSHKM_TK_INS { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_o_syarmy_DSHKM : CUP_O_DSHKM_TK_INS_OCimport_01
-	{
-		scope = 2;
-		side = 0;
-		displayName = "SAA DSHKM";
-		faction = "CFP_O_SYARMY";
-		vehicleClass = "cfp_o_syarmy_STATIC";
-		camouflage = 4;
-		crew = "cfp_o_syarmy_rifleman";
-		typicalCargo[] = {"cfp_o_syarmy_rifleman"};
-	};
-	class CUP_O_DSHkM_MiniTriPod_TK_INS;
-    class CUP_O_DSHkM_MiniTriPod_TK_INS_OCimport_01 : CUP_O_DSHkM_MiniTriPod_TK_INS { scope = 0; class Eventhandlers; class Turrets; };
-    class cfp_o_syarmy_DSHkM_Mini_TriPod : CUP_O_DSHkM_MiniTriPod_TK_INS_OCimport_01
-	{
-		scope = 2;
-		side = 0;
-		displayName = "SAA DSHkM Mini TriPod";
-		faction = "CFP_O_SYARMY";
-		vehicleClass = "cfp_o_syarmy_STATIC";
-		camouflage = 4;
-		crew = "cfp_o_syarmy_rifleman";
-		typicalCargo[] = {"cfp_o_syarmy_rifleman"};
-	};
-	class CUP_O_KORD_RU;
-    class CUP_O_KORD_RU_OCimport_01 : CUP_O_KORD_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_o_syarmy_KORD : CUP_O_KORD_RU_OCimport_01
-	{
-		scope = 2;
-		side = 0;
-		displayName = "SAA KORD";
-		faction = "CFP_O_SYARMY";
-		vehicleClass = "cfp_o_syarmy_STATIC";
-		camouflage = 4;
-		crew = "cfp_o_syarmy_rifleman";
-		typicalCargo[] = {"cfp_o_syarmy_rifleman"};
-	};
-	class CUP_O_KORD_high_RU;
-    class CUP_O_KORD_high_RU_OCimport_01 : CUP_O_KORD_high_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_o_syarmy_KORD_high : CUP_O_KORD_high_RU_OCimport_01
-	{
-		scope = 2;
-		side = 0;
-		displayName = "SAA KORD High";
-		faction = "CFP_O_SYARMY";
-		vehicleClass = "cfp_o_syarmy_STATIC";
-		camouflage = 4;
-		crew = "cfp_o_syarmy_rifleman";
-		typicalCargo[] = {"cfp_o_syarmy_rifleman"};
-	};
-	class CUP_O_AGS_RU;
-    class CUP_O_AGS_RU_OCimport_01 : CUP_O_AGS_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_o_syarmy_AGS : CUP_O_AGS_RU_OCimport_01
-	{
-		scope = 2;
-		side = 0;
-		displayName = "SAA AGS";
-		faction = "CFP_O_SYARMY";
-		vehicleClass = "cfp_o_syarmy_STATIC";
-		camouflage = 4;
-		crew = "cfp_o_syarmy_rifleman";
-		typicalCargo[] = {"cfp_o_syarmy_rifleman"};
-	};
-	class CUP_O_Metis_RU;
-    class CUP_O_Metis_RU_OCimport_01 : CUP_O_Metis_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_o_syarmy_Metis : CUP_O_Metis_RU_OCimport_01
-	{
-		scope = 2;
-		side = 0;
-		displayName = "SAA Metis";
-		faction = "CFP_O_SYARMY";
-		vehicleClass = "cfp_o_syarmy_STATIC";
-		camouflage = 4;
-		crew = "cfp_o_syarmy_rifleman";
-		typicalCargo[] = {"cfp_o_syarmy_rifleman"};
-	};
-	class CUP_O_SPG9_TK_INS;
-    class CUP_O_SPG9_TK_INS_OCimport_01 : CUP_O_SPG9_TK_INS { scope = 0; class Eventhandlers; class Turrets; };
-    class cfp_o_syarmy_SPG9 : CUP_O_SPG9_TK_INS_OCimport_01
-	{
-		scope = 2;
-		side = 0;
-		displayName = "SAA SPG9";
-		faction = "CFP_O_SYARMY";
-		vehicleClass = "cfp_o_syarmy_STATIC";
-		camouflage = 4;
-		crew = "cfp_o_syarmy_rifleman";
-		typicalCargo[] = {"cfp_o_syarmy_rifleman"};
-	};
-	class CUP_O_2b14_82mm_RU;
-    class CUP_O_2b14_82mm_RU_OCimport_01 : CUP_O_2b14_82mm_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_o_syarmy_2b14_82mm : CUP_O_2b14_82mm_RU_OCimport_01
-	{
-		scope = 2;
-		side = 0;
-		displayName = "SAA 2b14 82mm";
-		faction = "CFP_O_SYARMY";
-		vehicleClass = "cfp_o_syarmy_STATIC";
-		camouflage = 4;
-		crew = "cfp_o_syarmy_rifleman";
-		typicalCargo[] = {"cfp_o_syarmy_rifleman"};
-	};
-	class CUP_O_D30_RU;
-    class CUP_O_D30_RU_OCimport_01 : CUP_O_D30_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_o_syarmy_D30 : CUP_O_D30_RU_OCimport_01
-	{
-		scope = 2;
-		side = 0;
-		displayName = "SAA D30";
-		faction = "CFP_O_SYARMY";
-		vehicleClass = "cfp_o_syarmy_STATIC";
-		camouflage = 4;
-		crew = "cfp_o_syarmy_rifleman";
-		typicalCargo[] = {"cfp_o_syarmy_rifleman"};
-	};
-	class CUP_O_D30_AT_RU;
-    class CUP_O_D30_AT_RU_OCimport_01 : CUP_O_D30_AT_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_o_syarmy_D30_AT : CUP_O_D30_AT_RU_OCimport_01
-	{
-		scope = 2;
-		side = 0;
-		displayName = "SAA D30 AT";
-		faction = "CFP_O_SYARMY";
-		vehicleClass = "cfp_o_syarmy_STATIC";
-		camouflage = 4;
-		crew = "cfp_o_syarmy_rifleman";
-		typicalCargo[] = {"cfp_o_syarmy_rifleman"};
-	};
 
-	class CUP_RUBasicAmmunitionBox; // CUP_RUBasicAmmunitionBox
+    class CUP_O_BTR40_MG_TKA;
+    class CUP_O_BTR40_MG_TKA_OCimport_01 : CUP_O_BTR40_MG_TKA { scope = 0; class EventHandlers; class Turrets; };
+    class cfp_o_syarmy_BTR40_MG : CUP_O_BTR40_MG_TKA_OCimport_01 {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_BTR40_MG.JPG;
+        scope = 2;
+        side = 0;
+        displayName = "SAA BTR40 MG";
+        faction = "CFP_O_SYARMY";
+        vehicleClass = "cfp_o_syarmy_MOTORIZED";
+        camouflage = 4;
+        crew = "cfp_o_syarmy_crewman";
+        typicalCargo[] = {"cfp_o_syarmy_crewman","cfp_o_syarmy_crewman"};
+        class EventHandlers : EventHandlers
+        {
+            class ADDON
+            {
+                init = "(_this select 0) execVM ""\x\cfp\addons\o_syarmy\Scripts\randomize_tex.sqf""";
+            };
+        };
+
+    };
+    class CUP_O_BTR60_TK;
+    class CUP_O_BTR60_TK_OCimport_01 : CUP_O_BTR60_TK { scope = 0; class EventHandlers; class Turrets; };
+    class cfp_o_syarmy_BTR60 : CUP_O_BTR60_TK_OCimport_01 {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_BTR60.JPG;
+        scope = 2;
+        side = 0;
+        displayName = "SAA BTR60";
+        faction = "CFP_O_SYARMY";
+        vehicleClass = "cfp_o_syarmy_MECHANIZED";
+        camouflage = 4;
+        crew = "cfp_o_syarmy_crewman";
+        typicalCargo[] = {"cfp_o_syarmy_crewman","cfp_o_syarmy_crewman","cfp_o_syarmy_crewman"};
+        class EventHandlers : EventHandlers
+        {
+            class ADDON
+            {
+                init = "(_this select 0) execVM ""\x\cfp\addons\o_syarmy\Scripts\randomize_tex.sqf""";
+            };
+        };
+
+    };
+    class CUP_O_BMP1_TKA;
+    class CUP_O_BMP1_TKA_OCimport_01 : CUP_O_BMP1_TKA { scope = 0; class EventHandlers; class Turrets; };
+    class cfp_o_syarmy_BMP1 : CUP_O_BMP1_TKA_OCimport_01 {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_BMP1.JPG;
+        scope = 2;
+        side = 0;
+        displayName = "SAA BMP-1";
+        faction = "CFP_O_SYARMY";
+        vehicleClass = "cfp_o_syarmy_MECHANIZED";
+        camouflage = 4;
+        crew = "cfp_o_syarmy_crewman";
+        typicalCargo[] = {"cfp_o_syarmy_crewman","cfp_o_syarmy_crewman","cfp_o_syarmy_crewman"};
+        class EventHandlers : EventHandlers
+        {
+            class ADDON
+            {
+                init = "(_this select 0) execVM ""\x\cfp\addons\o_syarmy\Scripts\randomize_tex.sqf""";
+            };
+        };
+
+    };
+    class CUP_O_BMP1P_TKA;
+    class CUP_O_BMP1P_TKA_OCimport_01 : CUP_O_BMP1P_TKA { scope = 0; class EventHandlers; class Turrets; };
+    class cfp_o_syarmy_BMP1P : CUP_O_BMP1P_TKA_OCimport_01 {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_BMP1P.JPG;
+        scope = 2;
+        side = 0;
+        displayName = "SAA BMP-1P";
+        faction = "CFP_O_SYARMY";
+        vehicleClass = "cfp_o_syarmy_MECHANIZED";
+        camouflage = 4;
+        crew = "cfp_o_syarmy_crewman";
+        typicalCargo[] = {"cfp_o_syarmy_crewman","cfp_o_syarmy_crewman","cfp_o_syarmy_crewman"};
+        class EventHandlers : EventHandlers
+        {
+            class ADDON
+            {
+                init = "(_this select 0) execVM ""\x\cfp\addons\o_syarmy\Scripts\randomize_tex.sqf""";
+            };
+        };
+
+    };
+    class CUP_O_BMP2_TKA;
+    class CUP_O_BMP2_TKA_OCimport_01 : CUP_O_BMP2_TKA { scope = 0; class EventHandlers; class Turrets; };
+    class cfp_o_syarmy_BMP2 : CUP_O_BMP2_TKA_OCimport_01 {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_BMP2.JPG;
+        scope = 2;
+        side = 0;
+        displayName = "SAA BMP-2";
+        faction = "CFP_O_SYARMY";
+        vehicleClass = "cfp_o_syarmy_MECHANIZED";
+        camouflage = 4;
+        crew = "cfp_o_syarmy_crewman";
+        typicalCargo[] = {"cfp_o_syarmy_crewman","cfp_o_syarmy_crewman","cfp_o_syarmy_crewman"};
+        class EventHandlers : EventHandlers
+        {
+            class ADDON
+            {
+                init = "(_this select 0) execVM ""\x\cfp\addons\o_syarmy\Scripts\randomize_tex.sqf""";
+            };
+        };
+
+    };
+    class CUP_O_T55_CSAT;
+    class CUP_O_T55_CSAT_OCimport_01 : CUP_O_T55_CSAT { scope = 0; class EventHandlers; class Turrets; };
+    class cfp_o_syarmy_T55 : CUP_O_T55_CSAT_OCimport_01 {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_T55.JPG;
+        scope = 2;
+        side = 0;
+        displayName = "SAA T55";
+        faction = "CFP_O_SYARMY";
+        vehicleClass = "cfp_o_syarmy_ARMORED";
+        camouflage = 4;
+        crew = "cfp_o_syarmy_crewman";
+        typicalCargo[] = {"cfp_o_syarmy_crewman","cfp_o_syarmy_crewman","cfp_o_syarmy_crewman"};
+        class EventHandlers : EventHandlers
+        {
+            class ADDON
+            {
+                init = "(_this select 0) execVM ""\x\cfp\addons\o_syarmy\Scripts\randomize_tex.sqf""";
+            };
+        };
+
+    };
+    class CUP_O_T72_TKA;
+    class CUP_O_T72_TKA_OCimport_01 : CUP_O_T72_TKA { scope = 0; class EventHandlers; class Turrets; };
+    class cfp_o_syarmy_T72 : CUP_O_T72_TKA_OCimport_01 {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_T72.JPG;
+        scope = 2;
+        side = 0;
+        displayName = "SAA T72";
+        faction = "CFP_O_SYARMY";
+        vehicleClass = "cfp_o_syarmy_ARMORED";
+        camouflage = 4;
+        crew = "cfp_o_syarmy_crewman";
+        typicalCargo[] = {"cfp_o_syarmy_crewman","cfp_o_syarmy_crewman","cfp_o_syarmy_crewman"};
+        class EventHandlers : EventHandlers
+        {
+            class ADDON
+            {
+                init = "(_this select 0) execVM ""\x\cfp\addons\o_syarmy\Scripts\randomize_tex.sqf""";
+            };
+        };
+
+    };
+    class CUP_O_ZSU23_SLA;
+    class CUP_O_ZSU23_SLA_OCimport_01 : CUP_O_ZSU23_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class cfp_o_syarmy_ZSU : CUP_O_ZSU23_SLA_OCimport_01 {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_ZSU.JPG;
+        scope = 2;
+        side = 0;
+        displayName = "SAA ZSU";
+        faction = "CFP_O_SYARMY";
+        vehicleClass = "cfp_o_syarmy_ARMORED";
+        camouflage = 4;
+        crew = "cfp_o_syarmy_crewman";
+        typicalCargo[] = {"cfp_o_syarmy_crewman","cfp_o_syarmy_crewman","cfp_o_syarmy_crewman"};
+        class EventHandlers : EventHandlers
+        {
+            class ADDON
+            {
+                init = "(_this select 0) execVM ""\x\cfp\addons\o_syarmy\Scripts\randomize_tex.sqf""";
+            };
+        };
+    };
+    class I_Plane_Fighter_03_AA_F;
+    class I_Plane_Fighter_03_AA_F_OCimport_01 : I_Plane_Fighter_03_AA_F { scope = 0; class Eventhandlers; };
+    class cfp_o_syarmy_L39_AA : I_Plane_Fighter_03_AA_F_OCimport_01 {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_L39_AA.JPG;
+        scope = 2;
+        side = 0;
+        displayName = "SAA L-39 AntiAir";
+        faction = "CFP_O_SYARMY";
+        vehicleClass = "cfp_o_syarmy_AIR";
+        camouflage = 4;
+        crew = "cfp_o_syarmy_pilot_01";
+        typicalCargo[] = {"cfp_o_syarmy_pilot_01"};
+        class EventHandlers : EventHandlers
+        {
+            class ADDON
+            {
+                init = "(_this select 0) execVM ""\x\cfp\addons\o_syarmy\Scripts\randomize_tex.sqf""";
+            };
+        };
+
+    };
+    class I_Plane_Fighter_03_CAS_F;
+    class I_Plane_Fighter_03_CAS_F_OCimport_01 : I_Plane_Fighter_03_CAS_F { scope = 0; class Eventhandlers; };
+    class cfp_o_syarmy_L39_CAS : I_Plane_Fighter_03_CAS_F_OCimport_01 {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_L39_CAS.JPG;
+        scope = 2;
+        side = 0;
+        displayName = "SAA L-39 CAS";
+        faction = "CFP_O_SYARMY";
+        vehicleClass = "cfp_o_syarmy_AIR";
+        camouflage = 4;
+        crew = "cfp_o_syarmy_pilot_01";
+        typicalCargo[] = {"cfp_o_syarmy_pilot_01"};
+        class EventHandlers : EventHandlers
+        {
+            class ADDON
+            {
+                init = "(_this select 0) execVM ""\x\cfp\addons\o_syarmy\Scripts\randomize_tex.sqf""";
+            };
+        };
+
+    };
+    class O_Plane_CAS_02_F;
+    class O_Plane_CAS_02_F_OCimport_01 : O_Plane_CAS_02_F { scope = 0; class Eventhandlers; };
+    class cfp_o_syarmy_yak130 : O_Plane_CAS_02_F_OCimport_01 {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_yak130.JPG;
+        scope = 2;
+        side = 0;
+        displayName = "SAA Yak-130";
+        faction = "CFP_O_SYARMY";
+        vehicleClass = "cfp_o_syarmy_AIR";
+        camouflage = 4;
+        crew = "cfp_o_syarmy_pilot_01";
+        typicalCargo[] = {"cfp_o_syarmy_pilot_01"};
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\o_syarmy\data\01.paa","\x\cfp\addons\o_syarmy\data\02.paa"};
+
+    };
+    class CUP_O_Su25_Dyn_RU;
+    class CUP_O_Su25_Dyn_RU_OCimport_01 : CUP_O_Su25_Dyn_RU { scope = 0; class EventHandlers; class Turrets; };
+    class cfp_o_syarmy_SU25 : CUP_O_Su25_Dyn_RU_OCimport_01 {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_SU25.JPG;
+        scope = 2;
+        side = 0;
+        displayName = "SAA SU25";
+        faction = "CFP_O_SYARMY";
+        vehicleClass = "cfp_o_syarmy_AIR";
+        camouflage = 4;
+        crew = "cfp_o_syarmy_pilot_01";
+        typicalCargo[] = {"cfp_o_syarmy_pilot_01"};
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\o_syarmy\data\su25_body1_saa.paa","\x\cfp\addons\o_syarmy\data\su25_body2_saa.paa"};
+
+    };
+    class CUP_O_ZU23_RU;
+    class CUP_O_ZU23_RU_OCimport_01 : CUP_O_ZU23_RU { scope = 0; class EventHandlers; class Turrets; };
+    class cfp_o_syarmy_ZU23 : CUP_O_ZU23_RU_OCimport_01 {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_ZU23.JPG;
+        scope = 2;
+        side = 0;
+        displayName = "SAA ZU23";
+        faction = "CFP_O_SYARMY";
+        vehicleClass = "cfp_o_syarmy_STATIC";
+        camouflage = 4;
+        crew = "cfp_o_syarmy_rifleman";
+        typicalCargo[] = {"cfp_o_syarmy_rifleman"};
+    };
+    class CUP_O_DSHKM_TK_INS;
+    class CUP_O_DSHKM_TK_INS_OCimport_01 : CUP_O_DSHKM_TK_INS { scope = 0; class EventHandlers; class Turrets; };
+    class cfp_o_syarmy_DSHKM : CUP_O_DSHKM_TK_INS_OCimport_01 {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_DSHKM.JPG;
+        scope = 2;
+        side = 0;
+        displayName = "SAA DSHKM";
+        faction = "CFP_O_SYARMY";
+        vehicleClass = "cfp_o_syarmy_STATIC";
+        camouflage = 4;
+        crew = "cfp_o_syarmy_rifleman";
+        typicalCargo[] = {"cfp_o_syarmy_rifleman"};
+    };
+    class CUP_O_DSHkM_MiniTriPod_TK_INS;
+    class CUP_O_DSHkM_MiniTriPod_TK_INS_OCimport_01 : CUP_O_DSHkM_MiniTriPod_TK_INS { scope = 0; class Eventhandlers; class Turrets; };
+    class cfp_o_syarmy_DSHkM_Mini_TriPod : CUP_O_DSHkM_MiniTriPod_TK_INS_OCimport_01 {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_DSHkM_Mini_TriPod.JPG;
+        scope = 2;
+        side = 0;
+        displayName = "SAA DSHkM Mini TriPod";
+        faction = "CFP_O_SYARMY";
+        vehicleClass = "cfp_o_syarmy_STATIC";
+        camouflage = 4;
+        crew = "cfp_o_syarmy_rifleman";
+        typicalCargo[] = {"cfp_o_syarmy_rifleman"};
+    };
+    class CUP_O_KORD_RU;
+    class CUP_O_KORD_RU_OCimport_01 : CUP_O_KORD_RU { scope = 0; class EventHandlers; class Turrets; };
+    class cfp_o_syarmy_KORD : CUP_O_KORD_RU_OCimport_01 {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_KORD.JPG;
+        scope = 2;
+        side = 0;
+        displayName = "SAA KORD";
+        faction = "CFP_O_SYARMY";
+        vehicleClass = "cfp_o_syarmy_STATIC";
+        camouflage = 4;
+        crew = "cfp_o_syarmy_rifleman";
+        typicalCargo[] = {"cfp_o_syarmy_rifleman"};
+    };
+    class CUP_O_KORD_high_RU;
+    class CUP_O_KORD_high_RU_OCimport_01 : CUP_O_KORD_high_RU { scope = 0; class EventHandlers; class Turrets; };
+    class cfp_o_syarmy_KORD_high : CUP_O_KORD_high_RU_OCimport_01 {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_KORD_high.JPG;
+        scope = 2;
+        side = 0;
+        displayName = "SAA KORD High";
+        faction = "CFP_O_SYARMY";
+        vehicleClass = "cfp_o_syarmy_STATIC";
+        camouflage = 4;
+        crew = "cfp_o_syarmy_rifleman";
+        typicalCargo[] = {"cfp_o_syarmy_rifleman"};
+    };
+    class CUP_O_AGS_RU;
+    class CUP_O_AGS_RU_OCimport_01 : CUP_O_AGS_RU { scope = 0; class EventHandlers; class Turrets; };
+    class cfp_o_syarmy_AGS : CUP_O_AGS_RU_OCimport_01 {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_AGS.JPG;
+        scope = 2;
+        side = 0;
+        displayName = "SAA AGS";
+        faction = "CFP_O_SYARMY";
+        vehicleClass = "cfp_o_syarmy_STATIC";
+        camouflage = 4;
+        crew = "cfp_o_syarmy_rifleman";
+        typicalCargo[] = {"cfp_o_syarmy_rifleman"};
+    };
+    class CUP_O_Metis_RU;
+    class CUP_O_Metis_RU_OCimport_01 : CUP_O_Metis_RU { scope = 0; class EventHandlers; class Turrets; };
+    class cfp_o_syarmy_Metis : CUP_O_Metis_RU_OCimport_01 {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_Metis.JPG;
+        scope = 2;
+        side = 0;
+        displayName = "SAA Metis";
+        faction = "CFP_O_SYARMY";
+        vehicleClass = "cfp_o_syarmy_STATIC";
+        camouflage = 4;
+        crew = "cfp_o_syarmy_rifleman";
+        typicalCargo[] = {"cfp_o_syarmy_rifleman"};
+    };
+    class CUP_O_SPG9_TK_INS;
+    class CUP_O_SPG9_TK_INS_OCimport_01 : CUP_O_SPG9_TK_INS { scope = 0; class Eventhandlers; class Turrets; };
+    class cfp_o_syarmy_SPG9 : CUP_O_SPG9_TK_INS_OCimport_01 {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_SPG9.JPG;
+        scope = 2;
+        side = 0;
+        displayName = "SAA SPG9";
+        faction = "CFP_O_SYARMY";
+        vehicleClass = "cfp_o_syarmy_STATIC";
+        camouflage = 4;
+        crew = "cfp_o_syarmy_rifleman";
+        typicalCargo[] = {"cfp_o_syarmy_rifleman"};
+    };
+    class CUP_O_2b14_82mm_RU;
+    class CUP_O_2b14_82mm_RU_OCimport_01 : CUP_O_2b14_82mm_RU { scope = 0; class EventHandlers; class Turrets; };
+    class cfp_o_syarmy_2b14_82mm : CUP_O_2b14_82mm_RU_OCimport_01 {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_2b14_82mm.JPG;
+        scope = 2;
+        side = 0;
+        displayName = "SAA 2b14 82mm";
+        faction = "CFP_O_SYARMY";
+        vehicleClass = "cfp_o_syarmy_STATIC";
+        camouflage = 4;
+        crew = "cfp_o_syarmy_rifleman";
+        typicalCargo[] = {"cfp_o_syarmy_rifleman"};
+    };
+    class CUP_O_D30_RU;
+    class CUP_O_D30_RU_OCimport_01 : CUP_O_D30_RU { scope = 0; class EventHandlers; class Turrets; };
+    class cfp_o_syarmy_D30 : CUP_O_D30_RU_OCimport_01 {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_D30.JPG;
+        scope = 2;
+        side = 0;
+        displayName = "SAA D30";
+        faction = "CFP_O_SYARMY";
+        vehicleClass = "cfp_o_syarmy_STATIC";
+        camouflage = 4;
+        crew = "cfp_o_syarmy_rifleman";
+        typicalCargo[] = {"cfp_o_syarmy_rifleman"};
+    };
+    class CUP_O_D30_AT_RU;
+    class CUP_O_D30_AT_RU_OCimport_01 : CUP_O_D30_AT_RU { scope = 0; class EventHandlers; class Turrets; };
+    class cfp_o_syarmy_D30_AT : CUP_O_D30_AT_RU_OCimport_01 {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_D30_AT.JPG;
+        scope = 2;
+        side = 0;
+        displayName = "SAA D30 AT";
+        faction = "CFP_O_SYARMY";
+        vehicleClass = "cfp_o_syarmy_STATIC";
+        camouflage = 4;
+        crew = "cfp_o_syarmy_rifleman";
+        typicalCargo[] = {"cfp_o_syarmy_rifleman"};
+    };
+
+    class CUP_RUBasicAmmunitionBox; // CUP_RUBasicAmmunitionBox
 
     class CUP_RUBasicWeaponsBox; // CUP_RUBasicWeaponsBox
 

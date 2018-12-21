@@ -14,6 +14,7 @@ class CfgGroups
 					side = 0;
 					faction = "cfp_o_syarmy";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
 					class Unit0
 					{
 						side = 0;
@@ -35,6 +36,7 @@ class CfgGroups
 					side = 0;
 					faction = "cfp_o_syarmy";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
 					class Unit0
 					{
 						side = 0;
@@ -112,6 +114,7 @@ class CfgGroups
 					side = 0;
 					faction = "cfp_o_syarmy";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
 					class Unit0
 					{
 						side = 0;
@@ -175,6 +178,7 @@ class CfgGroups
 					side = 0;
 					faction = "cfp_o_syarmy";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
 					class Unit0
 					{
 						side = 0;
@@ -217,6 +221,7 @@ class CfgGroups
 					side = 0;
 					faction = "cfp_o_syarmy";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
 					class Unit0
 					{
 						side = 0;
@@ -259,6 +264,7 @@ class CfgGroups
 					side = 0;
 					faction = "cfp_o_syarmy";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
 					class Unit0
 					{
 						side = 0;
@@ -330,6 +336,7 @@ class CfgGroups
 					side = 0;
 					faction = "cfp_o_syarmy";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
 					class Unit0
 					{
 						side = 0;
@@ -344,6 +351,7 @@ class CfgGroups
 					side = 0;
 					faction = "cfp_o_syarmy";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
 					class Unit0
 					{
 						side = 0;
@@ -365,6 +373,7 @@ class CfgGroups
 					side = 0;
 					faction = "cfp_o_syarmy";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
 					class Unit0
 					{
 						side = 0;
@@ -393,6 +402,7 @@ class CfgGroups
 					side = 0;
 					faction = "cfp_o_syarmy";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
 					class Unit0
 					{
 						side = 0;
@@ -407,6 +417,7 @@ class CfgGroups
 					side = 0;
 					faction = "cfp_o_syarmy";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
 					class Unit0
 					{
 						side = 0;
@@ -428,6 +439,7 @@ class CfgGroups
 					side = 0;
 					faction = "cfp_o_syarmy";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
 					class Unit0
 					{
 						side = 0;
@@ -456,6 +468,7 @@ class CfgGroups
 					side = 0;
 					faction = "cfp_o_syarmy";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
 					class Unit0
 					{
 						side = 0;
@@ -470,6 +483,7 @@ class CfgGroups
 					side = 0;
 					faction = "cfp_o_syarmy";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
 					class Unit0
 					{
 						side = 0;
@@ -491,6 +505,7 @@ class CfgGroups
 					side = 0;
 					faction = "cfp_o_syarmy";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
 					class Unit0
 					{
 						side = 0;
@@ -519,6 +534,7 @@ class CfgGroups
 					side = 0;
 					faction = "cfp_o_syarmy";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
 					class Unit0
 					{
 						side = 0;
@@ -533,6 +549,7 @@ class CfgGroups
 					side = 0;
 					faction = "cfp_o_syarmy";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
 					class Unit0
 					{
 						side = 0;
@@ -554,6 +571,7 @@ class CfgGroups
 					side = 0;
 					faction = "cfp_o_syarmy";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
 					class Unit0
 					{
 						side = 0;
@@ -582,6 +600,7 @@ class CfgGroups
 					side = 0;
 					faction = "cfp_o_syarmy";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
 					class Unit0
 					{
 						side = 0;
@@ -603,6 +622,7 @@ class CfgGroups
 					side = 0;
 					faction = "cfp_o_syarmy";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
 					class Unit0
 					{
 						side = 0;
@@ -624,6 +644,7 @@ class CfgGroups
 					side = 0;
 					faction = "cfp_o_syarmy";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
 					class Unit0
 					{
 						side = 0;
@@ -656,6 +677,7 @@ class CfgGroups
 					side = 0;
 					faction = "cfp_o_syarmy";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
 					class Unit0
 					{
 						side = 0;
@@ -670,6 +692,7 @@ class CfgGroups
 					side = 0;
 					faction = "cfp_o_syarmy";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
 					class Unit0
 					{
 						side = 0;
@@ -691,6 +714,7 @@ class CfgGroups
 					side = 0;
 					faction = "cfp_o_syarmy";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
 					class Unit0
 					{
 						side = 0;
@@ -719,6 +743,7 @@ class CfgGroups
 					side = 0;
 					faction = "cfp_o_syarmy";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
 					class Unit0
 					{
 						side = 0;
@@ -733,6 +758,7 @@ class CfgGroups
 					side = 0;
 					faction = "cfp_o_syarmy";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
 					class Unit0
 					{
 						side = 0;
@@ -754,6 +780,7 @@ class CfgGroups
 					side = 0;
 					faction = "cfp_o_syarmy";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
 					class Unit0
 					{
 						side = 0;
@@ -782,6 +809,7 @@ class CfgGroups
 					side = 2;
 					faction = "cfp_o_syarmy";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
 					class Unit0
 					{
 						side = 2;
@@ -796,6 +824,7 @@ class CfgGroups
 					side = 0;
 					faction = "cfp_o_syarmy";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
 					class Unit0
 					{
 						side = 0;
@@ -817,6 +846,7 @@ class CfgGroups
 					side = 0;
 					faction = "cfp_o_syarmy";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
 					class Unit0
 					{
 						side = 0;
@@ -838,6 +868,7 @@ class CfgGroups
 					side = 0;
 					faction = "cfp_o_syarmy";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
 					class Unit0
 					{
 						side = 0;
@@ -859,6 +890,7 @@ class CfgGroups
 					side = 0;
 					faction = "cfp_o_syarmy";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
 					class Unit0
 					{
 						side = 0;
@@ -887,6 +919,7 @@ class CfgGroups
 					side = 0;
 					faction = "cfp_o_syarmy";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
 					class Unit0
 					{
 						side = 0;
