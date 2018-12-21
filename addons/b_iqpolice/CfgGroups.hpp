@@ -14,6 +14,7 @@ class CfgGroups
 					side = 1;
 					faction = "CFP_B_IQPOLICE";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 					class Unit0
 					{
 						side = 1;
@@ -35,6 +36,7 @@ class CfgGroups
 					side = 1;
 					faction = "CFP_B_IQPOLICE";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 					class Unit0
 					{
 						side = 1;
@@ -70,6 +72,7 @@ class CfgGroups
 					side = 1;
 					faction = "CFP_B_IQPOLICE";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
 					class Unit0
 					{
 						side = 1;
@@ -137,6 +140,7 @@ class CfgGroups
 					side = 1;
 					faction = "CFP_B_IQPOLICE";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
 					class Unit0
 					{
 						side = 1;
@@ -151,6 +155,7 @@ class CfgGroups
 					side = 1;
 					faction = "CFP_B_IQPOLICE";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
 					class Unit0
 					{
 						side = 1;
@@ -172,6 +177,7 @@ class CfgGroups
 					side = 1;
 					faction = "CFP_B_IQPOLICE";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
 					class Unit0
 					{
 						side = 1;
@@ -200,6 +206,7 @@ class CfgGroups
 					side = 1;
 					faction = "CFP_B_IQPOLICE";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
 					class Unit0
 					{
 						side = 1;
@@ -214,6 +221,7 @@ class CfgGroups
 					side = 1;
 					faction = "CFP_B_IQPOLICE";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
 					class Unit0
 					{
 						side = 1;
@@ -235,6 +243,7 @@ class CfgGroups
 					side = 1;
 					faction = "CFP_B_IQPOLICE";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
 					class Unit0
 					{
 						side = 1;
@@ -263,6 +272,7 @@ class CfgGroups
 					side = 1;
 					faction = "CFP_B_IQPOLICE";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
 					class Unit0
 					{
 						side = 1;
@@ -284,6 +294,7 @@ class CfgGroups
 					side = 1;
 					faction = "CFP_B_IQPOLICE";
 					rarityGroup = 0.3;
+					icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
 					class Unit0
 					{
 						side = 1;
