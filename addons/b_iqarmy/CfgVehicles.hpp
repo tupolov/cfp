@@ -30,6 +30,7 @@ class CfgVehicles {
     class O_Pilot_F_OCimport_02 : O_Pilot_F_OCimport_01 { class EventHandlers; };
 
     class cfp_b_iqarmy_officer : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_officer.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -117,6 +118,7 @@ class CfgVehicles {
     };
 
     class cfp_b_iqarmy_grenadier : cfp_b_iqarmy_officer {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_grenadier.JPG;
 
         displayName = "IA Grenadier";
 
@@ -134,6 +136,7 @@ class CfgVehicles {
     };
 
     class cfp_b_iqarmy_rifleman : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_rifleman.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -225,6 +228,7 @@ class CfgVehicles {
     };
 
     class cfp_b_iqarmy_machinegunner : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_machinegunner.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -314,6 +318,7 @@ class CfgVehicles {
     };
 
     class cfp_b_iqarmy_sniper : cfp_b_iqarmy_rifleman {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_sniper.JPG;
 
         displayName = "IA Sniper";
 
@@ -331,6 +336,7 @@ class CfgVehicles {
     };
 
     class cfp_b_iqarmy_at : cfp_b_iqarmy_rifleman {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_at.JPG;
 
         displayName = "IA Anti-Tank";
 
@@ -350,6 +356,7 @@ class CfgVehicles {
     };
 
     class cfp_b_iqarmy_medic : cfp_b_iqarmy_rifleman {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_medic.JPG;
 
         displayName = "IA Medic";
         attendant = 1;
@@ -372,6 +379,7 @@ class CfgVehicles {
     };
 
     class cfp_b_iqarmy_sapper : cfp_b_iqarmy_rifleman {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_sapper.JPG;
 
         displayName = "IA Sapper";
         canDeactivateMines = 1;
@@ -393,6 +401,7 @@ class CfgVehicles {
     };
 
     class cfp_b_iqarmy_crewman : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_crewman.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -431,6 +440,7 @@ class CfgVehicles {
     };
 
     class cfp_b_iqarmy_rifleman_dshkm : cfp_b_iqarmy_rifleman {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_rifleman_dshkm.JPG;
 
         displayName = "IA Gunner [DSHKM]";
 
@@ -450,6 +460,7 @@ class CfgVehicles {
     };
 
     class cfp_b_iqarmy_rifleman_kord : cfp_b_iqarmy_rifleman {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_rifleman_kord.JPG;
 
         displayName = "IA Gunner [KORD]";
 
@@ -469,6 +480,7 @@ class CfgVehicles {
     };
 
     class cfp_b_iqarmy_rifleman_podnos : cfp_b_iqarmy_rifleman {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_rifleman_podnos.JPG;
 
         displayName = "IA Gunner [Podnos]";
 
@@ -488,6 +500,7 @@ class CfgVehicles {
     };
 
     class cfp_b_iqarmy_rifleman_ags30 : cfp_b_iqarmy_rifleman {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_rifleman_ags30.JPG;
 
         displayName = "IA Gunner [AGS30]";
 
@@ -507,6 +520,7 @@ class CfgVehicles {
     };
 
     class cfp_b_iqarmy_rifleman_metis : cfp_b_iqarmy_rifleman {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_rifleman_metis.JPG;
 
         displayName = "IA Gunner [METIS]";
 
@@ -526,6 +540,7 @@ class CfgVehicles {
     };
 
     class cfp_b_iqarmy_rifleman_spg9 : cfp_b_iqarmy_rifleman {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_rifleman_spg9.JPG;
 
         displayName = "IA Gunner [SPG9]";
 
@@ -545,6 +560,7 @@ class CfgVehicles {
     };
 
     class cfp_b_iqarmy_sf : O_recon_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_sf.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -663,6 +679,7 @@ class CfgVehicles {
     };
 
     class cfp_b_iqarmy_sf_team_leader : O_recon_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_sf_team_leader.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -754,6 +771,7 @@ class CfgVehicles {
     };
 
     class cfp_b_iqarmy_helicopter_pilot_01 : O_helipilot_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_helicopter_pilot_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -792,6 +810,7 @@ class CfgVehicles {
     };
 
     class cfp_b_iqarmy_pilot_01 : O_Pilot_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_pilot_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -831,60 +850,59 @@ class CfgVehicles {
 
     };
 
-	class CUP_B_HMMWV_M2_USA;
+    class CUP_B_HMMWV_M2_USA;
     class CUP_B_HMMWV_M2_USA_OCimport_01 : CUP_B_HMMWV_M2_USA { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_HMMWV_M2 : CUP_B_HMMWV_M2_USA_OCimport_01
-	{
-		scope = 2;
-		side = 1;
-		displayName = "IA HMMWV M2";
-		faction = "CFP_B_IQARMY";
-		vehicleClass = "cfp_b_iqarmy_MOTORIZED";
-		camouflage = 4;
-		crew = "cfp_b_iqarmy_rifleman";
-		typicalCargo[] = {"cfp_b_iqarmy_rifleman","cfp_b_iqarmy_rifleman"};
-		class EventHandlers : EventHandlers
-		{
-			class ADDON
-			{
-				init = "(_this select 0) execVM ""\x\cfp\addons\b_iqarmy\Scripts\randomize_tex.sqf""";
-			};
-		};
-		Editorpreview = "\x\cfp\addons\b_iqarmy\data\Preview_IA_HMMWV.jpg";
-	};
-	class CUP_B_HMMWV_DSHKM_GPK_ACR;
+    class cfp_b_iqarmy_HMMWV_M2 : CUP_B_HMMWV_M2_USA_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_HMMWV_M2.JPG;
+        scope = 2;
+        side = 1;
+        displayName = "IA HMMWV M2";
+        faction = "CFP_B_IQARMY";
+        vehicleClass = "cfp_b_iqarmy_MOTORIZED";
+        camouflage = 4;
+        crew = "cfp_b_iqarmy_rifleman";
+        typicalCargo[] = {"cfp_b_iqarmy_rifleman","cfp_b_iqarmy_rifleman"};
+        class EventHandlers : EventHandlers
+        {
+            class ADDON
+            {
+                init = "(_this select 0) execVM ""\x\cfp\addons\b_iqarmy\Scripts\randomize_tex.sqf""";
+            };
+        };
+    };
+    class CUP_B_HMMWV_DSHKM_GPK_ACR;
     class CUP_B_HMMWV_DSHKM_GPK_ACR_OCimport_01 : CUP_B_HMMWV_DSHKM_GPK_ACR { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_hmmwv_dshkm : CUP_B_HMMWV_DSHKM_GPK_ACR_OCimport_01
-	{
-		scope = 2;
-		side = 1;
-		displayName = "IA HMMWV GPK DShKM";
-		faction = "CFP_B_IQARMY";
-		vehicleClass = "cfp_b_iqarmy_MOTORIZED";
-		camouflage = 4;
-		crew = "cfp_b_iqarmy_rifleman";
-		typicalCargo[] = {"cfp_b_iqarmy_rifleman","cfp_b_iqarmy_rifleman"};
-	};
-	class CUP_B_HMMWV_M2_GPK_ACR;
+    class cfp_b_iqarmy_hmmwv_dshkm : CUP_B_HMMWV_DSHKM_GPK_ACR_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_hmmwv_dshkm.JPG;
+        scope = 2;
+        side = 1;
+        displayName = "IA HMMWV GPK DShKM";
+        faction = "CFP_B_IQARMY";
+        vehicleClass = "cfp_b_iqarmy_MOTORIZED";
+        camouflage = 4;
+        crew = "cfp_b_iqarmy_rifleman";
+        typicalCargo[] = {"cfp_b_iqarmy_rifleman","cfp_b_iqarmy_rifleman"};
+    };
+    class CUP_B_HMMWV_M2_GPK_ACR;
     class CUP_B_HMMWV_M2_GPK_ACR_OCimport_01 : CUP_B_HMMWV_M2_GPK_ACR { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_hmmwv_m2_gpk : CUP_B_HMMWV_M2_GPK_ACR_OCimport_01
-	{
-		scope = 2;
-		side = 1;
-		displayName = "IA HMMWV GPK M2";
-		faction = "CFP_B_IQARMY";
-		vehicleClass = "cfp_b_iqarmy_MOTORIZED";
-		camouflage = 4;
-		crew = "cfp_b_iqarmy_rifleman";
-		typicalCargo[] = {"cfp_b_iqarmy_rifleman","cfp_b_iqarmy_rifleman"};
-	};
-	
-	class CUP_O_Ural_Refuel_SLA;
+    class cfp_b_iqarmy_hmmwv_m2_gpk : CUP_B_HMMWV_M2_GPK_ACR_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_hmmwv_m2_gpk.JPG;
+        scope = 2;
+        side = 1;
+        displayName = "IA HMMWV GPK M2";
+        faction = "CFP_B_IQARMY";
+        vehicleClass = "cfp_b_iqarmy_MOTORIZED";
+        camouflage = 4;
+        crew = "cfp_b_iqarmy_rifleman";
+        typicalCargo[] = {"cfp_b_iqarmy_rifleman","cfp_b_iqarmy_rifleman"};
+    };
+
+    class CUP_O_Ural_Refuel_SLA;
     class CUP_O_Ural_Refuel_SLA_OCimport_01 : CUP_O_Ural_Refuel_SLA { scope = 0; class EventHandlers; };
     class CUP_O_Ural_Refuel_SLA_OCimport_02 : CUP_O_Ural_Refuel_SLA_OCimport_01 { scope = 0; class EventHandlers; };
-	
-	class cfp_b_iqarmy_Ural_Refuel_01 : CUP_O_Ural_Refuel_SLA_OCimport_02 {
-        editorPreview = \x\cfp\addons\b_iqarmy\data\Preview_Ural_Refuel_01.JPG;
+
+    class cfp_b_iqarmy_Ural_Refuel_01 : CUP_O_Ural_Refuel_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_Ural_Refuel_01.JPG;
         author = "AccuracyThruVolume";
         scope = 2;
         scopeCurator = 2;
@@ -911,9 +929,9 @@ class CfgVehicles {
     class CUP_O_Ural_Repair_SLA;
     class CUP_O_Ural_Repair_SLA_OCimport_01 : CUP_O_Ural_Repair_SLA { scope = 0; class EventHandlers; };
     class CUP_O_Ural_Repair_SLA_OCimport_02 : CUP_O_Ural_Repair_SLA_OCimport_01 { scope = 0; class EventHandlers; };
-	
-	 class cfp_b_iqarmy_Ural_Repair_01 : CUP_O_Ural_Repair_SLA_OCimport_02 {
-        editorPreview = \x\cfp\addons\b_iqarmy\data\Preview_Ural_Repair_01.JPG;
+
+     class cfp_b_iqarmy_Ural_Repair_01 : CUP_O_Ural_Repair_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_Ural_Repair_01.JPG;
         author = "AccuracyThruVolume";
         scope = 2;
         scopeCurator = 2;
@@ -939,9 +957,9 @@ class CfgVehicles {
     class CUP_O_Ural_Reammo_SLA;
     class CUP_O_Ural_Reammo_SLA_OCimport_01 : CUP_O_Ural_Reammo_SLA { scope = 0; class EventHandlers; };
     class CUP_O_Ural_Reammo_SLA_OCimport_02 : CUP_O_Ural_Reammo_SLA_OCimport_01 { scope = 0; class EventHandlers; };
-	
-	class cfp_b_iqarmy_Ural_Ammo_01 : CUP_O_Ural_Reammo_SLA_OCimport_02 {
-        editorPreview = \x\cfp\addons\b_iqarmy\data\Preview_Ural_Ammo_01.JPG;
+
+    class cfp_b_iqarmy_Ural_Ammo_01 : CUP_O_Ural_Reammo_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_Ural_Ammo_01.JPG;
         author = "AccuracyThruVolume";
         scope = 2;
         scopeCurator = 2;
@@ -964,508 +982,506 @@ class CfgVehicles {
         ALiVE_orbatCreator_owned = 1;
 
     };
-	
-	
-	class CUP_O_Ural_CHDKZ;
+
+
+    class CUP_O_Ural_CHDKZ;
     class CUP_O_Ural_CHDKZ_OCimport_01 : CUP_O_Ural_CHDKZ { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_Ural : CUP_O_Ural_CHDKZ_OCimport_01
-	{
-		scope = 2;
-		side = 1;
-		displayName = "IA Ural";
-		faction = "CFP_B_IQARMY";
-		vehicleClass = "cfp_b_iqarmy_MOTORIZED";
-		camouflage = 4;
-		crew = "cfp_b_iqarmy_rifleman";
-		typicalCargo[] = {"cfp_b_iqarmy_rifleman","cfp_b_iqarmy_rifleman"};
-		class EventHandlers : EventHandlers
-		{
-			class ADDON
-			{
-				init = "(_this select 0) execVM ""\x\cfp\addons\b_iqarmy\Scripts\randomize_tex.sqf""";
-			};
-		};
-		Editorpreview = "\x\cfp\addons\b_iqarmy\data\Preview_IA_Ural.jpg";
-	};
-	class CUP_O_Ural_ZU23_CHDKZ;
+    class cfp_b_iqarmy_Ural : CUP_O_Ural_CHDKZ_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_Ural.JPG;
+        scope = 2;
+        side = 1;
+        displayName = "IA Ural";
+        faction = "CFP_B_IQARMY";
+        vehicleClass = "cfp_b_iqarmy_MOTORIZED";
+        camouflage = 4;
+        crew = "cfp_b_iqarmy_rifleman";
+        typicalCargo[] = {"cfp_b_iqarmy_rifleman","cfp_b_iqarmy_rifleman"};
+        class EventHandlers : EventHandlers
+        {
+            class ADDON
+            {
+                init = "(_this select 0) execVM ""\x\cfp\addons\b_iqarmy\Scripts\randomize_tex.sqf""";
+            };
+        };
+    };
+    class CUP_O_Ural_ZU23_CHDKZ;
     class CUP_O_Ural_ZU23_CHDKZ_OCimport_01 : CUP_O_Ural_ZU23_CHDKZ { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_Ural_ZU23 : CUP_O_Ural_ZU23_CHDKZ_OCimport_01
-	{
-		scope = 2;
-		side = 1;
-		displayName = "IA Ural ZU23";
-		faction = "CFP_B_IQARMY";
-		vehicleClass = "cfp_b_iqarmy_MOTORIZED";
-		camouflage = 4;
-		crew = "cfp_b_iqarmy_rifleman";
-		typicalCargo[] = {"cfp_b_iqarmy_rifleman","cfp_b_iqarmy_rifleman"};
-		class EventHandlers : EventHandlers
-		{
-			class ADDON
-			{
-				init = "(_this select 0) execVM ""\x\cfp\addons\b_iqarmy\Scripts\randomize_tex.sqf""";
-			};
-		};
-		Editorpreview = "\x\cfp\addons\b_iqarmy\data\Preview_IA_Ural_ZU23.jpg";
-	};
-	class CUP_B_RG31_M2_USMC;
+    class cfp_b_iqarmy_Ural_ZU23 : CUP_O_Ural_ZU23_CHDKZ_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_Ural_ZU23.JPG;
+        scope = 2;
+        side = 1;
+        displayName = "IA Ural ZU23";
+        faction = "CFP_B_IQARMY";
+        vehicleClass = "cfp_b_iqarmy_MOTORIZED";
+        camouflage = 4;
+        crew = "cfp_b_iqarmy_rifleman";
+        typicalCargo[] = {"cfp_b_iqarmy_rifleman","cfp_b_iqarmy_rifleman"};
+        class EventHandlers : EventHandlers
+        {
+            class ADDON
+            {
+                init = "(_this select 0) execVM ""\x\cfp\addons\b_iqarmy\Scripts\randomize_tex.sqf""";
+            };
+        };
+    };
+    class CUP_B_RG31_M2_USMC;
     class CUP_B_RG31_M2_USMC_OCimport_01 : CUP_B_RG31_M2_USMC { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_mrap_rg31 : CUP_B_RG31_M2_USMC_OCimport_01
-	{
-		scope = 2;
-		side = 1;
-		displayName = "IA MRAP RG31";
-		faction = "CFP_B_IQARMY";
-		vehicleClass = "cfp_b_iqarmy_MOTORIZED";
-		camouflage = 4;
-		crew = "cfp_b_iqarmy_rifleman";
-		typicalCargo[] = {"cfp_b_iqarmy_rifleman","cfp_b_iqarmy_rifleman"};
-	};
-	class CUP_B_Mastiff_HMG_GB_D;
+    class cfp_b_iqarmy_mrap_rg31 : CUP_B_RG31_M2_USMC_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_mrap_rg31.JPG;
+        scope = 2;
+        side = 1;
+        displayName = "IA MRAP RG31";
+        faction = "CFP_B_IQARMY";
+        vehicleClass = "cfp_b_iqarmy_MOTORIZED";
+        camouflage = 4;
+        crew = "cfp_b_iqarmy_rifleman";
+        typicalCargo[] = {"cfp_b_iqarmy_rifleman","cfp_b_iqarmy_rifleman"};
+    };
+    class CUP_B_Mastiff_HMG_GB_D;
     class CUP_B_Mastiff_HMG_GB_D_OCimport_01 : CUP_B_Mastiff_HMG_GB_D { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_mrap_mastiff_hmg : CUP_B_Mastiff_HMG_GB_D_OCimport_01
-	{
-		scope = 2;
-		side = 1;
-		displayName = "IA MRAP Mastiff HMG";
-		faction = "CFP_B_IQARMY";
-		vehicleClass = "cfp_b_iqarmy_MOTORIZED";
-		camouflage = 4;
-		crew = "cfp_b_iqarmy_rifleman";
-		typicalCargo[] = {"cfp_b_iqarmy_rifleman","cfp_b_iqarmy_rifleman"};
-	};
-	class CUP_B_Mastiff_LMG_GB_D;
+    class cfp_b_iqarmy_mrap_mastiff_hmg : CUP_B_Mastiff_HMG_GB_D_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_mrap_mastiff_hmg.JPG;
+        scope = 2;
+        side = 1;
+        displayName = "IA MRAP Mastiff HMG";
+        faction = "CFP_B_IQARMY";
+        vehicleClass = "cfp_b_iqarmy_MOTORIZED";
+        camouflage = 4;
+        crew = "cfp_b_iqarmy_rifleman";
+        typicalCargo[] = {"cfp_b_iqarmy_rifleman","cfp_b_iqarmy_rifleman"};
+    };
+    class CUP_B_Mastiff_LMG_GB_D;
     class CUP_B_Mastiff_LMG_GB_D_OCimport_01 : CUP_B_Mastiff_LMG_GB_D { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_mrap_mastiff_lmg : CUP_B_Mastiff_LMG_GB_D_OCimport_01
-	{
-		scope = 2;
-		side = 1;
-		displayName = "IA MRAP Mastiff LMG";
-		faction = "CFP_B_IQARMY";
-		vehicleClass = "cfp_b_iqarmy_MOTORIZED";
-		camouflage = 4;
-		crew = "cfp_b_iqarmy_rifleman";
-		typicalCargo[] = {"cfp_b_iqarmy_rifleman","cfp_b_iqarmy_rifleman"};
-	};
-	class CUP_B_Ridgback_HMG_GB_D;
+    class cfp_b_iqarmy_mrap_mastiff_lmg : CUP_B_Mastiff_LMG_GB_D_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_mrap_mastiff_lmg.JPG;
+        scope = 2;
+        side = 1;
+        displayName = "IA MRAP Mastiff LMG";
+        faction = "CFP_B_IQARMY";
+        vehicleClass = "cfp_b_iqarmy_MOTORIZED";
+        camouflage = 4;
+        crew = "cfp_b_iqarmy_rifleman";
+        typicalCargo[] = {"cfp_b_iqarmy_rifleman","cfp_b_iqarmy_rifleman"};
+    };
+    class CUP_B_Ridgback_HMG_GB_D;
     class CUP_B_Ridgback_HMG_GB_D_OCimport_01 : CUP_B_Ridgback_HMG_GB_D { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_mrap_ridgback_hmg : CUP_B_Ridgback_HMG_GB_D_OCimport_01
-	{
-		scope = 2;
-		side = 1;
-		displayName = "IA MRAP Ridgback HMG";
-		faction = "CFP_B_IQARMY";
-		vehicleClass = "cfp_b_iqarmy_MOTORIZED";
-		camouflage = 4;
-		crew = "cfp_b_iqarmy_rifleman";
-		typicalCargo[] = {"cfp_b_iqarmy_rifleman","cfp_b_iqarmy_rifleman"};
-	};
-	class CUP_B_Ridgback_LMG_GB_D;
+    class cfp_b_iqarmy_mrap_ridgback_hmg : CUP_B_Ridgback_HMG_GB_D_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_mrap_ridgback_hmg.JPG;
+        scope = 2;
+        side = 1;
+        displayName = "IA MRAP Ridgback HMG";
+        faction = "CFP_B_IQARMY";
+        vehicleClass = "cfp_b_iqarmy_MOTORIZED";
+        camouflage = 4;
+        crew = "cfp_b_iqarmy_rifleman";
+        typicalCargo[] = {"cfp_b_iqarmy_rifleman","cfp_b_iqarmy_rifleman"};
+    };
+    class CUP_B_Ridgback_LMG_GB_D;
     class CUP_B_Ridgback_LMG_GB_D_OCimport_01 : CUP_B_Ridgback_LMG_GB_D { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_mrap_ridgback_lmg : CUP_B_Ridgback_LMG_GB_D_OCimport_01
-	{
-		scope = 2;
-		side = 1;
-		displayName = "IA MRAP Ridgback LMG";
-		faction = "CFP_B_IQARMY";
-		vehicleClass = "cfp_b_iqarmy_MOTORIZED";
-		camouflage = 4;
-		crew = "cfp_b_iqarmy_rifleman";
-		typicalCargo[] = {"cfp_b_iqarmy_rifleman","cfp_b_iqarmy_rifleman"};
-	};
-	class CUP_B_Wolfhound_HMG_GB_D;
+    class cfp_b_iqarmy_mrap_ridgback_lmg : CUP_B_Ridgback_LMG_GB_D_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_mrap_ridgback_lmg.JPG;
+        scope = 2;
+        side = 1;
+        displayName = "IA MRAP Ridgback LMG";
+        faction = "CFP_B_IQARMY";
+        vehicleClass = "cfp_b_iqarmy_MOTORIZED";
+        camouflage = 4;
+        crew = "cfp_b_iqarmy_rifleman";
+        typicalCargo[] = {"cfp_b_iqarmy_rifleman","cfp_b_iqarmy_rifleman"};
+    };
+    class CUP_B_Wolfhound_HMG_GB_D;
     class CUP_B_Wolfhound_HMG_GB_D_OCimport_01 : CUP_B_Wolfhound_HMG_GB_D { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_mrap_wolfhound_hmg : CUP_B_Wolfhound_HMG_GB_D_OCimport_01
-	{
-		scope = 2;
-		side = 1;
-		displayName = "IA MRAP Wolfhound HMG";
-		faction = "CFP_B_IQARMY";
-		vehicleClass = "cfp_b_iqarmy_MOTORIZED";
-		camouflage = 4;
-		crew = "cfp_b_iqarmy_rifleman";
-		typicalCargo[] = {"cfp_b_iqarmy_rifleman","cfp_b_iqarmy_rifleman"};
-	};
-	class CUP_B_Wolfhound_LMG_GB_D;
+    class cfp_b_iqarmy_mrap_wolfhound_hmg : CUP_B_Wolfhound_HMG_GB_D_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_mrap_wolfhound_hmg.JPG;
+        scope = 2;
+        side = 1;
+        displayName = "IA MRAP Wolfhound HMG";
+        faction = "CFP_B_IQARMY";
+        vehicleClass = "cfp_b_iqarmy_MOTORIZED";
+        camouflage = 4;
+        crew = "cfp_b_iqarmy_rifleman";
+        typicalCargo[] = {"cfp_b_iqarmy_rifleman","cfp_b_iqarmy_rifleman"};
+    };
+    class CUP_B_Wolfhound_LMG_GB_D;
     class CUP_B_Wolfhound_LMG_GB_D_OCimport_01 : CUP_B_Wolfhound_LMG_GB_D { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_mrap_wolfhound_lmg : CUP_B_Wolfhound_LMG_GB_D_OCimport_01
-	{
-		scope = 2;
-		side = 1;
-		displayName = "IA MRAP Wolfhound LMG";
-		faction = "CFP_B_IQARMY";
-		vehicleClass = "cfp_b_iqarmy_MOTORIZED";
-		camouflage = 4;
-		crew = "cfp_b_iqarmy_rifleman";
-		typicalCargo[] = {"cfp_b_iqarmy_rifleman","cfp_b_iqarmy_rifleman"};
-	};
-	class CUP_O_BTR60_TK;
+    class cfp_b_iqarmy_mrap_wolfhound_lmg : CUP_B_Wolfhound_LMG_GB_D_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_mrap_wolfhound_lmg.JPG;
+        scope = 2;
+        side = 1;
+        displayName = "IA MRAP Wolfhound LMG";
+        faction = "CFP_B_IQARMY";
+        vehicleClass = "cfp_b_iqarmy_MOTORIZED";
+        camouflage = 4;
+        crew = "cfp_b_iqarmy_rifleman";
+        typicalCargo[] = {"cfp_b_iqarmy_rifleman","cfp_b_iqarmy_rifleman"};
+    };
+    class CUP_O_BTR60_TK;
     class CUP_O_BTR60_TK_OCimport_01 : CUP_O_BTR60_TK { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_BTR60 : CUP_O_BTR60_TK_OCimport_01
-	{
-		scope = 2;
-		side = 1;
-		displayName = "IA BTR60";
-		faction = "CFP_B_IQARMY";
-		vehicleClass = "cfp_b_iqarmy_MECHANIZED";
-		camouflage = 4;
-		crew = "cfp_b_iqarmy_crewman";
-		typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
-		class EventHandlers : EventHandlers
-		{
-			class ADDON
-			{
-				init = "(_this select 0) execVM ""\x\cfp\addons\b_iqarmy\Scripts\randomize_tex.sqf""";
-			};
-		};
-		Editorpreview = "\x\cfp\addons\b_iqarmy\data\Preview_IA_BTR60.jpg";
-	};
-	class CUP_O_BMP1_TKA;
+    class cfp_b_iqarmy_BTR60 : CUP_O_BTR60_TK_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_BTR60.JPG;
+        scope = 2;
+        side = 1;
+        displayName = "IA BTR60";
+        faction = "CFP_B_IQARMY";
+        vehicleClass = "cfp_b_iqarmy_MECHANIZED";
+        camouflage = 4;
+        crew = "cfp_b_iqarmy_crewman";
+        typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
+        class EventHandlers : EventHandlers
+        {
+            class ADDON
+            {
+                init = "(_this select 0) execVM ""\x\cfp\addons\b_iqarmy\Scripts\randomize_tex.sqf""";
+            };
+        };
+
+    };
+    class CUP_O_BMP1_TKA;
     class CUP_O_BMP1_TKA_OCimport_01 : CUP_O_BMP1_TKA { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_BMP1 : CUP_O_BMP1_TKA_OCimport_01
-	{
-		scope = 2;
-		side = 1;
-		displayName = "IA BMP-1";
-		faction = "CFP_B_IQARMY";
-		vehicleClass = "cfp_b_iqarmy_MECHANIZED";
-		camouflage = 4;
-		crew = "cfp_b_iqarmy_crewman";
-		typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
-		class EventHandlers : EventHandlers
-		{
-			class ADDON
-			{
-				init = "(_this select 0) execVM ""\x\cfp\addons\b_iqarmy\Scripts\randomize_tex.sqf""";
-			};
-		};
-		Editorpreview = "\x\cfp\addons\b_iqarmy\data\Preview_IA_BMP1.jpg";
-	};
-	class CUP_O_BMP1P_TKA;
+    class cfp_b_iqarmy_BMP1 : CUP_O_BMP1_TKA_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_BMP1.JPG;
+        scope = 2;
+        side = 1;
+        displayName = "IA BMP-1";
+        faction = "CFP_B_IQARMY";
+        vehicleClass = "cfp_b_iqarmy_MECHANIZED";
+        camouflage = 4;
+        crew = "cfp_b_iqarmy_crewman";
+        typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
+        class EventHandlers : EventHandlers
+        {
+            class ADDON
+            {
+                init = "(_this select 0) execVM ""\x\cfp\addons\b_iqarmy\Scripts\randomize_tex.sqf""";
+            };
+        };
+
+    };
+    class CUP_O_BMP1P_TKA;
     class CUP_O_BMP1P_TKA_OCimport_01 : CUP_O_BMP1P_TKA { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_BMP1P : CUP_O_BMP1P_TKA_OCimport_01
-	{
-		scope = 2;
-		side = 1;
-		displayName = "IA BMP-1P";
-		faction = "CFP_B_IQARMY";
-		vehicleClass = "cfp_b_iqarmy_MECHANIZED";
-		camouflage = 4;
-		crew = "cfp_b_iqarmy_crewman";
-		typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
-		class EventHandlers : EventHandlers
-		{
-			class ADDON
-			{
-				init = "(_this select 0) execVM ""\x\cfp\addons\b_iqarmy\Scripts\randomize_tex.sqf""";
-			};
-		};
-		Editorpreview = "\x\cfp\addons\b_iqarmy\data\Preview_IA_BMP1P.jpg";
-	};
-	class CUP_O_BMP2_TKA;
+    class cfp_b_iqarmy_BMP1P : CUP_O_BMP1P_TKA_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_BMP1P.JPG;
+        scope = 2;
+        side = 1;
+        displayName = "IA BMP-1P";
+        faction = "CFP_B_IQARMY";
+        vehicleClass = "cfp_b_iqarmy_MECHANIZED";
+        camouflage = 4;
+        crew = "cfp_b_iqarmy_crewman";
+        typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
+        class EventHandlers : EventHandlers
+        {
+            class ADDON
+            {
+                init = "(_this select 0) execVM ""\x\cfp\addons\b_iqarmy\Scripts\randomize_tex.sqf""";
+            };
+        };
+
+    };
+    class CUP_O_BMP2_TKA;
     class CUP_O_BMP2_TKA_OCimport_01 : CUP_O_BMP2_TKA { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_BMP2 : CUP_O_BMP2_TKA_OCimport_01
-	{
-		scope = 2;
-		side = 1;
-		displayName = "IA BMP-2";
-		faction = "CFP_B_IQARMY";
-		vehicleClass = "cfp_b_iqarmy_MECHANIZED";
-		camouflage = 4;
-		crew = "cfp_b_iqarmy_crewman";
-		typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
-		class EventHandlers : EventHandlers
-		{
-			class ADDON
-			{
-				init = "(_this select 0) execVM ""\x\cfp\addons\b_iqarmy\Scripts\randomize_tex.sqf""";
-			};
-		};
-		Editorpreview = "\x\cfp\addons\b_iqarmy\data\Preview_IA_BMP2.jpg";
-	};
-	class CUP_O_T55_CSAT;
+    class cfp_b_iqarmy_BMP2 : CUP_O_BMP2_TKA_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_BMP2.JPG;
+        scope = 2;
+        side = 1;
+        displayName = "IA BMP-2";
+        faction = "CFP_B_IQARMY";
+        vehicleClass = "cfp_b_iqarmy_MECHANIZED";
+        camouflage = 4;
+        crew = "cfp_b_iqarmy_crewman";
+        typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
+        class EventHandlers : EventHandlers
+        {
+            class ADDON
+            {
+                init = "(_this select 0) execVM ""\x\cfp\addons\b_iqarmy\Scripts\randomize_tex.sqf""";
+            };
+        };
+
+    };
+    class CUP_O_T55_CSAT;
     class CUP_O_T55_CSAT_OCimport_01 : CUP_O_T55_CSAT { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_T55 : CUP_O_T55_CSAT_OCimport_01
-	{
-		scope = 2;
-		side = 1;
-		displayName = "IA T55";
-		faction = "CFP_B_IQARMY";
-		vehicleClass = "cfp_b_iqarmy_ARMORED";
-		camouflage = 4;
-		crew = "cfp_b_iqarmy_crewman";
-		typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
-		class EventHandlers : EventHandlers
-		{
-			class ADDON
-			{
-				init = "(_this select 0) execVM ""\x\cfp\addons\b_iqarmy\Scripts\randomize_tex.sqf""";
-			};
-		};
-		Editorpreview = "\x\cfp\addons\b_iqarmy\data\Preview_IA_T55.jpg";
-	};
-	class CUP_O_T72_TKA;
+    class cfp_b_iqarmy_T55 : CUP_O_T55_CSAT_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_T55.JPG;
+        scope = 2;
+        side = 1;
+        displayName = "IA T55";
+        faction = "CFP_B_IQARMY";
+        vehicleClass = "cfp_b_iqarmy_ARMORED";
+        camouflage = 4;
+        crew = "cfp_b_iqarmy_crewman";
+        typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
+        class EventHandlers : EventHandlers
+        {
+            class ADDON
+            {
+                init = "(_this select 0) execVM ""\x\cfp\addons\b_iqarmy\Scripts\randomize_tex.sqf""";
+            };
+        };
+
+    };
+    class CUP_O_T72_TKA;
     class CUP_O_T72_TKA_OCimport_01 : CUP_O_T72_TKA { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_T72 : CUP_O_T72_TKA_OCimport_01
-	{
-		scope = 2;
-		side = 1;
-		displayName = "IA T72";
-		faction = "CFP_B_IQARMY";
-		vehicleClass = "cfp_b_iqarmy_ARMORED";
-		camouflage = 4;
-		crew = "cfp_b_iqarmy_crewman";
-		typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
-		class EventHandlers : EventHandlers
-		{
-			class ADDON
-			{
-				init = "(_this select 0) execVM ""\x\cfp\addons\b_iqarmy\Scripts\randomize_tex.sqf""";
-			};
-		};
-		Editorpreview = "\x\cfp\addons\b_iqarmy\data\Preview_IA_T72.jpg";
-	};
-	class CUP_O_ZSU23_SLA;
+    class cfp_b_iqarmy_T72 : CUP_O_T72_TKA_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_T72.JPG;
+        scope = 2;
+        side = 1;
+        displayName = "IA T72";
+        faction = "CFP_B_IQARMY";
+        vehicleClass = "cfp_b_iqarmy_ARMORED";
+        camouflage = 4;
+        crew = "cfp_b_iqarmy_crewman";
+        typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
+        class EventHandlers : EventHandlers
+        {
+            class ADDON
+            {
+                init = "(_this select 0) execVM ""\x\cfp\addons\b_iqarmy\Scripts\randomize_tex.sqf""";
+            };
+        };
+
+    };
+    class CUP_O_ZSU23_SLA;
     class CUP_O_ZSU23_SLA_OCimport_01 : CUP_O_ZSU23_SLA { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_ZSU : CUP_O_ZSU23_SLA_OCimport_01
-	{
-		scope = 2;
-		side = 1;
-		displayName = "IA ZSU";
-		faction = "CFP_B_IQARMY";
-		vehicleClass = "cfp_b_iqarmy_ARMORED";
-		camouflage = 4;
-		crew = "cfp_b_iqarmy_crewman";
-		typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
-		class EventHandlers : EventHandlers
-		{
-			class ADDON
-			{
-				init = "(_this select 0) execVM ""\x\cfp\addons\b_iqarmy\Scripts\randomize_tex.sqf""";
-			};
-		};
-	};
-	class CUP_B_M1A1_DES_US_Army;
+    class cfp_b_iqarmy_ZSU : CUP_O_ZSU23_SLA_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_ZSU.JPG;
+        scope = 2;
+        side = 1;
+        displayName = "IA ZSU";
+        faction = "CFP_B_IQARMY";
+        vehicleClass = "cfp_b_iqarmy_ARMORED";
+        camouflage = 4;
+        crew = "cfp_b_iqarmy_crewman";
+        typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
+        class EventHandlers : EventHandlers
+        {
+            class ADDON
+            {
+                init = "(_this select 0) execVM ""\x\cfp\addons\b_iqarmy\Scripts\randomize_tex.sqf""";
+            };
+        };
+    };
+    class CUP_B_M1A1_DES_US_Army;
     class CUP_B_M1A1_DES_US_Army_OCimport_01 : CUP_B_M1A1_DES_US_Army { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_M1A1 : CUP_B_M1A1_DES_US_Army_OCimport_01
-	{
-		scope = 2;
-		side = 1;
-		displayName = "IA M1A1";
-		faction = "CFP_B_IQARMY";
-		vehicleClass = "cfp_b_iqarmy_ARMORED";
-		camouflage = 4;
-		crew = "cfp_b_iqarmy_crewman";
-		typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
-		class EventHandlers : EventHandlers
-		{
-			class ADDON
-			{
-				init = "(_this select 0) execVM ""\x\cfp\addons\b_iqarmy\Scripts\randomize_tex.sqf""";
-			};
-		};
-		Editorpreview = "\x\cfp\addons\b_iqarmy\data\Preview_IA_M1A1.jpg";
-	};
-	class CUP_O_ZU23_RU;
+    class cfp_b_iqarmy_M1A1 : CUP_B_M1A1_DES_US_Army_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_M1A1.JPG;
+        scope = 2;
+        side = 1;
+        displayName = "IA M1A1";
+        faction = "CFP_B_IQARMY";
+        vehicleClass = "cfp_b_iqarmy_ARMORED";
+        camouflage = 4;
+        crew = "cfp_b_iqarmy_crewman";
+        typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
+        class EventHandlers : EventHandlers
+        {
+            class ADDON
+            {
+                init = "(_this select 0) execVM ""\x\cfp\addons\b_iqarmy\Scripts\randomize_tex.sqf""";
+            };
+        };
+
+    };
+    class CUP_O_ZU23_RU;
     class CUP_O_ZU23_RU_OCimport_01 : CUP_O_ZU23_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_ZU23 : CUP_O_ZU23_RU_OCimport_01
-	{
-		scope = 2;
-		side = 1;
-		displayName = "IA ZU23";
-		faction = "CFP_B_IQARMY";
-		vehicleClass = "cfp_b_iqarmy_STATIC";
-		camouflage = 4;
-		crew = "cfp_b_iqarmy_rifleman";
-		typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
-	};
-	class CUP_O_DSHKM_TK_INS;
+    class cfp_b_iqarmy_ZU23 : CUP_O_ZU23_RU_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_ZU23.JPG;
+        scope = 2;
+        side = 1;
+        displayName = "IA ZU23";
+        faction = "CFP_B_IQARMY";
+        vehicleClass = "cfp_b_iqarmy_STATIC";
+        camouflage = 4;
+        crew = "cfp_b_iqarmy_rifleman";
+        typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
+    };
+    class CUP_O_DSHKM_TK_INS;
     class CUP_O_DSHKM_TK_INS_OCimport_01 : CUP_O_DSHKM_TK_INS { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_DSHKM : CUP_O_DSHKM_TK_INS_OCimport_01
-	{
-		scope = 2;
-		side = 1;
-		displayName = "IA DSHKM";
-		faction = "CFP_B_IQARMY";
-		vehicleClass = "cfp_b_iqarmy_STATIC";
-		camouflage = 4;
-		crew = "cfp_b_iqarmy_rifleman";
-		typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
-	};
-	class CUP_O_DSHkM_MiniTriPod_TK_INS;
+    class cfp_b_iqarmy_DSHKM : CUP_O_DSHKM_TK_INS_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_DSHKM.JPG;
+        scope = 2;
+        side = 1;
+        displayName = "IA DSHKM";
+        faction = "CFP_B_IQARMY";
+        vehicleClass = "cfp_b_iqarmy_STATIC";
+        camouflage = 4;
+        crew = "cfp_b_iqarmy_rifleman";
+        typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
+    };
+    class CUP_O_DSHkM_MiniTriPod_TK_INS;
     class CUP_O_DSHkM_MiniTriPod_TK_INS_OCimport_01 : CUP_O_DSHkM_MiniTriPod_TK_INS { scope = 0; class Eventhandlers; class Turrets; };
-    class cfp_b_iqarmy_DSHkM_Mini_TriPod : CUP_O_DSHkM_MiniTriPod_TK_INS_OCimport_01
-	{
-		scope = 2;
-		side = 1;
-		displayName = "IA DSHkM Mini TriPod";
-		faction = "CFP_B_IQARMY";
-		vehicleClass = "cfp_b_iqarmy_STATIC";
-		camouflage = 4;
-		crew = "cfp_b_iqarmy_rifleman";
-		typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
-	};
-	class CUP_O_KORD_RU;
+    class cfp_b_iqarmy_DSHkM_Mini_TriPod : CUP_O_DSHkM_MiniTriPod_TK_INS_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_DSHkM_Mini_TriPod.JPG;
+        scope = 2;
+        side = 1;
+        displayName = "IA DSHkM Mini TriPod";
+        faction = "CFP_B_IQARMY";
+        vehicleClass = "cfp_b_iqarmy_STATIC";
+        camouflage = 4;
+        crew = "cfp_b_iqarmy_rifleman";
+        typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
+    };
+    class CUP_O_KORD_RU;
     class CUP_O_KORD_RU_OCimport_01 : CUP_O_KORD_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_KORD : CUP_O_KORD_RU_OCimport_01
-	{
-		scope = 2;
-		side = 1;
-		displayName = "IA KORD";
-		faction = "CFP_B_IQARMY";
-		vehicleClass = "cfp_b_iqarmy_STATIC";
-		camouflage = 4;
-		crew = "cfp_b_iqarmy_rifleman";
-		typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
-	};
-	class CUP_O_KORD_high_RU;
+    class cfp_b_iqarmy_KORD : CUP_O_KORD_RU_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_KORD.JPG;
+        scope = 2;
+        side = 1;
+        displayName = "IA KORD";
+        faction = "CFP_B_IQARMY";
+        vehicleClass = "cfp_b_iqarmy_STATIC";
+        camouflage = 4;
+        crew = "cfp_b_iqarmy_rifleman";
+        typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
+    };
+    class CUP_O_KORD_high_RU;
     class CUP_O_KORD_high_RU_OCimport_01 : CUP_O_KORD_high_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_KORD_high : CUP_O_KORD_high_RU_OCimport_01
-	{
-		scope = 2;
-		side = 1;
-		displayName = "IA KORD High";
-		faction = "CFP_B_IQARMY";
-		vehicleClass = "cfp_b_iqarmy_STATIC";
-		camouflage = 4;
-		crew = "cfp_b_iqarmy_rifleman";
-		typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
-	};
-	class CUP_O_AGS_RU;
+    class cfp_b_iqarmy_KORD_high : CUP_O_KORD_high_RU_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_KORD_high.JPG;
+        scope = 2;
+        side = 1;
+        displayName = "IA KORD High";
+        faction = "CFP_B_IQARMY";
+        vehicleClass = "cfp_b_iqarmy_STATIC";
+        camouflage = 4;
+        crew = "cfp_b_iqarmy_rifleman";
+        typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
+    };
+    class CUP_O_AGS_RU;
     class CUP_O_AGS_RU_OCimport_01 : CUP_O_AGS_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_AGS : CUP_O_AGS_RU_OCimport_01
-	{
-		scope = 2;
-		side = 1;
-		displayName = "IA AGS";
-		faction = "CFP_B_IQARMY";
-		vehicleClass = "cfp_b_iqarmy_STATIC";
-		camouflage = 4;
-		crew = "cfp_b_iqarmy_rifleman";
-		typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
-	};
-	class CUP_O_Metis_RU;
+    class cfp_b_iqarmy_AGS : CUP_O_AGS_RU_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_AGS.JPG;
+        scope = 2;
+        side = 1;
+        displayName = "IA AGS";
+        faction = "CFP_B_IQARMY";
+        vehicleClass = "cfp_b_iqarmy_STATIC";
+        camouflage = 4;
+        crew = "cfp_b_iqarmy_rifleman";
+        typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
+    };
+    class CUP_O_Metis_RU;
     class CUP_O_Metis_RU_OCimport_01 : CUP_O_Metis_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_Metis : CUP_O_Metis_RU_OCimport_01
-	{
-		scope = 2;
-		side = 1;
-		displayName = "IA Metis";
-		faction = "CFP_B_IQARMY";
-		vehicleClass = "cfp_b_iqarmy_STATIC";
-		camouflage = 4;
-		crew = "cfp_b_iqarmy_rifleman";
-		typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
-	};
-	class CUP_O_SPG9_TK_INS;
+    class cfp_b_iqarmy_Metis : CUP_O_Metis_RU_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_Metis.JPG;
+        scope = 2;
+        side = 1;
+        displayName = "IA Metis";
+        faction = "CFP_B_IQARMY";
+        vehicleClass = "cfp_b_iqarmy_STATIC";
+        camouflage = 4;
+        crew = "cfp_b_iqarmy_rifleman";
+        typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
+    };
+    class CUP_O_SPG9_TK_INS;
     class CUP_O_SPG9_TK_INS_OCimport_01 : CUP_O_SPG9_TK_INS { scope = 0; class Eventhandlers; class Turrets; };
-    class cfp_b_iqarmy_SPG9 : CUP_O_SPG9_TK_INS_OCimport_01
-	{
-		scope = 2;
-		side = 1;
-		displayName = "IA SPG9";
-		faction = "CFP_B_IQARMY";
-		vehicleClass = "cfp_b_iqarmy_STATIC";
-		camouflage = 4;
-		crew = "cfp_b_iqarmy_rifleman";
-		typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
-	};
-	class CUP_O_2b14_82mm_RU;
+    class cfp_b_iqarmy_SPG9 : CUP_O_SPG9_TK_INS_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_SPG9.JPG;
+        scope = 2;
+        side = 1;
+        displayName = "IA SPG9";
+        faction = "CFP_B_IQARMY";
+        vehicleClass = "cfp_b_iqarmy_STATIC";
+        camouflage = 4;
+        crew = "cfp_b_iqarmy_rifleman";
+        typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
+    };
+    class CUP_O_2b14_82mm_RU;
     class CUP_O_2b14_82mm_RU_OCimport_01 : CUP_O_2b14_82mm_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_2b14_82mm : CUP_O_2b14_82mm_RU_OCimport_01
-	{
-		scope = 2;
-		side = 1;
-		displayName = "IA 2b14 82mm";
-		faction = "CFP_B_IQARMY";
-		vehicleClass = "cfp_b_iqarmy_STATIC";
-		camouflage = 4;
-		crew = "cfp_b_iqarmy_rifleman";
-		typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
-	};
-	class CUP_O_D30_RU;
+    class cfp_b_iqarmy_2b14_82mm : CUP_O_2b14_82mm_RU_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_2b14_82mm.JPG;
+        scope = 2;
+        side = 1;
+        displayName = "IA 2b14 82mm";
+        faction = "CFP_B_IQARMY";
+        vehicleClass = "cfp_b_iqarmy_STATIC";
+        camouflage = 4;
+        crew = "cfp_b_iqarmy_rifleman";
+        typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
+    };
+    class CUP_O_D30_RU;
     class CUP_O_D30_RU_OCimport_01 : CUP_O_D30_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_D30 : CUP_O_D30_RU_OCimport_01
-	{
-		scope = 2;
-		side = 1;
-		displayName = "IA D30";
-		faction = "CFP_B_IQARMY";
-		vehicleClass = "cfp_b_iqarmy_STATIC";
-		camouflage = 4;
-		crew = "cfp_b_iqarmy_rifleman";
-		typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
-	};
-	class CUP_O_D30_AT_RU;
+    class cfp_b_iqarmy_D30 : CUP_O_D30_RU_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_D30.JPG;
+        scope = 2;
+        side = 1;
+        displayName = "IA D30";
+        faction = "CFP_B_IQARMY";
+        vehicleClass = "cfp_b_iqarmy_STATIC";
+        camouflage = 4;
+        crew = "cfp_b_iqarmy_rifleman";
+        typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
+    };
+    class CUP_O_D30_AT_RU;
     class CUP_O_D30_AT_RU_OCimport_01 : CUP_O_D30_AT_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_D30_AT : CUP_O_D30_AT_RU_OCimport_01
-	{
-		scope = 2;
-		side = 1;
-		displayName = "IA D30 AT";
-		faction = "CFP_B_IQARMY";
-		vehicleClass = "cfp_b_iqarmy_STATIC";
-		camouflage = 4;
-		crew = "cfp_b_iqarmy_rifleman";
-		typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
-	};
-	class CUP_O_Mi24_V_RU;
+    class cfp_b_iqarmy_D30_AT : CUP_O_D30_AT_RU_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_D30_AT.JPG;
+        scope = 2;
+        side = 1;
+        displayName = "IA D30 AT";
+        faction = "CFP_B_IQARMY";
+        vehicleClass = "cfp_b_iqarmy_STATIC";
+        camouflage = 4;
+        crew = "cfp_b_iqarmy_rifleman";
+        typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
+    };
+    class CUP_O_Mi24_V_RU;
     class CUP_O_Mi24_V_RU_OCimport_01 : CUP_O_Mi24_V_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_MI24V : CUP_O_Mi24_V_RU_OCimport_01
-	{
-		scope = 2;
-		side = 1;
-		displayName = "IA Mi-24v";
-		faction = "CFP_B_IQARMY";
-		vehicleClass = "cfp_b_iqarmy_AIRCRAFT";
-		camouflage = 4;
-		crew = "cfp_b_iqarmy_helicopter_pilot_01";
-		typicalCargo[] = {"cfp_b_iqarmy_helicopter_pilot_01","cfp_b_iqarmy_helicopter_pilot_01"};
-		class EventHandlers : EventHandlers
-		{
-			class ADDON
-			{
-				init = "(_this select 0) execVM ""\x\cfp\addons\b_iqarmy\Scripts\randomize_tex.sqf""";
-			};
-		};
-		Editorpreview = "\x\cfp\addons\b_iqarmy\data\Preview_IA_MI24V.jpg";
-	};
-	class CUP_O_Mi24_P_RU;
+    class cfp_b_iqarmy_MI24V : CUP_O_Mi24_V_RU_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_MI24V.JPG;
+        scope = 2;
+        side = 1;
+        displayName = "IA Mi-24v";
+        faction = "CFP_B_IQARMY";
+        vehicleClass = "cfp_b_iqarmy_AIRCRAFT";
+        camouflage = 4;
+        crew = "cfp_b_iqarmy_helicopter_pilot_01";
+        typicalCargo[] = {"cfp_b_iqarmy_helicopter_pilot_01","cfp_b_iqarmy_helicopter_pilot_01"};
+        class EventHandlers : EventHandlers
+        {
+            class ADDON
+            {
+                init = "(_this select 0) execVM ""\x\cfp\addons\b_iqarmy\Scripts\randomize_tex.sqf""";
+            };
+        };
+
+    };
+    class CUP_O_Mi24_P_RU;
     class CUP_O_Mi24_P_RU_OCimport_01 : CUP_O_Mi24_P_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_MI24P : CUP_O_Mi24_P_RU_OCimport_01
-	{
-		scope = 2;
-		side = 1;
-		displayName = "IA Mi-24p";
-		faction = "CFP_B_IQARMY";
-		vehicleClass = "cfp_b_iqarmy_AIRCRAFT";
-		camouflage = 4;
-		crew = "cfp_b_iqarmy_helicopter_pilot_01";
-		typicalCargo[] = {"cfp_b_iqarmy_helicopter_pilot_01","cfp_b_iqarmy_helicopter_pilot_01"};
-		class EventHandlers : EventHandlers
-		{
-			class ADDON
-			{
-				init = "(_this select 0) execVM ""\x\cfp\addons\b_iqarmy\Scripts\randomize_tex.sqf""";
-			};
-		};
-		Editorpreview = "\x\cfp\addons\b_iqarmy\data\Preview_IA_MI24P.jpg";
-	};
-	class CUP_O_Su25_Dyn_RU;
+    class cfp_b_iqarmy_MI24P : CUP_O_Mi24_P_RU_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_MI24P.JPG;
+        scope = 2;
+        side = 1;
+        displayName = "IA Mi-24p";
+        faction = "CFP_B_IQARMY";
+        vehicleClass = "cfp_b_iqarmy_AIRCRAFT";
+        camouflage = 4;
+        crew = "cfp_b_iqarmy_helicopter_pilot_01";
+        typicalCargo[] = {"cfp_b_iqarmy_helicopter_pilot_01","cfp_b_iqarmy_helicopter_pilot_01"};
+        class EventHandlers : EventHandlers
+        {
+            class ADDON
+            {
+                init = "(_this select 0) execVM ""\x\cfp\addons\b_iqarmy\Scripts\randomize_tex.sqf""";
+            };
+        };
+
+    };
+    class CUP_O_Su25_Dyn_RU;
     class CUP_O_Su25_Dyn_RU_OCimport_01 : CUP_O_Su25_Dyn_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_SU25 : CUP_O_Su25_Dyn_RU_OCimport_01
-	{
-		scope = 2;
-		side = 1;
-		displayName = "IA SU25";
-		faction = "CFP_B_IQARMY";
-		vehicleClass = "cfp_b_iqarmy_AIRCRAFT";
-		camouflage = 4;
-		crew = "cfp_b_iqarmy_pilot_01";
-		typicalCargo[] = {"cfp_b_iqarmy_pilot_01","cfp_b_iqarmy_pilot_01"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\b_iqarmy\data\su25_body1_ia.paa","\x\cfp\addons\b_iqarmy\data\su25_body2_ia.paa"};
-		editorPreview = "\x\cfp\addons\b_iqarmy\data\Preview_ia_su25.jpg";
-	};
+    class cfp_b_iqarmy_SU25 : CUP_O_Su25_Dyn_RU_OCimport_01 {
+        editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_SU25.JPG;
+        scope = 2;
+        side = 1;
+        displayName = "IA SU25";
+        faction = "CFP_B_IQARMY";
+        vehicleClass = "cfp_b_iqarmy_AIRCRAFT";
+        camouflage = 4;
+        crew = "cfp_b_iqarmy_pilot_01";
+        typicalCargo[] = {"cfp_b_iqarmy_pilot_01","cfp_b_iqarmy_pilot_01"};
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\b_iqarmy\data\su25_body1_ia.paa","\x\cfp\addons\b_iqarmy\data\su25_body2_ia.paa"};
+
+    };
 
     class CUP_USBasicAmmunitionBox; // CUP_USBasicAmmunitionBox
 
