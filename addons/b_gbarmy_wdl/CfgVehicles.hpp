@@ -1,3 +1,5 @@
+#define PREVIEW(NAME) editorPreview = \x\cfp\addons\b_gbarmy_wdl\data\preview\##NAME##.jpg
+
 class CBA_Extended_EventHandlers_base;
 
 class WeaponFireGun;
@@ -31,6 +33,7 @@ class CfgVehicles
                     "USP_PATCH_FLAG_UNITED_KINGDOM_NAME", 0.6,
                     "USP_PATCH_FLAG_UNITED_KINGDOM_SHIELD", 0.6
                 };
+
             };
 
             class CUP_BAF_Soldier_DPM_Base: SoldierWB
@@ -47,6 +50,258 @@ class CfgVehicles
                     "USP_PATCH_FLAG_UNITED_KINGDOM_NAME", 0.6,
                     "USP_PATCH_FLAG_UNITED_KINGDOM_SHIELD", 0.6
                 };
+            };
+
+        // Vehicles
+
+            class CUP_L111A1_base;
+            class CUP_L111A1_MiniTripod_base;
+            class CUP_L16A2_base;
+            class CUP_B_L111A1_BAF_WDL : CUP_L111A1_base
+            {
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
+            };
+            class CUP_B_L111A1_MiniTripod_BAF_WDL : CUP_L111A1_MiniTripod_base
+            {
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
+            };
+            class CUP_B_L16A2_BAF_WDL : CUP_L16A2_base
+            {
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
+            };
+
+            class CUP_LR_Transport_Base;
+            class CUP_B_LR_Transport_GB_W: CUP_LR_Transport_Base
+            {
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
+            };
+            class CUP_LR_MG_Base;
+            class CUP_B_LR_MG_GB_W: CUP_LR_MG_Base
+            {
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
+            };
+            class CUP_LR_Ambulance_Base;
+            class CUP_B_LR_Ambulance_GB_W: CUP_LR_Ambulance_Base
+            {
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
+            };
+            class CUP_LR_Special_Base;
+            class CUP_B_LR_Special_M2_GB_W: CUP_LR_Special_Base
+            {
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
+            };
+            class CUP_B_LR_Special_GMG_GB_W: CUP_B_LR_Special_M2_GB_W
+            {
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
+            };
+
+            class CUP_B_BAF_Coyote_GMG_D;
+            class CUP_B_BAF_Coyote_GMG_W : CUP_B_BAF_Coyote_GMG_D
+            {
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[]={"CFP_B_GBARMY_Rifleman_WDL_01","CFP_B_GBARMY_Rifleman_WDL_01"};
+            };
+
+            class CUP_B_BAF_Coyote_L2A1_D;
+            class CUP_B_BAF_Coyote_L2A1_W : CUP_B_BAF_Coyote_L2A1_D
+            {
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[]={"CFP_B_GBARMY_Rifleman_WDL_01","CFP_B_GBARMY_Rifleman_WDL_01"};
+            };
+
+            class CUP_BAF_Jackal2_GMG_W;
+            class CUP_B_Jackal2_GMG_GB_W: CUP_BAF_Jackal2_GMG_W
+            {
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+            };
+            class CUP_BAF_Jackal2_L2A1_W;
+            class CUP_B_Jackal2_L2A1_GB_W: CUP_BAF_Jackal2_L2A1_W
+            {
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+            };
+
+            class CUP_Mastiff_Base;
+            class CUP_B_Mastiff_HMG_GB_W: CUP_Mastiff_Base
+            {
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
+            };
+
+            class CUP_B_Mastiff_GMG_GB_W: CUP_Mastiff_Base
+            {
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
+            };
+            class CUP_B_Mastiff_LMG_GB_W: CUP_Mastiff_Base
+            {
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
+            };
+
+            class CUP_Ridgback_Base;
+            class CUP_B_Ridgback_HMG_GB_W: CUP_Ridgback_Base
+            {
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
+            };
+            class CUP_B_Ridgback_GMG_GB_W: CUP_Ridgback_Base
+            {
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
+            };
+            class CUP_B_Ridgback_LMG_GB_W: CUP_Ridgback_Base
+            {
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
+            };
+
+            class CUP_Wolfhound_Base;
+            class CUP_B_Wolfhound_HMG_GB_W: CUP_Wolfhound_Base
+            {
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
+            };
+            class CUP_B_Wolfhound_GMG_GB_W: CUP_Wolfhound_Base
+            {
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
+            };
+            class CUP_B_Wolfhound_LMG_GB_W: CUP_Wolfhound_Base
+            {
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
+            };
+
+            class CUP_B_MCV80_GB_D_SLAT;
+            class CUP_B_MCV80_GB_W_SLAT: CUP_B_MCV80_GB_D_SLAT
+            {
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
+            };
+            class CUP_B_MCV80_GB_D;
+            class CUP_B_MCV80_GB_W: CUP_B_MCV80_GB_D
+            {
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
+            };
+
+            class CUP_B_FV510_GB_D_SLAT;
+            class CUP_B_FV510_GB_W_SLAT: CUP_B_FV510_GB_D_SLAT
+            {
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
+            };
+            class CUP_B_FV510_GB_D : CUP_B_FV510_GB_W_SLAT {
+                faction = "CUP_B_GB";
+                crew = "CUP_B_BAF_Crew_DDPM";
+                typicalCargo[] = {"CUP_B_BAF_Crew_DDPM"};
+            };
+            class CUP_B_FV510_GB_W: CUP_B_FV510_GB_D
+            {
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Rifleman_WDL_01";
+                typicalCargo[] = {"CFP_B_GBARMY_Rifleman_WDL_01"};
+            };
+
+            class CUP_B_FV432_Bulldog_GB_D;
+            class CUP_B_FV432_Bulldog_GB_W: CUP_B_FV432_Bulldog_GB_D
+            {
+                crew = "CFP_B_GBARMY_Crewman_WDL_01";
+                faction = "CFP_B_GBARMY_WDL";
+                typicalCargo[]={"CFP_B_GBARMY_Rifleman_WDL_01", "CFP_B_GBARMY_Rifleman_WDL_01", "CFP_B_GBARMY_Rifleman_WDL_01", "CFP_B_GBARMY_Rifleman_WDL_01"};
+            };
+            class CUP_B_FV432_Bulldog_GB_D_RWS;
+            class CUP_B_FV432_Bulldog_GB_W_RWS: CUP_B_FV432_Bulldog_GB_D_RWS
+            {
+                crew = "CFP_B_GBARMY_Crewman_WDL_01";
+                faction = "CFP_B_GBARMY_WDL";
+                typicalCargo[]={"CFP_B_GBARMY_Rifleman_WDL_01", "CFP_B_GBARMY_Rifleman_WDL_01", "CFP_B_GBARMY_Rifleman_WDL_01", "CFP_B_GBARMY_Rifleman_WDL_01"};
+            };
+
+            class CUP_Challenger2_base;
+            class CUP_B_Challenger2_Woodland_BAF: CUP_Challenger2_base
+            {
+                crew = "CFP_B_GBARMY_Crewman_WDL_01";
+                faction = "CFP_B_GBARMY_WDL";
+                typicalCargo[] = {"CFP_B_GBARMY_Crewman_WDL_01", "CFP_B_GBARMY_Crewman_WDL_01", "CFP_B_GBARMY_Crewman_WDL_01", "CFP_B_GBARMY_Crewman_WDL_01"};
+            };
+            class CUP_B_Challenger2_2CW_BAF: CUP_B_Challenger2_Woodland_BAF
+            {
+                faction = "CFP_B_GBARMY_WDL";
+            };
+            class CUP_B_Challenger2_Desert_BAF: CUP_B_Challenger2_Woodland_BAF
+            {
+                crew = "CUP_B_BAF_Crew_MTP";
+                faction = "CUP_B_GB";
+                typicalCargo[] = {"CUP_B_BAF_Crew_MTP", "CUP_B_BAF_Crew_MTP", "CUP_B_BAF_Crew_MTP", "CUP_B_BAF_Crew_MTP"};
+            };
+            class CUP_B_Challenger2_2CD_BAF: CUP_B_Challenger2_Woodland_BAF
+            {
+                crew = "CUP_B_BAF_Crew_MTP";
+                faction = "CUP_B_GB";
+                typicalCargo[] = {"CUP_B_BAF_Crew_MTP", "CUP_B_BAF_Crew_MTP", "CUP_B_BAF_Crew_MTP", "CUP_B_BAF_Crew_MTP"};
+            };
+            class CUP_B_Challenger2_Snow_BAF: CUP_B_Challenger2_Woodland_BAF
+            {
+                crew = "CUP_B_BAF_Crew_MTP";
+                faction = "CUP_B_GB";
+                typicalCargo[] = {"CUP_B_BAF_Crew_MTP", "CUP_B_BAF_Crew_MTP", "CUP_B_BAF_Crew_MTP", "CUP_B_BAF_Crew_MTP"};
+            };
+            class CUP_B_Challenger2_2CS_BAF: CUP_B_Challenger2_Woodland_BAF
+            {
+                crew = "CUP_B_BAF_Crew_MTP";
+                faction = "CUP_B_GB";
+                typicalCargo[] = {"CUP_B_BAF_Crew_MTP", "CUP_B_BAF_Crew_MTP", "CUP_B_BAF_Crew_MTP", "CUP_B_BAF_Crew_MTP"};
+            };
+            class CUP_B_Challenger2_Green_CTRG: CUP_B_Challenger2_Woodland_BAF
+            {
+                faction = "BLU_CTRG_F";
+                crew = "B_T_Crew_F";
+                typicalCargo[] = {"B_T_Crew_F", "B_T_Crew_F", "B_T_Crew_F", "B_T_Crew_F"};
+            };
+            class CUP_B_Challenger2_Sand_CTRG: CUP_B_Challenger2_Woodland_BAF
+            {
+                faction = "BLU_CTRG_F";
+                crew = "B_T_Crew_F";
+                typicalCargo[] = {"B_T_Crew_F", "B_T_Crew_F", "B_T_Crew_F", "B_T_Crew_F"};
+            };
+            class CUP_B_Challenger2_NATO: CUP_B_Challenger2_Woodland_BAF
+            {
+                faction="BLU_F";
+                crew = "B_crew_F";
+                typicalCargo[] = {"B_crew_F", "B_crew_F", "B_crew_F", "B_crew_F"};
             };
 
     // New MTP and Air units for woodland faction
@@ -221,7 +476,35 @@ class CfgVehicles
                 };
             };
 
+            class CUP_B_MK10_GB;
+            class CUP_B_MK10_GB_OCimport_01 : CUP_B_MK10_GB { scope = 0; class EventHandlers; };
+            class CUP_B_MK10_GB_OCimport_02 : CUP_B_MK10_GB_OCimport_01 { scope = 0; class EventHandlers; };
+
+            class B_GBARMY_WDL_LCU_Mk10_01 : CUP_B_MK10_GB_OCimport_02 {
+                author = "Tupolov";
+                scope = 2;
+                scopeCurator = 2;
+                displayName = "LCU Mk.10";
+                side = 1;
+                faction = "CFP_B_GBARMY_WDL";
+                crew = "CFP_B_GBARMY_Crewman_WDL_01";
+
+                class EventHandlers : EventHandlers {
+                    class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+                    class ALiVE_orbatCreator {
+                        init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    };
+
+                };
+
+                // custom attributes (do not delete)
+                ALiVE_orbatCreator_owned = 1;
+
+            };
+
             class CFP_B_GBARMY_F35B_Lightning_II_WDL_01 : CUP_B_F35B_USMC_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_F35B_Lightning_II_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -230,7 +513,6 @@ class CfgVehicles
                 faction = "CFP_B_GBARMY_WDL";
                 crew = "CFP_B_GBARMY_Pilot_WDL_01";
                 hiddenSelectionsTextures[] = {"CUP\AirVehicles\CUP_AirVehicles_F35\data\f35_baf_co.paa"};
-                editorPreview = "CUP\AirVehicles\CUP_AirVehicles_F35\Data\preview\CUP_B_F35B_AA_BAF.jpg";
 
                 class EventHandlers : EventHandlers {
                     class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -247,6 +529,7 @@ class CfgVehicles
             };
 
             class CFP_B_GBARMY_F35B_Lightning_II_Stealth_WDL_01 : CUP_B_F35B_Stealth_USMC_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_F35B_Lightning_II_Stealth_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -271,6 +554,7 @@ class CfgVehicles
             };
 
             class CFP_B_GBARMY_AH_1_WDL_01 : CUP_B_AH1_DL_BAF_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_AH_1_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -294,6 +578,7 @@ class CfgVehicles
             };
 
             class CFP_B_GBARMY_Harrier_GR_9_WDL_01 : CUP_GR9_DYN_Base_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_Harrier_GR_9_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -316,6 +601,7 @@ class CfgVehicles
             };
 
             class CFP_B_GBARMY_AW159_Wildcat_Green_WDL_01 : CUP_B_AW159_GB_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_AW159_Wildcat_Green_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -338,6 +624,7 @@ class CfgVehicles
             };
 
             class CFP_B_GBARMY_AW159_Wildcat_Green_Unarmed_WDL_01 : CUP_B_AW159_Unarmed_GB_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_AW159_Wildcat_Green_Unarmed_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -360,6 +647,7 @@ class CfgVehicles
             };
 
             class CFP_B_GBARMY_SA_330_Puma_HC2_WDL_01 : CUP_B_SA330_Puma_HC2_BAF_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_SA_330_Puma_HC2_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -382,6 +670,7 @@ class CfgVehicles
             };
 
             class CFP_B_GBARMY_SA_330_Puma_HC1_WDL_01 : CUP_B_SA330_Puma_HC1_BAF_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_SA_330_Puma_HC1_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -403,6 +692,7 @@ class CfgVehicles
             };
 
             class CFP_B_GBARMY_Merlin_HC3A_Armed_WDL_01 : CUP_B_Merlin_HC3A_Armed_GB_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_Merlin_HC3A_Armed_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -426,6 +716,7 @@ class CfgVehicles
             };
 
             class CFP_B_GBARMY_Merlin_HC3_Armed_WDL_01 : CUP_B_Merlin_HC3_Armed_GB_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_Merlin_HC3_Armed_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -449,6 +740,7 @@ class CfgVehicles
             };
 
             class CFP_B_GBARMY_Merlin_HC3A_WDL_01 : CUP_B_Merlin_HC3A_GB_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_Merlin_HC3A_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -473,6 +765,7 @@ class CfgVehicles
             };
 
             class CFP_B_GBARMY_Merlin_HC3_VIV_WDL_01 : CUP_B_Merlin_HC3_VIV_GB_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_Merlin_HC3_VIV_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -496,6 +789,7 @@ class CfgVehicles
             };
 
             class CFP_B_GBARMY_Merlin_HC3_WDL_01 : CUP_B_Merlin_HC3_GB_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_Merlin_HC3_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -519,6 +813,7 @@ class CfgVehicles
             };
 
             class CFP_B_GBARMY_Chinook_HC_4VIV_WDL_01 : CUP_CH47F_VIV_Base_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_Chinook_HC_4VIV_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -544,6 +839,7 @@ class CfgVehicles
             };
 
             class CFP_B_GBARMY_Chinook_HC_4_WDL_01 : CUP_CH47F_base_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_Chinook_HC_4_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -569,6 +865,7 @@ class CfgVehicles
             };
 
             class CFP_B_GBARMY_C130J_VIV_WDL_01 : CUP_C130J_VIV_Base_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_C130J_VIV_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -594,6 +891,7 @@ class CfgVehicles
             };
 
             class CFP_B_GBARMY_C130J_WDL_01 : CUP_C130J_Base_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_C130J_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -622,9 +920,8 @@ class CfgVehicles
             class CUP_BAF_Soldier_MTP_Base_OCimport_01 : CUP_BAF_Soldier_MTP_Base { scope = 0; class EventHandlers; editorSubcategory = "CFP_EdSubcat_Personnel_Camo_MTP";};
             class CUP_BAF_Soldier_MTP_Base_OCimport_02 : CUP_BAF_Soldier_MTP_Base_OCimport_01 { class EventHandlers; };
 
-            #define PREVIEW(x) editorPreview = \CUP\Creatures\People\Military\CUP_Creatures_People_Military_BAF\Data\preview\##x##_MTP.jpg
-
             class CFP_B_GBARMY_Rifleman_WDL_01 : CUP_BAF_Soldier_MTP_Base_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_Rifleman_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -657,11 +954,12 @@ class CfgVehicles
 
                 // custom attributes (do not delete)
                 ALiVE_orbatCreator_owned = 1;
-                PREVIEW(CUP_B_BAF_Soldier);
+
 
             };
 
             class CFP_B_GBARMY_Grenadier_WDL_01 : CUP_BAF_Soldier_MTP_Base_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_Grenadier_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -694,10 +992,11 @@ class CfgVehicles
 
                     // custom attributes (do not delete)
                     ALiVE_orbatCreator_owned = 1;
-                    PREVIEW(CUP_B_BAF_Soldier_GL);
+
             };
 
             class CFP_B_GBARMY_Rifleman_night_WDL_01 : CUP_BAF_Soldier_MTP_Base_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_Rifleman_night_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -730,11 +1029,12 @@ class CfgVehicles
 
                 // custom attributes (do not delete)
                 ALiVE_orbatCreator_owned = 1;
-                PREVIEW(CUP_B_BAF_Soldier_Night);
+
 
             };
 
             class CFP_B_GBARMY_Rifleman_light_WDL_01 : CUP_BAF_Soldier_MTP_Base_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_Rifleman_light_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -767,11 +1067,12 @@ class CfgVehicles
 
                 // custom attributes (do not delete)
                 ALiVE_orbatCreator_owned = 1;
-                PREVIEW(CUP_B_BAF_Soldier_Light);
+
 
             };
 
             class CFP_B_GBARMY_Rifleman_backpack_WDL_01 : CUP_BAF_Soldier_MTP_Base_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_Rifleman_backpack_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -804,11 +1105,12 @@ class CfgVehicles
 
                 // custom attributes (do not delete)
                 ALiVE_orbatCreator_owned = 1;
-                PREVIEW(CUP_B_BAF_Soldier_Backpack);
+
 
             };
 
             class CFP_B_GBARMY_Asst_Automatic_Rifleman_WDL_01 : CUP_BAF_Soldier_MTP_Base_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_Asst_Automatic_Rifleman_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -841,11 +1143,12 @@ class CfgVehicles
 
                 // custom attributes (do not delete)
                 ALiVE_orbatCreator_owned = 1;
-                PREVIEW(CUP_B_BAF_Soldier_AAR);
+
 
             };
 
             class CFP_B_GBARMY_Asst_Machineguner_WDL_01 : CUP_BAF_Soldier_MTP_Base_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_Asst_Machineguner_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -878,11 +1181,12 @@ class CfgVehicles
 
                 // custom attributes (do not delete)
                 ALiVE_orbatCreator_owned = 1;
-                PREVIEW(CUP_B_BAF_Soldier_AMG);
+
 
             };
 
             class CFP_B_GBARMY_Asst_AT_Specialist_WDL_01 : CUP_BAF_Soldier_MTP_Base_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_Asst_AT_Specialist_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -915,11 +1219,12 @@ class CfgVehicles
 
                 // custom attributes (do not delete)
                 ALiVE_orbatCreator_owned = 1;
-                PREVIEW(CUP_B_BAF_Soldier_AAT);
+
 
             };
 
             class CFP_B_GBARMY_Asst_AT_Specialist_Javelin_WDL_01 : CUP_BAF_Soldier_MTP_Base_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_Asst_AT_Specialist_Javelin_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -952,11 +1257,12 @@ class CfgVehicles
 
                 // custom attributes (do not delete)
                 ALiVE_orbatCreator_owned = 1;
-                PREVIEW(CUP_B_BAF_Soldier_AHAT);
+
 
             };
 
             class CFP_B_GBARMY_Asst_AA_Specialist_WDL_01 : CUP_BAF_Soldier_MTP_Base_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_Asst_AA_Specialist_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -989,11 +1295,12 @@ class CfgVehicles
 
                 // custom attributes (do not delete)
                 ALiVE_orbatCreator_owned = 1;
-                PREVIEW(CUP_B_BAF_Soldier_AAA);
+
 
             };
 
             class CFP_B_GBARMY_Officer_WDL_01 : CUP_BAF_Soldier_MTP_Base_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_Officer_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -1026,11 +1333,12 @@ class CfgVehicles
 
                 // custom attributes (do not delete)
                 ALiVE_orbatCreator_owned = 1;
-                PREVIEW(CUP_B_BAF_Officer);
+
 
             };
 
             class CFP_B_GBARMY_Section_Leader_WDL_01 : CUP_BAF_Soldier_MTP_Base_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_Section_Leader_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -1063,11 +1371,12 @@ class CfgVehicles
 
                 // custom attributes (do not delete)
                 ALiVE_orbatCreator_owned = 1;
-                PREVIEW(CUP_B_BAF_Soldier_SL);
+
 
             };
 
             class CFP_B_GBARMY_Team_Leader_WDL_01 : CUP_BAF_Soldier_MTP_Base_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_Team_Leader_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -1100,11 +1409,12 @@ class CfgVehicles
 
                 // custom attributes (do not delete)
                 ALiVE_orbatCreator_owned = 1;
-                PREVIEW(CUP_B_BAF_Soldier_TL);
+
 
             };
 
             class CFP_B_GBARMY_Automatic_Rifleman_WDL_01 : CUP_BAF_Soldier_MTP_Base_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_Automatic_Rifleman_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -1137,11 +1447,12 @@ class CfgVehicles
 
                 // custom attributes (do not delete)
                 ALiVE_orbatCreator_owned = 1;
-                PREVIEW(CUP_B_BAF_Soldier_AR);
+
 
             };
 
             class CFP_B_GBARMY_Machinegunner_WDL_01 : CUP_BAF_Soldier_MTP_Base_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_Machinegunner_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -1174,11 +1485,12 @@ class CfgVehicles
 
                 // custom attributes (do not delete)
                 ALiVE_orbatCreator_owned = 1;
-                PREVIEW(CUP_B_BAF_Soldier_MG);
+
 
             };
 
             class CFP_B_GBARMY_AT_Specialist_WDL_01 : CUP_BAF_Soldier_MTP_Base_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_AT_Specialist_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -1211,11 +1523,12 @@ class CfgVehicles
 
                 // custom attributes (do not delete)
                 ALiVE_orbatCreator_owned = 1;
-                PREVIEW(CUP_B_BAF_Soldier_AT);
+
 
             };
 
             class CFP_B_GBARMY_AT_Specialist_Javelin_WDL_01 : CUP_BAF_Soldier_MTP_Base_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_AT_Specialist_Javelin_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -1248,11 +1561,12 @@ class CfgVehicles
 
                 // custom attributes (do not delete)
                 ALiVE_orbatCreator_owned = 1;
-                PREVIEW(CUP_B_BAF_Soldier_HAT);
+
 
             };
 
             class CFP_B_GBARMY_AA_Specialist_WDL_01 : CUP_BAF_Soldier_MTP_Base_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_AA_Specialist_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -1285,11 +1599,12 @@ class CfgVehicles
 
                 // custom attributes (do not delete)
                 ALiVE_orbatCreator_owned = 1;
-                PREVIEW(CUP_B_BAF_Soldier_AA);
+
 
             };
 
             class CFP_B_GBARMY_Marksman_LSW_WDL_01 : CUP_BAF_Soldier_MTP_Base_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_Marksman_LSW_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -1322,11 +1637,12 @@ class CfgVehicles
 
                 // custom attributes (do not delete)
                 ALiVE_orbatCreator_owned = 1;
-                PREVIEW(CUP_B_BAF_Soldier_Marksman);
+
 
             };
 
             class CFP_B_GBARMY_Marksman_LRR_WDL_01 : CUP_BAF_Soldier_MTP_Base_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_Marksman_LRR_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -1359,11 +1675,12 @@ class CfgVehicles
 
                 // custom attributes (do not delete)
                 ALiVE_orbatCreator_owned = 1;
-                PREVIEW(CUP_B_BAF_Soldier_scout);
+
 
             };
 
             class CFP_B_GBARMY_Sniper_LRR_WDL_01 : CFP_B_GBARMY_Marksman_LRR_WDL_01 {
+                PREVIEW(CFP_B_GBARMY_Sniper_LRR_WDL_01);
                 displayName = "Sniper (LRR)";
                 uniformClass = "CUP_U_B_CZ_WDL_Ghillie";
 
@@ -1375,11 +1692,12 @@ class CfgVehicles
 
                 // custom attributes (do not delete)
                 ALiVE_orbatCreator_owned = 1;
-                PREVIEW(CUP_B_BAF_Sniper);
+
 
             };
 
             class CFP_B_GBARMY_Sniper_LRR_TWS_WDL_01 : CFP_B_GBARMY_Marksman_LRR_WDL_01 {
+                PREVIEW(CFP_B_GBARMY_Sniper_LRR_TWS_WDL_01);
                 displayName = "Sniper (LRR TWS)";
                 uniformClass = "CUP_U_B_CZ_WDL_Ghillie";
 
@@ -1391,11 +1709,12 @@ class CfgVehicles
 
                 // custom attributes (do not delete)
                 ALiVE_orbatCreator_owned = 1;
-                PREVIEW(CUP_B_BAF_Sniper);
+
 
             };
 
             class CFP_B_GBARMY_Sniper_AS50_WDL_01 : CFP_B_GBARMY_Marksman_LRR_WDL_01 {
+                PREVIEW(CFP_B_GBARMY_Sniper_AS50_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -1428,11 +1747,12 @@ class CfgVehicles
 
                 // custom attributes (do not delete)
                 ALiVE_orbatCreator_owned = 1;
-                PREVIEW(CUP_B_BAF_Sniper_AS50);
+
 
             };
 
             class CFP_B_GBARMY_Sniper_AS50_TWS_WDL_01 : CFP_B_GBARMY_Marksman_LRR_WDL_01 {
+                PREVIEW(CFP_B_GBARMY_Sniper_AS50_TWS_WDL_01);
                 displayName = "Sniper (AS50 TWS)";
                 uniformClass = "CUP_U_B_CZ_WDL_Ghillie";
 
@@ -1444,11 +1764,12 @@ class CfgVehicles
 
                 // custom attributes (do not delete)
                 ALiVE_orbatCreator_owned = 1;
-                PREVIEW(CUP_B_BAF_Sniper_AS50_TWS);
+
 
             };
 
             class CFP_B_GBARMY_Spotter_WDL_01 : CUP_BAF_Soldier_MTP_Base_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_Spotter_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -1481,11 +1802,12 @@ class CfgVehicles
 
                 // custom attributes (do not delete)
                 ALiVE_orbatCreator_owned = 1;
-                PREVIEW(CUP_B_BAF_Spotter);
+
 
             };
 
             class CFP_B_GBARMY_Spotter_night_WDL_01 : CFP_B_GBARMY_Spotter_WDL_01 {
+                PREVIEW(CFP_B_GBARMY_Spotter_night_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -1518,11 +1840,12 @@ class CfgVehicles
 
                 // custom attributes (do not delete)
                 ALiVE_orbatCreator_owned = 1;
-                PREVIEW(CUP_B_BAF_Spotter_L85TWS);
+
 
             };
 
             class CFP_B_GBARMY_Pilot_WDL_01 : CUP_BAF_Soldier_MTP_Base_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_Pilot_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -1555,11 +1878,12 @@ class CfgVehicles
 
                 // custom attributes (do not delete)
                 ALiVE_orbatCreator_owned = 1;
-                PREVIEW(CUP_B_BAF_Pilot);
+
 
             };
 
             class CFP_B_GBARMY_Crewman_WDL_01 : CUP_BAF_Soldier_MTP_Base_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_Crewman_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -1592,11 +1916,12 @@ class CfgVehicles
 
                 // custom attributes (do not delete)
                 ALiVE_orbatCreator_owned = 1;
-                PREVIEW(CUP_B_BAF_Crew);
+
 
             };
 
             class CFP_B_GBARMY_Medic_WDL_01 : CUP_BAF_Soldier_MTP_Base_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_Medic_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -1632,11 +1957,12 @@ class CfgVehicles
 
                 // custom attributes (do not delete)
                 ALiVE_orbatCreator_owned = 1;
-                PREVIEW(CUP_B_BAF_Medic);
+
 
             };
 
             class CFP_B_GBARMY_Joint_Terminal_Attack_Controller_WDL_01 : CUP_BAF_Soldier_MTP_Base_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_Joint_Terminal_Attack_Controller_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -1669,11 +1995,12 @@ class CfgVehicles
 
                 // custom attributes (do not delete)
                 ALiVE_orbatCreator_owned = 1;
-                PREVIEW(CUP_B_BAF_Soldier_JTAC);
+
 
             };
 
             class CFP_B_GBARMY_Engineer_WDL_01 : CUP_BAF_Soldier_MTP_Base_OCimport_02 {
+                PREVIEW(CFP_B_GBARMY_Engineer_WDL_01);
                 author = "Tupolov";
                 scope = 2;
                 scopeCurator = 2;
@@ -1707,13 +2034,14 @@ class CfgVehicles
 
                 // custom attributes (do not delete)
                 ALiVE_orbatCreator_owned = 1;
-                PREVIEW(CUP_B_BAF_Engineer);
+
 
             };
 
         // Gunners
 
             class CFP_B_GBARMY_Gunner_M2_High_WDL_01 : CFP_B_GBARMY_Rifleman_WDL_01 {
+                PREVIEW(CFP_B_GBARMY_Gunner_M2_High_WDL_01);
                 displayName = "Gunner [MG High]";
 
                 backpack = "CUP_B_M2_Gun_Bag";
@@ -1732,6 +2060,7 @@ class CfgVehicles
             };
 
             class CFP_B_GBARMY_Gunner_M2_Low_WDL_01 : CFP_B_GBARMY_Rifleman_WDL_01 {
+                PREVIEW(CFP_B_GBARMY_Gunner_M2_Low_WDL_01);
                 displayName = "Gunner [MG Low]";
 
                 backpack = "CUP_B_M2_Gun_Bag";
@@ -1749,6 +2078,7 @@ class CfgVehicles
             };
 
             class CFP_B_GBARMY_Asst_Gunner_M2_WDL_01 : CFP_B_GBARMY_Rifleman_WDL_01 {
+                PREVIEW(CFP_B_GBARMY_Asst_Gunner_M2_WDL_01);
                 displayName = "Asst. Gunner [MG]";
 
                 backpack = "CUP_B_M2_Tripod_Bag";
@@ -1766,6 +2096,7 @@ class CfgVehicles
             };
 
             class CFP_B_GBARMY_Asst_Gunner_M2Low_WDL_01 : CFP_B_GBARMY_Rifleman_WDL_01 {
+                PREVIEW(CFP_B_GBARMY_Asst_Gunner_M2Low_WDL_01);
                 displayName = "Asst. Gunner [MG Low]";
 
                 backpack = "CUP_B_M2_Minitripod_Bag";
@@ -1783,6 +2114,7 @@ class CfgVehicles
             };
 
             class CFP_B_GBARMY_Gunner_TOW_WDL_01 : CFP_B_GBARMY_Rifleman_WDL_01 {
+                PREVIEW(CFP_B_GBARMY_Gunner_TOW_WDL_01);
                 displayName = "Gunner [AT]";
 
                 backpack = "CUP_B_Tow_Gun_Bag";
@@ -1800,6 +2132,7 @@ class CfgVehicles
             };
 
             class CFP_B_GBARMY_Asst_Gunner_TOW_WDL_01 : CFP_B_GBARMY_Rifleman_WDL_01 {
+                PREVIEW(CFP_B_GBARMY_Asst_Gunner_TOW_WDL_01);
                 displayName = "Asst. Gunner [AT]";
 
                 backpack = "CUP_B_TOW_Tripod_Bag";
@@ -1816,6 +2149,7 @@ class CfgVehicles
             };
 
             class CFP_B_GBARMY_Gunner_Mortar_WDL_01 : CFP_B_GBARMY_Rifleman_WDL_01 {
+                PREVIEW(CFP_B_GBARMY_Gunner_Mortar_WDL_01);
 
                 displayName = "Gunner [Mortar]";
 
@@ -1834,6 +2168,7 @@ class CfgVehicles
             };
 
             class CFP_B_GBARMY_Asst_Gunner_Mortar_WDL_01 : CFP_B_GBARMY_Rifleman_WDL_01 {
+                PREVIEW(CFP_B_GBARMY_Asst_Gunner_Mortar_WDL_01);
                 displayName = "Asst. Gunner [Mortar]";
 
                 backpack = "CUP_B_M252_Bipod_Bag";
