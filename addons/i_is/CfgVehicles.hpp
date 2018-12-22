@@ -1179,7 +1179,7 @@ class CfgVehicles {
         {
             class ADDON
             {
-                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
+                init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
             };
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_Offroad.jpg";
@@ -1192,7 +1192,7 @@ class CfgVehicles {
         {
             class ADDON
             {
-                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""; (_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\AttachFlag.sqf""";
+                init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""; (_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\AttachFlag.sqf""";
             };
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_Offroad_flag.jpg";
@@ -1215,7 +1215,7 @@ class CfgVehicles {
         {
             class ADDON
             {
-                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
+                init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
             };
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_Offroad_MG.jpg";
@@ -1228,7 +1228,7 @@ class CfgVehicles {
         {
             class ADDON
             {
-                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""; (_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\AttachFlag.sqf""";
+                init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""; (_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\AttachFlag.sqf""";
             };
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_Offroad_MG_flag.jpg";
@@ -1252,7 +1252,7 @@ class CfgVehicles {
         {
             class ADDON
             {
-                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
+                init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
             };
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_Offroad_AT.jpg";
@@ -1277,7 +1277,7 @@ class CfgVehicles {
         {
             class ADDON
             {
-                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
+                init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
             };
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_Jeep_LMG.jpg";
@@ -1302,7 +1302,7 @@ class CfgVehicles {
         {
             class ADDON
             {
-                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
+                init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
             };
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_Jeep_AT.jpg";
@@ -1325,7 +1325,7 @@ class CfgVehicles {
         {
             class ADDON
             {
-                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
+                init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
             };
         };
     };
@@ -1345,8 +1345,8 @@ class CfgVehicles {
         {
             class ADDON
             {
-                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""; (_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\AttachFlag.sqf""";
-                killed = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\onkilled.sqf""";
+                init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""; (_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\AttachFlag.sqf""";
+                killed = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\onkilled.sqf""";
             };
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_Datsun_PK.jpg";
@@ -1368,7 +1368,7 @@ class CfgVehicles {
         {
             class ADDON
             {
-                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
+                init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
             };
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_LR_MG.jpg";
@@ -1389,7 +1389,7 @@ class CfgVehicles {
         {
             class ADDON
             {
-                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
+                init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
             };
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_LR_SPG.jpg";
@@ -1410,7 +1410,7 @@ class CfgVehicles {
         {
             class ADDON
             {
-                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
+                init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
             };
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_LR.jpg";
@@ -1431,7 +1431,7 @@ class CfgVehicles {
         {
             class ADDON
             {
-                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
+                init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
             };
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_UAZ_DShKM.jpg";
@@ -1452,7 +1452,7 @@ class CfgVehicles {
         {
             class ADDON
             {
-                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
+                init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
             };
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_UAZ_AGS.jpg";
@@ -1473,7 +1473,7 @@ class CfgVehicles {
         {
             class ADDON
             {
-                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
+                init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
             };
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_UAZ_SPG.jpg";
@@ -1494,7 +1494,7 @@ class CfgVehicles {
         {
             class ADDON
             {
-                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
+                init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
             };
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_UAZ_Metis.jpg";
@@ -1515,7 +1515,7 @@ class CfgVehicles {
         {
             class ADDON
             {
-                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
+                init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
             };
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_UAZ.jpg";
@@ -1536,7 +1536,7 @@ class CfgVehicles {
         {
             class ADDON
             {
-                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
+                init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
             };
         };
     };
@@ -1582,7 +1582,7 @@ class CfgVehicles {
         {
             class ADDON
             {
-                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
+                init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
             };
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_Ural.jpg";
@@ -1603,7 +1603,7 @@ class CfgVehicles {
         {
             class ADDON
             {
-                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
+                init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
             };
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_Ural_ZU23.jpg";
@@ -1624,7 +1624,7 @@ class CfgVehicles {
         {
             class ADDON
             {
-                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
+                init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
             };
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_BTR40.jpg";
@@ -1637,8 +1637,8 @@ class CfgVehicles {
         {
             class ADDON : ADDON
             {
-                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""; (_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\AttachFlag.sqf""";
-                killed = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\onkilled.sqf""";
+                init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""; (_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\AttachFlag.sqf""";
+                killed = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\onkilled.sqf""";
             };
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_BTR40_flag.jpg";
@@ -1660,7 +1660,7 @@ class CfgVehicles {
         {
             class ADDON
             {
-                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
+                init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
             };
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_M113_2.jpg";
@@ -1674,8 +1674,8 @@ class CfgVehicles {
         {
             class ADDON : ADDON
             {
-                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""; (_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\AttachFlag.sqf""";
-                killed = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\onkilled.sqf""";
+                init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""; (_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\AttachFlag.sqf""";
+                killed = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\onkilled.sqf""";
             };
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_M113_2_flag.jpg";
@@ -1697,7 +1697,7 @@ class CfgVehicles {
         {
             class ADDON
             {
-                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
+                init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
             };
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_BMP1.jpg";
@@ -1711,8 +1711,8 @@ class CfgVehicles {
         {
             class ADDON
             {
-                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""; (_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\AttachFlag.sqf""";
-                killed = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\onkilled.sqf""";
+                init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""; (_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\AttachFlag.sqf""";
+                killed = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\onkilled.sqf""";
             };
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_BMP1_flag.jpg";
@@ -1733,7 +1733,7 @@ class CfgVehicles {
         {
             class ADDON
             {
-                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
+                init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
             };
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_BMP1P.jpg";
@@ -1747,8 +1747,8 @@ class CfgVehicles {
         {
             class ADDON
             {
-                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""; (_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\AttachFlag.sqf""";
-                killed = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\onkilled.sqf""";
+                init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""; (_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\AttachFlag.sqf""";
+                killed = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\onkilled.sqf""";
             };
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_BMP1P_flag.jpg";
@@ -1769,7 +1769,7 @@ class CfgVehicles {
         {
             class ADDON
             {
-                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
+                init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
             };
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_BMP2_PKM.jpg";
@@ -1783,8 +1783,8 @@ class CfgVehicles {
         {
             class ADDON
             {
-                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""; (_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\AttachFlag.sqf""";
-                killed = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\onkilled.sqf""";
+                init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""; (_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\AttachFlag.sqf""";
+                killed = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\onkilled.sqf""";
             };
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_BMP2_PKM_flag.jpg";
@@ -1805,7 +1805,7 @@ class CfgVehicles {
         {
             class ADDON
             {
-                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
+                init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
             };
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_BMP2.jpg";
@@ -1826,7 +1826,7 @@ class CfgVehicles {
         {
             class ADDON
             {
-                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
+                init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
             };
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_BMP2_ZSU.jpg";
@@ -1847,7 +1847,7 @@ class CfgVehicles {
         {
             class ADDON
             {
-                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
+                init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
             };
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_T34.jpg";
@@ -1861,8 +1861,8 @@ class CfgVehicles {
         {
             class ADDON
             {
-                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""; (_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\AttachFlag.sqf""";
-                killed = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\onkilled.sqf""";
+                init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""; (_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\AttachFlag.sqf""";
+                killed = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\onkilled.sqf""";
             };
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_T34_flag.jpg";
@@ -1883,7 +1883,7 @@ class CfgVehicles {
         {
             class ADDON
             {
-                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
+                init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
             };
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_T55.jpg";
@@ -1897,8 +1897,8 @@ class CfgVehicles {
         {
             class ADDON
             {
-                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""; (_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\AttachFlag.sqf""";
-                killed = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\onkilled.sqf""";
+                init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""; (_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\AttachFlag.sqf""";
+                killed = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\onkilled.sqf""";
             };
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_T55_flag.jpg";
@@ -1919,7 +1919,7 @@ class CfgVehicles {
         {
             class ADDON
             {
-                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
+                init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
             };
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_T72_tan.jpg";
@@ -1940,8 +1940,8 @@ class CfgVehicles {
         {
             class ADDON
             {
-                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""; (_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\AttachFlag.sqf""";
-                killed = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\onkilled.sqf""";
+                init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""; (_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\AttachFlag.sqf""";
+                killed = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\onkilled.sqf""";
             };
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_T72_flag.jpg";
@@ -1962,7 +1962,7 @@ class CfgVehicles {
         {
             class ADDON
             {
-                init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
+                init = "(_this select 0) execVM ""\x\cfp\addons\i_is\Scripts\randomize_tex.sqf""";
             };
         };
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_ZSU.jpg";
