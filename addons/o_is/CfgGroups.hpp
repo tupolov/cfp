@@ -325,165 +325,165 @@ class CfgGroups
 
 				class cfp_o_is_infantry_dshkm_team {
                     name = "DShKM Team";
-                    side = 2;
-                    faction = "CFP_I_IS";
+                    side = 0;
+                    faction = "CFP_O_IS";
                     icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 2;
+                        side = 0;
                         vehicle = "cfp_o_is_rifleman_dshkm";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
-                        side = 2;
+                        side = 0;
                         vehicle = "cfp_o_is_Asst_Gunner_DSHKM";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
-                        side = 2;
+                        side = 0;
                         vehicle = "cfp_o_is_rifleman";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
-                        side = 2;
+                        side = 0;
                         vehicle = "cfp_o_is_rifleman";
                     };
                 };
 
                 class cfp_o_is_infantry_kord_team {
                     name = "KORD Team";
-                    side = 2;
-                    faction = "CFP_I_IS";
+                    side = 0;
+                    faction = "CFP_O_IS";
                     icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 2;
+                        side = 0;
                         vehicle = "cfp_o_is_rifleman_kord";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
-                        side = 2;
+                        side = 0;
                         vehicle = "cfp_o_is_Asst_Gunner_KORD";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
-                        side = 2;
+                        side = 0;
                         vehicle = "cfp_o_is_rifleman";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
-                        side = 2;
+                        side = 0;
                         vehicle = "cfp_o_is_rifleman";
                     };
                 };
 
                 class cfp_o_is_infantry_mortar_team {
                     name = "Mortar Team";
-                    side = 2;
-                    faction = "CFP_I_IS";
+                    side = 0;
+                    faction = "CFP_O_IS";
                     icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 2;
+                        side = 0;
                         vehicle = "cfp_o_is_rifleman_podnos";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
-                        side = 2;
+                        side = 0;
                         vehicle = "cfp_o_is_Asst_Gunner_Podnos";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
-                        side = 2;
+                        side = 0;
                         vehicle = "cfp_o_is_rifleman_podnos";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
-                        side = 2;
+                        side = 0;
                         vehicle = "cfp_o_is_Asst_Gunner_Podnos";
                     };
                 };
 
                 class cfp_o_is_infantry_metis_at_team {
                     name = "METIS AT Team";
-                    side = 2;
-                    faction = "CFP_I_IS";
+                    side = 0;
+                    faction = "CFP_O_IS";
                     icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 2;
+                        side = 0;
                         vehicle = "cfp_o_is_rifleman_metis";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
-                        side = 2;
+                        side = 0;
                         vehicle = "cfp_o_is_Asst_Gunner_METIS";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
-                        side = 2;
+                        side = 0;
                         vehicle = "cfp_o_is_rifleman";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
-                        side = 2;
+                        side = 0;
                         vehicle = "cfp_o_is_rifleman";
                     };
                 };
 
                 class cfp_o_is_infantry_spg_9team {
                     name = "SPG-9 Team";
-                    side = 2;
-                    faction = "CFP_I_IS";
+                    side = 0;
+                    faction = "CFP_O_IS";
                     icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 2;
+                        side = 0;
                         vehicle = "cfp_o_is_rifleman_spg9";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
-                        side = 2;
+                        side = 0;
                         vehicle = "cfp_o_is_Asst_Gunner_SPG";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
-                        side = 2;
+                        side = 0;
                         vehicle = "cfp_o_is_rifleman";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
-                        side = 2;
+                        side = 0;
                         vehicle = "cfp_o_is_rifleman";
                     };
                 };
