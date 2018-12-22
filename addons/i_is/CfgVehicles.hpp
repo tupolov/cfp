@@ -1169,7 +1169,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS Offroad";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_MOTORIZED";
+        vehicleClass = "CFP_i_is_MOTORIZED";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman","cfp_i_is_crewman"};
@@ -1205,7 +1205,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS Offroad MG";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_MOTORIZED";
+        vehicleClass = "CFP_i_is_MOTORIZED";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman","cfp_i_is_crewman"};
@@ -1242,7 +1242,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS Offroad AT";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_MOTORIZED";
+        vehicleClass = "CFP_i_is_MOTORIZED";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman","cfp_i_is_crewman"};
@@ -1266,7 +1266,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS Jeep (LMG)";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_MOTORIZED";
+        vehicleClass = "CFP_i_is_MOTORIZED";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman","cfp_i_is_crewman"};
@@ -1291,7 +1291,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS Jeep (AT)";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_MOTORIZED";
+        vehicleClass = "CFP_i_is_MOTORIZED";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman","cfp_i_is_crewman"};
@@ -1317,7 +1317,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS Pickup PK";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_MOTORIZED";
+        vehicleClass = "CFP_i_is_MOTORIZED";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman","cfp_i_is_crewman"};
@@ -1337,7 +1337,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS Pickup PK (Flag)";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_MOTORIZED";
+        vehicleClass = "CFP_i_is_MOTORIZED";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman","cfp_i_is_crewman"};
@@ -1360,7 +1360,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS L.R. M2";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_MOTORIZED";
+        vehicleClass = "CFP_i_is_MOTORIZED";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman","cfp_i_is_crewman"};
@@ -1381,7 +1381,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS L.R. SPG9";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_MOTORIZED";
+        vehicleClass = "CFP_i_is_MOTORIZED";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman","cfp_i_is_crewman"};
@@ -1402,7 +1402,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS L.R.";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_MOTORIZED";
+        vehicleClass = "CFP_i_is_MOTORIZED";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman"};
@@ -1423,7 +1423,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS UAZ MG";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_MOTORIZED";
+        vehicleClass = "CFP_i_is_MOTORIZED";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman","cfp_i_is_crewman"};
@@ -1444,7 +1444,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS UAZ AGS30";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_MOTORIZED";
+        vehicleClass = "CFP_i_is_MOTORIZED";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman","cfp_i_is_crewman"};
@@ -1465,7 +1465,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS UAZ SPG9";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_MOTORIZED";
+        vehicleClass = "CFP_i_is_MOTORIZED";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman","cfp_i_is_crewman"};
@@ -1486,7 +1486,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS UAZ METIS";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_MOTORIZED";
+        vehicleClass = "CFP_i_is_MOTORIZED";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman","cfp_i_is_crewman"};
@@ -1507,7 +1507,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS UAZ";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_MOTORIZED";
+        vehicleClass = "CFP_i_is_MOTORIZED";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman"};
@@ -1528,7 +1528,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS UAZ Open";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_MOTORIZED";
+        vehicleClass = "CFP_i_is_MOTORIZED";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman"};
@@ -1548,7 +1548,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS HMMWV DShKM";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_MOTORIZED";
+        vehicleClass = "CFP_i_is_MOTORIZED";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman"};
@@ -1561,7 +1561,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS HMMWV AGS";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_MOTORIZED";
+        vehicleClass = "CFP_i_is_MOTORIZED";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman"};
@@ -1574,7 +1574,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS Ural";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_MOTORIZED";
+        vehicleClass = "CFP_i_is_MOTORIZED";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman","cfp_i_is_crewman"};
@@ -1595,7 +1595,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS Ural ZU23";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_MOTORIZED";
+        vehicleClass = "CFP_i_is_MOTORIZED";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman","cfp_i_is_crewman"};
@@ -1616,7 +1616,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS BTR40 MG";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_MOTORIZED";
+        vehicleClass = "CFP_i_is_MOTORIZED";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman","cfp_i_is_crewman"};
@@ -1652,7 +1652,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS M113";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_MECHANIZED";
+        vehicleClass = "CFP_i_is_MECHANIZED";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman","cfp_i_is_crewman","cfp_i_is_crewman"};
@@ -1689,7 +1689,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS BMP-1";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_MECHANIZED";
+        vehicleClass = "CFP_i_is_MECHANIZED";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman","cfp_i_is_crewman","cfp_i_is_crewman"};
@@ -1725,7 +1725,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS BMP-1P";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_MECHANIZED";
+        vehicleClass = "CFP_i_is_MECHANIZED";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman","cfp_i_is_crewman","cfp_i_is_crewman"};
@@ -1761,7 +1761,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS BMP-2 PKM";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_MECHANIZED";
+        vehicleClass = "CFP_i_is_MECHANIZED";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman","cfp_i_is_crewman","cfp_i_is_crewman"};
@@ -1797,7 +1797,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS BMP-2";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_MECHANIZED";
+        vehicleClass = "CFP_i_is_MECHANIZED";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman","cfp_i_is_crewman","cfp_i_is_crewman"};
@@ -1818,7 +1818,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS BMP-2 ZSU";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_MECHANIZED";
+        vehicleClass = "CFP_i_is_MECHANIZED";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman","cfp_i_is_crewman","cfp_i_is_crewman"};
@@ -1839,7 +1839,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS T34";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_ARMORED";
+        vehicleClass = "CFP_i_is_ARMORED";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman","cfp_i_is_crewman"};
@@ -1875,7 +1875,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS T55";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_ARMORED";
+        vehicleClass = "CFP_i_is_ARMORED";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman","cfp_i_is_crewman","cfp_i_is_crewman"};
@@ -1911,7 +1911,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS T72";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_ARMORED";
+        vehicleClass = "CFP_i_is_ARMORED";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman","cfp_i_is_crewman","cfp_i_is_crewman"};
@@ -1932,7 +1932,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS T72 (Flag)";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_ARMORED";
+        vehicleClass = "CFP_i_is_ARMORED";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman","cfp_i_is_crewman","cfp_i_is_crewman"};
@@ -1954,7 +1954,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS ZSU";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_ARMORED";
+        vehicleClass = "CFP_i_is_ARMORED";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman","cfp_i_is_crewman","cfp_i_is_crewman"};
@@ -1975,7 +1975,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS ZU23";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_STATIC";
+        vehicleClass = "CFP_i_is_STATIC";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman"};
@@ -1988,7 +1988,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS DSHKM";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_STATIC";
+        vehicleClass = "CFP_i_is_STATIC";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman"};
@@ -2001,7 +2001,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS DSHkM Mini TriPod";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_STATIC";
+        vehicleClass = "CFP_i_is_STATIC";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman"};
@@ -2014,7 +2014,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS KORD";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_STATIC";
+        vehicleClass = "CFP_i_is_STATIC";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman"};
@@ -2027,7 +2027,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS KORD High";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_STATIC";
+        vehicleClass = "CFP_i_is_STATIC";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman"};
@@ -2040,7 +2040,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS AGS";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_STATIC";
+        vehicleClass = "CFP_i_is_STATIC";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman"};
@@ -2053,7 +2053,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS M2";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_STATIC";
+        vehicleClass = "CFP_i_is_STATIC";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman"};
@@ -2066,7 +2066,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS M2 Mini Tripod";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_STATIC";
+        vehicleClass = "CFP_i_is_STATIC";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman"};
@@ -2079,7 +2079,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS Metis";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_STATIC";
+        vehicleClass = "CFP_i_is_STATIC";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman"};
@@ -2092,7 +2092,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS SPG9";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_STATIC";
+        vehicleClass = "CFP_i_is_STATIC";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman"};
@@ -2105,7 +2105,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS TOW";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_STATIC";
+        vehicleClass = "CFP_i_is_STATIC";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman"};
@@ -2118,7 +2118,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS 2b14 82mm";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_STATIC";
+        vehicleClass = "CFP_i_is_STATIC";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman"};
@@ -2131,7 +2131,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS M252";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_STATIC";
+        vehicleClass = "CFP_i_is_STATIC";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman"};
@@ -2144,7 +2144,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS D30";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_STATIC";
+        vehicleClass = "CFP_i_is_STATIC";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman"};
@@ -2157,7 +2157,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS D30 AT";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_STATIC";
+        vehicleClass = "CFP_i_is_STATIC";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman"};
@@ -2170,7 +2170,7 @@ class CfgVehicles {
         side = 2;
         displayName = "IS M119";
         faction = "CFP_I_IS";
-        vehicleClass = "CFP_o_is_STATIC";
+        vehicleClass = "CFP_i_is_STATIC";
         camouflage = 4;
         crew = "cfp_i_is_crewman";
         typicalCargo[] = {"cfp_i_is_crewman"};
