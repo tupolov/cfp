@@ -20,6 +20,17 @@ class CfgVehicles {
     class B_Helipilot_F_OCimport_01 : B_Helipilot_F { scope = 0; class EventHandlers; };
     class B_Helipilot_F_OCimport_02 : B_Helipilot_F_OCimport_01 { class EventHandlers; };
 
+    class CUP_B_MH47E_USA;
+    class CUP_B_MH47E_USA_OCimport_01 : CUP_B_MH47E_USA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_B_MH47E_USA_OCimport_02 : CUP_B_MH47E_USA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+            class RightDoorGun;
+            class CoPilotObs;
+        };
+    };
+
     class CFP_B_USARMY_UH60M_US;
     class CFP_B_USARMY_UH60M_US_OCimport_01 : CFP_B_USARMY_UH60M_US { scope = 0; class EventHandlers; class Turrets; };
     class CFP_B_USARMY_UH60M_US_OCimport_02 : CFP_B_USARMY_UH60M_US_OCimport_01 {
@@ -1361,6 +1372,37 @@ class CfgVehicles {
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
             class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_B_USSEALS_MH_47E_WDL_01 : CUP_B_MH47E_USA_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "MH-47E";
+        side = 1;
+        faction = "CFP_B_USSEALS_WDL";
+        crew = "CFP_B_USSEALS_Helicopter_Pilot_WDL_01";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Crew_WDL_01"; };
+            class RightDoorGun : RightDoorGun { gunnerType = "CFP_B_USSEALS_Helicopter_Crew_WDL_01"; };
+            class CoPilotObs : CoPilotObs { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_WDL_01"; };
         };
 
 

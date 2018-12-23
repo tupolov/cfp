@@ -17,6 +17,17 @@ class CfgVehicles {
     class B_Soldier_F_OCimport_01 : B_Soldier_F { scope = 0; class EventHandlers; };
     class B_Soldier_F_OCimport_02 : B_Soldier_F_OCimport_01 { class EventHandlers; };
 
+    class CUP_B_MH47E_USA;
+    class CUP_B_MH47E_USA_OCimport_01 : CUP_B_MH47E_USA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_B_MH47E_USA_OCimport_02 : CUP_B_MH47E_USA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+            class RightDoorGun;
+            class CoPilotObs;
+        };
+    };
+
     class CUP_B_MH6M_USA;
     class CUP_B_MH6M_USA_OCimport_01 : CUP_B_MH6M_USA { scope = 0; class EventHandlers; class Turrets; };
     class CUP_B_MH6M_USA_OCimport_02 : CUP_B_MH6M_USA_OCimport_01 {
@@ -1052,6 +1063,37 @@ class CfgVehicles {
         backpack = "CFP_Kitbag_MCam_Grn";
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_Mk17_CQC_SFG_woodland","","CFP_acc_ANPEQ15_Black","CFP_optic_ELCAN_SpecterDR_Black",{"CUP_20Rnd_762x51_B_SCAR",20},{},""},{},{"CUP_hgun_M9","","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CFP_75th_CRYE_V4b_Sleeved",{{"FirstAidKit",1},{"CUP_15Rnd_9x19_M9",2,15}}},{"CFP_HV5_Ciras_Olive",{{"CUP_HandGrenade_M67",1,1},{"B_IR_Grenade",1,1},{"Chemlight_green",1,1},{"Chemlight_red",1,1},{"SmokeShell",1,1},{"CUP_20Rnd_762x51_B_SCAR",7,20}}},{"CFP_Kitbag_MCam_Grn",{{"MineDetector",1},{"CUP_PipeBomb_M",2,1},{"ATMine_Range_Mag",1,1},{"DemoCharge_Remote_Mag",4,1}}},"CFP_OpsC_Covered","G_Tactical_Black",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CFP_ANPVS15_Camo_V3"}};
+
+    };
+
+    class CFP_B_USRANGERS_MH_47E_WDL_01 : CUP_B_MH47E_USA_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "MH-47E";
+        side = 1;
+        faction = "CFP_B_USRANGERS_WDL";
+        crew = "CFP_B_USRANGERS_Helicopter_Pilot_WDL_01";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WDL_01"; };
+            class RightDoorGun : RightDoorGun { gunnerType = "CFP_B_USRANGERS_Helicopter_Crew_WDL_01"; };
+            class CoPilotObs : CoPilotObs { gunnerType = "CFP_B_USRANGERS_Helicopter_Pilot_WDL_01"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
 
     };
 

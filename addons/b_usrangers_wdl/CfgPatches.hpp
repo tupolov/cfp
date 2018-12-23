@@ -23,6 +23,7 @@ class CfgPatches {
             "CFP_B_USRANGERS_Team_Leader_WDL_01",
             "CFP_B_USRANGERS_Engineer_WDL_01",
             "CFP_B_USRANGERS_Explosive_Specialist_WDL_01",
+            "CFP_B_USRANGERS_MH_47E_WDL_01",
             "CFP_B_USRANGERS_MH_6M_MELB_WDL_01",
             "CFP_B_USRANGERS_MH_6J_Little_Bird_WDL_01",
             "CFP_B_USRANGERS_MH_6M_Recon_WDL_01",
