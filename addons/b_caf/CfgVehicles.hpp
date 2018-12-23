@@ -109,6 +109,17 @@ class CfgVehicles {
         };
     };
 
+    class CUP_Mi8_base;
+    class CUP_Mi8_base_OCimport_01 : CUP_Mi8_base { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_Mi8_base_OCimport_02 : CUP_Mi8_base_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+            class BackTurret;
+            class CopilotTurret;
+        };
+    };
+
     class CUP_O_BTR60_SLA;
     class CUP_O_BTR60_SLA_OCimport_01 : CUP_O_BTR60_SLA { scope = 0; class EventHandlers; class Turrets; };
     class CUP_O_BTR60_SLA_OCimport_02 : CUP_O_BTR60_SLA_OCimport_01 {
@@ -1118,20 +1129,37 @@ class CfgVehicles {
 
     };
 
-    class CUP_O_Mi17_TK;
-    class CUP_O_Mi17_TK_OCimport_01 : CUP_O_Mi17_TK { scope = 0; class EventHandlers; class Turrets; };
-    class CFP_B_CAF_Mi_8MT_01 : CUP_O_Mi17_TK_OCimport_01
+    class CFP_B_CAF_Mi_8MT_01 : CUP_Mi8_base_OCimport_02
     {
         editorPreview = "\x\cfp\addons\b_caf\data\preview\CFP_B_CAF_Mi_8MT_01.JPG";
         scope = 2;
         side = 1;
         displayName = "Mi-8MT";
         faction = "CFP_B_CAF";
-        vehicleClass = "CFP_B_CAF_AIRCRAFT";
-        camouflage = 4;
         crew = "CFP_B_CAF_Helicopter_Pilot_01";
         typicalCargo[] = {"CFP_B_CAF_Helicopter_Pilot_01","CFP_B_CAF_Helicopter_Pilot_01"};
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Mi8\mi17_chad.paa","\x\cfp\addons\vehicles\Mi8\mi8_det_g_iran.paa"};
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = ""; };
+            class BackTurret : BackTurret { gunnerType = ""; };
+            class CopilotTurret : CopilotTurret { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
     };
 
     class CFP_B_CAF_Mi_24D_01 : CUP_O_Mi24_D_Dynamic_SLA_OCimport_02  {

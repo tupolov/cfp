@@ -172,6 +172,17 @@ class CfgVehicles {
     class CUP_O_Volha_SLA_OCimport_01 : CUP_O_Volha_SLA { scope = 0; class EventHandlers; };
     class CUP_O_Volha_SLA_OCimport_02 : CUP_O_Volha_SLA_OCimport_01 { scope = 0; class EventHandlers; };
 
+    class CUP_Mi8_base;
+    class CUP_Mi8_base_OCimport_01 : CUP_Mi8_base { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_Mi8_base_OCimport_02 : CUP_Mi8_base_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+            class BackTurret;
+            class CopilotTurret;
+        };
+    };
+
     class CUP_O_UAZ_Unarmed_SLA;
     class CUP_O_UAZ_Unarmed_SLA_OCimport_01 : CUP_O_UAZ_Unarmed_SLA { scope = 0; class EventHandlers; };
     class CUP_O_UAZ_Unarmed_SLA_OCimport_02 : CUP_O_UAZ_Unarmed_SLA_OCimport_01 { scope = 0; class EventHandlers; };
@@ -2211,9 +2222,7 @@ class CfgVehicles {
 
     };
 
-    class CUP_O_Mi17_TK;
-    class CUP_O_Mi17_TK_OCimport_01 : CUP_O_Mi17_TK { scope = 0; class EventHandlers; class Turrets; };
-    class CFP_O_IRARMY_Mi_8MT_01 : CUP_O_Mi17_TK_OCimport_01
+    class CFP_O_IRARMY_Mi_8MT_01 : CUP_Mi8_base_OCimport_02
     {
         editorPreview = \x\cfp\addons\o_irarmy\data\preview\CFP_O_IRARMY_Mi_8_01.JPG;
         scope = 2;
@@ -2225,6 +2234,27 @@ class CfgVehicles {
         crew = "CFP_O_IRARMY_Helicopter_Pilot_01";
         typicalCargo[] = {"CFP_O_IRARMY_Helicopter_Pilot_01","CFP_O_IRARMY_Helicopter_Pilot_01"};
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Mi8\mi8_body_iran.paa","\x\cfp\addons\vehicles\Mi8\mi8_det_g_iran.paa"};
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = ""; };
+            class BackTurret : BackTurret { gunnerType = ""; };
+            class CopilotTurret : CopilotTurret { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
     };
 
     class CFP_O_IRARMY_SU25_Frogfoot_01 : CUP_O_Su25_Dyn_RU_OCimport_02 {
