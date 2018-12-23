@@ -1295,20 +1295,19 @@ class CfgVehicles {
 
     };
 
-    class CUP_O_T55_CSAT;
-    class CUP_O_T55_CSAT_OCimport_01 : CUP_O_T55_CSAT { scope = 0; class EventHandlers; class Turrets; };
-    class CFP_O_NKARMY_T55_01 : CUP_O_T55_CSAT_OCimport_01
+    class cup_t55_base;
+    class CFP_O_NKARMY_T55_01: cup_t55_base
     {
         scope = 2;
+        scopeCurator = 2;
         side = 0;
         displayName = "T-55";
         faction = "CFP_O_NKARMY";
-        vehicleClass = "CFP_O_NKARMY_ARMORED";
-        camouflage = 4;
         crew = "CFP_O_NKARMY_Crewman_01";
         typicalCargo[] = {"CFP_O_NKARMY_Crewman_01","CFP_O_NKARMY_Crewman_01","CFP_O_NKARMY_Crewman_01"};
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\T55\t55_body_nkorea.paa","\x\cfp\addons\vehicles\T55\t55_tower_nkorea.paa"};
         editorPreview = \x\cfp\addons\o_nkarmy\data\preview\CFP_O_NKARMY_T55_01.JPG;
+
     };
 
     class CFP_O_NKARMY_T34_01 : CUP_O_T34_TKA_OCimport_02  {

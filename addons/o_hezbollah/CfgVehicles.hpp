@@ -74,6 +74,11 @@ class CfgVehicles {
         };
     };
 
+    class CUP_O_T55_CSAT;
+    class CUP_O_T55_CSAT_OCimport_01 : CUP_O_T55_CSAT { scope = 0; class EventHandlers; };
+    class CUP_O_T55_CSAT_OCimport_02 : CUP_O_T55_CSAT_OCimport_01 { scope = 0; class EventHandlers; };
+
+
     class CUP_O_T72_SLA;
     class CUP_O_T72_SLA_OCimport_01 : CUP_O_T72_SLA { scope = 0; class EventHandlers; class Turrets; };
     class CUP_O_T72_SLA_OCimport_02 : CUP_O_T72_SLA_OCimport_01 {
@@ -1211,23 +1216,22 @@ class CfgVehicles {
 
     };
 
-    class CUP_O_T55_CSAT;
-    class CUP_O_T55_CSAT_OCimport_01 : CUP_O_T55_CSAT { scope = 0; class EventHandlers; class Turrets; };
-    class CFP_O_HEZBOLLAH_T55_01 : CUP_O_T55_CSAT_OCimport_01
+    class cup_t55_base;
+    class CFP_O_HEZBOLLAH_T55_01: cup_t55_base
     {
         scope = 2;
+        scopeCurator = 2;
         side = 0;
         displayName = "T-55";
         faction = "CFP_O_HEZBOLLAH";
-        vehicleClass = "CFP_O_HEZBOLLAH_ARMORED";
-        camouflage = 4;
         crew = "CFP_O_HEZBOLLAH_Crew_01";
         typicalCargo[] = {"CFP_O_HEZBOLLAH_Crew_01","CFP_O_HEZBOLLAH_Crew_01","CFP_O_HEZBOLLAH_Crew_01"};
         hiddenSelectionsTextures[] = {"\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_body_sla_co.paa","\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_tower_sla_co.paa"};
         editorPreview = \x\cfp\addons\o_hezbollah\data\preview\CFP_O_HEZBOLLAH_T55_01.JPG;
     };
 
-    class CFP_O_HEZBOLLAH_T55_flag_01 : CUP_O_T55_CSAT_OCimport_01
+
+    class CFP_O_HEZBOLLAH_T55_flag_01 : CUP_O_T55_CSAT_OCimport_02
     {
         scope = 2;
         side = 0;

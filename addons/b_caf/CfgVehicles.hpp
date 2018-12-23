@@ -967,20 +967,18 @@ class CfgVehicles {
 
     };
 
-    class CUP_O_T55_CSAT;
-    class CUP_O_T55_CSAT_OCimport_01 : CUP_O_T55_CSAT { scope = 0; class EventHandlers; class Turrets; };
-    class CFP_B_CAF_T55_01 : CUP_O_T55_CSAT_OCimport_01
+    class cup_t55_base;
+    class CFP_B_CAF_T55_01: cup_t55_base
     {
         scope = 2;
+        scopeCurator = 2;
         side = 1;
-        displayName = "T-55";
         faction = "CFP_B_CAF";
-        vehicleClass = "CFP_B_CAF_ARMORED";
-        camouflage = 4;
         crew = "CFP_B_CAF_Crew_01";
-        typicalCargo[] = {"CFP_B_CAF_Crew_01","CFP_B_CAF_Crew_01","CFP_B_CAF_Crew_Officer_01"};
+        typicalCargo[]={"CFP_B_CAF_Crew_01"};
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\T55\t55_body_desert.paa","\x\cfp\addons\vehicles\T55\t55_tower_desert.paa"};
         editorPreview = \x\cfp\addons\b_caf\data\preview\CFP_B_CAF_T55_01.JPG;
+
     };
 
     class CFP_B_CAF_BM_21_01 : CUP_O_BM21_RU_OCimport_02  {
