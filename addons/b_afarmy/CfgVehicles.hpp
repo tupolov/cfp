@@ -115,17 +115,6 @@ class CfgVehicles {
         };
     };
 
-    class CUP_Mi8_base;
-    class CUP_Mi8_base_OCimport_01 : CUP_Mi8_base { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_Mi8_base_OCimport_02 : CUP_Mi8_base_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-            class BackTurret;
-            class CopilotTurret;
-        };
-    };
-
     class CUP_O_Mi24_D_Dynamic_SLA;
     class CUP_O_Mi24_D_Dynamic_SLA_OCimport_01 : CUP_O_Mi24_D_Dynamic_SLA { scope = 0; class EventHandlers; class Turrets; };
     class CUP_O_Mi24_D_Dynamic_SLA_OCimport_02 : CUP_O_Mi24_D_Dynamic_SLA_OCimport_01 {
@@ -1005,7 +994,9 @@ class CfgVehicles {
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_UH_60M_01.jpg";
     };
 
-    class CFP_B_AFARMY_Mi_8MT_01 : CUP_Mi8_base_OCimport_02
+    class CUP_O_Mi17_TK;
+    class CUP_O_Mi17_TK_OCimport_01 : CUP_O_Mi17_TK { scope = 0; class EventHandlers; class Turrets; };
+    class CFP_B_AFARMY_Mi_8MT_01 : CUP_O_Mi17_TK_OCimport_01
     {
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Mi_8MT_01.jpg";
         scope = 2;
@@ -1017,29 +1008,9 @@ class CfgVehicles {
         crew = "CFP_B_AFARMY_Helicopter_Pilot_01";
         typicalCargo[] = {"CFP_B_AFARMY_Helicopter_Pilot_01","CFP_B_AFARMY_Helicopter_Pilot_01"};
         hiddenSelectionsTextures[] = {"\x\cfp\addons\b_afarmy\data\mi8_body_afghan_army.paa","\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\textures\mi8_sla1_2_co.paa"};
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-            class BackTurret : BackTurret { gunnerType = ""; };
-            class CopilotTurret : CopilotTurret { gunnerType = ""; };
-        };
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
     class CFP_B_AFARMY_Mi_24D_01 : CUP_O_Mi24_D_Dynamic_SLA_OCimport_02 {
-        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Mi_24D_01.jpg";
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1047,26 +1018,30 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_AFARMY";
         crew = "CFP_B_AFARMY_Helicopter_Pilot_01";
-        hiddenSelectionsTextures[] = {"\x\cfp\addons\b_afarmy\data\mi24_afghan_army.paa","CUP\AirVehicles\CUP_AirVehicles_Mi24\Data\mi24v_002_co.paa"};
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_AFARMY_Helicopter_Pilot_01"; };
         };
 
-	    class EventHandlers : EventHandlers {
+
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\b_afarmy\data\mi24_afghan_army.paa","CUP\AirVehicles\CUP_AirVehicles_Mi24\Data\mi24v_002_co.paa"};
+
+		/*
+        class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'CUP\AirVehicles\CUP_AirVehicles_Mi24\Data\skins\24_srilanka_desert_001_co.paa'];_unit setObjectTextureGlobal [1,'CUP\AirVehicles\CUP_AirVehicles_Mi24\Data\skins\24_srilanka_desert_002_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
+		*/
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-
+        ALiVE_orbatCreator_texture = "SriLankaDesert";
+        editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Mi_24D_01.jpg";
     };
-
 
     class CFP_B_AFARMY_Gunner_DShKM_High_01 : CFP_B_AFARMY_Rifleman_01 {
 
