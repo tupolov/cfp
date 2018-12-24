@@ -4,7 +4,7 @@
 
 <p align="center">
     <a href="https://github.com/tupolov/cfp/releases/latest">
-        <img src="https://img.shields.io/badge/Version-0.4.5-blue.svg?style=flat-square" alt="CFP Version">
+        <img src="https://img.shields.io/badge/Version-0.6.0-blue.svg?style=flat-square" alt="CFP Version">
     </a>
     <a href="https://github.com/tupolov/cfp/issues">
         <img src="https://img.shields.io/github/issues-raw/tupolov/CFP.svg?style=flat-square&label=Issues" alt="CFP Issues">
@@ -55,7 +55,7 @@ CFP factions cover major current conflict zones such as Afghanistan, Iraq, Syria
 **bold** = Complete
 
 ### OPFOR
-* Abu Sayyaf
+* Abu Sayyaf - cfp_o_abusayyaf
 * Al-Qaeda - cfp_o_alqaeda
 * Al-Qassam Brigades (Hamas) - cfp_o_hamas
 * Al-Shabaab - cfp_o_alshabaab
@@ -70,6 +70,7 @@ CFP factions cover major current conflict zones such as Afghanistan, Iraq, Syria
 * Islamic State - cfp_o_isis
 * Libyan National Army
 * Mali Islamic Rebels
+* North Korea = cfp_o_nkarmy
 * Russian Ground Forces - split into various theater specific factions including Special Operations Forces - cup_o_ru, cfp_o_ruarmy_des
 * Russian National Guard (formerly MVD) - cfp_o_rumvd
 * Russian Navy
@@ -152,8 +153,11 @@ CFP uses technology to script and randomize loadouts of units - this provides a 
 * Tupolov
 * AUTigerGrad
 * AccuracyThruVolume
+* SuperOps
 * Archduke
 * SP Craig
+* Dusin
+* Simcardo
 * VanSchmoozin
 * Siege-A
 * Hawaiian
