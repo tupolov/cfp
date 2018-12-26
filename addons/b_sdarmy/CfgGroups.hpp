@@ -1431,12 +1431,6 @@ class CfgGroups {
                         side = 1;
                         vehicle = "CFP_B_SDARMY_Soldier_02";
                     };
-                    class Unit14 {
-                        position[] = {-35,-39,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "CFP_B_SDARMY_Soldier_02";
-                    };
                 };
 
             };
