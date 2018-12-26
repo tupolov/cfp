@@ -288,6 +288,7 @@ class CfgPatches
             "SP_BeanieHat_Black",
             "SP_BeanieHat_Green",
             "SP_BeanieHat_Tan",
+	    "CFP_BeanieHat_White",
             "SP_Beret2_Black",
             "SP_Beret2_Blue",
             "SP_Beret2_Brown",

@@ -85,3 +85,29 @@ class CfgVehicleClasses
 		};
 	};
 
+	class CFP_BeanieHat_White: ItemCore
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_BeanieHat_Tan.paa";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "Beanie Hat (White)";
+		// picture = "\x\cfp\addons\headgear\BeanieHat\ui\Tan.jpg";
+		model = "\x\cfp\addons\models\BeanieHat";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BeanieHat\White.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "CFP";
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 10;
+			uniformmodel = "\x\cfp\addons\models\BeanieHat";
+			modelSides[] = {3,1};
+			armor = 0;
+			passThrough = 0.30;
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BeanieHat\White.paa"};
+			hiddenSelections[] = {"Camo"};
+
+
+		};
+	};
+
