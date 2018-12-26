@@ -1142,9 +1142,9 @@ class CfgVehicles
         magazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"};
         respawnMagazines[] = {"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M","CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M"};
 
-        backpack = "CUP_B_MG_Ammo";
+        backpack = "B_Kitbag_cbr";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_PKM","","","",{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",100},{},""},{},{},{"CFP_U_FieldUniform_AridDigital_SS",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",1,1}}},{"V_TacVest_camo",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",1,100}}},{"CUP_B_MG_Ammo",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",2,100}}},"CFP_Basic_Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_PKM","","","",{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",100},{},""},{},{},{"CFP_U_FieldUniform_AridDigital_SS",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",1,1}}},{"V_TacVest_camo",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",1,100}}},{"B_Kitbag_cbr",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",2,100}}},"CFP_Basic_Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -3189,7 +3189,7 @@ class CfgVehicles
             item_xx(CUP_B_AA_Backpack,10);
             item_xx(SP_Harness1_Tan,10);
             item_xx(SP_Beret2_Red,10);
-            item_xx(CUP_B_MG_Ammo,10);
+            item_xx(B_Kitbag_cbr,10);
             item_xx(SP_PASGTHelmet_Tan1,10);
             item_xx(CUP_H_SLA_TankerHelmet,10);
             item_xx(CFP_Cap_Sudan_03,10);
@@ -3271,7 +3271,7 @@ class CfgVehicles
             item_xx(CUP_B_AA_Backpack,10);
             item_xx(SP_Harness1_Tan,10);
             item_xx(SP_Beret2_Red,10);
-            item_xx(CUP_B_MG_Ammo,10);
+            item_xx(B_Kitbag_cbr,10);
             item_xx(SP_PASGTHelmet_Tan1,10);
             item_xx(CUP_H_SLA_TankerHelmet,10);
             item_xx(CFP_Cap_Sudan_03,10);

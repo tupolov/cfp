@@ -445,12 +445,6 @@ class CfgGroups {
                         side = 1;
                         vehicle = "CFP_B_SDARMY_Soldier_12";
                     };
-                    class Unit16 {
-                        position[] = {-40,-40,0};
-                        rank = "LIEUTENANT";
-                        side = 1;
-                        vehicle = "CFP_B_SDARMY_BTR_90_01";
-                    };
                 };
 
             };
