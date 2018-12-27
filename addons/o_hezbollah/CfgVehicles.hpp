@@ -680,7 +680,7 @@ class CfgVehicles {
     		uniformList[] = {
     	"CFP_U_FieldUniform_edrl", 0.33,
     	"CFP_U_FieldUniform_M81", 0.33,
-        "CFP_U_FieldUniform_ana_wddark", 0.33
+        "CFP_U_FieldUniform_M81_SS", 0.33
     		};
 
     	// Hezbollah Headgear
@@ -1827,7 +1827,7 @@ class CfgVehicles {
             item_xx(CFP_U_BattleDressUniform_M81,15);
             item_xx(CFP_U_FieldUniform_edrl,15);
             item_xx(CFP_U_FieldUniform_M81,15);
-            item_xx(CFP_U_FieldUniform_ana_wddark,15);
+            item_xx(CFP_U_FieldUniform_M81_SS,15);
         };
     };
     class CFP_O_HEZBOLLAH_SupportBox : CUP_RUSpecialWeaponsBox {
@@ -1997,7 +1997,7 @@ class CfgVehicles {
             item_xx(CFP_U_BattleDressUniform_M81,10);
             item_xx(CFP_U_FieldUniform_edrl,10);
             item_xx(CFP_U_FieldUniform_M81,10);
-            item_xx(CFP_U_FieldUniform_ana_wddark,10);
+            item_xx(CFP_U_FieldUniform_M81_SS,10);
         };
     };
 
