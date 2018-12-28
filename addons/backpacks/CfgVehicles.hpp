@@ -137,6 +137,17 @@ class CfgVehicles
         hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\RPG\RPGtropicgreen.paa"};
         author = "CFP";
     };
+    class CFP_RPGPack_White: CUP_B_RPGPack_Base
+    {
+        picture = "\x\cfp\addons\backpacks\data\ui\icon_CFP_RPGPack_TropicGreen.paa";
+        scope = 2;
+        maximumLoad = 180;
+        displayName = "RPG Pack (White)";
+        model = "\CUP\Weapons\CUP_Weapons_Backpacks\CUP_Backpack_RPG.p3d";
+        // picture = "\CUP\Weapons\CUP_Weapons_Backpacks\data\ui\icon_b_c_backpack_rpg_ca.paa";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\RPG\RPGwhite.paa"};
+        author = "CFP";
+    };
     class B_Kitbag_Base;
     class CFP_Kitbag_EDRL: B_Kitbag_Base
     {
@@ -147,6 +158,16 @@ class CfgVehicles
         model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast.p3d";
         // picture = "\A3\Weapons_F\ammoboxes\bags\data\ui\icon_B_C_Kitbag_rgr";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Fast\backpack_fast_edrl.paa"};
+        author = "CFP";
+    };
+    class CFP_Kitbag_White: B_Kitbag_Base
+    {
+        picture = "";
+        scope = 2;
+        maximumLoad = 280;
+        displayName = "Kitbag (White)";
+        model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Fast.p3d";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Fast\backpack_fast_white.paa"};
         author = "CFP";
     };
     class CFP_Kitbag_IranDPM: B_Kitbag_Base
@@ -387,6 +408,16 @@ class CfgVehicles
         model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Compact";
         // picture = "\A3\Weapons_F\Ammoboxes\Bags\data\UI\icon_B_AssaultPack_khk_ca.paa";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Compact\backpack_compact_idf.paa"};
+        author = "CFP";
+    };
+    class CFP_AssaultPack_White: B_AssaultPack_Base
+    {
+        picture = "";
+        scope = 2;
+        maximumLoad = 160;
+        displayName = "Assault Pack (White)";
+        model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Compact";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Compact\backpack_compact_white.paa"};
         author = "CFP";
     };
     class CFP_AssaultPack_Marpat: B_AssaultPack_Base
