@@ -416,3 +416,76 @@
 		};
 	};
 
+	class CFP_CHZ_Berezka2: ItemCore
+	{
+		picture = "";
+		scope=2;
+		model = "x\cfp\addons\models\CUP_Ins_Uniform1.p3d";
+		displayName="Chedaki Uniform (Berezka Snow Pants)";
+		author="CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="CFP_CHZ_Berezka2";
+			containerClass="Supply80";
+			mass=20;
+		};
+	};
+
+	class CFP_CHZ_Berezka: ItemCore
+	{
+		picture = "";
+		scope=2;
+		model = "x\cfp\addons\models\CUP_Ins_Uniform1.p3d";
+		displayName="Chedaki Uniform (Berezka Green Pants)";
+		author="CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="CFP_CHZ_Berezka";
+			containerClass="Supply80";
+			mass=20;
+		};
+	};
+
+	class CFP_CHZ_Berezka3: ItemCore
+	{
+		picture = "";
+		scope=2;
+		model = "x\cfp\addons\models\CUP_Ins_Uniform1.p3d";
+		displayName="Chedaki Uniform (Berezka Green Top/White Pants)";
+		author="CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="CFP_CHZ_Berezka3";
+			containerClass="Supply80";
+			mass=20;
+		};
+	};
+
+	class CFP_CHZ_Berezka4: ItemCore
+	{
+		picture = "";
+		scope=2;
+		model = "x\cfp\addons\models\CUP_Ins_Uniform1.p3d";
+		displayName="Chedaki Uniform (Berezka White Top/Berezka Green Pants)";
+		author="CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="CFP_CHZ_Berezka4";
+			containerClass="Supply80";
+			mass=20;
+		};
+	};
+
+
+
+
+
+
