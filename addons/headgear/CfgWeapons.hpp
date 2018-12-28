@@ -23,6 +23,7 @@ class CfgWeapons {
     #include "Beret2\CfgWeapons.hpp"
     #include "BoonieHat\CfgWeapons.hpp"
     #include "CVCHelmet\CfgWeapons.hpp"
+    #include "FullFaceWrap\CfgWeapons.hpp"
     #include "GhillieHat\CfgWeapons.hpp"
     #include "Headband\CfgWeapons.hpp"
     #include "HeadSet\CfgWeapons.hpp"

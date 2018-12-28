@@ -157,22 +157,22 @@
 
 	};
 
-	class G_Balaclava_oli;
-	class SP_Balaclava_Hamas: G_Balaclava_oli
+	class SP_Balaclava_Hamas: None
 	{
 		scope = 2;
 		displayname = "Balaclava (Hamas)";
+		model = "\A3\Characters_F_Bootcamp\Guerrilla\g_balaclava_clean.p3d";
 		hiddenSelections[] = {"Camo"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\Balaclava\Hamas.paa"};
 		picture = "\x\cfp\addons\glasses\Balaclava\ui\Black.jpg";
 		identityTypes[] = {"NoGlasses",0};
 
 	};
-
-	class SP_Balaclava_HamasBlack: G_Balaclava_oli
+	class SP_Balaclava_HamasBlack: None
 	{
 		scope = 2;
 		displayname = "Balaclava (Hamas Black Headband)";
+		model = "\A3\Characters_F_Bootcamp\Guerrilla\g_balaclava_clean.p3d";
 		hiddenSelections[] = {"Camo"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\Balaclava\HamasBlack.paa"};
 		picture = "\x\cfp\addons\glasses\Balaclava\ui\Black.jpg";
@@ -180,33 +180,58 @@
 
 	};
 
-	class IS_Balaclava_logo1: G_Balaclava_oli
+	class IS_Balaclava_logo1: None
 	{
 		scope = 2;
 		author = "CFP Team";
 		displayName = "IS Balaclava logo1";
+		model = "\A3\Characters_F_Bootcamp\Guerrilla\g_balaclava_clean.p3d";
 		picture = "\A3\Characters_F_Bootcamp\Data\UI\icon_G_Balaclava_clean_ca.paa";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\balaclava\IS_balaclava_black_logo1.paa"};
 		identityTypes[] = {"NoGlasses",0};
 	};
-	class IS_Balaclava_logo2: G_Balaclava_oli
+	class IS_Balaclava_logo2: None
 	{
 		scope = 2;
 		author = "CFP Team";
 		displayName = "IS Balaclava logo2";
+		model = "\A3\Characters_F_Bootcamp\Guerrilla\g_balaclava_clean.p3d";
 		picture = "\A3\Characters_F_Bootcamp\Data\UI\icon_G_Balaclava_clean_ca.paa";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\balaclava\IS_balaclava_black_logo2.paa"};
 		identityTypes[] = {"NoGlasses",0};
 	};
-	class IS_Balaclava: G_Balaclava_oli
+	class IS_Balaclava: None
 	{
 		scope = 2;
 		author = "CFP Team";
-		displayName = "IS Balaclava";
+		displayName = "Balaclava (Black)";
+		model = "\A3\Characters_F_Bootcamp\Guerrilla\g_balaclava_clean.p3d";
 		picture = "\A3\Characters_F_Bootcamp\Data\UI\icon_G_Balaclava_clean_ca.paa";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\balaclava\IS_balaclava_black.paa"};
+		identityTypes[] = {"NoGlasses",0};
+	};
+	class CFP_Balaclava_White2: None
+	{
+		scope = 2;
+		author = "CFP Team";
+		displayName = "Balaclava (White)";
+		model = "\A3\Characters_F_Bootcamp\Guerrilla\g_balaclava_clean.p3d";
+		picture = "\A3\Characters_F_Bootcamp\Data\UI\icon_G_Balaclava_clean_ca.paa";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\balaclava\White2.paa"};
+		identityTypes[] = {"NoGlasses",0};
+	};
+	class CFP_Balaclava_WhiteBerez: None
+	{
+		scope = 2;
+		author = "CFP Team";
+		displayName = "Balaclava (White Berezka)";
+		model = "\A3\Characters_F_Bootcamp\Guerrilla\g_balaclava_clean.p3d";
+		picture = "\A3\Characters_F_Bootcamp\Data\UI\icon_G_Balaclava_clean_ca.paa";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\balaclava\WhiteBerez.paa"};
 		identityTypes[] = {"NoGlasses",0};
 	};
