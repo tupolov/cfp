@@ -2271,6 +2271,13 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\BMP2\SudanBMP2body1.paa","\x\cfp\addons\vehicles\BMP2\SudanBMP2body2.paa"};
                 factions[] = {};
             };
+            class ChedakiSnow
+            {
+                displayname = "ChedakiSnow";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\BMP2\bmp2_01_snow_co.paa","\x\cfp\addons\vehicles\BMP2\bmp2_02_snow_co.paa"};
+                factions[] = {};
+            };
         };
    };
 
@@ -2503,6 +2510,13 @@ class CfgVehicles
                 displayname = "Desert";
                 author = "CFP";
                 textures[] = {"\x\cfp\addons\vehicles\BRDM\brdm2_01_des.paa","\x\cfp\addons\vehicles\BRDM\brdm2_02_co.paa"};
+                factions[] = {};
+            };
+            class ChedakiSnow
+            {
+                displayname = "Chedaki Snow";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\BRDM\brdm2_01_snow_co.paa","\x\cfp\addons\vehicles\BRDM\brdm2_02_snow_co.paa"};
                 factions[] = {};
             };
         };
