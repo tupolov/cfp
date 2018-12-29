@@ -17,6 +17,37 @@
 	#define UNIFORM "CFP_U_FieldUniform_multicam"
 	#define UNIFORM_SF "CFP_U_FieldUniform_multicam"
 
+/*
+        #define VEST
+        #define SF_VEST
+        #define BACKPACK
+        #define SF_BACKPACK
+        #define HELMET
+        #define SF_HELMET
+
+// WEAPON DEFINES
+
+        #define RIFLE
+        #define GL
+        #define GRENADE
+        #define HGUN
+        #define MARK_RIFLE
+        #define SNIPER_RIFLE
+        #define W_AT
+        #define W_AA
+        #define BINO
+
+        #define SF_RIFLE
+        #define SF_GL
+        #define SF_GRENADE
+        #define SF_HGUN
+        #define SF_MARK_RIFLE
+        #define SF_SNIPER_RIFLE
+        #define SF_AT
+        #define SF_AA
+        #define SF_BINO
+*/
+
 // VEHICLE DEFINES
 	#define RECON CUP_O_UAZ_Unarmed_TKA
 	#define PATROL CUP_O_LR_Transport_TKA
