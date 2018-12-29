@@ -119,9 +119,11 @@ class CfgPatches {
         };
         weapons[] = {};
         requiredAddons[] = {
+            "cfp_main",
             "CUP_AirVehicles_CH47",
             "CUP_Creatures_Military_USArmy",
             "CUP_Weapons_StaticWeapons",
+            "CUP_Creatures_StaticWeapons",
             "CUP_TrackedVehicles_Bradley",
             "CUP_TrackedVehicles_M113",
             "CUP_TrackedVehicles_M1_Abrams",

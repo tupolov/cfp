@@ -11,6 +11,7 @@ class CfgPatches {
         };
         weapons[] = {};
         requiredAddons[] = {
+            "cfp_main",
             "CUP_Creatures_Military_Germany",
             "CUP_AirVehicles_UH1H",
             "CUP_Weapons_StaticWeapons",

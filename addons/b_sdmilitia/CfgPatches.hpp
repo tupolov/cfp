@@ -38,6 +38,7 @@ class CfgPatches {
         };
         weapons[] = {};
         requiredAddons[] = {
+            "cfp_Main",
             "A3_Soft_F_Offroad_01",
             "CUP_WheeledVehicles_UAZ",
             "CUP_WheeledVehicles_Ural",

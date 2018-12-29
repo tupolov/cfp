@@ -905,8 +905,17 @@ class CfgVehicles {
 
     };
 
-    class CUP_O_Mi17_TK;
-    class CUP_O_Mi17_TK_OCimport_01 : CUP_O_Mi17_TK { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_Mi8_Base;
+    class CUP_O_Mi17_TK : CUP_Mi8_Base { class EventHandlers;  class Turrets;};
+    class CUP_O_Mi17_TK_OCimport_01 : CUP_O_Mi17_TK {
+        scope = 0;
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+            class BackTurret;
+            class CopilotTurret;
+        };
+    };
     class CFP_B_USCIA_Mi_8MT_01 : CUP_O_Mi17_TK_OCimport_01
     {
         editorPreview = "\x\cfp\addons\b_uscia\data\preview\CFP_B_USCIA_Mi_8MT_01.JPG";
@@ -919,6 +928,11 @@ class CfgVehicles {
         crew = "CFP_B_USCIA_paramilitary_officer_01";
         typicalCargo[] = {"CFP_B_USCIA_paramilitary_officer_01","CFP_B_USCIA_paramilitary_officer_01"};
         hiddenSelectionsTextures[] = {"\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\textures\mi8_cia1_1_co.paa","\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\textures\mi8_cia1_2_co.paa"};
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = ""; };
+            class BackTurret : BackTurret { gunnerType = ""; };
+            class CopilotTurret : CopilotTurret { gunnerType = ""; };
+        };
     };
 
     class CFP_B_USCIA_UH_1H_01 : CUP_I_UH1H_TK_GUE_OCimport_02 {

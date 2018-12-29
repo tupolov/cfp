@@ -76,6 +76,7 @@ class CfgPatches {
         };
         weapons[] = {};
         requiredAddons[] = {
+            "cfp_main",
             "A3_Characters_F",
             "cfp_uniforms",
             "CUP_Weapons_StaticWeapons",
@@ -86,11 +87,8 @@ class CfgPatches {
             "A3_Armor_F_EPC_MBT_01",
             "CUP_TrackedVehicles_M113",
             "A3_Armor_F_Beta_APC_Tracked_01",
-            "CFP_B_USMC_DES",
             "CUP_AirVehicles_UH60",
-            "cfp_b_gbarmy_wdl",
             "CUP_AirVehicles_AH64",
-            "CFP_O_IRARMY",
             "A3_Boat_F_Boat_Transport_01",
             "A3_Boat_F_Exp_Boat_Transport_01",
             "A3_Soft_F_Gamma_Truck_01",

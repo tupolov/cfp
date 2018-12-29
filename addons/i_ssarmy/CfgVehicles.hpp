@@ -1208,7 +1208,7 @@ class CfgVehicles {
 
     class CUP_O_T55_CSAT;
     class CUP_O_T55_CSAT_OCimport_01 : CUP_O_T55_CSAT { scope = 0; class EventHandlers; class Turrets; };
-    class CFP_I_SSSArmy_T55_01 : CUP_O_T55_CSAT_OCimport_01
+    class CFP_I_SSArmy_T55_01 : CUP_O_T55_CSAT_OCimport_01
     {
         scope = 2;
         side = 2;

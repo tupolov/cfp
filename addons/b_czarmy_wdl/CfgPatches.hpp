@@ -73,6 +73,7 @@ class CfgPatches {
         };
         weapons[] = {};
         requiredAddons[] = {
+            "cfp_main",
             "CUP_WheeledVehicles_T810",
             "CUP_WheeledVehicles_HMMWV",
             "CUP_TrackedVehicles_BMP",

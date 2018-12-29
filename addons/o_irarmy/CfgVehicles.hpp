@@ -2211,8 +2211,17 @@ class CfgVehicles {
 
     };
 
-    class CUP_O_Mi17_TK;
-    class CUP_O_Mi17_TK_OCimport_01 : CUP_O_Mi17_TK { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_Mi8_Base;
+    class CUP_O_Mi17_TK : CUP_Mi8_Base { class EventHandlers;  class Turrets;};
+    class CUP_O_Mi17_TK_OCimport_01 : CUP_O_Mi17_TK {
+        scope = 0;
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+            class BackTurret;
+            class CopilotTurret;
+        };
+    };
     class CFP_O_IRARMY_Mi_8MT_01 : CUP_O_Mi17_TK_OCimport_01
     {
         editorPreview = \x\cfp\addons\o_irarmy\data\preview\CFP_O_IRARMY_Mi_8_01.JPG;
@@ -2225,6 +2234,11 @@ class CfgVehicles {
         crew = "CFP_O_IRARMY_Helicopter_Pilot_01";
         typicalCargo[] = {"CFP_O_IRARMY_Helicopter_Pilot_01","CFP_O_IRARMY_Helicopter_Pilot_01"};
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Mi8\mi8_body_iran.paa","\x\cfp\addons\vehicles\Mi8\mi8_det_g_iran.paa"};
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = ""; };
+            class BackTurret : BackTurret { gunnerType = ""; };
+            class CopilotTurret : CopilotTurret { gunnerType = ""; };
+        };
     };
 
     class CFP_O_IRARMY_SU25_Frogfoot_01 : CUP_O_Su25_Dyn_RU_OCimport_02 {

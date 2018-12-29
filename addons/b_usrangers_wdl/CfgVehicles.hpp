@@ -355,9 +355,9 @@ class CfgVehicles {
         };
     };
 
-    class CFP_B_USARMY_HMMWV_SOV_USA;
-    class CFP_B_USARMY_HMMWV_SOV_USA_OCimport_01 : CFP_B_USARMY_HMMWV_SOV_USA { scope = 0; class EventHandlers; class Turrets; };
-    class CFP_B_USARMY_HMMWV_SOV_USA_OCimport_02 : CFP_B_USARMY_HMMWV_SOV_USA_OCimport_01 {
+    class CUP_HMMWV_SOV_Base;
+    class CUP_HMMWV_SOV_Base_OCimport_01 : CUP_HMMWV_SOV_Base { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_HMMWV_SOV_Base_OCimport_02 : CUP_HMMWV_SOV_Base_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
@@ -369,9 +369,9 @@ class CfgVehicles {
         };
     };
 
-    class CFP_B_USARMY_HMMWV_SOV_M2_USA;
-    class CFP_B_USARMY_HMMWV_SOV_M2_USA_OCimport_01 : CFP_B_USARMY_HMMWV_SOV_M2_USA { scope = 0; class EventHandlers; class Turrets; };
-    class CFP_B_USARMY_HMMWV_SOV_M2_USA_OCimport_02 : CFP_B_USARMY_HMMWV_SOV_M2_USA_OCimport_01 {
+    class CUP_HMMWV_SOV_M2_Base;
+    class CUP_HMMWV_SOV_M2_Base_OCimport_01 : CUP_HMMWV_SOV_M2_Base { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_HMMWV_SOV_M2_Base_OCimport_02 : CUP_HMMWV_SOV_M2_Base_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
@@ -471,27 +471,27 @@ class CfgVehicles {
     class B_Helipilot_F_OCimport_01 : B_Helipilot_F { scope = 0; class EventHandlers; };
     class B_Helipilot_F_OCimport_02 : B_Helipilot_F_OCimport_01 { class EventHandlers; };
 
-    class CFP_B_USARMY_M2StaticMG_MiniTripod_US;
-    class CFP_B_USARMY_M2StaticMG_MiniTripod_US_OCimport_01 : CFP_B_USARMY_M2StaticMG_MiniTripod_US { scope = 0; class EventHandlers; class Turrets; };
-    class CFP_B_USARMY_M2StaticMG_MiniTripod_US_OCimport_02 : CFP_B_USARMY_M2StaticMG_MiniTripod_US_OCimport_01 {
+    class CUP_B_M2StaticMG_USMC;
+    class CUP_B_M2StaticMG_USMC_OCimport_01 : CUP_B_M2StaticMG_USMC { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_B_M2StaticMG_USMC_OCimport_02 : CUP_B_M2StaticMG_USMC_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
     };
 
-    class CFP_B_USARMY_M2StaticMG_US;
-    class CFP_B_USARMY_M2StaticMG_US_OCimport_01 : CFP_B_USARMY_M2StaticMG_US { scope = 0; class EventHandlers; class Turrets; };
-    class CFP_B_USARMY_M2StaticMG_US_OCimport_02 : CFP_B_USARMY_M2StaticMG_US_OCimport_01 {
+   class CUP_B_M2StaticMG_MiniTripod_USMC;
+    class CUP_B_M2StaticMG_MiniTripod_USMC_OCimport_01 : CUP_B_M2StaticMG_MiniTripod_USMC { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_B_M2StaticMG_MiniTripod_USMC_OCimport_02 : CUP_B_M2StaticMG_MiniTripod_USMC_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
     };
 
-    class CFP_B_USARMY_M252_US;
-    class CFP_B_USARMY_M252_US_OCimport_01 : CFP_B_USARMY_M252_US { scope = 0; class EventHandlers; class Turrets; };
-    class CFP_B_USARMY_M252_US_OCimport_02 : CFP_B_USARMY_M252_US_OCimport_01 {
+    class CUP_B_M252_USMC;
+    class CUP_B_M252_USMC_OCimport_01 : CUP_B_M252_USMC { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_B_M252_USMC_OCimport_02 : CUP_B_M252_USMC_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
@@ -2016,7 +2016,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_HMMWV_SOV_Mk19_WDL_01 : CFP_B_USARMY_HMMWV_SOV_USA_OCimport_02 {
+    class CFP_B_USRANGERS_HMMWV_SOV_Mk19_WDL_01 : CUP_HMMWV_SOV_Base_OCimport_02 {
         editorPreview = \x\cfp\addons\b_usrangers_wdl\data\preview\CFP_B_USRANGERS_HMMWV_SOV_Mk19_WDL_01.JPG;
         author = "Drew";
         scope = 2;
@@ -2052,7 +2052,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_HMMWV_SOV_M2_WDL_01 : CFP_B_USARMY_HMMWV_SOV_M2_USA_OCimport_02 {
+    class CFP_B_USRANGERS_HMMWV_SOV_M2_WDL_01 : CUP_HMMWV_SOV_M2_Base_OCimport_02 {
         editorPreview = \x\cfp\addons\b_usrangers_wdl\data\preview\CFP_B_USRANGERS_HMMWV_SOV_M2_WDL_01.JPG;
         author = "Drew";
         scope = 2;
@@ -2533,7 +2533,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_M2_Minitripod_WDL_01 : CFP_B_USARMY_M2StaticMG_MiniTripod_US_OCimport_02 {
+    class CFP_B_USRANGERS_M2_Minitripod_WDL_01 : CUP_B_M2StaticMG_MiniTripod_USMC_OCimport_02 {
         editorPreview = \x\cfp\addons\b_usrangers_wdl\data\preview\CFP_B_USRANGERS_M2_Minitripod_WDL_01.JPG;
         author = "Drew";
         scope = 2;
@@ -2542,13 +2542,9 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USRANGERS_WDL";
         crew = "CFP_B_USRANGERS_Rifleman_WDL_01";
-
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
         };
-
-
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -2563,7 +2559,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_M2_Machine_Gun_WDL_01 : CFP_B_USARMY_M2StaticMG_US_OCimport_02 {
+    class CFP_B_USRANGERS_M2_Machine_Gun_WDL_01 : CUP_B_M2StaticMG_USMC_OCimport_02 {
         editorPreview = \x\cfp\addons\b_usrangers_wdl\data\preview\CFP_B_USRANGERS_M2_Machine_Gun_WDL_01.JPG;
         author = "Drew";
         scope = 2;
@@ -2572,13 +2568,9 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USRANGERS_WDL";
         crew = "CFP_B_USRANGERS_Rifleman_WDL_01";
-
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
         };
-
-
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -2593,7 +2585,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_M252_81mm_Mortar_WDL_01 : CFP_B_USARMY_M252_US_OCimport_02 {
+    class CFP_B_USRANGERS_M252_81mm_Mortar_WDL_01 : CUP_B_M252_USMC_OCimport_02 {
         editorPreview = \x\cfp\addons\b_usrangers_wdl\data\preview\CFP_B_USRANGERS_M252_81mm_Mortar_WDL_01.JPG;
         author = "Drew";
         scope = 2;
@@ -2602,13 +2594,9 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USRANGERS_WDL";
         crew = "CFP_B_USRANGERS_Rifleman_WDL_01";
-
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
         };
-
-
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 

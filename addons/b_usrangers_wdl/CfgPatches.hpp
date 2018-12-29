@@ -75,6 +75,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = 1.62;
         requiredAddons[] = {
+            "cfp_main",
             "A3_Characters_F",
             "cfp_uniforms",
             "CUP_AirVehicles_AH6",
@@ -91,7 +92,9 @@ class CfgPatches {
             "A3_Boat_F_Boat_Transport_01",
             "A3_Boat_F_Exp_Boat_Transport_01",
             "A3_Soft_F_Gamma_Truck_01",
-            "CUP_AirVehicles_MQ9"
+            "CUP_AirVehicles_MQ9",
+            "CUP_Creatures_StaticWeapons",
+            "CUP_Weapons_StaticWeapons"
         };
         author = "Drew";
         authors[] = {"Drew"};

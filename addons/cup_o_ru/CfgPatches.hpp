@@ -6,6 +6,7 @@ class CfgPatches {
         weapons[] = {
         };
        requiredAddons[] = {
+            "cfp_main",
             "CUP_Creatures_Military_Russia"
         };
         author = MODULE_AUTHOR;

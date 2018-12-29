@@ -54,6 +54,7 @@ class CfgPatches {
         weapons[] = {};
         requiredVersion = 1.62;
         requiredAddons[] = {
+            "cfp_main",
             "A3_Characters_F",
             "CUP_AirVehicles_UH60",
             "CUP_AirVehicles_AH6",

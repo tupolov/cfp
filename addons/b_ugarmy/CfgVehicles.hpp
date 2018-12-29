@@ -914,8 +914,17 @@ class CfgVehicles {
 
     };
 
-    class CUP_O_Mi17_TK;
-    class CUP_O_Mi17_TK_OCimport_01 : CUP_O_Mi17_TK { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_Mi8_Base;
+    class CUP_O_Mi17_TK : CUP_Mi8_Base { class EventHandlers;  class Turrets;};
+    class CUP_O_Mi17_TK_OCimport_01 : CUP_O_Mi17_TK {
+        scope = 0;
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+            class BackTurret;
+            class CopilotTurret;
+        };
+    };
     class CFP_B_UGARMY_Mi_17_01 : CUP_O_Mi17_TK_OCimport_01
     {
         editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_Mi_17_01.JPG;
@@ -928,6 +937,11 @@ class CfgVehicles {
         crew = "CFP_B_UGARMY_Helicopter_Pilot_01";
         typicalCargo[] = {"CFP_B_UGARMY_Helicopter_Pilot_01","CFP_B_UGARMY_Helicopter_Pilot_01"};
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Mi8\mi17_uganda.paa","\x\cfp\addons\vehicles\Mi8\mi17_det_uganda.paa"};
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = ""; };
+            class BackTurret : BackTurret { gunnerType = ""; };
+            class CopilotTurret : CopilotTurret { gunnerType = ""; };
+        };
     };
 
     class CUP_O_Mi17_VIV_TK;

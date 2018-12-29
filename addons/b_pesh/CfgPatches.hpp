@@ -46,6 +46,7 @@ class CfgPatches
 			"PESH_uniform"
 		};
 		requiredAddons[] = {
+            "cfp_main",
 			"A3_Dubbing_Radio_F",
 			"A3_Characters_F",
 			"A3_Characters_F_Common",

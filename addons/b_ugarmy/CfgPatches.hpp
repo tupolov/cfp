@@ -60,14 +60,13 @@ class CfgPatches {
         };
         weapons[] = {};
         requiredAddons[] = {
-            "CFP_B_USMC_DES",
-            "CFP_B_KEARMY",
-            "CFP_O_RUARMY_DES",
+            "cfp_main",
             "A3_Characters_F",
             "CUP_Weapons_StaticWeapons",
             "CUP_WheeledVehicles_BTR90",
             "cfp_vehicles",
             "CUP_WheeledVehicles_BTR60",
+            "CUP_AirVehicles_Mi8",
             "cfp_uniforms"
         };
         requiredVersion = REQUIRED_VERSION;

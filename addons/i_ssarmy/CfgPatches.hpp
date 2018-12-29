@@ -1,5 +1,5 @@
 class CfgPatches {
-    class CFP_I_SSArmy {
+    class ADDON {
         units[] = {
             "CFP_I_SSArmy_Soldier_01",
             "CFP_I_SSArmy_Soldier_02",
@@ -88,16 +88,9 @@ class CfgPatches {
             "CFP_TACVest_SPLA"
         };
         requiredAddons[] = {
-            "CFP_O_HEZBOLLAH",
-            "CFP_B_NAARMY",
-            "CFP_B_UGARMY",
-            "CFP_O_ALSHABAAB",
-            "CFP_O_BOKOHARAM",
-            "CFP_C_AFG",
-            "CFP_C_ASIA",
-            "CFP_O_ALQAEDA",
-            "CFP_C_ME",
-            "CFP_I_WestUltra"
+            "CUP_TrackedVehicles_T55",
+            "CUP_AirVehicles_Mi8",
+            "CUP_AirVehicles_Mi24"
         };
         requiredVersion = REQUIRED_VERSION;
         VERSION_CONFIG;

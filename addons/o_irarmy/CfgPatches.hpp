@@ -81,7 +81,9 @@ class CfgPatches {
         };
         weapons[] = {};
         requiredAddons[] = {
+            "cfp_main",
             "cfp_vehicles",
+            "CUP_AirVehicles_Mi8",
             "CUP_WheeledVehicles_Ural",
             "CUP_WheeledVehicles_Volha",
             "CUP_WheeledVehicles_UAZ"

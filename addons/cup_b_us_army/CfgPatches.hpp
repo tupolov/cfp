@@ -121,6 +121,7 @@ class CfgPatches {
         };
         weapons[] = {};
         requiredAddons[] = {
+            "cfp_main",
             "CUP_WheeledVehicles_HMMWV",
             "CUP_TrackedVehicles_M1_Abrams",
             "CUP_Weapons_StaticWeapons",

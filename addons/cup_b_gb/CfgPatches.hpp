@@ -121,6 +121,7 @@ class CfgPatches {
         };
         weapons[] = {};
         requiredAddons[] = {
+            "cfp_main",
             "CUP_WheeledVehicles_Mastiff",
             "CUP_WheeledVehicles_Ridgeback",
             "CUP_WheeledVehicles_Wolfhound",

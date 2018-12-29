@@ -72,6 +72,7 @@ class CfgPatches {
 			"A3_Characters_F_Gamma",
 			"A3_Characters_F_Bootcamp",
 			"A3_Characters_F_BLUFOR",
+            "cfp_main",
             "CUP_WheeledVehicles_HMMWV",
             "CUP_WheeledVehicles_Ural",
             "CUP_WheeledVehicles_RG31",

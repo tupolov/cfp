@@ -15,6 +15,7 @@ class CfgPatches {
 
         requiredAddons[] = {
         	"A3_Dubbing_Radio_F","A3_Characters_F","A3_Characters_F_Common","A3_Characters_F_Civil","A3_Characters_F_Gamma","A3_Characters_F_Bootcamp","A3_Characters_F_BLUFOR",
+            "cfp_main",
             "CUP_WheeledVehicles_T810",
             "A3_Soft_F",
             "A3_Soft_F_Exp_Offroad_02",

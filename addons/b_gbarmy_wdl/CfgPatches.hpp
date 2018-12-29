@@ -113,6 +113,7 @@ class CfgPatches
         };
         weapons[] = {};
         requiredAddons[] = {
+            "cfp_main",
             "CUP_Weapons_StaticWeapons",
             "CUP_Creatures_Military_BAF",
             "CUP_TrackedVehicles_FV510",

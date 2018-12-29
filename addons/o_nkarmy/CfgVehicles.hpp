@@ -1705,8 +1705,17 @@ class CfgVehicles {
 
     };
 
-    class CUP_O_Mi17_TK;
-    class CUP_O_Mi17_TK_OCimport_01 : CUP_O_Mi17_TK { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_Mi8_Base;
+    class CUP_O_Mi17_TK : CUP_Mi8_Base { class EventHandlers;  class Turrets;};
+    class CUP_O_Mi17_TK_OCimport_01 : CUP_O_Mi17_TK {
+        scope = 0;
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+            class BackTurret;
+            class CopilotTurret;
+        };
+    };
     class CFP_O_NKARMY_Mi_8MT_01 : CUP_O_Mi17_TK_OCimport_01
     {
         editorPreview = \x\cfp\addons\o_nkarmy\data\preview\CFP_O_NKARMY_Mi_8MT_01.JPG;
@@ -1719,6 +1728,11 @@ class CfgVehicles {
         crew = "CFP_O_NKARMY_Helicopter_Pilot_01";
         typicalCargo[] = {"CFP_O_NKARMY_Helicopter_Pilot_01","CFP_O_NKARMY_Helicopter_Pilot_01"};
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Mi8\mi17_nk.paa","\x\cfp\addons\vehicles\Mi8\mi17_det_nk.paa"};
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = ""; };
+            class BackTurret : BackTurret { gunnerType = ""; };
+            class CopilotTurret : CopilotTurret { gunnerType = ""; };
+        };
     };
 
     class CFP_O_NKARMY_UAZ_Open_01 : CUP_O_UAZ_Open_SLA_OCimport_02  {

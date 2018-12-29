@@ -51,6 +51,7 @@ class CfgPatches {
         weapons[] = {};
         requiredAddons[] = {
             "A3_Characters_F",
+            "cfp_main",
             "cfp_uniforms",
             "CUP_Weapons_StaticWeapons",
             "CUP_WheeledVehicles_Ural",

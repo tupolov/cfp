@@ -154,27 +154,27 @@ class CfgVehicles {
     class CUP_B_T810_Repair_CZ_WDL_OCimport_01 : CUP_B_T810_Repair_CZ_WDL { scope = 0; class EventHandlers; };
     class CUP_B_T810_Repair_CZ_WDL_OCimport_02 : CUP_B_T810_Repair_CZ_WDL_OCimport_01 { scope = 0; class EventHandlers; };
 
-      class CFP_B_USARMY_M2StaticMG_US;
-    class CFP_B_USARMY_M2StaticMG_US_OCimport_01 : CFP_B_USARMY_M2StaticMG_US { scope = 0; class EventHandlers; class Turrets; };
-    class CFP_B_USARMY_M2StaticMG_US_OCimport_02 : CFP_B_USARMY_M2StaticMG_US_OCimport_01 {
+    class CUP_B_M2StaticMG_USMC;
+    class CUP_B_M2StaticMG_USMC_OCimport_01 : CUP_B_M2StaticMG_USMC { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_B_M2StaticMG_USMC_OCimport_02 : CUP_B_M2StaticMG_USMC_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
     };
 
-    class CFP_B_USARMY_M2StaticMG_MiniTripod_US;
-    class CFP_B_USARMY_M2StaticMG_MiniTripod_US_OCimport_01 : CFP_B_USARMY_M2StaticMG_MiniTripod_US { scope = 0; class EventHandlers; class Turrets; };
-    class CFP_B_USARMY_M2StaticMG_MiniTripod_US_OCimport_02 : CFP_B_USARMY_M2StaticMG_MiniTripod_US_OCimport_01 {
+    class CUP_B_M2StaticMG_MiniTripod_USMC;
+    class CUP_B_M2StaticMG_MiniTripod_USMC_OCimport_01 : CUP_B_M2StaticMG_MiniTripod_USMC { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_B_M2StaticMG_MiniTripod_USMC_OCimport_02 : CUP_B_M2StaticMG_MiniTripod_USMC_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
     };
 
-    class CFP_B_USARMY_M252_US;
-    class CFP_B_USARMY_M252_US_OCimport_01 : CFP_B_USARMY_M252_US { scope = 0; class EventHandlers; class Turrets; };
-    class CFP_B_USARMY_M252_US_OCimport_02 : CFP_B_USARMY_M252_US_OCimport_01 {
+    class CUP_B_M252_USMC;
+    class CUP_B_M252_USMC_OCimport_01 : CUP_B_M252_USMC { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_B_M252_USMC_OCimport_02 : CUP_B_M252_USMC_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
@@ -190,9 +190,9 @@ class CfgVehicles {
         };
     };
 
-    class CFP_B_USARMY_TOW_TriPod_US;
-    class CFP_B_USARMY_TOW_TriPod_US_OCimport_01 : CFP_B_USARMY_TOW_TriPod_US { scope = 0; class EventHandlers; class Turrets; };
-    class CFP_B_USARMY_TOW_TriPod_US_OCimport_02 : CFP_B_USARMY_TOW_TriPod_US_OCimport_01 {
+    class CUP_B_TOW_TriPod_USMC;
+    class CUP_B_TOW_TriPod_USMC_OCimport_01 : CUP_B_TOW_TriPod_USMC { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_B_TOW_TriPod_USMC_OCimport_02 : CUP_B_TOW_TriPod_USMC_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
@@ -1436,7 +1436,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_KEARMY_M2_Machine_Gun_01 : CFP_B_USARMY_M2StaticMG_US_OCimport_02 {
+    class CFP_B_KEARMY_M2_Machine_Gun_01 : CUP_B_M2StaticMG_USMC_OCimport_02 {
         editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_M2_Machine_Gun_01.JPG;
         author = "Drew";
         scope = 2;
@@ -1466,7 +1466,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_KEARMY_M2_Minitripod_01 : CFP_B_USARMY_M2StaticMG_MiniTripod_US_OCimport_02 {
+    class CFP_B_KEARMY_M2_Minitripod_01 : CUP_B_M2StaticMG_MiniTripod_USMC_OCimport_02 {
         editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_M2_Minitripod_01.JPG;
         author = "Drew";
         scope = 2;
@@ -1496,7 +1496,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_KEARMY_M252_81mm_Mortar_01 : CFP_B_USARMY_M252_US_OCimport_02 {
+    class CFP_B_KEARMY_M252_81mm_Mortar_01 : CUP_B_M252_USMC_OCimport_02 {
         editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_M252_81mm_Mortar_01.JPG;
         author = "Drew";
         scope = 2;
@@ -1509,8 +1509,6 @@ class CfgVehicles {
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
         };
-
-
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -1556,7 +1554,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_KEARMY_TOW_Tripod_01 : CFP_B_USARMY_TOW_TriPod_US_OCimport_02 {
+    class CFP_B_KEARMY_TOW_Tripod_01 : CUP_B_TOW_TriPod_USMC_OCimport_02 {
         editorPreview = \x\cfp\addons\b_kearmy\data\preview\CFP_B_KEARMY_TOW_Tripod_01.JPG;
         author = "Drew";
         scope = 2;

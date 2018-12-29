@@ -51,6 +51,7 @@ class CfgPatches {
         };
         weapons[] = {};
         requiredAddons[] = {
+            "cfp_main",
             "A3_Characters_F",
             "cfp_uniforms",
             "CUP_AirVehicles_UH60",
