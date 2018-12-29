@@ -2200,6 +2200,27 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\T55\t55_body_desert.paa","\x\cfp\addons\vehicles\T55\t55_tower_desert.paa"};
                 factions[] = {};
             };
+            class ChedakiSnow
+            {
+                displayname = "Chedaki Snow";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\T55\t55_body_chedaki_snow_co.paa","\x\cfp\addons\vehicles\T55\t55_tower_chedaki_snow_co.paa"};
+                factions[] = {};
+            };
+        };
+   };
+
+   class CUP_MTLB_Base : Tank_F
+   {
+        class textureSources
+        {
+            class ChedakiSnow
+            {
+                displayname = "Chedaki Snow";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\MTLB\body_chedaki_snow_co.paa","\x\cfp\addons\vehicles\MTLB\pk_mod_chedaki_snow_co.paa"};
+                factions[] = {};
+            };
         };
    };
 
@@ -2226,6 +2247,25 @@ class CfgVehicles
                 displayname = "IDF";
                 author = "CFP";
                 textures[] = {"\x\cfp\addons\vehicles\M113a3\idfbody1.paa","\x\cfp\addons\vehicles\M113a3\idfbody2.paa"};
+                factions[] = {};
+            };
+        };
+   };
+
+   class CUP_ZSU23_Base : Tank_F
+   {
+        class textureSources
+        {
+            class ChedakiSnow
+            {
+                displayName = "Chedaki";
+                author = "$STR_CUP_AUTHOR_STRING";
+                textures[] =
+                {
+                    "\x\cfp\addons\vehicles\ZSU\zsu_01_snow_co.paa",
+                    "\x\cfp\addons\vehicles\ZSU\zsu_02_snow_co.paa",
+                    "\x\cfp\addons\vehicles\ZSU\zsu_03_snow_co.paa"
+                };
                 factions[] = {};
             };
         };
