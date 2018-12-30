@@ -1444,6 +1444,13 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_des.paa","\x\cfp\addons\vehicles\Ural\ural_plachta_iran.paa"};
                 factions[] = {};
             };
+            class ChedakiSnow
+            {
+                displayName = "Chedaki Snow";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_chedaki_snow_co.paa","\x\cfp\addons\vehicles\Ural\ural_plachta_chedaki_snow_co.paa","\x\cfp\addons\vehicles\Ural\whl_snow_co.paa"};
+                factions[] = {};
+            };
         };
     };
 
@@ -1529,6 +1536,13 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_des.paa","\x\cfp\addons\vehicles\Ural\ural_plachta_iran.paa"};
                 factions[] = {};
             };
+            class ChedakiSnow
+            {
+                displayName = "Chedaki Snow";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_chedaki_snow_co.paa","\x\cfp\addons\vehicles\Ural\ural_plachta_chedaki_snow_co.paa"};
+                factions[] = {};
+            };
         };
     };
 
@@ -1548,6 +1562,13 @@ class CfgVehicles
                 displayName = "Desert";
                 author = "CFP";
                 textures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_des.paa","\x\cfp\addons\vehicles\Ural\ural_plachta_iran.paa"};
+                factions[] = {};
+            };
+            class ChedakiSnow
+            {
+                displayName = "Chedaki Snow";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_chedaki_snow_co.paa","\x\cfp\addons\vehicles\Ural\ural_plachta_chedaki_snow_co.paa"};
                 factions[] = {};
             };
         };
