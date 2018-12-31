@@ -1324,6 +1324,9 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Medic";
+        attendant = 1;
+        icon = "iconManMedic";
+        picture = "pictureHeal";
         side = 0;
         faction = "CFP_O_CHDKZ_Winter";
 
@@ -1816,6 +1819,8 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Sapper";
+        engineer = 1;
+        canDeactivateMines = 1;
         side = 0;
         faction = "CFP_O_CHDKZ_Winter";
 
@@ -1895,6 +1900,8 @@ class CfgVehicles {
         scope = 2;
         scopeCurator = 2;
         displayName = "Saboteur";
+        engineer = 1;
+        canDeactivateMines = 1;
         side = 0;
         faction = "CFP_O_CHDKZ_Winter";
 
@@ -2117,6 +2124,82 @@ class CfgVehicles {
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_CHDKZWinter_Gunner_DShKM_01 : CFP_O_CHDKZ_Rifleman_AK_74_Winter_01 {
+
+        displayName = "Gunner [DShKM]";
+
+        linkedItems[] = {"CUP_V_RUS_Smersh_1","CFP_FullFaceWrap_Black","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CUP_V_RUS_Smersh_1","CFP_FullFaceWrap_Black","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_AK74"};
+        respawnWeapons[] = {"CUP_arifle_AK74"};
+
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
+
+        backpack = "CUP_B_DShkM_TripodHigh_Bag";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"CFP_CHZ_Berezka4",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",1,30}}},{"CUP_V_RUS_Smersh_1",{{"CUP_30Rnd_545x39_AK_M",4,30},{"CUP_HandGrenade_RGD5",2,1}}},{"CUP_B_DShkM_TripodHigh_Bag",{}},"CFP_FullFaceWrap_Black","CFP_Oakley_Goggles_Alp",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+
+    };
+
+    class CFP_O_CHDKZWinter_Asst_Gunner_DShKM_01 : CFP_O_CHDKZ_Rifleman_AK_74_Winter_01 {
+
+        displayName = "Asst. Gunner [DShKM]";
+
+        linkedItems[] = {"SP_Tactical1_White","CFP_FullFaceWrap_Snow","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"SP_Tactical1_White","CFP_FullFaceWrap_Snow","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_AK74"};
+        respawnWeapons[] = {"CUP_arifle_AK74"};
+
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
+
+        backpack = "CUP_B_DShkM_Gun_Bag";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"CFP_CHZ_Berezka3",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",1,30}}},{"SP_Tactical1_White",{{"CUP_30Rnd_545x39_AK_M",4,30},{"CUP_HandGrenade_RGD5",2,1}}},{"CUP_B_DShkM_Gun_Bag",{}},"CFP_FullFaceWrap_Snow","CFP_Oakley_Goggles_Olv",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+
+    };
+
+    class CFP_O_CHDKZWinter_Gunner_Mortar_01 : CFP_O_CHDKZ_Rifleman_AK_74_Winter_01 {
+
+        displayName = "Gunner [Mortar]";
+
+        linkedItems[] = {"CFP_Tactical1_White2","CFP_FullFaceWrap_Snow","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CFP_Tactical1_White2","CFP_FullFaceWrap_Snow","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_AK74"};
+        respawnWeapons[] = {"CUP_arifle_AK74"};
+
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
+
+        backpack = "CUP_B_Podnos_Bipod_Bag";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"CFP_CHZ_Berezka3",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",1,30}}},{"CFP_Tactical1_White2",{{"CUP_30Rnd_545x39_AK_M",4,30},{"CUP_HandGrenade_RGD5",2,1}}},{"CUP_B_Podnos_Bipod_Bag",{}},"CFP_FullFaceWrap_Snow","CFP_Oakley_Goggles_Alp",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+
+    };
+
+    class CFP_O_CHDKZWinter_Asst_Gunner_Mortar_01 : CFP_O_CHDKZ_Rifleman_AK_74_Winter_01 {
+
+        displayName = "Asst. Gunner [Mortar]";
+
+        linkedItems[] = {"CFP_Tactical1_Berez","CFP_BeanieHat_White","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CFP_Tactical1_Berez","CFP_BeanieHat_White","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_AK74"};
+        respawnWeapons[] = {"CUP_arifle_AK74"};
+
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
+
+        backpack = "CUP_B_Podnos_Gun_Bag";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"CFP_CHZ_Berezka2",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",1,30}}},{"CFP_Tactical1_Berez",{{"CUP_30Rnd_545x39_AK_M",4,30},{"CUP_HandGrenade_RGD5",2,1}}},{"CUP_B_Podnos_Gun_Bag",{}},"CFP_BeanieHat_White","SP_Goggles_Black",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -2766,6 +2849,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_Winter";
         crew = "CFP_O_CHDKZ_Rifleman_AK_74_Winter_01";
+        hiddenSelectionstextures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_chedaki_snow_co.paa","\x\cfp\addons\vehicles\Ural\ural_open_chedaki_snow_co.paa","\x\cfp\addons\vehicles\Ural\ural_fuel_chedaki_snow_co.paa","\x\cfp\addons\vehicles\Ural\whl_snow_co.paa"};
 
 
         class EventHandlers : EventHandlers {
@@ -2993,6 +3077,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_Winter";
         crew = "CFP_O_CHDKZ_Crewman_Winter_01";
+        hiddenSelectionstextures[] = {"\x\cfp\addons\vehicles\T72\T72_1_snow_co.paa","\x\cfp\addons\vehicles\T72\T72_2_snow_co.paa","\x\cfp\addons\vehicles\T72\T72_3_snow_co.paa"};
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_CHDKZ_Crewman_Winter_01"; };
@@ -3030,6 +3115,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_Winter";
         crew = "CFP_O_CHDKZ_Crewman_Winter_01";
+        hiddenSelectionstextures[] = {"\x\cfp\addons\vehicles\T55\t55_body_chedaki_snow_co.paa","\x\cfp\addons\vehicles\T55\t55_tower_chedaki_snow_co.paa"};
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_CHDKZ_Crewman_Winter_01"; };

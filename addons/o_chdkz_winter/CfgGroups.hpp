@@ -208,6 +208,195 @@ class CfgGroups {
                     };
                 };
 
+                class cfp_o_chdkzwinter_infantry_support_group {
+                    name = "Support Group";
+                    side = 0;
+                    faction = "CFP_O_CHDKZ_Winter";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Commander_Winter_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Medic_Winter_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Medic_Winter_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Engineer_Winter_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Engineer_Winter_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Sapper_Winter_01";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Sapper_Winter_01";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Rifleman_Winter_01";
+                    };
+                };
+
+                class cfp_o_chdkzwinter_infantry_demo_team {
+                    name = "Demo Team";
+                    side = 0;
+                    faction = "CFP_O_CHDKZ_Winter";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Sapper_Winter_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Sapper_Winter_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Saboteur_Winter_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Saboteur_Winter_01";
+                    };
+                };
+
+                class cfp_o_chdkzwinter_infantry_fire_team {
+                    name = "Fire Team";
+                    side = 0;
+                    faction = "CFP_O_CHDKZ_Winter";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Commander_Winter_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Grenadier_Winter_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Machinegunner_Winter_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Ammo_Bearer_Winter_01";
+                    };
+                };
+
+                class cfp_o_chdkzwinter_infantry_mg_team {
+                    name = "MG Team";
+                    side = 0;
+                    faction = "CFP_O_CHDKZ_Winter";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Commander_Winter_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Rifleman_AK_74_Winter_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZWinter_Gunner_DShKM_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZWinter_Asst_Gunner_DShKM_01";
+                    };
+                };
+
+                class cfp_o_chdkzwinter_infantry_mortar_team {
+                    name = "Mortar Team";
+                    side = 0;
+                    faction = "CFP_O_CHDKZ_Winter";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZWinter_Gunner_Mortar_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZWinter_Asst_Gunner_Mortar_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZWinter_Gunner_Mortar_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZWinter_Asst_Gunner_Mortar_01";
+                    };
+                };
+
             };
 
             class SpecOps {
@@ -356,6 +545,60 @@ class CfgGroups {
                     };
                 };
 
+                class cfp_o_chdkzwinter_motorized_motorized_at_team {
+                    name = "Motorized AT Team";
+                    side = 0;
+                    faction = "CFP_O_CHDKZ_Winter";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_UAZ_Metis_Winter_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_AT_Specialist_Winter_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_UAZ_SPG_Winter_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_AT_Specialist_Winter_01";
+                    };
+                };
+
+                class cfp_o_chdkzwinter_motorized_motorized_aa_team {
+                    name = "Motorized AA Team";
+                    side = 0;
+                    faction = "CFP_O_CHDKZ_Winter";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Ural_ZU_23_Winter_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_AA_Specialist_Winter_01";
+                    };
+                };
+
             };
 
             class Motorized_MTP {
@@ -461,6 +704,255 @@ class CfgGroups {
                     };
                     class Unit3 {
                         position[] = {3,0,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_AT_Specialist_Winter_01";
+                    };
+                };
+
+                class cfp_o_chdkzwinter_mechanized_mechanized_group_btr_60pb {
+                    name = "Mechanized Group [BTR-60PB]";
+                    side = 0;
+                    faction = "CFP_O_CHDKZ_Winter";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_BTR_60PB_Winter_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Commander_Winter_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Grenadier_Winter_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_AT_Specialist_Winter_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Automatic_Rifleman_Winter_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Machinegunner_Winter_01";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Ammo_Bearer_Winter_01";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Rifleman_Winter_01";
+                    };
+                    class Unit8 {
+                        position[] = {-20,-20,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Engineer_Winter_01";
+                    };
+                    class Unit9 {
+                        position[] = {25,-25,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Rifleman_AK_74_Winter_01";
+                    };
+                    class Unit10 {
+                        position[] = {-25,-25,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Medic_Winter_01";
+                    };
+                };
+
+                class cfp_o_chdkzwinter_mechanized_mechanized_group_bmp2 {
+                    name = "Mechanized Group [BMP2]";
+                    side = 0;
+                    faction = "CFP_O_CHDKZ_Winter";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_BMP_2_Winter_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Commander_Winter_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Grenadier_Winter_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Medic_Winter_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Automatic_Rifleman_Winter_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Machinegunner_Winter_01";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Ammo_Bearer_Winter_01";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Engineer_Winter_01";
+                    };
+                    class Unit8 {
+                        position[] = {-20,-20,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_AT_Specialist_Winter_01";
+                    };
+                    class Unit9 {
+                        position[] = {25,-25,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Rifleman_AK_74_Winter_01";
+                    };
+                    class Unit10 {
+                        position[] = {-25,-25,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Rifleman_Winter_01";
+                    };
+                };
+
+                class cfp_o_chdkzwinter_mechanized_mechanized_aa_patrol_bmp2 {
+                    name = "Mechanized AA Patrol [BMP2]";
+                    side = 0;
+                    faction = "CFP_O_CHDKZ_Winter";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_BMP_2ZU23_Winter_01";
+                    };
+                };
+
+                class cfp_o_chdkzwinter_mechanized_mechanized_aa_patrol_zsu23 {
+                    name = "Mechanized AA Patrol [ZSU23]";
+                    side = 0;
+                    faction = "CFP_O_CHDKZ_Winter";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_ZSU_23_4_Winter_01";
+                    };
+                };
+
+                class cfp_o_chdkzwinter_mechanized_mechanized_group_mtlb {
+                    name = "Mechanized Group [MTLB]";
+                    side = 0;
+                    faction = "CFP_O_CHDKZ_Winter";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_MT_LB_LV_Winter_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Commander_Winter_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Grenadier_Winter_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Engineer_Winter_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Automatic_Rifleman_Winter_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Machinegunner_Winter_01";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Ammo_Bearer_Winter_01";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Medic_Winter_01";
+                    };
+                    class Unit8 {
+                        position[] = {-20,-20,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Rifleman_AK_74_Winter_01";
+                    };
+                    class Unit9 {
+                        position[] = {25,-25,0};
                         rank = "PRIVATE";
                         side = 0;
                         vehicle = "CFP_O_CHDKZ_AT_Specialist_Winter_01";

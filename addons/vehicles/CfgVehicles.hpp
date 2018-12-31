@@ -1531,6 +1531,7 @@ class CfgVehicles
             };
         };
     };
+
     class CUP_Ural_Open_Base: CUP_Ural_Base
     {
         class textureSources
@@ -1576,6 +1577,13 @@ class CfgVehicles
                 displayName = "Desert";
                 author = "CFP";
                 textures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_des.paa","\x\cfp\addons\vehicles\Ural\ural_open_iran.paa","\x\cfp\addons\vehicles\Ural\ural_fuel_iran.paa"};
+                factions[] = {};
+            };
+            class ChedakiSnow
+            {
+                displayName = "Chedaki Snow";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_chedaki_snow_co.paa","\x\cfp\addons\vehicles\Ural\ural_open_chedaki_snow_co.paa","\x\cfp\addons\vehicles\Ural\ural_fuel_chedaki_snow_co.paa","\x\cfp\addons\vehicles\Ural\whl_snow_co.paa"};
                 factions[] = {};
             };
         };
