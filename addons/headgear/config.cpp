@@ -122,6 +122,7 @@ class CfgPatches
             "CFP_OPS2017_Helmet_Black2",
             "CFP_OPS2017_Helmet_Flecktarn",
             "CFP_OPS2017_Helmet_Grey",
+	    "CFP_OPS2017_Helmet_White",
             "CFP_OPS2017_Helmet_M81",
             "CFP_OPS2017_Helmet_Multicam",
             "CFP_OPS2017_Helmet_Multicam2",

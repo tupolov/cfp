@@ -185,6 +185,29 @@
 		};
 	};
 
+	class CFP_OPS2017_Helmet_White: VSM_OPS2017_Helmet_Tan
+	{
+		displayName = "OPSCORE (White)";
+		// picture = "\x\cfp\addons\headgear\MichHelmet\ui\Tan1.jpg";
+		hiddenSelections[] = {"camo","camo1","camo2"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_white.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_black.paa"};
+		author = "CFP";
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 15;
+			allowedSlots[] = {901,605};
+			uniformmodel = "\x\cfp\addons\models\VSM_OPS2017";
+			modelSides[] = {6};
+			armor = 6;
+			passThrough = 0.5;
+			HITPOINTS_HEAD(6,0.5)
+			hiddenSelections[] = {"camo","camo1","camo2"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_white.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_black.paa"};
+
+		};
+	};
+
 	class CFP_OPS2017_Helmet_Black2: VSM_OPS2017_Helmet_Tan
 	{
 		displayName = "OPSCORE (Black 2)";
