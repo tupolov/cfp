@@ -62,7 +62,19 @@ class CfgPatches {
             "CFP_B_CDF_AA_Specialist_SNW_04",
             "CFP_B_CDF_AT_Specialist_SNW_04",
             "CFP_B_CDF_Marksman_SNW_04",
-            "CFP_B_CDF_Spotter_SNW_04"
+            "CFP_B_CDF_Spotter_SNW_04",
+            "CFP_B_CDF_SF_Operator_SNW_01",
+            "CFP_B_CDF_SF_Team_Leader_SNW_01",
+            "CFP_B_CDF_SF_Automatic_Rifleman_SNW_01",
+            "CFP_B_CDF_SF_Explosives_Specialist_SNW_01",
+            "CFP_B_CDF_SF_Operator_Light_SNW_01",
+            "CFP_B_CDF_SF_Team_Leader_Light_SNW_01",
+            "CFP_B_CDF_SF_Automatic_Rifleman_Light_SNW_01",
+            "CFP_B_CDF_SF_Explosives_Specialist_Light_SNW_01",
+            "CFP_B_CDF_Gunner_DShKM_SNW_01",
+            "CFP_B_CDF_Asst_Gunner_DShKM_SNW_01",
+            "CFP_B_CDF_Gunner_Mortar_SNW_01",
+            "CFP_B_CDF_Asst_Gunner_Mortar_SNW_01"
         };
         weapons[] = {};
         requiredVersion = 1.62;
