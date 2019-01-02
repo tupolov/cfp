@@ -2605,7 +2605,7 @@ class CfgVehicles {
 
         backpack = "CFP_Kitbag_White";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"CUP_U_B_CDF_SNW_2",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",1,30}}},{"CUP_V_CDF_6B3_3_SNW",{{"CUP_30Rnd_545x39_AK_M",4,30},{"CUP_HandGrenade_RGD5",2,1}}},{"CFP_Kitbag_White",{{"ToolKit",1},{"MineDetector",1},{"CUP_Mine_M",1,1}}},"CUP_H_CDF_H_PASGT_SNW","CFP_Oakleys_Drk",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"CUP_U_B_CDF_SNW_2",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",1,30}}},{"CUP_V_CDF_6B3_3_SNW",{{"CUP_30Rnd_545x39_AK_M",4,30},{"CUP_HandGrenade_RGD5",2,1}}},{"CFP_Kitbag_White",{{"ToolKit",1},{"MineDetector",1},{"CUP_Mine_M",1,1},{"DemoCharge_Remote_Mag",3,1},{"APERSTripMine_Wire_Mag",1,1}}},"CUP_H_CDF_H_PASGT_SNW","CFP_Oakleys_Drk",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
