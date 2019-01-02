@@ -508,15 +508,15 @@ class CfgVehicles {
     };
 
 
-    class CFP_O_CHDKZ_Mi_8MT_Medevac_Winter_01 : CUP_O_Mi8_medevac_CHDKZ_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_Mi_8MT_Medevac_Winter_01.JPG;
+    class CFP_O_CHDKZ_Mi_8MT_Medevac_SNW_01 : CUP_O_Mi8_medevac_CHDKZ_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_Mi_8MT_Medevac_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Mi-8MT Medevac";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Pilot_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Pilot_SNW_01";
 
         class Turrets : Turrets {
             class CopilotTurret : CopilotTurret { gunnerType = ""; };
@@ -539,15 +539,15 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_MT_LB_LV_Winter_01 : CUP_O_MTLB_pk_ChDKZ_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_MT_LB_LV_Winter_01.JPG;
+    class CFP_O_CHDKZ_MT_LB_LV_SNW_01 : CUP_O_MTLB_pk_ChDKZ_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_MT_LB_LV_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "MT-LB LV";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Crewman_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Crewman_SNW_01";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -570,15 +570,15 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_Ural_Winter_01 : CUP_O_Ural_CHDKZ_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_Ural_Winter_01.JPG;
+    class CFP_O_CHDKZ_Ural_SNW_01 : CUP_O_Ural_CHDKZ_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_Ural_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Ural";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Rifleman_AK_74_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -602,15 +602,15 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_ZU_23_Winter_01 : CUP_O_ZU23_ChDKZ_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_ZU_23_Winter_01.JPG;
+    class CFP_O_CHDKZ_ZU_23_SNW_01 : CUP_O_ZU23_ChDKZ_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_ZU_23_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "ZU-23";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Rifleman_AK_74_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -632,15 +632,15 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_DShKM_Winter_01 : CUP_O_DSHKM_ChDKZ_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_DShKM_Winter_01.JPG;
+    class CFP_O_CHDKZ_DShKM_SNW_01 : CUP_O_DSHKM_ChDKZ_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_DShKM_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "DShKM";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Rifleman_AK_74_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -662,15 +662,15 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_DSHkM_Minitripod_Winter_01 : CUP_O_DSHkM_MiniTriPod_ChDKZ_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_DSHkM_Minitripod_Winter_01.JPG;
+    class CFP_O_CHDKZ_DSHkM_Minitripod_SNW_01 : CUP_O_DSHkM_MiniTriPod_ChDKZ_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_DSHkM_Minitripod_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "DSHkM Minitripod";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Rifleman_AK_74_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -692,15 +692,15 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_AGS_30_Winter_01 : CUP_O_AGS_ChDKZ_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_AGS_30_Winter_01.JPG;
+    class CFP_O_CHDKZ_AGS_30_SNW_01 : CUP_O_AGS_ChDKZ_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_AGS_30_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "AGS-30";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Rifleman_AK_74_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -722,15 +722,15 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_SPG_9_Winter_01 : CUP_O_SPG9_ChDKZ_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_SPG_9_Winter_01.JPG;
+    class CFP_O_CHDKZ_SPG_9_SNW_01 : CUP_O_SPG9_ChDKZ_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_SPG_9_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "SPG-9";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Rifleman_AK_74_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -752,15 +752,15 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_Podnos_2B14_Winter_01 : CUP_O_2b14_82mm_ChDKZ_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_Podnos_2B14_Winter_01.JPG;
+    class CFP_O_CHDKZ_Podnos_2B14_SNW_01 : CUP_O_2b14_82mm_ChDKZ_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_Podnos_2B14_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Podnos 2B14";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Rifleman_AK_74_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -782,15 +782,15 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_D30_Winter_01 : CUP_O_D30_ChDKZ_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_D30_Winter_01.JPG;
+    class CFP_O_CHDKZ_D30_SNW_01 : CUP_O_D30_ChDKZ_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_D30_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "D-30";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Rifleman_AK_74_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -812,15 +812,15 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_D30_AT_Winter_01 : CUP_O_D30_AT_ChDKZ_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_D30_AT_Winter_01.JPG;
+    class CFP_O_CHDKZ_D30_AT_SNW_01 : CUP_O_D30_AT_ChDKZ_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_D30_AT_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "D-30 AT";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Rifleman_AK_74_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -842,15 +842,15 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_BTR_60PB_Winter_01 : CUP_O_BTR60_CHDKZ_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_BTR_60PB_Winter_01.JPG;
+    class CFP_O_CHDKZ_BTR_60PB_SNW_01 : CUP_O_BTR60_CHDKZ_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_BTR_60PB_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "BTR-60PB";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Rifleman_AK_74_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -882,14 +882,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_Rifleman_AK_74_Winter_01 : CUP_O_INS_Soldier_AK74_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_Rifleman_AK_74_Winter_01.JPG;
+    class CFP_O_CHDKZ_Rifleman_AK_74_SNW_01 : CUP_O_INS_Soldier_AK74_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_Rifleman_AK_74_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman (AK-74)";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
+        faction = "CFP_O_CHDKZ_SNW";
 
         identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
 
@@ -959,8 +959,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_Engineer_Winter_01 : CUP_O_INS_Soldier_Engineer_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_Engineer_Winter_01.JPG;
+    class CFP_O_CHDKZ_Engineer_SNW_01 : CUP_O_INS_Soldier_Engineer_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_Engineer_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -968,7 +968,7 @@ class CfgVehicles {
         engineer = 1;
         canDeactivateMines = 1;
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
+        faction = "CFP_O_CHDKZ_SNW";
 
         identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
 
@@ -1044,14 +1044,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_Rifleman_Winter_01 : CUP_O_INS_Soldier_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_Rifleman_Winter_01.JPG;
+    class CFP_O_CHDKZ_Rifleman_SNW_01 : CUP_O_INS_Soldier_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_Rifleman_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
+        faction = "CFP_O_CHDKZ_SNW";
 
         identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
 
@@ -1116,14 +1116,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_Ammo_Bearer_Winter_01 : CUP_O_INS_Soldier_Ammo_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_Ammo_Bearer_Winter_01.JPG;
+    class CFP_O_CHDKZ_Ammo_Bearer_SNW_01 : CUP_O_INS_Soldier_Ammo_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_Ammo_Bearer_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Ammo Bearer";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
+        faction = "CFP_O_CHDKZ_SNW";
 
         identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
 
@@ -1195,14 +1195,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_Grenadier_Winter_01 : CUP_O_INS_Soldier_GL_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_Grenadier_Winter_01.JPG;
+    class CFP_O_CHDKZ_Grenadier_SNW_01 : CUP_O_INS_Soldier_GL_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_Grenadier_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Grenadier";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
+        faction = "CFP_O_CHDKZ_SNW";
 
         identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
 
@@ -1269,14 +1269,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_Officer_Winter_01 : CUP_O_INS_Officer_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_Officer_Winter_01.JPG;
+    class CFP_O_CHDKZ_Officer_SNW_01 : CUP_O_INS_Officer_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_Officer_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Officer";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
+        faction = "CFP_O_CHDKZ_SNW";
 
         identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
 
@@ -1318,8 +1318,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_Medic_Winter_01 : CUP_O_INS_Medic_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_Medic_Winter_01.JPG;
+    class CFP_O_CHDKZ_Medic_SNW_01 : CUP_O_INS_Medic_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_Medic_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1328,7 +1328,7 @@ class CfgVehicles {
         icon = "iconManMedic";
         picture = "pictureHeal";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
+        faction = "CFP_O_CHDKZ_SNW";
 
         identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
 
@@ -1395,14 +1395,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_Commander_Winter_01 : CUP_O_INS_Commander_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_Commander_Winter_01.JPG;
+    class CFP_O_CHDKZ_Commander_SNW_01 : CUP_O_INS_Commander_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_Commander_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Commander";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
+        faction = "CFP_O_CHDKZ_SNW";
 
         identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
 
@@ -1444,14 +1444,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_Automatic_Rifleman_Winter_01 : CUP_O_INS_Soldier_AR_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_Automatic_Rifleman_Winter_01.JPG;
+    class CFP_O_CHDKZ_Automatic_Rifleman_SNW_01 : CUP_O_INS_Soldier_AR_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_Automatic_Rifleman_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Automatic Rifleman";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
+        faction = "CFP_O_CHDKZ_SNW";
 
         identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
 
@@ -1523,14 +1523,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_Machinegunner_Winter_01 : CUP_O_INS_Soldier_MG_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_Machinegunner_Winter_01.JPG;
+    class CFP_O_CHDKZ_Machinegunner_SNW_01 : CUP_O_INS_Soldier_MG_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_Machinegunner_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Machinegunner";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
+        faction = "CFP_O_CHDKZ_SNW";
 
         identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
 
@@ -1588,14 +1588,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_AT_Specialist_Winter_01 : CUP_O_INS_Soldier_AT_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_AT_Specialist_Winter_01.JPG;
+    class CFP_O_CHDKZ_AT_Specialist_SNW_01 : CUP_O_INS_Soldier_AT_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_AT_Specialist_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "AT Specialist";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
+        faction = "CFP_O_CHDKZ_SNW";
 
         identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
 
@@ -1671,14 +1671,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_AA_Specialist_Winter_01 : CUP_O_INS_Soldier_AA_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_AA_Specialist_Winter_01.JPG;
+    class CFP_O_CHDKZ_AA_Specialist_SNW_01 : CUP_O_INS_Soldier_AA_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_AA_Specialist_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "AA Specialist";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
+        faction = "CFP_O_CHDKZ_SNW";
 
         identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
 
@@ -1750,14 +1750,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_Sniper_Winter_01 : CUP_O_INS_Sniper_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_Sniper_Winter_01.JPG;
+    class CFP_O_CHDKZ_Sniper_SNW_01 : CUP_O_INS_Sniper_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_Sniper_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Sniper";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
+        faction = "CFP_O_CHDKZ_SNW";
 
         identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
 
@@ -1813,8 +1813,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_Sapper_Winter_01 : CUP_O_INS_Soldier_Exp_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_Sapper_Winter_01.JPG;
+    class CFP_O_CHDKZ_Sapper_SNW_01 : CUP_O_INS_Soldier_Exp_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_Sapper_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1822,7 +1822,7 @@ class CfgVehicles {
         engineer = 1;
         canDeactivateMines = 1;
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
+        faction = "CFP_O_CHDKZ_SNW";
 
         identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
 
@@ -1894,8 +1894,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_Saboteur_Winter_01 : CUP_O_INS_Saboteur_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_Saboteur_Winter_01.JPG;
+    class CFP_O_CHDKZ_Saboteur_SNW_01 : CUP_O_INS_Saboteur_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_Saboteur_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1903,7 +1903,7 @@ class CfgVehicles {
         engineer = 1;
         canDeactivateMines = 1;
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
+        faction = "CFP_O_CHDKZ_SNW";
 
         identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
 
@@ -1961,14 +1961,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_Boss_Winter_01 : CUP_O_INS_Story_Lopotev_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_Boss_Winter_01.JPG;
+    class CFP_O_CHDKZ_Boss_SNW_01 : CUP_O_INS_Story_Lopotev_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_Boss_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Boss";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
+        faction = "CFP_O_CHDKZ_SNW";
 
         identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
 
@@ -2000,14 +2000,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_Insurgent_Winter_01 : CUP_O_INS_Story_Bardak_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_Insurgent_Winter_01.JPG;
+    class CFP_O_CHDKZ_Insurgent_SNW_01 : CUP_O_INS_Story_Bardak_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_Insurgent_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Insurgent";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
+        faction = "CFP_O_CHDKZ_SNW";
 
         identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
 
@@ -2039,14 +2039,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_Crewman_Winter_01 : CUP_O_INS_Crew_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_Crewman_Winter_01.JPG;
+    class CFP_O_CHDKZ_Crewman_SNW_01 : CUP_O_INS_Crew_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_Crewman_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Crewman";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
+        faction = "CFP_O_CHDKZ_SNW";
 
         identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
 
@@ -2088,14 +2088,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_Pilot_Winter_01 : CUP_O_INS_Pilot_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_Pilot_Winter_01.JPG;
+    class CFP_O_CHDKZ_Pilot_SNW_01 : CUP_O_INS_Pilot_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_Pilot_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Pilot";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
+        faction = "CFP_O_CHDKZ_SNW";
 
         identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
 
@@ -2127,7 +2127,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZWinter_Gunner_DShKM_01 : CFP_O_CHDKZ_Rifleman_AK_74_Winter_01 {
+    class CFP_O_CHDKZ_Gunner_DShKM_SNW_01 : CFP_O_CHDKZ_Rifleman_AK_74_SNW_01 {
 
         displayName = "Gunner [DShKM]";
 
@@ -2146,7 +2146,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZWinter_Asst_Gunner_DShKM_01 : CFP_O_CHDKZ_Rifleman_AK_74_Winter_01 {
+    class CFP_O_CHDKZ_Asst_Gunner_DShKM_SNW_01 : CFP_O_CHDKZ_Rifleman_AK_74_SNW_01 {
 
         displayName = "Asst. Gunner [DShKM]";
 
@@ -2165,7 +2165,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZWinter_Gunner_Mortar_01 : CFP_O_CHDKZ_Rifleman_AK_74_Winter_01 {
+    class CFP_O_CHDKZ_Gunner_Mortar_SNW_01 : CFP_O_CHDKZ_Rifleman_AK_74_SNW_01 {
 
         displayName = "Gunner [Mortar]";
 
@@ -2184,7 +2184,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZWinter_Asst_Gunner_Mortar_01 : CFP_O_CHDKZ_Rifleman_AK_74_Winter_01 {
+    class CFP_O_CHDKZ_Asst_Gunner_Mortar_SNW_01 : CFP_O_CHDKZ_Rifleman_AK_74_SNW_01 {
 
         displayName = "Asst. Gunner [Mortar]";
 
@@ -2203,14 +2203,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_Local_Winter_01 : CUP_O_INS_Worker2_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_Local_Winter_01.JPG;
+    class CFP_O_CHDKZ_Local_SNW_01 : CUP_O_INS_Worker2_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_Local_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Local";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
+        faction = "CFP_O_CHDKZ_SNW";
 
         identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
 
@@ -2242,14 +2242,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_Woodman_Winter_01 : CUP_O_INS_Woodlander1_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_Woodman_Winter_01.JPG;
+    class CFP_O_CHDKZ_Woodman_SNW_01 : CUP_O_INS_Woodlander1_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_Woodman_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Woodman";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
+        faction = "CFP_O_CHDKZ_SNW";
 
         identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
 
@@ -2281,14 +2281,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_Gamekeeper_Winter_01 : CUP_O_INS_Woodlander2_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_Gamekeeper_Winter_01.JPG;
+    class CFP_O_CHDKZ_Gamekeeper_SNW_01 : CUP_O_INS_Woodlander2_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_Gamekeeper_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Gamekeeper";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
+        faction = "CFP_O_CHDKZ_SNW";
 
         identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
 
@@ -2320,14 +2320,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_Forester_Winter_01 : CUP_O_INS_Woodlander3_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_Forester_Winter_01.JPG;
+    class CFP_O_CHDKZ_Forester_SNW_01 : CUP_O_INS_Woodlander3_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_Forester_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Forester";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
+        faction = "CFP_O_CHDKZ_SNW";
 
         identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
 
@@ -2359,14 +2359,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_Farmer_Winter_01 : CUP_O_INS_Villager3_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_Farmer_Winter_01.JPG;
+    class CFP_O_CHDKZ_Farmer_SNW_01 : CUP_O_INS_Villager3_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_Farmer_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Farmer";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
+        faction = "CFP_O_CHDKZ_SNW";
 
         identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
 
@@ -2398,14 +2398,14 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_Villager_Winter_01 : CUP_O_INS_Villager4_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_Villager_Winter_01.JPG;
+    class CFP_O_CHDKZ_Villager_SNW_01 : CUP_O_INS_Villager4_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_Villager_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Villager";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
+        faction = "CFP_O_CHDKZ_SNW";
 
         identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
 
@@ -2437,15 +2437,15 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_ZSU_23_4_Winter_01 : CUP_O_ZSU23_ChDKZ_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_ZSU_23_4_Winter_01.JPG;
+    class CFP_O_CHDKZ_ZSU_23_4_SNW_01 : CUP_O_ZSU23_ChDKZ_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_ZSU_23_4_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "ZSU-23-4";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Rifleman_AK_74_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -2468,15 +2468,15 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_ZSU_23_4_Winter_02 : CUP_O_ZSU23_Afghan_ChDKZ_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_ZSU_23_4_Winter_02.JPG;
+    class CFP_O_CHDKZ_ZSU_23_4_SNW_02 : CUP_O_ZSU23_Afghan_ChDKZ_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_ZSU_23_4_SNW_02.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "ZSU-23-4";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Rifleman_AK_74_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -2499,15 +2499,15 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_Datsun_620_Pickup_PK_Winter_01 : CUP_O_Datsun_PK_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_Datsun_620_Pickup_PK_Winter_01.JPG;
+    class CFP_O_CHDKZ_Datsun_620_Pickup_PK_SNW_01 : CUP_O_Datsun_PK_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_Datsun_620_Pickup_PK_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Datsun 620 Pickup (PK)";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Rifleman_AK_74_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -2531,15 +2531,15 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_Datsun_620_Pickup_PK_Woodland_Winter_01 : CUP_O_Datsun_PK_Random_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_Datsun_620_Pickup_PK_Woodland_Winter_01.JPG;
+    class CFP_O_CHDKZ_Datsun_620_Pickup_PK_Woodland_SNW_01 : CUP_O_Datsun_PK_Random_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_Datsun_620_Pickup_PK_Woodland_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Datsun 620 Pickup (PK) Woodland";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Rifleman_AK_74_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -2563,15 +2563,15 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_Datsun_620_Pickup_Woodland_Winter_01 : CUP_O_Datsun_4seat_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_Datsun_620_Pickup_Woodland_Winter_01.JPG;
+    class CFP_O_CHDKZ_Datsun_620_Pickup_Woodland_SNW_01 : CUP_O_Datsun_4seat_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_Datsun_620_Pickup_Woodland_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Datsun 620 Pickup Woodland";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Rifleman_AK_74_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -2595,15 +2595,15 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_TT650_Winter_01 : CUP_O_TT650_CHDKZ_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_TT650_Winter_01.JPG;
+    class CFP_O_CHDKZ_TT650_SNW_01 : CUP_O_TT650_CHDKZ_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_TT650_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "TT650";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Rifleman_AK_74_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01";
 
 
         class EventHandlers : EventHandlers {
@@ -2620,15 +2620,15 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_UAZ_Winter_01 : CUP_O_UAZ_Unarmed_CHDKZ_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_UAZ_Winter_01.JPG;
+    class CFP_O_CHDKZ_UAZ_SNW_01 : CUP_O_UAZ_Unarmed_CHDKZ_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_UAZ_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "UAZ";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Rifleman_AK_74_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01";
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -2645,15 +2645,15 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_UAZ_Open_Winter_01 : CUP_O_UAZ_Open_CHDKZ_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_UAZ_Open_Winter_01.JPG;
+    class CFP_O_CHDKZ_UAZ_Open_SNW_01 : CUP_O_UAZ_Open_CHDKZ_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_UAZ_Open_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "UAZ (Open)";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Rifleman_AK_74_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01";
         hiddenSelectionstextures[] = {"\x\cfp\addons\vehicles\UAZ\uaz_main_snow_co.paa"};
 
         class Turrets : Turrets {
@@ -2680,15 +2680,15 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_UAZ_DShKM_Winter_01 : CUP_O_UAZ_MG_CHDKZ_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_UAZ_DShKM_Winter_01.JPG;
+    class CFP_O_CHDKZ_UAZ_DShKM_SNW_01 : CUP_O_UAZ_MG_CHDKZ_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_UAZ_DShKM_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "UAZ (DShKM)";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Rifleman_AK_74_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01";
         hiddenSelectionstextures[] = {"\x\cfp\addons\vehicles\UAZ\uaz_main_snow_co.paa","\x\cfp\addons\vehicles\UAZ\uaz_mount_snow_co.paa"};
 
         class Turrets : Turrets {
@@ -2712,15 +2712,15 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_UAZ_AGS_30_Winter_01 : CUP_O_UAZ_AGS30_CHDKZ_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_UAZ_AGS_30_Winter_01.JPG;
+    class CFP_O_CHDKZ_UAZ_AGS_30_SNW_01 : CUP_O_UAZ_AGS30_CHDKZ_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_UAZ_AGS_30_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "UAZ (AGS-30)";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Rifleman_AK_74_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01";
         hiddenSelectionstextures[] = {"\x\cfp\addons\vehicles\UAZ\uaz_main_snow_co.paa","\x\cfp\addons\vehicles\UAZ\uaz_mount_snow_co.paa"};
 
         class Turrets : Turrets {
@@ -2744,15 +2744,15 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_UAZ_SPG_Winter_01 : CUP_O_UAZ_SPG9_CHDKZ_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_UAZ_SPG_Winter_01.JPG;
+    class CFP_O_CHDKZ_UAZ_SPG_SNW_01 : CUP_O_UAZ_SPG9_CHDKZ_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_UAZ_SPG_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "UAZ (SPG-9)";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Rifleman_AK_74_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01";
         hiddenSelectionstextures[] = {"\x\cfp\addons\vehicles\UAZ\uaz_main_snow_co.paa"};
 
         class Turrets : Turrets {
@@ -2776,15 +2776,15 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_UAZ_Metis_Winter_01 : CUP_O_UAZ_METIS_CHDKZ_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_UAZ_Metis_Winter_01.JPG;
+    class CFP_O_CHDKZ_UAZ_Metis_SNW_01 : CUP_O_UAZ_METIS_CHDKZ_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_UAZ_Metis_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "UAZ (Metis-M)";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Rifleman_AK_74_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01";
         hiddenSelectionstextures[] = {"\x\cfp\addons\vehicles\UAZ\uaz_main_snow_co.paa"};
 
         class Turrets : Turrets {
@@ -2808,15 +2808,15 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_Ural_Open_Winter_01 : CUP_O_Ural_Open_CHDKZ_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_Ural_Open_Winter_01.JPG;
+    class CFP_O_CHDKZ_Ural_Open_SNW_01 : CUP_O_Ural_Open_CHDKZ_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_Ural_Open_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Ural (Open)";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Rifleman_AK_74_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01";
         hiddenSelectionstextures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_chedaki_snow_co.paa","\x\cfp\addons\vehicles\Ural\ural_open_chedaki_snow_co.paa","\x\cfp\addons\vehicles\Ural\whl_snow_co.paa"};
 
         class Turrets : Turrets {
@@ -2840,15 +2840,15 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_Ural_Refuel_Winter_01 : CUP_O_Ural_Refuel_CHDKZ_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_Ural_Refuel_Winter_01.JPG;
+    class CFP_O_CHDKZ_Ural_Refuel_SNW_01 : CUP_O_Ural_Refuel_CHDKZ_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_Ural_Refuel_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Ural (Refuel)";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Rifleman_AK_74_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01";
         hiddenSelectionstextures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_chedaki_snow_co.paa","\x\cfp\addons\vehicles\Ural\ural_open_chedaki_snow_co.paa","\x\cfp\addons\vehicles\Ural\ural_fuel_chedaki_snow_co.paa","\x\cfp\addons\vehicles\Ural\whl_snow_co.paa"};
 
 
@@ -2866,15 +2866,15 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_Ural_Repair_Winter_01 : CUP_O_Ural_Repair_CHDKZ_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_Ural_Repair_Winter_01.JPG;
+    class CFP_O_CHDKZ_Ural_Repair_SNW_01 : CUP_O_Ural_Repair_CHDKZ_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_Ural_Repair_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Ural (Repair)";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Rifleman_AK_74_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01";
 
 
         class EventHandlers : EventHandlers {
@@ -2892,15 +2892,15 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_Ural_Ammo_Winter_01 : CUP_O_Ural_Reammo_CHDKZ_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_Ural_Ammo_Winter_01.JPG;
+    class CFP_O_CHDKZ_Ural_Ammo_SNW_01 : CUP_O_Ural_Reammo_CHDKZ_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_Ural_Ammo_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Ural (Ammo)";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Rifleman_AK_74_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01";
 
 
         class EventHandlers : EventHandlers {
@@ -2918,15 +2918,15 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_Ural_Empty_Winter_01 : CUP_O_Ural_Empty_CHDKZ_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_Ural_Empty_Winter_01.JPG;
+    class CFP_O_CHDKZ_Ural_Empty_SNW_01 : CUP_O_Ural_Empty_CHDKZ_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_Ural_Empty_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Ural (Empty)";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Rifleman_AK_74_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01";
         hiddenSelectionstextures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_chedaki_snow_co.paa","\x\cfp\addons\vehicles\Ural\ural_plachta_chedaki_snow_co.paa","\x\cfp\addons\vehicles\Ural\whl_snow_co.paa"};
 
 
@@ -2944,15 +2944,15 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_Ural_ZU_23_Winter_01 : CUP_O_Ural_ZU23_CHDKZ_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_Ural_ZU_23_Winter_01.JPG;
+    class CFP_O_CHDKZ_Ural_ZU_23_SNW_01 : CUP_O_Ural_ZU23_CHDKZ_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_Ural_ZU_23_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Ural (ZU-23)";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Rifleman_AK_74_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01";
         hiddenSelectionstextures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_chedaki_snow_co.paa","\x\cfp\addons\vehicles\Ural\ural_open_chedaki_snow_co.paa","\x\cfp\addons\vehicles\Ural\whl_snow_co.paa"};
 
         class Turrets : Turrets {
@@ -2975,15 +2975,15 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_BM_21_Winter_01 : CUP_O_BM21_CHDKZ_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_BM_21_Winter_01.JPG;
+    class CFP_O_CHDKZ_BM_21_SNW_01 : CUP_O_BM21_CHDKZ_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_BM_21_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "BM-21";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Rifleman_AK_74_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01";
         hiddenSelectionstextures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_chedaki_snow_co.paa","\x\cfp\addons\vehicles\Ural\ural_bm21_chedaki_snow_co.paa","\x\cfp\addons\vehicles\Ural\ural_bm21_chedaki_snow_co.paa"};
 
         class Turrets : Turrets {
@@ -3006,15 +3006,15 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_Mi_8MT_Winter_01 : CUP_O_Mi8_CHDKZ_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_Mi_8MT_Winter_01.JPG;
+    class CFP_O_CHDKZ_Mi_8MT_SNW_01 : CUP_O_Mi8_CHDKZ_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_Mi_8MT_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Mi-8MT";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Pilot_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Pilot_SNW_01";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -3038,15 +3038,15 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_Mi_8MT_VIV_Winter_01 : CUP_O_Mi8_VIV_CHDKZ_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_Mi_8MT_VIV_Winter_01.JPG;
+    class CFP_O_CHDKZ_Mi_8MT_VIV_SNW_01 : CUP_O_Mi8_VIV_CHDKZ_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_Mi_8MT_VIV_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Mi-8MT (VIV)";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Pilot_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Pilot_SNW_01";
 
         class Turrets : Turrets {
             class CopilotTurret : CopilotTurret { gunnerType = ""; };
@@ -3068,19 +3068,19 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_T72_Winter_01 : CUP_O_T72_CSAT_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_T72_Winter_01.JPG;
+    class CFP_O_CHDKZ_T72_SNW_01 : CUP_O_T72_CSAT_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_T72_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "T-72";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Crewman_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Crewman_SNW_01";
         hiddenSelectionstextures[] = {"\x\cfp\addons\vehicles\T72\T72_1_snow_co.paa","\x\cfp\addons\vehicles\T72\T72_2_snow_co.paa","\x\cfp\addons\vehicles\T72\T72_3_snow_co.paa"};
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_O_CHDKZ_Crewman_Winter_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_O_CHDKZ_Crewman_SNW_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -3106,19 +3106,19 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_T55_Winter_01 : CUP_O_T55_CSAT_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_T55_Winter_01.JPG;
+    class CFP_O_CHDKZ_T55_SNW_01 : CUP_O_T55_CSAT_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_T55_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "T-55";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Crewman_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Crewman_SNW_01";
         hiddenSelectionstextures[] = {"\x\cfp\addons\vehicles\T55\t55_body_chedaki_snow_co.paa","\x\cfp\addons\vehicles\T55\t55_tower_chedaki_snow_co.paa"};
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_O_CHDKZ_Crewman_Winter_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_O_CHDKZ_Crewman_SNW_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -3144,18 +3144,18 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_BRDM_2_Winter_01 : CUP_O_BRDM2_CSAT_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_BRDM_2_Winter_01.JPG;
+    class CFP_O_CHDKZ_BRDM_2_SNW_01 : CUP_O_BRDM2_CSAT_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_BRDM_2_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "BRDM-2";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Crewman_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Crewman_SNW_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_O_CHDKZ_Crewman_Winter_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_O_CHDKZ_Crewman_SNW_01"; };
         };
 
 
@@ -3175,18 +3175,18 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_BRDM_2ATGM_Winter_01 : CUP_O_BRDM2_ATGM_CSAT_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_BRDM_2ATGM_Winter_01.JPG;
+    class CFP_O_CHDKZ_BRDM_2ATGM_SNW_01 : CUP_O_BRDM2_ATGM_CSAT_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_BRDM_2ATGM_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "BRDM-2 [ATGM]";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Crewman_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Crewman_SNW_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_O_CHDKZ_Crewman_Winter_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_O_CHDKZ_Crewman_SNW_01"; };
         };
 
 
@@ -3206,18 +3206,18 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_BRDM_2HQ_Winter_01 : CUP_O_BRDM2_HQ_CSAT_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_BRDM_2HQ_Winter_01.JPG;
+    class CFP_O_CHDKZ_BRDM_2HQ_SNW_01 : CUP_O_BRDM2_HQ_CSAT_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_BRDM_2HQ_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "BRDM-2 [HQ]";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Rifleman_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Rifleman_SNW_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_O_CHDKZ_Rifleman_Winter_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_O_CHDKZ_Rifleman_SNW_01"; };
         };
 
 
@@ -3237,18 +3237,18 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_BMP_2_Winter_01 : CUP_O_BMP2_CSAT_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_BMP_2_Winter_01.JPG;
+    class CFP_O_CHDKZ_BMP_2_SNW_01 : CUP_O_BMP2_CSAT_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_BMP_2_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "BMP-2";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Crewman_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Crewman_SNW_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_O_CHDKZ_Crewman_Winter_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_O_CHDKZ_Crewman_SNW_01"; };
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -3274,18 +3274,18 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_BMP_2K_Winter_01 : CUP_O_BMP_HQ_CSAT_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_BMP_2K_Winter_01.JPG;
+    class CFP_O_CHDKZ_BMP_2K_SNW_01 : CUP_O_BMP_HQ_CSAT_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_BMP_2K_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "BMP-2K";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Crewman_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Crewman_SNW_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_O_CHDKZ_Rifleman_Winter_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_O_CHDKZ_Rifleman_SNW_01"; };
         };
 
 
@@ -3305,15 +3305,15 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_BMP_2Ambulance_Winter_01 : CUP_O_BMP2_AMB_CSAT_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_BMP_2Ambulance_Winter_01.JPG;
+    class CFP_O_CHDKZ_BMP_2Ambulance_SNW_01 : CUP_O_BMP2_AMB_CSAT_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_BMP_2Ambulance_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "BMP-2 Ambulance";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Medic_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Medic_SNW_01";
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -3339,19 +3339,19 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CHDKZ_BMP_2ZU23_Winter_01 : CUP_O_BMP2_ZU_CSAT_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_o_chdkz_winter\data\preview\CFP_O_CHDKZ_BMP_2ZU23_Winter_01.JPG;
+    class CFP_O_CHDKZ_BMP_2ZU23_SNW_01 : CUP_O_BMP2_ZU_CSAT_OCimport_02 {
+        editorPreview = \x\CFP\addons\o_chdkz_snw\data\preview\CFP_O_CHDKZ_BMP_2ZU23_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "BMP-2 ZU23";
         side = 0;
-        faction = "CFP_O_CHDKZ_Winter";
-        crew = "CFP_O_CHDKZ_Crewman_Winter_01";
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Crewman_SNW_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_O_CHDKZ_Rifleman_Winter_01"; };
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = "CFP_O_CHDKZ_Rifleman_Winter_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_O_CHDKZ_Rifleman_SNW_01"; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = "CFP_O_CHDKZ_Rifleman_SNW_01"; };
         };
 
 

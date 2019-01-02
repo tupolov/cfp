@@ -491,6 +491,7 @@ class CfgVehicles {
 
 
     class CFP_B_CDF_Mi_8MT_Medevac_SNW_01 : CUP_B_Mi17_medevac_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_Mi_8MT_Medevac_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -521,6 +522,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_koda_1203_Ambulance_SNW_01 : CUP_B_S1203_Ambulance_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_koda_1203_Ambulance_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -545,6 +547,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_Pchela_1T_SNW_01 : CUP_B_Pchela1T_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_Pchela_1T_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -574,6 +577,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_MT_LB_LV_SNW_01 : CUP_B_MTLB_pk_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_MT_LB_LV_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -604,6 +608,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_MT_LB_LV_Winter_SNW_01 : CUP_B_MTLB_pk_Winter_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_MT_LB_LV_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -633,6 +638,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_ZU_23_SNW_01 : CUP_B_ZU23_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_ZU_23_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -662,6 +668,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_DShKM_SNW_01 : CUP_B_DSHKM_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_DShKM_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -691,6 +698,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_DSHkM_Minitripod_SNW_01 : CUP_B_DSHkM_MiniTriPod_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_DShKM_Minitripod_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -720,6 +728,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_AGS_30_SNW_01 : CUP_B_AGS_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_AGS_30_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -749,6 +758,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_SPG_9_SNW_01 : CUP_B_SPG9_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_SPG_9_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -778,6 +788,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_Podnos_2B14_SNW_01 : CUP_B_2b14_82mm_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_Podnos_2B14_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -807,6 +818,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_D30_SNW_01 : CUP_B_D30_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_D30_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -836,6 +848,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_D30_AT_SNW_01 : CUP_B_D30_AT_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_D30_AT_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -865,6 +878,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_BRDM_2_SNW_01 : CUP_B_BRDM2_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_BRDM_2_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -895,6 +909,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_BRDM_2ATGM_SNW_01 : CUP_B_BRDM2_ATGM_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_BRDM_2ATGM_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -925,6 +940,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_BRDM_2HQ_SNW_01 : CUP_B_BRDM2_HQ_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_BRDM_2HQ_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -955,6 +971,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_BTR_60PB_SNW_01 : CUP_B_BTR60_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_BTR_60PB_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -994,6 +1011,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_Rifleman_SNW_04 : CUP_B_CDF_Soldier_SNW_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_Rifleman_SNW_04.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1032,6 +1050,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_Soldier_unarmed_SNW_04 : CUP_B_CDF_Soldier_Light_SNW_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_Rifleman_SNW_04.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1070,6 +1089,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_Grenadier_SNW_04 : CUP_B_CDF_Soldier_GL_SNW_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_Grenadier_SNW_04.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1108,6 +1128,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_Militia_SNW_04 : CUP_B_CDF_Militia_SNW_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_Militia_SNW_04.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1146,6 +1167,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_Medic_SNW_04 : CUP_B_CDF_Medic_SNW_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_Medic_SNW_04.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1189,6 +1211,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_SF_Operator_SNW_01 : B_recon_F_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_SF_Operator_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1229,6 +1252,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_SF_Team_Leader_SNW_01 : CFP_B_CDF_SF_Operator_SNW_01 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_SF_Operator_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1269,6 +1293,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_SF_Automatic_Rifleman_SNW_01 : CFP_B_CDF_SF_Operator_SNW_01 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_SF_Automatic_Rifleman_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1309,6 +1334,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_SF_Explosives_Specialist_SNW_01 : CFP_B_CDF_SF_Operator_SNW_01 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_SF_Explosives_Specialist_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1352,6 +1378,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_SF_Operator_Light_SNW_01 : B_recon_F_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_SF_Operator_Light_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1392,6 +1419,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_SF_Team_Leader_Light_SNW_01 : CFP_B_CDF_SF_Operator_Light_SNW_01 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_SF_Operator_Light_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1432,6 +1460,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_SF_Automatic_Rifleman_Light_SNW_01 :CFP_B_CDF_SF_Operator_Light_SNW_01 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_SF_Operator_Light_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1472,6 +1501,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_SF_Explosives_Specialist_Light_SNW_01 : CFP_B_CDF_SF_Operator_Light_SNW_01 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_SF_Explosives_Specialist_Light_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1515,6 +1545,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_Gunner_DShKM_SNW_01 : CFP_B_CDF_Rifleman_SNW_04 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_Gunner_DShKM_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1555,6 +1586,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_Asst_Gunner_DShKM_SNW_01 : CFP_B_CDF_Rifleman_SNW_04 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_Asst_Gunner_DShKM_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1595,6 +1627,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_Gunner_Mortar_SNW_01 : CFP_B_CDF_Rifleman_SNW_04 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_Gunner_DShKM_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1635,6 +1668,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_Asst_Gunner_Mortar_SNW_01 : CFP_B_CDF_Rifleman_SNW_04 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_Gunner_DShKM_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1675,6 +1709,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_Su_25_Frogfoot_SNW_01 : CUP_B_Su25_Dyn_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_Su_25_Frogfoot_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1699,6 +1734,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_Su_34_SNW_01 : CUP_B_SU34_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_Su_34_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1728,6 +1764,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_Mi_8MT_VIV_SNW_01 : CUP_B_Mi17_VIV_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_Mi_8MT_VIV_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1757,6 +1794,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_Mi_8MT_SNW_01 : CUP_B_Mi17_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_Mi_8MT_VIV_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1788,6 +1826,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_Mi_6T_Hook_SNW_01 : CUP_B_MI6T_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_Mi_6T_Hook_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1820,6 +1859,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_Mi_6A_Hook_VIV_SNW_01 : CUP_B_MI6A_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_Mi_6T_Hook_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1852,6 +1892,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_Mi_24D_MEV_SNW_01 : CUP_B_Mi24_D_MEV_Dynamic_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_Mi_24D_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1881,6 +1922,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_Mi_24D_SNW_01 : CUP_B_Mi24_D_Dynamic_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_Mi_24D_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1910,6 +1952,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_BM_21_SNW_01 : CUP_B_BM21_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_BM_21_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1940,6 +1983,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_Ural_ZU_23_SNW_01 : CUP_B_Ural_ZU23_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_Ural_ZU_23_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1970,6 +2014,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_Ural_Empty_SNW_01 : CUP_B_Ural_Empty_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_Ural_Empty_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1995,6 +2040,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_Ural_Ammo_SNW_01 : CUP_B_Ural_Reammo_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_Ural_Ammo_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2020,6 +2066,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_Ural_Repair_SNW_01 : CUP_B_Ural_Repair_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_Ural_Repair_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2045,6 +2092,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_Ural_Refuel_SNW_01 : CUP_B_Ural_Refuel_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_Ural_Refuel_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2070,6 +2118,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_Ural_Open_SNW_01 : CUP_B_Ural_Open_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_Ural_Open_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2101,6 +2150,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_Ural_SNW_01 : CUP_B_Ural_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_Ural_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2132,6 +2182,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_UAZ_Metis_SNW_01 : CUP_B_UAZ_METIS_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_UAZ_Metis_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2163,6 +2214,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_UAZ_SPG_SNW_01 : CUP_B_UAZ_SPG9_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_UAZ_SPG_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2194,6 +2246,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_UAZ_AGS_30_SNW_01 : CUP_B_UAZ_AGS30_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_UAZ_AGS_30_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2225,6 +2278,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_UAZ_DShKM_SNW_01 : CUP_B_UAZ_MG_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_UAZ_DShKM_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2256,6 +2310,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_UAZ_Open_SNW_01 : CUP_B_UAZ_Open_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_UAZ_Open_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2290,6 +2345,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_UAZ_SNW_01 : CUP_B_UAZ_Unarmed_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_UAZ_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2315,6 +2371,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_Sniper_SNW_04 : CUP_B_CDF_Sniper_SNW_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_Rifleman_SNW_04.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2353,6 +2410,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_ZSU_23_4_SNW_01 : CUP_B_ZSU23_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_ZSU_23_4_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2383,6 +2441,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_T72_SNW_01 : CUP_B_T72_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_T72_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2419,6 +2478,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_BMP_2Ambulance_SNW_01 : CUP_B_BMP2_AMB_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_BMP_2Ambulance_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2452,6 +2512,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_BMP_2K_SNW_01 : CUP_B_BMP_HQ_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_BMP_2K_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2482,6 +2543,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_BMP_2_SNW_01 : CUP_B_BMP2_CDF_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_BMP_2_SNW_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2518,6 +2580,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_Engineer_SNW_04 : CUP_B_CDF_Engineer_SNW_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_Engineer_SNW_04.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2560,6 +2623,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_Crewman_SNW_04 : CUP_B_CDF_Crew_SNW_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_Crewman_SNW_04.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2599,6 +2663,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_Pilot_SNW_04 : CUP_B_CDF_Pilot_SNW_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_Pilot_SNW_04.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2639,6 +2704,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_General_SNW_04 : CUP_B_CDF_Commander_SNW_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_General_SNW_04.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2677,6 +2743,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_Officer_SNW_04 : CUP_B_CDF_Officer_SNW_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_Officer_SNW_04.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2715,6 +2782,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_Team_Leader_SNW_04 : CUP_B_CDF_Soldier_TL_SNW_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_Team_Leader_SNW_04.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2753,6 +2821,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_Machinegunner_SNW_04 : CUP_B_CDF_Soldier_MG_SNW_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_Machinegunner_SNW_04.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2793,6 +2862,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_Automatic_Rifleman_SNW_04 : CUP_B_CDF_Soldier_AR_SNW_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_Automatic_Rifleman_SNW_04.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2831,6 +2901,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_AA_Specialist_SNW_04 : CUP_B_CDF_Soldier_AA_SNW_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_AA_Specialist_SNW_04.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2869,6 +2940,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_AT_Specialist_SNW_04 : CUP_B_CDF_Soldier_LAT_SNW_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_AT_Specialist_SNW_04.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2909,6 +2981,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_Marksman_SNW_04 : CUP_B_CDF_Soldier_Marksman_SNW_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_Marksman_SNW_04.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2947,6 +3020,7 @@ class CfgVehicles {
     };
 
     class CFP_B_CDF_Spotter_SNW_04 : CUP_B_CDF_Spotter_SNW_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_Rifleman_SNW_04.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;

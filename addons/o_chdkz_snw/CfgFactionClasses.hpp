@@ -5,7 +5,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 class CfgFactionClasses {
-    class CFP_O_CHDKZ_Winter {
+    class CFP_O_CHDKZ_SNW {
         displayName = "Chernarussian Movement of the Red Star [Winter]";
         side = 0;
         flag = "CUP\BaseConfigs\CUP_BaseConfigs\Data\Flags\flag_chdkz_co.paa";

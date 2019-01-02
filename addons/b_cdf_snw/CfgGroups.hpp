@@ -1291,48 +1291,6 @@ class CfgGroups {
             class Air {
                 name = "Air";
 
-                class cfp_b_cdf_air_mi_24d_squadron_snw {
-                    name = "Mi-24D Squadron";
-                    side = 1;
-                    faction = "CFP_B_CDF_SNW";
-                    icon = "\A3\ui_f\data\map\markers\nato\n_air.paa";
-                    rarityGroup = 0.1;
-
-                    class Unit0 {
-                        position[] = {0,15,0};
-                        rank = "CAPTAIN";
-                        side = 1;
-                        vehicle = "CFP_B_CDF_Mi_24D_SNW_01";
-                    };
-                    class Unit1 {
-                        position[] = {15,0,0};
-                        rank = "LIEUTENANT";
-                        side = 1;
-                        vehicle = "CFP_B_CDF_Mi_24D_SNW_01";
-                    };
-                };
-
-                class cfp_b_cdf_air_mi_8squadron_snw {
-                    name = "Mi-8 Squadron";
-                    side = 1;
-                    faction = "CFP_B_CDF_SNW";
-                    icon = "\A3\ui_f\data\map\markers\nato\n_air.paa";
-                    rarityGroup = 0.3;
-
-                    class Unit0 {
-                        position[] = {0,15,0};
-                        rank = "CAPTAIN";
-                        side = 1;
-                        vehicle = "CFP_B_CDF_Mi_8MT_SNW_01";
-                    };
-                    class Unit1 {
-                        position[] = {15,0,0};
-                        rank = "LIEUTENANT";
-                        side = 1;
-                        vehicle = "CFP_B_CDF_Mi_8MT_SNW_01";
-                    };
-                };
-
             };
 
             class Infantry_MNT {
