@@ -669,12 +669,6 @@ class CfgGroups {
                         side = 0;
                         vehicle = "CFP_O_CHDKZ_AT_Specialist_SNW_01";
                     };
-                    class Unit8 {
-                        position[] = {13,0,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01";
-                    };
                 };
 
                 class cfp_o_chdkz_mechanized_section_at_snw {
@@ -688,25 +682,13 @@ class CfgGroups {
                         position[] = {0,5,0};
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_O_CHDKZ_Grenadier_SNW_01";
+                        vehicle = "CFP_O_CHDKZ_BRDM_2ATGM_SNW_01";
                     };
                     class Unit1 {
                         position[] = {-5,0,0};
                         rank = "CORPORAL";
                         side = 0;
                         vehicle = "CFP_O_CHDKZ_BRDM_2ATGM_SNW_01";
-                    };
-                    class Unit2 {
-                        position[] = {-5,-7,0};
-                        rank = "CORPORAL";
-                        side = 0;
-                        vehicle = "CFP_O_CHDKZ_BRDM_2ATGM_SNW_01";
-                    };
-                    class Unit3 {
-                        position[] = {3,0,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_CHDKZ_AT_Specialist_SNW_01";
                     };
                 };
 
