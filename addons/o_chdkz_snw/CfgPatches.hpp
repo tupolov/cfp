@@ -74,8 +74,8 @@ class CfgPatches {
             "CFP_O_CHDKZ_BMP_2ZU23_SNW_01"
         };
         weapons[] = {};
-        requiredVersion = 1.62;
         requiredAddons[] = {
+            "CFP_Main",
             "CUP_AirVehicles_Mi8",
             "CUP_TrackedVehicles_MTLB",
             "cfp_vehicles",
@@ -92,7 +92,9 @@ class CfgPatches {
             "CUP_WheeledVehicles_BRDM2",
             "CUP_TrackedVehicles_BMP"
         };
-        author = "Drew";
+        requiredVersion = REQUIRED_VERSION;
+        VERSION_CONFIG;
+        author = MODULE_AUTHOR;
         authors[] = {"Drew"};
     };
 };
