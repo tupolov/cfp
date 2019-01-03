@@ -32,6 +32,7 @@
 #include "CFP_O_ANSARALLAH_Logistics.hpp"
 #include "CFP_O_BOKOHARAM_Logistics.hpp"
 #include "CFP_O_CFRebels_Logistics.hpp"
+#include "CFP_O_CHDKZ_SNW_Logistics.hpp"
 #include "CFP_O_HAMAS_Logistics.hpp"
 #include "CFP_O_IRARMY_Logistics.hpp"
 #include "CFP_O_IS_Logistics.hpp"
