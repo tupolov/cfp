@@ -109,96 +109,6 @@ class CfgGroups {
                     };
                 };
 
-                class cFp_o_ssrebels_infantry_mg_team {
-                    name = "MG Team";
-                    side = 0;
-                    faction = "CFP_O_SSREBELS";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
-                    rarityGroup = 0.5;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "SERGEANT";
-                        side = 0;
-                        vehicle = "CFP_O_SSREBELS_Soldier_09";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_SSREBELS_Soldier_11";
-                    };
-                };
-
-                class cFp_o_ssrebels_infantry_mg_team_low {
-                    name = "MG Team (Low)";
-                    side = 0;
-                    faction = "CFP_O_SSREBELS";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
-                    rarityGroup = 0.5;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "SERGEANT";
-                        side = 0;
-                        vehicle = "CFP_O_SSREBELS_Soldier_10";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_SSREBELS_Soldier_11";
-                    };
-                };
-
-                class cFp_o_ssrebels_infantry_mortar_crew {
-                    name = "Mortar Crew";
-                    side = 0;
-                    faction = "CFP_O_SSREBELS";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_mortar.paa";
-                    rarityGroup = 0.5;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "SERGEANT";
-                        side = 0;
-                        vehicle = "CFP_O_SSREBELS_Soldier_12";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_SSREBELS_Soldier_13";
-                    };
-                };
-
-                class cFp_o_ssrebels_infantry_at_team {
-                    name = "AT Team";
-                    side = 0;
-                    faction = "CFP_O_SSREBELS";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
-                    rarityGroup = 0.5;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "SERGEANT";
-                        side = 0;
-                        vehicle = "CFP_O_SSREBELS_Soldier_14";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
-                        rank = "CORPORAL";
-                        side = 0;
-                        vehicle = "CFP_O_SSREBELS_Soldier_15";
-                    };
-                    class Unit2 {
-                        position[] = {-5,-5,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_SSREBELS_Soldier_03";
-                    };
-                };
-
                 class cFp_o_ssrebels_infantry_squad_nuer_white_army {
                     name = "Squad (Nuer White Army)";
                     side = 0;
@@ -332,6 +242,96 @@ class CfgGroups {
 
             class SpecOps {
                 name = "Special Forces";
+
+                class cFp_o_ssrebels_infantry_mg_team {
+                    name = "MG Team";
+                    side = 0;
+                    faction = "CFP_O_SSREBELS";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_SSREBELS_Soldier_09";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_SSREBELS_Soldier_11";
+                    };
+                };
+
+                class cFp_o_ssrebels_infantry_mg_team_low {
+                    name = "MG Team (Low)";
+                    side = 0;
+                    faction = "CFP_O_SSREBELS";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_SSREBELS_Soldier_10";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_SSREBELS_Soldier_11";
+                    };
+                };
+
+                class cFp_o_ssrebels_infantry_mortar_crew {
+                    name = "Mortar Crew";
+                    side = 0;
+                    faction = "CFP_O_SSREBELS";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_SSREBELS_Soldier_12";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_SSREBELS_Soldier_13";
+                    };
+                };
+
+                class cFp_o_ssrebels_infantry_at_team {
+                    name = "AT Team";
+                    side = 0;
+                    faction = "CFP_O_SSREBELS";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_SSREBELS_Soldier_14";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "CFP_O_SSREBELS_Soldier_15";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_SSREBELS_Soldier_03";
+                    };
+                };
 
             };
 
