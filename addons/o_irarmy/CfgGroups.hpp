@@ -286,10 +286,10 @@ class CfgGroups {
                     };
                 };
 
-                class cfp_o_irarmy_infantry_dshkm_team {
-                    name = "DShKM Team";
+                class cfp_o_irarmy_infantry_aa_team {
+                    name = "AA Team";
                     side = 0;
-                    faction = "CFP_O_irarmy";
+                    faction = "CFP_O_IRARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     rarityGroup = 0.5;
 
@@ -297,97 +297,25 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_O_IRARMY_Gunner_DShKM_01";
+                        vehicle = "CFP_O_IRARMY_Grenadier_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_O_IRARMY_Asst_Gunner_DShKM_01";
+                        vehicle = "CFP_O_IRARMY_AA_Specialist_01";
                     };
-                };
-
-                class cfp_o_irarmy_infantry_mortar_team {
-                    name = "Mortar Team";
-                    side = 0;
-                    faction = "CFP_O_irarmy";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
-                    rarityGroup = 0.5;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "SERGEANT";
-                        side = 0;
-                        vehicle = "CFP_O_IRARMY_Gunner_Mortar_01";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
+                    class Unit2 {
+                        position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_O_IRARMY_Asst_Gunner_Mortar_01";
+                        vehicle = "CFP_O_IRARMY_AA_Specialist_01";
                     };
-                };
-
-                class cfp_o_irarmy_infantry_spg_9team {
-                    name = "SPG-9 Team";
-                    side = 0;
-                    faction = "CFP_O_irarmy";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
-                    rarityGroup = 0.5;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "SERGEANT";
-                        side = 0;
-                        vehicle = "CFP_O_IRARMY_Gunner_SPG_01";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
+                    class Unit3 {
+                        position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_O_IRARMY_Asst_Gunner_SPG_01";
-                    };
-                };
-
-                class cfp_o_irarmy_infantry_ags_30_team {
-                    name = "AGS-30 Team";
-                    side = 0;
-                    faction = "CFP_O_irarmy";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
-                    rarityGroup = 0.5;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "SERGEANT";
-                        side = 0;
-                        vehicle = "CFP_O_IRARMY_Gunner_AGS_30_01";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_IRARMY_Asst_Gunner_AGS_30_01";
-                    };
-                };
-
-                class cfp_o_irarmy_infantry_metis_team {
-                    name = "Metis Team";
-                    side = 0;
-                    faction = "CFP_O_irarmy";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
-                    rarityGroup = 0.5;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "SERGEANT";
-                        side = 0;
-                        vehicle = "CFP_O_IRARMY_Gunner_Metis_01";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_IRARMY_Asst_Gunner_Metis_01";
+                        vehicle = "CFP_O_IRARMY_Rifleman_01";
                     };
                 };
 
@@ -415,39 +343,6 @@ class CfgGroups {
                         rank = "PRIVATE";
                         side = 0;
                         vehicle = "CFP_O_IRARMY_Rifleman_AT_01";
-                    };
-                    class Unit3 {
-                        position[] = {10,-10,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_IRARMY_Rifleman_01";
-                    };
-                };
-
-                class cfp_o_irarmy_infantry_aa_team {
-                    name = "AA Team";
-                    side = 0;
-                    faction = "CFP_O_IRARMY";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
-                    rarityGroup = 0.5;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "SERGEANT";
-                        side = 0;
-                        vehicle = "CFP_O_IRARMY_Grenadier_01";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_IRARMY_AA_Specialist_01";
-                    };
-                    class Unit2 {
-                        position[] = {-5,-5,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_IRARMY_AA_Specialist_01";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
@@ -750,6 +645,111 @@ class CfgGroups {
                         rank = "PRIVATE";
                         side = 0;
                         vehicle = "CFP_O_IRARMY_Machine_Gunner_55th_AB_Div_01";
+                    };
+                };
+
+                class cfp_o_irarmy_infantry_dshkm_team {
+                    name = "DShKM Team";
+                    side = 0;
+                    faction = "CFP_O_irarmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_IRARMY_Gunner_DShKM_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_IRARMY_Asst_Gunner_DShKM_01";
+                    };
+                };
+
+                class cfp_o_irarmy_infantry_mortar_team {
+                    name = "Mortar Team";
+                    side = 0;
+                    faction = "CFP_O_irarmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_IRARMY_Gunner_Mortar_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_IRARMY_Asst_Gunner_Mortar_01";
+                    };
+                };
+
+                class cfp_o_irarmy_infantry_spg_9team {
+                    name = "SPG-9 Team";
+                    side = 0;
+                    faction = "CFP_O_irarmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_IRARMY_Gunner_SPG_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_IRARMY_Asst_Gunner_SPG_01";
+                    };
+                };
+
+                class cfp_o_irarmy_infantry_ags_30_team {
+                    name = "AGS-30 Team";
+                    side = 0;
+                    faction = "CFP_O_irarmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_IRARMY_Gunner_AGS_30_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_IRARMY_Asst_Gunner_AGS_30_01";
+                    };
+                };
+
+                class cfp_o_irarmy_infantry_metis_team {
+                    name = "Metis Team";
+                    side = 0;
+                    faction = "CFP_O_irarmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_IRARMY_Gunner_Metis_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_IRARMY_Asst_Gunner_Metis_01";
                     };
                 };
 

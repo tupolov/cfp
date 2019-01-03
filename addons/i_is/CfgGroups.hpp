@@ -295,11 +295,16 @@ class CfgGroups {
                     };
                 };
 
+            };
+
+            class SpecOps {
+                name = "Special Forces";
+
                 class cfp_i_is_infantry_dshkm_team {
                     name = "DShKM Team";
                     side = 2;
                     faction = "CFP_I_IS";
-                    icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\n_support.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
@@ -332,7 +337,7 @@ class CfgGroups {
                     name = "KORD Team";
                     side = 2;
                     faction = "CFP_I_IS";
-                    icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\n_support.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
@@ -365,7 +370,7 @@ class CfgGroups {
                     name = "Mortar Team";
                     side = 2;
                     faction = "CFP_I_IS";
-                    icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\n_support.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
@@ -398,7 +403,7 @@ class CfgGroups {
                     name = "METIS AT Team";
                     side = 2;
                     faction = "CFP_I_IS";
-                    icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\n_support.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
@@ -431,7 +436,7 @@ class CfgGroups {
                     name = "SPG-9 Team";
                     side = 2;
                     faction = "CFP_I_IS";
-                    icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\n_support.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
@@ -459,11 +464,6 @@ class CfgGroups {
                         vehicle = "cfp_i_is_rifleman";
                     };
                 };
-
-            };
-
-            class SpecOps {
-                name = "Special Forces";
 
             };
 
