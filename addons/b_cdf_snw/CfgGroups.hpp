@@ -7,6 +7,10 @@
 class CfgGroups {
     class WEST {
 
+        class CUP_B_CDF {
+            delete Infantry_SNW;
+        };
+
         class CFP_B_CDF_SNW {
             name = "Chernarus Defense Forces [Winter]";
 
@@ -1290,26 +1294,6 @@ class CfgGroups {
 
             class Air {
                 name = "Air";
-
-            };
-
-            class Infantry_MNT {
-                name = "Infantry (Mountain)";
-
-            };
-
-            class Infantry_DST {
-                name = "Infantry (Desert)";
-
-            };
-
-            class Infantry_FST {
-                name = "Infantry (Forest)";
-
-            };
-
-            class Infantry_SNW {
-                name = "Infantry (Winter)";
 
             };
 
