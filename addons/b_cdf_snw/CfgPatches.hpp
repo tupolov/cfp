@@ -77,8 +77,8 @@ class CfgPatches {
             "CFP_B_CDF_Asst_Gunner_Mortar_SNW_01"
         };
         weapons[] = {};
-        requiredVersion = 1.62;
         requiredAddons[] = {
+            "CFP_Main",
             "CUP_AirVehicles_Mi8",
             "CUP_WheeledVehicles_S1203",
             "CUP_AirVehicles_Pchela1T",
@@ -98,7 +98,9 @@ class CfgPatches {
             "CUP_TrackedVehicles_T72",
             "CUP_TrackedVehicles_BMP"
         };
-        author = "Drew";
+        requiredVersion = REQUIRED_VERSION;
+        VERSION_CONFIG;
+        author = MODULE_AUTHOR;
         authors[] = {"Drew"};
     };
 };
