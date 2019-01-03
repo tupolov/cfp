@@ -3,6 +3,9 @@
 // Generated with Arma 3 version 188.145285 on Stable branch
 // Generated with ALiVE version 1.8.3.1812041
 //////////////////////////////////////////////////////////////////////////////////
+#define mag_xx(a,b) class _xx_##a {magazine = ##a; count = b;}
+#define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
+#define item_xx(a,b) class _xx_##a {name = a; count = b;}
 
 
 class CBA_Extended_EventHandlers_base;
@@ -3058,4 +3061,273 @@ class CfgVehicles {
 
     };
 
+
+    class Box_NATO_Ammo_F; // CUP_USBasicAmmunitionBox
+
+    class Box_NATO_Wps_F; // CUP_USBasicWeaponsBox
+
+    class Box_NATO_Support_F; // CUP_USSpecialWeaponsBox
+
+    class Box_NATO_WpsLaunch_F; // CUP_USLaunchersBox
+
+    class Box_NATO_Uniforms_F; // CUP_USBasicWeaponsBox
+
+    class B_SupplyCrate_F; // CUP_USVehicleBox
+
+    class CFP_B_CDF_SNW_AmmoBox : Box_NATO_Ammo_F {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Chernarus Defense Forces [Winter] Ammo Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_HandGrenade_RGD5,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(SmokeShellOrange,50);
+            mag_xx(Chemlight_green,50);
+            mag_xx(CUP_30Rnd_545x39_AK74M_M,50);
+            mag_xx(CUP_17Rnd_9x19_glock17,50);
+            mag_xx(MiniGrenade,50);
+            mag_xx(SmokeShell,50);
+            mag_xx(SmokeShellGreen,50);
+            mag_xx(CUP_1Rnd_SMOKE_GP25_M,50);
+            mag_xx(CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK74M_M,50);
+            mag_xx(DemoCharge_Remote_Mag,50);
+            mag_xx(SatchelCharge_Remote_Mag,50);
+            mag_xx(APERSTripMine_Wire_Mag,50);
+            mag_xx(APERSMine_Range_Mag,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+            mag_xx(CUP_Mine_M,50);
+            mag_xx(SmokeShellBlue,50);
+            mag_xx(CUP_8Rnd_9x18_Makarov_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,50);
+            mag_xx(CUP_PG7VL_M,50);
+        };
+        class TransportWeapons {
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_B_CDF_SNW_WeaponsBox : Box_NATO_Wps_F {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Chernarus Defense Forces [Winter] Weapons Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_30Rnd_545x39_AK74M_M,50);
+            mag_xx(CUP_17Rnd_9x19_glock17,50);
+            mag_xx(CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK74M_M,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+            mag_xx(CUP_8Rnd_9x18_Makarov_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_AK74,10);
+            weap_xx(CUP_arifle_AK74_GL,10);
+            weap_xx(CUP_arifle_AKS,10);
+            weap_xx(CUP_arifle_AKS74U,10);
+            weap_xx(CUP_arifle_AK105_railed,10);
+            weap_xx(CUP_hgun_Glock17_blk,10);
+            weap_xx(CUP_arifle_AK74M_GL_railed,10);
+            weap_xx(CUP_arifle_RPK74M_top_rail,10);
+            weap_xx(CUP_srifle_SVD_pso,10);
+            weap_xx(CUP_hgun_Makarov,10);
+            weap_xx(CUP_arifle_AKS74_kobra,10);
+            weap_xx(CUP_lmg_PKM,10);
+            weap_xx(CUP_arifle_RPK74_45,10);
+            weap_xx(CUP_arifle_AKS74_pso,10);
+            weap_xx(CUP_arifle_AKS74UN_kobra_snds,10);
+        };
+        class TransportItems {
+            item_xx(CUP_muzzle_TGPA,10);
+            item_xx(CFP_acc_ANPEQ15_Black,10);
+            item_xx(CUP_optic_MRad,10);
+            item_xx(muzzle_snds_L,10);
+            item_xx(CUP_acc_Glock17_Flashlight,10);
+            item_xx(CUP_acc_XM8_light_module,10);
+            item_xx(CUP_optic_PSO_1,10);
+            item_xx(CUP_optic_Kobra,10);
+            item_xx(CUP_muzzle_PBS4,10);
+        };
+    };
+    class CFP_B_CDF_SNW_LaunchersBox : Box_NATO_WpsLaunch_F {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Chernarus Defense Forces [Winter] Launchers Box;
+        class TransportMagazines {
+            mag_xx(CUP_Strela_2_M,5);
+            mag_xx(CUP_PG7VL_M,5);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_launch_9K32Strela,5);
+            weap_xx(CUP_launch_RPG7V,5);
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_B_CDF_SNW_UniformBox : Box_NATO_Uniforms_F {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Chernarus Defense Forces [Winter] Uniform Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(CUP_U_B_CDF_SNW_2,15);
+            item_xx(CFP_U_Crye_M90,15);
+        };
+    };
+    class CFP_B_CDF_SNW_SupportBox : Box_NATO_Support_F {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Chernarus Defense Forces [Winter] Support Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(CUP_V_CDF_6B3_1_SNW,10);
+            item_xx(CUP_H_CDF_H_PASGT_SNW,10);
+            item_xx(CFP_Oakleys_Drk,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(CUP_V_CDF_CrewBelt,10);
+            item_xx(CUP_V_CDF_6B3_4_SNW,10);
+            item_xx(V_BandollierB_cbr,10);
+            item_xx(CUP_H_CDF_OfficerCap_SNW,10);
+            item_xx(CUP_V_CDF_6B3_2_SNW,10);
+            item_xx(CFP_Kitbag_White,10);
+            item_xx(Binocular,10);
+            item_xx(CFP_FAPC_Operator_OGA_OD,10);
+            item_xx(CFP_OPS2017_Helmet_White,10);
+            item_xx(CFP_Face_Wear_Blk,10);
+            item_xx(CUP_NVG_PVS15_winter,10);
+            item_xx(ItemGPS,10);
+            item_xx(CFP_Face_Wear_Spook,10);
+            item_xx(CFP_FullFaceWrap_Snow,10);
+            item_xx(CFP_Oakley_Goggles_Alp_Drk,10);
+            item_xx(CFP_Oakley_Goggles_Alp,10);
+            item_xx(CFP_Oakley_Goggles_Blk_Drk,10);
+            item_xx(CFP_BeanieHat_White,10);
+            item_xx(CFP_Oakley_Goggles_Blk,10);
+            item_xx(CUP_B_DShkM_TripodHigh_Bag,10);
+            item_xx(CUP_B_DShkM_Gun_Bag,10);
+            item_xx(CUP_B_Podnos_Bipod_Bag,10);
+            item_xx(CUP_B_Podnos_Gun_Bag,10);
+            item_xx(CUP_V_CDF_6B3_3_SNW,10);
+            item_xx(CUP_H_RUS_TSH_4_Brown,10);
+            item_xx(CUP_V_CDF_OfficerBelt,10);
+            item_xx(CUP_H_RUS_ZSH_Shield_Up,10);
+            item_xx(CUP_T10_Parachute_backpack,10);
+            item_xx(CUP_NVG_PVS15_black,10);
+            item_xx(CUP_V_CDF_6B3_5_SNW,10);
+            item_xx(CUP_G_Oakleys_Embr,10);
+            item_xx(CUP_G_Oakleys_Drk,10);
+            item_xx(CFP_RPGPack_White,10);
+        };
+    };
+    class CFP_B_CDF_SNW_SupplyBox : B_SupplyCrate_F {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Chernarus Defense Forces [Winter] Supply Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_545x39_AK_M,50);
+            mag_xx(CUP_HandGrenade_RGD5,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(SmokeShellOrange,50);
+            mag_xx(Chemlight_green,50);
+            mag_xx(CUP_30Rnd_545x39_AK74M_M,50);
+            mag_xx(CUP_17Rnd_9x19_glock17,50);
+            mag_xx(MiniGrenade,50);
+            mag_xx(SmokeShell,50);
+            mag_xx(SmokeShellGreen,50);
+            mag_xx(CUP_1Rnd_SMOKE_GP25_M,50);
+            mag_xx(CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK74M_M,50);
+            mag_xx(DemoCharge_Remote_Mag,50);
+            mag_xx(SatchelCharge_Remote_Mag,50);
+            mag_xx(APERSTripMine_Wire_Mag,50);
+            mag_xx(APERSMine_Range_Mag,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+            mag_xx(CUP_Mine_M,50);
+            mag_xx(SmokeShellBlue,50);
+            mag_xx(CUP_8Rnd_9x18_Makarov_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,50);
+            mag_xx(CUP_PG7VL_M,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_AK74,10);
+            weap_xx(CUP_arifle_AK74_GL,10);
+            weap_xx(CUP_arifle_AKS,10);
+            weap_xx(CUP_arifle_AKS74U,10);
+            weap_xx(CUP_arifle_AK105_railed,10);
+            weap_xx(CUP_hgun_Glock17_blk,10);
+            weap_xx(CUP_arifle_AK74M_GL_railed,10);
+            weap_xx(CUP_arifle_RPK74M_top_rail,10);
+            weap_xx(CUP_srifle_SVD_pso,10);
+            weap_xx(CUP_hgun_Makarov,10);
+            weap_xx(CUP_arifle_AKS74_kobra,10);
+            weap_xx(CUP_lmg_PKM,10);
+            weap_xx(CUP_arifle_RPK74_45,10);
+            weap_xx(CUP_arifle_AKS74_pso,10);
+            weap_xx(CUP_arifle_AKS74UN_kobra_snds,10);
+            weap_xx(CUP_launch_9K32Strela,10);
+            weap_xx(CUP_launch_RPG7V,10);
+        };
+        class TransportItems {
+            item_xx(CUP_muzzle_TGPA,10);
+            item_xx(CFP_acc_ANPEQ15_Black,10);
+            item_xx(CUP_optic_MRad,10);
+            item_xx(muzzle_snds_L,10);
+            item_xx(CUP_acc_Glock17_Flashlight,10);
+            item_xx(CUP_acc_XM8_light_module,10);
+            item_xx(CUP_optic_PSO_1,10);
+            item_xx(CUP_optic_Kobra,10);
+            item_xx(CUP_muzzle_PBS4,10);
+            item_xx(CUP_V_CDF_6B3_1_SNW,10);
+            item_xx(CUP_H_CDF_H_PASGT_SNW,10);
+            item_xx(CFP_Oakleys_Drk,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(CUP_V_CDF_CrewBelt,10);
+            item_xx(CUP_V_CDF_6B3_4_SNW,10);
+            item_xx(V_BandollierB_cbr,10);
+            item_xx(CUP_H_CDF_OfficerCap_SNW,10);
+            item_xx(CUP_V_CDF_6B3_2_SNW,10);
+            item_xx(CFP_Kitbag_White,10);
+            item_xx(Binocular,10);
+            item_xx(CFP_FAPC_Operator_OGA_OD,10);
+            item_xx(CFP_OPS2017_Helmet_White,10);
+            item_xx(CFP_Face_Wear_Blk,10);
+            item_xx(CUP_NVG_PVS15_winter,10);
+            item_xx(ItemGPS,10);
+            item_xx(CFP_Face_Wear_Spook,10);
+            item_xx(CFP_FullFaceWrap_Snow,10);
+            item_xx(CFP_Oakley_Goggles_Alp_Drk,10);
+            item_xx(CFP_Oakley_Goggles_Alp,10);
+            item_xx(CFP_Oakley_Goggles_Blk_Drk,10);
+            item_xx(CFP_BeanieHat_White,10);
+            item_xx(CFP_Oakley_Goggles_Blk,10);
+            item_xx(CUP_B_DShkM_TripodHigh_Bag,10);
+            item_xx(CUP_B_DShkM_Gun_Bag,10);
+            item_xx(CUP_B_Podnos_Bipod_Bag,10);
+            item_xx(CUP_B_Podnos_Gun_Bag,10);
+            item_xx(CUP_V_CDF_6B3_3_SNW,10);
+            item_xx(CUP_H_RUS_TSH_4_Brown,10);
+            item_xx(CUP_V_CDF_OfficerBelt,10);
+            item_xx(CUP_H_RUS_ZSH_Shield_Up,10);
+            item_xx(CUP_T10_Parachute_backpack,10);
+            item_xx(CUP_NVG_PVS15_black,10);
+            item_xx(CUP_V_CDF_6B3_5_SNW,10);
+            item_xx(CUP_G_Oakleys_Embr,10);
+            item_xx(CUP_G_Oakleys_Drk,10);
+            item_xx(CFP_RPGPack_White,10);
+            item_xx(CUP_U_B_CDF_SNW_2,10);
+            item_xx(CFP_U_Crye_M90,10);
+        };
+    };
 };
