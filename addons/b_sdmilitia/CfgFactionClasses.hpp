@@ -7,7 +7,7 @@
 class CfgFactionClasses {
     class CFP_B_SDMilitia {
         displayName = "Sudan Rapid Support Forces / Janjaweed";
-        side = 2;
+        side = 1;
         flag = "x\cfp\addons\b_sdmilitia\Data\UI\Sudan.paa";
         icon = "x\cfp\addons\b_sdmilitia\Data\UI\Sudan.paa";
         priority = 0;
