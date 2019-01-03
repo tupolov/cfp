@@ -12,7 +12,7 @@
 		"CFP_B_CDF_Ural_Ammo_SNW_01",
 		"CFP_B_CDF_Ural_Empty_SNW_01",
 		"CFP_B_CDF_Ural_Open_SNW_01",
-		"CFP_B_CDF_Ural_Repair_SNW_01",
+		"CFP_B_CDF_Ural_Repair_SNW_01"
 	]
 ] call ALIVE_fnc_hashSet;
 
