@@ -154,36 +154,57 @@ class CfgGroups {
                     };
                 };
 
-                class cfp_o_chdkz_infantry_fire_team_snw {
-                    name = "Fire Team";
+                class cfp_o_chdkz_infantry_aa_team_snw {
+                    name = "AA Team";
                     side = 0;
                     faction = "CFP_O_CHDKZ_SNW";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
-                    rarityGroup = 0.5;
+                    rarityGroup = 0.1;
 
                     class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "SERGEANT";
+                        position[] = {0,5,0};
+                        rank = "CORPORAL";
                         side = 0;
-                        vehicle = "CFP_O_CHDKZ_Commander_SNW_01";
+                        vehicle = "CFP_O_CHDKZ_AA_Specialist_SNW_01";
                     };
                     class Unit1 {
-                        position[] = {5,-5,0};
+                        position[] = {3,0,0};
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_O_CHDKZ_Grenadier_SNW_01";
+                        vehicle = "CFP_O_CHDKZ_AA_Specialist_SNW_01";
                     };
                     class Unit2 {
-                        position[] = {-5,-5,0};
+                        position[] = {5,0,0};
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_O_CHDKZ_Machinegunner_SNW_01";
+                        vehicle = "CFP_O_CHDKZ_AA_Specialist_SNW_01";
                     };
-                    class Unit3 {
-                        position[] = {10,-10,0};
+                };
+
+                class cfp_o_chdkz_infantry_sniper_team_snw {
+                    name = "Sniper Team";
+                    side = 0;
+                    faction = "CFP_O_CHDKZ_SNW";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.2;
+
+                    class Unit0 {
+                        position[] = {0,5,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Sniper_SNW_01";
+                    };
+                    class Unit1 {
+                        position[] = {3,0,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Sniper_SNW_01";
+                    };
+                    class Unit2 {
+                        position[] = {5,0,0};
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_O_CHDKZ_Ammo_Bearer_SNW_01";
+                        vehicle = "CFP_O_CHDKZ_Rifleman_SNW_01";
                     };
                 };
 
@@ -244,70 +265,11 @@ class CfgGroups {
                     };
                 };
 
-            };
-
-            class SpecOps {
-                name = "Special Forces";
-
-                class cfp_o_chdkz_infantry_aa_team_snw {
-                    name = "AA Team";
-                    side = 0;
-                    faction = "CFP_O_CHDKZ_SNW";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
-                    rarityGroup = 0.1;
-
-                    class Unit0 {
-                        position[] = {0,5,0};
-                        rank = "CORPORAL";
-                        side = 0;
-                        vehicle = "CFP_O_CHDKZ_AA_Specialist_SNW_01";
-                    };
-                    class Unit1 {
-                        position[] = {3,0,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_CHDKZ_AA_Specialist_SNW_01";
-                    };
-                    class Unit2 {
-                        position[] = {5,0,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_CHDKZ_AA_Specialist_SNW_01";
-                    };
-                };
-
-                class cfp_o_chdkz_infantry_sniper_team_snw {
-                    name = "Sniper Team";
-                    side = 0;
-                    faction = "CFP_O_CHDKZ_SNW";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
-                    rarityGroup = 0.2;
-
-                    class Unit0 {
-                        position[] = {0,5,0};
-                        rank = "CORPORAL";
-                        side = 0;
-                        vehicle = "CFP_O_CHDKZ_Sniper_SNW_01";
-                    };
-                    class Unit1 {
-                        position[] = {3,0,0};
-                        rank = "CORPORAL";
-                        side = 0;
-                        vehicle = "CFP_O_CHDKZ_Sniper_SNW_01";
-                    };
-                    class Unit2 {
-                        position[] = {5,0,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_CHDKZ_Rifleman_SNW_01";
-                    };
-                };
-
                 class cfp_o_chdkz_infantry_demo_team_snw {
                     name = "Demo Team";
                     side = 0;
                     faction = "CFP_O_CHDKZ_SNW";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
@@ -336,11 +298,44 @@ class CfgGroups {
                     };
                 };
 
+                class cfp_o_chdkz_infantry_fire_team_snw {
+                    name = "Fire Team";
+                    side = 0;
+                    faction = "CFP_O_CHDKZ_SNW";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Commander_SNW_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Grenadier_SNW_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Machinegunner_SNW_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Ammo_Bearer_SNW_01";
+                    };
+                };
+
                 class cfp_o_chdkz_infantry_mg_team_snw {
                     name = "MG Team";
                     side = 0;
                     faction = "CFP_O_CHDKZ_SNW";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
@@ -373,7 +368,7 @@ class CfgGroups {
                     name = "Mortar Team";
                     side = 0;
                     faction = "CFP_O_CHDKZ_SNW";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
@@ -401,6 +396,11 @@ class CfgGroups {
                         vehicle = "CFP_O_CHDKZ_Asst_Gunner_Mortar_SNW_01";
                     };
                 };
+
+            };
+
+            class SpecOps {
+                name = "Special Forces";
 
             };
 

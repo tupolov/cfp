@@ -253,6 +253,135 @@ class CfgGroups {
                     };
                 };
 
+                class CFP_I_SSArmy_infantry_aa_team {
+                    name = "AA Team";
+                    side = 2;
+                    faction = "CFP_I_SSArmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "LIEUTENANT";
+                        side = 2;
+                        vehicle = "CFP_I_SSArmy_Soldier_09";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 2;
+                        vehicle = "CFP_I_SSArmy_Soldier_05";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "CORPORAL";
+                        side = 2;
+                        vehicle = "CFP_I_SSArmy_Soldier_05";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 2;
+                        vehicle = "CFP_I_SSArmy_Soldier_11";
+                    };
+                };
+
+                class CFP_I_SSArmy_infantry_mg_team {
+                    name = "MG Team";
+                    side = 2;
+                    faction = "CFP_I_SSArmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 2;
+                        vehicle = "CFP_I_SSArmy_Soldier_15";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 2;
+                        vehicle = "CFP_I_SSArmy_Soldier_17";
+                    };
+                };
+
+                class CFP_I_SSArmy_infantry_mg_team_low {
+                    name = "MG Team (Low)";
+                    side = 2;
+                    faction = "CFP_I_SSArmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 2;
+                        vehicle = "CFP_I_SSArmy_Soldier_16";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 2;
+                        vehicle = "CFP_I_SSArmy_Soldier_17";
+                    };
+                };
+
+                class CFP_I_SSArmy_infantry_at_team {
+                    name = "AT Team";
+                    side = 2;
+                    faction = "CFP_I_SSArmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 2;
+                        vehicle = "CFP_I_SSArmy_Soldier_18";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "CORPORAL";
+                        side = 2;
+                        vehicle = "CFP_I_SSArmy_Soldier_19";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 2;
+                        vehicle = "CFP_I_SSArmy_Soldier_03";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 2;
+                        vehicle = "CFP_I_SSArmy_Soldier_03";
+                    };
+                };
+
+                class CFP_I_SSArmy_infantry_mortar_team {
+                    name = "Mortar Team";
+                    side = 2;
+                    faction = "CFP_I_SSArmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\n_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 2;
+                        vehicle = "CFP_I_SSArmy_Soldier_20";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 2;
+                        vehicle = "CFP_I_SSArmy_Soldier_21";
+                    };
+                };
+
             };
 
             class SpecOps {
@@ -417,135 +546,6 @@ class CfgGroups {
                         rank = "PRIVATE";
                         side = 2;
                         vehicle = "CFP_I_SSArmy_Soldier_24";
-                    };
-                };
-
-                class CFP_I_SSArmy_infantry_aa_team {
-                    name = "AA Team";
-                    side = 2;
-                    faction = "CFP_I_SSArmy";
-                    icon = "\A3\ui_f\data\map\markers\nato\n_support.paa";
-                    rarityGroup = 0.5;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "LIEUTENANT";
-                        side = 2;
-                        vehicle = "CFP_I_SSArmy_Soldier_09";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
-                        rank = "SERGEANT";
-                        side = 2;
-                        vehicle = "CFP_I_SSArmy_Soldier_05";
-                    };
-                    class Unit2 {
-                        position[] = {-5,-5,0};
-                        rank = "CORPORAL";
-                        side = 2;
-                        vehicle = "CFP_I_SSArmy_Soldier_05";
-                    };
-                    class Unit3 {
-                        position[] = {10,-10,0};
-                        rank = "PRIVATE";
-                        side = 2;
-                        vehicle = "CFP_I_SSArmy_Soldier_11";
-                    };
-                };
-
-                class CFP_I_SSArmy_infantry_mg_team {
-                    name = "MG Team";
-                    side = 2;
-                    faction = "CFP_I_SSArmy";
-                    icon = "\A3\ui_f\data\map\markers\nato\n_support.paa";
-                    rarityGroup = 0.5;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "SERGEANT";
-                        side = 2;
-                        vehicle = "CFP_I_SSArmy_Soldier_15";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
-                        rank = "PRIVATE";
-                        side = 2;
-                        vehicle = "CFP_I_SSArmy_Soldier_17";
-                    };
-                };
-
-                class CFP_I_SSArmy_infantry_mg_team_low {
-                    name = "MG Team (Low)";
-                    side = 2;
-                    faction = "CFP_I_SSArmy";
-                    icon = "\A3\ui_f\data\map\markers\nato\n_support.paa";
-                    rarityGroup = 0.5;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "SERGEANT";
-                        side = 2;
-                        vehicle = "CFP_I_SSArmy_Soldier_16";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
-                        rank = "PRIVATE";
-                        side = 2;
-                        vehicle = "CFP_I_SSArmy_Soldier_17";
-                    };
-                };
-
-                class CFP_I_SSArmy_infantry_at_team {
-                    name = "AT Team";
-                    side = 2;
-                    faction = "CFP_I_SSArmy";
-                    icon = "\A3\ui_f\data\map\markers\nato\n_support.paa";
-                    rarityGroup = 0.5;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "SERGEANT";
-                        side = 2;
-                        vehicle = "CFP_I_SSArmy_Soldier_18";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
-                        rank = "CORPORAL";
-                        side = 2;
-                        vehicle = "CFP_I_SSArmy_Soldier_19";
-                    };
-                    class Unit2 {
-                        position[] = {-5,-5,0};
-                        rank = "PRIVATE";
-                        side = 2;
-                        vehicle = "CFP_I_SSArmy_Soldier_03";
-                    };
-                    class Unit3 {
-                        position[] = {10,-10,0};
-                        rank = "PRIVATE";
-                        side = 2;
-                        vehicle = "CFP_I_SSArmy_Soldier_03";
-                    };
-                };
-
-                class CFP_I_SSArmy_infantry_mortar_team {
-                    name = "Mortar Team";
-                    side = 2;
-                    faction = "CFP_I_SSArmy";
-                    icon = "\A3\ui_f\data\map\markers\nato\n_support.paa";
-                    rarityGroup = 0.5;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "SERGEANT";
-                        side = 2;
-                        vehicle = "CFP_I_SSArmy_Soldier_20";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
-                        rank = "PRIVATE";
-                        side = 2;
-                        vehicle = "CFP_I_SSArmy_Soldier_21";
                     };
                 };
 
