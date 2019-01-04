@@ -40,7 +40,6 @@ class CfgPatches {
             "CFP_B_CDF_UAZ_DShKM_SNW_01",
             "CFP_B_CDF_UAZ_Open_SNW_01",
             "CFP_B_CDF_UAZ_SNW_01",
-            "CFP_B_CDF_Sniper_SNW_04",
             "CFP_B_CDF_ZSU_23_4_SNW_01",
             "CFP_B_CDF_T72_SNW_01",
             "CFP_B_CDF_BMP_2Ambulance_SNW_01",
