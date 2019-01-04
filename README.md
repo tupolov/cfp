@@ -4,7 +4,7 @@
 
 <p align="center">
     <a href="https://github.com/tupolov/cfp/releases/latest">
-        <img src="https://img.shields.io/badge/Version-0.6.0-blue.svg?style=flat-square" alt="CFP Version">
+        <img src="https://img.shields.io/badge/Version-0.6.1-blue.svg?style=flat-square" alt="CFP Version">
     </a>
     <a href="https://github.com/tupolov/cfp/issues">
         <img src="https://img.shields.io/github/issues-raw/tupolov/CFP.svg?style=flat-square&label=Issues" alt="CFP Issues">
@@ -62,6 +62,7 @@ CFP factions cover major current conflict zones such as Afghanistan, Iraq, Syria
 * Boko Haram (Nigeria) - cfp_o_bokoharam
 * Central African Rebels - cfp_o_cfrebels
 * Columbian FARC Rebels
+* Chernarussian Movement (Winter) - cfp_o_chdkz_snw
 * Hezbollah - cfp_o_hezbollah
 * Houthis (Yemen) - cfp_o_ansarallah
 * IRA
@@ -109,6 +110,7 @@ CFP factions cover major current conflict zones such as Afghanistan, Iraq, Syria
 * Armed Forces of the Czech Republic - split into theater factions - cfp_b_czarmy_wdl, cup_b_cz
 * British Army - split into theater factions - cup_b_gb, cfp_b_gbarmy_wdl
 * Bundeswehr (KSK) - split into theater factions - cfp_b_dearmy_wdl, cup_b_ger
+* Chernarus Defense Force (Winter) - cfp_b_cdf_snw
 * Iraqi Armed Forces - cfp_b_iqarmy
 * Iraqi Police - cfp_b_iqpolice
 * Israeli Defence Force - cfp_b_ilidf
