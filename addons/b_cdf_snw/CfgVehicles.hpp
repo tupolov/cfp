@@ -1177,7 +1177,7 @@ class CfgVehicles {
             crew = "CUP_B_CDF_Crew_SNW";
 
             class Turrets : Turrets {
-                class MainTurret : MainTurret { gunnerType = "CFP_B_CDF_Crewman_SNW_04"; };
+                class MainTurret : MainTurret { gunnerType = "CUP_B_CDF_Crew_SNW"; };
             };
 
 
@@ -1208,7 +1208,7 @@ class CfgVehicles {
             crew = "CUP_B_CDF_Crew_SNW";
 
             class Turrets : Turrets {
-                class MainTurret : MainTurret { gunnerType = "CFP_B_CDF_Crewman_SNW_04"; };
+                class MainTurret : MainTurret { gunnerType = "CUP_B_CDF_Crew_SNW"; };
                 class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
                 class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
                 class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -1310,7 +1310,7 @@ class CfgVehicles {
             crew = "CUP_B_CDF_Crew_SNW";
 
             class Turrets : Turrets {
-                class MainTurret : MainTurret { gunnerType = "CFP_B_CDF_Crewman_SNW_04"; };
+                class MainTurret : MainTurret { gunnerType = "CUP_B_CDF_Crew_SNW"; };
                 class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
                 class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
                 class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -1378,7 +1378,7 @@ class CfgVehicles {
             crew = "CUP_B_CDF_Crew_SNW";
 
             class Turrets : Turrets {
-                class MainTurret : MainTurret { gunnerType = "CFP_B_CDF_Crewman_SNW_04"; };
+                class MainTurret : MainTurret { gunnerType = "CUP_B_CDF_Crew_SNW"; };
             };
 
 
@@ -1649,7 +1649,7 @@ class CfgVehicles {
             hiddenSelectionstextures[] = {"\x\cfp\addons\vehicles\BRDM\brdm2_01_cdf_snow_co.paa","\x\cfp\addons\vehicles\BRDM\brdm2_02_snow_co.paa"};
 
             class Turrets : Turrets {
-                class MainTurret : MainTurret { gunnerType = "CFP_B_CDF_Crewman_SNW_04"; };
+                class MainTurret : MainTurret { gunnerType = "CUP_B_CDF_Crew_SNW"; };
             };
 
 
@@ -1680,7 +1680,7 @@ class CfgVehicles {
             hiddenSelectionstextures[] = {"\x\cfp\addons\vehicles\BRDM\brdm2_01_atgm_cdf_snow_co.paa","\x\cfp\addons\vehicles\BRDM\brdm2_02_snow_co.paa"};
 
             class Turrets : Turrets {
-                class MainTurret : MainTurret { gunnerType = "CFP_B_CDF_Crewman_SNW_04"; };
+                class MainTurret : MainTurret { gunnerType = "CUP_B_CDF_Crew_SNW"; };
             };
 
 
@@ -1741,8 +1741,8 @@ class CfgVehicles {
             crew = "CUP_B_CDF_Crew_SNW";
 
             class Turrets : Turrets {
-                class MainTurret : MainTurret { gunnerType = "CFP_B_CDF_Crewman_SNW_04"; };
-                class CommanderTurret : CommanderTurret { gunnerType = "CFP_B_CDF_Crewman_SNW_04"; };
+                class MainTurret : MainTurret { gunnerType = "CUP_B_CDF_Crew_SNW"; };
+                class CommanderTurret : CommanderTurret { gunnerType = "CUP_B_CDF_Crew_SNW"; };
                 class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
                 class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
                 class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -2073,7 +2073,7 @@ class CfgVehicles {
         };
 
         class CUP_B_CDF_Crew_SNW : CUP_B_CDF_Soldier_02_SNW {
-            editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_Crewman_SNW_04.JPG;
+            editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CUP_B_CDF_Crew_SNW.JPG;
             author = "Drew";
             scope = 2;
             scopeCurator = 2;

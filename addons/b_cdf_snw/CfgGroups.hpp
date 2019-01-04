@@ -1211,7 +1211,7 @@ class CfgGroups {
                         position[] = {-15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CUP_B_CDF_Crewman_SNW";
+                        vehicle = "CUP_B_CDF_Crew_SNW";
                     };
                     class Unit7 {
                         position[] = {20,-20,0};
