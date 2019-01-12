@@ -71,9 +71,9 @@ class CfgVehicles {
         };
     };
 
-    class CFP_O_RUARMY_BTR_90_DES_01;
-    class CFP_O_RUARMY_BTR_90_DES_01_OCimport_01 : CFP_O_RUARMY_BTR_90_DES_01 { scope = 0; class EventHandlers; class Turrets; };
-    class CFP_O_RUARMY_BTR_90_DES_01_OCimport_02 : CFP_O_RUARMY_BTR_90_DES_01_OCimport_01 {
+    class CUP_O_BTR90_RU;
+    class CUP_O_BTR90_RU_OCimport_01 : CUP_O_BTR90_RU { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_BTR90_RU_OCimport_02 : CUP_O_BTR90_RU_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
@@ -1520,7 +1520,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_IRARMY_BTR_90_01 : CFP_O_RUARMY_BTR_90_DES_01_OCimport_02 {
+    class CFP_O_IRARMY_BTR_90_01 : CUP_O_BTR90_RU_OCimport_02 {
         editorPreview = \x\cfp\addons\o_irarmy\data\preview\CFP_O_IRARMY_BTR_90_01.JPG;
         author = "Drew";
         scope = 2;
