@@ -177,16 +177,16 @@
 			weaponPoolAvailable = 1;
 			author = "CFP";
 			displayName = "Ops-Core Uncov Full [IDF]";
-			model = "\x\cfp\addons\headgear\75Headgear\ops_core_uncov_full_idf.p3d";
-			hiddenSelections[] = {""};
-			hiddenSelectionsTextures[] = {""};
+			model = "\x\cfp\addons\headgear\75Headgear\ops_core_uncov_full.p3d";
+			hiddenSelections[] = {"Camo1"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\opscore_co_idf.paa"};
 
 			class ItemInfo: HeadgearItem {
 
 						mass = 30;
-						uniformModel = "\x\cfp\addons\headgear\75Headgear\ops_core_uncov_full_idf.p3d";
+						uniformModel = "\x\cfp\addons\headgear\75Headgear\ops_core_uncov_full.p3d";
 						modelSides[] = {3,1};
-						hiddenSelections[] = {""};
+						hiddenSelections[] = {"Camo1"};
 			class HitpointsProtectionInfo {
 
 					class Head {
