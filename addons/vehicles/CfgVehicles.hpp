@@ -1745,14 +1745,14 @@ class CfgVehicles
                 author = "CFP";
                 textures[] =
                 {
+                    "\x\cfp\addons\vehicles\RG31\exa_rg31_body1_des.paa",
+                    "\x\cfp\addons\vehicles\RG31\exa_rg31_body2_des.paa",
+                    "cup\wheeledvehicles\cup_wheeledvehicles_rg31\data\exa_rg31_interior2_co.paa",
                     "\x\cfp\addons\vehicles\RG31\id\afr_union.paa",
                     "\CUP\WheeledVehicles\CUP_WheeledVehicles_RG31\data\id\id_a_ca.paa",
                     "\CUP\WheeledVehicles\CUP_WheeledVehicles_RG31\data\id\id_1_ca.paa",
                     "",
-                    "",
-                    "\x\cfp\addons\vehicles\RG31\exa_rg31_body1_des.paa",
-                    "\x\cfp\addons\vehicles\RG31\exa_rg31_body2_des.paa",
-                    "cup\wheeledvehicles\cup_wheeledvehicles_rg31\data\exa_rg31_interior2_co.paa"
+                    ""
                 };
                 factions[] = {};
             };
@@ -1762,14 +1762,14 @@ class CfgVehicles
                 author = "CFP";
                 textures[] =
                 {
+                    "\x\cfp\addons\vehicles\RG31\exa_rg31_body_od_olive_co.paa",
+                    "\x\cfp\addons\vehicles\RG31\exa_rg31_body2_od_olive_ca.paa",
+                    "\x\cfp\addons\vehicles\RG31\exa_rg31_interior2_od_olive_co.paa",
                     "\x\cfp\addons\vehicles\RG31\id\afr_union.paa",
                     "\CUP\WheeledVehicles\CUP_WheeledVehicles_RG31\data\id\id_a_ca.paa",
                     "\CUP\WheeledVehicles\CUP_WheeledVehicles_RG31\data\id\id_1_ca.paa",
                     "",
-                    "",
-                    "\x\cfp\addons\vehicles\RG31\exa_rg31_body_od_olive_co.paa",
-                    "\x\cfp\addons\vehicles\RG31\exa_rg31_body2_od_olive_ca.paa",
-                    "\x\cfp\addons\vehicles\RG31\exa_rg31_interior2_od_olive_co.paa"
+                    ""
                 };
                 factions[] = {};
             };
@@ -1779,14 +1779,14 @@ class CfgVehicles
                 author = "CFP";
                 textures[] =
                 {
+                    "\x\cfp\addons\vehicles\RG31\exa_rg31_body1_des.paa",
+                    "\x\cfp\addons\vehicles\RG31\exa_rg31_body2_des.paa",
+                    "cup\wheeledvehicles\cup_wheeledvehicles_rg31\data\exa_rg31_interior2_co.paa",
                     "\x\cfp\addons\vehicles\RG31\id\afr_union.paa",
                     "\CUP\WheeledVehicles\CUP_WheeledVehicles_RG31\data\id\id_a_ca.paa",
                     "\CUP\WheeledVehicles\CUP_WheeledVehicles_RG31\data\id\id_1_ca.paa",
                     "",
-                    "",
-                    "\x\cfp\addons\vehicles\RG31\exa_rg31_body1_des.paa",
-                    "\x\cfp\addons\vehicles\RG31\exa_rg31_body2_des.paa",
-                    "cup\wheeledvehicles\cup_wheeledvehicles_rg31\data\exa_rg31_interior2_co.paa"
+                    ""
                 };
                 factions[] = {};
             };
