@@ -662,8 +662,8 @@ class CfgVehicles {
 
         uniformClass = "CFP_75th_CRYEG3_V4";
 
-        linkedItems[] = {"CFP_LBT6094_MG_OGA_OD","CFP_OpsC_Cov_Goggles_Off","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"CFP_LBT6094_MG_OGA_OD","CFP_OpsC_Cov_Goggles_Off","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"CFP_LBT6094_MG_OGA_OD","CFP_OpsC_Cov_Goggles_Off","ItemMap","ItemRadio","ItemCompass","ItemWatch","CFP_ANPVS15_Camo_V3"};
+        respawnlinkedItems[] = {"CFP_LBT6094_MG_OGA_OD","CFP_OpsC_Cov_Goggles_Off","ItemMap","ItemRadio","ItemCompass","ItemWatch","CFP_ANPVS15_Camo_V3"};
 
         weapons[] = {"CUP_lmg_m249_pip4","CUP_hgun_M9","Binocular"};
         respawnWeapons[] = {"CUP_lmg_m249_pip4","CUP_hgun_M9","Binocular"};
@@ -673,7 +673,7 @@ class CfgVehicles {
 
         backpack = "CFP_Camelbak_Mule_RngrGrn";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_m249_pip4","","CUP_acc_ANPEQ_2","CFP_optic_ELCAN_SpecterDR_Black",{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",200},{},""},{},{"CUP_hgun_M9","","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CFP_75th_CRYEG3_V4",{{"FirstAidKit",1},{"CUP_15Rnd_9x19_M9",2,15}}},{"CFP_LBT6094_MG_OGA_OD",{{"CUP_HandGrenade_M67",1,1},{"B_IR_Grenade",1,1},{"Chemlight_green",1,1},{"Chemlight_red",1,1},{"SmokeShell",1,1},{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",3,200}}},{"CFP_Camelbak_Mule_RngrGrn",{{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",1,200}}},"CFP_OpsC_Cov_Goggles_Off","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_m249_pip4","","CFP_acc_ANPEQ15_Black","CFP_optic_ELCAN_SpecterDR_Black",{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",200},{},""},{},{"CUP_hgun_M9","","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CFP_75th_CRYEG3_V4",{{"FirstAidKit",1},{"CUP_15Rnd_9x19_M9",2,15}}},{"CFP_LBT6094_MG_OGA_OD",{{"CUP_HandGrenade_M67",1,1},{"B_IR_Grenade",1,1},{"Chemlight_green",1,1},{"Chemlight_red",1,1},{"SmokeShell",1,1},{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",3,200}}},{"CFP_Camelbak_Mule_RngrGrn",{{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",1,200}}},"CFP_OpsC_Cov_Goggles_Off","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CFP_ANPVS15_Camo_V3"}};
 
         randomGearProbability = 100;
 
@@ -918,7 +918,7 @@ class CfgVehicles {
 
         backpack = "CFP_Camelbak_Mule_RngrGrn";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_M110","CUP_muzzle_snds_M110","CUP_acc_ANPEQ_2_desert","CUP_optic_LeupoldMk4_MRT_tan",{"CUP_20Rnd_762x51_B_M110",20},{},""},{},{"CUP_hgun_M9","","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CFP_75th_CRYEG3_V4",{{"FirstAidKit",1},{"CUP_15Rnd_9x19_M9",2,15}}},{"CFP_HV1_Ciras_Olive",{{"CUP_HandGrenade_M67",1,1},{"B_IR_Grenade",1,1},{"Chemlight_green",1,1},{"Chemlight_red",1,1},{"SmokeShell",1,1},{"CUP_20Rnd_762x51_B_M110",7,20}}},{"CFP_Camelbak_Mule_RngrGrn",{}},"CFP_OpsC_Covered","G_Tactical_Clear",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CFP_ANPVS15_Camo_V3"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_M110","CUP_muzzle_snds_M110","CFP_acc_ANPEQ15_Black_desert","CUP_optic_LeupoldMk4_MRT_tan",{"CUP_20Rnd_762x51_B_M110",20},{},""},{},{"CUP_hgun_M9","","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CFP_75th_CRYEG3_V4",{{"FirstAidKit",1},{"CUP_15Rnd_9x19_M9",2,15}}},{"CFP_HV1_Ciras_Olive",{{"CUP_HandGrenade_M67",1,1},{"B_IR_Grenade",1,1},{"Chemlight_green",1,1},{"Chemlight_red",1,1},{"SmokeShell",1,1},{"CUP_20Rnd_762x51_B_M110",7,20}}},{"CFP_Camelbak_Mule_RngrGrn",{}},"CFP_OpsC_Covered","G_Tactical_Clear",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CFP_ANPVS15_Camo_V3"}};
 
     };
 
@@ -2684,11 +2684,9 @@ class CfgVehicles {
         class TransportItems {
             item_xx(CFP_acc_ANPEQ15_Black,10);
             item_xx(CFP_optic_ELCAN_SpecterDR_Black,10);
-            item_xx(CUP_acc_ANPEQ_2,10);
             item_xx(CUP_muzzle_snds_SCAR_H,10);
             item_xx(optic_DMS,10);
             item_xx(CUP_muzzle_snds_M110,10);
-            item_xx(CUP_acc_ANPEQ_2_desert,10);
             item_xx(CUP_optic_LeupoldMk4_MRT_tan,10);
             item_xx(CUP_optic_Leupold_VX3,10);
             item_xx(CUP_optic_CompM4,10);
@@ -2830,11 +2828,9 @@ class CfgVehicles {
         class TransportItems {
             item_xx(CFP_acc_ANPEQ15_Black,10);
             item_xx(CFP_optic_ELCAN_SpecterDR_Black,10);
-            item_xx(CUP_acc_ANPEQ_2,10);
             item_xx(CUP_muzzle_snds_SCAR_H,10);
             item_xx(optic_DMS,10);
             item_xx(CUP_muzzle_snds_M110,10);
-            item_xx(CUP_acc_ANPEQ_2_desert,10);
             item_xx(CUP_optic_LeupoldMk4_MRT_tan,10);
             item_xx(CUP_optic_Leupold_VX3,10);
             item_xx(CUP_optic_CompM4,10);
