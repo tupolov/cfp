@@ -1005,6 +1005,16 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_KEARMY";
         crew = "CFP_B_KEARMY_Rifleman_01";
+        hiddenSelectionsTextures[] =                 {
+                    "\x\cfp\addons\vehicles\RG31\exa_rg31_body_od_olive_co.paa",
+                    "\x\cfp\addons\vehicles\RG31\exa_rg31_body2_od_olive_ca.paa",
+                    "\x\cfp\addons\vehicles\RG31\exa_rg31_interior2_od_olive_co.paa",
+                    "\x\cfp\addons\vehicles\RG31\id\afr_union.paa",
+                    "\CUP\WheeledVehicles\CUP_WheeledVehicles_RG31\data\id\id_a_ca.paa",
+                    "\CUP\WheeledVehicles\CUP_WheeledVehicles_RG31\data\id\id_1_ca.paa",
+                    "",
+                    ""
+                };
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_KEARMY_Rifleman_01"; };
@@ -1016,14 +1026,13 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\RG31\id\afr_union.paa'];_unit setObjectTextureGlobal [1,'\CUP\WheeledVehicles\CUP_WheeledVehicles_RG31\data\id\id_a_ca.paa'];_unit setObjectTextureGlobal [2,'\CUP\WheeledVehicles\CUP_WheeledVehicles_RG31\data\id\id_1_ca.paa'];_unit setObjectTextureGlobal [3,''];_unit setObjectTextureGlobal [4,''];_unit setObjectTextureGlobal [5,'\x\cfp\addons\vehicles\RG31\exa_rg31_body_od_olive_co.paa'];_unit setObjectTextureGlobal [6,'\x\cfp\addons\vehicles\RG31\exa_rg31_body2_od_olive_ca.paa'];_unit setObjectTextureGlobal [7,'cup\wheeledvehicles\cup_wheeledvehicles_rg31\data\exa_rg31_interior2_od_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "africanunion_wdl";
 
     };
 
