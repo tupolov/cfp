@@ -77,3 +77,14 @@
 		identityTypes[] = {"NoGlasses",0};
 
 	};
+
+	class CFP_Shemagh_Neck_Black: None
+	{
+		scope = 2;
+		displayname = "Shemagh (Black)";
+		model = "\x\cfp\addons\models\shemagh_neck.p3d";
+		hiddenSelections[] = {"Camo"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\ShemaghNeck\shemagh_neck_black.paa"};
+		identityTypes[] = {"NoGlasses",0};
+
+	};
