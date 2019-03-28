@@ -2,7 +2,7 @@ class CfgGroups
 {
 	class East
 	{
-		class cfp_o_syarmy
+		class CFP_O_SYARMY
 		{
 			name = "Syrian Arab Army";
 			class Infantry
