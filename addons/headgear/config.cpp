@@ -134,6 +134,7 @@ class CfgPatches
             "CFP_OpsC_Covered2",
             "CFP_OpsC_Covered2_IDF",
             "CFP_OpsC_Covered_IDF",
+	    "CFP_OpsC_Covered_KSK",
             "CFP_OpsC_Med",
             "CFP_OpsC_Med_IDF",
             "CFP_OpsC_Painted",
