@@ -584,7 +584,7 @@ class CfgVehicles {
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A3_black","","CUP_acc_Flashlight","CUP_optic_Eotech533_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_FieldUniform_iasfblack",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",2,1},{"CUP_17Rnd_9x19_glock17",2,17},{"CUP_30Rnd_556x45_Stanag",1,30}}},{"CFP_RAV_OGA",{{"CUP_30Rnd_556x45_Stanag",6,30},{"SmokeShell",2,1}}},{},"CFP_BaseballCap_IASF2","CFP_Scarfshades_white",{},{"","","ItemRadio","","",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A3_black","","CUP_acc_Flashlight","CUP_optic_Eotech553_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_FieldUniform_iasfblack",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",2,1},{"CUP_17Rnd_9x19_glock17",2,17},{"CUP_30Rnd_556x45_Stanag",1,30}}},{"CFP_RAV_OGA",{{"CUP_30Rnd_556x45_Stanag",6,30},{"SmokeShell",2,1}}},{},"CFP_BaseballCap_IASF2","CFP_Scarfshades_white",{},{"","","ItemRadio","","",""}};
 
 
          randomGearProbability = 100;
@@ -703,7 +703,7 @@ class CfgVehicles {
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_BUIS_GL","","CUP_acc_Flashlight","CUP_optic_Eotech533_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_Crye_IASF_SS",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",2,1},{"CUP_17Rnd_9x19_glock17",2,17}}},{"CFP_HV5_Ciras_Olive",{{"SmokeShell",2,1},{"CUP_30Rnd_556x45_Stanag",8,30},{"CUP_1Rnd_HE_M203",8,1},{"CUP_1Rnd_HEDP_M203",8,1}}},{},"CFP_75th_Beanie_Blk","CFP_Scarfbeardshades_tan",{"Binocular","","","",{},{},""},{"","","ItemRadio","","",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_BUIS_GL","","CUP_acc_Flashlight","CUP_optic_Eotech553_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_Crye_IASF_SS",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",2,1},{"CUP_17Rnd_9x19_glock17",2,17}}},{"CFP_HV5_Ciras_Olive",{{"SmokeShell",2,1},{"CUP_30Rnd_556x45_Stanag",8,30},{"CUP_1Rnd_HE_M203",8,1},{"CUP_1Rnd_HEDP_M203",8,1}}},{},"CFP_75th_Beanie_Blk","CFP_Scarfbeardshades_tan",{"Binocular","","","",{},{},""},{"","","ItemRadio","","",""}};
 
         randomGearProbability = 100;
 
