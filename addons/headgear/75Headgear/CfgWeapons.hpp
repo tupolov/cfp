@@ -26,6 +26,56 @@
 		};
 	};
 
+	class CFP_OpsC_Covered_AOR2 : ItemCore
+    {
+        picture = \x\cfp\addons\headgear\data\ui\icon_CFP_OpsC_Covered.paa;
+        scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "Ops-Core Covered [AOR2]";
+		model = "\x\cfp\addons\headgear\75Headgear\ops_core_covered.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\opscore_aor2_co.paa"};
+		author = "CFP";
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 15;
+			allowedSlots[] = {901,605};
+			uniformmodel = "\x\cfp\addons\headgear\75Headgear\ops_core_covered.p3d";
+			modelSides[] = {6};
+			armor = 6;
+			passThrough = 0.5;
+			HITPOINTS_HEAD(6,0.5)
+			hiddenSelections[] = {"camo"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\opscore_aor2_co.paa"};
+		};
+	};
+
+	class CFP_OpsC_Covered_AOR1 : ItemCore
+    {
+        picture = \x\cfp\addons\headgear\data\ui\icon_CFP_OpsC_Covered.paa;
+        scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "Ops-Core Covered [AOR1]";
+		model = "\x\cfp\addons\headgear\75Headgear\ops_core_covered.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\opscore_aor1_co.paa"};
+		author = "CFP";
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 15;
+			allowedSlots[] = {901,605};
+			uniformmodel = "\x\cfp\addons\headgear\75Headgear\ops_core_covered.p3d";
+			modelSides[] = {6};
+			armor = 6;
+			passThrough = 0.5;
+			HITPOINTS_HEAD(6,0.5)
+			hiddenSelections[] = {"camo"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\opscore_aor1_co.paa"};
+		};
+	};
+
 	class CFP_OpsC_Covered_IDF : ItemCore
     {
         picture = \x\cfp\addons\headgear\data\ui\icon_CFP_OpsC_Covered_IDF.paa;
@@ -128,6 +178,62 @@
 				};
 			};
 		};
+
+		class CFP_OpsC_Covered2_AOR2 : ItemCore {
+
+            picture = \x\cfp\addons\headgear\data\ui\icon_CFP_OpsC_Covered2.paa;
+			scope = 2;
+			author = "CFP";
+			displayName = "Ops-Core Covered II [AOR2]";
+			model = "\x\cfp\addons\headgear\75Headgear\ops_core_covered2.p3d";
+			hiddenSelections[] = {"camo","camo1"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\opscore_aor2_co.paa","\x\cfp\addons\headgear\75Headgear\tex\wmx200_insight_co.paa"};
+
+			class ItemInfo: HeadgearItem {
+
+						mass = 30;
+						uniformModel = "\x\cfp\addons\headgear\75Headgear\ops_core_covered2.p3d";
+						modelSides[] = {3,1};
+						hiddenSelections[] = {"camo","camo1"};
+			class HitpointsProtectionInfo {
+
+					class Head {
+						hitpointName = "HitHead";
+						armor = 6;
+						passThrough = 0.500000;
+					};
+				};
+			};
+		};
+
+		class CFP_OpsC_Covered2_AOR1 : ItemCore {
+
+            picture = \x\cfp\addons\headgear\data\ui\icon_CFP_OpsC_Covered2.paa;
+			scope = 2;
+			author = "CFP";
+			displayName = "Ops-Core Covered II [AOR1]";
+			model = "\x\cfp\addons\headgear\75Headgear\ops_core_covered2.p3d";
+			hiddenSelections[] = {"camo","camo1"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\opscore_aor1_co.paa","\x\cfp\addons\headgear\75Headgear\tex\wmx200_insight_co.paa"};
+
+			class ItemInfo: HeadgearItem {
+
+						mass = 30;
+						uniformModel = "\x\cfp\addons\headgear\75Headgear\ops_core_covered2.p3d";
+						modelSides[] = {3,1};
+						hiddenSelections[] = {"camo","camo1"};
+			class HitpointsProtectionInfo {
+
+					class Head {
+						hitpointName = "HitHead";
+						armor = 6;
+						passThrough = 0.500000;
+					};
+				};
+			};
+		};
+
+
 
 		class CFP_OpsC_Covered2_IDF : ItemCore {
 
@@ -336,6 +442,66 @@
 			};
 		};
 
+		class CFP_OpsC_Cov_Goggles_Off_AOR2 : ItemCore {
+
+            picture = \x\cfp\addons\headgear\data\ui\icon_CFP_OpsC_Cov_Goggles_Off.paa;
+
+
+			scope = 2;
+			weaponPoolAvailable = 1;
+			author = "CFP";
+			displayName = "Ops-Core Cov Goggles Off [AOR2]";
+			model = "\x\cfp\addons\headgear\75Headgear\ops_core_cov_goggles_off.p3d";
+			hiddenSelections[] = {"camo","camo1"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\opscore_aor2_co.paa","\x\cfp\addons\headgear\75Headgear\tex\wmx200_insight_co.paa"};
+
+			class ItemInfo: HeadgearItem {
+
+						mass = 30;
+						uniformModel = "\x\cfp\addons\headgear\75Headgear\ops_core_cov_goggles_off.p3d";
+						modelSides[] = {3,1};
+						hiddenSelections[] = {"camo","camo1"};
+			class HitpointsProtectionInfo {
+
+					class Head {
+						hitpointName = "HitHead";
+						armor = 6;
+						passThrough = 0.500000;
+					};
+				};
+			};
+		};
+
+		class CFP_OpsC_Cov_Goggles_Off_AOR1 : ItemCore {
+
+            picture = \x\cfp\addons\headgear\data\ui\icon_CFP_OpsC_Cov_Goggles_Off.paa;
+
+
+			scope = 2;
+			weaponPoolAvailable = 1;
+			author = "CFP";
+			displayName = "Ops-Core Cov Goggles Off [AOR1]";
+			model = "\x\cfp\addons\headgear\75Headgear\ops_core_cov_goggles_off.p3d";
+			hiddenSelections[] = {"camo","camo1"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\opscore_aor1_co.paa","\x\cfp\addons\headgear\75Headgear\tex\wmx200_insight_co.paa"};
+
+			class ItemInfo: HeadgearItem {
+
+						mass = 30;
+						uniformModel = "\x\cfp\addons\headgear\75Headgear\ops_core_cov_goggles_off.p3d";
+						modelSides[] = {3,1};
+						hiddenSelections[] = {"camo","camo1"};
+			class HitpointsProtectionInfo {
+
+					class Head {
+						hitpointName = "HitHead";
+						armor = 6;
+						passThrough = 0.500000;
+					};
+				};
+			};
+		};
+
 		class CFP_OpsC_Cov_Goggles_Off_KSK : ItemCore {
 
             picture = \x\cfp\addons\headgear\data\ui\icon_CFP_OpsC_Cov_Goggles_Off.paa;
@@ -438,6 +604,66 @@
 			model = "\x\cfp\addons\headgear\75Headgear\ops_core_cov_medic.p3d";
 			hiddenSelections[] = {"camo","camo1"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\opscore_co.paa","\x\cfp\addons\headgear\75Headgear\tex\wmx200_insight_co.paa"};
+
+			class ItemInfo: HeadgearItem {
+
+						mass = 30;
+						uniformModel = "\x\cfp\addons\headgear\75Headgear\ops_core_cov_medic.p3d";
+						modelSides[] = {3,1};
+						hiddenSelections[] = {"camo","camo1"};
+			class HitpointsProtectionInfo {
+
+					class Head {
+						hitpointName = "HitHead";
+						armor = 6;
+						passThrough = 0.500000;
+					};
+				};
+			};
+		};
+
+	class CFP_OpsC_Med_AOR2 : ItemCore {
+
+            picture = \x\cfp\addons\headgear\data\ui\icon_CFP_OpsC_Med.paa;
+
+
+			scope = 2;
+			weaponPoolAvailable = 1;
+			author = "CFP";
+			displayName = "Ops-Core Spec [AOR2]";
+			model = "\x\cfp\addons\headgear\75Headgear\ops_core_cov_medic.p3d";
+			hiddenSelections[] = {"camo","camo1"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\opscore_aor2_co.paa","\x\cfp\addons\headgear\75Headgear\tex\wmx200_insight_co.paa"};
+
+			class ItemInfo: HeadgearItem {
+
+						mass = 30;
+						uniformModel = "\x\cfp\addons\headgear\75Headgear\ops_core_cov_medic.p3d";
+						modelSides[] = {3,1};
+						hiddenSelections[] = {"camo","camo1"};
+			class HitpointsProtectionInfo {
+
+					class Head {
+						hitpointName = "HitHead";
+						armor = 6;
+						passThrough = 0.500000;
+					};
+				};
+			};
+		};
+
+		class CFP_OpsC_Med_AOR1 : ItemCore {
+
+            picture = \x\cfp\addons\headgear\data\ui\icon_CFP_OpsC_Med.paa;
+
+
+			scope = 2;
+			weaponPoolAvailable = 1;
+			author = "CFP";
+			displayName = "Ops-Core Spec [AOR1]";
+			model = "\x\cfp\addons\headgear\75Headgear\ops_core_cov_medic.p3d";
+			hiddenSelections[] = {"camo","camo1"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\75Headgear\tex\opscore_aor1_co.paa","\x\cfp\addons\headgear\75Headgear\tex\wmx200_insight_co.paa"};
 
 			class ItemInfo: HeadgearItem {
 
