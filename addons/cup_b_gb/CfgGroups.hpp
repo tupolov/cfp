@@ -694,6 +694,11 @@ class CfgGroups {
                     };
                 };
 
+                delete CUP_B_GB_MPatrol_W;
+                delete CUP_B_GB_MSection_W;
+                delete CUP_B_GB_MSection_W_Mastiff;
+                delete CUP_B_GB_MSection_W_Ridgback;
+                delete CUP_B_GB_MTeam_W;
             };
 
             class Support {
@@ -806,6 +811,8 @@ class CfgGroups {
                     };
                 };
 
+                delete CUP_B_GB_MechAT_W;
+                delete CUP_B_GB_MechSec_W;
             };
 
             class Armored {
@@ -904,6 +911,7 @@ class CfgGroups {
                     };
                 };
 
+                delete CUP_B_GB_WPlatoon_W;
             };
 
             class Artillery {
@@ -1214,6 +1222,7 @@ class CfgGroups {
 
             };
 
+            delete Infantry_W;
 
         };
 
