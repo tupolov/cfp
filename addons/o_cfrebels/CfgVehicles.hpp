@@ -93,6 +93,7 @@ class CfgVehicles {
 
 
     class CFP_O_CFRebels_Rifleman_01 : O_G_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Rifleman_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -253,6 +254,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Militiaman_01 : CFP_O_CFRebels_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Militiaman_01.JPG;
 
         displayName = "Militiaman";
 
@@ -270,6 +272,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Autorifleman_RPK_01 : CFP_O_CFRebels_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Autorifleman_RPK_01.JPG;
 
         displayName = "Autorifleman (RPK)";
 
@@ -289,6 +292,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Team_Leader_01 : CFP_O_CFRebels_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Team_Leader_01.JPG;
 
         displayName = "Team Leader";
 
@@ -306,6 +310,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Surgeon_01 : CFP_O_CFRebels_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Surgeon_01.JPG;
 
         displayName = "Surgeon";
         attendant = 1;
@@ -328,6 +333,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Demo_Specialist_01 : CFP_O_CFRebels_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Demo_Specialist_01.JPG;
 
         displayName = "Demo Specialist";
         canDeactivateMines = 1;
@@ -349,6 +355,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Grenadier_01 : CFP_O_CFRebels_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Grenadier_01.JPG;
 
         displayName = "Grenadier";
 
@@ -368,6 +375,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Squad_Leader_01 : CFP_O_CFRebels_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Squad_Leader_01.JPG;
 
         displayName = "Squad Leader";
 
@@ -385,6 +393,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_RPG_Gunner_01 : CFP_O_CFRebels_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_RPG_Gunner_01.JPG;
 
         displayName = "RPG Gunner";
 
@@ -404,6 +413,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Sharpshooter_01 : CFP_O_CFRebels_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Sharpshooter_01.JPG;
 
         displayName = "Sharpshooter";
 
@@ -421,6 +431,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Sniper_01 : CFP_O_CFRebels_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Sniper_01.JPG;
 
         displayName = "Sniper";
 
@@ -438,6 +449,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Machinegunner_PKM_01 : CFP_O_CFRebels_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Machinegunner_PKM_01.JPG;
 
         displayName = "Machinegunner (PKM)";
 
@@ -457,6 +469,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Commander_01 : CFP_O_CFRebels_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Commander_01.JPG;
 
         displayName = "Commander";
 
@@ -474,6 +487,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Ex_FACA_Rifleman_01 : O_G_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Ex_FACA_Rifleman_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -623,6 +637,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Ex_FACA_Autorifleman_01 : CFP_O_CFRebels_Ex_FACA_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Ex_FACA_Autorifleman_01.JPG;
 
         displayName = "Ex-FACA Autorifleman";
 
@@ -642,6 +657,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Ex_FACA_Team_Leader_01 : CFP_O_CFRebels_Ex_FACA_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Ex_FACA_Team_Leader_01.JPG;
 
         displayName = "Ex-FACA Team Leader";
 
@@ -659,6 +675,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Gunner_HMG_01 : CFP_O_CFRebels_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Gunner_HMG_01.JPG;
 
         displayName = "Gunner (HMG)";
 
@@ -678,6 +695,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Assistant_Gunner_HMG_01 : CFP_O_CFRebels_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Assistant_Gunner_HMG_01.JPG;
 
         displayName = "Assistant Gunner (HMG)";
 
@@ -697,6 +715,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Gunner_Mortar_01 : CFP_O_CFRebels_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Gunner_Mortar_01.JPG;
 
         displayName = "Gunner (Mortar)";
 
@@ -716,6 +735,7 @@ class CfgVehicles {
     };
 
     class CFP_O_CFRebels_Assistant_Gunner_Mortar_01 : CFP_O_CFRebels_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Assistant_Gunner_Mortar_01.JPG;
 
         displayName = "Assistant Gunner (Mortar)";
 

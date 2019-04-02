@@ -11,7 +11,8 @@ class CfgVehicles {
     class O_Soldier_F_OCimport_02 : O_Soldier_F_OCimport_01 { class EventHandlers; };
 
     class cfp_i_alNusra_team_leader : O_Soldier_F_OCimport_02 {
-        editorPreview = "x\cfp\addons\i_alnusra\data\Preview_alnusra_infantry.jpg";
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_team_leader.JPG;
+
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -144,7 +145,8 @@ class CfgVehicles {
     };
 
     class cfp_i_alNusra_squad_leader : cfp_i_alNusra_team_leader {
-        editorPreview = "x\cfp\addons\i_alnusra\data\Preview_alnusra_infantry.jpg";
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_squad_leader.JPG;
+
         displayName = "al-Nusra Squad Leader";
 
         linkedItems[] = {"V_TacVest_camo","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -161,7 +163,8 @@ class CfgVehicles {
     };
 
     class cfp_i_alNusra_grenadier : O_Soldier_F_OCimport_02 {
-        editorPreview = "x\cfp\addons\i_alnusra\data\Preview_alnusra_infantry.jpg";
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_grenadier.JPG;
+
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -263,7 +266,8 @@ class CfgVehicles {
     };
 
     class cfp_i_alNusra_rifleman : cfp_i_alNusra_team_leader {
-        editorPreview = "x\cfp\addons\i_alnusra\data\Preview_alnusra_infantry.jpg";
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_rifleman.JPG;
+
         displayName = "al-Nusra Rifleman";
 
         linkedItems[] = {"SP_Tactical1_Black","ItemRadio"};
@@ -280,7 +284,8 @@ class CfgVehicles {
     };
 
     class cfp_i_alNusra_machinegunner : O_Soldier_F_OCimport_02 {
-        editorPreview = "x\cfp\addons\i_alnusra\data\Preview_alnusra_infantry.jpg";
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_machinegunner.JPG;
+
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -390,7 +395,8 @@ class CfgVehicles {
     };
 
     class cfp_i_alNusra_sniper : cfp_i_alNusra_machinegunner {
-        editorPreview = "x\cfp\addons\i_alnusra\data\Preview_alnusra_infantry.jpg";
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_sniper.JPG;
+
         displayName = "al-Nusra Sniper";
 
         linkedItems[] = {"CUP_V_OI_TKI_Jacket3_05","ItemRadio"};
@@ -407,7 +413,8 @@ class CfgVehicles {
     };
 
     class cfp_i_alNusra_at : cfp_i_alNusra_grenadier {
-        editorPreview = "x\cfp\addons\i_alnusra\data\Preview_alnusra_infantry.jpg";
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_at.JPG;
+
         displayName = "al-Nusra Anti-Tank";
 
         linkedItems[] = {"V_TacVest_blk","ItemRadio"};
@@ -426,7 +433,8 @@ class CfgVehicles {
     };
 
     class cfp_i_alNusra_medic : cfp_i_alNusra_team_leader {
-        editorPreview = "x\cfp\addons\i_alnusra\data\Preview_alnusra_infantry.jpg";
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_medic.JPG;
+
         displayName = "al-Nusra Medic";
         attendant = 1;
         icon = "iconManMedic";
@@ -448,7 +456,8 @@ class CfgVehicles {
     };
 
     class cfp_i_alNusra_sapper : cfp_i_alNusra_grenadier {
-        editorPreview = "x\cfp\addons\i_alnusra\data\Preview_alnusra_infantry.jpg";
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_sapper.JPG;
+
         displayName = "al-Nusra Sapper";
         canDeactivateMines = 1;
         engineer = 1;
@@ -469,7 +478,8 @@ class CfgVehicles {
     };
 
     class cfp_i_alNusra_crewman : cfp_i_alNusra_team_leader {
-        editorPreview = "x\cfp\addons\i_alnusra\data\Preview_alnusra_infantry.jpg";
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_crewman.JPG;
+
         displayName = "al-Nusra Crewman";
 
         linkedItems[] = {"CFP_UtilityJacket_ChocChip","ItemRadio"};
@@ -486,7 +496,8 @@ class CfgVehicles {
     };
 
     class cfp_i_alNusra_rifleman_dshkm : cfp_i_alNusra_team_leader {
-        editorPreview = "x\cfp\addons\i_alnusra\data\Preview_alnusra_infantry.jpg";
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_rifleman_dshkm.JPG;
+
         displayName = "al-Nusra Gunner [DSHKM]";
 
         linkedItems[] = {"CFP_AK_VEST_Lime","ItemRadio"};
@@ -505,7 +516,8 @@ class CfgVehicles {
     };
 
     class cfp_i_alNusra_rifleman_kord : cfp_i_alNusra_team_leader {
-        editorPreview = "x\cfp\addons\i_alnusra\data\Preview_alnusra_infantry.jpg";
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_rifleman_kord.JPG;
+
         displayName = "al-Nusra Gunner [KORD]";
 
         linkedItems[] = {"CUP_V_OI_TKI_Jacket3_03","ItemRadio"};
@@ -524,7 +536,8 @@ class CfgVehicles {
     };
 
     class cfp_i_alNusra_rifleman_podnos : cfp_i_alNusra_team_leader {
-        editorPreview = "x\cfp\addons\i_alnusra\data\Preview_alnusra_infantry.jpg";
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_rifleman_podnos.JPG;
+
         displayName = "al-Nusra Gunner [Podnos]";
 
         linkedItems[] = {"V_TacVest_khk","ItemRadio"};
@@ -543,7 +556,8 @@ class CfgVehicles {
     };
 
     class cfp_i_alNusra_rifleman_ags30 : cfp_i_alNusra_grenadier {
-        editorPreview = "x\cfp\addons\i_alnusra\data\Preview_alnusra_infantry.jpg";
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_rifleman_ags30.JPG;
+
         displayName = "al-Nusra Gunner [AGS30]";
 
         linkedItems[] = {"SP_Modular1_Black","ItemRadio"};
@@ -562,7 +576,8 @@ class CfgVehicles {
     };
 
     class cfp_i_alNusra_rifleman_spg9 : cfp_i_alNusra_machinegunner {
-        editorPreview = "x\cfp\addons\i_alnusra\data\Preview_alnusra_infantry.jpg";
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_rifleman_spg9.JPG;
+
         displayName = "al-Nusra Gunner [SPG9]";
 
         linkedItems[] = {"CFP_AK_VEST_Tan","ItemRadio"};
@@ -581,7 +596,8 @@ class CfgVehicles {
     };
 
     class cfp_i_alNusra_rifleman_metis : cfp_i_alNusra_machinegunner {
-        editorPreview = "x\cfp\addons\i_alnusra\data\Preview_alnusra_infantry.jpg";
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_rifleman_metis.JPG;
+
         displayName = "al-Nusra Gunner [METIS]";
 
         linkedItems[] = {"V_TacVest_khk","ItemRadio"};
@@ -617,8 +633,8 @@ class CfgVehicles {
 
     class Offroad_01_base_F;
     class Offroad_01_base_F_OCimport_01 : Offroad_01_base_F { scope = 0; class Eventhandlers; };
-    class cfp_i_alNusra_offroad : Offroad_01_base_F_OCimport_01
-    {
+    class cfp_i_alNusra_offroad : Offroad_01_base_F_OCimport_01 {
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_offroad.JPG;
         scope = 2;
         side = 2;
         displayName = "al-Nusra Offroad";
@@ -635,12 +651,12 @@ class CfgVehicles {
                 init = "(_this select 0) execVM ""\x\cfp\addons\i_alnusra\Scripts\randomize_tex.sqf""";
             };
         };
-        editorPreview = "\x\cfp\addons\i_alnusra\data\Preview_alNusra_Offroad.jpg";
+
     };
     class B_G_Offroad_01_armed_F;
     class B_G_Offroad_01_armed_F_OCimport_01 : B_G_Offroad_01_armed_F { scope = 0; class Eventhandlers; };
-    class cfp_i_alNusra_offroad_M2 : B_G_Offroad_01_armed_F_OCimport_01
-    {
+    class cfp_i_alNusra_offroad_M2 : B_G_Offroad_01_armed_F_OCimport_01 {
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_offroad_M2.JPG;
         scope = 2;
         side = 2;
         displayName = "al-Nusra Offroad MG";
@@ -657,12 +673,12 @@ class CfgVehicles {
                 init = "(_this select 0) execVM ""\x\cfp\addons\i_alnusra\Scripts\randomize_tex.sqf""";
             };
         };
-        editorPreview = "\x\cfp\addons\i_alnusra\data\Preview_alNusra_Offroad_MG.jpg";
+
     };
     class CUP_I_Datsun_PK_TK_Random;
     class CUP_I_Datsun_PK_TK_Random_OCimport_01 : CUP_I_Datsun_PK_TK_Random { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_i_alNusra_pickup_PK : CUP_I_Datsun_PK_TK_Random_OCimport_01
-    {
+    class cfp_i_alNusra_pickup_PK : CUP_I_Datsun_PK_TK_Random_OCimport_01 {
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_pickup_PK.JPG;
         scope = 2;
         side = 2;
         displayName = "al-Nusra Pickup PK";
@@ -680,8 +696,8 @@ class CfgVehicles {
     };
     class CUP_O_LR_MG_TKA;
     class CUP_O_LR_MG_TKA_OCimport_01 : CUP_O_LR_MG_TKA { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_i_alNusra_LR_M2 : CUP_O_LR_MG_TKA_OCimport_01
-    {
+    class cfp_i_alNusra_LR_M2 : CUP_O_LR_MG_TKA_OCimport_01 {
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_LR_M2.JPG;
         scope = 2;
         side = 2;
         displayName = "al-Nusra L.R. M2";
@@ -696,12 +712,12 @@ class CfgVehicles {
                 init = "(_this select 0) execVM ""\x\cfp\addons\i_alnusra\Scripts\randomize_tex.sqf""";
             };
         };
-        editorPreview = "\x\cfp\addons\i_alnusra\data\Preview_alNusra_LR_MG.jpg";
+
     };
     class CUP_O_LR_SPG9_TKA;
     class CUP_O_LR_SPG9_TKA_OCimport_01 : CUP_O_LR_SPG9_TKA { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_i_alNusra_LR_SPG9 : CUP_O_LR_SPG9_TKA_OCimport_01
-    {
+    class cfp_i_alNusra_LR_SPG9 : CUP_O_LR_SPG9_TKA_OCimport_01 {
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_LR_SPG9.JPG;
         scope = 2;
         side = 2;
         displayName = "al-Nusra L.R. SPG9";
@@ -716,12 +732,12 @@ class CfgVehicles {
                 init = "(_this select 0) execVM ""\x\cfp\addons\i_alnusra\Scripts\randomize_tex.sqf""";
             };
         };
-        editorPreview = "\x\cfp\addons\i_alnusra\data\Preview_alNusra_LR_SPG.jpg";
+
     };
     class CUP_O_LR_Transport_TKA;
     class CUP_O_LR_Transport_TKA_OCimport_01 : CUP_O_LR_Transport_TKA { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_i_alNusra_LR_Unarmed : CUP_O_LR_Transport_TKA_OCimport_01
-    {
+    class cfp_i_alNusra_LR_Unarmed : CUP_O_LR_Transport_TKA_OCimport_01 {
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_LR_Unarmed.JPG;
         scope = 2;
         side = 2;
         displayName = "al-Nusra L.R.";
@@ -736,12 +752,12 @@ class CfgVehicles {
                 init = "(_this select 0) execVM ""\x\cfp\addons\i_alnusra\Scripts\randomize_tex.sqf""";
             };
         };
-        editorPreview = "\x\cfp\addons\i_alnusra\data\Preview_alNusra_LR.jpg";
+
     };
     class CUP_O_UAZ_MG_RU;
     class CUP_O_UAZ_MG_RU_OCimport_01 : CUP_O_UAZ_MG_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_i_alNusra_UAZ_MG : CUP_O_UAZ_MG_RU_OCimport_01
-    {
+    class cfp_i_alNusra_UAZ_MG : CUP_O_UAZ_MG_RU_OCimport_01 {
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_UAZ_MG.JPG;
         scope = 2;
         side = 2;
         displayName = "al-Nusra UAZ MG";
@@ -756,12 +772,12 @@ class CfgVehicles {
                 init = "(_this select 0) execVM ""\x\cfp\addons\i_alnusra\Scripts\randomize_tex.sqf""";
             };
         };
-        editorPreview = "\x\cfp\addons\i_alnusra\data\Preview_alNusra_UAZ_MG.jpg";
+
     };
     class CUP_B_UAZ_AGS30_CDF;
     class CUP_B_UAZ_AGS30_CDF_OCimport_01 : CUP_B_UAZ_AGS30_CDF { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_i_alNusra_UAZ_AGS30 : CUP_B_UAZ_AGS30_CDF_OCimport_01
-    {
+    class cfp_i_alNusra_UAZ_AGS30 : CUP_B_UAZ_AGS30_CDF_OCimport_01 {
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_UAZ_AGS30.JPG;
         scope = 2;
         side = 2;
         displayName = "al-Nusra UAZ AGS30";
@@ -776,12 +792,12 @@ class CfgVehicles {
                 init = "(_this select 0) execVM ""\x\cfp\addons\i_alnusra\Scripts\randomize_tex.sqf""";
             };
         };
-        editorPreview = "\x\cfp\addons\i_alnusra\data\Preview_alNusra_UAZ_AGS.jpg";
+
     };
     class CUP_O_UAZ_SPG9_RU;
     class CUP_O_UAZ_SPG9_RU_OCimport_01 : CUP_O_UAZ_SPG9_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_i_alNusra_UAZ_SPG9 : CUP_O_UAZ_SPG9_RU_OCimport_01
-    {
+    class cfp_i_alNusra_UAZ_SPG9 : CUP_O_UAZ_SPG9_RU_OCimport_01 {
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_UAZ_SPG9.JPG;
         scope = 2;
         side = 2;
         displayName = "al-Nusra UAZ SPG9";
@@ -796,12 +812,12 @@ class CfgVehicles {
                 init = "(_this select 0) execVM ""\x\cfp\addons\i_alnusra\Scripts\randomize_tex.sqf""";
             };
         };
-        editorPreview = "\x\cfp\addons\i_alnusra\data\Preview_alNusra_UAZ_SPG.jpg";
+
     };
     class CUP_O_UAZ_METIS_RU;
     class CUP_O_UAZ_METIS_RU_OCimport_01 : CUP_O_UAZ_METIS_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_i_alNusra_UAZ_METIS : CUP_O_UAZ_METIS_RU_OCimport_01
-    {
+    class cfp_i_alNusra_UAZ_METIS : CUP_O_UAZ_METIS_RU_OCimport_01 {
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_UAZ_METIS.JPG;
         scope = 2;
         side = 2;
         displayName = "al-Nusra UAZ METIS";
@@ -819,8 +835,8 @@ class CfgVehicles {
     };
     class CUP_O_UAZ_Unarmed_RU;
     class CUP_O_UAZ_Unarmed_RU_OCimport_01 : CUP_O_UAZ_Unarmed_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_i_alNusra_UAZ_Unarmed : CUP_O_UAZ_Unarmed_RU_OCimport_01
-    {
+    class cfp_i_alNusra_UAZ_Unarmed : CUP_O_UAZ_Unarmed_RU_OCimport_01 {
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_UAZ_Unarmed.JPG;
         scope = 2;
         side = 2;
         displayName = "al-Nusra UAZ";
@@ -835,12 +851,12 @@ class CfgVehicles {
                 init = "(_this select 0) execVM ""\x\cfp\addons\i_alnusra\Scripts\randomize_tex.sqf""";
             };
         };
-        editorPreview = "\x\cfp\addons\i_alnusra\data\Preview_alNusra_UAZ.jpg";
+
     };
     class CUP_O_UAZ_Open_RU;
     class CUP_O_UAZ_Open_RU_OCimport_01 : CUP_O_UAZ_Open_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_i_alNusra_UAZ_Open : CUP_O_UAZ_Open_RU_OCimport_01
-    {
+    class cfp_i_alNusra_UAZ_Open : CUP_O_UAZ_Open_RU_OCimport_01 {
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_UAZ_Open.JPG;
         scope = 2;
         side = 2;
         displayName = "al-Nusra UAZ Open";
@@ -858,8 +874,8 @@ class CfgVehicles {
     };
     class CUP_O_Ural_CHDKZ;
     class CUP_O_Ural_CHDKZ_OCimport_01 : CUP_O_Ural_CHDKZ { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_i_alNusra_Ural : CUP_O_Ural_CHDKZ_OCimport_01
-    {
+    class cfp_i_alNusra_Ural : CUP_O_Ural_CHDKZ_OCimport_01 {
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_Ural.JPG;
         scope = 2;
         side = 2;
         displayName = "al-Nusra Ural";
@@ -874,12 +890,12 @@ class CfgVehicles {
                 init = "(_this select 0) execVM ""\x\cfp\addons\i_alnusra\Scripts\randomize_tex.sqf""";
             };
         };
-        editorPreview = "\x\cfp\addons\i_alnusra\data\Preview_alNusra_Ural.jpg";
+
     };
     class CUP_O_Ural_ZU23_CHDKZ;
     class CUP_O_Ural_ZU23_CHDKZ_OCimport_01 : CUP_O_Ural_ZU23_CHDKZ { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_i_alNusra_Ural_ZU23 : CUP_O_Ural_ZU23_CHDKZ_OCimport_01
-    {
+    class cfp_i_alNusra_Ural_ZU23 : CUP_O_Ural_ZU23_CHDKZ_OCimport_01 {
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_Ural_ZU23.JPG;
         scope = 2;
         side = 2;
         displayName = "al-Nusra Ural ZU23";
@@ -894,12 +910,12 @@ class CfgVehicles {
                 init = "(_this select 0) execVM ""\x\cfp\addons\i_alnusra\Scripts\randomize_tex.sqf""";
             };
         };
-        editorPreview = "\x\cfp\addons\i_alnusra\data\Preview_alNusra_Ural_ZU23.jpg";
+
     };
     class CUP_O_BMP1_TKA;
     class CUP_O_BMP1_TKA_OCimport_01 : CUP_O_BMP1_TKA { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_i_alNusra_BMP1 : CUP_O_BMP1_TKA_OCimport_01
-    {
+    class cfp_i_alNusra_BMP1 : CUP_O_BMP1_TKA_OCimport_01 {
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_BMP1.JPG;
         scope = 2;
         side = 2;
         displayName = "al-Nusra BMP-1";
@@ -914,12 +930,12 @@ class CfgVehicles {
                 init = "(_this select 0) execVM ""\x\cfp\addons\i_alnusra\Scripts\randomize_tex.sqf""";
             };
         };
-        editorPreview = "\x\cfp\addons\i_alnusra\data\Preview_alNusra_BMP1.jpg";
+
     };
     class CUP_O_BMP1P_TKA;
     class CUP_O_BMP1P_TKA_OCimport_01 : CUP_O_BMP1P_TKA { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_i_alNusra_BMP1P : CUP_O_BMP1P_TKA_OCimport_01
-    {
+    class cfp_i_alNusra_BMP1P : CUP_O_BMP1P_TKA_OCimport_01 {
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_BMP1P.JPG;
         scope = 2;
         side = 2;
         displayName = "al-Nusra BMP-1P";
@@ -934,12 +950,12 @@ class CfgVehicles {
                 init = "(_this select 0) execVM ""\x\cfp\addons\i_alnusra\Scripts\randomize_tex.sqf""";
             };
         };
-        editorPreview = "\x\cfp\addons\i_alnusra\data\Preview_alNusra_BMP1P.jpg";
+
     };
     class CUP_O_T34_TKA;
     class CUP_O_T34_TKA_OCimport_01 : CUP_O_T34_TKA { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_i_alNusra_T34 : CUP_O_T34_TKA_OCimport_01
-    {
+    class cfp_i_alNusra_T34 : CUP_O_T34_TKA_OCimport_01 {
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_T34.JPG;
         scope = 2;
         side = 2;
         displayName = "al-Nusra T34";
@@ -954,12 +970,12 @@ class CfgVehicles {
                 init = "(_this select 0) execVM ""\x\cfp\addons\i_alnusra\Scripts\randomize_tex.sqf""";
             };
         };
-        editorPreview = "\x\cfp\addons\i_alnusra\data\Preview_alNusra_T34.jpg";
+
     };
     class CUP_O_T55_CSAT;
     class CUP_O_T55_CSAT_OCimport_01 : CUP_O_T55_CSAT { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_i_alNusra_T55 : CUP_O_T55_CSAT_OCimport_01
-    {
+    class cfp_i_alNusra_T55 : CUP_O_T55_CSAT_OCimport_01 {
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_T55.JPG;
         scope = 2;
         side = 2;
         displayName = "al-Nusra T55";
@@ -974,12 +990,12 @@ class CfgVehicles {
                 init = "(_this select 0) execVM ""\x\cfp\addons\i_alnusra\Scripts\randomize_tex.sqf""";
             };
         };
-        editorPreview = "\x\cfp\addons\i_alnusra\data\Preview_alNusra_T55.jpg";
+
     };
     class CUP_O_ZSU23_SLA;
     class CUP_O_ZSU23_SLA_OCimport_01 : CUP_O_ZSU23_SLA { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_i_alNusra_ZSU : CUP_O_ZSU23_SLA_OCimport_01
-    {
+    class cfp_i_alNusra_ZSU : CUP_O_ZSU23_SLA_OCimport_01 {
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_ZSU.JPG;
         scope = 2;
         side = 2;
         displayName = "al-Nusra ZSU";
@@ -994,12 +1010,12 @@ class CfgVehicles {
                 init = "(_this select 0) execVM ""\x\cfp\addons\i_alnusra\Scripts\randomize_tex.sqf""";
             };
         };
-        editorPreview = "\x\cfp\addons\i_alnusra\data\Preview_alNusra_ZSU.jpg";
+
     };
     class CUP_O_ZU23_RU;
     class CUP_O_ZU23_RU_OCimport_01 : CUP_O_ZU23_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_i_alNusra_ZU23 : CUP_O_ZU23_RU_OCimport_01
-    {
+    class cfp_i_alNusra_ZU23 : CUP_O_ZU23_RU_OCimport_01 {
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_ZU23.JPG;
         scope = 2;
         side = 2;
         displayName = "al-Nusra ZU23";
@@ -1011,8 +1027,8 @@ class CfgVehicles {
     };
     class CUP_O_DSHKM_TK_INS;
     class CUP_O_DSHKM_TK_INS_OCimport_01 : CUP_O_DSHKM_TK_INS { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_i_alNusra_DSHKM : CUP_O_DSHKM_TK_INS_OCimport_01
-    {
+    class cfp_i_alNusra_DSHKM : CUP_O_DSHKM_TK_INS_OCimport_01 {
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_DSHKM.JPG;
         scope = 2;
         side = 2;
         displayName = "al-Nusra DSHKM";
@@ -1024,8 +1040,8 @@ class CfgVehicles {
     };
     class CUP_O_DSHkM_MiniTriPod_TK_INS;
     class CUP_O_DSHkM_MiniTriPod_TK_INS_OCimport_01 : CUP_O_DSHkM_MiniTriPod_TK_INS { scope = 0; class Eventhandlers; class Turrets; };
-    class cfp_i_alNusra_DSHkM_Mini_TriPod : CUP_O_DSHkM_MiniTriPod_TK_INS_OCimport_01
-    {
+    class cfp_i_alNusra_DSHkM_Mini_TriPod : CUP_O_DSHkM_MiniTriPod_TK_INS_OCimport_01 {
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_DSHkM_Mini_TriPod.JPG;
         scope = 2;
         side = 2;
         displayName = "al-Nusra DSHkM Mini TriPod";
@@ -1037,8 +1053,8 @@ class CfgVehicles {
     };
     class CUP_O_KORD_RU;
     class CUP_O_KORD_RU_OCimport_01 : CUP_O_KORD_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_i_alNusra_KORD : CUP_O_KORD_RU_OCimport_01
-    {
+    class cfp_i_alNusra_KORD : CUP_O_KORD_RU_OCimport_01 {
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_KORD.JPG;
         scope = 2;
         side = 2;
         displayName = "al-Nusra KORD";
@@ -1050,8 +1066,8 @@ class CfgVehicles {
     };
     class CUP_O_KORD_high_RU;
     class CUP_O_KORD_high_RU_OCimport_01 : CUP_O_KORD_high_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_i_alNusra_KORD_high : CUP_O_KORD_high_RU_OCimport_01
-    {
+    class cfp_i_alNusra_KORD_high : CUP_O_KORD_high_RU_OCimport_01 {
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_KORD_high.JPG;
         scope = 2;
         side = 2;
         displayName = "al-Nusra KORD High";
@@ -1063,8 +1079,8 @@ class CfgVehicles {
     };
     class CUP_O_AGS_RU;
     class CUP_O_AGS_RU_OCimport_01 : CUP_O_AGS_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_i_alNusra_AGS : CUP_O_AGS_RU_OCimport_01
-    {
+    class cfp_i_alNusra_AGS : CUP_O_AGS_RU_OCimport_01 {
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_AGS.JPG;
         scope = 2;
         side = 2;
         displayName = "al-Nusra AGS";
@@ -1076,8 +1092,8 @@ class CfgVehicles {
     };
     class CUP_O_SPG9_TK_INS;
     class CUP_O_SPG9_TK_INS_OCimport_01 : CUP_O_SPG9_TK_INS { scope = 0; class Eventhandlers; class Turrets; };
-    class cfp_i_alNusra_SPG9 : CUP_O_SPG9_TK_INS_OCimport_01
-    {
+    class cfp_i_alNusra_SPG9 : CUP_O_SPG9_TK_INS_OCimport_01 {
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_SPG9.JPG;
         scope = 2;
         side = 2;
         displayName = "al-Nusra SPG9";
@@ -1089,8 +1105,8 @@ class CfgVehicles {
     };
     class CUP_O_2b14_82mm_RU;
     class CUP_O_2b14_82mm_RU_OCimport_01 : CUP_O_2b14_82mm_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_i_alNusra_2b14_82mm : CUP_O_2b14_82mm_RU_OCimport_01
-    {
+    class cfp_i_alNusra_2b14_82mm : CUP_O_2b14_82mm_RU_OCimport_01 {
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_2b14_82mm.JPG;
         scope = 2;
         side = 2;
         displayName = "al-Nusra 2b14 82mm";

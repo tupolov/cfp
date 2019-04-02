@@ -148,6 +148,7 @@ class CfgVehicles {
 
 
     class CFP_I_TUAREG_Rifleman_01 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_tuareg\data\preview\CFP_I_TUAREG_Rifleman_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -168,40 +169,40 @@ class CfgVehicles {
         respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_BDU_DCU",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_EDRL",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{},"CFP_Lungee_Shemagh_Green","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
-	randomGearProbability = 100;
+    	randomGearProbability = 100;
 
-	// Tuareg Clothing
-		uniformList[] = {
-	"CFP_BDU_DCU", 0.2,
-	"CFP_BDU_DDPM", 0.2,
-	"CFP_BDU_M81Mali", 0.2,
-	"CFP_BDU_M81", 0.2,
-	"CFP_BDU_ERDL", 0.2,
-	"CFP_BDU_Tan", 0.2,
-	"CUP_U_B_US_BDU_desert", 0.2,
-	"CUP_U_B_US_BDU_OD", 0.2,
-	"CUP_U_B_US_BDU", 0.2,
-    "CFP_BDU_Grey", 0.2
-		};
+    	// Tuareg Clothing
+    		uniformList[] = {
+    	"CFP_BDU_DCU", 0.2,
+    	"CFP_BDU_DDPM", 0.2,
+    	"CFP_BDU_M81Mali", 0.2,
+    	"CFP_BDU_M81", 0.2,
+    	"CFP_BDU_ERDL", 0.2,
+    	"CFP_BDU_Tan", 0.2,
+    	"CUP_U_B_US_BDU_desert", 0.2,
+    	"CUP_U_B_US_BDU_OD", 0.2,
+    	"CUP_U_B_US_BDU", 0.2,
+        "CFP_BDU_Grey", 0.2
+    		};
 
-	// Tuareg Headgear
-		headgearList[] = {
-	"CFP_Lungee_Shemagh", 0.2,
-	"CFP_Lungee_Shemagh_Green", 0.2,
-	"CFP_Lungee_Shemagh_White", 0.2,
-	"CFP_Lungee_Shemagh_Yellow", 0.2,
-	"CFP_Lungee_Shemagh_Red", 0.2,
-	"CFP_Lungee_Shemagh_LightBlue", 0.2
-		};
+    	// Tuareg Headgear
+    		headgearList[] = {
+    	"CFP_Lungee_Shemagh", 0.2,
+    	"CFP_Lungee_Shemagh_Green", 0.2,
+    	"CFP_Lungee_Shemagh_White", 0.2,
+    	"CFP_Lungee_Shemagh_Yellow", 0.2,
+    	"CFP_Lungee_Shemagh_Red", 0.2,
+    	"CFP_Lungee_Shemagh_LightBlue", 0.2
+    		};
 
-    // Chadian Facewear
-        facewearList[] = {
-    "", 0.5,
-    "G_Aviator", 0.4,
-    "SP_Goggles_Black", 0.1,
-    "CFP_Oakleys_Clr", 0.2,
-    "CFP_Oakleys_Drk", 0.4,
-    "CFP_Oakleys_Embr", 0.1
+        // Chadian Facewear
+            facewearList[] = {
+        "", 0.5,
+        "G_Aviator", 0.4,
+        "SP_Goggles_Black", 0.1,
+        "CFP_Oakleys_Clr", 0.2,
+        "CFP_Oakleys_Drk", 0.4,
+        "CFP_Oakleys_Embr", 0.1
         };
 
 
@@ -220,6 +221,7 @@ class CfgVehicles {
     };
 
     class CFP_I_TUAREG_Team_Leader_01 : CFP_I_TUAREG_Rifleman_01 {
+        editorPreview = \x\cfp\addons\i_tuareg\data\preview\CFP_I_TUAREG_Team_Leader_01.JPG;
 
         displayName = "Team Leader";
 
@@ -235,6 +237,7 @@ class CfgVehicles {
     };
 
     class CFP_I_TUAREG_Rifleman_AT_01 : CFP_I_TUAREG_Rifleman_01 {
+        editorPreview = \x\cfp\addons\i_tuareg\data\preview\CFP_I_TUAREG_Rifleman_AT_01.JPG;
 
         displayName = "Rifleman AT";
 
@@ -250,6 +253,7 @@ class CfgVehicles {
     };
 
     class CFP_I_TUAREG_Grenadier_01 : CFP_I_TUAREG_Rifleman_01 {
+        editorPreview = \x\cfp\addons\i_tuareg\data\preview\CFP_I_TUAREG_Grenadier_01.JPG;
 
         displayName = "Grenadier";
 
@@ -265,6 +269,7 @@ class CfgVehicles {
     };
 
     class CFP_I_TUAREG_Medic_01 : CFP_I_TUAREG_Rifleman_01 {
+        editorPreview = \x\cfp\addons\i_tuareg\data\preview\CFP_I_TUAREG_Medic_01.JPG;
 
         displayName = "Medic";
         attendant = 1;
@@ -283,6 +288,7 @@ class CfgVehicles {
     };
 
     class CFP_I_TUAREG_Explosive_Specialist_01 : CFP_I_TUAREG_Rifleman_01 {
+        editorPreview = \x\cfp\addons\i_tuareg\data\preview\CFP_I_TUAREG_Explosive_Specialist_01.JPG;
 
         displayName = "Explosive Specialist";
         engineer = 1;
@@ -300,6 +306,7 @@ class CfgVehicles {
     };
 
     class CFP_I_TUAREG_Sniper_01 : CFP_I_TUAREG_Rifleman_01 {
+        editorPreview = \x\cfp\addons\i_tuareg\data\preview\CFP_I_TUAREG_Sniper_01.JPG;
 
         displayName = "Sniper";
 
@@ -315,6 +322,7 @@ class CfgVehicles {
     };
 
     class CFP_I_TUAREG_Machine_Gunner_01 : CFP_I_TUAREG_Rifleman_01 {
+        editorPreview = \x\cfp\addons\i_tuareg\data\preview\CFP_I_TUAREG_Machine_Gunner_01.JPG;
 
         displayName = "Machine Gunner";
 
@@ -330,6 +338,7 @@ class CfgVehicles {
     };
 
     class CFP_I_TUAREG_Gunner_DShKM_High_01 : CFP_I_TUAREG_Rifleman_01 {
+        editorPreview = \x\cfp\addons\i_tuareg\data\preview\CFP_I_TUAREG_Gunner_DShKM_High_01.JPG;
 
         displayName = "Gunner [DShKM High]";
 
@@ -345,6 +354,7 @@ class CfgVehicles {
     };
 
     class CFP_I_TUAREG_Gunner_DShKM_Low_01 : CFP_I_TUAREG_Rifleman_01 {
+        editorPreview = \x\cfp\addons\i_tuareg\data\preview\CFP_I_TUAREG_Gunner_DShKM_Low_01.JPG;
 
         displayName = "Gunner [DShKM Low]";
 
@@ -360,6 +370,7 @@ class CfgVehicles {
     };
 
     class CFP_I_TUAREG_Gunner_SPG_01 : CFP_I_TUAREG_Rifleman_01 {
+        editorPreview = \x\cfp\addons\i_tuareg\data\preview\CFP_I_TUAREG_Gunner_SPG_01.JPG;
 
         displayName = "Gunner [SPG-9]";
 
@@ -375,6 +386,7 @@ class CfgVehicles {
     };
 
     class CFP_I_TUAREG_Gunner_Mortar_01 : CFP_I_TUAREG_Rifleman_01 {
+        editorPreview = \x\cfp\addons\i_tuareg\data\preview\CFP_I_TUAREG_Gunner_Mortar_01.JPG;
 
         displayName = "Gunner [Mortar]";
 
@@ -390,6 +402,7 @@ class CfgVehicles {
     };
 
     class CFP_I_TUAREG_Asst_Gunner_DShKM_01 : CFP_I_TUAREG_Rifleman_01 {
+        editorPreview = \x\cfp\addons\i_tuareg\data\preview\CFP_I_TUAREG_Asst_Gunner_DShKM_01.JPG;
 
         displayName = "Asst. Gunner [DShKM]";
 
@@ -405,6 +418,7 @@ class CfgVehicles {
     };
 
     class CFP_I_TUAREG_Asst_Gunner_Mortar_01 : CFP_I_TUAREG_Rifleman_01 {
+        editorPreview = \x\cfp\addons\i_tuareg\data\preview\CFP_I_TUAREG_Asst_Gunner_Mortar_01.JPG;
 
         displayName = "Asst. Gunner [Mortar]";
 
@@ -420,6 +434,7 @@ class CfgVehicles {
     };
 
     class CFP_I_TUAREG_Asst_Gunner_SPG_01 : CFP_I_TUAREG_Rifleman_01 {
+        editorPreview = \x\cfp\addons\i_tuareg\data\preview\CFP_I_TUAREG_Asst_Gunner_SPG_01.JPG;
 
         displayName = "Asst. Gunner [SPG-9]";
 
@@ -435,6 +450,7 @@ class CfgVehicles {
     };
 
     class CFP_I_TUAREG_DShKM_Low_01 : CUP_O_DSHKM_MiniTripod_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_tuareg\data\preview\CFP_I_TUAREG_DShKM_Low_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -464,6 +480,7 @@ class CfgVehicles {
     };
 
     class CFP_I_TUAREG_DShKM_High_01 : CUP_O_DSHKM_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_tuareg\data\preview\CFP_I_TUAREG_DShKM_High_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -493,6 +510,7 @@ class CfgVehicles {
     };
 
     class CFP_I_TUAREG_SPG_9_01 : CUP_O_SPG9_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_tuareg\data\preview\CFP_I_TUAREG_SPG_9_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -522,6 +540,7 @@ class CfgVehicles {
     };
 
     class CFP_I_TUAREG_Podnos_Mortar_01 : CUP_O_2b14_82mm_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_tuareg\data\preview\CFP_I_TUAREG_Podnos_Mortar_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -551,6 +570,7 @@ class CfgVehicles {
     };
 
     class CFP_I_TUAREG_D30_01 : CUP_O_D30_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_tuareg\data\preview\CFP_I_TUAREG_D30_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -580,6 +600,7 @@ class CfgVehicles {
     };
 
     class CFP_I_TUAREG_ZU_23_01 : CUP_O_ZU23_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_tuareg\data\preview\CFP_I_TUAREG_ZU_23_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -609,6 +630,7 @@ class CfgVehicles {
     };
 
     class CFP_I_TUAREG_Truck_01 : C_Van_01_transport_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_tuareg\data\preview\CFP_I_TUAREG_Truck_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -647,6 +669,7 @@ class CfgVehicles {
     };
 
     class CFP_I_TUAREG_Offroad_01 : C_Offroad_01_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_tuareg\data\preview\CFP_I_TUAREG_Offroad_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -679,6 +702,7 @@ class CfgVehicles {
     };
 
     class CFP_I_TUAREG_Datsun_PK_01 : CUP_I_Datsun_PK_TK_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_tuareg\data\preview\CFP_I_TUAREG_Datsun_PK_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -710,6 +734,7 @@ class CfgVehicles {
     };
 
     class CFP_I_TUAREG_Datsun_01 : CUP_I_Datsun_4seat_TK_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_tuareg\data\preview\CFP_I_TUAREG_Datsun_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -741,6 +766,7 @@ class CfgVehicles {
     };
 
     class CFP_I_TUAREG_Ural_01 : CUP_O_Ural_Open_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_tuareg\data\preview\CFP_I_TUAREG_Ural_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -772,6 +798,7 @@ class CfgVehicles {
     };
 
     class CFP_I_TUAREG_Ural_Ammo_01 : CUP_O_Ural_Reammo_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_tuareg\data\preview\CFP_I_TUAREG_Ural_Ammo_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -797,6 +824,7 @@ class CfgVehicles {
     };
 
     class CFP_I_TUAREG_Ural_Refuel_01 : CUP_O_Ural_Refuel_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_tuareg\data\preview\CFP_I_TUAREG_Ural_Refuel_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -822,6 +850,7 @@ class CfgVehicles {
     };
 
     class CFP_I_TUAREG_Ural_ZU_23_01 : CUP_O_Ural_ZU23_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_tuareg\data\preview\CFP_I_TUAREG_Ural_ZU_23_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -852,6 +881,7 @@ class CfgVehicles {
     };
 
     class CFP_I_TUAREG_Repair_Specialist_01 : CFP_I_TUAREG_Rifleman_01 {
+        editorPreview = \x\cfp\addons\i_tuareg\data\preview\CFP_I_TUAREG_Repair_Specialist_01.JPG;
 
         displayName = "Repair Specialist";
         engineer = 1;

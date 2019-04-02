@@ -162,6 +162,7 @@ class CfgVehicles {
 
 
     class CFP_O_ABUSAYYAF_Rifleman_Light_01 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_abusayyaf\data\preview\CFP_O_ABUSAYYAF_Rifleman_Light_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -333,6 +334,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ABUSAYYAF_Rifleman_01 : CFP_O_ABUSAYYAF_Rifleman_Light_01 {
+        editorPreview = \x\cfp\addons\o_abusayyaf\data\preview\CFP_O_ABUSAYYAF_Rifleman_01.JPG;
 
         displayName = "Rifleman";
 
@@ -350,6 +352,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ABUSAYYAF_Grenadier_01 : CFP_O_ABUSAYYAF_Rifleman_Light_01 {
+        editorPreview = \x\cfp\addons\o_abusayyaf\data\preview\CFP_O_ABUSAYYAF_Grenadier_01.JPG;
 
         displayName = "Grenadier";
 
@@ -367,6 +370,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ABUSAYYAF_Team_Leader_01 : CFP_O_ABUSAYYAF_Rifleman_Light_01 {
+        editorPreview = \x\cfp\addons\o_abusayyaf\data\preview\CFP_O_ABUSAYYAF_Team_Leader_01.JPG;
 
         displayName = "Team Leader";
 
@@ -384,6 +388,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ABUSAYYAF_Autorifleman_01 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_abusayyaf\data\preview\CFP_O_ABUSAYYAF_Autorifleman_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -525,6 +530,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ABUSAYYAF_Machinegunner_01 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_abusayyaf\data\preview\CFP_O_ABUSAYYAF_Machinegunner_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -671,6 +677,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ABUSAYYAF_Militia_01 : CFP_O_ABUSAYYAF_Autorifleman_01 {
+        editorPreview = \x\cfp\addons\o_abusayyaf\data\preview\CFP_O_ABUSAYYAF_Militia_01.JPG;
 
         displayName = "Militia";
 
@@ -688,6 +695,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ABUSAYYAF_Sniper_01 : CFP_O_ABUSAYYAF_Machinegunner_01 {
+        editorPreview = \x\cfp\addons\o_abusayyaf\data\preview\CFP_O_ABUSAYYAF_Sniper_01.JPG;
 
         displayName = "Sniper";
 
@@ -705,6 +713,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ABUSAYYAF_Spotter_01 : CFP_O_ABUSAYYAF_Autorifleman_01 {
+        editorPreview = \x\cfp\addons\o_abusayyaf\data\preview\CFP_O_ABUSAYYAF_Spotter_01.JPG;
 
         displayName = "Spotter";
 
@@ -722,6 +731,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ABUSAYYAF_Surgeon_01 : CFP_O_ABUSAYYAF_Machinegunner_01 {
+        editorPreview = \x\cfp\addons\o_abusayyaf\data\preview\CFP_O_ABUSAYYAF_Surgeon_01.JPG;
 
         displayName = "Surgeon";
         attendant = 1;
@@ -744,6 +754,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ABUSAYYAF_RPG_Gunner_01 : CFP_O_ABUSAYYAF_Rifleman_Light_01 {
+        editorPreview = \x\cfp\addons\o_abusayyaf\data\preview\CFP_O_ABUSAYYAF_RPG_Gunner_01.JPG;
 
         displayName = "RPG Gunner";
 
@@ -763,6 +774,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ABUSAYYAF_IED_Specialist_01 : CFP_O_ABUSAYYAF_Machinegunner_01 {
+        editorPreview = \x\cfp\addons\o_abusayyaf\data\preview\CFP_O_ABUSAYYAF_IED_Specialist_01.JPG;
 
         displayName = "IED Specialist";
         canDeactivateMines = 1;
@@ -784,6 +796,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ABUSAYYAF_Scout_01 : CFP_O_ABUSAYYAF_Rifleman_Light_01 {
+        editorPreview = \x\cfp\addons\o_abusayyaf\data\preview\CFP_O_ABUSAYYAF_Scout_01.JPG;
 
         displayName = "Scout";
 
@@ -801,6 +814,7 @@ class CfgVehicles {
     };
 
     class CFP_O_ABUSAYYAF_Squad_Leader_01 : CFP_O_ABUSAYYAF_Autorifleman_01 {
+        editorPreview = \x\cfp\addons\o_abusayyaf\data\preview\CFP_O_ABUSAYYAF_Squad_Leader_01.JPG;
 
         displayName = "Squad Leader";
 
