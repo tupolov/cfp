@@ -143,6 +143,7 @@ class CfgVehicles {
 
 
     class CFP_B_SDMilitia_Soldier_01 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\b_sdmilitia\data\preview\CFP_B_SDMilitia_Soldier_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
