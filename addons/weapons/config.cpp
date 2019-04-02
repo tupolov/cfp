@@ -15,8 +15,7 @@ class CfgPatches
     		"CFP_Tavor_Black",
     		"CFP_Tavor_Black_Long",
     		"CFP_Tavor_Black_GL",
-    		"CFP_acc_ANPEQ15_Black",
-		"CFP_optic_ELCAN_SpecterDR_Black"
+    		"CFP_optic_ELCAN_SpecterDR_Black"
 		};
         author = MODULE_AUTHOR;
         authors[] = {"AccuracyThruVolume", "Tupolov", "AuburnAlumni"};
