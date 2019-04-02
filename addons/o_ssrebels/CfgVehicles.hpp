@@ -179,6 +179,7 @@ class CfgVehicles {
 
 
    class CFP_O_SSREBELS_Soldier_01 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -317,6 +318,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SSREBELS_Soldier_02 : CFP_O_SSREBELS_Soldier_01 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_02.JPG;
 
         displayName = "Rifleman";
 
@@ -334,6 +336,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SSREBELS_Soldier_03 : CFP_O_SSREBELS_Soldier_01 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_03.JPG;
 
         displayName = "Rifleman AT";
 
@@ -353,6 +356,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SSREBELS_Soldier_04 : CFP_O_SSREBELS_Soldier_01 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_04.JPG;
 
         displayName = "Machinegunner";
 
@@ -372,6 +376,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SSREBELS_Soldier_05 : CFP_O_SSREBELS_Soldier_01 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_05.JPG;
 
         displayName = "Marksman";
         side = 0;
@@ -395,6 +400,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SSREBELS_Soldier_06 : CFP_O_SSREBELS_Soldier_01 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_06.JPG;
 
         displayName = "Engineer";
         canDeactivateMines = 1;
@@ -416,6 +422,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SSREBELS_Soldier_07 : CFP_O_SSREBELS_Soldier_01 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_07.JPG;
 
         displayName = "Medic";
         attendant = 1;
@@ -438,6 +445,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SSREBELS_Soldier_08 : CFP_O_SSREBELS_Soldier_01 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_08.JPG;
 
         displayName = "Grenadier";
 
@@ -457,6 +465,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SSREBELS_Soldier_09 : CFP_O_SSREBELS_Soldier_01 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_09.JPG;
 
         displayName = "Gunner (DShKM)";
 
@@ -476,6 +485,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SSREBELS_Soldier_10 : CFP_O_SSREBELS_Soldier_01 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_10.JPG;
 
         displayName = "Gunner (DShKM/Low)";
 
@@ -495,6 +505,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SSREBELS_Soldier_11 : CFP_O_SSREBELS_Soldier_01 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_11.JPG;
 
         displayName = "Assistant (DShKM)";
 
@@ -514,6 +525,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SSREBELS_Soldier_12 : CFP_O_SSREBELS_Soldier_01 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_12.JPG;
 
         displayName = "Gunner (Mortar)";
 
@@ -533,6 +545,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SSREBELS_Soldier_13 : CFP_O_SSREBELS_Soldier_01 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_13.JPG;
 
         displayName = "Assistant (Mortar)";
 
@@ -552,6 +565,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SSREBELS_Soldier_14 : CFP_O_SSREBELS_Soldier_01 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_14.JPG;
 
         displayName = "Gunner (SPG-9)";
 
@@ -571,6 +585,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SSREBELS_Soldier_15 : CFP_O_SSREBELS_Soldier_01 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_15.JPG;
 
         displayName = "Assistant (SPG-9)";
 
@@ -590,6 +605,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SSREBELS_Soldier_16 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_16.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -711,6 +727,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SSREBELS_Soldier_17 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_17.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -751,6 +768,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SSREBELS_Soldier_18 : CFP_O_SSREBELS_Soldier_16 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_18.JPG;
 
         displayName = "Militia AT";
 
@@ -770,6 +788,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SSREBELS_Soldier_19 : CFP_O_SSREBELS_Soldier_16 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_19.JPG;
 
         displayName = "Militia Machinegunner";
 
@@ -789,6 +808,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SSREBELS_Soldier_20 : CFP_O_SSREBELS_Soldier_16 {
+        editorPreview = \x\cfp\addons\o_ssrebels\data\preview\CFP_O_SSREBELS_Soldier_20.JPG;
 
         displayName = "Militia Marksman";
 

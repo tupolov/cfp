@@ -241,6 +241,7 @@ class CfgVehicles {
 
 
     class CFP_I_SSArmy_Soldier_01 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Soldier_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -332,6 +333,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Soldier_02 : CFP_I_SSArmy_Soldier_01 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Soldier_02.JPG;
 
         displayName = "Machinegunner";
 
@@ -351,6 +353,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Soldier_03 : CFP_I_SSArmy_Soldier_01 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Soldier_03.JPG;
 
         displayName = "Rifleman AT";
 
@@ -370,6 +373,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Soldier_04 : CFP_I_SSArmy_Soldier_01 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Soldier_04.JPG;
 
         displayName = "Marksman";
 
@@ -387,6 +391,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Soldier_05 : CFP_I_SSArmy_Soldier_01 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Soldier_05.JPG;
 
         displayName = "Rifleman AA";
 
@@ -406,6 +411,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Soldier_06 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Soldier_06.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -446,6 +452,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Soldier_07 : CFP_I_SSArmy_Soldier_01 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Soldier_07.JPG;
 
         displayName = "Medic";
         attendant = 1;
@@ -468,6 +475,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Soldier_08 : CFP_I_SSArmy_Soldier_01 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Soldier_08.JPG;
 
         displayName = "Engineer";
         canDeactivateMines = 1;
@@ -493,6 +501,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Soldier_09 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Soldier_09.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -533,6 +542,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Soldier_10 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Soldier_10.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -573,6 +583,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Soldier_11 : CFP_I_SSArmy_Soldier_01 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Soldier_11.JPG;
 
         displayName = "Rifleman";
 
@@ -590,6 +601,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Soldier_12 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Soldier_12.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -630,6 +642,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Soldier_13 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Soldier_13.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -710,6 +723,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Soldier_14 : CFP_I_SSArmy_Soldier_13 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Soldier_14.JPG;
 
         displayName = "Commando";
 
@@ -727,6 +741,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Soldier_15 : CFP_I_SSArmy_Soldier_01 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Soldier_15.JPG;
 
         displayName = "Gunner (DShKM)";
 
@@ -746,6 +761,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Soldier_16 : CFP_I_SSArmy_Soldier_01 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Soldier_16.JPG;
 
         displayName = "Gunner (DShKM Low)";
 
@@ -765,6 +781,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Soldier_17 : CFP_I_SSArmy_Soldier_01 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Soldier_17.JPG;
 
         displayName = "Assistant Gunner (DShKM)";
 
@@ -784,6 +801,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Soldier_18 : CFP_I_SSArmy_Soldier_01 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Soldier_18.JPG;
 
         displayName = "Gunner (SPG-9)";
 
@@ -803,6 +821,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Soldier_19 : CFP_I_SSArmy_Soldier_01 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Soldier_19.JPG;
 
         displayName = "Assistant Gunner (SPG-9)";
 
@@ -822,6 +841,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Soldier_20 : CFP_I_SSArmy_Soldier_01 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Soldier_20.JPG;
 
         displayName = "Gunner (Mortar)";
 
@@ -841,6 +861,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Soldier_21 : CFP_I_SSArmy_Soldier_01 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Soldier_21.JPG;
 
         displayName = "Assistant Gunner (Mortar)";
 
@@ -860,6 +881,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Soldier_22 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Soldier_22.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -900,6 +922,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Soldier_23 : CFP_I_SSArmy_Soldier_13 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Soldier_23.JPG;
 
         displayName = "Commando Machinegunner";
 
@@ -919,6 +942,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Soldier_24 : CFP_I_SSArmy_Soldier_13 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Soldier_24.JPG;
 
         displayName = "Commando AT";
 
@@ -938,6 +962,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_DShKM_01 : CUP_I_DSHKM_NAPA_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_DShKM_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -967,6 +992,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Pickup_PK_01 : CUP_I_Datsun_PK_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Pickup_PK_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -998,6 +1024,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_SPG_9_01 : CUP_I_SPG9_NAPA_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_SPG_9_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1027,6 +1054,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_DShKM_Low_01 : CUP_B_DSHkM_MiniTriPod_NAPA_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_DShKM_Low_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1056,6 +1084,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Ural_ZU_23_01 : CUP_I_Ural_ZU23_NAPA_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Ural_ZU_23_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1086,6 +1115,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Pickup_01 : CUP_I_Datsun_4seat_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Pickup_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1117,6 +1147,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Praga_V3S_01 : CUP_V3S_Open_NAPA_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Praga_V3S_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1142,6 +1173,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Mortar_01 : CUP_I_2b14_82mm_TK_GUE_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Mortar_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1171,6 +1203,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_T72_01 : CUP_I_T72_NAPA_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_T72_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1208,8 +1241,8 @@ class CfgVehicles {
 
     class CUP_O_T55_CSAT;
     class CUP_O_T55_CSAT_OCimport_01 : CUP_O_T55_CSAT { scope = 0; class EventHandlers; class Turrets; };
-    class CFP_I_SSArmy_T55_01 : CUP_O_T55_CSAT_OCimport_01
-    {
+    class CFP_I_SSArmy_T55_01 : CUP_O_T55_CSAT_OCimport_01 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_T55_01.JPG;
         scope = 2;
         side = 2;
         displayName = "T-55";
@@ -1223,6 +1256,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_BM_21_01 : CUP_O_BM21_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_BM_21_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1253,6 +1287,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Offroad_01 : C_Offroad_01_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Offroad_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1286,6 +1321,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Truck_01 : C_Van_01_transport_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Truck_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1325,6 +1361,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Van_Transport_01 : C_Van_02_transport_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Van_Transport_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1357,6 +1394,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_UAZ_DShKM_01 : CUP_I_UAZ_MG_UN_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_UAZ_DShKM_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1388,6 +1426,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Skoda_1203_01 : CUP_C_S1203_CIV_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Skoda_1203_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1412,6 +1451,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Land_Rover_01 : CUP_O_LR_Transport_TKA_OCImport_02_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Land_Rover_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1443,6 +1483,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Land_Rover_SPG_9_01 : CUP_O_LR_SPG9_TKA_OCImport_02_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Land_Rover_SPG_9_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1474,6 +1515,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Ural_01 : CUP_I_Ural_UN_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Ural_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1505,6 +1547,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Ural_Repair_01 : CUP_I_Ural_Repair_UN_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Ural_Repair_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1530,6 +1573,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Ural_Ammunition_01 : CUP_I_Ural_Reammo_UN_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Ural_Ammunition_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1555,6 +1599,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Ural_Refuel_01 : CUP_O_Ural_Refuel_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Ural_Refuel_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1580,6 +1625,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Ural_Open_01 : CUP_O_Ural_Open_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Ural_Open_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1611,6 +1657,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Ambulance_01 : CUP_B_S1203_Ambulance_CDF_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Ambulance_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1635,6 +1682,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Mi_17_01 : CUP_I_Mi17_UN_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Mi_17_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1652,6 +1700,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SSArmy_Mi_24D_01 : CUP_I_Mi24_D_Dynamic_UN_OCimport_02 {
+        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Mi_24D_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;

@@ -153,6 +153,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SDRebels_Soldier_01 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_sdrebels\data\preview\CFP_O_SDRebels_Soldier_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -293,6 +294,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SDRebels_Soldier_02 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_sdrebels\data\preview\CFP_O_SDRebels_Soldier_02.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -420,6 +422,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SDRebels_Soldier_03 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_sdrebels\data\preview\CFP_O_SDRebels_Soldier_03.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -560,6 +563,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SDRebels_Soldier_04 : CFP_O_SDRebels_Soldier_02 {
+        editorPreview = \x\cfp\addons\o_sdrebels\data\preview\CFP_O_SDRebels_Soldier_04.JPG;
 
         displayName = "Marksman";
 
@@ -577,6 +581,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SDRebels_Soldier_05 : CFP_O_SDRebels_Soldier_01 {
+        editorPreview = \x\cfp\addons\o_sdrebels\data\preview\CFP_O_SDRebels_Soldier_05.JPG;
 
         displayName = "Rifleman AT";
 
@@ -596,6 +601,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SDRebels_Soldier_06 : CFP_O_SDRebels_Soldier_01 {
+        editorPreview = \x\cfp\addons\o_sdrebels\data\preview\CFP_O_SDRebels_Soldier_06.JPG;
 
         displayName = "Sniper";
 
@@ -613,6 +619,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SDRebels_Soldier_07 : CFP_O_SDRebels_Soldier_03 {
+        editorPreview = \x\cfp\addons\o_sdrebels\data\preview\CFP_O_SDRebels_Soldier_07.JPG;
 
         displayName = "Machinegunner";
 
@@ -632,6 +639,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SDRebels_Soldier_08 : CFP_O_SDRebels_Soldier_03 {
+        editorPreview = \x\cfp\addons\o_sdrebels\data\preview\CFP_O_SDRebels_Soldier_08.JPG;
 
         displayName = "Engineer";
         canDeactivateMines = 1;
@@ -653,6 +661,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SDRebels_Soldier_09 : CFP_O_SDRebels_Soldier_01 {
+        editorPreview = \x\cfp\addons\o_sdrebels\data\preview\CFP_O_SDRebels_Soldier_09.JPG;
 
         displayName = "Medic";
         attendant = 1;
@@ -675,6 +684,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SDRebels_Soldier_10 : CFP_O_SDRebels_Soldier_02 {
+        editorPreview = \x\cfp\addons\o_sdrebels\data\preview\CFP_O_SDRebels_Soldier_10.JPG;
 
         displayName = "Gunner (DShKM)";
 
@@ -694,6 +704,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SDRebels_Soldier_11 : CFP_O_SDRebels_Soldier_03 {
+        editorPreview = \x\cfp\addons\o_sdrebels\data\preview\CFP_O_SDRebels_Soldier_11.JPG;
 
         displayName = "Gunner (DShKM/Low)";
 
@@ -713,6 +724,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SDRebels_Soldier_12 : CFP_O_SDRebels_Soldier_01 {
+        editorPreview = \x\cfp\addons\o_sdrebels\data\preview\CFP_O_SDRebels_Soldier_12.JPG;
 
         displayName = "Assistant (DShKM)";
 
@@ -732,6 +744,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SDRebels_Soldier_13 : CFP_O_SDRebels_Soldier_03 {
+        editorPreview = \x\cfp\addons\o_sdrebels\data\preview\CFP_O_SDRebels_Soldier_13.JPG;
 
         displayName = "Gunner (Mortar)";
 
@@ -751,6 +764,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SDRebels_Soldier_14 : CFP_O_SDRebels_Soldier_02 {
+        editorPreview = \x\cfp\addons\o_sdrebels\data\preview\CFP_O_SDRebels_Soldier_14.JPG;
 
         displayName = "Assistant (Mortar)";
 
@@ -770,6 +784,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SDRebels_Soldier_15 : CFP_O_SDRebels_Soldier_01 {
+        editorPreview = \x\cfp\addons\o_sdrebels\data\preview\CFP_O_SDRebels_Soldier_15.JPG;
 
         displayName = "Gunner (SPG-9)";
 
@@ -789,6 +804,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SDRebels_Soldier_16 : CFP_O_SDRebels_Soldier_03 {
+        editorPreview = \x\cfp\addons\o_sdrebels\data\preview\CFP_O_SDRebels_Soldier_16.JPG;
 
         displayName = "Assistant (SPG-9)";
 
@@ -808,6 +824,7 @@ class CfgVehicles {
     };
 
     class CFP_O_SDRebels_Soldier_17 : CFP_O_SDRebels_Soldier_01 {
+        editorPreview = \x\cfp\addons\o_sdrebels\data\preview\CFP_O_SDRebels_Soldier_17.JPG;
 
         displayName = "Squad Leader";
 
