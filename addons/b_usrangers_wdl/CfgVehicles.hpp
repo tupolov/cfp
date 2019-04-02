@@ -508,7 +508,7 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USRANGERS_WDL";
 
-        identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+        identityTypes[] = {"Head_NATO","LanguageENG_F","CFP_G_USRANGERS"};
 
         uniformClass = "CFP_75th_CRYE_V4b_Sleeved";
 
@@ -658,7 +658,7 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USRANGERS_WDL";
 
-        identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+        identityTypes[] = {"Head_NATO","LanguageENG_F","CFP_G_USRANGERS"};
 
         uniformClass = "CFP_75th_CRYEG3_V4";
 
@@ -2414,7 +2414,7 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USRANGERS_WDL";
 
-        identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_default"};
+        identityTypes[] = {"Head_NATO","LanguageENG_F","CFP_G_USRANGERS"};
 
         uniformClass = "CFP_75th_CRYE_V4b_Sleeved";
 
