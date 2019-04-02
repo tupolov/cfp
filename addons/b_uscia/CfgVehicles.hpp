@@ -626,7 +626,7 @@ class CfgVehicles {
         scopeCurator = 2;
         displayName = "Paramilitary Trooper (Leader)";
         uniformClass = "CFP_U_FieldUniform_multicam";
-
+        identityTypes[] = { "Head_NATO", "LanguageENG_F", "CFP_G_USRANGERS"};
         // Camo clothes
         uniformList[] = {
             "CFP_U_Crye_Tiger_Desert", 0.2,
@@ -667,7 +667,6 @@ class CfgVehicles {
 
         // Beards / mouth scarf / scarf / sunglasses
         facewearList[] = {
-            "", 0.3,
             "G_Bandanna_blk", 0.4,
             "G_Bandanna_khk", 0.4,
             "G_Bandanna_tan", 0.4,
@@ -705,7 +704,6 @@ class CfgVehicles {
             "CUP_H_USArmy_Helmet_Pro", 0.25,
             "CFP_OPS2017_Helmet_OliveFabric", 0.4,
             "CFP_OPS2017_Helmet_Grey", 0.4
-
         };
 
         backpack = "B_AssaultPack_cbr";
