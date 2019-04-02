@@ -669,7 +669,7 @@
 		uniformAccessories[] = {};
 		uniformClass = "CFP_GUER_JEM";
 		nakedUniform = "U_BasicBody";
-		model="\A3\characters_f_gamma\Guerrilla\ig_guerrilla1_1.p3d";
+		model="\A3\characters_F\Civil\c_poor.p3d";
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
