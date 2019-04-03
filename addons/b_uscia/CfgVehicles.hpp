@@ -734,7 +734,7 @@ class CfgVehicles {
         linkedItems[] = {"CUP_V_PMC_CIRAS_Coyote_Grenadier","SP_MichHelmet_Tan1","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS15_black"};
         respawnlinkedItems[] = {"CUP_V_PMC_CIRAS_Coyote_Grenadier","SP_MichHelmet_Tan1","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS15_black"};
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
-        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203","CUP_1Rnd_HEDP_M203"};
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_BUIS_desert_GL","","CUP_acc_ANPEQ_15_Flashlight_Tan_L","CUP_optic_ACOG_Reflex_Desert",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_FieldUniform_tiger_desert_SS",{{"CUP_17Rnd_9x19_glock17",2,17},{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CUP_V_PMC_CIRAS_Coyote_Grenadier",{{"FirstAidKit",1},{"HandGrenade",2,1},{"SmokeShell",2,1},{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_1Rnd_HEDP_M203",6,1},{"CUP_17Rnd_9x19_glock17",1,17}}},{"B_AssaultPack_cbr",{{"CUP_1Rnd_HEDP_M203",6,1},{"CUP_1Rnd_Smoke_M203",8,1}}},"SP_MichHelmet_Tan1","G_Bandanna_khk",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS15_black"}};
     };
