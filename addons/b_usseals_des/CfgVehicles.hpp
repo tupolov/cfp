@@ -267,7 +267,7 @@ class CfgVehicles {
         weapons[] = {"CUP_arifle_mk18_black","CUP_hgun_Glock17_blk","Binocular"};
         respawnWeapons[] = {"CUP_arifle_mk18_black","CUP_hgun_Glock17_blk","Binocular"};
 
-        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17",};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_mk18_black","CUP_muzzle_snds_M16_desert","CUP_acc_ANPEQ_15_Top_Flashlight_Tan_L","CUP_optic_Eotech553_Coyote",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_Crye_AOR1_SS",{{"FirstAidKit",1},{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_LBT6094_operator_AOR1",{{"CUP_30Rnd_556x45_Stanag",3,20},{"CUP_HandGrenade_M67",2,1},{"Chemlight_green",1,1},{"Chemlight_red",1,1},{"B_IR_Grenade",1,1},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},{},"CFP_OpsC_Cov_Goggles_Off_AOR1","CFP_Oakleys_Embr",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS15_tan"}};
