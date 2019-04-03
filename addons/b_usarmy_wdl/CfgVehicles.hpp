@@ -566,6 +566,31 @@ class CfgVehicles {
             typicalCargo[] = {"CFP_B_USARMY_US_Soldier","CFP_B_USARMY_US_Soldier","CFP_B_USARMY_US_Soldier","CFP_B_USARMY_US_Soldier"};
         };
 
+        class CUP_RG31_M2;
+        class CUP_B_RG31_M2_OD_USA : CUP_RG31_M2 {
+            faction = "CFP_B_USARMY_WDL";
+            editorSubCategory = "EdSubcat_Cars";
+            crew = "CFP_B_USARMY_US_Soldier";
+        };
+        class CUP_RG31E_M2;
+        class CUP_B_RG31E_M2_OD_USA : CUP_RG31E_M2 {
+            faction = "CFP_B_USARMY_WDL";
+            editorSubCategory = "EdSubcat_Cars";
+            crew = "CFP_B_USARMY_US_Soldier";
+        };
+        class CUP_RG31_M2_GC;
+        class CUP_B_RG31_M2_OD_GC_USA : CUP_RG31_M2_GC {
+            faction = "CFP_B_USARMY_WDL";
+            editorSubCategory = "EdSubcat_Cars";
+            crew = "CFP_B_USARMY_US_Soldier";
+        };
+        class CUP_RG31_Mk19;
+        class CUP_B_RG31_Mk19_OD_USA : CUP_RG31_Mk19 {
+            faction = "CFP_B_USARMY_WDL";
+            editorSubCategory = "EdSubcat_Cars";
+            crew = "CFP_B_USARMY_US_Soldier";
+        };
+
     // New Vehicles
         class CUP_B_M2StaticMG_US;
         class CUP_B_M2StaticMG_US_OCimport_01 : CUP_B_M2StaticMG_US { scope = 0; class EventHandlers; class Turrets; };
