@@ -166,7 +166,7 @@ class CfgVehicleClasses
 		class ItemInfo: VestItem
 		{
 			uniformModel = "x\cfp\addons\models\FAPC_Light.p3d";
-			containerClass = "Supply200";
+			containerClass = "Supply140";
 			mass = 50;
 			passThrough = 1;
 			hiddenSelections[] = {"_vestBase"};
@@ -213,7 +213,7 @@ class CfgVehicleClasses
 		class ItemInfo: VestItem
 		{
 			uniformModel = "\x\cfp\addons\models\CFP_RAV.p3d";
-			containerClass = "Supply200";
+			containerClass = "Supply140";
 			mass = 50;
 			passThrough = 1;
 			hiddenSelections[] = {"camo"};
@@ -260,7 +260,7 @@ class CfgVehicleClasses
 		class ItemInfo: VestItem
 		{
 			uniformModel = "\x\cfp\addons\models\CFP_RAV.p3d";
-			containerClass = "Supply200";
+			containerClass = "Supply140";
 			mass = 50;
 			passThrough = 1;
 			hiddenSelections[] = {"camo"};
@@ -307,7 +307,7 @@ class CfgVehicleClasses
 		class ItemInfo: VestItem
 		{
 			uniformModel = "\x\cfp\addons\models\RAV_Empty.p3d";
-			containerClass = "Supply200";
+			containerClass = "Supply100";
 			mass = 50;
 			passThrough = 1;
 			hiddenSelections[] = {"camo"};
@@ -354,7 +354,7 @@ class CfgVehicleClasses
 		class ItemInfo: VestItem
 		{
 			uniformModel = "\x\cfp\addons\models\CFP_RAV.p3d";
-			containerClass = "Supply200";
+			containerClass = "Supply140";
 			mass = 50;
 			passThrough = 1;
 			hiddenSelections[] = {"camo"};
@@ -401,7 +401,7 @@ class CfgVehicleClasses
 		class ItemInfo: VestItem
 		{
 			uniformModel = "\x\cfp\addons\models\CFP_RAV.p3d";
-			containerClass = "Supply200";
+			containerClass = "Supply140";
 			mass = 50;
 			passThrough = 1;
 			hiddenSelections[] = {"camo"};
