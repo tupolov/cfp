@@ -40,6 +40,15 @@
             uniformModel = "\x\cfp\addons\headgear\GolaniHelmet\idf_m76_helmet.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","Camo1","Camo2","_Cover_Back","_Cover_Front","_Goggle_ESS","_Goggle_Strap"};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
         };
     };
 
@@ -56,6 +65,15 @@
             uniformModel = "\x\cfp\addons\headgear\GolaniHelmet\idf_m76_helmet.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","Camo1","Camo2","_Cover_Back","_Cover_Front","_Goggle_ESS","_Goggle_Strap"};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
         };
     };
 
@@ -72,6 +90,15 @@
             uniformModel = "\x\cfp\addons\headgear\GolaniHelmet\idf_m76_helmet.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","Camo1","Camo2","_Cover_Back","_Cover_Front","_Goggle_ESS","_Goggle_Strap"};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
         };
     };
 
@@ -87,6 +114,15 @@
             uniformModel = "\x\cfp\addons\headgear\GolaniHelmet\idf_m76_helmet.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","Camo1","Camo2","_Cover_Front"};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
         };
     };
 
@@ -103,6 +139,15 @@
             uniformModel = "\x\cfp\addons\headgear\GolaniHelmet\idf_m76_helmet.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","Camo1","Camo2","_Cover_Front"};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
         };
     };
 
@@ -118,6 +163,15 @@
             uniformModel = "\x\cfp\addons\headgear\GolaniHelmet\idf_m76_helmet.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","Camo1","Camo2","_Cover_Back","_Goggle_ESS"};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
         };
     };
 
@@ -134,6 +188,15 @@
             uniformModel = "\x\cfp\addons\headgear\GolaniHelmet\idf_m76_helmet.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","Camo1","Camo2","_Cover_Back","_Goggle_ESS"};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
         };
     };
 
@@ -149,6 +212,15 @@
             uniformModel = "\x\cfp\addons\headgear\GolaniHelmet\idf_m76_helmet.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","Camo1","Camo2","_Cover_Back","_Cover_Front"};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
         };
     };
 
@@ -165,6 +237,15 @@
             uniformModel = "\x\cfp\addons\headgear\GolaniHelmet\idf_m76_helmet.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","Camo1","Camo2","_Cover_Back","_Cover_Front"};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
         };
     };
 
@@ -180,6 +261,15 @@
             uniformModel = "\x\cfp\addons\headgear\GolaniHelmet\idf_m76_helmet.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","Camo1","Camo2","_Band","_Cover_Front"};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
         };
     };
 
@@ -196,6 +286,15 @@
             uniformModel = "\x\cfp\addons\headgear\GolaniHelmet\idf_m76_helmet.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","Camo1","Camo2","_Band","_Cover_Front"};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
         };
     };
 
@@ -211,6 +310,15 @@
             uniformModel = "\x\cfp\addons\headgear\GolaniHelmet\idf_m76_helmet.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","Camo1","Camo2","_Band","_Cover_Back","_Goggle_ESS"};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
         };
     };
 
@@ -227,6 +335,15 @@
             uniformModel = "\x\cfp\addons\headgear\GolaniHelmet\idf_m76_helmet.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","Camo1","Camo2","_Band","_Cover_Back","_Goggle_ESS"};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
         };
     };
 
@@ -242,6 +359,15 @@
             uniformModel = "\x\cfp\addons\headgear\GolaniHelmet\idf_m76_helmet.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","Camo1","Camo2","_Band","_Cover_Back","_Cover_Front"};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
         };
     };
 
@@ -258,6 +384,15 @@
             uniformModel = "\x\cfp\addons\headgear\GolaniHelmet\idf_m76_helmet.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","Camo1","Camo2","_Band","_Cover_Back","_Cover_Front"};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
         };
     };
 
