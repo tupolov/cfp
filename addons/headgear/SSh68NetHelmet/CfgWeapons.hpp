@@ -17,7 +17,7 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "SSh68 Net Helmet (Black 1)";
 		// picture = "\x\cfp\addons\headgear\SSh68NetHelmet\ui\Black1.jpg";
-		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_SLA\CUP_SLA_Helmet.p3d";
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\CUP_TK_Helmet.p3d";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68NetHelmet\Black.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "CFP";
@@ -71,7 +71,7 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "SSh68 Net Helmet (Blue 1)";
 		// picture = "\x\cfp\addons\headgear\SSh68NetHelmet\ui\Blue1.jpg";
-		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_SLA\CUP_SLA_Helmet.p3d";
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\CUP_TK_Helmet.p3d";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68NetHelmet\Blue.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "CFP";
@@ -125,7 +125,7 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "SSh68 Net Helmet (Green 1)";
 		// picture = "\x\cfp\addons\headgear\SSh68NetHelmet\ui\Green1.jpg";
-		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_SLA\CUP_SLA_Helmet.p3d";
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\CUP_TK_Helmet.p3d";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68NetHelmet\Green.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "CFP";
@@ -179,7 +179,7 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "SSh68 Net Helmet (Tan 1)";
 		// picture = "\x\cfp\addons\headgear\SSh68NetHelmet\ui\Tan1.jpg";
-		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_SLA\CUP_SLA_Helmet.p3d";
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\CUP_TK_Helmet.p3d";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68NetHelmet\Tan.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "CFP";
@@ -233,7 +233,7 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "SSh68 Net Helmet (White 1)";
 		// picture = "\x\cfp\addons\headgear\SSh68NetHelmet\ui\White1.jpg";
-		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_SLA\CUP_SLA_Helmet.p3d";
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\CUP_TK_Helmet.p3d";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68NetHelmet\White.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "CFP";
@@ -288,7 +288,7 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "SSh68 Net Helmet (U.N 1)";
 		// picture = "\x\cfp\addons\headgear\SSh68NetHelmet\ui\UN1.jpg";
-		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_SLA\CUP_SLA_Helmet.p3d";
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\CUP_TK_Helmet.p3d";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68NetHelmet\UN.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "CFP";
