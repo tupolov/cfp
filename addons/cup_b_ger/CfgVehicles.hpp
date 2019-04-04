@@ -1,3 +1,7 @@
+#define mag_xx(a,b) class _xx_##a {magazine = ##a; count = b;}
+#define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
+#define item_xx(a,b) class _xx_##a {name = a; count = b;}
+
 class CBA_Extended_EventHandlers_base;
 
 class CfgEditorSubCategories
@@ -1259,6 +1263,286 @@ class CfgVehicles {
         backpack = "CFP_AssaultPack_Tropentarn";
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G36C_VFG_camo","CUP_muzzle_snds_G36_desert","CUP_acc_ANPEQ_15_Flashlight_Tan_L","CUP_optic_MicroT1_coyote",{"CUP_30Rnd_556x45_G36",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_Crye_Tropentarn_SS",{{"FirstAidKit",1},{"CUP_17Rnd_9x19_glock17",2,17},{"CUP_30Rnd_556x45_G36",3,30}}},{"CFP_PlateCarrier2_Tropentarn",{{"SmokeShell",1,1},{"CUP_HandGrenade_M67",2,1},{"B_IR_Grenade",1,1},{"Chemlight_green",1,1},{"Chemlight_red",1,1},{"CUP_30Rnd_556x45_G36",4,30}}},{"CFP_AssaultPack_Tropentarn",{{"FirstAidKit",10},{"Medikit",1}}},"CFP_OpsC_Covered_KSK","IS_Balaclava",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS15_black"}};
+    };
+
+    class Box_NATO_Ammo_F; // CUP_USBasicAmmunitionBox
+    class Box_NATO_Wps_F; // CUP_USBasicWeaponsBox
+    class Box_NATO_Support_F; // CUP_USSpecialWeaponsBox
+    class Box_NATO_WpsLaunch_F; // CUP_USLaunchersBox
+    class Box_NATO_Uniforms_F; // CUP_USBasicWeaponsBox
+    class B_SupplyCrate_F; // CUP_USVehicleBox
+
+    class CUP_B_GER_AmmoBox : Box_NATO_Ammo_F {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Bundeswehr (Arid / Desert) Ammo Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_556x45_G36,50);
+            mag_xx(SmokeShellRed,50);
+            mag_xx(CUP_HandGrenade_M67,50);
+            mag_xx(B_IR_Grenade,50);
+            mag_xx(CUP_17Rnd_9x19_glock17,50);
+            mag_xx(CUP_PipeBomb_M,50);
+            mag_xx(Laserbatteries,50);
+            mag_xx(CUP_30Rnd_556x45_G36_camo,50);
+            mag_xx(CUP_1Rnd_HEDP_M203,50);
+            mag_xx(CUP_1Rnd_Smoke_M203,50);
+            mag_xx(SmokeShellGreen,50);
+            mag_xx(CUP_100Rnd_556x45_BetaCMag,50);
+            mag_xx(CUP_120Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M,50);
+            mag_xx(CUP_Stinger_M,50);
+            mag_xx(CUP_MAAWS_HEAT_M,50);
+            mag_xx(CUP_MAAWS_HEDP_M,50);
+            mag_xx(CUP_5Rnd_762x67_G22,50);
+            mag_xx(CUP_30Rnd_9x19_MP5,50);
+            mag_xx(SmokeShell,50);
+            mag_xx(Chemlight_green,50);
+            mag_xx(Chemlight_red,50);
+        };
+        class TransportWeapons {
+        };
+        class TransportItems {
+        };
+    };
+    class CUP_B_GER_WeaponsBox : Box_NATO_Wps_F {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Bundeswehr (Arid / Desert) Weapons Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_556x45_G36,50);
+            mag_xx(CUP_17Rnd_9x19_glock17,50);
+            mag_xx(CUP_30Rnd_556x45_G36_camo,50);
+            mag_xx(CUP_1Rnd_HEDP_M203,50);
+            mag_xx(CUP_100Rnd_556x45_BetaCMag,50);
+            mag_xx(CUP_120Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M,50);
+            mag_xx(CUP_5Rnd_762x67_G22,50);
+            mag_xx(CUP_30Rnd_9x19_MP5,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_G36A_camo,10);
+            weap_xx(CUP_hgun_glock17_flashlight,10);
+            weap_xx(CUP_arifle_AG36_camo,10);
+            weap_xx(CUP_arifle_G36C_camo,10);
+            weap_xx(CUP_arifle_G36K_camo,10);
+            weap_xx(CUP_arifle_G36C_camo_holo_snds,10);
+            weap_xx(CUP_arifle_MG36_camo_holo,10);
+            weap_xx(CUP_lmg_MG3_rail,10);
+            weap_xx(CUP_srifle_G22_des_SBPMII,10);
+            weap_xx(CUP_smg_MP5A5,10);
+            weap_xx(CUP_hgun_Glock17_tan,10);
+            weap_xx(CUP_arifle_G36C_VFG_camo,10);
+            weap_xx(CUP_hgun_Glock17_blk,10);
+            weap_xx(CUP_arifle_MG36_camo,10);
+        };
+        class TransportItems {
+            item_xx(CUP_acc_Glock17_Flashlight,10);
+            item_xx(CUP_muzzle_snds_G36_desert,10);
+            item_xx(CUP_optic_HoloDesert,10);
+            item_xx(optic_MRCO,10);
+            item_xx(CUP_optic_SB_3_12x50_PMII,10);
+            item_xx(CUP_bipod_Harris_1A2_L,10);
+            item_xx(CUP_acc_ANPEQ_15_Flashlight_Tan_L,10);
+            item_xx(CUP_optic_MicroT1_coyote,10);
+        };
+    };
+    class CUP_B_GER_LaunchersBox : Box_NATO_WpsLaunch_F {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Bundeswehr (Arid / Desert) Launchers Box;
+        class TransportMagazines {
+            mag_xx(CUP_Stinger_M,5);
+            mag_xx(CUP_MAAWS_HEAT_M,5);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_launch_FIM92Stinger,5);
+            weap_xx(CUP_launch_MAAWS_Scope,5);
+            weap_xx(CUP_launch_MAAWS,5);
+        };
+        class TransportItems {
+            item_xx(CUP_optic_MAAWS_Scope,5);
+        };
+    };
+    class CUP_B_GER_UniformBox : Box_NATO_Uniforms_F {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Bundeswehr (Arid / Desert) Uniform Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(CFP_U_WorkUniform_Tropentarn,15);
+            item_xx(SP_0000_Standard_FieldUniform_Tan,15);
+            item_xx(CFP_U_Crye_Tropentarn_SS,15);
+            item_xx(CFP_U_Crye_Tropentarn,15);
+        };
+    };
+    class CUP_B_GER_SupportBox : Box_NATO_Support_F {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Bundeswehr (Arid / Desert) Support Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(CUP_Vector21Nite,10);
+            item_xx(CFP_FAPC_Operator_OGA_OD,10);
+            item_xx(SP_BaseballCap_Black,10);
+            item_xx(CUP_FR_Neckscarf2,10);
+            item_xx(CFP_Kitbag_Tropentarn,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(ItemGPS,10);
+            item_xx(CFP_PlateCarrier1_Tropentarn,10);
+            item_xx(H_Booniehat_khk,10);
+            item_xx(CUP_FR_NeckScarf,10);
+            item_xx(SP_BaseballCap_Tan,10);
+            item_xx(G_Bandanna_shades,10);
+            item_xx(CFP_Kitbag_Flecktarn,10);
+            item_xx(CFP_LBT6094_operator_OGA_OD,10);
+            item_xx(H_Cap_oli,10);
+            item_xx(G_Bandanna_beast,10);
+            item_xx(CFP_AssaultPack_Tropentarn,10);
+            item_xx(CFP_PlateCarrier2_Tropentarn,10);
+            item_xx(SP_Shemagh_CheckTan,10);
+            item_xx(SP_Goggles_Black,10);
+            item_xx(CFP_RAV_MG_OGA_OD,10);
+            item_xx(H_Booniehat_tan,10);
+            item_xx(CFP_BoonieHat_Tropentarn,10);
+            item_xx(CFP_Beard,10);
+            item_xx(SP_HeadSet_Black,10);
+            item_xx(SP_BeanieHat_Tan,10);
+            item_xx(G_Bandanna_khk,10);
+            item_xx(CFP_CarrierRig_Operator_OGA_OD,10);
+            item_xx(SP_BeanieHat_Black,10);
+            item_xx(CUP_TK_NeckScarf,10);
+            item_xx(H_Cap_tan,10);
+            item_xx(CFP_LBT6094_operator_OGA,10);
+            item_xx(SP_BoonieHat_Tan,10);
+            item_xx(G_Bandanna_oli,10);
+            item_xx(CUP_B_GER_Backpack_ATAssist,10);
+            item_xx(CUP_V_BAF_Osprey_Mk2_DDPM_Pilot,10);
+            item_xx(CUP_H_BAF_Helmet_Pilot,10);
+            item_xx(CUP_NVG_PVS15_black,10);
+            item_xx(Binocular,10);
+            item_xx(CFP_OpsC_Covered_KSK,10);
+            item_xx(CFP_OpsC_Covered2_KSK,10);
+            item_xx(IS_Balaclava,10);
+            item_xx(CFP_LBT6094_MG_OGA_OD,10);
+            item_xx(SP_Balaclava_Venom,10);
+            item_xx(CFP_PlateCarrier1_Flecktarn,10);
+            item_xx(CFP_OpsC_Med_KSK,10);
+            item_xx(CFP_OpsC_Cov_Goggles_Off_KSK,10);
+        };
+    };
+    class CUP_B_GER_SupplyBox : B_SupplyCrate_F {
+        author = ALiVE ORBAT CREATOR;
+        displayName = Bundeswehr (Arid / Desert) Supply Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_556x45_G36,50);
+            mag_xx(SmokeShellRed,50);
+            mag_xx(CUP_HandGrenade_M67,50);
+            mag_xx(B_IR_Grenade,50);
+            mag_xx(CUP_17Rnd_9x19_glock17,50);
+            mag_xx(CUP_PipeBomb_M,50);
+            mag_xx(Laserbatteries,50);
+            mag_xx(CUP_30Rnd_556x45_G36_camo,50);
+            mag_xx(CUP_1Rnd_HEDP_M203,50);
+            mag_xx(CUP_1Rnd_Smoke_M203,50);
+            mag_xx(SmokeShellGreen,50);
+            mag_xx(CUP_100Rnd_556x45_BetaCMag,50);
+            mag_xx(CUP_120Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M,50);
+            mag_xx(CUP_Stinger_M,50);
+            mag_xx(CUP_MAAWS_HEAT_M,50);
+            mag_xx(CUP_MAAWS_HEDP_M,50);
+            mag_xx(CUP_5Rnd_762x67_G22,50);
+            mag_xx(CUP_30Rnd_9x19_MP5,50);
+            mag_xx(SmokeShell,50);
+            mag_xx(Chemlight_green,50);
+            mag_xx(Chemlight_red,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_G36A_camo,10);
+            weap_xx(CUP_hgun_glock17_flashlight,10);
+            weap_xx(CUP_arifle_AG36_camo,10);
+            weap_xx(CUP_arifle_G36C_camo,10);
+            weap_xx(CUP_arifle_G36K_camo,10);
+            weap_xx(CUP_arifle_G36C_camo_holo_snds,10);
+            weap_xx(CUP_arifle_MG36_camo_holo,10);
+            weap_xx(CUP_lmg_MG3_rail,10);
+            weap_xx(CUP_srifle_G22_des_SBPMII,10);
+            weap_xx(CUP_smg_MP5A5,10);
+            weap_xx(CUP_hgun_Glock17_tan,10);
+            weap_xx(CUP_arifle_G36C_VFG_camo,10);
+            weap_xx(CUP_hgun_Glock17_blk,10);
+            weap_xx(CUP_arifle_MG36_camo,10);
+            weap_xx(CUP_launch_FIM92Stinger,10);
+            weap_xx(CUP_launch_MAAWS_Scope,10);
+            weap_xx(CUP_launch_MAAWS,10);
+        };
+        class TransportItems {
+            item_xx(CUP_acc_Glock17_Flashlight,10);
+            item_xx(CUP_muzzle_snds_G36_desert,10);
+            item_xx(CUP_optic_HoloDesert,10);
+            item_xx(optic_MRCO,10);
+            item_xx(CUP_optic_SB_3_12x50_PMII,10);
+            item_xx(CUP_bipod_Harris_1A2_L,10);
+            item_xx(CUP_acc_ANPEQ_15_Flashlight_Tan_L,10);
+            item_xx(CUP_optic_MicroT1_coyote,10);
+            item_xx(CUP_Vector21Nite,10);
+            item_xx(CFP_FAPC_Operator_OGA_OD,10);
+            item_xx(SP_BaseballCap_Black,10);
+            item_xx(CUP_FR_Neckscarf2,10);
+            item_xx(CFP_Kitbag_Tropentarn,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(ItemGPS,10);
+            item_xx(CFP_PlateCarrier1_Tropentarn,10);
+            item_xx(H_Booniehat_khk,10);
+            item_xx(CUP_FR_NeckScarf,10);
+            item_xx(SP_BaseballCap_Tan,10);
+            item_xx(G_Bandanna_shades,10);
+            item_xx(CFP_Kitbag_Flecktarn,10);
+            item_xx(CFP_LBT6094_operator_OGA_OD,10);
+            item_xx(H_Cap_oli,10);
+            item_xx(G_Bandanna_beast,10);
+            item_xx(CFP_AssaultPack_Tropentarn,10);
+            item_xx(CFP_PlateCarrier2_Tropentarn,10);
+            item_xx(SP_Shemagh_CheckTan,10);
+            item_xx(SP_Goggles_Black,10);
+            item_xx(CFP_RAV_MG_OGA_OD,10);
+            item_xx(H_Booniehat_tan,10);
+            item_xx(CFP_BoonieHat_Tropentarn,10);
+            item_xx(CFP_Beard,10);
+            item_xx(SP_HeadSet_Black,10);
+            item_xx(SP_BeanieHat_Tan,10);
+            item_xx(G_Bandanna_khk,10);
+            item_xx(CFP_CarrierRig_Operator_OGA_OD,10);
+            item_xx(SP_BeanieHat_Black,10);
+            item_xx(CUP_TK_NeckScarf,10);
+            item_xx(H_Cap_tan,10);
+            item_xx(CFP_LBT6094_operator_OGA,10);
+            item_xx(SP_BoonieHat_Tan,10);
+            item_xx(G_Bandanna_oli,10);
+            item_xx(CUP_B_GER_Backpack_ATAssist,10);
+            item_xx(CUP_V_BAF_Osprey_Mk2_DDPM_Pilot,10);
+            item_xx(CUP_H_BAF_Helmet_Pilot,10);
+            item_xx(CUP_NVG_PVS15_black,10);
+            item_xx(Binocular,10);
+            item_xx(CFP_OpsC_Covered_KSK,10);
+            item_xx(CFP_OpsC_Covered2_KSK,10);
+            item_xx(IS_Balaclava,10);
+            item_xx(CFP_LBT6094_MG_OGA_OD,10);
+            item_xx(SP_Balaclava_Venom,10);
+            item_xx(CFP_PlateCarrier1_Flecktarn,10);
+            item_xx(CFP_OpsC_Med_KSK,10);
+            item_xx(CFP_OpsC_Cov_Goggles_Off_KSK,10);
+            item_xx(CFP_U_WorkUniform_Tropentarn,10);
+            item_xx(SP_0000_Standard_FieldUniform_Tan,10);
+            item_xx(CFP_U_Crye_Tropentarn_SS,10);
+            item_xx(CFP_U_Crye_Tropentarn,10);
+            item_xx(CUP_optic_MAAWS_Scope,5);
+        };
     };
 
 };
