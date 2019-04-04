@@ -1245,301 +1245,198 @@ class CfgVehicles {
         crew = "CFP_B_USCIA_paramilitary_officer_covert_01";
     };
 
+    class CUP_USBasicAmmunitionBox; // CUP_USBasicAmmunitionBox
 
-    class CUP_ReammoBox_EP1;
-    class CUP_ReammoBox;
+    class CUP_USBasicWeaponsBox; // CUP_USBasicWeaponsBox
 
-    /* US CIA Ammo Boxes */
-    class CFP_USCIA_BasicAmmunitionBox: CUP_ReammoBox
-    {
-         scope = 2;
-        displayname = "Basic Ammo [US CIA]";
-        model = "\CUP\Weapons\CUP_Weapons_AmmoBoxes\CUP_RUBasicAmmo.p3d";
-        class TransportMagazines
-        {
-            mag_xx(30Rnd_556x45_Stanag,100);
-            mag_xx(30Rnd_556x45_G36,40);
-            mag_xx(1Rnd_HE_M203,40);
-            mag_xx(1Rnd_HEDP_M203,40);
-            mag_xx(M136_M,40);
-            mag_xx(M72A6_M,40);
-            mag_xx(200Rnd_TE4_Red_Tracer_556x45_M249,40);
-            mag_xx(200Rnd_TE4_Red_Tracer_556x45_L110A1,40);
-            mag_xx(75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,40);
-            mag_xx(100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M,40);
-            mag_xx(30Rnd_762x39_AK47_M,100);
-            mag_xx(30Rnd_545x39_AK_M,400);
-            mag_xx(30Rnd_TE1_Green_Tracer_545x39_AK_M,400);
-            mag_xx(8Rnd_9x18_Makarov_M,50);
-            mag_xx(8Rnd_9x18_MakarovSD_M,20);
-            mag_xx(1Rnd_HE_GP25_M,80);
-            mag_xx(FlareWhite_GP25_M,2);
-            mag_xx(FlareGreen_GP25_M,2);
-            mag_xx(FlareRed_GP25_M,2);
-            mag_xx(FlareYellow_GP25_M,2);
-            mag_xx(100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,100);
-            mag_xx(HandGrenade_RGD5,50);
-            mag_xx(HandGrenade_RGO,50);
-            mag_xx(PG7V_M,15);
-            mag_xx(PG7VR_M,5);
-            mag_xx(RPG18_M,10);
-            mag_xx(1Rnd_SmokeRed_GP25_M,2);
-            mag_xx(1Rnd_SmokeGreen_GP25_M,2);
-            mag_xx(1Rnd_SmokeYellow_GP25_M,2);
-            mag_xx(1Rnd_Smoke_GP25_M,2);
-            mag_xx(IlumFlareWhite_GP25_M, 5);
-            mag_xx(IlumFlareRed_GP25_M, 5);
-            mag_xx(IlumFlareGreen_GP25_M, 5);
+    class CUP_USSpecialWeaponsBox; // CUP_USSpecialWeaponsBox
+
+    class CUP_USLaunchersBox; // CUP_USLaunchersBox
+
+    class CUP_USVehicleBox; // CUP_USVehicleBox
+
+    class CFP_B_USCIA_AmmoBox : CUP_USBasicAmmunitionBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = US CIA (Middle East) Ammo Box;
+        class TransportMagazines {
+            mag_xx(CUP_17Rnd_9x19_glock17,50);
+            mag_xx(CUP_30Rnd_556x45_Stanag,50);
+            mag_xx(HandGrenade,50);
+            mag_xx(MiniGrenade,50);
+            mag_xx(CUP_TimeBomb_M,50);
+            mag_xx(SmokeShell,50);
+            mag_xx(B_IR_Grenade,50);
+            mag_xx(Chemlight_blue,50);
+            mag_xx(CUP_1Rnd_HEDP_M203,50);
+            mag_xx(CUP_1Rnd_Smoke_M203,50);
+            mag_xx(CUP_M136_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M,50);
         };
-        class TransportWeapons
-        {
-            weap_xx(AK_47_M,4);
-            weap_xx(AK_74,4);
-            weap_xx(arifle_M4A1_camo_Aim,8);
-            weap_xx(arifle_M4A3_desert_Aim_Flashlight,8);
+        class TransportWeapons {
         };
-        class TransportItems
-        {
-            item_xx(CUP_optic_PSO_1,5);
-            item_xx(CUP_optic_Kobra,5);
-            item_xx(CUP_optic_CompM4,5);
-            item_xx(CUP_optic_CompM2_Black,4);
+        class TransportItems {
         };
-        /* ACE CARGO : */
-        ace_cargo_size = 2; // Cargo space the object takes
-        ace_cargo_canLoad = 1; // Enables the object to be loaded (1-yes, 0-no)
-        ace_dragging_canDrag = 1;  // Can be dragged (0-no, 1-yes)
-        ace_dragging_dragPosition[] = {0, 1.3, 0};  // Offset of the model from the body while dragging (same as attachTo)
-        ace_dragging_dragDirection = 90; // Model direction while dragging (same as setDir after attachTo)
-        ace_dragging_canCarry = 1;  // Can be carried (0-no, 1-yes)
-        ace_dragging_carryPosition[] = {0, 1.2, 1};  // Offset of the model from the body while dragging (same as attachTo)
-        ace_dragging_carryDirection = 0;  // Model direction while dragging (same as setDir after attachTo)
     };
-    class CFP_USCIA_BasicWeaponsBox: CFP_USCIA_BasicAmmunitionBox
-    {
-        displayname = "Basic Weapons [US CIA]";
-        model = "CUP\Weapons\CUP_Weapons_AmmoBoxes\CUP_RUBasicWeapons.p3d";
-        class TransportMagazines
-        {
-            mag_xx(30Rnd_556x45_Stanag,100);
-            mag_xx(30Rnd_556x45_G36,40);
-            mag_xx(1Rnd_HE_M203,40);
-            mag_xx(1Rnd_HEDP_M203,40);
-            mag_xx(M136_M,40);
-            mag_xx(M72A6_M,40);
-            mag_xx(30Rnd_762x39_AK47_M,100);
-            mag_xx(30Rnd_545x39_AK_M,400);
-            mag_xx(30Rnd_TE1_Green_Tracer_545x39_AK_M,400);
-            mag_xx(8Rnd_9x18_Makarov_M,50);
-            mag_xx(8Rnd_9x18_MakarovSD_M,20);
-            mag_xx(1Rnd_HE_GP25_M,80);
-            mag_xx(FlareWhite_GP25_M,2);
-            mag_xx(FlareGreen_GP25_M,2);
-            mag_xx(FlareRed_GP25_M,2);
-            mag_xx(FlareYellow_GP25_M,2);
-            mag_xx(HandGrenade_RGD5,50);
-            mag_xx(HandGrenade_RGO,50);
-            mag_xx(1Rnd_SmokeRed_GP25_M,2);
-            mag_xx(1Rnd_SmokeGreen_GP25_M,2);
-            mag_xx(1Rnd_SmokeYellow_GP25_M,2);
-            mag_xx(1Rnd_Smoke_GP25_M,2);
-            mag_xx(IlumFlareWhite_GP25_M, 5);
-            mag_xx(IlumFlareRed_GP25_M, 5);
-            mag_xx(IlumFlareGreen_GP25_M, 5);
+    class CFP_B_USCIA_WeaponsBox : CUP_USBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = US CIA (Middle East) Weapons Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_556x45_Stanag,50);
+            mag_xx(CUP_17Rnd_9x19_glock17,50);
+            mag_xx(CUP_1Rnd_HEDP_M203,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M,50);
         };
-        class TransportWeapons
-        {
-
-            weap_xx(arifle_M4A1_BUIS_desert_GL,8);
-            weap_xx(arifle_M4A1_BUIS_GL,8);
-            weap_xx(arifle_Mk16_CQC_EGLM,8);
-            weap_xx(arifle_Mk17_CQC_EGLM,8);
-            weap_xx(arifle_AK74_GL,8);
-            weap_xx(arifle_AK74M_GL,8);
-            weap_xx(arifle_CZ805_GL,8);
-            weap_xx(arifle_M4A1_camo_Aim,8);
-            weap_xx(arifle_M4A3_desert_Aim_Flashlight,8);
-            weap_xx(arifle_M4A1_Aim,8);
-            weap_xx(arifle_AK74M,8);
-            weap_xx(arifle_AK107,8);
-            weap_xx(arifle_AKS74,8);
-            weap_xx(arifle_AKS74_pso,8);
-            weap_xx(arifle_AKS74U,8);
-            weap_xx(arifle_CZ805_A2_Holo_Laser,8);
-            weap_xx(arifle_Mk16_CQC_FG_Aim_Laser_snds,8);
-            weap_xx(hgun_Glock17,8);
-            weap_xx(hgun_M9,8);
-            weap_xx(hgun_Makarov,8);
-            weap_xx(hgun_MicroUzi,8);
-            weap_xx(hgun_M9_snds,10);
+        class TransportWeapons {
+            weap_xx(CUP_arifle_M4A3_black,10);
+            weap_xx(CUP_hgun_Glock17,10);
+            weap_xx(CUP_arifle_M4A1_Aim,10);
+            weap_xx(CUP_arifle_M4A3_desert,10);
+            weap_xx(CUP_hgun_Glock17_blk,10);
+            weap_xx(CUP_arifle_M4A1_BUIS_desert_GL,10);
+            weap_xx(CUP_lmg_Mk48_des,10);
         };
-        class TransportItems
-        {
-            item_xx(CUP_optic_PSO_1,5);
-            item_xx(CUP_optic_Kobra,5);
-            item_xx(CUP_muzzle_snds_M16_camo,4);
-            item_xx(CUP_muzzle_snds_M16,4);
-            item_xx(CUP_acc_Flashlight,4);
-            item_xx(CUP_acc_Flashlight_wdl,4);
-            item_xx(CUP_acc_ANPEQ_2_camo,4);
-            item_xx(muzzle_snds_acp,5);
-            item_xx(CUP_optic_CompM4,5);
-            item_xx(CUP_optic_CompM2_Black,4);
-            item_xx(CUP_optic_CompM2_Woodland,2);
-            item_xx(CUP_optic_CompM2_Woodland2,2);
-            item_xx(CUP_optic_CompM2_Desert,2);
+        class TransportItems {
+            item_xx(CUP_acc_Flashlight,10);
+            item_xx(CUP_optic_Eotech553_Black,10);
+            item_xx(CUP_optic_CompM2_Black,10);
+            item_xx(CUP_acc_ANPEQ_15_Top_Flashlight_Tan_L,10);
+            item_xx(CUP_optic_ACOG_Reflex_Desert,10);
+            item_xx(CUP_acc_ANPEQ_15_Flashlight_Tan_L,10);
         };
-        /* ACE CARGO : */
-        ace_cargo_size = 8; // Cargo space the object takes
-        ace_cargo_canLoad = 1; // Enables the object to be loaded (1-yes, 0-no)
-        ace_dragging_canDrag = 0;  // Can be dragged (0-no, 1-yes)
-        ace_dragging_canCarry = 0;  // Can be carried (0-no, 1-yes)
     };
-
-    class CFP_USCIA_SpecialWeaponsBox: CFP_USCIA_BasicAmmunitionBox
-    {
-        displayname = "Special Weapons [US CIA]";
-        model = "CUP\Weapons\CUP_Weapons_AmmoBoxes\CUP_RUSpecialWeapons.p3d";
-        class TransportMagazines
-        {
-            mag_xx(30Rnd_556x45_Stanag,100);
-            mag_xx(30Rnd_556x45_G36,40);
-            mag_xx(1Rnd_HE_M203,40);
-            mag_xx(1Rnd_HEDP_M203,40);
-            mag_xx(M136_M,40);
-            mag_xx(M72A6_M,40);
-            mag_xx(200Rnd_TE4_Red_Tracer_556x45_M249,40);
-            mag_xx(200Rnd_TE4_Red_Tracer_556x45_L110A1,40);
-            mag_xx(75Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,40);
-            mag_xx(100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M,40);
-            mag_xx(30Rnd_762x39_AK47_M,100);
-            mag_xx(30Rnd_545x39_AK_M,400);
-            mag_xx(30Rnd_TE1_Green_Tracer_545x39_AK_M,400);
-            mag_xx(8Rnd_9x18_Makarov_M,50);
-            mag_xx(8Rnd_9x18_MakarovSD_M,20);
-            mag_xx(1Rnd_HE_GP25_M,80);
-            mag_xx(FlareWhite_GP25_M,2);
-            mag_xx(FlareGreen_GP25_M,2);
-            mag_xx(FlareRed_GP25_M,2);
-            mag_xx(FlareYellow_GP25_M,2);
-            mag_xx(100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,100);
-            mag_xx(HandGrenade_RGD5,50);
-            mag_xx(HandGrenade_RGO,50);
-            mag_xx(PG7V_M,15);
-            mag_xx(PG7VR_M,5);
-            mag_xx(RPG18_M,10);
-            mag_xx(1Rnd_SmokeRed_GP25_M,2);
-            mag_xx(1Rnd_SmokeGreen_GP25_M,2);
-            mag_xx(1Rnd_SmokeYellow_GP25_M,2);
-            mag_xx(1Rnd_Smoke_GP25_M,2);
-            mag_xx(IlumFlareWhite_GP25_M, 5);
-            mag_xx(IlumFlareRed_GP25_M, 5);
-            mag_xx(IlumFlareGreen_GP25_M, 5);
+    class CFP_B_USCIA_LaunchersBox : CUP_USLaunchersBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = US CIA (Middle East) Launchers Box;
+        class TransportMagazines {
+            mag_xx(CUP_M136_M,5);
         };
-        class TransportWeapons
-        {
-            weap_xx(lmg_M249_pip3,8);
-            weap_xx(lmg_minimipara,8);
-            weap_xx(lmg_L110A1,8);
-            weap_xx(lmg_M249_pip4,8);
-            weap_xx(lmg_M249_e2,8);
-            weap_xx(lmg_M249_pip2,8);
-            weap_xx(lmg_M249_para,8);
-            weap_xx(arifle_RPK74,8);
-            weap_xx(arifle_RPK74M,8);
-            weap_xx(lmg_Mk48_des,8);
+        class TransportWeapons {
+            weap_xx(CUP_launch_M136,5);
         };
-        class TransportItems
-        {
-            item_xx(CUP_optic_PSO_1,5);
-            item_xx(CUP_optic_Kobra,5);
-            item_xx(CUP_optic_CompM4,5);
-            item_xx(CUP_optic_CompM2_Black,4);
-            item_xx(CUP_optic_CompM2_Woodland,2);
-            item_xx(CUP_optic_CompM2_Woodland2,2);
-            item_xx(CUP_optic_CompM2_Desert,2);
-            item_xx(CUP_acc_ANPEQ_15,5);
-            item_xx(CUP_acc_ANPEQ_2,5);
-            item_xx(CUP_optic_Eotech533,5);
-            item_xx(CUP_optic_ACOG,5);
-            item_xx(CUP_muzzle_snds_M110,2);
-            item_xx(CUP_muzzle_snds_M14,2);
+        class TransportItems {
         };
-        /* ACE CARGO : */
-        ace_cargo_size = 8; // Cargo space the object takes
-        ace_cargo_canLoad = 1; // Enables the object to be loaded (1-yes, 0-no)
-        ace_dragging_canDrag = 0;  // Can be dragged (0-no, 1-yes)
-        ace_dragging_canCarry = 0;  // Can be carried (0-no, 1-yes)
     };
-
-    class CFP_USCIA_LaunchersBox: CFP_USCIA_BasicAmmunitionBox
-    {
-        displayname = "Launchers [US CIA]";
-        model = "\CUP\Weapons\CUP_Weapons_AmmoBoxes\CUP_RULaunchers.p3d";
-        class TransportMagazines
-        {
-            mag_xx(M136_M,40);
-            mag_xx(M72A6_M,40);
-            mag_xx(PG7V_M,15);
-            mag_xx(PG7VR_M,5);
-            mag_xx(RPG18_M,10);
+    class CFP_B_USCIA_UniformBox : CUP_USBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = US CIA (Middle East) Uniform Box;
+        class TransportWeapons {
         };
-        class TransportWeapons
-        {
-            weap_xx(launch_M136,3);
-            weap_xx(launch_RPG7V,3);
-            weap_xx(launch_M72A6,1);
-            weap_xx(launch_RPG18,3);
+        class TransportMagazines {
         };
-        /* ACE CARGO : */
-        ace_cargo_size = 4; // Cargo space the object takes
-        ace_cargo_canLoad = 1; // Enables the object to be loaded (1-yes, 0-no)
-        ace_dragging_canDrag = 1;  // Can be dragged (0-no, 1-yes)
-        ace_dragging_dragPosition[] = {0, 1.8, 0};  // Offset of the model from the body while dragging (same as attachTo)
-        ace_dragging_dragDirection = 90; // Model direction while dragging (same as setDir after attachTo)
-        ace_dragging_canCarry = 0;  // Can be carried (0-no, 1-yes)
+        class TransportItems {
+            item_xx(CFP_GUER_MCampants,15);
+            item_xx(CFP_U_KhetPartug_Long_light_olive,15);
+            item_xx(CFP_U_FieldUniform_tiger_desert,15);
+            item_xx(CFP_U_Crye_Tiger_Desert_SS,15);
+            item_xx(CFP_U_Crye_Tiger_Desert,15);
+            item_xx(CFP_U_FieldUniform_tiger_desert_SS,15);
+        };
     };
-
-    class CFP_USCIA_OrdnanceBox: CFP_USCIA_BasicAmmunitionBox
-    {
-            displayname = "Explosives [US CIA]";
-            model = "\CUP\Weapons\CUP_Weapons_AmmoBoxes\CUP_RUOrdnance.p3d";
-            class TransportMagazines
-            {
-                mag_xx(TimeBomb_M,10);
-                mag_xx(PipeBomb_M,20);
-                mag_xx(HandGrenade_RGD5,30);
-                mag_xx(HandGrenade_RGO,30);
-                mag_xx(IED_V1_M,10);
-            };
-            class TransportWeapons{};
-        /* ACE CARGO : */
-        ace_cargo_size = 4; // Cargo space the object takes
-        ace_cargo_canLoad = 1; // Enables the object to be loaded (1-yes, 0-no)
-        ace_dragging_canDrag = 1;  // Can be dragged (0-no, 1-yes)
-        ace_dragging_dragPosition[] = {0, 1.8, 0};  // Offset of the model from the body while dragging (same as attachTo)
-        ace_dragging_dragDirection = 90; // Model direction while dragging (same as setDir after attachTo)
-        ace_dragging_canCarry = 0;  // Can be carried (0-no, 1-yes)
+    class CFP_B_USCIA_SupportBox : CUP_USSpecialWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = US CIA (Middle East) Support Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(CFP_MBSS_PACA_TAN,10);
+            item_xx(H_Booniehat_khk,10);
+            item_xx(CFP_Oakleys_Embr,10);
+            item_xx(B_AssaultPack_cbr,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(ItemGPS,10);
+            item_xx(CFP_LBT1961_CB,10);
+            item_xx(CFP_Lungee_Open_Brown,10);
+            item_xx(CFP_Neck_Wrap3,10);
+            item_xx(CUP_B_USPack_Coyote_Specops,10);
+            item_xx(SP_PlateCarrier1_Tan,10);
+            item_xx(SP_MichHelmet_Black2,10);
+            item_xx(CUP_NVG_PVS15_black,10);
+            item_xx(CUP_V_PMC_CIRAS_Coyote_Grenadier,10);
+            item_xx(CFP_OpsC_Uncov_Goggles,10);
+            item_xx(CFP_Beard,10);
+            item_xx(B_Kitbag_cbr,10);
+            item_xx(CUP_V_B_RRV_DA2,10);
+            item_xx(SP_ProTecHelmet_Tan,10);
+            item_xx(G_Bandanna_tan,10);
+            item_xx(CUP_B_AssaultPack_Coyote,10);
+            item_xx(CFP_CarrierRig_Gunner_OGA_OD,10);
+            item_xx(CFP_OpsC_Uncov_Goggle_Off,10);
+        };
     };
-
-    class CFP_USCIA_VehicleBox: CFP_USCIA_BasicAmmunitionBox
-    {
-            displayname = "Vehicle Ammo [US CIA]";
-            model = "\CUP\Weapons\CUP_Weapons_AmmoBoxes\CUP_RUVehicleAmmo.p3d";
-            class TransportMagazines
-            {
-                mag_xx(100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
-                mag_xx(100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M,50);
-                mag_xx(100Rnd_TE4_Red_Tracer_556x45_M249,50);
-            };
-            class TransportWeapons{};
-            transportAmmo = 100000;
-            supplyRadius = 3;
-        /* ACE CARGO : */
-        ace_cargo_size = 20; // Cargo space the object takes
-        ace_cargo_canLoad = 1; // Enables the object to be loaded (1-yes, 0-no)
-        ace_dragging_canDrag = 0;  // Can be dragged (0-no, 1-yes)
-        ace_dragging_canCarry = 0;  // Can be carried (0-no, 1-yes)
+    class CFP_B_USCIA_SupplyBox : CUP_USVehicleBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = US CIA (Middle East) Supply Box;
+        class TransportMagazines {
+            mag_xx(CUP_17Rnd_9x19_glock17,50);
+            mag_xx(CUP_30Rnd_556x45_Stanag,50);
+            mag_xx(HandGrenade,50);
+            mag_xx(MiniGrenade,50);
+            mag_xx(CUP_TimeBomb_M,50);
+            mag_xx(SmokeShell,50);
+            mag_xx(B_IR_Grenade,50);
+            mag_xx(Chemlight_blue,50);
+            mag_xx(CUP_1Rnd_HEDP_M203,50);
+            mag_xx(CUP_1Rnd_Smoke_M203,50);
+            mag_xx(CUP_M136_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_White_Tracer_762x51_Belt_M,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_M4A3_black,10);
+            weap_xx(CUP_hgun_Glock17,10);
+            weap_xx(CUP_arifle_M4A1_Aim,10);
+            weap_xx(CUP_arifle_M4A3_desert,10);
+            weap_xx(CUP_hgun_Glock17_blk,10);
+            weap_xx(CUP_arifle_M4A1_BUIS_desert_GL,10);
+            weap_xx(CUP_lmg_Mk48_des,10);
+            weap_xx(CUP_launch_M136,10);
+        };
+        class TransportItems {
+            item_xx(CUP_acc_Flashlight,10);
+            item_xx(CUP_optic_Eotech553_Black,10);
+            item_xx(CUP_optic_CompM2_Black,10);
+            item_xx(CUP_acc_ANPEQ_15_Top_Flashlight_Tan_L,10);
+            item_xx(CUP_optic_ACOG_Reflex_Desert,10);
+            item_xx(CUP_acc_ANPEQ_15_Flashlight_Tan_L,10);
+            item_xx(CFP_MBSS_PACA_TAN,10);
+            item_xx(H_Booniehat_khk,10);
+            item_xx(CFP_Oakleys_Embr,10);
+            item_xx(B_AssaultPack_cbr,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(ItemGPS,10);
+            item_xx(CFP_LBT1961_CB,10);
+            item_xx(CFP_Lungee_Open_Brown,10);
+            item_xx(CFP_Neck_Wrap3,10);
+            item_xx(CUP_B_USPack_Coyote_Specops,10);
+            item_xx(SP_PlateCarrier1_Tan,10);
+            item_xx(SP_MichHelmet_Black2,10);
+            item_xx(CUP_NVG_PVS15_black,10);
+            item_xx(CUP_V_PMC_CIRAS_Coyote_Grenadier,10);
+            item_xx(CFP_OpsC_Uncov_Goggles,10);
+            item_xx(CFP_Beard,10);
+            item_xx(B_Kitbag_cbr,10);
+            item_xx(CUP_V_B_RRV_DA2,10);
+            item_xx(SP_ProTecHelmet_Tan,10);
+            item_xx(G_Bandanna_tan,10);
+            item_xx(CUP_B_AssaultPack_Coyote,10);
+            item_xx(CFP_CarrierRig_Gunner_OGA_OD,10);
+            item_xx(CFP_OpsC_Uncov_Goggle_Off,10);
+            item_xx(CFP_GUER_MCampants,10);
+            item_xx(CFP_U_KhetPartug_Long_light_olive,10);
+            item_xx(CFP_U_FieldUniform_tiger_desert,10);
+            item_xx(CFP_U_Crye_Tiger_Desert_SS,10);
+            item_xx(CFP_U_Crye_Tiger_Desert,10);
+            item_xx(CFP_U_FieldUniform_tiger_desert_SS,10);
+        };
     };
 
 };
