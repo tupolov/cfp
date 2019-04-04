@@ -13,7 +13,7 @@
             uniformModel = "\x\cfp\addons\models\Miznefet2.p3d";
             hiddenSelections[] = {"Camo"};
             hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz1_co.paa"};
-            mass = 1;
+            mass = 30;
             modelSides[] = {3,1};
             class HitpointsProtectionInfo
             {
@@ -36,12 +36,22 @@
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz2_co.paa"};
         class ItemInfo: HeadgearItem
         {
+            mass = 30;
             uniformModel = "\x\cfp\addons\models\Miznefet2.p3d";
             hiddenSelections[] = {"Camo"};
             hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz2_co.paa"};
+            modelSides[] = {3,1};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
         };
     };
-
     class CFP_Mitznefet_Desert_Tan : CFP_Mitznefet
     {
         picture = \x\cfp\addons\headgear\data\ui\icon_CFP_Mitznefet_Desert_Tan.paa;
@@ -52,9 +62,20 @@
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz2_co.paa","cup\creatures\people\military\cup_creatures_people_military_pmc\data\facewrap_tan_co.paa"};
         class ItemInfo: HeadgearItem
         {
+            mass = 30;
             uniformModel = "\x\cfp\addons\models\Miznefet2.p3d";
             hiddenSelections[] = {"Camo","camo1"};
             hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz2_co.paa","cup\creatures\people\military\cup_creatures_people_military_pmc\data\facewrap_tan_co.paa"};
+            modelSides[] = {3,1};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
         };
     };
 
@@ -68,9 +89,20 @@
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz1_co.paa","cup\creatures\people\military\cup_creatures_people_military_pmc\data\facewrap_tan_co.paa"};
         class ItemInfo: HeadgearItem
         {
+            mass = 30;
             uniformModel = "\x\cfp\addons\models\Miznefet2.p3d";
             hiddenSelections[] = {"Camo","camo1"};
             hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz1_co.paa","cup\creatures\people\military\cup_creatures_people_military_pmc\data\facewrap_tan_co.paa"};
+            modelSides[] = {3,1};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
         };
     };
 
@@ -84,9 +116,20 @@
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz1_co.paa","cup\creatures\people\military\cup_creatures_people_military_pmc\data\facewrap_ranger_co.paa"};
         class ItemInfo: HeadgearItem
         {
+            mass = 30;
             uniformModel = "\x\cfp\addons\models\Miznefet2.p3d";
             hiddenSelections[] = {"Camo","camo1"};
             hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz1_co.paa","cup\creatures\people\military\cup_creatures_people_military_pmc\data\facewrap_ranger_co.paa"};
+            modelSides[] = {3,1};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
         };
     };
 
@@ -95,14 +138,26 @@
         picture = \x\cfp\addons\headgear\data\ui\icon_CFP_Mitznefet_Desert_Ranger.paa;
         displayName = "Mitznefet (Desert Ranger Green Facewrap)";
 
+
         model = "\x\cfp\addons\models\Miznefet2.p3d";
         hiddenSelections[] = {"Camo","camo1"};
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz2_co.paa","cup\creatures\people\military\cup_creatures_people_military_pmc\data\facewrap_ranger_co.paa"};
         class ItemInfo: HeadgearItem
         {
+            mass = 30;
             uniformModel = "\x\cfp\addons\models\Miznefet2.p3d";
             hiddenSelections[] = {"Camo","camo1"};
             hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz2_co.paa","cup\creatures\people\military\cup_creatures_people_military_pmc\data\facewrap_ranger_co.paa"};
+            modelSides[] = {3,1};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
         };
     };
 
@@ -116,9 +171,20 @@
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz2_co.paa","cup\creatures\people\military\cup_creatures_people_military_pmc\data\facewrap_tropical_co.paa"};
         class ItemInfo: HeadgearItem
         {
+            mass = 30;
             uniformModel = "\x\cfp\addons\models\Miznefet2.p3d";
             hiddenSelections[] = {"Camo","camo1"};
             hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz2_co.paa","cup\creatures\people\military\cup_creatures_people_military_pmc\data\facewrap_tropical_co.paa"};
+            modelSides[] = {3,1};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
         };
     };
 
@@ -132,9 +198,20 @@
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz1_co.paa","cup\creatures\people\military\cup_creatures_people_military_pmc\data\facewrap_tropical_co.paa"};
         class ItemInfo: HeadgearItem
         {
+            mass = 30;
             uniformModel = "\x\cfp\addons\models\Miznefet2.p3d";
             hiddenSelections[] = {"Camo","camo1"};
             hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz1_co.paa","cup\creatures\people\military\cup_creatures_people_military_pmc\data\facewrap_tropical_co.paa"};
+            modelSides[] = {3,1};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
         };
     };
 
@@ -180,6 +257,15 @@
             uniformModel = "x\cfp\addons\models\MitzHelmet1.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","camo1","camo2","camo3","_leftear","_rightear","_velcro","_VSMz110T"};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
         };
     };
 
@@ -196,9 +282,17 @@
             uniformModel = "x\cfp\addons\models\MitzHelmet1.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","camo1","camo2","camo3","_velcro"};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
         };
     };
-
     class CFP_MitzHelm1_Wdl2  : CFP_MitzHelm1_Wdl
     {
         picture = \x\cfp\addons\headgear\data\ui\icon_CFP_MitzHelm1_Wdl2.paa;
@@ -212,6 +306,15 @@
             uniformModel = "x\cfp\addons\models\MitzHelmet1.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","camo1","camo2","camo3","_velcro"};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
         };
     };
 
@@ -257,6 +360,15 @@
             uniformModel = "x\cfp\addons\models\MitzHelmet2.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","camo1","camo2","camo3","_leftear","_rightear","_velcro","_VSMz110T"};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
         };
     };
 
@@ -273,6 +385,15 @@
             uniformModel = "x\cfp\addons\models\MitzHelmet2.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","camo1","camo2","camo3","_velcro"};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
         };
     };
 
@@ -289,6 +410,15 @@
             uniformModel = "x\cfp\addons\models\MitzHelmet2.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","camo1","camo2","camo3","_velcro"};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
         };
     };
 
@@ -334,6 +464,15 @@
             uniformModel = "x\cfp\addons\models\MitzHelmet3.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","camo1","camo2","camo3","_leftear","_rightear","_velcro","_VSMz110T"};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
         };
     };
 
@@ -350,6 +489,15 @@
             uniformModel = "x\cfp\addons\models\MitzHelmet3.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","camo1","camo2","camo3","_velcro"};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
         };
     };
 
@@ -366,6 +514,15 @@
             uniformModel = "x\cfp\addons\models\MitzHelmet3.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","camo1","camo2","camo3","_velcro"};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
         };
     };
 
@@ -411,6 +568,15 @@
             uniformModel = "x\cfp\addons\models\MitzHelmet4.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","camo1","camo2","camo3","_leftear","_rightear","_velcro","_VSMz110T"};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
         };
     };
 
@@ -427,6 +593,15 @@
             uniformModel = "x\cfp\addons\models\MitzHelmet4.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","camo1","camo2","camo3","_velcro"};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
         };
     };
 
@@ -443,6 +618,15 @@
             uniformModel = "x\cfp\addons\models\MitzHelmet4.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","camo1","camo2","camo3","_velcro"};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
         };
     };
 
