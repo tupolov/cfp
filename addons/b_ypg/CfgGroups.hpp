@@ -1,368 +1,394 @@
-class CfgGroups
-{
-	class West
-	{
-		class ADDON
-		{
-			name = "YPG";
-			class Infantry
-			{
-				name = "Infantry";
-				class cfp_b_grp_ypg_sentry
-				{
-					name = "Sentry";
-					side = 1;
-					faction = "CFP_B_YPG";
-					rarityGroup = 0.3;
-					class Unit0
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_rifleman";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_rifleman";
-						rank = "PRIVATE";
-						position[] = {5,-5,0};
-					};
-				};
-				class cfp_b_grp_ypg_inf_squad
-				{
-					name = "Infantry Squad";
-					side = 1;
-					faction = "CFP_B_YPG";
-					rarityGroup = 0.3;
-					class Unit0
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_leader";
-						rank = "SERGEANT";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_rifleman";
-						rank = "CORPORAL";
-						position[] = {5,-5,0};
-					};
-					class Unit2
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_rifleman";
-						rank = "PRIVATE";
-						position[] = {-5,-5,0};
-					};
-					class Unit3
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_rifleman";
-						rank = "PRIVATE";
-						position[] = {10,-10,0};
-					};
-					class Unit4
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_machinegunner";
-						rank = "PRIVATE";
-						position[] = {-10,-10,0};
-					};
-					class Unit5
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_sniper";
-						rank = "CORPORAL";
-						position[] = {15,-15,0};
-					};
-					class Unit6
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_at";
-						rank = "PRIVATE";
-						position[] = {-15,-15,0};
-					};
-					class Unit7
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_rifleman";
-						rank = "PRIVATE";
-						position[] = {20,-20,0};
-					};
-					class Unit8
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_rifleman";
-						rank = "PRIVATE";
-						position[] = {-20,-20,0};
-					};
-					class Unit9
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_medic";
-						rank = "PRIVATE";
-						position[] = {25,-25,0};
-					};
-				};
-				class cfp_b_grp_ypg_wpn_squad
-				{
-					name = "Weapons Squad";
-					side = 1;
-					faction = "CFP_B_YPG";
-					rarityGroup = 0.3;
-					class Unit0
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_leader";
-						rank = "SERGEANT";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_rifleman";
-						rank = "CORPORAL";
-						position[] = {5,-5,0};
-					};
-					class Unit2
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_machinegunner";
-						rank = "PRIVATE";
-						position[] = {-5,-5,0};
-					};
-					class Unit3
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_rifleman";
-						rank = "PRIVATE";
-						position[] = {10,-10,0};
-					};
-					class Unit4
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_medic";
-						rank = "PRIVATE";
-						position[] = {-10,-10,0};
-					};
-					class Unit5
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_sniper";
-						rank = "CORPORAL";
-						position[] = {15,-15,0};
-					};
-					class Unit6
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_at";
-						rank = "PRIVATE";
-						position[] = {-15,-15,0};
-					};
-					class Unit7
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_at";
-						rank = "PRIVATE";
-						position[] = {20,-20,0};
-					};
-				};
-				class cfp_b_grp_ypg_inf_fire_team
-				{
-					name = "Fire Team";
-					side = 1;
-					faction = "CFP_B_YPG";
-					rarityGroup = 0.3;
-					class Unit0
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_leader";
-						rank = "SERGEANT";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_machinegunner";
-						rank = "PRIVATE";
-						position[] = {5,-5,0};
-					};
-					class Unit2
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_rifleman";
-						rank = "PRIVATE";
-						position[] = {-5,-5,0};
-					};
-					class Unit3
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_sniper";
-						rank = "PRIVATE";
-						position[] = {10,-10,0};
-					};
-					class Unit4
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_rifleman";
-						rank = "PRIVATE";
-						position[] = {-10,-10,0};
-					};
-				};
-				class cfp_b_grp_ypg_at_team
-				{
-					name = "Anti-Armor Team";
-					side = 1;
-					faction = "CFP_B_YPG";
-					rarityGroup = 0.3;
-					class Unit0
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_leader";
-						rank = "SERGEANT";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_at";
-						rank = "PRIVATE";
-						position[] = {5,-5,0};
-					};
-					class Unit2
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_at";
-						rank = "PRIVATE";
-						position[] = {-5,-5,0};
-					};
-					class Unit3
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_machinegunner";
-						rank = "PRIVATE";
-						position[] = {10,-10,0};
-					};
-					class Unit4
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_rifleman";
-						rank = "PRIVATE";
-						position[] = {-10,-10,0};
-					};
-				};
-				class cfp_b_grp_ypg_sniper_squad
-				{
-					name = "Sniper Squad";
-					side = 1;
-					faction = "CFP_B_YPG";
-					rarityGroup = 0.3;
-					class Unit0
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_leader";
-						rank = "LIEUTENANT";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_sniper";
-						rank = "SERGEANT";
-						position[] = {5,-5,0};
-					};
-					class Unit2
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_machinegunner";
-						rank = "CORPORAL";
-						position[] = {-5,-5,0};
-					};
-					class Unit3
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_medic";
-						rank = "PRIVATE";
-						position[] = {10,-10,0};
-					};
-					class Unit4
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_sniper";
-						rank = "PRIVATE";
-						position[] = {-10,-10,0};
-					};
-				};
-			};
-			class Motorized
-			{
-				name = "Motorized";
-				class cfp_b_grp_ypg_offroad
-				{
-					name = "YPG Offroad Armed";
-					side = 1;
-					faction = "CFP_B_YPG";
-					rarityGroup = 0.3;
-					class Unit0
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_offroad_M2";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-				};
-				class cfp_b_grp_ypg_offroad_patrol
-				{
-					name = "YPG Offroad Armed Patrol";
-					side = 1;
-					faction = "CFP_B_YPG";
-					rarityGroup = 0.3;
-					class Unit0
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_offroad_M2";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_offroad_M2";
-						rank = "PRIVATE";
-						position[] = {5,-5,0};
-					};
-				};
-				class cfp_b_grp_ypg_offroad_group
-				{
-					name = "YPG Offroad Group";
-					side = 1;
-					faction = "CFP_B_YPG";
-					rarityGroup = 0.3;
-					class Unit0
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_offroad_M2";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_offroad";
-						rank = "PRIVATE";
-						position[] = {5,-5,0};
-					};
-					class Unit2
-					{
-						side = 1;
-						vehicle = "cfp_b_ypg_offroad_M2";
-						rank = "PRIVATE";
-						position[] = {-5,-5,0};
-					};
-				};
-			};
-		};
-	};
+//////////////////////////////////////////////////////////////////////////////////
+// Config Automatically Generated by ALiVE ORBAT Creator
+// Generated with Arma 3 version 190.145471 on Stable branch
+// Generated with ALiVE version 1.9.1.1901021
+//////////////////////////////////////////////////////////////////////////////////
+
+class CfgGroups {
+    class WEST {
+
+        class CFP_B_YPG {
+            name = "YPG";
+
+            class Infantry {
+                name = "Infantry";
+
+                class cfp_b_grp_ypg_sentry {
+                    name = "Sentry";
+                    side = 1;
+                    faction = "CFP_B_YPG";
+                    icon = "";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_rifleman";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_rifleman";
+                    };
+                };
+
+                class cfp_b_grp_ypg_inf_squad {
+                    name = "Infantry Squad";
+                    side = 1;
+                    faction = "CFP_B_YPG";
+                    icon = "";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_leader";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_rifleman";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_rifleman";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_rifleman";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_machinegunner";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_sniper";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_at";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_rifleman";
+                    };
+                    class Unit8 {
+                        position[] = {-20,-20,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_rifleman";
+                    };
+                    class Unit9 {
+                        position[] = {25,-25,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_medic";
+                    };
+                };
+
+                class cfp_b_grp_ypg_wpn_squad {
+                    name = "Weapons Squad";
+                    side = 1;
+                    faction = "CFP_B_YPG";
+                    icon = "";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_leader";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_rifleman";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_machinegunner";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_rifleman";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_medic";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_sniper";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_at";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_at";
+                    };
+                };
+
+                class cfp_b_grp_ypg_inf_fire_team {
+                    name = "Fire Team";
+                    side = 1;
+                    faction = "CFP_B_YPG";
+                    icon = "";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_leader";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_machinegunner";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_rifleman";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_sniper";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_rifleman";
+                    };
+                };
+
+                class cfp_b_grp_ypg_at_team {
+                    name = "Anti-Armor Team";
+                    side = 1;
+                    faction = "CFP_B_YPG";
+                    icon = "";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_leader";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_at";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_at";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_machinegunner";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_rifleman";
+                    };
+                };
+
+                class cfp_b_grp_ypg_sniper_squad {
+                    name = "Sniper Squad";
+                    side = 1;
+                    faction = "CFP_B_YPG";
+                    icon = "";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "LIEUTENANT";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_leader";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_sniper";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_machinegunner";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_medic";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_sniper";
+                    };
+                };
+
+            };
+
+            class SpecOps {
+                name = "Special Forces";
+
+            };
+
+            class Motorized {
+                name = "Motorized";
+
+                class cfp_b_grp_ypg_offroad {
+                    name = "YPG Offroad Armed";
+                    side = 1;
+                    faction = "CFP_B_YPG";
+                    icon = "";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_offroad_M2";
+                    };
+                };
+
+                class cfp_b_grp_ypg_offroad_patrol {
+                    name = "YPG Offroad Armed Patrol";
+                    side = 1;
+                    faction = "CFP_B_YPG";
+                    icon = "";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_offroad_M2";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_offroad_M2";
+                    };
+                };
+
+                class cfp_b_grp_ypg_offroad_group {
+                    name = "YPG Offroad Group";
+                    side = 1;
+                    faction = "CFP_B_YPG";
+                    icon = "";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_offroad_M2";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_offroad";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_ypg_offroad_M2";
+                    };
+                };
+
+            };
+
+            class Motorized_MTP {
+                name = "Motorized Infantry (MTP)";
+
+            };
+
+            class Support {
+                name = "Support Infantry";
+
+            };
+
+            class Mechanized {
+                name = "Mechanized Infantry";
+
+            };
+
+            class Armored {
+                name = "Armor";
+
+            };
+
+            class Artillery {
+                name = "Artillery";
+
+            };
+
+            class Naval {
+                name = "Naval";
+
+            };
+
+            class Air {
+                name = "Air";
+
+            };
+
+
+        };
+
+    };
 };
