@@ -52,6 +52,96 @@
 		};
 	};
 
+	class CFP_BDU_PolyDes : Uniform_Base
+    {
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_M81Mali.paa;
+
+		scope=2;
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+		displayName = "BDU (Polygon Desert)";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+			uniformClass = "CFP_BDU_PolyDes";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
+	class CFP_BDU_PolyDes2 : Uniform_Base
+    {
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_M81Mali.paa;
+
+		scope=2;
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU_rolled_up.p3d";
+		displayName = "BDU (Polygon Desert Rolled Up)";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU_rolled_up.p3d";
+			uniformClass = "CFP_BDU_PolyDes2";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
+	class CFP_BDU_PolyDes3 : Uniform_Base
+    {
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_M81Mali.paa;
+
+		scope=2;
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU_rolled_up2.p3d";
+		displayName = "BDU (Polygon Desert Rolled Up 2)";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU_rolled_up2.p3d";
+			uniformClass = "CFP_BDU_PolyDes3";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
+	class CFP_BDU_PolyDes4 : Uniform_Base
+    {
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_M81Mali.paa;
+
+		scope=2;
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU_rolled_up2_gloves.p3d";
+		displayName = "BDU (Polygon Desert Rolled Up 2 Gloves)";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU_rolled_up2_gloves.p3d";
+			uniformClass = "CFP_BDU_PolyDes4";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
+	class CFP_BDU_PolyDes5 : Uniform_Base
+    {
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_M81Mali.paa;
+
+		scope=2;
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU_rolled_up_gloves.p3d";
+		displayName = "BDU (Polygon Desert Rolled Up Gloves)";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU_rolled_up_gloves.p3d";
+			uniformClass = "CFP_BDU_PolyDes5";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
 	class CFP_BDU_Wdl_Mali : Uniform_Base
     {
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_Wdl_Mali.paa;
@@ -88,6 +178,24 @@
 		};
 	};
 
+	class CFP_BDU_M81Iraq : Uniform_Base
+    {
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_M81.paa;
+
+		scope=2;
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+		displayName = "BDU (Iraq M81)";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+			uniformClass = "CFP_BDU_M81Iraq";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
 	class CFP_BDU_UCP : Uniform_Base
     {
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_UCP.paa;
@@ -119,6 +227,78 @@
 		{
 			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 			uniformClass = "CFP_BDU_DCU";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
+	class CFP_BDU_DCU2 : Uniform_Base
+    {
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_DCU.paa;
+
+		scope=2;
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU_rolled_up.p3d";
+		displayName = "BDU (DCU Rolled Up)";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU_rolled_up.p3d";
+			uniformClass = "CFP_BDU_DCU2";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
+	class CFP_BDU_DCU3 : Uniform_Base
+    {
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_DCU.paa;
+
+		scope=2;
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU_rolled_up2.p3d";
+		displayName = "BDU (DCU Rolled Up 2)";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU_rolled_up2.p3d";
+			uniformClass = "CFP_BDU_DCU3";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
+	class CFP_BDU_DCU4 : Uniform_Base
+    {
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_DCU.paa;
+
+		scope=2;
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU_rolled_up2_gloves.p3d";
+		displayName = "BDU (DCU Rolled Up 2 Gloves)";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU_rolled_up2_gloves.p3d";
+			uniformClass = "CFP_BDU_DCU4";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
+	class CFP_BDU_DCU5 : Uniform_Base
+    {
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_DCU.paa;
+
+		scope=2;
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU_rolled_up_gloves.p3d";
+		displayName = "BDU (DCU Rolled Up Gloves)";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU_rolled_up_gloves.p3d";
+			uniformClass = "CFP_BDU_DCU5";
 			containerClass="Supply60";
 			mass=20;
 		};

@@ -500,3 +500,51 @@ class CfgVehicleClasses
 
 		};
 	};
+
+	class CFP_Modular1_DCU: V_PlateCarrier1_rgr
+{
+    picture = "\x\cfp\addons\vests\data\ui\icon_SP_Modular1_Green.paa";
+		scope = 2;
+		displayName = "Modular 1 (DCU)";
+		// picture = "\x\cfp\addons\vests\Modular1\ui\Green.jpg";
+		model = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Modular1\DCU.paa"};
+		hiddenSelections[] = {"Camo"};
+
+
+
+		class ItemInfo: VestItem
+		{
+			uniformModel = "A3\Characters_F_Beta\INDEP\equip_ia_vest01";
+			containerClass = "Supply120";
+			hiddenSelections[] = {"camo"};
+			mass = 60;
+			class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					hitpointName = "HitChest";
+					armor = 16;
+					passThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					hitpointName = "HitDiaphragm";
+					armor = 16;
+					passThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 16;
+					passThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.2;
+				};
+			};
+
+		};
+	};
