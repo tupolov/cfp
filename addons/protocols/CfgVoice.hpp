@@ -32,7 +32,7 @@ class cfgVoice
 			"Head_Special",
 			"Language_Ackbar"
 		};
-		icon="\x\cfp\logo_cfp_small_ca.paa";
+		icon="logo_cfp_small_ca.paa";
 
 	};
 	/*

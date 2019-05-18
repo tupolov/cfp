@@ -9,7 +9,7 @@ class CfgFactionClasses {
     {
         displayName = FACTIONDISPLAY;
 		author = "CFP Team";
-		icon = "\x\cfp\logo_cfp_small_ca.paa";
+		icon = "logo_cfp_small_ca.paa";
 		priority = 1;
 		side = SIDE;
     };
