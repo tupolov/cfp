@@ -196,6 +196,96 @@
 		};
 	};
 
+	class CFP_BDU_M81Iraq2 : Uniform_Base
+    {
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_M81.paa;
+
+		scope=2;
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU_rolled_up.p3d";
+		displayName = "BDU (Iraq M81 Rolled Sleeves)";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU_rolled_up.p3d";
+			uniformClass = "CFP_BDU_M81Iraq2";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
+	class CFP_BDU_M81Iraq3 : Uniform_Base
+    {
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_M81.paa;
+
+		scope=2;
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU_rolled_up2.p3d";
+		displayName = "BDU (Iraq M81 Rolled Sleeves 2)";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU_rolled_up2.p3d";
+			uniformClass = "CFP_BDU_M81Iraq3";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
+	class CFP_BDU_RGDPM : Uniform_Base
+    {
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_M81.paa;
+
+		scope=2;
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+		displayName = "BDU (Iraq DPM)";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+			uniformClass = "CFP_BDU_RGDPM";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
+	class CFP_BDU_RGDPM2 : Uniform_Base
+    {
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_M81.paa;
+
+		scope=2;
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU_rolled_up.p3d";
+		displayName = "BDU (Iraq DPM Rolled Sleeves)";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU_rolled_up.p3d";
+			uniformClass = "CFP_BDU_RGDPM2";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
+	class CFP_BDU_RGDPM3 : Uniform_Base
+    {
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_M81.paa;
+
+		scope=2;
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU_rolled_up2.p3d";
+		displayName = "BDU (Iraq DPM Rolled Sleeves 2)";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU_rolled_up2.p3d";
+			uniformClass = "CFP_BDU_RGDPM3";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
 	class CFP_BDU_UCP : Uniform_Base
     {
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_UCP.paa;
