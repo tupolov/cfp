@@ -498,7 +498,7 @@ class CfgVehicles {
 
         displayName = "Repair Specialist";
         engineer = 1;
-         linkedItems[] = {"CFP_ITV_Empty","CFP_Basic_Helmet_M81","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"CFP_ITV_Empty","CFP_Basic_Helmet_M81","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CFP_ITV_Empty","CFP_Basic_Helmet_M81","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
         weapons[] = {"CUP_arifle_M16A4_Base"};
@@ -517,8 +517,7 @@ class CfgVehicles {
 
         displayName = "Sniper";
 
-
-       linkedItems[] = {"CFP_ITV_Rifleman","CFP_Basic_Helmet_M81","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"CFP_ITV_Rifleman","CFP_Basic_Helmet_M81","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CFP_ITV_Rifleman","CFP_Basic_Helmet_M81","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
         weapons[] = {"CUP_srifle_M24_wdl"};
@@ -528,7 +527,6 @@ class CfgVehicles {
         respawnMagazines[] = {"CUP_5Rnd_762x51_M24","CUP_5Rnd_762x51_M24"};
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_M24_wdl","","","CUP_optic_LeupoldMk4",{"CUP_5Rnd_762x51_M24",5},{},""},{},{},{"CFP_U_FieldUniform_ana_wddark",{{"FirstAidKit",1},{"CUP_5Rnd_762x51_M24",1,5},{"MiniGrenade",2,1},{"SmokeShell",1,1}}},{"CFP_ITV_Rifleman",{{"FirstAidKit",1},{"CUP_5Rnd_762x51_M24",7,5}}},{},"CFP_Basic_Helmet_M81","CFP_Neck_Wrap4",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
-
 
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Sniper_01.jpg";
     };
