@@ -1684,7 +1684,7 @@ class CfgVehicles {
 
         backpack = "B_Assault_Diver";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_smg_MP5SD6","","","optic_Holosight_smg_blk_F",{},{},""},{},{"CUP_hgun_Glock17_blk","muzzle_snds_L","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"U_B_Wetsuit",{{"FirstAidKit",1},{"SmokeShellBlue",2,1},{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_17Rnd_9x19_glock17",1,17},{"CUP_30Rnd_9x19_MP5",1,30}}},{"V_RebreatherB",{}},{"B_Assault_Diver",{{"CUP_30Rnd_556x45_Stanag",2,30},{"SatchelCharge_Remote_Mag",1,1},{"CUP_30Rnd_9x19_MP5",3,30},{{"Rangefinder","","","",{},{},""},1}}},"","G_B_Diving",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_smg_MP5SD6","","","optic_Holosight_smg_blk_F",{},{},""},{},{"CUP_hgun_Glock17_blk","muzzle_snds_L","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"U_B_Wetsuit",{{"FirstAidKit",1},{"SmokeShellBlue",2,1},{"CUP_30Rnd_9x19_MP5",4,30},{"CUP_17Rnd_9x19_glock17",1,17},{"CUP_30Rnd_9x19_MP5",1,30}}},{"V_RebreatherB",{}},{"B_Assault_Diver",{{"CUP_30Rnd_9x19_MP5",2,30},{"SatchelCharge_Remote_Mag",1,1},{"CUP_30Rnd_9x19_MP5",3,30},{{"Rangefinder","","","",{},{},""},1}}},"","G_B_Diving",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
