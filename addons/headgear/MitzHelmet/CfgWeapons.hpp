@@ -78,6 +78,32 @@
             };
         };
     };
+    class CFP_Mitznefet_Mcam : CFP_Mitznefet
+    {
+        picture = \x\cfp\addons\headgear\data\ui\icon_CFP_Mitznefet_Desert.paa;
+        displayName = "Mitznefet (Multicam Black Facewrap)";
+
+        model = "\x\cfp\addons\models\Miznefet2.p3d";
+        hiddenSelections[] = {"Camo"};
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz3_co.paa"};
+        class ItemInfo: HeadgearItem
+        {
+            mass = 30;
+            uniformModel = "\x\cfp\addons\models\Miznefet2.p3d";
+            hiddenSelections[] = {"Camo"};
+            hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz3_co.paa"};
+            modelSides[] = {3,1};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
+        };
+    };
 
     class CFP_Mitznefet_Tan : CFP_Mitznefet
     {
@@ -269,6 +295,35 @@
         };
     };
 
+    class CFP_MitzHelm1_Mcam  : ItemCore
+    {
+        picture = \x\cfp\addons\headgear\data\ui\icon_CFP_MitzHelm1_Wdl.paa;
+        scope = 2;
+        weaponPoolAvailable = 1;
+        author = "CFP";
+        displayName = "Mitznefet v1 (Multicam Base)";
+
+        model = "x\cfp\addons\models\MitzHelmet1.p3d";
+        hiddenSelections[] = {"Camo","camo1","camo2","camo3","_helmBase","_leftear","_rightear","_velcro","_VSMz110T"};
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz3_co.paa","\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_olivefabric.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
+        class ItemInfo: HeadgearItem
+        {
+            mass = 30;
+            uniformModel = "x\cfp\addons\models\MitzHelmet1.p3d";
+            modelSides[] = {3,1};
+            hiddenSelections[] = {"Camo","camo1","camo2","camo3","_leftear","_rightear","_velcro","_VSMz110T"};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
+        };
+    };
+
     class CFP_MitzHelm1_Des2  : CFP_MitzHelm1_Wdl
     {
         picture = \x\cfp\addons\headgear\data\ui\icon_CFP_MitzHelm1_Des2.paa;
@@ -300,6 +355,30 @@
         displayName = "Mitznefet v1 (Woodland Comms)";
         hiddenSelections[] = {"Camo","camo1","camo2","camo3","_velcro"};
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz1_co.paa","\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_olivefabric.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
+        class ItemInfo: HeadgearItem
+        {
+            mass = 30;
+            uniformModel = "x\cfp\addons\models\MitzHelmet1.p3d";
+            modelSides[] = {3,1};
+            hiddenSelections[] = {"Camo","camo1","camo2","camo3","_velcro"};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
+        };
+    };
+    class CFP_MitzHelm1_Mcam2  : CFP_MitzHelm1_Wdl
+    {
+        picture = \x\cfp\addons\headgear\data\ui\icon_CFP_MitzHelm1_Wdl2.paa;
+        author = "CFP";
+        displayName = "Mitznefet v1 (Multicam Comms)";
+        hiddenSelections[] = {"Camo","camo1","camo2","camo3","_velcro"};
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz3_co.paa","\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_olivefabric.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
         class ItemInfo: HeadgearItem
         {
             mass = 30;
@@ -372,6 +451,35 @@
         };
     };
 
+    class CFP_MitzHelm2_Mcam  : ItemCore
+    {
+        picture = \x\cfp\addons\headgear\data\ui\icon_CFP_MitzHelm2_Wdl.paa;
+        scope = 2;
+        weaponPoolAvailable = 1;
+        author = "CFP";
+        displayName = "Mitznefet v2 (Multicam Base)";
+
+        model = "x\cfp\addons\models\MitzHelmet2.p3d";
+        hiddenSelections[] = {"Camo","camo1","camo2","camo3","_helmBase","_leftear","_rightear","_velcro","_VSMz110T"};
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz3_co.paa","\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_olivefabric.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
+        class ItemInfo: HeadgearItem
+        {
+            mass = 30;
+            uniformModel = "x\cfp\addons\models\MitzHelmet2.p3d";
+            modelSides[] = {3,1};
+            hiddenSelections[] = {"Camo","camo1","camo2","camo3","_leftear","_rightear","_velcro","_VSMz110T"};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
+        };
+    };
+
     class CFP_MitzHelm2_Des2  : CFP_MitzHelm2_Wdl
     {
         picture = \x\cfp\addons\headgear\data\ui\icon_CFP_MitzHelm2_Des2.paa;
@@ -404,6 +512,31 @@
         displayName = "Mitznefet v2 (Woodland Comms)";
         hiddenSelections[] = {"Camo","camo1","camo2","camo3","_velcro"};
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz1_co.paa","\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_olivefabric.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
+        class ItemInfo: HeadgearItem
+        {
+            mass = 30;
+            uniformModel = "x\cfp\addons\models\MitzHelmet2.p3d";
+            modelSides[] = {3,1};
+            hiddenSelections[] = {"Camo","camo1","camo2","camo3","_velcro"};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
+        };
+    };
+
+    class CFP_MitzHelm2_Mcam2  : CFP_MitzHelm2_Wdl
+    {
+        picture = \x\cfp\addons\headgear\data\ui\icon_CFP_MitzHelm2_Wdl2.paa;
+        author = "CFP";
+        displayName = "Mitznefet v2 (Multicam Comms)";
+        hiddenSelections[] = {"Camo","camo1","camo2","camo3","_velcro"};
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz3_co.paa","\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_olivefabric.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
         class ItemInfo: HeadgearItem
         {
             mass = 30;
@@ -476,6 +609,35 @@
         };
     };
 
+    class CFP_MitzHelm3_Mcam  : ItemCore
+    {
+        picture = \x\cfp\addons\headgear\data\ui\icon_CFP_MitzHelm3_Wdl.paa;
+        scope = 2;
+        weaponPoolAvailable = 1;
+        author = "CFP";
+        displayName = "Mitznefet v3 (Multicam Base)";
+
+        model = "x\cfp\addons\models\MitzHelmet3.p3d";
+        hiddenSelections[] = {"Camo","camo1","camo2","camo3","_helmBase","_leftear","_rightear","_velcro","_VSMz110T"};
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz3_co.paa","\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_olivefabric.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
+        class ItemInfo: HeadgearItem
+        {
+            mass = 30;
+            uniformModel = "x\cfp\addons\models\MitzHelmet3.p3d";
+            modelSides[] = {3,1};
+            hiddenSelections[] = {"Camo","camo1","camo2","camo3","_leftear","_rightear","_velcro","_VSMz110T"};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
+        };
+    };
+
     class CFP_MitzHelm3_Des2  : CFP_MitzHelm3_Wdl
     {
         picture = \x\cfp\addons\headgear\data\ui\icon_CFP_MitzHelm3_Des2.paa;
@@ -508,6 +670,31 @@
         displayName = "Mitznefet v3 (Woodland Comms)";
         hiddenSelections[] = {"Camo","camo1","camo2","camo3","_velcro"};
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz1_co.paa","\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_olivefabric.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
+        class ItemInfo: HeadgearItem
+        {
+            mass = 30;
+            uniformModel = "x\cfp\addons\models\MitzHelmet3.p3d";
+            modelSides[] = {3,1};
+            hiddenSelections[] = {"Camo","camo1","camo2","camo3","_velcro"};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
+        };
+    };
+
+    class CFP_MitzHelm3_Mcam2  : CFP_MitzHelm3_Wdl
+    {
+        picture = \x\cfp\addons\headgear\data\ui\icon_CFP_MitzHelm3_Wdl2.paa;
+        author = "CFP";
+        displayName = "Mitznefet v3 (Multicam Comms)";
+        hiddenSelections[] = {"Camo","camo1","camo2","camo3","_velcro"};
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz3_co.paa","\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_olivefabric.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
         class ItemInfo: HeadgearItem
         {
             mass = 30;
@@ -580,6 +767,35 @@
         };
     };
 
+    class CFP_MitzHelm4_Mcam  : ItemCore
+    {
+        picture = \x\cfp\addons\headgear\data\ui\icon_CFP_MitzHelm4_Wdl.paa;
+        scope = 2;
+        weaponPoolAvailable = 1;
+        author = "CFP";
+        displayName = "Mitznefet v4 (Multicam Base)";
+
+        model = "x\cfp\addons\models\MitzHelmet4.p3d";
+        hiddenSelections[] = {"Camo","camo1","camo2","camo3","_helmBase","_leftear","_rightear","_velcro","_VSMz110T"};
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz3_co.paa","\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_olivefabric.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
+        class ItemInfo: HeadgearItem
+        {
+            mass = 30;
+            uniformModel = "x\cfp\addons\models\MitzHelmet4.p3d";
+            modelSides[] = {3,1};
+            hiddenSelections[] = {"Camo","camo1","camo2","camo3","_leftear","_rightear","_velcro","_VSMz110T"};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
+        };
+    };
+
     class CFP_MitzHelm4_Des2  : CFP_MitzHelm2_Wdl
     {
         picture = \x\cfp\addons\headgear\data\ui\icon_CFP_MitzHelm4_Des2.paa;
@@ -612,6 +828,31 @@
         displayName = "Mitznefet v4 (Woodland Comms)";
         hiddenSelections[] = {"Camo","camo1","camo2","camo3","_velcro"};
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz1_co.paa","\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_olivefabric.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
+        class ItemInfo: HeadgearItem
+        {
+            mass = 30;
+            uniformModel = "x\cfp\addons\models\MitzHelmet4.p3d";
+            modelSides[] = {3,1};
+            hiddenSelections[] = {"Camo","camo1","camo2","camo3","_velcro"};
+            class HitpointsProtectionInfo
+            {
+                class Head
+                {
+                    hitpointName = "HitHead";
+                    armor = 6;
+                    passThrough = 0.500000;
+                };
+            };
+        };
+    };
+
+    class CFP_MitzHelm4_Mcam2  : CFP_MitzHelm2_Wdl
+    {
+        picture = \x\cfp\addons\headgear\data\ui\icon_CFP_MitzHelm4_Wdl2.paa;
+        author = "CFP";
+        displayName = "Mitznefet v4 (Multicam Comms)";
+        hiddenSelections[] = {"Camo","camo1","camo2","camo3","_velcro"};
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz3_co.paa","\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_olivefabric.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
         class ItemInfo: HeadgearItem
         {
             mass = 30;
