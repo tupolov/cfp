@@ -96,7 +96,7 @@
 		displayname = "Scarf/Shades (Green)";
 		model = "\x\cfp\addons\models\Scarfshades.p3d";
 		hiddenSelections[] = {"Camo","lense"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\ShemaghNeck\shemagh_neck_rgr_co.paa","x\cfp\addons\glasses\75facewear\tex\glass_dark_ca.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\ShemaghNeck\shemagh_neck_rgr_co.paa","\x\cfp\addons\glasses\75facewear\tex\glass_dark_ca.paa"};
 		picture = "\x\cfp\addons\glasses\Goggles\ui\Black.jpg";
 		identityTypes[] = {"NoGlasses",0};
 	};
@@ -107,7 +107,7 @@
 		displayname = "Scarf/Shades (Grey)";
 		model = "\x\cfp\addons\models\Scarfshades.p3d";
 		hiddenSelections[] = {"Camo","lense"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\ShemaghNeck\shemagh_neck_grey.paa","x\cfp\addons\glasses\75facewear\tex\glass_dark_ca.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\ShemaghNeck\shemagh_neck_grey.paa","\x\cfp\addons\glasses\75facewear\tex\glass_dark_ca.paa"};
 		picture = "\x\cfp\addons\glasses\Goggles\ui\Black.jpg";
 		identityTypes[] = {"NoGlasses",0};
 	};
@@ -118,7 +118,7 @@
 		displayname = "Scarf/Shades (Tan)";
 		model = "\x\cfp\addons\models\Scarfshades.p3d";
 		hiddenSelections[] = {"Camo","lense"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\ShemaghNeck\shemagh_neck_tan.paa","x\cfp\addons\glasses\75facewear\tex\glass_dark_ca.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\ShemaghNeck\shemagh_neck_tan.paa","\x\cfp\addons\glasses\75facewear\tex\glass_dark_ca.paa"};
 		picture = "\x\cfp\addons\glasses\Goggles\ui\Black.jpg";
 		identityTypes[] = {"NoGlasses",0};
 	};

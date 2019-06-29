@@ -1,3 +1,14 @@
+#include "opscore_macro.h"
+
+OPSCORE(CUP_H_OpsCore_Covered_IDF_SF, "Ops Core FAST Covered SF (IDF Black)",icon_acr_helmet01.paa,covered_all,CUP_ops_core_covered_blk_co.paa,CUP_ops_core_part_1_blk_co.paa,CUP_ops_core_parts_2_co.paa, \x\cfp\addons\headgear\75Headgear\tex\idf_skull_co.paa);
+OPSCORE(CUP_H_OpsCore_Covered_IDF, "Ops Core FAST Covered (IDF Black)",icon_acr_helmet01.paa,covered_hs,CUP_ops_core_covered_blk_co.paa,CUP_ops_core_part_1_blk_idf_co.paa,CUP_ops_core_parts_2_co.paa, \x\cfp\addons\headgear\75Headgear\tex\idf_flag_co.paa);
+OPSCORE(CUP_H_OpsCore_Covered_AOR1_US_SF, "Ops Core FAST Covered SF (AOR1 US)",icon_acr_helmet01.paa,covered_all,CUP_ops_core_covered_aor1_co.paa,CUP_ops_core_part_1_tan_co.paa,CUP_ops_core_parts_2_co.paa, \CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\us_flag_co.paa);
+OPSCORE(CUP_H_OpsCore_Covered_AOR1_US, "Ops Core FAST Covered (AOR1 US)",icon_acr_helmet01.paa,covered_hs,CUP_ops_core_covered_aor1_co.paa,CUP_ops_core_part_1_tan_us_co.paa,CUP_ops_core_parts_2_co.paa, \CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\us_flag_camo_co.paa);
+OPSCORE(CUP_H_OpsCore_Covered_AOR2_US_SF, "Ops Core FAST Covered SF (AOR2 US)",icon_acr_helmet01.paa,covered_all,CUP_ops_core_covered_aor2_co.paa,CUP_ops_core_part_1_grn_co.paa,CUP_ops_core_parts_2_co.paa, \CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\us_flag_co.paa);
+OPSCORE(CUP_H_OpsCore_Covered_AOR2_US, "Ops Core FAST Covered (AOR2 US)",icon_acr_helmet01.paa,covered_hs,CUP_ops_core_covered_aor2_co.paa,CUP_ops_core_part_1_grn_us_co.paa,CUP_ops_core_parts_2_co.paa, \CUP\Creatures\People\Military\CUP_Creatures_People_Military_Extra\opscore\data\us_flag_camo_co.paa);
+OPSCORE(CUP_H_OpsCore_Black_NoHS_IASF, "Ops Core FAST no Headset (IASF Black)",icon_acr_helmet01.paa,plain,CUP_ops_core_black_co.paa,CUP_ops_core_part_1_blk_co.paa,CUP_ops_core_parts_2_co.paa, \x\cfp\addons\headgear\75Headgear\tex\iraq_flag_co.paa);
+OPSCORE(CUP_H_OpsCore_Black_IASF, "Ops Core FAST (IASF Black)",icon_acr_helmet01.paa,hs,CUP_ops_core_black_co.paa,CUP_ops_core_part_1_blk_co.paa,CUP_ops_core_parts_2_co.paa, \x\cfp\addons\headgear\75Headgear\tex\iraq_flag_co.paa);
+
 ////////////////////////////////////OPSCORE/HELMETS////////////////////////////////////
 
 
