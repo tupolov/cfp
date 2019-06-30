@@ -34,3 +34,14 @@
 
 
 	};
+
+	class SP_Kneepads2: None
+	{
+		scope = 2;
+		displayname = "Knee Pads";
+		model = "\x\cfp\addons\models\Kneepads2.p3d";
+		picture = "\x\cfp\addons\glasses\KneePads\ui\Tan.jpg";
+		identityTypes[] = {"NoGlasses",0};
+
+
+	};

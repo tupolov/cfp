@@ -602,10 +602,10 @@ class CfgVehicles {
             "CFP_BaseballCap_IASF2", 0.4,
             "CFP_BaseballCap_IASF3", 0.4,
             "CFP_BaseballCap_IASF1", 0.4,
-            "CFP_OPS2017_Helmet_Black2", 0.2,
-            "CFP_OPS2017_Helmet_Black", 0.2,
-            "VSM_OPS2017_Helmet_Tan", 0.2,
-            "CFP_OPS2017_Helmet_OliveFabric", 0.2,
+            "CUP_H_OpsCore_Tan", 0.2,
+            "CUP_H_OpsCore_Black_IASF", 0.2,
+            "CUP_H_OpsCore_Black_NoHS_IASF", 0.2,
+            "CUP_H_OpsCore_Grey_NoHS", 0.2,
             "CUP_H_USArmy_Helmet_ECH1_Sand", 0.2,
             "CUP_H_USArmy_Helmet_ECH1_Black", 0.2,
             "CUP_H_USArmy_Helmet_ECH1_Green", 0.2,
@@ -715,10 +715,10 @@ class CfgVehicles {
 
         //Helmets
         headgearList[] = {
-            "CFP_OPS2017_Helmet_Black2", 0.2,
-            "CFP_OPS2017_Helmet_Black", 0.2,
-            "VSM_OPS2017_Helmet_Tan", 0.2,
-            "CFP_OPS2017_Helmet_OliveFabric", 0.2,
+            "CUP_H_OpsCore_Tan", 0.2,
+            "CUP_H_OpsCore_Black_IASF", 0.4,
+            "CUP_H_OpsCore_Black_SF", 0.2,
+            "CUP_H_OpsCore_Grey_NoHS", 0.2,
             "CUP_H_USArmy_Helmet_ECH1_Sand", 0.2,
             "CUP_H_USArmy_Helmet_ECH1_Black", 0.2,
             "CUP_H_USArmy_Helmet_ECH1_Green", 0.2,
@@ -1584,7 +1584,7 @@ class CfgVehicles {
             item_xx(B_Kitbag_cbr,10);
             item_xx(V_TacVest_blk,10);
             item_xx(CFP_CarrierRig_Operator_OGA_OD,10);
-            item_xx(CFP_OPS2017_Helmet_Black2,10);
+            item_xx(CUP_H_OpsCore_Tan,10);
             item_xx(G_Bandanna_blk,10);
             item_xx(CUP_B_DShkM_TripodHigh_Bag,10);
             item_xx(CUP_B_Kord_Tripod_Bag,10);
@@ -1637,7 +1637,7 @@ class CfgVehicles {
             item_xx(B_Kitbag_cbr,10);
             item_xx(V_TacVest_blk,10);
             item_xx(CFP_CarrierRig_Operator_OGA_OD,10);
-            item_xx(CFP_OPS2017_Helmet_Black2,10);
+            item_xx(CUP_H_OpsCore_Tan,10);
             item_xx(G_Bandanna_blk,10);
             item_xx(CUP_B_DShkM_TripodHigh_Bag,10);
             item_xx(CUP_B_Kord_Tripod_Bag,10);

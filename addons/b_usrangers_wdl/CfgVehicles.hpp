@@ -540,38 +540,51 @@ class CfgVehicles {
                 "CFP_75th_CRYEG3_V4", 0.2
             };
 
+        //Rangers Vests
+            vestList[] = {
+                "CUP_V_B_Ciras_Olive", 0.2,
+                "CUP_V_B_Ciras_Olive2", 0.2,
+                "CUP_V_B_Ciras_Khaki", 0.2,
+                "CUP_V_B_Ciras_Khaki2", 0.2,
+                "CUP_V_B_Ciras_MCam", 0.3,
+                "CUP_V_B_Ciras_MCam2", 0.3
+            };
+
         //Rangers Helmets
-                headgearList[] = {
-                    "CFP_OpsC_Covered", 0.2,
-                    "CFP_OpsC_Covered2", 0.2,
-                    "CFP_OpsC_Painted", 0.2,
-                    "CFP_OpsC_Uncovered", 0.2,
-                    "CFP_OpsC_Med", 0.2,
-                    "CFP_OpsC_Cov_Goggles_Off", 0.2,
-                    "CFP_OpsC_Uncov_Goggle_Off", 0.2
-                };
+            headgearList[] = {
+                "CFP_OpsC_Covered", 0.2,
+                "CFP_OpsC_Covered2", 0.2,
+                "CFP_OpsC_Painted", 0.2,
+                "CFP_OpsC_Uncovered", 0.2,
+                "CFP_OpsC_Med", 0.2,
+                "CFP_OpsC_Cov_Goggles_Off", 0.2,
+                "CUP_H_OpsCore_Covered_MCAM_US_SF", 0.5,
+                "CUP_H_OpsCore_Spray_US_SF", 0.3,
+                "CUP_H_OpsCore_Tan_SF", 0.3,
+                "CFP_OpsC_Uncov_Goggle_Off", 0.2
+            };
 
         //Rangers FaceWear
-                facewearList[] = {
-                    "CFP_Tac_Goggles_Blk_Drk", 0.2,
-                    "CFP_Tac_Goggles_Blk_Ylw", 0.2,
-                    "CFP_Tac_Goggles_Blk_Clr", 0.2,
-                    "CFP_Tac_Goggles_Blk_Drk", 0.2,
-                    "CFP_Oakleys_Clr", 0.2,
-                    "CFP_Oakleys_Drk", 0.2,
-                    "CFP_Oakleys_Embr", 0.2,
-                    "CFP_Oakley_Goggles_Blk", 0.2,
-                    "CFP_Oakley_Goggles_MCam", 0.2,
-                    "CFP_Face_Wear_Blk", 0.2,
-                    "CFP_Face_Wear_Spook", 0.2,
-                    "CFP_UA_Thermals_Grn", 0.2,
-                    "CFP_UA_Thermals_Grn_GPS", 0.2,
-                    "CFP_UA_Thermals_Blk", 0.2,
-                    "CFP_UA_Thermals_Blk_GPS", 0.2,
-                    "CFP_Oakley_Thermals_Gry", 0.2,
-                    "CFP_Oakley_Thermals_Blk", 0.2,
-                    "CFP_Foretex", 0.2
-                };
+            facewearList[] = {
+                "CFP_Tac_Goggles_Blk_Drk", 0.2,
+                "CFP_Tac_Goggles_Blk_Ylw", 0.2,
+                "CFP_Tac_Goggles_Blk_Clr", 0.2,
+                "CFP_Tac_Goggles_Blk_Drk", 0.2,
+                "CFP_Oakleys_Clr", 0.2,
+                "CFP_Oakleys_Drk", 0.2,
+                "CFP_Oakleys_Embr", 0.2,
+                "CFP_Oakley_Goggles_Blk", 0.2,
+                "CFP_Oakley_Goggles_MCam", 0.2,
+                "CFP_Face_Wear_Blk", 0.2,
+                "CFP_Face_Wear_Spook", 0.2,
+                "CFP_UA_Thermals_Grn", 0.2,
+                "CFP_UA_Thermals_Grn_GPS", 0.2,
+                "CFP_UA_Thermals_Blk", 0.2,
+                "CFP_UA_Thermals_Blk_GPS", 0.2,
+                "CFP_Oakley_Thermals_Gry", 0.2,
+                "CFP_Oakley_Thermals_Blk", 0.2,
+                "CFP_Foretex", 0.2
+            };
 
 
         class EventHandlers : EventHandlers {
