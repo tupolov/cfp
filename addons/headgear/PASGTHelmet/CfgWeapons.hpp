@@ -1,3 +1,53 @@
+	class CFP_PASGTHelmet_DBDU1 : ItemCore
+    {
+        picture = \x\cfp\addons\headgear\data\ui\icon_SP_PASGTHelmet_Black1.paa;
+
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName  = "PASGT Helmet (US DBDU)";
+		//
+		model = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
+		hiddenSelections[] = {"camo", "NVG_mount"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\DBDU.paa"};
+		author = "CFP";
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 60;
+			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
+			modelSides[] = {3,1};
+			armor = 10;
+			passThrough = 0.30;
+			HITPOINTS_HEAD(10,0.30)
+			hiddenSelections[] = {"camo", "NVG_mount"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\DBDU.paa","\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\data\new_usmc_gear3_tan_co.paa"};
+		};
+	};
+
+	class CFP_PASGTHelmet_DBDU2 : ItemCore
+    {
+        picture = \x\cfp\addons\headgear\data\ui\icon_SP_PASGTHelmet_Black1.paa;
+
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName  = "PASGT Helmet (NVG, US DBDU)";
+		model = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
+		hiddenSelections[] = {"camo", "NVG_mount"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\DBDU.paa","\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\data\new_usmc_gear3_tan_co.paa"};
+		author = "CFP";
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 60;
+			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
+			modelSides[] = {3,1};
+			armor = 10;
+			passThrough = 0.30;
+			HITPOINTS_HEAD(10,0.30)
+			hiddenSelections[] = {"camo", "NVG_mount"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\DBDU.paa","\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\data\new_usmc_gear3_tan_co.paa"};
+		};
+	};
 
 	class SP_PASGTHelmet_Black1 : ItemCore
     {
