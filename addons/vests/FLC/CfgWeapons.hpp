@@ -434,3 +434,57 @@ class CfgVehicleClasses
 		};
 	};
 
+	class CFP_V_PASGT_DBDU: V_PlateCarrier1_rgr
+	{
+
+	author = "CFP";
+	scope = 2;
+	displayName  = "PASGT Vest (DBDU)";
+	descriptionShort = "$STR_A3_SP_AL_II";
+	picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_ACR\data\ui\icon_acr_vest20.paa";
+	model   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_PASGT_vest.p3d";
+	hiddenSelections[] = {"camo1", "camo2"};
+	hiddenSelectionsTextures[] = {
+	"x\cfp\addons\vests\FLC\tex\pasgt_v_dbdu_co.paa","\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\data\US_PASGT_gear_CO.paa"};
+
+	class ItemInfo: VestItem
+	{
+		containerClass = "Supply100";
+		uniformModel   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_PASGT_vest.p3d";
+		armor = 10;
+		passThrough = 0.5;
+		mass = 60;
+		hiddenSelections[] = {"camo1", "camo2"};
+		hiddenSelectionsTextures[] = {
+		"x\cfp\addons\vests\FLC\tex\pasgt_v_dbdu_co.paa","\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\data\US_PASGT_gear_CO.paa"};
+		class HitpointsProtectionInfo
+		{
+			class Chest
+			{
+				HitpointName = "HitChest";
+				armor = 25;
+				PassThrough = 0.3;
+			};
+			class Diaphragm
+			{
+				HitpointName = "HitDiaphragm";
+				armor = 25;
+				PassThrough = 0.3;
+			};
+			class Abdomen
+			{
+				hitpointName = "HitAbdomen";
+				armor = 25;
+				passThrough = 0.3;
+			};
+			class Body
+			{
+				hitpointName = "HitBody";
+				passThrough = 0.3;
+				};
+			};
+		};
+	};
+
+
+
