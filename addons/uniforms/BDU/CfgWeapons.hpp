@@ -293,13 +293,13 @@
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_M81Mali.paa;
 
 		scope=2;
-		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2.p3d";
 		displayName = "BDU (Polygon Desert)";
 		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
-			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2.p3d";
 			uniformClass = "CFP_BDU_PolyDes";
 			containerClass="Supply60";
 			mass=20;
@@ -311,13 +311,13 @@
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_M81Mali.paa;
 
 		scope=2;
-		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU_rolled_up.p3d";
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_roll.p3d";
 		displayName = "BDU (Polygon Desert Rolled Up)";
 		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
-			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU_rolled_up.p3d";
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_roll.p3d";
 			uniformClass = "CFP_BDU_PolyDes2";
 			containerClass="Supply60";
 			mass=20;
@@ -329,13 +329,13 @@
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_M81Mali.paa;
 
 		scope=2;
-		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU_rolled_up2.p3d";
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_roll2.p3d";
 		displayName = "BDU (Polygon Desert Rolled Up 2)";
 		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
-			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU_rolled_up2.p3d";
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_roll2.p3d";
 			uniformClass = "CFP_BDU_PolyDes3";
 			containerClass="Supply60";
 			mass=20;
@@ -347,13 +347,13 @@
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_M81Mali.paa;
 
 		scope=2;
-		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU_rolled_up2_gloves.p3d";
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_roll2_gloves.p3d";
 		displayName = "BDU (Polygon Desert Rolled Up 2 Gloves)";
 		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
-			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU_rolled_up2_gloves.p3d";
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_roll2_gloves.p3d";
 			uniformClass = "CFP_BDU_PolyDes4";
 			containerClass="Supply60";
 			mass=20;
@@ -365,13 +365,13 @@
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_M81Mali.paa;
 
 		scope=2;
-		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU_rolled_up_gloves.p3d";
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_roll_gloves.p3d";
 		displayName = "BDU (Polygon Desert Rolled Up Gloves)";
 		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
-			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU_rolled_up_gloves.p3d";
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_roll_gloves.p3d";
 			uniformClass = "CFP_BDU_PolyDes5";
 			containerClass="Supply60";
 			mass=20;
@@ -779,13 +779,13 @@
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_DDPM.paa;
 
 		scope=2;
-		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2.p3d";
 		displayName = "BDU (DDPM)";
 		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
-			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2.p3d";
 			uniformClass = "CFP_BDU_DDPM";
 			containerClass="Supply60";
 			mass=20;
@@ -797,13 +797,13 @@
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_ERDL.paa;
 
 		scope=2;
-		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2.p3d";
 		displayName = "BDU (ERDL)";
 		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
-			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2.p3d";
 			uniformClass = "CFP_BDU_ERDL";
 			containerClass="Supply60";
 			mass=20;
@@ -833,13 +833,13 @@
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_ChocChip.paa;
 
 		scope=2;
-		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2.p3d";
 		displayName = "BDU (ChocChip)";
 		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
-			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2.p3d";
 			uniformClass = "CFP_BDU_ChocChip";
 			containerClass="Supply60";
 			mass=20;
@@ -851,13 +851,13 @@
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_Marpat.paa;
 
 		scope=2;
-		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2.p3d";
 		displayName = "BDU (Marpat)";
 		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
-			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2.p3d";
 			uniformClass = "CFP_BDU_Marpat";
 			containerClass="Supply60";
 			mass=20;
@@ -869,14 +869,32 @@
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_UPDFMarpat.paa;
 
 		scope=2;
-		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2.p3d";
 		displayName = "BDU (UPDF Marpat)";
 		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
-			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2.p3d";
 			uniformClass = "CFP_BDU_UPDFMarpat";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
+	class CFP_BDU_UPDFMarpat2 : Uniform_Base
+    {
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_UPDFMarpat.paa;
+
+		scope=2;
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_roll2.p3d";
+		displayName = "BDU (UPDF Marpat Rolled Sleeves)";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_roll2.p3d";
+			uniformClass = "CFP_BDU_UPDFMarpat2";
 			containerClass="Supply60";
 			mass=20;
 		};

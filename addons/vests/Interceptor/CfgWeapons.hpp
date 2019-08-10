@@ -50,7 +50,7 @@
         picture = \x\cfp\addons\vests\data\ui\icon_CFP_ITV_Empty_ANP.paa;
 
         scope = 2;
-        displayName = "Interceptor (Empty ANP Grey)";
+        displayName = "Interceptor (ANP Grey Base)";
         //
         model = "x\cfp\addons\models\interceptor_base.p3d";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Interceptor\tex\Interanp.paa"};
@@ -59,7 +59,7 @@
         class ItemInfo: VestItem
         {
             uniformModel = "x\cfp\addons\models\interceptor_base.p3d";
-            containerClass = "Supply80";
+            containerClass = "Supply120";
             hiddenSelections[] = {"camo"};
             mass = 80;
             class HitpointsProtectionInfo
@@ -377,7 +377,7 @@
         picture = \x\cfp\addons\vests\data\ui\icon_CFP_ITV_Rifleman_ANP.paa;
 
         scope = 2;
-        displayName = "Interceptor (Rifleman Afghan Grey)";
+        displayName = "Interceptor (Afghan Grey Rifleman)";
         //
         model = "x\cfp\addons\models\interceptor_rifleman.p3d";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Interceptor\tex\Interanp.paa","x\cfp\addons\vests\Interceptor\tex\webbing_anp.paa","\x\cfp\addons\vests\Interceptor\tex\us_soldier_equip_anp.paa"};
@@ -386,7 +386,7 @@
         class ItemInfo: VestItem
         {
             uniformModel = "x\cfp\addons\models\interceptor_rifleman.p3d";
-            containerClass = "Supply220";
+            containerClass = "Supply140";
             hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Interceptor\tex\Interanp.paa","x\cfp\addons\vests\Interceptor\tex\webbing_anp.paa","\x\cfp\addons\vests\Interceptor\tex\us_soldier_equip_anp.paa"};
             hiddenSelections[] = {"camo","camo2","camo3"};
             mass = 80;
@@ -661,7 +661,7 @@
         picture = \x\cfp\addons\vests\data\ui\icon_CFP_ITV_Grenadier_ANP.paa;
 
         scope = 2;
-        displayName = "Interceptor (Grenadier Afghan Grey)";
+        displayName = "Interceptor (Afghan Grey Grenadier)";
         //
         model = "x\cfp\addons\models\interceptor_gl.p3d";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Interceptor\tex\Interanp.paa","x\cfp\addons\vests\Interceptor\tex\wg_anp.paa"};
@@ -670,7 +670,7 @@
         class ItemInfo: VestItem
         {
             uniformModel = "x\cfp\addons\models\interceptor_gl.p3d";
-            containerClass = "Supply220";
+            containerClass = "Supply140";
             hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Interceptor\tex\Interanp.paa","x\cfp\addons\vests\Interceptor\tex\wg_anp.paa"};
             hiddenSelections[] = {"camo","camo2"};
             mass = 80;
