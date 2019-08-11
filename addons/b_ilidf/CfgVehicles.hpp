@@ -1189,6 +1189,8 @@ class CfgVehicles {
 
         //IDF Helmets
             headgearList[] = {
+                "CUP_H_OpsCore_Covered_IDF", 0.7,
+                "CUP_H_OpsCore_Covered_IDF_SF", 0.7,
                 "CFP_OpsC_Covered2_IDF", 0.5,
                 "CFP_OpsC_Med_IDF", 0.3,
                 "CFP_OpsC_Covered_IDF", 0.2,
