@@ -624,9 +624,9 @@ class CfgVehicles {
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
 
-        backpack = "CUP_B_USPack_Coyote_AmmoMG";
+        backpack = "CUP_B_AlicePack_OD";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",6,30},{"SmokeShell",1,1}}},{"CUP_B_USPack_Coyote_AmmoMG",{{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",3,100}}},"CFP_PASGTHelmet_DBDU1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",6,30},{"SmokeShell",1,1}}},{"CUP_B_AlicePack_OD",{{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",3,100}}},"CFP_PASGTHelmet_DBDU1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
 
         class EventHandlers : EventHandlers {
@@ -665,9 +665,9 @@ class CfgVehicles {
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
 
-        backpack = "CUP_B_USPack_Coyote";
+        backpack = "CUP_B_AlicePack_OD";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",6,30},{"SmokeShell",1,1}}},{"CUP_B_USPack_Coyote",{{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",2,200}}},"CFP_PASGTHelmet_DBDU2","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",6,30},{"SmokeShell",1,1}}},{"CUP_B_AlicePack_OD",{{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",2,200}}},"CFP_PASGTHelmet_DBDU2","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
 
         class EventHandlers : EventHandlers {
@@ -684,12 +684,12 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USARMY_91_Asst_AT_Specialist_Javelin_Desert_01 : CUP_B_US_Soldier_AHAT_OCimport_02 {
+    class CFP_B_USARMY_91_Asst_AT_Specialist_Dragon_Desert_01 : CUP_B_US_Soldier_AHAT_OCimport_02 {
         editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_Asst_AT_Specialist_Javelin_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Asst. AT Specialist [Javelin]";
+        displayName = "Asst. AT Specialist [Dragon]";
         side = 1;
         faction = "CFP_B_USARMY_1991_DES";
         editorSubCategory = "CFP_EdSubcat_Personnel_Camo_DBDU";
@@ -706,9 +706,9 @@ class CfgVehicles {
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
 
-        backpack = "CUP_B_USPack_Coyote_AT";
+        backpack = "CUP_B_AlicePack_OD";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",5,30}}},{"CUP_B_USPack_Coyote_AT",{{"CUP_Javelin_M",1,1}}},"CFP_PASGTHelmet_DBDU1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",5,30}}},{"CUP_B_AlicePack_OD",{{"CUP_Dragon_EP1_M",1,1}}},"CFP_PASGTHelmet_DBDU1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
 
         class EventHandlers : EventHandlers {
@@ -741,16 +741,15 @@ class CfgVehicles {
         linkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU1","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
         respawnlinkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU1","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
 
-        weapons[] = {"CUP_arifle_M16A2"};
-        respawnWeapons[] = {"CUP_arifle_M16A2"};
+        weapons[] = {"CUP_arifle_M16A2","CUP_launch_M72A6"};
+        respawnWeapons[] = {"CUP_arifle_M16A2","CUP_launch_M72A6"};
 
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
 
-        backpack = "CUP_B_USPack_Coyote";
+        backpack = "CUP_B_AlicePack_OD";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",5,30}}},{"CUP_B_USPack_Coyote",{{"CUP_MAAWS_HEAT_M",1,1},{"CUP_MAAWS_HEDP_M",1,1}}},"CFP_PASGTHelmet_DBDU1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
-
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_M72A6","","","",{},{},""},{},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",4,30},{"SmokeShell",1,1}}},{"CUP_B_AlicePack_OD",{{"CUP_MAAWS_HEDP_M",1,1}}},"CFP_PASGTHelmet_DBDU1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -779,8 +778,8 @@ class CfgVehicles {
 
         uniformClass = "CFP_BDU_DBDU2";
 
-        linkedItems[] = {"CFP_V_PASGT_DBDU","CFP_BoonieHat_DCU","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
-        respawnlinkedItems[] = {"CFP_V_PASGT_DBDU","CFP_BoonieHat_DCU","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        linkedItems[] = {"CFP_V_PASGT_DBDU","CFP_BoonieHat_DCU","ItemMap","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnlinkedItems[] = {"CFP_V_PASGT_DBDU","CFP_BoonieHat_DCU","ItemMap","ItemRadio","ItemCompass","ItemWatch",""};
 
         weapons[] = {"CUP_arifle_M16A2"};
         respawnWeapons[] = {"CUP_arifle_M16A2"};
@@ -788,7 +787,7 @@ class CfgVehicles {
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_DBDU2",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",2,30}}},{},"CFP_BoonieHat_DCU","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_DBDU2",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",2,30}}},{},"CFP_BoonieHat_DBDU","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -857,16 +856,16 @@ class CfgVehicles {
 
         uniformClass = "CFP_BDU_DBDU2";
 
-        linkedItems[] = {"CFP_V_PASGT_DBDU","CFP_BoonieHat_DCU","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
-        respawnlinkedItems[] = {"CFP_V_PASGT_DBDU","CFP_BoonieHat_DCU","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        linkedItems[] = {"CFP_Alice_Vest2","CFP_PatrolCap_ChocChip","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CFP_Alice_Vest2","CFP_PatrolCap_ChocChip","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A2","CUP_hgun_Colt1911","CUP_Vector21Nite"};
-        respawnWeapons[] = {"CUP_arifle_M16A2","CUP_hgun_Colt1911","CUP_Vector21Nite"};
+        weapons[] = {"CUP_hgun_Colt1911","CUP_Vector21Nite"};
+        respawnWeapons[] = {"CUP_hgun_Colt1911","CUP_Vector21Nite"};
 
-        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_7Rnd_45ACP_1911","CUP_30Rnd_556x45_Stanag","CUP_7Rnd_45ACP_1911"};
-        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_7Rnd_45ACP_1911","CUP_30Rnd_556x45_Stanag","CUP_7Rnd_45ACP_1911"};
+        magazines[] = {"CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911"};
+        respawnMagazines[] = {"CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CFP_BDU_DBDU2",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"B_IR_Grenade",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",1,30},{"SmokeShellRed",1,1},{"CUP_7Rnd_45ACP_1911",2,7}}},{},"CFP_BoonieHat_DCU","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+        ALiVE_orbatCreator_loadout[] = {{},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CFP_BDU_DBDU2",{{"FirstAidKit",1},{"B_IR_Grenade",1,1}}},{"CFP_Alice_Vest2",{{"SmokeShellRed",1,1},{"CUP_7Rnd_45ACP_1911",2,7}}},{},"CFP_PatrolCap_ChocChip","G_Aviator",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -905,9 +904,9 @@ class CfgVehicles {
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9","CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9","CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9"};
 
-        backpack = "CUP_B_USPack_Coyote";
+        backpack = "CUP_B_AlicePack_OD";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_M9","","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",5,30},{"B_IR_Grenade",1,1},{"SmokeShellGreen",3,1},{"CUP_15Rnd_9x19_M9",2,15}}},{"CUP_B_USPack_Coyote",{{"CUP_30Rnd_556x45_Stanag",4,30},{"SmokeShellGreen",2,1},{"SmokeShellPurple",2,1},{"SmokeShellRed",2,1},{"SmokeShellBlue",2,1},{"B_IR_Grenade",2,1}}},"CFP_PASGTHelmet_DBDU1","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_M9","","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",5,30},{"B_IR_Grenade",1,1},{"SmokeShellGreen",3,1},{"CUP_15Rnd_9x19_M9",2,15}}},{"CUP_B_AlicePack_OD",{{"CUP_30Rnd_556x45_Stanag",4,30},{"SmokeShellGreen",2,1},{"SmokeShellPurple",2,1},{"SmokeShellRed",2,1},{"SmokeShellBlue",2,1},{"B_IR_Grenade",2,1}}},"CFP_PASGTHelmet_DBDU1","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
 
         class EventHandlers : EventHandlers {
@@ -946,9 +945,9 @@ class CfgVehicles {
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HEDP_M203","CUP_15Rnd_9x19_M9","CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HEDP_M203","CUP_15Rnd_9x19_M9"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HEDP_M203","CUP_15Rnd_9x19_M9","CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HEDP_M203","CUP_15Rnd_9x19_M9"};
 
-        backpack = "CUP_B_USPack_Coyote_TL";
+        backpack = "CUP_B_AlicePack_OD";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2_GL","","","",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_1Rnd_HEDP_M203",1},""},{},{"CUP_hgun_M9","","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",5,30},{"CUP_1Rnd_HEDP_M203",2,1},{"CUP_1Rnd_SmokeRed_M203",3,1},{"SmokeShellGreen",2,1}}},{"CUP_B_USPack_Coyote_TL",{{"CUP_1Rnd_StarFlare_White_M203",3,1},{"CUP_1Rnd_StarFlare_Red_M203",1,1},{"CUP_1Rnd_StarFlare_Green_M203",1,1},{"CUP_1Rnd_Smoke_M203",2,1},{"CUP_1Rnd_SmokeRed_M203",2,1},{"CUP_1Rnd_SmokeGreen_M203",2,1},{"CUP_1Rnd_HEDP_M203",2,1}}},"CFP_PASGTHelmet_DBDU2","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2_GL","","","",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_1Rnd_HEDP_M203",1},""},{},{"CUP_hgun_M9","","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",5,30},{"CUP_1Rnd_HEDP_M203",2,1},{"CUP_1Rnd_SmokeRed_M203",3,1},{"SmokeShellGreen",2,1}}},{"CUP_B_AlicePack_OD",{{"CUP_1Rnd_StarFlare_White_M203",3,1},{"CUP_1Rnd_StarFlare_Red_M203",1,1},{"CUP_1Rnd_StarFlare_Green_M203",1,1},{"CUP_1Rnd_Smoke_M203",2,1},{"CUP_1Rnd_SmokeRed_M203",2,1},{"CUP_1Rnd_SmokeGreen_M203",2,1},{"CUP_1Rnd_HEDP_M203",2,1}}},"CFP_PASGTHelmet_DBDU2","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
 
         class EventHandlers : EventHandlers {
@@ -1020,16 +1019,15 @@ class CfgVehicles {
         linkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU1","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
         respawnlinkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU1","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
 
-        weapons[] = {"CUP_arifle_M16A2","CUP_launch_MAAWS_Scope"};
-        respawnWeapons[] = {"CUP_arifle_M16A2","CUP_launch_MAAWS_Scope"};
+        weapons[] = {"CUP_arifle_M16A2","CUP_launch_M72A6"};
+        respawnWeapons[] = {"CUP_arifle_M16A2","CUP_launch_M72A6"};
 
-        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_MAAWS_HEAT_M","CUP_30Rnd_556x45_Stanag"};
-        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_MAAWS_HEAT_M","CUP_30Rnd_556x45_Stanag"};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
 
-        backpack = "CUP_B_USPack_Coyote";
+        backpack = "CUP_B_AlicePack_OD";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_MAAWS_Scope","","","CUP_optic_MAAWS_Scope",{"CUP_MAAWS_HEAT_M",1},{},""},{},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",4,30},{"SmokeShell",1,1}}},{"CUP_B_USPack_Coyote",{{"CUP_MAAWS_HEDP_M",1,1}}},"CFP_PASGTHelmet_DBDU1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
-
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_M72A6","","","",{},{},""},{},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",4,30},{"SmokeShell",1,1}}},{"CUP_B_AlicePack_OD",{{"CUP_MAAWS_HEDP_M",1,1}}},"CFP_PASGTHelmet_DBDU1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -1045,12 +1043,12 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USARMY_91_AT_Specialist_Javelin_Desert_01 : CUP_B_US_Soldier_HAT_OCimport_02 {
+    class CFP_B_USARMY_91_AT_Specialist_Dragon_Desert_01 : CUP_B_US_Soldier_HAT_OCimport_02 {
         editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_AT_Specialist_Javelin_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
-        displayName = "AT Specialist [Javelin]";
+        displayName = "AT Specialist [Dragon]";
         side = 1;
         faction = "CFP_B_USARMY_1991_DES";
         editorSubCategory = "CFP_EdSubcat_Personnel_Camo_DBDU";
@@ -1061,13 +1059,13 @@ class CfgVehicles {
         linkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU2","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
         respawnlinkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU2","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
 
-        weapons[] = {"CUP_arifle_M16A2","CUP_launch_Javelin"};
-        respawnWeapons[] = {"CUP_arifle_M16A2","CUP_launch_Javelin"};
+        weapons[] = {"CUP_arifle_M16A2","CUP_launch_M47"};
+        respawnWeapons[] = {"CUP_arifle_M16A2","CUP_launch_M47"};
 
-        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_Javelin_M","CUP_30Rnd_556x45_Stanag"};
-        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_Javelin_M","CUP_30Rnd_556x45_Stanag"};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_Dragon_EP1_M","CUP_30Rnd_556x45_Stanag"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_Dragon_EP1_M","CUP_30Rnd_556x45_Stanag"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_Javelin","","","",{"CUP_Javelin_M",1},{},""},{},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",4,30},{"SmokeShell",1,1}}},{},"CFP_PASGTHelmet_DBDU2","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_M47","","","",{"CUP_Dragon_EP1_M",1},{},""},{},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",4,30},{"SmokeShell",1,1}}},{},"CFP_PASGTHelmet_DBDU2","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
 
         class EventHandlers : EventHandlers {
@@ -1145,9 +1143,9 @@ class CfgVehicles {
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
 
-        backpack = "CUP_B_AssaultPack_Coyote";
+        backpack = "CUP_B_AlicePack_OD";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_DBDU2",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",5,30},{"SmokeShell",1,1}}},{"CUP_B_AssaultPack_Coyote",{{"Medikit",1},{"FirstAidKit",8}}},"CFP_PASGTHelmet_DBDU1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_DBDU2",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",5,30},{"SmokeShell",1,1}}},{"CUP_B_AlicePack_OD",{{"Medikit",1},{"FirstAidKit",8}}},"CFP_PASGTHelmet_DBDU1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
 
         class EventHandlers : EventHandlers {
@@ -1186,9 +1184,9 @@ class CfgVehicles {
         magazines[] = {"CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249"};
         respawnMagazines[] = {"CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_200Rnd_TE4_Red_Tracer_556x45_M249"};
 
-        backpack = "CUP_B_USPack_Coyote";
+        backpack = "CUP_B_AlicePack_OD";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_M249","","","",{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",200},{},""},{},{},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",1,200}}},{"CUP_B_USPack_Coyote",{{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",2,200}}},"CFP_PASGTHelmet_DBDU1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_M249","","","",{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",200},{},""},{},{},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",1,200}}},{"CUP_B_AlicePack_OD",{{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",2,200}}},"CFP_PASGTHelmet_DBDU1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
 
         class EventHandlers : EventHandlers {
@@ -1227,9 +1225,9 @@ class CfgVehicles {
         magazines[] = {"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
         respawnMagazines[] = {"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
 
-        backpack = "CUP_B_USPack_Coyote";
+        backpack = "CUP_B_AlicePack_OD";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_M240_ElcanM143","","","CUP_optic_ElcanM145",{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",100},{},""},{},{},{"CFP_BDU_DBDU2",{{"FirstAidKit",1},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",1,100}}},{"CUP_B_USPack_Coyote",{{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",2,100}}},"CFP_PASGTHelmet_DBDU1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_M240_ElcanM143","","","CUP_optic_ElcanM145",{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",100},{},""},{},{},{"CFP_BDU_DBDU2",{{"FirstAidKit",1},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",1,100}}},{"CUP_B_AlicePack_OD",{{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",2,100}}},"CFP_PASGTHelmet_DBDU1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
 
         class EventHandlers : EventHandlers {
@@ -1463,9 +1461,9 @@ class CfgVehicles {
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
 
-        backpack = "CUP_B_USArmy_MinePack";
+        backpack = "CUP_B_AlicePack_OD";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",5,30},{"SmokeShell",1,1}}},{"CUP_B_USArmy_MinePack",{{"CUP_Mine_M",2,1},{"CUP_PipeBomb_M",1,1}}},"CFP_PASGTHelmet_DBDU1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",5,30},{"SmokeShell",1,1}}},{"CUP_B_AlicePack_OD",{{"CUP_Mine_M",2,1},{"CUP_PipeBomb_M",1,1}}},"CFP_PASGTHelmet_DBDU1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
 
         class EventHandlers : EventHandlers {
@@ -1504,9 +1502,9 @@ class CfgVehicles {
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
 
-        backpack = "CUP_B_USArmy_EOD";
+        backpack = "CUP_B_AlicePack_OD";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",5,30},{"SmokeShell",1,1}}},{"CUP_B_USArmy_EOD",{{"ToolKit",1},{"MineDetector",1}}},"CFP_PASGTHelmet_DBDU1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",5,30},{"SmokeShell",1,1}}},{"CUP_B_AlicePack_OD",{{"ToolKit",1},{"MineDetector",1}}},"CFP_PASGTHelmet_DBDU1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
 
         class EventHandlers : EventHandlers {
@@ -1545,9 +1543,9 @@ class CfgVehicles {
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
 
-        backpack = "CUP_B_USArmy_Engineer";
+        backpack = "CUP_B_AlicePack_OD";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",5,30},{"SmokeShell",1,1}}},{"CUP_B_USArmy_Engineer",{{"ToolKit",1},{"CUP_Mine_M",1,1},{"CUP_PipeBomb_M",1,1}}},"CFP_PASGTHelmet_DBDU1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",5,30},{"SmokeShell",1,1}}},{"CUP_B_AlicePack_OD",{{"ToolKit",1},{"CUP_Mine_M",1,1},{"CUP_PipeBomb_M",1,1}}},"CFP_PASGTHelmet_DBDU1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
 
         class EventHandlers : EventHandlers {

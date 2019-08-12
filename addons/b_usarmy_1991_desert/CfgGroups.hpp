@@ -295,21 +295,21 @@ class CfgGroups {
                     class Unit0
                     {
                         side = 1;
-                        vehicle = "CFP_B_USARMY_91_AT_Specialist_Javelin_Desert_01";
+                        vehicle = "CFP_B_USARMY_91_AT_Specialist_Dragon_Desert_01";
                         rank = "SERGEANT";
                         position[] = {0,5,0};
                     };
                     class Unit1
                     {
                         side = 1;
-                        vehicle = "CFP_B_USARMY_91_AT_Specialist_Javelin_Desert_01";
+                        vehicle = "CFP_B_USARMY_91_AT_Specialist_Dragon_Desert_01";
                         rank = "CORPORAL";
                         position[] = {3,0,0};
                     };
                     class Unit2
                     {
                         side = 1;
-                        vehicle = "CFP_B_USARMY_91_Asst_AT_Specialist_Javelin_Desert_01";
+                        vehicle = "CFP_B_USARMY_91_Asst_AT_Specialist_Dragon_Desert_01";
                         rank = "CORPORAL";
                         position[] = {5,0,0};
                     };
