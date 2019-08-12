@@ -115,6 +115,33 @@ class CfgVehicleClasses
 		};
 	};
 
+	class CFP_BoonieHat_DBDU: ItemCore
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_BoonieHat_Tan.paa";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "Boonie Hat (DBDU)";
+		// picture = "\x\cfp\addons\headgear\BoonieHat\ui\Tan.jpg";
+		model = "\x\cfp\addons\models\BoonieHat";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BoonieHat\DBDU.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "CFP";
+
+
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 15;
+			uniformmodel = "\x\cfp\addons\models\BoonieHat";
+			modelSides[] = {3,1};
+			armor = 0;
+			passThrough = 0.30;
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BoonieHat\DBDU.paa"};
+			hiddenSelections[] = {"Camo"};
+
+		};
+	};
+
 	class SP_BoonieHat_UN: ItemCore
     {
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_BoonieHat_UN.paa";
