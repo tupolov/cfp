@@ -689,14 +689,32 @@
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_UPDFM81.paa;
 
 		scope=2;
-		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_roll2.p3d";
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2.p3d";
 		displayName = "BDU (UPDF M81)";
 		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
-			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_roll2.p3d";
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2.p3d";
 			uniformClass = "CFP_BDU_UPDFM81";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
+	class CFP_BDU_UPDFM812 : Uniform_Base
+    {
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_UPDFM81.paa;
+
+		scope=2;
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_roll2.p3d";
+		displayName = "BDU (UPDF M81 Rolled Sleeves)";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_roll2.p3d";
+			uniformClass = "CFP_BDU_UPDFM812";
 			containerClass="Supply60";
 			mass=20;
 		};
