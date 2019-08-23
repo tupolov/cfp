@@ -648,13 +648,13 @@ class CfgVehicles {
         linkedItems[] = {"SP_Tactical1_Tan","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"SP_Tactical1_Tan","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A2"};
-        respawnWeapons[] = {"CUP_arifle_M16A2"};
+        weapons[] = {"CUP_arifle_G3A3_modern_ris_black"};
+        respawnWeapons[] = {"CUP_arifle_G3A3_modern_ris_black"};
 
-        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
-        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        magazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
+        respawnMagazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_IRAN",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",2,30}}},{"SP_Tactical1_Tan",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1}}},{},"SP_M1Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G3A3_modern_ris_black","","","",{"CUP_20Rnd_762x51_G3",30},{},""},{},{},{"CFP_BDU_IRAN",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_G3",2,30}}},{"SP_Tactical1_Tan",{{"CUP_20Rnd_762x51_G3",4,30},{"CUP_HandGrenade_M67",1,1}}},{},"SP_M1Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
         randomGearProbability = 100;
 
@@ -678,7 +678,7 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_AFG_ANA_SECFOR'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -696,15 +696,15 @@ class CfgVehicles {
         linkedItems[] = {"SP_Tactical1_Tan","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"SP_Tactical1_Tan","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A2","CUP_launch_RPG7V"};
-        respawnWeapons[] = {"CUP_arifle_M16A2","CUP_launch_RPG7V"};
+        weapons[] = {"CUP_arifle_G3A3_modern_ris_black","CUP_launch_RPG7V"};
+        respawnWeapons[] = {"CUP_arifle_G3A3_modern_ris_black","CUP_launch_RPG7V"};
 
-        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_PG7V_M","CUP_30Rnd_556x45_Stanag"};
-        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_PG7V_M","CUP_30Rnd_556x45_Stanag"};
+        magazines[] = {"CUP_20Rnd_762x51_G3","CUP_PG7V_M","CUP_20Rnd_762x51_G3"};
+        respawnMagazines[] = {"CUP_20Rnd_762x51_G3","CUP_PG7V_M","CUP_20Rnd_762x51_G3"};
 
         backpack = "CFP_RPGPack_Khaki";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_RPG7V","","","",{"CUP_PG7V_M",1},{},""},{},{"CFP_BDU_IRAN",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",2,30}}},{"SP_Tactical1_Tan",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_RPGPack_Khaki",{{"CUP_PG7V_M",3,1}}},"SP_M1Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G3A3_modern_ris_black","","","",{"CUP_20Rnd_762x51_G3",30},{},""},{"CUP_launch_RPG7V","","","",{"CUP_PG7V_M",1},{},""},{},{"CFP_BDU_IRAN",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_G3",2,30}}},{"SP_Tactical1_Tan",{{"CUP_20Rnd_762x51_G3",4,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_RPGPack_Khaki",{{"CUP_PG7V_M",3,1}}},"SP_M1Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -716,15 +716,15 @@ class CfgVehicles {
         linkedItems[] = {"V_TacVest_khk","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"V_TacVest_khk","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A2","CUP_launch_Igla"};
-        respawnWeapons[] = {"CUP_arifle_M16A2","CUP_launch_Igla"};
+        weapons[] = {"CUP_arifle_G3A3_modern_ris_black","CUP_launch_Igla"};
+        respawnWeapons[] = {"CUP_arifle_G3A3_modern_ris_black","CUP_launch_Igla"};
 
-        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_Igla_M","CUP_30Rnd_556x45_Stanag"};
-        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_Igla_M","CUP_30Rnd_556x45_Stanag"};
+        magazines[] = {"CUP_20Rnd_762x51_G3","CUP_Igla_M","CUP_20Rnd_762x51_G3"};
+        respawnMagazines[] = {"CUP_20Rnd_762x51_G3","CUP_Igla_M","CUP_20Rnd_762x51_G3"};
 
         backpack = "B_Kitbag_cbr";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_Igla","","","",{"CUP_Igla_M",1},{},""},{},{"CFP_BDU_IRAN",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",2,30}}},{"V_TacVest_khk",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1}}},{"B_Kitbag_cbr",{{"CUP_Igla_M",1,1}}},"SP_M1Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G3A3_modern_ris_black","","","",{"CUP_20Rnd_762x51_G3",30},{},""},{"CUP_launch_Igla","","","",{"CUP_Igla_M",1},{},""},{},{"CFP_BDU_IRAN",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_G3",2,30}}},{"V_TacVest_khk",{{"CUP_20Rnd_762x51_G3",4,30},{"CUP_HandGrenade_M67",1,1}}},{"B_Kitbag_cbr",{{"CUP_Igla_M",1,1}}},"SP_M1Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -737,13 +737,13 @@ class CfgVehicles {
         linkedItems[] = {"SP_Tactical1_Tan","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"SP_Tactical1_Tan","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A2"};
-        respawnWeapons[] = {"CUP_arifle_M16A2"};
+        weapons[] = {"CUP_arifle_G3A3_modern_ris_black"};
+        respawnWeapons[] = {"CUP_arifle_G3A3_modern_ris_black"};
 
-        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
-        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        magazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
+        respawnMagazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_IRAN",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",2,30}}},{"SP_Tactical1_Tan",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1}}},{},"SP_M1Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G3A3_modern_ris_black","","","",{"CUP_20Rnd_762x51_G3",30},{},""},{},{},{"CFP_BDU_IRAN",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_G3",2,30}}},{"SP_Tactical1_Tan",{{"CUP_20Rnd_762x51_G3",4,30},{"CUP_HandGrenade_M67",1,1}}},{},"SP_M1Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -795,15 +795,15 @@ class CfgVehicles {
         linkedItems[] = {"SP_Tactical1_Tan","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"SP_Tactical1_Tan","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A2"};
-        respawnWeapons[] = {"CUP_arifle_M16A2"};
+        weapons[] = {"CUP_arifle_G3A3_modern_ris_black"};
+        respawnWeapons[] = {"CUP_arifle_G3A3_modern_ris_black"};
 
-        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
-        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        magazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
+        respawnMagazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
 
         backpack = "CFP_Kitbag_IranDPM";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_IRAN",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",2,30}}},{"SP_Tactical1_Tan",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_Kitbag_IranDPM",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",3,100}}},"SP_M1Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G3A3_modern_ris_black","","","",{"CUP_20Rnd_762x51_G3",30},{},""},{},{},{"CFP_BDU_IRAN",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_G3",2,30}}},{"SP_Tactical1_Tan",{{"CUP_20Rnd_762x51_G3",4,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_Kitbag_IranDPM",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",3,100}}},"SP_M1Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -835,15 +835,15 @@ class CfgVehicles {
         linkedItems[] = {"SP_Tactical1_Tan","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"SP_Tactical1_Tan","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A2"};
-        respawnWeapons[] = {"CUP_arifle_M16A2"};
+        weapons[] = {"CUP_arifle_G3A3_modern_ris_black"};
+        respawnWeapons[] = {"CUP_arifle_G3A3_modern_ris_black"};
 
-        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
-        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        magazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
+        respawnMagazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
 
         backpack = "B_AssaultPack_cbr";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_IRAN",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",2,30}}},{"SP_Tactical1_Tan",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1}}},{"B_AssaultPack_cbr",{{"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",4,45}}},"SP_M1Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G3A3_modern_ris_black","","","",{"CUP_20Rnd_762x51_G3",30},{},""},{},{},{"CFP_BDU_IRAN",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_G3",2,30}}},{"SP_Tactical1_Tan",{{"CUP_20Rnd_762x51_G3",4,30},{"CUP_HandGrenade_M67",1,1}}},{"B_AssaultPack_cbr",{{"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",4,45}}},"SP_M1Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -858,15 +858,15 @@ class CfgVehicles {
         linkedItems[] = {"SP_Tactical1_Tan","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"SP_Tactical1_Tan","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A2"};
-        respawnWeapons[] = {"CUP_arifle_M16A2"};
+        weapons[] = {"CUP_arifle_G3A3_modern_ris_black"};
+        respawnWeapons[] = {"CUP_arifle_G3A3_modern_ris_black"};
 
-        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
-        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        magazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
+        respawnMagazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
 
         backpack = "B_AssaultPack_rgr";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_IRAN",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",2,30}}},{"SP_Tactical1_Tan",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1}}},{"B_AssaultPack_rgr",{{"Medikit",1},{"FirstAidKit",10}}},"SP_M1Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G3A3_modern_ris_black","","","",{"CUP_20Rnd_762x51_G3",30},{},""},{},{},{"CFP_BDU_IRAN",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_G3",2,30}}},{"SP_Tactical1_Tan",{{"CUP_20Rnd_762x51_G3",4,30},{"CUP_HandGrenade_M67",1,1}}},{"B_AssaultPack_rgr",{{"Medikit",1},{"FirstAidKit",10}}},"SP_M1Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -880,15 +880,15 @@ class CfgVehicles {
         linkedItems[] = {"SP_Tactical1_Tan","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"SP_Tactical1_Tan","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A2"};
-        respawnWeapons[] = {"CUP_arifle_M16A2"};
+        weapons[] = {"CUP_arifle_G3A3_modern_ris_black"};
+        respawnWeapons[] = {"CUP_arifle_G3A3_modern_ris_black"};
 
-        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
-        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        magazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
+        respawnMagazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
 
         backpack = "B_AssaultPack_cbr";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_IRAN",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",2,30}}},{"SP_Tactical1_Tan",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1}}},{"B_AssaultPack_cbr",{{"MineDetector",1},{"ToolKit",1}}},"SP_M1Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G3A3_modern_ris_black","","","",{"CUP_20Rnd_762x51_G3",30},{},""},{},{},{"CFP_BDU_IRAN",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_G3",2,30}}},{"SP_Tactical1_Tan",{{"CUP_20Rnd_762x51_G3",4,30},{"CUP_HandGrenade_M67",1,1}}},{"B_AssaultPack_cbr",{{"MineDetector",1},{"ToolKit",1}}},"SP_M1Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -902,15 +902,15 @@ class CfgVehicles {
         linkedItems[] = {"SP_Tactical1_Tan","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"SP_Tactical1_Tan","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A2"};
-        respawnWeapons[] = {"CUP_arifle_M16A2"};
+        weapons[] = {"CUP_arifle_G3A3_modern_ris_black"};
+        respawnWeapons[] = {"CUP_arifle_G3A3_modern_ris_black"};
 
-        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
-        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        magazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
+        respawnMagazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
 
         backpack = "CFP_Kitbag_IranDPM";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_IRAN",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",2,30}}},{"SP_Tactical1_Tan",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_Kitbag_IranDPM",{{"MineDetector",1},{"DemoCharge_Remote_Mag",5,1},{"APERSTripMine_Wire_Mag",1,1},{"ATMine_Range_Mag",1,1},{"APERSBoundingMine_Range_Mag",1,1}}},"SP_M1Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G3A3_modern_ris_black","","","",{"CUP_20Rnd_762x51_G3",30},{},""},{},{},{"CFP_BDU_IRAN",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_G3",2,30}}},{"SP_Tactical1_Tan",{{"CUP_20Rnd_762x51_G3",4,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_Kitbag_IranDPM",{{"MineDetector",1},{"DemoCharge_Remote_Mag",5,1},{"APERSTripMine_Wire_Mag",1,1},{"ATMine_Range_Mag",1,1},{"APERSBoundingMine_Range_Mag",1,1}}},"SP_M1Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -930,13 +930,13 @@ class CfgVehicles {
         linkedItems[] = {"CFP_Modular1_Woodland","CFP_PASGTHelmet_IranDPM1","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CFP_Modular1_Woodland","CFP_PASGTHelmet_IranDPM1","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A4_Base","Binocular"};
-        respawnWeapons[] = {"CUP_arifle_M16A4_Base","Binocular"};
+        weapons[] = {"CUP_arifle_G3A3_modern_ris_black","Binocular"};
+        respawnWeapons[] = {"CUP_arifle_G3A3_modern_ris_black","Binocular"};
 
-        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
-        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        magazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
+        respawnMagazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_irandpm",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_Modular1_Woodland",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1}}},{},"CFP_PASGTHelmet_IranDPM1","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G3A3_modern_ris_black","","","",{"CUP_20Rnd_762x51_G3",30},{},""},{},{},{"CFP_U_FieldUniform_irandpm",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_G3",3,30}}},{"CFP_Modular1_Woodland",{{"CUP_20Rnd_762x51_G3",4,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1}}},{},"CFP_PASGTHelmet_IranDPM1","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -969,15 +969,15 @@ class CfgVehicles {
         linkedItems[] = {"CFP_Modular1_Woodland","CFP_PASGTHelmet_IranDPM1","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CFP_Modular1_Woodland","CFP_PASGTHelmet_IranDPM1","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A4_Base","CUP_launch_RPG7V","Binocular"};
-        respawnWeapons[] = {"CUP_arifle_M16A4_Base","CUP_launch_RPG7V","Binocular"};
+        weapons[] = {"CUP_arifle_G3A3_modern_ris_black","CUP_launch_RPG7V","Binocular"};
+        respawnWeapons[] = {"CUP_arifle_G3A3_modern_ris_black","CUP_launch_RPG7V","Binocular"};
 
-        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_PG7V_M","CUP_30Rnd_556x45_Stanag"};
-        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_PG7V_M","CUP_30Rnd_556x45_Stanag"};
+        magazines[] = {"CUP_20Rnd_762x51_G3","CUP_PG7V_M","CUP_20Rnd_762x51_G3"};
+        respawnMagazines[] = {"CUP_20Rnd_762x51_G3","CUP_PG7V_M","CUP_20Rnd_762x51_G3"};
 
         backpack = "CFP_RPGPack_Black";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_RPG7V","","","",{"CUP_PG7V_M",1},{},""},{},{"CFP_U_FieldUniform_irandpm",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_Modular1_Woodland",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1}}},{"CFP_RPGPack_Black",{{"CUP_PG7V_M",3,1}}},"CFP_PASGTHelmet_IranDPM1","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G3A3_modern_ris_black","","","",{"CUP_20Rnd_762x51_G3",30},{},""},{"CUP_launch_RPG7V","","","",{"CUP_PG7V_M",1},{},""},{},{"CFP_U_FieldUniform_irandpm",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_G3",3,30}}},{"CFP_Modular1_Woodland",{{"CUP_20Rnd_762x51_G3",4,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1}}},{"CFP_RPGPack_Black",{{"CUP_PG7V_M",3,1}}},"CFP_PASGTHelmet_IranDPM1","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1010,13 +1010,13 @@ class CfgVehicles {
         linkedItems[] = {"CFP_Modular1_Woodland","CFP_PASGTHelmet_IranDPM1","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CFP_Modular1_Woodland","CFP_PASGTHelmet_IranDPM1","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A4_Base","Binocular"};
-        respawnWeapons[] = {"CUP_arifle_M16A4_Base","Binocular"};
+        weapons[] = {"CUP_arifle_G3A3_modern_ris_black","Binocular"};
+        respawnWeapons[] = {"CUP_arifle_G3A3_modern_ris_black","Binocular"};
 
-        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
-        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        magazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
+        respawnMagazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_irandpm",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_Modular1_Woodland",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1}}},{},"CFP_PASGTHelmet_IranDPM1","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G3A3_modern_ris_black","","","",{"CUP_20Rnd_762x51_G3",30},{},""},{},{},{"CFP_U_FieldUniform_irandpm",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_G3",3,30}}},{"CFP_Modular1_Woodland",{{"CUP_20Rnd_762x51_G3",4,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1}}},{},"CFP_PASGTHelmet_IranDPM1","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1131,15 +1131,15 @@ class CfgVehicles {
         linkedItems[] = {"CFP_Modular1_Woodland","CFP_PASGTHelmet_IranDPM1","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CFP_Modular1_Woodland","CFP_PASGTHelmet_IranDPM1","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A4_Base","Binocular"};
-        respawnWeapons[] = {"CUP_arifle_M16A4_Base","Binocular"};
+        weapons[] = {"CUP_arifle_G3A3_modern_ris_black","Binocular"};
+        respawnWeapons[] = {"CUP_arifle_G3A3_modern_ris_black","Binocular"};
 
-        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
-        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        magazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
+        respawnMagazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
 
         backpack = "CFP_Kitbag_IranDPM";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_irandpm",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_Modular1_Woodland",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1}}},{"CFP_Kitbag_IranDPM",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",3,100}}},"CFP_PASGTHelmet_IranDPM1","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G3A3_modern_ris_black","","","",{"CUP_20Rnd_762x51_G3",30},{},""},{},{},{"CFP_U_FieldUniform_irandpm",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_G3",3,30}}},{"CFP_Modular1_Woodland",{{"CUP_20Rnd_762x51_G3",4,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1}}},{"CFP_Kitbag_IranDPM",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",3,100}}},"CFP_PASGTHelmet_IranDPM1","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1175,15 +1175,15 @@ class CfgVehicles {
         linkedItems[] = {"CFP_Modular1_Woodland","CFP_PASGTHelmet_IranDPM1","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CFP_Modular1_Woodland","CFP_PASGTHelmet_IranDPM1","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A4_Base","Binocular"};
-        respawnWeapons[] = {"CUP_arifle_M16A4_Base","Binocular"};
+        weapons[] = {"CUP_arifle_G3A3_modern_ris_black","Binocular"};
+        respawnWeapons[] = {"CUP_arifle_G3A3_modern_ris_black","Binocular"};
 
-        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
-        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        magazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
+        respawnMagazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
 
         backpack = "CFP_AssaultPack_Woodland";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_irandpm",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_Modular1_Woodland",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1}}},{"CFP_AssaultPack_Woodland",{{"Medikit",1},{"FirstAidKit",10}}},"CFP_PASGTHelmet_IranDPM1","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G3A3_modern_ris_black","","","",{"CUP_20Rnd_762x51_G3",30},{},""},{},{},{"CFP_U_FieldUniform_irandpm",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_G3",3,30}}},{"CFP_Modular1_Woodland",{{"CUP_20Rnd_762x51_G3",4,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1}}},{"CFP_AssaultPack_Woodland",{{"Medikit",1},{"FirstAidKit",10}}},"CFP_PASGTHelmet_IranDPM1","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1218,15 +1218,15 @@ class CfgVehicles {
         linkedItems[] = {"CFP_Modular1_Woodland","CFP_PASGTHelmet_IranDPM1","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CFP_Modular1_Woodland","CFP_PASGTHelmet_IranDPM1","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A4_Base","Binocular"};
-        respawnWeapons[] = {"CUP_arifle_M16A4_Base","Binocular"};
+        weapons[] = {"CUP_arifle_G3A3_modern_ris_black","Binocular"};
+        respawnWeapons[] = {"CUP_arifle_G3A3_modern_ris_black","Binocular"};
 
-        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
-        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        magazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
+        respawnMagazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
 
         backpack = "CFP_Kitbag_IranDPM";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_irandpm",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_Modular1_Woodland",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1}}},{"CFP_Kitbag_IranDPM",{{"MineDetector",1},{"ATMine_Range_Mag",1,1},{"APERSTripMine_Wire_Mag",1,1},{"DemoCharge_Remote_Mag",5,1},{"APERSBoundingMine_Range_Mag",1,1}}},"CFP_PASGTHelmet_IranDPM1","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G3A3_modern_ris_black","","","",{"CUP_20Rnd_762x51_G3",30},{},""},{},{},{"CFP_U_FieldUniform_irandpm",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_G3",3,30}}},{"CFP_Modular1_Woodland",{{"CUP_20Rnd_762x51_G3",4,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1}}},{"CFP_Kitbag_IranDPM",{{"MineDetector",1},{"ATMine_Range_Mag",1,1},{"APERSTripMine_Wire_Mag",1,1},{"DemoCharge_Remote_Mag",5,1},{"APERSBoundingMine_Range_Mag",1,1}}},"CFP_PASGTHelmet_IranDPM1","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -1339,15 +1339,15 @@ class CfgVehicles {
         linkedItems[] = {"CFP_Modular1_Woodland","CFP_PASGTHelmet_IranDPM1","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CFP_Modular1_Woodland","CFP_PASGTHelmet_IranDPM1","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A4_Base","Binocular"};
-        respawnWeapons[] = {"CUP_arifle_M16A4_Base","Binocular"};
+        weapons[] = {"CUP_arifle_G3A3_modern_ris_black","Binocular"};
+        respawnWeapons[] = {"CUP_arifle_G3A3_modern_ris_black","Binocular"};
 
-        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
-        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        magazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
+        respawnMagazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
 
         backpack = "CFP_Kitbag_IranDPM";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_irandpm",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_Modular1_Woodland",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1}}},{"CFP_Kitbag_IranDPM",{{"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",6,45}}},"CFP_PASGTHelmet_IranDPM1","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G3A3_modern_ris_black","","","",{"CUP_20Rnd_762x51_G3",30},{},""},{},{},{"CFP_U_FieldUniform_irandpm",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_G3",3,30}}},{"CFP_Modular1_Woodland",{{"CUP_20Rnd_762x51_G3",4,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1}}},{"CFP_Kitbag_IranDPM",{{"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",6,45}}},"CFP_PASGTHelmet_IranDPM1","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -2493,15 +2493,15 @@ class CfgVehicles {
         linkedItems[] = {"SP_Tactical1_Tan","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"SP_Tactical1_Tan","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A2"};
-        respawnWeapons[] = {"CUP_arifle_M16A2"};
+        weapons[] = {"CUP_arifle_G3A3_modern_ris_black"};
+        respawnWeapons[] = {"CUP_arifle_G3A3_modern_ris_black"};
 
-        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
-        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        magazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
+        respawnMagazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
 
         backpack = "CUP_B_DShkM_TripodHigh_Bag";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_IRAN",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",2,30}}},{"SP_Tactical1_Tan",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_B_DShkM_TripodHigh_Bag",{}},"SP_M1Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G3A3_modern_ris_black","","","",{"CUP_20Rnd_762x51_G3",30},{},""},{},{},{"CFP_BDU_IRAN",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_G3",2,30}}},{"SP_Tactical1_Tan",{{"CUP_20Rnd_762x51_G3",4,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_B_DShkM_TripodHigh_Bag",{}},"SP_M1Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -2534,15 +2534,15 @@ class CfgVehicles {
         linkedItems[] = {"SP_Tactical1_Tan","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"SP_Tactical1_Tan","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A2"};
-        respawnWeapons[] = {"CUP_arifle_M16A2"};
+        weapons[] = {"CUP_arifle_G3A3_modern_ris_black"};
+        respawnWeapons[] = {"CUP_arifle_G3A3_modern_ris_black"};
 
-        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
-        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        magazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
+        respawnMagazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
 
         backpack = "CUP_B_DShkM_Gun_Bag";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_IRAN",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",2,30}}},{"SP_Tactical1_Tan",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_B_DShkM_Gun_Bag",{}},"SP_M1Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G3A3_modern_ris_black","","","",{"CUP_20Rnd_762x51_G3",30},{},""},{},{},{"CFP_BDU_IRAN",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_G3",2,30}}},{"SP_Tactical1_Tan",{{"CUP_20Rnd_762x51_G3",4,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_B_DShkM_Gun_Bag",{}},"SP_M1Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -2575,15 +2575,15 @@ class CfgVehicles {
         linkedItems[] = {"SP_Tactical1_Tan","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"SP_Tactical1_Tan","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A2"};
-        respawnWeapons[] = {"CUP_arifle_M16A2"};
+        weapons[] = {"CUP_arifle_G3A3_modern_ris_black"};
+        respawnWeapons[] = {"CUP_arifle_G3A3_modern_ris_black"};
 
-        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
-        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        magazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
+        respawnMagazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
 
         backpack = "CUP_B_AGS30_Tripod_Bag";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_IRAN",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",2,30}}},{"SP_Tactical1_Tan",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_B_AGS30_Tripod_Bag",{}},"SP_M1Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G3A3_modern_ris_black","","","",{"CUP_20Rnd_762x51_G3",30},{},""},{},{},{"CFP_BDU_IRAN",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_G3",2,30}}},{"SP_Tactical1_Tan",{{"CUP_20Rnd_762x51_G3",4,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_B_AGS30_Tripod_Bag",{}},"SP_M1Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -2616,15 +2616,15 @@ class CfgVehicles {
         linkedItems[] = {"SP_Tactical1_Tan","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"SP_Tactical1_Tan","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A2"};
-        respawnWeapons[] = {"CUP_arifle_M16A2"};
+        weapons[] = {"CUP_arifle_G3A3_modern_ris_black"};
+        respawnWeapons[] = {"CUP_arifle_G3A3_modern_ris_black"};
 
-        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
-        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        magazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
+        respawnMagazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
 
         backpack = "CUP_B_AGS30_Gun_Bag";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_IRAN",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",2,30}}},{"SP_Tactical1_Tan",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_B_AGS30_Gun_Bag",{}},"SP_M1Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G3A3_modern_ris_black","","","",{"CUP_20Rnd_762x51_G3",30},{},""},{},{},{"CFP_BDU_IRAN",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_G3",2,30}}},{"SP_Tactical1_Tan",{{"CUP_20Rnd_762x51_G3",4,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_B_AGS30_Gun_Bag",{}},"SP_M1Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -2657,15 +2657,15 @@ class CfgVehicles {
         linkedItems[] = {"SP_Tactical1_Tan","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"SP_Tactical1_Tan","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A2"};
-        respawnWeapons[] = {"CUP_arifle_M16A2"};
+        weapons[] = {"CUP_arifle_G3A3_modern_ris_black"};
+        respawnWeapons[] = {"CUP_arifle_G3A3_modern_ris_black"};
 
-        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
-        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        magazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
+        respawnMagazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
 
         backpack = "CUP_B_Podnos_Bipod_Bag";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_IRAN",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",2,30}}},{"SP_Tactical1_Tan",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_B_Podnos_Bipod_Bag",{}},"SP_M1Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G3A3_modern_ris_black","","","",{"CUP_20Rnd_762x51_G3",30},{},""},{},{},{"CFP_BDU_IRAN",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_G3",2,30}}},{"SP_Tactical1_Tan",{{"CUP_20Rnd_762x51_G3",4,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_B_Podnos_Bipod_Bag",{}},"SP_M1Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -2698,15 +2698,15 @@ class CfgVehicles {
         linkedItems[] = {"SP_Tactical1_Tan","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"SP_Tactical1_Tan","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A2"};
-        respawnWeapons[] = {"CUP_arifle_M16A2"};
+        weapons[] = {"CUP_arifle_G3A3_modern_ris_black"};
+        respawnWeapons[] = {"CUP_arifle_G3A3_modern_ris_black"};
 
-        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
-        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        magazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
+        respawnMagazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
 
         backpack = "CUP_B_Podnos_Gun_Bag";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_IRAN",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",2,30}}},{"SP_Tactical1_Tan",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_B_Podnos_Gun_Bag",{}},"SP_M1Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G3A3_modern_ris_black","","","",{"CUP_20Rnd_762x51_G3",30},{},""},{},{},{"CFP_BDU_IRAN",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_G3",2,30}}},{"SP_Tactical1_Tan",{{"CUP_20Rnd_762x51_G3",4,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_B_Podnos_Gun_Bag",{}},"SP_M1Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -2739,15 +2739,15 @@ class CfgVehicles {
         linkedItems[] = {"SP_Tactical1_Tan","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"SP_Tactical1_Tan","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A2"};
-        respawnWeapons[] = {"CUP_arifle_M16A2"};
+        weapons[] = {"CUP_arifle_G3A3_modern_ris_black"};
+        respawnWeapons[] = {"CUP_arifle_G3A3_modern_ris_black"};
 
-        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
-        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        magazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
+        respawnMagazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
 
         backpack = "CUP_B_SPG9_Tripod_Bag";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_IRAN",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",2,30}}},{"SP_Tactical1_Tan",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_B_SPG9_Tripod_Bag",{}},"SP_M1Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G3A3_modern_ris_black","","","",{"CUP_20Rnd_762x51_G3",30},{},""},{},{},{"CFP_BDU_IRAN",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_G3",2,30}}},{"SP_Tactical1_Tan",{{"CUP_20Rnd_762x51_G3",4,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_B_SPG9_Tripod_Bag",{}},"SP_M1Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -2780,15 +2780,15 @@ class CfgVehicles {
         linkedItems[] = {"SP_Tactical1_Tan","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"SP_Tactical1_Tan","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A2"};
-        respawnWeapons[] = {"CUP_arifle_M16A2"};
+        weapons[] = {"CUP_arifle_G3A3_modern_ris_black"};
+        respawnWeapons[] = {"CUP_arifle_G3A3_modern_ris_black"};
 
-        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
-        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        magazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
+        respawnMagazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
 
         backpack = "CUP_B_SPG9_Gun_Bag";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_IRAN",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",2,30}}},{"SP_Tactical1_Tan",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_B_SPG9_Gun_Bag",{}},"SP_M1Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G3A3_modern_ris_black","","","",{"CUP_20Rnd_762x51_G3",30},{},""},{},{},{"CFP_BDU_IRAN",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_G3",2,30}}},{"SP_Tactical1_Tan",{{"CUP_20Rnd_762x51_G3",4,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_B_SPG9_Gun_Bag",{}},"SP_M1Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -2821,15 +2821,15 @@ class CfgVehicles {
         linkedItems[] = {"SP_Tactical1_Tan","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"SP_Tactical1_Tan","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A2"};
-        respawnWeapons[] = {"CUP_arifle_M16A2"};
+        weapons[] = {"CUP_arifle_G3A3_modern_ris_black"};
+        respawnWeapons[] = {"CUP_arifle_G3A3_modern_ris_black"};
 
-        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
-        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        magazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
+        respawnMagazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
 
         backpack = "CUP_B_Metis_Tripod_Bag";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_IRAN",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",2,30}}},{"SP_Tactical1_Tan",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_B_Metis_Tripod_Bag",{}},"SP_M1Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G3A3_modern_ris_black","","","",{"CUP_20Rnd_762x51_G3",30},{},""},{},{},{"CFP_BDU_IRAN",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_G3",2,30}}},{"SP_Tactical1_Tan",{{"CUP_20Rnd_762x51_G3",4,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_B_Metis_Tripod_Bag",{}},"SP_M1Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -2862,15 +2862,15 @@ class CfgVehicles {
         linkedItems[] = {"SP_Tactical1_Tan","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"SP_Tactical1_Tan","SP_M1Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A2"};
-        respawnWeapons[] = {"CUP_arifle_M16A2"};
+        weapons[] = {"CUP_arifle_G3A3_modern_ris_black"};
+        respawnWeapons[] = {"CUP_arifle_G3A3_modern_ris_black"};
 
-        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
-        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
+        magazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
+        respawnMagazines[] = {"CUP_20Rnd_762x51_G3","CUP_20Rnd_762x51_G3"};
 
         backpack = "CUP_B_Metis_Gun_Bag";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_IRAN",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",2,30}}},{"SP_Tactical1_Tan",{{"CUP_30Rnd_556x45_Stanag",4,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_B_Metis_Gun_Bag",{}},"SP_M1Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G3A3_modern_ris_black","","","",{"CUP_20Rnd_762x51_G3",30},{},""},{},{},{"CFP_BDU_IRAN",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_G3",2,30}}},{"SP_Tactical1_Tan",{{"CUP_20Rnd_762x51_G3",4,30},{"CUP_HandGrenade_M67",1,1}}},{"CUP_B_Metis_Gun_Bag",{}},"SP_M1Helmet_Tan","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
