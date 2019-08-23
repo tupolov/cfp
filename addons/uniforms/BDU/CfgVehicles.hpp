@@ -1230,7 +1230,7 @@
 		magazines[] = {};
 		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BDU\camo\US_BDU_M81.paa","\x\cfp\addons\uniforms\BDU\camo\US_BDU_M81.paa","\x\cfp\addons\uniforms\BDU\camo\US_BDU_M81.paa","\x\cfp\addons\uniforms\BDU\camo\US_BDU_M81.paa","\x\cfp\addons\uniforms\BDU\camo\uganda_flag_ca.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BDU\camo\US_BDU_.paa","\x\cfp\addons\uniforms\BDU\camo\US_BDU_M81.paa","\x\cfp\addons\uniforms\BDU\camo\US_BDU_M81.paa","\x\cfp\addons\uniforms\BDU\camo\US_BDU_M81.paa","\x\cfp\addons\uniforms\BDU\camo\uganda_flag_ca.paa"};
 		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Flag","Insignia"};
 		class Wounds /// changes material of skin according to damage
 		{
@@ -1239,30 +1239,92 @@
 		};
 	};
 
-	class CFP_BDU_TPat: B_Soldier_base_F
+	class CFP_BDU_DPM: B_Soldier_base_F
 	{
 
 		scope = 1;
-		displayName = "BDU (TPat)";
+		displayName = "BDU (DPM)";
 		faction = "BLU_F";
 		modelSides[] = {6};
-		vehicleClass = "CFP_BDU_TPat";
+		vehicleClass = "CFP_BDU_DPM";
 		canCarryBackPack=1;
 		canDeactivateMines=1;
 		engineer=1;
 		attendant = "true";
 		uniformAccessories[] = {};
-		uniformClass = "CFP_BDU_TPat";
+		uniformClass = "CFP_BDU_DPM";
 		nakedUniform = "U_BasicBody";
-		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2.p3d";
 
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
 		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BDU\camo\US_BDU_TPat.paa","\x\cfp\addons\uniforms\BDU\camo\US_BDU_TPat.paa","\x\cfp\addons\uniforms\BDU\camo\US_BDU_TPat.paa"};
-		hiddenSelections[] = {"camo","Camo1","Camo2"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BDU\camo\US_BDU_DPM.paa","\x\cfp\addons\uniforms\BDU\camo\US_BDU_DPM.paa","\x\cfp\addons\uniforms\BDU\camo\US_BDU_DPM.paa","\x\cfp\addons\uniforms\BDU\camo\US_BDU_DPM.paa"};
+		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Flag","Insignia"};
+		class Wounds /// changes material of skin according to damage
+		{
+			tex[] = {};
+			mat[] = {"A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing.rvmat","A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing_injury.rvmat","A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
+		};
+	};
+
+	class CFP_BDU_DPM2: B_Soldier_base_F
+	{
+
+		scope = 1;
+		displayName = "BDU (DPM Rolled Sleeves)";
+		faction = "BLU_F";
+		modelSides[] = {6};
+		vehicleClass = "CFP_BDU_DPM2";
+		canCarryBackPack=1;
+		canDeactivateMines=1;
+		engineer=1;
+		attendant = "true";
+		uniformAccessories[] = {};
+		uniformClass = "CFP_BDU_DPM2";
+		nakedUniform = "U_BasicBody";
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_roll.p3d";
+
+		Items[] = {};
+		weapons[] = {"Throw","Put"};
+		magazines[] = {};
+		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
+		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BDU\camo\US_BDU_DPM.paa","\x\cfp\addons\uniforms\BDU\camo\US_BDU_DPM.paa","\x\cfp\addons\uniforms\BDU\camo\US_BDU_DPM.paa","\x\cfp\addons\uniforms\BDU\camo\US_BDU_DPM.paa"};
+		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Flag","Insignia"};
+		class Wounds /// changes material of skin according to damage
+		{
+			tex[] = {};
+			mat[] = {"A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing.rvmat","A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing_injury.rvmat","A3\Characters_F_Beta\INDEP\Data\ia_soldier_01_clothing_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
+		};
+	};
+
+	class CFP_BDU_DPM3: B_Soldier_base_F
+	{
+
+		scope = 1;
+		displayName = "BDU (DPM Shirt Green Pants)";
+		faction = "BLU_F";
+		modelSides[] = {6};
+		vehicleClass = "CFP_BDU_DPM3";
+		canCarryBackPack=1;
+		canDeactivateMines=1;
+		engineer=1;
+		attendant = "true";
+		uniformAccessories[] = {};
+		uniformClass = "CFP_BDU_DPM3";
+		nakedUniform = "U_BasicBody";
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_roll_gloves.p3d";
+
+		Items[] = {};
+		weapons[] = {"Throw","Put"};
+		magazines[] = {};
+		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
+		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BDU\camo\US_BDU_DPM_Grn.paa","\x\cfp\addons\uniforms\BDU\camo\US_BDU_DPM_Grn.paa","\x\cfp\addons\uniforms\BDU\camo\US_BDU_DPM_Grn.paa","\x\cfp\addons\uniforms\BDU\camo\US_BDU_DPM_Grn.paa","\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\oakley_co.paa"};
+		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Flag","Insignia"};
 		class Wounds /// changes material of skin according to damage
 		{
 			tex[] = {};
