@@ -7,7 +7,7 @@
 		displayName  = "PASGT Helmet (US DBDU)";
 		//
 		model = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
-		hiddenSelections[] = {"camo", "NVG_mount"};
+		hiddenSelections[] = {"camo", "NVG_mount", "Goggle_Glass", "Goggle_ESS", "Cover_Front", "Cover_Back"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\DBDU.paa"};
 		author = "CFP";
 
@@ -19,8 +19,8 @@
 			armor = 10;
 			passThrough = 0.30;
 			HITPOINTS_HEAD(10,0.30)
-			hiddenSelections[] = {"camo", "NVG_mount"};
-			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\DBDU.paa","\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\data\new_usmc_gear3_tan_co.paa"};
+			hiddenSelections[] = {"camo", "NVG_mount", "Goggle_Glass", "Goggle_ESS", "Cover_Front", "Cover_Back"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\DBDU.paa"};
 		};
 	};
 
@@ -32,8 +32,8 @@
 		weaponPoolAvailable = 1;
 		displayName  = "PASGT Helmet (NVG, US DBDU)";
 		model = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
-		hiddenSelections[] = {"camo", "NVG_mount"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\DBDU.paa","\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\data\new_usmc_gear3_tan_co.paa"};
+		hiddenSelections[] = {"camo", "Goggle_Glass", "Goggle_ESS", "Cover_Front", "Cover_Back"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\DBDU.paa"};
 		author = "CFP";
 
 		class ItemInfo: HeadgearItem
@@ -44,8 +44,112 @@
 			armor = 10;
 			passThrough = 0.30;
 			HITPOINTS_HEAD(10,0.30)
-			hiddenSelections[] = {"camo", "NVG_mount"};
-			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\DBDU.paa","\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\data\new_usmc_gear3_tan_co.paa"};
+			hiddenSelections[] = {"camo", "Goggle_Glass", "Goggle_ESS", "Cover_Front", "Cover_Back"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\DBDU.paa"};
+		};
+	};
+
+	class CFP_PASGTHelmet_DBDU3 : ItemCore
+    {
+        picture = \x\cfp\addons\headgear\data\ui\icon_SP_PASGTHelmet_Black1.paa;
+
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName  = "PASGT Helmet w Goggles (NVG, US DBDU)";
+		//
+		model = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
+		hiddenSelections[] = {"camo", "Cover_Front", "Cover_Back"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\DBDU.paa"};
+		author = "CFP";
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 60;
+			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
+			modelSides[] = {3,1};
+			armor = 10;
+			passThrough = 0.30;
+			HITPOINTS_HEAD(10,0.30)
+			hiddenSelections[] = {"camo", "Cover_Front", "Cover_Back"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\DBDU.paa"};
+		};
+	};
+
+	class CFP_PASGTHelmet_DBDU4 : ItemCore
+    {
+        picture = \x\cfp\addons\headgear\data\ui\icon_SP_PASGTHelmet_Black1.paa;
+
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName  = "PASGT Helmet w Goggles (US DBDU)";
+		//
+		model = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
+		hiddenSelections[] = {"camo", "NVG_mount", "Cover_Front", "Cover_Back"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\DBDU.paa"};
+		author = "CFP";
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 60;
+			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
+			modelSides[] = {3,1};
+			armor = 10;
+			passThrough = 0.30;
+			HITPOINTS_HEAD(10,0.30)
+			hiddenSelections[] = {"camo", "NVG_mount", "Cover_Front", "Cover_Back"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\DBDU.paa"};
+		};
+	};
+
+	class CFP_PASGTHelmet_DBDU5 : ItemCore
+    {
+        picture = \x\cfp\addons\headgear\data\ui\icon_SP_PASGTHelmet_Black1.paa;
+
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName  = "PASGT Helmet w Goggles Front Cover (US DBDU)";
+		//
+		model = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
+		hiddenSelections[] = {"camo", "NVG_mount", "Cover_Back"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\DBDU.paa","cup\creatures\people\military\cup_creatures_people_military_germany\data\idf_helmet_white_co.paa"};
+		author = "CFP";
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 60;
+			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
+			modelSides[] = {3,1};
+			armor = 10;
+			passThrough = 0.30;
+			HITPOINTS_HEAD(10,0.30)
+			hiddenSelections[] = {"camo", "NVG_mount", "Cover_Back"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\DBDU.paa","cup\creatures\people\military\cup_creatures_people_military_germany\data\idf_helmet_white_co.paa"};
+		};
+	};
+
+	class CFP_PASGTHelmet_DBDU6 : ItemCore
+    {
+        picture = \x\cfp\addons\headgear\data\ui\icon_SP_PASGTHelmet_Black1.paa;
+
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName  = "PASGT Helmet w Goggles Back Cover (US DBDU)";
+		//
+		model = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
+		hiddenSelections[] = {"camo", "NVG_mount", "Cover_Front"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\DBDU.paa","cup\creatures\people\military\cup_creatures_people_military_germany\data\idf_helmet_white_co.paa"};
+		author = "CFP";
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 60;
+			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
+			modelSides[] = {3,1};
+			armor = 10;
+			passThrough = 0.30;
+			HITPOINTS_HEAD(10,0.30)
+			hiddenSelections[] = {"camo", "NVG_mount", "Cover_Front"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\DBDU.paa","cup\creatures\people\military\cup_creatures_people_military_germany\data\idf_helmet_white_co.paa"};
 		};
 	};
 
@@ -339,9 +443,9 @@
 		weaponPoolAvailable = 1;
 		displayName = "PASGT Helmet (Iran DPM 1)";
 		//
-		model = "\x\cfp\addons\models\PASGTHelmet1";
+		model = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\IranDPM.paa"};
-		hiddenSelections[] = {"Camo"};
+		hiddenSelections[] = {"camo", "NVG_mount", "LWH_chinstrap", "Goggle_Glass", "Goggle_ESS", "Cover_Front", "Cover_Back"};
 		author = "CFP";
 
 
@@ -349,13 +453,13 @@
 		class ItemInfo: HeadgearItem
 		{
 			mass = 60;
-			uniformmodel = "\x\cfp\addons\models\PASGTHelmet1";
+			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
 			HITPOINTS_HEAD(10,0.30)
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\IranDPM.paa"};
-			hiddenSelections[] = {"Camo"};
+			hiddenSelections[] = {"camo", "NVG_mount", "LWH_chinstrap", "Goggle_Glass", "Goggle_ESS", "Cover_Front", "Cover_Back"};
 		};
 	};
 
@@ -367,9 +471,9 @@
 		weaponPoolAvailable = 1;
 		displayName = "PASGT Helmet (Iran DPM 2)";
 		//
-		model = "\x\cfp\addons\models\PASGTHelmet1";
+		model = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\IranDPM.paa"};
-		hiddenSelections[] = {"Camo"};
+		hiddenSelections[] = {"camo", "NVG_mount", "Cover_Front", "Cover_Back"};
 		author = "CFP";
 
 
@@ -377,13 +481,13 @@
 		class ItemInfo: HeadgearItem
 		{
 			mass = 60;
-			uniformmodel = "\x\cfp\addons\models\PASGTHelmet2";
+			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
 			HITPOINTS_HEAD(10,0.30)
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\IranDPM.paa"};
-			hiddenSelections[] = {"Camo"};
+			hiddenSelections[] = {"camo", "NVG_mount", "Cover_Front", "Cover_Back"};
 		};
 	};
 

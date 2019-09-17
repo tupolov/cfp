@@ -602,3 +602,5 @@ class CfgVehicleClasses
 	};
 
 
+
+
