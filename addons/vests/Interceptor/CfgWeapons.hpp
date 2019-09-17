@@ -2,7 +2,7 @@
     {
         picture = \x\cfp\addons\vests\data\ui\icon_CFP_ITV_Empty.paa;
 
-        scope = 2;
+        scope = 1;
         displayName = "Interceptor (Empty M81)";
         //
         model = "x\cfp\addons\models\interceptor_base.p3d";
@@ -96,7 +96,7 @@
     {
         picture = \x\cfp\addons\vests\data\ui\icon_CFP_ITV_Empty_Grey.paa;
 
-        scope = 2;
+        scope = 1;
         displayName = "Interceptor (Empty Grey)";
         //
         model = "x\cfp\addons\models\interceptor_base.p3d";
@@ -143,7 +143,7 @@
     {
         picture = \x\cfp\addons\vests\data\ui\icon_CFP_ITV_Empty_DCU.paa;
 
-        scope = 2;
+        scope = 1;
         displayName = "Interceptor (Empty DCU)";
         //
         model = "x\cfp\addons\models\interceptor_base.p3d";
@@ -190,7 +190,7 @@
     {
         picture = \x\cfp\addons\vests\data\ui\icon_CFP_ITV_Empty_Brown.paa;
 
-        scope = 2;
+        scope = 1;
         displayName = "Interceptor (Empty Coyote Brown)";
         //
         model = "x\cfp\addons\models\interceptor_base.p3d";
@@ -237,7 +237,7 @@
     {
         picture = \x\cfp\addons\vests\data\ui\icon_CFP_ITV_Empty_Green.paa;
 
-        scope = 2;
+        scope = 1;
         displayName = "Interceptor (Empty Olive Drab)";
         //
         model = "x\cfp\addons\models\interceptor_base.p3d";
@@ -284,7 +284,7 @@
     {
         picture = \x\cfp\addons\vests\data\ui\icon_CFP_ITV_Rifleman.paa;
 
-        scope = 2;
+        scope = 1;
         displayName = "Interceptor (Rifleman M81)";
         //
         model = "x\cfp\addons\models\interceptor_rifleman.p3d";
@@ -328,7 +328,7 @@
     {
         picture = \x\cfp\addons\vests\data\ui\icon_CFP_ITV_Rifleman_DCU.paa;
 
-        scope = 2;
+        scope = 1;
         displayName = "Interceptor (Rifleman DCU)";
         //
         model = "x\cfp\addons\models\interceptor_rifleman.p3d";
@@ -424,7 +424,7 @@
     {
         picture = \x\cfp\addons\vests\data\ui\icon_CFP_ITV_Rifleman_Grey.paa;
 
-        scope = 2;
+        scope = 1;
         displayName = "Interceptor (Rifleman Grey)";
         //
         model = "x\cfp\addons\models\interceptor_rifleman.p3d";
@@ -472,7 +472,7 @@
     {
         picture = \x\cfp\addons\vests\data\ui\icon_CFP_ITV_Rifleman_Green.paa;
 
-        scope = 2;
+        scope = 1;
         displayName = "Interceptor (Rifleman Olive Drab)";
         //
         model = "x\cfp\addons\models\interceptor_rifleman.p3d";
@@ -520,7 +520,7 @@
     {
         picture = \x\cfp\addons\vests\data\ui\icon_CFP_ITV_Rifleman_Brown.paa;
 
-        scope = 2;
+        scope = 1;
         displayName = "Interceptor (Rifleman Coyote Brown)";
         //
         model = "x\cfp\addons\models\interceptor_rifleman.p3d";
@@ -568,7 +568,7 @@
     {
         picture = \x\cfp\addons\vests\data\ui\icon_CFP_ITV_Grenadier.paa;
 
-        scope = 2;
+        scope = 1;
         displayName = "Interceptor (Grenadier M81)";
         //
         model = "x\cfp\addons\models\interceptor_gl.p3d";
@@ -612,7 +612,7 @@
     {
         picture = \x\cfp\addons\vests\data\ui\icon_CFP_ITV_Grenadier_DCU.paa;
 
-        scope = 2;
+        scope = 1;
         displayName = "Interceptor (Grenadier DCU)";
         //
         model = "x\cfp\addons\models\interceptor_gl.p3d";
@@ -708,7 +708,7 @@
     {
         picture = \x\cfp\addons\vests\data\ui\icon_CFP_ITV_Grenadier_Grey.paa;
 
-        scope = 2;
+        scope = 1;
         displayName = "Interceptor (Grey)";
         //
         model = "x\cfp\addons\models\interceptor_gl.p3d";
@@ -756,7 +756,7 @@
     {
         picture = \x\cfp\addons\vests\data\ui\icon_CFP_ITV_Grenadier_Brown.paa;
 
-        scope = 2;
+        scope = 1;
         displayName = "Interceptor (Grenadier Coyote Brown)";
         //
         model = "x\cfp\addons\models\interceptor_gl.p3d";
@@ -804,7 +804,7 @@
     {
         picture = \x\cfp\addons\vests\data\ui\icon_CFP_ITV_Grenadier_Green.paa;
 
-        scope = 2;
+        scope = 1;
         displayName = "Interceptor (Grenadier Olive Drab)";
         //
         model = "x\cfp\addons\models\interceptor_gl.p3d";
