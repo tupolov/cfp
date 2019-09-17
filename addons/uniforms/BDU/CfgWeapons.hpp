@@ -1134,6 +1134,112 @@
 		};
 	};
 
+/////IDF Uniforms
 
+	class CFP_IDF_1 : Uniform_Base
+    {
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_Tan.paa;
 
+		scope=2;
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Germany\CUP_Ger_Uniform.p3d";
+		displayName = "IDF Uniform (Kneepads)";
+		author = "CFP";
 
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Germany\CUP_Ger_Uniform.p3d";
+			uniformClass = "CFP_IDF_1";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
+	class CFP_IDF_2 : Uniform_Base
+    {
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_Tan.paa;
+
+		scope=2;
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Germany\CUP_Ger_Uniform_gloves.p3d";
+		displayName = "IDF Uniform (Kneepads/Gloves)";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Germany\CUP_Ger_Uniform_gloves.p3d";
+			uniformClass = "CFP_IDF_2";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
+	class CFP_IDF_3 : Uniform_Base
+    {
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_Tan.paa;
+
+		scope=2;
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Germany\CUP_Ger_Uniform_gloves_rolled.p3d";
+		displayName = "IDF Uniform (Kneepads/Gloves/Rolled)";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Germany\CUP_Ger_Uniform_gloves_rolled.p3d";
+			uniformClass = "CFP_IDF_3";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
+	class CFP_IDF_4 : Uniform_Base
+    {
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_Tan.paa;
+
+		scope=2;
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Germany\CUP_Ger_Uniform_kneeless_gloves_rolled.p3d";
+		displayName = "IDF Uniform (Gloves/Rolled)";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Germany\CUP_Ger_Uniform_kneeless_gloves_rolled.p3d";
+			uniformClass = "CFP_IDF_4";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
+	class CFP_IDF_5 : Uniform_Base
+    {
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_Tan.paa;
+
+		scope=2;
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Germany\CUP_Ger_Uniform_kneeless_rolled.p3d";
+		displayName = "IDF Uniform (Rolled)";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Germany\CUP_Ger_Uniform_kneeless_rolled.p3d";
+			uniformClass = "CFP_IDF_5";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
+	class CFP_IDF_6 : Uniform_Base
+    {
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_Tan.paa;
+
+		scope=2;
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Germany\CUP_Ger_Uniform_kneeless_gloves.p3d";
+		displayName = "IDF Uniform (Gloves)";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Germany\CUP_Ger_Uniform_kneeless_gloves.p3d";
+			uniformClass = "CFP_IDF_6";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};

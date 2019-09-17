@@ -140,9 +140,9 @@ class CfgVehicles {
         };
     };
 
-    class CUP_B_M7Bradley_USA_D;
-    class CUP_B_M7Bradley_USA_D_OCimport_01 : CUP_B_M7Bradley_USA_D { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_B_M7Bradley_USA_D_OCimport_02 : CUP_B_M7Bradley_USA_D_OCimport_01 {
+    class CUP_B_M119_US;
+    class CUP_B_M119_US_OCimport_01 : CUP_B_M119_US { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_B_M119_US_OCimport_02 : CUP_B_M119_US_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
@@ -158,32 +158,30 @@ class CfgVehicles {
         };
     };
 
-    class CUP_B_M1126_ICV_M2_Desert;
-    class CUP_B_M1126_ICV_M2_Desert_OCimport_01 : CUP_B_M1126_ICV_M2_Desert { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_B_M1126_ICV_M2_Desert_OCimport_02 : CUP_B_M1126_ICV_M2_Desert_OCimport_01 {
+    class CUP_B_M252_US;
+    class CUP_B_M252_US_OCimport_01 : CUP_B_M252_US { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_B_M252_US_OCimport_02 : CUP_B_M252_US_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
-            class ObsTurret;
-            class CommanderTurret;
+            class MainTurret;
         };
     };
 
-    class CUP_B_M1126_ICV_MK19_Desert;
-    class CUP_B_M1126_ICV_MK19_Desert_OCimport_01 : CUP_B_M1126_ICV_MK19_Desert { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_B_M1126_ICV_MK19_Desert_OCimport_02 : CUP_B_M1126_ICV_MK19_Desert_OCimport_01 {
+    class CUP_B_TOW_TriPod_US;
+    class CUP_B_TOW_TriPod_US_OCimport_01 : CUP_B_TOW_TriPod_US { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_B_TOW_TriPod_US_OCimport_02 : CUP_B_TOW_TriPod_US_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
-            class ObsTurret;
-            class CommanderTurret;
+            class MainTurret;
         };
     };
 
-    class CUP_B_M6LineBacker_USA_D;
-    class CUP_B_M6LineBacker_USA_D_OCimport_01 : CUP_B_M6LineBacker_USA_D { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_B_M6LineBacker_USA_D_OCimport_02 : CUP_B_M6LineBacker_USA_D_OCimport_01 {
+    class CUP_B_M2StaticMG_MiniTripod_US;
+    class CUP_B_M2StaticMG_MiniTripod_US_OCimport_01 : CUP_B_M2StaticMG_MiniTripod_US { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_B_M2StaticMG_MiniTripod_US_OCimport_02 : CUP_B_M2StaticMG_MiniTripod_US_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
-            class Mainturret;
+            class MainTurret;
         };
     };
 
@@ -253,9 +251,9 @@ class CfgVehicles {
     class CUP_B_HMMWV_Transport_USA_OCimport_01 : CUP_B_HMMWV_Transport_USA { scope = 0; class EventHandlers; };
     class CUP_B_HMMWV_Transport_USA_OCimport_02 : CUP_B_HMMWV_Transport_USA_OCimport_01 { scope = 0; class EventHandlers; };
 
-    class CUP_B_HMMWV_M2_GPK_USA;
-    class CUP_B_HMMWV_M2_GPK_USA_OCimport_01 : CUP_B_HMMWV_M2_GPK_USA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_B_HMMWV_M2_GPK_USA_OCimport_02 : CUP_B_HMMWV_M2_GPK_USA_OCimport_01 {
+    class CUP_B_M2StaticMG_US;
+    class CUP_B_M2StaticMG_US_OCimport_01 : CUP_B_M2StaticMG_US { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_B_M2StaticMG_US_OCimport_02 : CUP_B_M2StaticMG_US_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
@@ -282,56 +280,82 @@ class CfgVehicles {
     class CUP_B_TowingTractor_USA_OCimport_01 : CUP_B_TowingTractor_USA { scope = 0; class EventHandlers; };
     class CUP_B_TowingTractor_USA_OCimport_02 : CUP_B_TowingTractor_USA_OCimport_01 { scope = 0; class EventHandlers; };
 
-    class CUP_B_M1165_GMV_USA;
-    class CUP_B_M1165_GMV_USA_OCimport_01 : CUP_B_M1165_GMV_USA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_B_M1165_GMV_USA_OCimport_02 : CUP_B_M1165_GMV_USA_OCimport_01 {
+    class CUP_B_AH6J_USA;
+    class CUP_B_AH6J_USA_OCimport_01 : CUP_B_AH6J_USA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_B_AH6J_USA_OCimport_02 : CUP_B_AH6J_USA_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
-            class MainTurret;
+            class CopilotTurret;
         };
     };
 
-    class CUP_B_M1151_M2_USA;
-    class CUP_B_M1151_M2_USA_OCimport_01 : CUP_B_M1151_M2_USA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_B_M1151_M2_USA_OCimport_02 : CUP_B_M1151_M2_USA_OCimport_01 {
+    class CUP_B_M1A1_DES_US_Army;
+    class CUP_B_M1A1_DES_US_Army_OCimport_01 : CUP_B_M1A1_DES_US_Army { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_B_M1A1_DES_US_Army_OCimport_02 : CUP_B_M1A1_DES_US_Army_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
+            class CargoTurret_01;
+            class CargoTurret_02;
+            class CargoTurret_03;
+            class CargoTurret_04;
+            class CargoTurret_05;
+            class CargoTurret_06;
+            class CargoTurret_07;
+            class CargoTurret_08;
         };
     };
 
-    class CUP_B_M1151_Deploy_USA;
-    class CUP_B_M1151_Deploy_USA_OCimport_01 : CUP_B_M1151_Deploy_USA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_B_M1151_Deploy_USA_OCimport_02 : CUP_B_M1151_Deploy_USA_OCimport_01 {
+    class CUP_B_A10_DYN_USA;
+    class CUP_B_A10_DYN_USA_OCimport_01 : CUP_B_A10_DYN_USA { scope = 0; class EventHandlers; };
+    class CUP_B_A10_DYN_USA_OCimport_02 : CUP_B_A10_DYN_USA_OCimport_01 { scope = 0; class EventHandlers; };
+
+    class CUP_B_UH60M_Unarmed_FFV_MEV_US;
+    class CUP_B_UH60M_Unarmed_FFV_MEV_US_OCimport_01 : CUP_B_UH60M_Unarmed_FFV_MEV_US { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_B_UH60M_Unarmed_FFV_MEV_US_OCimport_02 : CUP_B_UH60M_Unarmed_FFV_MEV_US_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
+            class CopilotTurret;
             class MainTurret;
+            class RightDoorGun;
+            class CargoTurret_01;
+            class CargoTurret_02;
+            class CargoTurret_03;
+            class CargoTurret_04;
         };
     };
 
-    class CUP_B_M1151_Mk19_USA;
-    class CUP_B_M1151_Mk19_USA_OCimport_01 : CUP_B_M1151_Mk19_USA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_B_M1151_Mk19_USA_OCimport_02 : CUP_B_M1151_Mk19_USA_OCimport_01 {
+    class CUP_B_UH60M_US;
+    class CUP_B_UH60M_US_OCimport_01 : CUP_B_UH60M_US { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_B_UH60M_US_OCimport_02 : CUP_B_UH60M_US_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
+            class CopilotTurret;
             class MainTurret;
+            class RightDoorGun;
         };
     };
 
-    class CUP_B_M1151_USA;
-    class CUP_B_M1151_USA_OCimport_01 : CUP_B_M1151_USA { scope = 0; class EventHandlers; };
-    class CUP_B_M1151_USA_OCimport_02 : CUP_B_M1151_USA_OCimport_01 { scope = 0; class EventHandlers; };
-
-    class CUP_B_M1152_USA;
-    class CUP_B_M1152_USA_OCimport_01 : CUP_B_M1152_USA { scope = 0; class EventHandlers; };
-    class CUP_B_M1152_USA_OCimport_02 : CUP_B_M1152_USA_OCimport_01 { scope = 0; class EventHandlers; };
-
-    class CUP_B_M1167_USA;
-    class CUP_B_M1167_USA_OCimport_01 : CUP_B_M1167_USA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_B_M1167_USA_OCimport_02 : CUP_B_M1167_USA_OCimport_01 {
+    class CUP_B_CH47F_VIV_USA;
+    class CUP_B_CH47F_VIV_USA_OCimport_01 : CUP_B_CH47F_VIV_USA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_B_CH47F_VIV_USA_OCimport_02 : CUP_B_CH47F_VIV_USA_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
+            class RightDoorGun;
+            class CopilotTurret;
+        };
+    };
+
+    class CUP_B_CH47F_USA;
+    class CUP_B_CH47F_USA_OCimport_01 : CUP_B_CH47F_USA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_B_CH47F_USA_OCimport_02 : CUP_B_CH47F_USA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+            class RightDoorGun;
+            class BackDoorGun;
+            class CopilotTurret;
         };
     };
 
@@ -421,144 +445,23 @@ class CfgVehicles {
         };
     };
 
-    class CUP_B_AH6J_USA;
-    class CUP_B_AH6J_USA_OCimport_01 : CUP_B_AH6J_USA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_B_AH6J_USA_OCimport_02 : CUP_B_AH6J_USA_OCimport_01 {
+    class CUP_B_M163_USA;
+    class CUP_B_M163_USA_OCimport_01 : CUP_B_M163_USA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_B_M163_USA_OCimport_02 : CUP_B_M163_USA_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
-            class CopilotTurret;
+            class MainTurret;
         };
     };
 
-    class CUP_B_CH47F_USA;
-    class CUP_B_CH47F_USA_OCimport_01 : CUP_B_CH47F_USA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_B_CH47F_USA_OCimport_02 : CUP_B_CH47F_USA_OCimport_01 {
+    class CUP_B_MH47E_USA;
+    class CUP_B_MH47E_USA_OCimport_01 : CUP_B_MH47E_USA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_B_MH47E_USA_OCimport_02 : CUP_B_MH47E_USA_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
             class RightDoorGun;
-            class BackDoorGun;
-            class CopilotTurret;
-        };
-    };
-
-    class CUP_B_CH47F_VIV_USA;
-    class CUP_B_CH47F_VIV_USA_OCimport_01 : CUP_B_CH47F_VIV_USA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_B_CH47F_VIV_USA_OCimport_02 : CUP_B_CH47F_VIV_USA_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-            class RightDoorGun;
-            class CopilotTurret;
-        };
-    };
-
-    class CUP_B_UH60M_US;
-    class CUP_B_UH60M_US_OCimport_01 : CUP_B_UH60M_US { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_B_UH60M_US_OCimport_02 : CUP_B_UH60M_US_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class CopilotTurret;
-            class MainTurret;
-            class RightDoorGun;
-        };
-    };
-
-    class CUP_B_UH60M_Unarmed_FFV_MEV_US;
-    class CUP_B_UH60M_Unarmed_FFV_MEV_US_OCimport_01 : CUP_B_UH60M_Unarmed_FFV_MEV_US { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_B_UH60M_Unarmed_FFV_MEV_US_OCimport_02 : CUP_B_UH60M_Unarmed_FFV_MEV_US_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class CopilotTurret;
-            class MainTurret;
-            class RightDoorGun;
-            class CargoTurret_01;
-            class CargoTurret_02;
-            class CargoTurret_03;
-            class CargoTurret_04;
-        };
-    };
-
-    class CUP_B_A10_DYN_USA;
-    class CUP_B_A10_DYN_USA_OCimport_01 : CUP_B_A10_DYN_USA { scope = 0; class EventHandlers; };
-    class CUP_B_A10_DYN_USA_OCimport_02 : CUP_B_A10_DYN_USA_OCimport_01 { scope = 0; class EventHandlers; };
-
-    class CUP_B_M1A1_DES_US_Army;
-    class CUP_B_M1A1_DES_US_Army_OCimport_01 : CUP_B_M1A1_DES_US_Army { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_B_M1A1_DES_US_Army_OCimport_02 : CUP_B_M1A1_DES_US_Army_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-            class CargoTurret_01;
-            class CargoTurret_02;
-            class CargoTurret_03;
-            class CargoTurret_04;
-            class CargoTurret_05;
-            class CargoTurret_06;
-            class CargoTurret_07;
-            class CargoTurret_08;
-        };
-    };
-
-    class CUP_B_M1A2_TUSK_MG_DES_US_Army;
-    class CUP_B_M1A2_TUSK_MG_DES_US_Army_OCimport_01 : CUP_B_M1A2_TUSK_MG_DES_US_Army { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_B_M1A2_TUSK_MG_DES_US_Army_OCimport_02 : CUP_B_M1A2_TUSK_MG_DES_US_Army_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-            class CargoTurret_01;
-            class CargoTurret_02;
-            class CargoTurret_03;
-            class CargoTurret_04;
-            class CargoTurret_05;
-            class CargoTurret_06;
-            class CargoTurret_07;
-            class CargoTurret_08;
-        };
-    };
-
-    class CUP_B_M2StaticMG_US;
-    class CUP_B_M2StaticMG_US_OCimport_01 : CUP_B_M2StaticMG_US { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_B_M2StaticMG_US_OCimport_02 : CUP_B_M2StaticMG_US_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_B_M2StaticMG_MiniTripod_US;
-    class CUP_B_M2StaticMG_MiniTripod_US_OCimport_01 : CUP_B_M2StaticMG_MiniTripod_US { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_B_M2StaticMG_MiniTripod_US_OCimport_02 : CUP_B_M2StaticMG_MiniTripod_US_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_B_TOW_TriPod_US;
-    class CUP_B_TOW_TriPod_US_OCimport_01 : CUP_B_TOW_TriPod_US { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_B_TOW_TriPod_US_OCimport_02 : CUP_B_TOW_TriPod_US_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_B_M252_US;
-    class CUP_B_M252_US_OCimport_01 : CUP_B_M252_US { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_B_M252_US_OCimport_02 : CUP_B_M252_US_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_B_M119_US;
-    class CUP_B_M119_US_OCimport_01 : CUP_B_M119_US { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_B_M119_US_OCimport_02 : CUP_B_M119_US_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
+            class CoPilotObs;
         };
     };
 
@@ -820,13 +723,15 @@ class CfgVehicles {
         linkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU2","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
         respawnlinkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU2","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
 
-        weapons[] = {"CUP_arifle_M16A2"};
-        respawnWeapons[] = {"CUP_arifle_M16A2"};
+        weapons[] = {"CUP_arifle_M16A2_GL","CUP_hgun_M9","CUP_Vector21Nite"};
+        respawnWeapons[] = {"CUP_arifle_M16A2_GL","CUP_hgun_M9","CUP_Vector21Nite"};
 
-        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HEDP_M203","CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HEDP_M203"};
-        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HEDP_M203","CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HEDP_M203"};
+        magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HEDP_M203","CUP_15Rnd_9x19_M9","CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HEDP_M203","CUP_15Rnd_9x19_M9"};
+        respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HEDP_M203","CUP_15Rnd_9x19_M9","CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HEDP_M203","CUP_15Rnd_9x19_M9"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_1Rnd_HEDP_M203",1},""},{},{},{"CFP_BDU_DBDU2",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",5,30},{"CUP_1Rnd_HEDP_M203",10,1}}},{},"CFP_PASGTHelmet_DBDU2","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+        backpack = "CUP_B_AlicePack_OD";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2_GL","","","",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_1Rnd_HEDP_M203",1},""},{},{"CUP_hgun_M9","","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CFP_BDU_DBDU2",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",5,30},{"CUP_1Rnd_HEDP_M203",2,1},{"CUP_1Rnd_SmokeRed_M203",3,1},{"SmokeShellGreen",2,1}}},{"CUP_B_AlicePack_OD",{{"CUP_1Rnd_StarFlare_White_M203",3,1},{"CUP_1Rnd_StarFlare_Red_M203",1,1},{"CUP_1Rnd_StarFlare_Green_M203",1,1},{"CUP_1Rnd_Smoke_M203",2,1},{"CUP_1Rnd_SmokeRed_M203",2,1},{"CUP_1Rnd_SmokeGreen_M203",2,1},{"CUP_1Rnd_HEDP_M203",2,1}}},"CFP_PASGTHelmet_DBDU2","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
 
         class EventHandlers : EventHandlers {
@@ -1257,8 +1162,8 @@ class CfgVehicles {
 
         uniformClass = "CUP_U_B_USArmy_Ghillie";
 
-        linkedItems[] = {"V_HarnessO_gry","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
-        respawnlinkedItems[] = {"V_HarnessO_gry","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        linkedItems[] = {"CFP_Alice_Vest2","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        respawnlinkedItems[] = {"CFP_Alice_Vest2","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
 
         weapons[] = {"CUP_arifle_M16A2_GL","CUP_Vector21Nite"};
         respawnWeapons[] = {"CUP_arifle_M16A2_GL","CUP_Vector21Nite"};
@@ -1266,7 +1171,7 @@ class CfgVehicles {
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HEDP_M203","CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HEDP_M203"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HEDP_M203","CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HEDP_M203"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2_GL","","","CUP_optic_AN_PAS_13c1",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_1Rnd_HEDP_M203",1},""},{},{},{"CUP_U_B_USArmy_Ghillie",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"V_HarnessO_gry",{{"CUP_30Rnd_556x45_Stanag",6,30},{"CUP_HandGrenade_M67",1,1},{"B_IR_Grenade",1,1},{"SmokeShellYellow",1,1},{"CUP_1Rnd_HEDP_M203",5,1},{"CUP_1Rnd_SmokeYellow_M203",2,1}}},{},"","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2_GL","","","",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_1Rnd_HEDP_M203",1},""},{},{},{"CUP_U_B_USArmy_Ghillie",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_Alice_Vest2",{{"CUP_30Rnd_556x45_Stanag",6,30},{"CUP_HandGrenade_M67",1,1},{"B_IR_Grenade",1,1},{"SmokeShellYellow",1,1},{"CUP_1Rnd_HEDP_M203",5,1},{"CUP_1Rnd_SmokeYellow_M203",2,1}}},{},"","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
 
         class EventHandlers : EventHandlers {
@@ -1296,16 +1201,16 @@ class CfgVehicles {
 
         uniformClass = "CUP_U_B_USArmy_Ghillie";
 
-        linkedItems[] = {"V_HarnessO_gry","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
-        respawnlinkedItems[] = {"V_HarnessO_gry","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        linkedItems[] = {"CFP_Alice_Vest2","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        respawnlinkedItems[] = {"CFP_Alice_Vest2","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
 
-        weapons[] = {"CUP_srifle_M110_ANPVS10","CUP_hgun_Colt1911","CUP_Vector21Nite"};
-        respawnWeapons[] = {"CUP_srifle_M110_ANPVS10","CUP_hgun_Colt1911","CUP_Vector21Nite"};
+        weapons[] = {"CUP_srifle_M24_des","CUP_hgun_Colt1911","CUP_Vector21Nite"};
+        respawnWeapons[] = {"CUP_srifle_M24_des","CUP_hgun_Colt1911","CUP_Vector21Nite"};
 
-        magazines[] = {"CUP_20Rnd_762x51_B_M110","CUP_7Rnd_45ACP_1911","CUP_20Rnd_762x51_B_M110","CUP_7Rnd_45ACP_1911"};
-        respawnMagazines[] = {"CUP_20Rnd_762x51_B_M110","CUP_7Rnd_45ACP_1911","CUP_20Rnd_762x51_B_M110","CUP_7Rnd_45ACP_1911"};
+        magazines[] = {"CUP_5Rnd_762x51_M24","CUP_7Rnd_45ACP_1911","CUP_5Rnd_762x51_M24","CUP_7Rnd_45ACP_1911"};
+        respawnMagazines[] = {"CUP_5Rnd_762x51_M24","CUP_7Rnd_45ACP_1911","CUP_5Rnd_762x51_M24","CUP_7Rnd_45ACP_1911"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_M110_ANPVS10","","","CUP_optic_AN_PVS_10",{"CUP_20Rnd_762x51_B_M110",20},{},"CUP_bipod_VLTOR_Modpod"},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_USArmy_Ghillie",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_B_M110",1,20},{"SmokeShell",1,1}}},{"V_HarnessO_gry",{{"CUP_20Rnd_762x51_B_M110",6,20},{"CUP_HandGrenade_M67",1,1},{"SmokeShellGreen",1,1},{"B_IR_Grenade",1,1},{"CUP_7Rnd_45ACP_1911",3,7},{"SmokeShellRed",1,1}}},{},"","CUP_G_Shades_Red",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_M24_des","","","CUP_optic_LeupoldMk4_10x40_LRT_Desert",{"CUP_5Rnd_762x51_M24",5},{},"CUP_bipod_VLTOR_Modpod"},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_USArmy_Ghillie",{{"FirstAidKit",1},{"SmokeShell",1,1},{"CUP_5Rnd_762x51_M24",3,5}}},{"CFP_Alice_Vest2",{{"CUP_HandGrenade_M67",1,1},{"SmokeShellGreen",1,1},{"B_IR_Grenade",1,1},{"CUP_7Rnd_45ACP_1911",3,7},{"SmokeShellRed",1,1},{"CUP_5Rnd_762x51_M24",3,5}}},{},"","CUP_G_Shades_Red",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
 
         class EventHandlers : EventHandlers {
@@ -1322,12 +1227,12 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USARMY_91_Sniper_TWS_Desert_01 : CUP_B_US_Sniper_M110_TWS_OCimport_02 {
+    class CFP_B_USARMY_91_Sniper_NVS_Desert_01 : CUP_B_US_Sniper_M110_TWS_OCimport_02 {
         editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_Sniper_TWS_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Sniper [TWS]";
+        displayName = "Sniper [Night Vision Scope]";
         side = 1;
         faction = "CFP_B_USARMY_1991_DES";
         editorSubCategory = "CFP_EdSubcat_Personnel_Camo_DBDU";
@@ -1335,16 +1240,16 @@ class CfgVehicles {
 
         uniformClass = "CUP_U_B_USArmy_Ghillie";
 
-        linkedItems[] = {"V_HarnessO_gry","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
-        respawnlinkedItems[] = {"V_HarnessO_gry","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        linkedItems[] = {"CFP_Alice_Vest2","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        respawnlinkedItems[] = {"CFP_Alice_Vest2","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
 
-        weapons[] = {"CUP_srifle_M110_ANPAS13c2","CUP_hgun_Colt1911","CUP_Vector21Nite"};
-        respawnWeapons[] = {"CUP_srifle_M110_ANPAS13c2","CUP_hgun_Colt1911","CUP_Vector21Nite"};
+        weapons[] = {"CUP_srifle_M24_des","CUP_hgun_Colt1911","CUP_Vector21Nite"};
+        respawnWeapons[] = {"CUP_srifle_M24_des","CUP_hgun_Colt1911","CUP_Vector21Nite"};
 
-        magazines[] = {"CUP_20Rnd_762x51_B_M110","CUP_7Rnd_45ACP_1911","CUP_20Rnd_762x51_B_M110","CUP_7Rnd_45ACP_1911"};
-        respawnMagazines[] = {"CUP_20Rnd_762x51_B_M110","CUP_7Rnd_45ACP_1911","CUP_20Rnd_762x51_B_M110","CUP_7Rnd_45ACP_1911"};
+        magazines[] = {"CUP_5Rnd_762x51_M24","CUP_7Rnd_45ACP_1911","CUP_5Rnd_762x51_M24","CUP_7Rnd_45ACP_1911"};
+        respawnMagazines[] = {"CUP_5Rnd_762x51_M24","CUP_7Rnd_45ACP_1911","CUP_5Rnd_762x51_M24","CUP_7Rnd_45ACP_1911"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_M110_ANPAS13c2","","","CUP_optic_AN_PAS_13c1",{"CUP_20Rnd_762x51_B_M110",20},{},"CUP_bipod_VLTOR_Modpod"},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_USArmy_Ghillie",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_B_M110",1,20},{"SmokeShell",1,1}}},{"V_HarnessO_gry",{{"CUP_20Rnd_762x51_B_M110",6,20},{"CUP_HandGrenade_M67",2,1},{"SmokeShellGreen",1,1},{"SmokeShellRed",1,1},{"B_IR_Grenade",1,1},{"CUP_7Rnd_45ACP_1911",3,7}}},{},"","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_M24_des","","","CUP_optic_AN_PVS_4_M14",{"CUP_5Rnd_762x51_M24",5},{},"CUP_bipod_VLTOR_Modpod"},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_USArmy_Ghillie",{{"FirstAidKit",1},{"SmokeShell",1,1},{"CUP_5Rnd_762x51_M24",3,5}}},{"CFP_Alice_Vest2",{{"CUP_HandGrenade_M67",2,1},{"SmokeShellGreen",1,1},{"SmokeShellRed",1,1},{"B_IR_Grenade",1,1},{"CUP_7Rnd_45ACP_1911",3,7},{"CUP_5Rnd_762x51_M24",3,5}}},{},"","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
 
         class EventHandlers : EventHandlers {
@@ -1374,8 +1279,8 @@ class CfgVehicles {
 
         uniformClass = "CUP_U_B_USArmy_Ghillie";
 
-        linkedItems[] = {"V_HarnessO_gry","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
-        respawnlinkedItems[] = {"V_HarnessO_gry","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        linkedItems[] = {"CFP_Alice_Vest2","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        respawnlinkedItems[] = {"CFP_Alice_Vest2","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
 
         weapons[] = {"CUP_srifle_M107_Desert","CUP_hgun_Colt1911","CUP_Vector21Nite"};
         respawnWeapons[] = {"CUP_srifle_M107_Desert","CUP_hgun_Colt1911","CUP_Vector21Nite"};
@@ -1383,7 +1288,7 @@ class CfgVehicles {
         magazines[] = {"CUP_10Rnd_127x99_M107","CUP_7Rnd_45ACP_1911","CUP_10Rnd_127x99_M107","CUP_7Rnd_45ACP_1911"};
         respawnMagazines[] = {"CUP_10Rnd_127x99_M107","CUP_7Rnd_45ACP_1911","CUP_10Rnd_127x99_M107","CUP_7Rnd_45ACP_1911"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_M107_Desert","","","CUP_optic_LeupoldMk4_25x50_LRT_DESERT",{"CUP_10Rnd_127x99_M107",10},{},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_USArmy_Ghillie",{{"FirstAidKit",1},{"CUP_10Rnd_127x99_M107",2,10}}},{"V_HarnessO_gry",{{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"SmokeShellGreen",1,1},{"SmokeShellRed",1,1},{"B_IR_Grenade",1,1},{"CUP_7Rnd_45ACP_1911",3,7},{"CUP_10Rnd_127x99_M107",1,10}}},{},"","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_M107_Desert","","","CUP_optic_LeupoldMk4_25x50_LRT_DESERT",{"CUP_10Rnd_127x99_M107",10},{},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_USArmy_Ghillie",{{"FirstAidKit",1},{"CUP_10Rnd_127x99_M107",2,10}}},{"CFP_Alice_Vest2",{{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"SmokeShellGreen",1,1},{"SmokeShellRed",1,1},{"B_IR_Grenade",1,1},{"CUP_7Rnd_45ACP_1911",3,7},{"CUP_10Rnd_127x99_M107",1,10}}},{},"","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
 
         class EventHandlers : EventHandlers {
@@ -1416,14 +1321,13 @@ class CfgVehicles {
         linkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU2","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
         respawnlinkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU2","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
 
-        weapons[] = {"CUP_srifle_M110_ANPVS10","CUP_Vector21Nite"};
-        respawnWeapons[] = {"CUP_srifle_M110_ANPVS10","CUP_Vector21Nite"};
+        weapons[] = {"CUP_srifle_M14","CUP_Vector21Nite"};
+        respawnWeapons[] = {"CUP_srifle_M14","CUP_Vector21Nite"};
 
-        magazines[] = {"CUP_20Rnd_762x51_B_M110","CUP_20Rnd_762x51_B_M110"};
-        respawnMagazines[] = {"CUP_20Rnd_762x51_B_M110","CUP_20Rnd_762x51_B_M110"};
+        magazines[] = {"20Rnd_762x51_Mag","20Rnd_762x51_Mag"};
+        respawnMagazines[] = {"20Rnd_762x51_Mag","20Rnd_762x51_Mag"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_M110_ANPVS10","","","CUP_optic_AN_PVS_10",{"CUP_20Rnd_762x51_B_M110",20},{},"CUP_bipod_VLTOR_Modpod"},{},{},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_B_M110",1,20},{"SmokeShellRed",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_20Rnd_762x51_B_M110",6,20},{"B_IR_Grenade",1,1}}},{},"CFP_PASGTHelmet_DBDU2","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
-
+        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_M14","","","CUP_optic_LeupoldMk4",{"20Rnd_762x51_Mag",20},{},"CUP_bipod_Harris_1A2_L"},{},{},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"SmokeShellRed",1,1},{"20Rnd_762x51_Mag",3,20}}},{"CFP_V_PASGT_DBDU",{{"B_IR_Grenade",1,1},{"20Rnd_762x51_Mag",3,20}}},{},"CFP_PASGTHelmet_DBDU2","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -1700,36 +1604,6 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USARMY_91_M7_Bradley_Desert_01 : CUP_B_M7Bradley_USA_D_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_M7_Bradley_Desert_01.JPG;
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "M7 Bradley [Desert]";
-        side = 1;
-        faction = "CFP_B_USARMY_1991_DES";
-        crew = "CFP_B_USARMY_91_Crewman_Desert_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_USARMY_91_Crewman_Desert_01"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
     class CFP_B_USARMY_91_M113A3_Desert_Desert_01 : CUP_B_M113_desert_USA_OCimport_02 {
         editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_M113A3_Desert_Desert_01.JPG;
         author = "Drew";
@@ -1742,98 +1616,6 @@ class CfgVehicles {
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_USARMY_91_Crewman_Desert_01"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class CFP_B_USARMY_91_M1126_ICV_M2_Desert_01 : CUP_B_M1126_ICV_M2_Desert_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_M1126_ICV_M2_Desert_01.JPG;
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "M1126 ICV M2 [Desert]";
-        side = 1;
-        faction = "CFP_B_USARMY_1991_DES";
-        crew = "CFP_B_USARMY_91_Crewman_Desert_01";
-
-        class Turrets : Turrets {
-            class ObsTurret : ObsTurret { gunnerType = "CFP_B_USARMY_91_Crewman_Desert_01"; };
-            class CommanderTurret : CommanderTurret { gunnerType = "CFP_B_USARMY_91_Crewman_Desert_01"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class CFP_B_USARMY_91_M1126_ICV_MK19_Desert_01 : CUP_B_M1126_ICV_MK19_Desert_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_M1126_ICV_MK19_Desert_01.JPG;
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "M1126 ICV MK19 [Desert]";
-        side = 1;
-        faction = "CFP_B_USARMY_1991_DES";
-        crew = "CFP_B_USARMY_91_Crewman_Desert_01";
-
-        class Turrets : Turrets {
-            class ObsTurret : ObsTurret { gunnerType = "CFP_B_USARMY_91_Crewman_Desert_01"; };
-            class CommanderTurret : CommanderTurret { gunnerType = "CFP_B_USARMY_91_Crewman_Desert_01"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class CFP_B_USARMY_91_M6_Linebacker_Desert_01 : CUP_B_M6LineBacker_USA_D_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_M6_Linebacker_Desert_01.JPG;
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "M6 Linebacker [Desert]";
-        side = 1;
-        faction = "CFP_B_USARMY_1991_DES";
-        crew = "CFP_B_USARMY_91_Crewman_Desert_01";
-
-        class Turrets : Turrets {
-            class Mainturret : Mainturret { gunnerType = "CFP_B_USARMY_91_Crewman_Desert_01"; };
         };
 
 
@@ -1890,10 +1672,10 @@ class CfgVehicles {
         displayName = "M270 MLRS [HE]";
         side = 1;
         faction = "CFP_B_USARMY_1991_DES";
-        crew = "CFP_B_USARMY_91_Rifleman_Desert_01";
+        crew = "CFP_B_USARMY_91_Crewman_Desert_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_USARMY_91_Rifleman_Desert_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_USARMY_91_Crewman_Desert_01"; };
         };
 
 
@@ -1920,10 +1702,10 @@ class CfgVehicles {
         displayName = "M270 MLRS [DPICM]";
         side = 1;
         faction = "CFP_B_USARMY_1991_DES";
-        crew = "CFP_B_USARMY_91_Rifleman_Desert_01";
+        crew = "CFP_B_USARMY_91_Crewman_Desert_01";
 
         class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_USARMY_91_Rifleman_Desert_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_B_USARMY_91_Crewman_Desert_01"; };
         };
 
 
@@ -2107,36 +1889,6 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USARMY_91_HMMWV_M1151_M2_Desert_01 : CUP_B_HMMWV_M2_GPK_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_HMMWV_M1151_M2_Desert_01.JPG;
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "HMMWV M1151 M2";
-        side = 1;
-        faction = "CFP_B_USARMY_1991_DES";
-        crew = "CFP_B_USARMY_91_Rifleman_Desert_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_USARMY_91_Rifleman_Desert_01"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
     class CFP_B_USARMY_91_MTVR_Desert_01 : CUP_B_MTVR_USA_OCimport_02 {
         editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_MTVR_Desert_01.JPG;
         author = "Drew";
@@ -2246,206 +1998,6 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USARMY_1991_DES";
         crew = "CFP_B_USARMY_91_Rifleman_Light_Desert_01";
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class CFP_B_USARMY_91_M1165_GMV_M134_Desert_01 : CUP_B_M1165_GMV_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_M1165_GMV_M134_Desert_01.JPG;
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "M1165 GMV [M134]";
-        side = 1;
-        faction = "CFP_B_USARMY_1991_DES";
-        crew = "CFP_B_USARMY_91_Rifleman_Desert_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_USARMY_91_Rifleman_Desert_01"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class CFP_B_USARMY_91_M1151_M2_Desert_01 : CUP_B_M1151_M2_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_M1151_M2_Desert_01.JPG;
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "M1151 [M2]";
-        side = 1;
-        faction = "CFP_B_USARMY_1991_DES";
-        crew = "CFP_B_USARMY_91_Rifleman_Desert_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_USARMY_91_Rifleman_Desert_01"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class CFP_B_USARMY_91_M1151_M2_Deployment_Desert_01 : CUP_B_M1151_Deploy_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_M1151_M2_Deployment_Desert_01.JPG;
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "M1151 [M2] Deployment";
-        side = 1;
-        faction = "CFP_B_USARMY_1991_DES";
-        crew = "CFP_B_USARMY_91_Rifleman_Desert_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_USARMY_91_Rifleman_Desert_01"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class CFP_B_USARMY_91_M1151_MK19_Desert_01 : CUP_B_M1151_Mk19_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_M1151_MK19_Desert_01.JPG;
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "M1151 [MK19]";
-        side = 1;
-        faction = "CFP_B_USARMY_1991_DES";
-        crew = "CFP_B_USARMY_91_Rifleman_Desert_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_USARMY_91_Rifleman_Desert_01"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class CFP_B_USARMY_91_M1151_Unarmed_Desert_01 : CUP_B_M1151_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_M1151_Unarmed_Desert_01.JPG;
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "M1151 [Unarmed]";
-        side = 1;
-        faction = "CFP_B_USARMY_1991_DES";
-        crew = "CFP_B_USARMY_91_Rifleman_Desert_01";
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class CFP_B_USARMY_91_M1152_ECV_Desert_01 : CUP_B_M1152_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_M1152_ECV_Desert_01.JPG;
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "M1152 ECV";
-        side = 1;
-        faction = "CFP_B_USARMY_1991_DES";
-        crew = "CFP_B_USARMY_91_Rifleman_Desert_01";
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class CFP_B_USARMY_91_M1167_TOW_Desert_01 : CUP_B_M1167_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_M1167_TOW_Desert_01.JPG;
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "M1167 [TOW-2]";
-        side = 1;
-        faction = "CFP_B_USARMY_1991_DES";
-        crew = "CFP_B_USARMY_91_Rifleman_Desert_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_USARMY_91_Rifleman_Desert_01"; };
-        };
-
 
 
         class EventHandlers : EventHandlers {
@@ -2900,44 +2452,6 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USARMY_91_M1A2_Abrams_TUSK_Desert_01 : CUP_B_M1A2_TUSK_MG_DES_US_Army_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_M1A2_Abrams_TUSK_Desert_01.JPG;
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "M1A2 Abrams TUSK";
-        side = 1;
-        faction = "CFP_B_USARMY_1991_DES";
-        crew = "CFP_B_USARMY_91_Crewman_Desert_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_USARMY_91_Crewman_Desert_01"; };
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
-            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
-            class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
-            class CargoTurret_06 : CargoTurret_06 { gunnerType = ""; };
-            class CargoTurret_07 : CargoTurret_07 { gunnerType = ""; };
-            class CargoTurret_08 : CargoTurret_08 { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
     class CFP_B_USARMY_91_M2_Machine_Gun_Desert_01 : CUP_B_M2StaticMG_US_OCimport_02 {
         editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_M2_Machine_Gun_Desert_01.JPG;
         author = "Drew";
@@ -3070,6 +2584,67 @@ class CfgVehicles {
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_B_USARMY_91_M163A1_VADS_Desert_01 : CUP_B_M163_USA_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "M163A1 VADS";
+        side = 1;
+        faction = "CFP_B_USARMY_1991_DES";
+        crew = "CFP_B_USARMY_91_Crewman_Desert_01";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "CFP_B_USARMY_91_Crewman_Desert_01"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m163_vulcan_01_desert_co.paa'];_unit setObjectTextureGlobal [1,'cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m163_vulcan_02_desert_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "desert";
+
+    };
+
+    class CFP_B_USARMY_91_DES_MH_47E_Desert_01 : CUP_B_MH47E_USA_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "MH-47E";
+        side = 1;
+        faction = "CFP_B_USARMY_1991_DES";
+        crew = "CFP_B_USARMY_91_Pilot_Desert_01";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "CFP_B_USARMY_91_Pilot_Desert_01"; };
+            class RightDoorGun : RightDoorGun { gunnerType = "CFP_B_USARMY_91_Pilot_Desert_01"; };
+            class CoPilotObs : CoPilotObs { gunnerType = "CFP_B_USARMY_91_Pilot_Desert_01"; };
         };
 
 
