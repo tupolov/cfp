@@ -20,7 +20,7 @@ GVAR(mainPostInited) = true;
 
                     {
                         if (getText (configFile >> "CfgWeapons" >> _x >> "simulation") == "NVGoggles") exitWith {
-                            _nvgHelmet = _helmet
+                            _nvgHelmet = _helmet;
                         };
                     } forEach _helmetSubItems;
                 };
