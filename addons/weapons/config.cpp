@@ -14,9 +14,8 @@ class CfgPatches
 			"CFP_PKP_Desert",
     		"CFP_Tavor_Black",
     		"CFP_Tavor_Black_Long",
-    		"CFP_Tavor_Black_GL",
-    		"CFP_optic_ELCAN_SpecterDR_Black"
-		};
+    		"CFP_Tavor_Black_GL"
+    		};
         author = MODULE_AUTHOR;
         authors[] = {"AccuracyThruVolume", "Tupolov", "AuburnAlumni"};
         requiredVersion = REQUIRED_VERSION;

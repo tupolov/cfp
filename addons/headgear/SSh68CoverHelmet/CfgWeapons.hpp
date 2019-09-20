@@ -343,32 +343,28 @@ class CfgVehicleClasses
 		};
 	};
 
+	// SSH-68
 	class SP_SSh68CoverHelmet_DRK: ItemCore
-    {
-        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_SSh68CoverHelmet_Green1.paa";
+	{
 		scope = 2;
-		weaponPoolAvailable = 1;
-		displayName = "SSh68 Cover Helmet (North Korean Camo)";
-		// picture = "\x\cfp\addons\headgear\SSh68CoverHelmet\ui\Green1.jpg";
-		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_SLA\CUP_SLA_Helmet.p3d";
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\DRK.paa"};
-		hiddenSelectionsMaterials[] = {"\x\cfp\addons\models\rv\SSH68CoverHelmet.rvmat"};
-		hiddenSelections[] = {"Camo"};
 		author = "CFP";
-
-
-
+		displayName  = "SSh68 Cover Helmet (North Korean Camo)";
+		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\ui\icon_h_6b27_light_ca.paa"; //TODO
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_H_SSH68_cover.p3d";
+		hiddenSelections[] = {"camo"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\DRK2.paa"};
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
-			uniformmodel = "\x\cfp\addons\models\SSh68CoverHelmet1";
-			modelSides[] = {3,1};
+			mass = 20;
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_H_SSH68_cover.p3d";
+			allowedSlots[] = {UNIFORM_SLOT, BACKPACK_SLOT, VEST_SLOT, HEADGEAR_SLOT};
+			modelSides[] = {6};
 			armor = 10;
 			passThrough = 0.30;
 			HITPOINTS_HEAD(10,0.30)
-			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\DRK.paa"};
-			hiddenSelectionsMaterials[] = {"\x\cfp\addons\models\rv\SSH68CoverHelmet.rvmat"};
-			hiddenSelections[] = {"Camo"};
+			hiddenSelections[] = {"camo"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\DRK2.paa"};
+
 		};
 	};
 

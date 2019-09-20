@@ -201,7 +201,7 @@ class CfgVehicleClasses
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_BoonieHat_NodUrban.paa";
 	 	scope = 2;
 	   	weaponPoolAvailable = 1;
-	  	displayName = "Boonie Hat (Nod Urban";
+	  	displayName = "Boonie Hat (Nod Urban)";
 	    // picture = "\x\cfp\addons\headgear\BoonieHat\ui\NodUrban.jpg";
 	    model = "\x\cfp\addons\models\BoonieHat";
 	    hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BoonieHat\NodUrban.paa"};
@@ -442,7 +442,7 @@ class CfgVehicleClasses
 	class CFP_BoonieHat_Tropentarn: ItemCore
     {
         picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_BoonieHat_ACRDesert.paa";
-	 	scope = 2;
+	 	scope = 1;
 	   	weaponPoolAvailable = 1;
 	  	displayName = "Boonie Hat (Tropentarn)";
 	    // picture = "\x\cfp\addons\headgear\BoonieHat\ui\NodUrban.jpg";
@@ -469,7 +469,7 @@ class CfgVehicleClasses
 	class CFP_BoonieHat_Flecktarn: ItemCore
     {
         picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_BoonieHat_ACRDesert.paa";
-	 	scope = 2;
+	 	scope = 1;
 	   	weaponPoolAvailable = 1;
 	  	displayName = "Boonie Hat (Flecktarn)";
 	    // picture = "\x\cfp\addons\headgear\BoonieHat\ui\NodUrban.jpg";

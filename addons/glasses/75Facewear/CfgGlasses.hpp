@@ -124,7 +124,7 @@
 	class CFP_Oakleys_Clr: None
 	{
 
-			scope = 2;
+			scope = 1;
 			displayname = "Oakleys Clear [75th]";
 			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Facewear\oakley_glasses.p3d";
@@ -144,7 +144,7 @@
 	class CFP_Oakleys_Drk: None
 	{
 
-			scope = 2;
+			scope = 1;
 			displayname = "Oakleys Dark [75th]";
 			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Facewear\oakley_glasses.p3d";
@@ -164,7 +164,7 @@
 	class CFP_Oakleys_Embr: None
 	{
 
-			scope = 2;
+			scope = 1;
 			displayname = "Oakleys Ember [75th]";
 			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Facewear\oakley_glasses.p3d";

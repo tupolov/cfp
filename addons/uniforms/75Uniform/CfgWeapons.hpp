@@ -2,7 +2,7 @@ class CFP_75th_CRYE_V1_Full : Uniform_Base  {
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_75th_CRYE_V1_Full.paa;
 
 
-		scope = 2;
+		scope = 1;
 		displayName = "Crye Tan Full [75th]";
 		author = "CFP";
 
@@ -172,7 +172,7 @@ class CFP_75th_CRYE_V1_Sleeved : Uniform_Base  {
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_75th_CRYE_V1_Sleeved.paa;
 
 
-		scope = 2;
+		scope = 1;
 		displayName = "Crye Tan Rolled [75th]";
 		author = "CFP";
 
