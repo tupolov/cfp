@@ -1243,3 +1243,77 @@
 			mass=20;
 		};
 	};
+
+	///RAID BDUs
+
+	class CFP_RAID_DCU1 : Uniform_Base
+    {
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_Tan.paa;
+
+		scope=2;
+		model = "x\cfp\addons\models\RAID_Uniform_gloves.p3d";
+		displayName = "RAID BDU DCU (Kneepads/Gloves)";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "x\cfp\addons\models\RAID_Uniform_gloves.p3d";
+			uniformClass = "CFP_RAID_DCU1";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
+	class CFP_RAID_M811 : Uniform_Base
+    {
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_Tan.paa;
+
+		scope=2;
+		model = "x\cfp\addons\models\RAID_Uniform_gloves.p3d";
+		displayName = "RAID M81 (Kneepads/Gloves)";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "x\cfp\addons\models\RAID_Uniform_gloves.p3d";
+			uniformClass = "CFP_RAID_M811";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
+	class CFP_RAID_M81_DCU_1 : Uniform_Base
+    {
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_Tan.paa;
+
+		scope=2;
+		model = "x\cfp\addons\models\RAID_Uniform_gloves.p3d";
+		displayName = "RAID M81/DCU (Kneepads/Gloves)";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "x\cfp\addons\models\RAID_Uniform_gloves.p3d";
+			uniformClass = "CFP_RAID_M81_DCU_1";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
+	class CFP_RAID_DCU_M81_1 : Uniform_Base
+    {
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_Tan.paa;
+
+		scope=2;
+		model = "x\cfp\addons\models\RAID_Uniform_gloves.p3d";
+		displayName = "RAID DCU/M81 (Kneepads/Gloves)";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "x\cfp\addons\models\RAID_Uniform_gloves.p3d";
+			uniformClass = "CFP_RAID_DCU_M81_1";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};

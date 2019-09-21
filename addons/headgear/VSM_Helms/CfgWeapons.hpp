@@ -51,6 +51,7 @@
 	{
 		displayName = "OPSCORE (Multicam)";
 		// picture = "\x\cfp\addons\headgear\MichHelmet\ui\Tan1.jpg";
+		scope = 1;
 		hiddenSelections[] = {"camo","camo1","camo2"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_multicam.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
 		author = "CFP";
@@ -74,6 +75,7 @@
 	{
 		displayName = "OPSCORE (Flecktarn)";
 		// picture = "\x\cfp\addons\headgear\MichHelmet\ui\Tan1.jpg";
+		scope = 1;
 		hiddenSelections[] = {"camo","camo1","camo2"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_flecktarn.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
 		author = "CFP";
@@ -97,6 +99,7 @@
 	{
 		displayName = "OPSCORE (M81)";
 		// picture = "\x\cfp\addons\headgear\MichHelmet\ui\Tan1.jpg";
+		scope = 1;
 		hiddenSelections[] = {"camo","camo1","camo2"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_m81.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
 		author = "CFP";
@@ -235,6 +238,7 @@
 	{
 		displayName = "OPSCORE (Multicam 2)";
 		// picture = "\x\cfp\addons\headgear\MichHelmet\ui\Tan1.jpg";
+		scope = 1;
 		hiddenSelections[] = {"camo","camo1","camo2"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_multicam2.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
 		author = "CFP";
@@ -258,6 +262,7 @@
 	{
 		displayName = "OPSCORE (AOR2)";
 		// picture = "\x\cfp\addons\headgear\MichHelmet\ui\Tan1.jpg";
+		scope = 1;
 		hiddenSelections[] = {"camo","camo1","camo2"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_aor2.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_green.paa"};
 		author = "CFP";
@@ -281,6 +286,7 @@
 	{
 		displayName = "OPSCORE (AOR1)";
 		// picture = "\x\cfp\addons\headgear\MichHelmet\ui\Tan1.jpg";
+		scope = 1;
 		hiddenSelections[] = {"camo","camo1","camo2"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_aor1.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
 		author = "CFP";
@@ -350,6 +356,7 @@
 	{
 		displayName = "OPSCORE (Tropentarn)";
 		// picture = "\x\cfp\addons\headgear\MichHelmet\ui\Tan1.jpg";
+		scope = 1;
 		hiddenSelections[] = {"camo","camo1","camo2"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_tropentarn.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
 		author = "CFP";
