@@ -9,6 +9,7 @@ class CBA_Extended_EventHandlers_base;
 class CfgVehicles {
 
 // OVERRIDES
+/*
     class CUP_B_Dingo_CZ_Wdl;
     class CUP_B_Dingo_CZ_DES : CUP_B_Dingo_CZ_Wdl {
         editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_Dingo_CZ_DES.JPG";
@@ -69,11 +70,13 @@ class CfgVehicles {
         editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_AGS_ACR.JPG";
         crew = "CUP_B_CZ_Soldier_805_DES";
     };
+*/
 // BASE MEN
     class CUP_Creatures_Military_ACR_Soldier_Base;
     class CUP_B_CZ_Soldier_DST_Base : CUP_Creatures_Military_ACR_Soldier_Base {
         editorSubcategory = "EdSubcat_Personnel";
     };
+/*
     class CUP_B_CZ_Soldier_base_OCimport_01 : CUP_B_CZ_Soldier_DST_Base { class EventHandlers; };
     class CUP_B_CZ_Soldier_base_OCimport_02 : CUP_B_CZ_Soldier_base_OCimport_01 {
         class EventHandlers;
@@ -102,8 +105,9 @@ class CfgVehicles {
             "USP_PATCH_FLAG_CZECH_REPUBLIC_NAME", 0.3
         };
     };
-
+*/
 // MEN
+/*
     class CUP_B_CZ_Soldier_SL_DES : CUP_B_CZ_Soldier_base_OCimport_02 {
         editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_CZ_Soldier_SL_DES.JPG";
         author = "Tupolov";
@@ -856,11 +860,12 @@ class CfgVehicles {
         ALiVE_orbatCreator_owned = 1;
 
     };
-
+*/
 // SPECOPS
     class CUP_B_CZ_SpecOp_DST_Base : CUP_Creatures_Military_ACR_Soldier_Base {
         editorSubCategory = "EdSubcat_Personnel_SpecialForces";
     };
+/*
     class CUP_B_CZ_SpecOp_DST_Base_OCimport_01 : CUP_B_CZ_SpecOp_DST_Base { class EventHandlers; };
     class CUP_B_CZ_SpecOp_DST_Base_OCimport_02 : CUP_B_CZ_SpecOp_DST_Base_OCimport_01 {
         class EventHandlers;
@@ -1227,9 +1232,9 @@ class CfgVehicles {
     class CUP_B_CZ_SpecOps_Recon_DES : CUP_B_CZ_SpecOps_GL_DES {
         displayName = "Recon";
     };
-
+*/
 // NEW VEHICLES
-
+/*
     class CUP_B_T72_CZ;
     class CUP_B_T72_CZ_OCimport_01 : CUP_B_T72_CZ { scope = 0; class EventHandlers; class Turrets; };
     class CUP_B_T72_CZ_OCimport_02 : CUP_B_T72_CZ_OCimport_01 {
@@ -1561,5 +1566,5 @@ class CfgVehicles {
         ALiVE_orbatCreator_texture = "TKC";
 
     };
-
+*/
 };

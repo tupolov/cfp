@@ -17,17 +17,12 @@ class CfgPatches {
             "CUP_B_M2StaticMG_MiniTripod_GER_Fleck",
             "CUP_B_Dingo_GER_Wdl",
             "CUP_B_Dingo_GL_GER_Wdl",
+            "CUP_B_FENNEK_GER_Wdl",
             "CUP_B_UH1D_GER_KSK",
             "CUP_B_UH1D_slick_GER_KSK",
             "CFP_B_DEARMY_WDL_CH_53G_Super_Stallion_VIV_01",
             "CFP_B_DEARMY_WDL_CH_53G_Super_Stallion_01",
-            "CFP_B_DEARMY_WDL_Pilot_01",
-            "CFP_B_DEARMY_WDL_Fennek_01",
-            "CFP_B_DEARMY_WDL_Team_Leader_Assault_01",
-            "CFP_B_DEARMY_WDL_Rifleman_Assault_01",
-            "CFP_B_DEARMY_WDL_Machine_Gunner_Assault_01",
-            "CFP_B_DEARMY_WDL_AT_Specialist_01",
-            "CFP_B_DEARMY_WDL_Paramedic_Assault_01"
+            "CFP_B_DEARMY_WDL_Pilot_01"
         };
         weapons[] = {};
         requiredAddons[] = {

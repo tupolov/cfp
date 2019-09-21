@@ -6,7 +6,8 @@ class CBA_Extended_EventHandlers_base;
 
 class CfgEditorSubCategories
 {
-    class CFP_EdSubcat_Personnel_Camo_Tropen { displayName = "Men (KSK - Tropentarn)";  };
+    class CFP_EdSubcat_Personnel_Camo_Tropen { displayName = "Men (Tropentarn)";  };
+    class CFP_EdSubcat_Personnel_Camo_KTropen { displayName = "KSK (Tropentarn)";  };
 };
 
 class CfgVehicles {
@@ -118,7 +119,8 @@ class CfgVehicles {
     class B_recon_F_OCimport_01 : B_recon_F { scope = 0; class EventHandlers; };
     class B_recon_F_OCimport_02 : B_recon_F_OCimport_01 { class EventHandlers; };
 
-
+//Men
+/*
     class CUP_B_GER_Soldier : CUP_B_GER_Soldier_02_OCimport_02 {
         author = "Drew";
         scope = 2;
@@ -750,7 +752,8 @@ class CfgVehicles {
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G36A_camo","","","",{"CUP_30Rnd_556x45_G36",30},{},""},{},{"CUP_hgun_glock17_flashlight","","CUP_acc_Glock17_Flashlight","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_WorkUniform_Tropentarn",{{"FirstAidKit",1},{"CUP_NVG_PVS15_black",1},{"CUP_30Rnd_556x45_G36",3,30},{"SmokeShellRed",1,1}}},{"CFP_PlateCarrier1_Tropentarn",{{"CUP_30Rnd_556x45_G36",4,30},{"CUP_HandGrenade_M67",2,1},{"B_IR_Grenade",1,1},{"CUP_17Rnd_9x19_glock17",3,17}}},{"CFP_Kitbag_Tropentarn",{{"Medikit",2},{"CUP_30Rnd_556x45_G36",10,30},{"CUP_5Rnd_762x67_G22",1,5}}},"H_Booniehat_tan","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
-
+*/
+// Statics
     class CUP_B_M2StaticMG_GER : CUP_M2StaticMG_base_OCimport_02 {
         author = "Drew";
         scope = 2;
@@ -808,7 +811,7 @@ class CfgVehicles {
         ALiVE_orbatCreator_owned = 1;
 
     };
-
+// Vehicles
     class CUP_B_Dingo_GER_Des : CUP_B_Dingo_CZ_Des_OCimport_02 {
         author = "Drew";
         scope = 2;
@@ -1062,14 +1065,14 @@ class CfgVehicles {
         ALiVE_orbatCreator_texture = "GermanDesert";
 
     };
-
+// Men
     class SoldierWB;
     class CUP_Creatures_Military_GER_Soldier_Base : SoldierWB
     {
         editorSubcategory = "CFP_EdSubcat_Personnel_Camo_Tropen";
     };
-
-     class CUP_B_GER_Team_Leader_Assault_01 : B_recon_F_OCimport_02 {
+/*
+    class CUP_B_GER_Team_Leader_Assault_01 : B_recon_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1264,7 +1267,7 @@ class CfgVehicles {
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_G36C_VFG_camo","CUP_muzzle_snds_G36_desert","CUP_acc_ANPEQ_15_Flashlight_Tan_L","CUP_optic_MicroT1_coyote",{"CUP_30Rnd_556x45_G36",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_Crye_Tropentarn_SS",{{"FirstAidKit",1},{"CUP_17Rnd_9x19_glock17",2,17},{"CUP_30Rnd_556x45_G36",3,30}}},{"CFP_PlateCarrier2_Tropentarn",{{"SmokeShell",1,1},{"CUP_HandGrenade_M67",2,1},{"B_IR_Grenade",1,1},{"Chemlight_green",1,1},{"Chemlight_red",1,1},{"CUP_30Rnd_556x45_G36",4,30}}},{"CFP_AssaultPack_Tropentarn",{{"FirstAidKit",10},{"Medikit",1}}},"CFP_OpsC_Covered_KSK","IS_Balaclava",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS15_black"}};
     };
-
+*/
     class Box_NATO_Ammo_F; // CUP_USBasicAmmunitionBox
     class Box_NATO_Wps_F; // CUP_USBasicWeaponsBox
     class Box_NATO_Support_F; // CUP_USSpecialWeaponsBox

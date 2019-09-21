@@ -6,6 +6,7 @@ class CfgEditorSubCategories
 
 class CfgVehicles {
 
+    // Vehicles
         class CUP_B_M163_USA;
         class CFP_B_USARMY_M163_DES_01 : CUP_B_M163_USA {
             author = "Tupolov";
@@ -24,6 +25,7 @@ class CfgVehicles {
             editorPreview = "CUP\TrackedVehicles\CUP_TrackedVehicles_M113\Data\preview\CUP_B_M163_USA.jpg";
         };
 
+    // SpecOps
         class SoldierWB;
         class CUP_Creatures_Military_USA_Soldier_Base: SoldierWB
         {
@@ -108,6 +110,7 @@ class CfgVehicles {
             displayName = "Forward Air Controller";
         };
 
+    // Crew
         class CUP_B_US_Soldier;
         class CUP_B_US_ARMY_Gunner_M2_High_DES_01 : CUP_B_US_Soldier {
             displayName = "Gunner [MG High]";

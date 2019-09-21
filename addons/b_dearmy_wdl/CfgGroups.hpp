@@ -10,14 +10,14 @@ class CfgGroups {
         class CFP_B_DEARMY_WDL {
             name = "Bundeswehr (Jungle / Woodland)";
 
-            class Infantry {
-                name = "Infantry (Flecktarn)";
-
-                class CUP_B_GER_KSK_Team {
+            class SpecOps
+            {
+                name = "Special Forces (KSK)";
+                class CUP_B_GER_Fleck_KSK_Team {
                     name = "KSK Team";
                     side = 1;
-                    faction = "CUP_B_GER";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    faction = "CFP_B_DEARMY_WDL";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
@@ -58,67 +58,43 @@ class CfgGroups {
                     };
                 };
 
-                class CUP_B_GER_KSK_AssaultTeam {
+                class CUP_B_GER_Fleck_KSK_AssaultTeam {
                     name = "KSK Assault Team";
                     side = 1;
-                    faction = "CUP_B_GER";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    faction = "CFP_B_DEARMY_WDL";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CUP_B_GER_Fleck_Soldier_TL";
+                        vehicle = "CUP_B_GER_Fleck_Operator_TL";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
-                        rank = "CORPORAL";
+                        rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CUP_B_GER_Fleck_Soldier_MG";
+                        vehicle = "CUP_B_GER_Fleck_Operator_GL";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
-                        rank = "CORPORAL";
+                        rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CUP_B_GER_Fleck_Soldier";
+                        vehicle = "CUP_B_GER_Fleck_Operator_EXP";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
-                        rank = "CORPORAL";
-                        side = 1;
-                        vehicle = "CUP_B_GER_Fleck_Soldier_Scout";
-                    };
-                    class Unit4 {
-                        position[] = {-10,-10,0};
-                        rank = "CORPORAL";
-                        side = 1;
-                        vehicle = "CUP_B_GER_Fleck_Soldier";
-                    };
-                    class Unit5 {
-                        position[] = {15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CUP_B_GER_Fleck_Medic";
-                    };
-                    class Unit6 {
-                        position[] = {-15,-15,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "CUP_B_GER_Fleck_Soldier_AT";
-                    };
-                    class Unit7 {
-                        position[] = {20,-20,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "CUP_B_GER_Fleck_Soldier_Ammo";
+                        vehicle = "CUP_B_GER_Fleck_Operator";
                     };
                 };
 
-                class CUP_B_GER_KSK_SniperTeam {
+                class CUP_B_GER_Fleck_KSK_SniperTeam {
                     name = "KSK Sniper Team";
                     side = 1;
-                    faction = "CUP_B_GER";
+                    faction = "CFP_B_DEARMY_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
                     rarityGroup = 0.5;
 
@@ -136,11 +112,11 @@ class CfgGroups {
                     };
                 };
 
-                class CUP_B_GER_KSK_ATTeam {
+                class CUP_B_GER_Fleck_KSK_ATTeam {
                     name = "KSK Anti-Tank Team";
                     side = 1;
-                    faction = "CUP_B_GER";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    faction = "CFP_B_DEARMY_WDL";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
@@ -169,11 +145,11 @@ class CfgGroups {
                     };
                 };
 
-                class CUP_B_GER_KSK_AATeam {
+                class CUP_B_GER_Fleck_KSK_AATeam {
                     name = "KSK Anti-Air Team";
                     side = 1;
-                    faction = "CUP_B_GER";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    faction = "CFP_B_DEARMY_WDL";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
@@ -202,11 +178,11 @@ class CfgGroups {
                     };
                 };
 
-                class CUP_B_GER_KSK_EngineerTeam {
+                class CUP_B_GER_Fleck_KSK_EngineerTeam {
                     name = "KSK Pioneer Team";
                     side = 1;
-                    faction = "CUP_B_GER";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_maint.paa";
+                    faction = "CFP_B_DEARMY_WDL";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
@@ -235,10 +211,10 @@ class CfgGroups {
                     };
                 };
 
-                class CUP_B_GER_KSK_ReconPatrol {
+                class CUP_B_GER_Fleck_KSK_ReconPatrol {
                     name = "KSK Recon Patrol";
                     side = 1;
-                    faction = "CUP_B_GER";
+                    faction = "CFP_B_DEARMY_WDL";
                     icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
                     rarityGroup = 0.5;
 
@@ -262,235 +238,478 @@ class CfgGroups {
                     };
                 };
 
+                class CUP_B_GER_Fleck_KSK_AssaultSquad {
+                    name = "KSK Assault Squad";
+                    side = 1;
+                    faction = "CFP_B_DEARMY_WDL";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CUP_B_GER_Fleck_Operator_TL";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_GER_Fleck_Operator_GL";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_GER_Fleck_Operator_Medic";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_GER_Fleck_Operator_EXP";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_GER_Fleck_Operator_GL";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_GER_Fleck_Operator_EXP";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_GER_Fleck_Operator";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_GER_Fleck_Operator";
+                    };
+                };
             };
+            class Infantry
+            {
+                name = "Infantry (Flecktarn)";
+                class CUP_B_GER_BW_Fleck_rifle_squad {
+                    name = "Rifle Squad";
+                    side = 1;
+                    faction = "CFP_B_DEARMY_WDL";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    rarityGroup = 0.5;
 
-            class SpecOps {
-                name = "Special Forces";
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_TL";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_GL";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_GER_BW_Fleck_Medic";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_MG3";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_AT";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_AAT";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_Marksman";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_Marksman";
+                    };
+                    class Unit8 {
+                        position[] = {-20,-20,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier";
+                    };
+                    class Unit9 {
+                        position[] = {25,-25,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier";
+                    };
+                    class Unit10 {
+                        position[] = {-25,-25,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_Ammo";
+                    };
+                    class Unit11 {
+                        position[] = {30,-30,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_Engineer";
+                    };
+                };
 
-                class cfp_b_dearmy_specops_fire_team_wdl {
+                class CUP_B_GER_BW_Fleck_fire_team {
                     name = "Fire Team";
                     side = 1;
                     faction = "CFP_B_DEARMY_WDL";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_DEARMY_WDL_Team_Leader_Assault_01";
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_TL";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_DEARMY_WDL_Rifleman_Assault_01";
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_DEARMY_WDL_Machine_Gunner_Assault_01";
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_MG3";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_DEARMY_WDL_AT_Specialist_01";
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_GL";
                     };
                 };
 
-                class cfp_b_dearmy_specops_assault_team_wdl {
-                    name = "Assault Team";
+                class CUP_B_GER_BW_Fleck_weapon_squad {
+                    name = "Weapon Squad";
                     side = 1;
                     faction = "CFP_B_DEARMY_WDL";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_DEARMY_WDL_Team_Leader_Assault_01";
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_TL";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_DEARMY_WDL_Machine_Gunner_Assault_01";
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_MG3";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_DEARMY_WDL_AT_Specialist_01";
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_GL";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_DEARMY_WDL_Paramedic_Assault_01";
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_AT";
                     };
                     class Unit4 {
                         position[] = {-10,-10,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_DEARMY_WDL_Rifleman_Assault_01";
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_AAT";
                     };
                     class Unit5 {
                         position[] = {15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_DEARMY_WDL_Rifleman_Assault_01";
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_Ammo";
                     };
                     class Unit6 {
                         position[] = {-15,-15,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_DEARMY_WDL_Rifleman_Assault_01";
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_MG3";
                     };
                     class Unit7 {
                         position[] = {20,-20,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_DEARMY_WDL_Rifleman_Assault_01";
-                    };
-                };
-
-            };
-
-            class Motorized {
-                name = "Motorized Infantry (Flecktarn)";
-
-                class cfp_b_dearmy_motorized_special_forces_recon_patrol_wdl {
-                    name = "Special Forces Recon Patrol";
-                    side = 1;
-                    faction = "CFP_B_DEARMY_WDL";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
-                    rarityGroup = 0.5;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "SERGEANT";
-                        side = 1;
-                        vehicle = "CUP_B_GER_Fleck_Soldier_Scout";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
-                        rank = "CORPORAL";
-                        side = 1;
-                        vehicle = "CUP_B_GER_Fleck_Soldier_Scout";
-                    };
-                    class Unit2 {
-                        position[] = {-5,-5,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "CUP_B_GER_Fleck_Soldier_Scout";
-                    };
-                    class Unit3 {
-                        position[] = {15,0,0};
-                        rank = "SERGEANT";
-                        side = 1;
-                        vehicle = "CUP_B_Dingo_GER_Wdl";
-                    };
-                };
-
-                class cfp_b_dearmy_motorized_special_forces_patrol_wdl {
-                    name = "Special Forces Patrol";
-                    side = 1;
-                    faction = "CFP_B_DEARMY_WDL";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
-                    rarityGroup = 0.6;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "SERGEANT";
-                        side = 1;
-                        vehicle = "CUP_B_GER_Fleck_Soldier_TL";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
-                        rank = "CORPORAL";
-                        side = 1;
-                        vehicle = "CUP_B_GER_Fleck_Soldier_MG";
-                    };
-                    class Unit2 {
-                        position[] = {-5,-5,0};
-                        rank = "CORPORAL";
-                        side = 1;
-                        vehicle = "CUP_B_GER_Fleck_Soldier";
-                    };
-                    class Unit3 {
-                        position[] = {10,-10,0};
-                        rank = "CORPORAL";
-                        side = 1;
-                        vehicle = "CUP_B_GER_Fleck_Soldier_Scout";
-                    };
-                    class Unit4 {
-                        position[] = {-10,-10,0};
-                        rank = "CORPORAL";
-                        side = 1;
-                        vehicle = "CUP_B_GER_Fleck_Soldier";
-                    };
-                    class Unit5 {
-                        position[] = {15,-15,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "CUP_B_GER_Fleck_Medic";
-                    };
-                    class Unit6 {
-                        position[] = {-15,-15,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "CUP_B_GER_Fleck_Soldier_AT";
-                    };
-                    class Unit7 {
-                        position[] = {20,-20,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "CUP_B_GER_Fleck_Soldier_Ammo";
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_Ammo";
                     };
                     class Unit8 {
-                        position[] = {15,0,0};
-                        rank = "SERGEANT";
+                        position[] = {-20,-20,0};
+                        rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CUP_B_Dingo_GER_Wdl";
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_GL";
                     };
                     class Unit9 {
-                        position[] = {15,15,0};
-                        rank = "SERGEANT";
+                        position[] = {25,-25,0};
+                        rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CUP_B_Dingo_GL_GER_Wdl";
+                        vehicle = "CUP_B_GER_BW_Fleck_Medic";
                     };
                 };
 
-                class cfp_b_dearmy_motorized_special_forces_recon_patrol_wdl_fennek {
-                    name = "Special Forces Recon Patrol (Fennek)";
+                class CUP_B_GER_BW_Fleck_anti_tank_team {
+                    name = "Anti Tank Team";
                     side = 1;
-                    faction = "CUP_B_GER";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+                    faction = "CFP_B_DEARMY_WDL";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
                         position[] = {0,0,0};
-                        rank = "PRIVATE";
+                        rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_DEARMY_WDL_Fennek_01";
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_AT";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CUP_B_GER_Fleck_Soldier_Scout";
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_AAT";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CUP_B_GER_Fleck_Soldier_Engineer";
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_AT";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_AAT";
                     };
                 };
 
+                class CUP_B_GER_BW_Fleck_anti_air_team {
+                    name = "Anti Air Team";
+                    side = 1;
+                    faction = "CFP_B_DEARMY_WDL";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_AA";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_AAA";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_AA";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_AAA";
+                    };
+                };
+
+                class CUP_B_GER_BW_Fleck_sniper_team {
+                    name = "Sniper Team";
+                    side = 1;
+                    faction = "CFP_B_DEARMY_WDL";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_Sniper";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_Scout";
+                    };
+                };
+            };
+
+            class Motorized
+            {
+                name = "Motorized Infantry";
+                class CUP_B_GER_SF_MotInf_KSK_WDL
+                {
+                    name = "$STR_CUP_dn_Grp_GER_SF_MotInf_KSK_WDL";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+                    faction = "CFP_B_DEARMY_WDL";
+                    side = 1;
+                    rarityGroup = 0.6;
+                    class Unit0
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_GER_Fleck_Soldier_TL";
+                        rank = "SERGEANT";
+                        position[] = { 0, 0, 0 };
+                    };
+                    class Unit1
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_GER_Fleck_Soldier_MG";
+                        rank = "CORPORAL";
+                        position[] = { 5, -5, 0 };
+                    };
+                    class Unit2
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_GER_Fleck_Soldier";
+                        rank = "CORPORAL";
+                        position[] = { -5, -5, 0 };
+                    };
+                    class Unit3
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_GER_Fleck_Soldier_Scout";
+                        rank = "CORPORAL";
+                        position[] = { 10, -10, 0 };
+                    };
+                    class Unit4
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_GER_Fleck_Soldier";
+                        rank = "CORPORAL";
+                        position[] = { -10, -10, 0 };
+                    };
+                    class Unit5
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_GER_Medic";
+                        rank = "PRIVATE";
+                        position[] = { 15, -15, 0 };
+                    };
+                    class Unit6
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_GER_Fleck_Soldier_AT";
+                        rank = "PRIVATE";
+                        position[] = { -15, -15, 0 };
+                    };
+                    class Unit7
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_GER_Fleck_Soldier_Ammo";
+                        rank = "PRIVATE";
+                        position[] = { 20, -20, 0 };
+                    };
+                    class Unit8
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_Dingo_GER_Wdl";
+                        rank = "SERGEANT";
+                        position[] = {15,0,0};
+                    };
+                    class Unit9
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_Dingo_GL_GER_Wdl";
+                        rank = "SERGEANT";
+                        position[] = {15,0,0};
+                    };
+                };
+                class CUP_B_GER_SF_MotInf_ReconPatrol_KSK_WDL
+                {
+                    name = "$STR_CUP_dn_Grp_GER_SF_MotInf_ReconPatrol_KSK_WDL";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+                    faction = "CFP_B_DEARMY_WDL"; side = 1;
+                    rarityGroup = 0;
+                    class Unit0
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_GER_Fleck_Soldier_Scout";
+                        rank = "SERGEANT";
+                        position[] = { 0, 0, 0 };
+                    };
+                    class Unit1
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_GER_Fleck_Soldier_Scout";
+                        rank = "CORPORAL";
+                        position[] = { 5, -5, 0 };
+                    };
+                    class Unit2
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_GER_Fleck_Soldier_Scout";
+                        rank = "PRIVATE";
+                        position[] = { -5, -5, 0 };
+                    };
+                    class Unit3
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_Dingo_GER_Wdl";
+                        rank = "SERGEANT";
+                        position[] = {15,0,0};
+                    };
+                };
+            };
+            class Armored
+            {
+                name = "Armor";
+                class CUP_B_GER_Leopard_Section_Woodland
+                {
+                    name = "Leopard 2 Section (Woodland)";
+                    icon = "\A3\ui_f\data\map\markers\nato\n_armor.paa";
+                    faction = "CFP_B_DEARMY_WDL"; side = 1;
+                    rarityGroup = 0.2;
+                    class Unit0
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_Leopard2A6_GER";
+                        rank = "CAPTAIN";
+                        position[] = {0,10,0};
+                    };
+                    class Unit1
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_Leopard2A6_GER";
+                        rank = "LIEUTENANT";
+                        position[] = {5,0,0};
+                    };
+                };
             };
 
             class Motorized_MTP {
@@ -505,11 +724,6 @@ class CfgGroups {
 
             class Mechanized {
                 name = "Mechanized Infantry";
-
-            };
-
-            class Armored {
-                name = "Armor";
 
             };
 

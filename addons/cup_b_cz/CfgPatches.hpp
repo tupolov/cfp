@@ -1,6 +1,7 @@
 class CfgPatches {
     class ADDON {
         units[] = {
+            /*
             "CUP_B_T810_Armed_CZ_DES",
             "CUP_B_T810_Unarmed_CZ_DES",
             "CUP_B_T810_Refuel_CZ_DES",
@@ -65,6 +66,7 @@ class CfgPatches {
             "CFP_B_UAZ_DShKM_01",
             "CFP_B_UAZ_AGS_30_01",
             "CFP_B_UAZ_SPG_01"
+            */
         };
         weapons[] = {};
         requiredAddons[] = {
