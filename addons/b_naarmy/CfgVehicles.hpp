@@ -270,43 +270,43 @@ class CfgVehicles {
 
     	// Nigerian Army Uniforms
     		uniformList[] = {
-    	"CFP_BDU_PolyDes", 0.6,
-        "CFP_BDU_PolyDes2", 0.6,
-    	"CFP_BDU_PolyDes3", 0.6,
-        "CFP_BDU_PolyDes4", 0.6,
-        "CFP_BDU_PolyDes5", 0.6,
-        "CFP_BDU_DCU", 0.4,
-        "CFP_BDU_DCU2", 0.4,
-        "CFP_BDU_DCU3", 0.4,
-        "CFP_BDU_DCU4", 0.4,
-        "CFP_BDU_DCU5", 0.4,
-        "CFP_BDU_M812", 0.2,
-    	"CFP_BDU_M813", 0.2,
-        "CFP_BDU_M81", 0.2,
+            	"CFP_BDU_PolyDes", 0.6,
+                "CFP_BDU_PolyDes2", 0.6,
+            	"CFP_BDU_PolyDes3", 0.6,
+                "CFP_BDU_PolyDes4", 0.6,
+                "CFP_BDU_PolyDes5", 0.6,
+                "CFP_BDU_DCU", 0.4,
+                "CFP_BDU_DCU2", 0.4,
+                "CFP_BDU_DCU3", 0.4,
+                "CFP_BDU_DCU4", 0.4,
+                "CFP_BDU_DCU5", 0.4,
+                "CFP_BDU_M812", 0.2,
+            	"CFP_BDU_M813", 0.2,
+                "CFP_BDU_M81", 0.2
         	};
 
     	// Nigerian Army Headgear
     		headgearList[] = {
-    	"CFP_Basic_Helmet_Black", 0.25,
-        "CFP_Basic_Helmet_Light_Green", 0.25,
-        "CFP_Basic_Helmet_Gray_Green", 0.25,
-        "CFP_Basic_Helmet_ArmyGreen", 0.25,
-        "CFP_Basic_Helmet_Tan", 0.25,
-        "CFP_PASGTHelmet_DCU2", 0.25,
-        "CFP_PASGTHelmet_DCU1", 0.25,
-        "CFP_Basic_Helmet_PolygonDesert", 0.25
+            	"CFP_Basic_Helmet_Black", 0.25,
+                "CFP_Basic_Helmet_Light_Green", 0.25,
+                "CFP_Basic_Helmet_Gray_Green", 0.25,
+                "CFP_Basic_Helmet_ArmyGreen", 0.25,
+                "CFP_Basic_Helmet_Tan", 0.25,
+                "CFP_PASGTHelmet_DCU2", 0.25,
+                "CFP_PASGTHelmet_DCU1", 0.25,
+                "CFP_Basic_Helmet_PolygonDesert", 0.25
     		};
 
         //Vests
             vestList[] = {
-        "CFP_Osprey1_Wd", 0.25,
-        "CFP_Modular1_M81", 0.4,
-        "SP_Modular1_Green", 0.4,
-        "SP_Modular1_Tan", 0.4,
-        "CFP_Modular1_IDF", 0.4,
-        "CFP_Modular1_DCU", 0.4,
-        "V_I_G_resistanceLeader_F", 0.25,
-        "CFP_AK_VEST_Lime", 0.25
+                "CFP_Osprey1_Wd", 0.25,
+                "CFP_Modular1_M81", 0.4,
+                "SP_Modular1_Green", 0.4,
+                "SP_Modular1_Tan", 0.4,
+                "CFP_Modular1_IDF", 0.4,
+                "CFP_Modular1_DCU", 0.4,
+                "V_I_G_resistanceLeader_F", 0.25,
+                "CFP_AK_VEST_Lime", 0.25
             };
 
             class EventHandlers : EventHandlers {
