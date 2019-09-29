@@ -467,7 +467,7 @@ class CfgVehicles {
 
 
     class CFP_B_USARMY_91_Rifleman_Desert_01 : CUP_B_US_Soldier_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_Rifleman_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_Rifleman_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -506,7 +506,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_Asst_Machinegunner_Desert_01 : CUP_B_US_Soldier_AMG_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_Asst_Machinegunner_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_Asst_Machinegunner_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -547,7 +547,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_Asst_Auto_Rifleman_Desert_01 : CUP_B_US_Soldier_AAR_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_Asst_Auto_Rifleman_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_Asst_Auto_Rifleman_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -588,7 +588,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_Asst_AT_Specialist_Dragon_Desert_01 : CUP_B_US_Soldier_AHAT_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_Asst_AT_Specialist_Javelin_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_Asst_AT_Specialist_Javelin_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -629,7 +629,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_Asst_AT_Specialist_Desert_01 : CUP_B_US_Soldier_AAT_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_Asst_AT_Specialist_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_Asst_AT_Specialist_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -669,7 +669,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_Rifleman_Light_Desert_01 : CUP_B_US_Soldier_Light_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_Rifleman_Light_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_Rifleman_Light_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -708,7 +708,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_Grenadier_Desert_01 : CUP_B_US_Soldier_GL_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_Grenadier_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_Grenadier_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -749,7 +749,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_Officer_Desert_01 : CUP_B_US_Officer_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_Officer_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_Officer_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -788,7 +788,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_Squad_Leader_Desert_01 : CUP_B_US_Soldier_SL_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_Squad_Leader_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_Squad_Leader_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -829,7 +829,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_Team_Leader_Desert_01 : CUP_B_US_Soldier_TL_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_Team_Leader_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_Team_Leader_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -870,7 +870,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_Rifleman_AT_Desert_01 : CUP_B_US_Soldier_LAT_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_Rifleman_AT_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_Rifleman_AT_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -909,7 +909,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_AT_Specialist_Desert_01 : CUP_B_US_Soldier_AT_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_AT_Specialist_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_AT_Specialist_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -949,7 +949,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_AT_Specialist_Dragon_Desert_01 : CUP_B_US_Soldier_HAT_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_AT_Specialist_Javelin_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_AT_Specialist_Javelin_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -988,7 +988,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_AA_Specialist_Desert_01 : CUP_B_US_Soldier_AA_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_AA_Specialist_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_AA_Specialist_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1027,7 +1027,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_Medic_Desert_01 : CUP_B_US_Medic_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_Medic_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_Medic_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1068,7 +1068,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_Automatic_Rifleman_Desert_01 : CUP_B_US_Soldier_AR_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_Automatic_Rifleman_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_Automatic_Rifleman_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1109,7 +1109,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_Machinegunner_Desert_01 : CUP_B_US_Soldier_MG_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_Machinegunner_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_Machinegunner_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1124,15 +1124,15 @@ class CfgVehicles {
         linkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU1","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
         respawnlinkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU1","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
 
-        weapons[] = {"CUP_lmg_M240_ElcanM143"};
-        respawnWeapons[] = {"CUP_lmg_M240_ElcanM143"};
+        weapons[] = {"CUP_lmg_M240"};
+        respawnWeapons[] = {"CUP_lmg_M240"};
 
         magazines[] = {"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
         respawnMagazines[] = {"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
 
         backpack = "CUP_B_AlicePack_OD";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_M240_ElcanM143","","","CUP_optic_ElcanM145",{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",100},{},""},{},{},{"CFP_BDU_DBDU2",{{"FirstAidKit",1},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",1,100}}},{"CUP_B_AlicePack_OD",{{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",2,100}}},"CFP_PASGTHelmet_DBDU1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_M240","","","",{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",100},{},""},{},{},{"CFP_BDU_DBDU2",{{"FirstAidKit",1},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",1,100}}},{"CUP_B_AlicePack_OD",{{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",2,100}}},"CFP_PASGTHelmet_DBDU1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
 
         class EventHandlers : EventHandlers {
@@ -1150,7 +1150,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_Spotter_Desert_01 : CUP_B_US_Spotter_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_Spotter_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_Spotter_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1189,7 +1189,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_Sniper_Desert_01 : CUP_B_US_Sniper_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_Sniper_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_Sniper_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1228,7 +1228,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_Sniper_NVS_Desert_01 : CUP_B_US_Sniper_M110_TWS_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_Sniper_TWS_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_Sniper_TWS_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1267,7 +1267,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_Sniper_M107_Desert_01 : CUP_B_US_Sniper_M107_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_Sniper_M107_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_Sniper_M107_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1306,7 +1306,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_Marksman_Desert_01 : CUP_B_US_Soldier_Marksman_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_Marksman_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_Marksman_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1344,7 +1344,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_Sapper_Desert_01 : CUP_B_US_Soldier_Engineer_Sapper_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_Sapper_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_Sapper_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1385,7 +1385,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_EOD_Engineer_Desert_01 : CUP_B_US_Soldier_Engineer_EOD_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_EOD_Engineer_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_EOD_Engineer_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1426,7 +1426,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_Engineer_Desert_01 : CUP_B_US_Engineer_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_Engineer_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_Engineer_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1467,7 +1467,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_Crewman_Desert_01 : CUP_B_US_Crew_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_Crewman_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_Crewman_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1506,7 +1506,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_Pilot_Desert_01 : CUP_B_US_Pilot_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_Pilot_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_Pilot_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1545,7 +1545,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_M2A2_Bradley_IFV_Desert_01 : CUP_B_M2Bradley_USA_D_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_M2A2_Bradley_IFV_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_M2A2_Bradley_IFV_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1575,7 +1575,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_M2A3_ERA_Bradley_IFV_Desert_01 : CUP_B_M2A3Bradley_USA_D_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_M2A3_ERA_Bradley_IFV_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_M2A3_ERA_Bradley_IFV_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1604,8 +1604,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USARMY_91_M113A3_Desert_Desert_01 : CUP_B_M113_desert_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_M113A3_Desert_Desert_01.JPG;
+    class CFP_B_USARMY_91_M113A3_Desert_01 : CUP_B_M113_desert_USA_OCimport_02 {
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_M113A3_Desert_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1635,7 +1635,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_HMMWV_Avenger_Desert_01 : CUP_B_HMMWV_Avenger_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_HMMWV_Avenger_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_HMMWV_Avenger_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1665,7 +1665,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_M270_MLRS_HE_Desert_01 : CUP_B_M270_HE_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_M270_MLRS_HE_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_M270_MLRS_HE_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1695,7 +1695,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_M270_MLRS_DPICM_Desert_01 : CUP_B_M270_DPICM_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_M270_MLRS_DPICM_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_M270_MLRS_DPICM_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1725,7 +1725,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_HMMWV_Unarmed_Desert_01 : CUP_B_HMMWV_Unarmed_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_HMMWV_Unarmed_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_HMMWV_Unarmed_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1750,7 +1750,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_HMMWV_M2_Desert_01 : CUP_B_HMMWV_M2_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_HMMWV_M2_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_HMMWV_M2_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1780,7 +1780,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_HMMWV_MK19_Desert_01 : CUP_B_HMMWV_MK19_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_HMMWV_MK19_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_HMMWV_MK19_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1810,7 +1810,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_HMMWV_TOW_Desert_01 : CUP_B_HMMWV_TOW_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_HMMWV_TOW_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_HMMWV_TOW_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1840,7 +1840,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_HMMWV_Ambulance_Desert_01 : CUP_B_HMMWV_Ambulance_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_HMMWV_Ambulance_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_HMMWV_Ambulance_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1865,7 +1865,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_HMMWV_Transport_Desert_01 : CUP_B_HMMWV_Transport_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_HMMWV_Transport_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_HMMWV_Transport_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1890,7 +1890,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_MTVR_Desert_01 : CUP_B_MTVR_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_MTVR_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_MTVR_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1915,7 +1915,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_MTVR_Ammo_Desert_01 : CUP_B_MTVR_Ammo_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_MTVR_Ammo_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_MTVR_Ammo_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1940,7 +1940,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_MTVR_Refuel_Desert_01 : CUP_B_MTVR_Refuel_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_MTVR_Refuel_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_MTVR_Refuel_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1965,7 +1965,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_MTVR_Repair_Desert_01 : CUP_B_MTVR_Repair_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_MTVR_Repair_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_MTVR_Repair_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1990,7 +1990,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_Towing_Tractor_Desert_01 : CUP_B_TowingTractor_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_Towing_Tractor_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_Towing_Tractor_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2015,7 +2015,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_AH_64D_Desert_01 : CUP_B_AH64D_DL_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_AH_64D_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_AH_64D_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2045,7 +2045,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_MH_6M_MELB_Desert_01 : CUP_B_MH6M_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_MH_6M_MELB_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_MH_6M_MELB_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2083,7 +2083,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_MH_6J_Little_Bird_Desert_01 : CUP_B_MH6J_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_MH_6J_Little_Bird_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_MH_6J_Little_Bird_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2121,7 +2121,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_MH_6M_Recon_Desert_01 : CUP_B_MH6M_OBS_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_MH_6M_Recon_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_MH_6M_Recon_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2159,7 +2159,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_MH_6J_Recon_Desert_01 : CUP_B_MH6J_OBS_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_MH_6J_Recon_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_MH_6J_Recon_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2197,7 +2197,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_AH_6M_Desert_01 : CUP_B_AH6M_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_AH_6M_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_AH_6M_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2227,7 +2227,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_AH_6J_Desert_01 : CUP_B_AH6J_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_AH_6J_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_AH_6J_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2257,7 +2257,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_CH_47F_Desert_01 : CUP_B_CH47F_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_CH_47F_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_CH_47F_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2290,7 +2290,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_CH_47F_VIV_Desert_01 : CUP_B_CH47F_VIV_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_CH_47F_VIV_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_CH_47F_VIV_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2322,7 +2322,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_UH_60M_Desert_01 : CUP_B_UH60M_US_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_UH_60M_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_UH_60M_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2354,7 +2354,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_UH_60M_MEV_Desert_01 : CUP_B_UH60M_Unarmed_FFV_MEV_US_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_UH_60M_MEV_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_UH_60M_MEV_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2390,7 +2390,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_A10A_Thunderbolt_II_Desert_01 : CUP_B_A10_DYN_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_A10A_Thunderbolt_II_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_A10A_Thunderbolt_II_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2415,7 +2415,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_M1A1_Abrams_Desert_01 : CUP_B_M1A1_DES_US_Army_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_M1A1_Abrams_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_M1A1_Abrams_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2453,7 +2453,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_M2_Machine_Gun_Desert_01 : CUP_B_M2StaticMG_US_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_M2_Machine_Gun_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_M2_Machine_Gun_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2483,7 +2483,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_M2_Minitripod_Desert_01 : CUP_B_M2StaticMG_MiniTripod_US_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_M2_Minitripod_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_M2_Minitripod_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2513,7 +2513,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_TOW_Tripod_Desert_01 : CUP_B_TOW_TriPod_US_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_TOW_Tripod_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_TOW_Tripod_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2543,7 +2543,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_M252_81mm_Mortar_Desert_01 : CUP_B_M252_US_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_M252_81mm_Mortar_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_M252_81mm_Mortar_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2573,7 +2573,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_M119_Desert_01 : CUP_B_M119_US_OCimport_02 {
-        editorPreview = \x\CFP\addons\CFP_B_USARMY_91_2003_desert\data\preview\CFP_B_USARMY_91_M119_Desert_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_M119_Desert_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;

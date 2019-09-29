@@ -27,7 +27,7 @@ class CfgVehicleClasses
 		class ItemInfo: HeadgearItem
 		{
 			mass = 60;
-			uniformmodel = "\x\cfp\addons\models\SSh68NetHelmet1";
+			uniformmodel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\CUP_TK_Helmet.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
@@ -81,7 +81,7 @@ class CfgVehicleClasses
 		class ItemInfo: HeadgearItem
 		{
 			mass = 60;
-			uniformmodel = "\x\cfp\addons\models\SSh68NetHelmet1";
+			uniformmodel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\CUP_TK_Helmet.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
@@ -135,7 +135,7 @@ class CfgVehicleClasses
 		class ItemInfo: HeadgearItem
 		{
 			mass = 60;
-			uniformmodel = "\x\cfp\addons\models\SSh68NetHelmet1";
+			uniformmodel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\CUP_TK_Helmet.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
@@ -189,7 +189,7 @@ class CfgVehicleClasses
 		class ItemInfo: HeadgearItem
 		{
 			mass = 60;
-			uniformmodel = "\x\cfp\addons\models\SSh68NetHelmet1";
+			uniformmodel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\CUP_TK_Helmet.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
@@ -243,7 +243,7 @@ class CfgVehicleClasses
 		class ItemInfo: HeadgearItem
 		{
 			mass = 60;
-			uniformmodel = "\x\cfp\addons\models\SSh68NetHelmet1";
+			uniformmodel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\CUP_TK_Helmet.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
@@ -298,7 +298,7 @@ class CfgVehicleClasses
 		class ItemInfo: HeadgearItem
 		{
 			mass = 60;
-			uniformmodel = "\x\cfp\addons\models\SSh68NetHelmet1";
+			uniformmodel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\CUP_TK_Helmet.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;

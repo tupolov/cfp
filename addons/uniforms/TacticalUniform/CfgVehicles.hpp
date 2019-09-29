@@ -1128,7 +1128,7 @@
 		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\Flecktarn.paa"};
-		hiddenSelectionsMaterials[] = {"\x\cfp\addons\uniforms\TacticalUniform\crye_mcam_v1.rvmat"};
+		hiddenSelectionsMaterials[] = {"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_ACR\data\ACR_Uniforma_DES.rvmat"};
 		hiddenSelections[] = {"Camo", "insignia"};
 		class Wounds
 		{
@@ -1161,7 +1161,7 @@
 		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\Flecktarn.paa"};
-		hiddenSelectionsMaterials[] = {"\x\cfp\addons\uniforms\TacticalUniform\crye_mcam_v1.rvmat"};
+		hiddenSelectionsMaterials[] = {"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_ACR\data\ACR_Uniforma_DES.rvmat"};
 		hiddenSelections[] = {"Camo", "insignia"};
 		class Wounds
 		{

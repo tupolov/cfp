@@ -1134,6 +1134,60 @@
 		};
 	};
 
+	class CFP_BDU_Tan2 : Uniform_Base
+    {
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_Tan.paa;
+
+		scope=2;
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_roll.p3d";
+		displayName = "BDU (Tan) Rolled Sleeves";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_roll.p3d";
+			uniformClass = "CFP_BDU_Tan2";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
+	class CFP_BDU_Green : Uniform_Base
+    {
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_Tan.paa;
+
+		scope=2;
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2.p3d";
+		displayName = "BDU (Green)";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2.p3d";
+			uniformClass = "CFP_BDU_Green";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
+	class CFP_BDU_Green2 : Uniform_Base
+    {
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_Tan.paa;
+
+		scope=2;
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_roll.p3d";
+		displayName = "BDU (Green) Rolled Sleeves";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_roll.p3d";
+			uniformClass = "CFP_BDU_Green2";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
 /////IDF Uniforms
 
 	class CFP_IDF_1 : Uniform_Base

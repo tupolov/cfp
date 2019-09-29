@@ -414,3 +414,24 @@
 
 		};
 	};
+
+	class CFP_U_WorkUniform_Iraq_Officer : Uniform_Base
+    {
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_U_WorkUniform_SudanPolice2.paa;
+
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Iraq Officer Uniform (Saddam Regime)";
+
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_WOrkUniform_Iraq_Officer";
+			containerClass="Supply60";
+			mass=80;
+
+
+		};
+	};

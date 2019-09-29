@@ -110,7 +110,7 @@
 		displayName  = "PASGT Helmet w Goggles Front Cover (US DBDU)";
 		//
 		model = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
-		hiddenSelections[] = {"camo", "NVG_mount", "Cover_Back"};
+		hiddenSelections[] = {"camo", "Goggle_ESS", "NVG_mount", "Cover_Back"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\DBDU.paa","cup\creatures\people\military\cup_creatures_people_military_germany\data\idf_helmet_white_co.paa"};
 		author = "CFP";
 
@@ -122,8 +122,7 @@
 			armor = 10;
 			passThrough = 0.30;
 			HITPOINTS_HEAD(10,0.30)
-			hiddenSelections[] = {"camo", "NVG_mount", "Cover_Back"};
-			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\DBDU.paa","cup\creatures\people\military\cup_creatures_people_military_germany\data\idf_helmet_white_co.paa"};
+			hiddenSelections[] = {"camo", "Goggle_ESS", "NVG_mount", "Cover_Back"};
 		};
 	};
 
@@ -551,7 +550,7 @@
     {
         picture = \x\cfp\addons\headgear\data\ui\icon_CFP_PASGTHelmet_TPat1.paa;
 
-		scope = 2;
+		scope = 1;
 		weaponPoolAvailable = 1;
 		displayName = "PASGT Helmet (TPat 1)";
 		//
@@ -579,7 +578,7 @@
     {
         picture = \x\cfp\addons\headgear\data\ui\icon_CFP_PASGTHelmet_TPat2.paa;
 
-		scope = 2;
+		scope = 1;
 		weaponPoolAvailable = 1;
 		displayName = "PASGT Helmet (TPat 2)";
 		//
@@ -941,57 +940,156 @@
 
 	class CFP_PASGTHelmet_M811 : ItemCore
     {
-        picture = \x\cfp\addons\headgear\data\ui\icon_CFP_PASGTHelmet_M811.paa;
+        picture = \x\cfp\addons\headgear\data\ui\icon_SP_PASGTHelmet_Black1.paa;
 
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "PASGT Helmet (M81 1)";
+		displayName  = "PASGT Helmet (M81)";
 		//
-		model = "\x\cfp\addons\models\PASGTHelmet1";
+		model = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
+		hiddenSelections[] = {"camo", "NVG_mount", "Goggle_Glass", "Goggle_ESS", "Cover_Front", "Cover_Back"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\M81.paa"};
-		hiddenSelections[] = {"Camo"};
 		author = "CFP";
-
-
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 60;
-			uniformmodel = "\x\cfp\addons\models\PASGTHelmet1";
+			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
 			HITPOINTS_HEAD(10,0.30)
+			hiddenSelections[] = {"camo", "NVG_mount", "Goggle_Glass", "Goggle_ESS", "Cover_Front", "Cover_Back"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\M81.paa"};
-			hiddenSelections[] = {"Camo"};
 		};
 	};
 
 	class CFP_PASGTHelmet_M812 : ItemCore
     {
-        picture = \x\cfp\addons\headgear\data\ui\icon_CFP_PASGTHelmet_M812.paa;
+        picture = \x\cfp\addons\headgear\data\ui\icon_SP_PASGTHelmet_Black1.paa;
 
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "PASGT Helmet (M81 2)";
-		//
-		model = "\x\cfp\addons\models\PASGTHelmet1";
+		displayName  = "PASGT Helmet (NVG, M81)";
+		model = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
+		hiddenSelections[] = {"camo", "Goggle_Glass", "Goggle_ESS", "Cover_Front", "Cover_Back"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\M81.paa"};
-		hiddenSelections[] = {"Camo"};
 		author = "CFP";
-
-
 
 		class ItemInfo: HeadgearItem
 		{
 			mass = 60;
-			uniformmodel = "\x\cfp\addons\models\PASGTHelmet2";
+			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
 			HITPOINTS_HEAD(10,0.30)
+			hiddenSelections[] = {"camo", "Goggle_Glass", "Goggle_ESS", "Cover_Front", "Cover_Back"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\M81.paa"};
-			hiddenSelections[] = {"Camo"};
+		};
+	};
+
+	class CFP_PASGTHelmet_M813 : ItemCore
+    {
+        picture = \x\cfp\addons\headgear\data\ui\icon_SP_PASGTHelmet_Black1.paa;
+
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName  = "PASGT Helmet w Goggles (NVG, M81)";
+		//
+		model = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
+		hiddenSelections[] = {"camo", "Cover_Front", "Cover_Back"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\M81.paa"};
+		author = "CFP";
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 60;
+			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
+			modelSides[] = {3,1};
+			armor = 10;
+			passThrough = 0.30;
+			HITPOINTS_HEAD(10,0.30)
+			hiddenSelections[] = {"camo", "Cover_Front", "Cover_Back"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\M81.paa"};
+		};
+	};
+
+	class CFP_PASGTHelmet_M814 : ItemCore
+    {
+        picture = \x\cfp\addons\headgear\data\ui\icon_SP_PASGTHelmet_Black1.paa;
+
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName  = "PASGT Helmet w Goggles (M81)";
+		//
+		model = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
+		hiddenSelections[] = {"camo", "NVG_mount", "Cover_Front", "Cover_Back"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\M81.paa"};
+		author = "CFP";
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 60;
+			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
+			modelSides[] = {3,1};
+			armor = 10;
+			passThrough = 0.30;
+			HITPOINTS_HEAD(10,0.30)
+			hiddenSelections[] = {"camo", "NVG_mount", "Cover_Front", "Cover_Back"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\M81.paa"};
+		};
+	};
+
+	class CFP_PASGTHelmet_M815 : ItemCore
+    {
+        picture = \x\cfp\addons\headgear\data\ui\icon_SP_PASGTHelmet_Black1.paa;
+
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName  = "PASGT Helmet w Goggles Front Cover (M81)";
+		//
+		model = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
+		hiddenSelections[] = {"camo", "NVG_mount", "Cover_Back"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\M81.paa"};
+		author = "CFP";
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 60;
+			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
+			modelSides[] = {3,1};
+			armor = 10;
+			passThrough = 0.30;
+			HITPOINTS_HEAD(10,0.30)
+			hiddenSelections[] = {"camo", "NVG_mount", "Cover_Back"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\M81.paa"};
+		};
+	};
+
+	class CFP_PASGTHelmet_M816 : ItemCore
+    {
+        picture = \x\cfp\addons\headgear\data\ui\icon_SP_PASGTHelmet_Black1.paa;
+
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName  = "PASGT Helmet w Goggles Back Cover (US M81)";
+		//
+		model = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
+		hiddenSelections[] = {"camo", "NVG_mount", "Cover_Front"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\M81.paa"};
+		author = "CFP";
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 60;
+			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
+			modelSides[] = {3,1};
+			armor = 10;
+			passThrough = 0.30;
+			HITPOINTS_HEAD(10,0.30)
+			hiddenSelections[] = {"camo", "NVG_mount", "Cover_Front"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\M81.paa"};
 		};
 	};
 
@@ -1057,7 +1155,7 @@
 
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "PASGT Helmet (EDRL 1)";
+		displayName = "PASGT Helmet (ERDL 1)";
 		//
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\EDRL.paa"};
@@ -1085,7 +1183,7 @@
 
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "PASGT Helmet (EDRL 2)";
+		displayName = "PASGT Helmet (ERDL 2)";
 		//
 		model = "\x\cfp\addons\models\PASGTHelmet1";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\EDRL.paa"};
@@ -1167,7 +1265,7 @@
     {
         picture = \x\cfp\addons\headgear\data\ui\icon_CFP_PASGTHelmet_Tropentarn1.paa;
 
-		scope = 2;
+		scope = 1;
 		weaponPoolAvailable = 1;
 		displayName = "PASGT Helmet (Tropentarn 1)";
 		//
@@ -1195,7 +1293,7 @@
     {
         picture = \x\cfp\addons\headgear\data\ui\icon_CFP_PASGTHelmet_Tropentarn2.paa;
 
-		scope = 2;
+		scope = 1;
 		weaponPoolAvailable = 1;
 		displayName = "PASGT Helmet (Tropentarn 2)";
 		//
@@ -1223,7 +1321,7 @@
     {
         picture = \x\cfp\addons\headgear\data\ui\icon_CFP_PASGTHelmet_Flecktarn1.paa;
 
-		scope = 2;
+		scope = 1;
 		weaponPoolAvailable = 1;
 		displayName = "PASGT Helmet (Flecktarn 1)";
 		//
@@ -1251,7 +1349,7 @@
     {
         picture = \x\cfp\addons\headgear\data\ui\icon_CFP_PASGTHelmet_Flecktarn2.paa;
 
-		scope = 2;
+		scope = 1;
 		weaponPoolAvailable = 1;
 		displayName = "PASGT Helmet (Flecktarn 2)";
 		//
@@ -1272,5 +1370,33 @@
 			HITPOINTS_HEAD(10,0.30)
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\Flecktarn.paa"};
 			hiddenSelections[] = {"Camo"};
+		};
+	};
+
+
+///Basic turned to PASGT
+
+	class CFP_Basic_Helmet_PolygonDesert: ItemCore
+    {
+    picture = "\x\cfp\addons\headgear\data\ui\icon_CFP_Basic_Helmet_PolygonDesert.paa";
+	scope = 2;
+	weaponPoolAvailable = 1;
+	displayName  = "PASGT Helmet (Polygon Desert)";
+	//
+	model = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
+	hiddenSelections[] = {"camo", "NVG_mount", "Goggle_Glass", "Goggle_ESS", "Cover_Front", "Cover_Back"};
+	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\PolyDesert_co.paa"};
+	author = "CFP";
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 60;
+			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
+			modelSides[] = {3,1};
+			armor = 10;
+			passThrough = 0.30;
+			HITPOINTS_HEAD(10,0.30)
+			hiddenSelections[] = {"camo", "NVG_mount", "Goggle_Glass", "Goggle_ESS", "Cover_Front", "Cover_Back"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\PolyDesert_co.paa"};
 		};
 	};

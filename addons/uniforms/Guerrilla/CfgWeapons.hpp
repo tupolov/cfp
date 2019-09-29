@@ -484,6 +484,59 @@
 		};
 	};
 
+	class CFP_CHZ_Tan_Green: ItemCore
+	{
+		picture = "";
+		scope=2;
+		model = "x\cfp\addons\models\CUP_Ins_Uniform1.p3d";
+		displayName="Iraqi Army Hooded Jacket (Tan/Green pants)";
+		author="CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="CFP_CHZ_Tan_Green";
+			containerClass="Supply80";
+			mass=20;
+		};
+	};
+
+	class CFP_CHZ_Green_Tan: ItemCore
+	{
+		picture = "";
+		scope=2;
+		model = "x\cfp\addons\models\CUP_Ins_Uniform1.p3d";
+		displayName="Iraqi Army Hooded Jacket (Green/Tan pants)";
+		author="CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="CFP_CHZ_Green_Tan";
+			containerClass="Supply80";
+			mass=20;
+		};
+	};
+
+	class CFP_CHZ_Green: ItemCore
+	{
+		picture = "";
+		scope=2;
+		model = "x\cfp\addons\models\CUP_Ins_Uniform1.p3d";
+		displayName="Iraqi Army Hooded Jacket (Green)";
+		author="CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel="-";
+			uniformClass="CFP_CHZ_Green";
+			containerClass="Supply80";
+			mass=20;
+		};
+	};
+
+
+
 
 
 

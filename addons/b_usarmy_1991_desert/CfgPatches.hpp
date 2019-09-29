@@ -31,7 +31,7 @@ class CfgPatches {
             "CFP_B_USARMY_91_M2A2_Bradley_IFV_Desert_01",
             "CFP_B_USARMY_91_M2A3_ERA_Bradley_IFV_Desert_01",
             "CFP_B_USARMY_91_M119_Desert_01",
-            "CFP_B_USARMY_91_M113A3_Desert_Desert_01",
+            "CFP_B_USARMY_91_M113A3_Desert_01",
             "CFP_B_USARMY_91_M252_81mm_Mortar_Desert_01",
             "CFP_B_USARMY_91_TOW_Tripod_Desert_01",
             "CFP_B_USARMY_91_M2_Minitripod_Desert_01",

@@ -835,6 +835,54 @@ class CFP_Tactical1_EDRL: V_PlateCarrier1_rgr
 					passThrough = 0.2;
 				};
 			};
+		};
+	};
 
+	///Delta Vests
+
+	class CFP_V_Delta_1: V_PlateCarrier1_rgr
+{
+    scope = 2;
+	author = "CFP";
+	displayName  = "RRV Carrier v2 (Delta 1)";
+	descriptionShort = "$STR_A3_SP_AL_I";
+	picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\data\ui\icon_v_RRV_tl_ca.paa";
+	model   = "\x\cfp\addons\models\V2_CUP_Delta_Vest1.p3d";
+	hiddenSelectionsTextures[] = {"cup\creatures\people\military\cup_creatures_people_military_delta\data\do_1_co.paa","cup\creatures\people\military\cup_creatures_people_military_delta\data\do_equip_co.paa"};
+
+	class ItemInfo: VestItem
+	{
+		containerClass = "Supply120";
+		uniformModel   = "\x\cfp\addons\models\V2_CUP_Delta_Vest1.p3d";
+	    hiddenSelectionsTextures[] = {"cup\creatures\people\military\cup_creatures_people_military_delta\data\do_1_co.paa","cup\creatures\people\military\cup_creatures_people_military_delta\data\do_equip_co.paa"};
+		armor = 20;
+		passThrough = 0.5;
+		mass = 70;
+		class HitpointsProtectionInfo
+			{
+				class Chest
+				{
+					hitpointName = "HitChest";
+					armor = 18;
+					passThrough = 0.2;
+				};
+				class Diaphragm
+				{
+					hitpointName = "HitDiaphragm";
+					armor = 18;
+					passThrough = 0.2;
+				};
+				class Abdomen
+				{
+					hitpointName = "HitAbdomen";
+					armor = 18;
+					passThrough = 0.2;
+				};
+				class Body
+				{
+					hitpointName = "HitBody";
+					passThrough = 0.2;
+				};
+			};
 		};
 	};

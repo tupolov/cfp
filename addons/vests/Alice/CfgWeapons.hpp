@@ -61,10 +61,10 @@ class CfgVehicleClasses
 	{
 	    picture = "\x\cfp\addons\vests\data\ui\icon_CFP_Smersh_Brown.paa";
 		scope = 2;
-		displayName = "Alice Vest (Tan)";
+		displayName = "Alice Vest (Coyote Brown)";
 		// picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\ui\icon_v_smerch_1_ca.paa";
 		model = "\x\cfp\addons\vests\Alice\alice_sample.p3d";
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Alice\tex\equip_nato_brown.paa","\x\cfp\addons\vests\Alice\tex\wg_co_dcu.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Alice\tex\equip_nato_brown.paa","\x\cfp\addons\vests\Alice\tex\wg_brown_co.paa"};
 		hiddenSelections[] = {"Camo1","Camo2"};
 		author = "CFP";
 		class ItemInfo: VestItem
@@ -202,7 +202,7 @@ class CfgVehicleClasses
 		displayName = "Alice Vest (BDU Version Tan)";
 		// picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\ui\icon_v_smerch_1_ca.paa";
 		model = "\x\cfp\addons\vests\Alice\alice_sample2.p3d";
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Alice\tex\equip_nato_brown.paa","\x\cfp\addons\vests\Alice\tex\wg_co_dcu.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Alice\tex\equip_nato_brown.paa","\x\cfp\addons\vests\Alice\tex\wg_brown_co.paa"};
 		hiddenSelections[] = {"Camo1","Camo2"};
 		author = "CFP";
 		class ItemInfo: VestItem

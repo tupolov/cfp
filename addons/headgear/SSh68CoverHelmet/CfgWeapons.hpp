@@ -17,9 +17,8 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "SSh68 Cover Helmet (Black 1)";
 		// picture = "\x\cfp\addons\headgear\SSh68CoverHelmet\ui\Black1.jpg";
-		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_SLA\CUP_SLA_Helmet.p3d";
-		hiddenSelectionsMaterials[] = {"\x\cfp\addons\models\rv\SSH68CoverHelmet.rvmat"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\Black.paa"};
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_H_SSH68_cover.p3d";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\Black2.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "CFP";
 
@@ -28,12 +27,12 @@ class CfgVehicleClasses
 		class ItemInfo: HeadgearItem
 		{
 			mass = 60;
-			uniformmodel = "\x\cfp\addons\models\SSh68CoverHelmet1";
+			uniformmodel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_H_SSH68_cover.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
 			HITPOINTS_HEAD(10,0.30)
-			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\Black.paa"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\Black2.paa"};
 			hiddenSelections[] = {"Camo"};
 		};
 	};
@@ -41,7 +40,7 @@ class CfgVehicleClasses
 	class SP_SSh68CoverHelmet_Black2: ItemCore
     {
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_SSh68CoverHelmet_Black2.paa";
-		scope = 2;
+		scope = 1;
 		weaponPoolAvailable = 1;
 		displayName = "SSh68 Cover Helmet (Black 2)";
 		// picture = "\x\cfp\addons\headgear\SSh68CoverHelmet\ui\Black2.jpg";
@@ -72,9 +71,8 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "SSh68 Cover Helmet (Blue 1)";
 		// picture = "\x\cfp\addons\headgear\SSh68CoverHelmet\ui\Blue1.jpg";
-		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_SLA\CUP_SLA_Helmet.p3d";
-		hiddenSelectionsMaterials[] = {"\x\cfp\addons\models\rv\SSH68CoverHelmet.rvmat"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\Blue.paa"};
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_H_SSH68_cover.p3d";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\Blue2.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "CFP";
 
@@ -83,12 +81,12 @@ class CfgVehicleClasses
 		class ItemInfo: HeadgearItem
 		{
 			mass = 60;
-			uniformmodel = "\x\cfp\addons\models\SSh68CoverHelmet1";
+			uniformmodel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_H_SSH68_cover.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
 			HITPOINTS_HEAD(10,0.30)
-			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\Blue.paa"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\Blue2.paa"};
 			hiddenSelections[] = {"Camo"};
 		};
 	};
@@ -96,7 +94,7 @@ class CfgVehicleClasses
 	class SP_SSh68CoverHelmet_Blue2: ItemCore
     {
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_SSh68CoverHelmet_Blue2.paa";
-		scope = 2;
+		scope = 1;
 		weaponPoolAvailable = 1;
 		displayName = "SSh68 Cover Helmet (Blue 2)";
 		// picture = "\x\cfp\addons\headgear\SSh68CoverHelmet\ui\Blue2.jpg";
@@ -127,9 +125,8 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "SSh68 Cover Helmet (Green 1)";
 		// picture = "\x\cfp\addons\headgear\SSh68CoverHelmet\ui\Green1.jpg";
-		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_SLA\CUP_SLA_Helmet.p3d";
-		hiddenSelectionsMaterials[] = {"\x\cfp\addons\models\rv\SSH68CoverHelmet.rvmat"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\Green.paa"};
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_H_SSH68_cover.p3d";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\Green2.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "CFP";
 
@@ -138,12 +135,12 @@ class CfgVehicleClasses
 		class ItemInfo: HeadgearItem
 		{
 			mass = 60;
-			uniformmodel = "\x\cfp\addons\models\SSh68CoverHelmet1";
+			uniformmodel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_H_SSH68_cover.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
 			HITPOINTS_HEAD(10,0.30)
-			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\Green.paa"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\Green2.paa"};
 			hiddenSelections[] = {"Camo"};
 		};
 	};
@@ -151,7 +148,7 @@ class CfgVehicleClasses
 	class SP_SSh68CoverHelmet_Green2: ItemCore
     {
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_SSh68CoverHelmet_Green2.paa";
-		scope = 2;
+		scope = 1;
 		weaponPoolAvailable = 1;
 		displayName = "SSh68 Cover Helmet (Green 2)";
 		// picture = "\x\cfp\addons\headgear\SSh68CoverHelmet\ui\Green2.jpg";
@@ -182,9 +179,8 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "SSh68 Cover Helmet (Tan 1)";
 		// picture = "\x\cfp\addons\headgear\SSh68CoverHelmet\ui\Tan1.jpg";
-		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_SLA\CUP_SLA_Helmet.p3d";
-		hiddenSelectionsMaterials[] = {"\x\cfp\addons\models\rv\SSH68CoverHelmet.rvmat"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\Tan.paa"};
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_H_SSH68_cover.p3d";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\Tan2.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "CFP";
 
@@ -193,12 +189,12 @@ class CfgVehicleClasses
 		class ItemInfo: HeadgearItem
 		{
 			mass = 60;
-			uniformmodel = "\x\cfp\addons\models\SSh68CoverHelmet1";
+			uniformmodel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_H_SSH68_cover.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
 			HITPOINTS_HEAD(10,0.30)
-			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\Tan.paa"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\Tan2.paa"};
 			hiddenSelections[] = {"Camo"};
 		};
 	};
@@ -206,7 +202,7 @@ class CfgVehicleClasses
 	class SP_SSh68CoverHelmet_Tan2: ItemCore
     {
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_SSh68CoverHelmet_Tan2.paa";
-		scope = 2;
+		scope = 1;
 		weaponPoolAvailable = 1;
 		displayName = "SSh68 Cover Helmet (Tan 2)";
 		// picture = "\x\cfp\addons\headgear\SSh68CoverHelmet\ui\Tan2.jpg";
@@ -237,9 +233,8 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "SSh68 Cover Helmet (White 1)";
 		// picture = "\x\cfp\addons\headgear\SSh68CoverHelmet\ui\White1.jpg";
-		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_SLA\CUP_SLA_Helmet.p3d";
-		hiddenSelectionsMaterials[] = {"\x\cfp\addons\models\rv\SSH68CoverHelmet.rvmat"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\White.paa"};
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_H_SSH68_cover.p3d";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\White2.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "CFP";
 
@@ -248,12 +243,12 @@ class CfgVehicleClasses
 		class ItemInfo: HeadgearItem
 		{
 			mass = 60;
-			uniformmodel = "\x\cfp\addons\models\SSh68CoverHelmet1";
+			uniformmodel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_H_SSH68_cover.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
 			HITPOINTS_HEAD(10,0.30)
-			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\White.paa"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\White2.paa"};
 			hiddenSelections[] = {"Camo"};
 
 		};
@@ -262,7 +257,7 @@ class CfgVehicleClasses
 	class SP_SSh68CoverHelmet_White2: ItemCore
     {
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_SSh68CoverHelmet_White2.paa";
-		scope = 2;
+		scope = 1;
 		weaponPoolAvailable = 1;
 		displayName = "SSh68 Cover Helmet (White 2)";
 		// picture = "\x\cfp\addons\headgear\SSh68CoverHelmet\ui\White2.jpg";
@@ -293,9 +288,8 @@ class CfgVehicleClasses
 		weaponPoolAvailable = 1;
 		displayName = "SSh68 Cover Helmet (U.N 1)";
 		// picture = "\x\cfp\addons\headgear\SSh68CoverHelmet\ui\UN1.jpg";
-		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_SLA\CUP_SLA_Helmet.p3d";
-		hiddenSelectionsMaterials[] = {"\x\cfp\addons\models\rv\SSH68CoverHelmet.rvmat"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\UN.paa"};
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_H_SSH68_cover.p3d";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\UN2.paa"};
 		hiddenSelections[] = {"Camo"};
 		author = "CFP";
 
@@ -304,12 +298,12 @@ class CfgVehicleClasses
 		class ItemInfo: HeadgearItem
 		{
 			mass = 60;
-			uniformmodel = "\x\cfp\addons\models\SSh68CoverHelmet1";
+			uniformmodel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_H_SSH68_cover.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
 			HITPOINTS_HEAD(10,0.30)
-			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\UN.paa"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\UN2.paa"};
 			hiddenSelections[] = {"Camo"};
 
 		};
@@ -318,7 +312,7 @@ class CfgVehicleClasses
 	class SP_SSh68CoverHelmet_UN2: ItemCore
     {
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_SSh68CoverHelmet_UN2.paa";
-		scope = 2;
+		scope = 1;
 		weaponPoolAvailable = 1;
 		displayName = "SSh68 Cover Helmet (UN 2)";
 		// picture = "\x\cfp\addons\headgear\SSh68CoverHelmet\ui\UN2.jpg";

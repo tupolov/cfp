@@ -2,7 +2,7 @@
 	class CFP_U_Crye_Black: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_TacticalUniform_Black.paa";
-		scope=2;
+		scope=1;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform (Black)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\Black.jpg";
@@ -21,7 +21,7 @@
 	class CFP_U_Crye_Black_SS: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_TacticalUniform_Black_SS.paa";
-		scope=2;
+		scope=1;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform SS (Black)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\Black.jpg";
@@ -214,7 +214,7 @@
 	class SP_0000_Standard_TacticalUniform_ATacsFG: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_TacticalUniform_ATacsFG.paa";
-		scope=2;
+		scope=1;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform (A-Tacs FG)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\ATacsFG.jpg";
@@ -233,7 +233,7 @@
 	class SP_0000_Standard_TacticalUniform_ATacsFG_SS: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_TacticalUniform_ATacsFG_SS.paa";
-		scope=2;
+		scope=1;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform SS (A-Tacs FG)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\ATacsFG.jpg";
@@ -252,7 +252,7 @@
 	class SP_0000_Standard_TacticalUniform_ATacsFG_TS: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_TacticalUniform_ATacsFG_TS.paa";
-		scope=2;
+		scope=1;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Tactical Uniform TS (A-Tacs FG)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\ATacsFGTS.jpg";
@@ -576,7 +576,7 @@
 	class CFP_U_Crye_ATacsAU: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_TacticalUniform_ATacsFG.paa";
-		scope=2;
+		scope=1;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform (A-Tacs AU)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\ATacsFG.jpg";
@@ -595,7 +595,7 @@
 	class CFP_U_Crye_ATacsAU_SS: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_TacticalUniform_ATacsFG_SS.paa";
-		scope=2;
+		scope=1;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform SS (A-Tacs AU)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\ATacsFG.jpg";
@@ -652,7 +652,7 @@
 	class CFP_U_Crye_Flecktarn: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_TacticalUniform_ATacsFG.paa";
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform (Flecktarn)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\ATacsFG.jpg";
@@ -671,7 +671,7 @@
 	class CFP_U_Crye_Flecktarn_SS: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_TacticalUniform_ATacsFG_SS.paa";
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform SS (Flecktarn)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\ATacsFG.jpg";

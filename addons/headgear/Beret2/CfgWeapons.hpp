@@ -405,3 +405,17 @@ class CFP_Ranger_Beret_Cmdr : CFP_Ranger_Beret
 	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\ranger_beret04_co.paa"};
 	hiddenSelectionsMaterials[] = {"\x\cfp\addons\headgear\Beret2\ranger_beret04.rvmat"};
 };
+
+///Iraq Berets
+
+class CFP_Beret_Iraq_RG_Blk: CFP_Beret2_RedANA
+{
+	displayName  = "Iraq Republican Guard Beret (Black)";
+	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\iraq_beret_blk_co.paa"};
+};
+
+class CFP_Beret_Iraq_RG_Red : CFP_Beret2_RedANA
+{
+    displayName = "Iraq Republican Guard Beret (Red)";
+	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\iraq_beret_red_co.paa"};
+};
