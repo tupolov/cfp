@@ -15,331 +15,307 @@ class CfgGroups {
 
                 class CFP_B_USARMY_1991_DES_RifleSquad {
                     name = "Rifle Squad";
-                    faction = "CFP_B_USARMY_1991_DES";
                     side = 1;
-                    rarityGroup = 0.5;
+                    faction = "CFP_B_USARMY_1991_DES";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
-                    class Unit0
-                    {
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,5,0};
+                        rank = "LIEUTENANT";
                         side = 1;
                         vehicle = "CFP_B_USARMY_91_Squad_Leader_Desert_01";
-                        rank = "LIEUTENANT";
-                        position[] = {0,5,0};
                     };
-                    class Unit1
-                    {
+                    class Unit1 {
+                        position[] = {3,0,0};
+                        rank = "SERGEANT";
                         side = 1;
                         vehicle = "CFP_B_USARMY_91_Team_Leader_Desert_01";
-                        rank = "SERGEANT";
-                        position[] = {3,0,0};
                     };
-                    class Unit2
-                    {
+                    class Unit2 {
+                        position[] = {5,0,0};
+                        rank = "SERGEANT";
                         side = 1;
                         vehicle = "CFP_B_USARMY_91_Grenadier_Desert_01";
-                        rank = "SERGEANT";
-                        position[] = {5,0,0};
                     };
-                    class Unit3
-                    {
+                    class Unit3 {
+                        position[] = {7,0,0};
+                        rank = "CORPORAL";
                         side = 1;
                         vehicle = "CFP_B_USARMY_91_Automatic_Rifleman_Desert_01";
-                        rank = "CORPORAL";
-                        position[] = {7,0,0};
                     };
-                    class Unit4
-                    {
+                    class Unit4 {
+                        position[] = {9,0,0};
+                        rank = "CORPORAL";
                         side = 1;
                         vehicle = "CFP_B_USARMY_91_Rifleman_AT_Desert_01";
-                        rank = "CORPORAL";
-                        position[] = {9,0,0};
                     };
-                    class Unit5
-                    {
+                    class Unit5 {
+                        position[] = {11,0,0};
+                        rank = "CORPORAL";
                         side = 1;
                         vehicle = "CFP_B_USARMY_91_Team_Leader_Desert_01";
-                        rank = "CORPORAL";
-                        position[] = {11,0,0};
                     };
-                    class Unit6
-                    {
+                    class Unit6 {
+                        position[] = {13,0,0};
+                        rank = "PRIVATE";
                         side = 1;
                         vehicle = "CFP_B_USARMY_91_Grenadier_Desert_01";
-                        rank = "PRIVATE";
-                        position[] = {13,0,0};
                     };
-                    class Unit7
-                    {
+                    class Unit7 {
+                        position[] = {15,0,0};
+                        rank = "PRIVATE";
                         side = 1;
                         vehicle = "CFP_B_USARMY_91_Automatic_Rifleman_Desert_01";
-                        rank = "PRIVATE";
-                        position[] = {15,0,0};
                     };
-                    class Unit8
-                    {
+                    class Unit8 {
+                        position[] = {17,0,0};
+                        rank = "PRIVATE";
                         side = 1;
                         vehicle = "CFP_B_USARMY_91_Asst_Auto_Rifleman_Desert_01";
-                        rank = "PRIVATE";
-                        position[] = {17,0,0};
                     };
                 };
+
                 class CFP_B_USARMY_1991_DES_WeaponsSquad {
                     name = "Weapons Squad";
-                    faction = "CFP_B_USARMY_1991_DES";
                     side = 1;
-                    rarityGroup = 0.5;
+                    faction = "CFP_B_USARMY_1991_DES";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
-                    class Unit0
-                    {
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,5,0};
+                        rank = "LIEUTENANT";
                         side = 1;
                         vehicle = "CFP_B_USARMY_91_Squad_Leader_Desert_01";
-                        rank = "LIEUTENANT";
-                        position[] = {0,5,0};
                     };
-                    class Unit1
-                    {
-                        side = 1;
-                        vehicle = "CFP_B_USARMY_91_Machinegunner_Desert_01";
-                        rank = "SERGEANT";
+                    class Unit1 {
                         position[] = {3,0,0};
-                    };
-                    class Unit2
-                    {
-                        side = 1;
-                        vehicle = "CFP_B_USARMY_91_Grenadier_Desert_01";
                         rank = "SERGEANT";
-                        position[] = {5,0,0};
-                    };
-                    class Unit3
-                    {
-                        side = 1;
-                        vehicle = "CFP_B_USARMY_91_Asst_Machinegunner_Desert_01";
-                        rank = "CORPORAL";
-                        position[] = {7,0,0};
-                    };
-                    class Unit4
-                    {
                         side = 1;
                         vehicle = "CFP_B_USARMY_91_Machinegunner_Desert_01";
-                        rank = "CORPORAL";
-                        position[] = {9,0,0};
                     };
-                    class Unit5
-                    {
+                    class Unit2 {
+                        position[] = {5,0,0};
+                        rank = "SERGEANT";
                         side = 1;
                         vehicle = "CFP_B_USARMY_91_Grenadier_Desert_01";
-                        rank = "CORPORAL";
-                        position[] = {11,0,0};
                     };
-                    class Unit6
-                    {
+                    class Unit3 {
+                        position[] = {7,0,0};
+                        rank = "CORPORAL";
                         side = 1;
                         vehicle = "CFP_B_USARMY_91_Asst_Machinegunner_Desert_01";
-                        rank = "PRIVATE";
-                        position[] = {13,0,0};
                     };
-                    class Unit7
-                    {
+                    class Unit4 {
+                        position[] = {9,0,0};
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Machinegunner_Desert_01";
+                    };
+                    class Unit5 {
+                        position[] = {11,0,0};
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Grenadier_Desert_01";
+                    };
+                    class Unit6 {
+                        position[] = {13,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Asst_Machinegunner_Desert_01";
+                    };
+                    class Unit7 {
+                        position[] = {15,0,0};
+                        rank = "PRIVATE";
                         side = 1;
                         vehicle = "CFP_B_USARMY_91_Rifleman_AT_Desert_01";
-                        rank = "PRIVATE";
-                        position[] = {15,0,0};
                     };
                 };
+
                 class CFP_B_USARMY_1991_DES_Team {
                     name = "Team";
-                    faction = "CFP_B_USARMY_1991_DES";
                     side = 1;
-                    rarityGroup = 0.3;
+                    faction = "CFP_B_USARMY_1991_DES";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
-                    class Unit0
-                    {
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,5,0};
+                        rank = "SERGEANT";
                         side = 1;
                         vehicle = "CFP_B_USARMY_91_Team_Leader_Desert_01";
-                        rank = "SERGEANT";
-                        position[] = {0,5,0};
                     };
-                    class Unit1
-                    {
+                    class Unit1 {
+                        position[] = {3,0,0};
+                        rank = "CORPORAL";
                         side = 1;
                         vehicle = "CFP_B_USARMY_91_Automatic_Rifleman_Desert_01";
-                        rank = "CORPORAL";
-                        position[] = {3,0,0};
                     };
-                    class Unit2
-                    {
+                    class Unit2 {
+                        position[] = {5,0,0};
+                        rank = "CORPORAL";
                         side = 1;
                         vehicle = "CFP_B_USARMY_91_Grenadier_Desert_01";
-                        rank = "CORPORAL";
-                        position[] = {5,0,0};
                     };
-                    class Unit3
-                    {
+                    class Unit3 {
+                        position[] = {7,0,0};
+                        rank = "PRIVATE";
                         side = 1;
                         vehicle = "CFP_B_USARMY_91_Asst_Auto_Rifleman_Desert_01";
-                        rank = "PRIVATE";
-                        position[] = {7,0,0};
                     };
                 };
+
                 class CFP_B_USARMY_1991_DES_TeamMG {
                     name = "Team (MG)";
-                    faction = "CFP_B_USARMY_1991_DES";
                     side = 1;
-                    rarityGroup = 0.1;
+                    faction = "CFP_B_USARMY_1991_DES";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
-                    class Unit0
-                    {
+                    rarityGroup = 0.1;
+
+                    class Unit0 {
+                        position[] = {0,5,0};
+                        rank = "SERGEANT";
                         side = 1;
                         vehicle = "CFP_B_USARMY_91_Team_Leader_Desert_01";
-                        rank = "SERGEANT";
-                        position[] = {0,5,0};
                     };
-                    class Unit1
-                    {
+                    class Unit1 {
+                        position[] = {3,0,0};
+                        rank = "CORPORAL";
                         side = 1;
                         vehicle = "CFP_B_USARMY_91_Machinegunner_Desert_01";
-                        rank = "CORPORAL";
-                        position[] = {3,0,0};
                     };
-                    class Unit2
-                    {
+                    class Unit2 {
+                        position[] = {5,0,0};
+                        rank = "CORPORAL";
                         side = 1;
                         vehicle = "CFP_B_USARMY_91_Grenadier_Desert_01";
-                        rank = "CORPORAL";
-                        position[] = {5,0,0};
                     };
-                    class Unit3
-                    {
+                    class Unit3 {
+                        position[] = {7,0,0};
+                        rank = "PRIVATE";
                         side = 1;
                         vehicle = "CFP_B_USARMY_91_Asst_Machinegunner_Desert_01";
-                        rank = "PRIVATE";
-                        position[] = {7,0,0};
                     };
                 };
+
                 class CFP_B_USARMY_1991_DES_TeamAT {
                     name = "Team (AT)";
-                    faction = "CFP_B_USARMY_1991_DES";
                     side = 1;
-                    rarityGroup = 0.1;
+                    faction = "CFP_B_USARMY_1991_DES";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
-                    class Unit0
-                    {
+                    rarityGroup = 0.1;
+
+                    class Unit0 {
+                        position[] = {0,5,0};
+                        rank = "SERGEANT";
                         side = 1;
                         vehicle = "CFP_B_USARMY_91_Team_Leader_Desert_01";
-                        rank = "SERGEANT";
-                        position[] = {0,5,0};
                     };
-                    class Unit1
-                    {
-                        side = 1;
-                        vehicle = "CFP_B_USARMY_91_AT_Specialist_Desert_01";
-                        rank = "CORPORAL";
+                    class Unit1 {
                         position[] = {3,0,0};
-                    };
-                    class Unit2
-                    {
+                        rank = "CORPORAL";
                         side = 1;
                         vehicle = "CFP_B_USARMY_91_AT_Specialist_Desert_01";
-                        rank = "CORPORAL";
-                        position[] = {5,0,0};
                     };
-                    class Unit3
-                    {
+                    class Unit2 {
+                        position[] = {5,0,0};
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_AT_Specialist_Desert_01";
+                    };
+                    class Unit3 {
+                        position[] = {7,0,0};
+                        rank = "PRIVATE";
                         side = 1;
                         vehicle = "CFP_B_USARMY_91_Asst_AT_Specialist_Desert_01";
-                        rank = "PRIVATE";
-                        position[] = {7,0,0};
                     };
                 };
+
                 class CFP_B_USARMY_1991_DES_TeamSupport {
                     name = "Team (Support)";
-                    faction = "CFP_B_USARMY_1991_DES";
                     side = 1;
-                    rarityGroup = 0.1;
+                    faction = "CFP_B_USARMY_1991_DES";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
-                    class Unit0
-                    {
+                    rarityGroup = 0.1;
+
+                    class Unit0 {
+                        position[] = {0,5,0};
+                        rank = "SERGEANT";
                         side = 1;
                         vehicle = "CFP_B_USARMY_91_Team_Leader_Desert_01";
-                        rank = "SERGEANT";
-                        position[] = {0,5,0};
                     };
-                    class Unit1
-                    {
+                    class Unit1 {
+                        position[] = {3,0,0};
+                        rank = "CORPORAL";
                         side = 1;
                         vehicle = "CFP_B_USARMY_91_Grenadier_Desert_01";
-                        rank = "CORPORAL";
-                        position[] = {3,0,0};
                     };
-                    class Unit2
-                    {
+                    class Unit2 {
+                        position[] = {5,0,0};
+                        rank = "CORPORAL";
                         side = 1;
                         vehicle = "CFP_B_USARMY_91_Marksman_Desert_01";
-                        rank = "CORPORAL";
-                        position[] = {5,0,0};
                     };
-                    class Unit3
-                    {
+                    class Unit3 {
+                        position[] = {7,0,0};
+                        rank = "PRIVATE";
                         side = 1;
                         vehicle = "CFP_B_USARMY_91_Medic_Desert_01";
-                        rank = "PRIVATE";
-                        position[] = {7,0,0};
                     };
                 };
+
                 class CFP_B_USARMY_1991_DES_HeavyATTeam {
                     name = "Heavy AT Team";
-                    faction = "CFP_B_USARMY_1991_DES";
                     side = 1;
-                    rarityGroup = 0.1;
+                    faction = "CFP_B_USARMY_1991_DES";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
-                    class Unit0
-                    {
-                        side = 1;
-                        vehicle = "CFP_B_USARMY_91_AT_Specialist_Dragon_Desert_01";
-                        rank = "SERGEANT";
+                    rarityGroup = 0.1;
+
+                    class Unit0 {
                         position[] = {0,5,0};
-                    };
-                    class Unit1
-                    {
+                        rank = "SERGEANT";
                         side = 1;
                         vehicle = "CFP_B_USARMY_91_AT_Specialist_Dragon_Desert_01";
-                        rank = "CORPORAL";
-                        position[] = {3,0,0};
                     };
-                    class Unit2
-                    {
+                    class Unit1 {
+                        position[] = {3,0,0};
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_AT_Specialist_Dragon_Desert_01";
+                    };
+                    class Unit2 {
+                        position[] = {5,0,0};
+                        rank = "CORPORAL";
                         side = 1;
                         vehicle = "CFP_B_USARMY_91_Asst_AT_Specialist_Dragon_Desert_01";
-                        rank = "CORPORAL";
-                        position[] = {5,0,0};
                     };
                 };
+
                 class CFP_B_USARMY_1991_DES_SniperTeam {
                     name = "Sniper Team";
-                    faction = "CFP_B_USARMY_1991_DES";
                     side = 1;
-                    rarityGroup = 0.05;
+                    faction = "CFP_B_USARMY_1991_DES";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
-                    class Unit0
-                    {
-                        side = 1;
-                        vehicle = "CFP_B_USARMY_91_Sniper_Desert_01";
-                        rank = "SERGEANT";
+                    rarityGroup = 0.05;
+
+                    class Unit0 {
                         position[] = {0,5,0};
-                    };
-                    class Unit1
-                    {
+                        rank = "SERGEANT";
                         side = 1;
                         vehicle = "CFP_B_USARMY_91_Sniper_Desert_01";
-                        rank = "SERGEANT";
-                        position[] = {3,0,0};
                     };
-                    class Unit2
-                    {
+                    class Unit1 {
+                        position[] = {3,0,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Sniper_Desert_01";
+                    };
+                    class Unit2 {
+                        position[] = {5,0,0};
+                        rank = "CORPORAL";
                         side = 1;
                         vehicle = "CFP_B_USARMY_91_Spotter_Desert_01";
-                        rank = "CORPORAL";
-                        position[] = {5,0,0};
                     };
                 };
 
@@ -352,6 +328,183 @@ class CfgGroups {
 
             class Motorized {
                 name = "Motorized Infantry";
+
+                class CFP_B_USARMY_1991_DES_motorized_infantry_squad_mtvr {
+                    name = "Motorized Infantry squad [MTVR]";
+                    side = 1;
+                    faction = "CFP_B_USARMY_1991_DES";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_MTVR_Desert_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Squad_Leader_Desert_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Team_Leader_Desert_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Grenadier_Desert_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Automatic_Rifleman_Desert_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Rifleman_AT_Desert_01";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Team_Leader_Desert_01";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Grenadier_Desert_01";
+                    };
+                    class Unit8 {
+                        position[] = {-20,-20,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Automatic_Rifleman_Desert_01";
+                    };
+                    class Unit9 {
+                        position[] = {25,-25,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Asst_Auto_Rifleman_Desert_01";
+                    };
+                };
+
+                class CFP_B_USARMY_1991_DES_motorized_fire_team_humvee_m2 {
+                    name = "Motorized Fire Team [Humvee M2]";
+                    side = 1;
+                    faction = "CFP_B_USARMY_1991_DES";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_HMMWV_M2_Desert_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Team_Leader_Desert_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Automatic_Rifleman_Desert_01";
+                    };
+                };
+
+                class CFP_B_USARMY_1991_DES_motorized_fire_team_humvee_mk19 {
+                    name = "Motorized Fire Team [Humvee Mk19]";
+                    side = 1;
+                    faction = "CFP_B_USARMY_1991_DES";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_HMMWV_MK19_Desert_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Team_Leader_Desert_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Automatic_Rifleman_Desert_01";
+                    };
+                };
+
+                class CFP_B_USARMY_1991_DES_motorized_at_team {
+                    name = "Motorized AT Team";
+                    side = 1;
+                    faction = "CFP_B_USARMY_1991_DES";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_HMMWV_TOW_Desert_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_AT_Specialist_Dragon_Desert_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Asst_AT_Specialist_Dragon_Desert_01";
+                    };
+                };
+
+                class CFP_B_USARMY_1991_DES_motorized_aa_team {
+                    name = "Motorized AA Team";
+                    side = 1;
+                    faction = "CFP_B_USARMY_1991_DES";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_HMMWV_M2_Desert_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_AA_Specialist_Desert_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_AA_Specialist_Desert_01";
+                    };
+                };
 
             };
 
@@ -368,15 +521,249 @@ class CfgGroups {
             class Mechanized {
                 name = "Mechanized Infantry";
 
+                class CFP_B_USARMY_1991_DES_mechanized_infantry_squad_m113 {
+                    name = "Mechanized Infantry Squad [M113]";
+                    side = 1;
+                    faction = "CFP_B_USARMY_1991_DES";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_M113A3_Desert_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Squad_Leader_Desert_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Team_Leader_Desert_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Grenadier_Desert_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Automatic_Rifleman_Desert_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Rifleman_AT_Desert_01";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Team_Leader_Desert_01";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Grenadier_Desert_01";
+                    };
+                    class Unit8 {
+                        position[] = {-20,-20,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Automatic_Rifleman_Desert_01";
+                    };
+                    class Unit9 {
+                        position[] = {25,-25,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Asst_Auto_Rifleman_Desert_01";
+                    };
+                };
+
+                class CFP_B_USARMY_1991_DES_mechanized_infantry_squad_m2a2_bradley {
+                    name = "Mechanized Infantry Squad [M2A2 Bradley]";
+                    side = 1;
+                    faction = "CFP_B_USARMY_1991_DES";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_M2A2_Bradley_IFV_Desert_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Squad_Leader_Desert_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Team_Leader_Desert_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Rifleman_AT_Desert_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Automatic_Rifleman_Desert_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Asst_Auto_Rifleman_Desert_01";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Rifleman_Desert_01";
+                    };
+                };
+
+                class CFP_B_USARMY_1991_DES_mechanized_infantry_squad_m2a3_bradley {
+                    name = "Mechanized Infantry Squad [M2A3 Bradley]";
+                    side = 1;
+                    faction = "CFP_B_USARMY_1991_DES";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_M2A3_ERA_Bradley_IFV_Desert_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Squad_Leader_Desert_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Team_Leader_Desert_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Rifleman_AT_Desert_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Automatic_Rifleman_Desert_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Asst_Auto_Rifleman_Desert_01";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Rifleman_Desert_01";
+                    };
+                };
+
             };
 
             class Armored {
                 name = "Armor";
 
+                class CFP_B_USARMY_1991_DES_armored_m1a1_section {
+                    name = "M1A1 Section";
+                    side = 1;
+                    faction = "CFP_B_USARMY_1991_DES";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_armor.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_M1A1_Abrams_Desert_01";
+                    };
+                    class Unit1 {
+                        position[] = {9,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_M1A1_Abrams_Desert_01";
+                    };
+                };
+
             };
 
             class Artillery {
                 name = "Artillery";
+
+                class CFP_B_USARMY_1991_DES_artillery_m270_section_he {
+                    name = "M270 Section [HE]";
+                    side = 1;
+                    faction = "CFP_B_USARMY_1991_DES";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_art.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_M270_MLRS_HE_Desert_01";
+                    };
+                    class Unit1 {
+                        position[] = {7,-11,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_M270_MLRS_HE_Desert_01";
+                    };
+                };
+
+                class CFP_B_USARMY_1991_DES_artillery_m270_section_dpicm {
+                    name = "M270 Section [DPICM]";
+                    side = 1;
+                    faction = "CFP_B_USARMY_1991_DES";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_art.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_M270_MLRS_DPICM_Desert_01";
+                    };
+                    class Unit1 {
+                        position[] = {7,-11,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_M270_MLRS_DPICM_Desert_01";
+                    };
+                };
 
             };
 

@@ -353,6 +353,183 @@ class CfgGroups {
             class Motorized {
                 name = "Motorized Infantry";
 
+                class CFP_B_USARMY_1991_WDL_motorized_infantry_squad_mtvr {
+                    name = "Motorized Infantry squad [MTVR]";
+                    side = 1;
+                    faction = "CFP_B_USARMY_1991_WDL";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_MTVR_Woodland_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Squad_Leader_Woodland_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Team_Leader_Woodland_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Grenadier_Woodland_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Automatic_Rifleman_Woodland_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Rifleman_AT_Woodland_01";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Team_Leader_Woodland_01";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Grenadier_Woodland_01";
+                    };
+                    class Unit8 {
+                        position[] = {-20,-20,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Automatic_Rifleman_Woodland_01";
+                    };
+                    class Unit9 {
+                        position[] = {25,-25,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Asst_Auto_Rifleman_Woodland_01";
+                    };
+                };
+
+                class CFP_B_USARMY_1991_WDL_motorized_fire_team_humvee_m2 {
+                    name = "Motorized Fire Team [Humvee M2]";
+                    side = 1;
+                    faction = "CFP_B_USARMY_1991_WDL";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_HMMWV_M2_Woodland_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Team_Leader_Woodland_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Automatic_Rifleman_Woodland_01";
+                    };
+                };
+
+                class CFP_B_USARMY_1991_WDL_motorized_fire_team_humvee_mk19 {
+                    name = "Motorized Fire Team [Humvee Mk19]";
+                    side = 1;
+                    faction = "CFP_B_USARMY_1991_WDL";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_HMMWV_MK19_Woodland_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Team_Leader_Woodland_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Automatic_Rifleman_Woodland_01";
+                    };
+                };
+
+                class CFP_B_USARMY_1991_WDL_motorized_at_team {
+                    name = "Motorized AT Team";
+                    side = 1;
+                    faction = "CFP_B_USARMY_1991_WDL";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_HMMWV_TOW_Woodland_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_AT_Specialist_Dragon_Woodland_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Asst_AT_Specialist_Dragon_Woodland_01";
+                    };
+                };
+
+                class CFP_B_USARMY_1991_WDL_motorized_aa_team {
+                    name = "Motorized AA Team";
+                    side = 1;
+                    faction = "CFP_B_USARMY_1991_WDL";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_HMMWV_M2_Woodland_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_AA_Specialist_Woodland_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_AA_Specialist_Woodland_01";
+                    };
+                };
+
             };
 
             class Motorized_MTP {
@@ -368,15 +545,249 @@ class CfgGroups {
             class Mechanized {
                 name = "Mechanized Infantry";
 
+                class CFP_B_USARMY_1991_WDL_mechanized_infantry_squad_m113 {
+                    name = "Mechanized Infantry Squad [M113]";
+                    side = 1;
+                    faction = "CFP_B_USARMY_1991_WDL";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_M113A3_Woodland_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Squad_Leader_Woodland_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Team_Leader_Woodland_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Grenadier_Woodland_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Automatic_Rifleman_Woodland_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Rifleman_AT_Woodland_01";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Team_Leader_Woodland_01";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Grenadier_Woodland_01";
+                    };
+                    class Unit8 {
+                        position[] = {-20,-20,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Automatic_Rifleman_Woodland_01";
+                    };
+                    class Unit9 {
+                        position[] = {25,-25,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Asst_Auto_Rifleman_Woodland_01";
+                    };
+                };
+
+                class CFP_B_USARMY_1991_WDL_mechanized_infantry_squad_m2a2_bradley {
+                    name = "Mechanized Infantry Squad [M2A2 Bradley]";
+                    side = 1;
+                    faction = "CFP_B_USARMY_1991_WDL";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_M2A2_Bradley_IFV_Woodland_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Squad_Leader_Woodland_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Team_Leader_Woodland_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Rifleman_AT_Woodland_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Automatic_Rifleman_Woodland_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Asst_Auto_Rifleman_Woodland_01";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Rifleman_Woodland_01";
+                    };
+                };
+
+                class CFP_B_USARMY_1991_WDL_mechanized_infantry_squad_m2a3_bradley {
+                    name = "Mechanized Infantry Squad [M2A3 Bradley]";
+                    side = 1;
+                    faction = "CFP_B_USARMY_1991_WDL";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_M2A3_ERA_Bradley_IFV_Woodland_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Squad_Leader_Woodland_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Team_Leader_Woodland_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Rifleman_AT_Woodland_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Automatic_Rifleman_Woodland_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Asst_Auto_Rifleman_Woodland_01";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_Rifleman_Woodland_01";
+                    };
+                };
+
             };
 
             class Armored {
                 name = "Armor";
 
+                class CFP_B_USARMY_1991_WDL_armored_m1a1_section {
+                    name = "M1A1 Section";
+                    side = 1;
+                    faction = "CFP_B_USARMY_1991_WDL";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_armor.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_M1A1_Abrams_Woodland_01";
+                    };
+                    class Unit1 {
+                        position[] = {9,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_M1A1_Abrams_Woodland_01";
+                    };
+                };
+
             };
 
             class Artillery {
                 name = "Artillery";
+
+                class CFP_B_USARMY_1991_WDL_artillery_m270_section_he {
+                    name = "M270 Section [HE]";
+                    side = 1;
+                    faction = "CFP_B_USARMY_1991_WDL";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_art.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_M270_MLRS_HE_Woodland_01";
+                    };
+                    class Unit1 {
+                        position[] = {7,-11,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_M270_MLRS_HE_Woodland_01";
+                    };
+                };
+
+                class CFP_B_USARMY_1991_WDL_artillery_m270_section_dpicm {
+                    name = "M270 Section [DPICM]";
+                    side = 1;
+                    faction = "CFP_B_USARMY_1991_WDL";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_art.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_M270_MLRS_DPICM_Woodland_01";
+                    };
+                    class Unit1 {
+                        position[] = {7,-11,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USARMY_91_M270_MLRS_DPICM_Woodland_01";
+                    };
+                };
 
             };
 
