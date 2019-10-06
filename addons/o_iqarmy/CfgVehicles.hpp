@@ -21,9 +21,324 @@ class CfgVehicles {
     class O_crew_F_OCimport_01 : O_crew_F { scope = 0; class EventHandlers; };
     class O_crew_F_OCimport_02 : O_crew_F_OCimport_01 { class EventHandlers; };
 
+    class O_helicrew_F;
+    class O_helicrew_F_OCimport_01 : O_helicrew_F { scope = 0; class EventHandlers; };
+    class O_helicrew_F_OCimport_02 : O_helicrew_F_OCimport_01 { class EventHandlers; };
+
+    class CUP_O_BRDM2_SLA;
+    class CUP_O_BRDM2_SLA_OCimport_01 : CUP_O_BRDM2_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_BRDM2_SLA_OCimport_02 : CUP_O_BRDM2_SLA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
+    class CUP_O_BTR60_SLA;
+    class CUP_O_BTR60_SLA_OCimport_01 : CUP_O_BTR60_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_BTR60_SLA_OCimport_02 : CUP_O_BTR60_SLA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+            class CommanderTurret;
+            class CargoTurret_01;
+            class CargoTurret_02;
+            class CargoTurret_03;
+            class CargoTurret_04;
+            class CargoTurret_05;
+            class CargoTurret_06;
+            class CargoGunner_1;
+            class CargoGunner_2;
+        };
+    };
+
+    class CUP_O_BMP2_SLA;
+    class CUP_O_BMP2_SLA_OCimport_01 : CUP_O_BMP2_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_BMP2_SLA_OCimport_02 : CUP_O_BMP2_SLA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+            class CargoTurret_01;
+            class CargoTurret_02;
+            class CargoTurret_03;
+            class CargoTurret_04;
+            class CargoTurret_05;
+            class CargoTurret_07;
+        };
+    };
+
+    class CUP_O_BMP1_TKA;
+    class CUP_O_BMP1_TKA_OCimport_01 : CUP_O_BMP1_TKA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_BMP1_TKA_OCimport_02 : CUP_O_BMP1_TKA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class CommanderOptics;
+            class MainTurret;
+            class CargoTurret_01;
+            class CargoTurret_02;
+            class CargoTurret_03;
+            class CargoTurret_04;
+            class CargoTurret_05;
+            class CargoTurret_06;
+            class CargoTurret_07;
+            class CargoTurret_08;
+        };
+    };
+
+    class CUP_O_MTLB_pk_SLA;
+    class CUP_O_MTLB_pk_SLA_OCimport_01 : CUP_O_MTLB_pk_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_MTLB_pk_SLA_OCimport_02 : CUP_O_MTLB_pk_SLA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
+    class CUP_O_ZSU23_SLA;
+    class CUP_O_ZSU23_SLA_OCimport_01 : CUP_O_ZSU23_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_ZSU23_SLA_OCimport_02 : CUP_O_ZSU23_SLA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
+    class CUP_O_T72_SLA;
+    class CUP_O_T72_SLA_OCimport_01 : CUP_O_T72_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_T72_SLA_OCimport_02 : CUP_O_T72_SLA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+            class CargoTurret_01;
+            class CargoTurret_02;
+            class CargoTurret_03;
+            class CargoTurret_04;
+            class CargoTurret_05;
+            class CargoTurret_06;
+        };
+    };
+
+    class CUP_O_T55_SLA;
+    class CUP_O_T55_SLA_OCimport_01 : CUP_O_T55_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_T55_SLA_OCimport_02 : CUP_O_T55_SLA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+            class CargoTurret_01;
+            class CargoTurret_02;
+            class CargoTurret_03;
+            class CargoTurret_04;
+            class CargoTurret_05;
+            class CargoTurret_06;
+        };
+    };
+
+    class CUP_O_Ural_SLA;
+    class CUP_O_Ural_SLA_OCimport_01 : CUP_O_Ural_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_Ural_SLA_OCimport_02 : CUP_O_Ural_SLA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class CargoTurret_01;
+            class CargoTurret_02;
+        };
+    };
+
+    class CUP_O_Ural_Open_SLA;
+    class CUP_O_Ural_Open_SLA_OCimport_01 : CUP_O_Ural_Open_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_Ural_Open_SLA_OCimport_02 : CUP_O_Ural_Open_SLA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class CargoTurret_01;
+            class CargoTurret_02;
+        };
+    };
+
+    class CUP_O_Ural_Refuel_SLA;
+    class CUP_O_Ural_Refuel_SLA_OCimport_01 : CUP_O_Ural_Refuel_SLA { scope = 0; class EventHandlers; };
+    class CUP_O_Ural_Refuel_SLA_OCimport_02 : CUP_O_Ural_Refuel_SLA_OCimport_01 { scope = 0; class EventHandlers; };
+
+    class CUP_O_Ural_Repair_SLA;
+    class CUP_O_Ural_Repair_SLA_OCimport_01 : CUP_O_Ural_Repair_SLA { scope = 0; class EventHandlers; };
+    class CUP_O_Ural_Repair_SLA_OCimport_02 : CUP_O_Ural_Repair_SLA_OCimport_01 { scope = 0; class EventHandlers; };
+
+    class CUP_O_Ural_Reammo_SLA;
+    class CUP_O_Ural_Reammo_SLA_OCimport_01 : CUP_O_Ural_Reammo_SLA { scope = 0; class EventHandlers; };
+    class CUP_O_Ural_Reammo_SLA_OCimport_02 : CUP_O_Ural_Reammo_SLA_OCimport_01 { scope = 0; class EventHandlers; };
+
+    class CUP_O_UAZ_Unarmed_SLA;
+    class CUP_O_UAZ_Unarmed_SLA_OCimport_01 : CUP_O_UAZ_Unarmed_SLA { scope = 0; class EventHandlers; };
+    class CUP_O_UAZ_Unarmed_SLA_OCimport_02 : CUP_O_UAZ_Unarmed_SLA_OCimport_01 { scope = 0; class EventHandlers; };
+
+    class CUP_O_UAZ_Open_SLA;
+    class CUP_O_UAZ_Open_SLA_OCimport_01 : CUP_O_UAZ_Open_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_UAZ_Open_SLA_OCimport_02 : CUP_O_UAZ_Open_SLA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class CargoTurret_01;
+            class CargoTurret_02;
+            class CargoTurret_03;
+            class CargoTurret_04;
+            class CargoTurret_05;
+        };
+    };
+
+    class CUP_O_UAZ_MG_SLA;
+    class CUP_O_UAZ_MG_SLA_OCimport_01 : CUP_O_UAZ_MG_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_UAZ_MG_SLA_OCimport_02 : CUP_O_UAZ_MG_SLA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class CargoTurret_01;
+            class MainTurret;
+        };
+    };
+
+    class CUP_O_UAZ_AGS30_SLA;
+    class CUP_O_UAZ_AGS30_SLA_OCimport_01 : CUP_O_UAZ_AGS30_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_UAZ_AGS30_SLA_OCimport_02 : CUP_O_UAZ_AGS30_SLA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class CargoTurret_01;
+            class MainTurret;
+        };
+    };
+
+    class CUP_O_UAZ_SPG9_SLA;
+    class CUP_O_UAZ_SPG9_SLA_OCimport_01 : CUP_O_UAZ_SPG9_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_UAZ_SPG9_SLA_OCimport_02 : CUP_O_UAZ_SPG9_SLA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class CargoTurret_01;
+            class MainTurret;
+        };
+    };
+
+    class CUP_O_UAZ_METIS_SLA;
+    class CUP_O_UAZ_METIS_SLA_OCimport_01 : CUP_O_UAZ_METIS_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_UAZ_METIS_SLA_OCimport_02 : CUP_O_UAZ_METIS_SLA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class CargoTurret_01;
+            class MainTurret;
+        };
+    };
+
+    class CUP_O_Mi24_D_Dynamic_SLA;
+    class CUP_O_Mi24_D_Dynamic_SLA_OCimport_01 : CUP_O_Mi24_D_Dynamic_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_Mi24_D_Dynamic_SLA_OCimport_02 : CUP_O_Mi24_D_Dynamic_SLA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
+    class CUP_O_Mi8_SLA_1;
+    class CUP_O_Mi8_SLA_1_OCimport_01 : CUP_O_Mi8_SLA_1 { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_Mi8_SLA_1_OCimport_02 : CUP_O_Mi8_SLA_1_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+            class BackTurret;
+            class CopilotTurret;
+        };
+    };
+
+    class CUP_O_Su25_Dyn_SLA;
+    class CUP_O_Su25_Dyn_SLA_OCimport_01 : CUP_O_Su25_Dyn_SLA { scope = 0; class EventHandlers; };
+    class CUP_O_Su25_Dyn_SLA_OCimport_02 : CUP_O_Su25_Dyn_SLA_OCimport_01 { scope = 0; class EventHandlers; };
+
+    class CUP_O_Ural_ZU23_SLA;
+    class CUP_O_Ural_ZU23_SLA_OCimport_01 : CUP_O_Ural_ZU23_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_Ural_ZU23_SLA_OCimport_02 : CUP_O_Ural_ZU23_SLA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
+    class CUP_O_BM21_SLA;
+    class CUP_O_BM21_SLA_OCimport_01 : CUP_O_BM21_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_BM21_SLA_OCimport_02 : CUP_O_BM21_SLA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
+    class CUP_O_DSHKM_SLA;
+    class CUP_O_DSHKM_SLA_OCimport_01 : CUP_O_DSHKM_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_DSHKM_SLA_OCimport_02 : CUP_O_DSHKM_SLA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
+    class CUP_O_DSHKM_MiniTripod_SLA;
+    class CUP_O_DSHKM_MiniTripod_SLA_OCimport_01 : CUP_O_DSHKM_MiniTripod_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_DSHKM_MiniTripod_SLA_OCimport_02 : CUP_O_DSHKM_MiniTripod_SLA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
+    class CUP_O_AGS_SLA;
+    class CUP_O_AGS_SLA_OCimport_01 : CUP_O_AGS_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_AGS_SLA_OCimport_02 : CUP_O_AGS_SLA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
+    class CUP_O_SPG9_SLA;
+    class CUP_O_SPG9_SLA_OCimport_01 : CUP_O_SPG9_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_SPG9_SLA_OCimport_02 : CUP_O_SPG9_SLA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
+    class CUP_O_2b14_82mm_SLA;
+    class CUP_O_2b14_82mm_SLA_OCimport_01 : CUP_O_2b14_82mm_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_2b14_82mm_SLA_OCimport_02 : CUP_O_2b14_82mm_SLA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
+    class CUP_O_D30_SLA;
+    class CUP_O_D30_SLA_OCimport_01 : CUP_O_D30_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_D30_SLA_OCimport_02 : CUP_O_D30_SLA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
+    class CUP_O_ZU23_SLA;
+    class CUP_O_ZU23_SLA_OCimport_01 : CUP_O_ZU23_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_ZU23_SLA_OCimport_02 : CUP_O_ZU23_SLA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
+    class CUP_O_Igla_AA_pod_SLA;
+    class CUP_O_Igla_AA_pod_SLA_OCimport_01 : CUP_O_Igla_AA_pod_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_Igla_AA_pod_SLA_OCimport_02 : CUP_O_Igla_AA_pod_SLA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
 
     class CFP_O_IQARMY_Rifleman_01 : O_Soldier_F_OCimport_02 {
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman";
@@ -61,7 +376,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_Squad_Leader_01 : CFP_O_IQARMY_Rifleman_01 {
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Squad Leader";
@@ -99,7 +414,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_Grenadier_01 : CFP_O_IQARMY_Rifleman_01 {
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Grenadier";
@@ -139,7 +454,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_Machine_Gunner_01 : CFP_O_IQARMY_Rifleman_01 {
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Machine Gunner";
@@ -179,7 +494,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_Auto_Rifleman_01 : CFP_O_IQARMY_Rifleman_01 {
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Auto Rifleman";
@@ -217,7 +532,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_Asst_Machine_Gunner_01 : CFP_O_IQARMY_Rifleman_01 {
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Asst. Machine Gunner";
@@ -257,7 +572,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_Sniper_01 : CFP_O_IQARMY_Rifleman_01 {
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Sniper";
@@ -295,7 +610,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_Rifleman_AT_01 : CFP_O_IQARMY_Rifleman_01 {
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman AT";
@@ -335,7 +650,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_AA_Specialist_01 : CFP_O_IQARMY_Rifleman_01 {
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "AA Specialist";
@@ -375,7 +690,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_Medic_01 : CFP_O_IQARMY_Rifleman_01 {
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Medic";
@@ -415,7 +730,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_Explosive_Specialist_01 : CFP_O_IQARMY_Rifleman_01 {
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Explosive Specialist";
@@ -455,7 +770,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_RG_Rifleman_01 : O_Soldier_F_OCimport_02 {
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "RG Rifleman";
@@ -493,7 +808,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_RG_Team_Leader_01 : CFP_O_IQARMY_RG_Rifleman_01 {
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "RG Team Leader";
@@ -531,7 +846,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_RG_Grenadier_01 : CFP_O_IQARMY_RG_Rifleman_01 {
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "RG Grenadier";
@@ -571,7 +886,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_RG_Machine_Gunner_01 : CFP_O_IQARMY_RG_Rifleman_01 {
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "RG Machine Gunner";
@@ -611,7 +926,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_RG_Auto_Rifleman_01 : CFP_O_IQARMY_RG_Rifleman_01 {
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "RG Auto Rifleman";
@@ -649,7 +964,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_RG_Asst_Machine_Gunner_01 : CFP_O_IQARMY_RG_Rifleman_01 {
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "RG Asst. Machine Gunner";
@@ -689,7 +1004,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_RG_Sniper_01 : CFP_O_IQARMY_RG_Rifleman_01 {
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "RG Sniper";
@@ -727,7 +1042,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_RG_Rifleman_AT_01 : CFP_O_IQARMY_RG_Rifleman_01 {
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "RG Rifleman AT";
@@ -767,7 +1082,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_RG_AA_Specialist_01 : CFP_O_IQARMY_RG_Rifleman_01 {
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "RG AA Specialist";
@@ -807,7 +1122,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_RG_Medic_01 : CFP_O_IQARMY_RG_Rifleman_01 {
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "RG Medic";
@@ -847,7 +1162,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_RG_Explosive_Specialist_01 : CFP_O_IQARMY_RG_Rifleman_01 {
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "RG Explosive Specialist";
@@ -887,7 +1202,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_Officer_01 : O_officer_F_OCimport_02 {
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Officer";
@@ -925,7 +1240,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_Crewman_01 : O_crew_F_OCimport_02 {
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Crewman";
@@ -946,6 +1261,1057 @@ class CfgVehicles {
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","16Rnd_9x21_Mag","CUP_30Rnd_545x39_AK74_plum_M","16Rnd_9x21_Mag"};
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS74U","","","",{"CUP_30Rnd_545x39_AK74_plum_M",30},{},""},{},{"hgun_Rook40_F","","","",{"16Rnd_9x21_Mag",16},{},""},{"CUP_U_O_SLA_Overalls_Tank",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK74_plum_M",2,30}}},{},{},"SP_TSH04Helmet_Black","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_IQARMY_Helicopter_Pilot_01 : O_helicrew_F_OCimport_02 {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Helicopter Pilot";
+        side = 0;
+        faction = "CFP_O_IQARMY";
+
+        identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
+
+        uniformClass = "SP_0000_Standard_Coverall_Brown";
+
+        linkedItems[] = {"H_PilotHelmetHeli_O","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"H_PilotHelmetHeli_O","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_AKS74U"};
+        respawnWeapons[] = {"CUP_arifle_AKS74U"};
+
+        magazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M"};
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS74U","","","",{"CUP_30Rnd_545x39_AK74_plum_M",30},{},""},{},{},{"SP_0000_Standard_Coverall_Brown",{{"FirstAidKit",1},{"SmokeShellRed",1,1},{"SmokeShellOrange",1,1},{"SmokeShellYellow",1,1},{"CUP_30Rnd_545x39_AK74_plum_M",3,30}}},{},{},"H_PilotHelmetHeli_O","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_IQARMY_BRDM_2_01 : CUP_O_BRDM2_SLA_OCimport_02 {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "BRDM-2";
+        side = 0;
+        faction = "CFP_O_IQARMY";
+        crew = "CFP_O_IQARMY_Crewman_01";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\BRDM\brdm2_01_des_co.paa","\CUP\WheeledVehicles\CUP_WheeledVehicles_BRDM2\data\textures\acr_des_brdm2_02_co.paa"};
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "CFP_O_IQARMY_Crewman_01"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_IQARMY_BTR_60PB_01 : CUP_O_BTR60_SLA_OCimport_02 {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "BTR-60PB";
+        side = 0;
+        faction = "CFP_O_IQARMY";
+        crew = "CFP_O_IQARMY_Crewman_01";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\BTR60\desertbody1.paa","\x\cfp\addons\vehicles\BTR60\desertbody2.paa"};
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "CFP_O_IQARMY_Crewman_01"; };
+            class CommanderTurret : CommanderTurret { gunnerType = "CFP_O_IQARMY_Crewman_01"; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
+            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
+            class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
+            class CargoTurret_06 : CargoTurret_06 { gunnerType = ""; };
+            class CargoGunner_1 : CargoGunner_1 { gunnerType = ""; };
+            class CargoGunner_2 : CargoGunner_2 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_IQARMY_BMP_2_01 : CUP_O_BMP2_SLA_OCimport_02 {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "BMP-2";
+        side = 0;
+        faction = "CFP_O_IQARMY";
+        crew = "CFP_O_IQARMY_Crewman_01";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\bmp2\bmp2_desert_hull_base.paa","cup\TrackedVehicles\CUP_TrackedVehicles_BMP\bmp2\data\bmp2_02_acr_des_co.paa"};
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "CFP_O_IQARMY_Crewman_01"; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
+            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
+            class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
+            class CargoTurret_07 : CargoTurret_07 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_IQARMY_BMP_1_01 : CUP_O_BMP1_TKA_OCimport_02 {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "BMP-1";
+        side = 0;
+        faction = "CFP_O_IQARMY";
+        crew = "CFP_O_IQARMY_Crewman_01";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\bmp\bmp_tan_hull.paa","\x\cfp\addons\vehicles\bmp\bmp_tan_trt.paa"};
+
+        class Turrets : Turrets {
+            class CommanderOptics : CommanderOptics { gunnerType = "CFP_O_IQARMY_Crewman_01"; };
+            class MainTurret : MainTurret { gunnerType = "CFP_O_IQARMY_Crewman_01"; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
+            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
+            class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
+            class CargoTurret_06 : CargoTurret_06 { gunnerType = ""; };
+            class CargoTurret_07 : CargoTurret_07 { gunnerType = ""; };
+            class CargoTurret_08 : CargoTurret_08 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_IQARMY_MT_LB_01 : CUP_O_MTLB_pk_SLA_OCimport_02 {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "MT-LB";
+        side = 0;
+        faction = "CFP_O_IQARMY";
+        crew = "CFP_O_IQARMY_Crewman_01";
+        hiddenSelectionsTextures[] = {"\CUP\TrackedVehicles\CUP_TrackedVehicles_MTLB\data\Body_1_co.paa","\CUP\TrackedVehicles\CUP_TrackedVehicles_MTLB\data\pk_mod_co.paa"};
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "CFP_O_IQARMY_Crewman_01"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_IQARMY_ZSU_23_4_01 : CUP_O_ZSU23_SLA_OCimport_02 {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "ZSU-23-4";
+        side = 0;
+        faction = "CFP_O_IQARMY";
+        crew = "CFP_O_IQARMY_Crewman_01";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\zsu\ZSU_Tan_3_1.paa","\x\cfp\addons\vehicles\zsu\ZSU_Tan_3_2.paa","CUP\TrackedVehicles\CUP_TrackedVehicles_ZSU23\Data\zsu_03_co.paa"};
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "CFP_O_IQARMY_Crewman_01"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_IQARMY_T72_01 : CUP_O_T72_SLA_OCimport_02 {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "T-72";
+        side = 0;
+        faction = "CFP_O_IQARMY";
+        crew = "CFP_O_IQARMY_Crewman_01";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\t72\t72_tan_1.paa","\x\cfp\addons\vehicles\t72\t72_tan_2.paa","\x\cfp\addons\vehicles\t72\t72_tan_3.paa"};
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "CFP_O_IQARMY_Crewman_01"; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
+            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
+            class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
+            class CargoTurret_06 : CargoTurret_06 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_IQARMY_T55_01 : CUP_O_T55_SLA_OCimport_02 {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "T-55";
+        side = 0;
+        faction = "CFP_O_IQARMY";
+        crew = "CFP_O_IQARMY_Crewman_01";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\t55\t55_body_desert.paa","\x\cfp\addons\vehicles\t55\t55_tower_desert.paa"};
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = ""; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
+            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
+            class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
+            class CargoTurret_06 : CargoTurret_06 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_IQARMY_Ural_01 : CUP_O_Ural_SLA_OCimport_02 {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Ural";
+        side = 0;
+        faction = "CFP_O_IQARMY";
+        crew = "CFP_O_IQARMY_Rifleman_01";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_des.paa","\x\cfp\addons\vehicles\Ural\ural_plachta_iran.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\WHL_TyreSize3.paa"};
+
+        class Turrets : Turrets {
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_IQARMY_Ural_Open_01 : CUP_O_Ural_Open_SLA_OCimport_02 {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Ural [Open]";
+        side = 0;
+        faction = "CFP_O_IQARMY";
+        crew = "CFP_O_IQARMY_Rifleman_01";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_des.paa","\x\cfp\addons\vehicles\Ural\ural_open_iran.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\WHL_TyreSize3.paa"};
+
+        class Turrets : Turrets {
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_IQARMY_Ural_Refuel_01 : CUP_O_Ural_Refuel_SLA_OCimport_02 {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Ural [Refuel]";
+        side = 0;
+        faction = "CFP_O_IQARMY";
+        crew = "CFP_O_IQARMY_Rifleman_01";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_des.paa","\x\cfp\addons\vehicles\Ural\ural_open_iran.paa","\x\cfp\addons\vehicles\Ural\ural_fuel_iran.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\WHL_TyreSize3.paa"};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_IQARMY_Ural_Repair_01 : CUP_O_Ural_Repair_SLA_OCimport_02 {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Ural [Repair]";
+        side = 0;
+        faction = "CFP_O_IQARMY";
+        crew = "CFP_O_IQARMY_Rifleman_01";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_des.paa","\x\cfp\addons\vehicles\Ural\ural_plachta_iran.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\WHL_TyreSize3.paa"};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_IQARMY_Ural_Ammo_01 : CUP_O_Ural_Reammo_SLA_OCimport_02 {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Ural [Ammo]";
+        side = 0;
+        faction = "CFP_O_IQARMY";
+        crew = "CFP_O_IQARMY_Rifleman_01";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_des.paa","\x\cfp\addons\vehicles\Ural\ural_plachta_iran.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\WHL_TyreSize3.paa"};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_IQARMY_UAZ_01 : CUP_O_UAZ_Unarmed_SLA_OCimport_02 {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "UAZ";
+        side = 0;
+        faction = "CFP_O_IQARMY";
+        crew = "CFP_O_IQARMY_Rifleman_01";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\UAZ\uaz_main_iraq_co.paa", "CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\data\uaz_other_co.paa"};
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_IQARMY_UAZ_Open_01 : CUP_O_UAZ_Open_SLA_OCimport_02 {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "UAZ [Open]";
+        side = 0;
+        faction = "CFP_O_IQARMY";
+        crew = "CFP_O_IQARMY_Rifleman_01";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\UAZ\uaz_main_iraq_co.paa", "CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\data\uaz_mount_001_co.paa"};
+
+        class Turrets : Turrets {
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
+            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
+            class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_IQARMY_UAZ_DShKM_01 : CUP_O_UAZ_MG_SLA_OCimport_02 {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "UAZ [DShKM]";
+        side = 0;
+        faction = "CFP_O_IQARMY";
+        crew = "CFP_O_IQARMY_Rifleman_01";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\UAZ\uaz_main_iraq_co.paa", "CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\data\uaz_mount_001_co.paa"};
+
+        class Turrets : Turrets {
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "CFP_O_IQARMY_Rifleman_01"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_IQARMY_UAZ_AGS_30_01 : CUP_O_UAZ_AGS30_SLA_OCimport_02 {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "UAZ [AGS-30]";
+        side = 0;
+        faction = "CFP_O_IQARMY";
+        crew = "CFP_O_IQARMY_Rifleman_01";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\UAZ\uaz_main_iraq_co.paa", "CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\data\uaz_mount_001_co.paa"};
+
+        class Turrets : Turrets {
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "CFP_O_IQARMY_Rifleman_01"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_IQARMY_UAZ_SPG_01 : CUP_O_UAZ_SPG9_SLA_OCimport_02 {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "UAZ [SPG-9]";
+        side = 0;
+        faction = "CFP_O_IQARMY";
+        crew = "CFP_O_IQARMY_Rifleman_01";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\UAZ\uaz_main_iraq_co.paa", "CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\data\uaz_mount_001_co.paa"};
+
+        class Turrets : Turrets {
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "CFP_O_IQARMY_Rifleman_01"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_IQARMY_UAZ_Metis_01 : CUP_O_UAZ_METIS_SLA_OCimport_02 {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "UAZ [Metis-M]";
+        side = 0;
+        faction = "CFP_O_IQARMY";
+        crew = "CFP_O_IQARMY_Rifleman_01";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\UAZ\uaz_main_iraq_co.paa", "CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\data\uaz_mount_001_co.paa"};
+
+        class Turrets : Turrets {
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class MainTurret : MainTurret { gunnerType = "CFP_O_IQARMY_Rifleman_01"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_IQARMY_Mi_24D_01 : CUP_O_Mi24_D_Dynamic_SLA_OCimport_02 {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Mi-24D";
+        side = 0;
+        faction = "CFP_O_IQARMY";
+        crew = "CFP_O_IQARMY_Helicopter_Pilot_01";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Mi24\mi24p_saddam_01_co.paa","\x\cfp\addons\vehicles\Mi24\mi24p_saddam_02_co.paa"};
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "CFP_O_IQARMY_Helicopter_Pilot_01"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_IQARMY_Mi_8MT_01 : CUP_O_Mi8_SLA_1_OCimport_02 {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Mi-8MT";
+        side = 0;
+        faction = "CFP_O_IQARMY";
+        crew = "CFP_O_IQARMY_Helicopter_Pilot_01";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Mi8\mi8_body_saddam_co.paa","\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\mi17_det_IND_CO.paa"};
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "CFP_O_IQARMY_Helicopter_Pilot_01"; };
+            class BackTurret : BackTurret { gunnerType = "CFP_O_IQARMY_Helicopter_Pilot_01"; };
+            class CopilotTurret : CopilotTurret { gunnerType = "CFP_O_IQARMY_Helicopter_Pilot_01"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_IQARMY_Su_25_Frogfoot_01 : CUP_O_Su25_Dyn_SLA_OCimport_02 {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Su-25 Frogfoot";
+        side = 0;
+        faction = "CFP_O_IQARMY";
+        crew = "CFP_O_IQARMY_Pilot_01";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\SU25\su25_body1_saddam_co.paa","\x\cfp\addons\vehicles\SU25\su25_body2_saddam_co.paa"};
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_IQARMY_Ural_ZU_23_01 : CUP_O_Ural_ZU23_SLA_OCimport_02 {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Ural [ZU-23]";
+        side = 0;
+        faction = "CFP_O_IQARMY";
+        crew = "CFP_O_IQARMY_Rifleman_01";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_des.paa","\x\cfp\addons\vehicles\Ural\ural_open_iran.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\WHL_TyreSize3.paa"};
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "CFP_O_IQARMY_Rifleman_01"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_IQARMY_BM_21_01 : CUP_O_BM21_SLA_OCimport_02 {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "BM-21";
+        side = 0;
+        faction = "CFP_O_IQARMY";
+        crew = "CFP_O_IQARMY_Rifleman_01";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "CFP_O_IQARMY_Rifleman_01"; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_IQARMY_DShKM_01 : CUP_O_DSHKM_SLA_OCimport_02 {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "DShKM";
+        side = 0;
+        faction = "CFP_O_IQARMY";
+        crew = "CFP_O_IQARMY_Rifleman_01";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_IQARMY_DShKM_Minitripod_01 : CUP_O_DSHKM_MiniTripod_SLA_OCimport_02 {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "DShKM Minitripod";
+        side = 0;
+        faction = "CFP_O_IQARMY";
+        crew = "CFP_O_IQARMY_Rifleman_01";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_IQARMY_AGS_30_01 : CUP_O_AGS_SLA_OCimport_02 {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "AGS-30";
+        side = 0;
+        faction = "CFP_O_IQARMY";
+        crew = "CFP_O_IQARMY_Rifleman_01";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_IQARMY_SPG_9_01 : CUP_O_SPG9_SLA_OCimport_02 {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "SPG-9";
+        side = 0;
+        faction = "CFP_O_IQARMY";
+        crew = "CFP_O_IQARMY_Rifleman_01";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_IQARMY_Podnos_2B14_01 : CUP_O_2b14_82mm_SLA_OCimport_02 {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Podnos 2B14";
+        side = 0;
+        faction = "CFP_O_IQARMY";
+        crew = "CFP_O_IQARMY_Rifleman_01";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_IQARMY_D30_01 : CUP_O_D30_SLA_OCimport_02 {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "D-30";
+        side = 0;
+        faction = "CFP_O_IQARMY";
+        crew = "CFP_O_IQARMY_Rifleman_01";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_IQARMY_ZU_23_01 : CUP_O_ZU23_SLA_OCimport_02 {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "ZU-23";
+        side = 0;
+        faction = "CFP_O_IQARMY";
+        crew = "CFP_O_IQARMY_Rifleman_01";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_IQARMY_Igla_AA_Pod_01 : CUP_O_Igla_AA_pod_SLA_OCimport_02 {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Igla AA Pod";
+        side = 0;
+        faction = "CFP_O_IQARMY";
+        crew = "CFP_O_IQARMY_Rifleman_01";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_IQARMY_Pilot_01 : CFP_O_IQARMY_Helicopter_Pilot_01 {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Pilot";
+        side = 0;
+        faction = "CFP_O_IQARMY";
+
+        identityTypes[] = {"Head_TK","LanguagePER_F","G_IRAN_default"};
+
+        uniformClass = "SP_0000_Standard_Coverall_Brown";
+
+        linkedItems[] = {"H_PilotHelmetHeli_O","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"H_PilotHelmetHeli_O","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_AKS74U"};
+        respawnWeapons[] = {"CUP_arifle_AKS74U"};
+
+        magazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK74_plum_M","CUP_30Rnd_545x39_AK74_plum_M"};
+
+        backpack = "CUP_T10_Parachute_backpack";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS74U","","","",{"CUP_30Rnd_545x39_AK74_plum_M",30},{},""},{},{},{"SP_0000_Standard_Coverall_Brown",{{"FirstAidKit",1},{"SmokeShellRed",1,1},{"SmokeShellOrange",1,1},{"SmokeShellYellow",1,1},{"CUP_30Rnd_545x39_AK74_plum_M",3,30}}},{},{"CUP_T10_Parachute_backpack",{}},"H_PilotHelmetHeli_O","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
