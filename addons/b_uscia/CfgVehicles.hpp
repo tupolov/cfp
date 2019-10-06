@@ -30,31 +30,31 @@ class CfgVehicles {
 
         // Civilian clothes
 		uniformList[] = {
-			"CUP_I_B_PMC_Unit_1", 0.2,
-            "CUP_I_B_PMC_Unit_2", 0.2,
-            "CUP_I_B_PMC_Unit_3", 0.2,
-            "CUP_I_B_PMC_Unit_4", 0.2,
-            "CUP_I_B_PMC_Unit_5", 0.2,
-            "CUP_I_B_PMC_Unit_6", 0.2,
-            "CUP_I_B_PMC_Unit_7", 0.2,
-            "CUP_I_B_PMC_Unit_8", 0.2,
-            "CUP_I_B_PMC_Unit_9", 0.2,
-            "CUP_I_B_PMC_Unit_10", 0.2,
-            "CUP_I_B_PMC_Unit_11", 0.2,
-            "CUP_I_B_PMC_Unit_12", 0.2,
-            "CUP_I_B_PMC_Unit_13", 0.2,
-            "CUP_I_B_PMC_Unit_14", 0.2,
-            "CUP_I_B_PMC_Unit_15", 0.2,
-            "CUP_I_B_PMC_Unit_16", 0.2,
-            "CUP_I_B_PMC_Unit_17", 0.2,
-            "CUP_I_B_PMC_Unit_19", 0.2,
-            "CUP_I_B_PMC_Unit_20", 0.2,
-            "CUP_I_B_PMC_Unit_21", 0.2,
-            "CUP_I_B_PMC_Unit_22", 0.2,
-            "CUP_I_B_PMC_Unit_23", 0.2,
-            "CUP_I_B_PMC_Unit_24", 0.2,
-            "CFP_GUER_GreenTan", 0.2,
-            "CFP_GUER_ERDLpants", 0.2,
+			"CUP_I_B_PMC_Unit_37", 0.2,
+            "CUP_I_B_PMC_Unit_38", 0.2,
+            "CUP_I_B_PMC_Unit_39", 0.2,
+            "CUP_I_B_PMC_Unit_40", 0.2,
+            "CUP_I_B_PMC_Unit_41", 0.2,
+            "CUP_I_B_PMC_Unit_42", 0.2,
+            "CUP_I_B_PMC_Unit_43", 0.2,
+            "CUP_I_B_Para_Unit_1", 0.2,
+            "CUP_I_B_Para_Unit_2", 0.2,
+            "CUP_I_B_Para_Unit_3", 0.2,
+            "CUP_I_B_Para_Unit_4", 0.2,
+            "CUP_I_B_Para_Unit_5", 0.2,
+            "CUP_I_B_Para_Unit_6", 0.2,
+            "CUP_I_B_Para_Unit_7", 0.2,
+            "CUP_I_B_Para_Unit_8", 0.2,
+            "CUP_I_B_Para_Unit_9", 0.2,
+            "CUP_I_B_Para_Unit_10", 0.2,
+            "CFP_RAID_M81_DCU_3", 0.2,
+            "CFP_RAID_M81_DCU_2", 0.2,
+            "CFP_RAID_M81_DCU_1", 0.2,
+            "CFP_RAID_M81_DCU_4", 0.2,
+            "CFP_RAID_DCU_M81_3", 0.2,
+            "CFP_RAID_DCU_M81_2", 0.2,
+            "CFP_RAID_DCU_M81_1", 0.2,
+            "CFP_RAID_DCU_M81_4", 0.2,
             "CFP_GUER_3CDespants", 0.2,
             "CFP_GUER_ChocChippants", 0.2,
             "CFP_GUER_MCampants", 0.2,
@@ -68,22 +68,22 @@ class CfgVehicles {
 
 		// Basic Rigs
 		vestList[] = {
-			"CFP_HV5_Ciras_Olive", 0.4,
-            "CFP_LBT1961_CB", 0.2,
-            "CFP_LBT1961_GRN", 0.2,
-            "CFP_LBT1961_OGA_OD", 0.2,
-            "CFP_MBSS_Green", 0.2,
-            "CFP_MBSS_BLK", 0.2,
-            "CFP_MBSS_TAN", 0.2,
-            "CFP_MBSS_CB", 0.2,
-            "CFP_MBSS_PACA_operator", 0.2,
-            "CFP_MBSS_PACA", 0.2,
-            "CFP_MBSS_PACA_BLK", 0.2,
-            "CFP_MBSS_PACA_TAN", 0.2,
-            "CFP_MBSS_PACA_CB", 0.2,
-            "CFP_RAV_OGA", 0.4,
-            "CFP_RAV_Green", 0.4,
-            "CFP_RAV_Black", 0.4
+			"CUP_V_B_Ciras_Olive4", 0.4,
+            "CUP_V_B_LBT_LBV_Coyote", 0.2,
+            "CUP_V_B_LBT_LBV_GRN", 0.2,
+            "CUP_V_B_LBT_LBV_OD", 0.2,
+            "CUP_V_MBSS_PACA_Black", 0.2,
+            "CUP_V_MBSS_PACA2_Black", 0.2,
+            "CUP_V_MBSS_PACA2_Tan", 0.2,
+            "CUP_V_MBSS_PACA2_CB", 0.2,
+            "CUP_V_MBSS_PACA_RGR", 0.2,
+            "CUP_V_MBSS_PACA_Tan", 0.2,
+            "CUP_V_B_Ciras_Mcam4", 0.2,
+            "CUP_V_B_Ciras_Khaki4", 0.2,
+            "CUP_V_B_Ciras_Black4", 0.2,
+            "CUP_V_B_LBT_LBV_Mcam", 0.4,
+            "CUP_V_B_Armatus_MCam", 0.4,
+            "CUP_V_B_Armatus_Black", 0.4
 		};
 
 		// Beards / mouth scarf / scarf / sunglasses
@@ -216,12 +216,12 @@ class CfgVehicles {
         backpack = "CUP_B_USPack_Coyote_Specops";
         weapons[] = {"CUP_arifle_M4A3_black","CUP_hgun_Glock17","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_M4A3_black","CUP_hgun_Glock17","Throw","Put"};
-        linkedItems[] = {"CFP_LBT1961_GRN","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"CFP_LBT1961_GRN","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"CUP_V_B_LBT_LBV_GRN","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CUP_V_B_LBT_LBV_GRN","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A3_black","","CUP_acc_Flashlight","CUP_optic_Eotech553_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CUP_I_B_PMC_Unit_7",{{"CUP_17Rnd_9x19_glock17",1,17},{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_LBT1961_GRN",{{"FirstAidKit",1},{"HandGrenade",4,1},{"CUP_30Rnd_556x45_Stanag",2,30}}},{"CUP_B_USPack_Coyote_Specops",{}},"","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A3_black","","CUP_acc_Flashlight","CUP_optic_Eotech553_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CUP_I_B_PMC_Unit_43",{{"CUP_17Rnd_9x19_glock17",1,17},{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CUP_V_B_LBT_LBV_GRN",{{"FirstAidKit",1},{"HandGrenade",4,1},{"CUP_30Rnd_556x45_Stanag",2,30}}},{"CUP_B_USPack_Coyote_Specops",{}},"","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -252,31 +252,31 @@ class CfgVehicles {
 
         // Civilian clothes
         uniformList[] = {
-            "CUP_I_B_PMC_Unit_1", 0.2,
-            "CUP_I_B_PMC_Unit_2", 0.2,
-            "CUP_I_B_PMC_Unit_3", 0.2,
-            "CUP_I_B_PMC_Unit_4", 0.2,
-            "CUP_I_B_PMC_Unit_5", 0.2,
-            "CUP_I_B_PMC_Unit_6", 0.2,
-            "CUP_I_B_PMC_Unit_7", 0.2,
-            "CUP_I_B_PMC_Unit_8", 0.2,
-            "CUP_I_B_PMC_Unit_9", 0.2,
-            "CUP_I_B_PMC_Unit_10", 0.2,
-            "CUP_I_B_PMC_Unit_11", 0.2,
-            "CUP_I_B_PMC_Unit_12", 0.2,
-            "CUP_I_B_PMC_Unit_13", 0.2,
-            "CUP_I_B_PMC_Unit_14", 0.2,
-            "CUP_I_B_PMC_Unit_15", 0.2,
-            "CUP_I_B_PMC_Unit_16", 0.2,
-            "CUP_I_B_PMC_Unit_17", 0.2,
-            "CUP_I_B_PMC_Unit_19", 0.2,
-            "CUP_I_B_PMC_Unit_20", 0.2,
-            "CUP_I_B_PMC_Unit_21", 0.2,
-            "CUP_I_B_PMC_Unit_22", 0.2,
-            "CUP_I_B_PMC_Unit_23", 0.2,
-            "CUP_I_B_PMC_Unit_24", 0.2,
-            "CFP_GUER_GreenTan", 0.3,
-            "CFP_GUER_ERDLpants", 0.3,
+            "CUP_I_B_PMC_Unit_37", 0.2,
+            "CUP_I_B_PMC_Unit_38", 0.2,
+            "CUP_I_B_PMC_Unit_39", 0.2,
+            "CUP_I_B_PMC_Unit_40", 0.2,
+            "CUP_I_B_PMC_Unit_41", 0.2,
+            "CUP_I_B_PMC_Unit_42", 0.2,
+            "CUP_I_B_PMC_Unit_43", 0.2,
+            "CUP_I_B_Para_Unit_1", 0.2,
+            "CUP_I_B_Para_Unit_2", 0.2,
+            "CUP_I_B_Para_Unit_3", 0.2,
+            "CUP_I_B_Para_Unit_4", 0.2,
+            "CUP_I_B_Para_Unit_5", 0.2,
+            "CUP_I_B_Para_Unit_6", 0.2,
+            "CUP_I_B_Para_Unit_7", 0.2,
+            "CUP_I_B_Para_Unit_8", 0.2,
+            "CUP_I_B_Para_Unit_9", 0.2,
+            "CUP_I_B_Para_Unit_10", 0.2,
+            "CFP_RAID_M81_DCU_3", 0.2,
+            "CFP_RAID_M81_DCU_2", 0.2,
+            "CFP_RAID_M81_DCU_1", 0.2,
+            "CFP_RAID_M81_DCU_4", 0.2,
+            "CFP_RAID_DCU_M81_3", 0.2,
+            "CFP_RAID_DCU_M81_2", 0.2,
+            "CFP_RAID_DCU_M81_1", 0.3,
+            "CFP_RAID_DCU_M81_4", 0.3,
             "CFP_GUER_3CDespants", 0.3,
             "CFP_GUER_ChocChippants", 0.3,
             "CFP_GUER_MCampants", 0.3,
@@ -291,22 +291,22 @@ class CfgVehicles {
 
         // Basic Rigs
         vestList[] = {
-            "CFP_HV5_Ciras_Olive", 0.4,
-            "CFP_LBT1961_CB", 0.2,
-            "CFP_LBT1961_GRN", 0.2,
-            "CFP_LBT1961_OGA_OD", 0.2,
-            "CFP_MBSS_Green", 0.2,
-            "CFP_MBSS_BLK", 0.2,
-            "CFP_MBSS_TAN", 0.2,
-            "CFP_MBSS_CB", 0.2,
-            "CFP_MBSS_PACA_operator", 0.2,
-            "CFP_MBSS_PACA", 0.2,
-            "CFP_MBSS_PACA_BLK", 0.2,
-            "CFP_MBSS_PACA_TAN", 0.2,
-            "CFP_MBSS_PACA_CB", 0.2,
-            "CFP_RAV_OGA", 0.4,
-            "CFP_RAV_Green", 0.4,
-            "CFP_RAV_Black", 0.4
+            "CUP_V_B_Ciras_Olive4", 0.4,
+            "CUP_V_B_LBT_LBV_Coyote", 0.2,
+            "CUP_V_B_LBT_LBV_GRN", 0.2,
+            "CUP_V_B_LBT_LBV_OD", 0.2,
+            "CUP_V_MBSS_PACA_Black", 0.2,
+            "CUP_V_MBSS_PACA2_Black", 0.2,
+            "CUP_V_MBSS_PACA2_Tan", 0.2,
+            "CUP_V_MBSS_PACA2_CB", 0.2,
+            "CUP_V_MBSS_PACA_RGR", 0.2,
+            "CUP_V_MBSS_PACA_Tan", 0.2,
+            "CUP_V_B_Ciras_Mcam4", 0.2,
+            "CUP_V_B_Ciras_Khaki4", 0.2,
+            "CUP_V_B_Ciras_Black4", 0.2,
+            "CUP_V_B_LBT_LBV_Mcam", 0.4,
+            "CUP_V_B_Armatus_MCam", 0.4,
+            "CUP_V_B_Armatus_Black", 0.4
         };
 
         // Beards / mouth scarf / scarf / sunglasses
@@ -437,12 +437,12 @@ class CfgVehicles {
         backpack = "CUP_B_USPack_Coyote_Specops";
         weapons[] = {"CUP_arifle_M4A3_black","CUP_hgun_Glock17","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_M4A3_black","CUP_hgun_Glock17","Throw","Put"};
-        linkedItems[] = {"CFP_LBT1961_GRN","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"CFP_LBT1961_GRN","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"CUP_V_B_LBT_LBV_GRN","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CUP_V_B_LBT_LBV_GRN","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A3_black","","CUP_acc_Flashlight","CUP_optic_Eotech553_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CUP_I_B_PMC_Unit_7",{{"CUP_17Rnd_9x19_glock17",1,17},{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_LBT1961_GRN",{{"FirstAidKit",1},{"HandGrenade",4,1},{"CUP_30Rnd_556x45_Stanag",2,30}}},{"CUP_B_USPack_Coyote_Specops",{}},"","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A3_black","","CUP_acc_Flashlight","CUP_optic_Eotech553_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CUP_I_B_PMC_Unit_43",{{"CUP_17Rnd_9x19_glock17",1,17},{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CUP_V_B_LBT_LBV_GRN",{{"FirstAidKit",1},{"HandGrenade",4,1},{"CUP_30Rnd_556x45_Stanag",2,30}}},{"CUP_B_USPack_Coyote_Specops",{}},"","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -506,9 +506,9 @@ class CfgVehicles {
             "CFP_TakJacket_M81", 0.2,
             "CFP_TakJacket_EDRL", 0.2,
             "CFP_TakJacket_ChocChip", 0.2,
-            "CFP_LBT1961_CB", 0.2,
-            "CFP_LBT1961_GRN", 0.2,
-            "CFP_LBT1961_OGA_OD", 0.2
+            "CUP_V_B_LBT_LBV_Coyote", 0.2,
+            "CUP_V_B_LBT_LBV_GRN", 0.2,
+            "CUP_V_B_LBT_LBV_OD", 0.2
         };
 
         // Beards / mouth scarf / scarf / sunglasses
@@ -640,7 +640,7 @@ class CfgVehicles {
 
         // Carrier
         vestList[] = {
-            "CFP_HV5_Ciras_Olive", 0.8,
+            "CUP_V_B_Ciras_Olive4", 0.8,
             "V_TacVest_khk", 0.3,
             "V_TacVest_brn", 0.3,
             "SP_Modular1_Atacs_au", 0.3,
@@ -658,9 +658,9 @@ class CfgVehicles {
             "V_PlateCarrier2_blk", 0.25,
             "SP_PlateCarrier1_Tan", 0.25,
             "SP_PlateCarrier1_Grey", 0.25,
-            "CFP_RAV_OGA", 0.3,
-            "CFP_RAV_Green", 0.3,
-            "CFP_RAV_Black", 0.3,
+            "CUP_V_B_LBT_LBV_Mcam", 0.3,
+            "CUP_V_B_Armatus_MCam", 0.3,
+            "CUP_V_B_Armatus_Black", 0.3,
             "CFP_FAPC_Operator_OGA", 0.25
         };
 
@@ -708,12 +708,12 @@ class CfgVehicles {
         backpack = "B_AssaultPack_cbr";
         weapons[] = {"CUP_arifle_M4A3_desert","CUP_hgun_Glock17_blk","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_M4A3_desert","CUP_hgun_Glock17_blk","Throw","Put"};
-        linkedItems[] = {"CFP_HV5_Ciras_Olive","CFP_OpsC_Uncov_Goggles","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS15_black"};
-        respawnlinkedItems[] = {"CFP_HV5_Ciras_Olive","CFP_OpsC_Uncov_Goggles","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS15_black"};
+        linkedItems[] = {"CUP_V_B_Ciras_Olive4","CFP_OpsC_Uncov_Goggles","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS15_black"};
+        respawnlinkedItems[] = {"CUP_V_B_Ciras_Olive4","CFP_OpsC_Uncov_Goggles","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS15_black"};
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A3_desert","","CUP_acc_ANPEQ_15_Top_Flashlight_Tan_L","CUP_optic_ACOG_Reflex_Desert",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_Crye_Tiger_Desert_SS",{{"CUP_30Rnd_556x45_Stanag",3,30},{"CUP_17Rnd_9x19_glock17",2,17}}},{"CFP_HV5_Ciras_Olive",{{"FirstAidKit",1},{"HandGrenade",2,1},{"CUP_30Rnd_556x45_Stanag",4,30},{"SmokeShell",2,1},{"B_IR_Grenade",1,1},{"Chemlight_blue",2,1},{"CUP_17Rnd_9x19_glock17",1,17}}},{"B_AssaultPack_cbr",{}},"CFP_OpsC_Uncov_Goggles","SP_Balaclava_Skull2",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS15_black"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A3_desert","","CUP_acc_ANPEQ_15_Top_Flashlight_Tan_L","CUP_optic_ACOG_Reflex_Desert",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_U_Crye_Tiger_Desert_SS",{{"CUP_30Rnd_556x45_Stanag",3,30},{"CUP_17Rnd_9x19_glock17",2,17}}},{"CUP_V_B_Ciras_Olive4",{{"FirstAidKit",1},{"HandGrenade",2,1},{"CUP_30Rnd_556x45_Stanag",4,30},{"SmokeShell",2,1},{"B_IR_Grenade",1,1},{"Chemlight_blue",2,1},{"CUP_17Rnd_9x19_glock17",1,17}}},{"B_AssaultPack_cbr",{}},"CFP_OpsC_Uncov_Goggles","SP_Balaclava_Skull2",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS15_black"}};
     };
 
     class CFP_B_USCIA_paramilitary_officer_assault_02 : CFP_B_USCIA_paramilitary_officer_assault_01 {
