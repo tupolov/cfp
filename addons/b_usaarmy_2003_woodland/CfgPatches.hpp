@@ -31,7 +31,7 @@ class CfgPatches {
             "CFP_B_USAArmy_M2A2_Bradley_IFV_Woodland_01",
             "CFP_B_USAArmy_M2A3_ERA_Bradley_IFV_Woodland_01",
             "CFP_B_USAArmy_M7_Bradley_Woodland_01",
-            "CFP_B_USAArmy_M113A3_Desert_Woodland_01",
+            "CFP_B_USAArmy_M113A3_Woodland_01",
             "CFP_B_USAArmy_M1126_ICV_M2_Woodland_01",
             "CFP_B_USAArmy_M1126_ICV_MK19_Woodland_01",
             "CFP_B_USAArmy_M6_Linebacker_Woodland_01",

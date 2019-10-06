@@ -31,7 +31,7 @@ class CfgPatches {
             "CFP_B_USAArmy_M2A2_Bradley_IFV_Desert_01",
             "CFP_B_USAArmy_M2A3_ERA_Bradley_IFV_Desert_01",
             "CFP_B_USAArmy_M7_Bradley_Desert_01",
-            "CFP_B_USAArmy_M113A3_Desert_Desert_01",
+            "CFP_B_USAArmy_M113A3_Desert_01",
             "CFP_B_USAArmy_M1126_ICV_M2_Desert_01",
             "CFP_B_USAArmy_M1126_ICV_MK19_Desert_01",
             "CFP_B_USAArmy_M6_Linebacker_Desert_01",

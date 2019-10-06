@@ -1732,7 +1732,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USAArmy_M113A3_Desert_Desert_01 : CUP_B_M113_desert_USA_OCimport_02 {
+    class CFP_B_USAArmy_M113A3_Desert_01 : CUP_B_M113_desert_USA_OCimport_02 {
         editorPreview = \x\CFP\addons\cfp_b_usaarmy_2003_desert\data\preview\CFP_B_USAArmy_M113A3_Desert_Desert_01.JPG;
         author = "Drew";
         scope = 2;

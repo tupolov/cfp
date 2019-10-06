@@ -1307,7 +1307,7 @@ class CfgVehicles {
         magazines[] = {"CUP_20Rnd_762x51_B_M110","CUP_7Rnd_45ACP_1911","CUP_20Rnd_762x51_B_M110","CUP_7Rnd_45ACP_1911"};
         respawnMagazines[] = {"CUP_20Rnd_762x51_B_M110","CUP_7Rnd_45ACP_1911","CUP_20Rnd_762x51_B_M110","CUP_7Rnd_45ACP_1911"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_M110_woodland","","","CUP_optic_AN_PVS_10",{"CUP_20Rnd_762x51_B_M110",20},{},"CUP_bipod_VLTOR_Modpod_od"},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"U_B_FullGhillie_lsh",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_B_M110",1,20},{"SmokeShell",1,1}}},{"CFP_Alice_Vest2",{{"CUP_20Rnd_762x51_B_M110",6,20},{"CUP_HandGrenade_M67",1,1},{"SmokeShellGreen",1,1},{"B_IR_Grenade",1,1},{"CUP_7Rnd_45ACP_1911",3,7},{"SmokeShellRed",1,1}}},{},"","CUP_G_Shades_Red",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_M110_woodland","","","CUP_optic_AN_PVS_10_od",{"CUP_20Rnd_762x51_B_M110",20},{},"CUP_bipod_VLTOR_Modpod_od"},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"U_B_FullGhillie_lsh",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_B_M110",1,20},{"SmokeShell",1,1}}},{"CFP_Alice_Vest2",{{"CUP_20Rnd_762x51_B_M110",6,20},{"CUP_HandGrenade_M67",1,1},{"SmokeShellGreen",1,1},{"B_IR_Grenade",1,1},{"CUP_7Rnd_45ACP_1911",3,7},{"SmokeShellRed",1,1}}},{},"","CUP_G_Shades_Red",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
 
         class EventHandlers : EventHandlers {
@@ -1424,7 +1424,7 @@ class CfgVehicles {
         magazines[] = {"CUP_20Rnd_762x51_B_M110","CUP_20Rnd_762x51_B_M110"};
         respawnMagazines[] = {"CUP_20Rnd_762x51_B_M110","CUP_20Rnd_762x51_B_M110"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_M110_woodland","","","CUP_optic_AN_PVS_10",{"CUP_20Rnd_762x51_B_M110",20},{},"CUP_bipod_VLTOR_Modpod_od"},{},{},{"CUP_U_B_BDUv2_gloves_M81_US",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_B_M110",1,20},{"SmokeShellRed",1,1}}},{"CUP_V_B_Interceptor_Rifleman_M81",{{"CUP_20Rnd_762x51_B_M110",6,20},{"B_IR_Grenade",1,1}}},{},"CUP_H_USArmy_HelmetMICH_ESS_wdl","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_M110_woodland","","","CUP_optic_AN_PVS_10_od",{"CUP_20Rnd_762x51_B_M110",20},{},"CUP_bipod_VLTOR_Modpod_od"},{},{},{"CUP_U_B_BDUv2_gloves_M81_US",{{"FirstAidKit",1},{"CUP_20Rnd_762x51_B_M110",1,20},{"SmokeShellRed",1,1}}},{"CUP_V_B_Interceptor_Rifleman_M81",{{"CUP_20Rnd_762x51_B_M110",6,20},{"B_IR_Grenade",1,1}}},{},"CUP_H_USArmy_HelmetMICH_ESS_wdl","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
 
         class EventHandlers : EventHandlers {
@@ -1732,7 +1732,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USAArmy_M113A3_Desert_Woodland_01 : CUP_B_M113_USA_OCimport_02 {
+    class CFP_B_USAArmy_M113A3_Woodland_01 : CUP_B_M113_USA_OCimport_02 {
         editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_M113A3_Desert_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
