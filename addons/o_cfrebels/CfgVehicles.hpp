@@ -126,8 +126,8 @@ class CfgVehicles {
           "CUP_I_B_PMC_Unit_20", 0.2,
           "CUP_I_B_PMC_Unit_16", 0.2,
           "CUP_I_B_PMC_Unit_1", 0.2,
-          "CUP_U_I_GUE_Anorak_02", 0.2,
-          "CUP_U_I_GUE_Anorak_03", 0.2,
+          "CUP_I_B_PARA_Unit_5", 0.2,
+          "CUP_I_B_PARA_Unit_10", 0.2,
           "CUP_U_I_GUE_Woodland1", 0.2,
           "U_BG_Guerilla2_2", 0.2,
           "U_BG_Guerilla2_3", 0.2,
@@ -388,7 +388,7 @@ class CfgVehicles {
         magazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_30Rnd_545x39_AK74M_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_30Rnd_545x39_AK74M_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed","","","",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{},{},{"CUP_U_I_GUE_Anorak_03",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK74M_M",2,30},{"MiniGrenade",1,1}}},{"CFP_AK_VEST_LOlive",{{"CUP_30Rnd_545x39_AK74M_M",4,30}}},{},"","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed","","","",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{},{},{"CUP_I_B_PARA_Unit_10",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK74M_M",2,30},{"MiniGrenade",1,1}}},{"CFP_AK_VEST_LOlive",{{"CUP_30Rnd_545x39_AK74M_M",4,30}}},{},"","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -464,7 +464,7 @@ class CfgVehicles {
 
         backpack = "B_FieldPack_oli";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_PKM","","","",{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",100},{},""},{},{},{"CUP_U_I_GUE_Anorak_02",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_UtilityJacket_M81",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",1,100}}},{"B_FieldPack_oli",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",2,100}}},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_PKM","","","",{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",100},{},""},{},{},{"CUP_I_B_PARA_Unit_5",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_UtilityJacket_M81",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",1,100}}},{"B_FieldPack_oli",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",2,100}}},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -730,7 +730,7 @@ class CfgVehicles {
 
         backpack = "CUP_B_Podnos_Gun_Bag";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_camo","","","",{"CUP_30Rnd_545x39_AK74M_camo_M",30},{},""},{},{},{"CUP_U_I_GUE_Anorak_03",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK74M_camo_M",2,30}}},{"CFP_AK_VEST_Lime",{{"CUP_30Rnd_545x39_AK74M_camo_M",4,30}}},{"CUP_B_Podnos_Gun_Bag",{}},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_camo","","","",{"CUP_30Rnd_545x39_AK74M_camo_M",30},{},""},{},{},{"CUP_I_B_PARA_Unit_10",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK74M_camo_M",2,30}}},{"CFP_AK_VEST_Lime",{{"CUP_30Rnd_545x39_AK74M_camo_M",4,30}}},{"CUP_B_Podnos_Gun_Bag",{}},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
