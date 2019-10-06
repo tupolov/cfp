@@ -688,26 +688,21 @@ class CfgVehicles {
 
         //Facewear
             facewearList[] = {
-        "CFP_Oakleys_Clr", 0.2,
-        "CFP_Oakleys_Drk", 0.2,
-        "CFP_Oakleys_Embr", 0.2,
-        "CFP_Neck_Wrap2", 0.3,
-        "CFP_Neck_Wrap3", 0.3,
-        "CFP_Neck_Wrap4", 0.3,
-        "CFP_Neck_Plain2", 0.2,
-        "CFP_Neck_Plain3", 0.2,
-        "CFP_Neck_Plain4", 0.2,
-        "CFP_Scarfshades_tan", 0.3,
-        "CFP_Scarfshades_grey", 0.3,
-        "CFP_Scarfshades_white", 0.3,
-        "CFP_Scarfshades_green", 0.3
+        "", 0.4,
+        "CFP_Oakleys_Clr", 0.8,
+        "CFP_Oakleys_Drk", 0.8,
+        "CFP_Oakleys_Embr", 0.4,
+        "CFP_Scarfshades_tan", 0.1,
+        "CFP_Scarfshades_grey", 0.1,
+        "CFP_Scarfshades_white", 0.1,
+        "CFP_Scarfshades_green", 0.1
             };
 
             class EventHandlers : EventHandlers {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_FLAG_UGANDA'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
