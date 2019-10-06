@@ -60,6 +60,66 @@
 		};
 	};
 
+	class CFP_BDU_IA_Desert: CFP_BDU_ANP
+	{
+		displayName = "BDU (Iraqi Army Choc Chip)";
+		vehicleClass = "CFP_BDU_IA_Desert";
+		uniformClass = "CFP_BDU_IA_Desert";
+		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Flag","Insignia"};
+		hiddenSelectionsTextures[] = {
+		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USarmy\data\BDUv2\BDUv2_desert_CO.paa",
+		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USarmy\data\BDUv2\BDUv2_desert_CO.paa",
+		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USarmy\data\BDUv2\BDUv2_desert_CO.paa",
+		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USarmy\data\BDUv2\BDUv2_desert_CO.paa",
+		"\x\cfp\addons\uniforms\BDU\camo\iraq_flag_ca.paa","\x\cfp\addons\uniforms\BDU\camo\ia_patch_ca.paa"
+		};
+	};
+
+	class CFP_BDU_IA_Desert2: CFP_BDU_ANP2
+	{
+		displayName = "BDU Rolled Sleeves (Iraqi Army Choc Chip)";
+		vehicleClass = "CFP_BDU_IA_Desert2";
+		uniformClass = "CFP_BDU_IA_Desert2";
+		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Flag","Insignia"};
+		hiddenSelectionsTextures[] = {
+		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USarmy\data\BDUv2\BDUv2_desert_CO.paa",
+		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USarmy\data\BDUv2\BDUv2_desert_CO.paa",
+		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USarmy\data\BDUv2\BDUv2_desert_CO.paa",
+		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USarmy\data\BDUv2\BDUv2_desert_CO.paa",
+		"\x\cfp\addons\uniforms\BDU\camo\iraq_flag_ca.paa","\x\cfp\addons\uniforms\BDU\camo\ia_patch_ca.paa"
+		};
+	};
+
+	class CFP_BDU_IA_DCU: CFP_BDU_ANP
+	{
+		displayName = "BDU (Iraqi Army Choc Chip)";
+		vehicleClass = "CFP_BDU_IA_DCU";
+		uniformClass = "CFP_BDU_IA_DCU";
+		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Flag","Insignia"};
+		hiddenSelectionsTextures[] = {
+		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USarmy\data\BDUv2\BDUv2_DCU_CO.paa",
+		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USarmy\data\BDUv2\BDUv2_DCU_CO.paa",
+		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USarmy\data\BDUv2\BDUv2_DCU_CO.paa",
+		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USarmy\data\BDUv2\BDUv2_DCU_CO.paa",
+		"\x\cfp\addons\uniforms\BDU\camo\iraq_flag_ca.paa","\x\cfp\addons\uniforms\BDU\camo\ia_patch_ca.paa"
+		};
+	};
+
+	class CFP_BDU_IA_DCU2: CFP_BDU_ANP2
+	{
+		displayName = "BDU (Iraqi Army DCU)";
+		vehicleClass = "CFP_BDU_IA_DCU2";
+		uniformClass = "CFP_BDU_IA_DCU2";
+		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Flag","Insignia"};
+		hiddenSelectionsTextures[] = {
+		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USarmy\data\BDUv2\BDUv2_DCU_CO.paa",
+		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USarmy\data\BDUv2\BDUv2_DCU_CO.paa",
+		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USarmy\data\BDUv2\BDUv2_DCU_CO.paa",
+		"\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USarmy\data\BDUv2\BDUv2_DCU_CO.paa",
+		"\x\cfp\addons\uniforms\BDU\camo\iraq_flag_ca.paa","\x\cfp\addons\uniforms\BDU\camo\ia_patch_ca.paa"
+		};
+	};
+
 	class CFP_BDU_DBDU: B_Soldier_base_F
 	{
 

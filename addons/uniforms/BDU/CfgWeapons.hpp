@@ -34,6 +34,58 @@
 		};
 	};
 
+	class CFP_BDU_IA_Desert : CFP_BDU_ANP
+	{
+		displayname = "BDU (Choc Chip Iraqi Army)";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_roll.p3d";
+			uniformClass = "CFP_BDU_IA_Desert";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
+	class CFP_BDU_IA_Desert2 : CFP_BDU_ANP2
+	{
+		displayName = "BDU Rolled (Choc Chip Iraqi Army, Roll)";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_roll.p3d";
+			uniformClass = "CFP_BDU_IA_Desert2";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
+	class CFP_BDU_IA_DCU : CFP_BDU_ANP
+	{
+		displayname = "BDU (DCU Iraqi Army)";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_roll.p3d";
+			uniformClass = "CFP_BDU_IA_DCU";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
+	class CFP_BDU_IA_DCU2 : CFP_BDU_ANP2
+	{
+		displayName = "BDU (DCU Iraqi Army, Roll)";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_roll.p3d";
+			uniformClass = "CFP_BDU_IA_DCU2";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
 	class CFP_BDU_DBDU : Uniform_Base
     {
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_M81Sudan.paa;
