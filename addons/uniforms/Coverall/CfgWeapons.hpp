@@ -12,7 +12,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_Coverall_Black";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 
 		};
@@ -32,7 +32,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_Coverall_Green";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 
 
@@ -53,7 +53,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_Coverall_Tan";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 
 		};
@@ -73,7 +73,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_Coverall_Grey";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 
 
@@ -94,7 +94,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_Coverall_BlueDark";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -113,7 +113,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_Coverall_BlueFrost";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 
 		};
@@ -133,7 +133,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_Coverall_GreenOlive";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 
 		};
@@ -153,7 +153,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_Coverall_White";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 
 		};
@@ -173,7 +173,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_Coverall_Red";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -192,7 +192,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_Coverall_Yellow";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -211,7 +211,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_Coverall_Brown";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -230,7 +230,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_Coverall_Orange";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 
 

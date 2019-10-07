@@ -12,7 +12,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_Underwear_Black";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -30,7 +30,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_Underwear_Green";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -48,7 +48,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_Underwear_Tan";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -66,7 +66,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_Underwear_Grey";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -84,7 +84,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_Underwear_BlueDark";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -102,7 +102,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_Underwear_BlueFrost";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -120,7 +120,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_Underwear_BlueSky";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -138,7 +138,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_Underwear_GreenOlive";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -156,7 +156,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_Underwear_GreenSpring";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -174,7 +174,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_Underwear_Brown";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -192,7 +192,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_Underwear_Olive";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -210,7 +210,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_Underwear_Orange";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -228,7 +228,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_Underwear_Pink";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -246,7 +246,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_Underwear_Purple";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -264,7 +264,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_Underwear_Red";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -282,7 +282,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_Underwear_White";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -300,6 +300,6 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_Underwear_Yellow";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};

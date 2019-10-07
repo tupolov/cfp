@@ -13,7 +13,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_Crye_Black";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -32,7 +32,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_Crye_Black_SS";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -51,7 +51,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_Crye_IASF";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -70,7 +70,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_Crye_IASF_SS";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -90,7 +90,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_TacticalUniform_Black_TS";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -109,7 +109,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_Crye_IDF";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -128,7 +128,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_Crye_IDF_SS";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -147,7 +147,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_Crye_M90";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -166,7 +166,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_Crye_Tan";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -185,7 +185,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_Crye_Tan_SS";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -204,7 +204,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_TacticalUniform_Tan_TS";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 
 
@@ -225,7 +225,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_TacticalUniform_ATacsFG";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -244,7 +244,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_TacticalUniform_ATacsFG_SS";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -263,7 +263,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_TacticalUniform_ATacsFG_TS";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -301,7 +301,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_Crye_Multicam_SS";
 			containerClass="Supply70";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -321,7 +321,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_Crye_Multicam2";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -340,7 +340,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_Crye_Multicam2_SS";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -359,7 +359,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_Crye_M81";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -378,7 +378,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_Crye_M81_SS";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -397,7 +397,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_Crye_AOR1";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -416,7 +416,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_Crye_AOR1_SS";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -435,7 +435,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_Crye_AOR2";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -454,7 +454,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_Crye_AOR2_SS";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -473,7 +473,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_Crye_Tiger_Desert";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -492,7 +492,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_Crye_Tiger_Desert_SS";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -511,7 +511,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_Crye_Multicamplain";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -530,7 +530,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_Crye_Multicamplain_SS";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -549,7 +549,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_Crye_Multicam2plain";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -568,7 +568,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_Crye_Multicam2plain_SS";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -587,7 +587,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_Crye_ATacsAU";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -606,7 +606,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_Crye_ATacsAU_SS";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -625,7 +625,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_Crye_Tropentarn";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -644,7 +644,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_Crye_Tropentarn_SS";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -663,7 +663,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_Crye_Flecktarn";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -682,7 +682,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_Crye_Flecktarn_SS";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};

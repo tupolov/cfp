@@ -14,7 +14,7 @@ class CFP_75th_CRYE_V1_Full : Uniform_Base  {
 					uniformModel = "-";
 					uniformClass = "CFP_75th_CRYE_V1_Full";
 					containerClass = "Supply40";
-					mass = 40;
+					mass = 20;
 
 		};
 };
@@ -35,7 +35,7 @@ class CFP_75th_CRYE_V1b_Full : Uniform_Base  {
 					uniformModel = "-";
 					uniformClass = "CFP_75th_CRYE_V1b_Full";
 					containerClass = "Supply40";
-					mass = 40;
+					mass = 20;
 
 		};
 };
@@ -57,7 +57,7 @@ class CFP_75th_CRYE_V2_Full : Uniform_Base  {
 					uniformModel = "-";
 					uniformClass = "CFP_75th_CRYE_V2_Full";
 					containerClass = "Supply40";
-					mass = 40;
+					mass = 20;
 		};
 };
 
@@ -77,7 +77,7 @@ class CFP_75th_CRYE_V2b_Full : Uniform_Base  {
 					uniformModel = "-";
 					uniformClass = "CFP_75th_CRYE_V2b_Full";
 					containerClass = "Supply40";
-					mass = 40;
+					mass = 20;
 		};
 };
 
@@ -100,7 +100,7 @@ class CFP_75th_CRYE_V3_Full : Uniform_Base  {
 					uniformModel = "-";
 					uniformClass = "CFP_75th_CRYE_V3_Full";
 					containerClass = "Supply40";
-					mass = 40;
+					mass = 20;
 		};
 };
 
@@ -120,7 +120,7 @@ class CFP_75th_CRYE_V3b_Full : Uniform_Base  {
 					uniformModel = "-";
 					uniformClass = "CFP_75th_CRYE_V3b_Full";
 					containerClass = "Supply40";
-					mass = 40;
+					mass = 20;
 		};
 };
 
@@ -140,7 +140,7 @@ class CFP_75th_CRYE_V4_Full : Uniform_Base  {
 					uniformModel = "-";
 					uniformClass = "CFP_75th_CRYE_V4_Full";
 					containerClass = "Supply40";
-					mass = 40;
+					mass = 20;
 		};
 };
 
@@ -160,7 +160,7 @@ class CFP_75th_CRYE_V4b_Full : Uniform_Base  {
 					uniformModel = "-";
 					uniformClass = "CFP_75th_CRYE_V4b_Full";
 					containerClass = "Supply40";
-					mass = 40;
+					mass = 20;
 		};
 };
 
@@ -185,7 +185,7 @@ class CFP_75th_CRYE_V1_Sleeved : Uniform_Base  {
 					uniformModel = "-";
 					uniformClass = "CFP_75th_CRYE_V1_Sleeved";
 					containerClass = "Supply40";
-					mass = 40;
+					mass = 20;
 		};
 };
 
@@ -206,7 +206,7 @@ class CFP_75th_CRYE_V1b_Sleeved : Uniform_Base  {
 					uniformModel = "-";
 					uniformClass = "CFP_75th_CRYE_V1b_Sleeved";
 					containerClass = "Supply40";
-					mass = 40;
+					mass = 20;
 		};
 };
 
@@ -229,7 +229,7 @@ class CFP_75th_CRYE_V2_Sleeved : Uniform_Base  {
 					uniformModel = "-";
 					uniformClass = "CFP_75th_CRYE_V2_Sleeved";
 					containerClass = "Supply40";
-					mass = 40;
+					mass = 20;
 		};
 };
 
@@ -250,7 +250,7 @@ class CFP_75th_CRYE_V2b_Sleeved : Uniform_Base  {
 					uniformModel = "-";
 					uniformClass = "CFP_75th_CRYE_V2b_Sleeved";
 					containerClass = "Supply40";
-					mass = 40;
+					mass = 20;
 		};
 };
 
@@ -271,7 +271,7 @@ class CFP_75th_CRYE_V3_Sleeved : Uniform_Base  {
 					uniformModel = "-";
 					uniformClass = "CFP_75th_CRYE_V3_Sleeved";
 					containerClass = "Supply40";
-					mass = 40;
+					mass = 20;
 		};
 };
 
@@ -292,7 +292,7 @@ class CFP_75th_CRYE_V3b_Sleeved : Uniform_Base  {
 					uniformModel = "-";
 					uniformClass = "CFP_75th_CRYE_V3b_Sleeved";
 					containerClass = "Supply40";
-					mass = 40;
+					mass = 20;
 		};
 };
 
@@ -313,7 +313,7 @@ class CFP_75th_CRYE_V4_Sleeved : Uniform_Base  {
 					uniformModel = "-";
 					uniformClass = "CFP_75th_CRYE_V4_Sleeved";
 					containerClass = "Supply40";
-					mass = 40;
+					mass = 20;
 		};
 };
 
@@ -334,7 +334,7 @@ class CFP_75th_CRYE_V4b_Sleeved : Uniform_Base  {
 					uniformModel = "-";
 					uniformClass = "CFP_75th_CRYE_V4b_Sleeved";
 					containerClass = "Supply40";
-					mass = 40;
+					mass = 20;
 		};
 };
 
@@ -360,7 +360,7 @@ class CFP_75th_CRYEG3_V1 : Uniform_Base  {
 					uniformModel = "-";
 					uniformClass = "CFP_75th_CRYEG3_V1";
 					containerClass = "Supply40";
-					mass = 40;
+					mass = 20;
 		};
 };
 
@@ -381,7 +381,7 @@ class CFP_75th_CRYEG3_V1b : Uniform_Base  {
 					uniformModel = "-";
 					uniformClass = "CFP_75th_CRYEG3_V1b";
 					containerClass = "Supply40";
-					mass = 40;
+					mass = 20;
 		};
 };
 
@@ -402,7 +402,7 @@ class CFP_75th_CRYEG3_V2 : Uniform_Base  {
 					uniformModel = "-";
 					uniformClass = "CFP_75th_CRYEG3_V2";
 					containerClass = "Supply40";
-					mass = 40;
+					mass = 20;
 		};
 };
 
@@ -423,7 +423,7 @@ class CFP_75th_CRYEG3_V2b : Uniform_Base  {
 					uniformModel = "-";
 					uniformClass = "CFP_75th_CRYEG3_V2b";
 					containerClass = "Supply40";
-					mass = 40;
+					mass = 20;
 		};
 };
 
@@ -444,7 +444,7 @@ class CFP_75th_CRYEG3_V3 : Uniform_Base  {
 					uniformModel = "-";
 					uniformClass = "CFP_75th_CRYEG3_V3";
 					containerClass = "Supply40";
-					mass = 40;
+					mass = 20;
 		};
 };
 
@@ -465,7 +465,7 @@ class CFP_75th_CRYEG3_V3b : Uniform_Base  {
 					uniformModel = "-";
 					uniformClass = "CFP_75th_CRYEG3_V3b";
 					containerClass = "Supply40";
-					mass = 40;
+					mass = 20;
 		};
 };
 
@@ -486,7 +486,7 @@ class CFP_75th_CRYEG3_V4 : Uniform_Base  {
 					uniformModel = "-";
 					uniformClass = "CFP_75th_CRYEG3_V4";
 					containerClass = "Supply40";
-					mass = 40;
+					mass = 20;
 		};
 };
 

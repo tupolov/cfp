@@ -13,7 +13,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_BattleDressUniform_Black";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -31,7 +31,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_BattleDressUniform_Green";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -50,7 +50,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_BattleDressUniform_Tan";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -68,7 +68,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_BattleDressUniform_Grey";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -86,7 +86,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_BattleDressUniform_GreenOlive";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -104,7 +104,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_BattleDressUniform_ATacsFG";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -122,7 +122,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_BattleDressUniform_NodUrban";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -140,7 +140,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_BattleDressUniform_3ColorDesert";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -158,7 +158,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_BattleDressUniform_M81_Sudan";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -176,7 +176,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_BattleDressUniform_Sword";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -194,7 +194,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_BattleDressUniform_Sword2";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -212,7 +212,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_BattleDressUniform_AridDigital";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -230,7 +230,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_BattleDressUniform_BrownDigital";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -248,7 +248,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_BattleDressUniform_AfricanWoodlandDark";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -266,7 +266,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_BattleDressUniform_AfricanWoodlandLight";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -284,7 +284,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_BattleDressUniform_ChocChip";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -302,7 +302,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_BattleDressUniform_M81";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -320,7 +320,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_BattleDressUniform_M81light";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -338,7 +338,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_BattleDressUniform_DDPM";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -356,7 +356,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_BattleDressUniform_DPMWoodland";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -374,7 +374,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_BattleDressUniform_edrl";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -392,7 +392,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_BattleDressUniform_polygondesertdark";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -410,7 +410,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_BattleDressUniform_polygondesertlight";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -428,7 +428,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_BattleDressUniform_polygonwoodlanddark";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -446,7 +446,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_BattleDressUniform_polygonwoodlandlight";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -464,7 +464,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_BattleDressUniform_tigerstripe";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -482,7 +482,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_BattleDressUniform_multicam";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -500,7 +500,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_BattleDressUniform_atacs_au";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -517,7 +517,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_BattleDressUniform_tigerdesert_tan";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -534,7 +534,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_BattleDressUniform_basijdigital";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 

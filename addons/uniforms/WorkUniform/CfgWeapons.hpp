@@ -13,7 +13,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_WOrkUniform_Green";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 
 		};
@@ -34,7 +34,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_WOrkUniform_ANP";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 
 		};
@@ -55,7 +55,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_WOrkUniform_M81_Sudan";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 
 		};
@@ -76,7 +76,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_WOrkUniform_DDPM";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 
 		};
@@ -97,7 +97,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_WOrkUniform_M81";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 
 		};
@@ -118,7 +118,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_WOrkUniform_M81Des";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 
 		};
@@ -138,7 +138,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_WorkUniform_ATacsFG";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -157,7 +157,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_WOrkUniform_Tropentarn";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 
 		};
@@ -178,7 +178,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_WOrkUniform_Flecktarn";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 
 		};
@@ -199,7 +199,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_WOrkUniform_DRK";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 
 		};
@@ -220,7 +220,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_WOrkUniform_DRK2";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 
 		};
@@ -241,7 +241,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_WOrkUniform_DRK2v2";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 
 		};
@@ -262,7 +262,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_WOrkUniform_DPM";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 
 		};
@@ -283,7 +283,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_WOrkUniform_DesTiger";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 
 		};
@@ -304,7 +304,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_WOrkUniform_BlackGrey";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 
 		};
@@ -325,7 +325,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_WOrkUniform_TanM81";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 
 		};
@@ -346,7 +346,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_WOrkUniform_ChocChip";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 
 		};
@@ -367,7 +367,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_WOrkUniform_3Desert";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 
 		};
@@ -388,7 +388,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_WOrkUniform_SudanPolice";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 
 		};
@@ -409,7 +409,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_WOrkUniform_SudanPolice2";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 
 		};
@@ -430,7 +430,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_WOrkUniform_Iraq_Officer";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 
 		};

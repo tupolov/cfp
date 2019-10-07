@@ -14,7 +14,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_GUER_M81";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -34,7 +34,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_GUER_ERDLpants";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -54,7 +54,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_GUER_GreenTan";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -74,7 +74,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_GUER_MCampants";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -94,7 +94,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_GUER_PolyDespants";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -114,7 +114,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_GUER_PolyDesert";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -134,7 +134,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_GUER_Tigerpants";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -154,7 +154,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_GUER_3CDespants";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -174,7 +174,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_GUER_ChocChippants";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -194,7 +194,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_GUER_Khk_Wdl";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -214,7 +214,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_GUER_M81Tee";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -234,7 +234,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_GUER_PolyDesTee";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};
@@ -254,7 +254,7 @@
 			uniformModel = "-";
 			uniformClass = "CFP_GUER_TanTee";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 
 		};
 	};

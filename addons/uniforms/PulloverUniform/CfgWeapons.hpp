@@ -13,7 +13,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_PulloverUniform_Black";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -31,7 +31,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_PulloverUniform_Green";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -49,7 +49,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_PulloverUniform_Tan";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -67,7 +67,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_PulloverUniform_Grey";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -85,7 +85,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_PulloverUniform_GreenOlive";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -103,7 +103,7 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_PulloverUniform_ATacsFG";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
 
@@ -121,6 +121,6 @@
 			uniformModel = "-";
 			uniformClass = "SP_0000_Standard_PulloverUniform_NodUrban";
 			containerClass="Supply60";
-			mass=80;
+			mass=20;
 		};
 	};
