@@ -150,7 +150,7 @@ class CfgVehicles {
           "SP_0000_Standard_BattleDressUniform_Green", 0.2,
           "CFP_U_BattleDressUniform_dpmwoodlandgreen", 0.2,
           "CFP_U_BattleDressUniform_DPMWoodland", 0.2,
-          "CUP_U_O_Partisan_VSR_Mixed1", 0.2
+          "CUP_U_B_BDUv2_CEU", 0.2
         };
 
         //Helmets
@@ -482,7 +482,7 @@ class CfgVehicles {
         magazines[] = {"CUP_30Rnd_9x19_UZI","CUP_30Rnd_9x19_UZI"};
         respawnMagazines[] = {"CUP_30Rnd_9x19_UZI","CUP_30Rnd_9x19_UZI"};
 
-        ALiVE_orbatCreator_loadout[] = {{},{},{"CUP_hgun_MicroUzi","","","",{"CUP_30Rnd_9x19_UZI",30},{},""},{"CUP_U_O_Partisan_VSR_Mixed1",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",1,1},{"CUP_30Rnd_9x19_UZI",2,30}}},{"CFP_AK_VEST_Black",{{"SmokeShell",1,1},{"SmokeShellGreen",1,1},{"SmokeShellRed",1,1},{"SmokeShellBlue",1,1},{"Chemlight_blue",2,1},{"CUP_30Rnd_9x19_UZI",4,30}}},{},"","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{},{},{"CUP_hgun_MicroUzi","","","",{"CUP_30Rnd_9x19_UZI",30},{},""},{"CUP_U_B_BDUv2_CEU",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",1,1},{"CUP_30Rnd_9x19_UZI",2,30}}},{"CFP_AK_VEST_Black",{{"SmokeShell",1,1},{"SmokeShellGreen",1,1},{"SmokeShellRed",1,1},{"SmokeShellBlue",1,1},{"Chemlight_blue",2,1},{"CUP_30Rnd_9x19_UZI",4,30}}},{},"","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
