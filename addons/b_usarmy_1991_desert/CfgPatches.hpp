@@ -64,7 +64,14 @@ class CfgPatches {
             "CFP_B_USARMY_91_MH_6J_Recon_Desert_01",
             "CFP_B_USARMY_91_AH_6M_Desert_01",
             "CFP_B_USARMY_91_M163A1_VADS_Desert_01",
-            "CFP_B_USARMY_91_MH_47E_Desert_01"
+            "CFP_B_USARMY_91_MH_47E_Desert_01",
+            "CFP_B_USARMY_91_SF_Rifleman_Desert_01",
+            "CFP_B_USARMY_91_SF_Grenadier_Desert_01",
+            "CFP_B_USARMY_91_SF_Team_Leader_Desert_01",
+            "CFP_B_USARMY_91_SF_Marksman_Desert_01",
+            "CFP_B_USARMY_91_SF_Explosives_Specialist_Desert_01",
+            "CFP_B_USARMY_91_SF_Medic_Desert_01",
+            "CFP_B_USARMY_91_SF_Auto_Rifleman_Desert_01"
         };
         weapons[] = {};
         requiredVersion = 1.62;

@@ -64,7 +64,14 @@ class CfgPatches {
             "CFP_B_USARMY_91_MH_6J_Recon_Woodland_01",
             "CFP_B_USARMY_91_AH_6M_Woodland_01",
             "CFP_B_USARMY_91_M163A1_VADS_Woodland_01",
-            "CFP_B_USARMY_91_MH_47E_Woodland_01"
+            "CFP_B_USARMY_91_MH_47E_Woodland_01",
+            "CFP_B_USARMY_91_SF_Rifleman_Woodland_01",
+            "CFP_B_USARMY_91_SF_Grenadier_Woodland_01",
+            "CFP_B_USARMY_91_SF_Team_Leader_Woodland_01",
+            "CFP_B_USARMY_91_SF_Marksman_Woodland_01",
+            "CFP_B_USARMY_91_SF_Explosives_Specialist_Woodland_01",
+            "CFP_B_USARMY_91_SF_Medic_Woodland_01",
+            "CFP_B_USARMY_91_SF_Auto_Rifleman_Woodland_01"
         };
         weapons[] = {};
         requiredVersion = 1.62;

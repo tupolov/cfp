@@ -1393,13 +1393,13 @@
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_Tan.paa;
 
 		scope=2;
-		model = "x\cfp\addons\models\RAID_Uniform_gloves.p3d";
-		displayName = "RAID Cut BDU M81 (Kneepads/Gloves)";
+		model = "x\cfp\addons\models\RAID_Uniform_gloves2.p3d";
+		displayName = "RAID Cut BDU M81 (Kneepads/Nomex Gloves)";
 		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
-			uniformModel = "x\cfp\addons\models\RAID_Uniform_gloves.p3d";
+			uniformModel = "x\cfp\addons\models\RAID_Uniform_gloves2.p3d";
 			uniformClass = "CFP_RAID_M811";
 			containerClass="Supply60";
 			mass=20;
@@ -1411,13 +1411,13 @@
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_Tan.paa;
 
 		scope=2;
-		model = "x\cfp\addons\models\RAID_Uniform_gloves_rolled.p3d";
-		displayName = "RAID Cut BDU M81 (Rolled/Kneepads/Gloves)";
+		model = "x\cfp\addons\models\RAID_Uniform_gloves_rolled2.p3d";
+		displayName = "RAID Cut BDU M81 (Rolled/Kneepads/Nomex Gloves)";
 		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
-			uniformModel = "x\cfp\addons\models\RAID_Uniform_gloves_rolled.p3d";
+			uniformModel = "x\cfp\addons\models\RAID_Uniform_gloves_rolled2.p3d";
 			uniformClass = "CFP_RAID_M812";
 			containerClass="Supply60";
 			mass=20;
@@ -1496,6 +1496,42 @@
 		};
 	};
 
+	class CFP_RAID_DBDU_1 : Uniform_Base
+    {
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_Tan.paa;
+
+		scope=2;
+		model = "x\cfp\addons\models\RAID_Uniform_gloves2.p3d";
+		displayName = "RAID Cut BDU DBDU (Kneepads/Nomex Gloves)";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "x\cfp\addons\models\RAID_Uniform_gloves2.p3d";
+			uniformClass = "CFP_RAID_DBDU_1";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
+	class CFP_RAID_DBDU_2 : Uniform_Base
+    {
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_Tan.paa;
+
+		scope=2;
+		model = "x\cfp\addons\models\RAID_Uniform_gloves_rolled2.p3d";
+		displayName = "RAID Cut BDU DBDU (Rolled/Kneepads/Nomex Gloves)";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "x\cfp\addons\models\RAID_Uniform_gloves_rolled2.p3d";
+			uniformClass = "CFP_RAID_DBDU_2";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
 	///RAID BDUs Kneeless
 
 	class CFP_RAID_DCU3 : Uniform_Base
@@ -1539,13 +1575,13 @@
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_Tan.paa;
 
 		scope=2;
-		model = "x\cfp\addons\models\RAID_Uniform_kneeless_gloves.p3d";
-		displayName = "RAID Cut BDU M81 (Gloves)";
+		model = "x\cfp\addons\models\RAID_Uniform_kneeless_gloves2.p3d";
+		displayName = "RAID Cut BDU M81 (Nomex Gloves)";
 		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
-			uniformModel = "x\cfp\addons\models\RAID_Uniform_kneeless_gloves.p3d";
+			uniformModel = "x\cfp\addons\models\RAID_Uniform_kneeless_gloves2.p3d";
 			uniformClass = "CFP_RAID_M813";
 			containerClass="Supply60";
 			mass=20;
@@ -1557,13 +1593,13 @@
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_Tan.paa;
 
 		scope=2;
-		model = "x\cfp\addons\models\RAID_Uniform_kneeless_gloves_rolled.p3d";
-		displayName = "RAID Cut BDU M81 (Rolled/Gloves)";
+		model = "x\cfp\addons\models\RAID_Uniform_kneeless_gloves_rolled2.p3d";
+		displayName = "RAID Cut BDU M81 (Rolled/Nomex Gloves)";
 		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
-			uniformModel = "x\cfp\addons\models\RAID_Uniform_kneeless_gloves_rolled.p3d";
+			uniformModel = "x\cfp\addons\models\RAID_Uniform_kneeless_gloves_rolled2.p3d";
 			uniformClass = "CFP_RAID_M814";
 			containerClass="Supply60";
 			mass=20;
@@ -1637,6 +1673,42 @@
 		{
 			uniformModel = "x\cfp\addons\models\RAID_Uniform_kneeless_gloves_rolled.p3d";
 			uniformClass = "CFP_RAID_DCU_M81_4";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
+	class CFP_RAID_DBDU_3 : Uniform_Base
+    {
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_Tan.paa;
+
+		scope=2;
+		model = "x\cfp\addons\models\RAID_Uniform_kneeless_gloves2.p3d";
+		displayName = "RAID Cut BDU DBDU (Nomex Gloves)";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "x\cfp\addons\models\RAID_Uniform_kneeless_gloves2.p3d";
+			uniformClass = "CFP_RAID_DBDU_3";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
+	class CFP_RAID_DBDU_4 : Uniform_Base
+    {
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_Tan.paa;
+
+		scope=2;
+		model = "x\cfp\addons\models\RAID_Uniform_kneeless_gloves_rolled2.p3d";
+		displayName = "RAID Cut BDU DBDU (Rolled/Nomex Gloves)";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "x\cfp\addons\models\RAID_Uniform_kneeless_gloves_rolled2.p3d";
+			uniformClass = "CFP_RAID_DBDU_4";
 			containerClass="Supply60";
 			mass=20;
 		};
