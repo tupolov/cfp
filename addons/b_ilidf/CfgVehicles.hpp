@@ -2098,6 +2098,7 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_ILIDF";
         crew = "B_UAV_AI";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\b_ilidf\data\mq9predatorb_idf_co.paa"};
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
