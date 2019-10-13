@@ -812,3 +812,30 @@
 			hiddenSelections[] = {"Camo"};
 		};
 	};
+
+	class CFP_PatrolCap_DCU : ItemCore
+    {
+        picture = \x\cfp\addons\headgear\data\ui\icon_CFP_PatrolCap_ChocChip.paa;
+
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "Patrol Cap (DCU)";
+		//
+		model = "\x\cfp\addons\models\PatrolCap";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\DCU.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "CFP";
+
+
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 15;
+			uniformmodel = "\x\cfp\addons\models\PatrolCap";
+			modelSides[] = {3,1};
+			armor = 0;
+			passThrough = 0.30;
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PatrolCap\DCU.paa"};
+			hiddenSelections[] = {"Camo"};
+		};
+	};
