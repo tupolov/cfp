@@ -75,7 +75,14 @@ class CfgPatches {
             "CFP_B_USAArmy_M2_Minitripod_Desert_01",
             "CFP_B_USAArmy_TOW_Tripod_Desert_01",
             "CFP_B_USAArmy_M252_81mm_Mortar_Desert_01",
-            "CFP_B_USAArmy_M119_Desert_01"
+            "CFP_B_USAArmy_M119_Desert_01",
+            "CFP_B_USAArmy_SF_Rifleman_Desert_01",
+            "CFP_B_USAArmy_SF_Grenadier_Desert_01",
+            "CFP_B_USAArmy_SF_Team_Leader_Desert_01",
+            "CFP_B_USAArmy_SF_Marksman_Desert_01",
+            "CFP_B_USAArmy_SF_Explosives_Specialist_Desert_01",
+            "CFP_B_USAArmy_SF_Medic_Desert_01",
+            "CFP_B_USAArmy_SF_Auto_Rifleman_Desert_01"
         };
         weapons[] = {};
         requiredVersion = 1.62;

@@ -75,7 +75,14 @@ class CfgPatches {
             "CFP_B_USAArmy_M2_Minitripod_Woodland_01",
             "CFP_B_USAArmy_TOW_Tripod_Woodland_01",
             "CFP_B_USAArmy_M252_81mm_Mortar_Woodland_01",
-            "CFP_B_USAArmy_M119_Woodland_01"
+            "CFP_B_USAArmy_M119_Woodland_01",
+            "CFP_B_USAArmy_SF_Rifleman_Woodland_01",
+            "CFP_B_USAArmy_SF_Grenadier_Woodland_01",
+            "CFP_B_USAArmy_SF_Team_Leader_Woodland_01",
+            "CFP_B_USAArmy_SF_Marksman_Woodland_01",
+            "CFP_B_USAArmy_SF_Explosives_Specialist_Woodland_01",
+            "CFP_B_USAArmy_SF_Medic_Woodland_01",
+            "CFP_B_USAArmy_SF_Auto_Rifleman_Woodland_01"
         };
         weapons[] = {};
         requiredVersion = 1.62;

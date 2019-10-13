@@ -1690,15 +1690,15 @@ class CfgVehicles {
         linkedItems[] = {"CFP_Alice_Vest2","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
         respawnlinkedItems[] = {"CFP_Alice_Vest2","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
 
-        weapons[] = {"CUP_srifle_M24_des","CUP_hgun_M9","Binocular"};
-        respawnWeapons[] = {"CUP_srifle_M24_des","CUP_hgun_M9","Binocular"};
+        weapons[] = {"CUP_srifle_M14","CUP_hgun_M9","Binocular"};
+        respawnWeapons[] = {"CUP_srifle_M14","CUP_hgun_M9","Binocular"};
 
-        magazines[] = {"CUP_5Rnd_762x51_M24","CUP_15Rnd_9x19_M9","CUP_5Rnd_762x51_M24","CUP_15Rnd_9x19_M9"};
-        respawnMagazines[] = {"CUP_5Rnd_762x51_M24","CUP_15Rnd_9x19_M9","CUP_5Rnd_762x51_M24","CUP_15Rnd_9x19_M9"};
+        magazines[] = {"20Rnd_762x51_Mag","CUP_15Rnd_9x19_M9","20Rnd_762x51_Mag","CUP_15Rnd_9x19_M9"};
+        respawnMagazines[] = {"20Rnd_762x51_Mag","CUP_15Rnd_9x19_M9","20Rnd_762x51_Mag","CUP_15Rnd_9x19_M9"};
 
         backpack = "CUP_B_AlicePack_OD";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_M24_des","","","CUP_optic_LeupoldMk4_10x40_LRT_Desert",{"CUP_5Rnd_762x51_M24",5},{},""},{},{"CUP_hgun_M9","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CFP_RAID_DBDU_2",{{"FirstAidKit",1},{"CUP_15Rnd_9x19_M9",3,15},{"CUP_5Rnd_762x51_M24",3,5}}},{"CFP_Alice_Vest2",{{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"Chemlight_green",1,1},{"Chemlight_blue",1,1},{"CUP_5Rnd_762x51_M24",6,5}}},{"CUP_B_AlicePack_OD",{}},"","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_M14","","","CUP_optic_LeupoldMk4",{"20Rnd_762x51_Mag",20},{},"CUP_bipod_Harris_1A2_L"},{},{"CUP_hgun_M9","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CFP_RAID_DBDU_2",{{"FirstAidKit",1},{"CUP_15Rnd_9x19_M9",3,15},{"20Rnd_762x51_Mag",3,5}}},{"CFP_Alice_Vest2",{{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"Chemlight_green",1,1},{"Chemlight_blue",1,1},{"20Rnd_762x51_Mag",6,5}}},{"CUP_B_AlicePack_OD",{}},"","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
     };
 
