@@ -632,7 +632,7 @@
     {
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_UCP.paa;
 
-		scope=2;
+		scope=1;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (UCP)";
 		author = "CFP";
@@ -776,7 +776,7 @@
     {
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_TPat.paa;
 
-		scope=2;
+		scope=1;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2.p3d";
 		displayName = "BDU (DPM)";
 		author = "CFP";
@@ -884,7 +884,7 @@
     {
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_DDPM.paa;
 
-		scope=2;
+		scope=1;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2.p3d";
 		displayName = "BDU (DDPM)";
 		author = "CFP";
