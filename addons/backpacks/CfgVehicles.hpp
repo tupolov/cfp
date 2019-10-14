@@ -478,7 +478,7 @@ class CfgVehicles
     class CFP_AssaultPack_Tropentarn: B_AssaultPack_Base
     {
         picture = "\x\cfp\addons\backpacks\data\ui\icon_CFP_AssaultPack_Woodland.paa";
-        scope = 2;
+        scope = 1;
         maximumLoad = 160;
         displayName = "Assault Pack (Tropentarn)";
         model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Compact";
@@ -489,7 +489,7 @@ class CfgVehicles
     class CFP_AssaultPack_Flecktarn: B_AssaultPack_Base
     {
         picture = "\x\cfp\addons\backpacks\data\ui\icon_CFP_AssaultPack_Woodland.paa";
-        scope = 2;
+        scope = 1;
         maximumLoad = 160;
         displayName = "Assault Pack (Flecktarn)";
         model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Compact";
@@ -529,6 +529,36 @@ class CfgVehicles
         model = "\A3\weapons_f\Ammoboxes\bags\Backpack_Gorod";
         // picture = "\A3\weapons_f\ammoboxes\bags\data\ui\icon_B_C_Gorod_khk_ca.paa";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Gorod\backpack_gorod_atacsau.paa"};
+        author = "CFP";
+    };
+    class CFP_B_USPack_Green: B_FieldPack_Base
+    {
+        picture = "\CUP\Weapons\CUP_Weapons_Backpacks\data\ui\icon_b_c_uspack_cbr_ca.paa";
+        scope = 2;
+        maximumLoad = 280;
+        displayName = "US Tactical Backpack (Green)";
+        model = "\CUP\Weapons\CUP_Weapons_Backpacks\CUP_Backpack_US.p3d";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Tactical\patrol_pack_grn_co.paa"};
+        author = "CFP";
+    };
+    class CFP_B_USPack_Mcam: B_FieldPack_Base
+    {
+        picture = "\CUP\Weapons\CUP_Weapons_Backpacks\data\ui\icon_b_c_uspack_cbr_ca.paa";
+        scope = 2;
+        maximumLoad = 280;
+        displayName = "US Tactical Backpack (Multicam)";
+        model = "\CUP\Weapons\CUP_Weapons_Backpacks\CUP_Backpack_US.p3d";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Tactical\patrol_pack_mcam_co.paa"};
+        author = "CFP";
+    };
+    class CFP_B_USPack_OD: B_FieldPack_Base
+    {
+        picture = "\CUP\Weapons\CUP_Weapons_Backpacks\data\ui\icon_b_c_uspack_cbr_ca.paa";
+        scope = 2;
+        maximumLoad = 280;
+        displayName = "US Tactical Backpack (Olive Drab)";
+        model = "\CUP\Weapons\CUP_Weapons_Backpacks\CUP_Backpack_US.p3d";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\backpacks\Tactical\patrol_pack_od_co.paa"};
         author = "CFP";
     };
 };

@@ -271,7 +271,7 @@
 	class CFP_U_Crye_Multicam: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_TacticalUniform_NodUrban.paa";
-		scope=2;
+		scope=1;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform (Multicam US)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\NodUrban.jpg";
@@ -290,7 +290,7 @@
 	class CFP_U_Crye_Multicam_SS: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_TacticalUniform_NodUrban_SS.paa";
-		scope=2;
+		scope=1;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform SS (Multicam US)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\NodUrban.jpg";
@@ -310,7 +310,7 @@
 	class CFP_U_Crye_Multicam2: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_TacticalUniform_NodUrban.paa";
-		scope=2;
+		scope=1;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform (Multicam 2 US)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\NodUrban.jpg";
@@ -329,7 +329,7 @@
 	class CFP_U_Crye_Multicam2_SS: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_TacticalUniform_NodUrban_SS.paa";
-		scope=2;
+		scope=1;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform SS (Multicam 2 US)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\NodUrban.jpg";
@@ -652,7 +652,7 @@
 	class CFP_U_Crye_Flecktarn: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_TacticalUniform_ATacsFG.paa";
-		scope=2;
+		scope=1;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform (Flecktarn)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\ATacsFG.jpg";
@@ -671,7 +671,7 @@
 	class CFP_U_Crye_Flecktarn_SS: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_TacticalUniform_ATacsFG_SS.paa";
-		scope=2;
+		scope=1;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform SS (Flecktarn)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\ATacsFG.jpg";

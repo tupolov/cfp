@@ -51,7 +51,7 @@
 
 	class CFP_Shemagh_Half_Red: None
 	{
-		scope = 2;
+		scope = 1;
 		displayname = "Shemagh Half (Red)";
 		model = "\x\cfp\addons\models\shemagh_half.p3d";
 		hiddenSelections[] = {"Camo"};
@@ -62,7 +62,7 @@
 
 	class CFP_Shemagh_Half_Black: None
 	{
-		scope = 2;
+		scope = 1;
 		displayname = "Shemagh Half (Black)";
 		model = "\x\cfp\addons\models\shemagh_half.p3d";
 		hiddenSelections[] = {"Camo"};
@@ -73,7 +73,7 @@
 
 	class CFP_Shemagh_Half_White: None
 	{
-		scope = 2;
+		scope = 1;
 		displayname = "Shemagh Half (White)";
 		model = "\x\cfp\addons\models\shemagh_half.p3d";
 		hiddenSelections[] = {"Camo"};
@@ -84,7 +84,7 @@
 
 	class CFP_Shemagh_Half_Tan: None
 	{
-		scope = 2;
+		scope = 1;
 		displayname = "Shemagh Half (Tan)";
 		model = "\x\cfp\addons\models\shemagh_half.p3d";
 		hiddenSelections[] = {"Camo"};

@@ -92,7 +92,7 @@
 
 	class CFP_Scarfshades_green: None
 	{
-		scope = 2;
+		scope = 1;
 		displayname = "Scarf/Shades (Green)";
 		model = "\x\cfp\addons\models\Scarfshades.p3d";
 		hiddenSelections[] = {"Camo","lense"};
@@ -114,7 +114,7 @@
 
 	class CFP_Scarfshades_tan: None
 	{
-		scope = 2;
+		scope = 1;
 		displayname = "Scarf/Shades (Tan)";
 		model = "\x\cfp\addons\models\Scarfshades.p3d";
 		hiddenSelections[] = {"Camo","lense"};
@@ -125,7 +125,7 @@
 
 	class CFP_Scarfshades_white: None
 	{
-		scope = 2;
+		scope = 1;
 		displayname = "Scarf/Shades (White)";
 		model = "\x\cfp\addons\models\Scarfshades.p3d";
 		hiddenSelections[] = {"lense","Camo"};

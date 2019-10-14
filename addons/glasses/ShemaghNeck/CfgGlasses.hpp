@@ -4,7 +4,7 @@
 */
 	class CFP_Shemagh_Neck: None
 	{
-		scope = 2;
+		scope = 1;
 		displayname = "Shemagh (Ranger Green)";
 		model = "\x\cfp\addons\models\shemagh_neck.p3d";
 		picture = "\x\cfp\addons\glasses\Shades\ui\Black.jpg";
@@ -14,7 +14,7 @@
 
 	class CFP_Shemagh_Neck_Red: None
 	{
-		scope = 2;
+		scope = 1;
 		displayname = "Shemagh (Red)";
 		model = "\x\cfp\addons\models\shemagh_neck.p3d";
 		hiddenSelections[] = {"Camo"};
@@ -25,7 +25,7 @@
 
 	class CFP_Shemagh_Neck_White: None
 	{
-		scope = 2;
+		scope = 1;
 		displayname = "Shemagh (White)";
 		model = "\x\cfp\addons\models\shemagh_neck.p3d";
 		hiddenSelections[] = {"Camo"};
@@ -36,7 +36,7 @@
 
 	class CFP_Shemagh_Neck_Tan: None
 	{
-		scope = 2;
+		scope = 1;
 		displayname = "Shemagh (Tan)";
 		model = "\x\cfp\addons\models\shemagh_neck.p3d";
 		hiddenSelections[] = {"Camo"};

@@ -1669,9 +1669,9 @@ class CfgVehicles {
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_12Rnd_45ACP_mk23","CUP_30Rnd_556x45_Stanag","CUP_12Rnd_45ACP_mk23"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_12Rnd_45ACP_mk23","CUP_30Rnd_556x45_Stanag","CUP_12Rnd_45ACP_mk23"};
 
-        backpack = "CUP_B_AlicePack_OD";
+        backpack = "CUP_B_USPack_Coyote";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A3_black","CUP_muzzle_snds_M16","CUP_acc_ANPEQ_2_Flashlight_Black_L","CUP_optic_ACOG_TA01B_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Mk23","CUP_muzzle_snds_mk23","CUP_acc_mk23_lam_f","",{"CUP_12Rnd_45ACP_mk23",12},{},""},{"CFP_RAID_DCU4",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_12Rnd_45ACP_mk23",3,15}}},{"CFP_V_Delta_3",{{"CUP_30Rnd_556x45_Stanag",6,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"Chemlight_green",1,1},{"Chemlight_blue",1,1}}},{"CUP_B_AlicePack_OD",{}},"","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A3_black","CUP_muzzle_snds_M16","CUP_acc_ANPEQ_2_Flashlight_Black_L","CUP_optic_ACOG_TA01B_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Mk23","CUP_muzzle_snds_mk23","CUP_acc_mk23_lam_f","",{"CUP_12Rnd_45ACP_mk23",12},{},""},{"CFP_RAID_DCU4",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_12Rnd_45ACP_mk23",3,15}}},{"CFP_V_Delta_3",{{"CUP_30Rnd_556x45_Stanag",6,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"Chemlight_green",1,1},{"Chemlight_blue",1,1}}},{"CUP_B_USPack_Coyote",{}},"","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
         randomGearProbability = 100;
 
@@ -1767,9 +1767,9 @@ class CfgVehicles {
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HE_M203","CUP_12Rnd_45ACP_mk23","CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HE_M203","CUP_12Rnd_45ACP_mk23"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HE_M203","CUP_12Rnd_45ACP_mk23","CUP_30Rnd_556x45_Stanag","CUP_1Rnd_HE_M203","CUP_12Rnd_45ACP_mk23"};
 
-        backpack = "CUP_B_AlicePack_OD";
+        backpack = "CFP_B_USPack_OD";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_BUIS_GL","CUP_muzzle_snds_M16","CUP_acc_ANPEQ_2_grey","CUP_optic_ACOG_TA01B_Black",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_1Rnd_HE_M203",1},""},{},{"CUP_hgun_Mk23","CUP_muzzle_snds_mk23","CUP_acc_mk23_lam_f","",{"CUP_12Rnd_45ACP_mk23",12},{},""},{"CFP_RAID_DCU3",{{"FirstAidKit",1},{},{"CUP_12Rnd_45ACP_mk23",3,15},{"CUP_30Rnd_556x45_Stanag",1,30}}},{"CFP_V_Delta_3",{{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"Chemlight_green",1,1},{"Chemlight_blue",1,1},{"CUP_1Rnd_HE_M203",3,1},{"CUP_30Rnd_556x45_Stanag",6,30},{"CUP_1Rnd_HEDP_M203",3,1},{"CUP_1Rnd_Smoke_M203",2,1}}},{"CUP_B_AlicePack_OD",{{"CUP_1Rnd_HEDP_M203",8,1},{"CUP_1Rnd_HE_M203",8,1},{"CUP_1Rnd_Smoke_M203",8,1}}},"","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_BUIS_GL","CUP_muzzle_snds_M16","CUP_acc_ANPEQ_2_grey","CUP_optic_ACOG_TA01B_Black",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_1Rnd_HE_M203",1},""},{},{"CUP_hgun_Mk23","CUP_muzzle_snds_mk23","CUP_acc_mk23_lam_f","",{"CUP_12Rnd_45ACP_mk23",12},{},""},{"CFP_RAID_DCU3",{{"FirstAidKit",1},{},{"CUP_12Rnd_45ACP_mk23",3,15},{"CUP_30Rnd_556x45_Stanag",1,30}}},{"CFP_V_Delta_3",{{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"Chemlight_green",1,1},{"Chemlight_blue",1,1},{"CUP_1Rnd_HE_M203",3,1},{"CUP_30Rnd_556x45_Stanag",6,30},{"CUP_1Rnd_HEDP_M203",3,1},{"CUP_1Rnd_Smoke_M203",2,1}}},{"CFP_B_USPack_OD",{{"CUP_1Rnd_HEDP_M203",8,1},{"CUP_1Rnd_HE_M203",8,1},{"CUP_1Rnd_Smoke_M203",8,1}}},"","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
     };
 
@@ -1786,9 +1786,9 @@ class CfgVehicles {
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_12Rnd_45ACP_mk23","CUP_30Rnd_556x45_Stanag","CUP_12Rnd_45ACP_mk23"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_12Rnd_45ACP_mk23","CUP_30Rnd_556x45_Stanag","CUP_12Rnd_45ACP_mk23"};
 
-        backpack = "CUP_B_AlicePack_OD";
+        backpack = "CFP_B_USPack_OD";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A3_black","CUP_muzzle_snds_M16","CUP_acc_ANPEQ_2_Flashlight_Black_L","CUP_optic_ACOG_TA01B_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Mk23","CUP_muzzle_snds_mk23","CUP_acc_mk23_lam_f","",{"CUP_12Rnd_45ACP_mk23",12},{},""},{"CFP_RAID_DCU4",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_12Rnd_45ACP_mk23",3,15}}},{"CFP_V_Delta_3",{{"CUP_30Rnd_556x45_Stanag",6,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"Chemlight_green",1,1},{"Chemlight_blue",1,1}}},{"CUP_B_AlicePack_OD",{}},"","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A3_black","CUP_muzzle_snds_M16","CUP_acc_ANPEQ_2_Flashlight_Black_L","CUP_optic_ACOG_TA01B_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Mk23","CUP_muzzle_snds_mk23","CUP_acc_mk23_lam_f","",{"CUP_12Rnd_45ACP_mk23",12},{},""},{"CFP_RAID_DCU4",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_12Rnd_45ACP_mk23",3,15}}},{"CFP_V_Delta_3",{{"CUP_30Rnd_556x45_Stanag",6,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"Chemlight_green",1,1},{"Chemlight_blue",1,1}}},{"CFP_B_USPack_OD",{}},"","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
     };
 
@@ -1805,9 +1805,9 @@ class CfgVehicles {
         magazines[] = {"20Rnd_762x51_Mag","CUP_12Rnd_45ACP_mk23","20Rnd_762x51_Mag","CUP_12Rnd_45ACP_mk23"};
         respawnMagazines[] = {"20Rnd_762x51_Mag","CUP_12Rnd_45ACP_mk23","20Rnd_762x51_Mag","CUP_12Rnd_45ACP_mk23"};
 
-        backpack = "CUP_B_AlicePack_OD";
+        backpack = "CUP_B_USPack_Coyote";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_M14_DMR","","","CUP_optic_LeupoldMk4",{"20Rnd_762x51_Mag",20},{},"CUP_bipod_VLTOR_Modpod_black"},{},{"CUP_hgun_Mk23","CUP_muzzle_snds_mk23","CUP_acc_mk23_lam_f","",{"CUP_12Rnd_45ACP_mk23",12},{},""},{"CFP_RAID_DCU2",{{"FirstAidKit",1},{"20Rnd_762x51_Mag",1,15},{"CUP_12Rnd_45ACP_mk23",3,5}}},{"CFP_V_Delta_3",{{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"Chemlight_green",1,1},{"Chemlight_blue",1,1},{"20Rnd_762x51_Mag",6,5}}},{"CUP_B_AlicePack_OD",{}},"","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_M14_DMR","","","CUP_optic_LeupoldMk4",{"20Rnd_762x51_Mag",20},{},"CUP_bipod_VLTOR_Modpod_black"},{},{"CUP_hgun_Mk23","CUP_muzzle_snds_mk23","CUP_acc_mk23_lam_f","",{"CUP_12Rnd_45ACP_mk23",12},{},""},{"CFP_RAID_DCU2",{{"FirstAidKit",1},{"20Rnd_762x51_Mag",1,15},{"CUP_12Rnd_45ACP_mk23",3,5}}},{"CFP_V_Delta_3",{{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"Chemlight_green",1,1},{"Chemlight_blue",1,1},{"20Rnd_762x51_Mag",6,5}}},{"CUP_B_USPack_Coyote",{}},"","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
     };
 
@@ -1826,9 +1826,9 @@ class CfgVehicles {
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_12Rnd_45ACP_mk23","CUP_30Rnd_556x45_Stanag","CUP_12Rnd_45ACP_mk23"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_12Rnd_45ACP_mk23","CUP_30Rnd_556x45_Stanag","CUP_12Rnd_45ACP_mk23"};
 
-        backpack = "CUP_B_AlicePack_OD";
+        backpack = "CFP_B_USPack_OD";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A3_black","CUP_muzzle_snds_M16","CUP_acc_ANPEQ_2_Flashlight_Black_L","CUP_optic_ACOG_TA01B_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Mk23","CUP_muzzle_snds_mk23","CUP_acc_mk23_lam_f","",{"CUP_12Rnd_45ACP_mk23",12},{},""},{"CFP_RAID_DCU2",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_12Rnd_45ACP_mk23",3,15}}},{"CFP_V_Delta_3",{{"CUP_30Rnd_556x45_Stanag",6,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"Chemlight_green",1,1},{"Chemlight_blue",1,1}}},{"CUP_B_AlicePack_OD",{{"MineDetector",1},{"CUP_PipeBomb_M",1,1},{"DemoCharge_Remote_Mag",4,1},{"ClaymoreDirectionalMine_Remote_Mag",1,1},{"CUP_Mine_M",1,1}}},"","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A3_black","CUP_muzzle_snds_M16","CUP_acc_ANPEQ_2_Flashlight_Black_L","CUP_optic_ACOG_TA01B_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Mk23","CUP_muzzle_snds_mk23","CUP_acc_mk23_lam_f","",{"CUP_12Rnd_45ACP_mk23",12},{},""},{"CFP_RAID_DCU2",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_12Rnd_45ACP_mk23",3,15}}},{"CFP_V_Delta_3",{{"CUP_30Rnd_556x45_Stanag",6,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"Chemlight_green",1,1},{"Chemlight_blue",1,1}}},{"CFP_B_USPack_OD",{{"MineDetector",1},{"CUP_PipeBomb_M",1,1},{"DemoCharge_Remote_Mag",4,1},{"ClaymoreDirectionalMine_Remote_Mag",1,1},{"CUP_Mine_M",1,1}}},"","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
     };
 
@@ -1848,9 +1848,9 @@ class CfgVehicles {
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_12Rnd_45ACP_mk23","CUP_30Rnd_556x45_Stanag","CUP_12Rnd_45ACP_mk23"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_12Rnd_45ACP_mk23","CUP_30Rnd_556x45_Stanag","CUP_12Rnd_45ACP_mk23"};
 
-        backpack = "CUP_B_AlicePack_OD";
+        backpack = "CFP_B_USPack_OD";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A3_black","CUP_muzzle_snds_M16","CUP_acc_ANPEQ_2_Flashlight_Black_L","CUP_optic_ACOG_TA01B_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Mk23","CUP_muzzle_snds_mk23","CUP_acc_mk23_lam_f","",{"CUP_12Rnd_45ACP_mk23",12},{},""},{"CFP_RAID_DCU1",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_12Rnd_45ACP_mk23",3,15}}},{"CFP_V_Delta_3",{{"CUP_30Rnd_556x45_Stanag",6,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"Chemlight_green",1,1},{"Chemlight_blue",1,1}}},{"CUP_B_AlicePack_OD",{{"Medikit",1},{"FirstAidKit",10}}},"","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A3_black","CUP_muzzle_snds_M16","CUP_acc_ANPEQ_2_Flashlight_Black_L","CUP_optic_ACOG_TA01B_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Mk23","CUP_muzzle_snds_mk23","CUP_acc_mk23_lam_f","",{"CUP_12Rnd_45ACP_mk23",12},{},""},{"CFP_RAID_DCU1",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_12Rnd_45ACP_mk23",3,15}}},{"CFP_V_Delta_3",{{"CUP_30Rnd_556x45_Stanag",6,30},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"Chemlight_green",1,1},{"Chemlight_blue",1,1}}},{"CFP_B_USPack_OD",{{"Medikit",1},{"FirstAidKit",10}}},"","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
     };
 
@@ -1867,9 +1867,9 @@ class CfgVehicles {
         magazines[] = {"CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_12Rnd_45ACP_mk23","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_12Rnd_45ACP_mk23"};
         respawnMagazines[] = {"CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_12Rnd_45ACP_mk23","CUP_200Rnd_TE4_Red_Tracer_556x45_M249","CUP_12Rnd_45ACP_mk23"};
 
-        backpack = "CUP_B_AlicePack_OD";
+        backpack = "CUP_B_USPack_Coyote";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_m249_pip3","","","",{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",200},{},""},{},{"CUP_hgun_Mk23","CUP_muzzle_snds_mk23","CUP_acc_mk23_lam_f","",{"CUP_12Rnd_45ACP_mk23",12},{},""},{"CFP_RAID_DCU1",{{"FirstAidKit",1},{"CUP_12Rnd_45ACP_mk23",3,15}}},{"CFP_V_Delta_3",{{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"Chemlight_green",1,1},{"Chemlight_blue",1,1},{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",1,200}}},{"CUP_B_AlicePack_OD",{{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",2,200}}},"","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_m249_pip3","","","",{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",200},{},""},{},{"CUP_hgun_Mk23","CUP_muzzle_snds_mk23","CUP_acc_mk23_lam_f","",{"CUP_12Rnd_45ACP_mk23",12},{},""},{"CFP_RAID_DCU1",{{"FirstAidKit",1},{"CUP_12Rnd_45ACP_mk23",3,15}}},{"CFP_V_Delta_3",{{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"Chemlight_green",1,1},{"Chemlight_blue",1,1},{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",1,200}}},{"CUP_B_USPack_Coyote",{{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",2,200}}},"","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS14"}};
 
     };
 

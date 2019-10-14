@@ -126,7 +126,7 @@
     {
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_DCU.paa;
 
-		scope=2;
+		scope=1;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2.p3d";
 		displayName = "BDU (US DCU)";
 		author = "CFP";
@@ -144,7 +144,7 @@
     {
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_DCU.paa;
 
-		scope=2;
+		scope=1;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_roll.p3d";
 		displayName = "BDU (US DCU Rolled Sleeves)";
 		author = "CFP";
@@ -162,7 +162,7 @@
     {
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_DCU.paa;
 
-		scope=2;
+		scope=1;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_roll2.p3d";
 		displayName = "BDU (US DCU Rolled Sleeves 2)";
 		author = "CFP";
@@ -180,7 +180,7 @@
     {
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_DCU.paa;
 
-		scope=2;
+		scope=1;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_roll_gloves.p3d";
 		displayName = "BDU (US DCU Rolled Sleeves Gloves)";
 		author = "CFP";
@@ -198,7 +198,7 @@
     {
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_DCU.paa;
 
-		scope=2;
+		scope=1;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_roll2_gloves.p3d";
 		displayName = "BDU (US DCU Rolled Sleeves 2 Gloves)";
 		author = "CFP";
@@ -650,7 +650,7 @@
     {
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_DCU.paa;
 
-		scope=2;
+		scope=1;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2.p3d";
 		displayName = "BDU (DCU)";
 		author = "CFP";
@@ -668,7 +668,7 @@
     {
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_DCU.paa;
 
-		scope=2;
+		scope=1;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_roll.p3d";
 		displayName = "BDU (DCU Rolled Sleeves)";
 		author = "CFP";
@@ -686,7 +686,7 @@
     {
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_DCU.paa;
 
-		scope=2;
+		scope=1;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_roll2.p3d";
 		displayName = "BDU (DCU Rolled Sleeves 2)";
 		author = "CFP";
@@ -704,7 +704,7 @@
     {
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_DCU.paa;
 
-		scope=2;
+		scope=1;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_roll_gloves.p3d";
 		displayName = "BDU (DCU Rolled Sleeves Gloves)";
 		author = "CFP";
@@ -722,7 +722,7 @@
     {
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_DCU.paa;
 
-		scope=2;
+		scope=1;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_roll2_gloves.p3d";
 		displayName = "BDU (DCU Rolled Sleeves 2 Gloves)";
 		author = "CFP";
@@ -1118,7 +1118,7 @@
     {
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_CEU.paa;
 
-		scope=2;
+		scope=1;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2.p3d";
 		displayName = "BDU (French CEU)";
 		author = "CFP";
@@ -1136,7 +1136,7 @@
     {
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_M81.paa;
 
-		scope=2;
+		scope=1;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_roll.p3d";
 		displayName = "BDU (French CEU Rolled Sleeves)";
 		author = "CFP";
@@ -1154,7 +1154,7 @@
     {
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_M81.paa;
 
-		scope=2;
+		scope=1;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_roll2.p3d";
 		displayName = "BDU (French CEU Rolled Sleeves 2)";
 		author = "CFP";

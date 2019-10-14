@@ -942,7 +942,7 @@
     {
         picture = \x\cfp\addons\headgear\data\ui\icon_SP_PASGTHelmet_Black1.paa;
 
-		scope = 2;
+		scope = 1;
 		weaponPoolAvailable = 1;
 		displayName  = "PASGT Helmet (M81)";
 		//
@@ -968,7 +968,7 @@
     {
         picture = \x\cfp\addons\headgear\data\ui\icon_SP_PASGTHelmet_Black1.paa;
 
-		scope = 2;
+		scope = 1;
 		weaponPoolAvailable = 1;
 		displayName  = "PASGT Helmet (NVG, M81)";
 		model = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
@@ -993,7 +993,7 @@
     {
         picture = \x\cfp\addons\headgear\data\ui\icon_SP_PASGTHelmet_Black1.paa;
 
-		scope = 2;
+		scope = 1;
 		weaponPoolAvailable = 1;
 		displayName  = "PASGT Helmet w Goggles (NVG, M81)";
 		//
@@ -1019,7 +1019,7 @@
     {
         picture = \x\cfp\addons\headgear\data\ui\icon_SP_PASGTHelmet_Black1.paa;
 
-		scope = 2;
+		scope = 1;
 		weaponPoolAvailable = 1;
 		displayName  = "PASGT Helmet w Goggles (M81)";
 		//
@@ -1045,7 +1045,7 @@
     {
         picture = \x\cfp\addons\headgear\data\ui\icon_SP_PASGTHelmet_Black1.paa;
 
-		scope = 2;
+		scope = 1;
 		weaponPoolAvailable = 1;
 		displayName  = "PASGT Helmet w Goggles Front Cover (M81)";
 		//
@@ -1071,7 +1071,7 @@
     {
         picture = \x\cfp\addons\headgear\data\ui\icon_SP_PASGTHelmet_Black1.paa;
 
-		scope = 2;
+		scope = 1;
 		weaponPoolAvailable = 1;
 		displayName  = "PASGT Helmet w Goggles Back Cover (US M81)";
 		//
