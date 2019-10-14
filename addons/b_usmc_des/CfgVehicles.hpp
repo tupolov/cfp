@@ -2796,18 +2796,18 @@ class CfgVehicles {
         class CUP_B_AV8B_DYN_USMC_OCimport_01 : CUP_B_AV8B_DYN_USMC { scope = 0; class EventHandlers; };
         class CUP_B_AV8B_DYN_USMC_OCimport_02 : CUP_B_AV8B_DYN_USMC_OCimport_01 { scope = 0; class EventHandlers; };
 
-        class CUP_B_M270_DPICM_USMC;
-        class CUP_B_M270_DPICM_USMC_OCimport_01 : CUP_B_M270_DPICM_USMC { scope = 0; class EventHandlers; class Turrets; };
-        class CUP_B_M270_DPICM_USMC_OCimport_02 : CUP_B_M270_DPICM_USMC_OCimport_01 {
+        class CUP_B_M270_DPICM_USA;
+        class CUP_B_M270_DPICM_USA_OCimport_01 : CUP_B_M270_DPICM_USA { scope = 0; class EventHandlers; class Turrets; };
+        class CUP_B_M270_DPICM_USA_OCimport_02 : CUP_B_M270_DPICM_USA_OCimport_01 {
             class EventHandlers;
             class Turrets : Turrets {
                 class MainTurret;
             };
         };
 
-        class CUP_B_M270_HE_USMC;
-        class CUP_B_M270_HE_USMC_OCimport_01 : CUP_B_M270_HE_USMC { scope = 0; class EventHandlers; class Turrets; };
-        class CUP_B_M270_HE_USMC_OCimport_02 : CUP_B_M270_HE_USMC_OCimport_01 {
+        class CUP_B_M270_HE_USA;
+        class CUP_B_M270_HE_USA_OCimport_01 : CUP_B_M270_HE_USA { scope = 0; class EventHandlers; class Turrets; };
+        class CUP_B_M270_HE_USA_OCimport_02 : CUP_B_M270_HE_USA_OCimport_01 {
             class EventHandlers;
             class Turrets : Turrets {
                 class MainTurret;
@@ -3395,7 +3395,7 @@ class CfgVehicles {
 
         };
 
-        class CFP_B_USMC_M270_MLRS_DPICM_DES_01 : CUP_B_M270_DPICM_USMC_OCimport_02 {
+        class CFP_B_USMC_M270_MLRS_DPICM_DES_01 : CUP_B_M270_DPICM_USA_OCimport_02 {
             author = "Tupolov";
             scope = 2;
             scopeCurator = 2;
@@ -3414,18 +3414,17 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\cup\trackedvehicles\cup_trackedvehicles_m270\data\mlrs_hull_desert_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-            ALiVE_orbatCreator_texture = "Desert";
 
         };
 
-        class CFP_B_USMC_M270_MLRS_HE_DES_01 : CUP_B_M270_HE_USMC_OCimport_02 {
+        class CFP_B_USMC_M270_MLRS_HE_DES_01 : CUP_B_M270_HE_USA_OCimport_02 {
             author = "Tupolov";
             scope = 2;
             scopeCurator = 2;
@@ -3444,14 +3443,13 @@ class CfgVehicles {
                 class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
                 class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\cup\trackedvehicles\cup_trackedvehicles_m270\data\mlrs_hull_desert_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                    init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
                 };
 
             };
 
             // custom attributes (do not delete)
             ALiVE_orbatCreator_owned = 1;
-            ALiVE_orbatCreator_texture = "Desert";
 
         };
 

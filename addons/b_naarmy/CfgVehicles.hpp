@@ -691,6 +691,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_NAARMY";
         crew = "CFP_B_NAARMY_Crew_01";
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\vehicles\BTR60\lgreenbody1.paa",
+            "\x\cfp\addons\vehicles\BTR60\lgreenbody2.paa"
+        };
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_NAARMY_Crew_01"; };
@@ -711,14 +715,14 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-               init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\BTR60\lgreenbody1.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\BTR60\lgreenbody2.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "LGreen";
+
     };
 
     class CFP_B_NAARMY_Land_Rover_MG_01 : CUP_B_LR_MG_GB_W_OCimport_02 {
@@ -730,6 +734,9 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_NAARMY";
         crew = "CFP_B_NAARMY_Rifleman_AK47_01";
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\vehicles\LandRover\lr_base_baf_olive.paa"
+        };
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = "CFP_B_NAARMY_Rifleman_AK47_01"; };
@@ -742,14 +749,14 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\LandRover\lr_base_baf_olive.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "OLIVE";
+
     };
 
     class CFP_B_NAARMY_Mi_24D_01 : CUP_O_Mi24_D_Dynamic_SLA_OCimport_02 {
@@ -761,6 +768,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_NAARMY";
         crew = "CFP_B_NAARMY_Helicopter_Pilot_01";
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\vehicles\Mi24\mi24_nigeria.paa",
+            "\x\cfp\addons\vehicles\Mi24\mi24_nigeria2.paa"
+        };
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_NAARMY_Helicopter_Pilot_01"; };
@@ -771,15 +782,14 @@ class CfgVehicles {
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\Mi24\mi24_nigeria.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\Mi24\mi24_nigeria2.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+             class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "Nigeria";
 
     };
 
@@ -792,6 +802,12 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_NAARMY";
         crew = "CFP_B_NAARMY_Helicopter_Pilot_01";
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\vehicles\Mi8\mi17_body_nigeria.paa",
+            "\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\mi17_det_IND_CO.paa",
+            "a3\data_f\clear_empty.paa",
+            "CUP\AirVehicles\CUP_AirVehicles_Mi8\data\mi8_decals_ca.paa"
+        };
 
         class Turrets : Turrets {
             class SideTurret : SideTurret { gunnerType = "CFP_B_NAARMY_Helicopter_Pilot_01"; };
@@ -806,14 +822,13 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\Mi8\mi17_body_nigeria.paa'];_unit setObjectTextureGlobal [1,'\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\mi17_det_IND_CO.paa'];_unit setObjectTextureGlobal [2,'a3\data_f\clear_empty.paa'];_unit setObjectTextureGlobal [3,'CUP\AirVehicles\CUP_AirVehicles_Mi8\data\mi8_decals_ca.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "Nigeria";
 
     };
 
@@ -1060,6 +1075,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_NAARMY";
         crew = "CFP_B_NAARMY_Rifleman_AKM_01";
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\vehicles\LandRover\lr_base_baf_olive.paa",
+            "cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\gb_w_lr_special_co.paa"
+        };
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -1072,14 +1091,13 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\LandRover\lr_base_baf_olive.paa'];_unit setObjectTextureGlobal [1,'cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\gb_w_lr_special_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "OLIVE";
 
     };
 

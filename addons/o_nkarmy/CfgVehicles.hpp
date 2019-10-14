@@ -141,9 +141,9 @@ class CfgVehicles {
         };
     };
 
-    class CUP_O_Ural_SLA;
-    class CUP_O_Ural_SLA_OCimport_01 : CUP_O_Ural_SLA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_Ural_SLA_OCimport_02 : CUP_O_Ural_SLA_OCimport_01 {
+    class CUP_O_Ural_RU;
+    class CUP_O_Ural_RU_OCimport_01 : CUP_O_Ural_RU { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_Ural_RU_OCimport_02 : CUP_O_Ural_RU_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class CargoTurret_01;
@@ -151,17 +151,17 @@ class CfgVehicles {
         };
     };
 
-    class CUP_O_Ural_Refuel_SLA;
-    class CUP_O_Ural_Refuel_SLA_OCimport_01 : CUP_O_Ural_Refuel_SLA { scope = 0; class EventHandlers; };
-    class CUP_O_Ural_Refuel_SLA_OCimport_02 : CUP_O_Ural_Refuel_SLA_OCimport_01 { scope = 0; class EventHandlers; };
+    class CUP_O_Ural_Refuel_RU;
+    class CUP_O_Ural_Refuel_RU_OCimport_01 : CUP_O_Ural_Refuel_RU { scope = 0; class EventHandlers; };
+    class CUP_O_Ural_Refuel_RU_OCimport_02 : CUP_O_Ural_Refuel_RU_OCimport_01 { scope = 0; class EventHandlers; };
 
-    class CUP_O_Ural_Repair_SLA;
-    class CUP_O_Ural_Repair_SLA_OCimport_01 : CUP_O_Ural_Repair_SLA { scope = 0; class EventHandlers; };
-    class CUP_O_Ural_Repair_SLA_OCimport_02 : CUP_O_Ural_Repair_SLA_OCimport_01 { scope = 0; class EventHandlers; };
+    class CUP_O_Ural_Repair_RU;
+    class CUP_O_Ural_Repair_RU_OCimport_01 : CUP_O_Ural_Repair_RU { scope = 0; class EventHandlers; };
+    class CUP_O_Ural_Repair_RU_OCimport_02 : CUP_O_Ural_Repair_RU_OCimport_01 { scope = 0; class EventHandlers; };
 
-    class CUP_O_Ural_Reammo_SLA;
-    class CUP_O_Ural_Reammo_SLA_OCimport_01 : CUP_O_Ural_Reammo_SLA { scope = 0; class EventHandlers; };
-    class CUP_O_Ural_Reammo_SLA_OCimport_02 : CUP_O_Ural_Reammo_SLA_OCimport_01 { scope = 0; class EventHandlers; };
+    class CUP_O_Ural_Reammo_RU;
+    class CUP_O_Ural_Reammo_RU_OCimport_01 : CUP_O_Ural_Reammo_RU { scope = 0; class EventHandlers; };
+    class CUP_O_Ural_Reammo_RU_OCimport_02 : CUP_O_Ural_Reammo_RU_OCimport_01 { scope = 0; class EventHandlers; };
 
     class CUP_O_Su25_Dyn_SLA;
     class CUP_O_Su25_Dyn_SLA_OCimport_01 : CUP_O_Su25_Dyn_SLA { scope = 0; class EventHandlers; };
@@ -1340,6 +1340,13 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_NKARMY";
         crew = "CFP_O_NKARMY_Crewman_01";
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\vehicles\T34\t34_body01_nk.paa",
+            "\x\cfp\addons\vehicles\T34\t34_body02_nk.paa",
+            "\x\cfp\addons\vehicles\T34\t34_turret_nk.paa",
+            "\x\cfp\addons\vehicles\T34\t34_wheels_nk_co.paa",
+            "\x\cfp\addons\vehicles\T34\t34_body03_co.paa"
+        };
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_NKARMY_Crewman_01"; };
@@ -1360,14 +1367,13 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\T34\t34_body01_nk.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\T34\t34_body02_nk.paa'];_unit setObjectTextureGlobal [2,'\x\cfp\addons\vehicles\T34\t34_turret_nk.paa'];_unit setObjectTextureGlobal [3,'\x\cfp\addons\vehicles\T34\t34_wheels_nk_co.paa'];_unit setObjectTextureGlobal [4,'\x\cfp\addons\vehicles\T34\t34_body03_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "NorthKorea";
 
     };
 
@@ -1405,6 +1411,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_NKARMY";
         crew = "CFP_O_NKARMY_Crewman_01";
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\vehicles\BRDM\brdm2_01_nk.paa",
+            "\x\cfp\addons\vehicles\BRDM\brdm2_01_nk.paa"
+        };
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_NKARMY_Crewman_01"; };
@@ -1416,14 +1426,13 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\BRDM\brdm2_01_nk.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\BRDM\brdm2_02_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "NorthKorea";
 
     };
 
@@ -1436,6 +1445,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_NKARMY";
         crew = "CFP_O_NKARMY_Crewman_01";
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\vehicles\BTR60\nkoreabody1.paa",
+            "\x\cfp\addons\vehicles\BTR60\nkoreabody2.paa"
+        };
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_NKARMY_Crewman_01"; };
@@ -1456,14 +1469,13 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\BTR60\nkoreabody1.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\BTR60\nkoreabody2.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "NorthKorea";
 
     };
 
@@ -1476,6 +1488,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_NKARMY";
         crew = "CFP_O_NKARMY_Crewman_01";
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\vehicles\BMP\trup_nkorea.paa",
+            "\x\cfp\addons\vehicles\BMP\veza0_nkorea.paa"
+        };
 
         class Turrets : Turrets {
             class CommanderOptics : CommanderOptics { gunnerType = "CFP_O_NKARMY_Crewman_01"; };
@@ -1496,18 +1512,17 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\BMP\trup_nkorea.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\BMP\veza0_nkorea.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "NorthKorea";
 
     };
 
-    class CFP_O_NKARMY_Ural_01 : CUP_O_Ural_SLA_OCimport_02  {
+    class CFP_O_NKARMY_Ural_01 : CUP_O_Ural_RU_OCimport_02  {
         editorPreview = \x\cfp\addons\o_nkarmy\data\preview\CFP_O_NKARMY_Ural_01.JPG;
         author = "Drew";
         scope = 2;
@@ -1528,18 +1543,17 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_kabina_khk_co.paa'];_unit setObjectTextureGlobal [1,'CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_plachta_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "RU";
 
     };
 
-    class CFP_O_NKARMY_Ural_Refuel_01 : CUP_O_Ural_Refuel_SLA_OCimport_02  {
+    class CFP_O_NKARMY_Ural_Refuel_01 : CUP_O_Ural_Refuel_RU_OCimport_02  {
         editorPreview = \x\cfp\addons\o_nkarmy\data\preview\CFP_O_NKARMY_Ural_Refuel_01.JPG;
         author = "Drew";
         scope = 2;
@@ -1554,18 +1568,17 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_kabina_khk_co.paa'];_unit setObjectTextureGlobal [1,'CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_open_co.paa'];_unit setObjectTextureGlobal [2,'CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_fuel_chdkz_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "RU";
 
     };
 
-    class CFP_O_NKARMY_Ural_Repair_01 : CUP_O_Ural_Repair_SLA_OCimport_02  {
+    class CFP_O_NKARMY_Ural_Repair_01 : CUP_O_Ural_Repair_RU_OCimport_02  {
         editorPreview = \x\cfp\addons\o_nkarmy\data\preview\CFP_O_NKARMY_Ural_Repair_01.JPG;
         author = "Drew";
         scope = 2;
@@ -1580,18 +1593,17 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_kabina_khk_co.paa'];_unit setObjectTextureGlobal [1,'CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_plachta_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "RU";
 
     };
 
-    class CFP_O_NKARMY_Ural_Ammo_01 : CUP_O_Ural_Reammo_SLA_OCimport_02  {
+    class CFP_O_NKARMY_Ural_Ammo_01 : CUP_O_Ural_Reammo_RU_OCimport_02  {
         editorPreview = \x\cfp\addons\o_nkarmy\data\preview\CFP_O_NKARMY_Ural_Ammo_01.JPG;
         author = "Drew";
         scope = 2;
@@ -1606,14 +1618,13 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_kabina_khk_co.paa'];_unit setObjectTextureGlobal [1,'CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_plachta_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "RU";
 
     };
 
@@ -1626,20 +1637,23 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_NKARMY";
         crew = "CFP_O_NKARMY_Pilot_01";
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\vehicles\SU25\su25_body1_nk_co.paa",
+            "\x\cfp\addons\vehicles\SU25\su25_body2_nk_co.paa"
+        };
 
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\SU25\su25_body1_nk_co.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\SU25\su25_body2_nk_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "NorthKorea";
 
     };
 
@@ -1652,6 +1666,9 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_NKARMY";
         crew = "CFP_O_NKARMY_Helicopter_Pilot_01";
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\vehicles\Hummingbird\Hummingbird_NK.paa"
+        };
 
         class Turrets : Turrets {
             class CopilotTurret : CopilotTurret { gunnerType = "CFP_O_NKARMY_Helicopter_Pilot_01"; };
@@ -1663,14 +1680,13 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\Hummingbird\Hummingbird_NK.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "NorthKorea";
 
     };
 
@@ -1683,6 +1699,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_NKARMY";
         crew = "CFP_O_NKARMY_Helicopter_Pilot_01";
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\vehicles\Mi24\mi24_nkorea1.paa",
+            "\x\cfp\addons\vehicles\Mi24\mi24_nkorea2.paa"
+        };
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_NKARMY_Helicopter_Pilot_01"; };
@@ -1694,14 +1714,13 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\Mi24\mi24_nkorea1.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\Mi24\mi24_nkorea2.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "NorthKorea";
 
     };
 
@@ -1809,6 +1828,11 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_NKARMY";
         crew = "CFP_O_NKARMY_Pilot_01";
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\vehicles\AN2\an2_1_nk.paa",
+            "\x\cfp\addons\vehicles\AN2\an2_2_nk.paa",
+            "\x\cfp\addons\vehicles\AN2\an2_wings_nk.paa"
+        };
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_NKARMY_Pilot_01"; };
@@ -1820,14 +1844,13 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\AN2\an2_1_nk.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\AN2\an2_2_nk.paa'];_unit setObjectTextureGlobal [2,'\x\cfp\addons\vehicles\AN2\an2_wings_nk.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "NorthKorea";
 
     };
 

@@ -821,9 +821,9 @@ class CfgVehicles {
         };
     };
 
-    class CFP_O_TBAN_Offroad_Armed_01;
-    class CFP_O_TBAN_Offroad_Armed_01_OCimport_01 : CFP_O_TBAN_Offroad_Armed_01 { scope = 0; class EventHandlers; class Turrets; };
-    class CFP_O_TBAN_Offroad_Armed_01_OCimport_02 : CFP_O_TBAN_Offroad_Armed_01_OCimport_01 {
+    class B_G_Offroad_01_armed_F;
+    class B_G_Offroad_01_armed_F_OCimport_01 : B_G_Offroad_01_armed_F { scope = 0; class EventHandlers; class Turrets; };
+    class B_G_Offroad_01_armed_F_OCimport_02 : B_G_Offroad_01_armed_F_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class M2_Turret;
@@ -866,9 +866,9 @@ class CfgVehicles {
         };
     };
 
-    class CUP_B_Ural_CDF;
-    class CUP_B_Ural_CDF_OCimport_01 : CUP_B_Ural_CDF { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_B_Ural_CDF_OCimport_02 : CUP_B_Ural_CDF_OCimport_01 {
+    class CUP_O_Ural_SLA;
+    class CUP_O_Ural_SLA_OCimport_01 : CUP_O_Ural_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_Ural_SLA_OCimport_02 : CUP_O_Ural_SLA_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class CargoTurret_01;
@@ -876,9 +876,9 @@ class CfgVehicles {
         };
     };
 
-    class CFP_O_TBAN_Technical_PK_01;
-    class CFP_O_TBAN_Technical_PK_01_OCimport_01 : CFP_O_TBAN_Technical_PK_01 { scope = 0; class EventHandlers; class Turrets; };
-    class CFP_O_TBAN_Technical_PK_01_OCimport_02 : CFP_O_TBAN_Technical_PK_01_OCimport_01 {
+    class CUP_I_Datsun_PK_TK;
+    class CUP_I_Datsun_PK_TK_OCimport_01 : CUP_I_Datsun_PK_TK { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_I_Datsun_PK_TK_OCimport_02 : CUP_I_Datsun_PK_TK_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
@@ -1017,7 +1017,7 @@ class CfgVehicles {
         crew = "CFP_B_USCIA_paramilitary_officer_covert_01";
     };
 
-    class CFP_B_USCIA_Offroad_01 : CFP_O_TBAN_Offroad_Armed_01_OCimport_02 {
+    class CFP_B_USCIA_Offroad_01 : B_G_Offroad_01_armed_F_OCimport_02 {
         editorPreview = "\x\cfp\addons\b_uscia\data\preview\CFP_B_USCIA_Offroad_01.JPG";
         author = "Tupolov";
         scope = 2;
@@ -1174,7 +1174,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USCIA_Ural_01 : CUP_B_Ural_CDF_OCimport_02 {
+    class CFP_B_USCIA_Ural_01 : CUP_O_Ural_SLA_OCimport_02 {
         editorPreview = "\x\cfp\addons\b_uscia\data\preview\CFP_B_USCIA_Ural_01.JPG";
         author = "Tupolov";
         scope = 2;
@@ -1195,18 +1195,17 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_kabina_un_co.paa'];_unit setObjectTextureGlobal [1,'CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_plachta_un_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "UN";
 
     };
 
-    class CFP_B_USCIA_Technical_01 : CFP_O_TBAN_Technical_PK_01_OCimport_02 {
+    class CFP_B_USCIA_Technical_01 : CUP_I_Datsun_PK_TK_OCimport_02 {
         editorPreview = "\x\cfp\addons\b_uscia\data\preview\CFP_B_USCIA_Technical_01.JPG";
         author = "Tupolov";
         scope = 2;
@@ -1227,14 +1226,13 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_trup4_civ_CO.paa'];_unit setObjectTextureGlobal [1,'CUP\WheeledVehicles\CUP_WheeledVehicles_Datsun\Data\datsun_addons4_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "striped";
 
     };
 
