@@ -1825,7 +1825,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_M113A3_Woodland_01 : CUP_B_M113_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\b_usarmy_1991_woodland\data\preview\CFP_B_USARMY_91_M113A3_Woodland_Woodland_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_woodland\data\preview\CFP_B_USARMY_91_M113A3_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;

@@ -568,7 +568,7 @@ class CfgVehicles {
 
 
     class CFP_B_USAArmy_Rifleman_Woodland_01 : CUP_B_US_Soldier_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_Rifleman_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_Rifleman_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -607,7 +607,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_Asst_Machinegunner_Woodland_01 : CUP_B_US_Soldier_AMG_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_Asst_Machinegunner_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_Asst_Machinegunner_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -648,7 +648,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_Asst_Auto_Rifleman_Woodland_01 : CUP_B_US_Soldier_AAR_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_Asst_Auto_Rifleman_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_Asst_Auto_Rifleman_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -689,7 +689,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_Asst_AT_Specialist_Javelin_Woodland_01 : CUP_B_US_Soldier_AHAT_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_Asst_AT_Specialist_Javelin_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_Asst_AT_Specialist_Javelin_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -730,7 +730,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_Asst_AT_Specialist_Woodland_01 : CUP_B_US_Soldier_AAT_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_Asst_AT_Specialist_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_Asst_AT_Specialist_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -771,7 +771,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_Rifleman_Light_Woodland_01 : CUP_B_US_Soldier_Light_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_Rifleman_Light_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_Rifleman_Light_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -810,7 +810,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_Grenadier_Woodland_01 : CUP_B_US_Soldier_GL_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_Grenadier_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_Grenadier_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -849,7 +849,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_Officer_Woodland_01 : CUP_B_US_Officer_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_Officer_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_Officer_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -888,7 +888,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_Squad_Leader_Woodland_01 : CUP_B_US_Soldier_SL_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_Squad_Leader_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_Squad_Leader_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -929,7 +929,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_Team_Leader_Woodland_01 : CUP_B_US_Soldier_TL_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_Team_Leader_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_Team_Leader_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -970,7 +970,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_Rifleman_AT_Woodland_01 : CUP_B_US_Soldier_LAT_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_Rifleman_AT_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_Rifleman_AT_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1009,7 +1009,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_AT_Specialist_Woodland_01 : CUP_B_US_Soldier_AT_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_AT_Specialist_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_AT_Specialist_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1050,7 +1050,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_AT_Specialist_Javelin_Woodland_01 : CUP_B_US_Soldier_HAT_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_AT_Specialist_Javelin_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_AT_Specialist_Javelin_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1089,7 +1089,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_AA_Specialist_Woodland_01 : CUP_B_US_Soldier_AA_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_AA_Specialist_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_AA_Specialist_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1128,7 +1128,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_Medic_Woodland_01 : CUP_B_US_Medic_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_Medic_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_Medic_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1169,7 +1169,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_Automatic_Rifleman_Woodland_01 : CUP_B_US_Soldier_AR_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_Automatic_Rifleman_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_Automatic_Rifleman_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1210,7 +1210,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_Machinegunner_Woodland_01 : CUP_B_US_Soldier_MG_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_Machinegunner_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_Machinegunner_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1251,7 +1251,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_Spotter_Woodland_01 : CUP_B_US_Spotter_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_Spotter_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_Spotter_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1290,7 +1290,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_Sniper_Woodland_01 : CUP_B_US_Sniper_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_Sniper_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_Sniper_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1329,7 +1329,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_Sniper_TWS_Woodland_01 : CUP_B_US_Sniper_M110_TWS_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_Sniper_TWS_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_Sniper_TWS_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1368,7 +1368,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_Sniper_M107_Woodland_01 : CUP_B_US_Sniper_M107_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_Sniper_M107_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_Sniper_M107_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1407,7 +1407,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_Marksman_Woodland_01 : CUP_B_US_Soldier_Marksman_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_Marksman_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_Marksman_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1446,7 +1446,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_Sapper_Woodland_01 : CUP_B_US_Soldier_Engineer_Sapper_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_Sapper_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_Sapper_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1487,7 +1487,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_EOD_Engineer_Woodland_01 : CUP_B_US_Soldier_Engineer_EOD_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_EOD_Engineer_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_EOD_Engineer_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1528,7 +1528,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_Engineer_Woodland_01 : CUP_B_US_Engineer_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_Engineer_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_Engineer_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1569,7 +1569,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_Crewman_Woodland_01 : CUP_B_US_Crew_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_Crewman_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_Crewman_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1608,7 +1608,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_Pilot_Woodland_01 : CUP_B_US_Pilot_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_Pilot_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_Pilot_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1875,7 +1875,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_M2A2_Bradley_IFV_Woodland_01 : CUP_B_M2Bradley_USA_W_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_M2A2_Bradley_IFV_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_M2A2_Bradley_IFV_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1905,7 +1905,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_M2A3_ERA_Bradley_IFV_Woodland_01 : CUP_B_M2A3Bradley_USA_W_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_M2A3_ERA_Bradley_IFV_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_M2A3_ERA_Bradley_IFV_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1935,7 +1935,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_M7_Bradley_Woodland_01 : CUP_B_M7Bradley_USA_W_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_M7_Bradley_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_M7_Bradley_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1965,7 +1965,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_M113A3_Woodland_01 : CUP_B_M113_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_M113A3_Desert_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_M113A3_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1995,7 +1995,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_M1126_ICV_M2_Woodland_01 : CUP_B_M1126_ICV_M2_Woodland_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_M1126_ICV_M2_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_M1126_ICV_M2_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2026,7 +2026,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_M1126_ICV_MK19_Woodland_01 : CUP_B_M1126_ICV_MK19_Woodland_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_M1126_ICV_MK19_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_M1126_ICV_MK19_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2057,7 +2057,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_M6_Linebacker_Woodland_01 : CUP_B_M6LineBacker_USA_W_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_M6_Linebacker_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_M6_Linebacker_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2087,7 +2087,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_HMMWV_Avenger_Woodland_01 : CUP_B_HMMWV_Avenger_USMC_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_HMMWV_Avenger_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_HMMWV_Avenger_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2117,7 +2117,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_M270_MLRS_HE_Woodland_01 : CUP_B_M270_HE_USMC_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_M270_MLRS_HE_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_M270_MLRS_HE_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2147,7 +2147,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_M270_MLRS_DPICM_Woodland_01 : CUP_B_M270_DPICM_USMC_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_M270_MLRS_DPICM_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_M270_MLRS_DPICM_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2177,7 +2177,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_HMMWV_Unarmed_Woodland_01 : CUP_B_HMMWV_Unarmed_USMC_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_HMMWV_Unarmed_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_HMMWV_Unarmed_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2202,7 +2202,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_HMMWV_M2_Woodland_01 : CUP_B_HMMWV_M2_USMC_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_HMMWV_M2_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_HMMWV_M2_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2232,7 +2232,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_HMMWV_MK19_Woodland_01 : CUP_B_HMMWV_MK19_USMC_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_HMMWV_MK19_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_HMMWV_MK19_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2262,7 +2262,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_HMMWV_TOW_Woodland_01 : CUP_B_HMMWV_TOW_USMC_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_HMMWV_TOW_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_HMMWV_TOW_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2292,7 +2292,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_HMMWV_Ambulance_Woodland_01 : CUP_B_HMMWV_Ambulance_USMC_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_HMMWV_Ambulance_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_HMMWV_Ambulance_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2317,7 +2317,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_HMMWV_Transport_Woodland_01 : CUP_B_HMMWV_Transport_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_HMMWV_Transport_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_HMMWV_Transport_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2350,7 +2350,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_HMMWV_M1151_M2_Woodland_01 : CUP_B_HMMWV_M2_GPK_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_HMMWV_M1151_M2_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_HMMWV_M1151_M2_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2387,7 +2387,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_MTVR_Woodland_01 : CUP_B_MTVR_USMC_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_MTVR_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_MTVR_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2412,7 +2412,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_MTVR_Ammo_Woodland_01 : CUP_B_MTVR_Ammo_USMC_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_MTVR_Ammo_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_MTVR_Ammo_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2437,7 +2437,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_MTVR_Refuel_Woodland_01 : CUP_B_MTVR_Refuel_USMC_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_MTVR_Refuel_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_MTVR_Refuel_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2462,7 +2462,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_MTVR_Repair_Woodland_01 : CUP_B_MTVR_Repair_USMC_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_MTVR_Repair_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_MTVR_Repair_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2487,7 +2487,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_Towing_Tractor_Woodland_01 : CUP_B_TowingTractor_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_Towing_Tractor_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_Towing_Tractor_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2512,7 +2512,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_M1165_GMV_M134_Woodland_01 : CUP_B_M1165_GMV_WDL_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_M1165_GMV_M134_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_M1165_GMV_M134_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2542,7 +2542,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_M1151_M2_Woodland_01 : CUP_B_M1151_M2_WDL_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_M1151_M2_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_M1151_M2_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2572,7 +2572,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_M1151_M2_Deployment_Woodland_01 : CUP_B_M1151_Deploy_WDL_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_M1151_M2_Deployment_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_M1151_M2_Deployment_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2602,7 +2602,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_M1151_MK19_Woodland_01 : CUP_B_M1151_Mk19_WDL_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_M1151_MK19_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_M1151_MK19_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2632,7 +2632,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_M1151_Unarmed_Woodland_01 : CUP_B_M1151_WDL_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_M1151_Unarmed_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_M1151_Unarmed_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2657,7 +2657,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_M1152_ECV_Woodland_01 : CUP_B_M1152_WDL_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_M1152_ECV_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_M1152_ECV_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2682,7 +2682,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_M1167_TOW_Woodland_01 : CUP_B_M1167_WDL_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_M1167_TOW_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_M1167_TOW_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2712,7 +2712,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_AH_64D_Woodland_01 : CUP_B_AH64D_DL_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_AH_64D_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_AH_64D_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2742,7 +2742,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_MH_6M_MELB_Woodland_01 : CUP_B_MH6M_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_MH_6M_MELB_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_MH_6M_MELB_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2780,7 +2780,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_MH_6J_Little_Bird_Woodland_01 : CUP_B_MH6J_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_MH_6J_Little_Bird_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_MH_6J_Little_Bird_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2818,7 +2818,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_MH_6M_Recon_Woodland_01 : CUP_B_MH6M_OBS_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_MH_6M_Recon_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_MH_6M_Recon_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2856,7 +2856,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_MH_6J_Recon_Woodland_01 : CUP_B_MH6J_OBS_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_MH_6J_Recon_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_MH_6J_Recon_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2894,7 +2894,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_AH_6M_Woodland_01 : CUP_B_AH6M_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_AH_6M_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_AH_6M_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2924,7 +2924,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_AH_6J_Woodland_01 : CUP_B_AH6J_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_AH_6J_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_AH_6J_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2954,7 +2954,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_CH_47F_Woodland_01 : CUP_B_CH47F_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_CH_47F_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_CH_47F_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -2987,7 +2987,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_CH_47F_VIV_Woodland_01 : CUP_B_CH47F_VIV_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_CH_47F_VIV_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_CH_47F_VIV_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -3019,7 +3019,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_UH_60M_Woodland_01 : CUP_B_UH60M_US_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_UH_60M_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_UH_60M_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -3051,7 +3051,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_UH_60M_MEV_Woodland_01 : CUP_B_UH60M_Unarmed_FFV_MEV_US_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_UH_60M_MEV_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_UH_60M_MEV_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -3087,7 +3087,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_A10A_Thunderbolt_II_Woodland_01 : CUP_B_A10_DYN_USA_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_A10A_Thunderbolt_II_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_A10A_Thunderbolt_II_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -3112,7 +3112,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_M1A1_Abrams_Woodland_01 : CUP_B_M1A1_Woodland_US_Army_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_M1A1_Abrams_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_M1A1_Abrams_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -3150,7 +3150,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_M1A2_Abrams_TUSK_Woodland_01 : CUP_B_M1A2_TUSK_MG_US_Army_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_M1A2_Abrams_TUSK_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_M1A2_Abrams_TUSK_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -3188,7 +3188,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_M2_Machine_Gun_Woodland_01 : CUP_B_M2StaticMG_US_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_M2_Machine_Gun_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_M2_Machine_Gun_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -3218,7 +3218,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_M2_Minitripod_Woodland_01 : CUP_B_M2StaticMG_MiniTripod_US_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_M2_Minitripod_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_M2_Minitripod_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -3248,7 +3248,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_TOW_Tripod_Woodland_01 : CUP_B_TOW_TriPod_US_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_TOW_Tripod_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_TOW_Tripod_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -3278,7 +3278,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_M252_81mm_Mortar_Woodland_01 : CUP_B_M252_US_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_M252_81mm_Mortar_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_M252_81mm_Mortar_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -3308,7 +3308,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USAArmy_M119_Woodland_01 : CUP_B_M119_US_OCimport_02 {
-        editorPreview = \x\CFP\addons\cfp_b_usarmy_2003_woodland\data\preview\CFP_B_USAArmy_M119_Woodland_01.JPG;
+        editorPreview = \x\cfp\addons\b_usaarmy_2003_woodland\data\preview\CFP_B_USAArmy_M119_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;

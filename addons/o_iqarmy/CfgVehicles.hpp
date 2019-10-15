@@ -338,6 +338,7 @@ class CfgVehicles {
 
 
     class CFP_O_IQARMY_Rifleman_01 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_Rifleman_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -403,6 +404,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_Squad_Leader_01 : CFP_O_IQARMY_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_Squad_Leader_01.JPG;
 
         displayName = "Squad Leader";
 
@@ -420,6 +422,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_Grenadier_01 : CFP_O_IQARMY_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_Grenadier_01.JPG;
 
         displayName = "Grenadier";
 
@@ -439,6 +442,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_Machine_Gunner_01 : CFP_O_IQARMY_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_Machine_Gunner_01.JPG;
 
         displayName = "Machine Gunner";
 
@@ -458,6 +462,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_Auto_Rifleman_01 : CFP_O_IQARMY_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_Auto_Rifleman_01.JPG;
 
         displayName = "Auto Rifleman";
 
@@ -475,6 +480,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_Asst_Machine_Gunner_01 : CFP_O_IQARMY_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_Asst_Machine_Gunner_01.JPG;
 
         displayName = "Asst. Machine Gunner";
 
@@ -494,6 +500,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_Sniper_01 : CFP_O_IQARMY_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_Sniper_01.JPG;
 
         displayName = "Sniper";
 
@@ -511,6 +518,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_Rifleman_AT_01 : CFP_O_IQARMY_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_Rifleman_AT_01.JPG;
 
         displayName = "Rifleman AT";
 
@@ -530,6 +538,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_AA_Specialist_01 : CFP_O_IQARMY_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_AA_Specialist_01.JPG;
 
         displayName = "AA Specialist";
 
@@ -549,6 +558,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_Medic_01 : CFP_O_IQARMY_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_Medic_01.JPG;
 
         displayName = "Medic";
         attendant = 1;
@@ -571,6 +581,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_Explosive_Specialist_01 : CFP_O_IQARMY_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_Explosive_Specialist_01.JPG;
 
         displayName = "Explosive Specialist";
         canDeactivateMines = 1;
@@ -592,6 +603,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_RG_Rifleman_01 : O_Soldier_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_RG_Rifleman_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -630,6 +642,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_RG_Team_Leader_01 : CFP_O_IQARMY_RG_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_RG_Team_Leader_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -668,6 +681,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_RG_Grenadier_01 : CFP_O_IQARMY_RG_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_RG_Grenadier_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -708,6 +722,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_RG_Machine_Gunner_01 : CFP_O_IQARMY_RG_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_RG_Machine_Gunner_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -748,6 +763,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_RG_Auto_Rifleman_01 : CFP_O_IQARMY_RG_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_RG_Auto_Rifleman_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -786,6 +802,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_RG_Asst_Machine_Gunner_01 : CFP_O_IQARMY_RG_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_RG_Asst_Machine_Gunner_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -826,6 +843,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_RG_Sniper_01 : CFP_O_IQARMY_RG_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_RG_Sniper_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -864,6 +882,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_RG_Rifleman_AT_01 : CFP_O_IQARMY_RG_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_RG_Rifleman_AT_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -904,6 +923,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_RG_AA_Specialist_01 : CFP_O_IQARMY_RG_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_RG_AA_Specialist_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -944,6 +964,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_RG_Medic_01 : CFP_O_IQARMY_RG_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_RG_Medic_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -987,6 +1008,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_RG_Explosive_Specialist_01 : CFP_O_IQARMY_RG_Rifleman_01 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_RG_Explosive_Specialist_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1029,6 +1051,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_Officer_01 : O_officer_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_Officer_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1067,6 +1090,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_Crewman_01 : O_crew_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_Crewman_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1105,6 +1129,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_Helicopter_Pilot_01 : O_helicrew_F_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_Helicopter_Pilot_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1143,6 +1168,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_BRDM_2_01 : CUP_O_BRDM2_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_BRDM_2_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1173,6 +1199,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_BTR_60PB_01 : CUP_O_BTR60_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_BTR_60PB_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1212,6 +1239,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_BMP_2_01 : CUP_O_BMP2_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_BMP_2_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1248,6 +1276,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_BMP_1_01 : CUP_O_BMP1_TKA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_BMP_1_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1287,6 +1316,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_MT_LB_01 : CUP_O_MTLB_pk_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_MT_LB_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1317,6 +1347,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_ZSU_23_4_01 : CUP_O_ZSU23_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_ZSU_23_4_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1347,6 +1378,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_T72_01 : CUP_O_T72_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_T72_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1383,6 +1415,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_T55_01 : CUP_O_T55_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_T55_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1419,6 +1452,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_Ural_01 : CUP_O_Ural_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_Ural_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1450,6 +1484,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_Ural_Open_01 : CUP_O_Ural_Open_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_Ural_Open_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1481,6 +1516,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_Ural_Refuel_01 : CUP_O_Ural_Refuel_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_Ural_Refuel_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1506,6 +1542,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_Ural_Repair_01 : CUP_O_Ural_Repair_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_Ural_Repair_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1531,6 +1568,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_Ural_Ammo_01 : CUP_O_Ural_Reammo_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_Ural_Ammo_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1556,6 +1594,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_UAZ_01 : CUP_O_UAZ_Unarmed_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_UAZ_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1581,6 +1620,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_UAZ_Open_01 : CUP_O_UAZ_Open_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_UAZ_Open_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1615,6 +1655,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_UAZ_DShKM_01 : CUP_O_UAZ_MG_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_UAZ_DShKM_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1646,6 +1687,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_UAZ_AGS_30_01 : CUP_O_UAZ_AGS30_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_UAZ_AGS_30_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1677,6 +1719,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_UAZ_SPG_01 : CUP_O_UAZ_SPG9_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_UAZ_SPG_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1708,6 +1751,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_UAZ_Metis_01 : CUP_O_UAZ_METIS_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_UAZ_Metis_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1739,6 +1783,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_Mi_24D_01 : CUP_O_Mi24_D_Dynamic_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_Mi_24D_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1769,6 +1814,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_Mi_8MT_01 : CUP_O_Mi8_SLA_1_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_Mi_8MT_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1801,6 +1847,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_Su_25_Frogfoot_01 : CUP_O_Su25_Dyn_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_Su_25_Frogfoot_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1825,6 +1872,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_Ural_ZU_23_01 : CUP_O_Ural_ZU23_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_Ural_ZU_23_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1855,6 +1903,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_BM_21_01 : CUP_O_BM21_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_BM_21_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1884,6 +1933,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_DShKM_01 : CUP_O_DSHKM_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_DShKM_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1913,6 +1963,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_DShKM_Minitripod_01 : CUP_O_DSHKM_MiniTripod_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_DShKM_Minitripod_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1942,6 +1993,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_AGS_30_01 : CUP_O_AGS_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_AGS_30_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1971,6 +2023,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_SPG_9_01 : CUP_O_SPG9_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_SPG_9_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -2000,6 +2053,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_Podnos_2B14_01 : CUP_O_2b14_82mm_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_Podnos_2B14_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -2029,6 +2083,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_D30_01 : CUP_O_D30_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_D30_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -2058,6 +2113,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_ZU_23_01 : CUP_O_ZU23_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_ZU_23_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -2087,6 +2143,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_Igla_AA_Pod_01 : CUP_O_Igla_AA_pod_SLA_OCimport_02 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_Igla_AA_Pod_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -2116,6 +2173,7 @@ class CfgVehicles {
     };
 
     class CFP_O_IQARMY_Pilot_01 : CFP_O_IQARMY_Helicopter_Pilot_01 {
+        editorPreview = \x\cfp\addons\o_iqarmy\data\preview\CFP_O_IQARMY_Pilot_01.JPG;
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
