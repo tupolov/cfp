@@ -9,7 +9,7 @@ class CBA_Extended_EventHandlers_base;
 class CfgVehicles {
 
 // OVERRIDES
-/*
+
     class CUP_B_Dingo_CZ_Wdl;
     class CUP_B_Dingo_CZ_DES : CUP_B_Dingo_CZ_Wdl {
         editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_Dingo_CZ_DES.JPG";
@@ -70,7 +70,7 @@ class CfgVehicles {
         editorPreview = "\x\cfp\addons\cup_b_cz\data\preview\CUP_B_AGS_ACR.JPG";
         crew = "CUP_B_CZ_Soldier_805_DES";
     };
-*/
+
 // BASE MEN
     class CUP_Creatures_Military_ACR_Soldier_Base;
     class CUP_B_CZ_Soldier_DST_Base : CUP_Creatures_Military_ACR_Soldier_Base {
@@ -1234,7 +1234,7 @@ class CfgVehicles {
     };
 */
 // NEW VEHICLES
-/*
+
     class CUP_B_T72_CZ;
     class CUP_B_T72_CZ_OCimport_01 : CUP_B_T72_CZ { scope = 0; class EventHandlers; class Turrets; };
     class CUP_B_T72_CZ_OCimport_02 : CUP_B_T72_CZ_OCimport_01 {
@@ -1566,5 +1566,5 @@ class CfgVehicles {
         ALiVE_orbatCreator_texture = "TKC";
 
     };
-*/
+
 };
