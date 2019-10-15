@@ -592,7 +592,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_Asst_AT_Specialist_Dragon_Woodland_01 : CUP_B_US_Soldier_AHAT_OCimport_02 {
-        editorPreview = \x\CFP\addons\b_usarmy_1991_woodland\data\preview\CFP_B_USARMY_91_Asst_AT_Specialist_Javelin_Woodland_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_woodland\data\preview\CFP_B_USARMY_91_Asst_AT_Specialist_Dragon_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -953,7 +953,7 @@ class CfgVehicles {
     };
 
     class CFP_B_USARMY_91_AT_Specialist_Dragon_Woodland_01 : CUP_B_US_Soldier_HAT_OCimport_02 {
-        editorPreview = \x\CFP\addons\b_usarmy_1991_woodland\data\preview\CFP_B_USARMY_91_AT_Specialist_Javelin_Woodland_01.JPG;
+        editorPreview = \x\CFP\addons\b_usarmy_1991_woodland\data\preview\CFP_B_USARMY_91_AT_Specialist_Dragon_Woodland_01.JPG;
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
