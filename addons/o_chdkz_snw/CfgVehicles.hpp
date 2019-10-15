@@ -550,6 +550,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_SNW";
         crew = "CFP_O_CHDKZ_Crewman_SNW_01";
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\vehicles\MTLB\body_chedaki_snow_co.paa",
+            "\x\cfp\addons\vehicles\MTLB\pk_mod_chedaki_snow_co.paa"
+        };
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -560,15 +564,14 @@ class CfgVehicles {
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\MTLB\body_chedaki_snow_co.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\MTLB\pk_mod_chedaki_snow_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+           class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "ChedakiSnow";
 
     };
 
@@ -853,6 +856,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_SNW";
         crew = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01";
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\vehicles\BTR60\chedaki_body_snow_co.paa",
+            "\x\cfp\addons\vehicles\BTR60\chedaki_detail_snow_co.paa"
+        };
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -873,14 +880,13 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\BTR60\chedaki_body_snow_co.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\BTR60\chedaki_detail_snow_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "ChedakiSnow";
 
     };
 
@@ -893,7 +899,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_SNW";
 
-        identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
+        identityTypes[] = {"Head_Greek","LanguageRUS_F","CUP_G_GUER"};
 
         uniformClass = "CFP_CHZ_Berezka";
 
@@ -972,7 +978,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_SNW";
 
-        identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
+        identityTypes[] = {"Head_Greek","LanguageRUS_F","CUP_G_GUER"};
 
         uniformClass = "CFP_CHZ_Berezka3";
 
@@ -1055,7 +1061,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_SNW";
 
-        identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
+        identityTypes[] = {"Head_Greek","LanguageRUS_F","CUP_G_GUER"};
 
         uniformClass = "CFP_CHZ_Berezka2";
 
@@ -1127,7 +1133,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_SNW";
 
-        identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
+        identityTypes[] = {"Head_Greek","LanguageRUS_F","CUP_G_GUER"};
 
         uniformClass = "CFP_CHZ_Berezka4";
 
@@ -1206,7 +1212,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_SNW";
 
-        identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
+        identityTypes[] = {"Head_Greek","LanguageRUS_F","CUP_G_GUER"};
 
         uniformClass = "CFP_CHZ_Berezka";
 
@@ -1280,7 +1286,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_SNW";
 
-        identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
+        identityTypes[] = {"Head_Greek","LanguageRUS_F","CUP_G_GUER"};
 
         uniformClass = "CFP_CHZ_Berezka3";
 
@@ -1332,7 +1338,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_SNW";
 
-        identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
+        identityTypes[] = {"Head_Greek","LanguageRUS_F","CUP_G_GUER"};
 
         uniformClass = "CFP_CHZ_Berezka2";
 
@@ -1406,7 +1412,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_SNW";
 
-        identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
+        identityTypes[] = {"Head_Greek","LanguageRUS_F","CUP_G_GUER"};
 
         uniformClass = "CFP_CHZ_Berezka4";
 
@@ -1455,7 +1461,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_SNW";
 
-        identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
+        identityTypes[] = {"Head_Greek","LanguageRUS_F","CUP_G_GUER"};
 
         uniformClass = "CFP_CHZ_Berezka4";
 
@@ -1534,7 +1540,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_SNW";
 
-        identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
+        identityTypes[] = {"Head_Greek","LanguageRUS_F","CUP_G_GUER"};
 
         uniformClass = "CFP_CHZ_Berezka";
 
@@ -1599,7 +1605,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_SNW";
 
-        identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
+        identityTypes[] = {"Head_Greek","LanguageRUS_F","CUP_G_GUER"};
 
         uniformClass = "CFP_CHZ_Berezka3";
 
@@ -1682,7 +1688,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_SNW";
 
-        identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
+        identityTypes[] = {"Head_Greek","LanguageRUS_F","CUP_G_GUER"};
 
         uniformClass = "CFP_CHZ_Berezka2";
 
@@ -1761,7 +1767,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_SNW";
 
-        identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
+        identityTypes[] = {"Head_Greek","LanguageRUS_F","CUP_G_GUER"};
 
         uniformClass = "CFP_CHZ_Berezka";
 
@@ -1826,7 +1832,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_SNW";
 
-        identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
+        identityTypes[] = {"Head_Greek","LanguageRUS_F","CUP_G_GUER"};
 
         uniformClass = "CFP_CHZ_Berezka4";
 
@@ -1907,7 +1913,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_SNW";
 
-        identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
+        identityTypes[] = {"Head_Greek","LanguageRUS_F","CUP_G_GUER"};
 
         uniformClass = "CFP_CHZ_Berezka4";
 
@@ -1972,7 +1978,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_SNW";
 
-        identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
+        identityTypes[] = {"Head_Greek","LanguageRUS_F","CUP_G_GUER"};
 
         uniformClass = "CUP_U_O_CHDKZ_Lopotev";
 
@@ -2011,7 +2017,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_SNW";
 
-        identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
+        identityTypes[] = {"Head_Greek","LanguageRUS_F","CUP_G_GUER"};
 
         uniformClass = "CUP_U_O_CHDKZ_Bardak";
 
@@ -2050,7 +2056,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_SNW";
 
-        identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
+        identityTypes[] = {"Head_Greek","LanguageRUS_F","CUP_G_GUER"};
 
         uniformClass = "CFP_CHZ_Berezka3";
 
@@ -2099,7 +2105,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_SNW";
 
-        identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
+        identityTypes[] = {"Head_Greek","LanguageRUS_F","CUP_G_GUER"};
 
         uniformClass = "CUP_U_O_Pilot_01";
 
@@ -2214,7 +2220,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_SNW";
 
-        identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
+        identityTypes[] = {"Head_Greek","LanguageRUS_F","CUP_G_GUER"};
 
         uniformClass = "CUP_U_O_Worker_02";
 
@@ -2253,7 +2259,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_SNW";
 
-        identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
+        identityTypes[] = {"Head_Greek","LanguageRUS_F","CUP_G_GUER"};
 
         uniformClass = "CUP_U_O_Woodlander_01";
 
@@ -2292,7 +2298,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_SNW";
 
-        identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
+        identityTypes[] = {"Head_Greek","LanguageRUS_F","CUP_G_GUER"};
 
         uniformClass = "CUP_U_O_Woodlander_02";
 
@@ -2331,7 +2337,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_SNW";
 
-        identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
+        identityTypes[] = {"Head_Greek","LanguageRUS_F","CUP_G_GUER"};
 
         uniformClass = "CUP_U_O_Woodlander_03";
 
@@ -2370,7 +2376,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_SNW";
 
-        identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
+        identityTypes[] = {"Head_Greek","LanguageRUS_F","CUP_G_GUER"};
 
         uniformClass = "CUP_U_O_Villager_03";
 
@@ -2409,7 +2415,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_SNW";
 
-        identityTypes[] = {"Head_Greek","CUP_D_Language_RU","CUP_G_GUER"};
+        identityTypes[] = {"Head_Greek","LanguageRUS_F","CUP_G_GUER"};
 
         uniformClass = "CUP_U_O_Villager_04";
 
@@ -2448,6 +2454,11 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_SNW";
         crew = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01";
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\vehicles\ZSU\zsu_01_snow_co.paa",
+            "\x\cfp\addons\vehicles\ZSU\zsu_02_snow_co.paa",
+            "\x\cfp\addons\vehicles\ZSU\zsu_01_snow_co.paa"
+        };
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -2459,14 +2470,13 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\ZSU\zsu_01_snow_co.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\ZSU\zsu_02_snow_co.paa'];_unit setObjectTextureGlobal [2,'\x\cfp\addons\vehicles\ZSU\zsu_03_snow_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "ChedakiSnow";
 
     };
 
@@ -2479,6 +2489,11 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_SNW";
         crew = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01";
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\vehicles\ZSU\zsu_01_snow_co.paa",
+            "\x\cfp\addons\vehicles\ZSU\zsu_02_snow_co.paa",
+            "\x\cfp\addons\vehicles\ZSU\zsu_01_snow_co.paa"
+        };
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -2490,14 +2505,13 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\ZSU\zsu_01_snow_co.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\ZSU\zsu_02_snow_co.paa'];_unit setObjectTextureGlobal [2,'\x\cfp\addons\vehicles\ZSU\zsu_03_snow_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "ChedakiSnow";
 
     };
 
@@ -2631,19 +2645,22 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_SNW";
         crew = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01";
+        hiddenSelectionsTextures[] = {
+                "\x\cfp\addons\vehicles\UAZ\uaz_main_snow_co.paa",
+                "CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\data\uaz_other_co.paa"
+            };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\UAZ\uaz_main_snow_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "ChedakiSnow";
 
     };
 
@@ -2656,7 +2673,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_SNW";
         crew = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01";
-        hiddenSelectionstextures[] = {"\x\cfp\addons\vehicles\UAZ\uaz_main_snow_co.paa"};
+        hiddenSelectionsTextures[] = {
+                "\x\cfp\addons\vehicles\UAZ\uaz_main_snow_co.paa",
+                "\x\cfp\addons\vehicles\UAZ\uaz_mount_snow_co.paa"
+            };
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -3096,14 +3116,13 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\T72\T72_1_snow_co.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\T72\T72_2_snow_co.paa'];_unit setObjectTextureGlobal [2,'\x\cfp\addons\vehicles\T72\T72_3_snow_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "ChedakiSnow";
 
     };
 
@@ -3134,14 +3153,13 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\T55\t55_body_chedaki_snow_co.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\T55\t55_tower_chedaki_snow_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "ChedakiSnow";
 
     };
 
@@ -3154,6 +3172,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_SNW";
         crew = "CFP_O_CHDKZ_Crewman_SNW_01";
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\vehicles\BRDM\brdm2_01_snow_co.paa",
+            "\x\cfp\addons\vehicles\BRDM\brdm2_02_snow_co.paa"
+        };
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_CHDKZ_Crewman_SNW_01"; };
@@ -3165,14 +3187,13 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\BRDM\brdm2_01_snow_co.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\BRDM\brdm2_02_snow_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "ChedakiSnow";
 
     };
 
@@ -3185,6 +3206,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_SNW";
         crew = "CFP_O_CHDKZ_Crewman_SNW_01";
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\vehicles\BRDM\brdm2_01_atgm_snow_co.paa",
+            "\x\cfp\addons\vehicles\BRDM\brdm2_02_snow_co.paa"
+        };
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_CHDKZ_Crewman_SNW_01"; };
@@ -3196,14 +3221,13 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\BRDM\brdm2_01_atgm_snow_co.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\BRDM\brdm2_02_snow_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "ChedakiSnow";
 
     };
 
@@ -3216,6 +3240,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_SNW";
         crew = "CFP_O_CHDKZ_Rifleman_SNW_01";
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\vehicles\BRDM\brdm2_01_atgm_snow_co.paa",
+            "\x\cfp\addons\vehicles\BRDM\brdm2_02_snow_co.paa"
+        };
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_CHDKZ_Rifleman_SNW_01"; };
@@ -3227,14 +3255,13 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\BRDM\brdm2_01_snow_co.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\BRDM\brdm2_02_snow_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "ChedakiSnow";
 
     };
 
@@ -3247,6 +3274,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_SNW";
         crew = "CFP_O_CHDKZ_Crewman_SNW_01";
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\vehicles\BMP2\bmp2_01_snow_co.paa",
+            "\x\cfp\addons\vehicles\BMP2\bmp2_02_snow_co.paa"
+        };
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_CHDKZ_Crewman_SNW_01"; };
@@ -3264,14 +3295,13 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\BMP2\bmp2_01_snow_co.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\BMP2\bmp2_02_snow_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "ChedakiSnow";
 
     };
 
@@ -3284,6 +3314,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_SNW";
         crew = "CFP_O_CHDKZ_Crewman_SNW_01";
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\vehicles\BMP2\bmp2_01_snow_co.paa",
+            "\x\cfp\addons\vehicles\BMP2\bmp2_02_snow_co.paa"
+        };
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_CHDKZ_Rifleman_SNW_01"; };
@@ -3295,14 +3329,13 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\BMP2\bmp2_01_snow_co.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\BMP2\bmp2_02_snow_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "ChedakiSnow";
 
     };
 
@@ -3315,6 +3348,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_SNW";
         crew = "CFP_O_CHDKZ_Medic_SNW_01";
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\vehicles\BMP2\bmp2_01_snow_co.paa",
+            "\x\cfp\addons\vehicles\BMP2\bmp2_02_snow_co.paa"
+        };
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -3329,14 +3366,13 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\BMP2\bmp2_01_snow_co.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\BMP2\bmp2_02_snow_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "ChedakiSnow";
 
     };
 
@@ -3349,6 +3385,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_CHDKZ_SNW";
         crew = "CFP_O_CHDKZ_Crewman_SNW_01";
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\vehicles\BMP2\bmp2_01_snow_co.paa",
+            "\x\cfp\addons\vehicles\BMP2\bmp2_02_snow_co.paa"
+        };
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_CHDKZ_Rifleman_SNW_01"; };
@@ -3361,14 +3401,13 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\BMP2\bmp2_01_snow_co.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\BMP2\bmp2_02_snow_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "ChedakiSnow";
 
     };
 
