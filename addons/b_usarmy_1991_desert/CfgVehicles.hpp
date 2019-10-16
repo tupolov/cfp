@@ -3,7 +3,9 @@
 // Generated with Arma 3 version 194.145977 on Stable branch
 // Generated with ALiVE version 1.11.3.1905291
 //////////////////////////////////////////////////////////////////////////////////
-
+#define mag_xx(a,b) class _xx_##a {magazine = ##a; count = b;}
+#define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
+#define item_xx(a,b) class _xx_##a {name = a; count = b;}
 
 class CBA_Extended_EventHandlers_base;
 
@@ -261,6 +263,34 @@ class CfgVehicles {
         class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
+        };
+    };
+
+    class CUP_B_HMMWV_SOV_USA;
+    class CUP_B_HMMWV_SOV_USA_OCimport_01 : CUP_B_HMMWV_SOV_USA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_B_HMMWV_SOV_USA_OCimport_02 : CUP_B_HMMWV_SOV_USA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+            class SideTurret;
+            class CargoTurret_01;
+            class CargoTurret_02;
+            class CargoTurret_03;
+            class CargoTurret_04;
+        };
+    };
+
+    class CUP_B_HMMWV_SOV_M2_USA;
+    class CUP_B_HMMWV_SOV_M2_USA_OCimport_01 : CUP_B_HMMWV_SOV_M2_USA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_B_HMMWV_SOV_M2_USA_OCimport_02 : CUP_B_HMMWV_SOV_M2_USA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+            class SideTurret;
+            class CargoTurret_01;
+            class CargoTurret_02;
+            class CargoTurret_03;
+            class CargoTurret_04;
         };
     };
 
@@ -1794,6 +1824,74 @@ class CfgVehicles {
 
     };
 
+    class CFP_B_USARMY_91_HMMWV_SOV_Mk19_Desert_01 : CUP_B_HMMWV_SOV_USA_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "HMMWV SOV [Mk19]";
+        side = 1;
+        faction = "CFP_B_USARMY_1991_DES";
+        crew = "CFP_B_USARMY_91_SF_Rifleman_Desert_01";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = ""; };
+            class SideTurret : SideTurret { gunnerType = ""; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
+            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_B_USARMY_91_HMMWV_SOV_M2_Desert_01 : CUP_B_HMMWV_SOV_M2_USA_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "HMMWV SOV [M2]";
+        side = 1;
+        faction = "CFP_B_USARMY_1991_DES";
+        crew = "CFP_B_USARMY_91_SF_Rifleman_Desert_01";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = ""; };
+            class SideTurret : SideTurret { gunnerType = ""; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
+            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
     class CFP_B_USARMY_91_M2A3_ERA_Bradley_IFV_Desert_01 : CUP_B_M2A3Bradley_USA_D_OCimport_02 {
         editorPreview = \x\CFP\addons\b_usarmy_1991_desert\data\preview\CFP_B_USARMY_91_M2A3_ERA_Bradley_IFV_Desert_01.JPG;
         author = "Drew";
@@ -2881,6 +2979,274 @@ class CfgVehicles {
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
 
+    };
+
+
+    class CUP_USBasicAmmunitionBox; // CUP_USBasicAmmunitionBox
+    class CUP_USBasicWeaponsBox; // CUP_USBasicWeaponsBox
+    class CUP_USLaunchersBox; // CUP_USLaunchersBox
+    class Box_NATO_Support_F;
+    class Box_NATO_Uniforms_F; // CUP_USBasicWeaponsBox
+    class B_SupplyCrate_F; // CUP_USVehicleBox
+
+    class CFP_B_USARMY_1991_DES_AmmoBox : CUP_USBasicAmmunitionBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = US Army 1991 [Arid/Desert] Ammo Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_556x45_Stanag,50);
+            mag_xx(CUP_HandGrenade_M67,50);
+            mag_xx(SmokeShell,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M,50);
+            mag_xx(CUP_200Rnd_TE4_Red_Tracer_556x45_M249,50);
+            mag_xx(CUP_Dragon_EP1_M,50);
+            mag_xx(CUP_MAAWS_HEDP_M,50);
+            mag_xx(CUP_1Rnd_HEDP_M203,50);
+            mag_xx(CUP_1Rnd_SmokeRed_M203,50);
+            mag_xx(SmokeShellGreen,50);
+            mag_xx(CUP_1Rnd_StarFlare_White_M203,50);
+            mag_xx(CUP_1Rnd_StarFlare_Red_M203,50);
+            mag_xx(CUP_1Rnd_StarFlare_Green_M203,50);
+            mag_xx(CUP_1Rnd_Smoke_M203,50);
+            mag_xx(CUP_1Rnd_SmokeGreen_M203,50);
+            mag_xx(B_IR_Grenade,50);
+            mag_xx(SmokeShellRed,50);
+            mag_xx(CUP_7Rnd_45ACP_1911,50);
+            mag_xx(CUP_15Rnd_9x19_M9,50);
+            mag_xx(SmokeShellPurple,50);
+            mag_xx(SmokeShellBlue,50);
+            mag_xx(SmokeShellYellow,50);
+            mag_xx(CUP_1Rnd_SmokeYellow_M203,50);
+            mag_xx(CUP_5Rnd_762x51_M24,50);
+            mag_xx(CUP_10Rnd_127x99_M107,50);
+            mag_xx(20Rnd_762x51_Mag,50);
+            mag_xx(CUP_Mine_M,50);
+            mag_xx(CUP_PipeBomb_M,50);
+            mag_xx(Chemlight_green,50);
+            mag_xx(Chemlight_blue,50);
+            mag_xx(CUP_1Rnd_HE_M203,50);
+            mag_xx(DemoCharge_Remote_Mag,50);
+            mag_xx(ClaymoreDirectionalMine_Remote_Mag,50);
+        };
+        class TransportWeapons {
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_B_USARMY_1991_DES_WeaponsBox : CUP_USBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = US Army 1991 [Arid/Desert] Weapons Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_556x45_Stanag,50);
+            mag_xx(CUP_1Rnd_HEDP_M203,50);
+            mag_xx(CUP_15Rnd_9x19_M9,50);
+            mag_xx(CUP_7Rnd_45ACP_1911,50);
+            mag_xx(CUP_200Rnd_TE4_Red_Tracer_556x45_M249,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M,50);
+            mag_xx(CUP_5Rnd_762x51_M24,50);
+            mag_xx(CUP_10Rnd_127x99_M107,50);
+            mag_xx(20Rnd_762x51_Mag,50);
+            mag_xx(CUP_1Rnd_HE_M203,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_M16A2,10);
+            weap_xx(CUP_arifle_M16A2_GL,10);
+            weap_xx(CUP_hgun_M9,10);
+            weap_xx(CUP_hgun_Colt1911,10);
+            weap_xx(CUP_lmg_M249,10);
+            weap_xx(CUP_lmg_M240,10);
+            weap_xx(CUP_srifle_M24_des,10);
+            weap_xx(CUP_srifle_M107_Desert,10);
+            weap_xx(CUP_srifle_M14,10);
+            weap_xx(CUP_arifle_Colt727,10);
+            weap_xx(CUP_arifle_Colt727_M203,10);
+            weap_xx(CUP_lmg_M249_E2,10);
+        };
+        class TransportItems {
+            item_xx(CUP_optic_LeupoldMk4_10x40_LRT_Desert,10);
+            item_xx(CUP_bipod_VLTOR_Modpod,10);
+            item_xx(CUP_optic_AN_PVS_4_M14,10);
+            item_xx(CUP_optic_LeupoldMk4_25x50_LRT_DESERT,10);
+            item_xx(CUP_optic_LeupoldMk4,10);
+            item_xx(CUP_bipod_Harris_1A2_L,10);
+            item_xx(CUP_muzzle_snds_M16,10);
+            item_xx(CUP_muzzle_snds_M9,10);
+        };
+    };
+    class CFP_B_USARMY_1991_DES_LaunchersBox : CUP_USLaunchersBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = US Army 1991 [Arid/Desert] Launchers Box;
+        class TransportMagazines {
+            mag_xx(CUP_M136_M,5);
+            mag_xx(CUP_Dragon_EP1_M,5);
+            mag_xx(CUP_Stinger_M,5);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_launch_M72A6,5);
+            weap_xx(CUP_launch_M136_Loaded,5);
+            weap_xx(CUP_launch_M47,5);
+            weap_xx(CUP_launch_FIM92Stinger_Loaded,5);
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_B_USARMY_1991_DES_UniformBox : Box_NATO_Uniforms_F {
+        author = ALiVE ORBAT CREATOR;
+        displayName = US Army 1991 [Arid/Desert] Uniform Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(CFP_BDU_DBDU,15);
+            item_xx(CFP_BDU_DBDU2,15);
+            item_xx(CUP_U_B_USArmy_Ghillie,15);
+            item_xx(CUP_U_B_USArmy_PilotOverall,15);
+            item_xx(CFP_RAID_DBDU_3,15);
+            item_xx(CFP_RAID_DBDU_1,15);
+            item_xx(CFP_RAID_DBDU_2,15);
+            item_xx(CFP_RAID_DBDU_4,15);
+        };
+    };
+    class CFP_B_USARMY_1991_DES_SupportBox : Box_NATO_Support_F {
+        author = ALiVE ORBAT CREATOR;
+        displayName = US Army 1991 [Arid/Desert] Support Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(CFP_V_PASGT_DBDU,10);
+            item_xx(CFP_PASGTHelmet_DBDU1,10);
+            item_xx(CUP_NVG_PVS7,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(CUP_B_AlicePack_OD,10);
+            item_xx(CFP_PASGTHelmet_DBDU2,10);
+            item_xx(CFP_BoonieHat_DBDU,10);
+            item_xx(CUP_Vector21Nite,10);
+            item_xx(CFP_Alice_Vest2,10);
+            item_xx(CFP_PatrolCap_ChocChip,10);
+            item_xx(G_Aviator,10);
+            item_xx(ItemGPS,10);
+            item_xx(CUP_G_Shades_Red,10);
+            item_xx(CUP_H_USMC_Crew_Helmet,10);
+            item_xx(CUP_V_B_PilotVest,10);
+            item_xx(CUP_H_USMC_Helmet_Pilot,10);
+            item_xx(Binocular,10);
+            item_xx(CUP_G_ESS_KHK_Scarf_Tan,10);
+            item_xx(SP_BeanieHat_Green,10);
+            item_xx(CUP_G_ESS_BLK_Scarf_Grn,10);
+            item_xx(SP_BeanieHat_Black,10);
+            item_xx(CUP_FR_NeckScarf,10);
+            item_xx(CUP_G_ESS_BLK,10);
+            item_xx(CUP_G_ESS_BLK_Dark,10);
+            item_xx(CUP_G_ESS_KHK_Scarf_Face_Tan,10);
+        };
+    };
+    class CFP_B_USARMY_1991_DES_SupplyBox : B_SupplyCrate_F {
+        author = ALiVE ORBAT CREATOR;
+        displayName = US Army 1991 [Arid/Desert] Supply Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_556x45_Stanag,50);
+            mag_xx(CUP_HandGrenade_M67,50);
+            mag_xx(SmokeShell,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M,50);
+            mag_xx(CUP_200Rnd_TE4_Red_Tracer_556x45_M249,50);
+            mag_xx(CUP_Dragon_EP1_M,50);
+            mag_xx(CUP_MAAWS_HEDP_M,50);
+            mag_xx(CUP_1Rnd_HEDP_M203,50);
+            mag_xx(CUP_1Rnd_SmokeRed_M203,50);
+            mag_xx(SmokeShellGreen,50);
+            mag_xx(CUP_1Rnd_StarFlare_White_M203,50);
+            mag_xx(CUP_1Rnd_StarFlare_Red_M203,50);
+            mag_xx(CUP_1Rnd_StarFlare_Green_M203,50);
+            mag_xx(CUP_1Rnd_Smoke_M203,50);
+            mag_xx(CUP_1Rnd_SmokeGreen_M203,50);
+            mag_xx(B_IR_Grenade,50);
+            mag_xx(SmokeShellRed,50);
+            mag_xx(CUP_7Rnd_45ACP_1911,50);
+            mag_xx(CUP_15Rnd_9x19_M9,50);
+            mag_xx(SmokeShellPurple,50);
+            mag_xx(SmokeShellBlue,50);
+            mag_xx(SmokeShellYellow,50);
+            mag_xx(CUP_1Rnd_SmokeYellow_M203,50);
+            mag_xx(CUP_5Rnd_762x51_M24,50);
+            mag_xx(CUP_10Rnd_127x99_M107,50);
+            mag_xx(20Rnd_762x51_Mag,50);
+            mag_xx(CUP_Mine_M,50);
+            mag_xx(CUP_PipeBomb_M,50);
+            mag_xx(Chemlight_green,50);
+            mag_xx(Chemlight_blue,50);
+            mag_xx(CUP_1Rnd_HE_M203,50);
+            mag_xx(DemoCharge_Remote_Mag,50);
+            mag_xx(ClaymoreDirectionalMine_Remote_Mag,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_M16A2,10);
+            weap_xx(CUP_arifle_M16A2_GL,10);
+            weap_xx(CUP_hgun_M9,10);
+            weap_xx(CUP_hgun_Colt1911,10);
+            weap_xx(CUP_lmg_M249,10);
+            weap_xx(CUP_lmg_M240,10);
+            weap_xx(CUP_srifle_M24_des,10);
+            weap_xx(CUP_srifle_M107_Desert,10);
+            weap_xx(CUP_srifle_M14,10);
+            weap_xx(CUP_arifle_Colt727,10);
+            weap_xx(CUP_arifle_Colt727_M203,10);
+            weap_xx(CUP_lmg_M249_E2,10);
+            weap_xx(CUP_launch_M72A6,10);
+            weap_xx(CUP_launch_M136_Loaded,10);
+            weap_xx(CUP_launch_M47,10);
+            weap_xx(CUP_launch_FIM92Stinger_Loaded,10);
+        };
+        class TransportItems {
+            item_xx(CUP_optic_LeupoldMk4_10x40_LRT_Desert,10);
+            item_xx(CUP_bipod_VLTOR_Modpod,10);
+            item_xx(CUP_optic_AN_PVS_4_M14,10);
+            item_xx(CUP_optic_LeupoldMk4_25x50_LRT_DESERT,10);
+            item_xx(CUP_optic_LeupoldMk4,10);
+            item_xx(CUP_bipod_Harris_1A2_L,10);
+            item_xx(CUP_muzzle_snds_M16,10);
+            item_xx(CUP_muzzle_snds_M9,10);
+            item_xx(CFP_V_PASGT_DBDU,10);
+            item_xx(CFP_PASGTHelmet_DBDU1,10);
+            item_xx(CUP_NVG_PVS7,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(CUP_B_AlicePack_OD,10);
+            item_xx(CFP_PASGTHelmet_DBDU2,10);
+            item_xx(CFP_BoonieHat_DBDU,10);
+            item_xx(CUP_Vector21Nite,10);
+            item_xx(CFP_Alice_Vest2,10);
+            item_xx(CFP_PatrolCap_ChocChip,10);
+            item_xx(G_Aviator,10);
+            item_xx(ItemGPS,10);
+            item_xx(CUP_G_Shades_Red,10);
+            item_xx(CUP_H_USMC_Crew_Helmet,10);
+            item_xx(CUP_V_B_PilotVest,10);
+            item_xx(CUP_H_USMC_Helmet_Pilot,10);
+            item_xx(Binocular,10);
+            item_xx(CUP_G_ESS_KHK_Scarf_Tan,10);
+            item_xx(SP_BeanieHat_Green,10);
+            item_xx(CUP_G_ESS_BLK_Scarf_Grn,10);
+            item_xx(SP_BeanieHat_Black,10);
+            item_xx(CUP_FR_NeckScarf,10);
+            item_xx(CUP_G_ESS_BLK,10);
+            item_xx(CUP_G_ESS_BLK_Dark,10);
+            item_xx(CUP_G_ESS_KHK_Scarf_Face_Tan,10);
+            item_xx(CFP_BDU_DBDU,10);
+            item_xx(CFP_BDU_DBDU2,10);
+            item_xx(CUP_U_B_USArmy_Ghillie,10);
+            item_xx(CUP_U_B_USArmy_PilotOverall,10);
+            item_xx(CFP_RAID_DBDU_3,10);
+            item_xx(CFP_RAID_DBDU_1,10);
+            item_xx(CFP_RAID_DBDU_2,10);
+            item_xx(CFP_RAID_DBDU_4,10);
+        };
     };
 
 };
