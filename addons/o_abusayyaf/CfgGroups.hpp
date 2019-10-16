@@ -265,7 +265,7 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_O_ABUSAYYAF_Offroad_50_Cal_Flag_01";
+                        vehicle = "CFP_O_ABUSAYYAF_Offroad_50_Cal_01";
                     };
                     class Unit1 {
                         position[] = {5,-11,0};

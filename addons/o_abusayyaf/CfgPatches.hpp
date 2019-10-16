@@ -17,10 +17,8 @@ class CfgPatches {
             "CFP_O_ABUSAYYAF_Squad_Leader_01",
             "CFP_O_ABUSAYYAF_Ural_ZU_23_01",
             "CFP_O_ABUSAYYAF_M113_01",
-            "CFP_O_ABUSAYYAF_M113_Flag_01",
             "CFP_O_ABUSAYYAF_Offroad_01",
             "CFP_O_ABUSAYYAF_Offroad_50_Cal_01",
-            "CFP_O_ABUSAYYAF_Offroad_50_Cal_Flag_01",
             "CFP_O_ABUSAYYAF_Offroad_SPG_01",
             "CFP_O_ABUSAYYAF_Jeep_SAW_01",
             "CFP_O_ABUSAYYAF_Jeep_SPG_01",
@@ -34,13 +32,12 @@ class CfgPatches {
         };
         weapons[] = {};
         requiredAddons[] = {
-            "CFP_O_IS",
-            "CFP_I_IS",
-            "A3_Soft_F_Offroad_01"
+            "A3_Soft_F_Offroad_01",
+            "CUP_WheeledVehicles_Ural"
         };
         requiredVersion = REQUIRED_VERSION;
         VERSION_CONFIG;
         author = MODULE_AUTHOR;
-        authors[] = {"jarrad96"};
+        authors[] = {"CFP"};
     };
 };

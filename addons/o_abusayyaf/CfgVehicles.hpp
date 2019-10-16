@@ -10,27 +10,18 @@ class CfgVehicles {
     class O_Soldier_F_OCimport_01 : O_Soldier_F { scope = 0; class EventHandlers; };
     class O_Soldier_F_OCimport_02 : O_Soldier_F_OCimport_01 { class EventHandlers; };
 
-    class cfp_o_is_Ural_ZU23;
-    class cfp_o_is_Ural_ZU23_OCimport_01 : cfp_o_is_Ural_ZU23 { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_o_is_Ural_ZU23_OCimport_02 : cfp_o_is_Ural_ZU23_OCimport_01 {
+    class CUP_I_Ural_ZU23_TK_Gue;
+    class CUP_I_Ural_ZU23_TK_Gue_OCimport_01 : CUP_I_Ural_ZU23_TK_Gue { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_I_Ural_ZU23_TK_Gue_OCimport_02 : CUP_I_Ural_ZU23_TK_Gue_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
     };
 
-    class cfp_o_is_M113;
-    class cfp_o_is_M113_OCimport_01 : cfp_o_is_M113 { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_o_is_M113_OCimport_02 : cfp_o_is_M113_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class cfp_o_is_M113_flag;
-    class cfp_o_is_M113_flag_OCimport_01 : cfp_o_is_M113_flag { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_o_is_M113_flag_OCimport_02 : cfp_o_is_M113_flag_OCimport_01 {
+    class CUP_B_M113_desert_USA;
+    class CUP_B_M113_desert_USA_OCimport_01 : CUP_B_M113_desert_USA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_B_M113_desert_USA_OCimport_02 : CUP_B_M113_desert_USA_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
@@ -49,36 +40,27 @@ class CfgVehicles {
         };
     };
 
-    class cfp_o_is_offroad_M2;
-    class cfp_o_is_offroad_M2_OCimport_01 : cfp_o_is_offroad_M2 { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_o_is_offroad_M2_OCimport_02 : cfp_o_is_offroad_M2_OCimport_01 {
+    class O_G_Offroad_01_armed_F;
+    class O_G_Offroad_01_armed_F_OCimport_01 : O_G_Offroad_01_armed_F { scope = 0; class EventHandlers; class Turrets; };
+    class O_G_Offroad_01_armed_F_OCimport_02 : O_G_Offroad_01_armed_F_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class M2_Turret;
         };
     };
 
-    class cfp_o_is_offroad_M2_flag;
-    class cfp_o_is_offroad_M2_flag_OCimport_01 : cfp_o_is_offroad_M2_flag { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_o_is_offroad_M2_flag_OCimport_02 : cfp_o_is_offroad_M2_flag_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class M2_Turret;
-        };
-    };
-
-    class cfp_o_is_offroad_AT;
-    class cfp_o_is_offroad_AT_OCimport_01 : cfp_o_is_offroad_AT { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_o_is_offroad_AT_OCimport_02 : cfp_o_is_offroad_AT_OCimport_01 {
+    class O_G_Offroad_01_AT_F;
+    class O_G_Offroad_01_AT_F_OCimport_01 : O_G_Offroad_01_AT_F { scope = 0; class EventHandlers; class Turrets; };
+    class O_G_Offroad_01_AT_F_OCimport_02 : O_G_Offroad_01_AT_F_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class AT_Turret;
         };
     };
 
-    class cfp_o_is_jeep_lmg;
-    class cfp_o_is_jeep_lmg_OCimport_01 : cfp_o_is_jeep_lmg { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_o_is_jeep_lmg_OCimport_02 : cfp_o_is_jeep_lmg_OCimport_01 {
+    class I_C_Offroad_02_LMG_F;
+    class I_C_Offroad_02_LMG_F_OCimport_01 : I_C_Offroad_02_LMG_F { scope = 0; class EventHandlers; class Turrets; };
+    class I_C_Offroad_02_LMG_F_OCimport_02 : I_C_Offroad_02_LMG_F_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class LMG_Turret;
@@ -86,9 +68,9 @@ class CfgVehicles {
         };
     };
 
-    class cfp_o_is_jeep_at;
-    class cfp_o_is_jeep_at_OCimport_01 : cfp_o_is_jeep_at { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_o_is_jeep_at_OCimport_02 : cfp_o_is_jeep_at_OCimport_01 {
+    class I_C_Offroad_02_AT_F;
+    class I_C_Offroad_02_AT_F_OCimport_01 : I_C_Offroad_02_AT_F { scope = 0; class EventHandlers; class Turrets; };
+    class I_C_Offroad_02_AT_F_OCimport_02 : I_C_Offroad_02_AT_F_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class AT_Turret;
@@ -96,9 +78,9 @@ class CfgVehicles {
         };
     };
 
-    class cfp_o_is_Ural;
-    class cfp_o_is_Ural_OCimport_01 : cfp_o_is_Ural { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_o_is_Ural_OCimport_02 : cfp_o_is_Ural_OCimport_01 {
+    class CUP_O_Ural_SLA;
+    class CUP_O_Ural_SLA_OCimport_01 : CUP_O_Ural_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_Ural_SLA_OCimport_02 : CUP_O_Ural_SLA_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class CargoTurret_01;
@@ -106,54 +88,54 @@ class CfgVehicles {
         };
     };
 
-    class cfp_o_is_ZU23;
-    class cfp_o_is_ZU23_OCimport_01 : cfp_o_is_ZU23 { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_o_is_ZU23_OCimport_02 : cfp_o_is_ZU23_OCimport_01 {
+    class CUP_O_ZU23_SLA;
+    class CUP_O_ZU23_SLA_OCimport_01 : CUP_O_ZU23_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_ZU23_SLA_OCimport_02 : CUP_O_ZU23_SLA_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
     };
 
-    class cfp_o_is_DSHKM;
-    class cfp_o_is_DSHKM_OCimport_01 : cfp_o_is_DSHKM { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_o_is_DSHKM_OCimport_02 : cfp_o_is_DSHKM_OCimport_01 {
+    class CUP_O_DSHKM_SLA;
+    class CUP_O_DSHKM_SLA_OCimport_01 : CUP_O_DSHKM_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_DSHKM_SLA_OCimport_02 : CUP_O_DSHKM_SLA_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
     };
 
-    class cfp_o_is_DSHkM_Mini_TriPod;
-    class cfp_o_is_DSHkM_Mini_TriPod_OCimport_01 : cfp_o_is_DSHkM_Mini_TriPod { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_o_is_DSHkM_Mini_TriPod_OCimport_02 : cfp_o_is_DSHkM_Mini_TriPod_OCimport_01 {
+    class CUP_O_DSHKM_MiniTripod_SLA;
+    class CUP_O_DSHKM_MiniTripod_SLA_OCimport_01 : CUP_O_DSHKM_MiniTripod_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_DSHKM_MiniTripod_SLA_OCimport_02 : CUP_O_DSHKM_MiniTripod_SLA_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
     };
 
-    class cfp_o_is_M2Static;
-    class cfp_o_is_M2Static_OCimport_01 : cfp_o_is_M2Static { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_o_is_M2Static_OCimport_02 : cfp_o_is_M2Static_OCimport_01 {
+    class CUP_B_M2StaticMG_US;
+    class CUP_B_M2StaticMG_US_OCimport_01 : CUP_B_M2StaticMG_US { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_B_M2StaticMG_US_OCimport_02 : CUP_B_M2StaticMG_US_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
     };
 
-    class cfp_o_is_SPG9;
-    class cfp_o_is_SPG9_OCimport_01 : cfp_o_is_SPG9 { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_o_is_SPG9_OCimport_02 : cfp_o_is_SPG9_OCimport_01 {
+    class CUP_O_SPG9_SLA;
+    class CUP_O_SPG9_SLA_OCimport_01 : CUP_O_SPG9_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_SPG9_SLA_OCimport_02 : CUP_O_SPG9_SLA_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
     };
 
-    class cfp_o_is_2b14_82mm;
-    class cfp_o_is_2b14_82mm_OCimport_01 : cfp_o_is_2b14_82mm { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_o_is_2b14_82mm_OCimport_02 : cfp_o_is_2b14_82mm_OCimport_01 {
+    class CUP_O_2b14_82mm_SLA;
+    class CUP_O_2b14_82mm_SLA_OCimport_01 : CUP_O_2b14_82mm_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_2b14_82mm_SLA_OCimport_02 : CUP_O_2b14_82mm_SLA_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
@@ -831,9 +813,9 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_ABUSAYYAF_Ural_ZU_23_01  : cfp_o_is_Ural_ZU23_OCimport_02 {
+    class CFP_O_ABUSAYYAF_Ural_ZU_23_01 : CUP_I_Ural_ZU23_TK_Gue_OCimport_02 {
         editorPreview = \x\cfp\addons\o_abusayyaf\data\preview\CFP_O_ABUSAYYAF_Ural_ZU_23_01.JPG;
-        author = "jarrad96";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "ASG Ural ZU-23";
@@ -861,15 +843,19 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_ABUSAYYAF_M113_01  : cfp_o_is_M113_OCimport_02 {
+    class CFP_O_ABUSAYYAF_M113_01 : CUP_B_M113_desert_USA_OCimport_02 {
         editorPreview = \x\cfp\addons\o_abusayyaf\data\preview\CFP_O_ABUSAYYAF_M113_01.JPG;
-        author = "jarrad96";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "ASG M113";
         side = 0;
         faction = "CFP_O_ABUSAYYAF";
         crew = "CFP_O_ABUSAYYAF_Rifleman_01";
+        hiddenSelectionsTextures[] = {
+            "cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m113a3_01_olive_drab_co.paa",
+            "cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m113a3_02_co.paa"
+        };
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_ABUSAYYAF_Rifleman_01"; };
@@ -881,51 +867,19 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m113a3_01_olive_drab_co.paa'];_unit setObjectTextureGlobal [1,'cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m113a3_02_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "OliveDrab";
 
     };
 
-    class CFP_O_ABUSAYYAF_M113_Flag_01  : cfp_o_is_M113_flag_OCimport_02 {
-        editorPreview = \x\cfp\addons\o_abusayyaf\data\preview\CFP_O_ABUSAYYAF_113_Flag_01.JPG;
-        author = "jarrad96";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "ASG M113 (Flag)";
-        side = 0;
-        faction = "CFP_O_ABUSAYYAF";
-        crew = "CFP_O_ABUSAYYAF_Rifleman_Light_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_O_ABUSAYYAF_Rifleman_01"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m113a3_01_olive_drab_co.paa'];_unit setObjectTextureGlobal [1,'cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m113a3_02_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "OliveDrab";
-
-    };
-
-    class CFP_O_ABUSAYYAF_Offroad_01  : O_G_Offroad_01_F_OCimport_02 {
+    class CFP_O_ABUSAYYAF_Offroad_01 : O_G_Offroad_01_F_OCimport_02 {
         editorPreview = \x\cfp\addons\o_abusayyaf\data\preview\CFP_O_ABUSAYYAF_Offroad_01.JPG;
-        author = "jarrad96";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "ASG Offroad";
@@ -956,9 +910,9 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_ABUSAYYAF_Offroad_50_Cal_01  : cfp_o_is_offroad_M2_OCimport_02 {
+    class CFP_O_ABUSAYYAF_Offroad_50_Cal_01 : O_G_Offroad_01_armed_F_OCimport_02 {
         editorPreview = \x\cfp\addons\o_abusayyaf\data\preview\CFP_O_ABUSAYYAF_Offroad_50_Cal_01.JPG;
-        author = "jarrad96";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "ASG Offroad (50 Cal)";
@@ -986,39 +940,9 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_ABUSAYYAF_Offroad_50_Cal_Flag_01  : cfp_o_is_offroad_M2_flag_OCimport_02 {
-        editorPreview = \x\cfp\addons\o_abusayyaf\data\preview\CFP_O_ABUSAYYAF_Offroad_50_Cal_Flag_01.JPG;
-        author = "jarrad96";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "ASG Offroad (50 Cal, Flag)";
-        side = 0;
-        faction = "CFP_O_ABUSAYYAF";
-        crew = "CFP_O_ABUSAYYAF_Rifleman_Light_01";
-
-        class Turrets : Turrets {
-            class M2_Turret : M2_Turret { gunnerType = "CFP_O_ABUSAYYAF_Rifleman_01"; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class CFP_O_ABUSAYYAF_Offroad_SPG_01  : cfp_o_is_offroad_AT_OCimport_02 {
+    class CFP_O_ABUSAYYAF_Offroad_SPG_01 : O_G_Offroad_01_AT_F_OCimport_02 {
         editorPreview = \x\cfp\addons\o_abusayyaf\data\preview\CFP_O_ABUSAYYAF_Offroad_SPG_01.JPG;
-        author = "jarrad96";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "ASG Offroad (SPG)";
@@ -1036,20 +960,20 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\Offroad\offroad_isis_04.paa'];_unit setObjectTextureGlobal [1,'A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\Offroad\offroad_isis_02_dirty_1.paa'];_unit setObjectTextureGlobal [1,'A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "ISIS4";
+        ALiVE_orbatCreator_texture = "ISIS2Dirty1";
 
     };
 
-    class CFP_O_ABUSAYYAF_Jeep_SAW_01  : cfp_o_is_jeep_lmg_OCimport_02 {
+    class CFP_O_ABUSAYYAF_Jeep_SAW_01 : I_C_Offroad_02_LMG_F_OCimport_02 {
         editorPreview = \x\cfp\addons\o_abusayyaf\data\preview\CFP_O_ABUSAYYAF_Jeep_SAW_01.JPG;
-        author = "jarrad96";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "ASG Jeep (SAW)";
@@ -1078,9 +1002,9 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_ABUSAYYAF_Jeep_SPG_01  : cfp_o_is_jeep_at_OCimport_02 {
+    class CFP_O_ABUSAYYAF_Jeep_SPG_01 : I_C_Offroad_02_AT_F_OCimport_02 {
         editorPreview = \x\cfp\addons\o_abusayyaf\data\preview\CFP_O_ABUSAYYAF_Jeep_SPG_01.JPG;
-        author = "jarrad96";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "ASG Jeep (SPG)";
@@ -1109,15 +1033,20 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_ABUSAYYAF_Ural_01  : cfp_o_is_Ural_OCimport_02 {
+    class CFP_O_ABUSAYYAF_Ural_01 : CUP_O_Ural_SLA_OCimport_02 {
         editorPreview = \x\cfp\addons\o_abusayyaf\data\preview\CFP_O_ABUSAYYAF_Ural_01.JPG;
-        author = "jarrad96";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "ASG Ural";
         side = 0;
         faction = "CFP_O_ABUSAYYAF";
         crew = "CFP_O_ABUSAYYAF_Rifleman_01";
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\vehicles\Ural\ural_is_2.paa",
+            "CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_plachta_sla_co.paa",
+            "CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\WHL_TyreSize3.paa"
+        };
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -1130,20 +1059,19 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\Ural\ural_is_2.paa'];_unit setObjectTextureGlobal [1,'CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_plachta_sla_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "URALIS2";
 
     };
 
-    class CFP_O_ABUSAYYAF_ZU_23_01  : cfp_o_is_ZU23_OCimport_02 {
+    class CFP_O_ABUSAYYAF_ZU_23_01 : CUP_O_ZU23_SLA_OCimport_02 {
         editorPreview = \x\cfp\addons\o_abusayyaf\data\preview\CFP_O_ABUSAYYAF_ZU_23_01.JPG;
-        author = "jarrad96";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "ASG ZU-23";
@@ -1171,9 +1099,9 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_ABUSAYYAF_DSHKM_01  : cfp_o_is_DSHKM_OCimport_02 {
+    class CFP_O_ABUSAYYAF_DSHKM_01 : CUP_O_DSHKM_SLA_OCimport_02 {
         editorPreview = \x\cfp\addons\o_abusayyaf\data\preview\CFP_O_ABUSAYYAF_DSHKM_01.JPG;
-        author = "jarrad96";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "ASG DSHKM";
@@ -1201,9 +1129,9 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_ABUSAYYAF_DSKHM_Low_01  : cfp_o_is_DSHkM_Mini_TriPod_OCimport_02 {
+    class CFP_O_ABUSAYYAF_DSKHM_Low_01 : CUP_O_DSHKM_MiniTripod_SLA_OCimport_02 {
         editorPreview = \x\cfp\addons\o_abusayyaf\data\preview\CFP_O_ABUSAYYAF_DSKHM_Low_01.JPG;
-        author = "jarrad96";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "ASG DSKHM (Low)";
@@ -1231,9 +1159,9 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_ABUSAYYAF_M2_01  : cfp_o_is_M2Static_OCimport_02 {
+    class CFP_O_ABUSAYYAF_M2_01 : CUP_B_M2StaticMG_US_OCimport_02 {
         editorPreview = \x\cfp\addons\o_abusayyaf\data\preview\CFP_O_ABUSAYYAF_M2_01.JPG;
-        author = "jarrad96";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "ASG M2";
@@ -1261,9 +1189,9 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_ABUSAYYAF_SPG_9_01  : cfp_o_is_SPG9_OCimport_02 {
+    class CFP_O_ABUSAYYAF_SPG_9_01 : CUP_O_SPG9_SLA_OCimport_02 {
         editorPreview = \x\cfp\addons\o_abusayyaf\data\preview\CFP_O_ABUSAYYAF_SPG_9_01.JPG;
-        author = "jarrad96";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "ASG SPG-9";
@@ -1291,9 +1219,9 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_ABUSAYYAF_Mortar_01  : cfp_o_is_2b14_82mm_OCimport_02 {
+    class CFP_O_ABUSAYYAF_Mortar_01 : CUP_O_2b14_82mm_SLA_OCimport_02 {
         editorPreview = \x\cfp\addons\o_abusayyaf\data\preview\CFP_O_ABUSAYYAF_Mortar_01.JPG;
-        author = "jarrad96";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "ASG Mortar";
