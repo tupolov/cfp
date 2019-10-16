@@ -438,6 +438,72 @@ class CfgGroups {
                     };
                 };
 
+                class CFP_B_USAArmy_2003_Desert_MotorizedSFTeam_Mk19 {
+                    name = "Motorized SF Team [HMMWV SOV Mk19]";
+                    side = 1;
+                    faction = "CFP_B_USAArmy_2003_Desert";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USAArmy_HMMWV_SOV_Mk19_Desert_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CFP_B_USAArmy_SF_Team_Leader_Desert_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USAArmy_SF_Grenadier_Desert_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USAArmy_SF_Auto_Rifleman_Desert_01";
+                    };
+                };
+
+                class CFP_B_USAArmy_2003_Desert_MotorizedSFTeam_M2 {
+                    name = "Motorized SF Team [HMMWV SOV M2]";
+                    side = 1;
+                    faction = "CFP_B_USAArmy_2003_Desert";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USAArmy_HMMWV_SOV_M2_Desert_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CFP_B_USAArmy_SF_Team_Leader_Desert_01";
+                    };
+                    class Unit2 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USAArmy_SF_Grenadier_Desert_01";
+                    };
+                    class Unit3 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_USAArmy_SF_Auto_Rifleman_Desert_01";
+                    };
+                };
+
             };
 
             class Motorized {

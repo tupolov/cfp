@@ -264,6 +264,34 @@ class CfgVehicles {
         };
     };
 
+    class CUP_B_HMMWV_SOV_USA;
+    class CUP_B_HMMWV_SOV_USA_OCimport_01 : CUP_B_HMMWV_SOV_USA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_B_HMMWV_SOV_USA_OCimport_02 : CUP_B_HMMWV_SOV_USA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+            class SideTurret;
+            class CargoTurret_01;
+            class CargoTurret_02;
+            class CargoTurret_03;
+            class CargoTurret_04;
+        };
+    };
+
+    class CUP_B_HMMWV_SOV_M2_USA;
+    class CUP_B_HMMWV_SOV_M2_USA_OCimport_01 : CUP_B_HMMWV_SOV_M2_USA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_B_HMMWV_SOV_M2_USA_OCimport_02 : CUP_B_HMMWV_SOV_M2_USA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+            class SideTurret;
+            class CargoTurret_01;
+            class CargoTurret_02;
+            class CargoTurret_03;
+            class CargoTurret_04;
+        };
+    };
+
     class CUP_B_MTVR_USMC;
     class CUP_B_MTVR_USMC_OCimport_01 : CUP_B_MTVR_USMC { scope = 0; class EventHandlers; };
     class CUP_B_MTVR_USMC_OCimport_02 : CUP_B_MTVR_USMC_OCimport_01 { scope = 0; class EventHandlers; };
@@ -1761,6 +1789,86 @@ class CfgVehicles {
         backpack = "CUP_B_AlicePack_OD";
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_M249_E2","","","",{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",200},{},""},{},{"CUP_hgun_M9","CUP_muzzle_snds_M9","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CFP_RAID_M811",{{"FirstAidKit",1},{"CUP_15Rnd_9x19_M9",3,15}}},{"CFP_Alice_Vest2",{{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"Chemlight_green",1,1},{"Chemlight_blue",1,1},{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",1,200}}},{"CUP_B_AlicePack_OD",{{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",2,200}}},"","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+
+    };
+
+    class CFP_B_USARMY_91_HMMWV_SOV_Mk19_Woodland_01 : CUP_B_HMMWV_SOV_USA_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "HMMWV SOV [Mk19]";
+        side = 1;
+        faction = "CFP_B_USARMY_1991_WDL";
+        crew = "CFP_B_USARMY_91_SF_Rifleman_Woodland_01";
+        hiddenSelectionsTextures[] = {
+            "cup\wheeledvehicles\cup_wheeledvehicles_hmmwv\data\textures\nato_t_hmmwv_body_canvas_co.paa",
+            "cup\wheeledvehicles\cup_wheeledvehicles_hmmwv\data\textures\nato_t_hmmwv_hood_canvas_co.paa",
+            "cup\wheeledvehicles\cup_wheeledvehicles_hmmwv\data\textures\nato_t_hmmwv_regular_1_co.paa",
+            "cup\wheeledvehicles\cup_wheeledvehicles_hmmwv\data\hmmwv_parts_1_ca.paa"
+        };
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = ""; };
+            class SideTurret : SideTurret { gunnerType = ""; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
+            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_B_USARMY_91_HMMWV_SOV_M2_Woodland_01 : CUP_B_HMMWV_SOV_M2_USA_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "HMMWV SOV [M2]";
+        side = 1;
+        faction = "CFP_B_USARMY_1991_WDL";
+        crew = "CFP_B_USARMY_91_SF_Rifleman_Woodland_01";
+        hiddenSelectionsTextures[] = {
+            "cup\wheeledvehicles\cup_wheeledvehicles_hmmwv\data\textures\nato_t_hmmwv_body_canvas_co.paa",
+            "cup\wheeledvehicles\cup_wheeledvehicles_hmmwv\data\textures\nato_t_hmmwv_hood_canvas_co.paa",
+            "cup\wheeledvehicles\cup_wheeledvehicles_hmmwv\data\textures\nato_t_hmmwv_regular_1_co.paa",
+            "cup\wheeledvehicles\cup_wheeledvehicles_hmmwv\data\hmmwv_parts_1_ca.paa"
+        };
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = ""; };
+            class SideTurret : SideTurret { gunnerType = ""; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
+            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
 
     };
 

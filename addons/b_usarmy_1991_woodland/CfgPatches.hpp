@@ -71,7 +71,9 @@ class CfgPatches {
             "CFP_B_USARMY_91_SF_Marksman_Woodland_01",
             "CFP_B_USARMY_91_SF_Explosives_Specialist_Woodland_01",
             "CFP_B_USARMY_91_SF_Medic_Woodland_01",
-            "CFP_B_USARMY_91_SF_Auto_Rifleman_Woodland_01"
+            "CFP_B_USARMY_91_SF_Auto_Rifleman_Woodland_01",
+            "CFP_B_USARMY_91_HMMWV_SOV_Mk19_Woodland_01",
+            "CFP_B_USARMY_91_HMMWV_SOV_M2_Woodland_01"
         };
         weapons[] = {};
         requiredVersion = 1.62;

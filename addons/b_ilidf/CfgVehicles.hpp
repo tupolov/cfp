@@ -2591,7 +2591,6 @@ class CfgVehicles {
             item_xx(CFP_Kitbag_Drab,10);
             item_xx(CFP_IDF_M76_GG_Black,10);
             item_xx(B_UAV_01_backpack_F,10);
-            item_xx(CUP_B_IDF_Backpack,10);
             item_xx(B_UavTerminal,10);
         };
     };
@@ -2735,7 +2734,6 @@ class CfgVehicles {
             item_xx(CFP_IDF_5,10);
             item_xx(CFP_U_Crye_IDF_SS,10);
             item_xx(CFP_U_Crye_IDF,10);
-            item_xx(CUP_B_IDF_Backpack,10);
         };
     };
 

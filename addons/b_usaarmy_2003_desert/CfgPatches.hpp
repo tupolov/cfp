@@ -82,7 +82,9 @@ class CfgPatches {
             "CFP_B_USAArmy_SF_Marksman_Desert_01",
             "CFP_B_USAArmy_SF_Explosives_Specialist_Desert_01",
             "CFP_B_USAArmy_SF_Medic_Desert_01",
-            "CFP_B_USAArmy_SF_Auto_Rifleman_Desert_01"
+            "CFP_B_USAArmy_SF_Auto_Rifleman_Desert_01",
+            "CFP_B_USAArmy_HMMWV_SOV_Mk19_Desert_01",
+            "CFP_B_USAArmy_HMMWV_SOV_M2_Desert_01"
         };
         weapons[] = {};
         requiredVersion = 1.62;
