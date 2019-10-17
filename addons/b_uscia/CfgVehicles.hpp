@@ -554,8 +554,8 @@ class CfgVehicles {
             "CUP_H_TKI_Lungee_Open_04", 0.3,
             "CUP_H_TKI_Lungee_Open_05", 0.3,
             "CUP_H_TKI_Lungee_Open_06", 0.3,
-            "CUP_H_TKI_Pakol_1_01", 0.25,
-            "CUP_H_TKI_Pakol_1_02", 0.25,
+            "CUP_H_CZ_Pakol_headset_b_grey", 0.6,
+            "CUP_H_CZ_Pakol_headset_f_brown", 0.6,
             "CUP_H_TKI_Pakol_1_03", 0.25,
             "CUP_H_TKI_Pakol_1_04", 0.25,
             "CUP_H_TKI_Pakol_1_05", 0.25,
@@ -1240,6 +1240,26 @@ class CfgVehicles {
         editorPreview = "\x\cfp\addons\b_uscia\data\preview\CFP_B_USCIA_Technical_02.JPG";
         displayName = "Datsun Technical (Covert)";
         crew = "CFP_B_USCIA_paramilitary_officer_covert_01";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "CFP_B_USCIA_paramilitary_officer_covert_01"; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+        };
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
     };
 
     class CUP_USBasicAmmunitionBox; // CUP_USBasicAmmunitionBox
