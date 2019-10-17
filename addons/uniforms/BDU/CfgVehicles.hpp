@@ -1066,15 +1066,15 @@
 		uniformAccessories[] = {};
 		uniformClass = "CFP_BDU_UCP";
 		nakedUniform = "U_BasicBody";
-		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_gloves.p3d";
 
 		Items[] = {};
 		weapons[] = {"Throw","Put"};
 		magazines[] = {};
 		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BDU\camo\US_BDU_UCP.paa","\x\cfp\addons\uniforms\BDU\camo\US_BDU_UCP.paa","\x\cfp\addons\uniforms\BDU\camo\US_BDU_UCP.paa"};
-		hiddenSelections[] = {"camo","Camo1","Camo2"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BDU\camo\US_BDU_UCP.paa","\x\cfp\addons\uniforms\BDU\camo\US_BDU_UCP.paa","\x\cfp\addons\uniforms\BDU\camo\US_BDU_UCP.paa","\x\cfp\addons\uniforms\BDU\camo\US_BDU_UCP.paa","\x\cfp\addons\uniforms\BDU\camo\oakley_blk_co.paa","\x\cfp\addons\uniforms\BDU\camo\usa_flag_blk_ca.paa"};
+		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Camo5","Flag","Insignia"};
 		class Wounds /// changes material of skin according to damage
 		{
 			tex[] = {};

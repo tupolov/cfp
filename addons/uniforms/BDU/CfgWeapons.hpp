@@ -633,13 +633,13 @@
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_UCP.paa;
 
 		scope=1;
-		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_gloves.p3d";
 		displayName = "BDU (UCP)";
 		author = "CFP";
 
 		class ItemInfo: UniformItem
 		{
-			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_gloves.p3d";
 			uniformClass = "CFP_BDU_UCP";
 			containerClass="Supply60";
 			mass=20;
