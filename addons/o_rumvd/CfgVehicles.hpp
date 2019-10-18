@@ -1398,6 +1398,23 @@ class CfgVehicles {
         icon = "iconMan";
     };
 
+    class CUP_O_RUS_Gorka_Green_gloves_kneepads;
+    class CFP_O_RUMVD_Gorka_Surpat : CUP_O_RUS_Gorka_Green_gloves_kneepads
+    {
+        scope = 1;
+        scopeCurator = 0;
+        displayName = "Gorka (MVD Surpat)";
+        model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_RUS_Gorka_gloves_kneepads.p3d";
+        uniformClass = "CUP_U_O_RUMVD_Gorka_Surpat";
+
+        hiddenSelections[] = {"camo", "camo1", "clan", "insignia"};
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\o_rumvd\data\gorka_surpat_co.paa",
+            "\x\cfp\addons\o_rumvd\data\oakley_2_blk_co.paa",
+        };
+        icon = "iconMan";
+    };
+
     class CUP_O_RUS_Soldier_02;
     class CFP_O_RUMVD_SURPAT : CUP_O_RUS_Soldier_02
     {
@@ -1405,7 +1422,7 @@ class CfgVehicles {
         scopeCurator = 0;
         displayName = "Russian SURPAT";
         uniformClass = "CUP_U_O_RUMVD_SURPAT";
-        model="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_RUS_Soldier1.p3d";
+        model="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_RUS_Soldier_gloves_kneepads.p3d";
         hiddenSelections[] = {"camo", "clan", "insignia"};
         hiddenSelectionsTextures[] = {
             "\x\cfp\addons\o_rumvd\data\cfp_o_rumvd_surpat_co.paa"
@@ -1425,7 +1442,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_RUMVD";
 
-        identityTypes[] = {"Head_Euro","CUP_D_Language_RU","G_GUERIL_default"};
+        identityTypes[] = {"Head_Euro","LanguageRUS_F","G_GUERIL_default"};
         uniformClass = "CUP_U_O_RUS_Gorka_Green";
 
 
@@ -1461,7 +1478,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_RUMVD";
 
-        identityTypes[] = {"Head_Euro","CUP_D_Language_RU","G_GUERIL_default"};
+        identityTypes[] = {"Head_Euro","LanguageRUS_F","G_GUERIL_default"};
         uniformClass = "CUP_U_O_RUS_Gorka_Green";
 
 
@@ -1497,7 +1514,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_RUMVD";
 
-        identityTypes[] = {"Head_Euro","CUP_D_Language_RU","G_GUERIL_default"};
+        identityTypes[] = {"Head_Euro","LanguageRUS_F","G_GUERIL_default"};
         uniformClass = "CUP_U_O_RUS_Gorka_Green";
 
 
@@ -1533,7 +1550,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_RUMVD";
 
-        identityTypes[] = {"Head_Euro","CUP_D_Language_RU","G_GUERIL_default"};
+        identityTypes[] = {"Head_Euro","LanguageRUS_F","G_GUERIL_default"};
         uniformClass = "CUP_U_O_RUS_Gorka_Green";
 
         backpack = "CUP_B_RUS_Pack_AT";
@@ -1569,7 +1586,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_RUMVD";
 
-        identityTypes[] = {"Head_Euro","CUP_D_Language_RU","G_GUERIL_default"};
+        identityTypes[] = {"Head_Euro","LanguageRUS_F","G_GUERIL_default"};
         uniformClass = "CUP_U_O_RUS_Gorka_Green";
 
         backpack = "CUP_B_RUS_Pack_MG";
@@ -1605,7 +1622,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_RUMVD";
 
-        identityTypes[] = {"Head_Euro","CUP_D_Language_RU","G_GUERIL_default"};
+        identityTypes[] = {"Head_Euro","LanguageRUS_F","G_GUERIL_default"};
         uniformClass = "CUP_U_O_RUS_Gorka_Green";
 
 
@@ -1641,7 +1658,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_RUMVD";
 
-        identityTypes[] = {"Head_Euro","CUP_D_Language_RU","G_GUERIL_default"};
+        identityTypes[] = {"Head_Euro","LanguageRUS_F","G_GUERIL_default"};
         uniformClass = "CUP_U_O_RUS_Gorka_Green";
 
 
@@ -1674,45 +1691,35 @@ class CfgVehicles {
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Operator";
+        displayName = "SOBR Operator";
         side = 0;
         faction = "CFP_O_RUMVD";
         editorSubCategory = "CFP_EdSubcat_Personnel_SpecialPurpose";
-        identityTypes[] = {"Head_Euro","CUP_D_Language_RU","G_GUERIL_default"};
-        uniformClass = "CFP_U_O_RUMVD_SURPAT";
+        identityTypes[] = {"Head_Euro","LanguageRUS_F","G_GUERIL_default"};
+        uniformClass = "CFP_U_O_RUMVD_Gorka_Surpat";
 
         randomGearProbability = 100;
         randomWeaponProbability = 100;
 
         vestList[] = {
-            "CFP_V_O_RUMVD_SURPAT", 0.5,
-            "SP_Modular1_Green",0.4,
-            "SP_Modular1_Grey",0.4,
-            "SP_Harness1_Black",0.5,
-            "SP_Harness1_Green",0.5,
-            "CUP_V_I_RACS_Carrier_Vest_wdl_3",0.3,
-            "SP_PlateCarrier1_Green", 0.4,
-            "SP_PlateCarrier1_Black", 0.4,
-            "SP_Tactical1_Green", 0.3,
-            "V_Tacvest_oli", 0.3
+            "CFP_V_O_RUMVD_Black", 0.8,
+            "CFP_V_O_RUMVD_SURPAT", 0.2,
+            "SP_Tactical1_Black", 0.2,
+            "V_Tacvest_oli", 0.2
         };
 
         // Beards / mouth scarf / scarf / sunglasses
         facewearList[] = {
-            "", 0.1,
-            "SP_Balaclava_Black", 0.5,
-            "SP_Balaclava_Green", 0.5,
+            "SP_Balaclava_Black", 0.8,
             "CUP_RUS_Balaclava_blk", 0.5,
-            "CUP_RUS_Balaclava_grn", 0.5,
-            "G_Balaclava_oli", 0.3,
-            "G_Balaclava_Lowprofile", 0.2
+            "CUP_RUS_Balaclava_grn", 0.5
         };
 
         // Baseball caps, boonies,
         headgearList[] = {
-            "CFP_H_O_RUMVD_SURPAT", 0.7,
-            "CUP_H_RUS_6B27_NVG_olive", 0.2,
-            "CUP_H_RUS_6B27_olive", 0.2
+            "CUP_H_RUS_Altyn_Shield_Up_black", 0.7,
+            "CUP_H_RUS_Altyn_Shield_Down_black", 0.2,
+            "CUP_H_RUS_Altyn_Goggles_black", 0.2
         };
 
         nvgList[] = {
@@ -1720,18 +1727,9 @@ class CfgVehicles {
         };
 
         backpackList[] = {
-            "",0.7,
+            "",0.8,
             "CUP_B_RUS_Pack_MG", 0.2,
             "CUP_B_RUS_Backpack", 0.2
-        };
-
-        insigniaList[] = {
-            "USP_PATCH_RUS_TAB_MVD_RF_LRG", 0.5,
-            "USP_PATCH_RUS_DON_SSO_VS_RF", 0.5,
-            "USP_PATCH_RUS_DON_100SPECIALPURPOSE_DIV", 0.5,
-            "USP_PATCH_RUS_MVD_MOSCOW", 0.5,
-            "USP_PATCH_RUS_SOBR_SPD_RYS", 0.5,
-            "USP_PATCH_RUS_MVD_OMON", 0.5
         };
 
         grenadeList[] = {
