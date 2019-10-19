@@ -115,9 +115,9 @@ class CfgVehicles {
         };
     };
 
-    class C_Van_02_transport_F;
-    class C_Van_02_transport_F_OCimport_01 : C_Van_02_transport_F { scope = 0; class EventHandlers; class Turrets; };
-    class C_Van_02_transport_F_OCimport_02 : C_Van_02_transport_F_OCimport_01 {
+    class O_G_Van_02_transport_F;
+    class O_G_Van_02_transport_F_OCimport_01 : O_G_Van_02_transport_F { scope = 0; class EventHandlers; class Turrets; };
+    class O_G_Van_02_transport_F_OCimport_02 : O_G_Van_02_transport_F_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class CargoTurret_01;
@@ -126,9 +126,9 @@ class CfgVehicles {
         };
     };
 
-    class C_Van_01_transport_F;
-    class C_Van_01_transport_F_OCimport_01 : C_Van_01_transport_F { scope = 0; class EventHandlers; class Turrets; };
-    class C_Van_01_transport_F_OCimport_02 : C_Van_01_transport_F_OCimport_01 {
+    class O_G_Van_01_transport_F;
+    class O_G_Van_01_transport_F_OCimport_01 : O_G_Van_01_transport_F { scope = 0; class EventHandlers; class Turrets; };
+    class O_G_Van_01_transport_F_OCimport_02 : O_G_Van_01_transport_F_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class CargoTurret_L1;
@@ -998,6 +998,9 @@ class CfgVehicles {
         side = 2;
         faction = "CFP_I_SDRebelsrf";
         crew = "CFP_I_SDRebelsrf_Soldier_04";
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\vehicles\LandRover\lr_base_baf_olive.paa"
+        };
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_I_SDRebelsrf_Soldier_01"; };
@@ -1009,15 +1012,14 @@ class CfgVehicles {
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\LandRover\lr_base_baf_olive.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+             class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "OLIVE";
 
     };
 
@@ -1030,6 +1032,10 @@ class CfgVehicles {
         side = 2;
         faction = "CFP_I_SDRebelsrf";
         crew = "CFP_I_SDRebelsrf_Soldier_01";
+        hiddenSelectionsTextures[] = {
+            "cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\civ_r_lr_base_co.paa",
+            "cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\civ_r_lr_special_co.paa"
+        };
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -1041,15 +1047,14 @@ class CfgVehicles {
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\civ_r_lr_base_co.paa'];_unit setObjectTextureGlobal [1,'cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\civ_r_lr_special_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+             class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "CIV";
 
     };
 
@@ -1150,7 +1155,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_I_SDRebelsrf_Van_01 : C_Van_02_transport_F_OCimport_02 {
+    class CFP_I_SDRebelsrf_Van_01 : O_G_Van_02_transport_F_OCimport_02 {
         editorPreview = \x\cfp\addons\i_sdrebelsrf\data\preview\CFP_O_SDRebels_Van_01.JPG;
         author = "Archduke";
         scope = 2;
@@ -1172,18 +1177,17 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\a3\Soft_F_Orange\Van_02\Data\van_body_FIA_02_CO.paa'];_unit setObjectTextureGlobal [1,'\a3\soft_f_orange\van_02\data\van_wheel_transport_co.paa'];_unit setObjectTextureGlobal [2,'\a3\soft_f_orange\van_02\data\van_glass_transport_CA.paa'];_unit setObjectTextureGlobal [3,'\a3\Soft_F_Orange\Van_02\Data\van_body_FIA_02_CO.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "FIA2";
 
     };
 
-    class CFP_I_SDRebelsrf_Truck_01 : C_Van_01_transport_F_OCimport_02 {
+    class CFP_I_SDRebelsrf_Truck_01 : O_G_Van_01_transport_F_OCimport_02 {
         editorPreview = \x\cfp\addons\i_sdrebelsrf\data\preview\CFP_O_SDRebels_Truck_01.JPG;
         author = "Archduke";
         scope = 2;

@@ -28,7 +28,7 @@ class CfgVehicles {
         };
     };
 
-     class CUP_O_LR_MG_TKA;
+    class CUP_O_LR_MG_TKA;
     class CUP_O_LR_MG_TKA_OCimport_01 : CUP_O_LR_MG_TKA { scope = 0; class EventHandlers; class Turrets; };
     class CUP_O_LR_MG_TKA_OCimport_02 : CUP_O_LR_MG_TKA_OCimport_01 {
         class EventHandlers;

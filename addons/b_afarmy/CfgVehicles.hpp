@@ -51,21 +51,21 @@ class CfgVehicles {
     class CUP_B_M1151_WDL_USA_OCimport_01 : CUP_B_M1151_WDL_USA { scope = 0; class EventHandlers; };
     class CUP_B_M1151_WDL_USA_OCimport_02 : CUP_B_M1151_WDL_USA_OCimport_01 { scope = 0; class EventHandlers; };
 
-    class CUP_B_MTVR_USA;
-    class CUP_B_MTVR_USA_OCimport_01 : CUP_B_MTVR_USA { scope = 0; class EventHandlers; };
-    class CUP_B_MTVR_USA_OCimport_02 : CUP_B_MTVR_USA_OCimport_01 { scope = 0; class EventHandlers; };
+    class CUP_B_MTVR_USMC;
+    class CUP_B_MTVR_USMC_OCimport_01 : CUP_B_MTVR_USMC { scope = 0; class EventHandlers; };
+    class CUP_B_MTVR_USMC_OCimport_02 : CUP_B_MTVR_USMC_OCimport_01 { scope = 0; class EventHandlers; };
 
-    class CUP_B_MTVR_Ammo_USA;
-    class CUP_B_MTVR_Ammo_USA_OCimport_01 : CUP_B_MTVR_Ammo_USA { scope = 0; class EventHandlers; };
-    class CUP_B_MTVR_Ammo_USA_OCimport_02 : CUP_B_MTVR_Ammo_USA_OCimport_01 { scope = 0; class EventHandlers; };
+    class CUP_B_MTVR_Ammo_USMC;
+    class CUP_B_MTVR_Ammo_USMC_OCimport_01 : CUP_B_MTVR_Ammo_USMC { scope = 0; class EventHandlers; };
+    class CUP_B_MTVR_Ammo_USMC_OCimport_02 : CUP_B_MTVR_Ammo_USMC_OCimport_01 { scope = 0; class EventHandlers; };
 
-    class CUP_B_MTVR_Refuel_USA;
-    class CUP_B_MTVR_Refuel_USA_OCimport_01 : CUP_B_MTVR_Refuel_USA { scope = 0; class EventHandlers; };
-    class CUP_B_MTVR_Refuel_USA_OCimport_02 : CUP_B_MTVR_Refuel_USA_OCimport_01 { scope = 0; class EventHandlers; };
+    class CUP_B_MTVR_Refuel_USMC;
+    class CUP_B_MTVR_Refuel_USMC_OCimport_01 : CUP_B_MTVR_Refuel_USMC { scope = 0; class EventHandlers; };
+    class CUP_B_MTVR_Refuel_USMC_OCimport_02 : CUP_B_MTVR_Refuel_USMC_OCimport_01 { scope = 0; class EventHandlers; };
 
-    class CUP_B_MTVR_Repair_USA;
-    class CUP_B_MTVR_Repair_USA_OCimport_01 : CUP_B_MTVR_Repair_USA { scope = 0; class EventHandlers; };
-    class CUP_B_MTVR_Repair_USA_OCimport_02 : CUP_B_MTVR_Repair_USA_OCimport_01 { scope = 0; class EventHandlers; };
+    class CUP_B_MTVR_Repair_USMC;
+    class CUP_B_MTVR_Repair_USMC_OCimport_01 : CUP_B_MTVR_Repair_USMC { scope = 0; class EventHandlers; };
+    class CUP_B_MTVR_Repair_USMC_OCimport_02 : CUP_B_MTVR_Repair_USMC_OCimport_01 { scope = 0; class EventHandlers; };
 
     class CUP_O_DSHKM_SLA;
     class CUP_O_DSHKM_SLA_OCimport_01 : CUP_O_DSHKM_SLA { scope = 0; class EventHandlers; class Turrets; };
@@ -750,33 +750,21 @@ class CfgVehicles {
             class MainTurret : MainTurret { gunnerType = "CFP_B_AFARMY_Rifleman_01"; };
         };
 
-		/*
-		hiddenSelectionsTextures[]=
-		{
-			"\CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_body_canvas_1_wl_co.paa",
-			"\CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_hood_canvas_wl_co.paa",
-			"\CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_regular_wl_1_co.paa",
-			"\CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_gpk_tower_wl_co.paa",
-			"\CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_regular_wl_1_co.paa",
-			"\CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_regular_wl_1_co.paa"
-		};
-		*/
+		HiddenSelectionsTextures[] =
+        {
+            "CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_body_canvas_co.paa",
+            "CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_hood_canvas_co.paa",
+            "CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_regular_1_co.paa",
+            "CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_gpk_tower_co.paa"
+        };
 
         class EventHandlers : EventHandlers
 		{
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator
-			{
-				 init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_body_canvas_co.paa'];_unit setObjectTextureGlobal [1,'CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_hood_canvas_co.paa'];_unit setObjectTextureGlobal [2,'CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_regular_1_co.paa'];_unit setObjectTextureGlobal [3,'CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_gpk_tower_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-
-				/*
-				init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_body_canvas_1_wl_co.paa'];_unit setObjectTextureGlobal [1,'CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_hood_canvas_wl_co.paa'];_unit setObjectTextureGlobal [2,'CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_regular_wl_1_co.paa'];_unit setObjectTextureGlobal [3,'CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_gpk_tower_wl_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-
-
-
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_body_canvas_co.paa'];_unit setObjectTextureGlobal [1,'CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_hood_canvas_co.paa'];_unit setObjectTextureGlobal [2,'CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_regular_1_co.paa'];_unit setObjectTextureGlobal [3,'CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_gpk_tower_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-				*/
+            {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -801,17 +789,13 @@ class CfgVehicles {
             class MainTurret : MainTurret { gunnerType = "CFP_B_AFARMY_Rifleman_01"; };
         };
 
-		/*
-		hiddenSelectionsTextures[]=
-		{
-			"\CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_body_canvas_1_wl_co.paa",
-			"\CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_hood_canvas_wl_co.paa",
-			"\CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_regular_wl_1_co.paa",
-			"\CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_gpk_tower_wl_co.paa",
-			"\CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_regular_wl_1_co.paa",
-			"\CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_regular_wl_1_co.paa"
-		};
-		*/
+		HiddenSelectionsTextures[] =
+        {
+            "CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_body_canvas_co.paa",
+            "CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_hood_canvas_co.paa",
+            "CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_regular_1_co.paa",
+            "CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_gpk_tower_co.paa"
+        };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -823,16 +807,8 @@ class CfgVehicles {
             };
 
             class ALiVE_orbatCreator
-			{
-				 init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_body_canvas_co.paa'];_unit setObjectTextureGlobal [1,'CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_hood_canvas_co.paa'];_unit setObjectTextureGlobal [2,'CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_regular_1_co.paa'];_unit setObjectTextureGlobal [3,'CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_gpk_tower_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-
-				/*
-				init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_body_canvas_1_wl_co.paa'];_unit setObjectTextureGlobal [1,'CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_hood_canvas_wl_co.paa'];_unit setObjectTextureGlobal [2,'CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_regular_wl_1_co.paa'];_unit setObjectTextureGlobal [3,'CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_gpk_tower_wl_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-
-
-
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_body_canvas_co.paa'];_unit setObjectTextureGlobal [1,'CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_hood_canvas_co.paa'];_unit setObjectTextureGlobal [2,'CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_regular_1_co.paa'];_unit setObjectTextureGlobal [3,'CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_gpk_tower_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-				*/
+            {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -909,7 +885,7 @@ class CfgVehicles {
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_HMMWV_01.jpg";
     };
 
-    class CFP_B_AFARMY_MTVR_01 : CUP_B_MTVR_USA_OCimport_02 {
+    class CFP_B_AFARMY_MTVR_01 : CUP_B_MTVR_USMC_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -922,19 +898,19 @@ class CfgVehicles {
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'CUP\WheeledVehicles\CUP_WheeledVehicles_MTVR\Data\mtvr_body_co.paa'];_unit setObjectTextureGlobal [1,'CUP\WheeledVehicles\CUP_WheeledVehicles_MTVR\Data\mtvr_body2_co.paa'];_unit setObjectTextureGlobal [2,'CUP\WheeledVehicles\CUP_WheeledVehicles_MTVR\Data\mtvr_interier_co.paa'];_unit setObjectTextureGlobal [3,'CUP\WheeledVehicles\CUP_WheeledVehicles_MTVR\Data\mtvr_tarp_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            class ALiVE_orbatCreator
+            {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "USMC";
 
     };
 
-    class CFP_B_AFARMY_MTVR_Ammo_01 : CUP_B_MTVR_Ammo_USA_OCimport_02 {
+    class CFP_B_AFARMY_MTVR_Ammo_01 : CUP_B_MTVR_Ammo_USMC_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -947,19 +923,19 @@ class CfgVehicles {
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'CUP\WheeledVehicles\CUP_WheeledVehicles_MTVR\Data\mtvr_body_co.paa'];_unit setObjectTextureGlobal [1,'CUP\WheeledVehicles\CUP_WheeledVehicles_MTVR\Data\mtvr_body2_co.paa'];_unit setObjectTextureGlobal [2,'CUP\WheeledVehicles\CUP_WheeledVehicles_MTVR\Data\mtvr_interier_co.paa'];_unit setObjectTextureGlobal [3,'CUP\WheeledVehicles\CUP_WheeledVehicles_MTVR\Data\mtvr_tarp_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            class ALiVE_orbatCreator
+            {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "USMC";
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_MTVR_Ammo_01.jpg";
     };
 
-    class CFP_B_AFARMY_MTVR_Refuel_01 : CUP_B_MTVR_Refuel_USA_OCimport_02 {
+    class CFP_B_AFARMY_MTVR_Refuel_01 : CUP_B_MTVR_Refuel_USMC_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -972,19 +948,19 @@ class CfgVehicles {
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'CUP\WheeledVehicles\CUP_WheeledVehicles_MTVR\Data\mtvr_body_co.paa'];_unit setObjectTextureGlobal [1,'CUP\WheeledVehicles\CUP_WheeledVehicles_MTVR\Data\mtvr_body2_co.paa'];_unit setObjectTextureGlobal [2,'CUP\WheeledVehicles\CUP_WheeledVehicles_MTVR\Data\mtvr_interier_co.paa'];_unit setObjectTextureGlobal [3,'CUP\WheeledVehicles\CUP_WheeledVehicles_MTVR\Data\mtvr_fuel_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            class ALiVE_orbatCreator
+            {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "USMC";
 
     };
 
-    class CFP_B_AFARMY_MTVR_Repair_01 : CUP_B_MTVR_Repair_USA_OCimport_02 {
+    class CFP_B_AFARMY_MTVR_Repair_01 : CUP_B_MTVR_Repair_USMC_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -997,15 +973,15 @@ class CfgVehicles {
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'CUP\WheeledVehicles\CUP_WheeledVehicles_MTVR\Data\mtvr_body_co.paa'];_unit setObjectTextureGlobal [1,'CUP\WheeledVehicles\CUP_WheeledVehicles_MTVR\Data\mtvr_body2_co.paa'];_unit setObjectTextureGlobal [2,'CUP\WheeledVehicles\CUP_WheeledVehicles_MTVR\Data\mtvr_interier_co.paa'];_unit setObjectTextureGlobal [3,'CUP\WheeledVehicles\CUP_WheeledVehicles_MTVR\Data\ural_repair_usmc_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            class ALiVE_orbatCreator
+            {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "USMC";
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_MTVR_Repair_01.jpg";
     };
 
