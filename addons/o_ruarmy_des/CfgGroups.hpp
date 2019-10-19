@@ -14,7 +14,7 @@ class CfgGroups {
                 name = "Infantry";
 
                 class cfp_o_ruarmy_infantry_msv_infantry_squad_emr_des {
-                    name = "MSV Infantry Squad (EMR)";
+                    name = "MSV Infantry Squad";
                     side = 0;
                     faction = "CFP_O_RUARMY_DES";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
@@ -95,7 +95,7 @@ class CfgGroups {
                 };
 
                 class cfp_o_ruarmy_infantry_msv_infantry_section_emr_des {
-                    name = "MSV Infantry Section (EMR)";
+                    name = "MSV Infantry Section";
                     side = 0;
                     faction = "CFP_O_RUARMY_DES";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
@@ -134,7 +134,7 @@ class CfgGroups {
                 };
 
                 class cfp_o_ruarmy_infantry_msv_infantry_section_at_emr_des {
-                    name = "MSV Infantry Section (AT) (EMR)";
+                    name = "MSV Infantry Section (AT)";
                     side = 0;
                     faction = "CFP_O_RUARMY_DES";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
@@ -173,7 +173,7 @@ class CfgGroups {
                 };
 
                 class cfp_o_ruarmy_infantry_msv_infantry_section_aa_emr_des {
-                    name = "MSV Infantry Section (AA) (EMR)";
+                    name = "MSV Infantry Section (AA)";
                     side = 0;
                     faction = "CFP_O_RUARMY_DES";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
@@ -200,7 +200,7 @@ class CfgGroups {
                 };
 
                 class cfp_o_ruarmy_infantry_msv_infantry_section_mg_emr_des {
-                    name = "MSV Infantry Section (MG) (EMR)";
+                    name = "MSV Infantry Section (MG)";
                     side = 0;
                     faction = "CFP_O_RUARMY_DES";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
@@ -239,7 +239,7 @@ class CfgGroups {
                 };
 
                 class cfp_o_ruarmy_infantry_msv_sniper_team_emr_des {
-                    name = "MSV Sniper Team (EMR)";
+                    name = "MSV Sniper Team";
                     side = 0;
                     faction = "CFP_O_RUARMY_DES";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
@@ -260,7 +260,7 @@ class CfgGroups {
                 };
 
                 class cfp_o_ruarmy_infantry_vdv_infantry_squad_emr_des {
-                    name = "VDV Infantry Squad (EMR)";
+                    name = "VDV Infantry Squad";
                     side = 0;
                     faction = "CFP_O_RUARMY_DES";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
@@ -341,7 +341,7 @@ class CfgGroups {
                 };
 
                 class cfp_o_ruarmy_infantry_vdv_infantry_section_emr_des {
-                    name = "VDV Infantry Section (EMR)";
+                    name = "VDV Infantry Section";
                     side = 0;
                     faction = "CFP_O_RUARMY_DES";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
@@ -380,7 +380,7 @@ class CfgGroups {
                 };
 
                 class cfp_o_ruarmy_infantry_vdv_infantry_section_at_emr_des {
-                    name = "VDV Infantry Section (AT) (EMR)";
+                    name = "VDV Infantry Section (AT)";
                     side = 0;
                     faction = "CFP_O_RUARMY_DES";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
@@ -419,7 +419,7 @@ class CfgGroups {
                 };
 
                 class cfp_o_ruarmy_infantry_vdv_infantry_section_aa_emr_des {
-                    name = "VDV Infantry Section (AA) (EMR)";
+                    name = "VDV Infantry Section (AA)";
                     side = 0;
                     faction = "CFP_O_RUARMY_DES";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
@@ -446,7 +446,7 @@ class CfgGroups {
                 };
 
                 class cfp_o_ruarmy_infantry_vdv_infantry_section_mg_emr_des {
-                    name = "VDV Infantry Section (MG) (EMR)";
+                    name = "VDV Infantry Section (MG)";
                     side = 0;
                     faction = "CFP_O_RUARMY_DES";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
@@ -485,7 +485,7 @@ class CfgGroups {
                 };
 
                 class cfp_o_ruarmy_infantry_vdv_sniper_team_emr_des {
-                    name = "VDV Sniper Team (EMR)";
+                    name = "VDV Sniper Team";
                     side = 0;
                     faction = "CFP_O_RUARMY_DES";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";

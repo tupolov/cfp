@@ -60,5 +60,31 @@ class CFP_V_O_RUMVD_Black : CUP_V_B_GER_PVest_Fleck_RFL
 					containerClass = "Supply220";
 					mass = 90;
 					hiddenSelections[] = {"camo1","camo2","camo3","camo4","_pistol","_pistol_cartridge_pouches","_pistol_holster"};
+
+			class HitpointsProtectionInfo {
+
+				class Chest {
+				HitpointName = "HitChest";
+				armor = 20;
+				PassThrough = 0.200000;
 				};
+
+				class Diaphragm {
+				HitpointName = "HitDiaphragm";
+				armor = 20;
+				PassThrough = 0.200000;
+				};
+
+				class Abdomen {
+				hitpointName = "HitAbdomen";
+				armor = 20;
+				passThrough = 0.200000;
+				};
+
+				class Body {
+				hitpointName = "HitBody";
+				passThrough = 0.200000;
+			};
+		};
+	};
 };

@@ -1420,7 +1420,7 @@ class CfgVehicles {
     {
         scope = 1;
         scopeCurator = 0;
-        displayName = "Russian SURPAT";
+        displayName = "AFRF Uniform (Gloves/Kneepads MVD SURPAT)";
         uniformClass = "CUP_U_O_RUMVD_SURPAT";
         model="\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_RUS_Soldier_gloves_kneepads.p3d";
         hiddenSelections[] = {"camo", "clan", "insignia"};
@@ -1443,7 +1443,7 @@ class CfgVehicles {
         faction = "CFP_O_RUMVD";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F","G_GUERIL_default"};
-        uniformClass = "CUP_U_O_RUS_Gorka_Green";
+        uniformClass = "CUP_U_O_RUS_Gorka_Green_gloves_kneepads";
 
 
         weapons[] = {"CUP_arifle_AK74M_kobra","Throw","Put"};
@@ -1452,7 +1452,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"CUP_V_RUS_Smersh_1","CUP_H_RUS_ZSH_1_Goggles","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_kobra","","","CUP_optic_Kobra",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"CUP_U_O_RUS_Gorka_Green",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",3,30},{"SmokeShell",1,1}}},{"CUP_V_RUS_Smersh_1",{{"CUP_30Rnd_545x39_AK_M",2,30},{"CUP_HandGrenade_RGD5",4,1},{"SmokeShellOrange",1,1}}},{},"CUP_H_RUS_ZSH_1_Goggles","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_kobra","","","CUP_optic_Kobra",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"CUP_U_O_RUS_Gorka_Green_gloves_kneepads",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",3,30},{"SmokeShell",1,1}}},{"CUP_V_RUS_Smersh_1",{{"CUP_30Rnd_545x39_AK_M",2,30},{"CUP_HandGrenade_RGD5",4,1},{"SmokeShellOrange",1,1}}},{},"CUP_H_RUS_ZSH_1_Goggles","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -1479,7 +1479,7 @@ class CfgVehicles {
         faction = "CFP_O_RUMVD";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F","G_GUERIL_default"};
-        uniformClass = "CUP_U_O_RUS_Gorka_Green";
+        uniformClass = "CUP_U_O_RUS_Gorka_Green_gloves_kneepads";
 
 
         weapons[] = {"CUP_arifle_AK74M_GL_kobra","Throw","Put"};
@@ -1488,7 +1488,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"CUP_V_RUS_Smersh_1","CUP_H_RUS_ZSH_1","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_GL_kobra","","","CUP_optic_Kobra",{"CUP_30Rnd_545x39_AK_M",30},{"CUP_1Rnd_HE_GP25_M",1},""},{},{},{"CUP_U_O_RUS_Gorka_Green",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",3,30},{"SmokeShell",1,1}}},{"CUP_V_RUS_Smersh_1",{{"CUP_30Rnd_545x39_AK_M",4,30},{"SmokeShellOrange",1,1},{"CUP_1Rnd_HE_GP25_M",7,1}}},{},"CUP_H_RUS_ZSH_1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_GL_kobra","","","CUP_optic_Kobra",{"CUP_30Rnd_545x39_AK_M",30},{"CUP_1Rnd_HE_GP25_M",1},""},{},{},{"CUP_U_O_RUS_Gorka_Green_gloves_kneepads",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",3,30},{"SmokeShell",1,1}}},{"CUP_V_RUS_Smersh_1",{{"CUP_30Rnd_545x39_AK_M",4,30},{"SmokeShellOrange",1,1},{"CUP_1Rnd_HE_GP25_M",7,1}}},{},"CUP_H_RUS_ZSH_1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -1515,7 +1515,7 @@ class CfgVehicles {
         faction = "CFP_O_RUMVD";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F","G_GUERIL_default"};
-        uniformClass = "CUP_U_O_RUS_Gorka_Green";
+        uniformClass = "CUP_U_O_RUS_Gorka_Green_gloves2";
 
 
         weapons[] = {"CUP_arifle_AK74M_GL_pso","Throw","Put"};
@@ -1524,7 +1524,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"CUP_V_RUS_Smersh_1","CUP_H_RUS_ZSH_1","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M","CUP_1Rnd_HE_GP25_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_GL_pso","","","CUP_optic_PSO_1",{"CUP_30Rnd_545x39_AK_M",30},{"CUP_1Rnd_HE_GP25_M",1},""},{},{},{"CUP_U_O_RUS_Gorka_Green",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",3,30},{"SmokeShellOrange",1,1}}},{"CUP_V_RUS_Smersh_1",{{"CUP_30Rnd_545x39_AK_M",2,30},{"CUP_HandGrenade_RGD5",2,1},{"SmokeShellBlue",1,1},{"CUP_1Rnd_HE_GP25_M",3,1},{"CUP_1Rnd_SMOKE_GP25_M",2,1},{"CUP_FlareWhite_M203",1,1},{"CUP_FlareRed_GP25_M",1,1}}},{},"CUP_H_RUS_ZSH_1","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_GL_pso","","","CUP_optic_PSO_1",{"CUP_30Rnd_545x39_AK_M",30},{"CUP_1Rnd_HE_GP25_M",1},""},{},{},{"CUP_U_O_RUS_Gorka_Green_gloves2",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",3,30},{"SmokeShellOrange",1,1}}},{"CUP_V_RUS_Smersh_1",{{"CUP_30Rnd_545x39_AK_M",2,30},{"CUP_HandGrenade_RGD5",2,1},{"SmokeShellBlue",1,1},{"CUP_1Rnd_HE_GP25_M",3,1},{"CUP_1Rnd_SMOKE_GP25_M",2,1},{"CUP_FlareWhite_M203",1,1},{"CUP_FlareRed_GP25_M",1,1}}},{},"CUP_H_RUS_ZSH_1","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -1551,7 +1551,7 @@ class CfgVehicles {
         faction = "CFP_O_RUMVD";
 
         identityTypes[] = {"Head_Euro","LanguageRUS_F","G_GUERIL_default"};
-        uniformClass = "CUP_U_O_RUS_Gorka_Green";
+        uniformClass = "CUP_U_O_RUS_Gorka_Green_gloves2";
 
         backpack = "CUP_B_RUS_Pack_AT";
         weapons[] = {"CUP_arifle_AK74M_kobra","CUP_launch_RPG7V","Throw","Put"};
@@ -1560,7 +1560,7 @@ class CfgVehicles {
         respawnLinkedItems[] = {"CUP_V_RUS_Smersh_2","CUP_H_RUS_ZSH_1","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_PG7VL_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_PG7VL_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_kobra","","","CUP_optic_Kobra",{"CUP_30Rnd_545x39_AK_M",30},{},""},{"CUP_launch_RPG7V","","","",{"CUP_PG7VL_M",1},{},""},{},{"CUP_U_O_RUS_Gorka_Green",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",3,30}}},{"CUP_V_RUS_Smersh_2",{{"CUP_30Rnd_545x39_AK_M",2,30}}},{"CUP_B_RUS_Pack_AT",{{"CUP_PG7VL_M",2,1}}},"CUP_H_RUS_ZSH_1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_kobra","","","CUP_optic_Kobra",{"CUP_30Rnd_545x39_AK_M",30},{},""},{"CUP_launch_RPG7V","","","",{"CUP_PG7VL_M",1},{},""},{},{"CUP_U_O_RUS_Gorka_Green_gloves2",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",3,30}}},{"CUP_V_RUS_Smersh_2",{{"CUP_30Rnd_545x39_AK_M",2,30}}},{"CUP_B_RUS_Pack_AT",{{"CUP_PG7VL_M",2,1}}},"CUP_H_RUS_ZSH_1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -1712,6 +1712,7 @@ class CfgVehicles {
         facewearList[] = {
             "SP_Balaclava_Black", 0.8,
             "CUP_RUS_Balaclava_blk", 0.5,
+            "G_Balaclava_blk", 0.5,
             "CUP_RUS_Balaclava_grn", 0.5
         };
 
@@ -1739,16 +1740,14 @@ class CfgVehicles {
 
         // 6-8 options
         rifleList[] = {
-            {"CUP_arifle_AK74M",{"CUP_30Rnd_545x39_AK_M",6}}, 0.5,
-            {"CUP_arifle_AK107",{"CUP_30Rnd_545x39_AK_M",6}}, 0.5,
+            {"CUP_arifle_AK74M_railed",{"CUP_30Rnd_545x39_AK74M_M",6}}, 0.8,
+            {"CUP_arifle_AK105_railed",{"CUP_30Rnd_545x39_AK74M_M",6}}, 0.5,
             {"CUP_srifle_VSSVintorez",{"CUP_20Rnd_9x39_SP5_VSS_M",6}}, 0.5,
-            {"CUP_arifle_AKS74",{"CUP_30Rnd_545x39_AK_M",6}}, 0.3,
-            {"CUP_arifle_AKS74_pso",{"CUP_30Rnd_545x39_AK_M",6}}, 0.1,
+            {"CUP_arifle_AK74M_railed_afg",{"CUP_30Rnd_545x39_AK74M_M",6}}, 0.8,
+            {"CUP_arifle_AKS74_pso",{"CUP_30Rnd_545x39_AK74M_M",6}}, 0.1,
             {"CUP_arifle_AKS74U",{"CUP_30Rnd_545x39_AK_M",6}}, 0.2,
-            {"CUP_arifle_AK74_GL",{{"CUP_30Rnd_545x39_AK_M",6},{"CUP_1Rnd_HE_GP25_M",2},{"CUP_1Rnd_HE_GP25_M",2}}}, 0.3,
-            {"CUP_arifle_AK74M_GL",{{"CUP_30Rnd_545x39_AK_M",6},{"CUP_1Rnd_HE_GP25_M",2},{"CUP_1Rnd_HE_GP25_M",2}}}, 0.3,
-            {"CUP_arifle_AK74_GL",{{"CUP_30Rnd_545x39_AK_M",6},{"CUP_1Rnd_HE_GP25_M",2},{"CUP_1Rnd_HE_GP25_M",2}}}, 0.3,
-            {"arifle_AK12_GL_F",{{"30Rnd_762x39_Mag_F",6},{"1Rnd_HE_Grenade_shell",2},{"1Rnd_HE_Grenade_shell",2}}}, 0.1
+            {"CUP_arifle_AK74M_GL_railed",{{"CUP_30Rnd_545x39_AK74M_M",6},{"CUP_1Rnd_HE_GP25_M",2},{"CUP_1Rnd_HE_GP25_M",2}}}, 0.3,
+            {"CUP_arifle_AK74M_GL_top_rail",{{"CUP_30Rnd_545x39_AK74M_M",6},{"CUP_1Rnd_HE_GP25_M",2},{"CUP_1Rnd_HE_GP25_M",2}}}, 0.3
         };
 
         handgunList[] = {

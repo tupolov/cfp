@@ -2,7 +2,7 @@
 	class CUP_H_USMC_LWH_NVGMOUNT_DES;
 	class CFP_H_O_RUMVD_SURPAT: CUP_H_USMC_LWH_NVGMOUNT_DES
 	{
-		scope = 2;
+		scope = 1;
 		author = "Spartan";
 		dlc = "CFP";
 		displayName  = "Russian MVD Helmet";
