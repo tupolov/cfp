@@ -418,7 +418,7 @@
 
 	class CFP_CHZ_Berezka2: ItemCore
 	{
-		picture = "";
+		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Chedaki\data\ui\icon_u_o_kam_7_ca.paa";
 		scope=2;
 		model = "x\cfp\addons\models\CUP_Ins_Uniform1.p3d";
 		displayName="Chedaki Uniform (Berezka Snow Pants)";
@@ -435,7 +435,7 @@
 
 	class CFP_CHZ_Berezka: ItemCore
 	{
-		picture = "";
+		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Chedaki\data\ui\icon_u_o_kam_7_ca.paa";
 		scope=2;
 		model = "x\cfp\addons\models\CUP_Ins_Uniform1.p3d";
 		displayName="Chedaki Uniform (Berezka Green Pants)";
@@ -452,7 +452,7 @@
 
 	class CFP_CHZ_Berezka3: ItemCore
 	{
-		picture = "";
+		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Chedaki\data\ui\icon_u_o_kam_7_ca.paa";
 		scope=2;
 		model = "x\cfp\addons\models\CUP_Ins_Uniform1.p3d";
 		displayName="Chedaki Uniform (Berezka Green Top/White Pants)";
@@ -469,7 +469,7 @@
 
 	class CFP_CHZ_Berezka4: ItemCore
 	{
-		picture = "";
+		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Chedaki\data\ui\icon_u_o_kam_7_ca.paa";
 		scope=2;
 		model = "x\cfp\addons\models\CUP_Ins_Uniform1.p3d";
 		displayName="Chedaki Uniform (Berezka White Top/Berezka Green Pants)";

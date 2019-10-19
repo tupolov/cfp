@@ -6,7 +6,7 @@ class CfgVehicleClasses
 {
 	class CFP_SSh68NetHelmet
 	{
-		displayName = "SSh68 Net Helmet";
+		displayName = "SSh-60 Net";
 	};
 };
 */
@@ -15,7 +15,7 @@ class CfgVehicleClasses
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_SSh68NetHelmet_Black1.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "SSh68 Net Helmet (Black 1)";
+		displayName = "SSh-60 Net (Black)";
 		// picture = "\x\cfp\addons\headgear\SSh68NetHelmet\ui\Black1.jpg";
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\CUP_TK_Helmet.p3d";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68NetHelmet\Black.paa"};
@@ -26,7 +26,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\CUP_TK_Helmet.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -40,9 +40,9 @@ class CfgVehicleClasses
 	class SP_SSh68NetHelmet_Black2: ItemCore
     {
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_SSh68NetHelmet_Black2.paa";
-		scope = 2;
+		scope = 1;
 		weaponPoolAvailable = 1;
-		displayName = "SSh68 Net Helmet (Black 2)";
+		displayName = "SSh-60 Net (Black 2)";
 		// picture = "\x\cfp\addons\headgear\SSh68NetHelmet\ui\Black2.jpg";
 		model = "\x\cfp\addons\models\SSh68NetHelmet2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68NetHelmet\Black.paa","\x\cfp\addons\headgear\SSh68NetHelmet\Black.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa"};
@@ -53,7 +53,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\SSh68NetHelmet2";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -69,7 +69,7 @@ class CfgVehicleClasses
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_SSh68NetHelmet_Blue1.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "SSh68 Net Helmet (Blue 1)";
+		displayName = "SSh-60 Net (Blue)";
 		// picture = "\x\cfp\addons\headgear\SSh68NetHelmet\ui\Blue1.jpg";
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\CUP_TK_Helmet.p3d";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68NetHelmet\Blue.paa"};
@@ -80,7 +80,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\CUP_TK_Helmet.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -94,9 +94,9 @@ class CfgVehicleClasses
 	class SP_SSh68NetHelmet_Blue2: ItemCore
     {
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_SSh68NetHelmet_Blue2.paa";
-		scope = 2;
+		scope = 1;
 		weaponPoolAvailable = 1;
-		displayName = "SSh68 Net Helmet (Blue 2)";
+		displayName = "SSh-60 Net (Blue 2)";
 		// picture = "\x\cfp\addons\headgear\SSh68NetHelmet\ui\Blue2.jpg";
 		model = "\x\cfp\addons\models\SSh68NetHelmet2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68NetHelmet\Blue.paa","\x\cfp\addons\headgear\SSh68NetHelmet\Black.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa"};
@@ -107,7 +107,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\SSh68NetHelmet2";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -123,7 +123,7 @@ class CfgVehicleClasses
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_SSh68NetHelmet_Green1.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "SSh68 Net Helmet (Green 1)";
+		displayName = "SSh-60 Net (Green)";
 		// picture = "\x\cfp\addons\headgear\SSh68NetHelmet\ui\Green1.jpg";
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\CUP_TK_Helmet.p3d";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68NetHelmet\Green.paa"};
@@ -134,7 +134,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\CUP_TK_Helmet.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -148,9 +148,9 @@ class CfgVehicleClasses
 	class SP_SSh68NetHelmet_Green2: ItemCore
     {
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_SSh68NetHelmet_Green2.paa";
-		scope = 2;
+		scope = 1;
 		weaponPoolAvailable = 1;
-		displayName = "SSh68 Net Helmet (Green 2)";
+		displayName = "SSh-60 Net (Green 2)";
 		// picture = "\x\cfp\addons\headgear\SSh68NetHelmet\ui\Green2.jpg";
 		model = "\x\cfp\addons\models\SSh68NetHelmet2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68NetHelmet\Green.paa","\x\cfp\addons\headgear\SSh68NetHelmet\Black.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa"};
@@ -161,7 +161,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\SSh68NetHelmet2";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -177,7 +177,7 @@ class CfgVehicleClasses
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_SSh68NetHelmet_Tan1.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "SSh68 Net Helmet (Tan 1)";
+		displayName = "SSh-60 Net (Tan)";
 		// picture = "\x\cfp\addons\headgear\SSh68NetHelmet\ui\Tan1.jpg";
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\CUP_TK_Helmet.p3d";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68NetHelmet\Tan.paa"};
@@ -188,7 +188,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\CUP_TK_Helmet.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -202,9 +202,9 @@ class CfgVehicleClasses
 	class SP_SSh68NetHelmet_Tan2: ItemCore
     {
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_SSh68NetHelmet_Tan2.paa";
-		scope = 2;
+		scope = 1;
 		weaponPoolAvailable = 1;
-		displayName = "SSh68 Net Helmet (Tan 2)";
+		displayName = "SSh-60 Net (Tan 2)";
 		// picture = "\x\cfp\addons\headgear\SSh68NetHelmet\ui\Tan2.jpg";
 		model = "\x\cfp\addons\models\SSh68NetHelmet2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68NetHelmet\Tan.paa","\x\cfp\addons\headgear\SSh68NetHelmet\Black.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa"};
@@ -215,7 +215,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\SSh68NetHelmet2";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -229,9 +229,9 @@ class CfgVehicleClasses
 	class SP_SSh68NetHelmet_White1: ItemCore
     {
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_SSh68NetHelmet_White1.paa";
-		scope = 2;
+		scope = 1;
 		weaponPoolAvailable = 1;
-		displayName = "SSh68 Net Helmet (White 1)";
+		displayName = "SSh-60 Net (White 1)";
 		// picture = "\x\cfp\addons\headgear\SSh68NetHelmet\ui\White1.jpg";
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\CUP_TK_Helmet.p3d";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68NetHelmet\White.paa"};
@@ -242,7 +242,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\CUP_TK_Helmet.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -257,9 +257,9 @@ class CfgVehicleClasses
 	class SP_SSh68NetHelmet_White2: ItemCore
     {
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_SSh68NetHelmet_White2.paa";
-		scope = 2;
+		scope = 1;
 		weaponPoolAvailable = 1;
-		displayName = "SSh68 Net Helmet (White 2)";
+		displayName = "SSh-60 Net (White 2)";
 		// picture = "\x\cfp\addons\headgear\SSh68NetHelmet\ui\White2.jpg";
 		model = "\x\cfp\addons\models\SSh68NetHelmet2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68NetHelmet\White.paa","\x\cfp\addons\headgear\SSh68NetHelmet\Black.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa"};
@@ -270,7 +270,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\SSh68NetHelmet2";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -286,7 +286,7 @@ class CfgVehicleClasses
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_SSh68NetHelmet_UN1.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName = "SSh68 Net Helmet (U.N 1)";
+		displayName = "SSh-60 Net (U.N 1)";
 		// picture = "\x\cfp\addons\headgear\SSh68NetHelmet\ui\UN1.jpg";
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\CUP_TK_Helmet.p3d";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68NetHelmet\UN.paa"};
@@ -297,7 +297,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Taki\CUP_TK_Helmet.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -312,9 +312,9 @@ class CfgVehicleClasses
 	class SP_SSh68NetHelmet_UN2: ItemCore
     {
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_SSh68NetHelmet_UN2.paa";
-		scope = 2;
+		scope = 1;
 		weaponPoolAvailable = 1;
-		displayName = "SSh68 Net Helmet (UN 2)";
+		displayName = "SSh-60 Net (UN 2)";
 		// picture = "\x\cfp\addons\headgear\SSh68NetHelmet\ui\UN2.jpg";
 		model = "\x\cfp\addons\models\SSh68NetHelmet2";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68NetHelmet\UN.paa","\x\cfp\addons\headgear\SSh68NetHelmet\Black.paa","\x\cfp\addons\headgear\PASGTHelmet\Black.paa"};
@@ -325,7 +325,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\SSh68NetHelmet2";
 			modelSides[] = {3,1};
 			armor = 10;

@@ -794,7 +794,7 @@
     {
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_TPat.paa;
 
-		scope=2;
+		scope=1;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_roll.p3d";
 		displayName = "BDU (DPM Rolled Sleeves)";
 		author = "CFP";
@@ -965,6 +965,42 @@
 		{
 			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2.p3d";
 			uniformClass = "CFP_BDU_Marpat";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
+	class CFP_BDU_Marpat2 : Uniform_Base
+    {
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_Marpat.paa;
+
+		scope=2;
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_gloves.p3d";
+		displayName = "BDU (Marpat Gloves)";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_gloves.p3d";
+			uniformClass = "CFP_BDU_Marpat2";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
+	class CFP_BDU_Marpat3 : Uniform_Base
+    {
+        picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_Marpat.paa;
+
+		scope=2;
+		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_roll2.p3d";
+		displayName = "BDU (Marpat Rolled Sleeves)";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_roll2.p3d";
+			uniformClass = "CFP_BDU_Marpat3";
 			containerClass="Supply60";
 			mass=20;
 		};
