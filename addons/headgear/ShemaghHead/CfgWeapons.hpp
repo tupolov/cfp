@@ -15,7 +15,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 15;
+			mass = 5;
 			uniformmodel = "\x\cfp\addons\models\shemagh_head";
 			modelSides[] = {3,1};
 			armor = 0;
@@ -40,7 +40,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 15;
+			mass = 5;
 			uniformmodel = "\x\cfp\addons\models\shemagh_head";
 			modelSides[] = {3,1};
 			armor = 0;
@@ -67,7 +67,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 15;
+			mass = 5;
 			uniformmodel = "\x\cfp\addons\models\shemagh_head";
 			modelSides[] = {3,1};
 			armor = 0;
@@ -94,7 +94,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 15;
+			mass = 5;
 			uniformmodel = "\x\cfp\addons\models\shemagh_head";
 			modelSides[] = {3,1};
 			armor = 0;
@@ -121,7 +121,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 15;
+			mass = 5;
 			uniformmodel = "\x\cfp\addons\models\shemagh_head";
 			modelSides[] = {3,1};
 			armor = 0;
@@ -148,7 +148,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 15;
+			mass = 5;
 			uniformmodel = "\x\cfp\addons\models\shemagh_head";
 			modelSides[] = {3,1};
 			armor = 0;
@@ -175,7 +175,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 15;
+			mass = 5;
 			uniformmodel = "\x\cfp\addons\models\shemagh_head";
 			modelSides[] = {3,1};
 			armor = 0;
@@ -202,7 +202,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 15;
+			mass = 5;
 			uniformmodel = "\x\cfp\addons\models\shemagh_full";
 			modelSides[] = {3,1};
 			armor = 0;
@@ -229,7 +229,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 15;
+			mass = 5;
 			uniformmodel = "\x\cfp\addons\models\shemagh_full";
 			modelSides[] = {3,1};
 			armor = 0;
@@ -256,7 +256,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 15;
+			mass = 5;
 			uniformmodel = "\x\cfp\addons\models\shemagh_full";
 			modelSides[] = {3,1};
 			armor = 0;
@@ -283,7 +283,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 15;
+			mass = 5;
 			uniformmodel = "\x\cfp\addons\models\shemagh_full";
 			modelSides[] = {3,1};
 			armor = 0;
@@ -310,7 +310,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 15;
+			mass = 5;
 			uniformmodel = "\x\cfp\addons\models\shemagh_full";
 			modelSides[] = {3,1};
 			armor = 0;
@@ -337,7 +337,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 15;
+			mass = 5;
 			uniformmodel = "\x\cfp\addons\models\shemagh_full";
 			modelSides[] = {3,1};
 			armor = 0;
@@ -364,7 +364,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 15;
+			mass = 5;
 			uniformmodel = "\x\cfp\addons\models\shemagh_full";
 			modelSides[] = {3,1};
 			armor = 0;
@@ -391,7 +391,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 15;
+			mass = 5;
 			uniformmodel = "\x\cfp\addons\models\shemagh_full";
 			modelSides[] = {3,1};
 			armor = 0;

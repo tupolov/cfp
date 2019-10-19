@@ -142,20 +142,21 @@ class CfgVehicles {
         // Civilian clothes
         uniformList[] = {
             "U_BG_Guerilla2_1", 0.4,
-            "CUP_I_B_PMC_Unit_22", 0.4,
-            "CUP_I_B_PMC_Unit_3", 0.4,
+            "CUP_I_B_Para_Unit_3", 0.4,
+            "CUP_I_B_Para_Unit_8", 0.4,
             "U_I_C_Soldier_Para_1_F", 0.4,
-            "CUP_I_B_PMC_Unit_15", 0.4,
-            "U_BG_Guerilla2_3", 0.4
+            "CUP_I_B_Para_Unit_1", 0.4,
+            "U_BG_Guerilla2_3", 0.4,
+            "CUP_I_B_PMC_Unit_41", 0.4,
         };
 
         // Basic Rigs
         vestList[] = {
             "SP_Modular1_Black", 0.3,
-            "CFP_FAPC_Breacher_Multicam", 0.3,
-            "CFP_FAPC_Operator_M81", 0.23,
+            "CUP_V_MBSS_PACA_Green", 0.3,
+            "V_I_G_resistanceLeader_F", 0.23,
             "CFP_AK_VEST_Tan", 0.3,
-            "CUP_V_OI_Taki_Jacket1_03", 0.1,
+            "CFP_TakJacket_EDRL", 0.1,
             "CUP_V_OI_Taki_Jacket1_04", 0.1,
             "CUP_V_OI_Taki_Jacket1_05", 0.1,
             "CUP_V_OI_Taki_Jacket1_06", 0.1,
@@ -192,7 +193,7 @@ class CfgVehicles {
         backpackList[] = {
             "",0.7,
             "B_Kitbag_mcamo", 0.1,
-            "CUP_B_USMC_AssaultPack", 0.1,
+            "B_Kitbag_rgr", 0.1,
             "B_AssaultPack_mcamo", 0.1,
             "CUP_B_AlicePack_Bedroll", 0.1
         };
@@ -240,10 +241,10 @@ class CfgVehicles {
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
 
-        uniformClass = "CUP_I_B_PMC_Unit_15";
+        uniformClass = "CUP_I_B_Para_Unit_1";
 
-        linkedItems[] = {"CFP_FAPC_Breacher_Multicam","H_Cap_oli","ItemMap","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"CFP_FAPC_Breacher_Multicam","H_Cap_oli","ItemMap","ItemCompass","ItemWatch"};
+        linkedItems[] = {"CUP_V_MBSS_PACA_Green","H_Cap_oli","ItemMap","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CUP_V_MBSS_PACA_Green","H_Cap_oli","ItemMap","ItemCompass","ItemWatch"};
 
         weapons[] = {"CUP_arifle_M4A1_camo","CUP_hgun_Glock17_tan"};
         respawnWeapons[] = {"CUP_arifle_M4A1_camo","CUP_hgun_Glock17_tan"};
@@ -251,7 +252,7 @@ class CfgVehicles {
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_camo","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_tan","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CUP_I_B_PMC_Unit_15",{{"CUP_17Rnd_9x19_glock17",1,17},{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_FAPC_Breacher_Multicam",{}},{},"H_Cap_oli","",{},{"ItemMap","","","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_camo","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_tan","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CUP_I_B_Para_Unit_1",{{"CUP_17Rnd_9x19_glock17",1,17},{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CUP_V_MBSS_PACA_Green",{}},{},"H_Cap_oli","",{},{"ItemMap","","","ItemCompass","ItemWatch",""}};
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
@@ -269,10 +270,10 @@ class CfgVehicles {
 
         identityTypes[] = {"Head_Greek","LanguageENG_F","G_GUERIL_default"};
 
-        uniformClass = "CUP_I_B_PMC_Unit_22";
+        uniformClass = "CUP_I_B_Para_Unit_3";
 
-        linkedItems[] = {"CFP_FAPC_Operator_M81","H_Booniehat_khk","ItemMap","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"CFP_FAPC_Operator_M81","H_Booniehat_khk","ItemMap","ItemCompass","ItemWatch"};
+        linkedItems[] = {"V_I_G_resistanceLeader_F","H_Booniehat_khk","ItemMap","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"V_I_G_resistanceLeader_F","H_Booniehat_khk","ItemMap","ItemCompass","ItemWatch"};
 
         weapons[] = {"CUP_srifle_M40A3","CUP_hgun_Glock17_tan"};
         respawnWeapons[] = {"CUP_srifle_M40A3","CUP_hgun_Glock17_tan"};
@@ -289,7 +290,7 @@ class CfgVehicles {
             {"CUP_arifle_Mk16_CQC_FG_Aim_Laser_snds",{"CUP_30Rnd_556x45_Stanag",6}}, 0.1
         };
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_M40A3","","","",{"CUP_5Rnd_762x51_M24",5},{},""},{},{"CUP_hgun_Glock17_tan","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CUP_I_B_PMC_Unit_22",{{"CUP_17Rnd_9x19_glock17",1,17},{"CUP_5Rnd_762x51_M24",1,5}}},{"CFP_FAPC_Operator_M81",{{"CUP_5Rnd_762x51_M24",1,5}}},{"B_Kitbag_mcamo",{}},"H_Booniehat_khk","SP_Shades_Black",{},{"ItemMap","","","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_M40A3","","","",{"CUP_5Rnd_762x51_M24",5},{},""},{},{"CUP_hgun_Glock17_tan","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CUP_I_B_Para_Unit_3",{{"CUP_17Rnd_9x19_glock17",1,17},{"CUP_5Rnd_762x51_M24",1,5}}},{"V_I_G_resistanceLeader_F",{{"CUP_5Rnd_762x51_M24",1,5}}},{"B_Kitbag_mcamo",{}},"H_Booniehat_khk","SP_Shades_Black",{},{"ItemMap","","","ItemCompass","ItemWatch",""}};
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
@@ -307,7 +308,7 @@ class CfgVehicles {
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
 
-        uniformClass = "CUP_I_B_PMC_Unit_3";
+        uniformClass = "CUP_I_B_Para_Unit_8";
 
         linkedItems[] = {"CFP_AK_VEST_Tan","SP_Bandana_ATacsFG","ItemMap","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CFP_AK_VEST_Tan","SP_Bandana_ATacsFG","ItemMap","ItemCompass","ItemWatch"};
@@ -318,9 +319,9 @@ class CfgVehicles {
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17"};
 
-        backpack = "CUP_B_USMC_AssaultPack";
+        backpack = "B_Kitbag_rgr";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_tan","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CUP_I_B_PMC_Unit_3",{{"CUP_17Rnd_9x19_glock17",1,17},{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_AK_VEST_Tan",{}},{"CUP_B_USMC_AssaultPack",{}},"SP_Bandana_ATacsFG","",{},{"ItemMap","","","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_tan","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CUP_I_B_Para_Unit_8",{{"CUP_17Rnd_9x19_glock17",1,17},{"CUP_30Rnd_556x45_Stanag",3,30}}},{"CFP_AK_VEST_Tan",{}},{"B_Kitbag_rgr",{}},"SP_Bandana_ATacsFG","",{},{"ItemMap","","","ItemCompass","ItemWatch",""}};
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;

@@ -26,7 +26,7 @@ class CfgVehicleClasses
 			uniformModel = "\x\cfp\addons\vests\Alice\alice_sample.p3d";
 			containerClass = "Supply140";
 			hiddenSelections[] = {""};
-			mass = 100;
+			mass = 40;
 			class HitpointsProtectionInfo
 			{
 				class Chest
@@ -72,7 +72,7 @@ class CfgVehicleClasses
 			uniformModel = "\x\cfp\addons\vests\Alice\alice_sample.p3d";
 			containerClass = "Supply140";
 			hiddenSelections[] = {"Camo1","Camo2"};
-			mass = 100;
+			mass = 40;
 			class HitpointsProtectionInfo
 			{
 				class Chest
@@ -118,7 +118,7 @@ class CfgVehicleClasses
 			uniformModel = "\x\cfp\addons\vests\Alice\alice_sample.p3d";
 			containerClass = "Supply140";
 			hiddenSelections[] = {"Camo1","Camo2"};
-			mass = 100;
+			mass = 40;
 			class HitpointsProtectionInfo
 			{
 				class Chest
@@ -164,7 +164,7 @@ class CfgVehicleClasses
 			uniformModel = "\x\cfp\addons\vests\Alice\alice_sample2.p3d";
 			containerClass = "Supply140";
 			hiddenSelections[] = {""};
-			mass = 100;
+			mass = 40;
 			class HitpointsProtectionInfo
 			{
 				class Chest
@@ -210,7 +210,7 @@ class CfgVehicleClasses
 			uniformModel = "\x\cfp\addons\vests\Alice\alice_sample2.p3d";
 			containerClass = "Supply140";
 			hiddenSelections[] = {"Camo1","Camo2"};
-			mass = 100;
+			mass = 40;
 			class HitpointsProtectionInfo
 			{
 				class Chest
@@ -256,7 +256,7 @@ class CfgVehicleClasses
 			uniformModel = "\x\cfp\addons\vests\Alice\alice_sample2.p3d";
 			containerClass = "Supply140";
 			hiddenSelections[] = {"Camo1","Camo2"};
-			mass = 100;
+			mass = 40;
 			class HitpointsProtectionInfo
 			{
 				class Chest

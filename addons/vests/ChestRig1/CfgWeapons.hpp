@@ -29,7 +29,7 @@ class CfgVehicleClasses
 			uniformModel = "\x\cfp\addons\models\ChestRig1";
 			containerClass = "Supply80";
 			hiddenSelections[] = {"Camo1","Camo2"};
-			mass = 100;
+			mass = 40;
 			class HitpointsProtectionInfo
 			{
 				class Chest
@@ -78,7 +78,7 @@ class CfgVehicleClasses
 			uniformModel = "\x\cfp\addons\models\ChestRig1";
 			containerClass = "Supply80";
 			hiddenSelections[] = {"Camo1","Camo2"};
-			mass = 100;
+			mass = 40;
 			class HitpointsProtectionInfo
 			{
 				class Chest
@@ -127,7 +127,7 @@ class CfgVehicleClasses
 			uniformModel = "\x\cfp\addons\models\ChestRig1";
 			containerClass = "Supply80";
 			hiddenSelections[] = {"Camo1","Camo2"};
-			mass = 100;
+			mass = 40;
 			class HitpointsProtectionInfo
 			{
 				class Chest
@@ -176,7 +176,7 @@ class CfgVehicleClasses
 			uniformModel = "\x\cfp\addons\models\ChestRig1";
 			containerClass = "Supply80";
 			hiddenSelections[] = {"Camo1","Camo2"};
-			mass = 100;
+			mass = 40;
 			class HitpointsProtectionInfo
 			{
 				class Chest

@@ -14,7 +14,7 @@
 			uniformModel = "\x\cfp\addons\models\Houthis_Jacket.p3d";
 			containerClass = "Supply80";
 			hiddenSelections[] = {"camo","camo1","camo2"}; // Vest, arms, pouches
-			mass = 80;
+			mass = 20;
 			class HitpointsProtectionInfo
 			{
 				class Body

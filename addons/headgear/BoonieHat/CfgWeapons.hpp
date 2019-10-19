@@ -24,7 +24,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 15;
+			mass = 5;
 			uniformmodel = "\x\cfp\addons\models\BoonieHat";
 			modelSides[] = {3,1};
 			armor = 0;
@@ -50,7 +50,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 15;
+			mass = 5;
 			uniformmodel = "\x\cfp\addons\models\BoonieHat";
 			modelSides[] = {3,1};
 			armor = 0;
@@ -77,7 +77,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 15;
+			mass = 5;
 			uniformmodel = "\x\cfp\addons\models\BoonieHat";
 			modelSides[] = {3,1};
 			armor = 0;
@@ -104,7 +104,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 15;
+			mass = 5;
 			uniformmodel = "\x\cfp\addons\models\BoonieHat";
 			modelSides[] = {3,1};
 			armor = 0;
@@ -131,7 +131,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 15;
+			mass = 5;
 			uniformmodel = "\x\cfp\addons\models\BoonieHat";
 			modelSides[] = {3,1};
 			armor = 0;
@@ -158,7 +158,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 15;
+			mass = 5;
 			uniformmodel = "\x\cfp\addons\models\BoonieHat";
 			modelSides[] = {3,1};
 			armor = 0;
@@ -185,7 +185,7 @@ class CfgVehicleClasses
 
 	    class ItemInfo: HeadgearItem
 	    {
-	       	mass = 15;
+	       	mass = 5;
 	      	uniformmodel = "\x\cfp\addons\models\BoonieHat";
 	      	modelSides[] = {3,1};
 	      	armor = 0;
@@ -212,7 +212,7 @@ class CfgVehicleClasses
 
 	    class ItemInfo: HeadgearItem
 	    {
-	      	mass = 15;
+	      	mass = 5;
 	     	uniformmodel = "\x\cfp\addons\models\BoonieHat";
 	       	modelSides[] = {3,1};
 	       	armor = 0;
@@ -239,7 +239,7 @@ class CfgVehicleClasses
 
 	    class ItemInfo: HeadgearItem
 	    {
-	      	mass = 15;
+	      	mass = 5;
 	     	uniformmodel = "\x\cfp\addons\models\BoonieHat";
 	       	modelSides[] = {3,1};
 	       	armor = 0;
@@ -266,7 +266,7 @@ class CfgVehicleClasses
 
 	    class ItemInfo: HeadgearItem
 	    {
-	      	mass = 15;
+	      	mass = 5;
 	     	uniformmodel = "\x\cfp\addons\models\BoonieHat";
 	       	modelSides[] = {3,1};
 	       	armor = 0;
@@ -293,7 +293,7 @@ class CfgVehicleClasses
 
 	    class ItemInfo: HeadgearItem
 	    {
-	      	mass = 15;
+	      	mass = 5;
 	     	uniformmodel = "\x\cfp\addons\models\BoonieHat";
 	       	modelSides[] = {3,1};
 	       	armor = 0;
@@ -320,7 +320,7 @@ class CfgVehicleClasses
 
 	    class ItemInfo: HeadgearItem
 	    {
-	      	mass = 15;
+	      	mass = 5;
 	     	uniformmodel = "\x\cfp\addons\models\BoonieHat";
 	       	modelSides[] = {3,1};
 	       	armor = 0;
@@ -347,7 +347,7 @@ class CfgVehicleClasses
 
 	    class ItemInfo: HeadgearItem
 	    {
-	      	mass = 15;
+	      	mass = 5;
 	     	uniformmodel = "\x\cfp\addons\models\BoonieHat";
 	       	modelSides[] = {3,1};
 	       	armor = 0;
@@ -374,7 +374,7 @@ class CfgVehicleClasses
 
 	    class ItemInfo: HeadgearItem
 	    {
-	      	mass = 15;
+	      	mass = 5;
 	     	uniformmodel = "\x\cfp\addons\models\BoonieHat";
 	       	modelSides[] = {3,1};
 	       	armor = 0;
@@ -401,7 +401,7 @@ class CfgVehicleClasses
 
 	    class ItemInfo: HeadgearItem
 	    {
-	      	mass = 15;
+	      	mass = 5;
 	     	uniformmodel = "\x\cfp\addons\models\BoonieHat";
 	       	modelSides[] = {3,1};
 	       	armor = 0;
@@ -428,7 +428,7 @@ class CfgVehicleClasses
 
 	    class ItemInfo: HeadgearItem
 	    {
-	      	mass = 15;
+	      	mass = 5;
 	     	uniformmodel = "\x\cfp\addons\models\BoonieHat";
 	       	modelSides[] = {3,1};
 	       	armor = 0;
@@ -455,7 +455,7 @@ class CfgVehicleClasses
 
 	    class ItemInfo: HeadgearItem
 	    {
-	      	mass = 15;
+	      	mass = 5;
 	     	uniformmodel = "\x\cfp\addons\models\BoonieHat";
 	       	modelSides[] = {3,1};
 	       	armor = 0;
@@ -482,7 +482,7 @@ class CfgVehicleClasses
 
 	    class ItemInfo: HeadgearItem
 	    {
-	      	mass = 15;
+	      	mass = 5;
 	     	uniformmodel = "\x\cfp\addons\models\BoonieHat";
 	       	modelSides[] = {3,1};
 	       	armor = 0;
@@ -509,7 +509,7 @@ class CfgVehicleClasses
 
 	    class ItemInfo: HeadgearItem
 	    {
-	      	mass = 15;
+	      	mass = 5;
 	     	uniformmodel = "\x\cfp\addons\models\BoonieHat";
 	       	modelSides[] = {3,1};
 	       	armor = 0;
@@ -536,7 +536,7 @@ class CfgVehicleClasses
 
 	    class ItemInfo: HeadgearItem
 	    {
-	      	mass = 15;
+	      	mass = 5;
 	     	uniformmodel = "\x\cfp\addons\models\Booniefolded";
 	       	modelSides[] = {3,1};
 	       	armor = 0;
@@ -563,7 +563,7 @@ class CfgVehicleClasses
 
 	    class ItemInfo: HeadgearItem
 	    {
-	      	mass = 15;
+	      	mass = 5;
 	     	uniformmodel = "\x\cfp\addons\models\Booniefolded";
 	       	modelSides[] = {3,1};
 	       	armor = 0;
@@ -590,7 +590,7 @@ class CfgVehicleClasses
 
 	    class ItemInfo: HeadgearItem
 	    {
-	      	mass = 15;
+	      	mass = 5;
 	     	uniformmodel = "\x\cfp\addons\models\Booniefolded";
 	       	modelSides[] = {3,1};
 	       	armor = 0;

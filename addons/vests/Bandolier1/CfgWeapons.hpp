@@ -29,7 +29,7 @@ class CfgVehicleClasses
 			uniformModel = "\x\cfp\addons\models\Bandolier1";
 			containerClass = "Supply60";
 			hiddenSelections[] = {"camo"};
-			mass = 80;
+			mass = 40;
 			class HitpointsProtectionInfo
 			{
 				class Chest
@@ -78,7 +78,7 @@ class CfgVehicleClasses
 			uniformModel = "\x\cfp\addons\models\Bandolier1";
 			containerClass = "Supply60";
 			hiddenSelections[] = {"camo"};
-			mass = 80;
+			mass = 40;
 			class HitpointsProtectionInfo
 			{
 				class Chest
@@ -127,7 +127,7 @@ class CfgVehicleClasses
 			uniformModel = "\x\cfp\addons\models\Bandolier1";
 			containerClass = "Supply60";
 			hiddenSelections[] = {"camo"};
-			mass = 80;
+			mass = 40;
 			class HitpointsProtectionInfo
 			{
 				class Chest
@@ -176,7 +176,7 @@ class CfgVehicleClasses
 			uniformModel = "\x\cfp\addons\models\Bandolier1";
 			containerClass = "Supply60";
 			hiddenSelections[] = {"camo"};
-			mass = 80;
+			mass = 40;
 			class HitpointsProtectionInfo
 			{
 				class Chest

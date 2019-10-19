@@ -13,7 +13,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -38,7 +38,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -64,7 +64,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -90,7 +90,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -116,7 +116,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -141,7 +141,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -169,7 +169,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\PASGTHelmet1";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -197,7 +197,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\PASGTHelmet2";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -226,7 +226,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\PASGTHelmet1";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -254,7 +254,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\PASGTHelmet2";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -282,7 +282,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\PASGTHelmet1";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -310,7 +310,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\PASGTHelmet2";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -339,7 +339,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\PASGTHelmet1";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -367,7 +367,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\PASGTHelmet2";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -395,7 +395,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\PASGTHelmet1";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -423,7 +423,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\PASGTHelmet2";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -451,7 +451,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -479,7 +479,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -507,7 +507,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\PASGTHelmet1";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -535,7 +535,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\PASGTHelmet2";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -563,7 +563,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\PASGTHelmet1";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -591,7 +591,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\PASGTHelmet2";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -619,7 +619,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\PASGTHelmet1";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -647,7 +647,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\PASGTHelmet2";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -675,7 +675,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\PASGTHelmet1";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -703,7 +703,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\PASGTHelmet2";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -731,7 +731,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\PASGTHelmet1";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -759,7 +759,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\PASGTHelmet2";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -787,7 +787,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\PASGTHelmet1";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -815,7 +815,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\PASGTHelmet2";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -843,7 +843,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\PASGTHelmet1";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -871,7 +871,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\PASGTHelmet2";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -899,7 +899,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\PASGTHelmet1";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -927,7 +927,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\PASGTHelmet2";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -953,7 +953,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -978,7 +978,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -1004,7 +1004,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -1030,7 +1030,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -1056,7 +1056,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -1082,7 +1082,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -1110,7 +1110,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\PASGTHelmet1";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -1138,7 +1138,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\PASGTHelmet2";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -1166,7 +1166,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\PASGTHelmet1";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -1194,7 +1194,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\PASGTHelmet2";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -1222,7 +1222,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\PASGTHelmet1";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -1250,7 +1250,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\PASGTHelmet2";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -1278,7 +1278,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\PASGTHelmet1";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -1306,7 +1306,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\PASGTHelmet2";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -1334,7 +1334,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\PASGTHelmet1";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -1362,7 +1362,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\PASGTHelmet2";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -1390,7 +1390,7 @@
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
 			modelSides[] = {3,1};
 			armor = 10;

@@ -27,7 +27,7 @@ class CfgVehicleClasses
 			uniformModel = "\x\cfp\addons\models\Tactical1";
 			containerClass = "Supply100";
 			hiddenSelections[] = {"camo"};
-			mass = 150;
+			mass = 60;
 			class HitpointsProtectionInfo
 			{
 				class Chest
@@ -73,7 +73,7 @@ class CfgVehicleClasses
 			uniformModel = "\x\cfp\addons\models\Tactical1";
 			containerClass = "Supply100";
 			hiddenSelections[] = {"camo"};
-			mass = 150;
+			mass = 60;
 			class HitpointsProtectionInfo
 			{
 				class Chest
@@ -119,7 +119,7 @@ class CfgVehicleClasses
 			uniformModel = "\x\cfp\addons\models\Tactical1";
 			containerClass = "Supply100";
 			hiddenSelections[] = {"camo"};
-			mass = 150;
+			mass = 60;
 			class HitpointsProtectionInfo
 			{
 				class Chest
@@ -165,7 +165,7 @@ class CfgVehicleClasses
 			uniformModel = "\x\cfp\addons\models\Tactical1";
 			containerClass = "Supply100";
 			hiddenSelections[] = {"camo"};
-			mass = 150;
+			mass = 60;
 			class HitpointsProtectionInfo
 			{
 				class Chest
@@ -211,7 +211,7 @@ class CfgVehicleClasses
 			uniformModel = "\x\cfp\addons\models\Tactical1";
 			containerClass = "Supply100";
 			hiddenSelections[] = {"camo"};
-			mass = 150;
+			mass = 60;
 			class HitpointsProtectionInfo
 			{
 				class Chest
@@ -257,7 +257,7 @@ class CfgVehicleClasses
 			uniformModel = "\x\cfp\addons\models\Tactical1";
 			containerClass = "Supply100";
 			hiddenSelections[] = {"camo"};
-			mass = 150;
+			mass = 60;
 			class HitpointsProtectionInfo
 			{
 				class Chest
@@ -302,7 +302,7 @@ class CfgVehicleClasses
 			uniformModel = "\x\cfp\addons\models\Tactical1";
 			containerClass = "Supply100";
 			hiddenSelections[] = {"camo"};
-			mass = 150;
+			mass = 60;
 			class HitpointsProtectionInfo
 			{
 				class Chest
@@ -348,7 +348,7 @@ class CfgVehicleClasses
 			uniformModel = "\x\cfp\addons\models\Tactical1";
 			containerClass = "Supply100";
 			hiddenSelections[] = {"camo"};
-			mass = 150;
+			mass = 60;
 			class HitpointsProtectionInfo
 			{
 				class Chest
@@ -394,7 +394,7 @@ class CfgVehicleClasses
 			uniformModel = "\x\cfp\addons\models\Tactical1";
 			containerClass = "Supply100";
 			hiddenSelections[] = {"camo"};
-			mass = 150;
+			mass = 60;
 			class HitpointsProtectionInfo
 			{
 				class Chest
@@ -440,7 +440,7 @@ class CfgVehicleClasses
 			uniformModel = "\x\cfp\addons\models\Tactical1";
 			containerClass = "Supply100";
 			hiddenSelections[] = {"camo"};
-			mass = 150;
+			mass = 60;
 			class HitpointsProtectionInfo
 			{
 				class Chest
@@ -486,7 +486,7 @@ class CFP_Tactical1_EDRL: V_PlateCarrier1_rgr
 			uniformModel = "\x\cfp\addons\models\Tactical1";
 			containerClass = "Supply100";
 			hiddenSelections[] = {"camo"};
-			mass = 150;
+			mass = 60;
 			class HitpointsProtectionInfo
 			{
 				class Chest
@@ -532,7 +532,7 @@ class CFP_Tactical1_EDRL: V_PlateCarrier1_rgr
 			uniformModel = "\x\cfp\addons\models\Tactical1";
 			containerClass = "Supply100";
 			hiddenSelections[] = {"camo"};
-			mass = 150;
+			mass = 60;
 			class HitpointsProtectionInfo
 			{
 				class Chest
@@ -578,7 +578,7 @@ class CFP_Tactical1_EDRL: V_PlateCarrier1_rgr
 			uniformModel = "\x\cfp\addons\models\Tactical1";
 			containerClass = "Supply100";
 			hiddenSelections[] = {"camo"};
-			mass = 150;
+			mass = 60;
 			class HitpointsProtectionInfo
 			{
 				class Chest
@@ -624,7 +624,7 @@ class CFP_Tactical1_EDRL: V_PlateCarrier1_rgr
 			uniformModel = "\x\cfp\addons\models\Tactical1";
 			containerClass = "Supply100";
 			hiddenSelections[] = {"camo"};
-			mass = 150;
+			mass = 60;
 			class HitpointsProtectionInfo
 			{
 				class Chest
@@ -670,7 +670,7 @@ class CFP_Tactical1_EDRL: V_PlateCarrier1_rgr
 			uniformModel = "\x\cfp\addons\models\Tactical1";
 			containerClass = "Supply100";
 			hiddenSelections[] = {"camo"};
-			mass = 150;
+			mass = 60;
 			class HitpointsProtectionInfo
 			{
 				class Chest
@@ -716,7 +716,7 @@ class CFP_Tactical1_EDRL: V_PlateCarrier1_rgr
 			uniformModel = "\x\cfp\addons\models\Tactical1";
 			containerClass = "Supply100";
 			hiddenSelections[] = {"camo"};
-			mass = 150;
+			mass = 60;
 			class HitpointsProtectionInfo
 			{
 				class Chest
@@ -762,7 +762,7 @@ class CFP_Tactical1_EDRL: V_PlateCarrier1_rgr
 			uniformModel = "\x\cfp\addons\models\Tactical1";
 			containerClass = "Supply100";
 			hiddenSelections[] = {"camo"};
-			mass = 150;
+			mass = 60;
 			class HitpointsProtectionInfo
 			{
 				class Chest
@@ -808,7 +808,7 @@ class CFP_Tactical1_EDRL: V_PlateCarrier1_rgr
 			uniformModel = "\x\cfp\addons\models\Tactical1";
 			containerClass = "Supply100";
 			hiddenSelections[] = {"camo"};
-			mass = 150;
+			mass = 60;
 			class HitpointsProtectionInfo
 			{
 				class Chest

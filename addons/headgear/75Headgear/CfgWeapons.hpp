@@ -27,11 +27,11 @@ OPSCORE(CUP_H_OpsCore_Spray_ANA_SF, "Ops Core FAST SF (ANA Sprayed)",icon_acr_he
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 15;
+			mass = 10;
 			allowedSlots[] = {901,605};
 			uniformmodel = "\x\cfp\addons\headgear\75Headgear\ops_core_covered.p3d";
 			modelSides[] = {6};
-			armor = 6;
+			armor = 10;
 			passThrough = 0.5;
 			HITPOINTS_HEAD(6,0.5)
 			hiddenSelections[] = {"camo"};
@@ -52,11 +52,11 @@ OPSCORE(CUP_H_OpsCore_Spray_ANA_SF, "Ops Core FAST SF (ANA Sprayed)",icon_acr_he
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 15;
+			mass = 10;
 			allowedSlots[] = {901,605};
 			uniformmodel = "\x\cfp\addons\headgear\75Headgear\ops_core_covered.p3d";
 			modelSides[] = {6};
-			armor = 6;
+			armor = 10;
 			passThrough = 0.5;
 			HITPOINTS_HEAD(6,0.5)
 			hiddenSelections[] = {"camo"};
@@ -77,11 +77,11 @@ OPSCORE(CUP_H_OpsCore_Spray_ANA_SF, "Ops Core FAST SF (ANA Sprayed)",icon_acr_he
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 15;
+			mass = 10;
 			allowedSlots[] = {901,605};
 			uniformmodel = "\x\cfp\addons\headgear\75Headgear\ops_core_covered.p3d";
 			modelSides[] = {6};
-			armor = 6;
+			armor = 10;
 			passThrough = 0.5;
 			HITPOINTS_HEAD(6,0.5)
 			hiddenSelections[] = {"camo"};
@@ -102,11 +102,11 @@ OPSCORE(CUP_H_OpsCore_Spray_ANA_SF, "Ops Core FAST SF (ANA Sprayed)",icon_acr_he
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 15;
+			mass = 10;
 			allowedSlots[] = {901,605};
 			uniformmodel = "\x\cfp\addons\headgear\75Headgear\ops_core_covered.p3d";
 			modelSides[] = {6};
-			armor = 6;
+			armor = 10;
 			passThrough = 0.5;
 			HITPOINTS_HEAD(6,0.5)
 			hiddenSelections[] = {"camo"};
@@ -127,11 +127,11 @@ OPSCORE(CUP_H_OpsCore_Spray_ANA_SF, "Ops Core FAST SF (ANA Sprayed)",icon_acr_he
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 15;
+			mass = 10;
 			allowedSlots[] = {901,605};
 			uniformmodel = "\x\cfp\addons\headgear\75Headgear\ops_core_covered.p3d";
 			modelSides[] = {6};
-			armor = 6;
+			armor = 10;
 			passThrough = 0.5;
 			HITPOINTS_HEAD(6,0.5)
 			hiddenSelections[] = {"camo"};
@@ -152,11 +152,11 @@ OPSCORE(CUP_H_OpsCore_Spray_ANA_SF, "Ops Core FAST SF (ANA Sprayed)",icon_acr_he
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 15;
+			mass = 10;
 			allowedSlots[] = {901,605};
 			uniformmodel = "\x\cfp\addons\headgear\75Headgear\ops_core_covered.p3d";
 			modelSides[] = {6};
-			armor = 6;
+			armor = 10;
 			passThrough = 0.5;
 			HITPOINTS_HEAD(6,0.5)
 			hiddenSelections[] = {"camo"};
@@ -185,7 +185,7 @@ OPSCORE(CUP_H_OpsCore_Spray_ANA_SF, "Ops Core FAST SF (ANA Sprayed)",icon_acr_he
 
 					class Head {
 						hitpointName = "HitHead";
-						armor = 6;
+						armor = 10;
 						passThrough = 0.500000;
 					};
 				};
@@ -212,7 +212,7 @@ OPSCORE(CUP_H_OpsCore_Spray_ANA_SF, "Ops Core FAST SF (ANA Sprayed)",icon_acr_he
 
 					class Head {
 						hitpointName = "HitHead";
-						armor = 6;
+						armor = 10;
 						passThrough = 0.500000;
 					};
 				};
@@ -239,7 +239,7 @@ OPSCORE(CUP_H_OpsCore_Spray_ANA_SF, "Ops Core FAST SF (ANA Sprayed)",icon_acr_he
 
 					class Head {
 						hitpointName = "HitHead";
-						armor = 6;
+						armor = 10;
 						passThrough = 0.500000;
 					};
 				};
@@ -270,7 +270,7 @@ OPSCORE(CUP_H_OpsCore_Spray_ANA_SF, "Ops Core FAST SF (ANA Sprayed)",icon_acr_he
 
 					class Head {
 						hitpointName = "HitHead";
-						armor = 6;
+						armor = 10;
 						passThrough = 0.500000;
 					};
 				};
@@ -299,7 +299,7 @@ OPSCORE(CUP_H_OpsCore_Spray_ANA_SF, "Ops Core FAST SF (ANA Sprayed)",icon_acr_he
 
 					class Head {
 						hitpointName = "HitHead";
-						armor = 6;
+						armor = 10;
 						passThrough = 0.500000;
 					};
 				};
@@ -328,7 +328,7 @@ OPSCORE(CUP_H_OpsCore_Spray_ANA_SF, "Ops Core FAST SF (ANA Sprayed)",icon_acr_he
 
 					class Head {
 						hitpointName = "HitHead";
-						armor = 6;
+						armor = 10;
 						passThrough = 0.500000;
 					};
 				};
@@ -358,7 +358,7 @@ OPSCORE(CUP_H_OpsCore_Spray_ANA_SF, "Ops Core FAST SF (ANA Sprayed)",icon_acr_he
 
 					class Head {
 						hitpointName = "HitHead";
-						armor = 6;
+						armor = 10;
 						passThrough = 0.500000;
 					};
 				};
@@ -388,7 +388,7 @@ OPSCORE(CUP_H_OpsCore_Spray_ANA_SF, "Ops Core FAST SF (ANA Sprayed)",icon_acr_he
 
 					class Head {
 						hitpointName = "HitHead";
-						armor = 6;
+						armor = 10;
 						passThrough = 0.500000;
 					};
 				};
@@ -418,7 +418,7 @@ OPSCORE(CUP_H_OpsCore_Spray_ANA_SF, "Ops Core FAST SF (ANA Sprayed)",icon_acr_he
 
 					class Head {
 						hitpointName = "HitHead";
-						armor = 6;
+						armor = 10;
 						passThrough = 0.500000;
 					};
 				};
@@ -448,7 +448,7 @@ OPSCORE(CUP_H_OpsCore_Spray_ANA_SF, "Ops Core FAST SF (ANA Sprayed)",icon_acr_he
 
 					class Head {
 						hitpointName = "HitHead";
-						armor = 6;
+						armor = 10;
 						passThrough = 0.500000;
 					};
 				};
@@ -478,7 +478,7 @@ OPSCORE(CUP_H_OpsCore_Spray_ANA_SF, "Ops Core FAST SF (ANA Sprayed)",icon_acr_he
 
 					class Head {
 						hitpointName = "HitHead";
-						armor = 6;
+						armor = 10;
 						passThrough = 0.500000;
 					};
 				};
@@ -508,7 +508,7 @@ OPSCORE(CUP_H_OpsCore_Spray_ANA_SF, "Ops Core FAST SF (ANA Sprayed)",icon_acr_he
 
 					class Head {
 						hitpointName = "HitHead";
-						armor = 6;
+						armor = 10;
 						passThrough = 0.500000;
 					};
 				};
@@ -538,7 +538,7 @@ OPSCORE(CUP_H_OpsCore_Spray_ANA_SF, "Ops Core FAST SF (ANA Sprayed)",icon_acr_he
 
 					class Head {
 						hitpointName = "HitHead";
-						armor = 6;
+						armor = 10;
 						passThrough = 0.500000;
 					};
 				};
@@ -568,7 +568,7 @@ OPSCORE(CUP_H_OpsCore_Spray_ANA_SF, "Ops Core FAST SF (ANA Sprayed)",icon_acr_he
 
 					class Head {
 						hitpointName = "HitHead";
-						armor = 6;
+						armor = 10;
 						passThrough = 0.500000;
 					};
 				};
@@ -598,7 +598,7 @@ OPSCORE(CUP_H_OpsCore_Spray_ANA_SF, "Ops Core FAST SF (ANA Sprayed)",icon_acr_he
 
 					class Head {
 						hitpointName = "HitHead";
-						armor = 6;
+						armor = 10;
 						passThrough = 0.500000;
 					};
 				};
@@ -628,7 +628,7 @@ OPSCORE(CUP_H_OpsCore_Spray_ANA_SF, "Ops Core FAST SF (ANA Sprayed)",icon_acr_he
 
 					class Head {
 						hitpointName = "HitHead";
-						armor = 6;
+						armor = 10;
 						passThrough = 0.500000;
 					};
 				};
@@ -658,7 +658,7 @@ OPSCORE(CUP_H_OpsCore_Spray_ANA_SF, "Ops Core FAST SF (ANA Sprayed)",icon_acr_he
 
 					class Head {
 						hitpointName = "HitHead";
-						armor = 6;
+						armor = 10;
 						passThrough = 0.500000;
 					};
 				};
@@ -688,7 +688,7 @@ OPSCORE(CUP_H_OpsCore_Spray_ANA_SF, "Ops Core FAST SF (ANA Sprayed)",icon_acr_he
 
 					class Head {
 						hitpointName = "HitHead";
-						armor = 6;
+						armor = 10;
 						passThrough = 0.500000;
 					};
 				};
@@ -718,7 +718,7 @@ OPSCORE(CUP_H_OpsCore_Spray_ANA_SF, "Ops Core FAST SF (ANA Sprayed)",icon_acr_he
 
 					class Head {
 						hitpointName = "HitHead";
-						armor = 6;
+						armor = 10;
 						passThrough = 0.500000;
 					};
 				};
@@ -748,7 +748,7 @@ OPSCORE(CUP_H_OpsCore_Spray_ANA_SF, "Ops Core FAST SF (ANA Sprayed)",icon_acr_he
 
 					class Head {
 						hitpointName = "HitHead";
-						armor = 6;
+						armor = 10;
 						passThrough = 0.500000;
 					};
 				};
@@ -778,7 +778,7 @@ OPSCORE(CUP_H_OpsCore_Spray_ANA_SF, "Ops Core FAST SF (ANA Sprayed)",icon_acr_he
 
 					class Head {
 						hitpointName = "HitHead";
-						armor = 6;
+						armor = 10;
 						passThrough = 0.500000;
 					};
 				};
@@ -808,7 +808,7 @@ OPSCORE(CUP_H_OpsCore_Spray_ANA_SF, "Ops Core FAST SF (ANA Sprayed)",icon_acr_he
 
 					class Head {
 						hitpointName = "HitHead";
-						armor = 6;
+						armor = 10;
 						passThrough = 0.500000;
 					};
 				};
@@ -838,7 +838,7 @@ OPSCORE(CUP_H_OpsCore_Spray_ANA_SF, "Ops Core FAST SF (ANA Sprayed)",icon_acr_he
 
 					class Head {
 						hitpointName = "HitHead";
-						armor = 6;
+						armor = 10;
 						passThrough = 0.500000;
 					};
 				};
@@ -868,7 +868,7 @@ OPSCORE(CUP_H_OpsCore_Spray_ANA_SF, "Ops Core FAST SF (ANA Sprayed)",icon_acr_he
 
 					class Head {
 						hitpointName = "HitHead";
-						armor = 6;
+						armor = 10;
 						passThrough = 0.500000;
 					};
 				};
@@ -898,7 +898,7 @@ OPSCORE(CUP_H_OpsCore_Spray_ANA_SF, "Ops Core FAST SF (ANA Sprayed)",icon_acr_he
 
 					class Head {
 						hitpointName = "HitHead";
-						armor = 6;
+						armor = 10;
 						passThrough = 0.500000;
 					};
 				};
@@ -928,7 +928,7 @@ OPSCORE(CUP_H_OpsCore_Spray_ANA_SF, "Ops Core FAST SF (ANA Sprayed)",icon_acr_he
 
 					class Head {
 						hitpointName = "HitHead";
-						armor = 6;
+						armor = 10;
 						passThrough = 0.500000;
 					};
 				};

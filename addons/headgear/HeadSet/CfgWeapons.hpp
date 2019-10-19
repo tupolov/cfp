@@ -24,7 +24,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 5;
 			uniformmodel = "\x\cfp\addons\models\HeadSet";
 			modelSides[] = {3,1};
 			armor = 1;
@@ -50,7 +50,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 5;
 			uniformmodel = "\x\cfp\addons\models\HeadSet";
 			modelSides[] = {3,1};
 			armor = 1;
@@ -76,7 +76,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 5;
 			uniformmodel = "\x\cfp\addons\models\HeadSet";
 			modelSides[] = {3,1};
 			armor = 1;

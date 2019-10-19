@@ -25,7 +25,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\M1Helmet";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -52,7 +52,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\M1Helmet";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -78,7 +78,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\M1Helmet";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -105,7 +105,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\M1Helmet";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -132,7 +132,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\M1Helmet";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -159,7 +159,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\M1Helmet";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -186,7 +186,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\M1Helmet";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -214,7 +214,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\M1Helmet";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -241,7 +241,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\M1Helmet";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -268,7 +268,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\M1Helmet";
 			modelSides[] = {3,1};
 			armor = 10;
@@ -295,7 +295,7 @@ class CfgVehicleClasses
 
 		class ItemInfo: HeadgearItem
 		{
-			mass = 60;
+			mass = 20;
 			uniformmodel = "\x\cfp\addons\models\M1Helmet";
 			modelSides[] = {3,1};
 			armor = 10;

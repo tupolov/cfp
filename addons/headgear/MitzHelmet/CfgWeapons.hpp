@@ -13,7 +13,7 @@
             uniformModel = "\x\cfp\addons\models\Miznefet2.p3d";
             hiddenSelections[] = {"Camo"};
             hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz1_co.paa"};
-            mass = 30;
+            mass = 20;
             modelSides[] = {3,1};
             class HitpointsProtectionInfo
             {
@@ -36,7 +36,7 @@
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz2_co.paa"};
         class ItemInfo: HeadgearItem
         {
-            mass = 30;
+            mass = 20;
             uniformModel = "\x\cfp\addons\models\Miznefet2.p3d";
             hiddenSelections[] = {"Camo"};
             hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz2_co.paa"};
@@ -62,7 +62,7 @@
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz2_co.paa","cup\creatures\people\military\cup_creatures_people_military_pmc\data\facewrap_tan_co.paa"};
         class ItemInfo: HeadgearItem
         {
-            mass = 30;
+            mass = 20;
             uniformModel = "\x\cfp\addons\models\Miznefet2.p3d";
             hiddenSelections[] = {"Camo","camo1"};
             hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz2_co.paa","cup\creatures\people\military\cup_creatures_people_military_pmc\data\facewrap_tan_co.paa"};
@@ -88,7 +88,7 @@
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz3_co.paa"};
         class ItemInfo: HeadgearItem
         {
-            mass = 30;
+            mass = 20;
             uniformModel = "\x\cfp\addons\models\Miznefet2.p3d";
             hiddenSelections[] = {"Camo"};
             hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz3_co.paa"};
@@ -115,7 +115,7 @@
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz1_co.paa","cup\creatures\people\military\cup_creatures_people_military_pmc\data\facewrap_tan_co.paa"};
         class ItemInfo: HeadgearItem
         {
-            mass = 30;
+            mass = 20;
             uniformModel = "\x\cfp\addons\models\Miznefet2.p3d";
             hiddenSelections[] = {"Camo","camo1"};
             hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz1_co.paa","cup\creatures\people\military\cup_creatures_people_military_pmc\data\facewrap_tan_co.paa"};
@@ -142,7 +142,7 @@
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz1_co.paa","cup\creatures\people\military\cup_creatures_people_military_pmc\data\facewrap_ranger_co.paa"};
         class ItemInfo: HeadgearItem
         {
-            mass = 30;
+            mass = 20;
             uniformModel = "\x\cfp\addons\models\Miznefet2.p3d";
             hiddenSelections[] = {"Camo","camo1"};
             hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz1_co.paa","cup\creatures\people\military\cup_creatures_people_military_pmc\data\facewrap_ranger_co.paa"};
@@ -170,7 +170,7 @@
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz2_co.paa","cup\creatures\people\military\cup_creatures_people_military_pmc\data\facewrap_ranger_co.paa"};
         class ItemInfo: HeadgearItem
         {
-            mass = 30;
+            mass = 20;
             uniformModel = "\x\cfp\addons\models\Miznefet2.p3d";
             hiddenSelections[] = {"Camo","camo1"};
             hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz2_co.paa","cup\creatures\people\military\cup_creatures_people_military_pmc\data\facewrap_ranger_co.paa"};
@@ -197,7 +197,7 @@
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz2_co.paa","cup\creatures\people\military\cup_creatures_people_military_pmc\data\facewrap_tropical_co.paa"};
         class ItemInfo: HeadgearItem
         {
-            mass = 30;
+            mass = 20;
             uniformModel = "\x\cfp\addons\models\Miznefet2.p3d";
             hiddenSelections[] = {"Camo","camo1"};
             hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz2_co.paa","cup\creatures\people\military\cup_creatures_people_military_pmc\data\facewrap_tropical_co.paa"};
@@ -224,7 +224,7 @@
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz1_co.paa","cup\creatures\people\military\cup_creatures_people_military_pmc\data\facewrap_tropical_co.paa"};
         class ItemInfo: HeadgearItem
         {
-            mass = 30;
+            mass = 20;
             uniformModel = "\x\cfp\addons\models\Miznefet2.p3d";
             hiddenSelections[] = {"Camo","camo1"};
             hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz1_co.paa","cup\creatures\people\military\cup_creatures_people_military_pmc\data\facewrap_tropical_co.paa"};
@@ -254,7 +254,7 @@
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz1_co.paa","\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_olivefabric.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
         class ItemInfo: HeadgearItem
         {
-            mass = 30;
+            mass = 20;
             uniformModel = "x\cfp\addons\models\MitzHelmet1.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","camo1","camo2","camo3","_leftear","_rightear","_velcro","_VSMz110T"};
@@ -279,7 +279,7 @@
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz2_co.paa","\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_olivefabric.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
         class ItemInfo: HeadgearItem
         {
-            mass = 30;
+            mass = 20;
             uniformModel = "x\cfp\addons\models\MitzHelmet1.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","camo1","camo2","camo3","_leftear","_rightear","_velcro","_VSMz110T"};
@@ -308,7 +308,7 @@
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz3_co.paa","\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_olivefabric.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
         class ItemInfo: HeadgearItem
         {
-            mass = 30;
+            mass = 20;
             uniformModel = "x\cfp\addons\models\MitzHelmet1.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","camo1","camo2","camo3","_leftear","_rightear","_velcro","_VSMz110T"};
@@ -333,7 +333,7 @@
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz2_co.paa","\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_olivefabric.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
         class ItemInfo: HeadgearItem
         {
-            mass = 30;
+            mass = 20;
             uniformModel = "x\cfp\addons\models\MitzHelmet1.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","camo1","camo2","camo3","_velcro"};
@@ -357,7 +357,7 @@
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz1_co.paa","\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_olivefabric.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
         class ItemInfo: HeadgearItem
         {
-            mass = 30;
+            mass = 20;
             uniformModel = "x\cfp\addons\models\MitzHelmet1.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","camo1","camo2","camo3","_velcro"};
@@ -381,7 +381,7 @@
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz3_co.paa","\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_olivefabric.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
         class ItemInfo: HeadgearItem
         {
-            mass = 30;
+            mass = 20;
             uniformModel = "x\cfp\addons\models\MitzHelmet1.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","camo1","camo2","camo3","_velcro"};
@@ -410,7 +410,7 @@
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz1_co.paa","\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_olivefabric.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
         class ItemInfo: HeadgearItem
         {
-            mass = 30;
+            mass = 20;
             uniformModel = "x\cfp\addons\models\MitzHelmet2.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","camo1","camo2","camo3","_leftear","_rightear","_velcro","_VSMz110T"};
@@ -435,7 +435,7 @@
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz2_co.paa","\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_olivefabric.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
         class ItemInfo: HeadgearItem
         {
-            mass = 30;
+            mass = 20;
             uniformModel = "x\cfp\addons\models\MitzHelmet2.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","camo1","camo2","camo3","_leftear","_rightear","_velcro","_VSMz110T"};
@@ -464,7 +464,7 @@
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz3_co.paa","\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_olivefabric.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
         class ItemInfo: HeadgearItem
         {
-            mass = 30;
+            mass = 20;
             uniformModel = "x\cfp\addons\models\MitzHelmet2.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","camo1","camo2","camo3","_leftear","_rightear","_velcro","_VSMz110T"};
@@ -489,7 +489,7 @@
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz2_co.paa","\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_olivefabric.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
         class ItemInfo: HeadgearItem
         {
-            mass = 30;
+            mass = 20;
             uniformModel = "x\cfp\addons\models\MitzHelmet2.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","camo1","camo2","camo3","_velcro"};
@@ -514,7 +514,7 @@
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz1_co.paa","\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_olivefabric.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
         class ItemInfo: HeadgearItem
         {
-            mass = 30;
+            mass = 20;
             uniformModel = "x\cfp\addons\models\MitzHelmet2.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","camo1","camo2","camo3","_velcro"};
@@ -539,7 +539,7 @@
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz3_co.paa","\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_olivefabric.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
         class ItemInfo: HeadgearItem
         {
-            mass = 30;
+            mass = 20;
             uniformModel = "x\cfp\addons\models\MitzHelmet2.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","camo1","camo2","camo3","_velcro"};
@@ -568,7 +568,7 @@
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz1_co.paa","\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_olivefabric.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
         class ItemInfo: HeadgearItem
         {
-            mass = 30;
+            mass = 20;
             uniformModel = "x\cfp\addons\models\MitzHelmet3.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","camo1","camo2","camo3","_leftear","_rightear","_velcro","_VSMz110T"};
@@ -593,7 +593,7 @@
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz2_co.paa","\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_olivefabric.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
         class ItemInfo: HeadgearItem
         {
-            mass = 30;
+            mass = 20;
             uniformModel = "x\cfp\addons\models\MitzHelmet3.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","camo1","camo2","camo3","_leftear","_rightear","_velcro","_VSMz110T"};
@@ -622,7 +622,7 @@
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz3_co.paa","\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_olivefabric.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
         class ItemInfo: HeadgearItem
         {
-            mass = 30;
+            mass = 20;
             uniformModel = "x\cfp\addons\models\MitzHelmet3.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","camo1","camo2","camo3","_leftear","_rightear","_velcro","_VSMz110T"};
@@ -647,7 +647,7 @@
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz2_co.paa","\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_olivefabric.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
         class ItemInfo: HeadgearItem
         {
-            mass = 30;
+            mass = 20;
             uniformModel = "x\cfp\addons\models\MitzHelmet3.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","camo1","camo2","camo3","_velcro"};
@@ -672,7 +672,7 @@
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz1_co.paa","\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_olivefabric.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
         class ItemInfo: HeadgearItem
         {
-            mass = 30;
+            mass = 20;
             uniformModel = "x\cfp\addons\models\MitzHelmet3.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","camo1","camo2","camo3","_velcro"};
@@ -697,7 +697,7 @@
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz3_co.paa","\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_olivefabric.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
         class ItemInfo: HeadgearItem
         {
-            mass = 30;
+            mass = 20;
             uniformModel = "x\cfp\addons\models\MitzHelmet3.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","camo1","camo2","camo3","_velcro"};
@@ -726,7 +726,7 @@
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz1_co.paa","\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_olivefabric.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
         class ItemInfo: HeadgearItem
         {
-            mass = 30;
+            mass = 20;
             uniformModel = "x\cfp\addons\models\MitzHelmet4.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","camo1","camo2","camo3","_leftear","_rightear","_velcro","_VSMz110T"};
@@ -751,7 +751,7 @@
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz2_co.paa","\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_olivefabric.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
         class ItemInfo: HeadgearItem
         {
-            mass = 30;
+            mass = 20;
             uniformModel = "x\cfp\addons\models\MitzHelmet4.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","camo1","camo2","camo3","_leftear","_rightear","_velcro","_VSMz110T"};
@@ -780,7 +780,7 @@
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz3_co.paa","\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_olivefabric.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
         class ItemInfo: HeadgearItem
         {
-            mass = 30;
+            mass = 20;
             uniformModel = "x\cfp\addons\models\MitzHelmet4.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","camo1","camo2","camo3","_leftear","_rightear","_velcro","_VSMz110T"};
@@ -805,7 +805,7 @@
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz2_co.paa","\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_olivefabric.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
         class ItemInfo: HeadgearItem
         {
-            mass = 30;
+            mass = 20;
             uniformModel = "x\cfp\addons\models\MitzHelmet4.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","camo1","camo2","camo3","_velcro"};
@@ -830,7 +830,7 @@
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz1_co.paa","\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_olivefabric.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
         class ItemInfo: HeadgearItem
         {
-            mass = 30;
+            mass = 20;
             uniformModel = "x\cfp\addons\models\MitzHelmet4.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","camo1","camo2","camo3","_velcro"};
@@ -855,7 +855,7 @@
         hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\MitzHelmet\data\miz3_co.paa","\x\cfp\addons\headgear\VSM_Helms\textures\rr_ops_olivefabric.paa","\x\cfp\addons\headgear\VSM_Helms\textures\vsm_z110t.paa","\x\cfp\addons\headgear\VSM_Helms\textures\velcro_co.paa"};
         class ItemInfo: HeadgearItem
         {
-            mass = 30;
+            mass = 20;
             uniformModel = "x\cfp\addons\models\MitzHelmet4.p3d";
             modelSides[] = {3,1};
             hiddenSelections[] = {"Camo","camo1","camo2","camo3","_velcro"};
