@@ -306,6 +306,39 @@ class CfgGroups {
                     };
                 };
 
+                class CFP_O_TBAN_infantry_AA_team {
+                    name = "AA Team";
+                    side = 0;
+                    faction = "CFP_O_TBAN";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_TBAN_Team_Leader_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_TBAN_Rifleman_AK_74_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_TBAN_AA_Specialist_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_TBAN_AA_Specialist_01";
+                    };
+                };
+
                 class CFP_O_TBAN_infantry_sniper_team {
                     name = "Sniper Team";
                     side = 0;
@@ -572,10 +605,283 @@ class CfgGroups {
             class Mechanized {
                 name = "Mechanized Infantry";
 
+                class CFP_O_TBAN_mechanized_mech_patrol_bmp_2k {
+                    name = "Mech. Patrol [BMP-2k]";
+                    side = 0;
+                    faction = "CFP_O_TBAN";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_TBAN_BMP_2K_01";
+                    };
+                };
+
+                class CFP_O_TBAN_mechanized_mech_squad_mtlb {
+                    name = "Mech. Squad [MTLB]";
+                    side = 0;
+                    faction = "CFP_O_TBAN";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_TBAN_MT_LB_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_TBAN_Team_Leader_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_TBAN_Grenadier_AK_74_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_TBAN_Machine_Gunner_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_TBAN_Rifleman_AK_47_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_TBAN_Rifleman_AK_47_02";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_TBAN_AT_Rifleman_01";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_TBAN_AT_Rifleman_2_01";
+                    };
+                    class Unit8 {
+                        position[] = {-20,-20,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_TBAN_Explosive_Specialist_01";
+                    };
+                };
+
+                class CFP_O_TBAN_mechanized_mech_squad_bmp_2 {
+                    name = "Mech. Squad [BMP-2]";
+                    side = 0;
+                    faction = "CFP_O_TBAN";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_TBAN_BMP_2_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_TBAN_Team_Leader_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_TBAN_Rifleman_AK_74_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_TBAN_Rifleman_AK_47_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_TBAN_Grenadier_AK_74_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_TBAN_Machine_Gunner_01";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_TBAN_Rifleman_Lee_Enfield_01";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_TBAN_AT_Rifleman_01";
+                    };
+                    class Unit8 {
+                        position[] = {-20,-20,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_TBAN_Medic_Lee_Enfield_01";
+                    };
+                };
+
+                class CFP_O_TBAN_mechanized_mech_squad_bmp_1 {
+                    name = "Mech. Squad [BMP-1]";
+                    side = 0;
+                    faction = "CFP_O_TBAN";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_TBAN_BMP_1_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_TBAN_Team_Leader_AK_47_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_TBAN_Rifleman_AK_47_02";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_TBAN_Machine_Gunner_2_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_TBAN_AT_Rifleman_2_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_TBAN_Grenadier_AK_74_02";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_TBAN_Medic_Lee_Enfield_01";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_TBAN_Machine_Gunner_01";
+                    };
+                    class Unit8 {
+                        position[] = {-20,-20,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_TBAN_Rifleman_AK_74_01";
+                    };
+                };
+
+                class CFP_O_TBAN_mechanized_mech_patrol_btr_40 {
+                    name = "Mech. Patrol [BTR-40]";
+                    side = 0;
+                    faction = "CFP_O_TBAN";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_TBAN_BTR_40_DShKM_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_TBAN_Team_Leader_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_TBAN_Grenadier_AK_74_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_TBAN_Rifleman_AK_47_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_TBAN_Machine_Gunner_2_01";
+                    };
+                };
+
+                class CFP_O_TBAN_mechanized_mech_patrol_bmp_2zu23 {
+                    name = "Mech. Patrol [BMP-2 ZU23]";
+                    side = 0;
+                    faction = "CFP_O_TBAN";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_TBAN_BMP_2ZU_23_01";
+                    };
+                };
+
             };
 
             class Armored {
                 name = "Armor";
+
+                class CFP_O_TBAN_armored_t55_tank {
+                    name = "T-55 Tank";
+                    side = 0;
+                    faction = "CFP_O_TBAN";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_TBAN_T55_01";
+                    };
+                };
 
             };
 
