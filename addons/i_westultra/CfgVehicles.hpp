@@ -157,9 +157,9 @@ class CfgVehicles {
             "V_I_G_resistanceLeader_F", 0.23,
             "CFP_AK_VEST_Tan", 0.3,
             "CFP_TakJacket_EDRL", 0.1,
-            "CUP_V_OI_Taki_Jacket1_04", 0.1,
-            "CUP_V_OI_Taki_Jacket1_05", 0.1,
-            "CUP_V_OI_Taki_Jacket1_06", 0.1,
+            "CFP_Modular1_Woodland", 0.1,
+            "CUP_V_MBSS_PACA_Black", 0.1,
+            "CFP_UtilityJacket_M81", 0.1,
             "CFP_TakJacket_Woodland", 0.1
         };
 
