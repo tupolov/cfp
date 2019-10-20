@@ -1,16 +1,17 @@
+	class Uniform_Base;
 	class UniformItem;
 	class CUP_U_O_RUS_EMR_1;
 	class CUP_U_O_RUARMY_DesertEMR: CUP_U_O_RUS_EMR_1
 	{
 		author = "Tupolov";
 		dlc = "CFP";
-		displayName = "Russian MSV Uniform (Desert EMR)";
+		displayName = "AFRF Uniform MSV (Syrian Desert EMR)";
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
 			uniformClass = "CUP_O_RUARMY_DesertEMR";
-			containerClass = "Supply50";
-			mass = 50;
+			containerClass = "Supply60";
+			mass = 20;
 		};
 	};
 
@@ -19,13 +20,13 @@
 	{
 		author = "Tupolov";
 		dlc = "CFP";
-		displayName = "Russian MSV Uniform SS (Desert EMR)";
+		displayName = "AFRF Uniform MSV (Syrian Desert EMR/Rolled Up)";
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
 			uniformClass = "CUP_O_RUARMY_DesertEMR_2";
-			containerClass = "Supply50";
-			mass = 50;
+			containerClass = "Supply60";
+			mass = 20;
 		};
 	};
 
@@ -34,13 +35,13 @@
 	{
 		author = "Tupolov";
 		dlc = "CFP";
-		displayName = "Russian VDV Uniform (Desert EMR)";
+		displayName = "AFRF Uniform VDV (Syrian Desert EMR)";
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
 			uniformClass = "CUP_O_RUARMY_DesertEMR_VDV";
-			containerClass = "Supply50";
-			mass = 50;
+			containerClass = "Supply60";
+			mass = 20;
 		};
 	};
 
@@ -49,12 +50,13 @@
 	{
 		author = "Tupolov";
 		dlc = "CFP";
-		displayName = "Russian VDV Uniform SS (Desert EMR)";
+		displayName = "AFRF Uniform VDV (Syrian Desert EMR/Rolled Up)";
 		class ItemInfo: UniformItem
 		{
 			uniformModel = "-";
 			uniformClass = "CUP_O_RUARMY_DesertEMR_2_VDV";
-			containerClass = "Supply50";
-			mass = 50;
+			containerClass = "Supply60";
+			mass = 20;
 		};
 	};
+
