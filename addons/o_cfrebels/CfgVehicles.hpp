@@ -19,9 +19,9 @@ class CfgVehicles {
     class O_G_Soldier_F_OCimport_02 : O_G_Soldier_F_OCimport_01 { class EventHandlers; };
 
 
-    class CFP_O_SOREBEL_Technical_PK_01;
-    class CFP_O_SOREBEL_Technical_PK_01_OCimport_01 : CFP_O_SOREBEL_Technical_PK_01 { scope = 0; class EventHandlers; class Turrets; };
-    class CFP_O_SOREBEL_Technical_PK_01_OCimport_02 : CFP_O_SOREBEL_Technical_PK_01_OCimport_01 {
+    class CUP_I_Datsun_PK_TK;
+    class CUP_I_Datsun_PK_TK_OCimport_01 : CUP_I_Datsun_PK_TK { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_I_Datsun_PK_TK_OCimport_02 : CUP_I_Datsun_PK_TK_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
@@ -57,22 +57,22 @@ class CfgVehicles {
         };
     };
 
-    class CFP_O_SOREBEL_Truck_01;
-    class CFP_O_SOREBEL_Truck_01_OCimport_01 : CFP_O_SOREBEL_Truck_01 { scope = 0; class EventHandlers; };
-    class CFP_O_SOREBEL_Truck_01_OCimport_02 : CFP_O_SOREBEL_Truck_01_OCimport_01 { scope = 0; class EventHandlers; };
+    class CUP_I_V3S_Open_TKG;
+    class CUP_I_V3S_Open_TKG_OCimport_01 : CUP_I_V3S_Open_TKG { scope = 0; class EventHandlers; };
+    class CUP_I_V3S_Open_TKG_OCimport_02 : CUP_I_V3S_Open_TKG_OCimport_01 { scope = 0; class EventHandlers; };
 
-    class CFP_O_SOREBEL_SPG_9_01;
-    class CFP_O_SOREBEL_SPG_9_01_OCimport_01 : CFP_O_SOREBEL_SPG_9_01 { scope = 0; class EventHandlers; class Turrets; };
-    class CFP_O_SOREBEL_SPG_9_01_OCimport_02 : CFP_O_SOREBEL_SPG_9_01_OCimport_01 {
+    class CUP_O_SPG9_TK_INS;
+    class CUP_O_SPG9_TK_INS_OCimport_01 : CUP_O_SPG9_TK_INS { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_SPG9_TK_INS_OCimport_02 : CUP_O_SPG9_TK_INS_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
         };
     };
 
-    class CFP_O_SOREBEL_Podnos_2B14_01;
-    class CFP_O_SOREBEL_Podnos_2B14_01_OCimport_01 : CFP_O_SOREBEL_Podnos_2B14_01 { scope = 0; class EventHandlers; class Turrets; };
-    class CFP_O_SOREBEL_Podnos_2B14_01_OCimport_02 : CFP_O_SOREBEL_Podnos_2B14_01_OCimport_01 {
+    class CUP_O_2b14_82mm_SLA;
+    class CUP_O_2b14_82mm_SLA_OCimport_01 : CUP_O_2b14_82mm_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_2b14_82mm_SLA_OCimport_02 : CUP_O_2b14_82mm_SLA_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
@@ -754,7 +754,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CFRebels_Technical_PK_01 : CFP_O_SOREBEL_Technical_PK_01_OCimport_02 {
+    class CFP_O_CFRebels_Technical_PK_01 : CUP_I_Datsun_PK_TK_OCimport_02 {
         editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Technical_PK_01.JPG;
         author = "jarrad96";
         scope = 2;
@@ -879,7 +879,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CFRebels_Truck_01 : CFP_O_SOREBEL_Truck_01_OCimport_02 {
+    class CFP_O_CFRebels_Truck_01 : CUP_I_V3S_Open_TKG_OCimport_02 {
         editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Truck_01.JPG;
         author = "jarrad96";
         scope = 2;
@@ -904,7 +904,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CFRebels_SPG_9_01 : CFP_O_SOREBEL_SPG_9_01_OCimport_02 {
+    class CFP_O_CFRebels_SPG_9_01 : CUP_O_SPG9_TK_INS_OCimport_02 {
         editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_SPG_9_01.JPG;
         author = "jarrad96";
         scope = 2;
@@ -934,7 +934,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_CFRebels_Podnos_Mortar_01 : CFP_O_SOREBEL_Podnos_2B14_01_OCimport_02 {
+    class CFP_O_CFRebels_Podnos_Mortar_01 : CUP_O_2b14_82mm_SLA_OCimport_02 {
         editorPreview = \x\cfp\addons\o_cfrebels\data\preview\CFP_O_CFRebels_Podnos_Mortar_01.JPG;
         author = "jarrad96";
         scope = 2;

@@ -430,9 +430,11 @@ class CfgVehicles {
         };
     };
 
-    class CFP_B_USARMY_A10_DYN_USA;
-    class CFP_B_USARMY_A10_DYN_USA_OCimport_01 : CFP_B_USARMY_A10_DYN_USA { scope = 0; class EventHandlers; };
-    class CFP_B_USARMY_A10_DYN_USA_OCimport_02 : CFP_B_USARMY_A10_DYN_USA_OCimport_01 { scope = 0; class EventHandlers; };
+    class CUP_B_A10_DYN_USA;
+    class CUP_B_A10_DYN_USA_OCimport_01 : CUP_B_A10_DYN_USA { class EventHandlers; };
+    class CUP_B_A10_DYN_USA_OCimport_02 : CUP_B_A10_DYN_USA_OCimport_01 {
+        class EventHandlers;
+        };
 
     class B_Boat_Transport_01_F;
     class B_Boat_Transport_01_F_OCimport_01 : B_Boat_Transport_01_F { scope = 0; class EventHandlers; class Turrets; };
@@ -480,7 +482,7 @@ class CfgVehicles {
         };
     };
 
-   class CUP_B_M2StaticMG_MiniTripod_USMC;
+    class CUP_B_M2StaticMG_MiniTripod_USMC;
     class CUP_B_M2StaticMG_MiniTripod_USMC_OCimport_01 : CUP_B_M2StaticMG_MiniTripod_USMC { scope = 0; class EventHandlers; class Turrets; };
     class CUP_B_M2StaticMG_MiniTripod_USMC_OCimport_02 : CUP_B_M2StaticMG_MiniTripod_USMC_OCimport_01 {
         class EventHandlers;
@@ -2311,7 +2313,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USRANGERS_A10C_Thunderbolt_II_WDL_01 : CFP_B_USARMY_A10_DYN_USA_OCimport_02 {
+    class CFP_B_USRANGERS_A10C_Thunderbolt_II_WDL_01 : CUP_B_A10_DYN_USA_OCimport_02 {
         editorPreview = \x\cfp\addons\b_usrangers_wdl\data\preview\CFP_B_USRANGERS_A10C_Thunderbolt_II_WDL_01.JPG;
         author = "Drew";
         scope = 2;

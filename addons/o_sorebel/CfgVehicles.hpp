@@ -59,7 +59,7 @@ class CfgVehicles {
         };
     };
 
-     class CUP_O_DSHkM_MiniTriPod_TK_INS;
+    class CUP_O_DSHkM_MiniTriPod_TK_INS;
     class CUP_O_DSHkM_MiniTriPod_TK_INS_OCimport_01 : CUP_O_DSHkM_MiniTriPod_TK_INS { scope = 0; class EventHandlers; class Turrets; };
     class CUP_O_DSHkM_MiniTriPod_TK_INS_OCimport_02 : CUP_O_DSHkM_MiniTriPod_TK_INS_OCimport_01 {
         class EventHandlers;

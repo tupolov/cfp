@@ -84,7 +84,6 @@ class CfgPatches {
             "CUP_AirVehicles_AH64",
             "CUP_AirVehicles_CH47",
             "CUP_WheeledVehicles_Stryker",
-            "CFP_B_USARMY_WDL",
             "CUP_WheeledVehicles_UpHMMWV",
             "A3_Soft_F_Exp_LSV_01",
             "A3_Sounds_F",
