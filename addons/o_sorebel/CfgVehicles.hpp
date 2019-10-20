@@ -40,9 +40,9 @@ class CfgVehicles {
         };
     };
 
-    class CUP_O_UAZ_SPG9_CHDKZ;
-    class CUP_O_UAZ_SPG9_CHDKZ_OCimport_01 : CUP_O_UAZ_SPG9_CHDKZ { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_UAZ_SPG9_CHDKZ_OCimport_02 : CUP_O_UAZ_SPG9_CHDKZ_OCimport_01 {
+    class CUP_O_UAZ_SPG9_SLA;
+    class CUP_O_UAZ_SPG9_SLA_OCimport_01 : CUP_O_UAZ_SPG9_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_UAZ_SPG9_SLA_OCimport_02 : CUP_O_UAZ_SPG9_SLA_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class CargoTurret_01;
@@ -515,6 +515,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_SOREBEL";
         crew = "CFP_O_SOREBEL_Rifleman_01";
+        hiddenSelectionsTextures[] = {
+            "CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\data\uaz_main_civil_co.paa",
+            "CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\data\uaz_mount_001_co.paa"
+        };
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -527,18 +531,17 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\data\uaz_main_civil_co.paa'];_unit setObjectTextureGlobal [1,'CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\data\uaz_mount_001_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "TKC";
 
     };
 
-    class CFP_O_SOREBEL_Technical_SPG_01 : CUP_O_UAZ_SPG9_CHDKZ_OCimport_02 {
+    class CFP_O_SOREBEL_Technical_SPG_01 : CUP_O_UAZ_SPG9_SLA_OCimport_02 {
         editorPreview = \x\cfp\addons\o_sorebel\data\preview\CFP_O_SOREBEL_Technical_SPG_01.JPG;
         author = "Drew";
         scope = 2;
@@ -559,14 +562,13 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\data\uaz_main_SLA_co.paa'];_unit setObjectTextureGlobal [1,'CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\data\uaz_mount_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "SLA";
 
     };
 
