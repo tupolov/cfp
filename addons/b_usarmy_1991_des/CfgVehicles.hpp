@@ -525,11 +525,38 @@ class CfgVehicles {
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",6,30},{"SmokeShell",1,1}}},{},"CFP_PASGTHelmet_DBDU1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
 
+        randomGearProbability = 100;
+
+        //Uniforms
+        uniformList[] = {
+          "CFP_BDU_DBDU", 0.7,
+          "CFP_BDU_DBDU2", 0.3
+        };
+
+        //Helmets
+        headgearList[] = {
+            "CFP_PASGTHelmet_DBDU1", 0.3,
+            "CFP_PASGTHelmet_DBDU2", 0.4,
+            "CFP_PASGTHelmet_DBDU3", 0.4,
+            "CFP_PASGTHelmet_DBDU4", 0.4,
+            "CFP_PASGTHelmet_DBDU5", 0.4,
+            "CFP_PASGTHelmet_DBDU6", 0.4
+        };
+
+        // Beards / mouth scarf / scarf / sunglasses
+        facewearList[] = {
+            "", 0.6,
+            "G_Aviator", 0.4,
+            "CUP_FR_NeckScarf4", 0.2,
+            "CUP_FR_NeckScarf2", 0.2,
+            "CUP_FR_NeckScarf", 0.2
+        };
+
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -539,18 +566,10 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USARMY_1991_Asst_Machinegunner_Des_01 : CUP_B_US_Soldier_AMG_OCimport_02 {
+    class CFP_B_USARMY_1991_Asst_Machinegunner_Des_01 : CFP_B_USARMY_1991_Rifleman_Des_01 {
         editorPreview = \x\CFP\addons\b_usarmy_1991_Des\data\preview\CFP_B_USARMY_1991_Asst_Machinegunner_Des_01.JPG;
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Asst. Machinegunner";
-        side = 1;
-        faction = "CFP_B_USARMY_1991_DES";
-        editorSubCategory = "CFP_EdSubcat_Personnel_Camo_DBDU";
-        identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
 
-        uniformClass = "CFP_BDU_DBDU";
+        displayName = "Asst. Machinegunner";
 
         linkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU1","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
         respawnlinkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU1","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
@@ -565,33 +584,12 @@ class CfgVehicles {
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",6,30},{"SmokeShell",1,1}}},{"CUP_B_AlicePack_OD",{{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",3,100}}},"CFP_PASGTHelmet_DBDU1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_B_USARMY_1991_Asst_Auto_Rifleman_Des_01 : CUP_B_US_Soldier_AAR_OCimport_02 {
+    class CFP_B_USARMY_1991_Asst_Auto_Rifleman_Des_01 : CFP_B_USARMY_1991_Rifleman_Des_01 {
         editorPreview = \x\CFP\addons\b_usarmy_1991_Des\data\preview\CFP_B_USARMY_1991_Asst_Auto_Rifleman_Des_01.JPG;
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Asst. Auto Rifleman";
-        side = 1;
-        faction = "CFP_B_USARMY_1991_DES";
-        editorSubCategory = "CFP_EdSubcat_Personnel_Camo_DBDU";
-        identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
 
-        uniformClass = "CFP_BDU_DBDU";
+        displayName = "Asst. Auto Rifleman";
 
         linkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU2","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
         respawnlinkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU2","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
@@ -606,33 +604,12 @@ class CfgVehicles {
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",6,30},{"SmokeShell",1,1}}},{"CUP_B_AlicePack_OD",{{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",2,200}}},"CFP_PASGTHelmet_DBDU2","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_B_USARMY_1991_Asst_AT_Specialist_Dragon_Des_01 : CUP_B_US_Soldier_AHAT_OCimport_02 {
+    class CFP_B_USARMY_1991_Asst_AT_Specialist_Dragon_Des_01 : CFP_B_USARMY_1991_Rifleman_Des_01 {
         editorPreview = \x\CFP\addons\b_usarmy_1991_Des\data\preview\CFP_B_USARMY_1991_Asst_AT_Specialist_Dragon_Des_01.JPG;
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Asst. AT Specialist [Dragon]";
-        side = 1;
-        faction = "CFP_B_USARMY_1991_DES";
-        editorSubCategory = "CFP_EdSubcat_Personnel_Camo_DBDU";
-        identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
 
-        uniformClass = "CFP_BDU_DBDU";
+        displayName = "Asst. AT Specialist [Dragon]";
 
         linkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU1","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
         respawnlinkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU1","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
@@ -647,33 +624,12 @@ class CfgVehicles {
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",5,30}}},{"CUP_B_AlicePack_OD",{{"CUP_Dragon_EP1_M",1,1}}},"CFP_PASGTHelmet_DBDU1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_B_USARMY_1991_Asst_AT_Specialist_Des_01 : CUP_B_US_Soldier_AAT_OCimport_02 {
+    class CFP_B_USARMY_1991_Asst_AT_Specialist_Des_01 : CFP_B_USARMY_1991_Rifleman_Des_01 {
         editorPreview = \x\CFP\addons\b_usarmy_1991_Des\data\preview\CFP_B_USARMY_1991_Asst_AT_Specialist_Des_01.JPG;
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Asst. AT Specialist";
-        side = 1;
-        faction = "CFP_B_USARMY_1991_DES";
-        editorSubCategory = "CFP_EdSubcat_Personnel_Camo_DBDU";
-        identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
 
-        uniformClass = "CFP_BDU_DBDU";
+        displayName = "Asst. AT Specialist";
 
         linkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU1","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
         respawnlinkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU1","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
@@ -687,18 +643,6 @@ class CfgVehicles {
         backpack = "CUP_B_AlicePack_OD";
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_M72A6","","","",{},{},""},{},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",4,30},{"SmokeShell",1,1}}},{"CUP_B_AlicePack_OD",{{"CUP_MAAWS_HEDP_M",1,1}}},"CFP_PASGTHelmet_DBDU1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
 
     };
 
@@ -741,18 +685,10 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USARMY_1991_Grenadier_Des_01 : CUP_B_US_Soldier_GL_OCimport_02 {
+    class CFP_B_USARMY_1991_Grenadier_Des_01 : CFP_B_USARMY_1991_Rifleman_Des_01 {
         editorPreview = \x\CFP\addons\b_usarmy_1991_Des\data\preview\CFP_B_USARMY_1991_Grenadier_Des_01.JPG;
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Grenadier";
-        side = 1;
-        faction = "CFP_B_USARMY_1991_DES";
-        editorSubCategory = "CFP_EdSubcat_Personnel_Camo_DBDU";
-        identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
 
-        uniformClass = "CFP_BDU_DBDU2";
+        displayName = "Grenadier";
 
         linkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU2","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
         respawnlinkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU2","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
@@ -766,19 +702,6 @@ class CfgVehicles {
         backpack = "CUP_B_AlicePack_OD";
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2_GL","","","",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_1Rnd_HEDP_M203",1},""},{},{"CUP_hgun_M9","","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CFP_BDU_DBDU2",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",5,30},{"CUP_1Rnd_HEDP_M203",2,1},{"CUP_1Rnd_SmokeRed_M203",3,1},{"SmokeShellGreen",2,1}}},{"CUP_B_AlicePack_OD",{{"CUP_1Rnd_StarFlare_White_M203",3,1},{"CUP_1Rnd_StarFlare_Red_M203",1,1},{"CUP_1Rnd_StarFlare_Green_M203",1,1},{"CUP_1Rnd_Smoke_M203",2,1},{"CUP_1Rnd_SmokeRed_M203",2,1},{"CUP_1Rnd_SmokeGreen_M203",2,1},{"CUP_1Rnd_HEDP_M203",2,1}}},"CFP_PASGTHelmet_DBDU2","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
 
     };
 
@@ -821,18 +744,10 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_USARMY_1991_Squad_Leader_Des_01 : CUP_B_US_Soldier_SL_OCimport_02 {
+    class CFP_B_USARMY_1991_Squad_Leader_Des_01 : CFP_B_USARMY_1991_Rifleman_Des_01 {
         editorPreview = \x\CFP\addons\b_usarmy_1991_Des\data\preview\CFP_B_USARMY_1991_Squad_Leader_Des_01.JPG;
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Squad Leader";
-        side = 1;
-        faction = "CFP_B_USARMY_1991_DES";
-        editorSubCategory = "CFP_EdSubcat_Personnel_Camo_DBDU";
-        identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
 
-        uniformClass = "CFP_BDU_DBDU";
+        displayName = "Squad Leader";
 
         linkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU1","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
         respawnlinkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU1","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
@@ -847,33 +762,12 @@ class CfgVehicles {
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_M9","","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",5,30},{"B_IR_Grenade",1,1},{"SmokeShellGreen",3,1},{"CUP_15Rnd_9x19_M9",2,15}}},{"CUP_B_AlicePack_OD",{{"CUP_30Rnd_556x45_Stanag",4,30},{"SmokeShellGreen",2,1},{"SmokeShellPurple",2,1},{"SmokeShellRed",2,1},{"SmokeShellBlue",2,1},{"B_IR_Grenade",2,1}}},"CFP_PASGTHelmet_DBDU1","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_B_USARMY_1991_Team_Leader_Des_01 : CUP_B_US_Soldier_TL_OCimport_02 {
+    class CFP_B_USARMY_1991_Team_Leader_Des_01 : CFP_B_USARMY_1991_Rifleman_Des_01 {
         editorPreview = \x\CFP\addons\b_usarmy_1991_Des\data\preview\CFP_B_USARMY_1991_Team_Leader_Des_01.JPG;
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Team Leader";
-        side = 1;
-        faction = "CFP_B_USARMY_1991_DES";
-        editorSubCategory = "CFP_EdSubcat_Personnel_Camo_DBDU";
-        identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
 
-        uniformClass = "CFP_BDU_DBDU";
+        displayName = "Team Leader";
 
         linkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU2","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
         respawnlinkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU2","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
@@ -888,33 +782,12 @@ class CfgVehicles {
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2_GL","","","",{"CUP_30Rnd_556x45_Stanag",30},{"CUP_1Rnd_HEDP_M203",1},""},{},{"CUP_hgun_M9","","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",5,30},{"CUP_1Rnd_HEDP_M203",2,1},{"CUP_1Rnd_SmokeRed_M203",3,1},{"SmokeShellGreen",2,1}}},{"CUP_B_AlicePack_OD",{{"CUP_1Rnd_StarFlare_White_M203",3,1},{"CUP_1Rnd_StarFlare_Red_M203",1,1},{"CUP_1Rnd_StarFlare_Green_M203",1,1},{"CUP_1Rnd_Smoke_M203",2,1},{"CUP_1Rnd_SmokeRed_M203",2,1},{"CUP_1Rnd_SmokeGreen_M203",2,1},{"CUP_1Rnd_HEDP_M203",2,1}}},"CFP_PASGTHelmet_DBDU2","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_B_USARMY_1991_Rifleman_AT_Des_01 : CUP_B_US_Soldier_LAT_OCimport_02 {
+    class CFP_B_USARMY_1991_Rifleman_AT_Des_01 : CFP_B_USARMY_1991_Rifleman_Des_01 {
         editorPreview = \x\CFP\addons\b_usarmy_1991_Des\data\preview\CFP_B_USARMY_1991_Rifleman_AT_Des_01.JPG;
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Rifleman [AT]";
-        side = 1;
-        faction = "CFP_B_USARMY_1991_DES";
-        editorSubCategory = "CFP_EdSubcat_Personnel_Camo_DBDU";
-        identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
 
-        uniformClass = "CFP_BDU_DBDU";
+        displayName = "Rifleman [AT]";
 
         linkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU1","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
         respawnlinkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU1","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
@@ -927,33 +800,12 @@ class CfgVehicles {
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_M136_Loaded","","","",{"CUP_M136_M",1},{},""},{},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",5,30},{"SmokeShell",1,1}}},{},"CFP_PASGTHelmet_DBDU1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_B_USARMY_1991_AT_Specialist_Des_01 : CUP_B_US_Soldier_AT_OCimport_02 {
+    class CFP_B_USARMY_1991_AT_Specialist_Des_01 : CFP_B_USARMY_1991_Rifleman_Des_01 {
         editorPreview = \x\CFP\addons\b_usarmy_1991_Des\data\preview\CFP_B_USARMY_1991_AT_Specialist_Des_01.JPG;
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AT Specialist";
-        side = 1;
-        faction = "CFP_B_USARMY_1991_DES";
-        editorSubCategory = "CFP_EdSubcat_Personnel_Camo_DBDU";
-        identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
 
-        uniformClass = "CFP_BDU_DBDU";
+        displayName = "AT Specialist";
 
         linkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU1","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
         respawnlinkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU1","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
@@ -968,32 +820,12 @@ class CfgVehicles {
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_M72A6","","","",{},{},""},{},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",4,30},{"SmokeShell",1,1}}},{"CUP_B_AlicePack_OD",{{"CUP_MAAWS_HEDP_M",1,1}}},"CFP_PASGTHelmet_DBDU1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_B_USARMY_1991_AT_Specialist_Dragon_Des_01 : CUP_B_US_Soldier_HAT_OCimport_02 {
+    class CFP_B_USARMY_1991_AT_Specialist_Dragon_Des_01 : CFP_B_USARMY_1991_Rifleman_Des_01 {
         editorPreview = \x\CFP\addons\b_usarmy_1991_Des\data\preview\CFP_B_USARMY_1991_AT_Specialist_Dragon_Des_01.JPG;
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AT Specialist [Dragon]";
-        side = 1;
-        faction = "CFP_B_USARMY_1991_DES";
-        editorSubCategory = "CFP_EdSubcat_Personnel_Camo_DBDU";
-        identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
 
-        uniformClass = "CFP_BDU_DBDU";
+        displayName = "AT Specialist [Dragon]";
 
         linkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU2","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
         respawnlinkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU2","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
@@ -1006,33 +838,12 @@ class CfgVehicles {
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_M47","","","",{"CUP_Dragon_EP1_M",1},{},""},{},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",4,30},{"SmokeShell",1,1}}},{},"CFP_PASGTHelmet_DBDU2","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_B_USARMY_1991_AA_Specialist_Des_01 : CUP_B_US_Soldier_AA_OCimport_02 {
+    class CFP_B_USARMY_1991_AA_Specialist_Des_01 : CFP_B_USARMY_1991_Rifleman_Des_01 {
         editorPreview = \x\CFP\addons\b_usarmy_1991_Des\data\preview\CFP_B_USARMY_1991_AA_Specialist_Des_01.JPG;
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "AA Specialist";
-        side = 1;
-        faction = "CFP_B_USARMY_1991_DES";
-        editorSubCategory = "CFP_EdSubcat_Personnel_Camo_DBDU";
-        identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
 
-        uniformClass = "CFP_BDU_DBDU";
+        displayName = "AA Specialist";
 
         linkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU1","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
         respawnlinkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU1","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
@@ -1045,36 +856,15 @@ class CfgVehicles {
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_FIM92Stinger_Loaded","","","",{"CUP_Stinger_M",1},{},""},{},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",3,30}}},{},"CFP_PASGTHelmet_DBDU1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_B_USARMY_1991_Medic_Des_01 : CUP_B_US_Medic_OCimport_02 {
+    class CFP_B_USARMY_1991_Medic_Des_01 : CFP_B_USARMY_1991_Rifleman_Des_01 {
         editorPreview = \x\CFP\addons\b_usarmy_1991_Des\data\preview\CFP_B_USARMY_1991_Medic_Des_01.JPG;
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
+
         displayName = "Medic";
         attendant = 1;
         icon = "iconManMedic";
         picture = "pictureHeal";
-        side = 1;
-        faction = "CFP_B_USARMY_1991_DES";
-        editorSubCategory = "CFP_EdSubcat_Personnel_Camo_DBDU";
-        identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
-
-        uniformClass = "CFP_BDU_DBDU2";
 
         linkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU1","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
         respawnlinkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU1","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
@@ -1089,33 +879,12 @@ class CfgVehicles {
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_DBDU2",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",5,30},{"SmokeShell",1,1}}},{"CUP_B_AlicePack_OD",{{"Medikit",1},{"FirstAidKit",8}}},"CFP_PASGTHelmet_DBDU1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_B_USARMY_1991_Automatic_Rifleman_Des_01 : CUP_B_US_Soldier_AR_OCimport_02 {
+    class CFP_B_USARMY_1991_Automatic_Rifleman_Des_01 : CFP_B_USARMY_1991_Rifleman_Des_01 {
         editorPreview = \x\CFP\addons\b_usarmy_1991_Des\data\preview\CFP_B_USARMY_1991_Automatic_Rifleman_Des_01.JPG;
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Automatic Rifleman";
-        side = 1;
-        faction = "CFP_B_USARMY_1991_DES";
-        editorSubCategory = "CFP_EdSubcat_Personnel_Camo_DBDU";
-        identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
 
-        uniformClass = "CFP_BDU_DBDU";
+        displayName = "Automatic Rifleman";
 
         linkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU1","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
         respawnlinkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU1","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
@@ -1130,33 +899,12 @@ class CfgVehicles {
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_M249","","","",{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",200},{},""},{},{},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",1,200}}},{"CUP_B_AlicePack_OD",{{"CUP_200Rnd_TE4_Red_Tracer_556x45_M249",2,200}}},"CFP_PASGTHelmet_DBDU1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_B_USARMY_1991_Machinegunner_Des_01 : CUP_B_US_Soldier_MG_OCimport_02 {
+    class CFP_B_USARMY_1991_Machinegunner_Des_01 : CFP_B_USARMY_1991_Rifleman_Des_01 {
         editorPreview = \x\CFP\addons\b_usarmy_1991_Des\data\preview\CFP_B_USARMY_1991_Machinegunner_Des_01.JPG;
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Machinegunner";
-        side = 1;
-        faction = "CFP_B_USARMY_1991_DES";
-        editorSubCategory = "CFP_EdSubcat_Personnel_Camo_DBDU";
-        identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
 
-        uniformClass = "CFP_BDU_DBDU2";
+        displayName = "Machinegunner";
 
         linkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU1","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
         respawnlinkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU1","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
@@ -1171,22 +919,9 @@ class CfgVehicles {
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_M240","","","",{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",100},{},""},{},{},{"CFP_BDU_DBDU2",{{"FirstAidKit",1},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",1,100}}},{"CUP_B_AlicePack_OD",{{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",2,100}}},"CFP_PASGTHelmet_DBDU1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_B_USARMY_1991_Spotter_Des_01 : CUP_B_US_Spotter_OCimport_02 {
+    class CFP_B_USARMY_1991_Spotter_Des_01 : CFP_B_USARMY_1991_Rifleman_Des_01 {
         editorPreview = \x\CFP\addons\b_usarmy_1991_Des\data\preview\CFP_B_USARMY_1991_Spotter_Des_01.JPG;
         author = "Drew";
         scope = 2;
@@ -1344,16 +1079,8 @@ class CfgVehicles {
 
     class CFP_B_USARMY_1991_Marksman_Des_01 : CUP_B_US_Soldier_Marksman_OCimport_02 {
         editorPreview = \x\CFP\addons\b_usarmy_1991_Des\data\preview\CFP_B_USARMY_1991_Marksman_Des_01.JPG;
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Marksman";
-        side = 1;
-        faction = "CFP_B_USARMY_1991_DES";
-        editorSubCategory = "CFP_EdSubcat_Personnel_Camo_DBDU";
-        identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
 
-        uniformClass = "CFP_BDU_DBDU";
+        displayName = "Marksman";
 
         linkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU2","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
         respawnlinkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU2","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
@@ -1366,34 +1093,14 @@ class CfgVehicles {
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_M14","","","CUP_optic_LeupoldMk4",{"20Rnd_762x51_Mag",20},{},"CUP_bipod_Harris_1A2_L"},{},{},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"SmokeShellRed",1,1},{"20Rnd_762x51_Mag",3,20}}},{"CFP_V_PASGT_DBDU",{{"B_IR_Grenade",1,1},{"20Rnd_762x51_Mag",3,20}}},{},"CFP_PASGTHelmet_DBDU2","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_B_USARMY_1991_Sapper_Des_01 : CUP_B_US_Soldier_Engineer_Sapper_OCimport_02 {
+    class CFP_B_USARMY_1991_Sapper_Des_01 : CFP_B_USARMY_1991_Rifleman_Des_01 {
         editorPreview = \x\CFP\addons\b_usarmy_1991_Des\data\preview\CFP_B_USARMY_1991_Sapper_Des_01.JPG;
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
+
         displayName = "Sapper";
         canDeactivateMines = 1;
         engineer = 1;
-        side = 1;
-        faction = "CFP_B_USARMY_1991_DES";
-        editorSubCategory = "CFP_EdSubcat_Personnel_Camo_DBDU";
-        identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
-
-        uniformClass = "CFP_BDU_DBDU";
 
         linkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU1","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
         respawnlinkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU1","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
@@ -1408,35 +1115,14 @@ class CfgVehicles {
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",5,30},{"SmokeShell",1,1}}},{"CUP_B_AlicePack_OD",{{"CUP_Mine_M",2,1},{"CUP_PipeBomb_M",1,1}}},"CFP_PASGTHelmet_DBDU1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_B_USARMY_1991_EOD_Engineer_Des_01 : CUP_B_US_Soldier_Engineer_EOD_OCimport_02 {
+    class CFP_B_USARMY_1991_EOD_Engineer_Des_01 : CFP_B_USARMY_1991_Rifleman_Des_01 {
         editorPreview = \x\CFP\addons\b_usarmy_1991_Des\data\preview\CFP_B_USARMY_1991_EOD_Engineer_Des_01.JPG;
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
+
         displayName = "EOD Engineer";
         canDeactivateMines = 1;
         engineer = 1;
-        side = 1;
-        faction = "CFP_B_USARMY_1991_DES";
-        editorSubCategory = "CFP_EdSubcat_Personnel_Camo_DBDU";
-        identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
-
-        uniformClass = "CFP_BDU_DBDU";
 
         linkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU1","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
         respawnlinkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU1","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
@@ -1451,35 +1137,14 @@ class CfgVehicles {
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",5,30},{"SmokeShell",1,1}}},{"CUP_B_AlicePack_OD",{{"ToolKit",1},{"MineDetector",1}}},"CFP_PASGTHelmet_DBDU1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_B_USARMY_1991_Engineer_Des_01 : CUP_B_US_Engineer_OCimport_02 {
+    class CFP_B_USARMY_1991_Engineer_Des_01 : CFP_B_USARMY_1991_Rifleman_Des_01 {
         editorPreview = \x\CFP\addons\b_usarmy_1991_Des\data\preview\CFP_B_USARMY_1991_Engineer_Des_01.JPG;
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
+
         displayName = "Engineer";
         canDeactivateMines = 1;
         engineer = 1;
-        side = 1;
-        faction = "CFP_B_USARMY_1991_DES";
-        editorSubCategory = "CFP_EdSubcat_Personnel_Camo_DBDU";
-        identityTypes[] = {"Head_NATO","LanguageENG_F","CUP_G_ARMY"};
-
-        uniformClass = "CFP_BDU_DBDU";
 
         linkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU1","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
         respawnlinkedItems[] = {"CFP_V_PASGT_DBDU","CFP_PASGTHelmet_DBDU1","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
@@ -1493,19 +1158,6 @@ class CfgVehicles {
         backpack = "CUP_B_AlicePack_OD";
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_BDU_DBDU",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"CUP_HandGrenade_M67",1,1}}},{"CFP_V_PASGT_DBDU",{{"CUP_30Rnd_556x45_Stanag",5,30},{"SmokeShell",1,1}}},{"CUP_B_AlicePack_OD",{{"ToolKit",1},{"CUP_Mine_M",1,1},{"CUP_PipeBomb_M",1,1}}},"CFP_PASGTHelmet_DBDU1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
 
     };
 

@@ -55,11 +55,11 @@
 
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName  = "PASGT Helmet w Goggles (NVG, US DBDU)";
+		displayName  = "PASGT Helmet (NVG Goggles, US DBDU)";
 		//
 		model = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
-		hiddenSelections[] = {"camo", "Cover_Front", "Cover_Back"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\DBDU.paa"};
+		hiddenSelections[] = {"camo", "NVG_mount", "LWH_chinstrap", "Goggle_Glass", "Goggle_ESS", "Cover_Front", "Cover_Back"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\DBDU.paa","\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\data\new_usmc_gear3_tan_co.paa"};
 		author = "CFP";
 
 		class ItemInfo: HeadgearItem
@@ -70,8 +70,8 @@
 			armor = 10;
 			passThrough = 0.30;
 			HITPOINTS_HEAD(10,0.30)
-			hiddenSelections[] = {"camo", "Cover_Front", "Cover_Back"};
-			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\DBDU.paa"};
+			hiddenSelections[] = {"camo", "NVG_mount", "LWH_chinstrap", "Cover_Front", "Cover_Back"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\DBDU.paa","\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\data\new_usmc_gear3_tan_co.paa"};
 		};
 	};
 
@@ -81,10 +81,10 @@
 
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName  = "PASGT Helmet w Goggles (US DBDU)";
+		displayName  = "PASGT Helmet (Goggles US DBDU)";
 		//
 		model = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
-		hiddenSelections[] = {"camo", "NVG_mount", "Cover_Front", "Cover_Back"};
+		hiddenSelections[] = {"camo", "NVG_mount", "LWH_chinstrap", "Goggle_Glass", "Goggle_ESS", "Cover_Front", "Cover_Back"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\DBDU.paa"};
 		author = "CFP";
 
@@ -96,7 +96,7 @@
 			armor = 10;
 			passThrough = 0.30;
 			HITPOINTS_HEAD(10,0.30)
-			hiddenSelections[] = {"camo", "NVG_mount", "Cover_Front", "Cover_Back"};
+			hiddenSelections[] = {"camo", "NVG_mount", "LWH_chinstrap", "Cover_Front", "Cover_Back"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\DBDU.paa"};
 		};
 	};
@@ -107,11 +107,11 @@
 
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName  = "PASGT Helmet w Goggles Front Cover (US DBDU)";
+		displayName  = "PASGT Helmet (Front Cover US DBDU)";
 		//
 		model = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
-		hiddenSelections[] = {"camo", "Goggle_ESS", "NVG_mount", "Cover_Back"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\DBDU.paa","cup\creatures\people\military\cup_creatures_people_military_germany\data\idf_helmet_white_co.paa"};
+		hiddenSelections[] = {"camo", "NVG_mount", "LWH_chinstrap", "Goggle_Glass", "Goggle_ESS", "Cover_Front", "Cover_Back"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\DBDU.paa"};
 		author = "CFP";
 
 		class ItemInfo: HeadgearItem
@@ -122,7 +122,7 @@
 			armor = 10;
 			passThrough = 0.30;
 			HITPOINTS_HEAD(10,0.30)
-			hiddenSelections[] = {"camo", "Goggle_ESS", "NVG_mount", "Cover_Back"};
+			hiddenSelections[] = {"camo", "NVG_mount", "LWH_chinstrap", "Cover_Back"};
 		};
 	};
 
@@ -132,11 +132,11 @@
 
 		scope = 2;
 		weaponPoolAvailable = 1;
-		displayName  = "PASGT Helmet w Goggles Back Cover (US DBDU)";
+		displayName  = "PASGT Helmet (Goggles, Back Cover US DBDU)";
 		//
 		model = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
-		hiddenSelections[] = {"camo", "NVG_mount", "Cover_Front"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\DBDU.paa","cup\creatures\people\military\cup_creatures_people_military_germany\data\idf_helmet_white_co.paa"};
+		hiddenSelections[] = {"camo", "NVG_mount", "LWH_chinstrap", "Goggle_Glass", "Goggle_ESS", "Cover_Front", "Cover_Back"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\DBDU.paa","\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\data\new_usmc_gear3_tan_co.paa"};
 		author = "CFP";
 
 		class ItemInfo: HeadgearItem
@@ -147,8 +147,8 @@
 			armor = 10;
 			passThrough = 0.30;
 			HITPOINTS_HEAD(10,0.30)
-			hiddenSelections[] = {"camo", "NVG_mount", "Cover_Front"};
-			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\DBDU.paa","cup\creatures\people\military\cup_creatures_people_military_germany\data\idf_helmet_white_co.paa"};
+			hiddenSelections[] = {"camo", "NVG_mount", "LWH_chinstrap", "Cover_Front"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\DBDU.paa","\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\data\new_usmc_gear3_tan_co.paa"};
 		};
 	};
 
