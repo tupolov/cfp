@@ -877,7 +877,7 @@ class CfgVehicles {
         displayName = "CH-53G Super Stallion";
         side = 1;
         faction = "CUP_B_GER";
-        crew = "B_Helipilot_F";
+        crew = "CUP_B_GER_HPilot";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -906,7 +906,7 @@ class CfgVehicles {
         displayName = "CH-53G Super Stallion (VIV)";
         side = 1;
         faction = "CUP_B_GER";
-        crew = "B_Helipilot_F";
+        crew = "CUP_B_GER_HPilot";
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -935,7 +935,7 @@ class CfgVehicles {
         displayName = "UH-1D (Desert)";
         side = 1;
         faction = "CUP_B_GER";
-        crew = "CFP_B_DEArmy_Pilot_DES_01";
+        crew = "CUP_B_GER_HPilot";
 
         class Turrets : Turrets {
             class RightDoorGun : RightDoorGun { gunnerType = ""; };
@@ -968,7 +968,7 @@ class CfgVehicles {
         displayName = "UH-1D Slick (Desert)";
         side = 1;
         faction = "CUP_B_GER";
-        crew = "CFP_B_DEARMY_Pilot_DES_01";
+        crew = "CUP_B_GER_HPilot";
 
         class Turrets : Turrets {
             class RightDoorGun : RightDoorGun { gunnerType = ""; };
@@ -998,7 +998,7 @@ class CfgVehicles {
 
     class CFP_B_DEARMY_Pilot_DES_01 : CUP_B_US_Pilot_OCimport_02 {
         author = "Drew";
-        scope = 2;
+        scope = 1;
         scopeCurator = 2;
         displayName = "Pilot";
         genericNames = "CUP_Names_GermanMen";
