@@ -8,7 +8,7 @@
 		displayname = "Tac Goggles Clear [75th]";
 		author = "CFP";
 		model = "\x\cfp\addons\glasses\75Facewear\tactical_goggles.p3d";
-		picture = "";
+		picture = "\x\cfp\addons\glasses\Shades\ui\Black.jpg";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\75Facewear\tex\tacgoggles_clr_blk_ca.paa"};
 		identityTypes[] = {"NoGlasses",0,"CFP_G_USRANGERS",900};
@@ -28,7 +28,7 @@
 			displayname = "Tac Goggles Yellow [75th]";
 			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Facewear\tactical_goggles.p3d";
-			picture = "";
+			picture = "\x\cfp\addons\glasses\Shades\ui\Black.jpg";
 			hiddenSelections[] = {"camo"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\75Facewear\tex\tacgoggles_yelo_blk_ca.paa"};
 			identityTypes[] = {"NoGlasses",0,"CFP_G_USRANGERS",900};
@@ -48,7 +48,7 @@
 			displayname = "Tac Goggles Dark [75th]";
 			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Facewear\tactical_goggles.p3d";
-			picture = "";
+			picture = "\x\cfp\addons\glasses\Shades\ui\Black.jpg";
 			hiddenSelections[] = {"camo"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\75Facewear\tex\tacgoggles_drk_blk_ca.paa"};
 			identityTypes[] = {"NoGlasses",0,"CFP_G_USRANGERS",900};
@@ -68,7 +68,7 @@
 			displayname = "Tac Goggles Tan Clear [75th]";
 			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Facewear\tactical_goggles.p3d";
-			picture = "";
+			picture = "\x\cfp\addons\glasses\Shades\ui\Black.jpg";
 			hiddenSelections[] = {"camo"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\75Facewear\tex\tacgoggles_tan_clr_ca.paa"};
 			identityTypes[] = {"NoGlasses",0,"CFP_G_USRANGERS",900};
@@ -88,7 +88,7 @@
 			displayname = "Tac Goggles Tan Dark [75th]";
 			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Facewear\tactical_goggles.p3d";
-			picture = "";
+			picture = "\x\cfp\addons\glasses\Shades\ui\Black.jpg";
 			hiddenSelections[] = {"camo"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\75Facewear\tex\tacgoggles_drk_blk_ca.paa"};
 			identityTypes[] = {"NoGlasses",0,"CFP_G_USRANGERS",900};
@@ -107,7 +107,7 @@
 			displayname = "Tac Goggles Smoke [75th]";
 			author = "CFP";
 			model = "\x\cfp\addons\glasses\75Facewear\tactical_goggles.p3d";
-			picture = "";
+			picture = "\x\cfp\addons\glasses\Shades\ui\Black.jpg";
 			hiddenSelections[] = {"camo"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\75Facewear\tex\tacgoggles_cit_smke_ca.paa"};
 			identityTypes[] = {"NoGlasses",0,"CFP_G_USRANGERS",900};

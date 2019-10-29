@@ -344,7 +344,7 @@ class CfgVehicles
         scope = 2;
         author = "CFP";
         displayName = "Camelbak Mule Ranger Grn [75th]";
-        picture = "";
+        picture = "\x\cfp\addons\backpacks\data\ui\icon_CFP_AssaultPack_M81.paa";
         model = "x\cfp\addons\backpacks\h_camelbak_mule.p3d";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"x\cfp\addons\backpacks\75Bags\tex\h_camelbak_mule_rngrgrn_co.paa"};
@@ -356,7 +356,7 @@ class CfgVehicles
         scope = 2;
         author = "CFP";
         displayName = "Camelbak Mule Drab [75th]";
-        picture = "";
+        picture = "\x\cfp\addons\backpacks\data\ui\icon_CFP_AssaultPack_M81.paa";
         model = "x\cfp\addons\backpacks\h_camelbak_mule.p3d";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"x\cfp\addons\backpacks\75Bags\tex\h_camelbak_mule_drab_co.paa"};
@@ -368,7 +368,7 @@ class CfgVehicles
         scope = 2;
         author = "CFP";
         displayName = "Camelbak Mule Khaki [75th]";
-        picture = "";
+        picture = "\x\cfp\addons\backpacks\data\ui\icon_CFP_AssaultPack_M81.paa";
         model = "x\cfp\addons\backpacks\h_camelbak_mule.p3d";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"x\cfp\addons\backpacks\75Bags\tex\h_camelbak_mule_khki_co.paa"};
@@ -380,7 +380,7 @@ class CfgVehicles
         scope = 2;
         author = "CFP";
         displayName = "Camelbak Mule Coyote [75th]";
-        picture = "";
+        picture = "\x\cfp\addons\backpacks\data\ui\icon_CFP_AssaultPack_M81.paa";
         model = "x\cfp\addons\backpacks\h_camelbak_mule.p3d";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"x\cfp\addons\backpacks\75Bags\tex\h_camelbak_mule_coy_co.paa"};
@@ -412,7 +412,7 @@ class CfgVehicles
     };
     class CFP_AssaultPack_White: B_AssaultPack_Base
     {
-        picture = "";
+        picture = "\x\cfp\addons\backpacks\data\ui\icon_CFP_AssaultPack_M81.paa";
         scope = 2;
         maximumLoad = 160;
         displayName = "Assault Pack (White)";

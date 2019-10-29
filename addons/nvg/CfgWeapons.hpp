@@ -118,7 +118,7 @@ class CfgWeapons
 	{
 		displayname = "AN/PVS-15 NVG Blk";
 		model = "\x\cfp\addons\nvg\an_pvs15.p3d";
-		picture = "";
+		picture = "\CUP\Weapons\CUP_Weapons_NVG\data\icon_pvs15_black_ca.paa";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\nvg\tex\an_pvs15_blk_co.paa"};
 		class ItemInfo
@@ -136,7 +136,7 @@ class CfgWeapons
 	{
 		displayname = "AN/PVS-15 NVG Camo_V1";
 		model = "\x\cfp\addons\nvg\an_pvs15.p3d";
-		picture = "";
+		picture = "\CUP\Weapons\CUP_Weapons_NVG\data\icon_pvs15_black_ca.paa";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\nvg\tex\an_pvs15_cam1_co.paa"};
 		class ItemInfo
@@ -154,7 +154,7 @@ class CfgWeapons
 	{
 		displayname = "AN/PVS-15 NVG Camo V2";
 		model = "\x\cfp\addons\nvg\an_pvs15.p3d";
-		picture = "";
+		picture = "\CUP\Weapons\CUP_Weapons_NVG\data\icon_pvs15_black_ca.paa";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\nvg\tex\an_pvs15_cam2_co.paa"};
 		class ItemInfo
@@ -172,7 +172,7 @@ class CfgWeapons
 	{
 		displayname = "AN/PVS-15 NVG Camo V3";
 		model = "\x\cfp\addons\nvg\an_pvs15.p3d";
-		picture = "";
+		picture = "\CUP\Weapons\CUP_Weapons_NVG\data\icon_pvs15_black_ca.paa";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\nvg\tex\an_pvs15_cam3_co.paa"};
 		class ItemInfo
@@ -190,7 +190,7 @@ class CfgWeapons
 	{
 		displayname = "AN/PVS-15 NVG Camo V4";
 		model = "\x\cfp\addons\nvg\an_pvs15.p3d";
-		picture = "";
+		picture = "\CUP\Weapons\CUP_Weapons_NVG\data\icon_pvs15_black_ca.paa";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\nvg\tex\an_pvs15_cam4_co.paa"};
 		class ItemInfo
