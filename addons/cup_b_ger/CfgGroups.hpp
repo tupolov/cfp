@@ -157,6 +157,28 @@ class CfgGroups {
             {
                 name = "Armor";
                 delete CUP_B_GER_Leopard_Section_Woodland;
+
+                class CUP_B_GER_Leopard_Section_Desert
+                {
+                    name = "Leopard 2 Section (Desert)";
+                    icon = "\A3\ui_f\data\map\markers\nato\n_armor.paa";
+                    faction = "CFP_B_DEARMY_WDL"; side = 1;
+                    rarityGroup = 0.2;
+                    class Unit0
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_Leopard2A6DST_GER";
+                        rank = "CAPTAIN";
+                        position[] = {0,10,0};
+                    };
+                    class Unit1
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_Leopard2A6DST_GER";
+                        rank = "LIEUTENANT";
+                        position[] = {5,0,0};
+                    };
+                };
             };
             class Air {
                 name = "Air";

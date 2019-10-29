@@ -162,7 +162,7 @@ class CfgVehicles
     };
     class CFP_Kitbag_White: B_Kitbag_Base
     {
-        picture = "";
+        picture = "\x\cfp\addons\backpacks\data\ui\icon_CFP_Kitbag_Woodland.paa";
         scope = 2;
         maximumLoad = 280;
         displayName = "Kitbag (White)";
@@ -331,7 +331,7 @@ class CfgVehicles
         scope = 2;
         author = "CFP";
         displayName = "Cutters [75th]";
-        picture = "";
+        picture = "\x\cfp\addons\backpacks\data\ui\icon_CFP_AssaultPack_M81.paa";
         model = "x\cfp\addons\backpacks\cutter_set.p3d";
         hiddenSelections[] = {""};
         hiddenSelectionsTextures[] = {""};
