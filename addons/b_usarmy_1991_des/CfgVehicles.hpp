@@ -1054,13 +1054,13 @@ class CfgVehicles {
         linkedItems[] = {"CFP_Alice_Vest2","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
         respawnlinkedItems[] = {"CFP_Alice_Vest2","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
 
-        weapons[] = {"CUP_srifle_M107_Des","CUP_hgun_Colt1911","CUP_Vector21Nite"};
-        respawnWeapons[] = {"CUP_srifle_M107_Des","CUP_hgun_Colt1911","CUP_Vector21Nite"};
+        weapons[] = {"CUP_srifle_M107_Desert","CUP_hgun_Colt1911","CUP_Vector21Nite"};
+        respawnWeapons[] = {"CUP_srifle_M107_Desert","CUP_hgun_Colt1911","CUP_Vector21Nite"};
 
         magazines[] = {"CUP_10Rnd_127x99_M107","CUP_7Rnd_45ACP_1911","CUP_10Rnd_127x99_M107","CUP_7Rnd_45ACP_1911"};
         respawnMagazines[] = {"CUP_10Rnd_127x99_M107","CUP_7Rnd_45ACP_1911","CUP_10Rnd_127x99_M107","CUP_7Rnd_45ACP_1911"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_M107_Des","","","CUP_optic_LeupoldMk4_25x50_LRT_Des",{"CUP_10Rnd_127x99_M107",10},{},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_USArmy_Ghillie",{{"FirstAidKit",1},{"CUP_10Rnd_127x99_M107",2,10}}},{"CFP_Alice_Vest2",{{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"SmokeShellGreen",1,1},{"SmokeShellRed",1,1},{"B_IR_Grenade",1,1},{"CUP_7Rnd_45ACP_1911",3,7},{"CUP_10Rnd_127x99_M107",1,10}}},{},"","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_M107_Desert","","","CUP_optic_LeupoldMk4_25x50_LRT_Des",{"CUP_10Rnd_127x99_M107",10},{},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_USArmy_Ghillie",{{"FirstAidKit",1},{"CUP_10Rnd_127x99_M107",2,10}}},{"CFP_Alice_Vest2",{{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1},{"SmokeShellGreen",1,1},{"SmokeShellRed",1,1},{"B_IR_Grenade",1,1},{"CUP_7Rnd_45ACP_1911",3,7},{"CUP_10Rnd_127x99_M107",1,10}}},{},"","",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
 
         class EventHandlers : EventHandlers {
@@ -2714,7 +2714,7 @@ class CfgVehicles {
             weap_xx(CUP_lmg_M249,10);
             weap_xx(CUP_lmg_M240,10);
             weap_xx(CUP_srifle_M24_des,10);
-            weap_xx(CUP_srifle_M107_Des,10);
+            weap_xx(CUP_srifle_M107_Desert,10);
             weap_xx(CUP_srifle_M14,10);
             weap_xx(CUP_arifle_Colt727,10);
             weap_xx(CUP_arifle_Colt727_M203,10);
@@ -2850,7 +2850,7 @@ class CfgVehicles {
             weap_xx(CUP_lmg_M249,10);
             weap_xx(CUP_lmg_M240,10);
             weap_xx(CUP_srifle_M24_des,10);
-            weap_xx(CUP_srifle_M107_Des,10);
+            weap_xx(CUP_srifle_M107_Desert,10);
             weap_xx(CUP_srifle_M14,10);
             weap_xx(CUP_arifle_Colt727,10);
             weap_xx(CUP_arifle_Colt727_M203,10);
