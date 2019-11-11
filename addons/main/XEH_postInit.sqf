@@ -12,13 +12,14 @@ if (isServer) then {
                 {
                     private _unit = _x;
 
-                    if (!(isNull _unit) && !(isPlayer _unit) && {alive _unit}) then {
-                        private _nvg = hmd _unit;
+                    if (!(isNull _unit) && {!(isPlayer _unit) && {alive _unit}}) then {
+                        private _helmet = (headgear _unit);
+                        private _nvg = (hmd _unit);
                         private _nvgHelmet = "";
 
                         // Figure out if helmet has NVG hardware if no NVGoggles detected
                         if (_nvg == "") then {
-                            private _helmetSubItems = [(configFile >> "CfgWeapons" >> (headGear _unit)), "subItems", []] call BIS_fnc_returnConfigEntry;
+                            private _helmetSubItems = [(configFile >> "CfgWeapons" >> _helmet), "subItems", []] call BIS_fnc_returnConfigEntry;
 
                             {
                                 if (getText (configFile >> "CfgWeapons" >> _x >> "simulation") == "NVGoggles") exitWith {
@@ -34,7 +35,7 @@ if (isServer) then {
                                     if (getText (configFile >> "CfgWeapons" >> _x >> "simulation") == "NVGoggles") exitWith {
                                         _unit assignItem _x;
                                     };
-                                } forEach items _unit;
+                                } forEach (items _unit);
                             };
                         } else {
                             // Unit has NVG equiped and isn't currently using it
@@ -48,8 +49,7 @@ if (isServer) then {
                 } foreach allUnits;
             };
 
-            sleep 30;
+            sleep 300;
         };
     };
 };
-
