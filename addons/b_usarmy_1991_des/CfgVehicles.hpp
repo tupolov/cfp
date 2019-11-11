@@ -982,7 +982,7 @@ class CfgVehicles {
         magazines[] = {"CUP_5Rnd_762x51_M24","CUP_7Rnd_45ACP_1911","CUP_5Rnd_762x51_M24","CUP_7Rnd_45ACP_1911"};
         respawnMagazines[] = {"CUP_5Rnd_762x51_M24","CUP_7Rnd_45ACP_1911","CUP_5Rnd_762x51_M24","CUP_7Rnd_45ACP_1911"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_M24_des","","","CUP_optic_LeupoldMk4_10x40_LRT_Des",{"CUP_5Rnd_762x51_M24",5},{},"CUP_bipod_VLTOR_Modpod"},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_USArmy_Ghillie",{{"FirstAidKit",1},{"SmokeShell",1,1},{"CUP_5Rnd_762x51_M24",3,5}}},{"CFP_Alice_Vest2",{{"CUP_HandGrenade_M67",1,1},{"SmokeShellGreen",1,1},{"B_IR_Grenade",1,1},{"CUP_7Rnd_45ACP_1911",3,7},{"SmokeShellRed",1,1},{"CUP_5Rnd_762x51_M24",3,5}}},{},"","CUP_G_Shades_Red",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_srifle_M24_des","","","cup_optic_leupoldmk4_10x40_lrt_des",{"CUP_5Rnd_762x51_M24",5},{},"CUP_bipod_VLTOR_Modpod"},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_USArmy_Ghillie",{{"FirstAidKit",1},{"SmokeShell",1,1},{"CUP_5Rnd_762x51_M24",3,5}}},{"CFP_Alice_Vest2",{{"CUP_HandGrenade_M67",1,1},{"SmokeShellGreen",1,1},{"B_IR_Grenade",1,1},{"CUP_7Rnd_45ACP_1911",3,7},{"SmokeShellRed",1,1},{"CUP_5Rnd_762x51_M24",3,5}}},{},"","CUP_G_Shades_Red",{"CUP_Vector21Nite","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
 
         class EventHandlers : EventHandlers {
@@ -2721,7 +2721,7 @@ class CfgVehicles {
             weap_xx(CUP_lmg_M249_E2,10);
         };
         class TransportItems {
-            item_xx(CUP_optic_LeupoldMk4_10x40_LRT_Des,10);
+            item_xx(cup_optic_leupoldmk4_10x40_lrt_des,10);
             item_xx(CUP_bipod_VLTOR_Modpod,10);
             item_xx(CUP_optic_AN_PVS_4_M14,10);
             item_xx(CUP_optic_LeupoldMk4_25x50_LRT_Des,10);
@@ -2861,7 +2861,7 @@ class CfgVehicles {
             weap_xx(CUP_launch_FIM92Stinger_Loaded,10);
         };
         class TransportItems {
-            item_xx(CUP_optic_LeupoldMk4_10x40_LRT_Des,10);
+            item_xx(cup_optic_leupoldmk4_10x40_lrt_des,10);
             item_xx(CUP_bipod_VLTOR_Modpod,10);
             item_xx(CUP_optic_AN_PVS_4_M14,10);
             item_xx(CUP_optic_LeupoldMk4_25x50_LRT_Des,10);
