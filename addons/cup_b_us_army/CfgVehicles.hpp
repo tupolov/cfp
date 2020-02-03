@@ -33,7 +33,6 @@ class CfgVehicles {
                 // Add random insignias for Units that have it enabled and the model supports it
                 randomGearProbability = 80;
                 insigniaList[] = {
-                    "MORALE", 0.3,
                     "BLOOD", 0.5
                 };
         };
