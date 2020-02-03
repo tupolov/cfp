@@ -485,12 +485,6 @@
         displayName = "[NATO] Special Operations JTF-Afghanistan";
         texture = "x\cfp\addons\insignia\Core\data\nato\sojtf_afghanistan_ca.paa";
     };
-    class USP_PATCH_NOR_RNAF_132WING_F16: USP_PATCH_BASE
-    {
-        author = "Siege-A";
-        displayName = "[NOR] RNAF 132nd Wing F16";
-        texture = "x\cfp\addons\insignia\Core\data\nor\rnaf_132wing_f16_ca.paa";
-    };
     class USP_PATCH_SYR_FLAG_SHIELD: USP_PATCH_BASE
     {
         author = "Siege-A";
@@ -551,13 +545,6 @@
         displayName = "[UN] United Nations Roundel ALT";
         texture = "x\cfp\addons\insignia\Core\data\un\united_nations_roundel_alt_ca.paa";
     };
-    class USP_PATCH_UZB_NATIONAL_SECURITY: USP_PATCH_BASE
-    {
-        author = "Siege-A";
-        displayName = "[UZB] Uzbekistan National Security";
-        texture = "x\cfp\addons\insignia\Core\data\uzb\national_security_ca.paa";
-    };
-
     class USP_PATCH_BLOOD_ABNEG_BLK: USP_PATCH_BASE
     {
         author = "Siege-A";
