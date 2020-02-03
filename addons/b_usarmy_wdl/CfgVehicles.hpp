@@ -2991,18 +2991,6 @@ class CfgVehicles {
                 "CUP_FR_NeckScarf2", 0.15
             };
 
-            // INSIGNIA
-            insigniaList[] = {
-                "USP_PATCH_USA_ARMY_SF_ODA944", 0.2,
-                "USP_PATCH_USA_ARMY_SF_ODA966", 0.2,
-                "USP_PATCH_USA_ARMY_SF_ODA976", 0.2,
-                "USP_PATCH_USA_ARMY_SF_ODA1223", 0.2,
-                "USP_PATCH_USA_ARMY_SF_ODA1313", 0.2,
-                "USP_PATCH_USA_ARMY_SF_ODA3221", 0.2,
-                "USP_PATCH_USA_ARMY_SF_ODA2081", 0.2,
-                "USP_PATCH_USA_ARMY_SF_ODA3113", 0.2
-            };
-
             // UNIFORMS
             uniformList[] = {
                 "CFP_75th_CRYE_V1b_Full", 0.2,
