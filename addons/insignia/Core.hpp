@@ -228,6 +228,12 @@
         displayName = "[FLAG] Uganda (Shield)";
         texture = "x\cfp\addons\insignia\Core\data\misc\flag\uganda_shield_ca.paa";
     };
+    class USP_PATCH_USA_ARMY_160SOAR_OCP: USP_PATCH_BASE
+    {
+        author = "Siege-A";
+        displayName = "[USA] Army 160th Special Operations Aviation Rgt. (OCP)";
+        texture = "x\cfp\addons\insignia\Core\data\misc\160soar_ocp_ca.paa";
+    };
     class USP_PATCH_FLAG_AFGHANISTAN: USP_PATCH_BASE
     {
         author = "Siege-A";

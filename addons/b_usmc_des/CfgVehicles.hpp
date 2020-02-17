@@ -4744,20 +4744,6 @@ class CfgVehicles {
 
             randomGearProbability = 100;
 
-            insigniaList[] = {
-                "", 0.5,
-                "USP_PATCH_USA_FLAG_USMC", 0.6,
-                "USP_PATCH_USA_FLAG_ABPOS", 0.3,
-                "USP_PATCH_USA_FLAG_BLK", 0.5,
-                "USP_PATCH_USA_FLAG_OCP", 0.5,
-                "USP_PATCH_USA_FLAG_PUNISHER_RED", 0.3,
-                "USP_PATCH_USA_FLAG_REBEL_BLK", 0.3,
-                "USP_PATCH_USA_FLAG_TAN", 0.6,
-                "USP_PATCH_USA_FLAG_TGR", 0.5,
-                "MORALE",0.2,
-                "BLOOD",0.2
-            };
-
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
                 "CUP_H_USMC_LWH_DES",0.5,
@@ -4813,20 +4799,6 @@ class CfgVehicles {
             uniformClass = "CFP_U_FieldUniform_marpat_d";
 
              randomGearProbability = 100;
-
-            insigniaList[] = {
-                "", 0.5,
-                "USP_PATCH_USA_FLAG_USMC", 0.6,
-                "USP_PATCH_USA_FLAG_ABPOS", 0.3,
-                "USP_PATCH_USA_FLAG_BLK", 0.5,
-                "USP_PATCH_USA_FLAG_OCP", 0.5,
-                "USP_PATCH_USA_FLAG_PUNISHER_RED", 0.3,
-                "USP_PATCH_USA_FLAG_REBEL_BLK", 0.3,
-                "USP_PATCH_USA_FLAG_TAN", 0.6,
-                "USP_PATCH_USA_FLAG_TGR", 0.5,
-                "MORALE",0.2,
-                "BLOOD",0.2
-            };
 
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -4884,20 +4856,6 @@ class CfgVehicles {
 
              randomGearProbability = 100;
 
-            insigniaList[] = {
-                "", 0.5,
-                "USP_PATCH_USA_FLAG_USMC", 0.6,
-                "USP_PATCH_USA_FLAG_ABPOS", 0.3,
-                "USP_PATCH_USA_FLAG_BLK", 0.5,
-                "USP_PATCH_USA_FLAG_OCP", 0.5,
-                "USP_PATCH_USA_FLAG_PUNISHER_RED", 0.3,
-                "USP_PATCH_USA_FLAG_REBEL_BLK", 0.3,
-                "USP_PATCH_USA_FLAG_TAN", 0.6,
-                "USP_PATCH_USA_FLAG_TGR", 0.5,
-                "MORALE",0.2,
-                "BLOOD",0.2
-            };
-
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
                 "CUP_H_USMC_LWH_DES",0.5,
@@ -4953,20 +4911,6 @@ class CfgVehicles {
             uniformClass = "CFP_U_FieldUniform_marpat_d";
 
              randomGearProbability = 100;
-
-            insigniaList[] = {
-                "", 0.5,
-                "USP_PATCH_USA_FLAG_USMC", 0.6,
-                "USP_PATCH_USA_FLAG_ABPOS", 0.3,
-                "USP_PATCH_USA_FLAG_BLK", 0.5,
-                "USP_PATCH_USA_FLAG_OCP", 0.5,
-                "USP_PATCH_USA_FLAG_PUNISHER_RED", 0.3,
-                "USP_PATCH_USA_FLAG_REBEL_BLK", 0.3,
-                "USP_PATCH_USA_FLAG_TAN", 0.6,
-                "USP_PATCH_USA_FLAG_TGR", 0.5,
-                "MORALE",0.2,
-                "BLOOD",0.2
-            };
 
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -5024,19 +4968,6 @@ class CfgVehicles {
 
              randomGearProbability = 100;
 
-            insigniaList[] = {
-                "", 0.5,
-                "USP_PATCH_USA_FLAG_USMC", 0.6,
-                "USP_PATCH_USA_FLAG_ABPOS", 0.3,
-                "USP_PATCH_USA_FLAG_BLK", 0.5,
-                "USP_PATCH_USA_FLAG_OCP", 0.5,
-                "USP_PATCH_USA_FLAG_PUNISHER_RED", 0.3,
-                "USP_PATCH_USA_FLAG_REBEL_BLK", 0.3,
-                "USP_PATCH_USA_FLAG_TAN", 0.6,
-                "USP_PATCH_USA_FLAG_TGR", 0.5,
-                "MORALE",0.2,
-                "BLOOD",0.2
-            };
 
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -5094,19 +5025,6 @@ class CfgVehicles {
 
              randomGearProbability = 100;
 
-            insigniaList[] = {
-                "", 0.5,
-                "USP_PATCH_USA_FLAG_USMC", 0.6,
-                "USP_PATCH_USA_FLAG_ABPOS", 0.3,
-                "USP_PATCH_USA_FLAG_BLK", 0.5,
-                "USP_PATCH_USA_FLAG_OCP", 0.5,
-                "USP_PATCH_USA_FLAG_PUNISHER_RED", 0.3,
-                "USP_PATCH_USA_FLAG_REBEL_BLK", 0.3,
-                "USP_PATCH_USA_FLAG_TAN", 0.6,
-                "USP_PATCH_USA_FLAG_TGR", 0.5,
-                "MORALE",0.2,
-                "BLOOD",0.2
-            };
 
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -5164,19 +5082,6 @@ class CfgVehicles {
 
              randomGearProbability = 100;
 
-            insigniaList[] = {
-                "", 0.5,
-                "USP_PATCH_USA_FLAG_USMC", 0.6,
-                "USP_PATCH_USA_FLAG_ABPOS", 0.3,
-                "USP_PATCH_USA_FLAG_BLK", 0.5,
-                "USP_PATCH_USA_FLAG_OCP", 0.5,
-                "USP_PATCH_USA_FLAG_PUNISHER_RED", 0.3,
-                "USP_PATCH_USA_FLAG_REBEL_BLK", 0.3,
-                "USP_PATCH_USA_FLAG_TAN", 0.6,
-                "USP_PATCH_USA_FLAG_TGR", 0.5,
-                "MORALE",0.2,
-                "BLOOD",0.2
-            };
 
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -5234,19 +5139,6 @@ class CfgVehicles {
 
              randomGearProbability = 100;
 
-            insigniaList[] = {
-                "", 0.5,
-                "USP_PATCH_USA_FLAG_USMC", 0.6,
-                "USP_PATCH_USA_FLAG_ABPOS", 0.3,
-                "USP_PATCH_USA_FLAG_BLK", 0.5,
-                "USP_PATCH_USA_FLAG_OCP", 0.5,
-                "USP_PATCH_USA_FLAG_PUNISHER_RED", 0.3,
-                "USP_PATCH_USA_FLAG_REBEL_BLK", 0.3,
-                "USP_PATCH_USA_FLAG_TAN", 0.6,
-                "USP_PATCH_USA_FLAG_TGR", 0.5,
-                "MORALE",0.2,
-                "BLOOD",0.2
-            };
 
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -5304,19 +5196,6 @@ class CfgVehicles {
 
              randomGearProbability = 100;
 
-            insigniaList[] = {
-                "", 0.5,
-                "USP_PATCH_USA_FLAG_USMC", 0.6,
-                "USP_PATCH_USA_FLAG_ABPOS", 0.3,
-                "USP_PATCH_USA_FLAG_BLK", 0.5,
-                "USP_PATCH_USA_FLAG_OCP", 0.5,
-                "USP_PATCH_USA_FLAG_PUNISHER_RED", 0.3,
-                "USP_PATCH_USA_FLAG_REBEL_BLK", 0.3,
-                "USP_PATCH_USA_FLAG_TAN", 0.6,
-                "USP_PATCH_USA_FLAG_TGR", 0.5,
-                "MORALE",0.2,
-                "BLOOD",0.2
-            };
 
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -5374,19 +5253,6 @@ class CfgVehicles {
 
              randomGearProbability = 100;
 
-            insigniaList[] = {
-                "", 0.5,
-                "USP_PATCH_USA_FLAG_USMC", 0.6,
-                "USP_PATCH_USA_FLAG_ABPOS", 0.3,
-                "USP_PATCH_USA_FLAG_BLK", 0.5,
-                "USP_PATCH_USA_FLAG_OCP", 0.5,
-                "USP_PATCH_USA_FLAG_PUNISHER_RED", 0.3,
-                "USP_PATCH_USA_FLAG_REBEL_BLK", 0.3,
-                "USP_PATCH_USA_FLAG_TAN", 0.6,
-                "USP_PATCH_USA_FLAG_TGR", 0.5,
-                "MORALE",0.2,
-                "BLOOD",0.2
-            };
 
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -5444,19 +5310,6 @@ class CfgVehicles {
 
              randomGearProbability = 100;
 
-            insigniaList[] = {
-                "", 0.5,
-                "USP_PATCH_USA_FLAG_USMC", 0.6,
-                "USP_PATCH_USA_FLAG_ABPOS", 0.3,
-                "USP_PATCH_USA_FLAG_BLK", 0.5,
-                "USP_PATCH_USA_FLAG_OCP", 0.5,
-                "USP_PATCH_USA_FLAG_PUNISHER_RED", 0.3,
-                "USP_PATCH_USA_FLAG_REBEL_BLK", 0.3,
-                "USP_PATCH_USA_FLAG_TAN", 0.6,
-                "USP_PATCH_USA_FLAG_TGR", 0.5,
-                "MORALE",0.2,
-                "BLOOD",0.2
-            };
 
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -5514,19 +5367,6 @@ class CfgVehicles {
 
              randomGearProbability = 100;
 
-            insigniaList[] = {
-                "", 0.5,
-                "USP_PATCH_USA_FLAG_USMC", 0.6,
-                "USP_PATCH_USA_FLAG_ABPOS", 0.3,
-                "USP_PATCH_USA_FLAG_BLK", 0.5,
-                "USP_PATCH_USA_FLAG_OCP", 0.5,
-                "USP_PATCH_USA_FLAG_PUNISHER_RED", 0.3,
-                "USP_PATCH_USA_FLAG_REBEL_BLK", 0.3,
-                "USP_PATCH_USA_FLAG_TAN", 0.6,
-                "USP_PATCH_USA_FLAG_TGR", 0.5,
-                "MORALE",0.2,
-                "BLOOD",0.2
-            };
 
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -5584,19 +5424,6 @@ class CfgVehicles {
 
              randomGearProbability = 100;
 
-            insigniaList[] = {
-                "", 0.5,
-                "USP_PATCH_USA_FLAG_USMC", 0.6,
-                "USP_PATCH_USA_FLAG_ABPOS", 0.3,
-                "USP_PATCH_USA_FLAG_BLK", 0.5,
-                "USP_PATCH_USA_FLAG_OCP", 0.5,
-                "USP_PATCH_USA_FLAG_PUNISHER_RED", 0.3,
-                "USP_PATCH_USA_FLAG_REBEL_BLK", 0.3,
-                "USP_PATCH_USA_FLAG_TAN", 0.6,
-                "USP_PATCH_USA_FLAG_TGR", 0.5,
-                "MORALE",0.2,
-                "BLOOD",0.2
-            };
 
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -5654,19 +5481,6 @@ class CfgVehicles {
 
              randomGearProbability = 100;
 
-            insigniaList[] = {
-                "", 0.5,
-                "USP_PATCH_USA_FLAG_USMC", 0.6,
-                "USP_PATCH_USA_FLAG_ABPOS", 0.3,
-                "USP_PATCH_USA_FLAG_BLK", 0.5,
-                "USP_PATCH_USA_FLAG_OCP", 0.5,
-                "USP_PATCH_USA_FLAG_PUNISHER_RED", 0.3,
-                "USP_PATCH_USA_FLAG_REBEL_BLK", 0.3,
-                "USP_PATCH_USA_FLAG_TAN", 0.6,
-                "USP_PATCH_USA_FLAG_TGR", 0.5,
-                "MORALE",0.2,
-                "BLOOD",0.2
-            };
 
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -5724,19 +5538,6 @@ class CfgVehicles {
 
              randomGearProbability = 100;
 
-            insigniaList[] = {
-                "", 0.5,
-                "USP_PATCH_USA_FLAG_USMC", 0.6,
-                "USP_PATCH_USA_FLAG_ABPOS", 0.3,
-                "USP_PATCH_USA_FLAG_BLK", 0.5,
-                "USP_PATCH_USA_FLAG_OCP", 0.5,
-                "USP_PATCH_USA_FLAG_PUNISHER_RED", 0.3,
-                "USP_PATCH_USA_FLAG_REBEL_BLK", 0.3,
-                "USP_PATCH_USA_FLAG_TAN", 0.6,
-                "USP_PATCH_USA_FLAG_TGR", 0.5,
-                "MORALE",0.2,
-                "BLOOD",0.2
-            };
 
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -5942,19 +5743,6 @@ class CfgVehicles {
 
              randomGearProbability = 100;
 
-            insigniaList[] = {
-                "", 0.5,
-                "USP_PATCH_USA_FLAG_USMC", 0.6,
-                "USP_PATCH_USA_FLAG_ABPOS", 0.3,
-                "USP_PATCH_USA_FLAG_BLK", 0.5,
-                "USP_PATCH_USA_FLAG_OCP", 0.5,
-                "USP_PATCH_USA_FLAG_PUNISHER_RED", 0.3,
-                "USP_PATCH_USA_FLAG_REBEL_BLK", 0.3,
-                "USP_PATCH_USA_FLAG_TAN", 0.6,
-                "USP_PATCH_USA_FLAG_TGR", 0.5,
-                "MORALE",0.2,
-                "BLOOD",0.2
-            };
 
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -6013,19 +5801,6 @@ class CfgVehicles {
 
              randomGearProbability = 100;
 
-            insigniaList[] = {
-                "", 0.5,
-                "USP_PATCH_USA_FLAG_USMC", 0.6,
-                "USP_PATCH_USA_FLAG_ABPOS", 0.3,
-                "USP_PATCH_USA_FLAG_BLK", 0.5,
-                "USP_PATCH_USA_FLAG_OCP", 0.5,
-                "USP_PATCH_USA_FLAG_PUNISHER_RED", 0.3,
-                "USP_PATCH_USA_FLAG_REBEL_BLK", 0.3,
-                "USP_PATCH_USA_FLAG_TAN", 0.6,
-                "USP_PATCH_USA_FLAG_TGR", 0.5,
-                "MORALE",0.2,
-                "BLOOD",0.2
-            };
 
             headgearList[] = {
                 "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
@@ -6084,11 +5859,11 @@ class CfgVehicles {
 
         weapons[] = {"CUP_smg_MP5A5","CUP_hgun_Colt1911","Throw","Put"};
         respawnWeapons[] = {"CUP_smg_MP5A5","CUP_hgun_Colt1911","Throw","Put"};
-        linkedItems[] = {"CUP_V_B_PilotVest","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        linkedItems[] = {"CUP_V_B_PilotVest","H_PilotHelmetHeli_B","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         respawnLinkedItems[] = {"CUP_V_B_PilotVest","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {"CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911"};
         respawnMagazines[] = {"CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_30Rnd_9x19_MP5","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_smg_MP5A5","","","",{"CUP_30Rnd_9x19_MP5",30},{},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_USMC_PilotOverall",{{"FirstAidKit",1},{"CUP_30Rnd_9x19_MP5",2,30}}},{"CUP_V_B_PilotVest",{{"CUP_30Rnd_9x19_MP5",3,30},{"SmokeShellRed",1,1},{"SmokeShellGreen",1,1},{"CUP_7Rnd_45ACP_1911",2,7}}},{},"CUP_H_USMC_LWH_ESS_DES","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_smg_MP5A5","","","",{"CUP_30Rnd_9x19_MP5",30},{},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CUP_U_B_USMC_PilotOverall",{{"FirstAidKit",1},{"CUP_30Rnd_9x19_MP5",2,30}}},{"CUP_V_B_PilotVest",{{"CUP_30Rnd_9x19_MP5",3,30},{"SmokeShellRed",1,1},{"SmokeShellGreen",1,1},{"CUP_7Rnd_45ACP_1911",2,7}}},{},"H_PilotHelmetHeli_B","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 
@@ -6120,32 +5895,6 @@ class CfgVehicles {
 
              randomGearProbability = 100;
 
-            insigniaList[] = {
-                "", 0.5,
-                "USP_PATCH_USA_FLAG_USMC", 0.6,
-                "USP_PATCH_USA_FLAG_ABPOS", 0.3,
-                "USP_PATCH_USA_FLAG_BLK", 0.5,
-                "USP_PATCH_USA_FLAG_OCP", 0.5,
-                "USP_PATCH_USA_FLAG_PUNISHER_RED", 0.3,
-                "USP_PATCH_USA_FLAG_REBEL_BLK", 0.3,
-                "USP_PATCH_USA_FLAG_TAN", 0.6,
-                "USP_PATCH_USA_FLAG_TGR", 0.5,
-                "MORALE",0.2,
-                "BLOOD",0.2
-            };
-
-            headgearList[] = {
-                "CUP_H_USMC_LWH_NVGMOUNT_DES",0.5,
-                "CUP_H_USMC_LWH_DES",0.5,
-                "CUP_H_USMC_LWH_NVGMOUNT_ESS_HS_DES",0.5,
-                "CUP_H_USMC_LWH_ESS_HS_DES",0.5,
-                "CUP_H_USMC_LWH_NVGMOUNT_ESS_DES",0.5,
-                "CUP_H_USMC_LWH_ESS_DES",0.5,
-                "CUP_H_USMC_LWH_NVGMOUNT_ESS_LR_DES",0.5,
-                "CUP_H_USMC_LWH_ESS_LR_DES",0.5,
-                "CUP_H_USMC_BOONIE_DES",0.1,
-                "CUP_H_USMC_BOONIE_PRR_DES",0.1
-            };
             uniformList[] = {
                 "CFP_U_FieldUniform_marpat_d", 0.5,
                 "CFP_U_FieldUniform_marpat_d_SS", 0.5
@@ -6154,11 +5903,11 @@ class CfgVehicles {
 
         weapons[] = {"CUP_arifle_M4A1","CUP_hgun_Colt1911","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_M4A1","CUP_hgun_Colt1911","Throw","Put"};
-        linkedItems[] = {"CUP_V_B_MTV","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
+        linkedItems[] = {"CUP_V_B_MTV","H_HelmetCrew_I","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         respawnLinkedItems[] = {"CUP_V_B_MTV","CUP_H_USMC_LWH_ESS_DES","ItemMap","","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911","CUP_7Rnd_45ACP_1911"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30}}},{"CUP_V_B_MTV",{{"CUP_30Rnd_556x45_Stanag",2,30},{"CUP_7Rnd_45ACP_1911",2,7},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},{},"CUP_H_USMC_LWH_ESS_DES","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Colt1911","","","",{"CUP_7Rnd_45ACP_1911",7},{},""},{"CFP_U_FieldUniform_marpat_d",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30}}},{"CUP_V_B_MTV",{{"CUP_30Rnd_556x45_Stanag",2,30},{"CUP_7Rnd_45ACP_1911",2,7},{"SmokeShell",1,1},{"SmokeShellRed",1,1}}},{},"H_HelmetCrew_I","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
 

@@ -419,3 +419,11 @@ class CFP_Beret_Iraq_RG_Red : CFP_Beret2_RedANA
     displayName = "Iraq Republican Guard Beret (Red)";
 	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\iraq_beret_red_co.paa"};
 };
+
+//Malden Beret
+
+class CFP_Beret_MPF: CFP_Beret2_RedANA
+{
+	displayName  = "Beret (Malden Police Force)";
+	hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Beret2\MPF.paa"};
+};

@@ -60,6 +60,20 @@
 		};
 	};
 
+	class CFP_BDU_MPF: CFP_BDU_ANP2
+	{
+		displayName = "BDU (Malden Police Force)";
+		vehicleClass = "CFP_BDU_MPF";
+		uniformClass = "CFP_BDU_MPF";
+		hiddenSelections[] = {"Camo1","Camo2","Camo3","Camo4","Flag","Insignia"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\BDU\camo\US_BDU_MPF_CO.paa",
+		"\x\cfp\addons\uniforms\BDU\camo\US_BDU_MPF_CO.paa",
+		"\x\cfp\addons\uniforms\BDU\camo\US_BDU_MPF_CO.paa",
+		"\x\cfp\addons\uniforms\BDU\camo\US_BDU_MPF_CO.paa",
+		"\x\cfp\addons\uniforms\BDU\camo\MPF_FLAG_CO.paa",
+		"\x\cfp\addons\uniforms\BDU\camo\MPF_SHIELD_CO.paa"};
+	};
+
 	class CFP_BDU_IA_Desert: CFP_BDU_ANP
 	{
 		displayName = "BDU (Iraqi Army Choc Chip)";

@@ -34,6 +34,19 @@
 		};
 	};
 
+	class CFP_BDU_MPF : CFP_BDU_ANP2
+	{
+		displayname = "BDU (Malden Police Force)";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_u_BDUv2_roll.p3d";
+			uniformClass = "CFP_BDU_MPF";
+			containerClass="Supply60";
+			mass=20;
+		};
+	};
+
 	class CFP_BDU_IA_Desert : CFP_BDU_ANP
 	{
 		displayname = "BDU (Choc Chip Iraqi Army)";
