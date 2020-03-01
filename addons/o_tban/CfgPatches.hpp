@@ -44,7 +44,17 @@ class CfgPatches {
             "CFP_O_TBAN_BMP_2K_01",
             "CFP_O_TBAN_BTR_40_DShKM_01",
             "CFP_O_TBAN_BMP_2ZU_23_01",
-            "CFP_O_TBAN_AA_Specialist_01"
+            "CFP_O_TBAN_AA_Specialist_01",
+            "CFP_O_TBAN_Hilux_01",
+            "CFP_O_TBAN_Hilux_DShKM_01",
+            "CFP_O_TBAN_Hilux_SPG_01",
+            "CFP_O_TBAN_Hilux_Igla_01",
+            "CFP_O_TBAN_Hilux_Metis_01",
+            "CFP_O_TBAN_Hilux_Podnos_01",
+            "CFP_O_TBAN_Hilux_MLRS_01",
+            "CFP_O_TBAN_Hilux_ZU_23_01",
+            "CFP_O_TBAN_Hilux_AGS_30_01",
+            "CFP_O_TBAN_Hilux_UB_32_01"
         };
         weapons[] = {};
         requiredAddons[] = {
@@ -55,6 +65,7 @@ class CfgPatches {
             "A3_Soft_F_Gamma_Van_01",
             "A3_Soft_F_Bootcamp_Van_01",
             "CUP_WheeledVehicles_Ural",
+            "CUP_WheeledVehicles_Hilux",
             "CUP_TrackedVehicles_BMP",
             "CUP_TrackedVehicles_MTLB",
             "CUP_TrackedVehicles_T55",
