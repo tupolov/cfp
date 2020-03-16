@@ -30,7 +30,17 @@ class CfgPatches {
             "CFP_O_BH_Podnos_2B14_01",
             "CFP_O_BH_D30_AT_01",
             "CFP_O_BH_ZU_23_01",
-            "CFP_O_BH_Offroad_AT_01"
+            "CFP_O_BH_Offroad_AT_01",
+            "CFP_O_BH_Hilux_01",
+            "CFP_O_BH_Hilux_DShKM_01",
+            "CFP_O_BH_Hilux_SPG_01",
+            "CFP_O_BH_Hilux_Igla_01",
+            "CFP_O_BH_Hilux_Metis_01",
+            "CFP_O_BH_Hilux_Podnos_01",
+            "CFP_O_BH_Hilux_MLRS_01",
+            "CFP_O_BH_Hilux_ZU_23_01",
+            "CFP_O_BH_Hilux_AGS_30_01",
+            "CFP_O_BH_Hilux_UB_32_01"
         };
         weapons[] = {};
         requiredAddons[] = {
@@ -38,6 +48,7 @@ class CfgPatches {
             "CUP_WheeledVehicles_Datsun",
             "CUP_WheeledVehicles_LR",
             "CUP_WheeledVehicles_HMMWV",
+            "CUP_WheeledVehicles_Hilux",
             "CUP_WheeledVehicles_Ural",
             "A3_Soft_F_Offroad_01"
         };
