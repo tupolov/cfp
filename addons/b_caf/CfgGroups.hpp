@@ -410,7 +410,7 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_CAF_Technical_Unarmed_01";
+                        vehicle = "CFP_B_CAF_Hilux_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
@@ -517,7 +517,7 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_CAF_Technical_Unarmed_01";
+                        vehicle = "CFP_B_CAF_Hilux_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
@@ -592,7 +592,7 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_CAF_Technical_Unarmed_01";
+                        vehicle = "CFP_B_CAF_Hilux_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
@@ -716,6 +716,81 @@ class CfgGroups {
                         rank = "SERGEANT";
                         side = 1;
                         vehicle = "CFP_B_CAF_BTR_60_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_CAF_Squad_Leader_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_CAF_Grenadier_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_CAF_Rifleman_AT_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_CAF_Machine_Gunner_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_CAF_Medic_01";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_CAF_Explosive_Specialist_01";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_CAF_Rifleman_01";
+                    };
+                    class Unit8 {
+                        position[] = {-20,-20,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_CAF_Rifleman_01";
+                    };
+                    class Unit9 {
+                        position[] = {25,-25,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_CAF_Rifleman_01";
+                    };
+                    class Unit10 {
+                        position[] = {-25,-25,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_CAF_Rifleman_01";
+                    };
+                };
+
+                class cfp_b_caf_mechanized_mechanized_squad_btr_80 {
+                    name = "Mechanized Squad [BTR-80]";
+                    side = 1;
+                    faction = "CFP_B_CAF";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CFP_B_CAF_BTR_80_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
