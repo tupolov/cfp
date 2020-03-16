@@ -610,9 +610,9 @@
 		weaponPoolAvailable = 1;
 		displayName = "PASGT Helmet (Tiger 1)";
 		//
-		model = "\x\cfp\addons\models\PASGTHelmet1";
+		model = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\Tiger.paa"};
-		hiddenSelections[] = {"Camo"};
+		hiddenSelections[] = {"camo", "Goggle_Glass", "Goggle_ESS", "Cover_Front", "Cover_Back"};
 		author = "CFP";
 
 
@@ -620,13 +620,13 @@
 		class ItemInfo: HeadgearItem
 		{
 			mass = 20;
-			uniformmodel = "\x\cfp\addons\models\PASGTHelmet1";
+			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
 			HITPOINTS_HEAD(10,0.30)
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\Tiger.paa"};
-			hiddenSelections[] = {"Camo"};
+			hiddenSelections[] = {"camo", "Goggle_Glass", "Goggle_ESS", "Cover_Front", "Cover_Back"};
 		};
 	};
 
@@ -638,9 +638,9 @@
 		weaponPoolAvailable = 1;
 		displayName = "PASGT Helmet (Tiger 2)";
 		//
-		model = "\x\cfp\addons\models\PASGTHelmet1";
+		model = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
+		hiddenSelections[] = {"camo", "NVG_mount", "LWH_chinstrap", "Goggle_Glass", "Goggle_ESS", "Cover_Front", "Cover_Back"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\Tiger.paa"};
-		hiddenSelections[] = {"Camo"};
 		author = "CFP";
 
 
@@ -648,13 +648,13 @@
 		class ItemInfo: HeadgearItem
 		{
 			mass = 20;
-			uniformmodel = "\x\cfp\addons\models\PASGTHelmet2";
+			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
 			HITPOINTS_HEAD(10,0.30)
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\Tiger.paa"};
-			hiddenSelections[] = {"Camo"};
+			hiddenSelections[] = {"camo", "NVG_mount", "Cover_Front", "Cover_Back"};
 		};
 	};
 
@@ -834,9 +834,9 @@
 		weaponPoolAvailable = 1;
 		displayName = "PASGT Helmet (Iraqi Police DPM)";
 		//
-		model = "\x\cfp\addons\models\PASGTHelmet1";
+		model = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
+		hiddenSelections[] = {"camo", "NVG_mount", "Goggle_Glass", "Goggle_ESS", "Cover_Front", "Cover_Back"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\IPDPM.paa"};
-		hiddenSelections[] = {"Camo"};
 		author = "CFP";
 
 
@@ -844,13 +844,13 @@
 		class ItemInfo: HeadgearItem
 		{
 			mass = 20;
-			uniformmodel = "\x\cfp\addons\models\PASGTHelmet1";
+			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
 			HITPOINTS_HEAD(10,0.30)
+			hiddenSelections[] = {"camo", "NVG_mount", "Goggle_Glass", "Goggle_ESS", "Cover_Front", "Cover_Back"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\IPDPM.paa"};
-			hiddenSelections[] = {"Camo"};
 		};
 	};
 
@@ -862,9 +862,9 @@
 		weaponPoolAvailable = 1;
 		displayName = "PASGT Helmet (Iraqi Police DPM 2)";
 		//
-		model = "\x\cfp\addons\models\PASGTHelmet1";
+		model = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
+		hiddenSelections[] = {"camo", "NVG_mount", "LWH_chinstrap", "Goggle_Glass", "Goggle_ESS", "Cover_Front", "Cover_Back"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\IPDPM.paa"};
-		hiddenSelections[] = {"Camo"};
 		author = "CFP";
 
 
@@ -872,13 +872,13 @@
 		class ItemInfo: HeadgearItem
 		{
 			mass = 20;
-			uniformmodel = "\x\cfp\addons\models\PASGTHelmet2";
+			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
 			HITPOINTS_HEAD(10,0.30)
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\IPDPM.paa"};
-			hiddenSelections[] = {"Camo"};
+			hiddenSelections[] = {"camo", "NVG_mount", "LWH_chinstrap", "Cover_Front", "Cover_Back"};
 		};
 	};
 
@@ -890,9 +890,9 @@
 		weaponPoolAvailable = 1;
 		displayName = "PASGT Helmet (Iraqi Police Digital)";
 		//
-		model = "\x\cfp\addons\models\PASGTHelmet1";
+		model = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
+		hiddenSelections[] = {"camo", "NVG_mount", "Goggle_Glass", "Goggle_ESS", "Cover_Front", "Cover_Back"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\IPDigital.paa"};
-		hiddenSelections[] = {"Camo"};
 		author = "CFP";
 
 
@@ -900,13 +900,13 @@
 		class ItemInfo: HeadgearItem
 		{
 			mass = 20;
-			uniformmodel = "\x\cfp\addons\models\PASGTHelmet1";
+			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
 			HITPOINTS_HEAD(10,0.30)
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\IPDigital.paa"};
-			hiddenSelections[] = {"Camo"};
+			hiddenSelections[] = {"camo", "NVG_mount", "Goggle_Glass", "Goggle_ESS", "Cover_Front", "Cover_Back"};
 		};
 	};
 
@@ -918,9 +918,9 @@
 		weaponPoolAvailable = 1;
 		displayName = "PASGT Helmet (Iraqi Police Digital 2)";
 		//
-		model = "\x\cfp\addons\models\PASGTHelmet1";
+		model = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
+		hiddenSelections[] = {"camo", "NVG_mount", "LWH_chinstrap", "Goggle_Glass", "Goggle_ESS", "Cover_Front", "Cover_Back"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\IPDigital.paa"};
-		hiddenSelections[] = {"Camo"};
 		author = "CFP";
 
 
@@ -928,13 +928,13 @@
 		class ItemInfo: HeadgearItem
 		{
 			mass = 20;
-			uniformmodel = "\x\cfp\addons\models\PASGTHelmet2";
+			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
 			HITPOINTS_HEAD(10,0.30)
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\IPDigital.paa"};
-			hiddenSelections[] = {"Camo"};
+			hiddenSelections[] = {"camo", "NVG_mount", "LWH_chinstrap", "Cover_Front", "Cover_Back"};
 		};
 	};
 
@@ -1157,9 +1157,9 @@
 		weaponPoolAvailable = 1;
 		displayName = "PASGT Helmet (ERDL 1)";
 		//
-		model = "\x\cfp\addons\models\PASGTHelmet1";
+		model = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\EDRL.paa"};
-		hiddenSelections[] = {"Camo"};
+		hiddenSelections[] = {"camo", "Goggle_Glass", "Goggle_ESS", "Cover_Front", "Cover_Back"};
 		author = "CFP";
 
 
@@ -1167,13 +1167,13 @@
 		class ItemInfo: HeadgearItem
 		{
 			mass = 20;
-			uniformmodel = "\x\cfp\addons\models\PASGTHelmet1";
+			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
 			HITPOINTS_HEAD(10,0.30)
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\EDRL.paa"};
-			hiddenSelections[] = {"Camo"};
+			hiddenSelections[] = {"camo", "Goggle_Glass", "Goggle_ESS", "Cover_Front", "Cover_Back"};
 		};
 	};
 
@@ -1185,9 +1185,9 @@
 		weaponPoolAvailable = 1;
 		displayName = "PASGT Helmet (ERDL 2)";
 		//
-		model = "\x\cfp\addons\models\PASGTHelmet1";
+		model = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
+		hiddenSelections[] = {"camo", "NVG_mount", "LWH_chinstrap", "Goggle_Glass", "Goggle_ESS", "Cover_Front", "Cover_Back"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\EDRL.paa"};
-		hiddenSelections[] = {"Camo"};
 		author = "CFP";
 
 
@@ -1195,13 +1195,13 @@
 		class ItemInfo: HeadgearItem
 		{
 			mass = 20;
-			uniformmodel = "\x\cfp\addons\models\PASGTHelmet2";
+			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
 			HITPOINTS_HEAD(10,0.30)
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\EDRL.paa"};
-			hiddenSelections[] = {"Camo"};
+			hiddenSelections[] = {"camo", "NVG_mount", "Cover_Front", "Cover_Back"};
 		};
 	};
 
@@ -1213,9 +1213,9 @@
 		weaponPoolAvailable = 1;
 		displayName = "PASGT Helmet (UPDF SF 1)";
 		//
-		model = "\x\cfp\addons\models\PASGTHelmet1";
+		model = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\SFUPDF.paa"};
-		hiddenSelections[] = {"Camo"};
+		hiddenSelections[] = {"camo", "Goggle_Glass", "Goggle_ESS", "Cover_Front", "Cover_Back"};
 		author = "CFP";
 
 
@@ -1223,13 +1223,13 @@
 		class ItemInfo: HeadgearItem
 		{
 			mass = 20;
-			uniformmodel = "\x\cfp\addons\models\PASGTHelmet1";
+			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
 			HITPOINTS_HEAD(10,0.30)
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\SFUPDF.paa"};
-			hiddenSelections[] = {"Camo"};
+			hiddenSelections[] = {"camo", "Goggle_Glass", "Goggle_ESS", "Cover_Front", "Cover_Back"};
 		};
 	};
 
@@ -1241,9 +1241,9 @@
 		weaponPoolAvailable = 1;
 		displayName = "PASGT Helmet (UPDF SF 2)";
 		//
-		model = "\x\cfp\addons\models\PASGTHelmet1";
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\SFUPDF.paa"};
-		hiddenSelections[] = {"Camo"};
+		model = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\SFUPDF.paa","\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\data\new_usmc_gear3_tan_co.paa"};
+		hiddenSelections[] = {"camo", "NVG_mount", "LWH_chinstrap", "Goggle_Glass", "Goggle_ESS", "Cover_Front", "Cover_Back"};
 		author = "CFP";
 
 
@@ -1251,13 +1251,13 @@
 		class ItemInfo: HeadgearItem
 		{
 			mass = 20;
-			uniformmodel = "\x\cfp\addons\models\PASGTHelmet2";
+			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
 			HITPOINTS_HEAD(10,0.30)
-			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\SFUPDF.paa"};
-			hiddenSelections[] = {"Camo"};
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\SFUPDF.paa","\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\data\new_usmc_gear3_tan_co.paa"};
+			hiddenSelections[] = {"camo", "NVG_mount", "LWH_chinstrap", "Cover_Front", "Cover_Back"};
 		};
 	};
 
