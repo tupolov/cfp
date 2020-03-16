@@ -25,7 +25,17 @@ class CfgPatches {
             "CFP_O_ALQAEDA_Truck_01",
             "CFP_O_ALQAEDA_Offroad_01",
             "CFP_O_ALQAEDA_Offroad_M2_01",
-            "CFP_O_ALQAEDA_Ural_Open_01"
+            "CFP_O_ALQAEDA_Ural_Open_01",
+            "CFP_O_ALQAEDA_Hilux_01",
+            "CFP_O_ALQAEDA_Hilux_DShKM_01",
+            "CFP_O_ALQAEDA_Hilux_SPG_01",
+            "CFP_O_ALQAEDA_Hilux_Igla_01",
+            "CFP_O_ALQAEDA_Hilux_Metis_01",
+            "CFP_O_ALQAEDA_Hilux_Podnos_01",
+            "CFP_O_ALQAEDA_Hilux_MLRS_01",
+            "CFP_O_ALQAEDA_Hilux_ZU_23_01",
+            "CFP_O_ALQAEDA_Hilux_AGS_30_01",
+            "CFP_O_ALQAEDA_Hilux_UB_32_01"
         };
         weapons[] = {};
         requiredAddons[] = {
@@ -34,6 +44,7 @@ class CfgPatches {
             "CUP_Weapons_StaticWeapons",
             "cfp_vehicles",
             "CUP_WheeledVehicles_Datsun",
+            "CUP_WheeledVehicles_Hilux",
             "A3_Soft_F_Gamma_Van_01",
             "A3_Soft_F_Offroad_01",
             "CUP_WheeledVehicles_Ural"
