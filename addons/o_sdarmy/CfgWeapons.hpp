@@ -24,21 +24,21 @@ class cfgWeapons
         weaponPoolAvailable = 1;
         displayName = "PASGT Helmet (Sudanese Arid Digital)";
         //
-        model = "\x\cfp\addons\models\PASGTHelmet1";
+        model = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
+        hiddenSelections[] = {"camo", "NVG_mount", "Goggle_Glass", "Goggle_ESS", "Cover_Front", "Cover_Back"};
         hiddenSelectionsTextures[] = {"\x\cfp\addons\o_sdarmy\Data\PASGT_Sudan_Digital.paa"};
-        hiddenSelections[] = {"Camo"};
-        author = "Archduke";
+        author = "CFP";
 
         class ItemInfo: HeadgearItem
         {
             mass = 60;
-            uniformmodel = "\x\cfp\addons\models\PASGTHelmet1";
+            uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
             modelSides[] = {3,1};
             armor = 10;
             passThrough = 0.30;
             HITPOINTS_HEAD(10,0.30)
             hiddenSelectionsTextures[] = {"\x\cfp\addons\o_sdarmy\Data\PASGT_Sudan_Digital.paa"};
-            hiddenSelections[] = {"Camo"};
+            hiddenSelections[] = {"camo", "NVG_mount", "Goggle_Glass", "Goggle_ESS", "Cover_Front", "Cover_Back"};
         };
     };
     class CFP_PASGTHelmet_Sudan_02 : ItemCore
@@ -52,7 +52,7 @@ class cfgWeapons
         model = "\x\cfp\addons\models\PASGTHelmet1";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\o_sdarmy\Data\PASGT_Sudan_Brown.paa"};
         hiddenSelections[] = {"Camo"};
-        author = "Archduke";
+        author = "CFP";
 
 
 
@@ -79,7 +79,7 @@ class cfgWeapons
         model = "\x\cfp\addons\models\PASGTHelmet1";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\o_sdarmy\Data\PASGT_Sudan_Pixel.paa"};
         hiddenSelections[] = {"Camo"};
-        author = "Archduke";
+        author = "CFP";
 
 
 
@@ -106,7 +106,7 @@ class cfgWeapons
         model = "\x\cfp\addons\models\PASGTHelmet1";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\o_sdarmy\Data\PASGT_Sudan_Leaf.paa"};
         hiddenSelections[] = {"Camo"};
-        author = "Archduke";
+        author = "CFP";
 
 
 
@@ -133,7 +133,7 @@ class cfgWeapons
         model = "\x\cfp\addons\models\PASGTHelmet1";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\o_sdarmy\Data\PASGT_Sudan_Sword.paa"};
         hiddenSelections[] = {"Camo"};
-        author = "Archduke";
+        author = "CFP";
 
 
 
@@ -157,23 +157,23 @@ class cfgWeapons
         weaponPoolAvailable = 1;
         displayName = "PASGT Helmet (Sudanese Desert Variant)";
         //
-        model = "\x\cfp\addons\models\PASGTHelmet1";
+        model = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
+        hiddenSelections[] = {"camo", "NVG_mount", "Goggle_Glass", "Goggle_ESS", "Cover_Front", "Cover_Back"};
         hiddenSelectionsTextures[] = {"\x\cfp\addons\o_sdarmy\Data\PASGT_Sudan_Sword2.paa"};
-        hiddenSelections[] = {"Camo"};
-        author = "Archduke";
+        author = "CFP";
 
 
 
         class ItemInfo: HeadgearItem
         {
             mass = 60;
-            uniformmodel = "\x\cfp\addons\models\PASGTHelmet1";
+            uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
             modelSides[] = {3,1};
             armor = 10;
             passThrough = 0.30;
             HITPOINTS_HEAD(10,0.30)
             hiddenSelectionsTextures[] = {"\x\cfp\addons\o_sdarmy\Data\PASGT_Sudan_Sword2.paa"};
-            hiddenSelections[] = {"Camo"};
+            hiddenSelections[] = {"camo", "NVG_mount", "Goggle_Glass", "Goggle_ESS", "Cover_Front", "Cover_Back"};
         };
     };
     class CFP_Cap_Sudan_01 : ItemCore
@@ -182,7 +182,7 @@ class cfgWeapons
         scope=2;
         scopeArsenal=2;
         dlc="CFP_Sudan";
-        author="Archduke";
+        author="CFP";
         displayName="Patrol Cap (Sudanese Arid Digital)";
 
         model="\x\cfp\addons\models\PatrolCap";
@@ -225,7 +225,7 @@ class cfgWeapons
         scope=2;
         scopeArsenal=2;
         dlc="CFP_Sudan";
-        author="Archduke";
+        author="CFP";
         displayName="Patrol Cap (Sudanese Brown Digital)";
 
         model="\x\cfp\addons\models\PatrolCap";
@@ -268,7 +268,7 @@ class cfgWeapons
         scope=2;
         scopeArsenal=2;
         dlc="CFP_Sudan";
-        author="Archduke";
+        author="CFP";
         displayName="Patrol Cap (Sudanese RSF)";
 
         model="\x\cfp\addons\models\PatrolCap";
@@ -311,7 +311,7 @@ class cfgWeapons
         scope=2;
         scopeArsenal=2;
         dlc="CFP_Sudan";
-        author="Archduke";
+        author="CFP";
         displayName="Patrol Cap (Sudanese Pixel)";
 
         model="\x\cfp\addons\models\PatrolCap";
@@ -354,7 +354,7 @@ class cfgWeapons
         scope=2;
         scopeArsenal=2;
         dlc="CFP_Sudan";
-        author="Archduke";
+        author="CFP";
         displayName="Patrol Cap (Sudanese Leaf)";
 
         model="\x\cfp\addons\models\PatrolCap";
@@ -397,7 +397,7 @@ class cfgWeapons
         scope=2;
         scopeArsenal=2;
         dlc="CFP_Sudan";
-        author="Archduke";
+        author="CFP";
         displayName="Patrol Cap (Sudanese Police)";
 
         model="\x\cfp\addons\models\PatrolCap";
@@ -440,7 +440,7 @@ class cfgWeapons
         scope=2;
         scopeArsenal=2;
         dlc="CFP_Sudan";
-        author="Archduke";
+        author="CFP";
         displayName="Patrol Cap (Sudanese Desert)";
 
         model="\x\cfp\addons\models\PatrolCap";
@@ -483,7 +483,7 @@ class cfgWeapons
         scope=2;
         scopeArsenal=2;
         dlc="CFP_Sudan";
-        author="Archduke";
+        author="CFP";
         displayName="Patrol Cap (Sudanese Desert Variant)";
 
         model="\x\cfp\addons\models\PatrolCap";
@@ -526,7 +526,7 @@ class cfgWeapons
         scope=2;
         scopeArsenal=2;
         dlc="CFP_Sudan";
-        author="Archduke";
+        author="CFP";
         displayName="Patrol Cap (Sudanese Police Desert)";
 
         model="\x\cfp\addons\models\PatrolCap";
