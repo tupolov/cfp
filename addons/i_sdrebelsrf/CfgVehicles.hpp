@@ -195,7 +195,7 @@ class CfgVehicles {
           "CFP_U_BattleDressUniform_tigerstripe", 0.2,
           "CFP_U_BattleDressUniform_M81", 0.2,
           "SP_0000_Standard_BattleDressUniform_Green", 0.2,
-          "CUP_U_B_US_BDU_OD", 0.2,
+          "CUP_U_B_BDUv2_roll_OD", 0.2,
           "CFP_U_BattleDressUniform_woodlanddark", 0.2,
           "CFP_U_BattleDressUniform_M81_Sudan", 0.2,
           "CFP_U_WorkUniform_DDPM", 0.2,
@@ -433,7 +433,7 @@ class CfgVehicles {
 
         identityTypes[] = {"Head_African","LanguageGRE_F"};
 
-        uniformClass = "CUP_U_B_US_BDU_OD";
+        uniformClass = "CUP_U_B_BDUv2_roll_OD";
 
         linkedItems[] = {"CFP_AK_VEST_LOlive","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CFP_AK_VEST_LOlive","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
@@ -446,7 +446,7 @@ class CfgVehicles {
 
         backpack = "CUP_B_AlicePack_OD";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM_GL","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CUP_U_B_US_BDU_OD",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",1,30}}},{"CFP_AK_VEST_LOlive",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{"CUP_B_AlicePack_OD",{{"CUP_1Rnd_HE_GP25_M",10,1},{"CUP_1Rnd_SMOKE_GP25_M",5,1}}},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM_GL","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CUP_U_B_BDUv2_roll_OD",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",1,30}}},{"CFP_AK_VEST_LOlive",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{"CUP_B_AlicePack_OD",{{"CUP_1Rnd_HE_GP25_M",10,1},{"CUP_1Rnd_SMOKE_GP25_M",5,1}}},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         randomGearProbability = 100;
@@ -466,7 +466,7 @@ class CfgVehicles {
           "CFP_U_BattleDressUniform_tigerstripe", 0.2,
           "CFP_U_BattleDressUniform_M81", 0.2,
           "SP_0000_Standard_BattleDressUniform_Green", 0.2,
-          "CUP_U_B_US_BDU_OD", 0.2,
+          "CUP_U_B_BDUv2_roll_OD", 0.2,
           "CFP_U_BattleDressUniform_woodlanddark", 0.2,
           "CFP_U_BattleDressUniform_M81_Sudan", 0.2,
           "CFP_U_WorkUniform_DDPM", 0.2,
