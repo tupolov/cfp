@@ -254,7 +254,7 @@ class CfgVehicles {
 	    genericNames = "Afromen";
         faction = "CFP_B_NAARMY";
 
-        identityTypes[] = {"Head_African","LanguageENGFRE_F","G_IRAN_default"};
+        identityTypes[] = {"Head_African","LanguageENGFRE_F"};
         uniformClass = "CFP_BDU_M812";
 
 
@@ -447,7 +447,7 @@ class CfgVehicles {
 	    genericNames = "Afromen";
         faction = "CFP_B_NAARMY";
 
-        identityTypes[] = {"Head_African","LanguageENGFRE_F","G_IRAN_default"};
+        identityTypes[] = {"Head_African","LanguageENGFRE_F"};
         uniformClass = "CUP_U_B_US_BDU_roll2_glove";
 
 
@@ -486,7 +486,7 @@ class CfgVehicles {
 	    genericNames = "Afromen";
         faction = "CFP_B_NAARMY";
 
-        identityTypes[] = {"Head_African","LanguageENGFRE_F","G_IRAN_default"};
+        identityTypes[] = {"Head_African","LanguageENGFRE_F"};
         uniformClass = "CFP_BDU_PolyDes2";
 
 
@@ -525,7 +525,7 @@ class CfgVehicles {
 	   genericNames = "Afromen";
         faction = "CFP_B_NAARMY";
 
-        identityTypes[] = {"Head_African","LanguageENGFRE_F","G_IRAN_default"};
+        identityTypes[] = {"Head_African","LanguageENGFRE_F"};
         uniformClass = "CFP_BDU_PolyDes2";
 
 
@@ -564,7 +564,7 @@ class CfgVehicles {
 	   genericNames = "Afromen";
         faction = "CFP_B_NAARMY";
 
-        identityTypes[] = {"Head_African","LanguageENGFRE_F","G_IRAN_default"};
+        identityTypes[] = {"Head_African","LanguageENGFRE_F"};
         uniformClass = "SP_0000_Standard_FieldUniform_Green";
 
 
@@ -1108,32 +1108,27 @@ class CfgVehicles {
         displayName = "Rifleman [SF]";
         side = 1;
         faction = "CFP_B_NAARMY";
+        genericNames = "Afromen";
+        identityTypes[] = {"Head_African","LanguageENGFRE_F"};
+        uniformClass = "CFP_U_FieldUniform_multicam";
 
-        identityTypes[] = {"Head_African","LanguageENGFRE_F","G_IRAN_default"};
-        uniformClass = "SP_0000_Standard_FieldUniform_Black";
+        linkedItems[] = {"CFP_Modular1_Multicam","CFP_BaseballCap_Multicam_DEF","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CFP_Modular1_Multicam","CFP_BaseballCap_Multicam_DEF","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
 
+        weapons[] = {"CUP_arifle_AK74M_railed_afg","Binocular"};
+        respawnWeapons[] = {"CUP_arifle_AK74M_railed_afg","Binocular"};
 
-        weapons[] = {"CUP_arifle_AKM","Throw","Put"};
-        respawnWeapons[] = {"CUP_arifle_AKM","Throw","Put"};
-        linkedItems[] = {"SP_Modular1_Green","CFP_Basic_Helmet_Black","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","SP_Kneepads_Black"};
-        respawnLinkedItems[] = {"SP_Modular1_Green","CFP_Basic_Helmet_Black","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","SP_Kneepads_Black"};
-        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
-        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","CUP_optic_Kobra",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"SP_0000_Standard_FieldUniform_Black",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"SP_Modular1_Green",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{},"CFP_Basic_Helmet_Black","SP_Balaclava_Black",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","SP_Kneepads_Black"}};
+        magazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_30Rnd_545x39_AK74M_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_30Rnd_545x39_AK74M_M"};
 
-    	randomGearProbability = 100;
-
-    	// Nigerian Facewear
-		facewearList[] = {
-    	   "SP_Balaclava_Black", 1.0
-		};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed_afg","","CUP_acc_Flashlight","CUP_optic_MicroT1_low",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{},{},{"CFP_U_FieldUniform_multicam",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_30Rnd_545x39_AK74M_M",1,30}}},{"CFP_Modular1_Multicam",{{"CUP_30Rnd_545x39_AK74M_M",6,30}}},{},"CFP_BaseballCap_Multicam_DEF","CUP_G_Oakleys_Drk",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack}; if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this] call CFP_main_fnc_randomizeUnit;[_this, 'USP_PATCH_FLAG_NIGERIA_SHIELD'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;[_this, 'USP_PATCH_FLAG_NIGERIA_SHIELD'] call BIS_fnc_setUnitInsignia;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -1149,15 +1144,15 @@ class CfgVehicles {
 
         displayName = "Team Leader [SF]";
 
-
-        weapons[] = {"CUP_arifle_AKM","Throw","Put"};
-        respawnWeapons[] = {"CUP_arifle_AKM","Throw","Put"};
-        linkedItems[] = {"SP_Modular1_Green","CFP_Basic_Helmet_Black","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","SP_Kneepads_Black"};
-        respawnLinkedItems[] = {"SP_Modular1_Green","CFP_Basic_Helmet_Black","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","SP_Kneepads_Black"};
-        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
-        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","CUP_optic_Kobra",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"SP_0000_Standard_FieldUniform_Black",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"SP_Modular1_Green",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{},"CFP_Basic_Helmet_Black","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","SP_Kneepads_Black"}};
-
+        uniformClass = "CUP_U_CRYE_MCAM_NP_Full";
+        linkedItems[] = {"CUP_V_B_LBT_LBV_MCam","CFP_BaseballCap_Multicam_DEF_Back","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CUP_V_B_LBT_LBV_MCam","CFP_BaseballCap_Multicam_DEF_Back","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        weapons[] = {"CUP_arifle_AK74M_railed_afg","Binocular"};
+        respawnWeapons[] = {"CUP_arifle_AK74M_railed_afg","Binocular"};
+        magazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_30Rnd_545x39_AK74M_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_30Rnd_545x39_AK74M_M"};
+        backpack = "B_AssaultPack_mcamo";
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed_afg","","CUP_acc_Flashlight","CUP_optic_MicroT1_low",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{},{},{"CUP_U_CRYE_MCAM_NP_Full",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",1,30},{"CUP_30Rnd_545x39_AK74M_M",1,30}}},{"CUP_V_B_LBT_LBV_MCam",{{"CUP_30Rnd_545x39_AK74M_M",6,30}}},{"B_AssaultPack_mcamo",{}},"CFP_BaseballCap_Multicam_DEF_Back","CUP_G_Tan_Scarf_Shades",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
     };
 
     class CFP_B_NAARMY_Grenadier_SF_01 : CFP_B_NAARMY_Rifleman_SF_01 {
@@ -1165,14 +1160,15 @@ class CfgVehicles {
 
         displayName = "Grenadier [SF]";
 
-
-        weapons[] = {"CUP_arifle_AK74M_GL","Throw","Put"};
-        respawnWeapons[] = {"CUP_arifle_AK74M_GL","Throw","Put"};
-        linkedItems[] = {"SP_Modular1_Green","CFP_Basic_Helmet_Black","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","SP_Kneepads_Black"};
-        respawnLinkedItems[] = {"SP_Modular1_Green","CFP_Basic_Helmet_Black","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","SP_Kneepads_Black"};
-        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
-        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_GL","","","CUP_optic_Kobra",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"SP_0000_Standard_FieldUniform_Black",{{"CUP_30Rnd_545x39_AK_M",3,30}}},{"SP_Modular1_Green",{{"CUP_30Rnd_545x39_AK_M",5,30},{"CUP_1Rnd_HE_GP25_M",6,1},{"CUP_1Rnd_SMOKE_GP25_M",3,1}}},{},"CFP_Basic_Helmet_Black","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","SP_Kneepads_Black"}};
+        uniformClass = "CFP_U_FieldUniform_multicam_SS";
+        linkedItems[] = {"CUP_V_B_LBT_LBV_MCam","CFP_BoonieHat_Multicam","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CUP_V_B_LBT_LBV_MCam","CFP_BoonieHat_Multicam","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        weapons[] = {"CUP_arifle_AK74M_GL_railed","Binocular"};
+        respawnWeapons[] = {"CUP_arifle_AK74M_GL_railed","Binocular"};
+        magazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_1Rnd_HE_GP25_M","CUP_30Rnd_545x39_AK74M_M","CUP_1Rnd_HE_GP25_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_1Rnd_HE_GP25_M","CUP_30Rnd_545x39_AK74M_M","CUP_1Rnd_HE_GP25_M"};
+        backpack = "B_AssaultPack_mcamo";
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_GL_railed","","CUP_acc_Flashlight","CUP_optic_MicroT1_low",{"CUP_30Rnd_545x39_AK74M_M",30},{"CUP_1Rnd_HE_GP25_M",1},""},{},{},{"CFP_U_FieldUniform_multicam_SS",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",2,30},{"CUP_30Rnd_545x39_AK74M_M",2,30},{"CUP_1Rnd_HE_GP25_M",1,1}}},{"CUP_V_B_LBT_LBV_MCam",{{"SP_Kneepads_Black",1},{"CUP_1Rnd_SMOKE_GP25_M",2,1},{"CUP_30Rnd_545x39_AK74M_M",6,30},{"CUP_1Rnd_HE_GP25_M",2,1}}},{"B_AssaultPack_mcamo",{}},"CFP_BoonieHat_Multicam","CUP_G_Grn_Scarf_Shades",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -1181,14 +1177,20 @@ class CfgVehicles {
 
         displayName = "Rifleman AT [SF]";
 
+        uniformClass = "CFP_U_FieldUniform_multicam_SS";
+
+        linkedItems[] = {"CFP_Modular1_Multicam","CUP_H_PMC_Beanie_Headphones_Black","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CFP_Modular1_Multicam","CUP_H_PMC_Beanie_Headphones_Black","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_AK74M_railed_afg","CUP_launch_RPG7V","Binocular"};
+        respawnWeapons[] = {"CUP_arifle_AK74M_railed_afg","CUP_launch_RPG7V","Binocular"};
+
+        magazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_PG7V_M","CUP_30Rnd_545x39_AK74M_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_PG7V_M","CUP_30Rnd_545x39_AK74M_M"};
+
         backpack = "CUP_B_RPGPack_Khaki";
-        weapons[] = {"CUP_arifle_AKM","CUP_launch_RPG7V","Throw","Put"};
-        respawnWeapons[] = {"CUP_arifle_AKM","CUP_launch_RPG7V","Throw","Put"};
-        linkedItems[] = {"SP_Modular1_Green","CFP_Basic_Helmet_Black","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","SP_Kneepads_Black"};
-        respawnLinkedItems[] = {"SP_Modular1_Green","CFP_Basic_Helmet_Black","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","SP_Kneepads_Black"};
-        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_PG7V_M"};
-        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_PG7V_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","CUP_optic_Kobra",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{"CUP_launch_RPG7V","","","",{"CUP_PG7V_M",1},{},""},{},{"SP_0000_Standard_FieldUniform_Black",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"SP_Modular1_Green",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{"CUP_B_RPGPack_Khaki",{{"CUP_PG7V_M",3,1}}},"CFP_Basic_Helmet_Black","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","SP_Kneepads_Black"}};
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed_afg","","CUP_acc_Flashlight","CUP_optic_MicroT1_low",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{"CUP_launch_RPG7V","","","",{"CUP_PG7V_M",1},{},""},{},{"CFP_U_FieldUniform_multicam_SS",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_30Rnd_545x39_AK74M_M",1,30}}},{"CFP_Modular1_Multicam",{{"CUP_30Rnd_545x39_AK74M_M",6,30},{"SmokeShell",1,1},{"HandGrenade",1,1}}},{"CUP_B_RPGPack_Khaki",{{"CUP_PG7V_M",3,1}}},"CUP_H_PMC_Beanie_Headphones_Black","CUP_G_Oakleys_Embr",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -1197,14 +1199,20 @@ class CfgVehicles {
 
         displayName = "Explosive Specialist [SF]";
         canDeactivateMines = 1;
-        backpack = "B_Carryall_oli";
-        weapons[] = {"CUP_arifle_AKM","Throw","Put"};
-        respawnWeapons[] = {"CUP_arifle_AKM","Throw","Put"};
-        linkedItems[] = {"SP_Modular1_Green","CFP_Basic_Helmet_Black","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","SP_Kneepads_Black"};
-        respawnLinkedItems[] = {"SP_Modular1_Green","CFP_Basic_Helmet_Black","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","SP_Kneepads_Black"};
-        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
-        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","CUP_optic_Kobra",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"SP_0000_Standard_FieldUniform_Black",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"SP_Modular1_Green",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{"B_Carryall_oli",{{"MineDetector",1},{"DemoCharge_Remote_Mag",5,1},{"ATMine_Range_Mag",1,1},{"APERSTripMine_Wire_Mag",1,1},{"CUP_PipeBomb_M",1,1}}},"CFP_Basic_Helmet_Black","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","SP_Kneepads_Black"}};
+        uniformClass = "CUP_U_CRYE_MCAM_NP2_Full";
+
+        linkedItems[] = {"CUP_V_B_LBT_LBV_MCam","CUP_H_PMC_Beanie_Headphones_Khaki","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CUP_V_B_LBT_LBV_MCam","CUP_H_PMC_Beanie_Headphones_Khaki","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_AK74M_railed_afg","Binocular"};
+        respawnWeapons[] = {"CUP_arifle_AK74M_railed_afg","Binocular"};
+
+        magazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_30Rnd_545x39_AK74M_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_30Rnd_545x39_AK74M_M"};
+
+        backpack = "B_Carryall_mcamo";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed_afg","","CUP_acc_Flashlight","CUP_optic_MicroT1_low",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{},{},{"CUP_U_CRYE_MCAM_NP2_Full",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",1,30},{"CUP_30Rnd_545x39_AK74M_M",1,30}}},{"CUP_V_B_LBT_LBV_MCam",{{"CUP_30Rnd_545x39_AK74M_M",6,30},{"SmokeShell",1,1},{"HandGrenade",1,1}}},{"B_Carryall_mcamo",{{"MineDetector",1},{"DemoCharge_Remote_Mag",5,1},{"ATMine_Range_Mag",1,1},{"APERSTripMine_Wire_Mag",1,1},{"CUP_PipeBomb_M",1,1}}},"CUP_H_PMC_Beanie_Headphones_Khaki","CUP_G_Oakleys_Drk",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -1215,14 +1223,20 @@ class CfgVehicles {
         attendant = 1;
         icon = "iconManMedic";
         picture = "pictureHeal";
-        backpack = "CUP_B_USPack_Black";
-        weapons[] = {"CUP_arifle_AKM","Throw","Put"};
-        respawnWeapons[] = {"CUP_arifle_AKM","Throw","Put"};
-        linkedItems[] = {"SP_Modular1_Green","CFP_Basic_Helmet_Black","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","SP_Kneepads_Black"};
-        respawnLinkedItems[] = {"SP_Modular1_Green","CFP_Basic_Helmet_Black","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","SP_Kneepads_Black"};
-        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
-        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","CUP_optic_Kobra",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"SP_0000_Standard_FieldUniform_Black",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"SP_Modular1_Green",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{"CUP_B_USPack_Black",{{"FirstAidKit",10},{"Medikit",1}}},"CFP_Basic_Helmet_Black","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","SP_Kneepads_Black"}};
+        uniformClass = "CFP_U_FieldUniform_multicam_SS";
+
+        linkedItems[] = {"CFP_Modular1_Multicam","CFP_BaseballCap_Multicam_DEF_Back","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CFP_Modular1_Multicam","CFP_BaseballCap_Multicam_DEF_Back","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_AK74M_railed_afg","Binocular"};
+        respawnWeapons[] = {"CUP_arifle_AK74M_railed_afg","Binocular"};
+
+        magazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_30Rnd_545x39_AK74M_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_30Rnd_545x39_AK74M_M"};
+
+        backpack = "CFP_B_USPack_Mcam";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed_afg","","CUP_acc_Flashlight","CUP_optic_MicroT1_low",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{},{},{"CFP_U_FieldUniform_multicam_SS",{{"CUP_30Rnd_762x39_AK47_M",2,30},{"CUP_30Rnd_545x39_AK74M_M",1,30}}},{"CFP_Modular1_Multicam",{{"CUP_30Rnd_545x39_AK74M_M",6,30},{"SmokeShell",1,1},{"HandGrenade",1,1}}},{"CFP_B_USPack_Mcam",{{"FirstAidKit",10},{"Medikit",1}}},"CFP_BaseballCap_Multicam_DEF_Back","CUP_G_White_Scarf_Shades",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -1231,14 +1245,20 @@ class CfgVehicles {
 
         displayName = "Automatic Rifleman [SF]";
 
+        uniformClass = "CUP_U_CRYE_MCAM_NP2_Roll";
 
-        weapons[] = {"CUP_arifle_RPK74M","Throw","Put"};
-        respawnWeapons[] = {"CUP_arifle_RPK74M","Throw","Put"};
-        linkedItems[] = {"SP_Modular1_Green","CFP_Basic_Helmet_Black","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","SP_Kneepads_Black"};
-        respawnLinkedItems[] = {"SP_Modular1_Green","CFP_Basic_Helmet_Black","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","SP_Kneepads_Black"};
-        magazines[] = {"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M"};
-        respawnMagazines[] = {"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_RPK74M","","","CUP_optic_Kobra",{"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",45},{},""},{},{},{"SP_0000_Standard_FieldUniform_Black",{{"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",1,45}}},{"SP_Modular1_Green",{{"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M",5,45}}},{},"CFP_Basic_Helmet_Black","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","SP_Kneepads_Black"}};
+        linkedItems[] = {"CFP_Modular1_Multicam","CFP_BaseballCap_Multicam_DEF","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CFP_Modular1_Multicam","CFP_BaseballCap_Multicam_DEF","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_RPK74M_railed","Binocular"};
+        respawnWeapons[] = {"CUP_arifle_RPK74M_railed","Binocular"};
+
+        magazines[] = {"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK74M_M","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK74M_M"};
+        respawnMagazines[] = {"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK74M_M","CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK74M_M"};
+
+        backpack = "B_AssaultPack_mcamo";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_RPK74M_railed","","CUP_acc_Flashlight","CUP_optic_MicroT1_low",{"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK74M_M",45},{},""},{},{},{"CUP_U_CRYE_MCAM_NP2_Roll",{{"FirstAidKit",1},{"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK74M_M",1,45},{"SmokeShell",1,1}}},{"CFP_Modular1_Multicam",{{"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK74M_M",5,45},{"MiniGrenade",1,1}}},{"B_AssaultPack_mcamo",{{"CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK74M_M",2,45}}},"CFP_BaseballCap_Multicam_DEF","CUP_G_Oakleys_Drk",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
