@@ -749,7 +749,7 @@ class CFP_Tactical1_EDRL: V_PlateCarrier1_rgr
 
 	class CFP_Tactical1_White2: V_PlateCarrier1_rgr
 {
-    picture = "";
+    picture = "\x\cfp\addons\vests\data\ui\icon_SP_Tactical1_White.paa";
 		scope = 2;
 		displayName = "Tactical 1 (White v2)";
 		// picture = "\x\cfp\addons\vests\Tactical1\ui\Black.jpg";
@@ -795,7 +795,7 @@ class CFP_Tactical1_EDRL: V_PlateCarrier1_rgr
 
 	class CFP_Tactical1_Berez: V_PlateCarrier1_rgr
 {
-    picture = "";
+    picture = "\x\cfp\addons\vests\data\ui\icon_SP_Tactical1_White.paa";
 		scope = 2;
 		displayName = "Tactical 1 (Berezka)";
 		// picture = "\x\cfp\addons\vests\Tactical1\ui\Black.jpg";
