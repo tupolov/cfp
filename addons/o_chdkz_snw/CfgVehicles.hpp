@@ -130,6 +130,42 @@ class CfgVehicles {
         };
     };
 
+    class CUP_O_BTR80A_CHDKZ;
+    class CUP_O_BTR80A_CHDKZ_OCimport_01 : CUP_O_BTR80A_CHDKZ { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_BTR80A_CHDKZ_OCimport_02 : CUP_O_BTR80A_CHDKZ_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+            class CommanderTurret;
+            class CargoTurret_01;
+            class CargoTurret_02;
+            class CargoTurret_03;
+            class CargoTurret_04;
+            class CargoTurret_05;
+            class CargoTurret_06;
+            class CargoTurret_07;
+            class CargoTurret_08;
+        };
+    };
+
+    class CUP_O_BTR80_CHDKZ;
+    class CUP_O_BTR80_CHDKZ_OCimport_01 : CUP_O_BTR80_CHDKZ { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_BTR80_CHDKZ_OCimport_02 : CUP_O_BTR80_CHDKZ_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+            class CommanderTurret;
+            class CargoTurret_01;
+            class CargoTurret_02;
+            class CargoTurret_03;
+            class CargoTurret_04;
+            class CargoTurret_05;
+            class CargoTurret_06;
+            class CargoTurret_07;
+            class CargoTurret_08;
+        };
+    };
+
     class CUP_O_INS_Soldier_AK74;
     class CUP_O_INS_Soldier_AK74_OCimport_01 : CUP_O_INS_Soldier_AK74 { scope = 0; class EventHandlers; };
     class CUP_O_INS_Soldier_AK74_OCimport_02 : CUP_O_INS_Soldier_AK74_OCimport_01 { class EventHandlers; };
@@ -872,6 +908,93 @@ class CfgVehicles {
             class CargoTurret_06 : CargoTurret_06 { gunnerType = ""; };
             class CargoGunner_1 : CargoGunner_1 { gunnerType = ""; };
             class CargoGunner_2 : CargoGunner_2 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_CHDKZ_BTR_80A_SNW_01 : CUP_O_BTR80A_CHDKZ_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "BTR-80A";
+        side = 0;
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01";
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\vehicles\BTR80\btr80_chedaki_snow_co.paa",
+            "\x\cfp\addons\vehicles\BTR80\bppu_chedaki_snow_co.paa",
+            "\x\cfp\addons\vehicles\BTR80\Wheels_chedaki_snow_co.paa"
+        };
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01"; };
+            class CommanderTurret : CommanderTurret { gunnerType = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01"; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
+            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
+            class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
+            class CargoTurret_06 : CargoTurret_06 { gunnerType = ""; };
+            class CargoTurret_07 : CargoTurret_07 { gunnerType = ""; };
+            class CargoTurret_08 : CargoTurret_08 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_CHDKZ_BTR_80_SNW_01 : CUP_O_BTR80_CHDKZ_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "BTR-80";
+        side = 0;
+        faction = "CFP_O_CHDKZ_SNW";
+        crew = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01";
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\vehicles\BTR80\btr80_chedaki_snow_co.paa",
+            "\x\cfp\addons\vehicles\BTR80\kpvt_chedaki_snow_co.paa",
+            "\x\cfp\addons\vehicles\BTR80\Wheels_chedaki_snow_co.paa"
+        };
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01"; };
+            class CommanderTurret : CommanderTurret { gunnerType = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01"; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
+            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
+            class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
+            class CargoTurret_06 : CargoTurret_06 { gunnerType = ""; };
+            class CargoTurret_07 : CargoTurret_07 { gunnerType = ""; };
+            class CargoTurret_08 : CargoTurret_08 { gunnerType = ""; };
         };
 
 

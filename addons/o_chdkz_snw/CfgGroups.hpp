@@ -767,6 +767,81 @@ class CfgGroups {
                     };
                 };
 
+                class cfp_o_chdkz_mechanized_group_btr_80_snw {
+                    name = "Mechanized Group [BTR-80]";
+                    side = 0;
+                    faction = "CFP_O_CHDKZ_SNW";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_BTR_80_SNW_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Commander_SNW_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Grenadier_SNW_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_AT_Specialist_SNW_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Automatic_Rifleman_SNW_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Machinegunner_SNW_01";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Ammo_Bearer_SNW_01";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Rifleman_SNW_01";
+                    };
+                    class Unit8 {
+                        position[] = {-20,-20,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Engineer_SNW_01";
+                    };
+                    class Unit9 {
+                        position[] = {25,-25,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Rifleman_AK_74_SNW_01";
+                    };
+                    class Unit10 {
+                        position[] = {-25,-25,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CHDKZ_Medic_SNW_01";
+                    };
+                };
+
                 class cfp_o_chdkz_mechanized_group_bmp2_snw {
                     name = "Mechanized Group [BMP2]";
                     side = 0;
