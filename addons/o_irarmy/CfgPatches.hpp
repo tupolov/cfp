@@ -35,6 +35,8 @@ class CfgPatches {
             "CFP_O_IRARMY_BMP2_01",
             "CFP_O_IRARMY_BMP1_01",
             "CFP_O_IRARMY_BTR_60_01",
+            "CFP_O_IRARMY_BTR_80_01",
+            "CFP_O_IRARMY_BTR_80A_01",
             "CFP_O_IRARMY_BTR_90_01",
             "CFP_O_IRARMY_M113_01",
             "CFP_O_IRARMY_M60_Patton_01",
@@ -86,7 +88,9 @@ class CfgPatches {
             "CUP_AirVehicles_Mi8",
             "CUP_WheeledVehicles_Ural",
             "CUP_WheeledVehicles_Volha",
-            "CUP_WheeledVehicles_UAZ"
+            "CUP_WheeledVehicles_UAZ",
+            "CUP_WheeledVehicles_BTR60",
+            "CUP_WheeledVehicles_BTR80"
         };
         requiredVersion = REQUIRED_VERSION;
         VERSION_CONFIG;
