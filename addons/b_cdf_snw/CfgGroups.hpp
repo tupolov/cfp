@@ -141,6 +141,18 @@ class CfgGroups {
                         side = 1;
                         vehicle = "CUP_B_CDF_Soldier_Marksman_SNW";
                     };
+                    class Unit8 {
+                        position[] = {17,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_CDF_Soldier_AMG_SNW";
+                    };
+                    class Unit9 {
+                        position[] = {19,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_CDF_Soldier_AAT_SNW";
+                    };
                 };
 
                 class cfp_b_cdf_infantry_snw_infantry_section_at_snw {
@@ -1088,6 +1100,157 @@ class CfgGroups {
                         vehicle = "CUP_B_CDF_Soldier_SNW";
                     };
                 };
+
+                class cfp_b_cdf_mechanized_squad_btr_80_snw {
+                    name = "Mechanized Squad [BTR-80]";
+                    side = 1;
+                    faction = "CFP_B_CDF_SNW";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_CDF_BTR_80_SNW_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CUP_B_CDF_Soldier_TL_SNW";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_CDF_Medic_SNW";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_CDF_Engineer_SNW";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_CDF_Soldier_MG_SNW";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_CDF_Soldier_AR_SNW";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_CDF_Soldier_LAT_SNW";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_CDF_Soldier_GL_SNW";
+                    };
+                    class Unit8 {
+                        position[] = {-20,-20,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_CDF_Soldier_Marksman_SNW";
+                    };
+                    class Unit9 {
+                        position[] = {25,-25,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_CDF_Soldier_SNW";
+                    };
+                    class Unit10 {
+                        position[] = {-25,-25,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_CDF_Soldier_SNW";
+                    };
+                };
+
+                class cfp_b_cdf_mechanized_squad_btr_80a_snw {
+                    name = "Mechanized Squad [BTR-80A]";
+                    side = 1;
+                    faction = "CFP_B_CDF_SNW";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_CDF_BTR_80A_SNW_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CUP_B_CDF_Soldier_TL_SNW";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_CDF_Medic_SNW";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_CDF_Engineer_SNW";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_CDF_Soldier_MG_SNW";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_CDF_Soldier_AR_SNW";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_CDF_Soldier_LAT_SNW";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_CDF_Soldier_GL_SNW";
+                    };
+                    class Unit8 {
+                        position[] = {-20,-20,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_CDF_Soldier_Marksman_SNW";
+                    };
+                    class Unit9 {
+                        position[] = {25,-25,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_CDF_Soldier_SNW";
+                    };
+                    class Unit10 {
+                        position[] = {-25,-25,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_CDF_Soldier_SNW";
+                    };
+                };
+
 
                 class cfp_b_cdf_mechanized_squad_bmp_snw {
                     name = "Mechanized Squad [BMP-2]";
