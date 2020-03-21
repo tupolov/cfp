@@ -1127,6 +1127,7 @@ class CfgVehicles {
             };
         };
     };
+
     class FlagChecked_F;
     class FlagChecked_F_OCimport_01 : FlagChecked_F { scope = 0; class Eventhandlers; };
     class IS_Flag_1 : FlagChecked_F_OCimport_01
@@ -1207,7 +1208,6 @@ class CfgVehicles {
                 init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
             };
         };
-
     };
 
     class cfp_o_is_offroad_flag : cfp_o_is_offroad {
@@ -1220,8 +1220,8 @@ class CfgVehicles {
                 init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""; (_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\AttachFlag.sqf""";
             };
         };
-
     };
+
     class B_G_Offroad_01_armed_F;
     class B_G_Offroad_01_armed_F_OCimport_01 : B_G_Offroad_01_armed_F { scope = 0; class Eventhandlers; };
     class cfp_o_is_offroad_M2 : B_G_Offroad_01_armed_F_OCimport_01 {
@@ -1243,7 +1243,6 @@ class CfgVehicles {
                 init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""";
             };
         };
-
     };
 
     class cfp_o_is_offroad_M2_flag : cfp_o_is_offroad_M2 {
@@ -1256,11 +1255,10 @@ class CfgVehicles {
                 init = "(_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\randomize_tex.sqf""; (_this select 0) execVM ""\x\cfp\addons\o_is\Scripts\AttachFlag.sqf""";
             };
         };
-
     };
 
-	class B_G_Offroad_01_AT_F;
-	class B_G_Offroad_01_AT_F_OCimport_01 : B_G_Offroad_01_AT_F { scope = 0; class Eventhandlers; };
+  	class B_G_Offroad_01_AT_F;
+  	class B_G_Offroad_01_AT_F_OCimport_01 : B_G_Offroad_01_AT_F { scope = 0; class Eventhandlers; };
     class cfp_o_is_offroad_AT : B_G_Offroad_01_AT_F_OCimport_01 {
         editorPreview = \x\cfp\addons\o_is\data\preview\cfp_o_is_offroad_AT.JPG;
         scope = 2;
@@ -1283,8 +1281,8 @@ class CfgVehicles {
 
     };
 
-	class I_C_Offroad_02_LMG_F;
-	class I_C_Offroad_02_LMG_F_OCimport_01 : I_C_Offroad_02_LMG_F { scope = 0; class Eventhandlers; };
+  	class I_C_Offroad_02_LMG_F;
+  	class I_C_Offroad_02_LMG_F_OCimport_01 : I_C_Offroad_02_LMG_F { scope = 0; class Eventhandlers; };
     class cfp_o_is_jeep_lmg : I_C_Offroad_02_LMG_F_OCimport_01 {
         editorPreview = \x\cfp\addons\o_is\data\preview\cfp_o_is_jeep_lmg.JPG;
         scope = 2;
@@ -1308,8 +1306,8 @@ class CfgVehicles {
 
     };
 
-	class I_C_Offroad_02_AT_F;
-	class I_C_Offroad_02_AT_F_OCimport_01 : I_C_Offroad_02_AT_F { scope = 0; class Eventhandlers; };
+  	class I_C_Offroad_02_AT_F;
+  	class I_C_Offroad_02_AT_F_OCimport_01 : I_C_Offroad_02_AT_F { scope = 0; class Eventhandlers; };
     class cfp_o_is_jeep_at : I_C_Offroad_02_AT_F_OCimport_01 {
         editorPreview = \x\cfp\addons\o_is\data\preview\cfp_o_is_jeep_at.JPG;
         scope = 2;

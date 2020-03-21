@@ -44,7 +44,7 @@ if (local _unit) then {
 
 		private _texturesArray = (configFile >> "CfgVehicles" >> typeOf _unit >> "textureList") call bis_fnc_getCfgData;
 
-		if (count _array > 0) then {
+		if (count _texturesArray > 0) then {
 			private _textures = selectRandomWeighted _texturesArray;
 
 			{

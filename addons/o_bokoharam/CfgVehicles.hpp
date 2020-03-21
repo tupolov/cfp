@@ -1003,13 +1003,22 @@ class CfgVehicles {
             class MainTurret : MainTurret { gunnerType = "CFP_O_BH_Rifleman_AK47_01"; };
         };
 
+        randomTextureProbability = 100;
 
+        // Hilux Skins
+        textureList[] = {
+            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.2
+        };
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
