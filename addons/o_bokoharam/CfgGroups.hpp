@@ -359,6 +359,51 @@ class CfgGroups {
                     };
                 };
 
+                class cfp_o_bh_motorized_hilux_patrol {
+                    name = "Hilux patrol";
+                    side = 0;
+                    faction = "CFP_O_BOKOHARAM";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_BH_Hilux_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_BH_Rifleman_AK47_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_BH_Rifleman_AK74_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_BH_Grenadier_AK74_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_BH_Machine_Gunner_PKM_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_BH_Rifleman_AK74_01";
+                    };
+                };
+
                 class cfp_o_bh_motorized_offroad_patrol_armed {
                     name = "Offroad Patrol [Armed]";
                     side = 0;
@@ -376,7 +421,7 @@ class CfgGroups {
                         position[] = {5,-8,0};
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_O_bh_Pickup_PK_01";
+                        vehicle = "CFP_O_BH_Hilux_DShKM_01";
                     };
                 };
 
@@ -520,7 +565,28 @@ class CfgGroups {
                         position[] = {5,-10,0};
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_O_BH_Offroad_AT_01";
+                        vehicle = "CFP_O_BH_Hilux_SPG_01";
+                    };
+                };
+
+                class cfp_o_bh_motorized_offroad_patrol_aa {
+                    name = "Offroad Patrol [AA]";
+                    side = 0;
+                    faction = "CFP_O_BOKOHARAM";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+                    rarityGroup = 0.2;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_BH_Hilux_ZU_23_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_BH_Hilux_igla_01";
                     };
                 };
 
