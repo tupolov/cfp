@@ -192,6 +192,2828 @@ class CfgVehicles
         };
     };
 
+    class CUP_Hilux_Base;
+    class CUP_Hilux_unarmed_Base: CUP_Hilux_Base
+    {
+        class textureSources
+        {
+            class White
+            {
+                displayName = "Standard White";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"};
+                factions[] = {};
+            };
+            class WhiteIS
+            {
+                displayName = "Standard White (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_white_is_co.paa"};
+                factions[] = {};
+            };
+            class Creme
+            {
+                displayName = "Creme (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"};
+                factions[] = {};
+            };
+            class CremeIS
+            {
+                displayName = "Creme (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_creme_is_co.paa"};
+                factions[] = {};
+            };
+            class BlackIS
+            {
+                displayName = "Black (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_black_is_co.paa"};
+                factions[] = {};
+            };
+            class Blue
+            {
+                displayName = "Blue (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"};
+                factions[] = {};
+            };
+            class BlueGreen
+            {
+                displayName = "Blue Green (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_bluegreen_is_co.paa"};
+                factions[] = {};
+            };
+            class Tan
+            {
+                displayName = "Tan (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"};
+                factions[] = {};
+            };
+            class TanIS
+            {
+                displayName = "Tan (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_tan_is_co.paa"};
+                factions[] = {};
+            };
+            class PolyWood
+            {
+                displayName = "Polygon Woodland";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_polywood_co.paa"};
+                factions[] = {};
+            };
+            class PolyDesert
+            {
+                displayName = "Polygon Desert";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_polydesert_co.paa"};
+                factions[] = {};
+            };
+            class ArmyGreen
+            {
+                displayName = "Army Green";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_armygreen_co.paa"};
+                factions[] = {};
+            };
+            class ArmyGreenIS
+            {
+                displayName = "Army Green (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_armygreen_is_co.paa"};
+                factions[] = {};
+            };
+            class RedIS
+            {
+                displayName = "Red (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_red_is_co.paa"};
+                factions[] = {};
+            };
+            class Red
+            {
+                displayName = "Red (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"};
+                factions[] = {};
+            };
+            class Guer1
+            {
+                displayName = "Guerilla Camo v1";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"};
+                factions[] = {};
+            };
+            class Guer2
+            {
+                displayName = "Guerilla Camo v2 (Libya)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer2_co.paa"};
+                factions[] = {};
+            };
+            class Guer3
+            {
+                displayName = "Guerilla Camo v3 (North Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"};
+                factions[] = {};
+            };
+            class Guer3IS
+            {
+                displayName = "Guerilla Camo v3 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer3_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer4
+            {
+                displayName = "Guerilla Camo v4 (East Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"};
+                factions[] = {};
+            };
+            class Guer4IS
+            {
+                displayName = "Guerilla Camo v4 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer4_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer5
+            {
+                displayName = "Guerilla Camo v5 (Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"};
+                factions[] = {};
+            };
+            class Guer6
+            {
+                displayName = "Guerilla Camo v6 (North Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer6_co.paa"};
+                factions[] = {};
+            };
+            class Guer6IS
+            {
+                displayName = "Guerilla Camo v6 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer6_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer7
+            {
+                displayName = "Guerilla Camo v7 (West Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer7_co.paa"};
+                factions[] = {};
+            };
+            class Guer7IS
+            {
+                displayName = "Guerilla Camo v7 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer7_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer8
+            {
+                displayName = "Guerilla Camo v8 (North Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer8_co.paa"};
+                factions[] = {};
+            };
+            class Guer8IS
+            {
+                displayName = "Guerilla Camo v8 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer8_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer9
+            {
+                displayName = "Guerilla Camo v9";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"};
+                factions[] = {};
+            };
+            class Guer9IS
+            {
+                displayName = "Guerilla Camo v9 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer9_is_co.paa"};
+                factions[] = {};
+            };
+        };
+    };
+
+    class CUP_Hilux_DSHKM_Base: CUP_Hilux_Base
+    {
+        class textureSources
+        {
+            class White
+            {
+                displayName = "Standard White";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"};
+                factions[] = {};
+            };
+            class WhiteIS
+            {
+                displayName = "Standard White (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_white_is_co.paa"};
+                factions[] = {};
+            };
+            class Creme
+            {
+                displayName = "Creme (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"};
+                factions[] = {};
+            };
+            class CremeIS
+            {
+                displayName = "Creme (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_creme_is_co.paa"};
+                factions[] = {};
+            };
+            class BlackIS
+            {
+                displayName = "Black (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_black_is_co.paa"};
+                factions[] = {};
+            };
+            class Blue
+            {
+                displayName = "Blue (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"};
+                factions[] = {};
+            };
+            class BlueGreen
+            {
+                displayName = "Blue Green (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_bluegreen_is_co.paa"};
+                factions[] = {};
+            };
+            class Tan
+            {
+                displayName = "Tan (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"};
+                factions[] = {};
+            };
+            class TanIS
+            {
+                displayName = "Tan (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_tan_is_co.paa"};
+                factions[] = {};
+            };
+            class PolyWood
+            {
+                displayName = "Polygon Woodland";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_polywood_co.paa"};
+                factions[] = {};
+            };
+            class PolyDesert
+            {
+                displayName = "Polygon Desert";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_polydesert_co.paa"};
+                factions[] = {};
+            };
+            class ArmyGreen
+            {
+                displayName = "Army Green";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_armygreen_co.paa"};
+                factions[] = {};
+            };
+            class ArmyGreenIS
+            {
+                displayName = "Army Green (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_armygreen_is_co.paa"};
+                factions[] = {};
+            };
+            class RedIS
+            {
+                displayName = "Red (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_red_is_co.paa"};
+                factions[] = {};
+            };
+            class Red
+            {
+                displayName = "Red (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"};
+                factions[] = {};
+            };
+            class Guer1
+            {
+                displayName = "Guerilla Camo v1";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"};
+                factions[] = {};
+            };
+            class Guer2
+            {
+                displayName = "Guerilla Camo v2 (Libya)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer2_co.paa"};
+                factions[] = {};
+            };
+            class Guer3
+            {
+                displayName = "Guerilla Camo v3 (North Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"};
+                factions[] = {};
+            };
+            class Guer3IS
+            {
+                displayName = "Guerilla Camo v3 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer3_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer4
+            {
+                displayName = "Guerilla Camo v4 (East Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"};
+                factions[] = {};
+            };
+            class Guer4IS
+            {
+                displayName = "Guerilla Camo v4 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer4_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer5
+            {
+                displayName = "Guerilla Camo v5 (Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"};
+                factions[] = {};
+            };
+            class Guer6
+            {
+                displayName = "Guerilla Camo v6 (North Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer6_co.paa"};
+                factions[] = {};
+            };
+            class Guer6IS
+            {
+                displayName = "Guerilla Camo v6 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer6_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer7
+            {
+                displayName = "Guerilla Camo v7 (West Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer7_co.paa"};
+                factions[] = {};
+            };
+            class Guer7IS
+            {
+                displayName = "Guerilla Camo v7 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer7_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer8
+            {
+                displayName = "Guerilla Camo v8 (North Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer8_co.paa"};
+                factions[] = {};
+            };
+            class Guer8IS
+            {
+                displayName = "Guerilla Camo v8 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer8_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer9
+            {
+                displayName = "Guerilla Camo v9";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"};
+                factions[] = {};
+            };
+            class Guer9IS
+            {
+                displayName = "Guerilla Camo v9 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer9_is_co.paa"};
+                factions[] = {};
+            };
+        };
+    };
+
+    class CUP_Hilux_SPG9_Base: CUP_Hilux_Base
+    {
+        class textureSources
+        {
+            class White
+            {
+                displayName = "Standard White";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"};
+                factions[] = {};
+            };
+            class WhiteIS
+            {
+                displayName = "Standard White (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_white_is_co.paa"};
+                factions[] = {};
+            };
+            class Creme
+            {
+                displayName = "Creme (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"};
+                factions[] = {};
+            };
+            class CremeIS
+            {
+                displayName = "Creme (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_creme_is_co.paa"};
+                factions[] = {};
+            };
+            class BlackIS
+            {
+                displayName = "Black (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_black_is_co.paa"};
+                factions[] = {};
+            };
+            class Blue
+            {
+                displayName = "Blue (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"};
+                factions[] = {};
+            };
+            class BlueGreen
+            {
+                displayName = "Blue Green (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_bluegreen_is_co.paa"};
+                factions[] = {};
+            };
+            class Tan
+            {
+                displayName = "Tan (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"};
+                factions[] = {};
+            };
+            class TanIS
+            {
+                displayName = "Tan (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_tan_is_co.paa"};
+                factions[] = {};
+            };
+            class PolyWood
+            {
+                displayName = "Polygon Woodland";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_polywood_co.paa"};
+                factions[] = {};
+            };
+            class PolyDesert
+            {
+                displayName = "Polygon Desert";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_polydesert_co.paa"};
+                factions[] = {};
+            };
+            class ArmyGreen
+            {
+                displayName = "Army Green";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_armygreen_co.paa"};
+                factions[] = {};
+            };
+            class ArmyGreenIS
+            {
+                displayName = "Army Green (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_armygreen_is_co.paa"};
+                factions[] = {};
+            };
+            class RedIS
+            {
+                displayName = "Red (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_red_is_co.paa"};
+                factions[] = {};
+            };
+            class Red
+            {
+                displayName = "Red (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"};
+                factions[] = {};
+            };
+            class Guer1
+            {
+                displayName = "Guerilla Camo v1";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"};
+                factions[] = {};
+            };
+            class Guer2
+            {
+                displayName = "Guerilla Camo v2 (Libya)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer2_co.paa"};
+                factions[] = {};
+            };
+            class Guer3
+            {
+                displayName = "Guerilla Camo v3 (North Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"};
+                factions[] = {};
+            };
+            class Guer3IS
+            {
+                displayName = "Guerilla Camo v3 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer3_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer4
+            {
+                displayName = "Guerilla Camo v4 (East Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"};
+                factions[] = {};
+            };
+            class Guer4IS
+            {
+                displayName = "Guerilla Camo v4 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer4_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer5
+            {
+                displayName = "Guerilla Camo v5 (Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"};
+                factions[] = {};
+            };
+            class Guer6
+            {
+                displayName = "Guerilla Camo v6 (North Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer6_co.paa"};
+                factions[] = {};
+            };
+            class Guer6IS
+            {
+                displayName = "Guerilla Camo v6 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer6_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer7
+            {
+                displayName = "Guerilla Camo v7 (West Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer7_co.paa"};
+                factions[] = {};
+            };
+            class Guer7IS
+            {
+                displayName = "Guerilla Camo v7 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer7_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer8
+            {
+                displayName = "Guerilla Camo v8 (North Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer8_co.paa"};
+                factions[] = {};
+            };
+            class Guer8IS
+            {
+                displayName = "Guerilla Camo v8 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer8_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer9
+            {
+                displayName = "Guerilla Camo v9";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"};
+                factions[] = {};
+            };
+            class Guer9IS
+            {
+                displayName = "Guerilla Camo v9 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer9_is_co.paa"};
+                factions[] = {};
+            };
+        };
+    };
+
+    class CUP_Hilux_igla_Base: CUP_Hilux_Base
+    {
+        class textureSources
+        {
+            class White
+            {
+                displayName = "Standard White";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"};
+                factions[] = {};
+            };
+            class WhiteIS
+            {
+                displayName = "Standard White (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_white_is_co.paa"};
+                factions[] = {};
+            };
+            class Creme
+            {
+                displayName = "Creme (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"};
+                factions[] = {};
+            };
+            class CremeIS
+            {
+                displayName = "Creme (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_creme_is_co.paa"};
+                factions[] = {};
+            };
+            class BlackIS
+            {
+                displayName = "Black (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_black_is_co.paa"};
+                factions[] = {};
+            };
+            class Blue
+            {
+                displayName = "Blue (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"};
+                factions[] = {};
+            };
+            class BlueGreen
+            {
+                displayName = "Blue Green (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_bluegreen_is_co.paa"};
+                factions[] = {};
+            };
+            class Tan
+            {
+                displayName = "Tan (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"};
+                factions[] = {};
+            };
+            class TanIS
+            {
+                displayName = "Tan (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_tan_is_co.paa"};
+                factions[] = {};
+            };
+            class PolyWood
+            {
+                displayName = "Polygon Woodland";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_polywood_co.paa"};
+                factions[] = {};
+            };
+            class PolyDesert
+            {
+                displayName = "Polygon Desert";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_polydesert_co.paa"};
+                factions[] = {};
+            };
+            class ArmyGreen
+            {
+                displayName = "Army Green";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_armygreen_co.paa"};
+                factions[] = {};
+            };
+            class ArmyGreenIS
+            {
+                displayName = "Army Green (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_armygreen_is_co.paa"};
+                factions[] = {};
+            };
+            class RedIS
+            {
+                displayName = "Red (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_red_is_co.paa"};
+                factions[] = {};
+            };
+            class Red
+            {
+                displayName = "Red (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"};
+                factions[] = {};
+            };
+            class Guer1
+            {
+                displayName = "Guerilla Camo v1";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"};
+                factions[] = {};
+            };
+            class Guer2
+            {
+                displayName = "Guerilla Camo v2 (Libya)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer2_co.paa"};
+                factions[] = {};
+            };
+            class Guer3
+            {
+                displayName = "Guerilla Camo v3 (North Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"};
+                factions[] = {};
+            };
+            class Guer3IS
+            {
+                displayName = "Guerilla Camo v3 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer3_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer4
+            {
+                displayName = "Guerilla Camo v4 (East Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"};
+                factions[] = {};
+            };
+            class Guer4IS
+            {
+                displayName = "Guerilla Camo v4 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer4_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer5
+            {
+                displayName = "Guerilla Camo v5 (Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"};
+                factions[] = {};
+            };
+            class Guer6
+            {
+                displayName = "Guerilla Camo v6 (North Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer6_co.paa"};
+                factions[] = {};
+            };
+            class Guer6IS
+            {
+                displayName = "Guerilla Camo v6 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer6_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer7
+            {
+                displayName = "Guerilla Camo v7 (West Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer7_co.paa"};
+                factions[] = {};
+            };
+            class Guer7IS
+            {
+                displayName = "Guerilla Camo v7 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer7_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer8
+            {
+                displayName = "Guerilla Camo v8 (North Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer8_co.paa"};
+                factions[] = {};
+            };
+            class Guer8IS
+            {
+                displayName = "Guerilla Camo v8 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer8_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer9
+            {
+                displayName = "Guerilla Camo v9";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"};
+                factions[] = {};
+            };
+            class Guer9IS
+            {
+                displayName = "Guerilla Camo v9 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer9_is_co.paa"};
+                factions[] = {};
+            };
+        };
+    };
+
+    class CUP_Hilux_metis_Base: CUP_Hilux_Base
+    {
+        class textureSources
+        {
+            class White
+            {
+                displayName = "Standard White";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"};
+                factions[] = {};
+            };
+            class WhiteIS
+            {
+                displayName = "Standard White (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_white_is_co.paa"};
+                factions[] = {};
+            };
+            class Creme
+            {
+                displayName = "Creme (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"};
+                factions[] = {};
+            };
+            class CremeIS
+            {
+                displayName = "Creme (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_creme_is_co.paa"};
+                factions[] = {};
+            };
+            class BlackIS
+            {
+                displayName = "Black (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_black_is_co.paa"};
+                factions[] = {};
+            };
+            class Blue
+            {
+                displayName = "Blue (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"};
+                factions[] = {};
+            };
+            class BlueGreen
+            {
+                displayName = "Blue Green (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_bluegreen_is_co.paa"};
+                factions[] = {};
+            };
+            class Tan
+            {
+                displayName = "Tan (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"};
+                factions[] = {};
+            };
+            class TanIS
+            {
+                displayName = "Tan (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_tan_is_co.paa"};
+                factions[] = {};
+            };
+            class PolyWood
+            {
+                displayName = "Polygon Woodland";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_polywood_co.paa"};
+                factions[] = {};
+            };
+            class PolyDesert
+            {
+                displayName = "Polygon Desert";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_polydesert_co.paa"};
+                factions[] = {};
+            };
+            class ArmyGreen
+            {
+                displayName = "Army Green";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_armygreen_co.paa"};
+                factions[] = {};
+            };
+            class ArmyGreenIS
+            {
+                displayName = "Army Green (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_armygreen_is_co.paa"};
+                factions[] = {};
+            };
+            class RedIS
+            {
+                displayName = "Red (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_red_is_co.paa"};
+                factions[] = {};
+            };
+            class Red
+            {
+                displayName = "Red (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"};
+                factions[] = {};
+            };
+            class Guer1
+            {
+                displayName = "Guerilla Camo v1";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"};
+                factions[] = {};
+            };
+            class Guer2
+            {
+                displayName = "Guerilla Camo v2 (Libya)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer2_co.paa"};
+                factions[] = {};
+            };
+            class Guer3
+            {
+                displayName = "Guerilla Camo v3 (North Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"};
+                factions[] = {};
+            };
+            class Guer3IS
+            {
+                displayName = "Guerilla Camo v3 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer3_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer4
+            {
+                displayName = "Guerilla Camo v4 (East Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"};
+                factions[] = {};
+            };
+            class Guer4IS
+            {
+                displayName = "Guerilla Camo v4 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer4_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer5
+            {
+                displayName = "Guerilla Camo v5 (Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"};
+                factions[] = {};
+            };
+            class Guer6
+            {
+                displayName = "Guerilla Camo v6 (North Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer6_co.paa"};
+                factions[] = {};
+            };
+            class Guer6IS
+            {
+                displayName = "Guerilla Camo v6 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer6_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer7
+            {
+                displayName = "Guerilla Camo v7 (West Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer7_co.paa"};
+                factions[] = {};
+            };
+            class Guer7IS
+            {
+                displayName = "Guerilla Camo v7 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer7_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer8
+            {
+                displayName = "Guerilla Camo v8 (North Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer8_co.paa"};
+                factions[] = {};
+            };
+            class Guer8IS
+            {
+                displayName = "Guerilla Camo v8 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer8_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer9
+            {
+                displayName = "Guerilla Camo v9";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"};
+                factions[] = {};
+            };
+            class Guer9IS
+            {
+                displayName = "Guerilla Camo v9 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer9_is_co.paa"};
+                factions[] = {};
+            };
+        };
+    };
+
+    class CUP_Hilux_podnos_Base: CUP_Hilux_Base
+    {
+        class textureSources
+        {
+            class White
+            {
+                displayName = "Standard White";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"};
+                factions[] = {};
+            };
+            class WhiteIS
+            {
+                displayName = "Standard White (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_white_is_co.paa"};
+                factions[] = {};
+            };
+            class Creme
+            {
+                displayName = "Creme (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"};
+                factions[] = {};
+            };
+            class CremeIS
+            {
+                displayName = "Creme (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_creme_is_co.paa"};
+                factions[] = {};
+            };
+            class Blue
+            {
+                displayName = "Blue (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"};
+                factions[] = {};
+            };
+            class BlackIS
+            {
+                displayName = "Black (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_black_is_co.paa"};
+                factions[] = {};
+            };
+            class BlueGreen
+            {
+                displayName = "Blue Green (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_bluegreen_is_co.paa"};
+                factions[] = {};
+            };
+            class Tan
+            {
+                displayName = "Tan (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"};
+                factions[] = {};
+            };
+            class TanIS
+            {
+                displayName = "Tan (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_tan_is_co.paa"};
+                factions[] = {};
+            };
+            class PolyWood
+            {
+                displayName = "Polygon Woodland";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_polywood_co.paa"};
+                factions[] = {};
+            };
+            class PolyDesert
+            {
+                displayName = "Polygon Desert";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_polydesert_co.paa"};
+                factions[] = {};
+            };
+            class ArmyGreen
+            {
+                displayName = "Army Green";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_armygreen_co.paa"};
+                factions[] = {};
+            };
+            class ArmyGreenIS
+            {
+                displayName = "Army Green (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_armygreen_is_co.paa"};
+                factions[] = {};
+            };
+            class RedIS
+            {
+                displayName = "Red (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_red_is_co.paa"};
+                factions[] = {};
+            };
+            class Red
+            {
+                displayName = "Red (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"};
+                factions[] = {};
+            };
+            class Guer1
+            {
+                displayName = "Guerilla Camo v1";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"};
+                factions[] = {};
+            };
+            class Guer2
+            {
+                displayName = "Guerilla Camo v2 (Libya)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer2_co.paa"};
+                factions[] = {};
+            };
+            class Guer3
+            {
+                displayName = "Guerilla Camo v3 (North Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"};
+                factions[] = {};
+            };
+            class Guer3IS
+            {
+                displayName = "Guerilla Camo v3 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer3_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer4
+            {
+                displayName = "Guerilla Camo v4 (East Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"};
+                factions[] = {};
+            };
+            class Guer4IS
+            {
+                displayName = "Guerilla Camo v4 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer4_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer5
+            {
+                displayName = "Guerilla Camo v5 (Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"};
+                factions[] = {};
+            };
+            class Guer6
+            {
+                displayName = "Guerilla Camo v6 (North Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer6_co.paa"};
+                factions[] = {};
+            };
+            class Guer6IS
+            {
+                displayName = "Guerilla Camo v6 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer6_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer7
+            {
+                displayName = "Guerilla Camo v7 (West Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer7_co.paa"};
+                factions[] = {};
+            };
+            class Guer7IS
+            {
+                displayName = "Guerilla Camo v7 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer7_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer8
+            {
+                displayName = "Guerilla Camo v8 (North Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer8_co.paa"};
+                factions[] = {};
+            };
+            class Guer8IS
+            {
+                displayName = "Guerilla Camo v8 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer8_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer9
+            {
+                displayName = "Guerilla Camo v9";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"};
+                factions[] = {};
+            };
+            class Guer9IS
+            {
+                displayName = "Guerilla Camo v9 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer9_is_co.paa"};
+                factions[] = {};
+            };
+        };
+    };
+
+    class CUP_Hilux_MLRS_Base: CUP_Hilux_Base
+    {
+        class textureSources
+        {
+            class White
+            {
+                displayName = "Standard White";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"};
+                factions[] = {};
+            };
+            class WhiteIS
+            {
+                displayName = "Standard White (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_white_is_co.paa"};
+                factions[] = {};
+            };
+            class Creme
+            {
+                displayName = "Creme (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"};
+                factions[] = {};
+            };
+            class CremeIS
+            {
+                displayName = "Creme (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_creme_is_co.paa"};
+                factions[] = {};
+            };
+            class BlackIS
+            {
+                displayName = "Black (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_black_is_co.paa"};
+                factions[] = {};
+            };
+            class Blue
+            {
+                displayName = "Blue (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"};
+                factions[] = {};
+            };
+            class BlueGreen
+            {
+                displayName = "Blue Green (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_bluegreen_is_co.paa"};
+                factions[] = {};
+            };
+            class Tan
+            {
+                displayName = "Tan (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"};
+                factions[] = {};
+            };
+            class TanIS
+            {
+                displayName = "Tan (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_tan_is_co.paa"};
+                factions[] = {};
+            };
+            class PolyWood
+            {
+                displayName = "Polygon Woodland";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_polywood_co.paa"};
+                factions[] = {};
+            };
+            class PolyDesert
+            {
+                displayName = "Polygon Desert";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_polydesert_co.paa"};
+                factions[] = {};
+            };
+            class ArmyGreen
+            {
+                displayName = "Army Green";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_armygreen_co.paa"};
+                factions[] = {};
+            };
+            class ArmyGreenIS
+            {
+                displayName = "Army Green (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_armygreen_is_co.paa"};
+                factions[] = {};
+            };
+            class RedIS
+            {
+                displayName = "Red (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_red_is_co.paa"};
+                factions[] = {};
+            };
+            class Red
+            {
+                displayName = "Red (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"};
+                factions[] = {};
+            };
+            class Guer1
+            {
+                displayName = "Guerilla Camo v1";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"};
+                factions[] = {};
+            };
+            class Guer2
+            {
+                displayName = "Guerilla Camo v2 (Libya)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer2_co.paa"};
+                factions[] = {};
+            };
+            class Guer3
+            {
+                displayName = "Guerilla Camo v3 (North Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"};
+                factions[] = {};
+            };
+            class Guer3IS
+            {
+                displayName = "Guerilla Camo v3 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer3_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer4
+            {
+                displayName = "Guerilla Camo v4 (East Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"};
+                factions[] = {};
+            };
+            class Guer4IS
+            {
+                displayName = "Guerilla Camo v4 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer4_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer5
+            {
+                displayName = "Guerilla Camo v5 (Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"};
+                factions[] = {};
+            };
+            class Guer6
+            {
+                displayName = "Guerilla Camo v6 (North Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer6_co.paa"};
+                factions[] = {};
+            };
+            class Guer6IS
+            {
+                displayName = "Guerilla Camo v6 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer6_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer7
+            {
+                displayName = "Guerilla Camo v7 (West Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer7_co.paa"};
+                factions[] = {};
+            };
+            class Guer7IS
+            {
+                displayName = "Guerilla Camo v7 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer7_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer8
+            {
+                displayName = "Guerilla Camo v8 (North Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer8_co.paa"};
+                factions[] = {};
+            };
+            class Guer8IS
+            {
+                displayName = "Guerilla Camo v8 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer8_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer9
+            {
+                displayName = "Guerilla Camo v9";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"};
+                factions[] = {};
+            };
+            class Guer9IS
+            {
+                displayName = "Guerilla Camo v9 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer9_is_co.paa"};
+                factions[] = {};
+            };
+        };
+    };
+
+    class CUP_Hilux_zu23_Base: CUP_Hilux_Base
+    {
+        class textureSources
+        {
+            class White
+            {
+                displayName = "Standard White";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"};
+                factions[] = {};
+            };
+            class WhiteIS
+            {
+                displayName = "Standard White (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_white_is_co.paa"};
+                factions[] = {};
+            };
+            class Creme
+            {
+                displayName = "Creme (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"};
+                factions[] = {};
+            };
+            class CremeIS
+            {
+                displayName = "Creme (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_creme_is_co.paa"};
+                factions[] = {};
+            };
+            class BlackIS
+            {
+                displayName = "Black (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_black_is_co.paa"};
+                factions[] = {};
+            };
+            class Blue
+            {
+                displayName = "Blue (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"};
+                factions[] = {};
+            };
+            class BlueGreen
+            {
+                displayName = "Blue Green (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_bluegreen_is_co.paa"};
+                factions[] = {};
+            };
+            class Tan
+            {
+                displayName = "Tan (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"};
+                factions[] = {};
+            };
+            class TanIS
+            {
+                displayName = "Tan (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_tan_is_co.paa"};
+                factions[] = {};
+            };
+            class PolyWood
+            {
+                displayName = "Polygon Woodland";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_polywood_co.paa"};
+                factions[] = {};
+            };
+            class PolyDesert
+            {
+                displayName = "Polygon Desert";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_polydesert_co.paa"};
+                factions[] = {};
+            };
+            class ArmyGreen
+            {
+                displayName = "Army Green";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_armygreen_co.paa"};
+                factions[] = {};
+            };
+            class ArmyGreenIS
+            {
+                displayName = "Army Green (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_armygreen_is_co.paa"};
+                factions[] = {};
+            };
+            class RedIS
+            {
+                displayName = "Red (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_red_is_co.paa"};
+                factions[] = {};
+            };
+            class Red
+            {
+                displayName = "Red (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"};
+                factions[] = {};
+            };
+            class Guer1
+            {
+                displayName = "Guerilla Camo v1";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"};
+                factions[] = {};
+            };
+            class Guer2
+            {
+                displayName = "Guerilla Camo v2 (Libya)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer2_co.paa"};
+                factions[] = {};
+            };
+            class Guer3
+            {
+                displayName = "Guerilla Camo v3 (North Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"};
+                factions[] = {};
+            };
+            class Guer3IS
+            {
+                displayName = "Guerilla Camo v3 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer3_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer4
+            {
+                displayName = "Guerilla Camo v4 (East Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"};
+                factions[] = {};
+            };
+            class Guer4IS
+            {
+                displayName = "Guerilla Camo v4 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer4_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer5
+            {
+                displayName = "Guerilla Camo v5 (Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"};
+                factions[] = {};
+            };
+            class Guer6
+            {
+                displayName = "Guerilla Camo v6 (North Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer6_co.paa"};
+                factions[] = {};
+            };
+            class Guer6IS
+            {
+                displayName = "Guerilla Camo v6 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer6_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer7
+            {
+                displayName = "Guerilla Camo v7 (West Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer7_co.paa"};
+                factions[] = {};
+            };
+            class Guer7IS
+            {
+                displayName = "Guerilla Camo v7 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer7_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer8
+            {
+                displayName = "Guerilla Camo v8 (North Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer8_co.paa"};
+                factions[] = {};
+            };
+            class Guer8IS
+            {
+                displayName = "Guerilla Camo v8 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer8_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer9
+            {
+                displayName = "Guerilla Camo v9";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"};
+                factions[] = {};
+            };
+            class Guer9IS
+            {
+                displayName = "Guerilla Camo v9 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer9_is_co.paa"};
+                factions[] = {};
+            };
+        };
+    };
+
+    class CUP_Hilux_BTR60_Base: CUP_Hilux_Base
+    {
+        class textureSources
+        {
+            class White
+            {
+                displayName = "Standard White";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"};
+                factions[] = {};
+            };
+            class WhiteIS
+            {
+                displayName = "Standard White (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_white_is_co.paa"};
+                factions[] = {};
+            };
+            class Creme
+            {
+                displayName = "Creme (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"};
+                factions[] = {};
+            };
+            class CremeIS
+            {
+                displayName = "Creme (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_creme_is_co.paa"};
+                factions[] = {};
+            };
+            class BlackIS
+            {
+                displayName = "Black (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_black_is_co.paa"};
+                factions[] = {};
+            };
+            class Blue
+            {
+                displayName = "Blue (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"};
+                factions[] = {};
+            };
+            class BlueGreen
+            {
+                displayName = "Blue Green (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_bluegreen_is_co.paa"};
+                factions[] = {};
+            };
+            class Tan
+            {
+                displayName = "Tan (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"};
+                factions[] = {};
+            };
+            class TanIS
+            {
+                displayName = "Tan (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_tan_is_co.paa"};
+                factions[] = {};
+            };
+            class PolyWood
+            {
+                displayName = "Polygon Woodland";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_polywood_co.paa"};
+                factions[] = {};
+            };
+            class PolyDesert
+            {
+                displayName = "Polygon Desert";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_polydesert_co.paa"};
+                factions[] = {};
+            };
+            class ArmyGreen
+            {
+                displayName = "Army Green";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_armygreen_co.paa"};
+                factions[] = {};
+            };
+            class ArmyGreenIS
+            {
+                displayName = "Army Green (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_armygreen_is_co.paa"};
+                factions[] = {};
+            };
+            class RedIS
+            {
+                displayName = "Red (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_red_is_co.paa"};
+                factions[] = {};
+            };
+            class Red
+            {
+                displayName = "Red (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"};
+                factions[] = {};
+            };
+            class Guer1
+            {
+                displayName = "Guerilla Camo v1";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"};
+                factions[] = {};
+            };
+            class Guer2
+            {
+                displayName = "Guerilla Camo v2 (Libya)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer2_co.paa"};
+                factions[] = {};
+            };
+            class Guer3
+            {
+                displayName = "Guerilla Camo v3 (North Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"};
+                factions[] = {};
+            };
+            class Guer3IS
+            {
+                displayName = "Guerilla Camo v3 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer3_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer4
+            {
+                displayName = "Guerilla Camo v4 (East Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"};
+                factions[] = {};
+            };
+            class Guer4IS
+            {
+                displayName = "Guerilla Camo v4 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer4_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer5
+            {
+                displayName = "Guerilla Camo v5 (Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"};
+                factions[] = {};
+            };
+            class Guer6
+            {
+                displayName = "Guerilla Camo v6 (North Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer6_co.paa"};
+                factions[] = {};
+            };
+            class Guer6IS
+            {
+                displayName = "Guerilla Camo v6 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer6_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer7
+            {
+                displayName = "Guerilla Camo v7 (West Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer7_co.paa"};
+                factions[] = {};
+            };
+            class Guer7IS
+            {
+                displayName = "Guerilla Camo v7 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer7_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer8
+            {
+                displayName = "Guerilla Camo v8 (North Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer8_co.paa"};
+                factions[] = {};
+            };
+            class Guer8IS
+            {
+                displayName = "Guerilla Camo v8 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer8_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer9
+            {
+                displayName = "Guerilla Camo v9";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"};
+                factions[] = {};
+            };
+            class Guer9IS
+            {
+                displayName = "Guerilla Camo v9 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer9_is_co.paa"};
+                factions[] = {};
+            };
+        };
+    };
+
+    class CUP_Hilux_BMP1_Base: CUP_Hilux_Base
+    {
+        class textureSources
+        {
+            class White
+            {
+                displayName = "Standard White";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"};
+                factions[] = {};
+            };
+            class WhiteIS
+            {
+                displayName = "Standard White (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_white_is_co.paa"};
+                factions[] = {};
+            };
+            class Creme
+            {
+                displayName = "Creme (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"};
+                factions[] = {};
+            };
+            class CremeIS
+            {
+                displayName = "Creme (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_creme_is_co.paa"};
+                factions[] = {};
+            };
+            class BlackIS
+            {
+                displayName = "Black (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_black_is_co.paa"};
+                factions[] = {};
+            };
+            class Blue
+            {
+                displayName = "Blue (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"};
+                factions[] = {};
+            };
+            class BlueGreen
+            {
+                displayName = "Blue Green (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_bluegreen_is_co.paa"};
+                factions[] = {};
+            };
+            class Tan
+            {
+                displayName = "Tan (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"};
+                factions[] = {};
+            };
+            class TanIS
+            {
+                displayName = "Tan (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_tan_is_co.paa"};
+                factions[] = {};
+            };
+            class PolyWood
+            {
+                displayName = "Polygon Woodland";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_polywood_co.paa"};
+                factions[] = {};
+            };
+            class PolyDesert
+            {
+                displayName = "Polygon Desert";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_polydesert_co.paa"};
+                factions[] = {};
+            };
+            class ArmyGreen
+            {
+                displayName = "Army Green";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_armygreen_co.paa"};
+                factions[] = {};
+            };
+            class ArmyGreenIS
+            {
+                displayName = "Army Green (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_armygreen_is_co.paa"};
+                factions[] = {};
+            };
+            class RedIS
+            {
+                displayName = "Red (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_red_is_co.paa"};
+                factions[] = {};
+            };
+            class Red
+            {
+                displayName = "Red (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"};
+                factions[] = {};
+            };
+            class Guer1
+            {
+                displayName = "Guerilla Camo v1";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"};
+                factions[] = {};
+            };
+            class Guer2
+            {
+                displayName = "Guerilla Camo v2 (Libya)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer2_co.paa"};
+                factions[] = {};
+            };
+            class Guer3
+            {
+                displayName = "Guerilla Camo v3 (North Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"};
+                factions[] = {};
+            };
+            class Guer3IS
+            {
+                displayName = "Guerilla Camo v3 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer3_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer4
+            {
+                displayName = "Guerilla Camo v4 (East Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"};
+                factions[] = {};
+            };
+            class Guer4IS
+            {
+                displayName = "Guerilla Camo v4 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer4_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer5
+            {
+                displayName = "Guerilla Camo v5 (Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"};
+                factions[] = {};
+            };
+            class Guer6
+            {
+                displayName = "Guerilla Camo v6 (North Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer6_co.paa"};
+                factions[] = {};
+            };
+            class Guer6IS
+            {
+                displayName = "Guerilla Camo v6 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer6_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer7
+            {
+                displayName = "Guerilla Camo v7 (West Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer7_co.paa"};
+                factions[] = {};
+            };
+            class Guer7IS
+            {
+                displayName = "Guerilla Camo v7 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer7_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer8
+            {
+                displayName = "Guerilla Camo v8 (North Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer8_co.paa"};
+                factions[] = {};
+            };
+            class Guer8IS
+            {
+                displayName = "Guerilla Camo v8 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer8_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer9
+            {
+                displayName = "Guerilla Camo v9";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"};
+                factions[] = {};
+            };
+            class Guer9IS
+            {
+                displayName = "Guerilla Camo v9 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer9_is_co.paa"};
+                factions[] = {};
+            };
+        };
+    };
+
+    class CUP_Hilux_AGS30_Base: CUP_Hilux_Base
+    {
+        class textureSources
+        {
+            class White
+            {
+                displayName = "Standard White";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"};
+                factions[] = {};
+            };
+            class WhiteIS
+            {
+                displayName = "Standard White (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_white_is_co.paa"};
+                factions[] = {};
+            };
+            class Creme
+            {
+                displayName = "Creme (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"};
+                factions[] = {};
+            };
+            class CremeIS
+            {
+                displayName = "Creme (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_creme_is_co.paa"};
+                factions[] = {};
+            };
+            class BlackIS
+            {
+                displayName = "Black (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_black_is_co.paa"};
+                factions[] = {};
+            };
+            class Blue
+            {
+                displayName = "Blue (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"};
+                factions[] = {};
+            };
+            class BlueGreen
+            {
+                displayName = "Blue Green (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_bluegreen_is_co.paa"};
+                factions[] = {};
+            };
+            class Tan
+            {
+                displayName = "Tan (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"};
+                factions[] = {};
+            };
+            class TanIS
+            {
+                displayName = "Tan (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_tan_is_co.paa"};
+                factions[] = {};
+            };
+            class PolyWood
+            {
+                displayName = "Polygon Woodland";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_polywood_co.paa"};
+                factions[] = {};
+            };
+            class PolyDesert
+            {
+                displayName = "Polygon Desert";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_polydesert_co.paa"};
+                factions[] = {};
+            };
+            class ArmyGreen
+            {
+                displayName = "Army Green";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_armygreen_co.paa"};
+                factions[] = {};
+            };
+            class ArmyGreenIS
+            {
+                displayName = "Army Green (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_armygreen_is_co.paa"};
+                factions[] = {};
+            };
+            class RedIS
+            {
+                displayName = "Red (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_red_is_co.paa"};
+                factions[] = {};
+            };
+            class Red
+            {
+                displayName = "Red (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"};
+                factions[] = {};
+            };
+            class Guer1
+            {
+                displayName = "Guerilla Camo v1";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"};
+                factions[] = {};
+            };
+            class Guer2
+            {
+                displayName = "Guerilla Camo v2 (Libya)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer2_co.paa"};
+                factions[] = {};
+            };
+            class Guer3
+            {
+                displayName = "Guerilla Camo v3 (North Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"};
+                factions[] = {};
+            };
+            class Guer3IS
+            {
+                displayName = "Guerilla Camo v3 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer3_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer4
+            {
+                displayName = "Guerilla Camo v4 (East Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"};
+                factions[] = {};
+            };
+            class Guer4IS
+            {
+                displayName = "Guerilla Camo v4 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer4_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer5
+            {
+                displayName = "Guerilla Camo v5 (Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"};
+                factions[] = {};
+            };
+            class Guer6
+            {
+                displayName = "Guerilla Camo v6 (North Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer6_co.paa"};
+                factions[] = {};
+            };
+            class Guer6IS
+            {
+                displayName = "Guerilla Camo v6 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer6_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer7
+            {
+                displayName = "Guerilla Camo v7 (West Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer7_co.paa"};
+                factions[] = {};
+            };
+            class Guer7IS
+            {
+                displayName = "Guerilla Camo v7 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer7_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer8
+            {
+                displayName = "Guerilla Camo v8 (North Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer8_co.paa"};
+                factions[] = {};
+            };
+            class Guer8IS
+            {
+                displayName = "Guerilla Camo v8 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer8_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer9
+            {
+                displayName = "Guerilla Camo v9";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"};
+                factions[] = {};
+            };
+            class Guer9IS
+            {
+                displayName = "Guerilla Camo v9 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer9_is_co.paa"};
+                factions[] = {};
+            };
+        };
+    };
+
+    class CUP_Hilux_M2_Base: CUP_Hilux_Base
+    {
+        class textureSources
+        {
+            class White
+            {
+                displayName = "Standard White";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"};
+                factions[] = {};
+            };
+            class WhiteIS
+            {
+                displayName = "Standard White (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_white_is_co.paa"};
+                factions[] = {};
+            };
+            class Creme
+            {
+                displayName = "Creme (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"};
+                factions[] = {};
+            };
+            class CremeIS
+            {
+                displayName = "Creme (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_creme_is_co.paa"};
+                factions[] = {};
+            };
+            class BlackIS
+            {
+                displayName = "Black (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_black_is_co.paa"};
+                factions[] = {};
+            };
+            class Blue
+            {
+                displayName = "Blue (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"};
+                factions[] = {};
+            };
+            class BlueGreen
+            {
+                displayName = "Blue Green (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_bluegreen_is_co.paa"};
+                factions[] = {};
+            };
+            class Tan
+            {
+                displayName = "Tan (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"};
+                factions[] = {};
+            };
+            class TanIS
+            {
+                displayName = "Tan (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_tan_is_co.paa"};
+                factions[] = {};
+            };
+            class PolyWood
+            {
+                displayName = "Polygon Woodland";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_polywood_co.paa"};
+                factions[] = {};
+            };
+            class PolyDesert
+            {
+                displayName = "Polygon Desert";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_polydesert_co.paa"};
+                factions[] = {};
+            };
+            class ArmyGreen
+            {
+                displayName = "Army Green";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_armygreen_co.paa"};
+                factions[] = {};
+            };
+            class ArmyGreenIS
+            {
+                displayName = "Army Green (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_armygreen_is_co.paa"};
+                factions[] = {};
+            };
+            class RedIS
+            {
+                displayName = "Red (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_red_is_co.paa"};
+                factions[] = {};
+            };
+            class Red
+            {
+                displayName = "Red (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"};
+                factions[] = {};
+            };
+            class Guer1
+            {
+                displayName = "Guerilla Camo v1";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"};
+                factions[] = {};
+            };
+            class Guer2
+            {
+                displayName = "Guerilla Camo v2 (Libya)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer2_co.paa"};
+                factions[] = {};
+            };
+            class Guer3
+            {
+                displayName = "Guerilla Camo v3 (North Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"};
+                factions[] = {};
+            };
+            class Guer3IS
+            {
+                displayName = "Guerilla Camo v3 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer3_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer4
+            {
+                displayName = "Guerilla Camo v4 (East Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"};
+                factions[] = {};
+            };
+            class Guer4IS
+            {
+                displayName = "Guerilla Camo v4 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer4_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer5
+            {
+                displayName = "Guerilla Camo v5 (Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"};
+                factions[] = {};
+            };
+            class Guer6
+            {
+                displayName = "Guerilla Camo v6 (North Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer6_co.paa"};
+                factions[] = {};
+            };
+            class Guer6IS
+            {
+                displayName = "Guerilla Camo v6 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer6_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer7
+            {
+                displayName = "Guerilla Camo v7 (West Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer7_co.paa"};
+                factions[] = {};
+            };
+            class Guer7IS
+            {
+                displayName = "Guerilla Camo v7 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer7_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer8
+            {
+                displayName = "Guerilla Camo v8 (North Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer8_co.paa"};
+                factions[] = {};
+            };
+            class Guer8IS
+            {
+                displayName = "Guerilla Camo v8 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer8_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer9
+            {
+                displayName = "Guerilla Camo v9";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"};
+                factions[] = {};
+            };
+            class Guer9IS
+            {
+                displayName = "Guerilla Camo v9 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer9_is_co.paa"};
+                factions[] = {};
+            };
+        };
+    };
+
+    class CUP_Hilux_UB32_Base: CUP_Hilux_Base
+    {
+        class textureSources
+        {
+            class White
+            {
+                displayName = "Standard White";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"};
+                factions[] = {};
+            };
+            class WhiteIS
+            {
+                displayName = "Standard White (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_white_is_co.paa"};
+                factions[] = {};
+            };
+            class Creme
+            {
+                displayName = "Creme (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"};
+                factions[] = {};
+            };
+            class CremeIS
+            {
+                displayName = "Creme (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_creme_is_co.paa"};
+                factions[] = {};
+            };
+            class BlackIS
+            {
+                displayName = "Black (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_black_is_co.paa"};
+                factions[] = {};
+            };
+            class Blue
+            {
+                displayName = "Blue (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"};
+                factions[] = {};
+            };
+            class BlueGreen
+            {
+                displayName = "Blue Green (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_bluegreen_is_co.paa"};
+                factions[] = {};
+            };
+            class Tan
+            {
+                displayName = "Tan (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"};
+                factions[] = {};
+            };
+            class TanIS
+            {
+                displayName = "Tan (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_tan_is_co.paa"};
+                factions[] = {};
+            };
+            class PolyWood
+            {
+                displayName = "Polygon Woodland";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_polywood_co.paa"};
+                factions[] = {};
+            };
+            class PolyDesert
+            {
+                displayName = "Polygon Desert";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_polydesert_co.paa"};
+                factions[] = {};
+            };
+            class ArmyGreen
+            {
+                displayName = "Army Green";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_armygreen_co.paa"};
+                factions[] = {};
+            };
+            class ArmyGreenIS
+            {
+                displayName = "Army Green (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_armygreen_is_co.paa"};
+                factions[] = {};
+            };
+            class RedIS
+            {
+                displayName = "Red (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_red_is_co.paa"};
+                factions[] = {};
+            };
+            class Red
+            {
+                displayName = "Red (Retro Stripe)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"};
+                factions[] = {};
+            };
+            class Guer1
+            {
+                displayName = "Guerilla Camo v1";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"};
+                factions[] = {};
+            };
+            class Guer2
+            {
+                displayName = "Guerilla Camo v2 (Libya)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer2_co.paa"};
+                factions[] = {};
+            };
+            class Guer3
+            {
+                displayName = "Guerilla Camo v3 (North Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"};
+                factions[] = {};
+            };
+            class Guer3IS
+            {
+                displayName = "Guerilla Camo v3 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer3_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer4
+            {
+                displayName = "Guerilla Camo v4 (East Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"};
+                factions[] = {};
+            };
+            class Guer4IS
+            {
+                displayName = "Guerilla Camo v4 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer4_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer5
+            {
+                displayName = "Guerilla Camo v5 (Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"};
+                factions[] = {};
+            };
+            class Guer6
+            {
+                displayName = "Guerilla Camo v6 (North Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer6_co.paa"};
+                factions[] = {};
+            };
+            class Guer6IS
+            {
+                displayName = "Guerilla Camo v6 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer6_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer7
+            {
+                displayName = "Guerilla Camo v7 (West Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer7_co.paa"};
+                factions[] = {};
+            };
+            class Guer7IS
+            {
+                displayName = "Guerilla Camo v7 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer7_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer8
+            {
+                displayName = "Guerilla Camo v8 (North Africa)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer8_co.paa"};
+                factions[] = {};
+            };
+            class Guer8IS
+            {
+                displayName = "Guerilla Camo v8 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer8_is_co.paa"};
+                factions[] = {};
+            };
+            class Guer9
+            {
+                displayName = "Guerilla Camo v9";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"};
+                factions[] = {};
+            };
+            class Guer9IS
+            {
+                displayName = "Guerilla Camo v9 (ISIS)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer9_is_co.paa"};
+                factions[] = {};
+            };
+        };
+    };
+
     class Offroad_01_repair_military_base_F : Offroad_01_base_F
     {
         class textureSources
