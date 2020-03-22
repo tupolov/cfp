@@ -230,8 +230,8 @@ class CfgGroups {
             class Motorized {
                 name = "Motorized Infantry";
 
-                class cfp_o_sorebel_motorized_pk_technical {
-                    name = "PK Technical";
+                class cfp_o_sorebel_motorized_technical {
+                    name = "Technical Patrol";
                     side = 0;
                     faction = "CFP_O_SOREBEL";
                     icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
@@ -239,9 +239,39 @@ class CfgGroups {
 
                     class Unit0 {
                         position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_SOREBEL_Hilux_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_O_SOREBEL_Technical_PK_01";
+                        vehicle = "CFP_O_SOREBEL_Warlord_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_SOREBEL_Rifleman_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_SOREBEL_Rifleman_Light_01";
+                    };
+                    class Unit4 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_SOREBEL_Rifleman_AT_01";
+                    };
+                    class Unit5 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_SOREBEL_Autorifleman_01";
                     };
                 };
 
@@ -256,7 +286,7 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_O_SOREBEL_Technical_DSHkM_01";
+                        vehicle = "CFP_O_SOREBEL_Hilux_DShKM_01";
                     };
                 };
 
@@ -271,7 +301,22 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_O_SOREBEL_Technical_SPG_01";
+                        vehicle = "CFP_O_SOREBEL_Hilux_SPG_01";
+                    };
+                };
+
+                class cfp_o_sorebel_motorized_zu23_technical {
+                    name = "ZU-23 Technical ";
+                    side = 0;
+                    faction = "CFP_O_SOREBEL";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+                    rarityGroup = 0.2;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_SOREBEL_Hilux_ZU_23_01";
                     };
                 };
 
