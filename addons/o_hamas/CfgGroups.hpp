@@ -454,7 +454,7 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_O_HAMAS_Technical_MG_01";
+                        vehicle = "CFP_O_HAMAS_Hilux_DShKM_01";
                     };
                 };
 
@@ -469,7 +469,7 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_O_HAMAS_Technical_SPG_01";
+                        vehicle = "CFP_O_HAMAS_Hilux_SPG_01";
                     };
                 };
 
@@ -484,7 +484,7 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_O_HAMAS_Technical_Metis_01";
+                        vehicle = "CFP_O_HAMAS_Hilux_Metis_01";
                     };
                 };
 
@@ -499,7 +499,7 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_O_HAMAS_Technical_Unarmed_01";
+                        vehicle = "CFP_O_HAMAS_Hilux_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
@@ -532,7 +532,7 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_O_HAMAS_Ural_ZU_23_01";
+                        vehicle = "CFP_O_HAMAS_Hilux_ZU_23_01";
                     };
                 };
 
@@ -547,7 +547,7 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_O_HAMAS_Technical_Unarmed_01";
+                        vehicle = "CFP_O_HAMAS_Hilux_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
@@ -580,7 +580,7 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_O_HAMAS_Technical_Unarmed_01";
+                        vehicle = "CFP_O_HAMAS_Hilux_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
