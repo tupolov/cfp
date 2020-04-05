@@ -1769,7 +1769,7 @@ class CfgVehicles
         side = 0;
         faction = "CFP_O_SDARMY";
         crew = "CFP_O_SDARMY_Soldier_07";
-        hiddenSelectionsTextures[] = {"\CUP\WheeledVehicles\CUP_WheeledVehicles_BRDM2\data\textures\rus_brdm2_01_co.paa","\CUP\WheeledVehicles\CUP_WheeledVehicles_BRDM2\data\brdm2_02_co.paa"};
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\BRDM\brdm2_01_sudan.paa","\CUP\WheeledVehicles\CUP_WheeledVehicles_BRDM2\data\brdm2_02_co.paa"};
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_SDARMY_Soldier_07"; };
