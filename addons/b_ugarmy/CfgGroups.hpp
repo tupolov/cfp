@@ -710,8 +710,8 @@ class CfgGroups {
             class Mechanized {
                 name = "Mechanized Infantry";
 
-                class cfp_b_ugarmy_mechanized_squad_btr_90 {
-                    name = "Mechanized Squad [BTR-90]";
+                class cfp_b_ugarmy_mechanized_squad_btr_80 {
+                    name = "Mechanized Squad [BTR-0]";
                     side = 1;
                     faction = "CFP_B_UGARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
@@ -721,7 +721,7 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_UGARMY_BTR_90_01";
+                        vehicle = "CFP_B_UGARMY_BTR_80_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};

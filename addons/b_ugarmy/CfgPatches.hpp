@@ -55,6 +55,8 @@ class CfgPatches {
             "CFP_B_UGARMY_D30_AT_01",
             "CFP_B_UGARMY_ZU_23_01",
             "CFP_B_UGARMY_BTR_90_01",
+            "CFP_B_UGARMY_BTR_80_01",
+            "CFP_B_UGARMY_BTR_80A_01",
             "CFP_B_UGARMY_BTR_60_01",
             "CFP_B_UGARMY_Sniper_01"
         };
@@ -64,6 +66,7 @@ class CfgPatches {
             "A3_Characters_F",
             "CUP_Weapons_StaticWeapons",
             "CUP_WheeledVehicles_BTR90",
+            "CUP_WheeledVehicles_BTR80",
             "cfp_vehicles",
             "CUP_WheeledVehicles_BTR60",
             "CUP_AirVehicles_Mi8",

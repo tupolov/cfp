@@ -111,6 +111,42 @@ class CfgVehicles {
         };
     };
 
+    class CUP_O_BTR80_SLA;
+    class CUP_O_BTR80_SLA_OCimport_01 : CUP_O_BTR80_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_BTR80_SLA_OCimport_02 : CUP_O_BTR80_SLA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+            class CommanderTurret;
+            class CargoTurret_01;
+            class CargoTurret_02;
+            class CargoTurret_03;
+            class CargoTurret_04;
+            class CargoTurret_05;
+            class CargoTurret_06;
+            class CargoTurret_07;
+            class CargoTurret_08;
+        };
+    };
+
+    class CUP_O_BTR80A_SLA;
+    class CUP_O_BTR80A_SLA_OCimport_01 : CUP_O_BTR80A_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_BTR80A_SLA_OCimport_02 : CUP_O_BTR80A_SLA_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+            class CommanderTurret;
+            class CargoTurret_01;
+            class CargoTurret_02;
+            class CargoTurret_03;
+            class CargoTurret_04;
+            class CargoTurret_05;
+            class CargoTurret_06;
+            class CargoTurret_07;
+            class CargoTurret_08;
+        };
+    };
+
     class CUP_O_UAZ_Open_SLA;
     class CUP_O_UAZ_Open_SLA_OCimport_01 : CUP_O_UAZ_Open_SLA { scope = 0; class EventHandlers; class Turrets; };
     class CUP_O_UAZ_Open_SLA_OCimport_02 : CUP_O_UAZ_Open_SLA_OCimport_01 {
@@ -985,6 +1021,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_UGARMY";
         crew = "CFP_B_UGArmy_Crew_01";
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\vehicles\BMP2\NKoreaBMP2body1.paa",
+            "\x\cfp\addons\vehicles\BMP2\NKoreaBMP2body2.paa"
+        };
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_UGArmy_Crew_01"; };
@@ -1012,6 +1052,83 @@ class CfgVehicles {
 
     };
 
+    class CFP_B_UGARMY_BTR_80A_01 : CUP_O_BTR80A_SLA_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "BTR-80A";
+        side = 1;
+        faction = "CFP_B_UGARMY";
+        crew = "CFP_B_UGARMY_Crew_01";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "CFP_B_UGARMY_Crew_01"; };
+            class CommanderTurret : CommanderTurret { gunnerType = "CFP_B_UGARMY_Crew_01"; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
+            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
+            class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
+            class CargoTurret_06 : CargoTurret_06 { gunnerType = ""; };
+            class CargoTurret_07 : CargoTurret_07 { gunnerType = ""; };
+            class CargoTurret_08 : CargoTurret_08 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_B_UGARMY_BTR_80_01 : CUP_O_BTR80_SLA_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "BTR-80";
+        side = 1;
+        faction = "CFP_B_UGARMY";
+        crew = "CFP_B_UGARMY_Crew_01";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "CFP_B_UGARMY_Crew_01"; };
+            class CommanderTurret : CommanderTurret { gunnerType = "CFP_B_UGARMY_Crew_01"; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
+            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
+            class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
+            class CargoTurret_06 : CargoTurret_06 { gunnerType = ""; };
+            class CargoTurret_07 : CargoTurret_07 { gunnerType = ""; };
+            class CargoTurret_08 : CargoTurret_08 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
     class CFP_B_UGARMY_BRDM_2_01 : CUP_O_BRDM2_SLA_OCimport_02 {
         editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_BRDM_2_01.JPG;
         author = "Drew";
@@ -1021,6 +1138,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_UGARMY";
         crew = "CFP_B_UGArmy_Crew_01";
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\vehicles\BRDM\brdm2_01_nk.paa",
+            "\CUP\WheeledVehicles\CUP_WheeledVehicles_BRDM2\data\brdm2_02_co.paa"
+        };
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_UGArmy_Crew_01"; };
@@ -1883,8 +2004,8 @@ class CfgVehicles {
         faction = "CFP_B_UGARMY";
         crew = "CFP_B_UGArmy_Crew_01";
         hiddenSelectionsTextures[] = {
-            "\x\cfp\addons\vehicles\BTR60\lgreenbody1.paa",
-            "\x\cfp\addons\vehicles\BTR60\lgreenbody2.paa"
+            "\x\cfp\addons\vehicles\BTR60\nkoreabody1.paa",
+            "\x\cfp\addons\vehicles\BTR60\nkoreabody2.paa"
         };
 
         class Turrets : Turrets {
