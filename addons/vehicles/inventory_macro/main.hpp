@@ -1,0 +1,5 @@
+#include "inventory_basicDefines.hpp"
+#include "inventory_weaponsMacro.hpp"
+#include "inventory_magazinesMacro.hpp"
+#include "inventory_backpacksMacro.hpp"
+#include "inventory_itemsMacro.hpp"
