@@ -213,8 +213,8 @@ class CfgVehicles {
 
         // Militia Headgear
             headgearList[] = {
-        "CFP_PASGTHelmet_Marpat1", 0.2,
-        "CFP_PASGTHelmet_Marpat2", 0.2
+        "CUP_H_PASGTv2_WDL", 0.2,
+        "CUP_H_PASGTv2_WDL_GG", 0.2
             };
 
         facewearList[] = {
