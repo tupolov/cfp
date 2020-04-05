@@ -1415,6 +1415,166 @@ class CfgVehicles {
         icon = "iconMan";
     };
 
+    class CFP_O_RUMVD_Gorka_MCam : CUP_O_RUS_Gorka_Green_gloves_kneepads
+    {
+        scope = 1;
+        scopeCurator = 0;
+        displayName = "Gorka (Multicam)";
+        model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_RUS_Gorka_gloves_kneepads.p3d";
+        uniformClass = "CUP_U_O_RUMVD_Gorka_MCam";
+
+        hiddenSelections[] = {"camo", "camo1", "clan", "insignia"};
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\o_rumvd\data\gorka_mcam_co.paa",
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\oakley_2_od_co.paa",
+        };
+        icon = "iconMan";
+    };
+
+    class CFP_O_RUMVD_Gorka_ATACSAU_MCam : CUP_O_RUS_Gorka_Green_gloves_kneepads
+    {
+        scope = 1;
+        scopeCurator = 0;
+        displayName = "Gorka (ATACS AU / Multicam)";
+        model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_RUS_Gorka_gloves_kneepads.p3d";
+        uniformClass = "CUP_U_O_RUMVD_Gorka_ATACSAU_MCam";
+
+        hiddenSelections[] = {"camo", "camo1", "clan", "insignia"};
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\o_rumvd\data\gorka_atacsau_mcam_co.paa",
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\oakley_2_od_co.paa",
+        };
+        icon = "iconMan";
+    };
+
+    class CFP_O_RUMVD_Gorka_ATACSAU : CUP_O_RUS_Gorka_Green_gloves_kneepads
+    {
+        scope = 1;
+        scopeCurator = 0;
+        displayName = "Gorka (ATACS AU)";
+        model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_RUS_Gorka_gloves_kneepads.p3d";
+        uniformClass = "CUP_U_O_RUMVD_Gorka_ATACSAU";
+
+        hiddenSelections[] = {"camo", "camo1", "clan", "insignia"};
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\o_rumvd\data\gorka_atacsau_co.paa",
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\oakley_2_tan_co.paa",
+        };
+        icon = "iconMan";
+    };
+
+    class CFP_O_RUMVD_Gorka_MCam_ATACSAU : CUP_O_RUS_Gorka_Green_gloves_kneepads
+    {
+        scope = 1;
+        scopeCurator = 0;
+        displayName = "Gorka (Multicam / ATACS AU)";
+        model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_RUS_Gorka_gloves_kneepads.p3d";
+        uniformClass = "CUP_U_O_RUMVD_Gorka_MCam_ATACSAU";
+
+        hiddenSelections[] = {"camo", "camo1", "clan", "insignia"};
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\o_rumvd\data\gorka_mcam_atacsau_co.paa",
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\oakley_2_tan_co.paa",
+        };
+        icon = "iconMan";
+    };
+
+    class CFP_O_RUMVD_Gorka_ATACSFG_MCam : CUP_O_RUS_Gorka_Green_gloves_kneepads
+    {
+        scope = 1;
+        scopeCurator = 0;
+        displayName = "Gorka (ATACS FG / Multicam)";
+        model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_RUS_Gorka_gloves_kneepads.p3d";
+        uniformClass = "CUP_U_O_RUMVD_Gorka_ATACSFG_MCam";
+
+        hiddenSelections[] = {"camo", "camo1", "clan", "insignia"};
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\o_rumvd\data\gorka_atacsfg_mcam_co.paa",
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\oakley_2_od_co.paa",
+        };
+        icon = "iconMan";
+    };
+
+    class CFP_O_RUMVD_Gorka_ATACSFG : CUP_O_RUS_Gorka_Green_gloves_kneepads
+    {
+        scope = 1;
+        scopeCurator = 0;
+        displayName = "Gorka (ATACS FG)";
+        model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_RUS_Gorka_gloves_kneepads.p3d";
+        uniformClass = "CUP_U_O_RUMVD_Gorka_ATACSFG";
+
+        hiddenSelections[] = {"camo", "camo1", "clan", "insignia"};
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\o_rumvd\data\gorka_atacsfg_co.paa",
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\oakley_2_od_co.paa",
+        };
+        icon = "iconMan";
+    };
+
+    class CFP_O_RUMVD_Gorka_MCam_ATACSFG : CUP_O_RUS_Gorka_Green_gloves_kneepads
+    {
+        scope = 1;
+        scopeCurator = 0;
+        displayName = "Gorka (Multicam / ATACS FG)";
+        model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_RUS_Gorka_gloves_kneepads.p3d";
+        uniformClass = "CUP_U_O_RUMVD_Gorka_MCam_ATACSFG";
+
+        hiddenSelections[] = {"camo", "camo1", "clan", "insignia"};
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\o_rumvd\data\gorka_mcam_atacsfg_co.paa",
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\oakley_2_od_co.paa",
+        };
+        icon = "iconMan";
+    };
+
+    class CFP_O_RUMVD_Gorka_Berezka_White : CUP_O_RUS_Gorka_Green_gloves_kneepads
+    {
+        scope = 1;
+        scopeCurator = 0;
+        displayName = "Gorka (Berezka White)";
+        model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_RUS_Gorka_gloves_kneepads.p3d";
+        uniformClass = "CUP_U_O_RUMVD_Gorka_Berezka_White";
+
+        hiddenSelections[] = {"camo", "camo1", "clan", "insignia"};
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\o_rumvd\data\gorka_berezka_white_co.paa",
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\oakley_2_od_co.paa",
+        };
+        icon = "iconMan";
+    };
+
+    class CFP_O_RUMVD_Gorka_White : CUP_O_RUS_Gorka_Green_gloves_kneepads
+    {
+        scope = 1;
+        scopeCurator = 0;
+        displayName = "Gorka (White)";
+        model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_RUS_Gorka_gloves_kneepads.p3d";
+        uniformClass = "CUP_U_O_RUMVD_Gorka_White";
+
+        hiddenSelections[] = {"camo", "camo1", "clan", "insignia"};
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\o_rumvd\data\gorka_white_co.paa",
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\oakley_2_od_co.paa",
+        };
+        icon = "iconMan";
+    };
+
+    class CFP_O_RUMVD_Gorka_Klyaksa : CUP_O_RUS_Gorka_Green_gloves_kneepads
+    {
+        scope = 1;
+        scopeCurator = 0;
+        displayName = "Gorka (Klyaksa)";
+        model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_RUS_Gorka_gloves_kneepads.p3d";
+        uniformClass = "CUP_U_O_RUMVD_Gorka_Klyaksa";
+
+        hiddenSelections[] = {"camo", "camo1", "clan", "insignia"};
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\o_rumvd\data\gorka_klyaksa_co.paa",
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\oakley_2_od_co.paa",
+        };
+        icon = "iconMan";
+    };
+
     class CUP_O_RUS_Soldier_02;
     class CFP_O_RUMVD_SURPAT : CUP_O_RUS_Soldier_02
     {
