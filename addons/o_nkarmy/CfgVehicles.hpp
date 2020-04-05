@@ -105,9 +105,9 @@ class CfgVehicles {
         };
     };
 
-    class CUP_O_BTR80A_DESERT_RU;
-    class CUP_O_BTR80A_DESERT_RU_OCimport_01 : CUP_O_BTR80A_DESERT_RU { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_BTR80A_DESERT_RU_OCimport_02 : CUP_O_BTR80A_DESERT_RU_OCimport_01 {
+    class CUP_O_BTR80A_SLA;
+    class CUP_O_BTR80A_SLA_OCimport_01 : CUP_O_BTR80A_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_BTR80A_SLA_OCimport_02 : CUP_O_BTR80A_SLA_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
@@ -123,9 +123,9 @@ class CfgVehicles {
         };
     };
 
-    class CUP_O_BTR80_DESERT_RU;
-    class CUP_O_BTR80_DESERT_RU_OCimport_01 : CUP_O_BTR80_DESERT_RU { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_BTR80_DESERT_RU_OCimport_02 : CUP_O_BTR80_DESERT_RU_OCimport_01 {
+    class CUP_O_BTR80_SLA;
+    class CUP_O_BTR80_SLA_OCimport_01 : CUP_O_BTR80_SLA { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_O_BTR80_SLA_OCimport_02 : CUP_O_BTR80_SLA_OCimport_01 {
         class EventHandlers;
         class Turrets : Turrets {
             class MainTurret;
@@ -1449,7 +1449,7 @@ class CfgVehicles {
         crew = "CFP_O_NKARMY_Crewman_01";
         hiddenSelectionsTextures[] = {
             "\x\cfp\addons\vehicles\BRDM\brdm2_01_nk.paa",
-            "\x\cfp\addons\vehicles\BRDM\brdm2_01_nk.paa"
+            "\CUP\WheeledVehicles\CUP_WheeledVehicles_BRDM2\data\brdm2_02_co.paa"
         };
 
         class Turrets : Turrets {
@@ -1515,7 +1515,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_NKARMY_BTR_80A_01 : CUP_O_BTR80A_DESERT_RU_OCimport_02 {
+    class CFP_O_NKARMY_BTR_80A_01 : CUP_O_BTR80A_SLA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1523,11 +1523,6 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_NKARMY";
         crew = "CFP_O_NKARMY_Crewman_01";
-        hiddenSelectionsTextures[] = {
-            "\x\cfp\addons\vehicles\BTR80\btr80_nk_co.paa",
-            "\x\cfp\addons\vehicles\BTR80\bppu_nk_co.paa",
-            "\x\cfp\addons\vehicles\BTR80\Wheels_nk_co.paa"
-        };
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_NKARMY_Crewman_01"; };
@@ -1559,7 +1554,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_NKARMY_BTR_80_01 : CUP_O_BTR80_DESERT_RU_OCimport_02 {
+    class CFP_O_NKARMY_BTR_80_01 : CUP_O_BTR80_SLA_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1567,11 +1562,6 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_NKARMY";
         crew = "CFP_O_NKARMY_Crewman_01";
-        hiddenSelectionsTextures[] = {
-            "\x\cfp\addons\vehicles\BTR80\btr80_nk_co.paa",
-            "\x\cfp\addons\vehicles\BTR80\kpvt_nk_co.paa",
-            "\x\cfp\addons\vehicles\BTR80\Wheels_nk_co.paa"
-        };
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_NKARMY_Crewman_01"; };
