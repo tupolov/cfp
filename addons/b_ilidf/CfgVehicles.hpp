@@ -8,6 +8,8 @@
 #define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
 #define item_xx(a,b) class _xx_##a {name = a; count = b;}
 
+#include "\x\cfp\addons\vehicles\inventory_macro\main.hpp"
+
 class CBA_Extended_EventHandlers_base;
 
 class CfgVehicles {
@@ -1736,6 +1738,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\Merkava\merkava_tow.paa",
             "a3\Armor_F\Data\camonet_NATO_Desert_CO.paa"
         };
+        TRANSPORTWEAPONSLARGE(CUP_arifle_X95_Grippod,CUP_launch_M136)
+        TRANSPORTMAGAZINESLARGE(CUP_30Rnd_556x45_X95,150Rnd_762x54_Box,CUP_1Rnd_HEDP_M203,CUP_M136_M,CUP_HandGrenade_M67,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSLARGE
+        TRANSPORTBACKPACKSLARGE(CUP_B_IDF_Backpack)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_ILIDF_Crew_01"; };
@@ -1772,6 +1778,10 @@ class CfgVehicles {
             "a3\armor_f_epc\mbt_01\data\mbt_addons_co.paa",
             "a3\Armor_F\Data\camonet_NATO_Desert_CO.paa"
         };
+        TRANSPORTWEAPONSLARGE(CUP_arifle_X95_Grippod,CUP_launch_M136)
+        TRANSPORTMAGAZINESLARGE(CUP_30Rnd_556x45_X95,150Rnd_762x54_Box,CUP_1Rnd_HEDP_M203,CUP_M136_M,CUP_HandGrenade_M67,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSLARGE
+        TRANSPORTBACKPACKSLARGE(CUP_B_IDF_Backpack)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_ILIDF_Crew_01"; };
@@ -1806,6 +1816,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\M113a3\idfbody1.paa",
             "\x\cfp\addons\vehicles\M113a3\idfbody2.paa"
         };
+        TRANSPORTWEAPONSLARGE(CUP_arifle_X95_Grippod,CUP_launch_M136)
+        TRANSPORTMAGAZINESLARGE(CUP_30Rnd_556x45_X95,150Rnd_762x54_Box,CUP_1Rnd_HEDP_M203,CUP_M136_M,CUP_HandGrenade_M67,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSLARGE
+        TRANSPORTBACKPACKSLARGE(CUP_B_IDF_Backpack)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_ILIDF_Crew_01"; };
@@ -1836,6 +1850,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_ILIDF";
         crew = "CFP_B_ILIDF_Crew_01";
+        TRANSPORTWEAPONSLARGE(CUP_arifle_X95_Grippod,CUP_launch_M136)
+        TRANSPORTMAGAZINESLARGE(CUP_30Rnd_556x45_X95,150Rnd_762x54_Box,CUP_1Rnd_HEDP_M203,CUP_M136_M,CUP_HandGrenade_M67,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSLARGE
+        TRANSPORTBACKPACKSLARGE(CUP_B_IDF_Backpack)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_ILIDF_Crew_01"; };
