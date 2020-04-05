@@ -386,6 +386,51 @@ class CfgVehicles {
             };
         };
 
+        class CUP_O_BTR80_DESERT_RU;
+        class CUP_O_BTR80_DESERT_RU_OCimport_01 : CUP_O_BTR80_DESERT_RU { scope = 0; class EventHandlers; class Turrets; };
+        class CUP_O_BTR80_DESERT_RU_OCimport_02 : CUP_O_BTR80_DESERT_RU_OCimport_01 {
+            class EventHandlers;
+            class Turrets : Turrets {
+                class MainTurret;
+                class CommanderTurret;
+                class CargoTurret_01;
+                class CargoTurret_02;
+                class CargoTurret_03;
+                class CargoTurret_04;
+                class CargoTurret_05;
+                class CargoTurret_06;
+                class CargoTurret_07;
+                class CargoTurret_08;
+            };
+        };
+
+        class CUP_O_BTR80A_DESERT_RU;
+        class CUP_O_BTR80A_DESERT_RU_OCimport_01 : CUP_O_BTR80A_DESERT_RU { scope = 0; class EventHandlers; class Turrets; };
+        class CUP_O_BTR80A_DESERT_RU_OCimport_02 : CUP_O_BTR80A_DESERT_RU_OCimport_01 {
+            class EventHandlers;
+            class Turrets : Turrets {
+                class MainTurret;
+                class CommanderTurret;
+                class CargoTurret_01;
+                class CargoTurret_02;
+                class CargoTurret_03;
+                class CargoTurret_04;
+                class CargoTurret_05;
+                class CargoTurret_06;
+                class CargoTurret_07;
+                class CargoTurret_08;
+            };
+        };
+
+        class CUP_O_MTLB_pk_WDL_RU;
+        class CUP_O_MTLB_pk_WDL_RU_OCimport_01 : CUP_O_MTLB_pk_WDL_RU { scope = 0; class EventHandlers; class Turrets; };
+        class CUP_O_MTLB_pk_WDL_RU_OCimport_02 : CUP_O_MTLB_pk_WDL_RU_OCimport_01 {
+            class EventHandlers;
+            class Turrets : Turrets {
+                class MainTurret;
+            };
+        };
+
         class CUP_O_BRDM2_HQ_RUS;
         class CUP_O_BRDM2_HQ_RUS_OCimport_01 : CUP_O_BRDM2_HQ_RUS { scope = 0; class EventHandlers; class Turrets; };
         class CUP_O_BRDM2_HQ_RUS_OCimport_02 : CUP_O_BRDM2_HQ_RUS_OCimport_01 {
@@ -2410,6 +2455,112 @@ class CfgVehicles {
             class BackTurret : BackTurret { gunnerType = ""; };
             class FrontTurret : FrontTurret { gunnerType = ""; };
             class CopilotTurret : CopilotTurret { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_RUARMY_BTR_80_DES_01 : CUP_O_BTR80_DESERT_RU_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "BTR-80";
+        side = 0;
+        faction = "CFP_O_RUARMY_DES";
+        crew = "CFP_O_RUARMY_Crewman_DES_02";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "CFP_O_RUARMY_Crewman_DES_02"; };
+            class CommanderTurret : CommanderTurret { gunnerType = "CFP_O_RUARMY_Crewman_DES_02"; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
+            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
+            class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
+            class CargoTurret_06 : CargoTurret_06 { gunnerType = ""; };
+            class CargoTurret_07 : CargoTurret_07 { gunnerType = ""; };
+            class CargoTurret_08 : CargoTurret_08 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_RUARMY_BTR_80A_DES_01 : CUP_O_BTR80A_DESERT_RU_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "BTR-80A";
+        side = 0;
+        faction = "CFP_O_RUARMY_DES";
+        crew = "CFP_O_RUARMY_Crewman_DES_02";
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "CFP_O_RUARMY_Crewman_DES_02"; };
+            class CommanderTurret : CommanderTurret { gunnerType = "CFP_O_RUARMY_Crewman_DES_02"; };
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
+            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
+            class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
+            class CargoTurret_06 : CargoTurret_06 { gunnerType = ""; };
+            class CargoTurret_07 : CargoTurret_07 { gunnerType = ""; };
+            class CargoTurret_08 : CargoTurret_08 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_O_RUARMY_MT_LB_LV_DES_01 : CUP_O_MTLB_pk_WDL_RU_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "MT-LB LV";
+        side = 0;
+        faction = "CFP_O_RUARMY_DES";
+        crew = "CFP_O_RUARMY_Crewman_DES_02";
+        hiddenSelectionsTextures[] = {"\CUP\TrackedVehicles\CUP_TrackedVehicles_MTLB\data\Body_1_co.paa","\CUP\TrackedVehicles\CUP_TrackedVehicles_MTLB\data\pk_mod_co.paa"};
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "CFP_O_RUARMY_Crewman_DES_02"; };
         };
 
 

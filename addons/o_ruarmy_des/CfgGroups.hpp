@@ -724,7 +724,7 @@ class CfgGroups {
                 name = "Mechanized Infantry";
 
                 class cfp_o_ruarmy_mechanized_motor_rifles_btr_des {
-                    name = "Motor Rifles (BTR)";
+                    name = "Motor Rifles (BTR80)";
                     side = 0;
                     faction = "CFP_O_RUARMY_DES";
                     icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
@@ -740,7 +740,58 @@ class CfgGroups {
                         position[] = {-5,0,0};
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_O_RUARMY_BTR_90_DES_01";
+                        vehicle = "CFP_O_RUARMY_BTR_80_DES_01";
+                    };
+                    class Unit2 {
+                        position[] = {3,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_RUARMY_Machinegunner_DES_02";
+                    };
+                    class Unit3 {
+                        position[] = {5,0,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "CFP_O_RUARMY_Machinegunner_DES_02";
+                    };
+                    class Unit4 {
+                        position[] = {7,0,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "CFP_O_RUARMY_Rifleman_RPG_DES_02";
+                    };
+                    class Unit5 {
+                        position[] = {9,0,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_RUARMY_Rifleman_RPG_18_DES_02";
+                    };
+                    class Unit6 {
+                        position[] = {11,0,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_RUARMY_Grenadier_DES_02";
+                    };
+                };
+
+                class cfp_o_ruarmy_mechanized_motor_rifles_btr80a_des {
+                    name = "Motor Rifles (BTR80A)";
+                    side = 0;
+                    faction = "CFP_O_RUARMY_DES";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
+                    rarityGroup = 0.9;
+
+                    class Unit0 {
+                        position[] = {0,5,0};
+                        rank = "LIEUTENANT";
+                        side = 0;
+                        vehicle = "CFP_O_RUARMY_Squad_Leader_DES_02";
+                    };
+                    class Unit1 {
+                        position[] = {-5,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_RUARMY_BTR_80A_DES_01";
                     };
                     class Unit2 {
                         position[] = {3,0,0};
