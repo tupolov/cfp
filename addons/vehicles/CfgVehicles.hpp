@@ -5600,14 +5600,21 @@ class CfgVehicles
             {
                 displayname = "North Korea";
                 author = "CFP";
-                textures[] = {"\x\cfp\addons\vehicles\BRDM\brdm2_01_nk.paa","\x\cfp\addons\vehicles\BRDM\brdm2_02_co.paa"};
+                textures[] = {"\x\cfp\addons\vehicles\BRDM\brdm2_01_nk.paa","\CUP\WheeledVehicles\CUP_WheeledVehicles_BRDM2\data\brdm2_02_co.paa"};
                 factions[] = {};
             };
             class Desert
             {
                 displayname = "Desert";
                 author = "CFP";
-                textures[] = {"\x\cfp\addons\vehicles\BRDM\brdm2_01_des.paa","\x\cfp\addons\vehicles\BRDM\brdm2_02_co.paa"};
+                textures[] = {"\x\cfp\addons\vehicles\BRDM\brdm2_01_des.paa","\CUP\WheeledVehicles\CUP_WheeledVehicles_BRDM2\data\brdm2_02_co.paa"};
+                factions[] = {};
+            };
+            class Sudan
+            {
+                displayname = "Sudan";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\BRDM\brdm2_01_sudan.paa","\CUP\WheeledVehicles\CUP_WheeledVehicles_BRDM2\data\brdm2_02_co.paa"};
                 factions[] = {};
             };
             class ChedakiSnow
