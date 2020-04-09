@@ -3,7 +3,7 @@
 // Generated with Arma 3 version 184.144923 on Stable branch
 // Generated with ALiVE version 1.8.0.1808241
 //////////////////////////////////////////////////////////////////////////////////
-
+#include "\x\cfp\addons\vehicles\inventory_macro\main.hpp"
 
 class CBA_Extended_EventHandlers_base;
 
@@ -1782,6 +1782,10 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {
             "\x\cfp\addons\vehicles\Hummingbird\Hummingbird_NK.paa"
         };
+        TRANSPORTWEAPONSSMALL(CUP_arifle_AKS74U)
+        TRANSPORTMAGAZINESSMALL(CUP_30Rnd_545x39_AK_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSSMALL
+        TRANSPORTBACKPACKSEMPTY
 
         class Turrets : Turrets {
             class CopilotTurret : CopilotTurret { gunnerType = "CFP_O_NKARMY_Helicopter_Pilot_01"; };

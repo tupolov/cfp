@@ -8,6 +8,8 @@
 #define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
 #define item_xx(a,b) class _xx_##a {name = a; count = b;}
 
+#include "\x\cfp\addons\vehicles\inventory_macro\main.hpp"
+
 class CBA_Extended_EventHandlers_base;
 
 class CfgVehicles {
@@ -1452,6 +1454,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\BMP2\IranBMP2body1.paa",
             "\x\cfp\addons\vehicles\BMP2\IranBMP2body2.paa"
         };
+        TRANSPORTWEAPONSLARGE(CUP_arifle_G3A3_modern_ris_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESLARGE(CUP_20Rnd_762x51_G3,CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,CUP_1Rnd_HE_GP25_M,CUP_PG7V_M,CUP_HandGrenade_RGD5,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSLARGE
+        TRANSPORTBACKPACKSLARGE(CFP_Kitbag_IranDPM)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_IRARMY_Crewman_01"; };
@@ -1492,6 +1498,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\BMP\trup_iran.paa",
             "\x\cfp\addons\vehicles\BMP\veza0_iran.paa"
         };
+        TRANSPORTWEAPONSLARGE(CUP_arifle_G3A3_modern_ris_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESLARGE(CUP_20Rnd_762x51_G3,CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,CUP_1Rnd_HE_GP25_M,CUP_PG7V_M,CUP_HandGrenade_RGD5,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSLARGE
+        TRANSPORTBACKPACKSLARGE(CFP_Kitbag_IranDPM)
 
         class Turrets : Turrets {
             class CommanderOptics : CommanderOptics { gunnerType = "CFP_O_IRARMY_Crewman_01"; };
@@ -1535,6 +1545,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\BTR60\iranbody1.paa",
             "\x\cfp\addons\vehicles\BTR60\iranbody2.paa"
         };
+        TRANSPORTWEAPONSLARGE(CUP_arifle_G3A3_modern_ris_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESLARGE(CUP_20Rnd_762x51_G3,CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,CUP_1Rnd_HE_GP25_M,CUP_PG7V_M,CUP_HandGrenade_RGD5,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSLARGE
+        TRANSPORTBACKPACKSLARGE(CFP_Kitbag_IranDPM)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_IRARMY_Crewman_01"; };
@@ -1578,6 +1592,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\BTR80\bppu_iran_co.paa",
             "\x\cfp\addons\vehicles\BTR80\Wheels_iran_co.paa"
         };
+        TRANSPORTWEAPONSLARGE(CUP_arifle_G3A3_modern_ris_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESLARGE(CUP_20Rnd_762x51_G3,CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,CUP_1Rnd_HE_GP25_M,CUP_PG7V_M,CUP_HandGrenade_RGD5,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSLARGE
+        TRANSPORTBACKPACKSLARGE(CFP_Kitbag_IranDPM)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_IRARMY_Crewman_01"; };
@@ -1622,6 +1640,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\BTR80\kpvt_iran_co.paa",
             "\x\cfp\addons\vehicles\BTR80\Wheels_iran_co.paa"
         };
+        TRANSPORTWEAPONSLARGE(CUP_arifle_G3A3_modern_ris_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESLARGE(CUP_20Rnd_762x51_G3,CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,CUP_1Rnd_HE_GP25_M,CUP_PG7V_M,CUP_HandGrenade_RGD5,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSLARGE
+        TRANSPORTBACKPACKSLARGE(CFP_Kitbag_IranDPM)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_IRARMY_Crewman_01"; };
@@ -1665,6 +1687,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\BTR90\iranbody1.paa",
             "\x\cfp\addons\vehicles\BTR90\iranbody2.paa"
         };
+        TRANSPORTWEAPONSLARGE(CUP_arifle_G3A3_modern_ris_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESLARGE(CUP_20Rnd_762x51_G3,CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,CUP_1Rnd_HE_GP25_M,CUP_PG7V_M,CUP_HandGrenade_RGD5,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSLARGE
+        TRANSPORTBACKPACKSLARGE(CFP_Kitbag_IranDPM)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_IRARMY_Crewman_01"; };
@@ -1707,6 +1733,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\M113a3\iranbody1.paa",
             "\x\cfp\addons\vehicles\M113a3\iranbody2.paa"
         };
+        TRANSPORTWEAPONSLARGE(CUP_arifle_G3A3_modern_ris_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESLARGE(CUP_20Rnd_762x51_G3,CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,CUP_1Rnd_HE_GP25_M,CUP_PG7V_M,CUP_HandGrenade_RGD5,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSLARGE
+        TRANSPORTBACKPACKSLARGE(CFP_Kitbag_IranDPM)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_IRARMY_Crewman_01"; };
@@ -1749,6 +1779,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\M60\Iranbk_eg_co.paa",
             "CUP\TrackedVehicles\CUP_TrackedVehicles_M60\data\m60_alp_uvs_1024s_ca.paa"
         };
+        TRANSPORTWEAPONSLARGE(CUP_arifle_G3A3_modern_ris_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESLARGE(CUP_20Rnd_762x51_G3,CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,CUP_1Rnd_HE_GP25_M,CUP_PG7V_M,CUP_HandGrenade_RGD5,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSLARGE
+        TRANSPORTBACKPACKSLARGE(CFP_Kitbag_IranDPM)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_IRARMY_Crewman_01"; };
@@ -1790,6 +1824,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\T72\iranbody2.paa",
             "\x\cfp\addons\vehicles\T72\iranbody3.paa"
         };
+        TRANSPORTWEAPONSLARGE(CUP_arifle_G3A3_modern_ris_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESLARGE(CUP_20Rnd_762x51_G3,CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,CUP_1Rnd_HE_GP25_M,CUP_PG7V_M,CUP_HandGrenade_RGD5,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSLARGE
+        TRANSPORTBACKPACKSLARGE(CFP_Kitbag_IranDPM)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_IRARMY_Crewman_01"; };
@@ -1831,6 +1869,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\Ural\ural_plachta_iran.paa",
             "CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\WHL_TyreSize3.paa"
         };
+        TRANSPORTWEAPONSLARGE(CUP_arifle_G3A3_modern_ris_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESLARGE(CUP_20Rnd_762x51_G3,CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,CUP_1Rnd_HE_GP25_M,CUP_PG7V_M,CUP_HandGrenade_RGD5,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSLARGE
+        TRANSPORTBACKPACKSLARGE(CFP_Kitbag_IranDPM)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -1867,6 +1909,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\Ural\ural_open_iran.paa",
             "CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\WHL_TyreSize3.paa"
         };
+        TRANSPORTWEAPONSLARGE(CUP_arifle_G3A3_modern_ris_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESLARGE(CUP_20Rnd_762x51_G3,CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,CUP_1Rnd_HE_GP25_M,CUP_PG7V_M,CUP_HandGrenade_RGD5,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSLARGE
+        TRANSPORTBACKPACKSLARGE(CFP_Kitbag_IranDPM)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_IRARMY_Rifleman_01"; };
@@ -1902,6 +1948,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\Ural\ural_open_iran.paa",
             "CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\WHL_TyreSize3.paa"
         };
+        TRANSPORTWEAPONSLARGE(CUP_arifle_G3A3_modern_ris_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESLARGE(CUP_20Rnd_762x51_G3,CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,CUP_1Rnd_HE_GP25_M,CUP_PG7V_M,CUP_HandGrenade_RGD5,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSLARGE
+        TRANSPORTBACKPACKSLARGE(CFP_Kitbag_IranDPM)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -1939,6 +1989,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\Ural\ural_fuel_iran.paa",
             "CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\WHL_TyreSize3.paa"
         };
+        TRANSPORTWEAPONSLARGE(CUP_arifle_G3A3_modern_ris_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESLARGE(CUP_20Rnd_762x51_G3,CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,CUP_1Rnd_HE_GP25_M,CUP_PG7V_M,CUP_HandGrenade_RGD5,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSLARGE
+        TRANSPORTBACKPACKSLARGE(CFP_Kitbag_IranDPM)
 
 
         class EventHandlers : EventHandlers {
@@ -1969,6 +2023,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\Ural\ural_plachta_iran.paa",
             "CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\WHL_TyreSize3.paa"
         };
+        TRANSPORTWEAPONSLARGE(CUP_arifle_G3A3_modern_ris_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESLARGE(CUP_20Rnd_762x51_G3,CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,CUP_1Rnd_HE_GP25_M,CUP_PG7V_M,CUP_HandGrenade_RGD5,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSLARGE
+        TRANSPORTBACKPACKSLARGE(CFP_Kitbag_IranDPM)
 
 
         class EventHandlers : EventHandlers {
@@ -1999,6 +2057,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\Ural\ural_plachta_iran.paa",
             "CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\WHL_TyreSize3.paa"
         };
+        TRANSPORTWEAPONSLARGE(CUP_arifle_G3A3_modern_ris_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESLARGE(CUP_20Rnd_762x51_G3,CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,CUP_1Rnd_HE_GP25_M,CUP_PG7V_M,CUP_HandGrenade_RGD5,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSLARGE
+        TRANSPORTBACKPACKSLARGE(CFP_Kitbag_IranDPM)
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -2055,6 +2117,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\UAZ\uaz_main_iran.paa",
             "CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\data\uaz_other_co.paa"
         };
+        TRANSPORTWEAPONSLARGE(CUP_arifle_G3A3_modern_ris_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESLARGE(CUP_20Rnd_762x51_G3,CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,CUP_1Rnd_HE_GP25_M,CUP_PG7V_M,CUP_HandGrenade_RGD5,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSLARGE
+        TRANSPORTBACKPACKSLARGE(CFP_Kitbag_IranDPM)
 
 
         class EventHandlers : EventHandlers {
@@ -2084,6 +2150,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\UAZ\uaz_main_iran.paa",
             "CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\data\uaz_mount_001_co.paa"
         };
+        TRANSPORTWEAPONSLARGE(CUP_arifle_G3A3_modern_ris_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESLARGE(CUP_20Rnd_762x51_G3,CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,CUP_1Rnd_HE_GP25_M,CUP_PG7V_M,CUP_HandGrenade_RGD5,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSLARGE
+        TRANSPORTBACKPACKSLARGE(CFP_Kitbag_IranDPM)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -2119,6 +2189,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\UAZ\uaz_main_iran.paa",
             "CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\data\uaz_mount_001_co.paa"
         };
+        TRANSPORTWEAPONSLARGE(CUP_arifle_G3A3_modern_ris_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESLARGE(CUP_20Rnd_762x51_G3,CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,CUP_1Rnd_HE_GP25_M,CUP_PG7V_M,CUP_HandGrenade_RGD5,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSLARGE
+        TRANSPORTBACKPACKSLARGE(CFP_Kitbag_IranDPM)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -2154,6 +2228,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\UAZ\uaz_main_iran.paa",
             "CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\data\uaz_mount_001_co.paa"
         };
+        TRANSPORTWEAPONSLARGE(CUP_arifle_G3A3_modern_ris_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESLARGE(CUP_20Rnd_762x51_G3,CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,CUP_1Rnd_HE_GP25_M,CUP_PG7V_M,CUP_HandGrenade_RGD5,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSLARGE
+        TRANSPORTBACKPACKSLARGE(CFP_Kitbag_IranDPM)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -2189,6 +2267,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\UAZ\uaz_main_iran.paa",
             "CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\data\uaz_mount_001_co.paa"
         };
+        TRANSPORTWEAPONSLARGE(CUP_arifle_G3A3_modern_ris_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESLARGE(CUP_20Rnd_762x51_G3,CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,CUP_1Rnd_HE_GP25_M,CUP_PG7V_M,CUP_HandGrenade_RGD5,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSLARGE
+        TRANSPORTBACKPACKSLARGE(CFP_Kitbag_IranDPM)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -2223,6 +2305,10 @@ class CfgVehicles {
         typicalCargo[] = {"CFP_O_IRARMY_Crewman_01","CFP_O_IRARMY_Crewman_01","CFP_O_IRARMY_Crewman_01"};
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\T55\t55_body_iran.paa","\x\cfp\addons\vehicles\T55\t55_tower_iran.paa"};
         editorPreview = \x\cfp\addons\o_irarmy\data\preview\CFP_O_IRARMY_T55_01.JPG;
+        TRANSPORTWEAPONSLARGE(CUP_arifle_G3A3_modern_ris_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESLARGE(CUP_20Rnd_762x51_G3,CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,CUP_1Rnd_HE_GP25_M,CUP_PG7V_M,CUP_HandGrenade_RGD5,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSLARGE
+        TRANSPORTBACKPACKSLARGE(CFP_Kitbag_IranDPM)
 
     };
 
@@ -2239,6 +2325,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\CH47\ch47_ext_iran1_co.paa",
             "\x\cfp\addons\vehicles\CH47\ch47_ext_iran2_co.paa"
         };
+        TRANSPORTWEAPONSLARGE(CUP_arifle_G3A3_modern_ris_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESLARGE(CUP_20Rnd_762x51_G3,CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,CUP_1Rnd_HE_GP25_M,CUP_PG7V_M,CUP_HandGrenade_RGD5,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSLARGE
+        TRANSPORTBACKPACKSLARGE(CFP_Kitbag_IranDPM)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_IRARMY_Helicopter_Pilot_01"; };
@@ -2357,6 +2447,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\AH1Z\Iranbody.paa",
             "\x\cfp\addons\vehicles\AH1Z\Iranengine.paa"
         };
+        TRANSPORTWEAPONSLARGE(CUP_arifle_G3A3_modern_ris_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESLARGE(CUP_20Rnd_762x51_G3,CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,CUP_1Rnd_HE_GP25_M,CUP_PG7V_M,CUP_HandGrenade_RGD5,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSLARGE
+        TRANSPORTBACKPACKSLARGE(CFP_Kitbag_IranDPM)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_IRARMY_Helicopter_Pilot_01"; };
@@ -2391,6 +2485,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\CH47\ch47_ext_iran1_co.paa",
             "\x\cfp\addons\vehicles\CH47\ch47_ext_iran2_co.paa"
         };
+        TRANSPORTWEAPONSLARGE(CUP_arifle_G3A3_modern_ris_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESLARGE(CUP_20Rnd_762x51_G3,CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,CUP_1Rnd_HE_GP25_M,CUP_PG7V_M,CUP_HandGrenade_RGD5,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSLARGE
+        TRANSPORTBACKPACKSLARGE(CFP_Kitbag_IranDPM)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_IRARMY_Helicopter_Pilot_01"; };
@@ -2437,6 +2535,10 @@ class CfgVehicles {
         crew = "CFP_O_IRARMY_Helicopter_Pilot_01";
         typicalCargo[] = {"CFP_O_IRARMY_Helicopter_Pilot_01","CFP_O_IRARMY_Helicopter_Pilot_01"};
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Mi8\mi8_body_iran.paa","\x\cfp\addons\vehicles\Mi8\mi8_det_g_iran.paa"};
+        TRANSPORTWEAPONSLARGE(CUP_arifle_G3A3_modern_ris_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESLARGE(CUP_20Rnd_762x51_G3,CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,CUP_1Rnd_HE_GP25_M,CUP_PG7V_M,CUP_HandGrenade_RGD5,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSLARGE
+        TRANSPORTBACKPACKSLARGE(CFP_Kitbag_IranDPM)
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
             class BackTurret : BackTurret { gunnerType = ""; };
