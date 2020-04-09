@@ -165,6 +165,33 @@ class CfgVehicleClasses
 		};
 	};
 
+	class CFP_Bandana_ATacsAU: ItemCore
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_Bandana_ATacsFG.paa";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "Bandana (A-Tacs AU)";
+		// picture = "\x\cfp\addons\headgear\Bandana\ui\ATacsFG.jpg";
+		model = "\x\cfp\addons\models\Bandana";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Bandana\ATacsAU.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "CFP";
+
+
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 10;
+			uniformmodel = "\x\cfp\addons\models\Bandana";
+			modelSides[] = {3,1};
+			armor = 0;
+			passThrough = 0.30;
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Bandana\ATacsAU.paa"};
+			hiddenSelections[] = {"Camo"};
+		};
+	};
+
+
 	class SP_Bandana_NodUrban: ItemCore
     {
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_Bandana_NodUrban.paa";

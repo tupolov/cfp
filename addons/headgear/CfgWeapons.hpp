@@ -16,6 +16,7 @@ class CfgWeapons {
 
     #include "ACHHelmet\CfgWeapons.hpp"
     #include "Bandana\CfgWeapons.hpp"
+    #include "Balaclava\CfgWeapons.hpp"
     #include "BaseballCap\CfgWeapons.hpp"
 	#include "BasicHelmet\CfgWeapons.hpp"
     #include "BeanieHat\CfgWeapons.hpp"
