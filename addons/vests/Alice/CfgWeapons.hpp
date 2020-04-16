@@ -287,3 +287,232 @@ class CfgVehicleClasses
 		};
 	};
 
+
+//Conflict 85 Alice Rigs
+
+	class CFP_US_Alice_tl: CFP_Alice_Vest2_Black
+{
+	displayName  = "Alice Rig Rifleman (Heavy)";
+	Author = "Conflict '85";
+	picture = ""; /// this icon fits the vest surprisingly well
+	model   = "\x\cfp\addons\vests\Alice\con85_us_alice_tl.p3d";
+	class ItemInfo: VestItem
+	{
+		uniformModel   = "\x\cfp\addons\vests\Alice\con85_us_alice_tl.p3d";  /// what model does the vest use
+		containerClass = "Supply130";
+	};
+};
+
+//Conflict 85 Alice PASGT Gear
+
+	class CFP_US_pasgt_core: V_PlateCarrier1_rgr
+{
+	scope = 2; /// scope needs to be 2 to have a visible class
+	displayName  = "PASGT/Alice Core (Woodland)"; /// how would the stuff be displayed in inventory and on ground
+	picture = "\x\cfp\addons\vests\Alice\data\Inv_Img\PasgtOfficerERDL_ca.paa"; /// this icon fits the vest surprisingly well
+	model   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_core.p3d"; /// what model does the vest use
+
+	hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Alice\tex\con85_US_pasgt_core_ERDL_co" }; /// what texture is going to be used
+	Author = "CFP";
+
+	class ItemInfo: VestItem
+	{
+		uniformModel   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_core.p3d"; /// what model does the vest use
+		mass = 40;
+		overlaySelectionsInfo[] = {"ghillie_hide"}; /// name of selections to be hidden while wearing certain uniforms
+		containerClass = "Supply50";
+
+		class HitpointsProtectionInfo
+		{
+			class Neck
+			{
+				hitpointName	= "HitNeck"; // reference to the hit point class defined in the man base class
+				armor		= 8; // addition to armor of referenced hitpoint
+				passThrough	= 0.5; // multiplier of base passThrough defined in referenced hitpoint
+			};
+			class Arms
+			{
+				hitpointName	= "HitArms";
+				armor		= 1;
+				passThrough	= 1;
+			};
+			class Chest
+			{
+				hitpointName	= "HitChest";
+				armor		= 12;
+				passThrough	= 0.5;
+			};
+			class Diaphragm
+			{
+				hitpointName	= "HitDiaphragm";
+				armor		= 12;
+				passThrough	= 0.5;
+			};
+			class Abdomen
+			{
+				hitpointName	= "HitAbdomen";
+				armor		= 12;
+				passThrough	= 0.5;
+			};
+			class Body
+			{
+				hitpointName	= "HitBody";
+				passThrough	= 0.5;
+			};
+		};
+	};
+};
+
+class CFP_US_pasgt_alice_officer_ERDL: CFP_US_pasgt_core
+{
+	displayName  = "Pasgt/Alice Officer (Woodland)";
+	model   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_alice_officer.p3d";
+	picture = "\x\cfp\addons\vests\Alice\data\Inv_Img\PasgtOfficerERDL_ca.paa"; /// this looks fairly similar
+	hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Alice\tex\con85_US_pasgt_alice_ERDL_co", "\x\cfp\addons\vests\Alice\tex\con85_US_Alice_acc_1_co","\x\cfp\addons\vests\Alice\tex\con85_US_Alice_acc_2_co"  }; /// what texture is going to be used
+	class ItemInfo: VestItem
+	{
+		uniformModel   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_alice_officer.p3d";  /// what model does the vest use
+		containerClass = "Supply60";
+	};
+};
+
+class CFP_US_pasgt_alice_engineer_ERDL: CFP_US_pasgt_alice_officer_ERDL
+{
+	displayName  = "Pasgt/Alice Engineer (Woodland)";
+	model   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_alice_engineer.p3d";
+	picture = "\x\cfp\addons\vests\Alice\Inv_Img\PasgtEngERDL_ca.paa"; /// this looks fairly similar
+	class ItemInfo: VestItem
+	{
+		uniformModel   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_alice_engineer.p3d";  /// what model does the vest use
+		containerClass = "Supply130";
+	};
+};
+
+class CFP_US_pasgt_alice_Medic_ERDL: CFP_US_pasgt_alice_officer_ERDL
+{
+	displayName  = "Pasgt/Alice Medic (Woodland)";
+	model   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_alice_Medic.p3d";
+	picture = "\x\cfp\addons\vests\Alice\data\Inv_Img\PasgtMedicERDL_ca.paa"; /// this looks fairly similar
+	class ItemInfo: VestItem
+	{
+		uniformModel   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_alice_Medic.p3d";  /// what model does the vest use
+		containerClass = "Supply150";
+	};
+};
+
+class CFP_US_pasgt_alice_SquadLeader_ERDL: CFP_US_pasgt_alice_officer_ERDL
+{
+	displayName  = "Pasgt/Alice Squad Leader (Woodland)";
+	model   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_alice_Squadlead.p3d";
+	picture = "\x\cfp\addons\vests\Alice\data\Inv_Img\PasgtSquadLeaderERDL_ca.paa"; /// this looks fairly similar
+	class ItemInfo: VestItem
+	{
+		uniformModel   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_alice_Squadlead.p3d";  /// what model does the vest use
+		containerClass = "Supply130";
+	};
+};
+
+class CFP_US_pasgt_alice_Rifleman_ERDL: CFP_US_pasgt_alice_officer_ERDL
+{
+	displayName  = "Pasgt/Alice Rifleman (Woodland)";
+	model   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_alice_Rifleman.p3d";
+	picture = "\x\cfp\addons\vests\Alice\data\Inv_Img\PasgtRiflemanERDL_ca.paa"; /// this looks fairly similar
+	class ItemInfo: VestItem
+	{
+		uniformModel   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_alice_Rifleman.p3d";  /// what model does the vest use
+		containerClass = "Supply100";
+	};
+};
+
+class CFP_US_pasgt_alice_Rifleman_DBDU: CFP_US_pasgt_alice_officer_ERDL
+{
+	displayName  = "Pasgt/Alice Rifleman (DBDU)";
+	model   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_alice_Rifleman.p3d";
+	picture = "\x\cfp\addons\vests\Alice\data\Inv_Img\PasgtRiflemanERDL_ca.paa"; /// this looks fairly similar
+	hiddenSelections[] = {"camo"};
+	hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Alice\tex\con85_US_pasgt_alice_dbdu_co"};
+	class ItemInfo: VestItem
+	{
+		uniformModel   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_alice_Rifleman.p3d";  /// what model does the vest use
+		hiddenSelections[] = {"camo"};
+		containerClass = "Supply100";
+	};
+};
+
+class CFP_US_pasgt_alice_TeamLead_ERDL: CFP_US_pasgt_alice_officer_ERDL
+{
+	displayName  = "Pasgt/Alice Team Leader (Woodland)";
+	model   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_alice_TeamLead.p3d";
+	picture = "\x\cfp\addons\vests\Alice\data\Inv_Img\PasgtRiflemanERDL_ca.paa"; /// this looks fairly similar
+	class ItemInfo: VestItem
+	{
+		uniformModel   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_alice_TeamLead.p3d";  /// what model does the vest use
+		containerClass = "Supply130";
+	};
+};
+
+class CFP_US_pasgt_alice_TeamLead_DBDU: CFP_US_pasgt_alice_officer_ERDL
+{
+	displayName  = "Pasgt/Alice Team Leader (DBDU)";
+	model   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_alice_TeamLead.p3d";
+	picture = "\x\cfp\addons\vests\Alice\data\Inv_Img\PasgtRiflemanERDL_ca.paa"; /// this looks fairly similar
+	hiddenSelections[] = {"camo"};
+	hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Alice\tex\con85_US_pasgt_alice_dbdu_co"};
+	class ItemInfo: VestItem
+	{
+		uniformModel   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_alice_TeamLead.p3d";  /// what model does the vest use
+		hiddenSelections[] = {"camo"};
+		containerClass = "Supply130";
+	};
+};
+
+class CFP_US_pasgt_alice_Pionier_ERDL: CFP_US_pasgt_alice_officer_ERDL
+{
+	displayName  = "Pasgt/Alice Pioneer (Woodland)";
+	model   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_alice_pionier.p3d";
+	picture = "\x\cfp\addons\vests\Alice\data\Inv_Img\PasgtPioERDL_ca.paa"; /// this looks fairly similar
+	class ItemInfo: VestItem
+	{
+		uniformModel   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_alice_pionier.p3d";  /// what model does the vest use
+		containerClass = "Supply110";
+	};
+};
+
+class CFP_US_pasgt_alice_SAW_ERDL: CFP_US_pasgt_alice_officer_ERDL
+{
+	displayName  = "Pasgt/Alice Autorifleman (Woodland)";
+	model   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_alice_SAW.p3d";
+	picture = "\x\cfp\addons\vests\Alice\data\Inv_Img\PasgtAutorifleERDL_ca.paa"; /// this looks fairly similar
+	class ItemInfo: VestItem
+	{
+		uniformModel   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_alice_SAW.p3d";  /// what model does the vest use
+		containerClass = "Supply160";
+	};
+};
+
+class CFP_US_pasgt_alice_SAW_DBDU: CFP_US_pasgt_alice_officer_ERDL
+{
+	displayName  = "Pasgt/Alice Autorifleman (DBDU)";
+	model   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_alice_SAW.p3d";
+	picture = "\x\cfp\addons\vests\Alice\data\Inv_Img\PasgtAutorifleERDL_ca.paa"; /// this looks fairly similar
+	hiddenSelections[] = {"camo"};
+	hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Alice\tex\con85_US_pasgt_alice_dbdu_co"};
+	class ItemInfo: VestItem
+	{
+		uniformModel   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_alice_SAW.p3d";  /// what model does the vest use
+		hiddenSelections[] = {"camo"};
+		containerClass = "Supply160";
+	};
+};
+
+class CFP_US_pasgt_alice_SAW_Assistant_ERDL: CFP_US_pasgt_alice_officer_ERDL
+{
+	displayName  = "Pasgt/Alice Assistant Autorifleman (Woodland)";
+	model   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_alice_SAW_Assistant.p3d";
+	picture = "\x\cfp\addons\vests\Alice\data\Inv_Img\PasgtAssistantAutorifleERDL_ca.paa"; /// this looks fairly similar
+	class ItemInfo: VestItem
+	{
+		uniformModel   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_alice_SAW_Assistant.p3d";  /// what model does the vest use
+		containerClass = "Supply150";
+	};
+};
