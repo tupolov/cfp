@@ -115,6 +115,33 @@ class CfgVehicleClasses
 		};
 	};
 
+	class CFP_BoonieHat_EMR: ItemCore
+    {
+        picture = "\x\cfp\addons\headgear\data\ui\icon_SP_BoonieHat_Green.paa";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "Boonie Hat (EMR Digital Flora)";
+		// picture = "\x\cfp\addons\headgear\BoonieHat\ui\Green.jpg";
+		model = "\x\cfp\addons\models\BoonieHat";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BoonieHat\EMR.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "CFP";
+
+
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 5;
+			uniformmodel = "\x\cfp\addons\models\BoonieHat";
+			modelSides[] = {3,1};
+			armor = 0;
+			passThrough = 0.30;
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BoonieHat\EMR.paa"};
+			hiddenSelections[] = {"Camo"};
+
+		};
+	};
+
 	class CFP_BoonieHat_DBDU: ItemCore
     {
         picture = "\x\cfp\addons\headgear\data\ui\icon_SP_BoonieHat_Tan.paa";
