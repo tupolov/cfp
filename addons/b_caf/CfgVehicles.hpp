@@ -1271,8 +1271,6 @@ class CfgVehicles {
 
     };
 
-
-
     class CFP_B_CAF_SU_25_01 : CUP_O_Su25_Dyn_TKA_OCimport_02  {
         editorPreview = \x\cfp\addons\b_caf\data\preview\CFP_B_CAF_SU_25_01.JPG;
         author = "Drew";

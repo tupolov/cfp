@@ -12,6 +12,7 @@ class CfgPatches
 			"CFP_AK12_GL_Desert",
     			"CFP_PKP_Woodland",
 			"CFP_PKP_Desert",
+		"CFP_Negev_Black",
     		"CFP_Tavor_Black",
     		"CFP_Tavor_Black_Long",
     		"CFP_Tavor_Black_GL"
