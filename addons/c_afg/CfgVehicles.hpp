@@ -227,6 +227,7 @@ class CfgVehicles {
         // Afghan Facewear
             facewearList[] = {
                 "", 0.5,
+                "CUP_G_TK_RoundGlasses_blk", 0.2,
                 "CFP_Beard", 0.5
             };
 
