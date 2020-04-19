@@ -25,6 +25,18 @@
 
 	};
 
+	class SP_Balaclava_EMR: None
+	{
+		scope = 2;
+		displayname = "Balaclava (EMR Digital Flora)";
+		model = "\x\cfp\addons\models\usp_balaclava_cfp.p3d";
+		picture = "\x\cfp\addons\glasses\Balaclava\ui\Green.jpg";
+		hiddenSelections[] = {"Camo"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\glasses\Balaclava\usp_balaclava_emr_co.paa"};
+		identityTypes[] = {"NoGlasses",0};
+
+	};
+
 	class SP_Balaclava_Tan: None
 	{
 		scope = 2;

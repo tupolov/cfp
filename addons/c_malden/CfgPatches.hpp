@@ -25,8 +25,6 @@ class CfgPatches {
              "A3_Data_F",
             "A3_Data_F_Curator",
             "A3_Air_F_Heli",
-            "CUP_Worlds_DustEffects",
-            "CUP_Core",
             "cba_xeh",
             "A3_Soft_F_Offroad_01",
             "A3_Soft_F_Exp_Offroad_01",

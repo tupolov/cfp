@@ -25,10 +25,6 @@ class CfgVehicles {
         };
     };
 
-    class C_Hatchback_01_F;
-    class C_Hatchback_01_F_OCimport_01 : C_Hatchback_01_F { scope = 0; class EventHandlers; };
-    class C_Hatchback_01_F_OCimport_02 : C_Hatchback_01_F_OCimport_01 { scope = 0; class EventHandlers; };
-
     class C_SUV_01_F;
     class C_SUV_01_F_OCimport_01 : C_SUV_01_F { scope = 0; class EventHandlers; };
     class C_SUV_01_F_OCimport_02 : C_SUV_01_F_OCimport_01 { scope = 0; class EventHandlers; };
@@ -55,21 +51,6 @@ class CfgVehicles {
         };
     };
 
-    class C_Offroad_02_unarmed_F;
-    class C_Offroad_02_unarmed_F_OCimport_01 : C_Offroad_02_unarmed_F { scope = 0; class EventHandlers; class Turrets; };
-    class C_Offroad_02_unarmed_F_OCimport_02 : C_Offroad_02_unarmed_F_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class CargoTurret_01;
-            class CargoTurret_02;
-            class CargoTurret_03;
-        };
-    };
-
-    class CUP_C_Golf4_random_Civ;
-    class CUP_C_Golf4_random_Civ_OCimport_01 : CUP_C_Golf4_random_Civ { scope = 0; class EventHandlers; };
-    class CUP_C_Golf4_random_Civ_OCimport_02 : CUP_C_Golf4_random_Civ_OCimport_01 { scope = 0; class EventHandlers; };
-
     class C_Offroad_01_covered_F;
     class C_Offroad_01_covered_F_OCimport_01 : C_Offroad_01_covered_F { scope = 0; class EventHandlers; class Turrets; };
     class C_Offroad_01_covered_F_OCimport_02 : C_Offroad_01_covered_F_OCimport_01 {
@@ -82,28 +63,9 @@ class CfgVehicles {
         };
     };
 
-    class C_Van_02_transport_F;
-    class C_Van_02_transport_F_OCimport_01 : C_Van_02_transport_F { scope = 0; class EventHandlers; class Turrets; };
-    class C_Van_02_transport_F_OCimport_02 : C_Van_02_transport_F_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class CargoTurret_01;
-            class CargoTurret_02;
-            class CargoTurret_03;
-        };
-    };
-
-    class CUP_I_Hilux_unarmed_TK;
-    class CUP_I_Hilux_unarmed_TK_OCimport_01 : CUP_I_Hilux_unarmed_TK { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_I_Hilux_unarmed_TK_OCimport_02 : CUP_I_Hilux_unarmed_TK_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class CargoTurret_01;
-            class CargoTurret_02;
-            class CargoTurret_03;
-            class CargoTurret_04;
-        };
-    };
+    class CUP_C_Skoda_Blue_CIV;
+    class CUP_C_Skoda_Blue_CIV_OCimport_01 : CUP_C_Skoda_Blue_CIV { scope = 0; class EventHandlers; };
+    class CUP_C_Skoda_Blue_CIV_OCimport_02 : CUP_C_Skoda_Blue_CIV_OCimport_01 { scope = 0; class EventHandlers; };
 
 
     class CFP_C_CHERNO_WIN_Civilian_01 : C_man_1_OCimport_02 {
@@ -353,7 +315,7 @@ class CfgVehicles {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Offroad";
+        displayName = "Offroad (Blue)";
         side = 3;
         faction = "CFP_C_CHERNO_WIN";
         crew = "CFP_C_CHERNO_WIN_Civilian_01";
@@ -371,186 +333,22 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\Offroad\offroad_blue_snow_co.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\Offroad\offroad_blue_snow_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "BlueSnow";
 
     };
 
-    class CFP_C_CHERNO_WIN_Hatchback_01 : C_Hatchback_01_F_OCimport_02 {
+    class CFP_C_CHERNO_WIN_Offroad_02 : C_Offroad_01_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Hatchback";
-        side = 3;
-        faction = "CFP_C_CHERNO_WIN";
-        crew = "CFP_C_CHERNO_WIN_Civilian_01";
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class CFP_C_CHERNO_WIN_SUV_01 : C_SUV_01_F_OCimport_02 {
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "SUV";
-        side = 3;
-        faction = "CFP_C_CHERNO_WIN";
-        crew = "CFP_C_CHERNO_WIN_Civilian_01";
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class CFP_C_CHERNO_WIN_Truck_Boxer_01 : C_Van_01_box_F_OCimport_02 {
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Truck Boxer";
-        side = 3;
-        faction = "CFP_C_CHERNO_WIN";
-        crew = "CFP_C_CHERNO_WIN_Civilian_02";
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class CFP_C_CHERNO_WIN_Truck_01 : C_Van_01_transport_F_OCimport_02 {
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Truck";
-        side = 3;
-        faction = "CFP_C_CHERNO_WIN";
-        crew = "CFP_C_CHERNO_WIN_Civilian_01";
-
-        class Turrets : Turrets {
-            class CargoTurret_L1 : CargoTurret_L1 { gunnerType = ""; };
-            class CargoTurret_L2 : CargoTurret_L2 { gunnerType = ""; };
-            class CargoTurret_L3 : CargoTurret_L3 { gunnerType = ""; };
-            class CargoTurret_L4 : CargoTurret_L4 { gunnerType = ""; };
-            class CargoTurret_L5 : CargoTurret_L5 { gunnerType = ""; };
-            class CargoTurret_R1 : CargoTurret_R1 { gunnerType = ""; };
-            class CargoTurret_R2 : CargoTurret_R2 { gunnerType = ""; };
-            class CargoTurret_R3 : CargoTurret_R3 { gunnerType = ""; };
-            class CargoTurret_R4 : CargoTurret_R4 { gunnerType = ""; };
-            class CargoTurret_R5 : CargoTurret_R5 { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class CFP_C_CHERNO_WIN_MB_4WD_01 : C_Offroad_02_unarmed_F_OCimport_02 {
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "MB 4WD";
-        side = 3;
-        faction = "CFP_C_CHERNO_WIN";
-        crew = "CFP_C_CHERNO_WIN_Civilian_02";
-
-        class Turrets : Turrets {
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class CFP_C_CHERNO_WIN_Golf_Random_Color_01 : CUP_C_Golf4_random_Civ_OCimport_02 {
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Golf [Random Color]";
-        side = 3;
-        faction = "CFP_C_CHERNO_WIN";
-        crew = "CFP_C_CHERNO_WIN_Civilian_02";
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class CFP_C_CHERNO_WIN_Offroad_Covered_01 : C_Offroad_01_covered_F_OCimport_02 {
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Offroad [Covered]";
+        displayName = "Offroad (Red)";
         side = 3;
         faction = "CFP_C_CHERNO_WIN";
         crew = "CFP_C_CHERNO_WIN_Civilian_01";
@@ -568,52 +366,22 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\Offroad\offroad_red_snow_co.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\Offroad\offroad_red_snow_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
 
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "RedSnow";
 
     };
 
-    class CFP_C_CHERNO_WIN_Van_Transport_01 : C_Van_02_transport_F_OCimport_02 {
+    class CFP_C_CHERNO_WIN_Offroad_03 : C_Offroad_01_F_OCimport_02 {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
-        displayName = "Van Transport";
-        side = 3;
-        faction = "CFP_C_CHERNO_WIN";
-        crew = "CFP_C_CHERNO_WIN_Civilian_02";
-
-        class Turrets : Turrets {
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
-    class CFP_C_CHERNO_WIN_Hilux_01 : CUP_I_Hilux_unarmed_TK_OCimport_02 {
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "Hilux";
+        displayName = "Offroad (Tan)";
         side = 3;
         faction = "CFP_C_CHERNO_WIN";
         crew = "CFP_C_CHERNO_WIN_Civilian_01";
@@ -631,6 +399,74 @@ class CfgVehicles {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\Offroad\offroad_tan_snow_co.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\Offroad\offroad_tan_snow_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "TanSnow";
+
+    };
+
+    class CFP_C_CHERNO_WIN_Offroad_04 : C_Offroad_01_F_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Offroad (White)";
+        side = 3;
+        faction = "CFP_C_CHERNO_WIN";
+        crew = "CFP_C_CHERNO_WIN_Civilian_01";
+
+        class Turrets : Turrets {
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
+            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
+        };
+
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'\x\cfp\addons\vehicles\Offroad\offroad_white_snow_co.paa'];_unit setObjectTextureGlobal [1,'\x\cfp\addons\vehicles\Offroad\offroad_white_snow_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+        ALiVE_orbatCreator_texture = "WhiteSnow";
+
+    };
+
+    class CFP_C_CHERNO_WIN_Skoda_01 : CUP_C_Skoda_Blue_CIV_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Skoda (Blue)";
+        side = 3;
+        faction = "CFP_C_CHERNO_WIN";
+        crew = "CFP_C_CHERNO_WIN_Civilian_01";
+        hiddenSelections[] =
+        {
+                "Camo1",
+                "Camo2"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "P:\x\cfp\addons\vehicles\Skoda\skodovka_modra_snow_co.paa",
+            "\CUP\WheeledVehicles\CUP_WheeledVehicles_Skoda\data\skodovka_int_co.paa"
+        };
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
                 init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
@@ -641,4 +477,181 @@ class CfgVehicles {
 
     };
 
+    class CFP_C_CHERNO_WIN_Skoda_02 : CUP_C_Skoda_Blue_CIV_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Skoda (White)";
+        side = 3;
+        faction = "CFP_C_CHERNO_WIN";
+        crew = "CFP_C_CHERNO_WIN_Civilian_01";
+        hiddenSelections[] =
+        {
+                "Camo1",
+                "Camo2"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "P:\x\cfp\addons\vehicles\Skoda\skodovka_bila_snow_co.paa",
+            "\CUP\WheeledVehicles\CUP_WheeledVehicles_Skoda\data\skodovka_int_co.paa"
+        };
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_C_CHERNO_WIN_Skoda_03 : CUP_C_Skoda_Blue_CIV_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Skoda (Red)";
+        side = 3;
+        faction = "CFP_C_CHERNO_WIN";
+        crew = "CFP_C_CHERNO_WIN_Civilian_01";
+        hiddenSelections[] =
+        {
+                "Camo1",
+                "Camo2"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "P:\x\cfp\addons\vehicles\Skoda\skodovka_cervena_snow_co.paa",
+            "\CUP\WheeledVehicles\CUP_WheeledVehicles_Skoda\data\skodovka_int_co.paa"
+        };
+
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CUP_B_Ural_CDF;
+    class CFP_C_CHERNO_WIN_Ural_Civ_01: CUP_B_Ural_CDF {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Ural (Blue)";
+        side = 3;
+        faction = "CFP_C_CHERNO_WIN";
+        crew = "CFP_C_CHERNO_WIN_Civilian_01";
+        hiddenSelections[] = {"camo1","camo2","camo3"};
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_civil_snow_co.paa","\x\cfp\addons\vehicles\Ural\ural_plachta_civ1_snow_co.paa","\x\cfp\addons\vehicles\Ural\whl_snow_co.paa"};
+    };
+
+    class CFP_C_CHERNO_WIN_Ural_Civ_02: CUP_B_Ural_CDF
+    {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Ural (Yellow)";
+        side = 3;
+        faction = "CFP_C_CHERNO_WIN";
+        crew = "CFP_C_CHERNO_WIN_Civilian_01";
+        hiddenSelections[] = {"camo1","camo2","camo3"};
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_civ1_snow_co.paa","\x\cfp\addons\vehicles\Ural\ural_plachta_civ1_snow_co.paa","\x\cfp\addons\vehicles\Ural\whl_snow_co.paa"};
+        editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\Data\preview\CUP_C_Ural_Civ_02.jpg";
+    };
+
+    class CFP_C_CHERNO_WIN_Ural_Civ_03: CUP_B_Ural_CDF
+    {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Ural (Worker)";
+        side = 3;
+        faction = "CFP_C_CHERNO_WIN";
+        crew = "CFP_C_CHERNO_WIN_Civilian_01";
+        hiddenSelections[] = {"camo1","camo2","camo3"};
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_civ2_snow_co.paa","\x\cfp\addons\vehicles\Ural\Ural_plachta_civil_snow_co.paa","\x\cfp\addons\vehicles\Ural\whl_snow_co.paa"};
+        editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\Data\preview\CUP_C_Ural_Civ_03.jpg";
+    };
+
+    class CUP_B_UAZ_Unarmed_CDF;
+    class CFP_C_CHERNO_WIN_UAZ_GREY_01 : CUP_B_UAZ_Unarmed_CDF {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_UAZ_SNW_01.JPG;
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "UAZ (Grey)";
+        side = 3;
+        faction = "CFP_C_CHERNO_WIN";
+        crew = "CFP_C_CHERNO_WIN_Civilian_01";
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\vehicles\UAZ\uaz_main_grey_snow_co.paa",
+            "CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\data\uaz_other_co.paa"
+        };
+    };
+    class CFP_C_CHERNO_WIN_UAZ_TAN_01 : CUP_B_UAZ_Unarmed_CDF {
+        editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_UAZ_SNW_01.JPG;
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "UAZ (Tan)";
+        side = 3;
+        faction = "CFP_C_CHERNO_WIN";
+        crew = "CFP_C_CHERNO_WIN_Civilian_01";
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\vehicles\UAZ\uaz_main_tan_snow_co.paa",
+            "CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\data\uaz_other_co.paa"
+        };
+    };
+    class CUP_LADA_Base;
+    class CFP_C_CHERNO_WIN_LADA_01 : CUP_LADA_Base {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Lada (Red)";
+        side = 3;
+        faction = "CFP_C_CHERNO_WIN";
+        crew = "CFP_C_CHERNO_WIN_Civilian_01";
+        hiddenSelections[] =
+        {
+                "Camo1",
+                "Camo2"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "\x\cfp\addons\vehicles\Lada\lada_red_snow_co.paa",
+            "\cup\wheeledvehicles\cup_wheeledvehicles_lada\data\lada_glass_ca.paa"
+        };
+    };
+    class CFP_C_CHERNO_WIN_LADA_02 : CUP_LADA_Base {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Lada (White)";
+        side = 3;
+        faction = "CFP_C_CHERNO_WIN";
+        crew = "CFP_C_CHERNO_WIN_Civilian_01";
+        hiddenSelections[] =
+        {
+                "Camo1",
+                "Camo2"
+        };
+        hiddenSelectionsTextures[] =
+        {
+            "\x\cfp\addons\vehicles\Lada\lada_white_snow_co.paa",
+            "\cup\wheeledvehicles\cup_wheeledvehicles_lada\data\lada_glass_ca.paa"
+        };
+    };
 };
