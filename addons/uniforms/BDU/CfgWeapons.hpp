@@ -1113,7 +1113,7 @@
     {
         picture = \x\cfp\addons\uniforms\data\ui\icon_CFP_BDU_Sword2.paa;
 
-		scope=2;
+		scope=1;
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USArmy\CUP_US_BDU.p3d";
 		displayName = "BDU (Sword)";
 		author = "CFP";
@@ -1762,3 +1762,6 @@
 			mass=20;
 		};
 	};
+
+
+

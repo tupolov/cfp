@@ -2,7 +2,7 @@
     {
         picture = \x\cfp\addons\vests\data\ui\icon_CFP_ITV_Empty.paa;
 
-        scope = 1;
+        scope = 2;
         displayName = "Interceptor (Empty M81)";
         //
         model = "x\cfp\addons\models\interceptor_base.p3d";
@@ -847,4 +847,31 @@
 
         };
     };
+
+    class CUP_Vest_Camo_Base;
+    class CFP_V_B_Eagle_SPC_Rifleman: CUP_Vest_Camo_Base
+{
+    scope = 1;
+    author = "CFP";
+    displayName  = "SPC (Rifleman) ";
+    descriptionShort = "$STR_A3_SP_AL_III";
+    picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\data\ui\icon_v_SPC_1_ca.paa";
+    model   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\CUP_USMC_Eagle_SPC_1.p3d";
+    hiddenSelections[] = {"tex1"};
+    hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Interceptor\tex\eagle.paa"};
+
+
+    class ItemInfo: VestItem
+    {
+        containerClass = "Supply120";
+        uniformModel   = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\CUP_USMC_Eagle_SPC_1.p3d";
+        hiddenSelections[] = {"tex1"};
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Interceptor\tex\eagle.paa"};
+        armor = 20;
+        passThrough = 0.5;
+        mass = 80;
+
+    };
+};
+
 
