@@ -848,13 +848,15 @@ class CFP_Tactical1_EDRL: V_PlateCarrier1_rgr
 	descriptionShort = "$STR_A3_SP_AL_I";
 	picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\data\ui\icon_v_RRV_tl_ca.paa";
 	model   = "\x\cfp\addons\models\V2_CUP_Delta_Vest1.p3d";
-	hiddenSelectionsTextures[] = {"cup\creatures\people\military\cup_creatures_people_military_delta\data\do_1_co.paa","cup\creatures\people\military\cup_creatures_people_military_delta\data\do_equip_co.paa"};
+	hiddenSelections[] = {"camo1", "camo2"};
+	hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Tactical1\do_1_co.paa","\x\cfp\addons\vests\Tactical1\do_equip_co.paa"};
 
 	class ItemInfo: VestItem
 	{
 		containerClass = "Supply140";
 		uniformModel   = "\x\cfp\addons\models\V2_CUP_Delta_Vest1.p3d";
-	    hiddenSelectionsTextures[] = {"cup\creatures\people\military\cup_creatures_people_military_delta\data\do_1_co.paa","cup\creatures\people\military\cup_creatures_people_military_delta\data\do_equip_co.paa"};
+		hiddenSelections[] = {"camo1", "camo2"};
+	    hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Tactical1\do_1_co.paa","\x\cfp\addons\vests\Tactical1\do_equip_co.paa"};
 		armor = 20;
 		passThrough = 0.5;
 		mass = 70;
@@ -895,13 +897,15 @@ class CFP_Tactical1_EDRL: V_PlateCarrier1_rgr
 	descriptionShort = "$STR_A3_SP_AL_I";
 	picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\data\ui\icon_v_RRV_tl_ca.paa";
 	model   = "\x\cfp\addons\models\V2_CUP_Delta_Vest2.p3d";
-	hiddenSelectionsTextures[] = {"cup\creatures\people\military\cup_creatures_people_military_delta\data\do_1_co.paa","cup\creatures\people\military\cup_creatures_people_military_delta\data\do_equip_co.paa"};
+	hiddenSelections[] = {"camo1", "camo2"};
+	hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Tactical1\do_1_co.paa","\x\cfp\addons\vests\Tactical1\do_equip_co.paa"};
 
 	class ItemInfo: VestItem
 	{
 		containerClass = "Supply140";
 		uniformModel   = "\x\cfp\addons\models\V2_CUP_Delta_Vest2.p3d";
-	    hiddenSelectionsTextures[] = {"cup\creatures\people\military\cup_creatures_people_military_delta\data\do_1_co.paa","cup\creatures\people\military\cup_creatures_people_military_delta\data\do_equip_co.paa"};
+		hiddenSelections[] = {"camo1", "camo2"};
+	    hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Tactical1\do_1_co.paa","\x\cfp\addons\vests\Tactical1\do_equip_co.paa"};
 		armor = 20;
 		passThrough = 0.5;
 		mass = 70;
@@ -942,13 +946,15 @@ class CFP_Tactical1_EDRL: V_PlateCarrier1_rgr
 	descriptionShort = "$STR_A3_SP_AL_I";
 	picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_USMC\data\ui\icon_v_RRV_tl_ca.paa";
 	model   = "\x\cfp\addons\models\V2_CUP_FR_RRV_TL_holster.p3d";
-	hiddenSelectionsTextures[] = {"cup\creatures\people\military\cup_creatures_people_military_delta\data\do_1_co.paa","cup\creatures\people\military\cup_creatures_people_military_delta\data\do_equip_co.paa"};
+	hiddenSelections[] = {"camo1", "camo2"};
+	hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Tactical1\do_1_co.paa","\x\cfp\addons\vests\Tactical1\do_equip_co.paa"};
 
 	class ItemInfo: VestItem
 	{
 		containerClass = "Supply140";
 		uniformModel   = "\x\cfp\addons\models\V2_CUP_FR_RRV_TL_holster.p3d";
-	    hiddenSelectionsTextures[] = {"cup\creatures\people\military\cup_creatures_people_military_delta\data\do_1_co.paa","cup\creatures\people\military\cup_creatures_people_military_delta\data\do_equip_co.paa"};
+		hiddenSelections[] = {"camo1", "camo2"};
+	    hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Tactical1\do_1_co.paa","\x\cfp\addons\vests\Tactical1\do_equip_co.paa"};
 		armor = 20;
 		passThrough = 0.5;
 		mass = 70;
