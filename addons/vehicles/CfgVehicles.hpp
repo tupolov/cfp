@@ -189,6 +189,34 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Offroad\PolygonDesert.paa","A3\soft_f\Offroad_01\Data\offroad_01_ext_co.paa"};
                 factions[] = {};
             };
+            class BlueSnow
+            {
+                displayName = "Blue (Winter)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Offroad\offroad_blue_snow_co.paa","\x\cfp\addons\vehicles\Offroad\offroad_blue_snow_co.paa"};
+                factions[] = {};
+            };
+            class RedSnow
+            {
+                displayName = "Red (Winter)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Offroad\offroad_red_snow_co.paa","\x\cfp\addons\vehicles\Offroad\offroad_red_snow_co.paa"};
+                factions[] = {};
+            };
+            class TanSnow
+            {
+                displayName = "Tan (Winter)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Offroad\offroad_tan_snow_co.paa","\x\cfp\addons\vehicles\Offroad\offroad_tan_snow_co.paa"};
+                factions[] = {};
+            };
+            class WhiteSnow
+            {
+                displayName = "White (Winter)";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Offroad\offroad_white_snow_co.paa","\x\cfp\addons\vehicles\Offroad\offroad_white_snow_co.paa"};
+                factions[] = {};
+            };
         };
     };
 
