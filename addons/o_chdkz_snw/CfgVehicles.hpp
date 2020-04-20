@@ -1072,6 +1072,9 @@ class CfgVehicles {
                 "CFP_Tactical1_White2", 0.6,
                 "CFP_Tactical1_Berez", 0.6,
                 "SP_Tactical1_White", 0.6,
+                "CFP_M23_VEST_VSR98", 0.3,
+                "CFP_M23_VEST_Lime", 0.3,
+                "CUP_V_O_SLA_M23_1_OD", 0.3,
                 "CUP_V_RUS_Smersh_1", 0.3,
                 "CUP_V_RUS_Smersh_2", 0.3
             };
@@ -1157,6 +1160,9 @@ class CfgVehicles {
                 "CFP_Tactical1_White2", 0.6,
                 "CFP_Tactical1_Berez", 0.6,
                 "SP_Tactical1_White", 0.6,
+                "CFP_M23_VEST_VSR98", 0.3,
+                "CFP_M23_VEST_Lime", 0.3,
+                "CUP_V_O_SLA_M23_1_OD", 0.3,
                 "CUP_V_RUS_Smersh_1", 0.3,
                 "CUP_V_RUS_Smersh_2", 0.3
             };
@@ -1207,7 +1213,9 @@ class CfgVehicles {
                 "CFP_CHZ_Berezka", 0.25,
                 "CFP_CHZ_Berezka2", 0.25,
                 "CFP_CHZ_Berezka3", 0.25,
-                "CFP_CHZ_Berezka4", 0.25
+                "CFP_CHZ_Berezka4", 0.25,
+                "CFP_U_O_RUMVD_Gorka_Berezka_White", 0.2,
+                "CFP_U_O_RUMVD_Gorka_White", 0.2
             };
 
         //Facewear
@@ -1229,6 +1237,9 @@ class CfgVehicles {
                 "CFP_Tactical1_White2", 0.6,
                 "CFP_Tactical1_Berez", 0.6,
                 "SP_Tactical1_White", 0.6,
+                "CFP_M23_VEST_VSR98", 0.3,
+                "CFP_M23_VEST_Lime", 0.3,
+                "CUP_V_O_SLA_M23_1_OD", 0.3,
                 "CUP_V_RUS_Smersh_1", 0.3,
                 "CUP_V_RUS_Smersh_2", 0.3
             };
@@ -1281,7 +1292,9 @@ class CfgVehicles {
                 "CFP_CHZ_Berezka", 0.25,
                 "CFP_CHZ_Berezka2", 0.25,
                 "CFP_CHZ_Berezka3", 0.25,
-                "CFP_CHZ_Berezka4", 0.25
+                "CFP_CHZ_Berezka4", 0.25,
+                "CFP_U_O_RUMVD_Gorka_Berezka_White", 0.2,
+                "CFP_U_O_RUMVD_Gorka_White", 0.2
             };
 
         //Facewear
@@ -1308,6 +1321,9 @@ class CfgVehicles {
                 "CFP_Tactical1_White2", 0.6,
                 "CFP_Tactical1_Berez", 0.6,
                 "SP_Tactical1_White", 0.6,
+                "CFP_M23_VEST_VSR98", 0.3,
+                "CFP_M23_VEST_Lime", 0.3,
+                "CUP_V_O_SLA_M23_1_OD", 0.3,
                 "CUP_V_RUS_Smersh_1", 0.3,
                 "CUP_V_RUS_Smersh_2", 0.3
             };
@@ -1360,7 +1376,9 @@ class CfgVehicles {
                 "CFP_CHZ_Berezka", 0.25,
                 "CFP_CHZ_Berezka2", 0.25,
                 "CFP_CHZ_Berezka3", 0.25,
-                "CFP_CHZ_Berezka4", 0.25
+                "CFP_CHZ_Berezka4", 0.25,
+                "CFP_U_O_RUMVD_Gorka_Berezka_White", 0.2,
+                "CFP_U_O_RUMVD_Gorka_White", 0.2
             };
 
         //Facewear
@@ -1382,6 +1400,9 @@ class CfgVehicles {
                 "CFP_Tactical1_White2", 0.6,
                 "CFP_Tactical1_Berez", 0.6,
                 "SP_Tactical1_White", 0.6,
+                "CFP_M23_VEST_VSR98", 0.3,
+                "CFP_M23_VEST_Lime", 0.3,
+                "CUP_V_O_SLA_M23_1_OD", 0.3,
                 "CUP_V_RUS_Smersh_1", 0.3,
                 "CUP_V_RUS_Smersh_2", 0.3
             };
@@ -1432,7 +1453,9 @@ class CfgVehicles {
                 "CFP_CHZ_Berezka", 0.25,
                 "CFP_CHZ_Berezka2", 0.25,
                 "CFP_CHZ_Berezka3", 0.25,
-                "CFP_CHZ_Berezka4", 0.25
+                "CFP_CHZ_Berezka4", 0.25,
+                "CFP_U_O_RUMVD_Gorka_Berezka_White", 0.2,
+                "CFP_U_O_RUMVD_Gorka_White", 0.2
             };
 
         class EventHandlers : EventHandlers {
@@ -1486,7 +1509,9 @@ class CfgVehicles {
                 "CFP_CHZ_Berezka", 0.25,
                 "CFP_CHZ_Berezka2", 0.25,
                 "CFP_CHZ_Berezka3", 0.25,
-                "CFP_CHZ_Berezka4", 0.25
+                "CFP_CHZ_Berezka4", 0.25,
+                "CFP_U_O_RUMVD_Gorka_Berezka_White", 0.2,
+                "CFP_U_O_RUMVD_Gorka_White", 0.2
             };
 
         //Facewear
@@ -1508,6 +1533,9 @@ class CfgVehicles {
                 "CFP_Tactical1_White2", 0.6,
                 "CFP_Tactical1_Berez", 0.6,
                 "SP_Tactical1_White", 0.6,
+                "CFP_M23_VEST_VSR98", 0.3,
+                "CFP_M23_VEST_Lime", 0.3,
+                "CUP_V_O_SLA_M23_1_OD", 0.3,
                 "CUP_V_RUS_Smersh_1", 0.3,
                 "CUP_V_RUS_Smersh_2", 0.3
             };
@@ -1558,7 +1586,9 @@ class CfgVehicles {
                 "CFP_CHZ_Berezka", 0.25,
                 "CFP_CHZ_Berezka2", 0.25,
                 "CFP_CHZ_Berezka3", 0.25,
-                "CFP_CHZ_Berezka4", 0.25
+                "CFP_CHZ_Berezka4", 0.25,
+                "CFP_U_O_RUMVD_Gorka_Berezka_White", 0.2,
+                "CFP_U_O_RUMVD_Gorka_White", 0.2
             };
 
         class EventHandlers : EventHandlers {
@@ -1609,7 +1639,9 @@ class CfgVehicles {
                 "CFP_CHZ_Berezka", 0.25,
                 "CFP_CHZ_Berezka2", 0.25,
                 "CFP_CHZ_Berezka3", 0.25,
-                "CFP_CHZ_Berezka4", 0.25
+                "CFP_CHZ_Berezka4", 0.25,
+                "CFP_U_O_RUMVD_Gorka_Berezka_White", 0.2,
+                "CFP_U_O_RUMVD_Gorka_White", 0.2
             };
 
         //Facewear
@@ -1636,6 +1668,9 @@ class CfgVehicles {
                 "CFP_Tactical1_White2", 0.6,
                 "CFP_Tactical1_Berez", 0.6,
                 "SP_Tactical1_White", 0.6,
+                "CFP_M23_VEST_VSR98", 0.3,
+                "CFP_M23_VEST_Lime", 0.3,
+                "CUP_V_O_SLA_M23_1_OD", 0.3,
                 "CUP_V_RUS_Smersh_1", 0.3,
                 "CUP_V_RUS_Smersh_2", 0.3
             };
@@ -1688,7 +1723,9 @@ class CfgVehicles {
                 "CFP_CHZ_Berezka", 0.25,
                 "CFP_CHZ_Berezka2", 0.25,
                 "CFP_CHZ_Berezka3", 0.25,
-                "CFP_CHZ_Berezka4", 0.25
+                "CFP_CHZ_Berezka4", 0.25,
+                "CFP_U_O_RUMVD_Gorka_Berezka_White", 0.2,
+                "CFP_U_O_RUMVD_Gorka_White", 0.2
             };
 
         //Facewear
@@ -1753,7 +1790,9 @@ class CfgVehicles {
                 "CFP_CHZ_Berezka", 0.25,
                 "CFP_CHZ_Berezka2", 0.25,
                 "CFP_CHZ_Berezka3", 0.25,
-                "CFP_CHZ_Berezka4", 0.25
+                "CFP_CHZ_Berezka4", 0.25,
+                "CFP_U_O_RUMVD_Gorka_Berezka_White", 0.2,
+                "CFP_U_O_RUMVD_Gorka_White", 0.2
             };
 
         //Facewear
@@ -1784,6 +1823,9 @@ class CfgVehicles {
                 "CFP_Tactical1_White2", 0.6,
                 "CFP_Tactical1_Berez", 0.6,
                 "SP_Tactical1_White", 0.6,
+                "CFP_M23_VEST_VSR98", 0.3,
+                "CFP_M23_VEST_Lime", 0.3,
+                "CUP_V_O_SLA_M23_1_OD", 0.3,
                 "CUP_V_RUS_Smersh_1", 0.3,
                 "CUP_V_RUS_Smersh_2", 0.3
             };
@@ -1836,7 +1878,9 @@ class CfgVehicles {
                 "CFP_CHZ_Berezka", 0.25,
                 "CFP_CHZ_Berezka2", 0.25,
                 "CFP_CHZ_Berezka3", 0.25,
-                "CFP_CHZ_Berezka4", 0.25
+                "CFP_CHZ_Berezka4", 0.25,
+                "CFP_U_O_RUMVD_Gorka_Berezka_White", 0.2,
+                "CFP_U_O_RUMVD_Gorka_White", 0.2
             };
 
         //Facewear
@@ -1863,6 +1907,9 @@ class CfgVehicles {
                 "CFP_Tactical1_White2", 0.6,
                 "CFP_Tactical1_Berez", 0.6,
                 "SP_Tactical1_White", 0.6,
+                "CFP_M23_VEST_VSR98", 0.3,
+                "CFP_M23_VEST_Lime", 0.3,
+                "CUP_V_O_SLA_M23_1_OD", 0.3,
                 "CUP_V_RUS_Smersh_1", 0.3,
                 "CUP_V_RUS_Smersh_2", 0.3
             };
@@ -1913,7 +1960,9 @@ class CfgVehicles {
                 "CFP_CHZ_Berezka", 0.25,
                 "CFP_CHZ_Berezka2", 0.25,
                 "CFP_CHZ_Berezka3", 0.25,
-                "CFP_CHZ_Berezka4", 0.25
+                "CFP_CHZ_Berezka4", 0.25,
+                "CFP_U_O_RUMVD_Gorka_Berezka_White", 0.2,
+                "CFP_U_O_RUMVD_Gorka_White", 0.2
             };
 
         //Facewear
@@ -1980,7 +2029,9 @@ class CfgVehicles {
                 "CFP_CHZ_Berezka", 0.25,
                 "CFP_CHZ_Berezka2", 0.25,
                 "CFP_CHZ_Berezka3", 0.25,
-                "CFP_CHZ_Berezka4", 0.25
+                "CFP_CHZ_Berezka4", 0.25,
+                "CFP_U_O_RUMVD_Gorka_Berezka_White", 0.2,
+                "CFP_U_O_RUMVD_Gorka_White", 0.2
             };
 
         //Facewear
@@ -2007,6 +2058,9 @@ class CfgVehicles {
                 "CFP_Tactical1_White2", 0.6,
                 "CFP_Tactical1_Berez", 0.6,
                 "SP_Tactical1_White", 0.6,
+                "CFP_M23_VEST_VSR98", 0.3,
+                "CFP_M23_VEST_Lime", 0.3,
+                "CUP_V_O_SLA_M23_1_OD", 0.3,
                 "CUP_V_RUS_Smersh_1", 0.3,
                 "CUP_V_RUS_Smersh_2", 0.3
             };
@@ -2061,7 +2115,9 @@ class CfgVehicles {
                 "CFP_CHZ_Berezka", 0.25,
                 "CFP_CHZ_Berezka2", 0.25,
                 "CFP_CHZ_Berezka3", 0.25,
-                "CFP_CHZ_Berezka4", 0.25
+                "CFP_CHZ_Berezka4", 0.25,
+                "CFP_U_O_RUMVD_Gorka_Berezka_White", 0.2,
+                "CFP_U_O_RUMVD_Gorka_White", 0.2
             };
 
         //Facewear
