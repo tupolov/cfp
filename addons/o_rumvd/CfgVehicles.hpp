@@ -1575,6 +1575,38 @@ class CfgVehicles {
         icon = "iconMan";
     };
 
+    class CFP_O_RUMVD_Gorka_EMR : CUP_O_RUS_Gorka_Green_gloves_kneepads
+    {
+        scope = 1;
+        scopeCurator = 0;
+        displayName = "Gorka (EMR Digital Flora)";
+        model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_RUS_Gorka_gloves_kneepads.p3d";
+        uniformClass = "CUP_U_O_RUMVD_Gorka_EMR";
+
+        hiddenSelections[] = {"camo", "camo1", "clan", "insignia"};
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\o_rumvd\data\gorka_emr_co.paa",
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\oakley_2_od_co.paa",
+        };
+        icon = "iconMan";
+    };
+
+    class CFP_O_RUMVD_Gorka_EMR_Full : CUP_O_RUS_Gorka_Green_gloves_kneepads
+    {
+        scope = 1;
+        scopeCurator = 0;
+        displayName = "Gorka (EMR Digital Flora)";
+        model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_RUS_Gorka_gloves_kneepads.p3d";
+        uniformClass = "CUP_U_O_RUMVD_Gorka_EMR_Full";
+
+        hiddenSelections[] = {"camo", "camo1", "clan", "insignia"};
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\o_rumvd\data\gorka_emr_full_co.paa",
+            "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\oakley_2_od_co.paa",
+        };
+        icon = "iconMan";
+    };
+
     class CUP_O_RUS_Soldier_02;
     class CFP_O_RUMVD_SURPAT : CUP_O_RUS_Soldier_02
     {

@@ -192,6 +192,38 @@
             mass=20;
         };
     };
+    class CFP_U_O_RUMVD_Gorka_EMR: Uniform_Base
+    {
+        scope=2;
+        model = "\x\cfp\addons\models\Suitpack";
+        displayName = "Gorka (EMR Digital Flora)";
+        picture = "\x\cfp\addons\o_rumvd\data\UI\icon_u_o_gorka_olive_ca.paa";
+        author = "CFP";
+
+        class ItemInfo: UniformItem
+        {
+            uniformModel = "-";
+            uniformClass = "CFP_O_RUMVD_Gorka_EMR";
+            containerClass="Supply60";
+            mass=20;
+        };
+    };
+    class CFP_U_O_RUMVD_Gorka_EMR_Full: Uniform_Base
+    {
+        scope=2;
+        model = "\x\cfp\addons\models\Suitpack";
+        displayName = "Gorka (EMR Digital Flora v2)";
+        picture = "\x\cfp\addons\o_rumvd\data\UI\icon_u_o_gorka_olive_ca.paa";
+        author = "CFP";
+
+        class ItemInfo: UniformItem
+        {
+            uniformModel = "-";
+            uniformClass = "CFP_O_RUMVD_Gorka_EMR_Full";
+            containerClass="Supply60";
+            mass=20;
+        };
+    };
     class CFP_U_O_RUMVD_SURPAT: Uniform_Base
     {
         scope=2;
