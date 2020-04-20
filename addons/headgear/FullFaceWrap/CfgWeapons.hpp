@@ -12,7 +12,7 @@ class CfgVehicleClasses
 */
 	class CFP_FullFaceWrap_Snow: ItemCore
     {
-        picture = "";
+        picture = "\A3\Characters_F_Bootcamp\Data\UI\icon_G_Balaclava_clean_ca.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Face Wrap (Winter)";
@@ -35,7 +35,7 @@ class CfgVehicleClasses
 
 	class CFP_FullFaceWrap_Black: ItemCore
     {
-        picture = "";
+        picture = "\A3\Characters_F_Bootcamp\Data\UI\icon_G_Balaclava_clean_ca.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Face Wrap (Black)";
@@ -58,7 +58,7 @@ class CfgVehicleClasses
 
 	class CFP_FullFaceWrap_BerezWhite: ItemCore
     {
-        picture = "";
+        picture = "\A3\Characters_F_Bootcamp\Data\UI\icon_G_Balaclava_clean_ca.paa";
 		scope = 2;
 		weaponPoolAvailable = 1;
 		displayName = "Face Wrap (Berezka White)";
