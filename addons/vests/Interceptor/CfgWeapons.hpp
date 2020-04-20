@@ -2,7 +2,7 @@
     {
         picture = \x\cfp\addons\vests\data\ui\icon_CFP_ITV_Empty.paa;
 
-        scope = 2;
+        scope = 1;
         displayName = "Interceptor (Empty M81)";
         //
         model = "x\cfp\addons\models\interceptor_base.p3d";
