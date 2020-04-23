@@ -2,6 +2,36 @@
 class CfgVehicles
 {
 
+    class SUV_01_base_F;
+    class C_SUV_01_F: SUV_01_base_F
+    {
+        class textureSources
+        {
+            class Winter
+            {
+                displayName = "Winter";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\SUV\suv_a3_snow_co.paa"};
+                factions[] = {};
+            };
+        };
+    };
+
+    class Quadbike_01_base_F;
+    class B_Quadbike_01_F: Quadbike_01_base_F
+    {
+        class textureSources
+        {
+            class Winter
+            {
+                displayName = "Winter";
+                author = "CFP";
+                textures[] = {"x\cfp\addons\vehicles\Quadbike\quadbike_01_white_co.paa","x\cfp\addons\vehicles\Quadbike\quadbike_01_wheel_snow_co.paa"};
+                factions[] = {};
+            };
+        };
+    };
+
     class Offroad_01_base_F;
     class Offroad_01_civil_base_F : Offroad_01_base_F
     {
