@@ -1331,6 +1331,12 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_NKARMY";
         crew = "CFP_O_NKARMY_Crewman_01";
+        hiddenSelectionsTextures[] =
+        {
+                    "\x\cfp\addons\vehicles\ZSU\ZSU_T_1_NK_co.paa",
+                    "\x\cfp\addons\vehicles\ZSU\ZSU_T_2_NK_co.paa",
+                    "\x\cfp\addons\vehicles\ZSU\ZSU_T_3_NK_co.paa"
+                };
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_NKARMY_Crewman_01"; };
