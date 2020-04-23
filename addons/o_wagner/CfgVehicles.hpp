@@ -5,6 +5,9 @@
 //////////////////////////////////////////////////////////////////////////////////
 #include "\x\cfp\addons\vehicles\inventory_macro\main.hpp"
 
+#define mag_xx(a,b) class _xx_##a {magazine = ##a; count = b;}
+#define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
+#define item_xx(a,b) class _xx_##a {name = a; count = b;}
 
 class CBA_Extended_EventHandlers_base;
 
@@ -934,7 +937,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_WAGNER";
         crew = "CFP_O_WAGNER_Contractor_1_DESERT_01";
-        hiddenSelectionsTextures[] = {"\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_01_black_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_02_black_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_03_black_CO.paa"};
+        hiddenSelectionsTextures[] = {"x\cfp\addons\vehicles\LSV02\Wagner_lsv_02_01_desert_co.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_02_black_CO.paa","\A3\Soft_F_Exp\LSV_02\Data\CSAT_LSV_03_black_CO.paa"};
         editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_LSV_02\data\preview\CUP_I_LSV_02_unarmed_ION.jpg";
         TRANSPORTWEAPONSLARGE(CUP_arifle_AK74M,CUP_launch_RPG7V)
         TRANSPORTMAGAZINESLARGE(CUP_30Rnd_545x39_AK_M,CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,CUP_1Rnd_HE_GP25_M,CUP_PG7V_M,CUP_HandGrenade_RGD5,SmokeShell,SmokeShellOrange)
@@ -950,6 +953,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_WAGNER";
         crew = "CFP_O_WAGNER_Tactical_Driver_DESERT_01";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_des.paa","\x\cfp\addons\vehicles\Ural\ural_plachta_iran.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\WHL_TyreSize3.paa"};
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -980,7 +984,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_WAGNER";
         crew = "CFP_O_WAGNER_Tactical_Driver_DESERT_01";
-
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_des.paa","\x\cfp\addons\vehicles\Ural\ural_open_iran.paa","\x\cfp\addons\vehicles\Ural\ural_fuel_iran.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\WHL_TyreSize3.paa"};
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -1004,7 +1008,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_WAGNER";
         crew = "CFP_O_WAGNER_Field_Technician_DESERT_01";
-
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_des.paa","\x\cfp\addons\vehicles\Ural\ural_plachta_iran.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\WHL_TyreSize3.paa"};
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -1028,7 +1032,7 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_WAGNER";
         crew = "CFP_O_WAGNER_Tactical_Driver_DESERT_01";
-
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_des.paa","\x\cfp\addons\vehicles\Ural\ural_plachta_iran.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\WHL_TyreSize3.paa"};
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -1105,7 +1109,7 @@ class CfgVehicles {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
-        displayName = "UAZ ";
+        displayName = "UAZ";
         side = 0;
         faction = "CFP_O_WAGNER";
         crew = "CFP_O_WAGNER_Tactical_Driver_DESERT_01";
@@ -1387,5 +1391,269 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {"\a3\air_f\Heli_Light_02\Data\heli_light_02_ext_co.paa"};
         editorPreview = "CUP\AirVehicles\CUP_AirVehicles_KA60\Data\preview\CUP_O_Ka60_Blk_CSAT.jpg";
     };
-};
 
+    class CUP_RUBasicAmmunitionBox; // CUP_RUBasicAmmunitionBox
+
+    class CUP_RUBasicWeaponsBox; // CUP_RUBasicWeaponsBox
+
+    class CUP_RUSpecialWeaponsBox; // CUP_RUSpecialWeaponsBox
+
+    class CUP_RULaunchersBox; // CUP_RULaunchersBox
+
+    class O_SupplyCrate_F; // CUP_RUVehicleBox
+
+
+    class CFP_O_WAGNER_AmmoBox : CUP_RUBasicAmmunitionBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = PMC Wagner (Arid / Desert) Ammo Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_545x39_AK74M_desert_M,50);
+            mag_xx(SmokeShell,50);
+            mag_xx(CUP_HandGrenade_RGD5,50);
+            mag_xx(CUP_30Rnd_545x39_AK74M_M,50);
+            mag_xx(CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_8Rnd_9x18_Makarov_M,50);
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_30Rnd_545x39_AK74_plum_M,50);
+            mag_xx(CUP_30Rnd_762x39_AK47_bakelite_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_1Rnd_SMOKE_GP25_M,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+            mag_xx(CUP_30Rnd_9x39_SP5_VIKHR_M,50);
+            mag_xx(CUP_30Rnd_9x19AP_Vityaz,50);
+            mag_xx(SmokeShellRed,50);
+            mag_xx(Chemlight_red,50);
+            mag_xx(Chemlight_green,50);
+            mag_xx(16Rnd_9x21_Mag,50);
+        };
+        class TransportWeapons {
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_O_WAGNER_WeaponsBox : CUP_RUBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = PMC Wagner (Arid / Desert) Weapons Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_545x39_AK74M_desert_M,50);
+            mag_xx(CUP_30Rnd_545x39_AK74M_M,50);
+            mag_xx(CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_8Rnd_9x18_Makarov_M,50);
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_30Rnd_545x39_AK74_plum_M,50);
+            mag_xx(CUP_30Rnd_762x39_AK47_bakelite_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+            mag_xx(CUP_30Rnd_9x39_SP5_VIKHR_M,50);
+            mag_xx(CUP_30Rnd_9x19AP_Vityaz,50);
+            mag_xx(16Rnd_9x21_Mag,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_AK74M_railed_afg_desert,10);
+            weap_xx(CUP_arifle_AK74M,10);
+            weap_xx(CUP_arifle_RPK74_45,10);
+            weap_xx(CUP_lmg_PKMN,10);
+            weap_xx(CUP_hgun_Makarov,10);
+            weap_xx(CUP_arifle_OTS14_GROZA_762_Grip,10);
+            weap_xx(CUP_arifle_AKS74U_railed,10);
+            weap_xx(CUP_arifle_AKMS,10);
+            weap_xx(CUP_arifle_AK74M_GL_railed_desert,10);
+            weap_xx(CUP_srifle_SVD_des,10);
+            weap_xx(CUP_arifle_SR3M_Vikhr_VFG,10);
+            weap_xx(CUP_smg_vityaz_vfg,10);
+            weap_xx(hgun_Rook40_F,10);
+            weap_xx(CUP_arifle_AK105_railed,10);
+        };
+        class TransportItems {
+            item_xx(CUP_muzzle_snds_KZRZP_AK545,10);
+            item_xx(CUP_optic_PSO_1_AK_open,10);
+            item_xx(CUP_optic_1p63,10);
+            item_xx(CUP_optic_PechenegScope,10);
+            item_xx(CUP_optic_AIMM_MICROT1_TAN,10);
+            item_xx(CUP_optic_PSO_3,10);
+            item_xx(CUP_optic_Kobra,10);
+            item_xx(CUP_acc_ANPEQ_15_Top_Flashlight_Black_L,10);
+            item_xx(CUP_optic_AIMM_MICROT1_BLK,10);
+        };
+    };
+    class CFP_O_WAGNER_LaunchersBox : CUP_RULaunchersBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = PMC Wagner (Arid / Desert) Launchers Box;
+        class TransportMagazines {
+            mag_xx(CUP_RPG18_M,5);
+            mag_xx(CUP_Igla_M,5);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_launch_RPG18_Loaded,5);
+            weap_xx(CUP_launch_Igla_Loaded,5);
+        };
+        class TransportItems {
+        };
+    };
+    class CFP_O_WAGNER_UniformBox : CUP_RUBasicWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = PMC Wagner (Arid / Desert) Uniform Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(CUP_U_O_RUS_Gorka_Green_gloves2,15);
+            item_xx(CFP_U_O_RUMVD_Gorka_ATACSAU,15);
+            item_xx(CFP_U_O_RUMVD_Gorka_ATACSAU_MCam,15);
+            item_xx(CUP_I_B_PARA_Unit_1,15);
+            item_xx(CUP_I_B_PARA_Unit_3,15);
+            item_xx(CUP_I_B_PMC_Unit_39,15);
+            item_xx(CUP_I_B_PMC_Unit_37,15);
+            item_xx(CFP_U_O_RUMVD_Gorka_MCam,15);
+            item_xx(CFP_U_FieldUniform_multicam_SS,15);
+            item_xx(CFP_U_FieldUniform_multicam,15);
+            item_xx(CUP_U_O_RUS_Gorka_Green_gloves_kneepads,15);
+        };
+    };
+    class CFP_O_WAGNER_SupportBox : CUP_RUSpecialWeaponsBox {
+        author = ALiVE ORBAT CREATOR;
+        displayName = PMC Wagner (Arid / Desert) Support Box;
+        class TransportWeapons {
+        };
+        class TransportMagazines {
+        };
+        class TransportItems {
+            item_xx(CFP_V_RUS_6B45_MCam_3,10);
+            item_xx(CUP_H_RUS_Altyn_Goggles_black,10);
+            item_xx(CUP_G_PMC_Facewrap_Tan_Glasses_Dark,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(CUP_H_RUS_Altyn_Goggles_khaki,10);
+            item_xx(Binocular,10);
+            item_xx(CUP_H_PMC_EP_Headset,10);
+            item_xx(V_TacVest_khk,10);
+            item_xx(CUP_G_PMC_Facewrap_Black_Glasses_Dark,10);
+            item_xx(CFP_FieldPack_ATACSAU,10);
+            item_xx(V_I_G_resistanceLeader_F,10);
+            item_xx(SP_Balaclava_Tan,10);
+            item_xx(CFP_V_O_RUMVD_MCam,10);
+            item_xx(CUP_V_CZ_NPP2006_nk_black,10);
+            item_xx(SP_Balaclava_Black,10);
+            item_xx(SP_Balaclava_Skull,10);
+            item_xx(B_Carryall_mcamo,10);
+            item_xx(CUP_V_B_LBT_LBV_Black,10);
+            item_xx(SP_Tactical1_Black,10);
+            item_xx(CUP_G_PMC_Facewrap_Black_Glasses_Ember,10);
+            item_xx(CFP_Shemagh_Face_Atacsau,10);
+            item_xx(H_Bandanna_cbr,10);
+            item_xx(CFP_AssaultPack_Multicam,10);
+            item_xx(Rangefinder,10);
+            item_xx(CFP_75th_Beanie_Grn,10);
+            item_xx(CFP_Modular1_Multicam,10);
+            item_xx(H_PilotHelmetHeli_O,10);
+            item_xx(CUP_FR_NeckScarf3,10);
+            item_xx(CUP_V_CZ_NPP2006_nk_des,10);
+            item_xx(CUP_V_B_LBT_LBV_MCam,10);
+            item_xx(CUP_H_PMC_Cap_EP_Grey,10);
+        };
+    };
+    class CFP_O_WAGNER_SupplyBox : O_SupplyCrate_F {
+        author = ALiVE ORBAT CREATOR;
+        displayName = PMC Wagner (Arid / Desert) Supply Box;
+        class TransportMagazines {
+            mag_xx(CUP_30Rnd_545x39_AK74M_desert_M,50);
+            mag_xx(SmokeShell,50);
+            mag_xx(CUP_HandGrenade_RGD5,50);
+            mag_xx(CUP_30Rnd_545x39_AK74M_M,50);
+            mag_xx(CUP_45Rnd_TE4_LRT4_Green_Tracer_545x39_RPK_M,50);
+            mag_xx(CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M,50);
+            mag_xx(CUP_8Rnd_9x18_Makarov_M,50);
+            mag_xx(CUP_30Rnd_762x39_AK47_M,50);
+            mag_xx(CUP_30Rnd_545x39_AK74_plum_M,50);
+            mag_xx(CUP_30Rnd_762x39_AK47_bakelite_M,50);
+            mag_xx(CUP_1Rnd_HE_GP25_M,50);
+            mag_xx(CUP_1Rnd_SMOKE_GP25_M,50);
+            mag_xx(CUP_10Rnd_762x54_SVD_M,50);
+            mag_xx(CUP_30Rnd_9x39_SP5_VIKHR_M,50);
+            mag_xx(CUP_30Rnd_9x19AP_Vityaz,50);
+            mag_xx(SmokeShellRed,50);
+            mag_xx(Chemlight_red,50);
+            mag_xx(Chemlight_green,50);
+            mag_xx(16Rnd_9x21_Mag,50);
+        };
+        class TransportWeapons {
+            weap_xx(CUP_arifle_AK74M_railed_afg_desert,10);
+            weap_xx(CUP_arifle_AK74M,10);
+            weap_xx(CUP_arifle_RPK74_45,10);
+            weap_xx(CUP_lmg_PKMN,10);
+            weap_xx(CUP_hgun_Makarov,10);
+            weap_xx(CUP_arifle_OTS14_GROZA_762_Grip,10);
+            weap_xx(CUP_arifle_AKS74U_railed,10);
+            weap_xx(CUP_arifle_AKMS,10);
+            weap_xx(CUP_arifle_AK74M_GL_railed_desert,10);
+            weap_xx(CUP_srifle_SVD_des,10);
+            weap_xx(CUP_arifle_SR3M_Vikhr_VFG,10);
+            weap_xx(CUP_smg_vityaz_vfg,10);
+            weap_xx(hgun_Rook40_F,10);
+            weap_xx(CUP_arifle_AK105_railed,10);
+            weap_xx(CUP_launch_RPG18_Loaded,10);
+            weap_xx(CUP_launch_Igla_Loaded,10);
+        };
+        class TransportItems {
+            item_xx(CUP_muzzle_snds_KZRZP_AK545,10);
+            item_xx(CUP_optic_PSO_1_AK_open,10);
+            item_xx(CUP_optic_1p63,10);
+            item_xx(CUP_optic_PechenegScope,10);
+            item_xx(CUP_optic_AIMM_MICROT1_TAN,10);
+            item_xx(CUP_optic_PSO_3,10);
+            item_xx(CUP_optic_Kobra,10);
+            item_xx(CUP_acc_ANPEQ_15_Top_Flashlight_Black_L,10);
+            item_xx(CUP_optic_AIMM_MICROT1_BLK,10);
+            item_xx(CFP_V_RUS_6B45_MCam_3,10);
+            item_xx(CUP_H_RUS_Altyn_Goggles_black,10);
+            item_xx(CUP_G_PMC_Facewrap_Tan_Glasses_Dark,10);
+            item_xx(ItemMap,10);
+            item_xx(ItemCompass,10);
+            item_xx(ItemWatch,10);
+            item_xx(ItemRadio,10);
+            item_xx(CUP_H_RUS_Altyn_Goggles_khaki,10);
+            item_xx(Binocular,10);
+            item_xx(CUP_H_PMC_EP_Headset,10);
+            item_xx(V_TacVest_khk,10);
+            item_xx(CUP_G_PMC_Facewrap_Black_Glasses_Dark,10);
+            item_xx(CFP_FieldPack_ATACSAU,10);
+            item_xx(V_I_G_resistanceLeader_F,10);
+            item_xx(SP_Balaclava_Tan,10);
+            item_xx(CFP_V_O_RUMVD_MCam,10);
+            item_xx(CUP_V_CZ_NPP2006_nk_black,10);
+            item_xx(SP_Balaclava_Black,10);
+            item_xx(SP_Balaclava_Skull,10);
+            item_xx(B_Carryall_mcamo,10);
+            item_xx(CUP_V_B_LBT_LBV_Black,10);
+            item_xx(SP_Tactical1_Black,10);
+            item_xx(CUP_G_PMC_Facewrap_Black_Glasses_Ember,10);
+            item_xx(CFP_Shemagh_Face_Atacsau,10);
+            item_xx(H_Bandanna_cbr,10);
+            item_xx(CFP_AssaultPack_Multicam,10);
+            item_xx(Rangefinder,10);
+            item_xx(CFP_75th_Beanie_Grn,10);
+            item_xx(CFP_Modular1_Multicam,10);
+            item_xx(H_PilotHelmetHeli_O,10);
+            item_xx(CUP_FR_NeckScarf3,10);
+            item_xx(CUP_V_CZ_NPP2006_nk_des,10);
+            item_xx(CUP_V_B_LBT_LBV_MCam,10);
+            item_xx(CUP_H_PMC_Cap_EP_Grey,10);
+            item_xx(CUP_U_O_RUS_Gorka_Green_gloves2,10);
+            item_xx(CFP_U_O_RUMVD_Gorka_ATACSAU,10);
+            item_xx(CFP_U_O_RUMVD_Gorka_ATACSAU_MCam,10);
+            item_xx(CUP_I_B_PARA_Unit_1,10);
+            item_xx(CUP_I_B_PARA_Unit_3,10);
+            item_xx(CUP_I_B_PMC_Unit_39,10);
+            item_xx(CUP_I_B_PMC_Unit_37,10);
+            item_xx(CFP_U_O_RUMVD_Gorka_MCam,10);
+            item_xx(CFP_U_FieldUniform_multicam_SS,10);
+            item_xx(CFP_U_FieldUniform_multicam,10);
+            item_xx(CUP_U_O_RUS_Gorka_Green_gloves_kneepads,10);
+        };
+    };
+};
