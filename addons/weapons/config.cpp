@@ -13,6 +13,10 @@ class CfgPatches
     			"CFP_PKP_Woodland",
 			"CFP_PKP_Desert",
 		"CFP_Negev_Black",
+		"CFP_EBR_sage_F",
+		"CFP_EBR_des_F",
+		"CFP_EBR_blk_F",
+		"CFP_EBR_wdl_F",
     		"CFP_Tavor_Black",
     		"CFP_Tavor_Black_Long",
     		"CFP_Tavor_Black_GL"

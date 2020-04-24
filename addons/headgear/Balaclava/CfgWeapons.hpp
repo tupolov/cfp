@@ -93,3 +93,26 @@
 			hiddenSelections[] = {"Camo"};
 		};
 	};
+
+	class CFP_H_Balaclava_White: ItemCore
+    {
+        picture = "\x\cfp\addons\headgear\Balaclava\ui\Greyjpg";
+		scope = 2;
+		weaponPoolAvailable = 1;
+		displayName = "Balaclava (White)";
+		model = "\x\cfp\addons\models\usp_balaclava_cfp.p3d";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Balaclava\usp_balaclava_white_co.paa"};
+		hiddenSelections[] = {"Camo"};
+		author = "CFP";
+
+		class ItemInfo: HeadgearItem
+		{
+			mass = 10;
+			uniformmodel = "\x\cfp\addons\models\usp_balaclava_cfp.p3d";
+			modelSides[] = {3,1};
+			armor = 0;
+			passThrough = 0.30;
+			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\Balaclava\usp_balaclava_white_co.paa"};
+			hiddenSelections[] = {"Camo"};
+		};
+	};
