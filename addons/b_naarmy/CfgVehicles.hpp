@@ -1065,6 +1065,60 @@ class CfgVehicles {
 
     };
 
+    class CUP_Hilux_unarmed_Base;
+    class CFP_B_NAARMY_Hilux_Unarmed_01: CUP_Hilux_unarmed_Base
+    {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Hilux";
+        side = 1;
+        faction = "CFP_B_NAARMY";
+        crew = "CFP_B_NAARMY_Rifleman_AKM_01";
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {"x\cfp\addons\vehicles\Hilux\body_polywood_co.paa"};
+    };
+
+    class CFP_B_NAARMY_Hilux_Unarmed_02: CUP_Hilux_unarmed_Base
+    {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Hilux SF";
+        side = 1;
+        faction = "CFP_B_NAARMY";
+        crew = "CFP_B_NAARMY_Rifleman_SF_01";
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {"x\cfp\addons\vehicles\Hilux\body_polydesert_co.paa"};
+    };
+
+    class CUP_Hilux_DSHKM_Base;
+    class CFP_B_NAARMY_Hilux_DSHKM_01: CUP_Hilux_DSHKM_Base
+    {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Hilux (DSHKM)";
+        side = 1;
+        faction = "CFP_B_NAARMY";
+        crew = "CFP_B_NAARMY_Rifleman_AKM_01";
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {"x\cfp\addons\vehicles\Hilux\body_polywood_co.paa"};
+    };
+
+    class CFP_B_NAARMY_Hilux_DSHKM_02: CUP_Hilux_DSHKM_Base
+    {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Hilux SF (DSHKM)";
+        side = 1;
+        faction = "CFP_B_NAARMY";
+        crew = "CFP_B_NAARMY_Rifleman_SF_01";
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {"x\cfp\addons\vehicles\Hilux\body_polydesert_co.paa"};
+    };
+
     class CFP_B_NAARMY_Land_Rover_01 : CUP_B_LR_Transport_CZ_W_OCimport_02 {
         editorPreview = \x\cfp\addons\b_naarmy\data\preview\CFP_B_NAARMY_Land_Rover_01.JPG;
         author = "Drew";
