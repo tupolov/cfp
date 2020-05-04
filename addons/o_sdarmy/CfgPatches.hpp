@@ -9,6 +9,8 @@ class CfgPatches {
             "CFP_O_SDARMY_BRDM_2_01",
             "CFP_O_SDARMY_BTR_60_01",
             "CFP_O_SDARMY_BTR_90_01",
+            "CFP_O_SDARMY_BTR_80A_01",
+            "CFP_O_SDARMY_BTR_80_01",
             "CFP_O_SDARMY_C130_01",
             "CFP_O_SDARMY_D30_01",
             "CFP_O_SDARMY_D30_AT_01",

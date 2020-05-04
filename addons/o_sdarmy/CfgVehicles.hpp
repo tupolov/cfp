@@ -3000,6 +3000,38 @@ class CfgVehicles
 
     };
 
+    class CUP_BTR80A_Base;
+    class CFP_O_SDARMY_BTR_80A_01 : CUP_BTR80A_Base {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "BTR-80A";
+        side = 0;
+        faction = "CFP_O_SDARMY";
+        crew = "CFP_O_SDARMY_Soldier_07";
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\vehicles\BTR80\btr80_sudan_co.paa",
+            "\x\cfp\addons\vehicles\BTR80\bppu_sudan_co.paa",
+            "\x\cfp\addons\vehicles\BTR80\Wheels_sudan_co.paa"
+        };
+    };
+
+    class CUP_BTR80_Base;
+    class CFP_O_SDARMY_BTR_80_01 : CUP_BTR80_Base {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "BTR-80";
+        side = 0;
+        faction = "CFP_O_SDARMY";
+        crew = "CFP_O_SDARMY_Soldier_07";
+        hiddenSelectionsTextures[] = {
+            "\x\cfp\addons\vehicles\BTR80\btr80_sudan_co.paa",
+            "\x\cfp\addons\vehicles\BTR80\kpvt_sudan_co.paa",
+            "\x\cfp\addons\vehicles\BTR80\Wheels_sudan_co.paa"
+        };
+    };
+
     class CFP_O_SDARMY_Walid_01 : CUP_I_BTR40_TKG_OCimport_02 {
         editorPreview = \x\cfp\addons\o_sdarmy\data\preview\CFP_B_SDARMY_Walid_01.JPG;
         author = "Archduke";

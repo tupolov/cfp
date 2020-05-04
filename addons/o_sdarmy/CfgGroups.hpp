@@ -485,7 +485,7 @@ class CfgGroups {
                     };
                 };
 
-                class CFP_O_SDARMY_motorized_motorized_squad {
+                class CFP_O_SDARMY_motorized_squad {
                     name = "Motorized Squad";
                     side = 0;
                     faction = "CFP_O_SDARMY";
@@ -602,7 +602,7 @@ class CfgGroups {
                     };
                 };
 
-                class CFP_O_SDARMY_motorized_motorized_squad_open {
+                class CFP_O_SDARMY_motorized_squad_open {
                     name = "Motorized Squad (Open)";
                     side = 0;
                     faction = "CFP_O_SDARMY";
@@ -776,7 +776,7 @@ class CfgGroups {
                     };
                 };
 
-                class CFP_O_SDARMY_motorized_motorized_squad_light {
+                class CFP_O_SDARMY_motorized_squad_light {
                     name = "Motorized Squad (Light)";
                     side = 0;
                     faction = "CFP_O_SDARMY";
@@ -914,7 +914,7 @@ class CfgGroups {
                     };
                 };
 
-                class CFP_O_SDARMY_motorized_motorized_police {
+                class CFP_O_SDARMY_motorized_police {
                     name = "Motorized Police";
                     side = 0;
                     faction = "CFP_O_SDARMY";
@@ -1019,7 +1019,7 @@ class CfgGroups {
             class Mechanized {
                 name = "Mechanized Infantry";
 
-                class CFP_O_SDARMY_motorized_mechanized_squad_btr_60 {
+                class CFP_O_SDARMY_mechanized_squad_btr_60 {
                     name = "Mechanized Squad (BTR-60)";
                     side = 0;
                     faction = "CFP_O_SDARMY";
@@ -1031,6 +1031,204 @@ class CfgGroups {
                         rank = "LIEUTENANT";
                         side = 0;
                         vehicle = "CFP_O_SDARMY_BTR_60_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_SDARMY_Soldier_21";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "CFP_O_SDARMY_Soldier_06";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "CFP_O_SDARMY_Soldier_03";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_SDARMY_Soldier_02";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_SDARMY_Soldier_02";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_SDARMY_Soldier_01";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_SDARMY_Soldier_01";
+                    };
+                    class Unit8 {
+                        position[] = {-20,-20,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_SDARMY_Soldier_01";
+                    };
+                    class Unit9 {
+                        position[] = {25,-25,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "CFP_O_SDARMY_Soldier_05";
+                    };
+                    class Unit10 {
+                        position[] = {-25,-25,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "CFP_O_SDARMY_Soldier_08";
+                    };
+                    class Unit11 {
+                        position[] = {30,-30,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_SDARMY_Soldier_01";
+                    };
+                    class Unit12 {
+                        position[] = {-30,-30,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_SDARMY_Soldier_06";
+                    };
+                    class Unit13 {
+                        position[] = {35,-35,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_SDARMY_Soldier_02";
+                    };
+                    class Unit14 {
+                        position[] = {-35,-35,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_SDARMY_Soldier_01";
+                    };
+                };
+
+                class CFP_O_SDARMY_mechanized_squad_btr_80 {
+                    name = "Mechanized Squad (BTR-80)";
+                    side = 0;
+                    faction = "CFP_O_SDARMY";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "LIEUTENANT";
+                        side = 0;
+                        vehicle = "CFP_O_SDARMY_BTR_80_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_SDARMY_Soldier_21";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "CFP_O_SDARMY_Soldier_06";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "CFP_O_SDARMY_Soldier_03";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_SDARMY_Soldier_02";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_SDARMY_Soldier_02";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_SDARMY_Soldier_01";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_SDARMY_Soldier_01";
+                    };
+                    class Unit8 {
+                        position[] = {-20,-20,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_SDARMY_Soldier_01";
+                    };
+                    class Unit9 {
+                        position[] = {25,-25,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "CFP_O_SDARMY_Soldier_05";
+                    };
+                    class Unit10 {
+                        position[] = {-25,-25,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "CFP_O_SDARMY_Soldier_08";
+                    };
+                    class Unit11 {
+                        position[] = {30,-30,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_SDARMY_Soldier_01";
+                    };
+                    class Unit12 {
+                        position[] = {-30,-30,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_SDARMY_Soldier_06";
+                    };
+                    class Unit13 {
+                        position[] = {35,-35,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_SDARMY_Soldier_02";
+                    };
+                    class Unit14 {
+                        position[] = {-35,-35,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_SDARMY_Soldier_01";
+                    };
+                };
+
+                class CFP_O_SDARMY_mechanized_squad_btr_80a {
+                    name = "Mechanized Squad (BTR-80A)";
+                    side = 0;
+                    faction = "CFP_O_SDARMY";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "LIEUTENANT";
+                        side = 0;
+                        vehicle = "CFP_O_SDARMY_BTR_80A_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
@@ -1151,7 +1349,7 @@ class CfgGroups {
                     };
                 };
 
-                class CFP_O_SDARMY_mechanized_mechanized_squad_bmp {
+                class CFP_O_SDARMY_mechanized_squad_bmp {
                     name = "Mechanized Squad (BMP-1)";
                     side = 0;
                     faction = "CFP_O_SDARMY";
@@ -1238,7 +1436,7 @@ class CfgGroups {
                     };
                 };
 
-                class CFP_O_SDARMY_mechanized_mechanized_squad_bmp2 {
+                class CFP_O_SDARMY_mechanized_squad_bmp2 {
                     name = "Mechanized Squad (BMP-2)";
                     side = 0;
                     faction = "CFP_O_SDARMY";
@@ -1319,7 +1517,7 @@ class CfgGroups {
                     };
                 };
 
-                class CFP_O_SDARMY_mechanized_mechanized_aa_patrol {
+                class CFP_O_SDARMY_mechanized_aa_patrol {
                     name = "Mechanized AA Patrol";
                     side = 0;
                     faction = "CFP_O_SDARMY";
@@ -1334,7 +1532,7 @@ class CfgGroups {
                     };
                 };
 
-                class b_cfposudan_mechanized_mechanized_squad_walid {
+                class b_cfposudan_mechanized_squad_walid {
                     name = "Mechanized Squad (Walid)";
                     side = 0;
                     faction = "CFP_O_SDARMY";
