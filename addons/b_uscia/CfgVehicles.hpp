@@ -887,6 +887,27 @@ class CfgVehicles {
         };
     };
 
+    class CUP_I_Hilux_unarmed_TK;
+    class CUP_I_Hilux_unarmed_TK_OCimport_01 : CUP_I_Hilux_unarmed_TK { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_I_Hilux_unarmed_TK_OCimport_02 : CUP_I_Hilux_unarmed_TK_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class CargoTurret_01;
+            class CargoTurret_02;
+            class CargoTurret_03;
+            class CargoTurret_04;
+        };
+    };
+
+    class CUP_I_Hilux_DSHKM_TK;
+    class CUP_I_Hilux_DSHKM_TK_OCimport_01 : CUP_I_Hilux_DSHKM_TK { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_I_Hilux_DSHKM_TK_OCimport_02 : CUP_I_Hilux_DSHKM_TK_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
 
     class CFP_B_USCIA_LSV_01 : B_CTRG_LSV_01_light_F_OCimport_02 {
         editorPreview = "\x\cfp\addons\b_uscia\data\preview\CFP_B_USCIA_LSV_01.JPG";
@@ -976,6 +997,100 @@ class CfgVehicles {
         ALiVE_orbatCreator_owned = 1;
         ALiVE_orbatCreator_texture = "CIV";
 
+    };
+
+    class CFP_B_USCIA_Hilux_Unarmed_01: CUP_I_Hilux_unarmed_TK_OCimport_02
+    {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Hilux";
+        side = 1;
+        faction = "CFP_B_USCIA";
+        crew = "CFP_B_USCIA_paramilitary_officer_01";
+
+        class Turrets : Turrets {
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
+            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
+        };
+
+        randomTextureProbability = 100;
+
+        // Hilux Skins
+            textureList[] = {
+            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.2
+            };
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_B_USCIA_Hilux_Unarmed_02: CFP_B_USCIA_Hilux_Unarmed_01
+    {
+        displayName = "Hilux (Covert)";
+        crew = "CFP_B_USCIA_paramilitary_officer_covert_01";
+    };
+
+    class CFP_B_USCIA_Hilux_DSHKM_01: CUP_I_Hilux_DSHKM_TK_OCimport_02
+    {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Hilux (DSHKM)";
+        side = 1;
+        faction = "CFP_B_USCIA";
+        crew = "CFP_B_USCIA_paramilitary_officer_01";
+        hiddenSelections[] = {"camo"};
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = ""; };
+        };
+
+        randomTextureProbability = 100;
+
+        // Hilux Skins
+            textureList[] = {
+            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.2
+            };
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_B_USCIA_Hilux_DSHKM_02: CFP_B_USCIA_Hilux_DSHKM_01
+    {
+        displayName = "Hilux (Covert DSHKM)";
+        crew = "CFP_B_USCIA_paramilitary_officer_covert_01";
     };
 
     class CFP_B_USCIA_Datsun_PK_01 : CUP_I_Datsun_4seat_TK_OCimport_02 {

@@ -358,7 +358,7 @@ class CfgGroups {
                         position[] = { -10 , -10 , 0 };
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USCIA_Offroad_02";
+                        vehicle = "CFP_B_USCIA_Hilux_Unarmed_01";
                     };
                 };
 
@@ -379,7 +379,7 @@ class CfgGroups {
                         position[] = { -10 , -10 , 0 };
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USCIA_Offroad_01";
+                        vehicle = "CFP_B_USCIA_Hilux_DSHKM_01";
                     };
                 };
 
@@ -406,7 +406,7 @@ class CfgGroups {
                         position[] = { -5 , -5 , 0 };
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USCIA_Datsun_PK_02";
+                        vehicle = "CFP_B_USCIA_Hilux_Unarmed_02";
                     };
                 };
 
@@ -427,7 +427,7 @@ class CfgGroups {
                         position[] = { -10 , -10 , 0 };
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USCIA_Technical_02";
+                        vehicle = "CFP_B_USCIA_Hilux_DSHKM_02";
                     };
                 };
 
