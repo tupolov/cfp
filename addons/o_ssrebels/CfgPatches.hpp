@@ -30,6 +30,15 @@ class CfgPatches {
             "CFP_O_SSREBELS_UAZ_DShKM_01",
             "CFP_O_SSREBELS_Land_Rover_SPG_01",
             "CFP_O_SSREBELS_Land_Rover_01",
+            "CFP_O_SSREBELS_Hilux_01",
+            "CFP_O_SSREBELS_Hilux_DShKM_01",
+            "CFP_O_SSREBELS_Hilux_SPG_01",
+            "CFP_O_SSREBELS_Hilux_Igla_01",
+            "CFP_O_SSREBELS_Hilux_Metis_01",
+            "CFP_O_SSREBELS_Hilux_Podnos_01",
+            "CFP_O_SSREBELS_Hilux_MLRS_01",
+            "CFP_O_SSREBELS_Hilux_ZU_23_01",
+            "CFP_O_SSREBELS_Hilux_AGS_30_01",
             "CFP_O_SSREBELS_Offroad_02",
             "CFP_O_SSREBELS_Offroad_White_Army_01",
             "CFP_O_SSREBELS_Pickup_01",
@@ -60,6 +69,6 @@ class CfgPatches {
         requiredVersion = REQUIRED_VERSION;
         VERSION_CONFIG;
         author = MODULE_AUTHOR;
-        authors[] = {"Archduke"};
+        authors[] = {"CFP"};
     };
 };
