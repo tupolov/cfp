@@ -304,23 +304,11 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_O_SDMilitia_Ural_ZU_23_01";
+                        vehicle = "CFP_O_SDMilitia_Hilux_ZU_23_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "CORPORAL";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_01";
-                    };
-                    class Unit2 {
-                        position[] = {-5,-5,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_01";
-                    };
-                    class Unit3 {
-                        position[] = {10,-10,0};
-                        rank = "PRIVATE";
                         side = 0;
                         vehicle = "CFP_O_SDMilitia_Soldier_01";
                     };
@@ -372,7 +360,7 @@ class CfgGroups {
                 };
 
                 class CFP_O_SDMilitia_motorized_patrol_pickup {
-                    name = "Patrol (Pickup)";
+                    name = "Patrol (Hilux)";
                     side = 0;
                     faction = "CFP_O_SDMilitia";
                     icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
@@ -382,7 +370,7 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_O_SDMilitia_Pickup_01";
+                        vehicle = "CFP_O_SDMilitia_Hilux_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
@@ -410,8 +398,8 @@ class CfgGroups {
                     };
                 };
 
-                class CFP_O_SDMilitia_motorized_patrol_pickup_pk {
-                    name = "Patrol (Pickup/PK)";
+                class CFP_O_SDMilitia_motorized_patrol_pickup_armed {
+                    name = "Patrol (Hilux DSHKM)";
                     side = 0;
                     faction = "CFP_O_SDMilitia";
                     icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
@@ -421,23 +409,11 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_O_SDMilitia_Pickup_PK_01";
+                        vehicle = "CFP_O_SDMilitia_Hilux_DSHKM_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "CORPORAL";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_01";
-                    };
-                    class Unit2 {
-                        position[] = {-5,-5,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_01";
-                    };
-                    class Unit3 {
-                        position[] = {10,-10,0};
-                        rank = "PRIVATE";
                         side = 0;
                         vehicle = "CFP_O_SDMilitia_Soldier_01";
                     };
@@ -465,7 +441,7 @@ class CfgGroups {
                 };
 
                 class CFP_O_SDMilitia_motorized_patrol_at {
-                    name = "Patrol (AT)";
+                    name = "Patrol (Hilux AT)";
                     side = 0;
                     faction = "CFP_O_SDMilitia";
                     icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
@@ -475,7 +451,7 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_O_SDMilitia_Land_Rover_SPG_01";
+                        vehicle = "CFP_O_SDMilitia_Hilux_SPG_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
@@ -485,7 +461,7 @@ class CfgGroups {
                     };
                 };
 
-                class CFP_O_SDMilitia_motorized_motorized_squad {
+                class CFP_O_SDMilitia_motorized_squad {
                     name = "Motorized Squad";
                     side = 0;
                     faction = "CFP_O_SDMilitia";
@@ -496,379 +472,73 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_O_SDMilitia_Land_Rover_01";
-                    };
-                    class Unit1 {
-                        position[] = {5,-8,0};
-                        rank = "CORPORAL";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Pickup_PK_01";
-                    };
-                    class Unit2 {
-                        position[] = {-5,-8,0};
-                        rank = "SERGEANT";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_14";
-                    };
-                    class Unit3 {
-                        position[] = {10,-13,0};
-                        rank = "CORPORAL";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_06";
-                    };
-                    class Unit4 {
-                        position[] = {-10,-13,0};
-                        rank = "CORPORAL";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_04";
-                    };
-                    class Unit5 {
-                        position[] = {15,-18,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_01";
-                    };
-                    class Unit6 {
-                        position[] = {-15,-18,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_01";
-                    };
-                    class Unit7 {
-                        position[] = {20,-23,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_01";
-                    };
-                    class Unit8 {
-                        position[] = {-20,-23,0};
-                        rank = "CORPORAL";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_02";
-                    };
-                    class Unit9 {
-                        position[] = {25,-28,0};
-                        rank = "CORPORAL";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_05";
-                    };
-                    class Unit10 {
-                        position[] = {-25,-28,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_05";
-                    };
-                    class Unit11 {
-                        position[] = {30,-33,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_01";
-                    };
-                };
-
-                class CFP_O_SDMilitia_motorized_convoy {
-                    name = "Convoy";
-                    side = 0;
-                    faction = "CFP_O_SDMilitia";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
-                    rarityGroup = 0.5;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "SERGEANT";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_UAZ_DShKM_01";
-                    };
-                    class Unit1 {
-                        position[] = {5,-8,0};
-                        rank = "CORPORAL";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Pickup_PK_01";
-                    };
-                    class Unit2 {
-                        position[] = {-5,-8,0};
-                        rank = "CORPORAL";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Pickup_PK_01";
-                    };
-                    class Unit3 {
-                        position[] = {11,-16,0};
-                        rank = "CORPORAL";
-                        side = 0;
                         vehicle = "CFP_O_SDMilitia_Truck_01";
                     };
-                    class Unit4 {
-                        position[] = {-11,-16,0};
-                        rank = "LIEUTENANT";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_14";
-                    };
-                    class Unit5 {
-                        position[] = {16,-21,0};
-                        rank = "CORPORAL";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_06";
-                    };
-                    class Unit6 {
-                        position[] = {-16,-21,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_01";
-                    };
-                    class Unit7 {
-                        position[] = {21,-26,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_01";
-                    };
-                    class Unit8 {
-                        position[] = {-21,-26,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_01";
-                    };
-                    class Unit9 {
-                        position[] = {26,-31,0};
-                        rank = "CORPORAL";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_02";
-                    };
-                    class Unit10 {
-                        position[] = {-26,-31,0};
-                        rank = "CORPORAL";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_02";
-                    };
-                    class Unit11 {
-                        position[] = {31,-36,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_01";
-                    };
-                    class Unit12 {
-                        position[] = {-31,-36,0};
-                        rank = "CORPORAL";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_04";
-                    };
-                    class Unit13 {
-                        position[] = {36,-41,0};
-                        rank = "CORPORAL";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_03";
-                    };
-                    class Unit14 {
-                        position[] = {-36,-41,0};
-                        rank = "CORPORAL";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_05";
-                    };
-                    class Unit15 {
-                        position[] = {41,-46,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_01";
-                    };
-                    class Unit16 {
-                        position[] = {-41,-46,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_01";
-                    };
-                    class Unit17 {
-                        position[] = {46,-51,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_01";
-                    };
-                    class Unit18 {
-                        position[] = {-46,-51,0};
-                        rank = "CORPORAL";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_04";
-                    };
-                    class Unit19 {
-                        position[] = {51,-56,0};
-                        rank = "CORPORAL";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_02";
-                    };
-                    class Unit20 {
-                        position[] = {-51,-56,0};
-                        rank = "CORPORAL";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_05";
-                    };
-                    class Unit21 {
-                        position[] = {56,-61,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_01";
-                    };
-                    class Unit22 {
-                        position[] = {-56,-61,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_01";
-                    };
-                };
-
-                class CFP_O_SDMilitia_motorized_raiders {
-                    name = "Raiders";
-                    side = 0;
-                    faction = "CFP_O_SDMilitia";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
-                    rarityGroup = 0.5;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "LIEUTENANT";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Pickup_PK_Militia_01";
-                    };
                     class Unit1 {
                         position[] = {5,-8,0};
                         rank = "CORPORAL";
                         side = 0;
-                        vehicle = "CFP_O_SDMilitia_Pickup_Militia_01";
+                        vehicle = "CFP_O_SDMilitia_Soldier_06";
                     };
                     class Unit2 {
                         position[] = {-5,-8,0};
-                        rank = "CORPORAL";
+                        rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_O_SDMilitia_Offroad_Militia_01";
+                        vehicle = "CFP_O_SDMilitia_Soldier_14";
                     };
                     class Unit3 {
                         position[] = {10,-13,0};
                         rank = "CORPORAL";
                         side = 0;
-                        vehicle = "CFP_O_SDMilitia_Pickup_Militia_01";
+                        vehicle = "CFP_O_SDMilitia_Soldier_06";
                     };
                     class Unit4 {
                         position[] = {-10,-13,0};
                         rank = "CORPORAL";
                         side = 0;
-                        vehicle = "CFP_O_SDMilitia_Pickup_Militia_01";
+                        vehicle = "CFP_O_SDMilitia_Soldier_04";
                     };
                     class Unit5 {
                         position[] = {15,-18,0};
-                        rank = "SERGEANT";
+                        rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_15";
+                        vehicle = "CFP_O_SDMilitia_Soldier_01";
                     };
                     class Unit6 {
                         position[] = {-15,-18,0};
-                        rank = "CORPORAL";
+                        rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_16";
+                        vehicle = "CFP_O_SDMilitia_Soldier_01";
                     };
                     class Unit7 {
                         position[] = {20,-23,0};
-                        rank = "CORPORAL";
+                        rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_16";
+                        vehicle = "CFP_O_SDMilitia_Soldier_01";
                     };
                     class Unit8 {
                         position[] = {-20,-23,0};
                         rank = "CORPORAL";
                         side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_18";
+                        vehicle = "CFP_O_SDMilitia_Soldier_02";
                     };
                     class Unit9 {
                         position[] = {25,-28,0};
-                        rank = "PRIVATE";
+                        rank = "CORPORAL";
                         side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_19";
+                        vehicle = "CFP_O_SDMilitia_Soldier_05";
                     };
                     class Unit10 {
                         position[] = {-25,-28,0};
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_15";
+                        vehicle = "CFP_O_SDMilitia_Soldier_05";
                     };
                     class Unit11 {
                         position[] = {30,-33,0};
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_15";
-                    };
-                    class Unit12 {
-                        position[] = {-30,-33,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_15";
-                    };
-                    class Unit13 {
-                        position[] = {35,-38,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_15";
-                    };
-                    class Unit14 {
-                        position[] = {-35,-38,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_15";
-                    };
-                    class Unit15 {
-                        position[] = {40,-43,0};
-                        rank = "CORPORAL";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_16";
-                    };
-                    class Unit16 {
-                        position[] = {-40,-43,0};
-                        rank = "CORPORAL";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_17";
-                    };
-                    class Unit17 {
-                        position[] = {45,-48,0};
-                        rank = "CORPORAL";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_18";
-                    };
-                    class Unit18 {
-                        position[] = {-45,-48,0};
-                        rank = "CORPORAL";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_19";
-                    };
-                    class Unit19 {
-                        position[] = {50,-53,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_19";
-                    };
-                    class Unit20 {
-                        position[] = {-50,-53,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_19";
-                    };
-                    class Unit21 {
-                        position[] = {55,-58,0};
-                        rank = "CORPORAL";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_19";
-                    };
-                    class Unit22 {
-                        position[] = {-55,-58,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_15";
-                    };
-                    class Unit23 {
-                        position[] = {60,-63,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_15";
-                    };
-                    class Unit24 {
-                        position[] = {-60,-63,0};
-                        rank = "CORPORAL";
-                        side = 0;
-                        vehicle = "CFP_O_SDMilitia_Soldier_15";
+                        vehicle = "CFP_O_SDMilitia_Soldier_01";
                     };
                 };
 
@@ -1049,6 +719,36 @@ class CfgGroups {
 
             class Artillery {
                 name = "Artillery";
+
+                class CFP_O_SDMilitia_artillery_motorized_mlrs_hilux_battery {
+                    name = "Motorized MLRS Hilux Battery";
+                    side = 0;
+                    faction = "CFP_O_SDMilitia";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_art.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_SDMilitia_Hilux_MLRS_01";
+                    };
+                };
+
+                class CFP_O_SDMilitia_artillery_motorized_mortar_hilux_battery {
+                    name = "Motorized Mortar Hilux Battery";
+                    side = 0;
+                    faction = "CFP_O_SDMilitia";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_art.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_SDMilitia_Hilux_Podnos_01";
+                    };
+                };
 
             };
 
