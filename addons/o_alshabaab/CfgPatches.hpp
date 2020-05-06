@@ -32,7 +32,17 @@ class CfgPatches {
             "CFP_O_ALSHABAAB_Asst_Gunner_DShKM_01",
             "CFP_O_ALSHABAAB_Asst_Gunner_Mortar_01",
             "CFP_O_ALSHABAAB_Asst_Gunner_SPG_01",
-            "CFP_O_ALSHABAAB_Offroad_AT_01"
+            "CFP_O_ALSHABAAB_Offroad_AT_01",
+            "CFP_O_ALSHABAAB_Hilux_01",
+            "CFP_O_ALSHABAAB_Hilux_DShKM_01",
+            "CFP_O_ALSHABAAB_Hilux_SPG_01",
+            "CFP_O_ALSHABAAB_Hilux_Igla_01",
+            "CFP_O_ALSHABAAB_Hilux_Metis_01",
+            "CFP_O_ALSHABAAB_Hilux_Podnos_01",
+            "CFP_O_ALSHABAAB_Hilux_MLRS_01",
+            "CFP_O_ALSHABAAB_Hilux_ZU_23_01",
+            "CFP_O_ALSHABAAB_Hilux_AGS_30_01",
+            "CFP_O_ALSHABAAB_Hilux_UB_32_01"
         };
         weapons[] = {};
         requiredAddons[] = {
