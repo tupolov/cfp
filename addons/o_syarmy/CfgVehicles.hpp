@@ -424,6 +424,26 @@ class CfgVehicles {
 
     };
 
+    class cfp_o_syarmy_asst_gunner_dshkm : cfp_o_syarmy_rifleman {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_rifleman_dshkm.JPG;
+
+        displayName = "SAA Asst. Gunner [DSHKM]";
+
+        linkedItems[] = {"V_TacVest_camo","ItemRadio"};
+        respawnlinkedItems[] = {"V_TacVest_camo","ItemRadio"};
+
+        weapons[] = {"CUP_arifle_AKM"};
+        respawnWeapons[] = {"CUP_arifle_AKM"};
+
+        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+
+        backpack = "CUP_B_DShkM_Gun_Bag";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_FieldUniform_M81_SS",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",1,30},{"MiniGrenade",2,1}}},{"V_TacVest_camo",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{"CUP_B_DShkM_Gun_Bag",{}},"","",{},{"","","ItemRadio","","",""}};
+
+    };
+
     class cfp_o_syarmy_rifleman_kord : cfp_o_syarmy_rifleman {
         editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_rifleman_kord.JPG;
 
@@ -441,6 +461,26 @@ class CfgVehicles {
         backpack = "CUP_B_Kord_Tripod_Bag";
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CUP_U_B_BDUv2_dirty_M81",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",1,30},{"MiniGrenade",2,1}}},{"V_TacVest_khk",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{"CUP_B_Kord_Tripod_Bag",{}},"","",{},{"","","ItemRadio","","",""}};
+
+    };
+
+    class cfp_o_syarmy_asst_gunner_kord : cfp_o_syarmy_rifleman {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_rifleman_kord.JPG;
+
+        displayName = "SAA Asst. Gunner [KORD]";
+
+        linkedItems[] = {"V_TacVest_khk","ItemRadio"};
+        respawnlinkedItems[] = {"V_TacVest_khk","ItemRadio"};
+
+        weapons[] = {"CUP_arifle_AK47"};
+        respawnWeapons[] = {"CUP_arifle_AK47"};
+
+        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+
+        backpack = "CUP_B_Kord_Gun_Bag";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CUP_U_B_BDUv2_dirty_M81",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",1,30},{"MiniGrenade",2,1}}},{"V_TacVest_khk",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{"CUP_B_Kord_Gun_Bag",{}},"","",{},{"","","ItemRadio","","",""}};
 
     };
 
@@ -464,6 +504,26 @@ class CfgVehicles {
 
     };
 
+    class cfp_o_syarmy_asst_gunner_podnos : cfp_o_syarmy_rifleman {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_rifleman_podnos.JPG;
+
+        displayName = "SAA Asst. Gunner [Podnos]";
+
+        linkedItems[] = {"CFP_AK_VEST_Olive","ItemRadio"};
+        respawnlinkedItems[] = {"CFP_AK_VEST_Olive","ItemRadio"};
+
+        weapons[] = {"CUP_arifle_AKS74"};
+        respawnWeapons[] = {"CUP_arifle_AKS74"};
+
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
+
+        backpack = "CUP_B_Podnos_Gun_Bag";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS74","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"CFP_U_BattleDressUniform_woodlanddark",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",1,30},{"MiniGrenade",2,1}}},{"CFP_AK_VEST_Olive",{{"CUP_30Rnd_545x39_AK_M",5,30}}},{"CUP_B_Podnos_Gun_Bag",{}},"","",{},{"","","ItemRadio","","",""}};
+
+    };
+
     class cfp_o_syarmy_rifleman_ags30 : cfp_o_syarmy_rifleman {
         editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_rifleman_ags30.JPG;
 
@@ -481,6 +541,26 @@ class CfgVehicles {
         backpack = "CUP_B_AGS30_Tripod_Bag";
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"CFP_U_FieldUniform_woodlanddark",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",1,30},{"MiniGrenade",2,1}}},{"V_TacVest_camo",{{"CUP_30Rnd_545x39_AK_M",5,30}}},{"CUP_B_AGS30_Tripod_Bag",{}},"","",{},{"","","ItemRadio","","",""}};
+
+    };
+
+    class cfp_o_syarmy_asst_gunner_ags30 : cfp_o_syarmy_rifleman {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_rifleman_ags30.JPG;
+
+        displayName = "SAA Asst. Gunner [AGS30]";
+
+        linkedItems[] = {"V_TacVest_camo","ItemRadio"};
+        respawnlinkedItems[] = {"V_TacVest_camo","ItemRadio"};
+
+        weapons[] = {"CUP_arifle_AK74M"};
+        respawnWeapons[] = {"CUP_arifle_AK74M"};
+
+        magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
+
+        backpack = "CUP_B_AGS30_Gun_Bag";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M","","","",{"CUP_30Rnd_545x39_AK_M",30},{},""},{},{},{"CFP_U_FieldUniform_woodlanddark",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK_M",1,30},{"MiniGrenade",2,1}}},{"V_TacVest_camo",{{"CUP_30Rnd_545x39_AK_M",5,30}}},{"CUP_B_AGS30_Gun_Bag",{}},"","",{},{"","","ItemRadio","","",""}};
 
     };
 
@@ -504,6 +584,26 @@ class CfgVehicles {
 
     };
 
+    class cfp_o_syarmy_asst_gunner_spg9 : cfp_o_syarmy_rifleman {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_rifleman_spg9.JPG;
+
+        displayName = "SAA Asst. Gunner [SPG9]";
+
+        linkedItems[] = {"CFP_Tactical1_M81","ItemRadio"};
+        respawnlinkedItems[] = {"CFP_Tactical1_M81","ItemRadio"};
+
+        weapons[] = {"CUP_arifle_AK47"};
+        respawnWeapons[] = {"CUP_arifle_AK47"};
+
+        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+
+        backpack = "CUP_B_SPG9_Gun_Bag";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CUP_U_B_BDUv2_M81",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",1,30},{"MiniGrenade",2,1}}},{"CFP_Tactical1_M81",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{"CUP_B_SPG9_Gun_Bag",{}},"","",{},{"","","ItemRadio","","",""}};
+
+    };
+
     class cfp_o_syarmy_rifleman_metis : cfp_o_syarmy_rifleman {
         editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_rifleman_metis.JPG;
 
@@ -521,6 +621,26 @@ class CfgVehicles {
         backpack = "CUP_B_Metis_Tripod_Bag";
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS_top_rail","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_GUER_M81Tee",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",1,30},{"MiniGrenade",2,1}}},{"CFP_AK_VEST_LOlive",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{"CUP_B_Metis_Tripod_Bag",{}},"","",{},{"","","ItemRadio","","",""}};
+
+    };
+
+    class cfp_o_syarmy_asst_gunner_metis : cfp_o_syarmy_rifleman {
+        editorPreview = \x\cfp\addons\o_syarmy\data\preview\cfp_o_syarmy_rifleman_metis.JPG;
+
+        displayName = "SAA Asst. Gunner [METIS]";
+
+        linkedItems[] = {"CFP_AK_VEST_LOlive","ItemRadio"};
+        respawnlinkedItems[] = {"CFP_AK_VEST_LOlive","ItemRadio"};
+
+        weapons[] = {"CUP_arifle_AKS_top_rail"};
+        respawnWeapons[] = {"CUP_arifle_AKS_top_rail"};
+
+        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+
+        backpack = "CUP_B_Metis_Gun_Bag";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS_top_rail","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_GUER_M81Tee",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",1,30},{"MiniGrenade",2,1}}},{"CFP_AK_VEST_LOlive",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{"CUP_B_Metis_Gun_Bag",{}},"","",{},{"","","ItemRadio","","",""}};
 
     };
 
@@ -602,6 +722,34 @@ class CfgVehicles {
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
 
+    };
+
+    class CUP_Hilux_unarmed_Base;
+    class CFP_O_SYARMY_Hilux_Unarmed_01: CUP_Hilux_unarmed_Base
+    {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Hilux";
+        side = 0;
+        faction = "CFP_O_SYARMY";
+        crew = "cfp_o_syarmy_rifleman";
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {"x\cfp\addons\vehicles\Hilux\body_armygreen_co.paa"};
+    };
+
+    class CUP_Hilux_DSHKM_Base;
+    class CFP_O_SYARMY_Hilux_DSHKM_01: CUP_Hilux_DSHKM_Base
+    {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Hilux (DSHKM)";
+        side = 0;
+        faction = "CFP_O_SYARMY";
+        crew = "cfp_o_syarmy_rifleman";
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {"x\cfp\addons\vehicles\Hilux\body_armygreen_co.paa"};
     };
 
     class CUP_O_Ural_CHDKZ;
@@ -734,6 +882,30 @@ class CfgVehicles {
         // custom attributes (do not delete)
         ALiVE_orbatCreator_owned = 1;
 
+    };
+
+    class CUP_BRDM2_Base;
+    class CFP_O_SYARMY_BRDM2: CUP_BRDM2_Base {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "BRDM2";
+        side = 0;
+        faction = "CFP_O_SYARMY";
+        crew = "cfp_o_syarmy_crewman";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\BRDM\brdm2_01_des_co.paa",
+            "\CUP\WheeledVehicles\CUP_WheeledVehicles_BRDM2\data\brdm2_02_co.paa"};
+    };
+
+    class CUP_O_BM21_SLA;
+    class CFP_O_SYRARMY_BM21: CUP_O_BM21_SLA {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "BM-21";
+        side = 0;
+        faction = "CFP_O_SYARMY";
+        crew = "cfp_o_syarmy_crewman";
     };
 
     class CUP_O_BTR40_MG_TKA;

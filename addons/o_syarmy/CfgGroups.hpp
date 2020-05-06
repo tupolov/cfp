@@ -1,948 +1,1291 @@
-class CfgGroups
-{
-	class East
-	{
-		class CFP_O_SYARMY
-		{
-			name = "Syrian Arab Army";
-			class Infantry
-			{
-				name = "Infantry";
-				class cfp_o_grp_saa_sentry
-				{
-					name = "Sentry";
-					side = 0;
-					faction = "cfp_o_syarmy";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
-					class Unit0
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_rifleman";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_rifleman";
-						rank = "PRIVATE";
-						position[] = {5,-5,0};
-					};
-				};
-				class cfp_o_grp_saa_inf_squad
-				{
-					name = "Infantry Squad";
-					side = 0;
-					faction = "cfp_o_syarmy";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
-					class Unit0
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_officer";
-						rank = "SERGEANT";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_grenadier";
-						rank = "CORPORAL";
-						position[] = {5,-5,0};
-					};
-					class Unit2
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_rifleman";
-						rank = "PRIVATE";
-						position[] = {-5,-5,0};
-					};
-					class Unit3
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_rifleman";
-						rank = "PRIVATE";
-						position[] = {10,-10,0};
-					};
-					class Unit4
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_machinegunner";
-						rank = "PRIVATE";
-						position[] = {-10,-10,0};
-					};
-					class Unit5
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_sniper";
-						rank = "CORPORAL";
-						position[] = {15,-15,0};
-					};
-					class Unit6
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_at";
-						rank = "PRIVATE";
-						position[] = {-15,-15,0};
-					};
-					class Unit7
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_rifleman";
-						rank = "PRIVATE";
-						position[] = {20,-20,0};
-					};
-					class Unit8
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_rifleman";
-						rank = "PRIVATE";
-						position[] = {-20,-20,0};
-					};
-					class Unit9
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_rifleman";
-						rank = "PRIVATE";
-						position[] = {25,-25,0};
-					};
-				};
-				class grp_saa_wpn_squad_o
-				{
-					name = "Weapons Squad";
-					side = 0;
-					faction = "cfp_o_syarmy";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
-					class Unit0
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_officer";
-						rank = "SERGEANT";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_grenadier";
-						rank = "CORPORAL";
-						position[] = {5,-5,0};
-					};
-					class Unit2
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_machinegunner";
-						rank = "PRIVATE";
-						position[] = {-5,-5,0};
-					};
-					class Unit3
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_rifleman";
-						rank = "PRIVATE";
-						position[] = {10,-10,0};
-					};
-					class Unit4
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_medic";
-						rank = "PRIVATE";
-						position[] = {-10,-10,0};
-					};
-					class Unit5
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_sniper";
-						rank = "CORPORAL";
-						position[] = {15,-15,0};
-					};
-					class Unit6
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_at";
-						rank = "PRIVATE";
-						position[] = {-15,-15,0};
-					};
-					class Unit7
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_sapper";
-						rank = "PRIVATE";
-						position[] = {20,-20,0};
-					};
-				};
-				class grp_saa_inf_fire_team_o
-				{
-					name = "Fire Team";
-					side = 0;
-					faction = "cfp_o_syarmy";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
-					class Unit0
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_officer";
-						rank = "SERGEANT";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_machinegunner";
-						rank = "PRIVATE";
-						position[] = {5,-5,0};
-					};
-					class Unit2
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_rifleman";
-						rank = "PRIVATE";
-						position[] = {-5,-5,0};
-					};
-					class Unit3
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_sniper";
-						rank = "PRIVATE";
-						position[] = {10,-10,0};
-					};
-					class Unit4
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_rifleman";
-						rank = "PRIVATE";
-						position[] = {-10,-10,0};
-					};
-				};
-				class grp_saa_at_team_o
-				{
-					name = "Anti-Armor Team";
-					side = 0;
-					faction = "cfp_o_syarmy";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
-					class Unit0
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_officer";
-						rank = "SERGEANT";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_at";
-						rank = "PRIVATE";
-						position[] = {5,-5,0};
-					};
-					class Unit2
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_at";
-						rank = "PRIVATE";
-						position[] = {-5,-5,0};
-					};
-					class Unit3
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_machinegunner";
-						rank = "PRIVATE";
-						position[] = {10,-10,0};
-					};
-					class Unit4
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_rifleman";
-						rank = "PRIVATE";
-						position[] = {-10,-10,0};
-					};
-				};
-				class grp_saa_hq_squad_o
-				{
-					name = "HQ Squad";
-					side = 0;
-					faction = "cfp_o_syarmy";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
-					class Unit0
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_officer";
-						rank = "LIEUTENANT";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_grenadier";
-						rank = "SERGEANT";
-						position[] = {5,-5,0};
-					};
-					class Unit2
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_machinegunner";
-						rank = "CORPORAL";
-						position[] = {-5,-5,0};
-					};
-					class Unit3
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_medic";
-						rank = "PRIVATE";
-						position[] = {10,-10,0};
-					};
-					class Unit4
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_sniper";
-						rank = "PRIVATE";
-						position[] = {-10,-10,0};
-					};
-					class Unit5
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_at";
-						rank = "CORPORAL";
-						position[] = {15,-15,0};
-					};
-					class Unit6
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_rifleman";
-						rank = "PRIVATE";
-						position[] = {-15,-15,0};
-					};
-					class Unit7
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_rifleman";
-						rank = "PRIVATE";
-						position[] = {20,-20,0};
-					};
-				};
-			};
-			class Motorized
-			{
-				name = "Motorized";
-			};
-			class Mechanized
-			{
-				name = "Mechanized";
-				class cfp_o_syarmy_btr60
-				{
-					name = "SAA BTR60";
-					side = 0;
-					faction = "cfp_o_syarmy";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
-					class Unit0
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_BTR60";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-				};
-				class cfp_o_grp_saa_btr60_section
-				{
-					name = "SAA BTR60 Section";
-					side = 0;
-					faction = "cfp_o_syarmy";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
-					class Unit0
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_BTR60";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_BTR60";
-						rank = "PRIVATE";
-						position[] = {5,-5,0};
-					};
-				};
-				class cfp_o_grp_saa_btr60_platoon
-				{
-					name = "SAA BTR60 Platoon";
-					side = 0;
-					faction = "cfp_o_syarmy";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
-					class Unit0
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_BTR60";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_BTR60";
-						rank = "PRIVATE";
-						position[] = {5,-5,0};
-					};
-					class Unit2
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_BTR60";
-						rank = "PRIVATE";
-						position[] = {-5,-5,0};
-					};
-				};
-				class cfp_o_grp_saa_bmp1
-				{
-					name = "SAA BMP-1";
-					side = 0;
-					faction = "cfp_o_syarmy";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
-					class Unit0
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_BMP1";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-				};
-				class cfp_o_grp_saa_bmp1_section
-				{
-					name = "SAA BMP-1 Section";
-					side = 0;
-					faction = "cfp_o_syarmy";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
-					class Unit0
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_BMP1";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_BMP1";
-						rank = "PRIVATE";
-						position[] = {5,-5,0};
-					};
-				};
-				class cfp_o_grp_saa_bmp1_platoon
-				{
-					name = "SAA BMP-1 Platoon";
-					side = 0;
-					faction = "cfp_o_syarmy";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
-					class Unit0
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_BMP1";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_BMP1";
-						rank = "PRIVATE";
-						position[] = {5,-5,0};
-					};
-					class Unit2
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_BMP1";
-						rank = "PRIVATE";
-						position[] = {-5,-5,0};
-					};
-				};
-				class cfp_o_grp_saa_bmp1p
-				{
-					name = "SAA BMP-1P";
-					side = 0;
-					faction = "cfp_o_syarmy";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
-					class Unit0
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_BMP1P";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-				};
-				class cfp_o_grp_saa_bmp1p_section
-				{
-					name = "SAA BMP-1P Section";
-					side = 0;
-					faction = "cfp_o_syarmy";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
-					class Unit0
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_BMP1P";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_BMP1P";
-						rank = "PRIVATE";
-						position[] = {5,-5,0};
-					};
-				};
-				class cfp_o_grp_saa_bmp1p_platoon
-				{
-					name = "SAA BMP-1P Platoon";
-					side = 0;
-					faction = "cfp_o_syarmy";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
-					class Unit0
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_BMP1P";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_BMP1P";
-						rank = "PRIVATE";
-						position[] = {5,-5,0};
-					};
-					class Unit2
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_BMP1P";
-						rank = "PRIVATE";
-						position[] = {-5,-5,0};
-					};
-				};
-				class cfp_o_grp_saa_bmp2
-				{
-					name = "SAA BMP-2";
-					side = 0;
-					faction = "cfp_o_syarmy";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
-					class Unit0
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_BMP2";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-				};
-				class cfp_o_grp_saa_bmp2_section
-				{
-					name = "SAA BMP-2 Section";
-					side = 0;
-					faction = "cfp_o_syarmy";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
-					class Unit0
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_BMP2";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_BMP2";
-						rank = "PRIVATE";
-						position[] = {5,-5,0};
-					};
-				};
-				class cfp_o_grp_saa_bmp2_platoon
-				{
-					name = "SAA BMP-2 Platoon";
-					side = 0;
-					faction = "cfp_o_syarmy";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
-					class Unit0
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_BMP2";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_BMP2";
-						rank = "PRIVATE";
-						position[] = {5,-5,0};
-					};
-					class Unit2
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_BMP2";
-						rank = "PRIVATE";
-						position[] = {-5,-5,0};
-					};
-				};
-				class cfp_o_grp_saa_bmps_mixed_1
-				{
-					name = "SAA BMPs Mixed 1";
-					side = 0;
-					faction = "cfp_o_syarmy";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
-					class Unit0
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_BMP2";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_BMP1";
-						rank = "PRIVATE";
-						position[] = {5,-5,0};
-					};
-				};
-				class cfp_o_grp_saa_bmps_mixed_2
-				{
-					name = "SAA BMPs Mixed 2";
-					side = 0;
-					faction = "cfp_o_syarmy";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
-					class Unit0
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_BMP2";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_BMP1P";
-						rank = "PRIVATE";
-						position[] = {5,-5,0};
-					};
-				};
-				class cfp_o_grp_saa_bmps_mixed_3
-				{
-					name = "SAA BMPs Mixed 3";
-					side = 0;
-					faction = "cfp_o_syarmy";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
-					class Unit0
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_BMP2";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_BMP1P";
-						rank = "PRIVATE";
-						position[] = {5,-5,0};
-					};
-					class Unit2
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_BMP1";
-						rank = "PRIVATE";
-						position[] = {-5,-5,0};
-					};
-				};
-			};
-			class Armored
-			{
-				name = "Armored";
-				class cfp_o_grp_saa_t55
-				{
-					name = "SAA T-55";
-					side = 0;
-					faction = "cfp_o_syarmy";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
-					class Unit0
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_T55";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-				};
-				class cfp_o_grp_saa_t55_section
-				{
-					name = "SAA T-55 Section";
-					side = 0;
-					faction = "cfp_o_syarmy";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
-					class Unit0
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_T55";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_T55";
-						rank = "PRIVATE";
-						position[] = {5,-5,0};
-					};
-				};
-				class cfp_o_grp_saa_t55_platoon
-				{
-					name = "SAA T-55 Platoon";
-					side = 0;
-					faction = "cfp_o_syarmy";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
-					class Unit0
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_T55";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_T55";
-						rank = "PRIVATE";
-						position[] = {5,-5,0};
-					};
-					class Unit2
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_T55";
-						rank = "PRIVATE";
-						position[] = {-5,-5,0};
-					};
-				};
-				class cfp_o_grp_saa_t72
-				{
-					name = "SAA T-72";
-					side = 0;
-					faction = "cfp_o_syarmy";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
-					class Unit0
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_T72";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-				};
-				class cfp_o_grp_saa_t72_section
-				{
-					name = "SAA T-72 Section";
-					side = 0;
-					faction = "cfp_o_syarmy";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
-					class Unit0
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_T72";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_T72";
-						rank = "PRIVATE";
-						position[] = {5,-5,0};
-					};
-				};
-				class cfp_o_grp_saa_t72_platoon
-				{
-					name = "SAA T-72 Platoon";
-					side = 0;
-					faction = "cfp_o_syarmy";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
-					class Unit0
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_T72";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_T72";
-						rank = "PRIVATE";
-						position[] = {5,-5,0};
-					};
-					class Unit2
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_T72";
-						rank = "PRIVATE";
-						position[] = {-5,-5,0};
-					};
-				};
-				class cfp_o_grp_saa_ZSU
-				{
-					name = "SAA ZSU";
-					side = 2;
-					faction = "cfp_o_syarmy";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
-					class Unit0
-					{
-						side = 2;
-						vehicle = "cfp_o_syarmy_ZSU";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-				};
-				class cfp_o_grp_saa_mixed_armor_1
-				{
-					name = "SAA Mixed Armor 1";
-					side = 0;
-					faction = "cfp_o_syarmy";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
-					class Unit0
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_T72";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_T55";
-						rank = "PRIVATE";
-						position[] = {5,-5,0};
-					};
-				};
-				class cfp_o_grp_saa_mixed_armor_2
-				{
-					name = "SAA Mixed Armor 2";
-					side = 0;
-					faction = "cfp_o_syarmy";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
-					class Unit0
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_T72";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_ZSU";
-						rank = "PRIVATE";
-						position[] = {5,-5,0};
-					};
-				};
-				class cfp_o_grp_saa_mixed_armor_3
-				{
-					name = "SAA Mixed Armor 3";
-					side = 0;
-					faction = "cfp_o_syarmy";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
-					class Unit0
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_T55";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_ZSU";
-						rank = "PRIVATE";
-						position[] = {5,-5,0};
-					};
-				};
-				class cfp_o_grp_saa_mixed_armor_4
-				{
-					name = "SAA Mixed Armor 4";
-					side = 0;
-					faction = "cfp_o_syarmy";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
-					class Unit0
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_T72";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_T72";
-						rank = "PRIVATE";
-						position[] = {5,-5,0};
-					};
-					class Unit2
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_T55";
-						rank = "PRIVATE";
-						position[] = {-5,-5,0};
-					};
-				};
-				class cfp_o_grp_saa_mixed_armor_5
-				{
-					name = "SAA Mixed Armor 5";
-					side = 0;
-					faction = "cfp_o_syarmy";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
-					class Unit0
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_T55";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_BMP1";
-						rank = "PRIVATE";
-						position[] = {5,-5,0};
-					};
-					class Unit2
-					{
-						side = 0;
-						vehicle = "cfp_o_syarmy_BTR60";
-						rank = "PRIVATE";
-						position[] = {-5,-5,0};
-					};
-				};
-			};
-		};
-	};
+//////////////////////////////////////////////////////////////////////////////////
+// Config Automatically Generated by ALiVE ORBAT Creator
+// Generated with Arma 3 version 198.146373 on Stable branch
+// Generated with ALiVE version 1.3.7.0000000
+//////////////////////////////////////////////////////////////////////////////////
+
+class CfgGroups {
+    class EAST {
+
+        class CFP_O_SYARMY {
+            name = "Syrian Arab Army";
+
+            class Infantry {
+                name = "Infantry";
+
+                class cfp_o_grp_saa_sentry {
+                    name = "Sentry";
+                    side = 0;
+                    faction = "cfp_o_syarmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_rifleman";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_rifleman";
+                    };
+                };
+
+                class cfp_o_grp_saa_inf_squad {
+                    name = "Infantry Squad";
+                    side = 0;
+                    faction = "cfp_o_syarmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_officer";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_grenadier";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_rifleman";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_rifleman";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_machinegunner";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_sniper";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_at";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_rifleman";
+                    };
+                    class Unit8 {
+                        position[] = {-20,-20,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_rifleman";
+                    };
+                    class Unit9 {
+                        position[] = {25,-25,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_rifleman";
+                    };
+                };
+
+                class grp_saa_wpn_squad_o {
+                    name = "Weapons Squad";
+                    side = 0;
+                    faction = "cfp_o_syarmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_officer";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_grenadier";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_machinegunner";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_rifleman";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_medic";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_sniper";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_at";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_sapper";
+                    };
+                };
+
+                class grp_saa_inf_fire_team_o {
+                    name = "Fire Team";
+                    side = 0;
+                    faction = "cfp_o_syarmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_officer";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_machinegunner";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_rifleman";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_sniper";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_rifleman";
+                    };
+                };
+
+                class grp_saa_at_team_o {
+                    name = "Anti-Armor Team";
+                    side = 0;
+                    faction = "cfp_o_syarmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_officer";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_at";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_at";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_machinegunner";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_rifleman";
+                    };
+                };
+
+                class grp_saa_hq_squad_o {
+                    name = "HQ Squad";
+                    side = 0;
+                    faction = "cfp_o_syarmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "LIEUTENANT";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_officer";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_grenadier";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_machinegunner";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_medic";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_sniper";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_at";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_rifleman";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_rifleman";
+                    };
+                };
+
+            };
+
+            class SpecOps {
+                name = "SpecOps";
+
+                class cfp_o_syarmy_infantry_dshkm_team {
+                    name = "DShKM Team";
+                    side = 0;
+                    faction = "CFP_O_SYARMY";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_rifleman_dshkm";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_Asst_Gunner_DSHKM";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_rifleman";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_rifleman";
+                    };
+                };
+
+                class cfp_o_syarmy_infantry_kord_team {
+                    name = "KORD Team";
+                    side = 0;
+                    faction = "CFP_O_SYARMY";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_rifleman_kord";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_Asst_Gunner_KORD";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_rifleman";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_rifleman";
+                    };
+                };
+
+                class cfp_o_syarmy_infantry_mortar_team {
+                    name = "Mortar Team";
+                    side = 0;
+                    faction = "CFP_O_SYARMY";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_rifleman_podnos";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_Asst_Gunner_Podnos";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_rifleman_podnos";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_Asst_Gunner_Podnos";
+                    };
+                };
+
+                class cfp_o_syarmy_infantry_metis_at_team {
+                    name = "METIS AT Team";
+                    side = 0;
+                    faction = "CFP_O_SYARMY";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_rifleman_metis";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_Asst_Gunner_METIS";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_rifleman";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_rifleman";
+                    };
+                };
+
+                class cfp_o_syarmy_infantry_spg_9team {
+                    name = "SPG-9 Team";
+                    side = 0;
+                    faction = "CFP_O_SYARMY";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_rifleman_spg9";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_Asst_Gunner_SPG";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_rifleman";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_rifleman";
+                    };
+                };
+
+                class cfp_o_syarmy_sniper_team {
+                    name = "Sniper Team";
+                    side = 0;
+                    faction = "CFP_O_SYARMY";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_recon.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_sniper";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_sniper";
+                    };
+                };
+
+            };
+
+            class Motorized {
+                name = "Motorized";
+
+                class cfp_o_syarmy_motorized_squad_ural {
+                    name = "Motorized Squad [Ural]";
+                    side = 0;
+                    faction = "CFP_O_SYARMY";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_Ural";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_officer";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_grenadier";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_machinegunner";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_medic";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_sapper";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_at";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_rifleman";
+                    };
+                    class Unit8 {
+                        position[] = {-20,-20,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_rifleman";
+                    };
+                    class Unit9 {
+                        position[] = {25,-25,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_rifleman";
+                    };
+                    class Unit10 {
+                        position[] = {-25,-25,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_rifleman";
+                    };
+                };
+
+                class cfp_o_syarmy_motorized_patrol_hilux {
+                    name = "Motorized Patrol [Hilux]";
+                    side = 0;
+                    faction = "CFP_O_SYARMY";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_SYARMY_Hilux_Unarmed_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_officer";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_rifleman";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_grenadier";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_machinegunner";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_rifleman";
+                    };
+                };
+
+                class cfp_o_syarmy_motorized_patrol_armed_hilux {
+                    name = "Motorized Patrol Armed [Hilux]";
+                    side = 0;
+                    faction = "CFP_O_SYARMY";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_SYARMY_Hilux_DSHKM_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_rifleman";
+                    };
+                };
+
+            };
+
+            class Motorized_MTP {
+                name = "Motorized Infantry (MTP)";
+
+            };
+
+            class Support {
+                name = "Support";
+
+            };
+
+            class Mechanized {
+                name = "Mechanized";
+
+                class cfp_o_syarmy_btr60 {
+                    name = "SAA BTR60";
+                    side = 0;
+                    faction = "cfp_o_syarmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_BTR60";
+                    };
+                };
+
+                class cfp_o_grp_saa_btr60_section {
+                    name = "SAA BTR60 Section";
+                    side = 0;
+                    faction = "cfp_o_syarmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_BTR60";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_BTR60";
+                    };
+                };
+
+                class cfp_o_grp_saa_btr60_platoon {
+                    name = "SAA BTR60 Platoon";
+                    side = 0;
+                    faction = "cfp_o_syarmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_BTR60";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_BTR60";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_BTR60";
+                    };
+                };
+
+                class cfp_o_grp_saa_bmp1 {
+                    name = "SAA BMP-1";
+                    side = 0;
+                    faction = "cfp_o_syarmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_BMP1";
+                    };
+                };
+
+                class cfp_o_grp_saa_bmp1_section {
+                    name = "SAA BMP-1 Section";
+                    side = 0;
+                    faction = "cfp_o_syarmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_BMP1";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_BMP1";
+                    };
+                };
+
+                class cfp_o_grp_saa_bmp1_platoon {
+                    name = "SAA BMP-1 Platoon";
+                    side = 0;
+                    faction = "cfp_o_syarmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_BMP1";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_BMP1";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_BMP1";
+                    };
+                };
+
+                class cfp_o_grp_saa_bmp1p {
+                    name = "SAA BMP-1P";
+                    side = 0;
+                    faction = "cfp_o_syarmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_BMP1P";
+                    };
+                };
+
+                class cfp_o_grp_saa_bmp1p_section {
+                    name = "SAA BMP-1P Section";
+                    side = 0;
+                    faction = "cfp_o_syarmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_BMP1P";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_BMP1P";
+                    };
+                };
+
+                class cfp_o_grp_saa_bmp1p_platoon {
+                    name = "SAA BMP-1P Platoon";
+                    side = 0;
+                    faction = "cfp_o_syarmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_BMP1P";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_BMP1P";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_BMP1P";
+                    };
+                };
+
+                class cfp_o_grp_saa_bmp2 {
+                    name = "SAA BMP-2";
+                    side = 0;
+                    faction = "cfp_o_syarmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_BMP2";
+                    };
+                };
+
+                class cfp_o_grp_saa_bmp2_section {
+                    name = "SAA BMP-2 Section";
+                    side = 0;
+                    faction = "cfp_o_syarmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_BMP2";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_BMP2";
+                    };
+                };
+
+                class cfp_o_grp_saa_bmp2_platoon {
+                    name = "SAA BMP-2 Platoon";
+                    side = 0;
+                    faction = "cfp_o_syarmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_BMP2";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_BMP2";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_BMP2";
+                    };
+                };
+
+                class cfp_o_grp_saa_bmps_mixed_1 {
+                    name = "SAA BMPs Mixed 1";
+                    side = 0;
+                    faction = "cfp_o_syarmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_BMP2";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_BMP1";
+                    };
+                };
+
+                class cfp_o_grp_saa_bmps_mixed_2 {
+                    name = "SAA BMPs Mixed 2";
+                    side = 0;
+                    faction = "cfp_o_syarmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_BMP2";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_BMP1P";
+                    };
+                };
+
+                class cfp_o_grp_saa_bmps_mixed_3 {
+                    name = "SAA BMPs Mixed 3";
+                    side = 0;
+                    faction = "cfp_o_syarmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_BMP2";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_BMP1P";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_BMP1";
+                    };
+                };
+
+                class cfp_o_syarmy_mechanized_saa_brdm2 {
+                    name = "SAA BRDM2";
+                    side = 0;
+                    faction = "CFP_O_SYARMY";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_SYARMY_BRDM2";
+                    };
+                };
+
+            };
+
+            class Armored {
+                name = "Armored";
+
+                class cfp_o_grp_saa_t55 {
+                    name = "SAA T-55";
+                    side = 0;
+                    faction = "cfp_o_syarmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_T55";
+                    };
+                };
+
+                class cfp_o_grp_saa_t55_section {
+                    name = "SAA T-55 Section";
+                    side = 0;
+                    faction = "cfp_o_syarmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_T55";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_T55";
+                    };
+                };
+
+                class cfp_o_grp_saa_t55_platoon {
+                    name = "SAA T-55 Platoon";
+                    side = 0;
+                    faction = "cfp_o_syarmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_T55";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_T55";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_T55";
+                    };
+                };
+
+                class cfp_o_grp_saa_t72 {
+                    name = "SAA T-72";
+                    side = 0;
+                    faction = "cfp_o_syarmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_T72";
+                    };
+                };
+
+                class cfp_o_grp_saa_t72_section {
+                    name = "SAA T-72 Section";
+                    side = 0;
+                    faction = "cfp_o_syarmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_T72";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_T72";
+                    };
+                };
+
+                class cfp_o_grp_saa_t72_platoon {
+                    name = "SAA T-72 Platoon";
+                    side = 0;
+                    faction = "cfp_o_syarmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_T72";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_T72";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_T72";
+                    };
+                };
+
+                class cfp_o_grp_saa_ZSU {
+                    name = "SAA ZSU";
+                    side = 2;
+                    faction = "cfp_o_syarmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "CORPORAL";
+                        side = 2;
+                        vehicle = "cfp_o_syarmy_ZSU";
+                    };
+                };
+
+                class cfp_o_grp_saa_mixed_armor_1 {
+                    name = "SAA Mixed Armor 1";
+                    side = 0;
+                    faction = "cfp_o_syarmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_T72";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_T55";
+                    };
+                };
+
+                class cfp_o_grp_saa_mixed_armor_2 {
+                    name = "SAA Mixed Armor 2";
+                    side = 0;
+                    faction = "cfp_o_syarmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_T72";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_ZSU";
+                    };
+                };
+
+                class cfp_o_grp_saa_mixed_armor_3 {
+                    name = "SAA Mixed Armor 3";
+                    side = 0;
+                    faction = "cfp_o_syarmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_T55";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_ZSU";
+                    };
+                };
+
+                class cfp_o_grp_saa_mixed_armor_4 {
+                    name = "SAA Mixed Armor 4";
+                    side = 0;
+                    faction = "cfp_o_syarmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_T72";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_T72";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_T55";
+                    };
+                };
+
+                class cfp_o_grp_saa_mixed_armor_5 {
+                    name = "SAA Mixed Armor 5";
+                    side = 0;
+                    faction = "cfp_o_syarmy";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_T55";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_BMP1";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "cfp_o_syarmy_BTR60";
+                    };
+                };
+
+            };
+
+            class Artillery {
+                name = "Artillery";
+
+                class cfp_o_syarmy_bm_21_battery {
+                    name = "BM-21 Battery";
+                    side = 0;
+                    faction = "CFP_O_SYARMY";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_art.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_SYRARMY_BM21";
+                    };
+                    class Unit1 {
+                        position[] = {5,-13,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_SYRARMY_BM21";
+                    };
+                };
+
+            };
+
+            class Naval {
+                name = "Naval";
+
+            };
+
+            class Air {
+                name = "Air";
+
+            };
+
+
+        };
+
+    };
 };
