@@ -364,7 +364,7 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_O_ALQAEDA_Datsun_Pickup_01";
+                        vehicle = "CFP_O_ALQAEDA_Hilux_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
@@ -387,7 +387,7 @@ class CfgGroups {
                 };
 
                 class cfp_o_alqaeda_motorized_motorized_at_team_offroad {
-                    name = "Motorized AT Team [Offroad]";
+                    name = "Motorized AT Team [Hilux]";
                     side = 0;
                     faction = "CFP_O_ALQAEDA";
                     icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
@@ -397,23 +397,11 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_O_ALQAEDA_Offroad_01";
+                        vehicle = "CFP_O_ALQAEDA_Hilux_SPG_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "SERGEANT";
-                        side = 0;
-                        vehicle = "CFP_O_ALQAEDA_Grenadier_01";
-                    };
-                    class Unit2 {
-                        position[] = {-5,-5,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_ALQAEDA_Rifleman_01";
-                    };
-                    class Unit3 {
-                        position[] = {10,-10,0};
-                        rank = "PRIVATE";
                         side = 0;
                         vehicle = "CFP_O_ALQAEDA_Rifleman_AT_01";
                     };
@@ -568,7 +556,7 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_O_ALQAEDA_Datsun_Pickup_PK_01";
+                        vehicle = "CFP_O_ALQAEDA_Hilux_DSHKM_01";
                     };
                 };
 
@@ -611,6 +599,36 @@ class CfgGroups {
 
             class Artillery {
                 name = "Artillery";
+
+                class cfp_o_alqaeda_artillery_motorized_mlrs_hilux_battery {
+                    name = "Motorized MLRS Hilux Battery";
+                    side = 0;
+                    faction = "CFP_O_ALQAEDA";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_art.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_ALQAEDA_Hilux_MLRS_01";
+                    };
+                };
+
+                class cfp_o_alqaeda_artillery_motorized_mortar_hilux_battery {
+                    name = "Motorized Mortar Hilux Battery";
+                    side = 0;
+                    faction = "CFP_O_ALQAEDA";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_art.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_ALQAEDA_Hilux_Podnos_01";
+                    };
+                };
 
             };
 
