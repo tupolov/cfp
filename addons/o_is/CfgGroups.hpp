@@ -481,7 +481,7 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "CORPORAL";
                         side = 0;
-                        vehicle = "cfp_o_is_offroad_M2";
+                        vehicle = "CFP_O_IS_Hilux_DShKM_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
@@ -508,7 +508,7 @@ class CfgGroups {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "cfp_o_is_offroad";
+                        vehicle = "CFP_O_IS_Hilux_SPG_01";
                     };
                 };
 
@@ -661,19 +661,19 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "CORPORAL";
                         side = 0;
-                        vehicle = "cfp_o_is_LR_M2";
+                        vehicle = "CFP_O_IS_Hilux_DShKM_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "cfp_o_is_pickup_PK";
+                        vehicle = "CFP_O_IS_Hilux_SPG_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "cfp_o_is_UAZ_MG";
+                        vehicle = "CFP_O_IS_Hilux_Metis_01";
                     };
                 };
 
@@ -688,19 +688,19 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "CORPORAL";
                         side = 0;
-                        vehicle = "cfp_o_is_LR_SPG9";
+                        vehicle = "CFP_O_IS_Hilux_DShKM_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "cfp_o_is_UAZ_AGS30";
+                        vehicle = "CFP_O_IS_Hilux_BTR60_Armored_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "cfp_o_is_pickup_PK";
+                        vehicle = "CFP_O_IS_Hilux_AGS_30_01";
                     };
                 };
 
@@ -715,19 +715,19 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "CORPORAL";
                         side = 0;
-                        vehicle = "cfp_o_is_UAZ_MG";
+                        vehicle = "CFP_O_IS_Hilux_DShKM_Armored_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "cfp_o_is_UAZ_METIS";
+                        vehicle = "CFP_O_IS_Hilux_SPG_Armored_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "cfp_o_is_pickup_PK";
+                        vehicle = "CFP_O_IS_Hilux_Metis_Armored_01";
                     };
                 };
 
@@ -742,19 +742,19 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "CORPORAL";
                         side = 0;
-                        vehicle = "cfp_o_is_LR_SPG9";
+                        vehicle = "CFP_O_IS_Hilux_DShKM_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "cfp_o_is_UAZ_METIS";
+                        vehicle = "CFP_O_IS_Hilux_Igla_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "cfp_o_is_pickup_PK";
+                        vehicle = "CFP_O_IS_Hilux_ZU_23_01";
                     };
                 };
 
@@ -769,19 +769,13 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "CORPORAL";
                         side = 0;
-                        vehicle = "cfp_o_is_pickup_PK";
+                        vehicle = "CFP_O_IS_Hilux_BMP1_Armored_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "cfp_o_is_UAZ_SPG9";
-                    };
-                    class Unit2 {
-                        position[] = {-5,-5,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "cfp_o_is_UAZ_METIS";
+                        vehicle = "CFP_O_IS_Hilux_BTR60_Armored_01";
                     };
                 };
 
@@ -1262,6 +1256,36 @@ class CfgGroups {
 
             class Artillery {
                 name = "Artillery";
+
+                class cfp_o_is_artillery_motorized_mlrs_hilux_battery {
+                    name = "Motorized MLRS Hilux Battery";
+                    side = 0;
+                    faction = "CFP_O_IS";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_art.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_IS_Hilux_MLRS_01";
+                    };
+                };
+
+                class cfp_o_is_artillery_motorized_mortar_hilux_battery {
+                    name = "Motorized Mortar Hilux Battery";
+                    side = 0;
+                    faction = "CFP_O_IS";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_art.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_IS_Hilux_Podnos_01";
+                    };
+                };
 
             };
 
