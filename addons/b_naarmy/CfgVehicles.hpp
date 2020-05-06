@@ -975,6 +975,13 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_NAARMY";
         crew = "CFP_B_NAARMY_Rifleman_AK47_01";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Ridgeback\tex1_grn_co.paa",
+        "\x\cfp\addons\vehicles\Ridgeback\tex2_grn_co.paa",
+        "\x\cfp\addons\vehicles\Ridgeback\tex3_grn_co.paa",
+        "\x\cfp\addons\vehicles\Ridgeback\turretbig_grn_co.paa",
+        "x\cfp\addons\vehicles\Ridgeback\bar_armourf_grn_co.paa",
+        "x\cfp\addons\vehicles\Ridgeback\bar_armourr_grn_co.paa",
+        "\x\cfp\addons\vehicles\Ridgeback\tex4_grn_co.paa"};
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_NAARMY_Rifleman_AK47_01"; };
@@ -1008,6 +1015,13 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_NAARMY";
         crew = "CFP_B_NAARMY_Rifleman_AK47_01";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Ridgeback\tex1_grn_co.paa",
+        "\x\cfp\addons\vehicles\Ridgeback\tex2_grn_co.paa",
+        "\x\cfp\addons\vehicles\Ridgeback\tex3_grn_co.paa",
+        "\x\cfp\addons\vehicles\Ridgeback\turretbig_grn_co.paa",
+        "x\cfp\addons\vehicles\Ridgeback\bar_armourf_grn_co.paa",
+        "x\cfp\addons\vehicles\Ridgeback\bar_armourr_grn_co.paa",
+        "\x\cfp\addons\vehicles\Ridgeback\tex4_grn_co.paa"};
 
         class Turrets : Turrets {
             class Mainturret : Mainturret { gunnerType = "CFP_B_NAARMY_Rifleman_AK47_01"; };
@@ -1041,6 +1055,13 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_NAARMY";
         crew = "CFP_B_NAARMY_Rifleman_AK47_01";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Ridgeback\tex1_grn_co.paa",
+        "\x\cfp\addons\vehicles\Ridgeback\tex2_grn_co.paa",
+        "\x\cfp\addons\vehicles\Ridgeback\tex3_grn_co.paa",
+        "\x\cfp\addons\vehicles\Ridgeback\turretbig_grn_co.paa",
+        "x\cfp\addons\vehicles\Ridgeback\bar_armourf_grn_co.paa",
+        "x\cfp\addons\vehicles\Ridgeback\bar_armourr_grn_co.paa",
+        "\x\cfp\addons\vehicles\Ridgeback\tex4_grn_co.paa"};
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_NAARMY_Rifleman_AK47_01"; };
