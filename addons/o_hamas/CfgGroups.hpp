@@ -627,6 +627,36 @@ class CfgGroups {
             class Artillery {
                 name = "Artillery";
 
+                class cfp_o_hamas_artillery_motorized_mlrs_hilux_battery {
+                    name = "Motorized MLRS Hilux Battery";
+                    side = 0;
+                    faction = "CFP_O_HAMAS";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_art.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Hilux_MLRS_01";
+                    };
+                };
+
+                class cfp_o_hamas_artillery_motorized_mortar_hilux_battery {
+                    name = "Motorized Mortar Hilux Battery";
+                    side = 0;
+                    faction = "CFP_O_HAMAS";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_art.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_HAMAS_Hilux_Podnos_01";
+                    };
+                };
+
             };
 
             class Naval {
