@@ -15,6 +15,7 @@ class CfgPatches
 		"CFP_Negev_Black",
 		"CFP_EBR_sage_F",
 		"CFP_EBR_des_F",
+		"CFP_EBR_des2_F",
 		"CFP_EBR_blk_F",
 		"CFP_EBR_wdl_F",
     		"CFP_Tavor_Black",

@@ -19,6 +19,16 @@
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\weapons\Mk14\m14_des_1_co.paa","\x\cfp\addons\weapons\Mk14\m14_des_2_co.paa"};
 	};
 
+	class CFP_EBR_des2_F: srifle_EBR_F
+	{
+		author = "CFP";
+		baseWeapon = "CFP_EBR_des2_F";
+		displayName = "Mk14 MOD 0 7.62 mm (Desert v2)";
+		scope = 2;
+		hiddenSelections[] = {"camo1","camo2"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\weapons\Mk14\m14_des2_1_co.paa","\x\cfp\addons\weapons\Mk14\m14_des2_2_co.paa"};
+	};
+
 	class CFP_EBR_blk_F: srifle_EBR_F
 	{
 		author = "CFP";
