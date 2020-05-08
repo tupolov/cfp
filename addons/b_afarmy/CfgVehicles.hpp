@@ -7,6 +7,8 @@
 #define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
 #define item_xx(a,b) class _xx_##a {name = a; count = b;}
 
+#include "\x\cfp\addons\vehicles\inventory_macro\main.hpp"
+
 class CBA_Extended_EventHandlers_base;
 
 class CfgVehicles {
@@ -144,6 +146,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_AFARMY";
         crew = "CFP_B_AFARMY_Helicopter_Pilot_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class Turrets : Turrets {
             class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_AFARMY_Helicopter_Pilot_01"; };
@@ -178,6 +184,11 @@ class CfgVehicles {
         camouflage = 4;
         crew = "CFP_B_AFARMY_Helicopter_Pilot_01";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\b_afarmy\data\mi8_body_afghan_army.paa","\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\textures\mi8_sla1_2_co.paa"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
+
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
             class BackTurret : BackTurret { gunnerType = ""; };
@@ -193,6 +204,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_AFARMY";
         crew = "CFP_B_AFARMY_Helicopter_Pilot_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_AFARMY_Helicopter_Pilot_01"; };
@@ -232,13 +247,13 @@ class CfgVehicles {
         linkedItems[] = {"CUP_V_B_Interceptor_Base_Olive","CFP_Basic_Helmet_Black","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CUP_V_B_Interceptor_Base_Olive","CFP_Basic_Helmet_Black","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A4_Base"};
-        respawnWeapons[] = {"CUP_arifle_M16A4_Base"};
+        weapons[] = {"CUP_arifle_M16A2"};
+        respawnWeapons[] = {"CUP_arifle_M16A2"};
 
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_ana_wddark",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"MiniGrenade",2,1}}},{"CUP_V_B_Interceptor_Base_Olive",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",6,30}}},{},"CFP_Basic_Helmet_Black","CFP_Oakleys_Drk",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_ana_wddark",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"MiniGrenade",2,1}}},{"CUP_V_B_Interceptor_Base_Olive",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",6,30}}},{},"CFP_Basic_Helmet_Black","CFP_Oakleys_Drk",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
         randomGearProbability = 100;
 
@@ -317,13 +332,13 @@ class CfgVehicles {
         linkedItems[] = {"CUP_V_B_Interceptor_Rifleman_Olive","CFP_Basic_Helmet_M81","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CUP_V_B_Interceptor_Rifleman_Olive","CFP_Basic_Helmet_M81","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A4_Base","Binocular"};
-        respawnWeapons[] = {"CUP_arifle_M16A4_Base","Binocular"};
+        weapons[] = {"CUP_arifle_M16A2","Binocular"};
+        respawnWeapons[] = {"CUP_arifle_M16A2","Binocular"};
 
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_ana_wddark",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"MiniGrenade",2,1}}},{"CUP_V_B_Interceptor_Rifleman_Olive",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",6,30}}},{},"CFP_Basic_Helmet_M81","CFP_Scarfbeardshades_grey",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_ana_wddark",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"MiniGrenade",2,1}}},{"CUP_V_B_Interceptor_Rifleman_Olive",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",6,30}}},{},"CFP_Basic_Helmet_M81","CFP_Scarfbeardshades_grey",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Squad_Leader_01.jpg";
     };
@@ -422,15 +437,15 @@ class CfgVehicles {
         linkedItems[] = {"CUP_V_B_Interceptor_Base_Olive","CFP_Basic_Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CUP_V_B_Interceptor_Base_Olive","CFP_Basic_Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A4_Base","CUP_launch_RPG7V"};
-        respawnWeapons[] = {"CUP_arifle_M16A4_Base","CUP_launch_RPG7V"};
+        weapons[] = {"CUP_arifle_M16A2","CUP_launch_RPG7V"};
+        respawnWeapons[] = {"CUP_arifle_M16A2","CUP_launch_RPG7V"};
 
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_PG7V_M","CUP_30Rnd_556x45_Stanag"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_PG7V_M","CUP_30Rnd_556x45_Stanag"};
 
         backpack = "CUP_B_RPGPack_Khaki";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_RPG7V","","","",{"CUP_PG7V_M",1},{},""},{},{"CFP_U_FieldUniform_ana_wdlight",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"MiniGrenade",2,1}}},{"CUP_V_B_Interceptor_Base_Olive",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",6,30}}},{"CUP_B_RPGPack_Khaki",{{"CUP_PG7V_M",3,1}}},"CFP_Basic_Helmet_Tan","CFP_Scarfbeard_tan",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{"CUP_launch_RPG7V","","","",{"CUP_PG7V_M",1},{},""},{},{"CFP_U_FieldUniform_ana_wdlight",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"MiniGrenade",2,1}}},{"CUP_V_B_Interceptor_Base_Olive",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",6,30}}},{"CUP_B_RPGPack_Khaki",{{"CUP_PG7V_M",3,1}}},"CFP_Basic_Helmet_Tan","CFP_Scarfbeard_tan",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Rifleman_AT_01.jpg";
     };
 
@@ -462,15 +477,15 @@ class CfgVehicles {
         linkedItems[] = {"CUP_V_B_Interceptor_Rifleman_Olive","CFP_Basic_Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CUP_V_B_Interceptor_Rifleman_Olive","CFP_Basic_Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A4_Base"};
-        respawnWeapons[] = {"CUP_arifle_M16A4_Base"};
+        weapons[] = {"CUP_arifle_M16A2"};
+        respawnWeapons[] = {"CUP_arifle_M16A2"};
 
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
 
         backpack = "B_AssaultPack_rgr";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_ana_spec4cewd_dark",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"MiniGrenade",2,1}}},{"CUP_V_B_Interceptor_Rifleman_Olive",{{"CUP_30Rnd_556x45_Stanag",6,30}}},{"B_AssaultPack_rgr",{{"Medikit",1},{"FirstAidKit",10}}},"CFP_Basic_Helmet_Tan","CFP_Scarfbeard_white",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_ana_spec4cewd_dark",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"MiniGrenade",2,1}}},{"CUP_V_B_Interceptor_Rifleman_Olive",{{"CUP_30Rnd_556x45_Stanag",6,30}}},{"B_AssaultPack_rgr",{{"Medikit",1},{"FirstAidKit",10}}},"CFP_Basic_Helmet_Tan","CFP_Scarfbeard_white",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Medic_01.jpg";
     };
 
@@ -481,15 +496,15 @@ class CfgVehicles {
         linkedItems[] = {"CUP_V_B_Interceptor_Rifleman_Coyote","CFP_Basic_Helmet_Light_Green","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CUP_V_B_Interceptor_Rifleman_Coyote","CFP_Basic_Helmet_Light_Green","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A4_Base"};
-        respawnWeapons[] = {"CUP_arifle_M16A4_Base"};
+        weapons[] = {"CUP_arifle_M16A2"};
+        respawnWeapons[] = {"CUP_arifle_M16A2"};
 
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
 
         backpack = "B_Kitbag_rgr";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_ana_spec4cewd_dark",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"MiniGrenade",2,1}}},{"CUP_V_B_Interceptor_Rifleman_Coyote",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",6,30}}},{"B_Kitbag_rgr",{{"MineDetector",1},{"DemoCharge_Remote_Mag",5,1},{"ATMine_Range_Mag",1,1},{"APERSTripMine_Wire_Mag",1,1},{"CUP_PipeBomb_M",1,1}}},"CFP_Basic_Helmet_Light_Green","CFP_Oakleys_Clr",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_ana_spec4cewd_dark",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"MiniGrenade",2,1}}},{"CUP_V_B_Interceptor_Rifleman_Coyote",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",6,30}}},{"B_Kitbag_rgr",{{"MineDetector",1},{"DemoCharge_Remote_Mag",5,1},{"ATMine_Range_Mag",1,1},{"APERSTripMine_Wire_Mag",1,1},{"CUP_PipeBomb_M",1,1}}},"CFP_Basic_Helmet_Light_Green","CFP_Oakleys_Clr",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Explosive_Specialist_01.jpg";
     };
@@ -501,15 +516,15 @@ class CfgVehicles {
         linkedItems[] = {"CUP_V_B_Interceptor_Base_M81","CFP_Basic_Helmet_M81","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CUP_V_B_Interceptor_Base_M81","CFP_Basic_Helmet_M81","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A4_Base"};
-        respawnWeapons[] = {"CUP_arifle_M16A4_Base"};
+        weapons[] = {"CUP_arifle_M16A2"};
+        respawnWeapons[] = {"CUP_arifle_M16A2"};
 
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
 
         backpack = "B_AssaultPack_rgr";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_ana_wdlight",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"MiniGrenade",2,1}}},{"CUP_V_B_Interceptor_Base_M81",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",6,30}}},{"B_AssaultPack_rgr",{{"ToolKit",1},{"MineDetector",1}}},"CFP_Basic_Helmet_M81","CFP_Neck_Plain3",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_ana_wdlight",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"MiniGrenade",2,1}}},{"CUP_V_B_Interceptor_Base_M81",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",6,30}}},{"B_AssaultPack_rgr",{{"ToolKit",1},{"MineDetector",1}}},"CFP_Basic_Helmet_M81","CFP_Neck_Plain3",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Repair_Specialist_01.jpg";
     };
 
@@ -605,6 +620,76 @@ class CfgVehicles {
         };
     };
 
+    class CUP_Hilux_unarmed_Base;
+    class CFP_B_AFARMY_Hilux_Unarmed_01: CUP_Hilux_unarmed_Base
+    {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Hilux";
+        side = 1;
+        faction = "CFP_B_AFARMY";
+        crew = "CFP_B_AFARMY_Rifleman_01";
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {"x\cfp\addons\vehicles\Hilux\body_ana_co.paa"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
+    };
+
+    class CFP_B_AFARMY_Hilux_Unarmed_02: CUP_Hilux_unarmed_Base
+    {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Hilux SF";
+        side = 1;
+        faction = "CFP_B_AFARMY";
+        crew = "CFP_B_AFARMY_Operator_Light_SF_01";
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {"x\cfp\addons\vehicles\Hilux\body_ana_co.paa"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M4A3_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
+    };
+
+    class CUP_Hilux_DSHKM_Base;
+    class CFP_B_AFARMY_Hilux_DSHKM_01: CUP_Hilux_DSHKM_Base
+    {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Hilux (DSHKM)";
+        side = 1;
+        faction = "CFP_B_AFARMY";
+        crew = "CFP_B_AFARMY_Rifleman_01";
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {"x\cfp\addons\vehicles\Hilux\body_ana_co.paa"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
+    };
+
+    class CFP_B_AFARMY_Hilux_DSHKM_02: CUP_Hilux_DSHKM_Base
+    {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Hilux SF (DSHKM)";
+        side = 1;
+        faction = "CFP_B_AFARMY";
+        crew = "CFP_B_AFARMY_Operator_Light_SF_01";
+        hiddenSelections[] = {"camo"};
+        hiddenSelectionsTextures[] = {"x\cfp\addons\vehicles\Hilux\body_ana_co.paa"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M4A3_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
+    };
+
     class CFP_B_AFARMY_M113_01 : CUP_B_M113_USA_OCimport_02
 	{
         author = "Drew";
@@ -614,6 +699,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_AFARMY";
         crew = "CFP_B_AFARMY_Rifleman_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class Turrets : Turrets
 		{
@@ -645,6 +734,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_AFARMY";
         crew = "CFP_B_AFARMY_Rifleman_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class Turrets : Turrets
 		{
@@ -682,6 +775,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_AFARMY";
         crew = "CFP_B_AFARMY_Rifleman_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -711,6 +808,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_AFARMY";
         crew = "CFP_B_AFARMY_Rifleman_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -757,6 +858,10 @@ class CfgVehicles {
             "CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_regular_1_co.paa",
             "CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_gpk_tower_co.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class EventHandlers : EventHandlers
 		{
@@ -796,6 +901,10 @@ class CfgVehicles {
             "CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_regular_1_co.paa",
             "CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_gpk_tower_co.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -827,6 +936,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_AFARMY";
         crew = "CFP_B_AFARMY_Rifleman_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
 
         class EventHandlers : EventHandlers
@@ -858,6 +971,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_AFARMY";
         crew = "CFP_B_AFARMY_Rifleman_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
 
         class EventHandlers : EventHandlers
@@ -893,6 +1010,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_AFARMY";
         crew = "CFP_B_AFARMY_Rifleman_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
 
         class EventHandlers : EventHandlers {
@@ -918,6 +1039,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_AFARMY";
         crew = "CFP_B_AFARMY_Rifleman_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
 
         class EventHandlers : EventHandlers {
@@ -943,6 +1068,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_AFARMY";
         crew = "CFP_B_AFARMY_Rifleman_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
 
         class EventHandlers : EventHandlers {
@@ -968,6 +1097,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_AFARMY";
         crew = "CFP_B_AFARMY_Rifleman_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
 
         class EventHandlers : EventHandlers {
@@ -1037,15 +1170,15 @@ class CfgVehicles {
        linkedItems[] = {"CUP_V_B_Interceptor_Rifleman_Olive","CFP_Basic_Helmet_M81","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CUP_V_B_Interceptor_Rifleman_Olive","CFP_Basic_Helmet_M81","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A4_Base"};
-        respawnWeapons[] = {"CUP_arifle_M16A4_Base"};
+        weapons[] = {"CUP_arifle_M16A2"};
+        respawnWeapons[] = {"CUP_arifle_M16A2"};
 
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
 
         backpack = "CUP_B_DShkM_TripodHigh_Bag";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_ana_spec4cewd_light",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"MiniGrenade",2,1}}},{"CUP_V_B_Interceptor_Rifleman_Olive",{{"CUP_30Rnd_556x45_Stanag",6,30}}},{"CUP_B_DShkM_TripodHigh_Bag",{}},"CFP_Basic_Helmet_M81","CFP_Oakleys_Embr",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_ana_spec4cewd_light",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"MiniGrenade",2,1}}},{"CUP_V_B_Interceptor_Rifleman_Olive",{{"CUP_30Rnd_556x45_Stanag",6,30}}},{"CUP_B_DShkM_TripodHigh_Bag",{}},"CFP_Basic_Helmet_M81","CFP_Oakleys_Embr",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Gunner_DShKM_High_01.jpg";
     };
@@ -1057,15 +1190,15 @@ class CfgVehicles {
         linkedItems[] = {"CUP_V_B_Interceptor_Base_Olive","CFP_Basic_Helmet_Black","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CUP_V_B_Interceptor_Base_Olive","CFP_Basic_Helmet_Black","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A4_Base"};
-        respawnWeapons[] = {"CUP_arifle_M16A4_Base"};
+        weapons[] = {"CUP_arifle_M16A2"};
+        respawnWeapons[] = {"CUP_arifle_M16A2"};
 
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
 
         backpack = "CUP_B_DShkM_TripodLow_Bag";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_ana_spec4cewd_dark",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"MiniGrenade",2,1}}},{"CUP_V_B_Interceptor_Base_Olive",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",6,30}}},{"CUP_B_DShkM_TripodLow_Bag",{}},"CFP_Basic_Helmet_Black","CFP_Neck_Wrap4",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_ana_spec4cewd_dark",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"MiniGrenade",2,1}}},{"CUP_V_B_Interceptor_Base_Olive",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",6,30}}},{"CUP_B_DShkM_TripodLow_Bag",{}},"CFP_Basic_Helmet_Black","CFP_Neck_Wrap4",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Gunner_DShKM_Low_01.jpg";
     };
 
@@ -1076,15 +1209,15 @@ class CfgVehicles {
         linkedItems[] = {"CUP_V_B_Interceptor_Rifleman_M81","CFP_Basic_Helmet_Spec4cewood","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CUP_V_B_Interceptor_Rifleman_M81","CFP_Basic_Helmet_Spec4cewood","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A4_Base"};
-        respawnWeapons[] = {"CUP_arifle_M16A4_Base"};
+        weapons[] = {"CUP_arifle_M16A2"};
+        respawnWeapons[] = {"CUP_arifle_M16A2"};
 
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
 
         backpack = "CUP_B_DShkM_Gun_Bag";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_ana_spec4cewd_dark",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"MiniGrenade",2,1}}},{"CUP_V_B_Interceptor_Rifleman_M81",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",6,30}}},{"CUP_B_DShkM_Gun_Bag",{}},"CFP_Basic_Helmet_Spec4cewood","CFP_Scarfbeardshades_tan",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_ana_spec4cewd_dark",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"MiniGrenade",2,1}}},{"CUP_V_B_Interceptor_Rifleman_M81",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",6,30}}},{"CUP_B_DShkM_Gun_Bag",{}},"CFP_Basic_Helmet_Spec4cewood","CFP_Scarfbeardshades_tan",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Asst_Gunner_DShKM_01.jpg";
     };
@@ -1096,15 +1229,15 @@ class CfgVehicles {
         linkedItems[] = {"CUP_V_B_Interceptor_Rifleman_M81","CFP_Basic_Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CUP_V_B_Interceptor_Rifleman_M81","CFP_Basic_Helmet_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A4_Base"};
-        respawnWeapons[] = {"CUP_arifle_M16A4_Base"};
+        weapons[] = {"CUP_arifle_M16A2"};
+        respawnWeapons[] = {"CUP_arifle_M16A2"};
 
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
 
         backpack = "CUP_B_SPG9_Tripod_Bag";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_ana_spec4cewd_dark",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"MiniGrenade",2,1}}},{"CUP_V_B_Interceptor_Rifleman_M81",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",6,30}}},{"CUP_B_SPG9_Tripod_Bag",{}},"CFP_Basic_Helmet_Tan","CFP_Scarfbeard_grey",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_ana_spec4cewd_dark",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"MiniGrenade",2,1}}},{"CUP_V_B_Interceptor_Rifleman_M81",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",6,30}}},{"CUP_B_SPG9_Tripod_Bag",{}},"CFP_Basic_Helmet_Tan","CFP_Scarfbeard_grey",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Gunner_SPG_01.jpg";
     };
 
@@ -1115,15 +1248,15 @@ class CfgVehicles {
         linkedItems[] = {"CUP_V_B_Interceptor_Rifleman_M81","CFP_Basic_Helmet_Gray_Green","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CUP_V_B_Interceptor_Rifleman_M81","CFP_Basic_Helmet_Gray_Green","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A4_Base"};
-        respawnWeapons[] = {"CUP_arifle_M16A4_Base"};
+        weapons[] = {"CUP_arifle_M16A2"};
+        respawnWeapons[] = {"CUP_arifle_M16A2"};
 
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
 
         backpack = "CUP_B_SPG9_Gun_Bag";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_ana_spec4cewd_light",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"MiniGrenade",2,1}}},{"CUP_V_B_Interceptor_Rifleman_M81",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",6,30}}},{"CUP_B_SPG9_Gun_Bag",{}},"CFP_Basic_Helmet_Gray_Green","CFP_Scarfbeardshades_grey",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_ana_spec4cewd_light",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"MiniGrenade",2,1}}},{"CUP_V_B_Interceptor_Rifleman_M81",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",6,30}}},{"CUP_B_SPG9_Gun_Bag",{}},"CFP_Basic_Helmet_Gray_Green","CFP_Scarfbeardshades_grey",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Asst_Gunner_SPG_01.jpg";
     };
 
@@ -1134,15 +1267,15 @@ class CfgVehicles {
         linkedItems[] = {"CUP_V_B_Interceptor_Rifleman_Coyote","CFP_Basic_Helmet_Gray_Green","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CUP_V_B_Interceptor_Rifleman_Coyote","CFP_Basic_Helmet_Gray_Green","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A4_Base"};
-        respawnWeapons[] = {"CUP_arifle_M16A4_Base"};
+        weapons[] = {"CUP_arifle_M16A2"};
+        respawnWeapons[] = {"CUP_arifle_M16A2"};
 
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
 
         backpack = "CUP_B_M252_Bipod_Bag";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_ana_wdlight",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"MiniGrenade",2,1}}},{"CUP_V_B_Interceptor_Rifleman_Coyote",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",6,30}}},{"CUP_B_M252_Bipod_Bag",{}},"CFP_Basic_Helmet_Gray_Green","CFP_Oakleys_Embr",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_ana_wdlight",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"MiniGrenade",2,1}}},{"CUP_V_B_Interceptor_Rifleman_Coyote",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",6,30}}},{"CUP_B_M252_Bipod_Bag",{}},"CFP_Basic_Helmet_Gray_Green","CFP_Oakleys_Embr",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Gunner_Mortar_01.jpg";
     };
 
@@ -1153,15 +1286,15 @@ class CfgVehicles {
         linkedItems[] = {"CUP_V_B_Interceptor_Rifleman_Olive","CFP_Basic_Helmet_Light_Green","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
         respawnlinkedItems[] = {"CUP_V_B_Interceptor_Rifleman_Olive","CFP_Basic_Helmet_Light_Green","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
-        weapons[] = {"CUP_arifle_M16A4_Base"};
-        respawnWeapons[] = {"CUP_arifle_M16A4_Base"};
+        weapons[] = {"CUP_arifle_M16A2"};
+        respawnWeapons[] = {"CUP_arifle_M16A2"};
 
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag"};
 
         backpack = "CUP_B_M252_Gun_Bag";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A4_Base","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_ana_wdlight",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"MiniGrenade",2,1}}},{"CUP_V_B_Interceptor_Rifleman_Olive",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",6,30}}},{"CUP_B_M252_Gun_Bag",{}},"CFP_Basic_Helmet_Light_Green","CFP_Scarfbeard_white",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M16A2","","","",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{},{"CFP_U_FieldUniform_ana_wdlight",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",1,30},{"MiniGrenade",2,1}}},{"CUP_V_B_Interceptor_Rifleman_Olive",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_Stanag",6,30}}},{"CUP_B_M252_Gun_Bag",{}},"CFP_Basic_Helmet_Light_Green","CFP_Scarfbeard_white",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Asst_Gunner_Mortar_01.jpg";
     };
 
