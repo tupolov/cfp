@@ -88,7 +88,7 @@
 		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\IASF.paa"};
-		hiddenSelectionsMaterials[] = {"\x\cfp\addons\uniforms\TacticalUniform\crye_mcam_v1.rvmat"};
+		hiddenSelectionsMaterials[] = {"\x\cfp\addons\uniforms\TacticalUniform\crye_g3_mcam_v9.rvmat"};
 		hiddenSelections[] = {"Camo", "insignia"};
 		class Wounds
 		{
@@ -122,7 +122,7 @@
 		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\IASF.paa"};
-		hiddenSelectionsMaterials[] = {"\x\cfp\addons\uniforms\TacticalUniform\crye_mcam_v1.rvmat"};
+		hiddenSelectionsMaterials[] = {"\x\cfp\addons\uniforms\TacticalUniform\crye_g3_mcam_v9.rvmat"};
 		hiddenSelections[] = {"Camo", "insignia"};
 		class Wounds
 		{
@@ -222,7 +222,7 @@
 		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\M90.paa"};
-		hiddenSelectionsMaterials[] = {"\x\cfp\addons\uniforms\TacticalUniform\crye_mcam_v1.rvmat"};
+		hiddenSelectionsMaterials[] = {"\x\cfp\addons\uniforms\TacticalUniform\crye_g3_mcam_v9k.rvmat"};
 		hiddenSelections[] = {"Camo", "insignia"};
 		class Wounds
 		{
@@ -289,7 +289,7 @@
 		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\Tan.paa"};
-		hiddenSelectionsMaterials[] = {"\x\cfp\addons\uniforms\TacticalUniform\crye_mcam_v1.rvmat"};
+		hiddenSelectionsMaterials[] = {"\x\cfp\addons\uniforms\TacticalUniform\crye_g3_mcam_v8k.rvmat"};
 		hiddenSelections[] = {"Camo", "insignia"};
 		class Wounds
 		{
@@ -322,7 +322,7 @@
 		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\Tan.paa"};
-		hiddenSelectionsMaterials[] = {"\x\cfp\addons\uniforms\TacticalUniform\crye_mcam_v1.rvmat"};
+		hiddenSelectionsMaterials[] = {"\x\cfp\addons\uniforms\TacticalUniform\crye_g3_mcam_v8k.rvmat"};
 		hiddenSelections[] = {"Camo", "insignia"};
 		class Wounds
 		{
@@ -656,6 +656,70 @@
 		};
 	};
 
+	class CFP_Crye_M81v2: B_Soldier_base_F
+	{
+
+		scope = 1;
+		displayName = "Crye Uniform (M81 v2)";
+		faction = "BLU_F";
+        modelSides[] = {6};
+		vehicleClass = "CFP_Crye";
+		canCarryBackPack=1;
+		canDeactivateMines=1;
+		engineer=1;
+		attendant = "true";
+		uniformAccessories[] = {};
+		uniformClass = "CFP_Crye_M81v2";
+		nakedUniform = "U_BasicBody";
+		model = "\A3\characters_F\BLUFOR\b_soldier_01.p3d";
+		Items[] = {};
+		weapons[] = {"Throw","Put"};
+		magazines[] = {};
+		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
+		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\M81v2.paa"};
+		hiddenSelectionsMaterials[] = {"\x\cfp\addons\uniforms\TacticalUniform\crye_g3_mcam_v4.rvmat"};
+		hiddenSelections[] = {"Camo", "insignia"};
+		class Wounds
+		{
+			tex[] = {};
+			mat[] = {"A3\Characters_F\BLUFOR\Data\clothing1.rvmat","A3\Characters_F\BLUFOR\Data\clothing1_injury.rvmat","A3\Characters_F\BLUFOR\Data\clothing1_injury.rvmat","A3\Characters_F\Common\Data\basicbody.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\characters_f\common\data\coveralls.rvmat","A3\Characters_F\Common\Data\coveralls_injury.rvmat","A3\Characters_F\Common\Data\coveralls_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
+
+		};
+	};
+
+	class CFP_Crye_M81v2_SS: B_Soldier_base_F
+	{
+
+		scope = 1;
+		displayName = "Crye Uniform SS (M81 v2)";
+		faction = "BLU_F";
+        modelSides[] = {6};
+		vehicleClass = "CFP_Crye_M81v2_SS";
+		canCarryBackPack=1;
+		canDeactivateMines=1;
+		engineer=1;
+		attendant = "true";
+		uniformAccessories[] = {};
+		uniformClass = "CFP_U_Crye_M81v2_SS";
+		nakedUniform = "U_BasicBody";
+		model = "\A3\characters_F\BLUFOR\b_soldier_03.p3d";
+		Items[] = {};
+		weapons[] = {"Throw","Put"};
+		magazines[] = {};
+		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
+		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\M81v2.paa","\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\raiderblue_co.paa"};
+		hiddenSelectionsMaterials[] = {"\x\cfp\addons\uniforms\TacticalUniform\crye_g3_mcam_v4.rvmat"};
+		hiddenSelections[] = {"Camo", "insignia"};
+		class Wounds
+		{
+			tex[] = {};
+			mat[] = {"A3\Characters_F\BLUFOR\Data\clothing1.rvmat","A3\Characters_F\BLUFOR\Data\clothing1_injury.rvmat","A3\Characters_F\BLUFOR\Data\clothing1_injury.rvmat","A3\Characters_F\Common\Data\basicbody.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\Characters_F\Common\Data\basicbody_injury.rvmat","A3\characters_f\common\data\coveralls.rvmat","A3\Characters_F\Common\Data\coveralls_injury.rvmat","A3\Characters_F\Common\Data\coveralls_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_black_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_hairy_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_white_old_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat","A3\Characters_F\Heads\Data\hl_asian_bald_muscular_injury.rvmat"};
+
+		};
+	};
+
 	class CFP_Crye_AOR1: B_Soldier_base_F
 	{
 
@@ -678,7 +742,7 @@
 		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\AOR1.paa"};
-		hiddenSelectionsMaterials[] = {"\x\cfp\addons\uniforms\TacticalUniform\crye_mcam_v1.rvmat"};
+		hiddenSelectionsMaterials[] = {"\x\cfp\addons\uniforms\TacticalUniform\crye_g3_mcam_v7k.rvmat"};
 		hiddenSelections[] = {"Camo", "insignia"};
 		class Wounds
 		{
@@ -710,7 +774,7 @@
 		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\AOR1.paa"};
-		hiddenSelectionsMaterials[] = {"\x\cfp\addons\uniforms\TacticalUniform\crye_mcam_v1.rvmat"};
+		hiddenSelectionsMaterials[] = {"\x\cfp\addons\uniforms\TacticalUniform\crye_g3_mcam_v7k.rvmat"};
 		hiddenSelections[] = {"Camo", "insignia"};
 		class Wounds
 		{
@@ -742,7 +806,7 @@
 		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\AOR2.paa"};
-		hiddenSelectionsMaterials[] = {"\x\cfp\addons\uniforms\TacticalUniform\crye_mcam_v1.rvmat"};
+		hiddenSelectionsMaterials[] = {"\x\cfp\addons\uniforms\TacticalUniform\crye_g3_mcam_v9k.rvmat"};
 		hiddenSelections[] = {"Camo", "insignia"};
 		class Wounds
 		{
@@ -774,7 +838,7 @@
 		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\AOR2.paa"};
-		hiddenSelectionsMaterials[] = {"\x\cfp\addons\uniforms\TacticalUniform\crye_mcam_v1.rvmat"};
+		hiddenSelectionsMaterials[] = {"\x\cfp\addons\uniforms\TacticalUniform\crye_g3_mcam_v9k.rvmat"};
 		hiddenSelections[] = {"Camo", "insignia"};
 		class Wounds
 		{
@@ -806,7 +870,7 @@
 		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\DesertTiger.paa"};
-		hiddenSelectionsMaterials[] = {"\x\cfp\addons\uniforms\TacticalUniform\crye_mcam_v1.rvmat"};
+		hiddenSelectionsMaterials[] = {"\x\cfp\addons\uniforms\TacticalUniform\crye_g3_mcam_v7k.rvmat"};
 		hiddenSelections[] = {"Camo", "insignia"};
 		class Wounds
 		{
@@ -838,7 +902,7 @@
 		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\DesertTiger.paa"};
-		hiddenSelectionsMaterials[] = {"\x\cfp\addons\uniforms\TacticalUniform\crye_mcam_v1.rvmat"};
+		hiddenSelectionsMaterials[] = {"\x\cfp\addons\uniforms\TacticalUniform\crye_g3_mcam_v7k.rvmat"};
 		hiddenSelections[] = {"Camo", "insignia"};
 		class Wounds
 		{
@@ -998,7 +1062,7 @@
 		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ATacsAU.paa"};
-		hiddenSelectionsMaterials[] = {"\x\cfp\addons\uniforms\TacticalUniform\crye_mcam_v1.rvmat"};
+		hiddenSelectionsMaterials[] = {"\x\cfp\addons\uniforms\TacticalUniform\crye_g3_mcam_v10_pl.rvmat"};
 		hiddenSelections[] = {"Camo", "insignia"};
 		class Wounds
 		{
@@ -1031,7 +1095,7 @@
 		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ATacsAU.paa"};
-		hiddenSelectionsMaterials[] = {"\x\cfp\addons\uniforms\TacticalUniform\crye_mcam_v1.rvmat"};
+		hiddenSelectionsMaterials[] = {"\x\cfp\addons\uniforms\TacticalUniform\crye_g3_mcam_v10_pl.rvmat"};
 		hiddenSelections[] = {"Camo", "insignia"};
 		class Wounds
 		{
@@ -1063,7 +1127,7 @@
 		linkedItems[] = {"ItemWatch","ItemRadio","ItemGPS"};
 		respawnLinkedItems[] = {"ItemMap","ItemCompass","ItemWatch","ItemRadio","ItemGPS"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\Tropentarn.paa"};
-		hiddenSelectionsMaterials[] = {"\x\cfp\addons\uniforms\TacticalUniform\crye_mcam_v1.rvmat"};
+		hiddenSelectionsMaterials[] = {"\x\cfp\addons\uniforms\TacticalUniform\crye_g3_mcam_v10_pl.rvmat"};
 		hiddenSelections[] = {"Camo", "insignia"};
 		class Wounds
 		{

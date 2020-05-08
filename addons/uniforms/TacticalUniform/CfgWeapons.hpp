@@ -383,6 +383,47 @@
 		};
 	};
 
+	class CFP_U_Crye_M81v2: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_TacticalUniform_NodUrban.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		displayName = "Crye Uniform (M81 v2)";
+		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\NodUrban.jpg";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_Crye_M81v2";
+			containerClass="Supply60";
+			mass=20;
+
+		};
+	};
+
+	class CFP_U_Crye_M81v2_SS: Uniform_Base
+    {
+        picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_TacticalUniform_NodUrban_SS.paa";
+		scope=2;
+		model = "\x\cfp\addons\models\Suitpack";
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\M81v2.paa","\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\raiderblue_co.paa"};
+		hiddenSelectionsMaterials[] = {"\x\cfp\addons\uniforms\TacticalUniform\crye_g3_mcam_v4.rvmat"};
+		hiddenSelections[] = {"Camo", "insignia"};
+		displayName = "Crye Uniform SS (M81 v2)";
+		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\NodUrban.jpg";
+		author = "CFP";
+
+		class ItemInfo: UniformItem
+		{
+			uniformModel = "-";
+			uniformClass = "CFP_Crye_M81v2_SS";
+			containerClass="Supply60";
+			mass=20;
+
+		};
+	};
+
 	class CFP_U_Crye_AOR1: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_TacticalUniform_NodUrban.paa";
@@ -576,7 +617,7 @@
 	class CFP_U_Crye_ATacsAU: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_TacticalUniform_ATacsFG.paa";
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform (A-Tacs AU)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\ATacsFG.jpg";
@@ -595,7 +636,7 @@
 	class CFP_U_Crye_ATacsAU_SS: Uniform_Base
     {
         picture = "\x\cfp\addons\uniforms\data\ui\icon_SP_0000_Standard_TacticalUniform_ATacsFG_SS.paa";
-		scope=1;
+		scope=2;
 		model = "\x\cfp\addons\models\Suitpack";
 		displayName = "Crye Uniform SS (A-Tacs AU)";
 		// picture = "\x\cfp\addons\uniforms\TacticalUniform\0000_Standard\ui\ATacsFG.jpg";
