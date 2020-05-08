@@ -3,7 +3,12 @@
 // Generated with Arma 3 version 194.145977 on Stable branch
 // Generated with ALiVE version 1.11.3.1905291
 //////////////////////////////////////////////////////////////////////////////////
+#define mag_xx(a,b) class _xx_##a {magazine = ##a; count = b;}
+#define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
+#define item_xx(a,b) class _xx_##a {name = a; count = b;}
 
+
+#include "\x\cfp\addons\vehicles\inventory_macro\main.hpp"
 
 class CBA_Extended_EventHandlers_base;
 
@@ -1813,6 +1818,10 @@ class CfgVehicles {
             "cup\wheeledvehicles\cup_wheeledvehicles_hmmwv\data\textures\nato_t_hmmwv_regular_1_co.paa",
             "cup\wheeledvehicles\cup_wheeledvehicles_hmmwv\data\hmmwv_parts_1_ca.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_Colt727,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_AlicePack_OD)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -1853,6 +1862,10 @@ class CfgVehicles {
             "cup\wheeledvehicles\cup_wheeledvehicles_hmmwv\data\textures\nato_t_hmmwv_regular_1_co.paa",
             "cup\wheeledvehicles\cup_wheeledvehicles_hmmwv\data\hmmwv_parts_1_ca.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_Colt727,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_AlicePack_OD)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -1888,6 +1901,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USARMY_1991_WDL";
         crew = "CFP_B_USARMY_1991_Crewman_WDL_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_AlicePack_OD)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_USARMY_1991_Crewman_WDL_01"; };
@@ -1918,6 +1935,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USARMY_1991_WDL";
         crew = "CFP_B_USARMY_1991_Crewman_WDL_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_AlicePack_OD)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_USARMY_1991_Crewman_WDL_01"; };
@@ -1948,6 +1969,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USARMY_1991_WDL";
         crew = "CFP_B_USARMY_1991_Crewman_WDL_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_AlicePack_OD)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_USARMY_1991_Crewman_WDL_01"; };
@@ -1978,6 +2003,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USARMY_1991_WDL";
         crew = "CFP_B_USARMY_1991_Rifleman_WDL_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_AlicePack_OD)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_USARMY_1991_Rifleman_WDL_01"; };
@@ -2008,6 +2037,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USARMY_1991_WDL";
         crew = "CFP_B_USARMY_1991_Crewman_WDL_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_AlicePack_OD)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_USARMY_1991_Crewman_WDL_01"; };
@@ -2038,6 +2071,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USARMY_1991_WDL";
         crew = "CFP_B_USARMY_1991_Crewman_WDL_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_AlicePack_OD)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_USARMY_1991_Crewman_WDL_01"; };
@@ -2068,6 +2105,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USARMY_1991_WDL";
         crew = "CFP_B_USARMY_1991_Rifleman_WDL_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_AlicePack_OD)
 
 
         class EventHandlers : EventHandlers {
@@ -2093,6 +2134,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USARMY_1991_WDL";
         crew = "CFP_B_USARMY_1991_Rifleman_WDL_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_AlicePack_OD)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_USARMY_1991_Rifleman_WDL_01"; };
@@ -2123,6 +2168,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USARMY_1991_WDL";
         crew = "CFP_B_USARMY_1991_Rifleman_WDL_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_AlicePack_OD)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_USARMY_1991_Rifleman_WDL_01"; };
@@ -2153,6 +2202,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USARMY_1991_WDL";
         crew = "CFP_B_USARMY_1991_Rifleman_WDL_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_AlicePack_OD)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_USARMY_1991_Rifleman_WDL_01"; };
@@ -2183,6 +2236,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USARMY_1991_WDL";
         crew = "CFP_B_USARMY_1991_Medic_WDL_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_AlicePack_OD)
 
 
         class EventHandlers : EventHandlers {
@@ -2216,6 +2273,10 @@ class CfgVehicles {
                     "cup\wheeledvehicles\cup_wheeledvehicles_hmmwv\data\textures\nato_t_hmmwv_canvas_1_co.paa",
                     "cup\wheeledvehicles\cup_wheeledvehicles_hmmwv\data\hmmwv_parts_1_ca.paa"
                 };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_AlicePack_OD)
 
 
         class EventHandlers : EventHandlers {
@@ -2241,6 +2302,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USARMY_1991_WDL";
         crew = "CFP_B_USARMY_1991_Rifleman_WDL_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_AlicePack_OD)
 
 
         class EventHandlers : EventHandlers {
@@ -2266,6 +2331,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USARMY_1991_WDL";
         crew = "CFP_B_USARMY_1991_Rifleman_WDL_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_AlicePack_OD)
 
 
         class EventHandlers : EventHandlers {
@@ -2291,6 +2360,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USARMY_1991_WDL";
         crew = "CFP_B_USARMY_1991_Rifleman_WDL_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_AlicePack_OD)
 
 
         class EventHandlers : EventHandlers {
@@ -2316,6 +2389,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USARMY_1991_WDL";
         crew = "CFP_B_USARMY_1991_Rifleman_WDL_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_AlicePack_OD)
 
 
         class EventHandlers : EventHandlers {
@@ -2366,6 +2443,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USARMY_1991_WDL";
         crew = "CFP_B_USARMY_1991_Pilot_WDL_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_Colt727,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_AlicePack_OD)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_USARMY_1991_Pilot_WDL_01"; };
@@ -2396,6 +2477,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USARMY_1991_WDL";
         crew = "CFP_B_USARMY_1991_Pilot_WDL_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_Colt727,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_AlicePack_OD)
 
         class Turrets : Turrets {
             class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USARMY_1991_Pilot_WDL_01"; };
@@ -2434,6 +2519,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USARMY_1991_WDL";
         crew = "CFP_B_USARMY_1991_Pilot_WDL_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_Colt727,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_AlicePack_OD)
 
         class Turrets : Turrets {
             class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USARMY_1991_Pilot_WDL_01"; };
@@ -2472,6 +2561,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USARMY_1991_WDL";
         crew = "CFP_B_USARMY_1991_Pilot_WDL_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_Colt727,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_AlicePack_OD)
 
         class Turrets : Turrets {
             class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USARMY_1991_Pilot_WDL_01"; };
@@ -2510,6 +2603,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USARMY_1991_WDL";
         crew = "CFP_B_USARMY_1991_Pilot_WDL_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_Colt727,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_AlicePack_OD)
 
         class Turrets : Turrets {
             class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USARMY_1991_Pilot_WDL_01"; };
@@ -2548,6 +2645,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USARMY_1991_WDL";
         crew = "CFP_B_USARMY_1991_Pilot_WDL_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_Colt727,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_AlicePack_OD)
 
         class Turrets : Turrets {
             class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USARMY_1991_Pilot_WDL_01"; };
@@ -2578,6 +2679,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USARMY_1991_WDL";
         crew = "CFP_B_USARMY_1991_Pilot_WDL_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_Colt727,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_AlicePack_OD)
 
         class Turrets : Turrets {
             class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USARMY_1991_Pilot_WDL_01"; };
@@ -2608,6 +2713,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USARMY_1991_WDL";
         crew = "CFP_B_USARMY_1991_Pilot_WDL_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_AlicePack_OD)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_USARMY_1991_Pilot_WDL_01"; };
@@ -2641,6 +2750,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USARMY_1991_WDL";
         crew = "CFP_B_USARMY_1991_Pilot_WDL_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_AlicePack_OD)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_USARMY_1991_Pilot_WDL_01"; };
@@ -2673,6 +2786,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USARMY_1991_WDL";
         crew = "CFP_B_USARMY_1991_Pilot_WDL_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_AlicePack_OD)
 
         class Turrets : Turrets {
             class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USARMY_1991_Pilot_WDL_01"; };
@@ -2705,6 +2822,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USARMY_1991_WDL";
         crew = "CFP_B_USARMY_1991_Pilot_WDL_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_AlicePack_OD)
 
         class Turrets : Turrets {
             class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USARMY_1991_Pilot_WDL_01"; };
@@ -2741,6 +2862,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USARMY_1991_WDL";
         crew = "CFP_B_USARMY_1991_Pilot_WDL_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_AlicePack_OD)
 
 
         class EventHandlers : EventHandlers {
@@ -2766,6 +2891,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USARMY_1991_WDL";
         crew = "CFP_B_USARMY_1991_Crewman_WDL_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_AlicePack_OD)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_USARMY_1991_Crewman_WDL_01"; };
