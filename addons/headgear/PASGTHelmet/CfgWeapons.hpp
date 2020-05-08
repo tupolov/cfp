@@ -778,9 +778,9 @@
 		weaponPoolAvailable = 1;
 		displayName = "PASGT Helmet (DCU 1)";
 		//
-		model = "\x\cfp\addons\models\PASGTHelmet1";
+		model = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\DCU.paa"};
-		hiddenSelections[] = {"Camo"};
+		hiddenSelections[] = {"camo", "NVG_mount", "Goggle_Glass", "Goggle_ESS", "Cover_Front", "Cover_Back"};
 		author = "CFP";
 
 
@@ -788,13 +788,13 @@
 		class ItemInfo: HeadgearItem
 		{
 			mass = 20;
-			uniformmodel = "\x\cfp\addons\models\PASGTHelmet1";
+			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
 			HITPOINTS_HEAD(10,0.30)
+			hiddenSelections[] = {"camo", "NVG_mount", "Goggle_Glass", "Goggle_ESS", "Cover_Front", "Cover_Back"};
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\DCU.paa"};
-			hiddenSelections[] = {"Camo"};
 		};
 	};
 
@@ -806,9 +806,9 @@
 		weaponPoolAvailable = 1;
 		displayName = "PASGT Helmet (DCU 2)";
 		//
-		model = "\x\cfp\addons\models\PASGTHelmet1";
+		model = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\DCU.paa"};
-		hiddenSelections[] = {"Camo"};
+		hiddenSelections[] = {"camo", "NVG_mount", "LWH_chinstrap", "Goggle_Glass", "Goggle_ESS", "Cover_Front", "Cover_Back"};
 		author = "CFP";
 
 
@@ -816,13 +816,13 @@
 		class ItemInfo: HeadgearItem
 		{
 			mass = 20;
-			uniformmodel = "\x\cfp\addons\models\PASGTHelmet2";
+			uniformmodel = "\cup\creatures\people\military\cup_creatures_people_military_usarmy\CUP_H_PASGTv2.p3d";
 			modelSides[] = {3,1};
 			armor = 10;
 			passThrough = 0.30;
 			HITPOINTS_HEAD(10,0.30)
 			hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\PASGTHelmet\DCU.paa"};
-			hiddenSelections[] = {"Camo"};
+			hiddenSelections[] = {"camo", "NVG_mount", "LWH_chinstrap", "Cover_Front", "Cover_Back"};
 		};
 	};
 
