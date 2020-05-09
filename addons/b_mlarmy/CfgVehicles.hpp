@@ -322,10 +322,10 @@ class CfgVehicles {
 	"SP_M1Helmet_Green", 0.4,
 	"SP_M1Helmet_Black", 0.4,
 	"CFP_PatrolCap_MaliWdl", 0.4,
-    "CFP_Basic_Helmet_Black", 0.25,
-    "CFP_Basic_Helmet_ArmyGreen", 0.25,
-    "CFP_Basic_Helmet_Gray_Green", 0.25,
-    "CFP_Basic_Helmet_Tan", 0.25,
+    "CUP_H_Ger_M92_Black", 0.25,
+    "CUP_H_Ger_M92_RGR", 0.25,
+    "CUP_H_Ger_M92", 0.25,
+    "CUP_H_Ger_M92_Tan", 0.25,
     "SP_BeanieHat_Black", 0.2,
     "SP_BeanieHat_Green", 0.2,
     "SP_BeanieHat_Tan", 0.2,
@@ -409,7 +409,7 @@ class CfgVehicles {
             uniformList[] = {
         "CFP_BDU_CEU", 0.8,
         "CFP_BDU_M81", 0.2,
-        "CUP_U_B_US_BDU_OD", 0.33
+        "CFP_BDU_Green", 0.33
             };
 
         // Malian Army Headgear
@@ -419,10 +419,10 @@ class CfgVehicles {
         "SP_M1Helmet_Black", 0.4,
         "CFP_PatrolCap_CEU", 0.4,
         "SP_PatrolCap_Green", 0.2,
-        "CFP_Basic_Helmet_Black", 0.2,
-        "CFP_Basic_Helmet_ArmyGreen", 0.2,
-        "CFP_Basic_Helmet_Gray_Green", 0.2,
-        "CFP_Basic_Helmet_Tan", 0.2,
+        "CUP_H_Ger_M92_Black", 0.2,
+        "CUP_H_Ger_M92_RGR", 0.2,
+        "CUP_H_Ger_M92", 0.2,
+        "CUP_H_Ger_M92_Tan", 0.2,
         "SP_BeanieHat_Black", 0.2,
         "SP_BeanieHat_Green", 0.2,
         "SP_BeanieHat_Tan", 0.2,
@@ -854,8 +854,8 @@ class CfgVehicles {
 
         displayName = "Asst. Gunner [DShKM]";
 
-        linkedItems[] = {"CFP_AK_VEST_LOlive","CFP_Basic_Helmet_Gray_Green","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"CFP_AK_VEST_LOlive","CFP_Basic_Helmet_Gray_Green","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"CFP_AK_VEST_LOlive","CUP_H_Ger_M92","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CFP_AK_VEST_LOlive","CUP_H_Ger_M92","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
         weapons[] = {"CUP_arifle_AK47"};
         respawnWeapons[] = {"CUP_arifle_AK47"};
@@ -865,7 +865,7 @@ class CfgVehicles {
 
         backpack = "CUP_B_DShkM_Gun_Bag";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_BDU_Wdl_Mali",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_LOlive",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{"CUP_B_DShkM_Gun_Bag",{}},"CFP_Basic_Helmet_Gray_Green","CFP_Oakleys_Clr",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_BDU_Wdl_Mali",{{"FirstAidKit",1},{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_LOlive",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{"CUP_B_DShkM_Gun_Bag",{}},"CUP_H_Ger_M92","CFP_Oakleys_Clr",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -1896,7 +1896,7 @@ class CfgVehicles {
         };
         class TransportItems {
             item_xx(CFP_AK_VEST_LOlive,10);
-            item_xx(CFP_Basic_Helmet_Black,10);
+            item_xx(CUP_H_Ger_M92_Black,10);
             item_xx(CFP_Scarfshades_tan,10);
             item_xx(ItemMap,10);
             item_xx(ItemCompass,10);
@@ -1979,7 +1979,7 @@ class CfgVehicles {
         class TransportItems {
             item_xx(CUP_optic_PSO_1,10);
             item_xx(CFP_AK_VEST_LOlive,10);
-            item_xx(CFP_Basic_Helmet_Black,10);
+            item_xx(CUP_H_Ger_M92_Black,10);
             item_xx(CFP_Scarfshades_tan,10);
             item_xx(ItemMap,10);
             item_xx(ItemCompass,10);

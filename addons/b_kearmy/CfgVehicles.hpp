@@ -8,6 +8,8 @@
 #define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
 #define item_xx(a,b) class _xx_##a {name = a; count = b;}
 
+#include "\x\cfp\addons\vehicles\inventory_macro\main.hpp"
+
 class CBA_Extended_EventHandlers_base;
 
 class CfgVehicles {
@@ -630,11 +632,11 @@ class CfgVehicles {
 
         weapons[] = {"CUP_arifle_M4A1_black","hgun_Pistol_01_F","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_M4A1_black","hgun_Pistol_01_F","Throw","Put"};
-        linkedItems[] = {"SP_PlateCarrier1_Black","SP_Beret2_Red","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","SP_Kneepads_Black"};
-        respawnLinkedItems[] = {"SP_PlateCarrier1_Black","SP_Beret2_Red","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","SP_Kneepads_Black"};
+        linkedItems[] = {"SP_PlateCarrier1_Black","SP_Beret2_Red","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"SP_PlateCarrier1_Black","SP_Beret2_Red","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_black","","","CUP_optic_Eotech553_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"hgun_Pistol_01_F","","","",{"10Rnd_9x21_Mag",10},{},""},{"CFP_BDU_DPM3",{{"CUP_30Rnd_556x45_Stanag",3,30},{"10Rnd_9x21_Mag",3,10}}},{"SP_PlateCarrier1_Black",{{"CUP_30Rnd_556x45_Stanag",6,30}}},{},"SP_Beret2_Red","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","SP_Kneepads_Black"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_black","","","CUP_optic_Eotech553_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"hgun_Pistol_01_F","","","",{"10Rnd_9x21_Mag",10},{},""},{"CFP_BDU_DPM3",{{"CUP_30Rnd_556x45_Stanag",3,30},{"10Rnd_9x21_Mag",3,10}}},{"SP_PlateCarrier1_Black",{{"CUP_30Rnd_556x45_Stanag",6,30}}},{},"SP_Beret2_Red","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
     	randomGearProbability = 100;
 
@@ -666,11 +668,11 @@ class CfgVehicles {
 
         weapons[] = {"CUP_arifle_M4A1_BUIS_GL","CUP_hgun_Glock17_blk","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_M4A1_BUIS_GL","CUP_hgun_Glock17_blk","Throw","Put"};
-        linkedItems[] = {"SP_PlateCarrier1_Black","SP_Beret2_Red","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","SP_Kneepads_Black"};
-        respawnLinkedItems[] = {"SP_PlateCarrier1_Black","SP_Beret2_Red","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","SP_Kneepads_Black"};
+        linkedItems[] = {"SP_PlateCarrier1_Black","SP_Beret2_Red","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"SP_PlateCarrier1_Black","SP_Beret2_Red","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17","CUP_17Rnd_9x19_glock17"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_BUIS_GL","","","CUP_optic_Eotech553_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_BDU_DPM3",{{"CUP_30Rnd_556x45_Stanag",3,30},{"CUP_17Rnd_9x19_glock17",3,17}}},{"SP_PlateCarrier1_Black",{{"CUP_30Rnd_556x45_Stanag",6,30},{"CUP_1Rnd_HEDP_M203",6,1},{"CUP_1Rnd_HE_M203",6,1}}},{},"SP_Beret2_Red","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","SP_Kneepads_Black"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_BUIS_GL","","","CUP_optic_Eotech553_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_Glock17_blk","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"CFP_BDU_DPM3",{{"CUP_30Rnd_556x45_Stanag",3,30},{"CUP_17Rnd_9x19_glock17",3,17}}},{"SP_PlateCarrier1_Black",{{"CUP_30Rnd_556x45_Stanag",6,30},{"CUP_1Rnd_HEDP_M203",6,1},{"CUP_1Rnd_HE_M203",6,1}}},{},"SP_Beret2_Red","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -682,11 +684,11 @@ class CfgVehicles {
 
         weapons[] = {"CUP_arifle_M4A1_black","hgun_Pistol_01_F","Throw","Put"};
         respawnWeapons[] = {"CUP_arifle_M4A1_black","hgun_Pistol_01_F","Throw","Put"};
-        linkedItems[] = {"SP_PlateCarrier1_Black","SP_Beret2_Red","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","SP_Kneepads_Black"};
-        respawnLinkedItems[] = {"SP_PlateCarrier1_Black","SP_Beret2_Red","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","SP_Kneepads_Black"};
+        linkedItems[] = {"SP_PlateCarrier1_Black","SP_Beret2_Red","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
+        respawnLinkedItems[] = {"SP_PlateCarrier1_Black","SP_Beret2_Red","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""};
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","CUP_30Rnd_556x45_Stanag","10Rnd_9x21_Mag","10Rnd_9x21_Mag","10Rnd_9x21_Mag"};
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_black","","","CUP_optic_Eotech553_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"hgun_Pistol_01_F","","","",{"10Rnd_9x21_Mag",10},{},""},{"CFP_BDU_DPM3",{{"CUP_30Rnd_556x45_Stanag",3,30},{"10Rnd_9x21_Mag",3,10}}},{"SP_PlateCarrier1_Black",{{"CUP_30Rnd_556x45_Stanag",6,30}}},{},"SP_Beret2_Red","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","SP_Kneepads_Black"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1_black","","","CUP_optic_Eotech553_Black",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"hgun_Pistol_01_F","","","",{"10Rnd_9x21_Mag",10},{},""},{"CFP_BDU_DPM3",{{"CUP_30Rnd_556x45_Stanag",3,30},{"10Rnd_9x21_Mag",3,10}}},{"SP_PlateCarrier1_Black",{{"CUP_30Rnd_556x45_Stanag",6,30}}},{},"SP_Beret2_Red","",{"Binocular","","","",{},{},""},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -785,6 +787,10 @@ class CfgVehicles {
         hiddenSelectionstextures[] = {
             "\x\cfp\addons\vehicles\Hummingbird\Hummingbird_KDF.paa"
         };
+        TRANSPORTWEAPONSLARGE(CUP_arifle_M4A1_black,CUP_launch_M136)
+        TRANSPORTMAGAZINESLARGE(CUP_30Rnd_556x45_Stanag,CUP_20Rnd_762x51_G3,CUP_1Rnd_HEDP_M203,CUP_M136_M,CUP_HandGrenade_M67,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSLARGE
+        TRANSPORTBACKPACKSLARGE(CFP_Carryall_DPMWoodland)
 
         class Turrets : Turrets {
             class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_KEARMY_Helicopter_Pilot_01"; };
@@ -818,6 +824,10 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {
             "\x\cfp\addons\vehicles\LandRover\lr_base_baf_olive.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_G3A3_modern_ris,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_20Rnd_762x51_G3,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Carryall_DPMWoodland)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = "CFP_B_KEARMY_Rifleman_01"; };
@@ -853,6 +863,10 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {
             "\x\cfp\addons\vehicles\Orca\Orca_KDF.paa"
         };
+        TRANSPORTWEAPONSLARGE(CUP_arifle_M4A1_black,CUP_launch_M136)
+        TRANSPORTMAGAZINESLARGE(CUP_30Rnd_556x45_Stanag,CUP_20Rnd_762x51_G3,CUP_1Rnd_HEDP_M203,CUP_M136_M,CUP_HandGrenade_M67,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSLARGE
+        TRANSPORTBACKPACKSLARGE(CFP_Carryall_DPMWoodland)
 
         class Turrets : Turrets {
             class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_KEARMY_Helicopter_Pilot_01"; };
@@ -886,6 +900,10 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {
             "\CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_hmmwv_body_co.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_G3A3_modern_ris,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_20Rnd_762x51_G3,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Carryall_DPMWoodland)
 
 
         class EventHandlers : EventHandlers {
@@ -918,6 +936,10 @@ class CfgVehicles {
             "cup\wheeledvehicles\cup_wheeledvehicles_hmmwv\data\textures\nato_t_hmmwv_canvas_1_co.paa",
             "cup\wheeledvehicles\cup_wheeledvehicles_hmmwv\data\hmmwv_parts_1_ca.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_G3A3_modern_ris,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_20Rnd_762x51_G3,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Carryall_DPMWoodland)
 
 
         class EventHandlers : EventHandlers {
@@ -955,6 +977,10 @@ class CfgVehicles {
             "\CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_m1167turret_wl_co.paa",
             "\CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\fbcb2_co.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_G3A3_modern_ris,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_20Rnd_762x51_G3,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Carryall_DPMWoodland)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_KEARMY_Rifleman_01"; };
@@ -997,7 +1023,10 @@ class CfgVehicles {
             "\CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_m1167turret_wl_co.paa",
             "\CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\fbcb2_co.paa"
         };
-
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_G3A3_modern_ris,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_20Rnd_762x51_G3,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Carryall_DPMWoodland)
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -1034,6 +1063,10 @@ class CfgVehicles {
             "\CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_m1167turret_wl_co.paa",
             "\CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\fbcb2_co.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_G3A3_modern_ris,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_20Rnd_762x51_G3,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Carryall_DPMWoodland)
 
 
         class EventHandlers : EventHandlers {
@@ -1060,15 +1093,19 @@ class CfgVehicles {
         faction = "CFP_B_KEARMY";
         crew = "CFP_B_KEARMY_Rifleman_01";
         hiddenSelectionsTextures[] =                 {
-                    "\x\cfp\addons\vehicles\RG31\exa_rg31_body_od_olive_co.paa",
-                    "\x\cfp\addons\vehicles\RG31\exa_rg31_body2_od_olive_ca.paa",
-                    "\x\cfp\addons\vehicles\RG31\exa_rg31_interior2_od_olive_co.paa",
-                    "\x\cfp\addons\vehicles\RG31\id\afr_union.paa",
-                    "\CUP\WheeledVehicles\CUP_WheeledVehicles_RG31\data\id\id_a_ca.paa",
-                    "\CUP\WheeledVehicles\CUP_WheeledVehicles_RG31\data\id\id_1_ca.paa",
-                    "",
-                    ""
-                };
+             "\x\cfp\addons\vehicles\RG31\exa_rg31_body_od_olive_co.paa",
+             "\x\cfp\addons\vehicles\RG31\exa_rg31_body2_od_olive_ca.paa",
+             "\x\cfp\addons\vehicles\RG31\exa_rg31_interior2_od_olive_co.paa",
+             "\x\cfp\addons\vehicles\RG31\id\afr_union.paa",
+             "\CUP\WheeledVehicles\CUP_WheeledVehicles_RG31\data\id\id_a_ca.paa",
+              "\CUP\WheeledVehicles\CUP_WheeledVehicles_RG31\data\id\id_1_ca.paa",
+                "",
+                ""
+            };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_G3A3_modern_ris,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_20Rnd_762x51_G3,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Carryall_DPMWoodland)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_KEARMY_Rifleman_01"; };
@@ -1104,7 +1141,10 @@ class CfgVehicles {
             class MainTurret : MainTurret { gunnerType = "CFP_B_KEARMY_Crew_01"; };
             class CommanderOptics : CommanderOptics { gunnerType = "CFP_B_KEARMY_Crew_01"; };
         };
-
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_G3A3_modern_ris,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_20Rnd_762x51_G3,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Carryall_DPMWoodland)
 
 
         class EventHandlers : EventHandlers {
@@ -1136,7 +1176,10 @@ class CfgVehicles {
         editorPreview = \x\cfp\addons\b_kearmy\data\preview\ObsTurret.JPG; gunnerType = "CFP_B_KEARMY_Crew_01"; };
             class CommanderTurret : CommanderTurret { gunnerType = ""; };
         };
-
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_G3A3_modern_ris,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_20Rnd_762x51_G3,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Carryall_DPMWoodland)
 
 
         class EventHandlers : EventHandlers {
@@ -1171,7 +1214,10 @@ class CfgVehicles {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
         };
-
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_G3A3_modern_ris,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_20Rnd_762x51_G3,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Carryall_DPMWoodland)
 
 
         class EventHandlers : EventHandlers {
@@ -1204,7 +1250,10 @@ class CfgVehicles {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = "CFP_B_KEARMY_Helicopter_Pilot_01"; };
             class CargoTurret_02 : CargoTurret_02 { gunnerType = "CFP_B_KEARMY_Helicopter_Pilot_01"; };
         };
-
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_G3A3_modern_ris,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_20Rnd_762x51_G3,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Carryall_DPMWoodland)
 
 
         class EventHandlers : EventHandlers {
@@ -1245,7 +1294,10 @@ class CfgVehicles {
             class CargoTurret_05 : CargoTurret_05 { gunnerType = ""; };
             class CargoTurret_06 : CargoTurret_06 { gunnerType = ""; };
         };
-
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_G3A3_modern_ris,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_20Rnd_762x51_G3,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Carryall_DPMWoodland)
 
 
         class EventHandlers : EventHandlers {
@@ -1277,6 +1329,10 @@ class CfgVehicles {
             "CUP\WheeledVehicles\CUP_WheeledVehicles_T810\data\undercarriage_co.paa",
             "\x\cfp\addons\vehicles\T810\t810_mlod_co_green.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_G3A3_modern_ris,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_20Rnd_762x51_G3,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Carryall_DPMWoodland)
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -1307,6 +1363,10 @@ class CfgVehicles {
             "CUP\WheeledVehicles\CUP_WheeledVehicles_T810\data\undercarriage_co.paa",
             "\x\cfp\addons\vehicles\T810\t810_mlod_co_green.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_G3A3_modern_ris,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_20Rnd_762x51_G3,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Carryall_DPMWoodland)
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -1336,6 +1396,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\T810\bed2_co_green.paa",
             "CUP\WheeledVehicles\CUP_WheeledVehicles_T810\data\undercarriage_co.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_G3A3_modern_ris,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_20Rnd_762x51_G3,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Carryall_DPMWoodland)
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -1366,7 +1430,10 @@ class CfgVehicles {
             "CUP\WheeledVehicles\CUP_WheeledVehicles_T810\data\undercarriage_co.paa",
             "\x\cfp\addons\vehicles\T810\t810_mlod_co_green.paa"
         };
-
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_G3A3_modern_ris,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_20Rnd_762x51_G3,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Carryall_DPMWoodland)
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
