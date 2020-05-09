@@ -470,7 +470,7 @@ class CfgGroups {
             class Motorized {
                 name = "Motorized";
 
-                class CFP_I_grp_is_offroad_mgs {
+                class cfp_i_grp_is_offroad_mgs {
                     name = "IS Offroad MGs";
                     side = 2;
                     faction = "CFP_I_IS";
@@ -481,17 +481,17 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "CORPORAL";
                         side = 2;
-                        vehicle = "CFP_I_is_offroad_M2";
+                        vehicle = "CFP_I_IS_Hilux_DShKM_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_is_offroad_M2";
+                        vehicle = "cfp_i_is_offroad_M2";
                     };
                 };
 
-                class CFP_I_grp_is_offroad_patrol {
+                class cfp_i_grp_is_offroad_patrol {
                     name = "IS Offroad Patrol";
                     side = 2;
                     faction = "CFP_I_IS";
@@ -502,17 +502,17 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "CORPORAL";
                         side = 2;
-                        vehicle = "CFP_I_is_offroad_M2";
+                        vehicle = "cfp_i_is_offroad_M2";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_is_offroad";
+                        vehicle = "CFP_I_IS_Hilux_SPG_01";
                     };
                 };
 
-                class CFP_I_grp_is_lr_mgs {
+                class cfp_i_grp_is_lr_mgs {
                     name = "IS L.R. MGs";
                     side = 2;
                     faction = "CFP_I_IS";
@@ -523,17 +523,17 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "CORPORAL";
                         side = 2;
-                        vehicle = "CFP_I_is_LR_M2";
+                        vehicle = "cfp_i_is_LR_M2";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_is_LR_M2";
+                        vehicle = "cfp_i_is_LR_M2";
                     };
                 };
 
-                class CFP_I_grp_is_lr_light_support {
+                class cfp_i_grp_is_lr_light_support {
                     name = "IS L.R. Support";
                     side = 2;
                     faction = "CFP_I_IS";
@@ -544,17 +544,17 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "CORPORAL";
                         side = 2;
-                        vehicle = "CFP_I_is_LR_M2";
+                        vehicle = "cfp_i_is_LR_M2";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_is_LR_SPG9";
+                        vehicle = "cfp_i_is_LR_SPG9";
                     };
                 };
 
-                class CFP_I_grp_is_lr_heavy_support {
+                class cfp_i_grp_is_lr_heavy_support {
                     name = "IS L.R. Heavy Support";
                     side = 2;
                     faction = "CFP_I_IS";
@@ -565,23 +565,23 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "CORPORAL";
                         side = 2;
-                        vehicle = "CFP_I_is_LR_M2";
+                        vehicle = "cfp_i_is_LR_M2";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_is_LR_SPG9";
+                        vehicle = "cfp_i_is_LR_SPG9";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_is_LR_SPG9";
+                        vehicle = "cfp_i_is_LR_SPG9";
                     };
                 };
 
-                class CFP_I_grp_is_uaz_mgs {
+                class cfp_i_grp_is_uaz_mgs {
                     name = "IS UAZ MGs";
                     side = 2;
                     faction = "CFP_I_IS";
@@ -592,17 +592,17 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "CORPORAL";
                         side = 2;
-                        vehicle = "CFP_I_is_UAZ_MG";
+                        vehicle = "cfp_i_is_UAZ_MG";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_is_UAZ_MG";
+                        vehicle = "cfp_i_is_UAZ_MG";
                     };
                 };
 
-                class CFP_I_grp_is_uaz_light_support {
+                class cfp_i_grp_is_uaz_light_support {
                     name = "IS UAZ Support";
                     side = 2;
                     faction = "CFP_I_IS";
@@ -613,17 +613,17 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "CORPORAL";
                         side = 2;
-                        vehicle = "CFP_I_is_UAZ_MG";
+                        vehicle = "cfp_i_is_UAZ_MG";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_is_UAZ_AGS30";
+                        vehicle = "cfp_i_is_UAZ_AGS30";
                     };
                 };
 
-                class CFP_I_grp_is_uaz_heavy_support {
+                class cfp_i_grp_is_uaz_heavy_support {
                     name = "IS UAZ Heavy Support";
                     side = 2;
                     faction = "CFP_I_IS";
@@ -634,23 +634,23 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "CORPORAL";
                         side = 2;
-                        vehicle = "CFP_I_is_UAZ_MG";
+                        vehicle = "cfp_i_is_UAZ_MG";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_is_UAZ_AGS30";
+                        vehicle = "cfp_i_is_UAZ_AGS30";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_is_UAZ_SPG9";
+                        vehicle = "cfp_i_is_UAZ_SPG9";
                     };
                 };
 
-                class CFP_I_grp_is_mixed_technicals_1 {
+                class cfp_i_grp_is_mixed_technicals_1 {
                     name = "IS Mixed Technicals 1";
                     side = 2;
                     faction = "CFP_I_IS";
@@ -661,23 +661,23 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "CORPORAL";
                         side = 2;
-                        vehicle = "CFP_I_is_LR_M2";
+                        vehicle = "CFP_I_IS_Hilux_DShKM_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_is_pickup_PK";
+                        vehicle = "CFP_I_IS_Hilux_SPG_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_is_UAZ_MG";
+                        vehicle = "CFP_I_IS_Hilux_Metis_01";
                     };
                 };
 
-                class CFP_I_grp_is_mixed_technicals_2 {
+                class cfp_i_grp_is_mixed_technicals_2 {
                     name = "IS Mixed Technicals 2";
                     side = 2;
                     faction = "CFP_I_IS";
@@ -688,23 +688,23 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "CORPORAL";
                         side = 2;
-                        vehicle = "CFP_I_is_LR_SPG9";
+                        vehicle = "CFP_I_IS_Hilux_DShKM_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_is_UAZ_AGS30";
+                        vehicle = "CFP_I_IS_Hilux_BTR60_Armored_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_is_pickup_PK";
+                        vehicle = "CFP_I_IS_Hilux_AGS_30_01";
                     };
                 };
 
-                class CFP_I_grp_is_mixed_technicals_3 {
+                class cfp_i_grp_is_mixed_technicals_3 {
                     name = "IS Mixed Technicals 3";
                     side = 2;
                     faction = "CFP_I_IS";
@@ -715,23 +715,23 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "CORPORAL";
                         side = 2;
-                        vehicle = "CFP_I_is_UAZ_MG";
+                        vehicle = "CFP_I_IS_Hilux_DShKM_Armored_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_is_UAZ_METIS";
+                        vehicle = "CFP_I_IS_Hilux_SPG_Armored_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_is_pickup_PK";
+                        vehicle = "CFP_I_IS_Hilux_Metis_Armored_01";
                     };
                 };
 
-                class CFP_I_grp_is_mixed_technicals_4 {
+                class cfp_i_grp_is_mixed_technicals_4 {
                     name = "IS Mixed Technicals 4";
                     side = 2;
                     faction = "CFP_I_IS";
@@ -742,23 +742,23 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "CORPORAL";
                         side = 2;
-                        vehicle = "CFP_I_is_LR_SPG9";
+                        vehicle = "CFP_I_IS_Hilux_DShKM_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_is_UAZ_METIS";
+                        vehicle = "CFP_I_IS_Hilux_Igla_01";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_is_pickup_PK";
+                        vehicle = "CFP_I_IS_Hilux_ZU_23_01";
                     };
                 };
 
-                class CFP_I_grp_is_mixed_technicals_5 {
+                class cfp_i_grp_is_mixed_technicals_5 {
                     name = "IS Mixed Technicals 5";
                     side = 2;
                     faction = "CFP_I_IS";
@@ -769,19 +769,13 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "CORPORAL";
                         side = 2;
-                        vehicle = "CFP_I_is_pickup_PK";
+                        vehicle = "CFP_I_IS_Hilux_BMP1_Armored_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_is_UAZ_SPG9";
-                    };
-                    class Unit2 {
-                        position[] = {-5,-5,0};
-                        rank = "PRIVATE";
-                        side = 2;
-                        vehicle = "CFP_I_is_UAZ_METIS";
+                        vehicle = "CFP_I_IS_Hilux_BTR60_Armored_01";
                     };
                 };
 
@@ -1262,6 +1256,36 @@ class CfgGroups {
 
             class Artillery {
                 name = "Artillery";
+
+                class cfp_i_is_artillery_motorized_mlrs_hilux_battery {
+                    name = "Motorized MLRS Hilux Battery";
+                    side = 2;
+                    faction = "CFP_I_IS";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_art.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 2;
+                        vehicle = "CFP_I_IS_Hilux_MLRS_01";
+                    };
+                };
+
+                class cfp_i_is_artillery_motorized_mortar_hilux_battery {
+                    name = "Motorized Mortar Hilux Battery";
+                    side = 2;
+                    faction = "CFP_I_IS";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_art.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 2;
+                        vehicle = "CFP_I_IS_Hilux_Podnos_01";
+                    };
+                };
 
             };
 
