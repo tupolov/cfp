@@ -343,7 +343,7 @@ class CfgVehicleClasses
 		scope = 2;
 		author = "CFP";
 		displayName  = "SSh-68 Cover (North Korean Camo)";
-		picture = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\data\ui\icon_h_6b27_light_ca.paa"; //TODO
+		picture = "\x\cfp\addons\headgear\data\ui\icon_SP_SSh68CoverHelmet_Green1.paa";
 		model = "\CUP\Creatures\People\Military\CUP_Creatures_People_Military_Russia\CUP_H_SSH68_cover.p3d";
 		hiddenSelections[] = {"camo"};
 		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\SSh68CoverHelmet\DRK2.paa"};
