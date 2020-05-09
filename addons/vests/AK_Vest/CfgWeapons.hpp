@@ -166,6 +166,14 @@ class CFP_AK_VEST_M81: CFP_AK_VEST
 	hiddenSelectionsTextures[] = {"x\cfp\addons\vests\AK_Vest\data\tak_soldier_equip_m81.paa"};
 };
 
+class CFP_M23_VEST_M81: CFP_M23_VEST_VSR98
+{
+    picture = "\x\cfp\addons\vests\data\ui\icon_CFP_AK_VEST_Olive.paa";
+
+	displayName = "M23 Pioneer (Woodland)";
+	hiddenSelectionsTextures[] = {"x\cfp\addons\vests\AK_Vest\data\tak_soldier_equip_m81.paa"};
+};
+
 class CFP_AK_VEST_Marpat: CFP_AK_VEST
 {
     picture = "\x\cfp\addons\vests\data\ui\icon_CFP_AK_VEST_Lime.paa";
