@@ -18,7 +18,7 @@ class CfgGroups {
                     side = 1;
                     faction = "CFP_B_IQARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
-                    rarityGroup = 0.3;
+                    rarityGroup = 0.2;
 
                     class Unit0 {
                         position[] = {0,0,0};
@@ -39,7 +39,7 @@ class CfgGroups {
                     side = 1;
                     faction = "CFP_B_IQARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
-                    rarityGroup = 0.3;
+                    rarityGroup = 0.5;
 
                     class Unit0 {
                         position[] = {0,0,0};
@@ -108,7 +108,7 @@ class CfgGroups {
                     side = 1;
                     faction = "CFP_B_IQARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
-                    rarityGroup = 0.3;
+                    rarityGroup = 0.4;
 
                     class Unit0 {
                         position[] = {0,0,0};
@@ -305,7 +305,7 @@ class CfgGroups {
                     side = 1;
                     faction = "CFP_B_IQARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
-                    rarityGroup = 0.3;
+                    rarityGroup = 0.5;
 
                     class Unit0 {
                         position[] = {0,0,0};
@@ -344,7 +344,7 @@ class CfgGroups {
                     side = 1;
                     faction = "CFP_B_IQARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
-                    rarityGroup = 0.5;
+                    rarityGroup = 0.7;
 
                     class Unit0 {
                         position[] = {0,0,0};
@@ -377,7 +377,7 @@ class CfgGroups {
                     side = 1;
                     faction = "CFP_B_IQARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_recon.paa";
-                    rarityGroup = 0.5;
+                    rarityGroup = 0.7;
 
                     class Unit0 {
                         position[] = {0,0,0};
@@ -643,7 +643,7 @@ class CfgGroups {
                     side = 1;
                     faction = "cfp_b_iqarmy";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
-                    rarityGroup = 0.3;
+                    rarityGroup = 0.5;
 
                     class Unit0 {
                         position[] = {0,0,0};
@@ -736,7 +736,7 @@ class CfgGroups {
                     side = 1;
                     faction = "cfp_b_iqarmy";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
-                    rarityGroup = 0.3;
+                    rarityGroup = 0.5;
 
                     class Unit0 {
                         position[] = {0,0,0};
@@ -874,7 +874,7 @@ class CfgGroups {
                     side = 1;
                     faction = "CFP_B_IQARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
-                    rarityGroup = 0.5;
+                    rarityGroup = 0.3;
 
                     class Unit0 {
                         position[] = {0,0,0};
@@ -976,7 +976,7 @@ class CfgGroups {
                     side = 1;
                     faction = "cfp_b_iqarmy";
                     icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
-                    rarityGroup = 0.3;
+                    rarityGroup = 0.5;
 
                     class Unit0 {
                         position[] = {0,0,0};
@@ -1129,7 +1129,7 @@ class CfgGroups {
                     side = 1;
                     faction = "cfp_b_iqarmy";
                     icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
-                    rarityGroup = 0.3;
+                    rarityGroup = 0.7;
 
                     class Unit0 {
                         position[] = {0,0,0};
@@ -1407,7 +1407,7 @@ class CfgGroups {
                     side = 1;
                     faction = "cfp_b_iqarmy";
                     icon = "\A3\ui_f\data\map\markers\nato\b_armor.paa";
-                    rarityGroup = 0.3;
+                    rarityGroup = 0.5;
 
                     class Unit0 {
                         position[] = {0,0,0};
@@ -1443,7 +1443,7 @@ class CfgGroups {
                     side = 1;
                     faction = "cfp_b_iqarmy";
                     icon = "\A3\ui_f\data\map\markers\nato\b_armor.paa";
-                    rarityGroup = 0.3;
+                    rarityGroup = 0.5;
 
                     class Unit0 {
                         position[] = {0,0,0};

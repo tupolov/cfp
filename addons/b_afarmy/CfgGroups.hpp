@@ -87,7 +87,7 @@ class CfgGroups {
                     side = 1;
                     faction = "CFP_B_AFARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
-                    rarityGroup = 0.5;
+                    rarityGroup = 0.4;
 
                     class Unit0 {
                         position[] = {0,0,0};
@@ -120,7 +120,7 @@ class CfgGroups {
                     side = 1;
                     faction = "CFP_B_AFARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
-                    rarityGroup = 0.5;
+                    rarityGroup = 0.2;
 
                     class Unit0 {
                         position[] = {0,0,0};
@@ -133,27 +133,6 @@ class CfgGroups {
                         rank = "PRIVATE";
                         side = 1;
                         vehicle = "CFP_B_AFARMY_Rifleman_01";
-                    };
-                };
-
-                class cfp_b_afarmy_infantry_sniper_team {
-                    name = "Sniper Team";
-                    side = 1;
-                    faction = "CFP_B_AFARMY";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
-                    rarityGroup = 0.5;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "SERGEANT";
-                        side = 1;
-                        vehicle = "CFP_B_AFARMY_Sniper_01";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "CFP_B_AFARMY_Sniper_01";
                     };
                 };
 
@@ -231,7 +210,7 @@ class CfgGroups {
                     side = 1;
                     faction = "CFP_B_AFARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
-                    rarityGroup = 0.5;
+                    rarityGroup = 0.4;
 
                     class Unit0 {
                         position[] = {0,0,0};
@@ -354,6 +333,27 @@ class CfgGroups {
                         rank = "PRIVATE";
                         side = 1;
                         vehicle = "CFP_B_AFARMY_Operator_01";
+                    };
+                };
+
+                class cfp_b_afarmy_infantry_sniper_team {
+                    name = "Sniper Team";
+                    side = 1;
+                    faction = "CFP_B_AFARMY";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    rarityGroup = 0.2;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CFP_B_AFARMY_Sniper_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_AFARMY_Sniper_01";
                     };
                 };
 
@@ -485,19 +485,25 @@ class CfgGroups {
                     side = 1;
                     faction = "CFP_B_AFARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_support.paa";
-                    rarityGroup = 0.5;
+                    rarityGroup = 0.2;
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_AFARMY_Asst_Gunner_DShKM_01";
+                        vehicle = "CFP_B_AFARMY_Squad_Leader_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
                         vehicle = "CFP_B_AFARMY_Gunner_DShKM_High_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_AFARMY_Asst_Gunner_DShKM_01";
                     };
                 };
 
@@ -506,19 +512,25 @@ class CfgGroups {
                     side = 1;
                     faction = "CFP_B_AFARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_support.paa";
-                    rarityGroup = 0.5;
+                    rarityGroup = 0.2;
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_AFARMY_Asst_Gunner_DShKM_01";
+                        vehicle = "CFP_B_AFARMY_Squad_Leader_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
                         vehicle = "CFP_B_AFARMY_Gunner_DShKM_Low_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_AFARMY_Asst_Gunner_DShKM_01";
                     };
                 };
 
@@ -527,19 +539,25 @@ class CfgGroups {
                     side = 1;
                     faction = "CFP_B_AFARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_support.paa";
-                    rarityGroup = 0.5;
+                    rarityGroup = 0.2;
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_AFARMY_Asst_Gunner_Mortar_01";
+                        vehicle = "CFP_B_AFARMY_Squad_Leader_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
                         vehicle = "CFP_B_AFARMY_Gunner_Mortar_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_AFARMY_Asst_Gunner_Mortar_01";
                     };
                 };
 
@@ -548,19 +566,25 @@ class CfgGroups {
                     side = 1;
                     faction = "CFP_B_AFARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_support.paa";
-                    rarityGroup = 0.5;
+                    rarityGroup = 0.2;
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_AFARMY_Asst_Gunner_SPG_01";
+                        vehicle = "CFP_B_AFARMY_Squad_Leader_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
                         vehicle = "CFP_B_AFARMY_Gunner_SPG_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_AFARMY_Asst_Gunner_SPG_01";
                     };
                 };
 

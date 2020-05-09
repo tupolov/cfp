@@ -385,8 +385,8 @@ class CfgVehicles {
 
         uniformClass = "CFP_BDU_UPDFM812";
 
-        linkedItems[] = {"CFP_AK_VEST_M81","CFP_PatrolCap_M81","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"CFP_AK_VEST_M81","CFP_PatrolCap_M81","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"CFP_M23_VEST_M81","CFP_PatrolCap_M81","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CFP_M23_VEST_M81","CFP_PatrolCap_M81","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
         weapons[] = {"CUP_lmg_PKM"};
         respawnWeapons[] = {"CUP_lmg_PKM"};
@@ -396,7 +396,7 @@ class CfgVehicles {
 
         backpack = "CFP_Kitbag_M81";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_PKM","","","",{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",100},{},""},{},{},{"CFP_BDU_UPDFM812",{}},{"CFP_AK_VEST_M81",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",1,100}}},{"CFP_Kitbag_M81",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",3,100}}},"CFP_PatrolCap_M81","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_PKM","","","",{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",100},{},""},{},{},{"CFP_BDU_UPDFM812",{}},{"CFP_M23_VEST_M81",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",1,100}}},{"CFP_Kitbag_M81",{{"CUP_100Rnd_TE4_LRT4_762x54_PK_Tracer_Green_M",3,100}}},"CFP_PatrolCap_M81","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -471,8 +471,8 @@ class CfgVehicles {
 
         uniformClass = "CFP_BDU_UPDFM812";
 
-        linkedItems[] = {"CFP_AK_VEST_M81","CFP_PatrolCap_M81","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"CFP_AK_VEST_M81","CFP_PatrolCap_M81","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"CFP_M23_VEST_M81","CFP_PatrolCap_M81","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CFP_M23_VEST_M81","CFP_PatrolCap_M81","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
         weapons[] = {"CUP_arifle_AK74_GL","Binocular"};
         respawnWeapons[] = {"CUP_arifle_AK74_GL","Binocular"};
@@ -480,7 +480,7 @@ class CfgVehicles {
         magazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_1Rnd_HE_GP25_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M"};
         respawnMagazines[] = {"CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_30Rnd_545x39_AK_M","CUP_1Rnd_HE_GP25_M"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74_GL","","","",{"CUP_30Rnd_545x39_AK_M",30},{"CUP_1Rnd_HE_GP25_M",1},""},{},{},{"CFP_BDU_UPDFM812",{{"CUP_30Rnd_545x39_AK_M",3,30}}},{"CFP_AK_VEST_M81",{{"CUP_30Rnd_545x39_AK_M",3,30},{"CUP_1Rnd_HE_GP25_M",3,1},{"CUP_1Rnd_SMOKE_GP25_M",4,1}}},{},"CFP_PatrolCap_M81","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74_GL","","","",{"CUP_30Rnd_545x39_AK_M",30},{"CUP_1Rnd_HE_GP25_M",1},""},{},{},{"CFP_BDU_UPDFM812",{{"CUP_30Rnd_545x39_AK_M",3,30}}},{"CFP_M23_VEST_M81",{{"CUP_30Rnd_545x39_AK_M",3,30},{"CUP_1Rnd_HE_GP25_M",3,1},{"CUP_1Rnd_SMOKE_GP25_M",4,1}}},{},"CFP_PatrolCap_M81","",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -512,8 +512,8 @@ class CfgVehicles {
 
         uniformClass = "CFP_BDU_UPDFM812";
 
-        linkedItems[] = {"CFP_AK_VEST_M81","CFP_PatrolCap_M81","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
-        respawnlinkedItems[] = {"CFP_AK_VEST_M81","CFP_PatrolCap_M81","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        linkedItems[] = {"CFP_M23_VEST_M81","CFP_PatrolCap_M81","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CFP_M23_VEST_M81","CFP_PatrolCap_M81","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
 
         weapons[] = {"CUP_arifle_AK74_GL"};
         respawnWeapons[] = {"CUP_arifle_AK74_GL"};
@@ -523,7 +523,7 @@ class CfgVehicles {
 
         backpack = "CFP_AssaultPack_M81";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74_GL","","","",{"CUP_30Rnd_545x39_AK_M",30},{"CUP_1Rnd_HE_GP25_M",1},""},{},{},{"CFP_BDU_UPDFM812",{{"CUP_30Rnd_545x39_AK_M",3,30}}},{"CFP_AK_VEST_M81",{{"CUP_30Rnd_545x39_AK_M",3,30},{"CUP_1Rnd_HE_GP25_M",2,1},{"CUP_1Rnd_SMOKE_GP25_M",4,1}}},{"CFP_AssaultPack_M81",{{"CUP_1Rnd_HE_GP25_M",6,1}}},"CFP_PatrolCap_M81","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74_GL","","","",{"CUP_30Rnd_545x39_AK_M",30},{"CUP_1Rnd_HE_GP25_M",1},""},{},{},{"CFP_BDU_UPDFM812",{{"CUP_30Rnd_545x39_AK_M",3,30}}},{"CFP_M23_VEST_M81",{{"CUP_30Rnd_545x39_AK_M",3,30},{"CUP_1Rnd_HE_GP25_M",2,1},{"CUP_1Rnd_SMOKE_GP25_M",4,1}}},{"CFP_AssaultPack_M81",{{"CUP_1Rnd_HE_GP25_M",6,1}}},"CFP_PatrolCap_M81","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
 
         class EventHandlers : EventHandlers {
@@ -721,6 +721,8 @@ class CfgVehicles {
         "CUP_V_B_Interceptor_Rifleman_M81", 0.25,
         "CUP_V_B_Interceptor_Rifleman_Coyote", 0.25,
         "CUP_V_B_Interceptor_Rifleman_Olive", 0.25,
+        "CFP_M23_VEST_M81", 0.25,
+        "CFP_M23_VEST_LIME", 0.2,
         "CUP_V_B_PASGT_OD", 0.25
             };
 
@@ -931,6 +933,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\Mi24\mi24_uganda1.paa",
             "\x\cfp\addons\vehicles\Mi24\mi24_uganda2.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_M81)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_UGARMY_Helicopter_Pilot_01"; };
@@ -975,6 +981,10 @@ class CfgVehicles {
         crew = "CFP_B_UGARMY_Helicopter_Pilot_01";
         typicalCargo[] = {"CFP_B_UGARMY_Helicopter_Pilot_01","CFP_B_UGARMY_Helicopter_Pilot_01"};
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Mi8\mi17_uganda.paa","\x\cfp\addons\vehicles\Mi8\mi17_det_uganda.paa"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_M81)
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
             class BackTurret : BackTurret { gunnerType = ""; };
@@ -996,6 +1006,10 @@ class CfgVehicles {
         crew = "CFP_B_UGARMY_Helicopter_Pilot_01";
         typicalCargo[] = {"CFP_B_UGARMY_Helicopter_Pilot_01","CFP_B_UGARMY_Helicopter_Pilot_01"};
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Mi8\mi17_uganda.paa","\x\cfp\addons\vehicles\Mi8\mi17_det_uganda.paa"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_M81)
     };
 
     class CUP_O_T55_CSAT;
@@ -1011,6 +1025,10 @@ class CfgVehicles {
         crew = "CFP_B_UGARMY_Crew_01";
         typicalCargo[] = {"CFP_B_UGARMY_Crew_01","CFP_B_UGARMY_Crew_01","CFP_B_UGARMY_Crew_01"};
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\T55\t55_body_nkorea.paa","\x\cfp\addons\vehicles\T55\t55_tower_nkorea.paa"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_M81)
         editorPreview = \x\cfp\addons\b_ugarmy\data\preview\CFP_B_UGARMY_T55_01.JPG;
     };
 
@@ -1027,6 +1045,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\BMP2\NKoreaBMP2body1.paa",
             "\x\cfp\addons\vehicles\BMP2\NKoreaBMP2body2.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_M81)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_UGArmy_Crew_01"; };
@@ -1062,6 +1084,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_UGARMY";
         crew = "CFP_B_UGARMY_Crew_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_M81)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_UGARMY_Crew_01"; };
@@ -1101,6 +1127,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_UGARMY";
         crew = "CFP_B_UGARMY_Crew_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_M81)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_UGARMY_Crew_01"; };
@@ -1144,6 +1174,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\BRDM\brdm2_01_nk.paa",
             "\CUP\WheeledVehicles\CUP_WheeledVehicles_BRDM2\data\brdm2_02_co.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_M81)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_UGArmy_Crew_01"; };
@@ -1174,6 +1208,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_UGARMY";
         crew = "CFP_B_UGARMY_Rifleman_Light_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_M81)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -1205,6 +1243,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_UGARMY";
         crew = "CFP_B_UGARMY_Rifleman_Light_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_M81)
 
 
         class EventHandlers : EventHandlers {
@@ -1230,6 +1272,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_UGARMY";
         crew = "CFP_B_UGARMY_Rifleman_Light_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_M81)
 
 
         class EventHandlers : EventHandlers {
@@ -1255,6 +1301,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_UGARMY";
         crew = "CFP_B_UGARMY_Rifleman_Light_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_M81)
 
 
         class EventHandlers : EventHandlers {
@@ -1280,6 +1330,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_UGARMY";
         crew = "CFP_B_UGARMY_Rifleman_Light_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_M81)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -1311,6 +1365,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_UGARMY";
         crew = "CFP_B_UGARMY_Rifleman_Light_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_M81)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_UGARMY_Rifleman_Light_01"; };
@@ -1341,6 +1399,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_UGARMY";
         crew = "CFP_B_UGARMY_Rifleman_Light_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_M81)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_UGARMY_Rifleman_Light_01"; };
@@ -1371,16 +1433,21 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_UGARMY";
         crew = "CFP_B_UGARMY_Rifleman_01";
-        hiddenSelectionsTextures[] =                 {
-                    "\x\cfp\addons\vehicles\RG31\exa_rg31_body_od_olive_co.paa",
-                    "\x\cfp\addons\vehicles\RG31\exa_rg31_body2_od_olive_ca.paa",
-                    "\x\cfp\addons\vehicles\RG31\exa_rg31_interior2_od_olive_co.paa",
-                    "\x\cfp\addons\vehicles\RG31\id\afr_union.paa",
-                    "\CUP\WheeledVehicles\CUP_WheeledVehicles_RG31\data\id\id_a_ca.paa",
-                    "\CUP\WheeledVehicles\CUP_WheeledVehicles_RG31\data\id\id_1_ca.paa",
-                    "",
-                    ""
-                };
+        hiddenSelectionsTextures[] =
+        {
+            "\x\cfp\addons\vehicles\RG31\exa_rg31_body_od_olive_co.paa",
+            "\x\cfp\addons\vehicles\RG31\exa_rg31_body2_od_olive_ca.paa",
+            "\x\cfp\addons\vehicles\RG31\exa_rg31_interior2_od_olive_co.paa",
+            "\x\cfp\addons\vehicles\RG31\id\afr_union.paa",
+            "\CUP\WheeledVehicles\CUP_WheeledVehicles_RG31\data\id\id_a_ca.paa",
+            "\CUP\WheeledVehicles\CUP_WheeledVehicles_RG31\data\id\id_1_ca.paa",
+            "",
+            ""
+        };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_M81)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_UGARMY_Rifleman_01"; };
@@ -1411,6 +1478,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_UGARMY";
         crew = "CFP_B_UGARMY_Rifleman_Light_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_M81)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -1445,6 +1516,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_UGARMY";
         crew = "CFP_B_UGARMY_Rifleman_Light_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_M81)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = "CFP_B_UGARMY_Rifleman_Light_01"; };
@@ -1476,6 +1551,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_UGARMY";
         crew = "CFP_B_UGARMY_Rifleman_Light_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_M81)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = "CFP_B_UGARMY_Rifleman_Light_01"; };
@@ -1507,6 +1586,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_UGARMY";
         crew = "CFP_B_UGARMY_Rifleman_Light_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_M81)
 
 
         class EventHandlers : EventHandlers {
@@ -1537,6 +1620,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\T90\lgreenbody2.paa",
             "\x\cfp\addons\vehicles\T90\lgreenbody3.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_M81)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_UGArmy_Crew_01"; };
@@ -1967,6 +2054,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\BTR90\lgreenbody1.paa",
             "\x\cfp\addons\vehicles\BTR90\lgreenbody2.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_M81)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_UGArmy_Crew_01"; };
@@ -2009,6 +2100,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\BTR60\nkoreabody1.paa",
             "\x\cfp\addons\vehicles\BTR60\nkoreabody2.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_M81)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_UGArmy_Crew_01"; };

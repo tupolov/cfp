@@ -120,7 +120,7 @@ class CfgGroups {
                     side = 1;
                     faction = "CFP_B_NAARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
-                    rarityGroup = 0.5;
+                    rarityGroup = 0.2;
 
                     class Unit0 {
                         position[] = {0,0,0};
@@ -236,7 +236,7 @@ class CfgGroups {
                     side = 1;
                     faction = "CFP_B_NAARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_support.paa";
-                    rarityGroup = 0.5;
+                    rarityGroup = 0.3;
 
                     class Unit0 {
                         position[] = {0,0,0};
@@ -257,7 +257,7 @@ class CfgGroups {
                     side = 1;
                     faction = "CFP_B_NAARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_support.paa";
-                    rarityGroup = 0.5;
+                    rarityGroup = 0.2;
 
                     class Unit0 {
                         position[] = {0,0,0};
@@ -278,7 +278,7 @@ class CfgGroups {
                     side = 1;
                     faction = "CFP_B_NAARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_support.paa";
-                    rarityGroup = 0.5;
+                    rarityGroup = 0.3;
 
                     class Unit0 {
                         position[] = {0,0,0};
@@ -299,7 +299,7 @@ class CfgGroups {
                     side = 1;
                     faction = "CFP_B_NAARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_support.paa";
-                    rarityGroup = 0.5;
+                    rarityGroup = 0.2;
 
                     class Unit0 {
                         position[] = {0,0,0};
@@ -320,7 +320,7 @@ class CfgGroups {
                     side = 1;
                     faction = "CFP_B_NAARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_support.paa";
-                    rarityGroup = 0.5;
+                    rarityGroup = 0.2;
 
                     class Unit0 {
                         position[] = {0,0,0};
@@ -341,7 +341,7 @@ class CfgGroups {
                     side = 1;
                     faction = "CFP_B_NAARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_support.paa";
-                    rarityGroup = 0.5;
+                    rarityGroup = 0.2;
 
                     class Unit0 {
                         position[] = {0,0,0};
@@ -362,7 +362,7 @@ class CfgGroups {
                     side = 1;
                     faction = "CFP_B_NAARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_support.paa";
-                    rarityGroup = 0.5;
+                    rarityGroup = 0.2;
 
                     class Unit0 {
                         position[] = {0,0,0};
@@ -863,6 +863,75 @@ class CfgGroups {
                     };
                 };
 
+                class cfp_b_naarmy_mechanized_squad_mtlb {
+                    name = "Mechanized Squad [MTLB]";
+                    side = 1;
+                    faction = "CFP_B_NAARMY";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_NAARMY_MTLB_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "CFP_B_NAARMY_Squad_Leader_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_NAARMY_Machine_Gunner_PKM_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_NAARMY_Rifleman_AT_AK47_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_NAARMY_Grenadier_AKM_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_NAARMY_Medic_01";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_NAARMY_Explosive_Specialist_01";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_NAARMY_Rifleman_AKM_01";
+                    };
+                    class Unit8 {
+                        position[] = {-20,-20,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_NAARMY_Rifleman_AKM_01";
+                    };
+                    class Unit9 {
+                        position[] = {25,-25,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_NAARMY_Rifleman_AK47_01";
+                    };
+                };
+
                 class cfp_b_naarmy_mechanized_squad_bmp {
                     name = "Mechanized Squad [BMP]";
                     side = 1;
@@ -943,8 +1012,8 @@ class CfgGroups {
             class Armored {
                 name = "Armored";
 
-                class cfp_b_naarmy_armored_tank_platoon {
-                    name = "Tank Platoon";
+                class cfp_b_naarmy_armored_t55_section {
+                    name = "T55 Section";
                     side = 1;
                     faction = "CFP_B_NAARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_armor.paa";
@@ -954,30 +1023,18 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_NAARMY_T72_01";
+                        vehicle = "CFP_B_NAARMY_T55_01";
                     };
                     class Unit1 {
                         position[] = {9,-15,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "CFP_B_NAARMY_T72_01";
-                    };
-                    class Unit2 {
-                        position[] = {-9,-15,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "CFP_B_NAARMY_T55_01";
-                    };
-                    class Unit3 {
-                        position[] = {18,-25,0};
                         rank = "PRIVATE";
                         side = 1;
                         vehicle = "CFP_B_NAARMY_T55_01";
                     };
                 };
 
-                class cfp_b_naarmy_armored_tank_section {
-                    name = "Tank Section";
+                class cfp_b_naarmy_armored_t72_section {
+                    name = "T72 Section";
                     side = 1;
                     faction = "CFP_B_NAARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_armor.paa";
@@ -993,7 +1050,7 @@ class CfgGroups {
                         position[] = {9,-16,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_NAARMY_T55_01";
+                        vehicle = "CFP_B_NAARMY_T72_01";
                     };
                 };
 

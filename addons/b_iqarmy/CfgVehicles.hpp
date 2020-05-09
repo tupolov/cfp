@@ -961,6 +961,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_b_iqarmy_rifleman";
         typicalCargo[] = {"cfp_b_iqarmy_rifleman","cfp_b_iqarmy_rifleman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -981,6 +985,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_b_iqarmy_rifleman";
         typicalCargo[] = {"cfp_b_iqarmy_rifleman","cfp_b_iqarmy_rifleman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
     };
     class CUP_B_HMMWV_M2_GPK_ACR;
     class CUP_B_HMMWV_M2_GPK_ACR_OCimport_01 : CUP_B_HMMWV_M2_GPK_ACR { scope = 0; class EventHandlers; class Turrets; };
@@ -994,6 +1002,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_b_iqarmy_rifleman";
         typicalCargo[] = {"cfp_b_iqarmy_rifleman","cfp_b_iqarmy_rifleman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
     };
 
     class CUP_M1151_M2_BASE;
@@ -1017,6 +1029,10 @@ class CfgVehicles {
             "\CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_m1167turret_wl_co.paa",
             "\CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\fbcb2_co.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
     };
 
     class CUP_M1151_Mk19_BASE;
@@ -1040,6 +1056,10 @@ class CfgVehicles {
             "\CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\hmmwv_m1167turret_wl_co.paa",
             "\CUP\WheeledVehicles\CUP_WheeledVehicles_UpHMMWV\data\fbcb2_co.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
     };
 
     class CUP_B_M113_desert_USA;
@@ -1050,6 +1070,10 @@ class CfgVehicles {
         displayName = "M113";
         faction = "CFP_B_IQARMY";
         crew = "cfp_b_iqarmy_rifleman";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
     };
 
     class CUP_O_Ural_Refuel_SLA;
@@ -1065,6 +1089,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_IQARMY";
         crew = "cfp_b_iqarmy_rifleman";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
 
 
         class EventHandlers : EventHandlers {
@@ -1094,6 +1122,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_IQARMY";
         crew = "cfp_b_iqarmy_rifleman";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
 
 
         class EventHandlers : EventHandlers {
@@ -1122,6 +1154,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_IQARMY";
         crew = "cfp_b_iqarmy_rifleman";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
 
 
         class EventHandlers : EventHandlers {
@@ -1151,6 +1187,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_b_iqarmy_rifleman";
         typicalCargo[] = {"cfp_b_iqarmy_rifleman","cfp_b_iqarmy_rifleman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -1171,6 +1211,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_b_iqarmy_rifleman";
         typicalCargo[] = {"cfp_b_iqarmy_rifleman","cfp_b_iqarmy_rifleman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -1191,6 +1235,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_b_iqarmy_rifleman";
         typicalCargo[] = {"cfp_b_iqarmy_rifleman","cfp_b_iqarmy_rifleman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
     };
     class CUP_B_Mastiff_HMG_GB_D;
     class CUP_B_Mastiff_HMG_GB_D_OCimport_01 : CUP_B_Mastiff_HMG_GB_D { scope = 0; class EventHandlers; class Turrets; };
@@ -1204,6 +1252,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_b_iqarmy_rifleman";
         typicalCargo[] = {"cfp_b_iqarmy_rifleman","cfp_b_iqarmy_rifleman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
     };
     class CUP_B_Mastiff_LMG_GB_D;
     class CUP_B_Mastiff_LMG_GB_D_OCimport_01 : CUP_B_Mastiff_LMG_GB_D { scope = 0; class EventHandlers; class Turrets; };
@@ -1217,6 +1269,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_b_iqarmy_rifleman";
         typicalCargo[] = {"cfp_b_iqarmy_rifleman","cfp_b_iqarmy_rifleman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
     };
     class CUP_B_Ridgback_HMG_GB_D;
     class CUP_B_Ridgback_HMG_GB_D_OCimport_01 : CUP_B_Ridgback_HMG_GB_D { scope = 0; class EventHandlers; class Turrets; };
@@ -1230,6 +1286,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_b_iqarmy_rifleman";
         typicalCargo[] = {"cfp_b_iqarmy_rifleman","cfp_b_iqarmy_rifleman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
     };
     class CUP_B_Ridgback_LMG_GB_D;
     class CUP_B_Ridgback_LMG_GB_D_OCimport_01 : CUP_B_Ridgback_LMG_GB_D { scope = 0; class EventHandlers; class Turrets; };
@@ -1243,6 +1303,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_b_iqarmy_rifleman";
         typicalCargo[] = {"cfp_b_iqarmy_rifleman","cfp_b_iqarmy_rifleman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
     };
     class CUP_B_Wolfhound_HMG_GB_D;
     class CUP_B_Wolfhound_HMG_GB_D_OCimport_01 : CUP_B_Wolfhound_HMG_GB_D { scope = 0; class EventHandlers; class Turrets; };
@@ -1256,6 +1320,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_b_iqarmy_rifleman";
         typicalCargo[] = {"cfp_b_iqarmy_rifleman","cfp_b_iqarmy_rifleman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
     };
     class CUP_B_Wolfhound_LMG_GB_D;
     class CUP_B_Wolfhound_LMG_GB_D_OCimport_01 : CUP_B_Wolfhound_LMG_GB_D { scope = 0; class EventHandlers; class Turrets; };
@@ -1269,6 +1337,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_b_iqarmy_rifleman";
         typicalCargo[] = {"cfp_b_iqarmy_rifleman","cfp_b_iqarmy_rifleman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
     };
     class CUP_O_BTR60_TK;
     class CUP_O_BTR60_TK_OCimport_01 : CUP_O_BTR60_TK { scope = 0; class EventHandlers; class Turrets; };
@@ -1282,6 +1354,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_b_iqarmy_crewman";
         typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -1303,6 +1379,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_b_iqarmy_crewman";
         typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -1324,6 +1404,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_b_iqarmy_crewman";
         typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -1345,6 +1429,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_b_iqarmy_crewman";
         typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -1366,6 +1454,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_b_iqarmy_crewman";
         typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -1387,6 +1479,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_b_iqarmy_crewman";
         typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -1408,6 +1504,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_b_iqarmy_crewman";
         typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -1428,6 +1528,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_b_iqarmy_crewman";
         typicalCargo[] = {"cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman","cfp_b_iqarmy_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -1592,6 +1696,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_b_iqarmy_helicopter_pilot_01";
         typicalCargo[] = {"cfp_b_iqarmy_helicopter_pilot_01","cfp_b_iqarmy_helicopter_pilot_01"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -1613,6 +1721,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_b_iqarmy_helicopter_pilot_01";
         typicalCargo[] = {"cfp_b_iqarmy_helicopter_pilot_01","cfp_b_iqarmy_helicopter_pilot_01"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
         class EventHandlers : EventHandlers
         {
             class ADDON

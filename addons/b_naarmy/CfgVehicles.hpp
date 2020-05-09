@@ -7,6 +7,7 @@
 #define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
 #define item_xx(a,b) class _xx_##a {name = a; count = b;}
 
+#include "\x\cfp\addons\vehicles\inventory_macro\main.hpp"
 
 class CBA_Extended_EventHandlers_base;
 
@@ -246,7 +247,7 @@ class CfgVehicles {
 
     class CFP_B_NAARMY_Squad_Leader_01 : O_Soldier_F_OCimport_02 {
         editorPreview = \x\cfp\addons\b_naarmy\data\preview\CFP_B_NAARMY_Squad_Leader_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Squad Leader";
@@ -303,6 +304,8 @@ class CfgVehicles {
                 "CFP_Modular1_M81", 0.4,
                 "SP_Modular1_Green", 0.4,
                 "SP_Modular1_Tan", 0.4,
+                "CFP_M23_VEST_M81", 0.4,
+                "CFP_M23_VEST_LIME", 0.4,
                 "CFP_Modular1_IDF", 0.4,
                 "CFP_Modular1_DCU", 0.4,
                 "V_I_G_resistanceLeader_F", 0.25,
@@ -439,7 +442,7 @@ class CfgVehicles {
 
     class CFP_B_NAARMY_Sniper_01 : O_Soldier_F_OCimport_02 {
         editorPreview = \x\cfp\addons\b_naarmy\data\preview\CFP_B_NAARMY_Sniper_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Sniper";
@@ -478,7 +481,7 @@ class CfgVehicles {
 
     class CFP_B_NAARMY_Crew_Officer_01 : O_Soldier_F_OCimport_02 {
         editorPreview = \x\cfp\addons\b_naarmy\data\preview\CFP_B_NAARMY_Crew_Officer_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Crew Officer";
@@ -517,7 +520,7 @@ class CfgVehicles {
 
     class CFP_B_NAARMY_Crew_01 : O_Soldier_F_OCimport_02 {
         editorPreview = \x\cfp\addons\b_naarmy\data\preview\CFP_B_NAARMY_Crew_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Crew";
@@ -556,7 +559,7 @@ class CfgVehicles {
 
     class CFP_B_NAARMY_Helicopter_Pilot_01 : O_Soldier_F_OCimport_02 {
         editorPreview = \x\cfp\addons\b_naarmy\data\preview\CFP_B_NAARMY_Helicopter_Pilot_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Helicopter Pilot";
@@ -595,13 +598,17 @@ class CfgVehicles {
 
     class CFP_B_NAARMY_T72_01 : CUP_O_T72_SLA_OCimport_02 {
         editorPreview = \x\cfp\addons\b_naarmy\data\preview\CFP_B_NAARMY_T72_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "T-72";
         side = 1;
         faction = "CFP_B_NAARMY";
         crew = "CFP_B_NAARMY_Crew_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_PolygonWoodland)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_NAARMY_Crew_Officer_01"; };
@@ -642,18 +649,26 @@ class CfgVehicles {
         crew = "CFP_B_NAARMY_Crew_01";
         typicalCargo[] = {"CFP_B_NAARMY_Crew_01","CFP_B_NAARMY_Crew_01","CFP_B_NAARMY_Crew_Officer_01"};
         hiddenSelectionsTextures[] = {"\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_body_sla_co.paa","\CUP\TrackedVehicles\CUP_TrackedVehicles_T55\data\t55_tower_sla_co.paa"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_PolygonWoodland)
         editorPreview = \x\cfp\addons\b_naarmy\data\preview\CFP_B_NAARMY_T55_01.JPG;
     };
 
     class CFP_B_NAARMY_BMP_1_01 : CUP_O_BMP2_SLA_OCimport_02 {
         editorPreview = \x\cfp\addons\b_naarmy\data\preview\CFP_B_NAARMY_BMP_1_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "BMP-2";
         side = 1;
         faction = "CFP_B_NAARMY";
         crew = "CFP_B_NAARMY_Crew_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_PolygonWoodland)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_NAARMY_Crew_Officer_01"; };
@@ -681,9 +696,24 @@ class CfgVehicles {
 
     };
 
+    class CUP_O_MTLB_pk_Green_RU;
+    class CFP_B_NAARMY_MTLB_01 : CUP_O_MTLB_pk_Green_RU {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "MTLB";
+        side = 1;
+        faction = "CFP_B_NAARMY";
+        crew = "CFP_B_NAARMY_Crew_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_PolygonWoodland)
+    };
+
     class CFP_B_NAARMY_BTR_60_01 : CUP_O_BTR60_SLA_OCimport_02 {
         editorPreview = \x\cfp\addons\b_naarmy\data\preview\CFP_B_NAARMY_BTR_60_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "BTR-60";
@@ -694,6 +724,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\BTR60\lgreenbody1.paa",
             "\x\cfp\addons\vehicles\BTR60\lgreenbody2.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_PolygonWoodland)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_NAARMY_Crew_01"; };
@@ -726,7 +760,7 @@ class CfgVehicles {
 
     class CFP_B_NAARMY_Land_Rover_MG_01 : CUP_B_LR_MG_GB_W_OCimport_02 {
         editorPreview = \x\cfp\addons\b_naarmy\data\preview\CFP_B_NAARMY_Land_Rover_MG_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Land Rover MG";
@@ -736,6 +770,10 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {
             "\x\cfp\addons\vehicles\LandRover\lr_base_baf_olive.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_PolygonWoodland)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = "CFP_B_NAARMY_Rifleman_AK47_01"; };
@@ -760,7 +798,7 @@ class CfgVehicles {
 
     class CFP_B_NAARMY_Mi_24D_01 : CUP_O_Mi24_D_Dynamic_SLA_OCimport_02 {
         editorPreview = \x\cfp\addons\b_naarmy\data\preview\CFP_B_NAARMY_Mi_24D_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Mi-24D";
@@ -771,6 +809,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\Mi24\mi24_nigeria.paa",
             "\x\cfp\addons\vehicles\Mi24\mi24_nigeria2.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_PolygonWoodland)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_NAARMY_Helicopter_Pilot_01"; };
@@ -794,7 +836,7 @@ class CfgVehicles {
 
     class CFP_B_NAARMY_Mi_8MTV3_01 : CUP_O_Mi8_SLA_2_OCimport_02 {
         editorPreview = \x\cfp\addons\b_naarmy\data\preview\CFP_B_NAARMY_Mi_8MTV3_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Mi-8MTV3";
@@ -807,6 +849,10 @@ class CfgVehicles {
             "a3\data_f\clear_empty.paa",
             "CUP\AirVehicles\CUP_AirVehicles_Mi8\data\mi8_decals_ca.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_PolygonWoodland)
 
         class Turrets : Turrets {
             class SideTurret : SideTurret { gunnerType = "CFP_B_NAARMY_Helicopter_Pilot_01"; };
@@ -833,13 +879,17 @@ class CfgVehicles {
 
     class CFP_B_NAARMY_Ural_01 : CUP_O_Ural_SLA_OCimport_02 {
         editorPreview = \x\cfp\addons\b_naarmy\data\preview\CFP_B_NAARMY_Ural_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Ural";
         side = 1;
         faction = "CFP_B_NAARMY";
         crew = "CFP_B_NAARMY_Rifleman_AK47_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_PolygonWoodland)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -865,13 +915,17 @@ class CfgVehicles {
 
     class CFP_B_NAARMY_Ural_Refuel_01 : CUP_O_Ural_Refuel_SLA_OCimport_02 {
         editorPreview = \x\cfp\addons\b_naarmy\data\preview\CFP_B_NAARMY_Ural_Refuel_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Ural [Refuel]";
         side = 1;
         faction = "CFP_B_NAARMY";
         crew = "CFP_B_NAARMY_Rifleman_AK47_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_PolygonWoodland)
 
 
         class EventHandlers : EventHandlers {
@@ -890,13 +944,17 @@ class CfgVehicles {
 
     class CFP_B_NAARMY_Ural_Repair_01 : CUP_O_Ural_Repair_SLA_OCimport_02 {
         editorPreview = \x\cfp\addons\b_naarmy\data\preview\CFP_B_NAARMY_Ural_Repair_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Ural [Repair]";
         side = 1;
         faction = "CFP_B_NAARMY";
         crew = "CFP_B_NAARMY_Rifleman_AK47_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_PolygonWoodland)
 
 
         class EventHandlers : EventHandlers {
@@ -916,13 +974,17 @@ class CfgVehicles {
 
     class CFP_B_NAARMY_Ural_Ammo_01 : CUP_O_Ural_Reammo_SLA_OCimport_02 {
         editorPreview = \x\cfp\addons\b_naarmy\data\preview\CFP_B_NAARMY_Ural_Ammo_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Ural [Ammo]";
         side = 1;
         faction = "CFP_B_NAARMY";
         crew = "CFP_B_NAARMY_Rifleman_AK47_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_PolygonWoodland)
 
 
         class EventHandlers : EventHandlers {
@@ -942,13 +1004,17 @@ class CfgVehicles {
 
     class CFP_B_NAARMY_Land_Rover_Ambulance_01 : CUP_B_LR_Ambulance_GB_W_OCimport_02 {
         editorPreview = \x\cfp\addons\b_naarmy\data\preview\CFP_B_NAARMY_Land_Rover_Ambulance_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Land Rover [Ambulance]";
         side = 1;
         faction = "CFP_B_NAARMY";
         crew = "CFP_B_NAARMY_Rifleman_AK47_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_PolygonWoodland)
 
 
         class EventHandlers : EventHandlers {
@@ -968,7 +1034,7 @@ class CfgVehicles {
 
     class CFP_B_NAARMY_Ridgeback_HMG_01 : CUP_B_Ridgback_HMG_GB_W_OCimport_02 {
         editorPreview = \x\cfp\addons\b_naarmy\data\preview\CFP_B_NAARMY_Ridgeback_HMG_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Ridgeback HMG";
@@ -982,6 +1048,10 @@ class CfgVehicles {
         "x\cfp\addons\vehicles\Ridgeback\bar_armourf_grn_co.paa",
         "x\cfp\addons\vehicles\Ridgeback\bar_armourr_grn_co.paa",
         "\x\cfp\addons\vehicles\Ridgeback\tex4_grn_co.paa"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_PolygonWoodland)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_NAARMY_Rifleman_AK47_01"; };
@@ -1008,7 +1078,7 @@ class CfgVehicles {
 
     class CFP_B_NAARMY_Ridgeback_LMG_01 : CUP_B_Ridgback_LMG_GB_W_OCimport_02 {
         editorPreview = \x\cfp\addons\b_naarmy\data\preview\CFP_B_NAARMY_Ridgeback_LMG_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Ridgeback LMG";
@@ -1022,6 +1092,10 @@ class CfgVehicles {
         "x\cfp\addons\vehicles\Ridgeback\bar_armourf_grn_co.paa",
         "x\cfp\addons\vehicles\Ridgeback\bar_armourr_grn_co.paa",
         "\x\cfp\addons\vehicles\Ridgeback\tex4_grn_co.paa"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_PolygonWoodland)
 
         class Turrets : Turrets {
             class Mainturret : Mainturret { gunnerType = "CFP_B_NAARMY_Rifleman_AK47_01"; };
@@ -1048,7 +1122,7 @@ class CfgVehicles {
 
     class CFP_B_NAARMY_Ridgeback_GMG_01 : CUP_B_Ridgback_GMG_GB_W_OCimport_02 {
         editorPreview = \x\cfp\addons\b_naarmy\data\preview\CFP_B_NAARMY_Ridgeback_GMG_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Ridgeback GMG";
@@ -1062,6 +1136,10 @@ class CfgVehicles {
         "x\cfp\addons\vehicles\Ridgeback\bar_armourf_grn_co.paa",
         "x\cfp\addons\vehicles\Ridgeback\bar_armourr_grn_co.paa",
         "\x\cfp\addons\vehicles\Ridgeback\tex4_grn_co.paa"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_PolygonWoodland)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_NAARMY_Rifleman_AK47_01"; };
@@ -1098,6 +1176,10 @@ class CfgVehicles {
         crew = "CFP_B_NAARMY_Rifleman_AKM_01";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"x\cfp\addons\vehicles\Hilux\body_polywood_co.paa"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_PolygonWoodland)
     };
 
     class CFP_B_NAARMY_Hilux_Unarmed_02: CUP_Hilux_unarmed_Base
@@ -1111,6 +1193,10 @@ class CfgVehicles {
         crew = "CFP_B_NAARMY_Rifleman_SF_01";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"x\cfp\addons\vehicles\Hilux\body_polydesert_co.paa"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_PolygonWoodland)
     };
 
     class CUP_Hilux_DSHKM_Base;
@@ -1125,6 +1211,10 @@ class CfgVehicles {
         crew = "CFP_B_NAARMY_Rifleman_AKM_01";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"x\cfp\addons\vehicles\Hilux\body_polywood_co.paa"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_PolygonWoodland)
     };
 
     class CFP_B_NAARMY_Hilux_DSHKM_02: CUP_Hilux_DSHKM_Base
@@ -1138,11 +1228,15 @@ class CfgVehicles {
         crew = "CFP_B_NAARMY_Rifleman_SF_01";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"x\cfp\addons\vehicles\Hilux\body_polydesert_co.paa"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_PolygonWoodland)
     };
 
     class CFP_B_NAARMY_Land_Rover_01 : CUP_B_LR_Transport_CZ_W_OCimport_02 {
         editorPreview = \x\cfp\addons\b_naarmy\data\preview\CFP_B_NAARMY_Land_Rover_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Land Rover";
@@ -1153,6 +1247,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\LandRover\lr_base_baf_olive.paa",
             "cup\wheeledvehicles\cup_wheeledvehicles_lr\data\textures\gb_w_lr_special_co.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_PolygonWoodland)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -1177,7 +1275,7 @@ class CfgVehicles {
 
     class CFP_B_NAARMY_Rifleman_SF_01 : O_recon_F_OCimport_02 {
         editorPreview = \x\cfp\addons\b_naarmy\data\preview\CFP_B_NAARMY_Rifleman_SF_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman [SF]";
@@ -1339,7 +1437,7 @@ class CfgVehicles {
 
     class CFP_B_NAARMY_Rifleman_Light_01 : O_Soldier_F_OCimport_02 {
         editorPreview = \x\cfp\addons\b_naarmy\data\preview\CFP_B_NAARMY_Rifleman_Light_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman [Light]";
@@ -1560,7 +1658,7 @@ class CfgVehicles {
 
     class CFP_B_NAARMY_DShKM_01 : CUP_O_DSHKM_SLA_OCimport_02 {
         editorPreview = \x\cfp\addons\b_naarmy\data\preview\CFP_B_NAARMY_DShKM_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "DShKM";
@@ -1590,7 +1688,7 @@ class CfgVehicles {
 
     class CFP_B_NAARMY_DShKM_Minitripod_01 : CUP_O_DSHKM_MiniTripod_SLA_OCimport_02 {
         editorPreview = \x\cfp\addons\b_naarmy\data\preview\CFP_B_NAARMY_DShKM_Minitripod_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "DShKM Minitripod";
@@ -1620,7 +1718,7 @@ class CfgVehicles {
 
     class CFP_B_NAARMY_AGS_30_01 : CUP_O_AGS_SLA_OCimport_02 {
         editorPreview = \x\cfp\addons\b_naarmy\data\preview\CFP_B_NAARMY_AGS_30_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "AGS-30";
@@ -1650,7 +1748,7 @@ class CfgVehicles {
 
     class CFP_B_NAARMY_SPG_9_01 : CUP_O_SPG9_SLA_OCimport_02 {
         editorPreview = \x\cfp\addons\b_naarmy\data\preview\CFP_B_NAARMY_SPG_9_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "SPG-9";
@@ -1680,7 +1778,7 @@ class CfgVehicles {
 
     class CFP_B_NAARMY_Metis_01 : CUP_O_Metis_RU_OCimport_02 {
         editorPreview = \x\cfp\addons\b_naarmy\data\preview\CFP_B_NAARMY_Metis_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Metis AT-13";
@@ -1710,7 +1808,7 @@ class CfgVehicles {
 
     class CFP_B_NAARMY_Podnos_2B14_01 : CUP_O_2b14_82mm_SLA_OCimport_02 {
         editorPreview = \x\cfp\addons\b_naarmy\data\preview\CFP_B_NAARMY_Podnos_2B14_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Podnos 2B14";
@@ -1740,7 +1838,7 @@ class CfgVehicles {
 
     class CFP_B_NAARMY_D30_AT_01 : CUP_O_D30_AT_SLA_OCimport_02 {
         editorPreview = \x\cfp\addons\b_naarmy\data\preview\CFP_B_NAARMY_D30_AT_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "D-30 AT";
@@ -1770,7 +1868,7 @@ class CfgVehicles {
 
     class CFP_B_NAARMY_ZU_23_01 : CUP_O_ZU23_SLA_OCimport_02 {
         editorPreview = \x\cfp\addons\b_naarmy\data\preview\CFP_B_NAARMY_ZU_23_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "ZU-23";
