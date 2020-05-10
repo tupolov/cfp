@@ -1,323 +1,343 @@
-class CfgGroups
-{
-	class West
-	{
-		class CFP_B_IQPOLICE
-		{
-			name = "Iraqi Police";
-			class Infantry
-			{
-				name = "Infantry";
-				class cfp_b_grp_ip_sentry
-				{
-					name = "Sentry";
-					side = 1;
-					faction = "CFP_B_IQPOLICE";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
-					class Unit0
-					{
-						side = 1;
-						vehicle = "cfp_b_iqpolice_policeman";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 1;
-						vehicle = "cfp_b_iqpolice_policeman";
-						rank = "PRIVATE";
-						position[] = {5,-5,0};
-					};
-				};
-				class cfp_b_grp_ip_police_squad
-				{
-					name = "Police Squad";
-					side = 1;
-					faction = "CFP_B_IQPOLICE";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
-					class Unit0
-					{
-						side = 1;
-						vehicle = "cfp_b_iqpolice_officer";
-						rank = "SERGEANT";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 1;
-						vehicle = "cfp_b_iqpolice_policeman";
-						rank = "CORPORAL";
-						position[] = {5,-5,0};
-					};
-					class Unit2
-					{
-						side = 1;
-						vehicle = "cfp_b_iqpolice_policeman";
-						rank = "PRIVATE";
-						position[] = {-5,-5,0};
-					};
-					class Unit3
-					{
-						side = 1;
-						vehicle = "cfp_b_iqpolice_policeman";
-						rank = "PRIVATE";
-						position[] = {10,-10,0};
-					};
-				};
-				class grp_ip_patrol_squad_b
-				{
-					name = "Patrol Squad";
-					side = 1;
-					faction = "CFP_B_IQPOLICE";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
-					class Unit0
-					{
-						side = 1;
-						vehicle = "cfp_b_iqpolice_officer";
-						rank = "SERGEANT";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 1;
-						vehicle = "cfp_b_iqpolice_policeman";
-						rank = "CORPORAL";
-						position[] = {5,-5,0};
-					};
-					class Unit2
-					{
-						side = 1;
-						vehicle = "cfp_b_iqpolice_policeman";
-						rank = "PRIVATE";
-						position[] = {-5,-5,0};
-					};
-					class Unit3
-					{
-						side = 1;
-						vehicle = "cfp_b_iqpolice_policeman";
-						rank = "PRIVATE";
-						position[] = {10,-10,0};
-					};
-					class Unit4
-					{
-						side = 1;
-						vehicle = "cfp_b_iqpolice_policeman";
-						rank = "PRIVATE";
-						position[] = {-10,-10,0};
-					};
-					class Unit5
-					{
-						side = 1;
-						vehicle = "cfp_b_iqpolice_policeman";
-						rank = "CORPORAL";
-						position[] = {15,-15,0};
-					};
-					class Unit6
-					{
-						side = 1;
-						vehicle = "cfp_b_iqpolice_policeman";
-						rank = "PRIVATE";
-						position[] = {-15,-15,0};
-					};
-					class Unit7
-					{
-						side = 1;
-						vehicle = "cfp_b_iqpolice_policeman";
-						rank = "PRIVATE";
-						position[] = {20,-20,0};
-					};
-				};
-			};
-			class Motorized
-			{
-				name = "Motorized";
-				class cfp_b_grp_ip_offroad
-				{
-					name = "IP Offroad";
-					side = 1;
-					faction = "CFP_B_IQPOLICE";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
-					class Unit0
-					{
-						side = 1;
-						vehicle = "cfp_b_iqpolice_offroad_M2";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-				};
-				class cfp_b_grp_ip_offroad_patrol
-				{
-					name = "IP Offroad Patrol";
-					side = 1;
-					faction = "CFP_B_IQPOLICE";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
-					class Unit0
-					{
-						side = 1;
-						vehicle = "cfp_b_iqpolice_offroad_M2";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 1;
-						vehicle = "cfp_b_iqpolice_offroad_M2";
-						rank = "PRIVATE";
-						position[] = {5,-5,0};
-					};
-				};
-				class cfp_b_grp_ip_offroad_group
-				{
-					name = "IP Offroad Group";
-					side = 1;
-					faction = "CFP_B_IQPOLICE";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
-					class Unit0
-					{
-						side = 1;
-						vehicle = "cfp_b_iqpolice_offroad_M2";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 1;
-						vehicle = "cfp_b_iqpolice_offroad";
-						rank = "PRIVATE";
-						position[] = {5,-5,0};
-					};
-					class Unit2
-					{
-						side = 1;
-						vehicle = "cfp_b_iqpolice_offroad_M2";
-						rank = "PRIVATE";
-						position[] = {-5,-5,0};
-					};
-				};
-				class cfp_b_grp_ip_hmmvw
-				{
-					name = "IP HMMWV";
-					side = 1;
-					faction = "CFP_B_IQPOLICE";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
-					class Unit0
-					{
-						side = 1;
-						vehicle = "cfp_b_iqpolice_HMMWV_M2";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-				};
-				class cfp_b_grp_ip_hmmvw_section
-				{
-					name = "IP HMMWV section";
-					side = 1;
-					faction = "CFP_B_IQPOLICE";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
-					class Unit0
-					{
-						side = 1;
-						vehicle = "cfp_b_iqpolice_HMMWV_M2";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 1;
-						vehicle = "cfp_b_iqpolice_hmmwv_dshkm";
-						rank = "PRIVATE";
-						position[] = {5,-5,0};
-					};
-				};
-				class cfp_b_grp_ip_hmmvw_platoon
-				{
-					name = "IP HMMWV platoon";
-					side = 1;
-					faction = "CFP_B_IQPOLICE";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
-					class Unit0
-					{
-						side = 1;
-						vehicle = "cfp_b_iqpolice_HMMWV_M2";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 1;
-						vehicle = "cfp_b_iqpolice_hmmwv_dshkm";
-						rank = "PRIVATE";
-						position[] = {5,-5,0};
-					};
-					class Unit2
-					{
-						side = 1;
-						vehicle = "cfp_b_iqpolice_HMMWV_M2";
-						rank = "PRIVATE";
-						position[] = {-5,-5,0};
-					};
-				};
-				class cfp_b_grp_ip_mixed_motorized_1
-				{
-					name = "IP Mixed Motorized 1";
-					side = 1;
-					faction = "CFP_B_IQPOLICE";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
-					class Unit0
-					{
-						side = 1;
-						vehicle = "cfp_b_iqpolice_HMMWV_M2";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 1;
-						vehicle = "cfp_b_iqpolice_offroad_M2";
-						rank = "PRIVATE";
-						position[] = {5,-5,0};
-					};
-				};
-				class cfp_b_grp_ip_mixed_motorized_2
-				{
-					name = "IP Mixed Motorized 2";
-					side = 1;
-					faction = "CFP_B_IQPOLICE";
-					rarityGroup = 0.3;
-					icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
-					class Unit0
-					{
-						side = 1;
-						vehicle = "cfp_b_iqpolice_HMMWV_M2";
-						rank = "CORPORAL";
-						position[] = {0,0,0};
-					};
-					class Unit1
-					{
-						side = 1;
-						vehicle = "cfp_b_iqpolice_offroad_M2";
-						rank = "PRIVATE";
-						position[] = {5,-5,0};
-					};
-					class Unit2
-					{
-						side = 1;
-						vehicle = "cfp_b_iqpolice_Ural";
-						rank = "PRIVATE";
-						position[] = {-5,-5,0};
-					};
-				};
-			};
-		};
-	};
+//////////////////////////////////////////////////////////////////////////////////
+// Config Automatically Generated by ALiVE ORBAT Creator
+// Generated with Arma 3 version 198.146373 on Stable branch
+// Generated with ALiVE version 1.3.7.0000000
+//////////////////////////////////////////////////////////////////////////////////
+
+class CfgGroups {
+    class WEST {
+
+        class CFP_B_IQPOLICE {
+            name = "Iraqi Police";
+
+            class Infantry {
+                name = "Infantry";
+
+                class cfp_b_grp_ip_sentry {
+                    name = "Sentry";
+                    side = 1;
+                    faction = "CFP_B_IQPOLICE";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "cfp_b_iqpolice_policeman";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_iqpolice_policeman";
+                    };
+                };
+
+                class cfp_b_grp_ip_police_squad {
+                    name = "Police Squad";
+                    side = 1;
+                    faction = "CFP_B_IQPOLICE";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "cfp_b_iqpolice_officer";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "cfp_b_iqpolice_policeman";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_iqpolice_policeman";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_iqpolice_policeman";
+                    };
+                };
+
+                class grp_ip_patrol_squad_b {
+                    name = "Patrol Squad";
+                    side = 1;
+                    faction = "CFP_B_IQPOLICE";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "cfp_b_iqpolice_officer";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "cfp_b_iqpolice_policeman";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_iqpolice_policeman";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_iqpolice_policeman";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_iqpolice_policeman";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "cfp_b_iqpolice_policeman";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_iqpolice_policeman";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_iqpolice_policeman";
+                    };
+                };
+
+            };
+
+            class SpecOps {
+                name = "Special Forces";
+
+            };
+
+            class Motorized {
+                name = "Motorized";
+
+                class cfp_b_iqpolice_motorized_offroad_patrol_m2 {
+                    name = "Offroad Patrol [M2]";
+                    side = 1;
+                    faction = "CFP_B_IQPOLICE";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "cfp_b_iqpolice_offroad_M2";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "cfp_b_iqpolice_offroad_M2";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_iqpolice_officer";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_iqpolice_policeman";
+                    };
+                };
+
+                class cfp_b_iqpolice_mixed_motorized_group {
+                    name = "Mixed Motorized Group";
+                    side = 1;
+                    faction = "CFP_B_IQPOLICE";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "cfp_b_iqpolice_HMMWV_M2";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "cfp_b_iqpolice_offroad_M2";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_iqpolice_officer";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_iqpolice_officer";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_iqpolice_policeman";
+                    };
+                };
+
+                class cfp_b_iqpolice_motorized_humvee_m2 {
+                    name = "Humvee [M2]";
+                    side = 1;
+                    faction = "CFP_B_IQPOLICE";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "cfp_b_iqpolice_HMMWV_M2";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_iqpolice_officer";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_iqpolice_policeman";
+                    };
+                };
+
+                class cfp_b_iqpolice_motorized_humvee_section_m2 {
+                    name = "Humvee Section [M2]";
+                    side = 1;
+                    faction = "CFP_B_IQPOLICE";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "cfp_b_iqpolice_HMMWV_M2";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 1;
+                        vehicle = "cfp_b_iqpolice_hmmwv_dshkm";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_iqpolice_officer";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_iqpolice_officer";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_iqpolice_policeman";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_iqpolice_policeman";
+                    };
+                };
+
+                class cfp_b_iqpolice_motorized_offroad_patrol {
+                    name = "Offroad Patrol";
+                    side = 1;
+                    faction = "CFP_B_IQPOLICE";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "CORPORAL";
+                        side = 1;
+                        vehicle = "cfp_b_iqpolice_offroad_M2";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "cfp_b_iqpolice_officer";
+                    };
+                };
+
+            };
+
+            class Motorized_MTP {
+                name = "Motorized Infantry (MTP)";
+
+            };
+
+            class Support {
+                name = "Support Infantry";
+
+            };
+
+            class Mechanized {
+                name = "Mechanized Infantry";
+
+            };
+
+            class Armored {
+                name = "Armor";
+
+            };
+
+            class Artillery {
+                name = "Artillery";
+
+            };
+
+            class Naval {
+                name = "Naval";
+
+            };
+
+            class Air {
+                name = "Air";
+
+            };
+
+
+        };
+
+    };
 };
