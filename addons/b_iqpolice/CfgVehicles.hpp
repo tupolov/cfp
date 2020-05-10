@@ -2,6 +2,8 @@
 #define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
 #define item_xx(a,b) class _xx_##a {name = a; count = b;}
 
+#include "\x\cfp\addons\vehicles\inventory_macro\main.hpp"
+
 class CBA_Extended_EventHandlers_base;
 
 class CfgVehicles {
@@ -139,6 +141,10 @@ class CfgVehicles {
         typicalCargo[] = {"cfp_b_iqpolice_policeman","cfp_b_iqpolice_policeman"};
         hiddenSelections[] = {"camo","camo2"};
         hiddenSelectionsTextures[] = {"\x\cfp\addons\b_iqpolice\data\offroad_ip_03.paa","\x\cfp\addons\b_iqpolice\data\offroad_ip_01.paa"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
         class EventHandlers : EventHandlers
         {
             class ADDON {
@@ -161,6 +167,10 @@ class CfgVehicles {
         typicalCargo[] = {"cfp_b_iqpolice_policeman","cfp_b_iqpolice_policeman"};
         hiddenSelections[] = {"camo","camo2"};
         hiddenSelectionsTextures[] = {"\x\cfp\addons\b_iqpolice\data\offroad_ip_05.paa","\x\cfp\addons\b_iqpolice\data\offroad_ip_02.paa"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
         class EventHandlers : EventHandlers
         {
             class ADDON {
@@ -181,6 +191,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_b_iqpolice_policeman";
         typicalCargo[] = {"cfp_b_iqpolice_policeman","cfp_b_iqpolice_policeman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
         class EventHandlers : EventHandlers
         {
             class ADDON {
@@ -201,6 +215,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_b_iqpolice_policeman";
         typicalCargo[] = {"cfp_b_iqpolice_policeman","cfp_b_iqpolice_policeman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
     };
     class CUP_O_Ural_CHDKZ;
     class CUP_O_Ural_CHDKZ_OCimport_01 : CUP_O_Ural_CHDKZ { scope = 0; class Eventhandlers; };
@@ -214,6 +232,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_b_iqpolice_policeman";
         typicalCargo[] = {"cfp_b_iqpolice_policeman","cfp_b_iqpolice_policeman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
         class EventHandlers : EventHandlers
         {
             class ADDON {
