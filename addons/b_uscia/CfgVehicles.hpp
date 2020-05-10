@@ -4,6 +4,8 @@
 #define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
 #define item_xx(a,b) class _xx_##a {name = a; count = b;}
 
+#include "\x\cfp\addons\vehicles\inventory_macro\main.hpp"
+
 class CBA_Extended_EventHandlers_base;
 class CfgEditorSubCategories
 {
@@ -918,6 +920,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USCIA";
         crew = "CFP_B_USCIA_paramilitary_officer_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M4A3_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
 
         class Turrets : Turrets {
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
@@ -949,6 +955,10 @@ class CfgVehicles {
         editorPreview = "\x\cfp\addons\b_uscia\data\preview\CFP_B_USCIA_LSV_02.JPG";
         displayName = "LSV (Special Forces)";
         crew = "CFP_B_USCIA_paramilitary_officer_assault_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M4A3_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -971,6 +981,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USCIA";
         crew = "CFP_B_USCIA_paramilitary_officer_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M4A3_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
 
         class Turrets : Turrets {
             class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
@@ -1008,6 +1022,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USCIA";
         crew = "CFP_B_USCIA_paramilitary_officer_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M4A3_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -1045,6 +1063,10 @@ class CfgVehicles {
     {
         displayName = "Hilux (Covert)";
         crew = "CFP_B_USCIA_paramilitary_officer_covert_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M4A3_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
     };
 
     class CFP_B_USCIA_Hilux_DSHKM_01: CUP_I_Hilux_DSHKM_TK_OCimport_02
@@ -1057,6 +1079,10 @@ class CfgVehicles {
         faction = "CFP_B_USCIA";
         crew = "CFP_B_USCIA_paramilitary_officer_01";
         hiddenSelections[] = {"camo"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M4A3_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -1091,6 +1117,10 @@ class CfgVehicles {
     {
         displayName = "Hilux (Covert DSHKM)";
         crew = "CFP_B_USCIA_paramilitary_officer_covert_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M4A3_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
     };
 
     class CFP_B_USCIA_Datsun_PK_01 : CUP_I_Datsun_4seat_TK_OCimport_02 {
@@ -1102,6 +1132,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USCIA";
         crew = "CFP_B_USCIA_paramilitary_officer_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M4A3_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -1130,6 +1164,10 @@ class CfgVehicles {
         editorPreview = "\x\cfp\addons\b_uscia\data\preview\CFP_B_USCIA_Datsun_PK_02.JPG";
         displayName = "Datsun PK (Covert)";
         crew = "CFP_B_USCIA_paramilitary_officer_covert_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M4A3_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
     };
 
     class CFP_B_USCIA_Offroad_01 : B_G_Offroad_01_armed_F_OCimport_02 {
@@ -1141,6 +1179,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USCIA";
         crew = "CFP_B_USCIA_paramilitary_officer_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M4A3_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
 
         class Turrets : Turrets {
             class M2_Turret : M2_Turret { gunnerType = "CFP_B_USCIA_paramilitary_officer_01"; };
@@ -1170,6 +1212,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USCIA";
         crew = "CFP_B_USCIA_paramilitary_officer_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M4A3_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -1203,6 +1249,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USCIA";
         crew = "CFP_B_USCIA_paramilitary_officer_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M4A3_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -1247,6 +1297,10 @@ class CfgVehicles {
         crew = "CFP_B_USCIA_paramilitary_officer_01";
         typicalCargo[] = {"CFP_B_USCIA_paramilitary_officer_01","CFP_B_USCIA_paramilitary_officer_01"};
         hiddenSelectionsTextures[] = {"\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\textures\mi8_cia1_1_co.paa","\CUP\AirVehicles\CUP_AirVehicles_Mi8\data\textures\mi8_cia1_2_co.paa"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M4A3_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
             class BackTurret : BackTurret { gunnerType = ""; };
@@ -1263,6 +1317,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USCIA";
         crew = "CFP_B_USCIA_paramilitary_officer_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M4A3_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
 
         class Turrets : Turrets {
             class RightDoorGun : RightDoorGun { gunnerType = ""; };
@@ -1298,6 +1356,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USCIA";
         crew = "CFP_B_USCIA_paramilitary_officer_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M4A3_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -1329,6 +1391,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USCIA";
         crew = "CFP_B_USCIA_paramilitary_officer_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M4A3_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_USCIA_paramilitary_officer_01"; };
@@ -1355,6 +1421,10 @@ class CfgVehicles {
         editorPreview = "\x\cfp\addons\b_uscia\data\preview\CFP_B_USCIA_Technical_02.JPG";
         displayName = "Datsun Technical (Covert)";
         crew = "CFP_B_USCIA_paramilitary_officer_covert_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_M4A3_black,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_Kitbag_cbr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_USCIA_paramilitary_officer_covert_01"; };

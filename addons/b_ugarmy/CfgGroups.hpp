@@ -646,7 +646,7 @@ class CfgGroups {
                     side = 1;
                     faction = "CFP_B_UGARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
-                    rarityGroup = 0.5;
+                    rarityGroup = 0.2;
 
                     class Unit0 {
                         position[] = {0,0,0};
