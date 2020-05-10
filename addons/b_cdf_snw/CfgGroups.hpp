@@ -624,7 +624,7 @@ class CfgGroups {
                     side = 1;
                     faction = "CFP_B_CDF_SNW";
                     icon = "\A3\ui_f\data\map\markers\nato\b_support.paa";
-                    rarityGroup = 0.5;
+                    rarityGroup = 0.2;
 
                     class Unit0 {
                         position[] = {0,0,0};
@@ -657,7 +657,7 @@ class CfgGroups {
                     side = 1;
                     faction = "CFP_B_CDF_SNW";
                     icon = "\A3\ui_f\data\map\markers\nato\b_support.paa";
-                    rarityGroup = 0.5;
+                    rarityGroup = 0.2;
 
                     class Unit0 {
                         position[] = {0,0,0};
@@ -690,7 +690,7 @@ class CfgGroups {
                     side = 1;
                     faction = "CFP_B_CDF_SNW";
                     icon = "\A3\ui_f\data\map\markers\nato\b_support.paa";
-                    rarityGroup = 0.5;
+                    rarityGroup = 0.2;
 
                     class Unit0 {
                         position[] = {0,0,0};
@@ -728,7 +728,7 @@ class CfgGroups {
                     side = 1;
                     faction = "CFP_B_CDF_SNW";
                     icon = "\A3\ui_f\data\map\markers\nato\n_motor_inf.paa";
-                    rarityGroup = 0.4;
+                    rarityGroup = 0.5;
 
                     class Unit0 {
                         position[] = {0,5,0};
@@ -830,7 +830,7 @@ class CfgGroups {
                     side = 1;
                     faction = "CFP_B_CDF_SNW";
                     icon = "\A3\ui_f\data\map\markers\nato\n_motor_inf.paa";
-                    rarityGroup = 0.2;
+                    rarityGroup = 0.3;
 
                     class Unit0 {
                         position[] = {0,5,0};
@@ -896,7 +896,7 @@ class CfgGroups {
                     side = 1;
                     faction = "CFP_B_CDF_SNW";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
-                    rarityGroup = 0.5;
+                    rarityGroup = 0.3;
 
                     class Unit0 {
                         position[] = {0,0,0};
@@ -929,7 +929,7 @@ class CfgGroups {
                     side = 1;
                     faction = "CFP_B_CDF_SNW";
                     icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
-                    rarityGroup = 0.5;
+                    rarityGroup = 0.2;
 
                     class Unit0 {
                         position[] = {0,0,0};

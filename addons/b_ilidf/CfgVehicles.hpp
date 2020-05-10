@@ -288,7 +288,7 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_Rifleman_01 : I_soldier_F_OCimport_02 {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_Rifleman_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman";
@@ -593,7 +593,7 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_Crew_01 : I_soldier_F_OCimport_02 {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_Crew_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Crew";
@@ -633,7 +633,7 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_Helicopter_Pilot_01 : I_helipilot_F_OCimport_02 {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_Helicopter_Pilot_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Helicopter Pilot";
@@ -673,7 +673,7 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_Helicopter_Crew_01 : I_helipilot_F_OCimport_02 {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_Helicopter_Crew_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Helicopter Crew";
@@ -713,7 +713,7 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_Pilot_01 : I_pilot_F_OCimport_02 {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_Pilot_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Pilot";
@@ -755,7 +755,7 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_Rifleman_Recon_01 : I_Spotter_F_OCimport_02 {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_Rifleman_Recon_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Rifleman [Recon]";
@@ -1149,7 +1149,7 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_Commando_Team_Leader_01 : I_diver_F_OCimport_02 {
         editorPreview = \x\cfp\addons\b_ilidf\data\preview\CFP_B_ILIDF_Commando_Team_Leader_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Commando [Team Leader]";
@@ -1240,7 +1240,7 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_Commando_Automatic_Rifleman_01 : I_diver_F_OCimport_02 {
         editorPreview = \x\cfp\addons\b_ilidf\data\preview\CFP_B_ILIDF_Commando_Automatic_Rifleman_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Commando [Automatic Rifleman]";
@@ -1327,7 +1327,7 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_Commando_Explosive_Specialist_01 : I_diver_F_OCimport_02 {
         editorPreview = \x\cfp\addons\b_ilidf\data\preview\CFP_B_ILIDF_Commando_Explosive_Specialist_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Commando [Explosive Specialist]";
@@ -1371,7 +1371,7 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_M2_Machine_Gun_01 : CUP_B_M2StaticMG_USMC_OCimport_02 {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_M2_Machine_Gun_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "M2 Machine Gun";
@@ -1401,7 +1401,7 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_M2_Minitripod_01 : CUP_B_M2StaticMG_MiniTripod_USMC_OCimport_02 {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_M2_Minitripod_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "M2 Minitripod";
@@ -1431,7 +1431,7 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_TOW_Tripod_01 : CUP_B_TOW_TriPod_USMC_OCimport_02 {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_TOW_Tripod_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "TOW Tripod";
@@ -1461,7 +1461,7 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_M252_Mortar_01 : CUP_B_M252_USMC_OCimport_02 {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_M252_Mortar_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "M252 Mortar";
@@ -1491,7 +1491,7 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_MDT_David_01 : CUP_B_LR_Transport_CZ_W_OCimport_02 {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_MDT_David_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "MDT David";
@@ -1502,6 +1502,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\LandRover\lr_base_idf.paa",
             "\x\cfp\addons\vehicles\LandRover\lr_acr_spec_idf.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_X95_Grippod,CUP_launch_M136)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_X95,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_IDF_Backpack)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -1526,7 +1530,7 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_HMMWV_Unarmed_01 : CUP_B_HMMWV_Unarmed_USA_OCimport_02 {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_HMMWV_Unarmed_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "HMMWV [Unarmed]";
@@ -1534,6 +1538,10 @@ class CfgVehicles {
         faction = "CFP_B_ILIDF";
         crew = "CFP_B_ILIDF_Rifleman_01";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\HMMWV\hmmwv_body_idf.paa"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_X95_Grippod,CUP_launch_M136)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_X95,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_IDF_Backpack)
 
 
         class EventHandlers : EventHandlers {
@@ -1552,7 +1560,7 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_HMMWV_M2_01 : CUP_B_HMMWV_M2_USA_OCimport_02 {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_HMMWV_M2_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "HMMWV [M2]";
@@ -1560,6 +1568,10 @@ class CfgVehicles {
         faction = "CFP_B_ILIDF";
         crew = "CFP_B_ILIDF_Rifleman_01";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\HMMWV\hmmwv_body_idf.paa"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_X95_Grippod,CUP_launch_M136)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_X95,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_IDF_Backpack)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -1583,7 +1595,7 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_HMMWV_Mk19_01 : CUP_B_HMMWV_MK19_USA_OCimport_02 {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_HMMWV_Mk19_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "HMMWV [Mk19]";
@@ -1591,6 +1603,10 @@ class CfgVehicles {
         faction = "CFP_B_ILIDF";
         crew = "CFP_B_ILIDF_Rifleman_01";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\HMMWV\hmmwv_body_idf.paa"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_X95_Grippod,CUP_launch_M136)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_X95,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_IDF_Backpack)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -1614,7 +1630,7 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_HMMWV_TOW_01 : CUP_B_HMMWV_TOW_USA_OCimport_02 {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_HMMWV_TOW_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "HMMWV [TOW]";
@@ -1625,6 +1641,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\HMMWV\hmmwv_body_idf.paa",
             "\CUP\WheeledVehicles\CUP_WheeledVehicles_HMMWV\data\textures\nato_t_tow_co.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_X95_Grippod,CUP_launch_M136)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_X95,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_IDF_Backpack)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -1648,7 +1668,7 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_HMMWV_Ambulance_01 : CUP_B_HMMWV_Ambulance_USA_OCimport_02 {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_HMMWV_Ambulance_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "HMMWV Ambulance";
@@ -1659,6 +1679,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\HMMWV\hmmwv_body_idf.paa",
             "\x\cfp\addons\vehicles\HMMWV\hmmwv_parts_1_idf.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_X95_Grippod,CUP_launch_M136)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_X95,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_IDF_Backpack)
 
 
         class EventHandlers : EventHandlers {
@@ -1697,7 +1721,7 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_HMMWV_UAV_Terminal_01 : CUP_B_HMMWV_Terminal_USA_OCimport_02 {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_HMMWV_UAV_Terminal_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "HMMWV UAV Terminal";
@@ -1708,6 +1732,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\HMMWV\hmmwv_body_idf.paa",
             "\x\cfp\addons\vehicles\HMMWV\hmmwv_parts_1_idf.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_X95_Grippod,CUP_launch_M136)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_X95,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_IDF_Backpack)
 
 
         class EventHandlers : EventHandlers {
@@ -1726,7 +1754,7 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_Merkava_Mk_IV_01 : B_MBT_01_cannon_F_OCimport_02 {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_Merkava_Mk_IV_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Merkava Mk IV";
@@ -1765,7 +1793,7 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_Merkava_Mk_IV_UP_01 : B_MBT_01_TUSK_F_OCimport_02 {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_Merkava_Mk_IV_UP_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Merkava Mk IV UP";
@@ -1805,7 +1833,7 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_M113_01 : CUP_B_M113_desert_USA_OCimport_02 {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_M113_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "M113";
@@ -1843,7 +1871,7 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_Namer_01 : B_APC_Tracked_01_rcws_F_OCimport_02 {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_Namer_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Namer";
@@ -1876,9 +1904,41 @@ class CfgVehicles {
 
     };
 
+    class CUP_B_M270_HE_USA;
+    class CFP_B_ILIDF_M270_HE_01 : CUP_B_M270_HE_USA {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "M270 Menatetz [HE]";
+        side = 1;
+        faction = "CFP_B_ILIDF";
+        crew = "CFP_B_ILIDF_Crew_01";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\M270\mlrs_hull_idf_co.paa"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_X95_Grippod,CUP_launch_M136)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_X95,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_IDF_Backpack)
+    };
+
+    class CUP_B_M270_DPICM_USA;
+    class CFP_B_ILIDF_M270_DPICM_01 : CUP_B_M270_DPICM_USA {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "M270 Menatetz [DPICM]";
+        side = 1;
+        faction = "CFP_B_ILIDF";
+        crew = "CFP_B_ILIDF_Crew_01";
+        hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\M270\mlrs_hull_idf_co.paa"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_X95_Grippod,CUP_launch_M136)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_X95,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_IDF_Backpack)
+    };
+
     class CFP_B_ILIDF_CH_53_Yasur_01 : CUP_B_CH53E_USMC_OCimport_02 {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_CH_53_Yasur_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "CH-53 Yasur";
@@ -1890,6 +1950,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\CH53\ch53_2_co.paa",
             "cup\airvehicles\cup_airvehicles_uh60\data\default_co.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_X95_Grippod,CUP_launch_M136)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_X95,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_IDF_Backpack)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_ILIDF_Helicopter_Pilot_01"; };
@@ -1912,7 +1976,7 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_UH_60_Yanshuf_01 : CUP_B_UH60M_US_OCimport_02 {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_UH_60_Yanshuf_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "UH-60 Yanshuf";
@@ -1924,6 +1988,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\UH60\uh60_engine_idf.paa",
             "cup\airvehicles\cup_airvehicles_uh60\data\default_co.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_X95_Grippod,CUP_launch_M136)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_X95,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_IDF_Backpack)
 
         class Turrets : Turrets {
             class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_ILIDF_Helicopter_Pilot_01"; };
@@ -1948,7 +2016,7 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_CH_53_Yasur_VIV_01 : CUP_B_CH53E_VIV_USMC_OCimport_02 {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_CH_53_Yasur_VIV_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "CH-53 Yasur [VIV]";
@@ -1960,6 +2028,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\CH53\ch53_2_co.paa",
             "cup\airvehicles\cup_airvehicles_uh60\data\default_co.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_X95_Grippod,CUP_launch_M136)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_X95,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_IDF_Backpack)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_ILIDF_Helicopter_Pilot_01"; };
@@ -1982,7 +2054,7 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_F35_Adir_01 : CUP_B_F35B_USMC_OCimport_02 {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_F35_Adir_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "F-35 Adir";
@@ -1992,6 +2064,10 @@ class CfgVehicles {
         hiddenSelectionsTextures[] = {
             "\x\cfp\addons\vehicles\F35\f35_idf.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_X95_Grippod,CUP_launch_M136)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_X95,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_IDF_Backpack)
 
 
         class EventHandlers : EventHandlers {
@@ -2010,7 +2086,7 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_AH_64D_Saraph_01 : CUP_B_AH64D_DL_USA_OCimport_02 {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_AH_64D_Saraph_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "AH-64D Saraph";
@@ -2022,6 +2098,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\Apache\ah64d_details_idf.paa",
             "\CUP\AirVehicles\CUP_AirVehicles_AH64\data\clear_empty.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_X95_Grippod,CUP_launch_M136)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_X95,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_IDF_Backpack)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_ILIDF_Helicopter_Pilot_01"; };
@@ -2043,7 +2123,7 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_C130_Qarnaf_01 : CUP_B_C130J_USMC_OCimport_02 {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_C130_Qarnaf_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "C-130 Qarnaf";
@@ -2054,6 +2134,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\C130\c130j_body_idf.paa",
             "\x\cfp\addons\vehicles\C130\c130j_wings_idf.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_X95_Grippod,CUP_launch_M136)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_X95,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_IDF_Backpack)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_ILIDF_Helicopter_Pilot_01"; };
@@ -2076,7 +2160,7 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_C130_Qarnaf_VIV_01 : CUP_B_C130J_Cargo_USMC_OCimport_02 {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_C130_Qarnaf_VIV_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "C-130 Qarnaf [VIV]";
@@ -2087,6 +2171,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\C130\c130j_body_idf.paa",
             "\x\cfp\addons\vehicles\C130\c130j_wings_idf.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_X95_Grippod,CUP_launch_M136)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_X95,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_IDF_Backpack)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_ILIDF_Helicopter_Pilot_01"; };
@@ -2109,7 +2197,7 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_MQ_9Reaper_01 : CUP_B_USMC_DYN_MQ9_OCimport_02 {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_MQ_9Reaper_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "MQ-9 Reaper";
@@ -2140,13 +2228,17 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_Assault_Boat_01 : B_Boat_Transport_01_F_OCimport_02 {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_Assault_Boat_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Assault Boat";
         side = 1;
         faction = "CFP_B_ILIDF";
         crew = "CFP_B_ILIDF_Rifleman_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_X95_Grippod,CUP_launch_M136)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_X95,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_IDF_Backpack)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -2173,13 +2265,17 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_HEMTT_Fuel_01 : B_Truck_01_fuel_F_OCimport_02 {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_HEMTT_Fuel_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "HEMTT Fuel";
         side = 1;
         faction = "CFP_B_ILIDF";
         crew = "CFP_B_ILIDF_Rifleman_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_X95_Grippod,CUP_launch_M136)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_X95,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_IDF_Backpack)
 
 
         class EventHandlers : EventHandlers {
@@ -2198,13 +2294,17 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_HEMTT_Ammo_01 : B_Truck_01_ammo_F_OCimport_02 {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_HEMTT_Ammo_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "HEMTT Ammo";
         side = 1;
         faction = "CFP_B_ILIDF";
         crew = "CFP_B_ILIDF_Rifleman_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_X95_Grippod,CUP_launch_M136)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_X95,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_IDF_Backpack)
 
 
         class EventHandlers : EventHandlers {
@@ -2223,13 +2323,17 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_HEMTT_Medical_01 : B_Truck_01_medical_F_OCimport_02 {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_HEMTT_Medical_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "HEMTT Medical";
         side = 1;
         faction = "CFP_B_ILIDF";
         crew = "CFP_B_ILIDF_Medic_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_X95_Grippod,CUP_launch_M136)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_X95,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_IDF_Backpack)
 
 
         class EventHandlers : EventHandlers {
@@ -2248,14 +2352,17 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_HEMTT_Repair_01 : B_Truck_01_Repair_F_OCimport_02 {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_HEMTT_Repair_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "HEMTT Repair";
         side = 1;
         faction = "CFP_B_ILIDF";
         crew = "CFP_B_ILIDF_Engineer_01";
-
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_X95_Grippod,CUP_launch_M136)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_X95,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_IDF_Backpack)
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -2273,14 +2380,17 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_HEMTT_01 : B_Truck_01_mover_F_OCimport_02 {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_HEMTT_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "HEMTT";
         side = 1;
         faction = "CFP_B_ILIDF";
         crew = "CFP_B_ILIDF_Rifleman_01";
-
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_X95_Grippod,CUP_launch_M136)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_X95,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_IDF_Backpack)
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -2298,13 +2408,17 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_HEMTT_Transport_01 : B_Truck_01_transport_F_OCimport_02 {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_HEMTT_Transport_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "HEMTT Transport";
         side = 1;
         faction = "CFP_B_ILIDF";
         crew = "CFP_B_ILIDF_Rifleman_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_X95_Grippod,CUP_launch_M136)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_X95,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_IDF_Backpack)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -2329,13 +2443,17 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_HEMTT_Transport_Covered_01 : B_Truck_01_covered_F_OCimport_02 {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_HEMTT_Transport_Covered_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "HEMTT Transport [Covered]";
         side = 1;
         faction = "CFP_B_ILIDF";
         crew = "CFP_B_ILIDF_Rifleman_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_X95_Grippod,CUP_launch_M136)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_X95,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_IDF_Backpack)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -2360,13 +2478,17 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_HEMTT_Box_01 : B_Truck_01_box_F_OCimport_02 {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_HEMTT_Box_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "HEMTT Box";
         side = 1;
         faction = "CFP_B_ILIDF";
         crew = "CFP_B_ILIDF_Rifleman_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_X95_Grippod,CUP_launch_M136)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_X95,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_IDF_Backpack)
 
 
         class EventHandlers : EventHandlers {
@@ -2385,13 +2507,17 @@ class CfgVehicles {
 
     class CFP_B_ILIDF_ATV_01 : B_Quadbike_01_F_OCimport_02 {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_ATV_01.JPG;
-        author = "Drew";
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "ATV";
         side = 1;
         faction = "CFP_B_ILIDF";
         crew = "CFP_B_ILIDF_Rifleman_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_X95_Grippod,CUP_launch_M136)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_X95,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CUP_B_IDF_Backpack)
 
 
         class EventHandlers : EventHandlers {

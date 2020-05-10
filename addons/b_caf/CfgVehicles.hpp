@@ -8,6 +8,8 @@
 #define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
 #define item_xx(a,b) class _xx_##a {name = a; count = b;}
 
+#include "\x\cfp\addons\vehicles\inventory_macro\main.hpp"
+
 class CBA_Extended_EventHandlers_base;
 
 class CfgVehicles {
@@ -1058,12 +1060,14 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\Ural\ural_open_iran.paa",
             "CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\WHL_TyreSize3.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_cbr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_CAF_Rifleman_01"; };
         };
-
-
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -1089,6 +1093,10 @@ class CfgVehicles {
         faction = "CFP_B_CAF";
         crew = "CFP_B_CAF_Crew_01";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\t55\t55_body_desert.paa","\x\cfp\addons\vehicles\t55\t55_tower_desert.paa"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_cbr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
@@ -1123,6 +1131,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_CAF";
         crew = "CFP_B_CAF_Rifleman_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_cbr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_CAF_Rifleman_01"; };
@@ -1156,6 +1168,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\BMP\bmp_tan_hull.paa",
             "\x\cfp\addons\vehicles\BMP\bmp_tan_trt.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_cbr)
 
         class Turrets : Turrets {
             class CommanderOptics : CommanderOptics { gunnerType = "CFP_B_CAF_Crew_Officer_01"; };
@@ -1199,6 +1215,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\BTR60\desertbody1.paa",
             "\x\cfp\addons\vehicles\BTR60\desertbody2.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_cbr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_CAF_Crew_01"; };
@@ -1242,6 +1262,10 @@ class CfgVehicles {
             "CUP\WheeledVehicles\CUP_WheeledVehicles_BTR80\data\generic_tan\bppu_co.paa",
             "CUP\WheeledVehicles\CUP_WheeledVehicles_BTR80\data\generic_tan\Wheels_co.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_cbr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_CAF_Crew_01"; };
@@ -1286,6 +1310,10 @@ class CfgVehicles {
             "CUP\WheeledVehicles\CUP_WheeledVehicles_BTR80\data\generic_tan\kpvt_co.paa",
             "CUP\WheeledVehicles\CUP_WheeledVehicles_BTR80\data\generic_tan\Wheels_co.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_cbr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_CAF_Crew_01"; };
@@ -1329,6 +1357,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\SU25\su25_body1_chad_co.paa",
             "\x\cfp\addons\vehicles\SU25\su25_body2_chad_co.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_cbr)
 
 
         class EventHandlers : EventHandlers {
@@ -1368,6 +1400,11 @@ class CfgVehicles {
         crew = "CFP_B_CAF_Helicopter_Pilot_01";
         typicalCargo[] = {"CFP_B_CAF_Helicopter_Pilot_01","CFP_B_CAF_Helicopter_Pilot_01"};
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Mi8\mi17_chad.paa","\x\cfp\addons\vehicles\Mi8\mi8_det_g_iran.paa"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_cbr)
+
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = ""; };
             class BackTurret : BackTurret { gunnerType = ""; };
@@ -1388,6 +1425,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\Mi24\mi24_01_chad.paa",
             "\x\cfp\addons\vehicles\Mi24\mi24_02_chad.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_cbr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_CAF_Helicopter_Pilot_01"; };
@@ -1422,6 +1463,10 @@ class CfgVehicles {
             "CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\data\uaz_main_civil_co.paa",
             "CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\data\uaz_mount_001_co.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_cbr)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -1457,6 +1502,10 @@ class CfgVehicles {
             "CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\data\uaz_main_civil_co.paa",
             "CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\data\uaz_mount_001_co.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_cbr)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -1492,6 +1541,10 @@ class CfgVehicles {
             "CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\data\uaz_main_civil_co.paa",
             "CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\data\uaz_mount_001_co.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_cbr)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -1525,6 +1578,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_CAF";
         crew = "CFP_B_CAF_Rifleman_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_cbr)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -1569,6 +1626,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_CAF";
         crew = "CFP_B_CAF_Rifleman_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_cbr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_CAF_Rifleman_01"; };
@@ -1610,6 +1671,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_CAF";
         crew = "CFP_B_CAF_Rifleman_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_cbr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_CAF_Rifleman_01"; };
@@ -1651,6 +1716,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_CAF";
         crew = "CFP_B_CAF_Rifleman_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_cbr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_CAF_Rifleman_01"; };
@@ -1692,6 +1761,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_CAF";
         crew = "CFP_B_CAF_Rifleman_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_cbr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_CAF_Rifleman_01"; };
@@ -1733,6 +1806,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_CAF";
         crew = "CFP_B_CAF_Rifleman_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_cbr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_CAF_Rifleman_01"; };
@@ -1779,6 +1856,10 @@ class CfgVehicles {
             "\A3\Soft_F_Bootcamp\Offroad_01\Data\offroad_01_ext_IG_12_CO.paa",
             "\A3\Soft_F_Bootcamp\Offroad_01\Data\offroad_01_ext_IG_12_CO.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_cbr)
 
         class Turrets : Turrets {
             class M2_Turret : M2_Turret { gunnerType = "CFP_B_CAF_Rifleman_01"; };
@@ -1813,6 +1894,10 @@ class CfgVehicles {
             "\A3\Soft_F_Bootcamp\Offroad_01\Data\offroad_01_ext_IG_12_CO.paa",
             "\A3\Soft_F_Bootcamp\Offroad_01\Data\offroad_01_ext_IG_12_CO.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_cbr)
 
         class Turrets : Turrets {
             class AT_Turret : AT_Turret { gunnerType = "CFP_B_CAF_Rifleman_01"; };
@@ -1847,6 +1932,10 @@ class CfgVehicles {
             "\A3\Soft_F_Bootcamp\Offroad_01\Data\offroad_01_ext_IG_12_CO.paa",
             "\A3\Soft_F_Bootcamp\Offroad_01\Data\offroad_01_ext_IG_12_CO.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_cbr)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -1885,6 +1974,10 @@ class CfgVehicles {
             "\A3\Soft_F_Bootcamp\Van_01\Data\Van_01_adds_IG_02_CO.paa",
             "\a3\soft_f_gamma\van_01\data\van_01_int_base_co.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_cbr)
 
         class Turrets : Turrets {
             class CargoTurret_L1 : CargoTurret_L1 { gunnerType = ""; };
@@ -1925,6 +2018,10 @@ class CfgVehicles {
         faction = "CFP_B_CAF";
         crew = "CFP_B_CAF_Rifleman_01";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_des.paa","\x\cfp\addons\vehicles\Ural\ural_plachta_iran.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\WHL_TyreSize3.paa"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_cbr)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -1957,6 +2054,10 @@ class CfgVehicles {
         faction = "CFP_B_CAF";
         crew = "CFP_B_CAF_Rifleman_01";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_des.paa","\x\cfp\addons\vehicles\Ural\ural_open_iran.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\WHL_TyreSize3.paa"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_cbr)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -1989,6 +2090,10 @@ class CfgVehicles {
         faction = "CFP_B_CAF";
         crew = "CFP_B_CAF_Rifleman_01";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_des.paa","\x\cfp\addons\vehicles\Ural\ural_open_iran.paa","\x\cfp\addons\vehicles\Ural\ural_fuel_iran.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\WHL_TyreSize3.paa"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_cbr)
 
 
         class EventHandlers : EventHandlers {
@@ -2015,6 +2120,10 @@ class CfgVehicles {
         faction = "CFP_B_CAF";
         crew = "CFP_B_CAF_Rifleman_01";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_des.paa","\x\cfp\addons\vehicles\Ural\ural_plachta_iran.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\WHL_TyreSize3.paa"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_cbr)
 
 
         class EventHandlers : EventHandlers {
@@ -2041,6 +2150,10 @@ class CfgVehicles {
         faction = "CFP_B_CAF";
         crew = "CFP_B_CAF_Rifleman_01";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Ural\ural_kabina_des.paa","\x\cfp\addons\vehicles\Ural\ural_plachta_iran.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\WHL_TyreSize3.paa"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_cbr)
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};

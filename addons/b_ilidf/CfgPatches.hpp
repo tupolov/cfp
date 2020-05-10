@@ -58,6 +58,8 @@ class CfgPatches {
             "CFP_B_ILIDF_C130_Qarnaf_VIV_01",
             "CFP_B_ILIDF_MQ_9Reaper_01",
             "CFP_B_ILIDF_Assault_Boat_01",
+            "CFP_B_ILIDF_M270_HE_01",
+            "CFP_B_ILIDF_M270_DPICM_01",
             "CFP_B_ILIDF_HEMTT_Fuel_01",
             "CFP_B_ILIDF_HEMTT_Ammo_01",
             "CFP_B_ILIDF_HEMTT_Medical_01",
