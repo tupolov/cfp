@@ -40,7 +40,7 @@ class CfgPatches {
             "CFP_O_WAGNER_Pchela_1T_DESERT_01",
             "CFP_O_WAGNER_Mi24_D_DESERT_01",
             "CFP_O_WAGNER_Mi8_DESERT_01",
-            "CUP_O_WAGNER_Ka60_DESERT_01"
+            "CFP_O_WAGNER_Ka60_DESERT_01"
         };
         weapons[] = {};
         requiredVersion = 1.62;
