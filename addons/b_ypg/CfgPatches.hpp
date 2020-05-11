@@ -6,6 +6,7 @@ class CfgPatches {
             "cfp_b_ypg_leader",
             "cfp_b_ypg_rifleman",
             "cfp_b_ypg_machinegunner",
+            "cfp_b_ypg_grenadier",
             "cfp_b_ypg_sniper",
             "cfp_b_ypg_at",
             "cfp_b_ypg_medic",
@@ -16,6 +17,18 @@ class CfgPatches {
             "cfp_b_ypg_rifleman_ags30",
             "cfp_b_ypg_rifleman_metis",
             "cfp_b_ypg_rifleman_spg9",
+            "cfp_b_ypg_asst_gunner_dshkm",
+            "cfp_b_ypg_asst_gunner_kord",
+            "cfp_b_ypg_asst_gunner_podnos",
+            "cfp_b_ypg_asst_gunner_ags30",
+            "cfp_b_ypg_asst_gunner_metis",
+            "cfp_b_ypg_asst_gunner_spg9",
+            "CFP_B_YPG_Hilux_Unarmed_01",
+            "CFP_B_YPG_Hilux_DSHKM_01",
+            "CFP_B_YPG_Hilux_SPG9_01",
+            "CFP_B_YPG_Hilux_Podnos_01",
+            "CFP_B_YPG_Hilux_ZU_23_01",
+            "CFP_B_YPG_Hilux_MLRS_01",
             "cfp_b_ypg_offroad",
             "cfp_b_ypg_offroad_flag",
             "cfp_b_ypg_offroad_M2",
@@ -36,7 +49,7 @@ class CfgPatches {
             "CUP_Weapons_StaticWeapons"
         };
         author = MODULE_AUTHOR;
-        authors[] = {"AccuracyThruVolume"};
+        authors[] = {"CFP"};
         requiredVersion = REQUIRED_VERSION;
         VERSION_CONFIG;
     };
