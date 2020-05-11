@@ -8,6 +8,7 @@
 #define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
 #define item_xx(a,b) class _xx_##a {name = a; count = b;}
 
+#include "\x\cfp\addons\vehicles\inventory_macro\main.hpp"
 
 class CBA_Extended_EventHandlers_base;
 
@@ -1112,6 +1113,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USSEALS_DES";
         crew = "CFP_B_USSEALS_Helicopter_Pilot_DES_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_mk18_black,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_MCam_Grn)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Crew_DES_01"; };
@@ -1144,6 +1149,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USSEALS_DES";
         crew = "CFP_B_USSEALS_Helicopter_Pilot_DES_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_mk18_black,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_MCam_Grn)
 
         class Turrets : Turrets {
             class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_DES_01"; };
@@ -1176,6 +1185,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USSEALS_DES";
         crew = "CFP_B_USSEALS_Helicopter_Pilot_DES_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_mk18_black,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_MCam_Grn)
 
         class Turrets : Turrets {
             class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_DES_01"; };
@@ -1214,6 +1227,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USSEALS_DES";
         crew = "CFP_B_USSEALS_Helicopter_Pilot_DES_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_mk18_black,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_MCam_Grn)
 
         class Turrets : Turrets {
             class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_DES_01"; };
@@ -1252,6 +1269,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USSEALS_DES";
         crew = "CFP_B_USSEALS_Helicopter_Pilot_DES_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_mk18_black,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_MCam_Grn)
 
         class Turrets : Turrets {
             class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_DES_01"; };
@@ -1290,6 +1311,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USSEALS_DES";
         crew = "CFP_B_USSEALS_Helicopter_Pilot_DES_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_mk18_black,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_MCam_Grn)
 
         class Turrets : Turrets {
             class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_DES_01"; };
@@ -1328,6 +1353,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USSEALS_DES";
         crew = "CFP_B_USSEALS_Helicopter_Pilot_DES_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_mk18_black,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_MCam_Grn)
 
         class Turrets : Turrets {
             class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_DES_01"; };
@@ -1358,6 +1387,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USSEALS_DES";
         crew = "CFP_B_USSEALS_Helicopter_Pilot_DES_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_mk18_black,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_MCam_Grn)
 
         class Turrets : Turrets {
             class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_DES_01"; };
@@ -1388,6 +1421,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USSEALS_DES";
         crew = "CFP_B_USSEALS_Helicopter_Pilot_DES_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_mk18_black,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_MCam_Grn)
 
         class Turrets : Turrets {
             class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_DES_01"; };
@@ -1420,6 +1457,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USSEALS_DES";
         crew = "CFP_B_USSEALS_Helicopter_Pilot_DES_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_mk18_black,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_MCam_Grn)
 
         class Turrets : Turrets {
             class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_DES_01"; };
@@ -1452,6 +1493,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USSEALS_DES";
         crew = "CFP_B_USSEALS_Helicopter_Pilot_DES_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_mk18_black,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_MCam_Grn)
 
         class Turrets : Turrets {
             class CopilotTurret : CopilotTurret { gunnerType = "CFP_B_USSEALS_Helicopter_Pilot_DES_01"; };
@@ -1488,6 +1533,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USSEALS_DES";
         crew = "CFP_B_USSEALS_Rifleman_AOR1_DES_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_mk18_black,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_MCam_Grn)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_USSEALS_Rifleman_AOR1_DES_01"; };
@@ -1524,6 +1573,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USSEALS_DES";
         crew = "CFP_B_USSEALS_Rifleman_AOR1_DES_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_mk18_black,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_MCam_Grn)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_USSEALS_Rifleman_AOR1_DES_01"; };
@@ -1560,6 +1613,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USSEALS_DES";
         crew = "CFP_B_USSEALS_Rifleman_AOR1_DES_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_mk18_black,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_MCam_Grn)
 
 
         class EventHandlers : EventHandlers {
@@ -1585,6 +1642,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USSEALS_DES";
         crew = "CFP_B_USSEALS_Rifleman_AOR1_DES_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_mk18_black,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_MCam_Grn)
 
         class Turrets : Turrets {
             class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
@@ -1622,6 +1683,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USSEALS_DES";
         crew = "CFP_B_USSEALS_SEAL_Diver_DES_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_mk18_black,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_MCam_Grn)
 
         class Turrets : Turrets {
             class CommanderTurret : CommanderTurret { gunnerType = "CFP_B_USSEALS_SEAL_Diver_DES_01"; };
@@ -1652,6 +1717,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USSEALS_DES";
         crew = "CFP_B_USSEALS_Rifleman_AOR1_DES_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_mk18_black,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_MCam_Grn)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_USSEALS_Rifleman_AOR1_DES_01"; };
@@ -1683,6 +1752,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USSEALS_DES";
         crew = "CFP_B_USSEALS_Rifleman_AOR1_DES_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_mk18_black,CUP_launch_M136_Loaded)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_M136_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(CFP_Kitbag_MCam_Grn)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
