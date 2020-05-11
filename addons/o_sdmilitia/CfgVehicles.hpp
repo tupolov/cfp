@@ -2,6 +2,8 @@
 #define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
 #define item_xx(a,b) class _xx_##a {name = a; count = b;}
 
+#include "\x\cfp\addons\vehicles\inventory_macro\main.hpp"
+
 class CBA_Extended_EventHandlers_base;
 
 class CfgVehicles {
@@ -1260,6 +1262,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_SDMilitia";
         crew = "CFP_O_SDMilitia_Soldier_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -1309,6 +1315,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_SDMilitia";
         crew = "CFP_O_SDMilitia_Soldier_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_SDMilitia_Soldier_01"; };
@@ -1355,6 +1365,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_SDMilitia";
         crew = "CFP_O_SDMilitia_Soldier_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_SDMilitia_Soldier_01"; };
@@ -1401,6 +1415,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_SDMilitia";
         crew = "CFP_O_SDMilitia_Soldier_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_SDMilitia_Soldier_01"; };
@@ -1447,6 +1465,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_SDMilitia";
         crew = "CFP_O_SDMilitia_Soldier_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_SDMilitia_Soldier_01"; };
@@ -1493,6 +1515,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_SDMilitia";
         crew = "CFP_O_SDMilitia_Soldier_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_SDMilitia_Soldier_01"; };
@@ -1539,6 +1565,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_SDMilitia";
         crew = "CFP_O_SDMilitia_Soldier_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_SDMilitia_Soldier_01"; };
@@ -1585,6 +1615,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_SDMilitia";
         crew = "CFP_O_SDMilitia_Soldier_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_SDMilitia_Soldier_01"; };
@@ -1631,6 +1665,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_SDMilitia";
         crew = "CFP_O_SDMilitia_Soldier_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_SDMilitia_Soldier_01"; };
@@ -1678,6 +1716,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_SDMilitia";
         crew = "CFP_O_SDMilitia_Soldier_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -1716,6 +1758,10 @@ class CfgVehicles {
             "CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\data\uaz_main_civil_co.paa",
             "CUP\WheeledVehicles\CUP_WheeledVehicles_UAZ\data\uaz_mount_001_co.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -1751,6 +1797,10 @@ class CfgVehicles {
             "CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_kabina_rus_co.paa",
             "CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\ural_open_co.paa","CUP\WheeledVehicles\CUP_WheeledVehicles_Ural\data\WHL_TyreSize3.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_SDMilitia_Soldier_01"; };
@@ -1781,6 +1831,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_SDMilitia";
         crew = "CFP_O_SDMilitia_Soldier_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_SDMilitia_Soldier_01"; };
@@ -1813,6 +1867,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_SDMilitia";
         crew = "CFP_O_SDMilitia_Soldier_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -1849,6 +1907,10 @@ class CfgVehicles {
             "cup\wheeledvehicles\cup_wheeledvehicles_lr\data\lr_acr_sand_base_co.paa",
             "cup\wheeledvehicles\cup_wheeledvehicles_lr\data\lr_special_acr_co.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -1881,6 +1943,10 @@ class CfgVehicles {
         faction = "CFP_O_SDMilitia";
         crew = "CFP_O_SDMilitia_Soldier_01";
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\LandRover\lr_base_baf_olive.paa"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_SDMilitia_Soldier_01"; };
@@ -1912,6 +1978,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_SDMilitia";
         crew = "CFP_O_SDMilitia_Soldier_15";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -1944,6 +2014,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_SDMilitia";
         crew = "CFP_O_SDMilitia_Soldier_15";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_SDMilitia_Soldier_15"; };
@@ -1976,6 +2050,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_SDMilitia";
         crew = "CFP_O_SDMilitia_Soldier_15";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -2009,6 +2087,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_SDMilitia";
         crew = "CFP_O_SDMilitia_Soldier_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class Turrets : Turrets {
             class CargoTurret_L1 : CargoTurret_L1 { gunnerType = ""; };
@@ -2049,6 +2131,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_SDMilitia";
         crew = "CFP_O_SDMilitia_Soldier_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
 
 
@@ -2076,6 +2162,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_SDMilitia";
         crew = "CFP_O_SDMilitia_Soldier_01";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_SDMilitia_Soldier_01"; };
@@ -2111,6 +2201,10 @@ class CfgVehicles {
             "\x\cfp\addons\vehicles\T55\t55_body_sudan.paa",
             "\x\cfp\addons\vehicles\T55\t55_tower_sudan.paa"
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_O_SDMilitia_Soldier_20"; };

@@ -287,23 +287,6 @@ class CfgVehicleClasses
 		};
 	};
 
-
-//Conflict 85 Alice Rigs
-
-	class CFP_US_Alice_tl: CFP_Alice_Vest2_Black
-{
-	displayName  = "Alice Rig Rifleman (Heavy)";
-	scope = 1;
-	Author = "Conflict '85";
-	picture = ""; /// this icon fits the vest surprisingly well
-	model   = "\x\cfp\addons\vests\Alice\con85_us_alice_tl.p3d";
-	class ItemInfo: VestItem
-	{
-		uniformModel   = "\x\cfp\addons\vests\Alice\con85_us_alice_tl.p3d";  /// what model does the vest use
-		containerClass = "Supply130";
-	};
-};
-
 //Conflict 85 Alice PASGT Gear
 
 	class CFP_US_pasgt_core: V_PlateCarrier1_rgr
@@ -417,6 +400,61 @@ class CFP_US_pasgt_alice_officer_ERDL: CFP_US_pasgt_core
 	};
 };
 
+class CFP_US_pasgt_alice_officer_DBDU: CFP_US_pasgt_core
+{
+	displayName  = "Pasgt/Alice Officer (DBDU)";
+	model   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_alice_officer.p3d";
+	picture = "\x\cfp\addons\vests\Alice\Inv_Img\PasgtEngERDL_ca.paa";
+	hiddenSelections[] = {"camo"};
+	hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Alice\tex\con85_US_pasgt_alice_dbdu_co"}; /// what texture is going to be used
+	class ItemInfo: VestItem
+	{
+		uniformModel   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_alice_officer.p3d";  /// what model does the vest use
+		mass = 40;
+		hiddenSelections[] = {"camo"};
+		containerClass = "Supply60";
+
+		class HitpointsProtectionInfo
+		{
+			class Neck
+			{
+				hitpointName	= "HitNeck"; // reference to the hit point class defined in the man base class
+				armor		= 8; // addition to armor of referenced hitpoint
+				passThrough	= 0.5; // multiplier of base passThrough defined in referenced hitpoint
+			};
+			class Arms
+			{
+				hitpointName	= "HitArms";
+				armor		= 1;
+				passThrough	= 1;
+			};
+			class Chest
+			{
+				hitpointName	= "HitChest";
+				armor		= 12;
+				passThrough	= 0.5;
+			};
+			class Diaphragm
+			{
+				hitpointName	= "HitDiaphragm";
+				armor		= 12;
+				passThrough	= 0.5;
+			};
+			class Abdomen
+			{
+				hitpointName	= "HitAbdomen";
+				armor		= 12;
+				passThrough	= 0.5;
+			};
+			class Body
+			{
+				hitpointName	= "HitBody";
+				passThrough	= 0.5;
+			};
+		};
+	};
+};
+
 class CFP_US_pasgt_alice_engineer_ERDL: CFP_US_pasgt_alice_officer_ERDL
 {
 	displayName  = "Pasgt/Alice Engineer (Woodland)";
@@ -426,6 +464,61 @@ class CFP_US_pasgt_alice_engineer_ERDL: CFP_US_pasgt_alice_officer_ERDL
 	{
 		uniformModel   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_alice_engineer.p3d";  /// what model does the vest use
 		mass = 40;
+		containerClass = "Supply130";
+
+		class HitpointsProtectionInfo
+		{
+			class Neck
+			{
+				hitpointName	= "HitNeck"; // reference to the hit point class defined in the man base class
+				armor		= 8; // addition to armor of referenced hitpoint
+				passThrough	= 0.5; // multiplier of base passThrough defined in referenced hitpoint
+			};
+			class Arms
+			{
+				hitpointName	= "HitArms";
+				armor		= 1;
+				passThrough	= 1;
+			};
+			class Chest
+			{
+				hitpointName	= "HitChest";
+				armor		= 12;
+				passThrough	= 0.5;
+			};
+			class Diaphragm
+			{
+				hitpointName	= "HitDiaphragm";
+				armor		= 12;
+				passThrough	= 0.5;
+			};
+			class Abdomen
+			{
+				hitpointName	= "HitAbdomen";
+				armor		= 12;
+				passThrough	= 0.5;
+			};
+			class Body
+			{
+				hitpointName	= "HitBody";
+				passThrough	= 0.5;
+			};
+		};
+	};
+};
+
+class CFP_US_pasgt_alice_engineer_DBDU: CFP_US_pasgt_alice_officer_ERDL
+{
+	displayName  = "Pasgt/Alice Engineer (DBDU)";
+	model   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_alice_engineer.p3d";
+	hiddenSelections[] = {"camo"};
+	hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Alice\tex\con85_US_pasgt_alice_dbdu_co"}; /// what texture is going to be used
+	picture = "\x\cfp\addons\vests\Alice\Inv_Img\PasgtEngERDL_ca.paa"; /// this looks fairly similar
+	class ItemInfo: VestItem
+	{
+		uniformModel   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_alice_engineer.p3d";  /// what model does the vest use
+		mass = 40;
+		hiddenSelections[] = {"camo"};
 		containerClass = "Supply130";
 
 		class HitpointsProtectionInfo
@@ -521,6 +614,61 @@ class CFP_US_pasgt_alice_Medic_ERDL: CFP_US_pasgt_alice_officer_ERDL
 	};
 };
 
+class CFP_US_pasgt_alice_Medic_DBDU: CFP_US_pasgt_alice_officer_ERDL
+{
+	displayName  = "Pasgt/Alice Medic (DBDU)";
+	model   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_alice_Medic.p3d";
+	picture = "\x\cfp\addons\vests\Alice\Inv_Img\PasgtEngERDL_ca.paa";
+	hiddenSelections[] = {"camo"};
+	hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Alice\tex\con85_US_pasgt_alice_dbdu_co"}; /// what texture is going to be used
+	class ItemInfo: VestItem
+	{
+		uniformModel   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_alice_Medic.p3d";  /// what model does the vest use
+		mass = 40;
+		hiddenSelections[] = {"camo"};
+		containerClass = "Supply150";
+
+		class HitpointsProtectionInfo
+		{
+			class Neck
+			{
+				hitpointName	= "HitNeck"; // reference to the hit point class defined in the man base class
+				armor		= 8; // addition to armor of referenced hitpoint
+				passThrough	= 0.5; // multiplier of base passThrough defined in referenced hitpoint
+			};
+			class Arms
+			{
+				hitpointName	= "HitArms";
+				armor		= 1;
+				passThrough	= 1;
+			};
+			class Chest
+			{
+				hitpointName	= "HitChest";
+				armor		= 12;
+				passThrough	= 0.5;
+			};
+			class Diaphragm
+			{
+				hitpointName	= "HitDiaphragm";
+				armor		= 12;
+				passThrough	= 0.5;
+			};
+			class Abdomen
+			{
+				hitpointName	= "HitAbdomen";
+				armor		= 12;
+				passThrough	= 0.5;
+			};
+			class Body
+			{
+				hitpointName	= "HitBody";
+				passThrough	= 0.5;
+			};
+		};
+	};
+};
+
 class CFP_US_pasgt_alice_SquadLeader_ERDL: CFP_US_pasgt_alice_officer_ERDL
 {
 	displayName  = "Pasgt/Alice Squad Leader (Woodland)";
@@ -530,6 +678,61 @@ class CFP_US_pasgt_alice_SquadLeader_ERDL: CFP_US_pasgt_alice_officer_ERDL
 	{
 		uniformModel   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_alice_Squadlead.p3d";  /// what model does the vest use
 		mass = 40;
+		containerClass = "Supply130";
+
+		class HitpointsProtectionInfo
+		{
+			class Neck
+			{
+				hitpointName	= "HitNeck"; // reference to the hit point class defined in the man base class
+				armor		= 8; // addition to armor of referenced hitpoint
+				passThrough	= 0.5; // multiplier of base passThrough defined in referenced hitpoint
+			};
+			class Arms
+			{
+				hitpointName	= "HitArms";
+				armor		= 1;
+				passThrough	= 1;
+			};
+			class Chest
+			{
+				hitpointName	= "HitChest";
+				armor		= 12;
+				passThrough	= 0.5;
+			};
+			class Diaphragm
+			{
+				hitpointName	= "HitDiaphragm";
+				armor		= 12;
+				passThrough	= 0.5;
+			};
+			class Abdomen
+			{
+				hitpointName	= "HitAbdomen";
+				armor		= 12;
+				passThrough	= 0.5;
+			};
+			class Body
+			{
+				hitpointName	= "HitBody";
+				passThrough	= 0.5;
+			};
+		};
+	};
+};
+
+class CFP_US_pasgt_alice_SquadLeader_DBDU: CFP_US_pasgt_alice_officer_ERDL
+{
+	displayName  = "Pasgt/Alice Squad Leader (DBDU)";
+	model   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_alice_Squadlead.p3d";
+	hiddenSelections[] = {"camo"};
+	hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Alice\tex\con85_US_pasgt_alice_dbdu_co"}; /// what texture is going to be used
+	picture = "\x\cfp\addons\vests\Alice\Inv_Img\PasgtEngERDL_ca.paa";
+	class ItemInfo: VestItem
+	{
+		uniformModel   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_alice_Squadlead.p3d";  /// what model does the vest use
+		mass = 40;
+		hiddenSelections[] = {"camo"};
 		containerClass = "Supply130";
 
 		class HitpointsProtectionInfo
@@ -839,6 +1042,61 @@ class CFP_US_pasgt_alice_Pioneer_ERDL: CFP_US_pasgt_alice_officer_ERDL
 	};
 };
 
+class CFP_US_pasgt_alice_Pioneer_DBDU: CFP_US_pasgt_alice_officer_ERDL
+{
+	displayName  = "Pasgt/Alice Pioneer (DBDU)";
+	model   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_alice_pionier.p3d";
+	picture = "\x\cfp\addons\vests\Alice\Inv_Img\PasgtEngERDL_ca.paa";
+	hiddenSelections[] = {"camo"};
+	hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Alice\tex\con85_US_pasgt_alice_dbdu_co"};
+	class ItemInfo: VestItem
+	{
+		uniformModel   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_alice_pionier.p3d";  /// what model does the vest use
+		mass = 40;
+		hiddenSelections[] = {"camo"};
+		containerClass = "Supply110";
+
+		class HitpointsProtectionInfo
+		{
+			class Neck
+			{
+				hitpointName	= "HitNeck"; // reference to the hit point class defined in the man base class
+				armor		= 8; // addition to armor of referenced hitpoint
+				passThrough	= 0.5; // multiplier of base passThrough defined in referenced hitpoint
+			};
+			class Arms
+			{
+				hitpointName	= "HitArms";
+				armor		= 1;
+				passThrough	= 1;
+			};
+			class Chest
+			{
+				hitpointName	= "HitChest";
+				armor		= 12;
+				passThrough	= 0.5;
+			};
+			class Diaphragm
+			{
+				hitpointName	= "HitDiaphragm";
+				armor		= 12;
+				passThrough	= 0.5;
+			};
+			class Abdomen
+			{
+				hitpointName	= "HitAbdomen";
+				armor		= 12;
+				passThrough	= 0.5;
+			};
+			class Body
+			{
+				hitpointName	= "HitBody";
+				passThrough	= 0.5;
+			};
+		};
+	};
+};
+
 class CFP_US_pasgt_alice_SAW_ERDL: CFP_US_pasgt_alice_officer_ERDL
 {
 	displayName  = "Pasgt/Alice Autorifleman (Woodland)";
@@ -955,6 +1213,61 @@ class CFP_US_pasgt_alice_SAW_Assistant_ERDL: CFP_US_pasgt_alice_officer_ERDL
 	{
 		uniformModel   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_alice_SAW_Assistant.p3d";  /// what model does the vest use
 		mass = 40;
+		containerClass = "Supply150";
+
+		class HitpointsProtectionInfo
+		{
+			class Neck
+			{
+				hitpointName	= "HitNeck"; // reference to the hit point class defined in the man base class
+				armor		= 8; // addition to armor of referenced hitpoint
+				passThrough	= 0.5; // multiplier of base passThrough defined in referenced hitpoint
+			};
+			class Arms
+			{
+				hitpointName	= "HitArms";
+				armor		= 1;
+				passThrough	= 1;
+			};
+			class Chest
+			{
+				hitpointName	= "HitChest";
+				armor		= 12;
+				passThrough	= 0.5;
+			};
+			class Diaphragm
+			{
+				hitpointName	= "HitDiaphragm";
+				armor		= 12;
+				passThrough	= 0.5;
+			};
+			class Abdomen
+			{
+				hitpointName	= "HitAbdomen";
+				armor		= 12;
+				passThrough	= 0.5;
+			};
+			class Body
+			{
+				hitpointName	= "HitBody";
+				passThrough	= 0.5;
+			};
+		};
+	};
+};
+
+class CFP_US_pasgt_alice_SAW_Assistant_DBDU: CFP_US_pasgt_alice_officer_ERDL
+{
+	displayName  = "Pasgt/Alice Assistant Autorifleman (DBDU)";
+	model   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_alice_SAW_Assistant.p3d";
+	picture = "\x\cfp\addons\vests\Alice\Inv_Img\PasgtEngERDL_ca.paa";
+	hiddenSelections[] = {"camo"};
+	hiddenSelectionsTextures[] = {"\x\cfp\addons\vests\Alice\tex\con85_US_pasgt_alice_dbdu_co"};
+	class ItemInfo: VestItem
+	{
+		uniformModel   = "\x\cfp\addons\vests\Alice\con85_us_pasgt_alice_SAW_Assistant.p3d";  /// what model does the vest use
+		mass = 40;
+		hiddenSelections[] = {"camo"};
 		containerClass = "Supply150";
 
 		class HitpointsProtectionInfo

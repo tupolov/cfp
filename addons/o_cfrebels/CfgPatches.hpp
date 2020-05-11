@@ -18,6 +18,10 @@ class CfgPatches {
             "CFP_O_CFRebels_Ex_FACA_Autorifleman_01",
             "CFP_O_CFRebels_Ex_FACA_Team_Leader_01",
             "CFP_O_CFRebels_Technical_PK_01",
+            "CFP_O_CFRebels_Hilux_01",
+            "CFP_O_CFRebels_Hilux_DShKM_01",
+            "CFP_O_CFRebels_Hilux_SPG_01",
+            "CFP_O_CFRebels_Hilux_ZU_23_01",
             "CFP_O_CFRebels_Offroad_Repair_01",
             "CFP_O_CFRebels_Offroad_50_Cal_01",
             "CFP_O_CFRebels_Offroad_SPG_9_01",
@@ -34,15 +38,13 @@ class CfgPatches {
         requiredAddons[] = {
             "A3_Characters_F",
             "cfp_uniforms",
-            "CFP_O_SOREBEL",
-            "CFP_O_ALQAEDA",
-            "CFP_O_BOKOHARAM",
-            "CFP_O_TBAN",
+            "CUP_Weapons_StaticWeapons",
+            "A3_Soft_F_Gamma_Van_01",
             "A3_Soft_F_Offroad_01",
-            "CFP_O_ALSHABAAB",
-            "CFP_O_HEZBOLLAH",
-            "CFP_B_AFARMY",
-            "A3_Boat_F_Gamma_Boat_Transport_01"
+            "A3_Soft_F_Exp_Offroad_01",
+            "cfp_vehicles",
+            "CUP_WheeledVehicles_Datsun",
+            "CUP_WheeledVehicles_Ural"
         };
         authors[] = {"jarrad96"};
         requiredVersion = REQUIRED_VERSION;

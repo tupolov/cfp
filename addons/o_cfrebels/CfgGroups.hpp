@@ -13,12 +13,12 @@ class CfgGroups {
             class Infantry {
                 name = "Infantry";
 
-                class o_cfpocfrebels_infantry_sentry {
+                class cfp_o_cfrebels_infantry_sentry {
                     name = "Sentry";
                     side = 0;
                     faction = "CFP_O_CFRebels";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
-                    rarityGroup = 0.5;
+                    rarityGroup = 0.3;
 
                     class Unit0 {
                         position[] = {0,0,0};
@@ -34,12 +34,12 @@ class CfgGroups {
                     };
                 };
 
-                class o_cfpocfrebels_infantry_sentry_gl {
+                class cfp_o_cfrebels_infantry_sentry_gl {
                     name = "Sentry (GL)";
                     side = 0;
                     faction = "CFP_O_CFRebels";
                     icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
-                    rarityGroup = 0.5;
+                    rarityGroup = 0.3;
 
                     class Unit0 {
                         position[] = {0,0,0};
@@ -55,7 +55,7 @@ class CfgGroups {
                     };
                 };
 
-                class o_cfpocfrebels_infantry_fireteam {
+                class cfp_o_cfrebels_infantry_fireteam {
                     name = "Fireteam";
                     side = 0;
                     faction = "CFP_O_CFRebels";
@@ -88,7 +88,7 @@ class CfgGroups {
                     };
                 };
 
-                class o_cfpocfrebels_infantry_assault_team {
+                class cfp_o_cfrebels_infantry_assault_team {
                     name = "Assault Team";
                     side = 0;
                     faction = "CFP_O_CFRebels";
@@ -121,7 +121,7 @@ class CfgGroups {
                     };
                 };
 
-                class o_cfpocfrebels_infantry_fireteam_pkm {
+                class cfp_o_cfrebels_infantry_fireteam_pkm {
                     name = "Fireteam (PKM)";
                     side = 0;
                     faction = "CFP_O_CFRebels";
@@ -154,7 +154,7 @@ class CfgGroups {
                     };
                 };
 
-                class o_cfpocfrebels_infantry_squad {
+                class cfp_o_cfrebels_infantry_squad {
                     name = "Squad";
                     side = 0;
                     faction = "CFP_O_CFRebels";
@@ -216,7 +216,7 @@ class CfgGroups {
             class SpecOps {
                 name = "Special Forces";
 
-                class o_cfpocfrebels_specops_ex_military_sentry {
+                class cfp_o_cfrebels_specops_ex_military_sentry {
                     name = "Ex-Military Sentry";
                     side = 0;
                     faction = "CFP_O_CFRebels";
@@ -237,7 +237,7 @@ class CfgGroups {
                     };
                 };
 
-                class o_cfpocfrebels_specops_ex_military_fireteam {
+                class cfp_o_cfrebels_specops_ex_military_fireteam {
                     name = "Ex-Military Fireteam";
                     side = 0;
                     faction = "CFP_O_CFRebels";
@@ -270,7 +270,7 @@ class CfgGroups {
                     };
                 };
 
-                class o_cfpocfrebels_specops_sniper_team {
+                class cfp_o_cfrebels_specops_sniper_team {
                     name = "Sniper Team";
                     side = 0;
                     faction = "CFP_O_CFRebels";
@@ -296,7 +296,7 @@ class CfgGroups {
             class Motorized {
                 name = "Motorized Infantry";
 
-                class o_cfpocfrebels_motorized_light_technicals {
+                class cfp_o_cfrebels_motorized_light_technicals {
                     name = "Light Technicals";
                     side = 0;
                     faction = "CFP_O_CFRebels";
@@ -307,17 +307,47 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_O_CFRebels_Technical_PK_01";
+                        vehicle = "CFP_O_CFRebels_Hilux_01";
                     };
                     class Unit1 {
                         position[] = {5,-10,0};
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_O_CFRebels_Offroad_Repair_01";
+                        vehicle = "CFP_O_CFRebels_Hilux_DShKM_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CFRebels_RPG_Gunner_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CFRebels_Autorifleman_RPK_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CFRebels_Grenadier_01";
+                    };
+                    class Unit6 {
+                        position[] = {-15,-15,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CFRebels_Rifleman_01";
+                    };
+                    class Unit7 {
+                        position[] = {20,-20,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CFRebels_Rifleman_01";
                     };
                 };
 
-                class o_cfpocfrebels_motorized_heavy_technicals {
+                class cfp_o_cfrebels_motorized_heavy_technicals {
                     name = "Heavy Technicals";
                     side = 0;
                     faction = "CFP_O_CFRebels";
@@ -338,8 +368,41 @@ class CfgGroups {
                     };
                 };
 
-                class o_cfpocfrebels_motorized_motorised_squad {
-                    name = "Motorised Squad";
+                class cfp_o_cfrebels_motorized_heavy_technicals2 {
+                    name = "Heavy Technicals 2";
+                    side = 0;
+                    faction = "CFP_O_CFRebels";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_CFRebels_Hilux_ZU_23_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-10,0};
+                        rank = "CORPORAL";
+                        side = 0;
+                        vehicle = "CFP_O_CFRebels_Hilux_SPG_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CFRebels_RPG_Gunner_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_CFRebels_Autorifleman_RPK_01";
+                    };
+                };
+
+                class cfp_o_cfrebels_motorized_squad {
+                    name = "Motorized Squad";
                     side = 0;
                     faction = "CFP_O_CFRebels";
                     icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
@@ -411,7 +474,7 @@ class CfgGroups {
             class Support {
                 name = "Support Infantry";
 
-                class o_cfpocfrebels_support_medical_team {
+                class cfp_o_cfrebels_support_medical_team {
                     name = "Medical Team";
                     side = 0;
                     faction = "CFP_O_CFRebels";
@@ -444,7 +507,7 @@ class CfgGroups {
                     };
                 };
 
-                class o_cfpocfrebels_support_demo_team {
+                class cfp_o_cfrebels_support_demo_team {
                     name = "Demo Team";
                     side = 0;
                     faction = "CFP_O_CFRebels";
@@ -477,7 +540,7 @@ class CfgGroups {
                     };
                 };
 
-                class o_cfpocfrebels_support_sharpshooter_team {
+                class cfp_o_cfrebels_support_sharpshooter_team {
                     name = "Sharpshooter Team";
                     side = 0;
                     faction = "CFP_O_CFRebels";
@@ -510,7 +573,7 @@ class CfgGroups {
                     };
                 };
 
-                class o_cfpocfrebels_support_command_team {
+                class cfp_o_cfrebels_support_command_team {
                     name = "Command Team";
                     side = 0;
                     faction = "CFP_O_CFRebels";
@@ -543,7 +606,7 @@ class CfgGroups {
                     };
                 };
 
-                class o_cfpocfrebels_support_mortar_team {
+                class cfp_o_cfrebels_support_mortar_team {
                     name = "Mortar Team";
                     side = 0;
                     faction = "CFP_O_CFRebels";
@@ -564,7 +627,7 @@ class CfgGroups {
                     };
                 };
 
-                class o_cfpocfrebels_support_hmg_team {
+                class cfp_o_cfrebels_support_hmg_team {
                     name = "HMG Team";
                     side = 0;
                     faction = "CFP_O_CFRebels";
