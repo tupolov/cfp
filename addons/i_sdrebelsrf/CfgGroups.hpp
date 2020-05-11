@@ -287,8 +287,8 @@ class CfgGroups {
                     };
                 };
 
-                class CFP_I_SDRebelsrf_motorized_patrol_pickup {
-                    name = "Patrol (Pickup)";
+                class CFP_I_SDRebelsrf_motorized_patrol_hilux {
+                    name = "Patrol (Hilux)";
                     side = 2;
                     faction = "CFP_I_SDRebelsrf";
                     icon = "\A3\ui_f\data\map\markers\nato\n_motor_inf.paa";
@@ -298,7 +298,7 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 2;
-                        vehicle = "CFP_I_SDRebelsrf_Pickup_01";
+                        vehicle = "CFP_I_SDRebelsrf_Hilux_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
@@ -323,6 +323,60 @@ class CfgGroups {
                         rank = "PRIVATE";
                         side = 2;
                         vehicle = "CFP_I_SDRebelsrf_Soldier_02";
+                    };
+                };
+
+                class CFP_I_SDRebelsrf_motorized_patrol_hilux_dshkm{
+                    name = "Patrol (Hilux DSHKM)";
+                    side = 2;
+                    faction = "CFP_I_SDRebelsrf";
+                    icon = "\A3\ui_f\data\map\markers\nato\n_motor_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 2;
+                        vehicle = "CFP_I_SDRebelsrf_Hilux_DShKM_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "CORPORAL";
+                        side = 2;
+                        vehicle = "CFP_I_SDRebelsrf_Hilux_DShKM_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 2;
+                        vehicle = "CFP_I_SDRebelsrf_Soldier_04";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 2;
+                        vehicle = "CFP_I_SDRebelsrf_Soldier_02";
+                    };
+                };
+
+                class CFP_I_SDRebelsrf_motorized_patrol_hilux_zsu{
+                    name = "Patrol (Hilux ZSU)";
+                    side = 2;
+                    faction = "CFP_I_SDRebelsrf";
+                    icon = "\A3\ui_f\data\map\markers\nato\n_motor_inf.paa";
+                    rarityGroup = 0.2;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 2;
+                        vehicle = "CFP_I_SDRebelsrf_Hilux_ZU_23_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "CORPORAL";
+                        side = 2;
+                        vehicle = "CFP_I_SDRebelsrf_Soldier_04";
                     };
                 };
 
@@ -551,6 +605,36 @@ class CfgGroups {
 
             class Artillery {
                 name = "Artillery";
+
+                class CFP_I_SDRebelsrf_artillery_motorized_mlrs_hilux_battery {
+                    name = "Motorized MLRS Hilux Battery";
+                    side = 2;
+                    faction = "CFP_I_SDRebelsrf";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_art.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 2;
+                        vehicle = "CFP_I_SDRebelsrf_Hilux_MLRS_01";
+                    };
+                };
+
+                class CFP_I_SDRebelsrf_artillery_motorized_mortar_hilux_battery {
+                    name = "Motorized Mortar Hilux Battery";
+                    side = 2;
+                    faction = "CFP_I_SDRebelsrf";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_art.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 2;
+                        vehicle = "CFP_I_SDRebelsrf_Hilux_Podnos_01";
+                    };
+                };
 
             };
 

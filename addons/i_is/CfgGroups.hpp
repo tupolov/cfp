@@ -39,7 +39,7 @@ class CfgGroups {
                     side = 2;
                     faction = "CFP_I_IS";
                     icon = "\A3\ui_f\data\map\markers\NATO\o_inf.paa";
-                    rarityGroup = 0.3;
+                    rarityGroup = 0.5;
 
                     class Unit0 {
                         position[] = {0,0,0};

@@ -347,8 +347,8 @@ class CfgGroups {
             class Motorized {
                 name = "Motorized Infantry";
 
-                class cfp_i_tuareg_motorized_motorized_patrol_ural_zu_23 {
-                    name = "Motorized Patrol [Ural ZU-23]";
+                class cfp_i_tuareg_motorized_patrol_zu_23 {
+                    name = "Motorized Patrol [ZU-23]";
                     side = 2;
                     faction = "CFP_I_TUAREG";
                     icon = "\A3\ui_f\data\map\markers\nato\n_motor_inf.paa";
@@ -358,7 +358,7 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 2;
-                        vehicle = "CFP_I_TUAREG_Ural_ZU_23_01";
+                        vehicle = "CFP_I_TUAREG_Hilux_ZU_23_01";
                     };
                 };
 
@@ -373,18 +373,30 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 2;
-                        vehicle = "CFP_I_TUAREG_Datsun_PK_01";
+                        vehicle = "CFP_I_TUAREG_Hilux_DShKM_01";
                     };
                     class Unit1 {
                         position[] = {5,-8,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_TUAREG_Datsun_PK_01";
+                        vehicle = "CFP_I_TUAREG_Hilux_SPG_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 2;
+                        vehicle = "CFP_I_TUAREG_Machine_Gunner_01";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 2;
+                        vehicle = "CFP_I_TUAREG_Rifleman_01";
                     };
                 };
 
-                class cfp_i_tuareg_motorized_motorized_fire_team_datsun {
-                    name = "Motorized Fire Team [Datsun]";
+                class cfp_i_tuareg_motorized_fire_team_hilux {
+                    name = "Motorized Fire Team [Hilux]";
                     side = 2;
                     faction = "CFP_I_TUAREG";
                     icon = "\A3\ui_f\data\map\markers\nato\n_motor_inf.paa";
@@ -394,7 +406,7 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_TUAREG_Datsun_01";
+                        vehicle = "CFP_I_TUAREG_Hilux_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
@@ -414,9 +426,21 @@ class CfgGroups {
                         side = 2;
                         vehicle = "CFP_I_TUAREG_Machine_Gunner_01";
                     };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 2;
+                        vehicle = "CFP_I_TUAREG_Rifleman_01";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 2;
+                        vehicle = "CFP_I_TUAREG_Rifleman_01";
+                    };
                 };
 
-                class cfp_i_tuareg_motorized_motorized_fire_team_offroad {
+                class cfp_i_tuareg_motorized_fire_team_offroad {
                     name = "Motorized Fire Team [Offroad]";
                     side = 2;
                     faction = "CFP_I_TUAREG";
@@ -449,7 +473,7 @@ class CfgGroups {
                     };
                 };
 
-                class cfp_i_tuareg_motorized_motorized_squad_truck {
+                class cfp_i_tuareg_motorized_squad_truck {
                     name = "Motorized Squad [Truck]";
                     side = 2;
                     faction = "CFP_I_TUAREG";
