@@ -470,32 +470,11 @@ class CfgGroups {
             class Motorized {
                 name = "Motorized";
 
-                class cfp_i_grp_is_offroad_mgs {
-                    name = "IS Offroad MGs";
+                class cfp_i_is_motorized_offroad_patrol_mg {
+                    name = "Offroad Patrol [MG]";
                     side = 2;
                     faction = "CFP_I_IS";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
-                    rarityGroup = 0.3;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "CORPORAL";
-                        side = 2;
-                        vehicle = "CFP_I_IS_Hilux_DShKM_01";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
-                        rank = "PRIVATE";
-                        side = 2;
-                        vehicle = "cfp_i_is_offroad_M2";
-                    };
-                };
-
-                class cfp_i_grp_is_offroad_patrol {
-                    name = "IS Offroad Patrol";
-                    side = 2;
-                    faction = "CFP_I_IS";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\n_motor_inf.paa";
                     rarityGroup = 0.3;
 
                     class Unit0 {
@@ -506,276 +485,309 @@ class CfgGroups {
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
+                        rank = "LIEUTENANT";
+                        side = 2;
+                        vehicle = "cfp_i_is_offroad_M2";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
                         rank = "PRIVATE";
+                        side = 2;
+                        vehicle = "cfp_i_is_squad_leader";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 2;
+                        vehicle = "cfp_i_is_grenadier";
+                    };
+                };
+
+                class cfp_i_is_offroad_patrol {
+                    name = "Offroad Patrol";
+                    side = 2;
+                    faction = "CFP_I_IS";
+                    icon = "\A3\ui_f\data\map\markers\nato\n_motor_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {5,-5,0};
+                        rank = "SERGEANT";
+                        side = 2;
+                        vehicle = "cfp_i_is_offroad";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "LIEUTENANT";
+                        side = 2;
+                        vehicle = "cfp_i_is_squad_leader";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 2;
+                        vehicle = "cfp_i_is_grenadier";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 2;
+                        vehicle = "cfp_i_is_rifleman";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 2;
+                        vehicle = "cfp_i_is_machinegunner";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 2;
+                        vehicle = "cfp_i_is_at";
+                    };
+                };
+
+                class cfp_i_is_motorized_hilux_patrol_at {
+                    name = "Hilux Patrol [AT]";
+                    side = 2;
+                    faction = "CFP_I_IS";
+                    icon = "\A3\ui_f\data\map\markers\nato\n_motor_inf.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
                         side = 2;
                         vehicle = "CFP_I_IS_Hilux_SPG_01";
                     };
-                };
-
-                class cfp_i_grp_is_lr_mgs {
-                    name = "IS L.R. MGs";
-                    side = 2;
-                    faction = "CFP_I_IS";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
-                    rarityGroup = 0.3;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "CORPORAL";
-                        side = 2;
-                        vehicle = "cfp_i_is_LR_M2";
-                    };
                     class Unit1 {
-                        position[] = {5,-5,0};
-                        rank = "PRIVATE";
-                        side = 2;
-                        vehicle = "cfp_i_is_LR_M2";
-                    };
-                };
-
-                class cfp_i_grp_is_lr_light_support {
-                    name = "IS L.R. Support";
-                    side = 2;
-                    faction = "CFP_I_IS";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
-                    rarityGroup = 0.3;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
+                        position[] = {5,-9,0};
                         rank = "CORPORAL";
-                        side = 2;
-                        vehicle = "cfp_i_is_LR_M2";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
-                        rank = "PRIVATE";
-                        side = 2;
-                        vehicle = "cfp_i_is_LR_SPG9";
-                    };
-                };
-
-                class cfp_i_grp_is_lr_heavy_support {
-                    name = "IS L.R. Heavy Support";
-                    side = 2;
-                    faction = "CFP_I_IS";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
-                    rarityGroup = 0.3;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "CORPORAL";
-                        side = 2;
-                        vehicle = "cfp_i_is_LR_M2";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
-                        rank = "PRIVATE";
-                        side = 2;
-                        vehicle = "cfp_i_is_LR_SPG9";
-                    };
-                    class Unit2 {
-                        position[] = {-5,-5,0};
-                        rank = "PRIVATE";
-                        side = 2;
-                        vehicle = "cfp_i_is_LR_SPG9";
-                    };
-                };
-
-                class cfp_i_grp_is_uaz_mgs {
-                    name = "IS UAZ MGs";
-                    side = 2;
-                    faction = "CFP_I_IS";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
-                    rarityGroup = 0.3;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "CORPORAL";
-                        side = 2;
-                        vehicle = "cfp_i_is_UAZ_MG";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
-                        rank = "PRIVATE";
-                        side = 2;
-                        vehicle = "cfp_i_is_UAZ_MG";
-                    };
-                };
-
-                class cfp_i_grp_is_uaz_light_support {
-                    name = "IS UAZ Support";
-                    side = 2;
-                    faction = "CFP_I_IS";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
-                    rarityGroup = 0.3;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "CORPORAL";
-                        side = 2;
-                        vehicle = "cfp_i_is_UAZ_MG";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
-                        rank = "PRIVATE";
-                        side = 2;
-                        vehicle = "cfp_i_is_UAZ_AGS30";
-                    };
-                };
-
-                class cfp_i_grp_is_uaz_heavy_support {
-                    name = "IS UAZ Heavy Support";
-                    side = 2;
-                    faction = "CFP_I_IS";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
-                    rarityGroup = 0.3;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "CORPORAL";
-                        side = 2;
-                        vehicle = "cfp_i_is_UAZ_MG";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
-                        rank = "PRIVATE";
-                        side = 2;
-                        vehicle = "cfp_i_is_UAZ_AGS30";
-                    };
-                    class Unit2 {
-                        position[] = {-5,-5,0};
-                        rank = "PRIVATE";
-                        side = 2;
-                        vehicle = "cfp_i_is_UAZ_SPG9";
-                    };
-                };
-
-                class cfp_i_grp_is_mixed_technicals_1 {
-                    name = "IS Mixed Technicals 1";
-                    side = 2;
-                    faction = "CFP_I_IS";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
-                    rarityGroup = 0.3;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "CORPORAL";
-                        side = 2;
-                        vehicle = "CFP_I_IS_Hilux_DShKM_01";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
-                        rank = "PRIVATE";
-                        side = 2;
-                        vehicle = "CFP_I_IS_Hilux_SPG_01";
-                    };
-                    class Unit2 {
-                        position[] = {-5,-5,0};
-                        rank = "PRIVATE";
                         side = 2;
                         vehicle = "CFP_I_IS_Hilux_Metis_01";
                     };
+                    class Unit2 {
+                        position[] = {-5,-9,0};
+                        rank = "PRIVATE";
+                        side = 2;
+                        vehicle = "cfp_i_is_grenadier";
+                    };
+                    class Unit3 {
+                        position[] = {10,-14,0};
+                        rank = "PRIVATE";
+                        side = 2;
+                        vehicle = "cfp_i_is_rifleman";
+                    };
                 };
 
-                class cfp_i_grp_is_mixed_technicals_2 {
-                    name = "IS Mixed Technicals 2";
+                class cfp_i_is_motorized_landrover_patrol_mg {
+                    name = "Landrover Patrol [MG]";
                     side = 2;
                     faction = "CFP_I_IS";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\n_motor_inf.paa";
                     rarityGroup = 0.3;
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "CORPORAL";
                         side = 2;
-                        vehicle = "CFP_I_IS_Hilux_DShKM_01";
+                        vehicle = "cfp_i_is_LR_M2";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_IS_Hilux_BTR60_Armored_01";
+                        vehicle = "cfp_i_is_LR_M2";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_IS_Hilux_AGS_30_01";
+                        vehicle = "cfp_i_is_squad_leader";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 2;
+                        vehicle = "cfp_i_is_rifleman";
                     };
                 };
 
-                class cfp_i_grp_is_mixed_technicals_3 {
-                    name = "IS Mixed Technicals 3";
+                class cfp_i_is_motorized_hilux_patrol_mg {
+                    name = "Hilux Patrol [MG]";
                     side = 2;
                     faction = "CFP_I_IS";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\n_motor_inf.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "LIEUTENANT";
+                        side = 2;
+                        vehicle = "CFP_I_IS_Hilux_DShKM_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-9,0};
+                        rank = "SERGEANT";
+                        side = 2;
+                        vehicle = "CFP_I_IS_Hilux_DShKM_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-9,0};
+                        rank = "PRIVATE";
+                        side = 2;
+                        vehicle = "cfp_i_is_team_leader";
+                    };
+                    class Unit3 {
+                        position[] = {10,-14,0};
+                        rank = "PRIVATE";
+                        side = 2;
+                        vehicle = "cfp_i_is_rifleman";
+                    };
+                };
+
+                class cfp_i_is_uaz_mgs {
+                    name = "UAZ MGs";
+                    side = 2;
+                    faction = "CFP_I_IS";
+                    icon = "\A3\ui_f\data\map\markers\nato\n_motor_inf.paa";
                     rarityGroup = 0.3;
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "CORPORAL";
                         side = 2;
-                        vehicle = "CFP_I_IS_Hilux_DShKM_Armored_01";
+                        vehicle = "cfp_i_is_UAZ_MG";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_IS_Hilux_SPG_Armored_01";
+                        vehicle = "cfp_i_is_UAZ_MG";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_IS_Hilux_Metis_Armored_01";
+                        vehicle = "cfp_i_is_grenadier";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 2;
+                        vehicle = "cfp_i_is_rifleman";
                     };
                 };
 
-                class cfp_i_grp_is_mixed_technicals_4 {
-                    name = "IS Mixed Technicals 4";
+                class cfp_i_is_uaz_light_support {
+                    name = "UAZ Support";
                     side = 2;
                     faction = "CFP_I_IS";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\n_motor_inf.paa";
                     rarityGroup = 0.3;
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "CORPORAL";
                         side = 2;
-                        vehicle = "CFP_I_IS_Hilux_DShKM_01";
+                        vehicle = "cfp_i_is_UAZ_MG";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 2;
+                        vehicle = "cfp_i_is_UAZ_METIS";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 2;
+                        vehicle = "cfp_i_is_grenadier";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 2;
+                        vehicle = "cfp_i_is_rifleman";
+                    };
+                };
+
+                class cfp_i_is_motorized_hilux_patrol_zsu {
+                    name = "Hilux Patrol [AA]";
+                    side = 2;
+                    faction = "CFP_I_IS";
+                    icon = "\A3\ui_f\data\map\markers\nato\n_motor_inf.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 2;
+                        vehicle = "CFP_I_IS_Hilux_ZU_23_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-9,0};
                         rank = "PRIVATE";
                         side = 2;
                         vehicle = "CFP_I_IS_Hilux_Igla_01";
                     };
                     class Unit2 {
-                        position[] = {-5,-5,0};
+                        position[] = {-5,-9,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_IS_Hilux_ZU_23_01";
+                        vehicle = "cfp_i_is_rifleman";
+                    };
+                    class Unit3 {
+                        position[] = {10,-14,0};
+                        rank = "PRIVATE";
+                        side = 2;
+                        vehicle = "cfp_i_is_machinegunner";
                     };
                 };
 
-                class cfp_i_grp_is_mixed_technicals_5 {
-                    name = "IS Mixed Technicals 5";
+                class cfp_i_is_motorized_hilux_patrol {
+                    name = "Hilux Patrol ";
                     side = 2;
                     faction = "CFP_I_IS";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
-                    rarityGroup = 0.3;
+                    icon = "\A3\ui_f\data\map\markers\nato\n_motor_inf.paa";
+                    rarityGroup = 0.5;
 
                     class Unit0 {
                         position[] = {0,0,0};
-                        rank = "CORPORAL";
+                        rank = "SERGEANT";
                         side = 2;
-                        vehicle = "CFP_I_IS_Hilux_BMP1_Armored_01";
+                        vehicle = "CFP_I_IS_Hilux_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
+                        rank = "LIEUTENANT";
+                        side = 2;
+                        vehicle = "cfp_i_is_squad_leader";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_IS_Hilux_BTR60_Armored_01";
+                        vehicle = "cfp_i_is_grenadier";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 2;
+                        vehicle = "cfp_i_is_machinegunner";
+                    };
+                    class Unit4 {
+                        position[] = {-10,-10,0};
+                        rank = "PRIVATE";
+                        side = 2;
+                        vehicle = "cfp_i_is_rifleman";
+                    };
+                    class Unit5 {
+                        position[] = {15,-15,0};
+                        rank = "PRIVATE";
+                        side = 2;
+                        vehicle = "cfp_i_is_at";
                     };
                 };
 
@@ -787,268 +799,136 @@ class CfgGroups {
             };
 
             class Support {
-                name = "Support Infantry";
+                name = "Support";
 
             };
 
             class Mechanized {
                 name = "Mechanized";
 
-                class CFP_I_grp_is_bmp1 {
-                    name = "IS BMP-1";
+                class cfp_i_is_bmp1p_section {
+                    name = "BMP-1P Section";
                     side = 2;
                     faction = "CFP_I_IS";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\n_mech_inf.paa";
                     rarityGroup = 0.3;
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "CORPORAL";
                         side = 2;
-                        vehicle = "CFP_I_is_BMP1";
-                    };
-                };
-
-                class CFP_I_grp_is_bmp1_section {
-                    name = "IS BMP-1 Section";
-                    side = 2;
-                    faction = "CFP_I_IS";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
-                    rarityGroup = 0.3;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "CORPORAL";
-                        side = 2;
-                        vehicle = "CFP_I_is_BMP1";
+                        vehicle = "cfp_i_is_BMP1P";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_is_BMP1";
+                        vehicle = "cfp_i_is_BMP1P";
                     };
                 };
 
-                class CFP_I_grp_is_bmp1_platoon {
-                    name = "IS BMP-1 Platoon";
+                class cfp_i_is_bmp1_section {
+                    name = "BMP-1 Section";
                     side = 2;
                     faction = "CFP_I_IS";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\n_mech_inf.paa";
                     rarityGroup = 0.3;
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "CORPORAL";
                         side = 2;
-                        vehicle = "CFP_I_is_BMP1";
+                        vehicle = "cfp_i_is_BMP1";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_is_BMP1";
+                        vehicle = "cfp_i_is_BMP1";
+                    };
+                };
+
+                class cfp_i_is_bmp1p {
+                    name = "BMP-1P";
+                    side = 2;
+                    faction = "CFP_I_IS";
+                    icon = "\A3\ui_f\data\map\markers\nato\n_mech_inf.paa";
+                    rarityGroup = 0.3;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "CORPORAL";
+                        side = 2;
+                        vehicle = "cfp_i_is_BMP1P";
+                    };
+                };
+
+                class cfp_i_is_mechanized_infantry_bmp1 {
+                    name = "Mechanized Infantry [BMP1]";
+                    side = 2;
+                    faction = "CFP_I_IS";
+                    icon = "\A3\ui_f\data\map\markers\nato\n_mech_inf.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {-5,-5,0};
+                        rank = "SERGEANT";
+                        side = 2;
+                        vehicle = "cfp_i_is_BMP1";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "LIEUTENANT";
+                        side = 2;
+                        vehicle = "cfp_i_is_squad_leader";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_is_BMP1";
+                        vehicle = "cfp_i_is_grenadier";
                     };
-                };
-
-                class CFP_I_grp_is_bmp1p {
-                    name = "IS BMP-1P";
-                    side = 2;
-                    faction = "CFP_I_IS";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
-                    rarityGroup = 0.3;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "CORPORAL";
-                        side = 2;
-                        vehicle = "CFP_I_is_BMP1P";
-                    };
-                };
-
-                class CFP_I_grp_is_bmp1p_section {
-                    name = "IS BMP-1P Section";
-                    side = 2;
-                    faction = "CFP_I_IS";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
-                    rarityGroup = 0.3;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "CORPORAL";
-                        side = 2;
-                        vehicle = "CFP_I_is_BMP1P";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
+                    class Unit3 {
+                        position[] = {10,-10,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_is_BMP1P";
+                        vehicle = "cfp_i_is_machinegunner";
                     };
-                };
-
-                class CFP_I_grp_is_bmp1p_platoon {
-                    name = "IS BMP-1P Platoon";
-                    side = 2;
-                    faction = "CFP_I_IS";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
-                    rarityGroup = 0.3;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "CORPORAL";
-                        side = 2;
-                        vehicle = "CFP_I_is_BMP1P";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
+                    class Unit4 {
+                        position[] = {-10,-10,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_is_BMP1P";
+                        vehicle = "cfp_i_is_at";
                     };
-                    class Unit2 {
-                        position[] = {-5,-5,0};
+                    class Unit5 {
+                        position[] = {15,-15,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_is_BMP1P";
+                        vehicle = "cfp_i_is_medic";
                     };
-                };
-
-                class CFP_I_grp_is_bmp2 {
-                    name = "IS BMP-2";
-                    side = 2;
-                    faction = "CFP_I_IS";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
-                    rarityGroup = 0.3;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "CORPORAL";
-                        side = 2;
-                        vehicle = "CFP_I_is_BMP2";
-                    };
-                };
-
-                class CFP_I_grp_is_bmp2_section {
-                    name = "IS BMP-2 Section";
-                    side = 2;
-                    faction = "CFP_I_IS";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
-                    rarityGroup = 0.3;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "CORPORAL";
-                        side = 2;
-                        vehicle = "CFP_I_is_BMP2";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
+                    class Unit6 {
+                        position[] = {-15,-15,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_is_BMP2";
+                        vehicle = "cfp_i_is_sapper";
                     };
-                };
-
-                class CFP_I_grp_is_bmp2_platoon {
-                    name = "IS BMP-2 Platoon";
-                    side = 2;
-                    faction = "CFP_I_IS";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
-                    rarityGroup = 0.3;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "CORPORAL";
-                        side = 2;
-                        vehicle = "CFP_I_is_BMP2";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
+                    class Unit7 {
+                        position[] = {20,-20,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_is_BMP2";
+                        vehicle = "cfp_i_is_rifleman";
                     };
-                    class Unit2 {
-                        position[] = {-5,-5,0};
+                    class Unit8 {
+                        position[] = {-20,-20,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_is_BMP2";
+                        vehicle = "cfp_i_is_rifleman";
                     };
-                };
-
-                class CFP_I_grp_is_bmps_mixed_1 {
-                    name = "IS BMPs Mixed 1";
-                    side = 2;
-                    faction = "CFP_I_IS";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
-                    rarityGroup = 0.3;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "CORPORAL";
-                        side = 2;
-                        vehicle = "CFP_I_is_BMP2";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
+                    class Unit9 {
+                        position[] = {25,-25,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_is_BMP1";
-                    };
-                };
-
-                class CFP_I_grp_is_bmps_mixed_2 {
-                    name = "IS BMPs Mixed 2";
-                    side = 2;
-                    faction = "CFP_I_IS";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
-                    rarityGroup = 0.3;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "CORPORAL";
-                        side = 2;
-                        vehicle = "CFP_I_is_BMP2";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
-                        rank = "PRIVATE";
-                        side = 2;
-                        vehicle = "CFP_I_is_BMP1P";
-                    };
-                };
-
-                class CFP_I_grp_is_bmps_mixed_3 {
-                    name = "IS BMPs Mixed 3";
-                    side = 2;
-                    faction = "CFP_I_IS";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
-                    rarityGroup = 0.3;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "CORPORAL";
-                        side = 2;
-                        vehicle = "CFP_I_is_BMP2";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
-                        rank = "PRIVATE";
-                        side = 2;
-                        vehicle = "CFP_I_is_BMP1P";
-                    };
-                    class Unit2 {
-                        position[] = {-5,-5,0};
-                        rank = "PRIVATE";
-                        side = 2;
-                        vehicle = "CFP_I_is_BMP1";
+                        vehicle = "cfp_i_is_rifleman";
                     };
                 };
 
@@ -1057,198 +937,117 @@ class CfgGroups {
             class Armored {
                 name = "Armored";
 
-                class CFP_I_grp_is_t55 {
-                    name = "IS T-55";
+                class cfp_i_is_t55 {
+                    name = "T-55";
                     side = 2;
                     faction = "CFP_I_IS";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
-                    rarityGroup = 0.3;
+                    icon = "\A3\ui_f\data\map\markers\nato\n_armor.paa";
+                    rarityGroup = 0.5;
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "CORPORAL";
                         side = 2;
-                        vehicle = "CFP_I_is_T55";
+                        vehicle = "cfp_i_is_T55";
                     };
                 };
 
-                class CFP_I_grp_is_t55_section {
-                    name = "IS T-55 Section";
+                class cfp_i_is_t55_section {
+                    name = "T-55 Section";
                     side = 2;
                     faction = "CFP_I_IS";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\n_armor.paa";
                     rarityGroup = 0.3;
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "CORPORAL";
                         side = 2;
-                        vehicle = "CFP_I_is_T55";
+                        vehicle = "cfp_i_is_T55";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_is_T55";
+                        vehicle = "cfp_i_is_T55";
                     };
                 };
 
-                class CFP_I_grp_is_t55_platoon {
-                    name = "IS T-55 Platoon";
+                class cfp_i_is_mixed_armor_2 {
+                    name = "Mixed Armor 2";
                     side = 2;
                     faction = "CFP_I_IS";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
+                    icon = "";
                     rarityGroup = 0.3;
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "CORPORAL";
                         side = 2;
-                        vehicle = "CFP_I_is_T55";
+                        vehicle = "cfp_i_is_T55";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_is_T55";
-                    };
-                    class Unit2 {
-                        position[] = {-5,-5,0};
-                        rank = "PRIVATE";
-                        side = 2;
-                        vehicle = "CFP_I_is_T55";
+                        vehicle = "cfp_i_is_BMP1P";
                     };
                 };
 
-                class CFP_I_grp_is_t72 {
-                    name = "IS T-72";
+                class cfp_i_is_ZSU {
+                    name = "ZSU";
                     side = 2;
                     faction = "CFP_I_IS";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
+                    icon = "";
                     rarityGroup = 0.3;
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "CORPORAL";
                         side = 2;
-                        vehicle = "CFP_I_is_T72";
+                        vehicle = "cfp_i_is_ZSU";
                     };
                 };
 
-                class CFP_I_grp_is_t72_section {
-                    name = "IS T-72 Section";
+                class cfp_i_is_mixed_armor_1 {
+                    name = "Mixed Armor 1";
                     side = 2;
                     faction = "CFP_I_IS";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
+                    icon = "";
                     rarityGroup = 0.3;
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "CORPORAL";
                         side = 2;
-                        vehicle = "CFP_I_is_T72";
+                        vehicle = "cfp_i_is_T55";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_is_T72";
+                        vehicle = "cfp_i_is_BMP1";
                     };
                 };
 
-                class CFP_I_grp_is_t72_platoon {
-                    name = "IS T-72 Platoon";
+                class cfp_i_is_armored_mixed_armor_3 {
+                    name = "Mixed Armor 3";
                     side = 2;
                     faction = "CFP_I_IS";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\n_armor.paa";
                     rarityGroup = 0.3;
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "CORPORAL";
                         side = 2;
-                        vehicle = "CFP_I_is_T72";
+                        vehicle = "cfp_i_is_T55";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_is_T72";
-                    };
-                    class Unit2 {
-                        position[] = {-5,-5,0};
-                        rank = "PRIVATE";
-                        side = 2;
-                        vehicle = "CFP_I_is_T72";
-                    };
-                };
-
-                class CFP_I_grp_is_mixed_armor_1 {
-                    name = "IS Mixed Armor 1";
-                    side = 2;
-                    faction = "CFP_I_IS";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
-                    rarityGroup = 0.3;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "CORPORAL";
-                        side = 2;
-                        vehicle = "CFP_I_is_T72";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
-                        rank = "PRIVATE";
-                        side = 2;
-                        vehicle = "CFP_I_is_T55";
-                    };
-                };
-
-                class CFP_I_grp_is_mixed_armor_2 {
-                    name = "IS Mixed Armor 2";
-                    side = 2;
-                    faction = "CFP_I_IS";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
-                    rarityGroup = 0.3;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "CORPORAL";
-                        side = 2;
-                        vehicle = "CFP_I_is_T72";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
-                        rank = "PRIVATE";
-                        side = 2;
-                        vehicle = "CFP_I_is_BMP2";
-                    };
-                };
-
-                class CFP_I_grp_is_mixed_armor_3 {
-                    name = "IS Mixed Armor 3";
-                    side = 2;
-                    faction = "CFP_I_IS";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_armor.paa";
-                    rarityGroup = 0.3;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "CORPORAL";
-                        side = 2;
-                        vehicle = "CFP_I_is_T72";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
-                        rank = "PRIVATE";
-                        side = 2;
-                        vehicle = "CFP_I_is_BMP2";
-                    };
-                    class Unit2 {
-                        position[] = {-5,-5,0};
-                        rank = "PRIVATE";
-                        side = 2;
-                        vehicle = "CFP_I_is_T55";
+                        vehicle = "cfp_i_is_BMP1P";
                     };
                 };
 

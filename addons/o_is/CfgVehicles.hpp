@@ -2,6 +2,8 @@
 #define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
 #define item_xx(a,b) class _xx_##a {name = a; count = b;}
 
+#include "\x\cfp\addons\vehicles\inventory_macro\main.hpp"
+
 class CBA_Extended_EventHandlers_base;
 
 class CfgVehicles {
@@ -1288,6 +1290,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_IS";
         crew = "cfp_o_is_crewman";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class Turrets : Turrets {
             class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
@@ -1344,6 +1350,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_IS";
         crew = "cfp_o_is_crewman";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "cfp_o_is_crewman"; };
@@ -1397,6 +1407,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_IS";
         crew = "cfp_o_is_crewman";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "cfp_o_is_crewman"; };
@@ -1450,6 +1464,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_IS";
         crew = "cfp_o_is_crewman";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "cfp_o_is_crewman"; };
@@ -1503,6 +1521,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_IS";
         crew = "cfp_o_is_crewman";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "cfp_o_is_crewman"; };
@@ -1556,6 +1578,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_IS";
         crew = "cfp_o_is_crewman";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "cfp_o_is_crewman"; };
@@ -1609,6 +1635,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_IS";
         crew = "cfp_o_is_crewman";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "cfp_o_is_crewman"; };
@@ -1662,6 +1692,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_IS";
         crew = "cfp_o_is_crewman";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "cfp_o_is_crewman"; };
@@ -1715,6 +1749,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_IS";
         crew = "cfp_o_is_crewman";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "cfp_o_is_crewman"; };
@@ -1768,6 +1806,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_IS";
         crew = "cfp_o_is_crewman";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "cfp_o_is_crewman"; };
@@ -1820,15 +1862,23 @@ class CfgVehicles {
       displayname = "Hilux Armored";
       faction = "CFP_O_IS";
       crew = "cfp_o_is_crewman";
+      TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
     };
 
     class CUP_Hilux_armored_DSHKM_Base;
     class CFP_O_IS_Hilux_DSHKM_Armored_01: CUP_Hilux_armored_DSHKM_Base {
-      scope = 2;
-      side = 0;
-      displayname = "Hilux Armored [DSHKM]";
-      faction = "CFP_O_IS";
-      crew = "cfp_o_is_crewman";
+        scope = 2;
+        side = 0;
+        displayname = "Hilux Armored [DSHKM]";
+        faction = "CFP_O_IS";
+        crew = "cfp_o_is_crewman";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
     };
 
     class CUP_Hilux_armored_SPG9_Base;
@@ -1838,6 +1888,10 @@ class CfgVehicles {
       displayname = "Hilux Armored [SPG-9]";
       faction = "CFP_O_IS";
       crew = "cfp_o_is_crewman";
+      TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+      TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+      TRANSPORTITEMSMEDIUM
+      TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
     };
 
     class CUP_Hilux_armored_igla_Base;
@@ -1847,6 +1901,10 @@ class CfgVehicles {
       displayname = "Hilux Armored [Igla]";
       faction = "CFP_O_IS";
       crew = "cfp_o_is_crewman";
+      TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
     };
 
     class CUP_Hilux_armored_metis_Base;
@@ -1856,6 +1914,10 @@ class CfgVehicles {
       displayname = "Hilux Armored [Metis]";
       faction = "CFP_O_IS";
       crew = "cfp_o_is_crewman";
+      TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
     };
 
     class CUP_Hilux_armored_podnos_Base;
@@ -1865,6 +1927,10 @@ class CfgVehicles {
       displayname = "Hilux Armored [Podnos]";
       faction = "CFP_O_IS";
       crew = "cfp_o_is_crewman";
+      TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
     };
 
     class CUP_Hilux_armored_MLRS_Base;
@@ -1874,6 +1940,10 @@ class CfgVehicles {
       displayname = "Hilux Armored [MLRS]";
       faction = "CFP_O_IS";
       crew = "cfp_o_is_crewman";
+      TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
     };
 
     class CUP_Hilux_armored_zu23_Base;
@@ -1883,6 +1953,10 @@ class CfgVehicles {
       displayname = "Hilux Armored [ZU-23-2]";
       faction = "CFP_O_IS";
       crew = "cfp_o_is_crewman";
+      TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
     };
 
     class CUP_Hilux_armored_BMP1_Base;
@@ -1892,6 +1966,10 @@ class CfgVehicles {
       displayname = "Hilux Armored [BMP-1 Turret]";
       faction = "CFP_O_IS";
       crew = "cfp_o_is_crewman";
+      TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
     };
 
     class CUP_Hilux_armored_BTR60_Base;
@@ -1901,6 +1979,10 @@ class CfgVehicles {
       displayname = "Hilux Armored [BTR-60 Turret]";
       faction = "CFP_O_IS";
       crew = "cfp_o_is_crewman";
+      TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
     };
 
     class CUP_Hilux_armored_AGS30_Base;
@@ -1910,6 +1992,10 @@ class CfgVehicles {
       displayname = "Hilux Armored [AGS-30]";
       faction = "CFP_O_IS";
       crew = "cfp_o_is_crewman";
+      TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
     };
 
     class CUP_Hilux_armored_UB32_Base;
@@ -1919,6 +2005,10 @@ class CfgVehicles {
       displayname = "Hilux Armored [UB-32]";
       faction = "CFP_O_IS";
       crew = "cfp_o_is_crewman";
+      TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
     };
 
     class Offroad_01_base_F;
@@ -1935,6 +2025,10 @@ class CfgVehicles {
         typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman"};
         hiddenSelections[] = {"camo","camo2"};
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\offroad\offroad_isis_01.paa","\x\cfp\addons\vehicles\offroad\offroad_isis_01.paa"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -1970,6 +2064,10 @@ class CfgVehicles {
         typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman"};
         hiddenSelections[] = {"camo","camo2"};
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\offroad\offroad_isis_02.paa","\x\cfp\addons\vehicles\offroad\offroad_isis_02.paa"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -2005,6 +2103,10 @@ class CfgVehicles {
         typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman"};
         hiddenSelections[] = {"camo","camo2"};
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\offroad\offroad_isis_02.paa","\x\cfp\addons\vehicles\offroad\offroad_isis_02.paa"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -2030,6 +2132,10 @@ class CfgVehicles {
 
         hiddenSelections[] = {"camo","camo2","camo3","camo4"};
         hiddenSelectionsTextures[] = {"\x\cfp\addons\vehicles\Jeep\offroad_02_ext_muddy.paa","\x\cfp\addons\vehicles\Jeep\offroad_02_ext_muddy.paa","\x\cfp\addons\vehicles\Jeep\offroad_02_int_muddy.paa","\x\cfp\addons\vehicles\Jeep\offroad_02_int_muddy.paa"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -2055,6 +2161,10 @@ class CfgVehicles {
 
         hiddenSelections[] = {"camo","camo2","camo3","camo4"};
         hiddenSelectionsTextures[] = {"\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_olive_co.paa","\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_ext_olive_co.paa","\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_olive_co.paa","\A3\Soft_F_Exp\Offroad_02\Data\offroad_02_int_olive_co.paa"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -2078,6 +2188,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_o_is_crewman";
         typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -2098,6 +2212,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_o_is_crewman";
         typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -2121,6 +2239,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_o_is_crewman";
         typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -2142,6 +2264,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_o_is_crewman";
         typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -2163,6 +2289,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_o_is_crewman";
         typicalCargo[] = {"cfp_o_is_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -2184,6 +2314,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_o_is_crewman";
         typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -2205,6 +2339,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_o_is_crewman";
         typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -2226,6 +2364,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_o_is_crewman";
         typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -2247,6 +2389,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_o_is_crewman";
         typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -2268,6 +2414,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_o_is_crewman";
         typicalCargo[] = {"cfp_o_is_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -2289,6 +2439,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_o_is_crewman";
         typicalCargo[] = {"cfp_o_is_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -2309,6 +2463,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_o_is_crewman";
         typicalCargo[] = {"cfp_o_is_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
     };
     class CUP_B_HMMWV_AGS_GPK_ACR;
     class CUP_B_HMMWV_AGS_GPK_ACR_OCimport_01 : CUP_B_HMMWV_AGS_GPK_ACR { scope = 0; class EventHandlers; class Turrets; };
@@ -2322,6 +2480,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_o_is_crewman";
         typicalCargo[] = {"cfp_o_is_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
     };
     class CUP_O_Ural_CHDKZ;
     class CUP_O_Ural_CHDKZ_OCimport_01 : CUP_O_Ural_CHDKZ { scope = 0; class EventHandlers; class Turrets; };
@@ -2335,6 +2497,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_o_is_crewman";
         typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -2356,6 +2522,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_o_is_crewman";
         typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -2377,6 +2547,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_o_is_crewman";
         typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -2413,6 +2587,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_o_is_crewman";
         typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman","cfp_o_is_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -2450,6 +2628,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_o_is_crewman";
         typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman","cfp_o_is_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -2486,6 +2668,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_o_is_crewman";
         typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman","cfp_o_is_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -2522,6 +2708,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_o_is_crewman";
         typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman","cfp_o_is_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -2558,6 +2748,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_o_is_crewman";
         typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman","cfp_o_is_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -2579,6 +2773,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_o_is_crewman";
         typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman","cfp_o_is_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -2600,6 +2798,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_o_is_crewman";
         typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -2636,6 +2838,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_o_is_crewman";
         typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman","cfp_o_is_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -2672,6 +2878,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_o_is_crewman";
         typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman","cfp_o_is_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -2693,6 +2903,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_o_is_crewman";
         typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman","cfp_o_is_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -2715,6 +2929,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_o_is_crewman";
         typicalCargo[] = {"cfp_o_is_crewman","cfp_o_is_crewman","cfp_o_is_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON
@@ -2736,6 +2954,7 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_o_is_crewman";
         typicalCargo[] = {"cfp_o_is_crewman"};
+
     };
     class CUP_O_DSHKM_TK_INS;
     class CUP_O_DSHKM_TK_INS_OCimport_01 : CUP_O_DSHKM_TK_INS { scope = 0; class EventHandlers; class Turrets; };

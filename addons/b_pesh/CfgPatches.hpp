@@ -37,9 +37,9 @@ class CfgPatches
             "cfp_b_pesh_HMMWV_M2",
             "cfp_b_pesh_Ural",
             "cfp_b_pesh_Ural_ZU23",
-			"cfp_b_pesh_Ural_Refuel_01",
-			"cfp_b_pesh_Ural_Repair_01",
-			"cfp_b_pesh_Ural_Ammo_01",
+		"cfp_b_pesh_Ural_Refuel_01",
+		"cfp_b_pesh_Ural_Repair_01",
+		"cfp_b_pesh_Ural_Ammo_01",
             "cfp_b_pesh_BRDM",
             "cfp_b_pesh_BTR60",
             "cfp_b_pesh_BMP1",
@@ -51,7 +51,7 @@ class CfgPatches
             "cfp_b_pesh_dshkm",
             "cfp_b_pesh_dshkm_minitripod",
             "cfp_b_pesh_zu23",
-			"ISC_Flag_Kurdistan"
+		"ISC_Flag_Kurdistan"
 		};
 		weapons[] = {
 			"PESH_Vest",

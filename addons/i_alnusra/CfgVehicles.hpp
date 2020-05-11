@@ -2,6 +2,8 @@
 #define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
 #define item_xx(a,b) class _xx_##a {name = a; count = b;}
 
+#include "\x\cfp\addons\vehicles\inventory_macro\main.hpp"
+
 class CBA_Extended_EventHandlers_base;
 
 class CfgVehicles {
@@ -9,6 +11,99 @@ class CfgVehicles {
     class O_Soldier_F;
     class O_Soldier_F_OCimport_01 : O_Soldier_F { scope = 0; class EventHandlers; };
     class O_Soldier_F_OCimport_02 : O_Soldier_F_OCimport_01 { class EventHandlers; };
+
+    class CUP_I_Hilux_unarmed_TK;
+    class CUP_I_Hilux_unarmed_TK_OCimport_01 : CUP_I_Hilux_unarmed_TK { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_I_Hilux_unarmed_TK_OCimport_02 : CUP_I_Hilux_unarmed_TK_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class CargoTurret_01;
+            class CargoTurret_02;
+            class CargoTurret_03;
+            class CargoTurret_04;
+        };
+    };
+
+    class CUP_I_Hilux_DSHKM_TK;
+    class CUP_I_Hilux_DSHKM_TK_OCimport_01 : CUP_I_Hilux_DSHKM_TK { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_I_Hilux_DSHKM_TK_OCimport_02 : CUP_I_Hilux_DSHKM_TK_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
+    class CUP_I_Hilux_SPG9_TK;
+    class CUP_I_Hilux_SPG9_TK_OCimport_01 : CUP_I_Hilux_SPG9_TK { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_I_Hilux_SPG9_TK_OCimport_02 : CUP_I_Hilux_SPG9_TK_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
+    class CUP_I_Hilux_igla_TK;
+    class CUP_I_Hilux_igla_TK_OCimport_01 : CUP_I_Hilux_igla_TK { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_I_Hilux_igla_TK_OCimport_02 : CUP_I_Hilux_igla_TK_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
+    class CUP_I_Hilux_metis_TK;
+    class CUP_I_Hilux_metis_TK_OCimport_01 : CUP_I_Hilux_metis_TK { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_I_Hilux_metis_TK_OCimport_02 : CUP_I_Hilux_metis_TK_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
+    class CUP_I_Hilux_podnos_TK;
+    class CUP_I_Hilux_podnos_TK_OCimport_01 : CUP_I_Hilux_podnos_TK { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_I_Hilux_podnos_TK_OCimport_02 : CUP_I_Hilux_podnos_TK_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
+    class CUP_I_Hilux_MLRS_TK;
+    class CUP_I_Hilux_MLRS_TK_OCimport_01 : CUP_I_Hilux_MLRS_TK { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_I_Hilux_MLRS_TK_OCimport_02 : CUP_I_Hilux_MLRS_TK_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
+    class CUP_I_Hilux_zu23_TK;
+    class CUP_I_Hilux_zu23_TK_OCimport_01 : CUP_I_Hilux_zu23_TK { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_I_Hilux_zu23_TK_OCimport_02 : CUP_I_Hilux_zu23_TK_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
+    class CUP_I_Hilux_AGS30_TK;
+    class CUP_I_Hilux_AGS30_TK_OCimport_01 : CUP_I_Hilux_AGS30_TK { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_I_Hilux_AGS30_TK_OCimport_02 : CUP_I_Hilux_AGS30_TK_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
+
+    class CUP_I_Hilux_UB32_TK;
+    class CUP_I_Hilux_UB32_TK_OCimport_01 : CUP_I_Hilux_UB32_TK { scope = 0; class EventHandlers; class Turrets; };
+    class CUP_I_Hilux_UB32_TK_OCimport_02 : CUP_I_Hilux_UB32_TK_OCimport_01 {
+        class EventHandlers;
+        class Turrets : Turrets {
+            class MainTurret;
+        };
+    };
 
     class cfp_i_alNusra_team_leader : O_Soldier_F_OCimport_02 {
         editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_team_leader.JPG;
@@ -515,6 +610,26 @@ class CfgVehicles {
 
     };
 
+    class cfp_i_alNusra_asst_gunner_dshkm : cfp_i_alNusra_team_leader {
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_rifleman_dshkm.JPG;
+
+        displayName = "al-Nusra Asst Gunner [DSHKM]";
+
+        linkedItems[] = {"CFP_AK_VEST_Lime","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CFP_AK_VEST_Lime","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_AKM"};
+        respawnWeapons[] = {"CUP_arifle_AKM"};
+
+        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+
+        backpack = "CUP_B_DShkM_Gun_Bag";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CUP_I_B_PMC_Unit_14",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",1,1},{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_Lime",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_DShkM_Gun_Bag",{}},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+
+    };
+
     class cfp_i_alNusra_rifleman_kord : cfp_i_alNusra_team_leader {
         editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_rifleman_kord.JPG;
 
@@ -532,6 +647,26 @@ class CfgVehicles {
         backpack = "CUP_B_Kord_Tripod_Bag";
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_FieldUniform_tanblack_SS",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",1,1},{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CUP_V_OI_TKI_Jacket3_03",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_Kord_Tripod_Bag",{}},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+
+    };
+
+    class cfp_i_alNusra_asst_gunner_kord : cfp_i_alNusra_team_leader {
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_rifleman_kord.JPG;
+
+        displayName = "al-Nusra Asst Gunner [KORD]";
+
+        linkedItems[] = {"CUP_V_OI_TKI_Jacket3_03","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CUP_V_OI_TKI_Jacket3_03","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_AK47"};
+        respawnWeapons[] = {"CUP_arifle_AK47"};
+
+        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+
+        backpack = "CUP_B_Kord_Gun_Bag";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_FieldUniform_tanblack_SS",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",1,1},{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CUP_V_OI_TKI_Jacket3_03",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_Kord_Gun_Bag",{}},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -555,6 +690,26 @@ class CfgVehicles {
 
     };
 
+    class cfp_i_alNusra_asst_gunner_podnos : cfp_i_alNusra_team_leader {
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_rifleman_podnos.JPG;
+
+        displayName = "al-Nusra Asst Gunner [Podnos]";
+
+        linkedItems[] = {"V_TacVest_khk","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"V_TacVest_khk","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_AK47"};
+        respawnWeapons[] = {"CUP_arifle_AK47"};
+
+        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+
+        backpack = "CUP_B_Podnos_Gun_Bag";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK47","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"CFP_U_WorkUniform_BlackGrey",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",1,1},{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"V_TacVest_khk",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_Podnos_Gun_Bag",{}},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+
+    };
+
     class cfp_i_alNusra_rifleman_ags30 : cfp_i_alNusra_grenadier {
         editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_rifleman_ags30.JPG;
 
@@ -572,6 +727,26 @@ class CfgVehicles {
         backpack = "CUP_B_AGS30_Tripod_Bag";
 
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"SP_0000_Standard_FieldUniform_Black_SS",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",1,1},{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"SP_Modular1_Black",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_AGS30_Tripod_Bag",{}},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+
+    };
+
+    class cfp_i_alNusra_asst_gunner_ags30 : cfp_i_alNusra_grenadier {
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_rifleman_ags30.JPG;
+
+        displayName = "al-Nusra Asst Gunner [AGS30]";
+
+        linkedItems[] = {"SP_Modular1_Black","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"SP_Modular1_Black","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_AKS"};
+        respawnWeapons[] = {"CUP_arifle_AKS"};
+
+        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+
+        backpack = "CUP_B_AGS30_Gun_Bag";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKS","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"SP_0000_Standard_FieldUniform_Black_SS",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",1,1},{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"SP_Modular1_Black",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_AGS30_Gun_Bag",{}},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
@@ -595,6 +770,26 @@ class CfgVehicles {
 
     };
 
+    class cfp_i_alNusra_asst_gunner_spg9 : cfp_i_alNusra_machinegunner {
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_rifleman_spg9.JPG;
+
+        displayName = "al-Nusra Asst Gunner [SPG9]";
+
+        linkedItems[] = {"CFP_AK_VEST_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"CFP_AK_VEST_Tan","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_AK74M_railed"};
+        respawnWeapons[] = {"CUP_arifle_AK74M_railed"};
+
+        magazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_30Rnd_545x39_AK74M_M"};
+        respawnMagazines[] = {"CUP_30Rnd_545x39_AK74M_M","CUP_30Rnd_545x39_AK74M_M"};
+
+        backpack = "CUP_B_SPG9_Gun_Bag";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed","","","",{"CUP_30Rnd_545x39_AK74M_M",30},{},""},{},{},{"SP_0000_Standard_BattleDressUniform_Black",{{"FirstAidKit",1},{"CUP_30Rnd_545x39_AK74M_M",2,30},{"CUP_HandGrenade_RGD5",1,1}}},{"CFP_AK_VEST_Tan",{{"CUP_30Rnd_545x39_AK74M_M",4,30}}},{"CUP_B_SPG9_Gun_Bag",{}},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+
+    };
+
     class cfp_i_alNusra_rifleman_metis : cfp_i_alNusra_machinegunner {
         editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_rifleman_metis.JPG;
 
@@ -615,11 +810,31 @@ class CfgVehicles {
 
     };
 
+    class cfp_i_alNusra_asst_gunner_metis : cfp_i_alNusra_machinegunner {
+        editorPreview = \x\cfp\addons\i_alnusra\data\preview\cfp_i_alNusra_rifleman_metis.JPG;
+
+        displayName = "al-Nusra Asst Gunner [METIS]";
+
+        linkedItems[] = {"V_TacVest_khk","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+        respawnlinkedItems[] = {"V_TacVest_khk","ItemMap","ItemRadio","ItemCompass","ItemWatch"};
+
+        weapons[] = {"CUP_arifle_AKM"};
+        respawnWeapons[] = {"CUP_arifle_AKM"};
+
+        magazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+        respawnMagazines[] = {"CUP_30Rnd_762x39_AK47_M","CUP_30Rnd_762x39_AK47_M"};
+
+        backpack = "CUP_B_Metis_Gun_Bag";
+
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{},{},{"SP_0000_Standard_FieldUniform_Black",{{"FirstAidKit",1},{"CUP_HandGrenade_RGD5",1,1},{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"V_TacVest_khk",{{"CUP_30Rnd_762x39_AK47_M",4,30}}},{"CUP_B_Metis_Gun_Bag",{}},"","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+
+    };
+
     class FlagCarrier;
     class FlagCarrier_OCimport_01 : FlagCarrier { scope = 0; class Eventhandlers; };
     class ISC_Flag_alNusra : FlagCarrier_OCimport_01
     {
-        author = "AccuracythruVolume";
+        author = "CFP";
         displayName = "Flag (al-Nusra)";
         scope = 2;
         scopeCurator = 2;
@@ -629,6 +844,478 @@ class CfgVehicles {
                 init = "(_this select 0) setFlagTexture '\x\cfp\addons\i_alnusra\data\ISC_flag_alNusra.paa'";
             };
         };
+    };
+
+    class CFP_I_ALNUSRA_Hilux_01 : CUP_I_Hilux_unarmed_TK_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Hilux";
+        side = 2;
+        faction = "CFP_I_ALNUSRA";
+        crew = "cfp_i_alNusra_crewman";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
+
+        class Turrets : Turrets {
+            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
+            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
+            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
+            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
+        };
+
+        randomTextureProbability = 100;
+
+        // Hilux Skins
+        textureList[] = {
+            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"}, 0.3,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.2,
+        };
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_I_ALNUSRA_Hilux_DShKM_01 : CUP_I_Hilux_DSHKM_TK_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Hilux [DShKM]";
+        side = 2;
+        faction = "CFP_I_ALNUSRA";
+        crew = "cfp_i_alNusra_crewman";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "cfp_i_alNusra_crewman"; };
+        };
+
+        randomTextureProbability = 100;
+
+        // Hilux Skins
+        textureList[] = {
+            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"}, 0.3,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.2,
+        };
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_I_ALNUSRA_Hilux_SPG_01 : CUP_I_Hilux_SPG9_TK_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Hilux [SPG-9]";
+        side = 2;
+        faction = "CFP_I_ALNUSRA";
+        crew = "cfp_i_alNusra_crewman";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "cfp_i_alNusra_crewman"; };
+        };
+
+    randomTextureProbability = 100;
+
+        // Hilux Skins
+        textureList[] = {
+            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"}, 0.3,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.2,
+        };
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_I_ALNUSRA_Hilux_Igla_01 : CUP_I_Hilux_igla_TK_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Hilux [Igla]";
+        side = 2;
+        faction = "CFP_I_ALNUSRA";
+        crew = "cfp_i_alNusra_crewman";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "cfp_i_alNusra_crewman"; };
+        };
+
+        randomTextureProbability = 100;
+
+        // Hilux Skins
+        textureList[] = {
+            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"}, 0.3,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.2,
+        };
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_I_ALNUSRA_Hilux_Metis_01 : CUP_I_Hilux_metis_TK_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Hilux [Metis]";
+        side = 2;
+        faction = "CFP_I_ALNUSRA";
+        crew = "cfp_i_alNusra_crewman";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "cfp_i_alNusra_crewman"; };
+        };
+
+        randomTextureProbability = 100;
+
+        // Hilux Skins
+        textureList[] = {
+            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"}, 0.3,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.2,
+        };
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_I_ALNUSRA_Hilux_Podnos_01 : CUP_I_Hilux_podnos_TK_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Hilux [Podnos]";
+        side = 2;
+        faction = "CFP_I_ALNUSRA";
+        crew = "cfp_i_alNusra_crewman";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "cfp_i_alNusra_crewman"; };
+        };
+
+        randomTextureProbability = 100;
+
+        // Hilux Skins
+        textureList[] = {
+            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"}, 0.3,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.2,
+        };
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_I_ALNUSRA_Hilux_MLRS_01 : CUP_I_Hilux_MLRS_TK_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Hilux [MLRS]";
+        side = 2;
+        faction = "CFP_I_ALNUSRA";
+        crew = "cfp_i_alNusra_crewman";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "cfp_i_alNusra_crewman"; };
+        };
+
+        randomTextureProbability = 100;
+
+        // Hilux Skins
+        textureList[] = {
+            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"}, 0.3,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.2,
+        };
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_I_ALNUSRA_Hilux_ZU_23_01 : CUP_I_Hilux_zu23_TK_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Hilux [ZU-23-2]";
+        side = 2;
+        faction = "CFP_I_ALNUSRA";
+        crew = "cfp_i_alNusra_crewman";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "cfp_i_alNusra_crewman"; };
+        };
+
+        randomTextureProbability = 100;
+
+        // Hilux Skins
+        textureList[] = {
+            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"}, 0.3,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.2,
+        };
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_I_ALNUSRA_Hilux_AGS_30_01 : CUP_I_Hilux_AGS30_TK_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Hilux [AGS-30]";
+        side = 2;
+        faction = "CFP_I_ALNUSRA";
+        crew = "cfp_i_alNusra_crewman";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "cfp_i_alNusra_crewman"; };
+        };
+
+        randomTextureProbability = 100;
+
+        // Hilux Skins
+        textureList[] = {
+            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"}, 0.3,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.2,
+        };
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
+    };
+
+    class CFP_I_ALNUSRA_Hilux_UB_32_01 : CUP_I_Hilux_UB32_TK_OCimport_02 {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Hilux [UB-32]";
+        side = 2;
+        faction = "CFP_I_ALNUSRA";
+        crew = "cfp_i_alNusra_crewman";
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
+
+        class Turrets : Turrets {
+            class MainTurret : MainTurret { gunnerType = "cfp_i_alNusra_crewman"; };
+        };
+
+        randomTextureProbability = 100;
+
+        // Hilux Skins
+        textureList[] = {
+            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"}, 0.3,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"}, 0.2,
+            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.2,
+        };
+
+        class EventHandlers : EventHandlers {
+            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+
+            class ALiVE_orbatCreator {
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+            };
+
+        };
+
+        // custom attributes (do not delete)
+        ALiVE_orbatCreator_owned = 1;
+
     };
 
     class Offroad_01_base_F;
@@ -645,6 +1332,10 @@ class CfgVehicles {
         typicalCargo[] = {"cfp_i_alNusra_crewman","cfp_i_alNusra_crewman"};
         hiddenSelections[] = {"camo","camo2"};
         hiddenSelectionsTextures[] = {"\x\cfp\addons\i_alnusra\data\offroad_an_01.paa","\x\cfp\addons\i_alnusra\data\offroad_an_01.paa"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON {
@@ -667,6 +1358,10 @@ class CfgVehicles {
         typicalCargo[] = {"cfp_i_alNusra_crewman","cfp_i_alNusra_crewman"};
         hiddenSelections[] = {"camo","camo2"};
         hiddenSelectionsTextures[] = {"\x\cfp\addons\i_alnusra\data\offroad_an_02.paa","\x\cfp\addons\i_alnusra\data\offroad_an_02.paa"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON {
@@ -687,6 +1382,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_i_alNusra_crewman";
         typicalCargo[] = {"cfp_i_alNusra_crewman","cfp_i_alNusra_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON {
@@ -706,6 +1405,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_i_alNusra_crewman";
         typicalCargo[] = {"cfp_i_alNusra_crewman","cfp_i_alNusra_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON {
@@ -726,6 +1429,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_i_alNusra_crewman";
         typicalCargo[] = {"cfp_i_alNusra_crewman","cfp_i_alNusra_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON {
@@ -746,6 +1453,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_i_alNusra_crewman";
         typicalCargo[] = {"cfp_i_alNusra_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON {
@@ -766,6 +1477,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_i_alNusra_crewman";
         typicalCargo[] = {"cfp_i_alNusra_crewman","cfp_i_alNusra_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON {
@@ -786,6 +1501,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_i_alNusra_crewman";
         typicalCargo[] = {"cfp_i_alNusra_crewman","cfp_i_alNusra_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON {
@@ -806,6 +1525,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_i_alNusra_crewman";
         typicalCargo[] = {"cfp_i_alNusra_crewman","cfp_i_alNusra_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON {
@@ -826,6 +1549,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_i_alNusra_crewman";
         typicalCargo[] = {"cfp_i_alNusra_crewman","cfp_i_alNusra_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON {
@@ -845,6 +1572,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_i_alNusra_crewman";
         typicalCargo[] = {"cfp_i_alNusra_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON {
@@ -865,6 +1596,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_i_alNusra_crewman";
         typicalCargo[] = {"cfp_i_alNusra_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON {
@@ -884,6 +1619,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_i_alNusra_crewman";
         typicalCargo[] = {"cfp_i_alNusra_crewman","cfp_i_alNusra_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON {
@@ -904,6 +1643,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_i_alNusra_crewman";
         typicalCargo[] = {"cfp_i_alNusra_crewman","cfp_i_alNusra_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON {
@@ -924,6 +1667,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_i_alNusra_crewman";
         typicalCargo[] = {"cfp_i_alNusra_crewman","cfp_i_alNusra_crewman","cfp_i_alNusra_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON {
@@ -944,6 +1691,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_i_alNusra_crewman";
         typicalCargo[] = {"cfp_i_alNusra_crewman","cfp_i_alNusra_crewman","cfp_i_alNusra_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON {
@@ -964,6 +1715,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_i_alNusra_crewman";
         typicalCargo[] = {"cfp_i_alNusra_crewman","cfp_i_alNusra_crewman","cfp_i_alNusra_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON {
@@ -984,6 +1739,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_i_alNusra_crewman";
         typicalCargo[] = {"cfp_i_alNusra_crewman","cfp_i_alNusra_crewman","cfp_i_alNusra_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON {
@@ -1004,6 +1763,10 @@ class CfgVehicles {
         camouflage = 4;
         crew = "cfp_i_alNusra_crewman";
         typicalCargo[] = {"cfp_i_alNusra_crewman","cfp_i_alNusra_crewman","cfp_i_alNusra_crewman"};
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
         class EventHandlers : EventHandlers
         {
             class ADDON {
