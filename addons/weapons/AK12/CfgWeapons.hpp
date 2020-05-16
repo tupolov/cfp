@@ -15,7 +15,7 @@
 		baseWeapon = "CFP_AK12_GL_Woodland";
 		displayName = "AK12 GL (Woodland)";
 		hiddenSelections[] = {"camo1","camo2","camo3"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\weapons\AK12\ak12atacs1.paa","\x\cfp\addons\weapons\AK12\ak12atacs2.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\weapons\AK12\ak12atacs1.paa","\x\cfp\addons\weapons\AK12\ak12atacs2.paa","\x\cfp\addons\weapons\AK12\ak12atacs3.paa"};
 	};
 	class CFP_AK12_Desert: arifle_AK12_F
 	{
@@ -32,7 +32,7 @@
 		baseWeapon = "CFP_AK12_GL_Desert";
 		displayName = "AK12 GL (Desert)";
 		hiddenSelections[] = {"camo1","camo2","camo3"};
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\weapons\AK12\ak12atacsau1.paa","\x\cfp\addons\weapons\AK12\ak12atacsau2.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\weapons\AK12\ak12atacsau1.paa","\x\cfp\addons\weapons\AK12\ak12atacsau2.paa","\x\cfp\addons\weapons\AK12\ak12atacsau3.paa"};
 	};
 
 
