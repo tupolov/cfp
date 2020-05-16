@@ -490,18 +490,6 @@ class CfgVehicles {
         };
     };
 
-    class CUP_B_MH47E_USA;
-    class CUP_B_MH47E_USA_OCimport_01 : CUP_B_MH47E_USA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_B_MH47E_USA_OCimport_02 : CUP_B_MH47E_USA_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-            class RightDoorGun;
-            class CoPilotObs;
-        };
-    };
-
-
     class CFP_B_USARMY_1991_Rifleman_Des_01 : CUP_B_US_Soldier_OCimport_02 {
         editorPreview = \x\CFP\addons\b_usarmy_1991_Des\data\preview\CFP_B_USARMY_1991_Rifleman_Des_01.JPG;
         author = "Drew";
@@ -911,15 +899,15 @@ class CfgVehicles {
         linkedItems[] = {"CFP_US_pasgt_alice_SAW_ERDL","CFP_PASGTHelmet_DBDU1","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
         respawnlinkedItems[] = {"CFP_US_pasgt_alice_SAW_ERDL","CFP_PASGTHelmet_DBDU1","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
 
-        weapons[] = {"CUP_lmg_M240"};
-        respawnWeapons[] = {"CUP_lmg_M240"};
+        weapons[] = {"CUP_lmg_M60"};
+        respawnWeapons[] = {"CUP_lmg_M60"};
 
         magazines[] = {"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
         respawnMagazines[] = {"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M","CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M"};
 
         backpack = "CUP_B_AlicePack_OD";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_M240","","","",{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",100},{},""},{},{},{"CFP_BDU_DBDU2",{{"FirstAidKit",1},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1}}},{"CFP_US_pasgt_alice_SAW_ERDL",{{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",1,100}}},{"CUP_B_AlicePack_OD",{{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",2,100}}},"CFP_PASGTHelmet_DBDU1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_lmg_M60","","","",{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",100},{},""},{},{},{"CFP_BDU_DBDU2",{{"FirstAidKit",1},{"CUP_HandGrenade_M67",1,1},{"SmokeShell",1,1}}},{"CFP_US_pasgt_alice_SAW_ERDL",{{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",1,100}}},{"CUP_B_AlicePack_OD",{{"CUP_100Rnd_TE4_LRT4_Red_Tracer_762x51_Belt_M",2,100}}},"CFP_PASGTHelmet_DBDU1","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"}};
 
     };
 
@@ -2710,44 +2698,14 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_USARMY_1991_DES";
         crew = "CFP_B_USARMY_1991_Crewman_Des_01";
+        hiddenSelectionsTextures[] = {
+                    "cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m163_vulcan_01_desert_co.paa",
+                    "cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m163_vulcan_02_desert_co.paa"
+                };
 
         class Turrets : Turrets {
             class MainTurret : MainTurret { gunnerType = "CFP_B_USARMY_1991_Crewman_Des_01"; };
         };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;_unit setObjectTextureGlobal [0,'cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m163_vulcan_01_Des_co.paa'];_unit setObjectTextureGlobal [1,'cup\TrackedVehicles\CUP_TrackedVehicles_M113\data\m163_vulcan_02_Des_co.paa'];};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-        ALiVE_orbatCreator_texture = "desert";
-
-    };
-
-    class CFP_B_USARMY_1991_DES_MH_47E_Des_01 : CUP_B_MH47E_USA_OCimport_02 {
-        author = "Drew";
-        scope = 2;
-        scopeCurator = 2;
-        displayName = "MH-47E";
-        side = 1;
-        faction = "CFP_B_USARMY_1991_DES";
-        crew = "CFP_B_USARMY_1991_Pilot_Des_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_USARMY_1991_Pilot_Des_01"; };
-            class RightDoorGun : RightDoorGun { gunnerType = "CFP_B_USARMY_1991_Pilot_Des_01"; };
-            class CoPilotObs : CoPilotObs { gunnerType = "CFP_B_USARMY_1991_Pilot_Des_01"; };
-        };
-
-
 
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
@@ -2762,7 +2720,6 @@ class CfgVehicles {
         ALiVE_orbatCreator_owned = 1;
 
     };
-
 
     class CUP_USBasicAmmunitionBox; // CUP_USBasicAmmunitionBox
     class CUP_USBasicWeaponsBox; // CUP_USBasicWeaponsBox
@@ -2835,7 +2792,7 @@ class CfgVehicles {
             weap_xx(CUP_hgun_M9,10);
             weap_xx(CUP_hgun_Colt1911,10);
             weap_xx(CUP_lmg_M249,10);
-            weap_xx(CUP_lmg_M240,10);
+            weap_xx(CUP_lmg_M60,10);
             weap_xx(CUP_srifle_M24_des,10);
             weap_xx(CUP_srifle_M107_Desert,10);
             weap_xx(CUP_srifle_M14,10);
@@ -2971,7 +2928,7 @@ class CfgVehicles {
             weap_xx(CUP_hgun_M9,10);
             weap_xx(CUP_hgun_Colt1911,10);
             weap_xx(CUP_lmg_M249,10);
-            weap_xx(CUP_lmg_M240,10);
+            weap_xx(CUP_lmg_M60,10);
             weap_xx(CUP_srifle_M24_des,10);
             weap_xx(CUP_srifle_M107_Desert,10);
             weap_xx(CUP_srifle_M14,10);

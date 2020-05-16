@@ -64,7 +64,6 @@ class CfgPatches {
             "CFP_B_USARMY_1991_MH_6J_Recon_WDL_01",
             "CFP_B_USARMY_1991_AH_6M_WDL_01",
             "CFP_B_USARMY_1991_M163A1_VADS_WDL_01",
-            "CFP_B_USARMY_1991_MH_47E_WDL_01",
             "CFP_B_USARMY_1991_SF_Rifleman_WDL_01",
             "CFP_B_USARMY_1991_SF_Grenadier_WDL_01",
             "CFP_B_USARMY_1991_SF_Team_Leader_WDL_01",
