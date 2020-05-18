@@ -8,8 +8,8 @@ class CfgFactionClasses {
     class CFP_I_SSArmy {
         displayName = "South Sudan People's Defense Force";
         side = 2;
-        flag = "x\cfp\addons\i_ssarmy\Data\UI\SSudan.paa";
-        icon = "x\cfp\addons\i_ssarmy\Data\UI\SSudan.paa";
+        flag = "";
+        icon = "";
         priority = 0;
     };
 };
