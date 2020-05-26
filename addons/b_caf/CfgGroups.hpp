@@ -895,7 +895,7 @@ class CfgGroups {
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 0;
+                        side = 1;
                         vehicle = "CFP_B_CAF_Hilux_MLRS_01";
                     };
                 };
@@ -910,7 +910,7 @@ class CfgGroups {
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 0;
+                        side = 1;
                         vehicle = "CFP_B_CAF_Hilux_Podnos_01";
                     };
                 };
