@@ -305,13 +305,19 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_GBARMY_Asst_Gunner_M2_WDL_01";
+                        vehicle = "CFP_B_GBARMY_Section_Leader_WDL_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
                         vehicle = "CFP_B_GBARMY_Gunner_M2_High_WDL_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_GBARMY_Asst_Gunner_M2_WDL_01";
                     };
                 };
 
@@ -326,13 +332,19 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_GBARMY_Asst_Gunner_M2Low_WDL_01";
+                        vehicle = "CFP_B_GBARMY_Section_Leader_WDL_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
                         vehicle = "CFP_B_GBARMY_Gunner_M2_Low_WDL_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_GBARMY_Asst_Gunner_M2Low_WDL_01";
                     };
                 };
 
@@ -347,13 +359,19 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_GBARMY_Asst_Gunner_Mortar_WDL_01";
+                        vehicle = "CFP_B_GBARMY_Section_Leader_WDL_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
                         vehicle = "CFP_B_GBARMY_Gunner_Mortar_WDL_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_GBARMY_Asst_Gunner_Mortar_WDL_01";
                     };
                 };
 
@@ -368,13 +386,19 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_GBARMY_Asst_Gunner_TOW_WDL_01";
+                        vehicle = "CFP_B_GBARMY_Section_Leader_WDL_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
                         vehicle = "CFP_B_GBARMY_Gunner_TOW_WDL_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CFP_B_GBARMY_Asst_Gunner_TOW_WDL_01";
                     };
                 };
 

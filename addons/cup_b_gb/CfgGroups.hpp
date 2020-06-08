@@ -305,13 +305,19 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CUP_B_GB_Asst_Gunner_M2_DES_01";
+                        vehicle = "CUP_B_BAF_Soldier_TL_MTP";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
                         vehicle = "CUP_B_GB_Gunner_M2_High_DES_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_GB_Asst_Gunner_M2_DES_01";
                     };
                 };
 
@@ -326,13 +332,19 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CUP_B_GB_Asst_Gunner_M2Low_DES_01";
+                        vehicle = "CUP_B_BAF_Soldier_TL_MTP";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
                         vehicle = "CUP_B_GB_Gunner_M2_Low_DES_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_GB_Asst_Gunner_M2Low_DES_01";
                     };
                 };
 
@@ -347,13 +359,19 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CUP_B_GB_Asst_Gunner_Mortar_DES_01";
+                        vehicle = "CUP_B_BAF_Soldier_TL_MTP";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
                         vehicle = "CUP_B_GB_Gunner_Mortar_DES_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_GB_Asst_Gunner_Mortar_DES_01";
                     };
                 };
 
@@ -368,13 +386,19 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CUP_B_GB_Asst_Gunner_TOW_DES_01";
+                        vehicle = "CUP_B_BAF_Soldier_TL_MTP";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 1;
                         vehicle = "CUP_B_GB_Gunner_TOW_DES_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 1;
+                        vehicle = "CUP_B_GB_Asst_Gunner_TOW_DES_01";
                     };
                 };
 

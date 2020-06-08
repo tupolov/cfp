@@ -602,13 +602,19 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_O_HEZBOLLAH_Asst_Gunner_DShKM_01";
+                        vehicle = "CFP_O_HEZBOLLAH_Paramilitary_Squad_Leader_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 0;
                         vehicle = "CFP_O_HEZBOLLAH_Gunner_DShKM_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HEZBOLLAH_Asst_Gunner_DShKM_01";
                     };
                 };
 
@@ -619,6 +625,24 @@ class CfgGroups {
                     icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
                     rarityGroup = 0.5;
 
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_HEZBOLLAH_Paramilitary_Squad_Leader_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HEZBOLLAH_Gunner_DShKM_Low_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HEZBOLLAH_Asst_Gunner_DShKM_01";
+                    };
                 };
 
                 class cfp_o_hezbollah_infantry_tow_at_team {
@@ -632,13 +656,19 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_O_HEZBOLLAH_Asst_Gunner_TOW_01";
+                        vehicle = "CFP_O_HEZBOLLAH_Paramilitary_Squad_Leader_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 0;
                         vehicle = "CFP_O_HEZBOLLAH_Gunner_TOW_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HEZBOLLAH_Asst_Gunner_TOW_01";
                     };
                 };
 
@@ -653,13 +683,19 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_O_HEZBOLLAH_Asst_Gunner_Metis_01";
+                        vehicle = "CFP_O_HEZBOLLAH_Paramilitary_Squad_Leader_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 0;
                         vehicle = "CFP_O_HEZBOLLAH_Gunner_Metis_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HEZBOLLAH_Asst_Gunner_Metis_01";
                     };
                 };
 
@@ -674,13 +710,19 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_O_HEZBOLLAH_Asst_Gunner_SPG_01";
+                        vehicle = "CFP_O_HEZBOLLAH_Paramilitary_Squad_Leader_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 0;
                         vehicle = "CFP_O_HEZBOLLAH_Gunner_SPG_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HEZBOLLAH_Asst_Gunner_SPG_01";
                     };
                 };
 
@@ -695,13 +737,19 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_O_HEZBOLLAH_Asst_Gunner_Mortar_01";
+                        vehicle = "CFP_O_HEZBOLLAH_Paramilitary_Squad_Leader_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 0;
                         vehicle = "CFP_O_HEZBOLLAH_Gunner_Mortar_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_HEZBOLLAH_Asst_Gunner_Mortar_01";
                     };
                 };
 

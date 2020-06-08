@@ -210,6 +210,138 @@ class CfgGroups {
             class SpecOps {
                 name = "Special Forces";
 
+                class o_cfp_support_medical_team_asg {
+                    name = "Medical Team";
+                    side = 0;
+                    faction = "CFP_O_ABUSAYYAF";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_ABUSAYYAF_Team_Leader_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_ABUSAYYAF_Autorifleman_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_ABUSAYYAF_Surgeon_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_ABUSAYYAF_Militia_01";
+                    };
+                };
+
+                class o_cfp_support_demolitions_team_asg {
+                    name = "Demolitions Team";
+                    side = 0;
+                    faction = "CFP_O_ABUSAYYAF";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_ABUSAYYAF_Team_Leader_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_ABUSAYYAF_Grenadier_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_ABUSAYYAF_IED_Specialist_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_ABUSAYYAF_Rifleman_01";
+                    };
+                };
+
+                class o_cfp_support_machinegun_team_asg {
+                    name = "Machinegun Team";
+                    side = 0;
+                    faction = "CFP_O_ABUSAYYAF";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_ABUSAYYAF_Team_Leader_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_ABUSAYYAF_Machinegunner_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_ABUSAYYAF_Scout_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_ABUSAYYAF_Rifleman_Light_01";
+                    };
+                };
+
+                class o_cfp_support_anti_tank_team_asg {
+                    name = "Anti-Tank Team";
+                    side = 0;
+                    faction = "CFP_O_ABUSAYYAF";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
+                    rarityGroup = 0.5;
+
+                    class Unit0 {
+                        position[] = {0,0,0};
+                        rank = "SERGEANT";
+                        side = 0;
+                        vehicle = "CFP_O_ABUSAYYAF_Team_Leader_01";
+                    };
+                    class Unit1 {
+                        position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_ABUSAYYAF_Machinegunner_01";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_ABUSAYYAF_RPG_Gunner_01";
+                    };
+                    class Unit3 {
+                        position[] = {10,-10,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_ABUSAYYAF_RPG_Gunner_01";
+                    };
+                };
+
             };
 
             class Motorized {
@@ -368,138 +500,6 @@ class CfgGroups {
 
             class Support {
                 name = "Support Infantry";
-
-                class o_cfp_support_medical_team_asg {
-                    name = "Medical Team";
-                    side = 0;
-                    faction = "CFP_O_ABUSAYYAF";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
-                    rarityGroup = 0.5;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "SERGEANT";
-                        side = 0;
-                        vehicle = "CFP_O_ABUSAYYAF_Team_Leader_01";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_ABUSAYYAF_Autorifleman_01";
-                    };
-                    class Unit2 {
-                        position[] = {-5,-5,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_ABUSAYYAF_Surgeon_01";
-                    };
-                    class Unit3 {
-                        position[] = {10,-10,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_ABUSAYYAF_Militia_01";
-                    };
-                };
-
-                class o_cfp_support_demolitions_team_asg {
-                    name = "Demolitions Team";
-                    side = 0;
-                    faction = "CFP_O_ABUSAYYAF";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
-                    rarityGroup = 0.5;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "SERGEANT";
-                        side = 0;
-                        vehicle = "CFP_O_ABUSAYYAF_Team_Leader_01";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_ABUSAYYAF_Grenadier_01";
-                    };
-                    class Unit2 {
-                        position[] = {-5,-5,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_ABUSAYYAF_IED_Specialist_01";
-                    };
-                    class Unit3 {
-                        position[] = {10,-10,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_ABUSAYYAF_Rifleman_01";
-                    };
-                };
-
-                class o_cfp_support_machinegun_team_asg {
-                    name = "Machinegun Team";
-                    side = 0;
-                    faction = "CFP_O_ABUSAYYAF";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
-                    rarityGroup = 0.5;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "SERGEANT";
-                        side = 0;
-                        vehicle = "CFP_O_ABUSAYYAF_Team_Leader_01";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_ABUSAYYAF_Machinegunner_01";
-                    };
-                    class Unit2 {
-                        position[] = {-5,-5,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_ABUSAYYAF_Scout_01";
-                    };
-                    class Unit3 {
-                        position[] = {10,-10,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_ABUSAYYAF_Rifleman_Light_01";
-                    };
-                };
-
-                class o_cfp_support_anti_tank_team_asg {
-                    name = "Anti-Tank Team";
-                    side = 0;
-                    faction = "CFP_O_ABUSAYYAF";
-                    icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
-                    rarityGroup = 0.5;
-
-                    class Unit0 {
-                        position[] = {0,0,0};
-                        rank = "SERGEANT";
-                        side = 0;
-                        vehicle = "CFP_O_ABUSAYYAF_Team_Leader_01";
-                    };
-                    class Unit1 {
-                        position[] = {5,-5,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_ABUSAYYAF_Machinegunner_01";
-                    };
-                    class Unit2 {
-                        position[] = {-5,-5,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_ABUSAYYAF_RPG_Gunner_01";
-                    };
-                    class Unit3 {
-                        position[] = {10,-10,0};
-                        rank = "PRIVATE";
-                        side = 0;
-                        vehicle = "CFP_O_ABUSAYYAF_RPG_Gunner_01";
-                    };
-                };
 
             };
 

@@ -17,7 +17,7 @@ class CfgGroups {
                     name = "Squad";
                     side = 0;
                     faction = "CFP_O_SDARMY";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
@@ -86,7 +86,7 @@ class CfgGroups {
                     name = "Riot Squad";
                     side = 0;
                     faction = "CFP_O_SDARMY";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_inf.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
@@ -235,7 +235,7 @@ class CfgGroups {
                     name = "Mechanized Paratrooper Squad";
                     side = 0;
                     faction = "CFP_O_SDARMY";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
@@ -340,8 +340,8 @@ class CfgGroups {
                     name = "Sniper Team";
                     side = 0;
                     faction = "CFP_O_SDARMY";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_support.paa";
-                    rarityGroup = 0.5;
+                    icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
+                    rarityGroup = 0.2;
 
                     class Unit0 {
                         position[] = {0,0,0};
@@ -361,17 +361,23 @@ class CfgGroups {
                     name = "Mortar Crew";
                     side = 0;
                     faction = "CFP_O_SDARMY";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_support.paa";
-                    rarityGroup = 0.5;
+                    icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
+                    rarityGroup = 0.2;
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_O_SDARMY_Soldier_27";
+                        vehicle = "CFP_O_SDARMY_Soldier_21";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_SDARMY_Soldier_27";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 0;
                         vehicle = "CFP_O_SDARMY_Soldier_28";
@@ -382,17 +388,23 @@ class CfgGroups {
                     name = "HMG Team";
                     side = 0;
                     faction = "CFP_O_SDARMY";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_support.paa";
-                    rarityGroup = 0.5;
+                    icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
+                    rarityGroup = 0.2;
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_O_SDARMY_Soldier_24";
+                        vehicle = "CFP_O_SDARMY_Soldier_21";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_SDARMY_Soldier_24";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 0;
                         vehicle = "CFP_O_SDARMY_Soldier_23";
@@ -403,17 +415,23 @@ class CfgGroups {
                     name = "HMG Team (Low)";
                     side = 0;
                     faction = "CFP_O_SDARMY";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_support.paa";
-                    rarityGroup = 0.5;
+                    icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
+                    rarityGroup = 0.2;
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_O_SDARMY_Soldier_25";
+                        vehicle = "CFP_O_SDARMY_Soldier_21";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 0;
+                        vehicle = "CFP_O_SDARMY_Soldier_25";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 0;
                         vehicle = "CFP_O_SDARMY_Soldier_23";
@@ -424,26 +442,26 @@ class CfgGroups {
                     name = "AT Team";
                     side = 0;
                     faction = "CFP_O_SDARMY";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_support.paa";
-                    rarityGroup = 0.5;
+                    icon = "\A3\ui_f\data\map\markers\nato\o_support.paa";
+                    rarityGroup = 0.2;
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 0;
-                        vehicle = "CFP_O_SDARMY_Soldier_29";
+                        vehicle = "CFP_O_SDARMY_Soldier_03";    //Rifleman (AT)
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "CORPORAL";
                         side = 0;
-                        vehicle = "CFP_O_SDARMY_Soldier_28";
+                        vehicle = "CFP_O_SDARMY_Soldier_29";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 0;
-                        vehicle = "CFP_O_SDARMY_Soldier_03";
+                        vehicle = "CFP_O_SDARMY_Soldier_28";
                     };
                 };
 
@@ -456,7 +474,7 @@ class CfgGroups {
                     name = "AA Patrol";
                     side = 0;
                     faction = "CFP_O_SDARMY";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_antiair.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_antiair.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
@@ -489,7 +507,7 @@ class CfgGroups {
                     name = "Motorized Squad";
                     side = 0;
                     faction = "CFP_O_SDARMY";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
@@ -606,7 +624,7 @@ class CfgGroups {
                     name = "Motorized Squad (Open)";
                     side = 0;
                     faction = "CFP_O_SDARMY";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
@@ -723,7 +741,7 @@ class CfgGroups {
                     name = "Patrol";
                     side = 0;
                     faction = "CFP_O_SDARMY";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
@@ -780,7 +798,7 @@ class CfgGroups {
                     name = "Motorized Squad (Light)";
                     side = 0;
                     faction = "CFP_O_SDARMY";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
@@ -897,7 +915,7 @@ class CfgGroups {
                     name = "AT Patrol";
                     side = 0;
                     faction = "CFP_O_SDARMY";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
@@ -918,7 +936,7 @@ class CfgGroups {
                     name = "Motorized Police";
                     side = 0;
                     faction = "CFP_O_SDARMY";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_motor_inf.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_motor_inf.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
@@ -1023,7 +1041,7 @@ class CfgGroups {
                     name = "Mechanized Squad (BTR-60)";
                     side = 0;
                     faction = "CFP_O_SDARMY";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
@@ -1122,7 +1140,7 @@ class CfgGroups {
                     name = "Mechanized Squad (BTR-80)";
                     side = 0;
                     faction = "CFP_O_SDARMY";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
@@ -1221,7 +1239,7 @@ class CfgGroups {
                     name = "Mechanized Squad (BTR-80A)";
                     side = 0;
                     faction = "CFP_O_SDARMY";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
@@ -1320,7 +1338,7 @@ class CfgGroups {
                     name = "Scout Car";
                     side = 0;
                     faction = "CFP_O_SDARMY";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
@@ -1353,7 +1371,7 @@ class CfgGroups {
                     name = "Mechanized Squad (BMP-1)";
                     side = 0;
                     faction = "CFP_O_SDARMY";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
@@ -1440,7 +1458,7 @@ class CfgGroups {
                     name = "Mechanized Squad (BMP-2)";
                     side = 0;
                     faction = "CFP_O_SDARMY";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
@@ -1521,7 +1539,7 @@ class CfgGroups {
                     name = "Mechanized AA Patrol";
                     side = 0;
                     faction = "CFP_O_SDARMY";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_antiair.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_antiair.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {
@@ -1536,7 +1554,7 @@ class CfgGroups {
                     name = "Mechanized Squad (Walid)";
                     side = 0;
                     faction = "CFP_O_SDARMY";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
+                    icon = "\A3\ui_f\data\map\markers\nato\o_mech_inf.paa";
                     rarityGroup = 0.5;
 
                     class Unit0 {

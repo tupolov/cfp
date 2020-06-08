@@ -458,16 +458,22 @@ class CfgGroups {
                     side = 2;
                     faction = "CFP_I_SSArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\n_support.paa";
-                    rarityGroup = 0.2;
+                    rarityGroup = 0.5;
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 2;
-                        vehicle = "CFP_I_SSArmy_Soldier_15";
+                        vehicle = "CFP_I_SSArmy_Soldier_09";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 2;
+                        vehicle = "CFP_I_SSArmy_Soldier_15";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 2;
                         vehicle = "CFP_I_SSArmy_Soldier_17";
@@ -479,16 +485,22 @@ class CfgGroups {
                     side = 2;
                     faction = "CFP_I_SSArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\n_support.paa";
-                    rarityGroup = 0.2;
+                    rarityGroup = 0.5;
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 2;
-                        vehicle = "CFP_I_SSArmy_Soldier_16";
+                        vehicle = "CFP_I_SSArmy_Soldier_09";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 2;
+                        vehicle = "CFP_I_SSArmy_Soldier_16";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 2;
                         vehicle = "CFP_I_SSArmy_Soldier_17";
@@ -500,25 +512,25 @@ class CfgGroups {
                     side = 2;
                     faction = "CFP_I_SSArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\n_support.paa";
-                    rarityGroup = 0.3;
+                    rarityGroup = 0.5;
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 2;
-                        vehicle = "CFP_I_SSArmy_Soldier_18";
+                        vehicle = "CFP_I_SSArmy_Soldier_09";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "CORPORAL";
                         side = 2;
-                        vehicle = "CFP_I_SSArmy_Soldier_19";
+                        vehicle = "CFP_I_SSArmy_Soldier_18";
                     };
                     class Unit2 {
                         position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 2;
-                        vehicle = "CFP_I_SSArmy_Soldier_03";
+                        vehicle = "CFP_I_SSArmy_Soldier_19";
                     };
                     class Unit3 {
                         position[] = {10,-10,0};
@@ -533,16 +545,22 @@ class CfgGroups {
                     side = 2;
                     faction = "CFP_I_SSArmy";
                     icon = "\A3\ui_f\data\map\markers\nato\n_support.paa";
-                    rarityGroup = 0.2;
+                    rarityGroup = 0.5;
 
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 2;
-                        vehicle = "CFP_I_SSArmy_Soldier_20";
+                        vehicle = "CFP_I_SSArmy_Soldier_09";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
+                        rank = "PRIVATE";
+                        side = 2;
+                        vehicle = "CFP_I_SSArmy_Soldier_20";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
                         rank = "PRIVATE";
                         side = 2;
                         vehicle = "CFP_I_SSArmy_Soldier_21";

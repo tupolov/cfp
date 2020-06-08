@@ -158,13 +158,19 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 2;
-                        vehicle = "CFP_I_SDRebelsrf_Soldier_10";
+                        vehicle = "CFP_I_SDRebelsrf_Soldier_17";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 2;
                         vehicle = "CFP_I_SDRebelsrf_Soldier_12";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "SERGEANT";
+                        side = 2;
+                        vehicle = "CFP_I_SDRebelsrf_Soldier_10";
                     };
                 };
 
@@ -179,13 +185,19 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 2;
-                        vehicle = "CFP_I_SDRebelsrf_Soldier_11";
+                        vehicle = "CFP_I_SDRebelsrf_Soldier_17";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 2;
                         vehicle = "CFP_I_SDRebelsrf_Soldier_12";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "SERGEANT";
+                        side = 2;
+                        vehicle = "CFP_I_SDRebelsrf_Soldier_11";
                     };
                 };
 
@@ -200,13 +212,19 @@ class CfgGroups {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
                         side = 2;
-                        vehicle = "CFP_I_SDRebelsrf_Soldier_13";
+                        vehicle = "CFP_I_SDRebelsrf_Soldier_17";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
                         side = 2;
                         vehicle = "CFP_I_SDRebelsrf_Soldier_14";
+                    };
+                    class Unit2 {
+                        position[] = {-5,-5,0};
+                        rank = "SERGEANT";
+                        side = 2;
+                        vehicle = "CFP_I_SDRebelsrf_Soldier_13";
                     };
                 };
 
