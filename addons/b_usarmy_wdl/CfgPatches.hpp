@@ -115,7 +115,8 @@ class CfgPatches {
             "CFP_B_USARMY_US_SpecOps_Night",
             "CFP_B_USARMY_US_SpecOps_M",
             "CFP_B_USARMY_US_SpecOps_M14",
-            "CFP_B_USARMY_US_SpecOps_JTAC"
+            "CFP_B_USARMY_US_SpecOps_JTAC",
+            "CFP_B_USArmy_OCP_Soldier"
         };
         weapons[] = {};
         requiredAddons[] = {

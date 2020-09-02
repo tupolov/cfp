@@ -507,7 +507,7 @@ class CfgGroups {
 
                 class CFP_O_RUARMY_infantry_KORD_team_high {
                     name = "KORD MG Team";
-                    side = 1;
+                    side = 0;
                     faction = "CFP_O_RUARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.5;
@@ -515,20 +515,20 @@ class CfgGroups {
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 1;
+                        side = 0;
                         vehicle = "CFP_O_RUARMY_Asst_Gunner_KORD_DES_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
-                        side = 1;
+                        side = 0;
                         vehicle = "CFP_O_RUARMY_Gunner_KORD_High_DES_01";
                     };
                 };
 
                 class CFP_O_RUARMY_infantry_mortar_team {
                     name = "Mortar Team";
-                    side = 1;
+                    side = 0;
                     faction = "CFP_O_RUARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.5;
@@ -536,20 +536,20 @@ class CfgGroups {
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 1;
+                        side = 0;
                         vehicle = "CFP_O_RUARMY_Asst_Gunner_Mortar_DES_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
-                        side = 1;
+                        side = 0;
                         vehicle = "CFP_O_RUARMY_Gunner_Mortar_DES_01";
                     };
                 };
 
                 class CFP_O_RUARMY_infantry_METIS_team {
                     name = "METIS Team";
-                    side = 1;
+                    side = 0;
                     faction = "CFP_O_RUARMY";
                     icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
                     rarityGroup = 0.5;
@@ -557,13 +557,13 @@ class CfgGroups {
                     class Unit0 {
                         position[] = {0,0,0};
                         rank = "SERGEANT";
-                        side = 1;
+                        side = 0;
                         vehicle = "CFP_O_RUARMY_Asst_Gunner_METIS_DES_01";
                     };
                     class Unit1 {
                         position[] = {5,-5,0};
                         rank = "PRIVATE";
-                        side = 1;
+                        side = 0;
                         vehicle = "CFP_O_RUARMY_Gunner_METIS_DES_01";
                     };
                 };
