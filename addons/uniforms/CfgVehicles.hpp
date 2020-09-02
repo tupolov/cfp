@@ -13,4 +13,5 @@ class CfgVehicles {
 	#include "75Uniform\CfgVehicles.hpp"
 	#include "Guerrilla\CfgVehicles.hpp"
 	#include "BDU\CfgVehicles.hpp"
+	#include "ACU\CfgVehicles.hpp"
 };

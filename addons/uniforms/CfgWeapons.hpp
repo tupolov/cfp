@@ -35,4 +35,5 @@ class CfgWeapons {
 	#include "75Uniform\CfgWeapons.hpp"
 	#include "Guerrilla\CfgWeapons.hpp"
 	#include "BDU\CfgWeapons.hpp"
+	#include "ACU\CfgWeapons.hpp"
 };
