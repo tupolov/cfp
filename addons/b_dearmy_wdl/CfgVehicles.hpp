@@ -8,12 +8,14 @@
 #define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
 #define item_xx(a,b) class _xx_##a {name = a; count = b;}
 
+#include "\x\cfp\addons\vehicles\inventory_macro\main.hpp"
+
 class CBA_Extended_EventHandlers_base;
 
 class CfgEditorSubCategories
 {
     class CFP_EdSubcat_Personnel_Camo_KFleck { displayName = "KSK (Woodland)";  };
-    class CFP_EdSubcat_Personnel_Camo_MFleck { displayName = "Men (Flecktarn)";  };
+    class CFP_EdSubcat_Personnel_Camo_MFleck { displayName = "Men (Woodland)";  };
 };
 
 class CfgVehicles {
@@ -155,15 +157,6 @@ class CfgVehicles {
     class CUP_B_US_Pilot;
     class CUP_B_US_Pilot_OCimport_01 : CUP_B_US_Pilot { scope = 0; class EventHandlers; };
     class CUP_B_US_Pilot_OCimport_02 : CUP_B_US_Pilot_OCimport_01 { class EventHandlers; };
-
-    class I_MRAP_03_F;
-    class I_MRAP_03_F_OCimport_01 : I_MRAP_03_F { scope = 0; class EventHandlers; class Turrets; };
-    class I_MRAP_03_F_OCimport_02 : I_MRAP_03_F_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class CommanderTurret;
-        };
-    };
 
     class B_recon_F;
     class B_recon_F_OCimport_01 : B_recon_F { scope = 0; class EventHandlers; };
@@ -382,6 +375,12 @@ class CfgVehicles {
         editorSubcategory = "CFP_EdSubcat_Personnel_Camo_KFleck";
 
     };
+    class CUP_B_GER_BW_Fleck_Soldier_PZF_AT : CUP_B_GER_Soldier_AT {
+
+        faction = "CFP_B_DEARMY_WDL";
+        editorSubcategory = "CFP_EdSubcat_Personnel_Camo_KFleck";
+
+    };
     class CFP_B_DEARMY_WDL_Pilot_01 : CUP_B_US_Pilot_OCimport_02 {
         author = "Drew";
         scope = 1;
@@ -480,6 +479,100 @@ class CfgVehicles {
 
     };
 // Vehicles
+
+    class CUP_Boxer_Base_Empty;
+    class CUP_B_Boxer_Empty_GER_WDL: CUP_Boxer_Base_Empty
+{
+    scope = 2;
+    scopeCurator = 2;
+    author = "$STR_CUP_AUTHOR_STRING";
+    dlc = "CUP_Vehicles";
+    side = 1;
+    crew = "CUP_B_GER_Fleck_Crew";
+    faction = "CFP_B_DEARMY_WDL";
+
+    displayName = "GTK Boxer (Woodland, Empty)";
+
+    hiddenSelectionsTextures[] = {
+            "CUP\WheeledVehicles\CUP_WheeledVehicles_Boxer\data\body_co.paa",
+            "CUP\WheeledVehicles\CUP_WheeledVehicles_Boxer\data\wheel_co.paa",
+            "CUP\WheeledVehicles\CUP_WheeledVehicles_Boxer\data\back_co.paa",
+            "CUP\WheeledVehicles\CUP_WheeledVehicles_Boxer\data\license_plate_co.paa",
+            "CUP\WheeledVehicles\CUP_WheeledVehicles_Boxer\data\unit_sign_mech_ca.paa"
+    };
+
+    editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Boxer\data\preview\CUP_B_Boxer_Empty_GER_WDL.jpg";
+
+    //Inventories are redefined here for every public class, previous definitions are disregarded
+    TRANSPORTWEAPONSMEDIUM(CUP_arifle_G36A,CUP_launch_PzF3_Loaded);
+    TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_G36,CUP_MAAWS_HEAT_M,SmokeShell,SmokeShellOrange);
+    TRANSPORTITEMSMEDIUM;
+    TRANSPORTBACKPACKSMEDIUM(CUP_B_GER_Pack_Flecktarn);
+};
+
+class CUP_Boxer_Base_HMG;
+class CUP_B_Boxer_HMG_GER_WDL: CUP_Boxer_Base_HMG
+{
+    scope = 2;
+    scopeCurator = 2;
+    author = "$STR_CUP_AUTHOR_STRING";
+    dlc = "CUP_Vehicles";
+    side = 1;
+    crew = "CUP_B_GER_Fleck_Crew";
+   faction = "CFP_B_DEARMY_WDL";
+
+    displayName = "GTK Boxer (Woodland, HMG)";
+
+    hiddenSelectionsTextures[] = {
+        "CUP\WheeledVehicles\CUP_WheeledVehicles_Boxer\data\body_co.paa",
+        "CUP\WheeledVehicles\CUP_WheeledVehicles_Boxer\data\wheel_co.paa",
+        "CUP\WheeledVehicles\CUP_WheeledVehicles_Boxer\data\missionmodule_co.paa",
+        "CUP\WheeledVehicles\CUP_WheeledVehicles_Boxer\data\FLW_co.paa",
+        "CUP\WheeledVehicles\CUP_WheeledVehicles_Boxer\data\license_plate_co.paa",
+        "CUP\WheeledVehicles\CUP_WheeledVehicles_Boxer\data\unit_sign_mech_ca.paa"
+    };
+
+    editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Boxer\data\preview\CUP_B_Boxer_HMG_GER_WDL.jpg";
+
+        //Inventories are redefined here for every public class, previous definitions are disregarded
+    TRANSPORTWEAPONSMEDIUM(CUP_arifle_G36A,CUP_launch_PzF3_Loaded);
+    TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_G36,CUP_MAAWS_HEAT_M,SmokeShell,SmokeShellOrange);
+    TRANSPORTITEMSMEDIUM;
+    TRANSPORTBACKPACKSMEDIUM(CUP_B_GER_Pack_Flecktarn);
+};
+
+class CUP_Boxer_Base_GMG;
+class CUP_B_Boxer_GMG_GER_WDL: CUP_Boxer_Base_GMG
+{
+    scope = 2;
+    scopeCurator = 2;
+    author = "$STR_CUP_AUTHOR_STRING";
+    dlc = "CUP_Vehicles";
+    side = 1;
+    crew = "CUP_B_GER_Fleck_Crew";
+    faction = "CFP_B_DEARMY_WDL";
+
+    displayName = "GTK Boxer (Woodland, GMG)";
+
+    hiddenSelectionsTextures[] = {
+        "CUP\WheeledVehicles\CUP_WheeledVehicles_Boxer\data\body_co.paa",
+        "CUP\WheeledVehicles\CUP_WheeledVehicles_Boxer\data\wheel_co.paa",
+        "CUP\WheeledVehicles\CUP_WheeledVehicles_Boxer\data\missionmodule_co.paa",
+        "CUP\WheeledVehicles\CUP_WheeledVehicles_Boxer\data\FLW_co.paa",
+        "CUP\WheeledVehicles\CUP_WheeledVehicles_Boxer\data\FLW-GMW_co.paa",
+        "CUP\WheeledVehicles\CUP_WheeledVehicles_Boxer\data\license_plate_co.paa",
+        "CUP\WheeledVehicles\CUP_WheeledVehicles_Boxer\data\unit_sign_mech_ca.paa"
+    };
+
+    editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Boxer\data\preview\CUP_B_Boxer_HMG_GER_WDL.jpg";
+
+        //Inventories are redefined here for every public class, previous definitions are disregarded
+    TRANSPORTWEAPONSMEDIUM(CUP_arifle_G36A,CUP_launch_PzF3_Loaded);
+    TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_G36,CUP_MAAWS_HEAT_M,SmokeShell,SmokeShellOrange);
+    TRANSPORTITEMSMEDIUM;
+    TRANSPORTBACKPACKSMEDIUM(CUP_B_GER_Pack_Flecktarn);
+};
+
     class CUP_B_Dingo_GER_Wdl : CUP_B_Dingo_CZ_Wdl_OCimport_02 {
         author = "Drew";
         scope = 2;
@@ -664,9 +757,29 @@ class CfgVehicles {
 
     };
 
-    class CUP_B_FENNEK_GER_Wdl : I_MRAP_03_F {
-        faction = "CFP_B_DEARMY_WDL";
-    };
+    class I_MRAP_03_F;
+    class CUP_B_FENNEK_GER_Wdl: I_MRAP_03_F
+        {
+        author = "$STR_CUP_AUTHOR_STRING";
+                scope=2;
+                scopeCurator=2;
+                side = 1;
+                faction = "CFP_B_DEARMY_WDL";
+                displayname = "$STR_CUP_dn_FENNEK_GER_Wdl";
+                crew = "CUP_B_GER_BW_Fleck_Soldier";
+                typicalCargo[] = {"CUP_B_GER_BW_Fleck_Soldier"};
+                hiddenselectionstextures[] =
+        {
+            "\CUP\WheeledVehicles\CUP_WheeledVehicles_Strider\data\mrap_ger_w_co.paa"
+        };
+                editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Strider\data\preview\CUP_B_FENNEK_GER_Wdl.jpg";
+
+        //Inventories are redefined here for every public class, previous definitions are disregarded
+        TRANSPORTWEAPONSLARGE(CUP_arifle_G36A,CUP_launch_M136);
+        TRANSPORTMAGAZINESLARGE(CUP_30Rnd_556x45_G36,CUP_100Rnd_556x45_BetaCMag,CUP_1Rnd_HEDP_M203,CUP_M136_M,CUP_HandGrenade_M67,SmokeShell,SmokeShellOrange);
+        TRANSPORTITEMSLARGE;
+        TRANSPORTBACKPACKSLARGE(CUP_B_GER_Pack_Flecktarn);
+        };
 
     class CUP_Leopard2_Base;
     class CUP_B_Leopard2A6_GER : CUP_Leopard2_Base {

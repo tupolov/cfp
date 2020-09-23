@@ -22,7 +22,11 @@ class CfgPatches {
             "CUP_B_UH1D_slick_GER_KSK",
             "CFP_B_DEARMY_WDL_CH_53G_Super_Stallion_VIV_01",
             "CFP_B_DEARMY_WDL_CH_53G_Super_Stallion_01",
-            "CFP_B_DEARMY_WDL_Pilot_01"
+            "CFP_B_DEARMY_WDL_Pilot_01",
+            "CUP_B_GER_BW_Fleck_Soldier_PZF_AT",
+            "CUP_B_Boxer_Empty_GER_WDL",
+            "CUP_B_Boxer_HMG_GER_WDL",
+            "CUP_B_Boxer_GMG_GER_WDL"
         };
         weapons[] = {};
         requiredAddons[] = {

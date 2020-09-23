@@ -727,7 +727,136 @@ class CfgGroups {
 
             class Mechanized {
                 name = "Mechanized Infantry";
+                class CUP_B_GER_MechInf_HMG_WDL
+                {
+                    name = "Mech. Inf Section (Boxer HMG Woodland)";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
+                    faction = "CUP_B_GER";
+                    side = 1;
+                    rarityGroup = 0.3;
 
+                    class Unit0
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_TL";
+                        rank = "SERGANT";
+                        position[] = {0, 0, 0};
+                    };
+                    class Unit1
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_MG";
+                        rank = "CORPORAL";
+                        position[] = {5, -5, 0};
+                    };
+                    class Unit2
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_Ammo";
+                        rank = "PRIVATE";
+                        position[] = { -5, -5, 0 };
+                    };
+                    class Unit3
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_Marksman";
+                        rank = "CORPORAL";
+                        position[] = { 10, -10, 0 };
+                    };
+                    class Unit4
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_GER_BW_Fleck_Medic";
+                        rank = "CORPORAL";
+                        position[] = { -10, -10, 0 };
+                    };
+                    class Unit5
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier";
+                        rank = "PRIVATE";
+                        position[] = { 15, -15, 0 };
+                    };
+                    class Unit6
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_AT";
+                        rank = "PRIVATE";
+                        position[] = { -15, -15, 0 };
+                    };
+                    class Unit7
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_Boxer_HMG_GER_WDL";
+                        rank = "SERGEANT";
+                        position[] = {15,0,0};
+                    };
+                };
+                class CUP_B_GER_MechInf_GMG_WDL
+                {
+                    name = "Mech. Inf Section (Boxer GMG Woodland)";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_mech_inf.paa";
+                    faction = "CUP_B_GER";
+                    side = 1;
+                    rarityGroup = 0.3;
+
+                    class Unit0
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_TL";
+                        rank = "SERGANT";
+                        position[] = {0, 0, 0};
+                    };
+                    class Unit1
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_MG";
+                        rank = "CORPORAL";
+                        position[] = {5, -5, 0};
+                    };
+                    class Unit2
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_Ammo";
+                        rank = "PRIVATE";
+                        position[] = { -5, -5, 0 };
+                    };
+                    class Unit3
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_Marksman";
+                        rank = "CORPORAL";
+                        position[] = { 10, -10, 0 };
+                    };
+                    class Unit4
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_GER_BW_Fleck_Medic";
+                        rank = "CORPORAL";
+                        position[] = { -10, -10, 0 };
+                    };
+                    class Unit5
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier";
+                        rank = "PRIVATE";
+                        position[] = { 15, -15, 0 };
+                    };
+                    class Unit6
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_GER_BW_Fleck_Soldier_AT";
+                        rank = "PRIVATE";
+                        position[] = { -15, -15, 0 };
+                    };
+                    class Unit7
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_Boxer_GMG_GER_WDL";
+                        rank = "SERGEANT";
+                        position[] = {15,0,0};
+                    };
+                };
             };
 
             class Artillery {

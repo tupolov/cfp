@@ -6,8 +6,8 @@ class CBA_Extended_EventHandlers_base;
 
 class CfgEditorSubCategories
 {
-    class CFP_EdSubcat_Personnel_Camo_Tropen { displayName = "Men (Tropentarn)";  };
-    class CFP_EdSubcat_Personnel_Camo_KTropen { displayName = "KSK (Tropentarn)";  };
+    class CFP_EdSubcat_Personnel_Camo_Tropen { displayName = "Men (Desert)";  };
+    class CFP_EdSubcat_Personnel_Camo_KTropen { displayName = "KSK (Desert)";  };
 };
 
 class CfgVehicles {
@@ -996,49 +996,9 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_DEARMY_Pilot_DES_01 : CUP_B_US_Pilot_OCimport_02 {
-        author = "Drew";
-        scope = 1;
-        scopeCurator = 2;
-        displayName = "Pilot";
-        genericNames = "CUP_Names_GermanMen";
-        side = 1;
-        faction = "CUP_B_GER";
-        editorSubcategory = "CFP_EdSubcat_Personnel_Camo_Tropen";
-
-        identityTypes[] = {"Head_NATO","LanguageENG_F","G_GUERIL_default"};
-
-        uniformClass = "SP_0000_Standard_FieldUniform_Tan";
-
-        linkedItems[] = {"CUP_V_BAF_Osprey_Mk2_DDPM_Pilot","CUP_H_BAF_Helmet_Pilot","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS15_black"};
-        respawnlinkedItems[] = {"CUP_V_BAF_Osprey_Mk2_DDPM_Pilot","CUP_H_BAF_Helmet_Pilot","ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS15_black"};
-
-        weapons[] = {"CUP_smg_MP5A5","CUP_hgun_Glock17_tan"};
-        respawnWeapons[] = {"CUP_smg_MP5A5","CUP_hgun_Glock17_tan"};
-
-        magazines[] = {"CUP_30Rnd_9x19_MP5","CUP_17Rnd_9x19_glock17","CUP_30Rnd_9x19_MP5","CUP_17Rnd_9x19_glock17"};
-        respawnMagazines[] = {"CUP_30Rnd_9x19_MP5","CUP_17Rnd_9x19_glock17","CUP_30Rnd_9x19_MP5","CUP_17Rnd_9x19_glock17"};
-
-        ALiVE_orbatCreator_loadout[] = {{"CUP_smg_MP5A5","","","",{"CUP_30Rnd_9x19_MP5",30},{},""},{},{"CUP_hgun_Glock17_tan","","","",{"CUP_17Rnd_9x19_glock17",17},{},""},{"SP_0000_Standard_FieldUniform_Tan",{{"FirstAidKit",1},{"CUP_HandGrenade_M67",1,1},{"CUP_30Rnd_9x19_MP5",3,30},{"CUP_17Rnd_9x19_glock17",2,17}}},{"CUP_V_BAF_Osprey_Mk2_DDPM_Pilot",{{"SmokeShell",2,1},{"SmokeShellRed",2,1},{"CUP_17Rnd_9x19_glock17",4,17},{"CUP_HandGrenade_M67",1,1},{"CUP_30Rnd_9x19_MP5",3,30}}},{},"CUP_H_BAF_Helmet_Pilot","",{},{"ItemMap","ItemGPS","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS15_black"}};
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {_this = _this select 0;sleep 0.2; _backpack = gettext(configfile >> 'cfgvehicles' >> (typeof _this) >> 'backpack'); waituntil {sleep 0.2; backpack _this == _backpack};if !(_this getVariable ['ALiVE_OverrideLoadout',false]) then {_loadout = getArray(configFile >> 'CfgVehicles' >> (typeOf _this) >> 'ALiVE_orbatCreator_loadout'); _this setunitloadout _loadout;reload _this};};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
-    };
-
     class CFP_B_DEARMY_Fennek_01 : I_MRAP_03_F_OCimport_02 {
         author = "Drew";
-        scope = 2;
+        scope = 1;
         scopeCurator = 2;
         displayName = "Fennek";
         side = 1;
