@@ -110,46 +110,91 @@ class CfgVehicles {
         };
 
     // Crew
-        class CUP_B_US_Soldier;
-        class CUP_B_US_ARMY_Gunner_M2_High_DES_01 : CUP_B_US_Soldier {
+        class CUP_B_US_Soldier_UCP;
+        class CUP_B_US_ARMY_Gunner_M2_High_DES_01 : CUP_B_US_Soldier_UCP {
             displayName = "Gunner [MG High]";
             backpack = "CUP_B_M2_Gun_Bag";
         };
 
-        class CUP_B_US_ARMY_Gunner_M2_Low_DES_01 : CUP_B_US_Soldier {
+        class CUP_B_US_ARMY_Gunner_M2_Low_DES_01 : CUP_B_US_Soldier_UCP {
             displayName = "Gunner [MG Low]";
             backpack = "CUP_B_M2_Gun_Bag";
 
         };
 
-        class CUP_B_US_ARMY_Asst_Gunner_M2_DES_01 : CUP_B_US_Soldier {
+        class CUP_B_US_ARMY_Asst_Gunner_M2_DES_01 : CUP_B_US_Soldier_UCP {
             displayName = "Asst. Gunner [MG]";
             backpack = "CUP_B_M2_Tripod_Bag";
         };
 
-        class CUP_B_US_ARMY_Asst_Gunner_M2Low_DES_01 : CUP_B_US_Soldier {
+        class CUP_B_US_ARMY_Asst_Gunner_M2Low_DES_01 : CUP_B_US_Soldier_UCP {
             displayName = "Asst. Gunner [MG Low]";
             backpack = "CUP_B_M2_Minitripod_Bag";
         };
 
-        class CUP_B_US_ARMY_Gunner_TOW_DES_01 : CUP_B_US_Soldier {
+        class CUP_B_US_ARMY_Gunner_TOW_DES_01 : CUP_B_US_Soldier_UCP {
             displayName = "Gunner [AT]";
             backpack = "CUP_B_Tow_Gun_Bag";
         };
 
-        class CUP_B_US_ARMY_Asst_Gunner_TOW_DES_01 : CUP_B_US_Soldier {
+        class CUP_B_US_ARMY_Asst_Gunner_TOW_DES_01 : CUP_B_US_Soldier_UCP {
             displayName = "Asst. Gunner [AT]";
             backpack = "CUP_B_TOW_Tripod_Bag";
 
         };
 
-        class CUP_B_US_ARMY_Gunner_Mortar_DES_01 : CUP_B_US_Soldier {
+        class CUP_B_US_ARMY_Gunner_Mortar_DES_01 : CUP_B_US_Soldier_UCP {
 
             displayName = "Gunner [Mortar]";
             backpack = "CUP_B_M252_Gun_Bag";
         };
 
-        class CUP_B_US_ARMY_Asst_Gunner_Mortar_DES_01 : CUP_B_US_Soldier {
+        class CUP_B_US_ARMY_Asst_Gunner_Mortar_DES_01 : CUP_B_US_Soldier_UCP {
+            displayName = "Asst. Gunner [Mortar]";
+            backpack = "CUP_B_M252_Bipod_Bag";
+        };
+
+        //OCP
+        class CUP_B_US_Soldier_OCP;
+        class CUP_B_US_ARMY_Gunner_M2_High_DES_OCP : CUP_B_US_Soldier_OCP {
+            displayName = "Gunner [MG High]";
+            backpack = "CUP_B_M2_Gun_Bag";
+        };
+
+        class CUP_B_US_ARMY_Gunner_M2_Low_DES_OCP : CUP_B_US_Soldier_OCP {
+            displayName = "Gunner [MG Low]";
+            backpack = "CUP_B_M2_Gun_Bag";
+
+        };
+
+        class CUP_B_US_ARMY_Asst_Gunner_M2_DES_OCP : CUP_B_US_Soldier_OCP {
+            displayName = "Asst. Gunner [MG]";
+            backpack = "CUP_B_M2_Tripod_Bag";
+        };
+
+        class CUP_B_US_ARMY_Asst_Gunner_M2Low_DES_OCP : CUP_B_US_Soldier_OCP {
+            displayName = "Asst. Gunner [MG Low]";
+            backpack = "CUP_B_M2_Minitripod_Bag";
+        };
+
+        class CUP_B_US_ARMY_Gunner_TOW_DES_OCP : CUP_B_US_Soldier_OCP {
+            displayName = "Gunner [AT]";
+            backpack = "CUP_B_Tow_Gun_Bag";
+        };
+
+        class CUP_B_US_ARMY_Asst_Gunner_TOW_DES_OCP : CUP_B_US_Soldier_OCP {
+            displayName = "Asst. Gunner [AT]";
+            backpack = "CUP_B_TOW_Tripod_Bag";
+
+        };
+
+        class CUP_B_US_ARMY_Gunner_Mortar_DES_OCP : CUP_B_US_Soldier_OCP {
+
+            displayName = "Gunner [Mortar]";
+            backpack = "CUP_B_M252_Gun_Bag";
+        };
+
+        class CUP_B_US_ARMY_Asst_Gunner_Mortar_DES_OCP : CUP_B_US_Soldier_OCP {
             displayName = "Asst. Gunner [Mortar]";
             backpack = "CUP_B_M252_Bipod_Bag";
         };

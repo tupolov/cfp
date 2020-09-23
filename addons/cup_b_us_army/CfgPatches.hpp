@@ -117,7 +117,23 @@ class CfgPatches {
             "CUP_B_CH47F_VIV_USA",
             "CUP_B_A10_DYN_USA_OCimport_01",
             "CUP_B_A10_DYN_USA_OCimport_02",
-            "CFP_B_USARMY_M163_DES_01"
+            "CFP_B_USARMY_M163_DES_01",
+            "CUP_B_US_ARMY_Gunner_M2_High_DES_01",
+            "CUP_B_US_ARMY_Gunner_M2_Low_DES_01",
+            "CUP_B_US_ARMY_Asst_Gunner_M2_DES_01",
+            "CUP_B_US_ARMY_Asst_Gunner_M2Low_DES_01",
+            "CUP_B_US_ARMY_Gunner_TOW_DES_01",
+            "CUP_B_US_ARMY_Asst_Gunner_TOW_DES_01",
+            "CUP_B_US_ARMY_Gunner_Mortar_DES_01",
+            "CUP_B_US_ARMY_Asst_Gunner_Mortar_DES_01",
+            "CUP_B_US_ARMY_Gunner_M2_High_DES_OCP",
+            "CUP_B_US_ARMY_Gunner_M2_Low_DES_OCP",
+            "CUP_B_US_ARMY_Asst_Gunner_M2_DES_OCP",
+            "CUP_B_US_ARMY_Asst_Gunner_M2Low_DES_OCP",
+            "CUP_B_US_ARMY_Gunner_TOW_DES_OCP",
+            "CUP_B_US_ARMY_Asst_Gunner_TOW_DES_OCP",
+            "CUP_B_US_ARMY_Gunner_Mortar_DES_OCP",
+            "CUP_B_US_ARMY_Asst_Gunner_Mortar_DES_OCP"
         };
         weapons[] = {};
         requiredAddons[] = {
