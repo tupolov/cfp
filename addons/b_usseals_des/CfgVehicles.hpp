@@ -1832,10 +1832,10 @@ class CfgVehicles {
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_pilot"};
 
-        uniformClass = "CFP_U_FieldUniform_acu";
+        uniformClass = "CUP_U_B_USArmy_ACU_Gloves_OCP";
 
-        linkedItems[] = {"CFP_IOTV_Patrol","H_PilotHelmetHeli_B","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
-        respawnlinkedItems[] = {"CFP_IOTV_Patrol","H_PilotHelmetHeli_B","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        linkedItems[] = {"CUP_V_B_IOTV_OCP_Rifleman_USArmy","H_PilotHelmetHeli_B","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
+        respawnlinkedItems[] = {"CUP_V_B_IOTV_OCP_Rifleman_USArmy","H_PilotHelmetHeli_B","ItemMap","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS7"};
 
         weapons[] = {"CUP_arifle_M4A1","CUP_hgun_M9"};
         respawnWeapons[] = {"CUP_arifle_M4A1","CUP_hgun_M9"};
@@ -1843,7 +1843,7 @@ class CfgVehicles {
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9","CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9","CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1","","","CUP_optic_CompM4",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_M9","","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CFP_U_FieldUniform_acu",{{"FirstAidKit",1},{"Chemlight_green",1,1},{"CUP_15Rnd_9x19_M9",3,15},{"CUP_30Rnd_556x45_Stanag",1,30}}},{"CFP_IOTV_Patrol",{{"SmokeShellGreen",1,1},{"SmokeShellBlue",1,1},{"SmokeShellOrange",1,1},{"Chemlight_green",1,1},{"CUP_30Rnd_556x45_Stanag",6,30}}},{},"H_PilotHelmetHeli_B","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CFP_ANPVS15_Black"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1","","","CUP_optic_CompM4",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_M9","","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USArmy_ACU_Gloves_OCP",{{"FirstAidKit",1},{"Chemlight_green",1,1},{"CUP_15Rnd_9x19_M9",3,15},{"CUP_30Rnd_556x45_Stanag",1,30}}},{"CUP_V_B_IOTV_OCP_Rifleman_USArmy",{{"SmokeShellGreen",1,1},{"SmokeShellBlue",1,1},{"SmokeShellOrange",1,1},{"Chemlight_green",1,1},{"CUP_30Rnd_556x45_Stanag",6,30}}},{},"H_PilotHelmetHeli_B","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CFP_ANPVS15_Black"}};
 
 
         class EventHandlers : EventHandlers {
@@ -1872,10 +1872,10 @@ class CfgVehicles {
 
         identityTypes[] = {"Head_NATO","LanguageENG_F","G_NATO_pilot"};
 
-        uniformClass = "CFP_U_FieldUniform_acu";
+        uniformClass = "CUP_U_B_USArmy_ACU_Gloves_OCP";
 
-        linkedItems[] = {"CFP_IOTV_Patrol","CFP_SOARCREW_SKULL","ItemMap","ItemRadio","ItemCompass","ItemWatch","CFP_ANPVS15_Black"};
-        respawnlinkedItems[] = {"CFP_IOTV_Patrol","CFP_SOARCREW_SKULL","ItemMap","ItemRadio","ItemCompass","ItemWatch","CFP_ANPVS15_Black"};
+        linkedItems[] = {"CUP_V_B_IOTV_OCP_Rifleman_USArmy","CFP_SOARCREW_SKULL","ItemMap","ItemRadio","ItemCompass","ItemWatch","CFP_ANPVS15_Black"};
+        respawnlinkedItems[] = {"CUP_V_B_IOTV_OCP_Rifleman_USArmy","CFP_SOARCREW_SKULL","ItemMap","ItemRadio","ItemCompass","ItemWatch","CFP_ANPVS15_Black"};
 
         weapons[] = {"CUP_arifle_M4A1","CUP_hgun_M9"};
         respawnWeapons[] = {"CUP_arifle_M4A1","CUP_hgun_M9"};
@@ -1883,7 +1883,7 @@ class CfgVehicles {
         magazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9","CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9"};
         respawnMagazines[] = {"CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9","CUP_30Rnd_556x45_Stanag","CUP_15Rnd_9x19_M9"};
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1","","","CUP_optic_CompM4",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_M9","","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CFP_U_FieldUniform_acu",{{"FirstAidKit",1},{"Chemlight_green",1,1},{"CUP_15Rnd_9x19_M9",3,15},{"CUP_30Rnd_556x45_Stanag",1,30}}},{"CFP_IOTV_Patrol",{{"SmokeShellGreen",1,1},{"SmokeShellBlue",1,1},{"SmokeShellOrange",1,1},{"Chemlight_green",1,1},{"CUP_30Rnd_556x45_Stanag",6,30}}},{},"CFP_SOARCREW_SKULL","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CFP_ANPVS15_Black"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_M4A1","","","CUP_optic_CompM4",{"CUP_30Rnd_556x45_Stanag",30},{},""},{},{"CUP_hgun_M9","","","",{"CUP_15Rnd_9x19_M9",15},{},""},{"CUP_U_B_USArmy_ACU_Gloves_OCP",{{"FirstAidKit",1},{"Chemlight_green",1,1},{"CUP_15Rnd_9x19_M9",3,15},{"CUP_30Rnd_556x45_Stanag",1,30}}},{"CUP_V_B_IOTV_OCP_Rifleman_USArmy",{{"SmokeShellGreen",1,1},{"SmokeShellBlue",1,1},{"SmokeShellOrange",1,1},{"Chemlight_green",1,1},{"CUP_30Rnd_556x45_Stanag",6,30}}},{},"CFP_SOARCREW_SKULL","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CFP_ANPVS15_Black"}};
 
         randomGearProbability = 100;
 
