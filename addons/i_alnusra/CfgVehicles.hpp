@@ -846,476 +846,292 @@ class CfgVehicles {
         };
     };
 
-    class CFP_I_ALNUSRA_Hilux_01 : CUP_I_Hilux_unarmed_TK_OCimport_02 {
-        author = "Drew";
+    class CUP_Hilux_unarmed_Base;
+    class CFP_I_ALNUSRA_Hilux_01 :CUP_Hilux_unarmed_Base {
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Hilux";
         side = 2;
         faction = "CFP_I_ALNUSRA";
-        crew = "cfp_i_alNusra_crewman";
-        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        crew = "cfp_i_alNusra_rifleman";
+        textureList[]=
+        {
+            "Red",1,
+            "Guer3",1,
+            "Guer6",1,
+            "Guer7",1,
+            "Guer8",1,
+            "White",1,
+            "White2",1,
+            "Creme",1,
+            "Red2",1,
+            "Tan",1,
+            "Blue",1
+        };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
         TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
         TRANSPORTITEMSMEDIUM
         TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
-
-        class Turrets : Turrets {
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
-            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
-        };
-
-        randomTextureProbability = 100;
-
-        // Hilux Skins
-        textureList[] = {
-            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"}, 0.3,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.2,
-        };
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
-
-    class CFP_I_ALNUSRA_Hilux_DShKM_01 : CUP_I_Hilux_DSHKM_TK_OCimport_02 {
-        author = "Drew";
+    class CUP_Hilux_DSHKM_Base;
+    class CFP_I_ALNUSRA_Hilux_DShKM_01 : CUP_Hilux_DSHKM_Base {
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Hilux [DShKM]";
         side = 2;
         faction = "CFP_I_ALNUSRA";
-        crew = "cfp_i_alNusra_crewman";
-        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        crew = "cfp_i_alNusra_rifleman";
+        textureList[]=
+        {
+            "Red",1,
+            "Guer3",1,
+            "Guer6",1,
+            "Guer7",1,
+            "Guer8",1,
+            "White",1,
+            "White2",1,
+            "Creme",1,
+            "Red2",1,
+            "Tan",1,
+            "Blue",1
+        };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
         TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
         TRANSPORTITEMSMEDIUM
         TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "cfp_i_alNusra_crewman"; };
-        };
-
-        randomTextureProbability = 100;
-
-        // Hilux Skins
-        textureList[] = {
-            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"}, 0.3,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.2,
-        };
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
-
-    class CFP_I_ALNUSRA_Hilux_SPG_01 : CUP_I_Hilux_SPG9_TK_OCimport_02 {
-        author = "Drew";
+    class CUP_Hilux_SPG9_Base;
+    class CFP_I_ALNUSRA_Hilux_SPG_01 : CUP_Hilux_SPG9_Base {
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Hilux [SPG-9]";
         side = 2;
         faction = "CFP_I_ALNUSRA";
-        crew = "cfp_i_alNusra_crewman";
-        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        crew = "cfp_i_alNusra_rifleman";
+        textureList[]=
+        {
+            "Red",1,
+            "Guer3",1,
+            "Guer6",1,
+            "Guer7",1,
+            "Guer8",1,
+            "White",1,
+            "White2",1,
+            "Creme",1,
+            "Red2",1,
+            "Tan",1,
+            "Blue",1
+        };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
         TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
         TRANSPORTITEMSMEDIUM
         TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "cfp_i_alNusra_crewman"; };
-        };
-
-    randomTextureProbability = 100;
-
-        // Hilux Skins
-        textureList[] = {
-            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"}, 0.3,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.2,
-        };
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_I_ALNUSRA_Hilux_Igla_01 : CUP_I_Hilux_igla_TK_OCimport_02 {
+    class CUP_Hilux_igla_Base;
+    class CFP_I_ALNUSRA_Hilux_Igla_01 : CUP_Hilux_igla_Base {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Hilux [Igla]";
         side = 2;
         faction = "CFP_I_ALNUSRA";
-        crew = "cfp_i_alNusra_crewman";
-        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        crew = "cfp_i_alNusra_rifleman";
+        textureList[]=
+        {
+            "Red",1,
+            "Guer3",1,
+            "Guer6",1,
+            "Guer7",1,
+            "Guer8",1,
+            "White",1,
+            "White2",1,
+            "Creme",1,
+            "Red2",1,
+            "Tan",1,
+            "Blue",1
+        };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
         TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
         TRANSPORTITEMSMEDIUM
         TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "cfp_i_alNusra_crewman"; };
-        };
-
-        randomTextureProbability = 100;
-
-        // Hilux Skins
-        textureList[] = {
-            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"}, 0.3,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.2,
-        };
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_I_ALNUSRA_Hilux_Metis_01 : CUP_I_Hilux_metis_TK_OCimport_02 {
+    class CUP_Hilux_metis_Base;
+    class CFP_I_ALNUSRA_Hilux_Metis_01 : CUP_Hilux_metis_Base {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Hilux [Metis]";
         side = 2;
         faction = "CFP_I_ALNUSRA";
-        crew = "cfp_i_alNusra_crewman";
-        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        crew = "cfp_i_alNusra_rifleman";
+        textureList[]=
+        {
+            "Red",1,
+            "Guer3",1,
+            "Guer6",1,
+            "Guer7",1,
+            "Guer8",1,
+            "White",1,
+            "White2",1,
+            "Creme",1,
+            "Red2",1,
+            "Tan",1,
+            "Blue",1
+        };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
         TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
         TRANSPORTITEMSMEDIUM
         TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "cfp_i_alNusra_crewman"; };
-        };
-
-        randomTextureProbability = 100;
-
-        // Hilux Skins
-        textureList[] = {
-            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"}, 0.3,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.2,
-        };
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_I_ALNUSRA_Hilux_Podnos_01 : CUP_I_Hilux_podnos_TK_OCimport_02 {
+    class CUP_Hilux_podnos_Base;
+    class CFP_I_ALNUSRA_Hilux_Podnos_01 : CUP_Hilux_podnos_Base {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Hilux [Podnos]";
         side = 2;
         faction = "CFP_I_ALNUSRA";
-        crew = "cfp_i_alNusra_crewman";
-        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        crew = "cfp_i_alNusra_rifleman";
+        textureList[]=
+        {
+            "Red",1,
+            "Guer3",1,
+            "Guer6",1,
+            "Guer7",1,
+            "Guer8",1,
+            "White",1,
+            "White2",1,
+            "Creme",1,
+            "Red2",1,
+            "Tan",1,
+            "Blue",1
+        };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
         TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
         TRANSPORTITEMSMEDIUM
         TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "cfp_i_alNusra_crewman"; };
-        };
-
-        randomTextureProbability = 100;
-
-        // Hilux Skins
-        textureList[] = {
-            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"}, 0.3,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.2,
-        };
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_I_ALNUSRA_Hilux_MLRS_01 : CUP_I_Hilux_MLRS_TK_OCimport_02 {
+    class CUP_Hilux_MLRS_Base;
+    class CFP_I_ALNUSRA_Hilux_MLRS_01 : CUP_Hilux_MLRS_Base {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Hilux [MLRS]";
         side = 2;
         faction = "CFP_I_ALNUSRA";
-        crew = "cfp_i_alNusra_crewman";
-        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        crew = "cfp_i_alNusra_rifleman";
+        textureList[]=
+        {
+            "Red",1,
+            "Guer3",1,
+            "Guer6",1,
+            "Guer7",1,
+            "Guer8",1,
+            "White",1,
+            "White2",1,
+            "Creme",1,
+            "Red2",1,
+            "Tan",1,
+            "Blue",1
+        };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
         TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
         TRANSPORTITEMSMEDIUM
         TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "cfp_i_alNusra_crewman"; };
-        };
-
-        randomTextureProbability = 100;
-
-        // Hilux Skins
-        textureList[] = {
-            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"}, 0.3,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.2,
-        };
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_I_ALNUSRA_Hilux_ZU_23_01 : CUP_I_Hilux_zu23_TK_OCimport_02 {
+    class CUP_Hilux_zu23_Base;
+    class CFP_I_ALNUSRA_Hilux_ZU_23_01 : CUP_Hilux_zu23_Base {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Hilux [ZU-23-2]";
         side = 2;
         faction = "CFP_I_ALNUSRA";
-        crew = "cfp_i_alNusra_crewman";
-        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        crew = "cfp_i_alNusra_rifleman";
+        textureList[]=
+        {
+            "Red",1,
+            "Guer3",1,
+            "Guer6",1,
+            "Guer7",1,
+            "Guer8",1,
+            "White",1,
+            "White2",1,
+            "Creme",1,
+            "Red2",1,
+            "Tan",1,
+            "Blue",1
+        };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
         TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
         TRANSPORTITEMSMEDIUM
         TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "cfp_i_alNusra_crewman"; };
-        };
-
-        randomTextureProbability = 100;
-
-        // Hilux Skins
-        textureList[] = {
-            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"}, 0.3,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.2,
-        };
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_I_ALNUSRA_Hilux_AGS_30_01 : CUP_I_Hilux_AGS30_TK_OCimport_02 {
+    class CUP_Hilux_AGS30_Base;
+    class CFP_I_ALNUSRA_Hilux_AGS_30_01 : CUP_Hilux_AGS30_Base {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Hilux [AGS-30]";
         side = 2;
         faction = "CFP_I_ALNUSRA";
-        crew = "cfp_i_alNusra_crewman";
-        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        crew = "cfp_i_alNusra_rifleman";
+        textureList[]=
+        {
+            "Red",1,
+            "Guer3",1,
+            "Guer6",1,
+            "Guer7",1,
+            "Guer8",1,
+            "White",1,
+            "White2",1,
+            "Creme",1,
+            "Red2",1,
+            "Tan",1,
+            "Blue",1
+        };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
         TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
         TRANSPORTITEMSMEDIUM
         TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "cfp_i_alNusra_crewman"; };
-        };
-
-        randomTextureProbability = 100;
-
-        // Hilux Skins
-        textureList[] = {
-            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"}, 0.3,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.2,
-        };
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_I_ALNUSRA_Hilux_UB_32_01 : CUP_I_Hilux_UB32_TK_OCimport_02 {
+    class CUP_Hilux_UB32_Base;
+    class CFP_I_ALNUSRA_Hilux_UB_32_01 : CUP_Hilux_UB32_Base {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Hilux [UB-32]";
         side = 2;
         faction = "CFP_I_ALNUSRA";
-        crew = "cfp_i_alNusra_crewman";
-        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
+        crew = "cfp_i_alNusra_rifleman";
+        textureList[]=
+        {
+            "Red",1,
+            "Guer3",1,
+            "Guer6",1,
+            "Guer7",1,
+            "Guer8",1,
+            "White",1,
+            "White2",1,
+            "Creme",1,
+            "Red2",1,
+            "Tan",1,
+            "Blue",1
+        };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
         TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
         TRANSPORTITEMSMEDIUM
         TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "cfp_i_alNusra_crewman"; };
-        };
-
-        randomTextureProbability = 100;
-
-        // Hilux Skins
-        textureList[] = {
-            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"}, 0.3,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.2,
-        };
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
     class Offroad_01_base_F;

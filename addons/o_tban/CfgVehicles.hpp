@@ -162,42 +162,6 @@ class CfgVehicles {
         };
     };
 
-    class CUP_O_DSHKM_SLA;
-    class CUP_O_DSHKM_SLA_OCimport_01 : CUP_O_DSHKM_SLA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_DSHKM_SLA_OCimport_02 : CUP_O_DSHKM_SLA_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_O_DSHKM_MiniTripod_SLA;
-    class CUP_O_DSHKM_MiniTripod_SLA_OCimport_01 : CUP_O_DSHKM_MiniTripod_SLA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_DSHKM_MiniTripod_SLA_OCimport_02 : CUP_O_DSHKM_MiniTripod_SLA_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_O_SPG9_SLA;
-    class CUP_O_SPG9_SLA_OCimport_01 : CUP_O_SPG9_SLA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_SPG9_SLA_OCimport_02 : CUP_O_SPG9_SLA_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_O_2b14_82mm_SLA;
-    class CUP_O_2b14_82mm_SLA_OCimport_01 : CUP_O_2b14_82mm_SLA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_2b14_82mm_SLA_OCimport_02 : CUP_O_2b14_82mm_SLA_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
     class CUP_I_Hilux_unarmed_TK;
     class CUP_I_Hilux_unarmed_TK_OCimport_01 : CUP_I_Hilux_unarmed_TK { scope = 0; class EventHandlers; class Turrets; };
     class CUP_I_Hilux_unarmed_TK_OCimport_02 : CUP_I_Hilux_unarmed_TK_OCimport_01 {
@@ -984,17 +948,6 @@ class CfgVehicles {
             class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
         };
 
-        randomTextureProbability = 100;
-
-        // Hilux Skins
-            textureList[] = {
-            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.2
-            };
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
@@ -1022,22 +975,11 @@ class CfgVehicles {
             class MainTurret : MainTurret { gunnerType = "CFP_O_TBAN_Rifleman_AK_47_01"; };
         };
 
-        randomTextureProbability = 100;
-
-        // Hilux Skins
-            textureList[] = {
-            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.2
-            };
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -1060,22 +1002,11 @@ class CfgVehicles {
             class MainTurret : MainTurret { gunnerType = "CFP_O_TBAN_Rifleman_AK_47_01"; };
         };
 
-        randomTextureProbability = 100;
-
-        // Hilux Skins
-            textureList[] = {
-            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.2
-            };
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -1098,22 +1029,11 @@ class CfgVehicles {
             class MainTurret : MainTurret { gunnerType = "CFP_O_TBAN_Grenadier_AK_74_01"; };
         };
 
-        randomTextureProbability = 100;
-
-        // Hilux Skins
-            textureList[] = {
-            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.2
-            };
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -1136,22 +1056,11 @@ class CfgVehicles {
             class MainTurret : MainTurret { gunnerType = "CFP_O_TBAN_Grenadier_AK_74_01"; };
         };
 
-        randomTextureProbability = 100;
-
-        // Hilux Skins
-            textureList[] = {
-            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.2
-            };
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -1174,22 +1083,11 @@ class CfgVehicles {
             class MainTurret : MainTurret { gunnerType = "CFP_O_TBAN_Rifleman_AK_74_01"; };
         };
 
-        randomTextureProbability = 100;
-
-        // Hilux Skins
-            textureList[] = {
-            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.2
-            };
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -1212,22 +1110,11 @@ class CfgVehicles {
             class MainTurret : MainTurret { gunnerType = "CFP_O_TBAN_Rifleman_AK_47_01"; };
         };
 
-        randomTextureProbability = 100;
-
-        // Hilux Skins
-            textureList[] = {
-            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.2
-            };
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -1250,22 +1137,11 @@ class CfgVehicles {
             class MainTurret : MainTurret { gunnerType = "CFP_O_TBAN_Rifleman_AK_74_01"; };
         };
 
-        randomTextureProbability = 100;
-
-        // Hilux Skins
-            textureList[] = {
-            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.2
-            };
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -1288,22 +1164,11 @@ class CfgVehicles {
             class MainTurret : MainTurret { gunnerType = "CFP_O_TBAN_Rifleman_AK_47_01"; };
         };
 
-        randomTextureProbability = 100;
-
-        // Hilux Skins
-            textureList[] = {
-            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.2
-            };
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -1326,22 +1191,11 @@ class CfgVehicles {
             class MainTurret : MainTurret { gunnerType = "CFP_O_TBAN_Rifleman_AK_47_01"; };
         };
 
-        randomTextureProbability = 100;
-
-        // Hilux Skins
-            textureList[] = {
-            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.2
-            };
-
         class EventHandlers : EventHandlers {
             class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
 
             class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
+                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
             };
 
         };
@@ -1567,7 +1421,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_TBAN_DShKM_01 : CUP_O_DSHKM_SLA_OCimport_02 {
+    class CUP_DSHKM_base;
+    class CFP_O_TBAN_DShKM_01 : CUP_DSHKM_base {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1575,28 +1430,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_TBAN";
         crew = "CFP_O_TBAN_Rifleman_Lee_Enfield_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_O_TBAN_DShKM_Low_01 : CUP_O_DSHKM_MiniTripod_SLA_OCimport_02 {
+    class CUP_DSHKM_MiniTripod_base;
+    class CFP_O_TBAN_DShKM_Low_01 : CUP_DSHKM_MiniTripod_base {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1604,28 +1441,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_TBAN";
         crew = "CFP_O_TBAN_Rifleman_AK_47_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_O_TBAN_SPG_9_01 : CUP_O_SPG9_SLA_OCimport_02 {
+    class CUP_SPG9_base;
+    class CFP_O_TBAN_SPG_9_01 : CUP_SPG9_base {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1633,28 +1452,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_TBAN";
         crew = "CFP_O_TBAN_Rifleman_AK_74_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_O_TBAN_Podnos_2B14_01 : CUP_O_2b14_82mm_SLA_OCimport_02 {
+    class CUP_2b14_82mm_Base;
+    class CFP_O_TBAN_Podnos_2B14_01 : CUP_2b14_82mm_Base {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1662,25 +1463,6 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_TBAN";
         crew = "CFP_O_TBAN_Team_Leader_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
     class CFP_O_TBAN_BMP_2_01 : CUP_I_BMP2_NAPA_OCimport_02 {
