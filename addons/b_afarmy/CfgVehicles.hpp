@@ -620,6 +620,10 @@ class CfgVehicles {
         crew = "CFP_B_AFARMY_Rifleman_01";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"x\cfp\addons\vehicles\Hilux\body_ana_co.paa"};
+        textureList[] =
+        {
+            "ANA",1
+        };
         TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
         TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
         TRANSPORTITEMSMEDIUM
@@ -637,14 +641,18 @@ class CfgVehicles {
         crew = "CFP_B_AFARMY_Operator_Light_SF_01";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"x\cfp\addons\vehicles\Hilux\body_ana_co.paa"};
+        textureList[] =
+        {
+            "ANA",1
+        };
         TRANSPORTWEAPONSMEDIUM(CUP_arifle_M4A3_black,CUP_launch_RPG7V)
         TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
         TRANSPORTITEMSMEDIUM
         TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
     };
 
-    class CUP_Hilux_DSHKM_Base;
-    class CFP_B_AFARMY_Hilux_DSHKM_01: CUP_Hilux_DSHKM_Base
+    class CUP_O_Hilux_DSHKM_CHDKZ;
+    class CFP_B_AFARMY_Hilux_DSHKM_01: CUP_O_Hilux_DSHKM_CHDKZ
     {
         author = "CFP";
         scope = 2;
@@ -655,13 +663,17 @@ class CfgVehicles {
         crew = "CFP_B_AFARMY_Rifleman_01";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"x\cfp\addons\vehicles\Hilux\body_ana_co.paa"};
+        textureList[] =
+        {
+            "ANA",1
+        };
         TRANSPORTWEAPONSMEDIUM(CUP_arifle_M16A2,CUP_launch_RPG7V)
         TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
         TRANSPORTITEMSMEDIUM
         TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
     };
 
-    class CFP_B_AFARMY_Hilux_DSHKM_02: CUP_Hilux_DSHKM_Base
+    class CFP_B_AFARMY_Hilux_DSHKM_02: CUP_O_Hilux_DSHKM_CHDKZ
     {
         author = "CFP";
         scope = 2;
@@ -672,6 +684,10 @@ class CfgVehicles {
         crew = "CFP_B_AFARMY_Operator_Light_SF_01";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"x\cfp\addons\vehicles\Hilux\body_ana_co.paa"};
+        textureList[] =
+        {
+            "ANA",1
+        };
         TRANSPORTWEAPONSMEDIUM(CUP_arifle_M4A3_black,CUP_launch_RPG7V)
         TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_556x45_Stanag,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
         TRANSPORTITEMSMEDIUM

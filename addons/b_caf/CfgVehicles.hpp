@@ -30,51 +30,6 @@ class CfgVehicles {
     class O_helicrew_F_OCimport_01 : O_helicrew_F { scope = 0; class EventHandlers; };
     class O_helicrew_F_OCimport_02 : O_helicrew_F_OCimport_01 { class EventHandlers; };
 
-    class CUP_O_D30_TK_INS;
-    class CUP_O_D30_TK_INS_OCimport_01 : CUP_O_D30_TK_INS { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_D30_TK_INS_OCimport_02 : CUP_O_D30_TK_INS_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_O_DSHKM_TK_INS;
-    class CUP_O_DSHKM_TK_INS_OCimport_01 : CUP_O_DSHKM_TK_INS { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_DSHKM_TK_INS_OCimport_02 : CUP_O_DSHKM_TK_INS_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_O_DSHkM_MiniTriPod_TK_INS;
-    class CUP_O_DSHkM_MiniTriPod_TK_INS_OCimport_01 : CUP_O_DSHkM_MiniTriPod_TK_INS { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_DSHkM_MiniTriPod_TK_INS_OCimport_02 : CUP_O_DSHkM_MiniTriPod_TK_INS_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_O_SPG9_TK_INS;
-    class CUP_O_SPG9_TK_INS_OCimport_01 : CUP_O_SPG9_TK_INS { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_SPG9_TK_INS_OCimport_02 : CUP_O_SPG9_TK_INS_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_O_ZU23_TK_INS;
-    class CUP_O_ZU23_TK_INS_OCimport_01 : CUP_O_ZU23_TK_INS { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_ZU23_TK_INS_OCimport_02 : CUP_O_ZU23_TK_INS_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
     class CUP_I_Ural_ZU23_TK_Gue;
     class CUP_I_Ural_ZU23_TK_Gue_OCimport_01 : CUP_I_Ural_ZU23_TK_Gue { scope = 0; class EventHandlers; class Turrets; };
     class CUP_I_Ural_ZU23_TK_Gue_OCimport_02 : CUP_I_Ural_ZU23_TK_Gue_OCimport_01 {
@@ -223,63 +178,6 @@ class CfgVehicles {
             class CargoTurret_03;
             class CargoTurret_04;
             class CargoTurret_05;
-        };
-    };
-
-    class CUP_I_Hilux_unarmed_TK;
-    class CUP_I_Hilux_unarmed_TK_OCimport_01 : CUP_I_Hilux_unarmed_TK { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_I_Hilux_unarmed_TK_OCimport_02 : CUP_I_Hilux_unarmed_TK_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class CargoTurret_01;
-            class CargoTurret_02;
-            class CargoTurret_03;
-            class CargoTurret_04;
-        };
-    };
-
-    class CUP_I_Hilux_DSHKM_TK;
-    class CUP_I_Hilux_DSHKM_TK_OCimport_01 : CUP_I_Hilux_DSHKM_TK { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_I_Hilux_DSHKM_TK_OCimport_02 : CUP_I_Hilux_DSHKM_TK_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_I_Hilux_SPG9_TK;
-    class CUP_I_Hilux_SPG9_TK_OCimport_01 : CUP_I_Hilux_SPG9_TK { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_I_Hilux_SPG9_TK_OCimport_02 : CUP_I_Hilux_SPG9_TK_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_I_Hilux_podnos_TK;
-    class CUP_I_Hilux_podnos_TK_OCimport_01 : CUP_I_Hilux_podnos_TK { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_I_Hilux_podnos_TK_OCimport_02 : CUP_I_Hilux_podnos_TK_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_I_Hilux_MLRS_TK;
-    class CUP_I_Hilux_MLRS_TK_OCimport_01 : CUP_I_Hilux_MLRS_TK { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_I_Hilux_MLRS_TK_OCimport_02 : CUP_I_Hilux_MLRS_TK_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_I_Hilux_zu23_TK;
-    class CUP_I_Hilux_zu23_TK_OCimport_01 : CUP_I_Hilux_zu23_TK { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_I_Hilux_zu23_TK_OCimport_02 : CUP_I_Hilux_zu23_TK_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
         };
     };
 
@@ -895,8 +793,8 @@ class CfgVehicles {
         ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AKM","","","",{"CUP_30Rnd_762x39_AK47_M",30},{},""},{"CUP_launch_FIM92Stinger","","","",{"CUP_Stinger_M",1},{},""},{},{"CFP_U_FieldUniform_ChocChip_SS",{{"CUP_30Rnd_762x39_AK47_M",2,30}}},{"CFP_AK_VEST_LOlive",{{"CUP_30Rnd_762x39_AK47_M",5,30}}},{"SP_Carryall_Tan",{}},"SP_Shemagh_CheckWhite","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
-
-    class CFP_B_CAF_D30_01 : CUP_O_D30_TK_INS_OCimport_02  {
+    class CUP_D30_base;
+    class CFP_B_CAF_D30_01 : CUP_D30_base  {
         editorPreview = \x\cfp\addons\b_caf\data\preview\CFP_B_CAF_D30_01.JPG;
         author = "CFP";
         scope = 2;
@@ -905,118 +803,53 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_CAF";
         crew = "CFP_B_CAF_Rifleman_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_B_CAF_DShKM_High_01 : CUP_O_DSHKM_TK_INS_OCimport_02  {
-        editorPreview = \x\cfp\addons\b_caf\data\preview\CFP_B_CAF_DShKM_High_01.JPG;
-        author = "CFP";
+    class CUP_DSHKM_base;
+    class CFP_B_CAF_DShKM_01 : CUP_DSHKM_base {
+        author = "Drew";
         scope = 2;
         scopeCurator = 2;
-        displayName = "DShKM [High]";
+        displayName = "DShKM";
         side = 1;
         faction = "CFP_B_CAF";
         crew = "CFP_B_CAF_Rifleman_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_B_CAF_DShKM_Low_01 : CUP_O_DSHkM_MiniTriPod_TK_INS_OCimport_02  {
-        editorPreview = \x\cfp\addons\b_caf\data\preview\CFP_B_CAF_DShKM_Low_01.JPG;
-        author = "CFP";
+    class CUP_DSHKM_MiniTripod_base;
+    class CFP_B_CAF_DShKM_Low_01 : CUP_DSHKM_MiniTripod_base {
+        author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "DShKM [Low]";
         side = 1;
         faction = "CFP_B_CAF";
         crew = "CFP_B_CAF_Rifleman_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_B_CAF_SPG_9_01 : CUP_O_SPG9_TK_INS_OCimport_02  {
-        editorPreview = \x\cfp\addons\b_caf\data\preview\CFP_B_CAF_SPG_9_01.JPG;
-        author = "CFP";
+    class CUP_SPG9_base;
+    class CFP_B_CAF_SPG_9_01 : CUP_SPG9_base {
+        author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "SPG-9";
         side = 1;
         faction = "CFP_B_CAF";
         crew = "CFP_B_CAF_Rifleman_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_B_CAF_ZU_23_01 : CUP_O_ZU23_TK_INS_OCimport_02  {
+    class CUP_2b14_82mm_Base;
+    class CFP_B_CAF_Podnos_2B14_01 : CUP_2b14_82mm_Base {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Podnos 2B14";
+        side = 1;
+        faction = "CFP_B_CAF";
+        crew = "CFP_B_CAF_Rifleman_01";
+    };
+    class CUP_ZU23_base;
+    class CFP_B_CAF_ZU_23_01 : CUP_ZU23_base  {
         editorPreview = \x\cfp\addons\b_caf\data\preview\CFP_B_CAF_ZU_23_01.JPG;
         author = "CFP";
         scope = 2;
@@ -1025,25 +858,6 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_CAF";
         crew = "CFP_B_CAF_Rifleman_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
     class CFP_B_CAF_Ural_ZU_23_01 : CUP_I_Ural_ZU23_TK_Gue_OCimport_02  {
@@ -1450,6 +1264,8 @@ class CfgVehicles {
 
     };
 
+
+
     class CFP_B_CAF_UAZ_DShKM_01 : CUP_O_UAZ_MG_SLA_OCimport_02  {
         editorPreview = \x\cfp\addons\b_caf\data\preview\CFP_B_CAF_UAZ_DShKM_01.JPG;
         author = "CFP";
@@ -1570,7 +1386,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_CAF_Hilux_01 : CUP_I_Hilux_unarmed_TK_OCimport_02 {
+    class CUP_Hilux_unarmed_Base;
+    class CFP_B_CAF_Hilux_01 : CUP_Hilux_unarmed_Base {
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1578,47 +1395,29 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_CAF";
         crew = "CFP_B_CAF_Rifleman_01";
+        textureList[]=
+        {
+            "Red",1,
+            "Guer3",1,
+            "Guer6",1,
+            "Guer7",1,
+            "Guer8",1,
+            "White",1,
+            "White2",1,
+            "Creme",1,
+            "Red2",1,
+            "Tan",1,
+            "Blue",1
+        };
+
         TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
         TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
         TRANSPORTITEMSMEDIUM
         TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_cbr)
-
-        class Turrets : Turrets {
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
-            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
-        };
-
-        randomTextureProbability = 100;
-
-        // Hilux Skins
-        textureList[] = {
-            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer6_co.paa"}, 0.3,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer7_co.paa"}, 0.3,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer8_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.2
-        };
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_B_CAF_Hilux_DSHKM_01 : CUP_I_Hilux_DSHKM_TK_OCimport_02 {
+    class CUP_Hilux_DSHKM_Base;
+    class CFP_B_CAF_Hilux_DSHKM_01 : CUP_Hilux_DSHKM_Base {
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1626,44 +1425,28 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_CAF";
         crew = "CFP_B_CAF_Rifleman_01";
+        textureList[]=
+        {
+            "Red",1,
+            "Guer3",1,
+            "Guer6",1,
+            "Guer7",1,
+            "Guer8",1,
+            "White",1,
+            "White2",1,
+            "Creme",1,
+            "Red2",1,
+            "Tan",1,
+            "Blue",1
+        };
         TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
         TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
         TRANSPORTITEMSMEDIUM
         TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_cbr)
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_CAF_Rifleman_01"; };
-        };
-
-        randomTextureProbability = 100;
-
-        // Hilux Skins
-        textureList[] = {
-            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer6_co.paa"}, 0.3,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer7_co.paa"}, 0.3,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer8_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.2
-        };
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_B_CAF_Hilux_SPG_01 : CUP_I_Hilux_SPG9_TK_OCimport_02 {
+    class CUP_Hilux_SPG9_Base;
+    class CFP_B_CAF_Hilux_SPG_01 : CUP_Hilux_SPG9_Base {
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1671,44 +1454,28 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_CAF";
         crew = "CFP_B_CAF_Rifleman_01";
+        textureList[]=
+        {
+            "Red",1,
+            "Guer3",1,
+            "Guer6",1,
+            "Guer7",1,
+            "Guer8",1,
+            "White",1,
+            "White2",1,
+            "Creme",1,
+            "Red2",1,
+            "Tan",1,
+            "Blue",1
+        };
         TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
         TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
         TRANSPORTITEMSMEDIUM
         TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_cbr)
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_CAF_Rifleman_01"; };
-        };
-
-        randomTextureProbability = 100;
-
-        // Hilux Skins
-        textureList[] = {
-            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer6_co.paa"}, 0.3,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer7_co.paa"}, 0.3,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer8_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.2
-        };
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_B_CAF_Hilux_Podnos_01 : CUP_I_Hilux_podnos_TK_OCimport_02 {
+    class CUP_Hilux_Podnos_Base;
+    class CFP_B_CAF_Hilux_Podnos_01 : CUP_Hilux_Podnos_Base {
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1716,44 +1483,28 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_CAF";
         crew = "CFP_B_CAF_Rifleman_01";
+        textureList[]=
+        {
+            "Red",1,
+            "Guer3",1,
+            "Guer6",1,
+            "Guer7",1,
+            "Guer8",1,
+            "White",1,
+            "White2",1,
+            "Creme",1,
+            "Red2",1,
+            "Tan",1,
+            "Blue",1
+        };
         TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
         TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
         TRANSPORTITEMSMEDIUM
         TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_cbr)
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_CAF_Rifleman_01"; };
-        };
-
-        randomTextureProbability = 100;
-
-        // Hilux Skins
-        textureList[] = {
-            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer6_co.paa"}, 0.3,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer7_co.paa"}, 0.3,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer8_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.2
-        };
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_B_CAF_Hilux_MLRS_01 : CUP_I_Hilux_MLRS_TK_OCimport_02 {
+    class CUP_Hilux_MLRS_Base;
+    class CFP_B_CAF_Hilux_MLRS_01 : CUP_Hilux_MLRS_Base {
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1761,44 +1512,28 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_CAF";
         crew = "CFP_B_CAF_Rifleman_01";
+        textureList[]=
+        {
+            "Red",1,
+            "Guer3",1,
+            "Guer6",1,
+            "Guer7",1,
+            "Guer8",1,
+            "White",1,
+            "White2",1,
+            "Creme",1,
+            "Red2",1,
+            "Tan",1,
+            "Blue",1
+        };
         TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
         TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
         TRANSPORTITEMSMEDIUM
         TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_cbr)
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_CAF_Rifleman_01"; };
-        };
-
-        randomTextureProbability = 100;
-
-        // Hilux Skins
-        textureList[] = {
-            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer6_co.paa"}, 0.3,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer7_co.paa"}, 0.3,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer8_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.2
-        };
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_B_CAF_Hilux_ZU_23_01 : CUP_I_Hilux_zu23_TK_OCimport_02 {
+    class CUP_Hilux_zu23_Base;
+    class CFP_B_CAF_Hilux_ZU_23_01 : CUP_Hilux_zu23_Base {
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1806,41 +1541,24 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_CAF";
         crew = "CFP_B_CAF_Rifleman_01";
+        textureList[]=
+        {
+            "Red",1,
+            "Guer3",1,
+            "Guer6",1,
+            "Guer7",1,
+            "Guer8",1,
+            "White",1,
+            "White2",1,
+            "Creme",1,
+            "Red2",1,
+            "Tan",1,
+            "Blue",1
+        };
         TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
         TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
         TRANSPORTITEMSMEDIUM
         TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_cbr)
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_B_CAF_Rifleman_01"; };
-        };
-
-        randomTextureProbability = 100;
-
-        // Hilux Skins
-        textureList[] = {
-            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer6_co.paa"}, 0.3,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer7_co.paa"}, 0.3,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer8_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.2
-        };
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
     class CFP_B_CAF_Technical_MG_01 : B_G_Offroad_01_armed_F_OCimport_02  {
