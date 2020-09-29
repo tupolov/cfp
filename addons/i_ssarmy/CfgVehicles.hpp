@@ -12,15 +12,6 @@ class CfgVehicles {
     class O_Soldier_F_OCimport_01 : O_Soldier_F { scope = 0; class EventHandlers; };
     class O_Soldier_F_OCimport_02 : O_Soldier_F_OCimport_01 { class EventHandlers; };
 
-    class CUP_I_DSHKM_NAPA;
-    class CUP_I_DSHKM_NAPA_OCimport_01 : CUP_I_DSHKM_NAPA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_I_DSHKM_NAPA_OCimport_02 : CUP_I_DSHKM_NAPA_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
     class CUP_I_Datsun_PK;
     class CUP_I_Datsun_PK_OCimport_01 : CUP_I_Datsun_PK { scope = 0; class EventHandlers; class Turrets; };
     class CUP_I_Datsun_PK_OCimport_02 : CUP_I_Datsun_PK_OCimport_01 {
@@ -29,24 +20,6 @@ class CfgVehicles {
             class MainTurret;
             class CargoTurret_01;
             class CargoTurret_02;
-        };
-    };
-
-    class CUP_I_SPG9_NAPA;
-    class CUP_I_SPG9_NAPA_OCimport_01 : CUP_I_SPG9_NAPA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_I_SPG9_NAPA_OCimport_02 : CUP_I_SPG9_NAPA_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_B_DSHkM_MiniTriPod_NAPA;
-    class CUP_B_DSHkM_MiniTriPod_NAPA_OCimport_01 : CUP_B_DSHkM_MiniTriPod_NAPA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_B_DSHkM_MiniTriPod_NAPA_OCimport_02 : CUP_B_DSHkM_MiniTriPod_NAPA_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
         };
     };
 
@@ -237,82 +210,6 @@ class CfgVehicles {
             class MainTurret;
         };
     };
-
-    class CUP_I_Hilux_unarmed_TK;
-    class CUP_I_Hilux_unarmed_TK_OCimport_01 : CUP_I_Hilux_unarmed_TK { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_I_Hilux_unarmed_TK_OCimport_02 : CUP_I_Hilux_unarmed_TK_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class CargoTurret_01;
-            class CargoTurret_02;
-            class CargoTurret_03;
-            class CargoTurret_04;
-        };
-    };
-
-    class CUP_I_Hilux_DSHKM_TK;
-    class CUP_I_Hilux_DSHKM_TK_OCimport_01 : CUP_I_Hilux_DSHKM_TK { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_I_Hilux_DSHKM_TK_OCimport_02 : CUP_I_Hilux_DSHKM_TK_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_I_Hilux_SPG9_TK;
-    class CUP_I_Hilux_SPG9_TK_OCimport_01 : CUP_I_Hilux_SPG9_TK { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_I_Hilux_SPG9_TK_OCimport_02 : CUP_I_Hilux_SPG9_TK_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_I_Hilux_igla_TK;
-    class CUP_I_Hilux_igla_TK_OCimport_01 : CUP_I_Hilux_igla_TK { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_I_Hilux_igla_TK_OCimport_02 : CUP_I_Hilux_igla_TK_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_I_Hilux_metis_TK;
-    class CUP_I_Hilux_metis_TK_OCimport_01 : CUP_I_Hilux_metis_TK { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_I_Hilux_metis_TK_OCimport_02 : CUP_I_Hilux_metis_TK_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_I_Hilux_podnos_TK;
-    class CUP_I_Hilux_podnos_TK_OCimport_01 : CUP_I_Hilux_podnos_TK { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_I_Hilux_podnos_TK_OCimport_02 : CUP_I_Hilux_podnos_TK_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_I_Hilux_MLRS_TK;
-    class CUP_I_Hilux_MLRS_TK_OCimport_01 : CUP_I_Hilux_MLRS_TK { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_I_Hilux_MLRS_TK_OCimport_02 : CUP_I_Hilux_MLRS_TK_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_I_Hilux_zu23_TK;
-    class CUP_I_Hilux_zu23_TK_OCimport_01 : CUP_I_Hilux_zu23_TK { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_I_Hilux_zu23_TK_OCimport_02 : CUP_I_Hilux_zu23_TK_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
 
     class CFP_I_SSArmy_Soldier_01 : O_Soldier_F_OCimport_02 {
         editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Soldier_01.JPG;
@@ -1035,9 +932,10 @@ class CfgVehicles {
 
     };
 
-    class CFP_I_SSArmy_DShKM_01 : CUP_I_DSHKM_NAPA_OCimport_02 {
-        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_DShKM_01.JPG;
-        author = "Drew";
+    class CUP_DSHKM_base;
+    class CFP_I_SSArmy_DShKM_01 : CUP_DSHKM_base {
+        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SSArmy_DShKM_01.JPG;
+        author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "DShKM";
@@ -1045,27 +943,10 @@ class CfgVehicles {
         faction = "CFP_I_SSArmy";
         crew = "CFP_I_SSArmy_Soldier_01";
 
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-     class CFP_I_SSArmy_Hilux_01 : CUP_I_Hilux_unarmed_TK_OCimport_02 {
+     class CUP_Hilux_unarmed_Base;
+    class CFP_I_SSArmy_Hilux_01 :CUP_Hilux_unarmed_Base {
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1073,48 +954,27 @@ class CfgVehicles {
         side = 2;
         faction = "CFP_I_SSArmy";
         crew = "CFP_I_SSArmy_Soldier_01";
-
-        class Turrets : Turrets {
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
-            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
+        textureList[]=
+        {
+            "Red",1,
+            "Guer3",1,
+            "Guer6",1,
+            "Guer7",1,
+            "Guer8",1,
+            "White",1,
+            "White2",1,
+            "Creme",1,
+            "Red2",1,
+            "Tan",1,
+            "Blue",1
         };
-
-        randomTextureProbability = 100;
-
-        // Hilux Skins
-        textureList[] = {
-            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.5,
-            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.5,
-            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.5,
-            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.5,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"}, 0.3,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer6_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer7_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer8_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.5
-        };
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
     };
-
-    class CFP_I_SSArmy_Hilux_DShKM_01 : CUP_I_Hilux_DSHKM_TK_OCimport_02 {
+    class CUP_Hilux_DSHKM_Base;
+    class CFP_I_SSArmy_Hilux_DShKM_01 : CUP_Hilux_DSHKM_Base {
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1122,45 +982,27 @@ class CfgVehicles {
         side = 2;
         faction = "CFP_I_SSArmy";
         crew = "CFP_I_SSArmy_Soldier_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_I_SSArmy_Soldier_01"; };
+        textureList[]=
+        {
+            "Red",1,
+            "Guer3",1,
+            "Guer6",1,
+            "Guer7",1,
+            "Guer8",1,
+            "White",1,
+            "White2",1,
+            "Creme",1,
+            "Red2",1,
+            "Tan",1,
+            "Blue",1
         };
-
-        randomTextureProbability = 100;
-
-        // Hilux Skins
-        textureList[] = {
-            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.5,
-            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.5,
-            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.5,
-            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.5,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"}, 0.3,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer6_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer7_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer8_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.5
-        };
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
     };
-
-    class CFP_I_SSArmy_Hilux_SPG_01 : CUP_I_Hilux_SPG9_TK_OCimport_02 {
+    class CUP_Hilux_SPG9_Base;
+    class CFP_I_SSArmy_Hilux_SPG_01 : CUP_Hilux_SPG9_Base {
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1168,284 +1010,198 @@ class CfgVehicles {
         side = 2;
         faction = "CFP_I_SSArmy";
         crew = "CFP_I_SSArmy_Soldier_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_I_SSArmy_Soldier_01"; };
+        textureList[]=
+        {
+            "Red",1,
+            "Guer3",1,
+            "Guer6",1,
+            "Guer7",1,
+            "Guer8",1,
+            "White",1,
+            "White2",1,
+            "Creme",1,
+            "Red2",1,
+            "Tan",1,
+            "Blue",1
         };
-
-    randomTextureProbability = 100;
-
-        // Hilux Skins
-        textureList[] = {
-            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.5,
-            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.5,
-            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.5,
-            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.5,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"}, 0.3,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer6_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer7_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer8_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.5
-        };
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
     };
 
-    class CFP_I_SSArmy_Hilux_Igla_01 : CUP_I_Hilux_igla_TK_OCimport_02 {
-        author = "CFP";
+    class CUP_Hilux_igla_Base;
+    class CFP_I_SSArmy_Hilux_Igla_01 : CUP_Hilux_igla_Base {
+        author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Hilux [Igla]";
         side = 2;
         faction = "CFP_I_SSArmy";
         crew = "CFP_I_SSArmy_Soldier_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_I_SSArmy_Soldier_01"; };
+        textureList[]=
+        {
+            "Red",1,
+            "Guer3",1,
+            "Guer6",1,
+            "Guer7",1,
+            "Guer8",1,
+            "White",1,
+            "White2",1,
+            "Creme",1,
+            "Red2",1,
+            "Tan",1,
+            "Blue",1
         };
-
-        randomTextureProbability = 100;
-
-        // Hilux Skins
-        textureList[] = {
-            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.5,
-            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.5,
-            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.5,
-            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.5,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"}, 0.3,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer6_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer7_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer8_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.5
-        };
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
     };
 
-    class CFP_I_SSArmy_Hilux_Metis_01 : CUP_I_Hilux_metis_TK_OCimport_02 {
-        author = "CFP";
+    class CUP_Hilux_metis_Base;
+    class CFP_I_SSArmy_Hilux_Metis_01 : CUP_Hilux_metis_Base {
+        author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Hilux [Metis]";
         side = 2;
         faction = "CFP_I_SSArmy";
         crew = "CFP_I_SSArmy_Soldier_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_I_SSArmy_Soldier_01"; };
+        textureList[]=
+        {
+            "Red",1,
+            "Guer3",1,
+            "Guer6",1,
+            "Guer7",1,
+            "Guer8",1,
+            "White",1,
+            "White2",1,
+            "Creme",1,
+            "Red2",1,
+            "Tan",1,
+            "Blue",1
         };
-
-        randomTextureProbability = 100;
-
-        // Hilux Skins
-        textureList[] = {
-            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.5,
-            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.5,
-            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.5,
-            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.5,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"}, 0.3,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer6_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer7_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer8_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.5
-        };
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
     };
 
-    class CFP_I_SSArmy_Hilux_Podnos_01 : CUP_I_Hilux_podnos_TK_OCimport_02 {
-        author = "CFP";
+    class CUP_Hilux_podnos_Base;
+    class CFP_I_SSArmy_Hilux_Podnos_01 : CUP_Hilux_podnos_Base {
+        author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Hilux [Podnos]";
         side = 2;
         faction = "CFP_I_SSArmy";
         crew = "CFP_I_SSArmy_Soldier_01";
+        textureList[]=
+        {
+            "Red",1,
+            "Guer3",1,
+            "Guer6",1,
+            "Guer7",1,
+            "Guer8",1,
+            "White",1,
+            "White2",1,
+            "Creme",1,
+            "Red2",1,
+            "Tan",1,
+            "Blue",1
+        };
         TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
         TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
         TRANSPORTITEMSMEDIUM
         TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_I_SSArmy_Soldier_01"; };
-        };
-
-        randomTextureProbability = 100;
-
-        // Hilux Skins
-        textureList[] = {
-            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.5,
-            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.5,
-            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.5,
-            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.5,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"}, 0.3,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer6_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer7_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer8_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.5
-        };
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_I_SSArmy_Hilux_MLRS_01 : CUP_I_Hilux_MLRS_TK_OCimport_02 {
-        author = "CFP";
+    class CUP_Hilux_MLRS_Base;
+    class CFP_I_SSArmy_Hilux_MLRS_01 : CUP_Hilux_MLRS_Base {
+        author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Hilux [MLRS]";
         side = 2;
         faction = "CFP_I_SSArmy";
         crew = "CFP_I_SSArmy_Soldier_01";
+        textureList[]=
+        {
+            "Red",1,
+            "Guer3",1,
+            "Guer6",1,
+            "Guer7",1,
+            "Guer8",1,
+            "White",1,
+            "White2",1,
+            "Creme",1,
+            "Red2",1,
+            "Tan",1,
+            "Blue",1
+        };
         TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
         TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
         TRANSPORTITEMSMEDIUM
         TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_I_SSArmy_Soldier_01"; };
-        };
-
-        randomTextureProbability = 100;
-
-        // Hilux Skins
-        textureList[] = {
-            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.5,
-            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.5,
-            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.5,
-            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.5,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"}, 0.3,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer6_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer7_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer8_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.5
-        };
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_I_SSArmy_Hilux_ZU_23_01 : CUP_I_Hilux_zu23_TK_OCimport_02 {
-        author = "CFP";
+    class CUP_Hilux_zu23_Base;
+    class CFP_I_SSArmy_Hilux_ZU_23_01 : CUP_Hilux_zu23_Base {
+        author = "Drew";
         scope = 2;
         scopeCurator = 2;
         displayName = "Hilux [ZU-23-2]";
         side = 2;
         faction = "CFP_I_SSArmy";
         crew = "CFP_I_SSArmy_Soldier_01";
+        textureList[]=
+        {
+            "Red",1,
+            "Guer3",1,
+            "Guer6",1,
+            "Guer7",1,
+            "Guer8",1,
+            "White",1,
+            "White2",1,
+            "Creme",1,
+            "Red2",1,
+            "Tan",1,
+            "Blue",1
+        };
         TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
         TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
         TRANSPORTITEMSMEDIUM
         TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
+    };
 
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_I_SSArmy_Soldier_01"; };
+    class CUP_Hilux_AGS30_Base;
+    class CFP_I_SSArmy_Hilux_AGS_30_01 : CUP_Hilux_AGS30_Base {
+        author = "Drew";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Hilux [AGS-30]";
+        side = 2;
+        faction = "CFP_I_SSArmy";
+        crew = "CFP_I_SSArmy_Soldier_01";
+        textureList[]=
+        {
+            "Red",1,
+            "Guer3",1,
+            "Guer6",1,
+            "Guer7",1,
+            "Guer8",1,
+            "White",1,
+            "White2",1,
+            "Creme",1,
+            "Red2",1,
+            "Tan",1,
+            "Blue",1
         };
-
-        randomTextureProbability = 100;
-
-        // Hilux Skins
-        textureList[] = {
-            {"\x\cfp\addons\vehicles\Hilux\body_white_co.paa"}, 0.5,
-            {"\x\cfp\addons\vehicles\Hilux\body_blue_co.paa"}, 0.5,
-            {"\x\cfp\addons\vehicles\Hilux\body_red_co.paa"}, 0.5,
-            {"\x\cfp\addons\vehicles\Hilux\body_tan_co.paa"}, 0.5,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer1_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer3_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer4_co.paa"}, 0.3,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer5_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer6_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer7_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer8_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_guer9_co.paa"}, 0.2,
-            {"\x\cfp\addons\vehicles\Hilux\body_creme_co.paa"}, 0.5
-        };
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn; (_this select 0) call CFP_main_fnc_randomizeVehicle; (_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
     };
 
     class CFP_I_SSArmy_Pickup_PK_01 : CUP_I_Datsun_PK_OCimport_02 {
@@ -1480,9 +1236,10 @@ class CfgVehicles {
 
     };
 
-    class CFP_I_SSArmy_SPG_9_01 : CUP_I_SPG9_NAPA_OCimport_02 {
-        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_SPG_9_01.JPG;
-        author = "Drew";
+    class CUP_SPG9_base;
+    class CFP_I_SSArmy_SPG_9_01 : CUP_SPG9_base {
+        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SSArmy_SPG_9_01.JPG;
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "SPG-9";
@@ -1490,53 +1247,31 @@ class CfgVehicles {
         faction = "CFP_I_SSArmy";
         crew = "CFP_I_SSArmy_Soldier_01";
 
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
+    };
 
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+    class CUP_ZU23_base;
+    class CFP_I_SSArmy_ZU_23_01 : CUP_ZU23_base {
+        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SSArmy_ZU_23_01.JPG;
+        author = "Archduke";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "ZU-23";
+        side = 2;
+        faction = "CFP_I_SSArmy";
+        crew = "CFP_I_SSArmy_Soldier_01";
 
     };
 
-    class CFP_I_SSArmy_DShKM_Low_01 : CUP_B_DSHkM_MiniTriPod_NAPA_OCimport_02 {
-        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_DShKM_Low_01.JPG;
-        author = "Drew";
+    class CUP_DSHKM_MiniTripod_base;
+    class CFP_I_SSArmy_DShKM_Low_01 : CUP_DSHKM_MiniTripod_base {
+        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SSArmy_DShKM_Low_01.JPG;
+        author = "Archduke";
         scope = 2;
         scopeCurator = 2;
         displayName = "DShKM (Low)";
         side = 2;
         faction = "CFP_I_SSArmy";
         crew = "CFP_I_SSArmy_Soldier_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
 
     };
 
@@ -1628,33 +1363,16 @@ class CfgVehicles {
 
     };
 
-    class CFP_I_SSArmy_Mortar_01 : CUP_I_2b14_82mm_TK_GUE_OCimport_02 {
-        editorPreview = \x\cfp\addons\i_ssarmy\data\preview\CFP_I_SSArmy_Mortar_01.JPG;
-        author = "Drew";
+    class CUP_2b14_82mm_Base;
+    class CFP_I_SSArmy_Mortar_01 : CUP_2b14_82mm_Base {
+        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SSArmy_Mortar_01.JPG;
+        author = "CFP";
         scope = 2;
         scopeCurator = 2;
         displayName = "Mortar";
         side = 2;
         faction = "CFP_I_SSArmy";
         crew = "CFP_I_SSArmy_Soldier_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
 
     };
 

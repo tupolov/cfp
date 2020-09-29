@@ -1302,36 +1302,19 @@ class CfgVehicles {
         editorPreview = "x\cfp\addons\b_afarmy\data\preview\CFP_B_AFARMY_Asst_Gunner_Mortar_01.jpg";
     };
 
-    class CFP_B_AFARMY_DShKM_High_01 : CUP_O_DSHKM_SLA_OCimport_02 {
+    class CUP_DSHKM_base;
+    class CFP_B_AFARMY_DShKM_01 : CUP_DSHKM_base {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
-        displayName = "DShKM [High]";
+        displayName = "DShKM";
         side = 1;
         faction = "CFP_B_AFARMY";
         crew = "CFP_B_AFARMY_Rifleman_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_B_AFARMY_DShKM_Low_01 : CUP_O_DSHKM_MiniTripod_SLA_OCimport_02 {
+    class CUP_DSHKM_MiniTripod_base;
+    class CFP_B_AFARMY_DShKM_Low_01 : CUP_DSHKM_MiniTripod_base {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1339,28 +1322,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_AFARMY";
         crew = "CFP_B_AFARMY_Rifleman_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_B_AFARMY_SPG_9_01 : CUP_O_SPG9_SLA_OCimport_02 {
+    class CUP_SPG9_base;
+    class CFP_B_AFARMY_SPG_9_01 : CUP_SPG9_base {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1368,28 +1333,10 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_AFARMY";
         crew = "CFP_B_AFARMY_Rifleman_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_B_AFARMY_Podnos_2B14_01 : CUP_O_2b14_82mm_TK_INS_OCimport_02 {
+    class CUP_2b14_82mm_Base;
+    class CFP_B_AFARMY_Podnos_2B14_01 : CUP_2b14_82mm_Base {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1397,25 +1344,6 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_AFARMY";
         crew = "CFP_B_AFARMY_Rifleman_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
     class CFP_B_AFARMY_Operator_01 : O_recon_F_OCimport_02 {

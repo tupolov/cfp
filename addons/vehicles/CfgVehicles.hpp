@@ -465,6 +465,20 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer9_is_co.paa"};
                 factions[] = {};
             };
+            class ANA
+            {
+                displayName = "ANA";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_ana_co.paa"};
+                factions[] = {};
+            };
+            class WINCAMO
+            {
+                displayName = "Winter Camo";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_snowcamo1_co.paa"};
+                factions[] = {};
+            };
         };
     };
 
@@ -680,6 +694,20 @@ class CfgVehicles
                 displayName = "Guerilla Camo v9 (ISIS)";
                 author = "CFP";
                 textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer9_is_co.paa"};
+                factions[] = {};
+            };
+            class ANA
+            {
+                displayName = "ANA";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_ana_co.paa"};
+                factions[] = {};
+            };
+            class WINCAMO
+            {
+                displayName = "Winter Camo";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_snowcamo1_co.paa"};
                 factions[] = {};
             };
         };
@@ -899,6 +927,13 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer9_is_co.paa"};
                 factions[] = {};
             };
+            class WINCAMO
+            {
+                displayName = "Winter Camo";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_snowcamo1_co.paa"};
+                factions[] = {};
+            };
         };
     };
 
@@ -1114,6 +1149,13 @@ class CfgVehicles
                 displayName = "Guerilla Camo v9 (ISIS)";
                 author = "CFP";
                 textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer9_is_co.paa"};
+                factions[] = {};
+            };
+            class WINCAMO
+            {
+                displayName = "Winter Camo";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_snowcamo1_co.paa"};
                 factions[] = {};
             };
         };
@@ -1333,6 +1375,13 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer9_is_co.paa"};
                 factions[] = {};
             };
+            class WINCAMO
+            {
+                displayName = "Winter Camo";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_snowcamo1_co.paa"};
+                factions[] = {};
+            };
         };
     };
 
@@ -1548,6 +1597,13 @@ class CfgVehicles
                 displayName = "Guerilla Camo v9 (ISIS)";
                 author = "CFP";
                 textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer9_is_co.paa"};
+                factions[] = {};
+            };
+            class WINCAMO
+            {
+                displayName = "Winter Camo";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_snowcamo1_co.paa"};
                 factions[] = {};
             };
         };
@@ -1767,6 +1823,13 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer9_is_co.paa"};
                 factions[] = {};
             };
+            class WINCAMO
+            {
+                displayName = "Winter Camo";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_snowcamo1_co.paa"};
+                factions[] = {};
+            };
         };
     };
 
@@ -1982,6 +2045,13 @@ class CfgVehicles
                 displayName = "Guerilla Camo v9 (ISIS)";
                 author = "CFP";
                 textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer9_is_co.paa"};
+                factions[] = {};
+            };
+            class WINCAMO
+            {
+                displayName = "Winter Camo";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_snowcamo1_co.paa"};
                 factions[] = {};
             };
         };
@@ -2633,6 +2703,13 @@ class CfgVehicles
                 displayName = "Guerilla Camo v9 (ISIS)";
                 author = "CFP";
                 textures[] = {"\x\cfp\addons\vehicles\Hilux\body_guer9_is_co.paa"};
+                factions[] = {};
+            };
+            class WINCAMO
+            {
+                displayName = "Winter Camo";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_snowcamo1_co.paa"};
                 factions[] = {};
             };
         };

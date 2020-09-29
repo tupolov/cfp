@@ -88,61 +88,6 @@ class CfgVehicles {
         };
     };
 
-    class CUP_O_ZU23_SLA;
-    class CUP_O_ZU23_SLA_OCimport_01 : CUP_O_ZU23_SLA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_ZU23_SLA_OCimport_02 : CUP_O_ZU23_SLA_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_O_DSHKM_SLA;
-    class CUP_O_DSHKM_SLA_OCimport_01 : CUP_O_DSHKM_SLA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_DSHKM_SLA_OCimport_02 : CUP_O_DSHKM_SLA_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_O_DSHKM_MiniTripod_SLA;
-    class CUP_O_DSHKM_MiniTripod_SLA_OCimport_01 : CUP_O_DSHKM_MiniTripod_SLA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_DSHKM_MiniTripod_SLA_OCimport_02 : CUP_O_DSHKM_MiniTripod_SLA_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_B_M2StaticMG_US;
-    class CUP_B_M2StaticMG_US_OCimport_01 : CUP_B_M2StaticMG_US { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_B_M2StaticMG_US_OCimport_02 : CUP_B_M2StaticMG_US_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_O_SPG9_SLA;
-    class CUP_O_SPG9_SLA_OCimport_01 : CUP_O_SPG9_SLA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_SPG9_SLA_OCimport_02 : CUP_O_SPG9_SLA_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_O_2b14_82mm_SLA;
-    class CUP_O_2b14_82mm_SLA_OCimport_01 : CUP_O_2b14_82mm_SLA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_2b14_82mm_SLA_OCimport_02 : CUP_O_2b14_82mm_SLA_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-
     class CFP_O_ABUSAYYAF_Rifleman_Light_01 : O_Soldier_F_OCimport_02 {
         editorPreview = \x\cfp\addons\o_abusayyaf\data\preview\CFP_O_ABUSAYYAF_Rifleman_Light_01.JPG;
         author = "Drew";
@@ -1069,185 +1014,78 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_ABUSAYYAF_ZU_23_01 : CUP_O_ZU23_SLA_OCimport_02 {
-        editorPreview = \x\cfp\addons\o_abusayyaf\data\preview\CFP_O_ABUSAYYAF_ZU_23_01.JPG;
+    class CUP_ZU23_base;
+    class CFP_O_ABUSAYYAF_ZU_23_DESERT_01 : CUP_ZU23_base {
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
-        displayName = "ASG ZU-23";
+        displayName = "ZU-23";
         side = 0;
         faction = "CFP_O_ABUSAYYAF";
         crew = "CFP_O_ABUSAYYAF_Rifleman_Light_01";
 
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_O_ABUSAYYAF_DSHKM_01 : CUP_O_DSHKM_SLA_OCimport_02 {
-        editorPreview = \x\cfp\addons\o_abusayyaf\data\preview\CFP_O_ABUSAYYAF_DSHKM_01.JPG;
+    class CUP_SPG9_base;
+    class CFP_O_ABUSAYYAF_SPG_9_DESERT_01 : CUP_SPG9_base {
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
-        displayName = "ASG DSHKM";
+        displayName = "SPG-9";
         side = 0;
         faction = "CFP_O_ABUSAYYAF";
         crew = "CFP_O_ABUSAYYAF_Rifleman_Light_01";
 
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_O_ABUSAYYAF_DSKHM_Low_01 : CUP_O_DSHKM_MiniTripod_SLA_OCimport_02 {
-        editorPreview = \x\cfp\addons\o_abusayyaf\data\preview\CFP_O_ABUSAYYAF_DSKHM_Low_01.JPG;
+    class CUP_2b14_82mm_Base;
+    class CFP_O_ABUSAYYAF_Mortar_01 : CUP_2b14_82mm_Base {
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
-        displayName = "ASG DSKHM (Low)";
+        displayName = "Mortar";
         side = 0;
         faction = "CFP_O_ABUSAYYAF";
         crew = "CFP_O_ABUSAYYAF_Rifleman_Light_01";
 
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_O_ABUSAYYAF_M2_01 : CUP_B_M2StaticMG_US_OCimport_02 {
-        editorPreview = \x\cfp\addons\o_abusayyaf\data\preview\CFP_O_ABUSAYYAF_M2_01.JPG;
+    class CUP_DSHKM_base;
+    class CFP_O_ABUSAYYAF_DShKM_01 : CUP_DSHKM_base {
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
-        displayName = "ASG M2";
+        displayName = "DShKM";
         side = 0;
         faction = "CFP_O_ABUSAYYAF";
         crew = "CFP_O_ABUSAYYAF_Rifleman_Light_01";
 
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_O_ABUSAYYAF_SPG_9_01 : CUP_O_SPG9_SLA_OCimport_02 {
-        editorPreview = \x\cfp\addons\o_abusayyaf\data\preview\CFP_O_ABUSAYYAF_SPG_9_01.JPG;
+    class CUP_DSHKM_MiniTripod_base;
+    class CFP_O_ABUSAYYAF_DShKM_Low_01 : CUP_DSHKM_MiniTripod_base {
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
-        displayName = "ASG SPG-9";
+        displayName = "DShKM (Low)";
         side = 0;
         faction = "CFP_O_ABUSAYYAF";
         crew = "CFP_O_ABUSAYYAF_Rifleman_Light_01";
 
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_O_ABUSAYYAF_Mortar_01 : CUP_O_2b14_82mm_SLA_OCimport_02 {
-        editorPreview = \x\cfp\addons\o_abusayyaf\data\preview\CFP_O_ABUSAYYAF_Mortar_01.JPG;
+    class CUP_M2StaticMG_base;
+    class CFP_O_ABUSAYYAF_M2_01 : CUP_M2StaticMG_base {
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
-        displayName = "ASG Mortar";
+        displayName = "M2";
         side = 0;
         faction = "CFP_O_ABUSAYYAF";
         crew = "CFP_O_ABUSAYYAF_Rifleman_Light_01";
 
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
+
     class CUP_RUBasicAmmunitionBox; //
 
     class CUP_RUBasicWeaponsBox; //
