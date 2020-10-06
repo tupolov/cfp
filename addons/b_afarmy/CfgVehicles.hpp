@@ -69,43 +69,6 @@ class CfgVehicles {
     class CUP_B_MTVR_Repair_USMC_OCimport_01 : CUP_B_MTVR_Repair_USMC { scope = 0; class EventHandlers; };
     class CUP_B_MTVR_Repair_USMC_OCimport_02 : CUP_B_MTVR_Repair_USMC_OCimport_01 { scope = 0; class EventHandlers; };
 
-    class CUP_O_DSHKM_SLA;
-    class CUP_O_DSHKM_SLA_OCimport_01 : CUP_O_DSHKM_SLA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_DSHKM_SLA_OCimport_02 : CUP_O_DSHKM_SLA_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_O_DSHKM_MiniTripod_SLA;
-    class CUP_O_DSHKM_MiniTripod_SLA_OCimport_01 : CUP_O_DSHKM_MiniTripod_SLA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_DSHKM_MiniTripod_SLA_OCimport_02 : CUP_O_DSHKM_MiniTripod_SLA_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_O_SPG9_SLA;
-    class CUP_O_SPG9_SLA_OCimport_01 : CUP_O_SPG9_SLA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_SPG9_SLA_OCimport_02 : CUP_O_SPG9_SLA_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_O_2b14_82mm_TK_INS;
-    class CUP_O_2b14_82mm_TK_INS_OCimport_01 : CUP_O_2b14_82mm_TK_INS { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_2b14_82mm_TK_INS_OCimport_02 : CUP_O_2b14_82mm_TK_INS_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-
     class CUP_B_UH60M_US;
     class CUP_B_UH60M_US_OCimport_01 : CUP_B_UH60M_US { scope = 0; class EventHandlers; class Turrets; };
     class CUP_B_UH60M_US_OCimport_02 : CUP_B_UH60M_US_OCimport_01 {

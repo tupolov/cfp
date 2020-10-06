@@ -3,10 +3,41 @@ class CfgGroups {
         class CUP_O_RU {
             name = "Russian Ground Forces (Jungle / Woodland)";
 
+            class Infantry_Ratnik_Desert {
+            	name = "Infantry_Ratnik_Desert";
+
+            	delete InfSquad;
+            	delete InfSquad_Weapons;
+            	delete InfTeam;
+            	delete InfTeam_AT;
+            	delete InfTeam_AA;
+            	delete InfSentry;
+            	delete reconTeam;
+            	delete reconSentry;
+            	delete InfAssault;
+            	delete O_InfTeam_AT_Heavy;
+            };
+
+            class Infantry_Ratnik_BeigeDigital {
+            	name = "Infantry_Ratnik_BeigeDigital";
+
+            	delete InfSquad;
+            	delete InfSquad_Weapons;
+            	delete InfTeam;
+            	delete InfTeam_AT;
+            	delete InfTeam_AA;
+            	delete InfSentry;
+            	delete reconTeam;
+            	delete reconSentry;
+            	delete InfAssault;
+            	delete O_InfTeam_AT_Heavy;
+            };
+
             class Infantry {
             	delete CUP_O_MVD_AssaultTeam;
             	delete CUP_O_RU_ReconTeam;
             	delete CUP_O_RU_ReconTeam_AUT;
+
                 class CUP_O_RU_infantry_KORD_team_high {
                     name = "KORD MG Team";
                     side = 0;

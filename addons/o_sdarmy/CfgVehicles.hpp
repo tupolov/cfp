@@ -222,60 +222,6 @@ class CfgVehicles
         };
     };
 
-    class CUP_O_DSHKM_SLA;
-    class CUP_O_DSHKM_SLA_OCimport_01 : CUP_O_DSHKM_SLA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_DSHKM_SLA_OCimport_02 : CUP_O_DSHKM_SLA_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_O_DSHKM_MiniTripod_SLA;
-    class CUP_O_DSHKM_MiniTripod_SLA_OCimport_01 : CUP_O_DSHKM_MiniTripod_SLA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_DSHKM_MiniTripod_SLA_OCimport_02 : CUP_O_DSHKM_MiniTripod_SLA_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_O_SPG9_SLA;
-    class CUP_O_SPG9_SLA_OCimport_01 : CUP_O_SPG9_SLA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_SPG9_SLA_OCimport_02 : CUP_O_SPG9_SLA_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_O_2b14_82mm_SLA;
-    class CUP_O_2b14_82mm_SLA_OCimport_01 : CUP_O_2b14_82mm_SLA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_2b14_82mm_SLA_OCimport_02 : CUP_O_2b14_82mm_SLA_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_O_D30_SLA;
-    class CUP_O_D30_SLA_OCimport_01 : CUP_O_D30_SLA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_D30_SLA_OCimport_02 : CUP_O_D30_SLA_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_O_D30_AT_SLA;
-    class CUP_O_D30_AT_SLA_OCimport_01 : CUP_O_D30_AT_SLA { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_D30_AT_SLA_OCimport_02 : CUP_O_D30_AT_SLA_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
     class CUP_O_M113_TKA;
     class CUP_O_M113_TKA_OCimport_01 : CUP_O_M113_TKA { scope = 0; class EventHandlers; class Turrets; };
     class CUP_O_M113_TKA_OCimport_02 : CUP_O_M113_TKA_OCimport_01 {
@@ -2503,7 +2449,8 @@ class CfgVehicles
         editorPreview = "\x\cfp\addons\vehicles\UI\Preview_IS_T55.jpg";
     };
 
-    class CFP_O_SDARMY_DShKM_01 : CUP_O_DSHKM_SLA_OCimport_02 {
+    class CUP_DSHKM_base;
+    class CFP_O_SDARMY_DShKM_01 : CUP_DSHKM_base {
         editorPreview = \x\cfp\addons\o_sdarmy\data\preview\CFP_B_SDARMY_DShKM_01.JPG;
         author = "CFP";
         scope = 2;
@@ -2512,28 +2459,10 @@ class CfgVehicles
         side = 0;
         faction = "CFP_O_SDARMY";
         crew = "CFP_O_SDARMY_Soldier_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_O_SDARMY_DShKM_Low_01 : CUP_O_DSHKM_MiniTripod_SLA_OCimport_02 {
+    class CUP_DSHKM_MiniTripod_base;
+    class CFP_O_SDARMY_DShKM_Low_01 : CUP_DSHKM_MiniTripod_base {
         editorPreview = \x\cfp\addons\o_sdarmy\data\preview\CFP_B_SDARMY_DShKM_Low_01.JPG;
         author = "Archduke";
         scope = 2;
@@ -2542,28 +2471,10 @@ class CfgVehicles
         side = 0;
         faction = "CFP_O_SDARMY";
         crew = "CFP_O_SDARMY_Soldier_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_O_SDARMY_SPG_9_01 : CUP_O_SPG9_SLA_OCimport_02 {
+    class CUP_SPG9_base;
+    class CFP_O_SDARMY_SPG_9_01 : CUP_SPG9_base {
         editorPreview = \x\cfp\addons\o_sdarmy\data\preview\CFP_B_SDARMY_SPG_9_01.JPG;
         author = "Archduke";
         scope = 2;
@@ -2572,28 +2483,10 @@ class CfgVehicles
         side = 0;
         faction = "CFP_O_SDARMY";
         crew = "CFP_O_SDARMY_Soldier_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_O_SDARMY_Podnos_2B14_01 : CUP_O_2b14_82mm_SLA_OCimport_02 {
+    class CUP_2b14_82mm_Base;
+    class CFP_O_SDARMY_Podnos_2B14_01 : CUP_2b14_82mm_Base {
         editorPreview = \x\cfp\addons\o_sdarmy\data\preview\CFP_B_SDARMY_Podnos_2B14_01.JPG;
         author = "Archduke";
         scope = 2;
@@ -2602,28 +2495,10 @@ class CfgVehicles
         side = 0;
         faction = "CFP_O_SDARMY";
         crew = "CFP_O_SDARMY_Soldier_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_O_SDARMY_D30_01 : CUP_O_D30_SLA_OCimport_02 {
+    class CUP_D30_base;
+    class CFP_O_SDARMY_D30_01 : CUP_D30_base {
         editorPreview = \x\cfp\addons\o_sdarmy\data\preview\CFP_B_SDARMY_D30_01.JPG;
         author = "Archduke";
         scope = 2;
@@ -2632,28 +2507,10 @@ class CfgVehicles
         side = 0;
         faction = "CFP_O_SDARMY";
         crew = "CFP_O_SDARMY_Soldier_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_O_SDARMY_D30_AT_01 : CUP_O_D30_AT_SLA_OCimport_02 {
+    class CUP_D30_AT_base;
+    class CFP_O_SDARMY_D30_AT_01 : CUP_D30_AT_base {
         editorPreview = \x\cfp\addons\o_sdarmy\data\preview\CFP_B_SDARMY_D30_AT_01.JPG;
         author = "Archduke";
         scope = 2;
@@ -2662,25 +2519,6 @@ class CfgVehicles
         side = 0;
         faction = "CFP_O_SDARMY";
         crew = "CFP_O_SDARMY_Soldier_02";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
     class CFP_O_SDARMY_M113A3_01 : CUP_O_M113_TKA_OCimport_02 {

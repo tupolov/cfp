@@ -95,78 +95,6 @@ class CfgVehicles {
         class CUP_O_Su25_Dyn_RU_OCimport_01 : CUP_O_Su25_Dyn_RU { scope = 0; class EventHandlers; };
         class CUP_O_Su25_Dyn_RU_OCimport_02 : CUP_O_Su25_Dyn_RU_OCimport_01 { scope = 0; class EventHandlers; };
 
-        class CUP_O_ZU23_RU;
-        class CUP_O_ZU23_RU_OCimport_01 : CUP_O_ZU23_RU { scope = 0; class EventHandlers; class Turrets; };
-        class CUP_O_ZU23_RU_OCimport_02 : CUP_O_ZU23_RU_OCimport_01 {
-            class EventHandlers;
-            class Turrets : Turrets {
-                class MainTurret;
-            };
-        };
-
-        class CUP_O_KORD_RU;
-        class CUP_O_KORD_RU_OCimport_01 : CUP_O_KORD_RU { scope = 0; class EventHandlers; class Turrets; };
-        class CUP_O_KORD_RU_OCimport_02 : CUP_O_KORD_RU_OCimport_01 {
-            class EventHandlers;
-            class Turrets : Turrets {
-                class MainTurret;
-            };
-        };
-
-        class CUP_O_KORD_high_RU;
-        class CUP_O_KORD_high_RU_OCimport_01 : CUP_O_KORD_high_RU { scope = 0; class EventHandlers; class Turrets; };
-        class CUP_O_KORD_high_RU_OCimport_02 : CUP_O_KORD_high_RU_OCimport_01 {
-            class EventHandlers;
-            class Turrets : Turrets {
-                class MainTurret;
-            };
-        };
-
-        class CUP_O_AGS_RU;
-        class CUP_O_AGS_RU_OCimport_01 : CUP_O_AGS_RU { scope = 0; class EventHandlers; class Turrets; };
-        class CUP_O_AGS_RU_OCimport_02 : CUP_O_AGS_RU_OCimport_01 {
-            class EventHandlers;
-            class Turrets : Turrets {
-                class MainTurret;
-            };
-        };
-
-        class CUP_O_Metis_RU;
-        class CUP_O_Metis_RU_OCimport_01 : CUP_O_Metis_RU { scope = 0; class EventHandlers; class Turrets; };
-        class CUP_O_Metis_RU_OCimport_02 : CUP_O_Metis_RU_OCimport_01 {
-            class EventHandlers;
-            class Turrets : Turrets {
-                class MainTurret;
-            };
-        };
-
-        class CUP_O_2b14_82mm_RU;
-        class CUP_O_2b14_82mm_RU_OCimport_01 : CUP_O_2b14_82mm_RU { scope = 0; class EventHandlers; class Turrets; };
-        class CUP_O_2b14_82mm_RU_OCimport_02 : CUP_O_2b14_82mm_RU_OCimport_01 {
-            class EventHandlers;
-            class Turrets : Turrets {
-                class MainTurret;
-            };
-        };
-
-        class CUP_O_D30_RU;
-        class CUP_O_D30_RU_OCimport_01 : CUP_O_D30_RU { scope = 0; class EventHandlers; class Turrets; };
-        class CUP_O_D30_RU_OCimport_02 : CUP_O_D30_RU_OCimport_01 {
-            class EventHandlers;
-            class Turrets : Turrets {
-                class MainTurret;
-            };
-        };
-
-        class CUP_O_D30_AT_RU;
-        class CUP_O_D30_AT_RU_OCimport_01 : CUP_O_D30_AT_RU { scope = 0; class EventHandlers; class Turrets; };
-        class CUP_O_D30_AT_RU_OCimport_02 : CUP_O_D30_AT_RU_OCimport_01 {
-            class EventHandlers;
-            class Turrets : Turrets {
-                class MainTurret;
-            };
-        };
-
         class CUP_O_Pchela1T_RU;
         class CUP_O_Pchela1T_RU_OCimport_01 : CUP_O_Pchela1T_RU { scope = 0; class EventHandlers; class Turrets; };
         class CUP_O_Pchela1T_RU_OCimport_02 : CUP_O_Pchela1T_RU_OCimport_01 {
@@ -1046,7 +974,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_RUARMY_ZU_23_DES_01 : CUP_O_ZU23_RU_OCimport_02 {
+    class CUP_O_ZU23_RU;
+    class CFP_O_RUARMY_ZU_23_DES_01 : CUP_O_ZU23_RU {
         editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_ZU_23_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
@@ -1055,28 +984,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_RUARMY_DES";
         crew = "CFP_O_RUARMY_Rifleman_DES_02";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_O_RUARMY_KORD_Minitripod_DES_01 : CUP_O_KORD_RU_OCimport_02 {
+    class CUP_O_KORD_RU;
+    class CFP_O_RUARMY_KORD_Minitripod_DES_01 : CUP_O_KORD_RU {
         editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_KORD_Minitripod_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
@@ -1085,28 +996,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_RUARMY_DES";
         crew = "CFP_O_RUARMY_Rifleman_DES_02";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_O_RUARMY_KORD_DES_01 : CUP_O_KORD_high_RU_OCimport_02 {
+    class CUP_O_KORD_high_RU;
+    class CFP_O_RUARMY_KORD_DES_01 : CUP_O_KORD_high_RU {
         editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_KORD_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
@@ -1115,28 +1008,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_RUARMY_DES";
         crew = "CFP_O_RUARMY_Rifleman_DES_02";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_O_RUARMY_AGS_30_DES_01 : CUP_O_AGS_RU_OCimport_02 {
+    class CUP_O_AGS_RU;
+    class CFP_O_RUARMY_AGS_30_DES_01 : CUP_O_AGS_RU {
         editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_AGS_30_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
@@ -1145,28 +1020,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_RUARMY_DES";
         crew = "CFP_O_RUARMY_Rifleman_DES_02";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_O_RUARMY_Metis_AT_13_DES_01 : CUP_O_Metis_RU_OCimport_02 {
+    class CUP_O_Metis_RU;
+    class CFP_O_RUARMY_Metis_AT_13_DES_01 : CUP_O_Metis_RU {
         editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Metis_AT_13_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
@@ -1175,28 +1032,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_RUARMY_DES";
         crew = "CFP_O_RUARMY_Rifleman_DES_02";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_O_RUARMY_Podnos_2B14_DES_01 : CUP_O_2b14_82mm_RU_OCimport_02 {
+    class CUP_O_2b14_82mm_RU;
+    class CFP_O_RUARMY_Podnos_2B14_DES_01 : CUP_O_2b14_82mm_RU {
         editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Podnos_2B14_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
@@ -1205,28 +1044,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_RUARMY_DES";
         crew = "CFP_O_RUARMY_Rifleman_DES_02";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_O_RUARMY_D30_DES_01 : CUP_O_D30_RU_OCimport_02 {
+    class CUP_O_D30_RU;
+    class CFP_O_RUARMY_D30_DES_01 : CUP_O_D30_RU {
         editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_D30_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
@@ -1235,28 +1056,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_RUARMY_DES";
         crew = "CFP_O_RUARMY_Rifleman_DES_02";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_O_RUARMY_D30_AT_DES_01 : CUP_O_D30_AT_RU_OCimport_02 {
+    class CUP_O_D30_AT_RU;
+    class CFP_O_RUARMY_D30_AT_DES_01 : CUP_O_D30_AT_RU {
         editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_D30_AT_DES_01.JPG";
         author = "Tupolov";
         scope = 2;
@@ -1265,25 +1068,6 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_RUARMY_DES";
         crew = "CFP_O_RUARMY_Rifleman_DES_02";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
     class CFP_O_RUARMY_Pchela_1T_DES_01 : CUP_O_Pchela1T_RU_OCimport_02 {
@@ -2625,7 +2409,235 @@ class CfgVehicles {
 
     };
 
-// People
+// Ratnik
+    class CUP_O_RUS_Ratnik_Desert;
+    class CUP_O_RU_Survivor_Ratnik_Desert : CUP_O_RUS_Ratnik_Desert {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_Unarmed_Ratnik_Desert : CUP_O_RUS_Ratnik_Desert {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_TL_Ratnik_Desert : CUP_O_RUS_Ratnik_Desert {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_SL_Ratnik_Desert : CUP_O_RUS_Ratnik_Desert {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_Ratnik_Desert : CUP_O_RUS_Ratnik_Desert {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_Lite_Ratnik_Desert : CUP_O_RUS_Ratnik_Desert {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_GL_Ratnik_Desert : CUP_O_RUS_Ratnik_Desert {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_AR_Ratnik_Desert : CUP_O_RUS_Ratnik_Desert {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_MG_Ratnik_Desert : CUP_O_RUS_Ratnik_Desert {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_Marksman_Ratnik_Desert : CUP_O_RUS_Ratnik_Desert {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_Medic_Ratnik_Desert : CUP_O_RUS_Ratnik_Desert {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_Repair_Ratnik_Desert : CUP_O_RUS_Ratnik_Desert {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_Exp_Ratnik_Desert : CUP_O_RUS_Ratnik_Desert {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_Engineer_Ratnik_Desert : CUP_O_RUS_Ratnik_Desert {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_LAT_Ratnik_Desert : CUP_O_RUS_Ratnik_Desert {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_HAT_Ratnik_Desert : CUP_O_RUS_Ratnik_Desert {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_AT_Ratnik_Desert : CUP_O_RUS_Ratnik_Desert {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_AA_Ratnik_Desert : CUP_O_RUS_Ratnik_Desert {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_A_Ratnik_Desert : CUP_O_RUS_Ratnik_Desert {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_AAR_Ratnik_Desert : CUP_O_RUS_Ratnik_Desert {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_AAT_Ratnik_Desert : CUP_O_RUS_Ratnik_Desert {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_AHAT_Ratnik_Desert : CUP_O_RUS_Ratnik_Desert {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Recon_Ratnik_Desert : CUP_O_RUS_Ratnik_Desert {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Recon_TL_Ratnik_Desert : CUP_O_RUS_Ratnik_Desert {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Recon_Marksman_Ratnik_Desert : CUP_O_RUS_Ratnik_Desert {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Recon_LAT_Ratnik_Desert : CUP_O_RUS_Ratnik_Desert {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Recon_Medic_Ratnik_Desert : CUP_O_RUS_Ratnik_Desert {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Recon_Exp_Ratnik_Desert : CUP_O_RUS_Ratnik_Desert {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+ //Beige Digital Ratnik
+    class CUP_O_RUS_Ratnik_BeigeDigital;
+    class CUP_O_RU_Survivor_Ratnik_BeigeDigital : CUP_O_RUS_Ratnik_BeigeDigital {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_Unarmed_Ratnik_BeigeDigital : CUP_O_RUS_Ratnik_BeigeDigital {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_TL_Ratnik_BeigeDigital : CUP_O_RUS_Ratnik_BeigeDigital {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_SL_Ratnik_BeigeDigital : CUP_O_RUS_Ratnik_BeigeDigital {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_Ratnik_BeigeDigital : CUP_O_RUS_Ratnik_BeigeDigital {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_Lite_Ratnik_BeigeDigital : CUP_O_RUS_Ratnik_BeigeDigital {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_GL_Ratnik_BeigeDigital : CUP_O_RUS_Ratnik_BeigeDigital {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_AR_Ratnik_BeigeDigital : CUP_O_RUS_Ratnik_BeigeDigital {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_MG_Ratnik_BeigeDigital : CUP_O_RUS_Ratnik_BeigeDigital {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_Marksman_Ratnik_BeigeDigital : CUP_O_RUS_Ratnik_BeigeDigital {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_Medic_Ratnik_BeigeDigital : CUP_O_RUS_Ratnik_BeigeDigital {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_Repair_Ratnik_BeigeDigital : CUP_O_RUS_Ratnik_BeigeDigital {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_Exp_Ratnik_BeigeDigital : CUP_O_RUS_Ratnik_BeigeDigital {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_Engineer_Ratnik_BeigeDigital : CUP_O_RUS_Ratnik_BeigeDigital {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_LAT_Ratnik_BeigeDigital : CUP_O_RUS_Ratnik_BeigeDigital {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_HAT_Ratnik_BeigeDigital : CUP_O_RUS_Ratnik_BeigeDigital {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_AT_Ratnik_BeigeDigital : CUP_O_RUS_Ratnik_BeigeDigital {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_AA_Ratnik_BeigeDigital : CUP_O_RUS_Ratnik_BeigeDigital {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_A_Ratnik_BeigeDigital : CUP_O_RUS_Ratnik_BeigeDigital {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_AAR_Ratnik_BeigeDigital : CUP_O_RUS_Ratnik_BeigeDigital {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_AAT_Ratnik_BeigeDigital : CUP_O_RUS_Ratnik_BeigeDigital {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Soldier_AHAT_Ratnik_BeigeDigital : CUP_O_RUS_Ratnik_BeigeDigital {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Recon_Ratnik_BeigeDigital : CUP_O_RUS_Ratnik_BeigeDigital {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Recon_TL_Ratnik_BeigeDigital : CUP_O_RUS_Ratnik_BeigeDigital {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Recon_Marksman_Ratnik_BeigeDigital : CUP_O_RUS_Ratnik_BeigeDigital {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Recon_LAT_Ratnik_BeigeDigital : CUP_O_RUS_Ratnik_BeigeDigital {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Recon_Medic_Ratnik_BeigeDigital : CUP_O_RUS_Ratnik_BeigeDigital {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    class CUP_O_RU_Recon_Exp_Ratnik_BeigeDigital : CUP_O_RUS_Ratnik_BeigeDigital {
+        faction = "CFP_O_RUARMY_DES";
+    };
+
+    // People
     class CFP_O_RUARMY_Rifleman_DES_02 : CUP_O_RU_Soldier_EMR_OCimport_02 {
         editorPreview = "\x\cfp\addons\o_ruarmy_des\data\preview\CFP_O_RUARMY_Rifleman_DES_02.JPG";
         author = "Tupolov";
@@ -2657,8 +2669,8 @@ class CfgVehicles {
 
         backpackList[] = {
             "", 0.6,
-            "CUP_B_RUS_Backpack", 0.4,
-            "B_Kitbag_cbr", 0.2
+            "CUP_O_RUS_Patrol_bag_BeigeDigital", 0.4,
+            "CUP_O_RUS_Patrol_bag_BeigeDigital_Shovel", 0.2
         };
 
         vestList[] = {
@@ -2722,8 +2734,8 @@ class CfgVehicles {
 
         backpackList[] = {
             "", 0.6,
-            "CUP_B_RUS_Backpack", 0.4,
-            "B_Kitbag_cbr", 0.2
+            "CUP_O_RUS_Patrol_bag_BeigeDigital", 0.4,
+            "CUP_O_RUS_Patrol_bag_BeigeDigital_Shovel", 0.2
         };
 
         vestList[] = {
@@ -2788,8 +2800,8 @@ class CfgVehicles {
 
         backpackList[] = {
             "", 0.6,
-            "CUP_B_RUS_Backpack", 0.4,
-            "B_Kitbag_cbr", 0.2
+            "CUP_O_RUS_Patrol_bag_BeigeDigital", 0.4,
+            "CUP_O_RUS_Patrol_bag_BeigeDigital_Shovel", 0.2
         };
 
         vestList[] = {
@@ -2852,8 +2864,8 @@ class CfgVehicles {
 
         backpackList[] = {
             "", 0.6,
-            "CUP_B_RUS_Backpack", 0.4,
-            "B_Kitbag_cbr", 0.2
+            "CUP_O_RUS_Patrol_bag_BeigeDigital", 0.4,
+            "CUP_O_RUS_Patrol_bag_BeigeDigital_Shovel", 0.2
         };
 
         vestList[] = {
@@ -2918,8 +2930,8 @@ class CfgVehicles {
 
         backpackList[] = {
             "", 0.6,
-            "CUP_B_RUS_Backpack", 0.4,
-            "B_Kitbag_cbr", 0.2
+            "CUP_O_RUS_Patrol_bag_BeigeDigital", 0.4,
+            "CUP_O_RUS_Patrol_bag_BeigeDigital_Shovel", 0.2
         };
 
         vestList[] = {
@@ -2984,8 +2996,8 @@ class CfgVehicles {
 
         backpackList[] = {
             "", 0.6,
-            "CUP_B_RUS_Backpack", 0.4,
-            "B_Kitbag_cbr", 0.2
+            "CUP_O_RUS_Patrol_bag_BeigeDigital", 0.4,
+            "CUP_O_RUS_Patrol_bag_BeigeDigital_Shovel", 0.2
         };
 
         vestList[] = {
@@ -3050,8 +3062,8 @@ class CfgVehicles {
 
         backpackList[] = {
             "", 0.6,
-            "CUP_B_RUS_Backpack", 0.4,
-            "B_Kitbag_cbr", 0.2
+            "CUP_O_RUS_Patrol_bag_BeigeDigital", 0.4,
+            "CUP_O_RUS_Patrol_bag_BeigeDigital_Shovel", 0.2
         };
 
         vestList[] = {
@@ -3116,8 +3128,8 @@ class CfgVehicles {
 
         backpackList[] = {
             "", 0.6,
-            "CUP_B_RUS_Backpack", 0.4,
-            "B_Kitbag_cbr", 0.2
+            "CUP_O_RUS_Patrol_bag_BeigeDigital", 0.4,
+            "CUP_O_RUS_Patrol_bag_BeigeDigital_Shovel", 0.2
         };
 
         vestList[] = {
@@ -3182,8 +3194,8 @@ class CfgVehicles {
 
         backpackList[] = {
             "", 0.6,
-            "CUP_B_RUS_Backpack", 0.4,
-            "B_Kitbag_cbr", 0.2
+            "CUP_O_RUS_Patrol_bag_BeigeDigital", 0.4,
+            "CUP_O_RUS_Patrol_bag_BeigeDigital_Shovel", 0.2
         };
 
         vestList[] = {
@@ -3248,8 +3260,8 @@ class CfgVehicles {
 
         backpackList[] = {
             "", 0.6,
-            "CUP_B_RUS_Backpack", 0.4,
-            "B_Kitbag_cbr", 0.2
+            "CUP_O_RUS_Patrol_bag_BeigeDigital", 0.4,
+            "CUP_O_RUS_Patrol_bag_BeigeDigital_Shovel", 0.2
         };
 
         vestList[] = {
@@ -3314,8 +3326,8 @@ class CfgVehicles {
 
         backpackList[] = {
             "", 0.6,
-            "CUP_B_RUS_Backpack", 0.4,
-            "B_Kitbag_cbr", 0.2
+            "CUP_O_RUS_Patrol_bag_BeigeDigital", 0.4,
+            "CUP_O_RUS_Patrol_bag_BeigeDigital_Shovel", 0.2
         };
 
         vestList[] = {
@@ -3494,8 +3506,8 @@ class CfgVehicles {
 
         backpackList[] = {
             "", 0.6,
-            "CUP_B_RUS_Backpack", 0.4,
-            "B_Kitbag_cbr", 0.2
+            "CUP_O_RUS_Patrol_bag_BeigeDigital", 0.4,
+            "CUP_O_RUS_Patrol_bag_BeigeDigital_Shovel", 0.2
         };
 
         vestList[] = {
@@ -3563,8 +3575,8 @@ class CfgVehicles {
 
         backpackList[] = {
             "", 0.6,
-            "CUP_B_RUS_Backpack", 0.4,
-            "B_Kitbag_cbr", 0.2
+            "CUP_O_RUS_Patrol_bag_BeigeDigital", 0.4,
+            "CUP_O_RUS_Patrol_bag_BeigeDigital_Shovel", 0.2
         };
 
         vestList[] = {
@@ -3722,8 +3734,8 @@ class CfgVehicles {
 
         backpackList[] = {
             "", 0.6,
-            "CUP_B_RUS_Backpack", 0.4,
-            "B_Kitbag_cbr", 0.2
+            "CUP_O_RUS_Patrol_bag_BeigeDigital", 0.4,
+            "CUP_O_RUS_Patrol_bag_BeigeDigital_Shovel", 0.2
         };
 
         vestList[] = {
@@ -3789,8 +3801,8 @@ class CfgVehicles {
 
         backpackList[] = {
             "", 0.6,
-            "CUP_B_RUS_Backpack", 0.4,
-            "B_Kitbag_cbr", 0.2
+            "CUP_O_RUS_Patrol_bag_BeigeDigital", 0.4,
+            "CUP_O_RUS_Patrol_bag_BeigeDigital_Shovel", 0.2
         };
 
         vestList[] = {
@@ -3893,8 +3905,8 @@ class CfgVehicles {
 
         backpackList[] = {
             "", 0.6,
-            "CUP_B_RUS_Backpack", 0.4,
-            "B_Kitbag_cbr", 0.2
+            "CUP_O_RUS_Patrol_bag_BeigeDigital", 0.4,
+            "CUP_O_RUS_Patrol_bag_BeigeDigital_Shovel", 0.2
         };
 
         vestList[] = {
@@ -3958,8 +3970,8 @@ class CfgVehicles {
 
         backpackList[] = {
             "", 0.6,
-            "CUP_B_RUS_Backpack", 0.4,
-            "B_Kitbag_cbr", 0.2
+            "CUP_O_RUS_Patrol_bag_BeigeDigital", 0.4,
+            "CUP_O_RUS_Patrol_bag_BeigeDigital_Shovel", 0.2
         };
 
         vestList[] = {
@@ -4024,8 +4036,8 @@ class CfgVehicles {
 
         backpackList[] = {
             "", 0.6,
-            "CUP_B_RUS_Backpack", 0.4,
-            "B_Kitbag_cbr", 0.2
+            "CUP_O_RUS_Patrol_bag_BeigeDigital", 0.4,
+            "CUP_O_RUS_Patrol_bag_BeigeDigital_Shovel", 0.2
         };
 
         vestList[] = {
@@ -4090,8 +4102,8 @@ class CfgVehicles {
 
         backpackList[] = {
             "", 0.6,
-            "CUP_B_RUS_Backpack", 0.4,
-            "B_Kitbag_cbr", 0.2
+            "CUP_O_RUS_Patrol_bag_BeigeDigital", 0.4,
+            "CUP_O_RUS_Patrol_bag_BeigeDigital_Shovel", 0.2
         };
 
         vestList[] = {
@@ -4156,8 +4168,8 @@ class CfgVehicles {
 
         backpackList[] = {
             "", 0.6,
-            "CUP_B_RUS_Backpack", 0.4,
-            "B_Kitbag_cbr", 0.2
+            "CUP_O_RUS_Patrol_bag_BeigeDigital", 0.4,
+            "CUP_O_RUS_Patrol_bag_BeigeDigital_Shovel", 0.2
         };
 
         vestList[] = {
@@ -4222,8 +4234,8 @@ class CfgVehicles {
 
         backpackList[] = {
             "", 0.6,
-            "CUP_B_RUS_Backpack", 0.4,
-            "B_Kitbag_cbr", 0.2
+            "CUP_O_RUS_Patrol_bag_BeigeDigital", 0.4,
+            "CUP_O_RUS_Patrol_bag_BeigeDigital_Shovel", 0.2
         };
 
         vestList[] = {
@@ -4288,8 +4300,8 @@ class CfgVehicles {
 
         backpackList[] = {
             "", 0.6,
-            "CUP_B_RUS_Backpack", 0.4,
-            "B_Kitbag_cbr", 0.2
+            "CUP_O_RUS_Patrol_bag_BeigeDigital", 0.4,
+            "CUP_O_RUS_Patrol_bag_BeigeDigital_Shovel", 0.2
         };
 
         vestList[] = {
@@ -4354,8 +4366,8 @@ class CfgVehicles {
 
         backpackList[] = {
             "", 0.6,
-            "CUP_B_RUS_Backpack", 0.4,
-            "B_Kitbag_cbr", 0.2
+            "CUP_O_RUS_Patrol_bag_BeigeDigital", 0.4,
+            "CUP_O_RUS_Patrol_bag_BeigeDigital_Shovel", 0.2
         };
 
         vestList[] = {
@@ -4420,8 +4432,8 @@ class CfgVehicles {
 
         backpackList[] = {
             "", 0.6,
-            "CUP_B_RUS_Backpack", 0.4,
-            "B_Kitbag_cbr", 0.2
+            "CUP_O_RUS_Patrol_bag_BeigeDigital", 0.4,
+            "CUP_O_RUS_Patrol_bag_BeigeDigital_Shovel", 0.2
         };
 
         vestList[] = {
@@ -4486,8 +4498,8 @@ class CfgVehicles {
 
         backpackList[] = {
             "", 0.6,
-            "CUP_B_RUS_Backpack", 0.4,
-            "B_Kitbag_cbr", 0.2
+            "CUP_O_RUS_Patrol_bag_BeigeDigital", 0.4,
+            "CUP_O_RUS_Patrol_bag_BeigeDigital_Shovel", 0.2
         };
 
         vestList[] = {
@@ -4552,8 +4564,8 @@ class CfgVehicles {
 
         backpackList[] = {
             "", 0.6,
-            "CUP_B_RUS_Backpack", 0.4,
-            "B_Kitbag_cbr", 0.2
+            "CUP_O_RUS_Patrol_bag_BeigeDigital", 0.4,
+            "CUP_O_RUS_Patrol_bag_BeigeDigital_Shovel", 0.2
         };
 
         vestList[] = {
@@ -4618,8 +4630,8 @@ class CfgVehicles {
 
         backpackList[] = {
             "", 0.6,
-            "CUP_B_RUS_Backpack", 0.4,
-            "B_Kitbag_cbr", 0.2
+            "CUP_O_RUS_Patrol_bag_BeigeDigital", 0.4,
+            "CUP_O_RUS_Patrol_bag_BeigeDigital_Shovel", 0.2
         };
 
         vestList[] = {
@@ -4839,8 +4851,8 @@ class CfgVehicles {
 
         backpackList[] = {
             "", 0.6,
-            "CUP_B_RUS_Backpack", 0.4,
-            "B_Kitbag_cbr", 0.2
+            "CUP_O_RUS_Patrol_bag_BeigeDigital", 0.4,
+            "CUP_O_RUS_Patrol_bag_BeigeDigital_Shovel", 0.2
         };
 
         vestList[] = {
@@ -4999,8 +5011,8 @@ class CfgVehicles {
 
         backpackList[] = {
             "", 0.6,
-            "CUP_B_RUS_Backpack", 0.4,
-            "B_Kitbag_cbr", 0.2
+            "CUP_O_RUS_Patrol_bag_BeigeDigital", 0.4,
+            "CUP_O_RUS_Patrol_bag_BeigeDigital_Shovel", 0.2
         };
 
         vestList[] = {
@@ -5066,8 +5078,8 @@ class CfgVehicles {
 
         backpackList[] = {
             "", 0.6,
-            "CUP_B_RUS_Backpack", 0.4,
-            "B_Kitbag_cbr", 0.2
+            "CUP_O_RUS_Patrol_bag_BeigeDigital", 0.4,
+            "CUP_O_RUS_Patrol_bag_BeigeDigital_Shovel", 0.2
         };
 
         vestList[] = {
@@ -5132,8 +5144,8 @@ class CfgVehicles {
 
         backpackList[] = {
             "", 0.6,
-            "CUP_B_RUS_Backpack", 0.4,
-            "B_Kitbag_cbr", 0.2
+            "CUP_O_RUS_Patrol_bag_BeigeDigital", 0.4,
+            "CUP_O_RUS_Patrol_bag_BeigeDigital_Shovel", 0.2
         };
 
         vestList[] = {
@@ -5198,8 +5210,8 @@ class CfgVehicles {
 
         backpackList[] = {
             "", 0.6,
-            "CUP_B_RUS_Backpack", 0.4,
-            "B_Kitbag_cbr", 0.2
+            "CUP_O_RUS_Patrol_bag_BeigeDigital", 0.4,
+            "CUP_O_RUS_Patrol_bag_BeigeDigital_Shovel", 0.2
         };
 
         vestList[] = {

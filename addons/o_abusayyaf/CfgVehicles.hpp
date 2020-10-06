@@ -2,6 +2,8 @@
 #define weap_xx(a,b) class _xx_##a {weapon = ##a; count = b;}
 #define item_xx(a,b) class _xx_##a {name = a; count = b;}
 
+#include "\x\cfp\addons\vehicles\inventory_macro\main.hpp"
+
 class CBA_Extended_EventHandlers_base;
 
 class CfgVehicles {
@@ -1015,7 +1017,7 @@ class CfgVehicles {
     };
 
     class CUP_ZU23_base;
-    class CFP_O_ABUSAYYAF_ZU_23_DESERT_01 : CUP_ZU23_base {
+    class CFP_O_ABUSAYYAF_ZU_23_01 : CUP_ZU23_base {
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1027,7 +1029,7 @@ class CfgVehicles {
     };
 
     class CUP_SPG9_base;
-    class CFP_O_ABUSAYYAF_SPG_9_DESERT_01 : CUP_SPG9_base {
+    class CFP_O_ABUSAYYAF_SPG_9_01 : CUP_SPG9_base {
         author = "CFP";
         scope = 2;
         scopeCurator = 2;

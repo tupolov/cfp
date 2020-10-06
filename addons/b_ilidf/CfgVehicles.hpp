@@ -35,40 +35,9 @@ class CfgVehicles {
     class I_diver_F_OCimport_02 : I_diver_F_OCimport_01 { class EventHandlers; };
 
     class CUP_B_M2StaticMG_USMC;
-    class CUP_B_M2StaticMG_USMC_OCimport_01 : CUP_B_M2StaticMG_USMC { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_B_M2StaticMG_USMC_OCimport_02 : CUP_B_M2StaticMG_USMC_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
     class CUP_B_M2StaticMG_MiniTripod_USMC;
-    class CUP_B_M2StaticMG_MiniTripod_USMC_OCimport_01 : CUP_B_M2StaticMG_MiniTripod_USMC { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_B_M2StaticMG_MiniTripod_USMC_OCimport_02 : CUP_B_M2StaticMG_MiniTripod_USMC_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
     class CUP_B_TOW_TriPod_USMC;
-    class CUP_B_TOW_TriPod_USMC_OCimport_01 : CUP_B_TOW_TriPod_USMC { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_B_TOW_TriPod_USMC_OCimport_02 : CUP_B_TOW_TriPod_USMC_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
     class CUP_B_M252_USMC;
-    class CUP_B_M252_USMC_OCimport_01 : CUP_B_M252_USMC { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_B_M252_USMC_OCimport_02 : CUP_B_M252_USMC_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
 
     class CUP_B_LR_Transport_CZ_W;
     class CUP_B_LR_Transport_CZ_W_OCimport_01 : CUP_B_LR_Transport_CZ_W { scope = 0; class EventHandlers; class Turrets; };
@@ -1369,7 +1338,7 @@ class CfgVehicles {
 
     };
 
-    class CFP_B_ILIDF_M2_Machine_Gun_01 : CUP_B_M2StaticMG_USMC_OCimport_02 {
+    class CFP_B_ILIDF_M2_Machine_Gun_01 : CUP_B_M2StaticMG_USMC {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_M2_Machine_Gun_01.JPG;
         author = "CFP";
         scope = 2;
@@ -1378,28 +1347,9 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_ILIDF";
         crew = "CFP_B_ILIDF_Rifleman_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_B_ILIDF_M2_Minitripod_01 : CUP_B_M2StaticMG_MiniTripod_USMC_OCimport_02 {
+    class CFP_B_ILIDF_M2_Minitripod_01 : CUP_B_M2StaticMG_MiniTripod_USMC {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_M2_Minitripod_01.JPG;
         author = "CFP";
         scope = 2;
@@ -1408,28 +1358,9 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_ILIDF";
         crew = "CFP_B_ILIDF_Rifleman_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_B_ILIDF_TOW_Tripod_01 : CUP_B_TOW_TriPod_USMC_OCimport_02 {
+    class CFP_B_ILIDF_TOW_Tripod_01 : CUP_B_TOW_TriPod_USMC {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_TOW_Tripod_01.JPG;
         author = "CFP";
         scope = 2;
@@ -1438,28 +1369,9 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_ILIDF";
         crew = "CFP_B_ILIDF_Rifleman_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_B_ILIDF_M252_Mortar_01 : CUP_B_M252_USMC_OCimport_02 {
+    class CFP_B_ILIDF_M252_Mortar_01 : CUP_B_M252_USMC {
         editorPreview = \x\CFP\addons\b_ilidf\data\preview\CFP_B_ILIDF_M252_Mortar_01.JPG;
         author = "CFP";
         scope = 2;
@@ -1468,25 +1380,6 @@ class CfgVehicles {
         side = 1;
         faction = "CFP_B_ILIDF";
         crew = "CFP_B_ILIDF_Rifleman_01";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
     class CFP_B_ILIDF_MDT_David_01 : CUP_B_LR_Transport_CZ_W_OCimport_02 {

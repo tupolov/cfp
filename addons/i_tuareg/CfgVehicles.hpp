@@ -483,7 +483,7 @@ class CfgVehicles {
     };
 
     class CUP_D30_base;
-    class CFP_B_CAF_D30_01 : CUP_D30_base  {
+    class CFP_I_TUAREG_D30_01 : CUP_D30_base  {
         editorPreview = \x\cfp\addons\b_caf\data\preview\CFP_B_CAF_D30_01.JPG;
         author = "CFP";
         scope = 2;

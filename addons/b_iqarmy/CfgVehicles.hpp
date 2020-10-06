@@ -1542,8 +1542,7 @@ class CfgVehicles {
 
     };
     class CUP_O_ZU23_RU;
-    class CUP_O_ZU23_RU_OCimport_01 : CUP_O_ZU23_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_ZU23 : CUP_O_ZU23_RU_OCimport_01 {
+    class cfp_b_iqarmy_ZU23 : CUP_O_ZU23_RU {
         editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_ZU23.JPG;
         scope = 2;
         side = 1;
@@ -1555,8 +1554,7 @@ class CfgVehicles {
         typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
     };
     class CUP_O_DSHKM_TK_INS;
-    class CUP_O_DSHKM_TK_INS_OCimport_01 : CUP_O_DSHKM_TK_INS { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_DSHKM : CUP_O_DSHKM_TK_INS_OCimport_01 {
+    class cfp_b_iqarmy_DSHKM : CUP_O_DSHKM_TK_INS {
         editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_DSHKM.JPG;
         scope = 2;
         side = 1;
@@ -1568,8 +1566,7 @@ class CfgVehicles {
         typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
     };
     class CUP_O_DSHkM_MiniTriPod_TK_INS;
-    class CUP_O_DSHkM_MiniTriPod_TK_INS_OCimport_01 : CUP_O_DSHkM_MiniTriPod_TK_INS { scope = 0; class Eventhandlers; class Turrets; };
-    class cfp_b_iqarmy_DSHkM_Mini_TriPod : CUP_O_DSHkM_MiniTriPod_TK_INS_OCimport_01 {
+    class cfp_b_iqarmy_DSHkM_Mini_TriPod : CUP_O_DSHkM_MiniTriPod_TK_INS {
         editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_DSHkM_Mini_TriPod.JPG;
         scope = 2;
         side = 1;
@@ -1581,8 +1578,7 @@ class CfgVehicles {
         typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
     };
     class CUP_O_KORD_RU;
-    class CUP_O_KORD_RU_OCimport_01 : CUP_O_KORD_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_KORD : CUP_O_KORD_RU_OCimport_01 {
+    class cfp_b_iqarmy_KORD : CUP_O_KORD_RU {
         editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_KORD.JPG;
         scope = 2;
         side = 1;
@@ -1594,8 +1590,7 @@ class CfgVehicles {
         typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
     };
     class CUP_O_KORD_high_RU;
-    class CUP_O_KORD_high_RU_OCimport_01 : CUP_O_KORD_high_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_KORD_high : CUP_O_KORD_high_RU_OCimport_01 {
+    class cfp_b_iqarmy_KORD_high : CUP_O_KORD_high_RU {
         editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_KORD_high.JPG;
         scope = 2;
         side = 1;
@@ -1607,8 +1602,7 @@ class CfgVehicles {
         typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
     };
     class CUP_O_AGS_RU;
-    class CUP_O_AGS_RU_OCimport_01 : CUP_O_AGS_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_AGS : CUP_O_AGS_RU_OCimport_01 {
+    class cfp_b_iqarmy_AGS : CUP_O_AGS_RU {
         editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_AGS.JPG;
         scope = 2;
         side = 1;
@@ -1620,8 +1614,7 @@ class CfgVehicles {
         typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
     };
     class CUP_O_Metis_RU;
-    class CUP_O_Metis_RU_OCimport_01 : CUP_O_Metis_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_Metis : CUP_O_Metis_RU_OCimport_01 {
+    class cfp_b_iqarmy_Metis : CUP_O_Metis_RU {
         editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_Metis.JPG;
         scope = 2;
         side = 1;
@@ -1633,8 +1626,7 @@ class CfgVehicles {
         typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
     };
     class CUP_O_SPG9_TK_INS;
-    class CUP_O_SPG9_TK_INS_OCimport_01 : CUP_O_SPG9_TK_INS { scope = 0; class Eventhandlers; class Turrets; };
-    class cfp_b_iqarmy_SPG9 : CUP_O_SPG9_TK_INS_OCimport_01 {
+    class cfp_b_iqarmy_SPG9 : CUP_O_SPG9_TK_INS {
         editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_SPG9.JPG;
         scope = 2;
         side = 1;
@@ -1646,8 +1638,7 @@ class CfgVehicles {
         typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
     };
     class CUP_O_2b14_82mm_RU;
-    class CUP_O_2b14_82mm_RU_OCimport_01 : CUP_O_2b14_82mm_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_2b14_82mm : CUP_O_2b14_82mm_RU_OCimport_01 {
+    class cfp_b_iqarmy_2b14_82mm : CUP_O_2b14_82mm_RU {
         editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_2b14_82mm.JPG;
         scope = 2;
         side = 1;
@@ -1659,8 +1650,7 @@ class CfgVehicles {
         typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
     };
     class CUP_O_D30_RU;
-    class CUP_O_D30_RU_OCimport_01 : CUP_O_D30_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_D30 : CUP_O_D30_RU_OCimport_01 {
+    class cfp_b_iqarmy_D30 : CUP_O_D30_RU {
         editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_D30.JPG;
         scope = 2;
         side = 1;
@@ -1672,8 +1662,7 @@ class CfgVehicles {
         typicalCargo[] = {"cfp_b_iqarmy_rifleman"};
     };
     class CUP_O_D30_AT_RU;
-    class CUP_O_D30_AT_RU_OCimport_01 : CUP_O_D30_AT_RU { scope = 0; class EventHandlers; class Turrets; };
-    class cfp_b_iqarmy_D30_AT : CUP_O_D30_AT_RU_OCimport_01 {
+    class cfp_b_iqarmy_D30_AT : CUP_O_D30_AT_RU {
         editorPreview = \x\cfp\addons\b_iqarmy\data\preview\cfp_b_iqarmy_D30_AT.JPG;
         scope = 2;
         side = 1;

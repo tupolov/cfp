@@ -93,33 +93,6 @@ class CfgVehicles {
         };
     };
 
-    class CUP_O_ZU23_RU;
-    class CUP_O_ZU23_RU_OCimport_01 : CUP_O_ZU23_RU { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_ZU23_RU_OCimport_02 : CUP_O_ZU23_RU_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_O_KORD_RU;
-    class CUP_O_KORD_RU_OCimport_01 : CUP_O_KORD_RU { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_KORD_RU_OCimport_02 : CUP_O_KORD_RU_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_O_KORD_high_RU;
-    class CUP_O_KORD_high_RU_OCimport_01 : CUP_O_KORD_high_RU { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_O_KORD_high_RU_OCimport_02 : CUP_O_KORD_high_RU_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
     class CUP_O_PBX_RU;
 
     class CUP_O_Pchela1T_RU;
@@ -574,7 +547,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_RUMVD_ZU_23_01 : CUP_O_ZU23_RU_OCimport_02 {
+    class CUP_ZU23_base;
+    class CFP_O_RUMVD_ZU_23_01 : CUP_ZU23_base {
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -582,28 +556,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_RUMVD";
         crew = "CUP_O_MVD_Soldier";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_O_RUMVD_KORD_Minitripod_01 : CUP_O_KORD_RU_OCimport_02 {
+    class CUP_KORD_MiniTripod_Base;
+    class CFP_O_RUMVD_KORD_Minitripod_01 : CUP_KORD_MiniTripod_Base {
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -611,28 +567,10 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_RUMVD";
         crew = "CUP_O_MVD_Soldier";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
-    class CFP_O_RUMVD_KORD_01 : CUP_O_KORD_high_RU_OCimport_02 {
+    class CUP_KORD_high_Base;
+    class CFP_O_RUMVD_KORD_01 : CUP_KORD_high_Base {
         author = "Tupolov";
         scope = 2;
         scopeCurator = 2;
@@ -640,25 +578,6 @@ class CfgVehicles {
         side = 0;
         faction = "CFP_O_RUMVD";
         crew = "CUP_O_MVD_Soldier";
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = ""; };
-        };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
     };
 
 

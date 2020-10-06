@@ -120,54 +120,6 @@ class CfgVehicles {
         };
     };
 
-    class CUP_I_Hilux_unarmed_TK;
-    class CUP_I_Hilux_unarmed_TK_OCimport_01 : CUP_I_Hilux_unarmed_TK { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_I_Hilux_unarmed_TK_OCimport_02 : CUP_I_Hilux_unarmed_TK_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class CargoTurret_01;
-            class CargoTurret_02;
-            class CargoTurret_03;
-            class CargoTurret_04;
-        };
-    };
-
-    class CUP_I_Hilux_DSHKM_TK;
-    class CUP_I_Hilux_DSHKM_TK_OCimport_01 : CUP_I_Hilux_DSHKM_TK { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_I_Hilux_DSHKM_TK_OCimport_02 : CUP_I_Hilux_DSHKM_TK_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_I_Hilux_SPG9_TK;
-    class CUP_I_Hilux_SPG9_TK_OCimport_01 : CUP_I_Hilux_SPG9_TK { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_I_Hilux_SPG9_TK_OCimport_02 : CUP_I_Hilux_SPG9_TK_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_I_Hilux_igla_TK;
-    class CUP_I_Hilux_igla_TK_OCimport_01 : CUP_I_Hilux_igla_TK { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_I_Hilux_igla_TK_OCimport_02 : CUP_I_Hilux_igla_TK_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
-    class CUP_I_Hilux_metis_TK;
-    class CUP_I_Hilux_metis_TK_OCimport_01 : CUP_I_Hilux_metis_TK { scope = 0; class EventHandlers; class Turrets; };
-    class CUP_I_Hilux_metis_TK_OCimport_02 : CUP_I_Hilux_metis_TK_OCimport_01 {
-        class EventHandlers;
-        class Turrets : Turrets {
-            class MainTurret;
-        };
-    };
-
     class CUP_O_Pchela1T_RU;
         class CUP_O_Pchela1T_RU_OCimport_01 : CUP_O_Pchela1T_RU { scope = 0; class EventHandlers; class Turrets; };
         class CUP_O_Pchela1T_RU_OCimport_02 : CUP_O_Pchela1T_RU_OCimport_01 {
@@ -1117,7 +1069,8 @@ class CfgVehicles {
 
     };
 
-    class CFP_O_WAGNER_Hilux_WIN_01 : CUP_I_Hilux_unarmed_TK_OCimport_02 {
+    class CUP_Hilux_unarmed_Base;
+    class CFP_O_WAGNER_Hilux_WIN_01 : CUP_Hilux_unarmed_Base {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1128,31 +1081,18 @@ class CfgVehicles {
         hiddenSelections[] = {"camo","body"};
         hiddenSelectionsTextures[] = {"x\cfp\addons\vehicles\Hilux\body_snowcamo1_co.paa","x\cfp\addons\vehicles\Hilux\hilux_tex2_snow_co.paa"};
         hiddenSelectionsMaterials[] = {"cup\wheeledvehicles\cup_wheeledvehicles_hilux\data\v2\body.rvmat","x\cfp\addons\vehicles\Hilux\hilux_tex2.rvmat"};
-
-        class Turrets : Turrets {
-            class CargoTurret_01 : CargoTurret_01 { gunnerType = ""; };
-            class CargoTurret_02 : CargoTurret_02 { gunnerType = ""; };
-            class CargoTurret_03 : CargoTurret_03 { gunnerType = ""; };
-            class CargoTurret_04 : CargoTurret_04 { gunnerType = ""; };
+        textureList[]=
+        {
+            "WINCAMO",1
         };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
     };
 
-    class CFP_O_WAGNER_Hilux_DShKM_WIN_01 : CUP_I_Hilux_DSHKM_TK_OCimport_02 {
+    class CUP_Hilux_DSHKM_Base;
+    class CFP_O_WAGNER_Hilux_DShKM_WIN_01 : CUP_Hilux_DSHKM_Base {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1163,28 +1103,18 @@ class CfgVehicles {
         hiddenSelections[] = {"camo","body"};
         hiddenSelectionsTextures[] = {"x\cfp\addons\vehicles\Hilux\body_snowcamo1_co.paa","x\cfp\addons\vehicles\Hilux\hilux_tex2_snow_co.paa"};
         hiddenSelectionsMaterials[] = {"cup\wheeledvehicles\cup_wheeledvehicles_hilux\data\v2\body.rvmat","x\cfp\addons\vehicles\Hilux\hilux_tex2.rvmat"};
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_O_WAGNER_Contractor_1_WIN_01"; };
+        textureList[]=
+        {
+            "WINCAMO",1
         };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
     };
 
-    class CFP_O_WAGNER_Hilux_SPG_WIN_01 : CUP_I_Hilux_SPG9_TK_OCimport_02 {
+    class CUP_Hilux_SPG9_Base;
+    class CFP_O_WAGNER_Hilux_SPG_WIN_01 : CUP_Hilux_SPG9_Base {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1195,28 +1125,18 @@ class CfgVehicles {
         hiddenSelections[] = {"camo","body"};
         hiddenSelectionsTextures[] = {"x\cfp\addons\vehicles\Hilux\body_snowcamo1_co.paa","x\cfp\addons\vehicles\Hilux\hilux_tex2_snow_co.paa"};
         hiddenSelectionsMaterials[] = {"cup\wheeledvehicles\cup_wheeledvehicles_hilux\data\v2\body.rvmat","x\cfp\addons\vehicles\Hilux\hilux_tex2.rvmat"};
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_O_WAGNER_Contractor_2_WIN_01"; };
+        textureList[]=
+        {
+            "WINCAMO",1
         };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
     };
 
-    class CFP_O_WAGNER_Hilux_Igla_WIN_01 : CUP_I_Hilux_igla_TK_OCimport_02 {
+    class CUP_Hilux_igla_Base;
+    class CFP_O_WAGNER_Hilux_Igla_WIN_01 : CUP_Hilux_igla_Base {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1227,28 +1147,18 @@ class CfgVehicles {
         hiddenSelections[] = {"camo","body"};
         hiddenSelectionsTextures[] = {"x\cfp\addons\vehicles\Hilux\body_snowcamo1_co.paa","x\cfp\addons\vehicles\Hilux\hilux_tex2_snow_co.paa"};
         hiddenSelectionsMaterials[] = {"cup\wheeledvehicles\cup_wheeledvehicles_hilux\data\v2\body.rvmat","x\cfp\addons\vehicles\Hilux\hilux_tex2.rvmat"};
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_O_WAGNER_Contractor_2_WIN_01"; };
+        textureList[]=
+        {
+            "WINCAMO",1
         };
-
-
-
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
-
-        };
-
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
-
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
     };
 
-    class CFP_O_WAGNER_Hilux_Metis_WIN_01 : CUP_I_Hilux_metis_TK_OCimport_02 {
+    class CUP_Hilux_metis_Base;
+    class CFP_O_WAGNER_Hilux_Metis_WIN_01 : CUP_Hilux_metis_Base {
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -1259,24 +1169,77 @@ class CfgVehicles {
         hiddenSelections[] = {"camo","body"};
         hiddenSelectionsTextures[] = {"x\cfp\addons\vehicles\Hilux\body_snowcamo1_co.paa","x\cfp\addons\vehicles\Hilux\hilux_tex2_snow_co.paa"};
         hiddenSelectionsMaterials[] = {"cup\wheeledvehicles\cup_wheeledvehicles_hilux\data\v2\body.rvmat","x\cfp\addons\vehicles\Hilux\hilux_tex2.rvmat"};
-
-        class Turrets : Turrets {
-            class MainTurret : MainTurret { gunnerType = "CFP_O_WAGNER_Contractor_2_WIN_01"; };
+        textureList[]=
+        {
+            "WINCAMO",1
         };
+        TRANSPORTWEAPONSMEDIUM(CUP_arifle_AK47,CUP_launch_RPG7V)
+        TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
+        TRANSPORTITEMSMEDIUM
+        TRANSPORTBACKPACKSMEDIUM(B_AssaultPack_rgr)
+    };
 
+    class CUP_ZU23_base;
+    class CFP_O_WAGNER_ZU_23_WIN_01 : CUP_ZU23_base {
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "ZU-23";
+        side = 0;
+        faction = "CFP_O_WAGNER_WIN";
+        crew = "CFP_O_WAGNER_Contractor_1_WIN_01";
 
+    };
 
-        class EventHandlers : EventHandlers {
-            class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
+    class CUP_SPG9_base;
+    class CFP_O_WAGNER_SPG_9_WIN_01 : CUP_SPG9_base {
+        //editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_O_WAGNER_SPG_9_01.JPG;
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "SPG-9";
+        side = 0;
+        faction = "CFP_O_WAGNER_WIN";
+        crew = "CFP_O_WAGNER_Contractor_1_WIN_01";
 
-            class ALiVE_orbatCreator {
-                init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-            };
+    };
 
-        };
+    class CUP_2b14_82mm_Base;
+    class CFP_O_WAGNER_Mortar_WIN_01 : CUP_2b14_82mm_Base {
+        //editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_O_WAGNER_Mortar_01.JPG;
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "Mortar";
+        side = 0;
+        faction = "CFP_O_WAGNER_WIN";
+        crew = "CFP_O_WAGNER_Contractor_1_WIN_01";
 
-        // custom attributes (do not delete)
-        ALiVE_orbatCreator_owned = 1;
+    };
+
+    class CUP_DSHKM_base;
+    class CFP_O_WAGNER_DShKM_WIN_01 : CUP_DSHKM_base {
+        //editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_O_WAGNER_DShKM_01.JPG;
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "DShKM";
+        side = 0;
+        faction = "CFP_O_WAGNER_WIN";
+        crew = "CFP_O_WAGNER_Contractor_1_WIN_01";
+
+    };
+
+    class CUP_DSHKM_MiniTripod_base;
+    class CFP_O_WAGNER_DShKM_Low_WIN_01 : CUP_DSHKM_MiniTripod_base {
+        //editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_O_WAGNER_DShKM_Low_01.JPG;
+        author = "CFP";
+        scope = 2;
+        scopeCurator = 2;
+        displayName = "DShKM (Low)";
+        side = 0;
+        faction = "CFP_O_WAGNER_WIN";
+        crew = "CFP_O_WAGNER_Contractor_1_WIN_01";
 
     };
 

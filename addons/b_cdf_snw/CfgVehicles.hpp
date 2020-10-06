@@ -55,76 +55,13 @@ class CfgVehicles {
         };
 
         class CUP_B_ZU23_CDF;
-        class CUP_B_ZU23_CDF_OCimport_01 : CUP_B_ZU23_CDF { scope = 0; class EventHandlers; class Turrets; };
-        class CUP_B_ZU23_CDF_OCimport_02 : CUP_B_ZU23_CDF_OCimport_01 {
-            class EventHandlers;
-            class Turrets : Turrets {
-                class MainTurret;
-            };
-        };
-
         class CUP_B_DSHKM_CDF;
-        class CUP_B_DSHKM_CDF_OCimport_01 : CUP_B_DSHKM_CDF { scope = 0; class EventHandlers; class Turrets; };
-        class CUP_B_DSHKM_CDF_OCimport_02 : CUP_B_DSHKM_CDF_OCimport_01 {
-            class EventHandlers;
-            class Turrets : Turrets {
-                class MainTurret;
-            };
-        };
-
         class CUP_B_DSHkM_MiniTriPod_CDF;
-        class CUP_B_DSHkM_MiniTriPod_CDF_OCimport_01 : CUP_B_DSHkM_MiniTriPod_CDF { scope = 0; class EventHandlers; class Turrets; };
-        class CUP_B_DSHkM_MiniTriPod_CDF_OCimport_02 : CUP_B_DSHkM_MiniTriPod_CDF_OCimport_01 {
-            class EventHandlers;
-            class Turrets : Turrets {
-                class MainTurret;
-            };
-        };
-
         class CUP_B_AGS_CDF;
-        class CUP_B_AGS_CDF_OCimport_01 : CUP_B_AGS_CDF { scope = 0; class EventHandlers; class Turrets; };
-        class CUP_B_AGS_CDF_OCimport_02 : CUP_B_AGS_CDF_OCimport_01 {
-            class EventHandlers;
-            class Turrets : Turrets {
-                class MainTurret;
-            };
-        };
-
         class CUP_B_SPG9_CDF;
-        class CUP_B_SPG9_CDF_OCimport_01 : CUP_B_SPG9_CDF { scope = 0; class EventHandlers; class Turrets; };
-        class CUP_B_SPG9_CDF_OCimport_02 : CUP_B_SPG9_CDF_OCimport_01 {
-            class EventHandlers;
-            class Turrets : Turrets {
-                class MainTurret;
-            };
-        };
-
         class CUP_B_2b14_82mm_CDF;
-        class CUP_B_2b14_82mm_CDF_OCimport_01 : CUP_B_2b14_82mm_CDF { scope = 0; class EventHandlers; class Turrets; };
-        class CUP_B_2b14_82mm_CDF_OCimport_02 : CUP_B_2b14_82mm_CDF_OCimport_01 {
-            class EventHandlers;
-            class Turrets : Turrets {
-                class MainTurret;
-            };
-        };
-
         class CUP_B_D30_CDF;
-        class CUP_B_D30_CDF_OCimport_01 : CUP_B_D30_CDF { scope = 0; class EventHandlers; class Turrets; };
-        class CUP_B_D30_CDF_OCimport_02 : CUP_B_D30_CDF_OCimport_01 {
-            class EventHandlers;
-            class Turrets : Turrets {
-                class MainTurret;
-            };
-        };
-
         class CUP_B_D30_AT_CDF;
-        class CUP_B_D30_AT_CDF_OCimport_01 : CUP_B_D30_AT_CDF { scope = 0; class EventHandlers; class Turrets; };
-        class CUP_B_D30_AT_CDF_OCimport_02 : CUP_B_D30_AT_CDF_OCimport_01 {
-            class EventHandlers;
-            class Turrets : Turrets {
-                class MainTurret;
-            };
-        };
 
         class CUP_B_BRDM2_CDF;
         class CUP_B_BRDM2_CDF_OCimport_01 : CUP_B_BRDM2_CDF { scope = 0; class EventHandlers; class Turrets; };
@@ -1491,7 +1428,7 @@ class CfgVehicles {
 
         };
 
-        class CFP_B_CDF_ZU_23_SNW_01 : CUP_B_ZU23_CDF_OCimport_02 {
+        class CFP_B_CDF_ZU_23_SNW_01 : CUP_B_ZU23_CDF {
             editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_ZU_23_SNW_01.JPG;
             author = "Drew";
             scope = 2;
@@ -1500,28 +1437,9 @@ class CfgVehicles {
             side = 1;
             faction = "CFP_B_CDF_SNW";
             crew = "CUP_B_CDF_Soldier_SNW";
-
-            class Turrets : Turrets {
-                class MainTurret : MainTurret { gunnerType = ""; };
-            };
-
-
-
-            class EventHandlers : EventHandlers {
-                class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-                class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-                };
-
-            };
-
-            // custom attributes (do not delete)
-            ALiVE_orbatCreator_owned = 1;
-
         };
 
-        class CFP_B_CDF_DShKM_SNW_01 : CUP_B_DSHKM_CDF_OCimport_02 {
+        class CFP_B_CDF_DShKM_SNW_01 : CUP_B_DSHKM_CDF {
             editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_DShKM_SNW_01.JPG;
             author = "Drew";
             scope = 2;
@@ -1530,28 +1448,9 @@ class CfgVehicles {
             side = 1;
             faction = "CFP_B_CDF_SNW";
             crew = "CUP_B_CDF_Soldier_SNW";
-
-            class Turrets : Turrets {
-                class MainTurret : MainTurret { gunnerType = ""; };
-            };
-
-
-
-            class EventHandlers : EventHandlers {
-                class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-                class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-                };
-
-            };
-
-            // custom attributes (do not delete)
-            ALiVE_orbatCreator_owned = 1;
-
         };
 
-        class CFP_B_CDF_DSHkM_Minitripod_SNW_01 : CUP_B_DSHkM_MiniTriPod_CDF_OCimport_02 {
+        class CFP_B_CDF_DSHkM_Minitripod_SNW_01 : CUP_B_DSHkM_MiniTriPod_CDF {
             editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_DShKM_Minitripod_SNW_01.JPG;
             author = "Drew";
             scope = 2;
@@ -1560,27 +1459,9 @@ class CfgVehicles {
             side = 1;
             faction = "CFP_B_CDF_SNW";
             crew = "CUP_B_CDF_Soldier_SNW";
-
-            class Turrets : Turrets {
-                class MainTurret : MainTurret { gunnerType = ""; };
-            };
-
-
-            class EventHandlers : EventHandlers {
-                class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-                class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-                };
-
-            };
-
-            // custom attributes (do not delete)
-            ALiVE_orbatCreator_owned = 1;
-
         };
 
-        class CFP_B_CDF_AGS_30_SNW_01 : CUP_B_AGS_CDF_OCimport_02 {
+        class CFP_B_CDF_AGS_30_SNW_01 : CUP_B_AGS_CDF {
             editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_AGS_30_SNW_01.JPG;
             author = "Drew";
             scope = 2;
@@ -1589,28 +1470,9 @@ class CfgVehicles {
             side = 1;
             faction = "CFP_B_CDF_SNW";
             crew = "CUP_B_CDF_Soldier_SNW";
-
-            class Turrets : Turrets {
-                class MainTurret : MainTurret { gunnerType = ""; };
-            };
-
-
-
-            class EventHandlers : EventHandlers {
-                class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-                class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-                };
-
-            };
-
-            // custom attributes (do not delete)
-            ALiVE_orbatCreator_owned = 1;
-
         };
 
-        class CFP_B_CDF_SPG_9_SNW_01 : CUP_B_SPG9_CDF_OCimport_02 {
+        class CFP_B_CDF_SPG_9_SNW_01 : CUP_B_SPG9_CDF {
             editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_SPG_9_SNW_01.JPG;
             author = "Drew";
             scope = 2;
@@ -1619,28 +1481,9 @@ class CfgVehicles {
             side = 1;
             faction = "CFP_B_CDF_SNW";
             crew = "CUP_B_CDF_Soldier_SNW";
-
-            class Turrets : Turrets {
-                class MainTurret : MainTurret { gunnerType = ""; };
-            };
-
-
-
-            class EventHandlers : EventHandlers {
-                class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-                class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-                };
-
-            };
-
-            // custom attributes (do not delete)
-            ALiVE_orbatCreator_owned = 1;
-
         };
 
-        class CFP_B_CDF_Podnos_2B14_SNW_01 : CUP_B_2b14_82mm_CDF_OCimport_02 {
+        class CFP_B_CDF_Podnos_2B14_SNW_01 : CUP_B_2b14_82mm_CDF {
             editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_Podnos_2B14_SNW_01.JPG;
             author = "Drew";
             scope = 2;
@@ -1649,28 +1492,9 @@ class CfgVehicles {
             side = 1;
             faction = "CFP_B_CDF_SNW";
             crew = "CUP_B_CDF_Soldier_SNW";
-
-            class Turrets : Turrets {
-                class MainTurret : MainTurret { gunnerType = ""; };
-            };
-
-
-
-            class EventHandlers : EventHandlers {
-                class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-                class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-                };
-
-            };
-
-            // custom attributes (do not delete)
-            ALiVE_orbatCreator_owned = 1;
-
         };
 
-        class CFP_B_CDF_D30_SNW_01 : CUP_B_D30_CDF_OCimport_02 {
+        class CFP_B_CDF_D30_SNW_01 : CUP_B_D30_CDF {
             editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_D30_SNW_01.JPG;
             author = "Drew";
             scope = 2;
@@ -1679,28 +1503,9 @@ class CfgVehicles {
             side = 1;
             faction = "CFP_B_CDF_SNW";
             crew = "CUP_B_CDF_Soldier_SNW";
-
-            class Turrets : Turrets {
-                class MainTurret : MainTurret { gunnerType = ""; };
-            };
-
-
-
-            class EventHandlers : EventHandlers {
-                class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-                class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-                };
-
-            };
-
-            // custom attributes (do not delete)
-            ALiVE_orbatCreator_owned = 1;
-
         };
 
-        class CFP_B_CDF_D30_AT_SNW_01 : CUP_B_D30_AT_CDF_OCimport_02 {
+        class CFP_B_CDF_D30_AT_SNW_01 : CUP_B_D30_AT_CDF {
             editorPreview = \x\CFP\addons\b_cdf_snw\data\preview\CFP_B_CDF_D30_AT_SNW_01.JPG;
             author = "Drew";
             scope = 2;
@@ -1709,25 +1514,6 @@ class CfgVehicles {
             side = 1;
             faction = "CFP_B_CDF_SNW";
             crew = "CUP_B_CDF_Soldier_SNW";
-
-            class Turrets : Turrets {
-                class MainTurret : MainTurret { gunnerType = ""; };
-            };
-
-
-
-            class EventHandlers : EventHandlers {
-                class CBA_Extended_EventHandlers : CBA_Extended_EventHandlers_base {};
-
-                class ALiVE_orbatCreator {
-                    init = "if (local (_this select 0)) then {_onSpawn = {sleep 0.3; _unit = _this select 0;};_this spawn _onSpawn;(_this select 0) addMPEventHandler ['MPRespawn', _onSpawn];};";
-                };
-
-            };
-
-            // custom attributes (do not delete)
-            ALiVE_orbatCreator_owned = 1;
-
         };
 
         class CFP_B_CDF_BRDM_2_SNW_01 : CUP_B_BRDM2_CDF_OCimport_02 {

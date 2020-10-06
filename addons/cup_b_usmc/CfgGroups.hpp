@@ -5,6 +5,32 @@ class CfgGroups {
         class CUP_B_USMC {
             name = "US Marine Corps (Jungle / Woodland)";
 
+            class Infantry_DES {
+                name = "Infantry (Desert)";
+
+                delete CUP_B_USMC_InfSquad_DES;
+                delete CUP_B_USMC_FireTeam_DES;
+                delete CUP_B_USMC_FireTeam_MG_DES;
+                delete CUP_B_USMC_FireTeam_AT_DES;
+                delete CUP_B_USMC_FireTeam_Support_DES;
+                delete CUP_B_USMC_HeavyATTeam_DES;
+                delete CUP_B_USMC_SniperTeam_DES;
+                delete CUP_B_USMC_FRTeam_DA_Desert;
+                delete CUP_B_USMC_FRTeam_Desert;
+                delete CUP_B_USMC_FRTeam_Razor_Desert;
+            };
+
+            class Infantry_FROG_DES {
+                name = "Infantry (FROG Desert)";
+
+                delete CUP_B_USMC_InfSquad_FROG_DES;
+                delete CUP_B_USMC_FireTeam_FROG_DES;
+                delete CUP_B_USMC_FireTeam_MG_FROG_DES;
+                delete CUP_B_USMC_FireTeam_AT_FROG_DES;
+                delete CUP_B_USMC_FireTeam_Support_FROG_DES;
+                delete CUP_B_USMC_HeavyATTeam_FROG_DES;
+            };
+
             class Infantry {
                 name = "Infantry";
 
@@ -604,13 +630,7 @@ class CfgGroups {
                         vehicle = "CUP_B_USMC_Gunner_TOW_WDL_01";
                     };
                 };
-
-                delete CUP_B_USMC_FRTeam_Desert;
-                delete CUP_B_USMC_FRTeam_Razor_Desert;
             };
-
-            delete Infantry_FROG_DES;
-            delete Infantry_FROG_WDL;
 
             class SpecOps {
 
@@ -1105,113 +1125,12 @@ class CfgGroups {
             class Air {
                 name = "Air";
 
-                class CUP_B_USMC_AH1ZSquadron {
-                    name = "AH-1Z Squadron";
-                    side = 1;
-                    faction = "CUP_B_USMC";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
-                    rarityGroup = 0.3;
-
-                    class Unit0 {
-                        position[] = {0,15,0};
-                        rank = "CAPTAIN";
-                        side = 1;
-                        vehicle = "CUP_B_AH1Z";
-                    };
-                    class Unit1 {
-                        position[] = {15,0,0};
-                        rank = "LIEUTENANT";
-                        side = 1;
-                        vehicle = "CUP_B_AH1Z";
-                    };
+                    delete CUP_B_USMC_AH1ZSquadron;
+                    delete CUP_B_USMC_UH1YSquadron;
+                    delete CUP_B_USMC_MV22Squadron;
+                    delete CUP_B_USMC_AV8BFighterSquadron;
+                    delete CUP_B_USMC_AV8BBomberSquadron;
                 };
-
-                class CUP_B_USMC_UH1YSquadron {
-                    name = "UH-1Y Squadron";
-                    side = 1;
-                    faction = "CUP_B_USMC";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
-                    rarityGroup = 0.5;
-
-                    class Unit0 {
-                        position[] = {0,15,0};
-                        rank = "CAPTAIN";
-                        side = 1;
-                        vehicle = "CUP_B_UH1Y_GUNSHIP_F";
-                    };
-                    class Unit1 {
-                        position[] = {15,0,0};
-                        rank = "LIEUTENANT";
-                        side = 1;
-                        vehicle = "CUP_B_UH1Y_GUNSHIP_F";
-                    };
-                };
-
-                class CUP_B_USMC_MV22Squadron {
-                    name = "MV-22 Squadron";
-                    side = 1;
-                    faction = "CUP_B_USMC";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
-                    rarityGroup = 0.5;
-
-                    class Unit0 {
-                        position[] = {0,20,0};
-                        rank = "CAPTAIN";
-                        side = 1;
-                        vehicle = "CUP_B_MV22_USMC";
-                    };
-                    class Unit1 {
-                        position[] = {20,0,0};
-                        rank = "LIEUTENANT";
-                        side = 1;
-                        vehicle = "CUP_B_MV22_USMC";
-                    };
-                };
-
-                class CUP_B_USMC_AV8BFighterSquadron {
-                    name = "AV-8B Fighter Squadron";
-                    side = 1;
-                    faction = "CUP_B_USMC";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_plane.paa";
-                    rarityGroup = 0.3;
-
-                    class Unit0 {
-                        position[] = {0,20,0};
-                        rank = "CAPTAIN";
-                        side = 1;
-                        vehicle = "CUP_B_AV8B";
-                    };
-                    class Unit1 {
-                        position[] = {20,0,0};
-                        rank = "LIEUTENANT";
-                        side = 1;
-                        vehicle = "CUP_B_AV8B";
-                    };
-                };
-
-                class CUP_B_USMC_AV8BBomberSquadron {
-                    name = "AV-8B Bomber Squadron";
-                    side = 1;
-                    faction = "CUP_B_USMC";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_plane.paa";
-                    rarityGroup = 0.5;
-
-                    class Unit0 {
-                        position[] = {0,20,0};
-                        rank = "CAPTAIN";
-                        side = 1;
-                        vehicle = "CUP_B_AV8B_LGB";
-                    };
-                    class Unit1 {
-                        position[] = {20,0,0};
-                        rank = "LIEUTENANT";
-                        side = 1;
-                        vehicle = "CUP_B_AV8B_LGB";
-                    };
-                };
-
-            };
-
         };
 
     };

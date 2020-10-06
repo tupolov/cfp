@@ -18,79 +18,79 @@ class CfgGroups {
                         position[] = {0,5,0};
                         rank = "LIEUTENANT";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Squad_Leader_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_SL_des";
                     };
                     class Unit1 {
                         position[] = {3,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Fire_Team_Leader_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_TL_des";
                     };
                     class Unit2 {
                         position[] = {5,0,0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Automatic_Rifleman_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_AR_des";
                     };
                     class Unit3 {
                         position[] = {7,0,0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Rifleman_M136_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_LAT_des";
                     };
                     class Unit4 {
                         position[] = {9,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Rifleman_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_des";
                     };
                     class Unit5 {
                         position[] = {12,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Fire_Team_Leader_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_TL_des";
                     };
                     class Unit6 {
                         position[] = {14,0,0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Automatic_Rifleman_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_AR_des";
                     };
                     class Unit7 {
                         position[] = {16,0,0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Rifleman_M136_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_LAT_des";
                     };
                     class Unit8 {
                         position[] = {18,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Rifleman_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_des";
                     };
                     class Unit9 {
                         position[] = {3,-5,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Fire_Team_Leader_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_TL_des";
                     };
                     class Unit10 {
                         position[] = {5,-5,0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Automatic_Rifleman_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_AR_des";
                     };
                     class Unit11 {
                         position[] = {7,-5,0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Rifleman_M136_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_LAT_des";
                     };
                     class Unit12 {
                         position[] = {9,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Rifleman_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_des";
                     };
                 };
 
@@ -105,25 +105,25 @@ class CfgGroups {
                         position[] = {0,5,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Fire_Team_Leader_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_TL_des";
                     };
                     class Unit1 {
                         position[] = {3,0,0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Automatic_Rifleman_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_AR_des";
                     };
                     class Unit2 {
                         position[] = {5,0,0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Rifleman_M136_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_LAT_des";
                     };
                     class Unit3 {
                         position[] = {7,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Rifleman_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_des";
                     };
                 };
 
@@ -138,25 +138,25 @@ class CfgGroups {
                         position[] = {0,5,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Fire_Team_Leader_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_TL_des";
                     };
                     class Unit1 {
                         position[] = {3,0,0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Machinegunner_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_MG_des";
                     };
                     class Unit2 {
                         position[] = {5,0,0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Automatic_Rifleman_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_AR_des";
                     };
                     class Unit3 {
                         position[] = {7,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Rifleman_M136_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_LAT_des";
                     };
                 };
 
@@ -171,25 +171,25 @@ class CfgGroups {
                         position[] = {0,5,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Fire_Team_Leader_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_TL_des";
                     };
                     class Unit1 {
                         position[] = {3,0,0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Automatic_Rifleman_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_AR_des";
                     };
                     class Unit2 {
                         position[] = {5,0,0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "CFP_B_USMC_AT_Specialist_SMAW_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_AT_des";
                     };
                     class Unit3 {
                         position[] = {7,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Rifleman_M136_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_LAT_des";
                     };
                 };
 
@@ -204,25 +204,25 @@ class CfgGroups {
                         position[] = {0,5,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Fire_Team_Leader_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_TL_des";
                     };
                     class Unit1 {
                         position[] = {3,0,0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Automatic_Rifleman_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_AR_des";
                     };
                     class Unit2 {
                         position[] = {5,0,0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Rifleman_M136_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_LAT_des";
                     };
                     class Unit3 {
                         position[] = {7,0,0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Corpsman_DES_01";
+                        vehicle = "CUP_B_USMC_Medic_des";
                     };
                 };
 
@@ -237,19 +237,19 @@ class CfgGroups {
                         position[] = {0,5,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USMC_AT_Specialist_Javelin_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_HAT_des";
                     };
                     class Unit1 {
                         position[] = {3,0,0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "CFP_B_USMC_AT_Specialist_SMAW_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_AT_des";
                     };
                     class Unit2 {
                         position[] = {5,0,0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Rifleman_M136_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_LAT_des";
                     };
                 };
 
@@ -264,13 +264,13 @@ class CfgGroups {
                         position[] = {0,5,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Sniper_DES_01";
+                        vehicle = "CUP_B_USMC_Sniper_M40A3_des";
                     };
                     class Unit1 {
                         position[] = {3,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Spotter_DES_01";
+                        vehicle = "CUP_B_USMC_Spotter_des";
                     };
                 };
 
@@ -708,79 +708,79 @@ class CfgGroups {
                         position[] = {0,5,0};
                         rank = "LIEUTENANT";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Squad_Leader_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_SL_des";
                     };
                     class Unit1 {
                         position[] = {3,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Fire_Team_Leader_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_TL_des";
                     };
                     class Unit2 {
                         position[] = {5,0,0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Automatic_Rifleman_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_AR_des";
                     };
                     class Unit3 {
                         position[] = {7,0,0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Rifleman_M136_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_LAT_des";
                     };
                     class Unit4 {
                         position[] = {9,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Rifleman_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_des";
                     };
                     class Unit5 {
                         position[] = {12,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Fire_Team_Leader_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_TL_des";
                     };
                     class Unit6 {
                         position[] = {14,0,0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Automatic_Rifleman_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_AR_des";
                     };
                     class Unit7 {
                         position[] = {16,0,0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Rifleman_M136_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_LAT_des";
                     };
                     class Unit8 {
                         position[] = {18,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Rifleman_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_des";
                     };
                     class Unit9 {
                         position[] = {3,-5,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Fire_Team_Leader_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_TL_des";
                     };
                     class Unit10 {
                         position[] = {5,-5,0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Automatic_Rifleman_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_AR_des";
                     };
                     class Unit11 {
                         position[] = {7,-5,0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Rifleman_M136_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_LAT_des";
                     };
                     class Unit12 {
                         position[] = {9,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Rifleman_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_des";
                     };
                     class Unit13 {
                         position[] = {-5,0,0};
@@ -807,7 +807,7 @@ class CfgGroups {
                         position[] = {0,5,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Fire_Team_Leader_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_TL_des";
                     };
                     class Unit1 {
                         position[] = {-5,0,0};
@@ -825,31 +825,31 @@ class CfgGroups {
                         position[] = {3,0,0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Automatic_Rifleman_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_AR_des";
                     };
                     class Unit4 {
                         position[] = {5,0,0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Rifleman_M136_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_LAT_des";
                     };
                     class Unit5 {
                         position[] = {7,0,0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Automatic_Rifleman_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_AR_des";
                     };
                     class Unit6 {
                         position[] = {9,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Rifleman_M136_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_LAT_des";
                     };
                     class Unit7 {
                         position[] = {11,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Rifleman_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_des";
                     };
                 };
 
@@ -864,7 +864,7 @@ class CfgGroups {
                         position[] = {0,5,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Fire_Team_Leader_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_TL_des";
                     };
                     class Unit1 {
                         position[] = {-5,0,0};
@@ -882,7 +882,7 @@ class CfgGroups {
                         position[] = {3,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Automatic_Rifleman_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_AR_des";
                     };
                 };
 
@@ -907,7 +907,7 @@ class CfgGroups {
                         position[] = {0,5,0};
                         rank = "LIEUTENANT";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Squad_Leader_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_SL_des";
                     };
                     class Unit1 {
                         position[] = {-5,0,0};
@@ -919,73 +919,73 @@ class CfgGroups {
                         position[] = {3,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Fire_Team_Leader_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_TL_des";
                     };
                     class Unit3 {
                         position[] = {5,0,0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Automatic_Rifleman_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_AR_des";
                     };
                     class Unit4 {
                         position[] = {7,0,0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Rifleman_M136_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_LAT_des";
                     };
                     class Unit5 {
                         position[] = {9,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Rifleman_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_des";
                     };
                     class Unit6 {
                         position[] = {12,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Fire_Team_Leader_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_TL_des";
                     };
                     class Unit7 {
                         position[] = {14,0,0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Automatic_Rifleman_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_AR_des";
                     };
                     class Unit8 {
                         position[] = {16,0,0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Rifleman_M136_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_LAT_des";
                     };
                     class Unit9 {
                         position[] = {18,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Rifleman_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_des";
                     };
                     class Unit10 {
                         position[] = {3,-5,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Fire_Team_Leader_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_TL_des";
                     };
                     class Unit11 {
                         position[] = {5,-5,0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Automatic_Rifleman_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_AR_des";
                     };
                     class Unit12 {
                         position[] = {7,-5,0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Rifleman_M136_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_LAT_des";
                     };
                     class Unit13 {
                         position[] = {9,-5,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Rifleman_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_des";
                     };
                 };
 
@@ -1000,7 +1000,7 @@ class CfgGroups {
                         position[] = {0,5,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Fire_Team_Leader_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_TL_des";
                     };
                     class Unit1 {
                         position[] = {-5,0,0};
@@ -1012,31 +1012,31 @@ class CfgGroups {
                         position[] = {3,0,0};
                         rank = "SERGEANT";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Machinegunner_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_MG_des";
                     };
                     class Unit3 {
                         position[] = {5,0,0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Automatic_Rifleman_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_AR_des";
                     };
                     class Unit4 {
                         position[] = {7,0,0};
                         rank = "CORPORAL";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Rifleman_M136_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_LAT_des";
                     };
                     class Unit5 {
                         position[] = {9,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Rifleman_M136_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_LAT_des";
                     };
                     class Unit6 {
                         position[] = {11,0,0};
                         rank = "PRIVATE";
                         side = 1;
-                        vehicle = "CFP_B_USMC_Rifleman_DES_01";
+                        vehicle = "CUP_B_USMC_Soldier_des";
                     };
                 };
 
