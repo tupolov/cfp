@@ -743,7 +743,6 @@ class CfgVehicles {
     class FlagCarrier;
     class FlagCarrier_OCimport_01 : FlagCarrier { scope = 0; class Eventhandlers; };
     class ISC_Flag_Kurdistan : FlagCarrier_OCimport_01 {
-        editorPreview = \x\cfp\addons\b_pesh\data\preview\ISC_Flag_Kurdistan.JPG;
         author = "AccuracythruVolume";
         displayName = "Flag (Kurdistan)";
         scope = 2;
