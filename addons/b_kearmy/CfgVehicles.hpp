@@ -1125,8 +1125,7 @@ class CfgVehicles {
         crew = "CFP_B_KEARMY_Crew_01";
 
         class Turrets : Turrets {
-            class ObsTurret : ObsTurret {
-        editorPreview = \x\cfp\addons\b_kearmy\data\preview\ObsTurret.JPG; gunnerType = "CFP_B_KEARMY_Crew_01"; };
+            class ObsTurret : ObsTurret {gunnerType = "CFP_B_KEARMY_Crew_01"; };
             class CommanderTurret : CommanderTurret { gunnerType = ""; };
         };
         TRANSPORTWEAPONSMEDIUM(CUP_arifle_G3A3_modern_ris,CUP_launch_RPG7V)
