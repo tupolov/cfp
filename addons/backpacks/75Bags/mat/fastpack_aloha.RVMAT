@@ -56,7 +56,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="x\cfp\addons\backpacks\75Bags\default_smdi.paa";
+	texture="x\cfp\addons\backpacks\75Bags\mat\default_smdi.paa";
 	uvSource="tex";
 	class uvTransform
 	{
