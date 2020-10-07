@@ -2356,7 +2356,7 @@ class CfgVehicles {
 
     class cfp_i_is_BMP1_OCimport_01 : cfp_i_is_BMP1 { scope = 0; class Eventhandlers; };
     class cfp_i_is_BMP1_flag : cfp_i_is_BMP1_OCimport_01 {
-        editorPreview = \x\cfp\addons\i_is\data\preview\cfp_i_is_BMP1_flag.JPG;
+        editorPreview = \x\cfp\addons\i_is\data\preview\cfp_i_is_BMP1.JPG;
         displayName = "IS BMP-1 (Flag)";
         class EventHandlers : EventHandlers
         {
@@ -2396,7 +2396,7 @@ class CfgVehicles {
 
     class cfp_i_is_BMP1P_OCimport_01 : cfp_i_is_BMP1P { scope = 0; class Eventhandlers; };
     class cfp_i_is_BMP1P_flag : cfp_i_is_BMP1P_OCimport_01 {
-        editorPreview = \x\cfp\addons\i_is\data\preview\cfp_i_is_BMP1P_flag.JPG;
+        editorPreview = \x\cfp\addons\i_is\data\preview\cfp_i_is_BMP1P.JPG;
         displayName = "IS BMP-1P (Flag)";
         class EventHandlers : EventHandlers
         {
@@ -2436,7 +2436,7 @@ class CfgVehicles {
 
     class cfp_i_is_BMP2_PKM_OCimport_01 : cfp_i_is_BMP2_PKM { scope = 0; class Eventhandlers; };
     class cfp_i_is_BMP2_PKM_flag : cfp_i_is_BMP2_PKM_OCimport_01 {
-        editorPreview = \x\cfp\addons\i_is\data\preview\cfp_i_is_BMP2_PKM_flag.JPG;
+        editorPreview = \x\cfp\addons\i_is\data\preview\cfp_i_is_BMP2_PKM.JPG;
         displayName = "IS BMP-2 PKM (Flag)";
         class EventHandlers : EventHandlers
         {
@@ -2526,7 +2526,7 @@ class CfgVehicles {
 
     class cfp_i_is_T34_OCimport_01 : cfp_i_is_T34 { scope = 0; class Eventhandlers; };
     class cfp_i_is_T34_flag : cfp_i_is_T34_OCimport_01 {
-        editorPreview = \x\cfp\addons\i_is\data\preview\cfp_i_is_T34_flag.JPG;
+        editorPreview = \x\cfp\addons\i_is\data\preview\cfp_i_is_T34.JPG;
         displayName = "IS T34 (Flag)";
         class EventHandlers : EventHandlers
         {
@@ -2566,7 +2566,7 @@ class CfgVehicles {
 
     class cfp_i_is_T55_OCimport_01 : cfp_i_is_T55 { scope = 0; class Eventhandlers; };
     class cfp_i_is_T55_flag : cfp_i_is_T55_OCimport_01 {
-        editorPreview = \x\cfp\addons\i_is\data\preview\cfp_i_is_T55_flag.JPG;
+        editorPreview = \x\cfp\addons\i_is\data\preview\cfp_i_is_T55.JPG;
         displayName = "IS T55 (Flag)";
         class EventHandlers : EventHandlers
         {

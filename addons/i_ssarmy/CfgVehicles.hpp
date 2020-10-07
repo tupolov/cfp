@@ -934,7 +934,7 @@ class CfgVehicles {
 
     class CUP_DSHKM_base;
     class CFP_I_SSArmy_DShKM_01 : CUP_DSHKM_base {
-        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SSArmy_DShKM_01.JPG;
+
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -1238,7 +1238,7 @@ class CfgVehicles {
 
     class CUP_SPG9_base;
     class CFP_I_SSArmy_SPG_9_01 : CUP_SPG9_base {
-        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SSArmy_SPG_9_01.JPG;
+
         author = "CFP";
         scope = 2;
         scopeCurator = 2;
@@ -1251,7 +1251,7 @@ class CfgVehicles {
 
     class CUP_ZU23_base;
     class CFP_I_SSArmy_ZU_23_01 : CUP_ZU23_base {
-        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SSArmy_ZU_23_01.JPG;
+
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -1264,7 +1264,7 @@ class CfgVehicles {
 
     class CUP_DSHKM_MiniTripod_base;
     class CFP_I_SSArmy_DShKM_Low_01 : CUP_DSHKM_MiniTripod_base {
-        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SSArmy_DShKM_Low_01.JPG;
+
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;
@@ -1365,7 +1365,7 @@ class CfgVehicles {
 
     class CUP_2b14_82mm_Base;
     class CFP_I_SSArmy_Mortar_01 : CUP_2b14_82mm_Base {
-        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SSArmy_Mortar_01.JPG;
+
         author = "CFP";
         scope = 2;
         scopeCurator = 2;

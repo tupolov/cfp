@@ -8,7 +8,7 @@ PixelShaderID="NormalMapMacroASSpecularMap";
 VertexShaderID="NormalMapAS";
 class Stage0
 {
-	texture="x\cfp\addons\vests\FlyyeMolle1\Black.paa";
+	texture="";
 	uvSource="tex";
 };
 class Stage1

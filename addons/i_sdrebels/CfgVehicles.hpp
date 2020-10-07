@@ -1475,7 +1475,7 @@ class CfgVehicles {
     };
 
     class CFP_I_SDRebels_Offroad_02  : O_G_Offroad_01_F_OCimport_02 {
-        editorPreview = \x\cfp\addons\i_sdrebels\data\preview\CFP_I_SDRebels_Offroad_02 .JPG;
+
         author = "Archduke";
         scope = 2;
         scopeCurator = 2;

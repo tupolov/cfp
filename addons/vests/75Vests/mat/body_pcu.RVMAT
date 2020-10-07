@@ -8,7 +8,7 @@ PixelShaderID="Super";
 VertexShaderID="Super";
 class Stage1
 {
-	texture="hawaiians_75th_rangers\armour\mat\body_pcu_nohq.paa";
+	texture="x\cfp\addons\vests\75Vests\mat\body_pcu_nohq.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -44,7 +44,7 @@ class Stage3
 };
 class Stage4
 {
-	texture="hawaiians_75th_rangers\armour\mat\body_pcu_as.paa";
+	texture="x\cfp\addons\vests\75Vests\mat\body_pcu_as.paa";
 	uvSource="tex";
 	class uvTransform
 	{
@@ -56,7 +56,7 @@ class Stage4
 };
 class Stage5
 {
-	texture="hawaiians_75th_rangers\default2_smdi.paa";
+	texture="x\cfp\addons\vests\75Vests\mat\default2_smdi.paa";
 	uvSource="tex";
 	class uvTransform
 	{

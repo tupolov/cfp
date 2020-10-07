@@ -458,7 +458,7 @@ class CfgVehicles {
         };
         hiddenSelectionsTextures[] =
         {
-            "P:\x\cfp\addons\vehicles\Skoda\skodovka_modra_snow_co.paa",
+            "\x\cfp\addons\vehicles\Skoda\skodovka_modra_snow_co.paa",
             "\CUP\WheeledVehicles\CUP_WheeledVehicles_Skoda\data\skodovka_int_co.paa"
         };
 
@@ -492,7 +492,7 @@ class CfgVehicles {
         };
         hiddenSelectionsTextures[] =
         {
-            "P:\x\cfp\addons\vehicles\Skoda\skodovka_bila_snow_co.paa",
+            "\x\cfp\addons\vehicles\Skoda\skodovka_bila_snow_co.paa",
             "\CUP\WheeledVehicles\CUP_WheeledVehicles_Skoda\data\skodovka_int_co.paa"
         };
 
@@ -526,7 +526,7 @@ class CfgVehicles {
         };
         hiddenSelectionsTextures[] =
         {
-            "P:\x\cfp\addons\vehicles\Skoda\skodovka_cervena_snow_co.paa",
+            "\x\cfp\addons\vehicles\Skoda\skodovka_cervena_snow_co.paa",
             "\CUP\WheeledVehicles\CUP_WheeledVehicles_Skoda\data\skodovka_int_co.paa"
         };
 

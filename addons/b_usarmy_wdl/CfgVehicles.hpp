@@ -128,7 +128,7 @@ class CfgVehicles {
                 "cup\wheeledvehicles\cup_wheeledvehicles_stryker\data\Woodland\slat_armor_des_co.paa",
                 "cup\wheeledvehicles\cup_wheeledvehicles_stryker\data\Woodland\default_co.paa"
             };
-            editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Stryker\Data\preview\CUP_B_M1126_ICV_M2_Woodland.jpg";
+
             class AnimationSources;
         };
 
@@ -150,7 +150,7 @@ class CfgVehicles {
                     initPhase = 1;
                 };
             };
-            editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Stryker\Data\preview\CUP_B_M1126_ICV_M2_Woodland_Slat.jpg";
+
         };
 
         class CUP_B_M1126_ICV_MK19_Desert;
@@ -175,7 +175,7 @@ class CfgVehicles {
                 "cup\wheeledvehicles\cup_wheeledvehicles_stryker\data\Woodland\slat_armor_des_co.paa",
                 "cup\wheeledvehicles\cup_wheeledvehicles_stryker\data\Woodland\default_co.paa"
             };
-            editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Stryker\Data\preview\CUP_B_M1126_ICV_MK19_Woodland.jpg";
+
             class AnimationSources;
         };
 
@@ -197,7 +197,7 @@ class CfgVehicles {
                     initPhase = 1;
                 };
             };
-            editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Stryker\Data\preview\CUP_B_M1126_ICV_MK19_Woodland_Slat.jpg";
+
         };
 
         class CUP_B_M1130_CV_M2_Desert;
@@ -219,7 +219,7 @@ class CfgVehicles {
                 "cup\wheeledvehicles\cup_wheeledvehicles_stryker\data\Woodland\icv_des_co.paa",
                 "cup\wheeledvehicles\cup_wheeledvehicles_stryker\data\Woodland\default_co.paa"
             };
-            editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Stryker\Data\preview\CUP_B_M1130_CV_M2_Woodland.jpg";
+
             class AnimationSources;
         };
 
@@ -242,7 +242,7 @@ class CfgVehicles {
                     initPhase = 1;
                 };
             };
-            editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Stryker\Data\preview\CUP_B_M1130_CV_M2_Woodland_Slat.jpg";
+
         };
 
         class CUP_B_M1129_MC_MK19_Desert;
@@ -264,7 +264,7 @@ class CfgVehicles {
                 "cup\wheeledvehicles\cup_wheeledvehicles_stryker\data\Woodland\icv_des_co.paa",
                 "cup\wheeledvehicles\cup_wheeledvehicles_stryker\data\Woodland\default_co.paa"
             };
-            editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Stryker\Data\preview\CUP_B_M1129_MC_MK19_Woodland.jpg";
+
             class AnimationSources;
         };
         class CUP_B_M1129_MC_MK19_Woodland_Slat : CUP_B_M1129_MC_MK19_Woodland {
@@ -285,7 +285,7 @@ class CfgVehicles {
                     initPhase = 1;
                 };
             };
-            editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Stryker\Data\preview\CUP_B_M1129_MC_MK19_Woodland_Slat.jpg";
+
         };
 
         class CUP_M113_Base;
@@ -359,7 +359,7 @@ class CfgVehicles {
                 "cup\wheeledvehicles\cup_wheeledvehicles_stryker\data\Woodland\stryker_command_des_co.paa",
                 "cup\wheeledvehicles\cup_wheeledvehicles_stryker\data\Woodland\default_co.paa"
             };
-            editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Stryker\Data\preview\CUP_B_M1135_ATGMV_Woodland.jpg";
+
             class AnimationSources;
         };
         class CUP_B_M1135_ATGMV_Woodland_Slat : CUP_B_M1135_ATGMV_Woodland {
@@ -380,7 +380,7 @@ class CfgVehicles {
                     initPhase = 1;
                 };
             };
-            editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Stryker\Data\preview\CUP_B_M1135_ATGMV_Woodland_Slat.jpg";
+
         };
 
         class CUP_B_M1128_MGS_Desert;
@@ -403,7 +403,7 @@ class CfgVehicles {
                 "cup\wheeledvehicles\cup_wheeledvehicles_stryker\data\Woodland\slat_armor_des_co.paa",
                 "cup\wheeledvehicles\cup_wheeledvehicles_stryker\data\Woodland\default_co.paa"
             };
-            editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Stryker\Data\preview\CUP_B_M1128_MGS_Woodland.jpg";
+
             class AnimationSources;
         };
         class CUP_B_M1128_MGS_Woodland_Slat : CUP_B_M1128_MGS_Woodland {
@@ -424,7 +424,7 @@ class CfgVehicles {
                     initPhase = 1;
                 };
             };
-            editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Stryker\Data\preview\CUP_B_M1128_MGS_Woodland_Slat.jpg";
+
         };
 
         class CUP_B_M1133_MEV_Desert;
@@ -445,7 +445,7 @@ class CfgVehicles {
                 "cup\wheeledvehicles\cup_wheeledvehicles_stryker\data\Woodland\slat_armor_des_co.paa",
                 "cup\wheeledvehicles\cup_wheeledvehicles_stryker\data\Woodland\default_co.paa"
             };
-            editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Stryker\Data\preview\CUP_B_M1133_MEV_Woodland.jpg";
+
             class AnimationSources;
         };
         class CUP_B_M1133_MEV_Woodland_Slat : CUP_B_M1133_MEV_Woodland {
@@ -466,7 +466,7 @@ class CfgVehicles {
                     initPhase = 1;
                 };
             };
-            editorPreview = "CUP\WheeledVehicles\CUP_WheeledVehicles_Stryker\Data\preview\CUP_B_M1133_MEV_Woodland_Slat.jpg";
+
         };
 
         class CUP_M1165_GMV_BASE;
@@ -2251,7 +2251,7 @@ class CfgVehicles {
         // DELTA FORCE
 
     class CFP_B_USARMY_US_SpecOps_Base : CUP_B_USArmy_Soldier_01_OCimport_02 {
-            editorPreview = \x\cfp\addons\b_usarmy_wdl\data\preview\CFP_B_USARMY_US_SpecOps_Base.JPG;
+
             author = "Drew";
             scope = 1;
             scopeCurator = 1;

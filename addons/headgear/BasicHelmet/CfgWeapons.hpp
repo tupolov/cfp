@@ -59,7 +59,7 @@ class CFP_Basic_Helmet_Light_Green: ItemCore
 		armor = 10;
 		passThrough = 0.30;
 		HITPOINTS_HEAD(10,0.30)
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\Green.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\cfp_pasgt_light_green.paa"};
 		hiddenSelections[] = {"Camo"};
 	};
 };
@@ -110,7 +110,7 @@ class CFP_Basic_Helmet_Tan: ItemCore
 		armor = 10;
 		passThrough = 0.30;
 		HITPOINTS_HEAD(10,0.30)
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\Tan.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\cfp_pasgt_tan.paa"};
 		hiddenSelections[] = {"Camo"};
 	};
 };
@@ -135,7 +135,7 @@ class CFP_Basic_Helmet_Gray: ItemCore
 		armor = 10;
 		passThrough = 0.30;
 		HITPOINTS_HEAD(10,0.30)
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\Gray.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\cfp_pasgt_Gray.paa"};
 		hiddenSelections[] = {"Camo"};
 	};
 };
@@ -160,7 +160,7 @@ class CFP_Basic_Helmet_Gray_Green: ItemCore
 		armor = 10;
 		passThrough = 0.30;
 		HITPOINTS_HEAD(10,0.30)
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\gray_green.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\cfp_pasgt_gray_green.paa"};
 		hiddenSelections[] = {"Camo"};
 	};
 };
@@ -185,7 +185,7 @@ class CFP_Basic_Helmet_Woodland: ItemCore
 		armor = 10;
 		passThrough = 0.30;
 		HITPOINTS_HEAD(10,0.30)
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\woodland.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\cfp_pasgt_woodland.paa"};
 		hiddenSelections[] = {"Camo"};
 	};
 };
@@ -210,7 +210,7 @@ class CFP_Basic_Helmet_Spec4cewood: ItemCore
 		armor = 10;
 		passThrough = 0.30;
 		HITPOINTS_HEAD(10,0.30)
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\spec4cewood.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\cfp_pasgt_spec4cewood.paa"};
 		hiddenSelections[] = {"Camo"};
 	};
 };
@@ -235,7 +235,7 @@ class CFP_Basic_Helmet_Spec4cesierra: ItemCore
 		armor = 10;
 		passThrough = 0.30;
 		HITPOINTS_HEAD(10,0.30)
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\spec4cesierra.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\cfp_pasgt_spec4cesierra.paa"};
 		hiddenSelections[] = {"Camo"};
 	};
 };
@@ -260,7 +260,7 @@ class CFP_Basic_Helmet_PolygonWoodland: ItemCore
 		armor = 10;
 		passThrough = 0.30;
 		HITPOINTS_HEAD(10,0.30)
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\polygonwoodland.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\cfp_pasgt_polygonwoodland.paa"};
 		hiddenSelections[] = {"Camo"};
 	};
 };
@@ -285,7 +285,7 @@ class CFP_Basic_Helmet_M81: ItemCore
 		armor = 10;
 		passThrough = 0.30;
 		HITPOINTS_HEAD(10,0.30)
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\m81.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\cfp_pasgt_m81.paa"};
 		hiddenSelections[] = {"Camo"};
 	};
 };
@@ -310,7 +310,7 @@ class CFP_Basic_Helmet_EDRL: ItemCore
 		armor = 10;
 		passThrough = 0.30;
 		HITPOINTS_HEAD(10,0.30)
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\edrl.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\cfp_pasgt_edrl.paa"};
 		hiddenSelections[] = {"Camo"};
 	};
 };
@@ -335,7 +335,7 @@ class CFP_Basic_Helmet_ArmyGreen: ItemCore
 		armor = 10;
 		passThrough = 0.30;
 		HITPOINTS_HEAD(10,0.30)
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\armygreen.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\cfp_pasgt_armygreen.paa"};
 		hiddenSelections[] = {"Camo"};
 	};
 };
@@ -360,7 +360,7 @@ class CFP_Basic_Helmet_Marpat: ItemCore
 		armor = 10;
 		passThrough = 0.30;
 		HITPOINTS_HEAD(10,0.30)
-		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\marpat.paa"};
+		hiddenSelectionsTextures[] = {"\x\cfp\addons\headgear\BasicHelmet\cfp_pasgt_marpat.paa"};
 		hiddenSelections[] = {"Camo"};
 	};
 };

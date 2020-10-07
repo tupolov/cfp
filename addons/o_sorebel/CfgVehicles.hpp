@@ -905,7 +905,7 @@ class CfgVehicles {
 
     class CUP_O_DSHkM_MiniTriPod_TK_INS;
     class CFP_O_SOREBEL_DShKM_Low_01 : CUP_O_DSHkM_MiniTriPod_TK_INS {
-        editorPreview = \x\cfp\addons\o_alshabaab\data\preview\CFP_O_SOREBEL_DShKM_Low_01.JPG;
+
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -917,7 +917,7 @@ class CfgVehicles {
 
     class CUP_O_2b14_82mm_TK_INS;
     class CFP_O_SOREBEL_Podnos_2B14_01 : CUP_O_2b14_82mm_TK_INS {
-        editorPreview = \x\cfp\addons\o_alshabaab\data\preview\CFP_O_SOREBEL_Podnos_2B14_01.JPG;
+
         author = "Drew";
         scope = 2;
         scopeCurator = 2;
@@ -929,7 +929,7 @@ class CfgVehicles {
 
     class CUP_O_SPG9_TK_INS;
     class CFP_O_SOREBEL_SPG_9_01 : CUP_O_SPG9_TK_INS {
-        editorPreview = \x\cfp\addons\o_alshabaab\data\preview\CFP_O_SOREBEL_SPG_9_01.JPG;
+
         author = "Drew";
         scope = 2;
         scopeCurator = 2;

@@ -210,7 +210,7 @@
 			class ItemInfo {
 					type = 616;
 					hmdType = 0;
-					uniformModel = "\hawaiians_75th_rangers\face_wear\face_wear.p3d";
+					uniformModel = "\x\cfp\addons\glasses\75Facewear\face_wear.p3d";
 					mass = 4;
 					hiddenSelections[] = {"camo","camo2","camo3"};
 		};

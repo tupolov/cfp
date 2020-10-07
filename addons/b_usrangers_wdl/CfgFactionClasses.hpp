@@ -8,8 +8,8 @@ class CfgFactionClasses {
     class CFP_B_USRANGERS_WDL {
         displayName = "US 75th Rangers (Jungle/Woodland)";
         side = 1;
-        flag = "\ca\data\flag_usa_co.paa";
-        icon = "\ca\data\flag_usa_co.paa";
+        flag = "";
+        icon = "";
         priority = 0;
     };
 };
