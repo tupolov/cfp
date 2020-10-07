@@ -1033,6 +1033,28 @@ class CfgVehicles {
         faction = "CFP_O_RUARMY_DES";
         crew = "CFP_O_RUARMY_Rifleman_DES_02";
     };
+    class CUP_Kornet_Base;
+    class CFP_O_RUARMY_Kornet_DES_01: CUP_Kornet_Base
+    {
+            displayName = "Kornet AT-14";
+            scope = 2;
+            scopeCurator = 2;
+            faction = "CFP_O_RUARMY_DES";
+            side = 0;
+            crew = "CFP_O_RUARMY_Rifleman_DES_02";
+            typicalCargo[] = {"CFP_O_RUARMY_Rifleman_DES_02"};
+     };
+
+     class CUP_SearchLight_static_base;
+     class CFP_O_RUARMY_SearchLight_static_DES_01: CUP_SearchLight_static_base {
+            displayName = "Search Light";
+            scope = 2;
+            scopeCurator = 2;
+            faction = "CFP_O_RUARMY_DES";
+            side = 0;
+            crew = "CFP_O_RUARMY_Rifleman_DES_02";
+            typicalCargo[] = {"CFP_O_RUARMY_Rifleman_DES_02"};
+     };
 
     class CUP_O_2b14_82mm_RU;
     class CFP_O_RUARMY_Podnos_2B14_DES_01 : CUP_O_2b14_82mm_RU {
@@ -5302,6 +5324,9 @@ class CfgVehicles {
         };
 
         vestList[] = {
+            "CFP_V_RUS_6B45_MCam_3", 0.7,
+            "CFP_V_RUS_6B45_MCam_2", 0.7,
+            "CFP_V_RUS_6B45_MCam_1", 0.7,
             "CFP_CarrierRig_Operator_Multicam", 0.2,
             "CUP_V_B_Armatus_BB_MCam", 0.9,
             "CFP_FAPC_Operator_Multicam", 0.2,
@@ -5381,10 +5406,13 @@ class CfgVehicles {
         };
 
         vestList[] = {
+            "CFP_V_RUS_6B45_MCam_3", 0.7,
+            "CFP_V_RUS_6B45_MCam_2", 0.7,
+            "CFP_V_RUS_6B45_MCam_1", 0.7,
             "CFP_CarrierRig_Operator_Multicam", 0.2,
-            "CUP_V_B_Armatus_BB_MCam", 0.2,
+            "CUP_V_B_Armatus_BB_MCam", 0.9,
             "CFP_FAPC_Operator_Multicam", 0.2,
-            "CUP_V_B_Armatus_BB_OD", 0.2,
+            "CUP_V_B_Armatus_BB_OD", 0.7,
             "CFP_LBT6094_operator_OGA_OD", 0.2,
             "CFP_FAPC_Operator_OGA_OD", 0.2
         };
@@ -5427,7 +5455,7 @@ class CfgVehicles {
 
         backpack = "B_Kitbag_mcamo";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed_afg_desert","CUP_muzzle_snds_KZRZP_AK545_desert","CUP_acc_ANPEQ_15_Flashlight_Tan_L","CUP_optic_MicroT1_low_coyote",{"CUP_30Rnd_545x39_AK74M_desert_M",30},{},""},{},{"CUP_hgun_Makarov","","","",{"CUP_8Rnd_9x18_Makarov_M",8},{},""},{"CUP_U_CRYE_MCAM_RUS2_Roll",{{"FirstAidKit",1},{"CUP_NVG_PVS15_black",1},{"CUP_30Rnd_545x39_AK74M_desert_M",1,30},{"CUP_8Rnd_9x18_MakarovSD_M",2,8}}},{"CUP_V_B_Armatus_BB_MCam",{{"CUP_HandGrenade_RGD5",1,1},{"30Rnd_762x39_Mag_F",4,30},{"CUP_30Rnd_545x39_AK74M_desert_M",6,30},{"Chemlight_blue",1,1},{"Chemlight_red",1,1},{"SmokeShell",1,1},{"O_IR_Grenade",1,1}}},{},"CUP_H_OpsCore_Tan_SF","CUP_G_ESS_BLK_Facewrap_Black",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS15_black"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed_afg_desert","CUP_muzzle_snds_KZRZP_AK545_desert","CUP_acc_ANPEQ_15_Flashlight_Tan_L","CUP_optic_1P87_RIS_desert",{"CUP_30Rnd_545x39_AK74M_desert_M",30},{},""},{},{"CUP_hgun_Makarov","","","",{"CUP_8Rnd_9x18_Makarov_M",8},{},""},{"CUP_U_CRYE_MCAM_RUS2_Roll",{{"FirstAidKit",1},{"CUP_NVG_PVS15_black",1},{"CUP_30Rnd_545x39_AK74M_desert_M",1,30},{"CUP_8Rnd_9x18_MakarovSD_M",2,8}}},{"CUP_V_B_Armatus_BB_MCam",{{"CUP_HandGrenade_RGD5",1,1},{"30Rnd_762x39_Mag_F",4,30},{"CUP_30Rnd_545x39_AK74M_desert_M",6,30},{"Chemlight_blue",1,1},{"Chemlight_red",1,1},{"SmokeShell",1,1},{"O_IR_Grenade",1,1}}},{},"CUP_H_OpsCore_Tan_SF","CUP_G_ESS_BLK_Facewrap_Black",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS15_black"}};
 
         randomGearProbability = 100;
 
@@ -5461,10 +5489,13 @@ class CfgVehicles {
         };
 
         vestList[] = {
+            "CFP_V_RUS_6B45_MCam_3", 0.7,
+            "CFP_V_RUS_6B45_MCam_2", 0.7,
+            "CFP_V_RUS_6B45_MCam_1", 0.7,
             "CFP_CarrierRig_Operator_Multicam", 0.2,
-            "CUP_V_B_Armatus_BB_MCam", 0.8,
+            "CUP_V_B_Armatus_BB_MCam", 0.9,
             "CFP_FAPC_Operator_Multicam", 0.2,
-            "CUP_V_B_Armatus_BB_OD", 0.4,
+            "CUP_V_B_Armatus_BB_OD", 0.7,
             "CFP_LBT6094_operator_OGA_OD", 0.2,
             "CFP_FAPC_Operator_OGA_OD", 0.2
         };
@@ -5507,7 +5538,7 @@ class CfgVehicles {
 
         backpack = "B_Kitbag_cbr";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed_afg_desert","CUP_muzzle_snds_KZRZP_AK545_desert","CUP_acc_ANPEQ_15_Flashlight_Tan_L","CUP_optic_MicroT1_low_coyote",{"CUP_30Rnd_545x39_AK74M_desert_M",30},{},""},{},{"CUP_hgun_Makarov","","","",{"CUP_8Rnd_9x18_Makarov_M",8},{},""},{"CUP_U_CRYE_MCAM_RUS2_Roll",{{"FirstAidKit",1},{"CUP_NVG_PVS15_black",1},{"CUP_30Rnd_545x39_AK74M_desert_M",1,30},{"CUP_8Rnd_9x18_MakarovSD_M",2,8}}},{"CUP_V_B_Armatus_BB_MCam",{{"CUP_HandGrenade_RGD5",1,1},{"30Rnd_762x39_Mag_F",4,30},{"CUP_30Rnd_545x39_AK74M_desert_M",6,30},{"Chemlight_blue",1,1},{"Chemlight_red",1,1},{"SmokeShell",1,1},{"O_IR_Grenade",1,1}}},{},"CUP_H_OpsCore_Tan_SF","CUP_G_ESS_BLK_Facewrap_Black",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS15_black"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed_afg_desert","CUP_muzzle_snds_KZRZP_AK545_desert","CUP_acc_ANPEQ_15_Flashlight_Tan_L","CUP_optic_1P87_RIS_desert",{"CUP_30Rnd_545x39_AK74M_desert_M",30},{},""},{},{"CUP_hgun_Makarov","","","",{"CUP_8Rnd_9x18_Makarov_M",8},{},""},{"CUP_U_CRYE_MCAM_RUS2_Roll",{{"FirstAidKit",1},{"CUP_NVG_PVS15_black",1},{"CUP_30Rnd_545x39_AK74M_desert_M",1,30},{"CUP_8Rnd_9x18_MakarovSD_M",2,8}}},{"CUP_V_B_Armatus_BB_MCam",{{"CUP_HandGrenade_RGD5",1,1},{"30Rnd_762x39_Mag_F",4,30},{"CUP_30Rnd_545x39_AK74M_desert_M",6,30},{"Chemlight_blue",1,1},{"Chemlight_red",1,1},{"SmokeShell",1,1},{"O_IR_Grenade",1,1}}},{},"CUP_H_OpsCore_Tan_SF","CUP_G_ESS_BLK_Facewrap_Black",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS15_black"}};
 
 
         randomGearProbability = 100;
@@ -5542,10 +5573,13 @@ class CfgVehicles {
         };
 
         vestList[] = {
+            "CFP_V_RUS_6B45_MCam_3", 0.7,
+            "CFP_V_RUS_6B45_MCam_2", 0.7,
+            "CFP_V_RUS_6B45_MCam_1", 0.7,
             "CFP_CarrierRig_Operator_Multicam", 0.2,
-            "CUP_V_B_Armatus_BB_MCam", 0.8,
+            "CUP_V_B_Armatus_BB_MCam", 0.9,
             "CFP_FAPC_Operator_Multicam", 0.2,
-            "CUP_V_B_Armatus_BB_OD", 0.6,
+            "CUP_V_B_Armatus_BB_OD", 0.7,
             "CFP_LBT6094_operator_OGA_OD", 0.2,
             "CFP_FAPC_Operator_OGA_OD", 0.2
         };
@@ -5620,10 +5654,13 @@ class CfgVehicles {
         };
 
         vestList[] = {
+            "CFP_V_RUS_6B45_MCam_3", 0.7,
+            "CFP_V_RUS_6B45_MCam_2", 0.7,
+            "CFP_V_RUS_6B45_MCam_1", 0.7,
             "CFP_CarrierRig_Operator_Multicam", 0.2,
-            "CUP_V_B_Armatus_BB_MCam", 0.8,
+            "CUP_V_B_Armatus_BB_MCam", 0.9,
             "CFP_FAPC_Operator_Multicam", 0.2,
-            "CUP_V_B_Armatus_BB_OD", 0.6,
+            "CUP_V_B_Armatus_BB_OD", 0.7,
             "CFP_LBT6094_operator_OGA_OD", 0.2,
             "CFP_FAPC_Operator_OGA_OD", 0.2
         };
@@ -5666,7 +5703,7 @@ class CfgVehicles {
 
         backpack = "B_Kitbag_cbr";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed_afg_desert","CUP_muzzle_snds_KZRZP_AK545_desert","CUP_acc_ANPEQ_15_Flashlight_Tan_L","CUP_optic_MicroT1_low_coyote",{"CUP_30Rnd_545x39_AK74M_desert_M",30},{},""},{},{"CUP_hgun_Makarov","","","",{"CUP_8Rnd_9x18_Makarov_M",8},{},""},{"CUP_U_CRYE_MCAM_RUS2_Roll",{{"FirstAidKit",1},{"CUP_NVG_PVS15_black",1},{"CUP_30Rnd_545x39_AK74M_desert_M",1,30},{"CUP_8Rnd_9x18_MakarovSD_M",2,8}}},{"CUP_V_B_Armatus_BB_MCam",{{"CUP_HandGrenade_RGD5",1,1},{"30Rnd_762x39_Mag_F",4,30},{"CUP_30Rnd_545x39_AK74M_desert_M",6,30},{"Chemlight_blue",1,1},{"Chemlight_red",1,1},{"SmokeShell",1,1},{"O_IR_Grenade",1,1}}},{},"CUP_H_OpsCore_Tan_SF","CUP_G_ESS_BLK_Facewrap_Black",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS15_black"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed_afg_desert","CUP_muzzle_snds_KZRZP_AK545_desert","CUP_acc_ANPEQ_15_Flashlight_Tan_L","CUP_optic_1P87_RIS_desert",{"CUP_30Rnd_545x39_AK74M_desert_M",30},{},""},{},{"CUP_hgun_Makarov","","","",{"CUP_8Rnd_9x18_Makarov_M",8},{},""},{"CUP_U_CRYE_MCAM_RUS2_Roll",{{"FirstAidKit",1},{"CUP_NVG_PVS15_black",1},{"CUP_30Rnd_545x39_AK74M_desert_M",1,30},{"CUP_8Rnd_9x18_MakarovSD_M",2,8}}},{"CUP_V_B_Armatus_BB_MCam",{{"CUP_HandGrenade_RGD5",1,1},{"30Rnd_762x39_Mag_F",4,30},{"CUP_30Rnd_545x39_AK74M_desert_M",6,30},{"Chemlight_blue",1,1},{"Chemlight_red",1,1},{"SmokeShell",1,1},{"O_IR_Grenade",1,1}}},{},"CUP_H_OpsCore_Tan_SF","CUP_G_ESS_BLK_Facewrap_Black",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS15_black"}};
 
 
         randomGearProbability = 100;
@@ -5701,11 +5738,14 @@ class CfgVehicles {
         };
 
         vestList[] = {
+            "CFP_V_RUS_6B45_MCam_3", 0.7,
+            "CFP_V_RUS_6B45_MCam_2", 0.7,
+            "CFP_V_RUS_6B45_MCam_1", 0.7,
             "CFP_CarrierRig_Operator_Multicam", 0.2,
-            "CUP_V_B_Armatus_BB_MCam", 0.6,
+            "CUP_V_B_Armatus_BB_MCam", 0.9,
             "CFP_FAPC_Operator_Multicam", 0.2,
-            "CUP_V_B_Armatus_BB_OD", 0.2,
-            "CFP_LBT6094_operator_OGA_OD", 0.6,
+            "CUP_V_B_Armatus_BB_OD", 0.7,
+            "CFP_LBT6094_operator_OGA_OD", 0.2,
             "CFP_FAPC_Operator_OGA_OD", 0.2
         };
 
@@ -5747,7 +5787,7 @@ class CfgVehicles {
 
         backpack = "B_Kitbag_mcamo";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed_afg_desert","CUP_muzzle_snds_KZRZP_AK545_desert","CUP_acc_ANPEQ_15_Flashlight_Tan_L","CUP_optic_MicroT1_low_coyote",{"CUP_30Rnd_545x39_AK74M_desert_M",30},{},""},{},{"CUP_hgun_Makarov","","","",{"CUP_8Rnd_9x18_Makarov_M",8},{},""},{"CUP_U_CRYE_MCAM_RUS2_Roll",{{"FirstAidKit",1},{"CUP_NVG_PVS15_black",1},{"CUP_30Rnd_545x39_AK74M_desert_M",1,30},{"CUP_8Rnd_9x18_MakarovSD_M",2,8}}},{"CUP_V_B_Armatus_BB_MCam",{{"CUP_HandGrenade_RGD5",1,1},{"30Rnd_762x39_Mag_F",4,30},{"CUP_30Rnd_545x39_AK74M_desert_M",6,30},{"Chemlight_blue",1,1},{"Chemlight_red",1,1},{"SmokeShell",1,1},{"O_IR_Grenade",1,1}}},{},"CUP_H_OpsCore_Tan_SF","CUP_G_ESS_BLK_Facewrap_Black",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS15_black"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed_afg_desert","CUP_muzzle_snds_KZRZP_AK545_desert","CUP_acc_ANPEQ_15_Flashlight_Tan_L","CUP_optic_1P87_RIS_desert",{"CUP_30Rnd_545x39_AK74M_desert_M",30},{},""},{},{"CUP_hgun_Makarov","","","",{"CUP_8Rnd_9x18_Makarov_M",8},{},""},{"CUP_U_CRYE_MCAM_RUS2_Roll",{{"FirstAidKit",1},{"CUP_NVG_PVS15_black",1},{"CUP_30Rnd_545x39_AK74M_desert_M",1,30},{"CUP_8Rnd_9x18_MakarovSD_M",2,8}}},{"CUP_V_B_Armatus_BB_MCam",{{"CUP_HandGrenade_RGD5",1,1},{"30Rnd_762x39_Mag_F",4,30},{"CUP_30Rnd_545x39_AK74M_desert_M",6,30},{"Chemlight_blue",1,1},{"Chemlight_red",1,1},{"SmokeShell",1,1},{"O_IR_Grenade",1,1}}},{},"CUP_H_OpsCore_Tan_SF","CUP_G_ESS_BLK_Facewrap_Black",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS15_black"}};
 
         randomGearProbability = 100;
 
@@ -5781,10 +5821,13 @@ class CfgVehicles {
         };
 
         vestList[] = {
+            "CFP_V_RUS_6B45_MCam_3", 0.7,
+            "CFP_V_RUS_6B45_MCam_2", 0.7,
+            "CFP_V_RUS_6B45_MCam_1", 0.7,
             "CFP_CarrierRig_Operator_Multicam", 0.2,
-            "CUP_V_B_Armatus_BB_MCam", 0.2,
+            "CUP_V_B_Armatus_BB_MCam", 0.9,
             "CFP_FAPC_Operator_Multicam", 0.2,
-            "CUP_V_B_Armatus_BB_OD", 0.2,
+            "CUP_V_B_Armatus_BB_OD", 0.7,
             "CFP_LBT6094_operator_OGA_OD", 0.2,
             "CFP_FAPC_Operator_OGA_OD", 0.2
         };
@@ -5827,7 +5870,7 @@ class CfgVehicles {
 
         backpack = "B_Kitbag_cbr";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed_afg_desert","CUP_muzzle_snds_KZRZP_AK545_desert","CUP_acc_ANPEQ_15_Flashlight_Tan_L","CUP_optic_MicroT1_low_coyote",{"CUP_30Rnd_545x39_AK74M_desert_M",30},{},""},{},{"CUP_hgun_Makarov","","","",{"CUP_8Rnd_9x18_Makarov_M",8},{},""},{"CUP_U_CRYE_MCAM_RUS2_Roll",{{"FirstAidKit",1},{"CUP_NVG_PVS15_black",1},{"CUP_30Rnd_545x39_AK74M_desert_M",1,30},{"CUP_8Rnd_9x18_MakarovSD_M",2,8}}},{"CUP_V_B_Armatus_BB_MCam",{{"CUP_HandGrenade_RGD5",1,1},{"30Rnd_762x39_Mag_F",4,30},{"CUP_30Rnd_545x39_AK74M_desert_M",6,30},{"Chemlight_blue",1,1},{"Chemlight_red",1,1},{"SmokeShell",1,1},{"O_IR_Grenade",1,1}}},{},"CUP_H_OpsCore_Tan_SF","CUP_G_ESS_BLK_Facewrap_Black",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS15_black"}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_AK74M_railed_afg_desert","CUP_muzzle_snds_KZRZP_AK545_desert","CUP_acc_ANPEQ_15_Flashlight_Tan_L","CUP_optic_1P87_RIS_desert",{"CUP_30Rnd_545x39_AK74M_desert_M",30},{},""},{},{"CUP_hgun_Makarov","","","",{"CUP_8Rnd_9x18_Makarov_M",8},{},""},{"CUP_U_CRYE_MCAM_RUS2_Roll",{{"FirstAidKit",1},{"CUP_NVG_PVS15_black",1},{"CUP_30Rnd_545x39_AK74M_desert_M",1,30},{"CUP_8Rnd_9x18_MakarovSD_M",2,8}}},{"CUP_V_B_Armatus_BB_MCam",{{"CUP_HandGrenade_RGD5",1,1},{"30Rnd_762x39_Mag_F",4,30},{"CUP_30Rnd_545x39_AK74M_desert_M",6,30},{"Chemlight_blue",1,1},{"Chemlight_red",1,1},{"SmokeShell",1,1},{"O_IR_Grenade",1,1}}},{},"CUP_H_OpsCore_Tan_SF","CUP_G_ESS_BLK_Facewrap_Black",{"Binocular","","","",{},{},""},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch","CUP_NVG_PVS15_black"}};
 
         randomGearProbability = 100;
 
@@ -5861,10 +5904,13 @@ class CfgVehicles {
         };
 
         vestList[] = {
+            "CFP_V_RUS_6B45_MCam_3", 0.7,
+            "CFP_V_RUS_6B45_MCam_2", 0.7,
+            "CFP_V_RUS_6B45_MCam_1", 0.7,
             "CFP_CarrierRig_Operator_Multicam", 0.2,
-            "CUP_V_B_Armatus_BB_MCam", 0.2,
+            "CUP_V_B_Armatus_BB_MCam", 0.9,
             "CFP_FAPC_Operator_Multicam", 0.2,
-            "CUP_V_B_Armatus_BB_OD", 0.2,
+            "CUP_V_B_Armatus_BB_OD", 0.7,
             "CFP_LBT6094_operator_OGA_OD", 0.2,
             "CFP_FAPC_Operator_OGA_OD", 0.2
         };

@@ -479,6 +479,20 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Hilux\body_snowcamo1_co.paa"};
                 factions[] = {};
             };
+            class YPG
+            {
+                displayName = "YPG";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_ypg_co.paa"};
+                factions[] = {};
+            };
+            class YPG2
+            {
+                displayName = "YPG v2";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_ypg2_co.paa"};
+                factions[] = {};
+            };
         };
     };
 
@@ -710,6 +724,20 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Hilux\body_snowcamo1_co.paa"};
                 factions[] = {};
             };
+            class YPG
+            {
+                displayName = "YPG";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_ypg_co.paa"};
+                factions[] = {};
+            };
+            class YPG2
+            {
+                displayName = "YPG v2";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_ypg2_co.paa"};
+                factions[] = {};
+            };
         };
     };
 
@@ -932,6 +960,20 @@ class CfgVehicles
                 displayName = "Winter Camo";
                 author = "CFP";
                 textures[] = {"\x\cfp\addons\vehicles\Hilux\body_snowcamo1_co.paa"};
+                factions[] = {};
+            };
+            class YPG
+            {
+                displayName = "YPG";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_ypg_co.paa"};
+                factions[] = {};
+            };
+            class YPG2
+            {
+                displayName = "YPG v2";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_ypg2_co.paa"};
                 factions[] = {};
             };
         };
@@ -1158,6 +1200,20 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Hilux\body_snowcamo1_co.paa"};
                 factions[] = {};
             };
+            class YPG
+            {
+                displayName = "YPG";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_ypg_co.paa"};
+                factions[] = {};
+            };
+            class YPG2
+            {
+                displayName = "YPG v2";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_ypg2_co.paa"};
+                factions[] = {};
+            };
         };
     };
 
@@ -1380,6 +1436,20 @@ class CfgVehicles
                 displayName = "Winter Camo";
                 author = "CFP";
                 textures[] = {"\x\cfp\addons\vehicles\Hilux\body_snowcamo1_co.paa"};
+                factions[] = {};
+            };
+            class YPG
+            {
+                displayName = "YPG";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_ypg_co.paa"};
+                factions[] = {};
+            };
+            class YPG2
+            {
+                displayName = "YPG v2";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_ypg2_co.paa"};
                 factions[] = {};
             };
         };
@@ -1606,6 +1676,20 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Hilux\body_snowcamo1_co.paa"};
                 factions[] = {};
             };
+            class YPG
+            {
+                displayName = "YPG";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_ypg_co.paa"};
+                factions[] = {};
+            };
+            class YPG2
+            {
+                displayName = "YPG v2";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_ypg2_co.paa"};
+                factions[] = {};
+            };
         };
     };
 
@@ -1830,6 +1914,20 @@ class CfgVehicles
                 textures[] = {"\x\cfp\addons\vehicles\Hilux\body_snowcamo1_co.paa"};
                 factions[] = {};
             };
+            class YPG
+            {
+                displayName = "YPG";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_ypg_co.paa"};
+                factions[] = {};
+            };
+            class YPG2
+            {
+                displayName = "YPG v2";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_ypg2_co.paa"};
+                factions[] = {};
+            };
         };
     };
 
@@ -2052,6 +2150,20 @@ class CfgVehicles
                 displayName = "Winter Camo";
                 author = "CFP";
                 textures[] = {"\x\cfp\addons\vehicles\Hilux\body_snowcamo1_co.paa"};
+                factions[] = {};
+            };
+            class YPG
+            {
+                displayName = "YPG";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_ypg_co.paa"};
+                factions[] = {};
+            };
+            class YPG2
+            {
+                displayName = "YPG v2";
+                author = "CFP";
+                textures[] = {"\x\cfp\addons\vehicles\Hilux\body_ypg2_co.paa"};
                 factions[] = {};
             };
         };

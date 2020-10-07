@@ -693,6 +693,11 @@ class CfgVehicles {
         crew = "cfp_b_ypg_rifleman";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"x\cfp\addons\vehicles\Hilux\body_ypg_co.paa"};
+        textureList[] =
+        {
+            "YPG",1,
+            "YPG2",1,
+        };
         TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
         TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
         TRANSPORTITEMSMEDIUM
@@ -711,6 +716,11 @@ class CfgVehicles {
         crew = "cfp_b_ypg_rifleman";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"x\cfp\addons\vehicles\Hilux\body_ypg2_co.paa"};
+        textureList[] =
+        {
+            "YPG",1,
+            "YPG2",1,
+        };
         TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
         TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
         TRANSPORTITEMSMEDIUM
@@ -729,6 +739,11 @@ class CfgVehicles {
         crew = "cfp_b_ypg_rifleman";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"x\cfp\addons\vehicles\Hilux\body_ypg_co.paa"};
+        textureList[] =
+        {
+            "YPG",1,
+            "YPG2",1,
+        };
         TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
         TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
         TRANSPORTITEMSMEDIUM
@@ -747,6 +762,11 @@ class CfgVehicles {
         crew = "cfp_b_ypg_rifleman";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"x\cfp\addons\vehicles\Hilux\body_ypg2_co.paa"};
+        textureList[] =
+        {
+            "YPG",1,
+            "YPG2",1,
+        };
         TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
         TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
         TRANSPORTITEMSMEDIUM
@@ -765,6 +785,11 @@ class CfgVehicles {
         crew = "cfp_b_ypg_rifleman";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"x\cfp\addons\vehicles\Hilux\body_ypg_co.paa"};
+        textureList[] =
+        {
+            "YPG",1,
+            "YPG2",1,
+        };
         TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
         TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
         TRANSPORTITEMSMEDIUM
@@ -783,6 +808,11 @@ class CfgVehicles {
         crew = "cfp_b_ypg_rifleman";
         hiddenSelections[] = {"camo"};
         hiddenSelectionsTextures[] = {"x\cfp\addons\vehicles\Hilux\body_ypg2_co.paa"};
+        textureList[] =
+        {
+            "YPG",1,
+            "YPG2",1,
+        };
         TRANSPORTWEAPONSMEDIUM(CUP_arifle_AKM,CUP_launch_RPG7V)
         TRANSPORTMAGAZINESMEDIUM(CUP_30Rnd_762x39_AK47_M,CUP_PG7V_M,SmokeShell,SmokeShellOrange)
         TRANSPORTITEMSMEDIUM

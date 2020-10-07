@@ -773,6 +773,13 @@ class CUP_B_Boxer_GMG_GER_WDL: CUP_Boxer_Base_GMG
         faction = "CFP_B_DEARMY_WDL";
         editorSubcategory = "CFP_EdSubcat_Personnel_Camo_KFleck";
     };
+    class CUP_SearchLight_static_base;
+    class CUP_B_SearchLight_static_GER_Fleck: CUP_SearchLight_static_base
+{
+    faction = "CFP_B_DEARMY_WDL";
+    crew = "CUP_B_GER_BW_Fleck_Soldier";
+    typicalCargo[] = {"CUP_B_GER_BW_Fleck_Soldier"};
+};
 
     class Box_NATO_Ammo_F; // CUP_USBasicAmmunitionBox
     class Box_NATO_Wps_F; // CUP_USBasicWeaponsBox

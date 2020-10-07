@@ -26,7 +26,8 @@ class CfgPatches {
             "CUP_B_GER_BW_Fleck_Soldier_PZF_AT",
             "CUP_B_Boxer_Empty_GER_WDL",
             "CUP_B_Boxer_HMG_GER_WDL",
-            "CUP_B_Boxer_GMG_GER_WDL"
+            "CUP_B_Boxer_GMG_GER_WDL",
+            "CUP_B_SearchLight_static_GER_Fleck"
         };
         weapons[] = {};
         requiredAddons[] = {

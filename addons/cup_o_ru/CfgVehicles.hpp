@@ -1,6 +1,6 @@
 class CfgEditorSubCategories
 {
-    class CFP_EdSubcat_Personnel_VSR98 { displayName = "Men (MSV VSR-98)";  };
+    class CFP_EdSubcat_Personnel_VSR98 { displayName = "Men (MSV - VSR-98)";  };
 };
 
 class CfgVehicles {

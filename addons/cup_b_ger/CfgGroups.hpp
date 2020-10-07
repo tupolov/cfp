@@ -14,7 +14,7 @@ class CfgGroups {
             delete Infantry_WDL;
 
             class Infantry {
-                name = "Infantry (Tropentarn)";
+                name = "Infantry (Desert)";
                 delete CUP_B_GER_BW_sniper_team;
 
             };

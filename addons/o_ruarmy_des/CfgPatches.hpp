@@ -174,7 +174,9 @@ class CfgPatches {
             "CFP_O_RUARMY_Gunner_METIS_DES_01",
             "CFP_O_RUARMY_Asst_Gunner_METIS_DES_01",
             "CFP_O_RUARMY_Gunner_Mortar_DES_01",
-            "CFP_O_RUARMY_Asst_Gunner_Mortar_DES_01"
+            "CFP_O_RUARMY_Asst_Gunner_Mortar_DES_01",
+            "CFP_O_RUARMY_Kornet_DES_01",
+            "CFP_O_RUARMY_SearchLight_static_DES_01"
         };
         weapons[] = {
             "CFP_H_O_RUARMY_6B27_NVG",
