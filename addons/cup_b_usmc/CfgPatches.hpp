@@ -1,6 +1,32 @@
 class CfgPatches {
     class ADDON {
         units[] = {
+            "CUP_B_USMC_MARSOC",
+            "CUP_B_USMC_MARSOC_TL",
+            "CUP_B_USMC_MARSOC_TC",
+            "CUP_B_USMC_MARSOC_OC",
+            "CUP_B_USMC_MARSOC_CC",
+            "CUP_B_USMC_MARSOC_EL",
+            "CUP_B_USMC_MARSOC_AR",
+            "CUP_B_USMC_MARSOC_Medic",
+            "CUP_B_USMC_MARSOC_Marksman",
+            "CUP_B_USMC_MARSOC_DA",
+            "CUP_B_USMC_MARSOC_TL_DA",
+            "CUP_B_USMC_MARSOC_TC_DA",
+            "CUP_B_USMC_MARSOC_OC_DA",
+            "CUP_B_USMC_MARSOC_CC_DA",
+            "CUP_B_USMC_MARSOC_EL_DA",
+            "CUP_B_USMC_MARSOC_AR_DA",
+            "CUP_B_USMC_MARSOC_Medic_DA",
+            "CUP_B_USMC_MARSOC_Marksman_DA",
+            "CUP_B_USMC_Gunner_M2_High_WDL_01",
+            "CUP_B_USMC_Gunner_M2_Low_WDL_01",
+            "CUP_B_USMC_Asst_Gunner_M2_WDL_01",
+            "CUP_B_USMC_Asst_Gunner_M2Low_WDL_01",
+            "CUP_B_USMC_Gunner_TOW_WDL_01",
+            "CUP_B_USMC_Asst_Gunner_TOW_WDL_01",
+            "CUP_B_USMC_Gunner_Mortar_WDL_01",
+            "CUP_B_USMC_Asst_Gunner_Mortar_WDL_01"
         };
         weapons[] = {};
         requiredAddons[] = {

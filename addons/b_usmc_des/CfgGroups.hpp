@@ -274,252 +274,6 @@ class CfgGroups {
                     };
                 };
 
-                class CUP_B_USMC_InfSquad_FROG_DES {
-                    name = "Rifle Squad (FROG)";
-                    side = 1;
-                    faction = "CFP_B_USMC_DES";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
-                    rarityGroup = 0.5;
-
-                    class Unit0 {
-                        position[] = {0,5,0};
-                        rank = "LIEUTENANT";
-                        side = 1;
-                        vehicle = "CUP_B_USMC_Soldier_SL_FROG_DES";
-                    };
-                    class Unit1 {
-                        position[] = {3,0,0};
-                        rank = "SERGEANT";
-                        side = 1;
-                        vehicle = "CUP_B_USMC_Soldier_TL_FROG_DES";
-                    };
-                    class Unit2 {
-                        position[] = {5,0,0};
-                        rank = "CORPORAL";
-                        side = 1;
-                        vehicle = "CUP_B_USMC_Soldier_AR_FROG_DES";
-                    };
-                    class Unit3 {
-                        position[] = {7,0,0};
-                        rank = "CORPORAL";
-                        side = 1;
-                        vehicle = "CUP_B_USMC_Soldier_LAT_FROG_DES";
-                    };
-                    class Unit4 {
-                        position[] = {9,0,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "CUP_B_USMC_Soldier_FROG_DES";
-                    };
-                    class Unit5 {
-                        position[] = {12,0,0};
-                        rank = "SERGEANT";
-                        side = 1;
-                        vehicle = "CUP_B_USMC_Soldier_TL_FROG_DES";
-                    };
-                    class Unit6 {
-                        position[] = {14,0,0};
-                        rank = "CORPORAL";
-                        side = 1;
-                        vehicle = "CUP_B_USMC_Soldier_AR_FROG_DES";
-                    };
-                    class Unit7 {
-                        position[] = {16,0,0};
-                        rank = "CORPORAL";
-                        side = 1;
-                        vehicle = "CUP_B_USMC_Soldier_LAT_FROG_DES";
-                    };
-                    class Unit8 {
-                        position[] = {18,0,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "CUP_B_USMC_Soldier_FROG_DES";
-                    };
-                    class Unit9 {
-                        position[] = {3,-5,0};
-                        rank = "SERGEANT";
-                        side = 1;
-                        vehicle = "CUP_B_USMC_Soldier_TL_FROG_DES";
-                    };
-                    class Unit10 {
-                        position[] = {5,-5,0};
-                        rank = "CORPORAL";
-                        side = 1;
-                        vehicle = "CUP_B_USMC_Soldier_AR_FROG_DES";
-                    };
-                    class Unit11 {
-                        position[] = {7,-5,0};
-                        rank = "CORPORAL";
-                        side = 1;
-                        vehicle = "CUP_B_USMC_Soldier_LAT_FROG_DES";
-                    };
-                    class Unit12 {
-                        position[] = {9,-5,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "CUP_B_USMC_Soldier_FROG_DES";
-                    };
-                };
-
-                class CUP_B_USMC_FireTeam_FROG_DES {
-                    name = "Fire Team (FROG)";
-                    side = 1;
-                    faction = "CFP_B_USMC_DES";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
-                    rarityGroup = 0.05;
-
-                    class Unit0 {
-                        position[] = {0,5,0};
-                        rank = "SERGEANT";
-                        side = 1;
-                        vehicle = "CUP_B_USMC_Soldier_TL_FROG_DES";
-                    };
-                    class Unit1 {
-                        position[] = {3,0,0};
-                        rank = "CORPORAL";
-                        side = 1;
-                        vehicle = "CUP_B_USMC_Soldier_AR_FROG_DES";
-                    };
-                    class Unit2 {
-                        position[] = {5,0,0};
-                        rank = "CORPORAL";
-                        side = 1;
-                        vehicle = "CUP_B_USMC_Soldier_LAT_FROG_DES";
-                    };
-                    class Unit3 {
-                        position[] = {7,0,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "CUP_B_USMC_Soldier_FROG_DES";
-                    };
-                };
-
-                class CUP_B_USMC_FireTeam_MG_FROG_DES {
-                    name = "Fire Team (FROG - MG)";
-                    side = 1;
-                    faction = "CFP_B_USMC_DES";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
-                    rarityGroup = 0.1;
-
-                    class Unit0 {
-                        position[] = {0,5,0};
-                        rank = "SERGEANT";
-                        side = 1;
-                        vehicle = "CUP_B_USMC_Soldier_TL_FROG_DES";
-                    };
-                    class Unit1 {
-                        position[] = {3,0,0};
-                        rank = "CORPORAL";
-                        side = 1;
-                        vehicle = "CUP_B_USMC_Soldier_MG_FROG_DES";
-                    };
-                    class Unit2 {
-                        position[] = {5,0,0};
-                        rank = "CORPORAL";
-                        side = 1;
-                        vehicle = "CUP_B_USMC_Soldier_AR_FROG_DES";
-                    };
-                    class Unit3 {
-                        position[] = {7,0,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "CUP_B_USMC_Soldier_LAT_FROG_DES";
-                    };
-                };
-
-                class CUP_B_USMC_FireTeam_AT_FROG_DES {
-                    name = "Fire Team (FROG - AT)";
-                    side = 1;
-                    faction = "CFP_B_USMC_DES";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
-                    rarityGroup = 0.1;
-
-                    class Unit0 {
-                        position[] = {0,5,0};
-                        rank = "SERGEANT";
-                        side = 1;
-                        vehicle = "CUP_B_USMC_Soldier_TL_FROG_DES";
-                    };
-                    class Unit1 {
-                        position[] = {3,0,0};
-                        rank = "CORPORAL";
-                        side = 1;
-                        vehicle = "CUP_B_USMC_Soldier_AR_FROG_DES";
-                    };
-                    class Unit2 {
-                        position[] = {5,0,0};
-                        rank = "CORPORAL";
-                        side = 1;
-                        vehicle = "CUP_B_USMC_Soldier_AT_FROG_DES";
-                    };
-                    class Unit3 {
-                        position[] = {7,0,0};
-                        rank = "PRIVATE";
-                        side = 1;
-                        vehicle = "CUP_B_USMC_Soldier_LAT_FROG_DES";
-                    };
-                };
-
-                class CUP_B_USMC_FireTeam_Support_FROG_DES {
-                    name = "Fire Team (FROG - Support)";
-                    side = 1;
-                    faction = "CFP_B_USMC_DES";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
-                    rarityGroup = 0.05;
-
-                    class Unit0 {
-                        position[] = {0,5,0};
-                        rank = "SERGEANT";
-                        side = 1;
-                        vehicle = "CUP_B_USMC_Soldier_TL_FROG_DES";
-                    };
-                    class Unit1 {
-                        position[] = {3,0,0};
-                        rank = "CORPORAL";
-                        side = 1;
-                        vehicle = "CUP_B_USMC_Soldier_AR_FROG_DES";
-                    };
-                    class Unit2 {
-                        position[] = {5,0,0};
-                        rank = "CORPORAL";
-                        side = 1;
-                        vehicle = "CUP_B_USMC_Soldier_LAT_FROG_DES";
-                    };
-                    class Unit3 {
-                        position[] = {7,0,0};
-                        rank = "CORPORAL";
-                        side = 1;
-                        vehicle = "CUP_B_USMC_Medic_FROG_DES";
-                    };
-                };
-
-                class CUP_B_USMC_HeavyATTeam_FROG_DES {
-                    name = "Heavy AT Team (FROG)";
-                    side = 1;
-                    faction = "CFP_B_USMC_DES";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
-                    rarityGroup = 0.15;
-
-                    class Unit0 {
-                        position[] = {0,5,0};
-                        rank = "SERGEANT";
-                        side = 1;
-                        vehicle = "CUP_B_USMC_Soldier_HAT_FROG_DES";
-                    };
-                    class Unit1 {
-                        position[] = {3,0,0};
-                        rank = "CORPORAL";
-                        side = 1;
-                        vehicle = "CUP_B_USMC_Soldier_AT_FROG_DES";
-                    };
-                    class Unit2 {
-                        position[] = {5,0,0};
-                        rank = "CORPORAL";
-                        side = 1;
-                        vehicle = "CUP_B_USMC_Soldier_LAT_FROG_DES";
-                    };
-                };
-
                 class CFP_B_USMC_infantry_M2_team_high {
                     name = "M2 MG Team [High]";
                     side = 1;
@@ -605,9 +359,643 @@ class CfgGroups {
                 };
             };
 
+            class Infantry_FROG_DES
+            {
+                name = "Infantry (FROG Desert)";
+                class CUP_B_USMC_InfSquad_FROG_DES
+                {
+                    name = "Rifle Squad";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    faction = "CFP_B_USMC_DES"; side = 1;
+                    rarityGroup = 0.5;
+                    class Unit0
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_USMC_Soldier_SL_FROG_DES";
+                        rank = "LIEUTENANT";
+                        position[] = {0,5,0};
+                    };
+                    class Unit1
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_USMC_Soldier_TL_FROG_DES";
+                        rank = "SERGEANT";
+                        position[] = {3,0,0};
+                    };
+                    class Unit2
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_USMC_Soldier_AR_FROG_DES";
+                        rank = "CORPORAL";
+                        position[] = {5,0,0};
+                    };
+                    class Unit3
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_USMC_Soldier_LAT_FROG_DES";
+                        rank = "CORPORAL";
+                        position[] = {7,0,0};
+                    };
+                    class Unit4
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_USMC_Soldier_FROG_DES";
+                        rank = "PRIVATE";
+                        position[] = {9,0,0};
+                    };
+                    class Unit5
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_USMC_Soldier_TL_FROG_DES";
+                        rank = "SERGEANT";
+                        position[] = {12,0,0};
+                    };
+                    class Unit6
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_USMC_Soldier_AR_FROG_DES";
+                        rank = "CORPORAL";
+                        position[] = {14,0,0};
+                    };
+                    class Unit7
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_USMC_Soldier_LAT_FROG_DES";
+                        rank = "CORPORAL";
+                        position[] = {16,0,0};
+                    };
+                    class Unit8
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_USMC_Soldier_FROG_DES";
+                        rank = "PRIVATE";
+                        position[] = {18,0,0};
+                    };
+                    class Unit9
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_USMC_Soldier_TL_FROG_DES";
+                        rank = "SERGEANT";
+                        position[] = {3,-5,0};
+                    };
+                    class Unit10
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_USMC_Soldier_AR_FROG_DES";
+                        rank = "CORPORAL";
+                        position[] = {5,-5,0};
+                    };
+                    class Unit11
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_USMC_Soldier_LAT_FROG_DES";
+                        rank = "CORPORAL";
+                        position[] = {7,-5,0};
+                    };
+                    class Unit12
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_USMC_Soldier_FROG_DES";
+                        rank = "PRIVATE";
+                        position[] = {9,-5,0};
+                    };
+                };
+                class CUP_B_USMC_FireTeam_FROG_DES
+                {
+                    name = "Fire Team";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    faction = "CFP_B_USMC_DES"; side = 1;
+                    rarityGroup = 0.05;
+                    class Unit0
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_USMC_Soldier_TL_FROG_DES";
+                        rank = "SERGEANT";
+                        position[] = {0,5,0};
+                    };
+                    class Unit1
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_USMC_Soldier_AR_FROG_DES";
+                        rank = "CORPORAL";
+                        position[] = {3,0,0};
+                    };
+                    class Unit2
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_USMC_Soldier_LAT_FROG_DES";
+                        rank = "CORPORAL";
+                        position[] = {5,0,0};
+                    };
+                    class Unit3
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_USMC_Soldier_FROG_DES";
+                        rank = "PRIVATE";
+                        position[] = {7,0,0};
+                    };
+                };
+                class CUP_B_USMC_FireTeam_MG_FROG_DES
+                {
+                    name = "Fire Team (MG)";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    faction = "CFP_B_USMC_DES"; side = 1;
+                    rarityGroup = 0.1;
+                    class Unit0
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_USMC_Soldier_TL_FROG_DES";
+                        rank = "SERGEANT";
+                        position[] = {0,5,0};
+                    };
+                    class Unit1
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_USMC_Soldier_MG_FROG_DES";
+                        rank = "CORPORAL";
+                        position[] = {3,0,0};
+                    };
+                    class Unit2
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_USMC_Soldier_AR_FROG_DES";
+                        rank = "CORPORAL";
+                        position[] = {5,0,0};
+                    };
+                    class Unit3
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_USMC_Soldier_LAT_FROG_DES";
+                        rank = "PRIVATE";
+                        position[] = {7,0,0};
+                    };
+                };
+                class CUP_B_USMC_FireTeam_AT_FROG_DES
+                {
+                    name = "Fire Team (AT)";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    faction = "CFP_B_USMC_DES"; side = 1;
+                    rarityGroup = 0.1;
+                    class Unit0
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_USMC_Soldier_TL_FROG_DES";
+                        rank = "SERGEANT";
+                        position[] = {0,5,0};
+                    };
+                    class Unit1
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_USMC_Soldier_AR_FROG_DES";
+                        rank = "CORPORAL";
+                        position[] = {3,0,0};
+                    };
+                    class Unit2
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_USMC_Soldier_AT_FROG_DES";
+                        rank = "CORPORAL";
+                        position[] = {5,0,0};
+                    };
+                    class Unit3
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_USMC_Soldier_LAT_FROG_DES";
+                        rank = "PRIVATE";
+                        position[] = {7,0,0};
+                    };
+                };
+                class CUP_B_USMC_FireTeam_Support_FROG_DES
+                {
+                    name = "Fire Team (Support)";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    faction = "CFP_B_USMC_DES"; side = 1;
+                    rarityGroup = 0.05;
+                    class Unit0
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_USMC_Soldier_TL_FROG_DES";
+                        rank = "SERGEANT";
+                        position[] = {0,5,0};
+                    };
+                    class Unit1
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_USMC_Soldier_AR_FROG_DES";
+                        rank = "CORPORAL";
+                        position[] = {3,0,0};
+                    };
+                    class Unit2
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_USMC_Soldier_LAT_FROG_DES";
+                        rank = "CORPORAL";
+                        position[] = {5,0,0};
+                    };
+                    class Unit3
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_USMC_Medic_FROG_DES";
+                        rank = "CORPORAL";
+                        position[] = {7,0,0};
+                    };
+                };
+                class CUP_B_USMC_HeavyATTeam_FROG_DES
+                {
+                    name = "Heavy AT Team";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    faction = "CFP_B_USMC_DES"; side = 1;
+                    rarityGroup = 0.15;
+                    class Unit0
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_USMC_Soldier_HAT_FROG_DES";
+                        rank = "SERGEANT";
+                        position[] = {0,5,0};
+                    };
+                    class Unit1
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_USMC_Soldier_AT_FROG_DES";
+                        rank = "CORPORAL";
+                        position[] = {3,0,0};
+                    };
+                    class Unit2
+                    {
+                        side = 1;
+                        vehicle = "CUP_B_USMC_Soldier_LAT_FROG_DES";
+                        rank = "CORPORAL";
+                        position[] = {5,0,0};
+                    };
+                };
+            };
+
             class SpecOps {
                 name = "Special Forces";
-
+                class CUP_B_USMC_InfSquad_MARSOC
+                {
+                    name = "Marine Special Operations Team";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    faction = "CFP_B_USMC_DES"; side = 1;
+                    rarityGroup = 0.5;
+                    class Unit0
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_TL_des";
+                        rank = "LIEUTENANT";
+                        position[] = {0,5,0};
+                    };
+                    class Unit1
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_TC_des";
+                        rank = "SERGEANT";
+                        position[] = {3,0,0};
+                    };
+                    class Unit2
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_OC_des";
+                        rank = "CORPORAL";
+                        position[] = {5,0,0};
+                    };
+                    class Unit3
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_CC_des";
+                        rank = "CORPORAL";
+                        position[] = {7,0,0};
+                    };
+                    class Unit4
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_EL_des";
+                        rank = "CORPORAL";
+                        position[] = {9,0,0};
+                    };
+                    class Unit5
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_AR_des";
+                        rank = "SERGEANT";
+                        position[] = {12,0,0};
+                    };
+                    class Unit6
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_Marksman_des";
+                        rank = "CORPORAL";
+                        position[] = {14,0,0};
+                    };
+                    class Unit7
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_Medic_des";
+                        rank = "CORPORAL";
+                        position[] = {16,0,0};
+                    };
+                    class Unit8
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_des";
+                        rank = "CORPORAL";
+                        position[] = {18,0,0};
+                    };
+                    class Unit9
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_EL_des";
+                        rank = "SERGEANT";
+                        position[] = {3,-5,0};
+                    };
+                    class Unit10
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_des";
+                        rank = "CORPORAL";
+                        position[] = {5,-5,0};
+                    };
+                    class Unit11
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_des";
+                        rank = "CORPORAL";
+                        position[] = {7,-5,0};
+                    };
+                    class Unit12
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_des";
+                        rank = "CORPORAL";
+                        position[] = {9,-5,0};
+                    };
+                    class Unit13
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_Medic_des";
+                        rank = "CORPORAL";
+                        position[] = {11,-5,0};
+                    };
+                };
+                class CUP_B_USMC_FireTeam_MARSOC
+                {
+                    name = "Tactical Element";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    faction = "CFP_B_USMC_DES"; side = 1;
+                    rarityGroup = 0.5;
+                    class Unit0
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_EL_des";
+                        rank = "SERGEANT";
+                        position[] = {0,5,0};
+                    };
+                    class Unit1
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_des";
+                        rank = "CORPORAL";
+                        position[] = {3,0,0};
+                    };
+                    class Unit2
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_des";
+                        rank = "CORPORAL";
+                        position[] = {5,0,0};
+                    };
+                    class Unit3
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_AR_des";
+                        rank = "CORPORAL";
+                        position[] = {7,0,0};
+                    };
+                    class Unit4
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_Medic_des";
+                        rank = "CORPORAL";
+                        position[] = {9,0,0};
+                    };
+                };
+                class CUP_B_USMC_FireTeam_MARSOC_HQ
+                {
+                    name = "HQ Element";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    faction = "CFP_B_USMC_DES"; side = 1;
+                    rarityGroup = 0.1;
+                    class Unit0
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_TL_des";
+                        rank = "LIEUTENANT";
+                        position[] = {0,5,0};
+                    };
+                    class Unit1
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_TC_des";
+                        rank = "SERGEANT";
+                        position[] = {3,0,0};
+                    };
+                    class Unit2
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_OC_des";
+                        rank = "CORPORAL";
+                        position[] = {5,0,0};
+                    };
+                    class Unit3
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_CC_des";
+                        rank = "CORPORAL";
+                        position[] = {7,0,0};
+                    };
+                };
+                class CUP_B_USMC_InfSquad_MARSOC_DA
+                {
+                    name = "Marine Special Operations Team DA";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    faction = "CFP_B_USMC_DES"; side = 1;
+                    rarityGroup = 0.5;
+                    class Unit0
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_TL_DA_des";
+                        rank = "LIEUTENANT";
+                        position[] = {0,5,0};
+                    };
+                    class Unit1
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_TC_DA_des";
+                        rank = "SERGEANT";
+                        position[] = {3,0,0};
+                    };
+                    class Unit2
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_OC_DA_des";
+                        rank = "CORPORAL";
+                        position[] = {5,0,0};
+                    };
+                    class Unit3
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_CC_DA_des";
+                        rank = "CORPORAL";
+                        position[] = {7,0,0};
+                    };
+                    class Unit4
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_EL_DA_des";
+                        rank = "CORPORAL";
+                        position[] = {9,0,0};
+                    };
+                    class Unit5
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_AR_DA_des";
+                        rank = "SERGEANT";
+                        position[] = {12,0,0};
+                    };
+                    class Unit6
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_Marksman_DA_des";
+                        rank = "CORPORAL";
+                        position[] = {14,0,0};
+                    };
+                    class Unit7
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_Medic_DA_des";
+                        rank = "CORPORAL";
+                        position[] = {16,0,0};
+                    };
+                    class Unit8
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_DA_des";
+                        rank = "CORPORAL";
+                        position[] = {18,0,0};
+                    };
+                    class Unit9
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_EL_DA_des";
+                        rank = "SERGEANT";
+                        position[] = {3,-5,0};
+                    };
+                    class Unit10
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_DA_des";
+                        rank = "CORPORAL";
+                        position[] = {5,-5,0};
+                    };
+                    class Unit11
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_DA_des";
+                        rank = "CORPORAL";
+                        position[] = {7,-5,0};
+                    };
+                    class Unit12
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_DA_des";
+                        rank = "CORPORAL";
+                        position[] = {9,-5,0};
+                    };
+                    class Unit13
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_Medic_DA_des";
+                        rank = "CORPORAL";
+                        position[] = {11,-5,0};
+                    };
+                };
+                class CUP_B_USMC_FireTeam_MARSOC_DA
+                {
+                    name = "Tactical Element DA";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    faction = "CFP_B_USMC_DES"; side = 1;
+                    rarityGroup = 0.5;
+                    class Unit0
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_EL_DA_des";
+                        rank = "SERGEANT";
+                        position[] = {0,5,0};
+                    };
+                    class Unit1
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_DA_des";
+                        rank = "CORPORAL";
+                        position[] = {3,0,0};
+                    };
+                    class Unit2
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_DA_des";
+                        rank = "CORPORAL";
+                        position[] = {5,0,0};
+                    };
+                    class Unit3
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_AR_DA_des";
+                        rank = "CORPORAL";
+                        position[] = {7,0,0};
+                    };
+                    class Unit4
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_Medic_DA_des";
+                        rank = "CORPORAL";
+                        position[] = {9,0,0};
+                    };
+                };
+                class CUP_B_USMC_FireTeam_MARSOC_HQ_DA
+                {
+                    name = "HQ Element DA";
+                    icon = "\A3\ui_f\data\map\markers\nato\b_inf.paa";
+                    faction = "CFP_B_USMC_DES"; side = 1;
+                    rarityGroup = 0.1;
+                    class Unit0
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_TL_DA_des";
+                        rank = "LIEUTENANT";
+                        position[] = {0,5,0};
+                    };
+                    class Unit1
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_TC_DA_des";
+                        rank = "SERGEANT";
+                        position[] = {3,0,0};
+                    };
+                    class Unit2
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_OC_DA_des";
+                        rank = "CORPORAL";
+                        position[] = {5,0,0};
+                    };
+                    class Unit3
+                    {
+                        side = 1;
+                        vehicle = "CFP_B_USMC_MARSOC_CC_DA_des";
+                        rank = "CORPORAL";
+                        position[] = {7,0,0};
+                    };
+                };
                 class CUP_B_USMC_FRTeam_Desert {
                     name = "Force Recon Team (Desert)";
                     side = 1;
@@ -1092,111 +1480,6 @@ class CfgGroups {
 
             class Air {
                 name = "Air";
-
-                class cfp_b_usmc_air_ah_1z_squadron_des {
-                    name = "AH-1Z Squadron";
-                    side = 1;
-                    faction = "CFP_B_USMC_DES";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
-                    rarityGroup = 0.3;
-
-                    class Unit0 {
-                        position[] = {0,15,0};
-                        rank = "CAPTAIN";
-                        side = 1;
-                        vehicle = "CFP_B_USMC_AH_1Z_DES_01";
-                    };
-                    class Unit1 {
-                        position[] = {15,0,0};
-                        rank = "LIEUTENANT";
-                        side = 1;
-                        vehicle = "CFP_B_USMC_AH_1Z_DES_01";
-                    };
-                };
-
-                class cfp_b_usmc_air_uh_1y_squadron_des {
-                    name = "UH-1Y Squadron";
-                    side = 1;
-                    faction = "CFP_B_USMC_DES";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
-                    rarityGroup = 0.5;
-
-                    class Unit0 {
-                        position[] = {0,15,0};
-                        rank = "CAPTAIN";
-                        side = 1;
-                        vehicle = "CFP_B_USMC_UH_1Y_Venom_Gunship_DES_01";
-                    };
-                    class Unit1 {
-                        position[] = {15,0,0};
-                        rank = "LIEUTENANT";
-                        side = 1;
-                        vehicle = "CFP_B_USMC_UH_1Y_Venom_Gunship_DES_01";
-                    };
-                };
-
-                class cfp_b_usmc_air_mv_22_squadron_des {
-                    name = "MV-22 Squadron";
-                    side = 1;
-                    faction = "CFP_B_USMC_DES";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_air.paa";
-                    rarityGroup = 0.5;
-
-                    class Unit0 {
-                        position[] = {0,20,0};
-                        rank = "CAPTAIN";
-                        side = 1;
-                        vehicle = "CFP_B_USMC_MV_22B_Osprey_DES_01";
-                    };
-                    class Unit1 {
-                        position[] = {20,0,0};
-                        rank = "LIEUTENANT";
-                        side = 1;
-                        vehicle = "CFP_B_USMC_MV_22B_Osprey_Ramp_Gun_DES_01";
-                    };
-                };
-
-                class cfp_b_usmc_air_av_8b_fighter_squadron_des {
-                    name = "AV-8B Fighter Squadron";
-                    side = 1;
-                    faction = "CFP_B_USMC_DES";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_plane.paa";
-                    rarityGroup = 0.3;
-
-                    class Unit0 {
-                        position[] = {0,20,0};
-                        rank = "CAPTAIN";
-                        side = 1;
-                        vehicle = "CFP_B_USMC_AV_8B_Harrier_II_DES_01";
-                    };
-                    class Unit1 {
-                        position[] = {20,0,0};
-                        rank = "LIEUTENANT";
-                        side = 1;
-                        vehicle = "CFP_B_USMC_AV_8B_Harrier_II_DES_01";
-                    };
-                };
-
-                class cfp_b_usmc_air_av_8b_bomber_squadron_des {
-                    name = "AV-8B Bomber Squadron";
-                    side = 1;
-                    faction = "CFP_B_USMC_DES";
-                    icon = "\A3\ui_f\data\map\markers\nato\b_plane.paa";
-                    rarityGroup = 0.5;
-
-                    class Unit0 {
-                        position[] = {0,20,0};
-                        rank = "CAPTAIN";
-                        side = 1;
-                        vehicle = "CFP_B_USMC_AV_8B_Harrier_II_DES_01";
-                    };
-                    class Unit1 {
-                        position[] = {20,0,0};
-                        rank = "LIEUTENANT";
-                        side = 1;
-                        vehicle = "CFP_B_USMC_AV_8B_Harrier_II_DES_01";
-                    };
-                };
 
             };
 

@@ -36,7 +36,7 @@ class CfgPatches {
             "CFP_B_AFARMY_Asst_Gunner_SPG_01",
             "CFP_B_AFARMY_Gunner_Mortar_01",
             "CFP_B_AFARMY_Asst_Gunner_Mortar_01",
-            "CFP_B_AFARMY_DShKM_High_01",
+            "CFP_B_AFARMY_DShKM_01",
             "CFP_B_AFARMY_DShKM_Low_01",
             "CFP_B_AFARMY_SPG_9_01",
             "CFP_B_AFARMY_Podnos_2B14_01",
