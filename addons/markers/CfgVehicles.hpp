@@ -1,6 +1,6 @@
 class CfgMarkers
 {
-	class Flag;
+	class flag_NATO;
 	class hd_dot;
 	class hd_ambush;
 	class hd_arrow;
@@ -21,8 +21,8 @@ class CfgMarkers
 	};
 	class CFP_MARKER_ALGERIA : CFP_MARKER_BASE
 	{
-		scope = 2;
-		scopeCurator = 2;
+		scope = 1;
+		shadow = 0;
 		name = "Algeria";
 		icon = "\x\cfp\addons\markers\data\africa\marker_algeria_ca.paa";
 		texture = "\x\cfp\addons\markers\data\africa\marker_algeria_ca.paa";
