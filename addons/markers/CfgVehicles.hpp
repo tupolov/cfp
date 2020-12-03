@@ -13,16 +13,9 @@ class CfgMarkers
 	class hd_start;
 	class hd_unknown;
 	class hd_warning;
-	class CFP_MARKER_BASE : Flag
+	class CFP_MARKER_ALGERIA : flag_NATO
 	{
-		markerClass = "Flags";
 		author = "Siege-A";
-		color[] = {1,1,1,1};
-	};
-	class CFP_MARKER_ALGERIA : CFP_MARKER_BASE
-	{
-		scope = 1;
-		shadow = 0;
 		name = "Algeria";
 		icon = "\x\cfp\addons\markers\data\africa\marker_algeria_ca.paa";
 		texture = "\x\cfp\addons\markers\data\africa\marker_algeria_ca.paa";
