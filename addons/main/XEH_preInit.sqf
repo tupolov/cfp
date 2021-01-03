@@ -10,7 +10,7 @@ PREP_RECOMPILE_END;
     QGVARMAIN(autoEquipNVG),
     "CHECKBOX",
     "Enable NVG auto equip",
-    "AI",
+    "CFP - AI",
     true,
     true,
     {},
