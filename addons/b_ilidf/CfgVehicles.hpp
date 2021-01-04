@@ -556,7 +556,7 @@ class CfgVehicles {
 
         backpack = "B_Kitbag_rgr";
 
-        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_X95","","","CUP_optic_MARS",{"CUP_30Rnd_556x45_X95",30},{},""},{"CUP_launch_FIM92Stinger","","","",{},{},""},{},{"CFP_IDF_1",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_X95",3,30}}},{"CUP_V_IDF_Vest",{{"CUP_30Rnd_556x45_X95",4,30},{"CUP_HandGrenade_M67",1,1},{"Chemlight_green",1,1},{"SmokeShell",1,1}}},{"B_Kitbag_rgr",{{"CUP_Stinger_M",1,1}}},"CFP_IDF_M76","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
+        ALiVE_orbatCreator_loadout[] = {{"CUP_arifle_X95","","","CUP_optic_MARS",{"CUP_30Rnd_556x45_X95",30},{},""},{"CUP_launch_FIM92Stinger","","","",{"CUP_Stinger_M",1},{},""},{},{"CFP_IDF_1",{{"FirstAidKit",1},{"CUP_30Rnd_556x45_X95",3,30}}},{"CUP_V_IDF_Vest",{{"CUP_30Rnd_556x45_X95",4,30},{"CUP_HandGrenade_M67",1,1},{"Chemlight_green",1,1},{"SmokeShell",1,1}}},{"B_Kitbag_rgr",{{"CUP_Stinger_M",1,1}}},"CFP_IDF_M76","",{},{"ItemMap","","ItemRadio","ItemCompass","ItemWatch",""}};
 
     };
 
