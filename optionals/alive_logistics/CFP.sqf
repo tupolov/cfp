@@ -49,4 +49,5 @@
 #include "CUP_B_US_ARMY_Logistics.hpp"
 #include "CUP_B_USMC_Logistics.hpp"
 #include "CUP_O_RU_Logistics.hpp"
-
+#include "CFP_O_RHGUERILLAS_Logistics.hpp"
+#include "CFP_O_SANDINISTAS_Logistics.hpp"
