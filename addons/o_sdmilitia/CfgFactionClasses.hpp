@@ -8,8 +8,8 @@ class CfgFactionClasses {
     class CFP_O_SDMilitia {
         displayName = "Sudan Rapid Support Forces / Janjaweed";
         side = 0;
-        flag = "x\cfp\addons\o_sdmilitia\Data\UI\Sudan.paa";
-        icon = "x\cfp\addons\o_sdmilitia\Data\UI\Sudan.paa";
+        flag = "x\cfp\addons\o_sdmilitia\UI\sudan.paa";
+        icon = "x\cfp\addons\o_sdmilitia\UI\sudan.paa";
         priority = 0;
     };
 };
